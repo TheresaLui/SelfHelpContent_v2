@@ -6,7 +6,7 @@
   selfhelptype="Generic"
   supporttopicids="32640645"
   productpesids="16572"
-  cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+  cloudenvironments="blackforest"
   articleid="3df9edbf-d104-406a-abbf-ea9daa676127"
   ownershipid="CloudNet_VirtualWAN" />
 # Connectivity issues of on-prem VPN devices
