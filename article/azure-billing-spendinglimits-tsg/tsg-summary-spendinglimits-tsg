@@ -1,5 +1,5 @@
-<properties pageTitle="spending Limit"
-            description="spending Limit"
+<properties pageTitle="spending limit"
+            description="spending limit"
             service="Microsoft.Billing"
             resource="Microsoft.Billing/operations"
             authors="chadmath"
