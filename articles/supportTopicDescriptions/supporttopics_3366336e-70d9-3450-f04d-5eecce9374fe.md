@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9648c58d-06e6-ca47-2057-f9e017e4cd9f",
+      "longDescription": "",
+      "shortDescription": "Help with scale resources issue",
+      "searchTags": "Add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b49fd2bf-0899-e2f4-305e-e824e1545ff8",
       "longDescription": "",
       "shortDescription": "Unable to add the resource type",
