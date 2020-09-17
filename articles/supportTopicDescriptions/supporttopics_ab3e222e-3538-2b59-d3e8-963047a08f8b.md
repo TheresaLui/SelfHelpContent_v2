@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3e869d3-3fe6-3368-4b84-a37b791a4290",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving connectivity issues for monitoring post successful controller deployment",
+      "searchTags": "Monitoring Endpoints;Endpoints;Data Controller",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8535d36-dad9-8d04-1395-51c97ea43e58",
       "longDescription": "",
       "shortDescription": "Select this if you need help with resource contention issues on controller or monitoring pods",
