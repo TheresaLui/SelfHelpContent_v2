@@ -15,11 +15,9 @@
 	ownershipId="ASMS_Billing"
 />
 
-# Add or edit vat tax id or po number
+# Add or edit tax id, po number, sold-to or bill-to
 
 ## **Recommended Steps**
-
-# Add or edit tax id, po number, sold-to or bill-to
 
 You can't update these properties on an existing invoice in the portal. The updated values are only used for invoices that are generated in the future.
 
