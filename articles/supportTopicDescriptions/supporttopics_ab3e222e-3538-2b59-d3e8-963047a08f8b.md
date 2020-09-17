@@ -339,6 +339,14 @@
       "searchTags": "Azure Arc Data Services;Billing;Usage",
       "category": "Azure Arc Data Services Usage Tracking",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fab17800-9dc6-a1ed-3c45-8a7637a44425",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deletion is not responding.",
+      "searchTags": "Data Controller;Delete;uninstall;removal;not responding",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
