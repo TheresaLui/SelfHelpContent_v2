@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "83e62961-3706-cdfb-de15-fa19a73e1c33",
+      "longDescription": "",
+      "shortDescription": "I cannot query my index using the REST API",
+      "searchTags": "query;parameters;uri",
+      "category": "search",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "986119a7-bb99-3873-8de3-925fa611fea8",
       "longDescription": "",
       "shortDescription": "Search results are not returning in the order I expect",
