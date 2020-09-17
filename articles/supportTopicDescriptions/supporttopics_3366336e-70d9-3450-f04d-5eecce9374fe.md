@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "09173ab5-dec6-35a4-1175-a0bac68174a2",
+      "longDescription": "",
+      "shortDescription": "Help selecting SKU on the target region",
+      "searchTags": "Add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6f47f7d2-87e3-e6db-03ac-1ed7eabcbf18",
       "longDescription": "",
       "shortDescription": "Help with region selection",
