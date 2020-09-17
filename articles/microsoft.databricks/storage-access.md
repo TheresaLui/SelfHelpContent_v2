@@ -31,6 +31,8 @@
     ```
   Issue is most likely due to managed identity misconfiguration on Azure SQL DW. To resolve it, please go through these [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
 
+* [Avoiding error 403 (request not authorized) when accessing ADLS Gen 2 from Azure Databricks while using a Service Principal](https://deep.data.blog/2019/03/28/avoiding-error-403-request-not-authorized-when-accessing-adls-gen-2-from-azure-databricks-while-using-a-service-principal/)
+
 ## **Recommended Documents**
 
 * [Cannot Read Azure Databricks Objects Stored in DBFS Root Directory](https://docs.microsoft.com/azure/databricks/kb/dbfs/dbfs-root-permissions)

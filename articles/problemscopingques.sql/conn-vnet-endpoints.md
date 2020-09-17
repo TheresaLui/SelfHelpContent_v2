@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Scoping questions for vNet endpoints and related issues"
-	description="Scoping questions to capture more details about vNet endpoints issue."
+	pageTitle="Scoping questions for vNet endpoints"
+	description="Scoping questions to capture more details about vNet endpoints."
 	authors="vtpombei"
 	ms.author="vtpombei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636832"
+	supportTopicIds="32745439"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-sql-security-vnet-service-endpoints"
-	ownershipId="AzureData_AzureSQLDB_Security"
+	articleId="B3E3C638-35CF-43F6-B7B2-C8B7A737CF62"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Scoping questions for vNet endpoints Errors
 ---
@@ -24,8 +24,8 @@
          "id":"problem_start_time",
          "order":1,
          "controlType":"datetimepicker",
-         "displayLabel":"Unavailability start time",
-         "infoBalloonText":"Please provide the start time of the most recent occurrence of unavailability.",
+         "displayLabel":"Issue start time",
+         "infoBalloonText":"Please provide the start time of the most recent occurrence of the issue.",
          "required":true
       },
       {
@@ -64,13 +64,6 @@
          "required":true
       },
       {
-         "id":"tracking_id",
-         "order":30,
-         "controlType":"textbox",
-         "displayLabel":"Do you have the tracking id or request id associated with the issue?",
-         "required":false
-      },
-      {
          "id":"sql_endpoint_dropdown",
          "order":40,
          "controlType":"dropdown",
@@ -99,7 +92,7 @@
          "displayLabel":"Additional context to help us solve your issue.",
          "required":true,
          "useAsAdditionalDetails":true,
-         "watermarkText":"On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
+         "watermarkText":"If there is a tracking id or request id associated with the issue, please mention it here.  Add any additional details that may help us troubleshoot your issue."
       }
    ]
 }
