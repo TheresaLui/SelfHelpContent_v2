@@ -12,7 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="22c6c8d5-ae3d-4f83-baad-172099086db9"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Commons issues with using Azure Database Migration Services
