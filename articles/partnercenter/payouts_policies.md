@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Payouts - Payout policies"
-	description="SelfHelp for Payouts Product - Payout policies"
+	pageTitle="Payout - payout policies"
+	description="SelfHelp for Payouts Product-Payout policies"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="isv"
