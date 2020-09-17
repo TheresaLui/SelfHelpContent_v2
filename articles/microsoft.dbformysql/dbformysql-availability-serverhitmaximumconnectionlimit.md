@@ -17,7 +17,7 @@
 
 # Connection limits in Azure Databases for MySQL
 
-Both Azure Database for MySQL Single Server and Flexible Server have a fixed limit of maximum allowed concurrent connections. This limit depends on the compute resources provisioned for your server. The current max number of connections are published in the respective documents: [Single server](https://docs.microsoft.com/azure/mysql/concepts-server-parameters) and [Flexible server](https://docs.microsoft.com/en-us/azure/mysql/flexible-server).
+Both Azure Database for MySQL Single Server and Flexible Server have a fixed limit of maximum allowed concurrent connections. This limit depends on the compute resources provisioned for your server. The current max number of connections are published in the respective documents: [Single server](https://docs.microsoft.com/azure/mysql/concepts-server-parameters) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server).
 
 ## **Recommended Steps**
 

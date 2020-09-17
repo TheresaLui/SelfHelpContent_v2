@@ -31,7 +31,7 @@ Azure Database for MySQL offers two deployment types - single server and flexibl
     |Restore|[Perform restore](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal/)|[Perform restore](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-restore-mysql-server-portal)|
     |Replication|[Manage replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal/)|[Manage replicas](https://docs.microsoft.com/azure/mysql/flexible-server)|
     |Server parameters|[Configure parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters/)|[Configure parameters](https://docs.microsoft.com/azure/mysql/flexible-server)|
-    |Monitor server|[Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|[Configure alerts](https://review.docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)|
+    |Monitor server|[Configure alerts](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric/)|[Configure alerts](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)|
     |Move server across resource groups or subscriptions|[Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)|
 
 * Check that the issue is not caused by your browser cache by using a different browser or client machine. If you don't have other browsers, please try a private session in your internet browser.
