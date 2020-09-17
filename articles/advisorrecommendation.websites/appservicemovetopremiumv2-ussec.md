@@ -3,7 +3,7 @@
     description="Move your App Service Plan to PremiumV2 for better performance"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="9ebff5d5-10c1-4fed-8c58-1954e27d3bfa_US1"
+    articleId="9ebff5d5-10c1-4fed-8c58-1954e27d3bfa_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
 	ownershipId="Compute_AppService"

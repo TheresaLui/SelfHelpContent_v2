@@ -3,7 +3,7 @@
     description="Fix the backup storage settings of your App Service resource"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="80efd6cb-dcee-491b-83a4-7956e9e058d5_US2"
+    articleId="80efd6cb-dcee-491b-83a4-7956e9e058d5_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="Compute_AppService"

@@ -3,7 +3,7 @@
     description="Consider scaling out your App Service Plan to avoid CPU exhaustion"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="1294987d-c97d-41d0-8fd8-cb6eab52d87b_US1"
+    articleId="1294987d-c97d-41d0-8fd8-cb6eab52d87b_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
 	ownershipId="Compute_AppService"

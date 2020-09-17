@@ -3,7 +3,7 @@
     description="Fix the backup database settings of your App Service resource"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="b30897cc-2c2e-4677-a2a1-107ae982ff49_US1"
+    articleId="b30897cc-2c2e-4677-a2a1-107ae982ff49_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
 	ownershipId="Compute_AppService"
