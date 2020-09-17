@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Authentication & Role Based Access (RBAC)"
-	description="Authentication & Role Based Access (RBAC)"
+	description="Authentication & Role Based Access (RBAC) "
 	infoBubbleText="Authentication & Role Based Access (RBAC)"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
@@ -11,7 +11,7 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.authentication"
+	articleId="microsoft.machinelearning.enterprisesecurity.authentication-scopingq"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

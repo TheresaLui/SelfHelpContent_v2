@@ -48,7 +48,7 @@ Verify virtual network and firewall rules are configured properly on the storage
 ## **Recommended Documents**
 
 - [Troubleshoot Azure Files problems in Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems)
-- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)
+- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)
 - [Prerequisites for mounting an Azure file share with Linux and the cifs-utils package](https://docs.microsoft.com/azure/storage/files/storage-how-to-use-files-linux#prerequisites-for-mounting-an-azure-file-share-with-linux-and-the-cifs-utils-package)
 - [Secure transfer required](https://docs.microsoft.com/azure/storage/common/storage-require-secure-transfer)
 - [Configure Azure Storage firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
