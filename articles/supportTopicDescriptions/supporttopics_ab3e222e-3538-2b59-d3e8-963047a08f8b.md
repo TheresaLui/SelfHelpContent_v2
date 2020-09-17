@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "11efd171-d401-f096-1395-f237e4c3b0e4",
+      "longDescription": "",
+      "shortDescription": "Select this if you have data services usage tracking technical issues which are not mentioned",
+      "searchTags": "Azure portal;metrics;logs;unknown;shadow resource",
+      "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "13157fcd-1649-aae8-ef6a-af388b9264f4",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving Controller monitoring and logging issues which are not mentioned",
