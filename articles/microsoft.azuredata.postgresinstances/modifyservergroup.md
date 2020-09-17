@@ -18,14 +18,13 @@
     
 # Modify Hyperscale Server Group
 
-The below steps explains how to display the configuration of your server group(s). There are also times when you may need to change the characteristics or the definition of a server group
-
+The below steps explains how to display the configuration of your server group(s). There are also times when you may need to change the characteristics or the definition of a server group.
 
 ## **Recommended Steps**
-Most users are able to get their answers to the questions from the below steps
+Most users are able to get their answers to the questions from the below steps:
 
-* View the current definition of the Server Group `azdata arc postgres server show -n servergroupname`
-* For details about those parameters to change `azdata arc postgres server edit --help
+* View the current definition of the Server Group: `azdata arc postgres server show -n servergroupname`
+* For details about which parameters to change: `azdata arc postgres server edit --help`
 * [Show configuration of a server group](https://docs.microsoft.com/azure/azure-arc/data/show-configuration-postgresql-hyperscale-server-group)
 * [Scale up/down (increase/decrease memory/vcore) a server group](https://docs.microsoft.com/azure/azure-arc/data/scale-up-down-postgresql-hyperscale-server-group-using-cli)
 * [Scale out (add worker nodes)](https://docs.microsoft.com/azure/azure-arc/data/scale-out-postgresql-hyperscale-server-group)
