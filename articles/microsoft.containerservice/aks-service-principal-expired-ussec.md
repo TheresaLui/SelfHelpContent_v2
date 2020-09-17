@@ -3,7 +3,7 @@
     description="Pod Disruption Budgets Recommended"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="9738c5a0-a330-4465-a7f4-9132e004bd30"
+    articleId="9738c5a0-a330-4465-a7f4-9132e004bd30_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
     ownershipId="Compute_AzureKubernetesService"
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "cbd1b299-b933-45bb-83a5-4061e515e826",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rxaks.usseceast.kusto.core.microsoft.scloud').database('AKSprod').PDBRecommendation",
+    "streamNamespace": "cluster('https://rxaks.ussecwest.kusto.core.microsoft.scloud').database('AKSprod').PDBRecommendation",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
