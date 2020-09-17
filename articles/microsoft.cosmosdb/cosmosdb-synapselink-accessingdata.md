@@ -22,9 +22,13 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Accessing 
 
 ## **Recommended Steps**  
 
-### **Unable to set item level TTL for Analytical Store**
-
+### **Unable to set item level TTL for analytical store**
 At this time, TTL for analytical data can only be configured at container level and there is no support to set analytical TTL at item level. 
+
+<br>
+
+### **Unable to set container level TTL for analytical store**
+At this time, analytical store ttl only can be enable for new SQL API and MongoDB API containers.
 
 <br>
 
@@ -33,8 +37,19 @@ After the analytical store is enabled with a particular TTL value, you can updat
 
 <br>
 
-### **Missing items in Analytical Store** 
-If specific items in your container violate the well-defined schema for analytics, they will not be included in the analytical store. If you have scenarios blocked by [well-defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema), please create a support ticket.  
+### **Unable to understand schema representation** 
+There are two modes of schema representation in the analytical store. These modes have tradeoffs between the simplicity of a columnar representation, handling the polymorphic schemas, and simplicity of query experience:
+
+* Well-defined schema representation (default for Azure Cosmos DB SQL API)
+* Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)
+
+Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction#analytical-schema). 
+
+<br> 
+
+### Missing data (properties) in analytical store
+You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties at the top level doesn’t satisfy this constraint and hence it will not be represented in the analytical store. An item with more than five nested levels in the schema also doesn’t satisfy this constraint and hence it will not be represented in the analytical store. 
+
 
 <br>
 
