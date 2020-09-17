@@ -17,12 +17,11 @@
     />
     
 # Migrate Database into Azure Arc
-Most users get their migration FAQ's answered by the below steps
 
 ## **Recommended Steps**
 
 * It is not possible today to onboard into Azure Arc an existing Postgres setup that would running on-prem or in any other cloud
-* In other words it is not possible to install some sort of "Azure Arc agent" on your existing Postgres setup to make it a Postgres setup enabled by Azure Arc. Instead, you need to deploy a new Postgres instance and transfer data into it
+* In other words it is not possible to install some sort of "Azure Arc agent" on your existing Postgres setup to make it a Postgres setup enabled by Azure Arc. Instead, you need to deploy a new Postgres instance and transfer data into it.
 
 ## **Recommended Documents**
 
