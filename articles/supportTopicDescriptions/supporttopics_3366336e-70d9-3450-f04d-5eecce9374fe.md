@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3366336e-70d9-3450-f04d-5eecce9374fe"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_3366336e-70d9-3450-f04d-5eecce9374fe" />
+  articleid="supporttopics_3366336e-70d9-3450-f04d-5eecce9374fe"
+  ownershipid="Compute_AzureMigrate" />
 # Support Topic Descriptions for 3366336e-70d9-3450-f04d-5eecce9374fe
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Azure Resource Move is your hub for the Azure region migration",
+  "longDescription": "",
+  "productLink1": "https://review.docs.microsoft.com/azure/resource-mover/overview?branch=release-ignite-resource-mover",
+  "productLinkName1": "About Azure Resource Mover",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "09173ab5-dec6-35a4-1175-a0bac68174a2",
@@ -33,6 +34,14 @@
       "longDescription": "",
       "shortDescription": "Help to select and add dependent resources from the target region. ",
       "searchTags": "Resolve, missing, config, dependencies",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "30c72ed2-2e27-1bed-1ed9-edf45c676023",
+      "longDescription": "",
+      "shortDescription": "Issues faced while preparing resources to move to the target region",
+      "searchTags": "Prepare, quota, stuck, committed ",
       "category": "Validate",
       "useInDiagnoseAndSolve": "false"
     },
