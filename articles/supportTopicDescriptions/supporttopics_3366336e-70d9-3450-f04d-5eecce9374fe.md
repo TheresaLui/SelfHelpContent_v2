@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "6f47f7d2-87e3-e6db-03ac-1ed7eabcbf18",
+      "longDescription": "",
+      "shortDescription": "Help with region selection",
+      "searchTags": "Add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90168ddb-91f9-5ed8-db7b-21bf2dbf2dbf",
       "longDescription": "",
       "shortDescription": "Issues faced while selecting resource type, adding resources, selecting regions and SKUs on the target region",
