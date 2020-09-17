@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35101454-b000-c4b5-d05b-e8a0da9e5226",
+      "longDescription": "",
+      "shortDescription": "Data Controller deletion issues and queries",
+      "searchTags": "Data Controller;uninstall;delete;removal",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38347f23-04d8-5269-f81e-22b7cb5b2048",
       "longDescription": "",
       "shortDescription": "Select this if you have questions or need guidance for deploying data controller",
