@@ -12,7 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2f343b14-ce12-4bf2-86f1-450f59e1d972"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshoot issues with restoring from mysqldump
