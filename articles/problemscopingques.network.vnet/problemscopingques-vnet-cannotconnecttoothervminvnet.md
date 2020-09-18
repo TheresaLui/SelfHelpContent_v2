@@ -35,7 +35,12 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions":
+                {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
@@ -188,7 +193,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide these details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
