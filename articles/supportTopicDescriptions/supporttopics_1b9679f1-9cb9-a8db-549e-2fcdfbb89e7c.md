@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ade25ba4-1695-527b-be6e-df86dca8045d",
+      "longDescription": "",
+      "shortDescription": "Pay for enrichments performed on documents being added to the index. Add cognitive services key to overcome the free enrichments limit of 20 documents",
+      "searchTags": "Enrichment;Cognitive Services Key;Free Tier",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b26c9aba-93c1-580b-211d-80471cd82afc",
       "longDescription": "",
       "shortDescription": "The information displayed in the Azure Cognitive Search portal for the search service or index is not accurate.",
