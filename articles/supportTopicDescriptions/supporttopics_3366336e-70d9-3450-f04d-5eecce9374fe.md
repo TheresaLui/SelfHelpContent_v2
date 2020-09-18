@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d85669e3-83d8-5691-efc1-d9340701d2a5",
+      "longDescription": "",
+      "shortDescription": "Help with PowerShell related issues for Azure Resource Mover",
+      "searchTags": "Subscription , RBAC, Portal, PowerShell",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daec2aa5-0c4c-ff4a-2535-6d8daa2acbaf",
       "longDescription": "",
       "shortDescription": "Help with selecting attributes for my resource (VMs with ADE feature)",
