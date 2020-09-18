@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "657e74bc-ae8f-c7cf-1de3-ab0fd4a8ecce",
+      "longDescription": "",
+      "shortDescription": "When I issue a query, I am not getting the expected search results",
+      "searchTags": "query;analyzer;synonym",
+      "category": "Search",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6581ffb1-2c35-8bbb-e214-3cb5660ddec5",
       "longDescription": "",
       "shortDescription": "Issues with security related status codes from the Azure Cognitive Search REST API.  (400, 403 or 502)",
