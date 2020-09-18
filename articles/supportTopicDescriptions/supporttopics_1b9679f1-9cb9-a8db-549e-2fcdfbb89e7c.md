@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "158025ee-f747-f2df-288c-ff5d6eda4b91",
+      "longDescription": "",
+      "shortDescription": "An indexer (data source connector) is taking longer than expected to ingest content into the search index.",
+      "searchTags": "performance;indexer;throughput",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
       "longDescription": "",
       "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
