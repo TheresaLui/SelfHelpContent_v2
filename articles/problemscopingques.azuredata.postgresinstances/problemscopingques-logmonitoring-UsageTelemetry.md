@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Export, Upload and View Monitoring and T-shooting logs in Azure"
-	description="Export, Upload and View Monitoring and T-shooting logs in Azure"
+	pageTitle="Export, Upload and view Usage telemetry"
+	description="Export, Upload and view Usage telemetry"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747929"
+	supportTopicIds="32747930"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="b73e74da-6e39-4117-9ea2-d3b757e18767"
+	articleId="e97510f5-5de6-4cb6-a9fd-e61e953e51bc"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Export, Upload and View Monitoring and T-shooting logs in Azure
+# Export, Upload and view Usage telemetry
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Export, Upload and View Monitoring and T-shooting logs in Azure",
+	"title": "Export, Upload and view Usage telemetry",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{

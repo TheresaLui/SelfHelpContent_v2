@@ -7,7 +7,7 @@
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="b73e74da-6e39-4117-9ea2-d3b757e18767"
+	articleId="3f211518-113b-4adf-89f0-e61752496c3d"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
 # Export, Upload and View Monitoring and T-shooting logs in Azure

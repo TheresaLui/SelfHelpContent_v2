@@ -51,7 +51,7 @@
 			"required": true
 		}, {
 			"id": "what_scale",
-			"order": 5,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "What are you trying to scale?",
 			"watermarkText": "Choose an option",

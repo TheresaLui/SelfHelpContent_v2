@@ -54,13 +54,13 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "What command did you use?",
-			"required": true
+			"required": false
 		}, {
 			"id": "workernodes",
 			"order": 5,
 			"controlType": "textbox",
 			"displayLabel": "What is the number of worker nodes you are trying to scale from?",
-			"required": true
+			"required": false
 		}, {
 			"id": "smallernode",
 			"order": 6,
