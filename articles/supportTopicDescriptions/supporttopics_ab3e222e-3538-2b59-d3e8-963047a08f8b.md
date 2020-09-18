@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a16dd731-db69-3109-344c-073acc9c6505",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource visible in azure post successful deletion of service.",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
