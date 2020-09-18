@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2721d2d6-cc64-a8c7-0cf3-d54f2a7d0b3f",
+      "longDescription": "",
+      "shortDescription": "A portion of the queries are failing with a response code 503. In this case the system must be too busy to respond to your queries.",
+      "searchTags": "throttling;503;failed request;scale",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3e0f5ec1-8f77-0169-0ddb-f774c4b5030f",
       "longDescription": "",
       "shortDescription": "When using the Scale blade in the Azure Cognitive Search portal, I am unable to adjust the replica or partition count as the buttons are disabled.",
