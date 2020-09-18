@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bc3faf4f-90b7-ddea-f973-5cda102e6001",
+      "longDescription": "",
+      "shortDescription": "Help with Discard operation issues",
+      "searchTags": "Discard, failed,  failback, state, test",
+      "category": "Discard",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d16e49f0-b168-8e12-d6b9-a932ae95f280",
       "longDescription": "",
       "shortDescription": "Help to ensure target region has enough quota and subscriptions limits",
