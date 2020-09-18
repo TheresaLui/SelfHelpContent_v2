@@ -32,35 +32,50 @@
 			"displayLabel": "If an error was displayed, what was the error message?",
             "required": false
 		}, {
-			"id": "objective",
+			"id": "migration_methodology",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "What are you trying to achieve?",
+			"displayLabel": "What methodology are you using to migrate data into Arc?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Migrate data into your Azure Arc enabled Postgres Hyperscale server group",
-					"text": "Migrate data into your Azure Arc enabled Postgres Hyperscale server group"
+					"value": "Backup/restore",
+					"text": "Backup/restore"
 				}, {
-					"value": "Optimize Azure Arc enabled Postgres Hyperscale after getting data in it",
-					"text": "Optimize Azure Arc enabled Postgres Hyperscale after getting data in it"
-				}, {
-					"value": "Other",
-					"text": "Other"
+					"value": "Replication",
+					"text": "Replication"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
-			"id": "migration_methodology",
+			"id": "postgres_version",
 			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "What methodology are you using to migrate data into Arc?",
-			"required": false
+			"controlType": "dropdown",
+			"displayLabel": "What version of Postgres are you trying to migrate from?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "11",
+					"text": "11"
+				}, {
+					"value": "12",
+					"text": "12"
+				}, {
+					"value": "Other",
+					"text": "Other"
+				}
+			],
+			"required": true
+		}, {
+			"id": "system_host",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What system hosts the database you are trying to migrate from? (On-Premises, Other Cloud vendor)",
+            "required": false
 		}, {
 			"id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
