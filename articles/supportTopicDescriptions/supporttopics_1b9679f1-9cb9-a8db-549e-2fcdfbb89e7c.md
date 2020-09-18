@@ -219,6 +219,14 @@
       "searchTags": "portal;general issue;failed to load;browser issue",
       "category": "Portal",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e2b107c0-c692-f7eb-6db4-f63eba26170f",
+      "longDescription": "",
+      "shortDescription": "Issue in the defintion of an index (fields or attributes), or its creation as part of the search service.",
+      "searchTags": "index;schema;definition",
+      "category": "Setup",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
