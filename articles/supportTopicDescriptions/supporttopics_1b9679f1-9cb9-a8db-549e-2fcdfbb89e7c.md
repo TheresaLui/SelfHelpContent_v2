@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2171314a-9c26-7060-247f-5dc642d83da7",
+      "longDescription": "",
+      "shortDescription": "Issues related to field mappings in indexers",
+      "searchTags": "field mapping;indexer;mapping functions",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2721d2d6-cc64-a8c7-0cf3-d54f2a7d0b3f",
       "longDescription": "",
       "shortDescription": "A portion of the queries are failing with a response code 503. In this case the system must be too busy to respond to your queries.",
