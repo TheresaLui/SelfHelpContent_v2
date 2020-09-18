@@ -62,8 +62,14 @@
 			],
 			"required": false
 		}, {
+			"id": "command_execute",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "What command are you trying to execute?",
+            "required": false
+		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",

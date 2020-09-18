@@ -26,26 +26,8 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "reproducible",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Is the problem reproducible or not?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Issue can be reproduced/Issue is live",
-					"text": "Issue can be reproduced/Issue is live"
-				}, {
-					"value": "Issue is transient",
-					"text": "Issue is transient"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": true
-		}, {
 			"id": "arcenvironment",
-			"order": 3,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Is this issue happening only in an Azure Arc Environment?",
 			"watermarkText": "Choose an option",
@@ -63,7 +45,7 @@
 			"required": true
 		}, {
 			"id": "servergroup_config",
-			"order": 4,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Did you change the configuration of server group or your Kubernetes cluster recently/prior the problem started occurring?",
 			"watermarkText": "Choose an option",
@@ -78,18 +60,10 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": true
-		}, {
-			"id": "what_changed",
-			"order": 5,
-			"visibility": "servergroup_config == Yes",
-			"controlType": "multilinetextbox",
-			"displayLabel": "What configuration did you change?",
-			"watermarkText": "Provide details about configuration change.",
-            "required": false
+			"required": false
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
