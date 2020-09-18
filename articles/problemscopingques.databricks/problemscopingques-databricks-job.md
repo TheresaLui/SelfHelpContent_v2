@@ -97,7 +97,7 @@
             "id": "storage_url",
             "order": 200,
             "controlType": "textbox",
-            "displayLabel": "Azure storage account resource ID if applicable",
+            "displayLabel": "Azure storage account resource ID if job involved reading from or writing to Azure storage account",
             "infoBalloonText": "Get Azure storage account resourcre ID from the Azure Portal under the storage account properties page. Resource ID is in the form of /subscriptions/[subscriptionID]/resourceGroups/[resourcegroupname]/providers/Microsoft.Storage/storageAccounts/[storageaccountname]",
             "required": false
         },
