@@ -48,7 +48,7 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "able_login",
 			"order": 4,
@@ -120,7 +120,7 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_description",
             "order": 7,

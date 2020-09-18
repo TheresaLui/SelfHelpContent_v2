@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Troubleshoot using Notebooks"
-	description="Troubleshoot using Notebooks"
+	pageTitle="Error connecting to Kubernetes cluster (kubectl, azdata)"
+	description="Error connecting to Kubernetes cluster (kubectl, azdata)"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747931"
+	supportTopicIds="32747903"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="22296b9c-1faf-4703-b94b-67b267e1ea7a"
+	articleId="6e2506b9-8c9e-4eb8-9515-cd592f8ab0e2"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Troubleshoot using Notebooks
+# Error connecting to Kubernetes cluster (kubectl, azdata)
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Troubleshoot using Notebooks",
+	"title": "Error connecting to Kubernetes cluster (kubectl, azdata)",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -26,35 +26,23 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "notebook_problem",
+			"id": "error_message",
 			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Which Notebook do you have problem with?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Notebook provided by Microsoft",
-					"text": "Notebook provided by Microsoft"
-				}, {
-					"value": "A Notebook you created",
-					"text": "A Notebook you created"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": true
+			"controlType": "textbox",
+			"displayLabel": "If an error was displayed, what was the error message?",
+			"required": false
 		}, {
-			"id": "issue_outside_notebook",
+			"id": "error_transient",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Does the problem also happen if you run the failing command outside of the Notebook?",
+			"displayLabel": "Was the error transient or is it still happening?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
+					"value": "Transient Error",
+					"text": "Transient Error"
 				}, {
-					"value": "No",
-					"text": "No"
+					"value": "Issue still happening",
+					"text": "Issue still happening"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
