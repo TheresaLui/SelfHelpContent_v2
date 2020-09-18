@@ -35,7 +35,7 @@ Ensure Synapse Link is enabled for the Azure Cosmos DB account by
 
 **3.** Currently there is no support to enable analytical store on existing containers. You should now be able to create a new container and enable analytical store during container creation time.
 
-**4.** Currently there is no support to enable analytical store on Azure Cosmos DB SQL Serverless accounts.  
+**4.** Currently there is no support to enable analytical store on Azure Cosmos DB SQL serverless accounts.  
 
 
 ### **Unable to disable Analytical Store**  
