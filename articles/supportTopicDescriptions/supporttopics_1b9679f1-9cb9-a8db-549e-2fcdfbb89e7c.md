@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1665b5f7-041e-83a7-43de-e77347692bb8",
+      "longDescription": "",
+      "shortDescription": "Issue when deleting an Azure Cognitive Search index.",
+      "searchTags": "index;delete",
+      "category": "Search Index",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
       "longDescription": "",
       "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
