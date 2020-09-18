@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7cd26b02-4a42-cbe8-d3bd-35e8340d4991",
+      "longDescription": "",
+      "shortDescription": "Questions on adding a skill such as OCR, key phrases or translation to the skillset or adding the skill output to the index",
+      "searchTags": "Skill;Skillset;Output field mappings;context",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "83e62961-3706-cdfb-de15-fa19a73e1c33",
       "longDescription": "",
       "shortDescription": "I cannot query my index using the REST API",
