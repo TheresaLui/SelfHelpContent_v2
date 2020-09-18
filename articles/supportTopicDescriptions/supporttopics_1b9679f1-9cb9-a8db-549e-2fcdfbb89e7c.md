@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "68e3bac2-9078-fd6b-a521-a763f02ed46a",
+      "longDescription": "",
+      "shortDescription": "Issues with an indexer and an Azure Cosmos DB data source.",
+      "searchTags": "indexer;cosmos db;indexing",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "71af06b8-6476-5e26-e61c-a123088e6855",
       "longDescription": "",
       "shortDescription": "Issues with connection timeouts to your Azure Cognitive Search service.",
