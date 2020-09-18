@@ -20,5 +20,5 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-You are creating this ticket from the server blade. If you know the database which is the causing the issue, we suggest that you proceed with the ticket creation from that database blade so that we can run database specific diagnostics on it might be able to better analyze your issue.
+You are creating this ticket from the server blade. If you know the database which is the causing the issue, we suggest that you proceed with the ticket creation from that database blade so that we can run database specific diagnostics on it and might be able to better analyze your issue.
 <!--/issueDescription-->
