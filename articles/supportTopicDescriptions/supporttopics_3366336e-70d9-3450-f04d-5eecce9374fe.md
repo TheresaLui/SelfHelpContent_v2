@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "739ccbdf-e489-d6eb-5da7-98a4112c391c",
+      "longDescription": "",
+      "shortDescription": "Help with Remove operation issues",
+      "searchTags": "Remove, failed,  dependent, delete",
+      "category": "Remove",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a4ac4d8-f141-981c-03be-da00e20e5d95",
       "longDescription": "",
       "shortDescription": "Help with Move operation issues",
