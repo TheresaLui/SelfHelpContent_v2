@@ -19,33 +19,24 @@
 # Azure Synapse Link for Cosmos DB - My Issue is not Listed
 Most users are able to resolve their Azure Synapse Link for Cosmos DB issue using the steps below.  
 
-
 ## **Recommended Steps**  
 
 ### **Experiencing latency when adding a new Cosmos DB region**
 For multi-region Azure Cosmos DB accounts, the data stored in the analytical store is also globally distributed. Regardless of single write region or multiple write regions, analytical queries performed from Azure Synapse Analytics can be served from the closest local region.   
 When planning to configure a multi-region Azure Cosmos DB account with analytical store support, it is recommended to have all the necessary regions added at time of account creation as if there is a large amounts of data this action can take a long time to complete.  
 
-<br>
 
 ### **Picking a custom partitioning strategy for Analytical Store**
 The data in analytical store is partitioned based on the horizontal partitioning of shards in the transactional store.  Currently, you cannot choose a different partitioning strategy for the analytical store.  
 
-<br>
-
 ### **Synapse Link support for Azure Cosmos DB APIs**
 In the public preview release, Synapse Link is supported only for Azure Cosmos DB SQL (Core) API and for MongoDB API. Support for Cassandra API is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
-
-<br>
 
 ### **Connecting to analytical store from analytics engines other than Azure Synapse Analytics**
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 
 The analytical store can be queried and analyzed using:
 * Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
-* SQL serverless (currently under gated preview) with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
-
-<br>
-
+* SQL serverless (currently under private preview) with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
 
 ## **Recommended Documents**  
 
@@ -66,5 +57,3 @@ The analytical store can be queried and analyzed using:
 
 [Azure Synapse Link for Azure Cosmos DB: Near real-time analytics use cases](https://docs.microsoft.com/azure/cosmos-db/synapse-link-use-cases)
 <br>Azure Synapse Link for Azure Cosmos DB Use cases
-
-
