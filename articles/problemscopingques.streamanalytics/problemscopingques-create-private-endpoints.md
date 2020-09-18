@@ -30,6 +30,7 @@
 			"id": "private_endpoint_name",
 			"order": 2,
 			"controlType": "multilinetextbox",
+			"useAsAdditionalDetails": true,
 			"displayLabel": "Details",
 			"watermarkText": "Provide the name of the private end point that you have trouble creating.",
 			"required": true
