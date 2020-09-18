@@ -43,9 +43,8 @@ Currently, the analytical store cannot be disabled on an Azure Cosmos DB contain
 
 ### **Disabling Synapse Link feature for my Azure Cosmos DB account**  
 Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it.  
-If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account. Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level and there is no analytical store enabled containers.
+If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account. Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level and there is no analytical store enabled containers.  
 
-<br>
 
 ### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**
 Synapse SQL Serverless is currently under private preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.  
