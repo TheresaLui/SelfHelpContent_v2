@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "14c61ed8-06c8-72cb-9d2a-6381843e872d",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services logs from azure",
+      "searchTags": "Log analytics;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1bb98a42-4db1-8de5-9281-71af5a7d0f67",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data controller credentials recovery",
