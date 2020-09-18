@@ -3,7 +3,7 @@
 	description="General Questions - My issue is not listed"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745075"
+	supportTopicIds="32747914"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
