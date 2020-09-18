@@ -395,6 +395,7 @@
 		"controlType": "dropdown",
 		"displayLabel": "Approximate available network bandwidth",
 		"watermarkText": "Choose a network bandwidth",
+		"infoBalloonText": "If you don't know network bandwidth, please use this link to check: https://www.azurespeed.com/",
 		"dropdownOptions": [
 		{
 			"value": "0",
