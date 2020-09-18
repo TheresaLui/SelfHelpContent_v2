@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5fc41f10-d3ce-2438-af4d-cba55efd4cdb",
+      "longDescription": "",
+      "shortDescription": "Questions on generating a JSON object for use as an input to a skill or complex type field. Input shaping from multiple skill outputs",
+      "searchTags": "Shaper;Inline shaping;Transform;Complex type",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "61224fea-71fb-8bce-44ea-2fe199aed28a",
       "longDescription": "",
       "shortDescription": "Questions on enriching large corpus of documents. Dealing with large batches and enriching documents with multiple skills",
