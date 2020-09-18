@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ec53e91e-b74e-bf53-3052-ccf91a7fac83",
+      "longDescription": "",
+      "shortDescription": "Issues faced when trying to remove resources from the move experience at any stage",
+      "searchTags": "Remove, failed,  dependent, delete",
+      "category": "Remove",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eca5b30c-1356-bd6e-1459-53731268ba20",
       "longDescription": "",
       "shortDescription": "Issues faced when committing the resources on the target region",
