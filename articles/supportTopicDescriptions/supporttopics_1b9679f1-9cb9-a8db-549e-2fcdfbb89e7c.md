@@ -277,6 +277,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bfc0675a-9c4d-f37b-5750-fd96b94f2164",
+      "longDescription": "",
+      "shortDescription": "Issues with an indexer and an Azure SQL data source.",
+      "searchTags": "indexer;azure sql;indexing",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
