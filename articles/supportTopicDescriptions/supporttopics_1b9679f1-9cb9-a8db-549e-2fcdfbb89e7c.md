@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2207fbc-633a-ed6b-2514-6b2f44f3b898",
+      "longDescription": "",
+      "shortDescription": "Use this support topic for questions related to index service limits. This could include limits on field count, the number of indexes, etc.",
+      "searchTags": "field count;service limits;index",
+      "category": "Search Index",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a36b678e-721f-c2a1-d9c6-c7e375e2c0c1",
       "longDescription": "",
       "shortDescription": "If you do not see your preferred region listed when you are provisioning your Azure Cognitive Search service.",
