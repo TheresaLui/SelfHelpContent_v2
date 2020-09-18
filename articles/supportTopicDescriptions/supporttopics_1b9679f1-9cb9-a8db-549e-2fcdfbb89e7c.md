@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb378604-1fdd-b5be-9850-b23150958ec9",
+      "longDescription": "",
+      "shortDescription": "Adding or editing skills used to enrich your data before documents are added to the search index.",
+      "searchTags": "Skillset;Skills;Enrichment",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bca17707-cff0-2789-b812-a9a52a0ff05c",
       "longDescription": "",
       "shortDescription": "The search service takes a long time to respond to most or all of your queries.",
