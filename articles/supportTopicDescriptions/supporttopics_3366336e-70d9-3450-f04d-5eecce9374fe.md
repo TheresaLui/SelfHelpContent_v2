@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3238ab0f-f43c-ff86-dd8f-b9fe5dc27556",
+      "longDescription": "",
+      "shortDescription": "Help with the dependent resources that needs to be Committed for parent resources to be moved",
+      "searchTags": "Move, quota, failed,  committed, missing",
+      "category": "Move",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5b773c32-1687-2f99-aca8-947fa1c23ce2",
       "longDescription": "",
       "shortDescription": "Help with the Prepare step taking too long. ",
