@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1ed7fa8e-e11a-2757-b06b-6f0a9ed3100f",
+      "longDescription": "",
+      "shortDescription": "Help with Prepare validation failures ",
+      "searchTags": "Prepare, quota, stuck, committed",
+      "category": "Prepare",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2121bb2b-15ab-0997-4d84-c725b3984136",
       "longDescription": "",
       "shortDescription": "Help to select and add dependent resources from the target region. ",
