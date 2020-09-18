@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "49d41442-4588-3d2d-3688-5d19d4e9239e",
+      "longDescription": "",
+      "shortDescription": "Help with some other issues I am facing with Azure Resource Mover. Not listed above",
+      "searchTags": "Subscription, RBAC, Portal, PowerShell",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "530d8102-bb1c-6d46-86a9-543fe5aa0ccb",
       "longDescription": "",
       "shortDescription": "Help to ensure target region has enough quota and subscriptions limits",
