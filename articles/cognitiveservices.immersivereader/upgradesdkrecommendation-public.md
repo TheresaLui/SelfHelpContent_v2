@@ -48,7 +48,6 @@
       "title": "Current SDK Version"
     }
   ],
-  "supportedSDKLanguages": [],
   "actions": [
     {
       "actionId": "C7D442B0-3E9C-43DD-8495-E4FFD2ED8B1E",
