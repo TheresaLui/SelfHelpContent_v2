@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bca17707-cff0-2789-b812-a9a52a0ff05c",
+      "longDescription": "",
+      "shortDescription": "The search service takes a long time to respond to most or all of your queries.",
+      "searchTags": "performance;latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
