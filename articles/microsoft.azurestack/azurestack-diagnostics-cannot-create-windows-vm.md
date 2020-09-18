@@ -14,7 +14,7 @@ supportTopicIds="32663892"
 resourceTags="windows"
 productPesIds="16226"
 cloudEnvironments="public, FairFax, usnat, ussec"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
+ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Cannot create a Windows virtual machine
@@ -29,7 +29,7 @@ Solution: Manage the capacity of your Azure Stack System by [reclaiming capacity
 ## Cannot create a Windows VM OperationNotAllowed/QuotaExceeded
 
 ResultCode: OperationNotAllowed/QuotaExceeded
-Message: Operation results in exceeding quota limits of Core. Maximum allowed: 1000, Current in use: 1000, Additional requested: 4. For more information about increasing quota limits, see [Increase standard quota limits](http://aka.ms/corequotaincrease).
+Message: Operation results in exceeding quota limits of Core. Maximum allowed: 1000, Current in use: 1000, Additional requested: 4. For more information about increasing quota limits, see [Increase standard quota limits](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests).
 
 Solution: Identify the quota that has been exceeded (in this case for example, Compute Cores) and increase the plan associated with the subscription to [include more cores](https://docs.microsoft.com/azure-stack/operator/azure-stack-quota-types).
 
