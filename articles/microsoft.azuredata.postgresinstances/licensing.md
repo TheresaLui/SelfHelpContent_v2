@@ -1,15 +1,15 @@
 <properties
-	pageTitle="General Documentation, How-to"
+	pageTitle="Licensing"
 	description="General Documentation, How-to"
 	infoBubbleText="General Documentation, How-to"
 	service="microsoft.azuredata"
 	resource="postgresinstances"
 	ms.author="pookam"
 	displayOrder=""
-	articleId="d6bc994a-e1ba-4c0a-91bd-34123791e0d30"
+	articleId="328268bb-df6a-41a3-a568-3da4777f9c90"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32747914"
+	supportTopicIds="32747908"
 	resourceTags=""
 	productPesIds="17124"
 	cloudEnvironments="Public"
@@ -18,7 +18,7 @@
 	
 # General Questions , Limitations , Known issues in Preview and Supported Scenarios documentation
 
-Most users are able to get answers to the questions they have about Supported versions , Known limitations using the below documentation
+Most users are able to get answers to the questions they have about Supported versions , Known limitations using the below documentation.
 
 ## **Recommended Documents**
 
