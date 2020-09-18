@@ -32,7 +32,8 @@ We recommend creating a workspace without Managed Vnet to access Azure Synapse L
 Synapse SQL Serverless is currently under private preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.  
 
 
-
+### **Cannot access Cosmos DB analytical store with Synapse SQL dedicated pool**  
+Only Synapse SQL serverless pool (private preview) and Synapse Spark pool are currently supported. Synapse SQL dedicated pool is not supported.  
 
 ## **Recommended Documents**  
 
