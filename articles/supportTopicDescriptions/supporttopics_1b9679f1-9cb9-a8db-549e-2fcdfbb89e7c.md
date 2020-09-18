@@ -331,6 +331,14 @@
       "searchTags": "data source;indexer",
       "category": "Indexers",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f897b14f-adac-67bb-134f-ec2f8f43962a",
+      "longDescription": "",
+      "shortDescription": "Issues related to creating an Azure Cognitive Search indexer. ",
+      "searchTags": "indexer;indexing",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
