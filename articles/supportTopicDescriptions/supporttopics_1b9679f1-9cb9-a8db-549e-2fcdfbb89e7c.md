@@ -267,6 +267,14 @@
       "searchTags": "index;schema;definition",
       "category": "Setup",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e3e2c48e-981d-115e-304e-d8bbee48c0de",
+      "longDescription": "",
+      "shortDescription": "Questions on how to save enrichment outputs to the knowledge store. Using object, table or file projections and how to handle relationships",
+      "searchTags": "Knowledge store;projections;output;object;file",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
