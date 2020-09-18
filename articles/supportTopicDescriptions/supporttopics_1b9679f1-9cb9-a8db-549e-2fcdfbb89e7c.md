@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b2eb467-fe4e-d2ef-94ec-55be8bbeab57",
+      "longDescription": "",
+      "shortDescription": "Some of your queries tend to take a long time to return results.",
+      "searchTags": "latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
       "longDescription": "",
       "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
