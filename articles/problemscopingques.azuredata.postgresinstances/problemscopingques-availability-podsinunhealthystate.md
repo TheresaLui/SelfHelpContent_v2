@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Scaling Memory Vcore for Hyperscale Server Group"
-	description="Scaling Memory Vcore for Hyperscale Server Group"
+	pageTitle="Availability and Connectivity - Pods,Containers are in a Unhealthy state"
+	description="Availability and Connectivity - Pods,Containers are in a Unhealthy state"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747928"
+	supportTopicIds="32747915"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="7d321539-451c-4ef0-94da-d2cc2343195a"
+	articleId="6ec649d4-58f3-4f95-b900-d0bc40c3bafc"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Scaling Memory Vcore for Hyperscale Server Group
+# Availability and Connectivity - Pods,Containers are in a Unhealthy state
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Scaling Memory Vcore for Hyperscale Server Group",
+	"title": "Availability and Connectivity - Pods,Containers are in a Unhealthy state",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -32,7 +32,7 @@
 			"displayLabel": "If an error was displayed, what was the error message?",
 			"required": false
 		}, {
-			"id": "error_happening",
+			"id": "error_transient",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Was the error transient or is it still happening?",
@@ -50,77 +50,41 @@
 			],
 			"required": true
 		}, {
-			"id": "what_scale",
-			"order": 5,
+			"id": "type_kubernetes",
+			"order": 4,
 			"controlType": "dropdown",
-			"displayLabel": "What are you trying to scale?",
+			"displayLabel": "Types of Kubernetes clusters or managed Kubernetes services you are using",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Min vCore",
-					"text": "Min vCore"
+					"value": "Azure Kubernetes Service (AKS)",
+					"text": "Azure Kubernetes Service (AKS)"
 				}, {
-					"value": "Max vCore",
-					"text": "Max vCore"
+					"value": "Azure Kubernetes Engine (AKE) on Azure Stack",
+					"text": "Azure Kubernetes Engine (AKE) on Azure Stack"
 				}, {
-					"value": "Min memory",
-					"text": "Min memory"
+					"value": "OpenShift Container Platform (OCP) 4.2+",
+					"text": "OpenShift Container Platform (OCP) 4.2+"
 				}, {
-					"value": "Max Memory",
-					"text": "Max Memory"
+					"value": "Azure RedHat OpenShift (ARO)",
+					"text": "Azure RedHat OpenShift (ARO)"
 				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": true
-		}, {
-			"id": "scaleupdown",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "Are you trying to scale up or down?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Up",
-					"text": "Up"
+					"value": "Open source, upstream Kubernetes",
+					"text": "Open source, upstream Kubernetes version 1.14+ using kubeadm"
 				}, {
-					"value": "Down",
-					"text": "Down"
+					"value": "AWS Elastic Kubernetes Service (EKS)",
+					"text": "AWS Elastic Kubernetes Service (EKS)"
 				}, {
-					"value": "Both",
-					"text": "Both"
+					"value": "Other",
+					"text": "Other"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
 				}
 			],
 			"required": false
-		}, {
-			"id": "resources",
-			"order": 6,
-			"controlType": "dropdown",
-			"displayLabel": "If you are trying to scale up, are there enough resources in Kubernetes cluster to accept desired configuration?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": false
-		}, {
-			"id": "command_used",
-			"order": 7,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": true
 		}, {
 			"id": "problem_description",
-            "order": 8,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",

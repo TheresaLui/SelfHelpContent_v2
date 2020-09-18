@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Add worker nodes to Hyperscale server group"
-	description="Add worker nodes to Hyperscale server group"
+	pageTitle="Error connecting to Kubernetes cluster (kubectl, azdata)"
+	description="Error connecting to Kubernetes cluster (kubectl, azdata)"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747926"
+	supportTopicIds="32747903"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="db3032f8-5810-4125-b37a-170ff122a007"
+	articleId="6e2506b9-8c9e-4eb8-9515-cd592f8ab0e2"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Add worker nodes to Hyperscale server group
+# Error connecting to Kubernetes cluster (kubectl, azdata)
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Add worker nodes to Hyperscale server group",
+	"title": "Error connecting to Kubernetes cluster (kubectl, azdata)",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -32,7 +32,7 @@
 			"displayLabel": "If an error was displayed, what was the error message?",
 			"required": false
 		}, {
-			"id": "error_happening",
+			"id": "error_transient",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Was the error transient or is it still happening?",
@@ -50,26 +50,8 @@
 			],
 			"required": true
 		}, {
-			"id": "command_used",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": true
-		}, {
-			"id": "workernodes",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the number of worker nodes you are trying to scale from?",
-			"required": true
-		}, {
-			"id": "smallernode",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Does the problem still occur if you add a smaller number of nodes as intermediate step?",
-			"required": false
-		}, {
 			"id": "problem_description",
-            "order": 7,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",

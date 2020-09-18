@@ -44,26 +44,8 @@
 			],
 			"required": true
 		}, {
-			"id": "othernotebook",
-			"order": 3,
-			"controlType": "dropdown",
-			"displayLabel": "Does the similar problem happen with another Notebook?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": true
-		}, {
 			"id": "issue_outside_notebook",
-			"order": 4,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Does the problem also happen if you run the failing command outside of the Notebook?",
 			"watermarkText": "Choose an option",
@@ -80,14 +62,8 @@
 			],
 			"required": true
 		}, {
-			"id": "command_used",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": false
-		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
