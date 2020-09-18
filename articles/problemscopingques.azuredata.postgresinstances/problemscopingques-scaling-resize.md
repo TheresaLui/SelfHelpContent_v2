@@ -92,7 +92,7 @@
 			],
 			"required": false
 		}, {
-			"id": "scale_up_down",
+			"id": "resources",
 			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "If you are trying to scale up, are there enough resources in your Kubernetes cluster for your desired configuration?",

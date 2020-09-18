@@ -66,7 +66,7 @@
 					"text": "Other"
 				}
 			],
-			"required": true
+			"required": false
 		}, {
 			"id": "system_host",
             "order": 5,
