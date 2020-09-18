@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ac860c78-200e-f0d0-0f44-93799807dbd1",
+      "longDescription": "",
+      "shortDescription": "Help with Subscription Sign-In issues",
+      "searchTags": "Subscription, RBAC, Portal",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b42c2812-4541-c4bb-e234-77b07643133e",
       "longDescription": "",
       "shortDescription": "Unable to add a resource to move",
