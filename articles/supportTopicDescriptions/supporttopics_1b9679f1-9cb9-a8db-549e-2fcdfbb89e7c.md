@@ -317,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca50d816-e734-ef08-e96c-fe64be636104",
+      "longDescription": "",
+      "shortDescription": "Use this support topic for questions related to indexer service limits. This could include limits on the numbers of indexers, etc.",
+      "searchTags": "service limit;indexer",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cecef991-fb0e-375e-e813-513e532edb6d",
       "longDescription": "",
       "shortDescription": "Issues with an indexer and an Azure Blob Storage data source.",
