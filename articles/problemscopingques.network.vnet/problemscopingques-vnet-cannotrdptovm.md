@@ -53,30 +53,30 @@
             ],
             "required": true
         },
-       {
+        {
             "id": "port_number",
             "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the port number you are unable to reach:",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [                
+            "dropdownOptions": [
                 {
                     "value": "22 (SSH)",
                     "text": "22 (SSH)"
                 },
-                                {
+                {
                     "value": "3389 (RDP)",
                     "text": "3389 (RDP)"
                 },
-                             {
+                {
                     "value": "dont_know_answer",
                     "text": "Other"
                 }
             ],
             "required": true
         },
-        {
+          {
             "id": "other_port_number",
             "order": 3,
             "visibility": "port_number == dont_know_answer",
@@ -97,7 +97,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide these details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
