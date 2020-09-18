@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b1771ac-c6f7-bb60-0dd6-09d8a347d271",
+      "longDescription": "",
+      "shortDescription": "Issues with an indexer and an Azure Table Storage data source.",
+      "searchTags": "indexer;table storage;indexing",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8e2a8130-8fbc-3aee-19c7-cb81db0d5bf7",
       "longDescription": "",
       "shortDescription": "Issues related to using the Azure Cognitive Search .NET SDK.",
