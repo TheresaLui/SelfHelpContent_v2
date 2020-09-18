@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8e2a8130-8fbc-3aee-19c7-cb81db0d5bf7",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search .NET SDK.",
+      "searchTags": "SDK;.NET",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "986119a7-bb99-3873-8de3-925fa611fea8",
       "longDescription": "",
       "shortDescription": "Search results are not returning in the order I expect",
