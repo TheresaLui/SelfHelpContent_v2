@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5b773c32-1687-2f99-aca8-947fa1c23ce2",
+      "longDescription": "",
+      "shortDescription": "Help with the Prepare step taking too long. ",
+      "searchTags": "Prepare, quota, stuck, committed",
+      "category": "Prepare",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6f47f7d2-87e3-e6db-03ac-1ed7eabcbf18",
       "longDescription": "",
       "shortDescription": "Help with region selection",
