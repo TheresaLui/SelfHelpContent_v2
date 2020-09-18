@@ -86,7 +86,7 @@
       "title": "Observation End Time"
     }
   ],
-  "testData": "08ed568c-822f-4f2d-9327-e79bde1d18c1,/subscriptions/08ed568c-822f-4f2d-9327-e79bde1d18c1/resourceGroups/Cerebro-dev/providers/Microsoft.Kusto/clusters/cerebrodev,1.0,\"{\"\"currentConfig\"\" :\"\"Standard_D11_v2, 2 Instances\"\", \"\"observationStartTime\"\" :\"\"2020-08-18T20:38:03.2895456Z\"\", \"\"observationEndTime\"\" :\"\"2020-09-17T20:38:03.2895456Z\"\", \"\"savingsAmount\"\" :\"\"105.04\"\", \"\"annualSavingsAmount\"\" :\"\"1,260.48\"\", \"\"savingsCurrency\"\" :\"\"USD\"\"}\"",
+  "testData": "08ed568c-822f-4f2d-9327-e79bde1d18c1,/subscriptions/08ed568c-822f-4f2d-9327-e79bde1d18c1/resourceGroups/Cerebro-dev/providers/Microsoft.Kusto/clusters/cerebrodev,1.0,\"{\"\"currentConfig\"\":\"\"Standard_D11_v2, 2 Instances\"\", \"\"observationStartTime\"\":\"\"2020-08-18T20:38:03.2895456Z\"\",\"\"observationEndTime\"\":\"\"2020-09-17T20:38:03.2895456Z\"\",\"\"savingsAmount\"\":\"\"105.04\"\",\"\"annualSavingsAmount\"\":\"\"1260.48\"\",\"\"savingsCurrency\"\":\"\"USD\"\"}\"",
   "remediation": [
     {
       "httpMethod": "POST",
