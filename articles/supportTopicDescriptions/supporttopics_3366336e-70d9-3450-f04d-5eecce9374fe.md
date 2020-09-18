@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "34d74671-44b5-a95d-8060-e1753b2243a3",
+      "longDescription": "",
+      "shortDescription": "Help with RBAC policies and authorization issues for Azure Resource Mover",
+      "searchTags": "Subscription , RBAC, Portal, PowerShell",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "49d41442-4588-3d2d-3688-5d19d4e9239e",
       "longDescription": "",
       "shortDescription": "Help with some other issues I am facing with Azure Resource Mover. Not listed above",
