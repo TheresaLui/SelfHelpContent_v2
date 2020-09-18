@@ -27,7 +27,7 @@
             "required": true
         },
             {
-			"id": "pproblem_description",
+			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
