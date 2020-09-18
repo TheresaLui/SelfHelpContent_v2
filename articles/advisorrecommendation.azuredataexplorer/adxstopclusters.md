@@ -96,7 +96,7 @@
       "documentationLink": "https://aka.ms/adxstopclustersapi",
       "asyncRequestDetails": {
         "header": "Azure-AsyncOperation",
-        "pollingFrequencyInSeconds": 60,
+        "pollingFrequencyInSeconds": 30,
         "terminatingCondition": {
           "timeOutInSeconds": 1800,
           "httpStatusCode": 200
