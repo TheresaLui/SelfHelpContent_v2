@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "06c838c6-07f1-bd17-440f-4b5c4e49f4fc",
+      "longDescription": "",
+      "shortDescription": "Questions on adding a custom skill to a skillset. Adding or invoking a custom skill to enrich documents",
+      "searchTags": "Custom Skill;AML Skill;Custom Skill Interface;Output Field Mappings",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0b2eb467-fe4e-d2ef-94ec-55be8bbeab57",
       "longDescription": "",
       "shortDescription": "Some of your queries tend to take a long time to return results.",
