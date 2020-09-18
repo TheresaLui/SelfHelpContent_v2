@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9b21b38f-03b5-ab4d-83e6-5fcf8aba4ddc",
+      "longDescription": "",
+      "shortDescription": "Help with commit operation issues",
+      "searchTags": "commit, connectivity, target, verify",
+      "category": "Commit",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4f8a83f-f07a-6f9f-3da4-ca336a0f40bd",
       "longDescription": "",
       "shortDescription": "Help with dependent resources that need to be Committed for parent resources to be prepared",
