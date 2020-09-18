@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d16e49f0-b168-8e12-d6b9-a932ae95f280",
+      "longDescription": "",
+      "shortDescription": "Help to ensure target region has enough quota and subscriptions limits",
+      "searchTags": "Prepare, quota, stuck, committed ",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d2b4cdf4-3abc-ae0b-35a6-f92a46a3817a",
       "longDescription": "",
       "shortDescription": "Issues faced while validating, adding dependent resources, and editing target config settings",
