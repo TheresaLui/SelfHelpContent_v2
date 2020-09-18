@@ -220,6 +220,14 @@
       "searchTags": "add, region, SKU, attributes, scale",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "eca5b30c-1356-bd6e-1459-53731268ba20",
+      "longDescription": "",
+      "shortDescription": "Issues faced when committing the resources on the target region",
+      "searchTags": "Commit, connectivity, target, verify",
+      "category": "Commit",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
