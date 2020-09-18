@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05a1c070-0ace-8cdb-40ca-c14eaae95a00",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services metrics from azure",
+      "searchTags": "metrics;azure portal;dashboard",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f77c93d-dee1-3963-1fe6-6aee644164a2",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment is not responding.",
