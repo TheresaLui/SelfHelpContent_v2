@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a8f7e82e-a829-7be0-b675-aba0e4a1fd32",
+      "longDescription": "",
+      "shortDescription": "Help with the prepare operation failures",
+      "searchTags": "Prepare, quota, stuck, committed",
+      "category": "Prepare",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ab4e9e8c-6c77-5b9e-68b0-da926ea0bc7e",
       "longDescription": "",
       "shortDescription": "Help modifying resource target configuration settings (Selecting AVSet, Availability Zones, etc)",
