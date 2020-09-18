@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7a4ac4d8-f141-981c-03be-da00e20e5d95",
+      "longDescription": "",
+      "shortDescription": "Help with Move operation issues",
+      "searchTags": "Move, quota, failed,  committed, missing",
+      "category": "Move",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90168ddb-91f9-5ed8-db7b-21bf2dbf2dbf",
       "longDescription": "",
       "shortDescription": "Issues faced while selecting resource type, adding resources, selecting regions and SKUs on the target region",
