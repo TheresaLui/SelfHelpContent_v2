@@ -45,7 +45,7 @@ ownershipId="CloudNet_NVA"
             "description": "Contact Vendor support to upgrade NVA image to latest recommended version",
             "actionType": "Document",
             "documentLink": ""
-        }t
+        }
     ],
     "displayLabel": "Upgrade your Network Virtual Appliance Version to enable Accelerated Networking on all platforms.",
     "tip": "Upgrade your Network Virtual Appliance image version to eliminate any unexpected degradation in network performance.",
