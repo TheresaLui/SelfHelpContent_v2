@@ -20,14 +20,14 @@
 # We ran diagnostics on your Microsoft Cloud PC subscription and found an issue
 
 <!--issueDescription-->
-Microsoft Cloud PC has a dependency on specific Service Principals (SPNs) to function correctly. We allow the ability to disable this Cloud PC SPN in Azure Active Directory for customers that would like to do so. We have detected that you are using Cloud PC and that its SPN is disabled, which will prevent Cloud PC from functioning correctly. Please re-enable sign on for **<!--$DeschutesAppName-->[DeschutesAppName]<!--/$DeschutesAppName-->**.
+Microsoft Cloud PC has a dependency on a specific Service Principal Name (SPN) to function correctly. The ability to disable this Cloud PC SPN is available in Azure Active Directory for customers that wish to do so. We have detected that you are using Cloud PC and that its SPN is disabled, which will prevent Cloud PC from functioning correctly. Please re-enable sign on for **<!--$CloudPCAppName-->[CloudPCAppName]<!--/$CloudPCAppName-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, then choose the Application type of "All Applications" and click apply
-2. Search for **<!--$DeschutesAppName-->[DeschutesAppName]<!--/$DeschutesAppName-->**
+1. In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, then choose the Application type "All Applications" and click Apply
+2. Search for **<!--$CloudPCAppName-->[CloudPCAppName]<!--/$CloudPCAppName-->**
 3. Click the application, then click "Properties" from the Management menu
-4. Set the "enabled for sign on" value to YES
+4. Set the "Enabled for users to sign-in" value to Yes
 5. Click Save
 6. Return to the Microsoft Cloud PC application in the Azure portal and confirm it's working as expected
