@@ -17,13 +17,13 @@
 
 # DevSetup Install Issues
 
-## **Error: Docker version 'x.xx.x' is required**
+## Error: Docker version 'x.xx.x' is required
 
 Q: When running `DevSetup.ps1` in step 3, from the section **Windows 10 VM Setup and Cloud Deployment**, found in **Tutorial 2: Deploy the Connected Vehicle Platform**, I get an error `Docker version 'x.xx.x' is required. Installed version ''`, when running the following script `.\packages\Microsoft.Azure.ConnectedCar.Deployment.*\DevSetup.ps1`.
 
 A: Wait until Docker has started then rerun the `DevSetup.ps1` script.
 
-## **Error: ‘keyvault_objectid’ is null**
+## Error: ‘keyvault_objectid’ is null
 
 When running `DevSetup.ps1` in step 3, section **Windows 10 VM Setup and Cloud Deployment**, found in **Tutorial 2: Deploy the Connected Vehicle Platform**, the error `‘keyvault_objectid’ is null` occurs when deploying to the KeyVault.
 

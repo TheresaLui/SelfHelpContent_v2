@@ -17,7 +17,7 @@
 
 # Send Command
 
-## **Error: BadRequest**
+## Error: BadRequest
 
 When using the command line application to send a command from the tutorial to **Send, Receive, and Respond to a Command**, the status code resulted in a `BadRequest`.
 

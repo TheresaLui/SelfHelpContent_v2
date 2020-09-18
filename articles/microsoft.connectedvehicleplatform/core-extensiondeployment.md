@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-## **Error: PLEASE ENSURE PLATFORM IS RUNNING**
+## Error: PLEASE ENSURE PLATFORM IS RUNNING
 
 The following error occurs when attempting to deploy an extension: `PLEASE ENSURE PLATFORM IS RUNNING.  ALTHOUGH THIS PROGRAM WILL RETRY, PLATFORM MUST BE RUNNING FOR IT TO SUCCEED.`
 
@@ -33,7 +33,7 @@ There are two possible causes for this error:
 
     Use the secret value text for `CCApiKey-Key1` from your key vault to set the `-CVSApiKey` parameter in the `DeployProcessExtension.ps1` script. Rerun the script.
 
-## **Error: Awaiting rollout of manifest to extension host**
+## Error: Awaiting rollout of manifest to extension host
 
 Verify the connectivity between your machine (deploying the extension), and the cloud Azure resources. Reconnect and create a new RDP session.
 
