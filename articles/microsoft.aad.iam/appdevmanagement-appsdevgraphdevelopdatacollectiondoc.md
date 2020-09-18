@@ -8,7 +8,7 @@
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="32aa0b19-fee7-4350-af1c-9dffba151bd6"
+    articleId=" "
     	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
