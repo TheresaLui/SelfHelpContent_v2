@@ -12,7 +12,8 @@
     supportTopicIds="32690723"
     resourceTags=""
     productPesIds="16986"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Problems with custom roles

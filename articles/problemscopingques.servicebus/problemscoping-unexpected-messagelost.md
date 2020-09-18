@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633401,32633397"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-message-lost-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Message Lost or duplicate message issues
 ---

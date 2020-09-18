@@ -13,7 +13,8 @@
     supportTopicIds="32608928,32608936,32608960,32608935"
     resourceTags=""
     productPesIds="15842"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Detected one or more missing seed nodes

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="a0f573ba-2378-44a4-a138-45afba7ff94f"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I need help with cross-subscription connectivity (for Circuit Owner)

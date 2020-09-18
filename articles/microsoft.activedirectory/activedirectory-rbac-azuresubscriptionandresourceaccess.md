@@ -9,8 +9,9 @@
     supportTopicIds="32565605"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="9f5415f4-e21f-4134-96fd-c7e725bacd2c"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Azure subscription and resource access (RBAC)

@@ -10,8 +10,9 @@
 	supportTopicIds="32602752"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="e460f249-f6fe-4851-93b7-5f00eda49666"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Back up and restore Azure file shares  

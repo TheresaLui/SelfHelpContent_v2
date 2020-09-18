@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32583701"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="d65501bd-4146-474a-b467-2c84e613b369"
+	ownershipId="Compute_AppService"
 />
 
 # High CPU usage
@@ -73,8 +74,7 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
 			"watermarkText": "...",
 			"required": false
-		}
-    ],
+		}],
     "$schema": "SelfHelpContent"
 }
 ---

@@ -9,8 +9,9 @@
     supportTopicIds="32632391"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e615a601-3398-43a5-840e-adbbcdbed649"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Management APIs returns Other Errors (400, 500, 503, etc.)

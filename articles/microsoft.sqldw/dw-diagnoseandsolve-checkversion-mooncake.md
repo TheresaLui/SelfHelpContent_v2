@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-diagnoseandsolve-checkversion-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Check your SQL Data Warehouse version and Release Notes
 

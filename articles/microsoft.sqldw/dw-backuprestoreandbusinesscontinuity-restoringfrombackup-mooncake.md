@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup-mooncake"
     cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Restoring from backup

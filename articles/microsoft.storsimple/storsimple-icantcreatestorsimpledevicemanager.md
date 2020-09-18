@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="9000Or1200Series"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="95f59566-efda-4346-9fca-cb990de7cce4"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can't create a StorSimple Device Manager.

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602751,32602754,32602766,32602768"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="88B341FD-FA67-466D-80FC-EDA8B07BE4DF"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Question or issue with Azure Files development
 ---

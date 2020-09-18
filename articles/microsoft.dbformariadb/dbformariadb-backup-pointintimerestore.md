@@ -10,8 +10,9 @@
     supportTopicIds="32640145"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b6c2dae7-fade-4ab5-a4cb-d333f5554cf0"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Backups and restore options for Azure Database for MariaDB
@@ -22,7 +23,7 @@ The default retention period is 7 days and can be increased to 35 days. The back
 
 ## **Recommended Steps**
 
-* If you are having connectivity issues after restoring the server, make sure that the connection string is referring to the restored server
+* If you are having connectivity issues after restoring the server, make sure that the connection string is referring to the restored server and username has the servername of restored server in the `username@servername` syntax.
 * Azure that you try to restore to a point in time that is within you configured retention period. Note that we do not backfill the backups if you increase the retention period.
 * If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
 * The point in time restore duration depends on your database size and the transaction log size from last full backup. The SLA of restore time is 12 hours.

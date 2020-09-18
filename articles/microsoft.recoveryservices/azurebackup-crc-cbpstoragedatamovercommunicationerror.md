@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error CBPStorageDataMoverCommunicationError
@@ -24,5 +25,8 @@ We have identified that your backup operation failed because the MARS agent was 
 
 ## **Recommended Steps**
 
-- Verify your network [connectivity](https://docs.microsoft.com/azure/backup/backup-configure-vault#verify-internet-access)
-- If you are using antivirus software then it can interfere with communication and backup. Follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) steps to troubleshoot and resolve.
+- Verify that you are connected to the internet and proxy server settings are configured correctly
+* Ensure access to internet by following these [steps](https://docs.microsoft.com/azure/backup/backup-configure-vault#verify-internet-access)
+- If Proxy is used, ensure details are accurate. If not used, remove the settings. To learn more, see this [article](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#verifying-proxy-settings-for-windows).
+- If you are using antivirus software then it might interfere with communication and the backup operation. Follow these [steps](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) to troubleshoot and resolve.
+- Retry the operation

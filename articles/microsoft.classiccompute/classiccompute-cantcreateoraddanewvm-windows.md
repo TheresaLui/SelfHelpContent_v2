@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="windows, windowsSQL"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="da7ca1c7-0dff-462a-9402-becbcbc36e37"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't create or add a new VM

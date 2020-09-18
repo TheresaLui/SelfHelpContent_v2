@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640150"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-toolsapis-rest_api"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Portal, Client Tools and APIs - Rest API
 ---

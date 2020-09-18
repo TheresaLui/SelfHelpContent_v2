@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-fileupload-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # IoT Hub file upload issues

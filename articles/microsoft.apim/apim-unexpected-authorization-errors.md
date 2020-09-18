@@ -9,8 +9,9 @@
     supportTopicIds="32632390"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="96533307-8665-40e3-88ca-3d1489cd2289"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Management APIs returns Authorization errors

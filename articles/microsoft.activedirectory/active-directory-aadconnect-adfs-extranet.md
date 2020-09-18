@@ -10,8 +10,9 @@
     supportTopicIds="32689919"
     resourceTags=""
 	productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="c0bae8c1-80c1-42ba-af0b-b4a5fffb8b9b"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Problem with authentication ONLY from the extranet

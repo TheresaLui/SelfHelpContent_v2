@@ -4,11 +4,12 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636812,32688838"
+	supportTopicIds="32741535,32688838"
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="593dd156-70b4-4197-9751-dd032af7a4cf"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SDK Other Issues
 ---

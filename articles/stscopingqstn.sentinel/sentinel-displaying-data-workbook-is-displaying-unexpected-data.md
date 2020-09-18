@@ -10,8 +10,9 @@
     supportTopicIds="32691187"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-displaying-data-workbook-is-displaying-unexpected-data"
+	ownershipId="Azure_Sentinel"
 />
 
 # Workbook is displaying unexpected data

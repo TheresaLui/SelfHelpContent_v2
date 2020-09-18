@@ -12,7 +12,8 @@ diagnosticScenario="AAVmNotAssessedWithHresult"
 selfHelpType="diagnostics"
 supportTopicIds="32599861,32599864,32599936,32615228,32599903,32615227,32615229,32599937,32599924,32642182,32642183,32642184,32642185,32642186,32642187"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 
 

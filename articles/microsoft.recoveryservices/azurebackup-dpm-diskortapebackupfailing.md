@@ -10,8 +10,9 @@
 	supportTopicIds="32632807"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4d1f0f3e-5b08-42b5-bf31-72ce6758008f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # DPM disk or Tape backup is failing

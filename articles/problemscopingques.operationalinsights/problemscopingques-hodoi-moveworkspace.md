@@ -8,7 +8,8 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612491"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+ownershipId="AzureMonitoring_LogAnalytics"
 schemaVersion="1"
 />
 
@@ -90,7 +91,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

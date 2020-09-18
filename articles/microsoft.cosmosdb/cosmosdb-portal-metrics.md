@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636799,32636811,32684530,32692542"
+	supportTopicIds="32636799,32741538,32684530,32692542"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-portal-metrics"
 	displayOrder="262"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 
@@ -20,6 +21,11 @@
 <br>Cosmos DB provides several metrics in the Azure Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
 
 ## Recommended Steps
+
+**MaxRU/s metric is being depricated. The recommended metric now is NormalizedRU.**  
+Please check [How to monitor normalized RU/s for an Azure Cosmos container or an account](https://docs.microsoft.com/azure/cosmos-db/monitor-normalized-request-units)  
+
+
 
 **Metrics show throttling (429) but chart shows consumed throughput doesn't exceed provisioned throughput**   
 

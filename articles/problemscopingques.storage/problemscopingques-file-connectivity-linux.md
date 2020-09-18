@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32642179"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="68662AF6-4C88-4D74-89FC-4EAE9239A246"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File connectivity issues - Linux
 ---
@@ -33,8 +34,30 @@
             "diagnosticInputRequiredClients": "ASC"
         },
         {
-            "id": "os_version",
+            "id": "file_share_protocol",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "File Share Protocol",
+            "watermarkText": "Select File Share Protocol",
+            "dropdownOptions": [
+                {
+                    "value": "SMB",
+                    "text": "SMB Protocol"
+                },
+                {
+                    "value": "NFS",
+                    "text": "NFS Protocol"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "os_version",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Linux version where File Share is being mounted",
             "watermarkText": "Choose an option",
@@ -105,7 +128,7 @@
         },
         {
             "id": "linux_kernel",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Linux kernel version",
             "watermarkText": "Run 'uname -r' command to find Linux kernel version",
@@ -114,7 +137,7 @@
         },
         {
             "id": "mount_location",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Location where File Share is being mounted",
             "watermarkText": "Choose an option",
@@ -141,7 +164,7 @@
         },
         {
             "id": "mount_error",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Linux mount error",
             "watermarkText": "Choose a mount error",
@@ -180,7 +203,7 @@
         },
         {
             "id": "error_other",
-            "order": 5,
+            "order": 6,
             "visibility": "mount_error == linux_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
@@ -189,14 +212,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

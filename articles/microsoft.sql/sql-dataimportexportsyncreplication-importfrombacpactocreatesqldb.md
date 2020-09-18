@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630430"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="f291a9f3-4717-4279-a7fa-aa081acffc13"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 
 # BACPAC, DataSync, Copy DB and Replication/import from BACPAC to create SQL db
@@ -18,6 +19,10 @@
 SQL DB Import service supports importing a BACPAC file into a new Azure SQL database. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the import.
 
 ## **Recommended Steps**
+
+### BlobUri could not be found for this request
+
+* While retrieving the status of a request there are edge cases where the service will return a status of "Completed" and an error message of "BlobUri could not be found for this request". In these cases, the Import operation has completed successfully and the error message can be safely ignored.
 
 ### Unable to authenticate request/Login failed for user
 

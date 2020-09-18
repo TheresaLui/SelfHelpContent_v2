@@ -9,10 +9,11 @@
 	supportTopicIds="32675635"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-performance"
 	displayOrder="184"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Performance
 Most users are able to resolve their Gremlin Performance issue using the steps below.  

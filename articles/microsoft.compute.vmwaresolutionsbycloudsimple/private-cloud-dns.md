@@ -10,8 +10,9 @@
     supportTopicIds="32637576"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="96551f5a-1223-4da8-9830-77d7406bf9fb"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud DNS from on-prem 

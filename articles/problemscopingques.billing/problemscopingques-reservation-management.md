@@ -5,10 +5,11 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32593227,32593228,32593229"
+	supportTopicIds="32593227,32593229"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Reservation Management
 ---

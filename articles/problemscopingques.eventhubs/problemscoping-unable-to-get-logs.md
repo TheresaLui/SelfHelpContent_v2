@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636953"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-unable-to-get-logs"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Unable to retrieve diagnostics or log information
 ---

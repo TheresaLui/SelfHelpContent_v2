@@ -8,8 +8,9 @@
     supportTopicIds="32693240"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="b0ee2316-eff3-4165-bb99-9bec920416b7"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Configuring Features – My Feature is not listed

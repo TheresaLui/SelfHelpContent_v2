@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="535d4568-4172-4732-91dd-f67bf5aac1f5"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Use of traffic selectors

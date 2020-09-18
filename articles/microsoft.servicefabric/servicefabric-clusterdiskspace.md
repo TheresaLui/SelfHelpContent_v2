@@ -10,8 +10,9 @@
 	supportTopicIds="32690990"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="servicefabric-clusterdiskspace"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster nodes running out of disk space

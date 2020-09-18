@@ -10,8 +10,9 @@
     supportTopicIds="32536679"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="408f86fc-fb01-4935-b621-276f88fa55c5"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # portal-tilesmissingdata

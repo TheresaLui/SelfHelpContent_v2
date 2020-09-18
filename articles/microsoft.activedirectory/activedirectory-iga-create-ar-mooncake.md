@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-create-ar-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why can't I create an Access Review?

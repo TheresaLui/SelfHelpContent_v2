@@ -9,8 +9,9 @@
     supportTopicIds="32632400"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="91cf7fb7-c2d0-4794-a473-83fcec99e16f"
+	ownershipId="Compute_APIManagement"
 />
 
 # Backup or restore files

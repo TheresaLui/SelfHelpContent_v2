@@ -10,8 +10,9 @@
 	supportTopicIds="32677678"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="71514fd7-4e3b-4a7e-b213-287efc7fe5b2"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks cluster creation failure

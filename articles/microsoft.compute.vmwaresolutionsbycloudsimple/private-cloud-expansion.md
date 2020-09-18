@@ -10,8 +10,9 @@
     supportTopicIds="32637606"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="c827ff24-ee9c-4978-8ee3-63f8ef335601"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud expansion 

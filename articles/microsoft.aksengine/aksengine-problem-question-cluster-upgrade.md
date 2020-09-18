@@ -9,8 +9,9 @@
     supportTopicIds="32689837"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="72f874ad-75f8-414d-8dc0-ab50b35e6b9d"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I have a problem or question related to Cluster Upgrade

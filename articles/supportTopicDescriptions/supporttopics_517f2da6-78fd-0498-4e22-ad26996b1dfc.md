@@ -5,8 +5,9 @@
   ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="billing-supporttopicdescription"
+  ownershipid="ASMS_Billing"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -98,9 +99,9 @@
     {
       "id": "15da022a-a108-c566-b944-c6d46ccd6479",
       "longDescription": null,
-      "shortDescription": "Questions about billing cycles, when you will get your bill, and when your credit card will be auto-charged",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with pricing discounts",
+      "searchTags": "pricing;discounts",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -194,9 +195,9 @@
     {
       "id": "4f8c94bd-0ef0-52b2-1714-7dd131b166fd",
       "longDescription": null,
-      "shortDescription": "Questions on cost alerts e-mails not being delivered or action group tasks not being triggered",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected alerts, budget related errors or unclear forecasted cost",
+      "searchTags": "Cost Management;Forecast;Unexpected alerts",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -258,25 +259,25 @@
     {
       "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
       "longDescription": null,
-      "shortDescription": "Questions or need help with pricing for Reserved Instances",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or issues with billing or reservation discount for Windows and SQL",
+      "searchTags": "Reserved Instance;RI;Reservation;Reservation discount",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
       "longDescription": null,
-      "shortDescription": "Issues setting up cost alerts or encountering system errors",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected data, other than costs, displayed in ACM or PBI",
+      "searchTags": "Cost Management;Unexpected data",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6d607aed-0da2-0322-dfd1-987002d9f410",
       "longDescription": null,
-      "shortDescription": "Questions on any other bill or usage related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance understanding how a service is charged",
+      "searchTags": "service charges;assistance;bill;charge",
+      "category": "Assistance with bill or usage",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -338,10 +339,10 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Questions on usage data availability via API and possible configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Other issues not covered in specific issues listed above",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
@@ -373,6 +374,14 @@
       "shortDescription": "Questions or issues with using Billing API to download consumption data",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a5f5229a-130c-e227-564e-b8a9cd46889d",
+      "longDescription": "",
+      "shortDescription": "Questions or need assistance with Azure Pricing calculator",
+      "searchTags": "Price calculator;Azure calculator;calculator",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -432,6 +441,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cff282e6-4e7b-2958-af63-320cff7dcbab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with utilization of reserved instance",
+      "searchTags": "Reservation;RI;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d0f16bf7-e011-3f3b-1c26-3147f84e0896",
       "longDescription": null,
       "shortDescription": "Questions on understanding the information on the invoice and the usage report",
@@ -458,9 +475,9 @@
     {
       "id": "dc1655d0-baa0-76a1-8521-717732d5eb5a",
       "longDescription": null,
-      "shortDescription": "Questions on any other Pricing related issue not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with Azure price sheet API",
+      "searchTags": "price sheet;API",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {

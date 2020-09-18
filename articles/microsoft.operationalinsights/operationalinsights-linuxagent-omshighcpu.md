@@ -10,8 +10,9 @@
     supportTopicIds="32612498"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="457760c5-85c3-44c2-bc90-4ecf5a471775"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/OMS agent: Running high CPU

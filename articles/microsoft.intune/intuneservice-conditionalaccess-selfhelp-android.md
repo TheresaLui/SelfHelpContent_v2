@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="conditional_access_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ebf02982-ae4d-4ca8-ae92-5ac51061f2d9"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users on Android devices without Knox cannot access email after they've enrolled in Intune.

@@ -3,15 +3,16 @@
     description="Troubleshooting query performance in Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="jan-eng"
-    ms.author="janeng"
+    authors="savjani"
+    ms.author="pariks"
     displayOrder="90"
     selfHelpType="generic"
     supportTopicIds="32640094"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="69a504ec-67e1-4d7a-ad2f-46ec95ca044a"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting query performance in Azure Database for MySQL

@@ -12,7 +12,8 @@
     supportTopicIds="32677619"
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-chart-shows-unexpected-drop-in-values -->

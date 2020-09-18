@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32637268"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-importexportreplication-importfrombacpac"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Import from BACPAC to create SQL DB MI
 ---

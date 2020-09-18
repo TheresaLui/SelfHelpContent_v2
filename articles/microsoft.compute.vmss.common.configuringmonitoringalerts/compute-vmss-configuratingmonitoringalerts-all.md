@@ -10,8 +10,9 @@
 	supportTopicIds="32641076"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="61a94ab0-dbda-499c-8dfe-c25751787080"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Configuring monitoring alerts

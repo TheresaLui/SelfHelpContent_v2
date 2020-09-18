@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640152"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-connectivity-maxlimit"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---

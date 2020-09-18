@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-reporting-o365-activity-log-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How can I get Office 365 activity log information through the Azure portal?

@@ -10,8 +10,9 @@
 	supportTopicIds="32641054,32641053"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f1b2ce82-4f0e-4583-a943-2163a7870cb1"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Image Builder

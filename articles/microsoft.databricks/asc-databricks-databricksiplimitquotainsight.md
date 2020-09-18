@@ -13,7 +13,8 @@
     supportTopicIds="32677649, 32677680, 32677678, 32677671, 32677670, 32677655, 32677702"
     resourceTags=""
     productPesIds="16432"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # We ran diagnostics on your resource and found the following issue

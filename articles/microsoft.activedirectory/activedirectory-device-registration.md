@@ -9,8 +9,9 @@
     supportTopicIds="32392474"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="e3cae983-06b3-42da-a82c-622015a69e4b"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problems with device registrations and managing devices in Azure AD

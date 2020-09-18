@@ -13,8 +13,9 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Pings From MSEE to Peer Failed
 
 Border Gateway Protocol (BGP) is currently not up on one or more peerings on one or more devices, listed below. ICMP reachability is currently down from the MSEE to the customer. If ICMP or ping is not functioning from the MSEE, this is likely causing BGP to be down.

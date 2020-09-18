@@ -1,17 +1,18 @@
 <properties
 	pageTitle="How to find the right data migration method"
-  description="How to find the right data migration method"
+  	description="How to find the right data migration method"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="sijia"
 	ms.author="siz"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32632044"
+	supportTopicIds="32632044, 32743032"
 	resourceTags=""
-	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	productPesIds="16459, 16598"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="533c279d-3b38-4b9b-a9e5-8eb97dc917d3"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to find the right data migration method

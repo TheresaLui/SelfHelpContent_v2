@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630451"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="cd7113bd-0d84-4617-9420-416b7f09bbc5"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # Backup/restore/recover dropped server or resource group

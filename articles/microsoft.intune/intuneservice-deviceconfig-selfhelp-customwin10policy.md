@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0263873e-f96b-47d6-84ef-e101cf169b2f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I'm creating and applying custom Windows 10 policies, but they're not working.

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681650"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="5588d800-66b8-40db-947e-b985d3399127"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Monitoring - Advisory questions
@@ -39,9 +40,9 @@
                     "value": "log_retention",
                     "text": "Log retention question"
                 },
-                {
-                    "value": "audit_action",
-                    "text": "Action audit question"
+                 {
+                    "value": "who_accessed_storage_resource",
+                    "text": "Who accessed storage resource"
                 },
                  {
                     "value": "file_share_metrics",

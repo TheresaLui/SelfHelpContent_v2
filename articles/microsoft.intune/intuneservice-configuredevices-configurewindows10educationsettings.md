@@ -9,8 +9,9 @@
 	supportTopicIds="32599620"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c16a59ba-52c1-4799-94ce-0277bd94c369"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure Windows 10 education settings

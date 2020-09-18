@@ -11,7 +11,8 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-availabilityandconnectivity.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # How to troubleshoot availability and connectivity issues
 

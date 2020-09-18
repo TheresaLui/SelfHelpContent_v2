@@ -8,8 +8,9 @@
     supportTopicIds="32693246"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-9001-8910-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Regulatory Compliance Common Solutions 

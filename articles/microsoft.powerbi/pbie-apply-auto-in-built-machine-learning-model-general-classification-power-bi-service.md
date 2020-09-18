@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32633801"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6b4973e0-585a-21fe-3473-85a31adf0fe3"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Classification models

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="onpremise_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ab6f04b3-88e2-4252-b6d7-dbc3a2272478"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # How often does the Intune on-premises Exchange Connector sync?

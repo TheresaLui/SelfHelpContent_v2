@@ -10,8 +10,9 @@
     supportTopicIds="32615529,32639643"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="28c55293-b977-4d19-b98c-338f450a6aa4"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I need to reset my password

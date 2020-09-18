@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15693"
 	supportTopicIds="32452725"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # General Guidance or Advisory

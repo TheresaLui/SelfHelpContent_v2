@@ -6,13 +6,14 @@
 	authors="jimsch" 
 	ms.author="jimsch" 
 	selfHelpType="generic" 
-	supportTopicIds="32636812,32688840,32681010"
+	supportTopicIds="32741535,32688840,32681010"
 	resourceTags="" 
 	productPesIds="15585" 
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-general" 
 	displayOrder="290" 
 	category="SDK Issues" 
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Introduction to Azure Cosmos DB SDK  
@@ -21,12 +22,12 @@ Most users are able to resolve their .Net SDK case using the steps below.
 ## **Recommended Steps**  
 
 ### **Use latest SDK versions and singleton client**  
-Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
+Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard).
 <br>Please ensure you are using singleton client.  
 
 ### **Known Issues and Solutions**  
-Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:    
-* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
+Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
+* [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
 * [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
@@ -50,7 +51,7 @@ You can use both strategies but you should keep in mind that when indexer runs i
 [Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
 [How can I improve my database performance?](https://docs.microsoft.com/azure/cosmos-db/performance-tips)

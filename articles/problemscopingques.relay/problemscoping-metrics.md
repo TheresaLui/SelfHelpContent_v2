@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32684544"
 resourceTags=""
 productPesIds="16123"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="relay-monitor"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Monitoring and Metrics Issues
 ---

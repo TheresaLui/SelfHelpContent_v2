@@ -10,8 +10,9 @@
 	supportTopicIds="32613339"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="9b2a8734-2db5-4b2b-899f-982f2edf3654"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Troubleshoot and resolve issues with Azure Static Websites

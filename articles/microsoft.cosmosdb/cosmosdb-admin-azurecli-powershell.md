@@ -9,10 +9,11 @@
 	supportTopicIds="32636824,32675641"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-azurecli-powershell"
 	displayOrder="21"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Creating and managing Azure Cosmos DB account and resources

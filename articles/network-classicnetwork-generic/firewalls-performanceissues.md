@@ -10,8 +10,9 @@
     supportTopicIds="32608918,32608921,32608922"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="firewalls-performanceissues"
+	ownershipId="CloudNet_AzureFirewall"
 />
 
 # Generic message for case routing

@@ -10,8 +10,9 @@
     supportTopicIds="32536582"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="8ac4ac0b-8e60-4059-8b06-128eeea76758"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # adreplicationstatus-other

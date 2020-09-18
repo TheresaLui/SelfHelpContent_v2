@@ -11,12 +11,13 @@
 	diagnosticScenario="OrcasMariaDBOutofConnectionsInsightV2TroubleShooter"
 	selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Can't connect MariaDB database server because of running out of connections
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to connections to your database server have been running out between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->.
+During our investigation regarding connection issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName--> we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to connections to your database server have been running out between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC).
 <!--/issueDescription-->
 
 ## **Recommended Steps**

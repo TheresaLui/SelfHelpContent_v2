@@ -9,10 +9,11 @@
 	supportTopicIds="32636767"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-portal-alerts"
 	displayOrder="260"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Monitor Cosmos DB with alerts  

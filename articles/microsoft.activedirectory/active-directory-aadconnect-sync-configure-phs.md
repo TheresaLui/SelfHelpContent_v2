@@ -10,8 +10,9 @@
     supportTopicIds="32629793"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="60a953da-8484-4073-be6a-ff9b0fa1e510"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Configure password hash synchronization

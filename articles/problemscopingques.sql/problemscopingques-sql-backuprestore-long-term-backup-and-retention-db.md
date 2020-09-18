@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630432"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-long-term-backup-and-retention-db"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 # Error while long-term-backup-and-retention
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32637193"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="56e3bab6-091d-4910-987a-97b8d25925d4"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

@@ -9,8 +9,9 @@
 	supportTopicIds="32612190"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2f5de569-af4d-4509-9ae8-4a730e5ac022"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Dashboards

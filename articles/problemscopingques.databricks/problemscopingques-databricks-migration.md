@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32677657, 32677683, 32677714, 32677736"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Cluster Migration Issue
 ---

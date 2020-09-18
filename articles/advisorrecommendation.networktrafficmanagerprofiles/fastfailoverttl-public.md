@@ -5,7 +5,9 @@
     ms.author="aadevteam"
     articleId="b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    productPesIds="15400"
+    cloudEnvironments="Public, usnat, ussec"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 20 seconds
 ---
@@ -27,17 +29,17 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "atmredmond@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "Metrics://TrafficManager",
+      "service": "Cloudnet",
+      "team": "TrafficManager"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "d99081c1-c81f-49e3-8aec-541f00ffba62"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/Ngfw4r",
   "description": "Configure DNS Time to Live to 20 seconds",
   "longDescription": "Time to Live (TTL) affects how recent of a response a client will get when it makes a request to Azure Traffic Manager. Reducing the TTL value means that the client will be routed to a functioning endpoint faster in the case of a failover. Configure your TTL to 20 seconds to route traffic to a health endpoint as quickly as possible.",
@@ -59,14 +61,30 @@
     "action": {
       "actionId": "5e6564b8-fb81-44e3-a0e2-abddf5a89923",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
     }
   },
   "displayLabel": "Configure Time to Live",
-  "additionalColumns": []
+  "additionalColumns": [],
+  "remediation": [
+    {
+      "httpMethod": "PATCH",
+      "uri": "{armEndpoint}{resourceId}?api-version=2018-04-01",
+      "actionId": "5752f97c-1607-45ee-807b-4b003af71452",
+      "implication": null,
+      "documentationLink": "https://docs.microsoft.com/rest/api/trafficmanager/profiles/update",
+      "requestBody": {
+        "properties": {
+          "dnsConfig": {
+            "ttl": 20
+          }
+        }
+      }
+    }
+  ]
 }
 ---

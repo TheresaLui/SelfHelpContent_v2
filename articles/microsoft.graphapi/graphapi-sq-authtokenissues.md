@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32689192"
     productPesIds="16952"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="a6dcd774-657f-4260-84ab-392c9c06c157"
-    />
+    	ownershipId="AzureIdentity_MSGraph"
+/>
 
 # Problem with getting an access token (authentication)
 

@@ -10,8 +10,9 @@
 	supportTopicIds="32584249"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="17b6ce2d-8fb1-4bc3-b199-59fbd3f5d30b"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # connectivity/cannotconnecttoavirtualmachineinapeeredvnet

@@ -10,8 +10,9 @@
 	supportTopicIds="32688661,32688636,32688637"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="A48F831F-F251-40B5-A602-09BA97C2381C"
+	ownershipId="Compute_BotService"
 />
 # Common Deployment Issues
 

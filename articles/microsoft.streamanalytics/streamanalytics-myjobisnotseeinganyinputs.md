@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="50ac01a9-1177-4567-9c63-892ed4c69faf"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # My job is not seeing any inputs

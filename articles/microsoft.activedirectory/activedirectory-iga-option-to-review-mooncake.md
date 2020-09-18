@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-option-to-review-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I do not see an option to review directory or Azure resource roles

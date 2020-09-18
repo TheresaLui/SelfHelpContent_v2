@@ -7,8 +7,9 @@
       selfHelpType="problemScopingQuestions"
       supportTopicIds="32558778"
       productPesIds="16157"
-      cloudEnvironments="public, MoonCake, fairfax" 
+      cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
       schemaVersion="1"
+	ownershipId="AzureData_AnalysisServices"
 />
 # Connect with Power BI
 ---

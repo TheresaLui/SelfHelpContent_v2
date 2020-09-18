@@ -11,7 +11,8 @@
     supportTopicIds="32635074"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Jobs and tasks - Job preparation and job release

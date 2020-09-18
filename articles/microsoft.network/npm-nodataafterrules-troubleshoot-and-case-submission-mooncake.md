@@ -12,6 +12,7 @@
 	productPesIds=""
     articleId="npm-nodataafterrules-troubleshoot-and-case-submission-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # No monitoring data in NPM

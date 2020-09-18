@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="9a622df1-5f1b-4bfb-90fe-ab7f88d5d4d9"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I cannot connect to my public endpoint after associating NSG to my virtual machine.
