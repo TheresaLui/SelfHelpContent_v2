@@ -7,7 +7,7 @@
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="53c2ddca-f1c5-4ff7-8535-d84e51830dd5"
+	articleId="49ee6019-41ac-4ced-a296-6dc847453964"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
 # General Questions - My issue is not listed

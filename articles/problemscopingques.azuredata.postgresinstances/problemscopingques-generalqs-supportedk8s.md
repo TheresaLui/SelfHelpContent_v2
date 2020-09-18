@@ -3,7 +3,7 @@
 	description="Questions on Supported K8s and cluster pre-requisites"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747917"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
