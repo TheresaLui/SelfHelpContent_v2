@@ -326,7 +326,7 @@
 	},
 	{
 		"id": "external_cloud_file_type",
-		"visibility": "external_cloud_migration_scenario == copy_from_aws_s3_to_blobs || external_cloud_migration_scenario == copy_from_otherexternalcloud_to_blobs,
+		"visibility": "external_cloud_migration_scenario == copy_from_aws_s3_to_blobs || external_cloud_migration_scenario == copy_from_otherexternalcloud_to_blobs",
 		"order": 9,
 		"controlType": "dropdown",
 		"displayLabel": "External file type",
@@ -346,7 +346,7 @@
 	},
 		{
 		"id": "local_onpremise_file_type",
-		"visibility": local_onpremise_migration_scenario == copy_from_localonpremise_to_blobs",
+		"visibility": "local_onpremise_migration_scenario == copy_from_localonpremise_to_blobs",
 		"order": 10,
 		"controlType": "dropdown",
 		"displayLabel": "Local File type",
