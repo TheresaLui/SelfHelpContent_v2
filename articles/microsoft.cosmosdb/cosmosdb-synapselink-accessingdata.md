@@ -52,6 +52,15 @@ All transactional operations are propagated, including deletes. And analytical s
 - If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
 - If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit.  
 
+
+### **Spark data is not refreshing**
+In the case of **loading to Spark DataFrame**, the fetched metadata is cached through the lifetime of the Spark session and hence subsequent actions invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.  
+
+On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark and is reloaded on every SparkSQL query execution against the Spark table.  
+
+Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store respectively.  
+
+
 ## **Recommended Documents**  
 
 [What is Azure Cosmos DB Analytical Store](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction)
