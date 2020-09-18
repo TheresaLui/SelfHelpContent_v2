@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32748837,32748843,32748839,32748841"
 	productPesIds="17126"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="6d8e01f3-967c-4b95-950e-a69f36f1be03"
 	ownershipId="AzureData_SQL_Server_Azure_Arc"
@@ -29,7 +29,6 @@
 			"id": "arc_configuration",
 			"order": 2,
 			"controlType": "dropdown",
-			"infoBalloonText": "string",
 			"displayLabel": "Have you already configured Azure Arc Server Resource, before you can install SQL Arc resouce?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
