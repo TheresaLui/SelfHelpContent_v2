@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a4f8a83f-f07a-6f9f-3da4-ca336a0f40bd",
+      "longDescription": "",
+      "shortDescription": "Help with dependent resources that need to be Committed for parent resources to be prepared",
+      "searchTags": "Prepare, quota, stuck, committed",
+      "category": "Prepare",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a56874a5-5de1-c774-3055-9292d94c0c2c",
       "longDescription": "",
       "shortDescription": "Unable to find the Resource Group",
@@ -99,6 +107,14 @@
       "shortDescription": "Unable to add the resource type",
       "searchTags": "Add, region, SKU, attributes, scale",
       "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d16e49f0-b168-8e12-d6b9-a932ae95f280",
+      "longDescription": "",
+      "shortDescription": "Help to ensure target region has enough quota and subscriptions limits",
+      "searchTags": "Prepare, quota, stuck, committed ",
+      "category": "Validate",
       "useInDiagnoseAndSolve": "false"
     },
     {
