@@ -26,11 +26,11 @@ Are you facing one of these common problems?
 
     Ensure you are using the latest version of AzCopy. If an older version is used, [refer this document](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10) and  download the latest version.
 
-* Unable to run templates and powershell scripts using AzureCLI task in YAML 
+* Unable to run templates and powershell scripts using Azure Cli task in YAML 
 
     Change the task and use [Azure PowerShell task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-powershell?view=azure-devops)
 
-* My release pipeline PowerShell tasks gives an error "Initializing Az module failed"
+* My release pipeline PowerShell tasks gives an error "Initializing AZ module failed"
 
    If the module was recently installed, retry after restarting the Azure Pipelines agent. This happens when the agent doesn't have the new modules.
 
@@ -40,7 +40,7 @@ Are you facing one of these common problems?
 
 * I am unable to use **Get-AzContext** inside a powershell script when using the **AzureCLI@2** task.
 
-    The **Get-AzContext** cmdlet is part of the Az Powershell module and is not present within the Azure CLI or the AzureCLI@2 task. If a Self-Hosted Agent is being used, this can be bypassed by having the Az module installed on the machine where a private agent is running. Replace the **AzureCLI@2** task with the **AzurePowershell@4** task. This would also require inserting a [non-interactive az-login step](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-login).
+    The **Get-AzContext** cmdlet is part of the AZ Powershell module and is not present within the Azure Cli or the AzureCLI@2 task. If a Self-Hosted Agent is being used, this can be bypassed by having the AZ module installed on the machine where a private agent is running. Replace the **AzureCLI@2** task with the **AzurePowershell@4** task. This would also require inserting a [non-interactive az-login step](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-login).
 
 
 ## **Recommended Documents**
@@ -48,6 +48,6 @@ Are you facing one of these common problems?
 * [Install Azure PowerShell Module](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-4.6.1)
 * [Azure PowerShell task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-powershell?view=azure-devops)
 * [Use PowerShell scripts to customize the build pipelines](https://docs.microsoft.com/azure/devops/pipelines/scripts/powershell?view=azure-devops&tabs=yaml)
-* [Az Commands](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-login)
+* [AZ Commands](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-login)
 * [Azure CLI task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-cli?view=azure-devops)
 * [Using Command Line task in the pipelines](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-cli?view=azure-devops)
