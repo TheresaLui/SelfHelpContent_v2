@@ -27,7 +27,7 @@
             "required": true
         },
             {
-			"id": "private_endpoint_name",
+			"id": "pproblem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
