@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4fd04b4e-fc18-2f3a-0977-ad0af458a5e5",
+      "longDescription": "",
+      "shortDescription": "Issues related to adding documents to a search index using the REST API",
+      "searchTags": "indexing;documents;REST API;uploading",
+      "category": "Search Index",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5054bba7-b0ee-a89c-b099-d699a9e6c169",
       "longDescription": "",
       "shortDescription": "When using the Azure Cognitive Search portal, I am unable to view my search service details because there is a rain cloud icon.",
