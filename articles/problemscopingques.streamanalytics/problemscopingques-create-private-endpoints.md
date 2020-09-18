@@ -19,12 +19,12 @@
 	"title": "Create Private EndPoints in Azure Stream Analytics Cluster",
 	"fileAttachmentHint": "",
 	"formElements": [
-            { 
+            {
             "id": "problem_start_time", //This is a required value
-            "order": 1, 
-            "controlType": "datetimepicker", 
-            "displayLabel": "When did the problem start?", 
-            "required": true 
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
         },
             {
 			"id": "private_endpoint_name",
