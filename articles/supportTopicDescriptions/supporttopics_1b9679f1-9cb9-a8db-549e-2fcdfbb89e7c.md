@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "61224fea-71fb-8bce-44ea-2fe199aed28a",
+      "longDescription": "",
+      "shortDescription": "Questions on enriching large corpus of documents. Dealing with large batches and enriching documents with multiple skills",
+      "searchTags": "Skillsets;Skills;Batch size;schedule",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6581ffb1-2c35-8bbb-e214-3cb5660ddec5",
       "longDescription": "",
       "shortDescription": "Issues with security related status codes from the Azure Cognitive Search REST API.  (400, 403 or 502)",
