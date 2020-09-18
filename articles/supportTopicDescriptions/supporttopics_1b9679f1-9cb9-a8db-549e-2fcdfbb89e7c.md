@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b2eb467-fe4e-d2ef-94ec-55be8bbeab57",
+      "longDescription": "",
+      "shortDescription": "Some of your queries tend to take a long time to return results.",
+      "searchTags": "latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
       "longDescription": "",
       "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
@@ -37,11 +45,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "158025ee-f747-f2df-288c-ff5d6eda4b91",
+      "longDescription": "",
+      "shortDescription": "An indexer (data source connector) is taking longer than expected to ingest content into the search index.",
+      "searchTags": "performance;indexer;throughput",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
       "longDescription": "",
       "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
       "searchTags": "advisory",
       "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2721d2d6-cc64-a8c7-0cf3-d54f2a7d0b3f",
+      "longDescription": "",
+      "shortDescription": "A portion of the queries are failing with a response code 503. In this case the system must be too busy to respond to your queries.",
+      "searchTags": "throttling;503;failed request;scale",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -157,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bca17707-cff0-2789-b812-a9a52a0ff05c",
+      "longDescription": "",
+      "shortDescription": "The search service takes a long time to respond to most or all of your queries.",
+      "searchTags": "performance;latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
@@ -186,6 +218,14 @@
       "shortDescription": "For general issues related to the Azure Cognitive Search portal including components not loading or browser related issues.",
       "searchTags": "portal;general issue;failed to load;browser issue",
       "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e2b107c0-c692-f7eb-6db4-f63eba26170f",
+      "longDescription": "",
+      "shortDescription": "Issue in the defintion of an index (fields or attributes), or its creation as part of the search service.",
+      "searchTags": "index;schema;definition",
+      "category": "Setup",
       "useInDiagnoseAndSolve": "true"
     }
   ]
