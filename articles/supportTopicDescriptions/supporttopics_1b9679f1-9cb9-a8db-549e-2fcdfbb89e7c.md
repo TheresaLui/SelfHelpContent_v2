@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0df3920e-e3f3-69e4-a702-ec49f70fbd02",
+      "longDescription": "",
+      "shortDescription": "Issue experienced when trying to create a schema for an index. This could be related to field limits, complex types, data types, or similar issues.",
+      "searchTags": "index;schema;definition;complex types",
+      "category": "Search Index",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
       "longDescription": "",
       "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
