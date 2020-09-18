@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bb187bd-c029-84b5-95c5-7c8161dd3d71",
+      "longDescription": "",
+      "shortDescription": "Issues faced when discarding the target resources after initiating the moveIssues faced when discarding the target resources after initiating the move",
+      "searchTags": "Discard, failed,  failback, state, test",
+      "category": "Discard",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "30c72ed2-2e27-1bed-1ed9-edf45c676023",
       "longDescription": "",
       "shortDescription": "Issues faced while preparing resources to move to the target region",
