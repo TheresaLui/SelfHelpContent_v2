@@ -86,7 +86,7 @@
       "title": "Observation End Time"
     }
   ],
-  "testData": "11d5f159-a21d-4a6c-8053-c3aae30057cf,/subscriptions/11d5f159-a21d-4a6c-8053-c3aae30057cf/resourceGroups/prvtest/providers/Microsoft.Kusto/clusters/praveentest,1.0,\"{\"\"currentConfig\"\":\"\"(Mock) Standard_D11_v2, 2 Instances\"\", \"\"observationStartTime\"\":\"\"2020-08-18T20:38:03.2895456Z\"\",\"\"observationEndTime\"\":\"\"2020-09-17T20:38:03.2895456Z\"\",\"\"savingsAmount\"\":\"\"105.04\"\",\"\"annualSavingsAmount\"\":\"\"1260.48\"\",\"\"savingsCurrency\"\":\"\"USD\"\"}\"",
+  "testData": "\"{\"\"clusterName\"\":\"\"SORENTO\"\",\"\"currentConfig\"\":\"\"Mock Standard_D11_v2, 2 Instances\"\",\"\"observationStartTime\"\":\"\"2020-08-18T20:40:28.1128748Z\"\",\"\"observationEndTime\"\":\"\"2020-09-17T20:40:28.1128748Z\"\",\"\"savingsAmount\"\":105.04,\"\"annualSavingsAmount\"\":1260.48,\"\"savingsCurrency\"\":\"\"USD\"\"}\"",
   "remediation": [
     {
       "httpMethod": "POST",
