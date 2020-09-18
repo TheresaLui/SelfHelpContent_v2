@@ -37,12 +37,14 @@ After the analytical store is enabled with a particular TTL value, you can updat
 There are two modes of schema representation in the analytical store. These modes have tradeoffs between the simplicity of a columnar representation, handling the polymorphic schemas, and simplicity of query experience:
 
 - Well-defined schema representation (default for Azure Cosmos DB SQL API)
-- Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)
+- Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)  
 
 Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
 ### **Missing data (properties) in analytical store**
 You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties at the top level doesn’t satisfy this constraint and hence it will not be represented in the analytical store. An item with more than five nested levels in the schema also doesn’t satisfy this constraint and hence it will not be represented in the analytical store.  
+
+Another possible cause is: If the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification above is violated by certain items, those items will not be included in the analytical store.Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
 
 ### **Missing data (items or records or documents) in analytical store**
@@ -51,7 +53,6 @@ All transactional operations are propagated, including deletes. And analytical s
 - If a document is deleted in transactional store, it will also be deleted from analytical store. Despite both stores ttls.
 - If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
 - If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit.  
-
 
 ### **Spark data is not refreshing**
 In the case of **loading to Spark DataFrame**, the fetched metadata is cached through the lifetime of the Spark session and hence subsequent actions invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.  
