@@ -77,4 +77,4 @@ Once your metrics are uploaded you should be able to visualize them from the Azu
 - [Getting logs for Azure Arc enabled data services](https://docs.microsoft.com/azure/azure-arc/data/troubleshooting-get-logs)
 - [View Logs using Grafana & Kibana](https://docs.microsoft.com/azure/azure-arc/data/monitor-grafana-kibana)
 - [Using PostgreSQL in Grafana](https://grafana.com/docs/grafana/latest/features/datasources/postgres/)
-- [Create Azure Log Analytics Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace)
+- [Create Azure Log Analytics Workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)
