@@ -29,7 +29,6 @@
 			"id": "how_create",
 			"order": 2,
 			"controlType": "dropdown",
-			"infoBalloonText": "string",
 			"displayLabel": "How did you try to create?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
