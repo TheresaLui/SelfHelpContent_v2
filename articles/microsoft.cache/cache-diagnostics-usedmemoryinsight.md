@@ -27,7 +27,7 @@ When the used memory of the service is close to or exceeding the limits, the sys
 
 **What can cause Memory Pressure on an Azure Cache for Redis resource?**
 
-* The Azure Cache for Redis resource is high on memory usage and is nearing its maximum capacity.
+* The Azure Cache for Redis resource is high on memory usage and is close to its maximum capacity.
 * The service is experiencing high memory fragmentation.
 
 ## **Recommended Steps**
