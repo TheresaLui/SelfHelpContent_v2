@@ -8,7 +8,7 @@
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId=" "
+    articleId="appdevmanagement-appsdevgraphdevelopdatacollectiondoc"
     	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
