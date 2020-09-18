@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "44c8f199-1ad4-4a90-0edc-974622d58ca3",
+      "longDescription": "",
+      "shortDescription": "Help with Portal related issues for Azure Resource Mover",
+      "searchTags": "Subscription , RBAC, Portal, PowerShell",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "49d41442-4588-3d2d-3688-5d19d4e9239e",
       "longDescription": "",
       "shortDescription": "Help with some other issues I am facing with Azure Resource Mover. Not listed above",
