@@ -29,7 +29,7 @@ Most users are able to resolve their issues with resources view related telemetr
   * Create a log analytics workspace and get the keys and set the information in environment variables
   * The first item is required to upload metrics and the second one is required to upload logs
   * You will need to assign it the 'Monitoring Metrics Publisher' and 'Contributor' roles so that the service principal can upload metrics and perform create and upload operation
-  * You can find the commands to follow the pre-requisites [here](https://docs.microsoft.com/en-us/azure/azure-arc/data/upload-metrics-and-logs-to-azure-monitor#before-you-begin)
+  * You can find the commands to follow the pre-requisites [here](https://docs.microsoft.com/azure/azure-arc/data/upload-metrics-and-logs-to-azure-monitor#before-you-begin)
 * Once you have completed the pre-requisites you continue to follow the below steps to upload logs to Azure Monitor
 
 ### Upload Logs to Azure Monitor
@@ -75,4 +75,4 @@ If you have any failures, you can view the azdata log by issuing a command like 
 - [Getting logs for Azure Arc enabled data services](https://docs.microsoft.com/azure/azure-arc/data/troubleshooting-get-logs)
 - [View Logs using Grafana & Kibana](https://docs.microsoft.com/azure/azure-arc/data/monitor-grafana-kibana)
 - [Using PostgreSQL in Grafana](https://grafana.com/docs/grafana/latest/features/datasources/postgres/)
-- [Create Azure Log Analytics Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace) 
+- [Create Azure Log Analytics Workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) 
