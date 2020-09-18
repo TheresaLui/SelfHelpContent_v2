@@ -3,7 +3,7 @@
 	description="DevSetup deployment issues"
 	service="microsoft.connectedvehicleplatform"
 	resource="core"
-	authors="jbeman"
+	authors="gobbyo"
 	ms.author="jbeman"
 	displayOrder=""
 	selfHelpType="generic"
@@ -17,22 +17,26 @@
 
 # DevSetup Install Issues
 
-## Error: Docker version 'x.xx.x' is required
+## **Error: Docker version 'x.xx.x' is required**
 
-Q: When running DevSetup.ps1 step 3, in section 'Windows 10 VM Setup and Cloud Deployment', found in **Tutorial 2: Deploy the Connected Vehicle Platform**, I get an error `Docker version 'x.xx.x' is required. Installed version ''`, when running the following script `.\packages\Microsoft.Azure.ConnectedCar.Deployment.*\DevSetup.ps1`.
-A: Wait until Docker has started before running DevSetup.ps1.
+Q: When running `DevSetup.ps1` in step 3, from the section **Windows 10 VM Setup and Cloud Deployment**, found in **Tutorial 2: Deploy the Connected Vehicle Platform**, I get an error `Docker version 'x.xx.x' is required. Installed version ''`, when running the following script `.\packages\Microsoft.Azure.ConnectedCar.Deployment.*\DevSetup.ps1`.
 
-## Error: ‘keyvault_objectid’ is null
+A: Wait until Docker has started then rerun the `DevSetup.ps1` script.
 
-Q: When running DevSetup.ps1 step 3, in section **Windows 10 VM Setup and Cloud Deployment**, found in **Tutorial 2: Deploy the Connected Vehicle Platform**, the following error occurs when deploying to the KeyVault.
-A: There are two possible causes:
+## **Error: ‘keyvault_objectid’ is null**
 
-1. This error occurs when the user has either not logged into the subscription or has logged onto multiple subscriptions.
-    - Set the last parameter `-Automation $true` which will force the user to login to the subscription. We may need to clarify the following instructions that detail the `–Automation` parameter
-    - Log into your subscription using the script 'Connect-AzAccount'
+When running `DevSetup.ps1` in step 3, section **Windows 10 VM Setup and Cloud Deployment**, found in **Tutorial 2: Deploy the Connected Vehicle Platform**, the error `‘keyvault_objectid’ is null` occurs when deploying to the KeyVault.
 
-2. The user has two formats of the same account, e.g. first.last@company.com and firstlast@company.com
-    - Contact Connected Vehicle Platform team to update account registration in Active Directory needs to be changed
+## **Recommended Steps**
+
+There are two possible causes for the error `‘keyvault_objectid’ is null`:
+
+1. When you have logged into the subscription or you have logged into multiple subscriptions.
+    - Before running the `DevSetup.ps1` script, set the last parameter as  `-Automation $true` which will force you to login to your subscription
+    - Log into your subscription using the script 'Connect-AzAccount -TenantId {your tenantID} -SubscriptionId {your subscription}' before running `DevSetup.ps1`
+
+2. When you have two formats of the same account, e.g. first.last@company.com and firstlast@company.com
+    - Contact the Connected Vehicle Platform team to update your account registration in Active Directory
 
 ## **Recommended Documents**
 
