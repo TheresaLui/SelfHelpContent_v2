@@ -35,5 +35,5 @@
 			"required": true
 		}
 	]
-}s
+}
 ---
