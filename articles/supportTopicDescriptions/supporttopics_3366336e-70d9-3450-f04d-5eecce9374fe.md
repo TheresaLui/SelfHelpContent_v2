@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "530d8102-bb1c-6d46-86a9-543fe5aa0ccb",
+      "longDescription": "",
+      "shortDescription": "Help to ensure target region has enough quota and subscriptions limits",
+      "searchTags": "Move, quota, failed,  committed, missing",
+      "category": "Move",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5b773c32-1687-2f99-aca8-947fa1c23ce2",
       "longDescription": "",
       "shortDescription": "Help with the Prepare step taking too long. ",
