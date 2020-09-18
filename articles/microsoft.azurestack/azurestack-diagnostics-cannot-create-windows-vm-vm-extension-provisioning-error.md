@@ -22,8 +22,10 @@ cloudEnvironments="public, FairFax, usnat, ussec"
 <!--issueDescription-->
 
 ResultCode: VMExtensionProvisioningError
-ErrorDetails: Failed to provision VM extensions for VM '*name*'
-
-Solution: Remove the VM extensions during VM deployment and add the VM extensions one-by-one to the VM after successful VM deployment. To troubleshooting VM extensions, see [Troubleshooting Azure Windows VM extension failures](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot) or look for specific VM extension troubleshooting guidance such as [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot).
+ErrorDetails: Failed to provision VM extensions for VM 'VM18040257'
 
 <!--/issueDescription-->
+
+## Solution
+
+Remove the VM extensions during VM deployment and add the VM extensions one-by-one to the VM after successful VM deployment. To troubleshooting VM extensions, see [Troubleshooting Azure Windows VM extension failures](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot) or look for specific VM extension troubleshooting guidance such as [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot).
