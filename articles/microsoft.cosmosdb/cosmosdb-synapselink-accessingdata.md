@@ -36,8 +36,8 @@ After the analytical store is enabled with a particular TTL value, you can updat
 ### **Unable to understand schema representation** 
 There are two modes of schema representation in the analytical store. These modes have tradeoffs between the simplicity of a columnar representation, handling the polymorphic schemas, and simplicity of query experience:
 
-* Well-defined schema representation (default for Azure Cosmos DB SQL API)
-* Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)
+- Well-defined schema representation (default for Azure Cosmos DB SQL API)
+- Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)
 
 Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
@@ -48,9 +48,9 @@ You can have a maximum of 200 properties at any nesting level in the schema, and
 ### **Missing data (items or records or documents) in analytical store**
 All transactional operations are propagated, including deletes. And analytical store ttl (time to live) setting also can cause data removal.
 
-* If a document is deleted in transactional store, it will also be deleted from analytical store. Despite both stores ttls.
-* If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
-* If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit.  
+- If a document is deleted in transactional store, it will also be deleted from analytical store. Despite both stores ttls.
+- If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
+- If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit.  
 
 ## **Recommended Documents**  
 
