@@ -1,16 +1,16 @@
 <properties
-	articleId="problemscopingques-sqlmi-conn-aad"
-	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to capture managed instance connection timeouts"
-	authors="vitomaz-msft,MladjoA"
+	articleId="6345C366-8667-4E8A-9CF1-A45EA0CFC0A5"
+	pageTitle="SQL Database"
+	description="Scoping questions for SQL DB Conn Config AAD"
+	authors="vitomaz-msft"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637235,32637236"
-	productPesIds="16259"
+	supportTopicIds="32745423"
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Scoping questions for Configure or use Azure Active Directory (AAD) authentication
 ---
@@ -28,15 +28,6 @@
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Additional context to help us solve your issue.",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "watermarkText": ""
-        },
-        {
             "id": "aad_issue_type",
             "order": 10,
             "controlType": "dropdown",
@@ -46,7 +37,7 @@
             "infoBalloonText": "AAD Issue category",
             "dropdownOptions": [
                 {
-                    "text": "Logging using AAD",
+                    "text": "Logging in using AAD",
                     "value": "AADLogin"
                 },
                 {
@@ -202,7 +193,7 @@
             "id": "add_login_tool",
             "order": 2600,
             "controlType": "dropdown",
-            "displayLabel": "Which tool are you using to connect to the Managed Instance?",
+            "displayLabel": "Which tool are you using to connect to SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -233,7 +224,7 @@
             "id": "aad_login_tool_other",
             "order": 2610,
             "controlType": "textbox",
-            "displayLabel": "Please enter the tool that you are using to connect to the Managed Instance.",
+            "displayLabel": "Please enter the tool that you are using to connect to SQL DB.",
             "infoBalloonText": "If you are using client tool(s) other than the ones listed above, please type in the tool name.",
             "required": true,
             "visibility": "add_login_tool == dont_know_answer",
@@ -246,7 +237,7 @@
             "id": "aad_login_driver",
             "order": 2700,
             "controlType": "dropdown",
-            "displayLabel": "What driver are you using to connect to the Managed Instance?",
+            "displayLabel": "What driver are you using to connect to SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -273,7 +264,7 @@
             "id": "aad_login_driver_other",
             "order": 2710,
             "controlType": "textbox",
-            "displayLabel": "Please enter the driver that you are using to connect to the Managed Instance.",
+            "displayLabel": "Please enter the driver that you are using to connect to SQL DB.",
             "infoBalloonText": "If you are using driver(s) other than the ones listed above, please type in the driver name and version.",
             "required": true,
             "visibility": "aad_login_driver == dont_know_answer",
@@ -286,7 +277,7 @@
             "id": "aad_login_login_as_admin",
             "order": 2800,
             "controlType": "dropdown",
-            "displayLabel": "Are you able to login as an AAD Admin to the SQL Server?",
+            "displayLabel": "Are you able to login as an AAD Admin to SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -442,7 +433,7 @@
             "id": "aad_admin_already_set_up",
             "order": 3600,
             "controlType": "dropdown",
-            "displayLabel": "Have you already set up an AAD Admin for your SQL Server?",
+            "displayLabel": "Have you already set up an AAD Admin for your SQL DB?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -544,10 +535,10 @@
             "id": "aad_other_setupadmin_login",
             "order": 5000,
             "controlType": "dropdown",
-            "displayLabel": "Have you already set up an AAD Admin and successfully connected to the SQL Server?",
+            "displayLabel": "Have you already set up an AAD Admin and successfully connected to the SQL DB?",
             "required": true,
             "watermarkText": "Yes / No",
-            "infoBalloonText": "Indicate if you have already set up an AAD Admin and successfully connected to the SQL Server?",
+            "infoBalloonText": "Indicate if you have already set up an AAD Admin and successfully connected to the SQL DB?",
             "dropdownOptions": [
                 {
                     "text": "Yes",
@@ -560,6 +551,15 @@
             ],
             "dynamicDropdownOptions": null,
             "visibility": "aad_issue_type == dont_know_answer"
+        },
+        {
+            "id": "problem_description",
+            "order": 6000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional context to help us solve your issue.",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "watermarkText": ""
         }
     ]
 }
