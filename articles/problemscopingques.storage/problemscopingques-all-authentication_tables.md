@@ -1,37 +1,62 @@
 <properties
-	pageTitle="Azure Private Endpoint Connections"
-	description="Azure Private Endpoint Connections"
-	authors="Annayak"
-	ms.author="Annayak"
+	pageTitle="Authentication issue"
+	description="Authentication issue for storage blob,datalake,tables and queues scoping question"
+	authors="AngshumanNayakMSFT"
+	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_all_private_endpoints"
-	supportTopicIds="32689875,32689876,32689877,32689149,32689150,32689151,32689867,32689868,32689869,32689871,32689872,32689873,32689879,32689880,32689881"
-	productPesIds="15629,16459,16460,16598"
+	articleId="StorageScoping_all_authentication_tables"
+	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
+	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
-# Azure Private Endpoint Connectivity Issues
+# Authentication Issue
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Azure Private Endpoint issue scoping question",
+    "title": "Authentication issue on account management,blob,table,queues,adlsgen2 scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Authentication Issues Troubleshooter",
+        "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
+    },
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "table_names",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Table Names",
+            "watermarkText": "Select from your tables",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/tableServices/default/tables?api-version=2019-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No tables available"
+                    }
+            }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
+	    "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
                 {
                     "value": "HTTP_304",
@@ -94,24 +119,33 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
                 }
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "request_id",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+            "watermarkText": "Server Request ID of failed operation ending with 000000",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC",
+	    "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+		    "text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+		}
+	    ]
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -119,7 +153,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 6,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> performance issues."
         }

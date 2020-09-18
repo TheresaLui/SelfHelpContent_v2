@@ -5,7 +5,7 @@
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32682428,32682429,32682430,32682433,32682434,32682435,32682438,32682439,32682440,32682443,32682444,32682445"
-	productPesIds="15629,16459,16462,16461,16598"
+	productPesIds="15629,16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="StorageScoping_all_firewall_Vnet"
@@ -26,8 +26,25 @@
     },
     "formElements": [
         {
+        "id": "queue_names",
+        "order": 1,
+        "controlType": "multiselectdropdown",
+        "displayLabel": "Queue Names",
+        "watermarkText": "Select from your queues",
+        "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/queueServices/default/queues?api-version=2019-06-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "name",
+            "textPropertyRegex": "[^/]+$",
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Not applicable/No queues available"
+            }
+        },
+        {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
             "required": true,
@@ -35,7 +52,7 @@
         },
         {
             "id": "error_code_dropdown",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
@@ -82,7 +99,7 @@
         },
         {
             "id": "request_id",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -92,7 +109,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -100,7 +117,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 6,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }

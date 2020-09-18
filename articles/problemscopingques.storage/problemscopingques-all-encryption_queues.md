@@ -1,34 +1,52 @@
 <properties
-	pageTitle="Azure Private Endpoint Connections"
-	description="Azure Private Endpoint Connections"
+	pageTitle="Storage Encryption errors scoping questions"
+	description="Storage Encryption errors scoping questions"
 	authors="Annayak"
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_all_private_endpoints"
-	supportTopicIds="32689875,32689876,32689877,32689149,32689150,32689151,32689867,32689868,32689869,32689871,32689872,32689873,32689879,32689880,32689881"
-	productPesIds="15629,16459,16460,16598"
+	articleId="StorageScoping_all_encryption_queues"
+	supportTopicIds="32691406,32691407,32691408,32691401,32691402,32691403,32691082,32691083,32691084,32691411,32691413,32738646,32729194,32729195,32728875,32729196,32691404"
+	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
-# Azure Private Endpoint Connectivity Issues
+# Storage Encryption Issues
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Azure Private Endpoint issue scoping question",
+    "title": "Storage encryption issues scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "queue_names",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Queue Names",
+            "watermarkText": "Select from your queues",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/queueServices/default/queues?api-version=2019-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No queues available"
+                }
+            }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
             "required": true
-        },
+        },        
         {
             "id": "error_code_dropdown",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
@@ -102,7 +120,7 @@
         },
         {
             "id": "request_id",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -111,7 +129,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -119,7 +137,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 6,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> performance issues."
         }
