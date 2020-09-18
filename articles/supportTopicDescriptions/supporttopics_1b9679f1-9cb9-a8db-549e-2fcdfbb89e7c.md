@@ -307,6 +307,14 @@
       "searchTags": "Knowledge store;projections;output;object;file",
       "category": "Enrichment",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0242be0-e3c8-7298-2d16-281a0b9db706",
+      "longDescription": "",
+      "shortDescription": "Issues related to creating a data source in Azure Cognitive Search.",
+      "searchTags": "data source;indexer",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
