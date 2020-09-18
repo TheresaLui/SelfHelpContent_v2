@@ -21,7 +21,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Problem provisioning or managing workspace",
+    "title": "Problem provisioning or managing workspace ",
     "fileAttachmentHint": "",
     "formElements": [
         {

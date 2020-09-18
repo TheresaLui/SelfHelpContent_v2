@@ -23,10 +23,10 @@ Most of the users are able to resolve their SQL Server Database Backup to Disk i
      * Full backup has not been taken at least once for the database. To fix this take a full backup.
      * You have taken a full backup but you have configured [Azure Backup service](https://docs.microsoft.com/azure/backup/backup-overview) to backup SQL databases or VM Snapshot which does not do a copy only backup, causing your Maintenance plan or SQL Agent job and Ad hoc backups to fail. To fix this, [Add the following registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances and where VM backups are configured and post this change backups will not fail:
     
-```
-    [HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT]  
-    "USEVSSCOPYBACKUP"="TRUE" 
-```
+     ```
+     [HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT]  
+     "USEVSSCOPYBACKUP"="TRUE" 
+     ```
 
 * **Migrate Databases or Export Data from On Premise/Another Cloud to Azure VM**
 
@@ -38,9 +38,9 @@ Most of the users are able to resolve their SQL Server Database Backup to Disk i
     * [Backup to Microsoft Azure Tool](https://blogs.technet.microsoft.com/dataplatforminsider/2014/07/24/get-started-backing-up-to-the-cloud-with-sql-server-backup-to-microsoft-azure-tool/) for SQL 2008/R2 version
     * [Azure Backup and Site Recovery](https://docs.microsoft.com/azure/backup/)
 
-If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure. 
+ If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure. 
 
-If you want to export schema, you can use [DACPAC](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/extract-a-dac-from-a-database?view=sql-server-ver15)
+ If you want to export schema, you can use [DACPAC](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/extract-a-dac-from-a-database?view=sql-server-ver15)
 
 * **AG database backup is not generated on the primary replica**
 

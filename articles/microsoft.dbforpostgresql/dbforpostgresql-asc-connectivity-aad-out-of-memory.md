@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Connect to Server Failed Because Azure AD failure due to Out Of Memory"
-	description="RCA - Connect to Server Failed Because Azure AD failure due to Out Of Memory"
+	pageTitle="Connect to server failed because of Azure AD failure due to out of memory"
+	description="RCA - Connect to server failed because of Azure AD failure due to out of memory"
 	infoBubbleText="Found recent Azure AD connection failure. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
@@ -25,7 +25,11 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL serv
 
 ## **Recommended Steps**
 
-Make sure that your server has sufficient memory available to handle new incoming connections. Note that you may be seeing this error when you are running very close to the memory limit of your server. If this is a recurring issue we recommend increasing the size of your database server.
+Make sure that your server has sufficient memory available to handle new incoming connections. Note that you may be seeing this error when you are running very close to the memory limit of your server. 
+
+* Reduce the number of idle connections. Query `SELECT * FROM pg_stat_activity` to see idle connections. Evaluate your application's connection model to avoid idle connections in the future.
+* If high memory is a recurring issue, consider scaling up vCores to increase memory
+
 
 ## **Recommended Documents**
 
