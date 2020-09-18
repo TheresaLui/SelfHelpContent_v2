@@ -28,7 +28,7 @@
         },
             {
 			"id": "private_endpoint_name",
-			"order": 1,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide the name of the private end point that you have trouble deleting.",
