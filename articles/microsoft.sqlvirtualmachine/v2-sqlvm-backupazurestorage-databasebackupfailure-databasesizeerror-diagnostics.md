@@ -21,10 +21,12 @@
 
 <!--issueDescription-->
 The error/symptom you see is because SQL Server limits the maximum backup size supported using a page blob to 1 TB.
+
+For SQL Server database backup to Microsoft Azure Blob storage account, there are two types of blobs that can be stored in the Microsoft Azure Blob storage service: block blobs and page blobs. Page blob has a limitation of 1 TB and block blobs can be used with SQL 2016 or later versions.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
--  For SQL Server database backup to Microsoft Azure Blob storage account, there are two types of blobs that can be stored in the Microsoft Azure Blob storage service: block blobs and page blobs. Page blob has a limitation of 1 TB and block blobs can be used with SQL 2016 or later versions.
+
 -  If you have SQL 2016 or later versions, then you can use block blob and backup your database using striped backups for up to 64 files(200 GB each file):
 	```sql
 	BACKUP DATABASE ... TO
@@ -34,7 +36,7 @@ The error/symptom you see is because SQL Server limits the maximum backup size s
 	WITH COMPRESSION, MAXTRANSFERSIZE = 4194304, BLOCKSIZE = 65536, CHECKSUM, FORMAT, STATS = 5;
 	```
 
-- If you are on SQL 2O14 or below, then you need to backup this large database to locally, then compress file and copy to Azure Storage using AZ copy.
+- If you are on SQL 2O14 or below, then you need to backup this large database locally, then compress file and copy to Azure Storage using [AZ copy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10).
 
 ## **Recommended Documents**
 
