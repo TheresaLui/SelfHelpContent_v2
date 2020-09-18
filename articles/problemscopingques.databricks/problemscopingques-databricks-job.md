@@ -98,8 +98,7 @@
             "order": 200,
             "controlType": "textbox",
             "displayLabel": "Azure storage account resource ID if applicable",
-            "infoBalloonText": "Get Azure storage account resourcre ID from the Azure Portal under the properties page for the storage account",
-            "watermarkText": "Storage account resource ID in the form of /subscriptions/[subscriptionID]/resourceGroups/[resourcegroupname]/providers/Microsoft.Storage/storageAccounts/[storageaccountname]",
+            "infoBalloonText": "Get Azure storage account resourcre ID from the Azure Portal under the properties page for the storage account, in the form of /subscriptions/[subscriptionID]/resourceGroups/[resourcegroupname]/providers/Microsoft.Storage/storageAccounts/[storageaccountname]",
             "required": false
         },
         {
