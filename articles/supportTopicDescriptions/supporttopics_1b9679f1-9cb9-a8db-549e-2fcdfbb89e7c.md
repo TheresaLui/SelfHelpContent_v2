@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   description="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   authors="elixirsys2"
-  ms.author="mcarter, liamca"
+  ms.author="mcarter, liamca, cynotebo"
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b2eb467-fe4e-d2ef-94ec-55be8bbeab57",
+      "longDescription": "",
+      "shortDescription": "Some of your queries tend to take a long time to return results.",
+      "searchTags": "latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
       "longDescription": "",
       "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
@@ -37,11 +45,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "158025ee-f747-f2df-288c-ff5d6eda4b91",
+      "longDescription": "",
+      "shortDescription": "An indexer (data source connector) is taking longer than expected to ingest content into the search index.",
+      "searchTags": "performance;indexer;throughput",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
       "longDescription": "",
       "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
       "searchTags": "advisory",
       "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2721d2d6-cc64-a8c7-0cf3-d54f2a7d0b3f",
+      "longDescription": "",
+      "shortDescription": "A portion of the queries are failing with a response code 503. In this case the system must be too busy to respond to your queries.",
+      "searchTags": "throttling;503;failed request;scale",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -66,6 +90,14 @@
       "shortDescription": "When using the Azure Cognitive Search portal, I am unable to view my search service details because there is a rain cloud icon.",
       "searchTags": "portal;rain cloud icon",
       "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "53f59569-6179-4ba9-0f1d-c736fd87c6ed",
+      "longDescription": "",
+      "shortDescription": "Questions on exploring the enriched data with Power BI. Configuring Power BI to read from the knowledge store",
+      "searchTags": "Knowledge store;Power BI;visualize;enrichment",
+      "category": "Enrichment",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -109,6 +141,30 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7cd26b02-4a42-cbe8-d3bd-35e8340d4991",
+      "longDescription": "",
+      "shortDescription": "Questions on adding a skill such as OCR, key phrases or translation to the skillset or adding the skill output to the index",
+      "searchTags": "Skill;Skillset;Output field mappings;context",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "83e62961-3706-cdfb-de15-fa19a73e1c33",
+      "longDescription": "",
+      "shortDescription": "I cannot query my index using the REST API",
+      "searchTags": "query;parameters;uri",
+      "category": "search",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "986119a7-bb99-3873-8de3-925fa611fea8",
+      "longDescription": "",
+      "shortDescription": "Search results are not returning in the order I expect",
+      "searchTags": "scoring profile",
+      "category": "search",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fd3b7ea-1077-bc47-56e4-0869060d26b2",
       "longDescription": "",
       "shortDescription": "Issues with the supported Powershell and Azure CLI operations for Azure Cognitive Search.",
@@ -133,11 +189,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb378604-1fdd-b5be-9850-b23150958ec9",
+      "longDescription": "",
+      "shortDescription": "Adding or editing skills used to enrich your data before documents are added to the search index.",
+      "searchTags": "Skillset;Skills;Enrichment",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bca17707-cff0-2789-b812-a9a52a0ff05c",
+      "longDescription": "",
+      "shortDescription": "The search service takes a long time to respond to most or all of your queries.",
+      "searchTags": "performance;latency;queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
       "searchTags": "delete;service",
       "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cecef991-fb0e-375e-e813-513e532edb6d",
+      "longDescription": "",
+      "shortDescription": "Issues with an indexer and an Azure Blob Storage data source.",
+      "searchTags": "indexer;indexing;storage;blob storage",
+      "category": "Indexers",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -154,6 +234,14 @@
       "shortDescription": "For general issues related to the Azure Cognitive Search portal including components not loading or browser related issues.",
       "searchTags": "portal;general issue;failed to load;browser issue",
       "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e2b107c0-c692-f7eb-6db4-f63eba26170f",
+      "longDescription": "",
+      "shortDescription": "Issue in the defintion of an index (fields or attributes), or its creation as part of the search service.",
+      "searchTags": "index;schema;definition",
+      "category": "Setup",
       "useInDiagnoseAndSolve": "true"
     }
   ]

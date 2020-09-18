@@ -12,7 +12,7 @@
   supportTopicIds="0ae92c46-c05e-9fd8-aefc-6c9b75508907,02aec9c7-431f-adb8-ee6f-ee7af8b7bf26"
   resourceTags=""
   productPesIds="16761"
-  cloudEnvironments="public,fairfax,mooncake"
+  cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
   ownershipId="Compute_AzureLighthouse"
 />
 
