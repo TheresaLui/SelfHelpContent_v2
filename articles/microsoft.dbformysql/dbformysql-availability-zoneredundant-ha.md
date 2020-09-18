@@ -24,10 +24,10 @@ Azure Database for MySQL lets you provision MySQL servers in a manner that in ca
 
 ## **Recommended Steps**
 
-1.  If you are trying to setup zone redundant high availability post server create, you will not be able to set it up since we currently do not support post server create setup of zone redundant high availability.
-2.  If you want to enable zone redundant high availability, you will need to use **general purpose** or **memory optimized** pricing tier.
-3.  You cannot enable in region read replica for the zone redundant high available servers. Also, you cannot enable zone redundant high availability for a replica server.
-4.  You cannot Stop/Start a zone redundant available servers. Also, the hot standby running in case of a zone redundant available setup is not available for read purposes.
+1.  If you are trying to setup zone redundant high availability post server create, you will not be able to set it up since we currently do not support post server create setup of zone redundant high availability
+2.  If you want to enable zone redundant high availability, you will need to use **general purpose** or **memory optimized** pricing tier
+3.  You cannot enable in region read replica for the zone redundant high available servers. Also, you cannot enable zone redundant high availability for a replica server
+4.  You cannot Stop/Start a zone redundant available servers. Also, the hot standby running in case of a zone redundant available setup is not available for read purposes
 
 ## **Recommended Documents**
 
