@@ -25,7 +25,7 @@ Most users are able to resolve their issues with resources view related telemetr
 
 * Before you begin ensure you have followed the one time steps
   * Create a service principal/Azure Active Directory application including creating a client access secret and assign the service principal to the 'Monitoring Metrics Publisher' role on the subscription(s) where your database instance resources are located
-    * Creating a service principal requires certain [permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)in Azure. You may need to contact your Azure Administrator for the same.
+    * Creating a service principal requires certain [permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)in Azure. You may need to contact your Azure Administrator for the same.
   * Create a log analytics workspace and get the keys and set the information in environment variables
   * The first item is required to upload metrics and the second one is required to upload logs
   * You will need to assign it the 'Monitoring Metrics Publisher' and 'Contributor' roles so that the service principal can upload metrics and perform create and upload operation
