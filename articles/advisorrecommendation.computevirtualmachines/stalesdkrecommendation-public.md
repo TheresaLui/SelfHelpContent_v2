@@ -19,7 +19,7 @@
 "recommendationImpact": "High",
 "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
 "recommendationFriendlyName": "ComputeStaleSDKRecommendation",
-"recommendationMetadataState": "Active",
+"recommendationMetadataState": "Disabled",
 "owner":
   { "email": "cplatsdkdev@microsoft.com",
           "icm": { "routingId": "mdm:/adspartner/AzureRTCPlatSDK/Powershell",
