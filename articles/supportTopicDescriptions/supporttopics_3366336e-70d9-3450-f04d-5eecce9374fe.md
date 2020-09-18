@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "15c4ca45-ae4d-b326-6888-57c526802c79",
+      "longDescription": "",
+      "shortDescription": "Issues faced at initiate move stage for moving resources to the target region",
+      "searchTags": "Move, quota, failed, committed, missing ",
+      "category": "Move",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1ed7fa8e-e11a-2757-b06b-6f0a9ed3100f",
       "longDescription": "",
       "shortDescription": "Help with Prepare validation failures ",
