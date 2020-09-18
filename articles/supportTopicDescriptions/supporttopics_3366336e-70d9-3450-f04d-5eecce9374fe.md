@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2770afe7-4833-be43-5aa7-c235ecfc7ceb",
+      "longDescription": "",
+      "shortDescription": "Help with Prepare progress (VMs or SQL progress is stuck)",
+      "searchTags": "Prepare, quota, stuck, committed",
+      "category": "Prepare",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "30c72ed2-2e27-1bed-1ed9-edf45c676023",
       "longDescription": "",
       "shortDescription": "Issues faced while preparing resources to move to the target region",
