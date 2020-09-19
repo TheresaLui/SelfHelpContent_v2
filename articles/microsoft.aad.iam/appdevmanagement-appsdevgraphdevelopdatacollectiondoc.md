@@ -37,9 +37,25 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
         },
+               {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional details",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
+        },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
