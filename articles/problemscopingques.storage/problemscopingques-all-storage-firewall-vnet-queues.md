@@ -4,11 +4,11 @@
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32682428,32682429,32682430,32682433,32682434,32682435,32682438,32682439,32682440,32682443,32682444,32682445"
+	supportTopicIds="32682443,32682444,32682445"
 	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
-	articleId="StorageScoping_all_firewall_Vnet_Queues"
+	articleId="storagescoping_all_firewall_vnet_queues"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage Firewall and VNet
