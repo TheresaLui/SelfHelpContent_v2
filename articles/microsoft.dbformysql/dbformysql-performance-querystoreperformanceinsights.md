@@ -27,8 +27,8 @@ Query performance issues can have many different root causes. Work through the r
   * [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
   * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
 
-* If you want to use Query Store, ensure that **default_transaction_read_only** is not set to ON. Assure you have the right set of indexes created for your queries
-* Make sure that the [limitations](https://docs.microsoft.com/azure/mysql/concepts-query-store#limitations-and-known-issues) are not hit.
+* If you want to use Query Store, ensure that **default_transaction_read_only** is not set to ON. Assure you have the right set of indexes created for your queries.
+* Make sure that the [limitations](https://docs.microsoft.com/azure/mysql/concepts-query-store#limitations-and-known-issues) are not hit
 
 ## **Recommended Documents**
 
