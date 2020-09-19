@@ -4,7 +4,7 @@
 	authors="Annayak"
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="storageScoping_all_encryption_queues"
+	articleId="storageScoping_all_encryption-queues"
 	supportTopicIds="32738646"
 	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"

@@ -4,7 +4,7 @@
 	authors="Annayak"
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="storageScoping_all_encryption_tables"
+	articleId="storageScoping_all_encryption-tables"
 	supportTopicIds="32738646"
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"

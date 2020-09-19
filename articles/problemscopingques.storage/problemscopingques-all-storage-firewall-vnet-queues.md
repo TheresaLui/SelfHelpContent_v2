@@ -45,7 +45,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
             "required": true,
@@ -53,7 +53,7 @@
         },
         {
             "id": "error_code_dropdown",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
@@ -100,7 +100,7 @@
         },
         {
             "id": "request_id",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -110,7 +110,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -118,7 +118,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 6,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }

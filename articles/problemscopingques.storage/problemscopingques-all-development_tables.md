@@ -4,7 +4,7 @@
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="storagescoping_all_development_tables"
+	articleId="storagescoping_all_development-tables"
 	supportTopicIds="32602772"
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
