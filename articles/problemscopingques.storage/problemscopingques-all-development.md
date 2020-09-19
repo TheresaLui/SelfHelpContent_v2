@@ -5,7 +5,7 @@
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_development"
-	supportTopicIds="32602718,32602722,32602721,32602729,32602731,32612593,32612596,32612598,32612606,32612608,32602772"
+	supportTopicIds="32602718,32602722,32602729,32602731,32612593,32612598,32612606,32612608"
 	productPesIds="16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
