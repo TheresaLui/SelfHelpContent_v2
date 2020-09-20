@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Security Alerts - Alert Description is Not Clear Common Solutions"
-    description="Security Alerts - Alert Description is Not Clear Common Solutions"
-    service=""
-    resource=""
-    authors="jaserano, v-miegge"
-    ms.author="jaserano"
-    authorAlias="jaserano"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32636851,32636857,32636861"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="255da1d8-c2be-4d0c-ba5c-826d48e92675"
-	ownershipId="Azure_Security_Security_Center"
-/>
-
+  pagetitle="Security Alerts - Alert Description is Not Clear Common Solutions"
+  service=""
+  resource=""
+  ms.author="jaserano,elsagie"
+  selfhelptype="Generic"
+  supporttopicids="32693236"
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="255da1d8-c2be-4d0c-ba5c-826d48e92675"
+  ownershipid="Azure_Security_Security_Center" />
 # Security Alerts - Alert Description is Not Clear Common Solutions
 
 In the Description field you can find more details about the security alert event. These additional details offer insight into what triggered the security alert, the target resource, the source IP address (when applicable), and recommendations about how to remediate the issue. In some instances, the source IP address is empty because not all Windows security events logs include the IP address.
