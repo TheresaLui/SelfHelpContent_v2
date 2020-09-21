@@ -1,15 +1,18 @@
 <properties
     pageTitle="Troubleshooting High CPU for an Azure Virtual Machine"
     description="Troubleshooting High CPU for an Azure Virtual Machine"
+    service="microsoft.compute"
+    resource="virtualmachines"
     authors="timbasham"
     ms.author="mahuss"
-    displayOrder=""
+    displayOrder="0"
     articleId="2fd4cdb3-6b23-40a9-8bf3-962351a7f4cc"
     selfHelpType="Apollo"
-        supportTopicIds="8b618100-f5cd-7ad5-1c69-72aaf37d801d"
-        productPesIds="14749"
+    supportTopicIds="8b618100-f5cd-7ad5-1c69-72aaf37d801d"
+    productPesIds="14749"
+    resourceTags="windows"
     cloudEnvironments="public"
-    ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
+    ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting High CPU for an Azure Virtual Machine
