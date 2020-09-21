@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "847c7cbd-f262-48e0-683a-6353a4ff0611",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot Microsoft monitoring agent extension and its issues.",
+      "searchTags": "extension failure;install monitoring agent;install agent;Microsoft monitoring agent or extension",
+      "category": "ADSSql",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
       "longDescription": "",
       "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
