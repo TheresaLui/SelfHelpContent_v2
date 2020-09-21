@@ -26,6 +26,6 @@ Message: Operation results in exceeding quota limits of Core. Maximum allowed: 1
 
 <!--/issueDescription-->
 
-## Solution
+## **Recommended Steps**
 
 Identify the quota that has been exceeded (in this case for example, Compute Cores) and increase the plan associated with the subscription to [include more cores](https://docs.microsoft.com/azure-stack/operator/azure-stack-quota-types). For more information about increasing quota limits, see [Increase standard quota limits](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests).
