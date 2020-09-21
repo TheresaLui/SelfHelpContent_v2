@@ -23,4 +23,4 @@ Due to unforeseen issues we will not be able to offer credit card payment option
 
 ## **Recommended Documents**
 
-* [How to update tax ID/VAT ID](https://support.microsoft.com/help/4501523)
+* [How to update tax ID/VAT ID](https://docs.microsoft.com/partner-center/organization-tax-info)

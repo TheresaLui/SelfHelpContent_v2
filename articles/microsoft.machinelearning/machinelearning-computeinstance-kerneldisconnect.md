@@ -1,21 +1,16 @@
-<properties 
-    pageTitle="Problem Connecting to Jupyter, JupyterLab, RStudio"
-    description="Problem Connecting to Jupyter, JupyterLab, RStudio"
-    service="microsoft.machinelearning"
-    resource="computeinstance"
-    authors="hustcrystal"
-    ms.author="chrjia, femi.olukoya"
-    displayOrder="1"
-    selfHelpType="resource"
-    supportTopicIds="32745197"
-    resourceTags="notebook,computeinstance"
-    productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-    articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
-
-# Problem Connecting to Jupyter, JupyterLab, RStudio
+<properties
+  pagetitle="Problem Connecting to Jupyter, JupyterLab or RStudio"
+  service="microsoft.machinelearningservices"
+  resource="workspaces"
+  ms.author="smishah"
+  selfhelptype="Generic"
+  supporttopicids="32745197"
+  resourcetags="notebook,computeinstance"
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="microsoft.machinelearning.computeinstance.kerneldisconnect"
+  ownershipid="AzureML_AzureMachineLearningServices" />
+# Problem Connecting to Jupyter, JupyterLab or RStudio
 
 This section helps with issues connecting to Compute instance through Jupyter, JupyterLab and RStudio and running your notebooks.
 

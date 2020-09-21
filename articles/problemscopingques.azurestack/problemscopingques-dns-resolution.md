@@ -107,7 +107,7 @@
         },
         {
             "id": "connected_deployment",
-            "visibility": "patch_level == 2002",
+            "visibility": "patch_level == 2005 || patch_level == 2002",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Can Azure Stack Hub connect to Azure?",

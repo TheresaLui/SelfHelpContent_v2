@@ -17,6 +17,28 @@
 
 # Diagnose and resolve issues with Pass Through Security
 
+## **Recommended Steps**
+
+* **Problem:**
+  
+  Getting the following error when using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC:
+  
+  ```
+  OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')".
+  ```
+  
+  **Cause:**
+  
+  The pyodbc connection fails because when credential passthrough is enabled on a cluster, outbound network traffic from python processes is blocked by design. And SQL database needs some ports to be open as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+  
+  **Solution:**
+  
+  Whitelist the required ports by setting Spark configuration in cluster making sure to open ports of 1433 and between 11000 and 11999.
+  
+  ```
+  spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
+  ```
+  
 ## **Recommended Documents**
 
 * [Security and Privacy](https://docs.microsoft.com/azure/databricks/security/)
