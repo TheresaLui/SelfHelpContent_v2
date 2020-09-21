@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Performance/SQL Server is slow"
+  pagetitle="SQL Server is Slow"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="yareyes,AbdullahMSFT,amamun"
@@ -10,26 +10,27 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="7647ab12-e478-4fca-a2f0-c6df8cfe753b"
   ownershipid="AzureData_AzureSQLVM" />
-# Performance/SQL Server is slow
+# SQL Server is Slow
 
 ## **Recommended Steps**
 
 If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance?WT.mc_id=Portal-Microsoft_Azure_Support). 
 
 Key points to verify - 
-
-- For production workload do not use standard disk, use premier disk. For sub-millisecond latency use ultra-disk 
+- For production workloads 
+  - Use VM sizes with 4 or more vCPU like [E4S_v3](https://docs.microsoft.com/azure/virtual-machines/ev3-esv3-series) or higher, or [DS12_v2](https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series-memory) or higher
+  - **do not use standard disk**, use premier disk. For sub-millisecond latency use ultra-disk. 
 - Use strip size of 64 KB for OLTP workloads and 256 KB for data warehousing workloads  
 - Use a minimum of 2 [premium](https://docs.microsoft.com/azure/virtual-machines/disks-types#premium-ssd) SSD disks (1 for log file and 1 for data files). Stripe multiple Azure data disks to get increased storage throughput if needed 
-- Set disk caching to ReadOnly for disk hosting data (mdf/ndf) files 
-- Set disk caching to none for disks hosting the log (ldf) file 
+- Set **[disk caching to ReadOnly](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disk hosting data** (mdf/ndf) files 
+- Set **[disk caching to None](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disks hosting the log** (ldf) file 
 - Place page file, [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission critical SQL Server workloads (after choosing correct VM size). 
 - Move user and system databases and SQL log and trace files to data disks 
-- Update to latest SQL Server builds to avoid any known issues  
+- Update to the [latest SQL Server builds](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) to avoid any known issues  
 - For slow synchronization of SQL AG and log shipping between Azure and on-premise/other clouds with sector size of 512 bytes, you may need to use [trace flag 1800 ](https://support.microsoft.com/help/3009974/fix-slow-synchronization-when-disks-have-different-sector-sizes-for-pr)
 - Other areas to consider 
   - Enable database page compression 
-  - Enable instant file initialization for data files 
+  - Enable [instant file initialization](https://docs.microsoft.com/sql/relational-databases/databases/database-instant-file-initialization?view=sql-server-ver15) for data files 
   - Limit autogrowth of the database 
   - Disable autoshrink of the database 
   - Set max server memory at 90% or up to 50 GB left for the Operating System. 
