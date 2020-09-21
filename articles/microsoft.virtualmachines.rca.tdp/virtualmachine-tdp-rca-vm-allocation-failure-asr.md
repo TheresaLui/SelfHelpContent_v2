@@ -18,14 +18,12 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then alternate recommendations with high chance of success are provided. Alternatives are ranked in descending order of days to allocation failure.<br>
-
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then alternate recommendations with high chance of success are provided. Recommendations are ranked based on chance of success.<br>
 
 <!--issueDescription-->
 Based on the analysis of your desired deployment allocation of with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>
 
-**<!--$SkuRegRec-->No information provided<!--/$SkuRegRec-->**<br>
+**<!--$SkuRegRec-->No alternate region or size recommendations<!--/$SkuRegRec-->**<br>
 
 <!--/issueDescription-->
 

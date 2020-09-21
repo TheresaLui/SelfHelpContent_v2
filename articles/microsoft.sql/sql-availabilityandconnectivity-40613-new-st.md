@@ -17,43 +17,19 @@
 
 # Database X on server Y is not currently available
 
+**Error 40613: Database {databasename} on server {servername} is not currently available.**
+
+Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430) returned by Azure any time your database is unavailable. The common types of unavailability are caused by:
+
+ - **User-initiated actions**: certain operations that change the database configuration may briefly make the database unavailable. Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745430#impact-of-changing-service-tier-or-rescaling-compute-size).
+ - **Planned maintenance**: the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745430) to deploy software upgrades and other system enhancements. This usually occurs less than twice a month.
+ - **Unplanned failover**: unexpected events such as a software crash, hardware failure, etc.
+
+During the period the service is reconfiguring your primary database replica, attempts to connect to the database will fail with error 40613. Within a few minutes (needed to process the health signal), [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745430) should reflect that the database is unavailable. As additional telemetry becomes available, analysis is performed to determine the detailed cause of unavailability. Resource Health is updated with the detailed unavailability reason (when available) in about 30 minutes.
+
 ## **Recommended Steps**
 
-### Error 40613: Database X on server Y is not currently available
-
-* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#transient-fault-error-messages-40197-40613-and-others?WT.mc_id=pid:13491:sid:32745425/) about how to handle this. <br>
-
-### **Azure SQL Connectivity Checker tool**
-
-This PowerShell script will run some connectivity checks from your machine to the server and database.
-
-In order to run it you need to:
-
-1. Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.
-
-2. Open a New Script window
-3. Paste the following in the script window:
-
-```
-    $parameters = @{
-        Server = '.database.windows.net'
-        Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
-        User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
-        Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
-
-        ## Optional parameters (default values will be used if omitted)
-        SendAnonymousUsageData = $true  # Set as $true (default) or $false
-        RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will load the library from Microsoft's GitHub repository needed for running advanced connectivity tests
-        CollectNetworkTrace = $true  # Set as $true (default) or $false
-        #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
-    }
-
-    $ProgressPreference = "SilentlyContinue";
-    $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
-    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
-    #end
-```
-
-4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
-5. Run it
-6. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.
+1. You should expect occasional, brief windows (e.g., less than 60 seconds) where you see error 40613. Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430#retry-logic-for-transient-errors) to handle this.
+1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action. If so, schedule these operations during a time that reduces impact. 
+1. Subscribe to Planned maintenance notifications in [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview?WT.mc_id=pid:13491:sid:32745430), so you know when planned maintenance activities will occur and can set expectations with your users
+1. Contact Azure Support if you need assistance with unplanned failovers or periods of extended database unavailability from other causes

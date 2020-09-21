@@ -22,3 +22,4 @@
 - [When am I protected?](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete#how-does-it-work)
 - [How to recover soft deleted data](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete#recovery)
 - [Soft delete FAQ](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete#faq)
+- [Soft delete for Containers](https://docs.microsoft.com/azure/storage/blobs/soft-delete-container-overview?tabs=powershell)
