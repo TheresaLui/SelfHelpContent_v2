@@ -3,7 +3,7 @@
     description="After exceeding storage quota, indexing operations will stop working."
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="97b38421-f88c-4db0-b397-b2d81eff6630_USNat"
+    articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="AzureSearch_AzureSearch"
