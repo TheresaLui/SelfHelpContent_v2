@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for compute"
-description="Menu based workflow document for top compute problems"        
+description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="gansmore,summertgu"
@@ -11,7 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines_Content"
+ownershipId="Compute_VirtualMachines_Content"
 />
 # Diagnose and solve v2 test article for windows
 ---
@@ -86,7 +86,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
       "subProblems": [
         {
           "id": "Disk_throughput_low",
-          "title": "Disk throughput low",
+          "title": "Disk throughput or IOPS are lower than expected",
           "description": "Troubleshoot performance issues when disk throughput is lower than expected",
           "supportTopicId": "32628264",
           "commonSolutionArticleId": "1846ef6d-3aa8-44c1-bff0-cc8ede1933c6",
@@ -94,7 +94,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "CPU_usage_high",
-          "title": "CPU usage high",
+          "title": "CPU usage is higher than expected",
           "description": "Troubleshoot performance issues when CPU usage is higher than expected",
           "supportTopicId": "32628261",
           "commonSolutionArticleId": "c56d711a-2df1-4c2a-b250-b6dc68a4975b",
@@ -102,7 +102,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "Memory_usage_high",
-          "title": "Memory usage high",
+          "title": "Memory usage is higher than expected",
           "description": "Troubleshoot performance issues when memory usage is higher than expected",
           "supportTopicId": "32628275",
           "commonSolutionArticleId": "6aaf31c5-6dde-4418-9af0-f3fa234593fc",
@@ -110,18 +110,10 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "GPU_processing_slow",
-          "title": "GPU processing slow",
+          "title": "GPU processing is slower than expected",
           "description": "Troubleshoot performance issues when GPU processing is slower than expected",
           "supportTopicId": "32628268",
           "commonSolutionArticleId": "0ab4f15c-3ab7-44d1-8f36-f81b3156971b",
-          "symptomId": ""
-        },
-        {
-          "id": "Guidance_for_better_VM_sizing_and_throughput",
-          "title": "Guidance for better VM sizing and throughput",
-          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
-          "supportTopicId": "32628270",
-          "commonSolutionArticleId": "b3157bac-dc37-4341-98c8-14320fad6c37",
           "symptomId": ""
         },
         {
@@ -192,7 +184,17 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         }
       ]
     },
-    {
+		{
+			"id": "Allocation_recommender",
+			"title": "Allocation Success Recommender",
+			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"category": "Deployment",
+			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+			"supportTopicId": "32743100",
+			"commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
+			"symptomId": ""
+		},
+		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -591,7 +593,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         {
           "id": "WVD_DeviceRedirection",
           "title": "Device Redirection",
-          "title": "Issues configuring device redirection",
+          "description": "Issues configuring device redirection",
           "supportTopicId": "32727874",
           "commonSolutionArticleId": "032cf025-2f52-4420-b161-bce71302f41b",
           "symptomId": ""

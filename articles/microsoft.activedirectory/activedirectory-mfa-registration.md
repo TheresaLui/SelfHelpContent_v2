@@ -40,3 +40,9 @@ As part of your MFA deployment, you will need to make a few decisions about MFA 
 * [Identity Protection MFA registration policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 * [My users can only register the Authenticator App](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+
+## **Recommended Videos**
+
+* [Manage security information in My Account (1min)](https://youtu.be/zmC5UzF25Sg)
+* [Register and manage your security info (2min)](https://youtu.be/k0oiKQK3LjQ)
+

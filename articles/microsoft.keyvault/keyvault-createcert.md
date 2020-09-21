@@ -20,27 +20,34 @@
 
 * [Certificate creation methods](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate)
 * [Creating Self-Signed Certificate](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal)
+* [Creating and merging certificate signing request (CSR)](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-signing-request)
 * [Creating certificate with CA not partnered with Key vault](https://docs.microsoft.com/azure/key-vault/certificates/certificate-scenarios#creating-a-certificate-with-a-ca-not-partnered-with-key-vault)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
 ### **Troubleshooting**
 
-* I had created a certificate and it is near expiry. What happens if it expires?
+* Error type : **Conflict** when creating a certificate
+	
+	* Certificate name should be unique. Certificate with the same name might be in soft-deleted state, [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate)
+    * When a certificate is created, key vault also creates an addressable secret associated with it. You can get that secret by calling it with certificate name. Therefore, if you delete a certificate, make sure that you check if the secret is also deleted.
+
+* I had created a certificate and it is **near expiry**. What happens if it expires?
 	
 	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates).
 
-* How to export a certificate from Key vault?
+* How to **export a certificate** from Key vault?
 	
 	You can download the certificate in .cer, .pfx or .pem format. [Exporting certificate from Azure portal](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal#export-certificate-from-key-vault).
 
-* Error type : Access denied or user is unauthorized to create certificate 
+* Error type : **Access denied** or user is unauthorized to create certificate 
 	
 	Access control for certificates is managed by Key Vault, and is provided by the Key Vault that contains those certificates. This operation requires the certificates/create permission. [Read more](https://docs.microsoft.com/azure/key-vault/certificates/about-certificates#certificate-access-control)
 
-* Error type : Conflict when creating a certificate
+
+* I have accidentally **deleted a certificate**. How can i recover it?
 	
-	Certificate name should be unique. Certificate with the same name might be in soft-deleted state, [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate)
+	If the key vault had soft-deleted enabled, you can [recover deleted certificate](https://docs.microsoft.com/rest/api/keyvault/recoverdeletedcertificate), [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate).
 
 ## **Recommended Documents**
 

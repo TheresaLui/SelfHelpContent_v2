@@ -25,7 +25,7 @@ During our investigation regarding performance issues to your MySQL server <!--$
 
 * Review *CPU percent* in the Metrics window of the portal. If CPU spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute.
 * Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your increases in active connections correlate with CPU spikes, consider using a connection pooler between your application and MySQL server. Connection pooler would help optimize connection management.
-* Use the Intelligent Performance features for additional insights. For more information, visit the [Performance Recommendations document](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
+* Use the Intelligent Performance features (only in MySQL 5.7, 8.0) for additional insights. For more information, visit the [Performance Recommendations document](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations).
 
 ## **Recommended Documents**
 

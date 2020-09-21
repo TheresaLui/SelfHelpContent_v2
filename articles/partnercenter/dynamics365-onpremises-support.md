@@ -27,7 +27,8 @@ This topic will guide you to the support experience for Dynamics 365, including 
 - Submit a new Power Platform support request (sign in required) [here](https://admin.powerplatform.microsoft.com/support?newTicket=true)
 - Submit a new Lifecycle Services support request (sign in required) [here](https://lcs.dynamics.com/Logon/Index)
 - **Note**:
-To request support for Dynamics 365, you must have the Microsoft Dynamics Advanced Support for Partner (ASfP) plan or higher. [Learn more](https://partner.microsoft.com/support/advanced-cloud-support)
+Support Operations partners transacting Dynamics 365 in CSP are required to maintain a support agreement, of  Advanced Support for Partner (ASfP) plan or higher.
+This support agreement is required in order to submit Dynamics 365 incidents on behalf of a CSP customer. [Learn more](https://partner.microsoft.com/support/advanced-cloud-support) about the support agreement options
 
 ## **Recommended Documents**
 

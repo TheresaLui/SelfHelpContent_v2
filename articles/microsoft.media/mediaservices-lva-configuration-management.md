@@ -15,8 +15,9 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Media"
 />
-# Configuration and management
-
+# Configuration and management 
+## **Recommended Documents**
+<br>
 [Production readiness and best practices](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/production-readiness) – Read this article for guidance on how to configure and deploy the Live Video Analytics on IoT Edge module in production environments. Information covered includes:
 * [Running the module as a local user](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/production-readiness#running-the-module-as-a-local-user)
 * [Naming video assets or files](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/production-readiness#naming-video-assets-or-files)
@@ -50,4 +51,3 @@
 [Module twin JSON schema](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/module-twin-configuration-schema) – This article describes the module twin JSON schema of Live Video Analytics on IoT Edge. 
 * Module twins are JSON documents that store module state information including metadata, configurations, and conditions. See the [Understand and use module twins in IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-module-twins) article for further details on module twins.
 
-## **Recommended Documents**

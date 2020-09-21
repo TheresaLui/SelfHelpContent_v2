@@ -28,7 +28,7 @@
 
 ## **Recommended Documents**
 
-- [Pre-requisites for using point-in-time restorage Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
+- [Pre-requisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
 - [Regions Availability & Preview Limitation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#about-the-preview)
 - [How to enable point-in-time restore feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage)
 - [How to perform a restore operation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage#perform-a-restore-operation)

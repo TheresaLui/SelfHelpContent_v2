@@ -40,7 +40,7 @@
         {
             "id": "errorMessage",
             "order": 30,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Please provide the error message",
             "required": false
         },

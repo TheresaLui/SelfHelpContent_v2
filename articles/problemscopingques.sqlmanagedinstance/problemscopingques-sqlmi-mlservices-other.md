@@ -35,13 +35,9 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to sign up for the Preview?",
-                "defaultDropdownOptions": {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
             "dropdownOptions": [
                 {
-                    "value": "Yes",
+                    "value": "yes",
                     "text": "Yes"
                 },
                 {
@@ -55,7 +51,7 @@
             "id": "instances",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "What's the Managed Instance(s) you wish to enable ML Services?",
+            "displayLabel": "If you do, what's the Managed Instance(s) you wish to enable ML Services?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/managedInstances?api-version=2018-06-01-preview",
@@ -74,8 +70,7 @@
                     "text": "Unable to get the list of instances"
                 }
             ],
-            "required": true,
-            "visibility": "enrollment == Yes"
+            "required": false
         },
         {
             "id": "problem_description",

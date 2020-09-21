@@ -125,6 +125,10 @@
 			"text": "Copy Azure Blobs to Azure Data Lake Gen2 storage"
 		},
 		{
+			"value": "copy_blobs_to_managed_disk",
+			"text": "Copy Azure Blobs to Managed Disk"
+		},
+		{
 			"value": "copy_blobs_to_localonpremise",
 			"text": "Download Azure Blobs to Local/On-Premise"
 		},
@@ -155,6 +159,10 @@
 		{
 			"value": "copy_files_to_adlsgen2",
 			"text": "Copy Azure Files to Azure Data Lake Gen2 storage"
+		},
+		{
+			"value": "copy_files_to_managed_disk",
+			"text": "Copy Azure Files to Managed Disk"
 		},
 		{
 			"value": "copy_files_to_localonpremise",
@@ -189,6 +197,10 @@
 			"text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
 		},
 		{
+			"value": "copy_adlsgen2_to_managed_disk",
+			"text": "Copy Azure Data Lake Gen2 files to Managed Disk"
+		},
+		{
 			"value": "copy_adlsgen2_to_localonpremise",
 			"text": "Download Azure Data Lake Gen2 files to Local/On-Premise"
 		},
@@ -219,6 +231,10 @@
 		{
 			"value": "copy_snapshot_to_subscription",
 			"text": "Copy snapshot of managed disk to a subscription"
+		},
+		{
+			"value": "copy_disk_to_subscription",
+			"text": "Copy managed disk to same or different subscription within the same region"
 		},
 		{
 			"value": "copy_vhd_to_region",
@@ -378,7 +394,7 @@
 		"order": 10,
 		"controlType": "dropdown",
 		"displayLabel": "Approximate available network bandwidth",
-		"watermarkText": "Choose a network bandwidth",
+		"watermarkText": "If you don't know network bandwidth, use this link to check: https://www.azurespeed.com/",
 		"dropdownOptions": [
 		{
 			"value": "0",

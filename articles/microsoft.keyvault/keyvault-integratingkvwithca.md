@@ -18,6 +18,7 @@
 # Integrating Key vault with Certificate Authority
 ## **Recommended Steps**
 
+* [Integrating Key Vault with DigiCert Certificate Authority](https://docs.microsoft.com/azure/key-vault/certificates/how-to-integrate-certificate-authority)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
