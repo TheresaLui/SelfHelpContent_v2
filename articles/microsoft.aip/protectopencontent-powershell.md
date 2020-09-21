@@ -20,6 +20,7 @@
 ## **Recommended Steps**
 
 Review [Admin Guide: Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell)
+Review the mappings between RMS related cmdlets to Unified Labeling cmdlets [RMS to unified labeling cmdlet mapping](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-powershell#rms-to-unified-labeling-cmdlet-mapping)
 
 Collect Azure Information Protection client logs and attach the exported logs to this ticket
 
