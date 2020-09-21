@@ -70,7 +70,7 @@ Thus, you can choose between loading to Spark DataFrame and creating a Spark tab
 
 
 ### **Spark Tables and Azure Cosmos DB containers schema evolution**
-If you have scenarios where the schema of the underlying Azure Cosmos DB container changes over time; and if you want the updated schema to automatically reflect in the queries against the Spark table, you can achieve this by setting the `spark.cosmos.autoSchemaMerge`  option to `true` in the Spark table options.  
+If you have scenarios where the schema of the underlying Azure Cosmos DB container changes over time; and if you want the updated schema to automatically reflect in the queries against the Spark table, you can achieve this by setting the `spark.cosmos.autoSchemaMerge`  option to `true` in the Spark table options. For more information, click [here](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).  
 
 
 ## **Recommended Documents**  
