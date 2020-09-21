@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="USNat"
     ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota of 2GB
