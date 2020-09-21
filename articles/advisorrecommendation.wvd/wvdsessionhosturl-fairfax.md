@@ -3,7 +3,7 @@
     description="Unblock proper URLs to ensure successful functionality of the VMs"
     authors="t-jajo"
     ms.author="rdinfra"
-    articleId="53e0a3cb-3569-474a-8d7b-7fd06a8ec227_Public"
+    articleId="53e0a3cb-3569-474a-8d7b-7fd06a8ec227_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"

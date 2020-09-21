@@ -3,9 +3,9 @@
     description="Ensure production (non-validation) environment to benefit from stable functionality"
     authors="marius"
     ms.author="rdinfra"
-    articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Public"
+    articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Firfax"
+    cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Production Environment

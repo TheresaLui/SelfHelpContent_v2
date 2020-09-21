@@ -3,7 +3,7 @@
     description="Join validation environment to ensure functionality accross service deployments"
     authors="marius"
     ms.author="rdinfra"
-    articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Public"
+    articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
