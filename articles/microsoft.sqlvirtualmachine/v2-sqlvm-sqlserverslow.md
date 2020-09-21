@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance). 
+If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices) 
 
 Key points to verify - 
 - For production workloads 
