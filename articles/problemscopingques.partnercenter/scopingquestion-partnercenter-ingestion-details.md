@@ -38,7 +38,7 @@
             "required": true
         },
         {
-            "id":"infoballoon_singletest",
+            "id":"infoballoon_multidrop",
             "order":3,
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>How to capture a browser trace for troubleshooting</a>",
             "controlType":"multiselectdropdown",
@@ -78,7 +78,7 @@
             "order": 5,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Learn more</a> on how to capture a browser trace for troubleshooting"
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
