@@ -21,7 +21,7 @@
 A virtual network acts as a security boundary, isolating your Azure resources from the public internet. To ensure your workspace, training jobs, and inferencing jobs all remain secured behing a virtual network, the follow steps should be taken:
 
 1. Ensure your workspace is behind an Azure Private Link, which enables you to connect to your workspace using a private endpoint. This will limit access to your workspace to only occur over a set of private IP addresses inside your virtual network.
-2. Ensure all other Azure resources associated with your workspace are created within a virtual network (storage accounts, compute targets, key vaults etc).
+2. Ensure all other Azure resources associated with your workspace are created within a virtual network (storage accounts, compute targets, key vaults etc). 
 
 ### **Setup Private Link on Workspace**
 
@@ -33,7 +33,7 @@ For instructions on how to ensure all your associated resources are created behi
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
+Here is a list of additional resources which may be helpful: 
 
 * [Azure Private Link Overview](https://docs.microsoft.com/azure/private-link/private-link-overview)
 * [Azure Virtual Networks Overview](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview)
