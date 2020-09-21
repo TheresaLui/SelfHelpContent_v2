@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "27aad69f-c630-d9ca-d830-e4b573803397",
+      "longDescription": "",
+      "shortDescription": "Issues with fixing SQL Recommendations and Assessments ",
+      "searchTags": "SQL Assesment failed;sql assessment;fix sql assesment recommendations;assessment questions;assessment rules",
+      "category": "AssesmentIssues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "317016aa-51ba-1d75-c4be-9fef2548abae",
       "longDescription": "",
       "shortDescription": "Configure and Manage SQL Assessment recommendations",
