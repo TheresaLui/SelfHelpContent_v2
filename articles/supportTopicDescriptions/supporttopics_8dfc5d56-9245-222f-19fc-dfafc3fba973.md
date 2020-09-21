@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9cd65c74-a135-07df-1b5f-c1edd1597aef",
+      "longDescription": "",
+      "shortDescription": "Investigate and questions about security issues or alerts triggered with Azure Sentinel",
+      "searchTags": "Azure Sentinel;Sentinel;alert or incidents;investigate threats;bookmarks",
+      "category": "ADSSql",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ae2c730a-ac62-d5b7-684e-cda59ea04cba",
       "longDescription": "",
       "shortDescription": "Issues with configuring and managing Security Assessments and vulnerability assessments",
