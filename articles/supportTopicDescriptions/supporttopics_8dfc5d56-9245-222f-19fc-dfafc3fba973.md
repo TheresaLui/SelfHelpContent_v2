@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3279f197-3fa1-e8e2-ce08-b4ee1655f803",
+      "longDescription": "",
+      "shortDescription": "Monitor and manage security threats for SQL Arc Server",
+      "searchTags": "vulnerability assesment;sql security threats;sql risks;security anomalies;azure data security",
+      "category": "SQLAds",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3bc25095-f2bc-28e6-2930-24fc08cc2d01",
       "longDescription": "",
       "shortDescription": "Connect your SQL Server from On Premise, Azure or AWS to Azure Arc",
