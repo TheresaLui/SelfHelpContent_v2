@@ -21,12 +21,12 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Accessing 
 
 ## **Recommended Steps**  
 
-### **Unable to set item level TTL for analytical store**
+### **Unable to set item level TTL for data in analytical store**
 At this time, TTL for analytical data can only be configured at container level and there is no support to set analytical TTL at item level.  
 
 
 ### **Unable to set container level TTL for analytical store**
-At this time, analytical store ttl only can be enable for new SQL API and MongoDB API containers.  
+At this time, when creating new containers, analytical TTL can be set for SQL API or MongoDB API containers.  
 
 
 ### **Updating the Analytical Store Time-To-Live**
@@ -42,7 +42,7 @@ There are two modes of schema representation in the analytical store. These mode
 Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
 ### **Missing data (properties) in analytical store**
-You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties at the top level doesn’t satisfy this constraint and hence it will not be represented in the analytical store. An item with more than five nested levels in the schema also doesn’t satisfy this constraint and hence it will not be represented in the analytical store.  
+You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties doesn't satisfy this constraint and hence it will not be represented in the analytical store. An item with more than 5 nested levels in the schema also doesn’t satisfy this constraint and hence it will not be represented in the analytical store.  
 
 Another possible cause is: If the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification above is violated by certain items, those items will not be included in the analytical store.Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
@@ -59,7 +59,7 @@ In the case of **loading to Spark DataFrame**, the fetched metadata is cached th
 
 On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark and is reloaded on every SparkSQL query execution against the Spark table.  
 
-Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store respectively.  
+Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store respectively. For more information, click [here](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark)  
 
 
 ## **Recommended Documents**  
