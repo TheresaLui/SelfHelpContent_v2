@@ -25,7 +25,7 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Accessing 
 At this time, TTL for analytical data can only be configured at container level and there is no support to set analytical TTL at item level.  
 
 
-### **Unable to set container level TTL for analytical store**
+### **Unable to set container level TTL for data in analytical store**
 At this time, when creating new containers, analytical TTL can be set for SQL API or MongoDB API containers.  
 
 
