@@ -58,13 +58,6 @@ GO
 SET NOCOUNT OFF
 GO
 
--- after updating statistics clear database procedure cache for the database to force the creation on new, more accurate execution plans
-
-ALTER DATABASE SCOPED CONFIGURATION CLEAR PROCEDURE_CACHE
-
--- check available plans
-
-select * from sys.dm_exec_cached_plans
 ```
 
 
