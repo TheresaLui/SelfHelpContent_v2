@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-If you are experiencing issues with installing the Azure Machine Learning R SDK, here is the resource for troubleshooting:
+If you are experiencing issues with installing the Azure Machine Learning R SDK, here is the resource for troubleshooting: 
 * [Installation guide and troubleshooting](https://azure.github.io/azureml-sdk-for-r/articles/installation.html#troubleshooting)
 
 If you are experiencing any additional issues with the R SDK, here is a list of additional resources which may be helpful:
