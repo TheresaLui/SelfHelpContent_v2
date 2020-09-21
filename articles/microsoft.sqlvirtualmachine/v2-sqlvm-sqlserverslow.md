@@ -2,7 +2,7 @@
   pagetitle="SQL Server is Slow"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="yareyes,AbdullahMSFT,amamun"
+  ms.author="amamun"
   selfhelptype="Generic"
   supporttopicids="32740098"
   resourcetags="windowssql"
@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance?WT.mc_id=Portal-Microsoft_Azure_Support). 
+If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance). 
 
 Key points to verify - 
 - For production workloads 
