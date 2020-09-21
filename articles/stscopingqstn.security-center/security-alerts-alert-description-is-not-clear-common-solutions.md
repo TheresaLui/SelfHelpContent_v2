@@ -2,7 +2,7 @@
   pagetitle="Security Alerts - Alert Description is Not Clear Common Solutions"
   service=""
   resource=""
-  ms.author="jaserano,elsagie"
+  ms.author="elsagie"
   selfhelptype="Generic"
   supporttopicids="32693236"
   resourcetags=""
@@ -31,7 +31,6 @@ Customers can share feedback for the alert description and relevance. Navigate t
 * [Azure Security Center detection capabilities](https://docs.microsoft.com/azure/security-center/security-center-detection-capabilities)
 
 ## Troubleshooting
-
 * [ASC Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 ## FAQ
