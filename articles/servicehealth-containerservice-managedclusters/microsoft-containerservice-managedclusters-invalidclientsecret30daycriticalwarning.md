@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Your service principal is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
-    description="Your service principal is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
-    infoBubbleText="Your service principal is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
+    pageTitle="Your cluster cert is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
+    description="Your cluster cert is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
+    infoBubbleText="Your cluster cert is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster."
     service="Microsoft.ContainerService"
     resource="managedClusters"
     authors="stephbaron"
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your AKS Cluster resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-Your service principal is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster. 
+Your cluster cert is due to expire in 30 days. Please renew your key now or you will have issues connecting and interacting with your cluster. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

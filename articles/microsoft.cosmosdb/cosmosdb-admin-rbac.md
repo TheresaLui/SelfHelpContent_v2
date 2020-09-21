@@ -39,6 +39,10 @@ Error Message: *The input authorization token can't serve the request. Please ch
 * First verify the expected payload is as per the protocol you are using
 * If you are experiencing this error in Data Explorer when using special character encodings in the id, this is a current known issue. Please use the [Sunset Link](https://cosmos.azure.com/sunset) as a workaround.
 
+### **Find out who made changes to an Azure Cosmos DB account**
+
+If you are looking to find out who or when changes were made to your Cosmos DB account or get alerts when specific changes are made, you can enable this capability in Cosmos DB. Learn more at [How to audit Azure Cosmos DB control plane operations](https://docs.microsoft.com/azure/cosmos-db/audit-control-plane-logs).
+
 ## **Recommended Documents**
 
 [How to create a custom RBAC role](https://docs.microsoft.com/azure/role-based-access-control/custom-roles)

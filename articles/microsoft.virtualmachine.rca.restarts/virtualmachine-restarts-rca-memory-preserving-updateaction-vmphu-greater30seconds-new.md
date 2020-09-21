@@ -24,17 +24,19 @@ We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** beca
 
 The update process succeeded, but your VM was unavailable longer than the expected maximum duration of 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-This update is part of Azure’s commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. During these updates, the VM is frozen for up to 30 seconds and then resumed. Our engineers are alerted to investigate all factors that could have caused your VM to take longer to update and to apply fixes to affected hosts as soon as possible. No action is needed from you.<br>
+This update is part of Azure’s commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. During these updates, the VM is frozen for up to 30 seconds and then resumed. Our engineers are alerted to investigate all factors that could have caused your VM to take longer to update and to apply fixes to affected hosts as soon as possible. No action is needed from you.
 
-We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+
+Microsoft Azure Term
+<br>
 
 ## **Recommended Documents**
 
-| To learn about ... | See the following ... |
-| --- | ---|
-| Maintenance and updates | [Maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/) |
-| High availability options (highly recommended) | [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) |
-| Resource health and troubleshooting | [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview) |
+Learn more about:
+* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 <br>
-
-
