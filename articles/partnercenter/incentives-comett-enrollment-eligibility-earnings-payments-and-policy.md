@@ -25,7 +25,6 @@
 **Enrollment & Eligibility**
 * [Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
 * [View your incentive payments and programs](https://docs.microsoft.com/partner-center/understand-incentive-payouts)
-* [Getting started with incentives: Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
 * [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)

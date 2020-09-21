@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "287493aa-ea97-b7e2-11dd-1315916ee6fd",
+      "longDescription": "",
+      "shortDescription": "Failing to save a copy of SSIS package to File System, MSDB or Package Store. Failing to deploy SSIS Project or add a package to SSISDB Catalog.",
+      "searchTags": "SSIS package deploy;SSIS package deployment;integration services deploy;integration services package deployment",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
       "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
@@ -214,6 +222,14 @@
       "shortDescription": "Questions or issues integrating Reporting Services with the Power BI service",
       "searchTags": "ssrs power bi;ssrs power bi service;reporting services power bi;reporting services power bi integration",
       "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "622af061-6edb-cae2-702f-87d996825aa5",
+      "longDescription": "",
+      "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
+      "searchTags": "ssis package performance;integration services package performance",
+      "category": "SSIS",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -361,6 +377,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
+      "longDescription": "",
+      "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
+      "searchTags": "SSIS windows service;ssis service;Integration services windows service;integration services service",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",
       "longDescription": "",
       "shortDescription": "Questions or issues troubleshooting authentication, roles and permissions",
@@ -431,6 +455,14 @@
       "searchTags": "stop;stop vm;start; start vm;restart;restart vm;administration; vm administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "d1514669-4455-80ef-5c77-ee22227ac7ff",
+      "longDescription": "",
+      "shortDescription": "Issues while executing a package through Visual Studio SSDT, SSISDB Catalog, SQL Server Agent, DTExec.exe or DTExecUI.exe",
+      "searchTags": "ssis package execution;integration services package execution",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
