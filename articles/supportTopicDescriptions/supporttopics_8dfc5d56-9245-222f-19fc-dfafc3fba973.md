@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c03409b2-fe48-8189-6c93-155a0172a766",
+      "longDescription": "",
+      "shortDescription": "Issues with Azure arc Server and installing connected agent",
+      "searchTags": "azure arc for server;arc server",
+      "category": "AzureArcServer",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1fdea6e-6ea7-acc3-4076-5f37f1fca236",
       "longDescription": "",
       "shortDescription": "Cannot detect SQL instance on my machine when you run registration script",
