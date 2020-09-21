@@ -4,7 +4,7 @@
   resource="registrations"
   ms.author="justinha"
   selfhelptype="Generic"
-  supporttopicids="32663930"
+  supporttopicids="32663930,32748898"
   resourcetags=""
   productpesids="16226"
   cloudenvironments="public,fairfax,usnat,ussec"
