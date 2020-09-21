@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Connecting SQL Managed Instance Azure Arc."
+  pagetitle="Connecting SQL Managed Instance Azure Arc.&#xD;"
   service="microsoft.azuredata"
   resource="sqlmanagedinstances"
   ms.author="jopilov"
@@ -7,7 +7,7 @@
   supporttopicids="32743975"
   resourcetags=""
   productpesids="17125"
-  cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
+  cloudenvironments="public"
   articleid="5a4e6ddb-48c3-4e41-acbe-fad2731ce01b"
   ownershipid="AzureData_Managed_Instance_Azure_Arc" />
 # Connecting SQL Managed Instance Azure Arc.
