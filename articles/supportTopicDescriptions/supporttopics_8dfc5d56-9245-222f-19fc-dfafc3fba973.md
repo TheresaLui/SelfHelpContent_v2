@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ae2c730a-ac62-d5b7-684e-cda59ea04cba",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring and managing Security Assessments and vulnerability assessments",
+      "searchTags": "advanced data security;SQL advanced data security;security risk and assessments;vulnerability assesments;sql security  threats",
+      "category": "SQLAds",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1fdea6e-6ea7-acc3-4076-5f37f1fca236",
       "longDescription": "",
       "shortDescription": "Cannot detect SQL instance on my machine when you run registration script",
