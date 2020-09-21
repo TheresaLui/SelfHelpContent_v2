@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "798da96d-6646-dd8f-4c24-14a5a1c1f1e1",
+      "longDescription": "",
+      "shortDescription": "Issues with setting up or configuring SQL Assessments or ODA ",
+      "searchTags": "ODA;Sql assessments ;Configure assessments;setup assessments;sql rules",
+      "category": "AssesmentsConfig",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
       "longDescription": "",
       "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
