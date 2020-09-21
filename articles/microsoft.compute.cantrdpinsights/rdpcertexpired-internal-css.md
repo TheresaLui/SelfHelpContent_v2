@@ -32,17 +32,30 @@ We have investigated and detected that the self-signed certificate associated wi
 
 * Execute the following set of commands in the given order to reset the permission levels on the MachineKey folder and the RSA files to default. This folder is used to store certificate key pairs for the system and its users:
 
-  ```takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r```<br>
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"```<br>
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```<br>
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```<br>
+  Take ownership of the folder and its sub-directories
+
+  ```takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r```
+
+  Backup the current access control lists
+
+  ```md C:\BackupACLs```
+  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /save C:\BackupACLs\machinekeys_before.txt /t /c```
+
+  Add the system default ACLs to the MahcineKeys folder
+
+  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"```
+  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```
+  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```
+
+  Restart the Terminal Service to all the certificate renewal
+
   ```Restart-Service TermService -Force```
 
-* Now ensure that the self-signed certificate is renewed by executing the below commands in the given order:
+* If RDP is still now working, ensure that the self-signed certificate is renewed by executing the below commands in the given order:
 
-  ```Import-Module PKI```<br>
-  ```Set-Location Cert:\LocalMachine```<br>
-  ```$RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)```<br>
-  ```Remove-Item -Path $RdpCertThumbprint```<br>
-  ```Stop-Service -Name "SessionEnv"```<br>
-  ```Start-Service -Name "SessionEnv"```<br>
+  ```Import-Module PKI```
+  ```Set-Location Cert:\LocalMachine```
+  ```$RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)```
+  ```Remove-Item -Path $RdpCertThumbprint```
+  ```Stop-Service -Name "SessionEnv"```
+  ```Start-Service -Name "SessionEnv"```
