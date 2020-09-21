@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "20dfc768-7850-4176-9707-b9bb52afb95a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.usnateast.kusto.core.eaglex.ic.gov').database('hdinsightkustodb').SparkVersionRetirementInHDI",
+    "streamNamespace": "cluster('https://hdinsightwest.usnatwest.kusto.core.eaglex.ic.gov').database('hdinsightkustodb').SparkVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
