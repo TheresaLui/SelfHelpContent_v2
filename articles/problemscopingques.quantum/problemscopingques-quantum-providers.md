@@ -68,7 +68,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Always provide the full error text from the underlying client library, not the general error from your client application.  If available, include the client stack trace as well."
         }
     ]
 }
