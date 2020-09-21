@@ -5,7 +5,7 @@
     ms.author="rdinfra"
     articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, ussec, usnat"
+    cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Validation Environment
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "ba1f4576-9ace-4fa9-b0d6-311ad9f2f233",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rdsprodus2.westus2.kusto.windows.net').database('WVD').SubscriptionNeedsValidationEnv",
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').SubscriptionNeedsValidationEnv",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },

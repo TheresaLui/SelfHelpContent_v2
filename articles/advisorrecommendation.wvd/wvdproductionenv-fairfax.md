@@ -5,7 +5,7 @@
     ms.author="rdinfra"
     articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, ussec, usnat"
+    cloudEnvironments="Firfax"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Production Environment
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "87269ca9-dda6-448e-97ac-c5888b2a2d61",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rdsprodus2.westus2.kusto.windows.net').database('WVD').SubscriptionNeedsProductionEnv",
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').SubscriptionNeedsProductionEnv",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
