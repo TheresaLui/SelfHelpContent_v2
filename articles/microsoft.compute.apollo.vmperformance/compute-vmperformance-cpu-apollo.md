@@ -29,21 +29,10 @@ This experience integrates automated checks to detect high CPU consumption in yo
     <title>Current Virtual Machine CPU usage</title>
 </metric>
 
-
-<Insights runModel="parallel">
-    <executionText> </executionText>
-    <Insight>
-        <symptomId>HighCpuUsageAzurePortalInsight</symptomId>
-        <executionText>We are running a few performance checks on your VM</executionText>
-        <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-        <noResultText>No issues found</noResultText>
-        <additionalInputsReq>false</additionalInputsReq>
-    </Insight>
-    <Insight>
-        <symptomId>VMPerfDiagExtAzurePortalInsight</symptomId>
-        <executionText>We are running a few performance checks on your VM</executionText>
-        <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-        <noResultText>No issues found</noResultText>
-        <additionalInputsReq>false</additionalInputsReq>
-    </Insight>
-</Insights>
+<Insight>
+    <symptomId>HighCpuUsageAzurePortalInsight,VMPerfDiagExtAzurePortalInsight</symptomId>
+    <executionText>We are running a few performance checks on your VM</executionText>
+    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
+    <noResultText>No issues found</noResultText>
+    <additionalInputsReq>false</additionalInputsReq>
+</Insight>
