@@ -14,12 +14,11 @@
 
 ## **Recommended Steps**
 
-If you suspect **SQL Server is slow or needs optimization, we strongly recommend** that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices) 
-
+If you suspect SQL Server is slow or needs optimization, we strongly recommend that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices)
 Key points to verify - 
 - For production workloads 
-  - Use VM sizes with 4 or more vCPU like [E4S_v3](https://docs.microsoft.com/azure/virtual-machines/ev3-esv3-series) or higher, or [DS12_v2](https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series-memory) or higher
-  - **do not use standard disk**, use premier disk. For sub-millisecond latency use ultra-disk. 
+  - Use VM sizes with 4 or more vCPU like [E4S_v3 ](https://docs.microsoft.com/azure/virtual-machines/ev3-esv3-series) or higher, or [DS12_v2](https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series-memory) or higher
+  - **Do not use standard disk**, use premier disk instead. For sub-millisecond latency use ultra-disk. 
 - Use strip size of 64 KB for OLTP workloads and 256 KB for data warehousing workloads  
 - Use a minimum of 2 [premium](https://docs.microsoft.com/azure/virtual-machines/disks-types#premium-ssd) SSD disks (1 for log file and 1 for data files). Stripe multiple Azure data disks to get increased storage throughput if needed 
 - Set **[disk caching to ReadOnly](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disk hosting data** (mdf/ndf) files 
