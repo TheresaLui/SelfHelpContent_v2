@@ -20,7 +20,6 @@ Key points to verify -
   - Use VM sizes with 4 or more vCPU like [E4S_v3 ](https://docs.microsoft.com/azure/virtual-machines/ev3-esv3-series) or higher, or [DS12_v2](https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series-memory) or higher
   - **Do not use standard disk**, use premier disk instead. For sub-millisecond latency use ultra-disk. 
 - Use strip size of 64 KB for OLTP workloads and 256 KB for data warehousing workloads  
-- Use a minimum of 2 [premium](https://docs.microsoft.com/azure/virtual-machines/disks-types#premium-ssd) SSD disks (1 for log file and 1 for data files). Stripe multiple Azure data disks to get increased storage throughput if needed 
 - Set **[disk caching to ReadOnly](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disk hosting data** (mdf/ndf) files 
 - Set **[disk caching to None](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disks hosting the log** (ldf) file 
 - Place page file, [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission critical SQL Server workloads (after choosing correct VM size). 
