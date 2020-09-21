@@ -1,8 +1,8 @@
 <properties
   pagetitle="Azure Stack Compromise, Security, and Compliance concerns"
   service="microsoft.azurestack"
-  resource="azurestack"
-  ms.author="mquian,justinha"
+  resource="registrations"
+  ms.author="justinha"
   selfhelptype="Generic"
   supporttopicids="32663930"
   resourcetags=""
