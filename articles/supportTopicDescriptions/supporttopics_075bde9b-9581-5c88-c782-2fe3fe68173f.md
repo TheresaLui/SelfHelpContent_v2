@@ -1,27 +1,124 @@
 <properties
   pagetitle="SupportTopicDescriptions for 075bde9b-9581-5c88-c782-2fe3fe68173f"
-  description="SupportTopicDescriptions for 075bde9b-9581-5c88-c782-2fe3fe68173f"
-  authors="elixirsys2"
-  ms.author="radand"
+  description="SupportTopicDescriptions for Accounts Onboarding Access product"
+  authors="A-COFLOR"
+  ms.author="A-COFLOR"
   selfhelptype="SupportTopicDescription"
   productpesids="075bde9b-9581-5c88-c782-2fe3fe68173f"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   articleid="supporttopics_075bde9b-9581-5c88-c782-2fe3fe68173f"
   clientIds='partnercenter'
   ownershipid="PartnerCenter_Accounts_Onboarding_Access" />
+
 # Support Topic Descriptions for 075bde9b-9581-5c88-c782-2fe3fe68173f 
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "Accounts, Onboarding, Access related problems",
+  "shortDescription": "Accounts, Onboarding and Access related problems",
   "longDescription": "",
   "supportTopics": [
     {
-      "id": "a27474b3-366d-2280-af7a-53fe44c16783",
+      "id": "a1af7f3a0-1757-3543-4b6a-c945c3ad187b",
       "longDescription": "",
-      "shortDescription": "Use Accounts , onboarding , access related problems ",
-      "searchTags": "Accounts;Onboarding;Access",     
-    }   
+      "shortDescription": "Questions about adding, removing, or managing your partner locations in Partner Center",
+      "searchTags": "Accounts;Onboarding;Locations",
+    },
+    {
+      "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
+      "longDescription": "",
+      "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
+      "searchTags": "Account;Merge;PMC",
+    },
+    {
+      "id": "8e86c780-2e60-9850-5217-59b31e079f9d",
+      "longDescription": "",
+      "shortDescription": "Questions about Azure MSP, including the process and criteria required to enroll",
+      "searchTags": "Accounts;Onboarding;Specialization;Enrollment",
+    },
+    {
+      "id": "95b1a700-7fa0-a34a-4d94-79aae67c1a2d",
+      "longDescription": "",
+      "shortDescription": "Questions about Azure Expert MSP details and enrollment",
+      "searchTags": "Accounts;Onboarding;MSP;Enrollment",
+    },
+    {
+      "id": "eb74583c-61b3-2124-bffc-00920e0ae772",
+      "longDescription": "",
+      "shortDescription": "Questions about updating company details such as legal business name, address, MPN ID, and contact",
+      "searchTags": "Accounts;Onboarding;Name;Address",
+    },
+    {
+      "id": "947c4002-296a-cde8-f0b1-931edc6718f5",
+      "longDescription": "",
+      "shortDescription": "Questions about renewing your MAPS or competency enrollment",
+      "searchTags": "Accounts;Renewing;MAPS;Competency",
+    },
+    {
+      "id": "a69afb34-6945-520a-361e-ae5dd3a4ac8c",
+      "longDescription": "",
+      "shortDescription": "Questions about renewing MPN through Partner Center, or purchasing or renewing MAPS",
+      "searchTags": "Accounts;Renewing;MAPS",
+    },
+    {
+      "id": "1d2698c9-fe2d-aa43-b36a-adad8e63efc1",
+      "longDescription": "",
+      "shortDescription": "Questions about moving your organization's accounts and users from Partner Membership Center (PMC) to Partner Center",
+      "searchTags": "Accounts;Onboarding;PMC;Migration",
+    },
+    {
+      "id": "ae686004-3b43-ca32-257d-579e76315a7a",
+      "longDescription": "",
+      "shortDescription": "Questions about enrolling in MPN Action Pack or competency programs",
+      "searchTags": "Accounts;Onboarding;Enrollment;ActionPack",
+    },
+    {
+      "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
+      "longDescription": "",
+      "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
+      "searchTags": "Accounts;Onboarding;MPNid",
+    },
+    {
+      "id": "f715e01a-ccda-d173-deed-43392dc7558a",
+      "longDescription": "",
+      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
+      "searchTags": "Accounts;Onboarding;CSP;Guidelines",
+    },
+    {
+      "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
+      "longDescription": "",
+      "shortDescription": "Questions about the MPN Learning option requirements, or enrollment in Software Assurance",
+      "searchTags": "Accounts;Onboarding;Learning;Enrollment",
+    },
+    {
+      "id": "0dcf2ebb-0a91-f9a3-d19b-24c44e45d06d",
+      "longDescription": "",
+      "shortDescription": "Questions about Software Assurance resources or training",
+      "searchTags": "Accounts;Onboarding;SoftwareAssurance;Training",
+    },
+    {
+      "id": "7577dd9f-e75d-7949-01a6-355903739c0f",
+      "longDescription": "",
+      "shortDescription": "Questions about managing your VAT, withholding, or tax-exempt status for MPN enrollment",
+      "searchTags": "Accounts;Onboarding;VAT;Tax-exempt",
+    },
+    {
+      "id": "18dd9e73-0d4d-3f6b-534c-c99a2d91abd5",
+      "longDescription": "",
+      "shortDescription": "Commercial Marketplace payout bank and tax questions (forms, payout account, updating profiles, requirements and more)",
+      "searchTags": "Accounts;Onboarding;Forms;Payout",
+    },
+    {
+      "id": "4ed1524d-17ad-e570-b29c-4d8c8ab53ddc",
+      "longDescription": "",
+      "shortDescription": "Questions about Developer Settings (account details, contact and tax info, managing users, managing tenants, agreements)",
+      "searchTags": "Accounts;Onboarding;Developer;Settings",
+    },
+    {
+      "id": "0c8de35d-adf1-4ddf-84a6-fc23b1e10a15",
+      "longDescription": "",
+      "shortDescription": "Help creating a commercial marketplace account in Partner Center (publisher profile creation)",
+      "searchTags": "Accounts;Onboarding;Registration",
+    },
   ]
 }
 ---

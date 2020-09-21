@@ -21,8 +21,13 @@ Most users are able to resolve this issue using the steps below.
 ## **Recommended Steps**
 
 * Refer to [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
+* [How to update a deployed web service?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-update-web-service)
 * If you encounter problems deploying a model to ACI or AKS, try deploying it as a local web service. Using a local web service makes it easier to troubleshoot problems. [Troubleshoot and Debugging Guide](https://docs.microsoft.com/azure/machine-learning/how-to-troubleshoot-deployment)
 * You can also refer to Azure Machine Learning - [Deploy to Local Notebook](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/deployment/deploy-to-local)
+
+For possible errors you may encounter during deployment, see the following resources
+* [Updating Azure Machine Learning components in AKS Cluster](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#updating-azure-machine-learning-components-in-aks-cluster)
+* [Webservices in Azure Kubernetes Service Failures](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#webservices-in-azure-kubernetes-service-failures)
 
 ## **Recommended Documents**
 

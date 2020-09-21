@@ -24,6 +24,10 @@ Most users are able to resolve deployment issues using the steps below.
 * If you encounter problems deploying a model to ACI or AKS, try deploying it as a local web service. Using a local web service makes it easier to troubleshoot problems. [Troubleshoot and Debugging Guide](https://docs.microsoft.com/azure/machine-learning/how-to-troubleshoot-deployment)
 * You can also refer to Azure Machine Learning - [Deploy to Local Notebook](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/deployment/deploy-to-local)
 
+For possible errors you may encounter during deployment, see the following resources
+* [Updating Azure Machine Learning components in AKS Cluster](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#updating-azure-machine-learning-components-in-aks-cluster)
+* [Webservices in Azure Kubernetes Service Failures](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#webservices-in-azure-kubernetes-service-failures)
+
 ## **Recommended Documents**
 
 * [Deploy models with Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where)

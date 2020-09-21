@@ -448,7 +448,7 @@
     {
       "id": "edadb56e-6ec7-2bbe-7f29-fee00b57b009",
       "longDescription": "",
-      "shortDescription": "I am getting an error or not sure how to create, update or modify an action group or action rule in the Azure portal",
+      "shortDescription": "I am getting an error or not sure how to create or update notification details, action groups or action rules in the Azure portal",
       "searchTags": "Alerts;Action groups;Action rules;Action group configuration;UI",
       "category": "Action group configuration",
       "useInDiagnoseAndSolve": "true"

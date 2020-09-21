@@ -7,7 +7,7 @@
     displayOrder="1"
     authors="shivanissambare"
     ms.author="ssambare"
-    articleId="machinelearning-deployment-problemwithmodeldeployment"
+    articleId="machinelearning-deployment-problemwithdatacollection"
     selfHelpType="generic"
     supportTopicIds="32690850"
     productPesIds="16644"
