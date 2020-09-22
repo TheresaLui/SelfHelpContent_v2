@@ -11,7 +11,7 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.workspace.manage"
+	articleId="microsoft.machinelearning.workspace.manage.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
@@ -21,7 +21,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Problem provisioning or managing workspace",
+    "title": "Problem provisioning or managing workspace ",
     "fileAttachmentHint": "",
     "formElements": [
         {

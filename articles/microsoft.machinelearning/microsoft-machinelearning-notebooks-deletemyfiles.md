@@ -16,16 +16,17 @@
 
 # Can’t delete my files
 
-If you can't delete a file/folder, your compute instance may have a lock on that file. Most users are able to resolve their deleting file issue by using the following steps.
+If you can't delete a file/folder, your compute instance may have a lock on that file/folder or your file/folder is marked as read-only. Most users are able to resolve their deleting file/folder issues by using the following steps to change the permissions of the file/folder.
 
 ## **Recommended Steps**
+
 1. Click the Terminal icon in the Notebook Toolbar
-2. Go to the folder in the terminal with "cd ~/cloudfiles/code/Users/<user_name>/<folder_name>"
-3. Use "rm -rf <folder_name>" command to force delete the folder or file
+2. Go to the parent folder in the terminal with `cd ~/cloudfiles/code/Users/<user_name>`
+3. Use `chmod -R 755 <folder_name>` command to change the permission on the folder or file
+4. Try to delete the file/folder again
 
 ## **Recommended Documents**
 
-If you are experiencing issues with Studio Notebooks, here is a list of resources which may be helpful:
 * [How to run Jupyter Notebooks in your workspace](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
 * [Clone Git repositories into your workspace file system](https://docs.microsoft.com/azure/machine-learning/concept-train-model-git-integration#clone-git-repositories-into-your-workspace-file-system)
 * [What is an Azure Machine Learning compute instance?](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance)

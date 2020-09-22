@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Secure Web Services"
 	description="Secure Web Services"
-	infoBubbleText="Secure Web Services"
+	infoBubbleText="Secure Web Services "
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"
@@ -11,7 +11,7 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.securewebservices"
+	articleId="microsoft.machinelearning.enterprisesecurity.securewebservices.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

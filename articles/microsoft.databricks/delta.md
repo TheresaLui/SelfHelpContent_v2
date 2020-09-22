@@ -19,7 +19,14 @@
 
 ## **Recommended Documents**
 
-* [How Databricks Delta Cache Behaves on an Autoscaling Cluster](https://kb.azuredatabricks.net/delta/delta-cache-autoscaling.html)
-* [How to Improve Performance of Delta Lake MERGE INTO Queries Using Partition Pruning](https://kb.azuredatabricks.net/delta/delta-merge-into.html)
-* [Best Practices for Dropping a Managed Delta Lake Table](https://kb.azuredatabricks.net/delta/drop-delta-table.html)
-* [Delta Lake Write Job Fails with java.lang.UnsupportedOperationException](https://kb.azuredatabricks.net/delta/delta-write-fails.html)
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
+
+* [Delta FAQs](https://docs.microsoft.com/azure/databricks/delta/delta-faq)
+* [Delta How-to?](https://docs.microsoft.com/azure/databricks/delta/delta-intro)
+* [Resources](https://docs.microsoft.com/azure/databricks/delta/delta-resources)
+* [Best Practices](https://docs.microsoft.com/azure/databricks/delta/best-practices)
+* [Delta Lake Tips and Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/delta/)
+* [Introductory Notebooks](https://docs.microsoft.com/azure/databricks/delta/intro-notebooks)
+
