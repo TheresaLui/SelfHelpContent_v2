@@ -22,6 +22,8 @@ This experience integrates automated checks to detect high CPU consumption in yo
 
 :::Section Recommended Solution:::
 
+The below chart shows the Virtual Machine CPU usage for the last 24 hours. Click on the chart to customize and update filters.
+
 <metric>
     <name>Percentage CPU</name>
     <aggregationType>Avg</aggregationType>
