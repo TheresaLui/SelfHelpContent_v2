@@ -19,6 +19,11 @@
     "subscriptionRequired": true,
     "title": "Issue while investigating or configuring Availability tests",
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
+    "diagnosticCard": {
+        "title": "Availability Test Troubleshooter",
+        "description": "Our Availability Test Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -43,7 +48,7 @@
                 "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Unable to get the list of availability tests for this resource"
-            }
+            },
           },
         "diagnosticInputRequiredClients": "Portal, ASC"
         },
