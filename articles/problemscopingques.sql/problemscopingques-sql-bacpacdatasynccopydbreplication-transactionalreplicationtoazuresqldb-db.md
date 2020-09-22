@@ -23,15 +23,15 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the start time of the issue?",
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": true
+			
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": false
+			
 		}, {
 			"id": "recently_migrated",
 			"order": 3,

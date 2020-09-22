@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Transactional Replication"
-	description="Scoping questions to capture more details about issues while performing Transactional Replication"
+	description="Scoping questions to capture more details about issues with Transactional Replication"
 	authors="sojaga"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
@@ -8,12 +8,11 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="46af1285-efbf-47f6-8d55-d4cdcb1ad1f6"
-	ownershipId="AzureData_AzureSQLMI"/>
-
-# Transactional Replication setup or configuration
----"
-
+	articleId="problemscopingques-sqlmi-dataimportexportreplication-tranrepl"
+	ownershipId="AzureData_AzureSQLMI"
+/>
+# Transactional Replication 
+---
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
