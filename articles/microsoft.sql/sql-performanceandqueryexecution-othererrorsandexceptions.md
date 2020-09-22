@@ -25,10 +25,6 @@ Use [this reference](https://docs.microsoft.com/azure/sql-database/sql-database-
 
 * Use [this reference](https://docs.microsoft.com/sql/relational-databases/logs/troubleshoot-a-full-transaction-log-sql-server-error-9002?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) to assist in troubleshooting a full transaction log. This will also provide suggestions on how to avoid this in the future. <br>
 
-### Error 10928: The session limit for the database is X and has been reached
-
-* The Resource ID indicates which resource governance limit is being hit. A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections).  For short term mitigation, increase the [service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32630429/) of your database; longer term, tune the workload so it better fits the selected tier. Refer to the [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630429/) feature for assistance analyzing and tuning your workload. <br>
-
 ### Error 701: There is insufficient system memory to run this query
 
 * Use [this reference](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-701-database-engine-error?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) for assistance in troubleshooting this error. SQL Server has failed to allocate sufficient memory to run the query. This can be caused by a variety of reasons including operating system settings, physical memory availability, or memory limits on the current workload. In most cases, the transaction that failed is not the cause of this error. <br>
@@ -36,10 +32,6 @@ Use [this reference](https://docs.microsoft.com/azure/sql-database/sql-database-
 ### Error 10930: The service is currently too busy
 
 * Use [this reference](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-network-performance?WT.mc_id=pid:13491:sid:32630429/) to assist in standardizing a way to easily and consistently test network latency and bandwidth between two hosts as well as look at the Azure network to help isolate problem points. <br>
-
-### Error 1205: Transaction (Process ID X) was deadlocked on Y
-
-* Use [this reference](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-1205-database-engine-error?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) for assistance in troubleshooting this error. Resources are accessed in conflicting order on separate transactions, causing a deadlock. The system will detect this deadlock and will choose one of the transactions involved as a 'victim' and will issue this message, rolling back the victim's transaction. <br>
 
 ### Error 845: Time-out occurred while waiting for buffer latch type X for page Y, database ID Z.
 
