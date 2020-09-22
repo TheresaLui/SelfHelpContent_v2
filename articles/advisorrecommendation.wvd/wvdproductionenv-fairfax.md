@@ -3,9 +3,9 @@
     description="Ensure production (non-validation) environment to benefit from stable functionality"
     authors="marius"
     ms.author="rdinfra"
-    articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Public"
+    articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, ussec, usnat"
+    cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Production Environment
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "87269ca9-dda6-448e-97ac-c5888b2a2d61",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rdsprodus2.westus2.kusto.windows.net').database('WVD').SubscriptionNeedsProductionEnv",
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').SubscriptionNeedsProductionEnv",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -35,7 +35,7 @@
     "serviceTreeId": "362c0db7-c08b-4471-93ef-c90effc930dd"
   },
   "ingestionClientIdentities": [],
-  "version": 2.0,
+  "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-powershell",
   "description": "Not enough production environments enabled",
   "longDescription": "We have determined that too many of your host pools have Validation Environment enabled. In order for Validation Environments to best serve their purpose, you should have at least one, but never more than half of your host pools in Validation Environment. By having a healthy balance between your host pools with Validation Environment enabled and those with it disabled, you will best be able to utilize the benefits of the multistage deployments that Windows Virtual Desktop offers with certain updates. To fix this issue, open your host pool's properties and select \"No\" next to the \"Validation Environment\" setting.",

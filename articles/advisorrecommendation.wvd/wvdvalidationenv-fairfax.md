@@ -3,9 +3,9 @@
     description="Join validation environment to ensure functionality accross service deployments"
     authors="marius"
     ms.author="rdinfra"
-    articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Public"
+    articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, ussec, usnat"
+    cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Validation Environment
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "ba1f4576-9ace-4fa9-b0d6-311ad9f2f233",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rdsprodus2.westus2.kusto.windows.net').database('WVD').SubscriptionNeedsValidationEnv",
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').SubscriptionNeedsValidationEnv",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -35,7 +35,7 @@
     "serviceTreeId": "362c0db7-c08b-4471-93ef-c90effc930dd"
   },
   "ingestionClientIdentities": [],
-  "version": 2.0,
+  "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-validation-host-pool",
   "description": "No validation environment enabled",
   "longDescription": "We have determined that you do not have a validation environment enabled in current subscription. When creating your host pools, you have selected \"No\" for \"Validation environment\" in the properties tab. Having at least one host pool with a validation environment enabled ensures the business continuity through Windows Virtual Desktop service deployments with early detection of potential issues.",
