@@ -25,5 +25,6 @@ If the `Invoke-HcsSetupWizard` command is failing while validating DNS with mess
 
 ## **Recommended Documents**
 
-* [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)
+- [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)<br>
+- [Chap configuration](https://docs.microsoft.com/azure/storsimple/storsimple-8000-configure-chap)
 
