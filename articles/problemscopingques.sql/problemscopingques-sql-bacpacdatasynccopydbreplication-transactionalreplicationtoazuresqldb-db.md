@@ -1,17 +1,18 @@
 <properties
 	pageTitle="Transactional Replication"
-	description="Scoping questions for Transactional Replication"
+	description="Scoping Question for Transactional Replication"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630458"
 	productPesIds="13491"
-	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
 	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
+	articleId="565e5425-253b-4ea6-8058-85497673007b"
 	ownershipId="AzureData_AzureSQLDB"
 />
-# Transactional Replication
+# Transactional Replication for Azure SQL DB
 ---
+
 {
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
