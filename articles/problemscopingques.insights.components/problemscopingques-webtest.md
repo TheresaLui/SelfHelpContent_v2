@@ -16,13 +16,7 @@
 {
     "resourceRequired": true,
     "title": "Availability Tests",
-    "subscriptionRequired": true,
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Availability Test Troubleshooter",
-        "description": "Our Availability Test Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-    },
     "formElements": [
         {
             "id": "classic_alert_id",
@@ -35,14 +29,15 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of availability tests for this resource",
                     "text": "Unable to get the list of availability tests for this resource"
                 }
-            },
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal, ASC"
+            ],
+            "required": false
         },
         {
             "id": "availability_test_reason",
@@ -77,10 +72,6 @@
                 {
                     "value": "General: Other issues",
                     "text": "General: Other issues"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -168,8 +159,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal, ASC"
+            "required": true
         },
         {
             "id": "problem_description",
