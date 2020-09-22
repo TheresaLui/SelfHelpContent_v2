@@ -17,6 +17,15 @@
 
 # Resolve questions or issues related to space for Azure SQL Database
 
+### **Fastest way to mitigate low or no free space available**
+
+* Increase storage, if service tier allows it.
+* Upgrdae to a service tier that can provide more storage.
+* If you are facing issues due to Tempdb being full, you can do a failover to clear tempdb. 
+
+Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
+<a href="https://docs.microsoft.com/rest/api/sql/databases(failover)/failover">Failover Rest API</a> can be used to easily failover your Azure SQL database to a new node.
+
 ### **Calculating database and objects sizes**
 
 The following query returns the size of your database (in megabytes):
@@ -75,12 +84,21 @@ FROM(SELECT DISTINCT plan_handle, [Database], [Schema], [table]
     JOIN #tmpPlan AS t2 ON t.plan_handle=t2.plan_handle;
 ```
 
-If you are facing issues due to Tempdb being full, and are not able to resolve it, you can do a failover to clear tempdb. 
-Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
+### **Long term mitigations**
 
-<a href="https://docs.microsoft.com/rest/api/sql/databases(failover)/failover">Failover Rest API</a> can be used to easily failover your Azure SQL database to a new node.
+* Analyze if column data types are the right ones for the data they will store
+* Test compressing tables and/or indexes
+* Depending on the workload and service tier, test [Columnstore indexes]( https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver15)
+* If possible export and remove data that is not needed or move to another database, with lower service tier, if the access pattern is low
+
+### **Compression**
+The [data compression]( https://docs.microsoft.com/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) feature help to reduce the size of the database. In addition to saving space, data compression can help improve performance of I/O intensive workloads because the data is stored in fewer pages and queries need to read fewer pages from disk. However, extra CPU resources are required on the database server to compress and decompress the data, while data is exchanged with the application.
+
+### **Alerts**
+Several maintenance and administrative actions performed in a database require some storage for temporary data and for this reason it’s not recommended to allow the storage usage of the database to be very close to the its limits. To prevent your database to be very close to the storage limit is advised to implement [alerts]( https://docs.microsoft.com/azure/azure-sql/database/alerts-insights-configure-portal) or having other ways to monitor the storage usage.
 
 ## **Recommended Documents**
 
-* For further details follow [Troubleshoot TempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues).
+* [Troubleshoot TempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues).
+* [Enable Compression on a Table or Index](https://docs.microsoft.com/sql/relational-databases/data-compression/enable-compression-on-a-table-or-index?view=sql-server-ver15)
 

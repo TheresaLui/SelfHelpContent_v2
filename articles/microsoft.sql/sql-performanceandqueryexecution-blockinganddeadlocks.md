@@ -71,4 +71,5 @@ If you need to customize the events you capture when a deadlock occurs, you can 
 * [Understanding blocking](https://support.microsoft.com/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems)
 * [Deadlocks](https://techcommunity.microsoft.com/t5/azure-database-support-blog/lesson-learned-19-how-to-obtain-the-deadlocks-of-your-azure-sql/ba-p/368847)
 * [Locks](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)
 
