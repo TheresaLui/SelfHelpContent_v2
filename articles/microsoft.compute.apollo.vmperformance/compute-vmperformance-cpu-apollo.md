@@ -21,13 +21,9 @@
 This experience integrates automated checks to detect high CPU consumption in your Virtual Machine and guides you with the troubleshooting steps.
 
 :::Section Recommended Solution:::
-<<<<<<< HEAD
 
-The below chart shows the Virtual Machine CPU usage for the last 24 hours. Click on the chart to customize and update filters.
+The chart below shows the Virtual Machine CPU usage for the last 24 hours. Click on the chart to customize and update filters.
 
-=======
-CPU usage in the past 24 hours
->>>>>>> 3128b7144cca26e380ac6731d0d71f0738058177
 <metric>
     <name>Percentage CPU</name>
     <aggregationType>Avg</aggregationType>
