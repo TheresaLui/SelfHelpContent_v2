@@ -2,7 +2,7 @@
   pagetitle="SQL Server is Slow"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun,v-kiwel"
+  ms.author="v-kiwel,amamun"
   selfhelptype="Generic"
   supporttopicids="32740098"
   resourcetags="windowssql"
@@ -51,5 +51,5 @@ We recommend that you continue using the same database performance [tuning optio
 * [Performance Best practices for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance/)
 * [Storage configuration guidelines for SQL VM](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2018/09/25/storage-configuration-guidelines-for-sql-server-on-azure-vm/)
 * [OS best practice configurations for SQL Server](https://blogs.msdn.microsoft.com/docast/2018/02/01/operating-system-best-practice-configurations-for-sql-server/)
-* [Azure VM Storage performance and throttling demystified](https://blogs.technet.microsoft.com/xiangwu/2017/05/14/azure-vm-storage-performance-and-throttling-demystify/)
-* [Designing for high performance](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)
+* [Understanding Azure Virtual Machine IOPS, throughput and disk latency](https://docs.microsoft.com/archive/blogs/andrewc/understanding-azure-virtual-machine-iops-throughput-and-disk-latency)
+* [Azure premium storage: designing for high performance](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)
