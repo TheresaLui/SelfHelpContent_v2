@@ -8,7 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="problemscopingques-quantum-providers"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 # Error relating to Azure Quantum Providers
 ---
@@ -25,8 +25,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_end_time",
@@ -34,8 +33,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "az_quantum_provider",

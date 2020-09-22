@@ -5,7 +5,7 @@
 	service="microsoft.quantum"
 	resource="workspaces"
 	ms.author="mblouin"
-	displayOrder=""
+	displayOrder="4"
 	articleId="quantum-providernotenabled"
 	diagnosticScenario=""
 	selfHelpType=""
@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 
 # A Provider or Target is not enabled in your Workspace

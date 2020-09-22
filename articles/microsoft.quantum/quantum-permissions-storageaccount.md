@@ -5,7 +5,7 @@
 	service="microsoft.quantum"
 	resource="workspaces"
 	ms.author="mblouin"
-	displayOrder=""
+	displayOrder="2"
 	articleId="quantum-permissions-storageaccount"
 	diagnosticScenario=""
 	selfHelpType=""
@@ -13,14 +13,14 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 
 # Permission denied accessing job input or output data
 
 Job input and output data is stored in an Azure Storage account deployed in the same subscription as your workspace. This storage account is associated with the Quantum Workspace at creation time.
 
-As the storage account remains a separate resource you may experience various types of permission issues tyring to access it.
+As the storage account remains a separate resource you may experience various types of permission issues trying to access it.
 
 
 ## **Recommended Steps**

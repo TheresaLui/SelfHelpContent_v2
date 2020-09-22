@@ -3,12 +3,12 @@
 	description="Scoping questions to capture more details about errors encountered while running jobs in Azure Quantum"
 	ms.author="dasto"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32740178,3270182,32740183,32740185,32740187,32740190,32740191,32740193,32740194"
+	supportTopicIds="32740178,32740182,32740183,32740185,32740187,32740190,32740191,32740193,32740194"
 	productPesIds="17040"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="problemscopingques-quantum-jobs"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 # Error relating to Azure Quantum Jobs
 ---
@@ -25,8 +25,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_end_time",
@@ -34,8 +33,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "az_quantum_job_id",

@@ -5,15 +5,15 @@
 	service="microsoft.quantum"
 	resource="workspaces"
 	ms.author="dasto"
-	displayOrder=""
-	articleId=""
+	displayOrder="6"
+	articleId="quantum-unabletocanceljob"
 	diagnosticScenario=""
 	selfHelpType=""
 	supportTopicIds="32740187,32740178"
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 
 # After cancelling a job it continues to run

@@ -5,7 +5,7 @@
 	service="microsoft.quantum"
 	resource="workspaces"
 	ms.author="mblouin"
-	displayOrder=""
+	displayOrder="1"
 	articleId="quantum-permissions-dataplane"
 	diagnosticScenario=""
 	selfHelpType=""
@@ -13,15 +13,15 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 
 # Performing an operation on the jobs in a workspace yields a 'Permission Denied' (403 Forbidden) error code
 
-Azure Quantum uses RBAC (role based access contorl) to manage access rights for users and entities. You may receive an error if your workspace's permissions are not configured correctly.
+Azure Quantum uses RBAC (role based access control) to manage access rights for users and entities. You may receive an error if your workspace's permissions are not configured correctly.
 
 ## **Recommended Steps**
 
-1. If you are new to RBAC permissions, please start by reviewing the [general RBAC documenation](https://docs.microsoft.com/en-us/azure/role-based-access-control/)
+1. If you are new to RBAC permissions, please start by reviewing the [general RBAC documentation](https://docs.microsoft.com/azure/role-based-access-control/)
 2. Review the **Access control (IAM)** blade of your quantum workspace to see the existing access configuration
 3. Ensure that you have the required permissions to complete the operation that you are trying to carry out

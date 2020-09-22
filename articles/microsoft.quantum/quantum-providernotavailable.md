@@ -5,7 +5,7 @@
 	service="microsoft.quantum"
 	resource="workspaces"
 	ms.author="dasto"
-	displayOrder=""
+	displayOrder="3"
 	articleId="quantum-providernotavailable"
 	diagnosticScenario=""
 	selfHelpType=""
@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId="AzureCompute_AzureQuantum"
+	ownershipId="Azure_Quantum"
 />
 
 # A Provider is not available in a particular region
