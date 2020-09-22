@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="mfa_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d05af26c-effe-4dd8-9914-9047d4f785f4"
+	ownershipId="AzureIdentity_User"
 />
 
 # Troubleshoot the user portal and mobile app web service

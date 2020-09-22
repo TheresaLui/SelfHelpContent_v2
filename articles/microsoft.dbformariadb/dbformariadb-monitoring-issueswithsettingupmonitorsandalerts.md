@@ -10,8 +10,9 @@
     supportTopicIds="32640130"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6f0029a5-2086-461d-b0f6-dfd76741b844"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Issues with setting up monitors and alerts
@@ -33,6 +34,8 @@ Most users are able to resolve their issue using the steps below.
 
   * Familiarize yourself with [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse)
   * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See the [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
+
+* If you are having trouble configuring planned maintenance notification, review [how to enable planned maintenance notification](https://docs.microsoft.com/azure/mariadb/concepts-monitoring#to-receive-planned-maintenance-notification)
 
 ## **Recommended Documents**
 

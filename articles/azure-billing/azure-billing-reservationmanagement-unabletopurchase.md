@@ -1,6 +1,6 @@
 <properties
-	pageTitle="reserved instance- unable to purchase"
-	description="reserved instance- unable to purchase"
+	pageTitle="reserved instance- unable to purchase or questions before purchase"
+	description="reserved instance- unable to purchase or questions before purchase"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,67 +10,57 @@
 	supportTopicIds="32680685"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="reserved instance- unable to purchase"
+	ownershipId="ASMS_Billing"
 />
 
-# reserved instance- unable to purchase
+# Reserved Instance- Unable to purchase or questions before purchase
 
-### **Purchase a Reserved Instance**
+### **Unable to purchase **
 
-* Please access [Reservations](https://portal.azure.com/#create/Microsoft.Reservations) in order to purchase a Reservation. Purchases of RI are only supported under **Pay-As-You-Go** (3P) and **Enterprise Agreement** (17P) offer types.<br>
-* **Note**: You must be in the role **Owner** on the subscription to buy a Reserved Instance. For purchasing reservations in an enterprise enrollment, the enterprise administrator must enable reservation purchases in the EA portal, by default the setting is enabled for all enrollments.<br>
-* Before purchasing, please check if the RI is supported for the region you are purchasing since if capacity is unavailable for a region, you will not be able to purchase RI in that region
-* Reserved Instance for Pay-As-You-Go is **not** available in the following countries: Brazil, India, China, Taiwan, Russia, Korea, Argentina, Hong Kong, Indonesia,  Liechtenstein,  Malaysia, Mexico, Saudi Arabia, South Africa, Turkey.
-* Refer to [Products available by region](https://azure.microsoft.com/global-infrastructure/services/) to learn more
-* If you see a credit card failure, please verify if:
+You can purchase reserved instances from [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/CreateBlade/referrer/Support_Solutions)
 
-	* You have sufficient funds
-	* You are using a valid Payment instrument<br>
-	* Virtual machines purchase experience available [here](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
-	* Determine the VM size for a customer’s Azure reservation [here](https://docs.microsoft.com/partner-center/azure-usage)
-	* SQL purchase experience available [here](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity)
+### **Troubleshoot purchase issues**
 
-### **CSP Purchase Experience**
+Please use following points to troubleshoot if you are running into issues while trying to purchase:
 
-CSP customers can only purchase reservations through their partners. RI can be purchased by Partners from both the Partner Center Portal and Ibiza.
+* You need a **Pay-As-You-Go** (3P) or **Enterprise Agreement** (17P) or Microsoft Customer Agreement subscription to purchase a reserved instance. Other subscriptions such as Azure in Open, Free Trial, MSDN, MPN, etc. **are not** eligible for RI purchase
+* You _must_ have **owner** role on the subscription to buy a Reserved Instance.
+* **Enterprise Agreement** billing admins can restrict the reservation purchase from EA portal. Ask your EA Admin if you’re still not able to purchase a reservation even though above conditions are met. You don’t need your partner to place the order for you.
+* **Country restrictions**: Reserved Instance for Pay-As-You-Go subscriptions (03P) is **not** available in the following countries: Brazil, India, China, Taiwan, Russia, Korea, Argentina, Hong Kong, Indonesia,  Liechtenstein,  Malaysia, Mexico, Saudi Arabia, South Africa, Turkey. Please [up vote this feature request](https://feedback.azure.com/forums/170030-signup-and-billing/suggestions/37898131-make-reserved-instances-available-to-payg-subscrib). Refer [Products available by region](https://azure.microsoft.com/global-infrastructure/services/) to learn more.
+* If you see a **credit card failure**, please verify if You have sufficient funds and you are using a valid payment instrument. Contact your bank if payment is declined.
+* **CSP** customers can only purchase reservations through their partners. Partners can use Partner Center Portal or Azure portal for RI purchase.
 
-### **Create a Reservation**
+### **Questions before purchase**
 
-* Click **Create a resource** or **More Services**
-* Search for Reservations or navigate to **Reserved VM Instances** under the **Compute** category. Click **Create**.
-* Fill in the **Create reservation** template to reserve VMs
-* After all information has been entered, the cost will be automatically calculated. Cost summary will have pre-tax with comparison to original and discounted price.
-* Click **Purchase** to complete the reservation
+* **How is reservation discount applied to existing resources?**<br>
+Reservation benefit automatically applies to existing resources that match the reservation SKU, region and scope. There is no tagging of a reservation to a resource. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/save-compute-costs-reservations#how-reservation-discount-is-applied)
 
-### **Fields needed to create a Reservation**
+* **Which VM size should I buy?**<br>
+Read this article: [Determine the right VM size before you buy](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances?toc=/azure/billing/TOC.json#determine-the-right-vm-size-before-you-buy)
 
-* Name - Friendly name for the Reservation Instance
-* Subscription - This field is used to capture the subscription's PI to purchase Reservations
-* Scope - The target where the VMs will get the benefit of RI
-* Single - Only VMs running in the selected subscription will receive the RI benefit
-* Shared - All the VMs (up to the purchased RI amount) will receive the benefit under the account
-* Location/Region - Region where benefit VMs are deployed
-* VM Size - Size of VMs to receive benefit
-* VM Instance Flexibility - This will apply the Reservation discount to other VM sizes in the same VM group
-* Capacity Priority - This reserves the data center capacity for your deployments
-* Term - Reservation Duration (1 or 3 year)
-* Quantity - Number of VMs that will receive benefit
+* **Questions on how to buy SQL reserved capacity?**<br>
+Read this article: [Buy SQL Database reserved capacity](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity?toc=/azure/billing/TOC.json#buy-sql-database-reserved-capacity)
 
-### **Discounted subscription and offer types**
+* **I am in Indirect EA customer, do I need my partner to purchase?**<br>
+No, you can purchase the RI if you an owner on an EA subscription.
 
-Reservation discounts apply to the following eligible subscriptions and offer types. Resources that run in a subscription with other offer types don't receive the reservation discount.
+* **Does RI purchase deduct from monetary commitment?**<br>
+Yes. If you don’t have enough monetary commitment, you will get an overage invoice for the amount that exceeds the available monetary commitment.
 
-1. Enterprise agreement (offer numbers: MS-AZR-0017P or MS-AZR-0148P)
-2. Individual plans with pay-as-you-go rates (offer numbers: MS-AZR-0003P or MS-AZR-0023P)
-3. CSP subscriptions
+* **How does reserved instance apply to Windows VMs or to my SQL IP costs?**<br>
+The reserved instance discount only applies to the compute usage. Windows IP or SQL IP costs will be charged separately and don’t get RI discount. [Software costs not included with Azure Reserved VM Instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
 
-Learn more on how discount is applied:
+* **Questions on how to buy Reserved VM Instance?**<br>
+Read these article: [Buy a Reserved VM Instance](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances?toc=/azure/billing/TOC.json#buy-a-reserved-vm-instance)<br>
+Buy an instance
 
-  * [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
-  * [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)
-  * [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)
-  * [SUSE Linux](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges)
+  1. Sign in to the [Azure portal](https://portal.azure.com/). Select **All services > Reservations**.
+  2. Select **Add** to purchase a new reservation and then click **Virtual machine**.
+  3. Enter required fields. Running VM instances that match the attributes you select qualify to get the reservation discount. The actual number of your VM instances that get the discount depend on the scope and quantity selected.<br>
+		
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 
 **Buy a service plan:**
 

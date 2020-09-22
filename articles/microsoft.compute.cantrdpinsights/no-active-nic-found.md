@@ -13,7 +13,8 @@
     supportTopicIds="32615525"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # No active network interface cards (NIC) were found in the VM guest OS

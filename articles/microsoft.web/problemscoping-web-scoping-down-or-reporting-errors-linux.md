@@ -7,9 +7,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542218"
 	productPesIds="16170"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="0f5a571f-63b9-46c9-baf3-5a35c15b65b5"
+	ownershipId="Compute_AppService"
 />
 
 # Web App Down or Reporting Errors

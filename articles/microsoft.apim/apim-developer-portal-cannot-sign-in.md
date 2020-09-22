@@ -9,8 +9,9 @@
     supportTopicIds="32632403"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2e6fc318-30dd-471e-b418-4b39f189a9ad"
+	ownershipId="Compute_APIManagement"
 />
 
 # Cannot sign in to Developer portal
@@ -21,6 +22,7 @@ API Management is a way to create consistent and modern API gateways for existin
 
 ## **Recommended Documents**
 
+- [Azure API Management developer portal overview](https://docs.microsoft.com/azure/api-management/api-management-howto-developer-portal)
 - [Capture a Trace for troubleshooting Azure Portal issues](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/)
 - [Authorize developer accounts by using Azure Active Directory in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-aad)
 - [How to authorize developer accounts by using Azure Active Directory B2C in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-aad-b2c)

@@ -10,8 +10,9 @@
     supportTopicIds="32633552, 32633554, 32633556, 32633558, 32633560, 32633562, 32633564, 32633572, 32633574, 32633576, 32633590, 32633592, 32633553, 32633555, 32633557, 32633559, 32633561, 32633563, 32633565, 32633568, 32633573, 32633577, 32633591, 32633593"
     resourceTags=""
     productPesIds="15968"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="8aff36e6-7bc5-4b94-8b08-09c405823da9"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # DevTest Labs Problem Types

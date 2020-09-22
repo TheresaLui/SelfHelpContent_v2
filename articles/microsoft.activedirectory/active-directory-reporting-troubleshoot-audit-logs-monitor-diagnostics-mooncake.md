@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-reporting-troubleshoot-audit-logs-monitor-diagnostics-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I don’t see the Sign-in Data streaming even though I have configured it through Azure Monitor Diagnostics

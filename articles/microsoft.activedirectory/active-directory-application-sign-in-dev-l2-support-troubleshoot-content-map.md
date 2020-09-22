@@ -4,11 +4,13 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="luleon"
+    ms.author="marwa"
     selfHelpType="generic"
     supportTopicIds="32596837"
-    productPesIds="14785,16575"
-    cloudEnvironments="public"
+    productPesIds="16575"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="ed6290d1-1d98-4b89-a084-0fad626e1dcc"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to signing in to applications developed by my company
@@ -19,6 +21,7 @@
 
 The following documents can help you to resolve some of the most common issues in this category.
 
+  * [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
   * [I can't sign in to an custom-developed application](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-custom-dev/?WT.mc_id=UI_AAD_Apps_Sign_In_Support_L1_Dev)
 
 **I can complete Azure AD sign-in, but I'm seeing a prompt that I don't expect**

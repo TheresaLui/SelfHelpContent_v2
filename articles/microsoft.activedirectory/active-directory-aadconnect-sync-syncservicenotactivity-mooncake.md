@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-syncservicenotactivity-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization Service is started but there is no synchronization activity

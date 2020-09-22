@@ -6,8 +6,9 @@
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
-# Use availability sets for improved fault tolerance
+# Use availability sets for   improved fault tolerance
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
@@ -24,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "SIVM",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -37,8 +38,8 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
-  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore",
+  "version": 2.0,
+  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore_cn",
   "description": "Use availability sets for improved fault tolerance",
   "longDescription": "Group two or more virtual machines in an availability set to ensure at least one virtual machine is available during an outage.",
   "potentialBenefits": "Ensure business continuity through virtual machine resilience",
@@ -71,10 +72,6 @@
   "additionalColumns": [],
   "legacyDataLoader": {
     "className": "Microsoft.Azure.Advisor.Common.DataLoaders.VmNotInAvailabilitySetDataParser",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
-  "legacyRecommender": {
-    "className": "Microsoft.Azure.Advisor.Common.Recommenders.VmNotInAvailabilitySetRecommender",
     "assemblyName": "Microsoft.Azure.Advisor.Common"
   }
 }

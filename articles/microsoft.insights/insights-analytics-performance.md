@@ -9,10 +9,11 @@
     articleId="insights_analytics_performance"
     displayOrder="92"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602201"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having performance problems with my Analytics Queries
 
 **Analytics Queries Performance & Failures**<br>

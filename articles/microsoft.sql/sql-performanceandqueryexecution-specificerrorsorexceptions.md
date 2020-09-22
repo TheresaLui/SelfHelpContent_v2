@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="6"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630454"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     resourceTags="servers, databases"
 	articleId="7d57d34f-58d4-4f40-99e2-0dc8e40ab2b4"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # performance and query execution/specific errors or exceptions

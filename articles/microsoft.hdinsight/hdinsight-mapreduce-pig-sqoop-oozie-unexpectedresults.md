@@ -10,8 +10,9 @@
     supportTopicIds="32636477"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-unexpectedresults-mapreduce-pig-oozie-sqoop"
+	ownershipId="AzureData_HDInsight"
 />
 # Troubleshooting unexpected results with MapReduce, Pig, Sqoop or Oozie
 

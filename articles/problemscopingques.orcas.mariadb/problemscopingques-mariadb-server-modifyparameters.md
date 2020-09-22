@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640133"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-server-modify_parameters"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Server Parameters - Modify server parameters
 ---

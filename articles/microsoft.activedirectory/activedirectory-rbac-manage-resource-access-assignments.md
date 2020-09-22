@@ -7,8 +7,9 @@
     displayOrder="2521"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="0dad618e-1a44-47d8-8a8c-2f53ea240177"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to assign access to resources in my directory

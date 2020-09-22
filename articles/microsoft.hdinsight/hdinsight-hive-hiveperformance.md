@@ -10,8 +10,9 @@
   supportTopicIds="32629065"
   resourceTags=""
   productPesIds="15078"
-  cloudEnvironments="public"
-  ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"/>
+  cloudEnvironments="public, Fairfax, usnat, ussec"
+  ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"	ownershipId="AzureData_HDInsight"
+/>
 
 # Hive Performance
 

@@ -6,9 +6,10 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608941"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-backup-restore-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Backup and Restore
 ---

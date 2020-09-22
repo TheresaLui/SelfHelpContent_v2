@@ -10,8 +10,9 @@
     supportTopicIds="32684516"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="b256c701-58a4-42b5-b18c-2ed31cbeae2a"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with Password Hash Synchronization

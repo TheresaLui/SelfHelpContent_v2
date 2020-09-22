@@ -8,10 +8,11 @@
     articleId="insights_usage_blade"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32609669"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having problems with the Application Insights Users, User Flows, Funnels, or other user behavior analytics tools
 
 ## **Recommended steps**

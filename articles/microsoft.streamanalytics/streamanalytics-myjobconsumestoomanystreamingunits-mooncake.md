@@ -10,6 +10,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="6e565303-3332-4605-b296-275d5143c2d8"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # My job consumes too many streaming units

@@ -13,7 +13,8 @@
 	supportTopicIds="32688698"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Update notification settings

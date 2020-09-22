@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="ea02ecbd-3775-4541-8566-5090afc7e728"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # How can I upload a VHD file into a Lab to create a custom image?

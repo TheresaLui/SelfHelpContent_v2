@@ -13,13 +13,14 @@
 	supportTopicIds="31980414"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$startTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->, the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> experienced <!--$FailoverCount-->FailoverCount<!--/$FailoverCount--> reconfiguration(s). The total time of unavailability caused by these reconfiguration(s) was <!--$FailoverTotalSeconds-->FailoverTotalSeconds<!--/$FailoverTotalSeconds--> seconds.
+Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->, the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> experienced <!--$FailoverCount-->FailoverCount<!--/$FailoverCount--> reconfiguration(s). The total time of unavailability caused by these reconfiguration(s) was <!--$FailoverTotalSeconds-->FailoverTotalSeconds<!--/$FailoverTotalSeconds--> seconds.
 
 The Azure infrastructure has the ability to dynamically reconfigure servers for planned operations such as load balancing and updates, or unplanned occurrences such as recoveries from software or hardware issues. In this instance, the reconfiguration was due to unplanned operation(s). Most reconfiguration events take less than 60 seconds to complete.
 <!--/issueDescription-->

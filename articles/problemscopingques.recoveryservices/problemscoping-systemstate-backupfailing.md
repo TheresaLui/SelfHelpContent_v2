@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594866"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="fc35ea46-7f1c-43aa-84bd-c85caf7ed73b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions system state backup failure
 ---

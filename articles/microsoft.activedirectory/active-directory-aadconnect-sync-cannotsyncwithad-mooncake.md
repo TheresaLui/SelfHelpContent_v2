@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-cannotsyncwithad-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization Service cannot import/export changes from on-premises AD

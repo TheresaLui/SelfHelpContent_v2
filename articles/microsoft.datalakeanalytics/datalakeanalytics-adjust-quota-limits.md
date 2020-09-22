@@ -9,9 +9,10 @@
 	selfHelpType="resource"
 	productPesIds="15940"
    	supportTopicIds="32680642"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    	articleId="datalakeanalytics-adjust-quota-limits"
-	/>
+		ownershipId="AzureData_AzureDataLakeAnalytics"
+/>
 
 # Manage Quotas on Azure Data Lake Analytics
 

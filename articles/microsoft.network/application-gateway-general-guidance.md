@@ -9,13 +9,14 @@
     supportTopicIds="32684009"
     resourceTags=""
     productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ba47610e-7271-4f6d-8402-be9dc4160fc4"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - General Guidance or Advisory
 
 ## **Recommended Documents**
 
-* [Tutorial: Deploying an Application Gateway Ingress Controller](https://azure.github.io/application-gateway-kubernetes-ingress/tutorial/)<br>
-* [Troubleshooting Ingress Controller issues](https://azure.github.io/application-gateway-kubernetes-ingress/troubleshooting/)
+* [Expose an AKS service over HTTP/HTTPS](https://docs.microsoft.com/azure/application-gateway/ingress-controller-expose-service-over-http-https)<br>
+* [Troubleshoot Ingress Controller issues](https://docs.microsoft.com/azure/application-gateway/ingress-controller-troubleshoot)

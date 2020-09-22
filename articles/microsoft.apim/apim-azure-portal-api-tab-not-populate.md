@@ -9,8 +9,9 @@
     supportTopicIds="32632393"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="efad2d16-ce84-48c0-beb9-966f23f53472"
+	ownershipId="Compute_APIManagement"
 />
 
 # Azure API Management tab is not populating

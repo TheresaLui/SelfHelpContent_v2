@@ -10,8 +10,9 @@
 		supportTopicIds="32632804"
 		resourceTags=""
 		productPesIds="15207"
-		cloudEnvironments="public"
+		cloudEnvironments="public, fairfax, usnat, ussec"
 		articleId="91077485-46e3-4c9f-a5ae-6d71eae1cf85"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Azure Backup SQL Config failures
 

@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades-upgradetogen2-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Upgrading to Gen2

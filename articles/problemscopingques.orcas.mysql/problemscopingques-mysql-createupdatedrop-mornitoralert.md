@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640071"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-createupdatedrop-mornitor_alert"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Create Update and Drop Resources - Monitoring and alerts
 ---

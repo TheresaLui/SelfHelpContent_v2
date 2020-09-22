@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32688608"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-replication-create_delete"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Replication - Create or delete read replicas
 ---

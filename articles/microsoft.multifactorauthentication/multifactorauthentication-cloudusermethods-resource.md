@@ -9,8 +9,9 @@
   supportTopicIds=""
   resourceTags="mfa_overview"
   productPesIds=""
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b1048d87-19b4-4c0b-b99b-254dbd2c27cb"
+	ownershipId="AzureIdentity_User"
 />
 
 # Troubleshoot your users' authentication issues

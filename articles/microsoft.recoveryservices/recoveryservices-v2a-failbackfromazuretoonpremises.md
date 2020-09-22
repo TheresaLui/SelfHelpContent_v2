@@ -9,8 +9,9 @@
 	supportTopicIds="32536408"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3ba69fe9-aa9b-42cf-a1d2-d24baee92c89"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMware to Azure)/Failback from Azure to on-premises

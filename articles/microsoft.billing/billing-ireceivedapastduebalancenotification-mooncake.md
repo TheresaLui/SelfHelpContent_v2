@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-ireceivedapastduebalancenotification-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # I received a past due balance notification

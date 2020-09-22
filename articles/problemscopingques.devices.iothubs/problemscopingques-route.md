@@ -6,9 +6,10 @@
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32680884,32680885"
   productPesIds="15946"
-  cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+  cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
   schemaVersion="1"
   articleId="53fe32ef-1e90-4ff9-943d-8b55e8abb4bc"
+	ownershipId="AzureIot_IotHub"
 />
 # Routing issues
 ---

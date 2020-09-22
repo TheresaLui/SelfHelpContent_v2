@@ -10,8 +10,9 @@
     supportTopicIds="32614252"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a7a52cc8-66f4-455e-b61f-351306f264d0"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Latency or Throughput Performance

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688875"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="C3E60F52-8476-4DE4-9146-0BE3DC49ECEB"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issues accessing a new storage account
 ---
@@ -18,6 +19,13 @@
     "title": "Storage account access issue",
     "fileAttachmentHint": "",
     "formElements": [
+        {
+            "id": "storage_account_name",
+            "order": 0,
+            "controlType": "textbox",
+            "displayLabel": "Name of storage account with access issue",
+            "required": false
+        },
         {
             "id": "error_message",
             "order": 2,

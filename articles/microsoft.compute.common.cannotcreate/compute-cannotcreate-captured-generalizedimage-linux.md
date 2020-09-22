@@ -10,8 +10,9 @@
 	supportTopicIds="32628259"
 	resourceTags=""
 	productPesIds="15571, 15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4bdc4ff0-cbe2-4886-a8f7-ef6a227b52f9"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I am unable to deploy a captured or generalized image
@@ -38,4 +39,4 @@
 
 * [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-linux)

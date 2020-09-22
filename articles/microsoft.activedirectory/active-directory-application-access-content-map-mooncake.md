@@ -10,6 +10,7 @@
     resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
     displayOrder="47"
     articleId="active-directory-application-access-content-map-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems managing application access and permissions

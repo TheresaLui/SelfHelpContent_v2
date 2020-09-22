@@ -3,15 +3,16 @@
     description="Troubleshooting unexpected increase in resource consumption"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="sunilagarwal"
-    ms.author="sunila"
+    authors="savjani"
+    ms.author="pariks"
     displayOrder="100"
     selfHelpType="generic"
     supportTopicIds="32640096"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="64dc203f-500c-43b0-9096-2114c4910381"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting unexpected increase in resource consumption
@@ -20,8 +21,9 @@ Increase in resource consumption can be a result of an explicit user action or c
 
 ## **Recommended Steps**
 
-* Ensure there are no changes to the pricing-tier of your service that might have triggered it
-* Adjust the pricing-tier commensurate to the increase in the workload
+* Ensure there are no changes to the pricing-tier or compute size of your service that might have triggered it
+* Adjust the pricing-tier or compute size commensurate to the increase in the workload
+* You can increase the IOPS available to your server by scaling up storage. IOPS scale with the size of the provisioned storage in a 3:1 ratio.
 * Check if there are any schema changes, for example was an index dropped
 * Ensure that the statistics are up to date
 

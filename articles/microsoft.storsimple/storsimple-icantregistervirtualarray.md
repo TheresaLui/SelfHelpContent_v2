@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="9000Or1200Series"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8f48e255-7e25-4135-840c-41e11861e7b8"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can't register my virtual array.

@@ -10,8 +10,9 @@
 	supportTopicIds="32581616"
 	resourceTags=""
 	productPesIds="16170,16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="145049d8-255d-4015-9879-1e2300d30baf"
+	ownershipId="Compute_AppService"
 />
 
 # Availability, Performance, and Application Issues/Web app experiencing high memory usage

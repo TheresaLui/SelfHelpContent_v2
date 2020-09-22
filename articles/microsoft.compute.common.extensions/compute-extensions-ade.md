@@ -10,8 +10,9 @@
 	supportTopicIds="32628258"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="904eaea6-a9a3-454b-88c6-46fb04db2640"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Azure Disk Encryption (ADE) extension issue

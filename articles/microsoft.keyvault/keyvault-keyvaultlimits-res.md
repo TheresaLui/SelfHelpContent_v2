@@ -10,8 +10,9 @@
 	supportTopicIds="32596890"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-keyvaultlimits-res"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Key Vault Service Limits

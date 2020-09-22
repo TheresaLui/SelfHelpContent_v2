@@ -13,30 +13,24 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-The authentication/SAML request that you are sending is invalid or missing properties.
-<!--issueDescription-->
+Azure AD doesn’t support the SAML request sent by the application for single sign-on. 
+<!--/issueDescription-->
+
+Some common issues are: 
+  1. Missing required fields in the SAML request 
+   
+  2. SAML request encoded method 
 
 ## **Recommended Steps**
 
-1. Refer to and make note of the SAML request provided at the end of this list under the title **SAML Request Received**
-2. Contact the application vendor and share the following info:
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#not-a-valid-saml-request).
 
-    a. SAML Request from above
-    b. Azure AD Single SignOn [protocol requirements](https://docs.microsoft.com/azure/active-directory/develop/active-directory-single-sign-on-protocol-reference)
+### SAML request sent by you:
 
-Your application should be available for user sign-in once the authentication request contains the required fields.
-
-For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
-
-## **Recommended Documents**
-
-* [Problem SignIn gallery applications](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-federated-sso-gallery)
-
-### SAML Request Received
-
-<!--$SAMLRequestFormatted-->SAMLRequestFormatted<!--/$SAMLRequestFormatted-->
+<!--$SAMLRequestFormatted-->[SAMLRequestFormatted]<!--/$SAMLRequestFormatted-->

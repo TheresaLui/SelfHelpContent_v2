@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635654,32635682,32635686,32635689,32635693,32639661,32635709,32639664,32639663"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32692600,32692594,32692603,32692606,32692607,32725880,32730254,32692602,32725890"
+	productPesIds="17011,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_offers"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Partner Center Offer Issue
 ---
@@ -36,8 +37,34 @@
             "required": false
         },
         {
-            "id": "pc_offer_type",
+            "id": "pc_offer_search",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What type of product are you trying to find?",
+            "watermarkText": "Select product type",
+            "dropdownOptions": [
+                {
+                    "value": "License-based offers",
+                    "text": "License-based offers"
+                },
+                {
+                    "value": "Azure reservations",
+                    "text": "Azure reservations"
+                },
+                {
+                    "value": "Software subscriptions",
+                    "text": "Software subscriptions"
+                },
+                {
+                    "value": "Marketplace offers",
+                    "text": "Marketplace offers"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "pc_offer_type",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What kind of offer is your issue about?",
             "watermarkText": "Select offer type",
@@ -61,9 +88,25 @@
             ],
             "required": false
         },
+	{
+            "id": "pc_customer_country",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the country of the customer you are trying to sell to.",
+            "watermarkText": "Please provide the country of the customer you are trying to sell to",
+            "required": false
+        },
+        {
+            "id": "pc_partner_country",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Please provide your country.",
+            "watermarkText": "Please provide your country",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -72,7 +115,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

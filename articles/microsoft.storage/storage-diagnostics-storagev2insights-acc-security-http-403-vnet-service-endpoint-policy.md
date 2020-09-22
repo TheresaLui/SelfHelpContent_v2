@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Connections to storage account endpoint were blocked due to VNet Service Endpoint Policy rules 
@@ -30,9 +31,9 @@ Sample list of requests were blocked:
 
 There may be additional client IPs for which requests were blocked. To view the complete list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-## **Recommended Steps** 
+## **Recommended Documents**
 
-Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicitly in the policy. 
+Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicitly in the policy.
 Refer below to make the necessary changes:
 
 1. [Virtual network service endpoint policies](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview)

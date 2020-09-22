@@ -10,13 +10,12 @@
     supportTopicIds="32636439"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="70e00cfb-358b-4f9d-9da9-c37d48c5a038"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Managed Identity
-
-Common HDInsight Create failures due to Azure Data Lake Storage Gen2 Issues.
 
 **Permissions issues**
 
@@ -51,3 +50,4 @@ If you are creating a cluster with ADLS Gen2 through Azure CLI, use our [sample 
 
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#use-the-azure-portal)
 * [HDInsight storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)

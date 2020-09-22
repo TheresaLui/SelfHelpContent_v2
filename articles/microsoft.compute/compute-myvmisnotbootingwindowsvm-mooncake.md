@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="compute-myvmisnotbootingwindowsvm-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Windows VM
@@ -46,4 +47,4 @@ If your Windows virtual machine (VM) is not booting and you are unsure of the ca
 ## **Recommended Documents**
 
 * [Review the RDP troubleshooting guide](https://docs.azure.cn/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
-* Access the [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify it is running.
+* Access the [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM and verify it is running.

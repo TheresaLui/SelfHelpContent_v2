@@ -1,7 +1,6 @@
  <properties
     description = "Support topic metadata for <Product Name>"
     pageTitle = "Support topic metadata for <Product Name>"
-    authors = "<microsoft alias>"
     ms.author = "<Git username>"
     icmTeam="<icmteam>" 
     icmService="<icmservice>"
@@ -10,6 +9,7 @@
     selfHelpType = "supportTopicDescription"
     articleId = "<product name>-supporttopicdescription"
     cloudEnvironments = "public,BlackForest, Fairfax, MoonCake" 
+     ownershipId=""
     />
 
 # Support topic description for Azure Backup

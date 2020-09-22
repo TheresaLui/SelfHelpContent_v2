@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure plan customer migration"
-	description="Azure plan customer migration"
+	pageTitle="Transition your customers to Azure plan"
+	description="Transition your customers to Azure plan"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -10,14 +10,15 @@
 	articleId="azure_plan_customer_migration"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32684681"
+	supportTopicIds="32725899"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
-# Azure plan customer migration
+# Transition your customers to Azure plan
 
 Resources for transitioning your customers to Azure plan.
 

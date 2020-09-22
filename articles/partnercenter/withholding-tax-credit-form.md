@@ -4,32 +4,39 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
-	authors="LauraBrenner"
-	ms.author="labrenne"
+	authors="brentserbus"
+	ms.author="brserbus"
 	displayOrder=""
 	articleId="partnercenter_withholding tax credit form"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32641059"
+	supportTopicIds="32692610"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 
 # Make sure you are credited for withholding tax
 
-You need to include your withholding tax credit form and a digital copy of your Withholding Tax Certificate with the support request.
+IMPORTANT: Tax withholding should no longer be submitted using support requests, but instead through the new tax withholding submission process highlighted below.
+
+Completed requests will be reflected in the billing page's **Last payment** column next to the invoices submission. There is no need to log a service request unless **10 days have passed since completion**. 
 
 ## **Recommended Steps**
 
-- Download and complete the appropriate tax credit form: For [Germany](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE305Lo)and [All other countries](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE30311)
-- Ensure the form includes the WHT Certificate number you are attaching to your request. Also ensure the form includes your name and address, that Microsoft Corporation or Microsoft is completely spelled out (the terms MSFT, MS Corp or other variations are not acceptable), and the form is signed and dated accurately. 
-- Accurately record the proper withholding tax amount % based on your local tax authority information
-- Be sure the total amount on the tax credit form matches the totals from the invoices you are submitting
-- Once you have this information ready, create the service request and be sure to attach the withholding tax credit form and your Withholding Tax Certificate
+- Ensure you have the tax certificate you want to be credited for in electronic form. More about tax certificates can be found in the [tax withholding credit documentation](https://docs.microsoft.com/partner-center/withholding-tax-credit-form). Attached tax certificate files must be one of the following file formats: .PDF and Image only (.JPEG, .PNG and .GIF). In addition, files names should not contain spaces or special characters.
+- Go to the Partner Center, sign in, and navigate to the billing page
+- On the billing page locate the invoice you seek to be credited for. Next to the invoice you will see a "Tax Withholding" column with a "Submit new" option.
+- Click "Submit new". This will take you to a form where you will provide the total amount you seek credit for that particular invoice. You will also need to attach the tax certificate from your local tax authority.
+- Once you have provided the tax withholding total and have attached the tax certificate, submit the form
+- This will create a tax withholding request. When you navigate back to the billing page you should see the submission ID with the current status.
+- Request status will be set to "needs partner attention" if corrections to the request needs to be made and resubmitted
+- Completed request amounts will be viewable in the **Billing page** next to the invoice under **Last payment**
 
 ## **Recommended Documents**
 
-* [Make sure you are credited for withholding tax](https://docs.microsoft.com/partner-center/withholding-tax-credit-form)
-
+* [New tax withholding credit request documentation](https://docs.microsoft.com/partner-center/withholding-tax-credit-form)
+* [When will completed requests show up in billing?](https://docs.microsoft.com/partner-center/withholding-tax-credit-form#approved-requests)
+* [How to get help with tax withholding requests](https://docs.microsoft.com/partner-center/withholding-tax-credit-form#questions-and-assistance-for-tax-withholding-requests)

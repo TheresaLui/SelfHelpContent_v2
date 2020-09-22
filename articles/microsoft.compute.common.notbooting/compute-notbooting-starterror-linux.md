@@ -10,8 +10,9 @@
     supportTopicIds="32675598"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="320e1896-15ca-4421-ba3b-5a7644ac7e00"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is not starting

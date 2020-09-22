@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Master target server is unable to communicate with configuration server"
-    description="Master target server is unable to communicate with configuration server"
+    pageTitle="Replication is not progressing with no heartbeat from Master Target"
+    description="Replication status is critical because ASR agent on Master Target is not able to connect to Configuration Server."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"
-    ms.author="ramamill"
+    ms.author="aaronmax"
     displayOrder=""
     articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromMasterTarget"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
@@ -13,21 +13,21 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
-# Master target server is unable to communicate with Configuration Server
+# Replication is not progressing with no heartbeat from Master Target
+
 <!--issueDescription-->
-For healthy DR operations, connectivity is necessary between all Site Recovery components. Master target server is unable to communicate with configuration server.
+Replication status is critical because agent on Master Target is not able to connect to Configuration Server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Verify that the master target server is up and running
-- Login to master target server as an administrator and restart the Svagents (InMage Scout VX Agent) service
-- If the issue persists, check the log at `C:\ProgramData\ASR\agent\svagents*log` for error details
+Verify the heartbeat from Master Target. To do that, follow these steps:
 
-## **Recommended Documents**
-
-- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
-- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future
+1. Verify the Master Target machine is up and running
+2. Login to Master Target with administrator privileges
+3. Verify that the service **svagents** is running, then start or restart the service
+4. On the Master Target, check the following log for any errors in "C:\\ProgramData\\ASR\\agent\\svagents*log"

@@ -11,12 +11,15 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32640605"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Session affinity issues with Application Gateway
 
 ## **Recommended Steps**
+
+4 out of 5 customers resolved their session affinity issue using the steps listed below.
 
 - Check whether cookie-based session affinity has been enabled. You can enable cookie-based session affinity by enabling the **Cookie based affinity** switch in the [HTTP Settings](https://docs.microsoft.com/azure/application-gateway/configuration-overview#http-settings) associated with the required backend pool. 
 - Check whether your application can handle cookie-based affinity. If the backend application cannot handle cookie-based affinity, then Application Gateway will not be able to support session affinity. This is because the Application Gateway can perform session affinity only by using a cookie. As a workaround, you can consider using an external or internal azure load balancer or another third-party solution.
@@ -27,3 +30,4 @@
 ## **Recommended Documents**
 
 * [Troubleshoot session affinity issues with Application Gateway](https://docs.microsoft.com/azure/application-gateway/how-to-troubleshoot-application-gateway-session-affinity-issues)
+* [Cookie based session affinity overview in Application Gateway](https://docs.microsoft.com/azure/application-gateway/configuration-overview#cookie-based-affinity)

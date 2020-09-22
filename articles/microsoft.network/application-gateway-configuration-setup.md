@@ -9,14 +9,15 @@
     supportTopicIds="32684007"
     resourceTags=""
     productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5493db87-216a-459c-9abd-9d2d22d446e6"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - Configuration and Setup
 
 ## **Recommended Documents**
 
-* [Supported Annotations and their Usages](https://azure.github.io/application-gateway-kubernetes-ingress/annotations/)<br>
-* [How to Support Multiple Namespaces](https://azure.github.io/application-gateway-kubernetes-ingress/features/multiple-namespaces/)<br>
-* [How to Use Private IPs for Internal Routing](https://azure.github.io/application-gateway-kubernetes-ingress/features/private-ip/)
+* [Supported Ingress Controller annotations and their usages](https://docs.microsoft.com/azure/application-gateway/ingress-controller-annotations)<br>
+* [Enable multiple namespace support](https://docs.microsoft.com/azure/application-gateway/ingress-controller-multiple-namespace-support)<br>
+* [Use private IPs for internal routing](https://docs.microsoft.com/azure/application-gateway/ingress-controller-private-ip)

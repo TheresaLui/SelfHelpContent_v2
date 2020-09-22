@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570979,32570976,32586796" 
 	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
     articleId="cfb77bcc-9d23-4a17-8235-0bdbeede9949"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # AAD Connect synchronization problem for a specific object 
 ---

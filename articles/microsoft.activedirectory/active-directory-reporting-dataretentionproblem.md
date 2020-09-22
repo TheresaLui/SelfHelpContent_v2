@@ -9,8 +9,9 @@
     supportTopicIds="32615420"
     resourceTags=""
     productPesIds="16577"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="a40d541e-9d19-46f9-8481-e23aa19df415"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Azure AD sign-in Logs

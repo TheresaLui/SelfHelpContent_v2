@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-syncservicecannotstart-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Cannot start Azure AD Connect Synchronization Service

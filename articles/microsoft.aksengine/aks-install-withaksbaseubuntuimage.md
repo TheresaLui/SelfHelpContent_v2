@@ -10,8 +10,9 @@
     supportTopicIds="32689846"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-withaksbaseubuntuimage"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues with AKS Base Ubuntu Image

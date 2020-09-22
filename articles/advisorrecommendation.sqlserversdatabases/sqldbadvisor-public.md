@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="a1f91337-c953-4791-9517-f170de60bf35_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="CloudES_AzureAdvisor"
 />
 # Follow SQL DB Advisor recommendations
 ---
@@ -21,7 +22,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/servers/databases",
   "recommendationFriendlyName": "SQLDBAdvisor",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

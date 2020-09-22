@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d5d92d3f-4dad-4d61-8547-d3e6f54d3150"
+	ownershipId="ASMS_Billing"
 />
 
 # Why does Cost Management have different numbers than my invoice?

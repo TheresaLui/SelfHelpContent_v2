@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636931"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-asm-api-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Deprecation of ASM APIs
 ---

@@ -10,8 +10,9 @@
 	supportTopicIds="32630464"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ba95a7ee-322a-44fa-9968-88e6f0bbf5c2"
+	ownershipId="Compute_AppService"
 />
 
 # Deploying Function Apps/Deploy from GIT repo

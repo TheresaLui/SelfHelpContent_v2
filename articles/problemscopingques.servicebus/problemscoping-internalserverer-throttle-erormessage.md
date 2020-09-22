@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633399,32633408"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-internal-server-error"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Internal Server Error Messages
 ---

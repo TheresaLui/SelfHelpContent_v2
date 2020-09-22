@@ -13,7 +13,8 @@
     supportTopicIds="" 
     resourceTags="datawarehouse" 
     productPesIds="" 
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
+	ownershipId="AzureData_AzureSQLDB"
 /> 
 # We ran diagnostics on your resource and found an issue 
 

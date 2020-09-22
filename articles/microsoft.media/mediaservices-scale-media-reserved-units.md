@@ -12,7 +12,8 @@
 	supportTopicIds="32632090"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Need to scale Media Reserved Units

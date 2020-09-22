@@ -9,8 +9,9 @@
 	supportTopicIds="32680885,32680884"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="8bb9a0cc-e06a-4e76-bca5-3e703c4ab16a"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with IoT Hub routing
@@ -25,6 +26,10 @@
 	* Use *Routing: message latency for Event Hub* to see the latency for routing to Event Hub endpoints
 
 1. [Turn on logs for routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health) to see if rules evaluate to "undefined", if there are any errors from an endpoint, etc.
+
+**Not receiving any messages?**
+
+Your messages might be getting lost due to the fallback route being disabled. Try **Enable** the fallback route in [**Message routing**](data-blade:Microsoft_Azure_IotHub.RoutingBlade.resourceId.$resourceId).
 
 **Having trouble applying query on the message body?**
 

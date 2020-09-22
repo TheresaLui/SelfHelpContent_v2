@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615392"
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-aadb2bleavingissue"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 # Problem with leaving an organization
 ---

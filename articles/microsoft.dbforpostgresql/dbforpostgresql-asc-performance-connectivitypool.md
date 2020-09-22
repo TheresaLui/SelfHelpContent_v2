@@ -10,10 +10,11 @@
     articleId="dbforpostgresql-asc-performance-connectivitypool"
     diagnosticScenario="OrcasPostgresConnectionPool"
     selfHelpType="rca"
-    supportTopicIds="32640027"
+    supportTopicIds="32639985,32639986,32639987,32640019,32640025,32640026,32640027"
     resourceTags="windows, linux"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # High percentage of short-lived connections

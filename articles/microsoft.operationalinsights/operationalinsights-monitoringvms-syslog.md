@@ -10,8 +10,9 @@
     supportTopicIds="32633008"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="f007d6a8-45ed-46d5-a7bb-a543d07d7393"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Monitoring VMs: Syslog Problems related to Performance Counters on Windows or Linux

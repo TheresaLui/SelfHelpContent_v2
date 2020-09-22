@@ -9,8 +9,9 @@
     supportTopicIds="32632433"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="4752ce4c-2aef-4ffa-a540-3229c3fb2cd5"
+	ownershipId="Compute_APIManagement"
 />
 
 # Service is down or outage

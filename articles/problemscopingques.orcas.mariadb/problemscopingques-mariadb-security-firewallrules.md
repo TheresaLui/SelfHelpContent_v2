@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640122"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-security-firewall_rules"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Security - Firewall rules
 ---

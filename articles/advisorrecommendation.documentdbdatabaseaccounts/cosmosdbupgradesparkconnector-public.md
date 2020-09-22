@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="c38d8bf8-d7a7-4480-ad49-15e52bf4481a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Spark Connector to the latest version from Maven
 ---
@@ -22,16 +23,16 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDbUpgradeSparkConnector",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://adspartner/CosmosDb",
+      "service": "Azure Cosmos DB",
+      "team": "Supportability"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "ingestionClientIdentities": [
     "a4d5ef1d-aaa3-4f6c-a320-d928ebd4cf08"

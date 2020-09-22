@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="50f999b7-9c52-406e-85a5-e306291fd10d"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Update NSG on Gateway subnet
@@ -21,6 +22,7 @@
 * To resolve this issue, add the GatewayManager tag on the subnet
 * This will apply the necessary NSG rules to allow traffic
 * Alternatively, you may remove the NSG from the Gateway subnet to isolate the issue.
+* If the steps above did not resolve the issue, please restart the TSG and select the "VPN doesnt connect" path
 
 ## **Recommended Documents**
 

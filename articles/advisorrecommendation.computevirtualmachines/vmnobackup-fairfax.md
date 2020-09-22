@@ -6,6 +6,7 @@
     articleId="af0be9f8-e590-48d0-9e19-380d8819b8dc_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Enable virtual machine backup to protect your data from corruption and accidental deletion
 ---
@@ -37,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/aa_vmbackup_learnmore",
   "description": "Enable virtual machine backup to protect your data from corruption and accidental deletion",
   "longDescription": "Configure virtual machine backup to protect your mission critical data against accidental deletion or corruption.",
@@ -48,7 +49,15 @@
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_RecoveryServices",
       "bladeName": "EnableBackupCommonBlade",
-      "description": "Enable virtual machine backup"
+      "description": "Enable virtual machine backup",
+      "metadata": {
+        "backupManagementType": "AzureIaasVM",
+        "properties": {
+          "vmLocation": "{location}"
+        },
+        "resourceId": "{resourceId}",
+        "workLoadType": "VM"
+      }
     }
   ],
   "resourceMetadata": {
@@ -66,10 +75,6 @@
   "additionalColumns": [],
   "legacyDataLoader": {
     "className": "Microsoft.Azure.Advisor.Common.DataLoaders.VmNoBackupResourceDataParser",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
-  "legacyRecommender": {
-    "className": "Microsoft.Azure.Advisor.Common.Recommenders.VmNoBackupRecommender2",
     "assemblyName": "Microsoft.Azure.Advisor.Common"
   },
   "tip": "You can enable virtual machine backup to protect your data from corruption or accidental deletion."

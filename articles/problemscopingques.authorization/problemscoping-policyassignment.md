@@ -7,14 +7,15 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636046,32636050"
+    supportTopicIds="32739632,32739634,32739635"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="1d0baad2-c201-4369-9513-233dfa2b6b6b"
     schemaVersion="1"
+    ownershipId="Compute_AzurePolicy"
 />
-#Policy behavior not as expected
+# Policy behavior not as expected
 ---
 {
     "subscriptionRequired": true,
@@ -30,12 +31,12 @@
             "required": true
         },
         {
-            "id": "policyDefinition",
+            "id": "customPolicyDefinition",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Please provide the policy definition",
+            "displayLabel": "Please select the policy definition (if it's a custom policy)",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-01-01",
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'custom'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
                 "textTemplate": "{properties.displayName}  ({name})",
@@ -52,13 +53,38 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
+        },
+        {
+            "id": "builtinPolicyDefinition",
+            "order": 30,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the policy definition (if it's a builtin policy)",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'builtin'",
+                "jTokenPath": "value",
+                "textProperty": "properties.displayName,name",
+                "textTemplate": "{properties.displayName}  ({name})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "NoPolicyDefinition",
+                    "text": "Unable to retrieve list of policy definition"
+                }
+            ],
+            "required": false
         },
         {
             "id": "policyAssignment",
-            "order": 30,
+            "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "Please provide the policy assignment",
+            "displayLabel": "Please select the policy assignment",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
                 "jTokenPath": "value",
@@ -81,7 +107,7 @@
         },
         {
             "id": "problem_description",
-            "order": 40,
+            "order": 50,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",

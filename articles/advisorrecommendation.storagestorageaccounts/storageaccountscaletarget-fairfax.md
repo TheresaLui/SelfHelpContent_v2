@@ -6,6 +6,7 @@
     articleId="a0ad4f8c-f904-4b11-955d-e0044473c5fa_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Prevent hitting subscription limit for maximum storage accounts
 ---
@@ -18,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "azurestorage.data.storageadvisoraccountscaletargetfairfax",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "2.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",

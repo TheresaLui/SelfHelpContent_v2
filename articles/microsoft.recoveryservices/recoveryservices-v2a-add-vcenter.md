@@ -9,8 +9,9 @@
 	supportTopicIds="32536387"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b34ac288-1889-4b92-8801-21c3fc6b30a9"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMware to Azure)/Add vCenter

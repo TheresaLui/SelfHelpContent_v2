@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="activedirectory-aadconnect-sync-aadconnectsetup-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to set up Azure AD Connect sync

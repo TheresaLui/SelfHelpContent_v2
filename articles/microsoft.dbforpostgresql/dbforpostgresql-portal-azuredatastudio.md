@@ -9,10 +9,11 @@
     selfHelpType="generic"
     supportTopicIds="32639970"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6fcc25a7-fe2b-4582-b4b0-9923c49c4160"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Azure Data Studio
 

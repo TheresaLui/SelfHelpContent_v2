@@ -7,11 +7,12 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411820"
+	supportTopicIds="32411820,32742339"
 	resourceTags=""
 	productPesIds="15571,16470,16454,15797"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5ed58ce6-9e16-4899-bdfe-73874c7bbd57"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Management/Manage an instance of SQL Server
