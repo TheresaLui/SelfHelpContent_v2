@@ -56,6 +56,11 @@ Most users are able to resolve their issue using the steps below.
 * Azure CLI: use the corresponding delete command (`az mysql server delete` or `az mysql flexible-server delete`) with valid values
 * REST API: use the `DELETE` operation with valid values
 
+*Issues with stopping a server*
+
+* Check if the server is a primary server to a replica or a replica server. You cannot stop the servers which are part of a [replication topology](https://docs.microsoft.com/azure/mysql/concepts-servers#limitations-of-stopstart-operation)
+* When the MySQL server is in the stop state, you are only billed for storage being used.
+
 ## **Recommended Documents**
 
 * [Azure Database for MySQL overview](https://docs.microsoft.com/azure/mysql/overview)<br>
