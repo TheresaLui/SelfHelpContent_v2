@@ -70,6 +70,11 @@ Are you facing one of these common problems?
 
 	See the [hardware](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#hardware) that we use to run Microsoft-hosted agents. We **cannot** honor requests for bigger machines. Please use [self-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/agents?view=azure-devops) or [scale-set agents](https://docs.microsoft.com/azure/devops/pipelines/agents/scale-set-agents?view=azure-devops#security).
 
+* I get an error "We stopped hearing from agent Azure Pipelines 2. Verify the agent machine is running and has a healthy network connection."
+
+	- You may be running builds that are intensive in CPU or memory usage. When the resources on the machine are starved, it is possible for the agent to disconnect from the service. Try running these builds on self-hosted agents with more powerful hardware.
+	- You may have exceeded the timeout limit of 60 minutes (free tier) or 6 hours (paid tier or public projects). See the topic on [timeouts](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml#timeouts).
+
 * I still have a problem with Microsoft-hosted agents:
 
 	- [Hardware](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#hardware), [Software](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software), and [Networking](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#agent-ip-ranges) of Microsoft-hosted agents

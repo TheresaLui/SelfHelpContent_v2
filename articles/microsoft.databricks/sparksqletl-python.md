@@ -19,6 +19,7 @@
 
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [How to: Run SQL Queries from Python Scripts](https://docs.microsoft.com/azure/databricks/kb/python/sql-in-python)
 * [Reading Large DBFS-Mounted Files Using Python APIs](https://docs.microsoft.com/azure/databricks/kb/python/dbfs-file-size-limit)
 * [How to: Create Table DDLs to Import into an External Metastore](https://docs.microsoft.com/azure/databricks/kb/metastore/create-table-ddl-for-metastore)

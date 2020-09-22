@@ -26,18 +26,15 @@ Using a high percentage of network writes could cause client requests to time ou
 This could lead to slower responses and timeouts on the client applications. 
 <!--/issueDescription-->
 
-**What can cause high networking usage on Azure Cache for Redis?**
+**What can cause high networking usage on an Azure Cache for Redis resource?**
 
-* The load pattern is network intensive, in which case the consistent spikes are expected.
+* The load pattern is network intensive, in which case the consistent spikes are expected
 
 ## **Recommended Steps**
 
 * Review usage patterns for requests and connections. Avoid creating and closing connections frequently.
-* [Create alerts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-monitor#alerts) on metrics like cache read or cache write to be notified early about potential impacts.
-
-
-**If its expected due to the kind of data or user pattern, then its recommended resize to higher Azure Cache for Redis SKU**. You can read more about different [service offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/) and decide on which one best suits your workload.
-
+* [Create alerts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-monitor#alerts) on metrics like cache read or cache write to be notified early about potential impacts
+**If it's expected due to the kind of data or user pattern, then it's recommended resize to higher Azure Cache for Redis SKU**. You can read more about different [service offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/) and decide on which one best suits your workload.
 
 ## **Recommended Documents**
 

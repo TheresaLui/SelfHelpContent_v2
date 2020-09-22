@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Server parameter not listed"
-    description="Server parameter not listed"
+    pageTitle="I cannot modify server parameter"
+    description="I cannot modify server parameter"
     service="microsoft.dbformysql"
     resource="flexibleServers"
     authors="ambhatna"
@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Server parameter not listed
+# I cannot modify server parameter
 
 Azure Database for MySQL Flexible Server allows you to configure parameters at a server level using the Azure portal or the Azure CLI. To review the list of parameters, navigate to the **Server parameters** window in the Azure portal.
 
