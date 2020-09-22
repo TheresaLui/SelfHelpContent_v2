@@ -27,7 +27,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Servers can be created using the following:
   * Azure portal: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal)
-  * Azure CLI: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli) | [Flexible server](https://docs.microsoft.com/azure/flexible-server/quickstart-create-server-cli)
+  * Azure CLI: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-cli)
   * ARM template: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-arm-template?tabs=azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-arm-template)
   * [REST API](https://docs.microsoft.com/rest/api/mysql/)
 * If your server create operation is failing, make sure the server name is globally unique
