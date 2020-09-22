@@ -14,6 +14,7 @@
 # Issue while investigating or configuring Availability tests
 ---
 {
+    "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Issue while investigating or configuring Availability tests",
@@ -24,7 +25,8 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "classic_alert_id",
@@ -42,7 +44,8 @@
                 "value": "dont_know_answer",
                 "text": "Unable to get the list of availability tests for this resource"
             }
-          }
+          },
+        "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "notification_type",
