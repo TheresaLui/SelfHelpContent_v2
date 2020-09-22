@@ -25,27 +25,31 @@ Most users are able to resolve their issue using the steps below.
 
 *Issues with creating a server*
 
-* Servers can be created using the following:
-  * Azure portal: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal)
-  * Azure CLI: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-cli)
-  * ARM template: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-arm-template?tabs=azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-arm-template)
-  * [REST API](https://docs.microsoft.com/rest/api/mysql/)
+Servers can be created using the following:
+
+* Azure portal: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal)
+* Azure CLI: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-cli)
+* ARM template: [Single server](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-arm-template?tabs=azure-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-arm-template)
+* [REST API](https://docs.microsoft.com/rest/api/mysql/)
 * If your server create operation is failing, make sure the server name is globally unique
 * If you are experiencing issues with creating your server using the Azure CLI:
 
   * Make sure you are signed-in to the correct using `az login`
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters for the corresponding create command (`az mysql server create` or `az mysql flexible-server create`). Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
+
 * MySQL versions supported:
-  * Single server: 5.6, 5.7, 8.0
-  * Flexible server: 5.7
+
+	* Single server: 5.6, 5.7, 8.0
+	* Flexible server: 5.7
 
 *Issues with updating a server*
 
-* Once your server is created, you can scale the compute and storage resources using the below:
-  * Azure portal: use the single server "Pricing tiers" or flexible server "Compute + storage" page to scale your resources
-  * Azure CLI: use the corresponding update command (`az mysql server update`or `az mysql flexible-server update`) with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for more info.
-  * REST API: use the `PATCH` operation  with valid values. Consult the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) for more.
+Once your server is created, you can scale the compute and storage resources using the below:
+
+* Azure portal: use the single server "Pricing tiers" or flexible server "Compute + storage" page to scale your resources
+* Azure CLI: use the corresponding update command (`az mysql server update`or `az mysql flexible-server update`) with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for more info.
+* REST API: use the `PATCH` operation  with valid values. Consult the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) for more.
 * In single server, minor and major version upgrades aren't supported. For example, upgrading from MySQL 5.6 to MySQL 5.7 isn't supported. If you'd like to upgrade from 5.6 to 5.7, take a [dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore) it to a server that was created with the new MySQL version.
 * The [mysql system database](https://dev.mysql.com/doc/refman/5.7/en/system-schema.html) is read-only and is used to support various PaaS functionality. You cannot change anything in the `mysql` system database.
 
@@ -58,8 +62,8 @@ Most users are able to resolve their issue using the steps below.
 
 *Issues with stopping a server*
 
-* Check if the server is a primary server to a replica or a replica server. You cannot stop the servers which are part of a [replication topology](https://docs.microsoft.com/azure/mysql/concepts-servers#limitations-of-stopstart-operation)
-* When the MySQL server is in the stop state, you are only billed for storage being used.
+* Check if the server is a primary server to a replica or a replica server. You cannot stop the servers which are part of a [replication topology](https://docs.microsoft.com/azure/mysql/concepts-servers#limitations-of-stopstart-operation).
+* When the MySQL server is in the stop state, you are only billed for storage being used
 
 ## **Recommended Documents**
 
