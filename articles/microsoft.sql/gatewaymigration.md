@@ -25,15 +25,14 @@ As part of Azure infrastructure improvements, we upgraded some of our clusters t
 <!--/issueDescription-->
 
 If you are experiencing connectivity issues, it could be related to this migration. Please ensure that:
-1. You have updated any outgoing firewall rules (on your client machine and/or network) to include the newer IP addresses using this [table](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture#gateway-ip-addresses).
 
-2. You have updated your Network Security Groups (NSGs) to include the newer IP address  using this [table](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture#gateway-ip-addresses), if you are using Microsoft.SQL as a Service Endpoint.
+1. You have updated any outgoing firewall rules (on your client machine and/or network) to include the newer IP addresses using this [table](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture#gateway-ip-addresses)
+2. You have updated your Network Security Groups (NSGs) to include the newer IP address using this [table](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture#gateway-ip-addresses), if you are using Microsoft.SQL as a Service Endpoint
 
 ## **Recommended Steps**
 
-1. Ensure that you do not have any hard-coded IP addresses in your outgoing firewall rules or any other outbound network restrictions in your environment.
-
-2. Ensure to include the newer IP addresses to your NSGs, as per the documentation below.
+1. Ensure that you do not have any hard-coded IP addresses in your outgoing firewall rules or any other outbound network restrictions in your environment
+2. Ensure to include the newer IP addresses to your NSGs, as per the documentation below
 
 ## **Recommended Documents**
 
