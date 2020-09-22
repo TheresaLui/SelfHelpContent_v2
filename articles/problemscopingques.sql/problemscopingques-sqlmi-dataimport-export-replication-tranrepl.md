@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Transactional Replication to Azure SQL DB"
-	description="Scoping questions to capture more details about errors\issues encountered while Transactional Replication to Azure SQL DB"
+	pageTitle="Transactional Replication"
+	description="Scoping questions to capture more details about issues while performing Transactional Replication"
 	authors="sojaga"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630458"
-	productPesIds="13491"
+	supportTopicIds="32637312"
+	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
-	ownershipId="AzureData_AzureSQLDB"
+	articleId="46af1285-efbf-47f6-8d55-d4cdcb1ad1f6"
+	ownershipId="AzureData_AzureSQLMI"
 />
-# Transactional Replication to Azure SQL DB
+# Transactional Replication setup or configuration
 ---
 {
-	"$schema": "SelfHelpContent",
-	"resourceRequired": false,
-	"subscriptionRequired": false,
-	"formElements": [
+    "$schema": "SelfHelpContent",
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "formElements": [
         {
 			"id": "problem_start_time",
 			"order": 1,
@@ -49,7 +49,7 @@
 				},
 				{
 					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
+					"value": "Dont_know_answer"
 				}
 			]
 		}, {
@@ -70,7 +70,7 @@
 				},
 				{
 					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
+					"value": "Dont_know_answer"
 				}
 			]
 		}, {
@@ -95,7 +95,7 @@
 				},
 				{
 					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
+					"value": "Dont_know_answer"
 				}
 			]
 		},
