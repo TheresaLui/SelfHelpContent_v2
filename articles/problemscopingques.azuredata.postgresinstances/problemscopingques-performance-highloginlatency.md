@@ -26,26 +26,8 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "reproducible",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Is the problem reproducible or not?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Issue can be reproduced/Issue is live",
-					"text": "Issue can be reproduced/Issue is live"
-				}, {
-					"value": "Issue is transient",
-					"text": "Issue is transient"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": true
-		}, {
 			"id": "arcenvironment",
-			"order": 3,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Is this issue happening only in an Azure Arc Environment?",
 			"watermarkText": "Choose an option",
@@ -63,7 +45,7 @@
 			"required": true
 		}, {
 			"id": "servergroup_config",
-			"order": 4,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Where is your client located relative to your database server?",
 			"watermarkText": "Choose an option",
@@ -84,10 +66,10 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "connection_pooling",
-			"order": 5,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Do you have connection pooling enabled?",
 			"watermarkText": "Choose an option",
@@ -102,10 +84,10 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "point_of_comparison",
-			"order": 6,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "What is your point of comparison?",
 			"watermarkText": "Choose an option",
@@ -128,20 +110,14 @@
 			],
 			"required": false
 		}, {
-			"id": "tool_used",
-			"order": 7,
-			"controlType": "textbox",
-			"displayLabel": "What tool are you using to measure your performance?",
-            "required": false
-		}, {
 			"id": "concurrent_connections",
-			"order": 8,
+			"order": 6,
 			"controlType": "textbox",
 			"displayLabel": "How many concurrent connections are established on your database server approximatively?",
             "required": false
 		}, {
 			"id": "problem_description",
-            "order": 9,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",

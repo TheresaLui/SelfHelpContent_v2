@@ -44,5 +44,5 @@ When a server is dropped, the operation cascades to the backups shortly after th
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
+* Azure Database for MySQL business continuity overview for [Single server](https://docs.microsoft.com/azure/mysql/concepts-business-continuity) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-servers/concepts-business-continuity)
 * [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)

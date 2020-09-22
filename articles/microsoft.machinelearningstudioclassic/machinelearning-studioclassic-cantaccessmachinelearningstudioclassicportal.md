@@ -22,6 +22,8 @@ The permission control of Studio (classic) workspace is different from Azure. If
 
 Make sure that you are invited to a Studio (classic) workspace, then you can access to it.
 
+If you are the contributor or the owner of the subscription but still cannot access to a Studio (classic) workspace, please provide screenshot or other materials to prove that you are the owner or contributor of this subscription. After validation, we can help with your access to the subscription.
+
 ## **Recommended Documents**
 Microsoft Azure Machine Learning Studio (classic) is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Customers currently using or evaluating Machine Learning Studio (classic) are encouraged to try [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides drag and drop ML modules plus scalability, version control, and enterprise security.
 
