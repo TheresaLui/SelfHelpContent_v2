@@ -1,22 +1,15 @@
 <properties
-	pageTitle="Configure an on-premise VPN device for your Virtual WAN"
-	description="Configure an on-premise VPN device for your Virtual WAN"
-	infoBubbleText="Configure an on-premise VPN device for your Virtual WAN"
-	service="microsoft.network"
-	resource=""
-	authors="karenhammons"
-	ms.author="karenha,reyandap"
-	displayOrder=""
-	articleId="virtualwan-configure-onprem-vpndevice"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32640643,32640645"
-	resourceTags=""
-	productPesIds="16572"
-	cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
-	ownershipId="CloudNet_VirtualWAN"
-/>
-
+  pagetitle="Configure your on-premise VPN Device"
+  service="microsoft.network"
+  resource=""
+  ms.author="karenha,reyandap,wellee"
+  selfhelptype="Generic"
+  supporttopicids="32640643,32640645,32640655"
+  resourcetags=""
+  productpesids="16572"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="virtualwan-configure-onprem-vpndevice"
+  ownershipid="CloudNet_VirtualWAN" />
 # Configure your on-premise VPN Device
 
 

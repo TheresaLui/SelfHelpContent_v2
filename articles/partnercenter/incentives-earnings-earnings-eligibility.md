@@ -27,7 +27,7 @@
 2.	Once you sign in, scroll down to access the documents for your interested program and click on the document link for the respective program
 3.	From the document refer to sections **Partner eligibility** and **Eligible revenue rules**
 
-**Where can I find my rates?*
+**Where can I find my rates?**
 1.	Go to [Partner incentives](https://partner.microsoft.com/membership/partner-incentives) and sign in
 2.	Once you sign in, scroll down to access the documents for your interested program and click on the document link for the respective program
 3.	From the document refer to the section **Program structure and Rates**
