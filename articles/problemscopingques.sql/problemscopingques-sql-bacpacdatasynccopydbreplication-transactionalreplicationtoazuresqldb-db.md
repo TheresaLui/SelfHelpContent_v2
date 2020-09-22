@@ -7,7 +7,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="565e5425-253b-4ea6-8058-85497673007b"
+	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # Transactional Replication for Azure SQL DB
@@ -110,4 +110,5 @@
         }
     ]
 }
+
 ---
