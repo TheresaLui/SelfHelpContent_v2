@@ -32,8 +32,8 @@
 			"displayLabel": "What specific area is the issue in?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Backup/ Restore",
-					"text": "Backup/ Restore"
+					"value": "Backup/Restore",
+					"text": "Backup/Restore"
 				}, {
 					"value": "Backup",
 					"text": "Backup"
@@ -50,8 +50,8 @@
 					"value": "Startup",
 					"text": "Startup"
 				}, {
-					"value": "Errors/ Exceptions",
-					"text": "Errors/ Exceptions"
+					"value": "Errors/Exceptions",
+					"text": "Errors/Exceptions"
 				}, {
 					"value": "Configuration",
 					"text": "Configuration"
