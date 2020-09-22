@@ -32,17 +32,17 @@
 			"displayLabel": "What security area is the issue in?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "authentication",
-					"text": "authentication"
+					"value": "Authentication",
+					"text": "Authentication"
 				}, {
-					"value": "authorization",
-					"text": "authorization"
+					"value": "Authorization",
+					"text": "Authorization"
 				}, {
-					"value": "encryption",
-					"text": "encryption"
+					"value": "Encryption",
+					"text": "Encryption"
 				}, {
-					"value": "auditing",
-					"text": "auditing"
+					"value": "Auditing",
+					"text": "Auditing"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
