@@ -29,8 +29,3 @@
    * pushed as a notification to an Azure app
    * delivered as a voice message
 * Normally there are at least 30 days between successful scheduled maintenance events for a server. However, in case of a critical emergency update such as a severe vulnerability, the notification window could be shorter than five days. The critical update may be applied to your server even if a successful scheduled maintenance was performed in the last 30 days.
-
-## **Recommended Documents**
-
-* Learn more about [scheduled maintenance in Azure Database for PostgreSQL – Flexible server](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-maintenance)
-* Learn how to [manage scheduled maintenance settings for Azure Database for PostgreSQL – Flexible server](https://docs.microsoft.com/azure/postgresql/flexible-server/how-to-maintenance-portal)

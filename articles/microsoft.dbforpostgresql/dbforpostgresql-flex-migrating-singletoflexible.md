@@ -7,11 +7,11 @@
     ms.author="ankam"
     displayOrder="300"
     selfHelpType="generic"
-    supportTopicIds="32639996"
+    supportTopicIds="32749785"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="dbforpostgresql-flex-migrating-migrationtools"
+    articleId="dbforpostgresql-flex-migrating-singletoflexible"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
