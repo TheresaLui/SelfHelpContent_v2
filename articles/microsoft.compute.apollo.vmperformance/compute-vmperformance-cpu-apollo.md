@@ -21,7 +21,7 @@
 This experience integrates automated checks to detect high CPU consumption in your Virtual Machine and guides you with the troubleshooting steps.
 
 :::Section Recommended Solution:::
-
+CPU usage in the past 24 hours
 <metric>
     <name>Percentage CPU</name>
     <aggregationType>Avg</aggregationType>
