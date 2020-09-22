@@ -27,7 +27,7 @@ When the worker limit is reached, clients will receive an error message (Error 1
 
 ## **Recommended Steps**
 
-For an immediate solution, scale your database to a larger DTU-based service tier sufficient to handle the workload.
+For an immediate solution, scale your database to a larger service tier sufficient to handle the workload.
 
 Longer-term, you should try:
 

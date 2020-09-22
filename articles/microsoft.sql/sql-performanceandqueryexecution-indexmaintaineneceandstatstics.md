@@ -7,7 +7,7 @@
   	ms.author="andikshi"
 	displayOrder="2"
 	selfHelpType="generic"
-	supportTopicIds="32749515"
+	supportTopicIds="32749517"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     	resourceTags="servers, databases"
