@@ -9,10 +9,11 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="46af1285-efbf-47f6-8d55-d4cdcb1ad1f6"
-	ownershipId="AzureData_AzureSQLMI"
-/>
+	ownershipId="AzureData_AzureSQLMI"/>
+
 # Transactional Replication setup or configuration
----
+---"
+
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
@@ -30,15 +31,14 @@
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
-			"required": false,
+			"required": false
 			
 		}, {
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Have you recently migrated to Azure?",
-			"required": true
-			"dropdownOptions": [
+			"required": true, "dropdownOptions": [
 				{
 					"value": "Yes",
 					"text": "Yes"
@@ -58,8 +58,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "What is the application type? ",
 			"visibility": "recently_migrated == Yes",
-			"required": true,
-			"dropdownOptions": [
+			"required": true,"dropdownOptions": [
 				{
 					"value": "modern_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
@@ -79,8 +78,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "What was the Pre-Migration backend ?  ",
 			"visibility": "recently_migrated == Yes",
-			"required": true,
-			"dropdownOptions": [
+			"required": true,"dropdownOptions": [
 				{
 					"value": "sql_server",
 					"text": "SQL Server"
