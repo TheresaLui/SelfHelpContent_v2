@@ -24,15 +24,15 @@ Are you facing one of these common problems?
 
 * I lost some of the pipeline runs. Is there a way to get them back?
 
-  - Understand how retention works and when runs are deleted by reviewing the [docs](https://docs.microsoft.com/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml#set-run-retention-policies).
-  - If you believe that you have lost the runs due to a bug in the service, then create a support ticket to recover the lost information. 
-  - If the runs have been deleted as expected due to a retention policy or if the runs have been deleted more than a week ago, then it is not possible to recover the lost runs.
+  - Understand how retention works and when runs are deleted by reviewing the [docs](https://docs.microsoft.com/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml#set-run-retention-policies)
+  - If you believe that you have lost the runs due to a bug in the service, then create a support ticket to recover the lost information
+  - If the runs have been deleted as expected due to a retention policy or if the runs have been deleted more than a week ago, then it is not possible to recover the lost runs
 
 * We need to retain builds and releases longer than what is allowed in the settings. How can I request a longer retention?
 
-  - There is no way to configure a longer retention setting in Azure DevOps.
+  - There is no way to configure a longer retention setting in Azure DevOps
   - One way to retain a run or a release longer than what is allowed through retention settings is to manually mark it to be retained indefinitely. Such runs will stay in the system until you delete them manually.
-  - You can also copy artifacts to your [own storage](https://docs.microsoft.com/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml#use-the-copy-files-task-to-save-data-longer) in order to keep them longer.
+  - You can also copy artifacts to your [own storage](https://docs.microsoft.com/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml#use-the-copy-files-task-to-save-data-longer) in order to keep them longer
 
 ## **Recommended Documents**
 

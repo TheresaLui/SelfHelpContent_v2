@@ -19,7 +19,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBGatewayMode",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
@@ -38,7 +38,7 @@
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').GatewayMode",
-    "refreshInterval": "0.12:00:00"
+    "refreshInterval": "0.12:00:01"
   },
   "actions": [
     {

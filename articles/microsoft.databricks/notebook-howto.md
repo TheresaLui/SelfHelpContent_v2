@@ -28,6 +28,7 @@
     
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [Problem: Notebook Autosave Fails Due to File Size Limits](https://docs.microsoft.com/azure/databricks/kb/notebooks/notebook-autosave)
 * [How to Get the Full Path to the Current Notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-path)
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
