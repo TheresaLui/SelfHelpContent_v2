@@ -129,8 +129,8 @@
       "id": "399a2a99-8faa-954f-13ec-807b6a5fd6d0",
       "longDescription": "",
       "shortDescription": "How to delete an Azure Migrate project",
-      "searchTags": "projectdeletion",
-      "category": "Tool",
+      "searchTags": "How to delete project",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
