@@ -14,13 +14,15 @@
 # Transactional Replication to Azure SQL DB
 ---
 {
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the start time of the issue?",
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": true
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
