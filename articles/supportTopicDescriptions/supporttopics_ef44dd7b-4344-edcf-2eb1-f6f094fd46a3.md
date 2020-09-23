@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3985c162-eb57-dad1-5ae0-6ba9474f3c5b",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for migration from AWS, GCP, other clouds and physical servers",
+      "searchTags": "Physical server Migration;AWS;GCP;Configuration server",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "399a2a99-8faa-954f-13ec-807b6a5fd6d0",
       "longDescription": "",
       "shortDescription": "How to delete an Azure Migrate project",
