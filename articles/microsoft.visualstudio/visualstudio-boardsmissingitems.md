@@ -40,7 +40,7 @@ Are you facing one of these common problems?
 
   - Try creating a [query](https://docs.microsoft.com/azure/devops/boards/queries/query-index-quick-ref?view=azure-devops) to search for work items by id or title
 
-- The board or backlog I am seeing is not for my team. How to i find my Teams backlog or board?
+- The board or backlog I am seeing is not for my team. How to I find my Teams backlog or board?
   - Use the board and backlog picker to find the right board or backlog for your team. [Learn more](https://docs.microsoft.com/azure/devops/boards/boards/kanban-quickstart?view=azure-devops#open-your-kanban-board-from-the-web-portal)
 
 ## **Recommended Documents**

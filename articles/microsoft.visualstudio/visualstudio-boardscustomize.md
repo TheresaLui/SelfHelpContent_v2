@@ -34,7 +34,7 @@ Are you facing one of these common problems?
 
   - Check your team board configuration to see if the [backlog navigation level](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels?view=azure-devops) is turned on for the work item type you are looking for
 
-  - Check your backlog levels in process configuration to make sur the work item type is associated to the desired level. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/work/customize-process-backlogs-boards?view=azure-devops#add-or-edit-portfolio-backlogs)
+  - Check your backlog levels in process configuration to make sure the work item type is associated to the desired level. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/work/customize-process-backlogs-boards?view=azure-devops#add-or-edit-portfolio-backlogs)
 
 * We are not able to run witadmin.exe command on the Azure DevOps Service
 

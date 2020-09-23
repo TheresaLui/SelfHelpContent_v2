@@ -5,8 +5,8 @@
     service="microsoft.visualstudio"
     resource="account"
     authors="samuelkoppes"
-    ms.author=""
-    articleId="AZDevOpsBoardsSearch"
+    ms.author="sakoppes"
+    articleId="AzDevOpsArtifacts"
     supportTopicIds="32542242,32572375,32612983,32612984"
     diagnosticScenario=""
     selfHelpType="generic"
@@ -22,7 +22,7 @@
 
 Are you facing one of these common problems?
 
-* I am unable to upload additional packages: `Artifact cannot be uploaded because max quantity has been exceeded or the payment instrument is invalid. https://aka.ms/artbilling for details.`
+* I am unable to upload additional packages: `Artifact cannot be uploaded because max quantity has been exceeded or the payment instrument is invalid`
 
   - Go to the **Billing** section under **Organization Settings** and make sure that your tier is set to **No limit, pay as you go**. Once you make this change, the new setting can take approximately 1 hour to take effect
 
