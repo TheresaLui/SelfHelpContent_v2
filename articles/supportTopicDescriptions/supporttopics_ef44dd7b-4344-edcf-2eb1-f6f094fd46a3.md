@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e62dafab-96e6-ee37-aefd-120eff7a8260",
       "longDescription": "",
       "shortDescription": "Issues related to project creation",
