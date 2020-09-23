@@ -1,15 +1,13 @@
 <properties
-  articleId="7cd25d42-87e8-b2c6-92db-43555e41c55c"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the system health, logging, and telemetry for spatial analysis."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767691"
   productPesIds="16970"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+   articleId="7cd25d42-87e8-b2c6-92db-43555e41c55c"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
