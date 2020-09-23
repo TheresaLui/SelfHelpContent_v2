@@ -168,9 +168,9 @@
     {
       "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
       "longDescription": "",
-      "shortDescription": "Issues encountered in agent-based dependency visualization (Service Map, OMS)",
-      "searchTags": "dependency mapping",
-      "category": "Functionality",
+      "shortDescription": "Issues with dependency analysis",
+      "searchTags": "Agentless dependency;Agent-based dependency;Dependency Analysis;Dependency check;Dependency",
+      "category": "App dependency",
       "useInDiagnoseAndSolve": "true"
     },
     {
