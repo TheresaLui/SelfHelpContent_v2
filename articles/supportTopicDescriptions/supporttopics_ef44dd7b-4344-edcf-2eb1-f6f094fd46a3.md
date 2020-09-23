@@ -312,9 +312,9 @@
     {
       "id": "96845980-d4cf-a2c9-42ab-424a5a08ff7e",
       "longDescription": "",
-      "shortDescription": "Issues related to project not found. ",
-      "searchTags": "project;not;found;notfound",
-      "category": "Tool",
+      "shortDescription": "Issues related to project not found.",
+      "searchTags": "Existing project;Missing project",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
