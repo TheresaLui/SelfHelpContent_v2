@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server or Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
       "shortDescription": "Issues encountered when users hit stop replication",
