@@ -3,7 +3,7 @@
 	description="Scoping questions to capture more details about errors encountered while running jobs in Azure Quantum"
 	ms.author="dasto"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32740178,32740182,32740183,32740185,32740187,32740190,32740191,32740193,32740194"
+	supportTopicIds="32740182,32740183,32740185,32740187,32740190,32740191,32740193,32740194"
 	productPesIds="17040"
 	cloudEnvironments="public"
 	schemaVersion="1"
