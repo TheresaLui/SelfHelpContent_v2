@@ -390,6 +390,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df743043-66a9-fdf6-b293-12a4290993b4",
+      "longDescription": "",
+      "shortDescription": "Issues while deploying VMware appliance on-prem",
+      "searchTags": "Agentless replication;VMware VM migration;Azure Migrate appliance",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
