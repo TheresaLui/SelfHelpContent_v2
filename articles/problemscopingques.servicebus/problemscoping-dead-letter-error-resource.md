@@ -1,26 +1,26 @@
 <properties
 pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+description="Unexpected Message Dead Lettering"
 service="microsoft.servicebus"
 resource="errorMessageTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633410"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-dead-letter-errors"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Unexpected Message Dead Lettering
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Unexpected Message Dead Lettering",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -88,16 +88,70 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_issueFrequency",
             "order": 5,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
-            "required": true
+            "controlType": "dropdown",
+            "displayLabel": "How frequently does the issue occur?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Always",
+                    "text": "Always"
+                },
+                {
+                    "value": "Intermittent",
+                    "text": "Intermittent"
+                },
+                {
+                    "value": "DontKnow",
+                    "text": "Didn't notice any trend"
+                }
+            ]
+        },
+        {
+            "id": "problem_deadletterreason",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Select the DeadLetterReason value",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "HeaderSizeExceeded",
+                    "text": "The size quota for this stream has been exceeded."
+                },
+                {
+                    "value": "TTLExpiredException",
+                    "text": "The message expired and was dead lettered."
+                },
+                {
+                    "value": "NullSessionID",
+                    "text": "Session enabled entity doesn't allow a message whose session identifier is null."
+                },
+                {
+                    "value": "MaxTransferHopCountExceeded",
+                    "text": "Maximum Transfer Hop count has exceeded"
+                },
+                {
+                    "value": "Application Specific Value or empty",
+                    "text": "Application Specific Value or empty"
+                },
+                {
+                    "value": "Filtering Specific Failure Exception",
+                    "text": "Filtering Specific Failure Exception"
+                },
+                {
+                    "value": "MessageDeliveryCountExceeded",
+                    "text": "Message could not be consumed after 'n' delivery attempts."
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ]
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

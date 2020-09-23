@@ -1,29 +1,29 @@
 <properties
-pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+pageTitle="Unexpected Service behavior or Errors"
+description="Unexpected Service behavior or Errors"
 service="microsoft.servicebus"
 resource="errorMessageTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633404,32633403,32633391,32633387"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-issue-not-listed"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Unexpected Service behavior or Errors
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Unexpected Service behavior or Errors",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,11 +88,10 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_errorMessageText",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
+            "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
             "required": true
         },
         {

@@ -1,29 +1,29 @@
 <properties
 pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+description="Queue, Topic or Subscription deleted unexpectedly"
 service="microsoft.servicebus"
 resource="errorMessageTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633406"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-unexpected-delete-issues"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Queue, Topic or Subscription deleted unexpectedly
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Queue, Topic or Subscription deleted unexpectedly",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,16 +88,36 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_AutoDeleteonIdleEnabled",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is AutoDeleteOnIdle Enabled for the entity that was deleted",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
+                }
+            ]
+        },
+        {
+            "id": "problem_errorMessageText",
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
+            "displayLabel": "Please provide the exact error message",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

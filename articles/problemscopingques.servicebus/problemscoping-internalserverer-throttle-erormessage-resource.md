@@ -1,29 +1,29 @@
 <properties
-pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+pageTitle="Internal Server Error Messages"
+description="Internal Server (500) Error Message"
 service="microsoft.servicebus"
 resource="errorMessageTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633399,32633408"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-internal-server-error"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Internal Server Error Messages
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Timeout Error message",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,16 +88,36 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_issueFrequency",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "How frequently does the issue occur?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Always",
+                    "text": "Always"
+                },
+                {
+                    "value": "Intermittent",
+                    "text": "Intermittent"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Didn't notice any trend"
+                }
+            ]
+        },
+        {
+            "id": "problem_errorMessageText",
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
+            "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

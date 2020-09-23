@@ -1,29 +1,29 @@
 <properties
-pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+pageTitle="Questions with service bus client libraries or API"
+description="Questions with service bus client libraries or API"
 service="microsoft.servicebus"
 resource="errorMessageTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633405"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-client-libraries-question"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Questions about service bus client library
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Questions with SB client libraries or API",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,11 +88,10 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_SBClientversion",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
+            "displayLabel": "Please specific the client library (.Net, .Net Standard, Java, Python, etc) you are using and the version number?",
             "required": true
         },
         {

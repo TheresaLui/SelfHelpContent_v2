@@ -17,4 +17,4 @@
 
 # Bot is returning an error
 
-This troubleshooter will guide you to find the root cause and resolution for issues where the bot is failing with an error
+This troubleshooter will guide you to find the root cause and resolution for issues where the bot is failing with an error 
