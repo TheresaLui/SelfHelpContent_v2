@@ -1,15 +1,13 @@
 <properties
-  articleId="f49a652a-4bb9-23ce-4473-8270cfbdfe3e"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the AI operation output for spatial analysis."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767681"
   productPesIds="16970"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="f49a652a-4bb9-23ce-4473-8270cfbdfe3e"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
