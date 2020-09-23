@@ -1,15 +1,13 @@
 <properties
-  articleId="235288f0-b30e-f736-5221-0d4b6323680f"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the container deployment for spatial analysis."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767687"
   productPesIds="16970" 
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="235288f0-b30e-f736-5221-0d4b6323680f"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
