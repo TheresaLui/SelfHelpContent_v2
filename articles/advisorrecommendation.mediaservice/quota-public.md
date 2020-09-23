@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b7c9fd99-a979-40b4-ab48-b1dfab6bb41a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://mediaservicestest.kusto.windows.net').database('MediaServicesTest').QuotaRecommendation",
+    "streamNamespace": "cluster('https://mediaservicesprod.kusto.windows.net').database('MediaServicesTest').QuotaRecommendation",
     "dataSource": "Kusto",
     "refreshInterval": "1:00:00"
   },
@@ -35,11 +35,11 @@
     "serviceTreeId": "44a2b1b8-0556-4403-8261-fe6a9172ea32"
   },
   "ingestionClientIdentities": [],
-  "version": 1.2,
+  "version": 1.3,
   "learnMoreLink": "https://aka.ms/ams-quota-recommendation/",
-  "description": "Increase the quota limits in your media account.",
-  "longDescription": "You may ask for the quotas to be raised, by opening a support ticket. Include detailed information in the request on the desired quota changes, use-case scenarios, media account name and regions required. Do not create additional Azure Media Services accounts in an attempt to obtain higher limits.",
-  "potentialBenefits": "Avoid any disruption to service due to customer exceeding quota limits.",
+  "description": "Increase Media Services quotas or limits to ensure continuity of service.",
+  "longDescription": "Ask for the quotas or limits to be raised by opening a support ticket. Do not create additional Azure Media Services accounts in an attempt to obtain higher limits.",
+  "potentialBenefits": "Improve business continuity by not hitting quotas or limits.",
   "actions": [
     {
       "actionId": "fbc706f9-98a1-444a-8370-0fb7e121a80c",
