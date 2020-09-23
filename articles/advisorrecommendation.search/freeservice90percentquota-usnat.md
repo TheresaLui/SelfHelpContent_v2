@@ -1,30 +1,30 @@
 <properties
-    pageTitle="You are close to exceeding your available storage quota. Add additional partitions if you need more storage."
-    description="After exceeding storage quota, you can still query, but indexing operations will no longer work."
+    pageTitle="You are close to exceeding storage quota of 50MB. Move to a Basic/Standard search service if you need more storage."
+    description="After exceeding storage quota, indexing operations will stop working."
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="b5a98691-da25-4fc3-a4f4-f9f0d35a42c6_Fairfax"
+    articleId="8d31f25f-31a9-4267-b817-20ee44f88069_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="USNat"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# You are close to exceeding storage quota
+# You are close to exceeding storage quota of 50MB
 ---
 {
   "recommendationOfferingId": "2be23fe8-3b59-46d2-bcb6-cdf01ede0583",
   "recommendationOfferingName": "Azure Search",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "b3efb46f-6d30-4201-98de-6492c1f8f10d",
+  "recommendationTypeId": "8d31f25f-31a9-4267-b817-20ee44f88069",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://azsearchfairfax.kusto.usgovcloudapi.net').database('AzureSearch').GetStandardServicesOver90PercentSizeQuota",
+    "streamNamespace": "cluster('https://azsearchusnat.usnatwest.kusto.core.eaglex.ic.gov').database('AzureSearch').GetFreeServicesOver90PercentSizeQuota",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Search/searchServices",
-  "recommendationFriendlyName": "StandardServiceStorageQuota90percent",
+  "recommendationFriendlyName": "FreeServiceStorageQuota90percent",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,15 +40,15 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azs/search-limits-quotas-capacity",
-  "description": "You are close to exceeding your available storage quota. Add additional partitions if you need more storage.",
-  "longDescription": "You are close to exceeding your available storage quota. Add additional partitions if you need more storage. After exceeding storage quota, you can still query, but indexing operations will no longer work.",
-  "potentialBenefits": "Able to index additional data",
+  "description": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service.",
+  "longDescription": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service. After exceeding storage quota, indexing operations will stop working.",
+  "potentialBenefits": "capability to handle more data",
   "actions": [
     {
       "actionId": "06393e17-c527-45f8-9c40-1f6ea418e95c",
-      "description": "Add partitions to your Azure Search service using the portal",
+      "description": "Create an Azure Search service in the portal",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/search/search-manage"
+      "documentLink": "https://aka.ms/azs/search-create-service-portal"
     }
   ],
   "resourceMetadata": {
@@ -62,7 +62,7 @@
       }
     }
   },
-  "displayLabel": "You are close to exceeding your available storage quota. Add additional partitions if you need more storage.",
+  "displayLabel": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service for larger quota.",
   "additionalColumns": []
 }
 ---
