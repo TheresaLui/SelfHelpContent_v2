@@ -29,37 +29,51 @@ There is more than one possible root cause. Please proceed according to user-fac
 
 1. NRP throttling 
 
-    ```Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.```
+    ```
+    Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.
+    ```
 
 2. Sporadic VM network issues/partitions 
 
-    ```Cluster terminated. Reason: Metastore Component Unhealthy```
+    ```
+    Cluster terminated. Reason: Metastore Component Unhealthy
+    ```
 
 **Azure Compute**
 
 3. Slow/unreliable VM launch 
 
-    ```Cluster is running but X nodes could not be acquired.```
+    ```
+    Cluster is running but X nodes could not be acquired.
+    ```
 
 **Azure Storage**
 
 4. Storage throttling 
 
-    ```Files and folders are being created at too high a rate.```
+    ```
+    Files and folders are being created at too high a rate.
+    ```
 
 **Databricks Launch Failures**
 
 5. Cluster timeout
 
-    ```The Spark driver failed to start within 300 seconds.```
+    ```
+    The Spark driver failed to start within 300 seconds.
+    ```
 
 6. Cluster timeout due to Init
 
-    ```The cluster could not be started in 50 minutes. Cause: Timed out with exception after <xx> attempts.```
+    ```
+    The cluster could not be started in 50 minutes. Cause: Timed out with exception after <xx> attempts.
+    ```
 
 7. Cloud provider launch failure 
 
-    ```The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')```
+    ```
+    The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')
+    ```
 
 **Azure Subscription Limit**
 
