@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c302cd95-1688-fcca-3880-7e4a5a5cd8a5",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server and Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
       "longDescription": "",
       "shortDescription": "Issues related to Configuration Server or Mobility services",
