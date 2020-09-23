@@ -1,15 +1,13 @@
 <properties
-  articleId="fb58e668-32e6-3d93-7640-00ee727cc5b4"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the camera placement and configuration for spatial analysis."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767685"
   productPesIds="16970"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="fb58e668-32e6-3d93-7640-00ee727cc5b4"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
