@@ -27,7 +27,7 @@
 		○ sudo journalctl -u iotedge -f
 	• Comprehensive system logs:
 		○ sudo iotedge support-bundle --since 6h
-  What is the status of your containers when you run: 
+  What is the status of your containers when you run:
 	• sudo systemctl status iotedge
 Attach the results of your logs."
   ",
