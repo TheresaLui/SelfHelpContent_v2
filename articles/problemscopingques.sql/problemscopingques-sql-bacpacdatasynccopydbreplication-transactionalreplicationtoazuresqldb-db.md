@@ -14,9 +14,6 @@
 # Transactional Replication to Azure SQL DB
 ---
 {
-	"$schema": "SelfHelpContent",
-	"resourceRequired": false,
-	"subscriptionRequired": false,
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
