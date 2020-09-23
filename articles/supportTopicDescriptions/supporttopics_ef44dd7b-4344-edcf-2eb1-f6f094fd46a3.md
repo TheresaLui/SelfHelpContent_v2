@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar"
+  ms.author="anvar, panshar, adoyle"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -25,8 +25,16 @@
       "id": "04aa41d1-0236-f0af-acc2-1897230e23a2",
       "longDescription": "",
       "shortDescription": "Encountered issues while creating, updating, and exporting assessment",
-      "searchTags": "CRUD;create ;update;export",
-      "category": "Functionality",
+      "searchTags": "Groups;Outdated assessment;Validate hosts",
+      "category": "Assessment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "079ff875-5cef-8e59-8f71-2659a9624efe",
+      "longDescription": "",
+      "shortDescription": "Queries relates to Database, webapp & VDI tools integrated with Azure Migrate",
+      "searchTags": "DMA;DMS;Webapp;VDI",
+      "category": "Migration goals",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -38,11 +46,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "15e27ae2-37d1-6afd-c5fe-db3034457184",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based Vmware stack",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "164b9f09-19af-b77a-fa69-b12392f01d9a",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
       "longDescription": "",
       "shortDescription": "Issues that occur when users press Test Migrate button",
       "searchTags": "testmigrate;test;migrate",
       "category": "functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2547e8ff-ab92-dcb6-7f85-9b451aa5d5e5",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -65,8 +97,8 @@
       "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
       "longDescription": "",
       "shortDescription": "Questions on assessment recommendations ",
-      "searchTags": "assessment recommendation",
-      "category": "Functionality",
+      "searchTags": "Compute cost;Cost analysis;Performance data",
+      "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -86,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3985c162-eb57-dad1-5ae0-6ba9474f3c5b",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for migration from AWS, GCP, other clouds and physical servers",
+      "searchTags": "Physical server Migration;AWS;GCP;Configuration server",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "399a2a99-8faa-954f-13ec-807b6a5fd6d0",
       "longDescription": "",
       "shortDescription": "How to delete an Azure Migrate project",
@@ -102,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c25c716-96c9-503c-8d82-7cdac6bf1378",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
@@ -113,8 +161,8 @@
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
       "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
-      "searchTags": "hub;dashboard;project",
-      "category": "Tool",
+      "searchTags": "Find project;Delete project;Know more;ISV;Learn more",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -128,17 +176,17 @@
     {
       "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
       "longDescription": "",
-      "shortDescription": "Issues encountered in agent-based dependency visualization (Service Map, OMS)",
-      "searchTags": "dependency mapping",
-      "category": "Functionality",
+      "shortDescription": "Issues with dependency analysis",
+      "searchTags": "Agentless dependency;Agent-based dependency;Dependency Analysis;Dependency check;Dependency",
+      "category": "App dependency",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "51ca32f1-df77-60e6-91ff-737b77b2f056",
       "longDescription": "",
-      "shortDescription": "Issues related to Discovery when using import based assessments feature",
-      "searchTags": "import;discovery",
-      "category": "Functionality",
+      "shortDescription": "Issues with importing servers using CSV",
+      "searchTags": "Zero imported servers;Import error",
+      "category": "Import",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -158,10 +206,18 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6c688354-c0e1-4677-8ccf-a107e4eda746",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless Vmware stack",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d971ed9-6685-f673-fc77-2ff8d2c7701b",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy Hyper-V appliance",
-      "searchTags": "HyperV;onboarding",
+      "searchTags": "Install Hyper-V appliance;Setup Hyper-V appliance;Deploy Hyper-V appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
@@ -179,6 +235,14 @@
       "shortDescription": "Issues faced while performing agentless dependency analysis",
       "searchTags": "dependency analysis",
       "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7ee391ed-245a-63cd-c267-faecc85fece7",
+      "longDescription": "",
+      "shortDescription": "Issues seen in on-prem environment while deploying Hyper-V Replication Provider",
+      "searchTags": "Replication provider;Hyper-V replica",
+      "category": "Hyper-V to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -206,11 +270,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8bd02831-a6f7-c2ec-e752-c2bc59778024",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when test migrate operation was triggered",
+      "searchTags": "Test migrate;Test migrate clean up;Request disallowed by policy",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8d509ded-6fc9-c77f-9f77-ef68acf1acbd",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
       "longDescription": "",
       "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
       "searchTags": "ServerMigration",
       "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "945e969c-d948-4026-9390-e5028865c39a",
+      "longDescription": "",
+      "shortDescription": "General questions on ASM to ARM migration",
+      "searchTags": "ASM;ARM",
+      "category": "ASM to ARM migration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -230,6 +318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a60dd188-8d9a-fc8d-581c-9dc9c1622a2c",
+      "longDescription": "",
+      "shortDescription": "Queries related to ISV tools integrated with Azure Migrate",
+      "searchTags": "ISV;Partner tool",
+      "category": "ISV",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
@@ -243,6 +339,14 @@
       "shortDescription": "Issues while installing agents to perform dependency analysis",
       "searchTags": "dependencyagents",
       "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b24d0e8a-8a35-aa29-c74e-1b5742fc1437",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "Hyper-V to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -265,8 +369,24 @@
       "id": "bbd3a56d-637a-dd3c-e631-b7214d8f29aa",
       "longDescription": "",
       "shortDescription": "Issues users encounter when deploying Azure Migrate appliance for VMware",
-      "searchTags": "onboarding;assessment",
-      "category": "Functionality",
+      "searchTags": "Install VMware appliance;Setup VMware appliance;Deploy VMware appliance;Unable to start discovery",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c302cd95-1688-fcca-3880-7e4a5a5cd8a5",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server and Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server or Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -278,27 +398,83 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd8fadfa-654b-cde5-598f-f92cae49df9c",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when test migrate operation was triggered",
+      "searchTags": "Test migrate;Test migrate clean up;Request disallowed by policy",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "df743043-66a9-fdf6-b293-12a4290993b4",
+      "longDescription": "",
+      "shortDescription": "Issues while deploying VMware appliance on-prem",
+      "searchTags": "Agentless replication;VMware VM migration;Azure Migrate appliance",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e62dafab-96e6-ee37-aefd-120eff7a8260",
       "longDescription": "",
       "shortDescription": "Issues related to project creation",
-      "searchTags": "project;hub",
-      "category": "Tool",
+      "searchTags": "Existing project;Missing project",
+      "category": "Project",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ed3b7cef-1101-a789-cb57-0132afb255ae",
+      "longDescription": "",
+      "shortDescription": "Health and Notification issues of Azure Migrate",
+      "searchTags": "Agent Health",
+      "category": "Agent Heath",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "ee90fc52-ba02-fefc-0485-4a4b272580da",
       "longDescription": "",
-      "shortDescription": "Issues encountered when users try to discover their on-prem environment",
-      "searchTags": "discovery",
-      "category": "Functionality",
+      "shortDescription": "Issues with ongoing server and application discovery, after starting discovery successfully from the appliance",
+      "searchTags": "Server discovery;VMs not discovered;Application discovery",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f957caab-5899-ae1a-5874-b23c0f0d130b",
+      "longDescription": "",
+      "shortDescription": "Issues with Movere, VDI, Database and webapp and Azure Migrate",
+      "searchTags": "Movere;VDI;Database;WebApp",
+      "category": "Movere, VDI, Database and webapp",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f985706e-a16c-5649-3798-1f134d2d33ba",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when test migrate operation was triggered",
+      "searchTags": "Test migrate;Test migrate clean up;Request disallowed by policy",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa1ba081-f810-2734-79ba-505de2dbac7a",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
+      "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
+      "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
       "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
-      "searchTags": "assessment",
-      "category": "Tool",
+      "searchTags": "assessment;Onboarding;Discovery;App dependency",
+      "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     }
   ]

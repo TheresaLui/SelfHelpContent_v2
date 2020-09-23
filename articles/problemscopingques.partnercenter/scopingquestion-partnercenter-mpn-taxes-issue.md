@@ -5,7 +5,7 @@
 	ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725825"
-	productPesIds="17003"
+	productPesIds="17003,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_taxes_issues"

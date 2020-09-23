@@ -13,7 +13,7 @@
 	supportTopicIds="32725825"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="17003"
+	productPesIds="17003,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />

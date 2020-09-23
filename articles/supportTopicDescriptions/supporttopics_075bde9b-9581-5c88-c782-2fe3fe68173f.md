@@ -27,7 +27,7 @@
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
-      "searchTags": "Account;Merge;PMC",
+      "searchTags": "Accounts;Merge;PMC",
     },
     {
       "id": "8e86c780-2e60-9850-5217-59b31e079f9d",
@@ -69,19 +69,19 @@
       "id": "ae686004-3b43-ca32-257d-579e76315a7a",
       "longDescription": "",
       "shortDescription": "Questions about enrolling in MPN Action Pack or competency programs",
-      "searchTags": "Accounts;Onboarding;Enrollment;ActionPack",
+      "searchTags": "Accounts;Onboarding;Enrollment;Action;Pack",
     },
     {
       "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
       "longDescription": "",
       "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
-      "searchTags": "Accounts;Onboarding;MPNid",
+      "searchTags": "Accounts;Onboarding;MPNid;Organization",
     },
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
       "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines",
+      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -93,7 +93,7 @@
       "id": "0dcf2ebb-0a91-f9a3-d19b-24c44e45d06d",
       "longDescription": "",
       "shortDescription": "Questions about Software Assurance resources or training",
-      "searchTags": "Accounts;Onboarding;SoftwareAssurance;Training",
+      "searchTags": "Accounts;Onboarding;Software;Assurance;Training",
     },
     {
       "id": "7577dd9f-e75d-7949-01a6-355903739c0f",
@@ -105,19 +105,19 @@
       "id": "18dd9e73-0d4d-3f6b-534c-c99a2d91abd5",
       "longDescription": "",
       "shortDescription": "Commercial Marketplace payout bank and tax questions (forms, payout account, updating profiles, requirements and more)",
-      "searchTags": "Accounts;Onboarding;Forms;Payout",
+      "searchTags": "Accounts;Onboarding;Forms;Payout;Profiles",
     },
     {
       "id": "4ed1524d-17ad-e570-b29c-4d8c8ab53ddc",
       "longDescription": "",
       "shortDescription": "Questions about Developer Settings (account details, contact and tax info, managing users, managing tenants, agreements)",
-      "searchTags": "Accounts;Onboarding;Developer;Settings",
+      "searchTags": "Accounts;Onboarding;Developer;Settings;Tenants;Agreements",
     },
     {
       "id": "0c8de35d-adf1-4ddf-84a6-fc23b1e10a15",
       "longDescription": "",
       "shortDescription": "Help creating a commercial marketplace account in Partner Center (publisher profile creation)",
-      "searchTags": "Accounts;Onboarding;Registration",
+      "searchTags": "Accounts;Onboarding;Registration;Profile",
     },
   ]
 }

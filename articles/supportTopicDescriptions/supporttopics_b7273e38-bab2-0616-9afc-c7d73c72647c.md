@@ -159,7 +159,7 @@
       "id": "5ffc601a-5a25-fa3d-d8cb-b09a62f3b065",
       "longDescription": "",
       "shortDescription": "General issues and questions about Business profile, co-sell, or referrals",
-      "searchTags": "Cosell;Business;Referrals",
+      "searchTags": "Cosell;Business;Referrals;Co-sell",
     },
   ]
 }
