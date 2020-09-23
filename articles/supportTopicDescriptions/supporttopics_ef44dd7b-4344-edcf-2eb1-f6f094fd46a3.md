@@ -176,9 +176,9 @@
     {
       "id": "51ca32f1-df77-60e6-91ff-737b77b2f056",
       "longDescription": "",
-      "shortDescription": "Issues related to Discovery when using import based assessments feature",
-      "searchTags": "import;discovery",
-      "category": "Functionality",
+      "shortDescription": "Issues with importing servers using CSV",
+      "searchTags": "Zero imported servers;Import error",
+      "category": "Import",
       "useInDiagnoseAndSolve": "true"
     },
     {
