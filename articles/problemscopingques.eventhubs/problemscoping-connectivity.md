@@ -91,7 +91,7 @@ schemaVersion="1"
             "displayLabel": "Please provide the call stack with exception messages and time stamp",
             "required": true,
             "useAsAdditionalDetails": true
-        }        
+        }
     ],
     "$schema": "SelfHelpContent"
 }
