@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a60dd188-8d9a-fc8d-581c-9dc9c1622a2c",
+      "longDescription": "",
+      "shortDescription": "Queries related to ISV tools integrated with Azure Migrate",
+      "searchTags": "ISV;Partner tool",
+      "category": "ISV",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
