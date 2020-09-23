@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c25c716-96c9-503c-8d82-7cdac6bf1378",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
