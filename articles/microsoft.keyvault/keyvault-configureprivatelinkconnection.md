@@ -19,6 +19,13 @@
 
 ## **Recommended Steps**
 
+### **Troubleshoot Private Link Connection to On Prem Resources**
+
+* Azure Private Endpoint DNS Configuration [Link](https://docs.microsoft.com/azure/private-link/private-endpoint-dns)
+* Azure Private Endpoint DNS Forwarding [Link](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder)
+
+### Troubleshooting Private Link Connection
+
 * Check to make sure the private endpoint is in the approved state:
 
 	* You can check and fix this in Azure portal. Open the Key Vault resource, and click the Networking option.

@@ -43,22 +43,40 @@ No, setting up the appliance on an Azure VM is not recommended.
 **I am getting an error in the Internet prerequisites check on the appliance**
 1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
 1. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. make sure you provide the authorization credentials if the proxy needs them.
+1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. Make sure you provide the authorization credentials if the proxy needs them.
 1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
 
 **I am getting an error in the auto update check on the appliance**
 
 Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
-### Issues in registering the appliance with Azure Migrate
+### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-**I am unable to register the appliance to Azure Migrate due to insufficient permissions on the subscription** 
+**After successful login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
-Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#azure-permissions).
+1. The issue happens when the Azure user account used to login from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal.
+1. Either use the same Azure user account that generated the Azure Migrate project key on portal to complete the registration of the appliance or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#prepare-azure-for-server-assessment) to the other Azure user account which is used for appliance registration.
 
-**I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+**I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+1. Ensure that you have copied the correct key from the project. To check, click on **Discover** on the **Server Assessment** card in your project and then click on **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down and copy the corresponding key.
+2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+
+**I am unable to complete registration due to insufficient AAD privileges and seeing the error- Azure Active Directory (AAD) operation failed with status "Forbidden"**
+
+Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#prepare-azure-for-server-assessment) to create and manage AAD Applications in Azure. You should have "Application Developer" role or user role with "User can register applications" allowed at the tenant level.
+
+**I am unable to complete registration due to errors related to AAD Application operation failure**
+
+This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance. You can do one of the following:
+
+1. Ensure that the user account initiating the discovery is same as the one used to register the appliance
+2. Provide AAD Application access permissions to the other user account for which the discovery operation is failing
+3. Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
+
+**I am getting Key Vault create/update issues during appliance registration**
+
+Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
 ### Issues in adding physical, AWS or GCP servers
 
@@ -83,27 +101,11 @@ Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an admin
 
 Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
 
-**Unable to connect to an AWS or GCP server at validation stage in appliance**
-Ensure password-based authentication is turned on in Linux servers. Ensure the port 5985 is open on Windows servers to allow remote WMI calls. On GCP Linux VMs, ensure root login is enabled.
+**I am unable to connect to an AWS or GCP server at validation stage in appliance**
 
-### Issues after hitting Save and Start discovery
-
-**I am unable to initiate discovery due to insufficient AAD privileges and seeing the error- Azure Active Directory (AAD) operation failed with status "Forbidden"**
-
-Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#azure-permissions) to create and manage AAD application in Azure. The user that you use should have the "Application Developer" role or user role with 'User can register applications' allowed at the tenant level.
-
-**I am unable to initiate discovery due to errors related to AAD application operation failure**
-
-This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance. You can do one of the following:
-
-1. Ensure that the user account initiating the discovery is same as the one used to register the appliance
-2. Provide AAD application access permissions to the other user account for which the discovery operation is failing
-3. Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
-
-
-**I am getting Key Vault create/update issues after clicking on 'Save and start discovery'**
-
-Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
+1. Ensure password-based authentication is turned on in Linux servers. 
+1. Ensure the port 5985 is open on Windows servers to allow remote WMI calls. 
+1. On GCP Linux VMs, ensure root login is enabled.
 
 ### Issues post discovery initiation
 

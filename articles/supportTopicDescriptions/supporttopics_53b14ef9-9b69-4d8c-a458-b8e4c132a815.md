@@ -33,6 +33,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "08399bc4-65fe-30a4-6fe9-a6d0f8c702ad",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in Native mode",
+      "searchTags": "ssrs native mode;reporting services native mode",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0e14b8cf-c28f-0dfc-9ef7-04f20d268084",
       "longDescription": "",
       "shortDescription": "Questions or issues with a reboot/restart of the VM",
@@ -55,6 +63,14 @@
       "searchTags": "",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "15caab59-558e-933c-4426-a4ee3e25d2dc",
+      "longDescription": "",
+      "shortDescription": "My database backup or restore is taking longer time than expected",
+      "searchTags": "slow backup;slow restore;backup takes longer ;restore takes longer;slow performance with backup or restore",
+      "category": "BackupRestore",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "164dcc4e-aea2-2c8a-6043-8cd8362c8487",
@@ -97,12 +113,28 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "287493aa-ea97-b7e2-11dd-1315916ee6fd",
+      "longDescription": "",
+      "shortDescription": "Failing to save a copy of SSIS package to File System, MSDB or Package Store. Failing to deploy SSIS Project or add a package to SSISDB Catalog.",
+      "searchTags": "SSIS package deploy;SSIS package deployment;integration services deploy;integration services package deployment",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
       "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "3418b0d7-0d18-4763-f5a1-1bc7699b0836",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in SharePoint integrated mode",
+      "searchTags": "ssrs sharepoint;reporting services sharepoint;sharepoint integrated",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "3526d5e5-1b24-8785-eb7c-8c51ac42206e",
@@ -113,12 +145,36 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "35866098-563a-04e1-0ff4-b5e07218e068",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to viewing reports or exporting reports",
+      "searchTags": "ssrs render;ssrs rendering;reporting services rendering;ssrs export report;reporting services export",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "36bddc6a-9517-0ae7-abef-6bdf8aea4a27",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connecting to the Reporting Services website",
+      "searchTags": "ssrs;reporting services;connecting to ssrs;connecting to reporting services",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37edad8f-bf2c-be9f-6c31-8b9eb90273c3",
       "longDescription": "",
-      "shortDescription": "Questions or issues with compiling page, web and mobile reports from your data with SQL Server Reporting Services",
+      "shortDescription": "Questions or issues with authoring and viewing reports from your data with SQL Server Reporting Services",
       "searchTags": "ssrs;sql server reporting services;reporting services;data services",
       "category": "Data Services",
-      "useInDiagnoseAndSolve": "FALSE"
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "414e5b5c-a127-5260-1b38-975eefeba008",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the Report Viewer control",
+      "searchTags": "ssrs reportviewer;reporting services reportviewer;reportviewer;ssrs report viewer;reporting services report viewer",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "41cd784e-561a-9fc7-1a63-80f8a6720817",
@@ -145,12 +201,36 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "508880de-019c-5d90-e5a7-73ecde62d46e",
+      "longDescription": "",
+      "shortDescription": "Questions or issues when using mobile reports and KPIs",
+      "searchTags": "ssrs mobile;ssrs kpi;reporting services mobile reports;reporting services kpi;ssrs mobile reports",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "573d331f-af8f-a2c9-f7b0-b0a554567df2",
       "longDescription": "",
       "shortDescription": "Questions or issues with back up/restore database using storage account",
       "searchTags": "backup;restore;bak;recovery;storage account;backup to url;sas;shared access signature",
       "category": "Backup/Restore",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "581b15ea-0d47-b3e4-545b-fd1e164caeb5",
+      "longDescription": "",
+      "shortDescription": "Questions or issues integrating Reporting Services with the Power BI service",
+      "searchTags": "ssrs power bi;ssrs power bi service;reporting services power bi;reporting services power bi integration",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "622af061-6edb-cae2-702f-87d996825aa5",
+      "longDescription": "",
+      "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
+      "searchTags": "ssis package performance;integration services package performance",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
@@ -193,6 +273,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7514973d-ae73-fc18-5dd0-b2a4d655ad3d",
+      "longDescription": "",
+      "shortDescription": "Packages failing with Unexpected Termination. VS-SSDT or DTExec or DTExecUI crashing.",
+      "searchTags": "ssis package failing;DTExecUI;DTExec;Integration Services package",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "76d18e8d-9f50-5415-da66-ab3aa4c063d5",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to a Failover Cluster instance or an Availability Group listener",
@@ -223,6 +311,14 @@
       "searchTags": "storage;storage latency;access;performance;throughput;iops;slow disk",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "8b11c6c8-ced3-4b42-bdf8-6d250fc13ad8",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connectivity and configuration of a report data source",
+      "searchTags": "ssrs data source;ssrs configuration;ssrs connectivity;reporting services data source;report data source",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "94164a44-f834-927e-90f3-58855be82009",
@@ -279,6 +375,22 @@
       "searchTags": "ha;cluster;windows cluster;failover;file share;",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
+      "longDescription": "",
+      "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
+      "searchTags": "SSIS windows service;ssis service;Integration services windows service;integration services service",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",
+      "longDescription": "",
+      "shortDescription": "Questions or issues troubleshooting authentication, roles and permissions",
+      "searchTags": "ssrs security;reporting services security;ssrs authentication;reporting services authentication",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cbc61367-a1a4-0071-698c-df2a9d7ab579",
@@ -345,12 +457,44 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "d1514669-4455-80ef-5c77-ee22227ac7ff",
+      "longDescription": "",
+      "shortDescription": "Issues while executing a package through Visual Studio SSDT, SSISDB Catalog, SQL Server Agent, DTExec.exe or DTExecUI.exe",
+      "searchTags": "ssis package execution;integration services package execution",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to slow report or Reporting Services performance",
+      "searchTags": "ssrs slow report;ssrs performance;reporting services performance;reporting services slow",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d28f346c-080b-1fa8-5ed7-b0e60ae62056",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to report subscriptions",
+      "searchTags": "ssrs subscriptions;reporting services subscriptions",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d814c242-026f-8d64-abe8-30e028aa1e26",
       "longDescription": "",
       "shortDescription": "Issues with an AlwaysOn solution such as availability groups, failover cluster instance, mirroring, log shipping or replication",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "da0dbfc1-835a-468e-46d2-13352dca0858",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with printing reports to PDF or using the ActiveX print control",
+      "searchTags": "ssrs print;reporting services print;ssrs activex;reporting services activex;ssrs pdf",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "e577bc7a-f909-4835-5c24-3d9d7ec67029",
@@ -417,6 +561,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "f36831db-0d35-5a96-8da3-d14b43e6aed6",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with installing custom extensions, or using the RS.exe utility and SSRS APIs",
+      "searchTags": "ssrs extensions;ssrs api;reporting services extensions;reporting services api;ssrs custom",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f4a4a365-1c29-7659-6078-b1634c4e6555",
       "longDescription": "",
       "shortDescription": "Questions on the tools and practises for migrating on-premise/other cloud SQL Server databases to SQL Server on Azure VM.",
@@ -479,6 +631,14 @@
       "searchTags": "virtual machine mangement",
       "category": "Administration",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "ff91eaed-108e-2842-bdf1-0675477b7f9b",
+      "longDescription": "",
+      "shortDescription": "Questions or issues authoring reports using Microsoft Report Builder or SSDT",
+      "searchTags": "ssrs report builder;ssrs ssdt;reporting services report builder;reporting services ssdt",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
