@@ -1,15 +1,13 @@
 <properties
-  articleId="d93ebb65-20bc-93cc-32e0-a09b9213a271"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the zone and line configuration for spatial analysis."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767693"
   productPesIds="16970"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="d93ebb65-20bc-93cc-32e0-a09b9213a271"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
