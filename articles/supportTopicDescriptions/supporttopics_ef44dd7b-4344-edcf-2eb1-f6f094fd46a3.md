@@ -25,8 +25,8 @@
       "id": "04aa41d1-0236-f0af-acc2-1897230e23a2",
       "longDescription": "",
       "shortDescription": "Encountered issues while creating, updating, and exporting assessment",
-      "searchTags": "CRUD;create ;update;export",
-      "category": "Functionality",
+      "searchTags": "Groups;Outdated assessment;Validate hosts",
+      "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
     {
