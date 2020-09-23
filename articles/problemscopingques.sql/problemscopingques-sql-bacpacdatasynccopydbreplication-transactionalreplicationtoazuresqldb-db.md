@@ -10,7 +10,7 @@
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
 	ownershipId="AzureData_AzureSQLDB"
 />
-#Transactional Replication for Azure SQL DB
+# Transactional Replication for Azure SQL DB
 {
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
