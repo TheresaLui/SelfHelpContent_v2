@@ -30,9 +30,9 @@ Are you facing one of these common problems?
 
     You can either use an [ARM template]((https://docs.microsoft.com/azure/governance/policy/assign-policy-template)) to assign the policies or make use of [Azure Cli task](https://docs.microsoft.com/azure/governance/policy/assign-policy-azurecli) and [Azure PowerShell task](https://docs.microsoft.com/azure/governance/policy/assign-policy-powershell) respectively.
 
-* The KeyVault can't be deployed through ARM template in portal using Azure DevOps pipeline as it gives the error: **""Bad JSON content found in the request"**
+* The KeyVault can't be deployed through ARM template in portal using Azure DevOps pipeline as it gives the error: **""Bad JSON content found in the request"**.
 
-    Check the line of code in the ARM template which contains the TenantID and replace the Subscription().TenantId with the **actual Tenant ID**. Also, you can [create a secret variable in the pipeline](https://docs.microsoft.com/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for the **Tenant ID** and pass the variable in the ARM template.
+    Check the line of code in the ARM template which contains the Tenant ID and replace the Subscription().TenantId with the **actual Tenant ID**. Also, you can [create a secret variable in the pipeline](https://docs.microsoft.com/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for the **Tenant ID** and pass the variable in the ARM template.
 
 * I'm facing an SPN permission issue with the ARM template
 
