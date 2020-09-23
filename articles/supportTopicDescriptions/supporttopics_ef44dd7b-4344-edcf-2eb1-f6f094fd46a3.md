@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar"
+  ms.author="anvar, panshar, adoyle"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -281,8 +281,8 @@
       "id": "e62dafab-96e6-ee37-aefd-120eff7a8260",
       "longDescription": "",
       "shortDescription": "Issues related to project creation",
-      "searchTags": "project;hub",
-      "category": "Tool",
+      "searchTags": "Existing project;Missing project",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
