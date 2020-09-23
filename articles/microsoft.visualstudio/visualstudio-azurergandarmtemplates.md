@@ -28,7 +28,7 @@ Are you facing one of these common problems?
 
 * I want to create and assign the Azure policy through Azure DevOps without having to use third-party tasks
 
-    You can either use an [ARM template]((https://docs.microsoft.com/azure/governance/policy/assign-policy-template)) to assign the policies or make use of [Azure Cli task](https://docs.microsoft.com/azure/governance/policy/assign-policy-azurecli) and [Azure PowerShell task](https://docs.microsoft.com/azure/governance/policy/assign-policy-powershell) respectively.
+    You can either use an [ARM template](https://docs.microsoft.com/azure/governance/policy/assign-policy-template) to assign the policies or make use of [Azure Cli task](https://docs.microsoft.com/azure/governance/policy/assign-policy-azurecli) and [Azure PowerShell task](https://docs.microsoft.com/azure/governance/policy/assign-policy-powershell) respectively.
 
 * The KeyVault can't be deployed through ARM template in portal using Azure DevOps pipeline as it gives the error: **""Bad JSON content found in the request"**.
 
