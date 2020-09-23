@@ -209,7 +209,7 @@
       "id": "6d971ed9-6685-f673-fc77-2ff8d2c7701b",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy Hyper-V appliance",
-      "searchTags": "HyperV;onboarding",
+      "searchTags": "Install Hyper-V appliance;Setup Hyper-V appliance;Deploy Hyper-V appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
