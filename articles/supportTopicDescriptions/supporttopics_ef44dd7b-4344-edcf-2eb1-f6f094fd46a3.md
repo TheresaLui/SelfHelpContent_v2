@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8bd02831-a6f7-c2ec-e752-c2bc59778024",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when test migrate operation was triggered",
+      "searchTags": "Test migrate;Test migrate clean up;Request disallowed by policy",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8d509ded-6fc9-c77f-9f77-ef68acf1acbd",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
