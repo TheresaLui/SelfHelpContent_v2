@@ -29,9 +29,8 @@
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
-		}, {
+			"required": false
+					}, {
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
