@@ -71,7 +71,7 @@
       "httpMethod": "DELETE",
       "uri": "{armEndpoint}{resourceId}?api-version=2019-09-01",
       "actionId": "fb603449-7795-4148-ac51-cafcf71430ed",
-      "implication": null,
+      "implication": "There is availability implication for this action.",
       "documentationLink": "https://docs.microsoft.com/rest/api/virtualnetwork/publicipaddresses/delete"
     }
   ],

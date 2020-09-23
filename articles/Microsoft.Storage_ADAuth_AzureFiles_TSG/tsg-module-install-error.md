@@ -23,31 +23,32 @@ It is common for customers to run into errors when attempting to domain join an 
 2. PowerShell: 5.1 or Above
 3. [Az Module Installed](https://docs.microsoft.com/powershell/azure/new-azureps-module-az?view=azps-3.6.1)
 4. [PowerShellGet Module Installed](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7)
-5. [Az.Storage Module: 1.11.1-preview](https://www.powershellgallery.com/packages/Az.Storage/2.0.0)
+5. [Az.Storage Module: 2.0.0](https://www.powershellgallery.com/packages/Az.Storage/2.0.0)
 
-*Note:  In most cases Az, PowerShellGet and Az.Storage will be installed as part of importing the AzFileHybrid module.  
-## How to check PowerShell Version
+**Note**: In most cases Az, PowerShellGet and Az.Storage will be installed as part of importing the AzFileHybrid module.  
 
-Run "$PSVersionTable.PSVersion" from a PowerShell Console. 
+### How to check PowerShell Version
 
-## How to check the .Net version
+Run `$PSVersionTable.PSVersion` from a PowerShell Console. 
 
-Check .Net version by looking at the "Version" registry key under this path - 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+### How to check the .Net version
 
-## PowerShell 5.1 Requirements   
+Check .Net version by looking at the "Version" registry key under this path: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full`
 
-Windows PowerShell runs on the [these versions of Windows](https://docs.microsoft.com/powershell/scripting/install/windows-powershell-system-requirements?view=powershell-7#operating-system-requirements).
+### PowerShell 5.1 Requirements   
 
-## Az Module Requirements
-Az Module have the following prerequisites. 
+Windows PowerShell runs on [these versions of Windows](https://docs.microsoft.com/powershell/scripting/install/windows-powershell-system-requirements?view=powershell-7#operating-system-requirements).
+
+### Az Module Requirements
+
+Az Module have the following prerequisites:
 
 1. Windows PowerShell 5.1 or higher
 2. .NET Framework 4.7.2 or higher
-3. Latest version of PowerShellGet - Update-Module PowerShellGet -Force
+3. Latest version of PowerShellGet: `Update-Module PowerShellGet -Force`
 
-## Update to .Net Framework 4.7.2
+### Update to .Net Framework 4.7.2
 
-https://support.microsoft.com/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows
+* [.Net Framework 4.7.2 Offline Installer for Windows](https://support.microsoft.com/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows)
 
 Please make sure customer's environment has the above prerequisites in place and see if they are facing any of the following errors.

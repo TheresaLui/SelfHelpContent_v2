@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
  ownershipId="CloudAppSecurity_DataProtection"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I need help investigating files

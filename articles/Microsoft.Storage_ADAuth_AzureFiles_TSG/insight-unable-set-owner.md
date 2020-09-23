@@ -23,13 +23,13 @@ If the customer tries to change the ownership of a folder located an AD joined f
 
 Error:  "Unable to set new owner on share name. Access is denied."
 
-This is a known issue during the preview of the Active Directory Authentication for Azure Files feature.  The fix is planned for implementation prior to general availability.
+This is a known issue of the Active Directory Authentication for Azure Files feature.  The fix is planned for implementation.
 
 Customer Ready Message
 
 Hello Customer, 
 
-Due to a known issue during the preview of the Active Directory Authentication for Azure Files feature, users will not be able to change the ownership of a folder located on AD enabled Azure File Share. 
+Due to a known issue of the Active Directory Authentication for Azure Files feature, users will not be able to change the ownership of a folder located on AD enabled Azure File Share. 
 
 In the meantime, the best way to achieve any scenarios where super experience is required ("lift and shift" scenario of robocopying files and folders),  is by accessing the file share through the storage account name and key.
 

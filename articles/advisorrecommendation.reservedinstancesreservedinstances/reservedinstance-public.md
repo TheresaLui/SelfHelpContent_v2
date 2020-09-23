@@ -36,7 +36,8 @@
   },
   "ingestionClientIdentities": [
     "414f602c-67a0-40de-98f7-fbc02bbda8b1",
-    "19c2f118-ef78-4dcb-83eb-d715c67d8c39"
+    "19c2f118-ef78-4dcb-83eb-d715c67d8c39",
+    "97d24591-f8f4-457f-9b3d-896eb4d414a4"
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,

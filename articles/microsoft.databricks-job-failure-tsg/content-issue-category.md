@@ -17,9 +17,4 @@
 
 # Issue category
 
-Customers may face variety of issues with Databricks Jobs such as:
-
-1. Job failure
-2. Running jobs are stuck and new jobs are in pending state
-3. Jobs not fully initialized or service at /api/2.0/clusters/start is temporarily unavailable
-4. Job UI issue
+Customers may face variety of issues with Databricks Jobs.

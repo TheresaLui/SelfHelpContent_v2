@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588398"
 	productPesIds="16326"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-acinetworkconnectivity"
 	ownershipId="compute-containerinstances-cs"

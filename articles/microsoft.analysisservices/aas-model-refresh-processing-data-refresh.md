@@ -23,3 +23,7 @@
 * [Refresh with Azure Automation](https://docs.microsoft.com/azure/analysis-services/analysis-services-refresh-azure-automation)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+
+* [Tabular Model Overview](https://docs.microsoft.com/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)

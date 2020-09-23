@@ -22,13 +22,13 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 **Issue:** Preferred region not listed for replica.
-The list of available cross-regions depends on your master server's region. Visit the read replica documentation for more information: https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#cross-region-replication. We are working to expand to more regions in the future.
+The list of available cross-regions depends on your master server's region. Visit the [read replica documentation for more information](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#cross-region-replication). We are working to expand to more regions in the future.
 
 
 **Issue:** The *Add Replica* button is disabled.
 
 1. Refresh the *Replication* portal page
-2. Confirm that the *Enable Replication Support* option is unavailable. This indicates that replication is already enabled for this server.
+2. Confirm that you've selected *replica* or *logical* for your replication support level. [Learn more about these settings](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#prerequisites).
 3. Restart the server
 
 **Issue:** Replica creation is taking longer than expected.

@@ -2,10 +2,10 @@
   pagetitle="SupportTopicDescriptions for 3f14906b-a48e-b51a-d700-b3eb7784bce8"
   description="SupportTopicDescriptions for 3f14906b-a48e-b51a-d700-b3eb7784bce8"
   authors="elixirsys2"
-  ms.author="ambhatna"
+  ms.author="ambhatna, andrela"
   selfhelptype="SupportTopicDescription"
   productpesids="3f14906b-a48e-b51a-d700-b3eb7784bce8"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_3f14906b-a48e-b51a-d700-b3eb7784bce8"
   ownershipid="AzureData_AzureDatabaseforMariaDB" />
 # Support Topic Descriptions for 3f14906b-a48e-b51a-d700-b3eb7784bce8
@@ -43,6 +43,14 @@
       "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
       "searchTags": "issues while scaling",
       "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "19526fe4-8235-0d9c-16c4-6a3abec0590c",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring Advanced Threat Protection",
+      "searchTags": "Advanced Threat Protection",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -104,7 +112,7 @@
     {
       "id": "32daffbd-495b-f030-d439-0e169316d1ac",
       "longDescription": "",
-      "shortDescription": "Your ARM template is not deploying successfully.",
+      "shortDescription": "You have questions or issues with your custom ARM template or your template is not deploying successfully",
       "searchTags": "arm templates",
       "category": "Create, Update and Drop Resources",
       "useInDiagnoseAndSolve": "true"

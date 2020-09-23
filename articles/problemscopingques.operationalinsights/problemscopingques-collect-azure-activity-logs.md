@@ -6,7 +6,7 @@ articleId="problemscopingques-collect-azure-activity-logs"
 authors="neilghuman"
 ms.author="neghuman"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612422"
+supportTopicIds="32745390"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
@@ -87,7 +87,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -168,6 +168,14 @@
                     "text": "Issue description."
                 }
             ]
+        },
+        {
+            "id": "resource_group",
+            "order": 80,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Resource Group",
+            "watermarkText": "Provide Resource Group details for running insight diagnostics(Optional)",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

@@ -53,7 +53,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "solution",
-            "order": 8,
+            "order": 3,
             "visibility": "type_of_issue == Solution",
             "controlType": "textbox",
             "displayLabel": "What is the solution name?",

@@ -25,7 +25,7 @@
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Network/expressRouteCircuits",
     "recommendationFriendlyName": "ExpressRouteCircuit",
-    "recommendationMetadataState": "Disabled",
+    "recommendationMetadataState": "Active",
     "portalFeatures": [],
     "owner": {
         "email": "ExRPM@microsoft.com",
