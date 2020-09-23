@@ -77,6 +77,10 @@ With VNET enabled accounts, the selected user making changes to the account must
 
 If you are looking to find out who or when changes were made to your Cosmos DB account or get alerts when specific changes are made, you can enable this capability in Cosmos DB. Learn more at [How to audit Azure Cosmos DB control plane operations](https://docs.microsoft.com/azure/cosmos-db/audit-control-plane-logs).
 
+### **Azure Policy was not honored**
+
+Policies that are created using Azure Policy only apply to changes made against the Cosmos DB resource provider. To ensure enforcement of Azure Policies, the account must be locked down to prevent changes by users accessing the account using any of the Cosmos DB SDKs. For more information on how to configure your account to ensure Azure Policy enforcement see, [Preventing changes from Azure Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#prevent-sdk-changes)
+
 ## **Recommended Documents**  
 
 The below recommended documents describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.
