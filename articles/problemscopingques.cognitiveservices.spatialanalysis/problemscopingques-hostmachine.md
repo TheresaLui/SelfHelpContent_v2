@@ -1,15 +1,13 @@
 <properties
-  articleId="53a92698-a164-8375-253a-070312f502e6, 997fa6d5-433b-9e65-3460-e239a25c237b"
   pageTitle="Scoping questions - Issues related to spatial analysis usage"
   description="Scoping questions to troubleshoot the issues related to the host machine setup for the deployment of the spatial analysis container."
-  authors="kabrow"
-  authoralias="kabrow"
   ms.author="kabrow"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32767683, 32767689"
   productPesIds="16970"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="53a92698-a164-8375-253a-070312f502e6, 997fa6d5-433b-9e65-3460-e239a25c237b"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 
