@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f957caab-5899-ae1a-5874-b23c0f0d130b",
+      "longDescription": "",
+      "shortDescription": "Issues with Movere, VDI, Database and webapp and Azure Migrate",
+      "searchTags": "Movere;VDI;Database;WebApp",
+      "category": "Movere, VDI, Database and webapp",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
       "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
