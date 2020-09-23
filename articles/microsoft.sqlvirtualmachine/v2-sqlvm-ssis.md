@@ -1,20 +1,15 @@
 <properties
-	pageTitle="SQL Server Integration Services​ (SSIS)"
-	description="SQL Server Integration Services​ (SSIS)"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"
-    authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740060"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="1c63130c-dae2-412a-a8ac-08b3fb27ce6c"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="SQL Server Integration Services​ (SSIS)"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="ujpat,vadeveka,amamun,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32749435,32749436,32749437,32749438,32749439"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="1c63130c-dae2-412a-a8ac-08b3fb27ce6c"
+  ownershipid="AzureData_AzureSQLVM" />
 # SQL Server Integration Services​ (SSIS)
 
 ### Common Issues

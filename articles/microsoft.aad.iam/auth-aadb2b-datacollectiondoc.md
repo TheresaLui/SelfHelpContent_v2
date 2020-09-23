@@ -4,7 +4,7 @@
     authors="marialai"
     ms.author="mal"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615429,32615396,32615387"
+    supportTopicIds=""
     productPesIds="16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"

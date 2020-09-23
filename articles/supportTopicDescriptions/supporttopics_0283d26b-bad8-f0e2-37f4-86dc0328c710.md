@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eadbc728-a432-31f2-fb07-eb8b55fb061d",
+      "longDescription": "",
+      "shortDescription": "Resolve their issues with TDE, Always Encrypted and AKV",
+      "searchTags": "TDE;SQL;encrypted;VM",
+      "category": "Configuring AKV integration for SQL ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efb8c574-ac5b-f276-4d16-06b2230576fc",
       "longDescription": "",
       "shortDescription": "Manage certificate creation, import, renewal, export and CA integration with Key vault",
