@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar"
+  ms.author="anvar, panshar, adoyle"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -153,7 +153,7 @@
       "id": "5a9f4892-0caf-822b-a4e0-7fb80cba9418",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy appliance for Physical assessments",
-      "searchTags": "onboarding;PhysicalAssessment",
+      "searchTags": "Install physical appliance;Setup physical appliance;Deploy physical appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
