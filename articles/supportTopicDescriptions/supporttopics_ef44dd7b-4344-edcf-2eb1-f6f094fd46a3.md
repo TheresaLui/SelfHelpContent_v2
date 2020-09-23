@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f985706e-a16c-5649-3798-1f134d2d33ba",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when test migrate operation was triggered",
+      "searchTags": "Test migrate;Test migrate clean up;Request disallowed by policy",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
       "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
