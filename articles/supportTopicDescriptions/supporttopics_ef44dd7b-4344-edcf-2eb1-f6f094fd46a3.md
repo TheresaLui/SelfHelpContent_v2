@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ee391ed-245a-63cd-c267-faecc85fece7",
+      "longDescription": "",
+      "shortDescription": "Issues seen in on-prem environment while deploying Hyper-V Replication Provider",
+      "searchTags": "Replication provider;Hyper-V replica",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
       "longDescription": "",
       "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
