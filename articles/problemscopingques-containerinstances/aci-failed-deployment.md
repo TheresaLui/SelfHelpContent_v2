@@ -46,6 +46,7 @@
       {
          "id":"local_repro",
          "order":4,
+	 "required":true,
          "controlType":"radioButtonGroup",
          "displayLabel":"Are you able to run this container successfully on your local machine?",
          "radioButtonOptions":[
@@ -68,6 +69,7 @@
          "order":5,
          "controlType":"radioButtonGroup",
          "displayLabel":"Have you been able to deploy this container group successfully before on ACI?",
+	 "required":true
          "radioButtonOptions":[
             {
                "value":"Yes",
