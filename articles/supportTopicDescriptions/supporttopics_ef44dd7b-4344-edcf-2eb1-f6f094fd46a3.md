@@ -89,8 +89,8 @@
       "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
       "longDescription": "",
       "shortDescription": "Questions on assessment recommendations ",
-      "searchTags": "assessment recommendation",
-      "category": "Functionality",
+      "searchTags": "Compute cost;Cost analysis;Performance data",
+      "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
     {
