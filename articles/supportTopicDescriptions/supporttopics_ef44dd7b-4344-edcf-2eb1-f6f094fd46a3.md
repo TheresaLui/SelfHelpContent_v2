@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "164b9f09-19af-b77a-fa69-b12392f01d9a",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
       "longDescription": "",
       "shortDescription": "Issues that occur when users press Test Migrate button",
