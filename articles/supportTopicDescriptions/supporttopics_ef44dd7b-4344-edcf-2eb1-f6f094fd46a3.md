@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fa1ba081-f810-2734-79ba-505de2dbac7a",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
+      "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
       "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
