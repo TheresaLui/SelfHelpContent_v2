@@ -113,8 +113,8 @@
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
       "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
-      "searchTags": "hub;dashboard;project",
-      "category": "Tool",
+      "searchTags": "Find project;Delete project;Know more;ISV;Learn more",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
