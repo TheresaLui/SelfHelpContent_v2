@@ -353,8 +353,8 @@
       "id": "bbd3a56d-637a-dd3c-e631-b7214d8f29aa",
       "longDescription": "",
       "shortDescription": "Issues users encounter when deploying Azure Migrate appliance for VMware",
-      "searchTags": "onboarding;assessment",
-      "category": "Functionality",
+      "searchTags": "Install VMware appliance;Setup VMware appliance;Deploy VMware appliance;Unable to start discovery",
+      "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
     {
