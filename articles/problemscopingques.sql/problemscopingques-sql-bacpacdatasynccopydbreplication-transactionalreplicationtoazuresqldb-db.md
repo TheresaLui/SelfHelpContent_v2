@@ -10,35 +10,35 @@
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
 	ownershipId="AzureData_AzureSQLDB"
 />
-# Transactional Replication for Azure SQL DB
----
-
+#Transactional Replication for Azure SQL DB
 {
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"formElements": [
+	"formElements": 
+	[
         {
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the start time of the issue?",
-			"required": true
-			
-		}, {
+			"required": true	
+		}, 
+		{
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
 			"required": false
-			
-		}, {
+		}, 
+		{
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Have you recently migrated to Azure?",
 			"required": true,
-			"dropdownOptions": [
+			"dropdownOptions": 
+			[
 				{
 					"value": "Yes",
 					"text": "Yes"
@@ -52,7 +52,8 @@
 					"value": "dont_know_answer"
 				}
 			]
-		}, {
+		}, 
+		{
 			"id": "application_type",
 			"order": 4,
 			"controlType": "dropdown",
@@ -73,7 +74,8 @@
 					"value": "dont_know_answer"
 				}
 			]
-		}, {
+		}, 
+		{
 			"id": "migration_backend",
 			"order": 5,
 			"controlType": "dropdown",
@@ -110,5 +112,3 @@
         }
     ]
 }
-
----
