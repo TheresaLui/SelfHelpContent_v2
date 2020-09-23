@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2547e8ff-ab92-dcb6-7f85-9b451aa5d5e5",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2a958ff7-c6c2-293d-1390-017826b746ce",
       "longDescription": "",
       "shortDescription": "Issues related to difference in count of discovered servers between two tools on dashboard",
