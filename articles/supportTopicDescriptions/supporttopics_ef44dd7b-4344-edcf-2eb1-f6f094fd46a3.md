@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "15e27ae2-37d1-6afd-c5fe-db3034457184",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based Vmware stack",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "164b9f09-19af-b77a-fa69-b12392f01d9a",
       "longDescription": "",
       "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
