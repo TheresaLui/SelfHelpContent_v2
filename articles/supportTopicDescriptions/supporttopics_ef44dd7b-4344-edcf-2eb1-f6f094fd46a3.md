@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "945e969c-d948-4026-9390-e5028865c39a",
+      "longDescription": "",
+      "shortDescription": "General questions on ASM to ARM migration",
+      "searchTags": "ASM;ARM",
+      "category": "ASM to ARM migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96845980-d4cf-a2c9-42ab-424a5a08ff7e",
       "longDescription": "",
       "shortDescription": "Issues related to project not found. ",
