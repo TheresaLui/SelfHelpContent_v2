@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ed3b7cef-1101-a789-cb57-0132afb255ae",
+      "longDescription": "",
+      "shortDescription": "Health and Notification issues of Azure Migrate",
+      "searchTags": "Agent Health",
+      "category": "Agent Heath",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ee90fc52-ba02-fefc-0485-4a4b272580da",
       "longDescription": "",
       "shortDescription": "Issues encountered when users try to discover their on-prem environment",
