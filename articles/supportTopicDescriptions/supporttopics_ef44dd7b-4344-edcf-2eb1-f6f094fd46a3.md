@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8d509ded-6fc9-c77f-9f77-ef68acf1acbd",
+      "longDescription": "",
+      "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
+      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
       "longDescription": "",
       "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
