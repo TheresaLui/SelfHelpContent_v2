@@ -1,21 +1,15 @@
 <properties
-	pageTitle="SQL MIAA - Administration and Management"
-	description="SQL MIAA - Administration and Management"
-	infoBubbleText="SQL MIAA - Administration and Management"
-	service="microsoft.azuredata"
-	resource="sqlmanagedinstances"
-	ms.author="amigan,jopilov,prmadhes"
-	displayOrder=""
-	articleId="e648db50-83c7-474e-8aa6-1346a426b993"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32743956,32743963,32743964,32743965,32743966,32743970,32743974,32743976,32743979,32743982,32743980,32743986,32743987,32743988,32743991,32744001,32744004,32744010,32744011,32744014"
-	resourceTags=""
-	productPesIds="17125"
-	cloudEnvironments="Public"
-	ownershipId="AzureData_Managed_Instance_Azure_Arc"
-/>
-
+  pagetitle="Administration and Management of SQL Managed Instance Azure Arc"
+  service="microsoft.azuredata"
+  resource="sqlmanagedinstances"
+  ms.author="amigan,prmadhes,jopilov"
+  selfhelptype="Generic"
+  supporttopicids="32743941"
+  resourcetags=""
+  productpesids="17125"
+  cloudenvironments="public"
+  articleid="e648db50-83c7-474e-8aa6-1346a426b993"
+  ownershipid="AzureData_Managed_Instance_Azure_Arc" />
 # Administration and Management of SQL Managed Instance Azure Arc
 
 Most users are able to resolve their issues with SQL Managed Instance Azure Arc using the recommended documents below.
@@ -46,4 +40,3 @@ Most users are able to resolve their issues with SQL Managed Instance Azure Arc 
 
   - [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)
   - [ALTER SERVER CONFIGURATION](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql)
-  
