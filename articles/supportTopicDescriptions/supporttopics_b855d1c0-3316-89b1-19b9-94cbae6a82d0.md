@@ -21,19 +21,19 @@
       "id": "9f702178-d1e4-f3fc-ac2c-9d447204b6ec",
       "longDescription": "",
       "shortDescription": "Questions about purchasing or renewing your MPN Action Pack or competency with a credit card",
-      "searchTags": "Billing;Invoicing;ActionPack;Competency",
+      "searchTags": "Billing;Invoicing;Action;Pack;Competency",
     },
     {
       "id": "cb49dd48-9497-e427-1a6e-f4d5f51da512",
       "longDescription": "",
       "shortDescription": "Refund requests of purchases or billing scenarios for CSP transactions i.e. on-behalf-of customers",
-      "searchTags": "Billing;Invoicing;CSP",
+      "searchTags": "Billing;Invoicing;CSP;Refund;on-behalf-of",
     },
     {
       "id": "aec55713-8cbf-9b42-04ab-61054920fdf6",
       "longDescription": "",
       "shortDescription": "Questions about expediting purchase or renewal of your MPN Action Pack or competency with a wire transfer",
-      "searchTags": "Billing;Invoicing;ActionPack;Competency",
+      "searchTags": "Billing;Invoicing;Action;Pack;Competency;Wire;Transfer",
     },
     {
       "id": "a922fc71-d5cf-94e6-e329-7542a7f08bdf",
@@ -45,13 +45,13 @@
       "id": "cbc2da04-5d06-8d11-7fa8-ceb641793750",
       "longDescription": "",
       "shortDescription": "Questions about downloading the invoice for your MPN Action Pack or competency",
-      "searchTags": "Billing;Invoicing;ActionPack;Download;Invoice",
+      "searchTags": "Billing;Invoicing;Action;Pack;Download;Invoice;Competency",
     },
     {
       "id": "a7b77b19-2490-0473-2d99-e2075f48adb4",
       "longDescription": "",
       "shortDescription": "Questions about reconciliation files, invoices, or payments - for CSP billing or MPN membership only",
-      "searchTags": "Billing;Invoicing;Reconciliation;CSP;MPN",
+      "searchTags": "Billing;Invoicing;Reconciliation;CSP;MPN;Invoices",
     },
     {
       "id": "89465c12-ccb6-4d8f-57a4-ffe9f85f64a4",
