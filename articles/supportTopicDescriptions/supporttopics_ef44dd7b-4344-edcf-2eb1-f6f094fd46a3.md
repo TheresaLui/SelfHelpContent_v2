@@ -40,7 +40,7 @@
     {
       "id": "0b1f6dc4-bffb-f815-e06d-4a2ec47be9c7",
       "longDescription": "",
-      "shortDescription": "Issues related to a difference in count of servers discovered ",
+      "shortDescription": "Issues related to a difference in count of servers discovered",
       "searchTags": "count mismatch",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
@@ -88,7 +88,7 @@
     {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
-      "shortDescription": "How to delete appliance used for discovery ",
+      "shortDescription": "How to delete appliance used for discovery",
       "searchTags": "appliance deletion",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4fa98d21-ff9f-7b43-aec3-6fe095de405d",
+      "longDescription": "",
+      "shortDescription": "Get information related to migrating to Azure including AWS and other clouds",
+      "searchTags": "Know more;Learn more",
+      "category": "Project",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
       "longDescription": "",
       "shortDescription": "Issues with dependency analysis",
@@ -248,7 +256,7 @@
     {
       "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
       "longDescription": "",
-      "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
+      "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission.",
       "searchTags": "rdp;connectivity;boot;VM",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -360,7 +368,7 @@
     {
       "id": "bb8d2c9b-1e6a-8a2f-c830-feb96edaa58f",
       "longDescription": "",
-      "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines. ",
+      "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines.",
       "searchTags": "migrate",
       "category": "functionality",
       "useInDiagnoseAndSolve": "true"
