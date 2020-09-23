@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b24d0e8a-8a35-aa29-c74e-1b5742fc1437",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b469c4cf-17b1-66c9-dabe-0170b4efbf5b",
       "longDescription": "",
       "shortDescription": "When you see a difference in count of discovered servers between the two tools",
