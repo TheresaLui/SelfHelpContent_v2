@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6c688354-c0e1-4677-8ccf-a107e4eda746",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless Vmware stack",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d971ed9-6685-f673-fc77-2ff8d2c7701b",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy Hyper-V appliance",
