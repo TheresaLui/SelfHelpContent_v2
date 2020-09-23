@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "040e5a2c-6a2a-4e3a-8a7e-8ad320473a2f",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_StopClustersReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -43,7 +42,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://aka.ms/adxstopclusters",
   "description": "(PREVIEW) Stop Azure Data Explorer clusters to reduce cost and keep its data",
   "longDescription": "Your cluster has data but is not being used. Stop the cluster to reduce cost and still save the data. If the data is not needed, consider deleting the cluster to increase your savings.",
