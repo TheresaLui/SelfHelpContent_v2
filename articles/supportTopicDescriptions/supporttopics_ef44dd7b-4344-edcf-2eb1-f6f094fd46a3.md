@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "079ff875-5cef-8e59-8f71-2659a9624efe",
+      "longDescription": "",
+      "shortDescription": "Queries relates to Database, webapp & VDI tools integrated with Azure Migrate",
+      "searchTags": "DMA;DMS;Webapp;VDI",
+      "category": "Migration goals",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0b1f6dc4-bffb-f815-e06d-4a2ec47be9c7",
       "longDescription": "",
       "shortDescription": "Issues related to a difference in count of servers discovered ",
