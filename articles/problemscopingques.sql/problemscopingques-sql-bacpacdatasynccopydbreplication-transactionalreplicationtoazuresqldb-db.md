@@ -17,8 +17,7 @@
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"formElements": 
-	[
+	"formElements":[
         {
 			"id": "problem_start_time",
 			"order": 1,
@@ -39,8 +38,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Have you recently migrated to Azure?",
 			"required": true,
-			"dropdownOptions": 
-			[
+			"dropdownOptions":[
 				{
 					"value": "Yes",
 					"text": "Yes"
@@ -62,7 +60,7 @@
 			"displayLabel": "What is the application type? ",
 			"visibility": "recently_migrated == Yes",
 			"required": true,
-			"dropdownOptions": [
+			"dropdownOptions":[
 				{
 					"value": "modern_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
@@ -84,7 +82,7 @@
 			"displayLabel": "What was the Pre-Migration backend ?  ",
 			"visibility": "recently_migrated == Yes",
 			"required": true,
-			"dropdownOptions": [
+			"dropdownOptions":[
 				{
 					"value": "sql_server",
 					"text": "SQL Server"
