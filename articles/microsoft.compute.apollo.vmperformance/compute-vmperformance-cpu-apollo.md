@@ -31,6 +31,8 @@ The chart below shows the Virtual Machine CPU usage for the last 24 hours. Click
     <title>Current Virtual Machine CPU usage</title>
 </metric>
 
+## Diagnostics to detect performance issues
+
 <Insight>
     <symptomId>HighCpuUsageAzurePortalInsight,VMPerfDiagExtAzurePortalInsight</symptomId>
     <executionText>We are running a few performance checks on your VM</executionText>
