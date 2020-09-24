@@ -61,7 +61,7 @@
             "watermarkText": "Provide details of the API call that is being used.",
             "required": true,
             "useAsAdditionalDetails": false
-        }
+        },
         {
             "id": "problem_description",
             "order": 5,
