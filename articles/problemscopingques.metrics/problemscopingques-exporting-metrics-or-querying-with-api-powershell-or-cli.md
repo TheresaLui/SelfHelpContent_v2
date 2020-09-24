@@ -1,23 +1,23 @@
 <properties
-	articleId="problemscopingques-configuring-collection-of-metrics-or-sending-metrics-using-api-ai-sdk-rest-api-telegraf"
-	pageTitle="Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
-	description="Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
+	articleId="problemscopingques-exporting-metrics-or-querying-with-api-powershell-or-cli"
+	pageTitle="Exporting metrics, or querying with API, PowerShell, or CLI"
+	description="Exporting metrics, or querying with API, PowerShell, or CLI"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684770, 32684771, 32684769"
+	supportTopicIds="32684743, 32684742, 32684741"
 	productPesIds="16250"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
 
-# Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf
+# Exporting metrics, or querying with API, PowerShell, or CLI
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf",
+    "title": "Exporting metrics, or querying with API, PowerShell, or CLI",
     "fileAttachmentHint": "If applicable, please upload a screenshot of the error.",
     "formElements": [
         {
@@ -45,7 +45,7 @@
                 },
                 {
                     "value": "Ongoing",
-                    "text": "Issue occurs consistantly"
+                    "text": "Issue occurs consistently"
                 },
                 {
                     "value": "dont_know_answer",
