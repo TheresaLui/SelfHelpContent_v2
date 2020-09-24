@@ -11,6 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
+
 # Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf
 ---
 {
