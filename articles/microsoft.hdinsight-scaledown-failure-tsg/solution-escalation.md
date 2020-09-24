@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="eb8665a7-7ac1-4fa2-9b99-7e099f165ff8"
+	articleId="bb91b119-3801-4f82-86ab-38a9f38cbe6e"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
@@ -27,13 +27,11 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 ## **Possible RCA**
 
-* [Incorrect Repositories URLs](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
+* [Getting stuck in safe mode](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-scaling-best-practices#getting-stuck-in-safe-mode)
 
 ## **Recommended Documents**
 
-
-* [Scale Up Failure Investigation](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2646/Scale-Up-Failure-Investigation)
-* [Scaling](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2607/Scaling)
-* [Scaling Failure Guide](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/1495/Production-Alert-and-Help-Guide_Cluster-Health_Scaling-Failures)
+* [Scale Up Failure Investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349545/ScaleDown-Failure-Investigation)
+* [Scaling](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349540/Scaling)
 * [Scaling best practices](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-scaling-best-practices)
 
