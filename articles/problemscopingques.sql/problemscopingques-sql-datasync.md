@@ -2,9 +2,9 @@
 	articleId="problemscopingques-sql-datasync"
 	pageTitle="SQL Data Sync"
 	description="Scoping questions to capture sync group name"
-	authors="vitomaz-msft,sojaga"
-	authoralias="vitomaz,sojaga"
-	ms.author="vitomaz,sojaga"
+	authors="vitomaz-msft"
+	authoralias="vitomaz"
+	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630455"
 	productPesIds="13491"
@@ -32,79 +32,10 @@
             "displayLabel": "When did the problem start",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
-        },     
-        {
-			"id": "recently_migrated",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Have you recently migrated to Azure?",
-			"required": true,
-			"defaultDropdownOptions": [
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
-				}
-			]
-		},
-        {
-			"id": "application_type",
-			"order": 3,
-			"controlType": "dropdown",
-			"displayLabel": "What is the application type? ",
-			"visibility": "recently_migrated == Yes",
-			"required": true,
-			"DropdownOptions": [
-				{
-					"value": "modern_platform",
-					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
-				},
-				{
-					"value": "legacy",
-					"text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
-				},
-				{
-					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
-				}
-			]
-		},
-        {
-			"id": "migration_backend",
-			"order": 4,
-			"controlType": "dropdown",
-			"displayLabel": "What was the Pre-Migration backend ?  ",
-			"visibility": "recently_migrated == Yes",
-			"required": true,
-			"DropdownOptions": [
-				{
-					"value": "sql_server",
-					"text": "SQL Server"
-				},
-				{
-					"value": "oracle",
-					"text": "Oracle"
-				},
-				{
-					"value": "db2",
-					"text": "DB2"
-				},
-				{
-					"text": "Other, don't know or not applicable",
-					"value": "dont_know_answer"
-				}
-			]
-		},
+        },
         {
             "id": "syncgroupname",
-            "order": 5,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Sync Group facing the issue",
             "watermarkText": "Choose an option",
@@ -126,7 +57,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
