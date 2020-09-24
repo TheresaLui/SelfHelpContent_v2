@@ -46,7 +46,7 @@
                 "valueProperty": "name",
                 "textPropertyRegex": "[^/]+$"
             },
-            "dropdownOptions": [
+            "defaultdropdownOptions": [
                 {
                     "value": "Could not find any sync group in this hub",
                     "text": "Could not find any sync group in this hub"
@@ -61,7 +61,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Have you recently migrated to Azure?",
 			"required": true,
-			"defaultDropdownOptions": [
+			"dropdownOptions": [
 				{
 					"value": "Yes",
 					"text": "Yes"
@@ -83,7 +83,7 @@
 			"displayLabel": "What is the application type? ",
 			"visibility": "recently_migrated == Yes",
 			"required": true,
-			"defaultDropdownOptions": [
+			"dropdownOptions": [
 				{
 					"value": "modern_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
@@ -105,7 +105,7 @@
 			"displayLabel": "What was the Pre-Migration backend ?  ",
 			"visibility": "recently_migrated == Yes",
 			"required": true,
-			"defaultDropdownOptions": [
+			"dropdownOptions": [
 				{
 					"value": "sql_server",
 					"text": "SQL Server"
