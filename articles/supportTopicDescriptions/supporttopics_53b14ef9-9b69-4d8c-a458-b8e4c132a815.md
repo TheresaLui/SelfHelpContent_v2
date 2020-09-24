@@ -587,7 +587,7 @@
     {
       "id": "f6e253eb-2bfa-89bc-82ad-f65219562506",
       "longDescription": "",
-      "shortDescription": "Questions or issues with SQl server slowness, query execution time and query tuning",
+      "shortDescription": "Questions on SQL server slowness, optimization, query execution time and query tuning",
       "searchTags": "qp;qo;tuning;query optimization;query tuning;performance;sql server slow;query optimization;optimize;slow;query processing",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"

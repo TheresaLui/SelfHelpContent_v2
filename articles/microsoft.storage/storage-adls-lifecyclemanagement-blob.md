@@ -23,6 +23,9 @@
 
 Most customers resolved their ADLSGen2 Lifecycle Management issue on their own, using the steps below.
 
+### **Last Access Time based LCM (Preview)**
+- **[Last Access Time tracking is NOT supported for Azure Data Lake Storage Gen2 accounts](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#storage-account-support)**
+
 ### **Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected**
 
 - [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
