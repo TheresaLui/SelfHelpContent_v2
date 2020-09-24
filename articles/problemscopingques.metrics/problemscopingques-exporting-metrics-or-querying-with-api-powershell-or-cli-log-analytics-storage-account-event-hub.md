@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-exporting-metrics-or-querying-with-api-powershell-or-cli-log-analytics-storage-account-event-hub"
 	pageTitle="Exporting metrics, or querying with API, PowerShell, or CLI - Log Analytics, Storage account, Event Hub"
-	description="Exporting metrics, or querying with API, PowerShell, or CLI - Log Analytics, Storage account, Event Hub"	
+	description="Exporting metrics, or querying with API, PowerShell, or CLI - Log Analytics, Storage account, Event Hub"
     authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
