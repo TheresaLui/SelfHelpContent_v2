@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32740195,32740192,32740186"
 	productPesIds="17040"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="problemscopingques-quantum-providers"
 	ownershipId="Azure_Quantum"

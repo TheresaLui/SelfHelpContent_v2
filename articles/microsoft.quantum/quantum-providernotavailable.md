@@ -12,7 +12,7 @@
 	supportTopicIds="32740186,32740180,32740195"
 	resourceTags=""
 	productPesIds="17040"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public"
 	ownershipId="Azure_Quantum"
 />
 
