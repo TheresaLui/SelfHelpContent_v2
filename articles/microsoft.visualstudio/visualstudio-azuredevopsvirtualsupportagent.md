@@ -1,5 +1,5 @@
 <properties
-  pagetitle="DevOps Services Virtual Agent"
+  pagetitle="DevOps Services Virtual Agent&#xD;"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="ccoop,cathmill,juchung,rajr,pazand"
