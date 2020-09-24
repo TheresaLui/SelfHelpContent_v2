@@ -37,11 +37,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "27aad69f-c630-d9ca-d830-e4b573803397",
+      "longDescription": "",
+      "shortDescription": "Issues with fixing SQL Recommendations and Assessments ",
+      "searchTags": "SQL Assesment failed;sql assessment;fix sql assesment recommendations;assessment questions;assessment rules",
+      "category": "AssesmentIssues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "317016aa-51ba-1d75-c4be-9fef2548abae",
       "longDescription": "",
       "shortDescription": "Configure and Manage SQL Assessment recommendations",
       "searchTags": "sql assessment;fix recommendations;configure or manage assessments;setup sql assessments;Troubleshoot sql assessments",
       "category": "SQLAssesments",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3279f197-3fa1-e8e2-ce08-b4ee1655f803",
+      "longDescription": "",
+      "shortDescription": "Monitor and manage security threats for SQL Arc Server",
+      "searchTags": "vulnerability assesment;sql security threats;sql risks;security anomalies;azure data security",
+      "category": "SQLAds",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -69,11 +85,51 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "798da96d-6646-dd8f-4c24-14a5a1c1f1e1",
+      "longDescription": "",
+      "shortDescription": "Issues with setting up or configuring SQL Assessments or ODA ",
+      "searchTags": "ODA;Sql assessments ;Configure assessments;setup assessments;sql rules",
+      "category": "AssesmentsConfig",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "847c7cbd-f262-48e0-683a-6353a4ff0611",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot Microsoft monitoring agent extension and its issues.",
+      "searchTags": "extension failure;install monitoring agent;install agent;Microsoft monitoring agent or extension",
+      "category": "ADSSql",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
       "longDescription": "",
       "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
       "searchTags": "create sql arc resource;uninstall sql resource;create azure arc sql;manage sql arc resource;remove sql arc ",
       "category": "ManageSQLArc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9cd65c74-a135-07df-1b5f-c1edd1597aef",
+      "longDescription": "",
+      "shortDescription": "Investigate and questions about security issues or alerts triggered with Azure Sentinel",
+      "searchTags": "Azure Sentinel;Sentinel;alert or incidents;investigate threats;bookmarks",
+      "category": "ADSSql",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ae2c730a-ac62-d5b7-684e-cda59ea04cba",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring and managing Security Assessments and vulnerability assessments",
+      "searchTags": "advanced data security;SQL advanced data security;security risk and assessments;vulnerability assesments;sql security  threats",
+      "category": "SQLAds",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c03409b2-fe48-8189-6c93-155a0172a766",
+      "longDescription": "",
+      "shortDescription": "Issues with Azure arc Server and installing connected agent",
+      "searchTags": "azure arc for server;arc server",
+      "category": "AzureArcServer",
       "useInDiagnoseAndSolve": "true"
     },
     {
