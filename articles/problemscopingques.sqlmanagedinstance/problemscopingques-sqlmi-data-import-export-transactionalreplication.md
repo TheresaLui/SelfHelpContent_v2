@@ -1,43 +1,36 @@
 <properties
-	pageTitle="Performance and query execution/query performance and timeouts"
-	description="Scoping questions for performance and query execution/query performance and timeouts"
-	ms.author="pedin,andikshi,xinyl"
+	articleId="problemscopingques-sqlmi-data-import-export-transactionalreplication"
+	pageTitle="SQL Database Managed Instance Transactional Replication"
+	description="Scoping questions to get more details about data import export transactional replication"
+	authors="sojaga"
+	authoralias="sojaga"
+	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630450"
-	productPesIds="13491"
-	articleId="C00BD8E2-3CA0-451D-A2E5-8BE0987A0150"
-	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
+	productPesIds="16259"
+	supportTopicIds="32637312"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLDB_Performance"
+	ownershipId="AzureData_AzureSQLMI"
 />
-# Performance and query execution/query performance and timeouts
+# SQL Database Managed Instance
 ---
 {
 	"$schema": "SelfHelpContent",
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-	"title": "Query performance and timeouts",
-	"fileAttachmentHint": "",
-	"diagnosticCard": {
-	"title": "SQL DB Performance Troubleshooter",
-	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
-	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-	},
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the start time of the issue?",
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": true
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
-		}, {
+			"required": false
+					}, {
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
@@ -66,7 +59,7 @@
 			"required": true,
 			"dropdownOptions": [
 				{
-					"value": "modren_platform",
+					"value": "modern_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
 				},
 				{
@@ -108,8 +101,8 @@
 			"order": 6,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
-			"displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
-			"watermarkText": "Provide additional information about your query performance and timeouts.",
+			"displayLabel": "Please Provide additional details of your issue",
+			"watermarkText": "Please Provide additional information of the issue ",
 			"required": true
 		}
 	]
