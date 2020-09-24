@@ -26,7 +26,7 @@
             "displayLabel": "When did the problem start happening?",
             "required": false
         },
-                {
+        {
             "id": "problem_frequency",
             "order": 2,
             "controlType": "dropdown",
