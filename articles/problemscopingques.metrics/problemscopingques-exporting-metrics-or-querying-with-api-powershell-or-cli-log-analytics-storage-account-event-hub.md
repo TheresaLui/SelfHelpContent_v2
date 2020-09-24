@@ -17,7 +17,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Exporting metrics, or querying with API, PowerShell, or CLI - Log Analytics, Storage account, Event Hub"
+    "title": "Exporting metrics, or querying with API, PowerShell, or CLI - Log Analytics, Storage account, Event Hub",
     "fileAttachmentHint": "If applicable, please upload a screenshot of the error.",
     "formElements": [
         {
