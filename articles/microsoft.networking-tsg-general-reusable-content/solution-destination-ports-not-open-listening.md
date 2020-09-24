@@ -17,7 +17,7 @@
 
 # Application not listening or OS firewall blocking traffic
 
-This issue was caused by the VM configuration <application/firewall> that was not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
+This issue was caused by the VM <application/firewall> configuration that was not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
 
 ## **Recommended Steps**
 
