@@ -43,7 +43,7 @@
 					"text": "Workbook"
 				},
                                 {
-					"value": "don't know answer",
+					"value": "dont_know_answer",
 					"text": "Don't know answer"
 				}
 			]
