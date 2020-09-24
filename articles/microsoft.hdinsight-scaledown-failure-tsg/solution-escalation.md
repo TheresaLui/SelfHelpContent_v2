@@ -31,7 +31,7 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 ## **Recommended Documents**
 
-* [Scale Up Failure Investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349545/ScaleDown-Failure-Investigation)
+* [Scale Down Failure Investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349545/ScaleDown-Failure-Investigation)
 * [Scaling](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349540/Scaling)
 * [Scaling best practices](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
 
