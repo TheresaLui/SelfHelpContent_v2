@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-configuring-collection-of-metrics-or-sending-metrics-using-api-ai-sdk-rest-api-telegraf"
-	pageTitle=" Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
-	description=" Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
+	pageTitle="Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
+	description="Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
-#  Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf
+# Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": " Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf",
+    "title": "Configuring collection of metrics or sending metrics using API-AI SDK, REST API, Telegraf",
     "fileAttachmentHint": "If applicable, please upload a screenshot of the error.",
     "formElements": [
         {
