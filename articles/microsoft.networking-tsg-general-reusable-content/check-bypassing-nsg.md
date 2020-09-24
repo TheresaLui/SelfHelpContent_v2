@@ -13,7 +13,7 @@
 
 # Check connectivity again after bypassing the blocking NSG
 
-* By default, VMs in the same virtual network and peered virtual network can communicate with one another due to a system routing rule allowing intra Virtual Network connectivity. More information in online docs [Virtual network traffic routing](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview). Any NSGs blocking intra Vnet connectivity will typically be intentional and for customer's security compliance reasons.
+* By default, VMs in the same virtual network, in a peered virtual network, over an Azure VPN Gateway connection or over an ExpressRoute connection can communicate with one another due to system routing rules allowing intra Virtual Network connectivity. More information in online docs [Virtual network traffic routing](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview). Any NSGs blocking this connectivity will typically be intentional and for customer's security compliance reasons.
 * Understand the customer environment and purpose for the blocking NSG
 * Talk to the customer about the purpose of that particular NSG and its attributes (src IP, dest IP, port, blocked vs allowed) to demonstrate interest in the customer's environment and understand the bigger picture with the customer.
 

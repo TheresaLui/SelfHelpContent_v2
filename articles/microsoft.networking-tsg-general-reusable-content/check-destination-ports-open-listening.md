@@ -12,10 +12,23 @@
 />
 # Check Destination Ports Open and Listening
 
-In order for an Azure VM to respond to a network request, an application on the VM must be listening on that specific port and the OS firewall must allow access on that port.  This guide will show you how to check for these requirements on both the Windows and Linux VMs.
+In order for an Azure VM to respond to a network request, an application on the VM must be listening on that specific port and the OS firewall must allow access on that port.  This guide will show you how to check for these requirements on both the Windows and Linux VMs using the ***Port Scanner Diagnostic*** or how to complete ***manually***.
 
 ## **Recommended Steps**
 
+**Port Scanner Diagnostic** ***(Recommended)***
+-------
+1. Navigate to the destination VM in ASC Resource Explorer
+2. Select the "Diagnostics" Tab
+3. Select the  "Scan VM Ports"
+4. Enter destination ports to be scanned separated by commas. Example: 40, 443, 3389.  A dash can be used to test a range. Example 20-22. (The destination IP address will be automatically entered for you.)
+5. Run test and review results
+
+For more information go to [https://aka.ms/vmportscanner](https://aka.ms/vmportscanner)
+
+
+**Manual Steps**
+-------
 ***Windows***
 
 1. Determine if the application on the VM is listening. Use the command netstat -ano | findstr LISTENING | findstr 3389 where 3389 is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
