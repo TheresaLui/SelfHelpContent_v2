@@ -11,7 +11,7 @@ supportTopicIds="32633399,32633408"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-internal-server-error"
+articleId="sb-internal-server-error-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />

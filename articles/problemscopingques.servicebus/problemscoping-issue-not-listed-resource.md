@@ -11,7 +11,7 @@ supportTopicIds="32633404,32633403,32633391,32633387"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-issue-not-listed"
+articleId="sb-issue-not-listed-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />

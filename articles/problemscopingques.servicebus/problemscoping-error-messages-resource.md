@@ -11,7 +11,7 @@ supportTopicIds="32633395,32633409,32633400,32633396"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="service-bus-error-msg"
+articleId="service-bus-error-msg-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />

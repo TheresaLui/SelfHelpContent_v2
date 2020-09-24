@@ -11,7 +11,7 @@ supportTopicIds="32633405"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-client-libraries-question"
+articleId="sb-client-libraries-question-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />

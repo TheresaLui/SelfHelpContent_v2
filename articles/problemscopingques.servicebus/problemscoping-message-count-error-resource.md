@@ -11,7 +11,7 @@ supportTopicIds="32633398"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-count-issue"
+articleId="sb-message-count-issue-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />

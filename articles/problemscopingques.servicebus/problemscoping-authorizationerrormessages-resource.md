@@ -11,7 +11,7 @@ supportTopicIds="32633394"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-auth-issues"
+articleId="sb-auth-issues-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
