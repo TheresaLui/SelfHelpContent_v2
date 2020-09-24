@@ -55,5 +55,5 @@
 **Still need help?**
 
 Create a support ticket:
-* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=learningpartner%40msdirectservices.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=WW%20Learning&supporttopicid_l3=Support&language=EN)
+* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=learningpartner@msdirectservices.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=WW%20Learning&supporttopicid_l3=Support&locale=en-us&language=EN)
 
