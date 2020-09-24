@@ -19,44 +19,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "cloud_service_slots",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Slot",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dropdownOptions": [{
-                "value": "Production",
-                "text": "Production"
-            }, {
-                "value": "Staging",
-                "text": "Staging"
-            }]
-        },
-        {
-            "id": "cloud_service_roles",
-            "order": 2,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Role",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
-            "dynamicDropdownOptions": {
-                "dependsOn": "cloud_service_slots",
-                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No roles available"
-                    }
-            }
-        },
-        {
             "id": "failure_frequency",
-            "order": 3,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "What is the frequency of deployment failure?",
             "watermarkText": "Choose an option",
@@ -78,7 +42,7 @@
         },
         {
             "id": "if_fromportal",
-            "order": 4,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Does this issue occur when deploying from the portal?",
             "watermarkText": "Choose an option",
@@ -100,7 +64,7 @@
         },
         {
             "id": "deploy_error",
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message (include Operation ID etc).",
             "required": false,
@@ -108,7 +72,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -116,7 +80,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

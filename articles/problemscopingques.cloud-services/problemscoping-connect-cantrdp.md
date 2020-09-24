@@ -20,44 +20,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "cloud_service_slots",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Slot",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dropdownOptions": [{
-                "value": "Production",
-                "text": "Production"
-            }, {
-                "value": "Staging",
-                "text": "Staging"
-            }]
-        },
-        {
-            "id": "cloud_service_roles",
-            "order": 2,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Role",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
-            "dynamicDropdownOptions": {
-                "dependsOn": "cloud_service_slots",
-                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No roles available"
-                    }
-            }
-        },
-        {
             "id": "disable_reenable",
-            "order": 3,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Have you tried to disable and re-enable RDP from the Azure portal?",
             "watermarkText": "Choose an option",
@@ -75,7 +39,7 @@
         },
         {
             "id": "able_operation",
-            "order": 4,
+            "order": 2,
             "controlType": "multiselectdropdown",
             "displayLabel": "Which of the following are you able to do?",
             "watermarkText": "Choose all that apply.",
@@ -97,7 +61,7 @@
         },
         {
             "id": "if_partofvnet",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is this Cloud Service part of a vnet?",
             "watermarkText": "Choose an option",
@@ -115,7 +79,7 @@
         },
         {
             "id": "vnet_tried",
-            "order": 6,
+            "order": 4,
             "visibility": "if_partofvnet == Yes",
             "controlType": "multiselectdropdown",
             "displayLabel": "Which of the following have you tried",
@@ -142,7 +106,7 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -150,7 +114,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
