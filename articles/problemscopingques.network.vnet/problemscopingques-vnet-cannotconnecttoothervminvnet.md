@@ -175,7 +175,7 @@
         {
             "id": "DestinationPorts",
             "order": 4,
-            "visibility": "port_number == dont_know_answer",
+            "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
