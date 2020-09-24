@@ -6,7 +6,7 @@
     articleId="8189a205-7f30-4f97-90ab-230519248722_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="CloudES_AzureSupportCenter"
+    ownershipId="CloudES_AzureAdvisor"
 />
 # Upgrade to a support plan that includes technical support
 ---
