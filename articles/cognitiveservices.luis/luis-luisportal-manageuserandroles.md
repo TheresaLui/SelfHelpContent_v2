@@ -1,19 +1,15 @@
 <properties
-pageTitle="Migrations and Troubleshooting"
-description="Migrations and Troubleshooting"
-service="microsoft.CognitiveServices"
-resource="accounts"
-authors="SaraKandil"
-ms.author="a-sakand"
-displayOrder=""
-selfHelpType="generic"
-supportTopicIds="32683914"
-productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-articleId="LUIS_Conversation_LuisPortal_manageUserAndRoles"
-ownershipId="AzureCogSvc_CognitiveServices"
-/>
-
+  pagetitle="Migrations and Troubleshooting"
+  service="microsoft.cognitiveservices"
+  resource="accounts"
+  ms.author="a-sakand"
+  selfhelptype="Generic"
+  supporttopicids="32683914"
+  resourcetags=""
+  productpesids="16869"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="luis_conversation_luisportal_manageuserandroles"
+  ownershipid="AzureCogSvc_CognitiveServices" />
 # Migrations and Troubleshooting
 
 * **Two possible states of your account:** [Migrated](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#what-is-migration) or not migrated
@@ -29,7 +25,9 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * To Migrate, you need to create a new authoring resource, **make sure it is an authoring and not a runtime/prediction LUIS resource**, either from the [LUIS Portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#migration-steps) or from the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal)
 
-* If you are the owner or administrator of your Azure subscription, you can [add a contributor to the authoring resource](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate#add-contributor-to-azure-authoring-resource) to collaborate on the same applications
+* If you are the owner or administrator of your Azure subscription, you can [add a contributor to the authoring resource](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate#add-contributor-to-azure-authoring-resource) to collaborate on the same applications. You need to ensure that your collaborators have migrated their accounts to be able to view and manage the application.
+
+* If you are a collaborator on an authoring resource, make sure that you have migrated your account and the app owner has also migrated to be able to view the apps.   
 
 * There is a limit to the number of authoring keys created per subscription per region. This limit is **10 resources per subscription per region**. You will get an error of "Failed retrieving user's Azure information, retry again later."
 

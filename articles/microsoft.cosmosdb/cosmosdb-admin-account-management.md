@@ -17,20 +17,22 @@
 />
 
 # Manage an Azure Cosmos account
+
 Most users are able to resolve their Account provisioning or management issue using the steps below.
 
 ## **Recommended Steps**
 
 ### **Not able to create a new account or add a region (COVID-19)**
-As companies operationalize to address new and unique challenges, we have mobilized our global response plan to help customers stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating new demand. We are working closely with first responder organizations and critical government agencies to ensure we are prioritizing their unique needs and providing them our fullest support. We are also partnering with governments around the globe to ensure our local datacenters have on-site staffing and all functions are running properly.
+
+As companies operationalize to address new and unique challenges, we have mobilized our global response plan to help customers stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating new demand. We are working closely with first responder organizations and critical government agencies to ensure we are prioritizing their unique needs and providing them our fullest support. We are also partnering with governments around the globe to ensure our local data centers have on-site staffing and all functions are running properly.
 
 As demand continues to grow, if we are faced with any capacity constraints in any region during this time, we have established clear criteria for the priority of new cloud capacity. Top priority will be going to first responders, health and emergency management services, critical government infrastructure organizational use, and ensuring remote workers stay up and running with the core functionality of Teams. We will also consider adjusting free offers, as necessary, to ensure support of existing customers.
 
 As per the continuity plan, you may run into capacity constraints when performing the following operations:
 
-1. Provision/Create a new Cosmos DB Account(including Free-Tier account).
+1. Provision/Create a new Cosmos DB Account(including Free-Tier account)
 2. Adding a region to an existing Cosmos DB Account
-3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet.
+3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
@@ -42,28 +44,42 @@ If this is very critical for your business to have a new account or adding a reg
 
 **Note** : If you are having issues other than the operations listed above, please continue with the below information to see if that helps resolve your issue.
 
-### **Not able to remove or add a region**  
-If you are not able to remove a region in your database account please consider the following solutions:  
+### **Not able to remove or add a region**
+
+If you are not able to remove a region in your database account please consider the following solutions:
+
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
 * In a multi-region write mode, you can add or remove any region, if you have at least one region
 * You cannot change another account property while adding or removing a region. To remedy, change the other account properties first, then retry the region change. You can compare property values by exporting the account to a template and compare currently property values from those set by your template, including tags.
 
+### **Not able to delete an account**
 
-### **Not able to delete an account**  
-If after attempting to delete an account, you observe that nothing seems to happen and the account persists:  
+If after attempting to delete an account, you observe that nothing seems to happen and the account persists:
+
 * Verify if you have a *delete lock* enabled on the account.  You can verify this by navigating to the *Account* blade, selecting the account, and then view *Locks*.
 * Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*.  
 
+### **Not able to delete a resource group**
 
-### **Not able to delete a resource group**  
-If you are not able to delete a resource group, please consider the following solutions:  
+If you are not able to delete a resource group, please consider the following solutions:
+
 * Verify if there is a *lock* on an account located in the resource group that is preventing it from being deleted. You can verify this by navigating to the *Account* blade, selecting the account, and then view *Locks*.
 * Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*.
 * You also may have a lock on an additional items located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*.  
 
 ### **Unable to update Consistency as well as disable multi-region writes**
+
 With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET:
-* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency 
+
+* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency
+
+### **Find out who made changes to an Azure Cosmos DB account**
+
+If you are looking to find out who or when changes were made to your Cosmos DB account or get alerts when specific changes are made, you can enable this capability in Cosmos DB. Learn more at [How to audit Azure Cosmos DB control plane operations](https://docs.microsoft.com/azure/cosmos-db/audit-control-plane-logs).
+
+### **Azure Policy was not honored**
+
+Policies that are created using Azure Policy only apply to changes made against the Cosmos DB resource provider. To ensure enforcement of Azure Policies, the account must be locked down to prevent changes by users accessing the account using any of the Cosmos DB SDKs. For more information on how to configure your account to ensure Azure Policy enforcement see, [Preventing changes from Azure Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#prevent-sdk-changes).
 
 ## **Recommended Documents**  
 
@@ -71,6 +87,7 @@ The below recommended documents describes how to manage various tasks on an Azur
 
 [Managing Azure Cosmos Account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
 <br>This article describes how to manage various tasks on an Azure Cosmos account using the Azure portal:
+
 * Create an account
 * Add/remove regions from your database account
 * Configure multiple write-regions
@@ -78,9 +95,9 @@ The below recommended documents describes how to manage various tasks on an Azur
 * Set failover priorities for your Azure Cosmos account
 * Perform manual failover on an Azure Cosmos account  
 
-
 [Azure Resource Manager templates for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/resource-manager-samples)
 <br>This article includes links to Azure Resource Manager templates for Azure Cosmos DB:
+
 * SQL (Core) API
 * MongoDB API
 * Cassandra API
@@ -88,10 +105,10 @@ The below recommended documents describes how to manage various tasks on an Azur
 * Table API  
 
 [Azure CLI samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
-<br>This article includes links to sample Azure CLI scripts for Azure Cosmos DB SQL (Core) API.  
+<br>This article includes links to sample Azure CLI scripts for Azure Cosmos DB.  
 
-[PowerShell samples for Azure Cosmos DB SQL (Core) API](https://docs.microsoft.com/azure/cosmos-db/powershell-samples-sql)
-<br>This article includes samples to commonly used Azure PowerShell scripts for Azure Cosmos DB for SQL (Core) API.  
+[PowerShell samples for Azure Cosmos DB SQL (Core) API](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
+<br>This article includes samples to commonly used Azure PowerShell scripts for Azure Cosmos DB.  
 
 [Azure Lock Management](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
 <br>As an administrator, you may need to lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources. This article covers how to enable locks in the Portal and the intent for each lock type.
