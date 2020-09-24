@@ -54,7 +54,8 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
-        },{
+        },
+        {
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
@@ -74,7 +75,8 @@
 					"value": "dont_know_answer"
 				}
 			]
-		}, {
+		},
+        {
 			"id": "application_type",
 			"order": 4,
 			"controlType": "dropdown",
@@ -95,7 +97,8 @@
 					"value": "dont_know_answer"
 				}
 			]
-		}, {
+		},
+        {
 			"id": "migration_backend",
 			"order": 5,
 			"controlType": "dropdown",
