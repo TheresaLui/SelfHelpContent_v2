@@ -13,7 +13,7 @@
 
 # Check bypassing the blocking routing rules
 
-By default, VMs in the same virtual network and peered virtual network can communicate with one another due to a system routing rule allowing intra Virtual Network connectivity. User-defined routes (UDRs) can be introduced overriding the system intra Vnet routes. UDRs will typically be intentional and for customer's security compliance reasons.
+By default, VMs in the same virtual network, in a peered virtual network, over an Azure VPN Gateway connection or over an ExpressRoute connection can communicate with one another due to system routing rules allowing intra Virtual Network connectivity. User-defined routes (UDRs) can be introduced overriding the system intra Vnet routes. UDRs will typically be intentional and for customer's security compliance reasons.
 
 Understand the customer environment and purpose for the UDR. Talk to the customer about the purpose of that particular UDR and its attributes (src IP, next hop) to demonstrate interest in the customer's environment and understand the bigger picture with the customer.
 
