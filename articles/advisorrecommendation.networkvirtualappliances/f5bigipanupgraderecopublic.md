@@ -44,7 +44,7 @@ ownershipId="CloudNet_NVA"
             "actionId": "e426a334-7c3c-4770-9fa2-b7419a97a9d1",
             "description": "Contact Vendor support to upgrade NVA image to latest recommended version",
             "actionType": "Document",
-            'documentLink": "https://www.f5.com/services/support"
+            "documentLink": "https://www.f5.com/services/support"
         }
     ],
     "displayLabel": "Upgrade your Network Virtual Appliance Version to enable Accelerated Networking on all platforms.",
