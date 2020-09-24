@@ -22,18 +22,18 @@
 Sessions refer to the number of concurrent connections allowed to a SQL database at a time. Workers can be thought of as the processes in the SQL database that are processing queries. The maximum number of workers allowed depends on your databases’s service tier.
 Azure SQL DB limits the number of [concurrent workers](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-dtu-single-databases?WT.mc_id=pid:13491:sid:32745427) allowed to the database. 
 
-You can use the [sys.dm_db_resource_stats](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-resource-stats-azure-sql-database?view=azuresqldb-current), to quickly check Maximum concurrent workers (requests) in percentage of the limit of the database's service tier.
+Use the [sys.dm_db_resource_stats](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-resource-stats-azure-sql-database?view=azuresqldb-current), to quickly check **Maximum concurrent workers (requests)** as a percentage of the limit of the database's service tier.
 When the worker limit is reached, clients will receive an error message (Error 10928: Resource ID : 1) and will be unable to query your database.
 
 ## **Recommended Steps**
 
 For an immediate solution, scale your database to a larger service tier sufficient to handle the workload.
 
-Longer-term, you should try:
+Longer-term, you should:
 
-* Optimizing queries to reduce the resource utilization of each query if the cause of increased worker utilization is due to contention for compute resources. For more  information, see[Query Tuning/Hinting](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance#query-tuning-and-hinting).
-* Reducing the [MAXDOP](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-ver15#Guidelines) (maximum degree of parallelism) setting.
-* Optimizing query workload to reduce number of occurrences and duration of query blocking.
+* Optimize queries to reduce the resource utilization of each query if the cause of increased worker utilization is due to contention for compute resources. For more  information, see [Query Tuning/Hinting](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance#query-tuning-and-hinting).
+* Reduce the [MAXDOP](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-ver15#Guidelines) (maximum degree of parallelism) setting.
+* Optimize query workload to reduce number of occurrences and duration of query blocking.
 
 
 ## **Recommended Documents**

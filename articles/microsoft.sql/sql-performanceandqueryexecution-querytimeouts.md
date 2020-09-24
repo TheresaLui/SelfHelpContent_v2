@@ -17,6 +17,23 @@
 
 # Resolve poor query timeout performance issues in Azure SQL Database
 
+### **Command Timeout**
+
+In general command timeouts can be investigated using [query data store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15 ),where exec_type = 3 captures queries with a timeout.
+
+That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
+
+If the query bottleneck on IO : 
+* Increase the query timeout.
+* Further optimize query if possible.
+* If query must perform lots of IOs and is latency sensitive than latencies per IO are better in BC offers.
+
+If the query bottleneck is on CPU:
+* Check other CPU intensive activities.
+* Find of that is due to any other user load.
+* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query or scale the database.
+
+
 ### **Connection Timeout**
 
 For DTU bases SLO's Azure SQL is using DTU as a measure of how many resources you use like CPU, IO and so on. So if you are using 100% of DTU your queries will be delayed and  you will get timeout exception. By default there is 30 seconds timeout in .net connection . Increasing will probably not help you since issue could be that you are running same query many times and it starts blocking each other.
@@ -30,21 +47,7 @@ If you still want to increase timeout you can do that in [.config](https://docs.
 ;Connection Timeout=<value>
 ```
 
-### **Command Timeout**
 
-In general command timeouts can be investigated using [query data store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15 ). exec_type != 0 captures failed queries and 3 is timeout.
-
-That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
-
-If the query bottleneck on IO : 
-* Increase the query timeout.
-* Further optimize query if possible.
-* If query must perform lots of IOs and is latency sensitive than latencies per IO are better in BC offers.
-
-If the query bottleneck is on CPU:
-* Check other CPU intensive activities.
-* Find of that is due to any other user load.
-* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query or scale the database.
 
 ## **Recommended Documents**
 

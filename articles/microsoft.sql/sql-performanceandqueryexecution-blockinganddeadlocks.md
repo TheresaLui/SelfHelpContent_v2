@@ -19,7 +19,9 @@
 
 ### **Blocking**
 
-Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. The concept of blocking is not different on Azure SQL Database then on SQL Server. Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
+Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isloation level is different. [READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server) is set to on for Azure SQL Databases.
+
+Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
 
 The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries.
 
@@ -57,8 +59,8 @@ FROM CTE
 
 To obtain a deadlock graph:
 
-* Copy the deadlock_xml column results from the previous query and load into a text file. If more than one row is returned, you will want to do each row result separate.
-* Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graphic.
+* Copy the deadlock_xml column results from the previous query and load into a text file. If more than one row is returned, you will want to do each row result separately.
+* Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graph.
 
 If you need to customize the events you capture when a deadlock occurs, you can create your own [Extended Events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) Session with the following events for a deadlock.
 

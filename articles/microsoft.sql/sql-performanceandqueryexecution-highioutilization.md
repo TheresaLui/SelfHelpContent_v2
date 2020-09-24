@@ -17,7 +17,7 @@
 
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
-The statistics are crucial for SQL engine to know how much data it will be working with and with that information creating better execution plans. Having better execution plans, queries will have better performance and will use the right amount of resources required and thus can help reduce IO usage. Use the [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more inforamtion on updating statistics.
+Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more inforamtion on updating statistics.
 
 IO Usage is split into two types: Data IO and Log IO.Your can quickly identify the IO usage using the query below.
 
@@ -32,7 +32,7 @@ If the IO usage is above 80% you have two options:
 * Option 1: Upgrade the compute size or service tier.
 * Option 2: Identify and tune the queries consuming the most IO.
 
-### **How To identify and top IO consuming queries**
+### **How To identify the top IO consuming queries**
 
 When identifying IO performance issues, the top wait types associated with IO issues are:
 * PAGEIOLATCH_*

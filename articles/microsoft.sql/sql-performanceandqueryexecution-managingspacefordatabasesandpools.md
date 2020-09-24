@@ -20,11 +20,10 @@
 ### **Fastest way to mitigate low or no free space available**
 
 * Increase storage, if service tier allows it.
-* Upgrdae to a service tier that can provide more storage.
+* Upgrade to a service tier that can provide more storage.
 * If you are facing issues due to Tempdb being full, you can do a failover to clear tempdb. 
 
-Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
-<a href="https://docs.microsoft.com/rest/api/sql/databases(failover)/failover">Failover Rest API</a> can be used to easily failover your Azure SQL database to a new node.
+The [Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases(failover)/failover) can be used to easily failover your Azure SQL database to a new node, which clears tempdb.  Note that existing connections will be dropped during the failover, so applications should handle the disconnect with appropriate retry logic.
 
 ### **Calculating database and objects sizes**
 
@@ -51,7 +50,13 @@ GO
 
 ### **TempDB Issues**
 
-The top wait types associated with tempdb issues is PAGELATCH_* (not PAGEIOLATCH_*). However, PAGELATCH_* waits do not always mean you have tempdb contention. This wait may also mean that you have user-object data page contention due to concurrent requests targeting the same data page. To further confirm tempdb contention, use [sys.dm_exec_requests](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) to confirm that the wait_resource value begins with 2:x:y where 2 is tempdb is the database ID, x is the file ID, and y is the page ID.
+The top wait types associated with tempdb issues are PAGELATCH_* (not PAGEIOLATCH_*). However, PAGELATCH_* waits do not always mean you have tempdb contention. This wait may also mean that you have user-object data page contention due to concurrent requests targeting the same data page. 
+
+To further confirm tempdb contention, use [sys.dm_exec_requests](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) to confirm that the wait_resource value begins with 2:x:y where 2 is tempdb database ID, x is the file ID, and y is the page ID.  
+For example: Wait Resource 2:1:3 is  
+DatabaseID: 2 (TempDB)   
+File Number: 1 (The first data file)   
+Page Number: 3 (SGAM Page) )
 
 For tempdb contention, a common method is to reduce or re-write application code that relies on tempdb. Common tempdb usage areas include:
 
