@@ -3,7 +3,7 @@ pageTitle="NVA Accelerated Networking upgrade alert recommendation"
 description="NVA Accelerated Networking upgrade recommendation"
 authors="jeffcoo,scottnap"
 ms.author="nvaeng"
-articleId="33b66f53-738a-4200-8672-63c47a15144e"
+articleId="33b66f53-738a-4200-8672-63c47a15144e_Public"
 selfHelpType="advisorRecommendationMetadata"
 cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
@@ -35,7 +35,7 @@ ownershipId="CloudNet_NVA"
         "serviceTreeId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985"
     },
     "version": 1.0,
-    "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms", 
+    "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
     "description":"Update to the latest version of your Cisco Cloud Services Router 1000V product for Accelerated Networking support." ,
     "longDescription": "We have identified that your Virtual Machine might be running a version of a software image that is running older drivers for Accelerated Networking (AN). It has a synthetic network interface which, either, is not AN capable or is not compatible with all Azure hardware. It is recommended that you upgrade to the latest version of the image that addresses this issue and enable Accelerated Networking. Please contact Your vendor for further instructions on how to upgrade your Network Virtual Appliance Image.",
     "potentialBenefits": "Faster network throughput with lower latency.",

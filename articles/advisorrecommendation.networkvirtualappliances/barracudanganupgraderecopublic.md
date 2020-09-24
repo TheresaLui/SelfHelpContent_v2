@@ -3,7 +3,7 @@ pageTitle="NVA Accelerated Networking upgrade alert recommendation"
 description="NVA Accelerated Networking upgrade recommendation"
 authors="jeffcoo,scottnap"
 ms.author="nvaeng"
-articleId="33b66f53-738a-4200-8672-63c47a15144e"
+articleId="f892f705-a708-47b0-9de2-95a958c479c2_Public"
 selfHelpType="advisorRecommendationMetadata"
 cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
@@ -14,7 +14,7 @@ ownershipId="CloudNet_NVA"
     "recommendationOfferingId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985",
     "recommendationOfferingName": "NVA Engineering",
     "$schema": "AdvisorRecommendation",
-    "recommendationTypeId": "33b66f53-738a-4200-8672-63c47a15144e",
+    "recommendationTypeId": "f892f705-a708-47b0-9de2-95a958c479c2",
     "dataSourceMetadata": {
         "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').GetBarracudaNgVmListANUpgradeReco",
         "dataSource": "Kusto",
