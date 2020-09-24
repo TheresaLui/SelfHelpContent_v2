@@ -85,7 +85,7 @@
       "title": "Observation End Time"
     }
   ],
-  "testData": "ae0f087c-e3c0-44d1-a400-075bc8150b6e,/subscriptions/ae0f087c-e3c0-44d1-a400-075bc8150b6e/resourceGroups/ADE/providers/Microsoft.Kusto/clusters/sorento,1.0,\"{\"\"clusterName\"\":\"\"SORENTO\"\",\"\"currentConfig\"\":\"\"Mock Standard_D11_v2 - 2 Instances\"\",\"\"observationStartTime\"\":\"\"2020-08-18T20:40:28.1128748Z\"\",\"\"observationEndTime\"\":\"\"2020-09-17T20:40:28.1128748Z\"\",\"\"savingsAmount\"\":\"\"105.04\"\",\"\"annualSavingsAmount\"\":\"\"1260.48\"\",\"\"savingsCurrency\"\":\"\"USD\"\"}\"",
+  "testData": "08ed568c-822f-4f2d-9327-e79bde1d18c1,/subscriptions/08ed568c-822f-4f2d-9327-e79bde1d18c1/resourceGroups/Cerebro-dev/providers/Microsoft.Kusto/clusters/cerebrodev,2.1,\"{\"\"clusterName\"\":\"\"SORENTO\"\",\"\"currentConfig\"\":\"\"Mock Standard_D11_v2 - 2 Instances\"\",\"\"observationStartTime\"\":\"\"2020-08-18T20:40:28.1128748Z\"\",\"\"observationEndTime\"\":\"\"2020-09-17T20:40:28.1128748Z\"\",\"\"savingsAmount\"\":\"\"105.04\"\",\"\"annualSavingsAmount\"\":\"\"1260.48\"\",\"\"savingsCurrency\"\":\"\"USD\"\"}\"",
   "remediation": [
     {
       "httpMethod": "POST",
