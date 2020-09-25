@@ -419,9 +419,9 @@
     {
       "id": "c45a4321-c1ba-400a-d2d0-ab6ecc8a3730",
       "longDescription": null,
-      "shortDescription": "Questions or issues with pricing for Azure subscriptions, services or marketplace items",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on Prices of Azure Services visible on Pricesheet Download, Pricing API, Portal Deployment experience or Azure Pricing Calculator",
+      "searchTags": "Pricing;Pricing Calculator;Pricing API",
+      "category": "Provisioning",
       "useInDiagnoseAndSolve": "true"
     },
     {
