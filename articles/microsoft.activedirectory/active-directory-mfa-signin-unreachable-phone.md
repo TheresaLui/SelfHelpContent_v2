@@ -30,5 +30,3 @@ Try switching to another MFA method, such as the Microsoft Authenticator mobile 
 ## **Recommended Documents**
 
 - [Troubleshoot MFA Common Problems](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-troubleshoot)
-
-- [Microsoft Authenticator](https://www.microsoft.com/account/authenticator)

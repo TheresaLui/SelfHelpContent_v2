@@ -29,4 +29,4 @@ Learn more about security defaults and how it applies to sign-ins.
 
 ## **Recommended Documents**
 
-- [Conditional Access Security Defaults](https://aka.ms/securitydefaults)
+- [Conditional Access Security Defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
