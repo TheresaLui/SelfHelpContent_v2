@@ -14,8 +14,8 @@
 # CosmosDB Service Unavailability Issue
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "CosmosDB Service Unavailability Issue",
     "fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
     "formElements": [
@@ -76,7 +76,7 @@
             "controlType": "dropdown",
             "displayLabel": "Database name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
             "text": "Select Database Name"
@@ -91,7 +91,7 @@
             "controlType": "dropdown",
             "displayLabel": "Collection name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
 
