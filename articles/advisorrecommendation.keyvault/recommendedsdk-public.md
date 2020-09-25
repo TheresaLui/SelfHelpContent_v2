@@ -15,7 +15,7 @@
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
 	"dataSourceMetadata": {
-		"streamNamespace": "cluster('https://keyvault.kusto.windows.net').database('warm-test').GetAzureAdvisorRecommendedSdkReport",
+		"streamNamespace": "cluster('https://keyvault.kusto.windows.net').database('warm-public').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
 		"refreshInterval": "1.00:00:00"
 	},
