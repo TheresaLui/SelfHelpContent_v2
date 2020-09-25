@@ -27,6 +27,7 @@ Below are documents to help you understand how partner center invoices work.
 You can find previous invoices in the "Billing history" section. Choose the appropriate year, then select the drop-down arrow next to that Billing period. Select the link next to "Invoices" (.pdf) to download that period's invoice
 - For usage-based and license-based billing, your invoice is available within two (2) days of your selected billing date in UTC time.
 - For one-time and recurring billing, the billing period is aligned to calendar month and the invoice/reconciliation files will be available no later than 8th of every month. 
+- For questions on Azure Plan billing and Partner Earned Credit (PEC), please refer to [PEC support questions](https://partner.microsoft.com/support/v2/?stage=2&topicid=1d913fa4-20e6-142b-1048-ad648d21b5a0)
  
 ## **Recommended Documents**
 
