@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Support topic description for Azure Backup"
+  pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
   ms.author="akankshajsh, v-kraku, srinathv, yagohel"
