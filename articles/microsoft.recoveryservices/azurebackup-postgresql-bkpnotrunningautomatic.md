@@ -19,3 +19,5 @@
 
 ## **Recommended Documents**
 
+- Troubleshoot [Azure Database for PostgreSQL backup issues](https://docs.microsoft.com/azure/backup/backup-azure-database-postgresql#troubleshooting)
+- [How to configure backup of PostgreSQL server database using Azure backup?](https://docs.microsoft.com/azure/backup/backup-azure-database-postgresql)
