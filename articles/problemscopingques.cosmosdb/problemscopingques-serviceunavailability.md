@@ -75,26 +75,28 @@
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Database name",
-           "dynamicDropdownOptions": {
+            "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
             "text": "Select Database Name"
-            },
+            }
           },
             "required": true
         },
 		{
             "id": "collection_name",
             "order": 6,
+            "visibility": "database_name != null",
             "controlType": "dropdown",
             "displayLabel": "Collection name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
+
             "text": "Select Collection Name"
-            },
+            }
           },
             "required": true
         },
