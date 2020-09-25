@@ -76,7 +76,7 @@
             "controlType": "dropdown",
             "displayLabel": "Database name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
             "text": "Select Database Name"
@@ -91,7 +91,7 @@
             "controlType": "dropdown",
             "displayLabel": "Collection name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
 
