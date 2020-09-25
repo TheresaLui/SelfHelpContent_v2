@@ -78,7 +78,8 @@
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
                 "jTokenPath": "value",
-                "valueProperty": "DatabaseName",
+                "textProperty": "name",
+                "valueProperty": "name",
                 "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Select Database Name"
@@ -95,7 +96,8 @@
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
                 "jTokenPath": "value",
-                "valueProperty": "CollectionName",
+                "textProperty": "name",
+                "valueProperty": "name",
                 "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Select Collection Name"
