@@ -19,7 +19,8 @@
 
 # VM boot error: 0xC000021A Status System Process Terminated
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the either the WinLogon (winlogon.exe) or the Client Server Run-Time Subsystem (csrss.exe) failed. These services are critical processes, so when the kernel detects either has stopped, it results in the 0xC000021A error.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the either the WinLogon (winlogon.exe) or the Client Server Runtime Subsystem (csrss.exe) failed. These services are critical processes, so when the kernel detects either has stopped, it results in the 0xC000021A error.
+<!--/issueDescription-->
 
 Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **0xC000021A**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
