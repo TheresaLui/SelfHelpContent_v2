@@ -1,6 +1,3 @@
-azurebackup-backupcenter-datamissing.md
-
-
 <properties
 	pageTitle="Azure Backup Center"
 	description="Azure Backup Center"
