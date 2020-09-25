@@ -41,12 +41,12 @@
 	"supportedSDKLanguages": [".Net"],
 	"actions": [{
 			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
-			"description": "",
+			"description": "todo",
 			"actionType": "Document",
 			"documentLink": "{recommendedActionLearnMore}"
 		},
 		{
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
+			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5114",
 			"description": "View {version} release notes",
 			"actionType": "Document",
 			"documentLink": "{releaseNotes}"
@@ -54,7 +54,7 @@
 	],
 	"resourceMetadata": {
 		"action": {
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
+			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5115",
 			"actionType": "Blade",
 			"extensionName": "Microsoft_Azure_KeyVault",
 			"bladeName": "VaultBlade",
