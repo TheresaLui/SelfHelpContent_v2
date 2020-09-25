@@ -77,6 +77,7 @@
             "displayLabel": "Database name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts?api-version=2015-11-06",
+                "jTokenPath": "value",
                 "valueProperty": "DatabaseName",
                 "defaultDropdownOptions": {
                 "value": "dont_know_answer",
@@ -93,13 +94,13 @@
             "displayLabel": "Collection name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDb/databaseAccounts/{replaceWithParentValue}/containers?api-version=2015-11-06",
-            "valueProperty": "CollectionName",
-            "defaultDropdownOptions": {
-            "value": "dont_know_answer",
-
-            "text": "Select Collection Name"
-            }
-          },
+                "jTokenPath": "value",
+                "valueProperty": "CollectionName",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Collection Name"
+                }
+            },
             "required": true
         },
 		{
