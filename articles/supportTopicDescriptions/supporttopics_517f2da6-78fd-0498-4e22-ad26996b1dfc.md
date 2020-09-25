@@ -2,10 +2,10 @@
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, prdasneo"
+  ms.author="akankshajsh, prdasneo, mumami"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="billing-supporttopicdescription"
   ownershipid="ASMS_Billing"
   icmteam="icmteam"
@@ -59,9 +59,9 @@
     {
       "id": "0c04be9f-8434-be1f-8a08-a6a25a730844",
       "longDescription": null,
-      "shortDescription": "Questions about the pricing models of any offers or services",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions about Pricing of Azure Services",
+      "searchTags": "Pricing;Pricing Calculator;Pricing API",
+      "category": "Provisioning",
       "useInDiagnoseAndSolve": "true"
     },
     {
