@@ -19,7 +19,7 @@
 
 **Error 10928: Resource ID : 1: The worker limit for the database has been reached**
 
-Sessions refer to the number of concurrent connections allowed to a SQL database at a time. Workers can be thought of as the processes in the SQL database that are processing queries. The maximum number of workers allowed depends on your databases’s service tier.
+Sessions refer to the number of concurrent connections allowed to a SQL database at a time. Workers can be thought of as the processes in the SQL database that are processing queries. The maximum number of workers allowed depends on your databases' service tier.
 Azure SQL DB limits the number of [concurrent workers](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-dtu-single-databases?WT.mc_id=pid:13491:sid:32745427) allowed to the database. 
 
 Use the [sys.dm_db_resource_stats](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-resource-stats-azure-sql-database?view=azuresqldb-current), to quickly check **Maximum concurrent workers (requests)** as a percentage of the limit of the database's service tier.

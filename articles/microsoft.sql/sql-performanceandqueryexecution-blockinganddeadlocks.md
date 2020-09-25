@@ -19,7 +19,7 @@
 
 ### **Blocking**
 
-Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isloation level is different. [READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server) is set to on for Azure SQL Databases.
+Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isolation level is different. [READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server) is set to on for Azure SQL Databases.
 
 Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
 
