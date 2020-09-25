@@ -36,7 +36,7 @@ If you use the "Sign-in" policy, your custom session token duration will not be 
 
 At this time, we do not support UI customization for "Sign-in" policies. You can use a "Sign-up or Sign-in" policy if you would like to customize your sign-in page. If you would like to see UI customization supported for "Sign-in" policies, we encourage you to vote and/or add comments in our [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/suggestions/13062033-b2c-fully-customizable-sign-in-page) forum with your feedback.
 
-## **I am facing issues with API connectors**
+### **I am facing issues with API connectors**
 
 If you're facing issues with API connectors, please follow the best practices and troubleshooting recommendations found [here](https://aka.ms/b2capiconnectorstroubleshoot)
 
