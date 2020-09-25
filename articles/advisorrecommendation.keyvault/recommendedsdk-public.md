@@ -2,12 +2,12 @@
     pageTitle="Upgrade SDK version recommendation"
     description="Todo DEscription"
     ms.author="osmuller"
-    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public.md"
+    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public"
     ownershipId="AzureKeyVault_KeyVault"
 />
-# Sample title
+# Key Vault SDK Version Recommendation
 ---
 {
   "recommendationOfferingId": "8e93a1fd-5378-4ec7-a1e7-135f74745054",
