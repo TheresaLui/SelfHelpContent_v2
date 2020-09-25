@@ -8,7 +8,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="newGuid"
-	ownershipId=""
+	ownershipId="CloudES_AzureSupportPlatform"
 />
 # Error When Connecting to my Database
 ---
