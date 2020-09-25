@@ -15,7 +15,7 @@
 		ownershipId="StorageMediaEdge_Backup"
 />
 
-# Backup (schedule backup) is not running automatically
+# Backup is taking longer than expected
 
 ## **Recommended Documents**
 
