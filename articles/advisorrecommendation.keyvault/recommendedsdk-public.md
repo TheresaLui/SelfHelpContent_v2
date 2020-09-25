@@ -2,7 +2,7 @@
     pageTitle="Upgrade SDK version recommendation"
     description="Todo DEscription"
     ms.author="osmuller"
-    articleId="recommendedsdk-prod.md"
+    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public.md"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public"
     ownershipId="AzureKeyVault_KeyVault"
@@ -61,7 +61,7 @@
       "bladeName": "VaultBlade",
       "metadata": {
         "id": "{resourceId}"
-        },
+        }
     }
   },
   "displayLabel": "Update Key Vault Library",
@@ -75,6 +75,6 @@
       "title": "Minimum Recommended Version"
     }
   ],
-  "tip": "",
+  "tip": ""
 }
 ---
