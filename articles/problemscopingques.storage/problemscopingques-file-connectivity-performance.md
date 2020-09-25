@@ -42,8 +42,30 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "problem_description",
+            "id": "file_share_protocol",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "File Share Protocol",
+            "watermarkText": "Select File Share Protocol",
+            "dropdownOptions": [
+                {
+                    "value": "SMB",
+                    "text": "SMB Protocol"
+                },
+                {
+                    "value": "NFS",
+                    "text": "NFS Protocol"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

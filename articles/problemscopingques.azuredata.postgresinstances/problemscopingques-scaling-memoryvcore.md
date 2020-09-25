@@ -50,11 +50,29 @@
 			],
 			"required": true
 		}, {
-			"id": "whatscale",
+			"id": "what_scale",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What are you trying to scale (Min vCore, Max vCore, Min memory, Max Memory)?",
-			"required": false
+			"controlType": "dropdown",
+			"displayLabel": "What are you trying to scale?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Min vCore",
+					"text": "Min vCore"
+				}, {
+					"value": "Max vCore",
+					"text": "Max vCore"
+				}, {
+					"value": "Min memory",
+					"text": "Min memory"
+				}, {
+					"value": "Max Memory",
+					"text": "Max Memory"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
 		}, {
 			"id": "scaleupdown",
 			"order": 5,

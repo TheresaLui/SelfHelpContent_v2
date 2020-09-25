@@ -54,7 +54,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "What command did you use?",
-			"required": true
+			"required": false
 		}, {
 			"id": "workernodes",
 			"order": 5,
