@@ -27,7 +27,7 @@
             "displayLabel": "Select the impacted autoscale setting.",
             "watermarkText": "Select the impacted autoscale setting",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/microsoft.insights/autoscalesettings/{autoscaleSettingName}?api-version=2015-04-01",
+                "uri": "/subscriptions/{subscriptionId}/providers/microsoft.insights/autoscalesettings?api-version=2015-04-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",

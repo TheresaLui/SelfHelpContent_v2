@@ -27,7 +27,7 @@
             "displayLabel": "Select the impacted metric rule.",
             "watermarkText": "Choose a metric rule",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}?api-version=2018-03-01",
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Insights/metricAlerts?api-version=2018-03-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
