@@ -16,7 +16,7 @@
 
 ---
 {
-    "subscriptionrequired": true,
+    "subscriptionrequired": false,
     "resourceRequired": false,
     "title": "Active Directory application dev development issue",
     "fileAttachmentHint": "",
