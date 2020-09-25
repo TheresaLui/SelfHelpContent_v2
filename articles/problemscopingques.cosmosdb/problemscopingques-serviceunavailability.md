@@ -80,6 +80,7 @@
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
             "text": "Select Database Name"
+            }
           }
             "required": true
         },
@@ -93,6 +94,7 @@
             "defaultDropdownOptions": {
             "value": "dont_know_answer",
             "text": "Select Collection Name"
+            }
           }
             "required": true
         },
