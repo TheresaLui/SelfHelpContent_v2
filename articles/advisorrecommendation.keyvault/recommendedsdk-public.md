@@ -1,6 +1,6 @@
 <properties
     pageTitle="Upgrade SDK version recommendation"
-    description="Todo DEscription"
+    description="Return list of resources that do not currently use the recommended SDK version"
     ms.author="osmuller"
     articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public"
     selfHelpType="advisorRecommendationMetadata"
