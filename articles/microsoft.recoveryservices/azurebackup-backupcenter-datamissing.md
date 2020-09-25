@@ -13,7 +13,7 @@ azurebackup-backupcenter-datamissing.md
 	supportTopicIds="32759990"
 	resourceTags=""
 	productPesIds="15207"
-	articleId=""
+	articleId="c835d488-6c3c-4d83-ba6c-51c32c168498"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 		ownershipId="StorageMediaEdge_Backup"
 />
@@ -22,6 +22,7 @@ azurebackup-backupcenter-datamissing.md
 
 ## **Recommended Documents**
 
+- Cannot find data? learn how to [search for backup instances across your backup estate](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate#backup-instances)
 - [What's new on Azure backup center](https://docs.microsoft.com/azure/backup/backup-center-overview)
 - [Monitor and operate backups using Backup Center](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate)
 - [Analyze and gain deeper insights on Azure backups](https://docs.microsoft.com/azure/backup/backup-center-obtain-insights)
