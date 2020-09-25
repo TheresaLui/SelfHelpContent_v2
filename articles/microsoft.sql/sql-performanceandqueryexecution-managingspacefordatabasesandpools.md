@@ -23,7 +23,7 @@
 * Upgrade to a service tier that can provide more storage.
 * If you are facing issues due to Tempdb being full, you can do a failover to clear tempdb. 
 
-The [Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases(failover)/failover) can be used to easily failover your Azure SQL database to a new node, which clears tempdb.  Note that existing connections will be dropped during the failover, so applications should handle the disconnect with appropriate retry logic.
+The [Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases(failover)) can be used to easily failover your Azure SQL database to a new node, which clears tempdb.  Note that existing connections will be dropped during the failover, so applications should handle the disconnect with appropriate retry logic.
 
 ### **Calculating database and objects sizes**
 
