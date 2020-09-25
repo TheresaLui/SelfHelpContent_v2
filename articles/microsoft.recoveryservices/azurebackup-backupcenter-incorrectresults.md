@@ -20,7 +20,7 @@
 ## **Recommended Documents**
 
 
-- Incorrect or unexpected results displayed on BAckup center?, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate)
+- Incorrect or unexpected results displayed on Backup center?, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate)
 - [What's new on Azure backup center](https://docs.microsoft.com/azure/backup/backup-center-overview)
 - [Monitor and operate backups using Backup Center](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate)
 - [Analyze and gain deeper insights on Azure backups](https://docs.microsoft.com/azure/backup/backup-center-obtain-insights)
