@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Cannot accept or reject Azure Data Share Invitation"
+  pagetitle="Invitation cannot accept or reject"
   service="microsoft.datashare"
   resource="accounts"
   ms.author="jife"
@@ -10,11 +10,11 @@
   cloudenvironments="public,fairfax,usnat,ussec,mooncake,blackforest"
   articleid="6d9713ad-1ea2-4476-8a02-44b96e755334"
   ownershipid="AzureData_DataShare" />
-# Cannot accept or reject Azure Data Share Invitation
+# Invitation cannot accept or reject
 
 ## **Recommended Steps**
 
-### Cannot accept the invitation
+### **Cannot accept the invitation**
 
 If you cannot accept invitation, try to resolve the issue following these steps:
 
@@ -22,7 +22,7 @@ If you cannot accept invitation, try to resolve the issue following these steps:
    1. Make sure you have specified a target Data Share account to receive the invitation into
    1. Make sure the Received Share Name does not already exist in your target Data Share account
 
-### Cannot create Data Share account
+### **Cannot create Data Share account**
 
 If you encounter issue when creating a new Data Share account, try to resolve the issue following these steps:
 

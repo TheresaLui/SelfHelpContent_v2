@@ -32,26 +32,26 @@
 			"displayLabel": "What component is slow in SQL Server?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "query(s)",
-					"text": "query(s)"
+					"value": "Query(s)",
+					"text": "Query(s)"
 				}, {
-					"value": "backup",
-					"text": "backup"
+					"value": "Backup",
+					"text": "Backup"
 				}, {
-					"value": "SQL replication",
-					"text": "SQL replication"
+					"value": "SQL Replication",
+					"text": "SQL Replication"
 				}, {
-					"value": "overall server",
-					"text": "overall server"
+					"value": "Overall Server",
+					"text": "Overall Server"
 				}, {
-					"value": "bulk data processing",
-					"text": "bulk data processing"
+					"value": "Bulk Data Processing",
+					"text": "Bulk Data Processing"
 				}, {
 					"value": "DBCC CHECKDB",
 					"text": "DBCC CHECKDB"
 				}, {
-					"value": "stats or index operations",
-					"text": "stats or index operations"
+					"value": "Stats or Index Operations",
+					"text": "Stats or Index Operations"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
@@ -65,14 +65,14 @@
 			"displayLabel": "What baseline are you using to establish things are slow?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "it previous ran faster on this MIAA instance",
-					"text": "it previous ran faster on this MIAA instance"
+					"value": "It previous ran faster on this MIAA instance",
+					"text": "It previous ran faster on this MIAA instance"
 				}, {
-					"value": "it is faster on another environment that runs this workload",
-					"text": "it is faster on another environment that runs this workload"
+					"value": "It is faster on another environment that runs this workload",
+					"text": "It is faster on another environment that runs this workload"
 				}, {
-					"value": "I am not sure/don't have a baseline",
-					"text": "I am not sure/don't have a baseline"
+					"value": "I don't have a baseline",
+					"text": "I don't have a baseline"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
