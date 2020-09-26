@@ -26,4 +26,4 @@ The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountN
 
 ## Recommended Steps
 
-It is recommended to enable server-side retries on this account to mitigate this issue.
+It is recommended to enable server-side retries on this account to mitigate this issue. Please keep in mind that this may lead to increased latencies for your queries.
