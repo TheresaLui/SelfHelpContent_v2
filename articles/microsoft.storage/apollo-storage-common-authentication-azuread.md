@@ -20,7 +20,7 @@ Most customers resolved their Azure AD authentication failures, on their own, us
 
 ## Chart for Authentication and Authorization failures
 :::Section Recommended solutions:::
-The following charts can help you to narrow down the time frames when the Authenciation or Authorization failures occurred
+The following charts can help you to narrow down the time frames when the Authentication or Authorization failures occurred
 
 <metric>
 <name>Transactions</name>
