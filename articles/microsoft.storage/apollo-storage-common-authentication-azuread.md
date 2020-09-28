@@ -28,30 +28,30 @@ The following charts can help you to narrow down the time frames when the Authen
 <timeSpanType>relative</ timeSpanType >
 <timeSpanDuration>1d</timeSpanDuration>
 <title>Storage Authentication and Authorization Failure</title>
-<client>Portal</client>
+<client>ASC,Portal</client>
 </metric>
 
-## Running a few automated checks
+## Finding Authentication and Authorization failure occrences 
 
 <Insight>
-<symptomId>StorageFailureTransactionInsight</symptomId>
-<executionText>We are running detailed connectivity checks on your VM</executionText>
+<symptomId>StorageFailureTransactionInsightLight</symptomId>
+<executionText>We are running a quick check to find the authentication or authorization failure occurences on the storage account</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
-<noResultText>Seems like all is good!</noResultText>
-<client>ASC</client>
+<noResultText>No authentication or authorization failures were found during the last 24 hours. Please modify the starttime and endtime to choose a different time window.</noResultText>
+<client>ASC,Portal</client>
 <additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
 
-### Input the response from the previous troubleshooter or provide custom data so we can run a deeper analysis for your problem.
+### Input the response from the previous troubleshooter or provide custom data so we can run a deep analysis on a specific failure
 
 
 <Insight>
 <symptomId>StorageFailureTransactionInsight</symptomId>
-<executionText>We are running a more detailed connectivity checks on your VM</executionText>
+<executionText>We are running a detailed analysis on the authentication or authorization</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
 <noResultText>Seems like all is good!</noResultText>
-<client>ASC</client>
+<client>ASC,Portal</client>
 <additionalInputsReq>true</additionalInputsReq>
 </Insight>
 
