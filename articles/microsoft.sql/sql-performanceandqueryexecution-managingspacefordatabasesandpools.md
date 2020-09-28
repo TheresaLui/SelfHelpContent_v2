@@ -19,9 +19,9 @@
 
 ### **Fastest way to mitigate low or no free space available**
 
-* Increase storage, if service tier allows it.
-* Upgrade to a service tier that can provide more storage.
-* If you are facing issues due to Tempdb being full, you can do a failover to clear tempdb. 
+* Increase storage, if service tier allows it
+* Upgrade to a service tier that can provide more storage
+* If you are facing issues due to Tempdb being full, you can do a failover to clear tempdb 
 
 The [Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases%28failover%29/failover) can be used to easily failover your Azure SQL database to a new node, which clears tempdb.  Note that existing connections will be dropped during the failover, so applications should handle the disconnect with appropriate retry logic.
 
@@ -97,13 +97,13 @@ FROM(SELECT DISTINCT plan_handle, [Database], [Schema], [table]
 * If possible export and remove data that is not needed or move to another database, with lower service tier, if the access pattern is low
 
 ### **Compression**
-The [data compression]( https://docs.microsoft.com/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) feature help to reduce the size of the database. In addition to saving space, data compression can help improve performance of I/O intensive workloads because the data is stored in fewer pages and queries need to read fewer pages from disk. However, extra CPU resources are required on the database server to compress and decompress the data, while data is exchanged with the application.
+The [data compression]( https://docs.microsoft.com/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) feature help's to reduce the size of the database. In addition to saving space, data compression can help improve performance of I/O intensive workloads because the data is stored in fewer pages and queries need to read fewer pages from disk. However, extra CPU resources are required on the database server to compress and decompress the data, while data is exchanged with the application.
 
 ### **Alerts**
 Several maintenance and administrative actions performed in a database require some storage for temporary data and for this reason it’s not recommended to allow the storage usage of the database to be very close to the its limits. To prevent your database to be very close to the storage limit is advised to implement [alerts]( https://docs.microsoft.com/azure/azure-sql/database/alerts-insights-configure-portal) or having other ways to monitor the storage usage.
 
 ## **Recommended Documents**
 
-* [Troubleshoot TempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues).
+* [Troubleshoot TempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues)
 * [Enable Compression on a Table or Index](https://docs.microsoft.com/sql/relational-databases/data-compression/enable-compression-on-a-table-or-index?view=sql-server-ver15)
 

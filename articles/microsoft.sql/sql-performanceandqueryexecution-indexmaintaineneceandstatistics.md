@@ -17,11 +17,11 @@
 
 # Resolve index and statistics related issues in Azure SQL Database
 
-Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help improve performance , thus the first place to start is by updating statistics.
+Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and improve's performance , thus the first place to start is by updating statistics.
 
 ### **Updating statistics**
 
-SQL Server automatically updates statistics on tables with more than 500 records, and that have over 20% of the rows modified while the amount of change does not cross this 20% threshold, the statistics are outdated, leading to bad cardinality estimation, bad query execution plans. You can update statistics using the query below:
+SQL Server automatically updates statistics on tables with more than 500 records, and that have over 20% of the rows modified. When the amount of change does not cross this 20% threshold the statistics are outdated, leading to bad cardinality estimation and bad query execution plans. You can update statistics using the query below:
 
 ```
 -- This will update all the statistics on all the tables in your database.
@@ -63,15 +63,15 @@ GO
 
 ### **Using automation** 
 
-You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintenance for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
+You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintenance for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974).
 
 ### **Guidelines for creating\updating large indexes**
 
-If you are creating\updating a large index please follow the following [guidelines](https://docs.microsoft.com/sql/relational-databases/indexes/guidelines-for-online-index-operations?view=sql-server-2017)
+If you are creating\updating a large index please follow the following [guidelines](https://docs.microsoft.com/sql/relational-databases/indexes/guidelines-for-online-index-operations?view=sql-server-2017).
 
 ## **Recommended Documents**
 
-* [Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/indexes?view=sql-server-2017).
+* [Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/indexes?view=sql-server-2017)
 * [Adaptive index defragmentation](https://github.com/Microsoft/tigertoolbox/tree/master/AdaptiveIndexDefrag)
 * [How to maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787)
 
