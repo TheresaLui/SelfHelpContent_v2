@@ -21,14 +21,8 @@
     "fileAttachmentHint": "Please upload any supporting files that can help us understand your issue",
     "formElements": [
         {
-            "id": "learn_more_text",
-            "order": 1,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Learn more</a> on how to capture a browser trace for troubleshooting"
-        },
-        {
             "id": "problem_description",
-            "order": 2,
+            "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -36,8 +30,43 @@
             "useAsAdditionalDetails": true
         },
         {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Start Time",
+            "watermarkText": "When did your issue begin?",
+            "required": true
+        },
+        {
+            "id":"infoballoon_multidrop",
+            "order":3,
+            "infoBalloonText": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>How to capture a browser trace for troubleshooting</a>",
+            "controlType":"multiselectdropdown",
+            "dropdownOptions": [
+                {
+                "value": "Option one",
+                "text": "First option to select"
+                },
+                {
+                "value": "Option two",
+                "text": "Second option to select"
+                },
+                {
+                "value": "Option three",
+                "text": "Third option to select"
+                },
+                {
+                "value": "Option four",
+                "text": "Fourth option to select"
+                }
+            ],
+            "displayLabel":"Please IGNORE this section as it is part of an operations test",
+            "watermarkText":"Please IGNORE this section",
+            "required": false
+        },
+        {
             "id": "infoballoon_singletest",
-            "order": 3,
+            "order": 4,
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>How to capture a browser trace for troubleshooting</a>",
             "controlType": "textbox",
             "displayLabel": "Please IGNORE this section as it is part of an operations test",
@@ -45,12 +74,10 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 4,
-            "controlType": "datetimepicker",
-            "displayLabel": "Start Time",
-            "watermarkText": "When did your issue begin?",
-            "required": true
+            "id": "learn_more_text",
+            "order": 5,
+            "controlType": "infoblock",
+            "content": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Learn more</a> on how to capture a browser trace for troubleshooting"
         }
     ],
     "$schema": "SelfHelpContent"

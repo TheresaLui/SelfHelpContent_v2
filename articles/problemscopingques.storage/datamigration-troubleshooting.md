@@ -32,8 +32,8 @@
             "displayLabel": "Source resource",
             "watermarkText": "Select source resource to migrate from",
             "dropdownOptions": [
-	    	{
-	    		"value": "storage_account",
+	    		{
+	    			"value": "storage_account",
 				"text": "Azure Storage Account"
 			},
 			{
@@ -270,7 +270,7 @@
 		"dropdownOptions": [
 		{
 			"value": "copy_from_localonpremise_to_blobs",
-			"text": "Upload Local/On-Premise files to Azure Blobs"
+			"text": "Upload Local/On-Premise vhd/files to Azure Blobs"
 		},
 		{
 			"value": "copy_from_localonpremise_to_files",
@@ -302,7 +302,7 @@
 		"dropdownOptions": [
 		{
 			"value": "copy_from_aws_s3_to_blobs",
-			"text": "Copy files from Amazon S3 to Azure Blobs"
+			"text": "Copy vhd/files from Amazon S3 to Azure Blobs"
 		},
 		{
 			"value": "copy_from_aws_s3_to_adlsgen2",
@@ -310,7 +310,7 @@
 		},
 		{
 			"value": "copy_from_otherexternalcloud_to_blobs",
-			"text": "Copy files from other external clouds to Azure Blobs"
+			"text": "Copy vhd/files from other external clouds to Azure Blobs"
 		},
 		{
 			"value": "copy_from_otherexternalcloud_to_adlsgen2",
@@ -322,12 +322,52 @@
 		}
 		],
 		"required": true,
-        "diagnosticInputRequiredClients": "Portal,ASC"
+		"diagnosticInputRequiredClients": "Portal,ASC"
+	},
+	{
+		"id": "external_cloud_file_type",
+		"visibility": "external_cloud_migration_scenario == copy_from_aws_s3_to_blobs || external_cloud_migration_scenario == copy_from_otherexternalcloud_to_blobs",
+		"order": 9,
+		"controlType": "dropdown",
+		"displayLabel": "External file type",
+		"watermarkText": "Select the file type",
+		"dropdownOptions": [
+		{
+			"value": "vhd",
+			"text": "Vhd"
+		},
+		{
+			"value": "dont_know_answer",
+			"text": "Don't know or not listed above"
+		}
+		],
+		"required": false,
+		"diagnosticInputRequiredClients": "Portal,ASC"
+	},
+		{
+		"id": "local_onpremise_file_type",
+		"visibility": "local_onpremise_migration_scenario == copy_from_localonpremise_to_blobs",
+		"order": 10,
+		"controlType": "dropdown",
+		"displayLabel": "Local File type",
+		"watermarkText": "Select the file type",
+		"dropdownOptions": [
+		{
+			"value": "vhd",
+			"text": "Vhd"
+		},
+		{
+			"value": "dont_know_answer",
+			"text": "Don't know or not listed above"
+		}
+		],
+		"required": false,
+		"diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "storage_account_from",
 		"visibility": "source_resource == storage_account || source_resource == blob || source_resource == files || source_resource == adlsgen2",
-		"order": 9,
+		"order": 11,
 		"controlType": "dropdown",
 		"displayLabel": "Source storage account",
 		"watermarkText": "Select storage account to migrate from",
@@ -349,7 +389,7 @@
 	{
 		"id": "storage_account_from_other",
 		"visibility": "storage_account_from == dont_know_answer",
-		"order": 10,
+		"order": 12,
 		"controlType": "textbox",
 		"displayLabel": "Source storage account name",
 		"watermarkText": "Enter storage account name",
@@ -358,7 +398,7 @@
 	},
 	{
 		"id": "storage_account_to",
-		"order": 11,
+		"order": 13,
 		"controlType": "dropdown",
 		"displayLabel": "Destination storage account",
 		"watermarkText": "Select storage account to migrate to",
@@ -380,7 +420,7 @@
 	{
 		"id": "storage_account_to_other",
 		"visibility": "storage_account_to == dont_know_answer",
-		"order": 12,
+		"order": 14,
 		"controlType": "textbox",
 		"displayLabel": "Destination storage account name",
 		"infoBalloonText": "Specify destination acount name if applicable (e.g. if it's from another subscription); If you are moving a storage account to a new subscription, specify the destination subscription Id here",
@@ -390,7 +430,7 @@
 	},
 	{
 		"id": "IssueType",
-		"order": 13,
+		"order": 15,
 		"controlType": "dropdown",
 		"displayLabel": "Issue type",
 		"watermarkText": "Choose an option",
@@ -418,7 +458,7 @@
 	{
 		"id": "data_size_tb",
 		"visibility": "IssueType == Performance || IssueType ==Connectivity",
-		"order": 14,
+		"order": 16,
 		"controlType": "dropdown",
 		"displayLabel": "Estimated data size to migrate",
 		"watermarkText": "Choose a data size",
@@ -466,10 +506,10 @@
 	{
 		"id": "network_bandwidth_mbps",
 		"visibility": "IssueType == Performance || IssueType ==Connectivity",
-		"order": 15,
+		"order": 17,
 		"controlType": "dropdown",
 		"displayLabel": "Approximate available network bandwidth",
-		"watermarkText": "Choose a network bandwidth",
+		"watermarkText": "If you don't know network bandwidth, use this link to check: https://www.azurespeed.com/",
 		"dropdownOptions": [
 		{
 			"value": "0",
@@ -517,7 +557,7 @@
 	},
 	{
 		"id": "migration_tool",
-		"order": 16,
+		"order": 18,
 		"controlType": "dropdown",
 		"infoBalloonText": "Choose the tool used for migration which had the issue",
 		"displayLabel": "Migration tool",
@@ -554,7 +594,7 @@
 	{
 		"id": "azcopy_version",
 		"visibility": "migration_tool == AzCopy",
-		"order": 17,
+		"order": 19,
 		"controlType": "dropdown",
 		"displayLabel": "AzCopy version",
 		"watermarkText": "Choose an option",
@@ -582,7 +622,7 @@
 	{
 		"id": "other_migration_tool_version",
 		"visibility": "migration_tool != AzCopy && migration_tool != AzPortal && migration_tool != dont_know_answer",
-		"order": 18,
+		"order": 20,
 		"controlType": "textbox",
 		"infoBalloonText": "Specify the digital verion of the tool used for migration which had the issue",
 		"displayLabel": "Migration tool version",
@@ -593,7 +633,7 @@
 	{
 		"id": "azcopy_command_needhelp",
 		"visibility": "migration_tool == AzCopy",
-		"order": 19,
+		"order": 21,
 		"controlType": "dropdown",
 		"infoBalloonText": "Choose yes if you need any help on correct syntax of azcopy command",
 		"displayLabel": "Do you have questions on AzCopy command",
@@ -617,7 +657,7 @@
 	},
 	{
 		"id": "error_code_dropdown",
-		"order": 20,
+		"order": 22,
 		"controlType": "dropdown",
 		"displayLabel": "Error code",
 		"watermarkText": "HTTP error code of failed operation",
@@ -692,7 +732,7 @@
 	},
 	{
 		"id": "request_id",
-		"order": 21,
+		"order": 23,
 		"controlType": "textbox",
 		"displayLabel": "Storage server Request ID",
 		"watermarkText": "Request ID of failed operation ending with 000000",
@@ -702,7 +742,7 @@
 	},
 	{
 		"id": "problem_start_time",
-		"order": 22,
+		"order": 24,
 		"controlType": "datetimepicker",
 		"displayLabel": "Approximate start time of the most recent occurrence",
 		"required": true,
@@ -710,11 +750,12 @@
 	},
 	{
 		"id": "problem_description",
-		"order": 23,
+		"order": 25,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Provide any additional details",
 		"required": true,
-		"useAsAdditionalDetails": true
+		"useAsAdditionalDetails": true,
+		"diagnosticInputRequiredClients": "Portal,ASC"
 	}
 ],
 "$schema": "SelfHelpContent"
