@@ -22,7 +22,7 @@
 
 Are you facing one of these common problems?
 
-* **I'm unable to run my application in Azure pipelines which makes use of VM and VM scale sets.**
+* **My application successfully starts on VM or VMSS using Azure pipelines. However, the application process terminates as soon as pipeline job is complete**
 	
     This happens when your application running in the VM or VM scale sets is terminated. If you don't want the process to be closed, please  create and set a variable **Process.clean=false**. But when you create a new release next time, you need to close the server before starting it.
 
