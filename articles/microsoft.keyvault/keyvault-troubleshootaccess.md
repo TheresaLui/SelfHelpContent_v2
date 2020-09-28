@@ -22,7 +22,7 @@
 * [Answered questions about issues related to access policy in key vault](https://docs.microsoft.com/azure/key-vault/general/troubleshooting-access-issues) <br>
     Answers to:- Unable to add access, Unknown access policy, not able to access to key vault and other scenarios. 
 
-* If you have problem with authenticate to key vault in code, use [Authentication SDK](https://azure.github.io/azure-sdk/posts/2020-02-25/defaultazurecredentials.html) 
+* If you have problem with authenticate to key vault in code, use [Authentication SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault) 
 
 ### **Troubleshooting**
 
@@ -74,3 +74,7 @@
 ## **Recommended Documents**
 
 * Roles that you can use to grant access to Azure resources - [List of Azure Role Definitions](https://docs.microsoft.com/azure/role-based-access-control/role-definitions-list)
+* [Authenticate to Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/authentication)
+* [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
+* [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
+* [Key Vault SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault)
