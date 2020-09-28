@@ -61,7 +61,7 @@ The bulk of our documentation about extended events applies to SQL Server, Azure
 - Server side trace don’t support saving to a table and can’t save to a local file
 - [Convert your SQL Trace script to an Extended Events Session](https://docs.microsoft.com/sql/relational-databases/extended-events/convert-an-existing-sql-trace-script-to-an-extended-events-session?view=sql-server-ver15)
 
-### **Taking too long to do a trace without SQL Profiler in Azure SQL Database**
+### **Taking too long to do a trace without SQL Profiler**
 - Try [SQL Server Profiler extension](https://docs.microsoft.com/sql/azure-data-studio/extensions/sql-server-profiler-extension?view=sql-server-ver15) for Azure Data Studio
 - Create a Extended Events session to capture what is needed and when finish don’t drop the session leave it there with the state “STOP” to be reused when needed.  
 ```
