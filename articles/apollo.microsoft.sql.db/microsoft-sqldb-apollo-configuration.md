@@ -13,11 +13,9 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 # Configuring Azure Active Directory
 
-:::Section Recommended Solution:::
+:::Section Recommended Video:::
 
 In the following video, you will learn how to configure Azure AD authentication and create users/logins in Azure SQL.
-
-## **Recommended Videos**
 
 <video>
 <src>https://youtu.be/IwpmLUpvTBA</src>
