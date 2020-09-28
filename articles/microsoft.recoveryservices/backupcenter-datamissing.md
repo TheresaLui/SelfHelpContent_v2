@@ -24,4 +24,4 @@
 - [Monitor and operate backups using Backup Center](https://docs.microsoft.com/azure/backup/backup-center-monitor-operate)
 - [Analyze and gain deeper insights on Azure backups](https://docs.microsoft.com/azure/backup/backup-center-obtain-insights)
 - [Govern your backup estate using Backup Center](https://docs.microsoft.com/azure/backup/backup-center-govern-environment)
-- [What actions can I perform uaing Azure backup center?](https://docs.microsoft.com/azure/backup/backup-center-actions)
+- [What actions can I perform using Azure backup center?](https://docs.microsoft.com/azure/backup/backup-center-actions)
