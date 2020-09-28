@@ -19,6 +19,9 @@
 
 ## **Recommended Steps**
 
+On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
+
+
 Most customers resolved their questions about metrics on their own with the links below.
 
 - [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor):
