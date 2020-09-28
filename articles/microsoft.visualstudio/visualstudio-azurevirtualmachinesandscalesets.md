@@ -6,7 +6,7 @@
 	resource="account"
 	authors="v-abiss"
 	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzureSQLIssues"
+	articleId="AZVMsandScalesetsIssues"
 	supportTopicIds="32742303"
 	diagnosticScenario=""
 	selfHelpType="generic"
@@ -22,9 +22,9 @@
 
 Are you facing one of these common problems?
 
-* **My application successfully starts on VM or VMSS using Azure pipelines. However, the application process terminates as soon as pipeline job is complete**
+* **My application successfully starts on VM or VMSS using Azure pipelines. However, the application process is terminated in the *Finalize Job* of the pipeline run.**
 	
-    This happens when your application running in the VM or VM scale sets is terminated. If you don't want the process to be closed, please  create and set a variable **Process.clean=false**. But when you create a new release next time, you need to close the server before starting it.
+    All processes started by Azure pipelines are terminated and cleaned up in the *Finalize Job*. If you don't want the processes to be closed, please create and set a variable **Process.clean=false**. But when you create a new release next time, you need to close the previous application before deploying new one.
 
 * **I want to deploy the application on virtual machine scale set.**
 
