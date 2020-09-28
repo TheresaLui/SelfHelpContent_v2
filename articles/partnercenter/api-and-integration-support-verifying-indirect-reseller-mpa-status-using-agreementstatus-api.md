@@ -23,7 +23,7 @@
 Changes to the existing API that enables indirect providers to verify the MPA acceptance status of their indirect resellers is planned for availability in November. 
 
 * **If you are an existing MPA API user and do not make the [API updates](https://docs.microsoft.com/partner-center/develop/verify-indirect-reseller-mpa-status#csp-indirect-reseller-mpn-id-is-either-invalid-or-not-migrated-from-partner-membership-center-to-partner-center) you will experience API failures on November 1, 2020.**
-* In the updated API, if the MPA has not been accepted by the indirect reseller, the indirect provider will be presented with an error code and error message. Check the [API documentation](https://docs.microsoft.com/partner-center/develop/verify-indirect-reseller-mpa-status#csp-indirect-reseller-mpn-id-is-either-invalid-or-not-migrated-from-partner-membership-center-to-partner-center) to view the “Learn More” links for each error code which will provide guides that can be shared with your indirect resellers for remediation. 
+* In the updated API, if the MPA has not been accepted by the indirect reseller, the indirect provider will be presented with an error code and error message. Check the [API documentation](https://docs.microsoft.com/partner-center/develop/verify-indirect-reseller-mpa-status#csp-indirect-reseller-mpn-id-is-either-invalid-or-not-migrated-from-partner-membership-center-to-partner-center) to view the "Learn More" links for each error code which will provide guides that can be shared with your indirect resellers for remediation. 
  
 ## **Recommended Documents**
 
