@@ -37,24 +37,24 @@
 		   "text": "Consulting Service offer"
 	       },
 	       {
-		   "value": "Container offer",
-		   "text": "Container offer"
+		   "value": "Azure Container offer",
+		   "text": "Azure Container offer"
 	       },
 	       {
-		   "value": "Dynamics 365 Business Central offer",
-		   "text": "Dynamics 365 Business Central offer"
+		   "value": "Dynamics 365 business central offer",
+		   "text": "Dynamics 365 business central offer"
 	       },
 	       {
-		   "value": "Dynamics 365 for Customer Engagement offer",
-		   "text": "Dynamics 365 for Customer Engagement offer"
+		   "value": "Dynamics 365 for Customer Engagement & Power Apps offer",
+		   "text": "Dynamics 365 for Customer Engagement & Power Apps offer"
 	       },
 	       {
-		   "value": "Dynamics 365 for Operations offer",
-		   "text": "Dynamics 365 for Operations offer"
+		   "value": "Dynamics 365 for operations offer",
+		   "text": "Dynamics 365 for operations offer"
 	       },
 	       {
-		   "value": "IoT Edge Offer",
-		   "text": "IoT Edge Offer"
+		   "value": "IoT Edge Module Offer",
+		   "text": "IoT Edge Module Offer"
 	       },
 	       {
 		   "value": "Managed service offer",
@@ -73,20 +73,20 @@
 		   "text": "PowerBI app offer"
 	       },
 	       {
-		   "value": "SaaS offer",
-		   "text": "SaaS offer"
+		   "value": "Software as a Service offer",
+		   "text": "Software as a Service offer"
 	       },
 	       {
-		   "value": "SharePoint add",
-		   "text": "SharePoint add"
+		   "value": "SharePoint add-in",
+		   "text": "SharePoint add-in"
 	       },
 	       {
 		   "value": "Teams app product",
 		   "text": "Teams app product"
 	       },
 	       {
-		   "value": "Virtual machine offer",
-		   "text": "Virtual machine offer"
+		   "value": "Azure Virtual machine offer",
+		   "text": "Azure Virtual machine offer"
 	       },
 	       {
 		   "value": "dont_know_answer",
