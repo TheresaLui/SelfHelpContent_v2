@@ -35,4 +35,5 @@ Try to follow the recommended documents to troubleshoot or escalate
 * [Scale Up Failure Investigation](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2646/Scale-Up-Failure-Investigation)
 * [Scaling](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2607/Scaling)
 * [Scaling Failure Guide](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/1495/Production-Alert-and-Help-Guide_Cluster-Health_Scaling-Failures)
+* [Scaling best practices](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
 

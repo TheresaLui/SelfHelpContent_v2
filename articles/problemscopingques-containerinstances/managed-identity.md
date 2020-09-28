@@ -14,7 +14,7 @@
 ---
 {
    "$schema":"SelfHelpContent",
-   "resourceRequired":true,
+   "resourceRequired":false,
    "subscriptionRequired":true,
    "title":"ACI Managed Identity Integration",
    "formElements":[
