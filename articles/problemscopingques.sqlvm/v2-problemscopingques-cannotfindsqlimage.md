@@ -36,32 +36,32 @@
       "infoBalloonText": null,
       "dropdownOptions": [
         {
-          "text": "SQL Server 2008/R2",
-          "value": "2008"
-        }, 
-        {
-          "text": "SQL Server 2012",
-          "value": "2012"
+          "text":"SQL Server 2008/R2",
+          "value":"2008"
         },
         {
-          "text": "SQL Server 2014",
-          "value": "2014"
+          "text":"SQL Server 2012",
+          "value":"2012"
         },
         {
-	          "text": "SQL Server 2016",
-	          "value": "2016"
+          "text":"SQL Server 2014",
+          "value":"2014"
         },
         {
-	          "text": "SQL Server 2017",
-	          "value": "2017"
+	  "text":"SQL Server 2016",
+	   "value":"2016"
         },
         {
-	          "text": "SQL Server 2019",
-	          "value": "2019"
+	   "text": "SQL Server 2017",
+	   "value": "2017"
         },
         {
-          "text": "I’m not sure/don’t know",
-          "value": "dont_know_answer"
+	   "text":"SQL Server 2019",
+	   "value":"2019"
+        },
+        {
+          "text":"I’m not sure/don’t know",
+          "value":"dont_know_answer"
         }
       ],
       "dynamicDropdownOptions": null,
@@ -81,20 +81,20 @@
       "infoBalloonText": null,
       "dropdownOptions": [
         {
-          "text": "Azure Portal",
-          "value": "AP"
+          "text":"Azure Portal",
+          "value":"AP"
         },
         {
-          "text": "PowerShell",
-          "value": "PS"
+          "text":"PowerShell",
+          "value":"PS"
         },
         {
-	          "text": "Azure CLI",
-	          "value": "CLI"
+	 "text":"Azure CLI",
+	 "value":"CLI"
         },
         {
-          "text": "I’m not sure/don’t know",
-          "value": "dont_know_answer"
+          "text":"I’m not sure/don’t know",
+          "value":"dont_know_answer"
         }
       ],
       "dynamicDropdownOptions": null,
