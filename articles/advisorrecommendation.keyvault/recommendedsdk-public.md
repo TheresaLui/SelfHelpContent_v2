@@ -34,14 +34,14 @@
 		"serviceTreeId": "51c86b53-37ee-4e99-9747-89d133719ac4"
 	},
 	"version": 1,
-	"learnMoreLink": "todolearnMoreLink",
+	"learnMoreLink": "https://docs.microsoft.com/en-us/azure/key-vault/general/client-libraries",
 	"description": "Update Key Vault SDK Version",
-	"longDescription": "todoLongDesc",
-	"potentialBenefits": "todoPotBenefit",
+	"longDescription": "The latest version of Key Vault Client Libraries contains fixes to issues reported by customers and proactively identified through our QA process.",
+	"potentialBenefits": "Latest Key Vault Client Libraries contain fixes for known issues and additional improvements.",
 	"supportedSDKLanguages": [".Net"],
 	"actions": [{
 			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
-			"description": "todo",
+			"description": "Learn how to update your Key Vault Client Libraries",
 			"actionType": "Document",
 			"documentLink": "{recommendedActionLearnMore}"
 		},
