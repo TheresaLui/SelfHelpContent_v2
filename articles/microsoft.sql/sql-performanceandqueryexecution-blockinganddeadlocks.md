@@ -23,7 +23,7 @@ Slow or long-running queries can contribute to excessive resource consumption an
 
 Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
 
-The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries.
+The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries:
 
 ```
 SELECT TOP 10 
@@ -41,7 +41,7 @@ ORDER BY r.total_elapsed_time desc
 ### **Deadlock**
 
 A deadlock occurs when two or more processes are waiting on the same resource and each process is waiting on the other process to complete before moving forward.
-The query below can help you capture deadlock.
+The query below can help you capture deadlock:
 
 ```
 WITH CTE AS (
@@ -60,12 +60,12 @@ FROM CTE
 To obtain a deadlock graph:
 
 * Copy the deadlock_xml column results from the previous query and load into a text file. If more than one row is returned, you will want to do each row result separately.
-* Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graph.
+* Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graph
 
 If you need to customize the events you capture when a deadlock occurs, you can create your own [Extended Events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) Session with the following events for a deadlock.
 
-* Lock_Deadlock (Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock).
-* Lock_deadlock_chain (Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock).
+* Lock_Deadlock: Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock
+* Lock_deadlock_chain: Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock.
 
 ## **Recommended Documents**
 
@@ -74,4 +74,3 @@ If you need to customize the events you capture when a deadlock occurs, you can 
 * [Deadlocks](https://techcommunity.microsoft.com/t5/azure-database-support-blog/lesson-learned-19-how-to-obtain-the-deadlocks-of-your-azure-sql/ba-p/368847)
 * [Locks](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
 * [Monitoring and performance tuning](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)
-
