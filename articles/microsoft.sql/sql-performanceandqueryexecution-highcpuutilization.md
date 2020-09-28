@@ -17,15 +17,14 @@
 
 # Resolve poor performance and timeout issues in Azure SQL Database
 
-Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. 
-There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
+Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
 For analyzing High CPU usage we recommend the following:
 
 ### **TSQL**
 
-### If the CPU issue is occurring now:
+If the high CPU usage is happening right now:
 
-* Many individual queries that cumulatively consume high CPU
+* Many individual queries that cumulatively consume high CPU:
 
 ```
 PRINT '-- top 10 Active CPU Consuming Queries (aggregated)--';
@@ -37,7 +36,7 @@ FROM (SELECT query_stats.query_hash, SUM(query_stats.cpu_time) 'Total_Request_Cp
     GROUP BY query_hash) AS t
 ORDER BY Total_Request_Cpu_Time_Ms DESC;
 ```
-* Long running queries that consume CPU are still running
+* Long running queries that consume CPU are still running:
 
 ```
 PRINT '--top 10 Active CPU Consuming Queries by sessions--';
@@ -48,7 +47,7 @@ ORDER BY cpu_time DESC;
 GO
 ```
 
-### If The CPU issue occurred in the past
+If The CPU issue occurred in the past:
 
 ```
 -- Top 15 CPU consuming queries by query hash
@@ -72,7 +71,8 @@ ORDER BY total_cpu_millisec DESC;
 ### **Query Store**
 
 The SQL Server [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?redirectedfrom=MSDN&view=sql-server-ver15) feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.
-You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by selecting the particular metric under the regressed queries section of the Query store.
+
+You can fetch the query IDs for TOP CPU Consuming (CPU TIME ms) queries by selecting the particular metric under the regressed queries section of the Query store.
 
 ### **Query performance insights**
 
@@ -80,6 +80,6 @@ You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by sele
 
 ## **Recommended Documents**
 
-* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/)
 
 
