@@ -14,19 +14,18 @@
   cloudEnvironments="public"
   ownershipId="CloudAppSecurity_DataProtection"
 />
+# Labels and Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
 
-:::Section Recommended Solution:::
+:::Section Solutions:::
 
 <CommonSolution>
     <articleId>mcas-dlp-file-policy</articleId>
     <client>Portal</client>
 </CommonSolution>
 
-# Article on labels, Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
+See [labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515) for further information.
 
-To view the article on labels, Sensitive Information Types and Microsoft Information Protection, see [labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
-
-## Follow the instructions in the how-to videos below to resolve your issue
+## **Recommended Videos**
 
 <videoGroup>
     <video>
