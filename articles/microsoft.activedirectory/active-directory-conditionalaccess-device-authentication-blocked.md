@@ -7,7 +7,7 @@
     authors="zachoi"
     ms.author="zachoi"
     displayOrder="1"
-    articleId="ISP_ConditionalAccess_ExternalUserDevicePolicy"
+    articleId="ISP_ConditionalAccess_DeviceAuthenticationBlocked"
 	  diagnosticScenario="ConditionalAccess"
     selfHelpType="diagnostics"
     supportTopicIds=""
