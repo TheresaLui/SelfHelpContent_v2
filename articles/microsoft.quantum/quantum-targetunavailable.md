@@ -22,9 +22,9 @@ Targets may be sometimes be either offline, or not performing at their regular c
 
 ## **Recommended Steps**
 
-1. Ensure the provider/target combination that you are trying to specify is valid. You can refer to the [provider documentation](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider) for further details...
+1. Ensure the provider/target combination that you are trying to specify is valid. You can refer to the [provider documentation](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider) for further details.
 2. If you are trying to use a target that is supported by a third party provider, please use their support process to inquire about the status of the provider and its targets
-3. If you are targeting a first-party provider/target combination or believe that the issue you are seeing is caused by the Azure Quantum service itself, please raise a support case, and a member of the team will assist you.
+3. If you are targeting a first-party provider/target combination or believe that the issue you are seeing is caused by the Azure Quantum service itself, please raise a support case, and a member of the team will assist you
 
 ## **Recommended Documents**
 
