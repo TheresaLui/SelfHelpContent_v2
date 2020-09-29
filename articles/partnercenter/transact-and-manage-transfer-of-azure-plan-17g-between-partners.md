@@ -23,6 +23,7 @@
 ## **Recommended Steps**
 
 - Transfer of Azure plan subscriptions from one direct billing CSP partner to another can be initiated via Partner center by the future or new partner using the self-service tool.
+- Transfer requests must be accepted by the current partner within 30 days of the request or it will expire.
 
 The customer should refer to the relevant cancellation terms in their agreement with the source partner, and work with the source partner to cancel their agreement in alignment with those terms.
 
