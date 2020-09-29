@@ -19,4 +19,4 @@ ownershipId="AzureCXP_AzureSolutionsTeam"
 
 <!--$Summary-->Summary<!--/$Summary-->
 
-Please use the links below to view the latest information about the issue in Azure Service Health and be sure to [create a Service Health alert](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications) to be automatically notified should an Azure event affect you.
+Please use the link below to view the latest information about the issue in Azure Service Health and be sure to [create a Service Health alert](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications) to be automatically notified should an Azure event affect you.
