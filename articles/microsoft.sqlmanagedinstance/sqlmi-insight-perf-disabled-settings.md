@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	articleId="sqlmanagedinstance-perf-disabled_settings"
+	articleId="sqlmanagedinstance-perf-disabled-settings"
 	ownershipId="AzureData_AzureSQLMI"
 />
 
