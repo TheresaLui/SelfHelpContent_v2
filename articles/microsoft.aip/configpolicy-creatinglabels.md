@@ -21,9 +21,23 @@
 
 1. If you migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
 
-2. If you recently changed/created the labels and changes are not updated, please wait 24 hours before raising a support ticket.
+2. If you recently changed/created the labels and changes are not updated, please wait 24 hours before raising a support ticket
 
 3. If you require assistance with creating labels on AIP portal, review [Create a new Azure Information Protection label for specific users](https://docs.microsoft.com/azure/information-protection/quickstart-label-specificusers) and [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-new-label)
+
+4. If you are missing the Sensitivity labels in Excel only and your client appears to work offline, make sure to remove any files in the following folders: 
+
+```
+C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
+C:\Program Files\Microsoft Office\Root\Office16\XLSTART 
+```
+
+and add the following Registry key:
+
+```
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Security\Labels]
+"UseOfficeForLabelling"=dword:00000000
+```
 
 ### Export Azure Information Protection logs
 

@@ -18,10 +18,26 @@
 # Diagnose and resolve issues with Windows Azure ProvisioningStateFailed
 
 ## **Recommended Steps**
-If your backup operation fails with *UserErrorVmProvisioningStateFailed - The VM is in failed provisioning state*, this could be due to one of the extension status might be in **Provisioning failed** state. To resolve this issue:
 
-- Ensure the Virtual machine is in Running state
-- Open *Azure Portal > VM > Settings > extensions >* and ensure all extension's status are in **Provisioning succeeded** state. If you notice **Provisioning failed** state, then remove that **Provisioning failed** extension and try restarting the virtual machine.
+**START HERE**:  To **self-resolve** common VM extension issues, follow these [step-by-step](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health) instructions
+- Azure Backup service uses VMSnapshot extension to take VM backup, **Ensure the VMSnapshot extension is healthy by following the prechecks/requirements mentioned in this [section](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health)**
+- [How to troubleshoot Azure VM extension issues](https://docs.microsoft.com/azure/virtual-machines/extensions/overview#troubleshoot-extensions)?
+
+**Common error codes**
+
+- My backup operation failed with error [*UserErrorVmProvisioningStateFailed - The VM is in failed provisioning state*](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorvmprovisioningstatefailed---the-vm-is-in-failed-provisioning-state)
+- My backup operation failed with error [*GuestAgentSnapshotTaskStatusError - Could not communicate with the VM agent for snapshot status*](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#guestagentsnapshottaskstatuserror---could-not-communicate-with-the-vm-agent-for-snapshot-status)
+- My backup operation failed with error [*ExtensionSnapshotFailedNoNetwork - Snapshot operation failed due to no network connectivity on the virtual machine*](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#ExtensionSnapshotFailedNoNetwork-snapshot-operation-failed-due-to-no-network-connectivity-on-the-virtual-machine)
+- My backup operation failed with error [*ExtensionFailedVssWriterInBadState - Snapshot operation failed because VSS writers were in a bad state*](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
+
+
+**Additional reference**
+- [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
+- Review the [best practices before you enable Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
+
 
 ## **Recommended Documents**
--  [Common VM backup errors](https://go.microsoft.com/fwlink/?linkid=2107503)
+
+- [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
+- [Troubleshooting Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
+- Azure VM backup - [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)

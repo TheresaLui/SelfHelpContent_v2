@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="c03eebb8-b373-453d-9555-83266c257c71_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,ussec,usnat"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy data explorer Reserved capacity to save money over pay-as-you-go costs

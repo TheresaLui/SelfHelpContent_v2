@@ -1,11 +1,11 @@
-<properties
-  pagetitle="Support topic description for Azure Backup"
+<properties 
+  pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
   ownershipid=""
   icmteam="icmteam"
@@ -183,6 +183,14 @@
       "searchTags": "Soft delete;undelete",
       "category": "Vault",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "33ae5afb-30c4-b0dd-ada9-a36ab5fafa5d",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure Database for PostgreSQL servers. ",
+      "searchTags": "PostgreSQL;Backup;Restore;Schedule",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
@@ -635,9 +643,9 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue while configuring virtual machine backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backup.",
+      "searchTags": "configure;modify;stop",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

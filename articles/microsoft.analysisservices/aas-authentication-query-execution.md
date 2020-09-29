@@ -22,6 +22,8 @@
 
 * [Dynamic Management Views](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
 
-* [Authentication and user permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [Best Practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

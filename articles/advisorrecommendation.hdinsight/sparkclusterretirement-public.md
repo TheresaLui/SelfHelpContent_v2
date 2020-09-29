@@ -5,7 +5,7 @@
     ms.author="xunwei"
     articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Older Spark Versions in HDInsight Spark cluster 
