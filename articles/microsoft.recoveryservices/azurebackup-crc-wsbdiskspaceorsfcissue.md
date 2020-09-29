@@ -19,10 +19,10 @@
 # WSBDiskSpaceOrSFCIssue 
 
 <!--issueDescription-->
-Your backup operation failed because there might not be enough space on the Scratch folder volumes, [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder).
+Your backup operation failed because there might not be enough space on the Scratch folder volumes
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Ensure there is at least 30 GB free of space on system volume (usually C:) for System State Backup. <br>(or)
+- Ensure there is at least 30 GB free of space on system volume (usually C:) for System State Backup, [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder). <br>(or)
 - Move the scratch location to a drive has the good amount of free space as steps mentioned in the [article](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#how-do-i-change-the-cache-location-for-the-mars-agent).
