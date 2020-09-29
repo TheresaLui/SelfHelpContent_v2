@@ -39,9 +39,9 @@ Please review the graph to see the CPU usage as it correlates to your workload. 
 
 ### Diagnostics
 
-The diagnostics for your Azure Virtual Machine have completed, and the findings are below.
+We are attemping to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
 
-If your issue is happening currently, then this is the best time to review the captured data to attempt to locate the process leading to high CPU consumption. You can leverage recommended tools described in following recommendations for further troubleshooting.
+If your issue is happening currently, then this is the best time to review the captured data to attempt to locate the process leading to high CPU consumption. You can use the tools described in following recommendations for further troubleshooting.
 
 <Insight>
     <symptomId>HighCpuUsageAzurePortalInsight,VMPerfDiagExtAzurePortalInsight</symptomId>
