@@ -10,10 +10,10 @@
 	articleId="customer_offers_subs_upgrade_downgrade"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32739480,32725892"
+	supportTopicIds="32739480"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17000,17012"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
