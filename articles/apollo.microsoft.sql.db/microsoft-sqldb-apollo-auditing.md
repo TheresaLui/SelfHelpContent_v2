@@ -13,7 +13,9 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 # Configuring Azure Active Directory
 
-:::Section Recommended Solutions:::
+## Troubleshooting Auditing Issues with Azure SQL DB 
+
+:::Section Solutions:::
 
 Please see the recommended video and documentation links to address common Azure SQL auditing questions. 
 
@@ -33,7 +35,6 @@ This video will highlight the following auditing capabilities:
 * Setup alerts for Advanced Threat Protection
 * Monitor Azure Security Center
 
-<CommonSolution>
-<articleId>9fcb9dab-5912-42b6-b6d8-9d0a4bd18c87</articleId>
-<client>Portal</client>
-</CommonSolution>
+## **Recommended Documents**
+
+* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)
