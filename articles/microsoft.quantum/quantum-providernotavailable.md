@@ -24,10 +24,10 @@ The *recommended steps* below should help you work out if a provider should be a
 
 ## **Recommended Steps**
 
-1. Please review our [provider documentation](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider) to check if your desired provider is available in your region.
-   * If trying to add a third-party provider consider contacting them directly for more details regarding availability in the region you would like to use
-2. If using the CLI, verify that the provider/target combination that you are requesting is valid.
-3. If unsure, deploy a workspace in a different region to check if the provider is available to select there.
+1. Please review our [provider documentation](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider) to check if your desired provider is available in your region
+   * If trying to add a third-party provider. consider contacting them directly for more details regarding availability in the region you would like to use
+2. If using the CLI, verify that the provider/target combination that you are requesting is valid
+3. If unsure, deploy a workspace in a different region to check if the provider is available to select there
 
 ## **Recommended Documents**
 
