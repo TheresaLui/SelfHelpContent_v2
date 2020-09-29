@@ -26,4 +26,4 @@ The operation failed because Microsoft Azure Recovery Services Agent was unable 
 
 1. Verify that you are connected to the internet
 2. [Proxy server settings are configured correctly](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#verifying-proxy-settings-for-windows)
-3. [Check if your firewall, vpn or proxy server is blocking calls to azure endpoints](https://docs.microsoft.com/azure/backup/install-mars-agent#verify-internet-access)
+3. [Check if your firewall, VPN or proxy server is blocking calls to azure endpoints](https://docs.microsoft.com/azure/backup/install-mars-agent#verify-internet-access)
