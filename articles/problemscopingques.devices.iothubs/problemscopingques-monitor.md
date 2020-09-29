@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630559"
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="ef89b825-e087-47a9-9e2a-d69bd438025b"
 	ownershipId="AzureIot_IotHub"

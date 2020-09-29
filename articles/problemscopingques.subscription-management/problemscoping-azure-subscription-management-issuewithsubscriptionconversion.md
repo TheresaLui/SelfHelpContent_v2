@@ -6,7 +6,7 @@
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32632955,32680690"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake, Fairfax, Blackforest"
+	cloudEnvironments="public, MoonCake, Fairfax, Blackforest, usnat, ussec"
    schemaVersion="1"
    articleId="problemscopingquestion-issuewith-azure-subscription-conversion"
 	ownershipId="ASMS_SubscriptionManagement"

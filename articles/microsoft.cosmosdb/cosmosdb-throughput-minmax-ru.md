@@ -9,7 +9,7 @@
 	supportTopicIds="32636800"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-throughput-minmax-ru"
 	displayOrder="245"
 	category="Throughput and Scaling"

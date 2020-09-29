@@ -10,7 +10,7 @@
     supportTopicIds="32636473"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-application-development"
 	ownershipId="AzureData_HDInsight"
 />

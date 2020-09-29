@@ -9,7 +9,7 @@
 	supportTopicIds="32599660"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b092995d-6e08-4349-866a-8e07571c5a08"
 	ownershipId="IntuneCxP_Intune"
 />

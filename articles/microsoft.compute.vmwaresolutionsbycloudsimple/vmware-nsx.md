@@ -10,9 +10,9 @@
     supportTopicIds="32637637"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="b6228786-6cec-4a7d-89f4-fb03bfd683a8"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting virtual machineware NSX 

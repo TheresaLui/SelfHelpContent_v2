@@ -10,7 +10,7 @@
     supportTopicIds="32689809"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="networking-connectivity-application-gateway-ingress-controller"
 	ownershipId="Compute_AzureKubernetesService"
 />

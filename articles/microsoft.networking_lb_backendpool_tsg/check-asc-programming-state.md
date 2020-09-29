@@ -10,7 +10,7 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="727ce48f-b78e-486b-b922-5e1b90a23cbe"
 	ownershipId="CloudNet_LoadBalancer"
 />
@@ -19,9 +19,14 @@
 
 ## **Recommended Steps**
 
-* Select the VM with 'down DIPs' in ASC Resource Explorer
-* Go to Properties > Container Settings and check to ensure IsNmProgrammingComplete = True and IsNetworkAllocationComplete = True and VscStateDate = True
-  
+1. Select the VM with 'down DIPs' in ASC Resource Explorer
+2. Go to "Properties" Tab > "Container Settings" Section
+3. Ensure the following parameters have the expected values
+
+	* IsNmProgrammingComplete = True<br>
+	* IsNetworkAllocationComplete = True<br>
+	* VscStateData = True
+
 ## **Recommended Documents**
 
-* [Link to Wiki to check ASC for VM programming state](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/CantRDPSSH/Basic_Workflow)
+* [Link to Wiki to check ASC for VM programming state](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265710/Azure_Virtual-Machine_CantRDPSSH_Basic-Workflow)

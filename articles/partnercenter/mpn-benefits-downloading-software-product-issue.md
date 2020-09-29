@@ -10,12 +10,12 @@
 	articleId="mpn_benefits_downloading_software_product_issue"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681437"
+	supportTopicIds="32725870"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Unable to see benefits

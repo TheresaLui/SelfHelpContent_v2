@@ -10,7 +10,7 @@
     supportTopicIds="32684547"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-timeout-errors"
 	ownershipId="AzureMessaging_Common"
 />

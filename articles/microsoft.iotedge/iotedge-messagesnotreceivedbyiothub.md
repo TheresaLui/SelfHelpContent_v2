@@ -9,7 +9,7 @@
 	supportTopicIds="32680967"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="6ded4d27-ef4e-4873-a6ad-48e38fc66061"
 	ownershipId="AzureIot_IotEdge"
 />
@@ -31,5 +31,5 @@ If you aren't seeing messages arriving at IoT Hub from your IoT Edge device, tra
 
 ## **Recommended Documents**
 
-* [Azure IoT Edge standard diagnostic steps](https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps)
+* [Azure IoT Edge standard diagnostic steps](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
 * [IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)

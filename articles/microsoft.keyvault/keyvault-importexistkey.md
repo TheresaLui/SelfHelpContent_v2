@@ -4,13 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="jlichwa"
-	ms.author="jalichwa"
+	ms.author="sudbalas"
 	displayOrder="20"
 	selfHelpType="generic"
 	supportTopicIds="32375293"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="917e26d0-971a-44b3-9c12-da53dacc5c4c"
 	ownershipId="AzureKeyVault_KeyVault"
 />
@@ -18,6 +18,7 @@
 # How to Import Existing Keys into a Key Vault
 ## **Recommended Steps**
 
+* If you are moving your key vault to a new subscription, please see the following document. [Azure Key Vault Subscription Move](https://docs.microsoft.com/azure/key-vault/general/keyvault-move-subscription)
 * [Add/Import Secrets to Key Vault using CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2#adding-a-key-secret-or-certificate-to-the-key-vault)<br>
 * [CLI Developer Guide for Importing Keys](https://docs.microsoft.com/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-import) <br>
 

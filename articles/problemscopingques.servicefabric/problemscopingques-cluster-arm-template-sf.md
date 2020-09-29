@@ -7,7 +7,7 @@
 	supportTopicIds="32690991, 32690995, 32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
 32690984, 32690996, 32690982, 32690993"
 	productPesIds="15842"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-cluster-arm-template-sf"
 	ownershipId="Compute_ServiceFabric"

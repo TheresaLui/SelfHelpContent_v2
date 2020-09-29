@@ -9,7 +9,7 @@
 	articleId="Service-healthevent-genericshevent-asc"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleTags="healthannotation_impactedbyoutage"
 ownershipId="ASEP_ServiceHealth"
 />

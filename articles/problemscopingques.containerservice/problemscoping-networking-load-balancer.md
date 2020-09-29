@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637198"
                 productPesIds="16450"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-networking-load-balancer"
 	ownershipId="Compute_AzureKubernetesService"

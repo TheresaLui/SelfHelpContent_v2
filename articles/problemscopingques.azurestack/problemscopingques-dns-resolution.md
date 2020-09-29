@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629210"
     productPesIds="16226"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-8526-36a830ea0098"
     ownershipId="StorageMediaEdge_AzureStack_Hub"
@@ -72,6 +72,10 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
             "dropdownOptions": [
+{
+                    "value": "2005",
+                    "text": "2005"
+                },
                 {
                     "value": "2002",
                     "text": "2002"
@@ -83,10 +87,6 @@
                 {
                     "value": "1908",
                     "text": "1908"
-                },
-                {
-                    "value": "1907",
-                    "text": "1907"
                 },
                 {
                     "value": "Other",
@@ -107,7 +107,7 @@
         },
         {
             "id": "connected_deployment",
-            "visibility": "patch_level == 2002",
+            "visibility": "patch_level == 2005 || patch_level == 2002",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Can Azure Stack Hub connect to Azure?",

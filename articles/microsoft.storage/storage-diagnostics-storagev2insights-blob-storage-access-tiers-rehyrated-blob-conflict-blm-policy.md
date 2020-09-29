@@ -12,7 +12,7 @@ diagnosticScenario="Blob rehyration potential conflict with BLM policy"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 

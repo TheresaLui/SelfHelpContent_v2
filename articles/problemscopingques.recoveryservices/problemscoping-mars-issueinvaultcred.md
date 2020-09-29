@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632797"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
   	 articleId="2e956193-880f-437c-942e-575465e86ce2"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "Issue in vault credential download",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Issue in vault credential download",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "error_message",
@@ -44,7 +39,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Azure Backup agent <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#unable-to-download-vault-credential-file'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -72,8 +67,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_start_time",

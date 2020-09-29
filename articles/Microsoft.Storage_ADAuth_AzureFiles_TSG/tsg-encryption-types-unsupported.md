@@ -2,7 +2,7 @@
     pageTitle="Verify if RC4-HMAC encryption type is enabled on the server"
     description="Verify if RC4-HMAC encryption type is enabled on the server"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="21efa5a3-e44b-476c-9861-1d167236a406"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />

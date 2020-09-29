@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="delete-search-service"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 

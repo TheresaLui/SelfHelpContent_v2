@@ -10,7 +10,7 @@
     supportTopicIds="32675597,32675600,32675601,32675599"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="15571,16342,16065,15797,16454,16470"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="151455db-1b97-415c-a86e-eb1d23147f3e"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -37,6 +37,6 @@ If your Linux virtual machine (VM) is not booting and you are unsure of the caus
 
 ## **Recommended Documents**
 
-* [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors) <br>
+* [Detailed troubleshooting of SSH errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#detailed-troubleshooting-of-ssh-errors) <br>
 * [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
 * [Troubleshooting a Linux VM that is using LVM and is not booting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/chroot-logical-volume-manager)

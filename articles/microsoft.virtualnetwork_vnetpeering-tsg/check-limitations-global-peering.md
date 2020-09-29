@@ -7,13 +7,13 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d81fb70f-cb3b-480c-a6a4-d68474261748"
 />
 
 # Check for Global Peering Limitations and Constraints
 
-We want to check if the customer is leveaging ***Global VNet Peering*** (peering between VNets that are in different regions). The reason is that there are limitations to this type of peering and we want to make sure we catch them early and inform the customer.
+We want to check if the customer is leveraging ***Global VNet Peering*** (peering between VNets that are in different regions). The reason is that there are limitations to this type of peering and we want to make sure we catch them early and inform the customer.
 
 ## **Recommended Steps**
 
@@ -35,10 +35,11 @@ We want to check if the customer is leveaging ***Global VNet Peering*** (peering
 	7. App Service Environments (ASE) (uses Basic ILB SKU)
 	8. API Management (uses Basic ILB SKU)
 	9. Azure Active Directory Domain Service (ADDS) (uses Basic ILB SKU)
+	10. VNet Integration (SWIFT) resources cannot communicate with resources in a globally peered VNet
 
 ## **Recommended Documents**
 
-https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#requirements-and-constraints
+1. [Global Peering Requirements and Constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#requirements-and-constraints)
 
 
 

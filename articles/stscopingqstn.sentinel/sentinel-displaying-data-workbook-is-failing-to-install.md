@@ -10,7 +10,7 @@
     supportTopicIds="32691188"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-displaying-data-workbook-is-failing-to-install"
 	ownershipId="Azure_Sentinel"
 />

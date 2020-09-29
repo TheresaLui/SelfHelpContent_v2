@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635657,32635665,32635690,32635705,32635707,32635651,32635704"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725887,32725895,32725900,32730253,32725881,32725898"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_subscriptions"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Subscriptions
 ---

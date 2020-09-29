@@ -13,7 +13,7 @@
 	supportTopicIds="32640117,32640118,32640120"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Can't connect MariaDB database server because of SSL connection errors
@@ -26,6 +26,7 @@ During our investigation we determined that connections to your database server 
 
 1. To fix this issue, please ensure SSL is configured correctly on the server. You can refer to [this article](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security) for assistance with configuring your client applications to connect to Azure Database for MariaDB using SSL.
 2. You can also obtain system-generated connection strings for common application libraries by navigating to your database server in the [Azure Portal](https://portal.azure.com) and clicking on the "**Connection Strings**" blade.
+3. As a part of our maintenance activity, we are working on changing out gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security#default-settings). Refer to the steps to mitigate the issue in [this article](https://docs.microsoft.com/azure/mariadb/concepts-certificate-rotation)
 
 ## **Recommended Documents**
 

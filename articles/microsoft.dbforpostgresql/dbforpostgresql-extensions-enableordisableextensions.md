@@ -10,7 +10,7 @@
     supportTopicIds="32639975"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="61c08d2a-d2e9-4163-bd62-18f200c9ed42"
     	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

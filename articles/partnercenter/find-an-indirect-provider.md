@@ -10,11 +10,11 @@
 	articleId="find_an_indirect_provider"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635672,32730250"
+	supportTopicIds="32730250"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 

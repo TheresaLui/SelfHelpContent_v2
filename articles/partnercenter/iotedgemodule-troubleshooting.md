@@ -10,11 +10,11 @@
 	articleId="iot-edge-module_offer_troubleshooting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689367, 32689404, 32689420"
+	supportTopicIds="32728161,32728157"
 	resourceTags="isv"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # IoT Edge module offer troubleshooting

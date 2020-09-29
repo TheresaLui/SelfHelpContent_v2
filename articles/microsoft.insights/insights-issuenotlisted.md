@@ -8,7 +8,7 @@
     ms.author="jamdavi"
     articleId="insights_issuenotlisted"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32402641"
  	ownershipId="AzureMonitoring_ApplicationInsights"

@@ -7,7 +7,7 @@
 	articleId="StorageScoping_adlsgen2_connectivity_throttling"
 	supportTopicIds="32612611"
 	productPesIds="16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />

@@ -5,14 +5,14 @@
     ms.author="aadevteam"
     articleId="84b1a508-fc21-49da-979e-96894f1665df_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="RedisCache_RedisCache"
 />
 # Buy virtual machine reserved instances to save money over pay-as-you-go costs
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "Virtual Machines",
+  "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "84b1a508-fc21-49da-979e-96894f1665df",
   "dataSourceMetadata": {
@@ -36,7 +36,8 @@
   },
   "ingestionClientIdentities": [
     "414f602c-67a0-40de-98f7-fbc02bbda8b1",
-    "19c2f118-ef78-4dcb-83eb-d715c67d8c39"
+    "19c2f118-ef78-4dcb-83eb-d715c67d8c39",
+    "97d24591-f8f4-457f-9b3d-896eb4d414a4"
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,

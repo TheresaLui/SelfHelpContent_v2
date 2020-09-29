@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # Step by step for connecting VNet Peering spokes to on-premises over site-to-site VPN connection
 <!--issueDescription-->

@@ -10,11 +10,11 @@
 	articleId="powerbi_app_offer_troubleshooting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689371, 32689406, 32689422, 32689442"
+	supportTopicIds="32728219,32728220,32728226,32728224"
 	resourceTags="isv"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Power BI App Offer Troubleshooting

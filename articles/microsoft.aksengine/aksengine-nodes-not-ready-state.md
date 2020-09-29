@@ -9,7 +9,7 @@
     supportTopicIds="32689840"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b2d6d639-28bb-43e5-8f47-2b3f8590eb9c"
 	ownershipId="Compute_AzureKubernetesService"
 />

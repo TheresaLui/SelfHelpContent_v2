@@ -22,7 +22,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/servers/databases",
   "recommendationFriendlyName": "SQLDBAdvisor",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -36,7 +36,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore_cn",
   "description": "Follow SQL DB Advisor recommendations",
   "longDescription": "Improve the performance of your SQL database. Follow the recommendations from SQL DB Advisor.",
   "potentialBenefits": "Improved database performance",

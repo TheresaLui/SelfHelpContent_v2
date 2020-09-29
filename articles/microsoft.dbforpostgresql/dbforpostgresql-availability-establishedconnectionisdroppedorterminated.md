@@ -7,10 +7,10 @@
     ms.author="janeng"
     displayOrder="40"
     selfHelpType="generic"
-    supportTopicIds="32639979"
+    supportTopicIds="32731217"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2393642e-b8d9-413e-be03-8535589ccc46"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
@@ -21,7 +21,7 @@ An established connection to an Azure Database for PostgreSQL server can be term
 
 ## **Recommended Steps**
 
-* Try to reconnect to your server. If you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
+* Try to reconnect to your server. If you are able to reconnect, please switch to the problem subtype *Error while connecting to server* to troubleshoot intermittent connection problems.
 * Check the **Resource health** for your server to see if there were any reported events that could have caused the connection disruption
 * Check the **Activity log** for your server to see if there are changes to the server that could have causes the connection drops
 * Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, please review your client's timeout settings.

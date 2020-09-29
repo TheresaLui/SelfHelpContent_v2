@@ -10,7 +10,7 @@
     supportTopicIds="32683763"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="networking-connectivity-subnet-issues"
 	ownershipId="Compute_AzureKubernetesService"
 />

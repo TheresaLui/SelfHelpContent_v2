@@ -8,7 +8,7 @@
 	ms.author="johwu"
 	supportTopicIds="32690836"
 	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.workspace.manage"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
@@ -46,7 +46,7 @@ Once access has be granted to the workspace, use any of the existing methods to 
 
 ### **Azure Machine Learning CLI**
 
-To create a workspace using the CLI:
+To create a workspace using the CLI: 
 
 ```
 az ml workspace create -w <WORKSPACE-NAME> -g <RESOURCE-GROUP>

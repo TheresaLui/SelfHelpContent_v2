@@ -6,7 +6,7 @@
     articleId="80efd6cb-dcee-491b-83a4-7956e9e058d5_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Fix the backup storage settings of your App Service resource
 ---

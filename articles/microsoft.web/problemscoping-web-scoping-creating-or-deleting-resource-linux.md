@@ -7,7 +7,7 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542209"
 	productPesIds="16170"
-	cloudEnvironments="public, MoonCake, Fairfax"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="d5830015-9922-4fff-a95e-fe5f07dbe222"
 	ownershipId="Compute_AppService"

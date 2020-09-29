@@ -9,9 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565581"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c63bd9df-e36e-4afb-93a0-6c17fe79311f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Errors and Exceptions/Channel disconnected error

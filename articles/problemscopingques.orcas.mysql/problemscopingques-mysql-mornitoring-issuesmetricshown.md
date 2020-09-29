@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640063"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-monitoring-issues_metricshown"
 	ownershipId="AzureData_AzureDatabaseforMySQL"

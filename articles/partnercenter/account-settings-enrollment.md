@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Account settings - Enrollment and account creation"
-	description="Account settings - Enrollment and account creation"
+	pageTitle="Account settings - Enrollment and account creation"
+	description="Account settings - Enrollment and account creation"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -10,17 +10,15 @@
 	articleId="account_settings_enrollment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635669, 32728291"
+	supportTopicIds="32728291"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
-	cloudEnvironments="public"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - Enrollment and account creation
-
-Information about Partner Center enrollment.
+# Account settings - Enrollment and account creation
 
 ## **Recommended Documents**
 
@@ -28,3 +26,4 @@ Information about Partner Center enrollment.
 * [Enroll in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/enrolling-in-the-csp-program)
 * [Renew your MPN offers](https://docs.microsoft.com/partner-center/renew-mpn-offers)
 * [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses)
+

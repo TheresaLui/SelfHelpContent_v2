@@ -10,7 +10,7 @@
 	supportTopicIds="32690913"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="9566adb5-02cf-4f1e-84f8-35981ddf10f6"
 	ownershipId="RedisCache_RedisCache"
 />

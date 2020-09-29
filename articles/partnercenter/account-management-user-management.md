@@ -10,21 +10,23 @@
 	articleId="account_management_user_management"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689467"
+	supportTopicIds="32728050"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+        ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - User management
-
-Information about Partner Center Account User management
+# Account user management
 
 ## **Recommended Documents**
 
-* [How to manage users in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account#manage-users)
+* [Manage your Commercial Marketplace account](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
+
+* [Manage users for the Commercial Marketplace program](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account#manage-users)
+
+
 
 
 

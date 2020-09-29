@@ -10,7 +10,7 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="privatedns-cantcreaterecord"
 	ownershipId="CloudNet_DNS"
 />

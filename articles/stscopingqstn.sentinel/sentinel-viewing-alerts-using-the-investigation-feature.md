@@ -10,7 +10,7 @@
     supportTopicIds="32691185"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-viewing-alerts-using-the-investigation-feature"
 	ownershipId="Azure_Sentinel"
 />

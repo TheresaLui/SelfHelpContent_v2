@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32584249"
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	ownershipId="CloudNet_VirtualNetwork"
 />
 

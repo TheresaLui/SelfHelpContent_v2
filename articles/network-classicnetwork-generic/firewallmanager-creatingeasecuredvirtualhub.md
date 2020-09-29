@@ -10,7 +10,7 @@
     supportTopicIds="32690524"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
     articleId="creating-a-secured-virtual-hub"
 	ownershipId="CloudNet_AzureFirewallManager"
 />

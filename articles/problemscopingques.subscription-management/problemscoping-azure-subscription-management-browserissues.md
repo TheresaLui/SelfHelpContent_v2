@@ -6,7 +6,7 @@
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32680692"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake, fairfax"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
   schemaVersion="1"
   articleId="problemscopingquestion-azurepurchase-browserissues"
 	ownershipId="ASMS_SubscriptionManagement"

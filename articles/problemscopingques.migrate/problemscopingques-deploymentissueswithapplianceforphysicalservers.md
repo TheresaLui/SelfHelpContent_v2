@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675745"
          productPesIds="16348"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="9398f098-8c04-4de6-a4db-59967d4805ea"
 	ownershipId="Compute_AzureMigrate"
@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with appliance for physical servers (Configuration Server)",
     "fileAttachmentHint": "",
     "formElements": [

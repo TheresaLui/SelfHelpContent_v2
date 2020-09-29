@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632798"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="66f2b938-2ad1-450f-9622-6572bda040c8"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "unable to (Re)register to vault",
     "fileAttachmentHint": "",
-      "diagnosticCard": {
-        "title": "unable to (Re)register to vault",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "machine_name",
@@ -52,7 +47,6 @@
 	 "id": "issue_type",
             "order": 4,
             "controlType": "dropdown",
-	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Which type of issue you are facing?",
             "dropdownOptions": [
                 {
@@ -76,14 +70,13 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
 	},
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Azure Backup agent <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -119,7 +112,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",

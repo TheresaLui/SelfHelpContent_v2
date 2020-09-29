@@ -10,9 +10,9 @@
 	supportTopicIds="32630410"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="d2db3abb-c25b-4aba-99a4-8b8408d75558"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Azure Active Directory Authentication

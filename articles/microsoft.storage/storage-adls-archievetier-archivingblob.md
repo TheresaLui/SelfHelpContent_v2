@@ -13,7 +13,7 @@
 	supportTopicIds="32612594,32691059,32691060"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 

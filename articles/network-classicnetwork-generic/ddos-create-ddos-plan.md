@@ -10,7 +10,7 @@
     supportTopicIds="32680994"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
     articleId="ddos-create-ddos-plan"
 	ownershipId="CloudNet_AzureDDoSProtection"
 />

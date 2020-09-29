@@ -13,7 +13,7 @@
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Failed connections to MariaDB server due to firewall restriction

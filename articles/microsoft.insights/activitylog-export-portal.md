@@ -9,7 +9,7 @@
     articleId="activitylog-export-portal"
     productPesIds="16251"
     supportTopicIds="32684688"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
 

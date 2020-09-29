@@ -10,11 +10,11 @@
 	articleId="marketplace_d365offer_deployment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689364, 32689365, 32689366"
+	supportTopicIds="32728102,32728115,32728128"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # D365 offer deployment deflection

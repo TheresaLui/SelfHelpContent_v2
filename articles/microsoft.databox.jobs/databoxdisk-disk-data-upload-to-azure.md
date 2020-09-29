@@ -11,7 +11,7 @@
 	supportTopicIds="32614262, 32614279, 32614281, 32614285, 32614289, 32614290, 32614291"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="86bef2de-f277-4281-b772-72f57f524f96"
 	ownershipId="StorageMediaEdge_DataBox"
 />

@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scale the storage limit for MariaDB server

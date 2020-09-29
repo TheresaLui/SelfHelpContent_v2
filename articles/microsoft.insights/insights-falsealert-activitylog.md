@@ -13,7 +13,7 @@
 	supportTopicIds="32629641,32629672"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 

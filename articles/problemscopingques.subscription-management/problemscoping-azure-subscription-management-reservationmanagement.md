@@ -5,7 +5,7 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593230"
 	productPesIds="15660"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="de01937a-5928-41e6-a9f3-93cd9eca469e"
 	ownershipId="ASMS_SubscriptionManagement"

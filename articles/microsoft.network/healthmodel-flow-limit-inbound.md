@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,Fairfax,Mooncake,Blackforest"
+cloudEnvironments="Public,Fairfax,Mooncake,Blackforest, usnat, ussec"
 ownershipId="CloudNet_VirtualNetwork"
 />
 

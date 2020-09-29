@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16160"
     articleId="ta-config-and-setup"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	ownershipId="CloudNet_NetAnalytics"
 />
 

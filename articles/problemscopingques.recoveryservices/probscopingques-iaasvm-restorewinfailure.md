@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553299"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,30 +18,25 @@
     "subscriptionRequired": true,
     "title": "Azure VM Restore failure for Windows",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure VM Restore failure for Windows",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
-            "id": "using_VM",
+            "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine(s)",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
+            "watermarkText": "Enter the name of the virtual machine",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true
         },
         {
             "id": "JobID_Name",
@@ -75,8 +70,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
@@ -93,8 +87,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

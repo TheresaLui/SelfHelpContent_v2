@@ -10,7 +10,7 @@
 	supportTopicIds="32640592"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-virtualdiskmgmt-diskperf"
 	ownershipId="Compute_VirtualMachines_Content"
 />

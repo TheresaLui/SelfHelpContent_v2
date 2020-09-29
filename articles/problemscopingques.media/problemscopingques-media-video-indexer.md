@@ -4,12 +4,12 @@
     ms.author="t-reutam"
     authors="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606552, 32606554, 32606567, 32606556, 32606569, 32606562, 32606555, 32606559, 32606558, 32606572, 32606551, 32606553, 32606557, 32606564, 32606566, 32606568, 32606570, 32606573, 32606560, 32606565"
+    supportTopicIds="32606554, 32740750, 32606562, 32606558, 32606567, 32740737, 32740738, 32740739, 32740740, 32740745, 32740743, 32740744"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     schemaVersion="1"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Video Indexer common questions for support
 ---

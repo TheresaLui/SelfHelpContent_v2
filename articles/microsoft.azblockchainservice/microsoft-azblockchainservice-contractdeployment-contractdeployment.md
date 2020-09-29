@@ -10,9 +10,9 @@
 	supportTopicIds="32636527"
 	resourceTags=""
 	productPesIds="16601"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="58c2b94-c16b-4154-a7d1-0bbac4a79615"
-ownershipId="Compute_Automation"
+ownershipId="Azure_BlockchainService_Content"
 />
 
 # Azure Blockchain Service

@@ -13,8 +13,8 @@
 	clientIds='partnercenter'
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Incentives"
 />
 # Partner Center Incentives: Enrollment, eligibility, earnings, payments, and policy
 

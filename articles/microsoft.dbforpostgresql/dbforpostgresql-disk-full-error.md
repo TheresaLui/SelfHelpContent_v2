@@ -13,7 +13,7 @@
 	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 

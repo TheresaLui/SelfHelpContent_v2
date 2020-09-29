@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Billing and Pricing"
-	description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32636791,32636806,32636826"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
-	articleId="cosmosdb-billing-pricing"
-	displayOrder="100"
-	category="Billing and Pricing"
-	ownershipId="AzureData_AzureCosmosDB"
+    pageTitle="Billing and Pricing"
+    description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="jimsch"
+    ms.author="jimsch"
+    selfHelpType="generic"
+    supportTopicIds="32636791,32741540,32636826"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    articleId="cosmosdb-billing-pricing"
+    displayOrder="100"
+    category="Billing and Pricing"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Pricing in Azure Cosmos DB  
@@ -33,7 +33,7 @@ In Free Tier accounts, you will get the first 400 RUs and 5 GB of storage in you
 [Azure Cosmos DB pricing](https://azure.microsoft.com/pricing/details/cosmos-db/)
 <br>This article provides Azure Cosmos DB Price and Cost estimation, and how cost are calculated.  
 
-[Estimate Request Units and Data Storage](https://www.documentdb.com/capacityplanner)
+[Estimate Request Units and Data Storage](https://cosmos.azure.com/capacitycalculator/)
 <br>Calculator to assist you in estimating your account configured capacity.
 
 [Request Units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
@@ -44,6 +44,6 @@ In Free Tier accounts, you will get the first 400 RUs and 5 GB of storage in you
 
 [Billing Examples with Free Tier Accounts](https://docs.microsoft.com/azure/cosmos-db/understand-your-bill#billing-examples-with-free-tier-accounts)
 - Free Tier Billing example - container or database with provisioned throughput
-- Free Tier Billing example - container or database with autopilot throughput (preview)
+- Free Tier Billing example - container or database with autoscale throughput
 - Free Tier Billing example - multi-region, single write region account
 - Free Tier Billing example - multi-region, multi-master (multiple write region) account

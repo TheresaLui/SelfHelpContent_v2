@@ -10,7 +10,7 @@ description="trafficanalytics/configandsetup"
 	supportTopicIds="32606428"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e3b833f6-76e6-4404-9a32-47671b5d5016"
 	ownershipId="CloudNet_NetAnalytics"
 />

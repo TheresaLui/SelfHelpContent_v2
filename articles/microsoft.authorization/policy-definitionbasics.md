@@ -10,7 +10,7 @@
     supportTopicIds="32730238"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="7fbc954e-e95a-42dc-9e26-cd7d852bf570"
     ownershipId="Compute_AzurePolicy"
 />
@@ -33,7 +33,7 @@ If an alias does not exist, create a support ticket.
 * **Is this a issue with tagging resources using Azure Policy?**
 
 Find more information about managing your tags with Azure Policy [here](https://docs.microsoft.com/azure/governance/policy/tutorials/govern-tags).  
-If you want to a policy to add a [tag](https://docs.microsoft.com/rest/api/resources/tags) if one does not exist, but still respect user input, use [Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect. Policy’s Modify effect lets you add, remove, or addOrReplace tags. It will not make changes to tags that already exist.  
+If you want to a policy to add a [tag](https://docs.microsoft.com/rest/api/resources/tags) if one does not exist, but still respect user input, use [Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect. Policys Modify effect lets you add, remove, or addOrReplace tags. It will not make changes to tags that already exist.  
 You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy) and [Community Policy repo](https://github.com/Azure/Community-Policy). 
 
 ## **Recommended Documents**

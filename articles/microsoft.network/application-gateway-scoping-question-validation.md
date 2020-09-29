@@ -10,7 +10,7 @@
     articleId="application-gateway-invalid-application-gateway-access-url"
     diagnosticScenario="ApplicationGatewayScopingQuestionValidationMessage"
     supportTopicIds=""
-    cloudEnvironments="public,mooncake,fairfax,blackforest"
+    cloudEnvironments="public,mooncake,fairfax,blackforest, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

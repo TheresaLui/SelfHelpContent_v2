@@ -6,7 +6,7 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608938, 32608958, 32608934"
 	productPesIds="15842"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-performance-sf"
 	ownershipId="Compute_ServiceFabric"

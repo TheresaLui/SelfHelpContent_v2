@@ -10,7 +10,7 @@
     supportTopicIds="32641416"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-configure-delete-gateway"
 	ownershipId="CloudNet_AzureBastion"
 />

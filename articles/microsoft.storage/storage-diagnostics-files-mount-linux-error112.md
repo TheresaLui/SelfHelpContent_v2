@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
@@ -53,5 +53,5 @@ If you can't upgrade to the latest kernel versions, you can work around this pro
 ## **Recommended Documents**
 
 - [Troubleshoot Azure Files problems in Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems)
-- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)
+- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)
 - [Minimum recommended versions with corresponding mount capabilities (SMB version 2.1 vs SMB version 3.0)](https://docs.microsoft.com/azure/storage/files/storage-how-to-use-files-linux#minimum-recommended-versions-with-corresponding-mount-capabilities-smb-version-21-vs-smb-version-30)

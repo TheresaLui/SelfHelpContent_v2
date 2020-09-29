@@ -10,11 +10,11 @@
 	articleId="partnercenter_view maps invoice"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635663"
+	supportTopicIds="32725802"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Refund / Cancellation of enrollment

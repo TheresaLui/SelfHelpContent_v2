@@ -10,11 +10,11 @@
 	articleId="iot-edge-module_offer_other"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689435"
+	supportTopicIds="32728154,32728164,32728163"
 	resourceTags="isv"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Frequently asked questions related to IoT Edge modules

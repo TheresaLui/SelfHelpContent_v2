@@ -8,9 +8,9 @@
     displayOrder="2"
     articleId="metrics-for-resource-type-other"
     selfHelpType="generic"
-    supportTopicIds="32684760,32684761,32684762,32684763,32684764,32684765,32684766,32684767,32684768,32730384"
+    supportTopicIds="32684760,32684761,32684762,32684763,32684764,32684765,32684766,32684767,32684768"
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	ownershipId="AzureMonitoring_Essentials"
 />
 

@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637199"
                 productPesIds="16450"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-failed-state"
 	ownershipId="Compute_AzureKubernetesService"
