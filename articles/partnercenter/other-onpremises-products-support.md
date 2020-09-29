@@ -24,7 +24,7 @@
 
 ## **Recommended Steps**
 
-- Create a support request [here](https://support.microsoft.com/SupportforBusiness)
+- Create a support request [here](https://serviceshub.microsoft.com/supportforbusiness)
 
 
 ## **Recommended Documents**
