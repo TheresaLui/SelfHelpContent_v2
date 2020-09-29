@@ -35,14 +35,9 @@ Summary of configuration steps in the video:
 3. Examples of login types
 4. Adding access to existing Active Directory users
 
-### **Recommended Steps**
-
-* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
-* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
-* [Azure AD authentication with SQL](https://techcommunity.microsoft.com/t5/azure-sql-database/troubleshooting-problems-related-to-azure-ad-authentication-with/ba-p/1062991)<br>
-
 ### **Recommended Documents**
 
+* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
 * [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>
 * [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>
 * [Azure AD authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries?WT.mc_id=pid:13491:sid:32630410/)
