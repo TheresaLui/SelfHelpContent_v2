@@ -16,7 +16,7 @@
 	ownershipId="StorageMediaEdge_Backup"
 />
 
-# UserErrorBackupFailedAsRemedialBackupInProgress 
+# UserErrorHANASystemDBNotRunning 
 
 <!--issueDescription-->
 We have identified that your backup operation failed because SYSTEMDB for SAP HANA instance is not in running state.
