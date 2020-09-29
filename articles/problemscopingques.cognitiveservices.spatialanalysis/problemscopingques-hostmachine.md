@@ -48,11 +48,11 @@
         {
           "value": "Yes",
           "text": "Yes"
-        }
+        },
         {
           "value": "No",
           "text": "No"
-        },
+        }
       ],
       "required": true
     }
