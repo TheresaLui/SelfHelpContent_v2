@@ -26,7 +26,7 @@ As the storage account remains a separate resource you may experience various ty
 ## **Recommended Steps**
 
 1. Review the input and output data links on the job that you are trying to access. They contain the storage account name as part of the URL.
-2. Review the permission settings on the storage account.
+2. Review the permission settings on the storage account
 3. To reconfigure permissions, please follow the documentation around [storage account permissions](https://docs.microsoft.com/azure/storage/common/storage-access-blobs-queues-portal)
 
 ## **Recommended Documents**
