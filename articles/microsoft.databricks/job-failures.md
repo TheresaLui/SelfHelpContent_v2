@@ -51,6 +51,12 @@
 
 * Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
 
+ * Monitoring [Driver node]( https://docs.microsoft.com/azure/databricks/clusters/configure#driver-node) performance:
+    * [Ganglia metrics]( https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics)
+    * [Diagnostic logging in Azure Databricks]( https://docs.microsoft.com/en-us/azure/databricks/administration-guide/account-settings/azure-diagnostic-logs) - you can stream the VM's metrics to Azure Log Analytics Workspace by installing the Log Analytics Agent on each cluster node.
+    **Note:** This could increase cluster startup time by a few minutes.
+    * [SSH to Driver on VNet injected workspace]( https://docs.microsoft.com/azure/databricks/clusters/configure#--ssh-access-to-clusters) and run bash commands
+
 ## **Recommended Documents**
 
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
