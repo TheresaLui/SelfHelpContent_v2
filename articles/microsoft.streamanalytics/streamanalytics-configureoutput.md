@@ -33,3 +33,4 @@ To learn more about configuring outputs in Azure Stream Analytics job, see the r
 * [How to achieve better write throughput when using SQL Azure Database](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-sql-output-perf)
 * [Prevent duplicate entries when writing to SQL Azure Database](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output#key-violation-warning-with-azure-sql-database-output)
 * [Authenticate to ADLS Gen1 with managed identities](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-managed-identities-adls)
+* [Configure output to Azure Functions](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-outputs#azure-functions)

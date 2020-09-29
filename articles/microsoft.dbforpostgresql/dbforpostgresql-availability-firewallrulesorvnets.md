@@ -21,7 +21,6 @@
 
 ## **Recommended Steps**
 
-* If you have added new firewall rules and they are not taking effect (you see a pg_hba.conf error), you may be in a subset of customers affected by a recent bug. A fix is available; please [restart your server](https://docs.microsoft.com/azure/postgresql/howto-restart-server-portal) to apply this fix. 
 * You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/postgresql/).
 * If you are using a virtual network (vnet), ensure that the service endpoints are correctly configured for the Postgres server and the client. This can be done using the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal) or the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-cli/).
 * If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/postgresql/howto-configure-privatelink-portal)

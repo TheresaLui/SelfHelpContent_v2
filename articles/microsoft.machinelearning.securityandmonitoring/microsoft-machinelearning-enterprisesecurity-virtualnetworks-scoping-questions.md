@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Virtual Network Configuration"
 	description="Virtual Network Configuration"
-	infoBubbleText="Virtual Network Configuration"
+	infoBubbleText="Virtual Network Configuration "
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"
@@ -11,7 +11,7 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.virtualnetwork"
+	articleId="microsoft.machinelearning.enterprisesecurity.virtualnetwork.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

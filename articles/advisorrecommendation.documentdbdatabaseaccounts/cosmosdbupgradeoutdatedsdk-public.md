@@ -5,7 +5,7 @@
     ms.author="pratnala"
     articleId="60a55165-9ccd-4536-81f6-e8dc6246d3d2_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, USNat, USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your outdated Azure Cosmos DB SDK to the latest version
@@ -29,13 +29,13 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/",
   "description": "Upgrade your outdated Azure Cosmos DB SDK to the latest version",
   "longDescription": "Your Azure Cosmos DB account is using an outdated version of the SDK. We recommend upgrading to the latest version for the latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
   "displayLabel": "Upgrade your outdated Azure Cosmos DB SDK to the latest version",
-  "supportedSDKLanguages": [".NET", ".NET Core", "Sync Java", "Async Java", "Java", "Node.js", "Python"],
+  "supportedSDKLanguages": [".NET", ".NET Core", "Sync Java", "Async Java", "Java", "Node.js", "Python", "Spark Connector"],
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OutdatedSDK",

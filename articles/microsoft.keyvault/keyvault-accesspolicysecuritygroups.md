@@ -15,18 +15,20 @@
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
-# Azure Key Vault Access Policies and Security Groups
+# Azure Key Vault Access Policies and Azure RBAC
+
+## **Recommended Steps**
+
+1. Use Azure individual identity or security group
+1. Assign access policies [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
+1. Assign Azure roles [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
 
 **Troubleshooting**
 
-
-* RBAC new roles Key Vault Administrator, Key Vault Reader and Key Vault Secrets, Certificates and Keys roles are currently in private preview. It requires subscription to be enabled for roles to take effect. Please contact [jalichwa@microsoft.com](mailto:jalichwa@microsoft.com) for more information.
-
-* Per-secret/key/certificate access control: Custom access control feature work is in the roadmap. Preview would be available in next few months. [Read more](https://feedback.azure.com/forums/906355-azure-key-vault/suggestions/32213176-per-secret-key-certificate-access-control)
+* Security groups with MSIs can take up to 8 hours for tokens to be refreshed and become effective
 
 ## **Recommended Documents**
 
-* [Key Vault Access Control Policies](https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#:~:text=%20Each%20key%20vault%20access%20policy%20entry%20grants,users%20direct%20access%20to%20a%20ke...%20More%20)
 * [Azure Active Directory Security Groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Understand Key Vault Authentication](https://docs.microsoft.com/azure/key-vault/general/authentication)<br>
 * [Understand Key Vault Access Model](https://docs.microsoft.com/azure/key-vault/general/secure-your-key-vault)<br>
