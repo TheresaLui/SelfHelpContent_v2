@@ -4,8 +4,8 @@
     infoBubbleText="High unused space detected. See details for more info."
     service="microsoft.sql"
     resource=""
-    authors="zhimwang"
-    ms.author="zhimwang"
+    authors="ketho00"
+    ms.author="ketho"
     displayOrder=""
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
     diagnosticScenario="HighFragmentation"
@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 # We ran diagnostics on your resource and found an issue
 
