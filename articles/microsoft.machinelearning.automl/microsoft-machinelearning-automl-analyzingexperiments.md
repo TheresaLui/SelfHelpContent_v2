@@ -28,4 +28,4 @@ In this article, you learn how to view and understand automated ML experiments.
 * [Track and monitor experiments](https://docs.microsoft.com/azure/machine-learning/how-to-manage-runs)
 * [Model interpretability in automated machine learning](https://docs.microsoft.com/azure/machine-learning/how-to-machine-learning-interpretability-automl)
 * [Understand automated machine learning models](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train#understand-automated-ml-models)
-* [Known Issues](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
+* [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
