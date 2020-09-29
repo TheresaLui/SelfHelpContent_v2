@@ -13,13 +13,17 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 # Configuring Azure Active Directory
 
-:::Section Recommended Video:::
+:::Section Recommended Solutions:::
+
+Please see the recommended video and documentation links to address common Azure SQL auditing questions. 
+
+## **Recommended Video**
 
 In the following video, you will learn about the strategies and methods for monitoring and auditing your Azure SQL database.
 
 <video>
 <src>https://youtu.be/HeKDc-ndlYc</src>
-<title>Monitoring, Logging & Auditing in Azure SQL</title>
+<title>Monitoring, Logging, & Auditing in Azure SQL</title>
 </video>
 
 This video will highlight the following auditing capabilities:
