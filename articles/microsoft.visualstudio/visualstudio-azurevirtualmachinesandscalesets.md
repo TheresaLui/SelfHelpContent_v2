@@ -28,12 +28,11 @@ Are you facing one of these common problems?
 
 * **I want to deploy the application on virtual machine scale set.**
 
-    [Follow these steps](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app#:~:text=To%20run%20applications%20on%20virtual,scripts%20on%20existing%20VM%20instances.)
+    [Follow these steps](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app#:~:text=To%20run%20applications%20on%20virtual,scripts%20on%20existing%20VM%20instances).
 
 * **My Build pipeline is failing with PowerShell task on the remote machine**
 
-    Ensure that WinRM is configured and associated on the remote machine to execute the PowerShell task. [Refer this document](https://docs.microsoft.com/azure/virtual-machines/windows/winrm)
-
+    Ensure that WinRM is configured and associated on the remote machine to execute the PowerShell task. [Refer to this document](https://docs.microsoft.com/azure/virtual-machines/windows/winrm).
 
 ## **Recommended Documents**
 
