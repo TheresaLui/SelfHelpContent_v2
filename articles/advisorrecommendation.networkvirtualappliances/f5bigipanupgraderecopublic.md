@@ -37,7 +37,7 @@ ownershipId="CloudNet_NVA"
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
     "description":"Update to the latest version of your F5 BigIp product for Accelerated Networking support." ,
-    "longDescription": "We have identified that your Virtual Machine might be running a version of a software image that is running older drivers for Accelerated Networking (AN). It has a synthetic network interface which, either, is not AN capable or is not compatible with all Azure hardware. It is recommended that you upgrade to the latest version of the image that addresses this issue and enable Accelerated Networking. Please contact Your vendor for further instructions on how to upgrade your Network Virtual Appliance Image.",
+    "longDescription": "We have identified that your Virtual Machine might be running a version of software image that is running older drivers for Accelerated Networking (AN). It has a synthetic network interface which, either, is not AN capable or is not compatible with all Azure hardware. It is recommended that you upgrade to the latest version of the image that addresses this issue and enable Accelerated Networking. Please contact your vendor for further instructions on how to upgrade your Network Virtual Appliance Image.",
     "potentialBenefits": "Faster network throughput with lower latency.",
     "actions": [
         {
