@@ -86,3 +86,4 @@ Note that when using the UI you currently cannot whitelist algorithms, only blac
 
 * [Configure automated ML experiments in Python](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train)
 * [Create, explore, and deploy automated machine learning experiments with Azure ML UI](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments)
+* [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
