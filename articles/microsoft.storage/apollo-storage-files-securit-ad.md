@@ -48,7 +48,7 @@ Most users are able to resolve their On premise AD-DS authentication over SMB is
 <title>Step by Step Video for enabling Files AD DS Authentication with private endpoints</title>
 </video>
 
-This video will prrovide detailed steps on how to enable Azure Files AD DS authentication with private endpoints.
+This video will provide detailed steps on how to enable Azure Files AD DS authentication with private endpoints.
 
 <video>
 <src>https://www.youtube.com/embed/9S5A1IJqfOQ</src>
