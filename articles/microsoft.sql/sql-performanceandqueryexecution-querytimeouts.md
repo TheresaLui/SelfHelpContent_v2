@@ -23,16 +23,15 @@ In general command timeouts can be investigated using [query data store](https:/
 
 That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
 
-If the query bottleneck on IO : 
-* Increase the query timeout.
-* Further optimize query if possible.
-* If query must perform lots of IOs and is latency sensitive than latencies per IO are better in BC offers.
+If the query bottleneck on IO: 
+* Increase the query timeout
+* Further optimize query if possible
+* If query must perform lots of IOs and is latency sensitive than latencies per IO are better in BC offers
 
 If the query bottleneck is on CPU:
-* Check other CPU intensive activities.
-* Find of that is due to any other user load.
-* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query or scale the database.
-
+* Check other CPU intensive activities
+* Find of that is due to any other user load
+* Optimize or [batch](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) the query or scale the database
 
 ### **Connection Timeout**
 
@@ -41,13 +40,7 @@ For DTU bases SLO's Azure SQL is using DTU as a measure of how many resources yo
 Go to your database then Query Performance Insight, and see your top queries run time. And start optimisation from there.
 Potential places could be EntityFramework (if you are using it), this could generate queries with huge amount of data to be returned which slows down query and uses lots of IO.
 
-If you still want to increase timeout you can do that in [.config](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection.connectiontimeout?redirectedfrom=MSDN&view=dotnet-plat-ext-3.1#System_Data_SqlClient_SqlConnection_ConnectionTimeout) file for your connection string by adding
-
-```
-;Connection Timeout=<value>
-```
-
-
+If you still want to increase timeout you can do that in [.config](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection.connectiontimeout?redirectedfrom=MSDN&view=dotnet-plat-ext-3.1#System_Data_SqlClient_SqlConnection_ConnectionTimeout) file for your connection string by adding `;Connection Timeout=<value>`.
 
 ## **Recommended Documents**
 
