@@ -24,7 +24,7 @@ Most users are able to resolve their issues with SQL Managed Instance Azure Arc 
 
   - [Troubleshooting Backup and Restore progress using Extended Events](https://techcommunity.microsoft.com/t5/sql-server/new-extended-event-to-track-backup-and-restore-progress/ba-p/384447)
   - [Restoring a database in MIAA](https://docs.microsoft.com/azure/azure-arc/data/restore-adventureworks-sample-db)
-  - [Migrated Database from SQL Server to SQL MI-AA](https://docs.microsoft.com/azure/azure-arc/data/migrate-to-managed-instance-azure-arc)
+  - [Migrate a Database from SQL Server to Azure Arc enabled SQL Managed Instance](https://docs.microsoft.com/azure/azure-arc/data/migrate-to-managed-instance)
 
 - SQL Engine Errors:
 
@@ -32,11 +32,13 @@ Most users are able to resolve their issues with SQL Managed Instance Azure Arc 
 
 - SQL Engine Service Startup Options and Recovery:
 
-  - [Service Startup options/parameters](https://docs.microsoft.com/sql/database-engine/configure-windows/database-engine-service-startup-options?view=sql-server-ver15)
+  - [SQL Server Service Startup options/parameters](https://docs.microsoft.com/sql/database-engine/configure-windows/database-engine-service-startup-options)
+  - [Configure Azure Arc SQL Managed Instance Server Options](https://docs.microsoft.com/azure/azure-arc/data/configure-managed-instance#configure-server-options) 
   - [Rebuild System Databases](https://docs.microsoft.com/sql/relational-databases/databases/rebuild-system-databases)
   - [Moving System Databases](https://docs.microsoft.com/sql/relational-databases/databases/move-system-databases)
 
 - Server Configuration:
 
   - [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)
-  - [ALTER SERVER CONFIGURATION](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql)
+  - [ALTER SERVER CONFIGURATION(Transact-SQL)](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql)
+  
