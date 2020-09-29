@@ -34,7 +34,6 @@
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
-* [How to Resolve Job Hangs and Collect Diagnostic Information](https://docs.microsoft.com/azure/databricks/kb/jobs/job-hang-resolve-and-collect-diagnostics)
 * Databricks **Performance Tuning**:
 	* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
 	* [Optimizing Apache Spark SQL Joins](https://databricks.com/session/optimizing-apache-spark-sql-joins)
