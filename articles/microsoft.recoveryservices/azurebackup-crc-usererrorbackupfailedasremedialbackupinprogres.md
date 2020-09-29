@@ -1,14 +1,14 @@
 <properties
 	pageTitle="UserErrorBackupFailedAsRemedialBackupInProgress"
 	description="UserErrorBackupFailedAsRemedialBackupInProgress"
-	infoBubbleText="UserErrorBackupFailedAsRemedialBackupInProgress"
+	infoBubbleText="Backup failed because a remedial backup is in progress for this database. Backups on this database will not succeed until the remedial backup is complete"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder=""
-	articleId="azurebackup-crc-usererrorbackupfailedasremedialbackupinprogres.md"
-	diagnosticScenario="azurebackup-crc-backupoperationfailed"
+	articleId="azurebackup-crc-usererrorbackupfailedasremedialbackupinprogress"
+	diagnosticScenario="azurebackup-crc-usererrorbackupfailedasremedialbackupinprogress"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	productPesIds="15207"
@@ -19,7 +19,7 @@
 # UserErrorBackupFailedAsRemedialBackupInProgress 
 
 <!--issueDescription-->
-## We have identified that your backup operation failed because there is already another remedial full backup is in progress.
+We have identified that your backup operation failed because there is already another remedial full backup is in progress.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
