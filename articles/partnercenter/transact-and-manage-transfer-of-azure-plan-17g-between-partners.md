@@ -26,8 +26,6 @@
 - Transfer requests must be accepted by the current partner within 30 days of the request or it will expire.
 - After the request is accepted, billing ownership for the subscriptions is immediately transferred to the future partner, and all parties receive notifications of the transfer.
 - Microsoft is not a party to the agreement between the customer and the source partner and has no knowledge of the contents of that agreement between the customer and the source partner. As such it is not appropriate for Microsoft to get involved in any dispute between the two parties of that agreement.
-- Microsoft is not a party to the agreement between the customer and the source partner and has no knowledge of the contents of that agreement between the customer and the source partner.
-As such it is not appropriate for Microsoft to get involved in any dispute between the two parties of that agreement.
 
 The customer should refer to the relevant cancellation terms in their agreement with the source partner, and work with the source partner to cancel their agreement in alignment with those terms.
 
