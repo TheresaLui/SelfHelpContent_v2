@@ -22,8 +22,6 @@
 
 ## **Recommended Steps**
 
-If you can't sign into Partner Center:
-
 - For different ways on how you can reset your password and regain access to your work account, read [Reset your work or school password using security info](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-update-your-own-password#how-to-change-your-password)
 - After your work account password has been reset, you will be able to access Partner Center
 
