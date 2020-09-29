@@ -56,7 +56,6 @@ run = experiment.submit(automl_config, show_output=True)
 ## **Recommended Documents**
 
 * [Run experiment and view results in the SDK](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train#run-experiment)
-* [Run experiment and view results in the UI](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments#run-experiment-and-view-results)
 * [Understand automated machine learning results](https://docs.microsoft.com/azure/machine-learning/how-to-understand-automated-ml)
 * [Model interpretability in automated machine learning](https://docs.microsoft.com/azure/machine-learning/how-to-machine-learning-interpretability-automl)
 * [Understand automated machine learning results](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train#understand-automated-ml-models)
