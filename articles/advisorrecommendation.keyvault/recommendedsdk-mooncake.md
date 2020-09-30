@@ -2,9 +2,9 @@
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
     ms.author="osmuller"
-    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public"
+    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public"
+    cloudEnvironments="mooncake"
     ownershipId="AzureKeyVault_KeyVault"
 />
 # Key Vault SDK Version Recommendation
@@ -15,7 +15,7 @@
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
 	"dataSourceMetadata": {
-		"streamNamespace": "cluster('https://keyvault.kusto.windows.net').database('warm-public').GetAzureAdvisorRecommendedSdkReport",
+		"streamNamespace": "cluster('https://keyvaultmc.kusto.chinacloudapi.cn').database('warm').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
 		"refreshInterval": "1.00:00:00"
 	},
@@ -27,14 +27,14 @@
 	"owner": {
 		"email": "azkvicm@microsoft.com",
 		"icm": {
-			"routingId": "adrocs://Recovery/AzKV",
+			"routingId": "adrocs://Recovery/AzKV_MC",
 			"service": "Azure Key Vault",
 			"team": "Triage"
 		},
 		"serviceTreeId": "51c86b53-37ee-4e99-9747-89d133719ac4"
 	},
 	"version": 1,
-	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/general/client-libraries",
+	"learnMoreLink": "https://docs.azure.cn/azure/key-vault/general/client-libraries",
 	"description": "Update Key Vault SDK Version",
 	"longDescription": "The latest version of Key Vault Client Libraries contains fixes to issues reported by customers and proactively identified through our QA process.",
 	"potentialBenefits": "Latest Key Vault Client Libraries contain fixes for known issues and additional improvements.",

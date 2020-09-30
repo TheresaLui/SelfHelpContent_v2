@@ -2,9 +2,9 @@
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
     ms.author="osmuller"
-    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public"
+    articleId="89df03c6-017c-4061-bc7e-f33e772339d0_ussec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public"
+    cloudEnvironments="ussec"
     ownershipId="AzureKeyVault_KeyVault"
 />
 # Key Vault SDK Version Recommendation
@@ -15,7 +15,7 @@
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
 	"dataSourceMetadata": {
-		"streamNamespace": "cluster('https://keyvault.kusto.windows.net').database('warm-public').GetAzureAdvisorRecommendedSdkReport",
+		"streamNamespace": "cluster('https://keyvaultrx.usseceast.kusto.core.microsoft.scloud').database('warm').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
 		"refreshInterval": "1.00:00:00"
 	},
