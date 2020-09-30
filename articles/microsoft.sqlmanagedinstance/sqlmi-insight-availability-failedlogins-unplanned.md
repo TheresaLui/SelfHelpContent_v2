@@ -10,7 +10,7 @@
 	articleId="sqlmi-availability-rca-unplanned"
 	diagnosticScenario="sqlmi-availability-rca-unplanned"
 	selfHelpType="diagnostics"
-	supportTopicIds="32739488,32637246,32637259,32637254"
+	supportTopicIds="32746119,32746120,32746121,32746125,32746127,32746128"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
