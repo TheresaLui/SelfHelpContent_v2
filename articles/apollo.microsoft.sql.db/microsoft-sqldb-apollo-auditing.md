@@ -24,7 +24,7 @@ Please see the recommended video and documentation links to address common Azure
 In the following video, you will learn about the strategies and methods for monitoring and auditing your Azure SQL database.
 
 <video>
-<src>https://youtu.be/HeKDc-ndlYc</src>
+<src>https://www.youtube.com/watch?v=HeKDc-ndlYc</src>
 <title>Monitoring, Logging, and Auditing in Azure SQL</title>
 </video>
 
