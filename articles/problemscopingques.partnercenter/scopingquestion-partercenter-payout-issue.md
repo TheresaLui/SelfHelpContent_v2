@@ -166,7 +166,7 @@
 	   "required": false
        },
        {
-	   "id": "additional_email(s)_for_notification",
+	   "id": "additional_email_for_notification",
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
@@ -195,7 +195,7 @@
        "order": 12,
        "controlType": "infoblock",
        "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
-       },
+       }
    ]
 }
 ---
