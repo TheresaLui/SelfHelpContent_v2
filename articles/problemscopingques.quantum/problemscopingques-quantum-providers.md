@@ -14,8 +14,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Error relating to Azure Quantum Provider",
     "fileAttachmentHint": "",
     "formElements": [
@@ -39,7 +39,7 @@
             "id": "az_quantum_provider",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "displayLabel": "If your case relates to one or more specific provider(s), please share the provider name(s) with us.",
+            "displayLabel": "Provider(s) that this case relates to (if applicable)",
             "dropdownOptions": [{
                     "value": "1Qloud",
                     "text": "1Qloud Optimization Platform"
@@ -63,10 +63,10 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Description",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library, not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Provide additional information about your issue. If available, please include the full error message and any stack traces you are receiving."
         }
     ]
 }
