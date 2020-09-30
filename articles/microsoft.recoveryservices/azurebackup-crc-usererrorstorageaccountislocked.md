@@ -19,9 +19,9 @@
 # UserErrorStorageAccountIsLocked 
 
 <!--issueDescription-->
-Backup or restore jobs failed due to storage account being in locked state.
+Backup or restore jobs failed due to storage account being in locked state
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue, remove the lock on the Storage Account or use delete lock instead of read lock and retry the backup or restore operation, [Learn more](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources).
+- To resolve this issue, remove the lock on the Storage Account or use delete lock instead of read lock and retry the backup or restore operation, [Learn more](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources)
