@@ -27,7 +27,7 @@ We have identified that your backup operation failed because of an issue on the 
 1. To resolve this issue, ensure there is no other application (3rd party backup) using the VSS service and retry the operation after sometime <br>
 2. If issue still persists, restart the VSS service and try again
 3. To restart VSS (Volume Shadow Copy) service<br>
-   - Navigate to Services.msc and restart 'Volume Shadow Copy service'<br>(or)
+   - Navigate to services.msc and restart 'Volume Shadow Copy service'<br>(or)
    - From an elevated command prompt, run
      * ```net stop VSS```
      * ```net start VSS```
