@@ -4,7 +4,7 @@
     ms.author="osmuller"
     articleId="89df03c6-017c-4061-bc7e-f33e772339d0_public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public"
+    cloudEnvironments="public,usnat,ussec"
     ownershipId="AzureKeyVault_KeyVault"
 />
 # Key Vault SDK Version Recommendation
