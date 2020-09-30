@@ -160,8 +160,8 @@
     {
       "id": "66bbbb9f-eb66-93d1-4137-0950c97901c0",
       "longDescription": "",
-      "shortDescription": "Integrate Azure Key Vault with a Custom Application",
-      "searchTags": "Azure ",
+      "shortDescription": "Use Azure Key Vault with  self-hosted applications or custom applications deployed to VM. Do not use for App Services hosted application.",
+      "searchTags": "Azure",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
