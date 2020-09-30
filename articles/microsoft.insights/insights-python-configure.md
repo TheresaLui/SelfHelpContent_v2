@@ -7,7 +7,7 @@
     ms.author="lechen,neghuman"
     articleId="insights_python_configure"
     displayOrder="1125"
-    selfHelpType="resource"
+    selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32681426"

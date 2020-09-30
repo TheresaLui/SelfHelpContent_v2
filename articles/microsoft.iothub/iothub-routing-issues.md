@@ -27,6 +27,10 @@
 
 1. [Turn on logs for routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health) to see if rules evaluate to "undefined", if there are any errors from an endpoint, etc.
 
+**Not receiving any messages?**
+
+Your messages might be getting lost due to the fallback route being disabled. Try **Enable** the fallback route in [**Message routing**](data-blade:Microsoft_Azure_IotHub.RoutingBlade.resourceId.$resourceId).
+
 **Having trouble applying query on the message body?**
 
 If you think IoT Hub isn't evaluating the query expression on message body, make sure contentType is set as application/JSON and contentEncoding is set as UTF-8, UTF-16, or UTF-32 in the [system properties](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax#system-properties).

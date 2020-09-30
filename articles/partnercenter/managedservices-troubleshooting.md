@@ -10,11 +10,11 @@
 	articleId="managed_services_offer_troubleshooting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689368, 32689405, 32689421, 32689437"
+	supportTopicIds="32728168,32728169,32728175,32728173,32728174"
 	resourceTags="isv"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Azure Managed Services Offer Preview Troubleshooting

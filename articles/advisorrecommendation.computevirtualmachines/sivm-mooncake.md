@@ -8,7 +8,7 @@
     cloudEnvironments="Mooncake"
 	ownershipId="Compute_VirtualMachines"
 />
-# Use availability sets for improved fault tolerance
+# Use availability sets for   improved fault tolerance
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "SIVM",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

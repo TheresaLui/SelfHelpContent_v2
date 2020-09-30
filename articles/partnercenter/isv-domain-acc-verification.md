@@ -21,9 +21,17 @@
 # Partner Center account business verification
 
 ## **Recommended Steps**
+- When you enroll for a new program in Partner Center, Microsoft verifies the account enrollment information you have provided, such as your company name, company address, and primary contact details. During this process, Microsoft may send email to your primary contact to inform them of the status and request additional verification documentation. To ensure that you receive the email, be sure to flag email from Microsoft.com as a **safe** domain, and check Junk email folders.
+- Verification normally takes up to 3 business days but in some cases it may take weeks. Please wait for at least 3 days before raising a support ticket.
+- If you don't receive the email ownership verification email message within one business day, you can request to resend using the links below and following the appropriate instructions:
+   - For [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) accounts
+   - For [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) accounts
+   - For [Commercial marketplace](https://partner.microsoft.com/dashboard/account/management) accounts
 - If your business verification is rejected, verify that you have provided the correct Company information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
 - If the information is correct and still the verification is rejected, you need to upload verification documents by clicking this link:
 [Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
+- For any other verification issues, you can create a support ticket by clicking on Next step section
+- If the problem is related to employment verification or business verification, you can search for the topic in _Tell us about issue section_
  
 ## **Recommended Documents**
 

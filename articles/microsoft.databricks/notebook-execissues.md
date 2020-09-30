@@ -17,12 +17,27 @@
 
 # Diagnose and resolve execution issues
 
+## **Recommended Steps**
+
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
 ## **Recommended Documents**
 
+* How to connect to data sources from Azure Databricks:
+     * [Azure SQL database](https://docs.microsoft.com/azure/databricks/data/data-sources/sql-databases)
+     * [Azure Data Lake Storage](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-datalake-gen2)
+     * [Azure Blob Storage](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-storage)
+     * [Azure Cosmos DB](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/cosmosdb-connector)
+     * [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-spark-connector)
+     * [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/)
 * [Troubleshooting Unresponsive Python Notebooks or Canceled Commands](https://docs.microsoft.com/azure/databricks/kb/notebooks/troubleshoot-cancel-command)
 * Python library conflicts can result in cancelled commands. The Azure Databricks support organization sees conflicts most often with versions of ipython, numpy, scipy, and pandas : [Troubleshooting Steps](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled#python-command-cancelled) 
-* [Common Errors in Notebooks](https://kb.databricks.com/notebooks/common-errors-in-notebooks.html)
-* [Cannot Run Notebook Commands After Canceling Streaming Cell](https://kb.databricks.com/notebooks/streaming-notebook-stuck.html)
+* [Common Errors in Notebooks](https://docs.microsoft.com/azure/databricks/kb/notebooks/common-errors-in-notebooks)
+* [Cannot Run Notebook Commands After Canceling Streaming Cell](https://docs.microsoft.com/azure/databricks/kb/notebooks/streaming-notebook-stuck)
 
 * To [increase quota limits](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests), please follow the steps:
 
@@ -31,3 +46,9 @@
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
+    
+* Databricks **Performance Tuning**:
+	* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
+	* [Optimizing Apache Spark SQL Joins](https://databricks.com/session/optimizing-apache-spark-sql-joins)
+	* [Correctness and Performance of Apache Spark SQL](https://databricks.com/session/a-framework-for-evaluating-the-performance-and-the-correctness-of-the-spark-sql-engine)
+	* [Delta Engine Optimization](https://docs.microsoft.com/azure/databricks/delta/optimizations/)

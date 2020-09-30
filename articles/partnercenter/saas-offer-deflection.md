@@ -7,7 +7,7 @@
 	authors="a-crmire"
 	ms.author="a-crmire"
 	displayOrder=""
-	articleId="marketplace_other_saas_failures"
+	articleId="marketplace_other_saas_failures_offer_deflection"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32728239"

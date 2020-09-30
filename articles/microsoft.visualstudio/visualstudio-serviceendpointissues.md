@@ -7,13 +7,14 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceEndpointIssues"
-	supportTopicIds="32612990, 32373544"
+	supportTopicIds="32742293, 32742325"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Azure_DevOps_Services"
+
 />
 
 # DevOps Services Endpoint Issues

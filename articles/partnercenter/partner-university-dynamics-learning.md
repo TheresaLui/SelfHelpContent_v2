@@ -14,7 +14,7 @@
     clientIds='partnercenter'
     resourceTags="other"
     productPesIds="17113"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="PartnerCenter_Other_Portals"
 />
 

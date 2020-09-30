@@ -7,7 +7,7 @@
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="1018"
-    selfHelpType="resource"
+    selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32632991"
     cloudEnvironments="public, Fairfax, usnat, ussec"

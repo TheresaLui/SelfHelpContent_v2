@@ -11,7 +11,7 @@
     supportTopicIds="32674483"
     resourceTags=""
     productPesIds="16790"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="StorageMediaEdge_HPCCache"
 />
 
@@ -21,7 +21,7 @@ Most client connectivity issues will be resolved by completing the following ste
 
 ## **Recommended Steps**
 
-1. First, validate that the Azure HPC cluster is healthy by visiting the HPC cache resource overview page and verifying that the status shown is Healthy.
+1. First, validate that the Azure HPC Cache is healthy by visiting the Azure HPC Cache resource overview page and verifying that the status shown is Healthy.
 
 2. Determine if a client can ping one of the mount addresses of the HPC cache. Use `ping <HPC-mount-address>` from a Linux or Windows host.
 
@@ -33,5 +33,5 @@ Most client connectivity issues will be resolved by completing the following ste
 
 ## **Recommended Documents**
 
-* [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)
+* [Troubleshooting Connectivity Problems Between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)
 * [Mount the Azure HPC Cache](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-mount)

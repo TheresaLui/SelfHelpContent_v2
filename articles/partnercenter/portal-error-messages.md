@@ -10,12 +10,12 @@
 	articleId="report_problems_with_partner_center"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635645"
+	supportTopicIds="32739513"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Gather log information and attach to your service request

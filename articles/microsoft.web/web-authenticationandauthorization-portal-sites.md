@@ -11,8 +11,8 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId = "Compute_AppService"
 	articleId="aacd0390-479c-4938-8f8a-1f665536b637"
-	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization/App Service Authentication (built-in) through portal

@@ -37,24 +37,24 @@
 		   "text": "Consulting Service offer"
 	       },
 	       {
-		   "value": "Container offer",
-		   "text": "Container offer"
+		   "value": "Azure Container offer",
+		   "text": "Azure Container offer"
 	       },
 	       {
-		   "value": "Dynamics 365 Business Central offer",
-		   "text": "Dynamics 365 Business Central offer"
+		   "value": "Dynamics 365 business central offer",
+		   "text": "Dynamics 365 business central offer"
 	       },
 	       {
-		   "value": "Dynamics 365 for Customer Engagement offer",
-		   "text": "Dynamics 365 for Customer Engagement offer"
+		   "value": "Dynamics 365 for Customer Engagement & Power Apps offer",
+		   "text": "Dynamics 365 for Customer Engagement & Power Apps offer"
 	       },
 	       {
-		   "value": "Dynamics 365 for Operations offer",
-		   "text": "Dynamics 365 for Operations offer"
+		   "value": "Dynamics 365 for operations offer",
+		   "text": "Dynamics 365 for operations offer"
 	       },
 	       {
-		   "value": "IoT Edge Offer",
-		   "text": "IoT Edge Offer"
+		   "value": "IoT Edge Module Offer",
+		   "text": "IoT Edge Module Offer"
 	       },
 	       {
 		   "value": "Managed service offer",
@@ -73,20 +73,20 @@
 		   "text": "PowerBI app offer"
 	       },
 	       {
-		   "value": "SaaS offer",
-		   "text": "SaaS offer"
+		   "value": "Software as a Service offer",
+		   "text": "Software as a Service offer"
 	       },
 	       {
-		   "value": "SharePoint add",
-		   "text": "SharePoint add"
+		   "value": "SharePoint add-in",
+		   "text": "SharePoint add-in"
 	       },
 	       {
 		   "value": "Teams app product",
 		   "text": "Teams app product"
 	       },
 	       {
-		   "value": "Virtual machine offer",
-		   "text": "Virtual machine offer"
+		   "value": "Azure Virtual machine offer",
+		   "text": "Azure Virtual machine offer"
 	       },
 	       {
 		   "value": "dont_know_answer",
@@ -108,7 +108,7 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": false
        },
        {
@@ -116,7 +116,7 @@
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": true
        },
        {
@@ -135,6 +135,14 @@
 	   "displayLabel": "Start Time",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
+       },
+       {
+	   "id": "additional_email(s)_for_notification",
+	   "order": 7,
+	   "controlType": "textbox",
+	   "displayLabel": "Additional email(s) for notification",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "required": false
        }
    ]
 }

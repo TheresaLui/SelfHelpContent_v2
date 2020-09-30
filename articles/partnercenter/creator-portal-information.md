@@ -14,13 +14,15 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to Creator information such as Code, Content, Devices, Community and Dashboard
 
+This topic will guide you to Creator information such as Code, Content, Devices, Community and Dashboard.
 
 ## **Recommended Documents**
 
- * [Creator information](https://partner.microsoft.com/creator/home)
+- [Creator information](https://partner.microsoft.com/creator/home)
+

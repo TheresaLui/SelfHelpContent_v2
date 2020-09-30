@@ -10,16 +10,15 @@
 	articleId="billing_invoice_printing"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681449"
+	supportTopicIds="32725826"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # Invoices and taxes in Partner Center
-
 
 ## **Recommended Steps**
 

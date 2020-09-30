@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Azure Cosmos DB - Optimizing costs"
-	description="Azure Cosmos DB - Optimizing costs"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32636802"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-optimizing-cost"
-	displayOrder="42"
-	category="General Advisory"
-	ownershipId="AzureData_AzureCosmosDB"
+    pageTitle="Azure Cosmos DB - Optimizing costs"
+    description="Azure Cosmos DB - Optimizing costs"
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="jimsch"
+    ms.author="jimsch"
+    selfHelpType="generic"
+    supportTopicIds="32636802"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    articleId="cosmosdb-optimizing-cost"
+    displayOrder="42"
+    category="General Advisory"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB - Optimizing costs
@@ -28,9 +28,8 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 
 ### **Received a high bill for Cosmos DB QA environment and is looking to reduce the costs?**  
 - You may consider creating a shared database and separate containers within the database to reduce costs
-- Investigate using [Autopilot](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot) 
+- Investigate using [autoscale](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autoscale) 
 - Review your queries, are you querying across partitions because it does not contain a partition key?
-
 
 
 ## **Recommended Documents**
@@ -55,9 +54,11 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
 <br>Azure Cosmos DB reserved capacity can significantly reduce your Cosmos DB costs up to 65 percent on regular prices with a one-year or three-year upfront commitment. Reserved capacity provides a billing discount and does not affect the runtime state of your Azure Cosmos DB resources.  
 
-[Create Azure Cosmos containers and databases in autopilot mode (Preview)](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot)
-<br>Azure Cosmos DB allows you to provision throughput on your containers in either manual or autopilot mode. This article describes the benefits and use cases of autopilot mode. In addition to manual provisioning of throughput, you can now configure Azure cosmos containers in autopilot mode. Azure Cosmos containers and databases configured in autopilot mode will automatically and instantly scale the provisioned throughput based on your application needs without compromising the SLAs.  
+[Use Azure Cosmos DB autoscale](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autoscale)
+<br>Azure Cosmos DB allows you to set either standard (manual) or autoscale provisioned throughput on your databases and containers. This article describes the benefits and use cases of autoscale provisioned throughput.
 
-[Enable autopilot from Azure portal](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot#enable-autopilot-from-azure-portal)
-<br>You can try out autopilot in your Azure Cosmos accounts by enabling in from Azure portal. Use the steps in this article to enable the autopilot option.
+With autoscale, Azure Cosmos DB automatically and instantly scales the throughput (RU/s) of your database or container based on usage, without impacting the availability, latency, throughput, or performance of the workload.
+
+[How to enable autoscale](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
+<br>You can enable autoscale on existing databases and containers through the Azure portal. To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+. See this article for samples. 
 

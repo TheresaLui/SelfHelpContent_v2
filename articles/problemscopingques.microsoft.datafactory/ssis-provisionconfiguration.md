@@ -4,7 +4,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629533"
+    supportTopicIds="32680894,32680895,32680896"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -86,16 +86,23 @@
             ],
             "required": true
         },
+		{
+			"id": "Activity_id",
+            "order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Please provide the the ActivityID of the operation. (you can find it at the bottom of the error message dispalyed on the portal)",
+			"required": false
+		},
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 7,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false

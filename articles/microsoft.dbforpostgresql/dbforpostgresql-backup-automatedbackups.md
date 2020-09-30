@@ -26,7 +26,8 @@ You can choose to take a dump of a database on your server using [pg_dump](https
 ## **Recommended Steps**
 
 * Servers that can scale up to 16 TB do not yet have a backup storage metric available. Backups are being taken for these servers, as described above. Work is in progress to provide a backup storage metric.
-* These backup files cannot be exported and can only be used for restores in-service. If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
+* These backup files cannot be exported and can only be used for restores in-service. If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import) steps.
+* Backup storage metric increasing unexpectedly: If you have an increased number of transactions in your database, the transaction log, and as a result its backups, also becomes larger. These backups are retained till they are past your selected retention days. 
 
 ## **Recommended Documents**
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32681350"
 	resourceTags=""
 	productPesIds="15568"
-	articleId="search-index-schema"
+	articleId="search-index-schema-data-invalid"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />

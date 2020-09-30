@@ -33,4 +33,5 @@
 * [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
 * [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)<br>
 * [Configure web proxy](https://docs.microsoft.com/azure/storsimple/storsimple-8000-configure-web-proxy)<br>
-* [Change service data encryption key](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-service#change-the-service-data-encryption-key)
+* [Change service data encryption key](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-service#change-the-service-data-encryption-key)<br>
+* [How to decommission StorSimple device?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deactivate-and-delete-device)

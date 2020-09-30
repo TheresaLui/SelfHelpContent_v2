@@ -21,18 +21,25 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-**Issue:** The *Disable Replication Support* button is not clickable.
+Issue: Not sure **whether to choose *replica* or *logical*** for Azure replication support
+   * Choose *replica* if you are only creating read replicas
+   * Choose *logical* if you are using [logical decoding](https://docs.microsoft.com/azure/postgresql/concepts-logical)
+   * Learn more about the [Azure replication support setting](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#prerequisites)
 
-The *Disable Replication Support* button controls the ability of the master server to send out data to any replica.
+Issue: Interested in **logical replication**
+   * Logical replication with Azure Database for PostgreSQL as a subscriber is not supported
+   * Logical replication is a different PostgreSQL feature from [logical decoding](https://docs.microsoft.com/azure/postgresql/concepts-logical)
 
-1. If you have an existing replica, you cannot disable replication support on the master
-2. On Basic tier servers you cannot disable replication support, whether or not there is a replica
-3. If the first two steps don't apply to you, refresh the Replication page to update the toolbar
-4. If you want stop replication to an individual replica, making it a read/write server, [learn how to do so from the documentation](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal#stop-replication)
+Issue: Want to **stop replication to a replica**
+   * Visit our [stop replication guide](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#stop-replication)
 
-**Issue:** Cannot find the parameter `azure.replication_support` in the portal.
+Issue: **Replication setting on a replica**
+   * You cannot change the Azure replication support setting on a read replica
 
-In the Azure portal, this setting is presented as the button *Enable Replication Support* or *Disable Replication Support* in the Replication page toolbar.
+Issue: Cannot **find the parameter `azure.replication_support`** in the portal.
+
+   * In the Azure portal, this setting is available in the *Replication* page for the server.
+
 
 ## **Recommended Documents**
 

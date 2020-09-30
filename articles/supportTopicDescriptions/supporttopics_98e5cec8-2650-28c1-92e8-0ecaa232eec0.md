@@ -2,10 +2,10 @@
   pagetitle="SupportTopicDescriptions for 98e5cec8-2650-28c1-92e8-0ecaa232eec0"
   description="SupportTopicDescriptions for 98e5cec8-2650-28c1-92e8-0ecaa232eec0"
   authors="elixirsys2"
-  ms.author="tibasham"
+  ms.author="tibasham, jlaborde"
   selfhelptype="SupportTopicDescription"
   productpesids="98e5cec8-2650-28c1-92e8-0ecaa232eec0"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_98e5cec8-2650-28c1-92e8-0ecaa232eec0" />
 # Support Topic Descriptions for 98e5cec8-2650-28c1-92e8-0ecaa232eec0
 ---
@@ -20,6 +20,22 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "5d42bdf0-0398-274d-cbd9-eb264391fce1",
+      "longDescription": "",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "Performance;IOPS;throughput",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b4b619a9-4e18-8ca3-a65a-4d695fa848fd",
+      "longDescription": "",
+      "shortDescription": "Issues involving the importing or exporting of disks, including via a private link.",
+      "searchTags": "import;export;disks",
+      "category": "Disk Management",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "c33caae3-7981-9b28-08e8-4cf12bba71c1",
       "longDescription": "",
