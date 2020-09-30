@@ -29,13 +29,13 @@ Are you facing one of these common problems?
 * I can’t find a list of supported Azure CLI commands or Azure DevOps APIs
 
   - A complete list of supported commands can be found in the Azure DevOps CLI [getting started documentation](https://docs.microsoft.com/azure/devops/cli/?view=azure-devops)
-  - A complete list of supported rest apis can be found in the Azure DevOps Rest API [docset](https://docs.microsoft.com/rest/api/azure/devops)
-  - If command or api needed isn’t listed there, then our service doesn’t currently support it. Please create an item on [developer community](https://developercommunity.visualstudio.com/content/idea/post.html?space=21) if you would like to have it supported in the product
+  - A complete list of supported rest APIs can be found in the Azure DevOps Rest API [docs](https://docs.microsoft.com/rest/api/azure/devops)
+  - If command or API needed isn’t listed there, then our service doesn’t currently support it. Please create an item on [developer community](https://developercommunity.visualstudio.com) if you would like to have it supported in the product
 
 * I’m **unable to authenticate** my REST API call
   
-  - Check the Azure DevOps Services REST API [reference]((https://docs.microsoft.com/rest/api/azure/devops)) to ensure the request is constructed correctly
-  - If using a personal access token (PAT), ensure the token has the appropriate scope. The [security section](https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/pipelines/get#security) of every api doc lists supported auth and required scopes
+  - Check the Azure DevOps Services REST API [reference](https://docs.microsoft.com/rest/api/azure/devops) to ensure the request is constructed correctly
+  - If using a personal access token (PAT), ensure the token has the appropriate scope. The [security section](https://docs.microsoft.com/rest/api/azure/devops/pipelines/pipelines/get#security) of every API doc lists supported auth and required scopes
   - Ensure the user who is running the action has the right permissions 
 
 * I’m not seeing a **full list of results** on my API call
