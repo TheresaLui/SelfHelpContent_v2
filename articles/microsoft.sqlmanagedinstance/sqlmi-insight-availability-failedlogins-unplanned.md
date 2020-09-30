@@ -8,7 +8,7 @@
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sqlmi-availability-rca-unplanned"
-	diagnosticScenario="sqlmi-availability-rca-unplanned"
+	diagnosticScenario="SqlMIAvailability"
 	selfHelpType="diagnostics"
 	supportTopicIds="32746119,32746120,32746121,32746125,32746127,32746128"
 	resourceTags=""
