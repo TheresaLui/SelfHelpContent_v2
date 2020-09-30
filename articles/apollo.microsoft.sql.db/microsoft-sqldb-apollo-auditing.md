@@ -25,7 +25,7 @@ In the following video, you will learn about the strategies and methods for moni
 
 <video>
 <src>https://youtu.be/HeKDc-ndlYc</src>
-<title>Monitoring, Logging, & Auditing in Azure SQL</title>
+<title>Monitoring, Logging, and Auditing in Azure SQL</title>
 </video>
 
 This video will highlight the following auditing capabilities:
