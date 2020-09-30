@@ -25,7 +25,7 @@ Most users are able to resolve their issue using the steps below.
 
 ### Large amount of replication lag
 
-In Azure Database for MySQL, binary logging format is always **ROW**. If your table is missing primary key then all rows in the table is scanned for DML and this causes large amount of replication lag. To ensure that the replica is able to keep up with changes to the source, we generally recommend adding the primary key for the tables in master server before creating the replica server or re-creating the replica server if you already have one.
+Azure Database for MySQL uses **ROW** based binary logging. If your table is missing a primary key, all rows in the table are scanned for DML operations. This causes increased replication lag. To ensure that the replica is able to keep up with changes on the source, we generally recommend adding a primary key on tables in the source server before creating the replica server or re-creating the replica server if you already have one.
 
 ### **Replica creation is taking longer than expected**
 
