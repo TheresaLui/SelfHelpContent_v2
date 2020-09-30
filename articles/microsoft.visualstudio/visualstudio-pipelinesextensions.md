@@ -6,7 +6,7 @@
 	resource="account"
 	authors="vijayma"
 	ms.author="vijayma"
-	articleId="AZDevOpsPipelinesOther"
+	articleId="AZDevOpsPipelinesExtensions"
 	supportTopicIds="32742312"
 	diagnosticScenario=""
 	selfHelpType="generic"
