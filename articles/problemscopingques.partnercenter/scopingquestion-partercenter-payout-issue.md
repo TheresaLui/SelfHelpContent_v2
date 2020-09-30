@@ -12,8 +12,8 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Payouts"
 />
-# Payout issue
 
+# Payout issue
 ---
 {
    "$schema": "SelfHelpContent",
@@ -158,8 +158,8 @@
 	       {
 		   "value": "Preferred method phone",
 		   "text": "Phone"
-	       }
-           {
+	       },
+               {
 		   "value": "Preferred method Teams",
 		   "text": "Teams"
 	       }],
