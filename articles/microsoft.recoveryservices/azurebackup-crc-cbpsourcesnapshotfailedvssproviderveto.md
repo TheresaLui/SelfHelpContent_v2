@@ -24,8 +24,8 @@ Your backup operation failed because there might be a disk management policy tha
 
 ## **Recommended Steps**
 
-To resolve this issue, ensure that the Disk Management Policy is set to display all the discs ONLINE.<br>
-1. To check the current SAN policy, Open an elevated command prompt by typing '*cmd*' in the Run window and run '*diskpart*' command. This will prompt the diskpart window.<br>
-2. In the diskpart prompt execute the command '*SAN*'.<br>
-3. If the output displayed **SAN Policy: Online All**, then the disk management policy is set correctly.<br>
-4. If the policy is not set correctly then it needs to be updated. Update the policy by executing the below command <br>*SAN POLICY=OnlineAll*.
+To resolve this issue, ensure that the Disk Management Policy is set to display all the discs ONLINE<br>
+1. To check the current SAN policy, open an elevated command prompt by typing `cmd` in the Run window and run `diskpart` command. This will prompt the diskpart window<br>
+2. In the diskpart prompt execute the command `SAN`<br>
+3. If the output displayed **SAN Policy: Online All**, then the disk management policy is set correctly<br>
+4. If the policy is not set correctly then it needs to be updated. Update the policy by executing the command `SAN POLICY=OnlineAll`
