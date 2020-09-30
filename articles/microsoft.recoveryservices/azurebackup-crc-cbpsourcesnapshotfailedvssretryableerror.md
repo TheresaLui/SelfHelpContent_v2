@@ -19,16 +19,16 @@
 #  CBPSourceSnapshotFailedVSSRetryableError
 
 <!--issueDescription-->
-We have identified that your backup operation failed because of an issue on the VSS service.
+We have identified that your backup operation failed because of an issue on the VSS service
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue, ensure there is no other application (3rd party backup) using the VSS service and retry the operation after sometime. <br>
-If issue still persists, restart the VSS service and try again.
+- To resolve this issue, ensure there is no other application (3rd party backup) using the VSS service and retry the operation after sometime <br>
+- If issue still persists, restart the VSS service and try again
 <br>
-To restart VSS (Volume Shadow Copy) service.<br>
-- Navigate to Services.msc and restart 'Volume Shadow Copy service'.
+- To restart VSS (Volume Shadow Copy) service<br>
+- Navigate to Services.msc and restart 'Volume Shadow Copy service'
 
 (or)
 - From an elevated command prompt, run
