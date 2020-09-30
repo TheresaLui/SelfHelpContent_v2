@@ -19,11 +19,10 @@
 # UserErrorHANASystemDBNotRunning 
 
 <!--issueDescription-->
-We have identified that your backup operation failed because SYSTEMDB for SAP HANA instance is not in running state.
+We have identified that your backup operation failed because SYSTEMDB for SAP HANA instance is not in running state
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Ensure SystemDB for the SAP HANA instance is in running state. Start the SAP HANA system by running the command '***HDB start***' as the sidadm user and retry the operation.
-- After executing the 'HDB start' command check if the process state of each service for the DB is healthy using the below command.<br>
- *sapcontrol -nr \<instance number> function GetProcessList"*
+- Ensure SystemDB for the SAP HANA instance is in running state. Start the SAP HANA system by running the command `HDB start` as the *sidadm* user and retry the operation
+- After executing the `HDB start` command check if the process state of each service for the DB is healthy using the command `sapcontrol -nr \<instance number> function GetProcessList`
