@@ -24,6 +24,6 @@
 The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is being throttled a lot with the 16500 error code.
 <!--/issueDescription-->
 
-## Recommended Steps
+## **Recommended Steps**
 
 It is recommended to enable server-side retries on this account to mitigate this issue. Please note that server-side retries will prevent the service from ever sending a 16500 error. Instead, a request that would have resulted in a 16500 will be delayed until sufficient RU are available to complete the request, up to the request timeout of 60 seconds.
