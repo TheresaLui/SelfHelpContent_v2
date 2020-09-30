@@ -46,7 +46,7 @@
   "version": 2.3,
   "learnMoreLink": "https://aka.ms/adxstopclusters",
   "description": "(PREVIEW) Stop Azure Data Explorer clusters to reduce cost and keep its data",
-  "longDescription": "Your cluster has data but is not being used. Stop the cluster to reduce cost and still preserve the data. If the data is not needed, consider deleting the cluster to increase your savings.",
+  "longDescription": "This recommendation surfaces all Azure Data Explorer clusters with low activity but with data inside them. The criteria for low activity are a small number of queries and ingestions during the last 30 days, low CPU usage during the last two days, and no followers during the last day. (These time periods are based on the Recommendation Genterated date shown.) Stop the cluster to reduce cost and still preserve the data. If the data is not needed, consider deleting the cluster to increase your savings.",
   "potentialBenefits": "Optimize cost",
   "actions": [
 	{
