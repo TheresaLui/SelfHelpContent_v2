@@ -360,7 +360,7 @@
     {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
-      "shortDescription": "Integrating Azure Key Vault with Azure Services",
+      "shortDescription": "Use Azure Key Vault with Azure Services or Applications hosted in managed App Service platform (web apps, functions)",
       "searchTags": "Azure;Integration",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
