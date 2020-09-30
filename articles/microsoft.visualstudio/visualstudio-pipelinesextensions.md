@@ -25,8 +25,7 @@ Are you facing one of these common problems?
 * I have a problem with using **SonarQube** in my pipeline
 
   - SonarQube integration into a pipeline is through [SonarQube extension](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube) from the Visual Studio Marketplace. If you have an issue with how SonarQube extension works, then your best bet is to seek support on that Marketplace page. The Azure DevOps support team is unable to support Marketplace extensions.
-
-  - If you use Microsoft-hosted agents and if your SonarQube server is behind a firewall, see [this topic](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#networking) for how to configure your firewall.
+  - If you use Microsoft-hosted agents and if your SonarQube server is behind a firewall, see [this topic](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#networking) for how to configure your firewall
 
 * I have a problem with using **Terraform** extension in my pipeline
 
