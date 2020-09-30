@@ -27,7 +27,7 @@
 - [Troubleshooting volume mount issues during files restore](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#troubleshooting)
 - Special restore configuration requirements for [Dynamic disks, LVM/RAID arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays)
 - [Guidelines for restoring VM with large disk size(>4TB) and disk count(>16 disks)](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#file-recovery-from-virtual-machine-backups-having-large-disks)
-- Cannot find the files to restore?, check unsupported restore configurations to see if the disks are backed up: ***Temp drive***, ***Deduplicated Disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)
+- Cannot find the files to restore?, check unsupported restore configurations to see if the disks are backed up:***Temp drive***, ***Deduplicated Disk***, ***Shared disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)
 - [Post restore guidelines, example: Set up static IP, availability set, DC etc,..](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#post-restore-steps)
 - UserErrorInvalidManagedDiskOperation -  Restore failed due to lack of Quota. [Learn more](https://docs.microsoft.com/azure/azure-portal/supportability/resource-manager-core-quotas-request)
 - [UserErrorSkuNotAvaialable](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorskunotavailable---vm-creation-failed-as-vm-size-selected-is-not-available)
