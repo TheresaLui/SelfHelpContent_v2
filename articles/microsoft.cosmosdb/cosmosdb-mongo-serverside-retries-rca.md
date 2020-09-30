@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is being throttled a lot with the 16500 error code.
+The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is being throttled with the 16500 error code.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
