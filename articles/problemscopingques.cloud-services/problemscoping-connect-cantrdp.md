@@ -130,8 +130,8 @@
                     "text": "Remove Cloud Services from VNET"
                 },
                 {
-                    "value": "Create rules that allow traffic on ports 3389 and 20000",
-                    "text": "Create rules that allow traffic on ports 3389 and 20000"
+                    "value": "Create rules that allow traffic on ports 3389 and 20000",
+                    "text": "Create rules that allow traffic on ports 3389 and 20000"
                 },
                 {
                     "value": "None of the above",

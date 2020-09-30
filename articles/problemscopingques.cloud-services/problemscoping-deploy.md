@@ -92,8 +92,8 @@
                     "text": "Have not tried it"
                 },
                 {
-                    "value": "Happens only from client tools (VS, PS)",
-                    "text": "Happens only from client tools (VS, PS)"
+                    "value": "Happens only from client tools (VS, PS)",
+                    "text": "Happens only from client tools (VS, PS)"
                 }
             ],
             "required": false
