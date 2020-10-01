@@ -7,7 +7,7 @@
   supporttopicids="32743983"
   resourcetags=""
   productpesids="17125"
-  cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="0aa18e1e-4a0b-4629-8ac2-ac4fbdb7eef6"
   ownershipid="AzureData_Managed_Instance_Azure_Arc" />
 # Microsoft Container Registry (MCR) for SQL Managed Instance Azure Arc.
