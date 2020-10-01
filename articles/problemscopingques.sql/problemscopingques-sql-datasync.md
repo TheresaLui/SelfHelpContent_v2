@@ -44,7 +44,11 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
