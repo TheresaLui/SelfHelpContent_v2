@@ -14,7 +14,6 @@
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
-
 # Application Gateway frontend private IP address conflict
 <!--issueDescription-->
 We ran several diagnostics on your resource and have found the below issues that could be the cause of your configuration failure.
