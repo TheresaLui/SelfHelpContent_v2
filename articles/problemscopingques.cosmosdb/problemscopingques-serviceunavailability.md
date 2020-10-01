@@ -102,7 +102,8 @@
                 "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Select Collection Name"
-                }
+                },
+                "valuePropertyRegex":  "[^/]+$"
             },
             "required": true
         },
