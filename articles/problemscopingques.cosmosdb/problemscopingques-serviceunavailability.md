@@ -94,7 +94,8 @@
             "controlType": "dropdown",
             "displayLabel": "Collection name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/Database1/containers?api-version=2020-04-01",
+                "dependsOn": "database_name",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{Database name}/containers?api-version=2020-04-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
