@@ -40,7 +40,11 @@ Are you facing one of these common problems?
 
 * I am unable to use **Get-AzContext** inside a powershell script when using the **AzureCLI@2** task.
 
-    The **Get-AzContext** cmdlet is part of the AZ Powershell module and is not present within the Azure Cli or the AzureCLI@2 task. If a Self-Hosted Agent is being used, this can be bypassed by having the AZ module installed on the machine where a private agent is running. Replace the **AzureCLI@2** task with the **AzurePowershell@4** task. This would also require inserting a [non-interactive az-login step](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-login).
+    The **Get-AzContext** cmdlet is part of the AZ Powershell module and is not present within the Azure Cli or the AzureCLI@2 task. If a Self-Hosted Agent is being used, this can be bypassed by having the AZ module installed on the machine where a private agent is running. Replace the **AzureCLI@2** task with the **AzurePowershell@4** task.
+
+* I'm facing an issues with the error message **Script is not working in devops, but I'm able to run it correctly on my local machine"
+   
+    This usually happens when Service Principal being used might not have the same set of privileges that you have when running the same script in a shell locally. To remedy this, you must run the script locally using the same service principal details as is being used in Azure DevOps.
 
 
 ## **Recommended Documents**
