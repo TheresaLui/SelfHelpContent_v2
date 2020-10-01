@@ -140,7 +140,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name.",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_private",
@@ -170,7 +170,7 @@
 	   "required": false
        },
        {
-	   "id": "additional_email(s)_for_notification",
+	   "id": "additional_emails_for_notification",
        "visibility": null,
 	   "order": 9,
 	   "controlType": "textbox",
