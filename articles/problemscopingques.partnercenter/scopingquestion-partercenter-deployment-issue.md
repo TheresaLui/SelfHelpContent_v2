@@ -24,7 +24,7 @@
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
-       "visibility": null,
+       	   "visibility": null,
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
@@ -33,7 +33,7 @@
        },
        {
 	   "id": "pc_isv_publisher_id",
-       "visibility": null,
+       	   "visibility": null,
 	   "order": 2,
 	   "controlType": "numerictextbox",
 	   "displayLabel": "Publisher ID.",
@@ -42,7 +42,7 @@
        },
        {
 	   "id": "pc_isv_seller_id",
-       "visibility": null,
+           "visibility": null,
 	   "order": 3,
 	   "controlType": "numerictextbox",
 	   "displayLabel": "Please provide the seller ID.",
@@ -51,11 +51,11 @@
        },
        {
 	   "id": "pc_isv_offer_type",
-       "visibility": null,
+           "visibility": null,
 	   "order": 4,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
-       "watermarkText":"Please select the Offer Type from the below list",
+           "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
 		   "value": "Azure Application offer",
@@ -126,7 +126,7 @@
        },
        {
 	   "id": "pc_isv_offer_id",
-       "visibility": null,
+           "visibility": null,
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
@@ -135,7 +135,7 @@
        },
        {
 	   "id": "pc_isv_offer_name",
-       "visibility": null,
+           "visibility": null,
 	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
@@ -144,11 +144,11 @@
        },
        {
 	   "id": "pc_isv_offer_private",
-       "visibility": null,
+           "visibility": null,
 	   "order": 7,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is the offer for Private/Preview audience?",
-       "watermarkText":"Please select",
+           "watermarkText":"Please select",
 	   "dropdownOptions": [
 	       {
 		   "value": "PrivatePreview_yes",
@@ -162,7 +162,7 @@
        },
        {
 	   "id": "pc_isv_private_preview",
-       "visibility": "pc_isv_offer_private==PrivatePreview_yes",
+           "visibility": "pc_isv_offer_private == PrivatePreview_yes",
 	   "order": 8,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide additional details",
@@ -171,7 +171,7 @@
        },
        {
 	   "id": "additional_emails_for_notification",
-       "visibility": null,
+           "visibility": null,
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
@@ -180,7 +180,7 @@
        },
        {
 	   "id": "problem_start_time",
-       "visibility": null,
+           "visibility": null,
 	   "order": 10,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Time",
@@ -189,7 +189,7 @@
        },
        {
 	   "id": "problem_description",
-       "visibility": null,
+           "visibility": null,
 	   "order": 11,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
