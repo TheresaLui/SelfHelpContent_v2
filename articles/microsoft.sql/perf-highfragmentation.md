@@ -8,7 +8,7 @@
     ms.author="zhimwang"
     displayOrder=""
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
-    diagnosticScenario="HighFragmentation"
+    diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
     supportTopicIds="32630434,32630454"
     resourceTags=""

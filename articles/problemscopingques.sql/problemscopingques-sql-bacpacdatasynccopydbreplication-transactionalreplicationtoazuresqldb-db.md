@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Transactional Replication to Azure SQL DB"
 	description="Scoping questions to capture more details about errors\issues encountered while Transactional Replication to Azure SQL DB"
-	authors="andikshi"
-	ms.author="andikshi"
+	authors="andikshi,sojaga"
+	ms.author="andikshi,sojaga"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630458"
 	productPesIds="13491"

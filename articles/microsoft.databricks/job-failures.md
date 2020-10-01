@@ -42,6 +42,9 @@
 **Error** : {"error_code":"INVALID_STATE","message":"There were already 1000 jobs created in past 3600 seconds, exceeding rate limit: 1000 job creations per 3600 seconds."}
 * Troubleshoot the error according to the article: [Job fails due to job rate limit](https://docs.microsoft.com/azure/databricks/kb/jobs/job-rate-limit)
 	   
+**Error** : Job stage failures getting org.apache.spark.shuffle.FetchFailedException
+* Change shuffle partition configuration at notebook level for this job: spark.conf.set("spark.sql.shuffle.partitions","number_of_partitions")
+* Or increase executor(s) memory by upgrading cluster
 
 ## **Recommended Steps**
 
@@ -50,3 +53,9 @@
 	* Or create a new job with same configurations and use the new JAR instead
 
 * Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
+## **Recommended Documents**
+
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.

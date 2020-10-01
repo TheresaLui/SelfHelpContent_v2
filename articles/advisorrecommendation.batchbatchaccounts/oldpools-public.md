@@ -19,13 +19,13 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://azurebatch.kusto.windows.net').database('azurebatchprod').AzureAdvisor_OldPools",
     "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "refreshInterval": "0.12:00:01"
   },
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Batch/batchAccounts",
   "recommendationFriendlyName": "OldPool",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "xcompute@microsoft.com",
