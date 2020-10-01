@@ -6,7 +6,7 @@
 	resource="account"
 	authors="v-abiss"
 	ms.author="v-abiss"
-	articleId="AZDevOpsPipelines"
+	articleId="AZPowerShellandCli"
 	supportTopicIds="32742299"
 	diagnosticScenario=""
 	selfHelpType="generic"
