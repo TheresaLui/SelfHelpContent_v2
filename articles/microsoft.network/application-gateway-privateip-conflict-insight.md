@@ -27,7 +27,7 @@ Please follow the recommended steps below to avoid any configuration related iss
 
 You can resolve the issue in one of the following ways:
 
-* Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
+1. Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
 
 Using Azure portal:
 
@@ -40,7 +40,7 @@ Using Azure PowerShell:
 
 * Use the [Remove-AzApplicationGatewayFrontendIPConfig](https://docs.microsoft.com/powershell/module/az.network/remove-azapplicationgatewayfrontendipconfig) command to remove it
 	
-* [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration
+2. [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration
 
 ## **Recommended Documents**
 
