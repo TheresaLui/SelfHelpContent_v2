@@ -19,7 +19,7 @@
 # UserErrorBackupFailedAsRemedialBackupInProgress 
 
 <!--issueDescription-->
-We have identified that your backup operation failed because there is already another remedial full backup is in progress
+We have identified that your backup operation failed because there is already another remedial full backup is in progress.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
