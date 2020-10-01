@@ -4,8 +4,8 @@
     infoBubbleText="Found high IO or high log rate usage issues with DB. See details on the right."
     service="microsoft.sql"
     resource="servers"
-    authors="pxding"
-    ms.author="pedin"
+    authors="ketho00"
+    ms.author="ketho"
     displayOrder=""
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
     diagnosticScenario="SqlPerfTsg"
@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB_Telemetry"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # We ran diagnostics on your resource and found high IO or high log rate usage
