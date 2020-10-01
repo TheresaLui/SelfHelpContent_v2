@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32747926"
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="db3032f8-5810-4125-b37a-170ff122a007"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
@@ -54,7 +54,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "What command did you use?",
-			"required": true
+			"required": false
 		}, {
 			"id": "workernodes",
 			"order": 5,

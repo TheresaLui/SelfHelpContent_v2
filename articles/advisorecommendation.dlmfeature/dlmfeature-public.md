@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "AzureStorage.Data.StorageAdvisorLifecycleManagmentV1",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "0.23:59:59"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",

@@ -1,18 +1,14 @@
 <properties
-  pagetitle="Sign In Issues"
-  description="Sign In Issues"
+  pagetitle="Common causes of sign-in issues "
   service="microsoft.visualstudio"
   resource="account"
-  authors="chrisjco"
   ms.author="ccoop,rajr"
-  infobubbletext="Sign In Issues"
-  diagnosticscenario=""
   selfhelptype="Generic"
   supporttopicids="32572369"
   resourcetags=""
   productpesids="15543"
   cloudenvironments="public,fairfax,usnat,ussec"
-  articleid="AZDevOpsSignInIssues"
+  articleid="azdevopssigninissues"
   ownershipid="Azure_DevOps_Services" />
 # Common causes of sign-in issues 
 
@@ -31,4 +27,4 @@ As a first step in resolving any connectivity issues with Azure DevOps, complete
 ## **Recommended Documents** 
 
 * Want a quicker answer? Check out the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/) 
-* To check the status of Azure DevOps Services or to see service impacting issues, please see the [Azure DevOps Service Status](https://status.dev.azure.com/) page.
+* To check the status of Azure DevOps Services or to see service impacting issues, please see the [Azure DevOps Service Status](https://status.dev.azure.com/) page
