@@ -18,6 +18,7 @@
 # Application Gateway frontend private IP address conflict
 <!--issueDescription-->
 We ran several diagnostics on your resource and have found the below issues that could be the cause of your configuration failure.
+<!--/issueDescription-->
 
 ## **Issues Identified**
 
