@@ -35,6 +35,13 @@ Most users are able to resolve their issue using the steps below.
 
 * If you are having trouble configuring planned maintenance notification, review [how to enable planned maintenance notification](https://docs.microsoft.com/azure/postgresql/concepts-monitoring#to-receive-planned-maintenance-notification)
 
+* **Query Performance Insight**, Performance Recommendations, Query Store not working
+
+   * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the primary server's Query Store data.
+   
+   * After a replica becomes a standalone server, [set Query Store parameters](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature.
+
+
 ## **Recommended Documents**
 
 * [List of Azure Database for PostgreSQL metrics](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)<br>
