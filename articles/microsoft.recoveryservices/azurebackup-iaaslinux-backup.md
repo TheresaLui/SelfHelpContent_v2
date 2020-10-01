@@ -44,7 +44,6 @@
 - [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
 - Review the [best practices before you enable Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
 - How to [configure](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent#steps-to-configure-pre-script-and-post-script) and [troubleshoot](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent#troubleshooting) pre-script and post-script to take application consistent snapshot.
-- [Can I exclude disks that I do not want to backup?](https://azure.microsoft.com/updates/excludediskpreview/)
 
 
 ## **Recommended Documents**
