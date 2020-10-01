@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 If you are experiencing any issues with using private Python packages, here is a list of additional resources which may be helpful:
-* [How to use private python packages](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-private-python-packages)
+* [How to use private python packages](https://docs.microsoft.com/azure/machine-learning/how-to-use-private-python-packages)
 * [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments)
 * [Concept overview](https://docs.microsoft.com/azure/machine-learning/concept-environments)
 * [SDK documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.environment)
