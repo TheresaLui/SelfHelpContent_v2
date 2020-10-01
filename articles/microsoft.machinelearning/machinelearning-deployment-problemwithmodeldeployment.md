@@ -33,7 +33,7 @@ For possible errors you may encounter during deployment, see the following resou
 * [Deploy models with Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where)
 * [Deploy model to an Azure Kubernetes Service cluster](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service)
 * [Deploy a model to Azure Container Instances](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-container-instance)
-* [Deploy a high-performance scoring endpoint with Triton](https://aka.ms/triton-aml-docs)
+* [Deploy a high-performance scoring endpoint with Triton](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-with-triton?tabs=pythons)
 
 **Python SDK**
 
