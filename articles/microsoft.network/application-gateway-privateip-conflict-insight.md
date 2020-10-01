@@ -22,7 +22,9 @@ We ran several diagnostics on your resource and have found the below issues that
 
 ## **Issues Identified**
 
-The frontend IP address in user configuration conflicts with an Application Gateway instance's private IP address.
+The frontend IP address in user configuration conflicts with an Application Gateway instance's private IP address. Currently when you configure a private frontend IP address without associating it to a listener and rule, the IP address is not reserved in the subnet, so there are possibilities of the same IP address getting assigned to an instance of Application Gateway. 
+
+Please follow the recommended steps below to avoid any configuration related issues.
 
 ## **Recommended steps**
 
