@@ -24,4 +24,5 @@
    1. Go to ASC > Resource Explorer and select the VPN gateway
    2. Find the **Virtual Network Name** where the gateway is and click on the Hyperlink to open the Vnet
    3. Identify the Virtual Network Address space
-3. Identify On-premises ranges - the customer must provide this information, as it's not saved in Azure.
+3. With the same method, identify address ranges of Peered Vnets if the customer's ultimate goal is to reach them form the Point to Site client.
+4. Identify On-premises ranges - the customer must provide this information, as it's not saved in Azure.

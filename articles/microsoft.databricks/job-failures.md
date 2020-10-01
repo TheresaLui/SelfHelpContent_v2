@@ -42,6 +42,9 @@
 **Error** : {"error_code":"INVALID_STATE","message":"There were already 1000 jobs created in past 3600 seconds, exceeding rate limit: 1000 job creations per 3600 seconds."}
 * Troubleshoot the error according to the article: [Job fails due to job rate limit](https://docs.microsoft.com/azure/databricks/kb/jobs/job-rate-limit)
 	   
+**Error** : Job stage failures getting org.apache.spark.shuffle.FetchFailedException
+* Change shuffle partition configuration at notebook level for this job: spark.conf.set("spark.sql.shuffle.partitions","number_of_partitions")
+* Or increase executor(s) memory by upgrading cluster
 
 ## **Recommended Steps**
 
