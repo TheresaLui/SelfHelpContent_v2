@@ -18,7 +18,7 @@
 
 # Troubleshooting High CPU for an Azure Virtual Machine
 
-## Troubleshooting High CPU Usage for an Azure Virtual Machine
+## **Troubleshooting High CPU Usage for an Azure Virtual Machine**
 
 This experience combines an automated performance check to detect anomalies in your Virtual Machine, shows metrics in real time, and provides troubleshooting steps to resolve any issues found.
 
