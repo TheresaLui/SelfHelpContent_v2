@@ -19,7 +19,7 @@
 # WSBDiskSpaceOrSFCIssue 
 
 <!--issueDescription-->
-Your backup operation failed because there might not be enough space on the Scratch folder volumes
+Your backup operation failed because there might not be enough space on the Scratch folder volumes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
