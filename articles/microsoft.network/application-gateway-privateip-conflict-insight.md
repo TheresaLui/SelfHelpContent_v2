@@ -20,28 +20,28 @@
 We ran several diagnostics on your resource and have found the below issues that could be the cause of your configuration failure.
 <!--/issueDescription-->
 
-## **Issues Identified**
-
 The frontend IP address in user configuration conflicts with an Application Gateway instance's private IP address. Currently when you configure a private frontend IP address without associating it to a listener and rule, the IP address is not reserved in the subnet, so there are possibilities of the same IP address getting assigned to an instance of Application Gateway. 
 
 Please follow the recommended steps below to avoid any configuration related issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
-You can resolve the issue in one of the following ways -
+You can resolve the issue in one of the following ways:
 
-* Option 1 - Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
+1. Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
 
-    Using Azure portal -
-    1. Navigate to the Frontend IP configurations of your Application Gateway and find the IP configuration with type Private and click to select it
-    1. Select delete option on the top
-    1. Once it's removed, go back to the Frontend IP configurations blade and click on the Private IP configuration to create a new one
-    1. Enter the name and select the "Choose a specific IP address" to enter a non-conflicting IP address, preferably from the end of the subnet address space and click Save
+Using Azure portal:
+
+    * Navigate to the Frontend IP configurations of your Application Gateway and find the IP configuration with type Private and click to select it
+    * Select delete option on the top
+    * Once it's removed, go back to the Frontend IP configurations blade and click on the Private IP configuration to create a new one
+    * Enter the name and select the "Choose a specific IP address" to enter a non-conflicting IP address, preferably from the end of the subnet address space and click Save
     
-    Using Azure PowerShell -
-    You can use the [Remove-AzApplicationGatewayFrontendIPConfig](https://docs.microsoft.com/powershell/module/az.network/remove-azapplicationgatewayfrontendipconfig) command to remove it.
+Using Azure PowerShell:
 
-* Option 2 - [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration.
+    * Use the `[Remove-AzApplicationGatewayFrontendIPConfig](https://docs.microsoft.com/powershell/module/az.network/remove-azapplicationgatewayfrontendipconfig)` command to remove it
+
+2. [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration
 
 ## **Recommended Documents**
 
