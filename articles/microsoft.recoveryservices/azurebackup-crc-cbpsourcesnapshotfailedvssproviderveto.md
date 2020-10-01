@@ -19,7 +19,7 @@
 # CBPSourceSnapshotFailedVSSProviderVETO 
 
 <!--issueDescription-->
-Your backup operation failed because there might be a disk management policy that is preventing the discs from being displayed ONLINE
+Your backup operation failed because there might be a disk management policy that is preventing the discs from being displayed ONLINE.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
