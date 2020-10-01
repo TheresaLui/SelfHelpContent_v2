@@ -11,8 +11,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="7f587b0b-168f-4361-aabf-cb6cba3731ab"
-   	ownershipId="ASMS_BillingCentennial_CloudNet_LoadBalancer"
+	articleId="f6ef8063-61c2-4010-9150-7d4d3e137936"
+   	ownershipId="ASMS_Billing"
 />
 
 # India

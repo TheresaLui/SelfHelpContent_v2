@@ -12,7 +12,7 @@ Fairfax Sponsorship (MS-AZR-USGov-0036P and MS-AZR-USGov-0143P)"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="230e3fed-c284-43c5-9909-218170deef3a"
+	articleId="0684f2ef-e056-448f-bf25-85d2a8575e1c"
    	ownershipId="ASMS_Billing"
 />
 

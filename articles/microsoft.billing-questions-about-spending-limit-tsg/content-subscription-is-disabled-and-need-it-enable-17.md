@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="2c18528e-43c2-4d58-a935-74b3311bc45b"
+	articleId="ca4187fa-8e42-4d89-8524-9e917da95557"
    	ownershipId="ASMS_Billing"
 />
 
