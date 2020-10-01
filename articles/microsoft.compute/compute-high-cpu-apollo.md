@@ -18,17 +18,15 @@
 
 # Troubleshooting High CPU for an Azure Virtual Machine
 
-## Troubleshooting High CPU Usage for an Azure Virtual Machine
+## **Troubleshooting High CPU Usage for an Azure Virtual Machine**
 
 This experience combines an automated performance check to detect anomalies in your Virtual Machine, shows metrics in real time, and provides troubleshooting steps to resolve any issues found.
 
 :::Section Metrics and Diagnostics:::
 
-### Metrics
+The graph below shows the Virtual Machine CPU usage for the last 24 hours. Click on the chart to customize the view and/or update the filters.
 
-The graph below shows the Virtual Machine CPU usage for the last 24 hours. Click on the chart to customize the view and/or update the filters. 
-
-Please review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources. 
+Please review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
 
 <metric>
     <name>Percentage CPU</name>
@@ -36,8 +34,6 @@ Please review the graph to see the CPU usage as it correlates to your workload. 
     <timeSpanDuration>1d</timeSpanDuration>
     <title>Current Virtual Machine CPU usage</title>
 </metric>
-
-### Diagnostics
 
 We are attempting to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
 
