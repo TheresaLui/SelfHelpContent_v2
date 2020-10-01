@@ -23,8 +23,8 @@
 
 **VM/Guest agent error codes**
 - [**UserErrorGuestAgentStatusUnavailable**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#UserErrorGuestAgentStatusUnavailable-vm-agent-unable-to-communicate-with-azure-backup) - VM agent unable to communicate with Azure Backup
-- [**UserErrorVmProvisioningStateFailed**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorvmprovisioningstatefailed---the-vm-is-in-failed-provisioning-state) - The VM is in failed provisioning state
 - [**GuestAgentSnapshotTaskStatusError**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#guestagentsnapshottaskstatuserror---could-not-communicate-with-the-vm-agent-for-snapshot-status) -Could not communicate with the VM agent for snapshot status
+- [**UserErrorVmProvisioningStateFailed**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorvmprovisioningstatefailed---the-vm-is-in-failed-provisioning-state) - The VM is in failed provisioning state
 - [**ExtensionFailedVssServiceInBadState**](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvssserviceinbadstate---snapshot-operation-failed-due-to-vss-volume-shadow-copy-service-in-bad-state) - Snapshot operation failed due to VSS (Volume Shadow Copy) service in bad state
 - [**ExtensionFailedVssWriterInBadState**](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state) - Snapshot operation failed because VSS writers were in a bad state
 
