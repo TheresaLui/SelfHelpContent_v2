@@ -19,7 +19,7 @@
 # CBPStorageServerError
 
 <!--issueDescription-->
-The operation failed because Microsoft Azure Recovery Services Agent was unable to contact Microsoft Azure Backup
+The operation failed because Microsoft Azure Recovery Services Agent was unable to contact Microsoft Azure Backup.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
