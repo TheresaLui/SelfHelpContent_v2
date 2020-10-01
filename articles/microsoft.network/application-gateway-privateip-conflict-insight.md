@@ -27,20 +27,20 @@ Please follow the recommended steps below to avoid any configuration related iss
 
 You can resolve the issue in one of the following ways:
 
-1. Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
+* Delete the existing private frontendIpConfiguration, and create a new one with a different IpAddress from the Azure portal or PowerShell. Note that, to remove the IP configuration, it shouldn't be associated to any listener.
 
 Using Azure portal:
 
-	* Navigate to the Frontend IP configurations of your Application Gateway and find the IP configuration with type Private and click to select it
-	* Select delete option on the top
-	* Once it's removed, go back to the Frontend IP configurations blade and click on the Private IP configuration to create a new one
-	* Enter the name and select the "Choose a specific IP address" to enter a non-conflicting IP address, preferably from the end of the subnet address space and click Save
+* Navigate to the Frontend IP configurations of your Application Gateway and find the IP configuration with type Private and click to select it
+* Select delete option on the top
+* Once it's removed, go back to the Frontend IP configurations blade and click on the Private IP configuration to create a new one
+* Enter the name and select the "Choose a specific IP address" to enter a non-conflicting IP address, preferably from the end of the subnet address space and click Save
     
 Using Azure PowerShell:
 
-	* Use the [Remove-AzApplicationGatewayFrontendIPConfig](https://docs.microsoft.com/powershell/module/az.network/remove-azapplicationgatewayfrontendipconfig) command to remove it
+* Use the [Remove-AzApplicationGatewayFrontendIPConfig](https://docs.microsoft.com/powershell/module/az.network/remove-azapplicationgatewayfrontendipconfig) command to remove it
 	
-2. [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration
+* [Stop](https://docs.microsoft.com/powershell/module/Az.Network/Stop-AzApplicationGateway) the Application Gateway, create a Listener and RequestRoutingRules with private frontendIpConfig, then [Start](https://docs.microsoft.com/powershell/module/az.network/start-azapplicationgateway) the Application Gateway so that all instance IP addresses are reassigned based on the new configuration
 
 ## **Recommended Documents**
 
