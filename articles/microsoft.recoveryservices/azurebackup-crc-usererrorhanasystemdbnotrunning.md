@@ -19,7 +19,7 @@
 # UserErrorHANASystemDBNotRunning 
 
 <!--issueDescription-->
-We have identified that your backup operation failed because SYSTEMDB for SAP HANA instance is not in running state
+We have identified that your backup operation failed because SYSTEMDB for SAP HANA instance is not in running state.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
