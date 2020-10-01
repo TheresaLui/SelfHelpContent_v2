@@ -44,7 +44,7 @@ Are you facing one of these common problems?
 
 * I'm not able to connect to Azure Key Vault from Azure DevOps
 
-    Check the access policy on the Azure portal and ensure the right permissions are given.
+    Ensure the Azure service connection has at least Get and List management permissions on the vault for secrets.
 
 ## **Recommended Documents**
 
