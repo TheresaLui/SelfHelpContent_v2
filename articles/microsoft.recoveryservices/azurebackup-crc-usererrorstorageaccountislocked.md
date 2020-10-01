@@ -19,7 +19,7 @@
 # UserErrorStorageAccountIsLocked 
 
 <!--issueDescription-->
-Backup or restore jobs failed due to storage account being in locked state
+Backup or restore jobs failed due to storage account being in locked state.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
