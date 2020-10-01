@@ -1,19 +1,19 @@
 <properties
-       pageTitle="Marketplace Payout issue"
-       description="Marketplace Payout issue ticketing intake form"
+       pageTitle="Marketplace Deployment issue"
+       description="Marketplace Deployment issue ticketing intake form"
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32750772"
-       productPesIds="17010"
+       supportTopicIds="32728088"
+       productPesIds="17006"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
-       articleId="problemscopingques_partnercenter_payout_issue"
+       articleId="problemscopingques_partnercenter_deployment_issue" 
        clientIds="partnercenter"
-	ownershipId="PartnerCenter_Payouts"
+	ownershipId="PartnerCenter_Ingestion"
 />
+# Deployment Issue
 
-# Payout issue
 ---
 {
    "$schema": "SelfHelpContent",
@@ -24,14 +24,16 @@
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
+       	   "visibility": null,
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
 	   "watermarkText": "Please provide the publisher name.",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_publisher_id",
+       	   "visibility": null,
 	   "order": 2,
 	   "controlType": "numerictextbox",
 	   "displayLabel": "Publisher ID.",
@@ -40,6 +42,7 @@
        },
        {
 	   "id": "pc_isv_seller_id",
+           "visibility": null,
 	   "order": 3,
 	   "controlType": "numerictextbox",
 	   "displayLabel": "Please provide the seller ID.",
@@ -47,35 +50,12 @@
 	   "required": true
        },
        {
-	   "id": "pc_isv_transaction_identifier",
-	   "order": 4,
-	   "controlType": "textbox",
-	   "displayLabel": "Transaction Identifier (e.g. PaymentID, earningID, transactionID)",
-	   "watermarkText": "Enter the PaymentID, earningID, transactionID or other identifier",
-	   "required": true
-       },
-       {
-	   "id": "pc_isv_offer_id",
-	   "order": 5,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_offer_name",
-	   "order": 6,
-	   "controlType": "textbox",
-	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
-	   "required": false
-       },
-       {
 	   "id": "pc_isv_offer_type",
-	   "order": 7,
+           "visibility": null,
+	   "order": 4,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
-       "watermarkText":"Please select the Offer Type from the below list",
+           "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
 		   "value": "Azure Application offer",
@@ -145,28 +125,53 @@
 	   "required": true
        },
        {
-	   "id": "pc_isv_contact_method",
-	   "order": 8,
+	   "id": "pc_isv_offer_id",
+           "visibility": null,
+	   "order": 5,
+	   "controlType": "textbox",
+	   "displayLabel": "Offer ID",
+	   "watermarkText": "Please provide the Offer ID.",
+	   "required": false
+       },
+       {
+	   "id": "pc_isv_offer_name",
+           "visibility": null,
+	   "order": 6,
+	   "controlType": "textbox",
+	   "displayLabel": "Offer Name",
+	   "watermarkText": "Please provide the Offer Name.",
+	   "required": false
+       },
+       {
+	   "id": "pc_isv_offer_private",
+           "visibility": null,
+	   "order": 7,
 	   "controlType": "dropdown",
-	   "displayLabel": "Preferred contact method",
-       "watermarkText":"Please select the preferred contact method from the below list",
+	   "displayLabel": "Is the offer for Private/Preview audience?",
+           "watermarkText":"Please select",
 	   "dropdownOptions": [
 	       {
-		   "value": "Preferred method email",
-		   "text": "Email"
+		   "value": "PrivatePreview_yes",
+		   "text": "Yes"
 	       },
 	       {
-		   "value": "Preferred method phone",
-		   "text": "Phone"
-	       },
-               {
-		   "value": "Preferred method Teams",
-		   "text": "Teams"
+		   "value": "PrivatePreview_no",
+		   "text": "No"
 	       }],
 	   "required": false
        },
        {
-	   "id": "additional_email_for_notification",
+	   "id": "pc_isv_private_preview",
+           "visibility": "pc_isv_offer_private == PrivatePreview_yes",
+	   "order": 8,
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide additional details",
+	   "watermarkText": "Person facing the issue, Subscription ID",
+	   "required": false
+       },
+       {
+	   "id": "additional_emails_for_notification",
+           "visibility": null,
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
@@ -175,6 +180,7 @@
        },
        {
 	   "id": "problem_start_time",
+           "visibility": null,
 	   "order": 10,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Time",
@@ -183,6 +189,7 @@
        },
        {
 	   "id": "problem_description",
+           "visibility": null,
 	   "order": 11,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
@@ -192,6 +199,7 @@
        },
        {
        "id": "learn_more_text",
+       "visibility": null,
        "order": 12,
        "controlType": "infoblock",
        "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
