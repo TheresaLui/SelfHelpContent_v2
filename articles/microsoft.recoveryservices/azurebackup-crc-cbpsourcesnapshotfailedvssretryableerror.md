@@ -19,7 +19,7 @@
 #  CBPSourceSnapshotFailedVSSRetryableError
 
 <!--issueDescription-->
-We have identified that your backup operation failed because of an issue on the VSS service
+We have identified that your backup operation failed because of an issue on the VSS service.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
