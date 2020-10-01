@@ -1,15 +1,13 @@
 <properties
-  articleId="b1cea202-f700-45be-873a-ec49d6e02ca6"
   pageTitle="Scoping questions - Generic Issues related to Bing APIs request response"
   description="Scoping questions to troubleshoot Generic Issues related to Bing APIs request response."
-  authors="jabhal"
-  authoralias="jabhal"
   ms.author="jabhal"
-  selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740968,32740969,32740971,32740972,32739987,32739988,32739990,32739991,32741022,32741023,32741025"
-  productPesIds="17253"
+  selfHelpType="problemScopingQuestions" 
+supportTopicIds="32740968,32740969,32740971,32740972,32739987,32739988,32739990,32739991,32741022,32741023,32741025"
+  productPesIds="17301"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
+  articleId="b1cea202-f700-45be-873a-ec49d6e02ca6"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
 # Generic issues related to Bing APIs request response
@@ -27,7 +25,7 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem begin?",
       "required": false
-    }
+    },
     {
       "id": "problem_end_time",
       "order": 2,
@@ -72,7 +70,6 @@
       "displayLabel": "Custom Search ConfigID (for Custom Search related Issues)",
       "required": false
     }
-    
   ]
 }
 ---
