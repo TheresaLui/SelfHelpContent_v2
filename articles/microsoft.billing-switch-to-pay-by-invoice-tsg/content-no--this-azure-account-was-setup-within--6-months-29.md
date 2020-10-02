@@ -1,5 +1,5 @@
 <properties
-	pageTitle="No, This Azure Account was setup within <6 Months"
+	pageTitle="No, This Azure Account was setup within 6 Months"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"

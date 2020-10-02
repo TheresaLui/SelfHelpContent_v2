@@ -1,5 +1,5 @@
 <properties
-	pageTitle="New (<2 years)"
+	pageTitle="New (2 years)"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,6 +15,6 @@
    	ownershipId="ASMS_Billing"
 />
 
-# New (<2 years)
+# New (2 years)
 
 Educate customer that they may need to produce 15K USD security deposit for approval of invoicing. Do NOT advise on this upfront unless GFS prompts or the same.
