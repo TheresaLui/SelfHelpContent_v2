@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fd739da3-ce40-bd39-2bd6-bb363366b8c7",
+      "longDescription": "",
+      "shortDescription": "Transforming StorSimple format into native blobs and files to use in Azure Media Services, Azure HDInsights, and Azure Machine Learning",
+      "searchTags": "Transform ;StorSimple format",
+      "category": "Data Manager",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fe124beb-8f68-b418-38c7-df89dc0c7500",
       "longDescription": "",
       "shortDescription": "Restarting or shutting down single controller",
