@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2f9f243-6b1a-b2c6-04c6-0678dadf9592",
+      "longDescription": "",
+      "shortDescription": "Preparation for updates and Installing latest software and firmware update",
+      "searchTags": "Update;Software;Firmware",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac33019f-5d42-c01a-54a3-f4a099052cc2",
       "longDescription": "",
       "shortDescription": "Configure StorSimple alerts and view and manage alerts",
