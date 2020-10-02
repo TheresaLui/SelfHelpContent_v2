@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "155c841b-2e71-82b1-16d4-7344f5fbc746",
+      "longDescription": "",
+      "shortDescription": "Process for changing Service Data Encryption Key",
+      "searchTags": "SDEK;Service Data Encryption Key",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ddce9a8-c59c-f4f6-6f77-54e19a06e835",
       "longDescription": "",
       "shortDescription": "Considerations for cloning a volume, creating and managing clones and types of clones",
