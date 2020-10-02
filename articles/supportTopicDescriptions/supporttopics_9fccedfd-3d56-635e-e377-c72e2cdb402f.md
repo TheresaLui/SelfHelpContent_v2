@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "744b8a21-c4d9-bc5a-940c-b39764602b3c",
+      "longDescription": "",
+      "shortDescription": "Azure and third party options to migrate from 8000 series StorSimple device",
+      "searchTags": "Migration;Options",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "76bd8b5f-7804-1a7f-ec79-102aa58ebc36",
       "longDescription": "",
       "shortDescription": "Scripts that can be leveraged for StorSimple device management",
