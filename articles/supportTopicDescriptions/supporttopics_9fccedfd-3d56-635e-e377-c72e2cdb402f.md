@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "07d6c6ba-aa32-a57a-c0e4-ba72162a118c",
+      "longDescription": "",
+      "shortDescription": "Restore a volume from backup set or create a clone of a volume",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "395b21fe-f6b2-bea4-e40f-6be46bf92c37",
       "longDescription": "",
       "shortDescription": "Restore from backup sets, clone a volume, device failover process, and troubleshoot backup failures",
