@@ -9,8 +9,6 @@
 	productPesIds="16597"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	selfHelpType="resource"
-	resourceTags="DataBoxEdge"
 	articleId="newScopingQuesASE"
 	ownershipId="StorageMediaEdge_DataBox"
 />
