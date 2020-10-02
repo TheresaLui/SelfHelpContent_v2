@@ -301,6 +301,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e21f81a7-22b7-b5d4-1127-23417afd9bd2",
+      "longDescription": "",
+      "shortDescription": "Host, StorSimple, network and bandwidth configuration requirements, and best practices guide",
+      "searchTags": "Host;Network;Bandwidth",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e767545f-dac6-4007-0fd1-74ac658de093",
       "longDescription": "",
       "shortDescription": "Management of  StorSimple Device",
