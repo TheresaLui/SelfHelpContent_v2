@@ -1,5 +1,5 @@
 <properties
-	pageTitle="No, This Azure Account was setup within <6 Months"
+	pageTitle="No This Azure Account was setup within  6 Months"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,11 +15,10 @@
    	ownershipId="ASMS_Billing"
 />
 
-# This Azure Account was setup within <6 Months
+# This Azure Account was setup within 6 Months
 
 <!--issueDescription-->
 
-We notice that your Azure Account is < 6 months old, hence our Credit Check Team woud require you to provide us two years of audited, translated financial statements. Please do share the same as soon as you can
+We notice that your Azure Account is less than 6 months old, hence our Credit Check Team woud require you to provide us two years of audited, translated financial statements. Please do share the same as soon as you can
 
 <!--/issueDescription-->
-
