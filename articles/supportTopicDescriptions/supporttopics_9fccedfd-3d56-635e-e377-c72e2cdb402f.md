@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81a6342f-a97c-b038-4dbb-0be4ffa8aba8",
+      "longDescription": "",
+      "shortDescription": "Synchronize access key of your storage account and diagnose validity of storage account credentials and SSL certificate",
+      "searchTags": "Access Key;Storage Account",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b701edb7-812c-7b8f-2172-3ae2e8c40d90",
       "longDescription": "",
       "shortDescription": "Restoring a volume from backup set or creating a clone of a volume",
