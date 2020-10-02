@@ -115,6 +115,14 @@
       "searchTags": "Device offline;Portal",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe124beb-8f68-b418-38c7-df89dc0c7500",
+      "longDescription": "",
+      "shortDescription": "Restarting or shutting down single controller",
+      "searchTags": "Restart;Shutdown;Controller",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
