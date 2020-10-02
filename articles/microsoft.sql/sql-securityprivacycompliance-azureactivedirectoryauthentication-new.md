@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
-# Azure Active Directory Authentication
+# Azure Active Directory Authentication 
 
 ## **Recommended Steps**
 
