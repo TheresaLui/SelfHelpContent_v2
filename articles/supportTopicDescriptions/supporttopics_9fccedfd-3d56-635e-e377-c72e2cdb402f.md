@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e767545f-dac6-4007-0fd1-74ac658de093",
+      "longDescription": "",
+      "shortDescription": "Management of  StorSimple Device",
+      "searchTags": "Device Management",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f7252121-1837-5929-f3f3-8d3251eac49f",
       "longDescription": "",
       "shortDescription": "Troubleshooting and network diagnostics for volume access issues",
