@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4962d7bd-3b53-4df1-dc51-d9ecff3fff0e",
+      "longDescription": "",
+      "shortDescription": "Identifying a failed disk and disk replacement process",
+      "searchTags": "Disk Failure;Replacement",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "57b06bde-6bc6-7718-d9bf-0536b45b346b",
       "longDescription": "",
       "shortDescription": "Failover a StorSimple device to another StorSimple device to migrate data",
