@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0f0c7062-2dc2-4a1a-cb05-79e6837c26e2",
+      "longDescription": "",
+      "shortDescription": "Overview of Disaster Recovery (DR) and considerations for device failover",
+      "searchTags": "Failover",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ddce9a8-c59c-f4f6-6f77-54e19a06e835",
       "longDescription": "",
       "shortDescription": "Considerations for cloning a volume, creating and managing clones and types of clones",
