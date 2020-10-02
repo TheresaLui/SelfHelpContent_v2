@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d7f67b4a-7306-785a-1773-c0456a88a57e",
+      "longDescription": "",
+      "shortDescription": "Best practices on host configuration",
+      "searchTags": "Best Practice;Host Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e767545f-dac6-4007-0fd1-74ac658de093",
       "longDescription": "",
       "shortDescription": "Management of  StorSimple Device",
