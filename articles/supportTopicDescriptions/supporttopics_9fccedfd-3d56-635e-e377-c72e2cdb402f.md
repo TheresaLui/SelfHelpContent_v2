@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3bbe5d59-677a-4014-47cf-8108d5db366a",
+      "longDescription": "",
+      "shortDescription": "Network diagnostic test and bandwidth configuration requirements",
+      "searchTags": "Diagnostics;Bandwidth",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c208983-e9ee-4e7d-5202-726af552b276",
       "longDescription": "",
       "shortDescription": "Supported hardware, configure and modify DNS setting and web proxy, connecting remotely to the device",
