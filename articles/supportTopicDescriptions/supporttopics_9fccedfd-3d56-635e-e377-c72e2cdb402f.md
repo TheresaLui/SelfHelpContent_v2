@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "57b06bde-6bc6-7718-d9bf-0536b45b346b",
+      "longDescription": "",
+      "shortDescription": "Failover a StorSimple device to another StorSimple device to migrate data",
+      "searchTags": "Backup;Restore;Failover",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b701edb7-812c-7b8f-2172-3ae2e8c40d90",
       "longDescription": "",
       "shortDescription": "Restoring a volume from backup set or creating a clone of a volume",
