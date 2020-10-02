@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ddce9a8-c59c-f4f6-6f77-54e19a06e835",
+      "longDescription": "",
+      "shortDescription": "Considerations for cloning a volume, creating and managing clones and types of clones",
+      "searchTags": "Management;Clone",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "395b21fe-f6b2-bea4-e40f-6be46bf92c37",
       "longDescription": "",
       "shortDescription": "Restore from backup sets, clone a volume, device failover process, and troubleshoot backup failures",
