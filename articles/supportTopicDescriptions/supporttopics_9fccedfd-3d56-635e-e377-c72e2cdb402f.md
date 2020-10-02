@@ -35,6 +35,14 @@
       "searchTags": "Backup;Restore;Failover",
       "category": "Backup",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d13da690-1d7d-baba-f269-eae1fb18f7aa",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and network diagnostics for backup failure",
+      "searchTags": "Backup;Restore;Failover",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
