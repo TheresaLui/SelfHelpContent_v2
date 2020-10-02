@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94e13f50-7d83-1911-2236-d54ddc0922a0",
+      "longDescription": "",
+      "shortDescription": "Guidance on configuring a StorSimple device",
+      "searchTags": "Device Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac33019f-5d42-c01a-54a3-f4a099052cc2",
       "longDescription": "",
       "shortDescription": "Configure StorSimple alerts and view and manage alerts",
