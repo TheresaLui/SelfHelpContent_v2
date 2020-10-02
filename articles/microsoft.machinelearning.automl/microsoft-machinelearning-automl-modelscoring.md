@@ -28,3 +28,4 @@ In this article, you learn how to consume your automated ML models as web servic
 * [Call the service with Python](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#call-the-service-python)
 * [Consume the service from Power BI](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#consume-the-service-from-power-bi)
 * [Tutorial: Build an AML pipeline for batch scoring](https://docs.microsoft.com/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
+* [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)

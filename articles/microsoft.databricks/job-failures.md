@@ -17,6 +17,8 @@
 
 # Diagnose and resolve job failures
 
+## **Recommended Steps**
+
 **Error**: Driver failed to start in time. INTERNAL_ERROR: The Spark driver failed to start within 300 seconds; Cluster failed to be healthy within 200 seconds  
 * Store the Hive libraries in DBFS and access them locally from the DBFS location. See [Spark Options](https://docs.microsoft.com/azure/databricks/data/metastores/external-hive-metastore#spark-options). More information on this error: [Cluster Timeout](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#cluster-timeout)
 
@@ -40,15 +42,10 @@
 
 **Error** : {"error_code":"INVALID_STATE","message":"There were already 1000 jobs created in past 3600 seconds, exceeding rate limit: 1000 job creations per 3600 seconds."}
 * Troubleshoot the error according to the article: [Job fails due to job rate limit](https://docs.microsoft.com/azure/databricks/kb/jobs/job-rate-limit)
-	   
-## **Recommended Steps**
 
-* When using JAR based jobs on interactive clusters, the JAR jobs will not be automatically updated when a new JAR is uploaded as it will pick up the old JAR. This issue is by design. As a resolution:
-
-	* The cluster needs to be restarted whenever you want to update the JAR in the same job
-	* Or create a new job with same configurations and use the new JAR instead
-
-* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+**Error** : Job stage failures getting org.apache.spark.shuffle.FetchFailedException
+* Change shuffle partition configuration at notebook level for this job: spark.conf.set("spark.sql.shuffle.partitions","number_of_partitions")
+* Or increase executor(s) memory by upgrading cluster
 
  * Monitoring [Driver node](https://docs.microsoft.com/azure/databricks/clusters/configure#driver-node) performance:
     * [Ganglia metrics](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics)
