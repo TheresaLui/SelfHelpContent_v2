@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95279bc3-c04d-dd99-70bf-28ac3ac6d7af",
+      "longDescription": "",
+      "shortDescription": "Options to migrate from legacy StorSimple 5000-7000 series device to 8000 series device",
+      "searchTags": "Migration ;Legacy Device",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9778572a-18ed-eaa0-218b-5ce409727cfb",
       "longDescription": "",
       "shortDescription": "Configuring source settings and data repository",
