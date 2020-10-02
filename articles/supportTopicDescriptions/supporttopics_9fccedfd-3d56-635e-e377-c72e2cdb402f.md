@@ -267,6 +267,14 @@
       "searchTags": "Restart;Shutdown;Controller",
       "category": "Device Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ff6e0c76-b50e-38cf-8928-21d7b932b3f5",
+      "longDescription": "",
+      "shortDescription": "Creating, managing and monitoring volumes, managing volume container and editing access controller records",
+      "searchTags": "Volume Container;Volume;Access Control Record",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
