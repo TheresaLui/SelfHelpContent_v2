@@ -6,7 +6,7 @@
     articleId="7b56698e-2d5f-49b8-aef5-e146a9056a1c_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureDataExplorer_Kusto"
+	ownershipId="AzureOptimizationAutomation_AORec"
 />
 # The following ADX clusters have been identified as candidates for stopping
 ---
