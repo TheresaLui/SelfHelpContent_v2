@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f7252121-1837-5929-f3f3-8d3251eac49f",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and network diagnostics for volume access issues",
+      "searchTags": "Volume Access;Network",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc72ffc3-dc2d-6fd7-d89f-dd8f3257ae50",
       "longDescription": "",
       "shortDescription": "Network requirements and diagnostics for checking blocked ports and list of URLs to be whitelisted",
