@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da0f5f86-54e5-c1b3-07fd-ffaa1466b187",
+      "longDescription": "",
+      "shortDescription": "Resetting the device to factory default settings",
+      "searchTags": "Reset;Factory Default",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e15517ef-1f6b-a752-afa5-1bf3ce0f2640",
       "longDescription": "",
       "shortDescription": "Troubleshooting device registration issue",
