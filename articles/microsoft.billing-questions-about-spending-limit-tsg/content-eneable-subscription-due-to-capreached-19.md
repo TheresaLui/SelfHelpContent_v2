@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Eneable subscription due to CapReached"
+	pageTitle="Enable subscription due to CapReached"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"

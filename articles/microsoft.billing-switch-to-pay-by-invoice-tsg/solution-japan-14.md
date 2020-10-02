@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Below are the payment instrustions to settle the pending charge for Invoice <enter invoice#(s)>. Please settle the payment and share proof of payment, so that we can engage our Global Financial Services team to apply the payment before enabling the invoice payment option
+Below are the payment instrustions to settle the pending charge for Invoice <*nter invoice#(s)*. Please settle the payment and share proof of payment, so that we can engage our Global Financial Services team to apply the payment before enabling the invoice payment option
 
 - Vendor Name: Microsoft Japan Co., Ltd.
 - Address: Shinagawa Grand Central Tower

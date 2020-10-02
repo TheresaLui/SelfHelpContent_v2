@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Below are the payment Instructions to settle the pending charge for Invoice <enter invoice#(s)>. Please settle the payment and share proof of payment, so that we can engage our Global Financial Services team to apply the payment before enabling the invoice payment option
+Below are the payment Instructions to settle the pending charge for Invoice *enter invoice#(s)*. Please settle the payment and share proof of payment, so that we can engage our Global Financial Services team to apply the payment before enabling the invoice payment option
 
 1. Bank: Bank of America, Dallas
 2. SIWFT Account: BOFAUS3N

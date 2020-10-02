@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Verify if the template has been filled and shared by customer under "Customer Statement" in SDC. "
+	pageTitle="Verify if the template has been filled and shared by customer under Customer Statement in SDC. "
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"

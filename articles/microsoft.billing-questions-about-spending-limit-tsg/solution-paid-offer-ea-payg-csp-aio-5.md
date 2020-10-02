@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Paid OfferEA/PAYG/CSP/AIO"
+	pageTitle="Paid Offer EA/PAYG/CSP/AIO"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Paid OfferEA/PAYG/CSP/AIO
+# Paid Offer EA/PAYG/CSP/AIO
 
 <!--issueDescription-->
 

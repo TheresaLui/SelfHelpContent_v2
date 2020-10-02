@@ -19,9 +19,9 @@
 
 <!--issueDescription-->
 
-[TSG for PTA engagement](https://internal.support.services.microsoft.com/en-us/help/2929022Issue) <Include a short description of the issue, preferably three sentences or less.>
+[TSG for PTA engagement](https://internal.support.services.microsoft.com/en-us/help/2929022Issue) *Include a short description of the issue, preferably three sentences or less.*
 
-Request: <What is the specific request that you have for the TA or PTA?>
+Request: *What is the specific request that you have for the TA or PTA?*
 
 Case Details: (Fill in your customer?s details in the following list, as appropriate.)
 
@@ -60,9 +60,6 @@ Last update date from partner date:
 Issue Date(s):
 Additional details: (Do not paste the customer?s verbatim.)
 Attachment(s) to call out:
-
-<Attachment file name>
- 
 
 <!--/issueDescription-->
 

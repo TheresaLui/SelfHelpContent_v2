@@ -19,7 +19,8 @@
 
 1. Suspension occurs when customer has exhausted their monthly credits and the spending limit is not set to avoid charges. 
 2. To enable the subscription the customer must have a valid PI and remove the spending limit from the Azure Portal.
-3. ASMS cannot remove the spending limit on behalf of the customer.Account Admin must perform this steps
+3. ASMS cannot remove the spending limit on behalf of the customer. 
+4. Account Admin must perform this steps
 
 ## Recommended Documents
 

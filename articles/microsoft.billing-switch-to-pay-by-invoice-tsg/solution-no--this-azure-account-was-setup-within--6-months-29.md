@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# No, This Azure Account was setup within <6 Months
+# This Azure Account was setup within <6 Months
 
 <!--issueDescription-->
 

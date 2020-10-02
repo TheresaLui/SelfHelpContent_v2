@@ -16,9 +16,7 @@ Fairfax Free Trial (MS-AZR-USGov-0044P)"
    	ownershipId="ASMS_Billing"
 />
 
-# Free Trial (44P) 
-
-Fairfax Free Trial (MS-AZR-USGov-0044P)
+# Free Trial (44P) Fairfax Free Trial (MS-AZR-USGov-0044P)
 
 In CMAT Check for Monetary CAP status
 

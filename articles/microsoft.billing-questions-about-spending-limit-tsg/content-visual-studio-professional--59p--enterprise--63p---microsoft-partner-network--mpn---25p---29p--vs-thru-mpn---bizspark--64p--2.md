@@ -17,8 +17,6 @@ BizSpark (64P)"
    	ownershipId="ASMS_Billing"
 />
 
-# Visual Studio Professional (59P)/Enterprise (63P) 
-
-Microsoft Partner Network (MPN) [25P & 29P (VS thru MPN)] BizSpark (64P)
+# Visual Studio Professional (59P)/Enterprise (63P) Microsoft Partner Network (MPN) [25P & 29P (VS thru MPN)] BizSpark (64P)
 
 These are offers that include a monhtly monetary credit. The spending limit set on prevents the subscriptions from incurring into charges when the credits are exhausted by disabling the subscription. 

@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Does company name and address in CMAT/CST match the filled template/legal document provided??"
+	pageTitle="Does company name and address in CMAT/CST match the filled template/legal document provided"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
