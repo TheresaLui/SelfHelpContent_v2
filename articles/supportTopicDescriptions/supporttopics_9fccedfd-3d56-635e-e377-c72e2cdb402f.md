@@ -333,6 +333,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fe4a933a-a5f0-b5fd-37f6-81f1a1365adb",
+      "longDescription": "",
+      "shortDescription": "Host, StorSimple, Network, and bandwidth configuration requirements and network diagnostics",
+      "searchTags": "Host;Network;Bandwidth;Diagnostics",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff6e0c76-b50e-38cf-8928-21d7b932b3f5",
       "longDescription": "",
       "shortDescription": "Creating, managing and monitoring volumes, managing volume container and editing access controller records",
