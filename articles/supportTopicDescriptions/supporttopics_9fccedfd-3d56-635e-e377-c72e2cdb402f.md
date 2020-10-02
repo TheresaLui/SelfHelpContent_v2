@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "874ef7ca-bdae-e24d-5ca8-1cbc24585f72",
+      "longDescription": "",
+      "shortDescription": "Creating a data transformation job definition",
+      "searchTags": "Data Transformation",
+      "category": "Data Manager",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94628bcd-779c-197c-3631-b6cec25f2792",
       "longDescription": "",
       "shortDescription": "Physical & cloud appliance and host configuration for successful device registration",
