@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3dbf169f-ef46-6002-75b1-182c8ee544e9",
+      "longDescription": "",
+      "shortDescription": "Procedure to replace PCM and backup battery module",
+      "searchTags": "PCM;Battery",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4962d7bd-3b53-4df1-dc51-d9ecff3fff0e",
       "longDescription": "",
       "shortDescription": "Identifying a failed disk and disk replacement process",
