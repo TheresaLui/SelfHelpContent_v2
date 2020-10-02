@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "30546980-8dfd-1303-a57f-382f64e2372e",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting data transformation job run issues",
+      "searchTags": "Data Transformation;Job run issue",
+      "category": "Data Manager",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "395b21fe-f6b2-bea4-e40f-6be46bf92c37",
       "longDescription": "",
       "shortDescription": "Restore from backup sets, clone a volume, device failover process, and troubleshoot backup failures",
