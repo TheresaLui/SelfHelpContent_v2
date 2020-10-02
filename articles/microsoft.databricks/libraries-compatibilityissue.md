@@ -17,8 +17,24 @@
 
 # Diagnose and resolve library compatibility issues
 
+## **Recommended Steps**
+
+* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
+    - You can either disable Credential Passthrough for this HC cluster
+    - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
+    
 ## **Recommended Documents**
 
-* [Problem: Library Unavailability Causing Job Failures](https://kb.azuredatabricks.net/libraries/library-install-latency.html)
-* [How to Correctly Update a Maven Library in Azure Databricks](https://kb.azuredatabricks.net/libraries/maven-library-version-mgmt.html)
+* Error: org.apache.spark.SparkException: Process List
+     * Troubleshoot error as per article [Libraries fail with dependency exception](https://docs.microsoft.com/azure/databricks/kb/libraries/library-fail-dependency-exception)
+
+* Error: ImportError: No module named XXX
+     * Resolve the error as per steps in article [Library unavailability causing job failures](https://docs.microsoft.com/azure/databricks/kb/libraries/library-install-latency) 
+
+* [How to: Correctly Update a Maven Library in Azure Databricks](https://docs.microsoft.com/azure/databricks/kb/libraries/maven-library-version-mgmt)
+
 * [List of pre-installed libraries](https://docs.databricks.com/release-notes/runtime/5.4.html#installed-python-libraries)
+
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.

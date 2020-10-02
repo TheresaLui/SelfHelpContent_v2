@@ -6,7 +6,7 @@
     articleId="3c18c7f0-39d9-4acf-baa1-6387251cf9b4_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="CloudNet_AzureVPNGateway"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Delete ExpressRoute circuits in the provider status of Not Provisioned
 ---
@@ -25,7 +25,7 @@
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Network/expressRouteCircuits",
     "recommendationFriendlyName": "ExpressRouteCircuit",
-    "recommendationMetadataState": "Disabled",
+    "recommendationMetadataState": "Active",
     "portalFeatures": [],
     "owner": {
         "email": "ExRPM@microsoft.com",

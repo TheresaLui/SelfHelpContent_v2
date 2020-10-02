@@ -34,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 2,
+  "version": 3,
   "learnMoreLink": "https://aka.ms/AA5wtca",
   "description": "Upgrade your Storage Client Library to the latest version for better reliability and performance",
   "longDescription": "The latest version of Storage Client Library/ SDK contains fixes to issues reported by customers and proactively identified through our QA process. The latest version also carries reliability and performance optimization in addition to new features that can improve your overall experience using Azure Storage.",
@@ -74,6 +74,10 @@
     {
       "name": "version",
       "title": "Minimum Recommended Version"
+    },
+    {
+      "name": "currentVersion",
+      "title": "Current Version"
     }
   ],
   "tip": ""

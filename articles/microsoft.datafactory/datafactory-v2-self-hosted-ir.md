@@ -7,7 +7,7 @@
 	ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629461,32629540"
+    supportTopicIds="32629461"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -16,6 +16,8 @@
 />
 
 #  V2 - Copy Activity and Self-Hosted IR
+
+**Note -** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
 
 ## **Recommended Documents**
 

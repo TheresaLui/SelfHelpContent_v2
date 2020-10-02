@@ -18,6 +18,7 @@
 # Certificate Renewal in Key vault
 ## **Recommended Steps**
 
+* [Renewing key vault certificate](https://docs.microsoft.com/azure/key-vault/certificates/overview-renew-certificate)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
