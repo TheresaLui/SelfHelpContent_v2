@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32747918"
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="3ffa140e-bee8-4335-b03f-c1504ede1b46"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
@@ -62,8 +62,14 @@
 			],
 			"required": false
 		}, {
+			"id": "command_execute",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "What command are you trying to execute?",
+            "required": false
+		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
