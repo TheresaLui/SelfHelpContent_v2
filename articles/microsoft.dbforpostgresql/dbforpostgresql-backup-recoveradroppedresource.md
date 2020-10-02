@@ -26,21 +26,18 @@ Azure Database for PostgreSQL generally does not support restoring a deleted ser
 
 1. Go to the **Activity Log** in the Azure portal
 
-2. Select **Add filter**. 
-   Add a filter for **Resource Type** = Azure Database for PostgreSQL servers (Microsoft.DBforPostgreSQL/servers).
-   Add a filter for **Operation** = Delete PostgreSQL Server (Microsoft.DBforPostgreSQL/servers/delete).
+2. Select **Add filter**:
+
+	* Add a filter for **Resource Type** = Azure Database for PostgreSQL servers (Microsoft.DBforPostgreSQL/servers)
+	* Add a filter for **Operation** = Delete PostgreSQL Server (Microsoft.DBforPostgreSQL/servers/delete)
 
 3. Double click on the relevant **Delete PostgreSQL Server** event
-
-4. Select the **JSON** tab. Note down the `resourceId` and `submissionTimestamp` properties in the JSON output. 
-   The `resourceId` is in the following format: `/subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/***********/providers/Microsoft.DBforPostgreSQL/servers/********`.
+4. Select the **JSON** tab. Note down the `resourceId` and `submissionTimestamp` properties in the JSON output. The `resourceId` is in the following format: `/subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/***********/providers/Microsoft.DBforPostgreSQL/servers/********`.
 
 Next, you will recreate the server using the [Create Server REST API](https://docs.microsoft.com/rest/api/postgresql/servers/create). The following steps use the Azure Docs embedded REST API interface. You can choose to use your preferred REST API interface.
 
 5. Open the [Create Server REST API page](https://docs.microsoft.com/rest/api/postgresql/servers/create). Select the green **"Try It"** tab. Sign in with your Azure account.
-
-6. Use the `resourceId` you noted down in a previous step to fill out the `resourceGroupName`, `serverName` (deleted server name), and `subscriptionId`.
-
+6. Use the `resourceId` you noted down in a previous step to fill out the `resourceGroupName`, `serverName` (deleted server name), and `subscriptionId`
 7. Scroll down to the request **Body** section. Paste in the following code. **Remember to fill in the `location`, `restorePointInTime` and `sourceServerId` fields.**
 
    ```
