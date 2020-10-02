@@ -27,5 +27,7 @@ To specify a user managed environment, please set user_managed_dependencies=True
 ## **Recommended Documents**
 If you are experiencing any issues with creating or managing environments, here is a list of additional resources which may be helpful:
 * [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments)
+* [How to train models with PyTorch](https://docs.microsoft.com/azure/machine-learning/how-to-train-pytorch)
+* [How to train models with TensorFlow](https://docs.microsoft.com/azure/machine-learning/how-to-train-tensorflow)
 * [Concept overview](https://docs.microsoft.com/azure/machine-learning/concept-environments)
 * [SDK documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.environment)
