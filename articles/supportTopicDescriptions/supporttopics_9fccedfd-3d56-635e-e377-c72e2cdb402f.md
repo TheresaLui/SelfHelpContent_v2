@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94628bcd-779c-197c-3631-b6cec25f2792",
+      "longDescription": "",
+      "shortDescription": "Physical & cloud appliance and host configuration for successful device registration",
+      "searchTags": "Configuration;Cloud Appliance;Device Registration;Setup",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac33019f-5d42-c01a-54a3-f4a099052cc2",
       "longDescription": "",
       "shortDescription": "Configure StorSimple alerts and view and manage alerts",
