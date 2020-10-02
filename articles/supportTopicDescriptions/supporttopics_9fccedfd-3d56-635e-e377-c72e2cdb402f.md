@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e15517ef-1f6b-a752-afa5-1bf3ce0f2640",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting device registration issue",
+      "searchTags": "Device Registration;Troubleshooting",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e767545f-dac6-4007-0fd1-74ac658de093",
       "longDescription": "",
       "shortDescription": "Management of  StorSimple Device",
