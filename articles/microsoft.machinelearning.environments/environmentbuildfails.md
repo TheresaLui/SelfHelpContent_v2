@@ -29,6 +29,7 @@ build = env.build(workspace=ws)
 ```
 
 * Changing the order of dependencies or channels in environment will result a new environment and will require a new image build.
+* If using a Docker image, see the image build log from the portal (20_image_build_log.txt) or from your ACR tasks runs logs.
 
 ## **Recommended Documents**
 If you are experiencing any environment build failures, here is a list of additional resources which may be helpful:
