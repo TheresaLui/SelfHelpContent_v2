@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3a7c40b-06b2-2d84-46f8-a2c642ddf2dc",
+      "longDescription": "",
+      "shortDescription": "Options to migrate to or from StorSimple 8000 series or migration of subscription and storage account associated with the device",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b701edb7-812c-7b8f-2172-3ae2e8c40d90",
       "longDescription": "",
       "shortDescription": "Restoring a volume from backup set or creating a clone of a volume",
