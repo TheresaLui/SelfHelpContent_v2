@@ -27,6 +27,14 @@
       "searchTags": "Backup;Restore;Failover",
       "category": "Backup",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b701edb7-812c-7b8f-2172-3ae2e8c40d90",
+      "longDescription": "",
+      "shortDescription": "Restoring a volume from backup set or creating a clone of a volume",
+      "searchTags": "Backup;Restore;Failover",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
