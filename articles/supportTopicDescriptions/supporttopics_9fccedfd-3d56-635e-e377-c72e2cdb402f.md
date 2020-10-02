@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "01d7b842-b185-ad4f-6dd8-121564dd045e",
+      "longDescription": "",
+      "shortDescription": "Guidance on configuring a cloud appliance",
+      "searchTags": "Cloud Appliance;Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0785916e-0f4e-bb77-9daa-93d85e913858",
       "longDescription": "",
       "shortDescription": "Diagnosing storage and device connectivity and volume access issues",
