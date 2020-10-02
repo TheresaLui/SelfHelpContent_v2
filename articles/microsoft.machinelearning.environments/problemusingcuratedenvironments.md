@@ -20,6 +20,9 @@
 ### Environment creation
 Make sure to not start your own environment name with the AzureML or Microsoft prefix as it is reserved for curated environments. In addition, if you modify the curated environment object and submit an experiment with it, the same issue will arise.
 
+### Modifying curated environments
+If you want to modify a curated environment, make sure to clone and rename: `Environment.get(workspace=ws, name="AzureML-Minimal").clone(new_name)`. Now you are free to make any changes as you would with a custom environment.
+
 ## **Recommended Documents**
 If you are experiencing any issues with curated environments, here is a list of additional resources which may be helpful:
 * [Curated environments](https://docs.microsoft.com/azure/machine-learning/resource-curated-environments)
