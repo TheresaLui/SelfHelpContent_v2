@@ -26,6 +26,6 @@ If you want to modify a curated environment, make sure to clone and rename: `Env
 ## **Recommended Documents**
 If you are experiencing any issues with curated environments, here is a list of additional resources which may be helpful:
 * [Curated environments](https://docs.microsoft.com/azure/machine-learning/resource-curated-environments)
-* [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments)
+* [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments#create-an-environment)
 * [Concept overview](https://docs.microsoft.com/azure/machine-learning/concept-environments)
 * [SDK documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.environment)
