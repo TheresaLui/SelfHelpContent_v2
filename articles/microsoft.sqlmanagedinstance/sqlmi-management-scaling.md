@@ -2,7 +2,7 @@
   pagetitle="Scaling an instance"
   service="microsoft.sql"
   resource="managedinstances"
-  ms.author="mlandzic,katmac"
+  ms.author="mlandzic,katmac,urmilano"
   selfhelptype="Generic"
   supporttopicids="32637303,32637304"
   resourcetags=""
@@ -11,6 +11,8 @@
   articleid="46b0c74d-36e6-4a7f-9b62-f3bd8ee6962a"
   ownershipid="AzureData_AzureSQLMI" />
 # Scaling an instance
+
+Most users are able to scale instances and resolve any issues by using the following recommended steps and recommended documents.
 
 ## **Recommended Steps**
 
@@ -24,30 +26,26 @@ Scaling managed instance resources refers to the scaling of vCores, storage capa
 - Add or remove files
 
 **Unable to Perform Scaling Operations**
-- Managed instances placed in a subnet with 16 IP addresses (the minimum vNet size) are not able to perform scaling operations. See the [Determine vNet subnet size for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-determine-size-vnet-subnet) article.
-- To workaround the issue, create a new managed instance in a larger subnet, and then perform a [cross-instance point-in-time restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-point-in-time-restore) to the new managed instance
-
-**Cancel a Scaling Operation**
-- See the article [Cancel management operations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#canceling-management-operations)
-
-**Change the Hardware Generation of Scaling vCores**
-- Changing the hardware generation by scaling vCores can be done using the Azure portal, PowerShell, or Azure CLI command. Storage size is determined by the vCore configuration. For more details, see the [Change the hardware generation of an existing managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-vcore?tabs=azure-portal#selecting-a-hardware-generation) article. 
+- Managed instances placed in a subnet with 16 IP addresses (the minimum vNet size) are not able to perform scaling operations. See the [Determine vNet subnet size for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-subnet-determine-size) article.
+- To work around the issue, create a new managed instance in a larger subnet, and then perform a [cross-instance point-in-time restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-point-in-time-restore) to the new managed instance
 
 **Verify the Duration of a Scaling Operation**
-- Scaling a managed instance is a long running operation. For more details about the duration of scaling operations, see [Managed instance management operations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-management-operations).
+- Scaling a managed instance is a long running operation. For more details about the duration of scaling operations and best practices, see [Managed instance management operations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-management-operations).
+- To find out how to monitor your scaling operation, visit [Monitoring Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-monitor)
+
+**Cancel a Scaling Operation**
+- See the article [Canceling Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-cancel)
+
+**Change the Hardware Generation of Scaling vCores**
+- Changing the hardware generation by scaling vCores can be done by using the Azure portal, PowerShell, or Azure CLI command. Storage size is determined by the vCore configuration. For more details, see [Change the hardware generation of an existing managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-vcore?tabs=azure-portal#selecting-a-hardware-generation). 
 
 **Update Managed Instance Properties**
-- To change public endpoint properties, see [Configure public endpoint in Azure SQL Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)
+- To change public endpoint property, see [Configure public endpoint in Azure SQL Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)
 - The time zone can be set only during the managed instance creation and cannot be updated. For a workaround, see the [managed instance time zone FAQ section](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-faq#change-time-zone).
- 
-**Increase Quota Limits**
-- Read how to [submit a quota increase request](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#obtaining-a-larger-quota-for-sql-managed-instance)
-
-**Find a List of Available Commands**
-- For a list of API, PowerShell or CLI commands, see the article: [list of available commands](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-manage)
 
 ## **Recommended Documents**
 
-- [Quota increase request](https://docs.microsoft.com/azure/sql-database/quota-increase-request#sqlmiquota)
-- [List of available commands](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-manage)
+- [Overview of Azure SQL Managed Instance management operations](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-overview)
+- [Request quota increases for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request#sqlmiquota)
+- [Managed API reference for Azure SQL Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-manage)
 - [Dynamically scale resources with a minimal downtime](https://docs.microsoft.com/azure/sql-database/sql-database-scale-resources)

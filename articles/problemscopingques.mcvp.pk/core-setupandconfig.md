@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds=""
     productPesIds="16918"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-coresetup"
 	ownershipId="AzureIot_Mobility"
