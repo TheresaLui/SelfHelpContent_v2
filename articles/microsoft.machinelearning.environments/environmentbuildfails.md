@@ -23,8 +23,8 @@
 
 ### Image rebuild
 * Image build will happen automatically upon experiment submission if the corresponding image is not cached. To manually submit cloud image build for an Environment, you need to register it first and call build on returned instance of the Environment.
-
 ```python
+
 myenv.register(workspace=ws)
 build = env.build(workspace=ws)
 ```
