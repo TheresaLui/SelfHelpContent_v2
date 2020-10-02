@@ -75,6 +75,14 @@
       "searchTags": "Backup;Restore;Failover",
       "category": "Backup",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc72ffc3-dc2d-6fd7-d89f-dd8f3257ae50",
+      "longDescription": "",
+      "shortDescription": "Network requirements and diagnostics for checking blocked ports and list of URLs to be whitelisted",
+      "searchTags": "Device offline;Portal",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
