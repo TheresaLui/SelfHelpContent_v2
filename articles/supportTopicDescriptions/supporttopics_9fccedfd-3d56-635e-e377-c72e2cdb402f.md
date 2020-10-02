@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c208983-e9ee-4e7d-5202-726af552b276",
+      "longDescription": "",
+      "shortDescription": "Supported hardware, configure and modify DNS setting and web proxy, connecting remotely to the device",
+      "searchTags": "Supported;DNS;Web Proxy;Remote Access",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "57b06bde-6bc6-7718-d9bf-0536b45b346b",
       "longDescription": "",
       "shortDescription": "Failover a StorSimple device to another StorSimple device to migrate data",
