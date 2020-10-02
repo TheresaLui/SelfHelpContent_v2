@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Logic/workflows",
   "recommendationFriendlyName": "LogicAppsDeprecatedConnectors",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "flowhot@microsoft.com",
