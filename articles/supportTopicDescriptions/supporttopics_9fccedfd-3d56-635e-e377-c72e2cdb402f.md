@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3b31114d-cd68-f738-9e29-2ea839cfcfc7",
+      "longDescription": "",
+      "shortDescription": "Deactivating and deleting the physical or cloud appliance",
+      "searchTags": "Deactivation;Decommission;Deletion",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c208983-e9ee-4e7d-5202-726af552b276",
       "longDescription": "",
       "shortDescription": "Supported hardware, configure and modify DNS setting and web proxy, connecting remotely to the device",
