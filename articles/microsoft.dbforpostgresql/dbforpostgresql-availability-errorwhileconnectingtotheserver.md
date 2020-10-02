@@ -38,7 +38,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Confirm that your network allows outbound connections on port 5432 and to the regional Azure Database for PostgreSQL [Gateway IP](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture)
 * If you see an error related to **GSS**, you are likely using a newer client/driver version which Azure Postgres Single Server does not yet fully support. This error is known to affect [JDBC driver versions 42.2.15 and 42.2.16](https://github.com/pgjdbc/pgjdbc/issues/1868).
    - We plan to complete the update by the end of November. Consider using a working driver version in the meantime.
-   - Disable the request of GSSAPI.  Use a connection parameter like `gssEncMode=disable`.
+   - Or, consider disabling the request of GSSAPI.  Use a connection parameter like `gssEncMode=disable`.
 * If you are using VNets, ensure that the [service endpoints](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal) are correctly configured
 * If you see the error 'Server is not configured to allow **IPv6** connections' on a Basic tier server, note that the Basic tier does not support VNet service endpoints. You have to remove the endpoint Microsoft.Sql from the subnet attempting to connect to the Basic tier server.
 * Make sure the user you are connecting with has the appropriate permissions
