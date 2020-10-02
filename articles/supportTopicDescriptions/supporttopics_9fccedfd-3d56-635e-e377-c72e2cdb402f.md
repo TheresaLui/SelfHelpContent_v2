@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6931a9b-a075-640b-4c84-4d07e851043e",
+      "longDescription": "",
+      "shortDescription": "Guidance on using StorSimple monitoring indicators to identify the faulty LEDs",
+      "searchTags": "Monitoring;Fault LEDs",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf3b4ab4-0c81-4e44-bc8a-11d2d149dd14",
       "longDescription": "",
       "shortDescription": "Process of turning off and turning on StorSimple device during physical relocation of device",
