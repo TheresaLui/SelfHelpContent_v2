@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0785916e-0f4e-bb77-9daa-93d85e913858",
+      "longDescription": "",
+      "shortDescription": "Diagnosing storage and device connectivity and volume access issues",
+      "searchTags": "Connectivity;Heartbeat;Storage Account;Offline;Volume Access",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "07d6c6ba-aa32-a57a-c0e4-ba72162a118c",
       "longDescription": "",
       "shortDescription": "Restore a volume from backup set or create a clone of a volume",
