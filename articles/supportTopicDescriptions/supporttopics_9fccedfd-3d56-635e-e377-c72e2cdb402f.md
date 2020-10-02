@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "76bd8b5f-7804-1a7f-ec79-102aa58ebc36",
+      "longDescription": "",
+      "shortDescription": "Scripts that can be leveraged for StorSimple device management",
+      "searchTags": "Tools",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81a6342f-a97c-b038-4dbb-0be4ffa8aba8",
       "longDescription": "",
       "shortDescription": "Synchronize access key of your storage account and diagnose validity of storage account credentials and SSL certificate",
