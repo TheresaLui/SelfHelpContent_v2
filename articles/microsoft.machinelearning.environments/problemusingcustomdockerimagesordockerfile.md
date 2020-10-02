@@ -30,7 +30,8 @@ Base image updates can result cache invalidation if the referenced tag was updat
 
 ## **Recommended Documents**
 If you are experiencing any problem using custom Docker images or Dockerfile, here is a list of additional resources which may be helpful:
-* [Deploy a model using a custom Docker base image](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-custom-docker-image)
-* [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments)
+* [Train a model with a custom Docker image](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-custom-image)
+* [Deploy a model using a custom Docker image](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-custom-docker-image#use-a-custom-base-image)
+* [How to use environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments#create-an-environment)
 * [Concept overview](https://docs.microsoft.com/azure/machine-learning/concept-environments)
 * [SDK documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.environment)
