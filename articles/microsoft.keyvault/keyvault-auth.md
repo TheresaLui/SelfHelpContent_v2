@@ -19,20 +19,14 @@
 
 ## **Recommended Steps**
 
-Authentication with Key Vault works in conjunction with Azure Active Directory (Azure AD), which is responsible for authenticating the identity of any given security principal.
-You can authenticate to Key Vault with managed identity, service principal or user principal.
+Authentication with Key Vault works in conjunction with Azure Active Directory (Azure AD), which is responsible for authenticating the identity of any given security principal. You can authenticate to Key Vault with managed identity, service principal or user principal.
 
-[Understand Key Vault Authentication Fundamentals](https://docs.microsoft.com/azure/key-vault/general/authentication-fundamentals)
+* [Understand Key Vault Authentication Fundamentals](https://docs.microsoft.com/azure/key-vault/general/authentication-fundamentals)
 
 ### **Troubleshooting**
 
-* Unauthorized access, access denied, forbidden, or similar error:
-
- The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
-
-* Unable to authenticate using security groups
-
- Security groups in AAD can take up to 8hr to propagate
+* Unauthorized access, access denied, forbidden, or similar error:  The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
+* Unable to authenticate using security groups: Security groups in AAD can take up to 8hr to propagate
 
 ## **Recommended Documents**
 
