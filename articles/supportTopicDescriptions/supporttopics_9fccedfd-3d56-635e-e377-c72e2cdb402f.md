@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9778572a-18ed-eaa0-218b-5ce409727cfb",
+      "longDescription": "",
+      "shortDescription": "Configuring source settings and data repository",
+      "searchTags": "Source;Data Repository",
+      "category": "Data Manager",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac33019f-5d42-c01a-54a3-f4a099052cc2",
       "longDescription": "",
       "shortDescription": "Configure StorSimple alerts and view and manage alerts",
