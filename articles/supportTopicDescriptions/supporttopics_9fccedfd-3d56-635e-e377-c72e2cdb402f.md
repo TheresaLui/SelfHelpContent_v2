@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc0072be-4409-93f3-8e58-c64e7b6117b1",
+      "longDescription": "",
+      "shortDescription": "Migrating StorSimple service to a new enrollment or to a new subscription",
+      "searchTags": "Migration;New Enrollment;New Subscription",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6931a9b-a075-640b-4c84-4d07e851043e",
       "longDescription": "",
       "shortDescription": "Guidance on using StorSimple monitoring indicators to identify the faulty LEDs",
