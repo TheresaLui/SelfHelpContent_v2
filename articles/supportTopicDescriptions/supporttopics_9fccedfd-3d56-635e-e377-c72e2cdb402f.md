@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b2e3293e-29a5-f23d-1fe8-9997644ad17d",
+      "longDescription": "",
+      "shortDescription": "Hardware issues such as drive, controller, PCM, and battery failure or degradation",
+      "searchTags": "Hardware;Disk;PCM;Battery;Failure",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b701edb7-812c-7b8f-2172-3ae2e8c40d90",
       "longDescription": "",
       "shortDescription": "Restoring a volume from backup set or creating a clone of a volume",
