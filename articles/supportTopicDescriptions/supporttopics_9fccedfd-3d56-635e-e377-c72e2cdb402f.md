@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf3b4ab4-0c81-4e44-bc8a-11d2d149dd14",
+      "longDescription": "",
+      "shortDescription": "Process of turning off and turning on StorSimple device during physical relocation of device",
+      "searchTags": "Device Relocation;Turn On;Turn Off",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d13da690-1d7d-baba-f269-eae1fb18f7aa",
       "longDescription": "",
       "shortDescription": "Troubleshooting and network diagnostics for backup failure",
