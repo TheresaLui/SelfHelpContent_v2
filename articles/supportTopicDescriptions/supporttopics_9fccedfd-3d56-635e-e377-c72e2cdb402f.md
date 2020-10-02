@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94668dc8-e1d7-3dca-009b-5c4fc0728623",
+      "longDescription": "",
+      "shortDescription": "StorSimple solution support and pricing",
+      "searchTags": "Contract;Pricing",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94e13f50-7d83-1911-2236-d54ddc0922a0",
       "longDescription": "",
       "shortDescription": "Guidance on configuring a StorSimple device",
