@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 ### Environment creation
-Make sure to not start your own environment name with the AzureML prefix as it is reserved for curated environments. 
+Make sure to not start your own environment name with the AzureML or Microsoft prefix as it is reserved for curated environments. In addition, if you modify the curated environment object and submit an experiment with it, the same issue will arise.
 
 ## **Recommended Documents**
 If you are experiencing any issues with curated environments, here is a list of additional resources which may be helpful:
