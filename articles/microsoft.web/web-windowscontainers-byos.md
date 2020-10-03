@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="8376e75c-8c9c-4c2f-bd28-75af185408"
+	articleId="8376e75c-8c9c-4c2f-bd28-75af1808"
 	ownershipId="Compute_AppService"
 />
 
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Access Azure Storage as a network share from a container in App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-connect-to-azure-storage?pivots=container-windows)
+* [Access Azure Storage as a network share from a container in App Service](https://docs.microsoft.com/azure/app-service/configure-connect-to-azure-storage?pivots=container-windows)

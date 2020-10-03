@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="8376e75c-8c9c-4c2f-bd28-75af185408"
+	articleId="8376e75c-8c9c-4c2f-bd28-75af1854"
 	ownershipId="Compute_AppService"
 />
 
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Continuous deployment with Web App for Containers](https://docs.microsoft.com/en-us/azure/app-service/deploy-ci-cd-custom-container)
+* [Continuous deployment with Web App for Containers](https://docs.microsoft.com/azure/app-service/deploy-ci-cd-custom-container)

@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="8376e75c-8c9c-4c2f-bd28-75af185408"
+	articleId="8376e75c-8c9c-4c2f-bd28-75a85408"
 	ownershipId="Compute_AppService"
 />
 
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Integrate your app with an Azure virtual network](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet)
+* [Integrate your app with an Azure virtual network](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet)
