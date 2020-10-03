@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Configure a custom container for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-custom-container?pivots=container-windows)
+* [Configure a custom container for Azure App Service](https://docs.microsoft.com/azure/app-service/configure-custom-container?pivots=container-windows)
