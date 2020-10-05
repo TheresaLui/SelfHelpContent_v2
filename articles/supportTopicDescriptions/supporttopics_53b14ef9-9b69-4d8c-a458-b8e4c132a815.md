@@ -345,6 +345,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a673718a-c6d8-eab3-a086-1bc2cb196ca7",
+      "longDescription": "",
+      "shortDescription": "Cannot find a SQL Server version or edition or an image related to it to deploy from Azure Marketplace",
+      "searchTags": "cannot deploy sql image;sql image unavailable;cannot find sql server;sql image missing;cannot find marketplace image",
+      "category": "SQLDeployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad3d1f86-bddd-6add-5ef3-61cca77fc992",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Instance Security like Certificates, SSL, TLS, Encryption, Auditing, Logins",
@@ -455,6 +463,14 @@
       "searchTags": "stop;stop vm;start; start vm;restart;restart vm;administration; vm administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "d1514669-4455-80ef-5c77-ee22227ac7ff",
+      "longDescription": "",
+      "shortDescription": "Issues while executing a package through Visual Studio SSDT, SSISDB Catalog, SQL Server Agent, DTExec.exe or DTExecUI.exe",
+      "searchTags": "ssis package execution;integration services package execution",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
@@ -579,7 +595,7 @@
     {
       "id": "f6e253eb-2bfa-89bc-82ad-f65219562506",
       "longDescription": "",
-      "shortDescription": "Questions or issues with SQl server slowness, query execution time and query tuning",
+      "shortDescription": "Questions on SQL server slowness, optimization, query execution time and query tuning",
       "searchTags": "qp;qo;tuning;query optimization;query tuning;performance;sql server slow;query optimization;optimize;slow;query processing",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"

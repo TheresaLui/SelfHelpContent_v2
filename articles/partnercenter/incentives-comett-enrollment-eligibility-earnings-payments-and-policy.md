@@ -25,7 +25,6 @@
 **Enrollment & Eligibility**
 * [Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
 * [View your incentive payments and programs](https://docs.microsoft.com/partner-center/understand-incentive-payouts)
-* [Getting started with incentives: Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
 * [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
@@ -49,5 +48,6 @@
 * [Reconciling earnings and payments](https://support.microsoft.com/help/4528724)
 
 **Still need help?**
-Create a support ticket: 
-[All regions](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=CoMETT@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&language=EN)
+
+Create a support request:
+* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=comettmdf@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&locale=en-us&language=EN)

@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05a1c070-0ace-8cdb-40ca-c14eaae95a00",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services metrics from azure",
+      "searchTags": "metrics;azure portal;dashboard",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f77c93d-dee1-3963-1fe6-6aee644164a2",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment is not responding.",
@@ -45,11 +53,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "11efd171-d401-f096-1395-f237e4c3b0e4",
+      "longDescription": "",
+      "shortDescription": "Select this if you have data services usage tracking technical issues which are not mentioned",
+      "searchTags": "Azure portal;metrics;logs;unknown;shadow resource",
+      "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "13157fcd-1649-aae8-ef6a-af388b9264f4",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving Controller monitoring and logging issues which are not mentioned",
       "searchTags": "Unknown;DC;Monitoring;Logging",
       "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "14c61ed8-06c8-72cb-9d2a-6381843e872d",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services logs from azure",
+      "searchTags": "Log analytics;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -101,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35101454-b000-c4b5-d05b-e8a0da9e5226",
+      "longDescription": "",
+      "shortDescription": "Data Controller deletion issues and queries",
+      "searchTags": "Data Controller;uninstall;delete;removal",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38347f23-04d8-5269-f81e-22b7cb5b2048",
       "longDescription": "",
       "shortDescription": "Select this if you have questions or need guidance for deploying data controller",
@@ -133,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b65f7d3-1835-641a-f01d-d68f1fb046cc",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deletion failures.",
+      "searchTags": "Data Controller;Delete;uninstall;removal;failure",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4c5715ef-a3af-182d-9eac-b727908655d2",
       "longDescription": "",
       "shortDescription": "Data Controller pre-deployment queries, customization and deployment failures",
@@ -162,6 +202,14 @@
       "shortDescription": "Select this if you have issues or need guidance on data controller logs accessing using kubectl or Kibana",
       "searchTags": "DC;Logging;Kibana;kubectl;Data Controller",
       "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6207c90b-641b-eb66-422c-8ff1025774f8",
+      "longDescription": "",
+      "shortDescription": "Select this if you have questions or need guidance for deleting data controller",
+      "searchTags": "Data Controller;Delete;uninstall;removal;Queries",
+      "category": "Data Controller Delete",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -237,11 +285,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a16dd731-db69-3109-344c-073acc9c6505",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource visible in azure post successful deletion of service.",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
       "searchTags": "Azure Arc Data Services;Billing;Usage;Export",
       "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b2979868-ce69-200f-3974-da64427e61a0",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deletion which are not mentioned",
+      "searchTags": "Data Controller;deletion;removal;uninstall;not listed",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b3e869d3-3fe6-3368-4b84-a37b791a4290",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving connectivity issues for monitoring post successful controller deployment",
+      "searchTags": "Monitoring Endpoints;Endpoints;Data Controller",
+      "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -309,11 +381,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f09cd4d3-5278-3fb5-2f63-f4f8539caefb",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource not visible in azure post successful upload",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f38e55fc-ce8f-5161-8d93-533aadcb094f",
       "longDescription": "",
       "shortDescription": "Data services usage tracking - technical issues only involving export and update of usage data and not with usage reporting",
       "searchTags": "Azure Arc Data Services;Billing;Usage",
       "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fab17800-9dc6-a1ed-3c45-8a7637a44425",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deletion is not responding.",
+      "searchTags": "Data Controller;Delete;uninstall;removal;not responding",
+      "category": "Data Controller Delete",
       "useInDiagnoseAndSolve": "true"
     }
   ]
