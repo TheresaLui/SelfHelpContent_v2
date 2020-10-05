@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqlmi-conn-config-drivers"
+	articleId="problemscopingques-sqlmi-conn-ts-dropped"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions to capture driver related issues"
 	authors="vitomaz-msft,MladjoA"
