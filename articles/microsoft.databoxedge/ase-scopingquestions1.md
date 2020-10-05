@@ -51,28 +51,6 @@
             "required": true
         },
 	{
-	     "id": "Connected",
-	     "order": 300,
-	     "controlType": "dropdown",
-	     "displayLabel": "Is the dveice connected to minimum 1Gbe network interface?",
-             "watermarkText": "Choose an option",
-             "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-		{
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-	    ],
-            "required": true
-        },
-	{
 	     "id": "Comply Certificates",
 	     "order": 400,
 	     "controlType": "dropdown",
