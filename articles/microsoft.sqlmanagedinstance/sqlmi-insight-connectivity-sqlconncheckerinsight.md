@@ -16,11 +16,11 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLMI_Connectivity"
 />
-# We ran diagnostics on your resource and could not found any failed logins
+# We ran diagnostics on your resource and could not find any failed logins
 
-## **We could not found any failed logins**
+## **We could not find any failed logins**
 <!--issueDescription-->
-We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we could not found any failed logins. It's possible that your connection attempts are not reaching our service.
+We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we could not find any failed logins. It's possible that your connection attempts are not reaching our service.
 <!--/issueDescription-->
 
 Running the **Azure SQL Connectivity Checker tool** may help to narrow down the potential causes of failure.
