@@ -6,7 +6,7 @@
     ms.author="raagyema"
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-connectivity-connectiondropped.md"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32731217"
     resourceTags=""
     productPesIds="17068"
