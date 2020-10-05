@@ -28,7 +28,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
 	   "watermarkText": "Please provide the publisher name",
-	   "required": flase
+	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
