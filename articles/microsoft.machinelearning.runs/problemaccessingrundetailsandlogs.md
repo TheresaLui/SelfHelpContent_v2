@@ -1,0 +1,15 @@
+<properties
+	pageTitle="Problem accessing run details and logs"
+	description="Problem accessing run details and logs"
+	infoBubbleText="Problem accessing run details and logs"
+	service="microsoft.machinelearning"
+	resource="runs"
+	authors="mx-iao"
+	ms.author="minxia"
+	supportTopicIds="32690885"
+	productPesIds="16644"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+	articleId="microsoft.machinelearning.runs.problemaccessingrundetailsandlogs"
+	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
+/>
