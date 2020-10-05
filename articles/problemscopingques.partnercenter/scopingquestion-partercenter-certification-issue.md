@@ -36,7 +36,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID.",
 	   "watermarkText": "In Partner Center select Settings then Developer settings.",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
