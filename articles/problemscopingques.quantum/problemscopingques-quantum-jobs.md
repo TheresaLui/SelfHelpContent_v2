@@ -14,8 +14,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Error relating to Azure Quantum Jobs",
     "fileAttachmentHint": "",
     "formElements": [
@@ -39,17 +39,17 @@
             "id": "az_quantum_job_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "If applicable, please share the Job Id(s) that this case relates to.",
+            "displayLabel": "Job Id(s) that this case relates to (if applicable)",
             "required": false
         },
         {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Description",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library, not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Provide additional information about your issue. If available, please include the full error message and any stack traces you are receiving."
         }
     ]
 }

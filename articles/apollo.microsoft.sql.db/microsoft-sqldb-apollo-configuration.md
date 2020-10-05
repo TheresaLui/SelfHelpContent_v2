@@ -3,7 +3,7 @@ pageTitle="Azure Active Directory Authentication"
 description="Azure Active Directory Authentication"
 ms.author="bernardm"
 displayOrder=""
-articleId="d2db3abb-c25b-4aba-99a4-8b8408d75558"
+articleId="88553c47-ab11-4e6c-a0b9-61ceb4053bd0"
 selfHelpType="Apollo"
 supportTopicIds="a9a24df2-159b-f313-6f4d-31a1bbdbb3bc"
 productPesIds="13491"
@@ -24,7 +24,7 @@ Please see the recommended video and documentation to address common Azure SQL A
 In the following video, you will learn how to configure Azure AD authentication and create users/logins in Azure SQL.
 
 <video>
-<src>https://youtu.be/IwpmLUpvTBA</src>
+<src>https://www.youtube.com/watch?v=IwpmLUpvTBA</src>
 <title>Azure Active Directory Authentication for Azure SQL</title>
 </video>
 

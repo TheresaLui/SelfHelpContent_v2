@@ -7,7 +7,7 @@
 	ms.author="a-nsehov"
 	authors="a-nsehov"
 	displayOrder=""
-	diagnosticScenario="SqlMIProvisioning_NotEnoughIpAddressesForScaling"
+	diagnosticScenario="SqlMIProvisioning"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
