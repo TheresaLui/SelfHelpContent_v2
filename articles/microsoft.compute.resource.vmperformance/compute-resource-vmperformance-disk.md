@@ -23,7 +23,7 @@ Azure virtual machines have IOPS and throughput performance limits based on the 
 
 If you are experiencing issues with disk performance please review our guidance on [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows).
 
-**Detection: If you are unaware of the process driving disk consumption, for Windows virtual machines you can [run PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/performanceDiagnostics)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for storage analysis.
+**Detection: If you are unaware of the process driving disk consumption, for Windows virtual machines you can [run PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for storage analysis.
 
 You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) and run it in your virtual machine. 
 
@@ -41,7 +41,7 @@ You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-ma
 
 ## **Recommended Documents**
 
-* [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/linux/disk-performance-windows)
+* [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows)
 * [Benchmarking disks in Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/disks-benchmarks)
 * [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
 * [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)

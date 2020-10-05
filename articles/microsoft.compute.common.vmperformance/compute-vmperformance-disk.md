@@ -38,7 +38,7 @@ If you are experiencing issues with disk performance please review our guidance 
 
 ## **Recommended Documents**
 
-* [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/linux/disk-performance-windows)
+* [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows)
 * [Benchmarking disks in Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/disks-benchmarks)
 * [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
 * [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
