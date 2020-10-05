@@ -29,10 +29,10 @@
             "required": true
         },
 	{
-	     "id": "Verify Certificates",
+	     "id": "Device Connected",
 	     "order": 200,
 	     "controlType": "dropdown",
-	     "displayLabel": "If you are using device certificate make sure, the certificate is valid and not expired.",
+	     "displayLabel": is the device is capable of reaching to internet? Check this on the diagnostic tests page",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -40,12 +40,12 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "dont_know_answer",
-                    "text": "Do not know"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
-                    "value": "already_done",
-                    "text": "Have already done"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
 	    ],
             "required": true
