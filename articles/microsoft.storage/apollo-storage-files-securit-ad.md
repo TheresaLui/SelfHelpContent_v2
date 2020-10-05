@@ -25,15 +25,15 @@ Azure Files supports identity-based authentication over Server Message Block (
 3. Set up the [AD DS authentication for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable/)
 4. Watch this video on enabling AD DS authentication for Azure Files with private endpoints and DNS forwarding:
 
-<video>
-<src>https://sec.ch9.ms/ch9/3358/0addac01-3606-4e30-ad7b-f195f3ab3358/ITOpsTalkAzureFiles_high.mp4</src>
-<title>Step by Step Video for enabling Files AD DS Authentication with private endpoints</title>
-</video>
+	<video>
+	<src>https://sec.ch9.ms/ch9/3358/0addac01-3606-4e30-ad7b-f195f3ab3358/ITOpsTalkAzureFiles_high.mp4</src>
+	<title>Step by Step Video for enabling Files AD DS Authentication with private endpoints</title>
+	</video>
 
 5. Enable AD DS authentication for Azure files with [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/create-file-share/):
 
-<video>
-<src>https://www.youtube.com/watch?v=9S5A1IJqfOQ</src>
-<title>Step by Step Video for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
-</video>
+	<video>
+	<src>https://www.youtube.com/watch?v=9S5A1IJqfOQ</src>
+	<title>Step by Step Video for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
+	</video>
 
