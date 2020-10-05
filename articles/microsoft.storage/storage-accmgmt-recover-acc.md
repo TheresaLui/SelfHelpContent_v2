@@ -20,6 +20,8 @@
 
 ## **Recommended Steps**
 
+You can initiate the recovery of a storage account here: \[Recover storage account\](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId). Please note that certain conditions need to be met for a storage account to be recoverable. The conditions that are necessary for a storage account or storage account data to be recoverable are laid out below.
+
 Storage resource recovery is only possible if **a new storage object with the same name has not be re-created since** and if the following conditions are true.
 
 **Resource group** recovery:
@@ -28,16 +30,15 @@ We can only attempt to recover deleted storage accounts within the resource grou
 
 **Storage account** recovery:
 
-- The storage account was deleted in the last 14 days
-
+- The storage account was deleted in the last 14 days.
 
 **Container** recovery:
 
-1. The container was deleted in the last 14 days<br> 
+1. The container was deleted in the last 14 days<br>
 2. Storage account replication is configured as one of the following (we need the geo-replicated data for recovery):
    * [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs)
    * [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage)
-   * [Geo-zone-redundant storage (GZRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) 
+   * [Geo-zone-redundant storage (GZRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
 
 **Blob and disk** recovery:
 
