@@ -27,30 +27,30 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 2,
 	   "controlType": "textbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
 	   "order": 3,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
 	   "id": "pc_isv_offer_type",
 	   "order": 4,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -125,7 +125,7 @@
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
@@ -133,7 +133,7 @@
 	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
@@ -141,7 +141,7 @@
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
