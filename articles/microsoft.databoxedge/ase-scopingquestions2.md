@@ -96,6 +96,10 @@
                     "value": "No",
                     "text": "No"
                 },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
 	    ],
             "required": true
         },
@@ -113,9 +117,9 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
 	    ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
