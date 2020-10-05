@@ -16,8 +16,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "SQL Database Managed Instance",
     "fileAttachmentHint": "",
     "diagnosticCard": {
