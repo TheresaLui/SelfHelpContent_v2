@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Scoping Questions for Azure Stack Edge ports and activation"
-	description="Scoping Questions for Azure Stack Edge ports and activation"
+	pageTitle="Scoping Questions for Azure Stack Edge Ports"
+	description="Scoping Questions for Azure Stack Edge Ports"
 	authors="hadhand"
 	ms.author="hadhand"
 	authoralias="hadhand"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32745980, 32745975, 32745971"
 	productPesIds="16597"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, mooncake, blackforest, usnat, ussec"
 	schemaVersion="1"
-	articleId="PortsactivationScopingQuesASE"
+	articleId="PortsScopingQuesASE"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
