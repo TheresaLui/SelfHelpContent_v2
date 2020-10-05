@@ -28,11 +28,11 @@
             "displayLabel": "When was the problem first observed?",
             "required": true
         },
-        {
-	     "id": "Device Connected",
+	{
+	     "id": "Verify Certificates",
 	     "order": 200,
 	     "controlType": "dropdown",
-	     "displayLabel": is the device is capable of reaching to internet? Check this on the diagnostic tests page",
+	     "displayLabel": "If you are using device certificate make sure, the certificate is valid and not expired.",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -40,55 +40,59 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "dont_know_answer",
+                    "text": "Do not know"
                 },
                 {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "value": "already_done",
+                    "text": "Have already done"
                 }
 	    ],
             "required": true
         },
 	{
-	     "id": "Connected",
+	     "id": "BYOC",
 	     "order": 300,
 	     "controlType": "dropdown",
-	     "displayLabel": "Is the dveice connected to minimum 1Gbe network interface?",
+	     "displayLabel": "In case of BYOC, then make sure we are having the signing root certificate along with rest of the certificates",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
                     "value": "Yes",
                     "text": "Yes"
                 },
-                {
+		{
                     "value": "No",
                     "text": "No"
                 },
-		{
+                {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": "Do not know"
                 }
 	    ],
             "required": true
         },
 	{
-	     "id": "Network",
+	     "id": "Comply Certificates",
 	     "order": 400,
 	     "controlType": "dropdown",
-	     "displayLabel": " Are we using a network switch to connect or connecting directly from Laptop to the device?",
+	     "displayLabel": " Comply with the format of the certificates which needs to be uploaded?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
-                    "value": "Network_Switch",
-                    "text": "Network Switch"
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+		{
+                    "value": "No",
+                    "text": "No"
                 },
                 {
-                    "value": "Direct_laptop",
-                    "text": "Direct from laptop"
+                    "value": "dont_know_answer",
+                    "text": "Do not know"
                 }
 	    ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -103,7 +107,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-deploy-connect-setup-activate'>Learn more</a> about Azure Stack Edge Setup"
+            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-connect-powershell-interface#upload-certificate'>Learn more</a> about Azure Stack Edge Certificates"
         }
 	],
 	"$schema": "SelfHelpContent"
