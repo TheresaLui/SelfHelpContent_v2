@@ -13,7 +13,6 @@
 />
 
 # Enabling AD DS Authentication for Azure Files
-
 ## Enable AD DS authentication for Azure Files and Windows Virtual Desktop
 
 :::Section Recommended Solution:::
