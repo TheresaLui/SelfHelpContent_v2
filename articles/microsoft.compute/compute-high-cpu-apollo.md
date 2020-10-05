@@ -10,7 +10,7 @@
     articleId="024da352-807e-475b-b8ae-68f42be8d2b6"
     selfHelpType="Apollo"
     supportTopicIds="8b618100-f5cd-7ad5-1c69-72aaf37d801d, 5a5377ad-0f05-a3ba-d25e-98346a3f74df"
-    productPesIds="14749"
+    productPesIds="14749, 15571"
     resourceTags="windows"
     cloudEnvironments="public"
     ownershipId="Compute_VirtualMachines_Content"
