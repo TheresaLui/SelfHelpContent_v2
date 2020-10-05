@@ -18,14 +18,16 @@
 />
 # We ran diagnostics on your resource and could not found any failed logins
 
-## **We ran diagnostics on your resource and could not found any failed logins**
+## **We could not found any failed logins**
 <!--issueDescription-->
 We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we could not found any failed logins. It's possible that your connection attempts are not reaching our service.
 <!--/issueDescription-->
 
+Running the **Azure SQL Connectivity Checker tool** may help to narrow down the potential causes of failure.
+
 ## **Recommended Steps**
 
-Running the **Azure SQL Connectivity Checker tool** may help to narrow down the potential causes of failure. This Powershell script is run from the client machine where the error is occurring.
+This Powershell script is run from the client machine where the error is occurring.
 
 <ol>
 <li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li><br>
