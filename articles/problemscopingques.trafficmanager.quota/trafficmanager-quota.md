@@ -1,3 +1,18 @@
+<properties
+    pageTitle="Traffic Manager Quota"
+    description="Traffic Manager Quota"
+    authors="anchou"
+    ms.author="anchou"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds=""
+    productPesIds=""
+    cloudEnvironments="public, fairfax, mooncake, blackforest, usnat, ussec"
+    schemaVersion="1"
+    articleId="problemscopingques-trafficmanager-quota"
+    ownershipId="CloudNet_TrafficManager"
+/>
+# TrafficManager Quota Questions
+---
 {
 	"$schema": "SelfHelpContent",
 	"subscriptionRequired": true,
@@ -64,3 +79,4 @@
 		}
 	]
 }
+---
