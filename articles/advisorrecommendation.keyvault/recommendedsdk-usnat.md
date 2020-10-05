@@ -38,7 +38,7 @@
 	"description": "Update Key Vault SDK Version",
 	"longDescription": "New Key Vault Client Libraries are split to keys, secrets, and certificates SDKs, which are integrated with recommended Azure Identity library to provide seamless authentication to Key Vault across all languages and environments. It also contains several performance fixes to issues reported by customers and proactively identified through our QA process.",
 	"potentialBenefits": "Latest Key Vault Client Libraries contain fixes for known issues and additional improvements.",
-	"supportedSDKLanguages": [".Net","ManagementPlaneSdk"],
+	"supportedSDKLanguages": [".Net"],
 	"actions": [{
 			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
 			"description": "Learn how to update your Key Vault Client Libraries",
