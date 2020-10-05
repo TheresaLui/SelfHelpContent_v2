@@ -33,7 +33,7 @@ The below set of articles and videos focus on configuring AD DS Authentication w
 * Enable AD DS authentication for Azure files with [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/create-file-share/):
 
 <video>
-<src>https://www.youtube.com/embed/9S5A1IJqfOQ</src>
+<src>https://www.youtube.com/watch?v=9S5A1IJqfOQ</src>
 <title>Step by Step Video for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
 </video>
 
