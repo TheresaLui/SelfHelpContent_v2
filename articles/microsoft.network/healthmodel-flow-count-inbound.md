@@ -1,31 +1,30 @@
 <properties
-pageTitle="Inbound Flow Limit Exceeded"
-description="VM network interface is dropping some inbound connections due to the number of flows exceeding the 500K flow limit"
+pageTitle="High Inbound Connection/Flow Count"
+description="High inbound connection/flow count may result in degraded performance."
 infoBubbleText="Issues with VM network interface were detected. See details on the right."
 service="microsoft.network"
 resource="virtualmachines"
 authors="dbrumley"
 ms.author="dbrumley"
 displayOrder=""
-articleId="HealthModelFlowLimitInbound"
+articleId="HealthModelFlowCountInbound"
 diagnosticScenario="VmNetworkHealthInsights"
 selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,Fairfax,Mooncake,Blackforest, usnat, ussec"
+cloudEnvironments="Public,Fairfax,Mooncake,Blackforest"
 ownershipId="CloudNet_PhyNet"
 />
 
 # We found an issue with the network interface on this VM
 <!--issueDescription-->
-Microsoft Azure has identified an issue with your VM, **<!--$vmname-->[vmname]<!--/$vmname-->**.  Some inbound connections are being dropped due to 500K flow limit exceeded on the network interface.
+Microsoft Azure has identified an issue with your VM, **<!--$vmname-->[vmname]<!--/$vmname-->**.  High inbound connection/flow count may result in degraded performance.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-The most likely cause of excessive flows is a customer vulnerability scanning tool that is performing port scanning for open or vulnerable ports on this VM.  If a scanning tool scans all destination ports on the network interface and uses a different source port for each connection, then the total number of flows could exceed the 500K limit.
-
+The most likely cause of excessive flows is a customer vulnerability scanning tool that is performing port scanning for open or vulnerable ports on this VM.  If a scanning tool scans all destination ports on the network interface and uses a different source port for each connection, then high connection/flow count can result.
 If you are running a vulnerability scanning tool, try disabling it for this VM.  If that resolves the problem, work with the vendor of the vulnerability scanning tool to reduce the number of different source ports used for inbound connections. 
 
 If you are NOT running a vulnerability scanning tool, or disabling it does not resolve the problem, then try these additional steps:
