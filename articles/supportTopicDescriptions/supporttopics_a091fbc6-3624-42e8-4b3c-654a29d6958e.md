@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aed23860-68c5-0968-64fe-fcc4431dd9ba",
+      "longDescription": "",
+      "shortDescription": "Issue during download of file manifest (BOM) after data copy to device is complete ",
+      "searchTags": "BOM;copy log",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af639f2b-35ca-19c8-680a-a7119ef0def3",
       "longDescription": "",
       "shortDescription": "Disk not detected or recognized when using USB 3.x port or due to inadequate power support",

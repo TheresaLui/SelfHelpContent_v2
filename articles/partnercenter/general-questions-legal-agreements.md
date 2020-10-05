@@ -33,7 +33,7 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 1. Inform global administrators in your organization to review the Microsoft Partner Agreement 
 2. Accept the Microsoft Partner Agreement on the [CSP Overview page on Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) Program Info or the banner notification on the CSP Overview page.
 3. Use the [API to verify your Indirect Reseller’s signing status](https://docs.microsoft.com/partner-center/develop/verify-indirect-reseller-mpa-status)
-4. Assist your Indirect Resellers with completing their actions below
+4. Review the [Indirect Reseller agreement](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4DM1R) and assist your Indirect Resellers with completing their actions below
 
 **Actions for Indirect Resellers**
 1. [Onboard to Partner Center](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) as an Indirect Reseller and accept the Microsoft Partner Agreement as part of the onboarding process
@@ -41,6 +41,7 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 
 ## **Recommended Documents**
 
+* [Microsoft Partner Agreement FAQ](https://partner.microsoft.com/resources/detail/microsoft-partner-agreement-faq-pdf)
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
 

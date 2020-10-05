@@ -17,6 +17,18 @@
 
 # Diagnose and resolve execution issues
 
+## **Recommended Steps**
+
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
+* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
+    - You can either disable Credential Passthrough for this HC cluster
+    - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
+
 ## **Recommended Documents**
 
 * How to connect to data sources from Azure Databricks:
@@ -38,3 +50,9 @@
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
+    
+* Databricks **Performance Tuning**:
+	* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
+	* [Optimizing Apache Spark SQL Joins](https://databricks.com/session/optimizing-apache-spark-sql-joins)
+	* [Correctness and Performance of Apache Spark SQL](https://databricks.com/session/a-framework-for-evaluating-the-performance-and-the-correctness-of-the-spark-sql-engine)
+	* [Delta Engine Optimization](https://docs.microsoft.com/azure/databricks/delta/optimizations/)

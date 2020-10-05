@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Your cluster was updating."
-    description="Your cluster was updating."
-    infoBubbleText="Your cluster was updating."
+    pageTitle="Your cluster was updating. You may see this message if you created your cluster for the first time or if there is a routine update on your cluster."
+    description="Your cluster was updating. You may see this message if you created your cluster for the first time or if there is a routine update on your cluster."
+    infoBubbleText="Your cluster was updating. You may see this message if you created your cluster for the first time or if there is a routine update on your cluster."
     service="Microsoft.ContainerService"
     resource="managedClusters"
     authors="stephbaron"
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your AKS Cluster resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-Your cluster was updating. 
+Your cluster was updating. You may see this message if you created your cluster for the first time or if there is a routine update on your cluster. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

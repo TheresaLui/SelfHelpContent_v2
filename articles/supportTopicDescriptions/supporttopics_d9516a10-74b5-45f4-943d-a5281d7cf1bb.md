@@ -441,6 +441,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66142d93-1d96-4f44-3e6e-8652e0db2184",
+      "longDescription": "",
+      "shortDescription": "Requesting enabling changefeed for Mongo DB API accounts",
+      "searchTags": "mongo;mongodb;changefeed;change feed",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6729d7fe-ea40-441c-9c1a-62d7372c7c60",
       "longDescription": "",
       "shortDescription": "Using Azure Functions triggers for Cosmos DB",
@@ -502,6 +510,14 @@
       "shortDescription": "How to create Stored Procedures, requirement for using Stored Procedures or if Stored Procedures are not behaving as expected",
       "searchTags": "sproc, stored procedure",
       "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "81c0ddce-14a2-3b90-9639-4ac12f8013b9",
+      "longDescription": "",
+      "shortDescription": "Issues with changing backup interval and retention period",
+      "searchTags": "backup;retention;retention policy;restore",
+      "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1022,6 +1038,14 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f77570c2-38eb-eb0f-7edc-bf074167390c",
+      "longDescription": "",
+      "shortDescription": "Issues with Cosmos DB partitioning",
+      "searchTags": "partition;partitioning",
+      "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
     {
