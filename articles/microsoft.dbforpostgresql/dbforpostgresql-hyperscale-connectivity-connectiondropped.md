@@ -2,7 +2,7 @@
     pageTitle="Connection dropped on Azure Database for PostgreSQL - Hyperscale (Citus)"
     description="Connection dropped on Azure Database for PostgreSQL - Hyperscale (Citus)"
     service="microsoft.dbforpostgresql"
-    resource="serverGroups"
+    resource=""
     ms.author="raagyema"
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-connectivity-connectiondropped.md"
