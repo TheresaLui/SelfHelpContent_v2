@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Scoping Questions for Azure Stack Edge Compute Runtime error"
-	description="Scoping Questions for Azure Stack Edge Runtime error"
+	pageTitle="Scoping Questions for Azure Stack Edge RunTime"
+	description="Scoping Questions for Azure Stack Edge RunTime"
 	authors="hadhand"
 	ms.author="hadhand"
 	authoralias="hadhand"
@@ -9,7 +9,7 @@
 	productPesIds="16597"
 	cloudEnvironments="public, Fairfax, mooncake, blackforest, usnat, ussec"
 	schemaVersion="1"
-	articleId="RunTimeScopingQuesASE"
+	articleId="ComputeScopingQuesASE"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
@@ -49,26 +49,26 @@
                 }
 	    ],
             "required": true
-        },	
+        },
 	{
 	     "id": "Runtime Status",
 	     "order": 300,
 	     "controlType": "dropdown",
-	     "displayLabel": "What is the runtime status of the Modules? "Running" or "BackOff"?",
+	     "displayLabel": "What is the runtime status of the Modules- Running or BackOff?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
                     "value": "Running",
                     "text": "Running"
                 },
-                {
+		{
                     "value": "Backoff",
                     "text": "Backoff"
-                }
-		{
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Do not know"
-                }  
+                }
 	    ],
             "required": true
         },
@@ -93,8 +93,8 @@
                 }
 	    ],
             "required": true
-        },   
-	{
+        },
+        {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
