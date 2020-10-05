@@ -25,7 +25,10 @@ If you are running into issues creating, updating or deleting metric alert rules
 
 **Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource, and will start showing data **only** after creating an alert rule that monitors them. To do so, follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
 
-2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time)
+2. If you’re looking to alert on a specific metric but can’t see it when creating an alert rule, check the following:
+	* If you can't see any metrics for the resource, [check if the resource type is supported for metric alerts](./alerts-metric-near-real-time.md).
+	* If you can see some metrics for the resource, but can’t find a specific metric, [check if that metric is available](./metrics-supported.md), and if so, see the metric description to check if it’s only available in specific versions or editions of the resource.
+	* If the metric isn't available for the resource, it might be available in the resource logs, and can be monitored using log alerts. See here for more information on how to [collect and analyze resource logs from an Azure resource](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-resource-logs).
 
 3. If you are looking to alert on a custom metric, but that metric isn't reported yet, please see how to [define an alert rule on a custom metric that isn't emitted yet](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric#define-an-alert-rule-on-a-custom-metric-that-isnt-emitted-yet)
 
