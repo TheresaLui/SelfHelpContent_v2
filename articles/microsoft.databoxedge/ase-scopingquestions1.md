@@ -51,23 +51,23 @@
             "required": true
         },
 	{
-	     "id": "BYOC",
+	     "id": "Connected",
 	     "order": 300,
 	     "controlType": "dropdown",
-	     "displayLabel": "In case of BYOC, then make sure we are having the signing root certificate along with rest of the certificates",
+	     "displayLabel": "Is the dveice connected to minimum 1Gbe network interface?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
                     "value": "Yes",
                     "text": "Yes"
                 },
-		{
+                {
                     "value": "No",
                     "text": "No"
                 },
-                {
+		{
                     "value": "dont_know_answer",
-                    "text": "Do not know"
+                    "text": "Other, don't know or not applicable"
                 }
 	    ],
             "required": true
