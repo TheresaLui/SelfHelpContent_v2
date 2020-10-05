@@ -1,23 +1,22 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="Cluster Upgrade Stuck"
+	description="Cluster Upgrade Stuck"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690991, 32690995, 32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
-32690984, 32690996, 32690982, 32690993"
+	supportTopicIds="32690995, 32690989"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-cluster-upgrade-stuck"
 	ownershipId="Compute_ServiceFabric"
 />
-# ARM Templates
+# Cluster Upgrade Stuck
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ARM Templates",
+    "title": "Cluster Upgrade Stuck",
     "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
     "formElements": [{
 			"id": "problem_start_time",
@@ -34,6 +33,14 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
+		},
+        {
+			"id": "application_errors",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Were any applications in error state when the cluster upgrade started? If so, please provide the names of the applications.",
+			"required": false
 		}
 	],
     "$schema": "SelfHelpContent"

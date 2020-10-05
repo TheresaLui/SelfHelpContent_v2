@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Application Errors and Exceptions"
-	description="Application Errors and Exceptions"
+	pageTitle="AAD"
+	description="AAD Configuration"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608950"
+	supportTopicIds="32608940"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-errors-and-exceptions-sf"
+	articleId="problemscopingques-aad"
 	ownershipId="Compute_ServiceFabric"
 />
-# Application Errors and Exceptions
+# AAD Configuration
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Errors and Exceptions",
+    "title": "AAD Configuration",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -34,19 +34,11 @@
 			"useAsAdditionalDetails": true
 		},
         {
-            "id": "application_name",
+            "id": "failure_reason",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Application Name",
-            "watermarkText": "Provide the name of the application.",
-            "required": false
-        },
-        {
-            "id": "error_message",
-            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Error Message",
-            "watermarkText": "What is the exact error or exception message?",
+            "displayLabel": "Authentication Failure",
+            "watermarkText": "Provide any error codes that appear when trying to access your cluster resource through AAD.",
             "required": false
         }
 	],

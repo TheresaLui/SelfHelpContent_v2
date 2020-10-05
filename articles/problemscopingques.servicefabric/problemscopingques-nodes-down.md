@@ -1,22 +1,23 @@
 <properties
-	pageTitle="Application Errors and Exceptions"
-	description="Application Errors and Exceptions"
+	pageTitle="Cluster nodes down or stuck in disabling"
+	description="Cluster nodes down or stuck in disabling"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608950"
+	supportTopicIds="32690985, 32690986"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-errors-and-exceptions-sf"
+	articleId="problemscopingques-nodes-down"
 	ownershipId="Compute_ServiceFabric"
 />
-# Application Errors and Exceptions
+# Cluster nodes down or stuck in disabling
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Errors and Exceptions",
+    "title": "Cluster nodes down or stuck in disabling",
+    "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -34,21 +35,13 @@
 			"useAsAdditionalDetails": true
 		},
         {
-            "id": "application_name",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Application Name",
-            "watermarkText": "Provide the name of the application.",
-            "required": false
-        },
-        {
-            "id": "error_message",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Error Message",
-            "watermarkText": "What is the exact error or exception message?",
-            "required": false
-        }
+			"id": "disabling_steps",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "If you were trying to disable the node, please list the steps that were taken to disable the node.",
+			"required": false
+		}
 	],
     "$schema": "SelfHelpContent"
 }
