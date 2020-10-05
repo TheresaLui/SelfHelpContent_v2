@@ -138,7 +138,6 @@
        },
        {
 	   "id": "additional_email_for_notification",
-       "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
