@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c0786500-c20c-26ec-9074-19f5f12da362",
+      "longDescription": "",
+      "shortDescription": "Diagnosing any blocked ports on the firewall and access to Azure status page",
+      "searchTags": "Heartbeat;Firewall;Blocked Ports",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6931a9b-a075-640b-4c84-4d07e851043e",
       "longDescription": "",
       "shortDescription": "Guidance on using StorSimple monitoring indicators to identify the faulty LEDs",
