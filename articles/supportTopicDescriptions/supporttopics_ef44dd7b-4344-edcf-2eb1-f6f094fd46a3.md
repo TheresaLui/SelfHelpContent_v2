@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle"
+  ms.author="anvar, panshar, adoyle, deseelam"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -73,7 +73,7 @@
       "id": "2547e8ff-ab92-dcb6-7f85-9b451aa5d5e5",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
-      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "searchTags": "connectivity with Azure VM;unable to connect;VM does not boot;unable to SSH;unable to RDP",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
