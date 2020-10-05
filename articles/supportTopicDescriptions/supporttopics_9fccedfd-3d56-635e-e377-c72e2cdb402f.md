@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80b82b5f-48d3-40e6-f4fc-885b647b7cf6",
+      "longDescription": "",
+      "shortDescription": "Managing StorSimple Device password and password expiration alerts",
+      "searchTags": "Password;Alert",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81a6342f-a97c-b038-4dbb-0be4ffa8aba8",
       "longDescription": "",
       "shortDescription": "Synchronize access key of your storage account and diagnose validity of storage account credentials and SSL certificate",
