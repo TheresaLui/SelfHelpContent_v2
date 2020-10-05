@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4b201a2-c076-197e-c1a7-e59f1c32cf44",
+      "longDescription": "",
+      "shortDescription": "Issues related to Hyper-V replication provider",
+      "searchTags": "Hyper-V host migration",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
       "shortDescription": "Issues encountered when users hit stop replication",
