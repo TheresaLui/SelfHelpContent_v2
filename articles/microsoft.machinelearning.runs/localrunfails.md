@@ -3,7 +3,7 @@
 	description="Local run fails"
 	infoBubbleText="Local run fails"
 	service="microsoft.machinelearning"
-	resource="environments"
+	resource="runs"
 	authors="mx-iao"
 	ms.author="minxia"
 	supportTopicIds="32755219"
