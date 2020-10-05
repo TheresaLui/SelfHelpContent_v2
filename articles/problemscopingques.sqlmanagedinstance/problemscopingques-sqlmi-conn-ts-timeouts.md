@@ -20,6 +20,11 @@
     "resourceRequired": false,
     "title": "SQL Database Managed Instance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL MI Connectivity Troubleshooter",
+        "description": "Our SQL MI Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,7 +32,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_end_time",
@@ -35,7 +41,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "source",
