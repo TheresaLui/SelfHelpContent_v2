@@ -1,12 +1,12 @@
 <properties
-	articleId="problemscopingques-sqlmi-conn-config-drivers"
+	articleId="problemscopingques-sqlmi-conn-ts-dropped"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions to capture driver related issues"
 	authors="vitomaz-msft,MladjoA"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32746112"
+	supportTopicIds="32746121"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -16,21 +16,37 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "SQL Database Managed Instance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL MI Connectivity Troubleshooter",
+        "description": "Our SQL MI Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "driver_name",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Driver or tool you are experiencing issues with?",
             "watermarkText": "Choose an option",
@@ -76,7 +92,7 @@
         },
         {
             "id": "driver_version",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Version of the driver or tool?",
             "watermarkText": "Provide the version of your driver/tool",
