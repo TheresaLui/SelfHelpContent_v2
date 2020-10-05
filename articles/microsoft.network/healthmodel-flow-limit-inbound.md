@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,Fairfax,Mooncake,Blackforest, usnat, ussec"
-ownershipId="CloudNet_VirtualNetwork"
+ownershipId="CloudNet_PhyNet"
 />
 
 # We found an issue with the network interface on this VM
