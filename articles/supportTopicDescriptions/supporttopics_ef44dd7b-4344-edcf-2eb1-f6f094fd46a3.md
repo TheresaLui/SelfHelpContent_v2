@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e218177a-92e4-c9a0-2273-f52ee7426379",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
