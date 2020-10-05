@@ -166,8 +166,16 @@
 	   "required": false
        },
        {
-	   "id": "pc_isv_offer_d365",
+	   "id": "pc_isv_offer_id",
 	   "order": 8,
+	   "controlType": "textbox",
+	   "displayLabel": "Offer ID",
+	   "watermarkText": "Please provide the Offer ID",
+	   "required": false
+       },
+       {
+	   "id": "pc_isv_offer_d365",
+	   "order": 9,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is Offer D365 type?",
        "watermarkText":"Choose from below",
@@ -184,7 +192,7 @@
        },
        {
 	   "id": "pc_isv_d365offer_true",
-	   "order": 9,
+	   "order": 10,
 	   "controlType": "textbox",
 	   "displayLabel": "If Offer is D365 type, please provide the Environment Name and Environment Type",
 	   "watermarkText": "Environment Name; Environment Type",
@@ -192,7 +200,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 10,
+	   "order": 11,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Time",
 	   "watermarkText": "When did your issue begin?",
@@ -200,7 +208,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 11,
+	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
