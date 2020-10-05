@@ -28,7 +28,7 @@
             "displayLabel": "When was the problem first observed?",
             "required": true
         },
-        {
+	{
 	     "id": "Device Connected",
 	     "order": 200,
 	     "controlType": "dropdown",
@@ -103,7 +103,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-deploy-connect-setup-activate'>Learn more</a> about Azure Stack Edge Setup"
+            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-connect-powershell-interface#upload-certificate'>Learn more</a> about Azure Stack Edge Certificates"
         }
 	],
 	"$schema": "SelfHelpContent"
