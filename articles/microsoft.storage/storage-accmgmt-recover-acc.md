@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-You can initiate the recovery of a storage account here: [Recover storage account](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId). Please note that certain conditions need to be met for a storage account to be recoverable. The conditions that are necessary for a storage account or storage account data to be recoverable are laid out below.
+You can initiate the recovery of a storage account here: [Recover a deleted storage account](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId). Please note that certain conditions need to be met for a storage account to be recoverable. The conditions that are necessary for a storage account or storage account data to be recoverable are laid out below.
 
 Storage resource recovery is only possible if **a new storage object with the same name has not be re-created since** and if the following conditions are true.
 
