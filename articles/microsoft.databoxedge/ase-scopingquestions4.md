@@ -9,7 +9,7 @@
 	productPesIds="16597"
 	cloudEnvironments="public, Fairfax, mooncake, blackforest, usnat, ussec"
 	schemaVersion="1"
-	articleId="SharesScopingQuesASE"
+	articleId="ComputeScopingQuesASE"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
@@ -40,7 +40,7 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "Do_not_know",
+                    "value": "dont_know_answer",
                     "text": "Do not know"
                 },
                 {
@@ -66,7 +66,7 @@
                     "text": "No"
                 },
                 {
-                    "value": "Do_not_know",
+                    "value": "dont_know_answer",
                     "text": "Do not know"
                 }
 	    ],
