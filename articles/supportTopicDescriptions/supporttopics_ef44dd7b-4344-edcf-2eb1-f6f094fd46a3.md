@@ -486,6 +486,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fa449d99-9897-5baf-c5d4-30df863e3c5f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "Physical to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
       "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
