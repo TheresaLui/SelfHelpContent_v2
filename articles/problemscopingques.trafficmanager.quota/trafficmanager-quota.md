@@ -5,7 +5,7 @@
     ms.author="anchou"
     selfHelpType="problemScopingQuestions"
     supportTopicIds=""
-    productPesIds="15621"
+    productPesIds=""
     cloudEnvironments="public, fairfax, mooncake, blackforest, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-trafficmanager-quota"
@@ -29,7 +29,6 @@
 			"watermarkText": null,
 			"required": "true",
 			"filter": false,
-			"includeInQuotaSummary": true,
 			"infoBalloonText": "info balloon",
 			"dropdownOptions": [
 				{
@@ -60,7 +59,6 @@
 					"value": 1000
 				}
 			],
-			"isNewQuotaLimit": true
 		},
 		{
 			"id": "business_justification",
