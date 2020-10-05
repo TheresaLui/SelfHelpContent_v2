@@ -33,7 +33,7 @@
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 2,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID.",
 	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": false
@@ -41,7 +41,7 @@
        {
 	   "id": "pc_isv_seller_id",
 	   "order": 3,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID.",
 	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": true
@@ -123,10 +123,10 @@
        {
 	   "id": "pc_isv_offer_id",
 	   "order": 5,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID.",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_name",
@@ -138,7 +138,6 @@
        },
        {
 	   "id": "additional_email_for_notification",
-       "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
