@@ -51,6 +51,28 @@
             "required": true
         },
 	{
+	     "id": "BYOC",
+	     "order": 300,
+	     "controlType": "dropdown",
+	     "displayLabel": "In case of BYOC, then make sure we are having the signing root certificate along with rest of the certificates",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+		{
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Do not know"
+                }
+	    ],
+            "required": true
+        },
+	{
 	     "id": "Comply Certificates",
 	     "order": 400,
 	     "controlType": "dropdown",
