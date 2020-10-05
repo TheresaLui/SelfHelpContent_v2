@@ -4,7 +4,7 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690985, 32690986d"
+	supportTopicIds="32690985, 32690986"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
