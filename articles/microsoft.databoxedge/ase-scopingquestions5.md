@@ -9,7 +9,7 @@
 	productPesIds="16597"
 	cloudEnvironments="public, Fairfax, mooncake, blackforest, usnat, ussec"
 	schemaVersion="1"
-	articleId="ComputeScopingQuesASE"
+	articleId="RuntimeScopingQuesASE"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
