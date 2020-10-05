@@ -11,15 +11,18 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="f59f4496-7d53-4e1f-9adf-9c151dc2322f"
+	articleId="f59f4496-7d53-4e1f-9adf-9c151dcaaaaa"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Jobs not fully initialized or service is temporarily unavailable
 
 If customer gets exception message similar to:
-*'Jobs not fully initialized yet. Please retry later.'*
-*'The service at /api/2.0/clusters/start is temporarily unavailable.'*
+
+```
+Jobs not fully initialized yet. Please retry later.
+The service at /api/2.0/clusters/start is temporarily unavailable.
+```
 
 Issue could be due to:
 

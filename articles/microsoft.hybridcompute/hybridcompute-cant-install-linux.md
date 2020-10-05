@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Azure Arc for Servers General Troubleshooting"
+  pagetitle="Azure Arc for Servers General Troubleshooting&#xD;"
   service="microsoft.hybridcompute"
   resource="machines"
   ms.author="t-juwa"
   selfhelptype="Generic"
-  supporttopicids="32689165,32689166"
+  supporttopicids="32689165,32689166,32689162"
   resourcetags=""
   productpesids="16872"
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"

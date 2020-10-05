@@ -3,7 +3,7 @@
     description="Update AKS Service Principal"
     authors="jakepearson"
     ms.author="jopears"
-    articleId="f1b8daef-d5f7-443d-ba7a-fa4f072829a4"
+    articleId="f1b8daef-d5f7-443d-ba7a-fa4f072829a4_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"

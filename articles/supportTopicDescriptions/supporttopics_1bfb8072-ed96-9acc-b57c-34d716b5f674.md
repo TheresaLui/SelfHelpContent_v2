@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a1b4f582-317a-0e47-50b0-c99432f7e79d",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with configuring IIS logs collection within Log Analytics workspace.",
+      "searchTags": "IIS;IIS logs;Workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
       "longDescription": "",
       "shortDescription": "Issues related with Log Search Alerts",
