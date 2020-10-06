@@ -24,8 +24,8 @@ For interactive logging and logging metrics in remote runs using the Azure ML lo
 #### Metric Document is too large
 Azure Machine Learning has internal limits on the size of metric objects that can be logged at once from a training run. If you encounter a "Metric Document is too large" error when logging a list-valued metric, try splitting the list into smaller chunks, for example:
 
-```python
 
+```python
 run.log_list("my metric name", my_metric[:N])
 run.log_list("my metric name", my_metric[N:])
 ```
