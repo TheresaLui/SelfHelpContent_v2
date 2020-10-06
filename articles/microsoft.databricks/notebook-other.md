@@ -30,8 +30,13 @@
 	
 * Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
 
+* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
+    - You can either disable Credential Passthrough for this HC cluster
+    - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
+
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [Common Errors in Notebooks](https://kb.databricks.com/notebooks/common-errors-in-notebooks.html)
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
 	* Standard clusters in both Scala and Python

@@ -6,7 +6,7 @@
     articleId="53c3a9f6-baa8-4997-b5a5-a3b5d3347afe_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureOptimizationAutomation_AORec"
+	ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "da4d47d5-b48b-4308-93bc-29d954424e76",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
+    "schemaVersion": 2.1,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_ScaleClusterReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -85,10 +85,6 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
     {
       "name": "currentConfig",
       "title": "Current Configuration"

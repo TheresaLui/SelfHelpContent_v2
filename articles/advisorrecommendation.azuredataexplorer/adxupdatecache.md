@@ -6,7 +6,7 @@
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureOptimizationAutomation_AORec"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
@@ -102,6 +102,6 @@
       "title": "Observation Window"
     }
   ],
-  "costSavingInfo": "*Adjusting the cache policy will enable you to optimize your cluster node count which will result cost savings. Your actual savings may vary."
+  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
 }
 ---

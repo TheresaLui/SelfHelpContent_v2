@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="06ad499a-0952-48d3-b061-ec81c9cabb8b_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USNat,USSec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy PostgreSQL DB Reserved capacity to save money over pay-as-you-go costs

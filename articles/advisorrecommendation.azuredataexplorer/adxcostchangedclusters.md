@@ -6,7 +6,7 @@
     articleId="567187Ba-1bdd-4dd8-ab70-6d494190df58_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureOptimizationAutomation_AORec"
+	ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
+    "schemaVersion": 2.1,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_CostChangedReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -85,10 +85,6 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
     {
       "name": "currentConfig",
       "title": "Current Configuration"
@@ -106,6 +102,6 @@
       "title": "Observation End Time"
     }
   ],
-  "costSavingInfo": "*You can save up to the stated amount if you choose to scale down your SKU or scale in your instances. Your actual savings may vary."
+  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
 }
 ---

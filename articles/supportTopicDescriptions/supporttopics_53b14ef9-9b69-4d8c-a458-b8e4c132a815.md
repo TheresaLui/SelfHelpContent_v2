@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "287493aa-ea97-b7e2-11dd-1315916ee6fd",
+      "longDescription": "",
+      "shortDescription": "Failing to save a copy of SSIS package to File System, MSDB or Package Store. Failing to deploy SSIS Project or add a package to SSISDB Catalog.",
+      "searchTags": "SSIS package deploy;SSIS package deployment;integration services deploy;integration services package deployment",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
       "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
@@ -217,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "622af061-6edb-cae2-702f-87d996825aa5",
+      "longDescription": "",
+      "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
+      "searchTags": "ssis package performance;integration services package performance",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
@@ -254,6 +270,14 @@
       "shortDescription": "Issues connecting to the Virtual Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "connect to vm",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7514973d-ae73-fc18-5dd0-b2a4d655ad3d",
+      "longDescription": "",
+      "shortDescription": "Packages failing with Unexpected Termination. VS-SSDT or DTExec or DTExecUI crashing.",
+      "searchTags": "ssis package failing;DTExecUI;DTExec;Integration Services package",
+      "category": "SSIS",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -321,6 +345,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a673718a-c6d8-eab3-a086-1bc2cb196ca7",
+      "longDescription": "",
+      "shortDescription": "Cannot find a SQL Server version or edition or an image related to it to deploy from Azure Marketplace",
+      "searchTags": "cannot deploy sql image;sql image unavailable;cannot find sql server;sql image missing;cannot find marketplace image",
+      "category": "SQLDeployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad3d1f86-bddd-6add-5ef3-61cca77fc992",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Instance Security like Certificates, SSL, TLS, Encryption, Auditing, Logins",
@@ -351,6 +383,14 @@
       "searchTags": "ha;cluster;windows cluster;failover;file share;",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
+      "longDescription": "",
+      "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
+      "searchTags": "SSIS windows service;ssis service;Integration services windows service;integration services service",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",
@@ -423,6 +463,14 @@
       "searchTags": "stop;stop vm;start; start vm;restart;restart vm;administration; vm administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "d1514669-4455-80ef-5c77-ee22227ac7ff",
+      "longDescription": "",
+      "shortDescription": "Issues while executing a package through Visual Studio SSDT, SSISDB Catalog, SQL Server Agent, DTExec.exe or DTExecUI.exe",
+      "searchTags": "ssis package execution;integration services package execution",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
@@ -547,7 +595,7 @@
     {
       "id": "f6e253eb-2bfa-89bc-82ad-f65219562506",
       "longDescription": "",
-      "shortDescription": "Questions or issues with SQl server slowness, query execution time and query tuning",
+      "shortDescription": "Questions on SQL server slowness, optimization, query execution time and query tuning",
       "searchTags": "qp;qo;tuning;query optimization;query tuning;performance;sql server slow;query optimization;optimize;slow;query processing",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"

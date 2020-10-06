@@ -9,7 +9,7 @@
 	articleId="AZDevOpsDeployReleaseIssues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32742294, 32742299, 32742300, 32742302, 32742303, 32742324"
+	supportTopicIds="32742294, 32742302, 32742324"
  	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -31,4 +31,3 @@
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
-
