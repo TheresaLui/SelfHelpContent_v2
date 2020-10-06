@@ -20,3 +20,4 @@
 
 * [Data ingestion with Azure Data Factory](https://docs.microsoft.com/azure/machine-learning/how-to-data-ingest-adf)
 * [DevOps for a data ingestion pipeline](https://docs.microsoft.com/azure/machine-learning/how-to-cicd-data-ingestion)
+* [Execute Azure Machine Learning Pipelines in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/transform-data-machine-learning-service)
