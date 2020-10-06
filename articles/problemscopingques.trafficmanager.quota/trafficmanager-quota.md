@@ -4,11 +4,11 @@
     authors="anchou"
     ms.author="anchou"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds=""
+    supportTopicIds="32447253"
     productPesIds="15621"
     cloudEnvironments="public, fairfax, mooncake, blackforest, usnat, ussec"
     schemaVersion="1"
-    articleId="problemscopingques-trafficmanager-quota"
+    articleId="trafficmanager-quota"
     ownershipId="CloudNet_TrafficManager"
 />
 # TrafficManager Quota Questions
