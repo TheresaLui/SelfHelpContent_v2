@@ -27,7 +27,7 @@ This exception should come from your training script. You can look at the log fi
 ### ImportError: No module named ruamel.yaml
 This issue is encountered with the installation of the Azure ML Python SDK on the latest pip (>20.1.1) in the conda base environment for all released versions of Azure Machine Learning SDK for Python. Refer to the following workarounds:
 
-* Avoid installing the Python SDK on the conda base environment, rather create your conda environment and install SDK on that newly created user environment. The latest pip should work on that new conda environment.
+* Avoid installing the Python SDK on the conda base environment; instead, create your conda environment and install SDK on that newly created user environment. The latest pip should work on that new conda environment.
 * For creating custom Docker images, where you cannot switch away from conda base environment, please pin pip<=20.1.1 in the dockerfile.
 
 ### Image build failure
