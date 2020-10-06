@@ -2,8 +2,8 @@
 	pageTitle="VMA RCA"
 	description="RCA - Software NodeReboot - Workflow TimeOut - Blob Cache Race Condition"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
@@ -26,8 +26,8 @@ We identified the host node where the VM was running was impacted due to a recen
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 
-Microsoft Azure Term
-<br>
+Microsoft Azure Team
+
 
 ## **Recommended Documents**
 
@@ -37,4 +37,3 @@ Learn more about:
 * [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 * [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-<br>
