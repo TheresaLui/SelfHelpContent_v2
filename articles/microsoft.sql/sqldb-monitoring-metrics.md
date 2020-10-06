@@ -19,10 +19,9 @@
 
 # Resolve Metrics issues with Azure SQL Database
 
-In the Azure portal, Azure SQL Database and Azure SQL Managed Instance provide monitoring of resource metrics.
-You can quickly monitor a variety of resource metrics in the Azure portal in the Metrics view. These metrics enable you to see if the resources consumption at any given moment.
+The Azure portal enables monitoring of resource metrics for your Azure SQL Database. You can quickly monitor a variety of resource metrics, enabling you to see resource consumption at any given moment.
 
-You can configure diagnostic settings to [stream categories of metrics and resource logs](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) for single databases, pooled databases, elastic pools, managed instances to one of the following Azure resources.
+You can configure diagnostic settings to [stream categories of metrics and resource logs](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) for single databases, pooled databases, elastic pools to one of the following Azure resources.
 - [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#collect-to-log-analytics-workspace)
   - Can be consumed by [SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
   - Leverage other Azure Monitor features such as alerts and visualizations
