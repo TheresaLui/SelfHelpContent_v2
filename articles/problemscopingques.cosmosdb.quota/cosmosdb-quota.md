@@ -172,7 +172,7 @@
       {
          "id":"unit_measureUnits",
          "order":5,
-         "visibility":"quota_subtype == accountLimitChange !! quota_subtype == throughputLimitChange ",
+         "visibility":"quota_subtype == accountLimitChange || quota_subtype == throughputLimitChange ",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
