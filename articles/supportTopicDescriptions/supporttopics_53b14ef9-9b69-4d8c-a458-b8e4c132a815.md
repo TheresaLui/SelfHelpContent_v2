@@ -345,6 +345,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a673718a-c6d8-eab3-a086-1bc2cb196ca7",
+      "longDescription": "",
+      "shortDescription": "Cannot find a SQL Server version or edition or an image related to it to deploy from Azure Marketplace",
+      "searchTags": "cannot deploy sql image;sql image unavailable;cannot find sql server;sql image missing;cannot find marketplace image",
+      "category": "SQLDeployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad3d1f86-bddd-6add-5ef3-61cca77fc992",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Instance Security like Certificates, SSL, TLS, Encryption, Auditing, Logins",
