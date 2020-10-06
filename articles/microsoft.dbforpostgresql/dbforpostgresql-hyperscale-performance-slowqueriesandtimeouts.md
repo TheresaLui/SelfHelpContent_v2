@@ -16,5 +16,8 @@
 
 # Slow queries and timeouts
 
+Most users can resolve issues concerning slow queries and timeouts by using the following information.
+
 ## **Recommended Documents**
+
 * [Performance tuning](https://citus-docs.readthedocs.io/en/latest/performance/performance_tuning.html)
