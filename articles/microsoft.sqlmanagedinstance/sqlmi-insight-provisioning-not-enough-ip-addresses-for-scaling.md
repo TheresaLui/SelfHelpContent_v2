@@ -18,17 +18,19 @@
 />
 # Managed Instance - Not enough IP addresses for scaling
 
-## We ran diagnostics on your resource and found an issue
+## **There aren't enough available IP addresses in the subnet for scaling**
 
 <!--issueDescription-->
-Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> doesn't have enough available IP addresses in its subnet so scaling could not be performed.
+We ran diagnostics on instance **<!--$ServerName-->ServerName<!--/$ServerName-->** between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found that scaling could not be performed because there aren't enough available IP addresses in the subnet.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Careful planning of subnet size for your managed instance deployments is recommended. You can't resize the subnet after you deploy the resources inside. For more details visit: [Determine required subnet size & range for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-subnet-determine-size).
+Currently there is no way to complete the scaling operation in case there aren't enough IP addresses available. You will have to create a new subnet and a new managed instance inside it. It is not possible to change the subnet address range if any resource exists in the subnet. It is also not possible to move managed instances from one subnet to another.
 
-You will have to create a new subnet and a new managed instance inside it. We also suggest that the new subnet is created with more IP addresses allocated so future update operations will avoid similar situations. After the new instance is provisioned, you can manually back up and restore data between the old and new instances or perform [cross-instance point-in-time restore](https://docs.microsoft.com/azure/azure-sql/managed-instance/point-in-time-restore?tabs=azure-portal).
+After the new instance is provisioned, you can manually back up and restore data between the old and new instances or perform [cross-instance point-in-time restore](https://docs.microsoft.com/azure/azure-sql/managed-instance/point-in-time-restore?tabs=azure-portal).
+
+Careful planning of subnet size for your managed instance deployments is recommended. We suggest that the new subnet is created with more IP addresses allocated so future update operations will avoid similar situations. For more details visit: [Determine required subnet size & range for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-subnet-determine-size).
 
 ## **Recommended Documents**
 
