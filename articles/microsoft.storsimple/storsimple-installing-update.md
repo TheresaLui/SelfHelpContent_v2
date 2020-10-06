@@ -26,4 +26,4 @@
 
 ## **Recommended Documents**
 
-* [Install latest update on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-51)
+* [Install latest update on your StorSimple device.StorSimple will soon switch to transport layer security (TLS) 1.2 only for client communications. This StorSimple update will enforce TLS 1.2 on all clients. We recommend all customers complete migration toward solutions that support TLS 1.2 and to make sure that TLS 1.2 is used by default. This is a mandatory update for all StorSimple 8000 series devices.](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-51)
