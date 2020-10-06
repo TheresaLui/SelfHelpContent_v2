@@ -172,7 +172,7 @@
       {
          "id":"unit_measureUnits",
          "order":5,
-         "visibility":"quota_subtype != enableLocation && quota_subtype != storageLimitIncrease && quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype == tokenExpiryTime ",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != storageLimitIncrease && quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype != tokenExpiryTime ",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
@@ -199,7 +199,7 @@
       },
       {
          "id":"current_limit",
-         "visibility":"quota_subtype != enableLocation ",
+         "visibility":"quota_subtype != enableLocation",
          "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
@@ -215,7 +215,7 @@
       },
       {
          "id":"new_limit",
-         "visibility":"quota_subtype != enableLocation || quota_othersubtype != null",
+         "visibility":"quota_subtype != enableLocation",
          "order":10,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
