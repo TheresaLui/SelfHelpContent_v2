@@ -36,5 +36,5 @@ If you are experiencing some issues with distributed transactions, the following
 - To resolve stuck, deadlocked, orphaned or in-doubt distributed transactions use kill unit of work (or session id). For more details, please use [KILL documentation](https://docs.microsoft.com/sql/t-sql/language-elements/kill-transact-sql?view=sql-server-ver15).
 
 ## **Recommended Documents**
-- [Distributed transactions across cloud databases (preview)](https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-transactions-overview)
-- [T-SQL differences between SQL Server & Azure SQL Managed Instance (Distributed transactions)](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server#distributed-transactions)
+- [Distributed transactions across cloud databases (preview)](https://docs.microsoft.com/azure/azure-sql/database/elastic-transactions-overview)
+- [T-SQL differences between SQL Server & Azure SQL Managed Instance (Distributed transactions)](https://docs.microsoft.com/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server#distributed-transactions)
