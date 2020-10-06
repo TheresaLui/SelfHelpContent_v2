@@ -19,8 +19,7 @@
 
 # Resolve Metrics issues with Managed Instance
 
-In the Azure portal, Azure SQL Managed Instance provide monitoring of resource metrics.
-You can quickly monitor a variety of resource metrics in the Azure portal in the Metrics view. These metrics enable you to see if the resources consumption at any given moment.
+The Azure portal enables monitoring of resource metrics for your Managed Instance. You can quickly monitor a variety of resource metrics, enabling you to see resource consumption at any given moment.
 
 You can configure diagnostic settings to [stream categories of metrics and resource logs](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) for managed instances to one of the following Azure resources.
 - [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#collect-to-log-analytics-workspace)
@@ -45,7 +44,7 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 - You can also use [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios?view=sql-server-ver15#identify-and-tune-top-resource-consuming-queries) to identify and tune top resource consuming queries
 - Try [Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql) to see if the high resource usage is due to the workload
 
-### Export the metrics to outside of Azure
+### Export the metrics outside Azure
 - The metrics can be [stream](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) to Azure Event Hubs and Azure Storage from where they can be sent to outside of Azure
 - On the Metrics tab you can download the metrics presented to Excel, just select “Share -> Download to Excel”
 - Use [REST API](https://docs.microsoft.com/rest/api/monitor/metrics/list) or [Powershell](https://docs.microsoft.com/powershell/module/az.monitor/get-azmetric?view=azps-4.7.0) to obtain the value of the metric you want to.
