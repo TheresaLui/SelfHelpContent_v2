@@ -199,7 +199,7 @@
       },
       {
          "id":"current_limit",
-         "visibility":"quota_subtype != enableLocation || quota_othersubtype != null",
+         "visibility":"quota_subtype != enableLocation ",
          "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
@@ -231,7 +231,7 @@
       },
       {
          "id":"business_justification",
-         "visibility":"quota_subtype != null || quota_othersubtype != null",
+         "visibility":"quota_subtype != null",
          "order":11,
          "controlType":"multilinetextbox",
          "displayLabel":"Describe the business requirement",
