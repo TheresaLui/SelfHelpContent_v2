@@ -9,7 +9,7 @@
 	supportTopicIds="32755222"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.runs.problemmanagingrunsandexperiments"
+	articleId="microsoft.machinelearning.runs.problemwithenablinglogginginruns"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
