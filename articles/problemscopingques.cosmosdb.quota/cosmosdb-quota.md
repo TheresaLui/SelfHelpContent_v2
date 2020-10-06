@@ -172,27 +172,41 @@
       {
          "id":"unit_measureUnits",
          "order":5,
-         "visibility":"quota_subtype != enableLocation && quota_subtype != storageLimitIncrease && quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype != tokenExpiryTime ",
+         "visibility":"quota_subtype == accountLimitChange !! quota_subtype == throughputLimitChange ",
+         "controlType":"textBlock",
+         "displayLabel":"Please enter limit values using Units as your unit of measure"
+      },
+      {
+         "id":"unit_measureUnits_othersubtype",
+         "order":6,
+         "visibility":"quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype != tokenExpiryTime",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
       {
          "id":"gigabytes_measureUnits",
-         "order":6,
-         "visibility":"quota_subtype == storageLimitIncrease || quota_othersubtype == partitionSize ",
+         "order":7,
+         "visibility":"quota_subtype == storageLimitIncrease",
+         "controlType":"textBlock",
+         "displayLabel":"Please enter limit values using GigaBytes (GB) as your unit of measure"
+      },
+      {
+         "id":"gigabytes_measureUnits_othersubtype",
+         "order":8,
+         "visibility":"quota_othersubtype == partitionSize ",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using GigaBytes (GB) as your unit of measure"
       },
       {
          "id":"bytes_measureUnits",
-         "order":7,
+         "order":9,
          "visibility":"quota_othersubtype == partitionKeySize",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Bytes as your unit of measure"
       },
       {
          "id":"minutes_measureUnits",
-         "order":8,
+         "order":10,
          "visibility":"quota_othersubtype == tokenExpiryTime",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using minutes (mm) as your unit of measure"
@@ -200,7 +214,7 @@
       {
          "id":"current_limit",
          "visibility":"quota_subtype != enableLocation",
-         "order":9,
+         "order":11,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
          "infoBalloonText":"Put the current limit value here.",
@@ -216,7 +230,7 @@
       {
          "id":"new_limit",
          "visibility":"quota_subtype != enableLocation",
-         "order":10,
+         "order":12,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
          "infoBalloonText":"Put the new value for the limit you are requesting here.",
@@ -232,7 +246,7 @@
       {
          "id":"business_justification",
          "visibility":"quota_subtype != null",
-         "order":11,
+         "order":13,
          "controlType":"multilinetextbox",
          "displayLabel":"Describe the business requirement",
          "watermarkText":"Provide business justification for your request",
