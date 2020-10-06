@@ -19,7 +19,7 @@
 
 # Resolve Activity Log issues with Azure SQL Database
 
-The Activity log is a [platform log](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) in Azure that provides insight into subscription-level events. This includes such information as when a resource is modified or when a virtual machine is started. You can view the Activity log in the Azure portal or retrieve entries with PowerShell and CLI.
+The Activity log is a [platform log](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) in Azure that provides insight into subscription-level events. This includes such information as when a resource is modified or when a virtual machine is started. You can view the Activity log in the Azure portal or retrieve entries with [PowerShell](https://docs.microsoft.com/powershell/module/az.monitor/get-azlog?view=azps-3.8.0) ([Samples](https://docs.microsoft.com/azure/azure-monitor/samples/powershell-samples#retrieve-activity-log)) and [CLI](https://docs.microsoft.com/cli/azure/monitor/activity-log?view=azure-cli-latest) ([Samples](https://docs.microsoft.com/azure/azure-monitor/samples/cli-samples#view-activity-log)).
  
 You can access the Activity log from most menus in the Azure portal. The menu that you open it from determines its initial filter.
 For some events, you can view the Change history, which shows what changes happened during that event time, you can see not only that the change, but what was the previous value before the change and what it was changed to.
@@ -33,7 +33,7 @@ For some events, you can view the Change history, which shows what changes happe
 ### **Can't delete or modify the events.**
 - Entries in the Activity Log are system generated and cannot be changed or deleted.
  
-### **When querying the table Azure Activity it doesn't return nothing.**
+### **When querying the table Azure Activity it doesn't return anything.**
 - In some cases, the values in these columns may be in all uppercase. If you have a query that includes these columns, you should use the [=~ operator](https://docs.microsoft.com/azure/kusto/query/datatypes-string-operators) to do a case insensitive comparison.
 
 ### **Can’t view logs older than 90 days.**
@@ -60,7 +60,5 @@ For some events, you can view the Change history, which shows what changes happe
 
 ## **Recommended Documents**
 - [Azure Monitor Logs](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-logs)
-- Powershell: [Get-AzLog](https://docs.microsoft.com/powershell/module/az.monitor/get-azlog?view=azps-3.8.0) ([Samples](https://docs.microsoft.com/azure/azure-monitor/samples/powershell-samples#retrieve-activity-log))
-- [Azure CLI](https://docs.microsoft.com/cli/azure/monitor/activity-log?view=azure-cli-latest) ([Samples](https://docs.microsoft.com/azure/azure-monitor/samples/cli-samples#view-activity-log))
 - [REST API](https://docs.microsoft.com/rest/api/monitor/alertrules): [Activity log(s)](https://docs.microsoft.com/rest/api/monitor/activitylogs), [Activity log tenant events](https://docs.microsoft.com/rest/api/monitor/tenantactivitylogs), [(Activity log) event categories](https://docs.microsoft.com/rest/api/monitor/eventcategories) and [Activity log profiles](https://docs.microsoft.com/rest/api/monitor/logprofiles)
 - [Azure Monitor partner integrations](https://docs.microsoft.com/azure/azure-monitor/platform/partners)
