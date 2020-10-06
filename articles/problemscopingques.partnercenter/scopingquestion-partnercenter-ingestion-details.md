@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Ingestion Details",
-    "fileAttachmentHint": "Please upload any supporting files that can help us understand your issue",
+    "fileAttachmentHint": "Please upload any supporting files that can help us understand your issue. <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Learn more</a> on how to capture a browser trace for troubleshooting",
     "formElements": [
         {
             "id": "problem_description",
