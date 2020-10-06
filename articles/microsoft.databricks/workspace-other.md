@@ -51,7 +51,7 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
     ```
     adb-<workspace-id>.<random-number>.azuredatabricks.net
     ```
-This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore,**we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
+* This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, **we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
 
 	* [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#how-do-i-launch-my-workspace-using-the-per-workspace-url)
 	* [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#migrate-scripts-and-other-automation)
