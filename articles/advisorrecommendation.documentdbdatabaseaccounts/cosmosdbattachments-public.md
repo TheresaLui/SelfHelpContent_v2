@@ -14,7 +14,7 @@
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "41d957c1-1069-4190-8318-f80ab52c375f",
+  "recommendationTypeId": "061dcd4a-2090-4ec0-b4e0-ec9eaae5cf80",
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
@@ -30,11 +30,11 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/cosmosdb-attachments",
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/attachments",
   "description": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
-  "longDescription": "We noticed that your Azure Cosmos container is using the legacy attachments feature. We recommend migrating attachments to Azure Blob Storage to improve the resiliency and scalability of your blob data.",
+  "longDescription": "We noticed that your Azure Cosmos collection is using the legacy attachments feature. We recommend migrating attachments to Azure Blob Storage to improve the resiliency and scalability of your blob data.",
   "potentialBenefits": "Improve attachment blob resiliency and scalability",
-  "displayLabel": "Azure Cosmos DB attachments",
+  "displayLabel": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').Attachments",
@@ -46,8 +46,8 @@
       "title": "Database"
     },
     {
-      "name": "containerName",
-      "title": "Container"
+      "name": "collectionName",
+      "title": "Collection"
     }
   ],
   "actions": [

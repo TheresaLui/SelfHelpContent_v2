@@ -3,9 +3,9 @@
     description="Migrate Azure Cosmos DB attachments to Azure Blob Storage"
     authors="andrl"
     ms.author="aliuy"
-    articleId="061dcd4a-2090-4ec0-b4e0-ec9eaae5cf80_Mooncake"
+    articleId="061dcd4a-2090-4ec0-b4e0-ec9eaae5cf80_USSec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Mooncake"
+    cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Migrate Azure Cosmos DB attachments to Azure Blob Storage
@@ -30,14 +30,14 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.azure.cn/cosmos-db/attachments",
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/attachments",
   "description": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
   "longDescription": "We noticed that your Azure Cosmos collection is using the legacy attachments feature. We recommend migrating attachments to Azure Blob Storage to improve the resiliency and scalability of your blob data.",
   "potentialBenefits": "Improve attachment blob resiliency and scalability",
   "displayLabel": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').Attachments",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').Attachments",
     "refreshInterval": "0.04:00:00"
   },
   "additionalColumns": [
@@ -55,7 +55,7 @@
       "actionId": "8cd46458-6e4a-4b0d-bde6-e65fd2381a5d",
       "description": "Migrate attachments",
       "actionType": "Document",
-      "documentLink": "https://docs.azure.cn/cosmos-db/attachments#migrating-attachments-to-azure-blob-storage"
+      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/attachments#migrating-attachments-to-azure-blob-storage"
     }
   ],
   "resourceMetadata": {
