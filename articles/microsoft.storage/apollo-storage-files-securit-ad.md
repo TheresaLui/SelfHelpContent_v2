@@ -11,10 +11,9 @@
 	articleId="bf736888-9e26-4600-995e-7a2362eea07b"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />
-
 # Enabling AD DS Authentication for Azure Files
-## Enable AD DS authentication for Azure Files and Windows Virtual Desktop
 
+## Enable AD DS authentication for Azure Files
 :::Section Recommended Solution:::
 
 Azure Files supports identity-based authentication over Server Message Block (SMB) through two types of Domain Services: on-premises Active Directory Domain Services (AD DS) and Azure Active Directory Domain Services (Azure AD DS). This series of articles and videos focus on enabling and configuring on-premises AD DS for authentication with Azure File Shares:
