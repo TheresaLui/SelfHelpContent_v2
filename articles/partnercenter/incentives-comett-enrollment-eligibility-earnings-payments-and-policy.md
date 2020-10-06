@@ -49,5 +49,5 @@
 
 **Still need help?**
 
-Create a support ticket:
-* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=CoMETT@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&locale=en-us&language=EN)
+Create a support request:
+* [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=comettmdf@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=CoMETT&supporttopicid_l3=Support&locale=en-us&language=EN)

@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Cannot move Data Share account to other resource group or Azure subscription"
+  pagetitle="Data Share account cannot move to other resource group or Azure subscription"
   service="microsoft.datashare"
   resource="accounts"
   ms.author="jife"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="b8e6ed39-d79d-41f7-b2b3-02455066e8e1"
   ownershipid="AzureData_DataShare" />
-# Cannot move Data Share account to other resource group or Azure subscription
+# Data Share account cannot move to other resource group or Azure subscription
 
 ## **Recommended Steps**
 
