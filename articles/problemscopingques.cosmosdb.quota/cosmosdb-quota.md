@@ -24,13 +24,13 @@
         {
             "id": "quota_subtype",
             "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Quota type",
-            "watermarkText": null,
+			"controlType": "dropdown",
+			"infoBalloonText": "Quota Type",
+			"displayLabel": "Quota type",
+			"watermarkText": "Choose an option",
             "required": true,
             "filter": false,
             "includeInQuotaSummary": true,
-            "infoBalloonText": "Quota type",
             "dropdownOptions": [
                 {
                     "text": "Region access",
@@ -69,7 +69,7 @@
                 {
                     "text": "Containers for shared database throughput",
                     "value": "containerLimitIncrease"
-                }, 
+                },
                 {
                     "text": "RUs per database (shared)",
                     "value": "ruDatabaseShared"
