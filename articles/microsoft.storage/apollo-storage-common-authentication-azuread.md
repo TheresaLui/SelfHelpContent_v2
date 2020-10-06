@@ -26,7 +26,7 @@ The following charts can help you to narrow down the time frames when the Authen
 <metric>
 <name>Transactions</name>
 <aggregationType>Total</aggregationType>
-<timeSpanType>relative</ timeSpanType >
+<timeSpanType>relative</timeSpanType>
 <timeSpanDuration>1d</timeSpanDuration>
 <title>Storage Authentication and Authorization Failure</title>
 <client>ASC,Portal</client>
