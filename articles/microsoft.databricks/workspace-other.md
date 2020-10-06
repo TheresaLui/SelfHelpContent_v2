@@ -22,25 +22,24 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 ## **Recommended Steps**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
-* If you are unable to launch or access Azure Databricks workspace due to error "User does not have Contributor or Owner role", the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** role following steps [here](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). User should be added **individually** as adding AD group is *not supported* yet.
-* [How to Assign a Single Public IP for VNet-Injected Workspaces Using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip)
-* [Managed Applications and Locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
-* Deployment of workspace through ARM Templates fails if you use existing resource group name as a managed resource group. Always ensure [Managed Resource group](https://docs.microsoft.com/azure/managed-applications/overview#managed-resource-group) in ARM template doesn't already exist within the subscription.
-* Please avoid having any special characters (- or _) as the first or last character in workspace name. Maximum length for Managed resource group Name: 90 characters. Workspace creation will fail due to invalid characters. 
-* [Error: Instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
-* You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a Databricks notebook:
+* If you are unable to launch or access Azure Databricks workspace and you receive the error message, "User does not have Contributor or Owner role," the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** roles by following [these steps](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). The user should be added **individually** because adding an AD group is *not supported* yet.
+* Learn [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip)
+* Learn about [managed applications and locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
+* Deploying workspace through ARM Templates will fail if you use existing an resource group name as a managed resource group. Ensure that the [Managed Resource group](https://docs.microsoft.com/azure/managed-applications/overview#managed-resource-group) in the ARM template doesn't already exist within the subscription.
+* Avoid having any special characters as the first or last character in a workspace name. The maximum length for a Managed Resource graoup name is 90 character. **Creating a workspace will fail due to invalid characters**. 
+* Learn about the ["instances unreachable" error](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
+* Get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a Databricks notebook:
 
     ```
     %sh
     curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
     ```
-
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is supported for:
 
 	* Standard clusters in both Scala and Python
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
-* If you receive the error message **Unexpected error while loading Spark UI: Max Response Size Reached**: the issue is due to the response limit of 30 MB for the Spark UI proxy. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
+* If you receive the error message, "Unexpected error while loading Spark UI: Max Response Size Reached," the response limit of 30 MB for the Spark UI proxy has been reached. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
 
     ```
     spark.ui.retainedJobs 100
@@ -52,7 +51,7 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
     ```
     adb-<workspace-id>.<random-number>.azuredatabricks.net
     ```
-This URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up to now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces.
+This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore,**we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
 
 	* [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#how-do-i-launch-my-workspace-using-the-per-workspace-url)
 	* [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#migrate-scripts-and-other-automation)
@@ -66,9 +65,9 @@ This URL is complementary to the existing regional URLs (<region>.azuredatabrick
 
 Instead, we recommend that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old workspace to the new one.	
 
-* [Migrate Azure Databricks workspace between subscriptions or regions](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps). Create the new workspace first, and then migrate all notebooks, jobs configuration, clusters configuration, users, libraries, mounts, and init scripts.
+* Learn how to [migrate Azure Databricks workspace between subscriptions or regions](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps). Create the new workspace first, and then migrate all notebooks, jobs configuration, clusters configuration, users, libraries, mounts, and init scripts.
 
-* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
+* Learn how to [migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 
 * Implement workload through Azure Firewall to Azure Databricks. Note the Databricks control plane endpoints for your workspace (map them based on the region of your workspace) when configuring Azure Firewall rules:
 
