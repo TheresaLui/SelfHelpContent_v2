@@ -46,6 +46,7 @@ To see how to write out files during training on remote compute so they are pers
 Azure ML automatically takes a snapshot of your code based on the source_directory you specify when you configure the run. This snapshot has a total limit of 300 MB and/or 2000 files. 
 
 If either limit is exceeded, you will see the following error when you submit your run:
+
 ```
 While attempting to take snapshot of .
 Your total snapshot size exceeds the limit of 300.0 MB
