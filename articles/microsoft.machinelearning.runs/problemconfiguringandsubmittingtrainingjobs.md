@@ -35,7 +35,7 @@ For information on configuring distributed training jobs, see the following reso
 
 * [Reference architecture of distributed training of deep learning models in Azure ML](https://docs.microsoft.com/azure/architecture/reference-architectures/ai/training-deep-learning)
 * [Distributed training with PyTorch](https://docs.microsoft.com/azure/machine-learning/how-to-train-pytorch#distributed-training)
-* [Distributed training with TejsorFlow](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-tensorflow#distributed-training)
+* [Distributed training with TejsorFlow](https://docs.microsoft.com/azure/machine-learning/how-to-train-tensorflow#distributed-training)
 
 ### Where to write output files
 
