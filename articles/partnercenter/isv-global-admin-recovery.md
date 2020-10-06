@@ -22,11 +22,14 @@
 
 ## **Recommended Steps**
 
-- For different ways on how you can reset your password and regain access to your work account, read [Reset your work or school password using security info](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-update-your-own-password#how-to-change-your-password)
-- After your work account password has been reset, you will be able to access Partner Center
+Depending on the scenario you find yourself in, please follow the steps outlined accordingly:
+
+* **MPN Partner Admin/Account Admin has left the company but there are still Global Admins in the account** - [find the company's global admin](https://docs.microsoft.com/partner-center/become-global-admin#find-the-companys-global-admin)
+* **MPN Partner Admin/Account Admin has left the company and there are no Global admins in the account** - Sign into [portal.azure.com](https://ms.portal.azure.com/) with your work account and create a support ticket of type "Technical" with the problem description that the global admin has left the company 
+* **MPN Partner Admin/Account Admin/Global admin has left the company and there are no other users that can access the company’s Azure Active directory** – Follow the [Administrator Takeover steps](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) to take over an unmanaged directory as administrator in Azure Active Directory.
  
 ## **Recommended Documents**
 
-* [Unable to sign in](https://docs.microsoft.com/partner-center/unable-to-sign-in)
+* [Verify your domain ownership to become global admin](https://docs.microsoft.com/partner-center/become-global-admin)
 
-* [New global admin](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions#new-global-admin)
+* [Unable to sign into Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)
