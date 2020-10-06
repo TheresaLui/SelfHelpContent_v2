@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80b82b5f-48d3-40e6-f4fc-885b647b7cf6",
+      "longDescription": "",
+      "shortDescription": "Managing StorSimple Device password and password expiration alerts",
+      "searchTags": "Password;Alert",
+      "category": "Device Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81a6342f-a97c-b038-4dbb-0be4ffa8aba8",
       "longDescription": "",
       "shortDescription": "Synchronize access key of your storage account and diagnose validity of storage account credentials and SSL certificate",
@@ -250,6 +258,14 @@
       "shortDescription": "Migrating StorSimple service to a new enrollment or to a new subscription",
       "searchTags": "Migration;New Enrollment;New Subscription",
       "category": "Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c0786500-c20c-26ec-9074-19f5f12da362",
+      "longDescription": "",
+      "shortDescription": "Diagnosing any blocked ports on the firewall and access to Azure status page",
+      "searchTags": "Heartbeat;Firewall;Blocked Ports",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
