@@ -16,7 +16,7 @@
 
 # Problem with GitHub Actions integration
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 You can create [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) workflows that run Azure Machine Learning CLI commands.
 
