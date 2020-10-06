@@ -47,7 +47,7 @@
                 {
                     "text": "Storage limit for container",
                     "value": "storageLimitIncrease"
-                }
+                },
                 {
                      "text": "Other quota types",
                     "value": "otherQuotas"
@@ -56,7 +56,7 @@
         },
         {
             "id": "quota_othersubtype",
-            "visibility": "quota_subtype == otherQuotas"
+            "visibility": "quota_subtype == otherQuotas",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Other quota type",
@@ -149,7 +149,7 @@
         },
         {
             "id": "quota_region",
-            "visibility": "quota_subtype == enableLocation || quota_subtype == throughputLimitChange  || quota_subtype ==storageLimitIncrease",
+            "visibility": "quota_subtype == enableLocation || quota_subtype == throughputLimitChange  || quota_subtype == storageLimitIncrease",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel":"Location requested",
