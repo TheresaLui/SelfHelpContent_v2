@@ -172,7 +172,7 @@
       {
          "id":"unit_measureUnits",
          "order":5,
-         "visibility":"quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_othersubtype == containerLimitIncrease || quota_othersubtype == ruDatabaseShared || quota_othersubtype == partitionAccount || quota_othersubtype == regionalFailovers || quota_othersubtype == storeProcedureContainer || quota_othersubtype == udfsContainer || quota_othersubtype == uniqueKeysContainer || quota_othersubtype == pathsUniqueKey || quota_othersubtype == pathsIndexPolicy || quota_othersubtype == joinsQuery || quota_othersubtype == udfsQuery ",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != storageLimitIncrease && quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype == tokenExpiryTime ",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
@@ -188,7 +188,7 @@
          "order":7,
          "visibility":"quota_othersubtype == partitionKeySize",
          "controlType":"textBlock",
-         "displayLabel":"Please enter limit values using Bytes (b) as your unit of measure"
+         "displayLabel":"Please enter limit values using Bytes as your unit of measure"
       },
       {
          "id":"minutes_measureUnits",
@@ -199,7 +199,7 @@
       },
       {
          "id":"current_limit",
-         "visibility":"quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != otherQuotas || quota_othersubtype != null",
          "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
@@ -215,7 +215,7 @@
       },
       {
          "id":"new_limit",
-         "visibility":"quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != otherQuotas || quota_othersubtype != null",
          "order":10,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
@@ -231,7 +231,7 @@
       },
       {
          "id":"business_justification",
-         "visibility":"quota_subtype != null && quota_subtype != dont_know_answer",
+         "visibility":"quota_subtype != null && quota_subtype != otherQuotas || quota_othersubtype != null",
          "order":11,
          "controlType":"multilinetextbox",
          "displayLabel":"Describe the business requirement",
