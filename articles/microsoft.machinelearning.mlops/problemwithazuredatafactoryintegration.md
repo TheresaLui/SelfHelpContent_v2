@@ -17,3 +17,6 @@
 # Problem with Azure Data Factory Integration
 
 ## **Recommended Documents**
+
+* [Data ingestion with Azure Data Factory](https://docs.microsoft.com/azure/machine-learning/how-to-data-ingest-adf)
+* [DevOps for a data ingestion pipeline](https://docs.microsoft.com/azure/machine-learning/how-to-cicd-data-ingestion)
