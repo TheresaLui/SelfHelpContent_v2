@@ -73,6 +73,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0bdd4785-33cc-1d02-8f96-f09fbfbd70ac",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Backup Center used to govern, monitor, operate, and analyze backups at scale.",
+      "searchTags": "Backup Center;data is missing;incorrect results;unexpected results",
+      "category": "Backup Center",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fa367fe-2f1d-157c-a27f-46db83437cd2",
       "longDescription": "",
       "shortDescription": "Issue with restore of SAP HANA database",
@@ -619,7 +627,7 @@
     {
       "id": "cd167c00-fc25-ae4d-43b1-ac530eb6be1b",
       "longDescription": null,
-      "shortDescription": "Issue during backup to Disk or Tapes (not online backup) ",
+      "shortDescription": "Issue during backup to Disk or Tapes (not online backup)",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
@@ -667,7 +675,7 @@
     {
       "id": "e2bc8d87-ac15-698b-4521-a8010fa3b7bc",
       "longDescription": null,
-      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
+      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
