@@ -173,28 +173,28 @@
             "id": "unit_measureUnits",
             "order": 5,
             "visibility": "quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_othersubtype == containerLimitIncrease || quota_othersubtype == ruDatabaseShared || quota_othersubtype == partitionAccount || quota_othersubtype == regionalFailovers || quota_othersubtype == storeProcedureContainer || quota_othersubtype == udfsContainer || quota_othersubtype == uniqueKeysContainer || quota_othersubtype == pathsUniqueKey || quota_othersubtype == pathsIndexPolicy || quota_othersubtype == joinsQuery || quota_othersubtype == udfsQuery ",
-            "controlType: "textBlock",
+            "controlType": "textBlock",
             "text": "Please enter limit values using Units as your unit of measure"
         },
         {
             "id": "gigabytes_measureUnits",
             "order": 6,
             "visibility": "quota_subtype == storageLimitIncrease || quota_othersubtype == partitionSize ",
-            "controlType: "textBlock",
+            "controlType": "textBlock",
             "text": "Please enter limit values using GigaBytes (GB) as your unit of measure"
         },
         {
             "id": "bytes_measureUnits",
             "order": 7,
             "visibility": "quota_othersubtype == partitionKeySize",
-            "controlType: "textBlock",
+            "controlType": "textBlock",
             "text": "Please enter limit values using Bytes (b) as your unit of measure"
         },
         {
             "id": "minutes_measureUnits",
             "order": 8,
             "visibility": "quota_othersubtype == tokenExpiryTime",
-            "controlType: "textBlock",
+            "controlType": "textBlock",
             "text": "Please enter limit values using minutes (mm) as your unit of measure"
         },
         {
