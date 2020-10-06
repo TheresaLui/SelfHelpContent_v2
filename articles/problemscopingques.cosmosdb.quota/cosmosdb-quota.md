@@ -20,8 +20,7 @@
     "title": "Cosmos DB",
     "fileAttachmentHint": "",
     "quotaRequestVersion": "1.0",
-    "formElements": [
-        {
+    "formElements": [{
             "id": "quota_subtype",
             "order": 1,
 			"controlType": "dropdown",
@@ -169,7 +168,7 @@
                 }
             }
         },
-        {
+ <!--       {
             "id": "unit_measureUnits",
             "order": 5,
             "visibility": "quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_othersubtype == containerLimitIncrease || quota_othersubtype == ruDatabaseShared || quota_othersubtype == partitionAccount || quota_othersubtype == regionalFailovers || quota_othersubtype == storeProcedureContainer || quota_othersubtype == udfsContainer || quota_othersubtype == uniqueKeysContainer || quota_othersubtype == pathsUniqueKey || quota_othersubtype == pathsIndexPolicy || quota_othersubtype == joinsQuery || quota_othersubtype == udfsQuery ",
@@ -197,7 +196,7 @@
             "controlType": "textBlock",
             "text": "Please enter limit values using minutes (mm) as your unit of measure"
         },
-        {
+ -->       {
             "id": "current_limit",
             "visibility": "quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
             "order": 9,
