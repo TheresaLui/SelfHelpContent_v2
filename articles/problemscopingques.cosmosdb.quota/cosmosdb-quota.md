@@ -199,7 +199,7 @@
       },
       {
          "id":"current_limit",
-         "visibility":"quota_subtype != enableLocation && quota_subtype != otherQuotas || quota_othersubtype != null",
+         "visibility":"quota_subtype != enableLocation || quota_othersubtype != null",
          "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
@@ -215,7 +215,7 @@
       },
       {
          "id":"new_limit",
-         "visibility":"quota_subtype != enableLocation && quota_subtype != otherQuotas || quota_othersubtype != null",
+         "visibility":"quota_subtype != enableLocation || quota_othersubtype != null",
          "order":10,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
@@ -231,7 +231,7 @@
       },
       {
          "id":"business_justification",
-         "visibility":"quota_subtype != null && quota_subtype != otherQuotas || quota_othersubtype != null",
+         "visibility":"quota_subtype != null || quota_othersubtype != null",
          "order":11,
          "controlType":"multilinetextbox",
          "displayLabel":"Describe the business requirement",
