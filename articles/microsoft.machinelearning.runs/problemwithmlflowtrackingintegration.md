@@ -15,3 +15,11 @@
 />
 
 # Problem with MLFlow tracking integration
+
+## **Recommended Documents**
+
+* [Track local runs with MLFlow](https://docs.microsoft.com/azure/machine-learning/how-to-use-mlflow#track-local-runs)
+* [Track remote runs with MLFlow](https://docs.microsoft.com/azure/machine-learning/how-to-use-mlflow#track-remote-runs)
+* [Train with MLFlow projects](https://docs.microsoft.com/azure/machine-learning/how-to-use-mlflow#train-with-mlflow-projects)
+* [Sample notebooks for using MLFlow with Azure ML](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/track-and-monitor-experiments/using-mlflow)
+
