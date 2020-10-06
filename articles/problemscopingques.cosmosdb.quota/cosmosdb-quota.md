@@ -236,16 +236,6 @@
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
             "required": false
-        },
-        {
-            "id": "problem_description",
-            "visibility": "quota_subtype != null && quota_subtype == dont_know_answer",
-            "order": 12,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
-            "required": true,
-            "useAsAdditionalDetails": true
         }
     ]
 }
