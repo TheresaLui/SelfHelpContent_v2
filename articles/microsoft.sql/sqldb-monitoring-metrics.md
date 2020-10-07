@@ -50,7 +50,7 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 3. You can also use [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios?view=sql-server-ver15#identify-and-tune-top-resource-consuming-queries) to identify and tune top resource consuming queries
 
 ### There are periods where eDTU is reaching 100%, what is causing it?
-1. On the Azure Portal Elastic Pool blade you can see the list of databases with the “Avg eDTU (%)” and “Peak eDTU (%)”
+1. On the Azure Portal Elastic Pool blade you can see the list of databases with the 'Avg eDTU (%)' and 'Peak eDTU (%)'
 2. Go to the Azure SQL Database that have the higher avg eDTU value
 3. Confirm what resource (CPU/Data IO/Log IO) is being highly usage
 4. Check with [Query Performance Insight](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use) to see if the high resource usage is due to the workload
