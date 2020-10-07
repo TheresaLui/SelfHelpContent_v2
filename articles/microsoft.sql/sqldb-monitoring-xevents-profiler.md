@@ -19,7 +19,7 @@
 
 # Resolve Extended events and SQL Profiler issues with Azure SQL Database
 
-Most users can resolve issues with Extended Events and SQL Profiler by following the information below.
+Most users can resolve issues regarding Extended Events and SQL Profiler issues with Azure SQL Database by following the information below.
 
 **Extended Events**
 
@@ -51,10 +51,13 @@ Most of our documentation about Extended Events applies to SQL Server, Azure SQL
 
 ### **My session has stopped**
 - To ensure that after SQL service restarts, your Extended Event also starts, create or change your session: 
-`CREATE EVENT SESSION [<xevent_name>] ON SERVER WITH (STARTUP_STATE=ON)`
+
+```
+CREATE EVENT SESSION [<xevent_name>] ON SERVER WITH (STARTUP_STATE=ON)
+```
 
 ### **Can’t save the Extended Events session data capture into a file**
-- Follow [these steps](https://techcommunity.microsoft.com/t5/azure-database-support-blog/extended-events-capture-step-by-step-walkthrough/ba-p/369013) to save the captured data into a Azure Storage blob
+- Follow [these steps](https://techcommunity.microsoft.com/t5/azure-database-support-blog/extended-events-capture-step-by-step-walkthrough/ba-p/369013) to save the captured data to a Azure Storage blob
 
 ### **Can’t run SQL Profiler on Azure SQL Database**
 - Use Extended Events to [convert your SQL trace script to an Extended Events session](https://docs.microsoft.com/sql/relational-databases/extended-events/convert-an-existing-sql-trace-script-to-an-extended-events-session?view=sql-server-ver15)
@@ -76,4 +79,4 @@ ALTER EVENT SESSION [YourSession]
 - [Extended events in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr)
 - [Quickstart: Extended events in SQL Server](https://docs.microsoft.com/sql/relational-databases/extended-events/quick-start-extended-events-in-sql-server?view=sql-server-ver15)
 - [Create a Trace (SQL Server Trace)](https://docs.microsoft.com/sql/tools/sql-server-profiler/create-a-trace-sql-server-profiler?view=sql-server-ver15)
-- [View the Extended Events Equivalents to SQL Trace Event Classes](https://docs.microsoft.com/sql/relational-databases/extended-events/view-the-extended-events-equivalents-to-sql-trace-event-classes?view=sql-server-ver15)
+- [View the Extended Events equivalents to SQL trace event classes](https://docs.microsoft.com/sql/relational-databases/extended-events/view-the-extended-events-equivalents-to-sql-trace-event-classes?view=sql-server-ver15)
