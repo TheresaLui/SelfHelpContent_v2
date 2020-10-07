@@ -140,11 +140,11 @@
 			"metadata":"Global"
         },
 		{
-            "id": "quota_region",
+            "id": "quota_region_test2",
 			"visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel":"Region",
+            "displayLabel":"Region test2",
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
