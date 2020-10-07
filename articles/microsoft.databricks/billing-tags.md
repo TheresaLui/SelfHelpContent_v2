@@ -48,6 +48,6 @@
 ## **Recommended Documents**
 
 * [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
-    * [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
-    * [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
+	- [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
+	- [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
     
