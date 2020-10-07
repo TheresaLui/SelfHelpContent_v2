@@ -52,17 +52,7 @@
             "watermarkText":"Global",
             "required": false,
 			"visible":false,
-            "includeInQuotaSummary": false,
-			"dropdownOptions": [
-				{
-					"text": "Global",
-					"value": "Global"
-				},
-                {
-                    "text": "NA",
-                    "value": "dont_know_answer"
-                }
-			]
+            "includeInQuotaSummary": false
         },
 		{
             "id": "quota_region_test",
@@ -71,7 +61,7 @@
             "controlType": "textbox",
             "displayLabel":"Test Region",
 			"infoBalloonText": "It is always global for Traffic Manager.",
-            "value":"Global",
+            "readOnly":true,
             "required": false,
             "includeInQuotaSummary": false,
         },
