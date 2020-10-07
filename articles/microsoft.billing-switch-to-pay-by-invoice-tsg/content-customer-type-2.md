@@ -17,4 +17,5 @@
 
 # Customer Type
 
-Individual or Organization
+Invoice pay (check/wire transfer) is only available for customers using Azure on behalf of a company (organization). Pay all outstanding charges before switching to invoice pay. Subscription cannot be switched back to Credit Card payment once moved to invoice pay. Currently, invoice payment isn't supported for Global Azure in China.
+
