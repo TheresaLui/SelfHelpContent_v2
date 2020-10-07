@@ -27,23 +27,23 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 2,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
 	   "order": 3,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
@@ -52,14 +52,14 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Transaction Identifier (e.g. PaymentID, earningID, transactionID)",
 	   "watermarkText": "Enter the PaymentID, earningID, transactionID or other identifier",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_id",
 	   "order": 5,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
@@ -67,14 +67,14 @@
 	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_offer_type",
 	   "order": 7,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -194,7 +194,7 @@
        "id": "learn_more_text",
        "order": 12,
        "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
        }
    ]
 }
