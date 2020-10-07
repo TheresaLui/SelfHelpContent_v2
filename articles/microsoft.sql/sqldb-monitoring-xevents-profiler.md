@@ -45,7 +45,7 @@ Most of our documentation about Extended Events applies to SQL Server, Azure SQL
 - **SQL Profiler**
   - **Azure SQL Database is not supported by SQL Server profiler**. Managed Instance is supported.
   - SQL Trace and SQL Server Profiler are deprecated. **Use Extended Events instead**.
-  - SQL Profiler doesn’t capture all the events and data that Extended Events captures.
+  - SQL Profiler doesn’t capture all the events and data that Extended Events captures
   
 ## **Recommended Steps**
 
