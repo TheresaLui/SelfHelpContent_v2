@@ -6,7 +6,7 @@
   selfhelptype="Generic"
   supporttopicids="32747915"
   productpesids="17124"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="8b1ae136-b9b6-409d-82f9-34d2913c7ed6"
   ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
 # Pods are in an Unhealthy State
