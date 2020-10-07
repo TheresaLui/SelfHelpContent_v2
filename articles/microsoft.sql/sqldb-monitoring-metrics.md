@@ -58,7 +58,7 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 
 ### Export the metrics to outside of Azure
 - The metrics can be [stream](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) to Azure Event Hubs and Azure Storage from where they can be sent to outside of Azure
-- On the Metrics tab you can download the metrics presented to Excel, just select “Share -> Download to Excel”
+- On the Metrics tab you can download the metrics presented to Excel, just select 'Share -> Download to Excel'
 - Use [REST API](https://docs.microsoft.com/rest/api/monitor/metrics/list) or [Powershell](https://docs.microsoft.com/powershell/module/az.monitor/get-azmetric?view=azps-4.7.0) to obtain the value of the metric you want to.
 
 ### Can’t see the metrics graph on Azure Portal
@@ -78,7 +78,7 @@ Verify that the difference between start- and end- dates in the time picker does
 - This problem may happen when your dashboard was created with a metric that was later deprecated and removed from Azure. To verify that it is the case, open the Metrics tab of your resource, and check the available metrics in the metric picker. Update the failing tile by picking an alternative metric for your chart on dashboard.
 
 ### Chart shows dashed line
-- Azure metrics charts use dashed line style to indicate that there is a missing value (also known as “null value”) between two known time grain data points. The dashed line drops down to zero when the metric uses count and sum aggregation. For the avg, min or max aggregations, the dashed line connects two nearest known data points.  
+- Azure metrics charts use dashed line style to indicate that there is a missing value (also known as 'null value') between two known time grain data points. The dashed line drops down to zero when the metric uses count and sum aggregation. For the avg, min or max aggregations, the dashed line connects two nearest known data points.  
 The dashed line makes reading of these charts easier but if your chart is still unclear, consider viewing your metrics with a different chart type.
 
 ### Chart shows unexpected drop in values
