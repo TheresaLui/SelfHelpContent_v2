@@ -18,6 +18,9 @@
 # Paid Offer EA/PAYG/CSP/AIO
 
 <!--issueDescription-->
+1. Spending Limit is available only for monthly credit offers. 
+2. All other paid offers do not have this feature. 
+3. You may need to clarify the scope. 
 
 Paid offers are charged per the usage and you cannot set a monhtly spending limit however you can set Budget alerts to notify you when spending, based on usage or cost, reaches or exceeds the amount defined. 
 
