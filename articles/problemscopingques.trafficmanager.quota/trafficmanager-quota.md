@@ -51,7 +51,6 @@
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
-			"visible":false,
             "includeInQuotaSummary": false,
 			"dropdownOptions": [
 				{
@@ -65,20 +64,9 @@
 			]
         },
 		{
-            "id": "quota_region_test",
-			"visibility": null,
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel":"Test Region",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "readOnly":true,
-            "required": false,
-            "includeInQuotaSummary": false
-        },
-		{
 			"id": "new_limit",
 			"visibility": "quota_subtype == profileLimitChange",
-			"order": 4,
+			"order": 3,
 			"controlType": "numerictextbox",
 			"displayLabel": "New quota requested",
 			"infoBalloonText": "Put the new value for the limit you are requesting here.",
@@ -98,7 +86,7 @@
 		{
 			"id": "business_justification",
 			"visibility": "quota_subtype != null && quota_subtype != dont_know_answer",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Describe the business requirement",
 			"watermarkText": "Provide business justification for your request",
@@ -107,7 +95,7 @@
 		{
 			"id": "problem_description",
 			"visibility": "quota_subtype != null && quota_subtype == dont_know_answer",
-			"order": 6,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Describe your quota request",
 			"watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
