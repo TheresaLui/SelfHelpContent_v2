@@ -158,7 +158,7 @@
                     "text": "NA",
                     "value": "dont_know_answer"
                 }
-			]
+			],
 			"defaultDropdownOptions":
             {
 				"text": "Global",
