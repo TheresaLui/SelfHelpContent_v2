@@ -40,6 +40,10 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 - Azure Monitor REST API
 - Azure Resource Manager template
 
+### There are periods where CPU\IO is reaching 100%, what is causing it?
+- You can also use [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios?view=sql-server-ver15#identify-and-tune-top-resource-consuming-queries) to identify and tune top resource consuming queries
+- Try [Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql) to see if the high resource usage is due to the workload
+
 
 
 ## **Recommended Documents**
