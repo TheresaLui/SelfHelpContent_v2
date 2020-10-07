@@ -21,5 +21,6 @@ In this article, you learn how to resolve automated machine learning related use
 
 ## **Recommended Documents**
 
-* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments)
+* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/azure/machine-learning/how-to-use-automated-ml-for-ml-models)
 * [What is automated machine learning?](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml)
+* [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
