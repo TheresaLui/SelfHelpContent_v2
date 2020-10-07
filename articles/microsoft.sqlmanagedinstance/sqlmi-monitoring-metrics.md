@@ -44,7 +44,10 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 - You can also use [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios?view=sql-server-ver15#identify-and-tune-top-resource-consuming-queries) to identify and tune top resource consuming queries
 - Try [Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql) to see if the high resource usage is due to the workload
 
-
+### Export the metrics outside Azure
+- The metrics can be [stream](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) to Azure Event Hubs and Azure Storage from where they can be sent to outside of Azure
+- On the Metrics tab you can download the metrics presented to Excel, just select 'Share -> Download to Excel'
+- Use [REST API](https://docs.microsoft.com/rest/api/monitor/metrics/list) or [Powershell](https://docs.microsoft.com/powershell/module/az.monitor/get-azmetric?view=azps-4.7.0) to obtain the value of the metric you want to.
 
 ### Can’t see the metrics graph on Azure Portal
 - Confirm that the database is processing enough workload to consume resources.
@@ -59,7 +62,7 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 Verify that the difference between start- and end- dates in the time picker doesn't exceed the 30-day interval.
 - Validate if the chart was edited and the [y-axis was locked on a specific boundary](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#lock-boundaries-of-chart-y-axis)
 
-### “Error retrieving data” message on dashboard
+### 'Error retrieving data' message on dashboard
 - This problem may happen when your dashboard was created with a metric that was later deprecated and removed from Azure. To verify that it is the case, open the Metrics tab of your resource, and check the available metrics in the metric picker. Update the failing tile by picking an alternative metric for your chart on dashboard.
 
 ### Chart shows dashed line
