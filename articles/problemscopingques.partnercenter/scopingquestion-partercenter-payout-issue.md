@@ -170,7 +170,7 @@
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
