@@ -77,7 +77,7 @@
 					"value": 200
 				},
 				{
-					"type": "lessthan",
+					"type": "lessthan" or "Equal",
 					"value": 1000
 				}
 			],
@@ -101,7 +101,53 @@
 			"watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}
+		},
+		{
+            "id": "quota_region_test1",
+			"visibility": null,
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel":"Region test1",
+			"infoBalloonText": "It is always global for Traffic Manager.",
+            "watermarkText":"Global",
+            "required": false,
+            "includeInQuotaSummary": false,
+			"readOnly": true
+        },
+		{
+            "id": "quota_region_test1",
+			"visibility": null,
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel":"Region test1",
+			"infoBalloonText": "It is always global for Traffic Manager.",
+            "watermarkText":"Global",
+            "required": false,
+            "includeInQuotaSummary": false,
+			"visible": false
+        }
+		{
+            "id": "quota_region_test2",
+			"visibility": null,
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel":"Region",
+			"infoBalloonText": "It is always global for Traffic Manager.",
+            "watermarkText":"Global",
+            "required": false,
+            "includeInQuotaSummary": false,
+			"dropdownOptions": [
+				{
+					"text": "Global",
+					"value": "Global"
+				},
+                {
+                    "text": "NA",
+                    "value": "dont_know_answer"
+                }
+			],
+            "readOnly": true
+        }
 	]
 }
 ---
