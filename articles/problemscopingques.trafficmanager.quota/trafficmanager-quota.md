@@ -20,7 +20,7 @@
 	"title": "Traffic Manager Quota",
 	"fileAttachmentHint": "",
 	"quotaRequestVersion": "1.0",
-	"formElements": 
+	"formElements":
 	[
 		{
 			"id": "quota_subtype",
@@ -142,14 +142,14 @@
 		{
             "id": "quota_region_test2",
 			"visibility": null,
-            "order": 2,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel":"Region test2",
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
             "includeInQuotaSummary": false,
-			"defaultDropdownOptions": 
+			"defaultDropdownOptions":
             {
 				"text": "Global",
 				"value": "Global"
