@@ -25,7 +25,7 @@ You can access the Activity log from most menus in the Azure portal. The menu th
 For some events, you can view the Change history, which shows what changes happened during that event time, you can see not only that the change, but what was the previous value before the change and what it was changed to.
  
 ### **Can’t see anything on the Activity Log**
-- Try increasing the “Timespan” to an older moment in time, like “Last 24 hours” or even older
+- Try increasing the 'Timespan' to an older moment in time, like 'Last 24 hours' or even older
 - Check if there are any other filter that can be filtering out values
 - Check if the right subscription, Resource Group and Resource is selected
 - The Time stamp of the activities are in UTC+0 by default
