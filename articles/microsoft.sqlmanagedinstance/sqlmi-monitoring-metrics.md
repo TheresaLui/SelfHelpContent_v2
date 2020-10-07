@@ -21,6 +21,25 @@
 
 The Azure portal enables monitoring of resource metrics for your Managed Instance. You can quickly monitor a variety of resource metrics, enabling you to see resource consumption at any given moment.
 
+You can configure diagnostic settings to [stream categories of metrics and resource logs](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) for managed instances to one of the following Azure resources.
+- [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#collect-to-log-analytics-workspace)
+  - Can be consumed by [SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
+  - Leverage other Azure Monitor features such as alerts and visualizations
+- [Azure Event Hubs](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#send-to-azure-event-hubs)
+  - Stream logs to third-party logging and telemetry systems
+  - Build a custom telemetry and logging platform
+  - View service health by streaming data to Power BI
+- [Azure Storage](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#send-to-azure-storage)
+  - Store data for longer periods
+  - Low cost storage
+
+You can enable and manage metrics and diagnostic telemetry logging by using one of the following methods:
+- Azure portal
+- PowerShell
+- Azure CLI
+- Azure Monitor REST API
+- Azure Resource Manager template
+
 
 
 ## **Recommended Documents**
