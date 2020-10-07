@@ -115,23 +115,35 @@
 			"readOnly": true
         },
 		{
-            "id": "quota_region_test1",
+            "id": "quota_region_test3",
 			"visibility": null,
             "order": 7,
             "controlType": "textbox",
-            "displayLabel":"Region test1",
+            "displayLabel":"Region test3",
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
             "includeInQuotaSummary": false,
 			"visible": false
-        }
+        },
+		{
+            "id": "quota_region_test4",
+			"visibility": null,
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel":"Region test4",
+			"infoBalloonText": "It is always global for Traffic Manager.",
+            "watermarkText":"Global",
+            "required": false,
+            "includeInQuotaSummary": false,
+			"metadata":"Global"
+        },
 		{
             "id": "quota_region_test2",
 			"visibility": null,
-            "order": 8,
+            "order": 9,
             "controlType": "dropdown",
-            "displayLabel":"Region",
+            "displayLabel":"Region test2",
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
