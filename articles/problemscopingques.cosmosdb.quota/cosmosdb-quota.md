@@ -49,6 +49,10 @@
                "value":"storageLimitIncrease"
             },
             {
+               "text":"Shared database throughput",
+               "value":"ruDatabaseShared"
+            },
+            {
                "text":"Other quota types",
                "value":"otherQuotas"
             }
@@ -71,24 +75,8 @@
                "value":"containerLimitIncrease"
             },
             {
-               "text":"RUs per database (shared)",
-               "value":"ruDatabaseShared"
-            },
-            {
-               "text":"Partitions per account",
-               "value":"partitionAccount"
-            },
-            {
-               "text":"Partition size",
-               "value":"partitionSize"
-            },
-            {
                "text":"Number of regional failover",
                "value":"regionalFailovers"
-            },
-            {
-               "text":"Partition key size",
-               "value":"partitionKeySize"
             },
             {
                "text":"Stored procedures per container",
@@ -179,7 +167,7 @@
       {
          "id":"unit_measureUnits_othersubtype",
          "order":6,
-         "visibility":"quota_othersubtype != partitionSize && quota_othersubtype != partitionKeySize && quota_othersubtype != tokenExpiryTime",
+         "visibility":"quota_othersubtype != tokenExpiryTime",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
@@ -191,22 +179,8 @@
          "displayLabel":"Please enter limit values using GigaBytes (GB) as your unit of measure"
       },
       {
-         "id":"gigabytes_measureUnits_othersubtype",
-         "order":8,
-         "visibility":"quota_othersubtype == partitionSize ",
-         "controlType":"textBlock",
-         "displayLabel":"Please enter limit values using GigaBytes (GB) as your unit of measure"
-      },
-      {
-         "id":"bytes_measureUnits",
-         "order":9,
-         "visibility":"quota_othersubtype == partitionKeySize",
-         "controlType":"textBlock",
-         "displayLabel":"Please enter limit values using Bytes as your unit of measure"
-      },
-      {
          "id":"minutes_measureUnits",
-         "order":10,
+         "order":8,
          "visibility":"quota_othersubtype == tokenExpiryTime",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using minutes (mm) as your unit of measure"
@@ -214,7 +188,7 @@
       {
          "id":"current_limit",
          "visibility":"quota_subtype != enableLocation",
-         "order":11,
+         "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
          "infoBalloonText":"Put the current limit value here.",
@@ -230,7 +204,7 @@
       {
          "id":"new_limit",
          "visibility":"quota_subtype != enableLocation",
-         "order":12,
+         "order":10,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
          "infoBalloonText":"Put the new value for the limit you are requesting here.",
@@ -246,7 +220,7 @@
       {
          "id":"business_justification",
          "visibility":"quota_subtype != null",
-         "order":13,
+         "order":11,
          "controlType":"multilinetextbox",
          "displayLabel":"Describe the business requirement",
          "watermarkText":"Provide business justification for your request",
