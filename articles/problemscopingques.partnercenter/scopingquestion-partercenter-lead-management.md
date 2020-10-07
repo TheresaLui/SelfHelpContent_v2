@@ -20,7 +20,7 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Marketplace Lead Management Issues",
-   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
+   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
