@@ -21,7 +21,7 @@
 
 Most users can resolve issues with Extended Events and SQL Profiler with Managed Instance, by following the information below.
 
-**Exetnded Events**
+**Extended Events**
 The [Extended Events](https://docs.microsoft.com/sql/relational-databases/extended-events/extended-events?view=sql-server-ver15) architecture enables users to collect as much or as little data as is necessary to troubleshoot or identify a performance problem. Extended Events is configurable, and it scales very well.
 
 Extended Events is a lightweight performance monitoring system that uses minimal performance resources. By using Extended Events, you can see details about the inner operations of the SQL system.
@@ -39,23 +39,23 @@ Most of our documentation about Extended Events applies to SQL Server, Azure SQL
   - Some Windows-specific targets for Extended Events (XEvents) aren't supported:
     - The etw_classic_sync target isn't supported. Store .xel files in Azure Blob storage. See [etw_classic_sync target](https://docs.microsoft.com/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server#etw_classic_sync_target-target).
     - The event_file target isn't supported. Store .xel files in Azure Blob storage. See [event_file target](https://docs.microsoft.com/sql/relational-databases/extended-events/targets-for-extended-events-in-sql-server#event_file-target).
-  - Some Transact-SQL code examples written for SQL Server on-premises need small changes to run on Azure SQL Database service in the Cloud.
+  - Some Transact-SQL code examples written for SQL Server on-premises need small changes to run on Azure SQL Database service in the cloud:
     - **server_**   -   prefix for on-premises (Ex.: server_event_session_actions)
     - **database_**   -   prefix for Azure SQL Database (Ex.: database_event_session_actions)
 - **SQL Profiler**
   - SQL Trace and SQL Server Profiler are deprecated. **Use Extended Events instead**.
-  - Azure SQL Database is not supported by SQL Server profiler, Managed Instance is supported.
-  - SQL Profiler doesn’t capture all events and data Extended Events capture.
+  - Azure SQL Database is not supported by SQL Server profiler. Managed Instance is supported.
+  - SQL Profiler doesn’t capture all events and data that Extended Events captures.
 
 ### **My session has stopped**
-- To be sure that after SQL service restart your Extended Event also starts, create or change your session with the following command: 
+- To ensure that after SQL service restarts, your Extended Event also starts, create or change your session: 
 `CREATE EVENT SESSION [<xevent_name>] ON SERVER WITH (STARTUP_STATE=ON)`
 
 ### **Can’t save Extended Events session data capture into a file**
 - To save the captured data into a Azure Storage blob, follow [these steps](https://techcommunity.microsoft.com/t5/azure-database-support-blog/extended-events-capture-step-by-step-walkthrough/ba-p/369013)
 
 ### **Permissions to run SQL Profiler**
-- The user must have ALTER TRACE permissions. Use this command: 
+- The user must have ALTER TRACE permissions: 
 `GRANT ALTER TRACE TO [username]`
 
 ### **Performance impact when using SQL Profiler**
