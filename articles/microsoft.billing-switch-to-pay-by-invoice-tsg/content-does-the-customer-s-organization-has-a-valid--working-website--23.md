@@ -17,4 +17,4 @@
 
 # Check if the customer's organization has a valid, working Website
 
-Obtain the URL of their Website showing Company Details (Address/Contact Info)
+Obtain the URL of their Website showing Company Details (Address/Contact Info). Validate the website and ensure the details are also updated in the GFS engagement template.
