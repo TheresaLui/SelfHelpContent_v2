@@ -42,7 +42,7 @@ For some events, you can view the Change history, which shows what changes happe
 - In some cases, the values in these columns will be in all uppercase. If you have a query that includes these columns, you should use the [=~ operator](https://docs.microsoft.com/azure/kusto/query/datatypes-string-operators) to do a case-insensitive comparison.
 
 ### **Can’t view logs older than 90 days**
-- The Activity log holds the last 90 days of operations.
+- The Activity log holds the last 90 days of operations
 - If you need to store Activity logs for more than 90 days, store them in Azure Storage
 
 ### **Where can the Activity log data be stored?**
@@ -66,5 +66,5 @@ For some events, you can view the Change history, which shows what changes happe
 ## **Recommended Documents**
 
 - [Azure Monitor logs](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-logs)
-- [REST API](https://docs.microsoft.com/rest/api/monitor/alertrules): [Activity log(s)](https://docs.microsoft.com/rest/api/monitor/activitylogs), [Activity log tenant events](https://docs.microsoft.com/rest/api/monitor/tenantactivitylogs), [(Activity log) event categories](https://docs.microsoft.com/rest/api/monitor/eventcategories) and [Activity log profiles](https://docs.microsoft.com/rest/api/monitor/logprofiles)
+- [REST API](https://docs.microsoft.com/rest/api/monitor/alertrules): [Activity log(s)](https://docs.microsoft.com/rest/api/monitor/activitylogs), [Activity log tenant events](https://docs.microsoft.com/rest/api/monitor/tenantactivitylogs), [(Activity log) event categories](https://docs.microsoft.com/rest/api/monitor/eventcategories), and [Activity log profiles](https://docs.microsoft.com/rest/api/monitor/logprofiles)
 - [Azure Monitor partner integrations](https://docs.microsoft.com/azure/azure-monitor/platform/partners)
