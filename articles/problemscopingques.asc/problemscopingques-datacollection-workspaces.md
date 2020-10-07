@@ -62,7 +62,7 @@
                 "required": true
                 },{
                     "id": "defender_plan_settings",
-                    "order": 3,
+                    "order": 5,
                     "controlType": "dropdown",
 					"visibility": "workspace_config == User workspace",
                     "displayLabel": "What is your workspace Azure Defender Plan Settings?",
