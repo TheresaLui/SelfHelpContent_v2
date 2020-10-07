@@ -20,8 +20,7 @@
 	"title": "Traffic Manager Quota",
 	"fileAttachmentHint": "",
 	"quotaRequestVersion": "1.0",
-	"formElements":
-	[
+	"formElements": [
 		{
 			"id": "quota_subtype",
 			"order": 1,
@@ -59,7 +58,7 @@
 					"value": "Global"
 				},
                 {
-                    "text": "NA",
+                    "text": "Not Applicable",
                     "value": "dont_know_answer"
                 }
 			]
@@ -74,7 +73,7 @@
 			"required": true,
 			"validations": [
 				{
-				    "type": "greaterthan",
+					"type": "greaterthan",
 					"value": 200
 				},
 				{
@@ -102,69 +101,7 @@
 			"watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
-		{
-            "id": "quota_region_test1",
-			"visibility": null,
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel":"Region test1",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"readOnly": true
-        },
-		{
-            "id": "quota_region_test3",
-			"visibility": null,
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel":"Region test3",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"visible": false
-        },
-		{
-            "id": "quota_region_test4",
-			"visibility": null,
-            "order": 8,
-            "controlType": "textbox",
-            "displayLabel":"Region test4",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"metadata":"Global"
-        },
-		{
-            "id": "quota_region_test6",
-			"visibility": null,
-            "order": 9,
-            "controlType": "dropdown",
-            "displayLabel":"Region test6",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"dropdownOptions": [
-				{
-					"text": "Global",
-					"value": "Global"
-				},
-                {
-                    "text": "NA",
-                    "value": "dont_know_answer"
-                }
-			],
-			"defaultDropdownOptions":
-            {
-				"text": "Global",
-				"value": "Global"
-            }
-        }
+		}
 	]
 }
 ---
