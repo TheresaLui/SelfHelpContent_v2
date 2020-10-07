@@ -142,7 +142,7 @@
 		{
             "id": "quota_region_test6",
 			"visibility": null,
-            "order": 2,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel":"Region test6",
 			"infoBalloonText": "It is always global for Traffic Manager.",
