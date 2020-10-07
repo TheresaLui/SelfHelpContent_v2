@@ -1,4 +1,4 @@
-<pdroperties
+<properties
 	pageTitle="Azure Defender - Data Collection - Workspaces"
 	description="Azure Defenderr - Data Collection - Workspaces"
 	authors="orbarak-ms"
