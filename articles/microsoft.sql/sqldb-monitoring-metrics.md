@@ -40,6 +40,8 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 - Azure Monitor REST API
 - Azure Resource Manager template
 
+## **Recommended Steps**
+
 ### There are periods where CPU\IO is reaching 100%, what is causing it?
 - Check with [Query Performance Insight](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use) to see if the high resource usage is due to the workload
 - You can also use [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios?view=sql-server-ver15#identify-and-tune-top-resource-consuming-queries) to identify and tune top resource-consuming queries
@@ -74,7 +76,7 @@ You can enable and manage metrics and diagnostic telemetry logging by using one 
 - Verify that the difference between the start date and the end date in the time picker doesn't exceed the 30-day interval.
 - Validate if the chart was edited and the [y-axis was locked on a specific boundary](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#lock-boundaries-of-chart-y-axis)
 
-### 'Error retrieving data' message on dashboard
+### "Error retrieving data" message on dashboard
 - This problem may happen if your dashboard was created with a metric that was later deprecated and removed from Azure. To verify that this is the case, open the Metrics tab of your resource, and check the available metrics in the metric picker. Update the failing tile by picking an alternative metric for your chart on the dashboard.
 
 ### Chart shows dashed line
