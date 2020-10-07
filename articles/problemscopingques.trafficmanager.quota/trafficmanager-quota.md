@@ -140,15 +140,25 @@
 			"metadata":"Global"
         },
 		{
-            "id": "quota_region_test2",
+            "id": "quota_region_test6",
 			"visibility": null,
-            "order": 9,
+            "order": 2,
             "controlType": "dropdown",
-            "displayLabel":"Region test2",
+            "displayLabel":"Region test6",
 			"infoBalloonText": "It is always global for Traffic Manager.",
             "watermarkText":"Global",
             "required": false,
             "includeInQuotaSummary": false,
+			"dropdownOptions": [
+				{
+					"text": "Global",
+					"value": "Global"
+				},
+                {
+                    "text": "NA",
+                    "value": "dont_know_answer"
+                }
+			]
 			"defaultDropdownOptions":
             {
 				"text": "Global",
