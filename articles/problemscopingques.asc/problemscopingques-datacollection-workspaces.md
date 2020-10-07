@@ -1,4 +1,4 @@
-<properties
+<pdroperties
 	pageTitle="Azure Defender - Data Collection - Workspaces"
 	description="Azure Defenderr - Data Collection - Workspaces"
 	authors="orbarak-ms"
@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="Azure_Security_Security_Center"
 />
-# Can't apply this label
+# Data Collection - Workspaces
 ---
 {
 				"$schema": "SelfHelpContent",
