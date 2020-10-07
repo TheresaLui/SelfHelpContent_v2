@@ -20,7 +20,8 @@
 	"title": "Traffic Manager Quota",
 	"fileAttachmentHint": "",
 	"quotaRequestVersion": "1.0",
-	"formElements": [
+	"formElements": 
+	[
 		{
 			"id": "quota_subtype",
 			"order": 1,
@@ -125,40 +126,6 @@
             "required": false,
             "includeInQuotaSummary": false,
 			"visible": false
-        },
-		{
-            "id": "quota_region_test4",
-			"visibility": null,
-            "order": 8,
-            "controlType": "textbox",
-            "displayLabel":"Region test4",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"metadata":"Global"
-        },
-		{
-            "id": "quota_region_test2",
-			"visibility": null,
-            "order": 9,
-            "controlType": "dropdown",
-            "displayLabel":"Region test2",
-			"infoBalloonText": "It is always global for Traffic Manager.",
-            "watermarkText":"Global",
-            "required": false,
-            "includeInQuotaSummary": false,
-			"dropdownOptions": [
-				{
-					"text": "Global",
-					"value": "Global"
-				},
-                {
-                    "text": "NA",
-                    "value": "dont_know_answer"
-                }
-			],
-            "readOnly": true
         }
 	]
 }
