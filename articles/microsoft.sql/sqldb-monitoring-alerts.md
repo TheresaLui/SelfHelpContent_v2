@@ -27,6 +27,8 @@ Database diagnostics telemetry is available in the form of [diagnostics logs](ht
 
 The consumption and [management](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-classic-portal) of alert instances requires the user to have the Azure built-in roles of either [Monitoring Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor) or [Monitoring Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader). These roles are supported at any Azure Resource Manager scope, from the subscription level to granular assignments at a resource level.
 
+## **Recommended Steps**
+
 ### Can’t create alerts using Azure Portal
 - Confirm that your resource name does not contain special characters
 - Try using [REST API](https://docs.microsoft.com/rest/api/monitor/alertrules), [CLI](https://docs.microsoft.com/cli/azure/monitor/alert?view=azure-cli-latest) ([Samples](https://docs.microsoft.com/azure/azure-monitor/samples/cli-samples#work-with-alerts)) or Powershell ([add-AzMetricAlertRuleV2](https://docs.microsoft.com/powershell/module/az.monitor/add-azmetricalertrulev2?view=azps-4.6.1), [Get-AzMetricAlertRuleV2](https://docs.microsoft.com/powershell/module/az.monitor/get-azmetricalertrulev2?view=azps-4.6.1), [New-AzMetricAlertRuleV2Criteria](https://docs.microsoft.com/powershell/module/az.monitor/new-azmetricalertrulev2criteria?view=azps-4.6.1), [New-AzMetricAlertRuleV2DimensionSelection](https://docs.microsoft.com/powershell/module/az.monitor/new-azmetricalertrulev2dimensionselection?view=azps-4.6.1) and [Remove-AzMetricAlertRuleV2](https://docs.microsoft.com/powershell/module/az.monitor/remove-azmetricalertrulev2?view=azps-4.6.1))
@@ -36,9 +38,7 @@ The consumption and [management](https://docs.microsoft.com/azure/azure-monitor/
 - If the aggregation type is configured to "Maximum," try changing it to "Average" in the alert
 - Try increasing the "Frequency of evaluation" of the alert
 
-Alerts can be [suppressed](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules?tabs=portal#suppression-of-alerts). For example, for a planned maintenance window from **Now (Always)**, **At a scheduled time** and **With a recurrence**.
-
-## **Recommended Steps**
+Alerts can be [suppressed](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules?tabs=portal#suppression-of-alerts). For example, for a planned maintenance window, you can suppress alerts from **Now (Always)**, **At a scheduled time**, and **With a recurrence**.
 
 ### Set up alerts for a SQL Managed Instance
 - To configure alerts for Azure SQL Database, see [Create alerts for Azure SQL Database and Azure Synapse Analytics by using the Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/alerts-insights-configure-portal)
