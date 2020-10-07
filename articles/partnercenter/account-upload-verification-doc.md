@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 
 * Click **Next** to create a ticket with one of the below accepted forms of proof attached
-<br></br>
+<br>
 
 Documents submitted must have been issued within the ***previous 12 months***.
  
