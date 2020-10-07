@@ -19,7 +19,7 @@
 
 # Resolve Metrics issues with Azure SQL Database
 
-The Azure portal enables monitoring of resource metrics for your Azure SQL Database. You can quickly monitor a variety of resource metrics, enabling you to see resource consumption at any given moment.
+The Azure Portal enables monitoring of resource metrics for your Azure SQL Database. You can quickly monitor a variety of resource metrics, enabling you to see resource consumption at any given moment.
 
 You can configure diagnostic settings to [stream categories of metrics and resource logs](https://docs.microsoft.com/azure/azure-sql/database/metrics-diagnostic-telemetry-logging-streaming-export-configure?tabs=azure-portal#diagnostic-telemetry-for-export) for single databases, pooled databases, and elastic pools to one of the following Azure resources:
 - [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs#collect-to-log-analytics-workspace)
@@ -34,7 +34,7 @@ You can configure diagnostic settings to [stream categories of metrics and resou
   - Low cost storage
 
 You can enable and manage metrics and diagnostic telemetry logging by using one of the following methods:
-- Azure portal
+- Azure Portal
 - PowerShell
 - Azure CLI
 - Azure Monitor REST API
@@ -87,9 +87,9 @@ The dashed line makes reading of these charts easier. However, if your chart is 
 
 ## **Recommended Documents**
 
-- Platform metrics: [Databases](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlserversdatabases)
-- Platform metrics: [Elastic pools](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlserverselasticpools)
-- Platform metrics: [Managed Instances](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlmanagedinstances)
+- [Platform metrics: Databases](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlserversdatabases)
+- [Platform metrics: Elastic pools](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlserverselasticpools)
+- [Platform metrics: Managed Instances](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftsqlmanagedinstances)
 - [Azure Monitoring REST API walkthrough](https://docs.microsoft.com/azure/azure-monitor/platform/rest-api-walkthrough)
 - [Troubleshooting metrics charts](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot)
 - [Getting started with Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)
