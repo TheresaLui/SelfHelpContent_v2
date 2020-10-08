@@ -16,12 +16,14 @@
 
 # Problem with enabling logging in runs
 
+Most users are able to resolve issues with enabling loggin in runs by using the following information.
+
 ## **Recommended Steps**
 
 ### Using the Azure ML SDK for logging
 For interactive logging and logging metrics in remote runs using the Azure ML logging APIs, see [Enable logging in Azure ML training runs](https://docs.microsoft.com/azure/machine-learning/how-to-track-experiments).
 
-#### Metric Document is too large
+#### Metric document is too large
 Azure Machine Learning has internal limits on the size of metric objects that can be logged at once from a training run. If you encounter a "Metric Document is too large" error when logging a list-valued metric, try splitting the list into smaller chunks, for example:
 
 ```
