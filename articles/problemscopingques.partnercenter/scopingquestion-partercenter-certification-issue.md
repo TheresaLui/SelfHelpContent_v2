@@ -165,7 +165,7 @@
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        }
