@@ -1,18 +1,16 @@
 <properties
-    pageTitle="Azure Security Center – Remediating Recommendations – How to Disable Recommendations"
-    description="Azure Security Center – Remediating Recommendations – How to Disable Recommendations"
-    authors="v-miegge"
-    ms.author="kawilson"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32693235"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="4bcd6bae-24d8-459b-875e-c824dd59511d"
-	ownershipId="Azure_Security_Security_Center"
-/>
-
+  pagetitle="Azure Security Center – Remediating Recommendations – How to Disable Recommendations"
+  description="Azure Security Center – Remediating Recommendations – How to Disable Recommendations"
+  authors="v-miegge"
+  ms.author="kawilson,elsagie"
+  displayorder=""
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="4bcd6bae-24d8-459b-875e-c824dd59511d"
+  ownershipid="Azure_Security_Security_Center" />
 # Azure Security Center – Remediating Recommendations – How to Disable Recommendations
 
 ## **Recommended Documents**

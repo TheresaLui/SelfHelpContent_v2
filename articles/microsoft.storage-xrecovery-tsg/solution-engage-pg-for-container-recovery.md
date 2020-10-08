@@ -33,7 +33,7 @@ New-AzureStorageContainerSASToken -Name "$containerName$" -Permission rl -StartT
 
 ~~~
 
-4. Create a Sev 2 ICM to WASU (or a Sev 3 to XStore PG) and provide only the Storage Account details and recovery request. Again, do NOT include the SAS Token in the ICM details. SAS Token must be shared only with the WASU/XStore engineer who will perform the recovery operation.<br>
+4. Create a Sev 3 ICM to WASU (or a Sev 3 to XStore PG) and provide only the Storage Account details and recovery request. Again, do NOT include the SAS Token in the ICM details. SAS Token must be shared only with the WASU/XStore engineer who will perform the recovery operation.<br>
 5. Once the responsible team on-call engineer is engaged, proceed to share the Customer's SAS token collected earlier in a private communication to that person.<br>
 
 <!--/issueDescription-->
