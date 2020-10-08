@@ -55,7 +55,3 @@ Your total snapshot size exceeds the limit of 300.0 MB
 ```
 
 For information on how to resolve this, see [Storage limits of experiment snapshot](https://docs.microsoft.com/azure/machine-learning/how-to-save-write-experiment-files#storage-limits-of-experiment-snapshots).
-
-### Run failure
-
-If you have a problem with a run failing, see the "Remote run fails" support topic.
