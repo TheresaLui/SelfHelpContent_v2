@@ -18,7 +18,7 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": false,
-  "title": "Alerts",
+  "title": "Metrics",
   "fileAttachmentHint": "",
   "formElements": [
     {
