@@ -1,4 +1,4 @@
-    <properties
+<properties
           pageTitle="Sent task to PTAs"
           description="Sent task to PTAs"
           service="Microsoft.Billing"
@@ -15,19 +15,17 @@
            ownershipId="ASMS_Billing"
     />
 
-    # Sent task to PTAs
+# Sent task to PTAs
 
-    <!--issueDescription-->
+<!--issueDescription-->
 
-Recommended Steps
+1. Create a task to TA/PTA
+2. Fill out the normal escalation form
+3. Provide all the details gathered from the customer along with the form
 
-Create a task to TA/PTA
-Fill out the normal escalation form
-Provide all the details gathered from the customer along with the form
+<!--/issueDescription-->
 
 # Recommended Documents
 
-1. [Internal Wiki Reference] https://internal.support.services.microsoft.com/en-us/help/2646862
-
-<!--/issueDescription-->
+1. [Internal Wiki Reference](https://internal.support.services.microsoft.com/en-us/help/2646862)
 
