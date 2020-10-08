@@ -49,10 +49,6 @@
                 {
                     "value": "Custom client using Management API or SDK",
                     "text": "Custom client using Management API or SDK"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't Know"
                 }
             ],
             "required": true
