@@ -151,7 +151,7 @@
 		   "value": "PrivatePreview_no",
 		   "text": "No"
 	       }],
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
@@ -173,7 +173,7 @@
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
