@@ -13,8 +13,8 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmi-monitoring-metrics.md"
-	ownershipId="AzureData_AzureSQLMI"
+	articleId="sqldb-monitoring-metrics.md"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve Metrics issues with Azure SQL Database
