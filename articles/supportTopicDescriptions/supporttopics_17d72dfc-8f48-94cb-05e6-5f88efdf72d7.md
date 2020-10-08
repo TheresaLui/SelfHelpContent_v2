@@ -1,4 +1,4 @@
-<properties 
+<properties
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
@@ -387,9 +387,9 @@
     {
       "id": "79c28470-7917-6671-055d-668754e214e0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Linux virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backup",
+      "searchTags": "backup;failed;on-demand;scheduled;jobs",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
