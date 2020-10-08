@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmi-monitoring-alerts.md"
+	articleId="sqldb-monitoring-alerts.md"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
