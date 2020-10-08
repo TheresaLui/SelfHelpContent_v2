@@ -25,7 +25,7 @@ Most users can resolve issues regarding Extended Events and SQL Profiler issues 
 
 The [Extended Events](https://docs.microsoft.com/sql/relational-databases/extended-events/extended-events?view=sql-server-ver15) architecture enables users to collect as much or as little data as is necessary to troubleshoot or identify a performance problem. Extended Events is configurable, and it scales very well.
 
-Extended Events is a lightweight performance monitoring system that uses minimal performance resources. By using extended events, you can see details about the inner operations of the SQL system.
+Extended Events is a lightweight performance monitoring system that uses minimal performance resources. By using Extended Events, you can see details about the inner operations of the SQL system.
 
 Most of our documentation about Extended Events applies to SQL Server, Azure SQL Database, and Azure SQL Managed Instance.
 
