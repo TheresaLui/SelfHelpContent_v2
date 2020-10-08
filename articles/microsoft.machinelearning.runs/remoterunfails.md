@@ -24,10 +24,12 @@ Most users are able to resolve issues with remote run fails by using the informa
 If you are running into ModuleErrors (no module named), it means that the training script is expecting a package to be installed, but the package missing in the training environment. You will need to ensure that your Azure ML environment includes the missing dependency. See [Create and manage Azure ML environments](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments).
 
 ### NameError (name not defined), AttributeError (object has no attribute)
-This exception should come from your training script. You can look at the log files from the Azure ML studio UI to get more information about the specific name not defined or the attribute error. From the SDK, you can use `run.get_details()` to view the error message. You'll also be able to see a list of all the log files generated for your run. Make sure to take a look at your training script and fix the error before resubmitting your run.
+This exception probably comes from your training script. Review the log files from the Azure ML studio UI to get more information about the specific name not defined or the attribute error. From the SDK, you can use `run.get_details()` to view the error message. You'll also be able to see a list of all the log files generated for your run.
+
+Make sure to take a look at your training script and fix the error before resubmitting your run.
 
 ### ImportError: No module named ruamel.yaml
-This issue is encountered with the installation of the Azure ML Python SDK on the latest pip (>20.1.1) in the conda base environment for all released versions of Azure Machine Learning SDK for Python. Use the following workarounds:
+You may see this error message when installing the Azure ML Python SDK on the latest pip (>20.1.1) in the conda base environment for all released versions of Azure Machine Learning SDK for Python. Use the following workarounds:
 
 * Do not install the Python SDK on the conda base environment. Instead, create a new conda environment and install the Python SDK there.
 * For creating custom Docker images where you cannot switch away from conda base environment, pin `pip<=20.1.1` in the dockerfile.
