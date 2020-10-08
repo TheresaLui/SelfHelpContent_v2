@@ -14,7 +14,7 @@
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmi-monitoring-xevents-profiler.md"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve Extended events and SQL Profiler issues with Azure SQL Database
