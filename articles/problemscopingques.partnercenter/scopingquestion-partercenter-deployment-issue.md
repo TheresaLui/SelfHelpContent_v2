@@ -144,14 +144,18 @@
            "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "PrivatePreview_yes",
-		   "text": "Yes"
+	       "value": "PrivatePreview_yes",
+	       "text": "Yes"
 	       },
 	       {
-		   "value": "PrivatePreview_no",
-		   "text": "No"
+	       "value": "PrivatePreview_no",
+	       "text": "No"
+	       },
+	       {
+	       "value": "dont_know_answer",
+	       "text": "Not sure"
 	       }],
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
@@ -173,7 +177,7 @@
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
