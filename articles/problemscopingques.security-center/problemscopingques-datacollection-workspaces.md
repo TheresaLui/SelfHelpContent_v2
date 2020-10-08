@@ -35,7 +35,7 @@
                             "text": "Off"
                         }
                     ],
-                    "required": false
+                    "required": true
                 },{
                     "id": "workspace_config",
                     "order": 3,
@@ -52,14 +52,14 @@
                             "text": "User workspace (Provide Name/ID below)"
                         }
                     ],
-                    "required": false
+                    "required": true
                 },{
                 "id": "user_workspace",
                 "order": 4,
 				"visibility": "workspace_config == User workspace",
                 "controlType": "textbox",
                 "displayLabel": "Please enter the Name/ID of your User Workspace",
-                "required": true
+                "required": false
                 },{
                     "id": "defender_plan_settings",
                     "order": 5,
