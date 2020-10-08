@@ -33,6 +33,7 @@ Before filing a support ticket you can find answers to many common questions:<br
 
 **Backup**<br>
 - [Why is my backup performance so slow?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)<br>
+- [Why Initial backup is taking lot of time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-initial-backup-is-taking-lot-of-time-to-complete)
 - [How to backup an **Encrypted Azure VM**?](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 - How to enable Backup using [Azure CLI](https://docs.microsoft.com/azure/backup/quick-backup-vm-cli) / [PowerShell?](https://docs.microsoft.com/azure/backup/quick-backup-vm-powershell)<br>
 - Unsupported Backup/restore configurations: ***Temp drive***, ***Deduplicated Disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)<br>
@@ -52,6 +53,7 @@ Before filing a support ticket you can find answers to many common questions:<br
 - Restore VM with special configurations - [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces), [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays)<br>
 - [Guidance for recovering files from VM backups with large disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#file-recovery-from-virtual-machine-backups-having-large-disks)<br>
 - [What are the available options to restore an Azure VM with managed/unmanaged (or) encrypted/un-encrypted configurations?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
+- [Why restore operation is taking long time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-restore-operation-is-taking-long-time-to-complete)
 
 **Delete backups**<br>
 - [How to delete VM that is in **soft delete state**?](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud)<br>
