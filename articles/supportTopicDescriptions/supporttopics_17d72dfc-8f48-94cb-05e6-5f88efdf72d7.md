@@ -1,4 +1,4 @@
-<properties 
+<properties
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
@@ -331,7 +331,7 @@
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "shortDescription": "Questions on how-to, guidelines, best practices. For error codes and failures, select relevant problem type",
       "searchTags": "Supported;Not supported;Price;How to configure",
       "category": "IaaS VM Advisory",
       "useInDiagnoseAndSolve": "false"
