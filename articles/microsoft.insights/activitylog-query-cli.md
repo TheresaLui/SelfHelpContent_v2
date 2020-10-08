@@ -10,7 +10,7 @@
     productPesIds="16251"
     supportTopicIds="32684692"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-     ownershipId="AzureMonitoring_AzureMetrics"
+     ownershipId="AzureMonitoring_ActivityLog"
 />
 
 # <-- configuring-query-cli -->

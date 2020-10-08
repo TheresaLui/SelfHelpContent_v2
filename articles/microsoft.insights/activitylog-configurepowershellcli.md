@@ -10,7 +10,7 @@
     productPesIds="16251"
     supportTopicIds="32684689"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-     ownershipId="AzureMonitoring_AzureMetrics"
+     ownershipId="AzureMonitoring_ActivityLog"
 />
 
 # <-- configuring-configure-powershellcli -->
