@@ -10,7 +10,7 @@
     productPesIds="16251"
     supportTopicIds="32684694"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-     ownershipId="AzureMonitoring_ActivityLog"
+     ownershipId="AzureMonitoring_AzureMetrics"
 />
 
 # <-- configuring-restapi -->
