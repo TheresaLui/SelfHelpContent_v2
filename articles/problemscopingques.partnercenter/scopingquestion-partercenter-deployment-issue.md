@@ -144,15 +144,15 @@
            "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "PrivatePreview_yes",
-		   "text": "Yes"
+	       "value": "PrivatePreview_yes",
+	       "text": "Yes"
 	       },
 	       {
-		   "value": "PrivatePreview_no",
-		   "text": "No"
+	       "value": "PrivatePreview_no",
+	       "text": "No"
 	       },
 	       {
-	       "value": "dont_know_answer"
+	       "value": "dont_know_answer",
 	       "text": "Not sure"
 	       }],
 	   "required": true
