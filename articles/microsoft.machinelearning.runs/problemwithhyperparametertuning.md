@@ -16,7 +16,10 @@
 
 # Problem with hyperparameter tuning
 
+Most users are able to resolve issues with hyperparameter tuning by using the information below.
+
 ## **Recommended Documents**
+
 * [Known Issues and troubleshooting in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/resource-known-issues)
 * [How to tune hyperparameters](https://docs.microsoft.com/azure/machine-learning/how-to-tune-hyperparameters)
 * [Define a hyperparameter search space](https://docs.microsoft.com/azure/machine-learning/how-to-tune-hyperparameters#define-search-space)
