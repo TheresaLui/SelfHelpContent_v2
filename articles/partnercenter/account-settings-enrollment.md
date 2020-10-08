@@ -20,8 +20,6 @@
 
 # Account settings - Enrollment and account creation
 
-Information about Partner Center enrollment.
-
 ## **Recommended Documents**
 
 * [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)

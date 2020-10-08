@@ -20,8 +20,6 @@
 
 # MPN - Competency requirements
 
-Resources providing knowledge on Competency requirements.
-
 ## **Recommended Steps**
 
 - **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)

@@ -29,4 +29,4 @@
 
 ## **Recommended Documents**
 
-* [Instructions for how to register a new deal](https://docs.microsoft.com/partner-center/register-deals#register-a-new-deal)
+* [Instructions for how to register a new deal](https://docs.microsoft.com/partner-center/register-deals#viewing-active-and-closed-deal-registrations)

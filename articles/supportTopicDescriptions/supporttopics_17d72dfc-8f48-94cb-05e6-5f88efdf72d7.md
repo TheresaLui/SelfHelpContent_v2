@@ -1,11 +1,11 @@
-<properties
-  pagetitle="Support topic description for Azure Backup"
+<properties 
+  pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
   ownershipid=""
   icmteam="icmteam"
@@ -70,6 +70,14 @@
       "shortDescription": "Issues related to MARS (Microsoft Azure Recovery Services) Agent for protecting files and folders in Windows",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0bdd4785-33cc-1d02-8f96-f09fbfbd70ac",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Backup Center used to govern, monitor, operate, and analyze backups at scale.",
+      "searchTags": "Backup Center;data is missing;incorrect results;unexpected results",
+      "category": "Backup Center",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -183,6 +191,14 @@
       "searchTags": "Soft delete;undelete",
       "category": "Vault",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "33ae5afb-30c4-b0dd-ada9-a36ab5fafa5d",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure Database for PostgreSQL servers. ",
+      "searchTags": "PostgreSQL;Backup;Restore;Schedule",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
@@ -611,7 +627,7 @@
     {
       "id": "cd167c00-fc25-ae4d-43b1-ac530eb6be1b",
       "longDescription": null,
-      "shortDescription": "Issue during backup to Disk or Tapes (not online backup) ",
+      "shortDescription": "Issue during backup to Disk or Tapes (not online backup)",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
@@ -635,9 +651,9 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue while configuring virtual machine backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backup.",
+      "searchTags": "configure;modify;stop",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -659,7 +675,7 @@
     {
       "id": "e2bc8d87-ac15-698b-4521-a8010fa3b7bc",
       "longDescription": null,
-      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
+      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"

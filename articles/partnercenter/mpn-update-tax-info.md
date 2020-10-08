@@ -13,12 +13,12 @@
 	supportTopicIds="32725825"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="17003"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Update tax ID/VAT ID
 
 ## **Recommended Documents**
 
-* [How to update tax ID/VAT ID](https://support.microsoft.com/help/4501523)
+* [How to update tax ID/VAT ID](https://docs.microsoft.com/partner-center/organization-tax-info)

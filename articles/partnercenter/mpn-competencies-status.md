@@ -20,8 +20,6 @@
 
 # MPN - Competency status
 
-Resources providing knowledge on Competency status
-
 ## **Recommended Steps**
 * **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com/) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)
 * Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies)

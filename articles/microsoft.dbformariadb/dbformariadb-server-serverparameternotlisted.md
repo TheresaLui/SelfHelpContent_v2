@@ -21,7 +21,7 @@ Azure Database for MariaDB allows you to configure parameters at a server level 
 
 ## **Recommended Steps**
 
-* Review the [non-configurable server parameters](https://docs.microsoft.com/azure/mariadb/howto-server-parameters#non-configurable-server-parameters)
+* Review the [non-configurable server parameters](https://docs.microsoft.com/azure/mariadb/concepts-server-parameters#non-configurable-server-parameters)
 * To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (ex. `log_bin_trust_function_creators`,`innodb_file_per_table` are locked on both master and replica). Refer to [documentation](https://docs.microsoft.com/azure/mariadb/concepts-read-replicas#server-parameters) for the list of parameters that are locked. To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and recreate replicas.
 * If the server parameter you want to update is not listed in the Azure portal, you can optionally set the parameter at the connection level using **init_connect**. Refer to [setting parameter not listed](https://docs.microsoft.com/azure/mariadb/howto-server-parameters#setting-parameters-not-listed)
 * To change the **time_zone** parameter, follow the [instructions](https://docs.microsoft.com/azure/mariadb/howto-server-parameters#working-with-the-time-zone-parameter) to populate the time zone table

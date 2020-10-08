@@ -21,4 +21,5 @@
 
 ## **Recommended Documents**
 
-* [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)<br>
+* [Configure alert settings](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#configure-alert-settings)<br>
+* [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)

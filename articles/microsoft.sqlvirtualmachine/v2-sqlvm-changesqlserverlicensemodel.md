@@ -1,35 +1,43 @@
 <properties
-	pageTitle="Change Licensing Model- Pay As You Go or Bring Your Own"
-	description="Change Licensing Model- Pay As You Go or Bring Your Own"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	articleId="c0b11a20-dda3-463c-9ce9-a22c1a8cbdd8"
-	selfHelpType="generic"
-	supportTopicIds="32740073"
-	resourceTags="WindowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	ownershipId="AzureData_AzureSQLVM"
-/>
+  pagetitle="Change Licensing Model"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="ujpat,vadeveka,amamun"
+  selfhelptype="Generic"
+  supporttopicids="32740073"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="c0b11a20-dda3-463c-9ce9-a22c1a8cbdd8"
+  ownershipid="AzureData_AzureSQLVM" />
+# Change Licensing Model
 
-# Change Licensing Model- Pay As You Go or Bring Your Own
+Most users who want to change the licensing model of SQL Server on Azure VM or who have related questions can resolve these issues by using the following steps.
 
 ## **Recommended Steps**
 
-* To change **the licensing model of SQL Server on Azure VM** from "Pay As You Go" to "Bring your own license" or Azure Hybrid benefit please follow the instructions to [change the license model for a SQL virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal)
-* To change SQL Server Version or Edition on Azure VM:
+To change licensing model of SQL Server on Azure VM, follow the instructions at [Change license model](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal&WT.mc_id=Portal-Microsoft_Azure_Support). You'll be able to change the licensing to or from pay-as-you-go, Azure Hybrid Benefit (Bring your own license: BYOL), or disaster recovery (DR).
 
-	- [Upgrade or downgrade SQL **Version**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version) (for example, change to or from SQL Server 2008/2008R2/2012/2016/2017/2019)
-	* [Upgrade or downgrade SQL **Edition**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition) (for example, change edition to or from SQL edition Standard/Enterprise/Express/Developer/Web)
+To change SQL Server **version or edition** on Azure VM:
 
+- To upgrade or downgrade the SQL **version**, follow the instructions at [in-place Change of SQL Server Version on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version). Example: Change the version to or from SQL Server 2008, 2008R2, 2012, 2016, 2017, 2019, and so on. 
+- To upgrade or downgrade the SQL **edition**, follow the instructions at [in-place change of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition)  Example: Change the edition to or from SQL edition Standard, Enterprise, Express, Developer, Web.
 
+To get SQL Server **installation media**, go to C:\SQLServerFull from an Azure Marketplace SQL Server VM image with the desired edition and version.
+
+To get a SQL Server setup **product key**, launch `setup.exe` from C:\SQLServerFull on the Azure VM that has the desired edition and version, copy the product key that appears in the install process, and exit the installer.
+
+To **remove SQL Server instance and the associated SQL billing** from a pay-as-you-go SQL VM, or if you are **getting charged for SQL instance after uninstalling it**: 
+- If necessary, after backing up your data, uninstall SQL Server completely, including the SQL IaaS extension   
+- Install the free [SQL Express](https://www.microsoft.com/sql-server/sql-server-downloads) edition 
+- Install SQL VM Resource Provider in [lightweight mode](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash)
+ 
 ## **Recommended Documents**
 
-* [Change the license model for a SQL virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal)
-* [In-place Change of SQL Server Version on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version)[In-place change of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition)
+* [Licensing FAQ](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/frequently-asked-questions-faq#licensing?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure Virtual Machine 
+* [Change the licensing model for a SQL VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal)
+* [In-place change of SQL Server version on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version)
 * [In-place change of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition)
-* [Licensing Frequently asked questions for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/frequently-asked-questions-faq#licensing)
-* [Register SQL Server virtual machine in Azure with the SQL VM resource provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+* [Licensing FAQ for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/frequently-asked-questions-faq#licensing)
+* [Register SQL Server VM in Azure with the SQL VM Resource Provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+* [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default?activetab=software-assurance-default-pivot%3aprimaryr3) overview

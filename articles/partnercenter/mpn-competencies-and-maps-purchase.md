@@ -20,8 +20,6 @@
 
 # MPN - competencies and MAPS purchasing
 
-How to start using your Microsoft Partner Network (MPN) membership benefits in the Partner Center.
-
 ## **Recommended Steps**
 
 * Existing membership can be renewed any day after the beginning of renewal start date. Please note that you cannot renew your membership until the renewal start date

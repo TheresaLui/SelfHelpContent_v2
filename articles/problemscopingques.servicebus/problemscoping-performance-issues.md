@@ -19,6 +19,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Performance and Latency issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -55,7 +56,7 @@ schemaVersion="1"
             "id": "problem_LocationOfClient",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What's the location of client experincing performance issue (for e.g. OnPrem, On Azure, Region etc)",
+            "displayLabel": "What's the location of client experiencing performance issue (for e.g. OnPrem, On Azure, Region etc). If Azure, please specify the Azure service name and specific resource name.",
             "required": false
         },
         {

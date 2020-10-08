@@ -20,17 +20,14 @@
 # Guest Agent Snapshot Task Status Error: Linux
 
 <!--issueDescription-->
-## **Could not communicate with the VM agent for snapshot status**
+Could not communicate with the VM agent for snapshot status.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that your backup operation might have failed, because our backup service could not communicate with the VM agent. To resolve this issue, follow the below steps:
-
-1. Guest agent might be outdated, stopped or unresponsive. Follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms) instructions to update and restart the agent.
-2. [Ensure Backup extension running on the VM has outbound access to Azure public IP addresses](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#establish-network-connectivity)
-3. Ensure there is enough free space in the **Root** drive
-4. Ensure there are no pending OS updates
-
+- We have identified that your backup operation might have failed, because our backup service could not communicate with the VM agent. To resolve this issue, follow the steps listed in this [section](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health).
+- Ensure [VM Extensions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health) and [VM Backup Extension](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health) are healthy 
+- Ensure there is enough free space in the **Root** drive
+- Ensure there are no pending OS updates
 
 ## **Recommended Documents**
 

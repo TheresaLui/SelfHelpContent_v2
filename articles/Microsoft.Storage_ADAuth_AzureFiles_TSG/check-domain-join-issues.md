@@ -17,6 +17,6 @@
 
 # Customer is facing domain join issues
 
-If the script does not work as expected, verify that the customer has the supported [Az.Storage 1.11.1-preview module](https://www.powershellgallery.com/packages/Az.Storage/1.11.1-preview) installed in their environment.
+If Join-AzStorageAccountForAuth script does not work as expected, verify the state of customer environment.Specifically, you must check if [Active Directory PowerShell](https://docs.microsoft.com/powershell/module/addsadministration/?view=win10-ps) is installed, and if the shell is being executed with administrator privileges. Then check to see if the [Az.Storage 2.0 module](https://www.powershellgallery.com/packages/Az.Storage/2.0.0) is installed, and install it if it isn't.
 
-Once verified that the customer has right Az.Storage module installed, please ask them to run the Join command using '-verbose' option and share the result.
+Once verified that the customer has right environment setup, please ask them to run the Join command using '-verbose' option and share the result.

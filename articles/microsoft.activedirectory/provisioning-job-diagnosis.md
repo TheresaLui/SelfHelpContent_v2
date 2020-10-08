@@ -20,9 +20,10 @@
 # PREVIEW: provisioning job analysis
 <!--issueDescription-->
 
+**Please view the below diagnosis information that may relate to your provisioning job.**
 <!--$issuesSection-->issuesSection<!--/$issuesSection-->
 
-We've analyzed your job and found the below:
+**We've analyzed your job and found the below:**
 <!--$jobHealthSection-->jobHealthSection<!--/$jobHealthSection-->
 
 <!--/issueDescription-->
