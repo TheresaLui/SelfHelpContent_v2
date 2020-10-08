@@ -150,6 +150,10 @@
 	       {
 		   "value": "PrivatePreview_no",
 		   "text": "No"
+	       },
+	       {
+	       "value": "dont_know_answer"
+	       "text": "Not sure"
 	       }],
 	   "required": true
        },
