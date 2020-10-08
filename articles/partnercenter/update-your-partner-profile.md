@@ -23,6 +23,8 @@
 
 If you are the global admin, billing admin, or admin agent, you can change the address that appears on your CSP invoice in your **Billing profile**. You can't, however, change the company name on your invoice because of a limitation with the invoice system.
 
+If you are not receiving "Invoice ready" notification emails, check your preferred email address in [My preferences](https://partner.microsoft.com/dashboard/engagement/preference).
+
 ## **Recommended Documents**
 
 * [Update your partner profile, including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)
