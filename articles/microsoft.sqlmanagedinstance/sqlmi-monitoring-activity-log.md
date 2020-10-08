@@ -30,13 +30,13 @@ For some events, you can view the Change history, which shows what changes happe
 - Check if the right subscription, Resource Group and Resource is selected
 - The Time stamp of the activities are in UTC+0 by default
  
-### **Can't delete or modify the events.**
+### **Can't delete or modify the events**
 - Entries in the Activity Log are system generated and cannot be changed or deleted.
  
-### **When querying the table Azure Activity it doesn't return anything.**
+### **When querying the table Azure Activity it doesn't return anything**
 - In some cases, the values in these columns may be in all uppercase. If you have a query that includes these columns, you should use the [=~ operator](https://docs.microsoft.com/azure/kusto/query/datatypes-string-operators) to do a case insensitive comparison.
 
-### **Can’t view logs older than 90 days.**
+### **Can’t view logs older than 90 days**
 - The Activity Log holds the last 90 days of operations.
 - If you need to store the Activity Logs for more than 90 day store them in Azure Storage
 
@@ -53,7 +53,7 @@ For some events, you can view the Change history, which shows what changes happe
   - Retain data for longer than 90 days
   - One JSON blob per hour
 
-### **Using Get-AzLog I can’t get the logs of last month.**
+### **Using Get-AzLog I can’t get the logs of last month**
 - Get-AzLog only provides 15 days of history. 
 - Using the **-MaxRecords** parameter allows you to query the last N events, beyond 15 days. 
 - To access events older than 15 days, use the REST API or SDK (C# sample using the SDK). If you do not include **StartTime**, then the default value is **EndTime** minus one hour. If you do not include **EndTime**, then the default value is current time. All times are in UTC.
