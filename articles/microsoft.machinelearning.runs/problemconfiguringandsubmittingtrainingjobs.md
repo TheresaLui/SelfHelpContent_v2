@@ -22,7 +22,7 @@ Most users can resolve issues regarding configuring and submitting training jobs
 
 ### Configure training jobs
 
-As of the Azure ML Python SDK 1.15.0 release, [ScriptRunConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.scriptrunconfig?view=azure-ml-py) is the recommended method for configuring your training runs. If you are having issues configuring runs with Estimators, upgrade your SDK to >= 1.15.0 and use ScriptRunConfig. 
+As of the Azure ML Python SDK 1.15.0 release, [ScriptRunConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.scriptrunconfig?view=azure-ml-py) is the recommended method for configuring your training runs. If you are having issues configuring runs with Estimators, upgrade your SDK to >= 1.15.0 and use `ScriptRunConfig`. 
 
 For more information and examples, see the following resources:
 
@@ -33,17 +33,17 @@ For more information and examples, see the following resources:
 
 ### Configure distributed training jobs
 
-For information on configuring distributed training jobs, see the following resources:
+TO configure distributed training jobs, see the following resources:
 
 * [Reference architecture of distributed training of deep learning models in Azure ML](https://docs.microsoft.com/azure/architecture/reference-architectures/ai/training-deep-learning)
 * [Distributed training with PyTorch](https://docs.microsoft.com/azure/machine-learning/how-to-train-pytorch#distributed-training)
 * [Distributed training with TejsorFlow](https://docs.microsoft.com/azure/machine-learning/how-to-train-tensorflow#distributed-training)
 
-### Where to write output files
+### Write output files
 
-To see how to write out files during training on remote compute so they are persisted, see [where to save and write files for Azure ML experiments](https://docs.microsoft.com/azure/machine-learning/how-to-save-write-experiment-files#where-to-write-files)
+For instructions on writing output files during training on remote compute so that they are persisted, see [where to save and write files for Azure ML experiments](https://docs.microsoft.com/azure/machine-learning/how-to-save-write-experiment-files#where-to-write-files).
 
-### Storage limits of code snapshots
+### Resolve error messages regarding storage limits of code snapshots
 
 Azure ML automatically takes a snapshot of your code based on the source_directory you specify when you configure the run. This snapshot has a total limit of 300 MB and/or 2000 files. 
 
@@ -54,4 +54,4 @@ While attempting to take snapshot of .
 Your total snapshot size exceeds the limit of 300.0 MB
 ```
 
-For information on how to resolve this, see [Storage limits of experiment snapshot](https://docs.microsoft.com/azure/machine-learning/how-to-save-write-experiment-files#storage-limits-of-experiment-snapshots).
+To resolve this, see [Storage limits of experiment snapshot](https://docs.microsoft.com/azure/machine-learning/how-to-save-write-experiment-files#storage-limits-of-experiment-snapshots).
