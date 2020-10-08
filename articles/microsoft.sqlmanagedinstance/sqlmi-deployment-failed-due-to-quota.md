@@ -21,9 +21,9 @@
 ## **Deployment request failed because it would exceed the quota allowance**
 
 <!--issueDescription-->  
-We detected that a Managed Instance named **<!--$ServerName-->ManagedInstanceResource<!--/$ServerName-->** in Resource Group **<!--$ServerName-->RGname<!--/$ServerName-->** failed to deploy around **<!--$ServerName-->eventTimestamp<!--/$ServerName-->**.  
+We detected that a Managed Instance named **<!--$ManagedInstanceResource-->ManagedInstanceResource<!--/$ManagedInstanceResource-->** in Resource Group **<!--$RGname-->RGname<!--/$RGname-->** failed to deploy around **<!--$eventTimestamp-->eventTimestamp<!--/$eventTimestamp-->**.  
 
-**<!--$ServerName-->Message<!--/$ServerName-->**
+**<!--$Message-->Message<!--/$Message-->**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
