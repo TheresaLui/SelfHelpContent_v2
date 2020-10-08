@@ -1,8 +1,6 @@
 <properties
-          pageTitle="Is the customer from The United States? 
- - Have customer to provide "Tax Exemption Form""
-          description="Is the customer from The United States? 
- - Have customer to provide "Tax Exemption Form""
+          pageTitle="Is the customer from The United States - Have customer to provide Tax Exemption Form"
+          description="Is the customer from The United States? - Have customer to provide Tax Exemption Form"
           service="Microsoft.Billing"
           resource="Microsoft.Billing/Subscriptions"
           authors="rimayber"

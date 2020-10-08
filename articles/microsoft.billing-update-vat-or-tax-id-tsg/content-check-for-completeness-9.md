@@ -1,4 +1,4 @@
-    <properties
+<properties
           pageTitle="Check for completeness"
           description="Check for completeness"
           service="Microsoft.Billing"
