@@ -12,7 +12,7 @@
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
-# SQL Database Managed Instance
+# Azure SQL Database
 ---
 {
   "$schema": "SelfHelpContent",
