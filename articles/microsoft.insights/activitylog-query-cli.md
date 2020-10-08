@@ -10,14 +10,12 @@
     productPesIds="16251"
     supportTopicIds="32684692"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-     ownershipId="AzureMonitoring_ActivityLog"
+     ownershipId="AzureMonitoring_AzureMetrics"
 />
 
 # <-- configuring-query-cli -->
-
 The activity log contains all write operations (PUT, POST, DELETE) for your resources. It doesn't include read operations (GET). You can use the activity logs to find an error when troubleshooting or to monitor how a user in your organization modified a resource.
 Follow the recommended steps if you are experiencing an issue with using querying activity logs using Azure CLI.
-
 
 ## **Recommended Steps**
 

@@ -14,10 +14,8 @@
 />
 
 # <-- configuring-restapi -->
-
 The activity log contains all write operations (PUT, POST, DELETE) for your resources. It doesn't include read operations (GET). You can use the activity logs to find an error when troubleshooting or to monitor how a user in your organization modified a resource.
 You can retrieve information from activity logs and export them by creating diagnostic logs settings via REST API
-
 
 ## **Recommended Steps**
 
