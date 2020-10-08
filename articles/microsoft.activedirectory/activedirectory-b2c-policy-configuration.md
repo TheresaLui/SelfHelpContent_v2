@@ -38,7 +38,7 @@ At this time, we do not support UI customization for "Sign-in" policies. You can
 
 ### **I am facing issues with API connectors**
 
-If you're facing issues with API connectors, please follow the best practices and troubleshooting recommendations found [here](https://docs.microsoft.com/azure/active-directory-b2c/add-api-connector)
+If you're facing issues with API connectors, please follow the best practices and troubleshooting recommendations found [here](https://docs.microsoft.com/azure/active-directory-b2c/add-api-connector).
 
 ## **Recommended Documents**
 
