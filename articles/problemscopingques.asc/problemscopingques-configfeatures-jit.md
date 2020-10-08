@@ -39,7 +39,7 @@
                             "text": "NSG Issue"
                         },
                         {
-                            "value": "i_dont_know",
+                            "value": "dont_know_answer",
                             "text": "Other"
                         }
                     ],
@@ -64,7 +64,7 @@
                             "text": "Using API/PowerShell/ARM Template/Other"
                         },
                         {
-                            "value": "i_dont_know",
+                            "value": "dont_know_answer",
                             "text": "Other"
                         }
                     ],
