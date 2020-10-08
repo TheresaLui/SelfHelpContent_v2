@@ -50,6 +50,10 @@
                         {
                             "value": "User workspace",
                             "text": "User workspace (Provide Name/ID below)"
+                        },
+						{
+                            "value": "dont_know_answer",
+                            "text": "Don't know"
                         }
                     ],
                     "required": true
