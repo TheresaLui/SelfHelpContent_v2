@@ -35,7 +35,7 @@
                             "text": "Off"
                         }
                     ],
-                    "required": true
+                    "required": false
                 },{
                     "id": "workspace_config",
                     "order": 3,
@@ -52,7 +52,7 @@
                             "text": "User workspace (Provide Name/ID below)"
                         }
                     ],
-                    "required": true
+                    "required": false
                 },{
                 "id": "user_workspace",
                 "order": 4,
