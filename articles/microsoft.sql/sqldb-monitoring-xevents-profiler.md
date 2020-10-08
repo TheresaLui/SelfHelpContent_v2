@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmi-monitoring-xevents-profiler.md"
+	articleId="sql-monitoring-xevents-profiler.md"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
