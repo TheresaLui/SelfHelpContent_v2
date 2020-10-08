@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="activitylog-query-missinglogs"
     productPesIds="16251"
-    supportTopicIds="32684695"
+    supportTopicIds="32684691"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_ActivityLog"
 />
