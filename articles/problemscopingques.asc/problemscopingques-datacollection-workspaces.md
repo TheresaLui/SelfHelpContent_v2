@@ -35,7 +35,7 @@
                             "text": "Off"
                         }
                     ],
-                    "required": false
+                    "required": true
                 },{
                     "id": "workspace_config",
                     "order": 3,
@@ -52,7 +52,7 @@
                             "text": "User workspace (Provide Name/ID below)"
                         }
                     ],
-                    "required": false
+                    "required": true
                 },{
                 "id": "user_workspace",
                 "order": 4,
@@ -86,8 +86,8 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "One",
-                            "text": "One"
+                            "value": "None",
+                            "text": "None"
                         },
                         {
                             "value": "Minimal",
