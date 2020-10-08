@@ -14,7 +14,7 @@
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmi-monitoring-alerts.md"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve Alert issues with Azure SQL Database
