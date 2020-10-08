@@ -62,7 +62,7 @@
             "required": true
         },
         {
-            "id": "problem_start_time",
+            "id": "delete_last_attempt",
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did you last attempt to delete the service?",
