@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Defender - Data Collection - Workspaces"
-	description="Azure Defenderr - Data Collection - Workspaces"
+	description="Azure Defender - Data Collection - Workspaces"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
