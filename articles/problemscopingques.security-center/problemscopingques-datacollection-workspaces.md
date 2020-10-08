@@ -33,6 +33,10 @@
                         {
                             "value": "Off",
                             "text": "Off"
+                        },
+						{
+                            "value": "dont_know_answer",
+                            "text": "Don't know"
                         }
                     ],
                     "required": true
