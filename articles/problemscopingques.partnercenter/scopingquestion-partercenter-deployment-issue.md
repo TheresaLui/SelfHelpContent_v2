@@ -27,7 +27,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
@@ -125,7 +125,7 @@
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
@@ -170,7 +170,7 @@
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
