@@ -54,8 +54,16 @@
             "required": true
         },
         {
-            "id": "delete_last_attempt",
+            "id": "problem_description",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional details",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "delete_last_attempt",
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did you last attempt to delete the service?",
             "required": true
