@@ -16,7 +16,7 @@
 
 # Problem with enabling logging in runs
 
-Most users are able to resolve issues with enabling loggin in runs by using the following information.
+Most users are able to resolve issues with enabling logging in runs by using the following information.
 
 ## **Recommended Steps**
 
