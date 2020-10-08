@@ -99,7 +99,7 @@
     {
             "id": "notifications",
             "order": 40,
-            "visibility": "type_issue == crud",
+            "visibility": "type_issue == crud || type_issue == trigger",
             "controlType": "multiselectdropdown",
             "displayLabel": "What are the alert notifications?",
             "watermarkText": "Choose all the options being used",
