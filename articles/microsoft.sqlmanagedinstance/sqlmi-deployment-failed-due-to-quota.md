@@ -23,7 +23,7 @@
 <!--issueDescription-->  
 We detected that a Managed Instance named **<!--$ManagedInstanceResource-->ManagedInstanceResource<!--/$ManagedInstanceResource-->** in Resource Group **<!--$RGname-->RGname<!--/$RGname-->** failed to deploy around **<!--$eventTimestamp-->eventTimestamp<!--/$eventTimestamp-->**.  
 
-**<!--$Message-->Message<!--/$Message-->**
+<!--$Message-->Message<!--/$Message-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**
