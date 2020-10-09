@@ -10,7 +10,6 @@
    articleId="7cd25d42-87e8-b2c6-92db-43555e41c55c"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
-
 # Issues related to the sytem health, telemetry, and logging for spatial analysis
 ---
 {
@@ -19,42 +18,38 @@
   "resourceRequired": true,
   "title": "Issues related to the camera placement and configuration for the use of the spatial analysis container",
   "fileAttachmentHint": "Please provide a screenshot of any errors",
-  "formElements": [
-{
+  "formElements": [{
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem begin?",
+      "required": true
+    },{
       "id": "spatial_analysis_telegraf",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Have you deployed the spatial-analysis-telegraf container? If so, what version?",
-      "useAsAdditionalDetails": true,
       "required": true
-    }
-
-    {
-      "id": "spatial-analysis-diagnostics",
+    },{
+      "id": "spatial_analysis_diagnostics",
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "Have you deployed the spatial-analysis-diagnostics container? If so, what version?",
-      "useAsAdditionalDetails": true,
-      "required": true
-    }
-
-    {
+      "required": false
+    },{
       "id": "logging_information",
-      "order": 3,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Have you retrieved any logging information? If so, post below.",
-      "useAsAdditionalDetails": true,
-      "required": true
-    }
-
-    {
+      "required": false
+    },{
       "id": "problem_description",
-      "order": 4,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Problem description",
       "watermarkText": "Can you provide details about the issue you are having regarding your AI operation output?",
       "useAsAdditionalDetails": true,
-      "required": false
+      "required": true
     }
   ]
 }
