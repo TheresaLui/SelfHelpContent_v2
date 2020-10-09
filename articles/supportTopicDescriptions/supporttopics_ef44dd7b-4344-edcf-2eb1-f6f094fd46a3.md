@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle"
+  ms.author="anvar, panshar, adoyle, deseelam"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -40,7 +40,7 @@
     {
       "id": "0b1f6dc4-bffb-f815-e06d-4a2ec47be9c7",
       "longDescription": "",
-      "shortDescription": "Issues related to a difference in count of servers discovered ",
+      "shortDescription": "Issues related to a difference in count of servers discovered",
       "searchTags": "count mismatch",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
@@ -73,7 +73,7 @@
       "id": "2547e8ff-ab92-dcb6-7f85-9b451aa5d5e5",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
-      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "searchTags": "connectivity with Azure VM;unable to connect;VM does not boot;unable to SSH;unable to RDP",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
@@ -88,7 +88,7 @@
     {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
-      "shortDescription": "How to delete appliance used for discovery ",
+      "shortDescription": "How to delete appliance used for discovery",
       "searchTags": "appliance deletion",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
@@ -129,8 +129,8 @@
       "id": "399a2a99-8faa-954f-13ec-807b6a5fd6d0",
       "longDescription": "",
       "shortDescription": "How to delete an Azure Migrate project",
-      "searchTags": "projectdeletion",
-      "category": "Tool",
+      "searchTags": "How to delete project",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4fa98d21-ff9f-7b43-aec3-6fe095de405d",
+      "longDescription": "",
+      "shortDescription": "Get information related to migrating to Azure including AWS and other clouds",
+      "searchTags": "Know more;Learn more",
+      "category": "Project",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
       "longDescription": "",
       "shortDescription": "Issues with dependency analysis",
@@ -201,7 +209,7 @@
       "id": "5a9f4892-0caf-822b-a4e0-7fb80cba9418",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy appliance for Physical assessments",
-      "searchTags": "onboarding;PhysicalAssessment",
+      "searchTags": "Install physical appliance;Setup physical appliance;Deploy physical appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
@@ -248,7 +256,7 @@
     {
       "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
       "longDescription": "",
-      "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
+      "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission.",
       "searchTags": "rdp;connectivity;boot;VM",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -281,7 +289,7 @@
       "id": "8d509ded-6fc9-c77f-9f77-ef68acf1acbd",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
-      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "searchTags": "connectivity with Azure VM;unable to connect;VM does not boot;unable to SSH;unable to RDP",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
@@ -304,9 +312,9 @@
     {
       "id": "96845980-d4cf-a2c9-42ab-424a5a08ff7e",
       "longDescription": "",
-      "shortDescription": "Issues related to project not found. ",
-      "searchTags": "project;not;found;notfound",
-      "category": "Tool",
+      "shortDescription": "Issues related to project not found.",
+      "searchTags": "Existing project;Missing project",
+      "category": "Project",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -360,7 +368,7 @@
     {
       "id": "bb8d2c9b-1e6a-8a2f-c830-feb96edaa58f",
       "longDescription": "",
-      "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines. ",
+      "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines.",
       "searchTags": "migrate",
       "category": "functionality",
       "useInDiagnoseAndSolve": "true"
@@ -390,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4b201a2-c076-197e-c1a7-e59f1c32cf44",
+      "longDescription": "",
+      "shortDescription": "Issues related to Hyper-V replication provider",
+      "searchTags": "Hyper-V host migration",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
       "shortDescription": "Issues encountered when users hit stop replication",
@@ -414,10 +430,18 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e218177a-92e4-c9a0-2273-f52ee7426379",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
-      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "searchTags": "unable to RDP;connectivity with Azure VM;unable to connect; VM does not boot;unable to SSH",
       "category": "Hyper-V to Azure",
       "useInDiagnoseAndSolve": "true"
     },
@@ -467,6 +491,14 @@
       "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
       "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
       "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa449d99-9897-5baf-c5d4-30df863e3c5f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
