@@ -68,7 +68,6 @@
             "displayLabel": "Provide the verbatim error message(s) you are receiving.",
             "watermarkText": "Provide the verbatim error message(s) you are receiving.",
             "required": true,
-            "useAsAdditionalDetails": false,
             "hints": [
                 {
                     "text": "If possible, please attach a screenshot of the error within the File upload section below. "
