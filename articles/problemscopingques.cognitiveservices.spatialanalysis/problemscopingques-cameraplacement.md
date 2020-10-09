@@ -35,7 +35,6 @@
       ],
       "required": true
     },
-
     {
       "id": "camera_usage_scenario",
       "order": 2,
