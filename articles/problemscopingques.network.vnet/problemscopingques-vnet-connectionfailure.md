@@ -27,7 +27,7 @@
     },
     "formElements": [
         {
-            "id": "from_vm",
+            "id": "VmName",
             "order": 1,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -54,7 +54,7 @@
             "required": true
         },
         {
-            "id": "port_number",
+            "id": "SelectedPorts",
             "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -149,9 +149,9 @@
             "required": true
         },
         {
-            "id": "other_port_number",
+            "id": "DestinationPorts",
             "order": 3,
-            "visibility": "port_number == dont_know_answer",
+            "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
