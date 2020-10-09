@@ -3,7 +3,7 @@
     description="Split staged files in the storage account to increase load performance"
     authors="kevin"
     ms.author="kevin"
-    articleId="dd93fbbf-e5ef-4c7c-886e-2bfef0958f45"
+    articleId="dd93fbbf-e5ef-4c7c-886e-2bfef0958f45_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureSQLDB_DataWarehouse"
