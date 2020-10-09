@@ -29,7 +29,7 @@
         },
         {
             "id": "index_name",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the name of the index you tried to create?",
             "required": false,
@@ -37,7 +37,7 @@
         },
         {
             "id": "delete_interface",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What client did you use to create the index?",
             "watermarkText": "Choose an option",
