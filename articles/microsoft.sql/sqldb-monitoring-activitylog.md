@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmi-monitoring-activity-log.md"
+	articleId="sqldb-monitoring-activitylog"
 	ownershipId="AzureData_AzureSQLMI"
 />
 
