@@ -1,10 +1,10 @@
 <properties 
   pageTitle="SQL Server Analysis Services (SSAS)"
   description="SQL Server Analysis Services (SSAS)"
-  authors="ujpat,amamun"
-  ms.author="ujpat,amamun"
+  authors="ujpat,amamun,amigan"
+  ms.author="ujpat,amamun,amigan"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740059"
+  supportTopicIds="32779856,32779857,32779858,32779859,32779860,32779861,32779862,32779863,32779864"
   productPesIds="14745"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
