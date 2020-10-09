@@ -41,8 +41,7 @@
       "id": "problem_description",
       "order": 4,
       "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
-      "watermarkText": "Can you provide details about the issue you are having regarding your AI operation output?",
+      "displayLabel": "Can you provide any additional details about the issue you are having regarding your container deployment?",
       "useAsAdditionalDetails": true,
       "required": true
     }
