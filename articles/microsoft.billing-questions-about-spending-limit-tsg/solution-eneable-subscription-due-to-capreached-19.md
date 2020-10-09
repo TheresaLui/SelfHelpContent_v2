@@ -30,3 +30,7 @@
 9. Click Upgrade.
 
 <!--/issueDescription-->
+
+## Recommended Documents
+
+1. [Enable subscription due to CapReached](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/upgrade-azure-subscription#upgrade-your-azure-free-account)

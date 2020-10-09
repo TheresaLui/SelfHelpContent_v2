@@ -18,3 +18,5 @@
 # Verify if the template has been filled and shared by customer under "Customer Statement" in SDC. 
 
 Review the template filled by the customer as shown at : [Azure cost management billing](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/pay-by-invoice)
+
+Validate the details against customer's Azure Account using CMAT/CST.
