@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for cddd3eb5-1830-b494-44fd-782f691479dc"
   description="SupportTopicDescriptions for cddd3eb5-1830-b494-44fd-782f691479dc"
   authors="elixirsys2"
-  ms.author="tibasham, scotro"
+  ms.author="tibasham, scotro, jlaborde"
   selfhelptype="SupportTopicDescription"
   productpesids="cddd3eb5-1830-b494-44fd-782f691479dc"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ae19c6a1-5367-d9ff-c393-da757944ff7e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Instance Metadata Service",
+      "searchTags": "Instance Metadata Service",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
@@ -996,6 +1004,14 @@
       "searchTags": "Deployment",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e60b001b-916f-78cd-bbb7-5ee4b3ac4034",
+      "longDescription": "",
+      "shortDescription": "Issues involving the importing or exporting of disks, including via a private link.",
+      "searchTags": "import;export;disks",
+      "category": "Disk Management",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "e6826775-d3e8-f596-5867-0b9c0241d1ac",

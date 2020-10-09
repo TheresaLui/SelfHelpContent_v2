@@ -51,7 +51,7 @@ To ensure an increased level of protection and redundancy for your application i
 * [Kernel crash dump guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 
 **General Azure**
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more, see the [Azure resource health overview](https://docs.microsoft.com/azure/resource-health/resource-health-overview).

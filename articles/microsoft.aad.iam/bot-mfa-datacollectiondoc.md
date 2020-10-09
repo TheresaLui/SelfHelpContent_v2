@@ -4,7 +4,7 @@
     authors="jameswang"
     ms.author="yixwang"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615515,32615519,32739619,32739617,32739616"
+    supportTopicIds="32739619,32739617,32739616"
     productPesIds="16579"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"

@@ -37,3 +37,5 @@ We further discussed future road-map on same and got to know that the goal is to
 4. No GUI/UX to enable custom metrics from portal yet. Configuring WAD (with custom metrics) needs to be done via ARM template which can be a little cumbersome.
 5. Enabling UX support in Portal i.e. modify Diagnostics Setting Blade to allow sending Guest Metrics to new pipeline (Sink "AzureMonitorSink") and make it default for newly created VMs is expected tentatively by August 2019. This should ease manual configuration efforts.
 6. Once new approach is established to solve the problem, Azure Monitor PG will brainstorm transition path to new approach (for existing VMs) and later consider deprecating the old approach.
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

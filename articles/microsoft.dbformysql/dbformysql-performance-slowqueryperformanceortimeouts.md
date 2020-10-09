@@ -3,8 +3,8 @@
     description="Troubleshooting query performance in Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="jan-eng"
-    ms.author="janeng"
+    authors="savjani"
+    ms.author="pariks"
     displayOrder="90"
     selfHelpType="generic"
     supportTopicIds="32640094"
@@ -18,6 +18,8 @@
 # Troubleshooting query performance in Azure Database for MySQL
 
 Query performance issues can have many different root causes. Work through the recommended steps to solve for the most common causes for performance issues.
+
+**NOTE**: **This functionality is currently only supported in Azure Database for MySQL Single server**.
 
 ## **Recommended Steps**
 

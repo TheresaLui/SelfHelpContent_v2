@@ -43,3 +43,5 @@ Azure Storage has implemented the same feature that allows you to limit connecti
 
 **Note:** If customer needs assistance following the above steps, please collaborate with Azure Synapse / SQL Data Warehouse team.
 
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.
