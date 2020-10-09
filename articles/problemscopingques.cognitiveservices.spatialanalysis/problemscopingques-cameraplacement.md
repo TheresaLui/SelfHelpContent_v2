@@ -29,14 +29,14 @@
       "controlType": "dropdown",
       "infoBalloonText": "string",
       "displayLabel": "Does your camera meet the required specs for running spatial analysis? Is your camera capable or streaming at 15FPS and 1080p resolution? Does your camera support Real Time Streaming Protocol (RTSP) and H.264 encoding?",
-			"watermarkText": "Choose an option",
+      "watermarkText": "Choose an option",
       "dropdownOptions": [{
-          "value": "Yes",
-          "text": "Yes"
-        },{
-          "value": "No",
-          "text": "No"
-        }
+	"value": "Yes",
+	"text": "Yes"
+	},{
+	"value": "No",
+	"text": "No"
+	}
       ],
       "required": true
     },{
@@ -45,7 +45,7 @@
       "controlType": "dropdown",
       "infoBalloonText": "string",
       "displayLabel": "Is your camera mounted on a wall, ceiling, or other device?",
-			"watermarkText": "Choose an option",
+      "watermarkText": "Choose an option",
       "dropdownOptions": [{
           "value": "Wall",
           "text": "Mounted on a wall"
