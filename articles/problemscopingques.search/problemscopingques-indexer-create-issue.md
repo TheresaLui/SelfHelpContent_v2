@@ -21,16 +21,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_description",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Additional details",
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
             "id": "create_error_message",
-            "order": 2,
+            "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
@@ -38,7 +30,7 @@
         },
         {
             "id": "interface",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What did you use to create the indexer?",
             "watermarkText": "Choose an option",
@@ -68,7 +60,7 @@
         },
         {
             "id": "data_source_firewall",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is your data source behind a firewall?",
             "watermarkText": "Choose an option",
@@ -90,7 +82,7 @@
         },
         {
             "id": "data_source_vnet",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is your data source inside a private network?",
             "watermarkText": "Choose an option",
@@ -108,6 +100,14 @@
                     "text": "Don't Know"
                 }
             ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional details",
+            "useAsAdditionalDetails": false,
             "required": true
         },
         {
