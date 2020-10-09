@@ -31,8 +31,8 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "",
-            "watermarkText": "	2. Provide details about the aspects of diagnostic logs that you need help understanding.",
+            "displayLabel": "Provide details about the aspects of diagnostic logs that you need help understanding.",
+            "watermarkText": "Provide details about the aspects of diagnostic logs that you need help understanding.",
             "required": true,
             "hints": [
                 {
@@ -47,7 +47,7 @@
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         }
     ],
     "$schema": "SelfHelpContent"
