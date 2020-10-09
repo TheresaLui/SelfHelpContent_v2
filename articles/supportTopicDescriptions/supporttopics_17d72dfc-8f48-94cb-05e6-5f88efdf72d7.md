@@ -1,4 +1,4 @@
-<properties 
+<properties
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
@@ -267,10 +267,10 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": "Issues specific to Azure Backup Service while protecting Azure Virtual Machine",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": ".",
+      "searchTags": "IaaS;virtual machine",
+      "category": "backup, restore, configuration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
@@ -331,7 +331,7 @@
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "shortDescription": "Questions on how-to, guidelines, best practices. For error codes and failures, select relevant problem type",
       "searchTags": "Supported;Not supported;Price;How to configure",
       "category": "IaaS VM Advisory",
       "useInDiagnoseAndSolve": "false"
@@ -347,7 +347,7 @@
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "shortDescription": "Backup failing with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and other guest agent issues.",
       "searchTags": "backup;failed;agent",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"

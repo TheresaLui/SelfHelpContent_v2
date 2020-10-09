@@ -17,7 +17,7 @@
 
 # Other Country
 
-Share the following pulic document with customer to select their billing country and get the payment instructions
+Share the following public document with customer to select their billing country and get the payment instructions
 
 ## Recommended Documents
 
