@@ -60,7 +60,7 @@
         {
             "id": "tried_additional_replicas",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "multiselectdropdown",
             "displayLabel": "Have you tried adding additional replicas?",
             "controlType": "dropdown",
             "watermarkText": "Choose an option",
@@ -72,6 +72,10 @@
                 {
                     "value": "false",
                     "text": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
