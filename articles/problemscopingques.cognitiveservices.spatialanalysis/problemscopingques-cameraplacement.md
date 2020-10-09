@@ -55,8 +55,7 @@
       ],
       "required": true
     },
-
-{
+    {
       "id": "other_information",
       "order": 3,
       "controlType": "multilinetextbox",
