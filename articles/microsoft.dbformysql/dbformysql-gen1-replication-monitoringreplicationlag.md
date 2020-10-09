@@ -22,7 +22,7 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * The *Replica lag* metric doesn't show any data: The **Replica Lag** metric is only applicable to replica servers. For each replica, this metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric.
-* The *Replica Lag* metric is showing high replication lag: refer to [troubleshoot replication latency in Azure Database for MySQL](./howto-troubleshoot-replication-latency.md).
+* The *Replica Lag* metric is showing high replication lag: refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency).
 * The *Replica lag* metric is increasing: Confirm if the configuration of the replica server matches the master. For example, if you have increased the master's vCores, ensure the replica server's vCores are equal or greater than the source.
 * Azure Database for MySQL uses **ROW** based binary logging. If your table is missing a primary key, all rows in the table are scanned for DML operations. This causes increased replication lag. To ensure that the replica is able to keep up with changes on the source, we generally recommend adding a primary key on tables in the source server before creating the replica server or re-creating the replica server if you already have one.
 
