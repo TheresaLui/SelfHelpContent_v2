@@ -3,7 +3,7 @@
     description="Unsupported Kubernetes version is detected"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="a12cf5e4-c3b3-44df-b365-8784f643453c"
+    articleId="a12cf5e4-c3b3-44df-b365-8784f643453c_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"
