@@ -28,7 +28,7 @@ We detected that a Managed Instance named **<!--$ManagedInstanceResource-->Manag
 
 ## **Recommended Steps**
 
-* Instead of a **Technical** issue type, please select **Service and subscription limits (quotas)** for **Issue type** in the previous step
+* Instead of a **Technical** issue type, select **Service and subscription limits (quotas)** for **Issue type** in the previous step
 * Use the following steps to request quota increase:
 
 	- Navigate to previous step by clicking on **<< Previous: Basics**
@@ -40,15 +40,15 @@ We detected that a Managed Instance named **<!--$ManagedInstanceResource-->Manag
 
 	- In the **Details** window, select **Enter details** to enter additional information
 
-* Clicking **Provide details** displays the **Quota details** window that allows you to add additional information, use the following steps:
+* Click **Provide details** to display the **Quota details** window that enables you to add additional information, with the following steps:
 
 	- In the **Region** list, select the Azure region to target
 	- Enter the new limits you are requesting for **Subnet** and **vCore**
 	
-    For more information, see [Overview Azure SQL Database managed instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits).
+For more information, see [Overview Azure SQL Database managed instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits).
 
 * Submit your request
 
-    The final step is to fill in the remaining details of your SQL Database quota request. Then select **Next: Review + create>>**, and after reviewing the request details, click **Create** to submit the request.
+The final step is to fill in the remaining details of your SQL Database quota request. Then select **Next: Review + create>>**, and after reviewing the request details, click **Create** to submit the request.
 
 After you submit your request, it will be reviewed. You will be contacted with an answer based on the information you provided in the form.
