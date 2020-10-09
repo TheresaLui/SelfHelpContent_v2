@@ -1,11 +1,11 @@
 <properties
-	pageTitle="Deploying Automated ML Models"
-	description="Deploying Automated ML Models"
+	pageTitle="Problem with model deployment"
+	description="Problem with model deployment"
 	infoBubbleText="Deploying Automated ML Models"
 	service="microsoft.machinelearning.automl"
 	resource="automl"
-	authors="Sabina"
-	ms.author="sacartac"
+	authors="Aniththa"
+	ms.author="anumamah"
 	supportTopicIds="32690853"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
@@ -14,7 +14,7 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Deploying Automated ML Models
+# Problem with model deployment
 
 Here you will learn how to deploy your AutoML models.
 
