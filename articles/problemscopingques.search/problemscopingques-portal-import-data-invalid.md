@@ -38,7 +38,7 @@
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last attempt to delete the service?",
+            "displayLabel": "When did the problem occur?",
             "required": true
         }
     ],
