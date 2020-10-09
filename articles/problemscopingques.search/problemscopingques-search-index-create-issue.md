@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received when you tried to create the index?",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         },
         {
