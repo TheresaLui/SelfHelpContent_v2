@@ -4,7 +4,7 @@
 	authors="liamca"
 	ms.author="liamca"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681361"
+	supportTopicIds="32681356"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
