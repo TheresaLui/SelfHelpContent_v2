@@ -31,7 +31,7 @@ Review the Github issues links below for your SDK platform to see if there is a 
 * [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
-* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
+* [Python SDK](https://github.com/Azure/azure-sdk-for-python/issues)  
 
 
 ### **Common Errors**  
