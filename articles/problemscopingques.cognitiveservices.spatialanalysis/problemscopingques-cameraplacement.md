@@ -59,7 +59,7 @@
       "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Where is your device mounted?",
-      "watermarkText": "If you selected "Mounted on another device" on the question above, what other device is your camera mounted on?",
+      "watermarkText": "If you selected 'Mounted on another device' on the question above, what other device is your camera mounted on?",
       "required": false
     },{
       "id": "problem_description",
