@@ -58,11 +58,10 @@
             "required": true
         },
         {
-            "id": "Have you tried adding additional replicas?",
+            "id": "tried_additional_replicas",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Have you tried adding additional replicas?",
-            "required": true
             "controlType": "dropdown",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
