@@ -36,8 +36,7 @@
       "displayLabel": "If your host computer is not an Azure Stack Edge Device, are you having issues with configuring IoT edge and registering your device as an IoT Edge via a connection string? ?",
       "useAsAdditionalDetails": true,
       "required": true
-    }
-
+    },
     {
       "id": "connection_string",
       "order": 3,
