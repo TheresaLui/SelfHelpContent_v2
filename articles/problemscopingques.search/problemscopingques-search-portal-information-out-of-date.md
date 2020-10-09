@@ -24,7 +24,8 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the information that was out of date?",
-            "required": true
+            "required": true,
+            "useAsAdditionalDetails": true
         },
 		{
             "id": "issue_timeframe",
@@ -40,6 +41,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
