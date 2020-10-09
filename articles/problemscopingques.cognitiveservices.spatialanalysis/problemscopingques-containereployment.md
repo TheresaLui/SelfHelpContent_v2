@@ -10,7 +10,6 @@
   articleId="235288f0-b30e-f736-5221-0d4b6323680f"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
-
 # Issues related to the container deployment for spatial analysis
 ---
 {
@@ -30,44 +29,35 @@
 Attach the results of your logs."
   ",
 
-  "formElements": [
-{
+  "formElements": [{
       "id": "container_version",
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What version is your container? Have you tried updating your container version and re-deploying?",
       "useAsAdditionalDetails": true,
       "required": true
-    }
-
-    {
+    },{
       "id": "deployment_method",
       "order": 3,
        "controlType": "radiobuttongroup",
       "displayLabel": "What method are you using to deploy the container?",
-      "radioButtonOptions": [
-        {
+      "radioButtonOptions": [{
           "value": "CLI",
           "text": "The Azure CLI"
-        },
-        {
+        },{
           "value": "Portal",
           "text": "The Azure Portal"
         }
       ],
       "required": true
-    },
-
-    {
+    },{
       "id": "sample_module",
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "Did you try deploying a sample module and were you successful?",
       "useAsAdditionalDetails": true,
       "required": true
-    }
-
-    {
+    },{
       "id": "problem_description",
       "order": 4,
       "controlType": "multilinetextbox",
