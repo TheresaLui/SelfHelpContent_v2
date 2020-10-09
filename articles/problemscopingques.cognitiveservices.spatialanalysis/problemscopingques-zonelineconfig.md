@@ -19,24 +19,26 @@
   "resourceRequired": true,
   "title": "Issues related to the camera placement and configuration for the use of the spatial analysis container",
   "fileAttachmentHint": "Please provide a screenshot of any errors",
-  "formElements": [
-{
+  "formElements": [{
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem begin?",
+      "required": true
+    },{
       "id": "companion_app_info",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Are you utilizing the Companion App for zone and line configuration? If so, what version?",
-      "useAsAdditionalDetails": true,
       "required": false
-    }
-
-    {
+    },{
       "id": "problem_description",
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "Problem description",
       "watermarkText": "Can you provide details about the issue you are having regarding zones and line configuration?",
       "useAsAdditionalDetails": true,
-      "required": false
+      "required": true
     }
   ]
 }
