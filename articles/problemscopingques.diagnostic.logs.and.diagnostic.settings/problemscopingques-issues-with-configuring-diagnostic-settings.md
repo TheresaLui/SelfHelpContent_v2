@@ -59,7 +59,7 @@
                     "text": "Other"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
