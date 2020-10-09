@@ -17,24 +17,18 @@
   "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Issues related to the spatial analyssis container deployment",
-  "fileAttachmentHint": "Are you able to gather any log information using the following commands:
-  	• Container logs:
-		○ sudo iotedge logs <your-container-name>
-	• Logs of the security manager:
-		○ sudo journalctl -u iotedge -f
-	• Comprehensive system logs:
-		○ sudo iotedge support-bundle --since 6h
-  What is the status of your containers when you run:
-	• sudo systemctl status iotedge
-Attach the results of your logs."
-  ",
-
+  "fileAttachmentHint": "Are you able to gather any log information using the following commands: Container logs: *sudo iotedge logs <your-container-name>*, Logs of the security manager: *sudo journalctl -u iotedge -f*, Comprehensive system logs: *sudo iotedge support-bundle --since 6h*. What is the status of your containers when you run: *sudo systemctl status iotedge*. Attach the results of your logs.",
   "formElements": [{
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem begin?",
+      "required": true
+    },{
       "id": "container_version",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "What version is your container? Have you tried updating your container version and re-deploying?",
-      "useAsAdditionalDetails": true,
       "required": true
     },{
       "id": "deployment_method",
@@ -52,19 +46,18 @@ Attach the results of your logs."
       "required": true
     },{
       "id": "sample_module",
-      "order": 3,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Did you try deploying a sample module and were you successful?",
-      "useAsAdditionalDetails": true,
       "required": true
     },{
       "id": "problem_description",
-      "order": 4,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Problem description",
       "watermarkText": "Can you provide any additional details about the issue you are having regarding your container deployment?",
       "useAsAdditionalDetails": true,
-      "required": false
+      "required": true
     }
   ]
 }
