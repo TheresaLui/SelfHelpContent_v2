@@ -36,7 +36,7 @@
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What is unexpected about your output and why?",
-      "required": true
+      "required": false
     },{
       "id": "problem_description",
       "order": 4,
