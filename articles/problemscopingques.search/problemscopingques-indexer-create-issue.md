@@ -57,7 +57,11 @@
                 },
                 {
                     "value": "other_answer",
-                    "text": "Other or Don't Know"
+                    "text": "Other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
