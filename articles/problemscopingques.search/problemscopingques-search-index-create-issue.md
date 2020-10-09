@@ -67,7 +67,7 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details",
             "useAsAdditionalDetails": false,
@@ -75,7 +75,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did you last attempt to delete the service?",
             "required": true
