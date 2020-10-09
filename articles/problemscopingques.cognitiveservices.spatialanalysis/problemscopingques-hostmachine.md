@@ -20,7 +20,6 @@
   "title": "Issues related to the host machine setup for the use of the spatial analysis container",
   "fileAttachmentHint": "Please provide a screenshot of any errors",
   "formElements": [
-
       {
       "id": "ASE_device",
       "order": 3,
