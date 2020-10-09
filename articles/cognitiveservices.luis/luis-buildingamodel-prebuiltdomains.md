@@ -22,7 +22,7 @@
 
 * Prebuilt domains are imported with a set of LUIS intents and entities that [cover common domains](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-prebuilt-domains) such as e-mail scenarios, restaurant reservations and others that are continuously being added
 
-* Choose the [Prebuilt domain](https://docs.microsoft.com/azure/cognitive-services/LUIS/howto-add-prebuilt-models#add-a-prebuilt-domain) you want to import and customize the domain by adding, removing, and modifying anything in the domain's intents and entities the way you do with your own applications
+* Choose the [Prebuilt domain](https://docs.microsoft.com/azure/cognitive-services/LUIS/howto-add-prebuilt-models#add-a-prebuilt-domain) you want to import and customize the domain by adding, removing, and modifying anything in the **domain's intents and entities** the way you do with your own applications
 
 * Prebuilt domains are regularly updated in terms of language and features. If a specific prebuilt domain is not available in a specific language, it is either because the language is still in preview, or it is still in progress
 
