@@ -18,7 +18,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Issues with configuring diagnostic settings",
-    "fileAttachmentHint": "If applicable, please upload a screenshot of the error.",
+    "fileAttachmentHint": "If possible, please upload a screenshot of the error.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -71,7 +71,7 @@
             "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "If possible, attach a screenshot of the error"
+                    "text": "If possible, please attach a screenshot of the error within the File Upload section below. "
                 }
             ]
         },
