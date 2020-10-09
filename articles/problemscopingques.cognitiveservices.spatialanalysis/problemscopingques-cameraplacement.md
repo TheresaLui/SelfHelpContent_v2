@@ -12,7 +12,6 @@
 />
 
 # Issues related to camera placement and configuration for spatial analysis usage
----
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
