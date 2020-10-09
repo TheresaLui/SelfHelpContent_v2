@@ -8,7 +8,7 @@
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="0e9a278b-ccb9-4176-8272-d8d6390d8d19"
+	articleId="15f6ed28-40ac-48bd-bf38-fd21744a3e02"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue with index data when using the import data wizard
