@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Selecting models in Azure Automated ML"
+    pageTitle="Problem selecting model and model performance"
     description="Select specific algorithms to be used or excluded in Azure Automated ML training"
     infoBubbleText="Selecting models in Azure Automated ML"
     service="microsoft.machinelearning.automl"
     resource="automl"
-    authors="CESARDELATORRE"
-    ms.author="cesardl"
+    authors="Aniththa"
+    ms.author="anumamah"
     supportTopicIds="32690882"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
@@ -20,7 +20,7 @@ By default, when using AutoML and after specifying what ML problem/task you want
 
 For further details on all the algorithms to be tried automatically by AutoML, you can review all of them in the article [Configure automated ML experiments in Python - Select your experiment type](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train#select-your-experiment-type).
 
-However, once you have tried multiple experiment runs for your particular dataset you might know that you want to discard certain algorithms that don't offer good results (blacklist algorithms). Or vice-versa, you might know that you only want to try a limited number of algorithms (whitelist algorithms). For those cases, here are the steps you can follow in order to select or block specific algorithms.
+However, once you have tried multiple experiment runs for your particular dataset you might know that you want to discard certain algorithms that don't offer good results (block algorithms). Or vice-versa, you might know that you only want to try a limited number of algorithms (allow algorithms). For those cases, here are the steps you can follow in order to select or block specific algorithms.
 
 There are two possible ways of doing this action with AutoML:
 * AutoML Python SDK
@@ -45,12 +45,12 @@ There are two possible ways of doing this action with AutoML:
 	automl_config = AutoMLConfig(task = "classification",
 								 training_data = train_dataset,
 								 label_column_name = "Age",
-								 whitelist_models=['LightGBM','SVM','LogisticRegression']
+								 allowed_models=['LightGBM','SVM','LogisticRegression']
 								 )
 	```
 This code basically means that AutoML child runs will only use the algorithms `LightGBM`, `SVM`, `LogisticRegression` while trying multiple combinations of hyper-parameters in the multiple child runs to be tried.
 
-3. If you want to blacklist a list algorithms, meaning to only block certain algorithms and try the rest of algorithms availabe in AutoML, add that list to the `blacklist_models` parameter like in the following code:
+3. If you want to block a list algorithms, meaning to only block certain algorithms and try the rest of algorithms availabe in AutoML, add that list to the `blocked_models` parameter like in the following code:
 	```
 	from azureml.train.automl import AutoMLConfig
 
@@ -58,12 +58,12 @@ This code basically means that AutoML child runs will only use the algorithms `L
 	automl_config = AutoMLConfig(task = "classification",
 								 training_data = train_dataset,
 								 label_column_name = "Age",
-								 blacklist_models=['DecisionTree','BernoulliNaiveBayes']
+								 blocked_models=['DecisionTree','BernoulliNaiveBayes']
 								 )
 	```
 This code basically means that AutoML child runs will try all the available algorithms in AutoML targeting the `classification` problem. only use the algorithms `LightGBM`, `SVM`, `LogisticRegression` while trying multiple combinations of hyper-parameters in the multiple child runs to be tried.
 
-4. Note that usually you will either whitelist or blacklist algorithms. It doesn't make much sense to use both at the same time.
+4. Note that usually you will either allow or block algorithms. It doesn't make much sense to use both at the same time.
 
 5. In order to find out the names of all the possible algorithms supported by AutoML (constants or name IDs to be provided in your code), consult that in the following AutoML SDK reference pages:
 
