@@ -5,7 +5,7 @@
     authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684710, 32684709, 32684708, 32684707, 32684706, 32684705, 32684704, 32684703"
+	supportTopicIds="32684710,32684709,32684708,32684707,32684706,32684705,32684704,32684703"
 	productPesIds="16875"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
@@ -71,7 +71,7 @@
             "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "If possible, please attach a screenshot of the error within the File Upload section below. "
+                    "text": "If possible, please attach a screenshot of the error within the File upload section below. "
                 }
             ]
         },
