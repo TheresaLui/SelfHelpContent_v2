@@ -67,11 +67,11 @@
 			      "dropdownOptions": [
                 {
                     "value": "portal",
-                    "text": "Azure portal"
+                    "text": "Azure Portal"
                 },
                 {
                     "value": "powershell",
-                    "text": "Powershell"
+                    "text": "PowerShell"
                 },
                 {
                     "value": "cli",
