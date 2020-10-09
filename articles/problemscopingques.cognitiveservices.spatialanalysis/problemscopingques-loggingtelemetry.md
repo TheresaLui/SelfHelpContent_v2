@@ -29,7 +29,7 @@
       "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Have you deployed the spatial-analysis-telegraf container? If so, what version?",
-      "required": true
+      "required": false
     },{
       "id": "spatial_analysis_diagnostics",
       "order": 3,
@@ -46,8 +46,7 @@
       "id": "problem_description",
       "order": 5,
       "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
-      "watermarkText": "Can you provide details about the issue you are having regarding your AI operation output?",
+      "displayLabel": "Can you provide any additional details about the issue you are having regarding your container deployment?",
       "useAsAdditionalDetails": true,
       "required": true
     }
