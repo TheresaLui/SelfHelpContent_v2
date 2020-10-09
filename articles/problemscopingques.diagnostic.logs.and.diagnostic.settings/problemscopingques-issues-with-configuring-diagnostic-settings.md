@@ -81,7 +81,7 @@
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
             "required": false,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
