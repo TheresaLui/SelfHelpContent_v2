@@ -17,7 +17,7 @@
   "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Issues related to the spatial analyssis container deployment",
-  "fileAttachmentHint": "Are you able to gather any log information using the following commands: Container logs: *sudo iotedge logs <your-container-name>*, Logs of the security manager: *sudo journalctl -u iotedge -f*, Comprehensive system logs: *sudo iotedge support-bundle --since 6h*. What is the status of your containers when you run: *sudo systemctl status iotedge*. Attach the results of your logs.",
+  "fileAttachmentHint": "Are you able to gather any log information using the following commands: Container logs: *sudo iotedge logs your-container-name*, Logs of the security manager: *sudo journalctl -u iotedge -f*, Comprehensive system logs: *sudo iotedge support-bundle --since 6h*. What is the status of your containers when you run: *sudo systemctl status iotedge*. Attach the results of your logs.",
   "formElements": [{
       "id": "problem_start_time",
       "order": 1,
@@ -49,7 +49,7 @@
       "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Did you try deploying a sample module and were you successful?",
-      "required": true
+      "required": false
     },{
       "id": "problem_description",
       "order": 5,
