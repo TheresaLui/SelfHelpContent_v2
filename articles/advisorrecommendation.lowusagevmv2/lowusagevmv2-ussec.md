@@ -105,7 +105,20 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [],
+  "additionalColumns": [
+      {
+        name: 'MaxCpuP95',
+        displayName: 'CPU (%)'
+      }, 
+      {
+        name: 'MaxTotalNetworkP95',
+        displayName:'Network (%)'
+      }, 
+      {
+        name: 'MaxMemoryP95',
+        displayName: 'Memory (%)'
+    }
+  ],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.microsoft.scloud"
   ],

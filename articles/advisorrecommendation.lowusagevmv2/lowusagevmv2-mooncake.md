@@ -104,7 +104,20 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [],
+  "additionalColumns": [
+      {
+        name: 'MaxCpuP95',
+        displayName: 'CPU (%)'
+      }, 
+      {
+        name: 'MaxTotalNetworkP95',
+        displayName:'Network (%)'
+      }, 
+      {
+        name: 'MaxMemoryP95',
+        displayName: 'Memory (%)'
+    }
+  ],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
   ],
