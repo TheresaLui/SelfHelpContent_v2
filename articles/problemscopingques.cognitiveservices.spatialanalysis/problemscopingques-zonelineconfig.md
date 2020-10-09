@@ -35,8 +35,7 @@
       "id": "problem_description",
       "order": 3,
       "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
-      "watermarkText": "Can you provide details about the issue you are having regarding zones and line configuration?",
+      "displayLabel": "Can you provide any additional details about the issue you are having regarding your container deployment?",
       "useAsAdditionalDetails": true,
       "required": true
     }
