@@ -23,8 +23,8 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the issue. Please provide examples of queries that are slow",
-            "required": false,
+            "displayLabel": "Additional details. If possible, provide examples of queries that are slow",
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
