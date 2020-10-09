@@ -20,8 +20,14 @@
   "title": "Issues related to the host machine setup for the use of the spatial analysis container",
   "fileAttachmentHint": "Please provide a screenshot of any errors",
   "formElements": [{
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem begin?",
+      "required": true
+    },{
       "id": "ASE_device",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "If your host computer is an Azure Stack Edge Device, have you met the prerequisite requirements including: activating your Azure Stack Edge Device, and getting access to a Windows client system running PowerShell 5.0 or later to access the device?",
       "useAsAdditionalDetails": true,
@@ -31,11 +37,10 @@
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "If your host computer is not an Azure Stack Edge Device, are you having issues with configuring IoT edge and registering your device as an IoT Edge via a connection string? ?",
-      "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },{
       "id": "connection_string",
-      "order": 3,
+      "order": 4,
       "controlType": "radiobuttongroup",
       "displayLabel": "Are you having any issues related to the retrieval of or use of your connection string?",
       "radioButtonOptions": [{
@@ -49,12 +54,12 @@
       "required": true
     },{
       "id": "problem_description",
-      "order": 3,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Problem description",
       "watermarkText": "Can you provide any additional details about the issue you are having regarding setting up your host computer?",
       "useAsAdditionalDetails": true,
-      "required": false
+      "required": true
     }
   ]
 }
