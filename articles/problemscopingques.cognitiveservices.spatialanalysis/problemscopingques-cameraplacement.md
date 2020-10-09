@@ -28,37 +28,18 @@
       "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Does your camera meet the required specs for running spatial analysis? Is your camera capable or streaming at 15FPS and 1080p resolution? Does your camera support Real Time Streaming Protocol (RTSP) and H.264 encoding?",
-      "watermarkText": "Choose an option",
+      "watermarkText": "Provide details below",
       "required": false
     },{
       "id": "camera_usage_scenario",
       "order": 3,
-      "controlType": "dropdown",
-      "infoBalloonText": "string",
-      "displayLabel": "Is your camera mounted on a wall, ceiling, or other device?",
-      "watermarkText": "Choose an option",
-      "dropdownOptions": [{
-          "value": "Wall",
-          "text": "Mounted on a wall"
-        },{
-          "value": "Ceiling",
-          "text": "Mounted on a ceiling"
-        },{
-          "value": "Other",
-          "text": "Mounted on another device"
-        }
-      ],
-      "required": true
-    },{
-      "id": "other_information",
-      "order": 4,
       "controlType": "multilinetextbox",
-      "displayLabel": "Where is your device mounted?",
-      "watermarkText": "If you selected *Mounted on another device* on the question above, what other device is your camera mounted on?",
+      "displayLabel": "Is your camera mounted on a wall, ceiling, or other device?",
+      "watermarkText": "Provide details below",
       "required": false
     },{
       "id": "problem_description",
-      "order": 5,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Problem description",
       "watermarkText": "Can you provide any additional details about the issue you are having regarding placing and configuring your camera?",
