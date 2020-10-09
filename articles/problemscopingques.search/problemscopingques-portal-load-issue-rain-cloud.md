@@ -31,7 +31,7 @@
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem occur?",
+            "displayLabel": "When did the problem last occur?",
             "required": true
         }
     ],
