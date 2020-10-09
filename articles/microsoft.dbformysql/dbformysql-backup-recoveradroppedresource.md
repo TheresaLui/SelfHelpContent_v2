@@ -47,5 +47,5 @@ You can also refer to [restore a dropped Azure Database for MySQL server](https:
 ## **Recommended Documents**
 
 * You can refer to [restore a dropped Azure Database for MySQL server](https://docs.microsoft.com/azure/mysql/howto-restore-dropped-server) to recover a dropped MySQL server resource within 5 days from the time of server deletion. The recommended steps will work only if the backup for the server is still available and not deleted from the system.
-* Azure Database for MySQL business continuity overview for [Single server](https://docs.microsoft.com/azure/mysql/concepts-business-continuity) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-servers/concepts-business-continuity)
+* Azure Database for MySQL business continuity overview for [Single server](https://docs.microsoft.com/azure/mysql/concepts-business-continuity) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-business-continuity)
 * [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)
