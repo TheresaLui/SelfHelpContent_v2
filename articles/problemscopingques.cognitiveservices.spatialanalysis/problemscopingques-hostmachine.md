@@ -30,7 +30,6 @@
       "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "If your host computer is an Azure Stack Edge Device, have you met the prerequisite requirements including: activating your Azure Stack Edge Device, and getting access to a Windows client system running PowerShell 5.0 or later to access the device?",
-      "useAsAdditionalDetails": true,
       "required": true
     },{
       "id": "non_ASE_device",
