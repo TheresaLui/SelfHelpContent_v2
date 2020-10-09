@@ -54,8 +54,7 @@
       "id": "problem_description",
       "order": 5,
       "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
-      "watermarkText": "Can you provide any additional details about the issue you are having regarding your container deployment?",
+      "displayLabel": "Can you provide any additional details about the issue you are having regarding your container deployment?",
       "useAsAdditionalDetails": true,
       "required": true
     }
