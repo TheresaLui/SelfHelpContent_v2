@@ -1,5 +1,5 @@
 <properties
-  pagetitle="SQL Server is Slow"
+  pagetitle="SQL Server Performance Best Practices "
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="ujpat,vadeveka,amamun"
@@ -10,9 +10,9 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="28ab511a-0786-4f89-8fd2-a209fec4aea9"
   ownershipid="AzureData_AzureSQLVM" />
-# SQL Server is Slow
+# SQL Server Performance Best Practices 
 
-If SQL Server is slow, most users can resolve issues by following the Recommended Steps and Recommended Documents below.
+If SQL Server is slow, most users can resolve issues by following the steps below.
 
 ## **Recommended Steps**
 
