@@ -35,7 +35,7 @@
             "useAsAdditionalDetails": true
         },
         {
-            "id": "indexing_error_message",
+            "id": "indexer_name",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the name of the indexer that had this issue?",
