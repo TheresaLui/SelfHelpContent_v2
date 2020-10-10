@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# How to set the spending limit again?
+# How to set the spending limit again
 
 1. This feature is available only when the spending limit has been removed.
 2. You can use this feature to turn on your spending limit automatically at the start of the next billing period.
