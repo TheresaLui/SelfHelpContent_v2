@@ -23,20 +23,28 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last have this issue?",
+            "displayLabel": "When did this issue occur?",
             "required": true
         },
         {
             "id": "indexing_error_message",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
             "useAsAdditionalDetails": true
         },
         {
+            "id": "indexing_error_message",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the indexer that had this issue?",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details",
             "useAsAdditionalDetails": false,
