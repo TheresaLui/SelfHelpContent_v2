@@ -31,7 +31,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What assistance do you need with SSAS? ",
+            "displayLabel": "What assistance do you need with SSAS?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
