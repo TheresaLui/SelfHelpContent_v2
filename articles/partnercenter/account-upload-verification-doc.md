@@ -23,7 +23,10 @@
 ## **Recommended Steps**
 
 * Click **Next** to create a ticket with one of the below accepted forms of proof attached
-###
+
+### 
+<br>
+
 Documents submitted must have been issued within the ***previous 12 months***.
  
 **Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
