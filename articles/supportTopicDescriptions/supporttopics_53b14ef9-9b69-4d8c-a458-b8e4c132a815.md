@@ -169,6 +169,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3c096d5b-27c3-7da8-1883-7adb5bb6b9fe",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS instances exception, memory dump generation, unexpected termination, being not responding and unable to start.",
+      "searchTags": "SSAS exception;SSAS termination;SSAS not responding",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "414e5b5c-a127-5260-1b38-975eefeba008",
       "longDescription": "",
       "shortDescription": "Questions or issues with the Report Viewer control",
