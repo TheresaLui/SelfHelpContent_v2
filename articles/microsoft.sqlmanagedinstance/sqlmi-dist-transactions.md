@@ -6,7 +6,7 @@
 	resource="servers"
 	authors="vtpombei"
 	ms.author="vtpombei"
-	displayOrder=""
+	displayOrder="1"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32749585"
