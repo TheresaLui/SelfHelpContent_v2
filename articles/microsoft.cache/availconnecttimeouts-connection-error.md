@@ -6,7 +6,7 @@
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder="21"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32690905"
 	resourceTags=""
 	productPesIds="14783"
@@ -21,8 +21,13 @@ Applications may receive connection errors when the client is unable to establis
 
 ## **Recommended Documents**
 
-* [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
-* [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
-* [TLS 1.0 and 1.1 are being retired](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-remove-tls-10-11)<br>
-* [VNET FAQ](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-vnet#azure-cache-for-redis-vnet-faq)<br>
-* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)
+
+* [Common causes of connection errors and how to fix them](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
+* [What is failover and how to make clients resilient to failover ](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover)<br>
+* [How does patching occur and how to make clients resilient to patching](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover#how-does-patching-occur)<br>
+* [Common configuration issues within VNET that causes connection errors](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-vnet#azure-cache-for-redis-vnet-faq)<br>
+* [Best practices for better performance and reducing errors](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
+* [Remove TLS 1.0 and 1.1](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-remove-tls-10-11)<br>
+* [Troubleshoot server side issues that causes connection errors](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
+* [Common causes for data loss](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
+* [Azure Cache for Redis complete documentation](https://docs.microsoft.com/azure/azure-cache-for-redis/)
