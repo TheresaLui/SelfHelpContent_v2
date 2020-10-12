@@ -29,23 +29,23 @@
             "required": true
         },
         {
-            "id": "is_reproducable",
+            "id": "is_reproducible",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Is the problem reproducable?",
+            "displayLabel": "Is the problem reproducible?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "yes",
-                    "text": "Yes, we can reproduce the problem consistently."
+                    "text": "Yes, we can reproduce the problem consistently"
                 },
                 {
                     "value": "no",
-                    "text": " No.  The problem occurs randomly."
+                    "text": " No.  The problem occurs randomly"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable."
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -73,7 +73,7 @@
             "required": false
         },
         {
-            "id": "read_commited_isolation",
+            "id": "read_committed_isolation",
             "order": 40,
             "controlType": "dropdown",
             "displayLabel": "The snapshot isolation option READ_COMMITTED_SNAPSHOT for the database is set to:",
@@ -111,11 +111,11 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
                     "text": "Dont't know"
                 },
                 {
-                    "value": "set_read_uncommited",
-                    "text": "Yes, set to READ UNCOMMITED"
+                    "value": "set_read_uncommitted",
+                    "text": "Yes, set to READ UNCOMMITTED"
                 },
                 {
-                    "value": "set_read_commited",
+                    "value": "set_read_committed",
                     "text": "Yes, set to READ COMMITTED"
                 },
                 {
@@ -145,7 +145,7 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
                     "text": "Yes (Please describe the timeout value in the Description)"
                 },
                 {
-                    "value": "not_sest",
+                    "value": "not_set",
                     "text": "No"
                 },
                 {
@@ -159,7 +159,7 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
             "id": "indexstat_maintenance",
             "order": 70,
             "controlType": "dropdown",
-            "displayLabel": "How frequent are the indexes and statistics maintened?",
+            "displayLabel": "How frequent are the indexes and statistics maintained?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -196,7 +196,7 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }

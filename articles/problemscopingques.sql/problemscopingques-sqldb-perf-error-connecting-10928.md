@@ -1,8 +1,8 @@
 <properties
 	articleId="problemscopingques-sqldb-error-connecting-10928"
 	pageTitle="Azure SQL Database"
-	description="Scoping questions to capture issues for erro 10928"
-	authors="akiohose"
+	description="Scoping questions to capture issues for error 10928"
+	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
 	selfHelpType="problemScopingQuestions"
@@ -43,7 +43,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }
