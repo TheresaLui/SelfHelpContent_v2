@@ -11,7 +11,7 @@
 	articleId="0e9a278b-ccb9-4176-8272-d8d6390d8d19"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Portal/Search Explorer issues
+# Portal/Search Explorer search query issue
 ---
 {
     "subscriptionRequired": true,

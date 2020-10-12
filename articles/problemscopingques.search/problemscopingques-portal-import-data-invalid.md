@@ -11,7 +11,7 @@
 	articleId="15f6ed28-40ac-48bd-bf38-fd21744a3e02"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue with index data when using the import data wizard
+# Issue with invalid data when using the import data wizard
 ---
 {
     "subscriptionRequired": true,

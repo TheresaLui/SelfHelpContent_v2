@@ -11,7 +11,7 @@
 	articleId="c5eba2c9-32ba-4970-bf41-2909a3a2e049"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issues with Azure Cognitive Search loading the portal (rain cloud icon)
+# Issues with Azure Cognitive Search loading the portal (reveived rain cloud icon)
 ---
 {
     "subscriptionRequired": true,

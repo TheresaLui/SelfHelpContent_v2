@@ -11,7 +11,7 @@
 	articleId="833ef6d4-7df5-48fa-bccd-042aeff5be30"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issues scaling an Azure Cognitive Search service in the portal
+# Issues scaling an Azure Cognitive Search service from the portal
 ---
 {
     "subscriptionRequired": true,

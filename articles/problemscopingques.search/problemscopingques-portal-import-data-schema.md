@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Portal import data wizard not suggesting the index schema"
-	description="Portal import data wizard not suggesting the index schema"
+	description="Portal import data wizard not suggesting the correct index schema"
 	authors="liamca"
 	ms.author="liamca"
 	selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@
 	articleId="b364a056-f57e-4cd8-8388-6aa3d2a2deff"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Portal import data wizard not suggesting the index schema
+# Portal import data wizard not suggesting the correct index schema
 ---
 {
     "subscriptionRequired": true,
