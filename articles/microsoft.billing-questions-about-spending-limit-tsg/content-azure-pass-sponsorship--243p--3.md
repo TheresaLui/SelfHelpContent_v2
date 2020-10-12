@@ -17,4 +17,4 @@
 
 # Azure Pass Sponsorship (243P)
 
-There is no monthly credit cap. There is only an overall usage cap (the maximum consumption value for an Azure Pass Sponsorship), which allows customers to spend Azure credits at their own pace up to the usage cap. The Azure Pass Sponsorship will end when the customer reaches either the usage cap or the duration of the subscription has come to an end, whichever occurs first.
+There is no monthly credit cap. There is only an overall usage cap (the maximum consumption value for an Azure Pass Sponsorship), which allows customers to spend Azure credits at their own pace up to the usage cap. The Azure Pass Sponsorship will end when the customer reaches either the usage cap or the duration of the subscription has come to an end, whichever occurs first..

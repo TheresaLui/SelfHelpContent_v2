@@ -27,7 +27,7 @@
     {
       "id": "051dfff9-0ab0-cf4a-def6-cd0d917f050d",
       "longDescription": "",
-      "shortDescription": "Questions or issues with virtual machine slowness or unresponsive",
+      "shortDescription": "Questions or issues with virtual machine slowness or unresponsiveness",
       "searchTags": "consumption;performance diagnostics;resource consumption;performance;slow vm;vm unresponsive;vm slow",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
@@ -35,7 +35,7 @@
     {
       "id": "08399bc4-65fe-30a4-6fe9-a6d0f8c702ad",
       "longDescription": "",
-      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in Native mode",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in native mode",
       "searchTags": "ssrs native mode;reporting services native mode",
       "category": "SSRS",
       "useInDiagnoseAndSolve": "true"
@@ -83,7 +83,7 @@
     {
       "id": "20025bf9-5950-2ec7-48eb-dfbd19b25cd9",
       "longDescription": "",
-      "shortDescription": "Questions or issues with database shrinking,file growth, space issues or database partitioning",
+      "shortDescription": "Questions or issues with database shrinking, file growth, space issues or database partitioning",
       "searchTags": "database shrinking;file growth;database partitioning;shrinking",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
@@ -99,7 +99,7 @@
     {
       "id": "227b3b98-f14f-16d0-dae0-9ed1d8509729",
       "longDescription": "",
-      "shortDescription": "Questions or issues with an Always On solution such as availability groups availability and failures,unexpected failovers,performance and probe port configuration",
+      "shortDescription": "Questions or issues with an Always On solution such as availability groups availability and failures, unexpected failovers, performance and probe port configuration",
       "searchTags": "alwayson;always on;primary;secondary;ha;listener;load balancer;ilb;availability group;ag;ag connectivity;availability group connectivity;probe port;always on latency;performance",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
@@ -169,6 +169,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3c096d5b-27c3-7da8-1883-7adb5bb6b9fe",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS instances exception, memory dump generation, unexpected termination, being not responding and unable to start.",
+      "searchTags": "SSAS exception;SSAS termination;SSAS not responding",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "414e5b5c-a127-5260-1b38-975eefeba008",
       "longDescription": "",
       "shortDescription": "Questions or issues with the Report Viewer control",
@@ -183,6 +191,14 @@
       "searchTags": "default instance;default;sql server instance;instance;connectivity;named instance;connect;cannot connect",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "4b92e6b1-e3a0-9c2b-2f8e-90e89e7cf55a",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Server Properties, Backup and Restore, Synchronization, Online Attach, DBCC and other  administrative operation",
+      "searchTags": "ssas management;ssas operation",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4b9dddd1-d3e4-ba74-9b4d-80bae2592bf0",
@@ -383,6 +399,14 @@
       "searchTags": "ha;cluster;windows cluster;failover;file share;",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "c13fdd46-3250-d9bc-6d99-301372971a50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connecting to SSAS instance on Azure VM",
+      "searchTags": "connection to SSAS;connecting to SSAS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",

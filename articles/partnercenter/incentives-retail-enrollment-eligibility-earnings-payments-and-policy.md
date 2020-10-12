@@ -23,7 +23,7 @@
  
 ## **Recommended Documents**
 
-**Enrollment & Eligibility**
+**Enrollment**
 
 * [View your incentive payments and programs](https://docs.microsoft.com/partner-center/understand-incentive-payouts)
 * [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
@@ -44,3 +44,7 @@
 **Still need help?**
 
 Please contact your Account Manager.
+
+**Support**
+
+[Retail Incentives FAQ's](https://support.microsoft.com/help/4515640)

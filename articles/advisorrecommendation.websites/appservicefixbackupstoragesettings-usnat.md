@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "bfc9fa96-6f4a-42b3-894f-29ff56b2bc89"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc_cn",
   "description": "Fix the backup storage settings of your App Service resource",
   "longDescription": "Your app's backups are consistently failing due to invalid storage settings, you can find more details in backup history.",
