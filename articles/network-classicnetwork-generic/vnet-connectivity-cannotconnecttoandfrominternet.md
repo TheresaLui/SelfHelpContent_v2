@@ -10,8 +10,9 @@
 	supportTopicIds="32584250"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1e7ff5db-a7c2-4165-93e7-1ec44b4f9583"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Diagnose and troubleshoot Azure connectivity issues to and from the internet

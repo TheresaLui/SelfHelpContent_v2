@@ -9,8 +9,9 @@
 	supportTopicIds="32608413"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="963f3368-e234-44d1-8ce0-32c03847a99d"
+	ownershipId="Compute_AppService"
 />
 
 # How To

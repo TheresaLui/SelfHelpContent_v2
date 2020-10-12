@@ -2,21 +2,24 @@
     pageTitle="Active Directory application dev development issue"
     description="appsdevdevelopdatacollectiondoc"
     authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570261"
-    productPesIds="14785,16575"
-    cloudEnvironments="public"
+    productPesIds="16575"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="32aa0b19-fee7-4350-af1c-9dffba151bd6"
-    />
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+/>
 
 # Active Directory application dev development issue
 
 ---
 {
+    "subscriptionrequired": false,
     "resourceRequired": false,
     "title": "Active Directory application dev development issue",
-    "fileAttachmentHint": null,
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "whichUser",
@@ -29,7 +32,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -46,7 +48,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -63,7 +64,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -80,7 +80,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -97,7 +96,22 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "tenantID",
+            "visibility": null,
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide target Tenant ID(s) (Comma separated, if multiple)",
+            "content": null,
+            "watermarkText": "Enter Tenant ID(s)",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -106,7 +120,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
@@ -114,7 +128,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": null,
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
@@ -122,7 +135,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

@@ -10,8 +10,9 @@
     supportTopicIds="32642154"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d5a1c151-4e2c-45ba-9a3a-476e450d1487"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # VMware/Physical to Azure - My application or crash consistent points are not generated

@@ -9,10 +9,11 @@
 	supportTopicIds="32636768"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-architecture-design"
 	displayOrder="41"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB - Architecture and design

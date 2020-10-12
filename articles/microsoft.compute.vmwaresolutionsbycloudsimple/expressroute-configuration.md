@@ -10,8 +10,9 @@
     supportTopicIds="32637581"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="df4ee233-dd8b-40a7-bee5-5c5981b839ad"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting expressroute configuration 

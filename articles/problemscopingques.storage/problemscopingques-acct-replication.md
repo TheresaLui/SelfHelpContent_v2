@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602702"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="EA7ACF79-D9CD-414E-B270-B863990F5DD3"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issue with changing storage account replication type
 ---

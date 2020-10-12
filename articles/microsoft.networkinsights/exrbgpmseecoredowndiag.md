@@ -12,8 +12,9 @@
 	supportTopicIds="32539944, 32539949, 32539954"
 	resourceTags="expressroute"
 	productPesIds="15480"
-	cloudEnvironments="public"
-	/>
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+		ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # BGP Peering Between MSEE and Microsoft Core Router Is Down
 <!--/issueDescription-->

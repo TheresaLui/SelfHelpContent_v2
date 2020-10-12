@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="apps_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d50bdc08-0270-4aea-9d5e-3588c1a7b52d"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My iOS users are able to save corporate data outside of policy protected apps by using the Open In extension.

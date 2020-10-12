@@ -6,16 +6,18 @@ articleId="problemscopingques-Non_VM_data_appears_with_delay"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633019"
+supportTopicIds="32745411"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Data appears with delay
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [

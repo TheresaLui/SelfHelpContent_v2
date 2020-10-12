@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="09ec1923-48fb-4b58-ae6e-274ffba61fa5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # User devices are no longer receiving SCEP certificates from NDES.

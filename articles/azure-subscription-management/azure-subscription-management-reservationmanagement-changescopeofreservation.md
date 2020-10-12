@@ -10,8 +10,9 @@
 	supportTopicIds="32593232"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="2ab6a0c4-21ea-49f0-a88c-60597e4e38a3"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Reservation Owner or Tenant
@@ -37,7 +38,7 @@ Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure
 Learn more: [Change reservation scope](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance#change-the-reservation-scope)<br>
 
 The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
-To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal. 
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal. 
 
 ### Reserved Instance Exchange
 

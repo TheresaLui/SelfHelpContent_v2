@@ -6,17 +6,18 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675756"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
         articleId="ddb7ef68-ca90-4454-a6eb-0f04e8e2761d"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Not able to connect to the Azure VM after migration
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Not able to connect to the Azure VM after migration",
     "fileAttachmentHint": "",
     "formElements": [

@@ -10,8 +10,9 @@
 	supportTopicIds="32677709"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0bd21bf8-50ad-4c1d-9775-459f2e8f4962"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Machine Learning

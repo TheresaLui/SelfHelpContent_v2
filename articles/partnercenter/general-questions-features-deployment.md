@@ -10,11 +10,12 @@
 	articleId="general_questions_features_deployment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635691"
+	supportTopicIds="32729538"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Product Feature and deployment questions
@@ -23,11 +24,11 @@ CSP partner support is not the best place to ask these questions, instead utiliz
 
 ## **Recommended Steps**
 
-* If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
-* If your MPN has not been migrated to partner center, use your technical presales and deployment service benefits to get phone or chat via the regional service center who will create an Advisory ticket. Instructions about this are [here](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services).  
+If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
+
 
 ## **Recommended Documents**
 
 * [Partner Membership Center to Partner Dashboard Transition Guide](https://assetsprod.microsoft.com/mpn/membership-account-set-up-guide.pdf)
-* Migration from Partner Membership Center (PMC) to Partner Center (PC): a [step-by-step guide](https://support.microsoft.com/help/4503591/migration-from-partner-membership-center-pmc-to-partner-center-pc-a-st)
-* [Transition your partner membership account from Partner Membership Center to Partner Center](https://docs.microsoft.com/partner-center/pmc-to-partner-center)
+* [Guide to migrating from PMC to Partner Center](https://docs.microsoft.com/partner-center/guide-to-migration)
+* [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)

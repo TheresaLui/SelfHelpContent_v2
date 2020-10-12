@@ -10,8 +10,9 @@
 	supportTopicIds="32689192,32596860"
 	resourceTags=""
 	productPesIds="16952,16575"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
+	ownershipId="AzureIdentity_MSGraph"
 />
 
 # Microsoft Graph authentication token issues

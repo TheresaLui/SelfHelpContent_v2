@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599644"
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="6a980956-8f4d-45bf-811a-03a30719b024"
+	ownershipId="IntuneCxP_Intune"
 />
 # Enroll Devices - iOS Enrollment
 ---

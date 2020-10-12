@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32690523"
     productPesIds="16922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="710961cc-a034-4550-be70-2069dc2e00ff"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Question about attract Traffic to secure virtual Hub (Routing)
 ---

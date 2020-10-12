@@ -10,8 +10,9 @@
     supportTopicIds="32637604"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="0c24ae6d-5aee-4cff-bcd9-36e9725da3da"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud deletion

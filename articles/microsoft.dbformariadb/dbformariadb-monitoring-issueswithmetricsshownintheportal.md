@@ -10,8 +10,9 @@
     supportTopicIds="32640128"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d29c4a5d-7cd5-4fe0-bec0-eb66f54f575f"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Issues with metrics shown in the portal
@@ -29,6 +30,10 @@ Most users are able to resolve their issue using the steps below.
 * Metric show different value at different time:
 
     * Please note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
+
+* Unable to view query text in Query Performance Insights:
+
+    * You must have an Owner or Contributor role to view the text of the queries in Query Performance Insight. If you have a Reader role, you can view charts and tables but not query text.
 
 ## **Recommended Documents**
 

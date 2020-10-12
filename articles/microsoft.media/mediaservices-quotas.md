@@ -12,7 +12,8 @@
 	supportTopicIds="32632070"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Manage Azure Media Services quotas

@@ -9,8 +9,9 @@
 	supportTopicIds="32599611"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f2c918bf-e2a2-4aa1-9076-e5235c3d0579"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure email settings

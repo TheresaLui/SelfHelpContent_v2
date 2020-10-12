@@ -10,8 +10,9 @@
 	supportTopicIds="32680692"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="issueswithpurchasesignuporupgrade-browserissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,sign up or upgrade - browser issues

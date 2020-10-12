@@ -9,8 +9,9 @@
 	supportTopicIds="32599624"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2074c917-8ebe-478b-a161-1e20062cc7b5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Create an Android for Work Policy

@@ -9,8 +9,9 @@
     supportTopicIds="32615411"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="304620c6-e279-475c-9656-bb2f0aeff0bd"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem identifying global administrator

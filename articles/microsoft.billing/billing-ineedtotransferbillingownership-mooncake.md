@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-ineedtotransferbillingownership-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # I need to transfer billing ownership

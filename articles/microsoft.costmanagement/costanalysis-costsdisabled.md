@@ -12,10 +12,11 @@
 	resourceTags=""
 	productPesIds="15659"
 	supportTopicIds="32615286"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="ASMS_Billing"
 />
 
-# What does "costs are disabled for your organization" mean?
+# What does 'costs are disabled for your organization' mean?
 
 Organizations using Enterprise Agreement (EA) or Microsoft Customer Agreement (MCA) accounts can disable access to cost and pricing information. When this access has been disabled, you may see a "Costs disabled for your organization" message. Contact a billing account or billing profile owner to enable access to costs.
 
@@ -25,7 +26,9 @@ MCA billing profiles have a single "View charges" option, which allows subscript
 
 When costs are enabled for subscription users, access to costs is determined by Azure RBAC roles, which can be assigned at a resource group, subscription, or management group level.
 
-Whether you are using an EA or MCA account, all cost visibility settings are recommended to be enabled to ensure everyone within the organization is aware of the fiscal impact they're making with their cloud architecture choices and has an opportunity to optimize them.
+Whether you are using an EA or MCA account, all cost visibility settings are recommended to be enabled to ensure everyone within the organization is aware of the fiscal impact they're making with their cloud architecture choices and has an opportunity to optimize them.<br>
+
+CSPs and Indirect EAs have their reseller enable Markup for them to be able to view costs in Azure Cost Management.<br>
 
 ## **Recommended Steps**
 

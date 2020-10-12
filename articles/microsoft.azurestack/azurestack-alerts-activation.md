@@ -2,16 +2,17 @@
     pageTitle="Azure Stack VM Activation"
     description="Azure Stack Windows Activation issues"
     service="microsoft.azurestack"
-    resource="azurestack"
+    resource="registrations"
     authors="alexsmithMSFT"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32630572"
     resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public"
+    productPesIds="16226, 17058, 17131, 17057"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-alerts-activation"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Activation

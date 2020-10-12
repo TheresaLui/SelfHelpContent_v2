@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690771"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="6c125eb4-ae40-4a69-afc9-a512bfd7533e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for SAP HANA How to and general questions
 ---

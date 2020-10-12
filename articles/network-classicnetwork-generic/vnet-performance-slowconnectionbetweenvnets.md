@@ -10,8 +10,9 @@
 	supportTopicIds="32547257"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="731f1dc0-bd7e-4e80-8776-12b1f869870b"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Slow connectivity between virtual networks

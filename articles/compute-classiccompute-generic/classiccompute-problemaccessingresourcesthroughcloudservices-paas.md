@@ -9,8 +9,9 @@
 	supportTopicIds="32565483"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c2d925d0-cffe-4049-bcf8-5689e0d5584b"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Connectivity/Problem accessing resource through Cloud Services

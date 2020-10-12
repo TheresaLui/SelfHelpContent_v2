@@ -12,8 +12,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="023f725e-1d77-4f07-a760-f2b706725bf3"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # ADFS and SharePoint connections fail behind load balancer over VPN

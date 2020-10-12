@@ -6,11 +6,12 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608950"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-errors-and-exceptions-sf"
+	ownershipId="Compute_ServiceFabric"
 />
-# Application Erros and Exception
+# Application Errors and Exceptions
 ---
 {
     "resourceRequired": false,

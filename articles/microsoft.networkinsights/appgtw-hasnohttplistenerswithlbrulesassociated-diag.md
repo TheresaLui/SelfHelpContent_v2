@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public,Fairfax,Mooncake, usnat, ussec"
+ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway Missing HTTP Listener

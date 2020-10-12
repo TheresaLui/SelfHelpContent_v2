@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="87dfe0de-862f-46ad-833b-661ed44faaae"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check if customer is exceeding the maximum number of Security Associations

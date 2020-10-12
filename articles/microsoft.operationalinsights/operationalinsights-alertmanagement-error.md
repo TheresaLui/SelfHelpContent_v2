@@ -10,8 +10,9 @@
     supportTopicIds="32536531"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="583085f1-e8aa-4dec-b0ae-88f0fb5fd82b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # alertmanagement-error

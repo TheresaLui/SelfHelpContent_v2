@@ -10,8 +10,9 @@
 	supportTopicIds="32320991"
 	resourceTags=""
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="73f721d3-3e6e-47f8-9764-96d6925193a4"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Alerts

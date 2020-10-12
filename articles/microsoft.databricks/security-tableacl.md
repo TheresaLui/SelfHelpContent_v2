@@ -10,8 +10,9 @@
 	supportTopicIds="32677729"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="69c9bfb5-d3c4-4d45-8443-9894ac0684a5"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Table ACL

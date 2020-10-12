@@ -10,8 +10,9 @@
     supportTopicIds="32636442"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="46e08c4d-3072-40d7-a9a7-ecf67f3cbb9d"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight client tool issue: Beeline

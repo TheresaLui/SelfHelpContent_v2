@@ -10,8 +10,9 @@
 	supportTopicIds="32462545"
 	resourceTags=""
 	productPesIds="16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="bcb5dde1-bae9-4225-857e-9316ea7ac7f3"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Delays when activating or deactivating a role

@@ -6,16 +6,18 @@ articleId="problemscopingques-Container_monitoring"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612445"
+supportTopicIds="32745413"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Container monitoring
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Container monitoring",
     "fileAttachmentHint": "",
     "formElements": [

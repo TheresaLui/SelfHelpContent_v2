@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="14"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-howto-generalques-mooncake"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure backup - howto and general questions

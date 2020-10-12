@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="199f28b5-e8b6-4404-be2f-b74e34411832"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Gateway not sending IPsec traffic

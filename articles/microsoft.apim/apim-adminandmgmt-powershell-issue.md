@@ -9,8 +9,9 @@
     supportTopicIds="32632394"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2e9f7ec6-15ab-4377-b35f-f6c3a178518c"
+	ownershipId="Compute_APIManagement"
 />
 
 # Azure API Management Automation or PowerShell issue

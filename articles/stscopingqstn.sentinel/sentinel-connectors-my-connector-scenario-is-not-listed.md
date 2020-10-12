@@ -10,8 +10,9 @@
     supportTopicIds="32691170"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-connectors-my-connector-scenario-is-not-listed"
+	ownershipId="Azure_Sentinel"
 />
 
 # Your connector scenario is not listed

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690768"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="0ce49c0d-bf98-4286-8788-44f77d9cdeab"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions unable to configure or disable DB backup
 ---
@@ -109,10 +110,6 @@
                 {
                     "value": "Checked the Machine has Internet connectivity",
                     "text": "Checked the Machine has Internet connectivity"
-                },
-                {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
                 },
                 {
                     "value": "dont_know_answer",

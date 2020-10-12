@@ -12,6 +12,7 @@
     supportToicIds =""
     cloudEnvironments="MoonCake"
 	articleId="89063f96-c32d-4d68-9102-5e7532d1126c"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I don't see any errors but my devices are not receiving pushes

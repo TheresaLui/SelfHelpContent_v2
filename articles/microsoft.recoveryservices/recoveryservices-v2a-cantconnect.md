@@ -9,8 +9,9 @@
 	supportTopicIds="32536425"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="37d2f57b-330a-4a13-b82f-0148192f5448"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Unable to connect to VM after failover - VMware to Azure

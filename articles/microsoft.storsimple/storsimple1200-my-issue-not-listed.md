@@ -13,7 +13,8 @@
 	supportTopicIds="32630484"
 	resourceTags="9000Or1200Series"
 	productPesIds="16161"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # My issue is not listed
@@ -26,3 +27,4 @@
 * [Change the StorSimple Virtual Array device administrator password via StorSimple Device](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-change-device-admin-password)
 * [Use the StorSimple Device Manager service to troubleshoot the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-diagnose-problems)
 * [Troubleshoot via the local web UI](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)
+* [The 'Used Storage' displayed for an iSCSI volume may be different in the StorSimple Device Manager service and the iSCSI host as the iSCSI host has the filesystem view and the device sees the blocks allocated when the volume was at the maximum size](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-update-11-release-notes#known-issues-in-update-11)

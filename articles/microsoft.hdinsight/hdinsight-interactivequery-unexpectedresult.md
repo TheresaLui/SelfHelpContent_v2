@@ -10,8 +10,9 @@
     supportTopicIds="32636467"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-interactivequery-unexpectedresults"
+	ownershipId="AzureData_HDInsight"
 />
 # Troubleshooting unexpected results with Interactive queries
 

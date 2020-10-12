@@ -1,17 +1,18 @@
 <properties
-    pageTitle="V2 - Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
-    description="V2 - Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
-    service=""
-    resource=""
+    pageTitle="Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
+    description="Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
+    service="microsoft.datafactory"
+    resource="factories"
     authors="chez-charlie"
     ms.author="chez"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32637151, 32680902, 32680903"
+    supportTopicIds="32749447, 32749446"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="1dfb6b88-8649-4922-b085-0bd2017e72a2"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Triggers

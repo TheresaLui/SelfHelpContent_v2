@@ -1,15 +1,16 @@
 <properties
-	pageTitle="Troubleshooting management group deletion"
-	description="Common issues with deleting management groups"
-	service="Microsoft.Management"
-	resource="managementgroups"
-	authors="rthorn17"
-	ms.author="rithorn"
-	articleId="managementgroups-deletegroups"
-	selfHelpType="generic"
-	supportTopicIds="32609538"
-	productPesIds="16530"
-	cloudEnvironments="public,fairfax,mooncake"
+    pageTitle="Troubleshooting management group deletion"
+    description="Common issues with deleting management groups"
+    service="Microsoft.Management"
+    resource="managementgroups"
+    authors="rthorn17"
+    ms.author="rithorn"
+    articleId="managementgroups-deletegroups"
+    selfHelpType="generic"
+    supportTopicIds="32743303"
+    productPesIds="16530"
+    cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+    ownershipId="ARM_ManagementGroups"
 />
 
 # Management group delete troubleshooting

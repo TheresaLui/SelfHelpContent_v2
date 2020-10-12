@@ -12,7 +12,8 @@ diagnosticScenario="Static Website Root not redirecting to the page set for inde
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Why is Root not redirecting to the page set for "index document name"?

@@ -5,12 +5,13 @@
 	resource="vaults"
 	authors="trinadhk"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="2feefab9-c5ec-444c-a189-ae575462729f"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Backup of Linux Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'

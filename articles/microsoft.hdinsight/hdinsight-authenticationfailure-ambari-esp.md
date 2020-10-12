@@ -10,8 +10,9 @@
     supportTopicIds="32636436"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="07b6cb2e-a702-4e4f-889d-465f97389a5f"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Authentication Failure: Ambari in cluster with Enterprise Security Package

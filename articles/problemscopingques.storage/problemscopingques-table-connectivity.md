@@ -7,8 +7,9 @@
 	articleId="StorageScoping_table_Connectivity"
 	supportTopicIds="32602776"
 	productPesIds="16462"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 # Table Connectivity Issues
 ---

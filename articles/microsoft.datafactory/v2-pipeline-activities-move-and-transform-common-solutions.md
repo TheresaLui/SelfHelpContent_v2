@@ -10,8 +10,9 @@
     supportTopicIds="32637163"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="fe908ed6-ea3a-4c4a-b5c0-de16395bd843"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - Move and Transform

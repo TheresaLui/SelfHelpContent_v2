@@ -12,7 +12,8 @@
 	supportTopicIds="32632089"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Diagnose and resolve Encoding errors for Media Services v3/v2

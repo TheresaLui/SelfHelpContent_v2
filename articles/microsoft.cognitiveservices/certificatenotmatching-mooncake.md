@@ -12,6 +12,7 @@
         productPesIds=""
         cloudEnvironments="MoonCake"
         articleId="certificatenotmatching-mooncake"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # User Verification! Hostname in certificate didn’t match

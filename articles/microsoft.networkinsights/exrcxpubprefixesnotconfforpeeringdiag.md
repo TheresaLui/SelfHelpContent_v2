@@ -12,8 +12,9 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft Azure is unable to detect the Peering prefixes intended to be advertised to Microsoft
 <!--/issueDescription-->
 Peering is an agreement to interconnect and exchange routing information.  A peering prefix is part of a BGP route used to advertise network reachability.  When a peering session cannot be established, routing information cannot be exchanged and data cannot transit the connection.  

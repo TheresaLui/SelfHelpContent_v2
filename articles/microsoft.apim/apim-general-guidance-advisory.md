@@ -9,8 +9,9 @@
     supportTopicIds="32632382"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bad8a332-e350-4807-8c65-038a2a66fc3a"
+	ownershipId="Compute_APIManagement"
 />
 
 # General Guidance or Advisory

@@ -10,8 +10,9 @@
     supportTopicIds="32536710"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="2cf4fd14-0538-4239-9668-a73685354668"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # alerts-webhooks

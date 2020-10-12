@@ -10,8 +10,9 @@
     supportTopicIds="32691181"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-onboarding-unable-to-access-sentinel-service"
+	ownershipId="Azure_Sentinel"
 />
 
 # Unable to access the Azure Sentinel service

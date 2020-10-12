@@ -10,8 +10,9 @@
     supportTopicIds="32680995"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
     articleId="ddos-delete-ddos-plan"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # General guidance or advisory
 

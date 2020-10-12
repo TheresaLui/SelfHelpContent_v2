@@ -11,8 +11,9 @@
 	supportTopicIds="32639205"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
     articleId="32639205"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Need a shipping label to return my device

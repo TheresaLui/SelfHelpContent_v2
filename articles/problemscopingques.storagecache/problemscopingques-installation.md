@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32674485"
 	productPesIds="16790"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="5bd9d665-d737-4bf8-9c7e-7ed4ee509058"
+    ownershipId="StorageMediaEdge_HPCCache"
 />
 # Installation and Setup
 ---

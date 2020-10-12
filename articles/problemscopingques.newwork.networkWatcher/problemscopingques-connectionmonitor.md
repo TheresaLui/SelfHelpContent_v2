@@ -6,9 +6,10 @@ ms.author="vinynigam"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32606420"
 productPesIds="16160"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 schemaVersion="1"
 articleId="ad021338-109f-4290-a45e-asgard"
+	ownershipId="CloudNet_NetAnalytics"
 />
 # Connection Monitor Scoping Questions
 ---

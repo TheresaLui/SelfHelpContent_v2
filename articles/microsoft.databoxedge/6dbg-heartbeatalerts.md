@@ -11,8 +11,9 @@
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b5117bd9-ce72-4f16-950d-fa3020bbc0bb"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # I am getting heartbeat alert emails

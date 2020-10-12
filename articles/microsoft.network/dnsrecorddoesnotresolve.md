@@ -8,8 +8,9 @@
 	supportTopicIds="32560531"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c2c9c1da-e448-4d40-9e51-177d8f9c3698"
+	ownershipId="CloudNet_DNS"
 />
 
 # dns record does not resolve correctly

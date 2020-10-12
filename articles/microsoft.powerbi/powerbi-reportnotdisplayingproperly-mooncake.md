@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="4f24a126-4853-4195-bfd8-e3a4a284815e"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Report not displaying properly

@@ -7,11 +7,12 @@
 	authors="vinynigam"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32606433"
 	resourceTags="optional"
-	productPesIds=""
+	productPesIds="16160"
 	cloudEnvironments="MoonCake"
 	articleId="npm-nodataforermrule-troubleshoot-and-case-submission-mooncake"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # No monitoring data in NPM for Express Route Monitor

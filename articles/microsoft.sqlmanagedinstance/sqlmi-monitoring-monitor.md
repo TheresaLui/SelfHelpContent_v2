@@ -9,11 +9,12 @@
 	displayOrder=""
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32637273, 32637274, 32637275"
+	supportTopicIds="32637274, 32637275"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="cd4cc9ef-4cdb-4e1d-9a81-4f4034395a56"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Monitoring - Monitor

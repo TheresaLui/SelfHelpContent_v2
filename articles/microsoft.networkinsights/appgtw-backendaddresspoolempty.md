@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32436961,32573483,32582834"
 resourceTags="windows"
 productPesIds="15922"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified an issue with your Application Gateway backend pool
 

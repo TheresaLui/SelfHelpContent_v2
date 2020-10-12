@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="82ccc228-0e2b-456b-9df6-844fb6678d38"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't restart or resize an existing VM

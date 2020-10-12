@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553287"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="0d4bc270-b32b-49f9-8b5c-c6d01db47adf"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS Installation or registration failure
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "MARS Installation or registration failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
@@ -37,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "error_message",
@@ -67,14 +63,12 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
 	{
 	 "id": "issue_type",
             "order": 5,
             "controlType": "dropdown",
-	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Which type of issue you are facing?",
             "dropdownOptions": [
                 {
@@ -104,6 +98,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 6,
             "controlType": "multiselectdropdown",
+			"infoBalloonText": "Check installation and registration <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {

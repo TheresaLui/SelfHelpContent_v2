@@ -13,7 +13,8 @@
 	supportTopicIds="32565644,32565474,32565475,32565476,32565478,32565479,32565480"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_CloudServices_Content"
 />
 # We ran diagnostics on your resource and found an issue
 

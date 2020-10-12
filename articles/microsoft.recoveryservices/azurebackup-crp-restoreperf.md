@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32637327"
 	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Restore is taking longer than expected

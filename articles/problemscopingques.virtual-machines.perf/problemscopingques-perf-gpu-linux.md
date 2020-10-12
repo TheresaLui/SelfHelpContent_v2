@@ -6,27 +6,52 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628268"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0061"
+	ownershipId="Compute_VirtualMachines"
 />
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "GPU processing is slower than expected",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected GPU usage scenario.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "unableToCheckGPU",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Are you unable to check your GPU utilization?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
         },
         {
             "id": "perf_current",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the problem occurring right now?",
             "watermarkText": "Choose an option",
@@ -44,7 +69,7 @@
         },
         {
             "id": "perf_gpu_detect",
-            "order": 3,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "How did you detect high GPU usage?",
             "watermarkText": "Choose an option",
@@ -62,7 +87,7 @@
         },
         {
             "id": "applications_on_vm",
-            "order": 4,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the applications running on your virtual machine",
             "dropdownOptions": [
@@ -107,7 +132,7 @@
         },
         {
             "id": "perf_gpu_apps",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "List all processes/applications you have identified that cause the high GPU usage.",
             "useAsAdditionalDetails": false,
@@ -115,7 +140,7 @@
         },
         {
             "id": "gpu_version",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What is the version of your GPU drivers?",
             "useAsAdditionalDetails": false,
@@ -123,7 +148,7 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,

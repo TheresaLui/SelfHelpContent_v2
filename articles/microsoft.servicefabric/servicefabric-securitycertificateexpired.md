@@ -10,8 +10,9 @@
 	supportTopicIds="32608944"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="af7f5224-57f9-4687-91d6-a395f52a879d"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Certificate Expired

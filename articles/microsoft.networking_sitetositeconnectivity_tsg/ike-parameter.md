@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="083a1d3b-284d-4414-8510-9687b6aedd6a"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Incorrect IKE Parameter

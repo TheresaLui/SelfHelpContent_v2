@@ -8,9 +8,10 @@
 	ms.author="anumamah"
 	supportTopicIds="32690896"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.automl.userinterfaceissues"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # User Interface Issues
@@ -20,5 +21,6 @@ In this article, you learn how to resolve automated machine learning related use
 
 ## **Recommended Documents**
 
-* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments)
+* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/azure/machine-learning/how-to-use-automated-ml-for-ml-models)
 * [What is automated machine learning?](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml)
+* [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)

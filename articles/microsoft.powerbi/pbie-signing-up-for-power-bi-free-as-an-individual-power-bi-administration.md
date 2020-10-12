@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628156"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="22b243b3-5da3-015c-a3de-cf29c5bb4a92"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Sign up for Power BI as an individual

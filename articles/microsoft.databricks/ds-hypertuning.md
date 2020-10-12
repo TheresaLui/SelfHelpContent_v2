@@ -10,8 +10,9 @@
 	supportTopicIds="32677696"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1b809419-7420-4c8d-8894-dc51f0bfa104"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Data Science Hypertuning Articles

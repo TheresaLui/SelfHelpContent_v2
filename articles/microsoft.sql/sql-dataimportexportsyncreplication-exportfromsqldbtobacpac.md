@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630420"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="12410211-a2f0-48af-99a1-58da8fcb50ff"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 
 # BACPAC, DataSync, Copy DB and Replication/export from SQL db to BACPAC
@@ -18,6 +19,10 @@
 SQL DB Export service supports exporting an Azure SQL database to a BACPAC file. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the export.
 
 ## **Recommended Steps**
+
+### BlobUri could not be found for this request
+
+* While retrieving the status of a request there are edge cases where the service will return a status of "Completed" and an error message of "BlobUri could not be found for this request". In these cases, the Export operation has completed successfully and the error message can be safely ignored.
 
 ### Unable to authenticate request
 

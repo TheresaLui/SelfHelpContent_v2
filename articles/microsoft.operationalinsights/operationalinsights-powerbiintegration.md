@@ -10,8 +10,9 @@
     supportTopicIds="32536500"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="3fef1dca-387b-46d9-aa85-214b5f32460a"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # powerbiintegration

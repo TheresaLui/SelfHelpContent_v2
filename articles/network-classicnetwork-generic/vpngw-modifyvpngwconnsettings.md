@@ -9,8 +9,9 @@
 	supportTopicIds="32591155"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="cd011511-2575-40c2-9e8e-eb523bda1eb0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Modify VPN Gateway connection settings

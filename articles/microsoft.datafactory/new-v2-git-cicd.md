@@ -1,18 +1,13 @@
 <properties
-	pageTitle="Continuous Integration and Delivery in ADF"
-	description="CI/CD with Azure Data Factory"
-	infoBubbleText=""
-	authors="chez-charlie"
-	ms.author="chez"
-	articleId="35b4075ca21d47c7b82383744226a444"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32629448"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public"
-/>
-
+  pagetitle="Continuous Integration and Delivery with Git Repository Integration"
+  ms.author="chez,haoc"
+  selfhelptype="Generic"
+  supporttopicids="32629448"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="35b4075ca21d47c7b82383744226a444"
+  ownershipid="AzureData_DataFactory" />
 # Continuous Integration and Delivery with Git Repository Integration
 
 ## **Recommended Steps**
@@ -31,7 +26,7 @@
     * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) <br>
     * [Automate continuous integration Sample and Steps](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#automate-continuous-integration-with-azure-pipelines-releases): this example shows how to stop active triggers before deployment and restart them afterwards
     * Use custom parameters with [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template
-) to override default properties during deployment<br>
+) to override default properties during deployment. You can now edit your arm-template-parameters-definition.json directly in ADF UX <br>
     * [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates): this is the workaround for Azure Resource Manager template size limits
 
 2. Source Control in Azure Data Factory <br>

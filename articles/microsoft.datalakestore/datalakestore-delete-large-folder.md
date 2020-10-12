@@ -10,8 +10,9 @@
     supportTopicIds="32674927"
     resourceTags=""
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="18a84e7a-f7d1-4e36-ad2e-d4ee8fd4e5a9"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - delete large folder

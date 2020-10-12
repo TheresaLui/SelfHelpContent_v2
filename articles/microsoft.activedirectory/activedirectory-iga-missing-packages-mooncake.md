@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-missing-packages-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why aren't access packages showing up in a user's MyAccess portal?

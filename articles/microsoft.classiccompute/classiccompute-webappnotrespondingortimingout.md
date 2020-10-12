@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, fairfax, MoonCake, usnat, ussec"
 	articleId="30e7ba03-52c1-483d-a143-0f5840e91a96"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My web application is not responding or timing out

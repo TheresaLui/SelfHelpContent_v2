@@ -9,8 +9,9 @@
     supportTopicIds="32632411"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b04c2d15-cc75-4c45-97f5-72032e017253"
+	ownershipId="Compute_APIManagement"
 />
 
 # Deploy Azure API Management to internal virtual network
