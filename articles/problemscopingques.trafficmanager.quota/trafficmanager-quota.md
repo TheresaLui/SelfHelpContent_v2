@@ -78,7 +78,7 @@
 				},
 				{
 					"type": "lessthan",
-					"value": 1000
+					"value": 1001
 				}
 			],
 			"isNewQuotaLimit": true
