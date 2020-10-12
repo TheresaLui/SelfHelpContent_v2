@@ -33,7 +33,7 @@
 			"infoBalloonText": "info balloon",
 			"dropdownOptions": [
 				{
-					"text": "Max Profile Quota per subscription",
+					"text": "Profile Quota per subscription",
 					"value": "profileLimitChange"
 				},
                 {
