@@ -16,8 +16,9 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Azure Synapse Link for Azure Cosmos DB - My Issue is not Listed
-Most users are able to resolve their Azure Synapse Link for Cosmos DB issue using the steps below.  
+# Azure Synapse Link for Azure Cosmos DB - My Issue is not Listed  
+
+Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
 
 
 ## Suported APIs  
