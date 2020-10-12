@@ -21,7 +21,7 @@
 
 Distributed transactions can be executed across different Azure SQL Managed Instances by using distributed transactions. This feature is currently in **preview mode**. Most users can resolve issues by following the information below.
 
-##**Recommended** 
+## **Recommended Steps**
 
 - In case of the error message, "MSDTC not available," go through the connectivity and security steps below
 - In scenarios with multiple instances, check the connectivity between the instances
