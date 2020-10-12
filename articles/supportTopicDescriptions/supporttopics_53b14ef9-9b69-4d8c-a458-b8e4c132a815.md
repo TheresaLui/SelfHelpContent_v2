@@ -321,6 +321,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "81428e60-2438-6713-1c9c-a107ec53b163",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Multidimensional Modeling and Design on Azure VM.",
+      "searchTags": "ssas multidimensional;Analysis Services Multidimensional",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86494b13-e041-65d5-b786-f600737b096a",
       "longDescription": "",
       "shortDescription": "Questions or issues with setting up certificate for SQL Server, SSL and TLS, encrypted connection or errors",
