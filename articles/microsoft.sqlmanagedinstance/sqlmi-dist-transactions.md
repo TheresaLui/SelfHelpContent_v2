@@ -3,7 +3,7 @@
 	description="Distributed Transactions issues with Managed Instance"
 	infoBubbleText="Distributed Transactions issues with Managed Instance"
 	service="microsoft.sql"
-	resource="servers"
+	resource="managedinstances"
 	authors="vtpombei"
 	ms.author="vtpombei"
 	displayOrder="1"
