@@ -16,23 +16,23 @@
 # Azure SQL Managed Instance
 ---
 {
- "$schema": "SelfHelpContent", 
- "subscriptionRequired": true, 
- "resourceRequired": false, 
- "title": "Distributed transactions", 
- "fileAttachmentHint": "", 
- "formElements": [ 
- { 
-  "id": "problem_start_time", 
-  "order": 1, 
-  "controlType": "datetimepicker", 
-  "displayLabel": "When did you face the issue?", 
-  "required": true 
- }, 
- { 
-  "id": "type_issue", 
-  "order": 10, 
-  "controlType": "dropdown", 
+ "$schema": "SelfHelpContent",
+ "subscriptionRequired": true,
+ "resourceRequired": false,
+ "title": "Distributed transactions",
+ "fileAttachmentHint": "",
+ "formElements": [
+ {
+  "id": "problem_start_time",
+  "order": 1,
+  "controlType": "datetimepicker",
+  "displayLabel": "When did you face the issue?",
+  "required": true
+ },
+ {
+  "id": "type_issue",
+  "order": 10,
+  "controlType": "dropdown",
   "displayLabel": "What type of issue are you facing", 
   "watermarkText": "Choose an option", 
   "dropdownOptions": [ 
