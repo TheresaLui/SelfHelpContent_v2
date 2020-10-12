@@ -23,92 +23,143 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
-            "id": "latest_occurrence",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "Latest occurrence of the issue?",
-            "required": true
-        },
-	{
-            "id": "frequency",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Can you reproduce this issue consistently?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "consistently",
-                    "text": "Yes, consistently"
-                },
-                {
-                    "value": "randomly",
-                    "text": "No, randomly"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "database_name",
+            "id": "is_reproducable",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "What database is having issues?",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of databases",
-                    "text": "Unable to get the list of databases"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "db_migrated",
-            "order": 30,
-            "controlType": "dropdown",
-            "displayLabel": "Was this database migrated to Azure Managed Instance?",
+            "displayLabel": "Is the problem reproducable?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "yes",
-                    "text": "Yes"
+                    "text": "Yes, we can reproduce the problem consistently."
                 },
                 {
                     "value": "no",
-                    "text": "No"
+                    "text": " No.  The problem occurs randomly."
                 },
                 {
                     "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable."
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "allow_snapshot_isolation",
+            "order": 30,
+            "controlType": "dropdown",
+            "displayLabel": "The snapshot isolation option ALLOW_SNAPSHOT_ISOLATION for the database is set to:",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "is_on",
+                    "text": "ON (Azure SQL Database default)"
+                },
+                {
+                    "value": "is_off",
+                    "text": "OFF"
+                },
+                {
+                    "value": "dont_know",
                     "text": "Don't know"
                 }
             ],
             "required": false
         },
         {
-            "id": "index_maintenance",
+            "id": "read_commited_isolation",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "How frequent are the indexes and statistics maintained?",
+            "displayLabel": "The snapshot isolation option READ_COMMITTED_SNAPSHOT for the database is set to:",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "is_on",
+                    "text": "ON (Azure SQL Database default)"
+                },
+                {
+                    "value": "is_off",
+                    "text": "OFF"
+                },
+                {
+                    "value": "dont_know",
+                    "text": "Don't know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "transaction_isolation_hint",
+            "order": 50,
+            "controlType": "dropdown",
+            "displayLabel": "Is the transaction isolation level set in the API or in query hints?
+Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defaults to READ COMMITTED SNAPSHOT.",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "not_set",
+                    "text": "Not set"
+                },
+                {
+                    "value": "dontknow",
+                    "text": "Dont't know"
+                },
+                {
+                    "value": "set_read_uncommited",
+                    "text": "Yes, set to READ UNCOMMITED"
+                },
+                {
+                    "value": "set_read_commited",
+                    "text": "Yes, set to READ COMMITTED"
+                },
+                {
+                    "value": "set_repeatable",
+                    "text": "Yes, set to REPEATABLE"
+                },
+                {
+                    "value": "set_snapshot",
+                    "text": "Yes, set to SNAPSHOT"
+                },
+                {
+                    "value": "set_serializable",
+                    "text": " Yes, set to SERIALIZABLE"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "lock_timeout_hint",
+            "order": 60,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have the LOCK_TIMEOUT set in your connection?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "is_set",
+                    "text": "Yes (Please describe the timeout value in the Description)"
+                },
+                {
+                    "value": "not_sest",
+                    "text": "No"
+                },
+                {
+                    "value": "dontknow",
+                    "text": "Don't know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "indexstat_maintenance",
+            "order": 70,
+            "controlType": "dropdown",
+            "displayLabel": "How frequent are the indexes and statistics maintened?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -119,48 +170,21 @@
                     "value": "weekly",
                     "text": "Weekly"
                 },
-		{
+                {
                     "value": "monthly",
                     "text": "Monthly"
                 },
-		{
-                    "value": "quarterly",
-                    "text": "Quarterly"
-                },
-		{
-                    "value": "semi-annually",
-                    "text": "Semi-annually"
-                },
-		{
-                    "value": "annually",
-                    "text": "Annually"
+                {
+                    "value": "over_monthly",
+                    "text": "Over monthly"
                 },
                 {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not implemented"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "big_data_manipulation",
-            "order": 50,
-            "visibility" : "index_maintenance != dont_know_answer ",
-            "controlType": "dropdown",
-            "displayLabel": "Did any major data manipulation occur after the maintenance of indexes and statistics?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Yes"
+                    "value": "not_maintained",
+                    "text": "Not maintained"
                 },
                 {
-                    "value": "no",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "value": "other",
+                    "text": " Other (Please describe in the Description)"
                 }
             ],
             "required": false
@@ -169,10 +193,10 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
-            "watermarkText": "Provide additional information about the query or queries facing the issue",
+            "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }
