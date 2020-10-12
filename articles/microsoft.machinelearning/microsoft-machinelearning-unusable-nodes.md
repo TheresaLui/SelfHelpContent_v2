@@ -20,7 +20,7 @@ This helps users diagnose unusable nodes in a training cluster or when the compu
 ## **Recommended Steps**
 
 1. In case of compute clusters try waiting for the compute to recycle the unusable nodes. It generally takes about an hour for that to happen, and improvements are being made to reduce this time further.
-2. If you get unusable node while trying to deploy compute instance behind vnet make sure to check your NSG rules at subnet level per [this documentation](https://docs.microsoft.com/azure/machine-learning/how-to-enable-virtual-network#compute-instance)
+2. If you get unusable node while trying to deploy compute instance behind vnet make sure to check your NSG rules at subnet level per [this documentation](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet)
 3. If there are no other jobs running on that compute or you created this instance for the first time, try to delete and recreate the compute using the same or another name.
 4. Check to see if there is an error on the compute that tells you the reason on why it is in an unusable state. Some common issues here include:
 * Disk being full on the node from a previous job resulting in the node being unable to run another job
