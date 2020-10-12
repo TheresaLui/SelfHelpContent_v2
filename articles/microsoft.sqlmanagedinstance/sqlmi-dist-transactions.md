@@ -29,7 +29,7 @@ If you are experiencing some issues with distributed transactions, the following
 - In scenarios with multiple instances check connectivity between them.
   - In case distributed transaction with linked server is failing, try to execute a simple select query on the linked server. This query might indicate if the problem is with the linked server setup rather than distributed transactions. Basic requirement for linked servers is that ports 1433, 11000 - 12000 are allowed.
   - If instances are part of the same Subnet, there are no additional requirements on the Subnet level and instances are expected to use custom port from range 11000-12000.
-  - If instances are not part the the same subnet, port 5024 needs to be open on all subnets for all participating instances and also, port range 11000-12000 needs to be open on all subnets for all participating instances.
+  - If instances are not part the same subnet, port 5024 needs to be open on all subnets for all participating instances and also, port range 11000-12000 needs to be open on all subnets for all participating instances.
   - If instances are on different VNets check if VNet peering is setup properly.
 - Check if security requirements are satisfied.
   - Verify that instances are added to the Server Trust Group.
