@@ -393,6 +393,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "c13fdd46-3250-d9bc-6d99-301372971a50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connecting to SSAS instance on Azure VM",
+      "searchTags": "connection to SSAS;connecting to SSAS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
       "longDescription": "",
       "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
