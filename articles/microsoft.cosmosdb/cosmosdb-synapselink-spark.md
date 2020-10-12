@@ -16,7 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Azure Synapse Link for Cosmos DB - Spark
+# Azure Synapse Link for Azure Cosmos DB - Spark
 Most users are able to resolve their Azure Synapse Link for Cosmos DB Spark issue using the steps below.  
 
 
