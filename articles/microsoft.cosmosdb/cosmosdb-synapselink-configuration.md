@@ -17,7 +17,7 @@
 />
 
 
-# Azure Synapse Link for Cosmos DB - Configuration
+# Azure Synapse Link for Azure Cosmos DB - Configuration
 Most users are able to resolve their Azure Synapse Link for Cosmos DB Configuration issue using the steps below.  
 
 
