@@ -28,7 +28,7 @@ This update is part of Azure’s commitment to improve the reliability, performa
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 
-Microsoft Azure Term
+Microsoft Azure Team
 <br>
 
 ## **Recommended Documents**
