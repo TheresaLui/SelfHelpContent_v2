@@ -249,6 +249,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "62c29126-871d-627a-1778-e28a5f528c7a",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Tabular  Modeling and Design on Azure VM.",
+      "searchTags": "ssas tabular",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
