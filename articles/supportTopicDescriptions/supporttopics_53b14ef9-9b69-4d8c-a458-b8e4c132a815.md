@@ -353,6 +353,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9246e2a9-2991-6c52-a629-73ae142dd058",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with  SSAS instances processing being slow, query execution time or returning errors.",
+      "searchTags": "ssas refresh;ssas query performance;ssas query execution",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94164a44-f834-927e-90f3-58855be82009",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to an instance of SQL Server through an instance of the Azure firewall",
