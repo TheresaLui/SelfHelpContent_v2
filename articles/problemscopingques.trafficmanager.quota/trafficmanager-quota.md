@@ -75,10 +75,6 @@
 				{
 					"type": "greaterthan",
 					"value": 200
-				},
-				{
-					"type": "lessthan",
-					"value": 1001
 				}
 			],
 			"isNewQuotaLimit": true
