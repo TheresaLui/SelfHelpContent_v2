@@ -24,7 +24,7 @@
 ## **Recommended Documents**
 
 * [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level )
-* [Resource limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits )
+* [Resource limits for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits )
 * [Manage a manual QoS capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/manage-manual-qos-capacity-pool )
 * [Create a NetApp account](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-netapp-account )
 * [Set up a capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool )
