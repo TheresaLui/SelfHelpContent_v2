@@ -353,6 +353,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "86507fb5-016a-3432-8083-2be56073bea4",
+      "longDescription": "",
+      "shortDescription": "Issues with SSAS Model data sources connecting to relational engines or Modern Get data experience with Power Query & M Language to supported sources",
+      "searchTags": "ssas data source;ssas data sources;analysis services data source",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "892a8d4c-e097-0cf7-c4ac-b1814924e097",
       "longDescription": "",
       "shortDescription": "Questions or issues related to a slow access to data/log files, sql server IO errors, slow performance of disks",
