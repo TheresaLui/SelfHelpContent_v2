@@ -20,22 +20,16 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id":"create_service_notice",
+            "id": "create_error_message",
             "order": 1,
-            "controlType":"textBlock",
-            "displayLabel":"If you previously deleted a search service with the same name and are trying to create a new service with the same name, please wait several minutes and try the operation again.  It can take up to several hours for the name to be available."
-        },
-        {
-            "id": "delete_error_message",
-            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
             "useAsAdditionalDetails": true
         },
         {
-            "id": "delete_interface",
-            "order": 3,
+            "id": "create_interface",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What client did you use to create the service?",
             "watermarkText": "Choose an option",
@@ -55,6 +49,28 @@
                 {
                     "value": "Custom client using Management API or SDK",
                     "text": "Custom client using Management API or SDK"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "create_before",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": :"Did you previously have a search service by the same name?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
