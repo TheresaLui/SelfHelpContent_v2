@@ -39,7 +39,8 @@ from azureml.train.automl import AutoMLConfig
 	automl_config = AutoMLConfig(task = "classification",
 								 training_data = train_dataset,
 								 label_column_name = "Age")
-	```
+```
+
 2. If you want to whitelist algorithms, meaning to select and use only certain algorithms, add that list to the `whitelist_models` parameter like in the following code:
 
 ```
@@ -51,7 +52,7 @@ from azureml.train.automl import AutoMLConfig
 								 label_column_name = "Age",
 								 allowed_models=['LightGBM','SVM','LogisticRegression']
 								 )
-	```
+```
 
 This code basically means that AutoML child runs will only use the algorithms `LightGBM`, `SVM`, `LogisticRegression` while trying multiple combinations of hyper-parameters in the multiple child runs to be tried.
 
