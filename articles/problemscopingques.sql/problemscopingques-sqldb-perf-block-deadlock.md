@@ -157,10 +157,10 @@
         {
             "id": "indexstat_maintenance",
             "order": 70,
-            "controlType": "dropdown",
+            "controlType": "radioButtonGroup",
             "displayLabel": "How frequent are the indexes and statistics maintained?",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "radioButtonOptions": [
                 {
                     "value": "daily",
                     "text": "Daily"
