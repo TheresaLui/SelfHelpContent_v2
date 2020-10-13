@@ -1,11 +1,11 @@
 <properties
-	pageTitle="Deploying Automated ML Models"
-	description="Deploying Automated ML Models"
+	pageTitle="Problem with model deployment"
+	description="Problem with model deployment"
 	infoBubbleText="Deploying Automated ML Models"
 	service="microsoft.machinelearning.automl"
 	resource="automl"
-	authors="Sabina"
-	ms.author="sacartac"
+	authors="Aniththa"
+	ms.author="anumamah"
 	supportTopicIds="32690853"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
@@ -14,9 +14,11 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Deploying Automated ML Models
+# Problem with model deployment
 
 Here you will learn how to deploy your AutoML models.
+
+## **Recommended Steps**
 
 ### Using the SDK
 
@@ -32,7 +34,7 @@ script_file_name = 'inference/score.py'
 best_run.download_file('outputs/scoring_file_v_1_0_0.py', 'inference/score.py')
 ```
 
-2. [Register the Fitted Model for Deployment](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel): If neither metric nor iteration are specified in the register_model call, the iteration with the best primary metric is registered
+2. [Register the Fitted Model for Deployment](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel): If neither metric nor iteration are specified in the register_model call, the iteration with the best primary metric is registered:
 
 ```
 description = 'AutoML Model trained on bank marketing data to predict if a client will subscribe to a term deposit'
@@ -43,10 +45,8 @@ print(remote_run.model_id) # This will be written to the script file later in th
 ```
 
 3. [Prepare](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#prepare-to-deploy) to deploy. Specify assets, usage, compute target.
-
-1. [Deploy to target](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#deploy-to-target): Deployment uses the inference configuration deployment configuration to deploy the models. The deployment process is similar regardless of the compute target. Deploying to Azure Kubernetes Service (AKS) is slightly different because you must provide a reference to the AKS cluster. 
-
-4. [Test](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service) the deployed model, also called a web service
+4. [Deploy to target](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#deploy-to-target): Deployment uses the inference configuration deployment configuration to deploy the models. The deployment process is similar regardless of the compute target. Deploying to Azure Kubernetes Service (AKS) is slightly different because you must provide a reference to the AKS cluster. 
+5.  [Test](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service) the deployed model, also called a web service
 
 ### Using the User Interface
 
