@@ -499,9 +499,9 @@
     {
       "id": "9cc2bc2c-e067-4931-ac5e-155e1d53999c",
       "longDescription": null,
-      "shortDescription": "Errors due to extension failures putting the VM into a failed provisioning state",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Backup failing due to UserErrorVmProvisioningStateFailed, ExtensionFailed, VSS, COM and other extension related issues",
+      "searchTags": "backup;provisioning;extension;VSS",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
