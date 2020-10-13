@@ -29,3 +29,4 @@ If you are experiencing some issues with Server Trust Groups, the following step
 - If instances are on different VNets it is required that ports 5024, 11000 - 12000 are allowed.
 
 ## **Recommended Documents**
+[Server Trust Groups overview](https://docs.microsoft.com/azure/azure-sql/managed-instance/server-trust-group-overview)
