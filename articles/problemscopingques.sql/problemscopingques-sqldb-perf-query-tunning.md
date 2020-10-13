@@ -29,7 +29,7 @@
             "required": true
         },
         {
-            "id": "is_reproducible",
+            "id": "is_query_for_tunning_identified",
             "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Is the query that requires tunning specifically identified?",
@@ -51,26 +51,26 @@
             "required": false
         },
         {
-            "id": "observed_recent_event",
+            "id": "query_characteristics",
             "order": 30,
             "controlType": "dropdown",
             "displayLabel": "Which type resembles the characteristics of the queries.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "event_migration",
+                    "value": "qry_oltp",
                     "text": "OLTP (Primarily INSERT/UPDATE/DELETE operation)"
                 },
                 {
-                    "value": "event_slo",
-                    "text": "ROLAP (Primarily READ operation)"
+                    "value": "qry_olap",
+                    "text": "OLAP (Primarily READ operation)"
                 },
                 {
-                    "value": "event_change_db_option",
-                    "text": " Both, OLTP and OLAP"
+                    "value": "qry_oltp_olap",
+                    "text": "Mixture of both OLTP and OLAP types"
                 },
                 {
-                    "value": "event_change_app_code",
+                    "value": "qry_unknown",
                     "text": "Not sure, or not applicable (Please describe in the Description)"
                 }
             ],
@@ -90,6 +90,32 @@
                 {
                     "value": "event_slo",
                     "text": "No, or not sure if we have any"
+                }
+            ],
+            "required": false
+        },
+               {
+            "id": "application_type",
+            "order": 45,
+            "controlType": "dropdown",
+            "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "app_entity_framework",
+                    "text": "Yes, using Entity Framework"
+                },
+                {
+                    "value": "app_custom",
+                    "text": "No, we are using customized application"
+                },
+                {
+                    "value": "app_third_party",
+                    "text": " No, we are using third party application"
+                },
+                {
+                    "value": "app_not_applicable",
+                    "text": "Not applicable"
                 }
             ],
             "required": false
