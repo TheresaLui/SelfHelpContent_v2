@@ -8,7 +8,7 @@
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="ffb7f897-bdab-45dc-a967-c1ce5b8cc5bc"
+	articleId="ba6ca253-818d-48ae-b386-428a8ad8a4f5"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Some search requests are throttled (Response code 503)

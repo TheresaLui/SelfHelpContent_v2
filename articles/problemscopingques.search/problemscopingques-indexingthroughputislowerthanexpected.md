@@ -8,7 +8,7 @@
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="ffb7f897-bdab-45dc-a967-c1ce5b8cc5bc"
+	articleId="023584a1-899d-46f9-8dd5-476775976500"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Indexing throughput is lower than expected

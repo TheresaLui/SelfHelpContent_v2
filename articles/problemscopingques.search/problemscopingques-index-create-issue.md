@@ -8,7 +8,7 @@
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="ffb7f897-bdab-45dc-a967-c1ce5b8cc5bc"
+	articleId="9682b4d2-9f94-4b4b-b386-a90216f42ea1"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue creating an index
