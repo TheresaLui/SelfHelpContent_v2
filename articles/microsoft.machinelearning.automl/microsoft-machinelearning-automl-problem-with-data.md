@@ -36,5 +36,7 @@ Azure Machine Learning datasets expose functionality to:
 
 * [Data source and format](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-train#data-source-and-format)
 * [Featurization in automated machine learning](https://docs.microsoft.com/azure/machine-learning/how-to-configure-auto-features)
+* [Forecasting with large data](https://github.com/microsoft/solution-accelerator-many-models)
 * [Configure data splits and cross-validation in automated machine learning](https://docs.microsoft.com/azure/machine-learning/how-to-configure-cross-validation-data-splits)
 * [Known Issues and Troubleshooting](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
+
