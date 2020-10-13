@@ -79,8 +79,8 @@
                 }
             ],
             "required": false
-        },  
-        {
+        },
+         {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
