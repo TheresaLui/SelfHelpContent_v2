@@ -26,7 +26,7 @@ View the SQL Server error log to ensure that processes have completed successful
 ### **How to read SQL ErrorLog?**
 
 Use either:
-- [Log File Viewer](https://docs.microsoft.com/sql/relational-databases/performance/view-the-sql-server-error-log-sql-server-management-studio?view=sql-server-ver15) in SSMS ( [latest SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) is strongly recommended)
+- [Log File Viewer](https://docs.microsoft.com/sql/relational-databases/performance/view-the-sql-server-error-log-sql-server-management-studio?view=sql-server-ver15) in SSMS ([latest SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) is strongly recommended)
 - sp_readerrorlog stored procedure
 - [sp_readmierrorlog](https://github.com/dimitri-furman/managed-instance/tree/master/sp_readmierrorlog) script, more information on the next point
 
