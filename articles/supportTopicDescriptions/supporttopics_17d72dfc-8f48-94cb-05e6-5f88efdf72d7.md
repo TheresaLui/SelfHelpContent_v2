@@ -683,9 +683,9 @@
     {
       "id": "e3b27cc4-cda5-965b-7fb6-06fac0e6f6b0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Windows virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backup",
+      "searchTags": "backup;scheduled;failed;adhoc;ondemand",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
