@@ -6,7 +6,7 @@
 	ms.author="kawilson"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32780527"
-	productPesIds="15791"
+	productPesIds="17378"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="Compute_LogicApps"

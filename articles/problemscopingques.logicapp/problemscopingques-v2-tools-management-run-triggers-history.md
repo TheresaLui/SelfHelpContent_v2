@@ -1,5 +1,5 @@
 <properties
-	articleId="ac26fa9c-05b3-0005-b5e4-49812c98d489"
+	articleId="ac26fa9c-05b3-0099-b5e4-49812c98d489"
 	pageTitle="Scoping Questions for Runs and Triggers History "
 	description="Scoping Questions for Runs and Triggers History"
 	authors="genlin"
