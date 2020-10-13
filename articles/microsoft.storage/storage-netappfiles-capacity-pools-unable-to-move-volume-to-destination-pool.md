@@ -23,4 +23,4 @@
 
 ## **Recommended Documents**
 
-* [Dynamically change the service level of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/dynamic-change-volume-service-level )
+* [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level )
