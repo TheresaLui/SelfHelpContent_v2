@@ -34,7 +34,7 @@
             "watermarkText": "Please provide the detailed symptom and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        }，
+        },
         {
             "id": "error_message",
             "order": 3,
