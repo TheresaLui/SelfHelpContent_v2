@@ -13,7 +13,7 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 # Configuring Azure Active Directory
 
-## Troubleshooting Azure SQL Active Directory authentication issues
+## Understanding Azure SQL Active Directory authentication
 
 :::Section Solutions:::
 
