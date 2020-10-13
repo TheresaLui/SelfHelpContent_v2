@@ -54,10 +54,10 @@
                 {
                     "value": "howto_other",
                     "text": "Other (Please describe in Description)"
-                }                 
+                }
             ],
             "required": false
-        }, 
+        },
         {
             "id": "problem_description",
             "order": 1000,
