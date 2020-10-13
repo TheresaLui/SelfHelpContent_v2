@@ -5,7 +5,7 @@
 	authors="genlin"
 	ms.author="kawilson"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32780506"
+	supportTopicIds="32780509"
 	productPesIds="17378"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
