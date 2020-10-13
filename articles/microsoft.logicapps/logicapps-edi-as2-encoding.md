@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32780476"
     resourceTags=""
-    productPesIds="1004053"
+    productPesIds="17378"
     ownershipId="Compute_LogicApps"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="20d1601d-45cf-4e1b-beeb-6444257f9620"
