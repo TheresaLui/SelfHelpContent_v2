@@ -20,8 +20,15 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the problem.",
             "watermarkText": "Please provide the detailed symptom and any other relevant information",
@@ -30,7 +37,7 @@
         },
         {
             "id": "error_message",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Please provide the full error message.",
             "watermarkText": "Enter the error message",
