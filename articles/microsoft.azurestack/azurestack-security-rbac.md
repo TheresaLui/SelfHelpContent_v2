@@ -4,9 +4,9 @@
   resource="registrations"
   ms.author="alexsmit,justinha"
   selfhelptype="Generic"
-  supporttopicids="32663929,32741888"
+  supporttopicids="32663929,32737110,32737252,32741888,32745835"
   resourcetags=""
-  productpesids="16226,17131"
+  productpesids="16226,17131,17058,17057,17322"
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="azurestack-security-rbac"
   ownershipid="StorageMediaEdge_AzureStack_Hub" />
@@ -16,7 +16,7 @@ Role-Based Access Control (RBAC) in Azure Stack is consistent with the implement
 
 ## **Recommended Steps**
 
-If Active Directory Federation Services (ADFS) is used for identity and users can't sign in or appear in RBAC, be sure to [validate Azure Graph integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-graph). To fix any issues, [trigger automation to configure Graph](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-identity#trigger-automation-to-configure-graph).
+If Active Directory Federation Services (ADFS) is used for identity and users can't sign in or appear in RBAC, ensure that you [validate Azure Graph integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-graph). To fix any issues, [trigger automation to configure Graph](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-identity#trigger-automation-to-configure-graph).
 
 For basic steps to set up RBAC, see:
 

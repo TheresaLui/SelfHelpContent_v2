@@ -26,7 +26,7 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 * Learn [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip)
 * Learn about [managed applications and locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
 * Deploying workspace through ARM Templates will fail if you use existing an resource group name as a managed resource group. Ensure that the [Managed Resource group](https://docs.microsoft.com/azure/managed-applications/overview#managed-resource-group) in the ARM template doesn't already exist within the subscription.
-* Avoid having any special characters as the first or last character in a workspace name. The maximum length for a Managed Resource graoup name is 90 character. **Creating a workspace will fail due to invalid characters**. 
+* Avoid having any special characters as the first or last character in a workspace name. The maximum length for a Managed Resource group name is 90 characters. **Invalid characters will cause the workspace creation to fail**. 
 * Learn about the ["instances unreachable" error](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 * Get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a Databricks notebook:
 
@@ -39,18 +39,14 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 	* Standard clusters in both Scala and Python
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
-* If you receive the error message, "Unexpected error while loading Spark UI: Max Response Size Reached," the response limit of 30 MB for the Spark UI proxy has been reached. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
+* If you receive the error message "Unexpected error while loading Spark UI: Max Response Size Reached," the response limit of 30 MB for the Spark UI proxy has been reached. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
 
     ```
     spark.ui.retainedJobs 100
     spark.ui.retainedStages 100
     spark.ui.retainedTasks 10000
     ```
-* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the following format:
-
-    ```
-    adb-<workspace-id>.<random-number>.azuredatabricks.net
-    ```
+* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the following format: `adb-<workspace-id>.<random-number>.azuredatabricks.net`
 * This per-workspace URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, **we strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces**. Follow the instructions in the links below:
 
 	* [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#how-do-i-launch-my-workspace-using-the-per-workspace-url)
@@ -64,7 +60,6 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
     * You cannot change subnet CIDR range for an existing workspace
 
 Instead, we recommend that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old workspace to the new one.	
-
 * Learn how to [migrate Azure Databricks workspace between subscriptions or regions](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps). Create the new workspace first, and then migrate all notebooks, jobs configuration, clusters configuration, users, libraries, mounts, and init scripts.
 
 * Learn how to [migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
@@ -81,6 +76,9 @@ Instead, we recommend that you create another workspace in a larger VNet. Follow
 
 ## **Recommended Documents**
 
+* [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
+* [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
+* [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
 * [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/#:~:text=Pay%20as%20you%20go,of%20instance%20running%20Azure%20Databricks)
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) covers the features for the Azure Databricks platform
 * [Azure Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features for Databricks cluster runtimes or images, including proprietary features and optimizations
