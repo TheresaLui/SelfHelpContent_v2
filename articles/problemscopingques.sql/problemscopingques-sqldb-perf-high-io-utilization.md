@@ -42,7 +42,7 @@
                 {
                     "value": "no",
                     "text": "No. The problem occurs randomly"
-                }               
+                }
             ],
             "required": false
         },
@@ -75,7 +75,7 @@
                 }
             ],
             "required": false
-        },  
+        },
         {
             "id": "problem_description",
             "order": 1000,
