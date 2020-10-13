@@ -26,11 +26,14 @@ There are two possible ways of doing this action with AutoML:
 * AutoML Python SDK
 * AutoML UI (User Interface)
 
-## **Recommended Steps using AutoML Python SDK**
+## **Recommended Steps**
+
+### AutoML Python SDK
 
 1. Locate your AutoMLConfig class such as the following code with a simple AutoML configuration:
-	```
-	from azureml.train.automl import AutoMLConfig
+
+```
+from azureml.train.automl import AutoMLConfig
 
 	# task can be one of classification, regression, forecasting
 	automl_config = AutoMLConfig(task = "classification",
@@ -38,7 +41,8 @@ There are two possible ways of doing this action with AutoML:
 								 label_column_name = "Age")
 	```
 2. If you want to whitelist algorithms, meaning to select and use only certain algorithms, add that list to the `whitelist_models` parameter like in the following code:
-	```
+
+```
 	from azureml.train.automl import AutoMLConfig
 
 	# task can be one of classification, regression, forecasting
@@ -48,10 +52,12 @@ There are two possible ways of doing this action with AutoML:
 								 allowed_models=['LightGBM','SVM','LogisticRegression']
 								 )
 	```
+
 This code basically means that AutoML child runs will only use the algorithms `LightGBM`, `SVM`, `LogisticRegression` while trying multiple combinations of hyper-parameters in the multiple child runs to be tried.
 
 3. If you want to block a list algorithms, meaning to only block certain algorithms and try the rest of algorithms availabe in AutoML, add that list to the `blocked_models` parameter like in the following code:
-	```
+
+```
 	from azureml.train.automl import AutoMLConfig
 
 	# task can be one of classification, regression, forecasting
@@ -60,27 +66,24 @@ This code basically means that AutoML child runs will only use the algorithms `L
 								 label_column_name = "Age",
 								 blocked_models=['DecisionTree','BernoulliNaiveBayes']
 								 )
-	```
+```
+
 This code basically means that AutoML child runs will try all the available algorithms in AutoML targeting the `classification` problem. only use the algorithms `LightGBM`, `SVM`, `LogisticRegression` while trying multiple combinations of hyper-parameters in the multiple child runs to be tried.
 
 4. Note that usually you will either allow or block algorithms. It doesn't make much sense to use both at the same time.
 
 5. In order to find out the names of all the possible algorithms supported by AutoML (constants or name IDs to be provided in your code), consult that in the following AutoML SDK reference pages:
 
-	* [Names/Constants of Classification algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.classification?view=azure-ml-py)
-	* [Names/Constants of Regression algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.regression?view=azure-ml-py)
-	* [Names/Constants of Time Series Forecast algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.forecasting?view=azure-ml-py)
+* [Names/Constants of Classification algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.classification?view=azure-ml-py)
+* [Names/Constants of Regression algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.regression?view=azure-ml-py)
+* [Names/Constants of Time Series Forecast algorithms](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.constants.supportedmodels.forecasting?view=azure-ml-py)
 
+### **AutoML UI (In Azure Machine Learning studio UI)**
 
-## **Recommended Steps using AutoML UI (In Azure Machine Learning studio UI)**
+You can also discard algorithms when creating an experiment in the Automated ML UI. Note that when using the UI you currently cannot whitelist algorithms, only blacklist algorithms.
 
-You can also discard algorithms when creating an experiment in the Automated ML UI. 
-
-Note that when using the UI you currently cannot whitelist algorithms, only blacklist algorithms.
-
-1. Create a new Automated run.
-
-2. On the 'Task type and settings' form (where you select the task type such as classification, regression, or forecasting), click on the 'View additional configuration settings' link and in the 'Blocked algorithm' select the algorithms you want to exclude/block from the training job.
+1. Create a new Automated run
+2. On the 'Task type and settings' form (where you select the task type such as classification, regression, or forecasting), click on the 'View additional configuration settings' link and in the 'Blocked algorithm' select the algorithms you want to exclude/block from the training job
 
 ## **Recommended Documents**
 
