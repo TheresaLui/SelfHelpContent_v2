@@ -23,10 +23,11 @@ Server trust groups are used to easily manage trust between the set of Azure SQL
 
 ## **Recommended Steps**
 
-If you are experiencing some issues with Server Trust Groups, the following steps can help you find a way to troubleshoot the issues.
+If you are experiencing some issues with Server Trust Groups, the following steps can help you find a way to troubleshoot the issues:
 
-- It is required that Azure SQL Managed Instances are under the same Azure subscription.
-- If instances are on different VNets it is required that ports 5024, 11000 - 12000 are allowed.
+- It is required that Azure SQL Managed Instances are under the same Azure subscription
+- If instances are on different VNets it is required that ports 5024, 11000 - 12000 are allowed
 
 ## **Recommended Documents**
-[Server Trust Groups overview](https://docs.microsoft.com/azure/azure-sql/managed-instance/server-trust-group-overview)
+
+* [Server Trust Groups overview](https://docs.microsoft.com/azure/azure-sql/managed-instance/server-trust-group-overview)
