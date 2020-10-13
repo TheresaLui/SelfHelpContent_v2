@@ -1,22 +1,22 @@
 <properties
-	articleId="ac26fa9c-05b3-0002-b5e4-49812c98d489"
-	pageTitle="Scoping Questions for Logic Apps with Visual Studio"
-	description="Scoping Questions for Logic Apps with Visual Studio"
+	articleId="ac26fa9c-05b3-0003-b5e4-49812c98d489"
+	pageTitle="Scoping Questions for Visual Studio"
+	description="Scoping Questions for Logic Apps with Visual Studio Code"
 	authors="TobyTu"
 	ms.author="mquian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32780523"
+	supportTopicIds="32780524"
 	productPesIds="17378"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="Compute_LogicApps"
 />
-# Logic Apps with Visual Studio
+# Logic Apps with Visual Studio Code
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Visual Studio",
+    "title": "Visual Studio Code",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -47,7 +47,7 @@
             "id": "cmd_sdk",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please copy and paste the Logic Apps log from Output Window into the following box",
+            "displayLabel": "Please copy and paste the Logic Apps log from Output Windows into the following box",
             "watermarkText": "Enter the Logic Apps log",
             "required": false
         }

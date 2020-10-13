@@ -1,22 +1,22 @@
 <properties
-	articleId="ac26fa9c-05b3-0002-b5e4-49812c98d489"
-	pageTitle="Scoping Questions for Logic Apps with Visual Studio"
-	description="Scoping Questions for Logic Apps with Visual Studio"
+	articleId="ac26fa9c-05b3-0005-b5e4-49812c98d489"
+	pageTitle="Scoping Questions for Runs and Triggers History "
+	description="Scoping Questions for Runs and Triggers History"
 	authors="TobyTu"
 	ms.author="mquian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32780523"
+	supportTopicIds="32780510"
 	productPesIds="17378"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="Compute_LogicApps"
 />
-# Logic Apps with Visual Studio
+# Runs and Triggers History
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Visual Studio",
+    "title": "Runs and Triggers History",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -44,11 +44,35 @@
             "required": false
         },
         {
-            "id": "cmd_sdk",
+            "id": "ISE_ID",
             "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the integration service environment (ISE) name.",
+            "watermarkText": "Enter the ISE name",
+            "required": false
+        },
+        {
+            "id": "run_id",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Please provide one or more failed run ID(s).",
+            "watermarkText": "Enter the ID(s)",
+            "required": false
+        },
+        {
+            "id": "raw_inputs",
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please copy and paste the Logic Apps log from Output Window into the following box",
-            "watermarkText": "Enter the Logic Apps log",
+            "displayLabel": "Please provide Raw Inputs of the failed action or trigger.",
+            "watermarkText": "Enter the Raw Inputs",
+            "required": false
+        },
+        {
+            "id": "raw_outputs",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide Raw Outputs of the failed action or trigger.",
+            "watermarkText": "Enter the Raw Outputs",
             "required": false
         }
     ],

@@ -1,7 +1,7 @@
 <properties
 	articleId="ac26fa9c-05b3-0001-b5e4-49812c98d489"
-	pageTitle="Scoping Questions for REST API"
-	description="Scoping Questions for REST API"
+	pageTitle="Scoping Questions for portal issues"
+	description="Scoping Questions for portal issues"
 	authors="TobyTu"
 	ms.author="mquian"
 	selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="Compute_LogicApps"
 />
-# REST API
+# Portal issues
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "REST API",
+    "title": "Portal issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
