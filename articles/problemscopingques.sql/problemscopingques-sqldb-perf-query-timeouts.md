@@ -55,7 +55,7 @@
             "dropdownOptions": [
                 {
                     "value": "event_migration",
-                    "text": "Migrated database from On Premises database"
+                    "text": "Migrated database from On-Premises database"
                 },
                 {
                     "value": "event_slo",
@@ -80,6 +80,32 @@
                 {
                     "value": "event_unkown",
                     "text": "Not aware"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "application_type",
+            "order": 40,
+            "controlType": "dropdown",
+            "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "app_entity_framework",
+                    "text": "Yes, using Entity Framework"
+                },
+                {
+                    "value": "app_custom",
+                    "text": "No, we are using customized application"
+                },
+                {
+                    "value": "app_third_party",
+                    "text": " No, we are using third party application"
+                },
+                {
+                    "value": "app_not_applicable",
+                    "text": "Not applicable"
                 }
             ],
             "required": false
