@@ -73,6 +73,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "1589e733-c21e-a4b0-4984-e06ad8e324ad",
+      "longDescription": "",
+      "shortDescription": "Issue with SQL Server Analysis Services Setup, Patching, Licensing, SQL VM Images, SQL VM RP or IaaS Extension Setup",
+      "searchTags": "ssas;sql server analysis services;ssas setup;ssas licensing;ssas patching",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "15caab59-558e-933c-4426-a4ee3e25d2dc",
       "longDescription": "",
       "shortDescription": "My database backup or restore is taking longer time than expected",
