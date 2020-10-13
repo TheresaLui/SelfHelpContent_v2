@@ -15,7 +15,7 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# Unable to move the volume to a pool in different NetAppAccount
+# Unable to move the volume to a pool in different NetApp Account
 
 ## **Recommended Steps**
 
