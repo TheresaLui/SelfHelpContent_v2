@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -41,7 +41,7 @@
                 },
                 {
                     "value": "no",
-                    "text": " No.  The problem occurs randomly"
+                    "text": " No. The problem occurs randomly"
                 },
                 {
                     "value": "dont_know_answer",
@@ -98,8 +98,7 @@
             "id": "transaction_isolation_hint",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Is the transaction isolation level set in the API or in query hints?
-Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defaults to READ COMMITTED SNAPSHOT.",
+            "displayLabel": "Is the transaction isolation level set in the API or in query hints?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -185,6 +184,40 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
                 {
                     "value": "other",
                     "text": " Other (Please describe in the Description)"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id" : "indexstat_maintenance_other",
+            "order" : 71,
+            "visibility" : "indexstat_maintenance == other",
+            "controlType" : "textbox",
+            "displayLabel" : "What other frequency type are the indexes and statistics maintained?"
+            "watermarkText" : "Describe other"
+        },
+        {
+            "id": "application_type",
+            "order": 80,
+            "controlType": "dropdown",
+            "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "app_entity_framework",
+                    "text": "Yes, using Entity Framework"
+                },
+                {
+                    "value": "app_custom",
+                    "text": "No, we are using customized application"
+                },
+                {
+                    "value": "app_third_party",
+                    "text": " No, we are using third party application"
+                },
+                {
+                    "value": "app_not_applicable",
+                    "text": "Not applicable"
                 }
             ],
             "required": false
