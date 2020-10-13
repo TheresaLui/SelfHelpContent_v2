@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot capacity pool issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-capacity-pools )
+* [Troubleshoot capacity pool issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-capacity-pools)
 
 ## **Recommended Documents**
 
-* [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level )
+* [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level)
