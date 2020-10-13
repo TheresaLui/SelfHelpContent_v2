@@ -30,7 +30,7 @@ Distributed transactions can be executed across different Azure SQL Managed Inst
   - If instances are not part the same subnet, port 5024 needs to be open on all subnets for all participating instances. Also, port range 11000-12000 needs to be open on all subnets for all participating instances.
   - If instances are on different VNets, check if VNet peering is properly set up
 - Check if security requirements are satisfied
-  - Verify that instances are added to the Server Trust Group
+  - Verify that instances are added to the [Server Trust Group](https://docs.microsoft.com/azure/azure-sql/managed-instance/server-trust-group-overview)
 - To resolve stuck, deadlocked, orphaned, or in-doubt distributed transactions, use the kill unit of work (or session id). For more details, see [KILL documentation](https://docs.microsoft.com/sql/t-sql/language-elements/kill-transact-sql?view=sql-server-ver15).
 
 ## **Recommended Documents**
