@@ -19,7 +19,7 @@
 
 # **Resolve SQL errorlog issues with Managed Instance**
 
-## **Recommoneded Steps**
+## **Recommended Steps**
 
 View the SQL Server error log to ensure that processes have completed successfully (for example, backup and restore operations, batch commands, or other scripts and processes). This can be helpful to detect any current or potential problem areas, including automatic recovery messages (particularly if an instance of SQL Server has been stopped and restarted), kernel messages, or other server-level error messages.
 
