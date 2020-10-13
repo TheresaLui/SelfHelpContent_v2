@@ -41,7 +41,7 @@
                 },
                 {
                     "value": "no",
-                    "text": " No.  The problem occurs randomly"
+                    "text": "No. The problem occurs randomly"
                 }               
             ],
             "required": false

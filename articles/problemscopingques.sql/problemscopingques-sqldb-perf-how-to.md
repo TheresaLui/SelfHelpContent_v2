@@ -21,9 +21,16 @@
     "title": "SQL Database",
     "fileAttachmentHint": "",
     "formElements": [
+          {
+            "id": "problem_start_time",
+            "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
          {
             "id": "what_topic",
-            "order": 10,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Which topic are you interested in knowing.",
             "watermarkText": "Choose an option",
@@ -34,7 +41,7 @@
                 },
                 {
                     "value": "hotwo_query_store",
-                    "text": " How to use Query Store to monitor performance"
+                    "text": "How to use Query Store to monitor performance"
                 },
                 {
                     "value": "howto_apply_performance_recommendations",
@@ -46,7 +53,7 @@
                 },
                 {
                     "value": "howto_other",
-                    "text": " Other (Please describe in Description)"
+                    "text": "Other (Please describe in Description)"
                 }                 
             ],
             "required": false

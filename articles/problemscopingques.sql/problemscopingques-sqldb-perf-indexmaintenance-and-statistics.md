@@ -75,7 +75,7 @@
                 },
                 {
                     "value": "other",
-                    "text": " Other (Please describe in the Description)"
+                    "text": "Other (Please describe in the Description)"
                 }
             ],
             "required": false
