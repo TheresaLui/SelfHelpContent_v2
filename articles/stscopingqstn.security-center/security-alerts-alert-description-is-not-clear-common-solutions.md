@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Security Alerts - Alert Description is Not Clear"
+  pagetitle="Security Alerts - Alert investigation self-help guide"
   service=""
   resource=""
   ms.author="elsagie"
@@ -10,7 +10,9 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="255da1d8-c2be-4d0c-ba5c-826d48e92675"
   ownershipid="Azure_Security_Security_Center" />
-# Security Alerts - Alert Description is Not Clear
+# Security Alerts - Alert investigation self-help guide
+
+## **Recommended Steps**
 
 In the Description field for Security Alerts, you can find details about the security alert event. These additional details offer insights into what triggered the security alert, the target resource, the source IP address (when applicable), and recommendations about how to remediate the issue.  
 
@@ -22,28 +24,21 @@ To do this, use a [virtual network ACL](https://docs.microsoft.com/azure/virtual
 
 For more information on the different types of alerts, read [Security Alerts by Type in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-alerts-type).  
 
-You can share feedback for the alert description and relevance. Navigate to the alert itself, select the **Was This Useful** button, select the reason, and enter a comment to explain the feedback. We continously monitor this feedback channel to improve our alerts.
+You can share feedback for the alert description and relevance. Navigate to the alert itself, select the **Was This Useful** button, select the reason, and enter a comment to explain the feedback. We continuously monitor this feedback channel to improve our alerts.
+
+In addition [MITRE ATT&CK® tactics](https://docs.microsoft.com/azure/security-center/alerts-reference?WT.mc_id=Portal-Microsoft_Azure_Security#intentions) intentions is indicated for each alert can help you investigate and report the event more easily.
 
 ## **Recommended Documents**
 
-* [Managing and responding to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)
-
 * [Tutorial: Respond to security incidents](https://docs.microsoft.com/azure/security-center/tutorial-security-incident)
-
+* [Managing and responding to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)
 * [Alerts Validation in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
-
 * [Email Notifications in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)
-
 * [Handling Security Incidents in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-incident)
-
-* [Investigate Incidents and Alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-investigation)
-
 * [Security alerts - a reference guide](https://docs.microsoft.com/azure/security-center/alerts-reference)
 
 ## Troubleshooting
-
 * [ASC Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 ## FAQ
-
 * [ASC FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)

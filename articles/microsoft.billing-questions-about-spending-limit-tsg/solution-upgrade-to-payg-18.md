@@ -31,3 +31,6 @@
 
 <!--/issueDescription-->
 
+## Recommended Documents
+
+1. [Upgrade your free azure account](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/upgrade-azure-subscription#upgrade-your-azure-free-account)

@@ -26,7 +26,7 @@ More details about the failure(s):
 <!--$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->SQLMIFailedLoginsDueToUpdateSloRcaDetails<!--/$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
 
-SQL Managed Instance is available during update operations, except a short period of time during the failover that happens at the end of update. It typically lasts up to 10 seconds even in case of interrupted long-running transactions, thanks to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
+SQL Managed Instance is available during update operations, except a short period of time during the failover that happens at the end of update. It typically lasts seconds even in case of interrupted long-running transactions, thanks to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
 
 ## **Recommended Steps**
 It's not recommended to scale compute or storage of Azure SQL Managed Instance or to change the service tier at the same time with the long-running transactions (data import, data processing jobs, index rebuild, etc.). Database failover that will be performed at the end of the operation will cancel all ongoing transactions.

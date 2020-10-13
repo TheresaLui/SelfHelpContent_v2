@@ -58,8 +58,20 @@
                 {
                 "value": "Option four",
                 "text": "Fourth option to select"
+                },
+		{
+                "value": "Option five",
+                "text": "Fifth option to select"
+                },
+		{
+                "value": "Option six",
+                "text": "Sixth option to select"
+                },
+		{
+                "value": "Option seven",
+                "text": "Seventh option to select"
                 }
-            ],
+		],
             "displayLabel":"Please IGNORE this section as it is part of an operations test",
             "watermarkText":"Please IGNORE this section",
             "required": false
@@ -73,9 +85,17 @@
             "watermarkText": "Please IGNORE this section",
             "required": false
         },
+	{
+            "id": "numeric_texttest",
+            "order": 5,
+            "controlType": "numerictextbox",
+            "displayLabel": "Please IGNORE this section as it is part of an operations test - numeric",
+            "watermarkText": "Please IGNORE this section",
+            "required": false
+        },
         {
             "id": "learn_more_text",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>Learn more</a> on how to capture a browser trace for troubleshooting"
         }

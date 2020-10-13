@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Not approved for Invoicing"
+	pageTitle="Select country to get payment instructions"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,7 +15,6 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Not approved for Invoicing
+# Select country to get payment instructions
 
-Not approved for Invoicing
-
+Select country to get payment instructions
