@@ -2,7 +2,7 @@
 	articleId="problemscopingques-sqldb-perf-block-deadlock"
 	pageTitle="Azure SQL Database"
 	description="Scoping questions to capture issues related to blocking and deadlocks"
-	authors="akiohose"
+	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
 	selfHelpType="problemScopingQuestions"
@@ -193,7 +193,7 @@
             "order" : 71,
             "visibility" : "indexstat_maintenance == other",
             "controlType" : "textbox",
-            "displayLabel" : "What other frequency type are the indexes and statistics maintained?"
+            "displayLabel" : "What other frequency type are the indexes and statistics maintained?",
             "watermarkText" : "Describe other"
         },
         {
