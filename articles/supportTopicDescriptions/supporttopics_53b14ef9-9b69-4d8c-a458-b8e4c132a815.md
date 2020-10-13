@@ -57,6 +57,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "1399a98e-5286-6123-80fc-adbec49f9300",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Modeling Tools SSDT, and Management Tool SSMS",
+      "searchTags": "ssas tools;SSDT;SSMS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
@@ -249,6 +257,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "62c29126-871d-627a-1778-e28a5f528c7a",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Tabular  Modeling and Design on Azure VM.",
+      "searchTags": "ssas tabular",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
@@ -313,6 +329,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "81428e60-2438-6713-1c9c-a107ec53b163",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Multidimensional Modeling and Design on Azure VM.",
+      "searchTags": "ssas multidimensional;Analysis Services Multidimensional",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86494b13-e041-65d5-b786-f600737b096a",
       "longDescription": "",
       "shortDescription": "Questions or issues with setting up certificate for SQL Server, SSL and TLS, encrypted connection or errors",
@@ -334,6 +358,14 @@
       "shortDescription": "Questions or issues with connectivity and configuration of a report data source",
       "searchTags": "ssrs data source;ssrs configuration;ssrs connectivity;reporting services data source;report data source",
       "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9246e2a9-2991-6c52-a629-73ae142dd058",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with  SSAS instances processing being slow, query execution time or returning errors.",
+      "searchTags": "ssas refresh;ssas query performance;ssas query execution",
+      "category": "SSAS",
       "useInDiagnoseAndSolve": "true"
     },
     {
