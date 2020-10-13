@@ -1,22 +1,22 @@
 <properties
 	articleId="ac26fa9c-05b3-0005-b5e4-49812c98d489"
-	pageTitle="Scoping Questions for Runs and Triggers History "
-	description="Scoping Questions for Runs and Triggers History"
+	pageTitle="PowerShell and SDK Experience"
+	description="Scoping Questions for PowerShell and SDK Experience."
 	authors="genlin"
 	ms.author="kawilson"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32780510"
+	supportTopicIds="32780506"
 	productPesIds="17378"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="Compute_LogicApps"
 />
-# Runs and Triggers History
+# PowerShell and SDK Experience
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Runs and Triggers History",
+    "title": "PowerShell and SDK Experience",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -44,35 +44,11 @@
             "required": false
         },
         {
-            "id": "ISE_ID",
+            "id": "cmd_sdk",
             "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Please provide the integration service environment (ISE) name.",
-            "watermarkText": "Enter the ISE name",
-            "required": false
-        },
-        {
-            "id": "run_id",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Please provide one or more failed run ID(s).",
-            "watermarkText": "Enter the ID(s)",
-            "required": false
-        },
-        {
-            "id": "raw_inputs",
-            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide Raw Inputs of the failed action or trigger.",
-            "watermarkText": "Enter the Raw Inputs",
-            "required": false
-        },
-        {
-            "id": "raw_outputs",
-            "order": 7,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide Raw Outputs of the failed action or trigger.",
-            "watermarkText": "Enter the Raw Outputs",
+            "displayLabel": "Please provide the failed PowerShell command or SDK method.",
+            "watermarkText": "Enter the command or SDK method",
             "required": false
         }
     ],
