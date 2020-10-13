@@ -1,24 +1,24 @@
 <properties
-	articleId="problemscopingques-exporting-metrics-or-querying-with-api-powershell-or-cli"
-	pageTitle="Exporting metrics, or querying with API, PowerShell, or CLI"
-	description="Exporting metrics, or querying with API, PowerShell, or CLI"
-	authors="neilghuman"
+	articleId="problemscopingques-integrating-with-log-analytics-or-3rd-party-siem-tools"
+	pageTitle="Integrating with Log Analytics or 3rd party SIEM tools"
+	description="Integrating with Log Analytics or 3rd party SIEM tools"
+    authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684743,32684742,32684741"
-	productPesIds="16250"
+	supportTopicIds="32684712,32684711"
+	productPesIds="16875"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_AzureMetrics"
+	ownershipId="AzureMonitoring_DiagnosticLogsandSettings"
 />
 
-# Exporting metrics, or querying with API, PowerShell, or CLI
+# Integrating with Log Analytics or 3rd party SIEM tools"
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Exporting metrics, or querying with API, PowerShell, or CLI",
-    "fileAttachmentHint": "If applicable, please upload a screenshot of the error.",
+    "title": "Integrating with Log Analytics or 3rd party SIEM tools",
+    "fileAttachmentHint": "If possible, please upload a screenshot.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -29,7 +29,7 @@
         },
         {
             "id": "problem_frequency",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How frequently does the problem occur?",
             "watermarkText": "How frequently does the problem occur?",
@@ -45,7 +45,33 @@
                 },
                 {
                     "value": "Ongoing",
-                    "text": "Issue occurs consistently"
+                    "text": "Issue occurs for every alert instance"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ]
+        },
+                {
+            "id": "log_destination",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "What is the diagnostic log destination that is experiencing the issue?",
+            "watermarkText": "What is the diagnostic log destination that is experiencing the issue?",
+            "required": true,
+            "dropdownOptions": [
+                {
+                    "value": "Event Hub",
+                    "text": "Event Hug"
+                },
+                {
+                    "value": "Log Analytics",
+                    "text": "Log Analytics"
+                },
+                {
+                    "value": "Storage",
+                    "text": "Storage"
                 },
                 {
                     "value": "dont_know_answer",
@@ -54,27 +80,13 @@
             ]
         },
         {
-            "id": "api_call",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of the API call that is being used.",
-            "watermarkText": "Provide details of the API call that is being used.",
-            "required": true,
-            "useAsAdditionalDetails": false
-        },
-        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the verbatim error message(s) you are receiving.",
-            "watermarkText": "Provide the verbatim error message(s) you are receiving.",
+            "displayLabel": "Provide a description of the problem.",
+            "watermarkText": "Provide a description of the problem.",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "If applicable, please attach a screenshot of the error."
-                }
-            ]
+            "hints": []
         },
         {
             "id": "additional_information",
@@ -83,8 +95,8 @@
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
             "required": false,
-            "useAsAdditionalDetails": false
-        }
+            "useAsAdditionalDetails": true
+         }
     ],
     "$schema": "SelfHelpContent"
 }

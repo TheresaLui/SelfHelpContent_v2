@@ -1,23 +1,24 @@
 <properties
-	articleId="problemscopingques-issues-specific-to-application-insights-metrics"
-	pageTitle="Issues specific to Application Insights metrics"
-	description="Issues specific to Application Insights metrics"
-	authors="neilghuman"
+	articleId="problemscopingques-i-need-help-understanding-diagnostic-logs"
+	pageTitle="I need help understanding diagnostic logs"
+	description="I need help understanding diagnostic logs"
+    authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684748,32684745,32684758,32684759"
-	productPesIds="16250"
+	supportTopicIds="32684728,32684727,32684726,32684725,32684724,32684723,32684722,32684721"
+	productPesIds="16875"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_AzureMetrics"
+	ownershipId="AzureMonitoring_DiagnosticLogsandSettings"
 />
-# Issues specific to Application Insights metrics
+
+# I need help understanding diagnostic logs"
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Issues specific to Application Insights metrics",
-    "fileAttachmentHint": "Please upload a screenshot of the issue.",
+    "title": "I need help understanding diagnostic logs",
+    "fileAttachmentHint": "If possible, please upload a screenshot.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -30,16 +31,12 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of the problem you are experiencing.",
-            "watermarkText": "Provide details of the problem you are experiencing.",
+            "displayLabel": "Provide details about the aspects of diagnostic logs that you need help understanding.",
+            "watermarkText": "Provide details about the aspects of diagnostic logs that you need help understanding.",
             "required": true,
-            "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Metric names"
-                },
-                {
-                    "text": "Please attach a screenshot of the problem."
+                    "text": "If possible, please upload a screenshot within the File upload section below. "
                 }
             ]
         },
@@ -50,8 +47,8 @@
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
             "required": false,
-            "useAsAdditionalDetails": false
-        }
+            "useAsAdditionalDetails": true
+         }
     ],
     "$schema": "SelfHelpContent"
 }
