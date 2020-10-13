@@ -54,7 +54,7 @@
             "id": "allow_snapshot_isolation",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "The snapshot isolation option ALLOW_SNAPSHOT_ISOLATION for the database is set to:",
+            "displayLabel": "ALLOW_SNAPSHOT_ISOLATION snapshot isolation option for the database is set to:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -76,7 +76,7 @@
             "id": "read_committed_isolation",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "The snapshot isolation option READ_COMMITTED_SNAPSHOT for the database is set to:",
+            "displayLabel": "READ_COMMITTED_SNAPSHOT snapshot isolation option for the database is set to:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -141,7 +141,7 @@
             "dropdownOptions": [
                 {
                     "value": "is_set",
-                    "text": "Yes (Please describe the timeout value in the Description)"
+                    "text": "Yes (Please enter timeout value in the textbox bellow)"
                 },
                 {
                     "value": "not_set",
@@ -153,6 +153,15 @@
                 }
             ],
             "required": false
+        },
+         {
+            "id" : "lock_timeout_hint_value",
+            "order" : 61,
+            "visibility" : "lock_timeout_hint == is_set",
+            "controlType" : "textbox",
+            "displayLabel" : "",
+            "watermarkText" : "Enter timeout value (in milliseconds)",
+            "required": true
         },
         {
             "id": "indexstat_maintenance",
@@ -183,7 +192,7 @@
                 },
                 {
                     "value": "other",
-                    "text": " Other (Please describe in the Description)"
+                    "text": "Other (Please describe in the text box below)"
                 }
             ],
             "required": false
@@ -193,8 +202,9 @@
             "order" : 71,
             "visibility" : "indexstat_maintenance == other",
             "controlType" : "textbox",
-            "displayLabel" : "What other frequency type are the indexes and statistics maintained?",
-            "watermarkText" : "Describe other"
+            "displayLabel" : "",
+            "watermarkText" : "Describe other",
+            "required": true
         },
         {
             "id": "application_type",
