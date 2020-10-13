@@ -19,11 +19,11 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot capacity pool issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-capacity-pools )
+* [Troubleshoot capacity pool issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-capacity-pools)
 
 ## **Recommended Documents**
 
-* [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level )
-* [Manage a manual QoS capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/manage-manual-qos-capacity-pool )
-* [Set up a capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool )
-* [Manage a manual QoS capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/manage-manual-qos-capacity-pool )
+* [Dynamically change the service level of a volume](https://docs.microsoft.com/azure/azure-netapp-files/dynamic-change-volume-service-level)
+* [Manage a manual QoS capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/manage-manual-qos-capacity-pool)
+* [Set up a capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool)
+* [Manage a manual QoS capacity pool](https://docs.microsoft.com/azure/azure-netapp-files/manage-manual-qos-capacity-pool)
