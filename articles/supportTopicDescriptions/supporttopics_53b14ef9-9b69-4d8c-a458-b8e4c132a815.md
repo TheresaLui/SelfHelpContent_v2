@@ -57,6 +57,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "1399a98e-5286-6123-80fc-adbec49f9300",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Modeling Tools SSDT, and Management Tool SSMS",
+      "searchTags": "ssas tools;SSDT;SSMS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
