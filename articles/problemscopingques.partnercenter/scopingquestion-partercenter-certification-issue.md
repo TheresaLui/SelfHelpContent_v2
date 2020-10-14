@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728246"
+       supportTopicIds="32728246,32728013,32728159,32728086,32728203,32728125,32728217,32728260,32728112,32728166,32728183,32728099,32728274,32728072,32728233,32728052"
        productPesIds="17009"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -165,7 +165,7 @@
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        }

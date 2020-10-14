@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32750772"
+       supportTopicIds="32750772,32728043,32750771,32750767,32750766,32750769,32750765,32750775,32750776,32750773,32728069"
        productPesIds="17010"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -20,7 +20,7 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Marketplace Deployment Issue",
-   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording, HAR file or document with steps to recreate the issue)",
+   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
@@ -170,7 +170,7 @@
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
@@ -189,12 +189,6 @@
 	   "watermarkText": "Please provide any other additional information about your issue",
 	   "required": true,
 	   "useAsAdditionalDetails": true
-       },
-       {
-       "id": "learn_more_text",
-       "order": 12,
-       "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
        }
    ]
 }

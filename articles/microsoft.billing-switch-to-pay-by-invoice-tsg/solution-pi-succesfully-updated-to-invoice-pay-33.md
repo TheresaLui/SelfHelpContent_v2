@@ -1,5 +1,5 @@
 <properties
-	pageTitle="PI succesfully updated to Invoice Pay"
+	pageTitle="PI has been rejected"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,11 +15,11 @@
    	ownershipId="ASMS_Billing"
 />
 
-# PI succesfully updated to Invoice Pay
+# PI has been rejected
 
 <!--issueDescription-->
 
-We can confirm that our records show that you have moved the Azure Account to Invoice Pay. Please do let us know if there any other queries or concerns that I could assist you with.
+Review the reason and Consult TA/PTA to decide if this has to be to contested with GFS
 
 <!--/issueDescription-->
 
