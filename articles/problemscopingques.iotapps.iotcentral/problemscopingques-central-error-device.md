@@ -1,23 +1,23 @@
 <properties
-	pageTitle="IoT Central service issues"
-	description="IoT Central service issues for IoT Central scoping questions"
+	pageTitle="Issues with IoT Central devices"
+	description="Issues with IoT Central devices for IoT Central scoping questions"
 	authors="jajens"
 	ms.author="jajens"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32592896,32727890,32592872,32727890,32592871,32592894,32592900"
+	supportTopicIds="32727889"
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="0f6076df-449f-42da-9686-de2ada7362ba"
+	articleId="ed4e0c35-4a9e-4d6b-a384-ffda98ea2fe5"
 	ownershipId="AzureIot_IotCentral"
 />
-# IoT Central service issues
+# Issues with IoT Central devices
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Central service issues",
+  "title": "Issues with IoT Central devices",
   "fileAttachmentHint": "Upload logs or screenshots of errors if available",
   "formElements": [
     {
@@ -26,6 +26,14 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
+    },
+	    {
+      "id": "device_id",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Affected device IDs",
+      "watermarkText": "Example: myEdgeDevice, chiller-02",
+      "required": false
     },
     {
       "id": "problem_description",
@@ -43,14 +51,6 @@
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
-    },
-    {
-      "id": "errors",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: Error Code 500.000.999.999 / bk83coy1.1",
-      "required": false
     }
   ]
 }
