@@ -1,24 +1,24 @@
 <properties
-	pageTitle="IoT Central service issues"
-	description="IoT Central service issues for IoT Central scoping questions"
+	pageTitle="IoT Central App issues"
+	description="IoT Central App issues for IoT Central scoping questions"
 	authors="jajens"
 	ms.author="jajens"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32592896,32592871,32592872,32727890,32592894,32592900"
+	supportTopicIds="32592859,32727903,32592857,32592858,32592862,32592861,32727901,32592867,32592895,32592854"
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="0f6076df-449f-42da-9686-de2ada7362ba"
+	articleId="283c8e19-0120-4510-a846-cfa9c7ff9f46"
 	ownershipId="AzureIot_IotCentral"
 />
-# IoT Central service issues
+# IoT Central App issues
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Central service issues",
-  "fileAttachmentHint": "Upload logs or screenshots of errors if available",
+  "title": "IoT Central App issues",
+  "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
       "id": "problem_start_time",
@@ -43,14 +43,6 @@
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
-    },
-    {
-      "id": "errors",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: Error Code 500.000.999.999 / bk83coy1.1",
-      "required": false
     }
   ]
 }
