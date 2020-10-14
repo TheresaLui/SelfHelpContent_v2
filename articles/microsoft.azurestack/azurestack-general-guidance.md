@@ -28,7 +28,7 @@ The recommended steps below may help solve or isolate the issue. If the steps be
 
 ## **Recommended Documents**
 
-For general troubleshooting and topics that cover common questions sent to Microsoft Customer Support Services (CSS), see [Azure Stack Troubleshooting](https://aka.ms/azstroubleshooting). For more details about specific concepts and tasks, see the [Azure Stack Operator Documnentation](https://docs.microsoft.com/azure-stack/operator).
+For general troubleshooting and topics that cover common questions sent to Microsoft Customer Support Services (CSS), see [Azure Stack Hub Troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting). For more details about specific concepts and tasks, see the [Azure Stack Operator Documnentation](https://docs.microsoft.com/azure-stack/operator).
 
 For guidance on setting up tools to work with Azure Stack Hub, you can find instructions for using [PowerShell](https://docs.microsoft.com/azure-stack/operator/powershell-install-az-module) or [Azure CLI](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles-azurecli2).
 
