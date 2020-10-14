@@ -21,31 +21,36 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-Issue: **Replica is not starting**
-
-   * PostgreSQL requires the replica values of the max_prepared_transactions, max_locks_per_transaction, and max_worker_processes parameters be greater than or equal to the master value; otherwise, the replica won't start. If you want to change one of these parameters on the master, first change it on the replicas.
-
-Issue: **Replica server is writable**, or has some other property expected only on master
+Issue: **Replica server is writable**, or has some other property expected only on primary server
 
    * Connect to your replica server and run the following query: `SELECT pg_is_in_recovery();`. If this returns false, you are not connected to a replica server. Look at the username field (username@servername) in your connection string. Confirm that the server name is the same as that of the replica.
 
+Issue: **Replica lag** higher than usual
+   * Replica lag increase is typically caused by an increased load on the primary server. Consider reducing the load on the primary or [scaling up](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#scaling).
+
 Issue: **Replica failover**
 
-   * You can choose to stop replication to a replica. Stopping replication disconnects the replica from the master server and makes the replica server a standalone read/write server.
+   * Replicas [do not automatically failover](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#failover). You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. The replica will always have a unique connection string from the primary server.
 
-   * Replicas [do not automatically failover](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#failover). You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. The replica will always have a unique connection string from the master server.
+   * You can choose to stop replication to a replica. Stopping replication disconnects the replica from the primary server and makes the replica server a standalone read/write server.
 
-Issue: **Query Performance Insight**, Performance Recommendations, Query Store not working on replica
+Issue: **Query Performance Insight**, Performance Recommendations, Query Store not working
 
-   * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the master server's Query Store data. 
+   * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the primary server's Query Store data.
+   
+   * After a replica becomes a standalone server, [set Query Store parameters](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature.
 
 Issue: **Can't scale down** replica's compute
 
-   * The replica's compute should be equal to or greater than the master server. 
+   * The replica's compute should be equal to or greater than the primary server. [Learn more](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#scaling).
 
 Issue: Interested in **logical replication**
    * Logical replication with Azure Database for PostgreSQL as a subscriber is not supported
    * Logical replication is a different PostgreSQL feature from [logical decoding](https://docs.microsoft.com/azure/postgresql/concepts-logical)
+
+Issue: **Replica is not starting**
+
+   * PostgreSQL requires the replica values of the max_prepared_transactions, max_locks_per_transaction, and max_worker_processes parameters be greater than or equal to the primary value; otherwise, the replica won't start. If you want to change one of these parameters on the primary, first change it on the replicas.
 
 Issue: **Queries on the replica fail** with error message "Canceling statement due to conflict with recovery. **User query might have needed to see row versions that must be removed**."
 
