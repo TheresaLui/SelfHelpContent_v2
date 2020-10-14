@@ -75,7 +75,7 @@
             "required": false,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide link address or other source that was referenced"
-        }
+        },
         {
             "id": "problem_description",
             "order": 1000,
