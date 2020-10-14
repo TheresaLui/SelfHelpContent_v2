@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Tax ID Available? Yes, No"
+	pageTitle="Tax ID Available"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,6 +15,6 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Check if a Tax ID is Available
+# Has the customer indicated they wish to add a Tax ID?
 
-Validate if customer profile has valid Tax ID updated under CMAT/CST
+Validate if customer profile has valid Tax ID updated under CMAT/CST. If no Tax ID is shown and the customer wishes to add a Tax ID then this may provide tax benefits to the customer.
