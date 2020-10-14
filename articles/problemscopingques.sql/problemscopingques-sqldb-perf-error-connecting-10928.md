@@ -23,17 +23,35 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
-        {
-            "id": "error_stack",
+         {
+            "id": "is_reproducible",
             "order": 20,
+            "controlType": "dropdown",
+            "displayLabel": "Is the problem reproducible?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes, we can reproduce the problem consistently"
+                },
+                {
+                    "value": "no",
+                    "text": "No. The problem occurs randomly"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "error_text_10928",
+            "order": 30,
             "controlType": "multilinetextbox",
-            "displayLabel": "If applicable, please provide the error text including the stack trace as well.",
-            "watermarkText": "Error text and stack trace if available.",
+            "displayLabel": "If applicable, please provide the 10928 error text.",
+            "watermarkText": "Enter error text.",
             "required": false
         },
         {
