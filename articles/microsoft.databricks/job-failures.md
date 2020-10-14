@@ -53,6 +53,14 @@
     **Note:** This could increase cluster startup time by a few minutes.
     * [SSH to Driver on VNet injected workspace](https://docs.microsoft.com/azure/databricks/clusters/configure#--ssh-access-to-clusters) and run bash commands
 
+**Error** : ADF Error code 3204 - ModuleNotFoundError: No module named 'azure'
+
+  * If the job requires certain libraries, make sure to [attach the libraries as dependent libraries within job itself](https://docs.microsoft.com/azure/databricks/kb/jobs/job-fails-no-library)
+    
+  * [Set library dependencies directly in ADF notebook run](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook#databricks-notebook-activity-properties)
+    
+  * Apply retry logic by modifying [activity configuration](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#activity-policy-json-definition) 
+	
 ## **Recommended Documents**
 
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
