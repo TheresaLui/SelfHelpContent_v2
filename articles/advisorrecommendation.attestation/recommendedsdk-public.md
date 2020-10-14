@@ -1,3 +1,14 @@
+<properties
+    pageTitle="Upgrade SDK version recommendation"
+    description="Return list of resources that do not currently use the recommended SDK version"
+    ms.author="aasdev"
+    articleId="5152c401-2d14-4860-b59c-5c0ddc18e9f8_public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="public"
+    ownershipId="AzureAttestation_Attestation"
+/>
+# Attestation SDK Version Recommendation
+---
 {
    "recommendationOfferingId":"ed0474ab-5023-4fb4-ac86-05170f7c63ca",
    "recommendationOfferingName":"Microsoft Azure Attestation",
@@ -72,3 +83,4 @@
    "tip":"",
    "testData":""
 }
+---
