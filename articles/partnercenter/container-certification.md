@@ -19,6 +19,8 @@
 
 # Containers - certification
 
+**IMPORTANT**: If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
+
 During the certification publishing step, the Container offer is analyzed by the Azure Certification Team. The offer is scanned for viruses, malware, safety compliance, and security issues. The offer is checked to see that it meets all the eligibility criteria. 
 
 ## **Recommended Documents**

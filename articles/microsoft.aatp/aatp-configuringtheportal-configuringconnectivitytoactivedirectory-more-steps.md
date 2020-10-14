@@ -1,11 +1,11 @@
 <properties
 	pageTitle="Quickstart: Connect to your Active Directory Forest"
-	description="Sensor connect"
+	description="Sensor connect "
 	infoBubbleText="sensor connect"
 	service="microsoft-aatp"
 	resource="aatp"
 	authors="digeler"
-	ms.author="digeler"
+	ms.author="digeler, sischleg"
 	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32729025"
@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-# **Quick Start Connect Sensor To AD**
+# **Quick Start Connect Sensor To AD** 
 
 
 

@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "AzureStorage.Data.StorageAdvisorLifecycleManagmentV1",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "0.23:59:59"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
@@ -36,7 +36,7 @@
     "serviceTreeId": "c77cbc0e-e61d-4aa0-9672-b63d529eac77"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Use Lifecycle Management to transition older block blobs to a cooler tier.",
   "longDescription": "One or more of your storage accounts has a high number of block blobs that have been created at least 28 days ago with few transactions performed. Use Lifecycle Management rules to tier your data to Cool or Archive to optimize your storage costs while retaining your data in Azure blob storage for application compatibility.",
   "potentialBenefits": "Optimize your storage costs by migrating older block blobs to lower priced storage cost tiers like Cool or Archive.",

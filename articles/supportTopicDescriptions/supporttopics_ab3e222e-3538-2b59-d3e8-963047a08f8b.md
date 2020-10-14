@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05a1c070-0ace-8cdb-40ca-c14eaae95a00",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services metrics from azure",
+      "searchTags": "metrics;azure portal;dashboard",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f77c93d-dee1-3963-1fe6-6aee644164a2",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment is not responding.",
@@ -58,6 +66,14 @@
       "shortDescription": "Select this if you need help with solving Controller monitoring and logging issues which are not mentioned",
       "searchTags": "Unknown;DC;Monitoring;Logging",
       "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "14c61ed8-06c8-72cb-9d2a-6381843e872d",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring data services logs from azure",
+      "searchTags": "Log analytics;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -269,6 +285,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a16dd731-db69-3109-344c-073acc9c6505",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource visible in azure post successful deletion of service.",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
@@ -354,6 +378,14 @@
       "shortDescription": "Select this if you need help with solving issues for controller plane pods post successful controller deployment",
       "searchTags": "Controller Plane;Controller DB;Data Controller",
       "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f09cd4d3-5278-3fb5-2f63-f4f8539caefb",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource not visible in azure post successful upload",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
       "useInDiagnoseAndSolve": "true"
     },
     {
