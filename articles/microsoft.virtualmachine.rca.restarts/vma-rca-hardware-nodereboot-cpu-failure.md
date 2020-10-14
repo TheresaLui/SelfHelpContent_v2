@@ -24,28 +24,25 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-```
 ### *Issue Description*
-This unexpected occurrence was caused by an **Azure initiated host node reboot action** as the result of a detected **hardware issue** due to **CPU errors** on the physical node where the VM was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
-```
+> This unexpected occurrence was caused by an **Azure initiated host node reboot action** as the result of a detected **hardware issue** due to **CPU errors** on the physical node where the VM was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
+
 <!--resolutionDetails-->
 ### *Resolution*
-```
-VM Services were restored following reboot.
-```
+> VM Services were restored following reboot.
 <!--/resolutionDetails-->
 
 <!--nextSteps-->
 ### *Next Steps*
 
-The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
-
-- Azure is continually working to make improvements to pre-production hardware screening
-- Azure is continually working with manufacturers to identify and prevent failures through improvements in CPU microcode
-- Improvements to CPU failure handling to reduce or avoid impact to customers
-- Improvements to failure prediction telemetry and models
-
-We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+> The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
+> 
+> - Azure is continually working to make improvements to pre-production hardware screening
+> - Azure is continually working with manufacturers to identify and prevent failures through improvements in CPU microcode
+> - Improvements to CPU failure handling to reduce or avoid impact to customers
+> - Improvements to failure prediction telemetry and models
+> 
+> We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 
 <!--/nextSteps-->
 <!--/rcaDescription-->
