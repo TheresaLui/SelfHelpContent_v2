@@ -23,7 +23,7 @@
     "formElements": [
           {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -31,10 +31,10 @@
          {
             "id": "what_topic",
             "order": 20,
-            "controlType": "dropdown",
+            "controlType": "radioButtonGroup",
             "displayLabel": "Which topic are you interested in knowing.",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "radioButtonOptions": [
                 {
                     "value": "howto_dmv",
                     "text": "How to use DMVs to monitor performance"
@@ -53,19 +53,37 @@
                 },
                 {
                     "value": "howto_other",
-                    "text": "Other (Please describe in Description)"
+                    "text": "Other (Please describe in the following text box)"
                 }
             ],
             "required": false
         },
         {
+            "id" : "what_topic_other",
+            "order" : 21,
+            "visibility" : "what_topic == howto_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please provide topic of interest or facing problem.",
+            "watermarkText" : "Enter topic or facing problem"
+            "required": true
+        },
+        {
+            "id": "info_source_reference",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Is there any information source (User Forum, Links, etc) that was referenced?",
+            "required": false,
+            "useAsAdditionalDetails": true,
+            "watermarkText": "Please provide link address or other source that was referenced"
+        }
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Please provide additional context for the topic of interest or the facing problem ",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "If available, please attach any relevant screenshots or scripts that you have used."
         }
     ]
 }
