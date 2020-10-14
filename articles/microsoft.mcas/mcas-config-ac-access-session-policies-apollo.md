@@ -29,7 +29,6 @@ This experience provides common solutions, important documents, and relevant how
 </CommonSolution>
 
 - To view the tutorial on how to block downloads, see [Tutorial on how to block downloads of sensitive information](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
-
 - To view the troubleshooting guide, see [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy)
 
 ## **Follow the instructions in the how-to videos below to resolve your issue**

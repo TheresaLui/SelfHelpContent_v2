@@ -14,6 +14,7 @@
   cloudEnvironments="public"
   ownershipId="CloudAppSecurity_DataProtection"
 />
+# Labels and Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
 
 # Article on labels, Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
 
