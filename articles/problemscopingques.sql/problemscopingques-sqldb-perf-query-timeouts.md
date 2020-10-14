@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -75,7 +75,7 @@
                 },
                 {
                     "value": "event_other",
-                    "text": "Others (Please describe in the Description)"
+                    "text": "Others (Please describe in the following text box)"
                 },
                 {
                     "value": "event_unkown",
@@ -83,6 +83,15 @@
                 }
             ],
             "required": false
+        },
+         {
+            "id" : "observed_recent_event_other",
+            "order" : 31,
+            "visibility" : "observed_recent_event == event_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe event observed",
+            "watermarkText" : "Events observed",
+            "required": true
         },
         {
             "id": "application_type",
@@ -101,7 +110,7 @@
                 },
                 {
                     "value": "app_third_party",
-                    "text": " No, we are using third party application"
+                    "text": "No, we are using third party application"
                 },
                 {
                     "value": "app_not_applicable",
