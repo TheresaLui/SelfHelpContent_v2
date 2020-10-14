@@ -57,12 +57,28 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "1399a98e-5286-6123-80fc-adbec49f9300",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Modeling Tools SSDT, and Management Tool SSMS",
+      "searchTags": "ssas tools;SSDT;SSMS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
       "searchTags": "",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "1589e733-c21e-a4b0-4984-e06ad8e324ad",
+      "longDescription": "",
+      "shortDescription": "Issue with SQL Server Analysis Services Setup, Patching, Licensing, SQL VM Images, SQL VM RP or IaaS Extension Setup",
+      "searchTags": "ssas;sql server analysis services;ssas setup;ssas licensing;ssas patching",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "15caab59-558e-933c-4426-a4ee3e25d2dc",
@@ -335,6 +351,14 @@
       "searchTags": "certificate;sql certificate;ssl;tls;encrypted connections",
       "category": "Security",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "86507fb5-016a-3432-8083-2be56073bea4",
+      "longDescription": "",
+      "shortDescription": "Issues with SSAS Model data sources connecting to relational engines or Modern Get data experience with Power Query & M Language to supported sources",
+      "searchTags": "ssas data source;ssas data sources;analysis services data source",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "892a8d4c-e097-0cf7-c4ac-b1814924e097",
