@@ -159,7 +159,7 @@
             "order" : 61,
             "visibility" : "lock_timeout_hint == is_set",
             "controlType" : "textbox",
-            "displayLabel" : "",
+            "displayLabel" : "Please enter LOCK_TIMEOUT value",
             "watermarkText" : "Enter timeout value (in milliseconds)",
             "required": true
         },
@@ -202,7 +202,7 @@
             "order" : 71,
             "visibility" : "indexstat_maintenance == other",
             "controlType" : "textbox",
-            "displayLabel" : "",
+            "displayLabel" : "Please describe index/statistics maintenance frequency",
             "watermarkText" : "Describe other",
             "required": true
         },
