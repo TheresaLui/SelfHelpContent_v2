@@ -76,6 +76,8 @@
          "title":"Minimum Recommended Version"
       }
    ],
-   "tip":""
+   "tip":"",
+   "testData":"a724c543-53ce-44a6-b633-e11ef27839b7,/subscriptions/a724c543-53ce-44a6-b633-e11ef27839b7/resourceGroups/AASRunnerRG/providers/Microsoft.Attestation/attestationProviders/cacupdt2yngl3x5mcr0g
+a724c543-53ce-44a6-b633-e11ef27839b7,/subscriptions/a724c543-53ce-44a6-b633-e11ef27839b7/resourceGroups/AASRunnerRG/providers/Microsoft.Attestation/attestationProviders/caegvtql3x5mcr0g1segg"
 }
 ---
