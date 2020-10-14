@@ -64,7 +64,7 @@
             "visibility" : "what_topic == howto_other",
             "controlType" : "textbox",
             "displayLabel" : "Please provide topic of interest or facing problem.",
-            "watermarkText" : "Enter topic or facing problem"
+            "watermarkText" : "Enter topic or facing problem",
             "required": true
         },
         {
