@@ -105,18 +105,18 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [
+    "additionalColumns": [
     {
-      name: 'MaxCpuP95',
-      title: 'CPU (%)'
+      "name": "MaxCpuP95",
+      "title": "CPU (%)"
     },
     {
-      name: 'MaxTotalNetworkP95',
-      title:'Network (%)'
+      "name": 'MaxTotalNetworkP95',
+      "title":'Network (%)'
     }, 
     {
-      name: 'MaxMemoryP95',
-      title: 'Memory (%)'
+      "name": 'MaxMemoryP95',
+      "title": 'Memory (%)'
     }
   ],
   "ingestionClientIdentities": [
