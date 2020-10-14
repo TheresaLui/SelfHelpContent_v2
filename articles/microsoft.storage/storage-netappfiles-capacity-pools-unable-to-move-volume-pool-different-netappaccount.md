@@ -17,6 +17,8 @@
 
 # Unable to move the volume to a pool in different NetApp Account
 
+Volume move from one NetApp account to another is not allowed
+
 ## **Recommended Steps**
 
 * [Troubleshoot capacity pool issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-capacity-pools )
