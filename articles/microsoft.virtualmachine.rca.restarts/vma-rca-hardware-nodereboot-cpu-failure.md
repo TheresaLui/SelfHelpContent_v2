@@ -42,6 +42,7 @@ The Hardware Engineering team is working on the following long-term fixes to red
 - Improvements to failure prediction telemetry and models
 
 We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+
 <!-/nextSteps-->
 <!--/rcaDescription-->
 
