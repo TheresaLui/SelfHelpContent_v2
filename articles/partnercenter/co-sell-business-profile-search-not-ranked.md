@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Cosell"
 />
 
-# Partner Center Business profile does not appear in Microsoft Solution Provider for certain search queries
+# Partner Center Business profile ranked lower than expected in Microsoft Solution Provider search results
 
 ## **Recommended Steps**
 
@@ -29,13 +29,22 @@
 
 **Criteria for *Best match* category**
 
-*Below data from business profiles is used to fetch a filtered list of profiles
-* Location - based on radius
-* Exact match is required with the customer org size and any one of the other field in your business profile
-| Industry expertise | Product  | Service type | Solutions  | Skills and capability |
+Below data from business profiles is used to fetch a filtered list of profiles
 
-*After fetching the filtered profiles, ranks are assigned to the profiles based on the below earned attributes
-|Azure expert MSP |  Advanced specialization | Endorsements | Competencies | Past referrals conversion data |
+1. Location - based on radius
+2. Exact match is required with the customer org size and any one of the other field in your business profile
+* Industry expertise 
+* Product
+* Service type  
+* Solutions 
+* Skills and capability
+
+After fetching the filtered profiles, ranks are assigned to the profiles based on the below earned attributes
+* Azure expert MSP   
+* Advanced specialization 
+* Endorsements 
+* Competencies
+* Past referrals conversion data
 
 **Criteria for *Most responsive* category**
 This section takes in to account, the past performance with respect to the number of referrals received, number of referrals accepted among them, time to accept, number of referrals marked as won etc.
