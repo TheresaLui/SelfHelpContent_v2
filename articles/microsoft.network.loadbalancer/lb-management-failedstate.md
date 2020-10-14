@@ -17,7 +17,7 @@
 
 # Azure Load Balancer In Failed State issues
 
-## **Recommended Stesps**
+## **Recommended Steps**
 1. Go to [https://resources.azure.com](https://resources.azure.com), and sign in with your Azure portal credentials. 
 2. Select Read/Write. 
 3. On the left, expand Subscriptions, and then expand the Subscription with the Load Balancer to update. 
