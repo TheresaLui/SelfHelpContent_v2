@@ -18,7 +18,7 @@
 # ZRS Classic to ZRS Migration
 
 ### Migrating from a ZRS Classic to ZRS account.
-1. Cutomers can self-initiate migrating from ZRS Classic to ZRS, in regions where ZRS is available, using Azure Portal.
+1. Customers can self-initiate migrating from ZRS Classic to ZRS, in regions where ZRS is available, using Azure Portal.
    * > Note: ZRS requires custom infrastructure and is only available in regions that have [Availability Zones](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview#regions-that-support-availability-zones)   
 2. To upgrade to ZRS in the Azure portal, navigate to the **Configuration** section of the account and choose **Upgrade**:
 
