@@ -73,7 +73,7 @@
             "order" : 31,
             "visibility" : "cpu_spike == other_spike",
             "controlType" : "textbox",
-            "displayLabel" : "Please describe symptoms of the CPU spike observed.",
+            "displayLabel" : "Please describe symptoms of the CPU utilization observed.",
             "watermarkText" : "Symptoms observed",
             "required": true
         },
@@ -86,7 +86,7 @@
             "dropdownOptions": [
                 {
                     "value": "event_migration",
-                    "text": "Migrated database from On Premises database"
+                    "text": "Migrated database from On-Premises database"
                 },
                 {
                     "value": "event_reconfigure_slo",
