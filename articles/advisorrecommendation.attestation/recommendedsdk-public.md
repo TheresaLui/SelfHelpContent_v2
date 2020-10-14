@@ -15,7 +15,7 @@
    "$schema":"AdvisorRecommendation",
    "recommendationTypeId":"3629448e-9b3e-4c5d-96ec-4760bbfde5ab",
    "dataSourceMetadata":{
-      "streamNamespace":"cluster('https://azureslam.kusto.windows.net').database('AzureAttestationProd').GetAzureAdvisorRecommendedSdkReport,
+      "streamNamespace":"cluster('https://azureslam.kusto.windows.net').database('AzureAttestationProd').GetAzureAdvisorRecommendedSdkReport",
       "dataSource":"Kusto",
       "refreshInterval":"1.00:00:00"
    },
