@@ -33,3 +33,4 @@ For general troubleshooting and topics that cover common questions sent to Micro
 For guidance on setting up tools to work with Azure Stack Hub, you can find instructions for using [PowerShell](https://docs.microsoft.com/azure-stack/operator/powershell-install-az-module) or [Azure CLI](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles-azurecli2).
 
 With PowerShell installed on your management machine, you can connect to your Azure Stack Hub environment. For instruction see [Connect to Azure Stack Hub with PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-powershell-configure-admi).
+
