@@ -8,10 +8,11 @@
        productPesIds="17001"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
-       articleId="problemscoping_partnercenter_marketplace_analytics_issue" 
+       articleId="problemscoping_partnercenter_marketplace_analytics_issue"
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Analytics"
 />
+
 # Marketplace Analytics Issue
 
 ---
@@ -48,10 +49,10 @@
        },
        {
 	   "id": "pc_isv_offer_type",
-       "order": 4,
+       	   "order": 4,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
-       "watermarkText":"Please select the Offer Type from the below list",
+       	   "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
 		   "value": "Azure Application offer",
