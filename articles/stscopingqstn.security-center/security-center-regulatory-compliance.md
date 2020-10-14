@@ -1,44 +1,49 @@
 <properties
-    pageTitle="Azure Security Center Regulatory Compliance Common Solutions"
-    description="Azure Security Center Regulatory Compliance Common Solutions"
-    authors="genlin, v-miegge"
-    ms.author="jaserano, kawilson"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32693246"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="a15f057d-9001-8910-a98a-dfaf3843dc2f"
-	ownershipId="Azure_Security_Security_Center"
-/>
-
-# Azure Security Center Regulatory Compliance Common Solutions 
+  pagetitle="Azure Security Center Regulatory Compliance self-help guide"
+  ms.author="jaserano,kawilson,elsagie"
+  selfhelptype="Generic"
+  supporttopicids="32693246"
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="a15f057d-9001-8910-a98a-dfaf3843dc2f"
+  ownershipid="Azure_Security_Security_Center" />
+# Azure Security Center Regulatory Compliance self-help guide
 
 ## Common Regulatory Compliance issues
 
-**Supported Azure Security Center Regulatory Compliance Standards**
+Most users can resolve issues with Azure Security Center compliance by using the following information. 
 
-ASC Regulatory Compliance currently only supports the following Compliance Standards:
+### Supported Azure Security Center Regulatory Compliance Standards
 
-* Azure CIS
-* PCI DSS 3.2
+ASC Regulatory Compliance currently supports the following compliance standards by default, out of the box:
+
+* Azure CIS 1.1.0
+* PCI DSS 3.2.1
 * ISO 27001
-* SOC TSP
+* SOC2 TSP
 
-Additional standards will be reflected in the dashboard as it develops.
+You can add standards such as NIST SP 800-53 R4, SWIFT CSP CSCF-v2020, UK Official and UK NHS, Canada Federal PBMM, and Azure CIS 1.1.0 (new).  
 
-**On Security Center CIS regulatory compliance some assessments appear grayed out**
+In addition, you can add Azure Security Benchmark, the Microsoft-authored, Azure-specific guidelines for security and compliance best practices based on common compliance frameworks. [Learn more about Azure Security Benchmark](https://docs.microsoft.com/azure/security/benchmarks/introduction).
 
-Select a tab for a compliance standard that is relevant to you. You will see the list of all controls for that standard. For the applicable controls, you can view the details of passing and failing assessments associated with that control. Some controls are grayed out. These controls do not have any Security Center assessments associated with them. [See here for more information](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance).
+Additional standards will be reflected in the dashboard as it develops and are documented in [Customizing the set of standards in your regulatory compliance dashboard](https://docs.microsoft.com/azure/security-center/update-regulatory-compliance-packages)
 
-**Note**: Customizations within the Regulatory Compliance blade is not supported. Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. It is not possible to modify the value of certain CCEID to match your companies standard.
+### On Security Center CIS regulatory compliance, some assessments appear grayed out
 
-**I made the suggested changed based on the recommendation, yet it is not being reflected in the dashboard**
+Select a tab for a compliance standard that is relevant to you. You will see the list of all controls for that standard. For the applicable controls, you can view the details of passing and failing assessments associated with that control. Some controls are grayed out. These controls do not have any Security Center assessments associated with them. Learn more about [assessments](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance).
 
-After you take action to resolve recommendations, please await 12 hours to see the impact on your compliance data. Assessments are run approximately every 12 hours, so you will see the impact on your compliance data only after the assessments run.
+**Note**: Customizations within the Regulatory Compliance blade are not supported. Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. It is not possible to modify the value of certain CCEID to match a company's standard.
 
-## Additional information
+### Can I remove any of the "built-in standards" that appear by default in the dashboard? I only want to track the additional standards that I onboarded.
+
+Today, you cannot remove any of the "built-in standards" - they are static and always appear there. You can only add or remove the additional supported standards, or custom initiative policies. This is being addressed, and removal of built-in standards will be supported at a future date.
+
+### I made the suggested changes based on the recommendation, yet it is not being reflected in the dashboard.
+
+After you take action to resolve recommendations, wait 12 hours to see the impact on your compliance data. Assessments are run approximately every 12 hours, so you will see the impact on your compliance data only after the assessments run.
+
+### Additional information
 
 To use the Regulatory Compliance, Azure Security Center must be on standard pricing tier on the subscription level. If the Regulatory Compliance UI is not loading correctly, try the following steps:
 
@@ -50,11 +55,15 @@ The compliance dashboard surfaces security assessments and recommendations as th
 
 ## **Recommended Documents**
 
-* [Azure Security Center Compliance Dashboard](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard)<br>
-* [Azure Security Center Using Custom Security Policies](https://docs.microsoft.com/azure/security-center/custom-security-policies)
-<br>
+* [Tutorial: Improve your regulatory compliance](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard)
+* Blog: [Regulatory compliance dashboard in Azure Security Center](https://azure.microsoft.com/blog/regulatory-compliance-dashboard-in-azure-security-center-now-available/)
+* Video: [Compliance Dashboard | Azure Security Center in the Field](https://www.youtube.com/watch?v=dlV1yqPyzQ0)
+* Video: [Cloud Security Posture Management (CSPM) with Azure Security Center | Azure Friday](https://www.youtube.com/watch?v=eIoWrBFFusY)
+* [Using custom security policies](https://docs.microsoft.com/azure/security-center/custom-security-policies)
+* [Overview of compliance packages](https://docs.microsoft.com/azure/security-center/update-regulatory-compliance-packages)
 * [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
-
+* [Working with security policies](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Azure Security benchmarks](https://docs.microsoft.com/azure/security/benchmarks/introduction)
 
 ### Troubleshooting
 

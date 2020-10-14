@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://docs.azure.cn/cosmos-db/performance-tips#networking",
   "description": "Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK",
   "longDescription": "We noticed that your Azure Cosmos DB applications are using Gateway mode via the Cosmos DB .NET or Java SDKs. We recommend switching to Direct connectivity for lower latency and higher scalability.",
@@ -38,7 +38,7 @@
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').GatewayMode",
-    "refreshInterval": "0.12:00:00"
+    "refreshInterval": "0.12:00:01"
   },
   "actions": [
     {

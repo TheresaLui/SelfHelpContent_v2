@@ -6,7 +6,7 @@ ms.author = "aadevteam"
 articleId = "79319e4d-f4ba-4c45-bdcf-4df91a56598a_Fairfax"
 selfHelpType = "advisorRecommendationMetadata"
 cloudEnvironments = "Fairfax" 
-	ownershipId="CloudNet_AzureVPNGateway"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency
 ---
