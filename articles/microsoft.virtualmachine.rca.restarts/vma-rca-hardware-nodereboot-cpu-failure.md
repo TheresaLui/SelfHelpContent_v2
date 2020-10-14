@@ -43,7 +43,7 @@ The Hardware Engineering team is working on the following long-term fixes to red
 
 We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 
-<!-/nextSteps-->
+<!--/nextSteps-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
