@@ -115,15 +115,14 @@
             "radioButtonOptions": [
                 {
                     "value": "single_instance",
-                    "text": "No"
+                    "text": "No. The query executes against multiple databases within a single Azure SQL Database"
                 },
                 {
                     "value": "multiple_instance",
                     "text": "Yes"
                 }
             ],
-            "displayLabel" : "Does the query span multiple Azure SQL Database?",
-            "watermarkText" : "Problem observed",
+            "displayLabel" : "Does the query span multiple Azure SQL Databases?",
             "required": true
         },
         {
@@ -161,7 +160,7 @@
                 },
                 {
                     "value": "app_third_party",
-                    "text": " No, we are using third party application"
+                    "text": "No, we are using third party application"
                 },
                 {
                     "value": "app_not_applicable",
