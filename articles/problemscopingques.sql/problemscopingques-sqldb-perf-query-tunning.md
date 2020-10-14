@@ -124,6 +124,10 @@
                 {
                     "value": "multiple_instance",
                     "text": "Yes"
+                },
+                    {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "displayLabel" : "Does the query span multiple Azure SQL Databases?",
