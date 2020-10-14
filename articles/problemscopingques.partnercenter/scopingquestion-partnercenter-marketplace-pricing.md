@@ -54,30 +54,34 @@
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
-		   "value": "Consulting Service offer",
+		   "value": "consulting_service_offer",
 		   "text": "Consulting Service offer"
 	       },
 	       {
-		   "value": "Office add-in",
+		   "value": "office_add",
 		   "text": "Office add-in"
 	       },
 	       {
-		   "value": "Power BI visual",
+		   "value": "power_bi_visual",
 		   "text": "Power BI visual"
 	       },
 	       {
-		   "value": "SharePoint add-in",
+		   "value": "sharepoint_add",
 		   "text": "SharePoint add-in"
 	       },
 	       {
-		   "value": "Azure Virtual machine offer",
+		   "value": "azure_vm_offer",
 		   "text": "Azure Virtual machine offer"
+	       },
+	       {
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
 	       }
 	       ],
 	   "required": true
        },
        {
-	   "id": "additional_email(s)_for_notification",
+	   "id": "additional_email_for_notification",
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
