@@ -1,31 +1,31 @@
 <properties
-    pageTitle="Policy enforcement not as expected"
-    description="Policy enforcement not as expected"
-    service="microsoft.authorization"
-    resource="policyDefinitions"
-    authors="robga"
-    ms.author="robga"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32739638"
-    resourceTags=""
-    productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-    articleId="1c0cd353-cf08-4d4c-b6cb-a9e73a904872"
-    ownershipId="Compute_AzurePolicy"
-/>
-
+  pagetitle="Azure Policy - Policy enforcement not as expected"
+  service="microsoft.authorization"
+  resource="policydefinitions"
+  ms.author="robga,kenieva"
+  selfhelptype="Generic"
+  supporttopicids="32739638"
+  resourcetags=""
+  productpesids="16456"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="1c0cd353-cf08-4d4c-b6cb-a9e73a904872"
+  ownershipid="Compute_AzurePolicy" />
 # Azure Policy - Policy enforcement not as expected
 
 ## **Recommended Steps**
 
-* Please allow approximately _30 minutes_ for policy effect and compliance data
-* Check the assignment has been applied it to the correct scope
-* Reassess the parameters in the assignment
-* Please check the resource is in the desired state (all settings and information are correctly configured)
-* If you have duplicated a built-in policy to customize the definition, please create the support ticket under 'Authoring a policy' for better suited information
-* In the compliance view, click on the three dots to get compliance details and verify the expected value.
-* You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy), and the [Community Policy repo](https://github.com/Azure/Community-Policy)
+1.	Please allow approximately 30 minutes for policy effect and compliance data
+2.	Ensure assignment parameters are correct and assignment scope is as desired. Ensure that [enforcement mode](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure#enforcement-mode) is on.
+3.	Check the [policy definition mode]( https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#mode):
+  
+  * Mode all for all resource types 
+  * Mode indexed if the policy checks for tags or location
+
+4.	Check the resource being tested is in the applied scope
+5.	Check that the desired scope is not [excluded or exempt]( https://docs.microsoft.com/azure/governance/policy/concepts/scope#assignment-scopes)
+6.	Verify the resource payload matches the policy logic. This can be done by capturing a [HAR trace](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) or reviewing the ARM template properties. 
+7.	Check [Troubleshooting information](https://docs.microsoft.com/azure/governance/policy/troubleshoot/general#scenario-evaluation-not-as-expected) for common issues and solutions
+8.	If you have duplicated a built-in policy then customize the definition OR are authoring a custom definition, please create the support ticket under 'Authoring a policy' for better suited information and help
 
 ## **Recommended Documents**
 
