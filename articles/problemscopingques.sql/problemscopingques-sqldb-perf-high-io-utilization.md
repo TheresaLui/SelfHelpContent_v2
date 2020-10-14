@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -77,13 +77,22 @@
             "required": false
         },
         {
+            "id" : "event_prior_to_high_io_other",
+            "order" : 31,
+            "visibility" : "event_prior_to_high_io == event_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe events observed",
+            "watermarkText" : "Events observed",
+            "required": true
+        },
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Please provide additional context for the high IO observed",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }

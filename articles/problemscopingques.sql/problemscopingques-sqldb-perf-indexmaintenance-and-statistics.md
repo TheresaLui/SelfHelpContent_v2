@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -75,10 +75,19 @@
                 },
                 {
                     "value": "other",
-                    "text": "Other (Please describe in the Description)"
+                    "text": "Other (Please describe in the text box below)"
                 }
             ],
             "required": false
+        },
+          {
+            "id" : "indexstat_maintenance_other",
+            "order" : 31,
+            "visibility" : "indexstat_maintenance == other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe index/statistics maintenance frequency",
+            "watermarkText" : "Describe other",
+            "required": true
         },
          {
             "id": "problem_description",

@@ -50,7 +50,7 @@
             "id": "error_text_10928",
             "order": 30,
             "controlType": "multilinetextbox",
-            "displayLabel": "If applicable, please provide the 10928 error text.",
+            "displayLabel": "Please provide the 10928 error text if available",
             "watermarkText": "Enter error text.",
             "required": false
         },
