@@ -22,6 +22,7 @@
 ## **Recommended Documents**
 
 * [How to modify a volume](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2#modify-a-volume)<br>
+* [How to expand a volume](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2#modify-a-volume)<br>
 * [How to change a volume type?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2#change-the-volume-type)<br>
 * [How to monitor a volume?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2#monitor-a-volume)<br>
 * [How to edit an access control record?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-acrs#edit-an-access-control-record)<br>
