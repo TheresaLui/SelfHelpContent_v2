@@ -8,7 +8,7 @@
     productPesIds="15621"
     cloudEnvironments="public, fairfax, mooncake, blackforest, usnat, ussec"
     schemaVersion="1"
-    articleId="trafficmanager-quota"
+    articleId="bf19405d-7c85-4326-a2a9-3a55fb52ba81"
     ownershipId="CloudNet_TrafficManager"
 />
 # TrafficManager Quota Questions
