@@ -44,7 +44,7 @@
                     "text": "Yes, but there could be other queries that require tunning."
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No, not sure"
                 }
             ],
@@ -103,9 +103,13 @@
                 {
                     "value": "multiple_db_yes",
                     "text": "Yes. The query executes against multiple databases"
+                },
+                 {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
-            "required": false
+            "required": true
         },
             {
             "id" : "is_span_multiple_db_span_multiple",
