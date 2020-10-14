@@ -104,7 +104,7 @@
                     "value": "multiple_db_yes",
                     "text": "Yes. The query executes against multiple databases"
                 }
-            ],
+            ]
         },
        {
             "id" : "is_span_multiple_db_span_multiple",
