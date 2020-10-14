@@ -105,23 +105,23 @@
   },
   "displayLabel": "Shut down or resize your virtual machine",
   "additionalColumns": [
-      {
-        name: 'MaxCpuP95',
-        displayName: 'CPU (%)'
-      }, 
-      {
-        name: 'MaxTotalNetworkP95',
-        displayName:'Network (%)'
-      }, 
-      {
-        name: 'MaxMemoryP95',
-        displayName: 'Memory (%)'
+    {
+      name: 'MaxCpuP95',
+      title: 'CPU (%)'
+    },
+    {
+      name: 'MaxTotalNetworkP95',
+      title:'Network (%)'
+    }, 
+    {
+      name: 'MaxMemoryP95',
+      title: 'Memory (%)'
     }
   ],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
-  "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."
+  "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary. | **P95 of max utilization of CPU, memory and network"
 }
 ---
