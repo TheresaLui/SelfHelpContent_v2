@@ -80,7 +80,7 @@
             ],
             "required": false
         },
-          {
+        {
             "id" : "query_characteristics_other",
             "order" : 31,
             "visibility" : "query_characteristics == qry_other",
@@ -106,7 +106,7 @@
                 }
             ],
         },
-            {
+        {
             "id" : "is_span_multiple_db_span_multiple",
             "order" : 36,
             "visibility" : "is_span_multiple_db == multiple_db_yes",
@@ -146,7 +146,7 @@
             ],
             "required": false
         },
-               {
+        {
             "id": "application_type",
             "order": 45,
             "controlType": "dropdown",
