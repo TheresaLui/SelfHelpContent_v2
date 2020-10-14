@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -41,7 +41,7 @@
                 },
                 {
                     "value": "no",
-                    "text": "No.  The problem occurs randomly"
+                    "text": "No. The problem occurs randomly"
                 }
             ],
             "required": false
@@ -49,21 +49,48 @@
         {
             "id": "observed_problem",
             "order": 30,
-            "controlType": "dropdown",
+            "controlType": "radioButtonGroup",
             "displayLabel": "Which problem or topic are you observing.",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "radioButtonOptions": [
                 {
-                    "value": "is_on",
-                    "text": "Shrinking file(s)"
+                    "value": "reducing_db_size",
+                    "text": "Reducing database size, shrinking file(s)"
                 },
                 {
-                    "value": "is_off",
+                    "value": "allocate_file_space",
                     "text": "Allocating file space"
                 },
                 {
-                    "value": "dont_know",
-                    "text": "Other (Please describe in Description)"
+                    "value": "other",
+                    "text": "Other (Please describe in the following text box)"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id" : "observed_problem_other",
+            "order" : 31,
+            "visibility" : "observed_problem == other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe the problem observed.",
+            "watermarkText" : "Problem observed",
+            "required": true
+        },
+        {
+            "id": "is_tempdb_issue",
+            "order": 40,
+            "controlType": "radioButtonGroup",
+            "displayLabel": "Is this a tempdb database issue?",
+            "watermarkText": "Choose an option",
+            "radioButtonOptions": [
+                {
+                    "value": "is_tempdb_issue",
+                    "text": "Yes"
+                },
+                {
+                    "value": "is_userdb_issue",
+                    "text": "No, this is a user database issue"
                 }
             ],
             "required": false
