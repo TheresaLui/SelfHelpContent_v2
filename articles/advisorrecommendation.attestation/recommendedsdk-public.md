@@ -4,7 +4,7 @@
     ms.author="aasdev"
     articleId="5152c401-2d14-4860-b59c-5c0ddc18e9f8_public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public"
+    cloudEnvironments="public,ussec,usnat"
     ownershipId="AzureAttestation_Attestation"
 />
 # Attestation SDK Version Recommendation
@@ -33,18 +33,14 @@
       },
       "serviceTreeId":"4377f503-9a93-4584-b6bb-d75c33b8bbd2"
    },
-   "ingestionClientIdentities":[     
-   ],
+   "ingestionClientIdentities":[],
    "version":1,
-   "learnMoreLink":"https://docs.microsoft.com/en-us/rest/api/attestation",
+   "learnMoreLink":"https://docs.microsoft.com/rest/api/attestation",
    "description":"Update Attestation SDK Version",
    "longDescription":"We have identified API calls from outdated Attestation SDKs for resources under this subscription. We recommend switching to the latest Attestation SDK versions. You need to update your existing code to use the latest SDK version. This ensures you receive the latest features and performance improvements.",
    "potentialBenefits":"Latest Attestation SDK contain fixes for known issues and additional improvements.",
-   "supportedSDKLanguages":[
-      ".Net"
-   ],
-   "actions":[
-      {
+   "supportedSDKLanguages":[".Net"],
+   "actions":[{
          "actionId":"4578680a-f6fe-4215-9ebf-d71934f924fb",
          "description":"Learn how to update your Attestation SDK",
          "actionType":"Document",
