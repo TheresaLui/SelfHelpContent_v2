@@ -109,14 +109,14 @@
                     "text": "Don't know"
                 }
             ],
-            "required": true
+            "required": false
         },
             {
             "id" : "is_span_multiple_db_span_multiple",
             "order" : 36,
             "visibility" : "is_span_multiple_db == multiple_db_yes",
-            "controlType" : "radioButtonGroup",
-            "radioButtonOptions": [
+            "controlType" : "dropdown",
+            "dropdownOptions": [
                 {
                     "value": "single_instance",
                     "text": "No. The query executes against multiple databases within a single Azure SQL Database"
