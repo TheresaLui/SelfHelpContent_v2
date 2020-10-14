@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="fc464f8f-93f1-409e-9886-bffcde7aa1ae"
+	articleId="fc464f8f-93f1-409e-9886-bffcde7aa1a6"
 	ownershipId="CloudNet_LoadBalancer"
 />
 
