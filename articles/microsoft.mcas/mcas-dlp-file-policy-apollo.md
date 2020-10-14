@@ -15,6 +15,12 @@
   ownershipId="CloudAppSecurity_DataProtection"
 />
 
+# Article on labels, Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
+
+## **Welcome to our new guided troubleshooting experience for DLP and file policies**
+
+This experience provides common solutions, important documents, and relevant how-to videos.
+
 :::Section Recommended Solution:::
 
 <CommonSolution>
@@ -22,11 +28,9 @@
     <client>Portal</client>
 </CommonSolution>
 
-# Article on labels, Sensitive Information Types in Microsoft Cloud App Security and Microsoft Information Protection
-
 To view the article on labels, Sensitive Information Types and Microsoft Information Protection, see [labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
 
-## Follow the instructions in the how-to videos below to resolve your issue
+## **Follow the instructions in the how-to videos below to resolve your issue**
 
 <videoGroup>
     <video>
