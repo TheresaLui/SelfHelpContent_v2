@@ -68,22 +68,13 @@
             "required": true
         },
         {
-            "id": "info_source_reference",
-            "order": 30,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Is there any information source (User Forum, Links, etc) that was referenced?",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide link address or other source that was referenced"
-        },
-        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional context for the topic of interest or the facing problem ",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "If available, please attach any relevant screenshots or scripts that you have used."
+            "watermarkText": "If available, please attach any relevant screenshots or link address that you have referenced"
         }
     ]
 }
