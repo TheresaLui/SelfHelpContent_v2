@@ -18,6 +18,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+## *VM Availability Event*
 <!--issueDescription-->
 The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
 <!--/issueDescription-->
