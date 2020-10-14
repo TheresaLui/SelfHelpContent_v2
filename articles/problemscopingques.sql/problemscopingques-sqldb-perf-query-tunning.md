@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -48,7 +48,7 @@
                     "text": "No, not sure"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "query_characteristics",
@@ -71,12 +71,62 @@
                 },
                 {
                     "value": "qry_unknown",
-                    "text": "Not sure, or not applicable (Please describe in the Description)"
+                    "text": "Not sure"
+                },
+                {
+                    "value": "qry_other",
+                    "text": "Others (Please describe in the following text box)"
                 }
             ],
             "required": false
         },
           {
+            "id" : "query_characteristics_other",
+            "order" : 31,
+            "visibility" : "query_characteristics == qry_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe the query characteristics.",
+            "watermarkText" : "Query characteristics",
+            "required": true
+        },
+        {
+            "id": "is_span_multiple_db",
+            "order": 35,
+            "controlType": "dropdown",
+            "displayLabel": "Does the query span multiple databases?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "multiple_db_no",
+                    "text": "No. The query executes against a single database"
+                },
+                {
+                    "value": "multiple_db_yes",
+                    "text": "Yes. The query executes against multiple databases"
+                }
+            ],
+            "required": false
+        },
+            {
+            "id" : "is_span_multiple_db_span_multiple",
+            "order" : 36,
+            "visibility" : "is_span_multiple_db == multiple_db_yes",
+            "controlType" : "radioButtonGroup",
+            "radioButtonOptions": [
+                {
+                    "value": "single_instance",
+                    "text": "No"
+                },
+                {
+                    "value": "multiple_instance",
+                    "text": "Yes"
+                }
+            ],
+            "displayLabel" : "Does the query span multiple Azure SQL Database?",
+            "watermarkText" : "Problem observed",
+            "required": true
+        },
+        {
             "id": "baseline_exists",
             "order": 40,
             "controlType": "dropdown",
@@ -127,7 +177,7 @@
             "displayLabel": "Please describe the criteria for the successful query tunning.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Description of your criteria for the query tunning"
+            "watermarkText": "Description the criteria for the query tunning"
         }
     ]
 }
