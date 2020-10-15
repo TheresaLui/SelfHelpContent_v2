@@ -17,7 +17,7 @@
   "recommendationTypeId": "eb4f67d2-2440-4d58-bec7-6de73cc5ba75",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://adfmc.kusto.chinacloudapi.cn/').database('azuredatafactorymc').AdvisorThrottledTriggerEvents",
+    "streamNamespace": "cluster('https://adfmc.kusto.chinacloudapi.cn').database('azuredatafactorymc').AdvisorThrottledTriggerEvents",
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
