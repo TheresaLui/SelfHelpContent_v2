@@ -27,17 +27,4 @@
 3. A replication type change to ZRS will require (unlike other type changes which are just a type change in place and don't need any migration) a migration of data from old infrastructure to ZRS enabled infrastructure. 
    * This will be at whole account level and not endpoint level. To be handled by IaaS VM POD.
 
-<!--
-
-**What is the current/source account type which needs to be migrated to ZRS?
-1. RA-GRS.
-2. ZRS (Classic).
-3. LRS.
-4. GRS.
-5. From ZRS.
-6. From one region to another.
-7. For a Premium Account
-
--->
-
 

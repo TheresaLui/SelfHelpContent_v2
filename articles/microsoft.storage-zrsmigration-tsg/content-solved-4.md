@@ -22,4 +22,3 @@
 1. Use the 'TSG History' button to copy & paste your journey into the case notes.
 2. Please close this window to exit this TSG.
 3. Feel free to provide any additional feedback using the feedback button.
-

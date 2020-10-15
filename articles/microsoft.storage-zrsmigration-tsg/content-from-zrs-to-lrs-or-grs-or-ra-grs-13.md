@@ -24,18 +24,3 @@
 2. This scenario is not supported.
 3. CSS engineers please update customer with the following message. 
    > We currently do not support migrating from ZRS to another replication type. Please create a new storage account and manually migrate the data yourself.
-
-<!--
-questionAnswer
---
-
-Question: 
-
-**This is the end of the work flow. Did this TSG resolve your issue?)**
-
-Answers:
-
-1. Yes
-2. No
--->
-

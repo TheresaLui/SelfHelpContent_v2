@@ -28,15 +28,3 @@
 
 ### Recommended Documents
 Some of the ways we can manually transfer are documented [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-choose-data-transfer-solution)
-
-
-<!--
-questionAnswer
---
-Question: 
-**This is the end of the work flow. Did this TSG resolve your issue?)**
-Answers:
-1. Yes
-2. No
--->
-

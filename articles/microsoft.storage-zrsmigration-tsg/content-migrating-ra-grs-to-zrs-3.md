@@ -25,14 +25,3 @@
 > Migrating from RA-GRS is not supported. You must first convert to either LRS or GRS before submitting live migration request. Use the Azure portal or the Storage Resource Provider API to change your account's redundancy type. Azure will then replicate your data accordingly.
 > 
 Check [here](https://docs.microsoft.com/en-us/azure/storage/common/redundancy-migration?tabs=portal) for more details.
-
-<!--
-**This is the end of the work flow. Did this TSG resolve your issue?**
-
-Answers:
-
-1. Yes
-2. No
-
--->
-

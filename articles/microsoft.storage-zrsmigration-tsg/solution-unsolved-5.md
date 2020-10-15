@@ -17,8 +17,6 @@
 
 # Unsolved
 
-<!--issueDescription-->
-
 ### Unable to resolve ZRS migration
 
 * We  are unable to proceed with this operation.
@@ -28,6 +26,3 @@
 
 ### Recommended Documents
 Some of the ways we can manually transfer are documented [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-choose-data-transfer-solution).
-
-<!--/issueDescription-->
-

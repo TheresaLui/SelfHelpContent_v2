@@ -23,19 +23,3 @@
    * This is supported.
 2. CSS files ICM ticket and places it in the appropriate queue/path: **Azure/XStore/Capacity Management**
    * Use this [ICM Template](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=34b2b2).
- 
-
-<!--
-questionAnswer
---
-
-Question: 
-
-**This is the end of the work flow. Did this TSG resolve your issue?**
-
-Answers:
-
-1. Yes
-2. No
--->
-

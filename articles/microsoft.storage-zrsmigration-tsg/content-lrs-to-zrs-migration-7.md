@@ -23,20 +23,3 @@
 2. CSS engineers validate if there is data in the storage account.
    * Check ASC and see if there is any capacity.
    * Check the Total Size under the Capacity Daily Snapshot.
-
-
-<!--
-questionAnswer
---
-
-Question: 
-
-**Is the capacity empty (viz Total Size=0 MB)**
-
-Answers:
-
-1. Yes
-2. No
-3. -->
-
-

@@ -17,11 +17,6 @@
 
 # Solved
 
-<!--issueDescription-->
-
 ### Thank you for your response.
 ###  Solved
 We were successful on performing the required operation.
-
-<!--/issueDescription-->
-

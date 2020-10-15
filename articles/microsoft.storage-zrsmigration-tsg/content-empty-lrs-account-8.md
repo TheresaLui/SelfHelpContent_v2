@@ -23,19 +23,3 @@
    * User wants to migrate an empty LRS to ZRS.
    * Account is empty therefore there is nothing to migrate.
 2. Customer can themselves delete this account, and create a new account with ZRS application.
-
-<!--
-questionAnswer
---
-
-Question: 
-
-**This is the end of the work flow. Did this TSG resolve your issue?**
-
-Answers:
-
-1. Yes
-2. No
--->
-
-

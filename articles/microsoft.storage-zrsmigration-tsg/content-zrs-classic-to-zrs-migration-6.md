@@ -32,15 +32,3 @@
 
 ### Recommended Documents
 [Upgrade ZRS Classic to ZRS in the Portal](https://docs.microsoft.com/en-us/azure/storage/common/media/storage-redundancy-zrs/portal-zrs-classic-upgrade.png)
-
-<!--
-**This is the end of the work flow. Did this TSG resolve your issue?**
-
-Answers:
-
-1. Yes
-2. No
-
--->
-
-
