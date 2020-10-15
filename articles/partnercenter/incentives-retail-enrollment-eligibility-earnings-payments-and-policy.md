@@ -41,10 +41,12 @@
 * [Modifying regional settings to improve CSV delimiting accuracy in Excel](https://support.office.com/article/Change-the-Windows-regional-settings-to-modify-the-appearance-of-some-data-types-EDF41006-F6E2-4360-BC1B-30E9E8A54989)
 * [Reconciling earnings and payments](https://support.microsoft.com/help/4528724)
 
+**Support**
+
+[Retail Incentives FAQ's](https://support.microsoft.com/help/4515640)
+
 **Still need help?**
 
 Please contact your Account Manager.
 
-**Support**
 
-[Retail Incentives FAQ's](https://support.microsoft.com/help/4515640)
