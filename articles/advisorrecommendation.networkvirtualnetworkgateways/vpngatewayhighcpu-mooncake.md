@@ -3,7 +3,7 @@
     description="Consider increasing the size of your VNet Gateway SKU to address high CPU"
     authors="raashman"
     ms.author="raashman"
-    articleId="2e41fe84-7173-4fe9-b257-61aa4679c3fe_Moooncake"
+    articleId="2e41fe84-7173-4fe9-b257-61aa4679c3fe_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="CloudNet_AzureVPNGateway"
