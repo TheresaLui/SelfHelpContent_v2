@@ -1,7 +1,5 @@
 <properties
-	pageTitle="Visual Studio Professional (59P)/Enterprise (63P) 
-Microsoft Partner Network (MPN) [25P & 29P (VS thru MPN)]
-BizSpark (64P)"
+	pageTitle="Visual Studio Professional (59P)/Enterprise (63P) Microsoft Partner Network (MPN) [25P & 29P (VS thru MPN)] BizSpark (64P)"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
