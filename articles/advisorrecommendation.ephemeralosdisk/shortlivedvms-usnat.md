@@ -3,7 +3,7 @@
     description="Ephemeral OS disks are created on the local virtual machine storage instead of the remote Azure Storage. Ephemeral OS disk is free and you incur no storage cost for OS disk. With Ephemeral OS disk, you get lower read/write latency to the OS disk and faster VM reimage time. It also provides faster VM reimage operation to wipe the contents on OS disk and reset the VM to its original state. This significantly reduces the idle time involved with multiple VM create/delete operations. Ephemeral OS disks are recommended for VMs where the OS disk is stateless i.e. applications which are tolerant of individual VM failures." 
     authors="EphemeralOSDiskvTeam" 
     ms.author="EphemeralOSDiskvTeam" 
-    articleId="ed04a30a-d04f-4de6-8955-9283ab1ca83e_USNat" 
+    articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_USNat" 
     selfHelpType="advisorRecommendationMetadata" 
     cloudEnvironments="USNat" 
     ownershipId="Compute_ComputePlatform"
@@ -13,7 +13,7 @@
 ---
 {
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "ed04a30a-d04f-4de6-8955-9283ab1ca83e",
+  "recommendationTypeId": "dc045941-8e65-437b-992b-1f0acd28bb6e",
   "dataSourceMetadata": {
     "schemaVersion": 2,
     "dataSource": "SAS"
