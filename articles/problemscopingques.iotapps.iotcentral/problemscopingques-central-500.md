@@ -1,12 +1,12 @@
 <properties
 	pageTitle="IoT Central service issues"
 	description="IoT Central service issues for IoT Central scoping questions"
-	authors="jlian"
+	authors="jajens"
 	ms.author="jajens"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32592896,32592872,32592871,32592894,32592900"
+	supportTopicIds="32592896,32592871,32592872,32727890,32592894,32592900"
 	productPesIds="16284"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake,usnat,ussec"
 	schemaVersion="1"
 	articleId="0f6076df-449f-42da-9686-de2ada7362ba"
 	ownershipId="AzureIot_IotCentral"
@@ -18,7 +18,7 @@
   "subscriptionRequired": false,
   "resourceRequired": false,
   "title": "IoT Central service issues",
-  "fileAttachmentHint": "Upload screenshots of errors if available",
+  "fileAttachmentHint": "Upload logs or screenshots of errors if available",
   "formElements": [
     {
       "id": "problem_start_time",
