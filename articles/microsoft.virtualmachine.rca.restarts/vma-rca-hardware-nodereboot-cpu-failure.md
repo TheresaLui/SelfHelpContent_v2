@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Issue Description*
+### *Root Cause*
 > This unexpected occurrence was caused by an **Azure initiated host node reboot action** as the result of a detected **hardware issue** due to **CPU errors** on the physical node where the VM was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
 > 
 
 <!--resolutionDetails-->
 ### *Resolution*
-> VM Services were restored following reboot.
+> The node was taken out of service for additional diagnostics and repair.
 > 
 <!--/resolutionDetails-->
 
-<!--nextSteps-->
-### *Next Steps*
+<!--additionalInfo-->
+### *Additional Information*
 
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > 
@@ -46,7 +46,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 > We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 > 
-<!--/nextSteps-->
+<!--/additionalInfo-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
