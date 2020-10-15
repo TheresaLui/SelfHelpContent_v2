@@ -18,13 +18,13 @@
 # Common NetApp Volumes Issues Un-Assigning Snapshot Policy
 
 ## **Recommended Steps**
-Make sure that the snapshot policy feature is registered.
+1. Make sure that the snapshot policy feature is registered.
 If you are using this feature for the first time, you need to register the feature first.
 Register the feature:
 Azure PowerShell
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFSnapshotPolicy
 
-Be aware that existing snapshots will not be cleared after removing policy
+2. Be aware that existing snapshots will not be cleared after removing policy
 
 ## **Recommended Documents**
 

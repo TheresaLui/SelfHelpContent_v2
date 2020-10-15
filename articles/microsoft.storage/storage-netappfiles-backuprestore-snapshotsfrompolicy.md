@@ -18,14 +18,16 @@
 # Common NetApp Volumes Issues Creating snapshots from Policy
 
 ## **Recommended Steps**
-Make sure that the snapshot policy feature is registered.
+
+1. Make sure that the snapshot policy feature is registered.
 If you are using this feature for the first time, you need to register the feature first.
 Register the feature:
 Azure PowerShell
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFSnapshotPolicy
 
-Make sure that sum of all snapshots including snapshots configured from policy and on demand snapshots does not exceed more than 255 as we have a limit of 255 snapshots per volume
-Also make sure that the policy is enabled from netapp account page
+2. Make sure that sum of all snapshots including snapshots configured from policy and on demand snapshots does not exceed more than 255 as we have a limit of 255 snapshots per volume. Refer [Resource Limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits)
+
+3. Also make sure that the policy is enabled from netapp account page
 
 ## **Recommended Documents**
 
