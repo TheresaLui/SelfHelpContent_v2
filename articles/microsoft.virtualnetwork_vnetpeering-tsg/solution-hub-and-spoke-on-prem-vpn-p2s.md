@@ -1,4 +1,4 @@
-<properties
+<properties 
 pageTitle="SolutionHubAndSpokeOnpremVpnP2s"
 description="SolutionHubAndSpokeOnpremVpnP2s"
 infoBubbleText="SolutionHubAndSpokeOnpremVpnP2s"
@@ -15,8 +15,8 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public, fairfax, usnat, ussec"
-ownershipId="CloudNet_VirtualNetwork"
 />
+
 # Step by step for connecting VNet Peering spokes to point-to-site VPN clients
 <!--issueDescription-->
 

@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Version control](https://docs.databricks.com/user-guide/notebooks/notebook-use.html#version-control)
+* [Azure DevOps Services Version control](https://docs.microsoft.com/azure/databricks/notebooks/azure-devops-services-version-control)

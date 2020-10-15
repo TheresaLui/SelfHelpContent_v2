@@ -10,12 +10,12 @@
 	articleId="azure_plan_customer_migration"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32684681"
+	supportTopicIds="32725899"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Transition your customers to Azure plan

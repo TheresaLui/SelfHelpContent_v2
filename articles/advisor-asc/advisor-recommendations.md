@@ -14,7 +14,7 @@ supportTopicIds="32411835,32411844,32411877,32411817,32411885,32411841,32411816,
 	resourceTags=""
 	productPesIds="14749,16470,15571,16035"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines_Content"
+	ownershipId="CloudES_AzureAdvisor"
 />
 
 # You have Azure Advisor recommendations

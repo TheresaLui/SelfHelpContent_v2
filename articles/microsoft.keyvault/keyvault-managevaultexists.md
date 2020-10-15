@@ -23,12 +23,17 @@
 
 ### Troubleshooting
 
+* How can I backup key vault or key vault objects?<br>
+
+	You can backup individual key vault objects ie. Backup Key, Backup Secret, Backup Certificate [Using Azure CLI](https://docs.microsoft.com/rest/api/keyvault/backupkey), [Using Powershell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/backup-azurekeyvaultkey?view=azurermps-6.13.0). The backup command backs up all versions of each secret. If you have a secret with a large number of previous versions (more than 10), the request size might exceed the allowed maximum and the operation might fail.
+
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 
 	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 
-* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
+* I have several (over 16) applications that need to access a key vault. How can I add multiple access policies?<br>
 
+    Key vault supports up to **1024** access policy entries, with each entry granting a distinct set of permissions to a particular security principal.
 	[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**

@@ -14,12 +14,13 @@
     clientIds='partnercenter'
     resourceTags="other"
     productPesIds="17113"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="PartnerCenter_Other_Portals"
 />
 
 # Get more information and support on partner training tools
 
+Get more information and support on partner training tools
 
 ## **Recommended Steps**
 

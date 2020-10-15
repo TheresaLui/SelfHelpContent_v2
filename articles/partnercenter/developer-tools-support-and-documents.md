@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to the Azure DevOps, Visual Studio and Window UWP Development support and documents
 
+This topic will guide you to the Azure DevOps, Visual Studio and Window UWP Development support and documents.
 
 ## **Recommended Steps**
 
@@ -30,9 +31,8 @@
 
 ## **Recommended Documents**
 
- * [Search all Microsoft Docs for end users, developers and IT professionals](https://docs.microsoft.com/#vsts-support)
- * [Docs specific to Azure DevOps](https://docs.microsoft.com/azure/devops/?view=azure-devops)
- * [Docs specific to Visual Studio App Center](https://docs.microsoft.com/appcenter)
- * [Docs specific to Windows app developer (UWP)](https://docs.microsoft.com/windows/apps)
- * [Docs specific to Visual Studio IDE](https://docs.microsoft.com/visualstudio/?view=vs-2019)
-
+- [Search all Microsoft Docs for end users, developers and IT professionals](https://docs.microsoft.com/#vsts-support)
+- [Docs specific to Azure DevOps](https://docs.microsoft.com/azure/devops/?view=azure-devops)
+- [Docs specific to Visual Studio App Center](https://docs.microsoft.com/appcenter)
+- [Docs specific to Windows app developer (UWP)](https://docs.microsoft.com/windows/apps)
+- [Docs specific to Visual Studio IDE](https://docs.microsoft.com/visualstudio/?view=vs-2019)

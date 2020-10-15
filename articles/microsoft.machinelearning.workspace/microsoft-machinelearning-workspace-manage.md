@@ -1,70 +1,40 @@
 <properties
-	pageTitle="Authenticate, provision or manage my workspace"
-	description="Authenticate, provision or manage my workspace"
-	infoBubbleText="Authenticate, provision or manage my workspace"
-	service="microsoft.machinelearning.workspace"
-	resource="machinelearning"
-	authors="johnwu0604"
-	ms.author="johwu"
-	supportTopicIds="32690836"
-	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.workspace.manage"
-	selfHelpType="generic"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
-
-# Authenticate, provision or manage my workspace
+  pagetitle="Problem provisioning or managing workspace"
+  service="microsoft.machinelearning.workspace"
+  resource="machinelearning"
+  ms.author="johwu"
+  selfhelptype="Generic"
+  supporttopicids="32690836"
+  resourcetags=""
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="microsoft.machinelearning.workspace.manage"
+  ownershipid="AzureML_AzureMachineLearningServices" />
+# Problem provisioning or managing workspace
 
 ## **Recommended Steps**
 
-### **Azure Machine Learning Python SDK**
+See the following documents for instructions on provisioning workspaces:
 
-To create a workspace using the Python SDK:
+* [Using Azure Portal](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace)
+* [Using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
+* [Using REST API](https://docs.microsoft.com/azure/machine-learning/how-to-manage-rest)
+* [Using resource manager template](https://docs.microsoft.com/azure/machine-learning/how-to-create-workspace-template?tabs=azcli)
 
-```
-from azureml.core import Workspace
+See the following documents for instructions on advanced workspace settings:
 
-workspace = Workspace.create(name='<WORKSPACE-NAME>',
-                            subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                            resource_group='<RESOURCE-GROUP>',
-                            create_resource_group=True,
-                            location='<LOCATION>')
-```
+* [Network security](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview) 
+  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype.
 
-If a workspace has already been created, directly connect to the workspace:
+* [Data encryption](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security#data-encryption) 
+  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype.
 
-```
-from azureml.core import Workspace
+* [Role-based access control (RBAC)](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
+  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype.
 
-workspace = Workspace.get(name='<WORKSPACE-NAME>',
-                        subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                        resource_group='<RESOURCE-GROUP>')
-```
-
-Once access has be granted to the workspace, use any of the existing methods to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace.workspace?view=azure-ml-py) for additional reference.
-
-### **Azure Machine Learning CLI**
-
-To create a workspace using the CLI:
-
-```
-az ml workspace create -w <WORKSPACE-NAME> -g <RESOURCE-GROUP>
-```
-
-If a workspace has already been created, use the following command to list the details of your existing workspace:
-
-```
-az ml workspace list
-```
-
-Once the workspace has been created or workspace details have been retrieved, use the other existing CLI commands to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/ml/workspace?view=azure-cli-latest) for additional reference.
+For setting up private endpoints on customer-managed key vaults, container registries, or Kubernetes clusters, see [managing quotas, private endpoints and private DNS quota increases](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#private-endpoint-and-private-dns-quota-increases) and submit your request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
-
-* [What is an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
-* [Create and manage workspace using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Azure Machine Learning CLI reference docs](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/?view=azure-cli-latest)
+* [What is an Azure Machine Learning workspace?](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
+* [Enterprise security overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)

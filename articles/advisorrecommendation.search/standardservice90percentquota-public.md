@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="b5a98691-da25-4fc3-a4f4-f9f0d35a42c6_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota
@@ -30,7 +30,7 @@
   "owner": {
     "email": "azuresearch_contact@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
+      "routingId": "MDM://AzureSearch/Portal",
       "service": "Azure Search",
       "team": "Portal"
     },

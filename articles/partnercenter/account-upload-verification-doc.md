@@ -23,6 +23,11 @@
 ## **Recommended Steps**
 
 * Click **Next** to create a ticket with one of the below accepted forms of proof attached
+
+### 
+<br>
+
+Documents submitted must have been issued within the ***previous 12 months***.
  
 **Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
  
@@ -45,4 +50,8 @@
    - Domain registration
    - Invoice  
 
-Please upload your verification documents as .pdf or screen shots. File size for uploads is restricted to less than 8MB. Review the types of verification from the recommended steps.
+**List of supported file types and max. file size:**
+   - screenshots (only from a source such as government agency)
+   - .pdf format
+   - Attachments larger than 8MB cannot be received by our system. Please advise if you are unable to provide smaller attachments.
+

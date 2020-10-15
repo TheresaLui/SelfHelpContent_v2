@@ -12,7 +12,7 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32632989"
+    supportTopicIds="32632989,32729609"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # How do I filter telemetry or add additional properties to my telemetry?

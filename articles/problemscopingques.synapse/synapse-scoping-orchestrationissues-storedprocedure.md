@@ -1,7 +1,7 @@
 <properties
 	schemaVersion = "1"
 	selfHelpType = "problemScopingQuestions"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	productPesIds = "15818"
 	supportTopicIds = "32738834"

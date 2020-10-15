@@ -4,7 +4,6 @@
 	infoBubbleText="Diagnostic Template"
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	displayOrder=""
 	articleId=""
