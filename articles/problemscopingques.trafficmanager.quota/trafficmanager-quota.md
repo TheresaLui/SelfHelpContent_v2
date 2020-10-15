@@ -37,7 +37,7 @@
 					"value": "profileLimitChange"
 				},
                 {
-                    "text": "Other",
+                    "text": "Not Applicable",
                     "value": "dont_know_answer"
                 }
 			]
