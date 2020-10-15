@@ -3,7 +3,7 @@
     description="Unsupported Kubernetes version is detected"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="962df50c-6b77-41bd-a432-f7f3611d1a29"
+    articleId="962df50c-6b77-41bd-a432-f7f3611d1a29_mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="Compute_AzureKubernetesService"
