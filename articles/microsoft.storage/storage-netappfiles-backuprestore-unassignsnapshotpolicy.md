@@ -28,5 +28,5 @@ Be aware that existing snapshots will not be cleared after removing policy
 
 ## **Recommended Documents**
 
-- [Manage snapshot policies by using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots#manage-snapshot-policies)<br>
-- [Troubleshoot snapshot policy issues](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-snapshot-policies)<br>
+- [Manage snapshot policies by using Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-manage-snapshots#manage-snapshot-policies)<br>
+- [Troubleshoot snapshot policy issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-snapshot-policies)<br>

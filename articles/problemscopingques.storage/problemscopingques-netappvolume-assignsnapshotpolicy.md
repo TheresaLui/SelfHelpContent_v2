@@ -67,7 +67,7 @@
                 "defaultDropdownOptions": {
 					"value": "dont_know_answer",
 					"text": "None of the above"
-                }
+                },
                 "textPropertyRegex": "[^/]+$",
                 "valuePropertyRegex": "[^/]+$"
             },
@@ -77,7 +77,7 @@
                     "text": "Unable to retrieve list of snapshot policies."
                 }
             ],
-            "required": false,
+			"required": false
         },
         {
             "id": "problem_description",
