@@ -5,7 +5,7 @@
     articleId="5152c401-2d14-4860-b59c-5c0ddc18e9f8_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public,ussec,usnat"
-    ownershipId="AzureAttestation_Attestation"
+    ownershipId="AzureSecurity_AzureAttestation"
 />
 # Attestation API Version Recommendation
 ---
