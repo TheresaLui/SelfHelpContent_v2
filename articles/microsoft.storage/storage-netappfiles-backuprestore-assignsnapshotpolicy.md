@@ -24,7 +24,7 @@ Register the feature:
 Azure PowerShell
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFSnapshotPolicy
 
-2. Make sure that sum of all snapshots including snapshots configured from policy and on demand snapshots does not exceed more than 255 as we have a limit of 255 snapshots per volume. Refer [Resource Limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits)
+2. Make sure that sum of all snapshots including snapshots configured from policy and on demand snapshots does not exceed more than 255 as we have a limit of 255 snapshots per volume. Refer [Resource Limits for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits)
 
 ## **Recommended Documents**
 
