@@ -25,7 +25,9 @@ Upgrading to the latest version of the service will provide the most up to date 
 
 <!--/issueDescription-->
 
-The upgrade process will not provide any service interruptions or downtime. It will also not require any data or index migrations. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
+The upgrade process will not provide any service interruptions or downtime. It will also not require any data or index migrations. To start the upgrade navigate to the Settings -> Features area of your Cosmos DB Mongo account. The option titled *Upgrade to Mongo server version 3.6* should be visible. Clicking the *Enable* button will start the migration. It will show as *Pending* in the features list for up to a couple of days. When it has completed, the account will show new connection strings in the Portal with `*.mongo.cosmos.azure.com`
+
+**Important Note:** While generally 3.6 is compatible with 3.2, it is recommended a customer provision a new account through the portal and select the MongoDB server version 3.6 to try it out with their application on a dev or qa instance before considering updating the account backing any production workload.
 
 1. Benefits of upgrading to version 3.6
 
