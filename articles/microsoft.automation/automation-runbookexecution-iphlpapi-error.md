@@ -66,7 +66,7 @@ ZA
 If the account is using MFA then this will **never** **work** in an Automation scenario as a background job has no way to provide a new form of authentication when prompted.
 
 ## Scenario 3 - This error is seen and it doesn't occur following an authentication failure
-Test out the code on a Hybrid Runbook Worker as this dll is available in that environment.
+Test out the code on a Hybrid Runbook Worker as the iphlpapi dll is available in that environment.
 
 ## **Recommended Documents**
 
