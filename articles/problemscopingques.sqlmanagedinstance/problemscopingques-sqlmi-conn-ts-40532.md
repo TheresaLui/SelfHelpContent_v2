@@ -1,5 +1,5 @@
 <properties
-    articleId="problemscopingques-sqlmi-conn-ts-errorcode"
+    articleId="problemscopingques-sqlmi-conn-ts-40532"
     pageTitle="SQL Database Managed Instance"
     description="Scoping questions to capture managed instance issue when customer cannot connect"
     authors="vitomaz-msft,MladjoA"
