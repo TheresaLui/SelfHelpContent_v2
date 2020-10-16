@@ -24,7 +24,7 @@
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
 
-The error returned indicated that the corresponding user does not exist inside the database, or the database user is orphaned due to a SID mapping mismatch between the user and the login in master.
+The error indicates that the database requested by user could not be found. The error can also indicated that the corresponding user does not exist inside the database, or the database user is orphaned due to a SID mapping mismatch between the user and the login in master.
 <br>
 
 <!--$FailedLogins18456State38--> FailedLogins18456State38 <!--/$FailedLogins18456State38-->
