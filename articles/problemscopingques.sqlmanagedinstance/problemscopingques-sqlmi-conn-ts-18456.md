@@ -6,7 +6,7 @@
     authoralias="vitomaz"
     ms.author="vitomaz"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32746127"
+    supportTopicIds="32746123"
     productPesIds="16259"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
@@ -45,8 +45,34 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "source",
+            "id": "database_name",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What database is having issues?",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of databases",
+                    "text": "Unable to get the list of databases"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "source",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Where are you trying to connect from?",
             "watermarkText": "Choose an option",
