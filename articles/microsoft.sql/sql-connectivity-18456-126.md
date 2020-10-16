@@ -22,8 +22,9 @@
 ## **Login failed, the database specified was not found on the server**
 
 <!--issueDescription-->
-We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> and we were able to detect login failures.
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
+
 The error returned indicated that the database was not found. This may occur if the database name is incorrect or does not exist on the specified server.
 <br>
 

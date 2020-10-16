@@ -21,8 +21,9 @@
 ## **Login failed, the login contains an empty username or password**
 
 <!--issueDescription-->
-We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> and we were able to detect login failures.
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
+
 The error returned indicated that the corresponding login contains either an empty username or password.
 <br>
 
