@@ -23,6 +23,8 @@
 As of January 31, 2020, all partners in the Cloud Solution Provider program should have accepted the Microsoft Partner Agreement (MPA), including Indirect Resellers, to ensure no disruption of their ability to create new customers or place new orders for existing customers in the CSP program. Acceptance of the Microsoft Partner Agreement is now required for all partners in the CSP program.
 From July 6th Direct Bill and Indirect Providers may see an error message while trying to create an order if the MPA is not signed.  Please follow the recommended steps to resolve.  As soon as the agreement is signed you will be able to proceed with creating orders.
 
+Questions on the Microsoft Partner agreement including the how to accept the MPA, access to indirect reseller agreement for Providers, and information on variations or updates to the agreement.
+
 ## **Recommended Steps**
 
 **Actions for Indirect Resellers**
@@ -47,4 +49,7 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 * [Microsoft Partner Agreement FAQ](https://partner.microsoft.com/resources/detail/microsoft-partner-agreement-faq-pdf)
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
+* [Migrate from PMC to Partner Center, and accept Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
+* [Onboarding for MPN members and the Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
+* [Verify Microsoft Partner Agreement acceptance status](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
 
