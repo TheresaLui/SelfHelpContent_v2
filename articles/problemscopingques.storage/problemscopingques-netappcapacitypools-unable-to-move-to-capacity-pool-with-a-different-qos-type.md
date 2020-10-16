@@ -27,8 +27,16 @@
       "required": true
     },
     {
-      "id": "source_volume_resource_id",
+      "id": "problem_description",
       "order": 2,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide any additional details",
+      "required": true,
+      "useAsAdditionalDetails": true
+    },
+    {
+      "id": "source_volume_resource_id",
+      "order": 3,
       "controlType": "textbox",
       "displayLabel": "Resource ID of the source volume",
       "watermarkText": "Select the volume and click on properties under Settings to get resource id",
@@ -36,7 +44,7 @@
     },
     {
       "id": "source_capacity_pool_service_level",
-      "order": 3,
+      "order": 4,
       "controlType": "dropdown",
       "displayLabel": "Service level of the source capacity pool",
       "watermarkText": "QoS type of the source capacity pool",
@@ -57,7 +65,7 @@
     },
     {
       "id": "source_capacity_pool_qos",
-      "order": 4,
+      "order": 5,
       "controlType": "dropdown",
       "displayLabel": "QoS type of the source capacity pool",
       "watermarkText": "QoS type of the source capacity pool",
@@ -74,7 +82,7 @@
     },
     {
       "id": "destination_pool_name",
-      "order": 5,
+      "order": 6,
       "controlType": "textbox",
       "displayLabel": "Destination capacity pool name",
       "watermarkText": "Destination capacity pool name",
@@ -82,7 +90,7 @@
     },
     {
       "id": "destination_pool_service_level",
-      "order": 6,
+      "order": 7,
       "controlType": "dropdown",
       "displayLabel": "Service level of the destination pool",
       "watermarkText": "Service level of the destination pool",
@@ -103,7 +111,7 @@
     },
     {
       "id": "destination_pool_qos",
-      "order": 7,
+      "order": 8,
       "controlType": "dropdown",
       "displayLabel": "QoS type of the destination pool",
       "watermarkText": "QoS type of the destination pool",
