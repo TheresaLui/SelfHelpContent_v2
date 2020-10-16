@@ -31,7 +31,6 @@ Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure 
 For multi-region Azure Cosmos DB accounts, the data stored in the analytical store is also globally distributed. Regardless of single write region or multiple write regions, analytical queries performed from Azure Synapse Analytics can be served from the closest local region.   
 When planning to configure a multi-region Azure Cosmos DB account with analytical store support, it is recommended to have all the necessary regions added at time of account creation as if there is a large amounts of data this action can take a long time to complete.  
 
-
 ### **Picking a custom partitioning strategy for Analytical Store**
 The data in analytical store is partitioned based on the horizontal partitioning of shards in the transactional store.  Currently, you cannot choose a different partitioning strategy for the analytical store.  
 
@@ -43,6 +42,11 @@ You can only access and run queries against the analytical store using the vario
 The analytical store can be queried and analyzed using:
 * Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
 * SQL serverless (currently under private preview) with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
+
+### Is analytical store supported by Terraform?  
+
+Currently Terraform doesn’t support analytical store containers. Please check [Terraform GitHub Issues](https://github.com/hashicorp/terraform/issues) for more information.  
+
 
 ## **Recommended Documents**  
 

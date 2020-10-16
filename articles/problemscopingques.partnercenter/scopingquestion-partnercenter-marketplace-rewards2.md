@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32740798"
+       supportTopicIds="32740798,32740807,32740795,32740794,32740787,32740783"
        productPesIds="17006"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -58,7 +58,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID",
 	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "problem_description",
