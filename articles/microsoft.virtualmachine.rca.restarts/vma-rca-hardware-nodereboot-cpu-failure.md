@@ -53,7 +53,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 ## **Recommended Documents**
 
 > *Learn More About:*
-> * [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
 > * [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 > * [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
