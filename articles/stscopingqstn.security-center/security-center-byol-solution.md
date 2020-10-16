@@ -17,6 +17,4 @@
 
 ## **Recommended Documents**
 
-If you've enabled Azure Defender for servers, you're able to use Azure Security Center's built-in vulnerability assessment tool or deploy your own privately-licensed vulnerability assessment solution from Qualys or Rapid7. 
-
-Learn how to install these partner solutions, see [Deploy a bring your own license (BYOL) vulnerability assessment solution](https://docs.microsoft.com/azure/security-center/deploy-vulnerability-assessment-byol-vm).
+Learn how to use Azure Security Center's built-in vulnerability assessment tool or deploy your own privately-licensed vulnerability assessment solution from Qualys or Rapid7, see [Deploy a bring your own license (BYOL) vulnerability assessment solution](https://docs.microsoft.com/azure/security-center/deploy-vulnerability-assessment-byol-vm).
