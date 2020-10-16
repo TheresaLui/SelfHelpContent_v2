@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32743948"
 	productPesIds="17125"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="7F1AEFDE-23E9-4E5E-B193-D9D631B98412"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
@@ -32,17 +32,17 @@
 			"displayLabel": "What security area is the issue in?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "authentication",
-					"text": "authentication"
+					"value": "Authentication",
+					"text": "Authentication"
 				}, {
-					"value": "authorization",
-					"text": "authorization"
+					"value": "Authorization",
+					"text": "Authorization"
 				}, {
-					"value": "encryption",
-					"text": "encryption"
+					"value": "Encryption",
+					"text": "Encryption"
 				}, {
-					"value": "auditing",
-					"text": "auditing"
+					"value": "Auditing",
+					"text": "Auditing"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"

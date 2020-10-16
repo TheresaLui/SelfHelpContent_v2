@@ -23,4 +23,4 @@ The error *"Error 87: the parameter is incorrect"* is caused by a Guest OS issue
 
 1. Reinstall the VPN package
 2. For MAC OS clients, there can be issues installing the root certificate. Engage your MAC OS team to install the root certificate and debug if needed
-3. Validate that the AadTenantUri is correct according to [reference article](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)
+3. Validate that the AadTenantUri is correct according to [reference article](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant). Typical error customers do is configuring "login.microsoft.com" instead of "login.microsoftonline.com".

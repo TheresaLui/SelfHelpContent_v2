@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32743941"
 	productPesIds="17125"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="6FD69F80-A511-4EF1-BA1E-A90A77CC3C72"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
@@ -32,29 +32,29 @@
 			"displayLabel": "What specific area is the issue in?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "backup/restore",
-					"text": "backup/restore"
+					"value": "Backup/Restore",
+					"text": "Backup/Restore"
 				}, {
-					"value": "backup",
-					"text": "backup"
+					"value": "Backup",
+					"text": "Backup"
 				}, {
-					"value": "file management",
-					"text": "file management"
+					"value": "File Management",
+					"text": "File Management"
 				}, {
-					"value": "database consistency",
-					"text": "database consistency"
+					"value": "Database Consistency",
+					"text": "Database Consistency"
 				}, {
-					"value": "recovery",
-					"text": "recovery"
+					"value": "Recovery",
+					"text": "Recovery"
 				}, {
-					"value": "startup",
-					"text": "startup"
+					"value": "Startup",
+					"text": "Startup"
 				}, {
-					"value": "errors/exceptions",
-					"text": "errors/exceptions"
+					"value": "Errors/Exceptions",
+					"text": "Errors/Exceptions"
 				}, {
-					"value": "configuration",
-					"text": "configuration"
+					"value": "Configuration",
+					"text": "Configuration"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
