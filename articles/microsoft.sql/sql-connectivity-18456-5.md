@@ -46,4 +46,4 @@ The error returned indicates that the user was not found. This may occur if the 
 
 ## **Recommended Documents**
 
-* [Create SQL Login and SQL User on your Azure SQL DB – Azure SQL Database Support](https://blogs.msdn.microsoft.com/azuresqldbsupport/2016/10/05/create-sql-login-and-sql-user-on-your-azure-sql-db/)
+* [Traditional Login and Contained Database User Model](https://docs.microsoft.com/sql/relational-databases/security/contained-database-users-making-your-database-portable)
