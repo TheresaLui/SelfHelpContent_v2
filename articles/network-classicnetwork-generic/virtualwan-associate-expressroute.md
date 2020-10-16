@@ -4,7 +4,7 @@
   resource="virtualwan,virtualhub"
   ms.author="karenha,reyandap,wellee"
   selfhelptype="Generic"
-  supporttopicids="32640641"
+  supporttopicids=""
   resourcetags=""
   productpesids="16572"
   cloudenvironments="public,mooncake,fairfax,usnat,ussec"
