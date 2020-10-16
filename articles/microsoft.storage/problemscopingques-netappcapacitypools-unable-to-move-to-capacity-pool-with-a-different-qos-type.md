@@ -53,8 +53,7 @@
           "value": "Ultra",
           "text": "Ultra"
         }
-      ],
-      "required": true
+      ]
     },
     {
       "id": "source_capacity_pool_qos",
@@ -117,8 +116,7 @@
           "value": "Manual",
           "text": "Manual"
         }
-      ],
-      "required": true
+      ]
     }
   ],
   "$schema": "SelfHelpContent"
