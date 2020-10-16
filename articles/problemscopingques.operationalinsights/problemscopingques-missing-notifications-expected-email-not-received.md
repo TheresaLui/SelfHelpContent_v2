@@ -1,15 +1,15 @@
 <properties
-	articleId="problemscopingques-missing-notifications"
-	pageTitle="Not receiving notifications"
-	description="Not receiving notifications"
-	authors="snehithm,neilghuman"
-	ms.author="snmuvva,neghuman"
+	articleId="problemscopingques-missing-notifications-expected-email-not-received-la"
+	pageTitle="Expected email not received"
+	description="Expected email not received"
+	authors="neilghuman"
+	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739760, 32739761, 32739762"
-	productPesIds="15454"
+	supportTopicIds="32745418"
+	productPesIds="15725"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 # Not receiving notifications
 ---
@@ -31,44 +31,8 @@
                     "text": "Email"
                 },
                 {
-                    "value": "SMS",
-                    "text": "SMS"
-                },
-                {
-                    "value": "Phone call",
-                    "text": "Voice/Phone call"
-                },
-                {
-                    "value": "Azure App Push",
-                    "text": "Azure App Push Notification"
-                },
-                {
                     "value": "Email ARM Role",
                     "text": "Email Azure Resource Manager Role"
-                },
-                {
-                    "value": "Webhook",
-                    "text": "Webhook"
-                },
-                {
-                    "value": "Secure Webhook",
-                    "text": "Secure Webhook"
-                },
-                {
-                    "value": "Logic App",
-                    "text": "Logic App"
-                },
-                {
-                    "value": "Function",
-                    "text": "Azure Function"
-                },
-                {
-                    "value": "Runbook",
-                    "text": "Automation Runbook"
-                },
-                {
-                    "value": "ITSM",
-                    "text": "ITSM"
                 },
                 {
                     "value": "dont_know_answer",

@@ -1,15 +1,15 @@
 <properties
-	articleId="problemscopingques-missing-notifications"
-	pageTitle="Not receiving notifications"
-	description="Not receiving notifications"
-	authors="snehithm,neilghuman"
-	ms.author="snmuvva,neghuman"
+	articleId="problemscopingques-missing-notifications-expected-webhook-not-received-la"
+	pageTitle="Expected webhook not received"
+	description="Expected webhook not received"
+	authors="neilghuman"
+	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739760, 32739761, 32739762"
-	productPesIds="15454"
+	supportTopicIds="32745406"
+	productPesIds="15725"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 # Not receiving notifications
 ---
@@ -26,26 +26,6 @@
             "displayLabel": "Select the action or notification types that are not working.",
             "watermarkText": "Choose one or more notification or action types",
             "dropdownOptions": [
-                {
-                    "value": "Email",
-                    "text": "Email"
-                },
-                {
-                    "value": "SMS",
-                    "text": "SMS"
-                },
-                {
-                    "value": "Phone call",
-                    "text": "Voice/Phone call"
-                },
-                {
-                    "value": "Azure App Push",
-                    "text": "Azure App Push Notification"
-                },
-                {
-                    "value": "Email ARM Role",
-                    "text": "Email Azure Resource Manager Role"
-                },
                 {
                     "value": "Webhook",
                     "text": "Webhook"
@@ -65,10 +45,6 @@
                 {
                     "value": "Runbook",
                     "text": "Automation Runbook"
-                },
-                {
-                    "value": "ITSM",
-                    "text": "ITSM"
                 },
                 {
                     "value": "dont_know_answer",
