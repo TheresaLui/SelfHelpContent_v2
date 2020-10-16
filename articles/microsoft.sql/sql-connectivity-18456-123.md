@@ -18,17 +18,16 @@
 />
 # Login failed - Empty username or password
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the login contains an empty username or password**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
-<!--$FailedLogins18456State123--> FailedLogins18456State123 <!--/$FailedLogins18456State123-->
-
-<!--/issueDescription-->
-
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> and we were able to detect login failures.
 <br>
 The error returned indicated that the corresponding login contains either an empty username or password.
 <br>
+
+<!--$FailedLogins18456State123--> FailedLogins18456State123 <!--/$FailedLogins18456State123-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

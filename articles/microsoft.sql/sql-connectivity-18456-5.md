@@ -18,18 +18,16 @@
 />
 # Login failed - the specified user could not be found
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the specified user could not be found**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
-
-<!--$FailedLogins18456State5--> FailedLogins18456State5 <!--/$FailedLogins18456State5-->
-
-<!--/issueDescription-->
-
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> and we were able to detect login failures.
 <br>
 The error returned indicates that the user was not found. This may occur if the username specified in the application connection string is incorrect, or if there is no corresponding login or contained database user inside the database.
 <br>
+
+<!--$FailedLogins18456State5--> FailedLogins18456State5 <!--/$FailedLogins18456State5-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
