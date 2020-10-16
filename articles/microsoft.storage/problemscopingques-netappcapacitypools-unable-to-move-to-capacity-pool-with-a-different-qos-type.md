@@ -71,8 +71,7 @@
           "value": "Manual",
           "text": "Manual"
         }
-      ],
-      "required": true
+      ]
     },
     {
       "id": "destination_pool_name",
@@ -101,8 +100,7 @@
           "value": "Ultra",
           "text": "Ultra"
         }
-      ],
-      "required": true
+      ]
     },
     {
       "id": "destination_pool_qos",
