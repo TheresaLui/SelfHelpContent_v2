@@ -11,7 +11,7 @@
       resourceTags=""
       productPesIds=""
       cloudEnvironments="public, fairfax, usnat, ussec"
-      articleId="e56c44d2-fac5-452f-b1f3-ee5b5769efab"
+      articleId="6bf64bf4-3985-4504-82c5-e458000e2142"
       ownershipId="StorageMediaEdge_AccountManagement"
 />
 
