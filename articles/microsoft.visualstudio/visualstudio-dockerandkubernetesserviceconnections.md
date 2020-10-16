@@ -22,28 +22,27 @@
 
 Are you facing one of these common problems?
 
-* I'm unable to configure and build a Linux container image on Windows Server 2016 
+* **I want to close all public access to Azure Container Registry and Azure Key Vault excluding Azure Devops. What are the Azure Devops's Public ip addresses?**
 
-    Linux container (LCOW) is an advanced feature and only supported by [Windows 10 Professional and Windows 10 Enterprise](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10-linux), or Windows Server 2019 version 1809 or later. You can turn to either  Windows 10 Professional/Enterprise/Windows Server 2019 version 1809+ or hosted agent. The following links will help in this regard:
+    	The list of IP ranges are given [here](https://docs.microsoft.com/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops#ip-addresses-and-range-restrictions). You can also make use of a [Self-Hosted Agents](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows?view=azure-devops) to carry out this.
 
-* I'm not able to pull .env file present in securefiles and use it in my dockerFile while running the azure pipelines
+* **I encounter the error message which reads "The service connection does not exist or has not been authorized for use"**
 
-	Make sure the file stored in secure files is not added in .gitignore file of your repository. The .env files are not involved in the “build and push” task. However, When you run the image, you can specify .env files.
+	This occurs because the service connection was either unauthorized or was deleted. In such cases, authorize the service connection or [create a new one](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#create-a-service-connection).
 
-* Insufficient space in docker VM used to build images
+* **How do I make use of docker Build & push image tasks in my YAML files inorder to create a pipeline**
 
-    Try configuring an agent on VM with a different configuration. Ensure their is enough space available on on the VM.
+    	[Refer this document](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/docker?view=azure-devops#build-and-push) which contains the YAML snippet to include in your pipeline.
+    
+* **I have an existing service connction and when trying to connect to the Azure Container Registry , it says no service connections exist**
 
-* **docker pull** is not fetching current/correct docker images from ACR
+   	 This is because the release pipeline does not see the **Service Connection Endpoint** when adding an ACR artifact. The pipeline tasks will filter on **AZURE RM** for the Service Connection Endpoints. Therefore, use a [Service Connection Endpoint for Azure RM](https://docs.microsoft.com/azure/devops/extend/develop/service-endpoints?view=azure-devops).
 
-    Remove all the existing images and containers running for the particular version. Build and push the image again to the container registry. Also, if you have a docker-compose.yml defined, then the **docker-compose up** command will ideally start or restart all the services defined in the Dockerfile. Then execute the **docker run** command which will run the image.
+* **Unable to modify name of docker registry service connection shared in another project even though I have admin level access across all service connections**
 
-* I need guidance on using the Docker Build  & Docker push tasks in Azure Pipelines
+	In such cases, change the access level to **Basic** and you will be able to rename the service connection of the docker registry.
 
-	You can refer to the steps outlined in the following documents to build and push container images
-    - [Build an image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops)
-    - [Push an image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/push-image?view=azure-devops)
-
+    
 
 ## **Recommended Documents**
 
