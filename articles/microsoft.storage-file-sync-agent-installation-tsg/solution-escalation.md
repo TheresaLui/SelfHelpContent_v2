@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="10df5b34-e282-45b7-bb56-fc799183fd8e"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Escalation

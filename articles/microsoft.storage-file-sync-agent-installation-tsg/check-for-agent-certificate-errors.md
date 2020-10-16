@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="b9bb1805-92d0-4bf7-ac67-4d09b7d265c1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to check for Sync Agent Certificate Errors

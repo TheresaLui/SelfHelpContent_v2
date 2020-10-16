@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="760033f1-6393-4b6b-8e66-9687340a251b"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to check for agent registration error

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7b566ef0-de2d-42fa-a9fb-e390fe99b6ca"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to renew sync agent certificate

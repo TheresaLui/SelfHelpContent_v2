@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="58bc3773-ce7e-46d4-b55c-2033845b109d"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to remove old agent version

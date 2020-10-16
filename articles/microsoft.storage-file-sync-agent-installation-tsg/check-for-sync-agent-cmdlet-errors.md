@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="59aa3418-5ad6-473c-b3c0-d669f8f9bf9f"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to check for sync agent cmdlet errors
