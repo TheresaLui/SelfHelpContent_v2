@@ -119,6 +119,42 @@
       "shortDescription": "Help creating a commercial marketplace account in Partner Center (publisher profile creation)",
       "searchTags": "Accounts;Onboarding;Registration;Profile",
     },
+  {
+      "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
+      "longDescription": "",
+      "shortDescription": "Information or assistance on completing CSP enrollment for Direct bill, Indirect provider or Indirect reseller transacting through this channel",
+      "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
+    },
+     {
+      "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
+      "longDescription": "",
+      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another e.g. Direct bill to Indirect reseller",
+      "searchTags": "Accounts;Onboarding;Offboarding;Transition",
+    },
+     {
+      "id": "450a4758-55f5-eb20-34a6-65c82c1d3d83",
+      "longDescription": "",
+      "shortDescription": "Issues with credit limits or credit balances for transacting CSP partners",
+      "searchTags": "Accounts;Onboarding;Limits;Balance",
+    },
+     {
+      "id": "77f4aefd-0ed3-570a-c68d-436f11b46638",
+      "longDescription": "",
+      "shortDescription": "Information or assistance with transitioning from direct bill to indirect reseller including moving customers and subscriptions to a new Indirect provider",
+      "searchTags": "Accounts;Onboarding;Moving;Transition",
+    },
+     {
+      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+      "longDescription": "",
+      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
+      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+    },
+     {
+      "id": "a7b77b19-2490-0473-2d99-e2075f48adb4",
+      "longDescription": "",
+      "shortDescription": "	Issues or questions about reconciliation files, invoices, or payments. This is for CSP billing. Refer to the appropriate product portal for Customer direct or EA subscription issues",
+      "searchTags": "Accounts;Onboarding;Reconciliation;CSP;Billing",
+    },
   ]
 }
 ---
