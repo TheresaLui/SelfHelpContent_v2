@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	articleId="59aa3418-5ad6-473c-b3c0-d669f8f9bf9f"
+	articleId="87e6ec56-4041-4ce8-b2b8-fd415caa5e4e"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
