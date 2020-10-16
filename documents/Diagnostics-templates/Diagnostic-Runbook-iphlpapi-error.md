@@ -6,13 +6,13 @@
 	resource="runbook"
 	ms.author="bmcder"
 	displayOrder=""
-	articleId="newGuid"
+	articleId="aea2c39f-c93f-4e78-bc45-d9b3e7b29034"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
-	cloudEnvironments=""
+	productPesIds="15607"
+	cloudEnvironments="public,blackForest,fairfax,mooncake,ussec,usnat"
 	ownershipId="Compute_Automation"
 />
 
@@ -73,5 +73,5 @@ Test out the code on a Hybrid Runbook Worker as this dll is available in that en
 * [Manage credentials in Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/credentials)
 * [Configure authentication with Azure AD](https://docs.microsoft.com/azure/automation/automation-use-azure-ad)
 * [Conditional Access to Azure AD](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-* [Azure Multi-Factor Authetication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
+* [Azure Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
 
