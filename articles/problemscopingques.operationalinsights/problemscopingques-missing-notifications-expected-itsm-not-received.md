@@ -1,15 +1,15 @@
 <properties
-	articleId="problemscopingques-missing-notifications"
-	pageTitle="Not receiving notifications"
-	description="Not receiving notifications"
-	authors="snehithm,neilghuman"
-	ms.author="snmuvva,neghuman"
+	articleId="problemscopingques-missing-notifications-expected-itsm-not-received-la"
+	pageTitle="Expected itsm not received"
+	description="Expected itsm not received"
+	authors="neilghuman"
+	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32739760,32739761,32739762"
+	supportTopicIds="32745404"
 	productPesIds="15454"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 # Not receiving notifications
 ---
@@ -19,64 +19,6 @@
     "title": "Not receiving notifications",
     "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Kindly include Alert id, Fired time, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
-        {
-            "id": "notification_type",
-            "order": 1,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Select the action or notification types that are not working.",
-            "watermarkText": "Choose one or more notification or action types",
-            "dropdownOptions": [
-                {
-                    "value": "Email",
-                    "text": "Email"
-                },
-                {
-                    "value": "SMS",
-                    "text": "SMS"
-                },
-                {
-                    "value": "Phone call",
-                    "text": "Voice/Phone call"
-                },
-                {
-                    "value": "Azure App Push",
-                    "text": "Azure App Push Notification"
-                },
-                {
-                    "value": "Email ARM Role",
-                    "text": "Email Azure Resource Manager Role"
-                },
-                {
-                    "value": "Webhook",
-                    "text": "Webhook"
-                },
-                {
-                    "value": "Secure Webhook",
-                    "text": "Secure Webhook"
-                },
-                {
-                    "value": "Logic App",
-                    "text": "Logic App"
-                },
-                {
-                    "value": "Function",
-                    "text": "Azure Function"
-                },
-                {
-                    "value": "Runbook",
-                    "text": "Automation Runbook"
-                },
-                {
-                    "value": "ITSM",
-                    "text": "ITSM"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true
-        },
         {
             "id": "action_group_id",
             "order": 2,
