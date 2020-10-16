@@ -1,15 +1,15 @@
 <properties
-	articleId="problemscopingques-i-need-to-increase-my-quota-of-alert-rules-or-action-groups"
+	articleId="problemscopingques-i-need-to-increase-my-quota-of-alert-rules-or-action-groups-la"
 	pageTitle="I need to increase my quota of alert rules or action groups"
 	description="I need to increase my quota of alert rules or action groups"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739797, 32739787, 32739772, 32739792, 32739758"
-	productPesIds="15454"
+	supportTopicIds="32745407"
+	productPesIds="15725"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 # I need to increase my quota of alert rules or action groups
 ---
