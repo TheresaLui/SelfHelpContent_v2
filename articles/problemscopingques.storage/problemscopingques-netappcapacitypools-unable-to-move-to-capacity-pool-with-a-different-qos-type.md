@@ -78,7 +78,7 @@
       "controlType": "textbox",
       "displayLabel": "Destination capacity pool name",
       "watermarkText": "Destination capacity pool name",
-      "required": true
+      "required": false
     },
     {
       "id": "destination_pool_service_level",
