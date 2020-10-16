@@ -22,9 +22,9 @@
 High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can be an indication that a component used by this application uses is unable to process data as efficiently as expected, that there might be a code issue , or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:  
 
 1. A recent code change or deployment. This is mostly applicable to apps like Apache, SQL or other applications.
-1. A recent patch, which could be related to an OS level patch, or Application level cumulative patches/fixes.
+1. A recent patch, which could be related to an OS level patch, or Application level cumulative patches/fixes
 1. Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, Data changes etc. sometimes lead to some queries getting more compute intensive. 
-1. Azure VM Specific: there are certain processes like waagent, extension specific processes (Monitoring Agent, MMA agent, Security client, etc.) which sometimes lead to High CPU consumption and needs to be looked from configuration or known issues perspective.  
+1. Azure VM Specific: there are certain processes like waagent, extension specific processes (Monitoring Agent, MMA agent, Security client, etc.) which sometimes lead to High CPU consumption and needs to be looked from configuration or known issues perspective
 
 Try the following steps to diagnose and mitigate VM CPU performance issues.
 
