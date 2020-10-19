@@ -34,22 +34,23 @@ We have investigated and detected that the self-signed certificate associated wi
 * Take ownership of the folder and its sub-directories: `takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r`
 * Backup the current access control lists: 
 
-  ```md C:\BackupACLs```
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /save C:\BackupACLs\machinekeys_before.txt /t /c```
+ 	* ```md C:\BackupACLs```
+	* ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /save C:\BackupACLs\machinekeys_before.txt /t /c```
 
 * Add the system default ACLs to the MahcineKeys folder:
 
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"```
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```
-  ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```
+	* ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"```
+	* ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```
+	* ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```
 
 * Restart the Terminal Service to all the certificate renewal: `Restart-Service TermService -Force`
 
 * If RDP is still now working, ensure that the self-signed certificate is renewed by executing the below commands in the given order:
 
-  ```Import-Module PKI```
-  ```Set-Location Cert:\LocalMachine```
-  ```$RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)```
-  ```Remove-Item -Path $RdpCertThumbprint```
-  ```Stop-Service -Name "SessionEnv"```
-  ```Start-Service -Name "SessionEnv"```
+  1. `Import-Module PKI`
+  2. `Set-Location Cert:\LocalMachine`
+  3. `$RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)`
+  4. `Remove-Item -Path $RdpCertThumbprint`
+  5. `Stop-Service -Name "SessionEnv"`
+  6. `Start-Service -Name "SessionEnv"`
+  
