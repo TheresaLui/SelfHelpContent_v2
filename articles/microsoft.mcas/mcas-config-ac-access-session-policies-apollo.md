@@ -15,15 +15,12 @@
   ownershipId="CloudAppSecurity_CAAC"
 />
 
-# Troubleshooting for access and session policies
+# Welcome to our new guided troubleshooting experience for access and session policies
 
 Access and Session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
-
-## Welcome to our new guided troubleshooting experience for access and session policies
-
 This experience provides common solutions, important documents, and relevant how-to videos.
 
-Most users are able to resolve the following issues:
+Most users are able to resolve the following issues using this guide:
 
 - I'm getting an error when trying to create policies
 - My access or session policy is not enforced as expected
