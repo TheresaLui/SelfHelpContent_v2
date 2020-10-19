@@ -22,7 +22,7 @@
 
 Are you facing one of these common problems?
 
-* **I want to close all public access to Azure Container Registry and Azure Key Vault excluding Azure Devops. What are the Azure Devops's Public ip addresses?**
+* **I want to close all public access to Azure Container Registry and Azure Key Vault excluding Azure DevOps. What are the Azure DevOps's Public ip addresses?**
 
     	The list of IP ranges are given [here](https://docs.microsoft.com/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops#ip-addresses-and-range-restrictions). You can also make use of a [Self-Hosted Agents](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows?view=azure-devops) to carry out this.
 
@@ -30,11 +30,11 @@ Are you facing one of these common problems?
 
 	This occurs because the service connection was either unauthorized or was deleted. In such cases, authorize the service connection or [create a new one](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#create-a-service-connection).
 
-* **How do I make use of docker Build & push image tasks in my YAML files inorder to create a pipeline**
+* **How do I make use of docker Build & push image tasks in my YAML files in order to create a pipeline**
 
     	[Refer this document](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/docker?view=azure-devops#build-and-push) which contains the YAML snippet to include in your pipeline.
     
-* **I have an existing service connction and when trying to connect to the Azure Container Registry , it says no service connections exist**
+* **I have an existing service connection and when trying to connect to the Azure Container Registry , it says no service connections exist**
 
    	 This is because the release pipeline does not see the **Service Connection Endpoint** when adding an ACR artifact. The pipeline tasks will filter on **AZURE RM** for the Service Connection Endpoints. Therefore, use a [Service Connection Endpoint for Azure RM](https://docs.microsoft.com/azure/devops/extend/develop/service-endpoints?view=azure-devops).
 
