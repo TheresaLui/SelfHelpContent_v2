@@ -18,7 +18,7 @@
  "$schema": "SelfHelpContent",
  "subscriptionRequired": true,
  "resourceRequired": false,
- "title": "Server trust group",
+ "title": "Server Trust Group",
  "fileAttachmentHint": "",
  "formElements": [
  {
