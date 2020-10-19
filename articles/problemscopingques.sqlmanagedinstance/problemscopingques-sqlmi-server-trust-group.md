@@ -1,17 +1,16 @@
 <properties
- articleId="problemscopingques-sqlmi-server-trust-group"
- pageTitle="Azure SQL Managed Instance"
- description="Scoping questions to get more details about server trust group issue"
- authors="vtpombei"
- authoralias="vtpombei"
- ms.author="vtpombei"
- selfHelpType="problemScopingQuestions"
- productPesIds="16259"
- supportTopicIds="32749584"
- cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
- schemaVersion="1"
- ownershipId="AzureData_AzureSQLMI"
+	pageTitle="Azure SQL Managed Instance"
+	description="Scoping questions to get more details about server trust group issue"
+	ms.author="vtpombei"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32749584"
+	productPesIds="16259"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	schemaVersion="1"
+	articleId="problemscopingques-sqlmi-server-trust-group"
+	ownershipId="AzureData_AzureSQLMI"
 />
+
 # Azure SQL Managed Instance
 ---
 {
