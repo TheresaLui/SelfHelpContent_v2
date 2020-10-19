@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="activitylog-export-restapi"
     productPesIds="16251"
-    supportTopicIds="32684684"
+    supportTopicIds="32684690"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
