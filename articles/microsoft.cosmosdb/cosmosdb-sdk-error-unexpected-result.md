@@ -80,8 +80,8 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 **Intermittent 503 errors service is unavailable**
 <br>This can be caused by transient connectivity issues on the client side or service availability.
-* See the dedicated support article for [503 - service unavailable](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
-* See the dedicated support article for [multiregional SDK availability](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#transient-connectivity-issues-on-tcp-protocol).
+* See the dedicated support article for [503 - service unavailable](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable)
+* See the dedicated support article for [multiregional SDK availability](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#transient-connectivity-issues-on-tcp-protocol)
 
 **Invalid characters in Resource.Id _rid Property**
 <br>Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters.  
@@ -98,7 +98,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 **The read session is not available for the input session token**
 <br>You receive an exception *The read session is not available for the input session token*
 * Newer SDK versions have improvements over this particular scenario.
-* For a detailed explanation of the reason of this error code, see [this support article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#session-consistency-guarantees).
+* For a detailed explanation of the reason of this error code, see [this support article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#session-consistency-guarantees)
 
 
 **Unable to connect to Cosmos DB Account from Java SDK (Async API) - Using SQL API**
