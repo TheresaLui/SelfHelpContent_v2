@@ -22,10 +22,6 @@
 
 Are you facing one of these common problems?
 
-****
-
-	[Follow the steps outlined in this document](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-connect-msi)
-
 **I wasn't able to deploy DACPAC using the *DacpacTask* from Azure DevOps**
 
     The [DACPAC task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment?view=azure-devops) doesn't support service principle authentication. For [AAD authentication](https://docs.microsoft.com/archive/blogs/stefan_stranger/connect-to-azure-sql-database-by-obtaining-a-token-from-azure-active-directory-aad), execute the script using Azure PowerShell or PowerShell task. AAD-Integrated auth is  agent.
@@ -38,7 +34,7 @@ Are you facing one of these common problems?
 
     [Refer this document to create an Azure Data Factory and implementing CI/CD for the same](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
 
-* Where do I find a sample to deploy to Azure SQL database
+* **Where do I find a sample to deploy to Azure SQL database**
 
     You can refer this [tutorial](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-sql-database)
 
