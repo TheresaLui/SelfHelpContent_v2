@@ -7,7 +7,7 @@
 	productPesIds="16456"
 	cloudEnvironments="Public,Blackforest,Fairfax,Mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="1d0baad2-c201-4369-9513-233dfa2b6b6t"
+	articleId="1d0baad2-c201-4369-9513-233dfa2b6b6e"
 	ownershipId="CloudES_AzureSupportPlatform"
 />
 # Issues with Guest Configuration extension
