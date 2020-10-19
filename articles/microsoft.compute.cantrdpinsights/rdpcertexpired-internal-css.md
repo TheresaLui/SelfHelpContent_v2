@@ -28,28 +28,22 @@ We have investigated and detected that the self-signed certificate associated wi
 * To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole)
 * If you’re unfamiliar with the serial console or would like additional information, please refer to our [user guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
 
-##### From the Serial Console:
+### From the Serial Console
 
-* Execute the following set of commands in the given order to reset the permission levels on the MachineKey folder and the RSA files to default. This folder is used to store certificate key pairs for the system and its users:
-
-  Take ownership of the folder and its sub-directories
-
-  ```takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r```
-
-  Backup the current access control lists
+* Execute the following set of commands in the given order to reset the permission levels on the MachineKey folder and the RSA files to default. This folder is used to store certificate key pairs for the system and its users.
+* Take ownership of the folder and its sub-directories: `takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r`
+* Backup the current access control lists: 
 
   ```md C:\BackupACLs```
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /save C:\BackupACLs\machinekeys_before.txt /t /c```
 
-  Add the system default ACLs to the MahcineKeys folder
+* Add the system default ACLs to the MahcineKeys folder:
 
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"```
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```
 
-  Restart the Terminal Service to all the certificate renewal
-
-  ```Restart-Service TermService -Force```
+* Restart the Terminal Service to all the certificate renewal: `Restart-Service TermService -Force`
 
 * If RDP is still now working, ensure that the self-signed certificate is renewed by executing the below commands in the given order:
 
