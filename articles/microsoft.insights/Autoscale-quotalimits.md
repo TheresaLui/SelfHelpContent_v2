@@ -23,7 +23,6 @@ You can use **Activity Log** to verify results of autoscale actions to confirm t
 1. Open **Activity Logs** and Track if there is a failure message associated with unavailability of capacity.
 1. Reach out to the Azure customer service to request for additional capacity. Once the resources are made available, autoscale automatically resumes the scaling operation.
 
-
 ## **Recommended Documents**
 
 * [Troubleshooting guide for Azure Monitor autoscale](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-troubleshoot)

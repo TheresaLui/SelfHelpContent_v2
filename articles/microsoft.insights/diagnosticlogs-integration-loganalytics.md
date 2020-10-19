@@ -14,7 +14,7 @@
 />
 
 # <-- Integrating-with-Log Analytics -->
-Platform logs in Azure, including Azure Activity log and resource logs, provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on.  Platform metrics are collected by default and typically stored in the Azure Monitor metrics database. Platform logs and metrics can be sent to various destinations, including [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview). Following steps will walk you through how to enable platform log export to Log Analytics
+Platform logs in Azure, including Azure Activity log and resource logs, provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on.  Platform metrics are collected by default and typically stored in the Azure Monitor metrics database. Platform logs and metrics can be sent to various destinations, including [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview). Following steps will walk you through how to enable platform log export to Log Analytics.
 
 ## **Recommended Steps**
 
