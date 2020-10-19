@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Issue in deleting Data Share account"
+  pagetitle="Data Share account cannot delete"
   service="microsoft.datashare"
   resource="accounts"
   ms.author="jife"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec,mooncake,blackforest"
   articleid="8252960e-852d-405d-a41f-7e8fb70b364a"
   ownershipid="AzureData_DataShare" />
-# Issue in deleting Data Share account
+# Data Share account cannot delete
 
 ## **Recommended Steps**
 

@@ -7,7 +7,7 @@
   supporttopicids="32748837,32748843,32748839,32748841"
   resourcetags=""
   productpesids="17126"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="d534114a-5bef-433d-b3e1-0e3bf098d90f"
   ownershipid="AzureData_SQL_Server_Azure_Arc" />
 # SQL Server - Azure Arc
