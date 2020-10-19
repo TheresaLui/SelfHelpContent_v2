@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issue indexing data from an Azure Blob Storage data source"
-	description="Issue indexing data from an Azure Blob Storage data source"
+	pageTitle="Issue indexing data from an Azure Cosmos DB data source"
+	description="Issue indexing data from an Azure Cosmos DB data source"
 	authors="maheff"
 	ms.author="maheff"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681363"
+	supportTopicIds="32681364"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="0878deda-9364-419a-a126-bf6d20fad336"
+	articleId="9d1eb2ee-ad58-47ae-b75f-3f50bf8889e4"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue indexing data from an Azure Blob Storage data source
+# Issue indexing data from an Azure Cosmos DB data source
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue indexing data from an Azure Blob Storage data source",
+    "title": "Issue indexing data from an Azure Cosmos DB data source",
     "fileAttachmentHint": "",
     "formElements": [
         {
