@@ -5,7 +5,7 @@
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684743, 32684742, 32684741"
+	supportTopicIds="32684743,32684742,32684741"
 	productPesIds="16250"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
