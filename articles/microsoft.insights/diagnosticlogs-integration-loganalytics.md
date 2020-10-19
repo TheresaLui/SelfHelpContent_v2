@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="diagnosticlogs-export-loganalytics"
     productPesIds="16251"
-    supportTopicIds="32684700"
+    supportTopicIds="32684712"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
