@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32750772"
+       supportTopicIds="32750772,32728043,32750771,32750767,32750766,32750769,32750765,32750775,32750776,32750773,32728069"
        productPesIds="17010"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -20,30 +20,30 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Marketplace Deployment Issue",
-   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording, HAR file or document with steps to recreate the issue)",
+   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 2,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
 	   "order": 3,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
@@ -52,14 +52,14 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Transaction Identifier (e.g. PaymentID, earningID, transactionID)",
 	   "watermarkText": "Enter the PaymentID, earningID, transactionID or other identifier",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_id",
 	   "order": 5,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
@@ -67,14 +67,14 @@
 	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_offer_type",
 	   "order": 7,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -170,7 +170,7 @@
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
@@ -189,12 +189,6 @@
 	   "watermarkText": "Please provide any other additional information about your issue",
 	   "required": true,
 	   "useAsAdditionalDetails": true
-       },
-       {
-       "id": "learn_more_text",
-       "order": 12,
-       "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
        }
    ]
 }
