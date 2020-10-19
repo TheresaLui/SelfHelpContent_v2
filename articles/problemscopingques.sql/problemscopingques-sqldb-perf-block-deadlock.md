@@ -2,7 +2,7 @@
 	articleId="problemscopingques-sqldb-perf-block-deadlock"
 	pageTitle="Azure SQL Database"
 	description="Scoping questions to capture issues related to blocking and deadlocks"
-	authors="akiohose"
+	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
 	selfHelpType="problemScopingQuestions"
@@ -23,29 +23,29 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
-            "id": "is_reproducable",
+            "id": "is_reproducible",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Is the problem reproducable?",
+            "displayLabel": "Is the problem reproducible?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "yes",
-                    "text": "Yes, we can reproduce the problem consistently."
+                    "text": "Yes, we can reproduce the problem consistently"
                 },
                 {
                     "value": "no",
-                    "text": " No.  The problem occurs randomly."
+                    "text": " No. The problem occurs randomly"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable."
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -54,7 +54,7 @@
             "id": "allow_snapshot_isolation",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "The snapshot isolation option ALLOW_SNAPSHOT_ISOLATION for the database is set to:",
+            "displayLabel": "ALLOW_SNAPSHOT_ISOLATION snapshot isolation option for the database is set to:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -73,10 +73,10 @@
             "required": false
         },
         {
-            "id": "read_commited_isolation",
+            "id": "read_committed_isolation",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "The snapshot isolation option READ_COMMITTED_SNAPSHOT for the database is set to:",
+            "displayLabel": "READ_COMMITTED_SNAPSHOT snapshot isolation option for the database is set to:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -98,8 +98,7 @@
             "id": "transaction_isolation_hint",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Is the transaction isolation level set in the API or in query hints?
-Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defaults to READ COMMITTED SNAPSHOT.",
+            "displayLabel": "Is the transaction isolation level set in the API or in query hints?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -111,11 +110,11 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
                     "text": "Dont't know"
                 },
                 {
-                    "value": "set_read_uncommited",
-                    "text": "Yes, set to READ UNCOMMITED"
+                    "value": "set_read_uncommitted",
+                    "text": "Yes, set to READ UNCOMMITTED"
                 },
                 {
-                    "value": "set_read_commited",
+                    "value": "set_read_committed",
                     "text": "Yes, set to READ COMMITTED"
                 },
                 {
@@ -142,10 +141,10 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
             "dropdownOptions": [
                 {
                     "value": "is_set",
-                    "text": "Yes (Please describe the timeout value in the Description)"
+                    "text": "Yes (Please enter timeout value in the textbox bellow)"
                 },
                 {
-                    "value": "not_sest",
+                    "value": "not_set",
                     "text": "No"
                 },
                 {
@@ -155,13 +154,22 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
             ],
             "required": false
         },
+         {
+            "id" : "lock_timeout_hint_value",
+            "order" : 61,
+            "visibility" : "lock_timeout_hint == is_set",
+            "controlType" : "textbox",
+            "displayLabel" : "Please enter LOCK_TIMEOUT value",
+            "watermarkText" : "Enter timeout value (in milliseconds)",
+            "required": true
+        },
         {
             "id": "indexstat_maintenance",
             "order": 70,
-            "controlType": "dropdown",
-            "displayLabel": "How frequent are the indexes and statistics maintened?",
+            "controlType": "radioButtonGroup",
+            "displayLabel": "How frequent are the indexes and statistics maintained?",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "radioButtonOptions": [
                 {
                     "value": "daily",
                     "text": "Daily"
@@ -184,7 +192,42 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
                 },
                 {
                     "value": "other",
-                    "text": " Other (Please describe in the Description)"
+                    "text": "Other (Please describe in the text box below)"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id" : "indexstat_maintenance_other",
+            "order" : 71,
+            "visibility" : "indexstat_maintenance == other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe index/statistics maintenance frequency",
+            "watermarkText" : "Describe other",
+            "required": true
+        },
+        {
+            "id": "application_type",
+            "order": 80,
+            "controlType": "dropdown",
+            "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "app_entity_framework",
+                    "text": "Yes, using Entity Framework"
+                },
+                {
+                    "value": "app_custom",
+                    "text": "No, we are using customized application"
+                },
+                {
+                    "value": "app_third_party",
+                    "text": " No, we are using third party application"
+                },
+                {
+                    "value": "app_not_applicable",
+                    "text": "Not applicable"
                 }
             ],
             "required": false
@@ -196,7 +239,7 @@ Note: On Azure SQL Database, setting the isolation level to READ COMMITTED defau
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.  If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }

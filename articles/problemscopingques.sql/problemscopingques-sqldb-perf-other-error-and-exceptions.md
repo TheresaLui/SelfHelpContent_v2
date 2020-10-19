@@ -1,12 +1,12 @@
 <properties
-	articleId="problemscopingques-sqldb-error-connecting-10928"
+	articleId="problemscopingques-sqldb-perf-other-error-and-exceptions"
 	pageTitle="Azure SQL Database"
-	description="Scoping questions to capture issues for error 10928"
+	description="Scoping questions to capture issues related to Other Errors and Exceptions"
 	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32749513"
+	supportTopicIds="32749519"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -28,7 +28,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         },
-         {
+        {
             "id": "is_reproducible",
             "order": 20,
             "controlType": "dropdown",
@@ -41,17 +41,17 @@
                 },
                 {
                     "value": "no",
-                    "text": "No. The problem occurs randomly"
+                    "text": "No.  The problem occurs randomly"
                 }
             ],
             "required": false
         },
         {
-            "id": "error_text_10928",
+            "id": "observed_problem",
             "order": 30,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the 10928 error text if available",
-            "watermarkText": "Enter error text.",
+            "displayLabel": "If applicable, please provide the error text including the stack trace as well.",
+            "watermarkText": "Error text or stack trace if available",
             "required": false
         },
         {

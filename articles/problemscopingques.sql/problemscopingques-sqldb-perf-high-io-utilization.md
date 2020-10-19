@@ -1,12 +1,12 @@
 <properties
-	articleId="problemscopingques-sqldb-indexmaintenance-and-statistics"
+	articleId="problemscopingques-sqldb-perf-high-io-utilization"
 	pageTitle="Azure SQL Database"
-	description="Scoping questions to capture issues related Index maintenance and Statistics"
+	description="Scoping questions to capture issues related to high IO utilization"
 	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32749514"
+	supportTopicIds="32749515"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -23,7 +23,7 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
@@ -37,57 +37,62 @@
             "dropdownOptions": [
                 {
                     "value": "yes",
-                    "text": "Yes, the problem is reproducible."
+                    "text": "Yes, we can reproduce the problem consistently"
                 },
                 {
                     "value": "no",
-                    "text": "No, the problem occurs randomly"
+                    "text": "No. The problem occurs randomly"
                 }
             ],
             "required": false
         },
         {
-            "id": "indexstat_maintenance",
+            "id": "event_prior_to_high_io",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "How frequent are the indexes and statistics maintained?",
+            "displayLabel": "To the best of your knowledge, which event took place prior to observing the high IO.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "daily",
-                    "text": "Daily"
+                    "value": "event_migration",
+                    "text": "Migrated database from On Premises database"
                 },
                 {
-                    "value": "weekly",
-                    "text": "Weekly"
+                    "value": "event_reconfigure_slo",
+                    "text": "Reconfigured the database Service Level Objective (SLO)"
                 },
                 {
-                    "value": "monthly",
-                    "text": "Monthly"
+                    "value": "event_change_db_option",
+                    "text": "Changed the database option"
                 },
                 {
-                    "value": "over_monthly",
-                    "text": "Over monthly"
+                    "value": "event_index_maintenance",
+                    "text": "Index maintenance"
                 },
                 {
-                    "value": "not_maintained",
-                    "text": "Not maintained"
-                },
-                {
-                    "value": "other",
-                    "text": " Other (Please describe in the Description)"
+                    "value": "event_other",
+                    "text": "Others (Please describe in Description)"
                 }
             ],
             "required": false
-        },  
+        },
+        {
+            "id" : "event_prior_to_high_io_other",
+            "order" : 31,
+            "visibility" : "event_prior_to_high_io == event_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe events observed",
+            "watermarkText" : "Events observed",
+            "required": true
+        },
         {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Please provide additional context for the high IO observed",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "If available, please attach any relevant screenshots and scripts that you have used."
         }
     ]
 }
