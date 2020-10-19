@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Issues with Guest Configuration extenstion"
+    "title": "Issues with Guest Configuration extenstion",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -155,7 +155,7 @@
             "order": 70,
             "controlType": "multilinetextbox",
             "displayLabel": "Virtual Machine Operating System",
-             "watermarkText":"Please provide details on the virtual machine's operating system"
+             "watermarkText":"Please provide details on the virtual machine's operating system",
             "required": false
         },
         {
