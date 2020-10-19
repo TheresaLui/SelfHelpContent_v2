@@ -1,14 +1,13 @@
 <properties
-    pageTitle="Multi-Factor Authentication"
-    description="Issues related to Conditional Access or Passwords or Identity protection or MFA"
-    authors="vritiJain"
+    pageTitle="Azure Active Directory Conditional Access policies"
+    description="Issues related to Conditional Access"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615432,32565599,32045826,32596865,32596866,32596869,32615307,32615388,32615397,32615424,32615381,32615390,32615398,32739621,32739613,32615515,32615519"
-    productPesIds="16579,16578"
+    supportTopicIds="32596872,32596842"
+    productPesIds="16579"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
+    articleId="bac93477-4953-4fa2-8dc1-22e9f48357b8"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
@@ -21,7 +20,7 @@
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory Multi-Factor Authentication",
+        "title": "Problem with Azure Active Directory Conditional Access policies",
         "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
@@ -75,9 +74,51 @@
             "numberOfLines": 0
         },
         {
+            "id": "userNameOrId",
+            "visibility": "null",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "User Experiencing Problem:",
+            "content": null,
+            "watermarkText": "Example: foo@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "appNameOrId",
+            "visibility": "null",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Application name or ID:",
+            "content": null,
+            "watermarkText": "Example: ContosoApp",
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
             "id": "problem_description",
             "visibility": null,
-            "order": 4,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Full Error Message:",
             "content": null,
@@ -95,7 +136,7 @@
         {
             "id": "correlationId",
             "visibility": null,
-            "order": 5,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Correlation ID:",
             "content": null,
@@ -112,7 +153,7 @@
         {
             "id": "requestId",
             "visibility": null,
-            "order": 6,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Request ID:",
             "content": null,
@@ -125,62 +166,6 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
             "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Date(UTC):",
-            "content": null,
-            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "null",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Application name or ID:",
-            "content": null,
-            "watermarkText": "Example: ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": "null",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "User Experiencing Problem:",
-            "content": null,
-            "watermarkText": "Example: foo@contoso.com",
-            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "problem_start_time",
-            "order": 10,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
-            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
