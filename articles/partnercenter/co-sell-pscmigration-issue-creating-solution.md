@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Issue creating or updating a solution assessment deal"
-	description="Issue creating or updating a solution assessment deal"
+	description="Issue creating or updating a solution assessment deal PSC migration"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
