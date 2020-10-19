@@ -43,3 +43,4 @@ Are you facing one of these common problems?
 
 * [Azure SQL database deployment](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml)
 * [Quickstart: Create a data factory by using the Azure Data Factory UI](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
+* [DACPAC task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment?view=azure-devops)
