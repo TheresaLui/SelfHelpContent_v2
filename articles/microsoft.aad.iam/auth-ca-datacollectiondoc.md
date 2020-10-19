@@ -1,14 +1,13 @@
 <properties
     pageTitle="Azure Active Directory Conditional Access policies"
     description="Issues related to Conditional Access"
-    authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596872,32596842"
-    productPesIds="16579,16578"
+    productPesIds="16579"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="Conditional_Access_Troubleshooting"
+    articleId="bac93477-4953-4fa2-8dc1-22e9f48357b8"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
