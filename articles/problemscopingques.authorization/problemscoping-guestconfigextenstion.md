@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Guest Configuration"
+    pageTitle="Guest Configuration extension"
     description="Guest Configuration"
     ms.author="kenieva"
     selfHelpType="problemScopingQuestions"
@@ -150,7 +150,7 @@
             ],
             "required": false
         },{
-            "id": "VM",
+            "id": "VM-OS",
             "order": 70,
             "controlType": "multilinetextbox",
             "displayLabel": "Virtual Machine Operating System",
