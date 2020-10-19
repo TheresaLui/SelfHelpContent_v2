@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c" />
+  articleid="supporttopics_1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
+  ownershipid="AzureSearch_AzureSearch" />
 # Support Topic Descriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Questions or concerns related to Azure Cognitive Search (formerly Azure Search)",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://azure.microsoft.com/services/search/",
+  "productLinkName1": "More information",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "025b8d07-f1a7-0fbf-e33f-d2c4f5ce7024",
