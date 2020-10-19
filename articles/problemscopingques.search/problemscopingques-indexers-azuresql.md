@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the issue.",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
@@ -39,16 +39,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the name of the indexer that had this issue?",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "required": true
         },
         {
             "id": "indexing_error_message",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
