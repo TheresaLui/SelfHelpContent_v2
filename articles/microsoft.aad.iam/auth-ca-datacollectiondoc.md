@@ -114,7 +114,7 @@
             "displayLabel": "Problem start time",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
-        }
+        },
         {
             "id": "problem_description",
             "visibility": null,
