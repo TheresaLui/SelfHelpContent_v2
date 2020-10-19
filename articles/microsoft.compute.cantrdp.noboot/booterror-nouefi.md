@@ -27,8 +27,8 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-1. Resize the VM to a size that supports Generation 1.
-1. Delete and recreate the VM using a size that supports Generation 1.
+1. Resize the VM to a size that supports Generation 1
+1. Delete and recreate the VM using a size that supports Generation 1
 
 To determine which VM sizes only support Generation 2 see [Support for generation 2 VMs on Azure](https://docs.microsoft.com/azure/virtual-machines/generation-2).
 
