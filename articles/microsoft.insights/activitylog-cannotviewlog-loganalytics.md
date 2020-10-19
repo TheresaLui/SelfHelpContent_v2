@@ -19,7 +19,7 @@ Activity logs retains the logs for 90 days, users can choose to store the logs i
 ## **Recommended Steps**
 
 1. If you are using [legacy methods](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log#legacy-collection-methods) to export Activity log, then consider using diagnostic settings. 
-1. Refer to the [diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) to ensure it's correct setup to export Activity log to Log Analytics. More details [here](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/activity-log#send-to-log-analytics-workspace)
+1. Refer to the [diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) to ensure it's correct setup to export Activity log to Log Analytics. More details [here](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log#send-to-log-analytics-workspace)
 1. Refer to the [supported categories](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-schema#next-steps) of logs supported by Activity logs
 1. If not stored already, ensure that the logs you would want to view are not older than 90 days.
 
