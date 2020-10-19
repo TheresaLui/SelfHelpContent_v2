@@ -1,21 +1,22 @@
 <properties
-    pageTitle="Guest Configuration extension"
-    description="Guest Configuration"
-    ms.author="kenieva"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32743813"
-    productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-    articleId="1d0baad2-c201-4369-9513-233dfa2b6b6t"
-    schemaVersion="1"
-    ownershipId="Compute_AzurePolicy"
+	pageTitle="Guest Config extension"
+	description="Guest config"
+	ms.author="kenieva"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32743813"
+	productPesIds="16456"
+	cloudEnvironments="Public,Blackforest,Fairfax,Mooncake,usnat,ussec"
+	schemaVersion="1"
+	articleId="1d0baad2-c201-4369-9513-233dfa2b6b6t"
+	ownershipId="CloudES_AzureSupportPlatform"
 />
 # Issues with Guest Configuration extension
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Policy definition",
+    "title": "Issues with Guest Configuration extenstion"
     "fileAttachmentHint": "",
     "formElements": [
         {
