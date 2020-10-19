@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Cosell"
 />
 
-# Partner Center Business profile does not appear in Microsoft Solution Provider for certain search queries
+# Partner Center Business profile ranked lower than expected in Microsoft Solution Provider search results
 
 ## **Recommended Steps**
 
