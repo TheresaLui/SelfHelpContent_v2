@@ -17,7 +17,7 @@
 
 # How to request restore of storage account
 
-1. Go to [JIT ICM Template ](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=74a1g3)
+1. Go to [JIT ICM Template ](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=74a1g3)
 2. NOTE : If you are not a member of TM-CSSStgRec group, you will need to stop here and reach out to a TA who has access.
 3. Navigate to Geneva Actions (Jarvis Actions) :[SRP > SRP Operations > Restore Storage Account](https://jarvis-west.dc.ad.msft.net/4E6B1757?genevatraceguid=d42c3a17-2955-489e-abfc-d4610df8017c)
 4. Request JIT elevation for Storage-PlatformServiceOperator (and NOT PlatformServiceAdministrator), you can click GET ACCESS from the same blade.

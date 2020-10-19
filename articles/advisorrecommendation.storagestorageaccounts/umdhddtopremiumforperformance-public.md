@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "UMDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "yuriic@microsoft.com",
     "icm": {
