@@ -20,35 +20,33 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "problem_description",
             "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please describe the issue.",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did this issue occur?",
             "required": true
         },
         {
-            "id": "indexing_error_message",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
-            "required": false,
-            "useAsAdditionalDetails": true
-        },
-        {
             "id": "indexer_name",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the name of the indexer that had this issue?",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "required": true
         },
         {
-            "id": "problem_description",
+            "id": "indexing_error_message",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Additional details",
-            "useAsAdditionalDetails": false,
-            "required": true
+            "displayLabel": "What is the error you received?",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
