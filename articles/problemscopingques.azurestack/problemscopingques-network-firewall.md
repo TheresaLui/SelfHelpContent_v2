@@ -4,7 +4,7 @@
     authors="alexsmithMSFT"
     ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629211,32629213,32629223,32629230,32629231,32629277,32629281"
+    supportTopicIds="32629211,32629223,32629230,32629231,32629277,32629281"
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
