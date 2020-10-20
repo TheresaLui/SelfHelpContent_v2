@@ -6,7 +6,7 @@
 	resource="account"
 	authors="v-abiss"
 	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzureSQLIssues"
+	articleId="AzureSQLIssues"
 	supportTopicIds="32742294"
 	diagnosticScenario=""
 	selfHelpType="generic"
@@ -44,3 +44,5 @@ Are you facing one of these common problems?
 * [Azure SQL database deployment](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml)
 * [Quickstart: Create a data factory by using the Azure Data Factory UI](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
 * [DACPAC task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
