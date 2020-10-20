@@ -11,7 +11,7 @@
     articleId="problemscopingques-quantum-quota"
     ownershipId="Azure_Quantum"
 />
-# Azure Quantum Quota
+# Azure Quantum Quota - quotaRequestVersion 1 needs to be added
 ---
 {
     "$schema": "SelfHelpContent",
@@ -19,7 +19,6 @@
     "resourceRequired": false,
     "title": "Azure Quantum",
     "fileAttachmentHint": "",
-    "quotaRequestVersion": "1.0",
     "formElements": [
         {
             "id": "problem_start_time",
