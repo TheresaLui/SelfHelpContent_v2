@@ -18,7 +18,7 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # The Virtual Network Gateway has disconnected
 <!--issueDescription-->
-We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNetworkName-->virtualNetworkName<!--/$virtualNetworkName-->** with a VIP of  **<!--$gatewayVip-->gatewayVip<!--/$gatewayVip-->** had the VPN tunnel to peer **<!--$match.IpAddress-->match.IpAddress<!--/$match.IpAddress-->** disconnected due to '**<!--$match.Reason-->match.Reason<!--/$match.Reason-->**'.
+We have identified that your Virtual Network Gateway for Vnet, **<!--$vnetName-->vnetName<!--/$vnetName-->** with a VIP of  **<!--$gatewayVip-->gatewayVip<!--/$gatewayVip-->** had the VPN tunnel to peer **<!--$ipAddress-->ipAddress<!--/$ipAddress-->** disconnected due to '**<!--$reason-->reason<!--/$reason-->**'.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
