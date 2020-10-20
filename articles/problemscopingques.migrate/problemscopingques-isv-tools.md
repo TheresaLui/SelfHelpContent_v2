@@ -4,7 +4,7 @@
          authors="ms-psharma"
         ms.author="panshar"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32675754"
+         supportTopicIds="32755185"
          productPesIds="16348"
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
