@@ -28,7 +28,7 @@ Due to the limits being reached, you can face the following issues:
 * Metrics Missing  
     + The database may remain active, but you may see metrics missing from Azure Portal due to lack of available memory for telemetry processes.
 * Performance Issues  
-    + As you have already reached the resource limit threshold, this may impact the overall performance of the database and cause query slowness and timeouts.
+    + Reaching resource limits may impact the overall performance of the database and cause query slowness and timeouts.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
