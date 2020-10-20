@@ -12,8 +12,7 @@ articleId="13226ewq-b2wd-4ed4-baf2-9d659b578d89"
 ownershipId="Compute_AzureMigrate"
 />
 
-# Migrating Hyper-V VM
-
+# Migrating Physical Server/Other Cloud VM
 ---
 {
     "subscriptionRequired": true,

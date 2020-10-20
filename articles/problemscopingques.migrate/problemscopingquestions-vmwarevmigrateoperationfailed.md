@@ -12,7 +12,7 @@ articleId="13226ewq-b2wd-4ed4-baf2-9d65hgf78d89"
 ownershipId="Compute_AzureMigrate"
 />
 
-# Migrating Hyper-V VM
+# Migrating VMware VM
 
 ---
 {
@@ -21,7 +21,7 @@ ownershipId="Compute_AzureMigrate"
     "title": "Migrate failed for VMware VMs",
     "fileAttachmentHint": "",
     "formElements": [  
-            "id": "vm_name",
+          {  "id": "vm_name",
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
