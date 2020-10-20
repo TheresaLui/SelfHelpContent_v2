@@ -89,7 +89,7 @@
             "watermarkText":"Choose the level that you are requesting quota for",
             "required": true,
             "includeInQuotaSummary": true,
-            "radioButtonOptions": [{
+            "radioButtonOptions": [
                 {
                     "value": "sub",
                     "text": "Subscription"
