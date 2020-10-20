@@ -19,8 +19,9 @@
 
 <!--issueDescription-->
 
-[Converting Expired Azure Pass Sponsorships to Another Offer
-Expired Azure Pass Sponsorship subscriptions (243P) will not be automatically converted to Pay-As-You-Go (PAYG)](https://internal.support.services.microsoft.com/en-us/help/2658611)
+Converting Expired Azure Pass Sponsorships to Another Offer TSG 2658611
+
+[Converting Expired Azure Pass Sponsorships to Another Offer Expired Azure Pass Sponsorship subscriptions (243P) will not be automatically converted to Pay-As-You-Go (PAYG)](https://internal.support.services.microsoft.com/en-us/help/2658611)
 
 If there is no PI and the customer wants to re-enable the subscription after it was disabled at the end of their term, the subscription can still be converted to a PAYG. At this time, the customer will need to remove the monetary cap, add a credit card to re-enable the subscription. If the customer doesn?t have the self-serve option, ASMS may need to re-enable the subscription on their behalf. See TSG 2647585 for guidance on how to convert a subscription.
 
