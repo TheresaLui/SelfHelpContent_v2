@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728246"
+       supportTopicIds="32728246,32728013,32728159,32728086,32728203,32728125,32728217,32728260,32728112,32728166,32728183,32728099,32728274,32728072,32728233,32728052"
        productPesIds="17009"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -27,30 +27,30 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 2,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
 	   "order": 3,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
 	   "id": "pc_isv_offer_type",
 	   "order": 4,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -123,26 +123,25 @@
        {
 	   "id": "pc_isv_offer_id",
 	   "order": 5,
-	   "controlType": "numerictextbox",
+	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
-	   "required": true
+	   "watermarkText": "Please provide the Offer ID",
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_name",
 	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
 	   "id": "additional_email_for_notification",
-       "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
@@ -166,7 +165,7 @@
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        }

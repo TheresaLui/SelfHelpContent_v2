@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Please advise if your organization is a new (<2 years) or ane established (>2 years) business.
+Educate customer that they may need to produce 15K USD security deposit for approval of invoicing. Do NOT advise on this upfront unless GFS prompts or the same.
 
 <!--/issueDescription-->
 

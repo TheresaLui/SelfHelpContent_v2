@@ -20,47 +20,42 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Marketplace Lead Management Issues",
-   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
+   "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
-       "visibility": null,
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
-	   "required": true
+	   "watermarkText": "Please provide the publisher name",
+	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
-       "visibility": null,
 	   "order": 2,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
-       "visibility": null,
 	   "order": 3,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
 	   "id": "additional_email_for_notification",
-       "visibility": null,
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
 	   "id": "pc_isv_lead_destination",
-       "visibility": null,
 	   "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Lead Destination",
@@ -90,10 +85,9 @@
        },
        {
 	   "id": "pc_isv_offer_type",
-       "visibility": null,
 	   "order": 6,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -165,17 +159,23 @@
        },
        {
 	   "id": "pc_isv_offer_name",
-       "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
+	   "required": false
+       },
+       {
+	   "id": "pc_isv_offer_id",
+	   "order": 8,
+	   "controlType": "textbox",
+	   "displayLabel": "Offer ID",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
 	   "id": "pc_isv_offer_d365",
-       "visibility": null,
-	   "order": 8,
+	   "order": 9,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is Offer D365 type?",
        "watermarkText":"Choose from below",
@@ -191,26 +191,15 @@
 	   "required": false
        },
        {
-	   "id": "pc_isv_d365offer_one",
-       "visibility": "pc_isv_offer_d365 == Yes",
-	   "order": 9,
-	   "controlType": "textbox",
-	   "displayLabel": "Please provide Environment Name",
-	   "watermarkText": "Environment Name",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_d365offer_two",
-       "visibility": "pc_isv_offer_d365 == Yes",
+	   "id": "pc_isv_d365offer_true",
 	   "order": 10,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide Environment Type",
-	   "watermarkText": "Environment Type",
+	   "displayLabel": "If Offer is D365 type, please provide the Environment Name and Environment Type",
+	   "watermarkText": "Environment Name; Environment Type",
 	   "required": false
        },
        {
 	   "id": "problem_start_time",
-       "visibility": null,
 	   "order": 11,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Time",
@@ -219,7 +208,6 @@
        },
        {
 	   "id": "problem_description",
-       "visibility": null,
 	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
