@@ -19,7 +19,7 @@
     "schemaVersion": 1.0,
     "streamNamespace": "AzureStorage.Data.MatchProdVMProdDiskPublicV1",
     "dataSource": "Cosmos",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",

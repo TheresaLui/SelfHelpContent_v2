@@ -149,12 +149,6 @@
       "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
       "searchTags": "Accounts;Onboarding;Indirect;CSP",
     },
-     {
-      "id": "a7b77b19-2490-0473-2d99-e2075f48adb4",
-      "longDescription": "",
-      "shortDescription": "	Issues or questions about reconciliation files, invoices, or payments. This is for CSP billing. Refer to the appropriate product portal for Customer direct or EA subscription issues",
-      "searchTags": "Accounts;Onboarding;Reconciliation;CSP;Billing",
-    },
   ]
 }
 ---

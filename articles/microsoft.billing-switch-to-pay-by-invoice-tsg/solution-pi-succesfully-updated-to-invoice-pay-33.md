@@ -1,5 +1,5 @@
 <properties
-	pageTitle="PI succesfully updated to Invoice Pay"
+	pageTitle="PI has been rejected"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# PI succesfully updated to Invoice Pay
+# PI has been rejected
 
 <!--issueDescription-->
 
