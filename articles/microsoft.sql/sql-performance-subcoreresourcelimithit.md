@@ -17,9 +17,10 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Database Resource Limits Hit
+# Database Resource Limits Hit  
+
 <!--issueDescription-->
-We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between <!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime--> and <!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
+We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
 
 Due to the limits being reached, you can face the following issues:  
 1. Database Availability/Connectivity Issues (Error 40613)  
