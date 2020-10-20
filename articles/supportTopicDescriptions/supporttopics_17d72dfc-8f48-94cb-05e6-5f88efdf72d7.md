@@ -499,9 +499,9 @@
     {
       "id": "9cc2bc2c-e067-4931-ac5e-155e1d53999c",
       "longDescription": null,
-      "shortDescription": "Errors due to extension failures putting the VM into a failed provisioning state",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Backup failing due to UserErrorVmProvisioningStateFailed, ExtensionFailed, VSS, COM and other extension related issues",
+      "searchTags": "backup;provisioning;extension;VSS",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -651,7 +651,7 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backup.",
+      "shortDescription": "Issue related to configure, enable, disable, delete, stop or resume backup",
       "searchTags": "configure;modify;stop",
       "category": "configuration",
       "useInDiagnoseAndSolve": "true"
@@ -683,9 +683,9 @@
     {
       "id": "e3b27cc4-cda5-965b-7fb6-06fac0e6f6b0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Windows virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backup",
+      "searchTags": "backup;scheduled;failed;adhoc;ondemand",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
