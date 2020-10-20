@@ -71,7 +71,7 @@
         {
             "id": "quota_sublevel",
             "visibility": "quota_subtype == workspace-quota",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
             "watermarkText":"Choose the level that you are requesting quota for",
@@ -91,7 +91,7 @@
         {
             "id": "quota_workspace",
             "visibility": "quota_subtype == provider-quota",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
             "watermarkText":"Choose a workspace",
@@ -114,7 +114,7 @@
         {
             "id": "quota_region",
             "visibility": "quota_subtype == workspace-quota && quota_sublevel == sub",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
             "watermarkText":"Choose a location",
@@ -136,7 +136,7 @@
         {
             "id": "quota_provider_type",
             "visibility": "quota_subtype == provider-quota",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace",
@@ -157,7 +157,7 @@
         {
             "id": "new_limit",
             "visibility": "quota_subtype == workspace-quota ||  quota_subtype == provider-quota",
-            "order": 6,
+            "order": 7,
             "controlType": "numerictextbox",
             "displayLabel": "New quota requested",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
@@ -173,7 +173,7 @@
         {
             "id": "business_justification",
             "visibility": "quota_subtype != null && quota_region != dont_know_answer && quota_workspace != dont_know_answer",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
@@ -182,7 +182,7 @@
         {
             "id": "problem_description",
             "visibility": "quota_subtype != null && quota_region == dont_know_answer || quota_workspace == dont_know_answer",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
