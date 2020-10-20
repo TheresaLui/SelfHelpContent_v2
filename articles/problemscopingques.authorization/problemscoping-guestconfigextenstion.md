@@ -1,26 +1,22 @@
 <properties
-    pageTitle="Guest Configuration"
-    description="Guest Configuration"
-    service="microsoft.authorization"
-    resource="policyDefinitions"
-    authors="kenieva"
-    ms.author="kenieva"
-    displayOrder=""
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32741669,32741670"
-    resourceTags=""
-    productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-    articleId="1d0baad2-c201-4369-9513-233dfa2b6b6d"
-    schemaVersion="1"
-    ownershipId="Compute_AzurePolicy"
+	pageTitle="Guest Config extension"
+	description="Guest config"
+	ms.author="kenieva"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32743813"
+	productPesIds="16456"
+	cloudEnvironments="Public,Blackforest,Fairfax,Mooncake,usnat,ussec"
+	schemaVersion="1"
+	articleId="1d0baad2-c201-4369-9513-233dfa2b6b6f"
+	ownershipId="CloudES_AzureSupportPlatform"
 />
-# Issues with Guest Configuration
+# Issues with Guest Configuration extension
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Policy definition",
+    "title": "Issues with Guest Configuration extenstion",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -154,10 +150,17 @@
                 }
             ],
             "required": false
+        },{
+            "id": "VM-OS",
+            "order": 70,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Virtual Machine Operating System",
+             "watermarkText":"Please provide details on the virtual machine's operating system",
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 70,
+            "order": 80,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",
@@ -171,7 +174,7 @@
         },
         {
             "id": "resource_group",
-            "order": 80,
+            "order": 90,
             "controlType": "multilinetextbox",
             "displayLabel": "Resource Group",
             "watermarkText": "Provide Resource Group details for running insight diagnostics(Optional)",
