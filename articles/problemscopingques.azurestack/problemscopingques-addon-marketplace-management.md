@@ -95,7 +95,7 @@
                 }
             ],
             "required": false,
-            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
+            "infoBalloonText": "Example: Select 2008 if your build number is 1.2008.0.35."
         },
         {
             "id": "build_number",
