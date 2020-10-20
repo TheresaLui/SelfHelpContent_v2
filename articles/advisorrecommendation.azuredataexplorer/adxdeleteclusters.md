@@ -47,7 +47,7 @@
   "learnMoreLink": "https://aka.ms/adxemptycluster",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have a small amount of data, queries, and ingestions during the last 30 days; has low CPU usage during the last two days, and has no followers during the last day (the dates are from the recommendation generated date). The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
-  "potentialBenefits": "Optimize Azure spend",
+  "potentialBenefits": "Optimize cost",
   "actions": [
     {
       "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
