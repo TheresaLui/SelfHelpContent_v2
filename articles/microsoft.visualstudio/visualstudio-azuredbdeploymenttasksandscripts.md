@@ -28,9 +28,9 @@ Are you facing one of these common problems?
 
 **SQL Package build failed**
 
-    Ensure the the dacpac file is present in your repository which is used for the build.
+    Ensure the dacpac file is present in your repository which is used for the build.
 
-**How do I implement CI/CD for datafactory in Azure devops**
+**How do I implement CI/CD for data factory in Azure DevOps**
 
     [Refer this document to create an Azure Data Factory and implementing CI/CD for the same](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
 
