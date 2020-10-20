@@ -127,7 +127,7 @@
             "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_sublevel",
+                "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -161,7 +161,7 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_region != null || quota_provider_type != null || quota_sublevel == sub",
+            "visibility": "quota_provider_type != null || quota_sublevel != null",
             "order": 8,
             "controlType": "numerictextbox",
             "displayLabel": "New quota requested - NEED to include isNewQuotaLimit = true",
