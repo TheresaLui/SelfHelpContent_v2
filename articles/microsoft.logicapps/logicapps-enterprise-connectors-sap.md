@@ -16,9 +16,17 @@
 
 # Enterprise Connector - SAP
 
-The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud.  The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
+The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises or hosted in Azure Virtual Machine. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud. The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
 
-[Connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
+* [How to connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
+
+### Installation
+
+- [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
+- [Multi-tenant Azure prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#multi-tenant-azure-prerequisites) 
+- [Integration service environment (ISE) prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#integration-service-environment-ise-prerequisites)
+- [SNC Secure Network Communications prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#secure-network-communications-prerequisites)
+
 
 ## **Recommended Documents**
 
@@ -27,3 +35,4 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 - [Specify the language for the connection to SAP with Logic Apps](https://www.linkedin.com/pulse/specify-language-connection-sap-logic-apps-david-burg/)
 - [Large request upcoming support for Azure Logic App SAP Connector](https://docs.microsoft.com/archive/blogs/david_burgs_blog/large-request-upcoming-support-for-azure-logic-app-sap-connector)
 - [Logic App SAP connector all the logs to capture for troubleshooting and requesting support](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-app-sap-connector-all-the-logs-to-capture-for-troubleshooting-and-requesting-support)
+
