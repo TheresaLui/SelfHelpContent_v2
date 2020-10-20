@@ -17,8 +17,8 @@
 
 ## **Recommended Documents**
 
+Learn how to review the Security Recommendations you might see in Azure Security Center, see [Security recommendations - a reference guide](https://docs.microsoft.com/azure/security-center/recommendations-reference).
+
 The Azure Security Center recommendations shown in your environment depend on the resources you are protecting and your customized configuration.
 
 Security Center's recommendations are based on best practices. Some are aligned with the **Azure Security Benchmark**, the Microsoft-authored, Azure-specific guidelines for security and compliance best practices based on common compliance frameworks. Learn more about [Azure Security Benchmark](https://docs.microsoft.com/azure/security/benchmarks/introduction).
-
-- [Security recommendations - a reference guide](https://docs.microsoft.com/azure/security-center/recommendations-reference)
