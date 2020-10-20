@@ -19,11 +19,11 @@
 
 # Database Resource Limits Hit
 <!--issueDescription-->
-We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
+We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between <!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime--> and <!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
 
 Due to the limits being reached, you can face the following issues:  
 1. Database Availability/Connectivity Issues (Error 40613)  
-    a. Reaching resource limits on Sub Core SLO’s can cause Out of Memory issues which are often accompanied by severe performance issues, especially when resource limits are hit. These other performance issues can trigger failover and cause unavailability.   
+    a. Reaching resource limits on Sub Core SLO’s can cause Out of Memory issues which are often accompanied by severe performance issues. These other performance issues can trigger failover and cause unavailability.   
 2. Metrics Missing  
     a. The database may remain active, but you may see metrics missing from Azure Portal due to lack of available memory for telemetry processes.
 3. Performance Issues  
