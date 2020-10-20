@@ -17,38 +17,38 @@ ownershipId="Compute_AzureMigrate"
 ---
 
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
-    "title": "Migrate failed for VMware VMs",
-    "fileAttachmentHint": "",
-    "formElements": [  
-          {  "id": "vm_name",
-            "order": 1,
-            "visibility": "null",
-            "controlType": "textbox",
-            "displayLabel": "Provide the name of affected VMware VMs",
-            "watermarkText": "E.g. MyContosoVM",
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": []
-        }
-    ],
-    "$schema": "SelfHelpContent"
+ "subscriptionRequired": true,
+ "resourceRequired": true,
+ "title": "Migrate failed for VMware VMs",
+ "fileAttachmentHint": "",
+ "formElements": [ 
+ { "id": "vm_name",
+ "order": 1,
+ "visibility": "null",
+ "controlType": "textbox",
+ "displayLabel": "Provide the name of affected VMware VMs",
+ "watermarkText": "E.g. MyContosoVM",
+ "required": true
+ },
+ {
+ "id": "problem_start_time",
+ "order": 2,
+ "controlType": "datetimepicker",
+ "displayLabel": "When did the problem begin?",
+ "required": true
+ },
+ {
+ "id": "problem_description",
+ "order": 3,
+ "controlType": "multilinetextbox",
+ "useAsAdditionalDetails": true,
+ "displayLabel": "Additional details",
+ "watermarkText": "Provide additional information about your issue",
+ "required": true,
+ "hints": []
+ }
+ ],
+ "$schema": "SelfHelpContent"
 }
 
 ---
