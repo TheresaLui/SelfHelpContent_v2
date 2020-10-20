@@ -13,14 +13,15 @@ ownershipId="Compute_AzureMigrate"
 />
 
 # Migrating Physical Server/Other Cloud VM
+
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Migrate failed for Physical Servers/Other cloud VMs",
     "fileAttachmentHint": "",
-    "formElements": [     
-         {
+    "formElements": [
+        {
             "id": "vm_name",
             "order": 1,
             "visibility": "null",

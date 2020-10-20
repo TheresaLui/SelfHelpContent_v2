@@ -15,6 +15,7 @@ ownershipId="Compute_AzureMigrate"
 # Migrating VMware VM
 
 ---
+
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
@@ -49,4 +50,5 @@ ownershipId="Compute_AzureMigrate"
     ],
     "$schema": "SelfHelpContent"
 }
+
 ---
