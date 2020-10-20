@@ -36,7 +36,7 @@ Are you facing one of these common problems?
 
 * **Where do I find a sample to deploy to Azure SQL database**
 
-    You can refer this [tutorial](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-sql-database)
+    You can refer this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
 
 
 ## **Recommended Documents**
