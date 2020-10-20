@@ -21,7 +21,7 @@ ownershipId="Compute_AzureMigrate"
  "resourceRequired": true,
  "title": "Migrate failed for VMware VMs",
  "fileAttachmentHint": "",
- "formElements": [ 
+ "formElements": [
  { "id": "vm_name",
  "order": 1,
  "visibility": "null",
