@@ -77,7 +77,7 @@
             "watermarkText":"Choose the level that you are requesting quota for",
             "required": true,
             "includeInQuotaSummary": true,
-            "dropdownOptions": [{
+            "dropdownOptions": [
                 {
                     "value": "sub",
                     "text": "Subscription"
