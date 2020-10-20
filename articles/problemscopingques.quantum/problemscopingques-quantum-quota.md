@@ -105,7 +105,7 @@
             "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_subtype",
+                "dependsOn": "quota_provider",
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/workspaces?api-version=2019-11-04-preview",
                 "jTokenPath":"value",
                 "textProperty":"name, location",
@@ -127,7 +127,7 @@
             "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_provider",
+                "dependsOn": "quota_sublevel",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -161,7 +161,7 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_subtype == workspace-quota && quota_region != null  ||  quota_subtype == provider-quota && quota_workspace != null",
+            "visibility": "quota_region != null || quota_provider_type != null || quota_sublevel == sub",
             "order": 8,
             "controlType": "numerictextbox",
             "displayLabel": "New quota requested - NEED to include isNewQuotaLimit = true",
@@ -176,7 +176,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "quota_subtype != null && new_limit != null && quota_region != dont_know_answer || quota_subtype != null && new_limit != null && quota_workspace != dont_know_answer",
+            "visibility": "(quota_subtype != null && new_limit != null && quota_region != dont_know_answer) || (quota_subtype != null && new_limit != null && quota_workspace != dont_know_answer)",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -185,7 +185,7 @@
         },
         {
             "id": "problem_description_fallback",
-            "visibility": "quota_subtype != null && quota_region == dont_know_answer || quota_subtype != null && quota_workspace == dont_know_answer || quota_subtype != null && quota_provider == dont_know_answer",
+            "visibility": "(quota_subtype != null && quota_region == dont_know_answer) || (quota_subtype != null && quota_workspace == dont_know_answer) || (quota_subtype != null && quota_provider == dont_know_answer)",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
