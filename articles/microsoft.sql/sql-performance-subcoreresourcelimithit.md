@@ -1,33 +1,41 @@
 <properties
-    pageTitle="performance/subcore tiers resource limits hit"
-    description="performance/subcore tiers resource limits hit"
-    infoBubbleText="Found resource limits hit on this subcore DB. See details on the right."
+    pageTitle="Database Resource Limits Hit"
+    description="Sub Core Database Resource Limits Hit"
+    infoBubbleText="We found resource limits hit on this sub core database. See details on the right."
     service="microsoft.sql"
     resource="servers"
-    authors="changslMS"
-    ms.author="changsl"
+    authors="ketho00"
+    ms.author="ketho"
     displayOrder=""
     articleId="Subcore_166C42B9-A932-407E-A9AE-4B454D7986BF"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630434,32630450,32630459"
+    supportTopicIds="32749513,32749514,32749515,32749520,32749526"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# We ran diagnostics on your resource and found resource limits hit.
+# Database Resource Limits Hit
 
 <!--issueDescription-->
-Our internal service telemetry detected that at <!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime--> your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** was using a service tier that provides less than one vCore (CPU), **<!--$Slo-->Slo<!--/$Slo-->**, and the database was hitting resource limits in **<!--$Resources-->Resources<!--/$Resources-->**, during <!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime--> and <!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->.
+We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** 
+on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
+
+Due to the limits being reached, you can face the following issues:  
+1. Database Availability/Connectivity Issues (Error 40613)  
+    a. Reaching resource limits on Sub Core SLO’s can cause Out of Memory issues which are often accompanied by severe performance issues, especially when resource limits are hit. These other performance issues can trigger failover and cause unavailability.   
+2. Metrics Missing  
+    a. The database may remain active, but you may see metrics missing from Azure Portal. This is due to lack of available memory for telemetry processes.
+3. Performance Issues  
+    a. As you have already reached the resource limit threshold, this may impact the overall performance of the database and cause query slowness/timeouts.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+To improve performance, consider the following recommendations:   
+* Upgrade the database to a higher service tier. For more information, go to [vCore and DTU Purchasing Models](https://docs.microsoft.com/en-us/azure/azure-sql/database/purchasing-models)  
+    + If you are unable to scale-up, we recommend you first reduce the workload adn then try again to scale-up the database.  
+* Tune the top resource-consuming queries using [Query Performance Insights](https://docs.microsoft.com/en-us/azure/azure-sql/database/query-performance-insight-use).  
+* Reduce workload demands on the database.
 
-We recommend upgrading the database to a higher service tier **<!--$TargetSlo-->TargetSlo<!--/$TargetSlo-->**, or alternatively, tuning the queries or reducing the overall workload demands.
-
-## **Recommended Documents**
-
-* [Resource limits for single databases using the DTU purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-* [Resource limits for vCore purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
