@@ -5,7 +5,7 @@
     ms.author="dasto"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32740176"
-    productPesIds="15621"
+    productPesIds="17040"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="problemscopingques-quantum-quota"
@@ -22,8 +22,16 @@
     "quotaRequestVersion": "1.0",
     "formElements": [
         {
-            "id": "quota_subtype",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start? - TO BE DELETED",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true
+        },
+        {
+            "id": "quota_subtype",
+            "order": 2,
             "controlType": "radioButtonGroup",
             "displayLabel": "Choose the type of quota you are requesting",
             "watermarkText": null,
@@ -44,7 +52,7 @@
         {
             "id": "quota_provider",
             "visibility": "quota_subtype == provider-quota",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Provider Name",
             "watermarkText":"Choose the provider that you are requesting quota for",
@@ -65,19 +73,23 @@
                 }, {
                     "value": "Quantum Circuits",
                     "text": "Quantum Circuits, Inc."
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not Sure"
                 }
             ]
         },
         {
             "id": "quota_sublevel",
             "visibility": "quota_subtype == workspace-quota",
-            "order": 3,
-            "controlType": "dropdown",
+            "order": 4,
+            "controlType": "radioButtonGroup",
             "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
             "watermarkText":"Choose the level that you are requesting quota for",
             "required": true,
             "includeInQuotaSummary": true,
-            "dropdownOptions": [
+            "radioButtonOptions": [{
                 {
                     "value": "sub",
                     "text": "Subscription"
@@ -91,7 +103,7 @@
         {
             "id": "quota_workspace",
             "visibility": "quota_subtype == provider-quota",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
             "watermarkText":"Choose a workspace",
@@ -114,7 +126,7 @@
         {
             "id": "quota_region",
             "visibility": "quota_subtype == workspace-quota && quota_sublevel == sub",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
             "watermarkText":"Choose a location",
@@ -136,13 +148,13 @@
         {
             "id": "quota_provider_type",
             "visibility": "quota_subtype == provider-quota",
-            "order": 6,
-            "controlType": "dropdown",
+            "order": 7,
+            "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace",
             "required": true,
             "includeInQuotaSummary": true,
-            "dropdownOptions": [{
+            "radioButtonOptions": [{
                     "value": "job-hours",
                     "text": "Monthly Job Hours"
                 }, {
@@ -157,9 +169,9 @@
         {
             "id": "new_limit",
             "visibility": "quota_subtype == workspace-quota ||  quota_subtype == provider-quota",
-            "order": 7,
+            "order": 8,
             "controlType": "numerictextbox",
-            "displayLabel": "New quota requested",
+            "displayLabel": "New quota requested - NEED to include isNewQuotaLimit = true",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
             "required": true,
             "validations": [
@@ -167,27 +179,35 @@
                     "type": "greaterthan",
                     "value": 0
                 }
-                ],
-            "isNewQuotaLimit": true
+            ]
         },
         {
             "id": "business_justification",
             "visibility": "quota_subtype != null && quota_region != dont_know_answer && quota_workspace != dont_know_answer",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
             "required": false
         },
         {
-            "id": "problem_description",
-            "visibility": "quota_subtype != null && quota_region == dont_know_answer || quota_workspace == dont_know_answer",
-            "order": 9,
+            "id": "problem_description_fallback",
+            "visibility": "quota_subtype != null && quota_region == dont_know_answer || quota_subtype != null && quota_workspace == dont_know_answer || quota_subtype != null && quota_provider == dont_know_answer",
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description - TO BE DELETED",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "watermarkText": "Provide additional information about your issue. If available, please include the full error message and any stack traces you are receiving."
         }
     ]
 }
