@@ -71,8 +71,16 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
+            "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
             "dropdownOptions": [
+{
+                    "value": "2008",
+                    "text": "2008"
+                },
+                {
+                    "value": "2005",
+                    "text": "2005"
+                },
                 {
                     "value": "2002",
                     "text": "2002"
@@ -80,14 +88,6 @@
                 {
                     "value": "1910",
                     "text": "1910"
-                },
-                {
-                    "value": "1908",
-                    "text": "1908"
-                },
-                {
-                    "value": "1907",
-                    "text": "1907"
                 },
                 {
                     "value": "Other",
