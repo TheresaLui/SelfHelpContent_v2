@@ -11,7 +11,7 @@
     productPesIds="17378"
     ownershipId="Compute_LogicApps"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="12f415d0-57aa-4ab0-9220-e75272da98be"
+    articleId="63796fad-9167-46c4-8a7f-9d84ad2e91bd"
 />
 
 # Azure Logic Apps - File System
