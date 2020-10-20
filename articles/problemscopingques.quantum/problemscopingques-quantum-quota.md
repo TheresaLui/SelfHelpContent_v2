@@ -33,11 +33,10 @@
             "id": "quota_subtype",
             "order": 2,
             "controlType": "radioButtonGroup",
-            "displayLabel": "Choose the type of quota you are requesting",
+            "displayLabel": "Choose the type of quota you are requesting - need to includeInQuotaSummary",
             "watermarkText": null,
             "required": "true",
             "filter": false,
-            "includeInQuotaSummary": true,
             "radioButtonOptions": [
                 {
                     "text": "Provider Quota (concurrent jobs, job hours, etc.)",
@@ -55,9 +54,8 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Provider Name",
-            "watermarkText":"Choose the provider that you are requesting quota for",
+            "watermarkText":"Choose the provider that you are requesting quota for - need to includeInQuotaSummary",
             "required": true,
-            "includeInQuotaSummary": true,
             "dropdownOptions": [{
                     "value": "1Qloud",
                     "text": "1Qloud Optimization Platform"
@@ -86,9 +84,8 @@
             "order": 4,
             "controlType": "radioButtonGroup",
             "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
-            "watermarkText":"Choose the level that you are requesting quota for",
+            "watermarkText":"Choose the level that you are requesting quota for - need to includeInQuotaSummary",
             "required": true,
-            "includeInQuotaSummary": true,
             "radioButtonOptions": [
                 {
                     "value": "sub",
@@ -106,9 +103,8 @@
             "order": 5,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
-            "watermarkText":"Choose a workspace",
+            "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
             "required": true,
-            "includeInQuotaSummary": true,
             "dynamicDropdownOptions": {
                 "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/workspaces?api-version=2019-11-04-preview",
@@ -129,9 +125,8 @@
             "order": 6,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
-            "watermarkText":"Choose a location",
+            "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
-            "includeInQuotaSummary": true,
             "dynamicDropdownOptions": {
                 "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
@@ -151,9 +146,8 @@
             "order": 7,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
-            "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace",
+            "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace - need to includeInQuotaSummary",
             "required": true,
-            "includeInQuotaSummary": true,
             "radioButtonOptions": [{
                     "value": "job-hours",
                     "text": "Monthly Job Hours"
@@ -195,10 +189,9 @@
             "visibility": "quota_subtype != null && quota_region == dont_know_answer || quota_subtype != null && quota_workspace == dont_know_answer || quota_subtype != null && quota_provider == dont_know_answer",
             "order": 10,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request",
+            "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
             "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "required": true
         },
         {
             "id": "problem_description",
