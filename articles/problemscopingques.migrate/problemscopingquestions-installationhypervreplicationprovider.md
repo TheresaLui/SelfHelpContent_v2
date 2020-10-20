@@ -1,15 +1,15 @@
 <properties
-    pageTitle="Scoping questions for deployment issues with Hyper-V Replication Provider"
-    description="Scoping questions for deployment issues with Hyper-V Replication Provider"
-    authors="An-mol"
-    ms.author="anvar"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32755161"
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    schemaVersion="1"
-    articleId="16626ewq-bb1d-4ed4-baf2-9d659b578d89"
-	ownershipId="Compute_AzureMigrate"
+pageTitle="Scoping questions for deployment issues with Hyper-V Replication Provider"
+description="Scoping questions for deployment issues with Hyper-V Replication Provider"
+authors="An-mol"
+ms.author="anvar"
+selfHelpType="problemScopingQuestions"
+supportTopicIds="32755161"
+productPesIds="16348"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+schemaVersion="1"
+articleId="16626ewq-bb1d-4ed4-baf2-9d659b578d89"
+ownershipId="Compute_AzureMigrate"
 />
 
 # Installing the Hyper-V replication provider

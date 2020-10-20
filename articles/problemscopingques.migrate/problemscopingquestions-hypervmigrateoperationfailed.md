@@ -1,15 +1,15 @@
 <properties
-    pageTitle="Scoping questions for Hyper-V migrate operation failed"
-    description="Scoping questions for Hyper-V migrate operation failed"
-    authors="An-mol"
-    ms.author="anvar"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32755162"
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    schemaVersion="1"
-    articleId="16626ewq-b2wd-4ed4-baf2-9d659b578d89"
-	ownershipId="Compute_AzureMigrate"
+pageTitle="Scoping questions for Hyper-V migrate operation failed"
+description="Scoping questions for Hyper-V migrate operation failed"
+authors="An-mol"
+ms.author="anvar"
+selfHelpType="problemScopingQuestions"
+supportTopicIds="32755162"
+productPesIds="16348"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+schemaVersion="1"
+articleId="16626ewq-b2wd-4ed4-baf2-9d659b578d89"
+ownershipId="Compute_AzureMigrate"
 />
 
 # Migrating Hyper-V VM
