@@ -21,7 +21,6 @@ This Managed Connector is used to connect to your Twitter account so that you ca
 ## Twitter Connector Overview
 
 - [Twitter](https://docs.microsoft.com/connectors/twitter/?WT.mc_id=Portal-Microsoft_Azure_Support)
-- [Monitor and manage Twitter by using Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-twitter?WT.mc_id=Portal-Microsoft_Azure_Support)
 
 ## Use Twitter Connector
 
