@@ -22,9 +22,9 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 
 ## Installation
 - [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
--      [Multi-tenant Azure prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#multi-tenant-azure-prerequisites) 
--      [Integration service environment (ISE) prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#integration-service-environment-ise-prerequisites)
--      [SNC Secure Network Communications prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#secure-network-communications-prerequisites)
+- [Multi-tenant Azure prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#multi-tenant-azure-prerequisites) 
+-[Integration service environment (ISE) prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#integration-service-environment-ise-prerequisites)
+- [SNC Secure Network Communications prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#secure-network-communications-prerequisites)
 
 
 ## **Recommended Documents**
