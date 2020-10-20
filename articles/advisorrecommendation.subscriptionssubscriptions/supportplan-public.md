@@ -6,7 +6,7 @@
     articleId="8189a205-7f30-4f97-90ab-230519248722_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="CloudES_AzureSupportCenter"
+    ownershipId="CloudES_AzureAdvisor"
 />
 # Upgrade to a support plan that includes technical support
 ---
@@ -17,7 +17,7 @@
     "schemaVersion": 1.0,
     "streamNamespace": "AzureAdvisor.SupportPlan",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "0.23:59:59"
   },
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/azuresupport",
   "description": "Upgrade to a support plan that includes technical support",
   "longDescription": "We recommend upgrading your support plan to include technical support. Explore the range of Azure support options and choose the plan that best fits, whether you're a developer just starting your cloud journey or a large organization deploying business-critical, strategic applications.",

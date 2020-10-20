@@ -30,9 +30,9 @@ As demand continues to grow, if we are faced with any capacity constraints in an
 
 As per the continuity plan, you may run into capacity constraints when performing the following operations:
 
-1. Provision/Create a new Cosmos DB Account(including Free-Tier account).
+1. Provision/Create a new Cosmos DB Account(including Free-Tier account)
 2. Adding a region to an existing Cosmos DB Account
-3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet.
+3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
@@ -71,11 +71,15 @@ If you are not able to delete a resource group, please consider the following so
 
 With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET:
 
-* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency.
+* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency
 
 ### **Find out who made changes to an Azure Cosmos DB account**
 
 If you are looking to find out who or when changes were made to your Cosmos DB account or get alerts when specific changes are made, you can enable this capability in Cosmos DB. Learn more at [How to audit Azure Cosmos DB control plane operations](https://docs.microsoft.com/azure/cosmos-db/audit-control-plane-logs).
+
+### **Azure Policy was not honored**
+
+Policies that are created using Azure Policy only apply to changes made against the Cosmos DB resource provider. To ensure enforcement of Azure Policies, the account must be locked down to prevent changes by users accessing the account using any of the Cosmos DB SDKs. For more information on how to configure your account to ensure Azure Policy enforcement see, [Preventing changes from Azure Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#prevent-sdk-changes).
 
 ## **Recommended Documents**  
 
