@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32747928"
 	productPesIds="17124"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="7d321539-451c-4ef0-94da-d2cc2343195a"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
@@ -50,11 +50,29 @@
 			],
 			"required": true
 		}, {
-			"id": "whatscale",
+			"id": "what_scale",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What are you trying to scale (Min vCore, Max vCore, Min memory, Max Memory)?",
-			"required": false
+			"controlType": "dropdown",
+			"displayLabel": "What are you trying to scale?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Min vCore",
+					"text": "Min vCore"
+				}, {
+					"value": "Max vCore",
+					"text": "Max vCore"
+				}, {
+					"value": "Min memory",
+					"text": "Min memory"
+				}, {
+					"value": "Max Memory",
+					"text": "Max Memory"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
 		}, {
 			"id": "scaleupdown",
 			"order": 5,
