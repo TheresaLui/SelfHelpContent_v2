@@ -73,7 +73,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Not Sure"
+                    "text": "Not Sure / Not Listed"
                 }
             ]
         },
@@ -98,7 +98,7 @@
         },
         {
             "id": "quota_workspace",
-            "visibility": "quota_subtype == provider-quota",
+            "visibility": "quota_subtype == provider-quota && quota_provider != null",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
@@ -120,14 +120,14 @@
         },
         {
             "id": "quota_region",
-            "visibility": "quota_subtype == workspace-quota && quota_sublevel == sub",
+            "visibility": "quota_subtype == workspace-quota && quota_sublevel == region",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
             "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_subtype",
+                "dependsOn": "quota_provider",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -141,7 +141,7 @@
         },
         {
             "id": "quota_provider_type",
-            "visibility": "quota_subtype == provider-quota",
+            "visibility": "quota_subtype == provider-quota && quota_workspace != null",
             "order": 7,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
@@ -161,7 +161,7 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_subtype == workspace-quota ||  quota_subtype == provider-quota",
+            "visibility": "quota_subtype == workspace-quota && quota_region != null  ||  quota_subtype == provider-quota && quota_workspace != null",
             "order": 8,
             "controlType": "numerictextbox",
             "displayLabel": "New quota requested - NEED to include isNewQuotaLimit = true",
@@ -176,7 +176,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "quota_subtype != null && quota_region != dont_know_answer && quota_workspace != dont_know_answer",
+            "visibility": "quota_subtype != null && new_limit != null && quota_region != dont_know_answer || quota_subtype != null && new_limit != null && quota_workspace != dont_know_answer",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
