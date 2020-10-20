@@ -5,7 +5,7 @@
     ms.author="dasto"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32740176"
-    productPesIds="17040"
+    productPesIds="15621"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="problemscopingques-quantum-quota"
