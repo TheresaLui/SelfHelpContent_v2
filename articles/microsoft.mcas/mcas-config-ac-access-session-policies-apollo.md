@@ -18,7 +18,7 @@
 
 ## Troubleshooting access and session policies in Cloud App Security
 
-Access and Session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
+Access and session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
 Use the troubleshooting guide, and relevant how-to videos to resolve the following issues: 
 - I'm getting an error when trying to create policies
 - My access or session policy is not enforced as expected
@@ -52,9 +52,9 @@ Use the troubleshooting guide, and relevant how-to videos to resolve the followi
         <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=16</src>
         <title>How to configure a policy to block uploads in real-time</title>
     </video>
-<videoGroup>
+</videoGroup>
 
-## **Recommended Documents**
+## **More resources**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad)
