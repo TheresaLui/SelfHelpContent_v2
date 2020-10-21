@@ -19,13 +19,13 @@
 ## Troubleshooting access and session policies in Cloud App Security
 
 Access and session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
-Use the troubleshooting guide, and relevant how-to videos to resolve the following issues: 
+Follow the troubleshooting guide, and how-to videos to resolve the following issues: 
 - I'm getting an error when trying to create policies
 - My access or session policy is not enforced as expected
 
 :::Section Recommended Solution:::
 
-## **Recommended Steps**
+### Recommended steps
 
 1. If you are using Azure Active Directory, in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected.
 
@@ -37,8 +37,7 @@ Use the troubleshooting guide, and relevant how-to videos to resolve the followi
 - To view the tutorial on how to block downloads, see [Tutorial on how to block downloads of sensitive information](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 - To view the troubleshooting guide, see [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy)
 
-## Follow the instructions in the how-to videos below to resolve your issue
-
+### Configure access and policies using the how-to videos below:
 <videoGroup>
     <video>
         <src>https://www.youtube.com/watch?v=DyC0eV_pMhs&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=14</src>
@@ -54,10 +53,8 @@ Use the troubleshooting guide, and relevant how-to videos to resolve the followi
     </video>
 </videoGroup>
 
-## **More resources**
+### More resources
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad)
 - [Session policies](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-
-If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
