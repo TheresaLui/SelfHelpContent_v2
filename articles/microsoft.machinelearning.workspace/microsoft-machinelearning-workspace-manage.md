@@ -2,7 +2,7 @@
   pagetitle="Problem provisioning or managing workspace"
   service="microsoft.machinelearning.workspace"
   resource="machinelearning"
-  ms.author="johwu"
+  ms.author="johwu,roastala"
   selfhelptype="Generic"
   supporttopicids="32690836"
   resourcetags=""
@@ -24,15 +24,17 @@ See the following documents for instructions on provisioning workspaces:
 See the following documents for instructions on advanced workspace settings:
 
 * [Network security](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview) 
-  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype.
+  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype
 
 * [Data encryption](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security#data-encryption) 
-  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype.
+  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype
 
 * [Role-based access control (RBAC)](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
-  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype.
+  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype
 
 For setting up private endpoints on customer-managed key vaults, container registries, or Kubernetes clusters, see [managing quotas, private endpoints and private DNS quota increases](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#private-endpoint-and-private-dns-quota-increases) and submit your request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
+
+For using managed identities and accessing Azure Container Registry without admin user, see [Use Managed identities with Azure Machine Learning (preview)](https://docs.microsoft.com/azure/machine-learning/how-to-use-managed-identities).
 
 ## **Recommended Documents**
 
