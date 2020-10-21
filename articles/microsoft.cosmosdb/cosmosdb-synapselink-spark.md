@@ -64,7 +64,7 @@ You might experience some slowness in the Spark job that can be due to:
 
 
 **Solution**  
-If you have access to SQL serverless support for Synapse Link, we recommend to create a view over the Azure Cosmos DB container that you want to access.  
+Use SQL serverless support for Synapse Link to create a view over the Azure Cosmos DB container that you want to access.  
 
 ### **Data is not refreshing**
 In the case of **loading to Spark DataFrame**, the fetched metadata is cached through the lifetime of the Spark session and hence subsequent actions invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.  
