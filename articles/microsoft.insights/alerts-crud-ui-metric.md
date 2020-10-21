@@ -53,11 +53,14 @@ If you are running into issues creating, updating or deleting metric alert rules
     * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
 
+8. For more troubleshooting information about metric alerts, see [Troubleshooting problems in Azure Monitor metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric).
+
 ### **Advisory and How-To**
 
 [![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
 
 ## **Recommended Documents**
 
-* [How metric alerts work](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview)<br>
+* [How metric alerts work](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview)
 * [Create, view, and manage metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)
+* [Troubleshooting problems in Azure Monitor metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric)
