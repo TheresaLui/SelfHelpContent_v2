@@ -112,7 +112,7 @@
     },
     {
       "name": "MaxTotalNetworkP95",
-      "title":"Network (%)"
+      "title": "Network (%)"
     }, 
     {
       "name": "MaxMemoryP95",
