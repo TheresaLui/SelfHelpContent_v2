@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32743962"
 	productPesIds="17125"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="5d5d27ad-b608-4b50-8d20-055e4eb4d857"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
@@ -29,7 +29,6 @@
 			"id": "kubernetes_distribution",
 			"order": 2,
 			"controlType": "dropdown",
-			"infoBalloonText": "string",
 			"displayLabel": "What distribution of Kubernetes are you using?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
@@ -60,14 +59,12 @@
 			"id": "azure_data_controller_version",
 			"order": 3,
 			"controlType": "textbox",
-			"infoBalloonText": "string",
 			"displayLabel": "What version of Azure Data Controller are you using? \n Use 'azdata arc dc config show |grep imageTag' to obtain",
 			"required": true
 		},{
 			"id": "client_tool",
 			"order": 4,
 			"controlType": "dropdown",
-			"infoBalloonText": "string",
 			"displayLabel": "What client tool did you use to create the instance?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{

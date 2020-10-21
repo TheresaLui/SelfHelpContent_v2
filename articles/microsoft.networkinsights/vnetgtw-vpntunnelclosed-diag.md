@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Virtual Network Gateway were detected. See deta
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="VNGSeamlessVPNTunnelClosedInsightInsight"
 diagnosticScenario="VNGSeamlessVPNTunnelClosedInsightInsight"
@@ -17,9 +18,11 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # The Virtual Network Gateway has disconnected
 <!--issueDescription-->
-We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of  **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** had the VPN tunnel to peer **<!--$match.IpAddress-->[match.IpAddress]<!--/$match.IpAddress-->** disconnected due to '**<!--$match.Reason-->[match.Reason]<!--/$match.Reason-->**'.
+We have identified that your Virtual Network Gateway for Vnet, **<!--$vnetName-->vnetName<!--/$vnetName-->** with a VIP of  **<!--$gatewayVip-->gatewayVip<!--/$gatewayVip-->** had the VPN tunnel to peer **<!--$ipAddress-->ipAddress<!--/$ipAddress-->** disconnected due to '**<!--$reason-->reason<!--/$reason-->**'.
 <!--/issueDescription-->
-## **Issue Details & Recommendations**
+
+## **Recommended Steps**
+
 We are reviewing the current connection state to verify the issue is still occurring. If you would prefer to forfeit a detailed root cause analysis and expedite the resolution of connectiviy consider removing and re-creating the VPN Connection in the [Azure portal](http://portal.azure.com) and [resetting the gateway/s](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic) on both sides of the tunnel. 
 
 We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect issues proactively. To enable Metrics: 
