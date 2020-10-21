@@ -28,6 +28,13 @@
             "displayLabel": "When did the problem start?",
             "required": true
         },
+        {
+            "id": "latest_occurrence",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest occurrence of the issue?",
+            "required": true
+        },
 	{
             "id": "frequency",
             "order": 3,
