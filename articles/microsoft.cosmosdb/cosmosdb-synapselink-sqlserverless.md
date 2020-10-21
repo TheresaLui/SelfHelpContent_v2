@@ -25,9 +25,9 @@ Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issu
 
 Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
-## **Recommended Steps**  
+## Can't load data into Cosmos DB using SQL Serverless  
 
-Synapse SQL Serverless is currently under gated preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*. 
+Synapse SQL Serverless is read only.   
 
 <br>
 
