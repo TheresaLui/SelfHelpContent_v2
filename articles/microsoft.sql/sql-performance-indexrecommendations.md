@@ -20,12 +20,12 @@
 # We found automatic indexing recommendations for your database
 
 <!--issueDescription-->
-We detected automatic tuning recommendations on the database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on the server **<!--$ServerName-->ServerName<!--/$ServerName-->**. Creating the recommended indexes or modifying existing indexes to reflect the create index recommendations may improve database performance.
+We detected automatic indexing recommendations on the database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on the server **<!--$ServerName-->ServerName<!--/$ServerName-->**. Creating the recommended indexes, or modifying existing indexes to reflect the create index recommendations, may improve database performance.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Apply the index recommendations for potential performance improvements:  
+To potentially improve your database performance, apply the index recommendations:
 1. Go to Azure portal > All services > SQL databases  
 2. Select database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**  
 3. Click on Performance Recommendations  
@@ -37,7 +37,7 @@ Apply the index recommendations for potential performance improvements:
 
 Depending on the estimated performance gain, recommendations are categorized as high, medium, or low. Adding new indexes will increase storage usage and can impact data modification performance.  
   
-See the referenced articles for more details.
+For more details, see the referenced articles below.
 
 ## **Recommended Documents**
 
