@@ -8,7 +8,7 @@
          productPesIds="16348"
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
-         articleId="5sd0e5a6-4466-77c7-98bf-70918fcee123"
+         articleId="5saae5a6-4466-77c7-98bf-70918fcee123"
 	ownershipId="Compute_AzureMigrate"
 />
 
