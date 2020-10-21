@@ -41,7 +41,7 @@ In the public preview release, Synapse Link is supported only for Azure Cosmos D
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 
 The analytical store can be queried and analyzed using:
 * Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
-* SQL serverless (currently under private preview) with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
+* SQL serverless with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
 
 ### Is analytical store supported by Terraform?  
 
