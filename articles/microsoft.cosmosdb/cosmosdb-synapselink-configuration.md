@@ -49,10 +49,6 @@ Currently, after the Synapse Link capability is enabled at the account level, yo
 
 If you need to turn off the capability, you have 2 options. The first one is to delete and re-create a new Azure Cosmos DB account, migrating the data if necessary. The second option is to open a support ticket, to get help on a data migration to another account.
 
-### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**
-
-Synapse SQL Serverless is currently under private preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.  
-
 ## **Recommended Documents**
 
 [Configure and use Azure Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link)
