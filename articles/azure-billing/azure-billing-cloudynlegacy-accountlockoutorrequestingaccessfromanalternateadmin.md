@@ -36,7 +36,7 @@ Learn more:
 * [Delete or export personal data](https://docs.microsoft.com/azure/cost-management/tutorial-user-access#delete-or-export-personal-data)
 * [Create and manage entities](https://docs.microsoft.com/azure/cost-management/tutorial-user-access#create-and-manage-entities)
 
-All free trial users can refer to [Cloudyn MSDN forum](https://social.msdn.microsoft.com/Forums/home?forum=Cloudyn) or [Cloudyn Azure docs](https://docs.microsoft.com/azure/cost-management-billin/cloudyn/overview).
+All free trial users can refer to [Cloudyn MSDN forum](https://social.msdn.microsoft.com/Forums/home?forum=Cloudyn) or [Cloudyn Azure docs](https://docs.microsoft.com/azure/cost-management-billing/cloudyn/overview).
 
 **Note**: Cloudyn is retired and migrated to Azure Cost Management for all the EA and Web-Direct customers. All customers who were not using Cloudyn has been suspended and **cannot be activated anymore**, the only option they have is to switch to Azure Cost Management.<br>
 
@@ -47,7 +47,7 @@ Azure Cost Management (ACM) is a cost management solution integrated natively in
 Transitioning from Cloudyn system to Azure Cost Management is straightforward. Follow the steps below to help transition:
 
 * Go through the [How to Transition from Cloudyn to Azure Cost Management](https://www.youtube.com/watch?v=uZK6sJpy7Mk&feature=youtu.be) video guide
-* If you still have questions, please review the Azure Cost Management Overview, the [Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/cost-management-billing-overview), and [Cost Management videos](https://www.youtube.com/playlist?list=PLLasX02E8BPBJW49E5_sHgbgvztb4oz6D)
+* If you still have questions, please review the Azure Cost Management Overview, the [Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview), and [Cost Management videos](https://www.youtube.com/playlist?list=PLLasX02E8BPBJW49E5_sHgbgvztb4oz6D)
 
 ## **Recommended Documents**
 
