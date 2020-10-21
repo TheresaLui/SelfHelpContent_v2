@@ -58,13 +58,13 @@
 			"order":5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
-			"watermarkText": "Describe what is the problem you are facing",
+			"watermarkText": "Describe the problem you are facing",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Details"
 				}, {
-					"text": "Describe what is the problem you are facing. What version of azureml-dataprep SDK is installed? What is your VNET setting if your storge is behind VNET? (More details can help us understand the problem better)"
+					"text": "Describe the problem you are facing. What version of azureml-dataprep SDK is installed? What is your VNET setting if your storge is behind VNET? More details can help us understand the problem better."
 				}
 			]
 		}
