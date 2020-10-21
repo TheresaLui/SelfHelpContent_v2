@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "f78c8e26-9c40-4a74-a091-f76aecb49099",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://azurecxpcre.kusto.windows.net').database('CXPCREGeneral').p2shighconnectioncountfairfax",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwmds').p2shighconnectioncountfairfax",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
