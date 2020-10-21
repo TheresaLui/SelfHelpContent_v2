@@ -21,7 +21,7 @@
 
 <!--issueDescription-->
 We detected that your database, **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** hit resource limits in **<!--$Resources-->Resources<!--/$Resources-->** between **<!--$CustomizedStartTime-->CustomizedStartTime<!--/$CustomizedStartTime-->** and **<!--$CustomizedEndTime-->CustomizedEndTime<!--/$CustomizedEndTime-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->**, which provides less than one vCore of CPU.  
-
+<!--/issueDescription-->
 Due to the limits being reached, you can face the following issues:  
 * Database Availability/Connectivity Issues (Error 40613)  
     + Reaching resource limits on databases with less than one vCore of CPU can cause Out of Memory issues which are often accompanied by severe performance issues. These other performance issues can trigger failover and cause unavailability.   
@@ -29,7 +29,6 @@ Due to the limits being reached, you can face the following issues:
     + The database may remain active, but you may see metrics missing from Azure Portal due to lack of available memory for telemetry processes.
 * Performance Issues  
     + Reaching resource limits may impact the overall performance of the database and cause query slowness and timeouts.
-<!--/issueDescription-->
 
 ## **Recommended Steps**
 To improve performance, consider the following recommendations:   
