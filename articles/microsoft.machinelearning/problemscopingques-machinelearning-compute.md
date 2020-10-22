@@ -1,27 +1,27 @@
 <properties
-	pageTitle="problemscopingquestions machinelearning compute instance"
-	description="Problem creating, managing or accessing compute instance - scoping questions"
+	pageTitle="problemscopingquestions machinelearning compute"
+	description="Compute cluster in a bad state - scoping questions"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="SturgeonMi"
-	ms.author="vijetajo"
+	ms.author="brendalee"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745197,32745198,32690861"
+	supportTopicIds="32690842,32690843"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="problemscopingquestions-machinelearning-computeinstance"
+	articleId="problemscopingquestions-machinelearning-compute"
 	ownershipID="AzureML_AzureMachineLearningServices"
 />
 
 
-# Problem creating, managing or accessing compute instance - scoping questions
+# Compute cluster in a bad state - scoping questions
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Problem creating, managing or accessing compute instance - scoping questions",
+    "title": "Compute cluster in a bad state - scoping questions",
     "fileAttachmentHint": "",
     "formElements":
     [
@@ -33,22 +33,29 @@
             		"required": false
         },
 		{
-			"id": "problem_computeinstancename",
+			"id": "problem_computename",
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "What is the name of the compute resource?",
 			"required": true
 	},
 		{
-			"id": "problem_storagevnet",
+			"id": "problem_vnetnsgrules",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Is the workspace storage account attached to a virtual network?",
+			"displayLabel": "In case of creation in a virtual network, can you provide the NSG rules you have?",
+			"required": false
+	},
+  {
+			"id": "problem_SDKver",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What version of SDK are you using??",
 			"required": false
 	},
 		{
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
@@ -64,5 +71,4 @@
 	]
 }
 ---
-
 
