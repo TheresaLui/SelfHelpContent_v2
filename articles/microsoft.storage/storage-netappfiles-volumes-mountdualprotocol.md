@@ -20,7 +20,7 @@
 ## **Recommended Steps**
 
 1. Make sure that Active Directory is running and the specified DNS servers must be reachable from the delegated subnet of Azure NetApp Files. 
-2. Make sure proper root certificate is added in AD connection in NetApp account and reverse llok up zones are updated. Refer to [Troubleshoot dual protocol volumes](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-dual-protocol-volumes) for more information.
+2. Make sure proper root certificate is added in AD connection in NetApp account and reverse lookup zones are updated. Refer to [Troubleshoot dual protocol volumes](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-dual-protocol-volumes) for more information.
 3. Ensure that the NFS client is up to date and running the latest updates for the operating system. Refer to [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/configure-nfs-clients) for more information.
 
 ## **Recommended Documents**
