@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
          description="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
-         authors="An-mol"
+         authors="anvar-ms"
         ms.author="anvar"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32755160"
