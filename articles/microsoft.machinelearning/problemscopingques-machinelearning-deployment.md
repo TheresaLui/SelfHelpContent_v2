@@ -30,7 +30,7 @@
             		"required": true
         },
         {
-            "id" : "workspace_behind_vnet"
+            "id" : "workspace_behind_vnet",
                     "order" : 2,
                     "contorlType" : "textbox"
                     "displayLabel" : "Are the workspace resources (storage, ACR) behind VNet?",
