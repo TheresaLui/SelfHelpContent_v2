@@ -20,9 +20,9 @@ Managing your integration service environment (ISE) network health in Azure Logi
 
 If you use ExpressRoute, which provides a private connection to Microsoft cloud services that's facilitated by the connectivity provider, you must create a route table that has the following route and link that table to each subnet that's used by your ISE:
 
-Name: < route-name >
-Address prefix: 0.0.0.0/0
-Next hop: Internet
+Name: < route-name ><BR>
+Address prefix: 0.0.0.0/0<BR>
+Next hop: Internet<BR>
 
 ## **Recommended Documents**
 
