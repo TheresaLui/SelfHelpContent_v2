@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
          description="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
-         authors="An-mol"
+         authors="anvar-ms"
         ms.author="anvar"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32755159"
@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="9398f098-8c04-4de6-a4db-59967qw805ea"
+        ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with appliance for physical servers (Configuration Server)
