@@ -34,17 +34,17 @@
             "id": "problem_description",
 			    "order": 2,
 			    "controlType": "multilinetextbox",
-			    "displayLabel": "Attachment",
+			    "displayLabel": "Additional Details",
 			    "watermarkText": "Please provide additional details you think are important",
 			    "required": true,
 			    "useAsAdditionalDetails": true,
 			    "hints": [{
-					"text": "Please attach `service.get_logs()`"
+					"text": "Please upload service.get_logs()"
 				}, {
-					"text": "Please attach scoring script"
+					"text": "Please upload scoring script"
 				},
                 {
-                     "text" : "Please attach screenshot of your error"
+                     "text" : "Please upload screenshot of your error"
                 }]
            }
     ]
