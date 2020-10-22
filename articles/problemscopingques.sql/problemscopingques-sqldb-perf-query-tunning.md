@@ -90,45 +90,6 @@
             "required": true
         },
         {
-            "id": "is_span_multiple_db",
-            "order": 35,
-            "controlType": "radioButtonGroup",
-            "displayLabel": "Does the query span multiple databases?",
-            "watermarkText": "Choose an option",
-            "radioButtonOptions": [
-                {
-                    "value": "multiple_db_no",
-                    "text": "No. The query executes against a single database"
-                },
-                {
-                    "value": "multiple_db_yes",
-                    "text": "Yes. The query executes against multiple databases"
-                }
-            ]
-        },
-       {
-            "id" : "is_span_multiple_db_span_multiple",
-            "order" : 36,
-            "visibility" : "is_span_multiple_db == multiple_db_yes",
-            "controlType" : "dropdown",
-            "dropdownOptions": [
-                {
-                    "value": "single_instance",
-                    "text": "No. The query executes within a single Azure SQL Database"
-                },
-                {
-                    "value": "multiple_instance",
-                    "text": "Yes"
-                },
-                    {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "displayLabel" : "Does the query span multiple Azure SQL Databases?",
-            "required": true
-        },
-        {
             "id": "baseline_exists",
             "order": 40,
             "controlType": "dropdown",
