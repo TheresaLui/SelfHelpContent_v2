@@ -1,26 +1,22 @@
 <properties
-    pageTitle="Enterprise Connector - SAP"
-    description="Enterprise Connector - SAP"
-    service="microsoft.logicapps"
-    resource="logicapps"
-    authors="v-miegge"
-    ms.author="kawilson"
-    selfHelpType="generic"
-    supportTopicIds="32742543"
-    resourceTags=""
-    productPesIds="15791"
-    ownershipId="Compute_LogicApps"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="304283a0-eb74-4131-9d70-845ef05e5abc"
-/>
-
+  pagetitle="Enterprise Connector - SAP"
+  service="microsoft.logicapps"
+  resource="logicapps"
+  ms.author="kawilson"
+  selfhelptype="Generic"
+  supporttopicids="32742543"
+  resourcetags=""
+  productpesids="15791"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake"
+  articleid="304283a0-eb74-4131-9d70-845ef05e5abc"
+  ownershipid="Compute_LogicApps" />
 # Enterprise Connector - SAP
 
 The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises or hosted in Azure Virtual Machine. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud. The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
 
 * [How to connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
 
-### Installation
+## Installation
 
 - [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
 - [Multi-tenant Azure prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#multi-tenant-azure-prerequisites) 
@@ -35,4 +31,3 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 - [Specify the language for the connection to SAP with Logic Apps](https://www.linkedin.com/pulse/specify-language-connection-sap-logic-apps-david-burg/)
 - [Large request upcoming support for Azure Logic App SAP Connector](https://docs.microsoft.com/archive/blogs/david_burgs_blog/large-request-upcoming-support-for-azure-logic-app-sap-connector)
 - [Logic App SAP connector all the logs to capture for troubleshooting and requesting support](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-app-sap-connector-all-the-logs-to-capture-for-troubleshooting-and-requesting-support)
-
