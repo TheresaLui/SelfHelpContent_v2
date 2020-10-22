@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Environment build fails"
-	description="Environment build fails"
+	pageTitle="Environment scoping questions"
+	description="Environment scoping questions"
 	ms.author="sagopal"
 	supportTopicIds="32755203, 32690887, 32755204, 32755205, 32755206"
 	productPesIds="16644"
