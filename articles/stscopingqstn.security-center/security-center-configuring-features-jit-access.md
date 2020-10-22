@@ -99,5 +99,4 @@ JIT Connect provides three parameters to configure: **IP Address**, **Port** and
 
 * [Understanding just-in-time (JIT) VM access](https://docs.microsoft.com/azure/security-center/just-in-time-explained)
 * [Secure your management ports with just-in-time access](https://docs.microsoft.com/azure/security-center/security-center-just-in-time)
-* [Automate JIT request with PowerShell](https://charbelnemnom.com/2018/10/version-2-automate-just-in-time-vm-access-request-with-powershell-azurerm-security-powershell/)
 * Blog: [Why developers should enable JIT VM Access](https://azure.microsoft.com/blog/why-developers-should-enable-azure-security-center-s-just-in-time-vm-access/)
