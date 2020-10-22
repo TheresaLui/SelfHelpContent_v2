@@ -158,12 +158,11 @@
             ]
         },
         {
-            "id": "new_limit",
-            "visibility": "quota_provider_type != null || quota_sublevel != null",
+            "id": "quota_new_limit",
             "order": 8,
-            "controlType": "textbox",
+            "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
-            "infoBalloonText": "Put the new value for the limit you are requesting here.",
+            "watermarkText": "Please specify what number you would like the specified quota type raised to.",
             "required": true,
             "validations": [
                 {
@@ -179,7 +178,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "(new_limit != null && quota_region != dont_know_answer) || (new_limit != null && quota_workspace != dont_know_answer)",
+            "visibility": "(quota_new_limit != null && quota_region != dont_know_answer) || (quota_new_limit != null && quota_workspace != dont_know_answer)",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
