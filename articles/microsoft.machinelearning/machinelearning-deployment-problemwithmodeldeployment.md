@@ -18,7 +18,6 @@
 # Problem with Model Deployment
 
 Most users are able to resolve deployment issues using the steps below. 
-There are four sections in this article - Troubleshooting failed deployment, Reference to Python SDK, How-to guide, Helpful articles and recommended documents.
 
 ## **Recommended Steps**
 
