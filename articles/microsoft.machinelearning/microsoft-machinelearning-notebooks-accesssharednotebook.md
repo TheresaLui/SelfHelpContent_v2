@@ -44,7 +44,7 @@ If you are using Custom roles:
 
 **Note:** Owner, contributor, or [custom role](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles#q-what-are-the-permissions-needed-to-perform-some-common-scenarios-in-the-azure-machine-learning-service) is the minimum level of access to view a shared Notebook. 
 
-## **Recommended Documentation**
+## **Recommended Documents**
 
 If you are experiencing issues with Studio Notebooks, here is a list of resources which may be helpful:
 
