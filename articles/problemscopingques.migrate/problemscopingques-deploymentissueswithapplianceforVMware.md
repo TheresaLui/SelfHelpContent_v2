@@ -4,20 +4,20 @@
          authors="An-mol"
         ms.author="anvar"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32755159"
+         supportTopicIds="32755160"
          productPesIds="16348"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="9398f098-8c04-4de6-a4db-59967qw805ea"
+         articleId="9398f098-8c04-4de6-a4db-599612w805ea"
 />
 
-# Deployment issues with appliance for physical servers (Configuration Server)
+# Deployment issues with appliance for VMware servers (Configuration Server)
 
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Deployment issues with appliance for physical servers (Configuration Server)",
+    "title": "Deployment issues with appliance for VMware servers (Configuration Server)",
     "fileAttachmentHint": "",
     "formElements": [
         {
