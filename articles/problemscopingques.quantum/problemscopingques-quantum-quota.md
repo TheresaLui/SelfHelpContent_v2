@@ -105,7 +105,6 @@
             "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_provider",
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/workspaces?api-version=2019-11-04-preview",
                 "jTokenPath":"value",
                 "textProperty":"name, location",
@@ -127,11 +126,9 @@
             "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
-                "textTemplate":"{displayName}",
                 "ValueProperty":"name",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
