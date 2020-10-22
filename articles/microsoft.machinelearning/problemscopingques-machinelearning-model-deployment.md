@@ -35,7 +35,7 @@
 			    "order": 2,
 			    "controlType": "multilinetextbox",
 			    "displayLabel": "Additional Details",
-			    "watermarkText": "Please provide additional details you think are important",
+			    "watermarkText": "Please provide additional details, description of the issue",
 			    "required": true,
 			    "useAsAdditionalDetails": true,
 			    "hints": [{
