@@ -159,6 +159,7 @@
         },
         {
             "id": "quota_new_limit",
+            "visibility": "quota_provider_type != null || quota_sublevel != null",
             "order": 8,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
@@ -177,8 +178,8 @@
             ]
         },
         {
-            "id": "business_justification",
-            "visibility": "(quota_new_limit != null && quota_region != dont_know_answer) || (quota_new_limit != null && quota_workspace != dont_know_answer)",
+            "id": "quota_business_justification",
+            "visibility": "quota_new_limit != null",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -186,12 +187,12 @@
             "required": false
         },
         {
-            "id": "problem_description_fallback",
+            "id": "quota_description_fallback",
             "visibility": "quota_region == dont_know_answer || quota_workspace == dont_know_answer || quota_provider == dont_know_answer",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
-            "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
+            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
             "required": true
         },
         {
