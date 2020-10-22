@@ -5,11 +5,11 @@
 	ms.author="kawilson"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32693224"
+	supportTopicIds="32693236"
 	resourceTags=""
 	productPesIds="15947"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="e7625c691-p70f-0001-aa9a-9kcf7097e89f"
+    articleId="e7625c691-p70f-ay21-aa9a-9kcf7097e89f"
 	ownershipId="Azure_Security_Security_Center"
 />
 

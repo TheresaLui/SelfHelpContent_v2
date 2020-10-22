@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to Increase the Security Score"
-	description="How to Increase the Security Score"
+	pageTitle="How to increase the Security Score"
+	description="How to increase the Security Score"
 	authors="genlin"
 	ms.author="kawilson"
 	displayOrder=""
@@ -13,7 +13,7 @@
 	ownershipId="Azure_Security_Security_Center"
 />
 
-# How to Increase the Security Score
+# How to increase the Security Score
 
 ## **Recommended Documents**
 
