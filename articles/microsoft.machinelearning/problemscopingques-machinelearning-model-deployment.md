@@ -19,7 +19,7 @@
  "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Problem with Model Deployment and Serving",
+    "title": "Problem with consuming web service and model data collection",
     "fileAttachmentHint": "",
     "formElements":
     [

@@ -17,7 +17,8 @@
 
 # Problem with Model Deployment
 
-Most users are able to resolve deployment issues using the steps below. There are four sections in this article - Troubleshooting failed deployment, Reference to Python SDK, How-to guide, Helpful articles and recommended documents.
+Most users are able to resolve deployment issues using the steps below. 
+There are four sections in this article - Troubleshooting failed deployment, Reference to Python SDK, How-to guide, Helpful articles and recommended documents.
 
 ## **Recommended Steps**
 
@@ -47,13 +48,15 @@ Most users are able to resolve deployment issues using the steps below. There ar
 
 * [How to update a deployed web service?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-update-web-service)
 
-## **Python SDK**
+**Python SDK**
 
 [Webservice Package](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice?view=azure-ml-py) contains functionality for deploying machine learning models as web service endpoints in Azure Machine Learning.
+
 [AksWebService class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.akswebservice?view=azure-ml-py&preserve-view=true)
+
 [AciWebService class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py)
 
-## **How to?**
+**How to?**
 
 * [Use TLS to secure a web service through Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service)
 * [How to use your workspace with a custom DNS server](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-cli)
@@ -63,7 +66,7 @@ Most users are able to resolve deployment issues using the steps below. There ar
 * [Use Azure AD identity with your machine learning web service in Azure Kubernetes Service](https://docs.microsoft.com/azure/machine-learning/how-to-use-azure-ad-identity)
 * [Set up Web-service authentication](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication#web-service-authentication)
 
-## **Helpful articles**
+**Helpful articles**
 
 * [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models). Learn how to package a registered Azure Machine Learning model with Docker.
 * [Use the studio to deploy models trained in the Designer](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-model-designer). Learn how to deploy trained model from Designer as a real-time endpoint in Azure Machine Learning Studio.
