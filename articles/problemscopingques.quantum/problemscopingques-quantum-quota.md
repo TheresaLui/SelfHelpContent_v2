@@ -162,13 +162,18 @@
             "visibility": "quota_subtype != null || quota_provider_type != null || quota_sublevel != null",
             "order": 8,
             "controlType": "numerictextbox",
-            "displayLabel": "New quota requested - NEED to include isNewQuotaLimit = true",
+            "displayLabel": "New quota value requested NEED to include isNewQuotaLimit eqs true",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
             "required": true,
             "validations": [
                 {
-                    "type": "minvalue",
+                    "type": "GreaterThan",
                     "value": 0
+                },
+                {
+                    "type": "RegExMatch",
+                    "value": "^[^.]*$",
+                    "text": "Integers only."
                 }
             ]
         },
