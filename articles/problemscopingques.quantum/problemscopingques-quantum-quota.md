@@ -127,10 +127,11 @@
             "watermarkText":"Choose a location - need to includeInQuotaSummary",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_sublevel",
+                "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
+                "textTemplate":"{displayName}",
                 "ValueProperty":"name",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
@@ -169,7 +170,7 @@
             "required": true,
             "validations": [
                 {
-                    "type": "greaterthan",
+                    "type": "minvalue",
                     "value": 0
                 }
             ]
