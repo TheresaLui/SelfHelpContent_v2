@@ -1,24 +1,28 @@
 <properties
-    pageTitle="Enterprise Connector - SAP"
-    description="Enterprise Connector - SAP"
-    service="microsoft.logicapps"
-    resource="logicapps"
-    authors="v-miegge"
-    ms.author="kawilson"
-    selfHelpType="generic"
-    supportTopicIds="32742543"
-    resourceTags=""
-    productPesIds="15791"
-    ownershipId="Compute_LogicApps"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="304283a0-eb74-4131-9d70-845ef05e5abc"
-/>
-
+  pagetitle="Enterprise Connector - SAP"
+  service="microsoft.logicapps"
+  resource="logicapps"
+  ms.author="kawilson"
+  selfhelptype="Generic"
+  supporttopicids="32742543"
+  resourcetags=""
+  productpesids="15791"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake"
+  articleid="304283a0-eb74-4131-9d70-845ef05e5abc"
+  ownershipid="Compute_LogicApps" />
 # Enterprise Connector - SAP
 
-The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud.  The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
+The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises or hosted in Azure Virtual Machine. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud. The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
 
-[Connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
+* [How to connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
+
+## Installation
+
+- [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
+- [Multi-tenant Azure prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#multi-tenant-azure-prerequisites) 
+- [Integration service environment (ISE) prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#integration-service-environment-ise-prerequisites)
+- [SNC Secure Network Communications prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#secure-network-communications-prerequisites)
+
 
 ## **Recommended Documents**
 

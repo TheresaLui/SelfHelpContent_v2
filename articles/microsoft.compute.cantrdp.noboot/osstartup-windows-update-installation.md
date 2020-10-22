@@ -31,7 +31,7 @@ Windows Update installation can take some time depending on the number and size 
 If the issue persists, follow the mitigation steps below to recover the VM:
 
 1. Stop/de-allocate the VM and save a copy of the OS disk or create a snapshot. Follow the step in the article [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm).
-2. Attach the copy/snapshot of the OS disk as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
+2. Attach the copy/snapshot of the OS disk as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal).
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
 

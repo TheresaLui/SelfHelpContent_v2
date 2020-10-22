@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-- Why initial backup is taking longer time to complete? The first backup is a full backup and the time taken to complete depends on the size of the data and when the backup is processed.
+- [Why initial backup is taking longer time to complete?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#why-initial-backup-is-taking-lot-of-time-to-complete)
 - [Why is my backup performance so slow?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
 - [Can I exclude disks that I do not want to backup?](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)
 - [What are the best practices to improve backup performance?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)

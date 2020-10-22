@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Authentication & Role Based Access (RBAC)"
-	description="Authentication & Role Based Access (RBAC)"
+	description="Authentication & Role Based Access (RBAC) "
 	infoBubbleText="Authentication & Role Based Access (RBAC)"
 	service="microsoft.machinelearning"
 	resource="machinelearning"

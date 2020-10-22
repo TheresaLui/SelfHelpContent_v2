@@ -16,25 +16,29 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Azure Synapse Link for Cosmos DB - Connectivity
-Most users are able to resolve their Azure Synapse Link for Cosmos DB Connectivity issue using the steps below.  
+# Azure Synapse Link for Azure Cosmos DB - Connectivity  
 
+Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
+
+
+## Supported APIs  
+
+Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
 ## **Recommended Steps**  
 
 ### **Workspace with Managed Virtual Network**   
 Azure Synapse Link for Azure Cosmos DB is currently not supported in workspace with Managed Vnet.   
 
-We recommend creating a workspace without Managed Vnet to access Azure Synapse Link. 
+We recommend creating a workspace without Managed Vnet to access Azure Synapse Link.  
 
-<br>
 
 ### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**  
-Synapse SQL Serverless is currently under gated preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.   
-
-<br>
+Synapse SQL Serverless is currently under private preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.  
 
 
+### **Cannot access Cosmos DB analytical store with Synapse SQL dedicated pool**  
+Only Synapse SQL serverless pool (private preview) and Synapse Spark pool are currently supported. Synapse SQL dedicated pool is not supported.  
 
 ## **Recommended Documents**  
 
