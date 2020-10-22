@@ -46,7 +46,7 @@
                     "order": 7,
                     "controlType": "dropdown",
 					"visibility": "client_type == Azure Information Protection Unified Labeling Client",
-                    "displayLabel": "Are you using the latest GA? For download link of latest GA, use the link in the help balloon",
+                    "displayLabel": "Are you using the latest GA? For details and download link of latest GA, click the help balloon",
 					"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. <a href='https://www.microsoft.com/en-us/download/details.aspx?id=53018'>Download latest GA version</a>",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
