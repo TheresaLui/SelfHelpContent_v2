@@ -159,10 +159,10 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_subtype != null || quota_provider_type != null || quota_sublevel != null",
+            "visibility": "quota_provider_type != null || quota_sublevel != null",
             "order": 8,
             "controlType": "numerictextbox",
-            "displayLabel": "New quota value requested NEED to include isNewQuotaLimit eqs true",
+            "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
             "required": true,
             "validations": [
@@ -179,7 +179,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "(quota_subtype != null && new_limit != null && quota_region != dont_know_answer) || (quota_subtype != null && new_limit != null && quota_workspace != dont_know_answer)",
+            "visibility": "(new_limit != null && quota_region != dont_know_answer) || (new_limit != null && quota_workspace != dont_know_answer)",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -188,7 +188,7 @@
         },
         {
             "id": "problem_description_fallback",
-            "visibility": "(quota_subtype != null && quota_region == dont_know_answer) || (quota_subtype != null && quota_workspace == dont_know_answer) || (quota_subtype != null && quota_provider == dont_know_answer)",
+            "visibility": "quota_region == dont_know_answer || quota_workspace == dont_know_answer || quota_provider == dont_know_answer",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
