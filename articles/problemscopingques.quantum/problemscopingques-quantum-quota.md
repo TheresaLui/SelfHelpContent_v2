@@ -161,7 +161,7 @@
             "id": "new_limit",
             "visibility": "quota_provider_type != null || quota_sublevel != null",
             "order": 8,
-            "controlType": "numerictextbox",
+            "controlType": "textbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
             "required": true,
