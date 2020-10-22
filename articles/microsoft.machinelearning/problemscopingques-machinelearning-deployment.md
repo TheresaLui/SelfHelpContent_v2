@@ -118,16 +118,16 @@
 			    "order": 14,
 			    "controlType": "multilinetextbox",
 			    "displayLabel": "Attachment",
-			    "watermarkText": "Please provide additional details you think are important",
+			    "watermarkText": "Please provide additional details, description of the issue ",
 			    "required": true,
 			    "useAsAdditionalDetails": true,
 			    "hints": [{
-					"text": "Please attach `service.get_logs()`"
+					"text": "Please upload service.get_logs()"
 				}, {
-					"text": "Please attach scoring script"
+					"text": "Please upload scoring script"
 				},
                 {
-                     "text" : "Please attach screenshot of your error"
+                     "text" : "Please upload screenshot of your error"
                 }]
            }
     ]
