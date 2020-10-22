@@ -10,7 +10,7 @@
        schemaVersion="1"
        articleId="problemscopingques_partnercenter-cosell-leads" 
        clientIds="partnercenter"
-       ownershipId="PartnerCenter_PartnerCenter_Cosell"
+       ownershipId="PartnerCenter_Cosell"
 />
 # Leads
 
