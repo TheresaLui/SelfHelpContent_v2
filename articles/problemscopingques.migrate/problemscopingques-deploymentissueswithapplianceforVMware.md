@@ -6,10 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32755160"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="9398f098-8c04-4de6-a4db-599612w805ea"
-/>
+        ownershipId="Compute_AzureMigrate"/>
 
 # Deployment issues with appliance for VMware servers (Configuration Server)
 
