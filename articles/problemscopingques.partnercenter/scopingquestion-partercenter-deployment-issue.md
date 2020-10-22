@@ -27,7 +27,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
+	   "watermarkText": "Please provide the publisher name",
 	   "required": false
        },
        {
@@ -125,7 +125,7 @@
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
@@ -144,14 +144,18 @@
            "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "PrivatePreview_yes",
-		   "text": "Yes"
+	       "value": "PrivatePreview_yes",
+	       "text": "Yes"
 	       },
 	       {
-		   "value": "PrivatePreview_no",
-		   "text": "No"
+	       "value": "PrivatePreview_no",
+	       "text": "No"
+	       },
+	       {
+	       "value": "dont_know_answer",
+	       "text": "Not sure"
 	       }],
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
@@ -166,14 +170,14 @@
 	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
 	   "id": "problem_start_time",
 	   "order": 10,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },

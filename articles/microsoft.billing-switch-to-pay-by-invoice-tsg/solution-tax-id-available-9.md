@@ -19,7 +19,9 @@
 
 <!--issueDescription-->
 
-Please advise if you have a valid Tax Acccount ID provided by your local government, and wish to add the same to your Azure Account. This tax ID is used for tax exemption (if eligible per local tax laws), tax calculations and appears on your invoice.
+If the customer wishes to add a Tax ID, then obtain the Tax ID and update the same by following TSG #2646862.
+
+After adding the Tax ID, then restart the troubleshooter. 
 
 <!--/issueDescription-->
 

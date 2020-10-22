@@ -44,3 +44,9 @@
 ```
 
 **Note**: Today Tags created at workspace are not propagated to Databricks Cluster resources. Same tag needs to be manually created from Databricks Cluster configuration page, as explained [here](https://docs.databricks.com/user-guide/clusters/tags.html).
+
+## **Recommended Documents**
+
+* [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
+- [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
+- [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
