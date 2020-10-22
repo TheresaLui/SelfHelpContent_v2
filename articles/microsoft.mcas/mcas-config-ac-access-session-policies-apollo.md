@@ -30,8 +30,12 @@ Follow the troubleshooting guide, and how-to videos to resolve the following iss
 1. If you are using Azure Active Directory, in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected
     - If you are not using a custom Cloud App Security policy, in the dropdown select **Monitor Only** or **Block Downloads**
     - Otherwise, in the dropdown select **Use Custom Policy** and in Cloud App Security, create granular access or session control policies, such as block upload, copy/paste/print, or block downloads based on content inspection.
-1. If you are using a third-party Identity provider, make sure to onboard the app first. In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control apps**, and click the plus sign to start the process.
-1. If you are trying to create a session policy and see a "no apps onboarded" error message, verify that the app appears on the **Conditional Access App Control apps** page. If the app does not appear, log in to the app. If the app still does not appear, please continue with opening the ticket.
+1. If you are using a third-party Identity provider, make sure to onboard the app first. 
+  - In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control apps**, and click the plus sign to start the process.
+1. If you are trying to create a session policy and see a "no apps onboarded" error message:
+  - Verify that the app appears on the **Conditional Access App Control apps** page. 
+  - If the app does not appear, log in to the app. 
+  - If the app still does not appear, please continue with opening the ticket.
 
 ### Configure access and policies using the how-to videos below:
 <videoGroup>
