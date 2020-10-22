@@ -18,19 +18,24 @@
 
 ## Troubleshooting DLP and file policies for Cloud App Security
 
-Use the recommended steps and relevant how-to video to resolve DLP and file policy issues.
+Follow the recommended steps and how-to videos based on the issue you are having with DLP and file policy.
 
 :::Section Recommended Solution:::
 
-## **Recommended Steps**
+### Recommended Steps
 
-1. If you are sharing files and the domain isn't detected. This can occur when sharing files with external users using a group and the "Collaborators" filter is set to "Any from domain". In this setup, domains are not detected for members of a group and can only be detected for users who have direct permissions on the file.
-1. If your data classification service sensitive types aren't matching as expected. Review the conditions of each [sensitivity type](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions) and, in the advanced settings, verify that each sensitive type' match accuracy and instance counts are configured correctly.
-1. If you are unable to investigate and control files, verify that file monitoring is enabled. In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**
-**Note:** If you don't access the **Files** page for more than 60 days and have no active file policies, file monitoring will be automatically disabled.
+1. If you are sharing files and the domain isn't detected:
+This can occur when sharing files with external users using a group and the "Collaborators" filter is set to "Any from domain". 
+In this setup, domains are not detected for members of a group and can only be detected for users who have direct permissions on the file.
+1. If your data classification service sensitive types aren't matching as expected: 
+Review the conditions of each [sensitivity type](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions), and in the advanced settings, verify that each sensitive type match accuracy and instance counts are configured correctly.
+1. If you are unable to investigate and control files:
+Verify that file monitoring is enabled. 
+In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**
+**Note:** If you don't access to the **Files** page for more than 60 days and have no active file policies, file monitoring will be automatically disabled.
 To view the article on labels, Sensitive Information Types and Microsoft Information Protection, see [labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
 
-## Follow the instructions in the how-to videos below to resolve your issue
+### Learn about protecting your data using the how-to videos below:
 
 <videoGroup>
     <video>
@@ -41,9 +46,9 @@ To view the article on labels, Sensitive Information Types and Microsoft Informa
         <src>https://www.youtube.com/watch?v=goH_cgc7Nsw&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=13</src>
         <title>How to identify and protect overexposed data in the cloud with Microsoft Cloud App Security</title>
     </video>
-<videoGroup>
+</videoGroup>
 
-## **More resources**
+### More resources
 
 - [Session policies](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 - [File policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
