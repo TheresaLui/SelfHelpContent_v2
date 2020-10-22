@@ -40,15 +40,15 @@ Follow the troubleshooting guide, and how-to videos to resolve the following iss
 ### Configure access and policies using the how-to videos below:
 <videoGroup>
     <video>
-        <src>https://www.youtube.com/watch?v=DyC0eV_pMhs&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=14</src>
+        <src>https://www.youtube.com/watch?v=DyC0eV_pMhs&amp;list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&amp;index=14</src>
         <title>How to configure real-time monitoring and control</title>
     </video>
     <video>
-        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=15</src>
+        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4&amp;list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&amp;index=15</src>
         <title>How to configure real-time labeling and protection of sensitive files</title>
     </video>
     <video>
-        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=16</src>
+        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o&amp;list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&amp;index=16</src>
         <title>How to configure a policy to block uploads in real-time</title>
     </video>
 </videoGroup>
