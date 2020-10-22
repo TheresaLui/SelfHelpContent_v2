@@ -141,7 +141,7 @@
             "dropdownOptions": [
                 {
                     "value": "is_set",
-                    "text": "Yes (Please enter timeout value in the textbox bellow)"
+                    "text": "Yes (Please enter timeout value in the textbox below)"
                 },
                 {
                     "value": "not_set",
@@ -183,8 +183,8 @@
                     "text": "Monthly"
                 },
                 {
-                    "value": "over_monthly",
-                    "text": "Over monthly"
+                    "value": "every_few_months",
+                    "text": "Every few months"
                 },
                 {
                     "value": "not_maintained",

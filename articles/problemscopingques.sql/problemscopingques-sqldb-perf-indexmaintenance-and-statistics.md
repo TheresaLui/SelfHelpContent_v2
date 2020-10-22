@@ -66,8 +66,8 @@
                     "text": "Monthly"
                 },
                 {
-                    "value": "over_monthly",
-                    "text": "Over monthly"
+                    "value": "every_few_months",
+                    "text": "Every few months"
                 },
                 {
                     "value": "not_maintained",

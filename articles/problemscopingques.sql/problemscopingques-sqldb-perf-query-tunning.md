@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-sqldb-perf-query-tunning"
 	pageTitle="Azure SQL Database"
-	description="Scoping questions to capture issues related to Query Tunning"
+	description="Scoping questions to capture issues related to Query Tuning"
 	authors="Akio Hose"
 	authoralias="akiohose"
 	ms.author="akiohose"
@@ -29,10 +29,10 @@
             "required": true
         },
         {
-            "id": "is_query_for_tunning_identified",
+            "id": "is_query_for_tuning_identified",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Is the query that requires tunning specifically identified?",
+            "displayLabel": "Is the query that requires tuning specifically identified?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -41,7 +41,7 @@
                 },
                 {
                     "value": "yes_some_identified",
-                    "text": "Yes, but there could be other queries that require tunning."
+                    "text": "Yes, but there could be other queries that require tuning."
                 },
                 {
                     "value": "dont_know_answer",
@@ -176,10 +176,10 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe the criteria for the successful query tunning.",
+            "displayLabel": "Please describe the criteria for the successful query tuning.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Description the criteria for the query tunning"
+            "watermarkText": "Description the criteria for the query tuning"
         }
     ]
 }
