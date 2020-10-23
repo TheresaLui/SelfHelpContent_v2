@@ -17,7 +17,7 @@
 # No connection failures detected within Azure Database for PostgreSQL
 
 <!--issueDescription-->
-Thank you for contacting Microsoft Support about connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. Please note that we have checked our backend telemetry which did not report any database-side errors in the provided time range <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC)..
+Thank you for contacting Microsoft Support about connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. Please note that we have checked our backend telemetry which did not report any database-side errors in the provided time range <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
