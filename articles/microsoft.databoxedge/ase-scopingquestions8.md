@@ -37,11 +37,11 @@
              "dropdownOptions": [
                 {
                     "value": "Enterprise Agreement EA",
-                    "text": "Enterprise Agreement EA"
+                    "text": "Enterprise Agreement - EA"
                 },
 		{
                     "value": "Cloud Solutions Provider CSP",
-                    "text": "Cloud Solutions Provider CSP"
+                    "text": "Cloud Solutions Provider - CSP"
                 },
 		{
                     "value": "Micorsoft Azure Sponsorship",
