@@ -105,7 +105,7 @@
                 }
             ]
         },
-                {
+        {
             "id": "windowsver",
             "order": 5,
             "controlType": "multilinetextbox",
