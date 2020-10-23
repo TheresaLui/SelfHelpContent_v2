@@ -96,8 +96,8 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What's the name of an impacted machine? If there are multiple, please include a few names",
-            "watermarkText": "What's the name of an impacted machine? If there are multiple, please include a few names",
+            "displayLabel": "What's the name of an impacted machine? If there are multiple, please include a few names.",
+            "watermarkText": "What's the name of an impacted machine? If there are multiple, please include a few names.",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
@@ -110,13 +110,13 @@
             "id": "windowsver",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which version(s) of Windows is/are the impacted machine(s) running?",
-            "watermarkText": "Which version(s) of Windows is/are the impacted machine(s) running?",
+            "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "watermarkText": "Which version(s) of Windows is are the impacted machine(s) running?",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "Enter the name windows verstion(s)"
+                    "text": "Enter the name windows verstion(s)."
                 }
             ]
         },
