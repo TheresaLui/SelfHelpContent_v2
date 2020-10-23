@@ -1,23 +1,23 @@
 <properties
-	articleId="problemscopingques-custom-fields"
-	pageTitle="Custom Fields"
-	description="Custom Fields"
+	articleId="problemscopingques-windows-agent-installation-and-uninstallation-issues"
+	pageTitle="Windows agent installation and uninstallation issues"
+	description="Windows agent installation and uninstallation issues"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745410"
+	supportTopicIds="32745401"
 	productPesIds="15725"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Custom Fields
+# Windows agent installation and uninstallation issues
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Custom Fields",
+    "title": "Windows agent installation and uninstallation issues",
     "fileAttachmentHint": "Please upload screenshots of any relevant details.  Kindly include any additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
