@@ -159,7 +159,6 @@
         },
         {
             "id": "quota_new_limit",
-            "visibility": "quota_provider_type != null || quota_region != null || quota_sublevel == sub",
             "order": 8,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
@@ -179,7 +178,6 @@
         },
         {
             "id": "quota_business_justification",
-            "visibility": "quota_new_limit != null",
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -188,7 +186,6 @@
         },
         {
             "id": "quota_description_fallback",
-            "visibility": "quota_region == dont_know_answer || quota_workspace == dont_know_answer || quota_provider == dont_know_answer",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
