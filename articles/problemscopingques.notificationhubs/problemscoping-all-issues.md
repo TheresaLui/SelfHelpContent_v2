@@ -28,7 +28,7 @@ schemaVersion="1"
         "id": "notificationhubs_namespaces",
         "order": 1,
         "controlType": "multiselectdropdown",
-        "displayLabel": "Notification Hub namespace name",
+        "displayLabel": "Notification Hub name",
         "watermarkText": "Choose an option",
         "required": false,
         "dynamicDropdownOptions": {
