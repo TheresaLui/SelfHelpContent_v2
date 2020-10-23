@@ -26,9 +26,9 @@ Thank you for contacting Microsoft support about your broken streaming replicati
 
 1.	Please check if the primary or the replica server has been restarted explicitly or if they have undergone a change in the SKU size, which will also result in a restart. In this case streaming replication will be temporarily broken until both servers are available again. This can also happen for short periods of time during service planned maintenance which happens usually once a month.
 
-2.	If streaming replication is broken for an extended period of time, Check connectivity to the primary and the replica servers and if connecitivity failed on one of them please continue filing a support ticket for further investigation.
+2.	If streaming replication is broken for an extended period of time, check connectivity to the primary and the replica servers and if connecitivity failed on one of them please continue filing a support ticket for further investigation.
 
 ## **Recommended Documents**
 
 * [Monitoring Replication]( https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#monitor-replication)
-* [Planned maintenance notification in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/en-us/azure/postgresql/concepts-planned-maintenance-notification)
+* [Planned maintenance notification in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification)
