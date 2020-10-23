@@ -110,8 +110,8 @@
             "id": "windowsver",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
-            "watermarkText": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "displayLabel": "Which version(s) of Windows is&#47;are the impacted machine(s) running?",
+            "watermarkText": "Which version(s) of Windows is&#47;are the impacted machine(s) running?",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
