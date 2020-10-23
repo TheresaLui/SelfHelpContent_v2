@@ -59,7 +59,7 @@
         },
         {
             "id": "problem_frequency",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening on a single machine or multiple machines?",
             "watermarkText": "Is the issue happening on a single machine or multiple machines?",
@@ -94,7 +94,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What's the name of an impacted machine? If there are multiple, please include a few names",
             "watermarkText": "What's the name of an impacted machine? If there are multiple, please include a few names",
