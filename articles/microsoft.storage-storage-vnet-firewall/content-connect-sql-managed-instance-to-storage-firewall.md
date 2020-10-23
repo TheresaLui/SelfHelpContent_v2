@@ -19,7 +19,7 @@
 
 ## Issue Description
 
-Scenario connecting SQL Managed Instancee to storage account within the same region with Storage Firewall enabled.
+Scenario connecting SQL Managed Instances to storage account within the same region with Storage Firewall enabled.
 
 ## Symptoms:
 
@@ -45,3 +45,4 @@ Move Storage to a different region and then whitelist the public IP for the Mana
       2. Next you copy the trxxx.eastus1-a.worker.vnet.database.windows.net name from the result and run another nslookup without the ".vnet" in it (e.g ?nslookup trxxx.eastus1-a.worker.database.windows.net ). The resulted IP address will be the NAT Public Address.
   3. Now we would need to whitelist the NAT Public IP on your new Storage created in another region. You will also need to whitelist the public IP for the SSMS to be able to do a restore.
   
+  If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32571145"
 	productPesIds="16244"
-	cloudEnvironments="public, mooncake"
+	cloudEnvironments="public, mooncake, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="969d90c5-c125-470a-9822-4759ffea4939"
 	ownershipId="AzureIot_IotTSI"

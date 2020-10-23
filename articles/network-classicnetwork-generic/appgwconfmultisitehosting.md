@@ -10,6 +10,7 @@
   cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
   articleid="3209a960-3d4f-4220-8eb1-a99848e6a5cc"
   ownershipid="CloudNet_AzureApplicationGateway" />
+
 # Configure Multi-site Hosting
 
 Application Gateway allows you to configure routing based on host name or domain name for more than one web application on the same gateway. It allows you to configure a more efficient topology for your deployments by adding up to 100+ websites to one application gateway. Each website can be directed to its own backend pool.

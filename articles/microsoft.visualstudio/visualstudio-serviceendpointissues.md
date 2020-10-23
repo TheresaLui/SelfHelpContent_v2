@@ -7,7 +7,7 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceEndpointIssues"
-	supportTopicIds="32742293, 32742301, 32742309, 32742313, 32742325"
+	supportTopicIds="32742293, 32742325"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""

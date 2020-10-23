@@ -2,24 +2,24 @@
   pagetitle="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   description="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   authors="elixirsys2"
-  ms.author="marwa, v-vigra"
+  ms.author="marwa, v-vigra, jagran"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
-  ownershipid="AzureIdentity_Licensing" />
+  ownershipid="AzureIdentity_MultiFactorAuthentication" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Cover questions and problems related to Multi-factor Authentication (MFA)",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "0a42e576-a2fe-f4c1-014f-f5ae3d9a40e1",

@@ -41,7 +41,7 @@ It's important to be sure you want to delete data before continuing - it can't b
 You can apply data anonymization for usernames, and for Windows 10 endpoint users you can additionally anonymize machine names.
 
 1. Under the Settings cog, select **Cloud Discovery settings**
-1. In the Anonymization tab, to anonymize usernames by default, select **Anonymize private information by default in new reports and data sources**. You can also select **Anonymize machine information by default in 'Win10 Endpoint Users' report**.
+1. In the Anonymization tab, to anonymize usernames by default, select **Anonymize private information by default in new reports and data sources**. You can also select **Anonymize machine information by default in 'Win10 Endpoint Users' report**
 1. Click **Save**
 
 **NOTE**: IP addresses and subdomains are not anonymized.
