@@ -4,7 +4,7 @@
     service="Microsoft.Storage"
     resource="storageAccounts"
     authors="yagohel23"
-    ms.author="yagohel"
+    ms.author="yagohel, sischleg"
     displayOrder=""
     selfHelpType="TSG_Content"
     supportTopicIds="32689882"

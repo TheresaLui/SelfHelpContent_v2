@@ -33,7 +33,7 @@
       "id": "2c702665-449f-0423-adf7-48c968821cca",
       "longDescription": "",
       "shortDescription": "Questions about co-op claim submission deadlines or general questions about earning, claiming, and the payment period",
-      "searchTags": "Incentives;Co-op",
+      "searchTags": "Incentives;Co-op;Deadlines",
     },
     {
       "id": "4af9de72-c7d6-5d09-4d75-344154148270",
@@ -51,25 +51,25 @@
       "id": "c0466653-00ff-be7c-a5fd-5809a1bcd8ef",
       "longDescription": "",
       "shortDescription": "Questions about why a co-op claim was rejected and how to get it approved",
-      "searchTags": "Incentives;Co-op;Claims",
+      "searchTags": "Incentives;Co-op;Claims;Reject",
     },
     {
       "id": "d752cab4-3b32-d1f3-337f-4409fd15ff43",
       "longDescription": "",
       "shortDescription": "Questions about finding a customer's information (domain name, Tenant ID, Solution area, etc.) or submitting a CPOR claim",
-      "searchTags": "Incentives;CPOR",
+      "searchTags": "Incentives;CPOR;Customer",
     },
     {
       "id": "7bd7235f-8f54-6ce0-3388-29f6f36b4bb0",
       "longDescription": "",
       "shortDescription": "Questions about submitting customer association requests such as sub-domain and tenant mismatch, or about finding a customer or a product",
-      "searchTags": "Incentives;Customer;Association",
+      "searchTags": "Incentives;Customer;Association;tenant;mismatch",
     },
     {
       "id": "8677d448-52c3-9e82-ab36-b29ca1aab57c",
       "longDescription": "",
       "shortDescription": "Questions about customer association status, editing a customer association request, or disputing a customer association decision",
-      "searchTags": "Incentives;Customer;Association",
+      "searchTags": "Incentives;Customer;Association;dispute",
     },
     {
       "id": "e030b898-1f9f-2f21-a2d6-e16307458396",
@@ -81,7 +81,7 @@
       "id": "5a35d77e-95dd-bee9-e222-e8a42c37ada3",
       "longDescription": "",
       "shortDescription": "Questions about which transactions lead to earning incentives, or using the incentive Transactional History CSV export file",
-      "searchTags": "Incentives;Transactions",
+      "searchTags": "Incentives;Transactions;export",
     },
     {
       "id": "6049834d-9035-bc36-b6fe-ced531e211c7",
@@ -105,7 +105,7 @@
       "id": "e4c81cf3-7a2c-e058-f407-2584806fc887",
       "longDescription": "",
       "shortDescription": "Questions about incentive enrollment status or invitations, or incentives programs not being displayed on the overview page",
-      "searchTags": "Incentives;Enrollment;Overview",
+      "searchTags": "Incentives;Enrollment;Overview;Invitations",
     },
     {
       "id": "9075ed8b-5b6f-22e5-fecb-0fded248ede3",
@@ -147,7 +147,7 @@
       "id": "8d760b54-47cf-de8a-b60f-76a6480ae30f",
       "longDescription": "",
       "shortDescription": "Questions about what a payment is for, or using the incentive payment CSV export file",
-      "searchTags": "Incentives;CSV",
+      "searchTags": "Incentives;CSV;Export",
     },
     {
       "id": "0f248907-03de-e6ef-8a0b-e2559a316196",
@@ -165,7 +165,7 @@
       "id": "1b6bebeb-2cea-df89-7537-3055f0cad048",
       "longDescription": "",
       "shortDescription": "Questions about submitting a payout and tax profile, viewing profile status, or getting Microsoft validation",
-      "searchTags": "Incentives;Tax;Submitting;Status",
+      "searchTags": "Incentives;Tax;Submitting;Status;Profile",
     },
     {
       "id": "d437e8c3-3635-608f-c23d-6f46fab3bde2",

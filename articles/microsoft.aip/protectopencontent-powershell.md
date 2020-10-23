@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-Review [Admin Guide: Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell)
-
-Collect Azure Information Protection client logs and attach the exported logs to this ticket
+* Review [Admin Guide: Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell)
+* [Review the mappings between RMS related cmdlets to Unified Labeling cmdlets](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-powershell#rms-to-unified-labeling-cmdlet-mapping)
+* Collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
@@ -39,4 +39,3 @@ Collect Azure Information Protection client logs and attach the exported logs to
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
 * [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>
-
