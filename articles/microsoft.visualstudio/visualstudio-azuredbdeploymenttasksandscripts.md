@@ -30,11 +30,11 @@ Are you facing one of these common problems?
 
     Ensure the dacpac file is present in your repository which is used for the build.
 
-**How do I implement CI/CD for data factory in Azure DevOps**
+**How do I implement CI/CD for data factory in Azure DevOps.**
 
-    [Refer this document to create an Azure Data Factory and implementing CI/CD for the same](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
+    [Refer to this document to create an Azure Data Factory and implementing CI/CD for the same](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
 
-* **Where do I find a sample to deploy to Azure SQL database**
+**Where do I find a sample to deploy to Azure SQL database.**
 
     You can refer this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
 
