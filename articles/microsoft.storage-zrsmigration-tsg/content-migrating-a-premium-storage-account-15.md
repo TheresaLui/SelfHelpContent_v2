@@ -22,7 +22,7 @@
 1. User wants to migrate a premium storage account.
 2. This scenario is not supported.
 3. CSS engineer validates that the storage account is Premium storage account.
-   * It can be checked in ASC. 
+   * It can be checked in ASC > In storage accoutn properties. 
 4. If Premium storage account, then update customer with the following message.
       > We currently do not support migrating from a premium storage account to ZRS. Only standard account migration is supported.
 

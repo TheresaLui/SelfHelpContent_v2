@@ -46,18 +46,25 @@
 			"displayLabel": "What is the related DatasetId?",
 			"required": false
 	},
+			{
+			"id": "problem_version",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What version of azureml SDK are you using?",
+			"required": false
+	},
 		{
 			"id": "problem_description",
-			"order": 4,
+			"order":5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Version",
-			"watermarkText": "Version details",
+			"displayLabel": "Details",
+			"watermarkText": "Describe the problem you are facing",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Version details"
+					"text": "Details"
 				}, {
-					"text": "What version of azureml SDK are you using? What version of azureml-dataprep SDK is installed?"
+					"text": "Describe the problem you are facing. What version of azureml-dataprep SDK is installed? What is your VNET setting if your storge is behind VNET? More details can help us understand the problem better."
 				}
 			]
 		}
