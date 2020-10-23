@@ -43,12 +43,12 @@
                     "text": "Cannot uninstall the agent"
                 },
                 {
-                    "value": "Cannot enable\install the extension",
-                    "text": "Cannot enable\install the extension"
+                    "value": "Cannot enable&#47;install the extension",
+                    "text": "Cannot enable&#47;install the extension"
                 },
                                 {
-                    "value": "Cannot disable\uninstall the extension",
-                    "text": "Cannot disable\uninstall the extension"
+                    "value": "Cannot disable&#47;uninstall the extension",
+                    "text": "Cannot disable&#47;uninstall the extension"
                 },
                 {
                     "value": "dont_know_answer",
@@ -56,6 +56,68 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "problem_frequency",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Is the issue happening on a single machine or multiple machines?",
+            "watermarkText": "Is the issue happening on a single machine or multiple machines?",
+            "required": true,
+            "dropdownOptions": [
+                {
+                    "value": "Single Azure Virtual machine",
+                    "text": "Single Azure Virtual machine"
+                },
+                {
+                    "value": "Single Non-Azure machine",
+                    "text": "Single Non-Azure machine"
+                },
+                {
+                    "value": "Multiple Azure Virtual machines",
+                    "text": "Multiple Azure Virtual machines"
+                },
+                                {
+                    "value": "Multiple Non-Azure Virtual machines",
+                    "text": "Multiple Non-Azure Virtual machines"
+                },
+                                {
+                    "value": "Multiple Azure Virtual machines and Non-Azure machines",
+                    "text": "Multiple Azure Virtual machines and Non-Azure machines"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ]
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What's the name of an impacted machine? If there are multiple, please include a few names.",
+            "watermarkText": "What's the name of an impacted machine? If there are multiple, please include a few names.",
+            "required": true,
+            "useAsAdditionalDetails": false,
+            "hints": [
+                {
+                    "text": "Enter the name of the machine(s)"
+                }
+            ]
+        },
+                {
+            "id": "windowsver",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "watermarkText": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "required": true,
+            "useAsAdditionalDetails": false,
+            "hints": [
+                {
+                    "text": "Enter the name windows verstion(s)."
+                }
+            ]
         },
         {
             "id": "additional_information",
