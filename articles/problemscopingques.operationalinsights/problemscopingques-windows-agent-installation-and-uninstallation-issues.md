@@ -85,7 +85,6 @@
                     "value": "Multiple Azure Virtual machines and Non-Azure machines",
                     "text": "Multiple Azure Virtual machines and Non-Azure machines"
                 },
-
                 {
                     "value": "dont_know_answer",
                     "text": "I don't know"
@@ -110,8 +109,8 @@
             "id": "windowsver",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which version(s) of Windows is&#47;are the impacted machine(s) running?",
-            "watermarkText": "Which version(s) of Windows is&#47;are the impacted machine(s) running?",
+            "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "watermarkText": "Which version(s) of Windows is are the impacted machine(s) running?",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
