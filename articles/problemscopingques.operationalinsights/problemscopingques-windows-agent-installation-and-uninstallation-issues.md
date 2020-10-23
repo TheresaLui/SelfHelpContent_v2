@@ -112,7 +112,7 @@
             "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
             "watermarkText": "Enter the name windows version(s).",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
 
         },
         {
@@ -122,7 +122,7 @@
             "displayLabel": "Describe the issue, including as much detail as possible with the exact text of error messages where available.",
             "watermarkText": "Please include the exact text of any error message.",
             "required": false,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
