@@ -15,7 +15,7 @@ articleId="eh-khafka-config"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Questions on Kafka Configuration
+# Questions on Kafka Configuration 
 ---
 {
     "subscriptionRequired": true,
