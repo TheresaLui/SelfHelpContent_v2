@@ -110,28 +110,19 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Which version(s) of Windows is are the impacted machine(s) running?",
-            "watermarkText": "Which version(s) of Windows is are the impacted machine(s) running?",
+            "watermarkText": "Enter the name windows version(s).",
             "required": true,
             "useAsAdditionalDetails": false,
-            "hints": [
-                {
-                    "text": "Enter the name windows verstion(s)."
-                }
-            ]
+
         },
         {
             "id": "additional_information",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the issue, including as much detail as possible with the exact text of error messages where available.",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available.",
+            "watermarkText": "Please include the exact text of any error message.",
             "required": false,
             "useAsAdditionalDetails": true,
-                        "hints": [
-                {
-                    "text": "Please include the exact text of any error message."
-                }
-            ]
         }
     ],
     "$schema": "SelfHelpContent"
