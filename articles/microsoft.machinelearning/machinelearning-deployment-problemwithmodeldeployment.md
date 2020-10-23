@@ -74,6 +74,7 @@ Most users are able to resolve deployment issues using the steps below.
 * [Advance entry script authoring](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script). Learn how to write entry scripts for specialized use cases.
 * [Load Registered models](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#load-registered-models). There are two ways to locate models in your entry script.
 * [Framework specific examples](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#framework-specific-examples). More entry script examples for specific machine learning use cases (PyTorch, TensorFlow, Keras, AutoML, ONNX.)
+* [InferenceSchema](https://github.com/Azure/InferenceSchema) This Python package is intended to provide uniform schema for common machine learning applications, as well as a set of decorators that can be used to aid in web based ML prediction applications.
 
 ## **Recommended Documents**
 
