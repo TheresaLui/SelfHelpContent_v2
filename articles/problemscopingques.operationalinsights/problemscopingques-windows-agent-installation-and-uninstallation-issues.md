@@ -49,7 +49,7 @@
                                 {
                     "value": "Cannot disable\uninstall the extension",
                     "text": "Cannot disable\uninstall the extension"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "I don't know"
