@@ -20,8 +20,6 @@
 
 # How to become an Indirect Reseller
 
-Information on how to enroll as an Indirect reseller in CSP channel.
-
 ## **Recommended Steps**
 
 1. [Verify your MPN account is active](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-your-mpn-id-is-active-and-migrated-to-partner-center)
