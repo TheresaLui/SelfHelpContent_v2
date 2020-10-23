@@ -11,6 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
+
 # Not receiving notifications
 ---
 {
