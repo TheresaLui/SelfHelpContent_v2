@@ -24,34 +24,15 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "eventhubs_namespaces",
-            "order": 1,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Event Hubs",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No event hubs available"
-                    }
-                }
-        },
-        {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
          {
             "id": "problem_capacityUnits",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "How many capacity units are your requesting for?",
             "watermarkText": "Choose an option",
@@ -92,7 +73,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_clustername",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is your preferred cluster name?",
             "watermarkText": "Please enter a unique name for your cluster",
@@ -100,7 +81,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_region",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What region do you want to create the cluster in?",
             "watermarkText": "Please enter the region where the cluster needs to be created",
@@ -108,7 +89,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_subcription",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Which subscription ID  would you like to provision your cluster to belong to?",
             "watermarkText": "Provide Subscription ID",
@@ -116,7 +97,7 @@ schemaVersion="1"
         },
        {
             "id": "problem_resourcegroup",
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Which the resource group would you like to provision your cluster in?",
             "watermarkText": "Provide resource group name",
@@ -124,7 +105,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
