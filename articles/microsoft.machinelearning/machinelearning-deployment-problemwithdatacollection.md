@@ -32,7 +32,7 @@ Most users are able to resolve this issue using the steps below.
 
 **Python SDK**
 
-[Webservice Package](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice?view=azure-ml-py) contains functionality for deploying machine learning models as web service endpoints in Azure Machine Learning.
+* [Webservice Package](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice?view=azure-ml-py) contains functionality for deploying machine learning models as web service endpoints in Azure Machine Learning.
 
 **Enterprise Readiness and Security**
 
