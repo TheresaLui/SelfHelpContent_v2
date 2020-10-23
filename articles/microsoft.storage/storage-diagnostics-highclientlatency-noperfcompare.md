@@ -7,7 +7,7 @@ resource="storage"
 authors="sijia"
 ms.author="siz"
 displayOrder=""
-articleId="Storagev2insights_HighClientLatency_PerfCompare"
+articleId="Storagev2insights_HighClientLatency_noPerfCompare"
 diagnosticScenario="High client latency for storage account"
 selfHelpType="diagnostics"
 supportTopicIds=""
@@ -21,10 +21,11 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 <!--issueDescription-->
 
-High client latency was observed for storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** between time**<!--$IssueStartTime-->[IssueStartTime]<!--/$IssueStartTime-->** and **<!--$IssueEndTime-->[IssueEndTime]<!--/$IssueEndTime-->**. The high latency could originate from either slow public internet connections, slow corporate proxy servers, bad routes, slow application performance such as high CPU, or client's network configuration problems.
+High client latency was observed for storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** between time **<!--$IssueStartTime-->[IssueStartTime]<!--/$IssueStartTime-->** and **<!--$IssueEndTime-->[IssueEndTime]<!--/$IssueEndTime-->**. The high latency could originate from either slow public internet connections, slow corporate proxy servers, bad routes, slow application performance such as high CPU, or client's network configuration problems.
 
 <!--/issueDescription-->
 
 ## **Recommended Documents**
 
 * Please refer to [Investigating network latency issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#investigating-network-latency-issues) for more troubleshooting information
+
