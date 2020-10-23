@@ -5,7 +5,7 @@
 	ms.author="hadhand"
 	authoralias="hadhand"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745967, 32745968, 32745969, 32745990"
+	supportTopicIds="32745967, 32745968, 32745969, 32745990, 32745991, 32745992"
 	productPesIds="16597"
 	cloudEnvironments="public, Fairfax, mooncake, blackforest, usnat, ussec"
 	schemaVersion="1"
