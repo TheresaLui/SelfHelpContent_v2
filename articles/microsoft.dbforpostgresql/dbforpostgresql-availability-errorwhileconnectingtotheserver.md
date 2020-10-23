@@ -42,6 +42,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Confirm that the username you are passing ends with the correct server name/hostname field (usernames need to be passed as `username@servername`)
 * Follow [connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) on computers hosting your client programs
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security)
+* As a part of our maintenance activity, we are working on changing out gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security). Refer to the steps to mitigate the issue in [this article](https://docs.microsoft.com/azure/postgresql/concepts-certificate-rotation)
 * Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/postgresql/howto-tls-configurations)
 
 

@@ -2,7 +2,7 @@
   pagetitle="Database Backup or Restore using URL (Azure Storage)"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="vadeveka,amamun,ujpat"
+  ms.author="ujpat"
   selfhelptype="Generic"
   supporttopicids="32740094"
   resourcetags="windowssql"
@@ -12,14 +12,13 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Database Backup or Restore using URL (Azure Storage)
 
-## Common Issues
-
+## **Recommended Steps**
 
  Most users are able to resolve their issues with SQL Server database backup to Azure storage (Backup to URL) using the recommended documents below.
 
 * **Error 3063: Backup to URL With SAS fails with the error:"Device has reached its limit of allowed blocks" or "The request could not be performed because of an I/O device error"**
 
-  To fix this issue, [Stripe your backup](https://docs.microsoft.com/archive/blogs/sqlcat/backing-up-a-vldb-to-azure-blob-storage) target with multiple files with below parameters: 
+  To fix this issue, [stripe your backup](https://docs.microsoft.com/archive/blogs/sqlcat/backing-up-a-vldb-to-azure-blob-storage) target with multiple files with below parameters: 
   
    ```SQL
     BACKUP DATABASE … TO 
@@ -32,19 +31,18 @@
 * **Migrate Databases or Export Data from On Premise/Another Cloud to Azure VM**
 
   If you have a planned downtime to migrate your databases, then you can use the following options: 
- 
-  * [Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?redirectedfrom=MSDN&view=sql-server-ver15#complete) using URL Feature
-  * [Restore](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=sql-server-ver15#Azure_Blob) using URL feature
+
+  * [Backup ](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?redirectedfrom=MSDN&view=sql-server-ver15#complete) and [Restore](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=sql-server-ver15#Azure_Blob)
   * [AzCopy tool](https://azure.microsoft.com/documentation/articles/storage-use-azcopy/)
   * [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
   * [Backup to Microsoft Azure Tool](https://blogs.technet.microsoft.com/dataplatforminsider/2014/07/24/get-started-backing-up-to-the-cloud-with-sql-server-backup-to-microsoft-azure-tool/) for SQL 2008/R2 version
   * [Azure Backup and Site Recovery](https://docs.microsoft.com/azure/backup/)
-  
-   If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure.  
 
+  If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure.  
+   
 * **Error 3271: Backup fails due to TLS or .Net with the error "Backup to URL received an exception from the remote endpoint"**
 
-  This can happen on SQL 2012,2014 and 2016. Backup to Microsoft Azure blob storage service URL isn’t compatible for TLS 1.2 and can be fixed by following this [KB article](https://support.microsoft.com/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser).
+  This can happen on SQL 2012, 2014, and 2016. Backup to Microsoft Azure blob storage service URL isn’t compatible for TLS 1.2 and can be fixed by following this [KB article](https://support.microsoft.com/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser).
 
 * **Error 45207: A container URL was either not provided or invalid**
 
@@ -62,14 +60,13 @@
 
 * **Error 3035: Cannot perform a differential backup for database "DBname", because a current database backup does not exist.**
 
-  This can occur if you have configured [Azure Backup service](https://docs.microsoft.com/azure/backup/backup-overview) to backup SQL databases or VM Snapshot which does not do a copy only backup causing your Maintenance plan or SQL Agent job , Ad hoc backups to fail. 
-  
-  To fix this, [Add the following registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances and where VM backups are configured and post this change backups will not fail:
-  
-  ```PS
-  [HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT]  
-  "USEVSSCOPYBACKUP"="TRUE" 
-  ```
+    * Full backup has not been taken at least once for the database. To fix this take a full backup.
+    * You have taken a full backup but you have configured [Azure Backup service](https://docs.microsoft.com/azure/backup/backup-overview) to backup SQL databases or VM Snapshot which does not do a copy only backup causing your Maintenance plan or SQL Agent job Ad hoc backups to fail . To fix this [Add the following registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances and where VM backups are configured:
+    
+       ```PS
+       [HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT]  
+       "USEVSSCOPYBACKUP"="TRUE" 
+       ```
 
 ## **Recommended Documents**
 
