@@ -1,23 +1,23 @@
 <properties
          pageTitle="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
          description="Scoping questions for deployment issues with appliance for physical servers (Configuration Server)"
-         authors="An-mol"
+         authors="anvar-ms"
         ms.author="anvar"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32675745"
+         supportTopicIds="32755159"
          productPesIds="16348"
-         cloudEnvironments="public, Fairfax, usnat, ussec"
+         cloudEnvironments="public"
          schemaVersion="1"
-         articleId="9398f098-8c04-4de6-a4db-59967d4805ea"
-	ownershipId="Compute_AzureMigrate"
+         articleId="9398f098-8c04-4de6-a4db-59967qw805ea"
+        ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with appliance for physical servers (Configuration Server)
 
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Deployment issues with appliance for physical servers (Configuration Server)",
     "fileAttachmentHint": "",
     "formElements": [
