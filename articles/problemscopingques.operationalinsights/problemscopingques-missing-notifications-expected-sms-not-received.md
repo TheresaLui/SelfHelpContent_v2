@@ -6,7 +6,7 @@
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739781"
-	productPesIds="15725"
+	productPesIds="15454"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
