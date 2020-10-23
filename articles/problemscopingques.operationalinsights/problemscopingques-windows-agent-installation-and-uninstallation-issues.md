@@ -127,7 +127,7 @@
             "displayLabel": "Describe the issue, including as much detail as possible with the exact text of error messages where available.",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available.",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
                         "hints": [
                 {
                     "text": "Please include the exact text of any error message."
