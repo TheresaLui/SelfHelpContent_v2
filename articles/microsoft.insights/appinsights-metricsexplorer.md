@@ -10,7 +10,7 @@
     articleId="appinsights-metricsexplorer"
     productPesIds="15693"
     supportTopicIds="32602208"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  

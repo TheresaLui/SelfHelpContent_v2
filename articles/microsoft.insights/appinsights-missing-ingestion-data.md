@@ -11,7 +11,7 @@
     diagnosticScenario=""
     productPesIds="15693"
     supportTopicIds="32602225"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
