@@ -1,27 +1,27 @@
 <properties
 	pageTitle="problemscopingquestions machinelearning compute"
-	description="Compute cluster in a bad state - scoping questions"
+	description="Attach compute - scoping questions"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="SturgeonMi"
 	ms.author="brendalee"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32690842,32690843, 32780560"
+	supportTopicIds="32690886, 32746413"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="problemscopingquestions-machinelearning-compute"
+	articleId="problemscopingquestions-machinelearning-attachcompute"
 	ownershipID="AzureML_AzureMachineLearningServices"
 />
 
 
-# Compute cluster in a bad state - scoping questions
+# Attach compute - scoping questions
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Compute cluster in a bad state - scoping questions",
+    "title": "Attach compute - scoping questions",
     "fileAttachmentHint": "",
     "formElements":
     [
@@ -40,17 +40,17 @@
 			"required": true
 	},
 		{
-			"id": "problem_vnetnsgrules",
+			"id": "problem_networking",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "In case of creation in a virtual network, can you provide the NSG rules you have?",
+			"displayLabel": "What networking configurations / firewalls do you have applied?",
 			"required": false
 	},
   {
-			"id": "problem_SDKver",
+			"id": "problem_errormessagedetails",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What version of SDK are you using??",
+			"displayLabel": "What is the error message and correlation ID?",
 			"required": false
 	},
 		{
@@ -71,4 +71,3 @@
 	]
 }
 ---
-
