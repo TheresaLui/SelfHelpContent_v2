@@ -56,3 +56,5 @@ Please review the following links for more information:
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
 * [Connect HDInsight to your on-premises network](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
 * [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
+* [Azure Security Baseline for HDInsight](https://docs.microsoft.com/azure/hdinsight/security-baseline)
+
