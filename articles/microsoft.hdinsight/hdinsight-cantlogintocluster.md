@@ -3,8 +3,8 @@
     description="I can't log in to my cluster"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="bharathsreenivas"
-    ms.author="jaserano"
+    authors="mimig1"
+    ms.author="mimig"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636506"
@@ -23,8 +23,10 @@ To resolve common issues, try one or more of the following steps.  Keep in mind 
 * **Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 * **Reset login password.** To reset the cluster login password, use the "Reset Credential" button in the [SSH + Cluster login](data-blade:Microsoft_Azure_HDInsight.LinuxLoginSettingBlade) tab.
 * **Reset credentials from Ambari.** For Linux clusters, if you cannot recall your SSH credentials, you can [reset the credentials within the Ambari UI](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords).
- 
-Please ensure that there are no port blocks on ports 22 and 23. In order to SSH into a cluster these ports needs to be accessible. For more information [click here](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix).
+* **Review your SSH logs.** It may be helpful to review your SSH logs to troubleshoot your issue. To review your logs, use the following command:
+
+   ssh -vvv sshuser@-ssh.azurehdinsight.net
+* **Review blocked ports.** Ensure that there are no port blocks on ports 22 and 23. In order to SSH into a cluster these ports needs to be accessible. For more information, see [Connect to HDInsight (Apache Hadoop) using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix).
 
 ## **Recommended Documents**
 
