@@ -40,8 +40,10 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 
 **Additional Information**
 
+* Customers can enable auto-scale only during when creating a cluster. If you have not configured auto-scale when creating a cluster, you must delete the cluster, and create a new cluster with auto-scale enabled.
 * HDInsight does not allow you to upgrade worker node disk sizes on a running cluster. Currently, you must choose the disk size when the cluster is created. HDInsight clusters are designed to be easily dropped and re-created.
 * Once a cluster is deployed, customer’s cannot increase or decrease the diskspace of the nodes. Customer’s can free up logs or free data on mount to get more disk space.
+* Head nodes cannot be scaled up. If you need additional head nodes, recreate your cluster with the number of head nodes required.
 * It is recommended that you scale down HDInsight to a minimum of three worker nodes. For Kafka, you cannot scale down the worker nodes.
 * Scaling your HDInsight is not possible via ARM templates. You can scale your cluster using five different methods:
 
@@ -51,7 +53,6 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
     * Azure Classic CLI
     * Azure portal
 
-* Customers can enable auto-scale only during when creating a cluster. If you have not configured auto-scale when creating a cluster, you must delete the cluster, and create a new cluster with auto-scale enabled.
 
 ## **Recommended Documents**
 
