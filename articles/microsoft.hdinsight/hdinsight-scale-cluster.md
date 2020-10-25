@@ -18,6 +18,10 @@
 
 The following are the most common issues encountered when scaling HDInsight.
 
+**Cluster is unresponsive during or after scaling**
+
+If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
 **Error: Code":"DeploymentQuotaExceeded","Message":"Creating the deployment 'subDeployment-XX-XXXXXXXXXXXXXXXXXXXXXXXXXXXX' would exceed the quota of '800**
 
 Azure has a quota limit of 800 deployments per resource group. Scale deployments will fail when we hit this limit. Since the customer's HDInsight cluster resource resides in their resource group, in their resource subscription, and the actual cluster assets reside in our provisioning subscriptions in its own resource group, the issue can happen when we hit the limit in either of the resource groups.
