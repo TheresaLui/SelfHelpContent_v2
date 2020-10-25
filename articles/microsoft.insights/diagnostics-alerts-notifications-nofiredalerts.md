@@ -18,7 +18,7 @@ ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 
 # Alerts notification failure – no fired alerts found
 
-## **No fired alerts found for this alert rules**
+## **No fired alerts found for this alert rule**
 
 <!--issueDescription-->
 Our diagnostics has detected that no alerts have been fired for alert rule <!--$AlertRuleName-->[AlertRuleName]<!--/$AlertRuleName--> between <!--$QueryStartTime-->[QueryStartTime]<!--/$QueryStartTime--> and <!--$QueryEndTime-->[QueryEndTime]<!--/$QueryEndTime-->. This may mean that the issue you are experiencing is related to the alert not firing at all, rather than a notification issue.
@@ -28,7 +28,7 @@ Our diagnostics has detected that no alerts have been fired for alert rule <!--$
 
 **Verify the alert rule name and period**
 
-Verify that the alert rule name and period are correct and match the issue your are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure portal to see if you may be relating to another alert rule which may have fired.
+Verify that the alert rule name and period are correct and match the issue you are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure portal to see if you could be relating to another alert rule which may have fired.
 
 **Troubleshoot why the alert didn't fire**
 
