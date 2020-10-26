@@ -32,7 +32,7 @@ Step 2: [Clean up Restore point collection](https://docs.microsoft.com/azure/bac
 - The naming format of the resource group created by Backup service is:<br>
 
 ```
-AzureBackupRG_<\Geo>_<\number>
+AzureBackupRG_<Geo>_<number>
 ```
 For example: AzureBackupRG_northeurope_1
 
