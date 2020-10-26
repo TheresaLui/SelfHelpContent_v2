@@ -1,14 +1,17 @@
 <properties
-	pageTitle="problemscopingques problem studio (classic)"
+	pageTitle="problemscopingquestions studio (classic)"
 	description="Studio (classic) - scoping questions"
+	service="microsoft.machinelearningstudioclassic"
+	resource="machinelearning"
+	authors="SturgeonMi"
 	ms.author="keli19"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32321860,32321848,32321850,32321867,32321847,32321856,32355159,32355170,32321879"
 	productPesIds="15570"
-	cloudEnvironments="public, usnat, ussec, fairfax"
+	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-machinelearning-studioclassic"
-	ownershipId="AzureML_AzureMachineLearning"
+	ownershipID="AzureML_AzureMachineLearning"
 />
 
 # Problem creating or managing designer pipeline: scoping questions
