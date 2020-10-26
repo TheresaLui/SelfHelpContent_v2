@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739782"
 	productPesIds="15454"
-	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
