@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra, rodejo, mwahl"
+  ms.author="v-vigra, rodejo, mwahl, dhanyahk"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -155,6 +155,14 @@
       "shortDescription": "Problems related to provisioning users from Azure AD into connected applications. Not be used for problems for SSO config, AADConnect or Intune.",
       "searchTags": "problem to provide user with SaaS app",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "890a3204-8103-bedf-c835-38ec9c16d794",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while installing Azure AD Cloud Provisioning agent on your on-premises AD server.",
+      "searchTags": "Azure AD Cloud Provisioning;AD2AAD;Install issues",
+      "category": "Installation",
       "useInDiagnoseAndSolve": "true"
     },
     {
