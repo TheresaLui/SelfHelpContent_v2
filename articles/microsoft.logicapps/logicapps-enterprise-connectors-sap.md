@@ -16,7 +16,7 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 
 * Connector documentation: [How to connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
 
-## Recommended Documents
+## **Recommended Documents**
 ### Installation
 
 - [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
@@ -51,7 +51,7 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 - [SAP BAPI transaction and lock patterns via stateful connection](https://www.linkedin.com/pulse/azure-logic-apps-support-sap-bapi-transaction-lock-patterns-burg/)
 - [Known issues and limitations](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#known-issues-and-limitations)
 
-## Recommended Steps
+## **Recommended Steps**
 ### Troubleshooting
 - [Find extended error logs](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#find-extended-error-logs)
 - [Logic App SAP connector all the logs](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-app-sap-connector-all-the-logs-to-capture-for-troubleshooting-and-requesting-support)
