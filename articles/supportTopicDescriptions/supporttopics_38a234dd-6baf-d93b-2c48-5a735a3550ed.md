@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eda2e58a-91b5-cb0c-5f2e-4b869283281f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning configuration is working incorrectly or not working at all.",
+      "searchTags": "provisioning configuration;Azure AD Cloud Provisioning;AD2AAD",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eed84b7f-6511-297a-334c-22d0a0335153",
       "longDescription": "",
       "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
