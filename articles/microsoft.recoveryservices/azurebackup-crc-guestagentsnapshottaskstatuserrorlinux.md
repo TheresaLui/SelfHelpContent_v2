@@ -26,7 +26,6 @@ We have identified that your backup operation might have failed, because the bac
 ## **Recommended Steps**
 
 4 out of 5 customers resolved their backup failures by following these steps:
-
 Step 1: **Update the VM using the following PowerShell command**<br> 
 ```
 Select-AzSubscription -SubscriptionId <YourSubscription>
