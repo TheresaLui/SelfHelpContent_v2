@@ -17,6 +17,7 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
+# Can't connect to PostgreSQL server: Azure AD administrator is not set
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) that attempted to use Azure AD authentication, but the Azure AD administrator is not set.

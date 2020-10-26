@@ -17,6 +17,7 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
+# Can't connect to PostgreSQL server: Invalid Azure AD token received by database server
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of invalid Azure AD authentication tokens.
