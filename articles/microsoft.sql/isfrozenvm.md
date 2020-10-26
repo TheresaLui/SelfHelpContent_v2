@@ -8,7 +8,7 @@
 	ms.author="subbuk"
 	displayOrder=""
 	articleId="IsFrozenVm_A4F4CB4A-E3C6-4001-B3D3-278FD7FC70EA"
-	diagnosticScenario="SqlLts"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
@@ -48,5 +48,5 @@ Specific mitigation steps are being taken while the root cause and a fix is iden
 1. A hardware level signal has been identified related to specific actions on the disk controller stack. These actions cause drives to be unavailable from some codepaths. Code is being deployed to detect this signal within seconds of occurrence and automatically restart frozen VMs. This signal is being refined to minimize false positives (currently about 25%). Once refined, the deployment will be rolled out progressively across Azure.
 2. A signal to detect frozen operations, based on checking read/write operations on all disks at regular intervals is also being developed. This signal detects issues with a lower false positive rate (about 25%). However, the detection and automated mitigation takes 5 minutes. The system to detect the signal has been deployed worldwide to SQL DB VMs and is being refined.
 3. Azure is developing a mechanism to identify frozen VMs through the loss of telemetry of a VM, or the VM entering an unresponsive state from perspective of the other VMs that communicate with it. This mechanism a low false positive rate (about 10%), and a low false negative rate (about 5%). However, detection and automatic mitigation takes 45 minutes. This system is deployed worldwide to SQL and Cosmos DB.
-	
+
 Azure is continuing to refine the above signals as more telemetry is analyzed.
