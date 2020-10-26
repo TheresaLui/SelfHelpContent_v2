@@ -10,7 +10,7 @@
 	articleId="dbforpostgresql-portal-general"
 	diagnosticScenario="PostgresPortalGeneral"
 	selfHelpType="rca"
-	supportTopicIds="32639971"
+	supportTopicIds="32639971, 32780904"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, Fairfax, usnat, ussec"

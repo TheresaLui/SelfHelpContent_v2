@@ -24,6 +24,12 @@
       "searchTags": "Accounts;Onboarding;Locations",
     },
     {
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
+      "longDescription": "",
+      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+    },
+    {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",

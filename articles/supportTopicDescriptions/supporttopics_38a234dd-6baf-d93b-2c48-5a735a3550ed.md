@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra, rodejo, mwahl"
+  ms.author="v-vigra, rodejo, mwahl, dhanyahk"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -67,6 +67,14 @@
       "shortDescription": "You are having a problem configuring the provisioning service for a SaaS app",
       "searchTags": "issue configuring provisioning service ",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "46858651-c6d4-223d-2e44-bc4fb09ebeb3",
+      "longDescription": "",
+      "shortDescription": "Issues related to syncing users from AD to Azure AD using the new Azure AD Cloud Provisioning agent",
+      "searchTags": "Cloud Provisioning;Azure AD Cloud Provisioning;AD2AAD;Azure AD Connect Preview",
+      "category": "Azure AD Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -254,11 +262,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dcf2d914-472b-a47f-da4d-5cb9265b7059",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning job is in a quarantine state",
+      "searchTags": "Quarantine;Provisioning job;Azure AD Cloud Provisioning",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
       "longDescription": "",
-      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "shortDescription": "Problems related to Azure AD Connect when syncing users from AD to AAD feature",
       "searchTags": "issue syncing from AD to AAD",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eda2e58a-91b5-cb0c-5f2e-4b869283281f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning configuration is working incorrectly or not working at all.",
+      "searchTags": "provisioning configuration;Azure AD Cloud Provisioning;AD2AAD",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -10,14 +10,14 @@
 	articleId="dbforpostgresql-asc-connectivity-aad-out-of-memory"
 	diagnosticScenario="OrcasPostgresAADOutOfMemory"
 	selfHelpType="diagnostics"
-	supportTopicIds="32742678"
+	supportTopicIds="32742678, 32780959"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Can’t connect to PostgreSQL server: Azure AD failure due to Out Of Memory
+# Can't connect to PostgreSQL server: Azure AD failure due to Out Of Memory
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because your server was out of memory whilst attempting to authenticate using Azure AD.
