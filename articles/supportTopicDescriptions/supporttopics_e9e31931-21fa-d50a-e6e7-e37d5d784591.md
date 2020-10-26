@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "06328c16-1b5b-1902-8dde-26c681f12051",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling out your scale set",
+      "searchTags": "scale",
+      "category": "Scaling",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
       "longDescription": "",
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
