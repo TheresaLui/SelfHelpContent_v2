@@ -16,6 +16,7 @@
 />
 
 # UserErrorRpCollectionLimitReached
+
 <!--issueDescription-->
 We identified that your backup operation was failing due the presence of a lock on the recovery point resource group. The lock might have been applied by an authorized user for security reasons. The presence of a lock prevents the execution of automatic cleanup, which can result in the recovery point reaching the maximum limit.
 <!--/issueDescription-->
