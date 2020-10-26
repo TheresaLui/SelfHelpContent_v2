@@ -30,6 +30,7 @@ If you notebook is not running, you might not be connect to a running compute in
 9. Wait for the Compute Instance to reboot
 10. Click "Notebooks" in the Azure ML Studio menu bar
 11. Choose the same Compute Instance, and now you should be able to run a cell in a Notebook
+12. If you are still running into issues,  make sure your network is allowing websocket connections to `*.instances.azureml.net` and `*.instances.azureml.ms`
 
 ## **Recommended Documents**
 
