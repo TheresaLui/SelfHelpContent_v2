@@ -30,6 +30,7 @@ Step 2: [Clean up Restore point collection](https://docs.microsoft.com/azure/bac
 
 - Backup service creates a separate resource group than the resource group of the VM to store restore point collection. It is mandatory not to lock the resource group created by the Backup service, [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached)
 - The naming format of the resource group created by Backup service is:<br>
+
 ```
 AzureBackupRG_<\Geo>_<\number>
 ```
