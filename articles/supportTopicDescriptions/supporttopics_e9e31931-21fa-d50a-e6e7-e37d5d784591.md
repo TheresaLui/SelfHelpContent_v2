@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f55585ae-e8ec-325b-3e86-ebf4acdee88d",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fc7ce244-83c2-72dc-049b-055413ea0401",
       "longDescription": "",
       "shortDescription": "Issues with basic management of scale sets not covered by other support topics.",
