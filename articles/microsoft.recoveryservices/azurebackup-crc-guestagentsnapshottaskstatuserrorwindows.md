@@ -30,9 +30,9 @@ Step 1: **Update the VM using the following PowerShell command**<br>
 *Select-AzSubscription -SubscriptionId <YourSubscriptionID>*<br>
 *$vm = get-azvm -name <VMName> -resourcegroupname <RGName>*<br>
 *Update-AzVM -ResourceGroupName <RGName> -VM $vm* <br>
+Retry the backup operation (for ex. you can try on-demand backup).
 
-Retry the backup operation (for ex. you can try on-demand backup). If the issue persists, follow below steps:
-
+If the issue persists, follow below steps:<br>
 Step 2: Check if the OS drive has enough space <br>
 Step 3: [Check Azure VM health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-1-check-azure-vm-health)<br>
 Step 4: [Check Azure VM Guest Agent service health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health)<br>
