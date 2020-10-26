@@ -14,13 +14,13 @@
 	ownershipID="AzureML_AzureMachineLearning"
 />
 
-# Problem creating or managing designer pipeline: scoping questions
+# Problem with Studio (classic): scoping questions
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Problem creating or managing designer pipeline",
+    "title": "Problem with Studio (classic)",
     "fileAttachmentHint": "",
     "formElements":
     [
