@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dcf2d914-472b-a47f-da4d-5cb9265b7059",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning job is in a quarantine state",
+      "searchTags": "Quarantine;Provisioning job;Azure AD Cloud Provisioning",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
       "longDescription": "",
       "shortDescription": "Problems related to Azure AD Connect when syncing users from AD to AAD feature",
