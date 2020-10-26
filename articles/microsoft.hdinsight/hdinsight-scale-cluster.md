@@ -3,8 +3,8 @@
     description="How to for know scenario"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="genlin"
-    ms.author="jaserano"
+    authors="mimig1"
+    ms.author="mimig"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32681540,32681539"
@@ -21,6 +21,18 @@ The following are the most common issues encountered when scaling HDInsight.
 **Cluster is unresponsive during or after scaling**
 
 If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
+**YARN UI not accessible after scale down**
+
+Node label information is stored in the nodelabel.mirror file, which is stored in HDFS. If replication = 1, then this file only has one replica. During a cluster scale down, if the node which stores this file is taken away and this file is not backed up on the remaining nodes, YARN will not be able to find available nodes to assign tasks.
+
+Resolution:
+
+1. Increase the replication factor to 3 (one time operation) by running the following command:
+
+    hadoop fs -setrep -R  3 hdfs://mycluster:8020/yarn/node-labels
+
+2. Disabling Node label from Ambari
 
 **Error: Code":"DeploymentQuotaExceeded","Message":"Creating the deployment 'subDeployment-XX-XXXXXXXXXXXXXXXXXXXXXXXXXXXX' would exceed the quota of '800**
 
