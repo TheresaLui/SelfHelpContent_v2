@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-missing-notifications-expected-sms-not-received-la"
+	articleId="problemscopingques-missing-notifications-expected-sms-not-received-la1"
 	pageTitle="Expected sms not received"
 	description="Expected sms not received"
 	authors="neilghuman"
