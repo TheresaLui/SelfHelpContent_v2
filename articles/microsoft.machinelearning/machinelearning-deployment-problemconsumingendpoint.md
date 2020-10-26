@@ -34,7 +34,7 @@ Most users are able to resolve this issue using the steps below.
     * [Cross-origin resource sharing (CORS)](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#cross-origin-resource-sharing-cors)
     * [Load Registered models](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#load-registered-models). There are two ways to locate models in your entry script.
     * [Framework specific examples](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#framework-specific-examples). More entry script examples for specific machine learning use cases (PyTorch, TensorFlow, Keras, AutoML, ONNX).
-* [InferenceSchema](https://github.com/Azure/InferenceSchema) This Python package is intended to provide uniform schema for common machine learning applications, as well as a set of decorators that can be used to aid in web based ML prediction applications.
+* [InferenceSchema](https://github.com/Azure/InferenceSchema) This Python package is intended to provide uniform schema for common machine learning applications, as well as a set of decorators that can be used to aid in web-based ML prediction applications.
 * [Collect and evaluate model data](https://docs.microsoft.com/azure/machine-learning/how-to-enable-data-collection)
 * [Monitor and collect data from ML web service endpoints](https://docs.microsoft.com/azure/machine-learning/how-to-enable-app-insights)
 * If you encounter problems deploying a model to ACI or AKS, try deploying it as a local web service. Using a local web service makes it easier to troubleshoot problems.
