@@ -20,7 +20,6 @@
 
 # Error UserErrorVmNotFoundV2
 
-
 <!--issueDescription-->
 If an Azure VM that is configured for Azure Backup, is either deleted or moved without [stopping protection]( https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm), then the scheduled/on-demand backup job will fail with an error **UserErrorVmNotFoundV2**.
 <!--/issueDescription-->
