@@ -139,7 +139,7 @@
         },
         {
             "id": "quota_provider_type",
-            "visibility": "quota_subtype == provider-quota && quota_workspace != null",
+            "visibility": "quota_subtype == provider-quota && quota_workspace != null && quota_workspace != dont_know_answer",
             "order": 7,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
@@ -158,8 +158,18 @@
             ]
         },
         {
-            "id": "quota_new_limit",
+            "id": "quota_provider_type_fallback",
+            "visibility": "quota_subtype == provider-quota && quota_workspace != null && quota_workspace == dont_know_answer",
             "order": 8,
+            "controlType": "textbox",
+            "displayLabel":"Provider Quota Type",
+            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Concurrent Jobs",
+            "required": false
+        },
+        {
+            "id": "quota_new_limit",
+            "visibility": "quota_provider_type_fallback != null || quota_provider_type != null || quota_region != null || quota_sublevel == sub",
+            "order": 9,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
             "watermarkText": "Please specify what number you would like the specified quota type raised to.",
@@ -178,7 +188,8 @@
         },
         {
             "id": "quota_business_justification",
-            "order": 9,
+            "visibility": "quota_new_limit != null",
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
@@ -186,7 +197,8 @@
         },
         {
             "id": "quota_description_fallback",
-            "order": 10,
+            "visibility": "quota_region == dont_know_answer || quota_workspace == dont_know_answer || quota_provider == dont_know_answer",
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
             "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
