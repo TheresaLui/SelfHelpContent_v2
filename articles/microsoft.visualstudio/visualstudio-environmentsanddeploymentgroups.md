@@ -49,7 +49,7 @@ Are you facing one of these common problems?
 * [Provision agents for deployment groups](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/howto-provision-deployment-group-agents?view=azure-devops)
 * [Provision deployment groups](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/?view=azure-devops)
 * [Check prerequisites for Linux distributions](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites)
-* [Configure an agent behind proxy](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/proxy?view=azure-devops&tabs=windows)
+* [Configure an agent behind proxy](https://docs.microsoft.com/azure/devops/pipelines/agents/proxy?view=azure-devops&tabs=windows)
 * [Deploy to Azure VMs using deployment groups in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/deploying-azure-vms-deployment-groups?view=azure-devops)
 * [Deployment pool security roles](https://docs.microsoft.com/azure/devops/pipelines/policies/permissions?view=azure-devops#deployment-pool-security-roles)
 * [Create and target an environment](https://docs.microsoft.com/azure/devops/pipelines/process/environments?view=azure-devops)
