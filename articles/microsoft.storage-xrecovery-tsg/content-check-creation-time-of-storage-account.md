@@ -19,5 +19,36 @@
 
 1. Navigate to Geneva Actions : [SRP > SRP Operations > Get Deleted Storage Account](https://jarvis-west.dc.ad.msft.net/271CD959?genevatraceguid=d42c3a17-2955-489e-abfc-d4610df8017c)
 2. Fill in the requested information and hit "Run".
-3. Successful completion
-4. Review all entries returned to determine the right version to be recovered.
+
+
+<br>
+Successful completion will look like the following:
+
+~~~Example SA output
+{
+    "DeletedAccount": {
+        "value": [
+            {
+                "key": "storagekjs|2020-10-07t11:43:32.9192421z",
+                "name": "storagekjs",
+                "location": "northeurope",
+                "subscription": "11111111-1111-1111-1111-111111111111",
+                "resourceGroupName": "storage-test",
+                "creationTime": "2020-10-07T11:43:32.9192421Z",
+                "deletionTime": "2020-10-07T11:57:31.0807017Z",
+                "primaryStampName": "db3prdstr11a",
+                "geoPrimaryRegion": "europenorth",
+                "geoSecondaryRegion": "europewest"
+            }
+        ]
+    }
+}
+~~~
+
+**NOTE:** "Account not found". This may be because of the following:
+
+
+1. The provided information is incorrect, or
+2. The deletion time was more than 14 days in the past (in which case the account cannot be recovered), or
+3. The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter , or [TSG 1187811](http://vstfrd:8080/Azure/RD/_workitems?id=1187811&_a=edit) instead, or
+4. There is some issue with the Deleted Accounts list in SRP, in which case you may engage the XStore > Location Service DRI.
