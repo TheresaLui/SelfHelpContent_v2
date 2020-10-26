@@ -17,7 +17,7 @@
 
 # How to check storage account deletion history
 
-**Important: Account name should not have been reused. **
+**Important: Account name should not have been reused.**
 
 Customer should NOT recreate a storage account with the same name. In some cases, recreating a storage account with the same name will cause the original storage account data to be cleaned up early making it unrecoverable. If already recreated, they will need to delete the recreated account before we start.
 
