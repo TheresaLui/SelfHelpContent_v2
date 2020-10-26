@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4823a11b-f32f-23da-1d94-00d26499fa62",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling in your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
       "longDescription": "",
       "shortDescription": "Questions or issues  specific to performance issues with the scale set or instance.",
