@@ -20,14 +20,27 @@
 # Guest Agent Snapshot Task Status Error: Linux
 
 <!--issueDescription-->
-Could not communicate with the VM agent for snapshot status.
+We have identified that your backup operation might have failed, because the backup service was unable to communicate with your VM's Guest Agent.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- We have identified that your backup operation might have failed, because our backup service could not communicate with the VM agent. To resolve this issue, follow the steps listed in this [section](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health).
-- Ensure [VM Extensions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health) and [VM Backup Extension](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health) are healthy 
-- Ensure there is enough free space in the **Root** drive
-- Ensure there are no pending OS updates
+
+4 out of 5 customers resolved their backup failures by following these steps:
+
+Step 1: **Update the VM using the following PowerShell command**<br> 
+
+*Select-AzSubscription -SubscriptionId <YourSubscriptionID>*<br>
+*$vm = get-azvm -name <VMName> -resourcegroupname <RGName>*<br>
+*Update-AzVM -ResourceGroupName <RGName> -VM $vm* <br>
+	
+Step 2: [Update the Linux agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent) and retry the backup operation (for ex. you can try on-demand backup).
+
+If the issue persists, follow below steps:<br>
+Step 3: Check if the root drive has enough space<br>
+Step 4: [Check Azure VM health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-1-check-azure-vm-health)<br>
+Step 5: [Check Azure VM guest agent service health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health)<br>
+Step 6: [Check Azure VM extension health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health)<br>
+Step 7: [Check Azure Backup VM extension health](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health)
 
 ## **Recommended Documents**
 
