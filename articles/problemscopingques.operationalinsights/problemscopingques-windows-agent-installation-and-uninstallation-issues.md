@@ -18,7 +18,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Windows agent installation and uninstallation issues",
-    "fileAttachmentHint": "Please upload screenshots of any relevant details.  Kindly include any additional information which may help the support engineer troubleshoot your issue.",
+    "fileAttachmentHint": "Please upload screenshots of any relevant details. Include any additional information that can help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
