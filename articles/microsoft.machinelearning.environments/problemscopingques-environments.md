@@ -28,9 +28,23 @@
             "useAsAdditionalDetails": true,
             "required": true
         },
+	{
+            "id": "package",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Are you experiencing package installation or update issues?",
+            "required": false
+        },
+	{
+            "id": "service_side",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Are you experiencing container registry or storage issues?",
+            "required": false
+        },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
