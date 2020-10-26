@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra, rodejo, mwahl"
+  ms.author="v-vigra, rodejo, mwahl, dhanyahk"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -67,6 +67,14 @@
       "shortDescription": "You are having a problem configuring the provisioning service for a SaaS app",
       "searchTags": "issue configuring provisioning service ",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "46858651-c6d4-223d-2e44-bc4fb09ebeb3",
+      "longDescription": "",
+      "shortDescription": "Issues related to syncing users from AD to Azure AD using the new Azure AD Cloud Provisioning agent",
+      "searchTags": "Cloud Provisioning;Azure AD Cloud Provisioning;AD2AAD;Azure AD Connect Preview",
+      "category": "Azure AD Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
