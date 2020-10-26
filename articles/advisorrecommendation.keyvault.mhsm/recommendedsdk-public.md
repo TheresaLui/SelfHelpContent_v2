@@ -22,7 +22,7 @@
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
 	"recommendationResourceType": "Microsoft.KeyVault/managedHsms",
-	"recommendationFriendlyName": "UpgradeKeyVaultSDK",
+	"recommendationFriendlyName": "UpgradeKeyVaultMHSMSDK",
 	"recommendationMetadataState": "Active",
 	"owner": {
 		"email": "mhsmdevs@microsoft.com",
