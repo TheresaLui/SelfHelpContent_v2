@@ -39,15 +39,15 @@
 	"longDescription": "New Key Vault Client Libraries are split to keys, secrets, and certificates SDKs, which are integrated with recommended Azure Identity library to provide seamless authentication to Key Vault across all languages and environments. It also contains several performance fixes to issues reported by customers and proactively identified through our QA process.
 	Important: Please be aware that you can only remediate recommendation for custom applications you have access to. Recommendations can be shown due to integration with other Azure services like Storage, Disk encryption, which are in process to update to new version of our SDK. If you use .NET 4.0 in all your applications please dismiss",
 	"potentialBenefits": "Latest Key Vault Client Libraries contain fixes for known issues and additional improvements.",
-	"supportedSDKLanguages": [".Net"],
+	"supportedSDKLanguages": [".Net", "Python", "Node.js"],
 	"actions": [{
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
+			"actionId": "46f46aa2-1549-4bba-bb61-09d311774720",
 			"description": "Learn how to update your Key Vault Client Libraries",
 			"actionType": "Document",
 			"documentLink": "{recommendedActionLearnMore}"
 		},
 		{
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5114",
+			"actionId": "46f46aa2-1549-4bba-bb61-09d311774721",
 			"description": "View {version} release notes",
 			"actionType": "Document",
 			"documentLink": "{releaseNotes}"
@@ -55,7 +55,7 @@
 	],
 	"resourceMetadata": {
 		"action": {
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5115",
+			"actionId": "46f46aa2-1549-4bba-bb61-09d311774722",
 			"actionType": "Blade",
 			"extensionName": "Microsoft_Azure_KeyVault",
 			"bladeName": "VaultBlade",
@@ -65,13 +65,14 @@
 		}
 	},
 	"displayLabel": "Update Key Vault Library",
-	"additionalColumns": [{
-			"name": "language",
-			"title": "SDK Language"
+	"additionalColumns": [
+		{
+			"name": "sdk",
+			"title": "SDK Product"
 		},
 		{
-			"name": "version",
-			"title": "Minimum Recommended Version"
+			"name": "currentVersion",
+			"title": "The detected version used"
 		}
 	],
 	"tip": ""
