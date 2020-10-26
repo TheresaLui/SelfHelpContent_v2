@@ -264,7 +264,7 @@
     {
       "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
       "longDescription": "",
-      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "shortDescription": "Problems related to Azure AD Connect when syncing users from AD to AAD feature",
       "searchTags": "issue syncing from AD to AAD",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
