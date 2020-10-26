@@ -18,8 +18,9 @@
 # How to check if storage account type qualifies for recovery
 
 1. Navigate to Resource Explorer and search for the affected Storage Account resource.
-2. In the Properties section, check the Type and ensure it is one of the following. No data recovery is possible for the types that do not qualify.
-    1. Standard_GRS
-	2. Standard_RAGRS
-	3. Standard_GZRS
-	4. Standard_RAGZRS
+2. In the Properties section, check the Type and **ensure it is one of the following listed below**. No data recovery is possible for the types that do not qualify:
+
+	* Standard_GRS
+	* Standard_RAGRS
+	* Standard_GZRS
+	* Standard_RAGZRS

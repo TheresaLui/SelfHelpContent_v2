@@ -36,7 +36,7 @@
 			"id": "problem_computeinstancename",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "What is the name of compute instance?",
+			"displayLabel": "What is the name of the compute resource?",
 			"required": true
 	},
 		{
