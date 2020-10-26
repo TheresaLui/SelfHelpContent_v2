@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "890a3204-8103-bedf-c835-38ec9c16d794",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while installing Azure AD Cloud Provisioning agent on your on-premises AD server.",
+      "searchTags": "Azure AD Cloud Provisioning;AD2AAD;Install issues",
+      "category": "Installation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8dde49e1-0398-a1f0-ba15-b3561e5c1c3d",
       "longDescription": "",
       "shortDescription": "Problems related to provisioning users from a cloud HR app into Active Directory or Azure Active Directory",
