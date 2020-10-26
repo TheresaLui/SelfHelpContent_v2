@@ -38,21 +38,21 @@
                 "required": false
     },
           {
-                "id": "problem_requestid",
+                "id": "problem_sdk_version",
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "What version of SDK are you using?",
                 "required": false
     },
           {
-                "id": "problem_requestid",
+                "id": "problem_pipelinerunid",
                 "order": 4,
                 "controlType": "textbox",
                 "displayLabel": "Please provide the runid(s) for failed/ troublesome runs",
                 "required": false
 	},
           {
-                "id": "problem_pipelinerunid",
+                "id": "problem_pipelinerunurl",
                 "order": 5,
                 "controlType": "textbox",
                 "displayLabel": "Please provide pipeline run/pipeline draft URL",
