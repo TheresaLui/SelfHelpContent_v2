@@ -30,7 +30,7 @@
             		"controlType": "datetimepicker",
             		"displayLabel": "When did the problem start?",
             		"required": false
-        },		
+        },
 		{
 			"id": "problem_description",
 			"order":2,
