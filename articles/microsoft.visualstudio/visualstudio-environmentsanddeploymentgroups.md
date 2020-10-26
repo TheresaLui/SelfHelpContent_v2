@@ -2,7 +2,6 @@
 	pageTitle="Environments and Deployment Groups"
 	description="Issues related to using environments in a YAML pipeline or deployment groups in a classic release pipelines"
 	infoBubbleText="Azure Pipelines issues related to Environments and Deployment groups"
-    infoBubbleText="Azure Pipelines issues related to Environments and Deployment Groups"
 	service="microsoft.visualstudio"
 	resource="account"
 	authors="v-abiss"
@@ -35,7 +34,7 @@ Are you facing one of these common problems?
 
 * **I encounter an error "./svc.sh command not found" when creating a deployment group on a Linux virtual machine**
 
-    Check the [linux distributions supported](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites). Ensure the user account that you're using has permission to register the agent. The **./svc.sh** script will run and manage your agent as a **systemd service**. If you [run your agent as a service](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#run-as-a-systemd-service), you cannot run the agent service as root user.
+    Check the [Linux distributions supported](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites). Ensure the user account that you're using has permission to register the agent. The **./svc.sh** script will run and manage your agent as a **systemd service**. If you [run your agent as a service](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#run-as-a-systemd-service), you cannot run the agent service as root user.
 
 * **Unable to configure the Deployment Group agent behind proxy**
 
@@ -43,13 +42,13 @@ Are you facing one of these common problems?
 
 * **I cannot register new target for my Deployment Group**
 
-    Add the user as an Administrator in the **[Deployment pool security policies](https://docs.microsoft.com/en-us/azure/devops/pipelines/policies/permissions?view=azure-devops#deployment-pool-security-roles)**.
+    Add the user as an Administrator in the **[Deployment pool security policies](https://docs.microsoft.com/azure/devops/pipelines/policies/permissions?view=azure-devops#deployment-pool-security-roles)**.
 
 ## **Recommended Documents**
 
 * [Provision agents for deployment groups](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/howto-provision-deployment-group-agents?view=azure-devops)
 * [Provision deployment groups](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/?view=azure-devops)
-* [Check prerequisites for linux distributions](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites)
+* [Check prerequisites for Linux distributions](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites)
 * [Configure an agent behind proxy](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/proxy?view=azure-devops&tabs=windows)
 * [Deploy to Azure VMs using deployment groups in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/release/deployment-groups/deploying-azure-vms-deployment-groups?view=azure-devops)
 * [Deployment pool security roles](https://docs.microsoft.com/azure/devops/pipelines/policies/permissions?view=azure-devops#deployment-pool-security-roles)
