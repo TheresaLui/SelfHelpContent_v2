@@ -10,7 +10,6 @@
 	articleId="dbforpostgresql-asc-operation-capacity"
 	diagnosticScenario="OrcasPostgresOperationFailure"
 	selfHelpType="rca"
-	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
