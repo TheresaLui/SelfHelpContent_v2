@@ -20,7 +20,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that connections utilizing the Proxy method of connecting to database  <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> were being throttled.  By default, connections originating outside of the Azure network boundary will use the proxy method which will be a shared common endpoint for connecting to the database(s) in that region. If performance regressions are seen or heavy traffic from a client are seen, throttling can occur.
+We identified that connections utilizing the Proxy method of connecting to database  <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> were being throttled. By default, connections originating outside of the Azure network boundary will use the proxy method which will be a shared common endpoint for connecting to the database(s) in that region. If performance regressions are seen or heavy traffic from a client are seen, throttling can occur.
 <!--/issueDescription-->
 ## **Recommended Steps**
 

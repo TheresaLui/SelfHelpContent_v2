@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="Database Connectivity issue due to frozen VM detected"
 	description="IsFrozenVM"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
