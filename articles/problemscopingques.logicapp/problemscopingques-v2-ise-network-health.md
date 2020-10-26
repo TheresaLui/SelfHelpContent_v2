@@ -58,7 +58,7 @@
             "displayLabel": "Please provide Network Health details from the Azure portal.",
             "watermarkText": "",
             "required": false
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
