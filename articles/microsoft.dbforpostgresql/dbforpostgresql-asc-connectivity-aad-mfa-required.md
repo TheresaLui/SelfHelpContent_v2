@@ -17,7 +17,7 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Canâ€™t connect to PostgreSQL server: Azure AD token is not authenticated with multi-factor authentication
+# Can't connect to PostgreSQL server: Azure AD token is not authenticated with multi-factor authentication
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of an Azure AD token that was not validated using multi-factor authentication.
