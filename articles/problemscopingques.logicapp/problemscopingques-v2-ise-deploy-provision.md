@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32780463"
     productPesIds="17030"
-    cloudEnvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+    cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     schemaVersion="1"
     ownershipId="Compute_LogicApps"
 />
