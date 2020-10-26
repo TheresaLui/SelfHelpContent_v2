@@ -38,8 +38,8 @@
   "version": 1.3,
   "learnMoreLink": "https://aka.ms/ams-quota-recommendation/",
   "description": "Increase Media Services quotas or limits to ensure continuity of service.",
-  "longDescription": "Ask for the quotas or limits to be raised by opening a support ticket. Do not create additional Azure Media Services accounts in an attempt to obtain higher limits.",
-  "potentialBenefits": "Improve business continuity by not hitting quotas or limits.",
+  "longDescription": "Please be advised that your media account is about to hit its quota limits. Please review current usage of Assets, Content Key Policies and Stream Policies for the media account. To avoid any disruption of service, you should request quota limits to be increased for the entities that are closer to hitting quota limit. You can request quota limits to be increased by opening a ticket and adding relevant details to it. Please don't create additional Azure Media accounts in an attempt to obtain higher limits.",
+  "potentialBenefits": "Avoid any disruption to service due to customer exceeding quota limits.",
   "actions": [
     {
       "actionId": "fbc706f9-98a1-444a-8370-0fb7e121a80c",
