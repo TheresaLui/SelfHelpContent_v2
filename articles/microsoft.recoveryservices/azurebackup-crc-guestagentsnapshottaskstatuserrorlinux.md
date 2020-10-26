@@ -28,11 +28,12 @@ We have identified that your backup operation might have failed, because the bac
 4 out of 5 customers resolved their backup failures by following these steps:
 
 Step 1: **Update the VM using the following PowerShell command**<br> 
+```
+Select-AzSubscription -SubscriptionId <YourSubscription>
+$vm = get-azvm -name <VMName> -resourcegroupname <RGName>
+Update-AzVM -ResourceGroupName <RGName> -VM $vm*
+```
 
-*Select-AzSubscription -SubscriptionId <YourSubscriptionID>*<br>
-*$vm = get-azvm -name <VMName> -resourcegroupname <RGName>*<br>
-*Update-AzVM -ResourceGroupName <RGName> -VM $vm* <br>
-	
 Step 2: [Update the Linux agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent) and retry the backup operation (for ex. you can try on-demand backup).
 
 If the issue persists, follow below steps:<br>
