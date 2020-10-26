@@ -23,6 +23,7 @@ We identified that your backup operation was failing due the presence of a lock 
 ## **Recommended Steps**
 
 4 out of 5 customers resolved their backup failures by following these steps:<br>
+
 Step 1: [Remove the lock from the resource Group](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#remove_lock_from_the_recovery_point_resource_group)<br>
 Step 2: [Clean up Restore point collection](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#clean_up_restore_point_collection)<br>
 
