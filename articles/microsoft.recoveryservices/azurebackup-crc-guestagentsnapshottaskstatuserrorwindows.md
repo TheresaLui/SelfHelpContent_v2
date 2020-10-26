@@ -27,9 +27,11 @@ We have identified that your backup operation might have failed, because the bac
 
 Step 1: **Update the VM using the following PowerShell command**<br> 
 
-*Select-AzSubscription -SubscriptionId <YourSubscriptionID>*<br>
-*$vm = get-azvm -name <VMName> -resourcegroupname <RGName>*<br>
-*Update-AzVM -ResourceGroupName <RGName> -VM $vm* <br>
+```
+Select-AzSubscription -SubscriptionId <YourSubscription>
+$vm = get-azvm -name <VMName> -resourcegroupname <RGName>
+Update-AzVM -ResourceGroupName <RGName> -VM $vm*
+```
 Retry the backup operation (for ex. you can try on-demand backup).
 
 If the issue persists, follow below steps:<br>
