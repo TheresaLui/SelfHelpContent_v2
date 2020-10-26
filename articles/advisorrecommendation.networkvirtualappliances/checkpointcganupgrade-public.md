@@ -23,7 +23,7 @@ ownershipId="CloudNet_NVA"
     "recommendationCategory": "Performance",
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Compute/virtualMachines",
-    "recommendationFriendlyName": "AristaVeosANUpgradeRecommendation",
+    "recommendationFriendlyName": "CheckPointCGANUpgradeRecommendation",
     "recommendationMetadataState": "Active",
     "owner": {
         "email": "nvaeng@microsoft.com",
