@@ -21,7 +21,7 @@
 
 Customer should NOT recreate a storage account with the same name. In some cases, recreating a storage account with the same name will cause the original storage account data to be cleaned up early making it unrecoverable. If already recreated, they will need to delete the recreated account before we start.
 
-**Ensure storage account does not exist currently. (Use any one of the 2 options provided)**
+**Ensure storage account does not exist currently.**
 
 None of the following should resolve.
 
@@ -33,9 +33,19 @@ None of the following should resolve.
 
 **Determine when storage account was deleted:**
 
-Note: There might be multiple delete operations so you must carefully determine the relevant one. It typically is the earliest delete operation but always double check with customer.
+Note: There might be multiple delete operations so you must carefully determine the relevant one. It typically is the earliest delete operation but always double check with customer.<br>
+<br>
 
-**Option 1: Using a Kusto Query**
+**Option 1 : Using the ASC operations report.**
+
+1. Navigate to [Resource Explorer in Azure Support Center ](https://azuresupportcenter.msftcloudes.com/resourceExplorer?srId=) and select the resource at the Subscription level(top resource).
+2. Choose the operations tab, set the timeframe when the account might have been deleted. 
+3. If not sure, choose last 14 days. Older deletes are unlikely to be recoverable.
+4. Run the report.<br>
+
+<br>
+
+**Option 2: Using a Kusto Query**
 
 1. [Web Kusto Query Link](https://dataexplorer.azure.com/clusters/armprod/databases/ARMProd?query=H4sIAAAAAAAAA6VSwY7TMBC99yssnxIpSgEhDqyKFNKwRNo2VZzCsXLt2dRsGwd7Qne18O/YTbspapGQyMWK582b5/dmC0hYt87lhD670wqjWlS6WeXTX/RmtPXlZM534OuoDa9hlQihuwZX/voEStisaHvcNLvLqmzMlh9ZWuaLKi/mbFxmrFiWaXZbFssFGy/K4ks+zUo2nuVpWbDiUxWndwljecqqokxuXX9/JmlaLOcVG9Mb0k8q/3vS30eMxLazCCag3Oxao2X84P51vFeN1HsbN4A0jCVHvuYWAurELBzK3X1GbIsOa62auoTvHVi0I/KT7DdggCwMCGWhUjtgyHct+UAIr3Xw+q0MyQCzZwnkkkwmfTZnCN2C4b7sHfCAF+OJNleqJ7MGBuSmBlwaRYRukKvGBn3CIeGNJBW3D4du64Bo9wo3hF55XNbIr65GPTE8IrjW434c16N6ap0EotR98Kes09hBekTTLbdWCRp5R2k4IscvIgZq1zj5JxpvHxqnMbBgfigBR625jF5FLkF41PeXJfqehuFZ70ZbPNANPS9XNDbWtA5/LtFb5lLFzk4GlpOP0Zt3offILdM3EHixCdEV206vPqeOhuBGh6lCGwNb3q9KRC6eRTYutL431dJxwqOAw2bNwFo30KvSRoIh66fLBeVW/AbHNIpQHAQAAA==)
 
@@ -66,9 +76,20 @@ cluster("armprod.kusto.windows.net").database("ARMProd").HttpOutgoingRequests
 
 Record the storage account type, region, delete timestamp and CorrelationID. We will need that in later steps.
 
-**Option 2 : Using the ASC operations report.**
+<br>
 
-1. Navigate to [Resource Explorer in Azure Support Center ](https://azuresupportcenter.msftcloudes.com/resourceExplorer?srId=) and select the resource at the Subscription level(top resource).
-2. Choose the operations tab, set the timeframe when the account might have been deleted. 
-3. If not sure, choose last 14 days. Older deletes are unlikely to be recoverable.
-4. Run the report.
+**Option 3 : Geneva Actions.**
+
+1. In Geneva Actions, navigate to [SRP > SRP Operations > Get Deleted Storage Account](https://jarvis-west.dc.ad.msft.net/271CD959?genevatraceguid=d42c3a17-2955-489e-abfc-d4610df8017c)  
+2. Fill in the requested information and hit “Run”
+3. Review all entries returned to determine the right version to be recovered.
+
+<br>
+
+**NOTE:** "Account not found". This may be because of the following:
+
+
+1. The provided information is incorrect, or
+2. The deletion time was more than 14 days in the past (in which case the account cannot be recovered), or
+3. The account was a Microsoft.ClassicStorage account or RDFE account, which should be recovered with by running the classic account recovery ASC troubleshooter , or [TSG 1187811](http://vstfrd:8080/Azure/RD/_workitems?id=1187811&_a=edit) instead, or
+4. There is some issue with the Deleted Accounts list in SRP, in which case you may engage the XStore > Location Service DRI.
