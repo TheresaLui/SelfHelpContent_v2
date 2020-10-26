@@ -27,11 +27,13 @@ We have identified that your backup operation might have failed, because the bac
 4 out of 5 customers resolved their backup failures by following these steps:<br>
 
 Step 1: **Update the VM using the following PowerShell command**<br> 
+
 ```
 Select-AzSubscription -SubscriptionId <YourSubscriptionID>
 $vm = get-azvm -name <VMName> -resourcegroupname <RGName>
 Update-AzVM -ResourceGroupName <RGName> -VM $vm*
 ```
+
 Retry the backup operation (for ex. you can try on-demand backup)
 
 If the issue persists, follow below steps:<br>
