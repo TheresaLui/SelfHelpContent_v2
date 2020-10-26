@@ -112,7 +112,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/en-us/azure/databox-online/azure-stack-edge-gpu-kubernetes-workload-management'>Learn more</a> about Azure Stack Edge Kubernetes workload and management"
+            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-gpu-kubernetes-workload-management'>Learn more</a> about Azure Stack Edge Kubernetes workload and management"
         }
 	],
 	"$schema": "SelfHelpContent"

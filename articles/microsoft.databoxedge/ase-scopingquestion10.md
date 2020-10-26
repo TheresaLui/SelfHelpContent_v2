@@ -111,7 +111,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/en-us/azure/databox-online/azure-stack-edge-gpu-deploy-virtual-machine-templates'>Learn more</a> about Azure Stack Edge VM Deployment and management"
+            "content": "<a href='https://docs.microsoft.com/azure/databox-online/azure-stack-edge-gpu-deploy-virtual-machine-templates'>Learn more</a> about Azure Stack Edge VM Deployment and management"
         }
 	],
 	"$schema": "SelfHelpContent"
