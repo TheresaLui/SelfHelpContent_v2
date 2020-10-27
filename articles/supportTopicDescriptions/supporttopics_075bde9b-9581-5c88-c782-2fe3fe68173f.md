@@ -24,12 +24,6 @@
       "searchTags": "Accounts;Onboarding;Locations",
     },
     {
-      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
-      "longDescription": "",
-      "shortDescription": "Questions on the Microsoft Partner agreement including how to accept the MPA, access to indirect reseller agreement for Providers, and information on variations or updates to the agreement.",
-      "searchTags": "MPA;Accept;Sign;Direct;CSP",
-    },
-    {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
