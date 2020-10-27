@@ -59,7 +59,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
+            "watermarkText": "Please provide the details regarding the issue, such as an error message that you're receiving.",
             "required": true,
             "useAsAdditionalDetails": true
         },
