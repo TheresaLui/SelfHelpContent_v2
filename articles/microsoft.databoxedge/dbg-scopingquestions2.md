@@ -32,7 +32,7 @@
 	     "id": "Provisioning",
 	     "order": 100,
 	     "controlType": "dropdown",
-	     "displayLabel": "Did you meet the minimum requirements of 4 vcpu and 2 TB virtual disk",
+	     "displayLabel": "Did you meet the minimum requirements of 4 vcpu and 2 TB virtual disk?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -54,7 +54,7 @@
 	     "id": "Network",
 	     "order": 200,
 	     "controlType": "dropdown",
-	     "displayLabel": " Do we have the device connected to minimum 1Gbe network interface?",
+	     "displayLabel": " Do you have the device connected to minimum 1Gbe network interface?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -77,7 +77,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
+            "watermarkText": "Please provide the details regarding the issue, such as the error message that you are receiving.",
             "required": true,
             "useAsAdditionalDetails": true
         },
