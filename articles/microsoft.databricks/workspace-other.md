@@ -79,7 +79,7 @@ Instead, we recommend that you create another workspace in a larger VNet. Follow
 * [Monitor usage using cluster, pool, and workspace tags](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure)
 * [Tagged objects and resources](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tagged-objects-and-resources)
 * [Tag propagation](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/usage-detail-tags-azure#tag-propagation)
-* [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/#:~:text=Pay%20as%20you%20go,of%20instance%20running%20Azure%20Databricks)
+* [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/)
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) covers the features for the Azure Databricks platform
 * [Azure Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features for Databricks cluster runtimes or images, including proprietary features and optimizations
 * [Upgrade or Downgrade an Azure Databricks Workspace](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--upgrade-or-downgrade-an-azure-databricks-workspace)
