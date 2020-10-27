@@ -6,7 +6,7 @@
 	authors="abeomor"
 	ms.author="osomorog"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739644,32739647,32739649,32739651,32739648,32739645,32739646"
+	supportTopicIds="32739643,32739644,32739647,32739649,32739650,32739651,32739648,32739645,32739646"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
@@ -39,16 +39,23 @@
 			"displayLabel": "What are your networking configurations / What firewalls do you have applied?",
 			"required": false
 	},
+			{
+			"id": "problem_permissions",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "What permissions do you have (i.e. Owner, contributor, or custom role)? For custom roles list all actions you have enabled",
+			"required": false
+	},
   {
 			"id": "problem_errormessagedetails",
-			"order": 3,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "What is the error message and correlation ID?",
 			"required": true
 	},
 		{
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
