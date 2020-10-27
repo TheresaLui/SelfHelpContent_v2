@@ -1,27 +1,27 @@
 <properties
-	pageTitle="problemscopingquestions-filesnotshowing"
-	description="File not showing up - scoping questions"
+	pageTitle="problemscopingquestions-notebooks"
+	description="Notebooks - scoping questions"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="abeomor"
 	ms.author="osomorog"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739649"
+	supportTopicIds="32739644,32739647,32739649,32739651"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="problemscopingquestions-machinelearning-notebooks-filesnotshowing"
+	articleId="problemscopingquestions-machinelearning-notebooks"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 
-# File not showing up - scoping questions
+# Notebooks - scoping questions
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "File not showing up - scoping questions",
+    "title": "Notebooks - scoping questions",
     "fileAttachmentHint": "",
     "formElements":
     [
