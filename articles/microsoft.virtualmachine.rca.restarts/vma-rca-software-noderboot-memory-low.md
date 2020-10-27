@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - HI - NodeFault - Low Memory Condition"
+	description="RCA - Software - NodeReboot - Low Memory Condition"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""	
-	articleId="VMA_RCA_HI_NodeFault_Memory_Low"
+	articleId="VMA_RCA_Software_NodeReboot_Memory_Low"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -32,7 +32,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### *Resolution*
-> The VMs on this node have been Service Healed onto a healthy node and the unhealthy node has been taken out of service for analysis and repair.
+> VM Services were restored following reboot.
 > 
 > The following platform fixes are in process:
 > * A host OS update is currently in deployment that resolves the known memory leaks. However, there are a few nodes that have to be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
