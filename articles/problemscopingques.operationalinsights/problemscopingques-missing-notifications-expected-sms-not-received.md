@@ -1,23 +1,24 @@
 <properties
-	articleId="problemscopingques-missing-notifications-expected-sms-not-received-la"
+	articleId="problemscopingques-missing-notifications-expected-sms-not-received"
 	pageTitle="Expected sms not received"
 	description="Expected sms not received"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745405"
-	productPesIds="15725"
+	supportTopicIds="32739781"
+	productPesIds="15454"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
+
 # Not receiving notifications
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Kindly include Alert id, Fired time, and any other relevant information which may help the support engineer troubleshoot your issue.",
+    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure Portal. Include Alert ID, Fired time, and any other relevant information that can help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "notification_type",

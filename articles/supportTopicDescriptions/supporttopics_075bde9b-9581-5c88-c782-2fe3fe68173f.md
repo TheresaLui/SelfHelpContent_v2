@@ -24,12 +24,6 @@
       "searchTags": "Accounts;Onboarding;Locations",
     },
     {
-      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
-      "longDescription": "",
-      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Enroll;Onboard;MPA",
-    },
-    {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
