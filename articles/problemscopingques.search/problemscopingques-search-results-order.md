@@ -20,11 +20,10 @@
 	"title": "Search Results Not in Order Expected",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "problem_description",
+			"id": "search_service_replicas",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "search_service_replicas",
-			"watermarkText": "How many replicas does your search service contain",
+			"displayLabel": "How many replicas does your search service contain?",
 			"required": false,
 			"useAsAdditionalDetails": true,
 		}, {       
