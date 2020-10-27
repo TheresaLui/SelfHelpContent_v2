@@ -9,10 +9,10 @@
     articleId="cosmosdb-mongo-criticalupgrade-rca"
     diagnosticScenario="CosmosDBMongoCriticalUpgradeInsight"
     selfHelpType="rca"
-    supportTopicIds="32636757"
+    supportTopicIds="32636766, 32636771, 32636778, 32636779, 32636784, 32636789, 32738475, 32636819, 32636831"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -46,7 +46,7 @@ You may face service interruptions or downtime during this process. It may also 
 
    The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` but it might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
-The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience. 
+The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
 
 ## **Recommended Documents**
 
