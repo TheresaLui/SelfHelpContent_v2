@@ -27,7 +27,7 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 ## **Possible RCA**
 
-* [Incorrect Repositories URLs](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
+* [Incorrect Repositories URLs cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
 
 ## **Recommended Documents**
 
