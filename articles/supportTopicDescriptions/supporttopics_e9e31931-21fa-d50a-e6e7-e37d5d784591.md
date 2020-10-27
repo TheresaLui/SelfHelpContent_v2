@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8798b9eb-a5dd-7a07-7e13-82f5a67f5ecf",
+      "longDescription": "",
+      "shortDescription": "Common problems related to extensions not operating correctly",
+      "searchTags": "Extension",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "88d00586-9517-3024-4f46-0b40fb1d9e86",
       "longDescription": "",
       "shortDescription": "Issue with scaling using the Azure Scale-In Policy",
