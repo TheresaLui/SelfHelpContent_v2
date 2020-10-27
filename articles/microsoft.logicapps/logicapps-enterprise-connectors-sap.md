@@ -12,11 +12,12 @@
   ownershipid="Compute_LogicApps" />
 # Enterprise Connector - SAP
 
-The Logic Apps’ connector works with SAP's classic releases such as R/3 and ECC systems on-premises or hosted in Azure Virtual Machine. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud. The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
+The Logic Apps' connector works with SAP's classic releases such as R/3 and ECC systems on-premises or hosted in Azure Virtual Machine. The connector also enables integration with SAP's newer HANA-based SAP systems, such as S/4 HANA, whether they're hosted on-premises or in the cloud. The SAP connector supports message or data integration to and from SAP NetWeaver-based systems through Intermediate Document (IDoc), Business Application Programming Interface (BAPI), or Remote Function Call (RFC).
 
 * Connector documentation: [How to connect to SAP systems from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector)
 
 ## **Recommended Documents**
+
 ### Installation
 
 - [SAP Connector Installation](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
@@ -24,7 +25,7 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 - [Integration service environment (ISE) prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#integration-service-environment-ise-prerequisites)
 - [SNC Secure Network Communications prerequisites](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#secure-network-communications-prerequisites)
 
-### Sending messages to SAP
+### Send messages to SAP
 - [How to send messages to SAP](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#send-message-to-sap)
 - [XML samples for RFC requests](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#xml-samples-for-rfc-requests)
 - [XML samples for BAPI requests](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#xml-samples-for-bapi-requests)
@@ -36,11 +37,11 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 
 ### Architecture and design information for the SAP Connector
 - [On-premises data gateway architecture](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem-indepth)
-- [How does the Azure Logic App SAP connector trigger work](https://www.linkedin.com/pulse/how-does-azure-logic-app-sap-connector-trigger-works-david-burg/)
+- [How does the Azure Logic App SAP connector trigger work?](https://www.linkedin.com/pulse/how-does-azure-logic-app-sap-connector-trigger-works-david-burg/)
 - [Logic App SAP connector IDoc support – going under the hood](https://www.linkedin.com/pulse/logic-app-sap-connector-idoc-support-going-under-hood-david-burg/)
 - [BAPI support in Logic Apps SAP connector](https://www.linkedin.com/pulse/bapi-support-logic-apps-sap-connector-david-burg/)
 - [Maximizing throughput calling Azure Logic Apps from SAP](https://www.linkedin.com/pulse/maximizing-throughput-calling-azure-logic-apps-from-sap-david-burg/)
-- [SAP and Logic Apps, you choose your integration approach](https://www.linkedin.com/pulse/sap-logic-apps-you-choose-your-integration-approach-david-burg/)
+- [SAP and Logic Apps, choose your integration approach](https://www.linkedin.com/pulse/sap-logic-apps-you-choose-your-integration-approach-david-burg/)
 
 ### Tips and tricks
 - [De-duplicate IDOC transmission](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#avoid-sending-duplicate-idocs)
@@ -52,6 +53,7 @@ The Logic Apps’ connector works with SAP's classic releases such as R/3 and EC
 - [Known issues and limitations](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#known-issues-and-limitations)
 
 ## **Recommended Steps**
+
 ### Troubleshooting
 - [Find extended error logs](https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector#find-extended-error-logs)
 - [Logic App SAP connector all the logs](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-app-sap-connector-all-the-logs-to-capture-for-troubleshooting-and-requesting-support)
