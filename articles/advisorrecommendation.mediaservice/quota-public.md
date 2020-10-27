@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b7c9fd99-a979-40b4-ab48-b1dfab6bb41a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://mediaservicesprod.kusto.windows.net').database('MediaServicesTest').QuotaRecommendation",
+    "streamNamespace": "cluster('https://mediaservicesprod.kusto.windows.net').database('MediaServicesProd').QuotaRecommendation",
     "dataSource": "Kusto",
     "refreshInterval": "1:00:00"
   },
