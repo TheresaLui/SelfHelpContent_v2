@@ -19,4 +19,4 @@
 
 How to improve your security score in Azure Security Center by remediating security recommendations from your recommendations list:
 
-[Secure score in Azure Security Center](https://docs.microsoft.com/azure/security-center/secure-score-security-controls)
+- [Secure score in Azure Security Center](https://docs.microsoft.com/azure/security-center/secure-score-security-controls)

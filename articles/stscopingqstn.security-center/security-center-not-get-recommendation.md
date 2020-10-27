@@ -19,4 +19,4 @@
 
 How to configure Azure Security Center to receive recommendations in the Recommendations page:
 
-[Security recommendations in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-recommendations)
+- [Security recommendations in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-recommendations)
