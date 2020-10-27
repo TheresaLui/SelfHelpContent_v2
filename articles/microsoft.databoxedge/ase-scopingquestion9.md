@@ -32,7 +32,7 @@
 	     "id": "IP Settings",
 	     "order": 200,
 	     "controlType": "dropdown",
-	     "displayLabel": "Verify compute network settings, make sure the IP's provided are continuous and not duplicate",
+	     "displayLabel": "Verify compute network settings, make sure the IPs provided are continuous and not duplicate",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -54,7 +54,7 @@
 	     "id": "Deployment",
 	     "order": 300,
 	     "controlType": "dropdown",
-	     "displayLabel": "How do you plan to deploy or have deployed your workload",
+	     "displayLabel": "How do you plan to deploy or have deployed your workload?",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -80,7 +80,7 @@
 	     "id": "Management",
 	     "order": 400,
 	     "controlType": "dropdown",
-	     "displayLabel": "How do you plan to or are managing Kubernetes cluster",
+	     "displayLabel": "How do you plan to manage or how are you managing Kubernetes cluster",
              "watermarkText": "Choose an option",
              "dropdownOptions": [
                 {
@@ -104,7 +104,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue, such as Error that you are getting.",
+            "watermarkText": "Please provide the details regarding the issue, such as the error message that you are receiving.",
             "required": true,
             "useAsAdditionalDetails": true
         },
