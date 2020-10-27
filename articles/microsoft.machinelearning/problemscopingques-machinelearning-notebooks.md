@@ -6,7 +6,7 @@
 	authors="abeomor"
 	ms.author="osomorog"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739644,32739647,32739649,32739651"
+	supportTopicIds="32739644,32739647,32739649,32739651,32739648,32739645,32739646"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
