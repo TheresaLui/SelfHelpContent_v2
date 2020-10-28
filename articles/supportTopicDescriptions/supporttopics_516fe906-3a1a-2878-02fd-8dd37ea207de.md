@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "193fc235-3cb9-ceb0-c81d-79f2ca5e42d7",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and planning a Windows Hello for Business Cert Trust deployment, including prerequisites, infrastructure config, and device settings",
+      "searchTags": "cert trust;WHFB",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "19da896a-c82e-00de-e342-5d0b6e1e4017",
       "longDescription": "",
       "shortDescription": "Assistance needed or issues found related to ADFS certificates",
