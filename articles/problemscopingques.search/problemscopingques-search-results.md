@@ -4,7 +4,7 @@
 	authors="cynotebo"
 	ms.author="cynotebo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681348"
+	supportTopicIds="32681380"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
@@ -56,13 +56,12 @@
 					"text": "Custom client using Management API or SDK"
 				},
 				 {
-         	 "value": "dont_know_answer",
-           "text": "Don't Know"
-         }
+         				"value": "dont_know_answer",
+           				"text": "Don't Know"
+        			}
 			],
 			"required": true
-		}, 
-    {
+		}, {
 			"id": "problem_description",
 			"order": 3,
 			"controlType": "multilinetextbox",
@@ -70,7 +69,7 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true
-    }, {
+    		}, {
 			"id": "problem_start_time",
 			"order": 4,
 			"controlType": "datetimepicker",
