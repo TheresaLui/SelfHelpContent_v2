@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da52ae42-28ec-95ba-ff98-17ab6cb306c9",
+      "longDescription": "",
+      "shortDescription": "Unable to troubleshoot or find the answers to my questions related to planning and deploying Passwordless solutions",
+      "searchTags": "question;advisory;help",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dc7e31cc-9bef-5fad-4aed-fd1bfdb56949",
       "longDescription": "",
       "shortDescription": "Assistance needed or issue found while investigating risk events ",
