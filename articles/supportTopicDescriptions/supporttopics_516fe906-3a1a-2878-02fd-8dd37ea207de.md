@@ -176,7 +176,7 @@
     {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
+      "shortDescription": "Passwordless phone sign-in with Microsoft Authenticator deployment issues, including prerequisites, credential administration, and device settings",
       "searchTags": "Passwordless Authentication;Enable Passwordless Auth;Disable Passwordless Auth",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
