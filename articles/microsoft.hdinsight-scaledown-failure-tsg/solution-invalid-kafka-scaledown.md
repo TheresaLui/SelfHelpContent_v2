@@ -23,5 +23,8 @@ Kafka cluster does not support scale down
 
 <!--/issueDescription-->
 
+## **Recommended Documents**
+
+* [Kafka Introduction](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-introduction)
 
 

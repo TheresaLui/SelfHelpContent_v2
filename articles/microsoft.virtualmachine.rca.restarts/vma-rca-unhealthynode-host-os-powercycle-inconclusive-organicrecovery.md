@@ -2,8 +2,8 @@
 	pageTitle="VMA RCA"
 	description="RCA - Unhealthy Node - Host OS PowerCycle Inconclusive OrganicRecovery"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
@@ -28,7 +28,7 @@ This unexpected occurrence was caused due to a platform bug that caused the phys
      - Hardware layer:  BIOS, Firmware
      - Azure monitoring and diagnostics layer
 
-Additionally, Azure team is also investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency ](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
+Additionally, Azure team is also investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
 
 We apologize for any inconvenience this may have caused to you.
 
@@ -39,6 +39,6 @@ To ensure an increased level of protection and redundancy for your application i
 
 ## **Recommended Documents**
 
-* [Manage the availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
-* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)

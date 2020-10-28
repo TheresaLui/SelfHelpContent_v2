@@ -144,16 +144,22 @@
       "searchTags": "Accounts;Onboarding;Moving;Transition",
     },
      {
+      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
+      "longDescription": "",
+      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
+      "searchTags": "Enroll;Onboard;MPA",
+    },
+     {
+      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
+      "longDescription": "",
+      "shortDescription": "Questions on the Microsoft Partner agreement including how to accept the MPA, access to indirect reseller agreement for Providers, and information on variations or updates to the agreement",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+    },
+     {
       "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
       "searchTags": "Accounts;Onboarding;Indirect;CSP",
-    },
-     {
-      "id": "a7b77b19-2490-0473-2d99-e2075f48adb4",
-      "longDescription": "",
-      "shortDescription": "	Issues or questions about reconciliation files, invoices, or payments. This is for CSP billing. Refer to the appropriate product portal for Customer direct or EA subscription issues",
-      "searchTags": "Accounts;Onboarding;Reconciliation;CSP;Billing",
     },
   ]
 }
