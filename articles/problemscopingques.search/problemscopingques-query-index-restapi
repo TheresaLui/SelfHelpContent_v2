@@ -35,13 +35,13 @@
             "displayLabel": "Is failure across multiple indexes or just one?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
-                "value": "Multiple_indexes",
+                "value": "Multiple indexes",
                 "text": "Multiple indexes"
               }, {
-                "value": "Just_one",
+                "value": "Just one",
                 "text": "Just one"
               }, {
-                "value": "dont_know_answer",
+                "value": "dont know answer",
                 "text": "Don't Know"
               }
             ],
@@ -54,19 +54,22 @@
             "infoBalloonText": "string",
             "displayLabel": "Do you have multiple replicas on this service?",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{
+            "dropdownOptions": [
+	     {
                 "value": "Yes",
                 "text": "Yes"
-              }, {
+             }, 
+	     {
                 "value": "No",
                 "text": "No"
-              }, {
+             }, 
+	     {
                 "value": "dont_know_answer",
                 "text": "Don't Know"
-				}
-			],
-			"required": true
-		  },
+	     }
+	   ],
+	   "required": true
+	},
         {
             "id": "problem_description",
             "order": 4,
