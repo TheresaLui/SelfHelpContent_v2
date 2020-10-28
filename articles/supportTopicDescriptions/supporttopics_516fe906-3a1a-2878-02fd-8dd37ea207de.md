@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7417b6ac-d636-453c-ce64-73c8afe7fa56",
+      "longDescription": "",
+      "shortDescription": "Problems with registering and managing FIDO2 security keys or Microsoft Authenticator on the user registration portal",
+      "searchTags": "FIDO;FIDO2;security keys;Authenticator;portal",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "778d1beb-2942-8e08-b723-be5b3dc463e0",
       "longDescription": "",
       "shortDescription": "Admin unable to reset a users password or user unable to login with new credentials",
