@@ -88,8 +88,8 @@
     {
       "id": "290db722-7106-7012-abb1-b4a9060f2cc7",
       "longDescription": "",
-      "shortDescription": "Problems or requests for implementing or managing or inability to sign in or provision WHfB credentials",
-      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision",
+      "shortDescription": "Problems with unlocking your PC or signing in with Windows Hello for Business",
+      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision;unlock PC",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
