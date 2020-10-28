@@ -51,7 +51,7 @@ Upgrading to 3.6 does not mean that you have to stop using 3.2 style change feed
 ## **Recommended Documents**
 
 [Azure Cosmos DB MongoDB 3.6 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
-<br>Azure Cosmos DB API for MongoDB *3.6 version* supported features and syntax
+<br>Azure Cosmos DB API for MongoDB *3.6 version* supported features and syntax.
 
 [MongoDB pre-Migration Guide](https://docs.microsoft.com/azure/cosmos-db/mongodb-pre-migration)
 <br>Before you migrate your data from MongoDB (either on-premises or in the cloud) to Azure Cosmos DB's API for MongoDB, follow the steps in this guide.
