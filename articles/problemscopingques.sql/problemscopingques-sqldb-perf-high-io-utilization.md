@@ -89,12 +89,13 @@
             "id" : "application_type",
             "order" : 32,
             "visibility" : "event_prior_to_high_io == event_migration",
-            "controlType" : "dropwdown",
+            "controlType" : "dropdown",
             "displayLabel" : "What is the application type?",
+            "watermarkText": "Choose an option",
             "required": true,
             "dropdownOptions": [
 				{
-					"value": "modren_platform",
+					"value": "modern_platform",
 					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
 				},
 				{
