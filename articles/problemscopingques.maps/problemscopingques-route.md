@@ -63,7 +63,7 @@
 			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
+			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Include any important details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
 		}
