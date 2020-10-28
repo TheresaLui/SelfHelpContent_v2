@@ -20,14 +20,26 @@
 	"title": "Search Results Not in Order Expected",
 	"fileAttachmentHint": "",
 	"formElements": [
-		{
-			"id": "search_service_replicas",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "How many replicas does your search service contain?",
-			"required": false,
-			"useAsAdditionalDetails": false
-		}, 
+	  {
+		"id": "replica_count",
+		"order": 1,
+		"controlType": "dropdown",
+		"infoBalloonText": "string",
+		"displayLabel": "Do you have multiple replicas on this service?",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [{
+				"value": "Yes",
+				"text": "Yes"
+			}, {
+				"value": "No",
+				"text": "No"
+			}, {
+				"value": "dont_know_answer",
+				"text": "Don't Know"
+		}
+	  ],
+		"required": false
+	},
 		{
      			"id": "scoring_profiles",
 			"order": 2,
