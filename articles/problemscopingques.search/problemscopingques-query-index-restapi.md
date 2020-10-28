@@ -47,7 +47,7 @@
             ],
             "required": false
         },
-        {
+          {
 		"id": "replica_count",
 		"order": 3,
 		"controlType": "dropdown",
