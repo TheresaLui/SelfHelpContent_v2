@@ -21,7 +21,7 @@
 ## We ran diagnostics on your account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** and found an issue
 
 <!--issueDescription-->
-We found one or more containers using Lazy indexing. Consider using **consistent** indexing instead of **lazy** indexing.
+We found one or more containers using lazy indexing. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
