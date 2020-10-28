@@ -71,7 +71,7 @@
                 },
                 {
                     "value": "event_other",
-                    "text": "Others (Please describe in Description)"
+                    "text": "Others (Please describe in following text box)"
                 }
             ],
             "required": false

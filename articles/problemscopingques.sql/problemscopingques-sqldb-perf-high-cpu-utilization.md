@@ -117,6 +117,56 @@
             "required": true
         },
         {
+            "id" : "application_type",
+            "order" : 42,
+            "visibility" : "event_prior_to_high_cpu == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What is the application type?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "modern_platform",
+					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
+				},
+				{
+					"value": "legacy",
+					"text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
+         {
+            "id" : "migration_backend",
+            "order" : 43,
+            "visibility" : "event_prior_to_high_cpu == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What was the Pre-Migration backend?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "sql_server",
+					"text": "SQL Server"
+				},
+				{
+					"value": "oracle",
+					"text": "Oracle"
+				},
+				{
+					"value": "db2",
+					"text": "DB2"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
