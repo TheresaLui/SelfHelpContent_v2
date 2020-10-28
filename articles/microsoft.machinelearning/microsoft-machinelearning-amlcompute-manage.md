@@ -35,6 +35,6 @@
 
 * [Learn how to view your Azure Machine Learning quota](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#view-your-usage-and-quotas)
 * [Learn more about Managed Compute Clusters and Instances](https://docs.microsoft.com/azure/machine-learning/concept-compute-target)
-* [Understand our recommended VNet setup](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-secure-training-vnet)
+* [Understand our recommended VNet setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet)
 * [View Azure Supported VM sizes by Region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines)
 * [Private link](https://docs.microsoft.com/azure/machine-learning/how-to-configure-private-link?tabs=python)
