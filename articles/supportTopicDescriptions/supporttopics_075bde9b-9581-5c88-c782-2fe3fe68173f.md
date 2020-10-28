@@ -80,8 +80,8 @@
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
