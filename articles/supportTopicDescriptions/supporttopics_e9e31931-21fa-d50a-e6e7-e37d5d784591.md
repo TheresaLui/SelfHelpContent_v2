@@ -30,12 +30,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "06328c16-1b5b-1902-8dde-26c681f12051",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling out your scale set",
+      "searchTags": "scale",
+      "category": "Scaling",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
       "longDescription": "",
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
       "searchTags": "Restart;Stop",
       "category": "Restart",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Updating",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
@@ -54,12 +70,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4823a11b-f32f-23da-1d94-00d26499fa62",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling in your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
       "longDescription": "",
-      "shortDescription": "Questions or issues  specific to performance issues with the scale set or instance.",
+      "shortDescription": "Questions or issues specific to performance issues with the scale set or instance.",
       "searchTags": "Performance;Performance",
       "category": "Performance",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
@@ -68,6 +92,14 @@
       "searchTags": "Orchestration",
       "category": "Orchestration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8798b9eb-a5dd-7a07-7e13-82f5a67f5ecf",
+      "longDescription": "",
+      "shortDescription": "Common problems related to extensions not operating correctly",
+      "searchTags": "Extension",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "88d00586-9517-3024-4f46-0b40fb1d9e86",
@@ -140,6 +172,14 @@
       "searchTags": "Alert",
       "category": "Configuring",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f55585ae-e8ec-325b-3e86-ebf4acdee88d",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fc7ce244-83c2-72dc-049b-055413ea0401",
