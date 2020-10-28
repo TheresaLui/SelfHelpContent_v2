@@ -38,22 +38,22 @@ The upgrade process will not cause any service interruptions or downtime. It wil
    - Support for aggregation pipeline by default and new aggregation stages
    - Support for ChangeStream
    - Support for Compound Indexes
-   - Cross-partition support for the following operations: UPDATE, DELETE, COUNT, and ORDER BY
-   - Improved performance for the following aggregate operations: COUNT, SKIP, LIMIT, and GROUP BY
+   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
+   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
 2. Changes from previous engine versions
 
-   - MongoDB collections will only have the _id property indexed by default
+   - MongoDB collections will only have the `_id` property indexed by default
    - Per request timeout is going to be 60 seconds
 
 3. Actions required
 
    - The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
-   **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+    **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
 The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience. 
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- [Azure Cosmos DB API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
