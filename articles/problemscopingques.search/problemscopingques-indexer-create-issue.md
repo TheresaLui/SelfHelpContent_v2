@@ -21,31 +21,39 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "create_error_message",
+            "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
-            "required": false,
+            "displayLabel": "Please provide the error you received and any additional information you'd like to share.",
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
-            "id": "interface",
+            "id": "indexer_name",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the indexer you tried to create?",
+            "required": true,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "interface",
+            "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What did you use to create the indexer?",
+            "displayLabel": "How are you creating the indexer?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Portal",
+                    "value": "azure_portal",
                     "text": "Azure Portal"
                 },
                 {
-                    "value": "REST API",
+                    "value": "rest_api",
                     "text": "REST API"
                 },
                 {
-                    "value": "Azure SDK (C#, Java, Javascript, Python)",
-                    "text": "SDK"
+                    "value": "sdk",
+                    "text": "Azure SDK (C#, Java, Javascript, Python)"
                 },
                 {
                     "value": "other_answer",
@@ -60,61 +68,35 @@
         },
         {
             "id": "data_source_firewall",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is your data source behind a firewall?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't Know"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "data_source_vnet",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Is your data source inside a private network?",
+            "displayLabel": "Is your data source behind a firewall or private endpoint?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "firewall",
+                    "text": "Firewall"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "private_endpoint",
+                    "text": "Private Endpoint"
+                },
+                {
+                    "value": "neither",
+                    "text": "Neither"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 5,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Additional details",
-            "useAsAdditionalDetails": false,
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last attempt to delete the service?",
+            "displayLabel": "When did you last attempt to create the indexer?",
             "required": true
         }
     ],
