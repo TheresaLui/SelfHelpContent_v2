@@ -376,7 +376,7 @@
     {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
+      "shortDescription": "Assistance with FIDO2 security key deployment, including prerequisites, credential administration, infrastructure config, and device settings",
       "searchTags": "FIDO;Security Keys;Activating FIDO",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
