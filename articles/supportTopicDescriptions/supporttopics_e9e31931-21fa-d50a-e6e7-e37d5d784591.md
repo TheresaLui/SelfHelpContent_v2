@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Updating",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
