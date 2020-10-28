@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ccf18854-baf8-9acf-038b-fcd2797783ed",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues not listed above",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
