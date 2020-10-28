@@ -24,7 +24,7 @@
             "id": "requested_region",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What region do you want to create a search service in?",
+            "displayLabel": "What region do you want to use?",
             "required": true,
             "useAsAdditionalDetails": false
         },
