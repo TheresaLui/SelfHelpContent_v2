@@ -25,29 +25,36 @@
     "formElements":
     [
     	{
-            		"id": "problem_start_time",
-            		"order": 1,
-            		"controlType": "datetimepicker",
-            		"displayLabel": "When did the problem start?",
-            		"required": false
-    },
-		{
-			"id": "problem_scope",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "What is the scope of the problem?",
-			"watermarkText": "Is the problem in logging in to studio or is it accessing specific assets?",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Can't get past the login or welcome page?"
-				}, {
-					"text": "Getting error for every page you are trying to load?"
-				}, {
-					"text": "Can't find or access specific assets like Datasets or Models?"
-				}
-			]
-		}
+            	"id": "problem_start_time",
+            	"order": 1,
+            	"controlType": "datetimepicker",
+            	"displayLabel": "When did the problem start?",
+            	"required": false
+    	},
+    	{
+		"id": "problem_scope",
+		"order": 2,
+		"controlType": "textbox",
+		"displayLabel": "Which asset are you having issues accessing?",
+		"required": true
+	},
+	{
+		"id": "problem_description",
+		"order": 3,
+		"controlType": "multilinetextbox",
+		"displayLabel": "What is the scope of the problem?",
+		"watermarkText": "Is the problem in logging in to studio or is it accessing specific assets?",
+		"required": true,
+		"useAsAdditionalDetails": true,
+		"hints": [{
+				"text": "Can't get past the login or welcome page?"
+			}, {
+				"text": "Getting error for every page you are trying to load?"
+			}, {
+				"text": "Can't find or access specific assets like Datasets or Models?"
+			}
+		]
+	}
 	]
 }
 ---
