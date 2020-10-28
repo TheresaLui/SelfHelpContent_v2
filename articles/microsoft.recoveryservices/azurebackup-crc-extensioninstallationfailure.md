@@ -16,7 +16,7 @@
         ownershipId="StorageMediaEdge_Backup"
 />
 
-# Error ExtensionInstallationFailure
+# Extension Installation Failure
 
 <!--issueDescription-->
 
