@@ -19,7 +19,7 @@
     "title": "Cannot connect to another virtual machine in the same VNET",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Host-to-Guest Port Scanning",
+        "title": "Check if VM port responds to network requests",
         "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure your VM is on, or the tool won't detect the issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
