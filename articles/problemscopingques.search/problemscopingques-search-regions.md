@@ -33,7 +33,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
