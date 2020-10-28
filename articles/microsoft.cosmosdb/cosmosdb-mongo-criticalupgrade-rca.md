@@ -39,14 +39,14 @@ You may face service interruptions or downtime during the upgrading process. Thi
 
 2. Changes from previous engine versions
 
-   - MongoDB collections will have only the _id property indexed by default
+   - MongoDB collections will have only the `_id` property indexed by default
    - Per request timeout will be 60 seconds
 
 3. Actions required
 
    The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` 
 
-**Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+   **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
 The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
 
