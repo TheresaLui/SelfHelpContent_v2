@@ -29,6 +29,7 @@ How to Use Azure Blob Storage Connector:
 
 ## **Recommended Documents**
 
+- [Access storage account behind firewall](https://docs.microsoft.com/azure/connectors/connectors-create-api-azureblobstorage#access-storage-accounts-behind-firewalls)
 - [Managed Connectors](https://docs.microsoft.com/azure/connectors/apis-list#managed-connectors)
 - For Azure Logic Apps questions, visit the [Azure Logic Apps forum](https://social.msdn.microsoft.com/forums/home?forum=azurelogicapps)
 - To submit or vote on feature ideas, visit the [Logic Apps feedback page](https://feedback.azure.com/forums/287593-logic-apps)
