@@ -24,7 +24,7 @@
 
 To migrate data from MongoDB to an Azure Cosmos DB account for use with the API for MongoDB, you must:
 
-* Download either mongoimport.exe or mongorestore.exe from the [MongoDB Download Center](https://www.mongodb.com/download-center).
+* Download either `mongoimport.exe` or `mongorestore.exe` from the [MongoDB Download Center](https://www.mongodb.com/download-center).
 * Get your [API for MongoDB connection string](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account).
 
 **Note:** Throughput that you provision directly impacts the duration of migration. Consider increasing RUs during migration and scaling down after they complete. 
@@ -54,10 +54,10 @@ Upgrading to 3.6 does not mean that you have to stop using 3.2 style change feed
 <br>Azure Cosmos DB API for MongoDB *3.6 version* supported features and syntax
 
 [MongoDB pre-Migration Guide](https://docs.microsoft.com/azure/cosmos-db/mongodb-pre-migration)
-<br>Before you migrate your data from MongoDB (either on-premises or in the cloud) to Azure Cosmos DB's API for MongoDB, this guide provides steps you should do.
+<br>Before you migrate your data from MongoDB (either on-premises or in the cloud) to Azure Cosmos DB's API for MongoDB, follow the steps in this guide.
 
 [MongoDB Migrate Page](https://docs.microsoft.com/azure/cosmos-db/mongodb-migrate)
-<br>Ways to import data for MongoDB using tools like mongoimport, mongorestore.   
+<br>Ways to import data for MongoDB using tools such as `mongoimport`, `mongorestore`.   
 
 [MongoDB post-Migration Guide](https://docs.microsoft.com/azure/cosmos-db/mongodb-post-migration)
 <br>After you migrate the data stored in MongoDB database to Azure Cosmos DB's API for MongoDB, you can connect to Azure Cosmos DB and manage the data. This guide provides the steps you should consider after the migration.
