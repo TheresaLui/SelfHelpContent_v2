@@ -108,6 +108,33 @@
 				}
 			]
         },
+         {
+            "id" : "migration_backend",
+            "order" : 33,
+            "visibility" : "event_prior_to_high_io == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What was the Pre-Migration backend?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "sql_server",
+					"text": "SQL Server"
+				},
+				{
+					"value": "oracle",
+					"text": "Oracle"
+				},
+				{
+					"value": "db2",
+					"text": "DB2"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
         {
             "id": "problem_description",
             "order": 1000,
