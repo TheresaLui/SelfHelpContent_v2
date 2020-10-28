@@ -26,7 +26,7 @@ Most users are able to resolve this issue using the steps below.
 3. If you have custom conda dependency and image, this will result in a long environment preparation cost. You can check the `azureml-logs` of each module to see the time cost for image building and image download.
 4. If your scheduled pipeline runs hang, file an issue by clicking the smile icon on the upper right corner of Azure Machine Learning studio. Our engineering team will investigate.
 5. You might also benefit from running the Azure Machine Learning pipeline if there’s no change of the outputs in your previous modules. The system will auto-detect it and will not rerun the whole pipeline again (which should be much faster than your first-time run).
-6. You can submit feedback by clicking the smile icon face on upper right corner of the Azure Machine Learning studio, with **including screenshot** selected. Be sure to select **Microsoft can email you about your feedback** in case we need to follow up with you about with your specific case.
+6. You can submit feedback by clicking the smile icon face on upper right corner of the Azure Machine Learning studio, with **including screenshot** selected. Be sure to select **Microsoft can email you about your feedback** in case we need to contact you about with your specific case.
 
 
 ## **Recommended Documents**
