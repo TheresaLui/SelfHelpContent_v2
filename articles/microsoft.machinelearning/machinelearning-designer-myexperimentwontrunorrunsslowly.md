@@ -21,7 +21,7 @@ Most users are able to resolve this issue using the steps below.
 
 ## **Recommended Steps**
 
-1. Check if your compute target is warm. It may take several minutes to start from a cold compute. In Azure Machine Learning studio, click **Compute** > **Training clusters** > **[compute target name]** to check the compute status and details. On the **Details** page, you can also change  **Idle seconds before scale down** to a longer period (the default is 120s second) by clicking **Edit**.
+1. Check if your compute target is warm. It may take several minutes to start from a cold compute. In Azure Machine Learning studio, click **Compute** > **Training clusters** > **[compute target name]** to check the compute status and details. On the **Details** page, you can also change  **Idle seconds before scale down** to a longer period by clicking **Edit** (the default is 120 seconds).
 2. If you are running on a warm compute target, make sure the compute target has enough memory to handle the data size in your pipeline
 3. If you have custom conda dependency and image, this will result in a long environment preparation cost. You can check the `azureml-logs` of each module to see the time cost for image building and image download.
 4. If your scheduled pipeline runs hang, file an issue by clicking the smile icon on the upper right corner of Azure Machine Learning studio. Our engineering team will investigate.
