@@ -33,7 +33,7 @@
     },
 		{
 			"id": "problem_description",
-			"order": 4,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide detailed information about your issue",
