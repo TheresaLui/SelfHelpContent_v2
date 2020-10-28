@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "53faf6dd-646b-71fd-7936-e0b58afb5bf0",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
       "longDescription": "",
       "shortDescription": "Questions or issues specific to performance issues with the scale set or instance.",
