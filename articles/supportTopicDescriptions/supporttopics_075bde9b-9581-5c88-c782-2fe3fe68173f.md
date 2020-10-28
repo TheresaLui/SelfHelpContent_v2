@@ -156,10 +156,10 @@
       "searchTags": "MPAl;Accept;Sign;Direct;CSP",
     },
      {
-      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
       "longDescription": "",
-      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
-      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
   ]
 }
