@@ -51,50 +51,6 @@
             "required": false
         },
         {
-            "id": "allow_snapshot_isolation",
-            "order": 30,
-            "controlType": "dropdown",
-            "displayLabel": "ALLOW_SNAPSHOT_ISOLATION snapshot isolation option for the database is set to:",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "is_on",
-                    "text": "ON (Azure SQL Database default)"
-                },
-                {
-                    "value": "is_off",
-                    "text": "OFF"
-                },
-                {
-                    "value": "dont_know",
-                    "text": "Don't know"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "read_committed_isolation",
-            "order": 40,
-            "controlType": "dropdown",
-            "displayLabel": "READ_COMMITTED_SNAPSHOT snapshot isolation option for the database is set to:",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "is_on",
-                    "text": "ON (Azure SQL Database default)"
-                },
-                {
-                    "value": "is_off",
-                    "text": "OFF"
-                },
-                {
-                    "value": "dont_know",
-                    "text": "Don't know"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "transaction_isolation_hint",
             "order": 50,
             "controlType": "dropdown",
@@ -205,32 +161,6 @@
             "displayLabel" : "Please describe index/statistics maintenance frequency",
             "watermarkText" : "Describe other",
             "required": true
-        },
-        {
-            "id": "application_type",
-            "order": 80,
-            "controlType": "dropdown",
-            "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "app_entity_framework",
-                    "text": "Yes, using Entity Framework"
-                },
-                {
-                    "value": "app_custom",
-                    "text": "No, we are using customized application"
-                },
-                {
-                    "value": "app_third_party",
-                    "text": " No, we are using third party application"
-                },
-                {
-                    "value": "app_not_applicable",
-                    "text": "Not applicable"
-                }
-            ],
-            "required": false
         },
         {
             "id": "problem_description",
