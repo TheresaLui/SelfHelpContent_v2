@@ -19,17 +19,17 @@
     "title": "Issue querying an index with REST API",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+       	{
             "id": "index_error_message",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the exact error you received?",
             "required": false,
             "useAsAdditionalDetails": true
-        },
+       	},
         {
             "id": "replica_count",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "infoBalloonText": "string",
             "displayLabel": "Do you have multiple replicas on this service?",
