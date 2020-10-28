@@ -119,7 +119,7 @@
         {
             "id" : "application_type",
             "order" : 42,
-            "visibility" : "event_prior_to_high_cpu == event_migration",
+            "visibility" : "event_prior_to_spike == event_migration",
             "controlType" : "dropdown",
             "displayLabel" : "What is the application type?",
             "watermarkText": "Choose an option",
@@ -142,7 +142,7 @@
          {
             "id" : "migration_backend",
             "order" : 43,
-            "visibility" : "event_prior_to_high_cpu == event_migration",
+            "visibility" : "event_prior_to_spike == event_migration",
             "controlType" : "dropdown",
             "displayLabel" : "What was the Pre-Migration backend?",
             "watermarkText": "Choose an option",
