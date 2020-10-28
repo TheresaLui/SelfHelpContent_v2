@@ -80,8 +80,8 @@
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -156,10 +156,10 @@
       "searchTags": "MPAl;Accept;Sign;Direct;CSP",
     },
      {
-      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
       "longDescription": "",
-      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
-      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
   ]
 }
