@@ -48,27 +48,24 @@
             "required": false
         },
         {
-            "id": "replica_count",
-            "order": 3,
-            "controlType": "dropdown",
-            "infoBalloonText": "string",
-            "displayLabel": "Do you have multiple replicas on this service?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-	     {
-                "value": "Yes",
-                "text": "Yes"
-             }, 
-	     {
-                "value": "No",
-                "text": "No"
-             }, 
-	     {
-                "value": "dont_know_answer",
-                "text": "Don't Know"
-	     }
-	   ],
-	   "required": true
+		"id": "replica_count",
+		"order": 3,
+		"controlType": "dropdown",
+		"infoBalloonText": "string",
+		"displayLabel": "Do you have multiple replicas on this service?",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [{
+				"value": "Yes",
+				"text": "Yes"
+			}, {
+				"value": "No",
+				"text": "No"
+			}, {
+				"value": "dont_know_answer",
+				"text": "Don't Know"
+			}
+		],
+		"required": false
 	},
         {
             "id": "problem_description",
