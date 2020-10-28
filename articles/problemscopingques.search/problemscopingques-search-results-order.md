@@ -27,7 +27,7 @@
 			"required": false,
 			"useAsAdditionalDetails": true,
 		}, {       
-      "id": "scoring_profiles",
+     			"id": "scoring_profiles",
 			"order": 2,
 			"controlType": "dropdown",
 			"infoBalloonText": "string",
@@ -57,14 +57,15 @@
 					"value": "REST API",
 					"text": "REST API"
 				}, {
-					"value": "MY own code",
-					"text": "My own code"
-				}, {
-					"value": "Other (describe below)",
-					"text": "Other"
-				}
+					"value": "Custom client using Management API or SDK",
+					"text": "Custom client using Management API or SDK"
+				},
+				 {
+                   			 "value": "dont_know_answer",
+                   			 "text": "Don't Know"
+              			  }
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "problem_description",
 			"order": 4,
