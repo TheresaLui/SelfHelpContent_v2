@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0dfa725f-72a1-1529-2660-e7329c4a4235",
+      "longDescription": "",
+      "shortDescription": "Problems with signing in with Passwordless phone sign-in with Microsoft Authenticator",
+      "searchTags": "Authenticator;Passwordless;phone sign-in",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fc93581-1a62-3006-bbe1-6aeff78e5862",
       "longDescription": "",
       "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
