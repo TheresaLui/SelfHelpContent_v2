@@ -1,8 +1,8 @@
 <properties
-	articleId="558fe886-c24d-4a3c-9f99-c21f4a783a73"
-	pageTitle="Maps Mobility service error"
-	description="Maps Mobility service error"
-	supportTopicIds="32675609"
+	articleId="3c805ef3-9e8e-4691-82bd-528ca4525556"
+	pageTitle="Maps Render service error"
+	description="Maps Render service error"
+	supportTopicIds="32634418"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
@@ -11,13 +11,13 @@
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Mobility service error
+# Maps Render service error
 ---
 {
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Maps Mobility service error",
+	"title": "Maps Render service error",
 	"fileAttachmentHint": "Upload sample responses.",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -66,7 +66,7 @@
 			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---

@@ -1,8 +1,8 @@
 <properties
-	articleId="286c9150-1c45-40c9-9cbe-8a2ba93b1049"
-	pageTitle="Maps Traffic service error"
-	description="Maps Traffic service error"
-	supportTopicIds="32634423"
+	articleId="afa71ef9-4970-4f5a-ac09-10cbd25b5d1f"
+	pageTitle="Maps Geolocation service error"
+	description="Maps Geolocation service error"
+	supportTopicIds="32634415"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
@@ -11,13 +11,13 @@
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Traffic service error
+# Maps Geolocation service error
 ---
 {
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Maps Traffic service error",
+	"title": "Maps Geolocation service error",
 	"fileAttachmentHint": "Upload sample responses.",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -66,7 +66,7 @@
 			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---

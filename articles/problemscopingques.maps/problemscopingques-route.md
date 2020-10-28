@@ -1,23 +1,23 @@
 <properties
-	articleId="afa71ef9-4970-4f5a-ac09-10cbd25b5d1f"
-	pageTitle="Maps Geolocation service error"
-	description="Maps Geolocation service error"
-	supportTopicIds="32634420"
+	articleId="c50792c3-59fb-483b-a301-51b93cbe0132"
+	pageTitle="Maps Route service error"
+	description="Maps Route service error"
+	supportTopicIds="32634418"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
-	productPesIds="32634415"
+	productPesIds="16335"
 	cloudEnvironments="public,Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Geolocation service error
+# Maps Route service error
 ---
 {
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Maps Geolocation service error",
+	"title": "Maps Route service error",
 	"fileAttachmentHint": "Upload sample responses.",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -66,7 +66,7 @@
 			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---

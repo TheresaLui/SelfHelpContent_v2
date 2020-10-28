@@ -1,8 +1,8 @@
 <properties
-	articleId="f53d0469-09a6-478b-bdb2-43ba1d9922df"
-	pageTitle="Maps Timezone service error"
-	description="Maps Timezone service error"
-	supportTopicIds="32634422"
+	articleId="14548d94-50c3-41ed-8b91-7fb87cc6a8ae"
+	pageTitle="Maps Search service error"
+	description="Maps Search service error"
+	supportTopicIds="32634420"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
@@ -11,13 +11,13 @@
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Timezone service error
+# Maps Search service error
 ---
 {
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Maps Timezone service error",
+	"title": "Maps Search service error",
 	"fileAttachmentHint": "Upload sample responses.",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -66,7 +66,7 @@
 			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---

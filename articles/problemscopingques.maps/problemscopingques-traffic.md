@@ -1,23 +1,23 @@
 <properties
-	articleId="c50792c3-59fb-483b-a301-51b93cbe0132"
-	pageTitle="Maps Route service error"
-	description="Maps Route service error"
-	supportTopicIds="32634419"
+	articleId="286c9150-1c45-40c9-9cbe-8a2ba93b1049"
+	pageTitle="Maps Traffic service error"
+	description="Maps Traffic service error"
+	supportTopicIds="32634423"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
-	productPesIds="32634418"
+	productPesIds="16335"
 	cloudEnvironments="public,Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureIot_AzureMaps"
 />
-# Maps Route service error
+# Maps Traffic service error
 ---
 {
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Maps Route service error",
+	"title": "Maps Traffic service error",
 	"fileAttachmentHint": "Upload sample responses.",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -66,7 +66,7 @@
 			"watermarkText": "Provide additional information about your incident including any additional sample queries and responses you are seeing. Also include details about the expected behavior.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---
