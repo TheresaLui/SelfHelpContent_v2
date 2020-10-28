@@ -16,15 +16,15 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Search Index/Issue modelling my preferred schema in an index",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "requested_region",
+            "id": "index_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What region do you want to use?",
+            "displayLabel": "What is the name of your index?",
             "required": true,
             "useAsAdditionalDetails": false
         },
@@ -40,7 +40,7 @@
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last try to create the search service?",
+            "displayLabel": "When did you last try to create the index?",
             "required": false
         }
     ],
