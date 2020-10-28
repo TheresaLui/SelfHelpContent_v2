@@ -30,7 +30,7 @@
 			"id": "problem_api_name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "API name:",
+			"displayLabel": "API name",
 			"watermarkText": "",
 			"required": false
 		},
@@ -38,7 +38,7 @@
 			"id": "problem_api_request",
 			"order": 3,
 			"controlType": "multilinetextbox",
-			"displayLabel": "API request message",
+			"displayLabel": "API request",
 			"watermarkText": "Provide your API request. Exclude your subscription key.",
 			"required": true
 		},
@@ -46,7 +46,7 @@
 			"id": "problem_api_response",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "API response message",
+			"displayLabel": "API response",
 			"watermarkText": "",
 			"required": false
 		},
@@ -54,7 +54,7 @@
 			"id": "problem_expected_api_response",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Expected API response message",
+			"displayLabel": "Expected API response",
 			"watermarkText": "",
 			"required": false
 		},
