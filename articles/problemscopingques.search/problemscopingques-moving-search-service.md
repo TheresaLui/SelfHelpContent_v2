@@ -35,7 +35,7 @@
             "displayLabel": "What subscription are you trying to move the search service to?",
             "required": false,
             "useAsAdditionalDetails": false
-        }
+        },
         {
             "id": "problem_start_time",
             "order": 3,
