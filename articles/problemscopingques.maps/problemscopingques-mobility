@@ -40,7 +40,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "API request message",
 			"watermarkText": "Provide your API request. Exclude your subscription key.",
-			"required": false
+			"required": true
 		},
 		{
 			"id": "problem_api_response",
