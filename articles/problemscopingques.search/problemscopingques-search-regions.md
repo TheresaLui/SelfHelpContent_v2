@@ -8,7 +8,7 @@
 	productPesIds="15568"
 	cloudEnvironments="Public, FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="ee6623b7-9774-4ca3-a3dc-619c049adef3"
+	articleId="a121392a-9759-4aca-803e-07060eb84388"
 	ownershipId="AzureSearch_AzureSearch"
 />
 
