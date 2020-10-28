@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9291db2e-5419-e045-2b70-808ecac7a1cd",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (Memory) with the scale set or instance.",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "92fda6be-46b1-2d65-4aa8-4bdb6b7d3bd9",
       "longDescription": "",
       "shortDescription": "Resolve issues with updating your scale set",
