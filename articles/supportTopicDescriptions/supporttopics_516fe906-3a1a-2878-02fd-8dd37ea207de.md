@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc17793b-c3b3-2a3c-1a4a-4fa66c132d41",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and planning a Windows Hello for Business Key Trust deployment, including prerequisites, infrastructure config, and device settings",
+      "searchTags": "key trust;WHFB",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
       "longDescription": "",
       "shortDescription": "Problems related to MFA prompts and re-authentication",
