@@ -19,21 +19,24 @@
   "resourceRequired": true,
 	"title": "Search Results Not in Order Expected",
 	"fileAttachmentHint": "",
-	"formElements": [{
+	"formElements": [
+		{
 			"id": "search_service_replicas",
 			"order": 1,
 			"controlType": "multilinetextbox",
 			"displayLabel": "How many replicas does your search service contain?",
 			"required": false,
-			"useAsAdditionalDetails": true,
-		}, {       
+			"useAsAdditionalDetails": false
+		}, 
+		{
      			"id": "scoring_profiles",
 			"order": 2,
 			"controlType": "dropdown",
 			"infoBalloonText": "string",
 			"displayLabel": "Are you using scoring profiles?",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
+			"dropdownOptions": [
+				{
 					"value": "Yes",
 					"text": "Yes"
 				}, {
@@ -73,14 +76,15 @@
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": true
     }, {
 			"id": "problem_start_time",
 			"order": 5,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-		}
-	]
+	}
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
