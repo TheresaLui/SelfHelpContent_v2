@@ -86,6 +86,28 @@
             "required": true
         },
         {
+            "id" : "application_type",
+            "order" : 32,
+            "visibility" : "event_prior_to_high_io == event_migration",
+            "controlType" : "dropwdown",
+            "displayLabel" : "What is the application type?",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "modren_platform",
+					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
+				},
+				{
+					"value": "legacy",
+					"text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
