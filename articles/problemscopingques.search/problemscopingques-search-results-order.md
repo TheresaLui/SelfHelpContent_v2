@@ -51,10 +51,10 @@
 			"controlType": "dropdown",
 			"displayLabel": "Where are you running your query from?",
 			"dropdownOptions": [{
-					"value": "Azure Portal",
+					"value": "Azure_Portal",
 					"text": "Azure Portal"
 				}, {
-					"value": "REST API",
+					"value": "REST_API",
 					"text": "REST API"
 				}, {
 					"value": "Custom client using Management API or SDK",
