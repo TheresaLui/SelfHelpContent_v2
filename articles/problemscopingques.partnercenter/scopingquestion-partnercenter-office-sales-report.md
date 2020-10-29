@@ -26,7 +26,7 @@
        "id": "learn_more_text",
        "order": 1,
        "controlType": "infoblock",
-       "content": "Please provide the **Office Asset** or **Product ID** from Partner Center using <a href='https://docs.microsoft.com/office/dev/store/find-office-guid'>these instructions</a> and attach above in the upload file section"
+       "content": "Please provide the Office Asset or Product ID from Partner Center using <a href='https://docs.microsoft.com/office/dev/store/find-office-guid'>these instructions</a> and attach above in the upload file section"
        },
        {
 	   "id": "seller_id",
