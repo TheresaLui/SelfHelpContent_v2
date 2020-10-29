@@ -24,7 +24,7 @@
    "formElements": [
        {
 	   "id": "solution_id",
-	   "order": 1,
+	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Solution ID",
 	   "watermarkText": "Please provide the Solution ID",
@@ -32,7 +32,7 @@
        },
       {
 	   "id": "cosell_opportunity_id",
-	   "order": 2,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Co-sell opportunity ID",
 	   "watermarkText": "Please provide the Co-sell opportunity ID",
@@ -40,7 +40,7 @@
        },
 	   {
 	   "id": "referral_id",
-	   "order": 3,
+	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Referral ID",
 	   "watermarkText": "Please provide the Referral ID",
@@ -48,7 +48,7 @@
        },
       {
 	   "id": "problem_description",
-	   "order": 4,
+	   "order": 6,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -57,15 +57,15 @@
        },
       {
        "id": "learn_more_text1",
-       "order": 5,
+       "order": 1,
        "controlType": "infoblock",
-       "content": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>To help with troubleshooting please follow the HTTP archive file instructions and upload below</a>"
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>HTTP archive file instructions</a> and upload above"
        },
 	   {
        "id": "learn_more_text2",
-       "order": 6,
+       "order": 5,
        "controlType": "infoblock",
-       "content": "For declined Co-sell invite, provide screenshot of decline reason in the upload field below"
+       "content": "For declined Co-sell invite, provide screenshot of decline reason in the upload field above"
        },
        {
 	   "id": "problem_start_time",
