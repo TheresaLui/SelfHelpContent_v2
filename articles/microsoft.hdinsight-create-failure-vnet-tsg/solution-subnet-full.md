@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that cluster creation failure is due to full subnet
+We have checked the cluster and it seems that cluster creation failure is due to full subnet if no leaky NICs
 
 To resolve the issue:
 

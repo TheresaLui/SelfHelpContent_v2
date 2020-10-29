@@ -25,10 +25,6 @@
 
 Try to follow the recommended documents to troubleshoot or escalate 
 
-## **Possible RCA**
-
-* [Incorrect Repositories URLs cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
-
 ## **Recommended Documents**
 
 
@@ -37,3 +33,7 @@ Try to follow the recommended documents to troubleshoot or escalate
 * [Scaling Failure Guide](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349128/Production-Alert-and-Help-Guide_Cluster-Health_Scaling-Failures)
 * [Scaling best practices](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
 
+
+## **Known Issues**
+
+* [hang in Accepted with exception in InitializeFromRemoteStore](https://dev.azure.com/msdata/HDInsight/_workitems/edit/472170)

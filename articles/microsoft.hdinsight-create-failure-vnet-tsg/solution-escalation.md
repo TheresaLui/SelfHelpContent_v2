@@ -29,4 +29,8 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 * [Cluster creation process](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/296058/Cluster-create-process)
 * [Cluster creation failure](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/309196/Cluster-create-failed)
+* [CRUD error dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 
+## **Known Issues**
+
+* [leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)

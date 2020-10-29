@@ -34,6 +34,7 @@ To resolve the issue:
 
 ## **Recommended Documents**
 
+* [RequestDisallowedByPolicy](https://docs.microsoft.com/en-us/azure/hdinsight/create-cluster-error-dictionary#error-code-deployments-failed-due-to-policy-violation-resource--was-disallowed-by-policy-policy-identifiers-policyassignmentname-idprovidersmicrosoftmanagementmanagementgroups-providersmicrosoftauthorizationpolicyassignmentspolicydefinition-)
 * [Resource Policy Restrictions](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-troubleshoot-cluster-creation-fails#resource-policy-restrictionss)
 * [Azure Policy Overview](https://docs.microsoft.com/en-us/azure/governance/policy/overview)
 
