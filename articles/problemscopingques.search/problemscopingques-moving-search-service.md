@@ -24,7 +24,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What issue are you having trying to move the search service between subscriptions?",
+            "displayLabel": "What issue are you having while trying to move the search service between subscriptions?",
             "required": true,
             "useAsAdditionalDetails": true
         },
