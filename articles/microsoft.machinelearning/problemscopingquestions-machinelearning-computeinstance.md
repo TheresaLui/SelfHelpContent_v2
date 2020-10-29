@@ -6,7 +6,7 @@
 	authors="SturgeonMi"
 	ms.author="vijetajo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745197,32745198,32690861,32739648,32739645"
+	supportTopicIds="32745197,32745198,32690861,32739648,32739645,32739646"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
