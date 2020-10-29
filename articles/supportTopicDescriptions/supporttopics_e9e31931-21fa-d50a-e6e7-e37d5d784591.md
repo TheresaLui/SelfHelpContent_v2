@@ -30,12 +30,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "06328c16-1b5b-1902-8dde-26c681f12051",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling out your scale set",
+      "searchTags": "scale",
+      "category": "Scaling",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
       "longDescription": "",
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
       "searchTags": "Restart;Stop",
       "category": "Restart",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Updating",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
@@ -46,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "345af6b3-dbe0-f1d2-0e9b-8caf8a73df76",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance, specific to networking",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
@@ -54,12 +78,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4823a11b-f32f-23da-1d94-00d26499fa62",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling in your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "53faf6dd-646b-71fd-7936-e0b58afb5bf0",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
       "longDescription": "",
-      "shortDescription": "Questions or issues  specific to performance issues with the scale set or instance.",
+      "shortDescription": "Questions or issues specific to performance issues with the scale set or instance.",
       "searchTags": "Performance;Performance",
       "category": "Performance",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
@@ -68,6 +108,14 @@
       "searchTags": "Orchestration",
       "category": "Orchestration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8798b9eb-a5dd-7a07-7e13-82f5a67f5ecf",
+      "longDescription": "",
+      "shortDescription": "Common problems related to extensions not operating correctly",
+      "searchTags": "Extension",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "88d00586-9517-3024-4f46-0b40fb1d9e86",
@@ -84,6 +132,14 @@
       "searchTags": "repair",
       "category": "Instance Repairs",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9291db2e-5419-e045-2b70-808ecac7a1cd",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (Memory) with the scale set or instance.",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "92fda6be-46b1-2d65-4aa8-4bdb6b7d3bd9",
@@ -118,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ccf18854-baf8-9acf-038b-fcd2797783ed",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues not listed above",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
@@ -140,6 +204,14 @@
       "searchTags": "Alert",
       "category": "Configuring",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f55585ae-e8ec-325b-3e86-ebf4acdee88d",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scale",
+      "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fc7ce244-83c2-72dc-049b-055413ea0401",

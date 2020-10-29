@@ -635,7 +635,7 @@
     {
       "id": "f35e96fa-c01e-c7dd-1181-28818c4bd601",
       "longDescription": "",
-      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own Licence and Azure Hyrid Benefit)",
+      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own License and Azure Hybrid Benefit)",
       "searchTags": "licensing;licensing model;AHUB;change licensing;PAYG;BYOL",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "TRUE"
