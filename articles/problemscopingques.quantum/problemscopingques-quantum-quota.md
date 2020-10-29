@@ -116,18 +116,9 @@
             "required": false
         },
         {
-            "id": "quota_workspace_description_fallback",
-            "visibility": "quota_workspace_region == dont_know_answer",
-            "order": 7,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
-            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
-            "required": true
-        },
-        {
             "id": "quota_provider_name",
             "visibility": "quota_subtype == provider-quota",
-            "order": 8,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel":"Provider Name",
             "watermarkText":"Choose the provider that you are requesting quota for - need to includeInQuotaSummary",
@@ -157,7 +148,7 @@
         {
             "id": "quota_provider_workspace",
             "visibility": "quota_subtype == provider-quota && quota_provider_name != null",
-            "order": 9,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
             "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
@@ -178,7 +169,7 @@
         {
             "id": "quota_provider_type",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != dont_know_answer",
-            "order": 10,
+            "order": 9,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace - need to includeInQuotaSummary",
@@ -198,7 +189,7 @@
         {
             "id": "quota_provider_type_fallback",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name == dont_know_answer",
-            "order": 11,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Specify the type of provider quota you'd like to request. For example: Concurrent Jobs",
@@ -206,8 +197,8 @@
         },
         {
             "id": "quota_provider_new_limit",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null",
-            "order": 12,
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_workspace != dont_know_answer && quota_provider_name != dont_know_answer",
+            "order": 11,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
             "watermarkText": "Please specify what number you would like the specified quota type raised to.",
@@ -227,7 +218,7 @@
         {
             "id": "quota_provider_business_justification",
             "visibility": "quota_provider_new_limit != null",
-            "order": 13,
+            "order": 12,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
@@ -235,8 +226,8 @@
         },
         {
             "id": "quota_provider_description_fallback",
-            "visibility": "quota_provider_workspace == dont_know_answer || quota_provider == dont_know_answer",
-            "order": 14,
+            "visibility": "quota_provider_workspace == dont_know_answer || quota_provider_name == dont_know_answer",
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
             "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
