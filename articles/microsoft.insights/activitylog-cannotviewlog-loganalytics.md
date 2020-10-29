@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="activitylog-cannotviewlog-loganalytics"
     productPesIds="16251"
-    supportTopicIds="32684695"
+    supportTopicIds="32684685"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
