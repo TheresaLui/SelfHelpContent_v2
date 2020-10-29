@@ -26,7 +26,7 @@ High CPU can indicate that the application is performing many CPU-intensive task
 1. Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, Data changes etc. sometimes lead to some queries getting more compute intensive. 
 1. Azure VM Specific: there are certain processes like RDAgent, extension specific processes (Monitoring Agent, MMA agent, Security client exe etc.) which sometimes lead to High CPU consumption and needs to be looked from configuration or known issues perspective.  
 
-Try the following steps to diagnose and mitigate VM CPU performance issues.
+[Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 
 ## **Recommended Steps**
 
@@ -45,6 +45,7 @@ If you are unable to access your virtual machine via RDP or SSH you can try rest
 
 ## **Recommended Documents**
 
+* [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 * [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
 * [Azure Virtual Machine offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/)
 * [Performance guidelines for SQL Server](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices)
