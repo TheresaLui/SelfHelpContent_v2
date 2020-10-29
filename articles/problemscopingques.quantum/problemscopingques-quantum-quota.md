@@ -78,7 +78,7 @@
             ]
         },
         {
-            "id": "quota_sublevel",
+            "id": "quota_workspace_sublevel",
             "visibility": "quota_subtype == workspace-quota",
             "order": 4,
             "controlType": "radioButtonGroup",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "id": "quota_workspace",
+            "id": "quota_provider_workspace",
             "visibility": "quota_subtype == provider-quota && quota_provider != null",
             "order": 5,
             "controlType": "dropdown",
@@ -118,8 +118,8 @@
             }
         },
         {
-            "id": "quota_region",
-            "visibility": "quota_subtype == workspace-quota && quota_sublevel == region",
+            "id": "quota_workspace_region",
+            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel == region",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
@@ -139,7 +139,7 @@
         },
         {
             "id": "quota_provider_type",
-            "visibility": "quota_subtype == provider-quota && quota_workspace != null && quota_workspace != dont_know_answer",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider != dont_know_answer",
             "order": 7,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
@@ -159,16 +159,16 @@
         },
         {
             "id": "quota_provider_type_fallback",
-            "visibility": "quota_subtype == provider-quota && quota_workspace != null && quota_workspace == dont_know_answer",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider == dont_know_answer",
             "order": 8,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Specify the type of provider quota you'd like to request. For example: Concurrent Jobs",
-            "required": false
+            "required": true
         },
         {
-            "id": "quota_new_limit",
-            "visibility": "quota_provider_type_fallback != null || quota_provider_type != null || quota_region != null || quota_sublevel == sub",
+            "id": "quota_provider_new_limit",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null",
             "order": 9,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
@@ -187,8 +187,8 @@
             ]
         },
         {
-            "id": "quota_business_justification",
-            "visibility": "quota_new_limit != null",
+            "id": "quota_provider_business_justification",
+            "visibility": "quota_provider_new_limit != null",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -196,9 +196,47 @@
             "required": false
         },
         {
-            "id": "quota_description_fallback",
-            "visibility": "quota_region == dont_know_answer || quota_workspace == dont_know_answer || quota_provider == dont_know_answer",
+            "id": "quota_provider_description_fallback",
+            "visibility": "quota_provider_workspace == dont_know_answer || quota_provider == dont_know_answer",
             "order": 11,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
+            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
+            "required": true
+        },
+        {
+            "id": "quota_workspace_new_limit",
+            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel != null",
+            "order": 12,
+            "controlType": "numerictextbox",
+            "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
+            "watermarkText": "Please specify what number you would like the specified quota type raised to.",
+            "required": true,
+            "validations": [
+                {
+                    "type": "GreaterThan",
+                    "value": 0
+                },
+                {
+                    "type": "RegExMatch",
+                    "value": "^[^.]*$",
+                    "text": "Integers only."
+                }
+            ]
+        },
+        {
+            "id": "quota_workspace_business_justification",
+            "visibility": "quota_workspace_new_limit != null",
+            "order": 13,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe the business requirement",
+            "watermarkText": "Provide business justification for your request",
+            "required": false
+        },
+        {
+            "id": "quota_workspace_description_fallback",
+            "visibility": "quota_workspace_region == dont_know_answer",
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
             "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
