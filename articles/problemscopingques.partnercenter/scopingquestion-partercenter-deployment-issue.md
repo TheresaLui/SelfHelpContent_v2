@@ -24,7 +24,7 @@
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
-	   "order": 1,
+	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
 	   "watermarkText": "Please provide the publisher name",
@@ -32,7 +32,7 @@
        },
        {
 	   "id": "pc_isv_publisher_id",
-	   "order": 2,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
 	   "watermarkText": "In Partner Center select Settings then Developer settings",
@@ -40,7 +40,7 @@
        },
        {
 	   "id": "pc_isv_seller_id",
-	   "order": 3,
+	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID",
 	   "watermarkText": "In Partner Center select Settings then Developer settings",
@@ -48,7 +48,7 @@
        },
        {
 	   "id": "pc_isv_offer_type",
-	   "order": 4,
+	   "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type",
            "watermarkText":"Please select the Offer Type from the below list",
@@ -122,7 +122,7 @@
        },
        {
 	   "id": "pc_isv_offer_id",
-	   "order": 5,
+	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID",
@@ -130,7 +130,7 @@
        },
        {
 	   "id": "pc_isv_offer_name",
-	   "order": 6,
+	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
@@ -138,7 +138,7 @@
        },
        {
 	   "id": "pc_isv_offer_private",
-	   "order": 7,
+	   "order": 8,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is the offer for Private/Preview audience?",
            "watermarkText":"Choose from below",
@@ -159,7 +159,7 @@
        },
        {
 	   "id": "pc_isv_private_preview",
-	   "order": 8,
+	   "order": 9,
 	   "controlType": "textbox",
 	   "displayLabel": "If the offer is for Private/Preview audience please specify who is facing the issue and Subscription ID",
 	   "watermarkText": "Person facing the issue, Subscription ID",
@@ -167,7 +167,7 @@
        },
        {
 	   "id": "additional_emails_for_notification",
-	   "order": 9,
+	   "order": 10,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
 	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
@@ -175,7 +175,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 10,
+	   "order": 11,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
@@ -183,7 +183,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 11,
+	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -192,9 +192,9 @@
        },
        {
        "id": "learn_more_text",
-       "order": 12,
+       "order": 1,
        "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
        }
    ]
 }
