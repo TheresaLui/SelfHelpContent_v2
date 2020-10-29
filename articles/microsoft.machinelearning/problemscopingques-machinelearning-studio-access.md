@@ -43,7 +43,7 @@
 		"order": 3,
 		"controlType": "multilinetextbox",
 		"displayLabel": "What is the scope of the problem?",
-		"watermarkText": "Is the problem in logging in to studio or is it accessing specific assets?",
+		"watermarkText": "Does the problem concern logging in to studio, or does it concern accessing specific assets?",
 		"required": true,
 		"useAsAdditionalDetails": true,
 		"hints": [{
