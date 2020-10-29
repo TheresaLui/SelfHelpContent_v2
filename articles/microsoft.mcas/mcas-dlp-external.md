@@ -13,7 +13,7 @@
   supportTopicIds="32745216"
   resourceTags=""
   productPesIds="16031"
- ownershipId="CloudAppSecurity_API"
+  ownershipId="CloudAppSecurity_API"
   cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
@@ -23,6 +23,6 @@ Most users are able to resolve external DLP solution questions using the informa
 
 ## **Recommended Steps**
 
-If you are having any issues integrating with your third-party DLP solution, see [External DLP integration](https://docs.microsoft.com/cloud-app-security/icap-stunnel).
+If you have any issues integrating with your third-party DLP solution, see [External DLP integration](https://docs.microsoft.com/cloud-app-security/icap-stunnel).
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
