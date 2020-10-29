@@ -19,7 +19,9 @@
 
 # Resolve VM Agent issues with your Windows VM
 
-4 out of 5 customers resolved their [VM Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows) issues using the steps listed below. The VM Agent being in a crashed, unknown, or unhealthy state can impact extensions on the VM. These issue could also impact VM Agent's capability to send Heartbeat signals for VM health.
+<!--issueDescription-->
+4 out of 5 customers resolved their VM Agent issues using the steps listed below. The VM Agent being in a crashed, unknown, or unhealthy state can impact extensions on the VM. These issue could also impact the VM Agent's ability to send Heartbeat signals for VM health.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
