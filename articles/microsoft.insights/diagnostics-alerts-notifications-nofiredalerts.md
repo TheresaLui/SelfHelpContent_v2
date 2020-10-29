@@ -28,7 +28,7 @@ Our diagnostics have detected that no alerts have been fired for alert rule <!--
 
 **Verify the alert rule name and period**
 
-Verify that the alert rule name and period are correct and match the issue you are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure Portal to see if this might be caused by a different alert rule firing.
+Verify that the alert rule name and period are correct and match the issue you are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure Portal to see if this issue might have been caused by a different alert rule firing.
 
 **Troubleshoot why the alert didn't fire**
 
