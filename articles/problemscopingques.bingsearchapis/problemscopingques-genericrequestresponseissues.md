@@ -3,7 +3,7 @@
   description="Scoping questions to troubleshoot Generic Issues related to Bing APIs request response."
   ms.author="jabhal"
   selfHelpType="problemScopingQuestions" 
-supportTopicIds="32740968,32740969,32740971,32740972,32739987,32739988,32739990,32739991,32741022,32741023,32741025"
+supportTopicIds="32746594"
   productPesIds="17301"
   cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
