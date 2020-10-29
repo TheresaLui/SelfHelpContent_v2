@@ -22,6 +22,12 @@
    "title": "Marketplace Other Ingestion Issue",
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording, HAR file or document with steps to recreate the issue)",
    "formElements": [
+   	{
+       "id": "learn_more_text",
+       "order": 1,
+       "controlType": "infoblock",
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
+       },
        {
 	   "id": "pc_isv_publisher_name",
 	   "order": 2,
@@ -189,12 +195,6 @@
 	   "watermarkText": "Please provide any other additional information about your issue",
 	   "required": true,
 	   "useAsAdditionalDetails": true
-       },
-       {
-       "id": "learn_more_text",
-       "order": 1,
-       "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
        }
    ]
 }
