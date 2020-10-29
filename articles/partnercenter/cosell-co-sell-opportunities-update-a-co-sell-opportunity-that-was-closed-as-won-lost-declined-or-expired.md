@@ -26,5 +26,6 @@ Re-opening or updating a declined, expired, won or lost Co-sell opportunity is n
  
 ## **Recommended Documents**
 
-* [Manage Co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities)
+* [Deal editing NOT allowed after Won or Lost](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities#frequently-asked-questions)
+* [Additional information on Managing Co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities)
 
