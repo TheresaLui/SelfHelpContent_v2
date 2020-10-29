@@ -71,3 +71,6 @@ Set-AzFirewall -AzureFirewall $firewall
 ```
 
 Please identify the correct command from the list based on the object type, and ask customer to run it.
+
+If running the command doesn't fix the provisioning state, it means that the underlying issue is still outstanding.
+In this case, the next step is to identify the PUT you have just performed, and troubleshoot it.
