@@ -48,9 +48,107 @@
             ]
         },
         {
-            "id": "quota_provider",
-            "visibility": "quota_subtype == provider-quota",
+            "id": "quota_workspace_sublevel",
+            "visibility": "quota_subtype == workspace-quota",
             "order": 3,
+            "controlType": "radioButtonGroup",
+            "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
+            "watermarkText":"Choose the level that you are requesting quota for - need to includeInQuotaSummary",
+            "required": true,
+            "radioButtonOptions": [
+                {
+                    "value": "sub",
+                    "text": "Subscription"
+                },
+                {
+                    "value": "region",
+                    "text": "Region"
+                }
+            ]
+        },
+        {
+            "id": "quota_provider_workspace",
+            "visibility": "quota_subtype == provider-quota && quota_provider_name != null",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel":"Workspace Name",
+            "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
+            "required": true,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/workspaces?api-version=2019-11-04-preview",
+                "jTokenPath":"value",
+                "textProperty":"name, location",
+                "textTemplate":"{name}",
+                "ValueProperty":"id",
+                "valuePropertyRegex": ".*",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            }
+        },
+        {
+            "id": "quota_workspace_region",
+            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel == region",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel":"Azure Region",
+            "watermarkText":"Choose a location - need to includeInQuotaSummary",
+            "required": true,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
+                "jTokenPath":"value",
+                "textProperty":"displayName",
+                "ValueProperty":"name",
+                "valuePropertyRegex": ".*",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            }
+        },
+        {
+            "id": "quota_workspace_new_limit",
+            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel != null",
+            "order": 6,
+            "controlType": "numerictextbox",
+            "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
+            "watermarkText": "Please specify what number you would like the specified quota type raised to.",
+            "required": true,
+            "validations": [
+                {
+                    "type": "GreaterThan",
+                    "value": 0
+                },
+                {
+                    "type": "RegExMatch",
+                    "value": "^[^.]*$",
+                    "text": "Integers only."
+                }
+            ]
+        },
+        {
+            "id": "quota_workspace_business_justification",
+            "visibility": "quota_workspace_new_limit != null",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe the business requirement",
+            "watermarkText": "Provide business justification for your request",
+            "required": false
+        },
+        {
+            "id": "quota_workspace_description_fallback",
+            "visibility": "quota_workspace_region == dont_know_answer",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
+            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
+            "required": true
+        },
+        {
+            "id": "quota_provider_name",
+            "visibility": "quota_subtype == provider-quota",
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel":"Provider Name",
             "watermarkText":"Choose the provider that you are requesting quota for - need to includeInQuotaSummary",
@@ -78,69 +176,9 @@
             ]
         },
         {
-            "id": "quota_workspace_sublevel",
-            "visibility": "quota_subtype == workspace-quota",
-            "order": 4,
-            "controlType": "radioButtonGroup",
-            "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
-            "watermarkText":"Choose the level that you are requesting quota for - need to includeInQuotaSummary",
-            "required": true,
-            "radioButtonOptions": [
-                {
-                    "value": "sub",
-                    "text": "Subscription"
-                },
-                {
-                    "value": "region",
-                    "text": "Region"
-                }
-            ]
-        },
-        {
-            "id": "quota_provider_workspace",
-            "visibility": "quota_subtype == provider-quota && quota_provider != null",
-            "order": 5,
-            "controlType": "dropdown",
-            "displayLabel":"Workspace Name",
-            "watermarkText":"Choose a workspace - need to includeInQuotaSummary",
-            "required": true,
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/workspaces?api-version=2019-11-04-preview",
-                "jTokenPath":"value",
-                "textProperty":"name, location",
-                "textTemplate":"{name}",
-                "ValueProperty":"id",
-                "valuePropertyRegex": ".*",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other"
-                }
-            }
-        },
-        {
-            "id": "quota_workspace_region",
-            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel == region",
-            "order": 6,
-            "controlType": "dropdown",
-            "displayLabel":"Azure Region",
-            "watermarkText":"Choose a location - need to includeInQuotaSummary",
-            "required": true,
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
-                "jTokenPath":"value",
-                "textProperty":"displayName",
-                "ValueProperty":"name",
-                "valuePropertyRegex": ".*",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other"
-                }
-            }
-        },
-        {
             "id": "quota_provider_type",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider != dont_know_answer",
-            "order": 7,
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != dont_know_answer",
+            "order": 10,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Choose the increase that you are requesting for the chosen provider in the chosen workspace - need to includeInQuotaSummary",
@@ -159,8 +197,8 @@
         },
         {
             "id": "quota_provider_type_fallback",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider == dont_know_answer",
-            "order": 8,
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name == dont_know_answer",
+            "order": 11,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "watermarkText":"Specify the type of provider quota you'd like to request. For example: Concurrent Jobs",
@@ -169,7 +207,7 @@
         {
             "id": "quota_provider_new_limit",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null",
-            "order": 9,
+            "order": 12,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
             "watermarkText": "Please specify what number you would like the specified quota type raised to.",
@@ -189,7 +227,7 @@
         {
             "id": "quota_provider_business_justification",
             "visibility": "quota_provider_new_limit != null",
-            "order": 10,
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
@@ -198,44 +236,6 @@
         {
             "id": "quota_provider_description_fallback",
             "visibility": "quota_provider_workspace == dont_know_answer || quota_provider == dont_know_answer",
-            "order": 11,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
-            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
-            "required": true
-        },
-        {
-            "id": "quota_workspace_new_limit",
-            "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel != null",
-            "order": 12,
-            "controlType": "numerictextbox",
-            "displayLabel": "New quota value requested isNewQuotaLimit eqs true",
-            "watermarkText": "Please specify what number you would like the specified quota type raised to.",
-            "required": true,
-            "validations": [
-                {
-                    "type": "GreaterThan",
-                    "value": 0
-                },
-                {
-                    "type": "RegExMatch",
-                    "value": "^[^.]*$",
-                    "text": "Integers only."
-                }
-            ]
-        },
-        {
-            "id": "quota_workspace_business_justification",
-            "visibility": "quota_workspace_new_limit != null",
-            "order": 13,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe the business requirement",
-            "watermarkText": "Provide business justification for your request",
-            "required": false
-        },
-        {
-            "id": "quota_workspace_description_fallback",
-            "visibility": "quota_workspace_region == dont_know_answer",
             "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request - need to useAsAdditionalDetails",
