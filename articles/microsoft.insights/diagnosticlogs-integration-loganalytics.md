@@ -7,7 +7,7 @@
     ms.author="shilsha"
     selfHelpType="generic"
     articleId="diagnosticlogs-export-loganalytics"
-    productPesIds="16251"
+    productPesIds="16875"
     supportTopicIds="32684712"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
