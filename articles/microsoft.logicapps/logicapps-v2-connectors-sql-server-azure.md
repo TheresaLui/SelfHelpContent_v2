@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Logic Apps - SQL Server and Azure SQL Db&#xD;"
+  pagetitle="Azure Logic Apps - SQL Server and Azure SQL Db"
   service="microsoft.logicapps"
   resource="logicapps"
   ms.author="kawilson,xuehongg"
@@ -18,11 +18,12 @@ To connect to your SQL Server on premises or an Azure SQL Database in the cloud 
 
 ## SQL Server and Azure SQL Db Connector Overview
 
-- [SQL Server](https://docs.microsoft.com/connectors/sql/?WT.mc_id=Portal-Microsoft_Azure_Support)
-- [Automate workflows for SQL Server or Azure SQL Database by using Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-sqlazure?WT.mc_id=Portal-Microsoft_Azure_Support)
+- [SQL Server Connector Reference](https://docs.microsoft.com/connectors/sql/?WT.mc_id=Portal-Microsoft_Azure_Support)
+- [Example: Automate workflows for SQL Server or Azure SQL Database by using Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-sqlazure?WT.mc_id=Portal-Microsoft_Azure_Support)
 
 ## Use SQL Server and Azure SQL Db Connector
 
+- [How to Handle Long-Running Stored Procedure](https://techcommunity.microsoft.com/t5/integrations-on-azure/long-running-sql-stored-procedures-in-logicapps/ba-p/1800712)
 - [Logic Apps SQL trigger underlying mechanism to fire event on change](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-apps-sql-trigger-underlying-mechanism-to-fire-event-on-change?WT.mc_id=Portal-Microsoft_Azure_Support)
 - [Paging using Azure Logic Apps SQL Connector](https://www.serverlessnotes.com/docs/paging-using-azure-logic-apps-sql-connector)
 
