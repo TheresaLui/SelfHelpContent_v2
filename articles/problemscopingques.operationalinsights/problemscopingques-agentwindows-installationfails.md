@@ -3,8 +3,8 @@
 pageTitle="Installation fails"
 description="Installation fails"
 articleId="problemscopingques-Windows_Installation fails"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy,neilghuman"
+ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612469"
 productPesIds="15725"
@@ -83,7 +83,7 @@ schemaVersion="1"
             "id": "uninstall_agent",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you trying to install the extension or install the full agent?",
+            "displayLabel": " Are you trying to install via the extension or the bundle?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -91,8 +91,8 @@ schemaVersion="1"
                     "text": "Extension"
                 },
                 {
-                    "value": "Full agent",
-                    "text": "Full agent"
+                    "value": "Bundle",
+                    "text": "Bundle"
                 },
                 {
                     "value": "dont_know_answer",
