@@ -1,19 +1,15 @@
 <properties
-    pageTitle="Azure Logic Apps - SQL Server and Azure SQL Db"
-    description="Azure Logic Apps - SQL Server and Azure SQL Db"
-    service="microsoft.logicapps"
-    resource="logicapps"
-    authors="v-miegge"
-    ms.author="kawilson"
-    selfHelpType="generic"
-    supportTopicIds="32780519"
-    resourceTags=""
-    productPesIds="17378"
-    ownershipId="Compute_LogicApps"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="5d061624-7fb9-449b-9191-72ac8768e396"
-/>
-
+  pagetitle="Azure Logic Apps - SQL Server and Azure SQL Db&#xD;"
+  service="microsoft.logicapps"
+  resource="logicapps"
+  ms.author="kawilson,xuehongg"
+  selfhelptype="Generic"
+  supporttopicids="32780520"
+  resourcetags=""
+  productpesids="17378"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="5d061624-7fb9-449b-9191-72ac8768e396"
+  ownershipid="Compute_LogicApps" />
 # Azure Logic Apps - SQL Server and Azure SQL Db
 
 ## Managed Connector
