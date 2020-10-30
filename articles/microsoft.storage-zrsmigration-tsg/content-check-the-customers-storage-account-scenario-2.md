@@ -25,6 +25,6 @@
    * Each availability zone. And the ZRS cluster within it. Is autonomous and includes separate utilities and networking features. 
    * A write request to a ZRS storage account returns successfully only after the data is written to all replicas across the three clusters.
 3. A replication type change to ZRS will require (unlike other type changes which are just a type change in place and don't need any migration) a migration of data from old infrastructure to ZRS enabled infrastructure. 
-   * This will be at whole account level and not endpoint level. To be handled by IaaS VM POD.
+   * This will be at whole account level and not endpoint level. To be handled by IaaS VM Storage POD.
 
 
