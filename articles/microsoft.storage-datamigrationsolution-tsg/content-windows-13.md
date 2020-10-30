@@ -75,11 +75,11 @@ Answers:
 
 2: Azure Storage Explorer (Blob/File)
 
-3: Azure PowerShell(Blob/File)
+3: Azure PowerShell (Blob/File)
 
 4: Azure CLI (Blob/File)
 
-5: Robocopy (Files only)
+5: Robocopy (File only)
 
 6: Other Tools (Blob/File)
 

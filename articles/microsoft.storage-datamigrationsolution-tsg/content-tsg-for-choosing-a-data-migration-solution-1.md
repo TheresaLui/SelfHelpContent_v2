@@ -63,13 +63,13 @@ Question:
 
  TSG Choose a data migration solution
 
-**Whats the current data migration solution scenario you woudl like to choose from?**
+**Whats the current data migration solution scenario you would like to choose from?**
 
 Answers:
 
 1: Common Azure Data transfer solutions
 
-2: Data Migration - Across Storage Accounts and External Sources (blob/file)
+2: Data Migration - Across Storage Accounts and External Sources (Blob/File)
 
 3: Moving from Classic to ARM
 

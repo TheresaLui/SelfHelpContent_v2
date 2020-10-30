@@ -31,7 +31,7 @@ questionAnswer
 
 Question: 
 
-**Did this solve the customer ask?**
+**This is the end of the work flow. Did this TSG resolve your issue?**
 
 Answers:
 

@@ -45,7 +45,7 @@ questionAnswer
 
 Question: 
 
-**Select which Tool for Windows Operating system is the customer using?**
+**Select which Tool for Linux Operating system is the customer using?**
 
 Answers:
 

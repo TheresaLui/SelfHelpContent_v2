@@ -41,8 +41,8 @@ Question:
 
 Answers:
 
-1: Blob
+1: Blobs
 
-2: File
+2: Files
 
 -->
