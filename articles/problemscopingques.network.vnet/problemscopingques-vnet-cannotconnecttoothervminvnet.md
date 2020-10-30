@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Check if VM port responds to network requests",
-        "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure your VM is on, or the tool won't detect the issue.",
+        "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure that your VM is on, or the tool won't detect the issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
