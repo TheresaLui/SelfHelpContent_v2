@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "345af6b3-dbe0-f1d2-0e9b-8caf8a73df76",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance, specific to networking",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
@@ -75,6 +83,14 @@
       "shortDescription": "Covers issues related to scaling in your scale set",
       "searchTags": "Scale",
       "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "53faf6dd-646b-71fd-7936-e0b58afb5bf0",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -118,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9291db2e-5419-e045-2b70-808ecac7a1cd",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (Memory) with the scale set or instance.",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "92fda6be-46b1-2d65-4aa8-4bdb6b7d3bd9",
       "longDescription": "",
       "shortDescription": "Resolve issues with updating your scale set",
@@ -148,6 +172,14 @@
       "searchTags": "Extensions",
       "category": "Extensions",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ccf18854-baf8-9acf-038b-fcd2797783ed",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues not listed above",
+      "searchTags": "Scale Set",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
