@@ -23,7 +23,7 @@
 
 <!--/issueDescription-->
 
-Try to follow the recommended documents to troubleshoot or escalate 
+Follow the recommended documents to troubleshoot or escalate 
 
 ## **Recommended Documents**
 
