@@ -8,7 +8,7 @@ ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612469"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
+cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -17,7 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
-    "title": "Restore deleted workspace",
+    "title": "Installation fails",
     "fileAttachmentHint": "",
     "formElements": [
         {
