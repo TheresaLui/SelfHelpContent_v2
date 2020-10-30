@@ -17,13 +17,16 @@
 
 # Diagnose and resolve library compatibility issues
 
+> Microsoft Support helps isolate and resolve issues related to libraries installed and maintained by Azure Databricks. For third-party components, including libraries, Microsoft provides commercially reasonable support to help you further troubleshoot issues. Microsoft Support assists on a best-effort basis and might be able to resolve the issue. For open source connectors and projects hosted on Github, we recommend that you file issues on Github and follow up on them. Development efforts such as shading jars or building Python libraries are not supported through the standard support case submission process: they require a consulting engagement for faster resolution. Support might ask you to engage other channels for open-source technologies where you can find deep expertise for that technology. There are several community sites; two examples are the [Microsoft Q&A page for Azure Databricks](https://docs.microsoft.com/answers/topics/azure-databricks.html) and [Stack Overflow](https://stackoverflow.com/).
+
+* [Performing library tasks in the workspace UI](https://docs.microsoft.com/azure/databricks/libraries/)
+
 ## **Recommended Steps**
 
-* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
-    - You can either disable Credential Passthrough for this HC cluster
-    - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
-    
-## **Recommended Documents**
+* Exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled:
+     * This exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
+          * You can either disable Credential Passthrough for this HC cluster
+          * Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
 
 * Error: org.apache.spark.SparkException: Process List
      * Troubleshoot error as per article [Libraries fail with dependency exception](https://docs.microsoft.com/azure/databricks/kb/libraries/library-fail-dependency-exception)
