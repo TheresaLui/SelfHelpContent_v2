@@ -24,15 +24,16 @@ Resources providing knowledge on Program requirements
 
 ## **Recommended Steps**
 
-- For more information on the CSP program and enrolling as a Direct Bill or Indirect reseller, refer to [https://partner.microsoft.com/membership/cloud-solution-provider](https://partner.microsoft.com/membership/cloud-solution-provider)
-- To verify your program status as a CSP refer to [https://partner.microsoft.com/pcv/accountsettings/partnerprofile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)
-- To review which markets and geographies you can sell in, refer to [regional authorization overview](https://docs.microsoft.com/partner-center/regional-authorization-overview)
+We are introducing a performance standard as part of the direct bill partner requirements. Partners who want to enroll as direct bill partners in the Cloud Solution Provider program must meet at least USD300K in Cloud Solution Provider program revenue during the 12 months prior to [required support contract](https://partner.microsoft.com/support/partnersupport) renewal date. 
+
+This performance standard will go into effect in January 2021 for current direct bill partners, and you will need to meet the requirements by your partner support plan renewal date.
+
+Please refer to [Subscription analytics report](https://partner.microsoft.com/dashboard/analytics/licenseanalytics) for details of previous 12 months revenue and refer to [analytics report guide](https://partner.microsoft.com/resources/detail/new-subscription-analytics-report-on-partner-center-guide-pdf) for more information.
 
 ## **Recommended Documents**
 
-* [CSP direct bill partner new requirements](https://docs.microsoft.com/partner-center/direct-partner-new-requirements)
 * [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses)
 * [Requirements to enroll as a CSP direct bill partner](https://docs.microsoft.com/partner-center/direct-partner-new-requirements)
 * [Transition from Cloud Solution Provider (CSP) direct bill partner to CSP indirect reseller](https://docs.microsoft.com/partner-center/transition-direct-to-indirect)
-
+* [Performance standard for direct bill partners](https://docs.microsoft.com/partner-center/announcements/2020-october#13)
 

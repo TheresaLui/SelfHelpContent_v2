@@ -10,14 +10,14 @@
 	articleId="dbforpostgresql-asc-connectivity-aad-internal-error"
 	diagnosticScenario="OrcasPostgresAADInternalError"
 	selfHelpType="diagnostics"
-	supportTopicIds="32742678"
+	supportTopicIds="32742678, 32780959"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Can’t connect to PostgreSQL server: Internal error with Azure AD authentication
+# Can't connect to PostgreSQL server: Internal error with Azure AD authentication
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because an internal error occurred whilst attempting to validate the Azure AD authentication token. 

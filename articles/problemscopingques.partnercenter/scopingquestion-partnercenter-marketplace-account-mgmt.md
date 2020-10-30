@@ -51,7 +51,7 @@
        "content": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
        },
        {
-	   "id": "additional_email(s)_for_notification",
+	   "id": "additional_emails_for_notification",
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
