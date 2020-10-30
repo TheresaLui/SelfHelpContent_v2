@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software - NodeReboot - Low Memory Condition"
+	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="NatErns"
+	authors="NatErns	"
 	ms.author="naterns"
-	displayOrder=""	
-	articleId="VMA_RCA_Software_NodeReboot_Memory_Low"
+	displayOrder=""
+	articleId="UnexpectedVMReboot_Service_Healing_Node_Fault_Low_Memory_noend"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -20,7 +20,7 @@
 
 ### *VM Availability Event*
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. 
 <!--/issueDescription-->
 
 <!--rcaDescription-->
@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 > The following platform fixes are in process:
 > * A host OS update is currently in deployment that resolves the known memory leaks. However, there are a few nodes that have to be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
-> * Enhancements and features of various Azure components has resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
+> * Enhancements and features of various Azure components have resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
 > 
 <!--/resolutionDetails-->
 
