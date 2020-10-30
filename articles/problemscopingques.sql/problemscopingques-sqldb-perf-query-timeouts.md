@@ -94,8 +94,9 @@
             "required": true
         },
         {
-            "id": "application_type",
+            "id": "application_Entity_type",
             "order": 40,
+            "visibility" : "observed_recent_event != event_migration",
             "controlType": "dropdown",
             "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
             "watermarkText": "Choose an option",
@@ -118,6 +119,56 @@
                 }
             ],
             "required": false
+        },
+        {
+            "id" : "application_migration_type",
+            "order" : 41,
+            "visibility" : "observed_recent_event == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What is the application type?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "modern_platform",
+					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
+				},
+				{
+					"value": "legacy",
+					"text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
+          {
+            "id" : "migration_backend",
+            "order" : 42,
+            "visibility" : "observed_recent_event == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What was the Pre-Migration backend?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "sql_server",
+					"text": "SQL Server"
+				},
+				{
+					"value": "oracle",
+					"text": "Oracle"
+				},
+				{
+					"value": "db2",
+					"text": "DB2"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
         },
         {
             "id": "problem_description",
