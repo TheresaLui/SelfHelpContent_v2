@@ -26,6 +26,7 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 
 * The V2 .NET change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/)
 * The newer V3 .NET change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3)
+* For Java, the change feed processor is part of the [Java V4 SDK package](https://mvnrepository.com/artifact/com.azure/azure-cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/cosmos/azure-cosmos)
 
 Make sure you have updated to the latest version, as the issue you might be encountering may have already been solved.
 
@@ -37,11 +38,15 @@ There are four main components of implementing the change feed processor:
 
 1. **The lease container:** The lease container acts as a state storage and coordinates processing the change feed across multiple workers. The lease container can be stored in the same account as the monitored container or in a separate account.
 
-1. **The host:** A host is an application instance that uses the change feed processor to listen for changes. Multiple instances with the same lease configuration can run in parallel, but each instance should have a different **instance name**.
+1. **The host:** A host is an application instance that uses the change feed processor to listen for changes. Multiple instances with the same lease configuration can run in parallel, but each instance should have a different **instance/host name**.
 
 1. **The delegate:** The delegate is the code that defines what you, the developer, want to do with each batch of changes that the change feed processor reads. 
 
 The lease container is particularly used to store the last processed point of the Change Feed in case the host stops. If the host starts again at a later point in time, the Processor will continue from the latest point in time stored in the lease container. The lease container is also used to do dynamic load balancing when multiple instances of the Processor are running.
+
+### **Will each change be delivered only once?**
+
+The change feed processor has an **at least once** delivery guarantee. That means that your handler code needs to contemplate that a particular change might be received more than once. During rebalancing of the leases or when the number of instances varies, there is a possibility of two instances processing the same lease. Also if there are unhandled exceptions in your handler (see below), a batch can be retried.
 
 ### **Error handling and exceptions in the change feed processor**
 
@@ -51,15 +56,17 @@ If your current Delegate or Observer (if you are working with V2 .NET) throws an
 
 The change feed processor can distribute compute across multiple instances automatically. You can deploy multiple instances of your application using the change feed processor and take advantage of it, the only key requirements are:
 
-1. All instances should have the same lease container configuration
-1. All instances should have the same workflow or processor name. In the case of V2, this is the `LeaseCollectionPrefix` configuration.
-1. Each instance needs to have a different instance name (`WithInstanceName`).
+1. All instances should have the same lease container configuration.
+1. All instances should have the same workflow or processor name in .NET. In the case of V2, this is the `LeaseCollectionPrefix` configuration. For Java, it's the `LeasePrefix` in the `ChangeFeedProcessorOptions`.
+1. Each instance needs to have a different instance name (`WithInstanceName` on .NET and `hostName` in Java).
 
 ### **Some of my change feed processor instances are idle and not processing changes**
 
-The change feed processor creates one lease document in the lease container per physical partition on the monitored container. The change feed processor distributes lease documents across existing instances using an equal distribution algorithm (for example, if you have 10 lease documents and 5 instances, it will assign 2 lease documents per host). When new instances are added or removed, a rebalancing takes place. 
+The change feed processor creates one lease document in the lease container per physical partition on the monitored container. The change feed processor distributes lease documents across existing instances using an equal distribution algorithm (for example, if you have 10 lease documents and 5 instances, it will assign 2 lease documents per host). When new instances are added or removed, a rebalancing takes place.
 
 If the amount of instances is greater than the amount of lease documents (greater than the amount of physical partitions) those extra instances will remain idle. This means that the current implementation's degree of parallelism is limited by the number of physical partitions.
+
+If you are using the **Java** change feed processor, make sure you are not using the [ChangeFeedProcessorOptions.setMinScaleCount](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/cosmos/azure-cosmos/src/main/java/com/azure/cosmos/models/ChangeFeedProcessorOptions.java#L292).
 
 ### **The changes are not detected quickly enough**
 
