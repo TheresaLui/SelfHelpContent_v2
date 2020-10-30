@@ -97,11 +97,11 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "event_migration",
+                    "value": "have_baseline",
                     "text": "Yes, we have a baseline for the query performance"
                 },
                 {
-                    "value": "event_slo",
+                    "value": "no_baseline",
                     "text": "No, or not sure if we have any"
                 }
             ],
