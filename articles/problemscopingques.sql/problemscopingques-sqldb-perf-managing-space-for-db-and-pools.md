@@ -89,8 +89,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "is_userdb_issue",
-                    "text": "No, this is a user database issue"
+                    "value": "is_otherdb_issue",
+                    "text": "No, other than tempdb"
                 }
             ],
             "required": false

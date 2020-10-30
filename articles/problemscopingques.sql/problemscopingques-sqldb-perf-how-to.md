@@ -74,7 +74,7 @@
             "displayLabel": "Please provide additional context for the topic of interest or the facing problem ",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "If available, please attach any relevant screenshots or link address that you have referenced"
+            "watermarkText": "If available, please attach any relevant screenshots or URL referenced"
         }
     ]
 }
