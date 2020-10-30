@@ -43,20 +43,11 @@ In order for AD Auth to work properly, we need a valid Kerberos ticket to connec
     
     * Re-run the Debug command. If it still fails, proceed to next step. 
 
-2. The customer (or their domain administrator) needs to examine their domain group policy for [encryption types allowed for Kerberos](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos)
-3. Make sure RC4_HMAC_MD5 is included as a value. They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
-4. Once the group policy changes have been made, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
-5. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
-
-### **Customer Ready Message**
-
-Dear Customer,
-
-It seems that your computer does not have supported Kerberos encryption type(RC4-HMAC) enabled through group policy settings. This is currently resulting in authentication failures to access Azure file shares.
-
-You (or their domain administrator) need to examine your domain group policy for "Network security configure encryption types allowed for kerberos". And make sure RC4-HMAC-MD5 is included as a value.  
-
-You can validate the mitigation by retrying mount and running Get-AzStorageKerberosTicketStatus after the policy change.
-
-We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H2 CY 2020.
-
+2. The customer (or their domain administrator) needs to examine their domain group policy for [encryption types allowed for Kerberos](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos). We currently support RC4-HMAC and AES 256 encryption. AES 128 Kerberos encryption is not yet supported.
+3. Make sure RC4_HMAC or AES_256 are included as a value. If the customer has questions about support for AES 128 Encryption type, please follow the appropriate escalation model to engage with PG. 
+4. Once we have verified that customer’s domain policy has supported Kerberos encryption type enabled, there is nothing needed to be done if RC4 HMAC is being used. 
+5. But in case AES 256 encryption type is being enforced, there are additional steps to follow in order to enable it at the storage account level. 
+    * We introduced AES 256 Kerberos encryption support for Azure Files on-prem AD DS authentication with AzFilesHybrid module v0.2.2.
+    * Please ask the customer to run [Update-AzStorageAccountAuthForAES256](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#azure-files-on-premises-ad-ds-authentication-support-for-aes-256-kerberos-encryption) PowerShell command to enable AES 256 support. This command is only available with AzFilesHybrid module v0.2.2.
+6. Once the appropriate changes have been made, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step of the troubleshooter to further troubleshoot. 
+7. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
