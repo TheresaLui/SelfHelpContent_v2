@@ -18,21 +18,21 @@ ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 
 # Alerts notification failure – no fired alerts found
 
-## **No fired alerts found for this alert rules**
+## **No fired alerts found for this alert rule**
 
 <!--issueDescription-->
-Our diagnostics has detected that no alerts have been fired for alert rule <!--$AlertRuleName-->[AlertRuleName]<!--/$AlertRuleName--> between <!--$QueryStartTime-->[QueryStartTime]<!--/$QueryStartTime--> and <!--$QueryEndTime-->[QueryEndTime]<!--/$QueryEndTime-->. This may mean that the issue you are experiencing is related to the alert not firing at all, rather than a notification issue.
+Our diagnostics have detected that no alerts have been fired for alert rule <!--$AlertRuleName-->[AlertRuleName]<!--/$AlertRuleName--> between <!--$QueryStartTime-->[QueryStartTime]<!--/$QueryStartTime--> and <!--$QueryEndTime-->[QueryEndTime]<!--/$QueryEndTime-->. This may mean that the issue you are experiencing is related to the alert not firing at all, rather than being a notification issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 **Verify the alert rule name and period**
 
-Verify that the alert rule name and period are correct and match the issue your are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure portal to see if you may be relating to another alert rule which may have fired.
+Verify that the alert rule name and period are correct and match the issue you are reporting. You can review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) in the Azure Portal to see if this issue might have been caused by a different alert rule firing.
 
 **Troubleshoot why the alert didn't fire**
 
-If the alert indeed didn't fire and you believe it should, you can try to understand why the alert didn't fire. Depending on the alert type, you can use one of the following troubleshooting guides:
+If the alert indeed didn't fire, but you feel that it should have, use the following troubleshooting guides to determine the reason:
 
 * [Troubleshooting Metric Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric)
 * [Troubleshooting Log Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-log)
@@ -41,4 +41,3 @@ If the alert indeed didn't fire and you believe it should, you can try to unders
 
 * [Troubleshooting Metric Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric)
 * [Troubleshooting Log Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-log)
-
