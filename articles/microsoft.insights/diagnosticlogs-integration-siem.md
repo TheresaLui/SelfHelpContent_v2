@@ -1,4 +1,4 @@
-properties 
+<properties 
     pageTitle="Integrating Diagnostic settings with 3rd party SIEM tools"
     description="Integrating with SIEM"
     service="microsoft.insights"
