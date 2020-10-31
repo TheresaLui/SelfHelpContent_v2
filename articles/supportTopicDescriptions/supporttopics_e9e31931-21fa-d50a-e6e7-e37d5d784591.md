@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bbcf9b28-ec18-572f-074f-037014347149",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set not listed above",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c1a0211a-8db9-39f6-7cc0-f1dc54a097d5",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
