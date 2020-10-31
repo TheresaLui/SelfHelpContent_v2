@@ -19,18 +19,16 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that cluster creation failure is due to below azure policy
+We have checked the cluster. It seems that cluster creation failure is due to the following Azure policy.
 
 ***{paste policy name here}***
 
 <!--/issueDescription-->
 
+**Recommended Steps**
 
-To resolve the issue:
-1. Please follow the recommended documents to check Azure policy
-2. If conflict, please remove this policy and retry to create the cluster again
-
-
+1. Review the following recommended documents to check Azure policy
+2. If a conflict results, remove the policy and try to create the cluster again
 
 ## **Recommended Documents**
 
