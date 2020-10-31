@@ -23,7 +23,7 @@
 
 <!--/issueDescription-->
 
-Please follow recommended documents to mitigate the issue:
+Use the following recommended documents to mitigate the issue.
 
 ## **Recommended documents**
 
