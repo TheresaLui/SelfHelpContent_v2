@@ -21,14 +21,14 @@
 
 ***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 
-It is very likely that Ambari failed to add the hosts to the cluster. Please check CAmbariServerLog and CAmbariAgentLog to see the reason
+It is very likely that Ambari failed to add the hosts to the cluster. Check CAmbariServerLog and CAmbariAgentLog to determine the cause.
 
 <!--/issueDescription-->
 
-## **Possible RCA**
+## **Possible RCAs**
 
 * [Incorrect Repositories URLs cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/372548/HBase_Scaleup_Fail)
-* [two MSI cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/343176/RenewLdapCertificateWorkflow-or-RotateInternalSpCredentialsWorkflow-failure-caused-by-two-MSI)
+* [Two MSI cause AmbariAddHostsFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/343176/RenewLdapCertificateWorkflow-or-RotateInternalSpCredentialsWorkflow-failure-caused-by-two-MSI)
 
 ## **Known Issues**
 
