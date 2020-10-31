@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scale Set",
+      "category": "Trigger",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da505cd0-5cd6-3398-2923-beaf5170b260",
       "longDescription": "",
       "shortDescription": "Common problems related to starting or stopping your instance or scale set",
