@@ -236,6 +236,14 @@
       "searchTags": "Management",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ff11ec6d-e402-03d1-69a2-2ca229a268b5",
+      "longDescription": "",
+      "shortDescription": "Common problems related to instance stuck in update",
+      "searchTags": "update",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
