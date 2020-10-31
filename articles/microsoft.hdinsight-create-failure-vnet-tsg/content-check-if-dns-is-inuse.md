@@ -17,7 +17,9 @@
 
 # Check if DNS is available
 
-The hostname must resolve for HDInsight cluster creation to work successfully. Use the kusto command below to check if DNS is in use.
+**Recommended Steps**
+
+The hostname must resolve for HDInsight cluster creation to work successfully. Use the following `kusto` command to check if DNS is in use:
 
 ```kusto
 
@@ -26,5 +28,4 @@ IaasClusterCRUDEvent
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | where ErrorInfoAsJson contains "DNS is available" and ErrorInfoAsJson contains "is not available" 
 | project PreciseTimeStamp, State, ErrorInfoAsJson
-
 ```
