@@ -23,7 +23,7 @@
 
 <!--/issueDescription-->
 
-Try to follow the recommended documents to troubleshoot or escalate 
+Use the following recommended documents to troubleshoot or escalate. 
 
 ## **Recommended Documents**
 
@@ -33,4 +33,4 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 ## **Known Issues**
 
-* [leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)
+* [Leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)
