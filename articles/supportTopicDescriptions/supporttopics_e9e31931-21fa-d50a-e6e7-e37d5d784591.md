@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4eb70ac-df90-47d5-ad30-6dbdca3448fe",
+      "longDescription": "",
+      "shortDescription": "Common problems related to allocation failures",
+      "searchTags": "Allocation",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
       "longDescription": "",
       "shortDescription": "Questions specific to Azure Planned Maintenance of the Azure hardware",
