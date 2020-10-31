@@ -21,7 +21,7 @@
     "title": "Unable to reach a port",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Check if VM port responds to network requests",
+        "title": "Check if the VM port responds to network requests",
         "description": "Our VM Port Scanner can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
