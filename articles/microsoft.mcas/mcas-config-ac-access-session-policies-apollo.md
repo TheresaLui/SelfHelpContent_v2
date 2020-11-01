@@ -20,12 +20,12 @@
 
 Access and session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
 
-Follow the recommended steps to resolve these common configuration issues:
+Follow our recommended steps to resolve these common configuration issues:
 
 - I'm getting an error when trying to create policies
 - My access or session policy is not enforced as expected
 
-If you're still experiencing the issue or your issue is not listed, you may find that our, [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy), [videos](#how-to-videos), and [resources](#more-resources) can help you resolve your issue.
+If you're still experiencing the issue or your issue is not listed, you may find that our, [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy), [videos](#how-to-videos), and [resources](#more-resources) can help you.
 
 :::Section Solution:::
 
