@@ -22,8 +22,6 @@ DLP and file policies in Cloud App Security allow you to configure controls that
 
 Follow our recommended steps to resolve common DLP and file policy issues.
 
-If you're still experiencing the issue, you may find that our, [videos](#how-to-videos) and [resources](#more-resources) can help you.
-
 :::Section Solution:::
 
 ### Recommended steps
@@ -34,6 +32,8 @@ If you're still experiencing the issue, you may find that our, [videos](#how-to-
     - Review the conditions of each [sensitivity type](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions), and in the advanced settings, verify that each sensitive type match accuracy and instance counts are configured correctly.
 1. If you are unable to investigate and control files:
     - Verify that file monitoring is enabled. In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**. If you don't have access to the *Files* page for more than 60 days and have no active file policies, file monitoring will be automatically disabled. Learn more about [Labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
+
+If you're still experiencing the issue, you may find that our [videos](#how-to-videos) and [resources](#more-resources) can help you.
 
 ### How-to videos
 
