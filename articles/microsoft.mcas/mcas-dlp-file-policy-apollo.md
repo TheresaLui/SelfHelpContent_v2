@@ -20,7 +20,20 @@
 
 DLP and file policies in Cloud App Security allow you to configure controls that provide continuous compliance scans, legal eDiscovery tasks, DLP for sensitive content shared publicly, and many more use cases.
 
+Follow our recommended steps to resolve common DLP and file policy issues.
+
+If you're still experiencing the issue, you may find that our, [videos](#how-to-videos) and [resources](#more-resources) can help you.
+
 :::Section Solution:::
+
+### Recommended steps
+
+1. If you're sharing files and the domain isn't detected:
+    - This can occur when sharing files with external users using a group and the "Collaborators" filter is set to "Any from domain". In this setup, domains are not detected for members of a group and can only be detected for users who have direct permissions on the file.
+1. If your data classification service sensitive types aren't matching as expected:
+    - Review the conditions of each [sensitivity type](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions), and in the advanced settings, verify that each sensitive type match accuracy and instance counts are configured correctly.
+1. If you are unable to investigate and control files:
+    - Verify that file monitoring is enabled. In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**. If you don't have access to the *Files* page for more than 60 days and have no active file policies, file monitoring will be automatically disabled. Learn more about [Labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
 
 ### How-to videos
 
@@ -34,15 +47,6 @@ DLP and file policies in Cloud App Security allow you to configure controls that
         <title>How to identify and protect overexposed data in the cloud with Microsoft Cloud App Security</title>
     </video>
 </videoGroup>
-
-### Recommended solution for commonly occurring issues
-
-1. If you're sharing files and the domain isn't detected:
-    - This can occur when sharing files with external users using a group and the "Collaborators" filter is set to "Any from domain". In this setup, domains are not detected for members of a group and can only be detected for users who have direct permissions on the file.
-1. If your data classification service sensitive types aren't matching as expected:
-    - Review the conditions of each [sensitivity type](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions), and in the advanced settings, verify that each sensitive type match accuracy and instance counts are configured correctly.
-1. If you are unable to investigate and control files:
-    - Verify that file monitoring is enabled. In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**. If you don't have access to the *Files* page for more than 60 days and have no active file policies, file monitoring will be automatically disabled. Learn more about [Labels, Sensitive Information Types and Microsoft Information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515)
 
 ### More resources
 
