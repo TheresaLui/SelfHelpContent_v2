@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8db09ac1-76d4-45e1-7cdb-470890b22228",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "91bc0968-15ef-b89e-508e-23abc069d38f",
       "longDescription": "",
       "shortDescription": "Questions specific to issues with automatic instance repairs",
