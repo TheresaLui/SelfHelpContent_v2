@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c5d05bdc-a94f-7d10-7f50-151adf3bd616",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ccf18854-baf8-9acf-038b-fcd2797783ed",
       "longDescription": "",
       "shortDescription": "Questions or issues specific to performance issues not listed above",
