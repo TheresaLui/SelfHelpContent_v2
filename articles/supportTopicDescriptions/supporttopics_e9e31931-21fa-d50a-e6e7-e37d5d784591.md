@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "433958cc-89e1-422a-cd83-b8b1f24d6f6b",
+      "longDescription": "",
+      "shortDescription": "Common problems related to an unresponsive instance",
+      "searchTags": "cannot start",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
