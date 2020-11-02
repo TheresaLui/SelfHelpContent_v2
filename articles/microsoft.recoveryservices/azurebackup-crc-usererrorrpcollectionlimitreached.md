@@ -26,7 +26,7 @@ Your backup operation failed due the presence of a lock on the recovery point re
 1. [Remove the lock from the resource Group](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#remove_lock_from_the_recovery_point_resource_group)<br>
 2. [Clean up the Restore point collection](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#clean_up_restore_point_collection)<br>
 3. The backup service creates a separate resource group than the resource group of the VM to store restore point collection. You must not lock the resource group created by the backup service. [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached).
-4. The naming format of the resource group created by Backup service is:
+4. The naming format of the resource group created by backup service is:
 
 ```
 AzureBackupRG_<Geo>_<number>
