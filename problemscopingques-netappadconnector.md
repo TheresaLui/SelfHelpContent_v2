@@ -30,8 +30,7 @@
             "id": "ostypevm",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "What is the VM OS type where mount is done?",
-            "watermarkText": "OS of VM where the volume is being mouted",
+            "displayLabel": "Is the username a valid username on the active directory?"
             "required": true
         },
 		{
