@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8033c24f-8ee8-ec36-793b-2555e7913d15",
+      "longDescription": "",
+      "shortDescription": "Issues with submitting a new Azure Quantum job, either through a client tool or the REST API.",
+      "searchTags": "submit;job",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8828e682-df1e-d76f-714e-ae89c8a07286",
       "longDescription": "",
       "shortDescription": "Issues relating to situations where jobs seem to be stuck and will not complete for a long time. ",
