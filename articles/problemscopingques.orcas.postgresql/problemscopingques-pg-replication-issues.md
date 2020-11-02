@@ -4,7 +4,7 @@
     authors="Xin-Cheng"
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639992"
+    supportTopicIds="32639992, 32780914, 32780920"
     productPesIds="16222,17067,17069,17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
