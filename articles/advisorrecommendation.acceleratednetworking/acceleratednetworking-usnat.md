@@ -3,7 +3,7 @@
     description="Enable Accelerated Networking to improve network performance and latency"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="9ce840f8-35b2-441d-bf3f-33084c3c4cc7_USNat"
+    articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
     ownershipId="CloudNet_Datapath"
