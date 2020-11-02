@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ac39e528-69e9-1dab-21af-cc03c364d8bb",
+      "longDescription": "",
+      "shortDescription": "Issues cancelling an Azure Quantum job.",
+      "searchTags": "cancel;job",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e0fa23-f8d3-6f89-6e13-12c5e821969f",
       "longDescription": "",
       "shortDescription": "Problems accessing job input or output data on a storage account associated to an Azure Quantum workspace. ",
