@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b9ba19f0-0680-8825-f4d3-d7a0d1b31e44",
+      "longDescription": "",
+      "shortDescription": "Common problems related to a specific extension not operating correctly",
+      "searchTags": "Boot Diagnostics",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
       "longDescription": "",
       "shortDescription": "Questions specific to Azure Planned Maintenance of the Azure hardware",
