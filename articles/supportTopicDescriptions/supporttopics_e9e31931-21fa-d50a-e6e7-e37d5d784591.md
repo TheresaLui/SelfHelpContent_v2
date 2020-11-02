@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "21256832-d9fe-0b31-02ff-ab330cfb6ce8",
+      "longDescription": "",
+      "shortDescription": "Common problems related to Azure Disk Encryption (ADE) not operating correctly",
+      "searchTags": "ADE;Azure Disk Encruption ",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
       "longDescription": "",
       "shortDescription": "Resolve issues with updating your scale set",
