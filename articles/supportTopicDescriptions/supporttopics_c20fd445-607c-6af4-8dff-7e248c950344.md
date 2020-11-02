@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b1b822a5-696b-3bec-a3b5-125e63a7d4ef",
+      "longDescription": "",
+      "shortDescription": "Issues relating to the job UI in the portal or querying a list of jobs through the Azure CLI. ",
+      "searchTags": "azure quantum;jobs;job;list",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e0fa23-f8d3-6f89-6e13-12c5e821969f",
       "longDescription": "",
       "shortDescription": "Problems accessing job input or output data on a storage account associated to an Azure Quantum workspace. ",
