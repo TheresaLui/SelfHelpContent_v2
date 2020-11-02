@@ -406,6 +406,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d0e19ffb-72f3-3779-2044-670b33237406",
+      "longDescription": "",
+      "shortDescription": "Issues with connecting to your VMSS instance",
+      "searchTags": "Connect",
+      "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da505cd0-5cd6-3398-2923-beaf5170b260",
       "longDescription": "",
       "shortDescription": "Common problems related to starting or stopping your instance or scale set",
