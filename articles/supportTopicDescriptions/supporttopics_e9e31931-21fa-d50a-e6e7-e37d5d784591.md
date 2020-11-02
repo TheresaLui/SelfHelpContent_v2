@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1d590dca-abb7-2609-5c33-0e4652446f7c",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to sizing and throughput ",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
       "longDescription": "",
       "shortDescription": "Resolve issues with updating your scale set",
