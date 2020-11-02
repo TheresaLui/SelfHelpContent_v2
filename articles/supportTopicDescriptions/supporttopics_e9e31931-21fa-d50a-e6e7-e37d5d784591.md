@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dddc720f-ee38-73a0-b4b2-28ccf0a33350",
+      "longDescription": "",
+      "shortDescription": "Common problems related to Azure Desired State Configuration (DSC) not operating correctly",
+      "searchTags": "DSC",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
       "longDescription": "",
       "shortDescription": "Questions specific to configuring monitoring alerts",
