@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "fc467225-efc0-9920-c752-93def9bd3ff0",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fc7ce244-83c2-72dc-049b-055413ea0401",
       "longDescription": "",
       "shortDescription": "Issues with basic management of scale sets not covered by other support topics.",
