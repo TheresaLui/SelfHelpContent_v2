@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8739dd2e-3f1c-a1a4-6240-590aebf9ed06",
+      "longDescription": "",
+      "shortDescription": "Common problems related to a failed operation",
+      "searchTags": "Start;stop",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8798b9eb-a5dd-7a07-7e13-82f5a67f5ecf",
       "longDescription": "",
       "shortDescription": "Common problems related to extensions not operating correctly",
