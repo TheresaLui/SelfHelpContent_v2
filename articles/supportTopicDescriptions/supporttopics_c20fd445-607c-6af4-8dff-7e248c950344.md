@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7bd84be5-629c-17fa-3b08-1edbc5b329fe",
+      "longDescription": "",
+      "shortDescription": "Problems with Azure Quantum that are not covered under any other category.",
+      "searchTags": "not covered;other;Azure Quantum",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8033c24f-8ee8-ec36-793b-2555e7913d15",
       "longDescription": "",
       "shortDescription": "Issues with submitting a new Azure Quantum job, either through a client tool or the REST API.",
