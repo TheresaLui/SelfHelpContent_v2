@@ -1,0 +1,76 @@
+<properties
+    pageTitle="Hostname certificate rotation failed."
+    description="Hostname certificate rotation failed."
+    authors="apicore"
+    ms.author="aoapicoreaft"
+    articleId="b882dd44-9d01-4d63-917b-1860dcfd1f01"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public, USSec, USNat"
+	  ownershipId="Compute_APIManagement"
+/>
+# The following ADX clusters are not being used and are candidates for deletion.
+---
+{
+  "recommendationOfferingId": "7e1fb574-eb4a-45d7-8db2-c85445aac53f",
+  "recommendationOfferingName": "Azure API Management",
+  "$schema": "AdvisorRecommendation",
+  "recommendationTypeId": "8962964c-a6d6-4c3d-918a-2777f7fbdca7",
+  "recommendationCategory": "HighAvailability",
+  "recommendationImpact": "High",
+  "recommendationResourceType": "Microsoft.ApiManagement/service",
+  "recommendationFriendlyName": "HostnameCertRotationFail",
+  "recommendationMetadataState": "Active",
+  "owner": {
+    "email": "apicore@microsoft.com",
+    "icm": {
+      "routingId": "mdm://adspartner/apimanage/serviceloop",
+      "service": "API Management",
+      "team": "ServicingLoop"
+    },
+    "serviceTreeId": "6ba70dfa-ead9-4cc1-b894-049f8a17c22b"
+  },
+  "version": 1.0,
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/api-management/configure-custom-domain",
+  "description": "Hostname certificate rotation failed",
+  "longDescription": "API Management service failed to refresh hostname certificate from Key Vault. Please ensure that certificate exists in Key Vault and API Management service identity is granted read access.",
+  "potentialBenefits": "Ensure service availability",
+  "displayLabel": "Hostname certificate rotation failed",
+  "additionalColumns": [
+    {
+      "name": "message",
+      "title": "Message"
+    }
+  ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "0685ab09-d3ee-4cb0-bfe7-19f47d76f37b",
+      "description": "Manage hostnames",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}",
+        "menuid": "apim-hostname"
+      }
+    }
+  },
+  "actions": [
+    {
+      "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
+      "description": "Consider deleting empty or unused clusters",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  ],
+  "dataSourceMetadata": {
+    "schemaVersion": 1.0,
+    "streamNamespace": "cluster('https://apim.kusto.windows.net').database('APIMProd').AzureAdvisor_HostnameCertificateRotationFailed",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
+  }
+}
+---
