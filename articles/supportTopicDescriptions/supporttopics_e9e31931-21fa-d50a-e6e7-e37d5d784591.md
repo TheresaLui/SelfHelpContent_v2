@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "094b604d-e7d1-5b3e-bf95-3cb7c5197621",
+      "longDescription": "",
+      "shortDescription": "Guidance with resizing a disk",
+      "searchTags": "resizing",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0c41ebbd-4f70-a0cb-c305-b037c5e8c4e2",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
