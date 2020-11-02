@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c09b92e3-8c2e-7907-daaf-a22659c743cb",
+      "longDescription": "",
+      "shortDescription": "Issues relating to Azure Quantum workspaces and their configuration, as well as providers and targets used inside the workspace.",
+      "searchTags": "workspace;azure quantum;quantum;provider;target",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e0fa23-f8d3-6f89-6e13-12c5e821969f",
       "longDescription": "",
       "shortDescription": "Problems accessing job input or output data on a storage account associated to an Azure Quantum workspace. ",
