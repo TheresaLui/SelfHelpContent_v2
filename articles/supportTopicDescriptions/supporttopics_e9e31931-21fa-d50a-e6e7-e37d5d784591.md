@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0c41ebbd-4f70-a0cb-c305-b037c5e8c4e2",
+      "longDescription": "",
+      "shortDescription": "Guidance with Virtual Disk Management",
+      "searchTags": "Virtual Disk Management",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
       "longDescription": "",
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
