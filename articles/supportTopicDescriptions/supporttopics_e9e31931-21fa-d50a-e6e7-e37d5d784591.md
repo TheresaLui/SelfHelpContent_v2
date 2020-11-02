@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9fd3152d-6587-c81f-b0a6-636bcd644ef2",
+      "longDescription": "",
+      "shortDescription": "Guidance with creating or deleting a virtual disk",
+      "searchTags": "disk",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4eb70ac-df90-47d5-ad30-6dbdca3448fe",
       "longDescription": "",
       "shortDescription": "Common problems related to allocation failures",
