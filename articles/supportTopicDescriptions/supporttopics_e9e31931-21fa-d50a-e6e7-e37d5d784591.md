@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1dcbbf98-079f-07ef-3abd-52426e57774d",
+      "longDescription": "",
+      "shortDescription": "Common problems related to Custom Script Extension (CSE) not operating correctly",
+      "searchTags": "Custom Script Extension ;CSE",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "218e397c-ecc6-5d2e-1352-9aadd85a4483",
       "longDescription": "",
       "shortDescription": "Resolve issues with updating your scale set",
