@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1e0fa23-f8d3-6f89-6e13-12c5e821969f",
+      "longDescription": "",
+      "shortDescription": "Problems accessing job input or output data on a storage account associated to an Azure Quantum workspace. ",
+      "searchTags": "access;storage account;job;data",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ada834-ecb7-41c2-b711-cd70c191e594",
       "longDescription": "",
       "shortDescription": "Issues relating to authentication error when using Azure Quantum client tools and SDKs.",
