@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "732643c1-8280-128b-8f88-376c54927d1a",
+      "longDescription": "",
+      "shortDescription": "Issues with connecting to your VMSS instance",
+      "searchTags": "Connect",
+      "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
       "longDescription": "",
       "shortDescription": "Common problems related to using Orchestration",
