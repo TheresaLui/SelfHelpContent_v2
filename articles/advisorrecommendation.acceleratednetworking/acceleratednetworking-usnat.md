@@ -63,9 +63,9 @@
       }
     }
   },
-  "displayLabel": " Enable Accelerated Networking to improve network performance and latency",
-"additionalColumns": [],
-  "testData": “6c59adc2-2c7f-4f6f-a88e-6ef09e151cf6,/subscriptions/6c59adc2-2c7f-4f6f-a88e-6ef09e151cf6/resourceGroups/LX_SDN_Demo_Environment/providers/Microsoft.Compute/virtualMachines/ClientVM”,
-"tip": " Enable Accelerated Networking to improve network performance and latency."
+  "displayLabel":"Enable Accelerated Networking to improve network performance and latency",
+  "additionalColumns": [],
+  "testData":"6c59adc2-2c7f-4f6f-a88e-6ef09e151cf6,/subscriptions/6c59adc2-2c7f-4f6f-a88e-6ef09e151cf6/resourceGroups/LX_SDN_Demo_Environment/providers/Microsoft.Compute/virtualMachines/ClientVM",
+ "tip": "Enable Accelerated Networking to improve network performance and latency."
 }
 ---
