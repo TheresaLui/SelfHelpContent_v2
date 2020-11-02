@@ -49,7 +49,7 @@ Azure Database for PostgreSQL generally does not support restoring a deleted ser
   	   }
    } 
    ```
-     -  `location` - The original location of the dropped server, please note you will not be able to use a differnt location to restore to.
+     -  `location` - The original location of the dropped server, please note you are only allowed to choose the source server location here.
      -  `restorePointInTime` - 15 minutes prior to the delete
      -   `submissionTimestamp` you noted in a previous step
      -  `sourceServerId` - Use the `resourceId` of the dropped server
