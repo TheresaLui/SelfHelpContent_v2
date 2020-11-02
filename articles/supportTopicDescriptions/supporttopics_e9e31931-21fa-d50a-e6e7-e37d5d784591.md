@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f84467a3-d986-9466-876d-a3ed58b12705",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fc467225-efc0-9920-c752-93def9bd3ff0",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
