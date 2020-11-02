@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "66f4002a-8297-3dc9-56a1-1dce307cc8ac",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "update",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
       "longDescription": "",
       "shortDescription": "Common problems related to using Orchestration",
