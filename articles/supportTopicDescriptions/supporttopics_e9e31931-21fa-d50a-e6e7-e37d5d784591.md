@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4ee18ef7-4858-5166-25e0-e4b99044bb88",
+      "longDescription": "",
+      "shortDescription": "Common problems related to disk related error",
+      "searchTags": "Start",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "53faf6dd-646b-71fd-7936-e0b58afb5bf0",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
