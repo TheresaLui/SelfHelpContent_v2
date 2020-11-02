@@ -30,7 +30,8 @@
             "id": "ostypevm",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Is the username a valid username on the active directory?"
+            "displayLabel": "Is the username a valid username on the active directory?",
+            "watermarkText": "Is the username a valid username on the active directory?",
             "required": true
         },
 		{
