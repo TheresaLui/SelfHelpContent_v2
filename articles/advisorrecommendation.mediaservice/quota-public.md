@@ -44,8 +44,13 @@
     {
       "actionId": "fbc706f9-98a1-444a-8370-0fb7e121a80c",
       "description": "Opening a support ticket.",
-      "actionType": "Document",
-      "documentLink": "https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest"
+      "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_Support",
+      "bladeName": "NewSupportRequestBlade",
+      "metadata": {
+            issueType: "quota",
+            assetId: "/subscriptions/{subscriptionId}"
+      }
     }
   ],
   "resourceMetadata": {
