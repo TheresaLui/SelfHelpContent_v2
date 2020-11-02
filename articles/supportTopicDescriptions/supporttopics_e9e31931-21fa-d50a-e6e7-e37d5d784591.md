@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3039b7a5-28ea-f202-d50e-4aea23a313a9",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "345af6b3-dbe0-f1d2-0e9b-8caf8a73df76",
       "longDescription": "",
       "shortDescription": "Questions or issues specific to performance, specific to networking",
