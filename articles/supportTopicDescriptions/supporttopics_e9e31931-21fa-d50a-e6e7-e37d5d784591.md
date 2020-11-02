@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "433edd9c-a7eb-f109-333e-700993401b09",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
