@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "82ce9dff-9c13-1787-dc20-4f82073cfb10",
+      "longDescription": "",
+      "shortDescription": "Issues with connecting to your VMSS instance",
+      "searchTags": "Connect",
+      "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8739dd2e-3f1c-a1a4-6240-590aebf9ed06",
       "longDescription": "",
       "shortDescription": "Common problems related to a failed operation",
