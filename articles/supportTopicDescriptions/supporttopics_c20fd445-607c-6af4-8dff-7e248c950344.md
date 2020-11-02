@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "936f0f62-0a2f-59c6-733b-91c0c762d55c",
+      "longDescription": "",
+      "shortDescription": "Issues (including access issues) when trying to query the status of an Azure Quantum job in any state. ",
+      "searchTags": "status ;job;query",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "99fcc7c9-cea8-d137-be93-9e0efb1e8e5d",
       "longDescription": "",
       "shortDescription": "Issues other than authentication errors when using Azure Quantum client tools. ",
