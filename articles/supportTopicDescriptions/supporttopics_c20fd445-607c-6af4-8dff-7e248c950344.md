@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "468b9b0c-ba64-fdc9-44df-a0a949228967",
+      "longDescription": "",
+      "shortDescription": "Issues related to an Azure Quantum job failing or not returning a valid solution. ",
+      "searchTags": "job;failed",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "99fcc7c9-cea8-d137-be93-9e0efb1e8e5d",
       "longDescription": "",
       "shortDescription": "Issues other than authentication errors when using Azure Quantum client tools. ",
