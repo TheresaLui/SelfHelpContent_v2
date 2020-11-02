@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8828e682-df1e-d76f-714e-ae89c8a07286",
+      "longDescription": "",
+      "shortDescription": "Issues relating to situations where jobs seem to be stuck and will not complete for a long time. ",
+      "searchTags": "job;cancel;stuck;infinite",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "99fcc7c9-cea8-d137-be93-9e0efb1e8e5d",
       "longDescription": "",
       "shortDescription": "Issues other than authentication errors when using Azure Quantum client tools. ",
