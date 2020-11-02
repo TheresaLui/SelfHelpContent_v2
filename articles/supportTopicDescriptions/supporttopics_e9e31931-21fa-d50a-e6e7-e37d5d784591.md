@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8cba494a-731b-94d8-9024-5655f572d57b",
+      "longDescription": "",
+      "shortDescription": "Guidance with attaching or detaching a disk ",
+      "searchTags": "Attach;Detach",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8db09ac1-76d4-45e1-7cdb-470890b22228",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
