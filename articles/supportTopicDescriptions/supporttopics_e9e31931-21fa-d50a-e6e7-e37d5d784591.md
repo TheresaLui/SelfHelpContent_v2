@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9de2e24b-42f2-22b6-a861-51cd5dda56cf",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4eb70ac-df90-47d5-ad30-6dbdca3448fe",
       "longDescription": "",
       "shortDescription": "Common problems related to allocation failures",
