@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7c33ffc7-d9d6-163e-515f-3cb9db6f015f",
+      "longDescription": "",
+      "shortDescription": "Common problems related to a specific extension not operating correctly",
+      "searchTags": "Antimalware",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8739dd2e-3f1c-a1a4-6240-590aebf9ed06",
       "longDescription": "",
       "shortDescription": "Common problems related to a failed operation",
