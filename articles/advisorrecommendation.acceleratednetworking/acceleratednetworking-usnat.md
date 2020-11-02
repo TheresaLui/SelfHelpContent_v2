@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="9ce840f8-35b2-441d-bf3f-33084c3c4cc7_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="USNat"
+    cloudEnvironments="usnat"
     ownershipId="CloudNet_Datapath"
 />
 # Enable Accelerated Networking to improve network performance and latency.
