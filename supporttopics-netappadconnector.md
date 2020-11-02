@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-1.Make sure you are whitelisted for the Backupoperator Afec. Below is az cli command:
-Get-AzProviderFeature -ProviderNamespace Microsoft.Netapp -FeatureName ANFBackupOperator
+1.Make sure you are whitelisted for the Backupoperator Afec. Below is AZ cli command:
+Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
 2.If not registered, please register with below command:
 Register-AzProviderFeature-ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
 ## **Recommended Documents**
