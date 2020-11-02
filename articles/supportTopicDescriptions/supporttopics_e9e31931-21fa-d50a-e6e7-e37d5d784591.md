@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c67665ac-d705-7c1c-2fdc-acaf2a58e179",
+      "longDescription": "",
+      "shortDescription": "Guidance with shared disks",
+      "searchTags": "Shared Disks",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ccf18854-baf8-9acf-038b-fcd2797783ed",
       "longDescription": "",
       "shortDescription": "Questions or issues specific to performance issues not listed above",
