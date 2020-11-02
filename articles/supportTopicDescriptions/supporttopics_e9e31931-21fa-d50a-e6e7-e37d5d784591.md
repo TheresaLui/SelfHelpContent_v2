@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "24738a59-1ad8-a563-ed0c-2664f1848422",
+      "longDescription": "",
+      "shortDescription": "Issues with connecting to your VMSS instance",
+      "searchTags": "Connect",
+      "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
@@ -398,19 +406,19 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
-      "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
-      "longDescription": "",
-      "shortDescription": "Covers issues related to scaling your scale set",
-      "searchTags": "Scale Set",
-      "category": "Trigger",
-      "useInDiagnoseAndSolve": "false"
-    },
-    {
       "id": "d0e19ffb-72f3-3779-2044-670b33237406",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
       "searchTags": "Connect",
       "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scale Set",
+      "category": "Trigger",
       "useInDiagnoseAndSolve": "false"
     },
     {
