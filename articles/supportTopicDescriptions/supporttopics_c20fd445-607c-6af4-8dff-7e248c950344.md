@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7592f1c-4ce0-d6e3-3b50-2ee9db012974",
+      "longDescription": "",
+      "shortDescription": "Issues relating to Azure Quantum jobs. ",
+      "searchTags": "job;azure quantum;target;provider",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ada834-ecb7-41c2-b711-cd70c191e594",
       "longDescription": "",
       "shortDescription": "Issues relating to authentication error when using Azure Quantum client tools and SDKs.",
