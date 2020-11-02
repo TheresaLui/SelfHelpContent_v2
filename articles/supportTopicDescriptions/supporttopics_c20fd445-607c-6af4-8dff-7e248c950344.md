@@ -28,6 +28,14 @@
       "searchTags": "billing;charge;refund",
       "category": "Billing",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1a447be9-9a9c-5f67-1aab-131647f016d5",
+      "longDescription": "",
+      "shortDescription": "Issues relating to client tools used with Azure Quantum.",
+      "searchTags": "client;tool",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
