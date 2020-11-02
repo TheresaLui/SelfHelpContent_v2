@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e5f93b37-f11e-885c-2078-313baa77d2c3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (DISK) with the scale set or instance.",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f55585ae-e8ec-325b-3e86-ebf4acdee88d",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
