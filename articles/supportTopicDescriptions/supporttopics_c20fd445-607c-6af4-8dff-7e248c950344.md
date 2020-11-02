@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "45597cec-f154-1c7c-1871-bd267dfc7d02",
+      "longDescription": "",
+      "shortDescription": "Issues relating to the output of an Azure Quantum job (error messages, output validity, and so on).",
+      "searchTags": "output;job",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "468b9b0c-ba64-fdc9-44df-a0a949228967",
       "longDescription": "",
       "shortDescription": "Issues related to an Azure Quantum job failing or not returning a valid solution. ",
