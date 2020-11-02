@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2cd5651a-7977-497c-bbc9-07a78233e63a",
+      "longDescription": "",
+      "shortDescription": "Issues with connecting to your VMSS instance",
+      "searchTags": "Connect",
+      "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3039b7a5-28ea-f202-d50e-4aea23a313a9",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
