@@ -20,6 +20,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "0e5ccc61-a2ec-a2d1-67fa-ee366ded5808",
+      "longDescription": "",
+      "shortDescription": "Billing related issues regarding Azure Quantum providers and targets.",
+      "searchTags": "billing;charge;refund",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---
