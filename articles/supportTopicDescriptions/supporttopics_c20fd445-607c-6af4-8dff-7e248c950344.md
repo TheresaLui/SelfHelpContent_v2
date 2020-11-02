@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "99fcc7c9-cea8-d137-be93-9e0efb1e8e5d",
+      "longDescription": "",
+      "shortDescription": "Issues other than authentication errors when using Azure Quantum client tools. ",
+      "searchTags": "client;azure quantum;qdk",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ada834-ecb7-41c2-b711-cd70c191e594",
       "longDescription": "",
       "shortDescription": "Issues relating to authentication error when using Azure Quantum client tools and SDKs.",
