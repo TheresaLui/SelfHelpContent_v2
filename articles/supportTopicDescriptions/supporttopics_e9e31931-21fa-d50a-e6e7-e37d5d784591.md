@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "38b75c38-01da-d507-dba9-930e661c40fd",
+      "longDescription": "",
+      "shortDescription": "Common problems related to a specific extension not operating correctly",
+      "searchTags": "Log",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "433958cc-89e1-422a-cd83-b8b1f24d6f6b",
       "longDescription": "",
       "shortDescription": "Common problems related to an unresponsive instance",
