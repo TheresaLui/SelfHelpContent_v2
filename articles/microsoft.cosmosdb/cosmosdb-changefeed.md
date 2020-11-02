@@ -40,7 +40,7 @@ There are four main components of implementing the change feed processor:
 
 1. **The host:** A host is a compute instance (virtual machine, app service, pod, etc.) that uses the change feed processor to listen for changes. The instance name or unique identifier is referenced as the **instance/host name**. Ideally, one instance of change feed processor should be running per instance.
 
-1. **The delegate:** The delegate is the code that defines what you, the developer, want to do with each batch of changes that the change feed processor reads. Each change corresponds to to insert/modifications (create, replace, upsert).
+1. **The delegate:** The delegate is the code that defines what you, the developer, want to do with each batch of changes that the change feed processor reads. Each change corresponds to insert/modifications (create, replace, upsert).
 
 The lease container captures the state of the processor, enabling recovery and resuming of processing. If the host is stopped and starts again at a later point in time, the processor will continue from the latest point in time stored in the lease container. The lease container is also used to do dynamic load balancing when multiple instances of the processor are running.
 
