@@ -3,7 +3,7 @@
     description="Hostname certificate rotation failed."
     authors="apicore"
     ms.author="aoapicoreaft"
-    articleId="b882dd44-9d01-4d63-917b-1860dcfd1f01"
+    articleId="b882dd44-9d01-4d63-917b-1860dcfd1f01_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USSec, USNat"
 	  ownershipId="Compute_APIManagement"
@@ -30,7 +30,7 @@
     "serviceTreeId": "6ba70dfa-ead9-4cc1-b894-049f8a17c22b"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/api-management/configure-custom-domain",
+  "learnMoreLink": "https://docs.microsoft.com/azure/api-management/configure-custom-domain",
   "description": "Hostname certificate rotation failed",
   "longDescription": "API Management service failed to refresh hostname certificate from Key Vault. Please ensure that certificate exists in Key Vault and API Management service identity is granted read access.",
   "potentialBenefits": "Ensure service availability",
