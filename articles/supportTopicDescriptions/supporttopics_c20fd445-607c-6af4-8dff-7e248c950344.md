@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3c9df33-27bd-2fd5-023f-29afeb923c9b",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while trying to deploy an Azure Quantum workspace, either through the portal, ARM, or with client tools.",
+      "searchTags": "deploy;workspace;Azure Quantum;aq;create",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7592f1c-4ce0-d6e3-3b50-2ee9db012974",
       "longDescription": "",
       "shortDescription": "Issues relating to Azure Quantum jobs. ",
