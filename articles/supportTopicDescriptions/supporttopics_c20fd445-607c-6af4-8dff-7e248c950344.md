@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "103e9f90-7dc0-8649-626d-f4c63ac59353",
+      "longDescription": "",
+      "shortDescription": "Issues that prevent an Azure Quantum workspace from being deleted.",
+      "searchTags": "cannot delete;delete;workspace",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a447be9-9a9c-5f67-1aab-131647f016d5",
       "longDescription": "",
       "shortDescription": "Issues relating to client tools used with Azure Quantum.",
