@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "dbf21c3d-7888-fcbd-2593-92c4bde12ed9",
+      "longDescription": "",
+      "shortDescription": "Azure Sentinel provides a vast amount of data sources connectors, but the required security solution does not have one",
+      "searchTags": "Connectors;data collection;connector unavailable ",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de98062c-87ba-b275-ab27-fa8c4b290aae",
       "longDescription": "",
       "shortDescription": "Connectors are used to connect, collect and send data from security solutions to Sentinel",
