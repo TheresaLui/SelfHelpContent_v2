@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3135343-b52e-69b2-e36b-9e7f8158378e",
+      "longDescription": "",
+      "shortDescription": "Activities not forwarded, content mismatch or missing content",
+      "searchTags": "MCAS;Integration;activities",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af0fec6b-8cda-b727-9ead-dd65a0e6ae6f",
       "longDescription": "",
       "shortDescription": "Configuring email and syslog notifications for Threat Protection",
