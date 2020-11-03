@@ -14,6 +14,7 @@ ownershipId="CloudNet_AzureVPNGateway"
 
 # Diagnose and resolve Site-to-Site VPN connectivity issues <Internal>
 ## Troubleshoot Site-to-Site VPN connectivity issues
+:::Section VPN connectivity:::
 
 A Site-to-Site VPN gateway connection connects your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel. 
 
