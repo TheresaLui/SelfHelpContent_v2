@@ -25,7 +25,7 @@ Based on the information you provided the user <!--$userName-->[userName]<!--/$u
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
 
-If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
+If the prompt for MFA was unexpected review the details below to see why it happened and what may be done to resolve any issues.
 
 Included in the information are the application conditions from the Conditional Access policy or policies which applied and the Sign-in event details which the client submitted for the sign in attempt which matched the policy conditions.
 

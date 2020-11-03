@@ -23,7 +23,7 @@
 Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but MFA authentication was required.
 <!--/issueDescription-->
 
-If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
+If the prompt for MFA was unexpected review the details below to see why it happened and what may be done to resolve any issues.
 
 MFA was required due to:
 <!--$possibleFixes-->[possibleFixes]<!--/$possibleFixes--> 
