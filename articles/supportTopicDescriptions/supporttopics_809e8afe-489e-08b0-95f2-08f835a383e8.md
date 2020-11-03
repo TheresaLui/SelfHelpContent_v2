@@ -2,23 +2,24 @@
   pagetitle="SupportTopicDescriptions for 809e8afe-489e-08b0-95f2-08f835a383e8"
   description="SupportTopicDescriptions for 809e8afe-489e-08b0-95f2-08f835a383e8"
   authors="elixirsys2"
-  ms.author="digeler, danrea"
+  ms.author="digeler, danrea, esagmon"
   selfhelptype="SupportTopicDescription"
   productpesids="809e8afe-489e-08b0-95f2-08f835a383e8"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_809e8afe-489e-08b0-95f2-08f835a383e8" />
+  articleid="supporttopics_809e8afe-489e-08b0-95f2-08f835a383e8"
+  ownershipid="Azure_Advanced_Threat_Protection" />
 # Support Topic Descriptions for 809e8afe-489e-08b0-95f2-08f835a383e8
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "A cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://docs.microsoft.com/azure-advanced-threat-protection/what-is",
+  "productLinkName1": "What is Microsoft Defender for Identity ",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "017a8048-8476-8d01-da2c-2681f5a0ac84",
