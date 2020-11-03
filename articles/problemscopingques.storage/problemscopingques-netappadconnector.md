@@ -1,9 +1,9 @@
 <properties
 	articleId="problemscopingques-netappvolume-adconnector"
-	pageTitle="Unable to add backup operator"
-	description="Unable to add backup operator"
-	authors="b-avaish"
-	ms.author="b-avaish"
+	pageTitle="Unable to create or update AD connector"
+	description="Unable to create or update AD connector"
+	authors="b-kiudup"
+	ms.author="b-kiudup"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32777926"
 	productPesIds="16469"
@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
 />
-# Unable to add backup operator
+# Unable to create or update AD connector
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Unable to add backup operator",
+    "title": "Unable to create or update AD connector",
     "fileAttachmentHint": "",
     "formElements": [
 		{
@@ -27,9 +27,61 @@
             "required": true
         },
 		{
-            "id": "valid_user",
+            "id": "netapp_account",
             "order": 2,
             "controlType": "dropdown",
+            "displayLabel": "NetApp Account",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts?api-version=2019-11-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+					"value": "dont_know_answer",
+					"text": "None of the above"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoNetAppAccount",
+                    "text": "Did not find the netapp account"
+                }
+            ],
+            "required": true
+        },
+		{
+            "id": "variable",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Issue with which feature?",
+            "watermarkText": "Select the feature or variable which is causing the issue?",
+			"dropdownOptions": [
+				{
+                    "value": "BackupOperator",
+                    "text": "Backup Operator"
+                },
+                {
+                    "value": "AESencryption",
+                    "text": "AES encryption"
+                },
+				{
+                    "value": "LDAPsigning",
+                    "text": "LDAP signing"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
+                }
+			],
+            "required": false
+        },
+		{
+            "id": "variable",
+            "order": 4,
+            "controlType": "dropdown",
+			"visibility": "variable != null && variable == BackupOperator",
             "displayLabel": "Is the username a valid username on the active directory?",
             "watermarkText": "Is the username a valid username on the active directory?",
 			"dropdownOptions": [
@@ -46,11 +98,11 @@
                     "text": "None of the above"
                 }
 			],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",

@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Unable to add backup operator"
-	description="Unable to add backup operator"
+	pageTitle="Unable to create or update AD connection"
+	description="Unable to create or update AD connection"
 	service="microsoft.storage"
 	resource="storage"
 	authors="b-avaish"
 	ms.author="b-avaish"
 	displayOrder=""
-	articleId="NetAppbackupoperator"
+	articleId="NetAppADconnector"
 	selfHelpType="generic"
 	supportTopicIds="32777926"
 	resourceTags=""
@@ -15,13 +15,13 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# NetApp Volumes Active Directory Domain Services and Authentication
+# NetApp Volumes - Unable to create or update AD connection
 
 ## **Recommended Steps**
 
-1.Make sure you are whitelisted for the Backupoperator AFEC. In Azure PowerShell, enter: Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
-2.If not registered, please register with below command: Register-AzProviderFeature-ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
+1.Make sure you are registered for the features. Refer to [Create an Active Directory connection](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#create-an-active-directory-connection) for registration and more information.
 
 ## **Recommended Documents**
 
 -[Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
+-[Requirements for Active Directory connections](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#requirements-for-active-directory-connections)<br>
