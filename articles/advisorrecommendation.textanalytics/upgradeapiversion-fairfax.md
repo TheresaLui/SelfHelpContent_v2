@@ -1,0 +1,64 @@
+# Upgrade to the latest API version
+---
+{
+   "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
+   "recommendationOfferingName":"Text Analytics",
+   "$schema":"AdvisorRecommendation",
+   "recommendationTypeId":"6e0d82f5-b5e1-464f-8957-121904bc5618",
+   "dataSourceMetadata":{
+      "streamNamespace":"cluster('https://cogsvcff.kusto.usgovcloudapi.net').database('Platform').TAResourcesCallingOlderAPI",
+      "dataSource":"Kusto",
+      "refreshInterval":"1.00:00:00"
+   },
+   "recommendationCategory":"Performance",
+   "recommendationImpact":"High",
+   "recommendationResourceType":"Microsoft.CognitiveServices/accounts",
+   "recommendationFriendlyName":"UpgradeToLatestAPI",
+   "recommendationMetadataState":"Active",
+   "owner":{
+      "email":"tadevteam@microsoft.com",
+      "icm":{
+         "routingId":"icmportal://routing/85633E54D0D64D46A2F9F5DEC68E204C",
+         "service":"Cognitive Services",
+         "team":"Text Analytics"
+      },
+      "serviceTreeId":"b31f90f9-53d3-445e-8546-5654f84ce606"
+   },
+   "ingestionClientIdentities":[
+   ],
+   "version":1.0,
+   "learnMoreLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
+   "description":"Upgrade to the latest API version",
+   "longDescription":"Please upgrade to the latest API version for better availability and performance",
+   "potentialBenefits":"Better service availability and performance",
+   "actions":[
+      {
+         "actionId":"c2094085-2f18-4a36-8eb0-6f23e6daa924",
+         "description":"Upgrade to latest API version",
+         "actionType":"Document",
+         "extensionName":"",
+         "bladeName":"",
+         "metadata":{
+         },
+         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+      }
+   ],
+   "resourceMetadata":{
+      "action":{
+         "actionId":"f1d64018-1784-469f-988f-621f5502b537",
+         "actionType":"Document",
+         "extensionName":"",
+         "bladeName":"",
+         "metadata":{
+         },
+         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+      }
+   },
+   "displayLabel":"Upgrade to the latest API version",
+   "additionalColumns":[
+   ],
+   "tip":"",
+   "costSavingInfo":"",
+   "testData":""
+}
+---
