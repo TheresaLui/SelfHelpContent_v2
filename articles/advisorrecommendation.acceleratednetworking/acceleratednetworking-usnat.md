@@ -8,7 +8,7 @@
     cloudEnvironments="public fairfax usnat"
     ownershipId="CloudNet_Datapath"
 />
-# Enable Accelerated Networking to improve network performance and latency.
+# Enable Accelerated Networking to improve network performance and latency
 ---
 {
   "$schema": "AdvisorRecommendation",
