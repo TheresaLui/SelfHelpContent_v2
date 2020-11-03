@@ -3,9 +3,9 @@
     description="Enable Accelerated Networking to improve network performance and latency"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_USNat"
+    articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_Usnat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public fairfax usnat"
+    cloudEnvironments="Usnat Public fairfax"
     ownershipId="CloudNet_Datapath"
 />
 # Enable Accelerated Networking to improve network performance and latency
