@@ -14,7 +14,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4",
   "dataSourceMetadata": {
-    "streamNamespace": ('https://aznwsdn.usnatwest.kusto.core.eaglex.ic.gov').database('aznwmds').AzureAdvisorForANcapableVMs_USNat",
+    "streamNamespace": "cluster('https://aznwsdn.usnatwest.kusto.core.eaglex.ic.gov').database('aznwmds').AzureAdvisorForANcapableVMs_USNat",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
