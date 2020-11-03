@@ -10,7 +10,7 @@
 	articleId=""
 	ownershipId="AzureCommunicationServices"
 />
-# Useful Title
+# SMS quality issues
 ---
 {
   "$schema": "SelfHelpContent",
