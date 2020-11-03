@@ -10,7 +10,7 @@
 	articleId=""
 	ownershipId="AzureCommunicationServices"
 />
-# Useful Title
+# Chat quality issues
 ---
 {
   "$schema": "SelfHelpContent",
