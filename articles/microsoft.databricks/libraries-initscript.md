@@ -17,7 +17,7 @@
 
 # Diagnose and resolve install issue through init script
 
-## **Recoomended Steps**
+## **Recommended Steps**
 
 * To make third-party or custom code available to notebooks and jobs running on your clusters, you can install a library. Libraries can be written in Python, Java, Scala, and R. You can upload Java, Scala, and Python libraries and point to external packages in PyPI, Maven, and CRAN repositories.
 
