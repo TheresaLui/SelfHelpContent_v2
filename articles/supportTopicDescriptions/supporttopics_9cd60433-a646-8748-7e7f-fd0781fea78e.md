@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   description="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   authors="elixirsys2"
-  ms.author="esagmon"
+  ms.author="esagmon, yaronsahar"
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -20,6 +20,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "de98062c-87ba-b275-ab27-fa8c4b290aae",
+      "longDescription": "",
+      "shortDescription": "Connectors are used to connect, collect and send data from security solutions to Sentinel",
+      "searchTags": "Connector;Data collection",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---
