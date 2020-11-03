@@ -10,7 +10,7 @@
 	articleId=""
 	ownershipId="AzureCommunicationServices"
 />
-# Useful Title
+# Call quality issues
 ---
 {
   "$schema": "SelfHelpContent",
@@ -23,7 +23,7 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": true
+			"required": false
 		}, {
             "id": "problem_end_time",
             "order": 2,
@@ -38,7 +38,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Helpful IDs",
 			"watermarkText": "Provide the Call ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Call ID"
