@@ -66,7 +66,6 @@
     }
   ],
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
     "streamNamespace": "cluster('https://apim.kusto.windows.net').database('APIMProd').AzureAdvisor_HostnameCertificateRotationFailed",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
