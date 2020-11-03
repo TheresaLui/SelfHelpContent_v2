@@ -1,28 +1,22 @@
 <properties
-	pageTitle="SQL Server Analysis Services (SSAS)"
-	description="SQL Server Analysis Services (SSAS)"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"
-    authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740059"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="1c63130c-dae2-412a-a8ac-08b3fb27ce6c-ssas"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="SQL Server Analysis Services (SSAS)"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="ujpat,vadeveka,amamun,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32779856,32779857,32779858,32779859,32779860,32779861,32779862,32779863,32779864"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="1c63130c-dae2-412a-a8ac-08b3fb27ce6c-ssas"
+  ownershipid="AzureData_AzureSQLVM" />
 # SQL Server Analysis Services (SSAS)
 
-### Common Issues
+## **Recommended Steps**
 
-* **Where can I find the installation media or the license key in an Azure SQL VM?**
-
+- Where can I find the installation media or the license key in an Azure SQL VM?**
   - If you already have a SQL Server VM created from Azure Marketplace, you can find the installation media at **C:\SQLServerFull**
-  - To get the product key, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process, and exit the installer
+  - To get the product key, launch `setup.exe` from ***C:\SQLServerFull***, copy the product key that appears in the install process, and exit the installer
 
 ## **Recommended Documents**
 

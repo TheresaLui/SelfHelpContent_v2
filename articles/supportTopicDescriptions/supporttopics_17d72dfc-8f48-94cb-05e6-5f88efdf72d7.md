@@ -1,4 +1,4 @@
-<properties 
+<properties
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
@@ -7,7 +7,7 @@
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
-  ownershipid=""
+  ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -267,10 +267,10 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": "Issues specific to Azure Backup Service while protecting Azure Virtual Machine",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": ".",
+      "searchTags": "IaaS;virtual machine",
+      "category": "backup, restore, configuration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
@@ -331,7 +331,7 @@
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "shortDescription": "Questions on how-to, guidelines, best practices. For error codes and failures, select relevant problem type",
       "searchTags": "Supported;Not supported;Price;How to configure",
       "category": "IaaS VM Advisory",
       "useInDiagnoseAndSolve": "false"
@@ -347,7 +347,7 @@
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "shortDescription": "Backup failed with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and similar error codes related to VM guest agent.",
       "searchTags": "backup;failed;agent",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
@@ -387,9 +387,9 @@
     {
       "id": "79c28470-7917-6671-055d-668754e214e0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Linux virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backup",
+      "searchTags": "backup;failed;on-demand;scheduled;jobs",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -499,9 +499,9 @@
     {
       "id": "9cc2bc2c-e067-4931-ac5e-155e1d53999c",
       "longDescription": null,
-      "shortDescription": "Errors due to extension failures putting the VM into a failed provisioning state",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Backup failing due to UserErrorVmProvisioningStateFailed, ExtensionFailed, VSS, COM and other extension related issues",
+      "searchTags": "backup;provisioning;extension;VSS",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -651,7 +651,7 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backup.",
+      "shortDescription": "Issue related to configure, enable, disable, delete, stop or resume backup",
       "searchTags": "configure;modify;stop",
       "category": "configuration",
       "useInDiagnoseAndSolve": "true"
@@ -683,9 +683,9 @@
     {
       "id": "e3b27cc4-cda5-965b-7fb6-06fac0e6f6b0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Windows virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backup",
+      "searchTags": "backup;scheduled;failed;adhoc;ondemand",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {

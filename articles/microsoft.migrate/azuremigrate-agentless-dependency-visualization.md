@@ -2,25 +2,25 @@
   pagetitle="Dependency analysis (agentless &amp; agent-based)"
   service="microsoft.migrate"
   resource="migrateprojects"
-  ms.author="rajosh,vivikram"
+  ms.author="vivikram"
   selfhelptype="Generic"
-  supporttopicids="32691004"
+  supporttopicids="32675744"
   resourcetags=""
   productpesids="16348"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="b9c6cb48-0995-4ac5-82f1-fa6582eddf77"
   ownershipid="Compute_AzureMigrate" />
 # Dependency analysis (agentless & agent-based)
 
-Most users are able to resolve their dependency analysis (agentless and agent-based) issues by using the steps below.
-
-## **Dependency analysis (agentless)**
+Most users are able to resolve issues with dependency analysis (agentless and agent-based) issues by using the steps below.
 
 ## **Recommended Steps**
 
+### **Dependency analysis (agentless)**
+
 ### **I want access to use the agentless dependency analysis feature. How do I do that?**
 
-Agentless dependency analysis is no longer in limited preview and is available for everyone to use on Azure portal. There is no need to use any preview URL.
+Agentless dependency analysis is no longer in limited preview and is available for everyone to use on Azure Portal. There is no need to use any preview URL.
 
 ### **I see "Unknown process" in the exported CSV.**
 
@@ -46,17 +46,15 @@ Ensure that the [necessary prerequisites](https://docs.microsoft.com/azure/migra
 
 Review the [prerequisites for agentless dependency analysis](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#agentless-dependency-visualization).
 
-## **Dependency analysis (agent-based)**
-
-## **Recommended Steps**
+### **Dependency analysis (agent-based)**
 
 ### **I installed agents on my on-premises VMs, but the dependencies are not showing up.**
 
-Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure the dependency agent is up and running. Ensure the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723). Refer to [troubleshooting guidance](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#post-installation-issues).
+Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure tha the dependency agent is up and running. Ensure that the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723). See [troubleshooting guidance](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#post-installation-issues).
 
 ### **What are the supported operating systems for agent-based dependency analysis?**
 
-Refer to the [supported OS documentation](https://go.microsoft.com/fwlink/?linkid=2133723).
+See the [supported OS documentation](https://go.microsoft.com/fwlink/?linkid=2133723).
 
 ### **Is there a charge for using dependency visualization?**
 
@@ -68,7 +66,7 @@ The use of any solution other than Service Map within the linked OMS workspace w
 
 ### **I am not able to associate my Log Analytics workspace with the Azure Migrate project or use the region of my preference. How do I proceed?**
 
-Azure Migrate currently supports creation or associations of OMS workspaces that are in East US, Southeast Asia and West Europe regions. Even if the workspace is created outside of Azure Migrate in an unsupported region, it currently cannot be associated with an Azure Migrate project. 
+Azure Migrate currently supports creation or associations of OMS workspaces that are in East US, Southeast Asia, and West Europe regions. Even if the workspace is created outside of Azure Migrate in an unsupported region, it currently cannot be associated with an Azure Migrate project. 
 
 ### **Can I change the OMS workspace used by Server Assessment?**
 
@@ -104,4 +102,4 @@ When you configure your OMS workspace for the first time for an Azure Migrate: S
 
 ### **Do I need to install Service Map agents if I have System Center Operations Manager set up already?**
 
-For machines monitored by System Center Operations Manager 2012 R2 or later, there is no need to install the MMA agent. Service Map has an integration with SCOM that leverages the SCOM MMA to gather the necessary dependency data. You can enable the integration using the [guidance](https://go.microsoft.com/fwlink/?linkid=2104197). Note that the dependency agent will still need to be installed on these machines.
+For machines monitored by System Center Operations Manager 2012 R2 or later, there is no need to install the MMA agent. Service Map has an integration with SCOM that leverages the SCOM MMA to gather the necessary dependency data. You can enable the integration by using the [guidance](https://go.microsoft.com/fwlink/?linkid=2104197). Note that the dependency agent will still need to be installed on these machines.
