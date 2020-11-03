@@ -44,6 +44,17 @@
   "resourceMetadata": {
     "action": {
       "actionId": "0685ab09-d3ee-4cb0-bfe7-19f47d76f37b",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
+  "actions": [
+    {
+      "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
       "description": "Manage hostnames",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -51,18 +62,6 @@
       "metadata": {
         "id": "{resourceId}",
         "menuid": "apim-hostname"
-      }
-    }
-  },
-  "actions": [
-    {
-      "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
-      "description": "Consider deleting empty or unused clusters",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}"
       }
     }
   ],
