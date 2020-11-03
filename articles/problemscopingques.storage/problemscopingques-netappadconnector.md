@@ -78,7 +78,7 @@
             "required": false
         },
 		{
-            "id": "variable",
+            "id": "backupuser",
             "order": 4,
             "controlType": "dropdown",
 			"visibility": "variable != null && variable == BackupOperator",
