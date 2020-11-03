@@ -2,8 +2,9 @@
 	pageTitle="Chat message quality and performance"
 	description="Chat message quality and performance"
 	ms.author="manoskow"
+	authors="manoskow"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="352c43aa-0119-a6db-6266-1d8235027292","64c1e86e-b3db-b96b-33d9-778b305e176b","8d691fe4-a064-4405-52fe-4f86003be0e4"
+	supportTopicIds="352c43aa-0119-a6db-6266-1d8235027292, 64c1e86e-b3db-b96b-33d9-778b305e176b, 8d691fe4-a064-4405-52fe-4f86003be0e4"
 	productPesIds="17327"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -23,14 +24,14 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },  {
 			"id": "problem_description",
@@ -38,7 +39,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Helpful IDs",
 			"watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "MS-CV or chat thread ID"
