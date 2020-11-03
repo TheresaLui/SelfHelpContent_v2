@@ -23,7 +23,7 @@ Call other Azure Logic Apps that start with the Request trigger.
 - [Azure Documentation - Call, trigger, or nest logic apps by using HTTPS endpoints](https://docs.microsoft.com/azure/logic-apps/logic-apps-http-endpoint)
 - [Azure Documentation - How to send, receive, and batch process messages in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-batch-process-send-receive-messages)
 - [TechNet article - Call nested Logic Apps directly from Logic Apps Designer](https://social.technet.microsoft.com/wiki/contents/articles/34129.azure-logic-apps-call-nested-logic-apps-directly-from-logic-apps-designer.aspx)
-- [SeverLess notes - How to create and call nested Azure Logic Apps](https://www.serverlessnotes.com/docs/nested-logic-apps)
+- [Severless notes - How to create and call nested Azure Logic Apps](https://www.serverlessnotes.com/docs/nested-logic-apps)
 
 ## **Recommended Steps**
 
