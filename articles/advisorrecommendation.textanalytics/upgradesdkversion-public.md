@@ -36,7 +36,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1,
-   "learnMoreLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
+   "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
    "description":"Upgrade to the latest SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",

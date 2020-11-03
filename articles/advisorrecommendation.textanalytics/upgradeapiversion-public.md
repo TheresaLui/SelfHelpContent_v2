@@ -37,7 +37,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1.0,
-   "learnMoreLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
+   "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
    "description":"Upgrade to the latest API version",
    "longDescription":"Please upgrade to the latest API version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",
@@ -50,7 +50,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    ],
    "resourceMetadata":{
@@ -61,7 +61,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    },
    "displayLabel":"Upgrade to the latest API version",

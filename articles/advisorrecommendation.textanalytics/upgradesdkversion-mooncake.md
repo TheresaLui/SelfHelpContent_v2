@@ -13,7 +13,7 @@
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
    "recommendationOfferingName":"Text Analytics",
    "$schema":"AdvisorRecommendation",
-   "recommendationTypeId":"6464dfb8-3be6-4b7b-ac29-506463f5d765",
+   "recommendationTypeId":"1b94aa41-a51e-4cad-98fb-3a44447d5997",
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcmc2.kusto.chinacloudapi.cn').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
@@ -36,7 +36,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1,
-   "learnMoreLink":"https://docs.azure.cn/zh-cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
+   "learnMoreLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
    "description":"Upgrade to the latest SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",

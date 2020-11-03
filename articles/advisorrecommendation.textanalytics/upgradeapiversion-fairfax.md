@@ -14,7 +14,7 @@
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
    "recommendationOfferingName":"Text Analytics",
    "$schema":"AdvisorRecommendation",
-   "recommendationTypeId":"6e0d82f5-b5e1-464f-8957-121904bc5618",
+   "recommendationTypeId":"c8bbcb72-b778-48b4-882c-d8ce271995e5",
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcff.kusto.usgovcloudapi.net').database('Platform').TAResourcesCallingOlderAPI",
       "dataSource":"Kusto",
@@ -37,7 +37,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1.0,
-   "learnMoreLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
+   "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
    "description":"Upgrade to the latest API version",
    "longDescription":"Please upgrade to the latest API version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",
@@ -50,7 +50,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    ],
    "resourceMetadata":{
@@ -61,7 +61,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    },
    "displayLabel":"Upgrade to the latest API version",

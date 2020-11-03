@@ -13,7 +13,7 @@
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
    "recommendationOfferingName":"Text Analytics",
    "$schema":"AdvisorRecommendation",
-   "recommendationTypeId":"790f5b30-ee0d-4b1c-9212-eff623a1aa46",
+   "recommendationTypeId":"1b94aa41-a51e-4cad-98fb-3a44447d5997",
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcff.kusto.usgovcloudapi.net').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
@@ -36,7 +36,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1,
-   "learnMoreLink":"https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
+   "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
    "description":"Upgrade to the latest SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",

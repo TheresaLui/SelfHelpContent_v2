@@ -14,7 +14,7 @@
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
    "recommendationOfferingName":"Text Analytics",
    "$schema":"AdvisorRecommendation",
-   "recommendationTypeId":"5410ae34-1dec-482d-b474-9ef1d9a10b32",
+   "recommendationTypeId":"c8bbcb72-b778-48b4-882c-d8ce271995e5",
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcmc2.kusto.chinacloudapi.cn').database('Platform').TAResourcesCallingOlderAPI",
       "dataSource":"Kusto",
@@ -37,7 +37,7 @@
    "ingestionClientIdentities":[
    ],
    "version":1.0,
-   "learnMoreLink":"https://docs.azure.cn/zh-cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
+   "learnMoreLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
    "description":"Upgrade to the latest API version",
    "longDescription":"Please upgrade to the latest API version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",
@@ -50,7 +50,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.azure.cn/zh-cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    ],
    "resourceMetadata":{
@@ -61,7 +61,7 @@
          "bladeName":"",
          "metadata":{
          },
-         "documentLink":"https://docs.azure.cn/zh-cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
+         "documentLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    },
    "displayLabel":"Upgrade to the latest API version",
