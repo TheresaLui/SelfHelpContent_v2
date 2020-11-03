@@ -172,6 +172,14 @@
       "searchTags": "authentication;401",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f725c1bc-e3b5-d4eb-23ac-bd22533f791f",
+      "longDescription": "",
+      "shortDescription": "Issues and questions around Azure Quantum provider availability for a particular Azure region or account.",
+      "searchTags": "availability;provider;target;Azure Quantum;aq",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
