@@ -1,3 +1,13 @@
+<properties
+    pageTitle="Upgrade to the latest API version."
+    description="Please upgrade to the latest API version for better availability and performance."
+    authors="tadevteam"
+    ms.author="tadevteam"
+    articleId="5cb51d7e-5b86-4d49-adb5-8d4bde4afa92_Fairfax"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Fairfax"
+	ownershipId="CogSvc_TextAnalytics"
+/>
 # Upgrade to the latest API version
 ---
 {

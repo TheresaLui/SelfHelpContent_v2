@@ -1,3 +1,13 @@
+<properties
+    pageTitle="Upgrade to the latest SDK version."
+    description="Please upgrade to the latest SDK version for better availability and performance."
+    authors="tadevteam"
+    ms.author="tadevteam"
+    articleId="09f490d5-625a-44ca-8089-58947548ead8_Public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public"
+	ownershipId="CogSvc_TextAnalytics"
+/>
 # Upgrade to the latest SDK version
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",

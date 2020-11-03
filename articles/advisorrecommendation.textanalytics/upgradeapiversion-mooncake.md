@@ -1,3 +1,13 @@
+<properties
+    pageTitle="Upgrade to the latest API version."
+    description="Please upgrade to the latest API version for better availability and performance."
+    authors="tadevteam"
+    ms.author="tadevteam"
+    articleId="6edca019-750f-4b1a-afdb-726b3a0bd53c_Mooncake"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Mooncake"
+	ownershipId="CogSvc_TextAnalytics"
+/>
 # Upgrade to the latest API version
 ---
 {

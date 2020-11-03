@@ -1,3 +1,13 @@
+<properties
+    pageTitle="Upgrade to the latest SDK version."
+    description="Please upgrade to the latest SDK version for better availability and performance."
+    authors="tadevteam"
+    ms.author="tadevteam"
+    articleId="7e5a10af-0c58-400a-a212-f58e1085844c_Mooncake"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Mooncake"
+	ownershipId="CogSvc_TextAnalytics"
+/>
 # Upgrade to the latest SDK version
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",

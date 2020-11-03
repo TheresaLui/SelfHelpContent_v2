@@ -1,3 +1,13 @@
+<properties
+    pageTitle="Upgrade to the latest API version."
+    description="Please upgrade to the latest API version for better availability and performance."
+    authors="tadevteam"
+    ms.author="tadevteam"
+    articleId="8788d668-a38a-4a16-82aa-8e3da84e4ee5_Public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public"
+	ownershipId="CogSvc_TextAnalytics"
+/>
 # Upgrade to the latest API version
 ---
 {
