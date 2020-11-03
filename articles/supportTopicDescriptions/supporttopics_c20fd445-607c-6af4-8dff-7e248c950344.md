@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63b1205d-839c-0c05-89a6-6ac1074a1df5",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while trying to add a provider to an Azure Quantum workspace, either through the portal or with CLI tools.",
+      "searchTags": "provider;add;aq;Azure Quantum",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7bd84be5-629c-17fa-3b08-1edbc5b329fe",
       "longDescription": "",
       "shortDescription": "Problems with Azure Quantum that are not covered under any other category.",
