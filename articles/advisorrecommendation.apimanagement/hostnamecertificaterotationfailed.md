@@ -43,7 +43,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "0685ab09-d3ee-4cb0-bfe7-19f47d76f37b",
+      "actionId": "72430dca-3844-4a48-8e6c-8711df8e0e6f",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -54,7 +54,7 @@
   },
   "actions": [
     {
-      "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
+      "actionId": "597a9ec5-5178-44c2-ba8d-e298a3fa4e5a",
       "description": "Manage hostnames",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
