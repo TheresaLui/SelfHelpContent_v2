@@ -70,7 +70,7 @@
 		   "text": "More than 20000 employees"
 	       },
 		   {
-		   "value": "None",
+		   "value": "dont_know_answer",
 		   "text": "None selected"
 	       }
 	       ],
