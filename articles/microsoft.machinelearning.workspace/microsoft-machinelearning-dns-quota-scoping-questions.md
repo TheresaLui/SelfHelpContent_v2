@@ -29,28 +29,28 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "What region(s) so you want to increase your quota in?",
-            "required": true
+            "required": false
         },
         {
             "id": "cmk_ws",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Are you using workspaces with customer-managed keys? If so, how many workspaces do you have?",
-            "required": true
+            "required": false
         },
         {
             "id": "acr",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Are your workspace container registries behind a virtual network? If so, how many container registries do you have?",
-            "required": true
+            "required": false
         },
         {
             "id": "aks",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Will you be using Azure Kubenernetes clusters that have private endpoints? If so, how many clusters will you have?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
