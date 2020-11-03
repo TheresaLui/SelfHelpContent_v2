@@ -10,11 +10,14 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	articleId="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
-	ownershipId="AzureIdentity_DirectoryObjectManagement"
+    articleId="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
+    ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
+
+**Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using [Test Device Registration Connectivity script](https://gallery.technet.microsoft.com/Test-Device-Registration-3dc944c0)
+
 
 ## **Recommended steps**
 
