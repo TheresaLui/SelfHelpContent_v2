@@ -2,12 +2,13 @@
 	pageTitle="Poor audio and/or video quality"
 	description="Poor audio and/or video quality"
 	ms.author="manoskow"
+	authors="manoskow"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="86f83266-c0bd-6b3c-4d5b-b3c8c9fdb6bc","b7a34672-67b2-aac0-5b2e-972c813b6892","ef219c49-a994-47fa-fbd3-77f9b7a8d443"
+	supportTopicIds="86f83266-c0bd-6b3c-4d5b-b3c8c9fdb6bc, b7a34672-67b2-aac0-5b2e-972c813b6892, ef219c49-a994-47fa-fbd3-77f9b7a8d443"
 	productPesIds="17327"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="513657ba-4c97-4da7-91c7-be17d8a865b7"
 	ownershipId="AzureCommunicationServices"
 />
 # Call quality issues
@@ -23,14 +24,14 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },  {
 			"id": "problem_description",
@@ -38,7 +39,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Helpful IDs",
 			"watermarkText": "Provide the Call ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Call ID"
