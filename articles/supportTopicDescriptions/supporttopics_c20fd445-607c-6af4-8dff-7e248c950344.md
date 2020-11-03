@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3ff8109f-6bce-4734-a419-49a6e81179b8",
+      "longDescription": "",
+      "shortDescription": "Problems that prevent the removal of a provider in an Azure Quantum workspace.",
+      "searchTags": "provider;removal;remove;delete",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "45597cec-f154-1c7c-1871-bd267dfc7d02",
       "longDescription": "",
       "shortDescription": "Issues relating to the output of an Azure Quantum job (error messages, output validity, and so on).",
