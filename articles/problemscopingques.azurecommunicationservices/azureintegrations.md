@@ -2,12 +2,13 @@
 	pageTitle="Chat message quality and performance"
 	description="Chat message quality and performance"
 	ms.author="manoskow"
+	authors="manoskow"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="583bde8b-f55a-ad1a-c200-f8e8e8f4cc43","dde907b2-7a99-e332-b8c1-bfcbaa19dd2e"
+	supportTopicIds="583bde8b-f55a-ad1a-c200-f8e8e8f4cc43, dde907b2-7a99-e332-b8c1-bfcbaa19dd2e"
 	productPesIds="17327"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="033b7bbb-99f1-4bdc-8140-c9e994c33606"
 	ownershipId="AzureCommunicationServices"
 />
 # Azure integrations
