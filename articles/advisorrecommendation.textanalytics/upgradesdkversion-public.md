@@ -17,7 +17,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvc.kusto.windows.net').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"1.00:00:00"
+      "refreshInterval":"00:01:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"High",
