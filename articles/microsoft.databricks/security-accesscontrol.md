@@ -21,11 +21,11 @@
 
 * **Problem** 
 
-  All non-admin users of Azure Databricks workspace simultaneously became unable to access the workspace by clicking the “Launch Workspace” button in the Azure Portal. When they attempt to do so, they receive an error message stating that they need to have Contributor or Owner permissions (Azure RBAC) on the workspace resource. However, the Contributor and Owner RBAC roles unavoidably grant Databricks admin permissions, which is undesired for non-admin users.
+  All non-admin users of Azure Databricks workspace simultaneously became unable to access the workspace by clicking the "Launch Workspace" button in the Azure Portal. When they attempt to do so, they receive an error message stating that they need to have Contributor or Owner permissions (Azure RBAC) on the workspace resource. However, the Contributor and Owner RBAC roles unavoidably grant Databricks admin permissions, which is undesired for non-admin users.
  
   **Cause**
   
-  A regular Databricks platform update added additional logic to be executed when the “Launch Workspace” button is clicked in the Azure Portal. Some of the new logic entailed administrative initialization/reinitialization tasks. Accordingly, the ability to click the button was restricted to users with “write” permissions on the workspace resource: Contributors and Owners.
+  A regular Databricks platform update added additional logic to be executed when the "Launch Workspace" button is clicked in the Azure Portal. Some of the new logic entailed administrative initialization/reinitialization tasks. Accordingly, the ability to click the button was restricted to users with "write" permissions on the workspace resource: Contributors and Owners.
  
   **Solution**
   
