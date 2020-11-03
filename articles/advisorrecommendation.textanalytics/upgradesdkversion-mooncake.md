@@ -79,7 +79,6 @@
          "title":"Minimum Recommended Version"
       }
    ],
-   "tip":"",
-   "testData":""
+   "tip":""
 }
 ---

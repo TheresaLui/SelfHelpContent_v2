@@ -5,7 +5,7 @@
     ms.author="tadevteam"
     articleId="8788d668-a38a-4a16-82aa-8e3da84e4ee5_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CogSvc_TextAnalytics"
 />
 # Upgrade to the latest API version
@@ -68,7 +68,6 @@
    "additionalColumns":[
    ],
    "tip":"",
-   "costSavingInfo":"",
-   "testData":""
+   "costSavingInfo":""
 }
 ---

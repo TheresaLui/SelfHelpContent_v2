@@ -68,7 +68,6 @@
    "additionalColumns":[
    ],
    "tip":"",
-   "costSavingInfo":"",
-   "testData":""
+   "costSavingInfo":""
 }
 ---

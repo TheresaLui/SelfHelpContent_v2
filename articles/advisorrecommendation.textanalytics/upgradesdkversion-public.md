@@ -5,7 +5,7 @@
     ms.author="tadevteam"
     articleId="09f490d5-625a-44ca-8089-58947548ead8_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CogSvc_TextAnalytics"
 />
 # Upgrade to the latest SDK version
@@ -79,7 +79,6 @@
          "title":"Minimum Recommended Version"
       }
    ],
-   "tip":"",
-   "testData":""
+   "tip":""
 }
 ---
