@@ -52,7 +52,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Is this a private link Azure ML workspace?",
 			"required": false
-	},	
+	},
 		{
 			"id": "problem_description",
 			"order": 5,
