@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1117f80e-54c1-1345-75f8-684ca29eb11c",
+      "longDescription": "",
+      "shortDescription": "Identity Security Posture reports are missing details or have incorrect content",
+      "searchTags": "MCAS;Integration;Identity",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "18b4c4d9-8b6a-76bd-10d6-986d8f8483d8",
       "longDescription": "",
       "shortDescription": "Problems or errors with the sensor service not starting or continually restarting during an initial installation",
