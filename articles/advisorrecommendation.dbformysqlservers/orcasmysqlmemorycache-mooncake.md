@@ -1,8 +1,8 @@
 <properties
     pageTitle="Move your MySQL server to Memory Optimized SKU"
     description="Move your MySQL server to Memory Optimized SKU"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

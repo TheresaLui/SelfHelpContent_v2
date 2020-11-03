@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scale the storage limit for MySQL server"
     description="Scale the storage limit for MySQL server"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="c0576597-4910-48b5-9828-5b3a99190b82_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

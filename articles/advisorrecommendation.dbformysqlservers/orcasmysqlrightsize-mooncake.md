@@ -1,8 +1,8 @@
 <properties
     pageTitle="Right-size underutilized MySQL servers"
     description="Right size the MySQL server vCores based on the utilization telemetry."
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

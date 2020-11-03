@@ -1,8 +1,8 @@
 <properties
     pageTitle="Add a MySQL Read Replica server"
     description="Add a MySQL Read Replica server"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

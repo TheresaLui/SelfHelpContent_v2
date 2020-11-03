@@ -1,8 +1,8 @@
 <properties
     pageTitle="Increase the MySQL server vCores"
     description="Increase the MySQL server vCores"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="0fb3f293-899e-458a-81cc-ad263dd89629_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

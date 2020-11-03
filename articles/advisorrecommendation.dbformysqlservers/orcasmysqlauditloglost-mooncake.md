@@ -1,8 +1,8 @@
 <properties
     pageTitle="Increase the reliability of audit logs"
     description="Increase the reliability of audit logs"
-    authors="andrela"
-    ms.author="ajlam"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="997839f4-48e4-49e4-9b15-628a7757765c_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"

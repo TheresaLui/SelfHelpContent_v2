@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scale the MySQL server to higher SKU"
     description="Scale the MySQL server to higher SKU"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="ambhatna"
+    ms.author="ambhatna"
     articleId="944611b9-0357-4272-a9ac-a97a65932599_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
