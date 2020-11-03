@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-netappvolume-backupoperator"
+	articleId="problemscopingques-netappvolume-adconnector"
 	pageTitle="Unable to add backup operator"
 	description="Unable to add backup operator"
 	authors="b-avaish"
@@ -27,19 +27,11 @@
             "required": true
         },
 		{
-            "id": "ostypevm",
+            "id": "valid_user",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Is the username a valid username on the active directory?",
             "watermarkText": "Is the username a valid username on the active directory?",
-            "required": true
-        },
-		{
-            "id": "nfspackages",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Are NFS packages installed in VM?",
-            "watermarkText": "Are NFS packages installed in VM?",
 			"dropdownOptions": [
 				{
                     "value": "Yes",
@@ -54,7 +46,7 @@
                     "text": "None of the above"
                 }
 			],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",

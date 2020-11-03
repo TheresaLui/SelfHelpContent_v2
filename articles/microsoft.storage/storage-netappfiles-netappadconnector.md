@@ -19,10 +19,9 @@
 
 ## **Recommended Steps**
 
-1.Make sure you are whitelisted for the Backupoperator Afec. Below is AZ cli command:
-Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
-2.If not registered, please register with below command:
-Register-AzProviderFeature-ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
+1.Make sure you are whitelisted for the Backupoperator AFEC. In Azure PowerShell, enter: Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
+2.If not registered, please register with below command: Register-AzProviderFeature-ProviderNamespace Microsoft.NetApp -FeatureName ANFBackupOperator
+
 ## **Recommended Documents**
 
--(https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
+-[Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
