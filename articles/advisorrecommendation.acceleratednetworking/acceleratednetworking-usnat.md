@@ -12,7 +12,7 @@
 ---
 {
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "6fc92e83-251a-44f8-ba55-73f7312d18a3",
+  "recommendationTypeId": "3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4",
   "dataSourceMetadata": {
     "streamNamespace": ('https://aznwsdn.usnatwest.kusto.core.eaglex.ic.gov').database('aznwmds').AzureAdvisorForANcapableVMs_USNat",
     "dataSource": "Kusto",
