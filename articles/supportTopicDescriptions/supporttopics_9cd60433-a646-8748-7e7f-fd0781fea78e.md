@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
+      "longDescription": "",
+      "shortDescription": "After following the connector configuration steps (as displayed in the connector page), Sentinel does not show the relevant data",
+      "searchTags": "Connector troubleshooting;data collection ",
+      "category": "Connectivity, troubleshooting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dbf21c3d-7888-fcbd-2593-92c4bde12ed9",
       "longDescription": "",
       "shortDescription": "Azure Sentinel provides a vast amount of data sources connectors, but the required security solution does not have one",
