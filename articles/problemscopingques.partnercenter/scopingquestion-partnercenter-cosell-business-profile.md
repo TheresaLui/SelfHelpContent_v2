@@ -30,7 +30,7 @@
 	   "watermarkText": "Business profile country/location for this query",
 	   "required": false
        },
-       yu{
+       {
 	   "id": "business_profile_org_size",
        "order": 2,
 	   "controlType": "dropdown",
