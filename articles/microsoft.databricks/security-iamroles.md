@@ -43,4 +43,4 @@
 
 ## **Recommended Documents**
 
-* [Security and Permissions](https://kb.azuredatabricks.net/security/index.html#security-and-permissions)
+* [Security and permissions: tips and troubleshooting](https://docs.microsoft.com/azure/databricks/kb/security/)
