@@ -7,7 +7,7 @@
 	authors="NatErns	"
 	ms.author="naterns"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_Service_Healing_Node_Fault_Low_Memory"
+	articleId="UnexpectedVMReboot_Service_Healing_Node_Fault_Low_Memory_noend"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -20,7 +20,7 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. 
 <!--/issueDescription-->
 
 <!--rcaDescription-->
