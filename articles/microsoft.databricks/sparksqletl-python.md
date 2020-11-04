@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Python
+# Diagnose and resolve Spark issues with Python API (PySpark)
 
 ## **Recommended Steps**
 
