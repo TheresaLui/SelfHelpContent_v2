@@ -48,9 +48,9 @@
       "extensionName": "Microsoft_Azure_Support",
       "bladeName": "NewSupportRequestV3Blade",
       "metadata": {
-            "subId": "{subscriptionId}",
-            "pesId": "06bfd9d3-516b-d5c6-5802-169c800dec89",
-            "supportTopicId": "eb747862-5a4c-b6de-e173-02095d17fd4d"
+            "subscriptionId": "{SubscriptionId}",
+            "productId": "06bfd9d3-516b-d5c6-5802-169c800dec89",
+            "topicId": "eb747862-5a4c-b6de-e173-02095d17fd4d"
       }
     }
   ],
