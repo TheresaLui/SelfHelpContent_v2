@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 * Alerts are only supported on Standard Load Balancer. To enable alerts for your load balancer, follow [instructions](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard) to create a Standard SKU Load Balancer.
-* Learn more about [how to configure alerts](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#configure-alerts-for-multi-dimensional-metrics) for multi-dimensional metrics](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#multi-dimensional-metrics)
+* Learn more about [how to configure alerts](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#configure-alerts-for-multi-dimensional-metrics) for [multi-dimensional metrics](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#multi-dimensional-metrics)
 
 
 
