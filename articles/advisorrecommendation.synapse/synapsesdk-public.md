@@ -50,8 +50,8 @@
 		"action": {
 			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab6be",
 			"actionType": "Blade",
-			"extensionName": "SynapseworkspaceExtension",
-			"bladeName": "SynapseworkspaceMenuBlade",
+			"extensionName": "HubsExtension",
+			"bladeName": "ResourceMenuBlade",
 			"metadata": {
 				"id": "{resourceId}"
 			}
