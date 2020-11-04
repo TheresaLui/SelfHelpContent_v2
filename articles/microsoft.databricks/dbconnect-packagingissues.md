@@ -19,4 +19,7 @@
 
 ## **Recommended Documents**
 
-* [Eclipse](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#eclipse)
+* [Set up Client](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-client)
+* [Set up IDE or Notebook Server)](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-your-ide-or-notebook-server)
+* [Troubleshooting](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#troubleshooting)
+* [Limitations](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#limitations)
