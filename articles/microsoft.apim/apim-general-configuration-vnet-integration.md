@@ -28,6 +28,6 @@ Azure Virtual Networks (VNETs) allow you to place any of your Azure resources in
 
 ## **Recommended Documents**
 
-* [API Management Overview](https://docs.microsoft.com/azure/api-management/api-management-key-concepts#overview)<br>
-* [Troubleshooting](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#-troubleshooting)<br>
-* [Limitations](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#-limitations)
+* [Common Newtork Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#-common-network-configuration-issues)<br>
+*[Troubleshooting API Management in Virtual Networks – NSGS, UDRs and VNET Peering](https://techcommunity.microsoft.com/t5/azure-paas-developer-blog/api-management-networking-faqs-demystifying-series-i/ba-p/1500996)<br>
+*[Troubleshooting API Management in Virtual Networks – Azure Firewall, Custom DNS and Force Tunneling](https://techcommunity.microsoft.com/t5/azure-paas-developer-blog/api-management-networking-faqs-demystifying-series-ii/ba-p/1502056)<br>
