@@ -30,7 +30,7 @@ Follow our recommended steps to resolve these common configuration issues:
 ### Recommended steps
 
 1. If you're using Azure Active Directory: in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected.
-    - If you're not using a custom Cloud App Security policy, in the drop-down list box, select **Monitor Only** or **Block Downloads**
+    - If you're not using a custom Cloud App Security policy, in the drop-down list box, select **Monitor Only** or **Block Downloads**.
     - Otherwise, in the drop-down list box, select **Use Custom Policy**, and in Cloud App Security, create granular access or session control policies, such as block upload, copy/paste/print, or block downloads, based on content inspection.
 1. If you're using a third-party Identity provider, make sure to onboard the app first.
     - In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control apps**, and click the plus sign to start the process.
