@@ -30,7 +30,18 @@ Make sure the user you sent the link to has access to your workspace:
 4. If the user doesn't have access, click the "+ Add" button
 5. Add the user and assign the appropriate level of access
 
-Note: Reader access is the minimum level of access to view a shared Notebook.
+### Custom Roles
+
+1. Make sure you have the following actions enabled:
+
+* `/workspaces/computes/read`
+* `/workspaces/notebooks/samples/read`
+* `/workspaces/notebooks/storage/*`
+* `/workspaces/listKeys/action`
+
+2. If you still don't have access read more about [permissions needed to perform some common scenarios](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles#q-what-are-the-permissions-needed-to-perform-some-common-scenarios-in-the-azure-machine-learning-service)
+
+**Note:** Owner, contributor, or [custom role](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles#q-what-are-the-permissions-needed-to-perform-some-common-scenarios-in-the-azure-machine-learning-service) is the minimum level of access to view a shared Notebook. 
 
 ## **Recommended Documents**
 
