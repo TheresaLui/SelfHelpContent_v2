@@ -46,7 +46,7 @@
         },
         {
             "id": "driver_name",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Driver or tool you are experiencing issues with?",
             "watermarkText": "Choose an option",
@@ -92,7 +92,7 @@
         },
         {
             "id": "driver_version",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Version of the driver or tool?",
             "watermarkText": "Provide the version of your driver/tool",

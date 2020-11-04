@@ -531,7 +531,7 @@
     {
       "id": "866600f1-7ecf-985a-3e2f-254618877215",
       "longDescription": "",
-      "shortDescription": "Questions on Azure Cosmos DB Mongo API or Mongo data migration",
+      "shortDescription": "Questions on Azure Cosmos DB API for MongoDB",
       "searchTags": "mongo, mongodb",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"

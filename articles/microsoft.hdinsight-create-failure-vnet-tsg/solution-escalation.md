@@ -23,10 +23,14 @@
 
 <!--/issueDescription-->
 
-Try to follow the recommended documents to troubleshoot or escalate 
+Use the following recommended documents to troubleshoot or escalate. 
 
 ## **Recommended Documents**
 
 * [Cluster creation process](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/296058/Cluster-create-process)
 * [Cluster creation failure](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/309196/Cluster-create-failed)
+* [CRUD error dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 
+## **Known Issues**
+
+* [Leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)
