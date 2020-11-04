@@ -21,7 +21,7 @@
       "refreshInterval":"00:01:00"
    },
    "recommendationCategory":"Performance",
-   "recommendationImpact":"High",
+   "recommendationImpact":"Medium",
    "recommendationResourceType":"Microsoft.CognitiveServices/accounts",
    "recommendationFriendlyName":"UpgradeToLatestAPI",
    "recommendationMetadataState":"Active",
