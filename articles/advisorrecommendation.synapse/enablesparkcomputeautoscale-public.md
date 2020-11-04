@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Enable autopause and autoscale properties on spark compute"
-    description="Enable autopause and autoscale properties on spark compute"
+    pageTitle="Enable Autopause and Autoscale properties on spark compute"
+    description="Enable Autopause and Autoscale properties on spark compute"
     authors="srthatip"
     ms.author="srthatip"
     articleId="018da770-932b-4fce-92e4-efc51f411279_public"
