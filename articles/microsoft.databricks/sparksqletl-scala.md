@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Scala
+# Diagnose and resolve Spark issues with Scala API
 
 ## **Recommended Steps**
 
