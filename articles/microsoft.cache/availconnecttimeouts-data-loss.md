@@ -17,8 +17,6 @@
 
 # Data Loss with Azure Cache For Redis
 
-4 out of 5 customers resolved their Azure Cache For Redis issue using the below documents.<br>
-
 ## **Recommended Documents**
 
 * [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
