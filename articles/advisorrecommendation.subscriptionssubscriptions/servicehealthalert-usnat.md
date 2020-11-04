@@ -28,7 +28,7 @@
   "owner": {
     "email": "ahex@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
+      "routingId": "MDM://AzureServiceHealth",
       "service": "Azure Service Health",
       "team": "Triage"
     },
