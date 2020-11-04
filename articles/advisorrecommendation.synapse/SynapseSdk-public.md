@@ -5,7 +5,7 @@
     articleId="7c83695a-3fa9-4668-9080-85151f5ab7be_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public,usnat,ussec"
-    ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # SynapseManagementClient SDK Version Recommendation
 ---
@@ -25,16 +25,16 @@
 	"recommendationFriendlyName": "UpgradeSynapseManagementClientSDK",
 	"recommendationMetadataState": "Active",
 	"owner": {
-		"email": "srthatip@microsoft.com",
+		"email": "a365rp@microsoft.com",
 		"icm": {
-		  "routingId": "MDM://ARCADIA-RP",
+		  "routingId": "mdm://adspartner/AzureSynapsePlateform/SynapseProvider",
 		  "service": "Azure Synapse Platform Service",
 		  "team": "Synapse Resource Provider"
 		},
 		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
 	},
 	"version": 2.0,
-	"learnMoreLink": "https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
+	"learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
 	"description": "Update SynapseManagementClient SDK Version",
 	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",
 	"potentialBenefits": "Latest SynapseManagementClient Libraries contain fixes for known issues and additional improvements.",
@@ -43,7 +43,7 @@
 			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab8be",
 			"description": "Learn how to update your SynapseManagementClient Libraries",
 			"actionType": "Document",
-			"documentLink": "https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview"
+			"documentLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview"
 		}
 	],
 	"resourceMetadata": {

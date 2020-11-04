@@ -1,12 +1,12 @@
 <properties
-    pageTitle="enable Autopause and Autoscale properties on SparkCompute"
-    description="Enable Autopause and Autoscale properties on SparkCompute"
+    pageTitle="Enable autopause and autoscale properties on spark compute"
+    description="Enable autopause and autoscale properties on spark compute"
     authors="srthatip"
     ms.author="srthatip"
     articleId="018da770-932b-4fce-92e4-efc51f411279_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 
 # Consider enabling Autoscale feature on spark pool for better performance
@@ -27,9 +27,9 @@
   "recommendationFriendlyName": "EnableAutoScaleAutoPauseGuidance",
   "recommendationMetadataState": "Active",
   "owner": {
-    "email": "srthatip@microsoft.com",
+    "email": "a365rp@microsoft.com",
     "icm": {
-      "routingId": "MDM://ARCADIA-RP",
+      "routingId": "mdm://adspartner/AzureSynapsePlateform/SynapseProvider",
       "service": "Azure Synapse Platform Service",
       "team": "Synapse Resource Provider"
     },
@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [ ],
   "version": 2.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-autoscale",
+  "learnMoreLink": "https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-autoscale",
   "description": "Consider enabling Autoscale feature on spark pool.",
   "longDescription": "Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down. There's no additional charge for this feature.",
   "potentialBenefits": "Enabling Autoscale comes at 0 cost and will help increase load throughput and improve performance",
@@ -46,7 +46,7 @@
       "actionId": "79444364-79be-4656-99b9-9919daedfb96",
       "description": "Consider enabling Autoscale feature on spark pool",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-autoscale"
+      "documentLink": "https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-autoscale"
     }
   ],
   "resourceMetadata": {

@@ -6,7 +6,7 @@
     articleId="a14a77e7-1187-4714-9042-7c6056b30017_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 
 # Increase batch size when loading to maximize load throughput, data compression, and query performance
