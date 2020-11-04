@@ -46,7 +46,7 @@
       "description": "Opening a support ticket.",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Support",
-      "bladeName": "NewSupportRequestBlade",
+      "bladeName": "NewSupportRequestV3Blade",
       "metadata": {
             "subId": "{subscriptionId}",
             "pesId": "06bfd9d3-516b-d5c6-5802-169c800dec89",
