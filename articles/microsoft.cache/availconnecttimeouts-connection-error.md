@@ -17,10 +17,11 @@
 
 # Connection errors with Azure Cache for Redis
 
-Applications may receive connection errors when the client is unable to establish a TCP connection with Redis server. These may surface as runtime connection exceptions or errors. Separate from connection errors, timeout errors from failed requests or commands may indicate a different problem. Use the recommended documents below to investigate and resolve connection errors.
+Applications can receive connection error messages when the client is unable to establish a TCP connection with the Redis server. These error messages can surface as runtime connection exceptions or as errors. Separate from connection errors, timeout errors from failed requests or commands can indicate a different problem. 
+
+Use the following recommended documents to investigate and resolve connection errors.
 
 ## **Recommended Documents**
-
 
 * [Common causes of connection errors and how to fix them](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
 * [What is failover and how to make clients resilient to failover ](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover)<br>
