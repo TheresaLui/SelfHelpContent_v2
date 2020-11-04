@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation", 
   "recommendationTypeId": "", 
   "dataSourceMetadata": { 
-    "streamNamespace": "cluster('https://rdsprodus2.westus2.kusto.windows.net').database('WVD').ChangeMaxSessionLimitForDepthFirstHostPool", 
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').ChangeMaxSessionLimitForDepthFirstHostPool", 
     "dataSource": "Kusto", 
     "refreshInterval": "0.00:01:00" 
   }, 
