@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Enable Autopause and Autoscale properties on SparkCompute"
+    pageTitle="enable Autopause and Autoscale properties on SparkCompute"
     description="Enable Autopause and Autoscale properties on SparkCompute"
     authors="srthatip"
     ms.author="srthatip"
@@ -67,8 +67,7 @@
 		"title": "Spark Compute"
 	}
   ],
-  "tip": "You can improve load throughput, performance by enabling autoscale.",
-  "testData":"1e42591f-1f0c-4c5a-b7f2-a268f6105ec5,/subscriptions/1e42591f-1f0c-4c5a-b7f2-a268f6105ec5/resourceGroups/sparksdemo/providers/Microsoft.Synapse/workspaces/sparktest/bigDataPools/sparktest123",1.0,{"SparkPool": "test"}
+  "tip": "You can improve load throughput, performance by enabling autoscale."
 
 }
 ---

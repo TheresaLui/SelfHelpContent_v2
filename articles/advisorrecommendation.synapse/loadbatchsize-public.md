@@ -24,7 +24,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
-  "recommendationFriendlyName": SynapseLoadBatchSizeGuidance",
+  "recommendationFriendlyName": "SynapseLoadBatchSizeGuidance",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "sqldwninjas@service.microsoft.com",
@@ -67,7 +67,6 @@
       "title": "SQL pool Name"
     }
   ],
-  "tip": "You can improve load throughput, data compression, and query performance by increasing your batch size.",
-  "testData":"5a352e58-10ee-4f0f-9ce7-c6de232fc8ac,/subscriptions/5a352e58-10ee-4f0f-9ce7-c6de232fc8ac/resourceGroups/DWRJobs/providers/Microsoft.Synapse/workspaces/dwreliability",1.0,{"sqlPool": "testsqlpool"}
+  "tip": "You can improve load throughput, data compression, and query performance by increasing your batch size."
 }
 ---
