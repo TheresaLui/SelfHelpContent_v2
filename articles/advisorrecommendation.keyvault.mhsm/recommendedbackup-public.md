@@ -73,6 +73,7 @@
 			"title": "Not Backup In Days"
 		}
 	],
-	"tip": ""
+	"tip": "",
+	"testData": "9710b329-7fcd-4d77-97ae-3e3baef6b32a,/subscriptions/9710b329-7fcd-4d77-97ae-3e3baef6b32a/resourceGroups/ShoeboxEUS2EUAP/providers/Microsoft.KeyVault/managedHSMs/MHSMAdvTest03,https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/best-practices,{\"PoolName\": \"MHSMAdvTest03\",\"days\": 4}"
 }
 ---
