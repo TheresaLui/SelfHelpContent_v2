@@ -1,0 +1,72 @@
+<properties
+    pageTitle="Upgrade SDK version recommendation"
+    description="Return list of resources that do not currently use the recommended SDK version"
+    ms.author="srthatip"
+    articleId="7c83695a-3fa9-4668-9080-85151f5ab7be_public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="public,usnat,ussec"
+    ownershipId="AzureData_SynapseAnalytics"
+/>
+# SynapseManagementClient SDK Version Recommendation
+---
+{
+	"recommendationOfferingId": "bfd090af-60cd-4f06-9a20-84224a93df41",
+	"recommendationOfferingName": "Azure Synapse Analytics",
+	"$schema": "AdvisorRecommendation",
+	"recommendationTypeId": "7c83695a-3fa9-4668-9080-85151f5ab7be",
+	"dataSourceMetadata": {
+		"streamNamespace": "cluster('https://analytics365prod.kusto.windows.net').database('Analytics365PROD').synapse_advisor_SynapseManagementClientSdk",
+		"dataSource": "Kusto",
+		"refreshInterval": "1.00:00:00"
+	},
+	"recommendationCategory": "Performance",
+	"recommendationImpact": "Medium",
+	"recommendationResourceType": "Microsoft.Synapse/workspaces",
+	"recommendationFriendlyName": "UpgradeSynapseManagementClientSDK",
+	"recommendationMetadataState": "Active",
+	"owner": {
+		"email": "srthatip@microsoft.com",
+		"icm": {
+		  "routingId": "MDM://ARCADIA-RP",
+		  "service": "Azure Synapse Platform Service",
+		  "team": "Synapse Resource Provider"
+		},
+		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
+	},
+	"version": 2.0,
+	"learnMoreLink": "https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
+	"description": "Update SynapseManagementClient SDK Version",
+	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",
+	"potentialBenefits": "Latest SynapseManagementClient Libraries contain fixes for known issues and additional improvements.",
+	"supportedSDKLanguages": [".Net"],
+	"actions": [{
+			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab8be",
+			"description": "Learn how to update your SynapseManagementClient Libraries",
+			"actionType": "Document",
+			"documentLink": "https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview"
+		}
+	],
+	"resourceMetadata": {
+		"action": {
+			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab6be",
+			"actionType": "Blade",
+			"extensionName": "SynapseworkspaceExtension",
+			"bladeName": "SynapseworkspaceMenuBlade",
+			"metadata": {
+				"id": "{resourceId}"
+			}
+		}
+	},
+	"displayLabel": "Update SynapseManagementClient",
+	"additionalColumns": [{
+			"name": "language",
+			"title": "SDK Language"
+		},
+		{
+			"name": "version",
+			"title": "Minimum Recommended Version"
+		}
+	],
+	"tip": ""
+}
+---

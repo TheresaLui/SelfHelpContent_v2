@@ -3,19 +3,19 @@
     description="Increase batch size when loading"
     authors="kevin"
     ms.author="kevin"
-    articleId="e0ba1234-61da-46e3-a66d-fa0752b9df7d_public"
+    articleId="a14a77e7-1187-4714-9042-7c6056b30017_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 
 # Increase batch size when loading to maximize load throughput, data compression, and query performance
 ---
 {
-  "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
+  "recommendationOfferingId": "bfd090af-60cd-4f06-9a20-84224a93df41",
   "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "e0ba1234-61da-46e3-a66d-fa0752b9df7d",
+  "recommendationTypeId": "a14a77e7-1187-4714-9042-7c6056b30017",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('sqladhoc.kustomfa.windows.net').database('sqlazure1').synapse_advisor_Load_BatchSize",
     "dataSource": "Kusto",
@@ -24,7 +24,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
-  "recommendationFriendlyName": "LoadBatchSizeGuidance",
+  "recommendationFriendlyName": SynapseLoadBatchSizeGuidance",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "sqldwninjas@service.microsoft.com",
@@ -68,7 +68,6 @@
     }
   ],
   "tip": "You can improve load throughput, data compression, and query performance by increasing your batch size.",
-  "testData":"5a352e58-10ee-4f0f-9ce7-c6de232fc8ac,/subscriptions/5a352e58-10ee-4f0f-9ce7-c6de232fc8ac/resourceGroups/DWRJobs/providers/Microsoft.Sql/servers/dwreliability/databases/DWReliability"
-
+  "testData":"5a352e58-10ee-4f0f-9ce7-c6de232fc8ac,/subscriptions/5a352e58-10ee-4f0f-9ce7-c6de232fc8ac/resourceGroups/DWRJobs/providers/Microsoft.Synapse/workspaces/dwreliability",1.0,{"sqlPool": "testsqlpool"}
 }
 ---
