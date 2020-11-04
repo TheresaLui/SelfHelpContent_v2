@@ -7,7 +7,7 @@
 	ms.author="irenehua"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32781311"
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
