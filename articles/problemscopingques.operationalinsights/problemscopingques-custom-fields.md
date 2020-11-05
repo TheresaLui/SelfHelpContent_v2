@@ -126,8 +126,8 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Details",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the custom fields, describing what's the expected behavior vs the current behavior",
+            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the custom fields, describing what's the expected behavior vs the current behavior.",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the custom fields, describing what's the expected behavior vs the current behavior.",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": []
