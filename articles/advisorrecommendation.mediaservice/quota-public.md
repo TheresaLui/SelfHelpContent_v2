@@ -43,7 +43,7 @@
   "actions": [
     {
       "actionId": "fbc706f9-98a1-444a-8370-0fb7e121a80c",
-      "description": "Opening a support ticket.",
+      "description": "Create a quota request.",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Support",
       "bladeName": "NewSupportRequestV3Blade",
