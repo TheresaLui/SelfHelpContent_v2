@@ -54,7 +54,7 @@
                     "value": "dont_know_answer",
                     "text": "I don't know"
                 }
-            ],
+            ]
         },
         {
             "id": "problem_frequency",
