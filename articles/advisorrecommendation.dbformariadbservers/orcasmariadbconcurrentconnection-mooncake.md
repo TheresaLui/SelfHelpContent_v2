@@ -5,7 +5,7 @@
     ms.author="pariks"
     articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scale the MariaDB server to higher SKU
