@@ -10,6 +10,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="16505"
+	supportTopicIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec, mooncake"
 	articleId="6a032e80-868d-40bd-8df4-fc7a1e242268"
 	ownershipId="StorageMediaEdge_DataBox"
