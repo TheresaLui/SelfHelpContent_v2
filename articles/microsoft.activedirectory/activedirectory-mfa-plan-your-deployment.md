@@ -34,3 +34,10 @@
 * Using Windows Hello for Business? [Start here to deploy WHfB](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-planning-guide)
 
 * Using Authenticator App? Here's how to [Set up the Microsoft Authenticator app to use verification codes](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-setup-auth-app#set-up-the-microsoft-authenticator-app-to-send-notifications)
+
+## **Recommended Videos**
+
+Prefer to watch a video? Here's a list of helpful short videos
+	* [How to deploy conditional access](https://www.youtube.com/watch?v=c_izIRNJNuk)
+	* [How to set up authenticator on a new phone](https://www.youtube.com/watch?v=jTwtosQkn6I)
+	* [Windows Hello for Business Provisioing](https://www.youtube.com/watch?v=RImGsIjSJ1s)
