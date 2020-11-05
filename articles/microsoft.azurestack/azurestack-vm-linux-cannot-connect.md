@@ -29,7 +29,7 @@ Network Security Group by default deny connections from Internet unless it is ex
 - [Edit the Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group) to make changes to the rules if needed
 - If there is no rule to allow the traffic from Internet, add a new rule to allow access to the backend port, with source being 'Internet', '*' or a specific public IP address
 
-**VM connective issues**
+**VM connection issues**
 
 [Manage network resources in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption)
 
