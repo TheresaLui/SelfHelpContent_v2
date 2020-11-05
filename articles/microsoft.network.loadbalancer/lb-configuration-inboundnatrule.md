@@ -17,7 +17,7 @@
 
 # Azure Load Balancer Inbound Nat Rules Set Up
 
-## **Troubleshooting Insights**
+## **Recommended Steps**
 * Inbound NAT rules let you configure port forwarding for individual virtual machines in the backend of a load balancer. Learn more about inbound NAT rules [here](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal).
 * To learn more about how to create an inbound NAT rule, read more [here](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal#create-an-inbound-nat-port-forwarding-rule). 
 * Understand when to use inbound NAT rules versus [load balancing rules](https://docs.microsoft.com/azure/load-balancer/components#load-balancing-rules). 
