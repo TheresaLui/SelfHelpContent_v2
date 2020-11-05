@@ -27,7 +27,7 @@
             "required": true
         },
         {
-            "id": "Issue_type",
+            "id": "issue_type",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of issue is occurring",
@@ -43,8 +43,8 @@
                     "text": "Cannot remove a custom field"
                 },
                 {
-                    "value": "Custom field is extracting incorrect\incomplete data",
-                    "text": "Custom field is extracting incorrect\incomplete data"
+                    "value": "Custom field is extracting incorrect &#47 incomplete data",
+                    "text": "Custom field is extracting incorrect &#47 incomplete data"
                 },
                 {
                     "value": "Custom field is not extracting any data",
