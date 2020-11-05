@@ -1,23 +1,23 @@
 ﻿<properties 
-  pageTitle="Unable to connect to Standalone SQL instance"
-  description="Unable to connect to Standalone SQL instance"
+  pageTitle="Connection to Availability Groups, FCI, Listener"
+  description="Connection to Availability Groups, FCI, Listener"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740111"
+  supportTopicIds="32782254"
   productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
-  articleId="6ff09109-fc34-40e4-bca1-10b0e880be91"
+  articleId="4c45fb54-74f6-45b3-8186-d11b1258a63b"
  ownershipId="AzureData_AzureSQLVM"
 />
-# Unable to connect to Standalone SQL instance
+# Connection to Availability Groups, FCI, Listener
 ---
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Unable to connect to Standalone SQL instance",
+    "title": "Connection to Availability Groups, FCI, Listener",
     "fileAttachmentHint": null,
     "formElements": [
         {
