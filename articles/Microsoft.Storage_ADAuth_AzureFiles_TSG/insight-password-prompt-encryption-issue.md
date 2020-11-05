@@ -18,7 +18,7 @@
 
 # Unable to mount - User is not able to retrieve the Kerberos ticket
 <!--issueDescription-->
-In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. A customer may run into an issue with the `CheckGetKerberosTicket` step if their domain group policy does not have a supported Kerberos encryption type enabled, or if the client has cached credentials for the storage account (in Windows Credential Manager) for the storage account and key.
+For Active Directory Authentication to work properly, we need a valid Kerberos ticket to connect to the storage account. A customer may run into an issue with the `CheckGetKerberosTicket` step if their domain group policy does not have a supported Kerberos encryption type enabled, or if the client has cached credentials for the storage account (in Windows Credential Manager) for the storage account and key.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
