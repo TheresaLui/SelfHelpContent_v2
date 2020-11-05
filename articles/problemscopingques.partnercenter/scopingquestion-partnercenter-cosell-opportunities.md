@@ -42,7 +42,7 @@
 	   "watermarkText": "Please provide the Solution ID",
 	   "required": false
        },
-      {
+       {
 	   "id": "cosell_opportunity_id",
 	   "order": 4,
 	   "controlType": "textbox",
@@ -50,7 +50,7 @@
 	   "watermarkText": "Please provide the Co-sell opportunity ID",
 	   "required": false
        },
-	   {
+       {
 	   "id": "referral_id",
 	   "order": 5,
 	   "controlType": "textbox",
@@ -58,7 +58,7 @@
 	   "watermarkText": "Please provide the Referral ID",
 	   "required": false
        },
-      {
+       {
 	   "id": "problem_description",
 	   "order": 6,
 	   "controlType": "multilinetextbox",
