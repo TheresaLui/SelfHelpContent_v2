@@ -30,7 +30,7 @@
             "id": "issue_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What type of issue is occurring",
+            "displayLabel": "What type of issue is occurring?",
             "required": true,
             "watermarkText": "Choose one issue type",
             "dropdownOptions": [
@@ -43,8 +43,8 @@
                     "text": "Cannot remove a custom field"
                 },
                 {
-                    "value": "Custom field is extracting incorrect &#47 incomplete data",
-                    "text": "Custom field is extracting incorrect &#47 incomplete data"
+                    "value": "Custom field is extracting incorrect / incomplete data",
+                    "text": "Custom field is extracting incorrect / incomplete data"
                 },
                 {
                     "value": "Custom field is not extracting any data",
@@ -61,7 +61,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked before?",
-            "watermarkText": "Has this ever worked before?",
+            "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
                 {
@@ -83,7 +83,7 @@
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening to a single user or multiple users?",
-            "watermarkText": "Is the issue happening to a single user or multiple users?",
+            "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
                 {
@@ -109,8 +109,8 @@
             "required": false,
             "dropdownOptions": [
                 {
-                    "value": "Ittermittent",
-                    "text": "Ittermittent"
+                    "value": "Itermittent",
+                    "text": "Itermittent"
                 },
                 {
                     "value": "Constant",
