@@ -21,15 +21,15 @@ A planned maintenance is a maintenance window when service updates are deployed 
 
 ## **Recommended Steps**
 
-* Once the notification is sent to a given Azure region, the patching schedule changes cannot be made for an individual server in that region. The patch is rolled out to all servers in the entire region in the same planned maintenance deployment process.
+* After the notification is sent to a given Azure region, patching schedule changes cannot be made for an individual server in that region. The patch is rolled out to all servers in the entire region in the same planned maintenance deployment process.
 * Regions are not patched at the same time. Maintenance deployments are typically completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary
-* You can receive alerts for upcoming planned maintenance using:
+* You can receive alerts for upcoming planned maintenance by using:
 
-  * Alerts: You can configure alerts for an upcoming planned maintenance event. Refer to [how can I get notified of planned maintenance](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#how-can-i-get-notified-of-planned-maintenance) to configure alerts.
-  * Azure portal: Refer to [planned maintenance notification from Azure portal](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#check-planned-maintenance-notification-from-azure-portal) for more details.
+  * Alerts: Configure alerts for an upcoming planned maintenance event. See [how can I get notified about planned maintenance](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#how-can-i-get-notified-of-planned-maintenance)?
+  * Azure Portal: See [planned maintenance notification from Azure portal](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#check-planned-maintenance-notification-from-azure-portal).
 
-* Typically, the minimum duration between two planned maintenance is 30 days. You receive a notification of the next maintenance window 72 hours in advance
-* Planned maintenance for a given Azure region is typically expected to run 15 hrs. During this time, Azure Database for MariaDB servers are restarted and restarts are typically expected to complete in 60-120 seconds.
+* Typically, the minimum duration between two planned maintenance windows is 30 days. You receive a notification of the next maintenance window 72 hours in advance.
+* Planned maintenance for a given Azure region is typically expected to run 15 hrs. During this time, Azure Database for MariaDB servers are restarted. Restarts are expected to complete in 60-120 seconds.
 
 ## **Recommended Documents**
 
