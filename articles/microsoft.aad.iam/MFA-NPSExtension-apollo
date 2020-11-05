@@ -35,7 +35,7 @@ Most customers are able to resolve MFA issues related to NPS Extensions by using
  
 ### Common Error Code
 
-NPS extension logs are found in the Event Viewer, under **Custom Views** > **Server Roles** > **Network Policy and Access Services** on the server where the NPS Extension is installed. 
+NPS extension logs are found in the Event Viewer, under Custom Views > **Server Roles** > **Network Policy and Access Services** on the server where the NPS Extension is installed. 
  
 | <center>Error code</center> | Troubleshooting steps |
 |--|:--:|
