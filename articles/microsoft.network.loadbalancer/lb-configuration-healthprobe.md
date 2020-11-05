@@ -18,6 +18,6 @@
 # Azure Load Balancer health probes set up
 
 ## **Recommended Steps**
-* Health probe is necessary to establish inbound connection. Azure Load Balancer supports TCP listeners, HTTP endpoints, and HTTPS endpoints (only available for Standard SKU). ICMP is not supported. Learn more Azure Load Balancer health probes [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview). 
-* To learn more about design guidance for health probes, read more [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#design). 
+* Health probe is necessary to establish inbound connection. Azure Load Balancer supports TCP listeners, HTTP endpoints, and HTTPS endpoints (only available for Standard SKU). ICMP is not supported. Learn more Azure Load Balancer health probes [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview).
+* To learn more about design guidance for health probes, read more [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#design).
 * To see whether the health probe is probing up for the backend instances, follow [instructions](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#are-the-backend-instances-for-my-load-balancer-responding-to-probes) here to view health probe health metric on Portal.
