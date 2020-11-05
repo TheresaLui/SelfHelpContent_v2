@@ -1,11 +1,11 @@
 <properties
     pageTitle="Right-size underutilized MariaDB servers"
     description="Right size the MariaDB server vCores based on the utilization telemetry."
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Decrease the MariaDB server vCores
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "2af11142-942e-45c1-8ce8-d9d2df25aae9",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDBRightSizeRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBRightSizeRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Reduce cost by right-sizing the MariaDB server",
   "actions": [
     {
-      "actionId": "e9702aa5-5510-4d67-8ea9-80699003f4c3",
+      "actionId": "a26e69b1-579c-4148-931c-c1654a27612c",
       "description": "Right-size underutilized MariaDB servers",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "9bc0a051-e0de-49f1-88aa-f3db1e997d08",
+      "actionId": "add7e632-1241-4d7d-b719-5e150e4ee155",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

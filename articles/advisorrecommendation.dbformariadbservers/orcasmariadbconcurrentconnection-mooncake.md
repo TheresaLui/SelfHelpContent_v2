@@ -1,9 +1,9 @@
 <properties
     pageTitle="Scale the MariaDB server to higher SKU"
     description="Scale the MariaDB server to higher SKU"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "860d2d5d-7934-4ccb-a34a-577adf3022a6",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDBConnectionRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBConnectionRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allowing more concurrent connections",
   "actions": [
     {
-      "actionId": "775044d9-9ebe-4a8b-b2c5-d6b7ff89361e",
+      "actionId": "bf83613c-970d-42b1-8ed2-aa4a2080de16",
       "description": "Increase vCores or switch to Memory Optimized pricing tier",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "e1d28ebe-70ad-4069-9f2e-9f8546f0ae7b",
+      "actionId": "0b1e207e-4706-4490-acbc-f9ca56861e1e",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

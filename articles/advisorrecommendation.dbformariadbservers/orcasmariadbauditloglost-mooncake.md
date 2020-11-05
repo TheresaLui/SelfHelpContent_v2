@@ -1,11 +1,11 @@
 <properties
     pageTitle="Increase the reliability of audit logs"
     description="Increase the reliability of audit logs"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="a77dd319-ffb5-4f88-bdf2-e98e59afc79f_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="a77dd319-ffb5-4f88-bdf2-e98e59afc79f_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the reliability of audit logs 
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a77dd319-ffb5-4f88-bdf2-e98e59afc79f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDbAuditLogRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDbAuditLogRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -54,7 +54,7 @@
       }
     },
     {
-        "actionId": "cb9848dc-595f-4928-abf1-9222d1979237",
+        "actionId": "a9127120-7261-42aa-a227-1ee522af910e",
         "description": "Increase vCores",
         "actionType": "Blade",
         "extensionName": "HubsExtension",
@@ -67,7 +67,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "175e721d-b9c8-4033-ad8b-b392bcdb4e7f",
+      "actionId": "9ecac1b0-1af6-4062-9c14-49d0a46da79c",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

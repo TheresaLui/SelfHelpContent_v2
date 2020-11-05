@@ -1,11 +1,11 @@
 <properties
     pageTitle="Scale the storage limit for MariaDB server"
     description="Scale the storage limit for MariaDB server"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scale the storage limit for MariaDB server
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dc791c8d-a74e-4b3e-b7f1-40793399ecd6",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDBStorageRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBStorageRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "15d0c46b-284f-4b59-9679-f28a9b8ebc29",
+      "actionId": "415c3cb5-a659-463f-baa1-06409b7a0cd3",
       "description": "Increase Storage for your MariaDB Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "affa4fc6-d9bc-4301-b37d-86f79405b54b",
+      "actionId": "1a0714bc-1946-4a3c-93b9-12812a893368",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

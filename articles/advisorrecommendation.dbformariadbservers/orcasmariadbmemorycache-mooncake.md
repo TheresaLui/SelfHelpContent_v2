@@ -1,11 +1,11 @@
 <properties
     pageTitle="Move your MariaDB server to Memory Optimzed SKU"
     description="Move your MariaDB server to Memory Optimzed SKU"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Move your MariaDB server to Memory Optimzed SKU
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDBMemoryRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBMemoryRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "8c298341-410b-4f09-abcd-3959d962354c",
+      "actionId": "c4535218-144f-4521-b5b2-15706a5d697c",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "dbdcc952-ac85-4bfb-95d0-60f11ab75169",
+      "actionId": "e749bf69-43e3-4dbb-8f82-98e16c24dc2c",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

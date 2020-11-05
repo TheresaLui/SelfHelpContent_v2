@@ -1,11 +1,11 @@
 <properties
     pageTitle="Increase the MariaDB server vCores"
     description="Increase the MariaDB server vCores"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_USSec"
+    authors="savjani"
+    ms.author="pariks"
+    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the MariaDB server vCores
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a5f888e3-8cf4-4491-b2ba-b120e14eb7ce",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud').database('sqlazure1').GetMariaDBCpuRecommendations",
+    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBCpuRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "e5de7bbe-a0c6-4b2b-a443-2479fe9f4be6",
+      "actionId": "cd79a18e-42d9-45d4-b2c1-232a49aa4d46",
       "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "bd499726-5dd9-4a68-be71-d97c8b9308bc",
+      "actionId": "4d56a992-5089-4b19-ba03-7b9f25343922",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
