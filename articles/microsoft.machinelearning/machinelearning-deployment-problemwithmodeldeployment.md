@@ -47,6 +47,8 @@ Most users are able to resolve deployment issues using the steps below.
 
 * [How to update a deployed web service?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-update-web-service)
 
+* Understand [AKS Autoscaling in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#autoscaling) and [Azure ML Router](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#azure-ml-router).
+
 **Python SDK**
 
 * [Webservice Package](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice?view=azure-ml-py) contains functionality for deploying machine learning models as web service endpoints in Azure Machine Learning.
@@ -70,7 +72,6 @@ Most users are able to resolve deployment issues using the steps below.
 * [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models). Learn how to package a registered Azure Machine Learning model with Docker.
 * [Use the studio to deploy models trained in the Designer](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-model-designer). Learn how to deploy trained model from Designer as a real-time endpoint in Azure Machine Learning Studio.
 * [Profile your model to determine resource utilization.](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-profile-model?pivots=py-sdk)
-* Understand [AKS Autoscaling in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#autoscaling) and [Azure ML Router](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python#azure-ml-router).
 * [Advance entry script authoring](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script). Learn how to write entry scripts for specialized use cases.
 * [Load Registered models](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#load-registered-models). There are two ways to locate models in your entry script.
 * [Framework specific examples](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#framework-specific-examples). More entry script examples for specific machine learning use cases (PyTorch, TensorFlow, Keras, AutoML, ONNX.)
