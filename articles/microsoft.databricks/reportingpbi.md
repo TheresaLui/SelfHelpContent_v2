@@ -20,8 +20,12 @@
 ## **Recommended Documents**
 
 * [Connect BI tools](https://docs.microsoft.com/azure/databricks/integrations/bi/jdbc-odbc-bi)
-  * [Power BI](https://docs.azuredatabricks.net/user-guide/bi/power-bi.html)
-  * [Tableau](https://docs.microsoft.com/azure/databricks/integrations/bi/tableau)
+
+	* [Power BI](https://docs.azuredatabricks.net/user-guide/bi/power-bi.html)
+	
+	* [Tableau](https://docs.microsoft.com/azure/databricks/integrations/bi/tableau)
+	
 * [Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting)
+
 * [Accessing secrets with DBUtils fails on Azure Databricks clusters](https://docs.microsoft.com/azure/databricks/kb/bi/dbutils-access-secrets-fails)
 
