@@ -11,13 +11,14 @@
 	articleId="384f2845-536d-4ed6-90d9-d197c8a34e29"
 />
 
-# Customer Scenario Out of Scope for TSG
+# Customer Scenario is Out of Scope for available TSGs
 
-This customer issue is not in scope for this TSG. Follow the recommended steps below to find a related TSG.
+This customer issue is not in scope for available TSGs. Follow the recommended steps below to find helpful resources.
 
 ## **Recommended Steps**
 
-1. In ASC Overview page, select the 'Edit and Run again' button.
+1. Give a smile for these scoping steps. You saved time by not entering into the TSG. 
+2. In ASC Overview page, select the 'Edit and Run again' button.
 2. Update the Support Area Path (Support Topic) and then run
 3. Check the Overview page for Insights and available troubleshooting guides
 4. Check the ANP wiki for additional TSGs and content
