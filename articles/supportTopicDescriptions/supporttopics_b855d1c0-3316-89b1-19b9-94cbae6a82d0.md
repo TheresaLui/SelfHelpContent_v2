@@ -81,19 +81,19 @@
       "id": "567ad475-fc1a-2c1d-d84d-8bb230b8e35e",
       "longDescription": "",
       "shortDescription": "Reconciliation file is not available for download from Partner center.",
-      "searchTags": "Billing;Invoicing;Reconciliation file",
+      "searchTags": "Billing;Invoicing;Reconciliation",
     },
     {
       "id": "8c455b24-6e85-324a-ca6c-30f539adbdf0",
       "longDescription": "",
       "shortDescription": "Reconciliation file is not correctly reporting reseller MPNID on transactions for indirect channel.",
-      "searchTags": "Billing;Invoicing;Reconciliation file;Reseller MPNID",
+      "searchTags": "Billing;Invoicing;Reconciliation;Reseller",
     },
     {
       "id": "47fceff1-f2f2-b690-c59d-dce2c7c816af",
       "longDescription": "",
       "shortDescription": "Reconciliation file for CSP billing questions or issues.",
-      "searchTags": "Billing;Invoicing;Reconciliation file",
+      "searchTags": "Billing;Invoicing;Reconciliation",
     },
   ]
 }
