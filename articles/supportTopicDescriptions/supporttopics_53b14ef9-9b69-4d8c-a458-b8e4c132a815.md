@@ -331,7 +331,7 @@
     {
       "id": "784e0367-9858-2817-8eda-e4be198d0a75",
       "longDescription": "",
-      "shortDescription": "Issues connecting to Availability Groups and Listener and load balancer or SQL Failover Clustered Instance (FCI) after you have setup AG or L",
+      "shortDescription": "Issues connecting to Availability Groups and Listener and load balancer or SQL Failover Clustered Instance (FCI) after you have set up AG or L",
       "searchTags": "connection to listener;load balancer configuration;cannot connect to ag;Listener configuration;ILB",
       "category": "Connection-SQLAG",
       "useInDiagnoseAndSolve": "true"
