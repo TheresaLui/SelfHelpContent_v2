@@ -8,7 +8,7 @@
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
-	# supportTopicIds="32614265, 32614280, 32614282, 32614283, 32614284, 32614286, 32614287, 32614288, 32614292, 32614293"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public, fairfax, usnat, ussec, mooncake"
