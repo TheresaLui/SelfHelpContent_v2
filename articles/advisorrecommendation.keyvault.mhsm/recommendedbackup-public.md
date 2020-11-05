@@ -2,7 +2,7 @@
     pageTitle="Backup the Managed HSM Recommendation"
     description="Return list of Managed HSM resources that haven't been backup from last 30 days"
     ms.author="mhsmdevs"
-    articleId="3a4f2678-d73a-4076-bacb-dc6a9221f3b5_public"
+    articleId="38e27ecb-504e-4395-8df7-1a60d1552102_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public,usnat,ussec"
     ownershipId="AzureKeyVault_MHSM"
@@ -34,15 +34,15 @@
 		"serviceTreeId": "2673daf5-683b-4f60-aa7b-d0313ecf4e70"
 	},
 	"version": 1,
-	"learnMoreLink": "https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/best-practices",
+	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/managed-hsm/best-practices",
 	"description": "Your Managed HSM pool hasn't been backed-up for last 30 days",
-	"longDescription": "It is a good and recommended operation best practice to backup your Managed HSM at least once every {days} days. This will protect your from lost of keys in case of catastrophic event",
+	"longDescription": "It is a good and recommended operation best practice to backup your Managed HSM at least once every 30 days. This will protect your from lost of keys in case of catastrophic event",
 	"potentialBenefits": "Improved data loss prevention",
 	"actions": [{
 			"actionId": "273dfffa-cbc3-48f4-bba3-df198bd7f487",
 			"description": "Backup your Managed HSM pool {PoolName} now",
 			"actionType": "Document",
-			"documentLink": "https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/backup-restore"
+			"documentLink": "https://docs.microsoft.com/azure/key-vault/managed-hsm/backup-restore"
 		},
 		{
 			"actionId": "273dfffa-cbc3-48f4-bba3-df198bd7f488",
@@ -69,11 +69,11 @@
 			"title": "Pool Name"
 		},
 		{
-			"name": "days",
-			"title": "Not Backup In Days"
+			"name": "Remind",
+			"title": "Last Time Backup Hint"
 		}
 	],
 	"tip": "",
-	"testData": "9710b329-7fcd-4d77-97ae-3e3baef6b32a,/subscriptions/9710b329-7fcd-4d77-97ae-3e3baef6b32a/resourceGroups/ShoeboxEUS2EUAP/providers/Microsoft.KeyVault/managedHSMs/MHSMAdvTest03,https://docs.microsoft.com/en-us/azure/key-vault/managed-hsm/best-practices,{\"PoolName\": \"MHSMAdvTest03\",\"days\": 4}"
+	"testData": "9710b329-7fcd-4d77-97ae-3e3baef6b32a,/subscriptions/9710b329-7fcd-4d77-97ae-3e3baef6b32a/resourceGroups/ShoeboxEUS2EUAP/providers/Microsoft.KeyVault/managedHSMs/MHSMAdvTest03,https://docs.microsoft.com/azure/key-vault/managed-hsm/best-practices,{\"PoolName\": \"MHSMAdvTest03\",\"Remind\": \" was backed up last time on 10/1\"}"
 }
 ---
