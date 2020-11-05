@@ -31,7 +31,8 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of issue is occurring",
-            "watermarkText": "Choose one issu type",
+            "required": true,
+            "watermarkText": "Choose one issue type",
             "dropdownOptions": [
                 {
                     "value": "Cannot create a custom field",
@@ -54,7 +55,6 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true
         },
         {
             "id": "problem_frequency",
