@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "2af11142-942e-45c1-8ce8-d9d2df25aae9",
   "dataSourceMetadata": {
-    "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBRightSizeRecommendations",
+    "streamNamespace": "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').GetMariaDBRightSizeRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
