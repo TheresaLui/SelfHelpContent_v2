@@ -2,7 +2,6 @@
     articleId="problemscopingques-custom-fields"
     pageTitle="Custom Fields"
     description="Custom Fields"
-    articleId="problemscopingques-Windows_Custom Fields"
     authors="neilghuman"
     ms.author="neghuman"
     selfHelpType="problemScopingQuestions"
