@@ -26,13 +26,13 @@
        "id": "learn_more_text1",
        "order": 1,
        "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>HTTP archive file instructions</a> and upload above"
+       "content": "For declined Co-sell invite, provide screenshot of decline reason in the upload field above"
        },
-       {
+         {
        "id": "learn_more_text2",
        "order": 2,
        "controlType": "infoblock",
-       "content": "For declined Co-sell invite, provide screenshot of decline reason in the upload field above"
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>HTTP archive file instructions</a> and upload above"
        },
        {
 	   "id": "solution_id",
@@ -42,7 +42,7 @@
 	   "watermarkText": "Please provide the Solution ID",
 	   "required": false
        },
-       {
+      {
 	   "id": "cosell_opportunity_id",
 	   "order": 4,
 	   "controlType": "textbox",
@@ -50,7 +50,7 @@
 	   "watermarkText": "Please provide the Co-sell opportunity ID",
 	   "required": false
        },
-       {
+	   {
 	   "id": "referral_id",
 	   "order": 5,
 	   "controlType": "textbox",
@@ -58,7 +58,7 @@
 	   "watermarkText": "Please provide the Referral ID",
 	   "required": false
        },
-       {
+      {
 	   "id": "problem_description",
 	   "order": 6,
 	   "controlType": "multilinetextbox",
@@ -67,7 +67,6 @@
 	   "required": true,
 	   "useAsAdditionalDetails": true
        },
-     
        {
 	   "id": "problem_start_time",
 	   "order": 7,
