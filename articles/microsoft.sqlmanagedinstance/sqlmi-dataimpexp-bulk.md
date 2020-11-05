@@ -17,7 +17,7 @@
 
 # Troubleshoot loading from Azure blob storage
 
-Azure SQL Database Managed Instance enables you to load files from Azure Blob Storage. If you experience some issue while you are loading files from Azure Blob Storage, here you can find the actions that can help you to troubleshoot and mitigate the issue.
+Azure SQL Database Managed Instance enables you to load files from Azure Blob Storage using [OPENROWSET function](https://docs.microsoft.com/sql/t-sql/functions/openrowset-transact-sql?view=sql-server-ver15#using-openrowset-with-the-bulk-option) or [BULK INSERT](https://docs.microsoft.com/sql/t-sql/statements/bulk-insert-transact-sql?view=sql-server-ver15). If you experience some issue while you are loading files from Azure Blob Storage, here you can find the actions that can help you to troubleshoot and mitigate the issue.
 
 ## **Recommended Steps**
 
