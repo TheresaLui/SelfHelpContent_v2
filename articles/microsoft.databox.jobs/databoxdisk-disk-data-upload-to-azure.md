@@ -8,11 +8,10 @@
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
-	# supportTopicIds="32614262, 32614279, 32614281, 32614285, 32614289, 32614290, 32614291"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public, fairfax, usnat, ussec, mooncake"
-	articleId="86bef2de-f277-4281-b772-72f57f524f96"
+	articleId="86bef2def2774281b77272f57f524f96"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
