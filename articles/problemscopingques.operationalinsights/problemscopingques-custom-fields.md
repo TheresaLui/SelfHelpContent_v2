@@ -11,7 +11,6 @@
     schemaVersion="1"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
-
 # Custom Fields
 ---
 {
