@@ -14,7 +14,7 @@
 
 ## **Recommended Documents**
 
-Most customers resolve their queries related to Access Control Lists on Files and Directories with Azure Data Lake Storage Gen2 on their own, using the links below.<br>
+Most customers can resolve their queries related to Access Control Lists on Files and Directories with Azure Data Lake Storage Gen2 by using the following links.
 
 ### **Access Control Lists (ACLs) for Data Lake Storage Gen2**
 
