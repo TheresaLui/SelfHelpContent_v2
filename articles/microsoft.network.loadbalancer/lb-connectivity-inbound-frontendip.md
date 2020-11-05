@@ -19,3 +19,4 @@
 
 ## **Recommended Steps**
 * [Load balancing rule](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard#create-a-load-balancer-rule) or [inbound NAT rule](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal) is required to establish inbound connection. Make sure the rules are created.
+* You can [combine data path availability and health probe status metric](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#how-do-i-diagnose-my-load-balancer-deployment) to identify where to look for the problem and solve the problem.
