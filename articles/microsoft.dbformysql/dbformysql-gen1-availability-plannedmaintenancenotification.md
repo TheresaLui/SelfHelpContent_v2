@@ -22,7 +22,7 @@ A planned maintenance is a maintenance window when service updates are deployed 
 ## **Recommended Steps**
 
 * Once the notification is sent to a given Azure region, the patching schedule changes cannot be made for an individual server in that region. The patch is rolled out to all servers in the entire region in the same planned maintenance deployment process.
-* Planned maintenance deployments rollout to Azure regions in a phased process. Regions are not patched at the same time and are typically completed during 5 PM - 8 AM (the next day) local time.
+* Regions are not patched at the same time. Maintenance deployments are typically completed overnight to avoid work hours, typically 5 PM - 8 AM, although the exact start and end times can vary
 * You can receive alerts for upcoming planned maintenance using:
 
   * Alerts: You can configure alerts for an upcoming planned maintenance event. Refer to [how can I get notified of planned maintenance](https://docs.microsoft.com/azure/mysql/concepts-planned-maintenance-notification#how-can-i-get-notified-of-planned-maintenance) to configure alerts.
