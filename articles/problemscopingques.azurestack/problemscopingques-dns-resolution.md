@@ -17,7 +17,7 @@
   "subscriptionRequired": true,
   "resourceRequired": false,
   "title": "Azure Stack DNS resolution",
-    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
+    "fileAttachmentHint": "To help the support agent identify your issue, collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
   "formElements": [{
             "id": "hardware_partner",
             "order": 1,
