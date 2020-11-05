@@ -49,7 +49,7 @@
       "bladeName": "NewSupportRequestV3Blade",
       "metadata": {
             "subscriptionId": "{subscriptionId}",
-            "productId": "06bfd9d3-516b-d5c6-5802-169c800dec89",
+            "issueType": "06bfd9d3-516b-d5c6-5802-169c800dec89",
             "topicId": "eb747862-5a4c-b6de-e173-02095d17fd4d"
       }
     }
