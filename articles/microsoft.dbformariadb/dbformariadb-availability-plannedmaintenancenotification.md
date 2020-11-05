@@ -22,10 +22,10 @@ A planned maintenance is a maintenance window when service updates are deployed 
 ## **Recommended Steps**
 
 * After the notification is sent to a given Azure region, patching schedule changes cannot be made for an individual server in that region. The patch is rolled out to all servers in the entire region in the same planned maintenance deployment process.
-* Planned maintenance deployments roll out to Azure regions in a phased process. Regions are not patched at the same time and are typically completed during 5 PM - 8 AM (the next day) local time.
+* Planned maintenance deployments roll out to Azure regions in a phased process. Regions are not patched at the same time. Maintenance deployments are typically completed during 5 PM - 8 AM (the next day) local time.
 * You can receive alerts for upcoming planned maintenance by using:
 
-  * Alerts: Configure alerts for an upcoming planned maintenance event. See [how can I get notified about planned maintenance?](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#how-can-i-get-notified-of-planned-maintenance).
+  * Alerts: Configure alerts for an upcoming planned maintenance event. See [how can I get notified about planned maintenance](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#how-can-i-get-notified-of-planned-maintenance)?
   * Azure Portal: See [planned maintenance notification from Azure portal](https://docs.microsoft.com/azure/mariadb/concepts-planned-maintenance-notification#check-planned-maintenance-notification-from-azure-portal).
 
 * Typically, the minimum duration between two planned maintenance windows is 30 days. You receive a notification of the next maintenance window 72 hours in advance.
