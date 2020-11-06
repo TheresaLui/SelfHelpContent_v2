@@ -23,22 +23,24 @@
 ## **Recommended Steps**
 
 Business profile search results are derived based on filtered profiles which are then ranked. Please check if the filters are applied properly if your profile is appearing only for a certain set of queries
+
 **Criteria for *Best match* category**
+
 Below data from business profiles is used to fetch a filtered list of profiles
 1. Location - based on radius
 2. Exact match is required with the customer org size and any one of the other field in your business profile
-* Industry expertise 
-* Product
-* Service type  
-* Solutions 
-* Skills and capability
+* *Industry expertise*
+* *Product*
+* *Service type*  
+* *Solutions* 
+* *Skills and capability*
 
 After fetching the filtered profiles, ranks are assigned to the profiles based on the below earned attributes
-* Azure expert MSP   
-* Advanced specialization 
-* Endorsements 
-* Competencies
-* Past referrals conversion data
+* *Azure expert MSP*   
+* *Advanced specialization*
+* *Endorsements* 
+* *Competencies*
+* *Past referrals conversion data*
 
 **Criteria for *Most responsive* category**
 This section takes in to account, the past performance with respect to the number of referrals received, number of referrals accepted among them, time to accept, number of referrals marked as won etc.
