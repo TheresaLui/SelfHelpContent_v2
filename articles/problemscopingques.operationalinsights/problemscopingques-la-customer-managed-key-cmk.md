@@ -1,22 +1,22 @@
 <properties
-    articleId="problemscopingques-la-collect-azure-activity-logs"
-    pageTitle="Collect Azure Activity logs"
-    description="Collect Azure Activity logs"
+    articleId="problemscopingques-la-customer-managed-key-cmk"
+    pageTitle="Customer managed key"
+    description="Customer managed key"
     authors="neilghuman"
     ms.author="neghuman"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745408"
+    supportTopicIds="32745440"
     productPesIds="15725"
     cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
     schemaVersion="1"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
-# Collect Azure Activity logs
+# Customer managed key
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Collect Azure Activity logs",
+    "title": "Customer managed key",
     "fileAttachmentHint": "If applicable, please upload logs or screenshots of any relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -35,38 +35,16 @@
             "watermarkText": "Choose one issue type",
             "dropdownOptions": [
                 {
-                    "value": "Cannot enable or disable Azure Activity logs collection",
-                    "text": "Cannot enable or disable Azure Activity logs collection"
+                    "value": "Cannot create / remove the dedicated cluster resource",
+                    "text": "Cannot create / remove the dedicated cluster resource"
                 },
                 {
-                    "value": "No data is being collected",
-                    "text": "No data is being collected"
+                    "value": "Cannot update the cluster resource with the key identifier",
+                    "text": "Cannot update the cluster resource with the key identifier"
                 },
                 {
-                    "value": "Data is incorrect / incomplete",
-                    "text": "Data is incorrect / incomplete"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ]
-        },
-        {
-            "id": "problem_frequency",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "What collection method is being used?",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dropdownOptions": [
-                {
-                    "value": "Collecting Activity Logs through Diagnostic settings",
-                    "text": "Collecting Activity Logs through Diagnostic settings"
-                },
-                {
-                    "value": "Collecting Activity Logs through legacy settings",
-                    "text": "Collecting Activity Logs through legacy settings"
+                    "value": "Cannot associate / disassociate a workspace with the cluster resource",
+                    "text": "Cannot associate / disassociate a workspace with the cluster resource"
                 },
                 {
                     "value": "dont_know_answer",
@@ -75,28 +53,6 @@
             ]
         },
         {
-            "id": "worked",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Is the target subscription the same where the Log Analytics workspace is?",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ]
-        },
-                {
             "id": "worked-in-the-past",
             "order": 5,
             "controlType": "dropdown",
@@ -170,8 +126,8 @@
             "id": "problem_description",
             "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include any relevant queries used.",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include any relevant queries used.",
+            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include the dedicate cluster resource(s) and / or workspace name(s) being used.",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include the dedicate cluster resource(s) and / or workspace name(s) being used.",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": []
