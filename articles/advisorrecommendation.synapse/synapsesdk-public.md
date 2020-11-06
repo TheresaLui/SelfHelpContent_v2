@@ -17,7 +17,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://analytics365prod.kusto.windows.net').database('Analytics365PROD').synapse_advisor_SynapseManagementClientSdk",
 		"dataSource": "Kusto",
-		"refreshInterval": "1.00:00:00"
+		"refreshInterval": "0.12:00:00"
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
@@ -33,17 +33,24 @@
 		},
 		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
 	},
-	"version": 2.0,
+	"version": 3.0,
 	"learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
 	"description": "Update SynapseManagementClient SDK Version",
 	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",
 	"potentialBenefits": "Latest SynapseManagementClient Libraries contain fixes for known issues and additional improvements.",
 	"supportedSDKLanguages": [".Net"],
-	"actions": [{
+	"actions": [
+		{
 			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab8be",
 			"description": "Learn how to update your SynapseManagementClient Libraries",
 			"actionType": "Document",
-			"documentLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview"
+			"documentLink": "{recommendedActionLearnMore}"
+		},
+		{
+			"actionId": "7c83695a-3fa9-4668-9080-85151f5ab9be",
+			"description": "View {version} release notes",
+			"actionType": "Document",
+			"documentLink": "{releaseNotes}"
 		}
 	],
 	"resourceMetadata": {
