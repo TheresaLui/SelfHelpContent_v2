@@ -164,7 +164,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used.",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used",
-            "required": true
+            "required": true,
             "useAsAdditionalDetails": false,
             "hints": []
         },
