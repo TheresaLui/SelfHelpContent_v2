@@ -35,12 +35,12 @@ Most customers are able to resolve MFA issues related to NPS Extensions by using
  
 ### Common Error Code
 
-NPS extension logs are found in the Event Viewer, under Custom Views > **Server Roles** > **Network Policy and Access Services** on the server where the NPS Extension is installed. 
+NPS extension logs are found in the Event Viewer, under Custom Views > Server Roles > Network Policy and Access Services on the server where the NPS Extension is installed. 
  
 | <center>Error code</center> | Troubleshooting steps |
 |--|:--:|
-| CLIENT_CERT_INSTALL_ERROR | There may be an issue with how the client certificate was installed or associated with your tenant. Follow the instructions in Troubleshooting the MFA NPS extension to investigate client cert problems | 
-| ESTS_TOKEN_ERROR | Follow the instructions in Troubleshooting the MFA NPS extension to investigate client cert and ADAL token problems | 
+| CLIENT_CERT_INSTALL_ERROR | There may be an issue with how the client certificate was installed or associated with your tenant. Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification problems | 
+| ESTS_TOKEN_ERROR | Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification and ADAL token problems | 
 | NPS Extension for Azure MFA: 
 NPS Extension for Azure MFA performs Secondary Auth for Radius requests in AccessAccept State. Request received for User username with response state AccessReject, ignoring request | This error usually reflects an authentication failure in AD or that the NPS server is unable to receive responses from Azure AD. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com and https://login.microsoftonline.com using ports 80 and 443. It is also important to check that on the DIAL-IN tab of Network Access Permissions, the setting is set to "control access through NPS Network Policy". This error can also be triggered if the user is not assigned a license |
 | REQUEST_FORMAT_ERROR 
