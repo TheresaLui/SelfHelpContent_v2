@@ -16,7 +16,7 @@
 
 # Managed Connector - Azure blob storage
 
-To connect to your storage account so that you can create and manage blob content.
+Connect to your storage account so that you can create and manage blob content.
 
 ## Azure Blob Storage Connector Overview
 
@@ -24,7 +24,6 @@ To connect to your storage account so that you can create and manage blob conten
 - [Create and manage blobs in Azure Blob Storage by using Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-azureblobstorage)
 
 How to Use Azure Blob Storage Connector:
-
 - [Access to Blob Storage using Managed Identity in Logic Apps](https://adatum.no/azure/azure-logic-apps/access-to-blob-storage-using-managed-identity-in-logic-apps)
 
 ## **Recommended Documents**
