@@ -29,7 +29,7 @@
       "required": true
     },
     {
-      "id": "usage_scenario",
+      "id": "stack_environment",
       "order": 2,
       "controlType": "radiobuttongroup",
       "displayLabel": "Which Stack environment are you on?",
@@ -43,10 +43,10 @@
           "text": "Disconnected"
         }
       ],
-      "required": true
+      "required": false
     },
     {
-      "id": "usage_scenario",
+      "id": "authentication",
       "order": 3,
       "controlType": "radiobuttongroup",
       "displayLabel": "Are you using AAD or ADFS?",
@@ -60,7 +60,7 @@
           "text": "ADFS"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "cloud_id",
@@ -76,7 +76,7 @@
       "controlType": "textbox",
       "displayLabel": "What is your stack build version?",
       "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },
     {
       "id": "device_id",
@@ -84,7 +84,7 @@
       "controlType": "textbox",
       "displayLabel": "Can you provide a list of affected device ids?",
       "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },
     {
       "id": "protocol",
@@ -113,7 +113,7 @@
           "text": "MQTT over Websockets"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "device_sdk",

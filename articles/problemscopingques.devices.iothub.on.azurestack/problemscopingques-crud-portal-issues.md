@@ -43,7 +43,7 @@
           "text": "Disconnected"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "authentication",
@@ -60,7 +60,7 @@
           "text": "ADFS"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "cloud_id",
@@ -76,7 +76,7 @@
       "controlType": "textbox",
       "displayLabel": "What is your stack build version?",
       "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },
     {
       "id": "error",
@@ -84,7 +84,7 @@
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

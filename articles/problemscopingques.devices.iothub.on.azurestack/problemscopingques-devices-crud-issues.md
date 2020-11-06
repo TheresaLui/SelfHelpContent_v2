@@ -1,5 +1,5 @@
 <properties
-  articleId="problemscopingques-device-issues"
+  articleId="problemscopingques-devices-crud-issues"
   pageTitle="Scoping questions - Issues related to Hub on Stack device operations and CRUD"
   description="Scoping questions to troubleshoot the issues related to device CRUD features of IoT Hub on Azure Stack"
   authors="camanle"
@@ -43,7 +43,7 @@
           "text": "Disconnected"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "authentication",
@@ -60,7 +60,7 @@
           "text": "ADFS"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "cloud_id",
@@ -76,7 +76,7 @@
       "controlType": "textbox",
       "displayLabel": "What is your stack build version?",
       "useAsAdditionalDetails": true,
-      "required": true
+      "required": false
     },
     {
       "id": "devices_programatically",
@@ -93,7 +93,7 @@
           "text": "No"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
