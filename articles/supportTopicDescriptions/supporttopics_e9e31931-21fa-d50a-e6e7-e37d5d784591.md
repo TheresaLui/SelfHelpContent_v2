@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f8202a88-d33b-8470-e95c-466900032c50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (CPU) with the scale set or instance.",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f84467a3-d986-9466-876d-a3ed58b12705",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
