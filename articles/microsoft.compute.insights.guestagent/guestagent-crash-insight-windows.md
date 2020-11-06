@@ -46,11 +46,10 @@ Following services listed below are important for VM Agent in Windows VM. These 
 following command: `netsh interface ip show config`.
 1. If DHCP is disabled, run the following command, making sure that you change "Interface Name" to reflect the name of the your network interface: `netsh interface ip set address name="Interface Name" source=dhcp`.
 
-[More Info](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/windows-azure-guest-agent)
+Learn more about [troubleshooting Windows Azure Guest Agent](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/windows-azure-guest-agent)
 
 ## **Recommended Documents**
 
-* [More Info](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/windows-azure-guest-agent)
 * [Azure Virtual Machine Agent Overview](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)
 * [Instal VM Agent in Offline Model ](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/install-vm-agent-offline)
 * [Troubleshoot VM Extensions Issues](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
