@@ -181,7 +181,7 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "setupavailabilitygroup_issue_type",
+            "id": "issue_type",
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your Setup Availability Group issue.",
