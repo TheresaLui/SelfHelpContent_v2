@@ -20,12 +20,12 @@
 # Sign In Blocked
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> and access was blocked by one or more of Conditional Access policies. The policy or policies below blocked sign-in:
+Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> and access was blocked by one or more of Conditional Access policies. The following policy or policies blocked the sign-in:
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
 
-If the block was unexpected review the details below to see why it happened and what may be done to resolve any issues.
+If the block was unexpected, review the following details to see why it happened and what can be done to resolve any issues.
 
 Included in the information are the application conditions from the Conditional Access policy or policies which applied and the Sign-in event details which the client submitted for the sign in attempt which matched the policy conditions
 
