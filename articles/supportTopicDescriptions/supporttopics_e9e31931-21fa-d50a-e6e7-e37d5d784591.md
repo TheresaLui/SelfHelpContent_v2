@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4196a8bf-8505-d865-a50e-1810d5d50f2b",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "create",
+      "category": "create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "433958cc-89e1-422a-cd83-b8b1f24d6f6b",
       "longDescription": "",
       "shortDescription": "Common problems related to an unresponsive instance",
