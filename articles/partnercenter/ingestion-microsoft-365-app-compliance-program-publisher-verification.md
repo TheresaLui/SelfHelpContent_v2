@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Ingestion Microsoft 365 App Compliance program Publisher Verification"
-	description="Ingestion Microsoft 365 App Compliance program Publisher Verification"
+	pageTitle="Ingestion Microsoft 365 App Compliance program Publisher Verification"
+	description="Ingestion Microsoft 365 App Compliance program Publisher Verification"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Ingestion"
 />
 
-# Partner Center Ingestion - Microsoft 365 App Compliance program - Publisher Verification
+# Partner Center Ingestion - Microsoft 365 App Compliance program - Publisher Verification
  
 ## **Recommended Documents**
 
