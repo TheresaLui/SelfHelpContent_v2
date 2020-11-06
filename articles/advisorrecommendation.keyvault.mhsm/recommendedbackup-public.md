@@ -22,7 +22,7 @@
 	"recommendationCategory": "OperationalExcellence",
 	"recommendationImpact": "Medium",
 	"recommendationResourceType": "Microsoft.KeyVault/managedHsms",
-	"recommendationFriendlyName": "BackupKeyVaultMHSMSDK",
+	"recommendationFriendlyName": "BackupKeyVaultMHSM",
 	"recommendationMetadataState": "Active",
 	"owner": {
 		"email": "mhsmdevs@microsoft.com",
