@@ -28,7 +28,7 @@
             "required": true,
             "diagnosticInputRequiredClients": "Portal",
         },
-		{
+        {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
