@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "437532d7-8287-1513-40dc-483b9f57fc50",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "44eb8616-48ab-587b-dfd5-38dca7ca2a56",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
