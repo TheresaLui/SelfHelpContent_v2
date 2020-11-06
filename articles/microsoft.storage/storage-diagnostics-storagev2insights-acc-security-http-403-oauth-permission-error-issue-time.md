@@ -18,9 +18,12 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 />
 
 # Connections to storage account endpoint were blocked due to insufficient permission in the oAuth token presented 
+
 <!--issueDescription-->
-Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked as the permissions presented in oAuth bearer token were not sufficient for the operation performed between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**.<br><br> Sample list of requests that were blocked:<br>**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
+Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked as the permissions presented in oAuth bearer token were not sufficient for the operation performed between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**.
 <!--/issueDescription-->
+
+<br>Sample list of requests that were blocked:<br>**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
 
 There may be more client IPs for which requests were blocked. To view the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
