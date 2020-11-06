@@ -18,10 +18,11 @@
 # Azure Load Balancer SKU Mismatch problem
 
 ## **Recommended Steps**
-* If you are encountering SKU mismatch issues while assigning Public IP to the load balancer, make sure to upgrade both Public IP and load balancer to Standard SKU with the following steps.  
+
+* If you are encountering SKU mismatch issues while assigning Public IP to the load balancer, make sure to upgrade both Public IP and load balancer to Standard SKU with the following steps: 
 	1. [Create a Standard Public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address#create-a-public-ip-address)
 	2. [Create a Standard Load balancer](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard)
-* If you are encountering SKU mismatch issues while adding virtual machines to the backend pool of a load balancer, make sure to upgrade both the Public IP of virtual machines and load balancer to Standard SKU with the following steps.
+* If you are encountering SKU mismatch issues while adding virtual machines to the backend pool of a load balancer, make sure to upgrade both the Public IP of virtual machines and load balancer to Standard SKU with the following steps:
 	1. [Create a Standard Public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address#create-a-public-ip-address)
 	2. [Associate the Standard Public IP address to the network interface](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-addresses#add-ip-addresses) 
 	3. [Create a Standard Load balancer](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard)
