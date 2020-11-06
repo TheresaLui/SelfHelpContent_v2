@@ -30,7 +30,7 @@
     "icm": {
       "routingId": "MDM://AzureServiceHealth",
       "service": "Azure Service Health",
-      "team": "Azure Service Health"
+      "team": "Triage"
     },
     "serviceTreeId": "ed05f3b7-8949-4698-9b38-49ab8abb5ee0"
   },
