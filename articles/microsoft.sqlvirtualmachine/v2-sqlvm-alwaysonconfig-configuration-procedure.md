@@ -1,7 +1,7 @@
 <properties
 	pageTitle="AlwaysOn Availability Groups - Configuration"
 	description="AlwaysOn Availability Groups - Configuration"
-	infoBubbleText="Database Backup Failure with Active lease Error"
+	infoBubbleText="AlwaysOn Availability Groups - Configuration"
 	service="Microsoft.SqlVirtualMachine"
 	resource="SqlVirtualMachines"
 	ms.author="ujpat"	
