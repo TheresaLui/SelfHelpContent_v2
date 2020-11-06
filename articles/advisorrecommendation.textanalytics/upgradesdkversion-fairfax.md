@@ -67,7 +67,7 @@
           "metadata": {"id": "{resourceId}"}
       }
    },
-   "displayLabel":"",
+   "displayLabel":"Upgrade to the latest SDK version for Text Analytics",
    "additionalColumns":[
       {
          "name":"language",
