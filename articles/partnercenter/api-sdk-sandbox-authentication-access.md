@@ -10,7 +10,7 @@
 	articleId="api_sdk_sandbox_authentication_access"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692580, 32692591, 32725822"
+	supportTopicIds="32692580, 32725822"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17002"
