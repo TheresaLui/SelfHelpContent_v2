@@ -1,22 +1,22 @@
 <properties
-    articleId="problemscopingques-custom-fields"
-    pageTitle="Custom Fields"
-    description="Custom Fields"
+    articleId="problemscopingques-azure-dashboards-issue"
+    pageTitle="Azure dashboards issue"
+    description="Azure dashboards issue"
     authors="neilghuman"
     ms.author="neghuman"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745410"
+    supportTopicIds="32745416"
     productPesIds="15725"
     cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
     schemaVersion="1"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
-# Custom Fields
+# Azure dashboards issue
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Custom Fields",
+    "title": "Azure dashboards issue",
     "fileAttachmentHint": "If applicable, please upload logs or screenshots of any relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -35,20 +35,16 @@
             "watermarkText": "Choose one issue type",
             "dropdownOptions": [
                 {
-                    "value": "Cannot create a custom field",
-                    "text": "Cannot create a custom field"
+                    "value": "Cannot pin query to dashboard",
+                    "text": "Cannot pin query to dashboard"
                 },
                 {
-                    "value": "Cannot remove a custom field",
-                    "text": "Cannot remove a custom field"
+                    "value": "Data is not refreshing",
+                    "text": "Data is not refreshing"
                 },
                 {
-                    "value": "Custom field is extracting incorrect / incomplete data",
-                    "text": "Custom field is extracting incorrect / incomplete data"
-                },
-                {
-                    "value": "Custom field is not extracting any data",
-                    "text": "Custom field is not extracting any data"
+                    "value": "Data is incorrect / incomplete",
+                    "text": "Data is incorrect / incomplete"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,17 +56,61 @@
             "id": "problem_frequency",
             "order": 3,
             "controlType": "dropdown",
+            "displayLabel": "What type of dashboard is being used?",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dropdownOptions": [
+                {
+                    "value": "Private",
+                    "text": "Private"
+                },
+                {
+                    "value": "Shared",
+                    "text": "Shared"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ]
+        },
+                {
+            "id": "dashboard",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Are you using an existing dashboard?",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ]
+        },
+                        {
+            "id": "worked",
+            "order": 5,
+            "controlType": "dropdown",
             "displayLabel": "Has this ever worked before?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
                 {
-                    "value": "True",
-                    "text": "True"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "False",
-                    "text": "False"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -80,7 +120,7 @@
         },
         {
             "id": "users",
-            "order": 4,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening to a single user or multiple users?",
             "watermarkText": "Choose an option",
@@ -102,7 +142,7 @@
         },
                         {
             "id": "intermittent_consistant",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is the issue intermittent or constant?",
             "watermarkText": "Is the issue intermittent or constant?",
@@ -124,17 +164,17 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the custom fields, describing what's the expected behavior vs the current behavior.",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the custom fields, describing what's the expected behavior vs the current behavior.",
+            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the Azure dashboards issue, describing what's the expected behavior vs the current behavior.",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the Azure dashboards issue, describing what's the expected behavior vs the current behavior.",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": []
         },
         {
             "id": "additional_information",
-            "order": 7,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
