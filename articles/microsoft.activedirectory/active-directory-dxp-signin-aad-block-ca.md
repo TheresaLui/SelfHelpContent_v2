@@ -21,7 +21,6 @@
 
 <!--issueDescription-->
 Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> and access was blocked by one or more of Conditional Access policies. The following policy or policies blocked the sign-in: 
-
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
