@@ -542,6 +542,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fee8ecf8-15a8-b846-4c88-dfaf24112908",
+      "longDescription": "",
+      "shortDescription": "Common problems related to instance not booting",
+      "searchTags": "Boot",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ff11ec6d-e402-03d1-69a2-2ca229a268b5",
       "longDescription": "",
       "shortDescription": "Common problems related to instance stuck in update",
