@@ -24,7 +24,7 @@ Based on the information you provided, the user <!--$userName-->[userName]<!--/$
 
 If the block was unexpected, review the following details to see why it happened and what can be done to resolve any issues.
 
-Included in the information are the application conditions from the Conditional Access policy or policies which applied and the Sign-in event details which the client submitted for the sign in attempt which matched the policy conditions
+Included in the information are the application conditions from the Conditional Access policy or policies that applied and the Sign-in event details that the client submitted for the sign-in attempt that matched the policy conditions.
 
 <!--$policyConditions-->[policyConditions]<!--/$policyConditions-->
 [Edit Conditional Access Policies](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)
