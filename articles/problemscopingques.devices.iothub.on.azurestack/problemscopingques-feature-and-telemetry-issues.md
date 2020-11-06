@@ -1,5 +1,5 @@
 <properties
-  articleId="problemscopingques-feature-issues"
+  articleId="problemscopingques-feature-and-telemetry-issues"
   pageTitle="Scoping questions - Issues related to Hub on Stack telemetry issues"
   description="Scoping questions to troubleshoot the issues related to telemetry issues"
   authors="camanle"
