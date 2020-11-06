@@ -16,7 +16,7 @@
 
 # Problem Consuming Endpoint
 
-Most users are able to resolve this issue using the steps below.
+Most users are able to resolve these issues by using the following steps.
 
 ## **Recommended Steps**
 
