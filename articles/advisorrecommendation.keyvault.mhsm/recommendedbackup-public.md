@@ -1,6 +1,6 @@
 <properties
     pageTitle="Backup the Managed HSM Recommendation"
-    description="Return list of Managed HSM resources that haven't been backup from last 30 days"
+    description="Return list of Managed HSM resources that haven't been backup from in 30 days"
     ms.author="mhsmdevs"
     articleId="38e27ecb-504e-4395-8df7-1a60d1552102_public"
     selfHelpType="advisorRecommendationMetadata"
@@ -17,7 +17,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://azuremanagedhsmprod.kusto.windows.net').database('azuremanagedhsmprod').GetAzureAdvisorRecommendedBackupReport",
 		"dataSource": "Kusto",
-		"refreshInterval": "1.00:00:00"
+		"refreshInterval": "00:30:00"
 	},
 	"recommendationCategory": "OperationalExcellence",
 	"recommendationImpact": "Medium",
@@ -35,7 +35,7 @@
 	},
 	"version": 1,
 	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/managed-hsm/best-practices",
-	"description": "Your Managed HSM pool hasn't been backed-up for last 30 days",
+	"description": "Your Managed HSM pool hasn't been backed-up in last 30 days",
 	"longDescription": "It is a good and recommended operation best practice to backup your Managed HSM at least once every 30 days. This will protect your from lost of keys in case of catastrophic event",
 	"potentialBenefits": "Improved data loss prevention",
 	"actions": [{
@@ -46,7 +46,7 @@
 		},
 		{
 			"actionId": "273dfffa-cbc3-48f4-bba3-df198bd7f488",
-			"description": "View Best practices when using Managed HSM",
+			"description": "View Best practices of Managed HSM",
 			"actionType": "Document",
 			"documentLink": "{recommendedActionLearnMore}"
 		}
