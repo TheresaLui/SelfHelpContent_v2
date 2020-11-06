@@ -43,7 +43,7 @@
 			"id": "problem_permissions",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "What permissions do you have (i.e. Owner, contributor, or custom role)? For custom roles list all actions you have enabled",
+			"displayLabel": "What permissions do you have (owner, contributor, or custom role)? For custom roles, list all actions you have enabled",
 			"required": false
 	},
   {
