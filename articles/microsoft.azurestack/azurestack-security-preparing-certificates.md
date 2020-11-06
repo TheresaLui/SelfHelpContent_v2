@@ -15,9 +15,9 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Obtaining and validating certificates for Azure Stack Hub infrastructure
+# Azure Stack Hub preparing certificates
 
-Azure Stack Hub uses certificates for both external and internal secrets. The operator provides the external certificates used during both initial deployment of Azure Stack Hub, and regular [secret rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets).
+Azure Stack Hub uses certificates for both external and internal secrets. The operator provides external certificates used during both initial deployment of Azure Stack Hub, and regular [secret rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets).
 
  **This guidance pertains to certificates used for external secrets only**, as internal secret management does not require operator intervention. 
 
