@@ -18,6 +18,11 @@
     "subscriptionRequired": false,
     "title": "Database Connectivity",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "Azure Database for PostgreSQL Connectivity Troubleshooter",
+		"description": "Our Azure Database for PostgreSQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+		"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
