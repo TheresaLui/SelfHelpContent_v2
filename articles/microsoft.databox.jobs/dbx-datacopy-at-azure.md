@@ -18,7 +18,9 @@
 
 # Data upload at Azure
 
-Data copy has failed or completed with errors.
+Go to the Overview page of the resource. For Data Box orders, if data copy has failed or completed with errors, you can see a list of the files that failed to copy by [reviewing the copy log] (https://docs.microsoft.com/azure/databox/data-box-logs#review-copy-log-during-upload-to-azure)
+
+For Data Box Disk orders, follow the steps here to [review any data upload errors] (https://docs.microsoft.com/azure/databox/data-box-disk-troubleshoot-upload)
 
 ## **Recommended Documents**
 
