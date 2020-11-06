@@ -24,12 +24,6 @@
       "searchTags": "Accounts;Onboarding;Locations",
     },
     {
-      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
-      "longDescription": "",
-      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
-      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
-    },
-    {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
@@ -86,8 +80,8 @@
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -150,10 +144,22 @@
       "searchTags": "Accounts;Onboarding;Moving;Transition",
     },
      {
-      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
-      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
-      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
+      "searchTags": "Enroll;Onboard;MPA",
+    },
+     {
+      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
+      "longDescription": "",
+      "shortDescription": "Questions on the Microsoft Partner agreement including how to accept the MPA, access to indirect reseller agreement for Providers, and information on variations or updates to the agreement",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+    },
+     {
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
+      "longDescription": "",
+      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
   ]
 }

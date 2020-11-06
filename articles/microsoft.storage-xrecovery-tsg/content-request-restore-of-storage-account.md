@@ -32,7 +32,7 @@ If you are a member of TM-CSSStgRec perform the following steps: <br>
 1. Go to [JIT ICM Template ](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=74a1g3) (You must use this link and NOT use the ASC method)
 
 2. Navigate to Geneva Actions (Jarvis Actions) :[SRP > SRP Operations > Restore Storage Account](https://jarvis-west.dc.ad.msft.net/4E6B1757?genevatraceguid=d42c3a17-2955-489e-abfc-d4610df8017c)
-3. Request JIT elevation for Storage-PlatformServiceOperator (and NOT PlatformServiceAdministrator), you can click GET ACCESS from the same blade.
+3. Request JIT elevation for CustomerServiceOperator (and NOT PlatformServiceAdministrator), you can click GET ACCESS from the same blade.
 4. Fill in the requested information and hit "Run".
     1. Subscription, Storage Account, Region are the same as in Step 1.
     2. Creation time is cut and paste from the creation time found in Step 1 (2016-10-12T09:28:08.4824822Z in the example).
