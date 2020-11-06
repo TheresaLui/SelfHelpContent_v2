@@ -59,13 +59,12 @@
    ],
    "resourceMetadata":{
       "action":{
-         "actionId":"",
-         "actionType":"",
-         "extensionName":"",
-         "bladeName":"",
-         "metadata":{
-         },
-         "documentLink":""
+         "actionId": "17fe3545-7057-47ab-bf65-83f63516c290",
+          "description": "Check the resource",
+          "actionType": "Blade",
+          "extensionName": "Microsoft_CogSvc_TextAnalytics",
+          "bladeName": "ResourceBlade",
+          "metadata": {"id": "{resourceId}"}
       }
    },
    "displayLabel":"",
