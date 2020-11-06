@@ -35,12 +35,12 @@
             "watermarkText": "Choose one issue type",
             "dropdownOptions": [
                 {
-                    "value": "Cannot pin query to dashboard",
-                    "text": "Cannot pin query to dashboard"
+                    "value": "Cannot enable or disable IIS log collection",
+                    "text": "Cannot enable or disable IIS log collection"
                 },
                 {
-                    "value": "Data is not refreshing",
-                    "text": "Data is not refreshing"
+                    "value": "No data is being collected",
+                    "text": "No data is being collected"
                 },
                 {
                     "value": "Data is incorrect / incomplete",
@@ -56,17 +56,17 @@
             "id": "problem_frequency",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What type of dashboard is being used?",
+            "displayLabel": "What is the data source?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
                 {
-                    "value": "Private",
-                    "text": "Private"
+                    "value": "Log Analytics Agent installed on the machine(s)",
+                    "text": "Log Analytics Agent installed on the machine(s)"
                 },
                 {
-                    "value": "Shared",
-                    "text": "Shared"
+                    "value": "Azure Storage Account",
+                    "text": "Azure Storage Account"
                 },
                 {
                     "value": "dont_know_answer",
@@ -75,30 +75,26 @@
             ]
         },
                 {
-            "id": "dashboard",
+            "id": "la_agent",
             "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Are you using an existing dashboard?",
-            "watermarkText": "Choose an option",
+            "controlType": "textbox",
+            "displayLabel": "If the data source is the Log Analytics agent, please type the machine name(s).",
+            "watermarkText": "If the data source is the Log Analytics agent, please type the machine name(s).",
             "required": false,
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ]
+            "useAsAdditionalDetails": false
         },
-                        {
-            "id": "worked",
+                {
+            "id": "azure_storage",
             "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "If the data source is an Azure Storage Account, please type the storage account name:",
+            "watermarkText": "If the data source is an Azure Storage Account, please type the storage account name:",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "worked",
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked before?",
             "watermarkText": "Choose an option",
@@ -120,7 +116,7 @@
         },
         {
             "id": "users",
-            "order": 6,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening to a single user or multiple users?",
             "watermarkText": "Choose an option",
@@ -142,7 +138,7 @@
         },
                         {
             "id": "intermittent_consistant",
-            "order": 7,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Is the issue intermittent or constant?",
             "watermarkText": "Is the issue intermittent or constant?",
@@ -164,17 +160,17 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the IIS Logs, describing what's the expected behavior vs the current behavior.",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the IIS Logs, describing what's the expected behavior vs the current behavior.",
-            "required": true,
+            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used.",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used",
+            "required": true
             "useAsAdditionalDetails": false,
             "hints": []
         },
         {
             "id": "additional_information",
-            "order": 9,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
