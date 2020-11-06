@@ -34,7 +34,7 @@ Are you facing one of these common problems?
 
 * **I want to manually authorize a service connection for a specific pipeline**
 
-    If you want to authorize a service connection for a specific pipeline, open the pipeline by selecting Edit and queue a build manually. You will see a *resource authorization error* and an **Authorize resources** action on the error. Choose this action to explicitly add the pipeline as an authorized user of the service connection.
+    If you want to authorize a service connection for a specific pipeline, open the pipeline by selecting Edit and queue a build manually. You will see a *resource authorization error* and an **Authorize resources** action on the error. Choose this action to explicitly add the pipeline as an authorized user of the service connection. You can also authorize a specific pipeline manually by going to *service connections security*, *pipeline permissions* and add the specific pipeline you would like to authorize.
 
 
 ## **Recommended Documents**
