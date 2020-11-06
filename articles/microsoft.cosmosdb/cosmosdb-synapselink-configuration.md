@@ -21,15 +21,15 @@
 
 Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
 
+## **Recommended Steps**  
 
-## Supported APIs  
+### **Supported APIs**  
 
 Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
-
-## **Recommended Steps**   
-
 ### **Cannot enable Analytical Store**
+
+
 **1.** Synapse Link for the account is a prerequisite to be able to create Analytical Store enabled container. Ensure Synapse Link is enabled for the Azure Cosmos DB account by:
 
 - Signing into the Azure Portal->Navigate to the Azure Cosmos DB Account->Open Features pane->Status of Synapse Link from the features list should say Enrolled
