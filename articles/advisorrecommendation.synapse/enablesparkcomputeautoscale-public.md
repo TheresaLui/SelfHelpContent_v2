@@ -63,7 +63,7 @@
   "displayLabel": "Consider enabling Autoscale feature on spark pool",
   "additionalColumns": [
 	{
-		"name": "SparkPool",
+		"name": "sparkpool",
 		"title": "Spark Compute"
 	}
   ],
