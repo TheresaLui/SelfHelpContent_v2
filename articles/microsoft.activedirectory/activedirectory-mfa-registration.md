@@ -26,13 +26,13 @@
 	- If no Combined Registration CA policies are configured, learn how to [Configure the Azure Multi-Factor Authentication Registration Policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 - Check [What Authentication and Verification methods are available in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#how-each-authentication-method-works)
-- Follow these steps to register the security methods in the [aka.ms/mysecurityinfo](https://myprofile.microsoft.com)
+- Register the security methods by following the steps in [aka.ms/mysecurityinfo](https://myprofile.microsoft.com)
 
 
 ## **Recommended Videos**
 
-* [Manage security information in My Account (1min)](https://youtu.be/zmC5UzF25Sg)
-* [Register and manage your security info (2min)](https://youtu.be/k0oiKQK3LjQ)
+* [Manage security information in My Account (1 minute)](https://youtu.be/zmC5UzF25Sg)
+* [Register and manage your security info (2 minutes)](https://youtu.be/k0oiKQK3LjQ)
 
 
 ## **Recommended Documents**
