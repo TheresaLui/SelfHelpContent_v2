@@ -28,7 +28,7 @@
    "owner":{
       "email":"tadevteam@microsoft.com",
       "icm":{
-         "routingId":"icmportal://routing/85633E54D0D64D46A2F9F5DEC68E204C",
+         "routingId":"mdm://adspartner/CognitiveServices/TextAnalytics",
          "service":"Cognitive Services",
          "team":"Text Analytics"
       },

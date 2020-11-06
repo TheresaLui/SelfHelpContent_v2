@@ -9,6 +9,7 @@
 	ownershipId="CogSvc_TextAnalytics"
 />
 # Upgrade to the latest SDK version
+---
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
    "recommendationOfferingName":"Text Analytics",
@@ -27,7 +28,7 @@
    "owner":{
       "email":"tadevteam@microsoft.com",
       "icm":{
-         "routingId":"icmportal://routing/85633E54D0D64D46A2F9F5DEC68E204C",
+         "routingId":"mdm://adspartner/CognitiveServices/TextAnalytics",
          "service":"Cognitive Services",
          "team":"Text Analytics"
       },
