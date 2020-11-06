@@ -3,9 +3,9 @@
     description="Create an Azure service health alert"
     authors="ahex"
     ms.author="ahex"
-    articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Fairfax"
+    articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="CloudES_AzureResourceHealth"
 />
 # Create an Azure service health alert 
@@ -15,7 +15,7 @@
   "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "cluster('https://azeecluff.kusto.usgovcloudapi.net').database('AzEE-DB-FF').ServiceHealthRecommendation",
+    "streamNamespace": "cluster('https://azhealthmc.chinaeast2.kusto.chinacloudapi.cn').database('azhealthmcmds').ServiceHealthRecommendation",
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
@@ -76,7 +76,6 @@
   },
   "displayLabel": "Create an Azure service health alert",
   "additionalColumns": [],
-  "testData": "2d27c2a9-02de-49db-a84b-1143c550c182,/subscriptions/2d27c2a9-02de-49db-a84b-1143c550c182",
   "tip": "You can create a service health alert to get notified when an Azure service issue affects you."
 }
 ---
