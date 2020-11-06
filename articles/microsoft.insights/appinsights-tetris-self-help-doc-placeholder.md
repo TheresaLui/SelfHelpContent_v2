@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="Tetris Doc Placeholder"
+    pageTitle="Tetris Self Help Doc Placeholder"
     description="Tetris Doc Placeholder"
     service="microsoft.insights"
     resource="components"
@@ -10,7 +10,7 @@
     productPesIds="15693"
     supportTopicIds="32780459"
     cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
- 	articleId="appinsights-tetris-doc-placeholder"
+ 	articleId="appinsights-tetris-self-help-doc-placeholder"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
