@@ -96,7 +96,7 @@
             "id": "worked",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Has this ever worked before?",
+            "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [

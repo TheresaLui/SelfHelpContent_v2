@@ -1,22 +1,22 @@
 <properties
-    articleId="problemscopingques-azure-dashboards-issue"
-    pageTitle="Azure dashboards issue"
-    description="Azure dashboards issue"
+    articleId="problemscopingques-la-collect-azure-activity-logs"
+    pageTitle="Collect Azure Activity logs"
+    description="Collect Azure Activity logs"
     authors="neilghuman"
     ms.author="neghuman"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745416"
+    supportTopicIds="32745408"
     productPesIds="15725"
     cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
     schemaVersion="1"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
-# Azure dashboards issue
+# Collect Azure Activity logs
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Azure dashboards issue",
+    "title": "Collect Azure Activity logs",
     "fileAttachmentHint": "If applicable, please upload logs or screenshots of any relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -35,12 +35,12 @@
             "watermarkText": "Choose one issue type",
             "dropdownOptions": [
                 {
-                    "value": "Cannot pin query to dashboard",
-                    "text": "Cannot pin query to dashboard"
+                    "value": "Cannot enable or disable Azure Activity logs collection",
+                    "text": "Cannot enable or disable Azure Activity logs collection"
                 },
                 {
-                    "value": "Data is not refreshing",
-                    "text": "Data is not refreshing"
+                    "value": "No data is being collected",
+                    "text": "No data is being collected"
                 },
                 {
                     "value": "Data is incorrect / incomplete",
@@ -56,17 +56,17 @@
             "id": "problem_frequency",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What type of dashboard is being used?",
+            "displayLabel": "What collection method is being used?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
                 {
-                    "value": "Private",
-                    "text": "Private"
+                    "value": "Collecting Activity Logs through Diagnostic settings",
+                    "text": "Collecting Activity Logs through Diagnostic settings"
                 },
                 {
-                    "value": "Shared",
-                    "text": "Shared"
+                    "value": "Collecting Activity Logs through legacy settings",
+                    "text": "Collecting Activity Logs through legacy settings"
                 },
                 {
                     "value": "dont_know_answer",
@@ -74,11 +74,11 @@
                 }
             ]
         },
-                {
-            "id": "dashboard",
+        {
+            "id": "worked",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you using an existing dashboard?",
+            "displayLabel": "Is the target subscription the same where the Log Analytics workspace is?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
@@ -96,13 +96,12 @@
                 }
             ]
         },
-                        {
-            "id": "worked",
+                {
+            "id": "worked-in-the-past",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
-            "required": false,
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -114,9 +113,14 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "I don't know"
+                    "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
+            "required": true
         },
         {
             "id": "users",
@@ -164,17 +168,17 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the Azure dashboards issue, describing what's the expected behavior vs the current behavior.",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages. Please also include any relevant queries used to query the data on the Azure dashboards issue, describing what's the expected behavior vs the current behavior.",
+            "displayLabel": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include any relevant queries used.",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of any error messages where available. Please also include any relevant queries used",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": []
         },
         {
             "id": "additional_information",
-            "order": 9,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",

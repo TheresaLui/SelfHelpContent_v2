@@ -60,7 +60,7 @@
             "id": "problem_frequency",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Has this ever worked before?",
+            "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
             "required": false,
             "dropdownOptions": [
