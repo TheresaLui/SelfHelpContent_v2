@@ -18,8 +18,9 @@
 # Azure Load Balancer Health Probe Failures issues
 
 ## **Recommended Steps**
-1.	Check if backend is listening on the port configured on health probe
+
+1.	Check if the backend is listening on the port that is configured on the health probe
 2.	Check if the health probe is using the correct protocol. If you are using HTTP/HTTPS, confirm that the path is configured correctly.
-3.	Make sure that service listening on the IP address of the NIC’s IP configuration and not just on the loopback that’s configured with the front-end IP address.
-4.	Check if probe is permitted by the [Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#view-details-of-a-network-security-group). You can also use [Connection Troubleshoot](https://docs.microsoft.com/azure/network-watcher/network-watcher-connectivity-portal?WT.mc_id=Portal-Microsoft_Azure_Support#check-remote-endpoint-connectivity) feature on Network Watcher for this step.
+3.	Make sure that service is listening on the IP address of the NIC’s IP configuration and not just on the loopback that’s configured with the front-end IP address.
+4.	Check if the probe is permitted by the [Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#view-details-of-a-network-security-group). You can also use the [Connection Troubleshoot](https://docs.microsoft.com/azure/network-watcher/network-watcher-connectivity-portal?WT.mc_id=Portal-Microsoft_Azure_Support#check-remote-endpoint-connectivity) feature on Network Watcher for this step.
 5.	Check if the probe is permitted by VM’s guest OS firewall or other application layer filters.
