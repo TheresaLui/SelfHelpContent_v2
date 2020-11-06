@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0bb29dd2-faa1-4988-7551-52d4cf082843",
+      "longDescription": "",
+      "shortDescription": "Common problems resizing the scale set",
+      "searchTags": "resize",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0c41ebbd-4f70-a0cb-c305-b037c5e8c4e2",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
