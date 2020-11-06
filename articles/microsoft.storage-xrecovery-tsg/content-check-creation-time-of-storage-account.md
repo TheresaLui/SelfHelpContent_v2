@@ -43,7 +43,7 @@ Successful completion will look like the following example SA output:
 }
 ~~~
 
-**NOTE:** If you receive the error message "Account not found," this may be because of the following reasons:
+**Note:** If you receive the error message "Account not found," this may be because of the following reasons:
 
 * The provided information is incorrect, or
 * The deletion time was more than 14 days in the past (in which case the account cannot be recovered), or
