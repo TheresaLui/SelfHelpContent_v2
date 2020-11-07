@@ -26,7 +26,7 @@
   },
 	"formElements": [{
             "id": "issue_type",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your Cannot connect to SQL Instance issue.",
             "watermarkText": "Common Cannot connect to SQL Instance categories",
@@ -55,10 +55,11 @@
             "diagnosticInputRequiredClients": "Portal"
         }, {
 			"id": "problem_start_time",
-			"order": 2,
+			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": true
+			"required": true,
+             "diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "problem_description",
 			"order": 5,
