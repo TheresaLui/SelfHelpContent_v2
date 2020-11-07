@@ -14,32 +14,19 @@
 # Cannot connect to SQL Instance
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Cannot connect to SQL Instance",
-    "fileAttachmentHint": null,
-    "diagnosticCard": {
+  "$schema": "SelfHelpContent",
+  "subscriptionRequired": false,
+  "resourceRequired": false,
+	"title": "Cannot connect to SQL Instance",
+	"fileAttachmentHint": "",
+	"diagnosticCard": {
     "title": "Cannot connect to SQL Instance Troubleshooter",
-    "description": "Our Cannot connect to SQL Instance Troubleshooter can help you troubleshoot and solve your problem.",
+    "description": "Cannot connect to SQL Instance Troubleshooter can help you troubleshoot and solve your problem.",
     "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
   },
-    "formElements": [
-        {
-            "id": "problem_start_time",
+	"formElements": [{
+            "id": "issue_type",
             "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        
-
-
-
-  
-        {
-            "id": "setupavailabilitygroup_issue_type",
-            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your Cannot connect to SQL Instance issue.",
             "watermarkText": "Common Cannot connect to SQL Instance categories",
@@ -66,17 +53,32 @@
         ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "problem_description",
-            "order": 1000,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        }
-    ],
-    "$schema": "SelfHelpContent"
+        }, {
+			"id": "problem_start_time",
+			"order": 2,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, {
+			"id": "problem_description",
+			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				}, {
+					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+				}
+			]
+		}, {
+			"id": "learn_more_text",
+			"order": 6,
+			"controlType": "infoblock",
+			"content": "<a href='https://jsonlint.com/'>Use this JSON Checker</a> if you are receiving validation errors in your scoping question"
+		}
+	]
 }
 ---
