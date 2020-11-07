@@ -38,7 +38,7 @@ There are four main components of implementing the change feed processor:
 
 1. **The lease container:** The lease container acts as a state storage and coordinates processing the change feed across multiple workers. The lease container can be stored in the same account as the monitored container or in a separate account.
 
-1. **The host:** A host is a compute instance (virtual machine, app service, pod, etc.) that uses the change feed processor to listen for changes. The instance name or unique identifier is referenced as the **instance/host name**. Ideally, one instance of change feed processor should be running per instance.
+1. **The host:** A host is a compute instance (virtual machine, app service, pod, and so on) that uses the change feed processor to listen for changes. The instance name or unique identifier is referenced as the **instance/host name**. Ideally, one instance of change feed processor should be running per instance.
 
 1. **The delegate:** The delegate is the code that defines what you, the developer, want to do with each batch of changes that the change feed processor reads. Each change corresponds to insert/modifications (create, replace, upsert).
 
@@ -47,12 +47,14 @@ The lease container captures the state of the processor, enabling recovery and r
 ### **Will each change be delivered only once?**
 
 The change feed processor has an **at least once** delivery guarantee. That means that your delegate code needs to contemplate that a particular change might be received more than once. During rebalancing of the leases or when the number of instances varies, there is a possibility of two instances processing the same lease. Also if there are unhandled exceptions in your delegate (see below), a batch can be retried.
-If the delegate locks/hangs then processing will be affected as no new batches will be pulled until the delegate has exited. Having a safe timeout enforced with the exception let out as unhandled exception could help avoid missing document updates.
+
+If the delegate locks/hangs processing will be affected, as no new batches will be pulled until the delegate has exited. Having a safe timeout enforced with the exception let out as unhandled exception could help avoid missing document updates.
 
 ### **Does the change feed processor get notified for all operations?**
 
 Current change feed will only include creates and updates of existing documents. According to the [change feed documentation](https://docs.microsoft.com/azure/cosmos-db/change-feed), intermediate changes for a document might not be available, only the most recent change will appear.
-Delete operations are not included and if a document is deleted from a container, all its change feed information is also removed.
+
+Delete operations are not included. If a document is deleted from a container, all its change feed information is also removed.
 
 ### **Error handling and exceptions in the change feed processor**
 
@@ -88,21 +90,21 @@ To make sure that latency is optimized:
 1. Make sure your change feed processor is co-located with a Cosmos DB account region, and you are using `CosmosClientOptions.ApplicationRegion` / `CosmosClientOptions.PreferredRegions` (V3 .NET) or `ConnectionPolicy.PreferredLocations` (V2 .NET) to indicate which region you are running on.
 1. Are the changes happening in your Azure Cosmos container continuous or sporadic?
     * If they are sporadic, there could be some delay between the changes being stored and the Azure Function picking them up. Based on the life cycle explained previously, you can customize the sleeping period through the Poll interval.
-	* If they are continuous, the speed at which new changes are read from the change feed are also defined by the speed at which you can process them. The faster you can process them, the faster new changes can be read.
+    * If they are continuous, the speed at which new changes are read from the change feed are also defined by the speed at which you can process them. The faster you can process them, the faster new changes can be read.
 
 ## **Recommended Documents**
 
 [Change feed in Azure Cosmos DB - overview](https://docs.microsoft.com/azure/cosmos-db/change-feed)
-<br>Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos container for any changes. It then outputs the sorted list of documents that were changed. The changes are persisted, can be processed asynchronously and incrementally, and the output can be distributed across one or more consumers for parallel processing.  
+Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos container for any changes. It then outputs the sorted list of documents that were changed. The changes are persisted, can be processed asynchronously and incrementally, and the output can be distributed across one or more consumers for parallel processing.  
 
 [Reading Azure Cosmos DB change feed](https://docs.microsoft.com/azure/cosmos-db/read-change-feed)
-<br>This article describes how you can work with the Azure Cosmos DB change feed using any of the following options:
+This article describes how you can work with the Azure Cosmos DB change feed using any of the following options:
 * Using Azure Functions
 * Using the change feed processor library
 * Using the Azure Cosmos DB SQL API SDK  
 
 [Change feed processor in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/change-feed-processor)
-<br>This article covers the overview details of change feed processor V3.
+This article covers the overview details of change feed processor V3.
 
 [Migrate from Change feed processor V2 to V3](https://docs.microsoft.com/azure/cosmos-db/how-to-migrate-from-change-feed-library)
 <br>This article covers the migration steps to go from V2 to V3.
