@@ -95,16 +95,16 @@ To make sure that latency is optimized:
 ## **Recommended Documents**
 
 [Change feed in Azure Cosmos DB - overview](https://docs.microsoft.com/azure/cosmos-db/change-feed)
-Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos container for any changes. It then outputs the sorted list of documents that were changed. The changes are persisted, can be processed asynchronously and incrementally, and the output can be distributed across one or more consumers for parallel processing.  
+<br>Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos container for any changes. It then outputs the sorted list of documents that were changed. The changes are persisted, can be processed asynchronously and incrementally, and the output can be distributed across one or more consumers for parallel processing.  
 
 [Reading Azure Cosmos DB change feed](https://docs.microsoft.com/azure/cosmos-db/read-change-feed)
-This article describes how you can work with the Azure Cosmos DB change feed using any of the following options:
+<br>This article describes how you can work with the Azure Cosmos DB change feed using any of the following options:
 * Using Azure Functions
 * Using the change feed processor library
 * Using the Azure Cosmos DB SQL API SDK  
 
 [Change feed processor in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/change-feed-processor)
-This article covers the overview details of change feed processor V3.
+<br>This article covers the overview details of change feed processor V3.
 
 [Migrate from Change feed processor V2 to V3](https://docs.microsoft.com/azure/cosmos-db/how-to-migrate-from-change-feed-library)
 <br>This article covers the migration steps to go from V2 to V3.
