@@ -22,4 +22,7 @@
 
 ## **Recommended Steps**
 
-You may experience slow speeds during prepare to ship if you have a large number of small files.
+You may experience slow speeds during prepare to ship if you have a large number of small files. If you encounter any issues while copying data to the device or running prepare to ship, refer these articles -
+
+* (Troubleshoot issues related to Data Box)[https://docs.microsoft.com/azure/databox/data-box-troubleshoot]
+* (Troubleshoot issues related to Data Box Blob Storage)[https://docs.microsoft.com/azure/databox/data-box-troubleshoot-rest]
