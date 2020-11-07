@@ -19,6 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 # Connections to storage account endpoint were blocked due to insufficient permission in the oAuth token presented 
 
+
 <!--issueDescription-->
 Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked as the permissions presented in oAuth bearer token were not sufficient for the operation performed between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**.
 <!--/issueDescription-->
