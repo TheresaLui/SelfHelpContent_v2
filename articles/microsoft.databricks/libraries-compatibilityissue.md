@@ -33,10 +33,10 @@ Support might ask you to engage other channels for open-source technologies, whe
           * Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
 
 * Error: org.apache.spark.SparkException: Process List
-     * Troubleshoot error as per article [Libraries fail with dependency exception](https://docs.microsoft.com/azure/databricks/kb/libraries/library-fail-dependency-exception)
+     * Troubleshoot the error as indicated in [Libraries fail with dependency exception](https://docs.microsoft.com/azure/databricks/kb/libraries/library-fail-dependency-exception)
 
 * Error: ImportError: No module named XXX
-     * Resolve the error as per steps in article [Library unavailability causing job failures](https://docs.microsoft.com/azure/databricks/kb/libraries/library-install-latency) 
+     * Resolve the error by following the steps in [Library unavailability causing job failures](https://docs.microsoft.com/azure/databricks/kb/libraries/library-install-latency) 
 
 * [How to: Correctly Update a Maven Library in Azure Databricks](https://docs.microsoft.com/azure/databricks/kb/libraries/maven-library-version-mgmt)
 * [List of pre-installed libraries](https://docs.databricks.com/release-notes/runtime/5.4.html#installed-python-libraries)
