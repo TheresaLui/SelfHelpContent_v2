@@ -6,7 +6,7 @@
 	authors="tzvikei"
 	ms.author="tzvikei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32740866"
+	supportTopicIds="32740866,32740867"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
