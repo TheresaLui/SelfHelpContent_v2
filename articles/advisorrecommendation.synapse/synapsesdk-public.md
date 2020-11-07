@@ -10,7 +10,7 @@
 # SynapseManagementClient SDK Version Recommendation
 ---
 {
-	"recommendationOfferingId": "bfd090af-60cd-4f06-9a20-84224a93df41",
+	"recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
 	"recommendationOfferingName": "Azure Synapse Analytics",
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "7c83695a-3fa9-4668-9080-85151f5ab7be",
