@@ -56,7 +56,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Issue with which feature?",
-            "watermarkText": "Select the feature or variable which is causing the issue?",
+            "watermarkText": "Select the feature or variable that is causing the issue",
 			"dropdownOptions": [
 				{
                     "value": "BackupOperator",
@@ -82,8 +82,8 @@
             "order": 4,
             "controlType": "dropdown",
 			"visibility": "variable != null && variable == BackupOperator",
-            "displayLabel": "Is the username a valid username on the active directory?",
-            "watermarkText": "Is the username a valid username on the active directory?",
+            "displayLabel": "Is the username a valid username on the Active Directory?",
+            "watermarkText": "Is the username a valid username on the Active Directory?",
 			"dropdownOptions": [
 				{
                     "value": "Yes",
