@@ -206,7 +206,7 @@
             },
             {
             "value": "AvailabilityGroupsConfiguration_Listener_ConnectivityIssue",
-            "text": "Configured Availability Group but Unable to connect using Listener."
+            "text": "Configured Availability Group but Unable to connect using Listener"
             },
             {
             "value": "AvailabilityGroupsConfiguration_DistributedAvailabilityGroup_DAG",

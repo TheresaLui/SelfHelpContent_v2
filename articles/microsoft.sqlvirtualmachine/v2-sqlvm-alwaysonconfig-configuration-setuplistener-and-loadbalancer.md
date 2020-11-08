@@ -9,7 +9,7 @@
 	displayOrder="1"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
-	supportTopicIds="32740063"
+	supportTopicIds="32740063,32740109"
 	resourceTags="windowsSQL"
 	productPesIds="14745,16342"
 	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
