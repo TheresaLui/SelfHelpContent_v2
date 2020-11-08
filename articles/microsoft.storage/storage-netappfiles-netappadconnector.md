@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-1. Note that only one active directory connection is allowed in a region. Refer to [Number of active directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#how-many-active-directory-connections-are-supported) for more details
+1. Note that only one Active Directory connection is allowed in a region. Refer to [Number of Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#how-many-active-directory-connections-are-supported) for more details
 2. Make sure you are registered for the features. Refer to [Create an Active Directory connection](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#create-an-active-directory-connection) for registration and more information.
 
 ## **Recommended Documents**
