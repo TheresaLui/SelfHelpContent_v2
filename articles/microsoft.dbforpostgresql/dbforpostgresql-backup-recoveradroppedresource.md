@@ -61,6 +61,6 @@ In the future, consider using [resource locks](https://techcommunity.microsoft.c
 
 ## **Recommended Documents**
 
-* Please refer to [restore a dropped Azure Database for PostgreSQL server](https://docs.microsoft.com/azure/postgresql/howto-restore-dropped-server) to recover a dropped PostgreSQL server resource within 5 days from the time of server deletion. The recommended steps will work only if the backup for the server is still available and not deleted from the system.
+* See [restore a dropped Azure Database for PostgreSQL server](https://docs.microsoft.com/azure/postgresql/howto-restore-dropped-server) to recover a dropped PostgreSQL server resource within 5 days from the time of server deletion. The recommended steps will work only if the backup for the server is still available and not deleted from the system.
 * [Azure Database for PostgreSQL business continuity overview](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity)
 * [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)
