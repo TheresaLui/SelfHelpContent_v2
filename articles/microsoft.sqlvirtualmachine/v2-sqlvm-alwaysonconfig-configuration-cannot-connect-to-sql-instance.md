@@ -36,9 +36,9 @@ Below Steps can help you to troubleshoot issues you may face when connecting to 
      If you restarted your VM or Resized your VM, SQL May not start because of Tempdb Files/Folders missing on the D Drive. We are working on a fix for this. Please run the below script to Resolve this which creates the TempDB structure:
     ```PS
       $SQLService="SQL Server (MSSQLSERVER)"
-      $SQLAgentService=”SQL Server Agent (MSSQLSERVER)"
-      $tempfolder=”D:\tempDB\Data”
-      $logfolder=”D:\tempDB\Log"
+      $SQLAgentService="SQL Server Agent (MSSQLSERVER)"
+      $tempfolder="D:\tempDB\Data"
+      $logfolder="D:\tempDB\Log"
       if (!(test-path -path $tempfolder))
        {    
        New-Item -ItemType directory -Path $logfolder  
