@@ -25,6 +25,13 @@
     "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
   },
 	"formElements": [{
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true,
+            "diagnosticInputRequiredClients": "Portal"
+	    },{
             "id": "issue_type",
             "order": 2,
             "controlType": "dropdown",
@@ -54,13 +61,6 @@
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         }, {
-			"id": "problem_start_time",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true,
-             "diagnosticInputRequiredClients": "Portal"
-		}, {
 			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
