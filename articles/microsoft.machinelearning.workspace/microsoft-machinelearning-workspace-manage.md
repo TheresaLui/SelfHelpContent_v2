@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Problem provisioning or managing workspace"
+  pagetitle="Virtual Network Configuration"
   service="microsoft.machinelearning.workspace"
   resource="machinelearning"
-  ms.author="johwu,roastala"
+  ms.author="roastala,johwu"
   selfhelptype="Generic"
   supporttopicids="32690836"
   resourcetags=""
@@ -10,33 +10,67 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
   articleid="microsoft.machinelearning.workspace.manage"
   ownershipid="AzureML_AzureMachineLearningServices" />
-# Problem provisioning or managing workspace
+# Virtual Network Configuration
+
+A virtual network acts as a security boundary, isolating your Azure resources from the public internet. To ensure your workspace, training jobs, and inferencing jobs all remain secured behing a virtual network, the follow steps should be taken:
+
+1. Ensure your workspace is behind a private endpoint, which requires users to connect to your workspace through private IP addresses.
+2. Ensure all your associated resources (storage accounts, container registry, key vaults) are in the same virtual network as the workspace.
+3. Ensure all compute and data resources are in the same virtual network as the workspace.
 
 ## **Recommended Steps**
 
-See the following documents for instructions on provisioning workspaces:
+### **Configure workspace behind a private endpoint**
 
-* [Using Azure Portal](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace)
-* [Using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Using REST API](https://docs.microsoft.com/azure/machine-learning/how-to-manage-rest)
-* [Using resource manager template](https://docs.microsoft.com/azure/machine-learning/how-to-create-workspace-template?tabs=azcli)
+To configure a new workspace behind a private endpoint:
 
-See the following documents for instructions on advanced workspace settings:
+1. Create a new machine learning workspace through the Azure Portal.
+2. Click on the **Networking** tab during the creation experience.
+3. Add a private endpoint by specifying the required parameters.
 
-* [Network security](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview) 
-  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype
+To configure an existing workspace behind a private endpoint:
 
-* [Data encryption](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security#data-encryption) 
-  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype
+1. Navigate to the machine learning workspace in the Azure Portal.
+2. Click on the **Private endpoint connections** tab under **Settings**.
+3. Add a private endpoint by specifying the required parameters.
 
-* [Role-based access control (RBAC)](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
-  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-configure-private-link).
 
-For setting up private endpoints on customer-managed key vaults, container registries, or Kubernetes clusters, see [managing quotas, private endpoints and private DNS quota increases](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#private-endpoint-and-private-dns-quota-increases) and submit your request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
+### **Ensure storage account is behind a virtual network**
 
-For using managed identities and accessing Azure Container Registry without admin user, see [Use Managed identities with Azure Machine Learning (preview)](https://docs.microsoft.com/azure/machine-learning/how-to-use-managed-identities).
+To configure your workspace storage account behind a virtual network:
+
+1. Navigate to the storage resource in the Azure Portal.
+2. Click on the **Firewalls and virtual networks** tab under **Settings**.
+3. Add your virtual network and allow trusted Microsoft services to access the resource.
+
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-storage-accounts-with-service-endpoints).
+
+### **Ensure container registry is behind a virtual network**
+
+To configure your container registry resource to work behind a virtual network:
+
+1. Navigate to the container registry resource in the Azure Portal.
+2. Click on the **Networking** tab under **Settings**.
+3. Add your virtual network to the resource.
+
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#enable-azure-container-registry-acr).
+
+### **Ensure key vault is behind a virtual network**
+
+To configure your key vault resource to work behind a virtual network:
+
+1. Navigate to the key vault resource in the Azure Portal.
+2. Click on the **Networking** tab under **Settings**.
+3. Add your virtual network to the resource.
+
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-key-vault).
 
 ## **Recommended Documents**
 
-* [What is an Azure Machine Learning workspace?](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Enterprise security overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
+Here is a list of additional resources which may be helpful: 
+
+* [Azure ML Network Security Overview](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview)
+* [Azure Private Link Overview](https://docs.microsoft.com/azure/private-link/private-link-overview)
+* [Azure Virtual Networks Overview](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview)
+* [Azure ML Enterprise Security Overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
