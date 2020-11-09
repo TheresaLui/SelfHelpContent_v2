@@ -51,13 +51,13 @@ Below are the common errors you may encounter while configuring Availability Gro
 
        Please ensure that you have [Run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener) with correct variables as below:
 
-         ```
-          $ClusterNetworkName = "<MyClusterNetworkName>" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 
+         ```PS
+          $ClusterNetworkName = "&lt;MyClusterNetworkName&gt;" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 
           of higher to find the name)
-          $IPResourceName = "<IPResourceName>" # the IP Address resource name
-          $ListenerILBIP = "<n.n.n.n>" # the IP Address of the Internal Load Balancer (ILB). This is the static IP address for the 
+          $IPResourceName = "&lt;IPResourceName&gt;" # the IP Address resource name
+          $ListenerILBIP = "&lt;n.n.n.n&gt;" # the IP Address of the Internal Load Balancer (ILB). This is the static IP address for the 
           load balancer you configured in the Azure portal.
-          [int]$ListenerProbePort = <nnnnn>
+          [int]$ListenerProbePort = &lt;nnnnn&gt;
 
           Import-Module FailoverClusters
           Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple 

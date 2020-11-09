@@ -34,7 +34,8 @@ Below Steps can help you to troubleshoot issues you may face when connecting to 
   * **SQL Service does not Start because of Missing TempDB Folders**
 
      If you restarted your VM or Resized your VM, SQL May not start because of Tempdb Files/Folders missing on the D Drive. We are working on a fix for this. Please run the below script to Resolve this which creates the TempDB structure:
-    ```PS
+    
+      ```PS
       $SQLService="SQL Server (MSSQLSERVER)"
       $SQLAgentService="SQL Server Agent (MSSQLSERVER)"
       $tempfolder="D:\tempDB\Data"
@@ -46,7 +47,7 @@ Below Steps can help you to troubleshoot issues you may face when connecting to 
        }
        Start-Service $SQLService 
        Start-Service $SQLAgentService
-      ````
+      ```
 
    * **Seeing Login Failures for Account "NT SERVICE\\SqlIaaSExtensionQuery".**
 
@@ -64,7 +65,7 @@ Below Steps can help you to troubleshoot issues you may face when connecting to 
 
    * **I forgot sysadmin (sa) password, how do I login to SQL Server Instance** 
 
-     For a VM deployed with SQL Server market place image, the VM administrator account that you initially created when you first deployed the VM, by default, has sysadmin access to SQL instance. If you have not removed that administrator account from SQL instance later, you can remote desktop using the original administrator account to access SQL instance. If you have forgotten original VM administrator account password, you can [Reset](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp?WT.mc_id=Portal-Microsoft_Azure_Support) it.
+     For a VM deployed with SQL Server market place image, the VM administrator account that you initially created when you first deployed the VM, by default, has sysadmin access to SQL instance. If you have not removed that administrator account from SQL instance later, you can remote desktop using the original administrator account to access SQL instance. If you have forgotten original VM administrator account password, you can [Reset](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp?WT.mc_id=Portal-Microsoft_Azure_Support) it. If you have access to VM but not SQL instance, you can follow [Connect to SQL Server when System Admins are locked out]( https://docs.microsoft.com/sql/database-engine/configure-windows/connect-to-sql-server-when-system-administrators-are-locked-out?view=sql-server-ver15)
 
 - **90% of SQL instance connectivity Issues are resolved by following the below Diagnose and Mitigate action Steps**
 

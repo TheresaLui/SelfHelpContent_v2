@@ -9,7 +9,7 @@
 	displayOrder="1"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
-	supportTopicIds="32740063"
+	supportTopicIds="32740063,32740109"
 	resourceTags="windowsSQL"
 	productPesIds="14745,16342"
 	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
@@ -38,12 +38,12 @@ Below Steps can help you to troubleshoot why you are not able to connect to the 
    * Most of the times Listener connectivity fails if you haven't supplied the correct values when you [Run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener). Please make sure you have supplied the correct values in the below script:
     
      ```
-     $ClusterNetworkName = "<MyClusterNetworkName>" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of 
+     $ClusterNetworkName = "&lt;MyClusterNetworkName&gt;" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of 
      higher to find the name)
-     $IPResourceName = "<IPResourceName>" # the IP Address resource name
-     $ListenerILBIP = "<n.n.n.n>" # the IP Address of the Internal Load Balancer (ILB). This is the static IP address for the load 
+     $IPResourceName = "&lt;IPResourceName&gt;" # the IP Address resource name
+     $ListenerILBIP = "&lt;n.n.n.n&gt;" # the IP Address of the Internal Load Balancer (ILB). This is the static IP address for the load 
      balancer you configured in the Azure portal.
-     [int]$ListenerProbePort = <nnnnn>
+     [int]$ListenerProbePort = &lt;nnnnn&gt;
 
      Import-Module FailoverClusters
      Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple 
