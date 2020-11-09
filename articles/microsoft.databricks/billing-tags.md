@@ -20,7 +20,9 @@
 ## **Recommended Steps**
 
 * [Use tags to organize your Azure resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags)
-* By design, tags cannot be added to a managed resource group. Instead, please create tags to Workspace, which will eventually propagate to Managed Resource Group tags. Tags can be added to [ARM template](https://github.com/Azure/azure-quickstart-templates/tree/master/101-databricks-workspace). Please add Tag to "resources":
+* By design, tags cannot be added to a managed resource group. Instead, create tags to Workspace, which will eventually propagate to Managed Resource Group tags. Tags can be added to [ARM template](https://github.com/Azure/azure-quickstart-templates/tree/master/101-databricks-workspace).
+
+Use the following command to add the tag to "resources":
 
   ```
   "resources": [
@@ -43,7 +45,7 @@
   ]
   ```
 
-**Note**: Today Tags created at workspace are not propagated to Databricks Cluster resources. Same tag needs to be manually created from Databricks Cluster configuration page, as explained [here](https://docs.databricks.com/user-guide/clusters/tags.html).
+**Note**: Currently, tags created at workspace are not propagated to Databricks Cluster resources. Same tags need to be manually created from the Databricks Cluster configuration page, as explained [here](https://docs.databricks.com/user-guide/clusters/tags.html).
 
 ## **Recommended Documents**
 
