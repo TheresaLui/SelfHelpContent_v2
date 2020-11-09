@@ -6,7 +6,7 @@
 	resource="account"
 	authors="v-abiss"
 	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzure"
+	articleId="AzureRMServiceConnection"
 	supportTopicIds="32742301"
 	diagnosticScenario=""
 	selfHelpType="generic"
@@ -40,9 +40,9 @@ Are you facing one of these common problems?
 
 * Failed to authorize the service connection resource for pipeline
 
-    Make sure the right right service connection is selected in the pipeline and the necessary [pipeline permissions](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#pipeline-permissions) are granted to access this service connection.
+    Make sure the right service connection is selected in the pipeline and the necessary [pipeline permissions](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#pipeline-permissions) are granted to access this service connection.
 
-* I'm unable to see my subscriptions while creating a service connection inspite of having the necessary permissions
+* I'm unable to see my subscriptions while creating a service connection even after having the necessary permissions
 
     If you're using some part of Azure DevOps that interacts with Azure and it appears not to be working, I would recommend either logging out and logging back in from an incognito/inPrivate browser and this should fix the behavior. This will generate a new, valid token that Azure DevOps can use to authenticate the request to Azure which will query the subscriptions and generate the service connection. 
 
