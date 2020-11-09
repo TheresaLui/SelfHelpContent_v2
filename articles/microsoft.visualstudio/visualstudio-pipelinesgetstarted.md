@@ -46,9 +46,14 @@ In general, our support team is equipped to handle specific issues that arise wh
 
   Read our [guidance](https://docs.microsoft.com/azure/devops/pipelines/security/overview?view=azure-devops) on how to secure YAML pipelines.
 
+* How can I setup my release pipeline in YAML?
+
+  In YAML pipelines, we recommend that you put your deployment steps in a special type of job called a **deployment job**. Read our guidance and define the release pipeline for your project by using of the YAML schema outlined for [Deployment Jobs](https://docs.microsoft.com/azure/devops/pipelines/process/deployment-jobs?view=azure-devops).
+
 ## **Recommended Documents**
 
 * [Azure Pipelines Docs](https://docs.microsoft.com/azure/devops/pipelines/?view=azure-devops)
 * [YAML schema](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema?view=azure-devops)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
+* [Deployment Jobs](https://docs.microsoft.com/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
