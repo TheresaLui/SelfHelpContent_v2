@@ -234,7 +234,7 @@
             "order": 16,
             "controlType": "dropdown",
             "displayLabel": "Are you using a connection pooler?",
-            "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
+            "infoBalloonText": "We highly recommended using a connection pooler while connecting to the server.",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -285,7 +285,7 @@
             "order": 20,
             "visibility": "query_running == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Can you Provide the query that is impacted more often?",
+            "displayLabel": "Can you provide the query that is impacted more often?",
             "required": false
         },
         {
