@@ -34,7 +34,7 @@ If they are not what you want, edit the rule to match what you want.
 
 **Note:** Dynamic Thresholds requires at least 3 days of data before becoming active and chart will display continuous historical thresholds, which include thresholds updates over time.
 
-2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if there any alerts fired for your metric alert rule. If you can see the alert in the portal, then the issue might be with notifications:
+2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if there are any alerts fired for your metric alert rule. If you can see the alert in the portal, then the issue might be with notifications:
 
     - Check if proper actions/notifications were configured for the alert rule using an associated [action group](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups) or an [action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules)
     - Check if you have any rules that might prevent receiving emails from [Azure emails](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#action-specific-information)
@@ -49,6 +49,8 @@ If they are not what you want, edit the rule to match what you want.
 
     - The **Aggregation** in the metric chart is the same as **Aggregation type** in your alert rule
     - The **Time granularity** is set to be same as the **Aggregation granularity (period)** in your alert rule and not set to automatic
+
+6. If this is a [metric alert rule for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs), make sure that a corresponding ScheduledQueryRule, which converts the logs data into metrics, also exists in your environment. When creating a metric alert rule for logs via the Azure portal, the corresponding ScheduledQueryRule is created automatically, but if the metric alert rule was created programmatically, there's need to manually create the ScheduledQueryRule. See [here](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#resource-template-for-metric-alerts-for-logs) for more information on how to create the ScheduledQueryRule via an Azure Resource Manager template.
 
 ## **Recommended Documents**
 
