@@ -61,6 +61,8 @@ All transactional operations are propagated, including deletes. And analytical s
 - If a document is deleted in transactional store, it will also be deleted from analytical store despite both stores ttls
 - If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl
 - If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit
+- If you are using SQL API, it is "well defined schema" by default, meaning that the first document in the collection will defined the analytical store schema. Documents that violate that format won't be synced to analytical store.  
+
 
 ### **Spark data is not refreshing**
 
@@ -80,3 +82,5 @@ Thus, you can choose between loading to Spark DataFrame and creating a Spark tab
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
 <br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
+
+[Schema Representation](https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction#schema-representation)  .
