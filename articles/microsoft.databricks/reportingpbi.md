@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* PowerBI engine is case insensitive **by design** so it would consider 'AAA' and 'AaA' the same string which may lead to duplicates. This [blog](https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/) goes into more details and has a workaround to use the Unicode Zero-Width Space character.
+* PowerBI engine is case insensitive **by design**, so for example, it would consider "AAA"and "AaA" the same string. This can ead to duplicates. [Learn more](https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/), including a workaround to use the Unicode Zero-Width Space character.
 
 ## **Recommended Documents**
 
