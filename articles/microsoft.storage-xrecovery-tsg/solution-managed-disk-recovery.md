@@ -110,17 +110,17 @@ Locate disk and determine if it can be restored (Kusto)
 
 Execute in [Web](https://dataexplorer.azure.com/clusters/disks/databases/Disks?query=H4sIAAAAAAAAA11SQW7CMBC89xWrnEBKIOXSCyBVTVUhtRUK9Bw5zoa4GG9kO7RIPfQb%2FV5fUtugUDju7uzMztiZMNt8maOhTnN8FjXyA5f4uEdlb77go0GN8EJKWNJCbe7bVgrOrCAFsxlEWVhPuENrJjtTnKERjMewQgu2Qchx41emJ%2Fz0WM%2F%2Fwee9mulKw7VovciiCjKrfy1YZBEcuSXyI%2F3VvKfSJ1%20vbIfASVkmlIHIlwXVReYYLFaFv8qfmyQwDVCqA23l%20iNY1HCgDipSv98%2FFhq2xzDFT%20bk1RU%20DmBOnazAbEXrBsKAFApHZ4tLjVwYXIsdrizbtTCfwaBiFq3rDCbpJE3SuyS9HQ6D04eGyCAw8GMwDWkrD1BiTRp7Yai8GxeAU2k1vftsrnXiPpEnTV3rvcYXIcXQGuwqunyDGEpJ5ZuWcVAKnyOGfLlGxZT9A3NsM7xDAgAA)  [Desktop](https://disks.kusto.windows.net/Disks?query=H4sIAAAAAAAAA11SQW7CMBC89xWrnEBKIOXSCyBVTVUhtRUK9Bw5zoa4GG9kO7RIPfQb%2FV5fUtugUDju7uzMztiZMNt8maOhTnN8FjXyA5f4uEdlb77go0GN8EJKWNJCbe7bVgrOrCAFsxlEWVhPuENrJjtTnKERjMewQgu2Qchx41emJ%2Fz0WM%2F%2Fwee9mulKw7VovciiCjKrfy1YZBEcuSXyI%2F3VvKfSJ1%20vbIfASVkmlIHIlwXVReYYLFaFv8qfmyQwDVCqA23l%20iNY1HCgDipSv98%2FFhq2xzDFT%20bk1RU%20DmBOnazAbEXrBsKAFApHZ4tLjVwYXIsdrizbtTCfwaBiFq3rDCbpJE3SuyS9HQ6D04eGyCAw8GMwDWkrD1BiTRp7Yai8GxeAU2k1vftsrnXiPpEnTV3rvcYXIcXQGuwqunyDGEpJ5ZuWcVAKnyOGfLlGxZT9A3NsM7xDAgAA&web=0)  [cluster('disks.kusto.windows.net').database('Disks')](https://dataexplorer.azure.com/clusters/disks/databases/Disks)
 
-~~~Kusto query
+```Kusto query
    DiskRPResourceLifecycleEvent
    | where MonitoringApplication == "DiskRP-centralus_Monitoring" //-- Set the Region <DiskRP-<Region>_Monitoring>
    | where subscriptionId == "Subscription ID" //-- Select the Subscription ID
    | where resourceName contains "Name_of_Deleted_Disk" //-- <Name of the disk. If you don’t have the name of the disk, you could skip this line.>
    | where PreciseTimeStamp >= (datetime(2020-07-01)) //-- Choose a time shortly before the disk deletion
    | project PreciseTimeStamp, resourceGroupName, resourceName, pseudosubscriptionId, blobUrl, diskEvent, RPTenant
-~~~
+```
 2. Find the disk and verify the "diskEvent" is SoftDelete
 
-~~~output~~~
+```output
 1 "PreciseTimeStamp": 2020-07-09T15:07:58.9912377Z,
 2 "resourceGroupName": CENTRALRG,
 3 "resourceName": ASVM1_OsDisk1_a456be31d53e438080e281655d50bf81,
@@ -129,7 +129,7 @@ Execute in [Web](https://dataexplorer.azure.com/clusters/disks/databases/Disks?q
 6 "diskEvent": SoftDelete,
 7 "RPTenant": DiskRP-centralus,
 8
-~~~
+```
 3. Create an IcM to restore the disk<br>
 o Request Template: [IcM Template](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=HO3f2P)
 

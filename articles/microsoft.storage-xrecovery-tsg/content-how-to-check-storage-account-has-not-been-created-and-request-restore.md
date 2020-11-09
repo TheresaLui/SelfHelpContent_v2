@@ -58,7 +58,7 @@
 19. If the account is successfully recovered you will see properties listed. If something failed, you will see a blank screen indicating the account isn’t recovered.
 20. Also run an nslookup on the account FQDN to confirm DNS entries have been restored.
 
-~~~shell
+```shell
 
 SET SA={StorageAccountName}
 nslookup %SA%.blob.core.windows.net
@@ -66,4 +66,4 @@ nslookup %SA%.file.core.windows.net
 nslookup %SA%.table.core.windows.net
 nslookup %SA%.queue.core.windows.net
 
-~~~
+```
