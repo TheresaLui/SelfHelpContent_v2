@@ -17,19 +17,13 @@
 
 # Diagnose and resolve issues with Databricks access control
 
+ All non-admin users of Azure Databricks workspace simultaneously became unable to access the workspace by clicking the "Launch Workspace" button in the Azure Portal. When they attempt to do so, they receive an error message stating that they need to have Contributor or Owner permissions (Azure RBAC) on the workspace resource. However, the Contributor and Owner RBAC roles grant Databricks admin permissions, which is not appropriate for non-admin users.
+ 
+A regular Databricks platform update added additional logic to be executed when the "Launch Workspace" button is clicked in the Azure Portal. Some of the new logic entailed administrative initialization/reinitialization tasks. Accordingly, the ability to click the button was restricted to users with "write" permissions on the workspace resource: Contributors and Owners.
+
 ## **Recommended Steps**
 
-* **Problem** 
-
-  All non-admin users of Azure Databricks workspace simultaneously became unable to access the workspace by clicking the "Launch Workspace" button in the Azure Portal. When they attempt to do so, they receive an error message stating that they need to have Contributor or Owner permissions (Azure RBAC) on the workspace resource. However, the Contributor and Owner RBAC roles unavoidably grant Databricks admin permissions, which is undesired for non-admin users.
- 
-  **Cause**
-  
-  A regular Databricks platform update added additional logic to be executed when the "Launch Workspace" button is clicked in the Azure Portal. Some of the new logic entailed administrative initialization/reinitialization tasks. Accordingly, the ability to click the button was restricted to users with "write" permissions on the workspace resource: Contributors and Owners.
- 
-  **Solution**
-  
-  Non-admin users may still access the workspace by directly navigating to the workspace URL. For convenience, the workspace URL is displayed in the Azure Portal above and to the right of the "Launch Workspace" button.
+Non-admin users may still access the workspace by directly navigating to the workspace URL. For convenience, the workspace URL is displayed in the Azure Portal above and to the right of the "Launch Workspace" button.
  
 * User provisioning and permissions configuration in Azure Databricks - **capabilities and best practices**:
     * You can [add a user](https://docs.microsoft.com/azure/databricks/administration-guide/users-groups/users) to (within) a Databricks workspace without having to grant them any Azure RBAC role on the workspace resource (in the Azure Portal).
