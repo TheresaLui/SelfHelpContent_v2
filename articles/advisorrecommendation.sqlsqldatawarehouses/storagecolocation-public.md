@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "314a2614-24d3-496c-b9d6-e6cd3df4b6c2",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('sqladhoc.kustomfa.windows.net').database('sqlazure1').dw_advisor_Load_StorageAccount",
+    "streamNamespace": "cluster('https://sqladhoc.kusto.windows.net').database('sqlazure1').dw_advisor_Load_StorageAccount",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
