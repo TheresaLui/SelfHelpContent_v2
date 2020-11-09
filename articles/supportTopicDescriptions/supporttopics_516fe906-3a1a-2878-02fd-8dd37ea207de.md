@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "644acb3c-e490-6780-d5c0-b507e4bea148",
+      "longDescription": "",
+      "shortDescription": "Problems with unlocking your PC or signing in with FIDO2 security keys",
+      "searchTags": "FIDO;FIDO2;security keys;unlock PC",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67c9c2fc-2ed1-efc5-dc4c-73074b8c16ff",
       "longDescription": "",
       "shortDescription": "Initial deployment or unexpected results when apply password protection in on-prem AD",
