@@ -83,4 +83,4 @@ Thus, you can choose between loading to Spark DataFrame and creating a Spark tab
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
 <br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
 
-[Schema Representation](https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction#schema-representation)  .
+[Schema Representation](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#schema-representation)  .
