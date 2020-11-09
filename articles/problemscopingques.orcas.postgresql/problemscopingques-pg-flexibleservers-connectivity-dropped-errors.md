@@ -4,8 +4,8 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32731217,32639977, 32780960, 32780961, 32780962, 32780963"
-	productPesIds="16222, 17069"
+	supportTopicIds="32780960, 32780962"
+	productPesIds="17069"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-flexibleservers-connectivity-dropped-errors"
@@ -234,7 +234,7 @@
             "order": 16,
             "controlType": "dropdown",
             "displayLabel": "Are you using a connection pooler?",
-            "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
+            "infoBalloonText": "We highly recommended using a connection pooler while connecting to the server.",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -285,7 +285,7 @@
             "order": 20,
             "visibility": "query_running == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Can you Provide the query that is impacted more often?",
+            "displayLabel": "Can you provide the query that is impacted more often?",
             "required": false
         },
         {
