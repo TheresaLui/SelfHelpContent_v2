@@ -16,9 +16,9 @@
    "$schema":"AdvisorRecommendation",
    "recommendationTypeId":"1b94aa41-a51e-4cad-98fb-3a44447d5997",
    "dataSourceMetadata":{
-      "streamNamespace":"cluster('https://cogsvcmc2.kusto.chinacloudapi.cn').database('Platform').TAResourcesWithOldSDK",
+      "streamNamespace":"cluster('https://cogsvcmc2.chinaeast2.kusto.chinacloudapi.cn').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"00:01:00"
+      "refreshInterval":"01:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
