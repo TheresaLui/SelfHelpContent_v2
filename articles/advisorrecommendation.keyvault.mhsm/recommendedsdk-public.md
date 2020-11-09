@@ -67,7 +67,7 @@
 	"displayLabel": "Update Key Vault Library",
 	"additionalColumns": [
 		{
-			"name": "language",
+			"name": "lan",
 			"title": "Detected language"
 		},
 		{
