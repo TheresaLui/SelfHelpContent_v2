@@ -5,15 +5,15 @@
     ms.author="kevin"
     articleId="dd93fbbf-e5ef-4c7c-886e-2bfef0958f45_public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    cloudEnvironments="Public"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 
 # Split staged files in the storage account to increase load performance
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dd93fbbf-e5ef-4c7c-886e-2bfef0958f45",
   "dataSourceMetadata": {
