@@ -22,7 +22,7 @@
 <!--issueDescription-->
 Your Cache **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** is a cache from the **Basic** tier, which is a simplified service ideal for development and testing.
 
-These caches do not have high availability, and are expected to incur in data loss or brief unavailability whenever a maintenance operation is performed on the underlying resources (such as reboots or patching). There is no Service Level Agreement on Basic tier. If you are using this cache for production, it is highly recommended to upgrade to a Standard or Premium tier.
+These caches do not have high availability, and are expected to incur in data loss or brief unavailability whenever a maintenance operation is performed on the underlying resources, such as reboots or patching. There is no Service Level Agreement on Basic tier. If you are using this cache for production, we highly recommend upgrading to a Standard or Premium tier.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
