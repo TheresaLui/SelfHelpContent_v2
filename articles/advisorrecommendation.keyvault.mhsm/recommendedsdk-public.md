@@ -17,7 +17,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://azuremanagedhsmprod.kusto.windows.net').database('azuremanagedhsmprod').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
-		"refreshInterval": "1.00:00:00"
+		"refreshInterval": "00:30:00"
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
@@ -67,12 +67,16 @@
 	"displayLabel": "Update Key Vault Library",
 	"additionalColumns": [
 		{
+			"name": "language",
+			"title": "Detected language"
+		},
+		{
 			"name": "sdk",
-			"title": "SDK Product"
+			"title": "Detected SDK"
 		},
 		{
 			"name": "currentVersion",
-			"title": "The detected version used"
+			"title": "Detected version"
 		}
 	],
 	"tip": ""
