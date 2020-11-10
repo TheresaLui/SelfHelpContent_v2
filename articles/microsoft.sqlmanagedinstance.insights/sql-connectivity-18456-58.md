@@ -8,7 +8,7 @@
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sql_connectivity_18456_58"
-	diagnosticScenario="SqlLoginError18456"
+	diagnosticScenario="SqlMILoginError18456"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
