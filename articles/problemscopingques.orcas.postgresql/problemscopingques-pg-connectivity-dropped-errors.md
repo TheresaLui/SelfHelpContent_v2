@@ -309,7 +309,7 @@
             "id": "problem_description",
             "order": 22,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
+            "displayLabel": "Please provide the repro steps and other information about your issue.",
             "required": true,
             "useAsAdditionalDetails": true
         }
