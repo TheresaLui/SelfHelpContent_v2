@@ -4,8 +4,8 @@
 	infoBubbleText="Found an ongoing scale issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="ansinh,andikshi"
-	ms.author="ansinh"
+	authors="Anvesha4,andikshi"
+	ms.author="ansinh,andikshi"
 	displayOrder="17"
 	articleId="UpdateSloSlowDuetoWorkload_3208A0BE-EA03-4A0E-B7C9-0A2219299B4F"
 	diagnosticScenario="DiagnosticId.SqlProvision"
@@ -14,7 +14,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 # We ran diagnostics on your resource and found an ongoing scale issue
 
