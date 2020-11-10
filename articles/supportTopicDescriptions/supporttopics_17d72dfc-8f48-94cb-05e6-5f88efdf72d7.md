@@ -267,7 +267,7 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": ".",
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure VM",
       "searchTags": "IaaS;virtual machine",
       "category": "backup, restore, configuration",
       "useInDiagnoseAndSolve": "false"

@@ -1,22 +1,22 @@
-﻿<properties pageTitle="Unable to connect to AlwaysOn AG, FCI or Listener"
-  description="Unable to connect to AlwaysOn AG, FCI or Listener"
+﻿<properties pageTitle="Cannot Connect to SQL Instance"
+  description="Cannot Connect to SQL Instance"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740110"
+  supportTopicIds="32740109"
   productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
-  articleId="6c9a1aeb-88d0-4401-9526-905ba396e687"
+  articleId="af5b32e5-3760-442b-8a81-65fb35a1a5d0"
  ownershipId="AzureData_AzureSQLVM"
 />
-# Unable to connect to AlwaysOn AG, FCI or Listener
+# Cannot Connect to SQL Instance
 ---
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Unable to connect to AlwaysOn AG, FCI or Listener",
+    "title": "Cannot Connect to SQL Instance",
     "fileAttachmentHint": null,
     "formElements": [
         {
