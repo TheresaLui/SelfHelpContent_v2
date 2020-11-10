@@ -28,7 +28,7 @@ Before the scale operation switches the database to the target performance tier,
 
 ## **Recommended Steps**
 Please close any open transactions on your database to speed up the scale operation and avoid long recovery.
-You can use the [sys.dm_tran_active_transactions](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-tran-active-transactions-transact-sql?view=sql-server-ver15) DMV to view the open transations. 
+You can use the [sys.dm_tran_active_transactions](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-tran-active-transactions-transact-sql?view=sql-server-ver15) DMV to view the open transactions. 
 
 ## **Recommended Documents**
 
@@ -37,4 +37,4 @@ You can use the [sys.dm_tran_active_transactions](https://docs.microsoft.com/sql
 * [Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)
 * [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)
 * [Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)
-* To identify the top resource consuming and long-running queries in your workload use [Query Performance Insight](https://docs.microsoft.com/en-us/azure/azure-sql/database/query-performance-insight-use)
+* To identify the top resource consuming and long-running queries in your workload use [Query Performance Insight](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use)
