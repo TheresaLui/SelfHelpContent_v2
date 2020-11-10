@@ -43,7 +43,7 @@
             "required": false
         },
         {
-	    "id": "problem_description",
+	    "id": "problem_IDs",
 	    "order": 4,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Helpful IDs",
@@ -59,6 +59,15 @@
 	    }
 	    ]
 	}
+	{
+            "id": "problem_description",
+            "order": 100,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
     ]
 }
 ---
