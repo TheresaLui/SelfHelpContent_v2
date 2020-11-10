@@ -6,7 +6,7 @@
     articleId="01dea77b-3ca4-4583-9b09-88f5a8fd5857_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 # Update statistics on table columns
 ---

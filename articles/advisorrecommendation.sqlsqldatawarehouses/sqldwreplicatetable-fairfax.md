@@ -6,7 +6,7 @@
     articleId="293984cf-b551-461f-b22d-9659ebd09a4f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 # Convert tables to replicated tables with SQL Data Warehouse
 ---
