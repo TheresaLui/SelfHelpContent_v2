@@ -4,19 +4,19 @@
     authors="seanliang"
     ms.author="zhlian"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639972"
+    supportTopicIds="32639972, 32780895, 32780905"
     productPesIds="16222,17067,17069,17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-portalclient-driver"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Portal, Client Tools and APIs - Client drivers and API’s
+# Portal, Client Tools and APIs - Client drivers and API's
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Tools and APIs Client drivers and API’s",
+    "title": "Tools and APIs Client drivers and API's",
     "fileAttachmentHint": "",
     "formElements": [
         {

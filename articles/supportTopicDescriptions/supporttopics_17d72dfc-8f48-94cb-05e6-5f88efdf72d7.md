@@ -7,7 +7,7 @@
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
-  ownershipid=""
+  ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -267,7 +267,7 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": ".",
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure VM",
       "searchTags": "IaaS;virtual machine",
       "category": "backup, restore, configuration",
       "useInDiagnoseAndSolve": "false"
@@ -347,7 +347,7 @@
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Backup failing with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and other guest agent issues.",
+      "shortDescription": "Backup failed with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and similar error codes related to VM guest agent.",
       "searchTags": "backup;failed;agent",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
