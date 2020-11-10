@@ -1,14 +1,16 @@
 <properties
-	pageTitle="Poor audio and/or video quality"
-	description="Poor audio and/or video quality"
+	pageTitle="Message delivery and performance"
+	description="Message delivery and performance"
 	ms.author="manoskow"
+	authors="manoskow"
+	displayOrder=""
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756373"
 	productPesIds="17327"
 	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId=""
+	articleId="acs-smsqualityissues"
 	ownershipId="AzureCommunicationServices"
+	schemaVersion="1"
 />
 # SMS quality issues
 ---
@@ -16,37 +18,47 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "SMS delivery performance and reliability",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "problem_start_time",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": false
-		}, {
-            "id": "problem_end_time",
+  "title": "SMS message delivery quality and performance",
+  "fileAttachmentHint": "",
+  "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+	},
+        {
+            "id": "problem end time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
-            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
-        },  {
-			"id": "problem_description",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Helpful IDs",
-			"watermarkText": "Provide the MS-CV ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "MS-CV"
-				}, {
-					"text": "Please enter the MS-CV associated with the message requests that failed or were slow."
-				}
-			]
-		}
-	]
+            "displayLabel": "When did the problem end? If the issue is ongoing leave this blank.",
+            "required": false
+	},
+	{
+            "id": "problem_sdk",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the SDK and the version being used for development ",
+            "required": false
+        },
+        {
+	    "id": "problem_IDs",
+	    "order": 4,
+	    "controlType": "multilinetextbox",
+	    "displayLabel": "Helpful IDs",
+	    "watermarkText": "Provide the MS-CV to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "required": false
+	},
+	{
+            "id": "problem_description",
+            "order": 100,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ]
 }
 ---
