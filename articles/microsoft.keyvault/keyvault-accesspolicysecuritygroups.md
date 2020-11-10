@@ -40,13 +40,13 @@
 * Click on the Access Policies Tab.
 * Find the service principal / security group and confirm the permissions assigned.
 
-**You can’t find the service principal to add access.**
-* Confirm that the service principal has a role assignment to your subscription in AAD.
-* Go to Azure Active Directory on the Azure Portal.
-* Click the “Users” tab.
-* Search for the user you are trying to add.
-* Click the Azure Role Assignments tab.
-* Confirm the user has the appropriate role assignment in the scope of your subscription.
+**You can’t find the service principal in the key vault Access Policy tab.**
+* Confirm that the service principal has a role assignment to your key vault in Azure Active Directory.
+* Navigate to Azure Active Directory in the Portal.
+* Click the Users tab.
+* Search for the service principal you are looking for.
+* Click the Role Assignments tab.
+* Confirm that the user has a role assignment for your key vault.
 
 ## **Recommended Documents**
 
