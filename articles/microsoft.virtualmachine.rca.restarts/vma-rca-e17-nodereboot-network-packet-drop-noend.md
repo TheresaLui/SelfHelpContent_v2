@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeReboot - Workflow TimeOut - HyperV"
+	description="RCA - E17 NodeReboot - Network Packet Drop"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
-	articleId="VMA_RCA_Software_NodeReboot_WorkflowTimeOut_HyperV"
+	articleId="VMA_RCA_E17_NodeReboot_Network_Packet_Drop_noend"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -20,24 +20,21 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems detecting that the physical node was not successfully responding to VM operations. We identified that this was caused due to a hyper-v related platform bug involving local (VM) storage stack. 
+> The physical node where the virtual machine was hosted experienced a **platform bug involving the NIC firmware and drivers used for the Accelerated Networking**. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts.
 > 
 
 <!--resolutionDetails-->
 ### *Resolution*
-> VMs that could be relocated to different, healthy nodes were automatically moved before the host node was rebooted. > 
-<!--/resolutionDetails-->
-
-<!--additionalInfo-->
-### *Additional Information*
-> Our core platform engineers are currently working on the solution for this issue and to improve the platform to reduce incidences of virtual machine unavailability.
+> VM Services were restored following the reboot. 
 > 
-<!--/additionalInfo-->
+> Our engineering team is proactively applying a temporary mitigation to all affected nodes and actively rolling out a hotfix.
+> 
+<!--/resolutionDetails-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
