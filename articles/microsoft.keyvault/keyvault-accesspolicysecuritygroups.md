@@ -26,12 +26,10 @@
 **Troubleshooting Steps**
 
 **You have an Administrator role, but can’t perform an operation on a key vault.** 
-* Although having an admin role will allow you to grant yourself access to perform operations, for security, these operations are not necessarily granted by default.
-* Go to your key vault in the Azure Portal and click on the Access Control tab.
-* Confirm that you have administrator, owner, or contributor permissions in the scope of this key vault by clicking “View my Access”.
-* Click on the Access Policies tab.
-* Find your service principal in the list.
-* Confirm that you have been granted access to the key, secret, or certificate option you are trying to perform.
+* Navigate to your key vault in the Azure portal and click in the Access Control tab.
+* Confirm that you have sufficient permissions by clicking View my Access.
+* Click the Access Policies tab.
+* Confirm that your service principal has permissions for the operation you are trying to perform.
 
 **You granted access to a security group, but members still cannot perform an operation.**
 * Permissions for security groups can take up to 24 hours in the worst case to propagate to all users, though it usually completes sooner. If you need to grant immediate 	access, try adding the service principal manually by adding a new access policy for that service principal. The assignment will take effect immediately.
