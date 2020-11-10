@@ -34,5 +34,7 @@ The scale operation is implemented as a copy of data between instances with diff
 
 * [Use Query performance insights to identify the queries which are causing the high CPU/IO consumption](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance)
 * [Enableing Automatic tuning provides peak performance and stable workloads through continuous performance tuning by utilizing Artificial Intelligence](https://docs.microsoft.com/azure/sql-database/sql-database-automatic-tuning)
-* [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
+* [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)
 * [Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)
+* [Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)
+* [Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)
