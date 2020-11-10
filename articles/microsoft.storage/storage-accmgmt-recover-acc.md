@@ -20,15 +20,19 @@
 
 ### **Storage Account Recovery**
 
-You can initiate the recovery of your storage account directly from the portal. Click on the link below to recover your storage account: <br />
+You can initiate the recovery of your storage account directly from the portal. <br />
 
-### [**Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br />
+
 
 Please note that certain conditions need to be met for a storage account to be recoverable:
 
 1. A new storage object with the same name has not be re-created since deletion.
 2. The storage account was deleted in the last 14 days.
 3. It is not a classic storage account.
+
+ Click on the link below to recover your storage account:
+ 
+### [**Click here to recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br />
 
 ### **Container**, **Blob** and **Disk** Recovery
 
