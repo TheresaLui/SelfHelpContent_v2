@@ -1,5 +1,5 @@
 <properties
-  pagetitle="SQL VM Resource provider or IaaS Extension  "
+  pagetitle="SQL VM Resource provider or IaaS Extension  &#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -15,7 +15,7 @@
  
 SQL Resource Provider and its features are free for use. You can fix most SQL VM Resource Provider or IaaS Extension issues by uninstalling and reinstalling it. 
 
-## Common Issues 
+## **Recommended Steps**
 
 **Notifications for Resource Provider Auto Registration** 
 
