@@ -18,11 +18,11 @@
 
 # Recover deleted storage account
 
-## **Storage Account Recovery**
+### **Storage Account Recovery**
 
 You can initiate the recovery of your storage account directly from the portal. Click on the link below to recover your storage account: <br />
 
-## [**Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br />
+### [**Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br />
 
 Please note that certain conditions need to be met for a storage account to be recoverable:
 
@@ -30,18 +30,18 @@ Please note that certain conditions need to be met for a storage account to be r
 2. The storage account was deleted in the last 14 days.
 3. It is not a classic storage account.
 
-## **Container**, **Blob** and **Disk** Recovery
+### **Container**, **Blob** and **Disk** Recovery
 
-### **Soft-Delete**:
+#### **Soft-Delete**:
 
 1. Check if you have soft-delete enabled for your container/blob.
 2. If enabled, you can undelete your container/blob if you are still in your retention period. 
 
-For more information on how to recover a container or a bob using soft-delete, [click here](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-overview?WT.mc_id=Portal-Microsoft_Azure_Support).
+For more information on how to recover a container or a bob using soft-delete, [click here](https://docs.microsoft.com/azure/storage/blobs/soft-delete-blob-overview?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 3. If soft-delete is not enabled, **your container/blob/disk can only be recovered if the following conditions are true**:
 
-### **Container** recovery:
+#### **Container** recovery:
 
 1. The container was deleted in the last 14 days<br>
 2. Storage account replication is configured as one of the following (we need the geo-replicated data for recovery):
@@ -51,7 +51,7 @@ For more information on how to recover a container or a bob using soft-delete, [
    * [Geo-zone-redundant storage (GZRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
 3. A new storage object with the same name has not be re-created since deletion.
 
-### **Blob and disk** recovery:
+#### **Blob and disk** recovery:
 
 1. This is a critical production data
 2. Blob was deleted in the last:<br>
@@ -61,7 +61,7 @@ For more information on how to recover a container or a bob using soft-delete, [
 3. A new storage object with the same name has not be re-created since deletion. 
 
 
-### **Resource group** recovery:
+#### **Resource group** recovery:
 
 **We cannot recover a deleted resource group.** We can only attempt to recover deleted storage accounts within the resource group that was deleted in the last 14 days. All other resources will need to be manually rebuilt.
 <br />
