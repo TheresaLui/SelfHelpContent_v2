@@ -23,7 +23,7 @@
 1. Assign access policies [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
 1. Assign Azure roles [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
 
-**Troubleshooting**
+## **Troubleshooting**
 
 1. **You have an Administrator role, but can’t perform an operation on a key vault.** 
 	* Although having an admin role will allow you to grant yourself access to perform operations, for security, these operations are not necessarily granted by default. 
