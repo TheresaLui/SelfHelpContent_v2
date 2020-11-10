@@ -1,29 +1,29 @@
 <properties
-pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+pageTitle="Issues with Monitoring"
+description="Issues with Monitoring"
 service="microsoft.servicebus"
-resource="errorMessageTypes"
+resource="monitorIssueTypes"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633402"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-debug-monitor-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Monitor and Debug 
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Issues with Monitoring",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,16 +88,22 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_metrics",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
-            "required": true
+            "displayLabel": "Please include the type of metrics you are trying to setup?",
+            "required": false
+        },
+        {
+            "id": "problem_alert",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please include the type of alerts you are trying to setup?",
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

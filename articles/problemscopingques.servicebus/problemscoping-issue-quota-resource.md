@@ -1,29 +1,29 @@
 <properties
-pageTitle="Unexpected Service Behavior"
-description="Message Lost or duplicate message issues"
+pageTitle="Quota Issues"
+description="Quota Issues"
 service="microsoft.servicebus"
-resource="errorMessageTypes"
+resource="quotaChangeRequest"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633401,32633397"
+supportTopicIds="32633390"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="sb-message-lost-issue"
+articleId="sb-quota-request-resource"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
-# Message Lost or duplicate message issues
+# Quota Issues
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Message Lost or duplicate message issues",
+    "title": "Quota Issues",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+		{
             "id": "servicebus_feature",
             "order": 1,
             "controlType": "dropdown",
@@ -88,16 +88,23 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_messageId",
+            "id": "problem_QuotaChange",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Message ID and Enqueue time for the message",
-            "watermarkText": "Enter the Message ID",
-            "required": true
+            "displayLabel": "What quota increase are you requesting for?",
+            "required": false
+        },
+        {
+            "id": "problem_Reason",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Enter your justification for increase the quota",
+            "watermarkText": "Provide your reasoning for quota change request",
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
