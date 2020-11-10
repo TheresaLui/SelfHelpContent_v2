@@ -16,8 +16,9 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
+# We ran diagnostics on your resource and found an issue
 
-# Login failed because password did not match that for the user provided
+## **Login failed because password did not match that for the user provided**
 
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.

@@ -16,7 +16,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
-# Login failed - the specified user could not be found
+# We ran diagnostics on your resource and found an issue
 
 ## **Login failed, the specified user could not be found**
 

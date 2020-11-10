@@ -16,8 +16,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
-
-# Login failed - the database specified was not found on the server
+# We ran diagnostics on your resource and found an issue
 
 ## **Login failed, the database specified was not found on the server**
 

@@ -18,6 +18,8 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+## **Login failed due to invalid credentials**
+
 <!--issueDescription-->
 Connection attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** have recently failed due to invalid credentials. To resolve this issue, contact your service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
 <!--/issueDescription-->
