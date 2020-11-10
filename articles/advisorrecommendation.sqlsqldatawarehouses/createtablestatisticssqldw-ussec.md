@@ -6,7 +6,7 @@
     articleId="ef14bcc2-41a5-41f6-bca8-10764cfbdee0_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
-	ownershipId="AzureData_SynapseAnalytics"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 # Create statistics on table columns
 ---
