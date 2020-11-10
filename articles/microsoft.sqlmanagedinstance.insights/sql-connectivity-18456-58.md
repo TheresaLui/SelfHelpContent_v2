@@ -16,9 +16,8 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLMI_Connectivity"
 />
-# Login failed due to empty username
 
-## **Login failed due to empty username**
+# Login failed due to empty username
 
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.

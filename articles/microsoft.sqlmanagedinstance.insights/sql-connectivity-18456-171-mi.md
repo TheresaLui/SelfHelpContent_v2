@@ -19,8 +19,6 @@
 
 # Login failed due to invalid TLS version
 
-## **Login failed due to invalid TLS version**
-
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
