@@ -9,7 +9,7 @@
     supportTopicIds="32781399"
     resourceTags=""
     productPesIds="15526"
-    ownershipId="Centennial_Cloudnet_VirtualNetwork"
+    ownershipId="CloudNet_VirtualNetwork"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2187bd76-bd45-43bf-ad90-5aa286f9e04f"
 />
