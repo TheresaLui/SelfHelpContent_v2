@@ -49,15 +49,7 @@
 	    "displayLabel": "Helpful IDs",
 	    "watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
 	    "required": false,
-	    "useAsAdditionalDetails": true,
-	    "hints": [
-	    {
-		"text": "MS-CV, Call ID, or chat thread ID"
-	    },
-	    {
-		"text": "Please enter the MS-CV, Call ID, or chat thread ID associated with the Events or Notifications that are failing."
-	    }
-	    ]
+	    "useAsAdditionalDetails": true
 	},
 	{
             "id": "problem_description",
