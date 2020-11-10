@@ -4,11 +4,11 @@
 	infoBubbleText="Found an ongoing scale issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="Anvesha4"
+	authors="Anvesha4,andikshi"
 	ms.author="ansinh"
 	displayOrder="17"
 	articleId="UpdateSloSlowDuetoWorkload_3208A0BE-EA03-4A0E-B7C9-0A2219299B4F"
-	diagnosticScenario=""
+	diagnosticScenario="DiagnosticId.SqlProvision"
 	selfHelpType="Diagnostics"
 	supportTopicIds="32574333"
 	resourceTags="servers, databases"
@@ -32,7 +32,8 @@ The scale operation is implemented as a copy of data between instances with diff
 
 ## **Recommended Documents**
 
-* [Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
-* [Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)<br>
+* [Use Query performance insights to identify the queries which are causing the high CPU/IO consumption](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance)
+* [Enable Automatic tuning provides peak performance and stable workloads through continuous performance tuning utilizing Artificial Intelligence](https://docs.microsoft.com/azure/sql-database/sql-database-automatic-tuning)
+* [If the workload is varying, then consider moving few databases into SQL elastic pool to share DTUs](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool)
 * [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
 * [Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)
