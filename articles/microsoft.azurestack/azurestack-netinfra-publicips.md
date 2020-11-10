@@ -35,3 +35,4 @@ For more detailed instructions, see [Add the IP address range to Azure Stack Hub
 * [Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
 * [View Public IP Address Consumption in Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption#view-public-ip-address-consumption-in-azure-stack-hub)
 * [REST API to list public IP addresses](https://docs.microsoft.com/rest/api/azurestack/publicipaddresses/list)
+* [Logical networks or public IPs](https://docs.microsoft.com/azure-stack/operator/azure-stack-network?view=azs-2002#logical-networks)
