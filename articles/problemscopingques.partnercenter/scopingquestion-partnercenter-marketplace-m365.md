@@ -74,7 +74,7 @@
        },
        {
 	   "id": "pc_application_type",
-       "order": 4,
+       "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Application",
        "watermarkText":"Please select the Application from the below list",
@@ -112,7 +112,7 @@
        },
        {
 	   "id": "additional_emails_for_notification",
-	   "order": 5,
+	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional emails for notification",
 	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
@@ -120,7 +120,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 6,
+	   "order": 7,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Submission Date",
 	   "watermarkText": "When did your issue begin?",
@@ -128,7 +128,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 7,
+	   "order": 8,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
