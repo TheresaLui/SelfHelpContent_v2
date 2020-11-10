@@ -4,7 +4,7 @@
 	infoBubbleText="Found an ongoing scale issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="Anvesha4,andikshi"
+	authors="ansinh,andikshi"
 	ms.author="ansinh"
 	displayOrder="17"
 	articleId="UpdateSloSlowDuetoWorkload_3208A0BE-EA03-4A0E-B7C9-0A2219299B4F"
