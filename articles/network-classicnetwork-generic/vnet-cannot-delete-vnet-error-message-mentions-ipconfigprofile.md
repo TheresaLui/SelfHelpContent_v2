@@ -28,6 +28,8 @@ If you deployed Azure container instances, and have not cleaned up those resourc
 
 4. Select **Delete**.
 
+![Delete network profile](https://docs.microsoft.com/azure/virtual-network/media/virtual-network-troubleshoot-cannot-delete-vnet/container-instances.png)
+
 5. Delete the subnet or virtual network again.
 
 If these steps don't resolve the issue, use these Azure CLI commands to clean up resources:
