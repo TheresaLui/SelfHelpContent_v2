@@ -4,7 +4,7 @@
 	ms.author="manoskow"
 	authors="manoskow"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="352c43aa-0119-a6db-6266-1d8235027292, 64c1e86e-b3db-b96b-33d9-778b305e176b, 8d691fe4-a064-4405-52fe-4f86003be0e4"
+	supportTopicIds="32756383, 32756380, 32756372"
 	productPesIds="17327"
 	cloudEnvironments="public"
 	schemaVersion="1"
