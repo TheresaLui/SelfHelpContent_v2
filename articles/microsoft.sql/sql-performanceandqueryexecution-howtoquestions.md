@@ -20,7 +20,6 @@
 ## Choosing the right service tier.
 
 If you are new to Azure SQL Database and are seeking guidance on choosing the right service tier please refer [Choosing the Right Database Reservation Size](https://techcommunity.microsoft.com/t5/sql-customer-success-engineering/azure-sql-db-design-note-choosing-the-right-database-reservation/ba-p/872825).
-
 If you have decided to go with a DTU based model and are not able to identify the right DTU value refer our [DTU Calculator](https://dtucalculator.azurewebsites.net/).
 
 ## Partition the database
@@ -38,6 +37,6 @@ The elastic query feature (in preview) enables you to run a Transact-SQL query t
 ## **Recommended Documents**
 
 * Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. To resolve either of these issues, review [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
-* [Overview of Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/sql-database-paas-overview)
-* [Azure SQL Database documentation](https://docs.microsoft.com/azure/azure-sql/database/)
+* [Overview of Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/sql-database-paas-overview).
+* [Azure SQL Database documentation](https://docs.microsoft.com/azure/azure-sql/database/).
 
