@@ -12,7 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-network-publicips"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Add or remove a public IP to a pool in Azure Stack
