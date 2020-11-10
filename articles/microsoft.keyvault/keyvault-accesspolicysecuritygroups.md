@@ -20,8 +20,8 @@
 ## **Recommended Steps**
 
 1. Use Azure individual identity or security group
-1. Assign access policies [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
-1. Assign Azure roles [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
+1. Assign access policies: [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
+1. Assign Azure roles: [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
 
 **Troubleshooting Steps**
 
@@ -32,7 +32,7 @@
 * Confirm that your service principal has permissions for the operation you are trying to perform.
 
 **You granted access to a security group, but members still cannot perform an operation.**
-* Permissions for security groups can take up to 24 hours in the worst case to propagate to all users, though it usually completes sooner. If you need to grant immediate 	access, try adding the service principal manually by adding a new access policy for that service principal. The assignment will take effect immediately.
+* Permissions for security groups can take up to 24 hours at most to propagate to all users, though it usually completes sooner. If you need to grant immediate access, try adding the service principal manually by adding a new access policy for that service principal. The assignment will take effect immediately.
 
 **You had access to perform an operation before, but it no longer works.**
 * Make sure that the permissions for your service principal and/or security principal have not been changed.
