@@ -27,7 +27,7 @@
 
 **You have an Administrator role, but can’t perform an operation on a key vault.** 
 * Although having an admin role will allow you to grant yourself access to perform operations, for security, these operations are not necessarily granted by default.
-* Go to your key vault in the Azure Portal and click on the Access Control (IAM) tab.
+* Go to your key vault in the Azure Portal and click on the Access Control tab.
 * Confirm that you have administrator, owner, or contributor permissions in the scope of this key vault by clicking “View my Access”.
 * Click on the Access Policies tab.
 * Find your service principal in the list.
