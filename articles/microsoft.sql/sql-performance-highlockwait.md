@@ -20,7 +20,7 @@
 # High Lock Waits Detected
 
 <!--issueDescription-->
-We ran diagnostics and detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** is experiencing high wait times due to locking. Between **<!--$StartTime-->StartTime<!--/$StartTime-->** and **<!--$EndTime-->EndTime<!--/$EndTime-->**, we detected over ten 15-minute intervals with average lock times of more than 60 seconds.
+We detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** is experiencing high wait times due to locking. Between **<!--$StartTime-->StartTime<!--/$StartTime-->** and **<!--$EndTime-->EndTime<!--/$EndTime-->**, we detected over ten 15-minute intervals with average lock times of more than 60 seconds.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -31,7 +31,7 @@ To improve performance, follow these steps:
 1. Identify which type of locks have the longest waits.
 2. [Identify which queries may be blocking.](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure)
 3. Verify the isolation levels and determine whether there are any locking hints used.
-4. Tune the blocking queries and adjust transaction size and durationw where possible.
+4. Tune the blocking queries and adjust transaction size and duration where possible.
 
 ## **Recommended Documents**
 
