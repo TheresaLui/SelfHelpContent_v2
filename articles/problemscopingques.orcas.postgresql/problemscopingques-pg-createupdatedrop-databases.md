@@ -107,7 +107,7 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Please provide the repro steps and other information about your issue",
