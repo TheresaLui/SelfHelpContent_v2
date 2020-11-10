@@ -26,7 +26,7 @@
 **Troubleshooting Steps**
 
 **You have an Administrator role, but can’t perform an operation on a key vault.** 
-* Navigate to your key vault in the Azure portal and click in the Access Control tab.
+* Navigate to your key vault in the Azure Portal and click in the Access Control tab.
 * Confirm that you have sufficient permissions by clicking View my Access.
 * Click the Access Policies tab.
 * Confirm that your service principal has permissions for the operation you are trying to perform.
@@ -42,7 +42,7 @@
 
 **You can’t find the service principal in the key vault Access Policy tab.**
 * Confirm that the service principal has a role assignment to your key vault in Azure Active Directory.
-* Navigate to Azure Active Directory in the Portal.
+* Navigate to Azure Active Directory in the portal.
 * Click the Users tab.
 * Search for the service principal you are looking for.
 * Click the Role Assignments tab.
