@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Enable Autopause and Autoscale properties on spark compute"
-    description="Enable Autopause and Autoscale properties on spark compute"
+    pageTitle="Enable autoscale properties on spark compute"
+    description="Enable autoscale properties on spark compute"
     authors="srthatip"
     ms.author="srthatip"
     articleId="018da770-932b-4fce-92e4-efc51f411279_public"
@@ -9,7 +9,7 @@
     ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 
-# Consider enabling Autoscale feature on spark pool for better performance
+# Consider enabling autoscale feature on spark compute for better performance
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
@@ -21,8 +21,8 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "Performance",
-  "recommendationImpact": "High",
+  "recommendationCategory": "Cost",
+  "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
   "recommendationFriendlyName": "EnableAutoScaleAutoPauseGuidance",
   "recommendationMetadataState": "Active",
@@ -36,15 +36,15 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 5.0,
+  "version": 6.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-autoscale",
-  "description": "Consider enabling Autoscale feature on spark pool.",
+  "description": "Consider enabling autoscale feature on spark compute.",
   "longDescription": "Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down. There's no additional charge for this feature.",
-  "potentialBenefits": "Enabling Autoscale comes at 0 cost and will help increase load throughput and improve performance",
+  "potentialBenefits": "Enabling autoscale comes at 0 cost and will reduce job failures.",
   "actions": [
     {
       "actionId": "79444364-79be-4656-99b9-9919daedfb96",
-      "description": "Consider enabling Autoscale feature on spark pool",
+      "description": "Consider enabling autoscale feature on spark compute",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-autoscale"
     }
@@ -60,14 +60,14 @@
       }
     }
   },
-  "displayLabel": "Consider enabling Autoscale feature on spark pool",
+  "displayLabel": "Consider enabling autoscale feature on spark compute",
   "additionalColumns": [
 	{
 		"name": "sparkPool",
 		"title": "Spark Compute"
 	}
   ],
-  "tip": "You can improve load throughput, performance by enabling autoscale."
+  "tip": "Enabling autoscale comes at 0 cost and will reduce job failures."
 
 }
 ---
