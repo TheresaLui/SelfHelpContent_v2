@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="91e65556-53df-440b-a60d-1b65f9e7478f"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -22,12 +22,11 @@ This unexpected occurrence was caused by an Azure initiated temporary VM shutdow
 Azure platform continuously monitors reads and writes (IO transactions) from your VMs to Azure Storage.  If transactions are too slow or do not complete successfully within 120 seconds inclusive of retries, the connectivity is considered lost and temporary VM shutdown is initiated to preserve data integrity and prevent corruption of your VM. Once the platform detected that the Storage service connectivity was restored, the VM was automatically restarted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.
 Azure Storage is a multitenant environment, which means there are multiple storage accounts being served by a single storage cluster.  Azure Storage uses a partitioning system that automatically load balances partitions across multiple servers in the cluster based on traffic. Load balancing identifies when a given partition server is resource constrained and reassigns one or more partition ranges to less utilized partition servers. This operation took a longer time to complete than normally expected. Once the operation completed, the data in the partition became available and VM availability was restored.
 For more details on load balancing and partition server failures, refer to this document: Microsoft Azure Storage architecture overview  
-For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the associated section in the Storage Performance and Scalability checklist  .
-To ensure high availability for your application in Azure, it is recommended that you group two or more virtual machines in an Availability Set and use Managed Disks. To learn more about high availability options, please refer to the following articles:
+For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the associated section in the Storage Performance and Scalability checklist.
 
-Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.
+To ensure high availability for your application in Azure, it is recommended that you group two or more virtual machines in an Availability Set and use Managed Disks. To learn more about high availability options, please refer to the articles below. 
 
-To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future  
+Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future  
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
 

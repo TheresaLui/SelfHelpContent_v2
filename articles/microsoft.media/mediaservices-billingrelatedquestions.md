@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="883b60c9-a25f-434b-bb3d-0b1b2a30f1bc"
 	ownershipId="StorageMediaEdge_Media"
 />

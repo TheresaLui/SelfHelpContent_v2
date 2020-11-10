@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32631222"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="440b6ddb-ef61-d6f4-8b1f-c0ef38b36a85"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Creating and using dataflows in Power BI

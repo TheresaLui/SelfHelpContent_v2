@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 />
 # Solution for cross subscription virtual network peering
 <!--issueDescription-->
@@ -32,11 +32,20 @@ The user setting up peering across subscriptions must have **'Network Contributo
       1. Add the user from each Active Directory tenant as a guest user in the opposite Azure Active Directory tenant.
       2. Each user must accept the guest user invitation from the opposite Azure Active Directory tenant.
       3. Then run the following PowerShell command: 
-
+      
+If the remote VNET is Classic model, use the below command:
 ~~~PowerShell
 $vnetA=Get-AzVirtualNetwork -Name "VNET" -ResourceGroupName "RSGRP"
 Add-AzVirtualNetworkPeering -Name "PEERNAME" -VirtualNetwork $vnetA -RemoteVirtualNetworkId
 /subscriptions/SubscriptionID/resourceGroups/Default Networking/providers/Microsoft.ClassicNetwork/virtualNetworks/name
+~~~
+If the remote VNET is ARM model, use the below command:
+~~~PowerShell
+$vNetA=Get-AzVirtualNetwork -Name myVnetA -ResourceGroupName myResourceGroupA
+Add-AzVirtualNetworkPeering `
+  -Name 'myVnetAToMyVnetB' `
+  -VirtualNetwork $vNetA `
+  -RemoteVirtualNetworkId "/subscriptions/<SubscriptionB-Id>/resourceGroups/myResourceGroupB/providers/Microsoft.Network/virtualNetworks/myVnetB"
 ~~~
 
 ## **Recommended Documents**

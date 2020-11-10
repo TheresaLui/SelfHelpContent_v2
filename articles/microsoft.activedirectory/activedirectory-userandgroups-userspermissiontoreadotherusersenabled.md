@@ -12,7 +12,7 @@
     supportTopicIds="32447987"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 

@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629274"
     productPesIds="16226"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-558e-4f2d-5238-36a830ea0098"
     ownershipId="StorageMediaEdge_AzureStack_Hub"
@@ -18,7 +18,7 @@
   "subscriptionRequired": true,
   "resourceRequired": false,
   "title": "Azure Stack usage reporting and billing questions",
-  "fileAttachmentHint": "Upload the usage detail files from Azure and the local usage report. Use the following script <a href='https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1'>Azure Stack Usage Summary</a>. To help the support agent identify your issue, please also collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
+  "fileAttachmentHint": "Upload the usage detail files from Azure and the local usage report. Use the following script <a href='https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1'>Azure Stack Usage Summary</a>. To help the support agent identify your issue, also collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
   "formElements": [{
             "id": "hardware_partner",
             "order": 1,
@@ -71,8 +71,16 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
+            "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
             "dropdownOptions": [
+{
+                    "value": "2008",
+                    "text": "2008"
+                },
+                {
+                    "value": "2005",
+                    "text": "2005"
+                },
                 {
                     "value": "2002",
                     "text": "2002"
@@ -82,33 +90,25 @@
                     "text": "1910"
                 },
                 {
-                    "value": "1908",
-                    "text": "1908"
-                },
-                {
-                    "value": "1907",
-                    "text": "1907"
-                },
-                {
                     "value": "Other",
                     "text": "Other"
                 }
             ],
             "required": false,
-            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
+            "infoBalloonText": "Example: Select 2008 if your build number is 1.2008.0.35."
         },
         {
             "id": "build_number",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
+            "watermarkText": "Example: 1.2008.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
             "id": "connected_deployment",
-            "visibility": "patch_level == 2002",
+            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Can Azure Stack Hub connect to Azure?",
@@ -131,9 +131,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
+            "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
         {

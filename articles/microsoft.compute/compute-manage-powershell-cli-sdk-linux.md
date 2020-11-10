@@ -10,7 +10,7 @@
     supportTopicIds="32640161,32640162"
     resourceTags="linux,redhat,ubuntu,suse"
     productPesIds="15571,16454,16470,15797"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="compute-manage-powershell-cli-sdk-linux"
 	ownershipId="Compute_VirtualMachines"
 />

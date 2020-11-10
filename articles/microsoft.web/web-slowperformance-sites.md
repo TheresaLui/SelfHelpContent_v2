@@ -10,9 +10,9 @@
 	supportTopicIds="32457411"
 	resourceTags=""
 	productPesIds="14748,16170,16333"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId = "Compute_AppService"
 	articleId="e38a3bde-29d9-4b5e-a5eb-f25a44608bd9"
-	ownershipId="Compute_AppService"
 />
 
 # availability, performance, and application issues/slow performance
@@ -20,7 +20,7 @@
 ## **Recommended Documents**
 
 * [Monitor, diagnose and troubleshoot performance issues](https://azure.microsoft.com/documentation/articles/app-service-web-troubleshoot-performance-degradation/)<br>
-* [Troubleshoot memory leaks and CPU usage in Node.js](http://blogs.msdn.com/b/azureossds/archive/2015/08/23/troubleshoot-finding-memory-leaks-and-cpu-usage-in-node-js-azure-web-app.aspx)<br>
+* [Troubleshoot memory leaks and CPU usage in Node.js](https://azureossd.github.io/2015/08/23/finding-memory-leaks-and-cpu-usage-in-azure-node-js-web-app/)<br>
 * [How to setup auto-healing](http://azure.microsoft.com/blog/2014/02/06/auto-healing-windows-azure-web-sites/)<br>
 * [Troubleshoot HTTP 502 or 503 errors for your Web App](https://azure.microsoft.com/documentation/articles/app-service-web-troubleshoot-http-502-http-503/)<br>
 * [10 Ways to Speed up your WordPress site on Azure Web App](https://azure.microsoft.com/blog/10-ways-to-speed-up-your-wordpress-site-on-azure-websites/)<br>

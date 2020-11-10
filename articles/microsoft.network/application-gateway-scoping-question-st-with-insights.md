@@ -4,9 +4,9 @@
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32582825,32582828,32640605,32639115,32639109,32639114,32639116,32640602"
+    supportTopicIds="32582825,32582828,32640605,32639109,32640602"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-question-for-insights"
 	ownershipId="CloudNet_AzureApplicationGateway"
@@ -65,12 +65,20 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "v1_SKU",
-                    "text": "V1 SKU"
+                    "value": "Standard",
+                    "text": "Standard"
                 },
                 {
-                    "value": "v2_SKU",
-                    "text": "V2 SKU"
+                    "value": "WAF",
+                    "text": "WAF"
+                },
+                {
+                    "value": "Standard_v2",
+                    "text": "Standard_v2"
+                },
+                {
+                    "value": "WAF_v2",
+                    "text": "WAF_v2"
                 },
 				{
                     "value": "dont_know_answer",

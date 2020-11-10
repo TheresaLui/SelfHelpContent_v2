@@ -10,14 +10,16 @@
 	articleId="marketplace_cert_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689351"
+	supportTopicIds="32728233"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17009"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Offer_Certification"
 />
 
 # <-- SaaS certification deflection -->
+
+**IMPORTANT:** If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
 
 If your offer is failing in certification, the following resources can help you understand the failure and what actions should be taken to address it. Certification requires re-publishing your offer after making the necessary changes to send the offer back through review.
 

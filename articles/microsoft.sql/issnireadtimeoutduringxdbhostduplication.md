@@ -12,8 +12,8 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	productPesIds="13491"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue

@@ -10,7 +10,7 @@
     supportTopicIds="32691175"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-viewing-alerts-possible-false-positive-incident"
 	ownershipId="Azure_Sentinel"
 />

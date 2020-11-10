@@ -2,17 +2,17 @@
     pageTitle="Azure Stack System Center Operations Manager (SCOM) connectivity"
     description="Issues monitoring Azure Stack with SCOM"
     service="microsoft.azurestack"
-    resource="azurestack"
+    resource="registrations"
     authors="alexsmithMSFT"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629267"
     resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16226, 17058, 17131, 17057"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="456410f8-bbc3-40ee-b02c-6bae79afe699"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack System Center Operations Manager (SCOM) connectivity

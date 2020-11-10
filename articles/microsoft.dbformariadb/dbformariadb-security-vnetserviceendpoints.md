@@ -10,7 +10,7 @@
     supportTopicIds="32640160"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9a1c4ed4-2e58-4950-b361-44fda327f26f"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -23,6 +23,10 @@ Virtual Network (VNet) services endpoints and rules extend the private address s
 
 * Ensure that your Azure Database for MariaDB is deployed in General Purpose and Memory Optimized servers. The Basic tier does not support VNet service endpoints.
 * If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered
+
+* If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mariadb/howto-configure-privatelink-portal)
+* If you are using a Basic tier server, note that VNet service endpoints and [Private Link](https://docs.microsoft.com/azure/mariadb/concepts-data-access-security-private-link) are not supported
+* If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for MariaDB server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
 

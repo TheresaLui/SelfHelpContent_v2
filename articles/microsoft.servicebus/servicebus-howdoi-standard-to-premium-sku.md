@@ -10,7 +10,7 @@
 	supportTopicIds="32633407"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
 	articleid="servicebus-howdoi-standard-to-premium-sku"
 	ownershipId="AzureMessaging_Common"
 />

@@ -12,7 +12,7 @@
 	supportTopicIds="32411817"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your VM **<!--$vmname-->[vmname]**<!--/$vmname--> and found a start failure

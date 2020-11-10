@@ -13,7 +13,7 @@
 	supportTopicIds="32629661, 32613003, 32629660"
 	resourceTags=""
 	productPesIds="15454, 15725, 15693"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 

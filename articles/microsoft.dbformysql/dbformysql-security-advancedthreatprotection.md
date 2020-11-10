@@ -10,7 +10,7 @@
     supportTopicIds="32640043"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="520c34e1-878d-4125-81d7-5693f4820df2"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
@@ -18,6 +18,8 @@
 # Security in Azure Database for MySQL
 
 Azure Database for MySQL comes with a rich set of security features including server level firewall rules, encryption for data at rest and in flight, VNet service endpoints, and Advanced Threat Protection. Advanced Threat Protection for Azure Database for MySQL detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases.
+
+**NOTE**: **This functionality is currently only supported in Azure Database for MySQL Single server**.
 
 ## **Recommended Steps**
 

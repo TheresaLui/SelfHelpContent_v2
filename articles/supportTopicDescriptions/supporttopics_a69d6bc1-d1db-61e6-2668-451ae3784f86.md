@@ -5,7 +5,7 @@
   ms.author="swdeshmu"
   selfhelptype="SupportTopicDescription"
   productpesids="a69d6bc1-d1db-61e6-2668-451ae3784f86"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_a69d6bc1-d1db-61e6-2668-451ae3784f86" 
   ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
   />

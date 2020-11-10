@@ -8,9 +8,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630455"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_DataSync"
 />
 # SQL Data Sync
 ---
@@ -44,7 +44,11 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
@@ -54,6 +58,75 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "recently_migrated",
+            "order": 21,
+            "controlType": "dropdown",
+            "displayLabel": "Have you recently migrated to Azure?",
+            "required": true,
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ]
+        },
+        {
+            "id": "application_type",
+            "order": 22,
+            "controlType": "dropdown",
+            "displayLabel": "What is the application type? ",
+            "visibility": "recently_migrated == Yes",
+            "required": true,
+            "dropdownOptions": [
+                {
+                    "value": "modern_platform",
+                    "text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
+                },
+                {
+                    "value": "legacy",
+                    "text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ]
+        },
+        {
+            "id": "migration_backend",
+            "order": 23,
+            "controlType": "dropdown",
+            "displayLabel": "What was the Pre-Migration backend ?  ",
+            "visibility": "recently_migrated == Yes",
+            "required": true,
+            "dropdownOptions": [
+                {
+                    "value": "sql_server",
+                    "text": "SQL Server"
+                },
+                {
+                    "value": "oracle",
+                    "text": "Oracle"
+                },
+                {
+                    "value": "db2",
+                    "text": "DB2"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ]
         },
         {
             "id": "problem_description",

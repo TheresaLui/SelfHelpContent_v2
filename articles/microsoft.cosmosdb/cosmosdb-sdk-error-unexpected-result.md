@@ -9,7 +9,7 @@
 	supportTopicIds="32688838,32688839"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-error-unexpected-result"
 	displayOrder="284"
 	category="SDK (SQL API) Issues"
@@ -17,25 +17,42 @@
 />
 
 # SDK - Error or unexpected result
-Most users are able to resolve their .Net SDK case using the steps below.
+Most users are able to resolve their SQL SDK case using the steps below. The Recommended Documents section contain further information for more troubleshooting scenarios.
 
 
 ## **Recommended Steps**
 
 ### **Use latest SDK versions and singleton client**
-Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
-<br>Please ensure you are using singleton client. 
+Always ensure you are using the latest SDK:
+* [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
+* [Azure Cosmos DB Java SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-java-v4)
+* [Azure Cosmos DB Python SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-python)
+* [Azure Cosmos DB Node.js SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-node)
+<br>Please ensure you are using singleton (one client instance for the lifetime of the application) client.
 
 ### **Known Issues and Solutions**
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
-* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
-* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
-* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
-* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
+* [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
+* [Java SDK](https://github.com/Azure/azure-sdk-for-java/issues)
+* [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/issues)
+* [Python SDK Issues](https://github.com/Azure/azure-sdk-for-python/issues) , [Python SDK Limitations](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/cosmos/azure-cosmos#limitations)
 
 
 ### **Common Errors**  
   
+**401: The MAC signature found in the HTTP request is not the same as the computed signature**
+<br>If you received the following 401 error message: "The MAC signature found in the HTTP request is not the same as the computed signature." It can be caused by the following scenarios.
+
+* The key was rotated and did not follow the [best practices](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). This is usually the case. Cosmos DB account key rotation can take anywhere from a few seconds to possibly days depending on the Cosmos DB account size.
+   * 401 MAC signature is seen shortly after a key rotation and eventually stops without any changes. 
+* The key is misconfigured on the application so the key does not match the account.
+   * 401 MAC signature issue will be consistent and happens for all calls
+* The application is using the [read-only keys](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#master-keys).
+   * 401 MAC signature issue will only happen when the application is doing write requests, but read requests will succeed.
+* There is a race condition with container creation. An application instance is trying to access the container before container creation is complete. The most common scenario for this if the application is running, and the container is deleted and recreated with the same name while the application is running. The SDK will attempt to use the new container, but the container creation is still in progress so it does not have the keys.
+   * 401 MAC signature issue is seen shortly after a container creation, and only occur until the container creation is completed.
+
+
 **403 Forbidden**
 <br>The authorization token expired:  
 
@@ -45,10 +62,26 @@ Review the Github issues links below for your SDK platform to see if there is a 
 * 403.3 This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
 
 
-**429 Too Many Requests**
+**429 Request rate too large**
 <br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
-For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units).  
+For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units). 
+* See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
 
+
+**404 Not found**
+<br>The HTTP status code 404 represents that the resource no longer exists.
+* See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
+
+
+**408 Request timeout**
+<br>The HTTP 408 error occurs if the SDK was not able to complete the request before the timeout limit occurs.
+* See the dedicated support article for [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
+
+
+**Intermittent 503 errors service is unavailable**
+<br>This can be caused by transient connectivity issues on the client side or service availability.
+* See the dedicated support article for [503 - service unavailable](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable)
+* See the dedicated support article for [multiregional SDK availability](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#transient-connectivity-issues-on-tcp-protocol)
 
 **Invalid characters in Resource.Id _rid Property**
 <br>Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters.  
@@ -64,12 +97,8 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 **The read session is not available for the input session token**
 <br>You receive an exception *The read session is not available for the input session token*
-* You need to upgrade your SDK version  
-
-
-**Intermittent 503 errors service is unavailable**
-<br>This can be caused by creating a new client and connection for each call to Cosmos DB which results in resource starvation. 
-* Altering your code to use a singleton client should resolve the issue  
+* Newer SDK versions have improvements over this particular scenario.
+* For a detailed explanation of the reason of this error code, see [this support article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-sdk-availability#session-consistency-guarantees)
 
 
 **Unable to connect to Cosmos DB Account from Java SDK (Async API) - Using SQL API**
@@ -98,14 +127,17 @@ For more information, see [Handle rate limiting/request rate too large](https://
 [Troubleshoot issues when using Azure Cosmos DB .NET SDK](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the .NET SDK with Azure Cosmos DB SQL API accounts.  
 
-[Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
-<br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
+[Troubleshoot issues when you use the Java SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-sdk-v4-sql)
+<br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java V4 SDK with Azure Cosmos DB SQL API accounts.  
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
 [List of HTTP Status Codes for Azure Cosmos DB](https://docs.microsoft.com/rest/api/cosmos-db/http-status-codes-for-cosmosdb)
 <br>This article provides the HTTP status codes returned by the REST operations.  
 
-[How can I improve my database performance?](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-<br>How a client connects to Azure Cosmos DB has important implications on performance, especially in terms of observed client-side latency. There are two key configuration settings available for configuring client Connection Policy, the connection mode and the connection protocol.  
+[How can I improve my database performance with .NET SDK?](https://docs.microsoft.com/azure/cosmos-db/performance-tips-dotnet-sdk-v3-sql)
+<br>This article covers the most common improvements that will improve your application performance when using the .NET SDK.
+
+[How can I improve my database performance with Java SDK?](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql)
+<br>This article covers the most common improvements that will improve your application performance when using the Java SDK.

@@ -10,12 +10,19 @@
     supportTopicIds="32663902"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="99f52a95-46cd-4ab1-b4bf-9d199b522d71"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack storage accounts creation issues
+
+## Storage in Azure Stack Hub
+
+You can learn about the differences from Azure Stack Hub Storage and global Azure Storage services. You can also find a lists of things to consider when you deploy Azure Stack Hub.
+
+  * For an overview see [Azure Stack Hub storage: Differences and considerations](https://docs.microsoft.com/azure-stack/user/azure-stack-acs-differences)
+  * For high-level differences between global Azure and Azure Stack Hub, see the [Key considerations](https://docs.microsoft.com/azure-stack/user/azure-stack-considerations) article
 
 ## **Recommended Documents**
 

@@ -10,7 +10,7 @@ displayOrder=""
 articleId="costmanagement-master-json"
 selfHelpType="diagnoseandsolve"
 productPesIds="15659"
-cloudEnvironments="public,blackForest,fairfax,mooncake"
+cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="ASMS_Billing"
 />
 
@@ -26,7 +26,6 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "searchTags": "cost management, access, configuration, ACM",
       "category": "Access configuration",
       "commonSolutionArticleId": "costanalysis-costsdisabled",
-
       "supportTopicId": "32615286"
     },
     {

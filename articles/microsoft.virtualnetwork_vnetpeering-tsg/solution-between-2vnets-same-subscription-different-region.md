@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # Step by step for connecting virtual networks same subscription different region  
 <!--issueDescription-->

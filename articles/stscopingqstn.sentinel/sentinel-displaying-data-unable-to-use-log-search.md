@@ -10,7 +10,7 @@
     supportTopicIds="32691183"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-displaying-data-unable-to-use-log-search"
 	ownershipId="Azure_Sentinel"
 />

@@ -5,7 +5,7 @@
   ms.author="akankshajsh"
   selfhelptype="SupportTopicDescription"
   productpesids="a2c69e6c-34b6-fc5d-0f35-b496a071c28d"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="blob-storage-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"

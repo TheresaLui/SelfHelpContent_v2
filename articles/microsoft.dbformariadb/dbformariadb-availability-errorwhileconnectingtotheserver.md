@@ -10,7 +10,7 @@
     supportTopicIds="32640118"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bb62de23-25af-4ae3-9740-7a7670636337"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -37,11 +37,13 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/howto-configure-ssl)
+* As a part of our maintenance activity, we are working on changing out gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security#default-settings). Refer to the steps to mitigate the issue in [this article](https://docs.microsoft.com/azure/mariadb/concepts-certificate-rotation)
+* Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/mariadb/howto-tls-configurations)
 * Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and ensure you are using a driver that is supported
 * Make sure the user you are using has the appropriate permissions
 
 ## **Recommended Documents**
 
-* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)<br>
-* [Connecting to MariaDB Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal/)
-* [Understanding the connectivity architecture for Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture)
+*   [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)
+*   [Connecting to MariaDB Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal/)
+*   [Understanding the connectivity architecture for Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture)

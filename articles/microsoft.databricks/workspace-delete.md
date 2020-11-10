@@ -10,7 +10,7 @@
 	supportTopicIds="32677734"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="178b9906-c5b3-4eed-9a7a-dac993391ade"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -18,6 +18,8 @@
 # Diagnose and resolve issues with Workspace deletion
 
 ## **Recommended Steps**
+
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 
 * Follow the below steps to resolve the error `<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope` :
 	

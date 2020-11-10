@@ -11,9 +11,9 @@ pageTitle="Azure AD Connect sync service is not running. The Service account fai
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public, Fairfax, Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Azure AD Connect sync service is not running. The Service account failed to authenticate.

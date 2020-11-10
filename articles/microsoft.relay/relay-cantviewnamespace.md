@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds="16123"
-	cloudEnvironments="public,BlackForest,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec" 
 	articleId="cc3ca4f5-b975-4b95-8fe4-d3fca0e3bebe"
 	ownershipId="AzureMessaging_Common"
 />

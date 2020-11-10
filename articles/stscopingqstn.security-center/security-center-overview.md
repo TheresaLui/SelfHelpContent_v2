@@ -8,9 +8,9 @@
 	supportTopicIds="32636848,32636864,32636891"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="e7625c691-p70f-0cjf-aa9a-9kcf7097e89f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Overview

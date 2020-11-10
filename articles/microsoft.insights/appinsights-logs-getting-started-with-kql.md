@@ -10,7 +10,7 @@
     articleId="need-help-writing-log-queries"
     productPesIds="15693"
     supportTopicIds="32729602, 32729595"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 

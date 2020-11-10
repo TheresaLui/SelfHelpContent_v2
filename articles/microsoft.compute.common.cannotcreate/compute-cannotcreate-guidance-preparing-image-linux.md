@@ -10,7 +10,7 @@
 	supportTopicIds="32628272"
 	resourceTags=""
 	productPesIds="15571, 15797,16454,16470"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f4150867-4326-4684-bcae-b68b323026cc"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -52,4 +52,4 @@ Please contact your Azure Marketplace publisher for all technical product suppor
 * [Prepare a **SLES** or **openSUSE** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
 * [Understand how to prepare a non-endorsed image for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
 * [Create or clone an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-linux)

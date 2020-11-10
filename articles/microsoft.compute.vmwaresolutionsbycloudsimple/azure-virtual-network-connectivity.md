@@ -10,9 +10,9 @@
     supportTopicIds="32637608"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="8822e85f-acda-4b67-926c-cc73f52543a5"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Azure virtual network connection 

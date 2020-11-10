@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="a5ab10c5-424a-4818-9fba-ddca1eee531a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with many connected clients

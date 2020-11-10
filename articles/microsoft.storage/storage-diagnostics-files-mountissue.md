@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
@@ -25,8 +25,8 @@ To troubleshoot Azure file share mounting issues, download and run the following
 
 ## **Recommended Steps**
 
-* [Troubleshooting tool for Azure Files mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
-* [Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
+* [Troubleshooting tool for Azure Files mounting errors on Windows](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Windows)
+* [Troubleshooting tool for Azure Files mounting errors on Linux or MacOS](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)<br>
 
 ## **Recommended Documents**
 

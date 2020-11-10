@@ -10,12 +10,14 @@
     supportTopicIds="32663920"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6f641910-1015-4135-b8d1-85ab25fa1503"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Windows VM restarted or stopped unexpectedly
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Documents**
 

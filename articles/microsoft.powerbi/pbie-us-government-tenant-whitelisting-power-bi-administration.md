@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628166"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="a8104f96-97c6-e58e-5487-32d3e916f207"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Enroll your US Government organization in the Power BI service

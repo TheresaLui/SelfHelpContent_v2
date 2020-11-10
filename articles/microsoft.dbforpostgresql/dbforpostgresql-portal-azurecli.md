@@ -7,10 +7,10 @@
     ms.author="janeng"
     displayOrder="350"
     selfHelpType="generic"
-    supportTopicIds="32639969"
+    supportTopicIds="32639969, 32780902"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ccbe95b1-927f-4e7b-a108-d15114886d8f"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public, Fairfax, Mooncake"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
 ownershipId="CloudNet_AzureDDOSProtection"
 />
 # Your virtual network is not associated with a DDoS Protection Standard Plan

@@ -10,12 +10,12 @@
 	articleId="mpn_benefits_activation"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635648, 32725862"
+	supportTopicIds="32725801,32725862"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17007"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	productPesIds="17000, 17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # MPN - benefits activation

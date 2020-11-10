@@ -14,9 +14,9 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 />
-# Check cross subscription virtual network peering
+# Solution for cross subscription virtual network peering
 <!--issueDescription-->
 
 From our interaction, it appears that you are looking for steps on how to setup VNet peering between VNets that are in different subscriptions or Active Directory Tenants

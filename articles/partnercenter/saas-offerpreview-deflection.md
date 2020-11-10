@@ -4,17 +4,17 @@
 	infoBubbleText="Resources to help explain preview offers for SaaS"
 	service="partnercenter"
 	resource="marketplace"
-	authors="garrett-o"
-	ms.author="gaor"
+	authors="A-COFLOR"
+	ms.author="mingshen"
 	displayOrder=""
 	articleId="marketplace_preview_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689423"
+	supportTopicIds="32728242"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # <-- SaaS offer preview deflection -->
@@ -33,5 +33,4 @@ If you have published your offer and are experiencing issues with your offer pre
 
 * [Create a new SaaS offer - Preview](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#preview)
 * [Check the publishing status of your Commercial Marketplace offer - Preview creation](https://docs.microsoft.com/azure/marketplace/partner-center-portal/publishing-status#preview-creation)
-* [Update an existing offer in the Commercial Marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/update-existing-offer)
 * [SaaS offer creation checklist - Preview page](https://docs.microsoft.com/azure/marketplace/partner-center-portal/offer-creation-checklist#preview-page)

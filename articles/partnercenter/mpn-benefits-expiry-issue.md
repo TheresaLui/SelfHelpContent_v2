@@ -10,12 +10,12 @@
 	articleId="mpn_benefits_expiry_issue"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681435"
+	supportTopicIds="32725863"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Benefits expiry issue

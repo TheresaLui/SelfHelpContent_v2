@@ -12,7 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="c1545082-cbe1-44a4-902c-fc45f9216d8d"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureData_HDInsight"
 />
 
 # I can't log in to my cluster

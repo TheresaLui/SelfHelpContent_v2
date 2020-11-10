@@ -1,29 +1,31 @@
 <properties
-	pageTitle="Azure Cosmos DB throttling"
-	description="Azure Cosmos DB throttling"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32675640"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
-	articleId="cosmosdb-throttling"
-	displayOrder="241"
-	category="Throughput and Scaling"
-	ownershipId="AzureData_AzureCosmosDB"
+    pageTitle="Azure Cosmos DB throttling"
+    description="Azure Cosmos DB throttling"
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="jimsch"
+    ms.author="jimsch"
+    selfHelpType="generic"
+    supportTopicIds="32675640"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    articleId="cosmosdb-throttling"
+    displayOrder="241"
+    category="Throughput and Scaling"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Rate limiting in Azure Cosmos DB
 
 ## **Recommended Steps**
 
-### **Cannot find the option to enable Autopilot?**  
-Autopilot has been registered for all users. Autopilot can only be enabled while creating new databases and containers from the Azure Portal.
-* Support for CLI and SDK is not yet available
-* Support to enable autopilot mode on existing containers and databases is not yet available
+### **How do I enable autoscale?**  
+Autoscale automatically scales the RU/s of your database or container between the max RU/s you set, and 0.1 * max RU/s. 
+* You can enable autoscale on existing databases and containers only from the Azure portal. 
+* You can create new databases or containers with autoscale using the Azure portal, Azure Resource Manager template, Azure Cosmos DB .NET V3.9+ and Java V4+ SDK. 
+
+Support for Powershell, CLI and other SDK is planned, but not yet available
 
 
 ### **Rate limiting: Increase RU/s**
@@ -93,7 +95,18 @@ If your RU consumption is predominantly from reads, you may be able to reduce RU
 * [Tune query performance](https://docs.microsoft.com/azure/cosmos-db/sql-api-query-metrics)
 * [Optimize reads and writes cost](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-reads-writes)
 
+### **Why am I getting throttled or seeing 429s with autoscale?**  
+It is possible to see 429s in two scenarios. 
 
+First, if you use more than the max RU/s, the service will throttle requests accordingly. 
+
+Second, you'll see 492s if you have a hot partition. Hot partitions occur when you have logical partition key value that has a disproportionately higher amount of requests compared to other partition key values. For example, if you partition by "companyName", and most your operations only write or query on one specific company, "Contoso" there is a hot partition on the "Contoso" partition key value. 
+
+To see if you have a hot partition, use [Azure Monitor metrics](https://docs.microsoft.com/azure/cosmos-db/monitor-normalized-request-units) to see normalized utilization by physical partition. If one or a few physical partitions consistently have much higher utilization than others, there is a hot partition. 
+
+You will see 429s if the underlying physical partition a logical partition key resides in exceeds 100% normalized utilization. 
+
+ As a best practice, to avoid hot partitions, [choose a good partition key](https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey) that results in an even distribution of both storage and throughput. If you need to change your partition key, see this [article](https://devblogs.microsoft.com/cosmosdb/how-to-change-your-partition-key/) for instructions.
 
 ## **Recommended Documents**
 

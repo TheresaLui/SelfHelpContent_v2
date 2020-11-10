@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="55fe2696-9bf9-45a5-b738-a20a46beb2ee"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

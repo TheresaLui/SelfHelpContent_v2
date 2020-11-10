@@ -11,9 +11,9 @@
     supportTopicIds="32636873"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="b2714188-b181-493c-8a4d-1e69e3e4daf6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Policy - Enable or Disable security monitoring Common Solutions

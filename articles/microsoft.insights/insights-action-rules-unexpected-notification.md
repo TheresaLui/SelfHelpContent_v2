@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32641407"
 	productPesIds="15454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 

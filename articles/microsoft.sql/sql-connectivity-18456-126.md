@@ -13,23 +13,23 @@
 	supportTopicIds="32630429"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # Login failed - the database specified was not found on the server
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the database specified was not found on the server**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
-<!--$FailedLogins18456State126--> FailedLogins18456State126 <!--/$FailedLogins18456State126-->
-
-<!--/issueDescription-->
-
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
+
 The error returned indicated that the database was not found. This may occur if the database name is incorrect or does not exist on the specified server.
 <br>
+
+<!--$FailedLogins18456State126--> FailedLogins18456State126 <!--/$FailedLogins18456State126-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

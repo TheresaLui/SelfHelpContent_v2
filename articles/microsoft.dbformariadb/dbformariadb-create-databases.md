@@ -10,12 +10,20 @@
     supportTopicIds="32684525"
     resourceTags="servers, databases"
     productPesIds="16617" 
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="D2A141B5-9E23-47A4-A8EE-7314AA4A4D51"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Creating, scaling, and deleting an Azure Database for MariaDB server
+
+[!Note]
+- **Due to ongoing COVID 19, we have mobilized our global response plan to help customers and partners stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating this significant new demand.**
+
+- **We have established clear criteria for prioritizing new cloud capacity if needed – top priority will be going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality of Teams.**
+
+- **We appreciate that these can raise questions, so we have tried to address the most common ones in our [recent blog post](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity).**
+
 
 Databases in Azure Database for MariaDB servers can be managed through the ARM template, using the Azure CLI and by calling our REST APIs. Note that most of the management operations are asynchronous and you might have to poll the status of the operation when using Azure CLI or REST APIs.
 

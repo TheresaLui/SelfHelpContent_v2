@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     productPesIds="15693"
     supportTopicIds=""
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I should have received an email for an alert that fired

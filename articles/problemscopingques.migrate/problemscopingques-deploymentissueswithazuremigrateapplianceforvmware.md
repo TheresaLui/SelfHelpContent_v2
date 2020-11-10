@@ -1,12 +1,12 @@
 <properties
     pageTitle="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
     description="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
-    authors="An-mol"
+    authors="anvar-ms"
     ms.author="anvar"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32675748"
     productPesIds="16348"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
 	ownershipId="Compute_AzureMigrate"
@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with Azure Migrate appliance for VMware",
     "fileAttachmentHint": "",
     "formElements": [

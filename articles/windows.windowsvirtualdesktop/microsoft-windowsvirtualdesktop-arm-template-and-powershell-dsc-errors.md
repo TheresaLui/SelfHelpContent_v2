@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Azure Resource Manager template and PowerShell DSC errors"
-	description="Azure Resource Manager template and PowerShell DSC errors"
-	service=""
-	resource=""
-	authors="jerrycif"
-	ms.author="jerrycif"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727878"
-	resourceTags=""
-	productPesIds="16582"
-	cloudEnvironments="public"
-	articleId=" Needed "
-	ownershipId="ASEP_ContentService_Placeholder"
-/>
-
+  pagetitle="Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors"
+  service=""
+  resource=""
+  ms.author="jerrycif,evas"
+  selfhelptype="Generic"
+  supporttopicids="32727878"
+  resourcetags=""
+  productpesids="16582"
+  cloudenvironments="public,usnat,ussec,fairfax"
+  articleid="needed"
+  ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors
 
-4 out of 5 customers resolved their Windows Virtual Desktop ARM and PowerShell DSC errors using the information listed below.<br>
+
+
+## **Recommended Steps**
+
+* When adding a customized image to your host pool, verify you followed the steps to [Prepare and customize a master VHD image](https://docs.microsoft.com/azure/virtual-desktop/set-up-customize-master-image)
+
 
 ## **Recommended Documents**
 
@@ -31,3 +31,4 @@
 * [Error: DeploymentFailed -DSC Extension failed to execute: Error downloading](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-deploymentfailed--error-downloading)<br>
 * [Error: The user isn't authorized to query the management service](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-the-user-isnt-authorized-to-query-the-management-service-1)<br>
 * [Error: User requires Azure Multi-Factor Authentication (MFA)](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-user-requires-azure-multi-factor-authentication-mfa)
+  

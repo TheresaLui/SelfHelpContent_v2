@@ -8,10 +8,10 @@
     ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32612488"
+    supportTopicIds="32745402"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="fb11928a-1782-4618-a046-eb29996ee084"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />

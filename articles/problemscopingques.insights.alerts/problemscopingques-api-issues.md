@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629614, 32629615, 32629616, 32629617, 32629618, 32629619, 32629620"
 	productPesIds="15454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />

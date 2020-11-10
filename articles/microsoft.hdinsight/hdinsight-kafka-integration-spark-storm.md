@@ -10,7 +10,7 @@
     supportTopicIds="32629074"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-integration-spark-storm"
 	ownershipId="AzureData_HDInsight"
 />

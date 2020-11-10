@@ -7,10 +7,10 @@
     ms.author="scotro,tibasham"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32615532,32628284,32639646"
+    supportTopicIds="32615532,32628284"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f77c4d7d-6738-46fb-afea-07b627a597b6"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -47,6 +47,6 @@
 
 ## **Recommended Documents**
 
-  * [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
-  * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
-  * [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)
+  * [Troubleshoot specific Remote Desktop connection errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-specific-rdp-errors)<br>
+  * [Detailed troubleshooting across network components](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
+  * [Address Remote Desktop License Server error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-specific-rdp-errors#rdplicense)

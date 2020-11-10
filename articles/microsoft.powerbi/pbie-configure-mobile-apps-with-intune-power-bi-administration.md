@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628077"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="37161294-732f-4530-a903-26b7dbb93823"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Configure mobile apps with Microsoft Intune

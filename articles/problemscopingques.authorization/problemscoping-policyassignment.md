@@ -7,10 +7,10 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32730235,32730236,32730241,32730234,32730224,32730226,32730227,32730240"
+    supportTopicIds="32739632,32739634,32739635"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="1d0baad2-c201-4369-9513-233dfa2b6b6b"
     schemaVersion="1"
     ownershipId="Compute_AzurePolicy"
@@ -39,7 +39,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'custom'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -53,7 +53,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "builtinPolicyDefinition",
@@ -64,7 +64,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'builtin'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -78,7 +78,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "policyAssignment",
@@ -89,7 +89,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {

@@ -3,9 +3,9 @@
     description="Pod Disruption Budgets Recommended"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="9738c5a0-a330-4465-a7f4-9132e004bd30"
+    articleId="9738c5a0-a330-4465-a7f4-9132e004bd30_public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_AzureKubernetesService"
 />
 

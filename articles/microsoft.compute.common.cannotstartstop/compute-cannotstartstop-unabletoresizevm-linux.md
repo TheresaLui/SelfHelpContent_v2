@@ -10,20 +10,14 @@
 	supportTopicIds="32628260"
 	resourceTags=""
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b112665b-c56a-41d0-96ff-8ffe3cacd25b"
 	ownershipId="Compute_VirtualMachines"
 />
 
 # I am unable to resize my VM
 
-## **Awareness**
-
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
-
 ## **Recommended Steps**
-
->If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

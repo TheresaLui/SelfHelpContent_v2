@@ -10,7 +10,7 @@
 	supportTopicIds="32727972"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="protectopencontent_cantapplyprotection"
 	ownershipId="AzureIdentity_InformationProtection"
 />
@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-1. If you created a new label that applies protection, it can take up to 15 minutes for a computer running the Azure Information Protection client to get these changed settings. Behind the scenes, this configuration creates a [protection template](https://docs.microsoft.com/azure/information-protection/deploy-use/refresh-templates).
-2. If you wait 15 minutes and still can't apply this label, select **Reset Settings** from the **Protect/Sensitivity** button on the Office ribbon, then **Help and feedback**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
+1. If you created a new label that applies protection, it can take up to 24 hours for a computer running the Azure Information Protection client to get these changed settings.
+2. If you waited 24 hours and still can't apply this label, select **Reset Settings** from the **Protect/Sensitivity** button on the Office ribbon, then **Help and feedback**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
 3. If you have never used AIP before, please verify your OnBoarding policy is set correctly:
 
 	* Open a PowerShell session as administration and run the below commands:
@@ -46,8 +46,7 @@
 4. Verify that you are trying to apply label for a supported file type and that the file is not password protected: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default)
 5. If you are installing on Office 2010, make sure you have defined ServiceLocation parameter [as shown here](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#to-install-the-azure-information-protection-client-by-using-the-executable-installer)
 6. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
-7. The Azure Information Protection clients do not support multiple versions of Office on the same computer. These clients also do not support switching user accounts in Office
-8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

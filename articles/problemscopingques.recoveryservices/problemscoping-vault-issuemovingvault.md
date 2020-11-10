@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632781"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="fe9e184c-afe1-4a0f-a39d-a892c55c9849"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "Issue moving vault",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "Issue moving vault",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "error_message",
@@ -30,13 +25,13 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 2,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check move <a href='https://aka.ms/AB-vault-move'>Recovery Services vault</a> article",
+            "infoBalloonText": "Check move <a href='https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault'>Recovery Services vault</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -72,16 +67,14 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

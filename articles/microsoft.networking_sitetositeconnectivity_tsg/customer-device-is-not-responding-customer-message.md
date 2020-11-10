@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32591158,32584882,32584881"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" 	ownershipId="CloudNet_AzureVPNGateway"
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Customer Device Is Not Responding

@@ -11,13 +11,15 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32582828"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # SSL termination issues with Application Gateway
 
 ## **Recommended Steps**
+
+4 out of 5 customers resolved their SSL termination issue using the steps listed below.
 
 If you are observing issues with SSL termination with Application Gateway, verify that:
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32628262"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="226e1a7a-d31d-4501-b094-7033313279b6"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -26,6 +26,6 @@
 * [Prepare a **Red Hat-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
 * [Prepare a **Debian** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
 * [Prepare a **SLES** or **openSUSE** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)<br>
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-linux)<br>
 * [FAQ - Troubleshoot deploying Windows virtual machine issues in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-windows)<br>
 * [Troubleshoot allocation failures when you create, restart, or resize VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)

@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628150"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6cbfa115-97d6-9838-e100-515e64acfa7f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # A collection of Power BI samples for developer use

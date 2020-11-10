@@ -9,20 +9,25 @@
     articleId="metrics-cannot-pick-guest-os-namespace-and-metrics"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32677615,32684744"
+    supportTopicIds="32677615,32684744,32684736,32684737,32684738,32684739,32684740,32684746,32684747,32684757"
+
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
-	ownershipId="AzureMonitoring_Essentials"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+    ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-cannot-pick-guest-os-namespace-and-metrics -->
 
-## I can't pick Guest OS namespace and metrics
+## Use this information if you can't pick Guest OS metrics in Azure Metrics Explorer or having troubles collecting metrics on computers running Windows or Linux
 
 Virtual machines and virtual machine scale sets have two categories of metrics: **Virtual Machine Host** metrics that are collected by the Azure hosting environment, and **Guest OS (classic)** metrics that are collected by the [monitoring agent](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) running on your virtual machines. You install the monitoring agent by enabling [Azure Diagnostic Extension](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview).
 
-By default, Guest OS metrics are stored in Azure Storage account, which you pick from the **Diagnostic settings** tab of your resource. If Guest OS metrics aren't collected or metrics explorer cannot access them, you will only see the **Virtual Machine Host** metric namespace:
+| **What is the best way to enable collection of Guest OS Metrics?** |
+|----------------------------------------------------------------|
+|If you enable monitoring on the **Diagnostic Settings** tab of your Virtual Machine, you can select performance counter that will be saved in a storage account, and appear under **Guest (Classic)** metric [namespace in Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot#cannot-pick-guest-os-namespace-and-metrics). This method has limitations and is no longer a recommended way of charting or alerting on Virtual Machine Guest OS metrics. For the recommended method of collecting guest OS metrics, see the documentation for [Windows VMs](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-windows-install) or [Linux VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-linux-telegraf).|
+
+**If you are using Guest OS (classic) metrics:** By default, Guest OS metrics are stored in Azure Storage account, which you pick from the **Diagnostic settings** tab of your resource. If Guest OS metrics aren't collected or metrics explorer cannot access them, you will only see the **Virtual Machine Host** metric namespace:
 
 ![metric image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/cannot-pick-guest-os-namespace.png)
 

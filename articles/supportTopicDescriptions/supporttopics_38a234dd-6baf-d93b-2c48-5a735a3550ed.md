@@ -2,26 +2,41 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, rodejo, mwahl, dhanyahk"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  ownershipid="AzureIdentity_SyncFabric"
-  />
+  ownershipid="AzureIdentity_AzureActiveDirectoryConnect" />
 # Support Topic Descriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Issues related to AAD user provisioning and synchronization ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "013bf5eb-0229-eedf-ada0-d9d1fc46093a",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM sync installation or provisioning configuration in the MIM Sync Service Manager UI",
+      "searchTags": "MIM;sync",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "01bd0510-714d-b97c-f7a9-721b9742b6bb",
+      "longDescription": "",
+      "shortDescription": "Issues encountered during the provisioning configuration setup process",
+      "searchTags": "provisioning configuration;AD2AAD;Azure AD Cloud Provisioning",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
       "longDescription": "",
@@ -60,6 +75,14 @@
       "shortDescription": "You are having a problem configuring the provisioning service for a SaaS app",
       "searchTags": "issue configuring provisioning service ",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "46858651-c6d4-223d-2e44-bc4fb09ebeb3",
+      "longDescription": "",
+      "shortDescription": "Issues related to syncing users from AD to Azure AD using the new Azure AD Cloud Provisioning agent",
+      "searchTags": "Cloud Provisioning;Azure AD Cloud Provisioning;AD2AAD;Azure AD Connect Preview",
+      "category": "Azure AD Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -121,9 +144,17 @@
     {
       "id": "5da3591c-eba3-3a2b-e760-a0763a16f061",
       "longDescription": "",
-      "shortDescription": "You are seeing a problem with one or a few particular users",
-      "searchTags": "problem with one user or more",
+      "shortDescription": "Problem in Azure AD Connect with one or a few users that are not syncing or not syncing correctly",
+      "searchTags": "sync;user;aadconnect",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6a3b4523-5ffd-8cc4-244e-bf509386f3ea",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM Service and Portal installation, synchronization rule configuration in MIM Portal, and processing in MIM Service",
+      "searchTags": "MIM",
+      "category": "MIM",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -137,9 +168,17 @@
     {
       "id": "74c81dd5-2a27-fe42-941e-660e5f16582d",
       "longDescription": "",
-      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications, typically using the SCIM standard. ",
+      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications. Not be used for problems for SSO config, AADConnect or Intune.",
       "searchTags": "problem to provide user with SaaS app",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "890a3204-8103-bedf-c835-38ec9c16d794",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while installing Azure AD Cloud Provisioning agent on your on-premises AD server.",
+      "searchTags": "Azure AD Cloud Provisioning;AD2AAD;Install issues",
+      "category": "Installation",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -199,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be7539f0-c7eb-d128-6d68-d540faf50142",
+      "longDescription": "",
+      "shortDescription": "Issues with provisioning to or from MIM sync, via a MIM sync generic connector or management agent",
+      "searchTags": "MIM;sync;LDAP",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf9ebb9f-3b4e-9d70-0cd0-c11b33fe9936",
       "longDescription": "",
       "shortDescription": "You cannot download the sync error report",
@@ -231,11 +278,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dcf2d914-472b-a47f-da4d-5cb9265b7059",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning job is in a quarantine state",
+      "searchTags": "Quarantine;Provisioning job;Azure AD Cloud Provisioning",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
       "longDescription": "",
-      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "shortDescription": "Problems related to Azure AD Connect when syncing users from AD to AAD feature",
       "searchTags": "issue syncing from AD to AAD",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eda2e58a-91b5-cb0c-5f2e-4b869283281f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when your provisioning configuration is working incorrectly or not working at all.",
+      "searchTags": "provisioning configuration;Azure AD Cloud Provisioning;AD2AAD",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

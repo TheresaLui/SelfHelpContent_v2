@@ -10,7 +10,7 @@
 	supportTopicIds="32606433"
 	resourceTags="optional"
 	productPesIds="16160"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="npm-nodataforermrule-troubleshoot-and-case-submission"
 	ownershipId="CloudNet_NetAnalytics"
 />

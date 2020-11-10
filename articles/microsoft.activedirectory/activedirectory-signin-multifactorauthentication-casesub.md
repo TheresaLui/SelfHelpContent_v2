@@ -9,7 +9,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="c14723cd-7604-4148-9c21-a94d66fb2240"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />

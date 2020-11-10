@@ -10,7 +10,7 @@
 	supportTopicIds="32629511,32629519"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2c1079e1-2446-00f1-a908-6dc90fb0cbfe"
 	ownershipId="AzureData_DataFactory"
 />

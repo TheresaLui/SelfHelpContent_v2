@@ -9,7 +9,7 @@
 	supportTopicIds="32562459,32562460,32562461,32567690,32562462,32562463,32563790,32562464"
 	resourceTags="recommendations"
 	productPesIds="16188"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b9e94b48-25d0-4963-a2e7-85fee4c413a7"
 	ownershipId="CloudES_AzureAdvisor"
 />

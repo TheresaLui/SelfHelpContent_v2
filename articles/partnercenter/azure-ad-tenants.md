@@ -10,11 +10,11 @@
 	articleId="partnercenter_azure-ad-tenants"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635652, 32725795"
+	supportTopicIds="32725795"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
-	cloudEnvironments="public"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Azure AD tenants and Partner Center

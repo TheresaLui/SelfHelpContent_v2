@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688619"
 	productPesIds="16152"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="56A4E277-C3C7-40FF-A52A-6458223B74E3"
 	ownershipId="Compute_BotService"

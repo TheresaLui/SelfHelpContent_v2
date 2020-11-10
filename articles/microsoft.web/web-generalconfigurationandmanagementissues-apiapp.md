@@ -9,9 +9,9 @@
 	supportTopicIds="32451848"
 	resourceTags="apiapp"
 	productPesIds="15792"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="45c393dd-e5fb-445a-892c-b38c89e2c7e6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/general configuration and management issues.

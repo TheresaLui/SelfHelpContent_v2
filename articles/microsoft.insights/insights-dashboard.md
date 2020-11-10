@@ -10,7 +10,7 @@
 	supportTopicIds="32632996"
 	resourceTags=""
 	productPesIds="15693"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="appinsights-dashboard"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />

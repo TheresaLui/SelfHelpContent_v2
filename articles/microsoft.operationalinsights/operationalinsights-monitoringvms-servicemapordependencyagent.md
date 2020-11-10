@@ -7,10 +7,10 @@
     ms.author="kinghorn"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32633007"
+    supportTopicIds="32745414"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="644cd5e5-d19b-476f-b2e5-4fb1461636b2"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />

@@ -10,13 +10,26 @@
 	supportTopicIds="32677723"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="30543830-8407-47fb-a999-185587622a5f"
 	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve reportin integration issues with Power BI, Tableau or Qlik
 
+## **Recommended Steps**
+
+* PowerBI engine is case insensitive **by design**, so for example, it would consider "AAA"and "AaA" the same string. This can ead to duplicates. [Learn more](https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/), including a workaround to use the Unicode Zero-Width Space character.
+
 ## **Recommended Documents**
 
-* [Power BI](https://docs.azuredatabricks.net/user-guide/bi/power-bi.html)
+* [Connect BI tools](https://docs.microsoft.com/azure/databricks/integrations/bi/jdbc-odbc-bi)
+
+	* [Power BI](https://docs.azuredatabricks.net/user-guide/bi/power-bi.html)
+	
+	* [Tableau](https://docs.microsoft.com/azure/databricks/integrations/bi/tableau)
+	
+* [Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting)
+
+* [Accessing secrets with DBUtils fails on Azure Databricks clusters](https://docs.microsoft.com/azure/databricks/kb/bi/dbutils-access-secrets-fails)
+

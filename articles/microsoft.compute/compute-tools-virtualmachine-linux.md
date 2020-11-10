@@ -10,9 +10,9 @@
 	supportTopicIds=""
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="aa30bc56-b86f-4165-b863-68ef5c106ad4"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # tools

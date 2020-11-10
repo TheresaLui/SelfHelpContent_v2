@@ -9,7 +9,7 @@
     supportTopicIds="" 
     resourceTags="mfa_overview"
     productPesIds="" 
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     	articleId="449db255-7710-4c4c-a678-ffd5c73d702c"
 	ownershipId="AzureIdentity_User"
 /> 
@@ -18,7 +18,7 @@
 ## **Recommended steps** 
 <!---Loc Comment: Could you help to review the metadata? It displays incorrectly.--->
 
-Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
+Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
 
 In the Directory Integration section, ensure you have the target LDAP server configured properly:
    

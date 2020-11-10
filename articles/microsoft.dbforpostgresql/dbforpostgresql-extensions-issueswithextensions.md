@@ -7,10 +7,10 @@
     ms.author="raagyema"
     displayOrder="520"
     selfHelpType="generic"
-    supportTopicIds="32639990"
+    supportTopicIds="32639990, 32780853"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bd1b1e10-24c2-4900-a99f-98c4f1295e4b"
     	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628142"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="2a373906-6d1b-4d9a-1b80-d00aac75e182"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Publish to web from Power BI

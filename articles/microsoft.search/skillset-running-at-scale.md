@@ -10,7 +10,7 @@
 	displayOrder="35"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="skillset-running-at-scale"
 	ownershipId="AzureSearch_AzureSearch"
 />
