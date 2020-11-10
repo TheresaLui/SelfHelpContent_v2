@@ -7,7 +7,7 @@
     authors="rachel-msft"
     displayOrder="70"
     selfHelpType="generic"
-    supportTopicIds="32731216"
+    supportTopicIds="32731216, 32780986"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
