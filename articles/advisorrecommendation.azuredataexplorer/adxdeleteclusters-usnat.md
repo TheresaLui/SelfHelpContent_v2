@@ -17,7 +17,7 @@
   "recommendationTypeId": "d9c2f871-904e-4907-8572-0a33b0651f01",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usnateast.kusto.core.eaglex.ic.gov').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.usnatwest.kusto.core.eaglex.ic.gov').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -26,7 +26,6 @@
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "ADX Unused cluster",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "kustosee@microsoft.com",
