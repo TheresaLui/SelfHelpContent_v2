@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Chat message quality and performance"
-	description="Chat message quality and performance"
+	pageTitle="Azure Integrations with Azure Communication Services"
+	description="Azure Integrations with Azure Communication Services"
 	ms.author="manoskow"
 	authors="manoskow"
 	displayOrder=""
@@ -8,8 +8,7 @@
 	supportTopicIds="32756360, 32756363"
 	productPesIds="17327"
 	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="acs-chatmessagequality"
+	articleId="5bb9aec7-eead-4c8a-8dd5-c582d88a71a5"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
 />
@@ -18,7 +17,6 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "title": "Connecting to Azure Notification Hubs or Event Grid"
   "resourceRequired": true,
   "title": "Connecting to Azure Notification Hubs or Event Grid",
   "fileAttachmentHint": "",
@@ -46,7 +44,7 @@
         },
         {
 	    "id": "problem_description",
-	    "order": 3,
+	    "order": 4,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Helpful IDs",
 	    "watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
@@ -54,10 +52,10 @@
 	    "useAsAdditionalDetails": true,
 	    "hints": [
 	    {
-		"text": "MS-CV or chat thread ID"
+		"text": "MS-CV, Call ID, or chat thread ID"
 	    },
 	    {
-		"text": "Please enter the MS-CV or chat thread ID associated with the Events or Notifications that are failing."
+		"text": "Please enter the MS-CV, Call ID, or chat thread ID associated with the Events or Notifications that are failing."
 	    }
 	    ]
 	}
