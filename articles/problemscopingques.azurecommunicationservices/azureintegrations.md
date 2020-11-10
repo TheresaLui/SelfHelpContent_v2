@@ -58,7 +58,7 @@
 		"text": "Please enter the MS-CV, Call ID, or chat thread ID associated with the Events or Notifications that are failing."
 	    }
 	    ]
-	}
+	},
 	{
             "id": "problem_description",
             "order": 100,
