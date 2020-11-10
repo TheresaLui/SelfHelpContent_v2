@@ -25,11 +25,11 @@ Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$R
 
 Sample list of requests that were blocked:**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
 
-There may be more client IPs for which requests were blocked. To view the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
+There may be more client IPs for which requests were blocked. To view the full list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 ## **Recommended Steps** 
 
-Storage requests using RBAC to authenticate should pass an oAuth token with right permissions to perform the intended operation. You can find the current permission and the required permission for the user (OID) in the failure description. 
+Storage requests using RBAC to authenticate should pass an oAuth token with the correct permissions to perform the intended operation. You can find the current permission and the required permission for the user (OID) in the failure description. 
 
 1. Your Azure AD admin would be able to map the OID (GUID representing the user) to either of the following:
 
