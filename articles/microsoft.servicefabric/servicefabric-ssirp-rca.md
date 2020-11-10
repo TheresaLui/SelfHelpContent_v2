@@ -7,7 +7,7 @@
 	authors="ChiragPavecha"
 	ms.author="chiragpa"
 	displayOrder=""
-	articleId="servicefabric-ssirp_rca"
+	articleId="servicefabric-ssirp-rca"
 	diagnosticScenario="ssirpbreakingchange"
 	selfHelpType="rca"
 	supportTopicIds=""
