@@ -47,7 +47,7 @@
 	    "order": 4,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Helpful IDs",
-	    "watermarkText": "Provide the MS-CV or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
+	    "watermarkText": "Provide the MS-CV, Call ID, or chat thread ID to help us troubleshoot the issue. Follow <a href='https://docs.microsoft.com/azure/communication-services/concepts/troubleshooting-info'>instructions here</a> for how to collect this information",
 	    "required": false
 	},
 	{
