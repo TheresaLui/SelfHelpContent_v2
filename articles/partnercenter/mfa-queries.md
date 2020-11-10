@@ -37,4 +37,3 @@ To view metrics on compliance to [partner security requirements](https://docs.mi
 * [Partner Security Requirements](https://docs.microsoft.com/partner-center/partner-security-requirements)
 * [Partner Security Requirements FAQ](https://docs.microsoft.com/partner-center/partner-security-requirements-faq)
 
-
