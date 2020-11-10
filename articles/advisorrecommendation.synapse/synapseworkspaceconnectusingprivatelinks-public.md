@@ -22,7 +22,7 @@
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Security",
-  "recommendationImpact": "High",
+  "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
   "recommendationFriendlyName": "SynapseWorkspaceConnectUsingPrivateLinks",
   "recommendationMetadataState": "Active",
@@ -36,7 +36,7 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints",
   "description": "Consider deleting firewall rules and connect to Azure Synapse workspace using private links",
   "longDescription": "Managed private endpoints are private endpoints created in the Managed workspace Microsoft Azure Virtual Network establishing a private link to Azure resources. Azure Synapse manages these private endpoints on your behalf. When you use a private link, traffic between your Virtual Network and workspace traverses entirely over the Microsoft backbone network. Private Link protects against data exfiltration risks. You establish a private link to a resource by creating a private endpoint.",
