@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728088"
+       supportTopicIds="32728088,32728029,32728161,32728219,32728205,32728128,32728248,32728168,32728075,32728185,32728102,32728115,32728236,32728276,32728262,32728055"
        productPesIds="17006"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -22,39 +22,41 @@
    "title": "Marketplace Deployment Issue",
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording, HAR file or document with steps to recreate the issue)",
    "formElements": [
+          {
+       "id": "learn_more_text",
+       "order": 1,
+       "controlType": "infoblock",
+       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
+       },
        {
 	   "id": "pc_isv_publisher_name",
-       	   "visibility": null,
-	   "order": 1,
+	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name.",
-	   "required": true
+	   "watermarkText": "Please provide the publisher name",
+	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
-       	   "visibility": null,
-	   "order": 2,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "order": 3,
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
-           "visibility": null,
-	   "order": 3,
-	   "controlType": "numerictextbox",
-	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings.",
+	   "order": 4,
+	   "controlType": "textbox",
+	   "displayLabel": "Please provide the seller ID",
+	   "watermarkText": "In Partner Center select Settings then Developer settings",
 	   "required": true
        },
        {
 	   "id": "pc_isv_offer_type",
-           "visibility": null,
-	   "order": 4,
+	   "order": 5,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer Type:",
+	   "displayLabel": "Offer Type",
            "watermarkText":"Please select the Offer Type from the below list",
 	   "dropdownOptions": [
 	       {
@@ -126,84 +128,74 @@
        },
        {
 	   "id": "pc_isv_offer_id",
-           "visibility": null,
-	   "order": 5,
+	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
-	   "watermarkText": "Please provide the Offer ID.",
+	   "watermarkText": "Please provide the Offer ID",
 	   "required": false
        },
        {
 	   "id": "pc_isv_offer_name",
-           "visibility": null,
-	   "order": 6,
+	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
-	   "watermarkText": "Please provide the Offer Name.",
+	   "watermarkText": "Please provide the Offer Name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_offer_private",
-           "visibility": null,
-	   "order": 7,
+	   "order": 8,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is the offer for Private/Preview audience?",
-           "watermarkText":"Please select",
+           "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "PrivatePreview_yes",
-		   "text": "Yes"
+	       "value": "PrivatePreview_yes",
+	       "text": "Yes"
 	       },
 	       {
-		   "value": "PrivatePreview_no",
-		   "text": "No"
+	       "value": "PrivatePreview_no",
+	       "text": "No"
+	       },
+	       {
+	       "value": "dont_know_answer",
+	       "text": "Not sure"
 	       }],
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
-           "visibility": "pc_isv_offer_private == PrivatePreview_yes",
-	   "order": 8,
+	   "order": 9,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide additional details",
+	   "displayLabel": "If the offer is for Private/Preview audience please specify who is facing the issue and Subscription ID",
 	   "watermarkText": "Person facing the issue, Subscription ID",
 	   "required": false
        },
        {
 	   "id": "additional_emails_for_notification",
-           "visibility": null,
-	   "order": 9,
+	   "order": 10,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
 	   "id": "problem_start_time",
-           "visibility": null,
-	   "order": 10,
+	   "order": 11,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
        {
 	   "id": "problem_description",
-           "visibility": null,
-	   "order": 11,
+	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
 	   "required": true,
 	   "useAsAdditionalDetails": true
-       },
-       {
-       "id": "learn_more_text",
-       "visibility": null,
-       "order": 12,
-       "controlType": "infoblock",
-       "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section below"
        }
-   ]
+]
 }
 ---

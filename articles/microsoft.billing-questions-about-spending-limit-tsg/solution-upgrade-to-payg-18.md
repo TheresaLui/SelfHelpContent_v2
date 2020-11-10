@@ -19,6 +19,8 @@
 
 <!--issueDescription-->
 
+Please note, only the account admin canupgrade to pay as you go. 
+
 1. Sign in to the Azure Portal.
 2. Search for subscription in the portal search bar.
 3. Select the subscription that was created when you signed up for Azure free account.
@@ -31,3 +33,6 @@
 
 <!--/issueDescription-->
 
+## Recommended Documents
+
+1. [Upgrade your free azure account](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/upgrade-azure-subscription#upgrade-your-azure-free-account)
