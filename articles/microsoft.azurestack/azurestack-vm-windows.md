@@ -38,6 +38,11 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 - For troubleshooting a VHD that you are moving, see [Verify your VHD](https://docs.microsoft.com/azure-stack/user/vm-move-from-azure?view=azs-2005&tabs=win-spec%2Ccreate-vm-spec#verify-your-vhd)
 - For general VM troubleshooting guidance, see [Troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/)
 
+## Change drive letter for temp drive
+
+If your application needs to use the a drive to store data, follow these instructions to use a different drive letter for the temporary disk. For guidance, see [Use the D: drive as a data drive on a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/change-drive-letter).
+
+
 ## **Recommended Documents**
 
 * [Windows Virtual Machines Documentation](https://docs.microsoft.com/azure/virtual-machines/windows/)
