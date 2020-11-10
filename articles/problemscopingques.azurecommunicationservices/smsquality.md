@@ -3,7 +3,7 @@
 	description="Poor audio and/or video quality"
 	ms.author="manoskow"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="0f871f84-46d0-f638-d346-5c5a27fe59dd"
+	supportTopicIds="32756373"
 	productPesIds="17327"
 	cloudEnvironments="public"
 	schemaVersion="1"
