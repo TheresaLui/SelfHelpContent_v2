@@ -28,10 +28,10 @@ We detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseN
 This high locking wait event is potentially contributing to performance issues. Blocking can occur due to lock wait times. Blocking occurs when one connection holds a lock on a specific resource and a second connection attempts to acquire a conflicting lock type on the same resource. The duration and transaction context of a query determine how long its locks are held and, thereby, their impact on other queries. 
 
 To improve performance, follow these steps:
-1. Identify which type of locks have the longest waits.
+1. [Identify which type of locks have the longest waits.](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-wait-stats-azure-sql-database?view=azuresqldb-current)
 2. [Identify which queries may be blocking.](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure)
-3. Verify the isolation levels and determine whether there are any locking hints used.
-4. Tune the blocking queries and adjust transaction size and duration where possible.
+3. [Verify the isolation levels and determine whether there are any locking hints used.](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server?WT.mc_id=Portal-Microsoft_Azure_Support)
+4. [Tune the blocking queries](https://docs.microsoft.com/en-us/azure/azure-sql/database/performance-guidance#tune-your-database) and [adjust transaction size and duration where possible]( https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms175523(v=sql.105)?redirectedfrom=MSDN).
 
 ## **Recommended Documents**
 
