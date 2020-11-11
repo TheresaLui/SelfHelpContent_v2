@@ -8,7 +8,7 @@
     ms.author="yujzhan"
     displayOrder=""
     articleId="MissingMetricsLowSlo_9183A4AE-2FC7-4150-94BF-416B19C15359"
-    diagnosticScenario="MissingeMtricsLowSlo"
+    diagnosticScenario="SqlMetrics"
     selfHelpType="diagnostics"
     supportTopicIds="32630435,32630434,32630412"
     resourceTags=""
