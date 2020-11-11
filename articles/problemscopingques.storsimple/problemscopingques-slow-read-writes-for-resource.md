@@ -1,22 +1,22 @@
 <properties
-	articleId="d3b082b9-d862-4d13-b8e8-78a8a49b909f"
-	pageTitle="Scoping for Backups slow"
-	description="Backups slow scoping"
+	articleId="757e20d7-b058-4b34-906f-e7d2ed19eed3"
+	pageTitle="Scoping slow reads and writes"
+	description="Slow reads and writes scoping"
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630494"
+	supportTopicIds="32630506"
 	productPesIds="15438"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Backups are slow
+# Slow reads and writes
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Backups_slow",
+    "title": "Slow reads and writes",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -31,26 +31,27 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable/No devices available"
-                }
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No devices available"
+                    }
             }
         },
         {
-            "id": "local_backups",
+            "id": "volume_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Are the local backup successful?",
+            "displayLabel": "What type of volumes are observing slowness",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "Tiered volumes",
+                    "text": "Tiered volumes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "Locally pinned volumes",
+                    "text": "Locally pinned volumes"
                 }
             ],
             "required": false
@@ -82,20 +83,64 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "mpio",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is MPIO configured on the servers where the volume is hosted?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "antivirus",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "If antivirus is configured on the file server, what kind of scanning is performed?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Full scan",
+                    "text": "Full scan"
+                },
+                {
+                    "value": "Scan on open and close",
+                    "text": "Scan on open and close"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include output."
+                },
+                {
+                    "text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"

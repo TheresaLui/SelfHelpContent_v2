@@ -1,22 +1,22 @@
 <properties
-	articleId="eceebe10-2572-4f50-b83c-d759978a1061"
-	pageTitle="Scoping for controller offline in portal"
-	description="Controller offline in portal scoping"
+	articleId="69426dc8-dd6d-4132-9916-91bec1965e9a"
+	pageTitle="Scoping device not sending heartbeat"
+	description="Device not sending heartbeat Scoping"
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630497"
+	supportTopicIds="32630498"
 	productPesIds="15438"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Controller offline in protal
+# Device not sending heartbeat
 ---
 {
+    "subscriptionrequired": true,
     "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Slow virtual machine",
+    "title": "Device not sending heartbeat",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -31,35 +31,18 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable/No devices available"
-                }
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No devices available"
+                    }
             }
         },
         {
-            "id": "controller",
+            "id": "changes_updates",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Select the controller that is shown offline",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Controller 0",
-                    "text": "Controller 0"
-                },
-                {
-                    "value": "Controller 1",
-                    "text": "Controller 1"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "serial_access",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have access to the device through the serial console",
+            "displayLabel": "Were there any changes/updates made on the network?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -75,19 +58,27 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include output."
+                },
+                {
+                    "text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
