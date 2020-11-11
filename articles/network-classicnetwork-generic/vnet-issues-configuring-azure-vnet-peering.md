@@ -32,13 +32,15 @@
 
    3. Run the following PowerShell command:
 
-      `$vnetA=Get-AzVirtualNetwork -Name "VNET" -ResourceGroupName "RSGRP"`
-      `Add-AzVirtualNetworkPeering -Name "PEERNAME" -VirtualNetwork $vnetA -RemoteVirtualNetworkId`
-      `/subscriptions/SubscriptionID/resourceGroups/Default Networking/providers/Microsoft.ClassicNetwork/virtualNetworks/name`
+```
+      $vnetA=Get-AzVirtualNetwork -Name "VNET" -ResourceGroupName "RSGRP"
+      Add-AzVirtualNetworkPeering -Name "PEERNAME" -VirtualNetwork $vnetA -RemoteVirtualNetworkId
+      /subscriptions/SubscriptionID/resourceGroups/Default Networking/providers/Microsoft.ClassicNetwork/virtualNetworks/name
+```
 
 ## **Recommended Documents**
 
-Step-by-Step walk-throughs for creating peerings between:
+Step-by-step walk-throughs for creating peerings between:
 
 - [Different subscriptions](https://docs.microsoft.com/azure/virtual-network/create-peering-different-subscriptions)
 - [Different deployment models & different subscriptions](https://docs.microsoft.com/azure/virtual-network/create-peering-different-deployment-models-subscriptions)
