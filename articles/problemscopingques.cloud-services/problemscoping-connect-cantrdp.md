@@ -20,8 +20,42 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "disable_reenable",
+            "id": "cloud_service_slots",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Slot",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dropdownOptions": [{
+                "value": "Production",
+                "text": "Production"
+            }, {
+                "value": "Staging",
+                "text": "Staging"
+            }]
+        },
+        {
+            "id": "cloud_service_roles",
+            "order": 2,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Role",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No roles available"
+                }
+            }
+        },
+        {
+            "id": "disable_reenable",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you tried to disable and re-enable RDP from the Azure portal?",
             "watermarkText": "Choose an option",
@@ -39,7 +73,7 @@
         },
         {
             "id": "able_operation",
-            "order": 2,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Which of the following are you able to do?",
             "watermarkText": "Choose all that apply.",
@@ -61,7 +95,7 @@
         },
         {
             "id": "if_partofvnet",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is this Cloud Service part of a vnet?",
             "watermarkText": "Choose an option",
@@ -79,7 +113,7 @@
         },
         {
             "id": "vnet_tried",
-            "order": 4,
+            "order": 6,
             "visibility": "if_partofvnet == Yes",
             "controlType": "multiselectdropdown",
             "displayLabel": "Which of the following have you tried",
@@ -94,8 +128,8 @@
                     "text": "Remove Cloud Services from VNET"
                 },
                 {
-                    "value": "Create rules that allow traffic on ports 3389 and 20000",
-                    "text": "Create rules that allow traffic on ports 3389 and 20000"
+                    "value": "Create rules that allow traffic on ports 3389 and 20000",
+                    "text": "Create rules that allow traffic on ports 3389 and 20000"
                 },
                 {
                     "value": "None of the above",
@@ -106,7 +140,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -114,7 +148,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
