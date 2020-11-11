@@ -26,7 +26,7 @@ Most customers are able to resolve MFA issues related to NPS Extensions by using
 ### NPS Extension Diagnostic 
 
 <Insight>
-<symptomId>DiagnosticId.DxpPrimaryInfoInsight</symptomId> 
+<symptomId>DxpPrimaryInfoInsight</symptomId> 
 <executionText>Checking for MFA related issues with your NPS Extension</executionText>
 <timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
 <noResultText>The diagnostics didn't find any issues. Proceed to the Recommended Documents section</noResultText>

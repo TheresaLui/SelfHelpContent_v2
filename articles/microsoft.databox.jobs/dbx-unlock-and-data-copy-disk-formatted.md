@@ -11,7 +11,7 @@
 	supportTopicIds="32639204"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax, usnat, ussec, mooncake"
+	cloudEnvironments="public,fairfax,mooncake"
 	articleId="32639204"
 	ownershipId="StorageMediaEdge_DataBox"
 />
