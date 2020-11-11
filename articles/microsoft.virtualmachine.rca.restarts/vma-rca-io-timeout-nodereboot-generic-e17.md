@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
