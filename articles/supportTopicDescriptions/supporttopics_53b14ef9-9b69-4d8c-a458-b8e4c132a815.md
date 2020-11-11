@@ -27,7 +27,7 @@
     {
       "id": "051dfff9-0ab0-cf4a-def6-cd0d917f050d",
       "longDescription": "",
-      "shortDescription": "Questions or issues with virtual machine slowness or unresponsive",
+      "shortDescription": "Questions or issues with virtual machine slowness or unresponsiveness",
       "searchTags": "consumption;performance diagnostics;resource consumption;performance;slow vm;vm unresponsive;vm slow",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
@@ -35,7 +35,7 @@
     {
       "id": "08399bc4-65fe-30a4-6fe9-a6d0f8c702ad",
       "longDescription": "",
-      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in Native mode",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in native mode",
       "searchTags": "ssrs native mode;reporting services native mode",
       "category": "SSRS",
       "useInDiagnoseAndSolve": "true"
@@ -57,12 +57,28 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "1399a98e-5286-6123-80fc-adbec49f9300",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Modeling Tools SSDT, and Management Tool SSMS",
+      "searchTags": "ssas tools;SSDT;SSMS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
       "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
       "searchTags": "",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "1589e733-c21e-a4b0-4984-e06ad8e324ad",
+      "longDescription": "",
+      "shortDescription": "Issue with SQL Server Analysis Services Setup, Patching, Licensing, SQL VM Images, SQL VM RP or IaaS Extension Setup",
+      "searchTags": "ssas;sql server analysis services;ssas setup;ssas licensing;ssas patching",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "15caab59-558e-933c-4426-a4ee3e25d2dc",
@@ -83,7 +99,7 @@
     {
       "id": "20025bf9-5950-2ec7-48eb-dfbd19b25cd9",
       "longDescription": "",
-      "shortDescription": "Questions or issues with database shrinking,file growth, space issues or database partitioning",
+      "shortDescription": "Questions or issues with database shrinking, file growth, space issues or database partitioning",
       "searchTags": "database shrinking;file growth;database partitioning;shrinking",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
@@ -99,7 +115,7 @@
     {
       "id": "227b3b98-f14f-16d0-dae0-9ed1d8509729",
       "longDescription": "",
-      "shortDescription": "Questions or issues with an Always On solution such as availability groups availability and failures,unexpected failovers,performance and probe port configuration",
+      "shortDescription": "Questions or issues with an Always On solution such as availability groups availability and failures, unexpected failovers, performance and probe port configuration",
       "searchTags": "alwayson;always on;primary;secondary;ha;listener;load balancer;ilb;availability group;ag;ag connectivity;availability group connectivity;probe port;always on latency;performance",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
@@ -169,6 +185,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3c096d5b-27c3-7da8-1883-7adb5bb6b9fe",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS instances exception, memory dump generation, unexpected termination, being not responding and unable to start.",
+      "searchTags": "SSAS exception;SSAS termination;SSAS not responding",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "414e5b5c-a127-5260-1b38-975eefeba008",
       "longDescription": "",
       "shortDescription": "Questions or issues with the Report Viewer control",
@@ -183,6 +207,14 @@
       "searchTags": "default instance;default;sql server instance;instance;connectivity;named instance;connect;cannot connect",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "4b92e6b1-e3a0-9c2b-2f8e-90e89e7cf55a",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with SSAS Server Properties, Backup and Restore, Synchronization, Online Attach, DBCC and other  administrative operation",
+      "searchTags": "ssas management;ssas operation",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4b9dddd1-d3e4-ba74-9b4d-80bae2592bf0",
@@ -230,6 +262,14 @@
       "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
       "searchTags": "ssis package performance;integration services package performance",
       "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "62c29126-871d-627a-1778-e28a5f528c7a",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Tabular  Modeling and Design on Azure VM.",
+      "searchTags": "ssas tabular",
+      "category": "SSAS",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -289,6 +329,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "784e0367-9858-2817-8eda-e4be198d0a75",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to Availability Groups and Listener and load balancer or SQL Failover Clustered Instance (FCI) after you have set up AG or L",
+      "searchTags": "connection to listener;load balancer configuration;cannot connect to ag;Listener configuration;ILB",
+      "category": "Connection-SQLAG",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7b90261e-1392-3473-dfb0-566419a1e416",
       "longDescription": "",
       "shortDescription": "Questions or issues on Database Mail, a feature to send e-mail messages to database users, SQL agent Job failures",
@@ -297,12 +345,28 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "81428e60-2438-6713-1c9c-a107ec53b163",
+      "longDescription": "",
+      "shortDescription": "Questions  on commonly accepted best practices for SSAS Multidimensional Modeling and Design on Azure VM.",
+      "searchTags": "ssas multidimensional;Analysis Services Multidimensional",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86494b13-e041-65d5-b786-f600737b096a",
       "longDescription": "",
       "shortDescription": "Questions or issues with setting up certificate for SQL Server, SSL and TLS, encrypted connection or errors",
       "searchTags": "certificate;sql certificate;ssl;tls;encrypted connections",
       "category": "Security",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "86507fb5-016a-3432-8083-2be56073bea4",
+      "longDescription": "",
+      "shortDescription": "Issues with SSAS Model data sources connecting to relational engines or Modern Get data experience with Power Query & M Language to supported sources",
+      "searchTags": "ssas data source;ssas data sources;analysis services data source",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "892a8d4c-e097-0cf7-c4ac-b1814924e097",
@@ -318,6 +382,14 @@
       "shortDescription": "Questions or issues with connectivity and configuration of a report data source",
       "searchTags": "ssrs data source;ssrs configuration;ssrs connectivity;reporting services data source;report data source",
       "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9246e2a9-2991-6c52-a629-73ae142dd058",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with  SSAS instances processing being slow, query execution time or returning errors.",
+      "searchTags": "ssas refresh;ssas query performance;ssas query execution",
+      "category": "SSAS",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -383,6 +455,14 @@
       "searchTags": "ha;cluster;windows cluster;failover;file share;",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "c13fdd46-3250-d9bc-6d99-301372971a50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connecting to SSAS instance on Azure VM",
+      "searchTags": "connection to SSAS;connecting to SSAS",
+      "category": "SSAS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
@@ -563,7 +643,7 @@
     {
       "id": "f35e96fa-c01e-c7dd-1181-28818c4bd601",
       "longDescription": "",
-      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own Licence and Azure Hyrid Benefit)",
+      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own License and Azure Hybrid Benefit)",
       "searchTags": "licensing;licensing model;AHUB;change licensing;PAYG;BYOL",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "TRUE"

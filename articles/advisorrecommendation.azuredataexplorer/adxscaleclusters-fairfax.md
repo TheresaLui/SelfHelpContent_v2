@@ -26,7 +26,6 @@
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "Right-size ADX cluster",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "kustosee@microsoft.com",

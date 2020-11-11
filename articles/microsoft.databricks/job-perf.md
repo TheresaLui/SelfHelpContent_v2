@@ -24,7 +24,10 @@
     spark.ui.retainedStages 100
     spark.ui.retainedTasks 10000
  ```
- 
+ * To handle transient connection errors it is recommended to
+      * Increase the connection timeout setting to 120 seconds
+      * Implement retry logic, 2 – 3 minutes between each retry
+      
  * Monitoring [Driver node](https://docs.microsoft.com/azure/databricks/clusters/configure#driver-node) performance:
     * [Ganglia metrics](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics)
     * [Diagnostic logging in Azure Databricks]( https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/azure-diagnostic-logs) - you can stream the VM's metrics to Azure Log Analytics Workspace by installing the Log Analytics Agent on each cluster node
