@@ -27,7 +27,7 @@ We detected that over the past 24 hours there has been an increase of **<!--$Inc
 An increase in user load is potentially contributing to performance issues or timeouts. 
 
 To improve performance, follow these recommendations:
-* To account for increased user workload, upgrade your database tier. – For more information, go to [Azure SQL Database Pricing](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models). 
+* To account for increased user workload, upgrade your database tier. For more information, go to [vCore and DTU purchasing models](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models). 
 * To help improve workload performance, enable [Automatic Tuning](https://docs.microsoft.com/azure/azure-sql/database/automatic-tuning-enable). 
 * Identify and tune top resource consuming queries using [Query Performance Insights](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use).
 * For a simple, cost-effective solution for managing and scaling multiple databases that have varying and unpredictable usage demands, move databases with volatile workloads into [Elastic Pools](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-overview). 
