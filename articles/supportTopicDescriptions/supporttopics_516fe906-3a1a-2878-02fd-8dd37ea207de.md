@@ -344,8 +344,8 @@
     {
       "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issue with Seamless Single Sign-on",
+      "shortDescription": "Issues with configuring, signing in with, and managing Seamless Single Sign-on",
+      "searchTags": "Configuration;sign-in;SSO;manage;single sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
