@@ -20,7 +20,7 @@
 
 For point-to-site clients connecting with resources in a remote virtual network (VNet), that is peered with the point-to-site virtual private network (VPN) VNet, ensure the following:
 
-   1. The **use remote gateway** option is selected for the spoke VNet that doesn't have a VPN gateway. (You'll not be able to enable this if your spoke VNet has a gateway by-design)
+   1. The **use remote gateway** option is selected for the spoke VNet that doesn't have a VPN gateway. (You won't be able to enable this if your spoke VNet has a gateway by-design)
    2. The **allow gateway transit** option must be enabled on the hub VNet that has the point-to-site VPN gateway.
    3. The point-to-site package must be downloaded and installed again **after** VNet Peering has been established or changed for the point-to-site package to have the updated routes.
 
