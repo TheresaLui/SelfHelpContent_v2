@@ -296,8 +296,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
-      "searchTags": "issues with pass-through authentication",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in;sign-in error",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
