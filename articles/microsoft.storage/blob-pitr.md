@@ -53,10 +53,10 @@
     -FeatureName Versioning
 
 	```
-- [**How to Enable point-in time restore**](https://docs.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
+- [**How to Enable point-in time restore**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
 
  ### **Preview limitations and known issues**
- Click [**here**](https://docs.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues) to find the preview limitations as well as the list of known issues..
+ Click [**here**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues) to find the preview limitations as well as the list of known issues..
 
 
 ## **Recommended Documents**
