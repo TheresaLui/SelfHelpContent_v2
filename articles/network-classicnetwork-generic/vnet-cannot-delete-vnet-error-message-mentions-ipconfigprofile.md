@@ -20,17 +20,17 @@ If you deployed Azure container instances, and have not cleaned up those resourc
 
 ## **Recommended Steps**
 
-1. In the Azure portal, go to the resource group's **Overview** page.
+1. In the Azure portal, go to the resource group's **Overview** page
 
-2. In the header for the list of the resource group's resources, select **Show hidden types**. The network profile type is hidden in the Azure portal by default.
+2. In the header for the list of the resource group's resources, select **Show hidden types**. The network profile type is hidden in the Azure portal by default
 
-3. Select the network profile related to the container groups.
+3. Select the network profile related to the container groups
 
-4. Select **Delete**.
+4. Select **Delete**
 
 ![Delete network profile](https://docs.microsoft.com/azure/virtual-network/media/virtual-network-troubleshoot-cannot-delete-vnet/container-instances.png)
 
-5. Delete the subnet or virtual network again.
+5. Delete the subnet or virtual network again
 
 If these steps don't resolve the issue, use these Azure CLI commands to clean up resources:
 
