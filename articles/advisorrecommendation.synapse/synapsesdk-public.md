@@ -5,7 +5,7 @@
     articleId="7c83695a-3fa9-4668-9080-85151f5ab7be_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public,usnat,ussec"
-    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 # SynapseManagementClient SDK Version Recommendation
 ---
@@ -33,7 +33,7 @@
 		},
 		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
 	},
-	"version": 4.0,
+	"version": 5.0,
 	"learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
 	"description": "Update SynapseManagementClient SDK Version",
 	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",
