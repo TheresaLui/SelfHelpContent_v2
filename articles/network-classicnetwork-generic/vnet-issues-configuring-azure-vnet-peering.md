@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-1. The user setting up this configuration must set **Network Contributor** permissions on both subscriptions.
+1. The user setting up this configuration must set **Network Contributor** permissions on both subscriptions
 
-2. Visit this [resource](https://docs.microsoft.com/azure/virtual-network/create-peering-different-subscriptions) to resolve this issue when both VNets are Azure Resource Managers (ARMs).
+2. [Learn how](https://docs.microsoft.com/azure/virtual-network/create-peering-different-subscriptions) to resolve this issue when both VNets are Azure Resource Managers (ARMs).
 
-3. Visit this [resource](https://docs.microsoft.com/azure/virtual-network/create-peering-different-deployment-models-subscriptions) to resolve this issue when VNets are in different deployment models.
+3. [Learn how](https://docs.microsoft.com/azure/virtual-network/create-peering-different-deployment-models-subscriptions) to resolve this issue when VNets are in different deployment models
 
 4. If the VNets are in different subscriptions, and the subscriptions are associated with different **Azure Active Directory** tenants, complete the following steps before continuing with the Azure documentation:
 
