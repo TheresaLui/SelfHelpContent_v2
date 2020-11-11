@@ -36,10 +36,9 @@ schemaVersion="1"
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "name",
-            "valuePropertyRegex": "^+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable/No namespaces available"
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Not applicable/No namespaces available"
                 }
             }
         },
