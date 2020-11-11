@@ -47,17 +47,15 @@ schemaVersion="1"
             "required": false,
             "visibility": "servicebus_feature != null && servicebus_feature == Queues",
             "dynamicDropdownOptions": {
-                "dependsOn": "servicebus_feature",
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/queues?&api-version=2015-08-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No queues available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No queues available"
                 }
+            }
         },
         {
             "id": "servicebus_topics",
@@ -68,17 +66,15 @@ schemaVersion="1"
             "required": false,
             "visibility": "servicebus_feature != null && servicebus_feature == Topics",
             "dynamicDropdownOptions": {
-                "dependsOn": "servicebus_feature",
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/topics?&api-version=2015-08-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No topics available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No topics available"
                 }
+            }
         },
         {
             "id": "problem_start_time",
