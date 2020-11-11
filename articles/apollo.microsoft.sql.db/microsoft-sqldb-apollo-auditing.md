@@ -11,9 +11,9 @@ cloudEnvironments="public"
 ownershipId="AzureData_AzureSQLDB_Security"
 />
 
-# Configuring Azure Active Directory
+# Auditing and Monitoring
 
-## Troubleshooting audit issues with Azure SQL DB 
+## Understanding Azure SQL auditing and monitoring concepts 
 
 :::Section Solutions:::
 
