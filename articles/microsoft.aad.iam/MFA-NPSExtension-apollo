@@ -33,7 +33,7 @@ Resolve MFA failures for NPS Extensions by using insights from diagnostics and b
 <executionText>Checking for MFA related issues with your NPS Extension</executionText>
 <timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
 <noResultText>The diagnostics didn't find any issues. Proceed to the Recommended Documents section</noResultText>
-<additionalInputsReq>false</additionalInputsReq> //TBD
+<additionalInputsReq>true</additionalInputsReq> //TBD
 </Insight>
  
  <br>
