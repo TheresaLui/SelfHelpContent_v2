@@ -384,8 +384,8 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless SSO login",
+      "shortDescription": "I was unable to find a solution to my problem under the other problem sub-types for Seamless SSO",
+      "searchTags": "SSO",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
