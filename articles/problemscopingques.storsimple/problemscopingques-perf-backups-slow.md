@@ -31,11 +31,10 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No devices available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
             }
         },
         {
