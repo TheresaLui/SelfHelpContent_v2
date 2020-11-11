@@ -52,12 +52,11 @@ schemaVersion="1"
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No queues available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No queues available"
                 }
+            }
         },
         {
             "id": "servicebus_topics",
@@ -73,12 +72,11 @@ schemaVersion="1"
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No topics available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No topics available"
                 }
+            }
         },
 		{
 			"id": "problem_start_time",
