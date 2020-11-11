@@ -19,8 +19,8 @@
 ## **Recommended Steps**
 
 1. To understand which internet protocals (IPs) belong to Microsoft services, see the mapping of IP ranges to Service Tags in the [weekly JSON download]( https://docs.microsoft.com/azure/virtual-network/service-tags-overview#discover-service-tags-by-using-downloadable-json-files). This file is updated every Monday. All IPs in the Azure cloud address space can be found under the AzureCloud tag.
-2. The Discovery API (Get-AzNetworkServiceTags and az network list-service-tags) commands are currently in Public Preview. The API may return incorrect and/or incomplete results until it is released for general audiences.
-3. To restrict traffic to and from specific Microsoft services, reference the [Service Tag documentation](https://docs.microsoft.com/azure/virtual-network/service-tags-overview) for a list of Service Tags and how they are used in network security group (NSG) rules.
+2. The Discovery API (Get-AzNetworkServiceTags and az network list-service-tags) commands are currently in Public Preview. The API may return incorrect and/or incomplete results until it is released for general audiences
+3. To restrict traffic to and from specific Microsoft services, see the [Service Tag documentation](https://docs.microsoft.com/azure/virtual-network/service-tags-overview) for a list of Service Tags and how they are used in network security group (NSG) rules
 4. You can't currently create User Defined Routes with Service Tags as the IP Prefix field. See [Virtual network service tags](https://docs.microsoft.com/azure/virtual-network/service-tags-overview) for the status on this feature ask.
 5. If a Service Tag is missing from the Portal selection blade for Network Security Group rule creation, check whether the tag is listed in our public document. Only Service Tags present in this table can be found in the Portal (except where noted).
 
