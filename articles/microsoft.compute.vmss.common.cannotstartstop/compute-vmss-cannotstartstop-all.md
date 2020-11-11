@@ -17,7 +17,7 @@
 
 # Cannot start or stop my instances
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 
