@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729626"
-    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	articleId="appinsights-serverdependenciesmissing-performance"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />

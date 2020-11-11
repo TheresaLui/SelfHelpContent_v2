@@ -30,14 +30,14 @@
 			"required": "true",
 			"filter": false,
 			"includeInQuotaSummary": true,
-			"infoBalloonText": "info balloon",
+			"infoBalloonText": "Select the quota type from the dropdown below. We currently only support Profile quota per subscription",
 			"dropdownOptions": [
 				{
-					"text": "Profile Quota per subscription",
+					"text": "Profile quota per subscription",
 					"value": "profileLimitChange"
 				},
                 {
-                    "text": "Other",
+                    "text": "Not Applicable",
                     "value": "dont_know_answer"
                 }
 			]
