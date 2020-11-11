@@ -19,9 +19,12 @@ Resolve MFA failures for NPS Extensions by using insights from diagnostics and b
  
 :::Section Insights:::
 
-### Health Check Script (Highly Recommended)
-Most customers are able to resolve MFA issues related to NPS Extensions by using the [Azure MFA NPS extension health check ](https://docs.microsoft.com/samples/azure-samples/azure-mfa-nps-extension-health-check/azure-mfa-nps-extension-health-check/?WT.mc_id=Portal-Microsoft_Azure_Support) script.
+> ### Health Check Script (Highly Recommended)
+> Most customers are able to resolve MFA issues related to NPS Extensions by using the [Azure MFA NPS extension health check ](https://docs.microsoft.com/samples/azure-samples/azure-mfa-nps-extension-health-check/azure-mfa-nps-extension-health-check/?WT.mc_id=Portal-Microsoft_Azure_Support) script.
 
+<br>
+
+------
 
 ### NPS Extension Diagnostic 
 
@@ -33,6 +36,10 @@ Most customers are able to resolve MFA issues related to NPS Extensions by using
 <additionalInputsReq>false</additionalInputsReq> //TBD
 </Insight>
  
+ <br>
+ 
+ --------
+
 ### Common Error Code
 
 NPS extension logs are found in the Event Viewer, under Custom Views > Server Roles > Network Policy and Access Services on the server where the NPS Extension is installed. 
@@ -41,15 +48,19 @@ NPS extension logs are found in the Event Viewer, under Custom Views > Server R
 |--|:--:|
 | CLIENT_CERT_INSTALL_ERROR | There may be an issue with how the client certificate was installed or associated with your tenant. Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification problems | 
 | ESTS_TOKEN_ERROR | Follow the instructions in Troubleshooting the MFA NPS extension to investigate client certification and ADAL token problems | 
-| NPS Extension for Azure MFA: 
-NPS Extension for Azure MFA performs Secondary Auth for Radius requests in AccessAccept State. Request received for User username with response state AccessReject, ignoring request | This error usually reflects an authentication failure in AD or that the NPS server is unable to receive responses from Azure AD. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com and https://login.microsoftonline.com using ports 80 and 443. It is also important to check that on the DIAL-IN tab of Network Access Permissions, the setting is set to "control access through NPS Network Policy". This error can also be triggered if the user is not assigned a license |
-| REQUEST_FORMAT_ERROR 
-Radius Request missing mandatory Radius userName\Identifier attribute. Verify that NPS is receiving RADIUS requests | This error usually reflects an installation issue. The NPS extension must be installed in NPS servers that can receive RADIUS requests. NPS servers that are installed as dependencies for services like RDG and RRAS don't receive radius requests. NPS Extension doesn't work when installed over such installations and errors out because it can't read the details from the authentication request |
+| HTTPS_COMMUNICATION_ERROR | The NPS server is unable to receive responses from Azure MFA. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com |
+| HTTP_CONNECT_ERROR | On the server that runs the NPS extension, verify that you can reach https://adnotifications.windowsazure.com and https://login.microsoftonline.com/. If those sites don't load, troubleshoot connectivity on that server |
+| NPS Extension for Azure MFA: NPS Extension for Azure MFA performs Secondary Auth for Radius requests in AccessAccept State. Request received for User username with response state AccessReject, ignoring request | This error usually reflects an authentication failure in AD or that the NPS server is unable to receive responses from Azure AD. Verify that your firewalls are open bidirectionally for traffic to and from https://adnotifications.windowsazure.com and https://login.microsoftonline.com using ports 80 and 443. It is also important to check that on the DIAL-IN tab of Network Access Permissions, the setting is set to "control access through NPS Network Policy". This error can also be triggered if the user is not assigned a license |
 | USERNAME_CANONICALIZATION_ERROR | Verify that the user is present in your on-premises Active Directory instance, and that the NPS Service has permission to access the directory. If you're using cross-forest trusts, contact support for further help |
+| REQUEST_FORMAT_ERROR - Radius Request missing mandatory Radius userName\Identifier attribute. Verify that NPS is receiving RADIUS requests | This error usually reflects an installation issue. The NPS extension must be installed in NPS servers that can receive RADIUS requests. NPS servers that are installed as dependencies for services like RDG and RRAS don't receive radius requests. NPS Extension doesn't work when installed over such installations and errors out because it can't read the details from the authentication request |
 
+<br>
 
 All error messages and their suggested solutions can be found here: [aka.ms/MFANPS](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension-errors)  
 
+<br>
+
+--------
 
 ### More resources
 <azureKB>
