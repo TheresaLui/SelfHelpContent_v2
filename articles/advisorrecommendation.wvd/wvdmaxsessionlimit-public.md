@@ -8,7 +8,7 @@
     cloudEnvironments="Public, ussec, usnat"
     ownershipId="Windows_Virtual_Desktop"
 />
-# Change the max session limit
+# Change the Max Session Limit
 ---
 {
     "recommendationOfferingId": "1132b618-fefe-40a0-9256-e685ff575ac7",
@@ -75,5 +75,5 @@
         }
     ],
     "tip": "Change the max session limit for your depth first load balanced host pool to improve VM performance."
-} 
---- 
+}
+---

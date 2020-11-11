@@ -7,9 +7,9 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Windows_Virtual_Desktop"
-/> 
-# Change the max session limit 
---- 
+/>
+# Change the Max Session Limit
+---
 {
     "recommendationOfferingId": "1132b618-fefe-40a0-9256-e685ff575ac7",
     "recommendationOfferingName": "Windows Virtual Desktop",
