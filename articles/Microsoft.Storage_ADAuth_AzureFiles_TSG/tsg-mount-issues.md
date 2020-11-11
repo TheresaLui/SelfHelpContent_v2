@@ -12,7 +12,7 @@
     productPesIds="1003478"
     cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
     articleId="22055eb3-34cb-4f87-97da-dd62352a501d"
-    ownershipID="Centennial_CloudNet_LoadBalancer"
+    ownershipID="StorageMediaEdge_StorageFiles"
 />
 
 # Customer is facing issues while mounting the file share
