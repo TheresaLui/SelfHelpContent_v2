@@ -136,7 +136,8 @@
             "displayLabel": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application. If available, include the client stack trace as well",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Obscure any personally identifiable information"
+            "watermarkText": "Obscure any personally identifiable information",
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "driver_name",
