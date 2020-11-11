@@ -39,7 +39,7 @@ Azure Cosmos DB will sync your transactional data with analytical store within 2
 + When available, it will work for Linked Services for Azure Cosmos DB containers with analytical store enabled.
 
 
-### **Can't load data into Cosmos DB using SQL Serverless**  
+### **Unable to load data into Cosmos DB using SQL Serverless**  
 
 Synapse SQL Serverless is read only.  
 
@@ -47,7 +47,9 @@ Synapse SQL Serverless is read only.
 ## **Recommended Documents**  
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)  
+<br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
 
-<br>  
 
 [Query Azure Cosmos DB data with serverless SQL pool in Azure Synapse Link](https://docs.microsoft.com/azure/synapse-analytics/sql/query-cosmos-db-analytical-store)  
+<br> This article has details and examples about Synapse SQL Serverless Pool for Synapse Link.
+
