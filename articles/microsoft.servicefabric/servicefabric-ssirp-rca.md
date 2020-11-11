@@ -24,7 +24,7 @@ We have identified the Service Fabric cluster **<!--$sfclustername-->sfclusterna
 
 To avoid service interruptions, we recommend upgrading your Service Fabric cluster to a supported version. Please refer to [this guide](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#upgrade--azure-service-fabric-clusters-by-november-20th-2020) for FAQs, more details on what’s changing, and how to upgrade. 
 
-If you have other service fabric clusters under this or any other subscription, you can use the script mentioned in [section 'C'](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#c-upgrade-pre-requisite) to check if they are impacted or not.
+If you have other Service Fabric clusters under this or any other subscription, you can use the script mentioned in [section 'C'](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#c-upgrade-pre-requisite) to check if they are impacted or not.
 
 If you still have any follow up questions on this, contact us.<br>
 
