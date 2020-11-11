@@ -1,5 +1,5 @@
 <properties
-	articleId="59d512d1-f8d2-4f11-b9df-1c42291f59fb"
+	articleId="59d512d1-f8d2-4f11-b9df-1c42291f59fb-psq"
 	pageTitle="Maps Creator Tileset service error"
 	description="Creator Tileset service error"
 	supportTopicIds="32741862"

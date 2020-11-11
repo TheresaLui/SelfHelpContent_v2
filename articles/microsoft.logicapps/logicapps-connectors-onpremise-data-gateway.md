@@ -19,5 +19,11 @@
 ## **Recommended Documents**
 
 - [Install on-premises data gateway for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-gateway-install)
+- [Connect to on-premises data sources from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-gateway-connection)
+- [On-premises data gateway architecture](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem-indepth)
+
+## **Recommended Steps**
 
 - [Troubleshoot the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-tshoot)
+- [Consult the F.A.Q.](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem-faq)
+- [Codit article - On-premises data gateway with troubleshooting steps](https://www.codit.eu/blog/logic-apps-and-the-on-premises-data-gateway/)
