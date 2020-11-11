@@ -20,11 +20,11 @@
 
 Completing a Service Chain in a hub and spoke topology within Azure requires the following steps:
 
-1. Use a Network Virtual Appliance (NVA) in the Hub VNet - [Setup an NVA](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#create-an-nva).
+1. Use a Network Virtual Appliance (NVA) in the Hub VNet. [Set up an NVA](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#create-an-nva).
 
-2. There must be [User-defined routes - UDRs](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#create-a-route-table) in the spoke VNets with the next hop type of **Network Virtual Appliance** pointing to the internet protocol (IP) address of the NVA in the hub virtual network (VNet).
+2. There must be [user-defined routes (UDRs)](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#create-a-route-table) in the spoke VNets with the next hop type of **Network Virtual Appliance** pointing to the internet protocol (IP) address of the NVA in the hub virtual network (VNet)
 
-3. NVA network interfaces (NICs) must have ['IP Forwarding' enabled](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#turn-on-ip-forwarding).
+3. NVA network interfaces (NICs) must have ['IP Forwarding' enabled](https://docs.microsoft.com/azure/virtual-network/tutorial-create-route-table-portal#turn-on-ip-forwarding)
 
 4. NVAs must be configured correctly internally, which requires NVA vendor assistance. For point-to-site clients connecting with resources, in a remote VNet that is peered with the point-to-site VPN VNet, ensure the following:
 
