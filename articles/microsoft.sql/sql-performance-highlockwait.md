@@ -17,23 +17,22 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# High Lock Waits Detected
-
+# High Locking Waits Detected
 <!--issueDescription-->
-We detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** is experiencing high wait times due to locking. Between **<!--$StartTime-->StartTime<!--/$StartTime-->** and **<!--$EndTime-->EndTime<!--/$EndTime-->**, we detected over ten 15-minute intervals with average lock times of more than 60 seconds.
+We ran diagnostics detected that your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** is experiencing high wait times due to locking. This is potentially contributing to performance issues. Between **<!--$StartTime-->StartTime<!--/$StartTime-->** and **<!--$EndTime-->EndTime<!--/$EndTime-->**, we detected over ten 15-minute intervals with average lock times of more than 60 seconds.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-This high locking wait event is potentially contributing to performance issues. Blocking can occur due to lock wait times. Blocking occurs when one connection holds a lock on a specific resource and a second connection attempts to acquire a conflicting lock type on the same resource. The duration and transaction context of a query determine how long its locks are held and, thereby, their impact on other queries. 
-
-To improve performance, follow these steps:
-1. [Identify which type of locks have the longest waits.](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-wait-stats-azure-sql-database?view=azuresqldb-current)
-2. [Identify which queries may be blocking.](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure)
-3. [Verify the isolation levels and determine whether there are any locking hints used.](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server?WT.mc_id=Portal-Microsoft_Azure_Support)
-4. [Tune the blocking queries](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance#tune-your-database) and [adjust transaction size and duration where possible](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms175523(v=sql.105)).
+To reduce locking waits and improve database performance, follow these recommendations:
+* [Identify which type of locks have the longest waits.](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-wait-stats-azure-sql-database?view=azuresqldb-current)
+* [Identify blocking queries](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure/) and [tune blocking queries](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance#tune-your-database)
+* [Reduce transaction size and duration](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms175523(v=sql.105))
+* [Adjust or revert any snapshot isloation levels configured on your database](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)
+* [Adjust or revert any locking hints specified by your queries](https://docs.microsoft.com/sql/t-sql/queries/hints-transact-sql?view=sql-server-ver15)
 
 ## **Recommended Documents**
 
 * [Locking in the Database Engine](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms190615(v=sql.105))
+* [Transaction Locking and Row Versioning Guide](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
 
