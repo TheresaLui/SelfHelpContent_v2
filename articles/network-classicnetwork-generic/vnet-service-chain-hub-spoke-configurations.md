@@ -28,9 +28,9 @@ Completing a Service Chain in a hub and spoke topology within Azure requires the
 
 4. NVAs must be configured correctly internally, which requires NVA vendor assistance. For point-to-site clients connecting with resources, in a remote VNet that is peered with the point-to-site VPN VNet, ensure the following:
 
-   1. The **use remote gateway** option is selected for the spoke VNet that doesn't have a VPN gateway. You won't be able to enable this if your spoke VNet has a gateway by-design.
-   2. The **allow gateway transit** option must be enabled on the hub VNet that has the point-to-site VPN gateway.
-   3. The point-to-site package must be downloaded and installed again **after** VNet Peering has been established or changed for the point-to-site package to have the updated routes.
+  - The **use remote gateway** option is selected for the spoke VNet that doesn't have a VPN gateway. You won't be able to enable this if your spoke VNet has a gateway by-design.
+  - The **allow gateway transit** option must be enabled on the hub VNet that has the point-to-site VPN gateway.
+  - The point-to-site package must be downloaded and installed again **after** VNet Peering has been established or changed for the point-to-site package to have the updated routes.
 
 ## **Recommended Documents**
 
