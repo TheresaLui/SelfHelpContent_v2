@@ -22,7 +22,7 @@
 <!--issueDescription-->
 We have identified the Service Fabric cluster **<!--$sfclustername-->sfclustername<!--/$sfclustername-->** under subscription **<!--$subscriptionid-->subscriptionid<!--/$subscriptionid-->** and resource group **<!--$resourcegroup-->resourcegroup<!--/$resourcegroup-->** as likely to be impacted by an upcoming security change, which could cause service interruptions to this cluster. 
 
-To avoid service interruptions, we recommend upgrading your Service Fabric cluster to a supported version. Please refer to [this guide](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#upgrade--azure-service-fabric-clusters-by-november-20th-2020) for FAQs, more details on what’s changing, and how to upgrade. 
+To avoid service interruptions, we recommend upgrading your Service Fabric cluster to a supported version. Please refer to [this guidance](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#upgrade--azure-service-fabric-clusters-by-november-20th-2020) for FAQs, more details on what’s changing, and how to upgrade. 
 
 If you have other Service Fabric clusters under this or any other subscription, you can use the script mentioned in [section 'C'](https://gist.github.com/athinanthny/f2191b93a3caea87446a73feacc66c79#c-upgrade-pre-requisite) to check if they are impacted or not.
 
