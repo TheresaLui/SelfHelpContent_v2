@@ -4,12 +4,12 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32589415"
-                productPesIds="14749,15571,15797,16454,16470"
+                supportTopicIds="32641081"
+                productPesIds="16080"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0066"
-	ownershipId="Compute_VirtualMachines_Content"
+                articleId="c0e530a1-b3bd-4cff-b9ff-3bdece0fd14d"
+                ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 # Planned Maintenance (Azure Platform)
 ---
@@ -64,27 +64,9 @@
             ],
             "required": false
         },
-		{
-		    "id": "maintenance_windows",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Are you having an issue with Maintenance Windows for VMSS Automatic OS Upgrades?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
         {
             "id": "selfservice_result",
-            "order": 5,
+            "order": 4,
             "visibility": "maintenance_selfservice == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter the result.",
@@ -93,7 +75,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -101,7 +83,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
