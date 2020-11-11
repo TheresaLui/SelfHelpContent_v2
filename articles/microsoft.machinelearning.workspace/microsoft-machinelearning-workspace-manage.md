@@ -1,70 +1,76 @@
 <properties
-	pageTitle="Authenticate, provision or manage my workspace"
-	description="Authenticate, provision or manage my workspace"
-	infoBubbleText="Authenticate, provision or manage my workspace"
-	service="microsoft.machinelearning.workspace"
-	resource="machinelearning"
-	authors="johnwu0604"
-	ms.author="johwu"
-	supportTopicIds="32690836"
-	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.workspace.manage"
-	selfHelpType="generic"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
+  pagetitle="Virtual Network Configuration"
+  service="microsoft.machinelearning.workspace"
+  resource="machinelearning"
+  ms.author="roastala,johwu"
+  selfhelptype="Generic"
+  supporttopicids="32690836"
+  resourcetags=""
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="microsoft.machinelearning.workspace.manage"
+  ownershipid="AzureML_AzureMachineLearningServices" />
+# Virtual Network Configuration
 
-# Authenticate, provision or manage my workspace
+A virtual network acts as a security boundary, isolating your Azure resources from the public internet. To ensure your workspace, training jobs, and inferencing jobs all remain secured behing a virtual network, the follow steps should be taken:
+
+1. Ensure your workspace is behind a private endpoint, which requires users to connect to your workspace through private IP addresses.
+2. Ensure all your associated resources (storage accounts, container registry, key vaults) are in the same virtual network as the workspace.
+3. Ensure all compute and data resources are in the same virtual network as the workspace.
 
 ## **Recommended Steps**
 
-### **Azure Machine Learning Python SDK**
+### **Configure workspace behind a private endpoint**
 
-To create a workspace using the Python SDK:
+To configure a new workspace behind a private endpoint:
 
-```
-from azureml.core import Workspace
+1. Create a new machine learning workspace through the Azure Portal.
+2. Click on the **Networking** tab during the creation experience.
+3. Add a private endpoint by specifying the required parameters.
 
-workspace = Workspace.create(name='<WORKSPACE-NAME>',
-                            subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                            resource_group='<RESOURCE-GROUP>',
-                            create_resource_group=True,
-                            location='<LOCATION>')
-```
+To configure an existing workspace behind a private endpoint:
 
-If a workspace has already been created, directly connect to the workspace:
+1. Navigate to the machine learning workspace in the Azure Portal.
+2. Click on the **Private endpoint connections** tab under **Settings**.
+3. Add a private endpoint by specifying the required parameters.
 
-```
-from azureml.core import Workspace
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-configure-private-link).
 
-workspace = Workspace.get(name='<WORKSPACE-NAME>',
-                        subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                        resource_group='<RESOURCE-GROUP>')
-```
+### **Ensure storage account is behind a virtual network**
 
-Once access has be granted to the workspace, use any of the existing methods to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace.workspace?view=azure-ml-py) for additional reference.
+To configure your workspace storage account behind a virtual network:
 
-### **Azure Machine Learning CLI**
+1. Navigate to the storage resource in the Azure Portal.
+2. Click on the **Firewalls and virtual networks** tab under **Settings**.
+3. Add your virtual network and allow trusted Microsoft services to access the resource.
 
-To create a workspace using the CLI: 
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-storage-accounts-with-service-endpoints).
 
-```
-az ml workspace create -w <WORKSPACE-NAME> -g <RESOURCE-GROUP>
-```
+### **Ensure container registry is behind a virtual network**
 
-If a workspace has already been created, use the following command to list the details of your existing workspace:
+To configure your container registry resource to work behind a virtual network:
 
-```
-az ml workspace list
-```
+1. Navigate to the container registry resource in the Azure Portal.
+2. Click on the **Networking** tab under **Settings**.
+3. Add your virtual network to the resource.
 
-Once the workspace has been created or workspace details have been retrieved, use the other existing CLI commands to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/ml/workspace?view=azure-cli-latest) for additional reference.
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#enable-azure-container-registry-acr).
+
+### **Ensure key vault is behind a virtual network**
+
+To configure your key vault resource to work behind a virtual network:
+
+1. Navigate to the key vault resource in the Azure Portal.
+2. Click on the **Networking** tab under **Settings**.
+3. Add your virtual network to the resource.
+
+For more detailed instructions, see the following [article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-key-vault).
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
+Here is a list of additional resources which may be helpful: 
 
-* [What is an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
-* [Create and manage workspace using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Azure Machine Learning CLI reference docs](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/?view=azure-cli-latest)
+* [Azure ML Network Security Overview](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview)
+* [Azure Private Link Overview](https://docs.microsoft.com/azure/private-link/private-link-overview)
+* [Azure Virtual Networks Overview](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview)
+* [Azure ML Enterprise Security Overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)

@@ -6,7 +6,7 @@
     articleId="567187Ba-1bdd-4dd8-ab70-6d494190df58_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureOptimizationAutomation_AORec"
+	ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -44,7 +44,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
+  "learnMoreLink": "https://aka.ms/adxskusize",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize cost",
