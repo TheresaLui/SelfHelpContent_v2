@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-1. Use the sample script at [Collect details about all VMs in a subscription with PowerShell](https://docs.microsoft.com/azure/virtual-machines/scripts/virtual-machines-powershell-sample-collect-vm-details) to find all application security groups (ASGs) associated with virtual machines (VMs) in your subscription.
+1. Use the sample script at [Collect details about all VMs in a subscription with PowerShell](https://docs.microsoft.com/azure/virtual-machines/scripts/virtual-machines-powershell-sample-collect-vm-details) to find all application security groups (ASGs) associated with virtual machines (VMs) in your subscription
 
-2. If no traffic is being logged, your VMs may not be active or an App Gateway, Firewall, or other device could be blocking traffic.
+2. If no traffic is being logged, your VMs may not be active or an App Gateway, firewall, or other device could be blocking traffic
 
 3. Check that the storage account used for the Flow Logs is in the same region as the network security group (NSG). If you change or rotate the access keys to your storage account, NSG Flow Logs will stop working. To fix this issue, disable and re-enable NSG Flow Logs.
 
