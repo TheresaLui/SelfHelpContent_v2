@@ -23,4 +23,4 @@ or if the error provided seems to be related something that needs to fixed from 
 
 Please follow [Teams resource engagement recommendations](https://aka.ms/ANPTeamsPostingGuidelines) to reach out to SME resources and seek help for escalation.
 
-Do not forget to provide the link to the dashboard you have used. in order to do so, click the **Share** icon from the top right corner of the dashboard and select "Exact time link".
+Do not forget to provide the deep link to the dashboard you have used (that points directly to the operation impacted). In order to do so, click the **Share** icon from the top right corner of the dashboard and select "Exact time link".

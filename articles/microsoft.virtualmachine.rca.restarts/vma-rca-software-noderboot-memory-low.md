@@ -20,7 +20,7 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 > The following platform fixes are in process:
 > * A host OS update is currently in deployment that resolves the known memory leaks. However, there are a few nodes that have to be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
-> * Enhancements and features of various Azure components has resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement of the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
+> * Enhancements and features of various Azure components has resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
 > 
 <!--/resolutionDetails-->
 
@@ -51,11 +51,11 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 ## **Recommended Documents**
 
 > *Learn more about:*
-> * [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
-> * [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
-> * [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-> * [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-> * [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 > 
 <!--/recommendedActions-->
 

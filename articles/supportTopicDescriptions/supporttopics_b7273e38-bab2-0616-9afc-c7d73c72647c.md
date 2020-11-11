@@ -164,7 +164,7 @@
      {
       "id": "600247b3-a947-21b3-0a21-ecc71d279fea",
       "longDescription": "",
-      "shortDescription": "Select this topic if you are facing problems with migrating users or deal management activities after moving from PSC to PC",
+      "shortDescription": "Select this topic if you are facing problems with migrating users or management activities after moving from PSC to PC",
       "searchTags": "Solution assessment",
     },
   ]

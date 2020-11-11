@@ -6,7 +6,7 @@
     articleId="84b1a508-fc21-49da-979e-96894f1665df_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="RedisCache_RedisCache"
+	ownershipId="ACE_ReservedInstances"
 />
 # Buy virtual machine reserved instances to save money over pay-as-you-go costs
 ---
