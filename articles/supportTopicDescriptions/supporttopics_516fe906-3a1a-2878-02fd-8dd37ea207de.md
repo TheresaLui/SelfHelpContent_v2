@@ -120,8 +120,8 @@
     {
       "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
       "longDescription": "",
-      "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
-      "searchTags": "Usage of Seamless SSO ",
+      "shortDescription": "Issues with migration, integrating Seamless SSO with my apps, configuring my apps, token claims and lifetimes, and managing guest users",
+      "searchTags": "migration;my apps;integration;token;guest user",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
