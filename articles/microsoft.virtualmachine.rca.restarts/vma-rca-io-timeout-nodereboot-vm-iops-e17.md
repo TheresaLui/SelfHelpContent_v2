@@ -45,7 +45,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 ## **Recommended Steps**
 > We have documented a few best practices:
 > * [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)
-> Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists.
+> Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue. You may also want to consider Premium Storage if the issue persists.
 > 
 
 
