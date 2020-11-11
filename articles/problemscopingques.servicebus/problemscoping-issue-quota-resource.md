@@ -47,7 +47,6 @@ schemaVersion="1"
             "required": false,
             "visibility": "servicebus_feature != null && servicebus_feature == Queues",
             "dynamicDropdownOptions": {
-                "dependsOn": "servicebus_feature",
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/queues?&api-version=2015-08-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
@@ -67,7 +66,6 @@ schemaVersion="1"
             "required": false,
             "visibility": "servicebus_feature != null && servicebus_feature == Topics",
             "dynamicDropdownOptions": {
-                "dependsOn": "servicebus_feature",
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/topics?&api-version=2015-08-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
