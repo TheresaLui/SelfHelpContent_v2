@@ -35,12 +35,11 @@ schemaVersion="1"
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No event hubs available"
-                    }
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No event hubs available"
                 }
+            }
         },
         {
             "id": "problem_start_time",
