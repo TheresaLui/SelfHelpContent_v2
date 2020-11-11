@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Tax exemption request
 
