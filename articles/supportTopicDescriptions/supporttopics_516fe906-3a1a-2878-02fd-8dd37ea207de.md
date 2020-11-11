@@ -56,8 +56,8 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless Single-Sign-on",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in error;sign-in",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
