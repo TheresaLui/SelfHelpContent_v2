@@ -19,12 +19,45 @@
 
 ## **Recommended Steps**
 
-### **Preview Limitation**
+- [**How to register for the preview**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)<br>
 
-- Restoring premium block blobs is not supported
-- Restoring blobs in the archive tier is not supported. For example, if a blob in the hot tier was moved to the archive tier two days ago, and a restore operation restores to a point three days ago, the blob is not restored to the hot tier.
-- Restoring Azure Data Lake Storage Gen2 flat and hierarchical namespaces is not supported
-- Restoring storage accounts using customer-provided keys is not supported
+
+	#### Register for the point-in time restore preview
+	```powershell
+	Register-AzProviderFeature -FeatureName RestoreBlobRanges -ProviderNamespace Microsoft.Storage
+	```
+	#### Register for change feed (preview)
+	```powershell
+	Register-AzProviderFeature -FeatureName Changefeed -ProviderNamespace Microsoft.Storage
+	```
+	#### Register for blob versioning (preview)
+	```powershell
+	Register-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Versioning
+	```
+
+	#### Refresh the Azure Storage provider namespace
+	```powershell
+	Register-AzResourceProvider -ProviderNamespace Microsoft.Storage
+	```
+	
+
+- **How to check registration status**
+
+	```powershell
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName RestoreBlobRanges
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Changefeed
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Versioning
+
+	```
+- [**How to Enable point-in time restore**](https://docs.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
+
+ ### **Preview limitations and known issues**
+ Click [**here**](https://docs.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues) to find the preview limitations as well as the list of known issues..
+
 
 ## **Recommended Documents**
 
