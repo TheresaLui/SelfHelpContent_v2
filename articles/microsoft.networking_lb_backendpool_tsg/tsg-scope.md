@@ -15,7 +15,7 @@
 	ownershipId="CloudNet_LoadBalancer"
 />
 
-# TSG Scope
+# TSG Scope 
 
 This TSG covers scenarios for the following support topics:
 
