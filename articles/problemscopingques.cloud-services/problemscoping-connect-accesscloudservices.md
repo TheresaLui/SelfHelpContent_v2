@@ -43,10 +43,12 @@
             "required": false,
             "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
             "dynamicDropdownOptions": {
+                "dependsOn": "cloud_service_slots",
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
+                "valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Not applicable/No roles available"
