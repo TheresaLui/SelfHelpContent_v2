@@ -23,7 +23,7 @@ If you integrated your application with an Azure Virtual Network (VNet) first, b
 1. Create App Service Plan with the same name as the deleted one
 2. Create App Service with the same name as the deleted one
 3. Link the App Service with the VNET subnet
-4. Disconnect VNet from **App Service** > **Networking** > **VNet integration** > **Disconnect**.
+4. Disconnect VNet from **App Service** > **Networking** > **VNet integration** > **Disconnect**
 5. Delete the subnet
 6. Delete the virtual network
 7. Delete the App Service and the App Service Plan
