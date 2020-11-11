@@ -30,7 +30,7 @@ Please note that certain conditions need to be met for a storage account to be r
 2. The storage account was deleted in the last 14 days.
 3. It is not a classic storage account.
 
- Click on the link below to recover your storage account:
+**Note**: If you are trying to recover a storage account in a deleted resource group, **recreate the resource group first**. Recovery will fail if the resource group is not recreated.
  
 ### [**Click here to recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br />
 
