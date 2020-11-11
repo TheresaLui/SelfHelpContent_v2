@@ -3,7 +3,7 @@
     description="Change the max session limit for your depth first load balanced host pool to improve VM performance" 
     authors="sefriend" 
     ms.author="rdinfra" 
-    articleId="_Fairfax" 
+    articleId="2cc17306-822e-45b1-8d7f-5b0d2f2cccdb_Fairfax" 
     selfHelpType="advisorRecommendationMetadata" 
     cloudEnvironments="Fairfax" 
     ownershipId="Windows_Virtual_Desktop" 
@@ -14,11 +14,11 @@
   "recommendationOfferingId": "1132b618-fefe-40a0-9256-e685ff575ac7", 
   "recommendationOfferingName": "Windows Virtual Desktop", 
   "$schema": "AdvisorRecommendation", 
-  "recommendationTypeId": "", 
+  "recommendationTypeId": "2cc17306-822e-45b1-8d7f-5b0d2f2cccdb", 
   "dataSourceMetadata": { 
-    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').ChangeMaxSessionLimitForDepthFirstHostPool", 
+    "streamNamespace": "cluster('https://rdsffx.usgovvirginia.kusto.usgovcloudapi.net').database('WVD').HostPoolDepthFirstNeedsBetterLimits", 
     "dataSource": "Kusto", 
-    "refreshInterval": "0.00:01:00" 
+    "refreshInterval": "0.12:00:00" 
   }, 
   "recommendationCategory": "Performance", 
   "recommendationImpact": "High", 
@@ -42,8 +42,8 @@
   "potentialBenefits": "Ensure session host functional stability, reliability, and performance when using Windows Virtual Desktop service", 
   "actions": [ 
     { 
-      "actionId": "", 
-      "description": "Change the max session limit for your depth first load balanced host pool", 
+      "actionId": "da1af884-c4e0-4b08-a159-9a2654b9468c", 
+      "description": "Change host pool max session limit", 
       "actionType": "Blade", 
       "extensionName": "Microsoft_Azure_WVD", 
       "bladeName": "HostpoolOverviewBlade", 
@@ -54,7 +54,7 @@
   ], 
   "resourceMetadata": { 
     "action": { 
-      "actionId": "", 
+      "actionId": "aed8be6b-de48-4d24-a1ba-6efe42489fbd", 
       "actionType": "Blade", 
       "extensionName": "Microsoft_Azure_WVD", 
       "bladeName": "HostpoolOverviewBlade", 
@@ -63,8 +63,17 @@
       } 
     } 
   }, 
-  "displayLabel": "Change the max session limit for depth first load balanced host pools", 
-  "additionalColumns": [], 
+  "displayLabel": "Change max session limit for depth first load balanced host pool", 
+  "additionalColumns": [
+    {
+      "name": "hostPool",
+      "title": "Host Pool"
+    },
+    {
+      "name": "maxSessions",
+      "title": "# default sessions used"
+    }
+  ], 
   "tip": "Change the max session limit for your depth first load balanced host pool to improve VM performance." 
 } 
 --- 
