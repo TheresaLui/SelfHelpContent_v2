@@ -2,7 +2,7 @@
 	pageTitle="How to create rules in an existing NSG"
 	description="How to create rules in an existing NSG"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32781385,32781387,32781395,32781397"
 	productPesIds="15526"
@@ -17,6 +17,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "How to create rules in an existing NSG",
     "fileAttachmentHint": "",
     "formElements": [
@@ -31,14 +32,12 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of NSGs",
-                    "text": "Unable to get the list of NSGs"
+                "textPropertyRegex": "[^/]+$",
+           "defaultdropdownOptions": {
+                    "value": "Unable to get the list of Virtual Networks",
+                    "text": "Unable to get the list of Virtual Networks"
                 }
-            ],
+            },
             "required": false
         },
         {
