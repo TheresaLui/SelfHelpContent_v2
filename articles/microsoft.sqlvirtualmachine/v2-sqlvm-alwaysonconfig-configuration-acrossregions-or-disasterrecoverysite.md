@@ -17,33 +17,61 @@
 	ownershipId="AzureData_AzureSQLVM"
 />
 
-# We ran diagnostics on your resource and found the below steps which can help you.
+# We ran diagnostics on your resource and found the below steps which can help you. 
+## **Configure Availability Group across different regions or as a Disaster Recovery Site**
+ 
 
-<!--issueDescription-->
-Below information guides in configuring Availability Group across different regions or as a Disaster Recovery Site.
-<!--/issueDescription-->
+<!--issueDescription--> 
 
-## **Recommended Steps**
+Below information guides in configuring Availability Group across different regions or as a Disaster Recovery Site 
 
-* **Configure Availability Group across different regions or as a Disaster Recovery Site**
+<!--/issueDescription--> 
 
-   You already have or are planning to create an Availability Group between two Nodes. You are planning to setup the Third node on Azure to extend your On-Premise or your Azure AG Environment. Please follow [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to setup the Disaster Recovery Site.
+ 
 
+## **Recommended Steps** 
 
-* **Things to Keep in Mind when Configuring Multi Region Always On Availability Groups**
+ 
 
-   -  If you have your Primary Replica on On-Premise or on Azure, you will still need an additional load balancer for your DR site on Azure for High Availability
+* **Configure Availability Group across different regions or as a Disaster Recovery Site** 
 
-   - Only 1 IP Address will be online for a Listener when you have created Always on AG Across multiple Regions. 
+ 
 
-   - Update the client connection strings to set **MultiSubnetFailover=Yes** for [Fast failovers and avoiding Application Timeouts](https://docs.microsoft.com/sql/relational-databases/native-client/features/sql-server-native-client-support-for-high-availability-disaster-recovery?view=sql-server-ver15#connecting-with-multisubnetfailover)
+   You already have or are planning to create an Availability Group between two Nodes. You are planning to setup the Third node on Azure to extend your On-Premise or your Azure AG Environment. Please follow [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to setup the Disaster Recovery Site. 
 
-  - Make sure you have tuned your [Failover cluster Network Thresholds](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster#recommendations-for-changing-to-more-relaxed-settings-for-multi-tenant-environments-like-azure-iaas) to a higher value to avoid failovers.
+ 
 
+ 
 
-## **Recommended Documents**
-* [Failover to Remote Region or DR Site](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions#fail-over-to-remote-region)
-* [Prerequisites, Restrictions, and Recommendations for Always On availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-ver15)
-* [Add a Replica to Always On](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/use-the-add-replica-to-availability-group-wizard-sql-server-management-studio?view=sql-server-ver15)
+* **Things to Keep in Mind when Configuring Multi Region Always On Availability Groups** 
 
+ 
+
+    
+
+  - If your Availability Group spans across Azure and On-Premise (Hybrid Environment), you will still need a load balancer. If you are using SQL 2019 CU8+ on Windows 2016, you can [use DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of load balancer 
+
+ 
+
+ 
+
+   - Update the client connection strings to set **MultiSubnetFailover=Yes** for [Fast failovers and avoiding Application Timeouts](https://docs.microsoft.com/sql/relational-databases/native-client/features/sql-server-native-client-support-for-high-availability-disaster-recovery?view=sql-server-ver15#connecting-with-multisubnetfailover) 
+
+ 
+
+  - Make sure you have tuned your [Failover cluster Network Thresholds](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster#recommendations-for-changing-to-more-relaxed-settings-for-multi-tenant-environments-like-azure-iaas) to a higher value to avoid failovers. 
+
+ 
+
+ 
+
+ 
+
+## **Recommended Documents** 
+
+* [Failover to Remote Region or DR Site](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions#fail-over-to-remote-region) 
+
+* [Prerequisites, Restrictions, and Recommendations for Always On availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-ver15) 
+
+* [Add a Replica to Always On](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/use-the-add-replica-to-availability-group-wizard-sql-server-management-studio?view=sql-server-ver15) 
 
