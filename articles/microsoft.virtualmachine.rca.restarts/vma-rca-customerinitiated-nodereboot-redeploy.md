@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Customer Initiated - NodeReboot Redeploy"
+	description="Root Cause Analysis (RCA) - Customer Initiated - NodeReboot Redeploy"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> The redeploy action was triggered by an authorized user or process from either the Azure Portal or Azure Resource Manager interfaces. As a result, your VM was moved to a different host node. RDP connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
+> The redeploy action was triggered by an authorized user or process from either the Azure Portal or Azure Resource Manager interfaces. As a result, your VM was moved to a different host node.
 > 
 
 <!--resolutionDetails-->
