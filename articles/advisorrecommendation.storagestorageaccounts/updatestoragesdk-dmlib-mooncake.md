@@ -3,7 +3,7 @@
     description="Update your Storage Data Movement Library to the latest version"
     authors="yinfan"
     ms.author="xdataanalytics"
-    articleId="02cfb5ef-z9b0-3522-8743-142gceb10057_Mooncake"
+    articleId="1c2c21c4-7302-4bdc-98a5-80bf55d9ea16_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
 	ownershipId="StorageMediaEdge_XStore"
