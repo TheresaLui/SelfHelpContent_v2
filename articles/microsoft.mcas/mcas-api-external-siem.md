@@ -27,7 +27,7 @@ Most users are able to resolve external SIEM solutions integration issues using 
 
     **NOTE**: After the initial setup of the SIEM agent with Cloud App Security, activities and alerts will be forwarded to the SIEM based on the filter you selected when configuring the SIEM. The SIEM will receive information for the last two days and onwards.
 
-1. If the SIEM disconnects periodically, make sure that the [JAR file](https://docs.microsoft.com/cloud-app-security/siem#how-to-integrate) is running on startup on your server.
+1. If the SIEM disconnects periodically, make sure that the [JAR file](https://docs.microsoft.com/cloud-app-security/siem#step-2-download-the-jar-file-and-run-it-on-your-server) is running on startup on your server.
 1. If encounter delays in receiving events, check the Cloud App Security [status page](https://status.cloudappsecurity.com/) for any known issues that could affect your environment.
 1. If you are missing events, check the [SIEM agent log](https://docs.microsoft.com/cloud-app-security/siem#step-2-download-the-jar-file-and-run-it-on-your-server) and look for any network errors. If there are no errors, follow the [recover missing activity events in SIEM Agent](https://docs.microsoft.com/cloud-app-security/troubleshooting-siem#recover-missing-activity-events-in-cloud-app-security-siem-agent) to try to identify the problem.
 
