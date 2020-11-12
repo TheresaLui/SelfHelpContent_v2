@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We detected that the subscription *<!--$subscription-->SubscriptionID<!--/$subscription-->** was recently disabled on **<!--$lastdisabledtime-->lastdisabledtime<!--/$lastdisabledtime--> (UTC)**. Resources for that subscription and operations on those resources may be impacted. Use the following guidance to re-enable your subscription.
+We detected that the subscription **<!--$subscription-->SubscriptionID<!--/$subscription-->** was recently disabled on **<!--$lastdisabledtime-->lastdisabledtime<!--/$lastdisabledtime--> (UTC)**. Resources for that subscription and operations on those resources may be impacted. Use the following guidance to re-enable your subscription.
 <!--/issueDescription-->
 
 Your Azure subscription can get disabled because your credit card has expired, you reached your spending limit, have an overdue bill, reached your credit card limit, or because the subscription was cancelled by the Account Administrator. 
