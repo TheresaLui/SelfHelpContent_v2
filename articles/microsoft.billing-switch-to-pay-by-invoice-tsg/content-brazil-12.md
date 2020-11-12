@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Brazil"
+	pageTitle="Brazil Payment Instructions"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"
@@ -15,7 +15,7 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Brazil 
+# Brazil
 
 Share Payment instructions
 	
