@@ -16,7 +16,7 @@
 
 ---
 {
-    "$schema": "SelfHelpContent"，
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Cannot delete a Virtual Network",
@@ -34,7 +34,7 @@
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
-		"defaultdropdownOptions": {
+		        "defaultdropdownOptions": {
                     "value": "Unable to get the list of Virtual Networks",
                     "text": "Unable to get the list of Virtual Networks"
                 }
