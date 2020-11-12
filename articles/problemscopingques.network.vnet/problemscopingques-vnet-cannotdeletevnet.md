@@ -16,11 +16,12 @@
 
 ---
 {
+    "$schema": "SelfHelpContent"，
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Cannot delete a Virtual Network",
     "fileAttachmentHint": "",
-    "subscriptionRequired": true
-    "formElements": [
+        "formElements": [
         {
             "id": "cannot_connect_vm",
             "order": 1,
@@ -55,7 +56,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
+    
 }
 ---
