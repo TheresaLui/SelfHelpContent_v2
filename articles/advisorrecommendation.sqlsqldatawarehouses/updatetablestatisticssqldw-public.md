@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="01dea77b-3ca4-4583-9b09-88f5a8fd5857_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_SynapseAnalytics"
 />
 # Update statistics on table columns
