@@ -12,7 +12,7 @@
 
 ### Conditions for a VM to be recommended (for JIT configuration)
 
-* The subscription is onboarded to Azure Defender (see [Pricing Page](https://azure.microsoft.com/pricing/details/security-center/) for more)
+* The subscription is onboarded to Azure Defender (for more information, see [Pricing](https://azure.microsoft.com/pricing/details/security-center/))
 * The VM must be ARM deployed (classic VM is not supported)
 * The VM must have an attached NIC:
   * The NIC has an NSG attached to it
@@ -24,7 +24,7 @@
 
 ### Access request can be initiated from these sources
 
-- [From Azure Portal](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc#enable-jit-vm-access-) (Security Center -> Azure Defender -> Just-in-time VM access)
+- [From Azure Portal](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc#enable-jit-vm-access-) (Security Center > Azure Defender > Just-in-time VM access)
 - [VM Connect](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-avm%2Cjit-request-asc#enable-jit-vm-access-)
 - PowerShell
 - [REST API](https://docs.microsoft.com/rest/api/securitycenter/jitnetworkaccesspolicies)  
@@ -35,12 +35,12 @@
 * Owner
 * Contributor
 * Security Admin
-* Custom roles: For the least permissive JIT access request find out [what permissions are needed to configure and use jit](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit) to configure a custom RBAC role
+* Custom roles: For the least permissive JIT access request, see [what permissions are needed to configure and use jit](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit) to configure a custom RBAC role
 
 ### NSG rules
 
 * On JIT policy creation (configuring VM), a deny rule is created in the attached NSG
-* Deny rules are created per VM including all ports defined in the policy and the destination is the VM's **internal IP address**
+* Deny rules are created per VM, including all ports defined in the policy, and the destination is the VM's **internal IP address**
 * The Deny rule is created at a low priority, usually > 1000, with the following naming convention: *SecurityCenter-JITRule_-xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx* 
 * When requesting access, this is a higher priority rule, usually at 100-110, with the following naming convention: *SecurityCenter-JITRule-xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx* (same as Deny, without the "_")
 * If the NSG contains other rules, JIT will create its rules, while changing the existing rules' priorities, based on the logic above
@@ -74,10 +74,10 @@ From the JIT blade in the ASC portal, right-click **Activity Log** to view the V
   * Destination – Target VM private IP address (see the following Note)
   * Action – Allow
  
-* If the VM is behind the firewall, make sure an adequate rule created for it as well
+* If the VM is behind the firewall, make sure an adequate rule created for it, as well
 * Make sure you have the correct permissions to the VM access 
 * Windows: Make sure the RDP file contains the correct IP address
-* Linux: Make sure SSH port 22 is accepting connection requests
+* Linux: Make sure that SSH port 22 is accepting connection requests
 * If no JIT rule exists, check the user permissions and the Activity Log for errors
 
 **Note**: The JIT rule destination is always the private IP address of the VM, even if you chose the public IP. This is the Azure Networking protocol called SNAT. [Learn more about SNAT](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections).
