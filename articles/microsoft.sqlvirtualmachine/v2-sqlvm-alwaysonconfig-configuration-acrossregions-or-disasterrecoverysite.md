@@ -27,7 +27,6 @@ Below information guides in configuring Availability Group across different regi
 
 <!--/issueDescription--> 
 
- 
 
 ## **Recommended Steps** 
 
