@@ -4,7 +4,7 @@
 	authors="anavinahar"
     ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32589558"
+	supportTopicIds="32781389,32781391,32781393,32781399"
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
