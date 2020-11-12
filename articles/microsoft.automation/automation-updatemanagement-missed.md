@@ -20,7 +20,7 @@
 This article will help for issues where machines are enrolled in Update Management, but an Update Deployment failed to install some or all updates.
 
 ## **Recommended Steps**
-Update Management logs attempts to install updates. [Check the job output](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#check-deployment-status) for errors. 
+Update Management logs attempts to install updates. [Check the job output](https://docs.microsoft.com/azure/automation/update-management/deploy-updates#check-deployment-status) for errors. 
 
 ### **"Failed to Start"**
 
@@ -30,12 +30,12 @@ Update Management logs attempts to install updates. [Check the job output](https
 
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates
   * The [Windows Update Agent troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) can show if there is a WSUS server configured
-  * If machines are configured for WSUS then [run the Client Diagnostics tool](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-tools) 
+  * If machines are configured for WSUS then [run the Client Diagnostics tool](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) 
 
 ### **I can't find or install a specific update**
 
 * Try running updates locally, without Update Management. If the update still fails, the issue is with the configuration of the update agent itself. See [Client Requirements](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview#client-requirements) for details. If the update succeeds, try [removing the machine from the solution](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-remove-feature) and reinstalling. 
-* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment) is used to specify the KB number. 
+* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/update-management/deploy-updates#schedule-an-update-deployment) is used to specify the KB number. 
 * By default, Windows Update provides updates only for Windows. To change this behavior, see [Enable updates for other Microsoft products](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-configure-wuagent#enable-updates-for-other-microsoft-products)
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
 * Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
