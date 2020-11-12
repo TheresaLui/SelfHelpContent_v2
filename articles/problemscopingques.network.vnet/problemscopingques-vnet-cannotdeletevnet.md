@@ -2,7 +2,7 @@
 	pageTitle="Cannot delete a Virtual Network"
 	description="Cannot delete a Virtual Network"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32781376,32781379,32781381,32781382"
 	productPesIds="15526"
@@ -19,6 +19,7 @@
     "resourceRequired": true,
     "title": "Cannot delete a Virtual Network",
     "fileAttachmentHint": "",
+    "subscriptionRequired": true
     "formElements": [
         {
             "id": "cannot_connect_vm",
@@ -32,13 +33,11 @@
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
+		"defaultdropdownOptions": {
                     "value": "Unable to get the list of Virtual Networks",
                     "text": "Unable to get the list of Virtual Networks"
                 }
-            ],
+            },
             "required": false
         },
         {
