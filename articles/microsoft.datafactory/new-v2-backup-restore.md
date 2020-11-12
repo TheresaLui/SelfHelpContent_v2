@@ -7,7 +7,7 @@
 	articleId="new-v2-backup-restore.md"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32742803"
+	supportTopicIds="32781329"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -21,6 +21,17 @@
 ### **Restore**
 
 Azure Data Factory does not retain any customer data after factory deletion has been requested. **If a factory has been deleted, there is no way to restore the resource.** If the factory was integrated with a Git repository, the factory can be recreated from the ARM Template in the publish branch or from the existing resources in the repository. Git integration is highly recommended as backup for accidental deletion.
+
+To recover a Deleted Data Factory which had Source Control enabled use the following steps:
+
+1. Create a new Azure Data Factory.
+2. Configure Git with the same settings, but make sure **Import existing Data Factory resources to repository** is selected and for the _Branch to import resources into_ choose **Create New**
+3. Create a pull request to merge the changes to the collaboration branch
+4. Publish.
+
+**Note** If you had a Self-hosted Integration Runtime in the deleted ADF, you will have to create a new instance in the new ADF, make sure you uninstall and reinstall the Self-Hosted IR software on the instance your were using so a new key is obtained.
+
+After setup of the Self-Hosted IR is completed, you will have to change the Linked Service to point to the new IR and test connection or it will fail with error "invalid reference".
 
 ### **Backup**
 

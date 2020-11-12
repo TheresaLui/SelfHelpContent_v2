@@ -7,7 +7,7 @@
 	articleId="4bb334b2-7454-45d4-aeb3-ef85910ef76d"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629499"
+	supportTopicIds="32781330"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
