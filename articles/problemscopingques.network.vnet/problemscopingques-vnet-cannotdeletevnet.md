@@ -33,7 +33,7 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
 		        "defaultdropdownOptions": {
                     "value": "Unable to get the list of Virtual Networks",
                     "text": "Unable to get the list of Virtual Networks"
@@ -57,6 +57,5 @@
             "useAsAdditionalDetails": true
         }
     ]
-    
 }
 ---
