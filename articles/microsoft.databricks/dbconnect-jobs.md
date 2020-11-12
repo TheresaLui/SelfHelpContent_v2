@@ -18,5 +18,8 @@
 # Diagnose and resolve issues with Jobs
 
 ## **Recommended Documents**
-
-* [Run examples](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#run-examples-from-your-ide)
+* [Set up Client](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-client)
+* [Set up IDE orNotebook Server](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-your-ide-or-notebook-server)
+* [Run examples from your IDE](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#run-examples-from-your-ide)
+* [Troubleshooting](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#troubleshooting)
+* [Limitations](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#limitations)
