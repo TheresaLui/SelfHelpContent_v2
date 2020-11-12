@@ -17,7 +17,7 @@
 
 # Azure Load Balancer SNAT Port Exhaustion 
 
-## **Troubleshooting Insights**
+## **Recommended Steps**
 * Are you using Basic Load Balancer? SNAT ports are preallocated as described in [Dynamic SNAT ports allocated](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#snatporttable). Create a [Standard Public Load Balancer](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard) with configurable SNAT port allocation to avoid SNAT exhaustion. 
 * Consider the following options to avoid SNAT exhaustion when using a Standard Public Load Balancer 
   1. [Scale outbound SNAT with multiple IP address](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#scale). Each of the IP address provides additional 64,000 ephemeral ports for Load Balancer to use as SNAT ports. 
