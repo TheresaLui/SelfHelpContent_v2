@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641077"
+	supportTopicIds="32641077, 32641085, 32641086,32641087,32641111,32641115,32641121,32641134,32641154"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,7 +17,7 @@
 
 # Extensions not operating correctly
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 
