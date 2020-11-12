@@ -22,10 +22,6 @@ Resolve MFA failures for NPS Extensions by using insights from diagnostics, heal
 ### Run this first: Health check script
 Most customers are able to resolve MFA issues related to NPS Extensions by using the [Azure MFA NPS extension health check](https://docs.microsoft.com/samples/azure-samples/azure-mfa-nps-extension-health-check/azure-mfa-nps-extension-health-check/?WT.mc_id=Portal-Microsoft_Azure_Support) script.
 
-<br>
-
-------
-
 ### NPS Extension diagnostic 
 
 <Insight>
@@ -36,10 +32,6 @@ Most customers are able to resolve MFA issues related to NPS Extensions by using
 <additionalInputsReq>false</additionalInputsReq>
 </Insight>
  
- <br>
- 
- --------
-
 ### Common error codes
 
 NPS extension logs are found in the Event Viewer, under Custom Views > Server Roles > Network Policy and Access Services on the server where the NPS Extension is installed. 
@@ -55,9 +47,6 @@ NPS extension logs are found in the Event Viewer, under Custom Views > Server R
 | REQUEST_FORMAT_ERROR - Radius Request missing mandatory Radius userName\Identifier attribute. Verify that NPS is receiving RADIUS requests | This error usually reflects an installation issue. The NPS extension must be installed in NPS servers that can receive RADIUS requests. NPS servers that are installed as dependencies for services like RDG and RRAS don't receive radius requests. NPS Extension doesn't work when installed over such installations and errors out because it can't read the details from the authentication request |
 
 All error messages and their suggested solutions can be found here: [aka.ms/MFANPS](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension-errors)  
-<br>
-
---------
 
 ### More resources
 Here are some related results from the web: 
