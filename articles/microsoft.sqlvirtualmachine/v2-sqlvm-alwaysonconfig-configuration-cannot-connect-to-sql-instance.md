@@ -21,10 +21,11 @@
 
 ## **Cannot Connect to SQL Instance **
  
+<!--issueDescription--> 
 
 4 out of 5 customers are able to resolve their SQL Connectivity issues using the recommended documents below. 
 
- 
+<!--/issueDescription--> 
 
 ## **Recommended Steps** 
 
