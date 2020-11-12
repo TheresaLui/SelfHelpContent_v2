@@ -80,8 +80,8 @@
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -118,6 +118,48 @@
       "longDescription": "",
       "shortDescription": "Help creating a commercial marketplace account in Partner Center (publisher profile creation)",
       "searchTags": "Accounts;Onboarding;Registration;Profile",
+    },
+  {
+      "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
+      "longDescription": "",
+      "shortDescription": "Information on CSP enrollment for Direct bill, Indirect provider,Indirect reseller transacting through this channel",
+      "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
+    },
+     {
+      "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
+      "longDescription": "",
+      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another",
+      "searchTags": "Accounts;Onboarding;Offboarding;Transition",
+    },
+     {
+      "id": "450a4758-55f5-eb20-34a6-65c82c1d3d83",
+      "longDescription": "",
+      "shortDescription": "Issues with credit limits or credit balances for transacting CSP partners",
+      "searchTags": "Accounts;Onboarding;Limits;Balance",
+    },
+     {
+      "id": "77f4aefd-0ed3-570a-c68d-436f11b46638",
+      "longDescription": "",
+      "shortDescription": "Transitioning from direct bill to indirect reseller ,also moving customers and subscriptions to a new Indirect provider',
+      "searchTags": "Accounts;Onboarding;Moving;Transition",
+    },
+     {
+      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
+      "longDescription": "",
+      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
+      "searchTags": "Enroll;Onboard;MPA",
+    },
+     {
+      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
+      "longDescription": "",
+      "shortDescription": "How to accept the MPA, access to indirect reseller agreement for Providers and information on updates to the agreement",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+    },
+     {
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
+      "longDescription": "",
+      "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements"
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
   ]
 }
