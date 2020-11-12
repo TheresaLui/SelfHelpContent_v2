@@ -2,7 +2,7 @@
   pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv, yagohel"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -35,9 +35,9 @@
     {
       "id": "05c0a677-190e-c3ee-464e-d159ad181e7f",
       "longDescription": null,
-      "shortDescription": "Issue related to Recovery Services Vault",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue pertaining to recovery services vault and backup vault",
+      "searchTags": "Vault;recovery services vault;backup vault;retain data",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
