@@ -19,7 +19,7 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 Please see the recommended video for a demo of configuring Azure SQL Active Directory Authentication and documentation to address common questions.
 
-### **Recommended Video**
+### Recommended video
 
 In the following video, you will learn how to configure Azure AD authentication and create users/logins in Azure SQL.
 
@@ -35,7 +35,7 @@ Summary of configuration steps in the video:
 3. Examples of login types
 4. Adding access to existing Active Directory users
 
-### **More Resources**
+### More resources
 
 * [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
 * [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>
