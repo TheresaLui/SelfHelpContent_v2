@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="9deb7553-0965-45d3-a66d-895655a50a6k"
+	articleId="9deo7553-0965-45d3-a66d-895655a50a6k"
 	ownershipId="CloudNet_LoadBalancer"
 />
 
