@@ -21,37 +21,39 @@
 
 Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
 
+## **Recommended Steps**  
 
-## Supported APIs  
+### **Supported APIs**  
 
-Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
-
-
-## **Recommended Steps**   
+Currently, Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview. For more information, contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
 ### **Cannot enable Analytical Store**
-**1.** Synapse Link for the account is a prerequisite to be able to create Analytical Store enabled container. Ensure Synapse Link is enabled for the Azure Cosmos DB account by:
 
-- Signing into the Azure Portal->Navigate to the Azure Cosmos DB Account->Open Features pane->Status of Synapse Link from the features list should say Enrolled
+
+**1.** Synapse Link for the account is a prerequisite to be able to create the Analytical Store enabled container. To ensure that Synapse Link is enabled for the Azure Cosmos DB account, do the following:
+
+- Sign in to the Azure Portal, then navigate to the Azure Cosmos DB Account. Open the Features pane. The status of Synapse Link from the features list should be Enrolled
 - If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs. See instruction here
 
-**2.** Ensure Azure Cosmos DB account is SQL API or Mongo DB API. Analytical store for Cassandra API is in private preview. To request access, please email *cosmosdbsynapselink@microsoft.com*.  
-**3.** Currently there is no support to enable analytical store on existing containers. You should now be able to create a new container and enable analytical store during container creation time.
+
+**2.** Ensure that the Azure Cosmos DB account is SQL API or Mongo DB API. Analytical store for Cassandra API is in private preview. To request access, email cosmosdbsynapselink@microsoft.com.  
+
+
+**3.** Currently there is no support to enable analytical store on existing containers. You should be able to create a new container and enable analytical store during container creation time.  
+
+
 **4.** Currently there is no support to enable analytical store on Azure Cosmos DB SQL serverless accounts.  
+
 
 ### **Unable to disable Analytical Store**  
 
-Currently, the analytical store cannot be disabled on an Azure Cosmos DB container after it is enabled during container creation. To stop using analytical store you will need to delete and recreate the container.  
+Currently, the analytical store cannot be disabled on an Azure Cosmos DB container after it is enabled during container creation. To stop using analytical store, you will need to delete and recreate the container.  
 
 ### **Disabling Synapse Link feature for my Azure Cosmos DB account**  
 
-Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level and there is no analytical store enabled containers. 
+Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. You will not be billed if the Synapse Link capability is enabled at the account level and there are no analytical store enabled containers. 
 
-If you need to turn off the capability, you have 2 options. The first one is to delete and re-create a new Azure Cosmos DB account, migrating the data if necessary. The second option is to open a support ticket, to get help on a data migration to another account.
-
-### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**
-
-Synapse SQL Serverless is currently under private preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.  
+If you need to turn off the capability, you have two options. You can delete and recreate a new Azure Cosmos DB account, migrating the data if necessary. Or you can open a support ticket and ask for help on a data migration to another account.
 
 ## **Recommended Documents**
 
