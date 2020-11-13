@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "50af3be1-7132-0f22-ace4-47d49b0c4ad9",
+      "longDescription": "",
+      "shortDescription": "Issues related to API Management blade in the Azure Portal",
+      "searchTags": "Error;Portal;API Tab;Azure Portal Erro",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
