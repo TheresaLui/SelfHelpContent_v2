@@ -3,7 +3,7 @@
 <properties
 pageTitle="TSG Out of Scope"
 description="TSG is out of scope"
-infoBubbleText="This TSG is not applicable to your scenario"
+infoBubbleText="This TSG is not applicable to your scenario."
 service="microsoft.network"
 resource="vpnGateways"
 authors="riturajc"

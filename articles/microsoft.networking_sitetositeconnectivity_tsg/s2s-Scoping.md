@@ -3,7 +3,7 @@
 <properties
     pageTitle="TSG Scope"
     description="TSG Scope"
-    infoBubbleText="Confirms whether the current TSG is applicable."
+    infoBubbleText= "Confirms whether the current TSG is applicable."
     service="microsoft.network"
     resource="vpnGateways"
     authors="riturajc"
