@@ -17,6 +17,14 @@
 
 # How to check if qualifies for recovery attempt  Storage Account Recovery Classic / ARM
 
+
+```
+ANNOUNCEMENT: Customer-controlled storage account recovery (CSAR) is now live in the Portal (see link below)
+```
+
+
+
+
 1. Ensure storage account does not exist currently. 
 2. Account name should not have been reused. 
 3. Customer should NOT recreate a storage account with the same name. 
@@ -26,6 +34,8 @@
 
 ## Recommended Documents
 
-1. [Azure_Storage_TSG_Recover Storage Account](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265682/Azure_Storage_TSG_Recover-Storage-Account)
-2. [Data restore scenarios for Azure Storage service](https://support.microsoft.com/en-us/help/4012226/data-restore-scenarios-for-azure-storage-service)
+1. [CSAR - Customer Storage Account Recovery]([CSAR](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/407376/Azure-Storage-Customer-controlled-Storage-Account-Recovery-(CSAR)))
+2. [Azure_Storage_TSG_Recover Storage Account](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265682/Azure_Storage_TSG_Recover-Storage-Account)
+3. [Data restore scenarios for Azure Storage service](https://support.microsoft.com/en-us/help/4012226/data-restore-scenarios-for-azure-storage-service)
+
 
