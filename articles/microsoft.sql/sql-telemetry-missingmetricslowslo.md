@@ -20,7 +20,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing on the Azure Portal. For Basic, S0, S1 and S2 databases under resource pressure, metrics may be dropped to avoid further performance degradation.
+Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing on the Azure portal. For Basic, S0, S1 and S2 databases under resource pressure, metrics may be dropped to avoid further performance degradation.
 <!--/issueDescription--> 
 
 ## **Recommended Steps**
