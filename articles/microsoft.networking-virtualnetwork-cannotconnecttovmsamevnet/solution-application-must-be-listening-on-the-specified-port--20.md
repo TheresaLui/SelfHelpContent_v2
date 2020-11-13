@@ -20,8 +20,8 @@
 <!--issueDescription-->
 
 <!--issueDescription-->
-Our investigation has determined that no application is listening on port number <port #> on <destination VM>. In order to be able to connect to this port, an application needs to be listening on it.
-Please make sure that the application that you are trying to connect to is started and configured to listen on this port on all IP addresses associated with the VM.
+Our investigation has determined that no application is listening on port number <port #> on <destination VM>. To connect to this port, an application needs to be listening on it.
+Make sure that the application that you are trying to connect to is started and configured to listen on this port on all IP addresses associated with the VM.
 <!--/issueDescription-->
 
 <!--/issueDescription-->
