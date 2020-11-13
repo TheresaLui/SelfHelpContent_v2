@@ -17,12 +17,12 @@
 
 # Start/Scope (Check if customer issue matches TSG)
 
-Gather a full understanding of the issue and make sure that the issue matches this TSG
+Gather a full understanding of the issue and make sure that the issue matches this TSG.
 
 
-#Recommended Steps
+## Recommended Steps
 
-1. Review customer statement and network topology to get a full understanding of the issue seen to ensure you are following the correct Trouble Shooting Guide.
+1. Review customer statement and network topology to get a full understanding of the issue, to that ensure you are following the correct troubleshooting guide.
 
-2. If you are unsure of the scope ask necessary questions of the customer to gather an understanding.
+2. If you are unsure of the scope, ask the customer all necessary questions to ensure an understanding of the issue.
 
