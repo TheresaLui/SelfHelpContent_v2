@@ -5,7 +5,7 @@
   supporttopicids="32749414"
   resourcetags=""
   productpesids="15947"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="6bc4e686-7ac5-4850-80dc-ac806cf2bee5"
   ownershipid="Azure_Security_Security_Center" />
 # Vulnerability Assessment - Container image scanning (ACR) self help guide
