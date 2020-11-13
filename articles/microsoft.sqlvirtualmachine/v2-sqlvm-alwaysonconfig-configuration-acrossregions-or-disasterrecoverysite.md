@@ -23,7 +23,8 @@
 
 <!--issueDescription--> 
 
-Below information guides in configuring Availability Group across different regions or as a Disaster Recovery Site 
+Below information guides in configuring Availability Group across different regions or as a Disaster Recovery Site <br>  
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 
 

@@ -19,11 +19,9 @@
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
 
- ## **Common Errors encountered while Configuring Availability Groups**
-
+ 
 <!--issueDescription--> 
 
-Below are the common errors you may encounter while configuring Availability Group<br> 
 **Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 

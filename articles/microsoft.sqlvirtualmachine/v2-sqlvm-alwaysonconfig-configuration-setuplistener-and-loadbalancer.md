@@ -19,11 +19,11 @@
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
 
- ## **Setup Listener and Load Balancer for Availability Groups**
 
 <!--issueDescription--> 
 
-Below Steps can help you setup your Listener and Load Balancer for Availability Groups 
+Below Steps can help you setup your Listener and Load Balancer for Availability Groups <br>  
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 
 

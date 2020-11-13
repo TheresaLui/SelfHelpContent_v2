@@ -18,12 +18,12 @@
 />
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
-## **Configure Distributed Availability Group (DAG)**
  
 
 <!--issueDescription--> 
 
-There are various ways and Steps involved in configuring Distributed Availability Groups which are listed below. 
+There are various ways and Steps involved in configuring Distributed Availability Groups which are listed below.<br>  
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 
 

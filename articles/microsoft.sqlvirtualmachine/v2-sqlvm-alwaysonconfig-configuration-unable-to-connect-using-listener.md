@@ -19,11 +19,11 @@
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
 
- ## **Configured Availability Group but Unable to connect using Listener**
 
 <!--issueDescription--> 
 
-Below Steps can help you to troubleshoot why you are not able to connect to the Listener 
+Below Steps can help you to troubleshoot why you are not able to connect to the Listener<br>  
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode--> 
 
 <!--/issueDescription--> 
 
