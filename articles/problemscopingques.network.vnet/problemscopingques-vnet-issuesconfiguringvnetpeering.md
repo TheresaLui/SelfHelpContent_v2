@@ -2,9 +2,9 @@
 	pageTitle="Issues configuring VNet Peering"
 	description="Issues configuring VNet Peering"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32589558"
+	supportTopicIds="32781389,32781391,32781393,32781399"
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Issues configuring VNet Peering",
     "fileAttachmentHint": "",
     "formElements": [
@@ -29,14 +30,12 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of virtual networks",
-                    "text": "Unable to get the list of virtual networks"
+                "textPropertyRegex": "[^/]+$",
+              "defaultdropdownOptions": {
+                    "value": "Unable to get the list of Virtual Networks",
+                    "text": "Unable to get the list of Virtual Networks"
                 }
-            ],
+            },
             "required": false
         },
         {
