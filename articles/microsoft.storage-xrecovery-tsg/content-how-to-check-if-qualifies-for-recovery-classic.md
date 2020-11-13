@@ -34,7 +34,7 @@ ANNOUNCEMENT: Customer-controlled storage account recovery (CSAR) is now live in
 
 ## Recommended Documents
 
-1. [CSAR - Customer Storage Account Recovery]([CSAR](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/407376/Azure-Storage-Customer-controlled-Storage-Account-Recovery-(CSAR)))
+1. [CSAR - Customer Storage Account Recovery]((https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/407376/Azure-Storage-Customer-controlled-Storage-Account-Recovery-(CSAR)))
 2. [Azure_Storage_TSG_Recover Storage Account](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265682/Azure_Storage_TSG_Recover-Storage-Account)
 3. [Data restore scenarios for Azure Storage service](https://support.microsoft.com/en-us/help/4012226/data-restore-scenarios-for-azure-storage-service)
 
