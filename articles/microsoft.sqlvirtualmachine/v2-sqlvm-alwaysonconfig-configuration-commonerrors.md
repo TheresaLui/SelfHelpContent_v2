@@ -23,7 +23,7 @@
 
 <!--issueDescription--> 
 
-Below are the common errors you may encounter while configuring Availability Group 
+Below are the common errors you may encounter while configuring Availability Group<br> 
 **Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 
