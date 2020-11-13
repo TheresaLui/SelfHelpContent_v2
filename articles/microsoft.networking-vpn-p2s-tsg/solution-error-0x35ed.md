@@ -17,8 +17,8 @@
 
 # Solution for VPN Point-to-Site client Error 0x35ed
 
-The error *"Error 0x35ed: ERROR_IPSEC_IKE_TIMED_OUT"* is an IPsec error thrown by a VPN gateway when the client is no longer responding to it.
+The error, "Error 0x35ed: ERROR_IPSEC_IKE_TIMED_OUT," is an IPsec error thrown by a VPN gateway when the client is no longer responding to it.
 
 ## Recommended Steps
 
-* Investigate why the VPN client stops responding to the VPN gateway.
+* Investigate why the VPN client is not responding to the VPN gateway.
