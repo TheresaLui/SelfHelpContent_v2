@@ -1,56 +1,56 @@
 <properties
-	articleId="10ed438a-9624-4f7e-8ea8-7e62906af8dc"
-	pageTitle="Scoping error installing update"
-	description="Error installing update"
+	articleId="69426dc8-dd6d-4132-9916-91bec1965e9a"
+	pageTitle="Scoping device not sending heartbeat"
+	description="Device not sending heartbeat Scoping"
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630501"
+	supportTopicIds="32630498"
 	productPesIds="15438"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Error installing update
+# Device not sending heartbeat
 ---
 {
+    "subscriptionrequired": true,
     "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Error installing update",
+    "title": "Device not sending heartbeat",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "update_type",
+            "id": "storsimple_devices",
             "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Which update installation is failing?",
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Software",
-                    "text": "Software"
-                },
-                {
-                    "value": "Firmware",
-                    "text": "Firmware"
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
                 }
-            ],
-            "required": false
+            }
         },
         {
-            "id": "update",
+            "id": "changes_updates",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "How is the update being installed?",
+            "displayLabel": "Were there any changes/updates made on the network?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "From Azure Portal",
-                    "text": "From Azure Portal"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "As a hotfix",
-                    "text": "As a hotfix"
+                    "value": "No",
+                    "text": "No"
                 }
             ],
             "required": false

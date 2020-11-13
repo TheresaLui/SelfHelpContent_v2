@@ -1,14 +1,16 @@
 <properties
-  pagetitle="Solutions for exporting/importing managed disks"
-  service="microsoft.compute"
-  resource="virtualmachines"
-  ms.author="ramankum"
-  selfhelptype="Generic"
-  supporttopicids="32747646"
-  productpesids="14749"
-  cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
-  articleid="096b63bd-509f-48bd-80d0-e327362b1622"
-  ownershipid="Compute_ComputePlatform" />
+	pagetitle="Solutions for exporting/importing managed disks"
+	service="microsoft.compute"
+	resource="virtualmachines"
+	ms.author="ramankum"
+	selfhelptype="Generic"
+	supporttopicids="32747646"
+	productpesids="15571,15797,16454,16470,14749"
+	cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+	articleid="a00e3c31-f2a7-4d5d-ba24-160667784f7d"
+	ownershipId="Compute_VirtualMachines_Content"
+/>
+
 # Solutions for exporting/importing managed disks
 
 Want a solution right now?
