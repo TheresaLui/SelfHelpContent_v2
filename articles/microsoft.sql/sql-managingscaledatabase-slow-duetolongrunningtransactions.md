@@ -23,12 +23,15 @@ You have initiated a scale operation on your Azure SQL DB database <!--$Database
 This operation is proceeding slowly due to long running transactions on the database.
 <!--/issueDescription-->
 
-## **Root cause investigation**
-Before the scale operation switches the database to the target performance tier, it kills any active transactions on the source instance, to avoid long recovery on the target instance. Recovery is a database process that occurs when a database is restarted after a shutdown – which happens after the target instance starts up during a scale operation. Recovery rolls back all inflight but uncommitted transactions at the time of restart, and during this time the database is unavailable for additional requests. If there are any large transactions to rollback, this activity takes time proportional to the number of the active transactions. We recommend terminating any open transactions on your database to avoid long recovery of the target instance and speed up the scale operation. Please refer the links below for related information.
+Before the scale operation switches the database to the target performance tier, it ends any active transactions on the source instance to avoid long recovery on the target instance. Recovery is a database process that occurs when a database is restarted after a shutdown. Shutdown happens after the target instance starts up during a scale operation. Recovery rolls back all inflight but uncommitted transactions at the time of restart, and during this time the database is unavailable for additional requests. 
+
+If there are any large transactions to rollback, this activity takes time proportional to the number of the active transactions. We recommend terminating any open transactions on your database to avoid long recovery of the target instance and speed up the scale operation. Please refer the links below for related information.
 
 ## **Recommended Steps**
-Please close any open transactions on your database to speed up the scale operation and avoid long recovery.
-You can use the [sys.dm_tran_active_transactions](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-tran-active-transactions-transact-sql?view=sql-server-ver15) DMV to view the open transactions. 
+
+Close any open transactions on your database to speed up the scale operation and avoid long recovery.
+
+Use the [sys.dm_tran_active_transactions](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-tran-active-transactions-transact-sql?view=sql-server-ver15) DMV to view the open transactions. 
 
 ## **Recommended Documents**
 
