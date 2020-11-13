@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43d5f476-8ecb-3282-5236-a6424fda6cf6",
+      "longDescription": "",
+      "shortDescription": "Guidance with Application Insights, capacity, diagnostic logs, metrics and alerts",
+      "searchTags": "Application Insights;Capacity;Diagnostics logs;metrics;alerts",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "50af3be1-7132-0f22-ace4-47d49b0c4ad9",
       "longDescription": "",
       "shortDescription": "Issues related to API Management blade in the Azure Portal",
