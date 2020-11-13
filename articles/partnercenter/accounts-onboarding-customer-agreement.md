@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Microsoft Customer Agreement
