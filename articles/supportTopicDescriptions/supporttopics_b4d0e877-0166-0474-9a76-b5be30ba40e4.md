@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "37fe510b-e9d2-2b6b-a9ec-0d7f656019ca",
+      "longDescription": "",
+      "shortDescription": "Guidance on backup, restore, ARM template, deployments, scaling, GIT integration, Migrations and Operations",
+      "searchTags": "ARM;GIT;Deployments;Operations;Migrations",
+      "category": "Administration and Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43316437-43b9-cefc-ad1d-cff2984134d0",
       "longDescription": "",
       "shortDescription": "Guidance on AAD integration, certificates, SSL, User Group Management and RBAC",
