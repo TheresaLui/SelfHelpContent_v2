@@ -27,5 +27,5 @@ netstat -an | find "<port number>"
 Example:
 netstat -an | find "8080"
 
-If netstat is returning an empty response, this means that no application is listening on this port.
+If Netstat is returning an empty response, this means that no application is listening on this port.
 
