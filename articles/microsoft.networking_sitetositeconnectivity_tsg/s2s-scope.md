@@ -15,7 +15,8 @@
     supportTopicIds="32591158,32584882,32584881"
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="Public, fairfax, usnat, ussec"  ownershipId="CloudNet_AzureVPNGateway"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+    ownershipId="CloudNet_AzureVPNGateway"
 />
 
 Hello there! This TSG covers the following support topics:
