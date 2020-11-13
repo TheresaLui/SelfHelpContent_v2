@@ -1,5 +1,3 @@
-# Check for other ASC Troubleshooters that may cover the customer scenario
-
 <properties
   pageTitle="TSG Out of Scope"
   description="TSG is out of scope"
@@ -18,6 +16,8 @@
   cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   ownershipId="CloudNet_AzureVPNGateway"
 />
+
+# Check for other ASC Troubleshooters that may cover the customer scenario
 
 ## Recommended Steps
 
