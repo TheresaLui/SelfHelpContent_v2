@@ -17,5 +17,5 @@
 
 # Proceed with OS level troubleshooting on destination VM
 
-Proceed with taking a packet capture on both source and destination VM and engage a TA. If after reviewing the packet capture you believe the issue is caused by an OS level issue on either source or destination VM, you can reach out to the Windows/Linux teams to assist you with troubleshooting further.
+Take a packet capture on both the source and destination VMs and engage a TA. After reviewing the packet capture, if you think the issue is caused by an OS level issue on either the source or destination VM, reach out to the Windows/Linux teams for further troubleshooting.
 
