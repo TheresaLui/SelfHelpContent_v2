@@ -4,41 +4,64 @@
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="jozender"
+	authors="NatErns	"
+	ms.author="naterns"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Service_Healing_Node_Fault_Low_Memory"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
-	supportTopicIds="32411816"
+	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
-## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
-
+## **VM Availability**
 <!--issueDescription-->
-We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated auto-recovery action**.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
 <!--/issueDescription-->
 
-The auto-recovery action was triggered by our Azure monitoring systems that detected a temporary low memory condition on the physical node where the virtual machine was hosted. This caused IO failures for the VMs hosted on this node. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
+<!--rcaDescription-->
+### *Root Cause*
+> This unexpected occurrence was caused due to a platform issue where resources on the physical node were exhausted. Our engineering teams have identified the two main root causes:
+> * Memory leaks in a few OS and Azure components were identified.
+> * A general overall increase in resource usage across various Azure and OS components.
+> 
 
-Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.<br>
+<!--resolutionDetails-->
+### *Resolution*
+> VM Services were restored following reboot.
+> 
+> The following platform fixes are in process:
+> * A host OS update is currently in deployment that resolves the known memory leaks. However, there are a few nodes that have to be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
+> * Enhancements and features of various Azure components have resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement of the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
+> 
+<!--/resolutionDetails-->
 
-To learn more about our automated recovery action, see [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines).<br>
+<!--additionalInfo-->
+### *Additional Information*
+> We are monitoring impacted nodes and have marked them for service so that they can be recovered to full capacity.
+> 
+<!--/additionalInfo-->
+<!--/rcaDescription-->
 
-To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
+<!--recommendedActions-->
+## **Recommended Documents**
 
-To learn more about high availability options, refer to the following articles:<br>
+> *Learn more about:*
+> * [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> 
+<!--/recommendedActions-->
 
-* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
-* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 
-Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
+<!--salutation-->
+We apologize for any inconvenience this may have caused you. 
 
-To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).<br>
-
-We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+Microsoft Azure Team
+<!--/salutation-->
