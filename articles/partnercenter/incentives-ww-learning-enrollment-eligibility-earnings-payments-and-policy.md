@@ -54,6 +54,8 @@
 
 **Still need help?**
 
-Create a support ticket:
+If you still need support with WW Learning Incentives, please create a support ticket using the link below.
+
+**NOTE:** If you have MPN related questions, please navigate back to the previous page, select 'MPN' from the category drop-down, then select the appropriate topic and subtopic.
 * [All regions](https://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=learningpartner@msdirectservices.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=WW%20Learning&supporttopicid_l3=Support&locale=en-us&language=EN)
 

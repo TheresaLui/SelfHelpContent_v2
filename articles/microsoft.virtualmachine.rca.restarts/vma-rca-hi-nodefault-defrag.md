@@ -2,8 +2,8 @@
 	pageTitle="VMA RCA"
 	description="RCA - HI - NodeFault - Defrag"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""	
@@ -18,25 +18,38 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+## **VM Availability**
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
-
-We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated unplanned maintenance action**.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-The unplanned maintenance action was required to ensure the overall health of the Azure Platform. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
+<!--rcaDescription-->
+### *Root Cause*
+> The unplanned maintenance action was required to ensure the overall health of the Azure Platform. This caused your VM to get rebooted.
+> 
 
-We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+<!--resolutionDetails-->
+### *Resolution*
+> The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
+> 
+<!--/resolutionDetails-->
+<!--/rcaDescription-->
 
-Microsoft Azure Term
-<br>
-
+<!--recommendedActions-->
 ## **Recommended Documents**
 
-Learn more about:
-* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
-* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
-* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-<br>
+> *Learn more about:*
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> 
+<!--/recommendedActions-->
+
+
+<!--salutation-->
+We apologize for any inconvenience this may have caused you. 
+
+Microsoft Azure Team
+<!--/salutation-->

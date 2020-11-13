@@ -19,7 +19,21 @@
 />
 
 # Partner Center API and Integration Support Azure cost and resource management API
+
+## **Recommended Steps**
+
+If your query is related to Azure Cost Management or Resource Management API (examples endpoints below), please create Support Request with Azure team through Azure Support Portal.
+
+Endpoints:
+
+https://management.azure.com/
+
+https://management.core.windows.net/
  
 ## **Recommended Documents**
 
-* [Get a customer's utilization records for Azure](https://docs.microsoft.com/partner-center/develop/get-a-customer-s-utilization-record-for-azure)
+* [Create Subscription (1)](https://docs.microsoft.com/rest/api/subscription/2018-11-01-preview/subscriptionfactory/createcspsubscription)
+* [Create Subscription (2)](https://docs.microsoft.com/azure/azure-resource-manager/management/programmatically-create-subscription?tabs=rest)
+* [Cancel Subscription](https://docs.microsoft.com/rest/api/subscription/2019-03-01-preview/subscriptions/cancel)
+* [Azure Cost Management API](https://docs.microsoft.com/rest/api/cost-management/)
+* [Azure Consumption API](https://docs.microsoft.com/rest/api/consumption/)
