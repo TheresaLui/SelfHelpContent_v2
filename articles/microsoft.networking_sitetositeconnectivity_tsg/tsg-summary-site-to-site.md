@@ -1,5 +1,3 @@
-# Site-to-site VPN connectivity issues
-
 <properties
     pageTitle="TSG Summary: Site-to-site VPN connectivity issues"
     description="TSG Summary: Site-to-site VPN connectivity issues"
@@ -17,8 +15,6 @@
     ownershipId="CloudNet_AzureVPNGateway"
 />
 
-While we begin troubleshooting this scenario, please consider the below points.
+# Site-to-site VPN connectivity issues
 
-1. Go through the ASC insights and certainly browse through the **[emerging issues and known bugs](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/254656/Site-to-Site?anchor=active-site-to-site-work-items)** page to eliminate any known error.
-2. Ensure there is no IP address overlap or mismatch, and the resources (Connection, Local Network Gateway, and VPN Gateway) are healthy. If any of the resources are in failed state, then troubleshoot the failed operation before you begin with this TSG.
-3. Please provide us actionable feedback with supporting content and screenshots to make this TSG better.
+This troubleshooter will guide you to find the root cause and resolution for customers experiencing Site-to-site VPN connectivity issues using Azure VPN Gateway.
