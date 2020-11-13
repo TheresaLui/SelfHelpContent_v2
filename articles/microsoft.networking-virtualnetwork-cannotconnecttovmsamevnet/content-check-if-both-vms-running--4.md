@@ -17,7 +17,7 @@
 
 # Check if both VMs running?
 
-Make sure that both VMs are started and in Succeded state
+Make sure that both VMs are started and in Succeeded state
 
 ## Recommended Steps
 
