@@ -33,9 +33,9 @@ The error returned indicated that the database was not found. This may occur if 
 ## **Recommended Steps**
 
 * Please check the application connection string contains the correct server and database name, i.e. `Server=tcp:my-server.database.windows.net,1433;Initial Catalog=mydatabase;Persist Security Info=False;User...`
-* To access the correct connection string please do the following: 
+* To access the correct connection string, do the following: 
 
-	1. [Azure Portal](https://portal.azure.com), navigate to the correct database
-	2. Select 'Connection Strings'
-	3. Review the settings for Server and Catalog
+  - [Azure Portal](https://portal.azure.com), navigate to the correct database
+  - Select 'Connection Strings'
+  - Review the settings for Server and Catalog
  
