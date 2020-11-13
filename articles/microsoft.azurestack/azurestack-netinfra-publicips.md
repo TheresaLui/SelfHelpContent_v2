@@ -28,7 +28,7 @@ To add public IPs to your Azure Stack environment, follow these steps:
 2. Add the IP address range to Azure Stack
 3. Update the ACLs on your top-of-rack switches
 
-For more detailed instructions, see [Add the IP address range to Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-ips#add-the-ip-address-range-to-azure-stack-hub)
+For more detailed instructions, see [Add the IP address range to Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-ips#add-the-ip-address-range-to-azure-stack-hub).
 
 ## **Recommended Documents**
 
