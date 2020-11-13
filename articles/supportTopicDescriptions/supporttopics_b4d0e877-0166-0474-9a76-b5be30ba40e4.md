@@ -52,6 +52,14 @@
       "searchTags": "Signin;Customize;Configuration;Performance;UI Issue",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
+      "longDescription": "",
+      "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
+      "searchTags": "gateway;Custom domains;Domains;API responses",
+      "category": "Self Hosted Gateways",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
