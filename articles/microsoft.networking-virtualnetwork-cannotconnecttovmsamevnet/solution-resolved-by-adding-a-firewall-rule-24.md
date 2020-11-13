@@ -20,7 +20,7 @@
 <!--issueDescription-->
 
 <!--issueDescription-->
-Our investigation has determined that the connectivity issue you were experiencing was caused by a Firewall rule blocking traffic on your VM.
+Our investigation has determined that the connectivity issue you were experiencing was caused by a firewall rule blocking traffic on your VM.
 <!--/issueDescription-->
 
 <!--/issueDescription-->
