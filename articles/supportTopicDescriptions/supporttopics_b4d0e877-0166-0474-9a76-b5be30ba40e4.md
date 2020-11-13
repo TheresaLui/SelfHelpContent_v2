@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b4d0e877-0166-0474-9a76-b5be30ba40e4"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_b4d0e877-0166-0474-9a76-b5be30ba40e4" />
+  articleid="supporttopics_b4d0e877-0166-0474-9a76-b5be30ba40e4"
+  ownershipid="Compute_APIManagement" />
 # Support Topic Descriptions for b4d0e877-0166-0474-9a76-b5be30ba40e4
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "API Management (APIM) is a way to create consistent and modern API gateways for existing back-end services",
+  "longDescription": "",
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "37fe510b-e9d2-2b6b-a9ec-0d7f656019ca",
