@@ -1,5 +1,3 @@
-# TSG Scope
-
 <properties
     pageTitle="TSG Scope"
     description="TSG Scope"
@@ -18,6 +16,8 @@
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="CloudNet_AzureVPNGateway"
 />
+
+# TSG Scope
 
 Hello there! This TSG covers the following support topics:
 
