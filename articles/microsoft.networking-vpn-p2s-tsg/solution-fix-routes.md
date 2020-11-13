@@ -28,9 +28,11 @@ We found that there are missing routes on the point-to-site client. Please follo
  appdata%/Microsoft/Network/Connections/Cm/$gatewayID/routes.txt file
    3. MAC OS and OpenVPN clients instead will leverage the VpnSettings.xml file distributed via the Point to site Package so the additional routes must be added there.
 2. Make sure all local network objects linked to the VPN gateway are correctly configured according to on-premises network subnet allocations
+3. Note: By design Point to site clients will NOT have connectivity with remote networks if they are connected via an NVA appliance rather than an Azure VPN Gateway. This is achieved by means of UDRs.
 
 
 # Recommended Documents
 
 * [Route commands](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/ff961510(v=ws.11))
 * [Configure on-premises network subnet allocations](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#LocalNetworkGateway)
+* [Scenario: Route traffic through an NVA](https://docs.microsoft.com/en-us/azure/virtual-wan/scenario-route-through-nva)
