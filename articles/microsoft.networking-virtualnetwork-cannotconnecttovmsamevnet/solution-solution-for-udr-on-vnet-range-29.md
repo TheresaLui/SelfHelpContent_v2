@@ -20,8 +20,8 @@
 <!--issueDescription-->
 
 <!--issueDescription-->
-We have identified that you have configured a UDR that points the CIDR range of your VNet or part of it to your Virtual Network Gateway.
-In order to allow for normal flow of traffic, we would recommend that you delete this UDR.
+We've determined that you configured a UDR that points the CIDR range of your VNet or part of it to your Virtual Network Gateway.
+To allow for normal flow of traffic, we recommend that you delete this UDR.
 <!--/issueDescription-->
 
 <!--/issueDescription-->
