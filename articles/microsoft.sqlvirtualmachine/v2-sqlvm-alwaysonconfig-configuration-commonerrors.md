@@ -24,6 +24,7 @@
 <!--issueDescription--> 
 
 Below are the common errors you may encounter while configuring Availability Group 
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 <!--/issueDescription--> 
 
