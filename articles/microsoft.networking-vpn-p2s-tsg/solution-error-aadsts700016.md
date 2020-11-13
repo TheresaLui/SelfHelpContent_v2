@@ -17,13 +17,13 @@
 
 # Solution for VPN Point-to-Site client Error AADSTS700016
 
-The error *"Error AADSTS700016: Application with identifier 'xxxx' was not found in the directory 'yyyy'"* is an Azure AD specific error where the AadAudienceId parameter is not configured correctly.
+The error, "Error AADSTS700016: Application with identifier "xxxx" was not found in the directory "yyyy", is an Azure Active Directory-specific error where the `AadAudienceId` parameter is not configured correctly.
 
 ## Recommended Steps
 
 * Connect to the Azure Portal
 * Browse to the VPN gateway Point to Site configuration Blade
-* Make sure that the **Audience** field is statically set to the value of 41b23e61-6c1e-4545-b367-cd054e0ed4b4
+* Make sure that the **Audience** field is statically set to the value of `41b23e61-6c1e-4545-b367-cd054e0ed4b4`
 
 ## Recommended Documents
 
