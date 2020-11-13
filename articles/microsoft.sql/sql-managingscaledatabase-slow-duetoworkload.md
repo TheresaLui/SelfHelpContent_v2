@@ -24,11 +24,11 @@ You have initiated a scale operation on your Azure SQL DB database **<!--$Databa
 
 ### Root Cause Investigation
 
-The scale operation is implemented as a copy of data between instances with different resource allocations, and it can depend on factors like database size and CPU/IO resources on the source database. The copy operation is designed to not interfere with user workload and thus is significantly throttled when there is user workload on the database. If the database is under high resource utilization from user workloads, then the copy operation proceeds very slowly. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
+The scale operation is implemented as a copy of data between instances with different resource allocations, and it can depend on factors like database size and CPU/IO resources on the source database. The copy operation is designed to not interfere with user workload, and therefore is significantly throttled when there is user workload on the database. If the database is under high resource utilization from user workloads, then the copy operation proceeds very slowly. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short time (minutes) and constant time, regardless of workload.
 
 ## **Recommended Steps**
 
-* Please reduce the workload on your database to reduce throttling of the scale operation
+* Reduce the workload on your database to reduce throttling of the scale operation
 
 ## **Recommended Documents**
 
