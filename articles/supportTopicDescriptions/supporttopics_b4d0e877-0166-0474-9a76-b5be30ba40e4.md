@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "704d8033-1f32-11d2-33d4-9ebf90a138fe",
+      "longDescription": "",
+      "shortDescription": "Configuring  APIs, VNeT integration, notifications and custom domains",
+      "searchTags": "APIs ;VNeT;Custom Domains;notifications",
+      "category": "General Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
       "longDescription": "",
       "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
