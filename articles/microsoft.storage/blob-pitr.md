@@ -19,10 +19,10 @@
 
 ## **Recommended Steps**
 
-- [**How to register for the preview**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)<br>
+1. See [**How to register for the preview**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)<br>
 
+2. Register for the point-in time restore preview
 
-	#### Register for the point-in time restore preview
 	```powershell
 	Register-AzProviderFeature -FeatureName RestoreBlobRanges -ProviderNamespace Microsoft.Storage
 	```
