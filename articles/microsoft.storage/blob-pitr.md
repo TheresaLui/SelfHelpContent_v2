@@ -53,15 +53,16 @@
     -FeatureName Versioning
 
 	```
-- [**How to Enable point-in time restore**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
+- [**How to enable point-in time restore**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
 
  ### **Preview limitations and known issues**
- Click [**here**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues) to find the preview limitations as well as the list of known issues..
+
+ Learn more about [preview limitations and known issues](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues).
 
 
 ## **Recommended Documents**
 
-- [Pre-requisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
+- [Prerequisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
 - [Regions Availability & Preview Limitation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#about-the-preview)
 - [How to enable point-in-time restore feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage)
 - [How to perform a restore operation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage#perform-a-restore-operation)
