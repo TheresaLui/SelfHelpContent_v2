@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "54b0dd57-48e5-6f5a-b9cc-b5fe11ed5f6b",
+      "longDescription": "",
+      "shortDescription": "Assistance with creating and debugging policies in API Management Service",
+      "searchTags": "debugging;policies;API",
+      "category": "Policies",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
