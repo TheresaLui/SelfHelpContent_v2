@@ -17,6 +17,6 @@
 
 # Make sure both VMs are running
 
-Ask the customer to start the VM(s) that is(are) not started before proceeding with troubleshooting.
-Ask them to test connectivity again after they are started.
+1. Start the VM that is not started before proceeding with troubleshooting
+2. Test connectivity again after they are started
 
