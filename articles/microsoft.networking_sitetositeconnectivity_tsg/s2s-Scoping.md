@@ -1,23 +1,22 @@
-<properties
-pageTitle="Incorrect IKE Parameter"
-description="Incorrect IKE Parameter"
-infoBubbleText= "Issues with your Site to Site VPN Connectivity were detected. See details on the right."
-service="microsoft.network"
-resource="vpnGateways"
-authors="riturajc"
-ms.author="riturajc"
-displayOrder=""
-articleId="5964f71f-33e8-45be-9cad-be049ffb4613"
-diagnosticScenario=""
-selfHelpType="Diagnostics"
-supportTopicIds="32591158,32584882,32584881"
-resourceTags=""
-productPesIds=""
-cloudEnvironments="Public, fairfax, usnat, ussec"
-ownershipId="CloudNet_AzureVPNGateway"
-/>
-
 # TSG Scope
+
+<properties
+    pageTitle="TSG Scope"
+    description="TSG Scope"
+    infoBubbleText="Confirms whether the current TSG is applicable."
+    service="microsoft.network"
+    resource="vpnGateways"
+    authors="riturajc"
+    ms.author="riturajc"
+    displayOrder=""
+    articleId="6e1281dd-28f3-4cf7-b891-945f727b50a9"
+    diagnosticScenario=""
+    selfHelpType="Diagnostics"
+    supportTopicIds="32591158,32584882,32584881"
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="Public, fairfax, usnat, ussec"  ownershipId="CloudNet_AzureVPNGateway"
+/>
 
 Hello there! This TSG covers the following support topics:
 

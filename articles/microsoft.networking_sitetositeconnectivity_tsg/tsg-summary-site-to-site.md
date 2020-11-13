@@ -1,10 +1,12 @@
-﻿<properties
+﻿# Site-to-site VPN connectivity issues
+
+<properties
     pageTitle="TSG Summary: Site-to-site VPN connectivity issues"
     description="TSG Summary: Site-to-site VPN connectivity issues"
     service="microsoft.network"
     resource="vpnGateways"
-    authors="JRMayberry"
-    ms.author="rimayber"
+    authors="riturajc"
+    ms.author="riturajc"
     displayOrder=""
     selfHelpType="TSG_Description"
     supportTopicIds="32591158,32584882,32584881"
@@ -14,8 +16,6 @@
     articleId="308d35e1-64b8-4bd4-bceb-45da201e2f70"
     ownershipId="CloudNet_AzureVPNGateway"
 />
-
-# Site-to-site VPN connectivity issues
 
 While we begin troubleshooting this scenario, please consider the below points.
 

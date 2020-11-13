@@ -1,13 +1,15 @@
+# Check for other ASC Troubleshooters that may cover the customer scenario
+
 <properties
-pageTitle="Incorrect IKE Parameter"
-description="Incorrect IKE Parameter"
-infoBubbleText= "Issues with your Site to Site VPN Connectivity were detected. See details on the right."
+pageTitle="TSG Out of Scope"
+description="TSG is out of scope"
+infoBubbleText="This TSG is not applicable to your scenario"
 service="microsoft.network"
 resource="vpnGateways"
 authors="riturajc"
 ms.author="riturajc"
 displayOrder=""
-articleId="5964f71f-33e8-45be-9cad-be049ffb4613"
+articleId="09607b39-a392-4862-958a-4e469fd38589"
 diagnosticScenario=""
 selfHelpType="Diagnostics"
 supportTopicIds="32591158,32584882,32584881"
@@ -15,8 +17,6 @@ resourceTags=""
 productPesIds=""
 cloudEnvironments="Public, fairfax, usnat, ussec"  ownershipId="CloudNet_AzureVPNGateway"
 />
-
-# Check for other TSGs may be available that cover the customer scenario
 
 ## Recommended Steps
 
