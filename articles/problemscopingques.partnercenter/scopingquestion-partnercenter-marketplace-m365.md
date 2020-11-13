@@ -27,7 +27,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "watermarkText": "In Partner Center, select Settings, then select Developer settings",
 	   "required": true
 	},
 	{
