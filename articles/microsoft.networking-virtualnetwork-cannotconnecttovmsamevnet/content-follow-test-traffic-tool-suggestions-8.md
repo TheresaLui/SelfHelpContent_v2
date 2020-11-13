@@ -17,5 +17,5 @@
 
 # Follow Test Traffic Tool suggestions
 
-Follow the suggestions provided after running the Test Traffic tool. Make sure that the NSGs (both inbound and outboud) allow traffic between the two VMs. Make sure that the Routing Table associated with both VMs has a route for the VNet subnet range.
+Follow the suggestions provided after running the Test Traffic tool. Make sure that the NSGs (both inbound and outbound) allow traffic between the two VMs. Make sure that the Routing Table associated with both VMs has a route for the VNet subnet range.
 
