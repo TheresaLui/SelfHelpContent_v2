@@ -20,9 +20,8 @@
 />
 
 <!--issueDescription-->
-<!--/issueDescription-->
-
 Hello there! This TSG covers the following support topics:
+<!--/issueDescription-->
 
 * Azure/Virtual Network/VPN Gateway/VPN tunnel is down or never connected
 * Azure/Virtual Network/VPN Gateway/Unable to connect to VM or application via established VPN tunnel
