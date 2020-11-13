@@ -1,3 +1,5 @@
+# TSG Scope
+
 <properties
     pageTitle="TSG Scope"
     description="TSG Scope"
@@ -17,7 +19,8 @@
     ownershipId="CloudNet_AzureVPNGateway"
 />
 
-# TSG Scope
+<!--issueDescription-->
+<!--/issueDescription-->
 
 Hello there! This TSG covers the following support topics:
 
