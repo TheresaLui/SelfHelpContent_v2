@@ -94,4 +94,5 @@
   ],
   "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have.",
   "testData": "11d5f159-a21d-4a6c-8053-c3aae30057cf,/subscriptions/11d5f159-a21d-4a6c-8053-c3aae30057cf/resourceGroups/prvtest/providers/Microsoft.Kusto/Clusters/praveentest"
+}
 ---

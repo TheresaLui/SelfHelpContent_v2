@@ -91,6 +91,7 @@
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
-  ]
+  ],
+  "testData": "a0cd6542-7eaf-43d2-bbdd-b678a869aad1,/subscriptions/a0cd6542-7eaf-43d2-bbdd-b678a869aad1/resourceGroups/demostggroup/providers/Microsoft.Kusto/Clusters/demov3"
 }
 ---
