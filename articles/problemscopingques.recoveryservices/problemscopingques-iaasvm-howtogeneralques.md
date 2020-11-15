@@ -63,7 +63,7 @@
               "order": 2,
               "visibility": "operation_type == Backup",
               "controlType": "dropdown",
-               "infoBalloonText": "Check <a href='https://aka.ms/AB-AA4ecq2'>Configure backup</a>, <a href='https://aka.ms/AB-AzureVM-OnDemandBackup'>On-demand backup</a>, <a href='https://aka.ms/AB-AA4e56t'>Backup of encrypted VM</a>, <a href='https://aka.ms/AB-AA4ecql'>Manage Azure VM backup</a>, <a href='https://aka.ms/AB-AA4e56n'> Azure VM backup FAQs</a>",
+               "infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault'>Configure backup</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup'>On-demand backup</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption'>Backup of encrypted VM</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm'>Manage Azure VM backup</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq'> Azure VM backup FAQs</a>",
               "displayLabel": "Choose an option that best describes your situation:",
               "watermarkText": "Select",
               "dropdownOptions": [{
