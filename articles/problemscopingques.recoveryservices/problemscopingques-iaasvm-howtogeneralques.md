@@ -283,13 +283,11 @@
 		  "hints": []
 	},{
 		 "id": "Select_selfhelp",
-            "order": 13,
-            "controlType": "dropdown",
-            "displayLabel": "Have you checked the solution for your problem in the solution page?",
-            "watermarkText": "Select",
-            "dropdownOptions": 
-          [
-                {
+              	 "order": 13,
+            	 "controlType": "dropdown",
+            	 "displayLabel": "Have you checked the solution for your problem in the solution page?",
+            	 "watermarkText": "Select",
+            	 "dropdownOptions": [{
                     "value": "Could not find content",
                     "text": "Could not find content"
                 },
@@ -307,8 +305,7 @@
                 }
             ],
             "required": true
-        }		
-	],
+        }],
 "$schema": "SelfHelpContent"
 }
 ---
