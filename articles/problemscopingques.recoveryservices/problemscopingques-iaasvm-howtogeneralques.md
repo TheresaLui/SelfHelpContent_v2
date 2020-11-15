@@ -101,7 +101,7 @@
 		"order": 3,
 		"visibility": "operation_type == Restore",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#restore'>Restore FAQs</a>",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -127,7 +127,7 @@
 		"order": 4,
 		"visibility": "operation_type == Policy",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Manage VM backups FAQ</a>",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#frequently-asked-questions'>Manage VM backups FAQ</a>",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -147,7 +147,7 @@
 		"order": 5,
 		"visibility": "operation_type == Snapshots/Recovery Points",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Instant Restore FAQ</a>",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#frequently-asked-questions'>Instant Restore FAQ</a>",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 "dropdownOptions": [{
@@ -167,7 +167,7 @@
 		"order": 6,
 		"visibility": "operation_type == Limitations/Pre-requisites/(Not) Supported scenarios",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Pre-requisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-windows'>Pre-requisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas'>Support Matrix</a> for Azure VM backup",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -196,7 +196,7 @@
 		"order": 7,
 		"visibility": "operation_type == Performance",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration</a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance</a>",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#restore'>Restore FAQs</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-and-restore-considerations'>Backup and Restore consideration</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance'>Backup performance</a>",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -216,7 +216,7 @@
 		"order": 8,
 		"visibility": "operation_type == Best Practices",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56d'>Best Practices</a> for Azure VM backup",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices'>Best Practices</a> for Azure VM backup",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -233,7 +233,7 @@
 		"order": 9,
 		"visibility": "operation_type == Pricing",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Costs'>Azure backup costs</a> article",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-costs'>Azure backup costs</a> article",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -250,7 +250,7 @@
 		"order": 10,
 		"visibility": "operation_type == Security",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56n'>Backup FAQs</a>, <a href='https://aka.ms/AB-Restore-Permissions'>Restore permissions</a> article",
+		"infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq'>Backup FAQs</a>, <a href='https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault#mapping-backup-built-in-roles-to-backup-management-actions'>Restore permissions</a> article",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
