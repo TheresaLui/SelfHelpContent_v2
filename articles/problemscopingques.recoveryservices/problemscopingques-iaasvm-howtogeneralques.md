@@ -281,7 +281,33 @@
 		  "watermarkText": "Provide additional information about your issue",
 		  "required": true,
 		  "hints": []
-		}
+	},{
+		 "id": "Select_selfhelp",
+            "order": 13,
+            "controlType": "dropdown",
+            "displayLabel": "Have you checked the solution for your problem in the solution page?",
+            "watermarkText": "Select",
+            "dropdownOptions": 
+          [
+                {
+                    "value": "Could not find content",
+                    "text": "Could not find content"
+                },
+                {
+                    "value": "Found content but it did not answer my question",
+                    "text": "I found the content but it did not answer my question"
+                },
+                {
+                    "value": "Found content but not able to understand",
+                    "text": "Found content but not able to understand"
+                },
+                {
+                    "value": "Found content but want to interact with support",
+                    "text": "Found content but I want to interact with a support engineer"
+                }
+            ],
+            "required": true
+        }		
 	],
 "$schema": "SelfHelpContent"
 }
