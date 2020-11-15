@@ -288,7 +288,7 @@
             "displayLabel": "Have you checked the solution for your problem in the solution page?",
             "watermarkText": "Select",
             "dropdownOptions": [{
-                    "value": "Could not find content",
+                    "value": "dont_know_answer",
                     "text": "Could not find content"
                    },
                    {
