@@ -304,7 +304,7 @@
                     "text": "Found content but I want to interact with a support engineer"
                 }
             ],
-            "required": true
+            "required: true,
         }],
 "$schema": "SelfHelpContent"
 }
