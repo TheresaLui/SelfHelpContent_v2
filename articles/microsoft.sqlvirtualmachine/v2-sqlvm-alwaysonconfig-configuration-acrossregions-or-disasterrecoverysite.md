@@ -18,13 +18,12 @@
 />
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
-## **Configure Availability Group across different regions or as a Disaster Recovery Site**
  
 
 <!--issueDescription--> 
 
-Below information guides in configuring Availability Group across different regions or as a Disaster Recovery Site <br>  
-**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
+Below information guides in <b>configuring Availability Group across different regions or as a Disaster Recovery Site </b>  
+
 
 <!--/issueDescription--> 
 

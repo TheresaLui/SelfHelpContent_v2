@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-There are various ways and Steps involved in configuring Availability Groups which are listed below. <br>  
+There are various ways and Steps involved in <b>configuring Availability Groups which are listed below. </b>  
 
 
 <!--/issueDescription--> 

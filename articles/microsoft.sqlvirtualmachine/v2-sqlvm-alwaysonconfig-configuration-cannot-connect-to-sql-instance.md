@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-4 out of 5 customers are able to resolve their SQL Connectivity issues using the recommended documents below. <br>  
+4 out of 5 customers are able to resolve their <b>SQL Connectivity issues using the recommended documents below. </b>  
 
 <!--/issueDescription--> 
 

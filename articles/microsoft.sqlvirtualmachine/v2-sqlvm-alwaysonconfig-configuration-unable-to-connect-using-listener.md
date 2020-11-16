@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Below Steps can help you to troubleshoot why you are not able to connect to the Listener<br>  
+Below Steps can help you <b>to troubleshoot why you are not able to connect to the Listener</b>  
 
 
 <!--/issueDescription--> 
@@ -65,7 +65,7 @@ Below Steps can help you to troubleshoot why you are not able to connect to the 
 
  
 
- * To avoid issues with Listener Connectivity: 
+ * **To avoid issues with Listener Connectivity:** 
 
  
 
