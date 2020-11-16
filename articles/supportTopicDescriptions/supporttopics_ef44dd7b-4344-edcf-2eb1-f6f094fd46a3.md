@@ -73,7 +73,7 @@
       "id": "2547e8ff-ab92-dcb6-7f85-9b451aa5d5e5",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
-      "searchTags": "RDP;connectivity with Azure VM;Azure VM agent",
+      "searchTags": "connectivity with Azure VM;unable to connect;VM does not boot;unable to SSH;unable to RDP",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
@@ -209,7 +209,7 @@
       "id": "5a9f4892-0caf-822b-a4e0-7fb80cba9418",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy appliance for Physical assessments",
-      "searchTags": "onboarding;PhysicalAssessment",
+      "searchTags": "Install physical appliance;Setup physical appliance;Deploy physical appliance;Unable to start discovery",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4b201a2-c076-197e-c1a7-e59f1c32cf44",
+      "longDescription": "",
+      "shortDescription": "Issues related to Hyper-V replication provider",
+      "searchTags": "Hyper-V host migration",
+      "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
       "shortDescription": "Issues encountered when users hit stop replication",
@@ -418,6 +426,14 @@
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
       "searchTags": "Agentless replication;VMware VM migration;Azure Migrate appliance",
+      "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e218177a-92e4-c9a0-2273-f52ee7426379",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
     },
@@ -475,6 +491,14 @@
       "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
       "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
       "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa449d99-9897-5baf-c5d4-30df863e3c5f",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication",
+      "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
+      "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
