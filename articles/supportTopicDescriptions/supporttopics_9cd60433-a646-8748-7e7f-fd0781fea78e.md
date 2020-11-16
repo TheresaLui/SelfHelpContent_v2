@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d7c9027e-dd57-1efe-002b-64a7219efe25",
+      "longDescription": "",
+      "shortDescription": "Data is incorrect or mismatched in Workbook",
+      "searchTags": "Workbook;Data;Missing data;Data incorrect",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dbf21c3d-7888-fcbd-2593-92c4bde12ed9",
       "longDescription": "",
       "shortDescription": "Azure Sentinel provides a vast amount of data sources connectors, but the required security solution does not have one",
