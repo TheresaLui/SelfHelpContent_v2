@@ -130,32 +130,6 @@
 
   * You may see intermittent connectivity issues to SQL instance if your AG Failed over or if you are having AG [Lease Timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-ver15#updating-cluster-and-always-on-timeout-values) or if you are having issues with [SQL Performance](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices), Network issues or [Disk or VM Throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). Check SQL Error log to find out more. 
 
- 
-
- 
-
-    
-
- 
-
-## **Recommended Documents** 
-
- 
-
-* [Solving Connectivity errors to SQL Server](https://support.microsoft.com/help/4009936/solving-connectivity-errors-to-sql-server) 
-
-* [Applications experience forcibly closed TLS connection errors](https://docs.microsoft.com/troubleshoot/windows-server/identity/apps-forcibly-closed-tls-connection-errors) 
-
-* [Connect to a SQL Server Virtual Machine on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/ways-to-connect-to-sql) 
-
-* [SQL Server connectivity drivers](https://msdn.microsoft.com/library/mt654049.aspx) 
-
-* [Upgrade to TLS 1.2 for Secure Communication](https://support.microsoft.com/help/3135244/kb3135244-tls-1-2-support-for-microsoft-sql-server) 
-
- 
-
-
-   
 
 ## **Recommended Documents**
 
