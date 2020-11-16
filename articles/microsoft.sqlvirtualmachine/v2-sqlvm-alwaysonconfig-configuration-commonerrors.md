@@ -22,12 +22,11 @@
  
 <!--issueDescription--> 
 
-Below are the common errors you may encounter while <b>configuring Availability Group</b>
+Below are the common errors you may encounter while **configuring Availability Group**
 
 <!--/issueDescription--> 
 
  
-
 ## **Recommended Steps** 
 
 

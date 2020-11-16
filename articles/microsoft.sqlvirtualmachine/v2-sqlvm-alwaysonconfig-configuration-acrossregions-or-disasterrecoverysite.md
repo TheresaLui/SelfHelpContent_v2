@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Below information guides in <b>configuring Availability Group across different regions or as a Disaster Recovery Site </b>  
+Below information guides in **configuring Availability Group across different regions or as a Disaster Recovery Site** 
 
 
 <!--/issueDescription--> 

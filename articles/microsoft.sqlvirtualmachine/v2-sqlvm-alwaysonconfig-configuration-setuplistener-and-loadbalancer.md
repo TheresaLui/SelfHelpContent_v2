@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Below Steps can help you <b> setup your Listener and Load Balancer for Availability Groups </b>  
+Below Steps can help you  **setup your Listener and Load Balancer for Availability Groups**
 
 
 <!--/issueDescription--> 

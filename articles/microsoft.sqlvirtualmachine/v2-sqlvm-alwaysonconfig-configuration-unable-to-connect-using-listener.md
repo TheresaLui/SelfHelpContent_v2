@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Below Steps can help you <b>to troubleshoot why you are not able to connect to the Listener</b>  
+Below Steps can help you **to troubleshoot why you are not able to connect to the Listener** 
 
 
 <!--/issueDescription--> 
