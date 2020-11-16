@@ -20,6 +20,11 @@
     "subscriptionRequired": true,
     "title": "Azure Data Movement copy issue info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service and screen shots to help us triage your problem faster",
+    "diagnosticCard": {
+        "title": "Azure Copy Activity Troubleshooter",
+        "description": "Our Copy Activity RunId Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect the issues we were looking for in your resource. Refer to the help manual below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_description",
@@ -63,6 +68,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
+            "diagnosticInputRequiredClients": "Portal",
             "required": true
         },
         {
