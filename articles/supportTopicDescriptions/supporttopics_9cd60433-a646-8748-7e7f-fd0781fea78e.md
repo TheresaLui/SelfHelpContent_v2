@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
+      "longDescription": "",
+      "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
+      "searchTags": "Log Analytics;Workspace ;Workbook",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb2bf9a3-ea02-c6ed-b390-f85d53168947",
       "longDescription": "",
       "shortDescription": "Errors when configuring Workbooks",
