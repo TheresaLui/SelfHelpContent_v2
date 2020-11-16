@@ -140,7 +140,7 @@
         },
         {
             "id": "issue_type",
-            "order": 2,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your Cannot connect to SQL Instance issue.",
             "watermarkText": "Common Cannot connect to SQL Instance categories",
