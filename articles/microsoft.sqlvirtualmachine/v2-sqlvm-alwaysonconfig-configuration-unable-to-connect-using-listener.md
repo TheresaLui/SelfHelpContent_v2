@@ -49,9 +49,9 @@ Below Steps can help you to troubleshoot why you are not able to connect to the 
 
      * **Cluster Network Name:** In Failover Cluster Manager > Networks, right-click the network and select Properties. The correct value is under Name on the General tab. 
 
-      * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select Properties. The correct value is under Name on the General tab.  
+     * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select Properties. The correct value is under Name on the General tab.  
 
-      * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the &lt;SQL Server FCI/AG listener IP Address Resource Name&gt;. 
+     * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the &lt;SQL Server FCI/AG listener IP Address Resource Name&gt;. 
 
      * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid. 
 
@@ -69,9 +69,7 @@ Below Steps can help you to troubleshoot why you are not able to connect to the 
 
  
 
-   *  Make sure SQL Instance Port(example 1433), Mirroring Endpoint(example 5022), Probe Port(example 59999) are open in NSG or Firewall. You can [Telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the Port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check 
-
-  are not blocked at **NSG or Windows Firewall**.  
+   *  Make sure SQL Instance Port(example 1433), Mirroring Endpoint(example 5022), Probe Port(example 59999) are open in NSG or Firewall. You can [Telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the Port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check connections are not blocked at **NSG or Windows Firewall**.  
 
  
 
