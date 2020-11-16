@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "09fd360e-8e83-ed0a-c9e6-98eb25ca2d31",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "Other;Notlisted",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "After following the connector configuration steps (as displayed in the connector page), Sentinel does not show the relevant data",
