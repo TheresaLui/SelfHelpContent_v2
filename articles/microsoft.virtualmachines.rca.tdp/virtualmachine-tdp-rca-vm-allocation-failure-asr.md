@@ -7,7 +7,7 @@
 	authors="summertgu"
 	ms.author="tiag"
 	displayOrder=""
-	articleId="allocationfailure-rca-create-asr"
+	articleId="AllocationFailure_RCA-create-asr"
 	diagnosticScenario="AllocationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
