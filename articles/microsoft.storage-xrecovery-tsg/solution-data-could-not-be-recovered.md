@@ -26,7 +26,9 @@
 <br>
 **Important**<br>
 <br>
-Must mail (xsupportpm@microsoft.com) with detailed business justification and CC (cssstorageta@microsoft.com) and all details of the IcM so we can track such customer requests.<br>
+Must mail (cssstorageta@microsoft.com) with detailed business justification and CC (xsupportpm@microsoft.com) and all details of the IcM so we can track such customer requests.<br>
+
+
 
 <!--/issueDescription-->
 
