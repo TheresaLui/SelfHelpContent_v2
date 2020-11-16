@@ -24,7 +24,7 @@ Standard amendments to the Microsoft Customer agreement for download.
  
 ## **Recommended Steps**
 
-Microsoft Customer Agreement Amendments were previously available on the pricing and offers page. Below are the FSI Amendment and other standard Amendments to the Microsoft Customer Agreement. These amendments do not require prior Microsoft approval to be presented to customers. Only Direct Bill Partners and Indirect Providers can download these files. Indirect resellers should consult with their Indirect Providers to get these files.
+Microsoft Customer Agreement Amendments were previously available on the pricing and offers page. See the FSI Amendment and other standard Amendments to the Microsoft Customer Agreement in the following links. These amendments do not require prior Microsoft approval to be presented to customers. Only Direct Bill Partners and Indirect Providers can download these files. Indirect resellers should consult with their Indirect Providers to get these files.
 
 ## **Recommended Documents**
 
@@ -36,5 +36,6 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 * [Data Protection Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4F3DV)
 * [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
 * [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
+* [Professional Secrecy Amendment for Switzerland - multiple languages](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Iwvg)
 * [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
 
