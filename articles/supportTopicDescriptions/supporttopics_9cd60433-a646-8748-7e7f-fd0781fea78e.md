@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb2bf9a3-ea02-c6ed-b390-f85d53168947",
+      "longDescription": "",
+      "shortDescription": "Errors when configuring Workbooks",
+      "searchTags": "Workbooks;Errors;Configuration",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "After following the connector configuration steps (as displayed in the connector page), Sentinel does not show the relevant data",
