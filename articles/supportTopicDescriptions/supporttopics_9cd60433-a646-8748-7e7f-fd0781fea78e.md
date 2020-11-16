@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20427bf2-9902-7a67-2eaf-b6f0a19bc968",
+      "longDescription": "",
+      "shortDescription": "Topics related to Workbook and data management",
+      "searchTags": "Workbook;Data Management",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
