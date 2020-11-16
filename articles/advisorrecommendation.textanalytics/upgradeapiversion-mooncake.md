@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Upgrade to the latest API version."
+    pageTitle="Upgrade to the latest Cognitive Service Text Analytics API version."
     description="Please upgrade to the latest API version for better availability and performance."
     authors="tadevteam"
     ms.author="tadevteam"
@@ -8,7 +8,7 @@
     cloudEnvironments="Mooncake"
 	ownershipId="CogSvc_TextAnalytics"
 />
-# Upgrade to the latest API version
+# Upgrade to the latest Cognitive Service Text Analytics API version
 ---
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
@@ -38,13 +38,13 @@
    ],
    "version":1.0,
    "learnMoreLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
-   "description":"Upgrade to the latest API version",
-   "longDescription":"Please upgrade to the latest API version for better availability and performance",
+   "description":"Upgrade to the latest Cognitive Service Text Analytics API version",
+   "longDescription":"Please upgrade to the latest API version to get the best results in terms of model quality, performance and service availability. Also there are new features are available as new endpoints starting from V3.0 such as PII recognition, Entity recognition and entity linking available as separate endpoints. In terms of changes in preview endpoints we have Opinion Mining in SA endpoint, redacted text property in PII endpoint",
    "potentialBenefits":"Better service availability and performance",
    "actions":[
       {
          "actionId":"acecf319-2d72-4fe1-a1bc-30795249b42b",
-         "description":"Upgrade to latest API version",
+         "description":"Upgrade to the latest Cognitive Service Text Analytics API version",
          "actionType":"Document",
          "extensionName":"",
          "bladeName":"",
@@ -64,7 +64,7 @@
          "documentLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api"
       }
    },
-   "displayLabel":"Upgrade to the latest API version",
+   "displayLabel":"Upgrade to the latest Cognitive Service Text Analytics API version",
    "additionalColumns":[
    ],
    "tip":"",

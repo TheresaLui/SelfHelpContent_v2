@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Upgrade to the latest SDK version."
+    pageTitle="Upgrade to the latest Cognitive Service Text Analytics SDK version."
     description="Please upgrade to the latest SDK version for better availability and performance."
     authors="tadevteam"
     ms.author="tadevteam"
@@ -8,7 +8,7 @@
     cloudEnvironments="Fairfax"
 	ownershipId="CogSvc_TextAnalytics"
 />
-# Upgrade to the latest SDK version
+# Upgrade to the latest Cognitive Service Text Analytics SDK version
 ---
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
@@ -38,7 +38,7 @@
    ],
    "version":1,
    "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
-   "description":"Upgrade to the latest SDK version",
+   "description":"Upgrade to the latest Cognitive Service Text Analytics SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",
    "potentialBenefits":"Better service availability and performance",
    "supportedSDKLanguages":[
@@ -47,7 +47,7 @@
    "actions":[
       {
          "actionId":"be62660a-d6a5-49c0-a547-7096422e4910",
-         "description":"Steps to upgrade to the latest SDK version",
+         "description":"Steps to upgrade to the latest Cognitive Service Text Analytics SDK version",
          "actionType":"Document",
          "documentLink":"{recommendedActionLearnMore}"
       },
