@@ -18,10 +18,10 @@
 # Check Transit Routing
 
 By default, a Point to Site client will only be able to access the address space of:
-* The Vnet it is connected to
-* Vnets that have a vnet peering connection to the vnet with the Azure VPN Gateway
-* Other local/virtual networks that are connected to the vnet with the Azure VPN Gateway via a site to site connection
-* Further local/virtual networks that are connected to the vnet with the Azure VPN Gateway via a sequence of chained connections that use BGP
+* The Virtual Network it is connected to
+* Virtual Networks that have a VNet Peering connection to the Virtual Network with the Azure VPN Gateway
+* Other local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a site to site connection
+* Further local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a sequence of chained connections that use BGP
 
 Connectivity to other networks via a routing hop through the Azure VPN Gateway is called **Transit Routing**.
 
