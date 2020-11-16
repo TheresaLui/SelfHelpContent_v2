@@ -23,7 +23,7 @@
 <!--issueDescription--> 
 
 Below Steps can help you setup your Listener and Load Balancer for Availability Groups <br>  
-**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
+
 
 <!--/issueDescription--> 
 

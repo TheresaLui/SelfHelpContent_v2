@@ -23,7 +23,7 @@
 <!--issueDescription--> 
 
 Below Steps can help you to troubleshoot why you are not able to connect to the Listener<br>  
-**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode--> 
+
 
 <!--/issueDescription--> 
 

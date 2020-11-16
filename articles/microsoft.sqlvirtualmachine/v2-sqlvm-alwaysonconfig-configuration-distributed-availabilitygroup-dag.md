@@ -23,7 +23,7 @@
 <!--issueDescription--> 
 
 There are various ways and Steps involved in configuring Distributed Availability Groups which are listed below.<br>  
-**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
+
 
 <!--/issueDescription--> 
 

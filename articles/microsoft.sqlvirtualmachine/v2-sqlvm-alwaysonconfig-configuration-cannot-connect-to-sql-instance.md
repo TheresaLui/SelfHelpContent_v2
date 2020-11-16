@@ -19,11 +19,10 @@
 
 # We ran diagnostics on your resource and found the below steps which can help you.
 
-## **Cannot Connect to SQL Instance **
- 
+
 <!--issueDescription--> 
 
-4 out of 5 customers are able to resolve their SQL Connectivity issues using the recommended documents below. 
+4 out of 5 customers are able to resolve their SQL Connectivity issues using the recommended documents below. <br>  
 
 <!--/issueDescription--> 
 
@@ -52,27 +51,16 @@
     ```PS 
 
       $SQLService="SQL Server (MSSQLSERVER)" 
-
       $SQLAgentService="SQL Server Agent (MSSQLSERVER)" 
-
       $tempfolder="D:\tempDB\Data" 
-
       $logfolder="D:\tempDB\Log" 
-
       if (!(test-path -path $tempfolder)) 
-
        {     
-
        New-Item -ItemType directory -Path $logfolder   
-
        New-Item -ItemType directory -Path $tempfolder 
-
        } 
-
        Start-Service $SQLService  
-
        Start-Service $SQLAgentService 
-
       ```` 
 
  
@@ -112,27 +100,16 @@
      To gain access to SQL Server, run the below command in command prompt with Administrator Privilege's. Replace Domain\login with your domain and user that you want: 
 
      ```SQL     
-
       NET STOP MSSQLSERVER 
-
       NET START MSSQLSERVER /m"SQLCMD" 
-
       sqlcmd -S MY_SERVER_NAME 
-
       CREATE LOGIN [Domain\login] FROM WINDOWS;  
-
       GO 
-
       ALTER SERVER ROLE sysadmin ADD MEMBER [Domain\login]; 
-
       Go 
-
       Exit 
-
       NET STOP MSSQLSERVER 
-
       NET start MSSQLSERVER 
-
      ``` 
 
  
