@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   description="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   authors="elixirsys2"
-  ms.author="esagmon, yaronsahar"
+  ms.author="esagmon, yaronsahar, kawilson"
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -21,6 +21,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "09fd360e-8e83-ed0a-c9e6-98eb25ca2d31",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "Other;Notlisted",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
