@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
+      "longDescription": "",
+      "shortDescription": "How to connect and configure data sources",
+      "searchTags": "Connector;Configure",
+      "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb2bf9a3-ea02-c6ed-b390-f85d53168947",
       "longDescription": "",
       "shortDescription": "Errors when configuring Workbooks",
