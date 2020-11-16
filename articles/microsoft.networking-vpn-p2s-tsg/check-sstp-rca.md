@@ -17,7 +17,7 @@
 
 # Check if the customer was using SSTP protocol at the time of the issue
 
-## Recommended Steps
+## Recommended Steps  
 
 1. Go to ASC > Resource Explorer and select the VPN gateway
 2. Check the **VPN Tunneling Protocols** property
