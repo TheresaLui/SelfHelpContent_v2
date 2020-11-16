@@ -77,9 +77,9 @@ Below Steps can help you setup your Listener and Load Balancer for Availability 
 
      * **Cluster Network Name:** In Failover Cluster Manager > Networks, right-click the network and select Properties. The correct value is under Name on the General tab. 
 
-      * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select Properties. The correct value is under Name on the General tab.  
+     * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select Properties. The correct value is under Name on the General tab.  
 
-      * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the &lt;SQL Server FCI/AG listener IP Address Resource Name&gt;. 
+     * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the &lt;SQL Server FCI/AG listener IP Address Resource Name&gt;. 
 
      * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid. 
 
