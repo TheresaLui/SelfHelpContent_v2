@@ -44,7 +44,7 @@
    "actions":[
       {
          "actionId":"c2094085-2f18-4a36-8eb0-6f23e6daa924",
-         "description":Upgrade to the latest Cognitive Service Text Analytics API version",
+         "description":"Upgrade to the latest Cognitive Service Text Analytics API version",
          "actionType":"Document",
          "extensionName":"",
          "bladeName":"",

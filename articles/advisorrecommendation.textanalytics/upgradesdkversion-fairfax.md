@@ -6,7 +6,7 @@
     articleId="a52b32da-51bd-4665-9057-832e02ce396f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="CogSvc_TextAnalytics"
+	 ownershipId="CogSvc_TextAnalytics"
 />
 # Upgrade to the latest Cognitive Service Text Analytics SDK version
 ---

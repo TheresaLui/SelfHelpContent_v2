@@ -8,7 +8,7 @@
     cloudEnvironments="Mooncake"
 	ownershipId="CogSvc_TextAnalytics"
 />
-# Upgrade to the latest SDK version
+# Upgrade to the latest Cognitive Service Text Analytics SDK version
 ---
 {
    "recommendationOfferingId":"b31f90f9-53d3-445e-8546-5654f84ce606",
