@@ -88,8 +88,8 @@
     {
       "id": "dbf21c3d-7888-fcbd-2593-92c4bde12ed9",
       "longDescription": "",
-      "shortDescription": "Azure Sentinel provides a vast amount of data sources connectors, but the required security solution does not have one",
-      "searchTags": "Connectors;data collection;connector unavailable ",
+      "shortDescription": "How to connect and configure data sources",
+      "searchTags": "Connectors;data collection;connector unavailable",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
