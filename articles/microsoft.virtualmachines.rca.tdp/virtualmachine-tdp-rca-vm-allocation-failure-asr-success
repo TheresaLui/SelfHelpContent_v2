@@ -23,9 +23,9 @@ Allocation Success Recommender predicts the chance of success for your desired a
 <!--issueDescription-->
 Good News! You should see successful deployments for your desired deployment allocation with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>
 
-**<!--$SkuRegRec-->No alternate region or size recommendations<!--/$SkuRegRec-->**<br>
+Below are few alternate options we found for your reference.<br>
 
-Here are few alternate options we found for your reference.<br>
+**<!--$SkuRegRec-->No alternate region or size recommendations<!--/$SkuRegRec-->**<br>
 
 <!--/issueDescription-->
 
