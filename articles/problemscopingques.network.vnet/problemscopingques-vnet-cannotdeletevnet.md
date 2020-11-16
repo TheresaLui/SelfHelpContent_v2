@@ -2,9 +2,9 @@
 	pageTitle="Cannot delete a Virtual Network"
 	description="Cannot delete a Virtual Network"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584253"
+	supportTopicIds="32781376,32781379,32781381,32781382"
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -16,10 +16,12 @@
 
 ---
 {
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Cannot delete a Virtual Network",
     "fileAttachmentHint": "",
-    "formElements": [
+        "formElements": [
         {
             "id": "cannot_connect_vm",
             "order": 1,
@@ -31,14 +33,12 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
+                "textPropertyRegex": "[^/]+$",
+		        "defaultdropdownOptions": {
                     "value": "Unable to get the list of Virtual Networks",
                     "text": "Unable to get the list of Virtual Networks"
                 }
-            ],
+            },
             "required": false
         },
         {
@@ -56,7 +56,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
