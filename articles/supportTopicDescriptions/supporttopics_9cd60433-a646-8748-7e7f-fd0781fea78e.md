@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0a67af7a-d065-60cf-cc6b-fb6c801efb66",
+      "longDescription": "",
+      "shortDescription": "How to add fields to Workbooks",
+      "searchTags": "Fields;Workbooks",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "After following the connector configuration steps (as displayed in the connector page), Sentinel does not show the relevant data",
