@@ -35,11 +35,11 @@ Select a tab for a compliance standard that is relevant to you. You will see the
 
 **Note**: Customizations within the Regulatory Compliance blade are not supported. Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. It is not possible to modify the value of certain CCEID to match a company's standard.
 
-### Can I remove any of the "built-in standards" that appear by default in the dashboard? I only want to track the additional standards that I onboarded.
+### Can I remove any of the "built-in standards" that appear by default in the dashboard? I only want to track the additional standards that I onboarded
 
-Today, you cannot remove any of the "built-in standards" - they are static and always appear there. You can only add or remove the additional supported standards, or custom initiative policies. This is being addressed, and removal of built-in standards will be supported at a future date.
+Currently, you cannot remove any of the built-in standards. They are static and always appear there. You can only add or remove the additional supported standards, or custom initiative policies. This is being addressed, and removal of built-in standards will be supported at a future date.
 
-### I made the suggested changes based on the recommendation, yet it is not being reflected in the dashboard.
+### I made the suggested changes based on the recommendation, yet it is not being reflected in the dashboard
 
 After you take action to resolve recommendations, wait 12 hours to see the impact on your compliance data. Assessments are run approximately every 12 hours, so you will see the impact on your compliance data only after the assessments run.
 
@@ -51,7 +51,7 @@ To use the Regulatory Compliance, Azure Security Center must be on standard pric
 1. Use a different browser
 1. Try to load it from different network location
 
-The compliance dashboard surfaces security assessments and recommendations as they align to specific compliance requirements. If a recommendation result is not accurate, refer to the recommendation section for further analysis.
+The compliance dashboard displays security assessments and recommendations as they align to specific compliance requirements. If a recommendation result is not accurate, refer to the recommendation section for further analysis.
 
 ## **Recommended Documents**
 
