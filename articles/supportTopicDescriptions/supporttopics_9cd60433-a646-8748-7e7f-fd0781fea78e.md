@@ -64,8 +64,8 @@
     {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
-      "shortDescription": "After following the connector configuration steps (as displayed in the connector page), Sentinel does not show the relevant data",
-      "searchTags": "Connector troubleshooting;data collection ",
+      "shortDescription": "Data not presenting in Sentinel Workspaces",
+      "searchTags": "Connector troubleshooting;data collection",
       "category": "Connectivity, troubleshooting",
       "useInDiagnoseAndSolve": "true"
     },
