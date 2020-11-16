@@ -6,7 +6,7 @@
     articleId="567187Ba-1bdd-4dd8-ab70-6d494190df58_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -53,11 +53,11 @@
       "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
       "description": "Resize the Cluster",
       "actionType": "ContextBlade",
-	  "extensionName": "Microsoft_Azure_Kusto",
+      "extensionName": "Microsoft_Azure_Kusto",
       "bladeName": "SkuRecommendationBlade",
       "metadata": {
         "resource": "{resourceId}",
-		"skuRecommendation": "{Region}",
+        "skuRecommendation": "{Region}",
         "description": "{description}"
       }
     }
@@ -79,15 +79,15 @@
       "name": "currentConfig",
       "title": "Current Configuration"
     },
-	{
+    {
       "name": "recommendedConfig",
       "title": "Recommended Configuration"
     },
-	{
+    {
       "name": "observationStartTime",
       "title": "Observation Start Time"
     },
-	{
+    {
       "name": "observationEndTime",
       "title": "Observation End Time"
     }

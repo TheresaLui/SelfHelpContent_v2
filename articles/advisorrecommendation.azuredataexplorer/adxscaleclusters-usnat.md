@@ -48,11 +48,11 @@
       "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
       "description": "Resize the Cluster",
       "actionType": "ContextBlade",
-	  "extensionName": "Microsoft_Azure_Kusto",
+      "extensionName": "Microsoft_Azure_Kusto",
       "bladeName": "SkuRecommendationBlade",
       "metadata": {
         "resource": "{resourceId}",
-		"skuRecommendation": "{Region}",
+        "skuRecommendation": "{Region}",
         "description": "{description}"
       }
     }
