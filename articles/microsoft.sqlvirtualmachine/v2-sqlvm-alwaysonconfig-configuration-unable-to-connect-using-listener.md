@@ -115,8 +115,5 @@ Below Steps can help you **to troubleshoot why you are not able to connect to th
 
 ## **Recommended Documents** 
 
- 
-
 * [Configure Load Balancer and Listener Correctly](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) 
-
 * [Configure load balancer for AG VNN listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-vnn-azure-load-balancer-configure) 

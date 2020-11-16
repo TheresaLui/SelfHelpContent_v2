@@ -31,42 +31,16 @@ Below are the common errors you may encounter while **configuring Availability G
 
 
 * **Steps to Follow to Avoid any Errors when Configuring Availability Groups and Listener** 
-
- 
-
   - If you cannot **Join the database to existing AG** then [Please review](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987) 
-
- 
-
   - Make sure **Port** 1433 (SQL Port), 5022(Endpoint Port) and 59999(Load balancer Probe Port) is not blocked at NSG or Windows Firewall on all replicas. Try to create Inbound/Outbound rules accordingly. 
-
-  
-
    - Ensure that the **[NT AUTHORITY\SYSTEM]** account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all replicas participating in Availability Group for Health Detection and for failing over your AG to another replica. 
-
- 
-
   - If the **Create listener** fails with Message 19471 '**The WSFC cluster could not bring the Network Name resource online**' please review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online). 
 
- 
-
- 
 
  * **Unable to connect to AG listener from anywhere except the Primary replica node** 
- 
-
-      - Please ensure that a load balancer rule corresponding to the AG listener is [Configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Please ensure that **Floating IP** (direct server return) is enabled for the load balancer.<br> 
-
- 
-
- 
-
+       - Please ensure that a load balancer rule corresponding to the AG listener is [Configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Please ensure that **Floating IP** (direct server return) is enabled for the load balancer.<br> 
      - Figure out the **Variables** using the below chart and ensure that you have [Run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener) 
-
-          
-
-       
-
+ 
         * **Cluster Network Name:** In Failover Cluster Manager > Networks, right-click the network and select Properties. The correct value is under Name on the General tab. 
 
         * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select Properties. The correct value is under Name on the General tab.  
@@ -77,13 +51,6 @@ Below are the common errors you may encounter while **configuring Availability G
 
          **NOTE**: After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
- 
-
- 
-
- 
-
- 
 
 ## **Recommended Documents** 
 * [Monitor and troubleshoot availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15) 
