@@ -33,7 +33,6 @@
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_run_id",

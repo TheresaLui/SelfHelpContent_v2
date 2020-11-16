@@ -99,7 +99,7 @@
             "order": 7,
 			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain the ReportID)",
             "required": true
         },
         {
