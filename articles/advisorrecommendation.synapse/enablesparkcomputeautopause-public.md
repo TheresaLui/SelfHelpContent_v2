@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Synapse/workspaces",
-  "recommendationFriendlyName": "EnableAutoPauseGuidance",
+  "recommendationFriendlyName": "EnableSynapseSparkComputeAutoPauseGuidance",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "a365rp@microsoft.com",
@@ -36,7 +36,7 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.models.autopauseproperties?view=azure-dotnet-preview",
   "description": "Consider enabling autopause feature on spark compute.",
   "longDescription": "Auto-pause releases and shuts down unused compute resources after a set idle period of inactivity",
