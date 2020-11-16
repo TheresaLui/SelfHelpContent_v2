@@ -22,21 +22,21 @@
 We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins. 
 <!--/issueDescription-->
 
-The issue you are experiencing could also be a network-related problem at your end.
+The issue you are experiencing could also be a network-related problem on your end.
 
 ## **Recommended Steps**
 
-* Try connecting to the database using a different machine to help eliminate the possibility of it being a machine-specific issue
-* Connect to the database from a different network to resolve if this is network-related
+* Try connecting to the database using a different machine to help eliminate the possibility of a machine-specific issue
+* Connect to the database from a different network to determine if this is network-related
 * Try connecting to the database from a different client
-* Contact your network adminstrator to further investigate the issue at your end
+* Contact your network administrator to further investigate the issue on your end
 
 Running the **Azure SQL Connectivity Checker tool** may help to narrow down the potential causes of failure.
 
 This PowerShell script is run from the client machine where the error is occurring.
 
 <ol>
-<li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li><br>
+<li> Open Windows PowerShell ISE in Administrator mode. For the better results, we recommend using advanced connectivity tests that require starting PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Note that script parameters `RunAdvancedConnectivityPolicyTests` and `CollectNetworkTrace` will only work if the admin privileges are granted.</li><br>
 
 <li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
@@ -60,10 +60,11 @@ This PowerShell script is run from the client machine where the error is occurri
       Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
       #end
   ```
+
 </li><br>
-<li> Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.</li><br>
+<li> Set the parameters on the script. You must set the server name. Database name, user, and password are optional, but best practices.</li><br>
 <li> Run it<br>
- The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. </li><br>
+You can see the results in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. </li><br>
 <li> Check if the tool outputted any recommended action based on test results.</li><br>
 </ol>
 
