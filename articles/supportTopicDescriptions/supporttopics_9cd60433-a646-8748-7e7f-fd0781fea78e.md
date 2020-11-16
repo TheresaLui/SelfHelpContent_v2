@@ -96,7 +96,7 @@
     {
       "id": "de98062c-87ba-b275-ab27-fa8c4b290aae",
       "longDescription": "",
-      "shortDescription": "Connectors are used to connect, collect and send data from security solutions to Sentinel",
+      "shortDescription": "Topics related to connecting, collecting and sending data from security solutions to Sentinel",
       "searchTags": "Connector;Data collection",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
