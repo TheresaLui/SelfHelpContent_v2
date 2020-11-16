@@ -49,7 +49,6 @@
      If you restarted your VM or Resized your VM, SQL May not start because of Tempdb Files/Folders missing on the D Drive. We are working on a fix for this. Please run the below script to Resolve this which creates the TempDB structure: 
 
     ```PS 
-
       $SQLService="SQL Server (MSSQLSERVER)" 
       $SQLAgentService="SQL Server Agent (MSSQLSERVER)" 
       $tempfolder="D:\tempDB\Data" 
@@ -72,15 +71,10 @@
      Uninstall and [Reinstalling Resource Provider](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=bash%2Cazure-cli#lightweight-management-mode) can fix the issue. Installing of Fullweight Management Mode for Resource provider requires a SQL Service Restart. Make sure you have this as a login in your SQL Server or run: 
 
      ```SQL 
-
       CREATE LOGIN [NT Service\SQLIaaSExtensionQuery] FROM WINDOWS WITH DEFAULT_DATABASE=[master] 
-
       GO 
-
       ALTER SERVER ROLE [sysadmin] ADD MEMBER [NT Service\SQLIaaSExtensionQuery] 
-
       GO 
-
       ``` 
 
  
