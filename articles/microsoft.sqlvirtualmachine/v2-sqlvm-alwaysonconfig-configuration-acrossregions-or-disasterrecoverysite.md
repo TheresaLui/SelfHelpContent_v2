@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Below information guides in **configuring Availability Group across different regions or as a Disaster Recovery Site** 
+Most users can resolve issues **configuring Availability Group across different regions or as a Disaster Recovery Site** by using the following information.
 
 
 <!--/issueDescription--> 
@@ -30,15 +30,13 @@ Below information guides in **configuring Availability Group across different re
 
 ## **Recommended Steps** 
 
- 
-
 * **Configure Availability Group across different regions or as a Disaster Recovery Site** 
-   You already have or are planning to create an Availability Group between two Nodes. You are planning to setup the Third node on Azure to extend your On-Premise or your Azure AG Environment. Please follow [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to setup the Disaster Recovery Site. 
+You already have or are planning to create an Availability Group between two nodes. You're planning to set up the third node on Azure to extend your on-premises environment or your Azure AG environment. See [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to set up the Disaster Recovery Site. 
  
 
-* **Things to Keep in Mind when Configuring Multi Region Always On Availability Groups** 
+* **Things to Keep in Mind when Configuring Multi-Region, Always On Availability Groups** 
  
-  - If your Availability Group spans across Azure and On-Premise (Hybrid Environment), you will still need a load balancer. If you are using SQL 2019 CU8+ on Windows 2016, you can [use DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of load balancer 
+  - If your Availability Group spans across Azure and on-premises (a hybrid environment), you will still need a load balancer. If you are using SQL 2019 CU8+ on Windows 2016, you can [use DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer/ 
 
    - Update the client connection strings to set **MultiSubnetFailover=Yes** for [Fast failovers and avoiding Application Timeouts](https://docs.microsoft.com/sql/relational-databases/native-client/features/sql-server-native-client-support-for-high-availability-disaster-recovery?view=sql-server-ver15#connecting-with-multisubnetfailover) 
  
