@@ -14,10 +14,11 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-
 # We ran diagnostics on your resource and found an issue
+
+## **Connections denied due to an invalid AAD token**
 
 <!--issueDescription-->
 Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, connections to server <!--$ServerName-->ServerName<!--/$ServerName--> and database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> were denied due to an invalid AAD token. Token expiry is the most common cause for token to become invalid. By default, the connection token is valid for one hour. Please ensure to use a valid token to connect to your database successfully. This issue may also occur if any of the registered claims in the identity(ID) token is invalid. Please review the documents below for more information.

@@ -21,13 +21,13 @@
     "title": "Cannot connect to virtual machine using RDP or SSH",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Host-to-Guest Port Scanning",
+        "title": "Check if the VM port responds to network requests",
         "description": "Our VM Port Scanner can help you troubleshoot and solve your problem. Please ensure your VM is on, or the tool won't detect the issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
-            "id": "cannot_connect_vm",
+            "id": "VmName",
             "order": 1,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -54,7 +54,7 @@
             "required": true
         },
         {
-            "id": "port_number",
+            "id": "SelectedPorts",
             "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
@@ -77,10 +77,11 @@
             "required": true
         },
           {
-            "id": "other_port_number",
+            "id": "DestinationPorts",
             "order": 3,
-            "visibility": "port_number == dont_know_answer",
+            "visibility": "SelectedPorts == dont_know_answer",
             "controlType": "textbox",
+	    "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
             "required": true

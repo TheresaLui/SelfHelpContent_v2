@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Login failed - User missing or orphaned user"
-	description="Login failed because the provided login does not have a corresponding user inside the database"
+	pageTitle="Login failed, the database requested by user could not be found"
+	description="Login failed because the database requested by user could not be found"
 	infoBubbleText="We ran diagnostics on your resource and found that login failed because the provided login does not have a corresponding user inside the database"
 	service="microsoft.sql"
 	resource="servers"
@@ -14,21 +14,21 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB_Availability"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Login failed - User missing or orphaned user
+# We ran diagnostics on your resource and found an issue
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the database requested by user could not be found**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
+<br>
+
+The error indicates that the database requested by user could not be found. The error can also indicated that the corresponding user does not exist inside the database, or the database user is orphaned due to a SID mapping mismatch between the user and the login in master.
+<br>
+
 <!--$FailedLogins18456State38--> FailedLogins18456State38 <!--/$FailedLogins18456State38-->
 <!--/issueDescription-->
-
-<br>
-
-The error returned indicated that the corresponding user does not exist inside the database, or the database user is orphaned due to a SID mapping mismatch between the user and the login in master.
-<br>
 
 ## **Recommended Steps**
 
