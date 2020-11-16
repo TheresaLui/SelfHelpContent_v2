@@ -105,9 +105,7 @@ Below Steps can help you setup your Listener and Load Balancer for Availability 
 
  
 
-   *  Make sure SQL Instance Port (example 1433), Mirroring Endpoint (example 5022), Probe Port (example 59999) are open in [NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal#create-an-inbound-security-rule) and [Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule). You can [Telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the Port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check 
-
-  are not blocked at **NSG or Windows Firewall**.  
+   *  Make sure SQL Instance Port (example 1433), Mirroring Endpoint (example 5022), Probe Port (example 59999) are open in [NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal#create-an-inbound-security-rule) and [Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule). You can [Telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the Port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check connections are not blocked at **NSG or Windows Firewall**.  
 
  
 
