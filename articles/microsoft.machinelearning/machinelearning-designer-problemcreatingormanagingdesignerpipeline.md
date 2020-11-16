@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My issue is not listed here"
-	description="My issue is not listed here"
+	pageTitle="Problem creating or managing designer pipeline"
+	description="Problem creating or managing designer pipeline"
 	infoBubbleText="Problem creating or managing designer pipeline"
 	service="microsoft.machinelearning"
 	resource="designer"
@@ -26,3 +26,5 @@
 ## **Recommended Documents**
 
 * [Manage access to an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
+* [Retrain models using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-retrain-designer)
+* [Run batch predictions using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer)

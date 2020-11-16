@@ -31,5 +31,5 @@ Most users are able to resolve this issue using the steps below.
 
 ## **Recommended Documents**
 
-* [What is Azure Machine Learning designer (preview)?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
+* [What is Azure Machine Learning designer?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
 * [Debug and troubleshoot machine learning pipelines](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines)

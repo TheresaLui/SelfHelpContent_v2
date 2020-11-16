@@ -26,6 +26,6 @@ Most users are able to resolve this issue using the steps below.
 
 ## **Recommended Documents**
 
-* [What is Azure Machine Learning designer (preview)?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
-* [Retrain models with Azure Machine Learning designer (preview)](https://docs.microsoft.com/azure/machine-learning/how-to-retrain-designer)
-* [Run batch predictions using Azure Machine Learning designer (preview)](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer)
+* [What is Azure Machine Learning designer?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
+* [Retrain models using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-retrain-designer)
+* [Run batch predictions using pipeline parameter in the designer](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer)

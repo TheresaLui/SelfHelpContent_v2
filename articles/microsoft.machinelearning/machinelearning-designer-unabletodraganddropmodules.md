@@ -25,5 +25,5 @@ Most users are able to resolve this issue using the steps below.
 
 ## **Recommended Documents**
 
-* [What is Azure Machine Learning designer (preview)?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
-* [Tutorial: Predict automobile price with the designer (preview)](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score)
+* [What is Azure Machine Learning designer?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
+* [Tutorial: Predict automobile price with the designer](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score)
