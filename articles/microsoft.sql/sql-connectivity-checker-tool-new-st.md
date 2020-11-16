@@ -27,7 +27,7 @@ Running the **Azure SQL Connectivity Checker tool** may help to narrow down the 
 This PowerShell script is run from the client machine where the error is occurring.
 
 <ol>
-<li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li><br>
+<li> Open Windows PowerShell ISE in Administrator mode. For better results, we recommend using the advanced connectivity tests that require starting PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Note that script parameters `RunAdvancedConnectivityPolicyTests` and `CollectNetworkTrace` will only work if the admin privileges are granted.</li><br>
 
 <li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
@@ -52,10 +52,10 @@ This PowerShell script is run from the client machine where the error is occurri
       #end
   ```
 </li><br>
-<li> Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.</li><br>
+<li> Set the parameters on the script, you need to set server name. Database name, user and password are optional, but are best practices.</li><br>
 <li> Run it<br>
- The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. </li><br>
+You can see the results in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. </li><br>
 <li> Check if the tool outputted any recommended action based on test results.</li><br>
 </ol>
 
-More details can be found at https://github.com/Azure/SQL-Connectivity-Checker.
+[Learn more](https://github.com/Azure/SQL-Connectivity-Checker).
