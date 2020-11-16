@@ -24,9 +24,9 @@ Resources providing knowledge on Program requirements
 
 ## **Recommended Steps**
 
-* For more information on requirements for enrollment as a Direct bill CSP click [here](https://docs.microsoft.com/partner-center/direct-partner-new-requirements). If you have not met the requirements for Direct bill refer [here](https://docs.microsoft.com/partner-center/restricted-direct-bill-capabilities) for information on restricted direct bill access and next steps.
+* For more information on requirements for enrollment as a Direct bill CSP click [here](https://docs.microsoft.com/partner-center/direct-partner-new-requirements). If you have not met the requirements for Direct bill refer [here](https://docs.microsoft.com/partner-center/restricted-direct-bill-capabilities) for information on restricted direct bill access and next steps.
 * Your account location determines which regions and/or countries you can sell Cloud Solution Provider (CSP) program offers.
-* Click [here](https://docs.microsoft.com/partner-center/regional-authorization-overview) for more information on CSP regions/locations. Refer [here](https://docs.microsoft.com/partner-center/manage-locations#prerequisites-in-order-to-add-a-new-location-for-a-csp-business) for prerequisites to add a new CSP location.
+* Click [here](https://docs.microsoft.com/partner-center/regional-authorization-overview) for more information on CSP regions/locations. Refer [here](https://docs.microsoft.com/partner-center/manage-locations#prerequisites-in-order-to-add-a-new-location-for-a-csp-business) for prerequisites to add a new CSP location.
 
 ## **Recommended Documents**
 
