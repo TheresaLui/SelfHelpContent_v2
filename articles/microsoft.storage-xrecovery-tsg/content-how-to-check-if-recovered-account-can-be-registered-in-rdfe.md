@@ -23,7 +23,7 @@
 4. Name of Storage Service: **Storage Account Name**
 5. StorageGeoId for storage account: **Geo Domain from XLS**
 6. Label for storage account: **Storage Account Name**
-7. Location for the service: **Primary stamp name from Geo Region in XLS**
+7. Location for the service: **Geo Location**
 8. Approver:**,**
 9. Approver Link: **ICM#**
 10. Click on **Get Access** after providing all information.
