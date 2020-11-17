@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Maintenance - Node Pause - Memory Preserving - Short"
+	description="Root Cause Analysis (RCA) - Software - NodeReboot - Low Memory Condition"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""	
-	articleId="VMA_RCA_Maintenance_NodePause_Memory_Preserving_Short_VMPhu"
+	articleId="VMA_RCA_Software_NodeReboot_Memory_Low"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -25,14 +25,26 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> This  occurrence was caused by an **Azure initiated memory-preserving update action**. This update is part of routine maintenance performed on the underlying hosts for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed. No action is needed from you.
+> This unexpected occurrence was caused due to a platform issue where resources on the physical node were exhausted. Our engineering teams have identified the two main root causes:
+> * Memory leaks in a few OS and Azure components were identified.
+> * A general overall increase in resource usage across various Azure and OS components.
 > 
 
 <!--resolutionDetails-->
 ### *Resolution*
-> VM Services were restored following the reboot.
+> VM Services were restored following reboot.
+> 
+> The following platform fixes are in process:
+> * A host OS update is currently in deployment that resolves the known memory leaks. However, there are a few nodes that have to be restarted to recover the resources due to the nature of the leak.  We are monitoring impacted nodes and are gradually recovering these nodes to full capacity.
+> * Enhancements and features of various Azure components has resulted in an overall increase in general resource usage, which required updates and refinement of the analytics of resources to be used by VMs and host OS. Additionally, a change to influence the placement the VM on a physical node with more appropriate resources is also being evaluated. These revisions for smooth host VM operations are currently being tested and will be deployed across the fleet.
 > 
 <!--/resolutionDetails-->
+
+<!--additionalInfo-->
+### *Additional Information*
+> We are monitoring impacted nodes and have marked them for service so that they can be recovered to full capacity.
+> 
+<!--/additionalInfo-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
