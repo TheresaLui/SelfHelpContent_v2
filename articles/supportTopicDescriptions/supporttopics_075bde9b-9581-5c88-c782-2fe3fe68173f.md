@@ -161,6 +161,12 @@
       "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements"
       "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
+    {
+      "id": "d61fff15-a73a-eeb1-2519-91b9bb179edf",
+      "longDescription": "",
+      "shortDescription": "Program requirements for CSP Direct bill enrollment"
+      "searchTags": "Direct;CSP;TTM;Recognition;ASfP;PSfP;Support;300k;Performance;Revenue",
+    },
   ]
 }
 ---
