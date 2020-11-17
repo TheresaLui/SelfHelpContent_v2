@@ -18,7 +18,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcff.kusto.usgovcloudapi.net').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"00:01:00"
+      "refreshInterval":"01:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
