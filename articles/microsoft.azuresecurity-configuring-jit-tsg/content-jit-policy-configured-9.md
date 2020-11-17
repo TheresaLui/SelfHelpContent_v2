@@ -17,5 +17,12 @@
 
 # JIT Policy configured
 
-JIT Policy configured
+SE: Ask customer to configure JIT policy on the VM. Use this template below: 
+
+Dear Customer,
+Please follow the steps to configure JIT Policy on the VM. Refer to Docs: https://docs.microsoft.com/en-us/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc
+
+Best Regards,
+
+
 
