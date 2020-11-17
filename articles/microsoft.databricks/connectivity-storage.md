@@ -20,7 +20,9 @@
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+
 * [Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-datalake-gen2)
+
     * [Access control in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control)
 
 * [Tutorial: Access Azure Blob Storage from Azure Databricks using Azure Key Vault](https://docs.microsoft.com/azure/azure-databricks/store-secrets-azure-key-vault)
@@ -28,7 +30,9 @@
 ### **Configuration and Setup**
 
 * Expiration of secret key can cause issues connecting to storage resources. To recreate secret please follow [these steps](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret)
+
 * To read data from a private **Azure Blob Storage** account, you must configure a **Shared Key** or a **Shared Access Signature (SAS)**. Please follow this [documentation](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-storage) for further details.
+
 * If you are using Service principal and oauth for authenticating storage, please add AAD service endpoint to both subnets
 
 ### **Common Errors**
