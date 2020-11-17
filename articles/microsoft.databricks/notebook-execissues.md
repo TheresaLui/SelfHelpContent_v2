@@ -29,6 +29,9 @@
     - You can either disable Credential Passthrough for this HC cluster
     - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
 
+* The cluster returns **Cancelled** in a Python notebook
+     * Follow this KB article to troubleshoot and resolve issue: [Cluster cancels Python command execution due to library conflict](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
+     
 ## **Recommended Documents**
 
 * How to connect to data sources from Azure Databricks:
