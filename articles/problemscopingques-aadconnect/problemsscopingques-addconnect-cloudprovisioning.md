@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32780784,32780785,32780786,32780787,32780788"
     productPesIds="16666"
-    cloudEnvironments="public, fairfax, usnat, ussec"
+    cloudEnvironments="public"
     schemaVersion="1"
     articleId="problemsscopingques-addconnect-cloudprovisioning.md"
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
@@ -18,7 +18,7 @@
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "PREVIEW: Cloud Provisioning (AD to AAD sync) job analysis",
-    "fileAttachmentHint": null,
+    "fileAttachmentHint": Upload the trace or advanced verbose logging (if you have it enabled) from your corresponding AD domain machine.Learn [more](https://docs.microsoft.com/en-us/azure/active-directory/cloud-provisioning/how-to-troubleshoot#log-files),
     "diagnosticCard": {
         "title": "PREVIEW: Provisioning job analysis",
         "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
@@ -58,7 +58,7 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "infoBalloonText": "Enter the approximate time you started to see the error (in UTC).",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
             "required": false
         },
         {
