@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-netappaccount-regionalcapacity"
+	articleId="bffc5036-209f-4b05-9c91-4a57c0af12e2"
 	pageTitle="Requesting additional capacity"
 	description="Requesting additional capacity"
 	authors="b-aragus"
@@ -9,14 +9,12 @@
 	productPesIds="16469"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
-    articleId="AzureNetApp_regional_quota"
 	ownershipId="AzureNetAppFiles"
 />
 # Requesting additional capacity
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
     "title": "Request regional capacity quota",
     "fileAttachmentHint": "",
     "formElements": [
