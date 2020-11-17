@@ -17,7 +17,7 @@
 
 # Resolve Update Management issues with Azure Automation - Update Deployment Didn't Install
 
-This article will help for issues where machines are enrolled in Update Management, but an Update Deployment failed to install some or all updates.
+Most users can resolve issues where machines are enrolled in Update Management, but an Update Deployment failed to install some or all updates, by using the following information.
 
 ## **Recommended Steps**
 Update Management logs attempts to install updates. [Check the job output](https://docs.microsoft.com/azure/automation/update-management/deploy-updates#check-deployment-status) for errors. 
