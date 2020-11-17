@@ -20,23 +20,23 @@
 1. Use sample query in Jarvis [Sample Geneva Logs Query](https://jarvis-west.dc.ad.msft.net/A6927181)
 2. Query with the following settings in DGrep:
 
-~~~dgrep
+```dgrep
 
 Endpoint: Diagnostics PROD (for public Azure)
 Namespace: XStore
 Events to search: DiagnosticAuditLog
 
-~~~
+```
 
 3. Specify Tenant for the storage account (you can use nslookup .table.core.windows.net to determine tenant) and the Role for the service type (Nephos.Table)
 4. Then use the following filter conditions:
 
-~~~filter
+```filter
 
 ownerAccountName==
 objectKeycontains
 
-~~~
+```
 
 5. Save query link from the link tab in the left pane and query results for use in IcM in later steps.
 
