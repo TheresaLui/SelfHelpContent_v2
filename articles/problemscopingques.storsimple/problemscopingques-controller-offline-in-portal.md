@@ -20,8 +20,26 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "controller",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
+            }
+        },
+        {
+            "id": "controller",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the controller that is shown offline",
             "watermarkText": "Choose an option",
@@ -39,7 +57,7 @@
         },
         {
             "id": "serial_access",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Do you have access to the device through the serial console",
             "watermarkText": "Choose an option",
@@ -57,14 +75,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

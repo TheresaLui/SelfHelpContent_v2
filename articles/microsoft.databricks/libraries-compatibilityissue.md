@@ -37,8 +37,16 @@ Support might ask you to engage other channels for open-source technologies, whe
 
 * Error: ImportError: No module named XXX
      * Resolve the error by following the steps in [Library unavailability causing job failures](https://docs.microsoft.com/azure/databricks/kb/libraries/library-install-latency) 
+     
+* The cluster returns **Cancelled** in a Python notebook
+     * Follow this KB article to troubleshoot and resolve issue: [Cluster cancels Python command execution due to library conflict](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
 
-* [How to: Correctly Update a Maven Library in Azure Databricks](https://docs.microsoft.com/azure/databricks/kb/libraries/maven-library-version-mgmt)
-* [List of pre-installed libraries](https://docs.databricks.com/release-notes/runtime/5.4.html#installed-python-libraries)
+## **Recommended Documents**
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
 * [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
+* [List of pre-installed libraries](https://docs.microsoft.com/azure/databricks/release-notes/runtime/7.2#installed-python-libraries)
+* [How to: Correctly Update a Maven Library in Azure Databricks](https://docs.microsoft.com/azure/databricks/kb/libraries/maven-library-version-mgmt)
+
+
+
+

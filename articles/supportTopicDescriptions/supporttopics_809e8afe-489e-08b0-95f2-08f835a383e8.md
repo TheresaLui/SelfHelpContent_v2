@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0a060dac-b4dc-623b-aa29-76183f03d068",
+      "longDescription": "",
+      "shortDescription": "Security alerts not forwarded, content mismatch or missing content",
+      "searchTags": "mcas;integration;alerts",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1117f80e-54c1-1345-75f8-684ca29eb11c",
       "longDescription": "",
       "shortDescription": "Identity Security Posture reports are missing details or have incorrect content",
