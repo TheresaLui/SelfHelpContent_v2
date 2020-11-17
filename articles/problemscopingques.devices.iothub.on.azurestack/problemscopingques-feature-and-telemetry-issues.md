@@ -123,7 +123,7 @@
       "watermarkText": "Examples - Node 1.17.3, C# 1.32, etc)",
       "useAsAdditionalDetails": true,
       "required": true
-    }
+    },
     {
       "id": "problem_description",
       "order": 9,
