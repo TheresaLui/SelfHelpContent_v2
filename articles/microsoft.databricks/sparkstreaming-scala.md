@@ -19,4 +19,6 @@
 
 ## **Recommended Documents**
 
-* [How to Restart a Structured Streaming Query From Last Written Offset](https://kb.azuredatabricks.net/streaming/ss-read-from-last-offset.html)
+* [Apache Spark DStream is not supported](https://docs.microsoft.com/azure/databricks/kb/streaming/dstream-not-supported)
+
+* [How to Restart a Structured Streaming Query From Last Written Offset](https://docs.microsoft.com/azure/databricks/kb/streaming/ss-read-from-last-offset)

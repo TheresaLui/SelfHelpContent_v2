@@ -24,12 +24,6 @@
       "searchTags": "Accounts;Onboarding;Locations",
     },
     {
-      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
-      "longDescription": "",
-      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
-      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
-    },
-    {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
       "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
@@ -86,8 +80,8 @@
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -128,13 +122,13 @@
   {
       "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
       "longDescription": "",
-      "shortDescription": "Information or assistance on completing CSP enrollment for Direct bill, Indirect provider or Indirect reseller transacting through this channel",
+      "shortDescription": "Information on CSP enrollment for Direct bill, Indirect provider,Indirect reseller transacting through this channel",
       "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
     },
      {
       "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
       "longDescription": "",
-      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another e.g. Direct bill to Indirect reseller",
+      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another",
       "searchTags": "Accounts;Onboarding;Offboarding;Transition",
     },
      {
@@ -146,14 +140,32 @@
      {
       "id": "77f4aefd-0ed3-570a-c68d-436f11b46638",
       "longDescription": "",
-      "shortDescription": "Information or assistance with transitioning from direct bill to indirect reseller including moving customers and subscriptions to a new Indirect provider",
+      "shortDescription": "Transitioning from direct bill to indirect reseller ,also moving customers and subscriptions to a new Indirect provider',
       "searchTags": "Accounts;Onboarding;Moving;Transition",
     },
      {
-      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
-      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
-      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
+      "searchTags": "Enroll;Onboard;MPA",
+    },
+     {
+      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
+      "longDescription": "",
+      "shortDescription": "How to accept the MPA, access to indirect reseller agreement for Providers and information on updates to the agreement",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+    },
+     {
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
+      "longDescription": "",
+      "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements"
+      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+    },
+    {
+      "id": "d61fff15-a73a-eeb1-2519-91b9bb179edf",
+      "longDescription": "",
+      "shortDescription": "Program requirements for CSP Direct bill enrollment"
+      "searchTags": "Direct;CSP;TTM;Recognition;ASfP;PSfP;Support;300k;Performance;Revenue",
     },
   ]
 }
