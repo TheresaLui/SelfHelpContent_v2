@@ -25,16 +25,3 @@ Good News! You should see successful deployments for your desired deployment all
 
 
 <!--/issueDescription-->
-
-## **Recommended Steps**
-
-Consider the above alternate VM sizes and/or Regions for your deployment. These recommendations are generated based on the current capacity conditions. If you see the originally requested region and size in the recommendations, please try creating the VM again as the issue might have been temporary and there could be sufficient resources for allocation currently.<br>
-
-| To determine sizes by ... | Do the following |
-| --- | --- |
-| Azure portal | Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
-| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("<<insert-region>>")}` |
- Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name:<br>`az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table`|
-| REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|<br>
-
-You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
