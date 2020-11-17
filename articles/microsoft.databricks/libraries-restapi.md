@@ -23,6 +23,11 @@ Support might ask you to engage other channels for open-source technologies wher
 
 * [Libraries overview and Guidance](https://docs.microsoft.com/azure/databricks/libraries/)
 
+* To make third-party or custom code available to notebooks and jobs running on your clusters, you can install a library. Libraries can be written in Python, Java, Scala, and R. You can upload Java, Scala, and Python libraries and point to external packages in PyPI, Maven, and CRAN repositories.
+
+    * You can manage libraries using the [Libraries CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/libraries-cli) or the [Libraries API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries).
+    * You can install libraries in three modes: [workspace](https://docs.microsoft.com/azure/databricks/libraries/workspace-libraries), [cluster-installed](https://docs.microsoft.com/azure/databricks/libraries/cluster-libraries), and [notebook-scoped](https://docs.microsoft.com/azure/databricks/libraries/notebooks-python-libraries).
+
 * Push the JAR to Databricks cluster directly using REST API and Databricks Connect:  
 
 	**Step 1:** Use the REST API to post the JAR to the DBFS directly using [DBFS API Put](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/dbfs#--put). See this example of [how to upload the JAR to DBFS programmatically](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/examples#--upload-a-big-file-into-dbfs).
