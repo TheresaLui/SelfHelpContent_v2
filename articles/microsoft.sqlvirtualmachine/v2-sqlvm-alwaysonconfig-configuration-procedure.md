@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-There are various ways and Steps involved in **configuring Availability Groups** which are listed below.    
+Most users can resolve issues concerning **configuring Availability Groups** by using the following steps.
 
 <!--/issueDescription--> 
  
@@ -30,8 +30,6 @@ There are various ways and Steps involved in **configuring Availability Groups**
 ## **Recommended Steps** 
 
 -  **Different ways to Configure Availability Groups in Azure VMsS** 
-
-
 
    Different ways to setup AG is listed in the below articles with the **[Comparison Here](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment)** 
 
