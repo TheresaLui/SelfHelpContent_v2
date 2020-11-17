@@ -28,7 +28,7 @@
             "displayLabel": "Please select the NSG you are experiencing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/networkSecurityGroups/$ref?api-version=2018-11-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/networkSecurityGroups?api-version=2018-11-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
