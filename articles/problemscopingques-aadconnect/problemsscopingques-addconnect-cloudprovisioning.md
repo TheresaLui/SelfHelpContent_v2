@@ -4,7 +4,7 @@
     authors="dhanyahk"
     ms.author="dhanyahk"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32780784,32780785,32780786,32780787,32780788"
+    supportTopicIds="32780785,32780786,32780787,32780788"
     productPesIds="16666"
     cloudEnvironments="public"
     schemaVersion="1"
