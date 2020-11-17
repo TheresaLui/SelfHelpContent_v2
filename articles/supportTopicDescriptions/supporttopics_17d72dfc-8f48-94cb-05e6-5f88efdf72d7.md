@@ -747,8 +747,8 @@
     {
       "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
       "longDescription": "",
-      "shortDescription": "SAP HANA database backup",
-      "searchTags": "SAP HANA",
+      "shortDescription": "Issue specific to backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA;SPA;HANA",
       "category": "SAP",
       "useInDiagnoseAndSolve": "false"
     },
