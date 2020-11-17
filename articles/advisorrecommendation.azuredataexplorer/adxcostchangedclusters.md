@@ -93,6 +93,6 @@
     }
   ],
   "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have.",
-  "testData": "9f1db39c-602e-4877-96be-d52f277f7aae,/subscriptions/9f1db39c-602e-4877-96be-d52f277f7aae/resourceGroups/Kusto-Prod/providers/Microsoft.Kusto/Clusters/bingapiscale"
+  "testData": "11d5f159-a21d-4a6c-8053-c3aae30057cf,/subscriptions/11d5f159-a21d-4a6c-8053-c3aae30057cf/resourceGroups/avnera/providers/Microsoft.Kusto/Clusters/avnerkusto"
 }
 ---
