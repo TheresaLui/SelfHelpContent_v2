@@ -28,6 +28,9 @@ Support might ask you to engage other channels for open-source technologies wher
 	**Step 1:** Use the REST API to post the JAR to the DBFS directly using [DBFS API Put](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/dbfs#--put). See this example of [how to upload the JAR to DBFS programmatically](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/examples#--upload-a-big-file-into-dbfs).
 
 	**Step 2:** Use the REST API to [install the library on cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install)
+
+* The cluster returns **Cancelled** in a Python notebook
+     * Follow this KB article to troubleshoot and resolve issue: [Cluster cancels Python command execution due to library conflict](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
 	
 ## **Recommended Documents**
 

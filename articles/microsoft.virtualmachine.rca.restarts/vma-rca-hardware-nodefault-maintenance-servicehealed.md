@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software - NodeFault - Hardware Issue - Service Healed"
+	description="Root Cause Analysis (RCA) - Hardware - NodeFault - Maintenance - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""	
-	articleId="VMA_RCA_Software_NodeFault_Hardware_Issue_ServiceHealed"
+	articleId="VMA_RCA_Hardware_NodeFault_Maintenance_ServiceHealed"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted which caused your VM to get rebooted.
+> The unplanned hardware maintenance action was required in order to ensure the long term reliability of the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
