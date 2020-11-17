@@ -151,7 +151,7 @@
             "visibility": " which_resource == AvailabilityGroupListener",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is not working about the listener?",
+            "displayLabel": "What is not working with the Listener?",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
@@ -184,7 +184,7 @@
             "id": "issue_type",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes your Setup Availability Group issue.",
+            "displayLabel": "Choose an option that best describes your p Availability Group setup issue.",
             "watermarkText": "Common Setup Availability Group issue categories",
             "infoBalloonText": "Setup Availability Group issue category",
             "dropdownOptions": [
