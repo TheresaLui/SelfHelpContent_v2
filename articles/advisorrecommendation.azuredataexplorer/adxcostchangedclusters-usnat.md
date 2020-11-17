@@ -17,7 +17,7 @@
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usnateast.kusto.core.eaglex.ic.gov').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.usnatwest.kusto.core.eaglex.ic.gov').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -26,7 +26,6 @@
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "Right-size ADX clusters for cost",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "kustosee@microsoft.com",

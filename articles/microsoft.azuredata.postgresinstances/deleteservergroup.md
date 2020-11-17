@@ -7,7 +7,7 @@
   supporttopicids="32747901"
   resourcetags=""
   productpesids="17124"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="e1554a02-55d6-4970-9212-49835fef6dbc"
   ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
 # Delete Hyperscale Server Group 
