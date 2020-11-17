@@ -33,9 +33,9 @@ Support might ask you to engage other channels for open-source technologies, whe
     * You can install libraries in three modes: [workspace](https://docs.microsoft.com/azure/databricks/libraries/workspace-libraries), [cluster-installed](https://docs.microsoft.com/azure/databricks/libraries/cluster-libraries), and [notebook-scoped](https://docs.microsoft.com/azure/databricks/libraries/notebooks-python-libraries).
 
 * Exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled:
-     * This exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve this issue, you can do one of the following:
-      - Disable Credential Passthrough for this HC cluster
-      - Use Standard cluster with Credential Passthrough enabled where single user access is allowed
+  This exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve this issue, you can do one of the following:
+  * Disable Credential Passthrough for this HC cluster
+  * Use Standard cluster with Credential Passthrough enabled where single user access is allowed
 
 * Error: org.apache.spark.SparkException: Process List
      * Troubleshoot the error as indicated in [Libraries fail with dependency exception](https://docs.microsoft.com/azure/databricks/kb/libraries/library-fail-dependency-exception)
