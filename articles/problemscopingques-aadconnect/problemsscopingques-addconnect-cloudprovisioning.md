@@ -18,7 +18,7 @@
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "PREVIEW: Cloud Provisioning (AD to AAD sync) job analysis",
-    "fileAttachmentHint": "Upload the trace or advanced verbose logging (if you have it enabled) from your corresponding AD domain machine. Learn <a href='https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot#log-files'>more</a>,
+    "fileAttachmentHint": "Upload the trace or advanced verbose logging (if you have it enabled) from your corresponding AD domain machine. Learn <a href='https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot#log-files'>more</a>",
         "diagnosticCard": {
         "title": "PREVIEW: Provisioning job analysis",
         "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
