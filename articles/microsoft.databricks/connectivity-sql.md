@@ -55,6 +55,22 @@
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
   ```
 
+* **Problem:**
+  
+  Azure Databricks commands connecting to Azure Data Warehouse via Spark Synapse Connector fail with error:
+
+  ```
+  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'XXX'. ClientConnectionId:XXXX [ErrorCode = 18456] [SQLState = S0001]
+  ```
+
+  **Cause:** 
+  
+  This is possibly due to Azure DW server does not accept the password when sent via URL because it contains characters that are changed after URL encoding.
+
+  **Solution:** 
+
+  Use the connector option to add the password instead of via the URL or use a password that is URL encode safe.
+  
 ## **Recommended Documents**
 
 * [How To: Connect to Azure Synapse Analytics](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/synapse-analytics)
