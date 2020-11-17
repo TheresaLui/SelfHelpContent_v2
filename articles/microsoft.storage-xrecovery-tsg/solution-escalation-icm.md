@@ -23,7 +23,7 @@
 2. Here is the powershell command. NOTE : Do NOT include the SAS URL in the IcM or in notes. Only provide this to the WASU or XStore engineer on request.<br>
 3. Recommended sample command Steps:<br>
 
-~~~powershell
+```powershell
 
 $storageAccount = ""
 $storageKey = ""
@@ -32,7 +32,7 @@ $startTime = Get-Date
 $endTime = $startTime.AddMonths(1)
 New-AzureStorageTableSASToken -Name "" -Permission rl -StartTime $startTime -ExpiryTime $endTime -Context $ctx -FullUri
 
-~~~
+```
 
 4. File the IcM to check for recovery options. <br>
 5. Choose an ICM Template based on severity and include all deletion information gathered in previous steps<br>

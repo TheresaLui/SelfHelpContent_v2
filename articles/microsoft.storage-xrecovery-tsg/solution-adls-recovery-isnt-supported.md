@@ -15,12 +15,14 @@
 	articleId="61814b58-0c40-4aea-902f-d8cd91a3cee3"
 />
 
-# Currently recovery of ADLS Gen 2 File system isn't supported
+# ADLS Gen 2 Recovery
 
 <!--issueDescription-->
-1. Please note that it is impossible to recover Data at the blob level. <br>
-2. To prevent this, you can leverage on Backup and archive solutions in Azure, enabling Azure Soft Delete for Blobs or Azure Blob Snapshots.<br>
-3. Currently recovery of ADLS Gen 2 File system isn't supported<br>
-4. This page will be updated when we have further updates.
+
+1. There is no change in terms of **ADLS Gen2 Accounts**. Follow the same process as that of General Purpose accounts <br>
+2. For **BLOBS** and **CONTAINERS**, continue to file an ICM to xstore\bigdata as appropriate.
+4. To prevent this, you can leverage on Backup and archive solutions in Azure, enabling Azure Soft Delete for Blobs or Azure Blob Snapshots.<br>
+5. Currently recovery of **ADLS Gen 2 File system** isn't supported<br>
+
 
 <!--/issueDescription-->

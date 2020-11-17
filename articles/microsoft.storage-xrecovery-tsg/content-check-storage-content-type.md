@@ -3,8 +3,8 @@
 	description="How to check the storage content type"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
@@ -17,6 +17,7 @@
 
 # How to check the storage content type
 
+
 Use this TSG for a request to recover storage data. As you follow the steps in this TSG, keep notes of each command run and output generated. If you run into any difficulties, this information will be critical to determine your next steps.
 
 **Notes:**
@@ -26,11 +27,5 @@ Use this TSG for a request to recover storage data. As you follow the steps in t
 3. It can generally take anywhere from "immediately after deletion" to 14 days for the Storage service to perform garbage collection, so there is no SLA or guarantee of recovery.
 4. Set customer expectations in your initial response itself that Azure Support will try recovery on a best-effort basis, but cannot guarantee recovery.
 5. Check if the customer created a new resource with the same name (even briefly). Creating a resource with the same name reduces the chances of recovery considerably because it can trigger early cleanup.
-6. What resource type does the customer want to recover? 
-   - Managed Disk
-   - Storage Account
-   - Blob
-   - Container
-   - Table
-   - FileShare
-   - ADLS Gen 2 Filesystem
+
+
