@@ -32,6 +32,18 @@
 * The cluster returns **Cancelled** in a Python notebook
      * Follow this KB article to troubleshoot and resolve issue: [Cluster cancels Python command execution due to library conflict](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
      
+* Getting error **Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues.** - We generally get RPC error due to the following reasons:
+
+  1. The communication between the driver and executor is lost - executor is not able to send heartbeats within the threshold time frame which can happen either if the executor is overwhelmed with memory/OOM errors or too many network hits are making executor too busy in GC and it is not able to respond back to driver.
+
+     You could see what is happening in the Spark UI > Stages > sort the tasks based on the error. It will show you what error was happening on executor level.
+
+     One quick workaround would be to use bigger cluster (if current cluster is really small).
+
+  2. Having too many partitions - small files can cause RPC error. You can check the used partition strategy.
+
+  3. Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
+     
 ## **Recommended Documents**
 
 * How to connect to data sources from Azure Databricks:
