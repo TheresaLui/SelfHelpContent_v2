@@ -134,7 +134,7 @@
             "displayLabel": "Application name or ID:",
             "content": null,
             "watermarkText": "Example: ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "infoBalloonText": "Application to log in to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
