@@ -507,10 +507,10 @@
     {
       "id": "a1503a7e-657a-36ce-a5d5-110b02e4e420",
       "longDescription": null,
-      "shortDescription": "Backup Alerts and Reports",
-      "searchTags": "reports",
+      "shortDescription": "Issue pertaining to Backup Alerts and Reports",
+      "searchTags": "reports;alert",
       "category": "alerts and reports",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "a1c4e8c8-2302-5e0f-078d-b0a3ab42d6e0",
