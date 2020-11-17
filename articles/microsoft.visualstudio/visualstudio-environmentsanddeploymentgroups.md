@@ -24,7 +24,7 @@ Are you facing one of these common problems?
 
 ****
 
-* **The Deployment group agents are offline in Azure DevOps even though I'm able to the machines through an RDP connection**
+* **The Deployment group agents are offline in Azure DevOps even though I'm able to access the machines through an RDP connection**
 
     Check if there was any restart of your target machines on which the agents are configured. Ensure after every restart of the target machines that the configured agents are running. Also, make sure they are not running behind a proxy.
 
