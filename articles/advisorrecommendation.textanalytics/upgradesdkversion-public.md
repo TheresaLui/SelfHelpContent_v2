@@ -6,7 +6,7 @@
     articleId="09f490d5-625a-44ca-8089-58947548ead8_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="CogSvc_TextAnalytics"
+	 ownershipId="CogSvc_TextAnalytics"
 />
 # Upgrade to the latest Cognitive Service Text Analytics SDK version
 ---
@@ -18,7 +18,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvc.kusto.windows.net').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"01:00:00"
+      "refreshInterval":"00:01:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
