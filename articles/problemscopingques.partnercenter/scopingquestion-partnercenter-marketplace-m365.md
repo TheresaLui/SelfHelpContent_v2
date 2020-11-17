@@ -84,6 +84,10 @@
 		   "text": "Excel"
 	       },
 	       {
+	       	   "value": "onenote_app",
+		   "text": "OneNote"
+		},
+	       {
 		   "value": "outlook_app",
 		   "text": "Outlook"
 	       },
@@ -106,6 +110,10 @@
 	       {
 		   "value": "word_app",
 		   "text": "Word"
+	       },
+	       {
+		   "value": "others_value",
+		   "text": "Others"
 	       }
 	       ],
 	   "required": false

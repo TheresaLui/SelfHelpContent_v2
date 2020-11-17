@@ -28,4 +28,4 @@
 
 ## Recommended Documents
 
-1. [WASU Storage Recovery IcM Template](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=V3F2C9)
+1. [WASU Storage Recovery IcM Template](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=V3F2C9)
