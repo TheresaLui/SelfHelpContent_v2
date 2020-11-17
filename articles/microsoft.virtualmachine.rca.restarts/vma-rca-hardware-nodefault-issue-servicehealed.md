@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO Timeout - NodeReboot - IOPS limit - e17"
+	description="Root Cause Analysis (RCA) - Hardware - NodeFault - Issue - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""	
-	articleId="VMA_RCA_IO_Timeout_NodeReboot_VM_IOPS_Limit_e17_noend"
+	articleId="VMA_RCA_Hardware_NodeFault_Issue_ServiceHealed"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -20,35 +20,22 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### *Root Cause*
-> This unexpected occurrence was caused by an **Azure initiated VM shutdown** triggered by detection of **temporary IO transaction timeouts** between the physical host node where your VM was running, and the Azure Storage services where your Virtual Hard Disks (VHDs) reside.
+> The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted which caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
 ### *Resolution*
-> VM Services were restored following the reboot.
+> The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 <!--/resolutionDetails-->
-
-<!--additionalInfo-->
-### *Additional Information*
-> IO timeout may have been a result of the workload running on the VM excedding the Azure Standard Storage disks limit of 500 IOPS for each VHD.
-> 
-<!--/additionalInfo-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->
-## **Recommended Steps**
-> We have documented a few best practices:
-> * [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)
-> Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue. You may also want to consider Premium Storage if the issue persists.
-> 
-
-
 ## **Recommended Documents**
 
 > *Learn more about:*
