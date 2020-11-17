@@ -20,8 +20,8 @@
 
 - Some default limits can be increased per [customer request](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/) <br>
 - However, some limits, including bytes per object for pipeline objects, cannot be increased above the default <br>
-- Please refer the documentation link below for up-to-date information <br>
-- If you hit the bytes per object for pipeline objects limit, we recommend you split the pipeline into several smaller pipelines
+- See the following documentation link for up-to-date information <br>
+- If you hit the bytes per object for pipeline objects limit, we recommend that  you split the pipeline into several smaller pipelines
 
 ## **Recommended Documents**
 
