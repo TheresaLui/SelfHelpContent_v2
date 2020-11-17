@@ -86,6 +86,7 @@
 	       {
 	       	   "value": "onenote_app",
 		   "text": "OneNote"
+		},
 	       {
 		   "value": "outlook_app",
 		   "text": "Outlook"
