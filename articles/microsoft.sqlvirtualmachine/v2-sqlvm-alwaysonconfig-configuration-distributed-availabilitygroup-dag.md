@@ -31,7 +31,8 @@ Most users can resolve issues with **configuring Distributed Availability Groups
 ## **Recommended Steps** 
 
 - **Configuring Distributed Availability Groups in Azure VMS** 
-   - To create a distributed availability group, you must create two availability groups each with its own Listener and load balancer. You then combine these availability groups into a [Distributed Availability Group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/configure-distributed-availability-groups?view=sql-server-ver15). More information is available [Here](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/distributed-availability-groups?view=sql-server-ver15) 
+
+   - To create a distributed availability group, you must create two availability groups, each with its own Listener and load balancer. You then combine these availability groups into a [Distributed Availability Group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/configure-distributed-availability-groups?view=sql-server-ver15). More information is available [Here](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/distributed-availability-groups?view=sql-server-ver15) 
   - Create [a load balancer for each Listener.](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) 
 
 * **Things to Keep in Mind when Configuring Always on Distributed Availability Groups** 
