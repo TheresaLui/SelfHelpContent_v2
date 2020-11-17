@@ -395,10 +395,10 @@
     {
       "id": "7a3867b1-7c5e-a334-4d0c-911960ebd675",
       "longDescription": null,
-      "shortDescription": "Azure Backup Server",
+      "shortDescription": "Issue pertaining to Azure Backup Server",
       "searchTags": "Azure Backup Server;MABS",
       "category": "MABS",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "80f662d1-4a0e-f8b3-7969-57f7218e1c09",
