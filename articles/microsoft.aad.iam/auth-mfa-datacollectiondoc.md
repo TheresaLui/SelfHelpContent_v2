@@ -127,23 +127,6 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Date(UTC):",
-            "content": null,
-            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
             "id": "appNameOrId",
             "visibility": "null",
             "order": 8,
