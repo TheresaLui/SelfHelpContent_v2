@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Security Center Regulatory Compliance self-help guide"
+  pagetitle="Azure Security Center Regulatory Compliance self-help guide&#xD;"
   ms.author="jaserano,kawilson,elsagie"
   selfhelptype="Generic"
   supporttopicids="32693246"
@@ -37,7 +37,7 @@ Select a tab for a compliance standard that is relevant to you. You will see the
 
 ### Can I remove any of the "built-in standards" that appear by default in the dashboard? I only want to track the additional standards that I onboarded
 
-Currently, you cannot remove any of the built-in standards. They are static and always appear there. You can only add or remove the additional supported standards, or custom initiative policies. This is being addressed, and removal of built-in standards will be supported at a future date.
+Yes. From the Management | Security Policy you can disable/enable any of the built-in standards.
 
 ### I made the suggested changes based on the recommendation, yet it is not being reflected in the dashboard
 
