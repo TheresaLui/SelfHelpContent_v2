@@ -5,7 +5,7 @@
 	authors="b-aragus"
 	ms.author="b-aragus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32777926"
+	supportTopicIds="32684015"
 	productPesIds="16469"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
