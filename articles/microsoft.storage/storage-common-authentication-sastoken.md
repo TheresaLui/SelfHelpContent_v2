@@ -29,6 +29,9 @@ Most customers resolved their SAS token authentication and connectivity failures
 - [Authorization options for Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/authorization-for-the-azure-storage-services)
 - [Best practices when using SAS](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1#best-practices-when-using-sas)
 
+### **ADLSGen2 - SAS with Directory Scoped Access**
+- [Service SAS support for Directory scoped access](https://docs.microsoft.com/rest/api/storageservices/create-service-sas#service-sas-support-for-directory-scoped-access)
+
 ### **Common SAS Errors**  
 
 **Receiving HTTP 403 (Forbidden) messages** 
