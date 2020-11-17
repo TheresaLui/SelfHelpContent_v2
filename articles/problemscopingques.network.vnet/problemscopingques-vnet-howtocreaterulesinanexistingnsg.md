@@ -34,8 +34,8 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
            "defaultdropdownOptions": {
-                    "value": "Unable to get the list of Virtual Networks",
-                    "text": "Unable to get the list of Virtual Networks"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "required": false
