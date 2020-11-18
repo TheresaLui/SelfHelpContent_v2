@@ -40,15 +40,15 @@
 
 * [Functions](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#functions) including:
 
-    * [String](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#string-functions) functions only apply to strings
+* [String](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#string-functions) functions only apply to strings
 
-    * [Collection](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#collection-functions) functions operate over collections, such as arrays, strings, and in some cases dictionaries
+* [Collection](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#collection-functions) functions operate over collections, such as arrays, strings, and in some cases dictionaries
 
-    * [Logical](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#logical-functions) functions are useful inside conditions
+* [Logical](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#logical-functions) functions are useful inside conditions
 
-    * [Conversion](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#conversion-functions) functions convert between native types
+* [Conversion](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#conversion-functions) functions convert between native types
 
-    * [Math](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#math-functions) functions are used for either integer or float
+* [Math](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#math-functions) functions are used for either integer or float
 
-    * [Date](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#date-functions) functions operate over timestamps
+* [Date](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#date-functions) functions operate over timestamps
 
