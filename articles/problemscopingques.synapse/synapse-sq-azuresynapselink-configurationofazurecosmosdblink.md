@@ -40,21 +40,21 @@
         },
         {
             "id": "database_name",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Database name",
             "required": false
         },
         {
             "id": "collection_name",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Collection name",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
