@@ -10,12 +10,12 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
-    resourceRequired="false"
 />
 # Requesting additional capacity
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired":false,
     "title": "Request regional capacity quota",
     "fileAttachmentHint": "",
     "formElements": [
@@ -74,7 +74,8 @@
             "controlType": "numerictextbox",
             "displayLabel": "Enter value",
             "watermarkText": "",
-            "required": true
+            "required": true,
+            "isNewQuotaLimit": true
         }
     ],
     "$schema": "SelfHelpContent"
