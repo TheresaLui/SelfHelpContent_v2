@@ -33,7 +33,7 @@
     "serviceTreeId": "eb7e1413-a83d-460e-9e1d-0eef53d38698"
   },
   "recommendationTimeToLive": 86400,
-  "version": 6.0,
+  "version": 6.1,
   "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore",
   "description": "Right-size or shutdown underutilized virtual machines",
   "longDescription": "We've analyzed the usage patterns of your virtual machine over the past 7 days and identified virtual machines with low usage. While certain scenarios can result in low utilization by design, you can often save money by managing the size and number of virtual machines.",
