@@ -28,14 +28,14 @@
             "displayLabel": "Please select the NSG you are experiencing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/networkSecurityGroups/$ref?api-version=2018-11-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/networkSecurityGroups?api-version=2018-11-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
            "defaultdropdownOptions": {
-                    "value": "Unable to get the list of Virtual Networks",
-                    "text": "Unable to get the list of Virtual Networks"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "required": false
