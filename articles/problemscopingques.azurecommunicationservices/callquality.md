@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756378, 32756356, 32756354"
 	productPesIds="17327"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="513657ba-4c97-4da7-91c7-be17d8a865b7"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Audio/video quality, no ringing signal, and call drops ",
   "fileAttachmentHint": "",
   "formElements": [

@@ -17,5 +17,5 @@
 
 # How to create an IcM for JIT elevation
 
-1. Go to [JIT ICM Template ](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=74a1g3)
+1. Go to [JIT ICM Template ](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=74a1g3)
 2. NOTE : If you are not a member of TM-CSSStgRec group, you will need to stop here and reach out to a TA who has access.
