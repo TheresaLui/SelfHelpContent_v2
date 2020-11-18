@@ -25,7 +25,7 @@ Upgrading to the latest version of the service will provide the most up-to-date 
 
 <!--/issueDescription-->
 
-The upgrade process will not cause any service interruptions or downtime. It will also not require any data or index migrations. To start the upgrade, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. You'll see the option Upgrade to Mongo server version 3.6. To start the migration, click the **Enable** button. You'll see **Pending** in the features list for up to several days. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+<!--$DowntimeCondition-->[DowntimeCondition]<!--/$DowntimeCondition--> To start the upgrade, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. You'll see the option Upgrade to Mongo server version 3.6. To start the migration, click the **Enable** button. You'll see **Pending** in the features list for up to several days. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 **Note:** The notification might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
@@ -52,7 +52,7 @@ The upgrade process will not cause any service interruptions or downtime. It wil
 
     **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
-The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience. 
+The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
 
 ## **Recommended Documents**
 
