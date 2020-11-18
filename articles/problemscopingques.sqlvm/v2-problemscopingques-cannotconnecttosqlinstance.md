@@ -18,6 +18,11 @@
     "subscriptionRequired": false,
     "title": "Cannot Connect to SQL Instance",
     "fileAttachmentHint": null,
+	"diagnosticCard": {
+    "title": "Cannot connect to SQL Instance Troubleshooter",
+    "description": "Cannot connect to SQL Instance Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -132,6 +137,36 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+        {
+            "id": "issue_type",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes your Cannot connect to SQL Instance issue.",
+            "watermarkText": "Common Cannot connect to SQL Instance categories",
+            "infoBalloonText": "Cannot connect to SQL Instance issue category",
+            "dropdownOptions": [
+            {
+            "value": "CannotConnectToSQLInstance",
+            "text": "Cannot Connect to SQL instance"
+            },
+
+            {
+            "value": "AvailabilityGroupsConfiguration_SetupListenerAndLoadBalancer",
+            "text": "Setup Listener and Load Balancer for Availability Groups"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_Listener_ConnectivityIssue",
+            "text": "Configured Availability Group but Unable to connect using Listener"
+            },
+
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ]
 }
