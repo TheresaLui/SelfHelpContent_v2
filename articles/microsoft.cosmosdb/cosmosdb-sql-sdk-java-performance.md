@@ -17,7 +17,7 @@
 />
 
 #  Azure Cosmos DB SQL API high latency issues  
-Most users are able to resolve their Java SDK Performance isssue with the following steps.
+Most users are able to resolve their Java SDK Performance issue with the following steps.
 
 ## **Recommended Steps**  
 
