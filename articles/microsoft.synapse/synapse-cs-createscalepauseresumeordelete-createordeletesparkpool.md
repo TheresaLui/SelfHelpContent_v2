@@ -26,7 +26,6 @@ You can delete your Apache Spark pool by following [these steps](https://docs.mi
 
 ## **Recommended Documents**
 
-* [Create Apache Spark pool using web tools](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-notebook-create-spark-use-sql)
 * [Create Apache Spark pool using Azure portal](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool)
 * [Delete Apache Spark pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool#clean-up-resources)
 
