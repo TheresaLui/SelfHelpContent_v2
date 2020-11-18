@@ -41,12 +41,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/additionalInfo-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 > To check if SLA was violated: 
 > * [SLA for Virtual Machines](https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_8)
 > 
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
