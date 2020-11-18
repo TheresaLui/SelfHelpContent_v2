@@ -8,7 +8,7 @@
     cloudEnvironments="Public, USSec, USNat"
 	  ownershipId="Compute_APIManagement"
 />
-# The following ADX clusters are not being used and are candidates for deletion.
+# Following hostname certificates failed to rotate in AKV
 ---
 {
   "recommendationOfferingId": "7e1fb574-eb4a-45d7-8db2-c85445aac53f",
@@ -30,9 +30,9 @@
     "serviceTreeId": "6ba70dfa-ead9-4cc1-b894-049f8a17c22b"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/api-management/configure-custom-domain",
+  "learnMoreLink": "https://aka.ms/apimdocs/customdomain",
   "description": "Hostname certificate rotation failed",
-  "longDescription": "API Management service failed to refresh hostname certificate from Key Vault. Please ensure that certificate exists in Key Vault and API Management service identity is granted read access.",
+  "longDescription": "API Management service failed to refresh hostname certificate from Key Vault. Ensure that certificate exists in Key Vault and API Management service identity is granted secret read access. Otherwise, API Management service will not be able to retrieve certificate updates from Key Vault, which may lead to the service using stale certificate and runtime API traffic being blocked as a result.",
   "potentialBenefits": "Ensure service availability",
   "displayLabel": "Hostname certificate rotation failed",
   "additionalColumns": [
