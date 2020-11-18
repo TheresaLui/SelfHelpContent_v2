@@ -1,6 +1,6 @@
 <properties
     pageTitle="TSG Scope - 502 Bad Gateway Error"
-    description="TSG Scope - 502 Bad Gateway Error"
+    description="TSG Scope Check"
     service="microsoft.network"
     resource="applicationGateway"
     authors="riturajc"
@@ -15,13 +15,20 @@
     ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# TSG Scope
+# Check if this TSG applies to the customer scenario
+
+**This TSG is specific to Application Gateway "502 - Bad Gateway" errors. It is applicable to the below mentioned support topics.**
 
 Hello there! This TSG covers the following support topics:
 
 * Azure/Application Gateway/Connectivity/502 errors
 * Azure/Application Gateway/502 errors
 
+**Note**  
 If your issue is not from the list above, you may use **Edit & Run Again** feature on the **ASC** to look for new Insights and Troubleshooters. Make sure you replace the Support Topic correctly and specify right Resource for better results.
 
-*Note: This TSG does not cover intermittent 502 errors.*
+*This TSG does not cover intermittent 502 errors.*
+
+## Recommended documents
+
+* [Azure Application Gateway documentation](https://docs.microsoft.com/en-us/azure/application-gateway/)
