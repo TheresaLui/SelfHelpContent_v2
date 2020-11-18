@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-synapselink-howto"
-	displayOrder="319"
+	displayOrder="321"
 	category="Azure Synapse Link for Cosmos DB"
 	ownershipId="AzureData_AzureCosmosDB"
 />

@@ -11,7 +11,7 @@
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-howto"
-	displayOrder="183"
+	displayOrder="191"
 	category="Gremlin (Graph)"
 	ownershipId="AzureData_AzureCosmosDB"
 />

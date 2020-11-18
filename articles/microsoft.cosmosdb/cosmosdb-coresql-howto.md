@@ -11,7 +11,7 @@
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="cosmosdb-coresql-howto"
-    displayOrder="66"
+    displayOrder="75"
     category="Core (SQL)"
     ownershipId="AzureData_AzureCosmosDB"
 />

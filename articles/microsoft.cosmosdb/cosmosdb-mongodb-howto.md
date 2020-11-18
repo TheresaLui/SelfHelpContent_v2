@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-mongodb-howto"
-	displayOrder="221"
+	displayOrder="231"
 	category="MongoDB"
 	ownershipId="AzureData_AzureCosmosDB"
 />

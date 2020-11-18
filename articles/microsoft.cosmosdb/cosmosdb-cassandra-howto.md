@@ -11,7 +11,7 @@
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-howto"
-	displayOrder="146"
+	displayOrder="151"
 	category="Cassandra"
 	ownershipId="AzureData_AzureCosmosDB"
 />
