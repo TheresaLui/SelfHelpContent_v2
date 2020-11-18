@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. More information on stop errors and how to analyze them can be found here:
 > 
@@ -50,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Bug Check Code Reference](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2)
 > 
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
