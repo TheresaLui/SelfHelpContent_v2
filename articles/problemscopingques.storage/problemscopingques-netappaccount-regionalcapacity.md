@@ -19,8 +19,59 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "quota_value",
+            "id": "quota_type",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Quota type",
+            "required": true,
+            "dropdownOptions": [
+				{
+                    "value": "tib_per_subscription",
+                    "text": "Tibs per subscription"
+                },
+                {
+                    "value": "accounts_per_subscription",
+                    "text": "Accounts per subscription"
+                },
+				{
+                    "value": "pools_per_account",
+                    "text": "Pools per account"
+                },
+				{
+                    "value": "volumes_per_pool",
+                    "text": "Volumes per pool"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+			]
+        },
+        {
+            "id": "quota_region",
+            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel":"Location requested",
+            "watermarkText":"Choose a location",
+            "required": true,
+            "includeInQuotaSummary": true,
+            "dynamicDropdownOptions": {
+                "dependsOn": "quota_subtype",
+                "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
+                "jTokenPath":"value",
+                "textProperty":"displayName",
+                "ValueProperty":"name",
+                "valuePropertyRegex": ".*",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            }
+        },
+        {
+            "id": "quota_value",
+            "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Enter value",
             "watermarkText": "",
