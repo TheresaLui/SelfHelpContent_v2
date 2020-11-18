@@ -10,6 +10,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
+    resourceRequired="false"
 />
 # Requesting additional capacity
 ---
