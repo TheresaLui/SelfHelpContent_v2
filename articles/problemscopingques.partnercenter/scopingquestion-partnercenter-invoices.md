@@ -82,7 +82,7 @@
             "controlType": "textbox",
             "displayLabel": "# of customers impacted",
             "watermarkText": "Please provide the number of customers impacted.",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
