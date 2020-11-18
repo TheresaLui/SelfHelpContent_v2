@@ -18,6 +18,7 @@
     "resourceRequired":false,
     "title": "Request regional capacity quota",
     "fileAttachmentHint": "",
+    "quotaRequestVersion": "0.0",
     "formElements": [
         {
             "id": "quota_type",
