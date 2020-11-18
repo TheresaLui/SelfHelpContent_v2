@@ -48,7 +48,7 @@
             "id": "# of customers impacted",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "# of customers impacted.",
+            "displayLabel": "# of customers impacted",
             "watermarkText": "Provide the number of customers impacted.",
             "required": false
         },
