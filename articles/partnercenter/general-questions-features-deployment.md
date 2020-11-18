@@ -20,12 +20,12 @@
 
 # Product Feature and deployment questions
 
-CSP partner support is not the best place to ask these questions, instead utilize your MPN Benefits to ask questions using your MPN technical presales and deployment services benefits.
+**Please Note**
+- CSP partner support is not the best place to ask these questions, instead utilize your MPN Benefits to ask questions using your MPN technical presales and deployment services benefits.
 
 ## **Recommended Steps**
 
 If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
-
 
 ## **Recommended Documents**
 
