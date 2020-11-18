@@ -17,9 +17,9 @@
 
 # Check if this TSG applies to the customer scenario
 
-**This TSG is specific to Application Gateway "502 - Bad Gateway" errors. It is applicable to the below mentioned support topics.**
+## Verify if the customer issues matches this TSG
 
-Hello there! This TSG covers the following support topics:
+This TSG is specific to Application Gateway "502 - Bad Gateway" errors. It is applicable to the below mentioned support topics.
 
 * Azure/Application Gateway/Connectivity/502 errors
 * Azure/Application Gateway/502 errors
@@ -29,6 +29,7 @@ If your issue is not from the list above, you may use **Edit & Run Again** featu
 
 *This TSG does not cover intermittent 502 errors.*
 
-## Recommended documents
+### Recommended documents
 
 * [Azure Application Gateway documentation](https://docs.microsoft.com/en-us/azure/application-gateway/)
+* [Troubleshooting bad gateway errors in Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502)
