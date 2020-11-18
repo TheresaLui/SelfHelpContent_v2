@@ -100,7 +100,7 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 8,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
