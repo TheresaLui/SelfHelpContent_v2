@@ -41,6 +41,12 @@ To diagnose and resolve connectivity issues with network configuration, use the 
 	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
   ```
 
+* If IP Access List feature is enabled for the workspace, make sure to whitelist Azure Data Factory IPs to be able to run notebooks from ADF:
+
+  - To update IP access list or create additional new one with new CIDR, please follow this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+
+  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for “DataFactory.Region”. 
+  
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
