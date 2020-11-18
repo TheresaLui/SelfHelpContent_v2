@@ -49,7 +49,6 @@
         },
         {
             "id": "quota_region",
-            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Location requested",
@@ -57,7 +56,6 @@
             "required": true,
             "includeInQuotaSummary": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
