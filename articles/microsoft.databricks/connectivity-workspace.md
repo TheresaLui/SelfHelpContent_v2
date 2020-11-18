@@ -41,7 +41,7 @@ To diagnose and resolve issues regarding connectivity to Azure Databricks worksp
 
   - To update IP access list or create additional new one with new CIDR, please follow this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
 
-  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for “DataFactory.Region”. 
+  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for "DataFactory.Region". 
   
 * Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
