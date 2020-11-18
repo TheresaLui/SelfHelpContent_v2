@@ -19,7 +19,7 @@ ownershipId="AzureData_AzureSQLDB_Security"
 
 Please see the recommended video and documentation links to address common Azure SQL auditing questions. 
 
-### **Recommended Video**
+### Recommended video
 
 In the following video, you will learn about the strategies and methods for monitoring and auditing your Azure SQL database.
 
@@ -35,6 +35,6 @@ This video will highlight the following auditing capabilities:
 * Setup alerts for Advanced Threat Protection
 * Monitor Azure Security Center
 
-### **Recommended Documents**
+### More resources
 
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)

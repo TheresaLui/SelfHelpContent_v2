@@ -44,7 +44,7 @@ If you're still experiencing the issue, our [videos](#how-to-videos) and [resour
     </video>
     <video>
         <src>https://www.youtube.com/watch?v=goH_cgc7Nsw</src>
-        <title>How to identify and protect overexposed data in the cloud with Microsoft Cloud App Security</title>
+        <title>How to identify and protect overexposed data in the cloud with Cloud App Security</title>
     </video>
 </videoGroup>
 

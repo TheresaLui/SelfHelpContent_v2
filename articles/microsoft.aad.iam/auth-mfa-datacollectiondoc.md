@@ -127,23 +127,6 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Date(UTC):",
-            "content": null,
-            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
             "id": "appNameOrId",
             "visibility": "null",
             "order": 8,
@@ -151,7 +134,7 @@
             "displayLabel": "Application name or ID:",
             "content": null,
             "watermarkText": "Example: ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "infoBalloonText": "Application to log in to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
