@@ -37,7 +37,12 @@ To diagnose and resolve issues regarding connectivity to Azure Databricks worksp
     %sh
     curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
     ```
+* If IP Access List feature is enabled for the workspace, make sure to whitelist Azure Data Factory IPs to be able to run notebooks from ADF:
 
+  - To update IP access list or create additional new one with new CIDR, please follow this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+
+  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for “DataFactory.Region”. 
+  
 * Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
   |     Name                                                             |     Source                                |     Destination                                                                                                                                                                                                                                 |     Protocol:Port    |     Purpose                                                                                                   |
