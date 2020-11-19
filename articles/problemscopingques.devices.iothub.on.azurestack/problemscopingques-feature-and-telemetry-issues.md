@@ -75,7 +75,7 @@
       "order": 5,
       "controlType": "textbox",
       "displayLabel": "What is your stack build version?",
-      "useAsAdditionalDetails": true,
+      "useAsAdditionalDetails": false,
       "required": false
     },
     {
@@ -83,7 +83,7 @@
       "order": 6,
       "controlType": "textbox",
       "displayLabel": "Can you provide a list of affected device ids?",
-      "useAsAdditionalDetails": true,
+      "useAsAdditionalDetails": false,
       "required": false
     },
     {
@@ -121,8 +121,8 @@
       "controlType": "multilinetextbox",
       "displayLabel": "If you are using a device SDK, can you specify the language and version",
       "watermarkText": "Examples - Node 1.17.3, C# 1.32, etc)",
-      "useAsAdditionalDetails": true,
-      "required": true
+      "useAsAdditionalDetails": false,
+      "required": false
     },
     {
       "id": "problem_description",
