@@ -5,7 +5,7 @@
     ms.author="SteveEsp"
     articleId="a06456ed-afb7-4d16-86fd-0054e25268ed_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
 	ownershipId="CloudNet_Datapath"
 />
 # Accelerated Networking needs Stop and Start to re-engage 
@@ -34,7 +34,7 @@
     "serviceTreeId": "1ff361e9-fa69-4549-8b0f-65edfe5a8709"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
   "description": "Accelerated Networking may require stopping and starting the VM",
   "longDescription": "We have detected that Accelerated Networking is not engaged on a VM resources in your existing deployment even though the feature has been requested. In rare cases like this, it may be necessary to stop and start your VM, at your convenience, to re-engage AccelNet.",
