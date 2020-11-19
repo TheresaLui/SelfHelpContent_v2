@@ -24,7 +24,7 @@ Microsoft must comply with data subject rights requests for access, deletion, re
 
 ## **Recommended Steps**
 
-* Raise your privacy question or concern to our privacy team [here](https://aka.ms/privacyresponse)
+* Raise your privacy question or concern to our privacy team [here](https://privacy.microsoft.com/privacy-questions)
 
 * If you are a global administrator for your account, request data deletion in Azure [here](https://azure.microsoft.com/support/create-ticket/)
 
