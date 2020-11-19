@@ -267,10 +267,10 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure VM",
-      "searchTags": "IaaS;virtual machine",
+      "shortDescription": "Issue pertaining to backup of Azure Virtual Machine. For individual workloads running in VM, select relevant problem type",
+      "searchTags": "IaaS;virtual machine;Backup of VM",
       "category": "backup, restore, configuration",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
@@ -395,10 +395,10 @@
     {
       "id": "7a3867b1-7c5e-a334-4d0c-911960ebd675",
       "longDescription": null,
-      "shortDescription": "Azure Backup Server",
+      "shortDescription": "Issue pertaining to Azure Backup Server",
       "searchTags": "Azure Backup Server;MABS",
       "category": "MABS",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "80f662d1-4a0e-f8b3-7969-57f7218e1c09",
@@ -507,10 +507,10 @@
     {
       "id": "a1503a7e-657a-36ce-a5d5-110b02e4e420",
       "longDescription": null,
-      "shortDescription": "Backup Alerts and Reports",
-      "searchTags": "reports",
+      "shortDescription": "Issue pertaining to Backup Alerts and Reports",
+      "searchTags": "reports;alert",
       "category": "alerts and reports",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "a1c4e8c8-2302-5e0f-078d-b0a3ab42d6e0",
@@ -747,8 +747,8 @@
     {
       "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
       "longDescription": "",
-      "shortDescription": "SAP HANA database backup",
-      "searchTags": "SAP HANA",
+      "shortDescription": "Issue specific to backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA;SPA;HANA",
       "category": "SAP",
       "useInDiagnoseAndSolve": "false"
     },
