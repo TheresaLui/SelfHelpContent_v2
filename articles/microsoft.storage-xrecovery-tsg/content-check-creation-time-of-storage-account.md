@@ -22,7 +22,7 @@
 
 Successful completion will look like the following example SA output:
 
-~~~
+```
 {
     "DeletedAccount": {
         "value": [
@@ -41,7 +41,7 @@ Successful completion will look like the following example SA output:
         ]
     }
 }
-~~~
+```
 
 **Note:** If you receive the error message "Account not found," this may be because of the following reasons:
 
