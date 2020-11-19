@@ -30,7 +30,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "azvpnpms@microsoft.com",
     "icm": {
       "routingId": "MDM://vpngateway",
       "service": "VPN Gateway",
