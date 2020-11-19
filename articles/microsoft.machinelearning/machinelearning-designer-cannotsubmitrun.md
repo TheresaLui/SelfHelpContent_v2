@@ -22,7 +22,7 @@ Most users are able to resolve this issue using the steps below.
 
 1. If you cannot access Designer, it may be due to an RBAC issue. Ask your admin to check your permissions.
 1. Try refreshing the page or re-open the graph to see if it will unblock you
-1. File an issue by clicking the smiling face on the top right corner of Azure Machine Learning studio with **including screenshot** selected. Specify how many module nodes are in your graph. Our engineering team will investigate.
+1. File an issue by clicking the smile icon in the top right corner of Azure Machine Learning studio with **including screenshot** selected. Specify how many module nodes are in your graph. Our engineering team will investigate.
 
 ## **Recommended Documents**
 
