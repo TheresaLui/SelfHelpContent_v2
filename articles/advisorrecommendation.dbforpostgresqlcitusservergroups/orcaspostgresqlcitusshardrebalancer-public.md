@@ -41,8 +41,8 @@
   "version": 1.0,
   "learnMoreLink": "https://go.microsoft.com/fwlink/?linkid=2148869",
   "description": "Rebalance data in Hyperscale (Citus) server group to distribute workload among worker nodes more evenly",
-  "longDescription": "It looks like the data is not well balanced between worker nodes in this Hyperscale (Citus) server group. For full Hyperscale (Citus) benefits rebalance data in this server group.",
-  "potentialBenefits": "Improve query performance by utilizing resource of each node more evenly in the Hyperscale (Citus) server group",
+  "longDescription": "It looks like the data is not well balanced between worker nodes in this Hyperscale (Citus) server group. In order to use each worker node of the Hyperscale (Citus) server group effectively rebalance data in this server group.",
+  "potentialBenefits": "Get the most of Hyperscale (Citus) by utilizing resources of each node more evenly",
   "actions": [
     {
       "actionId": "a9dd0ae7-f241-4aad-a2d0-e2955f14bd80",
