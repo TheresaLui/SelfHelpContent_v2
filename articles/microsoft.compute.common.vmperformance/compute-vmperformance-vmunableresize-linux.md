@@ -12,18 +12,12 @@
 	productPesIds="16342,15571,15797,16454,16470"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d2152bb1-ed42-4865-bc62-9f391603ea92"
-	ownershipId="AzureData_AzureSQLVM"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine sizing issues
 
-## **Awareness**
-
->We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
-
 ## **Recommended Steps**
-
->If you are experiencing allocation failures in **UK South**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

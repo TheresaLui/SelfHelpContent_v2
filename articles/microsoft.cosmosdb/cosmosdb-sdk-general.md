@@ -6,7 +6,7 @@
 	authors="jimsch" 
 	ms.author="jimsch" 
 	selfHelpType="generic" 
-	supportTopicIds="32636812,32688840,32681010"
+	supportTopicIds="32741535,32688840,32681010"
 	resourceTags="" 
 	productPesIds="15585" 
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -17,20 +17,24 @@
 />
 
 # Introduction to Azure Cosmos DB SDK  
-Most users are able to resolve their .Net SDK case using the steps below.
+Most users are able to resolve their SDK case using the steps below. The Recommended Documents section contain further information for more troubleshooting scenarios.
 
 ## **Recommended Steps**  
 
 ### **Use latest SDK versions and singleton client**  
-Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
-<br>Please ensure you are using singleton client.  
+Always ensure you are using the latest SDK:
+* [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
+* [Azure Cosmos DB Java SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-java-v4)
+* [Azure Cosmos DB Python SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-python)
+* [Azure Cosmos DB Node.js SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-node)
+<br>Please ensure you are using singleton (one client instance for the lifetime of the application) client.
 
 ### **Known Issues and Solutions**  
-Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:    
-* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
-* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
-* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
-* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
+Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
+* [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
+* [Java SDK](https://github.com/Azure/azure-sdk-for-java/issues)
+* [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/issues)
+* [Python SDK Issues](https://github.com/Azure/azure-sdk-for-python/issues) , [Python SDK Limitations](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/cosmos/azure-cosmos#limitations)
 
 ### **Issues with Bulk Delete**
 Performance issue while deleting documents in Cosmos DB.
@@ -48,11 +52,14 @@ You can use both strategies but you should keep in mind that when indexer runs i
 [Troubleshoot issues when using Azure Cosmos DB .NET SDK](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the .NET SDK with Azure Cosmos DB SQL API accounts.  
 
-[Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
-<br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
+[Troubleshoot issues when you use the Java SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-sdk-v4-sql)
+<br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java V4 SDK with Azure Cosmos DB SQL API accounts. 
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
-[How can I improve my database performance?](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-<br>How a client connects to Azure Cosmos DB has important implications on performance, especially in terms of observed client-side latency. There are two key configuration settings available for configuring client Connection Policy, the connection mode and the connection protocol.  
+[How can I improve my database performance with .NET SDK?](https://docs.microsoft.com/azure/cosmos-db/performance-tips-dotnet-sdk-v3-sql)
+<br>This article covers the most common improvements that will improve your application performance when using the .NET SDK.
+
+[How can I improve my database performance with Java SDK?](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql)
+<br>This article covers the most common improvements that will improve your application performance when using the Java SDK.

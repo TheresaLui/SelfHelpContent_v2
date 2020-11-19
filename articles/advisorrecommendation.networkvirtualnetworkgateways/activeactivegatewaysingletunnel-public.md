@@ -5,7 +5,7 @@
     ms.author="alzam"
     articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 
@@ -26,7 +26,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "ActiveActiveGatewaySingleTunnel",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Health Alert"
+	pageTitle="Health Alert - TEST"
 	description="Health Alert"
 	infoBubbleText="Health Alert"
 	service="microsoft-aatp"
@@ -11,7 +11,7 @@
 	supportTopicIds="32729030"
 	resourceTags=""
 	productPesIds="16264"
-	cloudEnvironments="Public,fairfax"
+	cloudEnvironments="Public,fairfax, usnat, ussec"
 	articleId="2d7249f5-fdc3-ab46-8812-7cae1f713236"
 	ownershipId="Azure_Advanced_Threat_Protection"
 />

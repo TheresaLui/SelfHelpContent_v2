@@ -18,11 +18,6 @@
     "subscriptionRequired": false,
     "title": "MARS backup failure",
     "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
-     "diagnosticCard": {
-        "title": "MARS backup failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
@@ -38,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "backup_type",
@@ -60,8 +55,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "error_message",
@@ -75,7 +69,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://aka.ms/AB-MARS-troubleshoot'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#basic-troubleshooting'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {

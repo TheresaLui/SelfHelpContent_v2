@@ -21,6 +21,6 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was successfully created at **<!--$IssueTime-->[IssueTime]<!--/$IssueTime-->**.
 
-Any access issue to this storage account could caused by security restrictions. Please ensure you have permission to access this storage account. 
+Any access issue to this storage account could be caused by security restrictions. Please ensure you have permission to access this storage account. 
 <!--/issueDescription-->
 

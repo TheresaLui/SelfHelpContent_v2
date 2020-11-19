@@ -17,7 +17,7 @@
 	ownershipId="CloudNet_NetAnalytics"
 />
 
-# Common issues with NSG Flow Logs
+# Common issues with NSG Flow Logs 
 
 ## **Recommended Steps**
 

@@ -5,14 +5,14 @@
     ms.author="aadevteam"
     articleId="33e515fe-354c-4016-a0f7-c4d6585aea61_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_SynapseAnalytics"
 />
 # Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "33e515fe-354c-4016-a0f7-c4d6585aea61",
   "dataSourceMetadata": {

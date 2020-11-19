@@ -29,6 +29,7 @@ Support tickets for this issue should be reported in the Azure portal. To create
 
 ## **Recommended Documents**
 
+* [Selling Azure Reservations in CSP - Getting Started](https://docs.microsoft.com/partner-center/azure-ri-server-subscriptions#getting-started)
 * [Partner Center - Sell Microsoft Azure reservations](https://docs.microsoft.com/partner-center/azure-reservations)
 * [Azure CSP support overview](https://docs.microsoft.com/azure/cloud-solution-provider/support/azure-csp-support-overview)
 * [Escalate Azure Cloud Solution Provider issues to Microsoft](https://docs.microsoft.com/azure/cloud-solution-provider/support/create-azure-csp-support-request)

@@ -3,7 +3,7 @@
     description="Monitoring addon workspace is deleted"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="2edde431-0bff-427f-812a-dc4498753be6"
+    articleId="2edde431-0bff-427f-812a-dc4498753be6_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"

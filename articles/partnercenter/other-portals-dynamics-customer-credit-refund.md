@@ -18,14 +18,13 @@
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
-# This topic will guide partners to the support experience for Dynamics operations questionsrelated to credit and refund management
+# This topic will guide partners to the support experience for Dynamics operations questions related to credit and refund management
+
+ This topic will guide partners to the support experience for Dynamics operations questions related to credit and refund management
 
 
 ## **Recommended Steps**
-- Contact Dynamics Operations 
-* [Contact Credit & Collections Americas](https://support.microsoft.com/en-us/help/4344215/who-should-i-contact-for-support-relating-to-credits-collections-in-th) 
-* [Contact Credit & Collections EMEA](https://support.microsoft.com/en-us/help/4344216/who-should-i-contact-for-support-relating-to-credits-collections-in-em) 
-* [Contact Credit & Collections Asia Pacific](https://support.microsoft.com/en-us/help/4344217/who-should-i-contact-for-support-relating-to-credits-collections-in-as) 
+* [Contact Dynamics Operations](https://partner.microsoft.com/resources/detail/how-to-engage-with-operations-pdf) 
 
 ## **Recommended Documents**
 

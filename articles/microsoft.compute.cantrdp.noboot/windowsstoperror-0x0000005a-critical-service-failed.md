@@ -27,7 +27,9 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [Critical Service Failed](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x5a--critical-service-failed) troubleshooting guide
+* For additional information about this error, see the [Critical Service Failed](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x5a--critical-service-failed) bug check reference
+
+* To restore access to the VM, follow the steps in the [Windows shows blue screen error when booting an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-common-blue-screen-error) troubleshooting guide
 
 ## **Recommended Documents**
 

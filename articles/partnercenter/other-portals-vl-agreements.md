@@ -20,6 +20,7 @@
 
 # This topic will guide partners to the support experience for Volume Licensing operations questions supported by the Regional Operation Centers
 
+This topic will guide partners to the support experience for Volume Licensing operations questions supported by the Regional Operation Centers
 
 ## **Recommended Steps**
 
@@ -28,8 +29,11 @@
 
 ## **Recommended Documents**
 
- * [Partner licensing questions – quick reference guide](https://support.microsoft.com/help/4076425)    
- * [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)     
- * [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
+ * [Guide to licensing resources for Microsoft partners](https://docs.microsoft.com/partner-center/support-resources-licensing)
+ 
+ * [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)
+ 
+ * [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)
+ 
  
  

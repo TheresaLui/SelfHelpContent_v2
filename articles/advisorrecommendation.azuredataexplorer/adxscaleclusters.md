@@ -1,12 +1,12 @@
 <properties
-    pageTitle="Right-size Azure Data Explorer (ADX) clusters."
-    description="Right-size Azure Data Explorer (ADX) clusters."
+    pageTitle="Right-size Azure Data Explorer clusters."
+    description="Right-size Azure Data Explorer clusters."
     authors="raldaba"
     ms.author="aoaft"
     articleId="53c3a9f6-baa8-4997-b5a5-a3b5d3347afe_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="AzureOptimizationAutomation_AORec"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -16,8 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "da4d47d5-b48b-4308-93bc-29d954424e76",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_ADX_ScaleClusterReco",
+    "schemaVersion": 2.1,
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_ScaleClusterReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -26,14 +26,13 @@
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "Right-size ADX cluster",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "AROTOOLBOX\\AROToolboxDevTeam",
-      "service": "Azure Optimization Automation",
-      "team": "Azure Optimization Automation"
+      "routingId": "AORECOMMENDATIONS\\Triage",
+      "service": "AO Recommendations",
+      "team": "Triage"
     },
     "serviceTreeId": "a3db6cf3-640c-4340-8381-108d31853b7f"
   },
@@ -44,8 +43,8 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
+  "version": 2.0,
+  "learnMoreLink": "https://aka.ms/adxskuperformance",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize performance",
@@ -86,10 +85,6 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
     {
       "name": "currentConfig",
       "title": "Current Configuration"

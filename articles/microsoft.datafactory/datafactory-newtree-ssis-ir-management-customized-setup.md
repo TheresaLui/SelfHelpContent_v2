@@ -7,7 +7,7 @@
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-customized-setup.md"
 	displayOrder="10"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680894"
 	resourceTags=""
 	productPesIds="15613"

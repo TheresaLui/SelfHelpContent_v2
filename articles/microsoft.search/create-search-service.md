@@ -6,7 +6,7 @@
 	authors="cynotebo"
 	ms.author="cynotebo"
 	selfHelpType="resource"
-	displayOrder="80"	
+	displayOrder="80"
 	supportTopicIds="32681355"
 	resourceTags=""
 	productPesIds="15568"
@@ -19,14 +19,6 @@
 
 ## **Recommended Steps**
 
-### **Azure capacity restrictions related to COVID-19**
-
-Microsoft is committed to supporting businesses, schools, and governments mobilize their remote workforces in response to social distancing guidelines from health authorities. As expected, we've seen significant usage increases in services that support these efforts – including Microsoft Teams, Windows Virtual Desktop, and Azure Media Services.  For more information, please read this blog post about [our commitment to customers and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/) while we all come together to battle this global pandemic.
-
-As demand continues to grow, we are faced with temporary capacity constraints in several Azure regions. As a result, customers are currently unable to use the portal to create new Azure Cognitive Search services in the following regions: **UK South, France Central, North Europe, UAE North, Central India**
-
-At this time we suggest you create your search service in a different region. We apologize for any inconvenience this causes and expect this situation to improve in the coming months as general capacity constraints are resolved across Azure.
-
 ### **General issues creating a search service**  
 
 If you are having trouble creating an Azure Cognitive Search service, you should ensure that:
@@ -34,7 +26,7 @@ If you are having trouble creating an Azure Cognitive Search service, you should
 1.	You have access to create resources within your Azure subscription
 2.	You have provided a unique name for your search service and followed the naming guidelines found [here](https://docs.microsoft.com/azure/search/search-create-service-portal)
 3.	You have selected a [supported region](https://azure.microsoft.com/pricing/details/search/) for Azure Cognitive Search
-4.	You have allowed adequate time for the Azure Cognitive Search service to be deployed. This typically occurs within minutes and can be monitored through Azure notifications.
+4.	You have allowed adequate time for the Azure Cognitive Search service to be deployed. This typically occurs within minutes and can be monitored through Azure notifications.  In some cases, services on the Basic tier may take up to 90 minutes to provision.  This should be relatively rare, but please allow this much time to pass before opening a support case.
 5.	You have not already used your allotted number of free search services.  By default, each subscription is allowed only one free search service.
 
 ## **Recommended Documents**

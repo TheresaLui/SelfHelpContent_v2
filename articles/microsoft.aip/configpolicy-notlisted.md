@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="configpolicy_policiesnotexpected"
+	articleId="configpolicy_notlisted"
 	ownershipId="AzureIdentity_InformationProtection"
 />
 

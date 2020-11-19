@@ -21,7 +21,8 @@
 
 1. Verify that you are signed in with the correct user account that has permissions to open the protected content
 2. Review [Configuring secure document collaboration by using Azure Information Protection](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents)
-3. Review recommended documentation below
+3. If you have Conditional Access enabled, make sure it's properly configured for Azure Information Protection: [I see Azure Information Protection is listed as an available cloud app for conditional access—how does this work?](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work) 
+4. Review recommended documentation below
 
 ## **Recommended Documents**
 

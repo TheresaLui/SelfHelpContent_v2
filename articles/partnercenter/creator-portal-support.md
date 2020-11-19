@@ -14,18 +14,20 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to the support experience for Creator portal
 
+This topic will guide you to the support experience for Creator portal.
 
 ## **Recommended Steps**
 
-- Review the support options available [here](https://support.microsoft.com/kb/3020636)
+- Review the support options available [here](https://support.serviceshub.microsoft.com/supportforbusiness/create)
 
 
 ## **Recommended Documents**
 
- * [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+- [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+

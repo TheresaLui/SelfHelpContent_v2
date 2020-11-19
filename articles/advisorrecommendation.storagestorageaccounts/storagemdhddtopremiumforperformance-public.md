@@ -1,11 +1,11 @@
 <properties
     pageTitle="Convert Managed Disks from Standard HDD to Premium SSD"
     description="Convert Managed Disks from Standard HDD to Premium SSD"
-    authors="lisson"
-    ms.author="xdataanalytics"
+    authors="xdataanalytics"
+    ms.author="yuriic"
     articleId="e4fc6ecb-b3e8-4494-800f-547da6a57f28_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Convert Standard HDD to Premium SSD for Performance
@@ -22,11 +22,11 @@
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Storage/storageAccounts",
+  "recommendationResourceType": "Microsoft.Compute/disks",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
   "recommendationMetadataState": "Disabled",
   "owner": {
-    "email": "lisson@microsoft.com",
+    "email": "yuriic@microsoft.com",
     "icm": {
       "routingId": "mdm://XStore/DataAnalytics",
       "service": "Xstore",
@@ -34,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 1.2,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#premium-ssd",
   "description": "Convert Managed Disks from Standard HDD to Premium SSD for performance",
   "longDescription": "We have noticed your Standard HDD disk is approaching performance targets. Azure premium SSDs deliver high-performance and low-latency disk support for virtual machines with IO-intensive workloads. Give your disk performance a boost by upgrading your Standard HDD disk to Premium SSD disk. Upgrading requires a VM reboot, which will take three to five minutes.",

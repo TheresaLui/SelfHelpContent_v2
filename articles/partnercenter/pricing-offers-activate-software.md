@@ -10,10 +10,10 @@
 	articleId="partnercenter_pricing_offers_activate_software"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692618,32730252"
+	supportTopicIds="32730252"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />

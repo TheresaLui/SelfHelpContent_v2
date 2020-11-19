@@ -10,10 +10,10 @@
     articleId="ConfigSettingsDisabled_4f775a06-7699-4fed-b558-f11faf80a73e"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630399,32630434,32630450,32630454"
+    supportTopicIds="32630434,32630450,32630454"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="Public,Mooncake, fairfax, usnat, ussec"
+    cloudEnvironments="Public,Mooncake,fairfax,usnat,ussec"
     ownershipId="AzureData_AzureSQLDB_Performance"
 />
 

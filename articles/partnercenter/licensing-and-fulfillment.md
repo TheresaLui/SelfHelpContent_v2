@@ -10,23 +10,24 @@
 	articleId="partnercenter_licensing_and_fulfillment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635682"
+	supportTopicIds="32692600"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Licensing and fulfillment
 
 ## **Recommended Steps**
 
-* Make sure you have read the [Quick Reference Guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide) for licensing questions before creating a service request
+* Make sure you have read the [Quick Reference Guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide) for licensing questions
 
 ## **Recommended Documents**
 
 * [Dynamics 365 licensing](https://partner.microsoft.com/resources/collection/microsoft-dynamics-365)
 * [Office 365 product documentation](https://docs.microsoft.com/office/)
+* [Communication credits and calling plans](https://docs.microsoft.com/microsoftteams/what-are-communications-credits)
 * [Microsoft 365 product documentation](https://partner.microsoft.com/en-US/resources/collection/microsoft-dynamics-365#/)
 * [Azure Pricing](https://azure.microsoft.com/pricing/)
 * [Azure Products](https://docs.microsoft.com/azure/#pivot=products)
