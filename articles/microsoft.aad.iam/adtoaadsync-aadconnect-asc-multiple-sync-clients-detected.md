@@ -23,4 +23,4 @@ The following host machines are synchronizing to Azure AD directory: <!--$IssueD
 
 ## **Recommended Steps**
 Please validate your setup. If you have multiple sync clients synchronizing by mistake, you need to make sure only one client synchronizes objects to their Azure AD directory.
-You need to decommission other sync clients(s) by uninstalling Azure AD Connect from those host machines.
+For all other servers, enable [“Staging Mode”](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-staging-server) or decommission them by uninstalling Azure AD Connect if they are no longer required.
