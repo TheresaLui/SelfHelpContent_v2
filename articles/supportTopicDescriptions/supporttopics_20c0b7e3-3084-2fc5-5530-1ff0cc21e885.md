@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -315,6 +315,14 @@
       "shortDescription": "Jobs running Spark SQL script fail with an error message or return unexpected results.",
       "searchTags": "spark;job;execution;failure;sql",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4a8fe784-6596-95a1-e905-078a20f6a8a3",
+      "longDescription": "",
+      "shortDescription": "Questions on setting up and using auditing to track database events and analyzing the corresponding audit logs.",
+      "searchTags": "audit;logs;reports;analytics",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
