@@ -1,5 +1,5 @@
 <properties
-  pagetitle="AlwaysOn, High Availability, Disaster Recovery - Database Mirroring"
+  pagetitle="AlwaysOn, High Availability, Disaster Recovery - Database Mirroring&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -38,7 +38,7 @@ Most users are able to resolve their Database Mirroring issues using the followi
       GRANT CONNECT ON ENDPOINT::Endpoint_Mirroring TO [Domain\Login];
       ```
 
-* **Mirror Server Database is Disconnected/In Recovery**
+  * **Mirror Server Database is Disconnected/In Recovery**
 
      Make sure the [endpoints are configured correctly]( https://docs.microsoft.com/sql/database-engine/database-mirroring/troubleshoot-database-mirroring-configuration-sql-server?view=sql-server-ver15#Endpoints). If you have set up database mirroring with Certificates, make sure that certificates are not expired and [Outbound connections are set up correctly](https://docs.microsoft.com/sql/database-engine/database-mirroring/example-setting-up-database-mirroring-using-certificates-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15#ConfiguringOutboundConnections).
 
