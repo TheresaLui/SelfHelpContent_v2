@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -507,6 +507,14 @@
       "shortDescription": "Issues to configure for Azure Synapse Link for Cosmos DB.",
       "searchTags": "synapse;link;cosmosdb;configuration;analytical",
       "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
+      "longDescription": "",
+      "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
+      "searchTags": "roles;access control;permissions;security;sql",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
