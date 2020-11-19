@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -707,6 +707,14 @@
       "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
       "searchTags": "history;server;spark;log;debug",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6ed67f3-c933-0f15-4d02-39800475932f",
+      "longDescription": "",
+      "shortDescription": "Issues related to data sensitivity classification feature, applying recommendations, auditing access to sensitive data and alerting.",
+      "searchTags": "data;discovery;classification;sensitivity;security",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
