@@ -8,7 +8,7 @@
        productPesIds="17006"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
-       articleId="problemscopingques_partnercenter_acctmgt_issue" 
+       articleId="problemscopingques_partnercenter_cosell_mpnid_offer_setup" 
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Ingestion"
 />
