@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -666,6 +666,14 @@
       "longDescription": "",
       "shortDescription": "Problems related to Transparent Data Encryption (TDE), including Azure Key Vault (AKV) and Database Encryption Key (DEK).",
       "searchTags": "TDE;AKV;DEK;encryption;transparent data encryption",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3e72e0f-077a-8f36-d8a2-3073dcaf062c",
+      "longDescription": "",
+      "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
+      "searchTags": "connectivity;aad;sql;connection;login",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
