@@ -20,17 +20,17 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, connection(s) to the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, by the requesting client IP address were not allowed due to the existing firewall rule(s).
+Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, connection(s) to the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, by the requesting client IP address was not allowed due to the existing firewall rule.
 
-This occurs when a client computer attempt to connect your Server from On-premises or from Azure Services (Web App or from a Virtual machine) and the  IP address of the client is NOT within a range of any of the Database-level OR  Server-level IP firewall rules, then the connection request(s) will fail.
+This occurs when a client computer attempts to connect your server from on-premises or from Azure Services (Web App or from a virtual machine), and the IP address of the client is not within a range of any of the database-level or server-level IP firewall rules. In this case, the connection request fails.
 
-The firewall configuration varies depending on client connecting from Inside or Outside of Azure.
+The firewall configuration varies, depending on whether the client is connecting from inside or outside of Azure.
 
-If you're connecting from **on-premises** (your local machine) to Azure SQL DB, please ensure that the firewall on your network / local computer allow outgoing communication on TCP port 1433.
+If you're connecting from **on-premises** (your local machine) to Azure SQL DB, ensure that the firewall on your network and local computer allows outgoing communication on TCP port 1433.
 
-If your application or client connecting from **inside azure**, the firewall verifies that Azure connections are allowed. You can turned this ON (allow) directly from the Azure portal blade by setting Firewall rules, as well as switching the Allow Azure Services and resources to access this server to ON in the Firewalls and virtual networks settings.
+If your application or client is connecting from **inside Azure**, the firewall verifies that Azure connections are allowed. You can turned this on (allow) directly from the Azure portal blade by setting firewall rules, and by switching the Allow Azure Services and resources to access this server to **On** in the firewall and virtual networks settings.
 
-For more information on how to configure firewall rules please refer the documents below.
+For more information on how to configure firewall rules, see the following documents.
 
 <!--/issueDescription-->
 
