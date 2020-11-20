@@ -20,7 +20,7 @@ ownershipId="CloudNet_VirtualNetwork"
 # This subscription has been evaluated and payment history requisite has not been met
 
 <!--issueDescription-->
-We found your Subscription **'<!--$SubscriptionName-->[SubscriptionName]<!--/$SubscriptionName-->'** of type **'<!--$SubOfferType-->[SubscriptionOfferType]<!--/$SubOfferType-->'** is disabled. We have just evaluated your subscription and your subscription does not have the required payment history to enable this feature. This service is only available for our existing customers having paid invoices totaling at least $1,000 USD (or equivalent in local currency).  It looks like your Azure subscription isn’t eligible yet.  Please try again once your subscription meets this eligibility criteria.” 
+We found your Subscription **'<!--$SubscriptionName-->[SubscriptionName]<!--/$SubscriptionName-->'** of type **'<!--$SubOfferType-->[SubscriptionOfferType]<!--/$SubOfferType-->'** is disabled. We have just evaluated your subscription and your subscription does not have the required payment history to enable this feature. This service is only available for our existing customers having paid invoices totaling at least 1,000 USD (or equivalent in local currency).  It looks like your Azure subscription isn’t eligible yet.  Please try again once your subscription meets this eligibility criteria.” 
 <!--/issueDescription-->
 
 ## **Recommended Documents**
