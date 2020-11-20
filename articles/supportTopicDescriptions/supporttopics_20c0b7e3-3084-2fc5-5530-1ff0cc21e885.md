@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -402,6 +402,14 @@
       "longDescription": "",
       "shortDescription": "Jobs running .NET Spark (C-Sharp) fail with an error message.",
       "searchTags": "spark;job;failure;net",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "65ed1f16-b289-d30c-a9a9-7f1b3a0bbd7e",
+      "longDescription": "",
+      "shortDescription": "Failures related authentication or connectivity when accessing storage from Spark Jobs.",
+      "searchTags": "storage;access;connectivity;authentication;spark",
       "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
