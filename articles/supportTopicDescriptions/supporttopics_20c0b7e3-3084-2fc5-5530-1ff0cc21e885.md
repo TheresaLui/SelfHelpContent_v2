@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -811,6 +811,14 @@
       "shortDescription": "Failures to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
       "searchTags": "manage;create;drop;delete;workspace",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e67d8eaf-84c6-ee9c-b310-8d0e9484ea5d",
+      "longDescription": "",
+      "shortDescription": "Issues related to SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
+      "searchTags": "ssms;management;studio;connect;sql",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
