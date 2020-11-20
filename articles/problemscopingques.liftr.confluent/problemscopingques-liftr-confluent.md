@@ -34,7 +34,7 @@
             "controlType": "textbox",
             "displayLabel": "Customer's tenant ID",
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
         {
             "id": "subscription_id",
@@ -42,7 +42,7 @@
             "controlType": "textbox",
             "displayLabel": "Customer's Subscription No.",
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
         {
             "id": "resource_id",
@@ -58,7 +58,7 @@
             "controlType": "textbox",
             "displayLabel": "Customer's Email",
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
