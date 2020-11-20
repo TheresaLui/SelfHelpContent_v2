@@ -590,6 +590,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "adad7c7b-44a2-9363-d7ea-6692c31bcfc8",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Dedicated SQL pool Private Link.",
+      "searchTags": "connectivity;networking;sql;private;link",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af8c8965-4e35-e603-16bb-c6aa07c641b8",
       "longDescription": "",
       "shortDescription": "Assistance with failures during the lifetime of a Spark job from submition until completion.",
