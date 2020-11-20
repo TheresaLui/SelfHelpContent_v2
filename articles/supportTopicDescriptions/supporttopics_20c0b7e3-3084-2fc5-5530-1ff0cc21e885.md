@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aa82318e-eacd-122b-48bf-0f99d75b3b04",
+      "longDescription": "",
+      "shortDescription": "Issues related to a database restore, backup retention policies, or restoring to different region.",
+      "searchTags": "backup;restore;sla;region;retention",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "abd7233f-6063-d1ea-5b94-071df586b299",
       "longDescription": "",
       "shortDescription": "Executing a copy or data flow activity in a pipeline terminates with unexpected results or is running into system errors.",
