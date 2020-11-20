@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -643,6 +643,14 @@
       "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for SQL Pool.",
       "searchTags": "how;advisory;sql;query;performance",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "be986d52-653b-a4f3-cfe2-aa305984af8f",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Self-Hosted Integration Runtime, slow performance, network or connectivity errors or unhandled exceptions.",
+      "searchTags": "shir;integration runtime;performance;ir;hosted",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
