@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "25f9e86c-d285-d4ae-c5fb-cfca4fa9bdb8",
+      "longDescription": "",
+      "shortDescription": "Failures to configure virtual network rules or connect to SQL pools through a VNet service endpoints.",
+      "searchTags": "connectivity;unavailable;sql;vnet;endpoint",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2872d3c0-6fd4-0cfd-7bbb-e86d5197453e",
       "longDescription": "",
       "shortDescription": "Failures to configure or connect to SQL pool through a Private Link.",
