@@ -17,7 +17,8 @@
 
 # Configuring new or existing policy settings for Azure Active Directory Services
 
-**Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)**
+### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
 Quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom).  
 Steps to use the diagnostic: 
 1. Launch the Sign-in Diagnostic.
@@ -27,7 +28,7 @@ Steps to use the diagnostic:
 ## **Recommended Steps**
 **Steps to deploy a Conditional Access Policy**
 
-Before you get started, download the step-by-step Conditional Access [Deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
+Before you get started, download the step-by-step Conditional Access [Deployment plan](https://github.com/AzureAD/Deployment-Plans/raw/master/Conditional%20Access/CA%20Deployment%20Plan.docx)
 1. [Configure Policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
 2. Test policy using [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if) and [Report-Only Mode](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only)	
 3. [Move to Production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
