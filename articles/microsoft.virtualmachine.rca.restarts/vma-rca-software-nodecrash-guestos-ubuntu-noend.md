@@ -42,7 +42,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:
 > 
@@ -50,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Ubuntu Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
 > * [Ubuntu wiki - Crash Dump Recipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
