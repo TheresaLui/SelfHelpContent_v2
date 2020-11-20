@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -123,6 +123,14 @@
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
       "searchTags": "client;tools;driver;application;workspace",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "18960869-a3fa-dbb7-4862-52e6fe55b85c",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
+      "searchTags": "history;server;spark;log;debug",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {
