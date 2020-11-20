@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -883,6 +883,14 @@
       "shortDescription": "Failures to create or drop a SQL pool, slow or hung operations, or unexpected behavior.",
       "searchTags": "create;drop;delete;sql;pool",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc7634ff-40ee-80ac-f305-16536c8bc1b6",
+      "longDescription": "",
+      "shortDescription": "Problems related to Synapse Studio User Experience or User Interface, like authoring, development or publishing issues.",
+      "searchTags": "authoring;development;publishing;ui;ux",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {
