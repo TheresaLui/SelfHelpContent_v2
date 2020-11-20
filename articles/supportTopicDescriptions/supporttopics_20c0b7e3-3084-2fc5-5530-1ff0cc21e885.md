@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -83,6 +83,14 @@
       "shortDescription": "Assistance to management operations for workspaces or pools, manually or using ARM templates.",
       "searchTags": "manage;scale;pause;create;resume",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0f8a9086-68d4-bb19-4e19-cd80bb09fa65",
+      "longDescription": "",
+      "shortDescription": "Execution of a Spark activity is failing due to some error in Pipeline (e.g. a system error on pipeline runs rather than a code execution error).",
+      "searchTags": "spark;pipeline;activity;execution;performance",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
