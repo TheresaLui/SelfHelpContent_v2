@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -299,6 +299,14 @@
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
       "searchTags": "sql;ssis;dataflow;load",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "43a81a57-3887-b851-8ebb-1dc58f8137d5",
+      "longDescription": "",
+      "shortDescription": "Execution of a stored procedure activity is failing due to some error in Pipeline, like a system error rather than a stored procedure execution error.",
+      "searchTags": "stored procedure;sp;procedure;activity",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
