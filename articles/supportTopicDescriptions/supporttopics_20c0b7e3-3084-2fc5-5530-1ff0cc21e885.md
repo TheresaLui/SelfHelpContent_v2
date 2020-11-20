@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "027454b4-c2a9-ad54-dc5b-99fe4e17792a",
+      "longDescription": "",
+      "shortDescription": "Configuration of security for accessing SQL Serverless endpoint, SQL objects, or accessing data on storage using External Tables, OPENROWSET or CETAS.",
+      "searchTags": "access control;storage;sql;security;permissions",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "05c89f3d-fb54-b346-843d-a203269e9d89",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure Data Studio to interact with Synapse Workspace and its components.",
