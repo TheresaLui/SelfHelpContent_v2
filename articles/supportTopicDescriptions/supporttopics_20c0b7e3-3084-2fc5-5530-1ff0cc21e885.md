@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4a8fe784-6596-95a1-e905-078a20f6a8a3",
+      "longDescription": "",
+      "shortDescription": "Questions on setting up and using auditing to track database events and analyzing the corresponding audit logs.",
+      "searchTags": "audit;logs;reports;analytics",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "515629d0-64a2-ecf6-ed51-c5013eb40c89",
       "longDescription": "",
       "shortDescription": ".NET for Spark C-Sharp job is running slow or hangs.",
