@@ -20,7 +20,7 @@
 ## **Recommended Steps**
 
 **START HERE**:  To **self-resolve** common backup failure issues, follow these [step-by-step](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-by-step-guide-to-troubleshoot-backup-failures) instructions
-- Review the supported/not supported [Linux Operating System and dependent *Python version*](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-linux)
+- Review the supported/not supported [Linux distributions and dependent *Python version*](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-linux)
 
 **VM/Guest agent error codes**
 
@@ -33,6 +33,7 @@
 - [**UserErrorRpCollectionLimitReached**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached) - The Restore Point collection max limit has reached
 - [**UserErrorKeyVaultPermissionsNotConfigured**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorkeyvaultpermissionsnotconfigured---backup-doesnt-have-sufficient-permissions-to-the-key-vault-for-backup-of-encrypted-vms) - Backup doesn't have sufficient permissions to the key vault for backup of encrypted VMs
 - [**UserErrorRequestDisallowedByPolicy**](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorrequestdisallowedbypolicy---an-invalid-policy-is-configured-on-the-vm-which-is-preventing-snapshot-operation) - An invalid policy is configured on the VM which is preventing Snapshot operation
+- [**UserErrorUnableToOpenMount**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-6-closing-the-connection) - Ensure previous connection to backup service is closed after the files are restored
 
 
 **Other error codes**
