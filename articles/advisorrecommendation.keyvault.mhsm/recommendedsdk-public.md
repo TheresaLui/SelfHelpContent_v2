@@ -17,7 +17,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://azuremanagedhsmprod.kusto.windows.net').database('azuremanagedhsmprod').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
-		"refreshInterval": "00:30:00"
+		"refreshInterval": "1.00:00:00"
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
