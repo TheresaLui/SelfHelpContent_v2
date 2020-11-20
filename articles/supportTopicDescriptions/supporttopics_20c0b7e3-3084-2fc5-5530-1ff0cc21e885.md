@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -347,6 +347,14 @@
       "shortDescription": "Problems that occur during a database restore, backup retention policies, or issues restoring to different region.",
       "searchTags": "backup;restore;sla;region;retention",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5bbdc6a6-0508-8419-1905-ba6fc36cdfb3",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using Serverless SQL.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
     {
