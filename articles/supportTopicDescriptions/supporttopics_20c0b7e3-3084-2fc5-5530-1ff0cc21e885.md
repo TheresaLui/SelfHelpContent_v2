@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -107,6 +107,14 @@
       "shortDescription": "Errors or unexpected behavior while creating or executing SQL scripts in Synapse Studio environment.",
       "searchTags": "sql;script;studio;authoring;development",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "14a232e3-5485-97ae-4962-ad06c1446a7d",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
+      "searchTags": "intellij;client;scala;spark",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
