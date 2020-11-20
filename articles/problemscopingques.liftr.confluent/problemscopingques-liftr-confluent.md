@@ -4,7 +4,7 @@
 	authors="johnnygetHub"
 	ms.author="johnnyc"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783353,32783354,32783355,32783356,32783357,32783358"
+	supportTopicIds="32783354,32783355,32783356,32783357,32783358"
     productPesIds="17363"
 	cloudEnvironments="public"
     articleId="76e6f060-9906-4636-a870-bf7c34b49d70"
@@ -30,7 +30,7 @@
         },
         {
             "id": "tenant_id",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Customer's tenant ID",
             "useAsAdditionalDetails": false,
