@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -835,6 +835,14 @@
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
       "searchTags": "spark;job;execution;link;cosmosdb",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f14a2f2c-e445-0091-1691-97945169eaa2",
+      "longDescription": "",
+      "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
+      "searchTags": "vulnerability;assessment;security;compliance;scan",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
