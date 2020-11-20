@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -619,6 +619,14 @@
       "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected. Slow or hanging Copy activity.",
       "searchTags": "pipeline;trigger;performance;slow;hang",
       "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bc688e95-13b2-c77c-4010-4efd41d6264a",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuration or management of Customer Managed Keys.",
+      "searchTags": "cmk;customer managed keys;configuration;management",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
