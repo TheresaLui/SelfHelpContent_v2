@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -555,6 +555,14 @@
       "shortDescription": "Executing a copy or data flow activity in a pipeline terminates with unexpected results or is running into system errors.",
       "searchTags": "piepline;execution;activity;data;flow",
       "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ac02ba5f-4cb6-7c3f-9f4f-99c59c36c6b3",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior on Synapse Workspace.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
     {
