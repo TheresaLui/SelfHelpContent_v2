@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -611,6 +611,14 @@
       "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL on-demand, separate topic for SQL pool.",
       "searchTags": "sql;performance;query;execution;slow",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b89cf2d1-93cc-c71c-9882-2278bfcda0cb",
+      "longDescription": "",
+      "shortDescription": "Failures to scale a Dedicated SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
+      "searchTags": "crud;scale;sql;manage",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
