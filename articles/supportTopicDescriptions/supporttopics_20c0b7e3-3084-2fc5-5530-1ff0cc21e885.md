@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -851,6 +851,14 @@
       "shortDescription": "Error or unexpected behavior during Spark job submission phase. Not for failures after job execution starts successfully.",
       "searchTags": "spark;job;execution;failure;pool",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f30bf66d-c850-0b99-e376-75a3ed44ebbd",
+      "longDescription": "",
+      "shortDescription": "Guidance on how to use Synapse features, best practices and recommendations, or questions about expected product behavior.",
+      "searchTags": "how;advisory;practices;recommendations",
+      "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
     {
