@@ -38,6 +38,6 @@ Most users can resolve issues concerning **Quorum lost/Windows cluster stops/Eve
 
 ##Recommended  Documents 
 
-- [Cluster network thresholds are relaxed](https://docs.microsoft.comwindows-server/troubleshoot/iaas-sql-failover-cluster)
+
 - [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support)
 - Set [disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support)
