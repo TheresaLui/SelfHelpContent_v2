@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -339,6 +339,14 @@
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Machine Learning models.",
       "searchTags": "sql;ml;machine;learning;model",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5615b093-1823-0e47-e2bf-87bf701b7458",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues affecting any client tools used to interact with Synapse Workspace components.",
+      "searchTags": "client;tools;azure;portal;workspace",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
