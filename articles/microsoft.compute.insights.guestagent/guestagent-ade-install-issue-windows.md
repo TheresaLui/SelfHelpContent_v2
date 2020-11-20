@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Disk Encryption Extension Installation Issue"
-    description="Resolve installation issues with Azure Disk Encryption extension on Azure Windows VMs"
+    pageTitle="Azure Disk Encryption Extension and VM Agent Installation Issue"
+    description="Resolve installation issues with VM AGent and Azure Disk Encryption extension on Windows VMs"
     infoBubbleText="Resolve GuestAgent ADE Installation Issue"
 	service="microsoft.compute"
     resource="virtualmachines"
@@ -8,7 +8,7 @@
     ms.author="mnanda,tibasham"
     displayOrder=""
     articleId="GuestAgent-ADE-Install-Issue-Insight"
-    diagnosticScenario="Resolve GuestAgent ADE Installation Issue"
+    diagnosticScenario="Resolve VM Agent and ADE installation Issue"
     selfHelpType="diagnostics"
     supportTopicIds="32628268"
     resourceTags="windows, windowsSQL"
@@ -35,4 +35,4 @@ A workaround for this issue is to ensure the VM Agent install to completes, befo
     Add the [dependsOn](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference any one of these extensions. 
 
 ### If you are not installing any other extensions as part of your deployment
-    You can use the [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema (CSE) with a Hello World type script.
+    You can use the [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema (CSE) with a Hello World type script. 
