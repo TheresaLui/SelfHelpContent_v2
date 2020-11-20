@@ -155,9 +155,9 @@
     {
       "id": "2497a519-665c-6844-a061-c6a7b9cb955d",
       "longDescription": null,
-      "shortDescription": "Issue during restore of Linux virtual machine ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues during restore for Linux",
+      "searchTags": "Linux;restore",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
