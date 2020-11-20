@@ -45,10 +45,10 @@ Are you facing one of these common problems?
 
 ## **Recommended Documents**
 
-* [Configure an Azure VM cluster using Terraform](https://docs.microsoft.com/en-in/azure/developer/terraform/create-vm-cluster-module)
+* [Configure an Azure VM cluster using Terraform](https://docs.microsoft.com/azure/developer/terraform/create-vm-cluster-module)
 * [Create a Linux VM with infrastructure in Azure using Terraform](https://docs.microsoft.com/azure/developer/terraform/create-linux-virtual-machine-with-infrastructure)
 * [Continuous integration and delivery in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment)
 * [Continuous integration and delivery on Azure Databricks using Azure DevOps](https://docs.microsoft.com/azure/databricks/dev-tools/ci-cd/ci-cd-azure-devops)
-* [Create a trigger that runs a pipeline on a schedule](https://docs.microsoft.com/en-us/azure/data-factory/how-to-create-schedule-trigger)
+* [Create a trigger that runs a pipeline on a schedule](https://docs.microsoft.com/azure/data-factory/how-to-create-schedule-trigger)
 * [Linked services in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-linked-services)
-* [Pipelines and activities in Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities)
+* [Pipelines and activities in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
