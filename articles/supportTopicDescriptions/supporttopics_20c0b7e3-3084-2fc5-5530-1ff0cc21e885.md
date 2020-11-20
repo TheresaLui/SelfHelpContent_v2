@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -203,6 +203,14 @@
       "shortDescription": "Failures to connect to SQL on-demand endpoint or database unavailable. Do not use for AAD authentication or Firewall issues.",
       "searchTags": "connectivity;unavailable;sql;connection;fail",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2bc296b2-0f5f-6a88-c004-f31fb1e19a49",
+      "longDescription": "",
+      "shortDescription": "Configuration or execution issues in a data flow activity using Common Data Model (CDM) format connector as a source or sink.",
+      "searchTags": "cdm;common data model;connector;source;sink",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
