@@ -387,8 +387,8 @@
     {
       "id": "79c28470-7917-6671-055d-668754e214e0",
       "longDescription": null,
-      "shortDescription": "Failures during scheduled or on-demand backup",
-      "searchTags": "backup;failed;on-demand;scheduled;jobs",
+      "shortDescription": "Failures during scheduled or on-demand backups of Linux VMs",
+      "searchTags": "backup;failed;on-demand;scheduled",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
