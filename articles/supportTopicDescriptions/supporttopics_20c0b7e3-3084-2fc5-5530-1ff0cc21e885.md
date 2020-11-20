@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -147,6 +147,14 @@
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL Pools.",
       "searchTags": "how;advisory;sql;client;tools",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2168075b-0306-cd4d-3a56-23090766c564",
+      "longDescription": "",
+      "shortDescription": "Spark Job failure or slow performance while reading data from Azure Data Explorer.",
+      "searchTags": "adx;data explorer;azure data explorer;kusto;spark",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
