@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -171,6 +171,14 @@
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
       "searchTags": "monitoring;metric;alert;operations;management",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "25f9e86c-d285-d4ae-c5fb-cfca4fa9bdb8",
+      "longDescription": "",
+      "shortDescription": "Failures to configure virtual network rules or connect to SQL pools through a VNet service endpoints.",
+      "searchTags": "connectivity;unavailable;sql;vnet;endpoint",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
