@@ -782,6 +782,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd0f66e5-472a-6c04-3326-c82a99cbcd01",
+      "longDescription": "",
+      "shortDescription": "Issues related to firewall configuration, rules, access control.",
+      "searchTags": "firewall;unavailable;connect;sql;connectivity",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ddd9eb44-e847-71ac-f668-5e0915900a22",
       "longDescription": "",
       "shortDescription": "Failures related to authentication when accessing SQL on-demand endpoint, except Azure Active Directory (AAD).",
