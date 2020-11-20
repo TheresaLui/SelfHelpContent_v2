@@ -840,7 +840,7 @@
     {
       "id": "f14a2f2c-e445-0091-1691-97945169eaa2",
       "longDescription": "",
-      "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
+      "shortDescription": "Questions on configuring, tracking, and using vulnerability assessments to remediate potential database vulnerabilities.",
       "searchTags": "vulnerability;assessment;security;compliance;scan",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
