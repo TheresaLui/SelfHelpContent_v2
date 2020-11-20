@@ -651,7 +651,7 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue related to configure, enable, disable, delete, stop or resume backup",
+      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backups",
       "searchTags": "configure;modify;stop",
       "category": "configuration",
       "useInDiagnoseAndSolve": "true"
