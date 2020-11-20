@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -691,6 +691,14 @@
       "shortDescription": "Advisory on best practices, recommendations or product behavior when managing custom Libraries and Packages on a Spark pool.",
       "searchTags": "how;advisory;spark;libraries;packages",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d16ba93c-7662-f0fb-702f-fdeab046bb0c",
+      "longDescription": "",
+      "shortDescription": "Problems related to failures or slow performance during query execution using SQL Pools.",
+      "searchTags": "sql;performance;query;execution;slow",
+      "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
