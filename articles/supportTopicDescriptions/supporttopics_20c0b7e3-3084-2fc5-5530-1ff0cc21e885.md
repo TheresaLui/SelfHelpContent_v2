@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -571,6 +571,14 @@
       "shortDescription": "Assistance with failures during the lifetime of a Spark job from submition until completion.",
       "searchTags": "spark;job;execution;failure;error",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "afeeca72-8c3f-4893-579f-19638cd3512b",
+      "longDescription": "",
+      "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
+      "searchTags": "connectivity;unavailable;workspace;firewall",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
