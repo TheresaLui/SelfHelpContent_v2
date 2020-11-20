@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -443,6 +443,14 @@
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
       "searchTags": "how;advisory;sql;pool;recommendation",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "73da7765-a25b-70de-45a8-908b86f15203",
+      "longDescription": "",
+      "shortDescription": "Assistance with performance related issues during execution of a Spark job.",
+      "searchTags": "spark;execution;performance;slow;job",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
