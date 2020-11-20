@@ -7,7 +7,7 @@
 	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32612993"
+	supportTopicIds="32783168"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -21,7 +21,7 @@
 
 Before filing a support ticket you can find answers to many common questions:<br>
 
-- [What are the guidance/best practices to improve backup performance?](https://docs.microsoft.com/en-us/azure/backup/guidance-best-practices)
+- [What are the guidance/best practices to improve backup performance?](https://docs.microsoft.com/azure/backup/guidance-best-practices)
 
 
 **Vault**<br>
