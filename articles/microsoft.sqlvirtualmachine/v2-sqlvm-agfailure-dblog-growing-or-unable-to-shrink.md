@@ -13,7 +13,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745,16342"
 	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="ac3271c7-0690-4440-8ffe-1a80c4fd6378"
+	articleId="6557e79c-8ced-4a4e-8018-5d90b37263f7"
 	ownershipId="AzureData_AzureSQLVM"
 />
 
