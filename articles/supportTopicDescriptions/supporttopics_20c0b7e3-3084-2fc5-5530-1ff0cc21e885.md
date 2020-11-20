@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -467,6 +467,14 @@
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
       "searchTags": "spark;job;execution;failure;unexpected",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "81095668-40a3-766b-b0cc-e348f083783f",
+      "longDescription": "",
+      "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or acessing Synapse Studio.",
+      "searchTags": "roles;access control;workspace;permissions;security",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
