@@ -617,6 +617,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca4a4f85-79ec-5df0-6af2-ddeef4786ee0",
+      "longDescription": "",
+      "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing ,alerts and notifications.",
+      "searchTags": "Backup;policies;retention;recovery point",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cb51c38c-6394-9142-e11a-210ca84d6c1e",
       "longDescription": null,
       "shortDescription": "Issue during registration or re-registration of MARS agent to vault, Invalid vault credentials",
