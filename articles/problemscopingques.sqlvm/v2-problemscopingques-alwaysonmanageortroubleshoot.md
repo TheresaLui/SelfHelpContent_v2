@@ -24,7 +24,8 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "which_resource",
@@ -79,7 +80,71 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
+        {
+            "id": "issue_type",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes AG failure,failover,sync issue.",
+            "watermarkText": "Common Setup Availability Group issue categories",
+            "infoBalloonText": "Availability Group Failure, Failover, Sync issue",
+            "dropdownOptions": [
+            {
+            "value": "AvailabilityGroupsFailure_LeaseTimeoutHappend",
+            "text": "AG failed/restarted/failedover/leasetimeout happened"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_DB_ResolvingState",
+            "text": "AG is offline or databases are in resolving state"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_SlowToSynchronize_OrRedoLagging",
+            "text": "AG is slow to synchronize or redo is lagging"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_AG_DidNotFailover",
+            "text": "Why AG did not failover?"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_UnableToFailuer_AnotherReplica",
+            "text": "Unable to failover AG"
+            },
+            {
+            "value": "AvailabilityGroupsFailure_UnableToConnect_Listener",
+            "text": "Unable to connect to AG listener"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_UnableToLogin_AfterFailover",
+            "text": "Unable to login after failover"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_Xmisaligned_LogIOs",
+            "text": "There have been X misaligned log IOs"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_DBLogFileIssues",
+            "text": "AG db log file is growing or unable to shrink"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_SetupAG",
+            "text": "How do I setup AG"
+            },
+			{
+            "value": "AvailabilityGroupsFailure_EventId_1135",
+            "text": "Quorum lost/Windows cluster stops/EventId 1135-Node was removed"
+            },
+            {
+            "value": "AvailabilityGroupsFailure_EventId_157",
+            "text": "EventId 157 - Disk was surprised removed"
+            },
+			{
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        }        
     ],
     "$schema": "SelfHelpContent"
 }
