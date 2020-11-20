@@ -2,13 +2,14 @@
 	pageTitle="Cannot Connect to or from Internet"
 	description="Cannot Connect to or from Internet"
 	authors="TobyTu"
-    ms.author="mariliu"
+        ms.author="mariliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584250"
 	productPesIds="15526"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="8766b9f2-62d3-4dc0-8b81-597d2b0535ed"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Cannot Connect to or from Internet
 ---
