@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -563,6 +563,14 @@
       "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
       "searchTags": "azure;portal;manage;workspace;studio",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "adad7c7b-44a2-9363-d7ea-6692c31bcfc8",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Dedicated SQL pool Private Link.",
+      "searchTags": "connectivity;networking;sql;private;link",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
