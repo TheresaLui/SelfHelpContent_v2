@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -275,6 +275,14 @@
       "shortDescription": "Assistance with configuration, management or access to Azure Synapse Link for CosmosDB.",
       "searchTags": "synapse;link;cosmosdb;analytical",
       "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3d53e3f4-2466-f4df-b3b6-74d2058671e8",
+      "longDescription": "",
+      "shortDescription": "Problems accessing or integrating Azure Key Vault secrets in a Synapse pipeline. Authentication issues related to Managed Identity or other.",
+      "searchTags": "key vault;key;paswword;akv;secret",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
