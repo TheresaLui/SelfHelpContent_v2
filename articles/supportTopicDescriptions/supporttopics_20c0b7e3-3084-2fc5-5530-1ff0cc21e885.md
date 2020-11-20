@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -139,6 +139,14 @@
       "shortDescription": "Queries failures, unexpected results, slow or hung queries when loading data from Synapse Link for CosmosDB from SQL On-demand.",
       "searchTags": "sql;performance;query;link;cosmosdb",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1fb5a9cf-4334-d2a7-1dff-c32806401c24",
+      "longDescription": "",
+      "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
+      "searchTags": "authentication;connectivity;sql;serverless;aad",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
