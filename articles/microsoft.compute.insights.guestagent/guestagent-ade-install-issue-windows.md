@@ -19,18 +19,20 @@
 
 # VM Deployment Template with Disk Encryption has failed
 
-We detected that a recent deployment failure for **<!--$vmname-->[vmname]<!--/$vmname-->** was due to a known issue. Creation of the VM will succeed but Azure Disk Encryption will show a failure.
+<!--issueDescription-->
+We detected that a recent deployment failure for <!--$vmname-->[vmname]<!--/$vmname--> was due to a known issue. Creation of the VM will succeed but Azure Disk Encryption (ADE) will show a failure.
 
-In this scenario the VM creation will succeed, but the installation of the Azure Guest Agent as well as Azure Disk Encryption will show as failed. This failure occurs because the Azure Disk Encryption installation initiates a reboot interrupting the installation of the Azure Guest Agent.
+In this scenario the VM creation will succeed, but the installation of the VM Agent as well as enabling ADE will show as failed. This failure occurs because the ADE installation initiates a reboot that interrupts the VM Agent installation.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
 **Note**: It is recommended to follow the steps below to remediate the issue, before opening a support ticket.
 
-??? Why do we need another extension, does ADE extension not respect dependson ???
+A workaround for this issue is to ensure the VM Agent install to completes, before ADE installation restarts the VM by adding another extension to the template and make the ADE extension depend on the this other extension by using the [dependsOn](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/define-resource-dependency) element. 
 
-??? Need to provide an example ???
+### If you are installing any other extensions as part of your deployment
+    Add the [dependsOn](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference any one of these extensions. 
 
-A workaround for this issue is to give more time for the GuestAgent install to complete, by adding another extension to the template and have the ADE extension depend on the other extension using [dependsOn](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/define-resource-dependency). 
-
-Because other extensions don't have risk of causing a reboot before GuestAgent install completes, this will make sure GuestAgent is installed by the time the template deploys the ADE extension to the VM.
+### If you are not installing any other extensions as part of your deployment
+    You can use the [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema (CSE) with a Hello World type script.
