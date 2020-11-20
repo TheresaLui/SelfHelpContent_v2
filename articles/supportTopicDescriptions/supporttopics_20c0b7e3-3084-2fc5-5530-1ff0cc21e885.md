@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -547,6 +547,14 @@
       "shortDescription": "Errors logging in using Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators",
       "searchTags": "connectivity;unavailable;sql;connection;aad",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "aa82318e-eacd-122b-48bf-0f99d75b3b04",
+      "longDescription": "",
+      "shortDescription": "Problems to perform a database restore, backup retention policies, or issues restoring to different region.",
+      "searchTags": "backup;restore;sla;region;retention",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
