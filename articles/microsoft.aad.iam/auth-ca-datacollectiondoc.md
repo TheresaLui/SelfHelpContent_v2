@@ -21,8 +21,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Conditional Access policies",
-        "description": "Click here to use the new [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
-        Or provide additional input below to see a helpful diagnostic analysis.",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
