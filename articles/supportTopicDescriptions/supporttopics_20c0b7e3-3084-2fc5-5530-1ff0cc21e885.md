@@ -296,7 +296,7 @@
     {
       "id": "41ab21db-3bed-2dd2-42d0-fd6a2fad3260",
       "longDescription": "",
-      "shortDescription": "Problems configuring access to storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
+      "shortDescription": "Problems configuring access to storage using external data sources, external tables, OPENROWSET or CETAS.",
       "searchTags": "roles;access control;permissions;security;sql",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
