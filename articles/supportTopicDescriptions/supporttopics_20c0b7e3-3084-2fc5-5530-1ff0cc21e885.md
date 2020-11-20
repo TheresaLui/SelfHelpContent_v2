@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -67,6 +67,14 @@
       "shortDescription": "Any issue that does not fall into any specific category above.",
       "searchTags": "synapse;link;cosmosdb;analytical",
       "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0c0da378-c822-32fe-9187-0524676d3245",
+      "longDescription": "",
+      "shortDescription": "Issues related to custom applications or client tools, not listed in other categories, used to interact with Synapse resources and pools.",
+      "searchTags": "application;custom;third party;sql;driver",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
