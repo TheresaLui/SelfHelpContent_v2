@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -515,6 +515,14 @@
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
       "searchTags": "aas;analysis;services;process;cube",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95fe43df-5716-311b-7c8f-341fee71e0a4",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Spark pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "manage;crud;create;delete;spark",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
