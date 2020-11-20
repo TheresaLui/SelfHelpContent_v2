@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -394,6 +394,14 @@
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL On-demand.",
       "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "64cec26a-6c0c-65ff-8fd4-88aea26b8953",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior when managing custom Libraries and Packages on a Spark pool.",
+      "searchTags": "how;advisory;spark;libraries;packages",
       "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
