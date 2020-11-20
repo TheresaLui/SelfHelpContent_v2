@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -99,6 +99,14 @@
       "shortDescription": "Pipeline is stuck in one state for a long time, or the execution does not start even though no other run is in progress.",
       "searchTags": "piepline;execution;progress;queued;hang",
       "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "13eda81c-201b-0d3d-df0b-c413fdb5ea24",
+      "longDescription": "",
+      "shortDescription": "Problems creating or editing a data flow activity within a pipeline or issues with the activity settings.",
+      "searchTags": "data flow;data flow activity;pipeline;performance",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
