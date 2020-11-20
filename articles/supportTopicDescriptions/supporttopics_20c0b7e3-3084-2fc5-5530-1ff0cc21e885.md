@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -779,6 +779,14 @@
       "shortDescription": "Job failures related to reading data from Azure Synapse Link for CosmosDB, returning an error message.",
       "searchTags": "spark;job;execution;link;cosmosdb",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e4428254-0ba3-df8f-cecc-40522710cf4f",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
+      "searchTags": "sql;databricks;spark;load",
+      "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
     {
