@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -595,6 +595,14 @@
       "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
       "searchTags": "ssms;management;studio;connect;sql",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b20c2c1b-abc4-8110-e75c-41233d6695f6",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
+      "searchTags": "sql;ssis;dataflow;load",
+      "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
     {
