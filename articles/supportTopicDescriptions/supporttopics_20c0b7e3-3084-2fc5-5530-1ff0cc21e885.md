@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -187,6 +187,14 @@
       "shortDescription": "Assistance with issues related to loading or extracting data from SQL pool using external tools or engine features like Polybase.",
       "searchTags": "import;export;polybase;adf;databricks",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "299fa9fc-071d-75b2-763f-b5d0e1be3b2f",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for Dedicated SQL pool.",
+      "searchTags": "sql;performance;slow;query;execution",
+      "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
