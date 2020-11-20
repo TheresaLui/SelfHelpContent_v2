@@ -609,6 +609,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2c3bf5d-fbd2-e79b-b34b-890667254076",
+      "longDescription": "",
+      "shortDescription": "Issue in preview features, Supported scenarios. ",
+      "searchTags": "Preview",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4e0c92b-47a8-fbf4-b071-f52e01d5f239",
       "longDescription": null,
       "shortDescription": "Issues connecting to data lake storage such as timeouts, throttling, dropped connections, etc",
