@@ -401,6 +401,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7a630d4f-4c26-5d75-a53a-702599efd3bf",
+      "longDescription": "",
+      "shortDescription": "Issues related to file recovery in Azure VMs",
+      "searchTags": "File Recovery",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80f662d1-4a0e-f8b3-7969-57f7218e1c09",
       "longDescription": null,
       "shortDescription": "Unable to download or invalid vault credential file",
