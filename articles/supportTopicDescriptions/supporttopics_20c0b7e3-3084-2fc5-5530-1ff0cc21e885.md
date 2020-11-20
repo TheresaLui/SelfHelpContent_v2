@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -307,6 +307,14 @@
       "shortDescription": "Advisory on best practices and recommendations to achieve the best performance using Spark jobs.",
       "searchTags": "how;advisory;spark;job;optimize",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "464bc4f0-3afc-9d6e-56dc-a7e9f305c890",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;manage;provision;workspace;create",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
