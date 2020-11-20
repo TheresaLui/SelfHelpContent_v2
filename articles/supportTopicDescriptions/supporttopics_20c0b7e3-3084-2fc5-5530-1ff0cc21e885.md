@@ -552,7 +552,7 @@
     {
       "id": "aa82318e-eacd-122b-48bf-0f99d75b3b04",
       "longDescription": "",
-      "shortDescription": "Problems to perform a database restore, backup retention policies, or issues restoring to different region.",
+      "shortDescription": "Issues related to a database restore, backup retention policies, or restoring to different region.",
       "searchTags": "backup;restore;sla;region;retention",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
