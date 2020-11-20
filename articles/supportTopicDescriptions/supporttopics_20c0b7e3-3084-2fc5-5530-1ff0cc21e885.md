@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -91,6 +91,14 @@
       "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
       "searchTags": "roles;access control;permissions;security;sql",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "10bc5a71-4627-5729-2410-c32e2389065b",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected behavior during Spark job submission phase. Not for failures after job execution starts successfully.",
+      "searchTags": "spark;job;submit;failure;pool",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
