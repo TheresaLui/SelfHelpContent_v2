@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -155,6 +155,14 @@
       "shortDescription": "Failures or unexpected behavior related to the authoring and development of Notebooks.",
       "searchTags": "authoring;development;notebooks;spark;studio",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "23352424-4776-080f-5723-765445734d26",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Dedicated SQL pool (SQL DW), slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;dw;pool;manage;create",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
