@@ -63,10 +63,12 @@ For more information, see [Handle rate limiting/request rate too large](https://
 * See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
 
 
+**404 Read session not available**
+<br>Upgrade your SDK to the latest available version as this error has been already fixed in newer SDK versions.
+
 **404 Not found**
 <br>The HTTP status code 404 represents that the resource no longer exists.
 * See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
-
 
 
 **Intermittent 503 errors service is unavailable**

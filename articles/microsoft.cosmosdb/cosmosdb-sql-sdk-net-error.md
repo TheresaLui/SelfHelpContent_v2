@@ -62,6 +62,10 @@ For more information, see [Handle rate limiting/request rate too large](https://
 * See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
 
 
+**404 NotFoundException: The read session is not available for the input session token**
+<br>Please update your SDK to a version higher than 2.12.0 if using the V2 SDK or 3.15.0 if using the V3 SDK.
+
+
 **404 Not found**
 <br>The HTTP status code 404 represents that the resource no longer exists.
 * See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
