@@ -761,6 +761,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fa7b44a7-1961-a5b5-5de8-a0f5be30f15d",
+      "longDescription": "",
+      "shortDescription": "Backup failed with UserErrorVmProvisioningStateFailed, ExtensionFailed VSS COM and similar error codes related to VM provisioning state and extension.",
+      "searchTags": "UserErrorVmProvisioningStateFailed;Provisioning;failed",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
       "longDescription": "",
       "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
