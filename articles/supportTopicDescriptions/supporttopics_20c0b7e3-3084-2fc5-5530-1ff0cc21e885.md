@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -26,6 +26,14 @@
       "longDescription": "",
       "shortDescription": "Questions on configuring and using threat detection for detecting anomalous and potentially harmful activities",
       "searchTags": "threat;detection;security;alert;protection",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "027454b4-c2a9-ad54-dc5b-99fe4e17792a",
+      "longDescription": "",
+      "shortDescription": "Configuration of security for accessing SQL Serverless endpoint, SQL objects, or accessing data on storage using External Tables, OPENROWSET or CETAS.",
+      "searchTags": "access control;storage;sql;security;permissions",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
