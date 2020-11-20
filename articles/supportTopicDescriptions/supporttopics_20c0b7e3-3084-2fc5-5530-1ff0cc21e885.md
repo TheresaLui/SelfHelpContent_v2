@@ -742,6 +742,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d6ed67f3-c933-0f15-4d02-39800475932f",
+      "longDescription": "",
+      "shortDescription": "Issues related to data sensitivity classification feature, applying recommendations, auditing access to sensitive data and alerting.",
+      "searchTags": "data;discovery;classification;sensitivity;security",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d81df766-ee28-e5d6-0822-6ca5304ae3ff",
       "longDescription": "",
       "shortDescription": "Guidance on how to use Synapse features, best practices and recommendations, or questions about expected product behavior.",
