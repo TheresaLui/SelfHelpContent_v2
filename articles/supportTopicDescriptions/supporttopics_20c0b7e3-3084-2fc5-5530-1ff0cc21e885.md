@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -427,6 +427,14 @@
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
       "searchTags": "sql;databricks;spark;load",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6dc242b7-26bc-5b50-8f64-f204479ceb46",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;management;sql;create;pool",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
