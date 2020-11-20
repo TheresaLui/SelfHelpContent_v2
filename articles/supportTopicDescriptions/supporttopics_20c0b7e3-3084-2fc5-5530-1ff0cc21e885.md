@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -523,6 +523,14 @@
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL pool, separate topic for SQL on-demand.",
       "searchTags": "sql;query;execution;error;failure",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "982b7675-3012-7c3b-5ead-623397debc40",
+      "longDescription": "",
+      "shortDescription": "Issues to load data from Cosmos DB Analytical Store data using Azure Synapse Link for Cosmos DB from a Serverless SQL Pool.",
+      "searchTags": "serverless;sql;synapse link;cosmos db;analytical store",
+      "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
