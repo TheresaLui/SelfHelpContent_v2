@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
+      "longDescription": "",
+      "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
+      "searchTags": "roles;access control;permissions;security;sql",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
