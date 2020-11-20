@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c3e72e0f-077a-8f36-d8a2-3073dcaf062c",
+      "longDescription": "",
+      "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
+      "searchTags": "connectivity;aad;sql;connection;login",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc311cde-a960-10fc-2879-3879c9b06556",
       "longDescription": "",
       "shortDescription": "Failures to connect to SQL pool endpoint or database unavailable. Do not use for AAD authentication or firewall issues.",
