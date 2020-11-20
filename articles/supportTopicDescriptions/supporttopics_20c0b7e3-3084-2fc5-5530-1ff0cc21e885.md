@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -59,6 +59,14 @@
       "shortDescription": "Assistance when the database is experiencing problems related to performance, query processing, or query execution.",
       "searchTags": "sql;performance;query;execution;slow",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "09af1d34-95c6-db5d-b506-25e0a6459b31",
+      "longDescription": "",
+      "shortDescription": "Assistance to management operations for workspaces or pools, manually or using ARM templates.",
+      "searchTags": "manage;crud;scale;pause;resume",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
