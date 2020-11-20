@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -539,6 +539,14 @@
       "shortDescription": "Assistance with performance related issues running Spark jobs.",
       "searchTags": "spark;job;execution;performance;slow",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a59b80ca-9717-3791-5cb0-7826efbaaa34",
+      "longDescription": "",
+      "shortDescription": "Problems related to Transparent Data Encryption (TDE), including Azure Key Vault (AKV) and Database Encryption Key (DEK).",
+      "searchTags": "TDE;AKV;DEK;encryption;transparent data encryption",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
