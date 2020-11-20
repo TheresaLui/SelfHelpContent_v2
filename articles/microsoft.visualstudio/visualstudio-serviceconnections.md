@@ -26,7 +26,7 @@ Are you facing one of these common problems?
 
 * **The service connection in my Azure DevOps project is not authorized to allow deployment**
 
-    In such cases, configure AAD as well as the the new resource permissions for the AD user.
+    In such cases, configure AAD as well and the new resource permissions for the AD user.
 
 * **I'm facing a resource authorization error in my build**
 
