@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3e99b604-c044-d424-8d5f-b6984b8a58ba",
+      "longDescription": "",
+      "shortDescription": "Failures to set the maintenance schedule, maintenance occurring out of the scheduled window, or issues with maintenance notifications.",
+      "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3f2f0f66-b4ef-91ee-5ef4-d21e79b520a0",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations related to configure storage access in SQL on-demand.",
