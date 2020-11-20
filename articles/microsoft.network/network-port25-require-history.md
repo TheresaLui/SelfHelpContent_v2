@@ -14,7 +14,7 @@ supportTopicIds="32592839, 32640601"
 resourceTags="windows"
 productPesIds="15526, 15660"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-	ownershipId="CloudNet_VirtualNetwork"
+ownershipId="CloudNet_VirtualNetwork"
 />
 
 # This subscription has been evaluated and payment history requisite has not been met
