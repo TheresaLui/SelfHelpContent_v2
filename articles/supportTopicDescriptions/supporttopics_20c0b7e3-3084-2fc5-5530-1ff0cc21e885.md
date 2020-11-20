@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -283,6 +283,14 @@
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
       "searchTags": "spark;job;execution;failure;scala",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3e99b604-c044-d424-8d5f-b6984b8a58ba",
+      "longDescription": "",
+      "shortDescription": "Failures to set the maintenance schedule, maintenance occurring out of the scheduled window, or issues with maintenance notifications.",
+      "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
