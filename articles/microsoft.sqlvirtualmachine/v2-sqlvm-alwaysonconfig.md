@@ -16,7 +16,6 @@
 />
 
 
-
 # AlwaysOn Availability Groups - Configuration
 
 ### **Unable to Setup AG**
