@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -51,6 +51,14 @@
       "shortDescription": "Issues, questions or unexpected behavior when using Synapse Studio Notebooks to author, run and debug Spark applications.",
       "searchTags": "notebooks;spark;studio;run;debug",
       "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "06c04282-f4ed-0c25-359a-c244e9e0e8c1",
+      "longDescription": "",
+      "shortDescription": "Failure to connect to Synapse Studio, or to connect from Synapse Studio to other endpoints like SQL Pools, Linked Services or storage accounts.",
+      "searchTags": "synapse studio;connectivity;failure;endpoint;serverless",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
