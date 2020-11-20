@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -531,6 +531,14 @@
       "shortDescription": "Assistance with issues related to the process of authoring or developing Synapse resources.",
       "searchTags": "authoring;development;studio",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a2a9de86-b1fa-9035-3000-b51a9cfd5dbe",
+      "longDescription": "",
+      "shortDescription": "Problems related to moving resources between subscriptions, resource groups or tenants.",
+      "searchTags": "resource;move;crud;subcription;resource group",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
