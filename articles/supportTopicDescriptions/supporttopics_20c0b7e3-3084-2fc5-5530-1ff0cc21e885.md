@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -827,6 +827,14 @@
       "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
       "searchTags": "connectivity;unavailable;workspace;firewall",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "edf760d1-db6f-fc9a-a48a-f3d51fcce2b5",
+      "longDescription": "",
+      "shortDescription": "Issues related to development and deployment of SSDT Database Projects.",
+      "searchTags": "ssdt;sql;source control;deploy;cicd",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
