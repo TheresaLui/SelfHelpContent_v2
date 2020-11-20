@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -682,6 +682,14 @@
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Data Factory pipelines.",
       "searchTags": "sql;adf;pipeline;copy;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ced27e9a-26de-de5b-7903-2eeb50bd136b",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using DACPAC deployments.",
+      "searchTags": "sql;dacpac;deploy",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
