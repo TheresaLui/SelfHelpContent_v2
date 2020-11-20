@@ -284,8 +284,8 @@
       "id": "4dd6a432-1c5a-b3a6-ec45-5de2e6f04137",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
-      "searchTags": "",
-      "category": "",
+      "searchTags": "Performance;restore",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
