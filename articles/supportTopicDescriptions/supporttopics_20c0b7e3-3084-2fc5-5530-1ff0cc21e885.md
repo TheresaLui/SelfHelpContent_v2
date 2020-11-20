@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -115,6 +115,14 @@
       "shortDescription": "Assistance with authentication issues when connecting to workspaces, SQL On-demand, Linked Services or storage accounts.",
       "searchTags": "authentication;connectivity;sql;storage;aad",
       "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "168d3390-67be-c5d1-4116-0b1663f7e3f2",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types, from a Serverless SQL Pool.",
+      "searchTags": "serverless;cetas;format;types;performance",
+      "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
