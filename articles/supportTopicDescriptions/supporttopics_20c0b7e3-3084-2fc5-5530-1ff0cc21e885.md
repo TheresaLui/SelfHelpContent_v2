@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -747,6 +747,14 @@
       "shortDescription": "Failures related to authentication when accessing SQL on-demand endpoint, except Azure Active Directory (AAD).",
       "searchTags": "authentication;connectivity;sql;on-demand",
       "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "de91a60d-1da8-cc9f-f3d2-1bb4a7dca9ff",
+      "longDescription": "",
+      "shortDescription": "Authoring or execution issues with Copy Activity, poor performance, authentication or networking errors, unexpected results copying data.",
+      "searchTags": "pipeline;copy;activity;performance;monitor",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
