@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a59b80ca-9717-3791-5cb0-7826efbaaa34",
+      "longDescription": "",
+      "shortDescription": "Problems related to Transparent Data Encryption (TDE), including Azure Key Vault (AKV) and Database Encryption Key (DEK).",
+      "searchTags": "TDE;AKV;DEK;encryption;transparent data encryption",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a8bbf09b-ee58-52c9-9b39-7c1387270685",
       "longDescription": "",
       "shortDescription": "Errors logging in using Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators",
