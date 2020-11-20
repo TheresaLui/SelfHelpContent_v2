@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -819,6 +819,14 @@
       "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
       "searchTags": "activities;dataset;linked service;adf;ir",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
+      "searchTags": "sql;polybase;load;import;export",
+      "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
     {
