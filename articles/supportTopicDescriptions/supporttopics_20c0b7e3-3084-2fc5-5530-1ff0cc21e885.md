@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -763,6 +763,14 @@
       "shortDescription": "Failures setting up Self-Hosted IR service, startup issues, network or connectivity errors or unhandled exceptions.",
       "searchTags": "self;hosted;ir;start;stop",
       "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e128520b-2960-b893-612b-1f4f44385129",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuration, management or access to Azure Synapse Link for CosmosDB.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
       "useInDiagnoseAndSolve": "true"
     },
     {
