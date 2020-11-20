@@ -472,7 +472,7 @@
     {
       "id": "81095668-40a3-766b-b0cc-e348f083783f",
       "longDescription": "",
-      "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or acessing Synapse Studio.",
+      "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or accessing Synapse Studio.",
       "searchTags": "roles;access control;workspace;permissions;security",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
