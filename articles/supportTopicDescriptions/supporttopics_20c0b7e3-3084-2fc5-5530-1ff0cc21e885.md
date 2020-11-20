@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -242,6 +242,14 @@
       "longDescription": "",
       "shortDescription": "Failures to set the maintenance schedule, maintenance occuring out of the scheduled window, or issues with maintenance notifications.",
       "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3665f08f-c9ce-46b7-8df6-44ff5541780b",
+      "longDescription": "",
+      "shortDescription": "Assistance with management, configuration, roles and access control to workspaces, pools, data and pipelines in Synapse Analytics.",
+      "searchTags": "roles;access control;permissions;security;configuration",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
