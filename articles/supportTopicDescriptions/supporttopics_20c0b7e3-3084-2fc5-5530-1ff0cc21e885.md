@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -291,6 +291,14 @@
       "shortDescription": "Advisory on best practices and recommendations related to configure storage access in SQL on-demand.",
       "searchTags": "how;advisory;storage;sql;on-demand",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "41ab21db-3bed-2dd2-42d0-fd6a2fad3260",
+      "longDescription": "",
+      "shortDescription": "Problems configuring access to storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
+      "searchTags": "roles;access control;permissions;security;sql",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
