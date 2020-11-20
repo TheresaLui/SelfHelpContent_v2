@@ -8,7 +8,7 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="PlanedFailoverLR_1FBC4A97-DC3A-4DF9-86C0-46B00AF0F733"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""

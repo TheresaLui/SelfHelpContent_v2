@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Red Hat Customer Portal:
 > 
@@ -50,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [RHEL troubleshooting kernel crashes, hangs, or reboots with kdump](https://access.redhat.com/solutions/6038)
 > * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
