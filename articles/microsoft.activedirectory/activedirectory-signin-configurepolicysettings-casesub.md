@@ -17,8 +17,14 @@
 
 # Configuring new or existing policy settings for Azure Active Directory Services
 
+## **Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)**
+Quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom).  
+Steps to use the diagnostic: 
+1. Launch the Sign-in Diagnostic.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed).
+   
 ## **Recommended Steps**
-
 **Steps to deploy a Conditional Access Policy**
 
 Before you get started, download the step-by-step Conditional Access [Deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
