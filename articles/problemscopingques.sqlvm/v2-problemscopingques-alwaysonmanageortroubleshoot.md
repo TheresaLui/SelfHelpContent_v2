@@ -149,7 +149,7 @@
         ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
-        }        
+        }     
     ],
     "$schema": "SelfHelpContent"
 }
