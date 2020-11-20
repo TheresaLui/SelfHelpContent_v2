@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1fb5a9cf-4334-d2a7-1dff-c32806401c24",
+      "longDescription": "",
+      "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
+      "searchTags": "authentication;connectivity;sql;serverless;aad",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20e978f5-6ede-aba5-039b-b98797886044",
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL Pools.",
