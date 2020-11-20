@@ -526,6 +526,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81095668-40a3-766b-b0cc-e348f083783f",
+      "longDescription": "",
+      "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or accessing Synapse Studio.",
+      "searchTags": "roles;access control;workspace;permissions;security",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8360d72c-0c2a-dd07-bf99-0230ab114d56",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Polybase.",
