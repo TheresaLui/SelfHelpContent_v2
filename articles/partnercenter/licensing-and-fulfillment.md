@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Make sure you have read the [Quick Reference Guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide) for licensing questions before creating a service request
+* Make sure you have read the [Quick Reference Guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide) for licensing questions
 
 ## **Recommended Documents**
 

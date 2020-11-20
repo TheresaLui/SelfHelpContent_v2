@@ -6,13 +6,13 @@
     articleId="ef14bcc2-41a5-41f6-bca8-10764cfbdee0_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId = "AzureData_SynapseAnalytics"
 />
 # Create statistics on table columns
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "ef14bcc2-41a5-41f6-bca8-10764cfbdee0",
   "dataSourceMetadata": {
