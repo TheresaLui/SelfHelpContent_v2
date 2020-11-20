@@ -31,14 +31,12 @@
 * Insights and reporting workbook displays real-time impact of each policy
 
 **Baseline Protection Policies**
-- Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure Portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) or [configuring equivalent conditional access policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations) instead. 
+- Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure Portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 
 ## **Recommended Documents**
 
-* [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 * [Best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 * [Conditions in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/conditions)
 * [Controls in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/controls)
 * [Locations in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
-* [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
