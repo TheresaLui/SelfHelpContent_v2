@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -675,6 +675,14 @@
       "shortDescription": "Failures to connect to SQL pool endpoint or database unavailable. Do not use for AAD authentication or firewall issues.",
       "searchTags": "connectivity;unavailable;sql;connection;fail",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cdd5cf8b-a010-d869-a1c0-cc66a2c7050d",
+      "longDescription": "",
+      "shortDescription": "Failures related to processing data from Delta Lake storage using Spark Jobs.",
+      "searchTags": "delta lake;storage;spark;job",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
