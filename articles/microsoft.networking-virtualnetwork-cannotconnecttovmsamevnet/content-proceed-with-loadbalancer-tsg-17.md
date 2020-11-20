@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Proceed with NVA TSG"
-	  description="Proceed with NVA TSG"
+	  pageTitle="Proceed with Load Balancer TSG"
+	  description="Proceed with Load Balancer TSG"
       service="Microsoft.Network"
       resource="Microsoft.Network/virtualNetworks"
 	  authors="anferrei"
