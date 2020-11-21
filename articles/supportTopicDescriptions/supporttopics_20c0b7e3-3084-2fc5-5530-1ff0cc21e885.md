@@ -934,6 +934,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e67d8eaf-84c6-ee9c-b310-8d0e9484ea5d",
+      "longDescription": "",
+      "shortDescription": "Issues related to SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
+      "searchTags": "ssms;management;studio;connect;sql",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
       "longDescription": "",
       "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
