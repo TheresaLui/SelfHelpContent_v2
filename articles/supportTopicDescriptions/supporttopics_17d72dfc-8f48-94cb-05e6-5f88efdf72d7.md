@@ -611,7 +611,7 @@
     {
       "id": "c2c3bf5d-fbd2-e79b-b34b-890667254076",
       "longDescription": "",
-      "shortDescription": "Issue in preview features, Supported scenarios. ",
+      "shortDescription": "Issues in preview features and supported scenarios ",
       "searchTags": "Preview",
       "category": "Backup",
       "useInDiagnoseAndSolve": "true"
