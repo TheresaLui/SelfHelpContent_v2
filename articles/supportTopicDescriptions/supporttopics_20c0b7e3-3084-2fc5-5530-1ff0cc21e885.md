@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "23352424-4776-080f-5723-765445734d26",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Dedicated SQL pool (SQL DW), slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;dw;pool;manage;create",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "23b20fa3-3b71-f49b-f2c2-ee098b6850b1",
       "longDescription": "",
       "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types.",
