@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "09af1d34-95c6-db5d-b506-25e0a6459b31",
+      "longDescription": "",
+      "shortDescription": "Assistance to management operations for workspaces or pools, manually or using ARM templates.",
+      "searchTags": "manage;crud;scale;pause;resume",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0a926141-ffad-89c7-e202-516a1ea269a5",
       "longDescription": "",
       "shortDescription": "Any issue that does not fall into any specific category above.",
