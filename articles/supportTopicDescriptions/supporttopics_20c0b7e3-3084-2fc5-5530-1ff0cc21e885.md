@@ -1022,6 +1022,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "de91a60d-1da8-cc9f-f3d2-1bb4a7dca9ff",
+      "longDescription": "",
+      "shortDescription": "Authoring or execution issues with Copy Activity, such as poor performance, authentication or networking errors, unexpected results copying data",
+      "searchTags": "pipeline;copy;activity;performance;monitor",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e0fa8b6e-3965-b7c0-b5cf-3add6ec6fd30",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL pools.",
