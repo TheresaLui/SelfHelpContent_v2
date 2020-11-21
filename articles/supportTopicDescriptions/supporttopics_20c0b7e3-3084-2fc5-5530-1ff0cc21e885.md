@@ -72,7 +72,7 @@
     {
       "id": "0c0da378-c822-32fe-9187-0524676d3245",
       "longDescription": "",
-      "shortDescription": "Issues related to custom applications or client tools, not listed in other categories, used to interact with Synapse resources and pools.",
+      "shortDescription": "Issues related to custom applications or client tools that interact with Synapse resources and pools and are not listed in other categories .",
       "searchTags": "application;custom;third party;sql;driver",
       "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
