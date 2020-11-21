@@ -894,6 +894,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ced27e9a-26de-de5b-7903-2eeb50bd136b",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using DACPAC deployments.",
+      "searchTags": "sql;dacpac;deploy",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d03def72-e2b5-8c3d-35c2-b02ff22816b3",
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior when managing custom Libraries and Packages on a Spark pool.",
