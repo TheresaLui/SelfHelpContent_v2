@@ -790,6 +790,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b20c2c1b-abc4-8110-e75c-41233d6695f6",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
+      "searchTags": "sql;ssis;dataflow;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7610fd7-6578-9f54-6f4f-4c32418d8d93",
       "longDescription": "",
       "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
