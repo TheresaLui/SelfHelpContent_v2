@@ -998,6 +998,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "edf760d1-db6f-fc9a-a48a-f3d51fcce2b5",
+      "longDescription": "",
+      "shortDescription": "Issues related to development and deployment of SSDT Database Projects.",
+      "searchTags": "ssdt;sql;source control;deploy;cicd",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
