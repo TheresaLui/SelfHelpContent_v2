@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5615b093-1823-0e47-e2bf-87bf701b7458",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues affecting any client tools used to interact with Synapse Workspace components.",
+      "searchTags": "client;tools;azure;portal;workspace",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59b066a7-f057-dfb2-e7df-c3e3169817a9",
       "longDescription": "",
       "shortDescription": "Problems that occur during a database restore, backup retention policies, or issues restoring to different region.",
