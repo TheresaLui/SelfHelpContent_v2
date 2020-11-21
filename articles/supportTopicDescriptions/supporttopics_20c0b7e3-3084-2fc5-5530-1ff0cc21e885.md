@@ -856,7 +856,7 @@
     {
       "id": "f30bf66d-c850-0b99-e376-75a3ed44ebbd",
       "longDescription": "",
-      "shortDescription": "Guidance on how to use Synapse features, best practices and recommendations, or questions about expected product behavior.",
+      "shortDescription": "Guidance for using Synapse features, and answers to questions about expected product behavior.",
       "searchTags": "how;advisory;practices;recommendations",
       "category": "How-To",
       "useInDiagnoseAndSolve": "true"
