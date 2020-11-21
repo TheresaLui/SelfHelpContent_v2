@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5c730f51-e08b-e682-c1d5-7354f1d995f1",
+      "longDescription": "",
+      "shortDescription": "Issues loading data from Cosmos DB Analytical Store data using Azure Synapse Link.",
+      "searchTags": "synapse;link;cosmosdb;import;load",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e49148d-7344-0f44-e03b-db04283802c2",
       "longDescription": "",
       "shortDescription": "Failures related to authentication when accessing storage from SQL on-demand.",
