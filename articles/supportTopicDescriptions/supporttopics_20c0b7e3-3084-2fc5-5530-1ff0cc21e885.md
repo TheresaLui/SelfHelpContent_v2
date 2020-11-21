@@ -622,6 +622,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73da7765-a25b-70de-45a8-908b86f15203",
+      "longDescription": "",
+      "shortDescription": "Assistance with performance related issues during execution of a Spark job.",
+      "searchTags": "spark;execution;performance;slow;job",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74622fa6-f28e-fc89-4226-89bdf8392c29",
       "longDescription": "",
       "shortDescription": "Execution of a stored procedure activity is failing due to some error code.",
