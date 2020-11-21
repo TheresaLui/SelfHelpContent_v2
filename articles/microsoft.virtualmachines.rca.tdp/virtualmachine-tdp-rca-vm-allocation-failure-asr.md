@@ -18,7 +18,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then alternate recommendations with high chance of success are provided. Recommendations are ranked based on chance of success.<br>
+The Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, the Recommender provides alternate recommendations with high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 
 <!--issueDescription-->
 Based on the analysis of your desired deployment allocation with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>
@@ -29,7 +29,7 @@ Based on the analysis of your desired deployment allocation with the requested p
 
 ## **Recommended Steps**
 
-Consider the above alternate VM sizes and/or Regions for your deployment. These recommendations are generated based on the current capacity conditions. If you see the originally requested region and size in the recommendations, please try creating the VM again as the issue might have been temporary and there could be sufficient resources for allocation currently.<br>
+Consider the alternate VM sizes and/or regions for your deployment specified above. These recommendations are generated based on the current capacity conditions. If you see your originally requested region and size in the recommendations, try creating the VM again, because the issue might have been temporary and there may now be sufficient resources.<br>
 
 | To determine sizes by ... | Do the following |
 | --- | --- |
