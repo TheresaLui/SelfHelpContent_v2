@@ -390,6 +390,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "464bc4f0-3afc-9d6e-56dc-a7e9f305c890",
+      "longDescription": "",
+      "shortDescription": "Failure to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;manage;provision;workspace;create",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4732c725-6edf-9850-731a-d6245e326b13",
       "longDescription": "",
       "shortDescription": "Jobs running Spark SQL script fail with an error message or return unexpected results.",
