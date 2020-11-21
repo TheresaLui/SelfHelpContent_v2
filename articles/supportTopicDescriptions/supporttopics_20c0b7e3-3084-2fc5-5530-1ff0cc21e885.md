@@ -88,7 +88,7 @@
     {
       "id": "0f8a9086-68d4-bb19-4e19-cd80bb09fa65",
       "longDescription": "",
-      "shortDescription": "Execution of a Spark activity is failing due to some error in Pipeline (e.g. a system error on pipeline runs rather than a code execution error).",
+      "shortDescription": "Execution of a Spark activity fails due to an error in Pipeline (e.g., system error vs. code execution error)",
       "searchTags": "spark;pipeline;activity;execution;performance",
       "category": "Integration",
       "useInDiagnoseAndSolve": "true"
