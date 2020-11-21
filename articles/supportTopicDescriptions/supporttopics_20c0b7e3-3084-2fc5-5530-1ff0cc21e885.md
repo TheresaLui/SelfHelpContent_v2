@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "14a232e3-5485-97ae-4962-ad06c1446a7d",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
+      "searchTags": "intellij;client;scala;spark",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "15869ba0-d4f6-d2b8-ce98-d8aa87601488",
       "longDescription": "",
       "shortDescription": "Assistance with authentication issues when connecting to workspaces, SQL On-demand, Linked Services or storage accounts.",
