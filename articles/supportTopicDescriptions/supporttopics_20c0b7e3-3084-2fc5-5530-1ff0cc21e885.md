@@ -806,6 +806,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b89cf2d1-93cc-c71c-9882-2278bfcda0cb",
+      "longDescription": "",
+      "shortDescription": "Failures to scale a Dedicated SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
+      "searchTags": "crud;scale;sql;manage",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb72697c-d59b-6a85-e36b-10abd618f57a",
       "longDescription": "",
       "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected. Slow or hanging Copy activity.",
