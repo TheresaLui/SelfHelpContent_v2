@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d53e3f4-2466-f4df-b3b6-74d2058671e8",
+      "longDescription": "",
+      "shortDescription": "Problems accessing or integrating Azure Key Vault secrets in a Synapse pipeline. Authentication issues related to Managed Identity or other.",
+      "searchTags": "key vault;key;paswword;akv;secret",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3da2d38e-2243-af43-0473-f9711cb9637b",
       "longDescription": "",
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
