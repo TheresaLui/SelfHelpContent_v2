@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "06c04282-f4ed-0c25-359a-c244e9e0e8c1",
+      "longDescription": "",
+      "shortDescription": "Failure to connect to Synapse Studio, or to connect from Synapse Studio to other endpoints like SQL Pools, Linked Services or storage accounts.",
+      "searchTags": "synapse studio;connectivity;failure;endpoint;serverless",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "085a1f2d-0bf5-282c-5f3f-39f72ca9269c",
       "longDescription": "",
       "shortDescription": "Assistance when the database is experiencing problems related to performance, query processing, or query execution.",
