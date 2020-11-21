@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0f8a9086-68d4-bb19-4e19-cd80bb09fa65",
+      "longDescription": "",
+      "shortDescription": "Execution of a Spark activity fails due to an error in Pipeline (e.g., system error vs. code execution error)",
+      "searchTags": "spark;pipeline;activity;execution;performance",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fb96aa1-1f37-c0f5-f52a-2a839ddb8301",
       "longDescription": "",
       "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
