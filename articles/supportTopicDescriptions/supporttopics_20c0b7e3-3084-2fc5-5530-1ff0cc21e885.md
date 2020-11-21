@@ -886,6 +886,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e128520b-2960-b893-612b-1f4f44385129",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuration, management or access to Azure Synapse Link for CosmosDB.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e20d598a-7a3f-4386-e8e5-0f374c2ec5e6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
