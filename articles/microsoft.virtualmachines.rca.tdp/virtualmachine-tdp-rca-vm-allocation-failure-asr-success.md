@@ -21,7 +21,7 @@
 The Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then the Recommender provides alternate recommendations with a high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 
 <!--issueDescription-->
-Good News! You should see successful deployments for your desired deployment allocation with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>
+You should see successful deployments for your specified deployment allocation with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>
 
 
 <!--/issueDescription-->
