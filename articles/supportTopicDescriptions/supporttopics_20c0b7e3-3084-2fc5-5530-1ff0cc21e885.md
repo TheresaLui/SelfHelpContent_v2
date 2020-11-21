@@ -304,7 +304,7 @@
     {
       "id": "43a81a57-3887-b851-8ebb-1dc58f8137d5",
       "longDescription": "",
-      "shortDescription": "Execution of a stored procedure activity is failing due to some error in Pipeline, like a system error rather than a stored procedure execution error.",
+      "shortDescription": "Execution of a stored procedure activity fails due to error in Pipeline (e.g., system error vs. stored procedure execution error)",
       "searchTags": "stored procedure;sp;procedure;activity",
       "category": "Integration",
       "useInDiagnoseAndSolve": "true"
