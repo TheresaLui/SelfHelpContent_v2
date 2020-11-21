@@ -400,7 +400,7 @@
     {
       "id": "64cec26a-6c0c-65ff-8fd4-88aea26b8953",
       "longDescription": "",
-      "shortDescription": "Best practices and expected product behavior when managing custom Libraries and Packages on a Spark pool.",
+      "shortDescription": "Recommendations and expected product behavior when managing custom Libraries and Packages on a Spark pool.",
       "searchTags": "how;advisory;spark;libraries;packages",
       "category": "How-To",
       "useInDiagnoseAndSolve": "true"
