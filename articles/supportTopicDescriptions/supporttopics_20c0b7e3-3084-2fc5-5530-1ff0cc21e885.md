@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43a81a57-3887-b851-8ebb-1dc58f8137d5",
+      "longDescription": "",
+      "shortDescription": "Execution of a stored procedure activity fails due to error in Pipeline (e.g., system error vs. stored procedure execution error)",
+      "searchTags": "stored procedure;sp;procedure;activity",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43cf96c8-497c-5d92-f3bf-2e4c124e6c1a",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations to achieve the best performance using Spark jobs.",
