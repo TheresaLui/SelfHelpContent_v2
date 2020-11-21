@@ -886,6 +886,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be986d52-653b-a4f3-cfe2-aa305984af8f",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Self-Hosted Integration Runtime, slow performance, network or connectivity errors or unhandled exceptions.",
+      "searchTags": "shir;integration runtime;performance;ir;hosted",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf66f37b-a473-9e4c-72d1-94ff5d529dfd",
       "longDescription": "",
       "shortDescription": "Issues related to capacity when creating or scaling a SQL pool.",
