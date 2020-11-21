@@ -360,7 +360,7 @@
     {
       "id": "5c730f51-e08b-e682-c1d5-7354f1d995f1",
       "longDescription": "",
-      "shortDescription": "Issues to load data from Cosmos DB Analytical Store data using Azure Synapse Link for Cosmos DB.",
+      "shortDescription": "Issues loading data from Cosmos DB Analytical Store data using Azure Synapse Link.",
       "searchTags": "synapse;link;cosmosdb;import;load",
       "category": "Azure Synapse Link",
       "useInDiagnoseAndSolve": "true"
