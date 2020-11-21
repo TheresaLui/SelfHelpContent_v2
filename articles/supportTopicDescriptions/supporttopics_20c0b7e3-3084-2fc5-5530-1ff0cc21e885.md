@@ -560,7 +560,7 @@
     {
       "id": "ac02ba5f-4cb6-7c3f-9f4f-99c59c36c6b3",
       "longDescription": "",
-      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior on Synapse Workspace.",
+      "shortDescription": "Security-related questions and advisory on best practices, recommendations, and expected product behavior on Synapse Workspace",
       "searchTags": "how;advisory;sql;security;permissions",
       "category": "How-To",
       "useInDiagnoseAndSolve": "true"
