@@ -606,6 +606,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "77fe1bc5-6f10-1985-7ea0-9f4ab6c43737",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for Serverless SQL.",
+      "searchTags": "how;advisory;sql;query;performance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "801be9fa-94f4-d940-148c-88b8778e3101",
       "longDescription": "",
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
