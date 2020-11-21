@@ -20,6 +20,6 @@
 ## **Recommended Steps**
 
 * Verify that packets are going to the undesired region by checking [network bandwidth consumption](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics#how-do-i-check-my-network-bandwidth-consumption) on Regional Load Balancer in the backend pool of the Cross-region Load Balancer.
-* Compare latency between source region with each destination region which is used by Cross-region Load Balancer while making load distribution decision.
-1. Reference [latency data](https://docs.microsoft.com/azure/networking/azure-network-latency#september-2020-round-trip-latency-figures) based on source region and destination region. Source region is the [participating region](https://docs.microsoft.com/azure/load-balancer/cross-region-overview#participating-regions) which most of the client traffic fall under. Destination region is the region that each regional Load Balancer is deployed in.
+* Compare latency between source regions with each destination region that is used by the Cross-region Load Balancer while making decisions concerning load distribution.
+1. Review [latency data](https://docs.microsoft.com/azure/networking/azure-network-latency#september-2020-round-trip-latency-figures) based on source region and destination region. The source region is the [participating region](https://docs.microsoft.com/azure/load-balancer/cross-region-overview#participating-regions) that most of the client traffic falls under. The destination region is the region that each regional Load Balancer is deployed in.
 2. Compare the latency data. Traffic should be sent to the destination region with lower latency value.
