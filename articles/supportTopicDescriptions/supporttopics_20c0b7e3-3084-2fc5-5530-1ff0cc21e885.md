@@ -432,7 +432,7 @@
     {
       "id": "6dc242b7-26bc-5b50-8f64-f204479ceb46",
       "longDescription": "",
-      "shortDescription": "Failures to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
+      "shortDescription": "Failure to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
       "searchTags": "crud;management;sql;create;pool",
       "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
