@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6dc242b7-26bc-5b50-8f64-f204479ceb46",
+      "longDescription": "",
+      "shortDescription": "Failure to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;management;sql;create;pool",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7064fa16-d600-390b-e37d-ac68f9334658",
       "longDescription": "",
       "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
