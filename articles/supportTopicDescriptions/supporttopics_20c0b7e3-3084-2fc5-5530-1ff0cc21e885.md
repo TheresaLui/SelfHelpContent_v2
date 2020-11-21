@@ -758,6 +758,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ac02ba5f-4cb6-7c3f-9f4f-99c59c36c6b3",
+      "longDescription": "",
+      "shortDescription": "Security-related questions and advisory on best practices, recommendations, and expected product behavior on Synapse Workspace",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad5ec509-82bb-d6e6-a403-2da755f49b20",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
