@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "13eda81c-201b-0d3d-df0b-c413fdb5ea24",
+      "longDescription": "",
+      "shortDescription": "Problems creating or editing a data flow activity within a pipeline or issues with the activity settings.",
+      "searchTags": "data flow;data flow activity;pipeline;performance",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "13f50b2b-ee3c-10b4-ccb8-62fa87fa0ced",
       "longDescription": "",
       "shortDescription": "Errors or unexpected behavior while creating or executing SQL scripts in Synapse Studio environment.",
