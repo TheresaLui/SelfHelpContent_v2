@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5bbdc6a6-0508-8419-1905-ba6fc36cdfb3",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations, and expected product behavior using Serverless SQL.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
