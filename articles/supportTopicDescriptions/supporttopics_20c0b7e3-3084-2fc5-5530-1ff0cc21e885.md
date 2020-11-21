@@ -352,7 +352,7 @@
     {
       "id": "5bbdc6a6-0508-8419-1905-ba6fc36cdfb3",
       "longDescription": "",
-      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using Serverless SQL.",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations, and expected product behavior using Serverless SQL.",
       "searchTags": "how;advisory;sql;security;permissions",
       "category": "How-To",
       "useInDiagnoseAndSolve": "true"
