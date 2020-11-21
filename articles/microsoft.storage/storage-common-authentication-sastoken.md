@@ -85,7 +85,7 @@ The following links provide sample server and client-side logs for reference, as
 
 ### **Receiving HTTP 409 (Conflict) messages**
 
-If your client application is receiving an HTTP 409 (Conflict) message from the server, this implies that the server is processing a previous request on the same object which conflicts with the current request.
+If your client application is receiving an HTTP 409 (Conflict) message from the server, this means that the server is processing a previous request on the same object which conflicts with the current request.
 
 ## **Recommended Documents**
 
