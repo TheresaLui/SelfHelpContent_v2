@@ -1046,6 +1046,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e48fefb5-8219-0f1c-3e17-32e3b42d7f44",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
+      "searchTags": "how;advisory;sql;pool;recommendations",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e56e18a6-b3b2-69b8-d338-1be16db8121b",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL On-demand.",
