@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64cec26a-6c0c-65ff-8fd4-88aea26b8953",
+      "longDescription": "",
+      "shortDescription": "Recommendations and expected product behavior when managing custom Libraries and Packages on a Spark pool.",
+      "searchTags": "how;advisory;spark;libraries;packages",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65db58f5-0eb3-c4df-7cbc-4adbc1b6a99a",
       "longDescription": "",
       "shortDescription": "Jobs running .NET Spark (C-Sharp) fail with an error message.",
