@@ -1142,6 +1142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f30bf66d-c850-0b99-e376-75a3ed44ebbd",
+      "longDescription": "",
+      "shortDescription": "Guidance for using Synapse features, and answers to questions about expected product behavior.",
+      "searchTags": "how;advisory;practices;recommendations",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f36784d7-89d4-8421-c64a-ace5e91a8b6a",
       "longDescription": "",
       "shortDescription": "Spark SQL job is running slow or hang.",
