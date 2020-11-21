@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c0da378-c822-32fe-9187-0524676d3245",
+      "longDescription": "",
+      "shortDescription": "Issues related to custom applications or client tools that interact with Synapse resources and pools and are not listed in other categories .",
+      "searchTags": "application;custom;third party;sql;driver",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0cecfd76-fb79-c487-bed2-f8f944117ea5",
       "longDescription": "",
       "shortDescription": "Questions or advisory on best practices, recommendations and product expected behavior related Scheduled Maintenance.",
