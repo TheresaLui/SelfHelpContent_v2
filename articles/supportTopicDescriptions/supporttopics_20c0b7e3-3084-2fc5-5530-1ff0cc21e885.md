@@ -1014,6 +1014,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e4428254-0ba3-df8f-cecc-40522710cf4f",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
+      "searchTags": "sql;databricks;spark;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e48b0486-e343-3de2-b43b-824caa21603b",
       "longDescription": "",
       "shortDescription": "Failures to configure the firewall or connectivity issues to SQL pools caused by the firewall settings.",
