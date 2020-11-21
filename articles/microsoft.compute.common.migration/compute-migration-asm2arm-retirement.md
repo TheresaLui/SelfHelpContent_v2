@@ -44,7 +44,7 @@ For additional information, refer to the [Frequently asked questions about class
 
 ### Next steps
 
-Create a plan to migrate your classic [Linux](./linux/migration-classic-resource-manager-plan.md) or [Windows](./windows/migration-classic-resource-manager-plan.md) VMs to Resource Manager.
+Create a plan to migrate your classic [Linux](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-plan?toc=/azure/virtual-machines/linux/toc.json) or [Windows](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-plan?toc=/azure/virtual-machines/windows/toc.json) VMs to Resource Manager.
 
 ## **Recommended Documents**
 
