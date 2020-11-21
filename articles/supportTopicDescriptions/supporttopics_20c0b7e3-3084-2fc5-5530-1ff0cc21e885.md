@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2a9de86-b1fa-9035-3000-b51a9cfd5dbe",
+      "longDescription": "",
+      "shortDescription": "Problems related to moving resources between subscriptions, resource groups or tenants.",
+      "searchTags": "resource;move;crud;subcription;resource group",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4379e04-c5f0-1d19-448c-7fae301b061a",
       "longDescription": "",
       "shortDescription": "Assistance with performance related issues running Spark jobs.",
