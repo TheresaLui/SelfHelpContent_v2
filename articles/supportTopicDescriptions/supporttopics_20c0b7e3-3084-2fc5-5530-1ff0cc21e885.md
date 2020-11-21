@@ -1070,6 +1070,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
+      "searchTags": "sql;polybase;load;import;export",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eb96363f-5788-3078-1bb7-9d6f94de5c0b",
       "longDescription": "",
       "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
