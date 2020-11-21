@@ -36,9 +36,9 @@ Most customers can resolve their SAS token authentication and connectivity issue
 
 **Receiving HTTP 403 (Forbidden) messages** 
   
-If your client application is throwing HTTP 403 (Forbidden) errors, the most likely causes are as follows:
-
 **Note:** If an expired SAS key is the cause, you will not see any entries in the server-side Storage Logging log data.
+
+If your client application is throwing HTTP 403 (Forbidden) errors, the most likely causes are as follows:
 
 1. Client is using an expired SAS token
 2. Clock skew 
