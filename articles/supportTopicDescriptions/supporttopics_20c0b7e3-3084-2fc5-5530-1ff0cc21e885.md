@@ -638,6 +638,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95fe43df-5716-311b-7c8f-341fee71e0a4",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Spark pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "manage;crud;create;delete;spark",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96c29b26-d9fd-70be-f4b5-57da77c9625a",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL pool, separate topic for SQL on-demand.",
