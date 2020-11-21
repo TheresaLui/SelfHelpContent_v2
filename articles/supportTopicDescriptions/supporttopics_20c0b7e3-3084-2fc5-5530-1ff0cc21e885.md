@@ -752,7 +752,7 @@
     {
       "id": "de91a60d-1da8-cc9f-f3d2-1bb4a7dca9ff",
       "longDescription": "",
-      "shortDescription": "Authoring or execution issues with Copy Activity, poor performance, authentication or networking errors, unexpected results copying data.",
+      "shortDescription": "Authoring or execution issues with Copy Activity, such as poor performance, authentication or networking errors, unexpected results copying data",
       "searchTags": "pipeline;copy;activity;performance;monitor",
       "category": "Integration",
       "useInDiagnoseAndSolve": "true"
