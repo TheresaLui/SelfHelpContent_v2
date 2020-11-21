@@ -670,6 +670,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "afeeca72-8c3f-4893-579f-19638cd3512b",
+      "longDescription": "",
+      "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
+      "searchTags": "connectivity;unavailable;workspace;firewall",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b066c719-5b56-77c5-8039-eccf89686609",
       "longDescription": "",
       "shortDescription": "Python job is running slow or hangs.",
