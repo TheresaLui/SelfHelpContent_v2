@@ -616,7 +616,7 @@
     {
       "id": "cf89600e-3c72-4dcb-16eb-7a1ed0e798d6",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related to create or delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "shortDescription": "Troubleshoot issues related to delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
       "searchTags": "Log Analytics;workspace;create;delete",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "true"
