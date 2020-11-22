@@ -23,6 +23,12 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * If you are unable to launch or access Azure Databricks workspace and you receive the error message, "User does not have Contributor or Owner role," the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** roles by following [these steps](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). The user should be added **individually** because adding an AD group is **not supported** yet.
+
+* When using Azure Databricks, it can be confusing when a new workspace and managed resource group just appear. Azure automatically creates a **Databricks workspace**, as well as a **managed resource group (databricks-rg-xxx-xxx)** containing all the resources needed to run the cluster. 
+
+  This MRG is protected by a system-level lock to prevent deletions and modifications. The only way to directly remove the lock is to delete the service. However, by making changes to the parent resource group, those changes will be correspondingly updated in the managed resource group.
+  
+ 
 * Learn [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip)
 * Learn about [managed applications and locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
 * Deploying workspace through ARM Templates will fail if you use existing an resource group name as a managed resource group. Ensure that the [Managed Resource group](https://docs.microsoft.com/azure/managed-applications/overview#managed-resource-group) in the ARM template doesn't already exist within the subscription.
