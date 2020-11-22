@@ -1,50 +1,46 @@
 <properties
-	pageTitle="Authentication Issues"
-	description="Authentication Issues"
-	infoBubbleText="Authentication Issues"
-	service="microsoft.machinelearning"
+	pageTitle="Policies"
+	description="Policies"
+	infoBubbleText="Policies"
+	service="microsoft.machinelearning.workspace"
 	resource="machinelearning"
 	authors="johnwu0604"
 	ms.author="johwu"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32690837"
+	supportTopicIds="<TO-UPDATE>"
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.authentication-scopingq"
+	articleId="microsoft.machinelearning.workspace.policies.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Authentication Issues
+
+# Policies
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Authentication Issues",
+    "title": "Policies",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "auth_type",
+            "id": "policy_type",
             "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "What type of authentication are you facing issues with?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "controlType": "radiobuttongroup",
+            "displayLabel": "Which kind of policies are you facing issues with?",
+            "radioButtonOptions": [
                 {
-                    "value": "Interactive",
-                    "text": "Interactive Authentication"
+                    "value": "Built-in Policies",
+                    "text": "Built-in Policies"
                 },
                 {
-                    "value": "Service Principal",
-                    "text": "Service Principal"
-                },
-                {
-                    "value": "Managed Identity",
-                    "text": "Managed Identity"
+                    "value": "Custom Policies",
+                    "text": "Custom Policies"
                 }
             ],
             "required": false
-        },
+        }
         {
             "id": "problem_description",
             "order": 2,

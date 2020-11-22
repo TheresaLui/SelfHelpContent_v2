@@ -1,46 +1,50 @@
 <properties
-	pageTitle="Authentication Issues"
-	description="Authentication Issues"
-	infoBubbleText="Authentication Issues"
+	pageTitle="Setting up role-based access control (RBAC)"
+	description="Setting up role-based access control (RBAC)"
+	infoBubbleText="Setting up role-based access control (RBAC)"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"
 	ms.author="johwu"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32690837"
+	supportTopicIds="<TO-UPDATE>"
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.authentication-scopingq"
+	articleId="microsoft.machinelearning.enterprisesecurity.rbac-scopingq"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Authentication Issues
+# Setting up role-based access control (RBAC)
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Authentication Issues",
+    "title": "Setting up role-based access control (RBAC)",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "auth_type",
+            "id": "role_type",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "What type of authentication are you facing issues with?",
+            "displayLabel": "What is the machine learning role you are facing issues with?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Interactive",
-                    "text": "Interactive Authentication"
+                    "value": "Owner",
+                    "text": "Owner"
                 },
                 {
-                    "value": "Service Principal",
-                    "text": "Service Principal"
+                    "value": "Contributor",
+                    "text": "Contributor"
                 },
                 {
-                    "value": "Managed Identity",
-                    "text": "Managed Identity"
+                    "value": "Reader",
+                    "text": "Reader"
+                },
+                {
+                    "value": "Custom",
+                    "text": "Custom"
                 }
             ],
             "required": false
