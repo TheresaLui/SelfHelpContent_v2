@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "02a36e6a-8f38-3b77-184d-55b977bb0bd8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related to create Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "searchTags": "Log Analytics;Create;Workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0b242861-e676-c1cd-9679-b4929328163d",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with connecting Azure Virtual machine to a Log Analytics workspace (for VM related issues please select the Agent topic)",
