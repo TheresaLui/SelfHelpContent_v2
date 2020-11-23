@@ -673,6 +673,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "db4ac868-3787-043f-4cd6-397d4cb798cc",
+      "longDescription": "",
+      "shortDescription": "Best practices, backup architecture",
+      "searchTags": "Best practices; backup architecture",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
       "longDescription": null,
       "shortDescription": "Issue related to DPM (Data Protection Manager) for protecting on-premises to Azure",
