@@ -24,6 +24,7 @@
    "formElements": [
        {
 	   "id": "pc_isv_publisher_name",
+	   "visibility": null,
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
@@ -32,6 +33,7 @@
        },
        {
 	   "id": "pc_isv_publisher_id",
+	   "visibility": null,
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
@@ -40,6 +42,7 @@
        },
        {
 	   "id": "pc_isv_seller_id",
+	   "visibility": null,
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID",
@@ -48,6 +51,7 @@
        },
        {
 	   "id": "additional_email_for_notification",
+	   "visibility": null,
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
@@ -56,6 +60,7 @@
        },
        {
 	   "id": "pc_isv_lead_destination",
+	   "visibility": null,
 	   "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Lead Destination",
@@ -85,6 +90,7 @@
        },
        {
 	   "id": "pc_isv_offer_type",
+	   "visibility": null,
 	   "order": 6,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type",
@@ -159,6 +165,7 @@
        },
        {
 	   "id": "pc_isv_offer_name",
+	   "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
@@ -167,6 +174,7 @@
        },
        {
 	   "id": "pc_isv_offer_id",
+	   "visibility": null,
 	   "order": 8,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
@@ -175,39 +183,47 @@
        },
        {
 	   "id": "pc_isv_offer_d365",
+	   "visibility": null,
 	   "order": 9,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is Offer D365 type?",
        "watermarkText":"Choose from below",
 	   "dropdownOptions": [
 	       {
-		   "value": "Yes",
+		   "value": "D365_Yes",
 		   "text": "Yes"
 	       },
-           {
-		   "value": "No",
+               {
+		   "value": "D365_No",
 		   "text": "No"
-	       }],
+		},
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       	}],
 	   "required": false
        },
        {
 	   "id": "pc_isv_d365offer_true",
+	   "visibility": "pc_isv_offer_d365==D365_Yes",
 	   "order": 10,
 	   "controlType": "textbox",
-	   "displayLabel": "If Offer is D365 type, please provide the Environment Name and Environment Type",
+	   "displayLabel": "Please provide the Environment Name and Environment Type",
 	   "watermarkText": "Environment Name; Environment Type",
 	   "required": false
        },
        {
 	   "id": "problem_start_time",
+	   "visibility": null,
 	   "order": 11,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
        {
 	   "id": "problem_description",
+	   "visibility": null,
 	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
