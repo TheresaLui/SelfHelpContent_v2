@@ -196,10 +196,11 @@
                {
 		   "value": "D365_No",
 		   "text": "No"
+		},
 		{
 		   "value": "dont_know_answer",
 		   "text": "Not sure"
-	       	 }],
+	       	}],
 	   "required": false
        },
        {
