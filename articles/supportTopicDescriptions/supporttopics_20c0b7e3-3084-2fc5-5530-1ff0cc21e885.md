@@ -408,7 +408,7 @@
     {
       "id": "65ed1f16-b289-d30c-a9a9-7f1b3a0bbd7e",
       "longDescription": "",
-      "shortDescription": "Failures related authentication or connectivity when accessing storage from Spark Jobs.",
+      "shortDescription": "Failures related to authentication or connectivity when accessing storage from Spark Jobs.",
       "searchTags": "storage;access;connectivity;authentication;spark",
       "category": "Spark",
       "useInDiagnoseAndSolve": "true"
