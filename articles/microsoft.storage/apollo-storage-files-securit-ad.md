@@ -24,7 +24,7 @@ Azure Files supports identity-based authentication over Server Message Block (SM
 	<videoGroup>
 	<video>
 	<src>https://sec.ch9.ms/ch9/3358/0addac01-3606-4e30-ad7b-f195f3ab3358/ITOpsTalkAzureFiles_high.mp4</src>
-	<title>Step by Step Video for enabling Files AD DS Authentication with private endpoints</title>
+	<title>Step by Step guidance for enabling Files AD DS Authentication with private endpoints</title>
 	</video>
 	</videoGroup>
 
@@ -32,7 +32,7 @@ Azure Files supports identity-based authentication over Server Message Block (SM
 	<videoGroup>
 	<video>
 	<src>https://www.youtube.com/watch?v=9S5A1IJqfOQ</src>
-	<title>Step by Step Video for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
+	<title>Step by Step guidance for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
 	</video>
 	</videoGroup>
 
