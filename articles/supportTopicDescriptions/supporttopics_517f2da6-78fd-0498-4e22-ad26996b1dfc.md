@@ -2,7 +2,7 @@
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, prdasneo, mumami"
+  ms.author="akankshajsh, prdasneo, mumami, scotro"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -71,6 +71,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0f14502b-e27c-c3d4-a2b1-cd5a3875389e",
+      "longDescription": "",
+      "shortDescription": "Need assistance with managing access for Reservations",
+      "searchTags": "RI;Reservations;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
