@@ -184,7 +184,7 @@
             "id": "issue_type",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes your p Availability Group setup issue.",
+            "displayLabel": "Choose an option that best describes your Availability Group setup issue.",
             "watermarkText": "Common Setup Availability Group issue categories",
             "infoBalloonText": "Setup Availability Group issue category",
             "dropdownOptions": [
