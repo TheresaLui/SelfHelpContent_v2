@@ -24,12 +24,14 @@
    "formElements": [
    	{
        "id": "learn_more_text",
+       "visibility": null,
        "order": 1,
        "controlType": "infoblock",
        "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
        },
        {
 	   "id": "pc_isv_publisher_name",
+	   "visibility": null,
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
@@ -38,6 +40,7 @@
        },
        {
 	   "id": "pc_isv_publisher_id",
+	   "visibility": null,
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
@@ -46,6 +49,7 @@
        },
        {
 	   "id": "pc_isv_seller_id",
+	   "visibility": null,
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID",
@@ -54,6 +58,7 @@
        },
        {
 	   "id": "pc_isv_offer_id",
+	   "visibility": null,
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
@@ -62,6 +67,7 @@
        },
        {
 	   "id": "pc_isv_offer_type",
+	   "visibility": null,
 	   "order": 6,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
@@ -136,6 +142,7 @@
        },
        {
 	   "id": "pc_isv_offer_name",
+	   "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
@@ -144,6 +151,7 @@
        },
        {
 	   "id": "pc_isv_offer_status",
+	   "visibility": null,
 	   "order": 8,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer status",
@@ -165,14 +173,16 @@
        },
        {
 	   "id": "pc_isv_private_preview",
+	   "visibility": "pc_isv_offer_status==preview_status",
 	   "order": 9,
 	   "controlType": "textbox",
-	   "displayLabel": "If the offer is in Preview status please confirm the email address of the person trying to access the preview link",
+	   "displayLabel": "Please confirm the email address of the person trying to access the preview link",
 	   "watermarkText": "Email address of the person trying to access the preview link",
 	   "required": false
        },
        {
 	   "id": "additional_email_for_notification",
+	   "visibility": null,
 	   "order": 10,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
@@ -181,14 +191,16 @@
        },
        {
 	   "id": "problem_start_time",
+	   "visibility": null,
 	   "order": 11,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
        {
 	   "id": "problem_description",
+	   "visibility": null,
 	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
