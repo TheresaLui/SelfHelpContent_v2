@@ -1,8 +1,8 @@
 <properties
     pageTitle="Upgrade your ExpressRoute circuit bandwidth"
     description="Upgrade your ExpressRoute circuit bandwidth"
-    authors="ExRPM"
-    ms.author="ExRPM"
+    authors="tanuballa"
+    ms.author="taballa"
     articleId="f606607c-ee34-445e-997e-49d7cb563fe0_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USSec, USNat",
