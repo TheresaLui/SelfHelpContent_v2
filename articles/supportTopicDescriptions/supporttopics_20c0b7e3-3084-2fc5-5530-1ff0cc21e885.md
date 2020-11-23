@@ -192,7 +192,7 @@
     {
       "id": "299fa9fc-071d-75b2-763f-b5d0e1be3b2f",
       "longDescription": "",
-      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for Dedicated SQL pool.",
+      "shortDescription": "Slow, hanging, or timed out queries. Use only for Dedicated SQL pool.",
       "searchTags": "sql;performance;slow;query;execution",
       "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
