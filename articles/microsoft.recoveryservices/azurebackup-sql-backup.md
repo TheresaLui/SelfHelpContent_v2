@@ -20,20 +20,20 @@
 ## **Recommended Steps**
 
 **Common error codes**
-- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance have the required  permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
-- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
+- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
+- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
 - **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
-- **UserErrorSQLPODoesNotSupportBackupType** - This SQL database does not support the requested backup type. [List of supported and not-supported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
-- **UserErrorSQLPODoesNotExist** - SQL database does not exist, follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
+- **UserErrorSQLPODoesNotSupportBackupType** - This SQL database does not support the requested backup type. [List of supported and unsupported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
+- **UserErrorSQLPODoesNotExist** - SQL database does not exist. Follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
 **WorkloadExtensionNotReachable** - Follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures) 
 
 **Other error codes**
 - **UserErrorOpeningSQLConnection** - [Azure Backup is not able to connect to the SQL instance](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection)<br>
 - **UserErrorParentFullBackupMissing** - [First full backup is missing for this data source](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorparentfullbackupmissing)<br>
-- **UserErrorBackupFailedAsTransactionLogIsFull** - [Cannot take backup as transaction log for the data source is full](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull)<br>
-- **UserErrorCannotTakeBackupBasedOnBackupPreference** - Ensure all VMs/nodes of the AG are [registered](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#does-the-solution-retry-or-auto-heal-the-backups) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-properties-new-availability-group-backup-preferences-page?view=sql-server-ver15)<br>
+- **UserErrorBackupFailedAsTransactionLogIsFull** - [Cannot perform backup as transaction log for the data source is full](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull)<br>
+- **UserErrorCannotTakeBackupBasedOnBackupPreference** - Ensure all VMs and nodes of the AG are [registered](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#does-the-solution-retry-or-auto-heal-the-backups) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-properties-new-availability-group-backup-preferences-page?view=sql-server-ver15)<br>
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)<br>
-- [Troubleshooting issues related to backup SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)
+- [FAQ for SQL Server backup](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)<br>
+- [Troubleshooting issues related to backing up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)
