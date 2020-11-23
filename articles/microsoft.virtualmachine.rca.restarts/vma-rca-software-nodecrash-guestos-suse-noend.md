@@ -41,13 +41,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see the SUSE article:
 > * [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)
 > 
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
