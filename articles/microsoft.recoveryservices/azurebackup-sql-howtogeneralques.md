@@ -26,10 +26,10 @@
 **Restore**
 - How to [restore SQL database](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-a-database)
 - Restore options - [Restore to an alternate location](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-to-an-alternate-location); [Restore and overwrite](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-and-overwrite); [Restore as files](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-as-files); [Restore to a specific point in time](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-to-a-specific-point-in-time); [Restore to a specific restore point](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-to-a-specific-restore-point); [Restore databases with large number of files](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#restore-databases-with-large-number-of-files)
-- How to [restore to different region using cross region restore(CRR)](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#cross-region-restore)
+- How to [restore to different region using cross region restore(CRR)](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#cross-region-restore)<br>
 
 **Disable backup**
-- [Step by step instrution to stop protection for a SQL Server database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
+- [Step by step instruction to stop protection for a SQL Server database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
 - [Step by step instruction to delete a Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)
 - [How to resume protection for a SQL database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#resume-protection-for-a-sql-database)
 
