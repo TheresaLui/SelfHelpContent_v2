@@ -50,7 +50,7 @@
 			"hints": [{
 					"text": "Version details"
 				}, {
-					"text": "What version of azureml SDK are you using? What version of azureml-dataprep SDK is installed?"
+					"text": "What version of azureml SDK are you using?"
 				}
 			]
 		}
