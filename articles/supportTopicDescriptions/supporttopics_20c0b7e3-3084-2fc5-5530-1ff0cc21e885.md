@@ -1062,6 +1062,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d16ba93c-7662-f0fb-702f-fdeab046bb0c",
+      "longDescription": "",
+      "shortDescription": "Problems related to failures or slow performance during query execution using SQL Pools.",
+      "searchTags": "sql;performance;query;execution;slow",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d68f6850-ba98-2795-8330-7b5c974fe9d0",
       "longDescription": "",
       "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
