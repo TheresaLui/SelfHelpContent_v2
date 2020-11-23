@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bc296b2-0f5f-6a88-c004-f31fb1e19a49",
+      "longDescription": "",
+      "shortDescription": "Configuration or execution issues in a data flow activity using Common Data Model (CDM) format connector as a source or sink.",
+      "searchTags": "cdm;common data model;connector;source;sink",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
