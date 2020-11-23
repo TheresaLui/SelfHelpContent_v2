@@ -17,6 +17,17 @@
 
 # Diagnose and resolve issues with Workspace launch failure in VNET injected workspace
 
+## **Recommended Steps**
+
+* Login issue getting error: 
+  
+  ```
+  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
+  ```
+  A workaround would be to either open a new tab in google chrome or close the browser and erase its history.
+
+  If this doesn't help, there would be an ongoing maintenance or outages. Please check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+  
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
