@@ -21,8 +21,8 @@
 
 **Backup policies and retention**
 
-- [How do I **cleanup or extend the retention period** of Recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)<br>
-- [How do I take **multiple backups per day**? ](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup)<br>
+- [How do I **clean up or extend the retention period** of Recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)<br>
+- [How do I perform **multiple backups per day**? ](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup)<br>
 - [How can I modify the retention period?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)
 - [What happens to the existing recovery points if I change the retention policy?](https://docs.microsoft.com/azure/backup/backup-architecture#backup-policy-essentials)
 - Learn more about [backup policies](https://docs.microsoft.com/azure/backup/backup-architecture#backup-policy-essentials)
@@ -32,7 +32,7 @@
 **Backup Reports/Alerts**<br>
 - [How to **check backup data size** for backup items?](https://docs.microsoft.com/azure/backup/configure-reports)<br>
 - [Configure](https://docs.microsoft.com/azure/backup/configure-reports) and [view](https://docs.microsoft.com/azure/backup/configure-reports#what-happened-to-the-power-bi-reports) Backup report using Power BI<br>
-- [Why am I not receiving Backup alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#exceptions-when-an-alert-is-not-raised)<br>
+- [Why am I not receiving backup alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#exceptions-when-an-alert-is-not-raised)<br>
 - [Configure notifications](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#notification-for-backup-alerts) for backup Alerts through Recovery Services vault <br>
 - [Monitor Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace) and [create Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics) using Log Analytics<br>
 - Monitor [Alerts and Jobs](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#backup-jobs-in-recovery-services-vault) through Recovery Services vault<br>
@@ -42,6 +42,6 @@
 
 ## **Recommended Documents**
 
-- [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
+- [Complete list of supported and unsupported actions and scenarios and known limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
 - [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
 - [Troubleshooting Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
