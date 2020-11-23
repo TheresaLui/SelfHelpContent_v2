@@ -27,7 +27,8 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center, select Settings, then select Developer settings",
+	   "watermarkText": "Please provide the Publisher ID",
+	   "infoBalloonText": "Select the cog wheel icon on the top right, than Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
 	},
 	{
