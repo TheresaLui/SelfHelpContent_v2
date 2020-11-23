@@ -32,4 +32,4 @@
 - Ensure the Resource Group is created first it it has been deleted.
 - Ensure KeyVault key is recovered for accounts with CMK. It's customers resonsibility to ensure CMK is present in KeyVault.<br>
 
-# [**Click Here > Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
+## [**Click Here > Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
