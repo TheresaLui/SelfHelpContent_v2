@@ -27,6 +27,17 @@ You can learn how to create or register an Azure Machine Learning datasets by us
 
 ### **FAQ**
 
+• **"Permission" problems reigistreing dataset or connecting to datastore
+
+ If you have "Permission" problems reigistreing dataset or connecting to datastore, please find possible causes and steps to be taken as below:
+1. **Network issues**: Please verify if you are facing issues with your network
+2. **VNet issues**: Check if your data storage is behind a Vnet or firewall. If so, you must make sure your [Storage's Vnet setting is correct](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-storage-accounts).
+3. **Incorrect credentials**: Verify if the credentials provided (SAS token or account key) for the datastore is correct and still active. If you are using ADLS Gen2, check out their access control set up to learn more: [access control set up for ADLS Gen 2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control).
+4. **Data deletion**: Verify if the data you are trying to access was deleted from the storage account
+5. **FileNotExist error**: If you get similar error message as "cannot open file '/xxx/yyy/zzz.tsv': No such file or directory", please make sure the directory you are using exists
+
+
+
 • **When should I use file dataset v/s tabular dataset?**
 For majority of your use-cases, we recommend using file dataset for any file formats (csv, parquet, json, and so on) for ease of use. If you are using autoML and data monitors, then a tabular dataset helps you setting the filtering and partition once and reuse across autoML and data monitor components in Azure ML. Tabular dataset also provides data in table format and offers seamless options to move to pandas dataframe without creating a local copy of your data.
 
