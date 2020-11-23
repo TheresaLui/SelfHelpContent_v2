@@ -51,9 +51,9 @@
     {
       "id": "08b22f15-5b92-c873-e513-18e02aa112f0",
       "longDescription": null,
-      "shortDescription": "Issue during restore of Windows virtual machine ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues during restore for Windows",
+      "searchTags": "Restore;windows",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
