@@ -323,9 +323,9 @@
     {
       "id": "5ac4d72a-7814-6c56-4e28-2694b5e77f1e",
       "longDescription": null,
-      "shortDescription": "Performance issue while taking backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Performance issues during a backup, or scheduled backups start too late",
+      "searchTags": "performance;scheduled backup",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
