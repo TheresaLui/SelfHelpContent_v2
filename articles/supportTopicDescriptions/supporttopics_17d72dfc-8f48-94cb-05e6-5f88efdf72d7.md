@@ -737,6 +737,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ed35ef48-803c-6896-9adf-c226eb606279",
+      "longDescription": "",
+      "shortDescription": "Ask for a new feature, ask for new support in existing feature",
+      "searchTags": "new feature;ask",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "efd4ca51-f106-18d9-1d69-2a5cbb368683",
       "longDescription": null,
       "shortDescription": "Issue while configuring or disabling backup for SQL Server database",
