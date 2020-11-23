@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2168075b-0306-cd4d-3a56-23090766c564",
+      "longDescription": "",
+      "shortDescription": "Spark Job failure or slow performance while reading data from Azure Data Explorer.",
+      "searchTags": "adx;data explorer;azure data explorer;kusto;spark",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22988c8c-8c88-c35f-a61a-b3e9210a22b4",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior related to the authoring and development of Notebooks.",
