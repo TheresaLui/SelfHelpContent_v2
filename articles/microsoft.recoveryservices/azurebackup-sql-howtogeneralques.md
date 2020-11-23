@@ -29,13 +29,13 @@
 - How to [restore to different region using cross region restore(CRR)](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#cross-region-restore)<br>
 
 **Disable backup**
-- [Step by step instruction to stop protection for a SQL Server database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
-- [Step by step instruction to delete a Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)
+- [Step-by-step instruction to stop protection for a SQL Server database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
+- [Step-by-step instruction to delete a Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)
 - [How to resume protection for a SQL database](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#resume-protection-for-a-sql-database)
 
 
 ## **Recommended Documents**
-- [Prerequisites to add SQL server in Azure VM backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites)
+- [Prerequisites to add SQL Server for Azure VM backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites)
 - [Prerequisites before triggering a restore](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#prerequisites)
 - [Network connectivity requirement](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity)
 - How to [monitor backup jobs](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup)<br>
