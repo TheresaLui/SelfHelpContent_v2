@@ -31,7 +31,7 @@ Review the graph to see the CPU usage as it correlates to your workload. Identif
     <title>Current Virtual Machine CPU Usage</title>
 </metric>
 
-## VM Performance Diagnostics
+### VM Performance Diagnostics
 
 We are attempting to run diagnostics for your Azure Virtual Machine. If any issues are detected, the findings will be listed below.
 
