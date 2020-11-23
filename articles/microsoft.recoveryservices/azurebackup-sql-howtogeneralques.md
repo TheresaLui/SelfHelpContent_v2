@@ -35,7 +35,7 @@
 
 
 ## **Recommended Documents**
-- [Prerequisites for SQL server in Azure VM backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites)
+- [Prerequisites to add SQL server in Azure VM backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites)
 - [Prerequisites before triggering a restore](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm#prerequisites)
 - [Network connectivity requirement](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity)
 - How to [monitor backup jobs](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup)<br>
