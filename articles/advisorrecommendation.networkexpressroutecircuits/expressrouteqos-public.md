@@ -8,7 +8,7 @@
     cloudEnvironments="Public, USSec, USNat",
     ownershipId="CloudNet_AzureExpressRoute"
 />
-# "Upgrade your ExpressRoute circuit bandwidth to accomodate your bandwidth needs"
+# "Upgrade your ExpressRoute circuit bandwidth to accommodate your bandwidth needs"
 ---
 {
   "recommendationOfferingId": "7269b88e-b638-4ba5-a55e-5632365dd938",
@@ -39,7 +39,7 @@
   "recommendationTimeToLive": 86400,
   "version": 1,
   "learnMoreLink": "https://docs.microsoft.com/azure/expressroute/about-upgrade-circuit-bandwidth",
-  "description": "Upgrade your ExpressRoute circuit bandwidth to accomodate your bandwidth needs",
+  "description": "Upgrade your ExpressRoute circuit bandwidth to accommodate your bandwidth needs",
   "longDescription": "You have been using over 90% of your procured circuit bandwidth recently. If you exceed your allocated bandwidth, you will experience an increase in dropped packets sent over ExpressRoute. Upgrade your circuit bandwidth to maintain performance if your bandwidth needs remain this high.",
   "potentialBenefits": "Prevent packet drops caused by bandwidth oversubscription",
   "actions": [
