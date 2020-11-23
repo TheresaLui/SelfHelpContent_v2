@@ -1,20 +1,19 @@
 <properties
-	pageTitle="Resource Manager ARM Template"
-	description="Export and Import ARM Template"
-	infoBubbleText=""
-	authors="chez-charlie"
-	ms.author="chez"
-	articleId="041c38a6103440898124b090511d597a"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32629439"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="Export and Import Resource Manager (ARM) Templates&#xD;"
+  ms.author="chez,haoc"
+  selfhelptype="Generic"
+  supporttopicids="32629439"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="041c38a6103440898124b090511d597a"
+  ownershipid="AzureData_DataFactory" />
 # Export and Import Resource Manager (ARM) Templates
+
+## **Recommended Steps**
+  * Use custom parameters with [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template
+) to override default properties during deployment. You can now edit your arm-template-parameters-definition.json directly in ADF UX <br>
+ * If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
 
 ## **Recommended Documents**
 
@@ -26,4 +25,3 @@
   * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) <br>
   * [Automate continuous integration](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#automate-continuous-integration-with-azure-pipelines-releases) with Azure Pipelines releases and [Deployment Template](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#sample-deployment-template) <br>
   * Stop triggers before deployment and [restart them afterwards](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#sample-script-to-stop-and-restart-triggers-and-clean-up) <br>
-  * Use custom parameters with [Resource Manager template](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) <br>
