@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "168d3390-67be-c5d1-4116-0b1663f7e3f2",
+      "longDescription": "",
+      "shortDescription": "Slow or hanging queries, queries failing with an error or unexpected results, issues related to file formats or data types, from a Serverless SQL Pool.",
+      "searchTags": "serverless;cetas;format;types;performance",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
       "longDescription": "",
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
