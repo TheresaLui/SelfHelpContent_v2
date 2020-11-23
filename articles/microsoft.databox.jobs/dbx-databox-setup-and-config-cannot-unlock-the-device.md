@@ -8,7 +8,7 @@
 	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639183,32639195"
+	supportTopicIds="32639195"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax, usnat, ussec"
@@ -20,7 +20,7 @@
 
 **Can't unlock the Data Box**
 
-Ensure that the device unlock credentials are correct. Theis information can be found in the Azure portal under 'Device details'. 
+Ensure that the device unlock credentials are correct. This information can be found in the Azure portal under 'Device details'. 
 
 
 ## **Recommended Documents**
