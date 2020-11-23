@@ -30,9 +30,9 @@
   "owner": {
     "email": "aadevteam@microsoft.com",
     "icm": {
-      "routingId": "CLOUDNET\SLB",
-      "service": "Software Load Balancer",
-      "team": "Software Load Balancer"
+      "routingId": "MDM://CLOUDNET/SLB",
+      "service": "Azure",
+      "team": "Azure"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
