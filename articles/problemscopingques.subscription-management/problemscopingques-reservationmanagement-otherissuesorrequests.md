@@ -4,7 +4,7 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32690276,32781863"
+	supportTopicIds="32690276"
 	productPesIds="15660,15659"
 	cloudEnvironments="public, Mooncake, Blackforest, Fairfax, usnat, ussec"
 	schemaVersion="1"
