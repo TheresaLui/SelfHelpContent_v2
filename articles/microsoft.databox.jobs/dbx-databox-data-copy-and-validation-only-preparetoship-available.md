@@ -19,6 +19,7 @@
 # Data Box - Data copy and validation
 
 **Can't use the device, only 'Prepare to ship' is available**
+
 Check if the system fault indicator light on the front operating panel is ON. To rule out any issues with device location and operating conditions, try moving the device to a different location with better ventilation and air flow. Check if the fault indicator light turns off, and if the device is usable.
 
 ## **Recommended Steps**
