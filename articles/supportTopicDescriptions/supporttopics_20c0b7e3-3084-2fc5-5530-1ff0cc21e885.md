@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18960869-a3fa-dbb7-4862-52e6fe55b85c",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
+      "searchTags": "history;server;spark;log;debug",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a7cc81b-b118-888f-8893-a909a26c51a9",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using bcp utility or SQLBulkCopy API.",
