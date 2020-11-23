@@ -44,7 +44,8 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "watermarkText": "Please provide the Publisher ID",
+	   "infoBalloonText": "Select the cog wheel icon on the top right, than Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": false
        },
        {
@@ -52,8 +53,9 @@
 	   "visibility": null,
 	   "order": 4,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "displayLabel": "Seller ID",
+	   "watermarkText": "Please provide the Seller ID",
+	   "infoBalloonText": "Select the cog wheel icon on the top right, than Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
        },
        {
