@@ -35,7 +35,7 @@
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "Select the cog wheel icon on the top right > Account Settings > under Organization Profile select Identifiers > Seller ID & Publisher ID are listed under the Commercial Marketplace section",
+	   "watermarkText": "Select the cog wheel icon on the top right, than Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": false
        },
        {
@@ -43,7 +43,7 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "Select the cog wheel icon on the top right > Account Settings > under Organization Profile select Identifiers > Seller ID & Publisher ID are listed under the Commercial Marketplace section",
+	   "watermarkText": "Select the cog wheel icon on the top right, than Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
        },
        {
