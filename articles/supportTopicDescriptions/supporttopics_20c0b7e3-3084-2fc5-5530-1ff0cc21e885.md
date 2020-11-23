@@ -1310,6 +1310,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fc7634ff-40ee-80ac-f305-16536c8bc1b6",
+      "longDescription": "",
+      "shortDescription": "Problems related to Synapse Studio User Experience or User Interface, like authoring, development or publishing issues.",
+      "searchTags": "authoring;development;publishing;ui;ux",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fedb2dcb-7720-5b2b-9c30-cf6e56e98ff6",
       "longDescription": "",
       "shortDescription": "Issues to load data from Cosmos DB Analytical Store data using Azure Synapse Link for Cosmos DB.",
