@@ -19,8 +19,6 @@
 
 ## **Recommended Steps**
 
-To self resolve some of the common issues, follow these instructions.
-
 **Backup policies and retention**
 
 - [How do I **cleanup or extend the retention period** of Recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)<br>
