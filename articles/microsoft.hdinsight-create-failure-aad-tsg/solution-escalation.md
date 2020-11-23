@@ -34,3 +34,5 @@ Follow the recommended documents to troubleshoot or escalate.
 ## **Known Issues**
 
 * [Leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)
+* [Invalid scriptaction in ADLS Gen2 with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/796654)
+* [Invalid scriptaction in blob storage with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/620356)
