@@ -1,28 +1,23 @@
-<properties
-	pageTitle="Always On Availability Groups- Manage or Troubleshoot"
-	description="Always On Availability Groups- Manage or Troubleshoot"
-	ms.author="ujpat,amamun"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32740064"
-	productPesIds="14745,16342"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	schemaVersion="1"
-	articleId="76d94a7d-a601-4c55-a728-08579cc8eea1"
-	ownershipId="AzureData_AzureSQLVM"
+<properties 
+  pageTitle="Always On Availability Groups- Manage or Troubleshoot"
+  description="Always On Availability Groups- Manage or Troubleshoot"
+  authors="ujpat,amamun"
+  ms.author="ujpat,amamun"
+  selfHelpType="problemScopingQuestions"
+  supportTopicIds="32740064"
+  productPesIds="14745,16342"
+  cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+  schemaVersion="1"
+  articleId="76d94a7d-a601-4c55-a728-08579cc8eea1"
+  ownershipId="AzureData_AzureSQLVM"
 />
 # Always On Availability Groups- Manage or Troubleshoot
 ---
 {
-  "$schema": "SelfHelpContent",
-  "subscriptionRequired": false,
-  "resourceRequired": false,
-	"title": "Always On Availability Groups- Manage or Troubleshoot",
-	"fileAttachmentHint": null,
-    "diagnosticCard": {​​
-    "title": "Availability Group Troubleshooter",
-    "description": "Our Setup Availability Group Troubleshooter can help you troubleshoot and solve your problem."
-    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-    }​​,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Always On Availability Groups- Manage or Troubleshoot",
+    "fileAttachmentHint": null,
     "formElements": [
         {
             "id": "problem_start_time",
@@ -149,6 +144,7 @@
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
