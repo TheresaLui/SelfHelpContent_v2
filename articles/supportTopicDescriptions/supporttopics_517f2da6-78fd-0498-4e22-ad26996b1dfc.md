@@ -225,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b6b8731-355f-c7a9-aba4-b4cab39eeee9",
+      "longDescription": "",
+      "shortDescription": "Question or request to change the scope of an existing Reserved Instance ",
+      "searchTags": "RI;Reservation;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5c3e2a5f-619a-335b-b5ab-9dec9537d66b",
       "longDescription": null,
       "shortDescription": "Questions and clarifications on getting charged for a cancelled service",
