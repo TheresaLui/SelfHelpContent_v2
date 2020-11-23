@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-- START HERE: To self-resolve common SQL backup configuration issues, ensure all the [prerequisites](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites) are met
+- START HERE: To successfully configure SQL backup, ensure all the [prerequisites](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites) are met
 
 **Common error codes**
 - **UserErrorVMInternetConnectivityIssue** - Establish network Connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). 
