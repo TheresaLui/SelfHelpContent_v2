@@ -974,6 +974,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cdd5cf8b-a010-d869-a1c0-cc66a2c7050d",
+      "longDescription": "",
+      "shortDescription": "Failures related to processing data from Delta Lake storage using Spark Jobs.",
+      "searchTags": "delta lake;storage;spark;job",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce92e971-af53-5a9f-7127-37ba8c857264",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Data Factory pipelines.",
