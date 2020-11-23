@@ -26,6 +26,6 @@ Most users can resolve issues concerning **Why AG did not failover?** by using t
  
 ## **Recommended Steps** 
 
-- Ensure that you use AG listener name or the [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) to connect 
-- [Listener is setup with a load balancer correctly](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer)
-- Appropriate logins are available in the new primary. Please [use 'Method 2' of this article](https://support.microsoft.com//help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server) to transfer logins from previous primary to new primary
+- Makes sure **[Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions)** are met. This means **every secondary database on the failover target is synchronized**
+- Account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
+- [Maximum Failures in the Specified Period" value is not exhausted](https://support.microsoft.com/help/2833707/kb2833707-troubleshooting-automatic-failover-problems-in-sql-server-20). 
