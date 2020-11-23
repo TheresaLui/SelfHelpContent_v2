@@ -20,9 +20,12 @@
 
 **Can't unlock the Data Box**
 
+Ensure that the device unlock credentials are correct. Theis information can be found in the Azure portal under 'Device details'. 
+
+
 ## **Recommended Documents**
 
-* [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)
+* [Data Box FAQ - Configure and connect](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)
 * [Data Box set up](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)
 
 
