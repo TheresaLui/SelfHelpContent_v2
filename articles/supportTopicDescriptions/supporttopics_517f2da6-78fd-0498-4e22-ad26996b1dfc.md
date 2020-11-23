@@ -2,7 +2,7 @@
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, prdasneo, mumami"
+  ms.author="akankshajsh, prdasneo, mumami, scotro"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -303,6 +303,14 @@
       "searchTags": "Cost Management;AWS",
       "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "767ba34f-180f-c9f6-48c7-c40f6837ef29",
+      "longDescription": "",
+      "shortDescription": "Need assistance with how a reservation is applied to an existing resource",
+      "searchTags": "Ri;Reserved Instance;Reservation",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "76ea362a-2219-833b-d371-d91738e4e31a",
