@@ -3,14 +3,13 @@
 	description="HTTP 400 error code"
 	ms.author="lianwei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32683987"
+	supportTopicIds="32683986,32683987,32683988,32683989,32683990,32683991,32683997"
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-signalrservice-error-codes-400"
 	ownershipId="SignalRService_Triage"
 />
-
 # Can't apply this label
 ---
 {
