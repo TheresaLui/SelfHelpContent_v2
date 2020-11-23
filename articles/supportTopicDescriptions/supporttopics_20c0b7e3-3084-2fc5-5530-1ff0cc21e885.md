@@ -120,7 +120,7 @@
     {
       "id": "168d3390-67be-c5d1-4116-0b1663f7e3f2",
       "longDescription": "",
-      "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types, from a Serverless SQL Pool.",
+      "shortDescription": "Slow or hanging queries, queries failing with an error or unexpected results, issues related to file formats or data types, from a Serverless SQL Pool.",
       "searchTags": "serverless;cetas;format;types;performance",
       "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
