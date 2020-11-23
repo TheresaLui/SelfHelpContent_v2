@@ -34,4 +34,4 @@
 ## **Recommended Documents**
 
 - [FAQs](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [Troubleshooting issues related to backup SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
