@@ -619,7 +619,7 @@
     {
       "id": "ca4a4f85-79ec-5df0-6af2-ddeef4786ee0",
       "longDescription": "",
-      "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing ,alerts and notifications.",
+      "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing, alerts and notifications",
       "searchTags": "Backup;policies;retention;recovery point",
       "category": "Backup",
       "useInDiagnoseAndSolve": "true"
