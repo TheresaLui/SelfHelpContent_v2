@@ -910,6 +910,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc688e95-13b2-c77c-4010-4efd41d6264a",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuration or management of Customer Managed Keys.",
+      "searchTags": "cmk;customer managed keys;configuration;management",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd9291ca-67ff-e2ab-72e6-1c1fa580abc5",
       "longDescription": "",
       "shortDescription": "Assistance with roles and access control to control activities and access to workspaces, pools, data and pipelines in Synapse Analytics.",
