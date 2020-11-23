@@ -114,10 +114,6 @@
                     "text": "Unable to failover AG"
                 },
                 {
-                    "value": "AvailabilityGroupsFailure_UnableToConnect_Listener",
-                    "text": "Unable to connect to AG listener"
-                },
-                {
                     "value": "AvailabilityGroupFailure_Failover_SyncIssue_Unableto_Login_After_Failover",
                     "text": "Unable to login after failover"
                 },
