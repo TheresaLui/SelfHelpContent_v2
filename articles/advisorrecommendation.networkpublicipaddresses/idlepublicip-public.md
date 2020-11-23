@@ -28,13 +28,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "anavin@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",
       "team": "Azure Advisor"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "021d60de-795e-468a-953b-cb0067f8542e"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
