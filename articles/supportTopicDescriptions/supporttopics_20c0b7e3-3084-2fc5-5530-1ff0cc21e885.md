@@ -582,6 +582,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "65ed1f16-b289-d30c-a9a9-7f1b3a0bbd7e",
+      "longDescription": "",
+      "shortDescription": "Failures related to authentication or connectivity when accessing storage from Spark Jobs.",
+      "searchTags": "storage;access;connectivity;authentication;spark",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "685f76b1-55d6-0c7a-2e1d-5c4619de647b",
       "longDescription": "",
       "shortDescription": "Resource Health showed that the database was unavailable and need to know the cause.",
