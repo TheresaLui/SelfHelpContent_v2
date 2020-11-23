@@ -1,4 +1,5 @@
-<properties pageTitle="Always On Availability Groups- Manage or Troubleshoot"
+<properties 
+  pageTitle="Always On Availability Groups- Manage or Troubleshoot"
   description="Always On Availability Groups- Manage or Troubleshoot"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
