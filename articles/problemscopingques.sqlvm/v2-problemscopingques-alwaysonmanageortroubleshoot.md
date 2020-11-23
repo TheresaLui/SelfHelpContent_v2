@@ -1,24 +1,23 @@
-<properties 
-  pageTitle="Always On Availability Groups- Manage or Troubleshoot"
-  description="Always On Availability Groups- Manage or Troubleshoot"
-  authors="ujpat,amamun"
-  ms.author="ujpat,amamun"
-  selfHelpType="problemScopingQuestions"
-  supportTopicIds="32740064"
-  productPesIds="14745,16342"
-  cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-  schemaVersion="1"
-  articleId="76d94a7d-a601-4c55-a728-08579cc8eea1"
-  ownershipId="AzureData_AzureSQLVM"
+<properties
+	pageTitle="Always On Availability Groups- Manage or Troubleshoot"
+	description="Always On Availability Groups- Manage or Troubleshoot"
+	ms.author="ujpat,amamun"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32740064"
+	productPesIds="14745,16342"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	schemaVersion="1"
+	articleId="76d94a7d-a601-4c55-a728-08579cc8eea1"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Always On Availability Groups- Manage or Troubleshoot
 ---
 {
-    "$schema": "SelfHelpContent",
-    "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Always On Availability Groups- Manage or Troubleshoot",
-    "fileAttachmentHint": null,
+  "$schema": "SelfHelpContent",
+  "subscriptionRequired": false,
+  "resourceRequired": false,
+	"title": "Always On Availability Groups- Manage or Troubleshoot",
+	"fileAttachmentHint": null,
     "diagnosticCard": {​​
     "title": "Availability Group Troubleshooter",
     "description": "Our Setup Availability Group Troubleshooter can help you troubleshoot and solve your problem."
@@ -30,8 +29,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "which_resource",
