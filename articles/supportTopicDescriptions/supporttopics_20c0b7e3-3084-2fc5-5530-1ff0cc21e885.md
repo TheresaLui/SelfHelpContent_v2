@@ -528,7 +528,7 @@
     {
       "id": "982b7675-3012-7c3b-5ead-623397debc40",
       "longDescription": "",
-      "shortDescription": "Issues to load data from Cosmos DB Analytical Store data using Azure Synapse Link for Cosmos DB from a Serverless SQL Pool.",
+      "shortDescription": "Issues when loading data from Cosmos DB Analytical Store using Azure Synapse Link for Cosmos DB from a Serverless SQL Pool",
       "searchTags": "serverless;sql;synapse link;cosmos db;analytical store",
       "category": "SQL Query Execution and Performance",
       "useInDiagnoseAndSolve": "true"
