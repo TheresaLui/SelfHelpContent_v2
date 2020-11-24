@@ -1,5 +1,5 @@
 <properties
-	articleId="326392003"
+	articleId="32639200301"
 	pageTitle="Scoping Questions for Data Box Disk validation errors"
 	description="Scoping Questions for Data Box Disk validation errors"
 	authors="madhurinms"
