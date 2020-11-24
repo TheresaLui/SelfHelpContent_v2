@@ -486,6 +486,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "426852c9-d969-d0cf-472f-be75e8101975",
+      "longDescription": "",
+      "shortDescription": "Source or sink connector errors, authentication, authorization or networking related errors",
+      "searchTags": "connector;connectivity;authentication;socket;network",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "42c82b42-2044-aea1-01eb-2a71df1e745f",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
