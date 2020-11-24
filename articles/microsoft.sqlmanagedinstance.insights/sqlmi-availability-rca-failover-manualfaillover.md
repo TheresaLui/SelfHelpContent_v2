@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLMI_Availability"
 />
 # Failover due to user initiated manual failover
 
