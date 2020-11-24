@@ -566,6 +566,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5132fcc4-1592-0be8-4642-048cdf0979dc",
+      "longDescription": "",
+      "shortDescription": "Pipeline is stuck in the same state for a long time, or the execution does not start even though no other run is in progress.",
+      "searchTags": "pipeline;execution;progress;queued;hang",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "515629d0-64a2-ecf6-ed51-c5013eb40c89",
       "longDescription": "",
       "shortDescription": ".NET for Spark C-Sharp job is running slow or hangs.",
