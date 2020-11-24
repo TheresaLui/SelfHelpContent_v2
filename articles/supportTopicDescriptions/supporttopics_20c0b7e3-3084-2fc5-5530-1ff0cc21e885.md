@@ -998,6 +998,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2510ee4-c74e-e312-2a4a-b574a1d876c6",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in Dedicated SQL pool using Azure Data Factory pipelines or Data Lake Analytics.",
+      "searchTags": "sql;adf;pipeline;copy;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2a9de86-b1fa-9035-3000-b51a9cfd5dbe",
       "longDescription": "",
       "shortDescription": "Problems related to moving resources between subscriptions, resource groups or tenants.",
