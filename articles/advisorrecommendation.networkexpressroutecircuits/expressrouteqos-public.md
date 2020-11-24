@@ -1,11 +1,10 @@
 <properties
     pageTitle="Upgrade your ExpressRoute circuit bandwidth"
     description="Upgrade your ExpressRoute circuit bandwidth"
-    authors="tanuballa"
-    ms.author="taballa"
+    ms.author="ExRPM"
     articleId="f606607c-ee34-445e-997e-49d7cb563fe0_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USSec, USNat",
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="CloudNet_AzureExpressRoute"
 />
 # "Upgrade your ExpressRoute circuit bandwidth to accommodate your bandwidth needs"
