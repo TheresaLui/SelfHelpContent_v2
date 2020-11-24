@@ -30,7 +30,7 @@ Starting February 1, 2020, direct bill and indirect providers in CSP are require
 
 ## **Recommended Documents**
 
-See the following links for nformation and resources about Microsoft Cloud and Customer Agreements.
+See the following links for nformation and resources about Microsoft Cloud and Customer Agreements:
 
 * [Confirm customer acceptance of the Microsoft Customer Agreement](https://docs.microsoft.com/partner-center/confirm-customer-agreement)
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/)
