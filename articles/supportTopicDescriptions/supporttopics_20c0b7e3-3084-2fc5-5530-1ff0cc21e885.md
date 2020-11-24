@@ -1494,6 +1494,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e3523c73-24e1-2fad-48ee-19ccb80b357b",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to Cosmos DB Analytical store using Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;connectivity",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e4428254-0ba3-df8f-cecc-40522710cf4f",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
