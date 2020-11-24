@@ -878,6 +878,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "875ba38a-0073-67ed-ead8-fdbc7892c556",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations to achieve the best performance during execution of Spark jobs.",
+      "searchTags": "advisory;spark;job;optimize;execution",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "87961006-6c44-a09e-52cb-e9f6d0701496",
       "longDescription": "",
       "shortDescription": "Configuration or management issues related to Managed workspace Virtual Network.",
