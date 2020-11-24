@@ -670,6 +670,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6557ecfa-0ee1-a10f-edc8-33a241c182b8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot Control Flow activities, resulting in errors, incorrect results or unexpected behavior.",
+      "searchTags": "control;flow;control flow;pipeline;failure",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65db58f5-0eb3-c4df-7cbc-4adbc1b6a99a",
       "longDescription": "",
       "shortDescription": "Jobs running .NET Spark (C-Sharp) fail with an error message.",
