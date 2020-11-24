@@ -21,11 +21,11 @@
 
 ### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
-Quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom).  
-Steps to use the diagnostic: 
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):
+
 1. Launch the Sign-in Diagnostic.
 2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
-3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed).
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
    
 ## **Recommended Documents**
 
@@ -36,7 +36,7 @@ Steps to use the diagnostic:
 	* [Create and delete app passwords](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page)
 	* [Manage app passwords for two-step verification](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords)
 * Using Windows Hello for Business? [Start by deploying WHfB](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-planning-guide)
-* Using Authenticator App? Here's how to [Set up the Microsoft Authenticator app to use verification codes](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-setup-auth-app#set-up-the-microsoft-authenticator-app-to-send-notifications)
+* Using Authenticator App? See how to [Set up the Microsoft Authenticator app to use verification codes](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-setup-auth-app#set-up-the-microsoft-authenticator-app-to-send-notifications)
 
 ## **Recommended Videos**
 * [How to deploy conditional access](https://www.youtube.com/watch?v=c_izIRNJNuk)
