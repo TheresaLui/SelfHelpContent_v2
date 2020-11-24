@@ -1318,6 +1318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c485f015-ac5d-f103-f75e-c8a2b3a41e6e",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure Data Studio to interact with Synapse Workspace and its components.",
+      "searchTags": "data;studio;ads;extension;connect",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4da1a13-ee99-be10-d998-6d0496604a4e",
       "longDescription": "",
       "shortDescription": "Configuration issues related to Azure Synapse Link for Cosmos DB.",
