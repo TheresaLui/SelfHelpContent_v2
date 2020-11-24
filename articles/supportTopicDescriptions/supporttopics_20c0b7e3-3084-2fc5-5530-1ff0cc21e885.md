@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1381fa81-95f1-2fc1-1f84-afb2731e4e46",
+      "longDescription": "",
+      "shortDescription": "Spark Job execution fails with an error message.",
+      "searchTags": "spark;job;execution;failure",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "13eda81c-201b-0d3d-df0b-c413fdb5ea24",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a data flow activity within a pipeline or issues with the activity settings.",
