@@ -28,7 +28,7 @@ Azure storage now provides users a self-service storage account recovery capabil
 - The storage account was deleted in the last 14 days including today. If was deleted prior to that, it can't be recovered.
 - It is not a classic storage account.
 
-### <span style="color:maroon">**Pre-requisites:**
+### <span style="color:maroon">**Prerequisites:**
 - Ensure the Resource Group is created first, if it has been deleted.
 - Ensure KeyVault key is recovered first for storage accounts with CMK.<br>
 
