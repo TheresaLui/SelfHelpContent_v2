@@ -1030,6 +1030,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f0a51ad-c9e5-2af1-662b-97a8d898e8aa",
+      "longDescription": "",
+      "shortDescription": "Any issue that does not fall into any specific category above.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2510ee4-c74e-e312-2a4a-b574a1d876c6",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in Dedicated SQL pool using Azure Data Factory pipelines or Data Lake Analytics.",
