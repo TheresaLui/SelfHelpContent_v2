@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1381fa81-95f1-2fc1-1f84-afb2731e4e46",
+      "longDescription": "",
+      "shortDescription": "Spark Job execution fails with an error message.",
+      "searchTags": "spark;job;execution;failure",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "13eda81c-201b-0d3d-df0b-c413fdb5ea24",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a data flow activity within a pipeline or issues with the activity settings.",
@@ -222,6 +230,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1dbe1c7a-eea3-c2ae-416f-9dda0499cb30",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or manage a Private Link connection to SQL pools.",
+      "searchTags": "connectivity;networking;sql;private;link",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1e2c6b1a-4725-c9e3-c9d9-b7dda176b5b5",
+      "longDescription": "",
+      "shortDescription": "Spark Job execution returns unexpected or incorrect results, or presents unexpected behavior.",
+      "searchTags": "spark;job;execution;failure;unexpected",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1fb5a9cf-4334-d2a7-1dff-c32806401c24",
       "longDescription": "",
       "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
@@ -259,6 +283,14 @@
       "shortDescription": "Failures to create or drop a Dedicated SQL pool (SQL DW), slow or hung operations, or unexpected behavior.",
       "searchTags": "crud;dw;pool;manage;create",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2359fb41-6b35-7e63-0910-3867d3bf3708",
+      "longDescription": "",
+      "shortDescription": "Spark job execution is slow or hanging.",
+      "searchTags": "spark;job;performance;slow;hang",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -334,6 +366,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2be26f3c-8a24-08a0-2afb-425f7d5f806c",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for Serverless SQL Pool.",
+      "searchTags": "serverless;performance;query;execution;slow",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2d9b38ad-c824-87db-276b-c8262dad3fcd",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to Dedicated SQL pool endpoint, connection timeouts, dropped connections or database unavailable.",
+      "searchTags": "connectivity;dedicated;sql;unavailable;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
@@ -379,6 +427,14 @@
       "shortDescription": "Assistance with management, configuration, roles and access control to workspaces, pools, data and pipelines in Synapse Analytics.",
       "searchTags": "roles;access control;permissions;security;configuration",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "36d31b13-cfab-4e7b-e39a-6e4115a98587",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to loading or extracting data from SQL pool using external tools or engine features like Polybase.",
+      "searchTags": "import;export;polybase;adf;databricks",
+      "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -446,11 +502,51 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "400fcd8e-ecfe-60ba-a16b-13d2114288a3",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product expected behavior related to Scheduled Maintenance.",
+      "searchTags": "how;advisory;sql;schedule;maintenance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "404b7532-cfbe-d1de-fa56-3bbb1d259c3d",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to Synapse Studio web portal.",
+      "searchTags": "synapse studio;studio;connectivity;ui;permissions",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "412b5306-b3ef-9ec5-1185-d7e0e8f1a643",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL Pools.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4165bec7-8d50-81b5-bb9d-9b79cd4fe673",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to configure storage access in Serverless SQL.",
+      "searchTags": "how;advisory;storage;sql;serverless",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41ab21db-3bed-2dd2-42d0-fd6a2fad3260",
       "longDescription": "",
       "shortDescription": "Problems configuring access to storage using external data sources, external tables, OPENROWSET or CETAS.",
       "searchTags": "roles;access control;permissions;security;sql",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "426852c9-d969-d0cf-472f-be75e8101975",
+      "longDescription": "",
+      "shortDescription": "Source or sink connector errors, authentication, authorization or networking related errors",
+      "searchTags": "connector;connectivity;authentication;socket;network",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -478,6 +574,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "452d98a9-e6de-8e29-5b99-4eba793d40da",
+      "longDescription": "",
+      "shortDescription": "Failures to establish a connection to SQL Pools, dropped connections, database unavailable, or connectivity issues with Synapse Studio.",
+      "searchTags": "connectivity;unavailable;sql;connection;failure",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "464bc4f0-3afc-9d6e-56dc-a7e9f305c890",
       "longDescription": "",
       "shortDescription": "Failure to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
@@ -494,11 +598,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "47d24c0b-0317-2bad-3b04-4428c5099e8a",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to Serverless SQL pool endpoint, connection timeouts, dropped connections or database unavailable.",
+      "searchTags": "connectivity;timeout;failure;unavailable;network",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "49537b00-649d-97b0-5513-be3a4f162728",
+      "longDescription": "",
+      "shortDescription": "Default ways in which expressions are being passed in parameters are not working, need more ways to pass parameters",
+      "searchTags": "parameters;expressions;pipeline;integration;language",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4a8fe784-6596-95a1-e905-078a20f6a8a3",
       "longDescription": "",
       "shortDescription": "Questions on setting up and using auditing to track database events and analyzing the corresponding audit logs.",
       "searchTags": "audit;logs;reports;analytics",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4d9a9758-8f08-4313-1029-a9a5c510578c",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use only for Serverless SQL Pool.",
+      "searchTags": "serverless;sql;query;execution;failure",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5132fcc4-1592-0be8-4642-048cdf0979dc",
+      "longDescription": "",
+      "shortDescription": "Pipeline is stuck in the same state for a long time, or the execution does not start even though no other run is in progress.",
+      "searchTags": "pipeline;execution;progress;queued;hang",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -606,11 +742,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6424d180-7186-f073-9448-3b20122885e2",
+      "longDescription": "",
+      "shortDescription": "Errors or unexpected behavior during job submission or interactive sessions occurring at Livy server frontend.",
+      "searchTags": "spark;job;submit;error;livy",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "64cec26a-6c0c-65ff-8fd4-88aea26b8953",
       "longDescription": "",
       "shortDescription": "Recommendations and expected product behavior when managing custom Libraries and Packages on a Spark pool.",
       "searchTags": "how;advisory;spark;libraries;packages",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6557ecfa-0ee1-a10f-edc8-33a241c182b8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot Control Flow activities, resulting in errors, incorrect results or unexpected behavior.",
+      "searchTags": "control;flow;control flow;pipeline;failure",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -662,6 +814,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6f37644e-4838-6d79-5e2e-8661bb208f12",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for Dedicated SQL Pool.",
+      "searchTags": "how;advisory;sql;query;performance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7064fa16-d600-390b-e37d-ac68f9334658",
       "longDescription": "",
       "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
@@ -686,6 +846,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "740d9a30-6c76-ae46-739e-bb72c63cadfb",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuration or management of Data Exfiltration Protection feature.",
+      "searchTags": "dep;exfiltration;protection;security;management",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74622fa6-f28e-fc89-4226-89bdf8392c29",
       "longDescription": "",
       "shortDescription": "Execution of a stored procedure activity is failing due to some error code.",
@@ -707,6 +875,22 @@
       "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for Serverless SQL.",
       "searchTags": "how;advisory;sql;query;performance",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7907fad4-b854-ac35-8cac-e01ef7c5ab52",
+      "longDescription": "",
+      "shortDescription": "Issues related to creating or managing Hyperspace indexes and indexed data.",
+      "searchTags": "hyperspace;index;hyperspace index;spark;apache",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7fdf0b96-5073-42eb-d3b5-ac0c1a8eae4f",
+      "longDescription": "",
+      "shortDescription": "Cannot change start time, trigger run is not firing after event happened, cannot pass correct parameters",
+      "searchTags": "trigger;event;run;parameters;schedule",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -766,11 +950,51 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "875ba38a-0073-67ed-ead8-fdbc7892c556",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations to achieve the best performance during execution of Spark jobs.",
+      "searchTags": "advisory;spark;job;optimize;execution",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "87961006-6c44-a09e-52cb-e9f6d0701496",
+      "longDescription": "",
+      "shortDescription": "Configuration or management issues related to Managed workspace Virtual Network.",
+      "searchTags": "managed workspace;virtual network;nsg;vnet;endpoint",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "89074c59-abdc-d8c8-0363-c4f178cd939e",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using Dedicated SQL pools.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8ab21f03-7abe-7c76-13b3-188d2509178f",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using bcp utility or SQLBulkCopy API.",
+      "searchTags": "sql;api;bcp;bulk;copy",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
       "longDescription": "",
       "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
       "searchTags": "roles;access control;permissions;security;sql",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "93f1937f-fbae-8b90-d0b2-31ab77af42dd",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
+      "searchTags": "azure;portal;manage;workspace;studio",
+      "category": "Azure Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -814,11 +1038,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9c427ca9-7209-d0f4-91e7-6c05875ee9d9",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use for Dedicated SQL pool only.",
+      "searchTags": "sql;dedicated;failure;query;error",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9f0a51ad-c9e5-2af1-662b-97a8d898e8aa",
+      "longDescription": "",
+      "shortDescription": "Any issue that does not fall into any specific category above.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a2510ee4-c74e-e312-2a4a-b574a1d876c6",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in Dedicated SQL pool using Azure Data Factory pipelines or Data Lake Analytics.",
+      "searchTags": "sql;adf;pipeline;copy;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2a9de86-b1fa-9035-3000-b51a9cfd5dbe",
       "longDescription": "",
       "shortDescription": "Problems related to moving resources between subscriptions, resource groups or tenants.",
       "searchTags": "resource;move;crud;subcription;resource group",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a3da04b4-b3d7-8e07-b2c0-2a0678cf3cf3",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with Serverless SQL.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -902,6 +1158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b04dc222-1292-b4cd-f632-24ce2aee8a87",
+      "longDescription": "",
+      "shortDescription": "Issues pausing or resuming a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;pause;resume;manage;sql",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b066c719-5b56-77c5-8039-eccf89686609",
       "longDescription": "",
       "shortDescription": "Python job is running slow or hangs.",
@@ -934,6 +1198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b737cb32-5928-99ca-0da8-f5d5693ccf4b",
+      "longDescription": "",
+      "shortDescription": "Queries using PREDICT() function to run Machine Learning models with error messages, performance issues or unexpected behavior.",
+      "searchTags": "sql;predict;ml;machine;learning",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7610fd7-6578-9f54-6f4f-4c32418d8d93",
       "longDescription": "",
       "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
@@ -955,6 +1227,14 @@
       "shortDescription": "Failures to scale a Dedicated SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
       "searchTags": "crud;scale;sql;manage",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b908f6e6-89fe-bfd3-57bf-f0bf339f2f94",
+      "longDescription": "",
+      "shortDescription": "Assistance with Integration issues during design time or runtime (pipelines, data flows, linked services, activities)",
+      "searchTags": "integration;adf;pipeline;monitor;performance",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1030,11 +1310,51 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2596e2d-2758-e660-6464-69127ec39026",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product behavior related to backing up or restoring SQL Pool databases.",
+      "searchTags": "how;advisory;sql;backup;restore",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c26edbd8-1606-25fd-2c06-fbe91889fe4e",
+      "longDescription": "",
+      "shortDescription": "Questions on configuring and using threat detection for detecting anomalous and potentially harmful activities.",
+      "searchTags": "threat;detection;security;alert;protection",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e72e0f-077a-8f36-d8a2-3073dcaf062c",
       "longDescription": "",
       "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
       "searchTags": "connectivity;aad;sql;connection;login",
       "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c485f015-ac5d-f103-f75e-c8a2b3a41e6e",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure Data Studio to interact with Synapse Workspace and its components.",
+      "searchTags": "data;studio;ads;extension;connect",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c4da1a13-ee99-be10-d998-6d0496604a4e",
+      "longDescription": "",
+      "shortDescription": "Configuration issues related to Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;configuration;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c8c140d1-5d76-9ec9-5bbb-52988a77246d",
+      "longDescription": "",
+      "shortDescription": "Spark Job failure or slow performance while reading data from Azure Synapse Link for CosmosDB.",
+      "searchTags": "spark;job;synapse link;cosmos db",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1206,6 +1526,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2d253a9-7512-10c1-b511-fdff3911a491",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pools.",
+      "searchTags": "aas;analysis;services;power bi;pbi",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e3523c73-24e1-2fad-48ee-19ccb80b357b",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to Cosmos DB Analytical store using Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;connectivity",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e4428254-0ba3-df8f-cecc-40522710cf4f",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
@@ -1227,6 +1563,14 @@
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
       "searchTags": "how;advisory;sql;pool;recommendations",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e51a033c-b833-a5c7-e210-13261110fd5c",
+      "longDescription": "",
+      "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
+      "searchTags": "monitoring;metric;alert;operations;management",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1262,11 +1606,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7ed06c0-dabd-8a3c-fba4-e2a946dacde7",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Self-Hosted Integration Runtime, slow performance, network or connectivity errors, unhandled exceptions.",
+      "searchTags": "self;hosted;shir;performance;integration runtime",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
       "longDescription": "",
       "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
       "searchTags": "activities;dataset;linked service;adf;ir",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eb863d56-2a59-ddf4-51a5-64b736f0af1b",
+      "longDescription": "",
+      "shortDescription": "Autoscaling not working as expected, difference between resources requested and allocated.",
+      "searchTags": "spark;job;execution;failure;autoscaling",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1291,6 +1651,14 @@
       "shortDescription": "Issues related to development and deployment of SSDT Database Projects.",
       "searchTags": "ssdt;sql;source control;deploy;cicd",
       "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ef67dae0-09c1-05d8-a29a-783786fed64d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning resources using ARM templates, REST API, PowerShell or Azure CLI.",
+      "searchTags": "arm;crud;rest;powershell;azure",
+      "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
     },
     {
