@@ -958,6 +958,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3da04b4-b3d7-8e07-b2c0-2a0678cf3cf3",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with Serverless SQL.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4379e04-c5f0-1d19-448c-7fae301b061a",
       "longDescription": "",
       "shortDescription": "Assistance with performance related issues running Spark jobs.",
