@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "400fcd8e-ecfe-60ba-a16b-13d2114288a3",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product expected behavior related to Scheduled Maintenance.",
+      "searchTags": "how;advisory;sql;schedule;maintenance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "404b7532-cfbe-d1de-fa56-3bbb1d259c3d",
       "longDescription": "",
       "shortDescription": "Assistance with issues related to Synapse Studio web portal.",
