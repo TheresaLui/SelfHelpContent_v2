@@ -494,6 +494,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "412b5306-b3ef-9ec5-1185-d7e0e8f1a643",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL Pools.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4165bec7-8d50-81b5-bb9d-9b79cd4fe673",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations related to configure storage access in Serverless SQL.",
