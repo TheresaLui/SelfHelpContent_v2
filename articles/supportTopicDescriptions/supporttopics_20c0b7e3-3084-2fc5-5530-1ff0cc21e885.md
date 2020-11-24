@@ -1262,6 +1262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e51a033c-b833-a5c7-e210-13261110fd5c",
+      "longDescription": "",
+      "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
+      "searchTags": "monitoring;metric;alert;operations;management",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e56e18a6-b3b2-69b8-d338-1be16db8121b",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL On-demand.",
