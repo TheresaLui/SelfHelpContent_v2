@@ -20,10 +20,6 @@
 
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
-
-****
-
 * **The service connection in my Azure DevOps project is not authorized to allow deployment**
 
     In such cases, configure AAD as well and the new resource permissions for the AD user.
@@ -34,11 +30,11 @@ Are you facing one of these common problems?
 
 * **I want to manually authorize a service connection for a specific pipeline**
 
-    If you want to authorize a service connection for a specific pipeline, open the pipeline by selecting Edit and queue a build manually. You will see a *resource authorization error* and an **Authorize resources** action on the error. Choose this action to explicitly add the pipeline as an authorized user of the service connection. You can also authorize a specific pipeline manually by going to *service connections security*, *pipeline permissions* and add the specific pipeline you would like to authorize.
+    If you want to authorize a service connection for a specific pipeline, open the pipeline by selecting **Edit** and queue a build manually. You will see a resource authorization error and an **Authorize resources** action on the error. Choose this action to explicitly add the pipeline as an authorized user of the service connection. You can also authorize a specific pipeline manually by going to Service connections security > Pipeline permissions and add the specific pipeline you would like to authorize.
 
 
 ## **Recommended Documents**
 
 * [Use a service connection in YAML](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#use-connection)
-* [Use a service connection in classic](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=classic#use-connection)
+* [Use a service connection in Classic](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=classic#use-connection)
 * [Pipeline permissions for service connections](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=classic#pipeline-permissions)
