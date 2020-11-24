@@ -12,16 +12,16 @@
   ownershipid="AzureData_AzureSQLVM" />
 # SQL Server is slow
 
-If SQL Server is slow or needs optimization, the following steps and documents can help you.
+This article provides resources for improving performance when SQL Server is slow.
 
 ## **Recommended Steps**
 
-To speed up or optimize SQL Server, we strongly recommend that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices).
+To optimize SQL Server, review the following list. We also recommend that you follow the [Performance Guidelines for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices).
 
 **Key points to verify**:
 - For production workloads:
   - Use VM sizes with 4 or more vCPU, like [E4S_v3 ](https://docs.microsoft.com/azure/virtual-machines/ev3-esv3-series) or higher, or [DS12_v2](https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series-memory) or higher
-  - **Do not use a standard disk**, use a premier disk instead. For sub-millisecond latency, use an ultra disk. 
+  - Always use a premier disk (versus a standard disk). For sub-millisecond latency, use an ultra disk. 
 - Use strip size of 64 KB for OLTP workloads and 256 KB for data warehousing workloads  
 - Use separate drives for data (mdf/ndf) files and log files (ldf)
 - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal) for disks hosting data (mdf/ndf) files 
