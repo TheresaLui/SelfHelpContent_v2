@@ -710,6 +710,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7907fad4-b854-ac35-8cac-e01ef7c5ab52",
+      "longDescription": "",
+      "shortDescription": "Issues related to creating or managing Hyperspace indexes and indexed data.",
+      "searchTags": "hyperspace;index;hyperspace index;spark;apache",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "801be9fa-94f4-d940-148c-88b8778e3101",
       "longDescription": "",
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
