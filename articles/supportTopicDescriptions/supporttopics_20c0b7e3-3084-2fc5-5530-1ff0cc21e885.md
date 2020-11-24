@@ -646,6 +646,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6424d180-7186-f073-9448-3b20122885e2",
+      "longDescription": "",
+      "shortDescription": "Errors or unexpected behavior during job submission or interactive sessions occurring at Livy server frontend.",
+      "searchTags": "spark;job;submit;error;livy",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "64cec26a-6c0c-65ff-8fd4-88aea26b8953",
       "longDescription": "",
       "shortDescription": "Recommendations and expected product behavior when managing custom Libraries and Packages on a Spark pool.",
