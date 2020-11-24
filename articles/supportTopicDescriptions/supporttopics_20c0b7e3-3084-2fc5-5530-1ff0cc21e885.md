@@ -1438,6 +1438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7ed06c0-dabd-8a3c-fba4-e2a946dacde7",
+      "longDescription": "",
+      "shortDescription": "Failures to configure Self-Hosted Integration Runtime, slow performance, network or connectivity errors, unhandled exceptions.",
+      "searchTags": "self;hosted;shir;performance;integration runtime",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
       "longDescription": "",
       "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
