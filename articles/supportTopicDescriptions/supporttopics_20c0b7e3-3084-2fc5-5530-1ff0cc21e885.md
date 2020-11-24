@@ -774,6 +774,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7fdf0b96-5073-42eb-d3b5-ac0c1a8eae4f",
+      "longDescription": "",
+      "shortDescription": "Cannot change start time, trigger run is not firing after event happened, cannot pass correct parameters",
+      "searchTags": "trigger;event;run;parameters;schedule",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "801be9fa-94f4-d940-148c-88b8778e3101",
       "longDescription": "",
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
