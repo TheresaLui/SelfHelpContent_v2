@@ -982,6 +982,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b737cb32-5928-99ca-0da8-f5d5693ccf4b",
+      "longDescription": "",
+      "shortDescription": "Queries using PREDICT() function to run Machine Learning models with error messages, performance issues or unexpected behavior.",
+      "searchTags": "sql;predict;ml;machine;learning",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7610fd7-6578-9f54-6f4f-4c32418d8d93",
       "longDescription": "",
       "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
