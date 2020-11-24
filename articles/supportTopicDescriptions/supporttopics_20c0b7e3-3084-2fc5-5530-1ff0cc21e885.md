@@ -1358,6 +1358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb863d56-2a59-ddf4-51a5-64b736f0af1b",
+      "longDescription": "",
+      "shortDescription": "Autoscaling not working as expected, difference between resources requested and allocated.",
+      "searchTags": "spark;job;execution;failure;autoscaling",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
