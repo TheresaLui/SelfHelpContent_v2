@@ -1,13 +1,13 @@
 <properties
-	pageTitle="SignalR service self help for server-less data-plane issues"
-	description="SignalR service self help for server-less data-plane issues"
+	pageTitle="SignalR service self help for data-plane issues"
+	description="SignalR service self help for data-plane issues"
 	ms.author="lianwei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32683974,32683975"
+	supportTopicIds="32683971"
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-signalrservice-clienterror"
+	articleId="problemscopingques-signalrservice-data-plane-occur"
 	ownershipId="SignalRService_Triage"
 />
 # Can't apply this label
@@ -16,8 +16,8 @@
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "SignalR service self help for server-less data-plane issues",
-    "fileAttachmentHint": "Please upload the client-side log files, <a href='https://docs.microsoft.com/azure/azure-signalr/signalr-howto-troubleshoot-method#how-to-view-the-traffic-and-narrow-down-the-issue'>here</a> contains more detail on how to.",
+    "title": "SignalR service self help for data-plane issues",
+    "fileAttachmentHint": "Please upload both the client-side and server-side log files, <a href='https://docs.microsoft.com/azure/azure-signalr/signalr-howto-troubleshoot-method'>here</a> contains more detail on how to.",
     "formElements": [
         {
             "id": "error_dropdown",
@@ -82,48 +82,12 @@
             "required": true,
         },
         {
-            "id": "adhoc_stps",
-            "order": 3,
-            "visibility": "occur_dropdown == Error_5",
-            "controlType": "textbox",
-            "displayLabel": "Ad-hoc steps taken to recover the service",
-            "infoBalloonText": "Please specify the ad-hoc steps taken that recovered the service, e.g. restart the app server, restart the service, use an old version SDK, etc.",
-            "required": true
-        },
-        {
-            "id": "customer_impact",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Any customer impact?",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Any customer impact?",
-            "dropdownOptions": [
-                {
-                    "value": "Error_1",
-                    "text": "No, there is no customer impact."
-                },
-                {
-                    "value": "Error_2",
-                    "text": "Some of our customers are impacted"
-                },
-                {
-                    "value": "Error_3",
-                    "text": "All our customers are impacted"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true,
-        },
-        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
+            "required": false,
         },
         {
             "id": "problem_end_time",

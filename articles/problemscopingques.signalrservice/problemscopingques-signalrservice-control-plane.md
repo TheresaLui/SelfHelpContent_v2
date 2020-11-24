@@ -1,0 +1,59 @@
+<properties
+	pageTitle="SignalR service self help for control-plane issues"
+	description="SignalR service self help for control-plane issues"
+	ms.author="lianwei"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32684002,32684003,32608620,32683965,32683973"
+	productPesIds="16477"
+	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
+	schemaVersion="1"
+	articleId="problemscopingques-signalrservice-control-plane"
+	ownershipId="SignalRService_Triage"
+/>
+# Can't apply this label
+---
+{
+    "$schema": "SelfHelpContent",
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "SignalR service self help for control-plane issues",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "error_occur",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Is the issue still occurring?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Is the issue still occurring?",
+            "dropdownOptions": [
+                {
+                    "value": "Error_1",
+                    "text": "Still occurring"
+                },
+                {
+                    "value": "Error_2",
+                    "text": "Automatically recovered"
+                }
+            ],
+            "required": true,
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+        },
+        {
+            "id": "problem_end_time",
+            "order": 6,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+        }
+    ]
+}
+---

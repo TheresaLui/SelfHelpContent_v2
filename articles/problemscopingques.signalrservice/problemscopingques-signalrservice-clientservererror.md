@@ -1,13 +1,13 @@
 <properties
-	pageTitle="SignalR service self help for server-less data-plane issues"
-	description="SignalR service self help for server-less data-plane issues"
+	pageTitle="SignalR service self help for data-plane issues"
+	description="SignalR service self help for data-plane issues"
 	ms.author="lianwei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32683974,32683975"
+	supportTopicIds="32683986,32683987,32683988,32683989,32683990,32683991,32683997,32683966,32683967,32683968,32683994,32683976,32683969,32683979,32683980,32683992,32683978"
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-signalrservice-clienterror"
+	articleId="scoping-signalrservice-error-codes-400"
 	ownershipId="SignalRService_Triage"
 />
 # Can't apply this label
@@ -16,8 +16,8 @@
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "SignalR service self help for server-less data-plane issues",
-    "fileAttachmentHint": "Please upload the client-side log files, <a href='https://docs.microsoft.com/azure/azure-signalr/signalr-howto-troubleshoot-method#how-to-view-the-traffic-and-narrow-down-the-issue'>here</a> contains more detail on how to.",
+    "title": "SignalR service self help for data-plane issues",
+    "fileAttachmentHint": "Please upload both the client-side and server-side log files, <a href='https://docs.microsoft.com/azure/azure-signalr/signalr-howto-troubleshoot-method'>here</a> contains more detail on how to.",
     "formElements": [
         {
             "id": "error_dropdown",
