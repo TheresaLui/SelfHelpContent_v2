@@ -1,5 +1,5 @@
 <properties
-	articleId="326392002"
+	articleId="3263920020"
 	pageTitle="Scoping Questions for Data Box Disk has been formatted"
 	description="Scoping Questions for Data Box Disk has been formatted"
 	authors="madhurinms"
