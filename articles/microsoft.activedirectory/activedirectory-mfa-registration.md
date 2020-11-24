@@ -36,15 +36,14 @@ You can quickly find out what happened or diagnose problems related to user sign
 - Check [What Authentication and Verification methods are available in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#how-each-authentication-method-works)
 - Register the security methods by following [these steps](https://myprofile.microsoft.com)
 
-
-## **Recommended Videos**
-
-* [Manage security information in My Account (1 minute)](https://youtu.be/zmC5UzF25Sg)
-* [Register and manage your security info (2 minutes)](https://youtu.be/k0oiKQK3LjQ)
-
-
 ## **Recommended Documents**
 
 * [My users can only register the Authenticator App](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 
 * [Azure MFA authentication method analysis](https://docs.microsoft.com/samples/azure-samples/azure-mfa-authentication-method-analysis/azure-mfa-authentication-method-analysis).
 * [Conditional Access: Securing security info registration](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-registration)
+
+### **Recommended Videos**
+
+* [Manage security information in My Account (1 minute)](https://youtu.be/zmC5UzF25Sg)
+* [Register and manage your security info (2 minutes)](https://youtu.be/k0oiKQK3LjQ)
+
