@@ -1318,6 +1318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c26edbd8-1606-25fd-2c06-fbe91889fe4e",
+      "longDescription": "",
+      "shortDescription": "Questions on configuring and using threat detection for detecting anomalous and potentially harmful activities.",
+      "searchTags": "threat;detection;security;alert;protection",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e72e0f-077a-8f36-d8a2-3073dcaf062c",
       "longDescription": "",
       "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
