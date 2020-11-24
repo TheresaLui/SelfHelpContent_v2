@@ -982,6 +982,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "93f1937f-fbae-8b90-d0b2-31ab77af42dd",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
+      "searchTags": "azure;portal;manage;workspace;studio",
+      "category": "Azure Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
