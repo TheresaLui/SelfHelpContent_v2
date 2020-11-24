@@ -17,7 +17,7 @@
 
 # Issues using read replicas in Azure Database for MySQL - Single Server
 
-The read replica feature allows you to replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
 
 Most users are able to resolve their issue using the steps below.
 
@@ -52,9 +52,9 @@ Replicas do not automatically failover. You have to choose to stop replication a
 
 ### **Server parameters**
 
-To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (ex. `log_bin_trust_function_creators` is locked on both master and replica). Refer to [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
+To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (for example, `log_bin_trust_function_creators` is locked on both master and replica). Refer to the [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
 
-To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and recreate replicas.
+To update one of the locked parameters on the master server, delete replica servers, update the parameter value on the master, and re-create replicas.
 
 
 ### **Move replicas to other subscriptions**
