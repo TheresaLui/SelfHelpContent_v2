@@ -1094,6 +1094,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b908f6e6-89fe-bfd3-57bf-f0bf339f2f94",
+      "longDescription": "",
+      "shortDescription": "Assistance with Integration issues during design time or runtime (pipelines, data flows, linked services, activities)",
+      "searchTags": "integration;adf;pipeline;monitor;performance",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb72697c-d59b-6a85-e36b-10abd618f57a",
       "longDescription": "",
       "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected. Slow or hanging Copy activity.",
