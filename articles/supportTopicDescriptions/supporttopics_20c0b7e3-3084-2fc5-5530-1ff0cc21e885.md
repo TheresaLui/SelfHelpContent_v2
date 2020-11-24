@@ -1110,6 +1110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b04dc222-1292-b4cd-f632-24ce2aee8a87",
+      "longDescription": "",
+      "shortDescription": "Issues pausing or resuming a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "crud;pause;resume;manage;sql",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b066c719-5b56-77c5-8039-eccf89686609",
       "longDescription": "",
       "shortDescription": "Python job is running slow or hangs.",
