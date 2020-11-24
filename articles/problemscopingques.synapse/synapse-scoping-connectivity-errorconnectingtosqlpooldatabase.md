@@ -20,19 +20,34 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "SQL pool Vulnerability assessment",
+    "title": "Error connecting to SQL pool database",
+    "diagnosticCard": {
+        "title": "Connectivity Troubleshooter",
+        "description": "The Connectivity Troubleshooter can identify the cause of many common service-related connection errors.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
-            "required": true,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "infoBalloonText": ""
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "dw_2",
-            "order": 2,
+            "order": 3,
             "required": false,
             "controlType": "textbox",
             "displayLabel": "If an error was displayed, what was the error message?",
@@ -41,7 +56,7 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",

@@ -9,7 +9,7 @@
     articleId="cosmosdb-privatelink-mongoupgrade-rca"
     diagnosticScenario="CosmosDBPrivateLinkMongoUpgradeInsight"
     selfHelpType="rca"
-    supportTopicIds="32738664, 32738665"
+    supportTopicIds="32738664, 32738665, 32636778"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
