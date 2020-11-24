@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLMI_Availability"
 />
 # Failed logins due to planned updates
 
