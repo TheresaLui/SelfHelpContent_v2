@@ -89,10 +89,6 @@
                     "text": "20 & 21 (FTP)"
                 },
                 {
-                    "value": "23 (Telnet)",
-                    "text": "23 (Telnet)"
-                },
-                {
                     "value": "53 (DNS)",
                     "text": "53 (DNS)"
                 },
