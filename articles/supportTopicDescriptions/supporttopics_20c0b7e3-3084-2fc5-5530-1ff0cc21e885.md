@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2359fb41-6b35-7e63-0910-3867d3bf3708",
+      "longDescription": "",
+      "shortDescription": "Spark job execution is slow or hanging.",
+      "searchTags": "spark;job;performance;slow;hang",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "23b20fa3-3b71-f49b-f2c2-ee098b6850b1",
       "longDescription": "",
       "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types.",
