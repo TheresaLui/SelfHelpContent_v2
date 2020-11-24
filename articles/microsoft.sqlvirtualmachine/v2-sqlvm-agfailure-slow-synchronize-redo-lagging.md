@@ -35,5 +35,5 @@ Most users can resolve issues concerning **AG is slow to synchronize or redo is 
 
 - Update to the **[latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)** to avoid any known issues
 - If you are seeing **VM level throttling**, moving to a [bigger size VM](https://docs.microsoft.com/azure/virtual-machines/sizes) may resolve the issue
-- For hybrid environment like on-premise and Azure with different disk sector sizes, [apply latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)  and [use trace flag 1800 as startup parameter](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si) 
-- To check **Redo Latency**, please review [‘Scenario 2: Redo Latency’](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability)
+- For hybrid environment like on-premise and Azure with different disk sector sizes, [apply latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) and [use trace flag 1800 as startup parameter](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si) 
+- To check **Redo Latency**, review [Scenario 2: Redo Latency](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability)
