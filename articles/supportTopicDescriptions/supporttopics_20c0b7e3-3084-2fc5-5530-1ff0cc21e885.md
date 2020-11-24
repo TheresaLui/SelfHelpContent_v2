@@ -1230,6 +1230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2d253a9-7512-10c1-b511-fdff3911a491",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pools.",
+      "searchTags": "aas;analysis;services;power bi;pbi",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e4428254-0ba3-df8f-cecc-40522710cf4f",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
