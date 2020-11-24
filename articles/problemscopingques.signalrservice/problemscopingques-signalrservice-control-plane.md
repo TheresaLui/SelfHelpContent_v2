@@ -34,6 +34,10 @@
                 {
                     "value": "Error_2",
                     "text": "Automatically recovered"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
                 }
             ],
             "required": true
