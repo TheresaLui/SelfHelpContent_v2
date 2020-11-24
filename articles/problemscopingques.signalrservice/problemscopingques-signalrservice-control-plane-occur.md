@@ -3,7 +3,7 @@
 	description="SignalR service self help for data-plane issues"
 	ms.author="lianwei"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32683986,32683987,32683988,32683989,32683990,32683991,32683997,32683966,32683967,32683968,32683994,32683976,32683969,32683979,32683980,32683992,32683978"
+	supportTopicIds="32608605,32684005"
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -80,6 +80,20 @@
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 50,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include the exact text of any error messages that occur"
+                }
+            ]
         }
     ]
 }

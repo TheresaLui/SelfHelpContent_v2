@@ -53,6 +53,20 @@
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 50,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include the exact text of any error messages that occur"
+                }
+            ]
         }
     ]
 }
