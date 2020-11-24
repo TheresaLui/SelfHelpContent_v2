@@ -15,12 +15,12 @@
     articleId="d9aafbaf-c810-4df5-92f7-7dc4a8c3d178"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
-
 # Customer-Controlled Storage Account Recovery
-
 ## **Recommended Steps**
 
-Azure storage now provides users a self-service storage account recovery capability.<br>
+Azure storage now provides users a self-service storage account recovery capability.
+
+ ### [**Click Here > Recover Deleted Storage Account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
 
 ### <span style="color:maroon">**Conditions for a storage account to be recoverable:**
 
@@ -36,4 +36,3 @@ Azure storage now provides users a self-service storage account recovery capabil
 - It's best effort and not a guarantee that recovery will always succeed.
 - We strongly recommend to use a combination of [ARM resource locks](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources ) and [Azure RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) permissions to prevent accidental account deletion.
 
- ### [**Click Here > Recover Deleted Storage Account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
