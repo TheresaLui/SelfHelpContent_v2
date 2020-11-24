@@ -558,6 +558,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "452d98a9-e6de-8e29-5b99-4eba793d40da",
+      "longDescription": "",
+      "shortDescription": "Failures to establish a connection to SQL Pools, dropped connections, database unavailable, or connectivity issues with Synapse Studio.",
+      "searchTags": "connectivity;unavailable;sql;connection;failure",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "464bc4f0-3afc-9d6e-56dc-a7e9f305c890",
       "longDescription": "",
       "shortDescription": "Failure to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
