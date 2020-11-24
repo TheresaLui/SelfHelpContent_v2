@@ -1230,6 +1230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2596e2d-2758-e660-6464-69127ec39026",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product behavior related to backing up or restoring SQL Pool databases.",
+      "searchTags": "how;advisory;sql;backup;restore",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e72e0f-077a-8f36-d8a2-3073dcaf062c",
       "longDescription": "",
       "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
