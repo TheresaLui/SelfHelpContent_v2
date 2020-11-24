@@ -774,6 +774,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "87961006-6c44-a09e-52cb-e9f6d0701496",
+      "longDescription": "",
+      "shortDescription": "Configuration or management issues related to Managed workspace Virtual Network.",
+      "searchTags": "managed workspace;virtual network;nsg;vnet;endpoint",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
       "longDescription": "",
       "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
