@@ -934,6 +934,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ab21f03-7abe-7c76-13b3-188d2509178f",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using bcp utility or SQLBulkCopy API.",
+      "searchTags": "sql;api;bcp;bulk;copy",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
       "longDescription": "",
       "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
