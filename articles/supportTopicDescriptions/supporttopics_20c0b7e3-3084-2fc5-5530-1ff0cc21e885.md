@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e2c6b1a-4725-c9e3-c9d9-b7dda176b5b5",
+      "longDescription": "",
+      "shortDescription": "Spark Job execution returns unexpected or incorrect results, or presents unexpected behavior.",
+      "searchTags": "spark;job;execution;failure;unexpected",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1fb5a9cf-4334-d2a7-1dff-c32806401c24",
       "longDescription": "",
       "shortDescription": "Configuration of Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
