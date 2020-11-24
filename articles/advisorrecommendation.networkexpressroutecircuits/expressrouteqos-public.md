@@ -28,7 +28,7 @@
   "owner": {
     "email": "ExRPM@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
+      "routingId": "MDM://AzureExpressRoute",
       "service": "Cloudnet",
       "team": "ExpressRoute"
     },
