@@ -16,11 +16,9 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-## **Recommended Steps**
-
 ### **Self-service Recovery**
 
-<span style="color:aqua">**Azure storage now provides a self-service recovery directly from the portal.**</span><br>
+Azure storage now provides a self-service recovery directly from the portal.<br>
 
 ### <span style="color:maroon">**Conditions for a storage account to be recoverable:**
 
@@ -32,4 +30,4 @@
 - Ensure the Resource Group is created first, if it has been deleted.
 - Ensure KeyVault key is recovered first for storage accounts with CMK.<br>
 
- # [**Click Here > Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
+ ### [**Click Here > Recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
