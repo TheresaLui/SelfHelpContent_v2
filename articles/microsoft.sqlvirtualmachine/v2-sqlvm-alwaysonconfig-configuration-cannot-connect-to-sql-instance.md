@@ -22,7 +22,7 @@
 
 <!--issueDescription--> 
 
-Most customers are able to resolve their **SQL Connectivity issues** using the following steps.   
+Most users are able to resolve their **SQL Connectivity issues** using the following steps.   
 
 <!--/issueDescription--> 
 
@@ -31,11 +31,11 @@ Most customers are able to resolve their **SQL Connectivity issues** using the f
 
 * **Error:"Cannot Generate SSPI Context"** while connecting to SQL Server 
 
-  Connectivity to SQL May fail because of SPN duplication, or incorrectly registered or missing entries. Download and log in to the VM as **Domain Administrator** and [Run Kerberos Configuration Manager](https://www.microsoft.com/download/details.aspx?id=39046) to fix these SPN issues. 
+  Connectivity to SQL may fail because of SPN duplication, or incorrectly registered or missing entries. Download and log in to the VM as **Domain Administrator** and [Run Kerberos Configuration Manager](https://www.microsoft.com/download/details.aspx?id=39046) to fix these SPN issues. 
 
 * **SQL Service does not Start because of Missing TempDB Folders** 
 
-   If you restarted your VM or Resized your VM, SQL might not start because of Tempdb Files/Folders missing on the D Drive. We are working on a fix for this. Run the following script to create the TempDB structure: 
+   If you restarted your VM or resized your VM, SQL might not start because of Tempdb Files/Folders missing on the D Drive. We are working on a fix for this. Run the following script to create the TempDB structure: 
 
     ```PS 
       $SQLService="SQL Server (MSSQLSERVER)" 
@@ -51,7 +51,7 @@ Most customers are able to resolve their **SQL Connectivity issues** using the f
        Start-Service $SQLAgentService 
     ```
       
-* **Seeing Login Failures for Account "NT SERVICE\\SqlIaaSExtensionQuery".** 
+* **Seeing Login Failures for Account "NT SERVICE\\SqlIaaSExtensionQuery"** 
 
      Uninstalling and [reinstalling Resource Provider](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=bash%2Cazure-cli#lightweight-management-mode) can fix the issue. Installing full-weight management Mode for Resource provider requires a SQL Service restart. Make sure you have that as a login in your SQL Server, or, alternatively, run the following command: 
 
