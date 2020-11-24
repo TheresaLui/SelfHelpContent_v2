@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d9b38ad-c824-87db-276b-c8262dad3fcd",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to Dedicated SQL pool endpoint, connection timeouts, dropped connections or database unavailable.",
+      "searchTags": "connectivity;dedicated;sql;unavailable;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
