@@ -26,6 +26,6 @@ Most users can resolve issues concerning **AG is offline or databases are in res
 
 - Make sure that  **Windows cluster service is running**. 
 - Make sure that **[cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)**
-- If **[cluster service was started with force quorum](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/force-a-wsfc-cluster-to-start-without-a-quorum?view=sql-server-ver15)**,  you **[must use following command](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-ver15)** in the correct replica to bring AG online 
+- If **[cluster service was started with force quorum](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/force-a-wsfc-cluster-to-start-without-a-quorum?view=sql-server-ver15)**,  you [must use following command](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-ver15) in the correct replica to bring AG online:  
 `ALTER AVAILABILITY GROUP AGName FORCE_FAILOVER_ALLOW_DATA_LOSS`
 - Account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
