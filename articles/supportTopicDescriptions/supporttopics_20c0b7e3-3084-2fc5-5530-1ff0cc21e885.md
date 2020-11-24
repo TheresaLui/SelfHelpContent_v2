@@ -758,6 +758,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6f37644e-4838-6d79-5e2e-8661bb208f12",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for Dedicated SQL Pool.",
+      "searchTags": "how;advisory;sql;query;performance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7064fa16-d600-390b-e37d-ac68f9334658",
       "longDescription": "",
       "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
