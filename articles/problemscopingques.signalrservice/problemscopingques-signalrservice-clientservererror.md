@@ -72,7 +72,7 @@
                 },
                 {
                     "value": "Error_5",
-                    "text": "Recovered by ad-hoc steps (specify below, e.g. restart the app server, restart the service, use an old version SDK, etc.)"
+                    "text": "Recovered by ad-hoc steps"
                 },
                 {
                     "value": "dont_know_answer",
@@ -87,7 +87,7 @@
             "visibility": "occur_dropdown == Error_5",
             "controlType": "textbox",
             "displayLabel": "Ad-hoc steps taken to recover the service",
-            "infoBalloonText": "Please specify the ad-hoc steps taken that recovered the service, e.g. restart the app server, restart the service, use an old version SDK, etc.",
+            "infoBalloonText": "Please specify the ad-hoc steps taken to recover the service, e.g. restart the app server, restart the service, use an old version SDK, etc.",
             "required": true
         },
         {
@@ -96,7 +96,6 @@
             "controlType": "dropdown",
             "displayLabel": "Any customer impact?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Any customer impact?",
             "dropdownOptions": [
                 {
                     "value": "Error_1",
