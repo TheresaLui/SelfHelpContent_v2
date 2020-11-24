@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "47d24c0b-0317-2bad-3b04-4428c5099e8a",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to Serverless SQL pool endpoint, connection timeouts, dropped connections or database unavailable.",
+      "searchTags": "connectivity;timeout;failure;unavailable;network",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "49537b00-649d-97b0-5513-be3a4f162728",
       "longDescription": "",
       "shortDescription": "Default ways in which expressions are being passed in parameters are not working, need more ways to pass parameters",
