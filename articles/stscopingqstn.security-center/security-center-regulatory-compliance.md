@@ -8,9 +8,10 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="a15f057d-9001-8910-a98a-dfaf3843dc2f"
   ownershipid="Azure_Security_Security_Center" />
-# Self-help guide for Azure Security Center regulatory compliance
+# Self-help guide for Azure Security Center Regulatory Compliance
 
 Use these resources to resolve common issues with Azure Security Center (ASC) compliance. 
+
 
 ## Supported ASC Regulatory Compliance Standards
 
@@ -27,9 +28,10 @@ In addition, you can add Azure Security Benchmark, which was developed by Micros
 
 Additional standards will be reflected in the dashboard as they are developed. For documentation on these standards, see [Customizing the set of standards in your regulatory compliance dashboard](https://docs.microsoft.com/azure/security-center/update-regulatory-compliance-packages)
 
+
 ## Common questions and issues
 
-### On Security Center CIS Regulatory Compliance, some assessments appear grayed out
+## On Security Center CIS Regulatory Compliance, some assessments appear grayed out 
 
 Select the tab for a compliance standard to see the list of controls for that standard. For the applicable controls, you can view the details of passing and failing assessments associated with that control. Controls that are grayed out have no Security Center assessments associated with them. Learn more about [assessments](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance).
 
@@ -53,13 +55,16 @@ To use the Regulatory Compliance, Azure Security Center must be on standard pric
 
 The Compliance dashboard displays security assessments and recommendations as they align to specific compliance requirements. If a recommendation result is not accurate, refer to the recommendation section for further analysis.
 
+
 ### Additional troubleshooting
 
 * [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
+
 ### FAQ
 
 * [Azure Security Center FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
+
 
 ## **Recommended Documents**
 
