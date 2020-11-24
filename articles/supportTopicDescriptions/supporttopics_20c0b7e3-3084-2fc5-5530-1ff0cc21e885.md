@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1dbe1c7a-eea3-c2ae-416f-9dda0499cb30",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or manage a Private Link connection to SQL pools.",
+      "searchTags": "connectivity;networking;sql;private;link",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e2c6b1a-4725-c9e3-c9d9-b7dda176b5b5",
       "longDescription": "",
       "shortDescription": "Spark Job execution returns unexpected or incorrect results, or presents unexpected behavior.",
