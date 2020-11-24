@@ -44,11 +44,11 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "error_occur",
-            "order": 1,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue still occurring?",
             "watermarkText": "Choose an option",
@@ -63,7 +63,7 @@
                     "text": "Automatically recovered"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -71,7 +71,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_end_time",
@@ -79,7 +79,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "required": false
         }
     ]
 }

@@ -7,7 +7,7 @@
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="scoping-signalrservice-error-codes-400"
+	articleId="problemscopingques-signalrservice-clientservererror"
 	ownershipId="SignalRService_Triage"
 />
 # Can't apply this label
@@ -44,7 +44,7 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "occur_dropdown",
@@ -79,7 +79,7 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "adhoc_stps",
@@ -115,7 +115,7 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -131,7 +131,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "required": false
         }
     ]
 }
