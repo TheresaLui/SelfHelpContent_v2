@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "36d31b13-cfab-4e7b-e39a-6e4115a98587",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to loading or extracting data from SQL pool using external tools or engine features like Polybase.",
+      "searchTags": "import;export;polybase;adf;databricks",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37e5ce8d-89aa-c41f-f3ac-5bab5ee0be0d",
       "longDescription": "",
       "shortDescription": "Issues pausing or resuming a SQL pool, slow or hung operations, or unexpected behavior.",
