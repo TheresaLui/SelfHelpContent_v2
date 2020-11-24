@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "49537b00-649d-97b0-5513-be3a4f162728",
+      "longDescription": "",
+      "shortDescription": "Default ways in which expressions are being passed in parameters are not working, need more ways to pass parameters",
+      "searchTags": "parameters;expressions;pipeline;integration;language",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4a8fe784-6596-95a1-e905-078a20f6a8a3",
       "longDescription": "",
       "shortDescription": "Questions on setting up and using auditing to track database events and analyzing the corresponding audit logs.",
