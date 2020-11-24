@@ -510,6 +510,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4d9a9758-8f08-4313-1029-a9a5c510578c",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use only for Serverless SQL Pool.",
+      "searchTags": "serverless;sql;query;execution;failure",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "515629d0-64a2-ecf6-ed51-c5013eb40c89",
       "longDescription": "",
       "shortDescription": ".NET for Spark C-Sharp job is running slow or hangs.",
