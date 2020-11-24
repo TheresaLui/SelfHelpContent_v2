@@ -3,15 +3,15 @@
 	description="How to check storage account deletion history"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="baf872c8-6fdc-4269-9cc5-30f625bb03e0"
 />
 
@@ -38,9 +38,11 @@ None of the following should resolve.
 **Option 1 : Use the ASC operations report**
 
 1. Navigate to [Resource Explorer in Azure Support Center ](https://azuresupportcenter.msftcloudes.com/resourceExplorer?srId=) and select the resource at the Subscription level(top resource).
-2. Choose the operations tab, and set the timeframe when the account might have been deleted. 
-3. If not sure, choose last 14 days. Older deletes are unlikely to be recoverable.
-4. Run the report.
+2. Select the **Storage tab** section.
+3. Fill the details of the Storage Account attempted to be recovered under the subsection Account Deletion History & Recovery
+4. Add the deletion time if known (optional) 
+5. Run the query
+
 
 **Option 2: Use a Kusto Query**
 
