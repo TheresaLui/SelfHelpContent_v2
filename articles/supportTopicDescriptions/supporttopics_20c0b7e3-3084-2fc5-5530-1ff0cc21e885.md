@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2be26f3c-8a24-08a0-2afb-425f7d5f806c",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for Serverless SQL Pool.",
+      "searchTags": "serverless;performance;query;execution;slow",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
