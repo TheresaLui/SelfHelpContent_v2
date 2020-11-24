@@ -20,7 +20,7 @@
 
 # Partner Center Transact and Manage - Microsoft Customer Agreement Standard Amendments
 
-Standard amendments to the Microsoft Customer agreement for download.
+Standard amendments to the Microsoft Customer Agreement for download.
  
 ## **Recommended Steps**
 
