@@ -902,6 +902,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "89074c59-abdc-d8c8-0363-c4f178cd939e",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using Dedicated SQL pools.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b19bef9-f46c-5108-cca7-eadad6802be1",
       "longDescription": "",
       "shortDescription": "Security roles and permissions on Dedicated SQL objects and storage using External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
