@@ -1110,6 +1110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c8c140d1-5d76-9ec9-5bbb-52988a77246d",
+      "longDescription": "",
+      "shortDescription": "Spark Job failure or slow performance while reading data from Azure Synapse Link for CosmosDB.",
+      "searchTags": "spark;job;synapse link;cosmos db",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc311cde-a960-10fc-2879-3879c9b06556",
       "longDescription": "",
       "shortDescription": "Failures to connect to SQL pool endpoint or database unavailable. Do not use for AAD authentication or firewall issues.",
