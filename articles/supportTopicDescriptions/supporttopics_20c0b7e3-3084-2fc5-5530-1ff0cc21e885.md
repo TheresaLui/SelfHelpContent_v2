@@ -1574,6 +1574,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ef67dae0-09c1-05d8-a29a-783786fed64d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning resources using ARM templates, REST API, PowerShell or Azure CLI.",
+      "searchTags": "arm;crud;rest;powershell;azure",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
