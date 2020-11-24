@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "740d9a30-6c76-ae46-739e-bb72c63cadfb",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuration or management of Data Exfiltration Protection feature.",
+      "searchTags": "dep;exfiltration;protection;security;management",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74622fa6-f28e-fc89-4226-89bdf8392c29",
       "longDescription": "",
       "shortDescription": "Execution of a stored procedure activity is failing due to some error code.",
