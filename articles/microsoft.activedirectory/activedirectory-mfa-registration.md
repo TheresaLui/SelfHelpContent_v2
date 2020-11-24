@@ -21,20 +21,20 @@
 
 ### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
-Quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom).  
-Steps to use the diagnostic: 
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
+ 
 1. Launch the Sign-in Diagnostic.
 2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
-3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed).
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
    
 ## **Recommended Steps**
 
-- Check if Combined Registration is enabled, if not, enable [Combined Registration](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined) 
-	- If Combined Registration is enabled: Verify if your tenant's CA policies configured for combined registration are applying by checking the [Azure AD Sign-in Events](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access#azure-ad-sign-in-events)
+- Check if Combined Registration is enabled. If not, enable [Combined Registration](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined).
+	- If Combined Registration is enabled: Verify that your tenant's CA policies configured for combined registration are applying, by checking the [Azure AD Sign-in Events](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access#azure-ad-sign-in-events)
 	- If no Combined Registration CA policies are configured, learn how to [Configure the Azure Multi-Factor Authentication Registration Policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 - Check [What Authentication and Verification methods are available in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#how-each-authentication-method-works)
-- Register the security methods by following the steps in [mysecurityinfo](https://myprofile.microsoft.com)
+- Register the security methods by following [these steps](https://myprofile.microsoft.com)
 
 
 ## **Recommended Videos**
