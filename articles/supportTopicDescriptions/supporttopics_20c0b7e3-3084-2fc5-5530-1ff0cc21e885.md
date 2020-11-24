@@ -838,6 +838,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9c427ca9-7209-d0f4-91e7-6c05875ee9d9",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use for Dedicated SQL pool only.",
+      "searchTags": "sql;dedicated;failure;query;error",
+      "category": "SQL Query Execution and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2a9de86-b1fa-9035-3000-b51a9cfd5dbe",
       "longDescription": "",
       "shortDescription": "Problems related to moving resources between subscriptions, resource groups or tenants.",
