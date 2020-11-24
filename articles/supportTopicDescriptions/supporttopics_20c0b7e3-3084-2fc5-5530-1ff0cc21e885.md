@@ -1310,6 +1310,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4da1a13-ee99-be10-d998-6d0496604a4e",
+      "longDescription": "",
+      "shortDescription": "Configuration issues related to Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;configuration;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8c140d1-5d76-9ec9-5bbb-52988a77246d",
       "longDescription": "",
       "shortDescription": "Spark Job failure or slow performance while reading data from Azure Synapse Link for CosmosDB.",
