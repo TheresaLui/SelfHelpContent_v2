@@ -486,6 +486,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4165bec7-8d50-81b5-bb9d-9b79cd4fe673",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to configure storage access in Serverless SQL.",
+      "searchTags": "how;advisory;storage;sql;serverless",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41ab21db-3bed-2dd2-42d0-fd6a2fad3260",
       "longDescription": "",
       "shortDescription": "Problems configuring access to storage using external data sources, external tables, OPENROWSET or CETAS.",
