@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "404b7532-cfbe-d1de-fa56-3bbb1d259c3d",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to Synapse Studio web portal.",
+      "searchTags": "synapse studio;studio;connectivity;ui;permissions",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41ab21db-3bed-2dd2-42d0-fd6a2fad3260",
       "longDescription": "",
       "shortDescription": "Problems configuring access to storage using external data sources, external tables, OPENROWSET or CETAS.",
