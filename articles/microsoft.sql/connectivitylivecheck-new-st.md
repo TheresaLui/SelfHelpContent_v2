@@ -8,7 +8,7 @@
   ms.author="subbuk, swbharti"
   displayOrder=""
   articleId="ConnectivityCheck_042F9ACD-6B75-4184-A72C-A7F68E71C9B3-new-st"
-  diagnosticScenario="crc_sqldb_connectivity"
+  diagnosticScenario="SqlConnectivity"
   selfHelpType="diagnostics"
   supportTopicIds="32745425"
   resourceTags=""
@@ -19,7 +19,7 @@
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins. 
+We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins.
 <!--/issueDescription-->
 
 The issue you are experiencing could also be a network-related problem at your end.

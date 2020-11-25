@@ -1,27 +1,25 @@
-<properties 
-    pageTitle="Dependency Visualization"
-    description="Issues and guidance regarding view dependencies feature in Azure Migrate: Server Assessment"
-    service="microsoft.migrate"
-    resource="migrateprojects"
-    authors="musa-57"
-    ms.author="hamusa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32675744"
-    resourceTags=""
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="b5dcb587-3130-4550-af8e-2517b61fb5e2"
-	ownershipId="Compute_AzureMigrate"
-/>
-
+<properties
+  pagetitle="Dependency Visualization"
+  description="Issues and guidance regarding view dependencies feature in Azure Migrate: Server Assessment"
+  service="microsoft.migrate"
+  resource="migrateprojects"
+  authors="musa-57"
+  ms.author="hamusa,vivikram"
+  displayorder=""
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="16348"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="b5dcb587-3130-4550-af8e-2517b61fb5e2"
+  ownershipid="Compute_AzureMigrate" />
 # Dependency analysis (agent-based)
 
 ## **Recommended Steps**
 
 ### **I installed agents on my on-premises VMs, but the dependencies are not showing up.**
 
-Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure the dependency agent is up and running. Ensure the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723).
+Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure the dependency agent is up and running. Ensure the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723). Refer to troubleshooting guidance [here](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#post-installation-issues).
 
 ### **What are the supported operating systems for agent-based dependency analysis?**
 
