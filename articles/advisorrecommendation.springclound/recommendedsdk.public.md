@@ -1,11 +1,13 @@
 <properties
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
+	authors="liping-ms"
     ms.author="lipinggao"
+	displayOrder="100"
     articleId="b72ddf41-39a2-4158-8492-11ec868aee98_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public"
-    ownershipId="AzureSpringCloud_SpringCloud"  //todo: find the correct ownership here https://azuresupportcenterdocs.azurewebsites.net/developers/ads/best_practice/OwnershipIds.html (https://msit.powerbi.com/groups/me/reports/dba441e7-c73c-48c6-b5c8-0e11b0cf9fae/ReportSection68636bc10d603db25cb4) when permission is granted
+    ownershipId="AzureSpringCloud_SpringCloud"
 />
 # Key Vault SDK Version Recommendation
 ---
