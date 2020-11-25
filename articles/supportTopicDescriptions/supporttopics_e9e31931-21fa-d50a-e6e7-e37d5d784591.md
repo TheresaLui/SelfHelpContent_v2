@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0bb29dd2-faa1-4988-7551-52d4cf082843",
+      "longDescription": "",
+      "shortDescription": "Common problems resizing the scale set",
+      "searchTags": "resize",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0c41ebbd-4f70-a0cb-c305-b037c5e8c4e2",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
@@ -158,6 +166,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4196a8bf-8505-d865-a50e-1810d5d50f2b",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "create",
+      "category": "create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "433958cc-89e1-422a-cd83-b8b1f24d6f6b",
       "longDescription": "",
       "shortDescription": "Common problems related to an unresponsive instance",
@@ -180,6 +196,14 @@
       "searchTags": "create",
       "category": "Create",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "437532d7-8287-1513-40dc-483b9f57fc50",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "44eb8616-48ab-587b-dfd5-38dca7ca2a56",
@@ -494,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f8202a88-d33b-8470-e95c-466900032c50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (CPU) with the scale set or instance.",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f84467a3-d986-9466-876d-a3ed58b12705",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
@@ -518,12 +550,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fee8ecf8-15a8-b846-4c88-dfaf24112908",
+      "longDescription": "",
+      "shortDescription": "Common problems related to instance not booting",
+      "searchTags": "Boot",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ff11ec6d-e402-03d1-69a2-2ca229a268b5",
       "longDescription": "",
       "shortDescription": "Common problems related to instance stuck in update",
       "searchTags": "update",
       "category": "Cannot Start Stop",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }

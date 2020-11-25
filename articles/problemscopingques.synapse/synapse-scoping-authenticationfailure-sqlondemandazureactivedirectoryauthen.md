@@ -21,18 +21,33 @@
     "resourceRequired": true,
     "fileAttachmentHint": "",
     "title": "SQL on-demand Azure Active Directory Authentication",
+    "diagnosticCard": {
+        "title": "Connectivity Troubleshooter",
+        "description": "The Connectivity Troubleshooter can identify the cause of many common service-related connection errors.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
-            "required": true,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "infoBalloonText": ""
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "sqlod_2",
-            "order": 2,
+            "order": 3,
             "required": false,
             "controlType": "multilinetextbox",
             "displayLabel": "If an error was displayed, what was the error message (including distributed statement id, if any)?",
@@ -41,7 +56,7 @@
         },
         {
             "id": "sqlod_3",
-            "order": 3,
+            "order": 4,
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What tool and which version of tool do you use to connect?",
@@ -50,7 +65,7 @@
         },
         {
             "id": "sqlod_4",
-            "order": 4,
+            "order": 5,
             "required": false,
             "controlType": "dropdown",
             "displayLabel": "Do you use AAD or SQL login?",
@@ -70,7 +85,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
