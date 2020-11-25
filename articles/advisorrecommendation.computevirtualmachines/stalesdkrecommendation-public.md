@@ -6,7 +6,7 @@
           articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64_Public"
           selfHelpType="advisorRecommendationMetadata"
           cloudEnvironments="Public, ussec, usnat"
-          ownershipId="Compute_ComputePlatform"
+          ownershipId="Compute_VirtualMachines"
 />
 
 # Recommend upgrading to a more recent SDK API version.
@@ -19,7 +19,7 @@
 "recommendationImpact": "High",
 "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
 "recommendationFriendlyName": "ComputeStaleSDKRecommendation",
-"recommendationMetadataState": "Active",
+"recommendationMetadataState": "Disabled",
 "owner":
   { "email": "cplatsdkdev@microsoft.com",
           "icm": { "routingId": "mdm:/adspartner/AzureRTCPlatSDK/Powershell",
@@ -31,7 +31,7 @@
   "version": 5.0,
   "learnMoreLink": "https://aka.ms/azureSDKReadMe",
   "description": "Update your current Compute Management SDK version to the most recent version.",
-  "longDescription": "We have identified operations under this subscription using outdated Compute Management SDK versions. We recommend switching to the latest Compute Management SDK versions, which might involve changes to your existing codebase, to obtain improved security and performance.",
+  "longDescription": "We have identified API calls from outdated Compute Management SDKs for resources under this subscription. We recommend switching to the latest Compute Management SDK versions. You need to update your existing code or scripts to use the latest SDK version. This ensures you receive the latest security and performance improvements.",
   "potentialBenefits": "Improved security, performance, data resiliency, and support for new features.",
   "displayLabel": "Update your current Compute Management SDK version to the most recent version",
   "tip": "Regularly update your Compute Management SDK versions to prevent security issues and access new features.",

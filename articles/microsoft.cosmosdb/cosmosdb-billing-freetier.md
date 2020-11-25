@@ -23,19 +23,6 @@ Most users are able to resolve their Cosmos DB related Free Tier questions or is
 
 ## **Recommended Steps**  
 
-### **Not able to create a Free Tier account (COVID-19)**
-As companies operationalize to address new and unique challenges, we have mobilized our global response plan to help customers stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating new demand. We are working closely with first responder organizations and critical government agencies to ensure we are prioritizing their unique needs and providing them our fullest support. We are also partnering with governments around the globe to ensure our local datacenters have on-site staffing and all functions are running properly.
-
-As demand continues to grow, if we are faced with any capacity constraints in any region during this time, we have established clear criteria for the priority of new cloud capacity. Top priority will be going to first responders, health and emergency management services, critical government infrastructure organizational use, and ensuring remote workers stay up and running with the core functionality of Teams. We will also consider adjusting free offers, as necessary, to ensure support of existing customers.
-
-However, you should be able to perform all operations against your existing Free Tier Azure Cosmos DB account.
-
-If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2, South Central US, North Europe, West Europe, Brazil South, Canada Central, France Central, Korea South or Korea Central** for new deployments which do not have any restrictions as of now.
-
-For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
-
-**Note** : If you are having issues other than the operations listed above, please continue with the below information to see if that helps resolve your issue.
-
 ### **Free tier account limits**
 - Number of free tier accounts per Azure subscription: *1*
 - Duration of free-tier discount: *Lifetime of the account. Must opt-in during account creation.*

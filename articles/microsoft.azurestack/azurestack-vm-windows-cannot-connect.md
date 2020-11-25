@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Azure Stack Windows VM connectivity issues"
-    description="Azure Stack Windows VM connectivity issues"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="genlin"
-    ms.author="mquian"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32663890"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="6f641910-1007-4135-b8d1-85ab25fa1503"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Windows VM connectivity issues"
+  service="microsoft.azurestack"
+  resource="registrations"
+  ms.author="mquian,dewitth"
+  selfhelptype="Generic"
+  supporttopicids="32663890"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="6f641910-1007-4135-b8d1-85ab25fa1503"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Windows VM connectivity issues
 
 Connectivity to an Azure Stack VM can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself. The following topics cover common support questions. 
@@ -28,6 +23,10 @@ Connectivity to an Azure Stack VM can be affected by networking issues in the Az
 
   * [Basic troubleshooting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)
   * [Advanced troubleshooting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
+
+**VM connection issues**
+
+[Manage network resources in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption)
 
 ## **Recommended Documents**
 

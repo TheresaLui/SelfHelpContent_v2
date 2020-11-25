@@ -8,15 +8,17 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="IsBadPassword_FED3BCD4-BE62-45F4-9B0F-C8D8CFFDABD5"
-	diagnosticScenario=""
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="13491,16259"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
 # We ran diagnostics on your resource and found an issue
+
+## **Login failed due to invalid credentials**
 
 <!--issueDescription-->
 Connection attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** have recently failed due to invalid credentials. To resolve this issue, contact your service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
@@ -32,7 +34,7 @@ Typically, the service administrator can use the following steps to add the logi
 	* Double-click **Security** to expand it
 	* Right-click **Logins**, and then select **New login**
 	* In the generated script with placeholders, you can edit and run the following SQL query:<br>
-	
+
 ```
 CREATE LOGIN (SQL_login_name, sysname, login_name)
 WITH PASSWORD = '(password, sysname, Change_Password)'

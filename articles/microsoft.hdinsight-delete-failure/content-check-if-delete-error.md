@@ -17,8 +17,6 @@
 
 # Check if in DeleteError state
 
-## **Recommended Steps**
-
 Review and validate the customer case:
 
 1. UserSubscriptionId
@@ -33,5 +31,7 @@ IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | where State == "DeleteError"
-| project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage,RpRegionName,IsSecureHadoop
+| project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage,RpRegionName,IsSecureHadoop,IsUserError,IsDeleteQueued
 ```
+
+> **NOTE**: ***ErrorInfoAsJson*** and ***InternalErrorMessage*** are also important information to troubleshoot
