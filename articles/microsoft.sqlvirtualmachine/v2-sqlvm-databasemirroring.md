@@ -12,7 +12,7 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Database Mirroring: Common issues for AlwaysOn, High Availability, and disaster recovery 
 
-This list explains how to resolve many common Database Mirroring issues. 
+This article explains how to resolve many common Database Mirroring issues. 
 
 ## **Recommended Steps**
 
