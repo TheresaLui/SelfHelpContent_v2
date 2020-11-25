@@ -16,7 +16,7 @@
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
-# Data Box setup and configuration
+# Azure Data Box setup and configuration
 
 **Can't configure network for my Data Box**
 
