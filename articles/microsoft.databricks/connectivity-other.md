@@ -60,7 +60,7 @@ To diagnose and resolve connectivity issues, use the following information.
   OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')".
   ```
  
-The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+  The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
   
   **Solution**
   
@@ -69,6 +69,26 @@ The pyodbc connection fails because when credential passthrough is enabled on a 
   ```
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
   ```
+
+* **Problem**
+  
+  ```
+  Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues.
+  ```
+
+  **Solution**
+  
+  We generally get RPC error due to the following reasons:
+
+  1. The communication between the driver and executor is lost - executor is not able to send heartbeats within the threshold time frame which can happen either if the executor is overwhelmed with memory/OOM errors or too many network hits are making executor too busy in GC and it is not able to respond back to driver.
+
+     You could see what is happening in the Spark UI > Stages > sort the tasks based on the error. It will show you what error was happening on executor level.
+
+     One quick workaround would be to use bigger cluster (if current cluster is really small).
+
+  2. Having too many partitions - small files can cause RPC error. You can check the used partition strategy.
+
+  3. Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
 
 * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
