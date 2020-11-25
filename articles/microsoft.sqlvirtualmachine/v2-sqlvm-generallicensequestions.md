@@ -2,7 +2,7 @@
   pagetitle="General Licensing Questions"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun"
+  ms.author="amamun,ujpat"
   selfhelptype="Generic"
   supporttopicids="32740081"
   resourcetags="windowssql"
@@ -20,11 +20,11 @@ Most users can resolve general questions about licensing by following the steps 
 SQL Virtual Machine Resource Provider (RP) is a free resource that gives you management capability of the SQL VM from the portal. SQL VM RP is created when you deploy a SQL VM image. Azure can also create this resource automatically on an existing VM if a SQL instance is detected. There is no cost associated with SQL VM RP.
 
 **Why I am unable to change licensing model or manage SQL server from Azure portal?**
-If you are unable to change licensing model or manage SQL server from Azure portal, make sure that [SQL VM Resource Provider (RP) is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash).
+If you are unable to change licensing model or manage SQL server from Azure portal, make sure that [SQL VM IAAS Extension is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).
 
-**Why I am unable to register the SQL VM Resource Provider (RP)?**
-If you are [unable to register the SQL VM Resource Provider (RP)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash), check the prerequisites for SQL VM RP - 
-  - SQL Server engine is installed as default instance or if there is no default instance there is only one named instance. SQL VM RP does not work if there is no default instance and there are multiple named instances. 
+**Why I am unable to register the SQL VM IAAS Extension?**
+If you are [unable to register the SQL IAAS Extension)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli), check the prerequisites for SQL IAAS Extension - 
+  - SQL Server engine is installed as default instance or if there is no default instance there is only one named instance. SQL IAAS Extension does not work if there is no default instance and there are multiple named instances. 
   - SQL instance is not evaluation edition.
 
 **How do I estimate my cost for SQL Server on Azure VM? How do I reduce cost for SQL VM?**
@@ -50,7 +50,7 @@ To upgrade from the Evaluation edition on the same VM:
 
 **What is SQL Developer edition? Is there a free SQL edition?**
 [SQL Developer](https://www.microsoft.com/sql-server/sql-server-downloads)is a full-featured free edition, licensed for use as a development and test database in a non-production environment. The limited-feature [SQL Express edition](https://www.microsoft.com/sql-server/sql-server-downloads) is also free and can be used in a production environment. Note that only SQL licensing for these editions is free. You will be billed for additional resources such as VM, storage, and so on. 
-You can deploy SQL images with free editions. If you install these editions on a Windows-only VM, we strongly recommend that you [register with SQL VM RP](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash).  
+You can deploy SQL images with free editions. If you install these editions on a Windows-only VM, we strongly recommend that you [register with SQL iAAS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).  
 
 **How can I determine the license type of my SqlVirtualMachine resources?**
 Run the following Powershell command:   
