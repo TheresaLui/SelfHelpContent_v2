@@ -17,6 +17,10 @@
 
 # Diagnose and resolve connectivity issues
 
+## **Recommended Steps**
+
+* **Azure Event Hubs + Apache Spark connector** is updated regularly, and a more recent version may be available: we recommend that you [pull the latest connector from the Maven repository](https://mvnrepository.com/artifact/com.microsoft.azure/azure-eventhubs-spark)
+
 ## **Recommended Documents**
 
 * [How To: Connect to Azure Synapse Analytics](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/synapse-analytics)
