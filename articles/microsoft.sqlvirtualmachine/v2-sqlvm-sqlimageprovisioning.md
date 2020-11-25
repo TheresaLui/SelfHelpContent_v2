@@ -1,5 +1,5 @@
 <properties
-  pagetitle="SQL Image Provisioning"
+  pagetitle="SQL Image Provisioning&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -50,7 +50,7 @@ If you are planning to deploy a SQL inside a Virtual Machine, follow the [Provis
   If you deploy any SQL Server Marketplace image, then it is not possible to change the installation directory during provisioning. By default, we will install the binaries in C drive. To have SQL binaries/installation on a different drive: <br>
 
   * Uninstall the SQL and its Shared Features and Reinstall on a different drive
-  * Create a Windows only VM and copy the SQL Setup file from the source VM or from Volume licensing and install it on the desired destination VM. Post installation make sure you change the licensing using [SQL Resource Provider](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) so that it reflects the correct billing for your VM.
+  * Create a Windows only VM and copy the SQL Setup file from the source VM or from Volume licensing and install it on the desired destination VM. Post installation make sure you change the licensing using [SQL Virtual Machine](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) so that it reflects the correct billing for your VM.
 
 ## **Recommended Documents**
 
