@@ -9,7 +9,7 @@
     articleId="cosmosdb-sdk-unlisted-version-rca"
     diagnosticScenario="CosmosDBUnlistedSDKInsight"
     selfHelpType="rca"
-    supportTopicIds=""
+    supportTopicIds="32636818, 32783716, 32783724"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -26,5 +26,5 @@ We recently unlisted Azure Cosmos DB SQL API .NET SDK version 3.14.0 due to inte
 
 ## **Recommended Steps**
 
-We recommend upgrading from version 3.14.0 to 3.15.0. Upgrading to version 3.15.0 does not require any code changes. 
+We recommend upgrading the SDK to at least version 3.15.0 to avoid this issue. 
 For other SDK's (Java, Python, node.js) as well as .NET SDK versions older than 3.14, no action is needed.
