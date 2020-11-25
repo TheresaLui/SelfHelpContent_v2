@@ -81,6 +81,10 @@ If you are looking to find out who or when changes were made to your Cosmos DB a
 
 Policies that are created using Azure Policy only apply to changes made against the Cosmos DB resource provider. To ensure enforcement of Azure Policies, the account must be locked down to prevent changes by users accessing the account using any of the Cosmos DB SDKs. For more information on how to configure your account to ensure Azure Policy enforcement see, [Preventing changes from Azure Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#prevent-sdk-changes)
 
+### **Cannot create account using customer managed key**
+
+If you receive an error message of `forbidden` that includes *...does not have keys get permission on key vault*, this is likely due to a missing access policy to your key vault instance. For instructions on how to add an access policy to your Azure Key Vault instance, see [Configure customer-managed keys for your Azure Cosmos account with Azure Key Vault](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk#add-an-access-policy-to-your-azure-key-vault-instance)
+
 ## **Recommended Documents**  
 
 The below recommended documents describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.
