@@ -20,12 +20,13 @@
 # We ran diagnostics on your resource and found the below steps which can help you. 
 <!--issueDescription--> 
 
-Most users can resolve issues concerning **Why AG did not failover?** by using the following steps.
+Most users can resolve issues concerning **Why didn't AG fail over?** by using the following steps.
 
 <!--/issueDescription--> 
  
 ## **Recommended Steps** 
 
-- Makes sure **[Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions)** are met. This means **every secondary database on the failover target is synchronized**
-- Account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
+Make sure that:
+- **[Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions)** are met. This means **every secondary database on the failover target is synchronized**
+- The account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
 - [Maximum Failures in the Specified Period" value is not exhausted](https://support.microsoft.com/help/2833707/kb2833707-troubleshooting-automatic-failover-problems-in-sql-server-20). 
