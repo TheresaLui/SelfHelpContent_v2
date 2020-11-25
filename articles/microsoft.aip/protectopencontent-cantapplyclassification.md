@@ -16,12 +16,14 @@
 
 1. Select **Help and feedback** from the **Protect/Sensitivity** button on the Office ribbon, and then **Reset settings**. 
 This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
-2.Sign out all users from Office and try again. Azure Information Protection does not support multiple versions of Office installed or multiple users signed in to Office. See these [requirements](https://docs.microsoft.com/azure/information-protection/requirements#applications). Additionally, Azure Information Protection clients do not support multiple versions of Office on the same computer, or multiple user accounts in Office.
-4. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
-### Export Azure Information Protection logs
+1. Sign out all users from Office and try again. Azure Information Protection does not support multiple versions of Office installed or multiple users signed in to Office. See these [requirements](https://docs.microsoft.com/azure/information-protection/requirements#applications). Additionally, Azure Information Protection clients do not support multiple versions of Office on the same computer, or multiple user accounts in Office.
 
-1. Open an Office document or create a new email in Outlook
+1. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+
+* ### Export Azure Information Protection logs
+
+   1. Open an Office document or create a new email in Outlook
 2. Select the **Protect** or **Sensitivity** button, and **Help and feedback**
 3. Select **Export Logs**
 4. Save the logs to your choice of location, and attach them to this service request
