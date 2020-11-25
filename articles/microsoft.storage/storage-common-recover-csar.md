@@ -31,7 +31,7 @@ Azure Storage now provides users a self-service storage account recovery capabil
 - Ensure that the KeyVault key is recovered first for storage accounts with CMK.<br>
 
 ### <span style="color:maroon">**Disclaimer:**
-- There's no guarantee that recovery will always succeed. It is a best effort rather than a guarantee.
+- There's no guarantee that recovery will always succeed. Recovery is a best effort rather than a guarantee.
 - We strongly recommend using a combination of [ARM resource locks](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources) and [Azure RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) permissions to prevent accidental account deletion.
 
 <a href="data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId"><button type="button" style="background-color:#1E90FF;color:white;width:330px; height:40px;"><b>Customer-Controlled Storage Account Recovery</button></a>
