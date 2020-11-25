@@ -23,7 +23,7 @@
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
-	"recommendationResourceType": "Microsoft.AppPlatform/Spring", 
+	"recommendationResourceType": "Microsoft.AppPlatform/Spring",
 	"recommendationFriendlyName": "UpgradeStaleSDK",
 	"recommendationMetadataState": "Active",
 	"owner": {
