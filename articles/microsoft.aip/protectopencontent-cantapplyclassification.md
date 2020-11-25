@@ -21,12 +21,12 @@ This action signs out the user, deletes the currently downloaded Azure Informati
 
 1. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
-* ### Export Azure Information Protection logs
+### Export Azure Information Protection logs
 
-   1. Open an Office document or create a new email in Outlook
-2. Select the **Protect** or **Sensitivity** button, and **Help and feedback**
-3. Select **Export Logs**
-4. Save the logs to your choice of location, and attach them to this service request
+1. Open an Office document or create a new email in Outlook
+1. Select the **Protect** or **Sensitivity** button, and **Help and feedback**
+1. Select **Export Logs**
+1. Save the logs to your choice of location, and attach them to this service request
 
 ## **Recommended Documents**
 
