@@ -43,9 +43,9 @@ To diagnose and resolve connectivity issues with network configuration, use the 
 
 * If **IP Access List** is enabled for the workspace, make sure to assign permissions for Azure Data Factory IPs to run notebooks from ADF:
 
-  - To update the IP access list or create access lists with the new CIDR, see [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+  - To update the IP access list, or to create access lists with the new CIDR, see [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
 
-  - For information about assigning permissions to CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519).  Search for *DataFactory.Region*. 
+  - For information about assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519).  Search for *DataFactory.Region*. 
   
 ## **Recommended Documents**
 
