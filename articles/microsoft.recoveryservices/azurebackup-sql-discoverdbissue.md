@@ -23,8 +23,8 @@
 - **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation
 - **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
 - **GuestAgentStatusUnavailableUserError** - [Azure Backup service uses Azure VM guest agent for doing backup but guest agent is not available on the target server](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
-- **UserErrorDotNetVersionUpgradeRequired** - Ensure latest .NET Framework is installed on the VM. [learn more](https://docs.microsoft.com/azure/backup/sql-support-matrix#scenario-support)
-- **AutoProtectionCancelledOrNotValid** - [Auto-protection Intent was either removed or is no longer valid](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid)
+- **UserErrorDotNetVersionUpgradeRequired** - Ensure latest .NET Framework is installed on the VM. [Learn more](https://docs.microsoft.com/azure/backup/sql-support-matrix#scenario-support)
+- **AutoProtectionCancelledOrNotValid** - [Auto-protection Intent was either removed or is no longer valid](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid)
 - **FabricSvcBackupPreferenceCheckFailedUserError** - [Backup preference for SQL Always On Availability Group cannot be met as some nodes of the Availability Group are not registered](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror)<br>
 
 **Common questions**
@@ -35,6 +35,6 @@
 ## **Recommended Documents**
 
 - [Frequently asked questions](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [Troubleshooting issues related to backup SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
 - [Troubleshoot discover and configure issues](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#troubleshoot-discover-and-configure-issues)
 - [Troubleshoot re-registration failures](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)
