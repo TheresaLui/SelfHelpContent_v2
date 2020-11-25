@@ -10,19 +10,19 @@
   cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
   articleid="protectopencontent_cantapplyclassification"
   ownershipid="AzureIdentity_InformationProtection" />
-# Azure Information Protection client - Unable to apply a classification label
+# Unable to apply a classification label in Azure Information Protection client
 
 ## **Recommended Steps**
 
-1. select **Help and feedback** from the **Protect/Sensitivity** button on the Office ribbon, then **reset settings**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
-2. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
-3. The Azure Information Protection clients do not support multiple versions of Office on the same computer. These clients also do not support switching user accounts in Office
+1. Select **Help and feedback** from the **Protect/Sensitivity** button on the Office ribbon, and then **Reset settings**. 
+This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
+2.Sign out all users from Office and try again. Azure Information Protection does not support multiple versions of Office installed or multiple users signed in to Office. See these [requirements](https://docs.microsoft.com/azure/information-protection/requirements#applications). Additionally, Azure Information Protection clients do not support multiple versions of Office on the same computer, or multiple user accounts in Office.
 4. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook
-2. Select the **Protect** or **Sensitivity** button -> **Help and feedback**
+2. Select the **Protect** or **Sensitivity** button, and **Help and feedback**
 3. Select **Export Logs**
 4. Save the logs to your choice of location, and attach them to this service request
 
