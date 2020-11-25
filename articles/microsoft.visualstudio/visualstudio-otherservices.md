@@ -16,7 +16,7 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-# Using other Azure services and configurations with Azure Pipeline
+# Using Azure services and configurations with Azure Pipeline
 This article answers common questions about Azure Pipeline.
 
 
@@ -24,7 +24,7 @@ This article answers common questions about Azure Pipeline.
 
     The **Policy Compliance Configuration** can be configured only using the approval gates within a release pipeline. It cannot be used as task in the build or release pipeline. [Refer to this document](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-policy?view=azure-devops).
 
-* **Terraform crashes with the error: "eval: *terraform.EvalApplyPost, err: rpc error: code = Unavailable desc = transport is closing"**
+* **Terraform crashes with the error: "eval: terraform.EvalApplyPost, err: rpc error: code = Unavailable desc = transport is closing"**
 
     Ensure you are using the Terraform task provided by Microsoft. You can find this in the [Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks).
 
