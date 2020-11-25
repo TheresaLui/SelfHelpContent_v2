@@ -28,7 +28,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
@@ -42,7 +42,7 @@
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "AG failed or failed over or did not failover",
+                    "text": "AG failed or failed over or did not fail over",
                     "value": "AvailabilityGroupFailovers"
                 },
                 {
