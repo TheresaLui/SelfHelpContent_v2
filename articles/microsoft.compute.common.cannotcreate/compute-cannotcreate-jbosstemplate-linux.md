@@ -17,7 +17,7 @@
 
 # Issue with JBOSS template
 
-4 out of 5 customers resolved their issue with the guides listed below.<br>
+Refer to the following guides to resolve this issue.<br>
 
 ## **Recommended Documents**
 
