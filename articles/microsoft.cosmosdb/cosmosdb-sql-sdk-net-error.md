@@ -63,7 +63,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 
 **449 Retry With**
-<br>This is an expected response that indicates that there were concurrent operations trying to modify the same document. It is safe to retry. If the error is happening during stored procedure executions, decreasing the degree of parallelism of the executions will also reduce the occurrence.
+<br>This is an expected response that indicates that there were concurrent operations trying to modify the same document. It is safe to retry. If the error is happening during stored procedure executions, decreasing the degree of parallelism of the executions will also reduce the occurrence
 
 **404 Not found**
 <br>The HTTP status code 404 represents that the resource no longer exists.
