@@ -20,7 +20,7 @@
 
 **Common error codes**
 - **VMNotInRunningStateUserError**: [Ensure the SQL Server is running](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)</br>
-- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
+- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation
 - **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
 - **GuestAgentStatusUnavailableUserError**: [Azure Backup service uses Azure VM guest agent for doing backup but guest agent is not available on the target server](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
 - **UserErrorDotNetVersionUpgradeRequired** - Ensure latest .NET Framework is installed on the VM. [learn more](https://docs.microsoft.com/azure/backup/sql-support-matrix#scenario-support)
