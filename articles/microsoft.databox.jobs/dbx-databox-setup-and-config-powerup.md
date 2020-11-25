@@ -18,7 +18,7 @@
 
 # Azure Data Box setup and configuration
 
-## My Data Box doesn't power up
+### My Data Box doesn't power up
 
 1. Make sure that the Data Box front and rear doors are open for proper airflow
 2. If the system fault indicator on the front operating panel is on, try moving the device to a different location with better ventilation and airflow
