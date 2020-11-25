@@ -8,7 +8,7 @@
     ms.author="yujzhan"
     displayOrder=""
     articleId="MissingMetricsNoLogin_5319F4E2-A2DA-426D-B9D9-E6F321380252"
-    diagnosticScenario="MissingMetricsNoLogin"
+    diagnosticScenario="SqlMetrics"
     selfHelpType="diagnostics"
     supportTopicIds="32630435,32630434,32630412"
     resourceTags=""

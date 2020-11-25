@@ -2,7 +2,7 @@
   pagetitle="Problem provisioning or managing workspace"
   service="microsoft.machinelearning.workspace"
   resource="machinelearning"
-  ms.author="johwu"
+  ms.author="roastala,johwu"
   selfhelptype="Generic"
   supporttopicids="32690836"
   resourcetags=""
@@ -14,27 +14,36 @@
 
 ## **Recommended Steps**
 
-See the following documents for instructions on provisioning workspaces:
+### **Don't have permission to create the workspace**
 
-* [Using Azure Portal](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace)
-* [Using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Using REST API](https://docs.microsoft.com/azure/machine-learning/how-to-manage-rest)
-* [Using resource manager template](https://docs.microsoft.com/azure/machine-learning/how-to-create-workspace-template?tabs=azcli)
+If you receive a permission failure when creating a workspace:
 
-See the following documents for instructions on advanced workspace settings:
+1. Make sure your role has `Microsoft.MachineLearningServices/workspaces/write` permission.
+2. If this is the first time you are creating a workpsace, also make sure your role has `Microsoft.MachineLearningServices/register/action` permission.
 
-* [Network security](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview) 
-  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype.
+### **Can't select or update to Enterprise SKU**
 
-* [Data encryption](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security#data-encryption) 
-  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype.
+The enterprise SKU for Azure ML has been deprecated. All features will be offered in the basic workspace SKU.
 
-* [Role-based access control (RBAC)](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
-  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype.
+### **Problem with associated resources**
 
-For setting up private endpoints on customer-managed key vaults, container registries, or Kubernetes clusters, see [managing quotas, private endpoints and private DNS quota increases](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#private-endpoint-and-private-dns-quota-increases) and submit your request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
+New associated resources (storage account, key vault, container registry, application insights) are always provisioned with each workspace. The container registry is only provisioned after you submit your first run.
+
+- If you wish to use existing associated resources, you can specify the parameters during workspace creation.
+- If your workspace has a private endpoint, make sure all the associated resources are inside the same virtual network as the workspace.
+- There is currently no support for replacing the associated resources after the workspace has been created.
+
+### **Problem setting up workspace with private endpoint**
+
+If you are having issues with your private link workspace:
+
+1. Ensure all your associated resources (storage accounts, container registry, key vaults) are in the same virtual network as the workspace.
+2. Ensure all compute and data resources are in the same virtual network as the workspace.
+3. Ensure you have private DNS zone quota by submitting a support request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
 
 ## **Recommended Documents**
 
-* [What is an Azure Machine Learning workspace?](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Enterprise security overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
+* [How to create a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace?WT.mc_id=Portal-Microsoft_Azure_Support&tabs=azure-portal)
+* [Network security overview](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview)
+* [Data security overview](https://docs.microsoft.com/azure/machine-learning/how-to-high-availability-machine-learning)
+* [Role-based access control overview](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
