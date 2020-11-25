@@ -18,12 +18,12 @@
 
 ## **Recommended Steps**
 
-- [Steps to configure backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#configure-backup)
-- [How to unregister a SQL server instance](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#unregister-a-sql-server-instance)
-- Steps to [modify backup policy](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#modify-policy) to change backup frequency or retention.
-- [Back up behavior with Always on availability groups](https://docs.microsoft.com/azure/backup/sql-support-matrix#back-up-behavior-with-always-on-availability-groups)
-- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
+- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue) <br>
 - **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
+- [How to configure backup for SQL server in Azure VM?](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#configure-backup)
+- Steps to [modify backup policy](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#modify-policy) to update backup frequency or retention
+- [Back up behavior with Always On availability groups](https://docs.microsoft.com/azure/backup/sql-support-matrix#back-up-behavior-with-always-on-availability-groups)
+- [How to unregister the protected SQL server instance?](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#unregister-a-sql-server-instance)
 
 ## **Recommended Documents**
 
