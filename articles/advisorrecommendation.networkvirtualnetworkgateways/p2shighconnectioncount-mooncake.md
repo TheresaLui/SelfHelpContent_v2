@@ -3,7 +3,7 @@
     description="Consider increasing the size of your VNet Gateway SKU to address high P2S connection count"
     authors="evanba"
     ms.author="evanba"
-    articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Public"
+    articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="CloudNet_AzureVPNGateway"
