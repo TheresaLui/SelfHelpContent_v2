@@ -34,7 +34,7 @@
 	Scope                 : All
 	```
 	
-	* If you have a value defined under SecurityGroupObjectId, it means you need to add your user to the group shows in that field in order to use RMS
+	* If you have a value defined under SecurityGroupObjectId, to use RMS you must add your user to the group that appears in that field 
 	
 	* For more information about RMS OnBoarding policy, see [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)
 
