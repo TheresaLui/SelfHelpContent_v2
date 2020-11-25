@@ -51,5 +51,27 @@ Please use the below dashboards to perform in-depth troubleshooting with any Azu
 3. If sync still has not completely successfully, check to see if the previous sync session's SyncScenario was SnapshotSync. If so, the VSS snapshot is what caused sync to fail. Sync will retry; this is a transient issue that can be ignored.
 4. We want to know if sync has made progress since the last session that was cancelled – it may be that the cancelled session was an ‘upload’ session but the next session which was started is a large ‘download’ session that is still in progress.
 5. To know if the next session is making progress, [query event Id 9302](https://jarvis-west.dc.ad.msft.net/4925DCCC) from the last time event 9102 ended until the current time. If you see the AppliedFileCount and the AppliedSizeBytes numbers going up steadily, which means progress is being made, then sync should succeed soon and this error can be ignored. If these numbers are not increasing, that suggests that the next session is running but nothing is succeeding.
-6. If nothing is succeeding, we should check whether there are many per-item errors causing this session to fail. See the section on troubleshooting per-item errors.
+6. If nothing is succeeding, we should check whether there are many per-item errors causing this session to fail. See the section on troubleshooting per-item errors.<br>
+<br>
+#
+# Escalation
+
+<!--issueDescription-->
+If your issue was not resolved, please use the below options to escalate your issue. <br> 
+<br>
+We suggest using the feedback link below to describe the circumstances of your case so they can be accounted for in future revisions of this TSG.<br>
+<br>
+If this TSG was not able to solve your issue and you are still experiencing issues, please leverage the following resources:<br>
+
+1. Make an AVA Bot post in the Storage SME File Sync Services channel<br>
+2. Get advisement from your TA or peers<br>
+3. Create an IcM to Xstore EEE<br>
+4. If you reached this page by mistake, please click the Start Over button to start the TSG from the beginning. Otherwise, you can close this window.<br>
+
+<!--/issueDescription-->
+
+## Recommended Documents
+
+1. [AVA Channel](https://teams.microsoft.com/l/channel/19%3a359d3e19232242b48286d8076579389f%40thread.skype/File%2520Sync%2520Services%2520-%2520All%2520Topics?groupId=082ae864-dfc1-4ae5-b096-6e1e878b339e&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
+2. [Create an ICM to Xstore EEE](http://aka.ms/cri-xeee)
 <!--/issueDescription-->

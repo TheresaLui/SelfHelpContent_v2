@@ -51,8 +51,30 @@ Please use the below dashboards to perform in-depth troubleshooting with any Azu
 |[Sync Progress & Performance](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSync%252520Progress%252520%252526%252520Performance&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=7RlKn%2FH5K9wmvOCVPFyvjATEjFb58KpXCi8JRA0gFoY%3D&reserved=0)|Used for tracking Sync Progress - both Upload & Download scenarios from SEP as well as Cloud-side Enumeration.            
 |[SEP Health](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSEP%252520Health&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=8WJdLcSrEfIEZysiKDGfR5OyI3WFbRa6QZ7QFYb6zYo%3D&reserved=0)|Used for viewing Agent & Filter details on SEP.
 |[AFS Management](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FAFS%252520Management&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=rXoJTp53%2FkfZLcUhiaImlyAs6r%2FGvnXTSNuHCOSZcco%3D&reserved=0)|Used for viewing AFS Management operations.
-
 <br>
+
+#
+# Escalation
+
+<!--issueDescription-->
+If your issue was not resolved, please use the below options to escalate your issue. <br> 
+<br>
+We suggest using the feedback link below to describe the circumstances of your case so they can be accounted for in future revisions of this TSG.<br>
+<br>
+If this TSG was not able to solve your issue and you are still experiencing issues, please leverage the following resources:<br>
+
+1. Make an AVA Bot post in the Storage SME File Sync Services channel<br>
+2. Get advisement from your TA or peers<br>
+3. Create an IcM to Xstore EEE<br>
+4. If you reached this page by mistake, please click the Start Over button to start the TSG from the beginning. Otherwise, you can close this window.<br>
+
+<!--/issueDescription-->
+
+## Recommended Documents
+
+1. [AVA Channel](https://teams.microsoft.com/l/channel/19%3a359d3e19232242b48286d8076579389f%40thread.skype/File%2520Sync%2520Services%2520-%2520All%2520Topics?groupId=082ae864-dfc1-4ae5-b096-6e1e878b339e&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
+2. [Create an ICM to Xstore EEE](http://aka.ms/cri-xeee)
+<!--/issueDescription-->
 
 <!--/issueDescription-->
 
