@@ -10,13 +10,13 @@
   cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
   articleid="protectopencontent_cantapplyprotection"
   ownershipid="AzureIdentity_InformationProtection" />
-# Azure Information Protection client - Unable to apply a protection label
+# Unable to apply a protection label in Azure Information Protection client
 
 ## **Recommended Steps**
 
-1. If you created a new label that applies protection, it can take up to 24 hours for a computer running the Azure Information Protection client to get these changed settings.
-2. If you waited 24 hours and still can't apply this label, select **Help and feedback** from the **Protect/Sensitivity** button on the Office ribbon, then **reset settings**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
-3. If you have never used AIP before, please verify your OnBoarding policy is set correctly:
+1. If you created a new label that applies protection, it can take up to 24 hours for a computer running the Azure Information Protection client to get the changed settings.
+2. If you waited 24 hours and still can't apply this label, select **Help and feedback** from the **Protect/Sensitivity** button on the Office ribbon, then **Reset settings**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management Service (RMS).
+3. If you have never used Azure Information Protection before, verify that your OnBoarding policy is set correctly:
 
 	* Open a PowerShell session as administration and run the below commands:
 	
@@ -36,19 +36,19 @@
 	
 	* If you have a value defined under SecurityGroupObjectId, it means you need to add your user to the group shows in that field in order to use RMS
 	
-	* More information about RMS OnBoarding policy can be found here: [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)
+	* For more information about RMS OnBoarding policy, see [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)
 
-4. Verify that you are trying to apply label for a supported file type and that the file is not password protected: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default)
-5. If you are installing on Office 2010, make sure you have defined ServiceLocation parameter [as shown here](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#to-install-the-azure-information-protection-client-by-using-the-executable-installer)
-6. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
+4. Verify that you are trying to apply a label for a supported file type and that the file is not password protected. See [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default).
+5. If you are installing on Office 2010, make sure that you have defined the ServiceLocation parameter [as shown here](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#to-install-the-azure-information-protection-client-by-using-the-executable-installer)
+6. Azure Information Protection does not support having multiple versions of Office installed or multiple users signed in to Office. Log out all users from Office and try again. See [requirements](https://docs.microsoft.com/azure/information-protection/requirements#applications)
 7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook
-2. Select the **Protect** or **Sensitivity** button -> **Help and feedback**
+2. Select the **Protect** or **Sensitivity** button, and **Help and feedback**
 3. Select **Export Logs**
-4. Save the logs to your choice of location, and attach them to this service request
+4. Save the logs to your local disk, and then attach them to the service request
 
 ## **Recommended Documents**
 
