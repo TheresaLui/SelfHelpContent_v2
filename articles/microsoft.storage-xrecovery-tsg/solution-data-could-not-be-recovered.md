@@ -3,15 +3,15 @@
 	description="Data could not be recovered"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="5128c569-c5ec-4ff2-9609-452903ae6d35"
 />
 

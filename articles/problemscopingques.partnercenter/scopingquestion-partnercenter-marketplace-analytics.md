@@ -35,8 +35,9 @@
 	   "id": "pc_isv_seller_id",
 	   "order": 2,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "displayLabel": "Seller ID",
+	   "watermarkText": "Please provide the Seller ID",
+	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
        },
        {
