@@ -19,14 +19,14 @@
 
 ## **Recommended Steps**
 
-* Login issue getting error: 
+* When logging in, you may encounter this login error: 
   
   ```
   We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
   ```
-  A workaround would be to either open a new tab in google chrome or close the browser and erase its history.
+  To work around this problem, open a new tab in Google Chrome, or close the browser and erase its history.
 
-  If this doesn't help, there would be an ongoing maintenance or outages. Please check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+  If this does not resolve your issue, understand that we have ongoing maintenance or outages to resolve these kinds of errors. Check the [Databricks status page](https://status.azuredatabricks.net/).
   
 ## **Recommended Documents**
 
