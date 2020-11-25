@@ -27,4 +27,4 @@ Most users can resolve issues concerning **Unable to failover AG** by using the 
 ## **Recommended Steps** 
 
 - Ensure that the **[ NT AUTHORITY\SYSTEM account is granted required privilege](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** on all the replicas of the AG.
-- Watch from the cluster manager while you do the failover. Does the IP address and Network name come online? If not, please resolve the IP or network name issues.
+- Watch from the cluster manager while you do the failover. Do the IP address and network name come online? If not, resolve the IP or network name issues.
