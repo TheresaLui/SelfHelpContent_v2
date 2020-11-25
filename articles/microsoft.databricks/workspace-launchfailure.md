@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* When logging in, you may encounter this login error: 
+* When signing in, you may encounter the following error: 
   
   ```
   We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
