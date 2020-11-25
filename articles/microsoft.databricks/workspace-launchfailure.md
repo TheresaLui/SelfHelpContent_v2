@@ -27,7 +27,7 @@
   To work around this problem, open a new tab in Google Chrome, or close the browser and erase its history.
 If this does not resolve your issue, understand that we have ongoing maintenance or outages to resolve these kinds of errors. Check the [Databricks status page](https://status.azuredatabricks.net/).
 
-* If you are unable to launch or access the Azure Databricks workspace due to error "User does not have Contributor or Owner role", the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** role. [See the full instructions](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). Add each user individually; adding an AD group is not supported.
+* If you are unable to launch or access the Azure Databricks workspace due to error "User does not have Contributor or Owner role", the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** role. Make sure to add each user individually, as adding an AD group is not supported. [See the full instructions](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). 
   
 ## **Recommended Documents**
 
