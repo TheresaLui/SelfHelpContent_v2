@@ -20,11 +20,11 @@
 
 **Common error codes**
 - **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). 
-- **VMNotInRunningStateUserError**: [Ensure SQL Server is running](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)</br>
-- **FabricSvcBackupPreferenceCheckFailedUserError**: [Backup preference for SQL Always On Availability Group cannot be met because some nodes of the Availability Group are not registered](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror)<br>
-- **VMNotInRunningStateUserError**: [SQL Server VM is either shut down or not accessible to Azure Backup service](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)<br>
-- **GuestAgentStatusUnavailableUserError**: [Azure Backup service uses Azure VM guest agent for doing backup, but guest agent is not available on the target server](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
-- **AutoProtectionCancelledOrNotValid**: [Auto-protection Intent was either removed or is no longer valid](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid)
+- **VMNotInRunningStateUserError** - [Ensure SQL Server is running](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)</br>
+- **FabricSvcBackupPreferenceCheckFailedUserError** - [Backup preference for SQL Always On Availability Group cannot be met because some nodes of the Availability Group are not registered](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror)<br>
+- **VMNotInRunningStateUserError** - [SQL Server VM is either shut down or not accessible to Azure Backup service](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)<br>
+- **GuestAgentStatusUnavailableUserError** - [Azure Backup service uses Azure VM guest agent for doing backup, but guest agent is not available on the target server](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
+- **AutoProtectionCancelledOrNotValid** - [Auto-protection Intent was either removed or is no longer valid](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid)
 
 **Common questions**
 - [Cannot discover VM? Check if the VM is registered to a different vault, unregistered it from the old Vault by following these [steps](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#unregister-a-sql-server-instance) then register it again to a new Vault.
