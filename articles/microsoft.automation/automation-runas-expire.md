@@ -17,19 +17,19 @@ The Self-Signed certificate created for Run As/Classic Run As account expires on
 
 ### **Check Permissions required to renew or recreate Run As/Classic Run As account**
 
-* In order to manage Run As/Classic Run As accounts, you will need permissions as listed at [Permissions Required to Manage Run As/Classic Run As Accounts](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
+* In order to manage Run As/Classic Run As accounts, you will need permissions. See [Permissions Required to Manage Run As/Classic Run As Accounts](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
 
-### **Steps for renewing Self-Signed Certificate**
+### **Steps for renewing a Self-Signed Certificate**
 
 * Before your Run As/Classic Run As certificate expires, you can renew it by following the [Cert Renewal Instructions](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
 
-### **Steps for Re-creating Run As/Classic Run As Account**
+### **Steps for re-creating a Run As/Classic Run As Account**
 
-* After your Run As/Classic Run As certificate expires, you will have to delete it and create a new one by following the instructions to [Delete and Re-create an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
+* After your Run As/Classic Run As certificate expires, you must delete it and create a new one by following the instructions to [Delete and Re-create an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
 
 If you are not able to renew or re-create Run As/Classic Run As account by following the steps above, see the following sections.
 
-### **Run As/Classic Run As account greyed out**
+### **Run As/Classic Run As account is dimmed**
 
 * Run As and Classic Run As accounts are grayed out when you do not have sufficient permissions. Check out the [Permissions required to Manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
 
