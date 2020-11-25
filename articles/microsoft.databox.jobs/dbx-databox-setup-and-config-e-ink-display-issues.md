@@ -16,7 +16,7 @@
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
-# Data Box setup and configuration
+# Azure Data Box setup and configuration
 
 **The E-ink display has an issue**
 
