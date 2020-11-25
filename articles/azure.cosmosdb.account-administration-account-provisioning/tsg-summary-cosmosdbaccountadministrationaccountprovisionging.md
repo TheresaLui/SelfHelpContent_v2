@@ -13,6 +13,6 @@
             articleId="85e9709c-94dc-48be-8cf8-8d2b37419757"
             ownershipId="AzureData_AzureCosmosDB" />
 
-# [Big Data] CosmosDB- Account Administration-Account provisioning
+# CosmosDB- Account Administration-Account provisioning
 
 This troubleshooter will guide you to find the root cause and resolution for Cosmos DB Account Administration-Account provisioning.
