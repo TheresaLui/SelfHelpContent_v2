@@ -5,7 +5,7 @@
     ms.author="alau-ms"
     articleId="661dd0c2-5d39-4cfb-ba57-59808643e36d_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Change log_error_verbosity to improve PostgreSQL database performance
