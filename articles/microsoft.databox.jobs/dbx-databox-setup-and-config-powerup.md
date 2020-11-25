@@ -16,17 +16,17 @@
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
-# Data Box setup and configuration
+# Azure Data Box setup and configuration
 
 ## My Data Box doesn't power up
 
-1. Make sure that the Data Box front and the rear doors are open for proper airflow
+1. Make sure that the Data Box front and rear doors are open for proper airflow
 2. If the system fault indicator on the front operating panel is on, try moving the device to a different location with better ventilation and airflow
-3. Check the environment temperature is within the operating temperature range for this device. For more information, see [Data Box safety](https://docs.microsoft.com/azure/databox/data-box-safety)
+3. Determine whether the environment temperature is within the operating temperature range for this device. For more information, see [Data Box safety](https://docs.microsoft.com/azure/databox/data-box-safety).
 
-If the issue persists and you are unable to power on the device, continue to log a support ticket.
+If the issue persists and you are unable to turn on the device, continue to log a support ticket.
 
 ## **Recommended Documents**
 
-* [Data Box set up](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up#cable-your-device)<br>
+* [Data Box setup](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up#cable-your-device)<br>
 * [Data Box FAQ - Configure and connect](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
