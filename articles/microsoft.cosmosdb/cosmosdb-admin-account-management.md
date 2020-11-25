@@ -6,7 +6,7 @@
 	authors="markjbrown"
 	ms.author="mjbrown"
 	selfHelpType="generic"
-	supportTopicIds="32636765, 32681011"
+	supportTopicIds="32636765"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
