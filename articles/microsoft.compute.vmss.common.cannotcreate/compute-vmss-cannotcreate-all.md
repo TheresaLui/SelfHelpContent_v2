@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641072"
+	supportTopicIds="32641072,32641097,32641100,32641103,32641104,32641119,32641128,32641147,32641148"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,13 +15,9 @@
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
-## **Awareness**
-
->We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+# Cannot create a Scale Set
 
 ## **Recommended Steps**
-
->If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

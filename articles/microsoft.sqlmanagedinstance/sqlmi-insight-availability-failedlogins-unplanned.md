@@ -8,9 +8,9 @@
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sqlmi-availability-rca-unplanned"
-	diagnosticScenario="sqlmi-availability-rca-unplanned"
+	diagnosticScenario="SqlMIAvailability"
 	selfHelpType="diagnostics"
-	supportTopicIds="32739488,32637246,32637259,32637254"
+	supportTopicIds="32746119,32746120,32746121,32746125,32746127,32746128"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
@@ -18,7 +18,7 @@
 />
 # Failed logins due to unplanned operation(s)
 
-## ** Failed logins due to unplanned operation(s) **
+## **Failed logins due to unplanned operation(s)**
 <!--issueDescription-->
 We ran diagnostics on instance **<!--$ServerName-->ServerName<!--/$ServerName-->** between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found failed login(s) caused by reconfiguration(s) due to **unplanned operation(s)**.  
 <br>

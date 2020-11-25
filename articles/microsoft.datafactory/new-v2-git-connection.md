@@ -1,26 +1,21 @@
 <properties
-	pageTitle="Connect to Git Repository"
-	description="Connect to Git Repository from ADF Portal"
-	infoBubbleText=""
-	authors="chez-charlie"
-	ms.author="chez"
-	articleId="fa4bf4772808490c928247f53858e614"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32629453, 32629524, 32629447"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="Connect to Git Repository&#xD;"
+  ms.author="chez,haoc"
+  selfhelptype="Generic"
+  supporttopicids="32629453,32629524,32629447"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="fa4bf4772808490c928247f53858e614"
+  ownershipid="AzureData_DataFactory" />
 # Connect to Git Repository
 
 ## **Recommended Steps**
 
-1. You can create an Azure Repos Git repo in a different Azure Active Directory tenant. To specify a different Azure AD tenant, you have to have _administrator_ permissions for the Azure subscription that you're using. <br>
-2. As of today, Bitbucket is not supported in Azure Data Factory <br>
-3. Git publishing does _not_ allow for cherry picking or selective publishing subset of changes. To publish individual changes in production environment, please consider Hot fix or QFE [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch)
+1. You can create an Azure Repos Git repo in a different Azure Active Directory tenant. To specify a different Azure AD tenant, you need to have Administrator permissions for the Azure subscription that you're using. 
+2. As of today, Bitbucket and Gitlab are not supported in Azure Data Factory 
+3. Git publishing **does not allow** for selective publishing subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking QFE [steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
+4. Github has a known limitation that a maximum of 1,000 entities per resource type (such as pipelines, datasets, triggers) can be fetched from a single Github branch. If this limit is reached, split your resources into separate factories. Azure DevOps Git does not have this limitation. 
 
 ## **Recommended Documents**
 
@@ -40,7 +35,7 @@
 
 * Continuous integration and delivery [CI/CD](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment)
 
-  * [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD __please read__ <br>
+  * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD  <br>
   * Hot Fix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) <br>
   * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features) <br>
 
