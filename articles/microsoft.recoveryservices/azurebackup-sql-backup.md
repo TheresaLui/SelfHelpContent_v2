@@ -22,6 +22,7 @@
 **Common error codes**
 - **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
 - **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
+- **GuestAgentStatusUnavailableUserError** - Follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
 - **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
 - **UserErrorSQLPODoesNotSupportBackupType** - This SQL database does not support the requested backup type. [List of supported and unsupported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
 - **UserErrorSQLPODoesNotExist** - SQL database does not exist. Follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
