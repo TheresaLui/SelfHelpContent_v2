@@ -12,7 +12,7 @@
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
-# PREVIEW: Scoping questions for AAD Connect
+# Scoping questions for AAD Connect
 ---
 {
     "subscriptionRequired": false,
