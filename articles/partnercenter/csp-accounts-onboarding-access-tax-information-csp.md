@@ -32,6 +32,8 @@ Common Tax Forms needed to set up Microsoft in your Accounts Payable system:
 * [US](https://assetsprod.microsoft.com/mpn/1010-microsoft-corporation-2020-w-9-signed.pdf)
 * [Canada](https://assetsprod.microsoft.com/mpn/w-8Ben-e1075-ms-canada-Inc.pdf)
 * [EMEA](https://assetsprod.microsoft.com/mpn/microsoft-ireland-operations-ltd-2020.pdf) 
+* [India](https://assetsprod.microsoft.com/mpn/mrs-tax-documents-india.pdf)
+* [Indonesia](https://assetsprod.microsoft.com/mpn/2020-dgt-form-for-mrspl-indonesia.pdf)
 
 ## **Recommended Documents**
 

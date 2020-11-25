@@ -20,8 +20,7 @@
 
 # Product Feature and deployment questions
 
-**Please Note**
-- CSP partner support is not the best place to ask these questions, instead utilize your MPN Benefits to ask questions using your MPN technical presales and deployment services benefits.
+CSP partner support is not the best place to ask these questions, instead utilize your MPN Benefits to ask questions using your MPN technical presales and deployment services benefits.
 
 ## **Recommended Steps**
 

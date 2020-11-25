@@ -8,7 +8,7 @@
   ms.author="subbuk, swbharti"
   displayOrder=""
   articleId="GatewayMigration_257E0082-CAC5-4934-812E-AC8DA79D9318"
-  diagnosticScenario="crc_sqldb_connectivity"
+  diagnosticScenario="SqlConnectivity"
   selfHelpType="diagnostics"
   supportTopicIds="32630429, 32635195"
   resourceTags=""
