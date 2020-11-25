@@ -9,10 +9,10 @@
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="DevDivAzServices_SpringCloud"
 />
-# Key Vault SDK Version Recommendation
+# Spring Cloud SDK Version Recommendation
 ---
 {
-	"recommendationOfferingId": "997d7803-aa34-419e-8c09-d7cd8a4ceff2", //found here: https://servicetree.msftcloudes.com/?pathSet=true#/ServiceModel/Service/Profile/997d7803-aa34-419e-8c09-d7cd8a4ceff2?UpdateNav=false
+	"recommendationOfferingId": "997d7803-aa34-419e-8c09-d7cd8a4ceff2",
 	"recommendationOfferingName": "Azure Spring Cloud",
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "64f45690-9b55-457f-ba91-9c02353ffa2a",
@@ -23,13 +23,13 @@
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
-	"recommendationResourceType": "Microsoft.AppPlatform/Spring", //it could be found in the created spring cloud resouce
+	"recommendationResourceType": "Microsoft.AppPlatform/Spring", 
 	"recommendationFriendlyName": "UpgradeStaleSDK",
 	"recommendationMetadataState": "Active",
 	"owner": {
 		"email": "lipinggao@microsoft.com",
 		"icm": {
-			"routingId": "AZUREDISTRIBUTEDMANAGEDSERVICEFORSPRING\AzDMSS-Triage",
+			"routingId": "AZUREDISTRIBUTEDMANAGEDSERVICEFORSPRING\\AzDMSS-Triage",
 			"service": "Azure Spring Cloud",
 			"team": "Azure Spring Cloud"
 		},
@@ -37,7 +37,7 @@
 	},
 	"version": 1,
 	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/general/client-libraries",
-	"description": "Update Key Vault SDK Version",
+	"description": "Update Spring Cloud SDK Version",
 	"longDescription": "New Key Vault Client Libraries are split to keys, secrets, and certificates SDKs, which are integrated with recommended Azure Identity library to provide seamless authentication to Key Vault across all languages and environments. It also contains several performance fixes to issues reported by customers and proactively identified through our QA process.<br><br>**PLEASE DISMISS:**<br>If Key Vault is integrated with Azure Storage, Disk or other Azure services which can use old Key Vault SDK and when all your current custom applications are using .NET SDK 4.0 or above.",
 	"potentialBenefits": "Latest Key Vault Client Libraries contain fixes for known issues and additional improvements.",
 	"supportedSDKLanguages": [".Net"],
