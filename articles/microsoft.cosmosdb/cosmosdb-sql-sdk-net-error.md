@@ -65,6 +65,11 @@ For more information, see [Handle rate limiting/request rate too large](https://
 **449 Retry With**
 <br>This is an expected response that indicates that there were concurrent operations trying to modify the same document. It is safe to retry. If the error is happening during stored procedure executions, decreasing the degree of parallelism of the executions will also reduce the occurrence.
 
+
+**404 NotFoundException: The read session is not available for the input session token**
+<br>Please update your SDK to a version higher than 2.12.0 if using the V2 SDK or 3.15.0 if using the V3 SDK.
+
+
 **404 Not found**
 <br>The HTTP status code 404 represents that the resource no longer exists.
 * See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
