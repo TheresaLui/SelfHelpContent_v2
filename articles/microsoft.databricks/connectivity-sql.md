@@ -21,7 +21,7 @@
 
 * **Problem**
 
-  Cosmos DB account firewall is blocking Databricks requests getting error:
+ The Cosmos DB account firewall is blocking Databricks requests, resulting in the following error:
 
   ```
   Uncaught throwable from user code: com.microsoft.azure.documentdb.DocumentClientException: Request originated from client IP xx.xx.xxx.xxx through public internet. This is blocked by your Cosmos DB account firewall settings.
@@ -29,14 +29,14 @@
   
   **Solution**
   
-  * **VNet injected workspace** - doublecheck your Cosmos DB account firewall settings and add the service endpoint for Databricks VNet and subnet.
-  * **Non VNet injected workspace** - as Azure IP ranges are periodically refreshed in the configuration, please make sure to add Databricks service IP range to your Cosmos DB account firewall settings. 
+  * **VNet injected workspace** - Doublec-heck your Cosmos DB account firewall settings and add the service endpoint for Databricks VNet and subnet.
+  * **Non VNet injected workspace** - Azure IP ranges are periodically refreshed in the configuration, so make sure to add tje Databricks service IP range to your Cosmos DB account firewall settings. 
   
-     * Check the [new IP ranges with Azure IP ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) - this file contains the IP address ranges for Public Azure as a whole, each Azure region within Public, and ranges for several Azure Services (Service Tags) in Public. This is updated weekly. New ranges appearing in the file will not be used in Azure for at least one week. Please download the new json file every week and perform the necessary changes at your site to correctly identify services running in Azure. 
+     * Check the [new IP ranges with Azure IP ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519). This file contains the IP address ranges for Public Azure as a whole, each Azure region within Public, and ranges for several Azure Services (Service Tags) in Public. This file is updated weekly. New ranges appearing in the file will not be used in Azure for at least one week. Download the new JSON file every week and perform the necessary changes at your site to correctly identify services running in Azure. 
      
-     * Cosmos DB team are working on improvements for this specific issue which would eliminate the lag in updating the IP ranges in Cosmos configuration used to evaluate Azure IP ranges. These improvements require substantial changes and will be in production in February 2021.  
+     * The Cosmos DB team is working on improvements for this issue that will eliminate the lag in updating the IP ranges in Cosmos configuration used to evaluate Azure IP ranges. These improvements require substantial changes and will be in production in February 2021.  
      
-     * A **recommended** workaround would be to create a new VNet injected workspace and add the service endpoint for its VNet and subnet in Cosmos DB account firewall settings.
+     * A **recommended** workaround: Create a new VNet injected workspace and add the service endpoint for its VNet and subnet in Cosmos DB account firewall settings.
       
   
 * **Problem**
@@ -53,7 +53,7 @@
   
   **Solution**
   
-  Follow steps 1 and 3 [on this page](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
+  Follow [steps 1 and 3 on this page](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
 
 * **Problem**
   
@@ -69,7 +69,7 @@
   
   **Solution**
   
-  Whitelist the required ports by setting a Spark configuration in the cluster. Make sure to open port 1433 and ports between 11000 and 11999.
+  Whitelist the required ports by setting a Spark configuration in the cluster. Make sure to open port 1433 and ports between 11000 and 11999:
   
   ```
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
