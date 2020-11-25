@@ -27,11 +27,14 @@
 - **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
 
 **Common questions**
-- [Can I control how many concurrent backups run on SQL Server?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-control-how-many-concurrent-backups-run-on-the-sql-server) </br>
-- [Are newly added databases automatically added for backup?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#are-future-databases-automatically-added-for-backup)</br>
+- [Can I control how many concurrent backups run on SQL Server?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-control-how-many-concurrent-backups-run-on-the-sql-server)
+- [Are newly added databases automatically added for backup?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#are-future-databases-automatically-added-for-backup)
 - [Can I protect Availability Groups across regions?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-protect-availability-groups-across-regions)</br>
+- [Back up behavior with Always on availability groups](https://docs.microsoft.com/azure/backup/sql-support-matrix#back-up-behavior-with-always-on-availability-groups)
+- [Troubleshoot discover and configure issues](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#troubleshoot-discover-and-configure-issues)
 
 ## **Recommended Documents**
 
 - [FAQs](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
 - [Troubleshooting issues related to backing up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [Troubleshoot re-registration failures](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)
