@@ -20,9 +20,9 @@
 
 **The E-ink display has an issue**
 
-Ensure that prepare to ship has run successfully on the Data Box device without any critical errors. This is a mandatory step before the device can be shipped back to Azure. Once prepare to ship completes, the e-ink display will automatically change to display the return shipping address.
+Ensure that the prepare to ship command has run successfully on the Data Box device without any critical errors. This is a mandatory step before the device can be returned. After prepare to ship completes, the E-ink display automatically changes to show the return shipping address.
 
-In case of any issues with the e-ink display, continue to log a support ticket. After getting a confirmation from Microsoft Support, the label can be downloaded from the Azure portal under Overview -> Download shipping label. You will need to package the box and affix the printed paper label in order to ship the device back.
+In case of any issues with the e-ink display, continue to log a support ticket. After you receive a confirmation from Microsoft Support, download the label from the Azure portal under **Overview** > **Download shipping label**. To ship the device back, prepare it for shipping and affix the printed paper label.
 
 ## **Recommended Documents**
 * [Returning the Data Box with E-ink display issues](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back)<br>
