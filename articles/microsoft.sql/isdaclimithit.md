@@ -8,7 +8,7 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="IsDACLimitHit_305D2B89-1F46-4FD7-B654-1F51C08F26C1"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414,3260429"
 	resourceTags=""
