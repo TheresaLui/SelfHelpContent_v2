@@ -17,6 +17,10 @@
 
 # Diagnose and resolve issues with connectivity to Databricks cluster
 
+## **Recommended Steps**
+
+* The Azure Databricks connector integrated in Power BI Desktop is in [Public Preview](https://powerbi.microsoft.com/blog/announcing-power-bi-connector-to-azure-databricks-public-preview/). Please make sure to upgrade Power BI Desktop to version 2.85.681.0 and above to use it.
+
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes

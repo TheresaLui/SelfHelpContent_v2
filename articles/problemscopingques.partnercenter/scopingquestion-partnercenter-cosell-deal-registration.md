@@ -24,7 +24,7 @@
             "id": "referral_or_engagement_ID",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Referral or Engagement ID (*mandatory for IP Co-sell program)",
+            "displayLabel": "Referral or Engagement ID (mandatory for IP Co-sell program)",
             "watermarkText": "Please provide referral or engagement ID.",
             "required": false
         },
@@ -32,8 +32,9 @@
             "id": "seller_ID",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Please provide the seller ID.",
-            "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+            "displayLabel": "Seller ID.",
+            "watermarkText": "Please provide the Seller ID",
+	    "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
             "required": false
         },
         {
