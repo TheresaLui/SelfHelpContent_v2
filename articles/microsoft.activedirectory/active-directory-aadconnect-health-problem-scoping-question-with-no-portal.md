@@ -5,7 +5,7 @@
     ms.author="rachundi"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32689664,32689665,32689666,32689668,32684522,32684507,32684508,32684512,32684521"
-    productPesIds="16666,16576"
+    productPesIds="16666"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="072411aa-a26c-492d-8399-05bb98639bae"
