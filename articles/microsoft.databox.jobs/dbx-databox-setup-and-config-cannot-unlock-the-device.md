@@ -16,17 +16,17 @@
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
-# Data Box setup and configuration
+# Azure Data Box setup and configuration
 
 **Can't unlock the Data Box**
 
-Ensure that the device unlock credentials are correct. This information can be found in the Azure portal under 'Device details'. 
+Ensure that the device unlock credentials are correct. This information can be found in the Azure portal under **Device details**. 
 
 
 ## **Recommended Documents**
 
 * [Data Box FAQ - Configure and connect](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)
-* [Data Box set up](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)
+* [Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)
 
 
 
