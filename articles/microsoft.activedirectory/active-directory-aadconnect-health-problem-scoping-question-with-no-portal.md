@@ -59,6 +59,15 @@
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
             "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
