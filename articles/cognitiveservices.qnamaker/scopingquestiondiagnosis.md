@@ -19,6 +19,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
+  "subscriptionRequired": true,
   "formElements":
   [
   {
@@ -37,11 +38,11 @@
       [{
             "value": "AllowCustomerDataAccess",
             "text": "Allow Azure support to gather diagnostic information from your Azure resource."
-        }, 
+        },
         {
             "value": "DonotAllowCustomerDataAccess",
             "text": "Do not share diagnostic information."
-        },
+        }
       ],
     "required": true
     },
