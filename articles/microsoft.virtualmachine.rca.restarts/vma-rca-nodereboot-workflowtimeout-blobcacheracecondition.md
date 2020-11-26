@@ -2,8 +2,8 @@
 	pageTitle="VMA RCA"
 	description="RCA - Node Reboot - VWorkflow timeout - Blob Cache Race Condition"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
@@ -18,21 +18,44 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+## **VM Availability**
 <!--issueDescription-->
-We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an Azure initiated host node reboot action. During these activities RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was due to a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation.  Our platform engineers have identified the required fixes for this issue and tracking them with priority to get them deployed.
+<!--rcaDescription-->
+### *Root Cause*
+> > We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was due to a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation.
+> 
 
-We apologize for any inconvenience this may have caused to you.
+<!--resolutionDetails-->
+### *Resolution*
+> VM Services were restored following the reboot.
+> 
+<!--/resolutionDetails-->
 
-Microsoft Azure Team
-<br>
+<!--additionalInfo-->
+### *Additional Information*
+> Our platform engineers have identified the required fixes for this issue and tracking them with priority to get them deployed.
+> 
+<!--/additionalInfo-->
+<!--/rcaDescription-->
 
-To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
-
+<!--recommendedActions-->
 ## **Recommended Documents**
 
-* [Manage the availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
-* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> *Learn more about:*
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> 
+<!--/recommendedActions-->
+
+
+<!--salutation-->
+We apologize for any inconvenience this may have caused you. 
+
+Microsoft Azure Team
+<!--/salutation-->
