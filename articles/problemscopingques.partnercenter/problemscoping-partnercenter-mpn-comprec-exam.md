@@ -26,10 +26,7 @@
        "id": "learn_more_text",
        "order": 1,
        "controlType": "infoblock",
-       "content": "Guidance on where to find or how to obtain the files needed to be uploaded:
-The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu.
-The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>).
-Needed steps for the screenshot provided by the user from "My profile" showing the completed association can be find <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
+       "content": "Guidance on where to find or how to obtain the files needed to be uploaded: The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu. The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>). Needed steps for the screenshot provided by the user from "My profile" showing the completed association can be find <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
        },
        {
 	   "id": "mpn_support_level",
@@ -295,7 +292,7 @@ Needed steps for the screenshot provided by the user from "My profile" showing t
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about your issue",
-       "infoBalloonText": "If your problem is related to usage or azure consumption, net new customers, revenue or performance recognition (etc), please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=76e2d30e-8fa5-c90d-725c-4a999092cfa5'>Competency revenue - performance recognition</a> template. To better understand and learn more about competencies and their requirements before attaining them please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template.",
+       "infoBalloonText": "If your problem is related to usage or azure consumption, net new customers, revenue or performance recognition (etc), please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=76e2d30e-8fa5-c90d-725c-4a999092cfa5'>Competency revenue - performance recognition</a> template. To better understand and learn more about competencies and their requirements before attaining them or submit a ticket on this topic please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template.",
 	   "required": true,
 	   "useAsAdditionalDetails": true
        },
