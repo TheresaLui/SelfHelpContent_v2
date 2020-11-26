@@ -19,7 +19,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://lgacluster.westus.kusto.windows.net').database('lga-db').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
-		"refreshInterval": "1.00:00:00"
+		"refreshInterval": "0.00:10:00"
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
