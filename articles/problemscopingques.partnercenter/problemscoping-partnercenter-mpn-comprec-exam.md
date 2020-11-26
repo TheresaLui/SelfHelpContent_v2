@@ -12,21 +12,21 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
-# Competency recognition for exams or assessments Issues
+# Competency recognition for exams or assessments issues
 
 ---
 {
    "$schema": "SelfHelpContent",
    "resourceRequired": true,
    "subscriptionRequired": true,
-   "title": "Competency recognition for exams or assessments Issues",
-   "fileAttachmentHint": "To help us better understand your issue please upload the Partner Center User report, a screenshot provided by the user from "My profile" showing the completed association, the MCP transcript and the Assessment proof",
+   "title": "Competency recognition for exams or assessments issues",
+   "fileAttachmentHint": "To help us better understand your issue please upload the Partner Center User report, a screenshot provided by the user from My profile showing the completed association, the MCP transcript and the Assessment proof",
    "formElements": [
        {
        "id": "learn_more_text",
        "order": 1,
        "controlType": "infoblock",
-       "content": "Guidance on where to find or how to obtain the files needed to be uploaded: The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu. The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>). Needed steps for the screenshot provided by the user from "My profile" showing the completed association can be find <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
+       "content": "Guidance on where to find or how to obtain the files needed to be uploaded: The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu. The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>). Needed steps for the screenshot provided by the user from My profile showing the completed association can be find <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
        },
        {
 	   "id": "mpn_support_level",
