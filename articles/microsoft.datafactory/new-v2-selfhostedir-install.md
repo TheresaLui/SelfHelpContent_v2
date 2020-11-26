@@ -1,6 +1,6 @@
 <properties
   pagetitle="Integration Runtime Express Setup Issue&#xD;"
-  ms.author="chez,lle"
+  ms.author="lle"
   selfhelptype="Generic"
   supporttopicids="32629536"
   resourcetags=""
@@ -20,8 +20,8 @@
 
 ### **Common errors and solutions**
 
-* **Install Self-hosted Integration Runtime version 5.x**: For the upgrade to version 5.x of Azure Data Factory Self-hosted integration runtime, we require .NET framework runtime 4.7.2 or above. Follow in this [self-hosted IR Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#self-hosted-integration-runtime-version-5x) for more details.
-  
+* **Install Self-hosted Integration Runtime version 5.x**: For the upgrade to version 5.x of Azure Data Factory Self-hosted integration runtime, we require .NET framework runtime 4.7.2 or above. Follow in this [self-hosted IR Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#self-hosted-integration-runtime-version-5x) for more details.
+
 * **Integration Runtime registration error**: After changing the _service account_ in the Service Panel, you may find that the Integration Runtime stops working. Follow the steps mentioned in this [self-hosted IR Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#self-hosted-ir-setup) to troubleshoot and resolve this error.
   
 * **Integration Runtime (Self-Hosted) Node is not registered** - The __Register__ button could not be found on the Configuration Manager UI when registering a Self-hosted IR.
