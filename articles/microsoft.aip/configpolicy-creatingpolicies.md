@@ -17,7 +17,7 @@
 
 # Azure Information Protection client - Creating and configuring Labels and Policies - Creating Policies"
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://aka.ms/aipclassicsunset).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
