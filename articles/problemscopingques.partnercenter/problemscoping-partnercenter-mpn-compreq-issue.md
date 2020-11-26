@@ -188,7 +188,7 @@
 		   "text": "Deployment Partner Option"
 	       },
 	       {
-		   "value": "devops-partner",
+		   "value": "devops_partner",
 		   "text": "DevOps Partner Option"
 	       },
 	       {
@@ -284,7 +284,7 @@
 		   "text": "Not sure"
 	       }
 	       ],
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "competency_requirement",
@@ -360,6 +360,10 @@
 	       {
 		   "value": "spla_csp_revenue",
 		   "text": "SPLA and CSP Revenue"
+	       },
+	       {
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
 	       }
 	       ],
 	   "required": true
@@ -369,7 +373,7 @@
 	   "order": 6,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
-	   "watermarkText": "Please describe the help needed. Note that this template is used for “how to - what should I do” related questions.",
+	   "watermarkText": "Please describe the help needed. Note that this template is used for: how to - what should I do - related questions.",
        "infoBalloonText": "In case there are discrepancies or issues with your exams and assessments please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=81a7ef29-22ef-20d8-5c4f-206c65c9a424'>Competency recognition for exams or assessments</a> template to submit your request. If your problem is related to usage or azure consumption, net new customers, revenue or performance recognition (etc), please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=76e2d30e-8fa5-c90d-725c-4a999092cfa5'>Competency revenue - performance recognition</a> template",
 	   "required": true,
 	   "useAsAdditionalDetails": true
