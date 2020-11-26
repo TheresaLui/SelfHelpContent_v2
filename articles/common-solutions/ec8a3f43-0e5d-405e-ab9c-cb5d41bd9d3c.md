@@ -14,7 +14,7 @@
 
 ## **Recommended Steps** 
 
-### **Delete Log Analytics workspace**
+### **Delete a Log Analytics workspace**
 
 There are two different ways to delete a Log Analytics workspace:
 
@@ -29,8 +29,8 @@ Keep the following points in mind:
 
 ### **Create a Log Analytics workspace**
 
-* You must have Log Analytics Contributor permissions to create an Log Analytics workspace
-* You can create Log Analytics workspace in any of the supported [regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all)
+* You must have Log Analytics Contributor permissions to create a Log Analytics workspace
+* You can create a Log Analytics workspace in any of the supported [regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all)
 * If you get the error message "This workspace name is already in use" when creating a workspace, it could be due to one of the following reasons:
 	
 	* The workspace name isn't available and is being used
