@@ -32,11 +32,11 @@ The following charts can help you to narrow down the time frames when the Authen
 <client>ASC,Portal</client>
 </metric>
 
-## Finding Authentication and Authorization failure occrences 
+## Finding Authentication and Authorization failure occurrences 
 
 <Insight>
 <symptomId>StorageFailureTransactionInsightLight</symptomId>
-<executionText>We are running a quick check to find the authentication or authorization failure occurences on the storage account</executionText>
+<executionText>We are running a quick check to find the authentication or authorization failure occurrences on the storage account</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
 <noResultText>No authentication or authorization failures were found during the last 24 hours. Please modify the starttime and endtime to choose a different time window.</noResultText>
 <client>ASC,Portal</client>

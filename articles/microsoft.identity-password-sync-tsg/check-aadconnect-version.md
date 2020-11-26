@@ -17,7 +17,7 @@
 
 # How to check AADConnect Version
 
-For more information about Password Hash Sync, please refer to the Password Hash Sync introduction guide. 
+For more information about Password Hash Sync, please refer to the Password Hash Sync introduction guide.
 
 To check the version of AADConnect perform the following steps:
 1. Open Control Panel / Programs / Programs and Features
