@@ -20,6 +20,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
+  "resourceRequired": false,
   "formElements":
   [
   {
@@ -34,7 +35,7 @@
       "order": 2,
       "controlType": "radioButtonGroup",
       "displayLabel": "Consent:",
-      "radioButtonOptions": 
+      "radioButtonOptions":
       [{
             "value": "AllowCustomerDataAccess",
             "text": "Allow Azure support to gather diagnostic information from your Azure resource."
