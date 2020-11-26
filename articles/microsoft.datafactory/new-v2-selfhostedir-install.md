@@ -1,19 +1,13 @@
 <properties
-	pageTitle="Integration Runtime Express Setup Issue"
-	description="Cannot Run Express Setup for Self-hosted IR"
-	infoBubbleText=""
-	authors="chez-charlie"
-	ms.author="chez"
-	articleId="e8457178-4061-4b46-b49d-dbdfba49afc4"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32629536"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="Integration Runtime Express Setup Issue&#xD;"
+  ms.author="chez,lle"
+  selfhelptype="Generic"
+  supporttopicids="32629536"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="e8457178-4061-4b46-b49d-dbdfba49afc4"
+  ownershipid="AzureData_DataFactory" />
 # Integration Runtime Express Setup Issue
 
 ## **Recommended Steps**
@@ -25,6 +19,8 @@
   * Use the _Manual Setup_ link shown on the same pane in the UI to download the installation file and run it manually. After the installation is successful, you will see the Integration Runtime Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service.<br>
 
 ### **Common errors and solutions**
+
+* **Install Self-hosted Integration Runtime version 5.x**: For the upgrade to version 5.x of Azure Data Factory Self-hosted integration runtime, we require .NET framework runtime 4.7.2 or above. Follow in this [self-hosted IR Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#self-hosted-integration-runtime-version-5x) for more details.
   
 * **Integration Runtime registration error**: After changing the _service account_ in the Service Panel, you may find that the Integration Runtime stops working. Follow the steps mentioned in this [self-hosted IR Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#self-hosted-ir-setup) to troubleshoot and resolve this error.
   
@@ -55,4 +51,3 @@
   **Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request if needed.<br>
 * Latest version of Self-hosted Integration Runtime [Download Page](https://www.microsoft.com/download/details.aspx?id=39717)
   * __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities, and changes introduced in the latest versions.<br>
-
