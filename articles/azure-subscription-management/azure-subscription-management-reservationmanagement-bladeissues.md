@@ -15,7 +15,7 @@
 	ownershipId="ASMS_SubscriptionManagement"
 />
 
-# reserved instance-blade issues
+# Reserved Instance - blade issues
 
 ## **Recommended Steps**
 
@@ -33,7 +33,7 @@ You might be unable to see the Reserved Instances due to a missing RBAC role tha
 
 ### Reserved Instance return/exchange error
 
-To perform an exchange or refund, the user must have access to the reservation order. When granting someone permissions, it�s best to grant permissions to the reservation order, not the reservation. If you are unable to perform exchange/return, you might not have the right admin permissions. Please reach to the admin of the reservations to give you the admin access in order to perform the actions successfully.<br>
+To perform an exchange or refund, the user must have access to the reservation order. When granting someone permissions, it's best to grant permissions to the reservation order, not the reservation. If you are unable to perform exchange/return, you might not have the right admin permissions. Please reach to the admin of the reservations to give you the admin access in order to perform the actions successfully.<br>
 
 * [Add/change users who can manage a reservation](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance#add-or-change-users-who-can-manage-a-reservation)
 
