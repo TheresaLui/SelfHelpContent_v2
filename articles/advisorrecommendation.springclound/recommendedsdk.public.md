@@ -10,7 +10,7 @@
     ownershipId="DevDivAzServices_SpringCloud"
 />
 # Spring Cloud SDK Version Recommendation
----
+--- 
 {
 	"recommendationOfferingId": "997d7803-aa34-419e-8c09-d7cd8a4ceff2",
 	"recommendationOfferingName": "Azure Spring Cloud",
@@ -19,7 +19,7 @@
 	"dataSourceMetadata": {
 		"streamNamespace": "cluster('https://lgacluster.westus.kusto.windows.net').database('lga-db').GetAzureAdvisorRecommendedSdkReport",
 		"dataSource": "Kusto",
-		"refreshInterval": "0.00:10:00"
+		"refreshInterval": "0.12:00:00"
 	},
 	"recommendationCategory": "Performance",
 	"recommendationImpact": "Medium",
