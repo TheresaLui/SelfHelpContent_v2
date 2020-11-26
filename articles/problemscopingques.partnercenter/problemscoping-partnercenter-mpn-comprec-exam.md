@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds=""
+       supportTopicIds="32725865"
        productPesIds="17007"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -20,7 +20,7 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Competency recognition for exams or assessments issues",
-   "fileAttachmentHint": "To help us better understand your issue please upload the Partner Center User report, a screenshot provided by the user from My profile showing the completed association, the MCP transcript and the Assessment proof",
+   "fileAttachmentHint": "To help us better understand your issue please upload the Partner Center User report, a screenshot provided by the user from My Profile showing the completed association, the MCP transcript and the Assessment proof",
    "formElements": [
        {
        "id": "learn_more_text",
@@ -292,7 +292,7 @@
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about your issue",
-       "infoBalloonText": "If your problem is related to usage or azure consumption, net new customers, revenue or performance recognition (etc), please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=76e2d30e-8fa5-c90d-725c-4a999092cfa5'>Competency revenue - performance recognition</a> template. To better understand and learn more about competencies and their requirements before attaining them or submit a ticket on this topic please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template.",
+       "infoBalloonText": "If your problem is related to usage or azure consumption, net new customers, revenue or performance recognition (etc), please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=76e2d30e-8fa5-c90d-725c-4a999092cfa5'>Competency revenue - performance recognition</a> template. To better understand and learn more about competencies and their requirements before attaining them or to submit a ticket on this topic please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template.",
 	   "required": true,
 	   "useAsAdditionalDetails": true
        },
