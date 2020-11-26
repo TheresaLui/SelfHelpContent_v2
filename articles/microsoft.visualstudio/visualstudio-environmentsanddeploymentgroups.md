@@ -28,11 +28,11 @@ Are you facing one of these common problems?
 
     Check if there was any restart of your target machines on which the agents are configured. Ensure after every restart of the target machines that the configured agents are running. Also, make sure they are not running behind a proxy.
 
-* **I'm facing an error which reads "Failed to create deployment group administrators group for project"**
+* **I'm facing an error which reads, "Failed to create *Deployment Group Administrators* group for project"**
 
     Rename the **"Deployment Group Administrators"** group and then try creating a deployment group.
 
-* **I encounter an error "./svc.sh command not found" when creating a deployment group on a Linux virtual machine**
+* **I encounter an error "./svc.sh command not found" when creating a Deployment Group on a Linux virtual machine**
 
     Check the [Linux distributions supported](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites). Ensure the user account that you're using has permission to register the agent. The **./svc.sh** script will run and manage your agent as a **systemd service**. If you [run your agent as a service](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#run-as-a-systemd-service), you cannot run the agent service as root user.
 
