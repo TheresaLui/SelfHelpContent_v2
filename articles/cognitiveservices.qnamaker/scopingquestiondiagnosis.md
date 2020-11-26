@@ -9,20 +9,28 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32689790"
 	productPesIds="16919"
+	schemaVersion="1"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="5b9b1a32-b82e-740c-f2d9-d84b0a070d76"
 	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-#Diagnosis
+# Diagnosis
 ---
 {
   "$schema": "SelfHelpContent",
   "formElements":
   [
+  {
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "Incident time",
+			"required": true
+		},
     {
       "id": "consent_radio_button",
-      "order": 1,
+      "order": 2,
       "controlType": "radioButtonGroup",
       "displayLabel": "Consent:",
       "radioButtonOptions": 
@@ -36,7 +44,16 @@
         },
       ],
     "required": true
-    }
+    },
+    {
+			"id": "problem_description",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your incident including any error messages you are seeing.",
+			"required": true,
+			"useAsAdditionalDetails": true
+		}
   ]
 }
 
