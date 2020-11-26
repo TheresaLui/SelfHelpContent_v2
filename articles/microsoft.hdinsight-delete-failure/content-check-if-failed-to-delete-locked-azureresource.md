@@ -16,7 +16,7 @@
 />
 
 # Check if failed to delete locked azure resource
-## **Recommended Steps**
+
 
 Run the below kusto query to check:
 

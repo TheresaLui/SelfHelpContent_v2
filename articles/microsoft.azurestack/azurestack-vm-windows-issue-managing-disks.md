@@ -19,7 +19,7 @@
 
 Before you try to detach a disk, connect to the VM and unmount it.
 
-4 out of 5 customers resolved their issue using the guides listed below.<br>
+Most users were able to resolve issues by using the following steps.
 
 ## **Recommended Steps**
 
@@ -29,6 +29,8 @@ Before you try to detach a disk, connect to the VM and unmount it.
 - Detach a data disk using the [Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-the-portal) or [PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-powershell) 
 - [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
 - [Understanding the temporary disk on a VM](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview#temporary-disk)
+- You can find additional information in the article [Use the D: drive as a data drive on a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/change-drive-letter)
+- [Convert an unmanaged disk to a managed disk](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)
 
 ## **Recommended Documents**
 

@@ -6,18 +6,18 @@
     articleId="314a2614-24d3-496c-b9d6-e6cd3df4b6c2_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId="AzureData_SynapseAnalytics"
 />
 
 # Co-locate the storage account within the same region to minimize latency when loading
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "314a2614-24d3-496c-b9d6-e6cd3df4b6c2",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('sqladhoc.kustomfa.windows.net').database('sqlazure1').dw_advisor_Load_StorageAccount",
+    "streamNamespace": "cluster('https://sqladhoc.kusto.windows.net').database('sqlazure1').dw_advisor_Load_StorageAccount",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
