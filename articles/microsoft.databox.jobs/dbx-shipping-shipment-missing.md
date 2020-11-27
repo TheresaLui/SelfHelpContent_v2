@@ -21,4 +21,4 @@
 ## **Recommended Steps**
 
 * Use the tracking ID provided on the Overview page in the Azure portal, to locate the package
-* If you are unable to track the package or shipment details are missing, reach out to [Azure Data Box Operations](adbops@microsoft.com)
+* If you are unable to track the package or shipment details are missing, reach out to adbops@microsoft.com
