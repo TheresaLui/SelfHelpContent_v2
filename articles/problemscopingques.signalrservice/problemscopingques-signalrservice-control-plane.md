@@ -25,7 +25,6 @@
             "controlType": "dropdown",
             "displayLabel": "Is the issue still occurring?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Is the issue still occurring?",
             "dropdownOptions": [
                 {
                     "value": "Error_1",

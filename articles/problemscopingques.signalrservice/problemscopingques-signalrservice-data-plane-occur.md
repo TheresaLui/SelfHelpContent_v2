@@ -25,7 +25,6 @@
             "controlType": "dropdown",
             "displayLabel": "How does it happen?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Choose how it happens",
             "dropdownOptions": [
                 {
                     "value": "Error_1",
@@ -52,7 +51,6 @@
             "controlType": "dropdown",
             "displayLabel": "Is the issue still occurring?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Choose how it happens",
             "dropdownOptions": [
                 {
                     "value": "Error_1",
