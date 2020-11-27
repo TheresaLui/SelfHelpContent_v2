@@ -28,31 +28,21 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Tenant ID",
 	   "watermarkText": "Please provide the Tenant ID - if you are adding Owner, Users or Managers",
-	   "required": false
-       },
-       {
-       "id": "learn_more_text1",
-       "order": 2,
-       "controlType": "infoblock",
-       "content": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-tenant-id'>How to find Tenant ID association for debugging purposes</a>"
+	   "required": false,
+	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-tenant-id'>How to find Tenant ID association for debugging purposes</a>"
        },
        {
 	   "id": "object_id",
-	   "order": 3,
+	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Object ID",
 	   "watermarkText": "Please provide the Object ID - if this is regarding a Registration query",
-	   "required": false
+	   "required": false,
+	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
        },
        {
-       "id": "learn_more_text2",
-       "order": 4,
-       "controlType": "infoblock",
-       "content": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
-       },
-       {
-	   "id": "additional_email(s)_for_notification",
-	   "order": 5,
+	   "id": "additional_emails_for_notification",
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Additional email(s) for notification",
 	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
@@ -60,7 +50,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 6,
+	   "order": 4,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -69,7 +59,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 7,
+	   "order": 5,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
