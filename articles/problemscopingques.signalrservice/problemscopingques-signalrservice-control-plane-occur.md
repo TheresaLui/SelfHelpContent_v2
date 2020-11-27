@@ -1,6 +1,6 @@
 <properties
-	pageTitle="SignalR service self help for data-plane issues"
-	description="SignalR service self help for data-plane issues"
+	pageTitle="SignalR service self help for control-plane issues"
+	description="SignalR service self help for control-plane issues"
 	ms.author="lianwei"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608605,32684005"
