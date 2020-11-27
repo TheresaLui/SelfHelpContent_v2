@@ -32,10 +32,6 @@ Are you facing one of these common problems?
 
     In such cases, ensure that it is compatible with an agent and add a Deployment group to the **runsOn** parameter of the job.
 
-* **My Task Groups are not working consistently and it fails with the *Error:Failed to connect to remote machine. Verify the SSH service connection details.***
-
-    This is encountered if the agent job is mentioned as **Azure pipelines** for the release pipelines with the task group. In such scenarios, change it such that the pipeline makes use of the self-hosted agent that is configured.
-
 * **I'm facing an issue with my task group which gives an *Error:Missing default value for the variable in Task Group definition.***
 
     Provide a default value for the variable in the task group definition. [Refer this document](https://docs.microsoft.com/azure/devops/pipelines/library/task-groups?view=azure-devops#before-you-create-a-task-group)
