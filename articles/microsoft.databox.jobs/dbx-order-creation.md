@@ -8,7 +8,7 @@
 	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639192,32639213"
+	supportTopicIds="32639192"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax, usnat, ussec"
