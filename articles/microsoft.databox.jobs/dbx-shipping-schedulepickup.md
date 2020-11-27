@@ -8,11 +8,11 @@
 	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639187,32639194"
+	supportTopicIds="32639194"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax, usnat, ussec"
-    articleId="32639187"
+   	articleId="32639194"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
