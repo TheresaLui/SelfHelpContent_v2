@@ -17,7 +17,7 @@
 />
 
 
-## Need a shipping label to return my device
+# Need a shipping label to return my device
 
 For Data Box orders, running Prepare to ship is a mandatory step to be completed without any critical errors before the device can be shipped back. The return shipping label and reference number are available only once this step completes after all the data is copied to the device.
 
