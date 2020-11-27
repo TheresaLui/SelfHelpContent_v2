@@ -42,7 +42,7 @@ Are you facing one of these common problems?
   
 * I'm unable to bulk update the retention policies of all pipelines in a project
 
-  - Bulk update can be done through [REST API](https://docs.microsoft.com/en-us/rest/api/azure/devops/release/definitions/update?view=azure-devops-rest-5.1) and including this in a customized PowerShell script.
+  - Bulk update can be done through [REST API](https://docs.microsoft.com/rest/api/azure/devops/release/definitions/update?view=azure-devops-rest-5.1) and including this in a customized PowerShell script.
 
 ## **Recommended Documents**
 
