@@ -3,15 +3,15 @@
 	description="Confirm that the storage account appears in ARM"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="a68f00f6-8f2f-4e6a-97b8-c605b662ab94"
 />
 
@@ -28,4 +28,4 @@
 
 ## Recommended Documents
 
-1. [WASU Storage Recovery IcM Template](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=V3F2C9)
+1. [WASU Storage Recovery IcM Template](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=V3F2C9)

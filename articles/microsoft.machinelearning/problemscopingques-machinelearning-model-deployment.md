@@ -31,8 +31,29 @@
             		"required": true
         },
 {
+    "id" : "service_name",
+                    "order" : 2,
+                    "controlType" : "textbox",
+                    "displayLabel" : "Webservice name",
+                    "required": false
+},
+{
+            "id" : "deployment_triggered",
+                    "order" : 3,
+                    "controlType" : "textbox",
+                    "displayLabel" : "How was the deployment triggered (UI or SDK or CLI or direct REST Calls)?",
+                    "required": false
+        },
+{
+            "id" : "sdk_cli_version",
+                    "order" : 4,
+                    "controlType" : "textbox",
+                    "displayLabel" : "If you deployed using SDK/CLI, what version?",
+                    "required": false
+        },
+{
             "id": "problem_description",
-			    "order": 2,
+			    "order": 5,
 			    "controlType": "multilinetextbox",
 			    "displayLabel": "Additional Details",
 			    "watermarkText": "Please provide additional details, description of the issue",
