@@ -30,7 +30,7 @@ Are you facing one of these common problems?
 
 * **I'm unable to add Task Group to a deployment group job**
 
-    In such cases, ensure that it is compatible with an agent and add a Deployment group to the **runsOn** parameter of the job.
+    In such cases, ensure that it is compatible with an agent and add a Deployment group to the **runs On** parameter of the job.
 
 * **I'm facing an issue with my task group which gives an *Error:Missing default value for the variable in Task Group definition.***
 
