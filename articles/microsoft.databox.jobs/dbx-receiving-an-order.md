@@ -39,6 +39,7 @@ When a shipment is in transit, tracking information is updated in the Overview p
 * [Data Box FAQ - Track status](https://docs.microsoft.com/azure/databox/data-box-faq?WT.mc_id=Portal-Microsoft_Azure_Support#track-status)
 * [Data Box Disk FAQ - Track status](https://docs.microsoft.com/azure/databox/data-box-disk-faq#track-status)
 
+
 ## Status of sign up requests
 
 If you submitted a sign up request for a Data Box, Data Box Disk or Data Box Heavy, we will review the details of the request and get back to you soon. Please note that if your subscription has been enabled to place an order, you will need to do this step from the Azure portal. Signing up does not automatically create an order.
