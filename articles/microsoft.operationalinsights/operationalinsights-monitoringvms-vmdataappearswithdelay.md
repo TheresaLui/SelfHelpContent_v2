@@ -1,23 +1,15 @@
-
 <properties
-pageTitle="Log data appears with delay"
-description="Log data appears with delay"
-service="microsoft.operationalinsights"
-resource="workspaces"
-articleId="05738708-090b-4494-8935-c4827de74c53"
-symptomID=""
-infoBubbleText=""
-authors="olegan, yossiy"
-ms.author="olegan"
-displayorder=""
-selfHelpType="generic"
-supportTopicIds="32745411"
-resourceTags=""
-productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
-	ownershipId="AzureMonitoring_LogAnalytics"
-/>
-
+  pagetitle="Log data appears with delay&#xD;"
+  service="microsoft.operationalinsights"
+  resource="workspaces"
+  ms.author="olegan"
+  selfhelptype="Generic"
+  supporttopicids="32745411"
+  resourcetags=""
+  productpesids="15725"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake"
+  articleid="05738708-090b-4494-8935-c4827de74c53"
+  ownershipid="AzureMonitoring_LogAnalytics" />
 # Log data appears with delay
 
 The typical delay to ingest log data is between 2 and 5 minutes. The specific latency for any particular data will vary depending on a variety of factors. Please consult this [article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time) for the detailed guidance.
