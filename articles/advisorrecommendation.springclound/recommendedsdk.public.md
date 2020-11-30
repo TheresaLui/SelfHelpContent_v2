@@ -1,8 +1,8 @@
 <properties
     pageTitle="Upgrade SDK version recommendation"   ()
     description="Return list of resources that do not currently use the recommended SDK version"
+	authors="liping-ms"
     ms.author="lipinggao"
-    displayOrder="100"
     articleId="b72ddf41-39a2-4158-8492-11ec868aee98_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
