@@ -27,4 +27,4 @@ We recently unlisted Azure Cosmos DB SQL API .NET SDK version 3.14.0 due to inte
 ## **Recommended Steps**
 
 We recommend upgrading the SDK to at least version 3.15.0 to avoid this issue. 
-For other SDK's (Java, Python, node.js) as well as .NET SDK versions older than 3.14, no action is needed.
+For other SDKs (Java, Python, node.js) as well as .NET SDK versions older than 3.14, no action is needed.
