@@ -7,7 +7,7 @@
     authors="rachundi"
     ms.author="rachundi"
     displayOrder="1"
-    articleId="bot-search-response-qna"
+    articleId="qna-search-response"
     selfHelpType="diagnostics"
     diagnosticScenario="self_diagnostic"
     supportTopicIds=""
