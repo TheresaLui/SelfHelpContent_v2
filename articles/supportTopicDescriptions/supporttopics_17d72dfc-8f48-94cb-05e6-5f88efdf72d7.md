@@ -51,9 +51,9 @@
     {
       "id": "08b22f15-5b92-c873-e513-18e02aa112f0",
       "longDescription": null,
-      "shortDescription": "Issue during restore of Windows virtual machine ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues during restore for Windows",
+      "searchTags": "Restore;windows",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -323,9 +323,9 @@
     {
       "id": "5ac4d72a-7814-6c56-4e28-2694b5e77f1e",
       "longDescription": null,
-      "shortDescription": "Performance issue while taking backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Performance issues during a backup, or scheduled backups start too late",
+      "searchTags": "performance;scheduled backup",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -387,8 +387,8 @@
     {
       "id": "79c28470-7917-6671-055d-668754e214e0",
       "longDescription": null,
-      "shortDescription": "Failures during scheduled or on-demand backup",
-      "searchTags": "backup;failed;on-demand;scheduled;jobs",
+      "shortDescription": "Failures during scheduled or on-demand backups of Linux VMs",
+      "searchTags": "backup;failed;on-demand;scheduled",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
@@ -398,6 +398,14 @@
       "shortDescription": "Issue pertaining to Azure Backup Server",
       "searchTags": "Azure Backup Server;MABS",
       "category": "MABS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7a630d4f-4c26-5d75-a53a-702599efd3bf",
+      "longDescription": "",
+      "shortDescription": "Issues related to file recovery in Azure VMs",
+      "searchTags": "File Recovery",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -625,6 +633,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca4a4f85-79ec-5df0-6af2-ddeef4786ee0",
+      "longDescription": "",
+      "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing, alerts and notifications",
+      "searchTags": "Backup;policies;retention;recovery point",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cb51c38c-6394-9142-e11a-210ca84d6c1e",
       "longDescription": null,
       "shortDescription": "Issue during registration or re-registration of MARS agent to vault, Invalid vault credentials",
@@ -673,6 +689,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "db4ac868-3787-043f-4cd6-397d4cb798cc",
+      "longDescription": "",
+      "shortDescription": "Best practices, backup architecture",
+      "searchTags": "Best practices; backup architecture",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
       "longDescription": null,
       "shortDescription": "Issue related to DPM (Data Protection Manager) for protecting on-premises to Azure",
@@ -691,8 +715,8 @@
     {
       "id": "e3b27cc4-cda5-965b-7fb6-06fac0e6f6b0",
       "longDescription": null,
-      "shortDescription": "Failures during scheduled or on-demand backup",
-      "searchTags": "backup;scheduled;failed;adhoc;ondemand",
+      "shortDescription": "Failures during scheduled or on-demand backups of Windows VMs",
+      "searchTags": "backup;scheduled;failed;ondemand;windows",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
@@ -726,6 +750,14 @@
       "shortDescription": "Issue while restoring entire volume or individual files and folders using MARS agent",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ed35ef48-803c-6896-9adf-c226eb606279",
+      "longDescription": "",
+      "shortDescription": "Ask for a new feature, ask for new support in existing feature",
+      "searchTags": "new feature;ask",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -766,6 +798,14 @@
       "shortDescription": "Issue while restoring System State backup from Azure using MARS Agent",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa7b44a7-1961-a5b5-5de8-a0f5be30f15d",
+      "longDescription": "",
+      "shortDescription": "Backup failed with UserErrorVmProvisioningStateFailed, ExtensionFailed VSS COM and similar error codes related to VM provisioning state and extension.",
+      "searchTags": "UserErrorVmProvisioningStateFailed;Provisioning;failed",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
