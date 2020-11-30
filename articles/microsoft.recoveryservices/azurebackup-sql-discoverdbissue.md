@@ -29,7 +29,7 @@
 
 **Common questions**
 - [When I protect a SQL Server instance are future databases automatically added?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#are-future-databases-automatically-added-for-backup)</br>
-- [Can I protect SQL Always On Availability Groups across region?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-protect-availability-groups-across-regions)</br>
+- [Can I protect SQL Always On Availability Groups across regions?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-protect-availability-groups-across-regions)</br>
 - [Complete list of supported and unsupported actions and scenarios and known limitations](https://docs.microsoft.com/azure/backup/sql-support-matrix#feature-consideration-and-limitations)
 
 ## **Recommended Documents**
