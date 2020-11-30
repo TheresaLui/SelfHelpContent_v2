@@ -20,9 +20,9 @@
 
 ## **Failover due to user initiated manual failover**
 <!--issueDescription-->
-We ran diagnostics for managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to **user initiated manual failover(s)**.  
+We ran diagnostics for the managed instance **<!--$ServerName-->ServerName<!--/$ServerName-->** and for the time period between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found instance reconfiguration(s) due to **user initiated manual failover(s)**.  
 <br>
-More details:  
+For more details, see:  
 <!--$SQLMIFailoverDueToManualFailoverRCADetails-->SQLMIFailoverDueToManualFailoverRCADetails<!--/$SQLMIFailoverDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
 <br><br>
