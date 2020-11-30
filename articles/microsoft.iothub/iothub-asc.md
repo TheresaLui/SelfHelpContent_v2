@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Issues with Azure Security Center and IoT Hub &#xD;"
+  pagetitle="Issues with Azure Security Center and IoT Hub "
   service="microsoft.devices"
   resource="iothubs"
-  ms.author="jlian,yiygu"
+  ms.author="yiygu"
   selfhelptype="Generic"
   supporttopicids="32636058"
   resourcetags=""
@@ -14,8 +14,8 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot security agent](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)<br>
-* [Understand security alerts](https://docs.microsoft.com/azure/asc-for-iot/concept-security-alerts)<br>
-* [Understand recommendations](https://docs.microsoft.com/azure/asc-for-iot/concept-recommendations)<br>
-* [Tutorial: configure security agent](https://docs.microsoft.com/azure/asc-for-iot/how-to-agent-configuration)<br>
+* [Troubleshoot security agent](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)
+* [Understand security alerts](https://docs.microsoft.com/azure/asc-for-iot/concept-security-alerts)
+* [Understand recommendations](https://docs.microsoft.com/azure/asc-for-iot/concept-recommendations)
+* [Tutorial: configure security agent](https://docs.microsoft.com/azure/asc-for-iot/how-to-agent-configuration)
 * [Frequently asked questions](https://docs.microsoft.com/azure/asc-for-iot/resources-frequently-asked-questions)
