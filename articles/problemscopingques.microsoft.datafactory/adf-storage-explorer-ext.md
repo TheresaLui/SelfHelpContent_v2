@@ -71,7 +71,7 @@
                     "text": "Mac"
                 },
                 {
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
                     "text": "Other, don't know the answer"
                 }
             ],
@@ -111,7 +111,7 @@
                     "text": "Azure Blob"
                 },
                 {
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
                     "text": "Don't know the answer"
                 }
             ],
@@ -133,7 +133,7 @@
                     "text": "Blob"
                 },
                 {
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
                     "text": "Don't know the Answer"
                 }
             ],

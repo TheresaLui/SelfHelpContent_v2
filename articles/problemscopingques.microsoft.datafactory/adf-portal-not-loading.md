@@ -16,7 +16,7 @@
 
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Azure Data Factory Portal not loading",
     "fileAttachmentHint": "Please attach screenshot of the browser",
