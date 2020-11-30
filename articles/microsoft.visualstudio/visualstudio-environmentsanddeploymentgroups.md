@@ -33,12 +33,12 @@
 
 * **Unable to configure the Deployment Group agent behind proxy**
 
-    1. Set **HTTP_PROXY** and **HTTPS_PROXY** as an environment variable(system variable) with the proxy URL value set to: 
+    * Set **HTTP_PROXY** and **HTTPS_PROXY** as an environment variable(system variable) with the proxy URL value set to: 
     http://proxyserver:port 
     or  
     https://proxyserver:port
     
-    1. Restart the server and try to configure the agent again.
+    * Restart the server and try to configure the agent again.
 
 * **I cannot register a new target for my Deployment Group**
 
