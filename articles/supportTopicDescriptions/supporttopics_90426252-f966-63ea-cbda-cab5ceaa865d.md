@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   description="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   authors="elixirsys2"
-  ms.author="zachal"
+  ms.author="zachal, bhpat"
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -99,6 +99,14 @@
       "shortDescription": "Problems generating a DSC MOF file in Azure Automation. ",
       "searchTags": "config;compile;compilation;module;job",
       "category": "dsc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2e8d9f0c-79c1-a01f-b542-c13e90be690b",
+      "longDescription": "",
+      "shortDescription": "An existing RunAs account is about to expire or has expired",
+      "searchTags": "runas;expired",
+      "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
     },
     {
