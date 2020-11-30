@@ -36,7 +36,7 @@
    },
    "ingestionClientIdentities":[
    ],
-   "version":2,
+   "version":3,
    "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
    "description":"Upgrade to the latest Cognitive Service Text Analytics SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",
