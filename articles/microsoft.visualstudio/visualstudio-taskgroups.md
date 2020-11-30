@@ -26,15 +26,17 @@ Are you facing one of these common problems?
 
 * **I want to pass the Resource Group name from the release pipeline to the task group**
 
-    Use pipeline variable to pass the Resource Group value to the task group.
+    Use the pipeline variable to pass the Resource Group value to the task group.
+    
 
 * **I'm unable to add Task Group to a deployment group job**
 
-    In such cases, ensure that it is compatible with an agent and add a Deployment group to the **runs On** parameter of the job.
+    In such cases, ensure that it is compatible with an agent, and add a Deployment group to the **runs On** parameter of the job.
+    
 
-* **I'm facing an issue with my task group which gives an *Error:Missing default value for the variable in Task Group definition.***
+* **I'm facing an issue with my task group which gives an error, "Missing default value for the variable in Task Group definition."**
 
-    Provide a default value for the variable in the task group definition. [Refer this document](https://docs.microsoft.com/azure/devops/pipelines/library/task-groups?view=azure-devops#before-you-create-a-task-group)
+    Provide a default value for the variable in the task group definition. [For instructions, see this document](https://docs.microsoft.com/azure/devops/pipelines/library/task-groups?view=azure-devops#before-you-create-a-task-group).
 
 
 ## **Recommended Documents**
