@@ -1,20 +1,15 @@
 <properties
-	pageTitle="I can't create an IoT hub using ARM Templates, CLI, REST or Service SDK"
-	description="I can't create an IoT hub"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
- 	ms.author="jlian,saziz,jtanner"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32630530,32630537,32630562"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="c011fffa-d2cf-47bb-b2df-1e2850fb7044"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Unable to create an IoT hub using ARM Templates, CLI, REST or Service SDK&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,saziz,jtanner,yiygu"
+  selfhelptype="Generic"
+  supporttopicids="32783519"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="c011fffa-d2cf-47bb-b2df-1e2850fb7044"
+  ownershipid="AzureIot_IotHub" />
 # Unable to create an IoT hub using ARM Templates, CLI, REST or Service SDK
 
 ## **Recommended Steps**
