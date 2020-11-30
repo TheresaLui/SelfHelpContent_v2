@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Upload files with IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload)<br>
+* [Upload files with IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload)
 * [Configure IoT Hub file uploads using the Azure portal](https://docs.microsoft.com/azure/iot-hub/iot-hub-configure-file-upload)
