@@ -1,20 +1,15 @@
 <properties
-	pageTitle="IoT Hub file upload issues"
-	description="IoT Hub file upload issues"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
-  	ms.author="jlian,saziz,jtanner"
-	displayOrder="55"
-	selfHelpType="resource"
-	supportTopicIds="32630550"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
-	articleId="e8c8696f-8eb2-4cc0-9ef8-0269133edfc0"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="IoT Hub file upload issues&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,saziz,jtanner,yiygu"
+  selfhelptype="Resource"
+  supporttopicids="32630550"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,usnat,ussec,mooncake"
+  articleid="e8c8696f-8eb2-4cc0-9ef8-0269133edfc0"
+  ownershipid="AzureIot_IotHub" />
 # IoT Hub file upload issues
 
 ## **Recommended Steps**
