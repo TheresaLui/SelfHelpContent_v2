@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2f9f0c2b-f939-a59e-1859-98a5af9173b9",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using Git and CI-CD feature in Synapse Studio.",
+      "searchTags": "git;ci;cd;continuous integration;continuous deployment",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
