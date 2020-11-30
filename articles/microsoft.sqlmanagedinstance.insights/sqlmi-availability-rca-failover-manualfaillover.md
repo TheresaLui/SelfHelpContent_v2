@@ -26,14 +26,14 @@ More details:
 <!--$SQLMIFailoverDueToManualFailoverRCADetails-->SQLMIFailoverDueToManualFailoverRCADetails<!--/$SQLMIFailoverDueToManualFailoverRCADetails-->
 <!--/issueDescription-->   
 <br><br>
-High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we recognize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. The Failover listed above are result of user initiated manual failover(s). Most reconfiguration events take less than 60 seconds to complete. We are working continually on minimizing incidence of updates and their impact to instance availability. 
+High availability is a fundamental part of the SQL Database and SQL Managed Instance platform that works transparently for your database application. However, we realize that you may want to test how the automatic failover operations initiated during planned or unplanned events would impact an application before you deploy it to production. You can manually trigger a failover by calling a special API to restart a managed instance. The failovesr listed above are the result of user-initiated manual failover(s). Most reconfiguration events take less than 60 seconds to complete. We are working continually to minimize the incidence of updates and their impacts on instance availability. 
 
 ## **Recommended Steps** 
 
-Building resiliency into your application to account for these situations can help provide seamless experience for the end users. For information about connectivity in Azure SQL, how to implement retry logic, and to understand common errors in Azure SQL please refer to the [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors) article.
+Building resiliency into your application to account for these situations can help provide a seamless experience for the end users. For information about connectivity in Azure SQL, how to implement retry logic, and to understand common errors in Azure SQL, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
 
 ## **Recommended Documents**
 
-* [User initiated manual failover on SQL Managed Instance](https://techcommunity.microsoft.com/t5/azure-sql-database/user-initiated-manual-failover-on-sql-managed-instance/ba-p/1538803)
+* [User-initiated manual failover on SQL Managed Instance](https://techcommunity.microsoft.com/t5/azure-sql-database/user-initiated-manual-failover-on-sql-managed-instance/ba-p/1538803)
 
 * [Retry logic for transient errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors)
