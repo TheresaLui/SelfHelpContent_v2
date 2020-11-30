@@ -160,15 +160,15 @@
     {
       "id": "66bbbb9f-eb66-93d1-4137-0950c97901c0",
       "longDescription": "",
-      "shortDescription": "Integrate Azure Key Vault with a Custom Application",
-      "searchTags": "Azure ",
+      "shortDescription": "Use Azure Key Vault with  self-hosted applications or custom applications deployed to VM. Do not use for App Services hosted application.",
+      "searchTags": "Azure",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
       "longDescription": "",
-      "shortDescription": "Issues with key vault access control policies",
+      "shortDescription": "Issues with configuring key vault access control policies and RBAC role assignments",
       "searchTags": "access denied;access;policy;security group",
       "category": "Key Vault access policy issues ",
       "useInDiagnoseAndSolve": "true"
@@ -360,7 +360,7 @@
     {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
-      "shortDescription": "Integrating Azure Key Vault with Azure Services",
+      "shortDescription": "Use Azure Key Vault with Azure Services or Applications hosted in managed App Service platform (web apps, functions)",
       "searchTags": "Azure;Integration",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"

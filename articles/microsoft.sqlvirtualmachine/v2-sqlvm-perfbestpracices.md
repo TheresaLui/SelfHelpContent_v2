@@ -1,5 +1,5 @@
 <properties
-  pagetitle="SQL Server is Slow"
+  pagetitle="SQL Server Performance Best Practices &#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="ujpat,vadeveka,amamun"
@@ -10,9 +10,9 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="28ab511a-0786-4f89-8fd2-a209fec4aea9"
   ownershipid="AzureData_AzureSQLVM" />
-# SQL Server is Slow
+# SQL Server Performance Best Practices 
 
-If SQL Server is slow, most users can resolve issues by following the Recommended Steps and Recommended Documents below.
+If SQL Server is slow, most users can resolve issues by following the steps below.
 
 ## **Recommended Steps**
 
@@ -39,6 +39,8 @@ If you suspect SQL Server is slow or needs optimization, we strongly recommend t
 
 To understand **best practice violations and guest VM performance issues** you can [run Performance diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics) and review results directly from the Azure portal. You can also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on your virtual machine. See [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights).
 If you create a support case, provide the PerfInsights logs to ensure a speedy resolution.
+
+To check **VM or disk level IO capping**, you can check [this article](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics) 
 
 ### **Optimize SQL Server Instance**
 We recommend that you continue to use the same database performance [tuning options](https://docs.microsoft.com/archive/msdn-magazine/2008/january/sql-server-uncover-hidden-data-to-optimize-application-performance) that are applicable to SQL Server in any environment: 
