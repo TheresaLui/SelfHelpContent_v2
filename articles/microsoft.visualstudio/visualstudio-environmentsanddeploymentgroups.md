@@ -16,31 +16,31 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-# Azure pipelines issues with Environments and Deployment Groups
+# Azure Pipeline issues with Environments and Deployment Groups
 
-## **Recommended Steps**
-
-Are you facing one of these common problems?
-
-****
-
+ 
 * **The Deployment group agents are offline in Azure DevOps even though I'm able to access the machines through an RDP connection**
 
     Check if there was any restart of your target machines on which the agents are configured. Ensure after every restart of the target machines that the configured agents are running. Also, make sure they are not running behind a proxy.
 
-* **I'm facing an error which reads, "Failed to create *Deployment Group Administrators* group for project"**
+* **"Failed to create *Deployment Group Administrators* group for project"**
 
     Rename the **"Deployment Group Administrators"** group and then try creating a deployment group.
 
-* **I encounter an error "./svc.sh command not found" when creating a Deployment Group on a Linux virtual machine**
+* **"./svc.sh command not found" when creating a Deployment Group on a Linux virtual machine**
 
     Check the [Linux distributions supported](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#check-prerequisites). Ensure the user account that you're using has permission to register the agent. The **./svc.sh** script will run and manage your agent as a **systemd service**. If you [run your agent as a service](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux?view=azure-devops#run-as-a-systemd-service), you cannot run the agent service as root user.
 
 * **Unable to configure the Deployment Group agent behind proxy**
 
-    In such cases, set **HTTP_PROXY** and **HTTPS_PROXY** as an environment variable(system variable) with the proxy URL *http://proxyserver:port* or *https://proxyserver:port* as the value. Restart the server and then try configuring the agent again.
+    1. Set **HTTP_PROXY** and **HTTPS_PROXY** as an environment variable(system variable) with the proxy URL value set to: 
+    http://proxyserver:port 
+    or  
+    https://proxyserver:port
+    
+    1. Restart the server and try to configure the agent again.
 
-* **I cannot register new target for my Deployment Group**
+* **I cannot register a new target for my Deployment Group**
 
     Add the user as an Administrator in the **[Deployment pool security policies](https://docs.microsoft.com/azure/devops/pipelines/policies/permissions?view=azure-devops#deployment-pool-security-roles)**.
 
