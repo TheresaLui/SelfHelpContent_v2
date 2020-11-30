@@ -37,7 +37,7 @@
             "id": "is_os_linux",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the Operating system and environment?",
+            "displayLabel": "What is the operating system and environment?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
