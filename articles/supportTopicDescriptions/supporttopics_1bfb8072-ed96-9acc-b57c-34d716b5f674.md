@@ -504,8 +504,8 @@
     {
       "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
       "longDescription": "",
-      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
-      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "shortDescription": "Issues related to network isolation, Private Links, Private Endpoints.",
+      "searchTags": "Private links;Private Endpoints;Network Isolation;VNet",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     },
