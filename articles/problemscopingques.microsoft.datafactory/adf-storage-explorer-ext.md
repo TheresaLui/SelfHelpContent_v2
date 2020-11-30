@@ -8,7 +8,7 @@
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-    articleId="ADFStorageExplorerExt.md"
+    articleId="adf-storage-explorer-ext.md"
 	ownershipId="AzureData_DataFactory"
 />
 
@@ -145,7 +145,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the Copy Activity RunId if you have one.",
             "infoBalloonText": "Enter the RunId for the issue.",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_start_time",
