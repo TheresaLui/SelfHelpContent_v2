@@ -40,16 +40,16 @@
         {
             "id": "storage_explorer_version",
             "order": 2,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "What is your version of Storage Explorer?",
             "required": true
         },
         {
             "id": "ADF_extension_version",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "What is your version of ADF extension? ?",
-            "required": false
+            "required": true
         },
         {
             "id": "OS_Type",
