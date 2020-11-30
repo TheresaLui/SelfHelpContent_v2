@@ -12,7 +12,7 @@
 
 ## **Recommended Steps**
 
-* The **Express setup** for the Integration Runtime requires Microsoft Edge or another ClickOnce compatible web browser. 
+The **Express setup** for the Integration Runtime requires Microsoft Edge or another ClickOnce compatible web browser. 
 
 If the Express setup fails, consider the following: <br>
   * If you use Chrome, go to the [Chrome web store](https://chrome.google.com/webstore/), search on *ClickOnce* to select and install one of the ClickOnce extensions. <br>
@@ -34,12 +34,12 @@ If the Express setup fails, consider the following: <br>
   
 * **Unable to register the Self-hosted IR due to localhost**
 
-  * When trying to register the Self-hosted IR on a new Machine, a step gives the following error message: _A runtime error has occurred. The type initializer for 'Microsoft.DataTransfer.DIAgentHost.DataSourceCache' threw an exception. A non-recoverable error occurred during a database lookup._ <br>
+  * When trying to register the Self-hosted IR on a new Machine, a step gives the following error message: "A runtime error has occurred. The type initializer for 'Microsoft.DataTransfer.DIAgentHost.DataSourceCache' threw an exception. A non-recoverable error occurred during a database lookup." <br>
   * Use Localhost 127.0.0.1 on host file and resolve such issue <br>
   
 * **Firewall and proxy related issues**. [See a list of possible symptoms and error messages](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#possible-symptoms-for-firewall-and-proxy-server-related-issues). 
 
-  * Ensure that **ports** are allow listed for both the central _corporate_ firewall and the local machine _Windows_ firewall. For more details, see [Firewall Allow listing](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall).
+  * Ensure that **ports** are allow listed for both the central _corporate_ firewall and the local machine _Windows_ firewall. For more details, see [Firewall allow listing](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall).
   * If your IR uses a proxy server, refer to [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations) <br>
   
  
@@ -54,6 +54,6 @@ If the Express setup fails, consider the following: <br>
 * [Self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime)<br>
 * [Monitor integration runtime](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime/) <br>
 * [Troubleshoot Self-Hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) <br>
-  **Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request if needed.<br>
+  Note: Follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory) and note the **Report ID** to provide it with the support request, if needed.<br>
 * Latest version of Self-hosted Integration Runtime [Download Page](https://www.microsoft.com/download/details.aspx?id=39717)
   * See the Release Notes for feature enhancements, new capabilities, and changes introduced in the latest versions.<br>
