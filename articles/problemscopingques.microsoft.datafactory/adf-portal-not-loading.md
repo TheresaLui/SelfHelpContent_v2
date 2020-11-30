@@ -45,7 +45,7 @@
                     "text": "Google Chrome"
                 },
                 {
-                    "value": "Unsupported",
+                    "value": "dont_know_answer",
                     "text": "Other unsupported browser"
                 }
             ],
@@ -73,7 +73,7 @@
                     "text": "No"
                 },
                 {
-                    "value": "assistance",
+                    "value": "dont_know_answer",
                     "text": "I need assistance enabling this setting"
                 }
             ],
@@ -94,8 +94,8 @@
                     "text": "No"
                 },
                 {
-                    "value": "NA",
-                    "text": "N/A"
+                    "value": "dont_know_answer",
+                    "text": "Don't know the answer"
                 }
             ],
             "required": true

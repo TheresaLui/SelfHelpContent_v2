@@ -69,6 +69,10 @@
                 {
                     "value": "Mac",
                     "text": "Mac"
+                },
+                {
+                    "value": "dont_know_answer"
+                    "text": "Other, don't know the answer"
                 }
             ],
             "required": true
@@ -95,23 +99,27 @@
             "watermarkText": "Supported Sources",
             "dropdownOptions": [
                 {
-                    "value": "S3",
-                    "text": "Amazon S3"
+                    "value": "Amazon S3",
+                    "text": "S3"
                 },
                 {
-                    "value": "ADLSGen2",
-                    "text": "ADLS Gen 2"
+                    "value": "ADLS Gen 2",
+                    "text": "ADLSGen2"
                 },
                 {
-                    "value": "Azure Blob",
-                    "text": "Blob"
+                    "value": "Blob",
+                    "text": "Azure Blob"
+                },
+                {
+                    "value": "dont_know_answer"
+                    "text": "Don't know the answer"
                 }
             ],
             "required": true
         },
         {
             "id": "Data_Sink",
-            "order": 7,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "What is the sink (destination) of the copy activity?",
             "watermarkText": "Supported Sinks",
@@ -123,13 +131,17 @@
                 {
                     "value": "Azure Blob",
                     "text": "Blob"
+                },
+                {
+                    "value": "dont_know_answer"
+                    "text": "Don't know the Answer"
                 }
             ],
             "required": true
         },
         {
             "id": "problem_run_id",
-            "order": 8,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Provide the Copy Activity RunId if you have one.",
             "infoBalloonText": "Enter the RunId for the issue.",
@@ -137,7 +149,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
