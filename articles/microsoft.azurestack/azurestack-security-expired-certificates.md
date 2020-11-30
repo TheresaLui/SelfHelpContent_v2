@@ -22,7 +22,7 @@ Azure Stack Hub uses certificates for both external and internal secrets. When c
 - Pending internal certificate expiration
 - Pending external certificate expiration
 
-External secrets are used to secure endpoints on external infrastructure and services, and provided by the Azure Stack Hub operator. Internal secrets are used by the Azure Stack Hub infrastructure without intervention of the Azure Stack Hub Operator.
+External secrets are used to secure endpoints on external infrastructure and services, and are provided by the Azure Stack Hub operator. Internal secrets are used by the Azure Stack Hub infrastructure without intervention of the Azure Stack Hub Operator.
 
 In order to resolve alerts for expired certificates, you need to rotate new certificates in their place. The process for rotating expired certificates is different for external and internal certificates.
 
