@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeCrash - Guest OS - Generic"
+	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - Generic"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > To investigate the causes of the VM crash, please use the following references that might be helpful:
 > 
@@ -56,7 +56,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 > 
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeCrash - Guest OS - Windows"
+	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - Windows"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> This unexpected occurrence was caused by a crash in the VM’s operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
+> This unexpected occurrence was caused by a crash in the VMs operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
 > 
 > To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
 > 
@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. More information on stop errors and how to analyze them can be found here:
 > 
@@ -50,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Bug Check Code Reference](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2)
 > 
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*
