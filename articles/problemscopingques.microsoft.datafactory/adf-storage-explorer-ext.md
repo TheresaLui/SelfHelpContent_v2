@@ -42,14 +42,14 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is your version of Storage Explorer?",
-            "required": true
+            "required": false
         },
         {
             "id": "ADF_extension_version",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is your version of ADF extension? ?",
-            "required": true
+            "required": false
         },
         {
             "id": "OS_Type",
