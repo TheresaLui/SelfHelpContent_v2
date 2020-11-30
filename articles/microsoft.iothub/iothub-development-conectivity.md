@@ -1,20 +1,15 @@
 <properties
-	pageTitle="How do I keep track of device connection state reliably and quickly?"
-	description="How do I keep track of device connection state reliably and quickly?"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
- 	ms.author="jlian,saziz,jtanner"
-	displayOrder="99"
-	selfHelpType="resource"
-	supportTopicIds="32630544"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
-	articleId="9d5822b4-1775-42a1-af9e-a691bb6ade57"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="How do I keep track of device connection state reliably and quickly?&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,saziz,jtanner,yiygu"
+  selfhelptype="Resource"
+  supporttopicids="32630541,32630540,32783516,32630568"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,usnat,ussec,mooncake"
+  articleid="9d5822b4-1775-42a1-af9e-a691bb6ade57"
+  ownershipid="AzureIot_IotHub" />
 # How do I keep track of device connection state reliably and quickly?
 
 ## **Recommended Steps**
