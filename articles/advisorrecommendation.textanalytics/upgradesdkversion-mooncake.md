@@ -18,7 +18,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcmc2.chinaeast2.kusto.chinacloudapi.cn').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"1.00:00:00"
+      "refreshInterval":"12:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
