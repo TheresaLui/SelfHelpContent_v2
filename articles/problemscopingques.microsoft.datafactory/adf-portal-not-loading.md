@@ -62,7 +62,7 @@
             "id": "cookies",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are 3rd party cookies enabled on the browser?",
+            "displayLabel": "Are third party cookies enabled on the browser?",
             "dropdownOptions": [
                 {
                     "value": "Yes",

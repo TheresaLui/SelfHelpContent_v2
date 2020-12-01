@@ -48,7 +48,7 @@
             "id": "ADF_extension_version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is your version of ADF extension? ?",
+            "displayLabel": "What is your version of ADF extension?",
             "required": false
         },
         {
