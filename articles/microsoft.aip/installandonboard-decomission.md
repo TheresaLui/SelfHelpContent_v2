@@ -17,15 +17,15 @@
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - RMS Decommissioning
 
-Review [Decommissioning and deactivating protection for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/decommission-deactivate)
+Review [Decommissioning and deactivating protection for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/decommission-deactivate).
 
 ## **Recommended Documents**
 
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 * [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [How to activate Azure Rights Management from the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-azure)
 
