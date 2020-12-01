@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5149d3e9-6097-bc64-3746-8495ccee7a76",
+      "longDescription": "",
+      "shortDescription": "Issues with certificate download or exporting pem or pfx file",
+      "searchTags": "export certificate;download;export;pem;pfx",
+      "category": "How to questions about export",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5792b030-de7c-85a3-d058-a9ece7e18ce7",
       "longDescription": "",
       "shortDescription": "Create and manage Azure Key Vault, configure settings, guidelines for throttling and best practices",
