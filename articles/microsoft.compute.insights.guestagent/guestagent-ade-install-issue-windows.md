@@ -35,9 +35,9 @@ A workaround for this issue is to ensure the VM Agent install completes, before 
 Add the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference any one of these extensions. 
 
 ### If you are not installing any other extensions as part of your deployment
-You can use the [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema (CSE) with a Hello World type script. Add the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference your CSE.
+You can use the [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema (CSE) with a script or command that echoes `$null`. Add the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference your CSE.
 
-In the below example CSE is added and executes `{$null}` and ADE depends on CSE.
+In the below example CSE is added executing `{$null}`, and ADE depends on CSE.
 ```
 {
     "type": "Microsoft.Compute/virtualMachines/extensions",
