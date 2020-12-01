@@ -19,23 +19,26 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 ## **Recommended Steps**
 
-Most customers resolved their Blob Inventory issue on their own, using the steps below.
+Most customers can resolve Blob Inventory issues by using the following steps.
 
 ### **Blob Inventory (Preview)**
 
-Blob Inventory is supported for general purpose v2 & premium block blob storage accounts. Storage Accounts which have hierarchal namespace enabled (ADLS Gen2) are also supported. During the preview, the feature is currently available in the following regions. For the most recent list of regions support, please visit our [documentation](https://docs.microsoft.com/azure/storage/blobs/blob-inventory).
+Blob Inventory is supported for general purpose v2 and premium block blob storage accounts. Storage Accounts that have hierarchal namespace enabled (ADLS Gen2) are also supported. During the preview, this feature is currently available in the following regions. For the most recent list of supported regions, see our [documentation](https://docs.microsoft.com/azure/storage/blobs/blob-inventory).
 
     France Central
     Canada Central
     Canada East
 
-[How to enable Blob Inventory reports?](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#enable-inventory-reports)
+[How do I enable Blob Inventory reports?](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#enable-inventory-reports)
 
-    Note: A blob Inventory run is automatically scheduled every day and an inventory run can take up to 24 hours to complete. We currently do not support setting up custom schedules for Blob Inventory runs.
+**Note:** A Blob Inventory run is automatically scheduled every day, and an inventory run can take up to 24 hours to complete. Currently, we do not support setting up custom schedules for Blob Inventory runs.
 
-[How does my inventory output look like?](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#inventory-output)
+
+[What does my Blob Inventory output look like?](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#inventory-output)
 
 ### **Frequently Reported Issues**
 
-* **Enabling Firewall rules on your storage account may block inventory requests** - If you enable firewall rules for your storage account, inventory requests may be blocked. You can unblock these requests by providing exceptions for trusted Microsoft services. For more information, see the Exceptions section in [Configure firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions).
+* **Enabling Firewall rules on your storage account may block inventory requests.** 
+
+If you enable firewall rules for your storage account, inventory requests may be blocked. You can unblock these requests by providing exceptions for trusted Microsoft services. For more information, see the Exceptions section in [Configure firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions).
 
