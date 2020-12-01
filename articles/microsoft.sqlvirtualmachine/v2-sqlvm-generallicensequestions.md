@@ -54,7 +54,7 @@ If you are unable to change licensing model or manage SQL server from Azure port
 
 * **How can I determine the license type of my SqlVirtualMachine resources?**<br>
    Run the following PowerShell command:   
-   `(Get-AzureRmResource -ResourceName <vm_name> -ResourceGroupName <resource_group> -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;` 
+   ```(Get-AzureRmResource -ResourceName vm_name -ResourceGroupName resource_group -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;```
      
 ## **Recommended Documents** 
 
