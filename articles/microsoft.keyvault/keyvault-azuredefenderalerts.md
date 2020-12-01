@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-* When you receive an alert from Azure Defender for Key Vault, we recommend you to investigate the alert. Azure Defender for Key Vault protects applications and credentials, so even if you're familiar with the application or user that triggered the alert, it's important to verify the situation surrounding every alert. [How to repond to unusual alert](https://docs.microsoft.com/azure/security-center/defender-for-key-vault-usage)
+* When you receive an alert from Azure Defender for Key Vault, we recommend you to investigate the alert. Azure Defender for Key Vault protects applications and credentials, so even if you're familiar with the application or user that triggered the alert, it's important to verify the situation surrounding every alert. [How to respond to unusual alert](https://docs.microsoft.com/azure/security-center/defender-for-key-vault-usage)
 
-* Familiarise yourself with the [types of alerts for Key Vault](https://docs.microsoft.com/azure/security-center/alerts-reference#alerts-azurekv)
+* Familiarize yourself with the [types of alerts for Key Vault](https://docs.microsoft.com/azure/security-center/alerts-reference#alerts-azurekv)
 
 ### **Troubleshooting**
 
