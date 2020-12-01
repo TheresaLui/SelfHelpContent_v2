@@ -19,8 +19,16 @@
 
 # Authentication methods - Other (tokens, 3rd party)
 
+### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):
+
+1. Launch the Sign-in Diagnostic.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
+   
 ## **Recommended Documents**
 
 * [Hardware OATH tokens](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#oath-hardware-tokens-public-preview).
 
-* 3rd Party MFA providers - [Custom Controls](https://docs.microsoft.com/azure/active-directory/conditional-access/controls).
+* Third-party MFA providers: [Custom Controls](https://docs.microsoft.com/azure/active-directory/conditional-access/controls).

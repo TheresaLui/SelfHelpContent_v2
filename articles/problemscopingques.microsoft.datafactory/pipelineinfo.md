@@ -4,90 +4,75 @@
 	authors="lisaliu,hecepeda"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629483,32637158,32637159,32629480,32629495,32637161,32740731"
+	supportTopicIds="32629483,32637158,32637159,32680905,32629480,32629495,32637161,32740731, 32781334, 32680906, 32680904, 32637160"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="BE3D6801-3F87-41BC-ACF9-B9DA8A86C55C"
 	ownershipId="AzureData_DataFactory"
 />
-
 # Azure Data Factory Pipeline Info
-
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Azure Data Factory Pipeline Info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service, and output of activity run to help us triage your problem faster",
+    "diagnosticCard": {
+        "title": "Azure Pipeline Activity Troubleshooter",
+        "description": "Our Pipeline Activity RunId Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect the issues we were looking for in your resource. Refer to the help manual below to troubleshoot your problem."
+    },
     "formElements": [
         {
-            "id": "df_version",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "What time did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_run_id",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
+			"diagnosticInputRequiredClients": "Portal",
+            "required": true
+        },
+        {
+            "id": "ir_type",
+            "order": 3,
+			"visibility": "null",
             "controlType": "dropdown",
-            "displayLabel": "Which Version of Data Factory are you using?",
-            "watermarkText": "Choose Data Factory Version",
+            "displayLabel": "Which type of integration runtime are you using?",
+            "watermarkText": "Choose an IR type",
             "dropdownOptions": [
                 {
-                    "value": "V2",
-                    "text": "V2"
+                    "value": "Azure IR",
+                    "text": "Azure IR"
                 },
                 {
-                    "value": "V1",
-                    "text": "V1"
+                    "value": "Self-hosted IR",
+                    "text": "Self-hosted IR"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Not applicable"
                 }
             ],
-            "required": false
-        },
-        {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
-            "id": "problem_end_time",
-            "order": 3,
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-            "required": false
-        },
-        {
-            "id": "pipeline_name",
+            "id": "problem_report_id",
             "order": 4,
+			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Name of the problem pipeline(s) (separate with commas)",
-            "required": false
-        },
-        {
-            "id": "pipeline_json_code",
-            "order": 5,
-            "controlType": "multilinetextbox",
-            "displayLabel": "JSON code of the affected pipeline",
-            "required": false
-        },
-        {
-            "id": "sample_pipeline_run_ids",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Sample problem pipeline RunIDs (separate with commas)",
-            "required": false
-        },
-        {
-            "id": "sample_activity_run_ids",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Sample problem activity RunIDs (separate with commas)",
-            "required": false
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue",
             "required": true,

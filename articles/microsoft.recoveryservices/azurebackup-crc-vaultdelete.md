@@ -19,21 +19,17 @@
 
 # Issue with delete vault 
 
-**These are the Protected items in the vault that are blocking the delete operation:**
 <!--issueDescription-->
-IaaSVM: <!--$IaaSVM-->IaaSVM<!--/$IaaSVM-->
-
-Azure Workload: <!--$AzureWorkload-->AzureWorkload<!--/$AzureWorkload-->
-
-Azure Storage: <!--$AzureStorage-->AzureStorage<!--/$AzureStorage-->
-
-DPM: <!--$DPM-->DPM<!--/$DPM-->
-
-Azure Backup Server: <!--$AzureBackupServer-->AzureBackupServer<!--/$AzureBackupServer-->
-
-MAB: <!--$MAB-->MAB<!--/$MAB--> 
-
+Our internal service telemetry detected that your vault **<!--$VaultName-->VaultName<!--/$VaultName-->** contains Protected Items. Vault deletion is blocked until these items are deleted.
 <!--/issueDescription-->
+
+* Azure Virtual Machine: **<!--$IaaSVM-->IaaSVM<!--/$IaaSVM-->**
+* SAP HANA in Azure VM: **<!--$SAPHanaDatabase-->SAPHanaDatabase<!--/$SAPHanaDatabase-->**
+* SQL in Azure VM: **<!--$SQLDataBase-->SQLDataBase<!--/$SQLDataBase-->**
+* Azure Storage(Azure Files): **<!--$AzureStorage-->AzureStorage<!--/$AzureStorage-->**
+* DPM: **<!--$DPM-->DPM<!--/$DPM-->**
+* Azure Backup Server: **<!--$AzureBackupServer-->AzureBackupServer<!--/$AzureBackupServer-->**
+* Azure Backup Agent: **<!--$MAB-->MAB<!--/$MAB-->**
 
 ## **Recommended Steps**
 

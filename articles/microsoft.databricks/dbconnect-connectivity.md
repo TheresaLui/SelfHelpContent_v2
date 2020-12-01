@@ -17,7 +17,20 @@
 
 # Diagnose and resolve issues related to connectivity with IDE
 
+## **Recommended Steps**
+
+* Push the JAR to Databricks cluster directly using Databricks Connect instead of the UI:  
+
+	- Use the [REST API to post the JAR to the DBFS directly](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/dbfs#--put), or
+	- [Upload the JAR to DBFS programmatically](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/examples#--upload-a-big-file-into-dbfs)
+	- Use the [REST API to install the library to cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install)
+
 ## **Recommended Documents**
 
-* [How to install the client](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#step-1-install-the-client)
-* [How to configure connection properties](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#step-2-configure-connection-properties)
+* [Databricks Connect](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect)
+* [How to setup the client?](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-client)
+* [How to setup IDE or notebook server to use Databricks Connect?](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-your-ide-or-notebook-server)
+* [Databricks Connect Troubleshooting](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#troubleshooting)
+* [Limitations](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#limitations)
+
+

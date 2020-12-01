@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
-# Auditing
+# Auditing 
 
 ## **Recommended Documents**
 

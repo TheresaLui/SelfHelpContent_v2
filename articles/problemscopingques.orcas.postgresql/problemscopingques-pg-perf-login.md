@@ -4,8 +4,8 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639986"
-	productPesIds="17067,17069,17068"
+	supportTopicIds="32639986, 32781007, 32781008"
+	productPesIds="17067,17068,17069"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-perf-login"
@@ -18,24 +18,40 @@
     "subscriptionRequired": false,
     "title": "Database login is slow",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for PostgreSQL Perf Troubleshooter",
+        "description": "Our Azure Database for PostgreSQL Perf Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "repro_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When was the most recent repro?",
             "required": true
         },
         {
             "id": "client_location",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is your client located in the same region as your database server?",
             "dropdownOptions": [
@@ -52,7 +68,7 @@
         },
         {
             "id": "accelerated_networking",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is accelerated networking enabled on the client?",
             "dropdownOptions": [
@@ -69,7 +85,7 @@
         },
         {
             "id": "pooling",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Do you have connection pooling enabled?",
             "infoBalloonText": "It is highly recommended to enable connection pooling while testing the server performance with multiple connections.",
@@ -87,7 +103,7 @@
         },
         {
             "id": "point_of_comparison",
-            "order": 6,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "What is your point of comparison?",
             "dropdownOptions": [
@@ -120,7 +136,7 @@
         },
         {
             "id": "cloud_as_point_of_comparison",
-            "order": 7,
+            "order": 8,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "textbox",
             "displayLabel": "Please indicate to which cloud environment you are comparing:",
@@ -128,7 +144,7 @@
         },
         {
             "id": "cloud_as_point_of_comparison_config",
-            "order": 8,
+            "order": 9,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your database configuration in the corresponding environment?",
@@ -137,7 +153,7 @@
         },
         {
             "id": "cloud_as_point_of_comparison_app",
-            "order": 9,
+            "order": 10,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your application VM configuration in the corresponding environment?",
@@ -146,7 +162,7 @@
         },
         {
             "id": "other_point_of_comparison",
-            "order": 10,
+            "order": 11,
             "visibility": "point_of_comparison == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please specify your point of comparison:",
@@ -154,7 +170,7 @@
         },
         {
             "id": "workload",
-            "order": 11,
+            "order": 12,
             "controlType": "dropdown",
             "displayLabel": "Is the workload the same as your point of comparison?",
             "dropdownOptions": [
@@ -171,21 +187,21 @@
         },
         {
             "id": "measurement_method",
-            "order": 12,
+            "order": 13,
             "controlType": "textbox",
             "displayLabel": "What tools are you using to measure your performance?",
             "required": false
         },
         {
             "id": "measurement",
-            "order": 13,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide your performance/latency numbers:",
             "required": false
         },
         {
             "id": "login_happens_at",
-            "order": 14,
+            "order": 15,
             "controlType": "dropdown",
             "displayLabel": "Login latency happens at:",
             "dropdownOptions": [
@@ -206,10 +222,10 @@
         },
         {
             "id": "problem_description",
-            "order": 15,
+            "order": 16,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
-            "watermarkText": "Provide your repro steps and other information about your issue",
+            "watermarkText": "Please provide the repro steps and other information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

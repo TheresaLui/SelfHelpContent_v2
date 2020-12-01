@@ -7,7 +7,7 @@
     ms.author="ambhatna"
     displayOrder="200"
     selfHelpType="generic"
-    supportTopicIds="32640013"
+    supportTopicIds="32640013, 32780932"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -27,6 +27,7 @@ Please note that changing to and from the Basic pricing tier after server creati
 
 ## **Recommended Documents**
 
+* Learn more about [the pricing tiers](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers)
 * [Azure Database for PostgreSQL Pricing Page](https://azure.microsoft.com/pricing/details/postgresql/)<br>
 * [Pricing calculator](https://azure.microsoft.com/pricing/calculator/?service=postgresql/)<br>
-* [Azure Database for PostgreSQL documentation](https://docs.microsoft.com/azure/postgresql/)
+
