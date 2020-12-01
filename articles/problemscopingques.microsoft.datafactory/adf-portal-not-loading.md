@@ -83,7 +83,7 @@
             "id": "cache",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Have you tried clearing the browser cache?",
+            "displayLabel": "Have you tried clearing the browser's cache?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
