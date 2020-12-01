@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* **Azure Event Hubs + Apache Spark connector** is updated regularly, and a more recent version may be available: we recommend that you [pull the latest connector from the Maven repository](https://mvnrepository.com/artifact/com.microsoft.azure/azure-eventhubs-spark)
+* **Azure Event Hubs + Apache Spark connector** is updated regularly, and a more recent version may be available. We recommend that you [pull the latest connector from the Maven repository](https://mvnrepository.com/artifact/com.microsoft.azure/azure-eventhubs-spark).
 
 * If the IP Access List feature is enabled for the workspace, make sure to provide assignment permissions to Azure Data Factory IPs so that you can run notebooks from ADF:
 
