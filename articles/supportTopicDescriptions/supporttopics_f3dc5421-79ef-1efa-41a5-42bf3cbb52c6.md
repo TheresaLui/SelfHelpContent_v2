@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Subscription Management"
   description="Support topic description for Subscription Management"
   authors="akankshajsh, elixirsys2"
-  ms.author="akjoshi, prdasneo"
+  ms.author="akjoshi, prdasneo, scotro"
   selfhelptype="SupportTopicDescription"
   productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -263,6 +263,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dd2cac6b-d99a-aa60-c36e-aff6a772a433",
+      "longDescription": "",
+      "shortDescription": "Need assistance with how a reservation is applied to an existing resource",
+      "searchTags": "RI;Reserved Instance;Reservation",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "dd84a6a1-88e5-c59f-4683-fd728d17f267",
