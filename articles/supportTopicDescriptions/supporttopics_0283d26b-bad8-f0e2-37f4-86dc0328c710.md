@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d4cd7634-af53-a159-394c-3c0ce28bae07",
+      "longDescription": "",
+      "shortDescription": "How to respond to Azure Defender for Key Vault alerts",
+      "searchTags": "unusual;alert;Defender;key vault alert",
+      "category": "Remediation steps for Azure alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
       "shortDescription": "Use Azure Key Vault with Azure Services or Applications hosted in managed App Service platform (web apps, functions)",
