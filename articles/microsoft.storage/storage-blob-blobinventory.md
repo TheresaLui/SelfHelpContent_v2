@@ -19,17 +19,19 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 ## **Recommended Steps**
 
-Most users can resolve Blob Inventory issues by using the following steps.
+Most users can resolve Azure Storage blob inventory issues by using the following steps.
 
-### **Blob Inventory (Preview)**
+### **Blob inventory (Preview)**
 
-Blob Inventory is supported for general purpose v2 and premium block blob storage accounts. Storage Accounts that have hierarchal namespace enabled (ADLS Gen2) are also supported. During the preview, this feature is currently available in the following regions. For the most recent list of supported regions, see our [documentation](https://docs.microsoft.com/azure/storage/blobs/blob-inventory).
+Blob inventory is supported for general purpose v2 and premium block Azure Storage blob accounts. Storage accounts that have hierarchal namespace enabled (ADLS Gen2) are also supported. During the preview, this feature is currently available in the following regions: 
 
     France Central
     Canada Central
     Canada East
 
-[How do I enable Blob Inventory reports?](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#enable-inventory-reports)
+For the most recent list of supported regions, see our [documentation](https://docs.microsoft.com/azure/storage/blobs/blob-inventory).
+
+Also see [how do I enable Blob Inventory reports](https://docs.microsoft.com/azure/storage/blobs/blob-inventory#enable-inventory-reports)?
 
 **Note:** A Blob Inventory run is automatically scheduled every day, and an inventory run can take up to 24 hours to complete. Currently, we do not support setting up custom schedules for Blob Inventory runs.
 
