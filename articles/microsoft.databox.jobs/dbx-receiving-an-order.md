@@ -31,7 +31,7 @@ The Data Box service *does not guarantee any SLA* for the order fulfilment and c
   6.	Processing device at Datacenter – 1-2 business days
   7.	Upload data to Azure – Copy will begin as soon as processing is done and device is connected, completion depends on nature of data, size and number of files.
 
-These are only estimates and subject to vary depending on inventory availability, processing capacity and other factors at the datacenter. Please note that orders are processed and shipped at datacenters worldwide only on business days.
+These are only estimates and are subject to vary depending on inventory availability, processing capacity and other factors at the datacenter. Please note that orders are processed and shipped at datacenters worldwide only on business days.
 When a shipment is in transit, tracking information is updated in the Overview page in the portal.
 
 ### **Recommended Documents**
