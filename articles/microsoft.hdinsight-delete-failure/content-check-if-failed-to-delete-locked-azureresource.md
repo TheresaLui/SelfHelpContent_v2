@@ -22,9 +22,9 @@ Run the below kusto query to check:
 
 ```kusto
 IaasClusterCRUDEvent
-| where ClusterDnsName =~ ""{ClusterDnsName}"" and HdiDeploymentId =~ ""{HdiDeploymentId}"" and UserSubscriptionId =~ ""{UserSubscriptionId}""
+| where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ ""{UserSubscriptionId}""
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
-| where ErrorInfoAsJson has ""AzureResourceLockedDeletionFailedErrorCode""
+| where ErrorInfoAsJson contains "AzureResourceLockedDeletionFailedErrorCode" and InternalErrorMessage contains "ScopeLocked"
 | project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage
 ```
 
