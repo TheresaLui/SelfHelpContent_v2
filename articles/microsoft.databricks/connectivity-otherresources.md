@@ -21,10 +21,10 @@
 
 * **Azure Event Hubs + Apache Spark connector** is updated regularly, and a more recent version may be available: we recommend that you [pull the latest connector from the Maven repository](https://mvnrepository.com/artifact/com.microsoft.azure/azure-eventhubs-spark)
 
-* If IP Access List feature is enabled for the workspace, make sure to whitelist Azure Data Factory IPs so that you can run notebooks from ADF:
+* If the IP Access List feature is enabled for the workspace, make sure to provide assignment permissions to Azure Data Factory IPs so that you can run notebooks from ADF:
 
-  - To update IP access list or create additional new one with new CIDR, follow [these instructions](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list)
-  - See [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted and search for DataFactory.Region 
+  - To update the IP access list or create a new one with a new CIDR, follow [these instructions](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list)
+  - For CIDRs that need assignment permissions, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519), and search for *DataFactory.Region* 
 
 ## **Recommended Documents**
 
