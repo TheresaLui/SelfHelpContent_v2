@@ -19,6 +19,7 @@
 
 ## **Recommended Documents**
 
-- [Ad-hoc backups working and scheduled backups not even firing](https://aka.ms/AB-AA4dwtq)<br>
-- [Ad-hoc backups failing and scheduled backups not even firing](https://aka.ms/AB-SQL-Backupfailure)<br>
-- [Ad-hoc backups failing and scheduled backups failing](https://aka.ms/AB-SQL-Backupfailure)
+- [How to run an on-demand backup](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#run-an-on-demand-backup)
+- Steps to [modify backup policy](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#modify-policy) to change backup frequency or retention.
+- [Can I control how many concurrent backups run on the SQL server?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-control-how-many-concurrent-backups-run-on-the-sql-server)
+- [FAQs](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>

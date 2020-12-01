@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Problem provisioning or managing workspace"
-	description="Problem provisioning or managing workspace"
-	infoBubbleText="Problem provisioning or managing workspace"
+	pageTitle="Managing associated resources (storage, key vault, container registry, app insights)"
+	description="Managing associated resources (storage, key vault, container registry, app insights)"
+	infoBubbleText="Managing associated resources (storage, key vault, container registry, app insights)"
 	service="microsoft.machinelearning.workspace"
 	resource="machinelearning"
 	authors="johnwu0604"
@@ -11,17 +11,17 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.workspace.manage.scoping.q"
+	articleId="microsoft.machinelearning.workspace.associatedresources.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 
-# Problem provisioning or managing workspace
+# Managing associated resources (storage, key vault, container registry, app insights)
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Problem provisioning or managing workspace ",
+    "title": "Managing associated resources (storage, key vault, container registry, app insights)",
     "fileAttachmentHint": "",
     "formElements": [
         {
