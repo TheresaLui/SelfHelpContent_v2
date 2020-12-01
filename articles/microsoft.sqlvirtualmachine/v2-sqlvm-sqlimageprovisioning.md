@@ -1,5 +1,5 @@
 <properties
-  pagetitle="SQL Image Provisioning&#xD;"
+  pagetitle="SQL Image Provisioning"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -33,8 +33,6 @@ To deploy SQL Server inside an Azure Virtual Machine (VM), follow the instructio
    * Start with an OS-only VM, and follow the regular two-step [SQL Sysprep Process](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?view=sql-server-ver15). Follow this with [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).
    * Use one of our SQL VM images and follow [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource). Make sure that you [add the SQL login to the generalized VM and delete the registry key mentioned here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#images).
    
-## Common Errors
-
 * **SQL BYOL Image deployment fails**
 
    To deploy SQL Server BYOL Images on Azure, you must have the [Enterprise Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-get-started) and [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default?rtc=1&activetab=software-assurance-default-pivot%3aprimaryr3). Azure Cloud Solution Partner (CSP) cannot deploy BYOL images. You can deploy Pay-as-you-go images and then [Enable Azure hybrid benefits](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal#vms-already-registered-with-the-resource-provider) to bring their own licenses.
