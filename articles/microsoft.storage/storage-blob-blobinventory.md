@@ -19,7 +19,7 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 ## **Recommended Steps**
 
-Most customers can resolve Blob Inventory issues by using the following steps.
+Most users can resolve Blob Inventory issues by using the following steps.
 
 ### **Blob Inventory (Preview)**
 
