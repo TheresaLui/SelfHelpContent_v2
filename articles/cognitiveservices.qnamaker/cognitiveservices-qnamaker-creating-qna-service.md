@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Creating a QnA Service-Azure Portal"
-	description="Creating a QnA Service-Azure Portal"
-	service="cognitiveService-qnamaker"
-	resource="qnamaker"
-	authors="DishaAgarwal"
-	ms.author="diagarw"
-	displayOrder="1"
-	selfHelpType="generic"
-	supportTopicIds="32689805"
-	resourceTags=""
-	productPesIds="16919"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-	articleId="1b0b30f9-3934-746d-c74f-c0216466891f"
-	ownershipId="AzureCogSvc_CognitiveServices"
-/>
-
+  pagetitle="Creating a QnA Service&#xD;"
+  service="cognitiveservice-qnamaker"
+  resource="qnamaker"
+  ms.author="diagarw,nerajput"
+  selfhelptype="Generic"
+  supporttopicids="32689804,32689805"
+  resourcetags=""
+  productpesids="16919"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="1b0b30f9-3934-746d-c74f-c0216466891f"
+  ownershipid="AzureCogSvc_CognitiveServices" />
 # Creating a QnA Service
 
 ### **Frequently asked questions**
