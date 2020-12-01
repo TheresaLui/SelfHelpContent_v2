@@ -1,23 +1,26 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
-	authors="jlian"
-	ms.author="jlian"
+	pageTitle="Issues with IoT Hub IP Filters"
+	description="Issues with IP Filters for IoT Hub scoping questions"
+	authors="camanle"
+	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528, 32783519, 32630531"
+	supportTopicIds="32630554"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="problemscopingques-ip-filters"
 	ownershipId="AzureIot_IotHub"
 />
-# IoT Hub service issues
+
+# IoT Hub IP Filter issues
+
 ---
+
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "IoT Hub IP Filter issues",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -26,6 +29,15 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
+    },
+    {
+      "id": "device_id",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Affected device IDs",
+      "infoBalloonText": "Ideally 3 devices",
+      "watermarkText": "Example: myEdgeDevice, chiller-02",
+      "required": false
     },
     {
       "id": "problem_description",
@@ -43,15 +55,8 @@
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
-    },
-    {
-      "id": "errors",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": false
     }
   ]
+
 }
 ---
