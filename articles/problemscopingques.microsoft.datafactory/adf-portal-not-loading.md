@@ -25,7 +25,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please briefly describe the issue",
+            "displayLabel": "Briefly describe the issue",
             "required": true,
             "useAsAdditionalDetails": true
         },
@@ -33,7 +33,7 @@
             "id": "browser_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Which type of browser are you using?",
+            "displayLabel": "Which browser are you using?",
             "watermarkText": "Choose Data Factory Version",
             "dropdownOptions": [
                 {
@@ -62,7 +62,7 @@
             "id": "cookies",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are third party cookies enabled on the browser?",
+            "displayLabel": "Are third-party cookies enabled in the browser?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
