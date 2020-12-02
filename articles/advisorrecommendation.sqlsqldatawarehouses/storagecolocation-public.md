@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Col-locate the storage account within the same region"
-    description="Col-locate the storage account within the same region"
+    pageTitle="Co-locate the storage account within the same region"
+    description="Co-locate the storage account within the same region"
     authors="kevin"
     ms.author="kevin"
     articleId="314a2614-24d3-496c-b9d6-e6cd3df4b6c2_public"
@@ -60,9 +60,9 @@
       }
     }
   },
-  "displayLabel": "Colocate the storage account and the SQL pool within the same region",
+  "displayLabel": "Co-locate the storage account and the SQL pool within the same region",
   "additionalColumns": [],
-  "tip": "You can minimize latency and increase load performance by colocating your storage account with your SQL pool",
+  "tip": "You can minimize latency and increase load performance by co-locating your storage account with your SQL pool",
   "testData":"5a352e58-10ee-4f0f-9ce7-c6de232fc8ac,/subscriptions/5a352e58-10ee-4f0f-9ce7-c6de232fc8ac/resourceGroups/DWRJobs/providers/Microsoft.Sql/servers/dwreliability/databases/DWReliability"
 
 }
