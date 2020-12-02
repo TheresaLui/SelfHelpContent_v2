@@ -66,3 +66,4 @@ Currently Terraform doesn?t support analytical store containers. See [Terraform 
 
 [Azure Synapse Link for Azure Cosmos DB: Near real-time analytics use cases](https://docs.microsoft.com/azure/cosmos-db/synapse-link-use-cases)
 <br>Azure Synapse Link for Azure Cosmos DB Use cases
+ 
