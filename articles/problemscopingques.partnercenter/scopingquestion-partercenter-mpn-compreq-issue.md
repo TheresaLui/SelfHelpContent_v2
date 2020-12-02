@@ -362,6 +362,10 @@
 		   "text": "SPLA and CSP Revenue"
 	       },
 	       {
+		   "value": "training_kpi",
+		   "text": "Training KPIs"
+	       },
+	       {
 		   "value": "dont_know_answer",
 		   "text": "Not sure"
 	       }
