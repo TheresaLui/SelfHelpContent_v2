@@ -393,7 +393,7 @@
          "id": "subscription_guid1",
          "visibility": "competency_requirement == azure_customer_consumption || competency_requirement == monthly_active_usage",
          "controlType": "multilinetextbox",
-         "order": 6,
+         "order": 8,
 	     "displayLabel": "Subscription GUID",
 	     "watermarkText": "Please provide the Subscription GUID",
          "required": false
@@ -402,35 +402,35 @@
          "id": "cust_name1",
          "visibility": "competency_requirement == azure_customer_consumption || competency_requirement == monthly_active_usage",
          "controlType": "multilinetextbox",
-         "order": 6,
+         "order": 9,
 	     "displayLabel": "Customer Name",
 	     "watermarkText": "Please provide the Customer Name",
          "required": false
        },
        {
          "id": "text_attach3",
-         "order": 7,
+         "order": 10,
          "visibility": "competency_requirement == azure_customer_consumption",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of association, Proof of payment (i.e. Microsoft Invoice), PSR or Screenshot with the discrepancy, PC Insights Azure usage report"
        },
        {
          "id": "text_attach4",
-         "order": 8,
+         "order": 11,
          "visibility": "competency_requirement == monthly_active_usage",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of payment (i.e. Microsoft Invoice) and also proofs of active usage."
        },
        {
          "id": "text_attach5",
-         "order": 9,
+         "order": 12,
          "visibility": "competency_requirement == gross_var_isv_license",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of ORG ID mapped with PSBC account (screenshot with association of ORG ID from PSBC) OR the Proof of the MPN ERP VAR and MPN ERP ISV license revenue values from PSBC."
        },
        {
          "id": "text_attach6",
-         "order": 10,
+         "order": 13,
          "visibility": "competency_requirement == adr_dpm || competency_requirement == revenue_surface_accessories",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload a proof of Authorized Surface ADR or Disti Managed Partner (DMP) issued by Microsoft"
@@ -439,7 +439,7 @@
          "id": "cust_tenant_id2",
          "visibility": "competency_requirement == cloud_revenue_newbilled || competency_requirement == monthly_activeu_cspindirect",
          "controlType": "multilinetextbox",
-         "order": 11,
+         "order": 14,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
          "required": false
@@ -448,7 +448,7 @@
          "id": "subscription_guid2",
          "visibility": "competency_requirement == cloud_revenue_newbilled || competency_requirement == monthly_activeu_cspindirect",
          "controlType": "multilinetextbox",
-         "order": 12,
+         "order": 15,
 	     "displayLabel": "Subscription GUID",
 	     "watermarkText": "Please provide the Subscription GUID",
          "required": false
@@ -457,28 +457,28 @@
          "id": "cust_name2",
          "visibility": "competency_requirement == cloud_revenue_newbilled || competency_requirement == monthly_activeu_cspindirect",
          "controlType": "multilinetextbox",
-         "order": 13,
+         "order": 16,
 	     "displayLabel": "Customer Name",
 	     "watermarkText": "Please provide the Customer Name",
          "required": false
        },
        {
          "id": "text_attach7",
-         "order": 14,
+         "order": 17,
          "visibility": "competency_requirement == cloud_revenue_newbilled",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload a screenshot with the approved claim from his own dashboard for the customers driving revenue through."
        },
        {
          "id": "text_attach8",
-         "order": 15,
+         "order": 18,
          "visibility": "competency_requirement == monthly_activeu_cspindirect",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of association, Proof of payment (i.e. Microsoft Invoice), PSR or Screenshot with the discrepancy, PC Insights Azure usage report. For Azure customer consumption issues or queries please provide the Proof of active usage."
        },
 	   {
 	     "id": "organization_id1",
-         "order": 16,
+         "order": 19,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
 	     "controlType": "textbox",
 	     "displayLabel": "Organization ID",
@@ -487,7 +487,7 @@
 	   },
 	   {
 	     "id": "tp_id1",
-         "order": 17,
+         "order": 20,
          "visibility": "competency_requirement == msauthdistri_cspindirect || competency_requirement == revenue_surface_hubdevice_ttm",
 	     "controlType": "textbox",
 	     "displayLabel": "TPID (Top Partner ID)",
@@ -496,7 +496,7 @@
 	   },
 	   {
 	     "id": "sap_id1",
-         "order": 18,
+         "order": 21,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
 	     "controlType": "textbox",
 	     "displayLabel": "Company's SAP ID",
@@ -505,14 +505,14 @@
 	   },
        {
          "id": "text_attach9",
-         "order": 19,
+         "order": 22,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Channel Partner Authorization Form (Distributor) document signed by Microsoft"
        },
        {
          "id": "text_attach10",
-         "order": 20,
+         "order": 23,
          "visibility": "competency_requirement == revenue_surface_hubdevice_ttm",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload a proof of Relevant devices shipped in TTM (trailing twelve months) period"
@@ -521,7 +521,7 @@
          "id": "cust_tenant_id3",
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == newem_ems_customers",
          "controlType": "multilinetextbox",
-         "order": 21,
+         "order": 24,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
          "required": false
@@ -530,7 +530,7 @@
          "id": "subscription_guid3",
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == newem_ems_customers",
          "controlType": "multilinetextbox",
-         "order": 22,
+         "order": 25,
 	     "displayLabel": "Subscription GUID",
 	     "watermarkText": "Please provide the Subscription GUID",
          "required": false
@@ -539,21 +539,21 @@
          "id": "cust_name3",
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == newem_ems_customers",
          "controlType": "multilinetextbox",
-         "order": 23,
+         "order": 26,
 	     "displayLabel": "Customer Name",
 	     "watermarkText": "Please provide the Customer Name",
          "required": false
        },
        {
          "id": "text_attach11",
-         "order": 24,
+         "order": 28,
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == seats_powerbi",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of payment (i.e. Microsoft Invoice)"
        },
        {
          "id": "text_attach12",
-         "order": 25,
+         "order": 29,
          "visibility": "competency_requirement == newem_ems_customers",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of payment (i.e. Microsoft Invoice) and also proofs of active usage."
@@ -562,7 +562,7 @@
          "id": "cust_tenant_id4",
          "visibility": "competency_requirement == seats_powerbi",
          "controlType": "multilinetextbox",
-         "order": 26,
+         "order": 30,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
          "required": false
@@ -571,7 +571,7 @@
          "id": "subscription_guid4",
          "visibility": "competency_requirement == seats_powerbi",
          "controlType": "multilinetextbox",
-         "order": 27,
+         "order": 31,
 	     "displayLabel": "Subscription GUID",
 	     "watermarkText": "Please provide the Subscription GUID",
          "required": false
@@ -580,14 +580,14 @@
          "id": "cust_name4",
          "visibility": "competency_requirement == seats_powerbi",
          "controlType": "multilinetextbox",
-         "order": 28,
+         "order": 32,
 	     "displayLabel": "Customer Name",
 	     "watermarkText": "Please provide the Customer Name",
          "required": false
        },
 	   {
 	     "id": "tp_id2",
-         "order": 29,
+         "order": 33,
          "visibility": "competency_requirement == sold_oem_licenses",
 	     "controlType": "textbox",
 	     "displayLabel": "TPID (Top Partner ID)",
@@ -596,7 +596,7 @@
 	   },
 	   {
 	     "id": "mar_number",
-         "order": 30,
+         "order": 34,
          "visibility": "competency_requirement == sold_oem_licenses",
 	     "controlType": "textbox",
 	     "displayLabel": "MAR agreement reference number (for MAR partners)",
@@ -605,14 +605,14 @@
 	   },
        {
          "id": "text_attach13",
-         "order": 31,
+         "order": 35,
          "visibility": "competency_requirement == sold_oem_licenses",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload a proof sustaining the relevant devices sold across TTM (trailing twelve months)"
        },
 	   {
 	     "id": "spla_agreement1",
-         "order": 32,
+         "order": 36,
          "visibility": "competency_requirement == spla_csp_revenue",
 	     "controlType": "textbox",
 	     "displayLabel": "SPLA active agreement number",
@@ -624,7 +624,7 @@
          "id": "cust_tenant_id5",
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
-         "order": 33,
+         "order": 37,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
          "infoBalloonText": "Required for CSP Revenue issues or queries",
@@ -634,7 +634,7 @@
          "id": "subscription_id5",
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
-         "order": 34,
+         "order": 38,
 	     "displayLabel": "Subscription ID",
 	     "watermarkText": "Please provide the Subscription ID",
          "infoBalloonText": "Required for CSP Revenue issues or queries",
@@ -644,7 +644,7 @@
          "id": "customer_name5",
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
-         "order": 35,
+         "order": 39,
 	     "displayLabel": "Customer name",
 	     "watermarkText": "Please provide the Customer name",
          "infoBalloonText": "Required for CSP Revenue issues or queries",
@@ -652,8 +652,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 36,
-       "visibility": "true",
+	   "order": 40,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about your issue",
@@ -663,8 +662,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 37,
-       "visibility": "true",
+	   "order": 41,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
