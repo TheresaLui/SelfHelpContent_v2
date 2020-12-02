@@ -30,3 +30,4 @@
 
 * [Getting started with Visual Studio 2019](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-install-visual-studio)
 
+ 
