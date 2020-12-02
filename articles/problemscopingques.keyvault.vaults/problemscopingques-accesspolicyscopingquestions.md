@@ -56,9 +56,16 @@
             "displayLabel": "When did you start experiencing this issue?",
             "required": true
         },
+	{
+            "id": "key_vault_name",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the object id of your security principal?",
+            "required": false
+        },
         {
             "id": "spn_type",
-            "order": 4,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of security principal are you trying to use?",
             "dropdownOptions": [{
@@ -80,14 +87,14 @@
         },
         {
             "id": "spn_object_id",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the object id of your security principal?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
@@ -96,7 +103,7 @@
         },
         {
             "id": "attached_screenshots",
-            "order": 7,
+            "order": 8,
             "controlType": "radioButtonGroup",
             "displayLabel": "Are screenshots attached:",
             "radioButtonOptions": [{
@@ -111,7 +118,7 @@
         },
         {
             "id": "error_message_available",
-            "order": 8,
+            "order": 9,
             "controlType": "radioButtonGroup",
             "displayLabel": "Is there an error message?",
             "radioButtonOptions": [{
@@ -126,7 +133,7 @@
         },
         {
             "id": "error_message_description",
-            "order": 9,
+            "order": 10,
             "visibility": "error_message_available == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Error message details",
