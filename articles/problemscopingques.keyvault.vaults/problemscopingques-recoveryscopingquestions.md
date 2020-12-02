@@ -37,7 +37,7 @@
                     "text": "I am trying to turn off or modify a key vault recovery feature"
                 },
                 {
-                    "value": "I am not sure",
+                    "value": "dont_know_answer",
                     "text": "I am not sure"
                 }
             ],
