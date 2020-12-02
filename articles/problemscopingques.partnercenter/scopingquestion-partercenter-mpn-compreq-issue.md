@@ -315,7 +315,7 @@
 	       },
 	       {
 		   "value": "exam",
-		   "text": "Exam"
+		   "text": "Exams"
 	       },
 	       {
 		   "value": "gross_var_isv_license",
