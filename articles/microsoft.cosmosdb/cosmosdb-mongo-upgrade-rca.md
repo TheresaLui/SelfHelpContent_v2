@@ -25,7 +25,7 @@ Upgrading to the latest version of the service will provide the most up-to-date 
 
 <!--/issueDescription-->
 
-<!--$DowntimeCondition-->[DowntimeCondition]<!--/$DowntimeCondition-->
+The upgrade process will not cause any service interruptions or downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
 
 **Note:** The notification might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
