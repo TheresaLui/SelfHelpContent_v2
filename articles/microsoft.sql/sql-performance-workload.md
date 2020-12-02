@@ -20,11 +20,11 @@
 # Increase in User Workload
 
 <!--issueDescription-->
-We detected that over the past 24 hours there has been an increase in total query executions on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->** and may not have enough resources to handle this user load increase.
+We detected that over the past 2 hours there has been an increase in total user query executions on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->** and may not have enough resources to handle this user load increase.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-An increase in user load is potentially contributing to performance issues or timeouts. 
+An increase in user workload is potentially contributing to performance issues or timeouts. 
 
 To improve performance, follow these recommendations:
 * To account for increased user workload, upgrade your database tier. For more information, go to [vCore and DTU purchasing models](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models). 
