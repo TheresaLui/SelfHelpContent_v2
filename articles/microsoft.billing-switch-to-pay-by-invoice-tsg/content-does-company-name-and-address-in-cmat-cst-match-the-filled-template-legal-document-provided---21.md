@@ -15,6 +15,6 @@
    	ownershipId="ASMS_Billing"
 />
 
-# Check if the company name and address in CMAT/CST match the filled template/legal document provided
+# Check if the company name and address in CMAT/CST match the filled template or legal document provided
 
 Validate the Company name provded on Legal Documents with data in CMAT/CST.
