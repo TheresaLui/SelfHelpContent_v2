@@ -15,13 +15,11 @@ ownershipId="StorageMediaEdge_XStore"
 
 ## Troubleshooting Authentication and Authorization failures
 
-Most customers resolved their Azure AD authentication failures on their own, using the diagnostics, articles, and video below.
-
-## Chart for Authentication and Authorization failures
+Most customers resolve their Azure AD authentication failures using charts, diagnostics, and documentation links.
 
 :::Section Recommended solutions:::
 
-The following charts can help you to narrow down the time frames when the Authentication or Authorization failures occurred:
+The following chart can help you to narrow down the time frames when the Authentication or Authorization failures occurred:
 
 <metric>
 <name>Transactions</name>
@@ -29,21 +27,20 @@ The following charts can help you to narrow down the time frames when the Authen
 <timeSpanType>relative</timeSpanType>
 <timeSpanDuration>1d</timeSpanDuration>
 <title>Storage Authentication and Authorization Failure</title>
-<client>ASC,Portal</client>
 </metric>
 
-## Finding Authentication and Authorization failure occurrences 
+### Finding Authentication and Authorization failure occurrences 
 
 <Insight>
 <symptomId>StorageFailureTransactionInsightLight</symptomId>
 <executionText>We are running a quick check to find the authentication or authorization failure occurrences on the storage account</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
 <noResultText>No authentication or authorization failures were found during the last 24 hours. Please modify the starttime and endtime to choose a different time window.</noResultText>
-<client>ASC,Portal</client>
 <additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
-### Input the response from the previous troubleshooter or provide custom data so we can run a deep analysis on a specific failure
+### Root cause diagnostics
+Input the response from the previous troubleshooter or provide custom data so we can run a deep analysis on a specific failure:
 
 <Insight>
 <symptomId>StorageFailureTransactionInsight</symptomId>
