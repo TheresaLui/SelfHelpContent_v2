@@ -57,15 +57,8 @@
             "required": true
         },
         {
-            "id": "key_vault_name",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the name of your key vault?",
-            "required": true
-        },
-        {
             "id": "spn_type",
-            "order": 5,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of security principal are you trying to use?",
             "dropdownOptions": [{
@@ -87,14 +80,14 @@
         },
         {
             "id": "spn_object_id",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the object id of your security principal?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
@@ -103,7 +96,7 @@
         },
         {
             "id": "attached_screenshots",
-            "order": 8,
+            "order": 7,
             "controlType": "radioButtonGroup",
             "displayLabel": "Are screenshots attached:",
             "radioButtonOptions": [{
@@ -118,7 +111,7 @@
         },
         {
             "id": "error_message_available",
-            "order": 9,
+            "order": 8,
             "controlType": "radioButtonGroup",
             "displayLabel": "Is there an error message?",
             "radioButtonOptions": [{
@@ -133,7 +126,7 @@
         },
         {
             "id": "error_message_description",
-            "order": 10,
+            "order": 9,
             "visibility": "error_message_available == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Error message details",
