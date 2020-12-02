@@ -25,7 +25,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please briefly describe the issue",
+            "displayLabel": "Briefly describe the issue",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
@@ -48,14 +48,14 @@
             "id": "ADF_extension_version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is your version of ADF extension?",
+            "displayLabel": "What is your version of the ADF extension?",
             "required": false
         },
         {
             "id": "OS_Type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which type of operating system are you using?",
+            "displayLabel": "Which operating system are you using?",
             "watermarkText": "Choose an OS type",
             "dropdownOptions": [
                 {
@@ -81,7 +81,7 @@
             "id": "storage_explorer_id",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Please provide your Storage Explorer support ID (Located on About window using Help menu)",
+            "displayLabel": "Provide your Storage Explorer support ID (Help > About)",
             "required": true
         },
         {
@@ -143,7 +143,7 @@
             "id": "problem_run_id",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "Provide the Copy Activity RunId if you have one.",
+            "displayLabel": "Provide the Copy Activity RunId if you have one",
             "infoBalloonText": "Enter the RunId for the issue.",
             "required": false
         },
