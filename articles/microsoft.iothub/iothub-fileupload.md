@@ -15,8 +15,8 @@
 ## **Recommended Steps**
 
 1. If the initial file upload operation fails, please retry
-1. If you see **Error Code: 403006 - Number of active file upload requests exceeded limit**, note that each device client is limited to [10 concurrent file uploads](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits)
-1. If you are hitting that limit, [verify the previous uploads are completed](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload#notify-iot-hub-of-a-completed-file-upload)
+1. If you see "Error Code: 403006 - Number of active file upload requests exceeded limit", note that each device client is limited to [10 concurrent file uploads](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits)
+1. If you reached the aforementioned limit, [verify the previous uploads are completed](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload#notify-iot-hub-of-a-completed-file-upload)
 
 ## **Recommended Documents**
 
