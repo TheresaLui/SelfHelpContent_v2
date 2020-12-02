@@ -20,7 +20,7 @@
 # Increase in User Workload
 
 <!--issueDescription-->
-We detected that over the past 24 hours there has been an increase in total query exections on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->** and may not have enough resources to handle this user load increase.
+We detected that over the past 24 hours there has been an increase in total query executions on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->** and may not have enough resources to handle this user load increase.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
