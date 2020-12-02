@@ -15,10 +15,10 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Check if failed to delete locked azure resource
+# Check if failed to delete locked Azure resource
 
 
-Run the below kusto query to check:
+Run the following kusto query to check:
 
 ```kusto
 IaasClusterCRUDEvent
