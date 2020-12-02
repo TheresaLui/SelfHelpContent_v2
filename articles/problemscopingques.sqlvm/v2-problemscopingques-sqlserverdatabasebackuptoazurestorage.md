@@ -29,15 +29,14 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "what_phase",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What phase of implementation are you at?",
+            "displayLabel": "What phase of implementation are you in?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
