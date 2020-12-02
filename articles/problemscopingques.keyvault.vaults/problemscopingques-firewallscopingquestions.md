@@ -93,7 +93,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the name of your key vault?",
-            "required": true
+            "required": false
         },
         {
             "id": "spn_type",
