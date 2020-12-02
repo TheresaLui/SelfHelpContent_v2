@@ -23,11 +23,11 @@
 
 <!--/issueDescription-->
 
-Try to follow the recommended documents to troubleshoot or escalate 
+Follow the recommended documents to troubleshoot or escalate.
 
 ## **Recommended Documents**
 
-* [Autoscale didnt happen as expected](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349370/Autoscale-didnt-happen-as-expected)
+* [Autoscale did not happen as expected](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349370/Autoscale-didnt-happen-as-expected)
 * [Autoscale troubleshooting guides](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349369/Autoscale)
 
 
