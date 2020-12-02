@@ -15,31 +15,33 @@
 ### **Frequently asked questions**
 
 * **Why is my service region shown as West-US, when I selected some other region?**<br>
-Your data is stored in the region you choose for your Azure Search Service and App Service. [QnA Maker management layer is present in only West-US](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#management-service-region) which is used for only QnA Maker portal and no customer data is stored there ever.
+Your data is stored in the region you choose for your Azure Search Service and App Service. [QnA Maker management layer is only present in West-US](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#management-service-region) and is used for only the QnA Maker portal. No customer data is stored there ever.
 
-* **Why am I unable to create a QnA Maker Service?**
-We allow only one free QnA Maker service per subscription, either upgrade to the standard tier or delete the existing one and create another. 
+* **Why am I unable to create a QnA Maker Service?**<br>
+We allow only one free QnA Maker service per subscription. Either upgrade to the standard tier, or delete the existing one and create another. 
 
-* **How do I add language specific KB to my existing service?**
-In current GA model, language setting is specific to one Service, you cannot have KBs belonging to different language in one service. You can create a new service in public preview, which gives you an option to make language setting KB specific.
- This setting is enabled only for the first time you are creating the KB. Please check [language settings for QnA Maker managed for more details.](https://docs.microsoft.com/azure/cognitive-services/qnamaker/overview/language-support?tabs=v2)  
+* **How do I add a language-specific KB to my existing service?**<br>
+In the current GA model, language setting is specific to each Service. You cannot have KBs belonging to different languages in a single service. You can create a new service in public preview, which gives you an option to specify languages for KBs.
+ This setting is only enabled the first time you create the KB. For details, review [language settings for QnA Maker](https://docs.microsoft.com/azure/cognitive-services/qnamaker/overview/language-support?tabs=v2).
 
-* **How to use an existing app service plan?**
-While creating a QnA Maker resource in current GA model, we create a new app service plan for the user. The user is allowed to change it to the existing app service plan. [Please check documentation for more details.](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#upgrade-app-service) 
+* **How do I use an existing app service plan?**<br>
+While creating a QnA Maker resource in the current GA model, a new app service plan is created for the user. The user is allowed to change it to the existing app service plan. [See documentation for more details](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#upgrade-app-service).
 
-* **How to change/update my Azure Search SKU?**
+* **How do I change/update my Azure Search SKU?**<br>
 There is no automated way to update the Azure Search SKU. Here are the [steps to upgrade your Azure Search Service](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#upgrade-the-azure-cognitive-search-service)
 
-* **Why am I getting Bad Arguments error during KB creation?**
+* **Why am I getting a Bad Arguments error during KB creation?**<br>
 It can be due to extraction failure, please check out the [document types we support.](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/data-sources-and-content) and data [format guidelines.](https://docs.microsoft.com/azure/cognitive-services/qnamaker/reference-document-format-guidelines)
 
-* **Why am I getting no endpoint key found error ?**
+* **Why am I getting no endpoint key found error?**<br>
 There can be several reasons why you are seeing this error. 
-	* Please check if the firewall is preventing the communication with App Service. [Please read about network isolation in App Service](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#network-isolation-for-app-service).
-	* If you are using an ARM template to create QnA Maker resource then you might be missing some configuration in the ARM template. Add the below fields in the ARM template as part of the App Service creation:
-"PrimaryEndpointKey": "[concat(parameters('appName'), '-PrimaryEndpointKey')]", 
-"SecondaryEndpointKey": "[concat(parameters('appName'), '-SecondaryEndpointKey')]", 
-You can reference the ARM template that is generated when creating a QnA Maker resource in portal and selecting "Automation options" at the Review + create screen.
+	* Check if the firewall is preventing the communication with App Service. [Please read about network isolation in App Service](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/set-up-qnamaker-service-azure?tabs=v1#network-isolation-for-app-service).
+	* If you are using an ARM template to create the QnA Maker resource, the ARM template may be missing some configuration. Add the below fields in the ARM template as part of the App Service creation:
+`"PrimaryEndpointKey": "[concat(parameters('appName'), '-PrimaryEndpointKey')]", 
+"SecondaryEndpointKey": "[concat(parameters('appName'), '-SecondaryEndpointKey')]",`
+
+You can reference the ARM template that is generated when creating a QnA Maker resource in the portal, by selecting **Automation options** on the Review + create screen.
+
 ## **Recommended Documents**
 
 * [Resource planning and pricing tier consideration](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources)
