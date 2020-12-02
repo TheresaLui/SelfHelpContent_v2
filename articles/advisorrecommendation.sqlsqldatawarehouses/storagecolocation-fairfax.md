@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Col-locate the storage account within the same region"
-    description="Col-locate the storage account within the same region"
+    pageTitle="Co-locate the storage account within the same region"
+    description="Co-locate the storage account within the same region"
     authors="kevin"
     ms.author="kevin"
     articleId="314a2614-24d3-496c-b9d6-e6cd3df4b6c2_Fairfax"
