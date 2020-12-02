@@ -23,15 +23,15 @@
 
 <!--/issueDescription-->
 
-It is highly possible updateManifest script action timeout in UpdateAutoScaleConfigurationWorkflow which caused UpdatingError in cluster status.
+It is very likely that the `updateManifest` script action timed out in `UpdateAutoScaleConfigurationWorkflow`, which caused `UpdatingError` in cluster status.
 
-Please follow below steps to mitigate this issue:
-1. check whether updateManifest script action timeout from **LogEntry** or Ambari UI
-2. if step 1 is true, please escalate a ticket to control plane PG to set cluster state to Running 
-3. check why updateManifest script action timeout from **CAmbariAgentLog**
+Follow below steps to mitigate this issue:
+1. Check if the `updateManifest` script action timed out from **LogEntry** or Ambari UI
+2. If step 1 is true, escalate a ticket to control plane PG to set cluster state to Running 
+3. Check why `updateManifest` script action timed out from **CAmbariAgentLog**
 
 ## **Known Issues**
 
-* [UpdateAutoscaleConfigurationWorkflow cause cluster UpdatingError](https://msdata.visualstudio.com/HDInsight/_workitems/edit/640534)
+* [UpdateAutoscaleConfigurationWorkflow causes cluster UpdatingError](https://msdata.visualstudio.com/HDInsight/_workitems/edit/640534)
 
 
