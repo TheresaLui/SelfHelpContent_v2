@@ -27,7 +27,7 @@
       "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
       "longDescription": "",
       "shortDescription": "How to request technical presales and deployment support leveraging MPN advisory benefit",
-      "searchTags": "Licensing;Pre-sales;License;SKU",
+      "searchTags": "Pre-sales;Licensing;License;SKU",
     },
     {
       "id": "1f8d2ab4-8109-4771-94da-fefd36173e92",
