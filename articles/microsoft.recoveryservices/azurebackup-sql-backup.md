@@ -21,11 +21,12 @@
 
 **Common error codes**
 - **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
-- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
+- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue) <br>
+- **GuestAgentStatusUnavailableUserError** - To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
 - **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
-- **UserErrorSQLPODoesNotSupportBackupType** - This SQL database does not support the requested backup type. [List of supported and unsupported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
-- **UserErrorSQLPODoesNotExist** - SQL database does not exist. Follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
-**WorkloadExtensionNotReachable** - Follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures) 
+- **UserErrorSQLPODoesNotSupportBackupType** - The SQL database does not support the requested backup type. Review [list of supported and unsupported backup types](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype)<br>
+- **UserErrorSQLPODoesNotExist** - To resolve this issue, follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotexist)<br>
+**WorkloadExtensionNotReachable** - To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures) 
 
 **Other error codes**
 - **UserErrorOpeningSQLConnection** - [Azure Backup is not able to connect to the SQL instance](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection)<br>
@@ -37,3 +38,4 @@
 
 - [FAQ for SQL Server backup](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)<br>
 - [Troubleshooting issues related to backing up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)
+- [Complete list of supported and unsupported actions and scenarios and known limitations](https://docs.microsoft.com/azure/backup/sql-support-matrix#feature-consideration-and-limitations)
