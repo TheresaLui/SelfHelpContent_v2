@@ -18,7 +18,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Azure Cost Management",
-    "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
+    "fileAttachmentHint": "Please upload the HAR file or a file that may help diagnose the issue",
     "formElements": [
         {
             "id": "problem_start_time",
