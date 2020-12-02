@@ -24,6 +24,8 @@ Acceptance of the Microsoft Partner Agreement is now required for all partners i
 
 ## **Recommended Steps**
 
+Click [here](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) for localized FAQ and Onboarding Guide documents in Korean, Chinese, Japanese and Spanish.
+
 1. [Review the guide to migration and activate your Partner center account](https://docs.microsoft.com/partner-center/guide-to-migration)
 
 2. [Enroll as an indirect reseller in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#enroll-as-an-indirect-reseller-in-the-cloud-solution-provider-program)
