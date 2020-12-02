@@ -17,9 +17,10 @@
 
 # Always Encrypted
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15) protects sensitive data from highprivileged unauthorized users, including database administrators, cloud database operators, malware. It supports simple confidential computations, including point lookup searches and equality joins, by leveraging deterministic encryption.
+[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15) protects sensitive data from high privileged unauthorized users, including database administrators ,cloud database operators, malware. It supports simple confidential computations, including point lookup searches and equality joins,by leveraging deterministic encryption.
 
-[Always Encrypted with secure enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves?view=sql-server-ver15) extends Always Encrypted by providing richer confidential computing capabilities, including inplace encryption, pattern matching, range comparisons and sorting. It leverages server side secure enclaves and does not rely on deterministic encryption to support confidential computations.  
+[Always Encrypted with secure enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves?view=sql-server-ver15) extends Always Encrypted by providing richer confidential computing capabilities, including inplace encryption, pattern matching, range comparisons and sorting.
+It leverages server side secure enclaves and does not rely on deterministic encryption to support confidential computations.  
 
 Most users are able to resolve their Always Encrypted related issues using the steps below
 
@@ -48,7 +49,7 @@ Most users are able to resolve their Always Encrypted related issues using the s
    * [Provision and rotate cryptographic keys for Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted?view=sql-server-ver15)
    * [Query columns using Always Encrypted with SQL Server Management Studio](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-query-columns-ssms?view=sql-server-ver15)
    * [Migrate data stored in encrypted columns or databases using Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-migrate-using-bacpac?view=sql-server-ver15)
-   * [Develop applications and learn which drivers support Always Encrypted]()
+   * [Develop applications and learn which drivers support Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-client-development?view=sql-server-ver15)
 
 * Always Encrypted with Secure Enclaves
 
