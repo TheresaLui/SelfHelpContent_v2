@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-The following details explain how to set up and update common access and permissions rules in Dedicated SQL pool.
+The following details explain how to set up and update common access and permissions rules in Dedicated SQL pool. 
 
 * If you're looking to change the administrator password for a Dedicated SQL pool in Synapse Workspace, you can simply click "Reset SQL admin password" at the top of the Synapse workspace resource blade
 
