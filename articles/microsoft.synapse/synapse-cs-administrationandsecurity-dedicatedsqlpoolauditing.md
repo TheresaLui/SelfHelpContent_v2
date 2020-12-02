@@ -33,3 +33,4 @@ For other security capabilities, refer to these documents:
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)
 * [Advanced data security](https://docs.microsoft.com/azure/sql-database/sql-database-advanced-data-security)
 
+ 

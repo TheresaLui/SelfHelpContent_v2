@@ -40,3 +40,4 @@ Follow the links to:
 
 * [More about backup and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
 
+ 

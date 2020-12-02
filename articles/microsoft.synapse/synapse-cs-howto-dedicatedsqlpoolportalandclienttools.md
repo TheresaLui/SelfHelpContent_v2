@@ -38,3 +38,4 @@
 
 * [Understanding metrics and logs available in the Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity)
 
+ 
