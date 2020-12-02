@@ -31,7 +31,7 @@ If the access control result is not the desired result, remove the **<!--$Destin
 
 1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups)
 2. Open your **<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->** network security group
-3. Add an **Allow** rule for public IP address(es) (for example, **<!--$SourceIp-->SourceIp<!--/$SourceIp-->**) that has a lower number (higher priority) than the Block rule **<!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName-->**
+3. Add an **Allow** rule for public IP address(es) (for example, <!--$SourceIp-->SourceIp<!--/$SourceIp-->) that has a lower number (higher priority) than the Block rule **<!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName-->**
 4. Save the changes, and check the traffic status again
 
 ### Tests Executed
