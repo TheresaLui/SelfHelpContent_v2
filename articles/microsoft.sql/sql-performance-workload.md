@@ -10,7 +10,7 @@
     articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630434,32630450,32630454,32630459"
+    supportTopicIds="32749513,32749514,32749515,32749520"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"

@@ -10,7 +10,7 @@
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630434,32630454"
+    supportTopicIds="32749517,32749520,32749521"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
