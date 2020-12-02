@@ -39,6 +39,18 @@ If you do NOT see a large number of connections within the VM with 'netstat' com
 * If the connections are legitimate, change your application to reduce the number of connections on this network interface, or add additional network interfaces to the VM
 * If the connections are not legitimate, consider enabling Azure DDOS Protection Standard or placing the VM behind Azure Load Balancer
 
+
+If the connections are legitmate then:
+
+* Change your application to reduce the number of connections on this network interface
+* Enable Accelerated Networking on the network interface
+* Add additional network interfaces to the VM to handle the connection volume
+* Add additional VMs to handle the connection volume
+* Consider placing the VM behind Azure Load Balancer
+
+If the connections are NOT legimate, in addition to above options, consider enabling Azure DDOS Protection Standard.
+
+
 ## **Recommended Documents**
 
 * [Virtual machine network bandwidth](https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput)
