@@ -17,12 +17,12 @@
 
 # Azure Defender for Storage
 
-Azure Defender for Storage protects Blob Storage, Files Storage and Azure Data Lake Gen2 Storage. It is generally available in commercial cloud and US Gov cloud. It is not available in China Gov or Other Gov clouds.  
+Azure Defender for Storage protects Blob Storage, Files Storage, and Azure Data Lake Gen2 Storage. It is generally available in commercial cloud and US Government cloud. It is not available in China Government or Other Government clouds.  
 
 ## **Recommended Documents**
 
 - [Configure Azure Defender for Storage](https://docs.microsoft.com/azure/storage/common/azure-defender-storage-configure?tabs=azure-security-center)
 - [Introduction to Azure Defender for Storage](https://docs.microsoft.com/azure/security-center/defender-for-storage-introduction)
 - [List of Alerts for Azure Storage](https://docs.microsoft.com/azure/security-center/alerts-reference#alerts-azurestorage)
-- [Manage and Respond to security alters in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)
+- [Manage and Respond to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)
 - [How to suppress false positives or other unwanted security alerts from Azure Defender](https://docs.microsoft.com/azure/security-center/alerts-suppression-rules)
