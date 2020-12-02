@@ -25,6 +25,10 @@
 
 Use the following recommended documents to troubleshoot or escalate. 
 
+## **Possible RCAs**
+
+* [Unaccessible Kafka BYOK keyvault](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/292678/byok-keyvault-create-error)
+
 ## **Recommended Documents**
 
 * [Cluster creation process](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/296058/Cluster-create-process)
