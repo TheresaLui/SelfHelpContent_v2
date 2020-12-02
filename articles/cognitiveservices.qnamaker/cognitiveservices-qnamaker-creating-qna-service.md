@@ -40,7 +40,7 @@ There can be several reasons why you are seeing this error.
 `"PrimaryEndpointKey": "[concat(parameters('appName'), '-PrimaryEndpointKey')]", 
 "SecondaryEndpointKey": "[concat(parameters('appName'), '-SecondaryEndpointKey')]",`
 
-You can reference the ARM template that is generated when creating a QnA Maker resource in the portal, by selecting **Automation options** on the Review + create screen.
+   To reference the ARM template that is generated when creating a QnA Maker resource in the portal, select **Automation options** on the Review + create screen.
 
 ## **Recommended Documents**
 
