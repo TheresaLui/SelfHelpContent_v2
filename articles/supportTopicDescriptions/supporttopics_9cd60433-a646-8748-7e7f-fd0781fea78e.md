@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4fd37abe-6f60-b2fa-d1ec-e198010b2706",
+      "longDescription": "",
+      "shortDescription": "Investigating how or why an incident was triggered",
+      "searchTags": "trigger;triggered",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5013e832-92a8-4556-8223-707bc2d50436",
       "longDescription": "",
       "shortDescription": "Troubleshooting the Investigation feature ",
