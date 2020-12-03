@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e5469f80-6b5d-daf2-9e4a-199bba4943dd",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting, understanding Threat Hunting Queries",
+      "searchTags": "threathunting",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ebd7651e-9021-a12f-c6bb-1f2ff0cc9a70",
       "longDescription": "",
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
