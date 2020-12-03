@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b78adba-d412-518e-3789-00436c8d1bea",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "Support",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb2bf9a3-ea02-c6ed-b390-f85d53168947",
       "longDescription": "",
       "shortDescription": "Errors when configuring Workbooks",
