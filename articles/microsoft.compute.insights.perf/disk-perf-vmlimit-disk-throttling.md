@@ -19,7 +19,7 @@
 
 # **Instances of disk throttling detected on this VM in last hour**
 
-## **There were instances on disk throttling on <!--$vmname-->[vmname]<!--/$vmname--> in last hour?**
+## **There were instances on disk throttling on <!--$vmname-->[vmname]<!--/$vmname--> in last hour.**
 
 <!--issueDescription-->
 Our diagnostics show there were several instances where the VM disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> <!--$vmname-->[vmname]<!--/$vmname--> exceeded the VM's limit (<!--$vmLimit-->limit<!--/$vmLimit-->) in the last hour.
