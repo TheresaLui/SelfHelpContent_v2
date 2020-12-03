@@ -14,9 +14,8 @@
 ## **Recommended Steps**
 
 1. Review that device redirection is enabled: 
-  * [Set custom properties on the host pool using Windows Virtual Desktop with Azure Resource Manager integration](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)
   * [Set custom properties on the host pool using Windows Virtual Desktop (classic)](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/customize-rdp-properties-2019)
 
 2. Review supported RDP file settings:
-  * [Review supported RDP file settings on Windows Virtual Desktop](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context) - independent of service release
+  * [Review supported RDP file settings on Windows Virtual Desktop](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)
   * [Review RD client overview for details on supported device redirection](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare)
