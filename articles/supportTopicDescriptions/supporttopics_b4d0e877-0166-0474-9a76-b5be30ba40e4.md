@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d833283b-325e-c592-e652-c95693444d8b",
+      "longDescription": "",
+      "shortDescription": "Issues related to APIM upgrades, scaling or changing SKUs",
+      "searchTags": "SKUs;Upgrade;scaling",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
       "longDescription": "",
       "shortDescription": "Issues with APIM users and groups",
