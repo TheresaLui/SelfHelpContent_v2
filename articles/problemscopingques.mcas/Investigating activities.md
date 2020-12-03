@@ -17,7 +17,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
                 "title": "Alerts and Investigation - Investigating activities",
-				"fileAttachmentHint": "1. Please attach the raw data of the activity from MCAS activity log. You can locate it under Investigate - Activity Log - Expand the activity - Source - View raw data 2. Please attach the correlated activity log from the source app. For example, for O365 apps (EXO, SPO, OD, etc.), please export the relevant log from <a href='https://protection.office.com/unifiedauditlog'> O365 Unified Audit logs </a>",
+				"fileAttachmentHint": "1. Please attach the raw data of the activity from MCAS activity log. You can locate it under Investigate - Activity Log - Expand the activity - Source - View raw data 2. Please attach the correlated activity log from the source app. For example, for O365 apps (EXO, SPO, OD, etc.), please export the relevant log from https://protection.office.com/unifiedauditlog O365 Unified Audit logs",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
@@ -33,7 +33,7 @@
                     "controlType": "dropdown",
                     "displayLabel": "Describe the issue that you're facing:",
                     "watermarkText": "Choose an option",
-                    "dropdownOptions": 
+                    "dropdownOptions":
 					[
                         {
                             "value": "Missing activities",
