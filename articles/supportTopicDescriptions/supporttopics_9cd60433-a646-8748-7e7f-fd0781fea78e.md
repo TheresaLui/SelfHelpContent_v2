@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "25757958-afb0-e051-36ba-ed5b112d7508",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure pricing tiers and costs",
+      "searchTags": "Costs;Billing;Bill",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
       "longDescription": "",
       "shortDescription": "Diagnosing possible false positive incidents due to system errors",
