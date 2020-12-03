@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Issues configuring your domain"
+  pagetitle="Windows Virtual Desktop - Issues configuring your domain&#xD;"
   service=""
   resource=""
-  ms.author="jerrycif,davidbel"
+  ms.author="jerrycif,davidbel,evas"
   selfhelptype="Generic"
-  supporttopicids="32727876"
+  supporttopicids="32783595"
   resourcetags=""
   productpesids="16582"
   cloudenvironments="public,fairfax,usnat,ussec"
