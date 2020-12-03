@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98d7e8dc-b790-8602-cfd1-6345f30862b1",
+      "longDescription": "",
+      "shortDescription": "Issues with developer portal authentication with AAD B2C",
+      "searchTags": "AAD;B2C",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
       "longDescription": "",
       "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
