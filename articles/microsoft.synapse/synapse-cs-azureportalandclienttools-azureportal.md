@@ -28,3 +28,4 @@
 
 * [Delete Apache Spark pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool#clean-up-resources)
 
+ 

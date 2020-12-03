@@ -1,19 +1,15 @@
 <properties
-	pageTitle="How do I configure routing for a specific purpose"
-	description="How do I configure routing for a specific purpose"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian"
-	ms.author="jlian"
-	selfHelpType="generic"
-	supportTopicIds="32630563"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="e3514cc4-1d8a-449d-9d5b-aa7998a8101e"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="How do I configure routing for a specific purpose&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,yiygu"
+  selfhelptype="Generic"
+  supporttopicids="32783521,32783522"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="e3514cc4-1d8a-449d-9d5b-aa7998a8101e"
+  ownershipid="AzureIot_IotHub" />
 # How do I configure routing for a specific purpose
 
 ## **Recommended Documents**

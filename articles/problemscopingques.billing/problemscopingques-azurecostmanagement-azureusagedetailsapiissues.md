@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615282,32615297"
+	supportTopicIds="32615297"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -18,7 +18,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Azure Cost Management",
-    "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
+    "fileAttachmentHint": "Please upload the HAR file or a file that may help diagnose the issue",
     "formElements": [
         {
             "id": "problem_start_time",
