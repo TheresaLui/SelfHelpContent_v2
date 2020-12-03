@@ -25,7 +25,7 @@ Our internal service telemetry detected that over the past 24 hours there has be
 
 ## **Recommended Steps**
 
-This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please consider upgrading your database SLO, tuning your queries, or balancing your workload. Please see the recommended articles for more details. 
+This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Consider upgrading your database SLO, tuning your queries, or balancing your workload. Please see the recommended articles for details. 
 
 ## **Recommended Documents**
 
