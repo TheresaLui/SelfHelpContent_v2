@@ -24,7 +24,7 @@
                     "id": "MCAS_URL",
                     "order": 2,
                     "controlType": "textbox",
-                    "displayLabel": "Please provide your MCAS tenant URL (e.g: https://<domain name>.portal.cloudappsecurity.com/)",
+                    "displayLabel": "Please provide your MCAS tenant URL (e.g:https://<domain name>.portal.cloudappsecurity.com/)",
                     "required": true
                 },
 				{
