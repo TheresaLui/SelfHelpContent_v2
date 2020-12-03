@@ -36,3 +36,4 @@ Always leverage Polybase to batch load into your Dedicated SQL pool and avoid si
 
 * [Designing a Polybase data loading strategy for Dedicated SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/design-elt-data-loading#4-load-the-data-into-sql-data-warehouse-staging-tables-using-polybase)
 
+ 

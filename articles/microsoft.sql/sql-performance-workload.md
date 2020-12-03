@@ -1,7 +1,7 @@
 <properties
     pageTitle="query execution/increased workload"
     description="query execution/increased workload"
-    infoBubbleText="Found increased worload issues with DB. See details on the right."
+    infoBubbleText="Increased customer workload detected. See details on the right."
     service="microsoft.sql"
     resource="servers"
     authors="ketho00"
@@ -17,19 +17,17 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# We ran diagnostics on your resource and found Increased Workload
+# Increase in User Workload
 
 <!--issueDescription-->
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
+We detected that over the past 2 hours there has been an increase in total user query executions on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This database is using service tier **<!--$Slo-->Slo<!--/$Slo-->** and may not have enough resources to handle this user load increase.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+An increase in user workload is potentially contributing to performance issues or timeouts. 
 
-This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Consider upgrading your database SLO, tuning your queries, or balancing your workload. Please see the recommended articles for details. 
-
-## **Recommended Documents**
-
-* [Use Query performance insights to identify the queries which are causing the high CPU consumption](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance)
-* [Enable Automatic tuning provides peak performance and stable workloads through continuous performance tuning utilizing Artificial Intelligence](https://docs.microsoft.com/azure/sql-database/sql-database-automatic-tuning)
-* [Increase Azure Database tier to get more DTUs and hence accommodate for more workload in your environment](https://azure.microsoft.com/pricing/details/sql-database/single)
-* [If the workload is varying, then consider moving few databases into SQL elastic pool to share DTUs](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool)
+To improve performance, follow these recommendations:
+* To account for increased user workload, upgrade your database tier. For more information, go to [vCore and DTU purchasing models](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models). 
+* To help improve workload performance, enable [Automatic Tuning](https://docs.microsoft.com/azure/azure-sql/database/automatic-tuning-enable). 
+* Identify and tune top resource consuming queries using [Query Performance Insights](https://docs.microsoft.com/azure/azure-sql/database/query-performance-insight-use).
+* For a simple, cost-effective solution for managing and scaling multiple databases that have varying and unpredictable usage demands, move databases with volatile workloads into [Elastic Pools](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-overview). 

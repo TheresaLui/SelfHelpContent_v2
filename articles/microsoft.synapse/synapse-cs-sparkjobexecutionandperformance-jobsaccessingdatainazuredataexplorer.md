@@ -21,3 +21,4 @@
 ## **Recommended Documents**
 
 * [Connect to Azure Data Explorer using Apache Spark for Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/quickstart-connect-azure-data-explorer)
+ 
