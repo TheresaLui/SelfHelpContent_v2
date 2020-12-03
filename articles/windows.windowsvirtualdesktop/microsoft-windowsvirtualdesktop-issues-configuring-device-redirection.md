@@ -1,13 +1,13 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Issues configuring device redirection"
+  pagetitle="Windows Virtual Desktop - Issues configuring device redirection&#xD;"
   service=""
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32727874"
+  supporttopicids="32783593"
   resourcetags=""
   productpesids="16582"
-  cloudEnvironments="public, fairfax, usnat, ussec"
+  cloudenvironments="public,fairfax,usnat,ussec"
   articleid="032cf025-2f52-4420-b161-bce71302f41b"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Issues configuring device redirection
