@@ -8,7 +8,7 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="IsBadPassword_FED3BCD4-BE62-45F4-9B0F-C8D8CFFDABD5"
-	diagnosticScenario=""
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
@@ -34,7 +34,7 @@ Typically, the service administrator can use the following steps to add the logi
 	* Double-click **Security** to expand it
 	* Right-click **Logins**, and then select **New login**
 	* In the generated script with placeholders, you can edit and run the following SQL query:<br>
-	
+
 ```
 CREATE LOGIN (SQL_login_name, sysname, login_name)
 WITH PASSWORD = '(password, sysname, Change_Password)'

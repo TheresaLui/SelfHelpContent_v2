@@ -1,0 +1,33 @@
+<properties
+    selfHelpType = "generic"
+    cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
+    ownershipId = "AzureData_SynapseAnalytics"
+    service = "microsoft.synapse"
+    resource = "workspaces"
+    resourceTags = ""
+    productPesIds = "15818"
+    supportTopicIds = "32783931"
+    displayOrder = ""
+    diagnosticScenario = ""
+    infoBubbleText = ""
+    pageTitle = "Administration and Security/Synapse Workspace - Managed Virtual Network"
+    description = "Administration and Security/Synapse Workspace - Managed Virtual Network"
+    articleId = "synapse-cs-administrationandsecurity-synapseworkspacemanagedvirtualnetwork.md"
+    ms.author = "saltug"
+/>
+
+# Administration and Security/Synapse Workspace - Managed Virtual Network
+
+## **Recommended Documents**
+
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)
+
+* Configure [virtual network service endpoints](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json)
+
+* [Configure a VNET-to-VNET connection using the Azure portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)
+
+* [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli?WT.mc_id=pid:13491:sid:32630460/)
+
+* [Configure a VNET-to-VNET connection using PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps?WT.mc_id=pid:13491:sid:32630460/)
+
+ 

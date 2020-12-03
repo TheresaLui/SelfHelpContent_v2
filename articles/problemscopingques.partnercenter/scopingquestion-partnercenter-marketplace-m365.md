@@ -27,7 +27,8 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center, select Settings, then select Developer settings",
+	   "watermarkText": "Please provide the Publisher ID",
+	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
 	},
 	{
@@ -84,6 +85,10 @@
 		   "text": "Excel"
 	       },
 	       {
+	       	   "value": "onenote_app",
+		   "text": "OneNote"
+		},
+	       {
 		   "value": "outlook_app",
 		   "text": "Outlook"
 	       },
@@ -106,6 +111,10 @@
 	       {
 		   "value": "word_app",
 		   "text": "Word"
+	       },
+	       {
+		   "value": "others_value",
+		   "text": "Others"
 	       }
 	       ],
 	   "required": false
