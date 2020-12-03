@@ -24,7 +24,6 @@
             "order": 1,
             "controlType": "dropdown",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the virtual machine you are experiencing connectivity issues with:",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
@@ -45,7 +44,6 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the traffic direction:",
-            "diagnosticInputRequiredClients": "Portal",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -67,7 +65,6 @@
             "id": "port_number",
             "order": 3,
             "controlType": "dropdown",
-            "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the port number:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
