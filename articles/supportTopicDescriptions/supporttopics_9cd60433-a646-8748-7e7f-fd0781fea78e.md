@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
+      "longDescription": "",
+      "shortDescription": "Leveraging Threat Hunting capabilities",
+      "searchTags": "threat;hunting",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5d90c88a-d4c9-0fde-ae74-def23ee4c549",
       "longDescription": "",
       "shortDescription": "Playbooks overview, troubleshooting, and guidance",
