@@ -42,3 +42,4 @@
 
 	* Visit [performance best practices for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/best-practices-sql-on-demand) to optimize query 
 
+ 
