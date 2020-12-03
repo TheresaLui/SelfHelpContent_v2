@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4d619398-e896-1279-5b49-f34a24911d2a",
+      "longDescription": "",
+      "shortDescription": "Bookmark creation and handling",
+      "searchTags": "create;bookmark",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4fd37abe-6f60-b2fa-d1ec-e198010b2706",
       "longDescription": "",
       "shortDescription": "Investigating how or why an incident was triggered",
