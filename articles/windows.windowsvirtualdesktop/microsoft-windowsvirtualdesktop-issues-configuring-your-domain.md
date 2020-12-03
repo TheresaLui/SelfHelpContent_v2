@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Issues configuring your domain&#xD;"
+  pagetitle="WVD - Issues configuring your domain&#xD;"
   service=""
   resource=""
   ms.author="jerrycif,davidbel,evas"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d"
   ownershipid="Windows_Virtual_Desktop" />
-# Windows Virtual Desktop - Issues configuring your domain
+# WVD - Issues configuring your domain
 
 ## **Recommended Steps**
 
