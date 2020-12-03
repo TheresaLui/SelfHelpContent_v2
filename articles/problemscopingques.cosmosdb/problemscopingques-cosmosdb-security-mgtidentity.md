@@ -11,12 +11,12 @@
 	articleId="e4994bc3-9664-4f46-b773-a16bed4d7e78"
 	ownershipId="AzureData_AzureCosmosDB"
 />
-# CosmosDB Database and Collection Info
+# CosmosDB Managed Identities Issues
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "CosmosDB Database and Collection Info",
+    "title": "CosmosDB Managed Identities Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -51,7 +51,7 @@
                "value":"dont_know",
                "text":"Don't know"
             }
-         ]
+         ],
             "required": false
         },
         {
