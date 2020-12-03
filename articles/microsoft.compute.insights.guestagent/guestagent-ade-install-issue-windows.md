@@ -22,14 +22,14 @@
 <!--issueDescription-->
 We detected that a recent deployment failure for <!--$vmname-->[vmname]<!--/$vmname--> was due to a known issue. Creation of the VM will succeed but Azure Disk Encryption (ADE) will show a failure.
 
-In this scenario the VM creation will succeed, but the installation of the VM Agent as well as enabling ADE will show as failed. This failure occurs because the ADE installation initiates a reboot that interrupts the VM Agent installation.
+In this scenario, the VM creation will succeed, but the installation of the VM Agent, as well as enabling ADE, will show as failed. This failure occurs because the ADE installation initiates a reboot that interrupts the VM Agent installation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-**Note**: It is recommended to follow the steps below to remediate the issue, before opening a support ticket.
+Follow the steps below to remediate the issue, before opening a support ticket.
 
-A workaround for this issue is to ensure the VM Agent install completes, before ADE installation restarts the VM by adding another extension to the template and make the ADE extension depend on the this other extension by using the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element. 
+The workaround for this issue involves completing the VM Agent installation before the ADE installation restarts the VM by adding another extension to the template and making the ADE extension depend on that extension using the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element. 
 
 ### If you are installing any other extensions as part of your deployment
 Add the [dependsOn](https://docs.microsoft.com/azure/azure-resource-manager/templates/define-resource-dependency) element to your ADE block and reference any one of these extensions. 
