@@ -8,7 +8,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-endpoint"
+	articleId="problemscopingques-security-center"
 	ownershipId="AzureIot_IotHub"
 />
 

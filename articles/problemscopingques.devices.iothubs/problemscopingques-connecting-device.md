@@ -31,7 +31,7 @@
       "id": "feature",
       "order": 2,
       "controlType": "textbox",
-      "displayLabel": "What feature are you having issue with? ",
+      "displayLabel": "What feature are you having issue with?",
       "required": false
     },
     {

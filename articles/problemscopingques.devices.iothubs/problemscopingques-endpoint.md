@@ -4,7 +4,7 @@
 	authors="camanle"
 	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630554"
+	supportTopicIds="32783521"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"

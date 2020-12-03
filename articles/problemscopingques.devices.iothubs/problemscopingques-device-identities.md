@@ -8,7 +8,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="471990b5-2440-4371-8dc2-f1a4883559c7"
+	articleId="problemscopingques-device-identities"
 	ownershipId="AzureIot_IotHub"
 />
 # issues with Bulk export or import device identities from IoT Hub
@@ -57,6 +57,10 @@
         {
           "value": "No",
           "text": "No"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
         }
       ],
       "required": true
