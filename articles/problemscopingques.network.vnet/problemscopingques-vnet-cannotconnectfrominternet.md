@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "Cannot Connect to or from Internet",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "VM Connectivity Troubleshooter",
-        "description": "Our VM Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-    },
     "formElements": [
         {
             "id": "cannot_connect_vm",
@@ -85,8 +80,8 @@
                     "text": "443 (HTTPS)"
                 },
                 {
-                    "value": "20 & 21 (FTP)",
-                    "text": "20 & 21 (FTP)"
+                    "value": "21 (FTP)",
+                    "text": "21 (FTP)"
                 },
                 {
                     "value": "53 (DNS)",
