@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5d90c88a-d4c9-0fde-ae74-def23ee4c549",
+      "longDescription": "",
+      "shortDescription": "Playbooks overview, troubleshooting, and guidance",
+      "searchTags": "Playbooks;troubleshooting",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
