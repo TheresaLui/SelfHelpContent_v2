@@ -15,10 +15,6 @@
 When you create a host pool or a session host on Windows Virtual Desktop, use the following steps and documents.
 
 ## **Recommended Steps**
-
-Depending on the release review, we recommend taking the following steps:
-
-- [Troubleshooting guidance using Windows Virtual Desktop with Azure Resource Manager integration](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues)
 - [Troubleshooting guidance using Windows Virtual Desktop (classic)](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/troubleshoot-set-up-issues-2019)
 
 * When adding a customized image to your host pool, ensure that you follow the steps to [Prepare and customize a master VHD image](https://docs.microsoft.com/azure/virtual-desktop/set-up-customize-master-image)
@@ -28,12 +24,6 @@ Depending on the release review, we recommend taking the following steps:
 * [Review supported OS images](https://docs.microsoft.com/azure/virtual-desktop/overview#supported-virtual-machine-os-images)
 * [Review safe URL list](https://docs.microsoft.com/azure/virtual-desktop/safe-url-list)
 
-Windows Virtual Desktop with Azure Resource Manager integration:
-
-* [Create a host pool with Azure Portal](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace)
-* [Steps creating a host pool with PowerShell](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-powershell) 
-
-Windows Virtual Desktop (classic):
 
 * [Host pool with an Azure Resource Manager template](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/create-host-pools-azure-marketplace-2019)
 * [Host pool with PowerShell](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/create-host-pools-powershell-2019)
