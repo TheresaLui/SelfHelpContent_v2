@@ -28,7 +28,7 @@
                     "required": true
                 },
 				{
-                    ""id": "alert_ID",
+                    "id": "alert_ID",
                     "order": 3,
                     "controlType": "textbox",
                     "displayLabel": "Please provide the alert ID. You can find it from the URL of the alert itself",
@@ -49,7 +49,7 @@
                         {
                             "value": "No",
                             "text": "No"
-                        },    
+                        },
                         {
                             "value": "dont_know_answer",
                             "text": "Not relevant"

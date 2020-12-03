@@ -28,21 +28,21 @@
                     "required": true
                 },
 				{
-                    ""id": "alert_ID",
+                    "id": "alert_ID",
                     "order": 3,
                     "controlType": "textbox",
                     "displayLabel": "Please provide the alert ID. You can find it from the URL of the alert itself",
                     "required": false
 				},
 				{
-                    ""id": "SPO_OD_URL",
+                    "id": "SPO_OD_URL",
                     "order": 4,
                     "controlType": "textbox",
                     "displayLabel": "In case there's an activity which correlates the alert, please provide the event ID of the activity",
                     "required": false
 				},
 				{
-                    ""id": "Activity_ID",
+                    "id": "Activity_ID",
                     "order": 5,
                     "controlType": "textbox",
                     "displayLabel": "For Upload/Download/Access/rename/share scenarios, please provide the activity ID of the activity from MCAS activity log",

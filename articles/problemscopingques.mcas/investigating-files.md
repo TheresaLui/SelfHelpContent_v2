@@ -27,28 +27,28 @@
                     "required": true
                 },
 				{
-                    ""id": "File_ID",
+                    "id": "File_ID",
                     "order": 3,
                     "controlType": "textbox",
                     "displayLabel": "Please provide the File ID from MCAS portal - Investigate - Files - Expand the file properties - View File Identifiers - Copy the File ID (if exist)",
                     "required": false
 				},
 				{
-                    ""id": "SPO_OD_URL",
+                    "id": "SPO_OD_URL",
                     "order": 4,
                     "controlType": "textbox",
                     "displayLabel": "If the file doesn't exist in MCAS, and the scenario related to SPO/OD, please preview the file in either of the services, and copy the URL",
                     "required": false
 				},
 				{
-                    ""id": "Activity_ID",
+                    "id": "Activity_ID",
                     "order": 5,
                     "controlType": "textbox",
                     "displayLabel": "For Upload/Download/Access/rename/share scenarios, please provide the activity ID of the activity from MCAS activity log",
                     "required": false
 				},
 				{
-                    ""id": "Policy_ID",
+                    "id": "Policy_ID",
                     "order": 6,
                     "controlType": "textbox",
                     "displayLabel": "If you have a policy that should match the file, provide policy ID. This can be extracted from the Policy URL",

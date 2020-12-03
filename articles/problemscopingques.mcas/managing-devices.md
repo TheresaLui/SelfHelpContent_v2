@@ -28,14 +28,14 @@
                     "required": true
                 },
 				{
-                    ""id": "alert_ID",
+                    "id": "alert_ID",
                     "order": 3,
                     "controlType": "textbox",
                     "displayLabel": "Please provide the alert ID. You can find it from the URL of the alert itself",
                     "required": false
 				},
 				{
-                    ""id": "Without_Proxy",
+                    "id": "Without_Proxy",
                     "order": 4,
                     "controlType": "dropdown",
                     "displayLabel": "If relevant, once you exclude the proxy service, does this issue still occur? If yes, please create a ticket on the relevant service versus MCAS.",
@@ -49,7 +49,7 @@
                         {
                             "value": "No",
                             "text": "No"
-                        },     
+                        },
                         {
                             "value": "dont_know_answer",
                             "text": "Not relevant"
