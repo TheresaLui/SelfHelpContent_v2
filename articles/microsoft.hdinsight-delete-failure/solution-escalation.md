@@ -25,4 +25,4 @@ Try to follow the recommended documents to delete DeleteError cluster or escalat
 
 ## **Recommended Documents**
 
-* [DeleteError](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/2795/Cluster-deletion-failure-Delete-error)
+* [DeleteError](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349535/Cluster-deletion-failure-Delete-error)

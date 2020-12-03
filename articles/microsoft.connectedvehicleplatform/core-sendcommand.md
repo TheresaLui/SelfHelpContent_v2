@@ -10,7 +10,7 @@
 	supportTopicIds="32725756"
 	resourceTags=""
 	productPesIds="16918"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="core-sendcommand"
 	ownershipId="AzureIot_Mobility"
 />
