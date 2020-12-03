@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1d91a89e-3f32-acfa-9185-d9d9a97934af",
+      "longDescription": "",
+      "shortDescription": "Client certification issues for outbound and inbound gateway calls",
+      "searchTags": "gateway;certification;client",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37fe510b-e9d2-2b6b-a9ec-0d7f656019ca",
       "longDescription": "",
       "shortDescription": "Guidance on backup, restore, ARM template, deployments, scaling, GIT integration, Migrations and Operations",
