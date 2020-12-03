@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and creating Analytics alert rules",
+      "searchTags": "alerts;rules",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c9027e-dd57-1efe-002b-64a7219efe25",
       "longDescription": "",
       "shortDescription": "Data is incorrect or mismatched in Workbook",
