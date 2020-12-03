@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for Apache Kafka® on Confluent Cloud™"
-description="Document for top problems with Confluent Organizations"        
+description="Document for top problems with Confluent Organizations"
 service="microsoft.confluent"
 resource="organizations"
 ms.author="krsomepa"
@@ -9,15 +9,15 @@ articleId="diagnoseandsolve-confluent"
 selfHelpType="diagnoseandsolve"
 resourceTags=""
 productPesIds="17363"
-cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+cloudEnvironments="public"
 ownershipId="PartnerSolutions_Confluent"
 />
 # Top common problems for Apache Kafka® on Confluent Cloud™
 ---
 {
 	"$schema":"SelfHelpContent",
-	"commonProblems": [			
-		{			         
+	"commonProblems": [
+		{
 			"id": "Unable_to_delete_Confluent_Cloud_resource",
 			"title": "Unable to delete Confluent Cloud resource",
 			"description": "I am not able to delete my Confluent Cloud resource",
@@ -26,7 +26,7 @@ ownershipId="PartnerSolutions_Confluent"
 			"supportTopicId": "32783355",
 			"commonSolutionArticleId": "3c953f08-31b3-4690-a287-faa1620f4cfe"
 		},
-		{			         
+		{
 			"id": "Unable_to_SSO_into_Confluent_Cloud_SaaS_portal",
 			"title": "Unable to SSO into Confluent Cloud SaaS portal",
 			"description": "I am not able to login to Confluent Cloud SaaS portal using Single Sign-On",
@@ -61,7 +61,7 @@ ownershipId="PartnerSolutions_Confluent"
 			"searchTags": "create, deployment, validations",
 			"supportTopicId": "32783357",
 			"commonSolutionArticleId": "8fc6321c-4174-4b44-93a4-10409cbf7ea6"
-		}			
+		}
 	],
 	"troubleshootingTools": []
 }
