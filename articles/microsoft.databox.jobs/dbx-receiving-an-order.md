@@ -21,18 +21,19 @@
 
 ## Query about order status
 
-The Data Box service *does not guarantee any SLA* for the order fulfilment and completion. The estimated lead times at each step of the order lifecycle are as follows - 
+The Data Box service **does not guarantee any SLA** for order fulfilment and completion. The estimated lead times at each step of the order lifecycle are as follows: 
 
-  1.	Order Azure Data Box/Data Box Disk – few minutes, from the portal
-  2.	Device allocation and preparation – 1-2 business days
-  3.	Shipping – 2-3 business days
-  4.	Data copy at customer site – Depends on nature of data, size and number of files
-  5.	Return shipping – 2-3 business days
-  6.	Processing device at Datacenter – 1-2 business days
-  7.	Upload data to Azure – Copy will begin as soon as processing is done and device is connected, completion depends on nature of data, size and number of files.
+  1.	Order Azure Data Box/Data Box Disk: a few minutes, from the portal
+  2.	Device allocation and preparation: 1-2 business days
+  3.	Shipping: 2-3 business days
+  4.	Data copy at customer site: Depends on the nature of the data, and the number and size of the files
+  5.	Return shipping: 2-3 business days
+  6.	Processing device at the datacenter: 1-2 business days
+  7.	Upload data to Azure: Copying will begin as soon as the processing is done and the device is connected. Completion time depends on the nature of data, and the number and size of the files.
 
-These are only estimates and are subject to vary depending on inventory availability, processing capacity and other factors at the datacenter. Please note that orders are processed and shipped at datacenters worldwide only on business days.
-When a shipment is in transit, tracking information is updated in the Overview page in the portal.
+The preceding information provides estimates only, and these estimates are subject to inventory availability, processing capacity, and other factors at the datacenter. Please note that orders are processed and shipped at datacenters worldwide only on **business days**.
+
+When a shipment is in transit, tracking information is updated on the Overview page in the portal.
 
 ### **Recommended Documents**
 
@@ -42,7 +43,7 @@ When a shipment is in transit, tracking information is updated in the Overview p
 
 ## Status of sign up requests
 
-If you submitted a sign up request for a Data Box, Data Box Disk or Data Box Heavy, we will review the details of the request and get back to you soon. Please note that if your subscription has been enabled to place an order, you will need to do this step from the Azure portal. Signing up does not automatically create an order.
+If you submitted a sign-up request for a Data Box, Data Box Disk, or Data Box Heavy, we'll review the details of the request and get back to you soon. Please note that if your subscription has been enabled to place an order, you'll need to place the order from the Azure portal. Signing up does not automatically create an order.
 
 
 ### **Recommended Documents**
