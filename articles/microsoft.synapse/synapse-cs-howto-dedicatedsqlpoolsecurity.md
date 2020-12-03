@@ -58,3 +58,4 @@ The following details explain how to set up and update common access and permiss
 
 * [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)
 
+ 

@@ -22,3 +22,4 @@
 
 **NOTE** After creating your Azure Synapse workspace, you will not be able to move the workspace to another Azure Active Directory tenant. If you do so through subscription migration or other actions, you may lose access to the artifacts within the workspace. 
 
+ 

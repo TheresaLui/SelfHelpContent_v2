@@ -53,3 +53,4 @@ Review [```requirements.txt``` file format](https://docs.microsoft.com/azure/syn
 
 * [Spark.NET C# kernel features](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)
 
+ 

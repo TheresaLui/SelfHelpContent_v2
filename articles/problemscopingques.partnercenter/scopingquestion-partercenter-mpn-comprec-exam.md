@@ -181,7 +181,7 @@
 	       },
 	       {
 		   "value": "data_center",
-		   "text": "Datacenter Option"
+		   "text": "Datacenter Solutions Option"
 	       },
 	       {
 		   "value": "deployment_partner",

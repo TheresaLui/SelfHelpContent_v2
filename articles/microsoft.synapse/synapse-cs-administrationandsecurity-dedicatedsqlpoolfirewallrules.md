@@ -32,3 +32,4 @@
 
 * [Powershell create virtual service endpoint](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-powershell?WT.mc_id=pid:13491:sid:32630421/)
 
+ 
