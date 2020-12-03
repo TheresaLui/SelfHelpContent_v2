@@ -228,6 +228,14 @@
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fda9fa68-64c5-7d3b-30af-82dc58dc53c8",
+      "longDescription": "",
+      "shortDescription": "How to interpret Analytics results from alert rules and queries",
+      "searchTags": "Rules;queries",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
