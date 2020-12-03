@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "62ac7b03-c7e4-e848-b157-893da273090c",
+      "longDescription": "",
+      "shortDescription": "Common issues with connectivity and tabs not populating",
+      "searchTags": "Tabs;Connectivity;populating",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "704d8033-1f32-11d2-33d4-9ebf90a138fe",
       "longDescription": "",
       "shortDescription": "Configuring  APIs, VNeT integration, notifications and custom domains",
