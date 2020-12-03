@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4c5c911b-a3f0-e3a2-8816-e6a7b7a039e7",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "support",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4d619398-e896-1279-5b49-f34a24911d2a",
       "longDescription": "",
       "shortDescription": "Bookmark creation and handling",
