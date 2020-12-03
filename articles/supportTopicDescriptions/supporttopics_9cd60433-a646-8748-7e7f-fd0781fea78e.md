@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
+      "longDescription": "",
+      "shortDescription": "Workspace creation failures",
+      "searchTags": "workspace",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb2bf9a3-ea02-c6ed-b390-f85d53168947",
       "longDescription": "",
       "shortDescription": "Errors when configuring Workbooks",
