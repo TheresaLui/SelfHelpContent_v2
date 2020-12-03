@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="4c2f22d0-06a1-44c7-85f5-297b5c6291ee"
+	articleId="64f06aa0-a3a0-4f5e-a201-f1bbf78555d8"
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 # Scoping questions for Always Encrypted, Secure Enclaves
