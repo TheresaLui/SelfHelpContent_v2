@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "17bd9098-5a17-03a0-fb7c-4d076261e407",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues with APIM migrations ",
+      "searchTags": "migration;integration",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "192f8b6d-0119-f243-1531-2f709ba7c46d",
       "longDescription": "",
       "shortDescription": "Troubleshooting APIM PowerShell module, REST API, and SDK modules",
