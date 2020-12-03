@@ -49,7 +49,7 @@
                         {
                             "value": "No",
                             "text": "No"
-                        },                  
+                        },     
                         {
                             "value": "dont_know_answer",
                             "text": "Not relevant"
