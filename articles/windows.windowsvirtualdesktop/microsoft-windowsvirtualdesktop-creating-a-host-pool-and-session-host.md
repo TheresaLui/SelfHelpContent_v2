@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Creating a host pool or session host"
+  pagetitle="Windows Virtual Desktop - Creating a host pool or session host&#xD;"
   service=""
   resource=""
   ms.author="evas"
   selfhelptype="Generic"
-  supporttopicids="32727879"
+  supporttopicids="32783596"
   resourcetags=""
   productpesids="16582"
   cloudenvironments="public,fairfax,usnat,ussec"
