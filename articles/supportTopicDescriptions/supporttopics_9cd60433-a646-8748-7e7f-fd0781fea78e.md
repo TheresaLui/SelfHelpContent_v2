@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d439052-5353-271e-fefa-6d084f0628c8",
+      "longDescription": "",
+      "shortDescription": "Topics related to cost and billing",
+      "searchTags": "Billing;Cost;bill",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4d619398-e896-1279-5b49-f34a24911d2a",
       "longDescription": "",
       "shortDescription": "Bookmark creation and handling",
