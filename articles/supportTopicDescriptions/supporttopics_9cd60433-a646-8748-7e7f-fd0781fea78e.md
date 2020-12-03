@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
+      "longDescription": "",
+      "shortDescription": "Diagnosing possible false positive incidents due to system errors",
+      "searchTags": "falsepositive",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
