@@ -12,7 +12,7 @@
   ownershipid="AzureData_AzureSQLVM" />
 # SQL Image Provisioning
 
-Refer to this article for common questions and issues related to deploying SQL Server inside an Azure Virtual Machine (VM). For deployment instructions, see [Provision SQL Server using Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
+This article addresses common questions and issues related to deploying SQL Server inside an Azure Virtual Machine (VM). For deployment instructions, see [Provision SQL Server using Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
 
 ## **Recommended Steps**
 
