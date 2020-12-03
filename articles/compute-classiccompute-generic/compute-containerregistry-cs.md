@@ -14,7 +14,7 @@
 
 ## **Recommended Documents**
 
-* [Azure Container Registry FAQ](https://aka.ms/acr/faq)<br>
+* [Azure Container Registry FAQ](https://docs.microsoft.com/azure/container-registry/container-registry-faq)<br>
 * [Azure Container Registry Documentation](https://docs.microsoft.com/azure/container-registry/)<br>
 * [Azure Container Registry Helpful links](https://github.com/azure/acr#links)<br>
 * [Push your first image to a private Docker container registry using the Docker CLI](https://docs.microsoft.com/azure/container-registry/container-registry-get-started-docker-cli)<br>
