@@ -40,7 +40,7 @@
                     "controlType": "dropdown",
                     "displayLabel": "If relevant, once you exclude the proxy service, does this issue still occur? If yes, please create a ticket on the relevant service versus MCAS.",
                     "watermarkText": "Choose an option",
-                    "dropdownOptions": 
+                    "dropdownOptions":
 					[
                         {
                             "value": "Yes",
