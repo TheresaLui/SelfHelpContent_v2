@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5013e832-92a8-4556-8223-707bc2d50436",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting the Investigation feature ",
+      "searchTags": "investigation",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5d90c88a-d4c9-0fde-ae74-def23ee4c549",
       "longDescription": "",
       "shortDescription": "Playbooks overview, troubleshooting, and guidance",
