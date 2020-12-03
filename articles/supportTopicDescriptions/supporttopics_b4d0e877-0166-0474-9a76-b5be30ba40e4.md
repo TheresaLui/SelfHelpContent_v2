@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "822c1554-109c-a87a-1cf1-ea44639dde0a",
+      "longDescription": "",
+      "shortDescription": "Unexpected behavior in Azure Portal",
+      "searchTags": "AzurePortal",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
       "longDescription": "",
       "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
