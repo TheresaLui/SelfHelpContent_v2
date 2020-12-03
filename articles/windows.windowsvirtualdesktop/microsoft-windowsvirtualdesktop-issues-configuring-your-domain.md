@@ -12,7 +12,7 @@
   ownershipid="Windows_Virtual_Desktop" />
 # WVD - Issues configuring your domain
 
-## Azure Windows Virtual Domain (WVD): Issues configuring your domain
+## Azure Windows Virtual Desktop: Issues configuring your domain
 
 Most customers can resolve their issues using the following steps.
 
