@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
+      "longDescription": "",
+      "shortDescription": "Connecting to workspaces is not working or taking too long",
+      "searchTags": "connecting;workspace",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "09fd360e-8e83-ed0a-c9e6-98eb25ca2d31",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
