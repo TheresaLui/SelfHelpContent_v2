@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
+      "longDescription": "",
+      "shortDescription": "Scenario is not listed, add details and open a case",
+      "searchTags": "Support",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
       "longDescription": "",
       "shortDescription": "Workspace creation failures",
