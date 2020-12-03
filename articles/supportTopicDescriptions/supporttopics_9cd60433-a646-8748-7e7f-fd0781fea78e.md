@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2be44f8-3c52-383d-f2b5-3ae94fd24f7c",
+      "longDescription": "",
+      "shortDescription": "Diagnosing issues when creating Analytics alert rule",
+      "searchTags": "Analytics;Rules",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e5469f80-6b5d-daf2-9e4a-199bba4943dd",
       "longDescription": "",
       "shortDescription": "Troubleshooting, understanding Threat Hunting Queries",
