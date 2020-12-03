@@ -100,6 +100,14 @@
       "searchTags": "gateway;Custom domains;Domains;API responses",
       "category": "Self Hosted Gateways",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
+      "longDescription": "",
+      "shortDescription": "Issues with APIM users and groups",
+      "searchTags": "users;groups",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
