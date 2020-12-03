@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
+      "longDescription": "",
+      "shortDescription": "Unable to see workspace in workspaces list",
+      "searchTags": "workspace;visible",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
       "longDescription": "",
       "shortDescription": "Connecting to workspaces is not working or taking too long",
