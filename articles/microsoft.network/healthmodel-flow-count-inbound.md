@@ -38,7 +38,7 @@ If the connections are legitmate then:
 * Consider enabling Accelerated Networking on the network interface
 * Consider adding additional network interfaces to the VM to handle the connection volume
 * Consider adding additional VMs to handle the connection volume
-* Consider placing the VM behind Azure Load Balancer
+* Consider placing your VMs behind Azure Load Balancer to distribute connection volume
 
 If the connections are NOT legimate, in addition to above options, consider enabling Azure DDOS Protection Standard.
 
