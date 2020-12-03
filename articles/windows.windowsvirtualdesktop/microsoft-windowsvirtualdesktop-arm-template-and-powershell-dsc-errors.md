@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors"
+  pagetitle="Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors&#xD;"
   service=""
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32727878"
+  supporttopicids="32783592"
   resourcetags=""
   productpesids="16582"
   cloudenvironments="public,usnat,ussec,fairfax"
@@ -31,4 +31,3 @@
 * [Error: DeploymentFailed -DSC Extension failed to execute: Error downloading](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-deploymentfailed--error-downloading)<br>
 * [Error: The user isn't authorized to query the management service](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-the-user-isnt-authorized-to-query-the-management-service-1)<br>
 * [Error: User requires Azure Multi-Factor Authentication (MFA)](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#error-user-requires-azure-multi-factor-authentication-mfa)
-  
