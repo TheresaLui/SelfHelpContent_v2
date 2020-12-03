@@ -29,10 +29,11 @@ This support topic area is for general questions around MFA for Partner center. 
 - [What will happen if I don’t implement MFA as per this new security requirement by August 1, 2019?](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#what-will-happen-if-i-dont-implement-mfa-as-per-this-new-security-requirement-by-august-1-2019)
 - [How do I confirm that my environment is complaint with the partner security requirements?](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment)
 
+To view metrics on compliance to [partner security requirements](https://docs.microsoft.com/partner-center/partner-security-requirements) for multi-factor authentication (MFA) for users in your partner tenant, refer to [security requirements status](https://partner.microsoft.com/commerce/security/compliance).
+
 ## **Recommended Documents**
 
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [Partner Security Requirements](https://docs.microsoft.com/partner-center/partner-security-requirements)
 * [Partner Security Requirements FAQ](https://docs.microsoft.com/partner-center/partner-security-requirements-faq)
-
 

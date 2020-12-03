@@ -24,6 +24,12 @@
       "searchTags": "MPN;Benefits;Competencies;Activation",
     },
     {
+      "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
+      "longDescription": "",
+      "shortDescription": "How to request technical presales and deployment support leveraging MPN advisory benefit",
+      "searchTags": "Pre-sales;Licensing;License;SKU",
+    },
+    {
       "id": "1f8d2ab4-8109-4771-94da-fefd36173e92",
       "longDescription": "",
       "shortDescription": "Questions about enrolling in the Marketplace Rewards benefit",

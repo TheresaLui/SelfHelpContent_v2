@@ -52,6 +52,18 @@ Are you facing one of these common problems?
 		* Problem type: **Pipelines - Configuring pipelines**
 		* Problem subtype: **Microsoft-hosted agents - disk space, IP address range, etc**
 
+* I deployed a self hosted build agent as limit exceeded beyond the free minutes specified. However, all my builds still fail.
+
+	- The pipeline would be pointing to an Azure Pipeline agent. Change the agent pool to the self-hosted pool and it should work fine.
+
+* How do I increase build timeout?
+
+	- Change the **jobTimeoutInminutes** value by referring to this [document](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml#timeouts)
+
+* My build pipeline is timing out even after setting the **Build timeout in minutes** to 0.
+
+	- This is because the the **jobTimeoutInMinutes** is set to 60 for the pipeline. Change the timeout in the **Agent Job settings** to 0.
+
 ## **Recommended Documents**
 
 * [Job timeouts in classic build or YAML pipelines](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml#timeouts)
@@ -61,5 +73,6 @@ Are you facing one of these common problems?
 * [Timeouts in classic releases](https://docs.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops)
 * [Timeouts and disconnects](https://docs.microsoft.com/azure/devops/pipelines/process/runs?view=azure-devops#timeouts-and-disconnects)
 * [Maximum job limits for Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops)
+* [Timeouts in Classic editor](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=classic#timeouts)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
