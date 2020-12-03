@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-security"
+	articleId="cosmosdb-security-managed-identities"
 	displayOrder="171"
 	category="Security"
 	ownershipId="AzureData_AzureCosmosDB"

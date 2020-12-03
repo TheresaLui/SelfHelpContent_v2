@@ -56,14 +56,14 @@
         },
         {
             "id": "mgtidentity_key_identifier",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the key identifier of the customer-managed key you're using on your Azure Cosmos DB account?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing",
             "required": true,
