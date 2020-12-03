@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "192f8b6d-0119-f243-1531-2f709ba7c46d",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting APIM PowerShell module, REST API, and SDK modules",
+      "searchTags": "REST API;SDK;PowerShell",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1d91a89e-3f32-acfa-9185-d9d9a97934af",
       "longDescription": "",
       "shortDescription": "Client certification issues for outbound and inbound gateway calls",
