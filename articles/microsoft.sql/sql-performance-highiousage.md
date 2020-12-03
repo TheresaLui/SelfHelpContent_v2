@@ -25,7 +25,7 @@ Our internal service telemetry detected high IO or high log rate usage greater t
 
 ## **Recommended Steps**
 
-This indicates possible application slowness, timeouts due to lack of IO resources to execute the requested workload during that specific period. Please see the recommended articles for more details.
+This indicates possible application slowness, or timeouts due to lack of IO resources to execute the requested workload during that specific period. See the recommended articles for more detail.
 
 ## **Recommended Documents**
 
