@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6c2a6277-fc95-a4bf-7e9b-55ac3e401969",
+      "longDescription": "",
+      "shortDescription": "Issues validating OAuth and Developer portal AAD integration",
+      "searchTags": "OAuth;Portal;DevPortal",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "704d8033-1f32-11d2-33d4-9ebf90a138fe",
       "longDescription": "",
       "shortDescription": "Configuring  APIs, VNeT integration, notifications and custom domains",
