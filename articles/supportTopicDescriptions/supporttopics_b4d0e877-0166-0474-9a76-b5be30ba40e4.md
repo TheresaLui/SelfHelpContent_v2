@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73e09b7c-39a3-56e4-a357-83be61ec808f",
+      "longDescription": "",
+      "shortDescription": "Issues with ciphers, protocols and certificates in APIM",
+      "searchTags": "ciphers;protocols;certificates;certs",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "822c1554-109c-a87a-1cf1-ea44639dde0a",
       "longDescription": "",
       "shortDescription": "Unexpected behavior in Azure Portal",
