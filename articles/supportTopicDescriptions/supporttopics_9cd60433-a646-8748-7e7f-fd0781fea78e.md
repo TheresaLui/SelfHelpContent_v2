@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be01c177-f4f7-c46c-b8f8-c8b54709233e",
+      "longDescription": "",
+      "shortDescription": "Missing alerts, alert details in Sentinel dashboard",
+      "searchTags": "dashboard;alert",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c9027e-dd57-1efe-002b-64a7219efe25",
       "longDescription": "",
       "shortDescription": "Data is incorrect or mismatched in Workbook",
