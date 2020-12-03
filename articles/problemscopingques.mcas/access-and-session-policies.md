@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_CAAC"
 />
-# Access and session controls - Access and session policies
+# Access and session controls - Access_and_session_policies
 ---
 {
 				"$schema": "SelfHelpContent",
