@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c22c45e9-a87e-053e-9288-de04712cbd76",
+      "longDescription": "",
+      "shortDescription": "Issues with backup and restore for API Management",
+      "searchTags": "backup;restore",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d833283b-325e-c592-e652-c95693444d8b",
       "longDescription": "",
       "shortDescription": "Issues related to APIM upgrades, scaling or changing SKUs",
