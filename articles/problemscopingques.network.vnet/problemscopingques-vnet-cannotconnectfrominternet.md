@@ -18,12 +18,18 @@
     "subscriptionRequired": true,
     "title": "Cannot Connect to or from Internet",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "VM Connectivity Troubleshooter",
+        "description": "Our VM Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "cannot_connect_vm",
             "order": 1,
             "controlType": "dropdown",
             "required": true,
+            "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the virtual machine you are experiencing connectivity issues with:",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
@@ -44,6 +50,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the traffic direction:",
+            "diagnosticInputRequiredClients": "Portal",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -65,6 +72,7 @@
             "id": "port_number",
             "order": 3,
             "controlType": "dropdown",
+            "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the port number:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
