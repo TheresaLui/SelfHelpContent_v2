@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors&#xD;"
+  pagetitle="Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors"
   service=""
   resource=""
-  ms.author="jerrycif,evas"
+  ms.author="evas"
   selfhelptype="Generic"
   supporttopicids="32783592"
   resourcetags=""
@@ -17,7 +17,6 @@
 ## **Recommended Steps**
 
 * When adding a customized image to your host pool, verify you followed the steps to [Prepare and customize a master VHD image](https://docs.microsoft.com/azure/virtual-desktop/set-up-customize-master-image)
-
 
 ## **Recommended Documents**
 
