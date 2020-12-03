@@ -4,7 +4,7 @@
 	authors="A-COFLOR"
         ms.author="A-COFLOR"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
+	supportTopicIds="32725867"
 	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
