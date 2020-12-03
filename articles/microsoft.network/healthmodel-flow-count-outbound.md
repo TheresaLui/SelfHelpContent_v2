@@ -26,8 +26,9 @@ Microsoft Azure has identified an issue with your VM, **<!--$vmname-->[vmname]<!
 
 The most likely cause of high outbound connections/flows is a customer application or service within the VM.   
 
-* Login to the VM and display the destination IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux))
 * Configure your application or service to reduce the number of outbound connections or add additional network interfaces to the VM or add additional VMs
+* To determine the nature of the traffic, login to the VM and display the destination IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux))
+
 
 ## **Recommended Documents**
 
