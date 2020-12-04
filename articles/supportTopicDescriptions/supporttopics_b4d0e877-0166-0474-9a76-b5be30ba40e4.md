@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8a30810e-71b0-7b92-cfe1-2b02d8383e9e",
+      "longDescription": "",
+      "shortDescription": "External accessibility issues to the portal",
+      "searchTags": "Gateway;accessibility",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "91e9152e-eb22-79e1-09f3-aee02992d8fb",
       "longDescription": "",
       "shortDescription": "Issues with configuring CORS",
