@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b0139cc0-302f-b2f7-0e17-5fb2bc172a7c",
+      "longDescription": "",
+      "shortDescription": "Configuration issues with monitoring and diagnostics",
+      "searchTags": "diagnostic;monitoring",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c22c45e9-a87e-053e-9288-de04712cbd76",
       "longDescription": "",
       "shortDescription": "Issues with backup and restore for API Management",
