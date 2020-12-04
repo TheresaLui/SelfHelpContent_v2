@@ -27,7 +27,8 @@ We have identified that your snapshot operation failed due to the VSS (Volume Sh
 
 Step 1: Restart VSS writers that are in a bad state.
 
-* From an elevated command prompt, run ```vssadmin list writers```.
+* From an elevated command prompt, run <br>
+```vssadmin list writers```.
 * The output contains all VSS writers and their state. For every VSS writer with a state that's not **[1] Stable**, restart the respective VSS writer's service.
 * To restart the service, run the following commands from an elevated command prompt:
 
@@ -39,7 +40,8 @@ Step 1: Restart VSS writers that are in a bad state.
 
 Step 2: If restarting the VSS writers did not resolve the issue, then run the following command from an elevated command-prompt (as an administrator) to prevent the threads from being created for blob-snapshots.
 
-```console
+```
+console
 REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotWithoutThreads /t REG_SZ /d True /f
 ```
 
