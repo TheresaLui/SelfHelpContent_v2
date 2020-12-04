@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "390d849c-fac5-d2e0-812e-0e5d31d8dbde",
+      "longDescription": "",
+      "shortDescription": "Creating APIs",
+      "searchTags": "API",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3eeea2b1-36af-c1b4-fb6e-63e6d4051136",
       "longDescription": "",
       "shortDescription": "Configuration issues with MSI and KeyVault",
