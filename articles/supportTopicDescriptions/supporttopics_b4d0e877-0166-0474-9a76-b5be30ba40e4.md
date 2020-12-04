@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "341aadb6-29e6-a050-45c9-aa200ae2d805",
+      "longDescription": "",
+      "shortDescription": "Unexpected behavior in Portal UI",
+      "searchTags": "issue",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37fe510b-e9d2-2b6b-a9ec-0d7f656019ca",
       "longDescription": "",
       "shortDescription": "Guidance on backup, restore, ARM template, deployments, scaling, GIT integration, Migrations and Operations",
