@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00767da0-64eb-a6cd-48a0-054c9a600665",
+      "longDescription": "",
+      "shortDescription": "Issues with importing OpenAPI, WSDL, and WADL APIs",
+      "searchTags": "OpenAPI;WSDL;WADL",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
       "longDescription": "",
       "shortDescription": "Why is my APIM capacity high?",
