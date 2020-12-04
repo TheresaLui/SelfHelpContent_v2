@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
+      "longDescription": "",
+      "shortDescription": "Why is my APIM capacity high?",
+      "searchTags": "capacity",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "17bd9098-5a17-03a0-fb7c-4d076261e407",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues with APIM migrations ",
