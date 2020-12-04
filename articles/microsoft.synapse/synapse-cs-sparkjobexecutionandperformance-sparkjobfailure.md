@@ -50,3 +50,4 @@ Spark pools in Azure Synapse include the following libraries that are available 
 
 * [Microsoft Spark Utilities](https://docs.microsoft.com/azure/synapse-analytics/spark/microsoft-spark-utilities?pivots=programming-language-csharp)
 
+ 

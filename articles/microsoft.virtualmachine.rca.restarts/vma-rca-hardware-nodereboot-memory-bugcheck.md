@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **Memory Error** on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node.
+> The Host Node where the VM was running encountered a **Memory Error** on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node.
 > 
 
 <!--resolutionDetails-->
