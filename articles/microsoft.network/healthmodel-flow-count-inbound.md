@@ -32,7 +32,7 @@ If you are NOT running a vulnerability scanning tool, or disabling it does not r
 * Login to the VM and display the source IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux))
 * If there are a large number of connections, examine the source IP (Foreign Address) to determine if they are legitimate or not
 
-If the connections are legitmate then:
+If the connections are legitimate then:
 
 * Consider changing your application or service to reduce the number of connections on this network interface
 * Consider enabling Accelerated Networking on the network interface
@@ -40,7 +40,7 @@ If the connections are legitmate then:
 * Consider adding additional VMs to handle the connection volume
 * Consider placing your VMs behind Azure Load Balancer to distribute connection volume
 
-If the connections are NOT legimate, in addition to above options, consider enabling Azure DDOS Protection Standard.
+If the connections are NOT legitimate, in addition to above options, consider enabling Azure DDOS Protection Standard.
 
 
 ## **Recommended Documents**
