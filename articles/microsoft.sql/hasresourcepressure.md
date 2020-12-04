@@ -8,7 +8,7 @@
 	ms.author="vimahadi"
 	displayOrder=""
 	articleId="SubcoreResourcePressure_9783692F-A939-4689-8344-40166960667B"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414,3260429"
 	resourceTags=""

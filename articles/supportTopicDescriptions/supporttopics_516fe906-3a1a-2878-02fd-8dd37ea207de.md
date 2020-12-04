@@ -56,8 +56,8 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless Single-Sign-on",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in error;sign-in",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -120,8 +120,8 @@
     {
       "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
       "longDescription": "",
-      "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
-      "searchTags": "Usage of Seamless SSO ",
+      "shortDescription": "Issues with migration, integrating Seamless SSO with my apps, configuring my apps, token claims and lifetimes, and managing guest users",
+      "searchTags": "migration;my apps;integration;token;guest user",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -170,6 +170,14 @@
       "longDescription": "",
       "shortDescription": "Problems or advisory needs for creating or configuring Conditional Access rules to protect your infrastructure",
       "searchTags": "Conditional Access;Configuring Conditional Access",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "644acb3c-e490-6780-d5c0-b507e4bea148",
+      "longDescription": "",
+      "shortDescription": "Problems with unlocking your PC or signing in with FIDO2 security keys",
+      "searchTags": "FIDO;FIDO2;security keys;unlock PC",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -288,8 +296,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
-      "searchTags": "issues with pass-through authentication",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in;sign-in error",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -336,8 +344,8 @@
     {
       "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issue with Seamless Single Sign-on",
+      "shortDescription": "Issues with configuring, signing in with, and managing Seamless Single Sign-on",
+      "searchTags": "Configuration;sign-in;SSO;manage;single sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -376,8 +384,8 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless SSO login",
+      "shortDescription": "I was unable to find a solution to my problem under the other problem sub-types for Seamless SSO",
+      "searchTags": "SSO",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
