@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4be2190-1ffc-e36c-b242-f744490951a2",
+      "longDescription": "",
+      "shortDescription": "Issues with the Management API",
+      "searchTags": "ManagementAPI",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d441d37b-d7e0-e149-2842-a399f0d0a9ec",
       "longDescription": "",
       "shortDescription": "Issues with API versions and revisions",
