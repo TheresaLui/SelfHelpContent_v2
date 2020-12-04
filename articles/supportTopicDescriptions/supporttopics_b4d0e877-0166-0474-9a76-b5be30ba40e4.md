@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9a8a1f02-944a-2a8f-26d6-9707979ea8e0",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting sign-in issues",
+      "searchTags": "sign in;sign-in",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
       "longDescription": "",
       "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
