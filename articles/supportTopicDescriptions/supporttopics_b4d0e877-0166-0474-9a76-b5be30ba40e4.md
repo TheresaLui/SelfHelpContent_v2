@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91e9152e-eb22-79e1-09f3-aee02992d8fb",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring CORS",
+      "searchTags": "CORS",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "98d7e8dc-b790-8602-cfd1-6345f30862b1",
       "longDescription": "",
       "shortDescription": "Issues with developer portal authentication with AAD B2C",
