@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7bb895a7-d71c-f23a-ec4c-5a1960ce407c",
+      "longDescription": "",
+      "shortDescription": "unexpected API responses with self-hosted gateway",
+      "searchTags": "API;Gateway",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "822c1554-109c-a87a-1cf1-ea44639dde0a",
       "longDescription": "",
       "shortDescription": "Unexpected behavior in Azure Portal",
