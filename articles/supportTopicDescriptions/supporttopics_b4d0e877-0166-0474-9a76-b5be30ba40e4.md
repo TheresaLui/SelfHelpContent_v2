@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "571b0947-da7d-099d-b19b-3cca640f7606",
+      "longDescription": "",
+      "shortDescription": "Integration issues with Application Insights",
+      "searchTags": "integration",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
