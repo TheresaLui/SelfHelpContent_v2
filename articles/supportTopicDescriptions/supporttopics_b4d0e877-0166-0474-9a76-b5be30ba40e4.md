@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3eeea2b1-36af-c1b4-fb6e-63e6d4051136",
+      "longDescription": "",
+      "shortDescription": "Configuration issues with MSI and KeyVault",
+      "searchTags": "MSI;KeyVault",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43316437-43b9-cefc-ad1d-cff2984134d0",
       "longDescription": "",
       "shortDescription": "Guidance on AAD integration, certificates, SSL, User Group Management and RBAC",
