@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8512c11-63a6-a29a-490a-4d26de0b64fe",
+      "longDescription": "",
+      "shortDescription": "Issues with collecting debug traces",
+      "searchTags": "traces;debug",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d90bcc12-a818-e831-4717-1340712e826f",
       "longDescription": "",
       "shortDescription": "Issues with using C Sharp expressions in policies",
