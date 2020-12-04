@@ -21,7 +21,7 @@
 ## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->, qualifies to be updated to the latest version of Azure Cosmos DB's API for MongoDB
 
 <!--issueDescription-->
-Upgrading to the latest version of the service will provide the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.
+Upgrading to the latest version of the service will provide the most up-to-date functionality, the latest fixes, and performance and stability enhancements.
 
 <!--/issueDescription-->
 
@@ -29,7 +29,7 @@ The upgrade process will not cause any service interruptions or downtime. <!--$M
 
 **Note:** The notification might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
-**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new account through the portal and select the MongoDB server version 3.6 to try it out with the application on a dev or qa instance, before you update the account while backing any production workload.
+**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new account through the portal and select the MongoDB server version 3.6 to try it out with the application on a dev or qa instance **before you update the account while backing any production workload**.
 
 1. Benefits of upgrading to version 3.6
 
