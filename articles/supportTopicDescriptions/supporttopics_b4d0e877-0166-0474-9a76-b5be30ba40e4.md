@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d90bcc12-a818-e831-4717-1340712e826f",
+      "longDescription": "",
+      "shortDescription": "Issues with using C Sharp expressions in policies",
+      "searchTags": "policies",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
       "longDescription": "",
       "shortDescription": "Issues with APIM users and groups",
