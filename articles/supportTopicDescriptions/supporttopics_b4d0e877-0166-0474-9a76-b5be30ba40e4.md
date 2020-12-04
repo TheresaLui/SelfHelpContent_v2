@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "550f925a-df39-bcb2-d288-d1ef178a0c8a",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring JSON to XML policies",
+      "searchTags": "JSON;XML",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
