@@ -41,3 +41,4 @@
 
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)
 
+ 

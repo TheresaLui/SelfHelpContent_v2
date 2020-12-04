@@ -31,3 +31,7 @@ Please follow recommended document to mitigate the issue:
 * [AmbariClusterCreationFailedErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349518/AmbariClusterCreationFailedErrorCode)
 * [Ranger-Admin fails to start](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349530/SecureClusterCreateFailsWith-Ranger-Admin-Fails-ToStart-Tablex-Already-Exists-In-Database)
 
+
+## **Known Issues**
+
+* [The driver connection failure to DB using SSL](https://msdata.visualstudio.com/HDInsight/_workitems/edit/903471)

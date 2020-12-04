@@ -25,3 +25,4 @@
 * [Iterative development and debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
 
 * [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)
+ 
