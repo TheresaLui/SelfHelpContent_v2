@@ -467,7 +467,7 @@
          "order": 17,
          "visibility": "competency_requirement == cloud_revenue_newbilled",
          "controlType": "infoblock",
-         "content": "To help us better understand your issue and for a faster resolution please upload a screenshot with the approved claim from his own dashboard for the customers driving revenue through."
+         "content": "To help us better understand your issue and for a faster resolution please upload a screenshot with the approved claim from his own dashboard for the customers driving revenue through CPOR."
        },
        {
          "id": "text_attach8",
