@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d441d37b-d7e0-e149-2842-a399f0d0a9ec",
+      "longDescription": "",
+      "shortDescription": "Issues with API versions and revisions",
+      "searchTags": "versions;revisions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d833283b-325e-c592-e652-c95693444d8b",
       "longDescription": "",
       "shortDescription": "Issues related to APIM upgrades, scaling or changing SKUs",
