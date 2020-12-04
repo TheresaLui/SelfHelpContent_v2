@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ddd06a4d-1dca-3b8f-b8cf-85034e61c044",
+      "longDescription": "",
+      "shortDescription": "Issues with customization and branding the Developer Portal",
+      "searchTags": "customize;Branding",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f50146a0-1e52-89d5-a441-b37679b10670",
       "longDescription": "",
       "shortDescription": "Custom domain configurations issues with self-hosted gateway",
