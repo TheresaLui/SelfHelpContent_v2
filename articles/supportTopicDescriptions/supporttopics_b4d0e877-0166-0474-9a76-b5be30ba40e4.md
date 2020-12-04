@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "45b28240-840c-137d-1b13-98b5433cf5c0",
+      "longDescription": "",
+      "shortDescription": "Issues with importing Logic App or Function Apps APIs",
+      "searchTags": "Import;Function Apps;Logic App",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4d21eeb2-be55-0e3a-4064-7b352cf6dd6d",
       "longDescription": "",
       "shortDescription": "Issues with subscription keys",
