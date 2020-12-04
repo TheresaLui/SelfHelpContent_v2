@@ -18,7 +18,7 @@ For example:
 
 "User Verification! hostname in certificate didn't match: <centralIndia.api.cognitive.microsoft.com> != <*.cognitiveservices.azure.com> OR <*.cognitiveservices.azure.com>"
 
-**.cognitiveservices.azure.com** is a domain name that was recently added for Cognitive Services. It is set to the default SSL binding certificate so if an SNI header is missing, API management will use the default certificate which is now **.cognitiveservices.azure.com**.
+The domain name **.cognitiveservices.azure.com** was recently added for Cognitive Services. It is set to the default SSL binding certificate. This means, if an SNI header is missing, API management will use the default certificate which is now **.cognitiveservices.azure.com**.
  
 ## **Recommended Steps**
 
