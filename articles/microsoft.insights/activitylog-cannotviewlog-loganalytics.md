@@ -14,7 +14,7 @@
 />
 
 # <-- can't-view-ActivityLog-LogAnalytics -->
-Activity logs retain the logs for 90 days. You can choose to store the logs in Azure storage (via diagnostic settings) if you want to retain logs longer than 90 days. Be sure to follow recommendations for checks and references to ensure that you can retrieve logs as expected. If your issue falls out of the scope mentioned here, creat a support ticket. 
+Activity logs retain the logs for 90 days. You can choose to store the logs in Azure storage (via diagnostic settings) if you want to retain logs longer than 90 days. Be sure to follow recommendations for checks and references to ensure that you can retrieve logs as expected. If your issue falls out of the scope mentioned here, create a support ticket. 
 
 ## **Recommended Steps**
 
