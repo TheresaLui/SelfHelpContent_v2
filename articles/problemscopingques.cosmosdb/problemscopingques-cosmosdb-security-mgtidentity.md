@@ -16,7 +16,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "CosmosDB Managed Identities Issues",
+    "title": "Cosmos DB Managed Identities Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -71,12 +71,6 @@
             "hints": [
                 {
                     "text": "More information on the exact issue."
-                },
-                {
-                    "text": "Read/Write regions where the issue is experienced"
-                },
-                {
-                    "text": "Activity Id of the request (if available)."
                 }
             ]
         }
