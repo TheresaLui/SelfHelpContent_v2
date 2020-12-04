@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f50146a0-1e52-89d5-a441-b37679b10670",
+      "longDescription": "",
+      "shortDescription": "Custom domain configurations issues with self-hosted gateway",
+      "searchTags": "Domain",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
       "longDescription": "",
       "shortDescription": "Issues with APIM users and groups",
