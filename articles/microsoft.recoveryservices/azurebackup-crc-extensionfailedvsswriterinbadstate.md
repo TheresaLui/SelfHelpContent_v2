@@ -43,4 +43,4 @@ Step 2: If restarting the VSS writers did not resolve the issue, then run the fo
 REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotWithoutThreads /t REG_SZ /d True /f
 ```
 
-If steps 1 and 2 did not resolve the issue, follow the instructions in *Step 3* in this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
+If step 1 and 2 did not resolve the issue, follow the instructions in *Step 3* in this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
