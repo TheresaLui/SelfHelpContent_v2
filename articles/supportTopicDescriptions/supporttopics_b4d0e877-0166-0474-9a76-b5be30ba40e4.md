@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66dba1e2-76eb-4860-3a2e-976f99f7451f",
+      "longDescription": "",
+      "shortDescription": "Configuring policies with self-hosted gateway",
+      "searchTags": "policies;configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6c2a6277-fc95-a4bf-7e9b-55ac3e401969",
       "longDescription": "",
       "shortDescription": "Issues validating OAuth and Developer portal AAD integration",
