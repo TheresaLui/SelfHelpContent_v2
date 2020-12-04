@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55281c8f-9b08-13cc-f4fe-a0e66afd3aad",
+      "longDescription": "",
+      "shortDescription": "Portal down",
+      "searchTags": "Down",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "571b0947-da7d-099d-b19b-3cca640f7606",
       "longDescription": "",
       "shortDescription": "Integration issues with Application Insights",
