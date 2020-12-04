@@ -33,3 +33,4 @@
 ## **Recommended Documents**
 
 * [Virtual instructor-led training](https://partner.microsoft.com/training/virtual-instructor-led-training#/) (available to all partners)
+* [Quick Reference Guide](https://docs.microsoft.com/partner-center/support-resources-licensing) for licensing questions

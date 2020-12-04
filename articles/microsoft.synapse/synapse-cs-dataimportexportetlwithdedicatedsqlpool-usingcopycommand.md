@@ -26,3 +26,4 @@ Review [Frequently Asked Questions](https://docs.microsoft.com/sql/t-sql/stateme
 
 Review the documentation for [COPY](https://docs.microsoft.com/sql/t-sql/statements/copy-into-transact-sql?view=azure-sqldw-latest) command.
 
+ 

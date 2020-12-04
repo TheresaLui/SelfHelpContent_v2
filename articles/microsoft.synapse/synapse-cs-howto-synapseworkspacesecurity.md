@@ -36,3 +36,4 @@
 
 * [Grant permissions to workspace managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/how-to-grant-workspace-managed-identity-permissions)
 
+ 

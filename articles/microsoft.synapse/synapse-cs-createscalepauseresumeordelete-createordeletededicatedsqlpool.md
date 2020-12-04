@@ -30,3 +30,4 @@
 
 * [Clean up resources](https://docs.microsoft.com/azure/sql-data-warehouse/pause-and-resume-compute-powershell#clean-up-resources)
 
+ 
