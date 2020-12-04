@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af037e8e-94e2-c61e-ead9-f1bb45a82b34",
+      "longDescription": "",
+      "shortDescription": "Issues with performance of self-hosted gateway",
+      "searchTags": "performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c22c45e9-a87e-053e-9288-de04712cbd76",
       "longDescription": "",
       "shortDescription": "Issues with backup and restore for API Management",
