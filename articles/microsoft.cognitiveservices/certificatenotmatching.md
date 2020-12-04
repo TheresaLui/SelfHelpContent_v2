@@ -12,7 +12,7 @@
   ownershipid="AzureCogSvc_CognitiveServices" />
 # User Verification! Hostname in certificate didn’t match
 
-Resolve errors about User Verification and the certification not matching when calling a Cognitive Service.
+Use these steps to resolve errors about User Verification and the certification not matching when calling a Cognitive Service.
  
 For example:
 
