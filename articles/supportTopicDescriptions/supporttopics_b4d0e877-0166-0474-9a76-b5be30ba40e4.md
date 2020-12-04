@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4d21eeb2-be55-0e3a-4064-7b352cf6dd6d",
+      "longDescription": "",
+      "shortDescription": "Issues with subscription keys",
+      "searchTags": "subscriptionkeys",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "50af3be1-7132-0f22-ace4-47d49b0c4ad9",
       "longDescription": "",
       "shortDescription": "Issues related to API Management blade in the Azure Portal",
