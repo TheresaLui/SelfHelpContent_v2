@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "192cb6a8-fe07-fd45-9057-3a4f76c229bd",
+      "longDescription": "",
+      "shortDescription": "Issues with changing Admin contact",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "192f8b6d-0119-f243-1531-2f709ba7c46d",
       "longDescription": "",
       "shortDescription": "Troubleshooting APIM PowerShell module, REST API, and SDK modules",
