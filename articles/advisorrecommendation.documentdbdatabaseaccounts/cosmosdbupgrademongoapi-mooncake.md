@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 0.1,
+  "version": 0.2,
   "learnMoreLink": "https://docs.azure.cn/cosmos-db/mongodb-feature-support-36",
   "description": "Upgrade your Azure Cosmos DB's API for MongoDB to version 3.6",
   "longDescription": "Your Azure Cosmos DB account qualifies to be upgraded to version 3.6 of Azure Cosmos DB's API for MongoDB. We recommend upgrading to version 3.6 for the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.",
