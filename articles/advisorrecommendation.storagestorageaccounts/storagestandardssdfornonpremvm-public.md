@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "8433e84a-8f5c-4b6c-9052-9b98757348ea",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorStandardSSDForNonPremVMPublic",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorStandardSSDForNonPremVMPublic",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StandardSSDForNonPremVM",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "lisson@microsoft.com",
     "icm": {
