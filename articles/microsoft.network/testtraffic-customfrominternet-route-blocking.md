@@ -27,9 +27,9 @@ User-defined route tables have a route that is causing the issue.
 
 ## **Recommended Steps**
 
-Please [view effective routes](https://docs.microsoft.com/azure/virtual-network/manage-route-table#view-effective-routes) on the network interface that is attached to virtual machine <!--$VmName-->VmName<!--/$VmName-->. You can also use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to learn which custom route alters the traffic flow.
+* Please [view effective routes](https://docs.microsoft.com/azure/virtual-network/manage-route-table#view-effective-routes) on the network interface that is attached to virtual machine <!--$VmName-->VmName<!--/$VmName-->. You can also use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to learn which custom route alters the traffic flow.
 
-If the routing method does not produce the desired result, examine the [User-defined route tables]( https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) to make sure that the routing is set up correctly. You can try to [dissociate](https://docs.microsoft.com/azure/virtual-network/manage-route-table#dissociate-a-route-table-from-a-subnet) questionable [User-defined route tables](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) from the affected subnet to determine whether that resolves the issue.
+* If the routing method does not produce the desired result, examine the [User-defined route tables]( https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) to make sure that the routing is set up correctly. You can try to [dissociate](https://docs.microsoft.com/azure/virtual-network/manage-route-table#dissociate-a-route-table-from-a-subnet) questionable [User-defined route tables](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) from the affected subnet to determine whether that resolves the issue.
 
 ### Tests executed
 
