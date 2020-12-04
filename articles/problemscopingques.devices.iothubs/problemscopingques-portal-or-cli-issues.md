@@ -1,23 +1,23 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
-	authors="jlian"
-	ms.author="jlian"
+	pageTitle="Issue with IoT Portal or CLI commands"
+	description="Azure Portal or CLI issues for IoT Hub scoping questions"
+	authors="camanle"
+	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528, 32783519, 32630531"
+	supportTopicIds="32630526"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="problemscopingques-portal-or-cli-issues"
 	ownershipId="AzureIot_IotHub"
 />
-# IoT Hub service issues
+# Issue with IoT Portal or CLI commands
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "Issue with IoT Portal or CLI commands",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -45,11 +45,19 @@
       ]
     },
     {
-      "id": "errors",
+      "id": "feature_issues",
       "order": 10,
       "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
+      "displayLabel": "Which feature are you having issues with?",
+      "watermarkText": "Example: Networking, Certificates, IoT Devices, etc",
+      "required": false
+    },
+    {
+      "id": "cli",
+      "order": 20,
+      "controlType": "textbox",
+      "displayLabel": "If you are using CLI, which command are you having issue with?",
+      "watermarkText": "For a list of commands, please see this page - https://docs.microsoft.com/cli/azure/ext/azure-cli-iot-ext/iot/hub?view=azure-cli-latest",
       "required": false
     }
   ]

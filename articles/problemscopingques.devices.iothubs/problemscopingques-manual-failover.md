@@ -1,23 +1,23 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
-	authors="jlian"
-	ms.author="jlian"
+	pageTitle="IoT Hub manual failover issues"
+	description="IoT Hub manual failover issues for IoT Hub scoping questions"
+	authors="camanle"
+	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528, 32783519, 32630531"
+	supportTopicIds="32630558"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="problemscopingques-manual-failover"
 	ownershipId="AzureIot_IotHub"
 />
-# IoT Hub service issues
+# IoT Hub Manual Failover issues
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "IoT Hub Manual Failover issues",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -45,11 +45,10 @@
       ]
     },
     {
-      "id": "errors",
+      "id": "failover",
       "order": 10,
       "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
+      "displayLabel": "How are you initiating manual failover?",
       "required": false
     }
   ]

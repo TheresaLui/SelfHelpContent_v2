@@ -1,23 +1,26 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
-	authors="jlian"
-	ms.author="jlian"
+	pageTitle="Issues with IoT Hub azure security center"
+	description="Issues with azure security center for IoT Hub scoping questions"
+	authors="camanle"
+	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528, 32783519, 32630531"
+	supportTopicIds="32636058"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="problemscopingques-security-center"
 	ownershipId="AzureIot_IotHub"
 />
-# IoT Hub service issues
+
+# IoT Hub azure security center issues
+
 ---
+
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "IoT Hub azure security center issues",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -26,6 +29,27 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
+    },
+    {
+      "id": "security",
+      "order": 2,
+      "controlType": "dropdown",
+      "displayLabel": "Which area of ASC are you having issues with?",
+      "dropdownOptions": [{
+					"value": "Recommendations",
+					"text": "Recommendations"
+				}, {
+					"value": "Alerts",
+					"text": "Alerts"
+				}, {
+					"value": "Security agents and SDK",
+					"text": "Security agents and SDK"
+				}, {
+					"value": "Configuration",
+					"text": "Configuration"
+				}
+			],
+      "required": false
     },
     {
       "id": "problem_description",
@@ -43,15 +67,8 @@
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
-    },
-    {
-      "id": "errors",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": false
     }
   ]
+
 }
 ---

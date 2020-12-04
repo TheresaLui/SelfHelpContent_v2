@@ -1,23 +1,26 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
-	authors="jlian"
-	ms.author="jlian"
+	pageTitle="Issues with IoT Hub endpoints"
+	description="Issues with endpoints for IoT Hub scoping questions"
+	authors="camanle"
+	ms.author="camanle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528, 32783519, 32630531"
+	supportTopicIds="32783521"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="problemscopingques-endpoint"
 	ownershipId="AzureIot_IotHub"
 />
-# IoT Hub service issues
+
+# IoT Hub endpoint issues
+
 ---
+
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "IoT Hub endpoint issues",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -26,6 +29,42 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
+    },
+    {
+      "id": "new_endpoint",
+      "order": 2,
+      "controlType": "dropdown",
+      "displayLabel": "Is this a new endpoint?",
+      "dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "Don't Know"
+				}
+			],
+      "required": false
+    },
+    {
+      "id": "working_endpoint",
+      "order": 4,
+      "controlType": "dropdown",
+      "displayLabel": "Has data been successfully flowed to this endpoint before?",
+      "dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "Don't Know"
+				}
+			],
+      "required": false
     },
     {
       "id": "problem_description",
@@ -43,15 +82,8 @@
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
-    },
-    {
-      "id": "errors",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": false
     }
   ]
+
 }
 ---
