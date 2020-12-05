@@ -1,7 +1,7 @@
 <properties
 	pageTitle="CBPSourceSnapshotFailedVSSSnapshotInProgress"
 	description="CBPSourceSnapshotFailedVSSSnapshotInProgress"
-	infoBubbleText="Snapshot operation failed due to VSS Writers in bad state"
+	infoBubbleText="Backup failed because the creation of another snapshot is currently in progress"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
