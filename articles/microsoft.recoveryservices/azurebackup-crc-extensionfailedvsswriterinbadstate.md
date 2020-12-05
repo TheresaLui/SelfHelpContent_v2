@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-extensionfailedvsswriterinbadstate"
 	diagnosticScenario="azurebackup-crc-extensionfailedvsswriterinbadstate"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
