@@ -42,23 +42,23 @@ If your application is not latency sensitive, you can keep the RUs fixed and inc
 ```csharp
 
 // update retries (default is 10)
-RetryOptions retryOptions = new RetryOptions
+CosmosClientOptions options = new CosmosClientOptions
 {
-    MaxRetryAttemptsOnThrottledRequests = 15
+    MaxRetryAttemptsOnRateLimited = 15
 };
 
-ConnectionPolicy connectionPolicy = new ConnectionPolicy
-{
-    ConnectionMode = ConnectionMode.Direct,
-    ConnectionProtocol = Protocol.Tcp,
-    RetryOptions = retryOptions
-};
-
-DocumentClient client = new DocumentClient(new Uri(endpoint), key, connectionPolicy);
-
-client.OpenAsync();
+CosmosClient client = new CosmosClient(endpoint, key, options);
 
 ```
+
+### **Rate limiting: Extract network diagnostic information**
+The SDK provides detailed information on network latency on every request. You can obtain these details from:
+
+* The *RequestDiagnosticsString* property on responses in .NET V2 SDK when using Direct connectivity mode.
+* Calling `ToString()` on the *Diagnostics* property on responses and exceptions in .NET V3 SDK.
+* The *getDiagnostics()* method on responses and exceptions in Java V4 SDK.
+
+This valuable information will show which are the requests being done, and the network latency for each.
 
 ### **Rate limiting: Partition Key Choice**  
 If your throughput utilization is low overall, but you still see rate limiting, you may have to review your partition key choice for skew. You can monitor your Azure Cosmos DB containers in the Azure portal to see if your requests are skewed to one or few partitions. If this is the cause of the rate limiting, you can migrate to a new container with near zero downtime using Change Feed.
