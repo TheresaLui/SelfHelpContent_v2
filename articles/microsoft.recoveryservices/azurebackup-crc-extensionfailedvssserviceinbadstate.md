@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-extensionfailedvssserviceinbadstate"
 	diagnosticScenario="azurebackup-crc-extensionfailedvssserviceinbadstate"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276,32553277"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
