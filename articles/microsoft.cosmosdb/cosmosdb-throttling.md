@@ -32,7 +32,7 @@ Support for Powershell, CLI and other SDK is planned, but not yet available
 You may have not provisioned enough RUs to meet your per-second request rates. The throughput (RUs) can be increased via the Azure portal, ARM template, PowerShell, Azure CLI or the Cosmos DB SDK.
 
 * [Update throughput (RU/s) using ARM templates](https://docs.microsoft.com/azure/cosmos-db/resource-manager-samples)
-* [Update throughput (RU/s) using PowerShell](https://docs.microsoft.com/azure/cosmos-db/scripts/powershell/sql/ps-sql-ru-update?toc=%2fpowershell%2fmodule%2ftoc.json)
+* [Update throughput (RU/s) using PowerShell](https://docs.microsoft.com/azure/cosmos-db/scripts/powershell/sql/throughput)
 * [Update throughput (RU/s) using Azure CLI](https://docs.microsoft.com/azure/cosmos-db/scripts/scale-collection-throughput-cli?toc=%2fcli%2fazure%2ftoc.json)
 * [Update throughput (RU/s using .NET SDK)](https://docs.microsoft.com/azure/cosmos-db/set-throughput#update-throughput-on-a-database-or-a-container)
 
