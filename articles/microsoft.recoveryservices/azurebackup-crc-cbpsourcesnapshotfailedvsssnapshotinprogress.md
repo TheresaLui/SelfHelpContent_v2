@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-cbpsourcesnapshotfailedvsssnapshotinprogress"
 	diagnosticScenario="azurebackup-crc-cbpsourcesnapshotfailedvsssnapshotinprogress"
 	selfHelpType="diagnostics"
-	supportTopicIds="32605791"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
