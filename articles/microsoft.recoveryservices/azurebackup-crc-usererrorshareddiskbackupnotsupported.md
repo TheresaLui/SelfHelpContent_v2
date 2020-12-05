@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-usererrorshareddiskbackupnotsupported"
 	diagnosticScenario="azurebackup-crc-usererrorshareddiskbackupnotsupported"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553277"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, fairfax, usnat, ussec"
