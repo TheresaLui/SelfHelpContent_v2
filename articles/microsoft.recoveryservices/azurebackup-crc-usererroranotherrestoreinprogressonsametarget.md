@@ -1,7 +1,7 @@
 <properties
       pageTitle="UserErrorAnotherRestoreInProgressOnSameTarget"
       description="UserErrorAnotherRestoreInProgressOnSameTarget"
-      infoBubbleText="The Azure Backup service could not communicate with the VM Agent for triggering snapshot"
+      infoBubbleText="Operation might have failed because another restore job is in progress on the same target file share"
       service="microsoft.recoveryservices"
       resource="backup"
       authors="srinathv"
