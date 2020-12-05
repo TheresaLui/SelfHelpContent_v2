@@ -19,4 +19,8 @@
 
 # Error UserErrorSharedDiskBackupNotSupported
 
-Your backup operation failed because the VM has shared disks and this is currently not supported, review [support/not supported storage configuration](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
+<!--issueDescription-->
+Your backup operation failed because the VM has shared disks.
+<!--/issueDescription-->
+
+We have identified that your backup operation failed because the VM has shared disks and this is currently not supported, review [support/not supported storage configuration](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
