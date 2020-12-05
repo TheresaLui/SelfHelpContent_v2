@@ -22,7 +22,7 @@
 ## **There were instances on disk throttling on <!--$vmname-->[vmname]<!--/$vmname--> in last hour.**
 
 <!--issueDescription-->
-Our diagnostics show there were instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> exceeded the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for a (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
+Our diagnostics show there were instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> exceeded the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
 <!--/issueDescription-->
 
 # Diagnose and resolve Virtual Machine Disk performance issues
