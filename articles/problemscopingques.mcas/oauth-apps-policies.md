@@ -17,7 +17,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
                 "title": "Configuring Policy and Controls - OAuth apps policies",
-				"fileAttachmentHint": "1. Please attach a screenshot of the policy configuration 2. "Please provide a screenshot of the OAuth app page",
+				"fileAttachmentHint": "1. Please attach a screenshot of the policy configuration 2. Please provide a screenshot of the OAuth app page",
 				"subscriptionRequired": false,
                 "formElements": [
                 {
