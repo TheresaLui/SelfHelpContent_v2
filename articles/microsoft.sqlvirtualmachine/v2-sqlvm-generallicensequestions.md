@@ -1,74 +1,62 @@
 <properties
-	pageTitle="General Licensing questions"
-	description="General Licensing questions"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	articleId="deefbfc5-9904-4cad-ad74-d95e0ed297c3"
-	selfHelpType="generic"
-	supportTopicIds="32740081"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="General Licensing Questions"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="amamun,ujpat"
+  selfhelptype="Generic"
+  supporttopicids="32740081"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="deefbfc5-9904-4cad-ad74-d95e0ed297c3"
+  ownershipid="AzureData_AzureSQLVM" />
 # General Licensing Questions
-**How can I install my licensed copy of SQL Server on an Azure VM?**
-<br>There are three ways to do this. If you're an enterprise agreement (EA) customer, you can provision one of the virtual machine images that supports licenses, which is also known as bring-your-own-license (BYOL). If you have software assurance, you can enable the Azure Hybrid Benefit on an existing pay-as-you-go (PAYG) image. Or you can copy the SQL Server installation media to a Windows Server VM, and then install SQL Server on the VM. Be sure to register your SQL Server VM with the resource provider for features such as portal management, automated backup and automated patching.
 
-**Can I change a VM to use my own SQL Server license if it was created from one of the pay-as-you-go gallery images?**
-<br>Yes. You can easily switch a pay-as-you-go (PAYG) gallery image to bring-your-own-license (BYOL) by enabling the Azure Hybrid Benefit. For more information, see How to change the licensing model for a SQL Server VM. Currently, this facility is available only for Public Cloud customers.
+Most users can resolve general questions about licensing by following the steps below.
 
-**Will switching licensing models require any downtime for SQL Server?**
-<br>No. Changing the licensing model does not require any downtime for SQL Server as the change is effective immediately and does not require a restart of the VM. However, to register your SQL Server VM with the SQL Server VM resource provider, the SQL IaaS extension is a prerequisite and installing the SQL IaaS extension in full mode restarts the SQL Server service. As such, if the SQL IaaS extension needs to be installed, either install it in lightweight mode for limited functionality, or install it in full mode during a maintenance window. The SQL IaaS extension installed in lightweight mode can be upgraded to full mode at any time, but requires a restart of the SQL Server service.
+## **Recommended Steps** 
 
-**Is it possible to switch licensing model on a SQL Server VM deployed using classic model?**
-<br>No. Changing licensing model is not supported on a classic VM. You may migrate your VM to the Azure Resource Manager model and register with the SQL Server VM resource provider. Once the VM is registered with the SQL Server VM resource provider, licensing model changes will be available on the VM.
+* **Why do I see SQL Virtual Machine Resource? Who created it? Do I get billed for this?**<br>
+SQL Virtual Machine Resource Provider (RP) is a free resource that gives you management capability of the SQL VM from the portal. SQL VM RP is created when you deploy a SQL VM image. Azure can also create this resource automatically on an existing VM if a SQL instance is detected. There is no cost associated with SQL VM RP.
 
-**Can I use the Azure portal to manage multiple instances on the same VM?**
-<br>No. Portal management is a feature provided by the SQL Server VM resource provider, which relies on the SQL Server IaaS Agent extension. As such, the same limitations apply to the resource provider as to the extension. The portal can either only manage one default instance, or one named instance, as long as it was configured correctly. For more information on these limitations, see SQL Server IaaS agent extension.
+* **Why am I unable to change licensing model or manage SQL server from Azure portal?**<br>
+If you are unable to change licensing model or manage SQL server from Azure portal, make sure that [SQL VM IaaS Extension is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).
 
-**Can CSP subscriptions activate the Azure Hybrid Benefit?**
-<br>Yes, the Azure Hybrid Benefit is available for CSP subscriptions. CSP customers should first deploy a pay-as-you-go image, and then change the licensing model to bring-your-own-license.
+* **Why am I unable to register the SQL VM IaaS Extension?**<br>
+   If you are [unable to register the SQL IaaS Extension)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli), check the prerequisites for the SQL IaaS Extension. 
+   * SQL Server engine is installed as the default instance if there is no default instance or there is only one named instance. SQL IaaS Extension does not work if there is no default instance and multiple named instances. 
+   * SQL instance is not the evaluation edition
 
-**Do I have to pay to license SQL Server on an Azure VM if it is only being used for standby/failover?**
-<br>To have a free passive license for a standby secondary availability group or failover clustered instance, you must meet all of the following criteria as outlined by the Product Licensing Terms:
+* **How do I estimate my cost for SQL Server on Azure VM? How can I reduce the cost for SQL VM?**<br>
+   Use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to configure and estimate the cost of SQL Server on Azure VM. For ways to reduce SQL VM cost, see [Reduce costs](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/pricing-guidance#reduce-costs).    
 
-* You have license mobility through Software Assurance
-* The passive SQL Server instance does not serve SQL Server data to clients or run active SQL Server workloads. It is only used to synchronize with the primary server and otherwise maintain the passive database in a warm standby state. If it is serving data, such as reports to clients running active SQL Server workloads, or performing any work other than what is specified in the product terms, it must be a paid licensed SQL Server instance. The following activity is permitted on the secondary instance: database consistency checks or CheckDB, full backups, transaction log backups, and monitoring resource usage data. You may also run the primary and corresponding disaster recovery instance simultaneously for brief periods of disaster recovery testing every 90 days.
-* The active SQL Server license is covered by Software Assurance and allows for one passive secondary SQL Server instance, with up to the same amount of compute as the licensed active server, only
-* The secondary SQL Server VM utilizes the Disaster Recovery license in the Azure portal
+* **Why am I getting charged even though the SQL instance is stopped or the Azure VM is stopped?**<br>
+   To stop the billing, Azure VM must be in a deallocated state. You can deallocate Azure VM from the management portal or through PowerShell. Ensure that the VM is in the status Stopped (Deallocated) in the Azure Portal. If you shut down your SQL Server instance or your VM from the OS itself, it will not be deallocated, and charges will continue.   
+ 
+* **How do I change SQL VM license model to Azure Hybrid Benefit (BYOL), or pay-as-you-go, or Disaster Recovery?**<br>
+   To make any of these changes, follow the instructions in [change license model](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal)  
+  
+* **How do I get installation media or the product key?**<br>
+   * To get SQL Server installation media, use an existing SQL Server VM or deploy a SQL Server VM from the Azure marketplace that has the desired edition and version of SQL Server. The setup media is located at C:\SQLServerFull of the SQL VM. 
+   * To get the SQL Server setup product key, start `setup.exe` from C:\SQLServerFull on the SQL Azure VM that has the desired edition and version, copy the product key that appears in the install process, and then exit the installer 
 
-**What is considered a passive instance?**
-<br>The passive SQL Server instance does not serve SQL Server data to clients or run active SQL Server workloads. It is only used to synchronize with the primary server and otherwise maintain the passive database in a warm standby state. If it is serving data, such as reports to clients running active SQL Server workloads, or performing any work other than what is specified in the product terms, it must be a paid licensed SQL Server instance. 
-<br>The following activity is permitted on the secondary instance: database consistency checks or CheckDB, full backups, transaction log backups, and monitoring resource usage data. You may also run the primary and corresponding disaster recovery instance simultaneously for brief periods of disaster recovery testing every 90 days.
+* **How do I upgrade or downgrade Edition or Version of a SQL VM?**<br>
+   To upgrade or downgrade, follow the instructions in [change the SQL edition](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition) or [change the SQL version](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version).     
 
-**What scenarios can utilize the Disaster Recovery (DR) benefit?**
-<br>The licensing guide provides scenarios in which the Disaster Recovery Benefit can be utilized. Refer to your Product Terms and talk to your licensing contacts or account manager for more information.
+* **How do I upgrade from the Evaluation edition?**<br>
+   To upgrade from the Evaluation edition on the same VM: 
+   * Get the product key: Start setup.exe located at C:\SQLServerFull from another SQL Azure VM that has the desired edition and version, copy the product key that appears in the install process, and then exit the installer. 
+   * Follow the instructions in the [upgrade edition](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition) article.   
 
-**Which subscriptions support the Disaster Recovery (DR) benefit?**
-<br>Comprehensive programs that offer Software Assurance equivalent subscription rights as a fixed benefit support the DR benefit. This includes. but is not limited to, the Open Value (OV), Open Value Subscription (OVS), Enterprise Agreement (EA), Enterprise Subscription Agreement (EAS), and the Server and Cloud Enrollment (SCE). Refer to the product terms and talk to your licensing contacts or account manager for more information.
+* **What is SQL Developer edition? Is there a free SQL edition?**<br>
+   [SQL Developer](https://www.microsoft.com/sql-server/sql-server-downloads) is a full-featured free edition, licensed for use as a development and test database in a non-production environment. The limited-feature [SQL Express edition](https://www.microsoft.com/sql-server/sql-server-downloads) is also free and can be used in a production environment. Note that only SQL licensing for these editions is free. You will be billed for additional resources such as VM, storage, and so on. 
+   You can deploy SQL images with free editions. If you install these editions on a Windows-only VM, we strongly recommend that you [register with SQL IaaS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).  
 
-**Will registering my VM with the new SQL VM resource provider bring additional costs?**
+* **How can I determine the license type of my SqlVirtualMachine resources?**<br>
+   Run the following PowerShell command:   
+   ```(Get-AzureRmResource -ResourceName vm_name -ResourceGroupName resource_group -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;```
+     
+## **Recommended Documents** 
 
-No. The SQL VM resource provider just enables additional manageability for SQL Server on Azure VM with no additional charges.
-
-**Is the SQL VM resource provider available for all customers?**
-
-Yes. All customers are able to register with the new SQL VM resource provider. However, only customers with Software Assurance Benefit can activate the Azure Hybrid Benefit (AHB) (or BYOL) on a SQL Server VM.
-
-**Where can I find the license key to use for installing SSRS or SSAS 2017+ in an Azure VM?**
-
-If you already have a SQL Server VM with Standard or Enterprise edition created from Azure Marketplace, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS or SSAS installation. 
-
-**How can I determine the license type of my SqlVirtualMachine resources?**
-
-You can use the following Powershell command: `(Get-AzureRmResource -ResourceName <vm_name> -ResourceGroupName <resource_group> -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;`
-
-##  **Recommended Documents**
-
-* [Frequently asked questions for SQL Server running on Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq)
-* [Pricing guidance for Azure SQL Server VMs](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance)
+* [Frequently asked questions (FAQ)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM 
+* [Pricing guidelines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM
