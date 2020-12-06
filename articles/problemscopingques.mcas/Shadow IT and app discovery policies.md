@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_Discovery"
 />
-# Configuring Policy and Controls - Shadow IT and app discovery policies
+# Configuring Policy and Controls - Shadow_IT and app discovery policies
 ---
 {
 				"$schema": "SelfHelpContent",
