@@ -2,12 +2,12 @@
   pagetitle="Log data appears with delay&#xD;"
   service="microsoft.operationalinsights"
   resource="workspaces"
-  ms.author="olegan"
+  ms.author="olegan,shemers"
   selfhelptype="Generic"
   supporttopicids="32745411"
   resourcetags=""
   productpesids="15725"
-  cloudenvironments="public,fairfax,usnat,ussec,mooncake"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake,blackforest"
   articleid="05738708-090b-4494-8935-c4827de74c53"
   ownershipid="AzureMonitoring_LogAnalytics" />
 # Log data appears with delay
