@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_API"
 />
-# Configuring Policy and Controls - OAuth apps policies
+# Configuring Policy and Controls - OAuth_apps_policies
 ---
 {
 				"$schema": "SelfHelpContent",
