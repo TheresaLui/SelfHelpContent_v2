@@ -7,7 +7,7 @@
   supporttopicids="32743941"
   resourcetags=""
   productpesids="17125"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="e648db50-83c7-474e-8aa6-1346a426b993"
   ownershipid="AzureData_Managed_Instance_Azure_Arc" />
 # Administration and Management of SQL Managed Instance Azure Arc

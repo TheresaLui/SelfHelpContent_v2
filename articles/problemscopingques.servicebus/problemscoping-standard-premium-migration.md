@@ -22,16 +22,70 @@ schemaVersion="1"
 	"resourceRequired": true,
 	"title": "Issues with Standard to Premium SKu Migration",
 	"fileAttachmentHint": "Please upload any additional information if applicable",
-	"formElements": [{
+	"formElements": [
+		{
+            "id": "servicebus_feature",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Service Bus feature",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dropdownOptions": [{
+                "value": "Queues",
+                "text": "Queues"
+            }, {
+                "value": "Topics",
+                "text": "Topics"
+            }]
+        },
+        {
+            "id": "servicebus_queues",
+            "order": 2,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Queue names",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "visibility": "servicebus_feature != null && servicebus_feature == Queues",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/queues?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No queues available"
+                }
+            }
+        },
+        {
+            "id": "servicebus_topics",
+            "order": 3,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Topic names",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "visibility": "servicebus_feature != null && servicebus_feature == Topics",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.ServiceBus/namespaces/{resourceName}/topics?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No topics available"
+                }
+            }
+        },
+		{
 			"id": "problem_start_time",
-			"order": 1,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		},
 		{
 			"id": "problem_migrationmethod",
-			"order": 2,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "How are you trying to migrate your resource from standard to premium?",
 			"watermarkText": "Choose an option",
@@ -55,7 +109,7 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_namespace",
-			"order": 3,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Are you using a new premium or existing premium namespace?",
 			"watermarkText": "Choose an option",
@@ -75,7 +129,7 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_status",
-			"order": 4,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Has the migration completed",
 			"watermarkText": "Choose an option",
@@ -95,14 +149,14 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_postmigrationnamespace",
-			"order": 5,
+			"order": 8,
 			"controlType": "textbox",
 			"displayLabel": "Enter the Post migration namespace",
 			"required": true
 		},
 		{
 			"id": "problem_syncstatus",
-			"order": 6,
+			"order": 9,
 			"controlType": "dropdown",
 			"displayLabel": "Have you copied over all the entities from standard to premium namespace",
 			"watermarkText": "Choose an option",
@@ -122,7 +176,7 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_drainstatus",
-			"order": 7,
+			"order": 10,
 			"controlType": "dropdown",
 			"displayLabel": "Were you able to successfully drain all entities in the standard namespace by using the post-migration namespace.",
 			"watermarkText": "Choose an option",
@@ -142,7 +196,7 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_deletestandard",
-			"order": 8,
+			"order": 11,
 			"controlType": "dropdown",
 			"displayLabel": "Have you deleted the standard namespace after migration?",
 			"watermarkText": "Choose an option",
@@ -162,7 +216,7 @@ schemaVersion="1"
 		},
 		{
 			"id": "problem_description",
-			"order": 9,
+			"order": 12,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",

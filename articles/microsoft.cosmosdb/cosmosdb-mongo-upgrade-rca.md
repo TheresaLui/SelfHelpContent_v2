@@ -18,35 +18,41 @@
 
 # Upgrade to MongoDB API engine version 3.6
 
-## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> qualifies to be updated to the latest version of Azure Cosmos DB's API for MongoDB
+## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->, qualifies to be updated to the latest version of Azure Cosmos DB's API for MongoDB
 
 <!--issueDescription-->
-Upgrading to the latest version of the service will provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
+Upgrading to the latest version of the service will provide the most up-to-date functionality, the latest fixes, and performance and stability enhancements.
 
 <!--/issueDescription-->
 
-The upgrade process will not provide any service interruptions or downtime. It will also not require any data or index migrations. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
+The upgrade process will not cause any service interruptions or downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
+
+**Note:** The notification might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+
+**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new account through the portal and select the MongoDB server version 3.6 to try it out with the application on a dev or qa instance **before you update the account while backing any production workload**.
 
 1. Benefits of upgrading to version 3.6
 
-   - Enhanced performance and stability
-   - Support for new database commands
-   - Support for aggregation pipeline by default and new aggregation stages
-   - Support for ChangeStream
-   - Support for Compound Indexes
-   - Cross-partition support for the following operations: UPDATE, DELETE, COUNT, and ORDER BY
-   - Improved performance for the following aggregate operations: COUNT, SKIP, LIMIT, and GROUP BY
+    - Enhanced performance and stability
+    - Support for new database commands
+    - Support for aggregation pipeline by default and new aggregation stages
+    - Support for ChangeStream
+    - Support for Compound Indexes
+    - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
+    - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
 2. Changes from previous engine versions
 
-   - MongoDB collections will only have the _id property indexed by default
-   - Per request timeout is going to be 60 seconds
+    - MongoDB collections will only have the `_id` property indexed by default
+    - Per request timeout is going to be 60 seconds
 
-3. Action required
+3. Actions required
 
-   The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` but it might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+    - The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
-The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience. 
+    **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+
+The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
 
 ## **Recommended Documents**
 

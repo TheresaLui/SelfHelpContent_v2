@@ -18,12 +18,17 @@
     "subscriptionRequired": false,
     "title": "Always On Availability Groups- Configuration",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+    "title": "Setup Availability Group Troubleshooter",
+    "description": "Our Setup Availability Group Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
@@ -145,7 +150,7 @@
             "visibility": " which_resource == AvailabilityGroupListener",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is not working about the listener?",
+            "displayLabel": "What is not working with the Listener?",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
@@ -173,6 +178,46 @@
             "watermarkText": "Provide the name of the resource you're having problems with",
             "required": false,
             "useAsAdditionalDetails": false
+        },
+        {
+            "id": "issue_type",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes your Availability Group setup issue.",
+            "watermarkText": "Common Setup Availability Group issue categories",
+            "infoBalloonText": "Setup Availability Group issue category",
+            "dropdownOptions": [
+            {
+            "value": "AvailabilityGroupsConfiguration_Procedure",
+            "text": "Procedure to Configure Availability Groups"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_AcrossRegions_Or_DisasterRecoverySite",
+            "text": "Configure Availability Group across different regions or as a Disaster Recovery Site"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_CommonErrors",
+            "text": "Common Errors encountered while Configuring Availability Groups"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_SetupListenerAndLoadBalancer",
+            "text": "Setup Listener and Load Balancer for Availability Groups"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_Listener_ConnectivityIssue",
+            "text": "Configured Availability Group but Unable to connect using Listener"
+            },
+            {
+            "value": "AvailabilityGroupsConfiguration_DistributedAvailabilityGroup_DAG",
+            "text": "Configure Distributed Availability Group (DAG)"
+            },
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
