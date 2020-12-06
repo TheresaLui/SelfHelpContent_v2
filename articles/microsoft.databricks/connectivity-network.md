@@ -46,6 +46,11 @@ To diagnose and resolve connectivity issues with network configuration, use the 
   - To update the IP access list, or to create access lists with the new CIDR, see [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
 
   - For information about assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519).  Search for *DataFactory.Region*. 
+
+* To synchronize workbooks between a local repo like on-premise DevOps instance and a Databricks workspace:
+
+  - You need to whitelist the [Webapp IP](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#control-plane-nat-and-webapp-ip-addresses) on the on-premise server. 
+  - There are some options to synchronize notebooks: [Workspace CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/workspace-cli) which uses Azure Devops build and release pipelines to automate the process. And for more controllable option, you can use the [Databricks CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/) to define the workflow to export and import notebooks.
   
 ## **Recommended Documents**
 
