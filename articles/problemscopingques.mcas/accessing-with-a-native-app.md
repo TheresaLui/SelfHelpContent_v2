@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_CAAC"
 />
-# Access and session controls - Accessing with a native app
+# Access and session controls - Accessing_with_a_native_app
 ---
 {
 				"$schema": "SelfHelpContent",
