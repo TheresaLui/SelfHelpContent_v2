@@ -25,15 +25,24 @@
     },
     "formElements": [
         {
-            "id": "schema_table_count",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did you start thinking about data modeling for your migration?",
+            "infoBalloonText": "Enter the approximate date.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "schema_table_count",
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Roughly how many tables are in your existing schema?",
             "required": false
         },
         {
             "id": "schema_tenancy",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Does your database serve multiple tenants? If so, what are they (companies, accounts, etc)?",
             "required": false

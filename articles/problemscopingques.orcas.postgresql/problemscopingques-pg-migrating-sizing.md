@@ -25,29 +25,38 @@
     },
     "formElements": [
         {
-            "id": "server_size",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did you begin planning your migration?",
+            "infoBalloonText": "Enter the approximate date.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "server_size",
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the size of the data in your source database server?",
             "required": false
         },
         {
             "id": "server_ram",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "How much RAM does your source database server have?",
             "required": false
         },
         {
             "id": "server_cores",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "How many CPU cores does your source database server have?",
             "required": false
         },
         {
             "id": "server_latency",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the average latency for typical queries on your source database server?",
             "required": false

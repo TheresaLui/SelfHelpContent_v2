@@ -25,15 +25,33 @@
     },
     "formElements": [
         {
-            "id": "select_1",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "select_1",
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the measured time when running 'SELECT 1' from your Postgres client?",
             "required": false
         },
         {
             "id": "client_location",
-            "order": 2,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is your client located in the same region as your database server?",
             "dropdownOptions": [
@@ -50,14 +68,14 @@
         },
         {
             "id": "inserts_per_second",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Roughly how many rows per second are you seeing in your current ingestion?",
             "required": false
         },
         {
             "id": "insertion_method",
-            "order": 4,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Which method do you use to ingest rows of data?",
             "dropdownOptions": [
@@ -82,7 +100,7 @@
         },
         {
             "id": "insertion_connection",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Do you run INSERT statements in the same connection?",
             "dropdownOptions": [
@@ -103,7 +121,7 @@
         },
         {
             "id": "multithreaded",
-            "order": 6,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Do you ingest from multiple processes or threads at once from the source?",
             "dropdownOptions": [
