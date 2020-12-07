@@ -34,7 +34,7 @@ Step 1. Restart VSS writers that are in a bad state.
 
  ```net stop serviceName``` <br>
  ```net start serviceName```
-M
+
 >**Note:** Restarting some services can have an impact on your production environment. Make sure to follow the approval process and restart the service at the scheduled downtime.
 
 Step 2: If restarting the VSS writers did not resolve the issue, run the following command as an administrator from an elevated command-prompt to prevent the threads from being created for blob-snapshots.
@@ -44,4 +44,4 @@ console
 REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotWithoutThreads /t REG_SZ /d True /f
 ```
 
-If steps 1 and 2 did not resolve the issue, follow the instructions in Step 3 of this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
+If steps 1 and 2 do not resolve the issue, follow the instructions in Step 3 of this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
