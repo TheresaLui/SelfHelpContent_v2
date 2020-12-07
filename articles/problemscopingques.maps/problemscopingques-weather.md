@@ -2,7 +2,7 @@
 	articleId="558fe886-c24d-4a3c-9f99-c21f4a783a73"
 	pageTitle="Maps Weather services error"
 	description="Maps Weather services error"
-	supportTopicIds="32675609"
+	supportTopicIds="32784216"
 	authors="anastasia-ms"
 	ms.author="v-stharr"
 	selfHelpType="problemScopingQuestions"
