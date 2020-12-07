@@ -101,20 +101,18 @@
        },
        {
          "id": "contract_no",
-         "controlType": "multilinetextbox",
+         "controlType": "textbox",
          "order": 7,
 	     "displayLabel": "ASFP or PSFP Contract number",
 	     "watermarkText": "Please provide the ASFP or PSFP Contract number",
-         "infoBalloonText": "In case there are multiple CSP Tenant GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
          "id": "crm_account_id",
-         "controlType": "multilinetextbox",
+         "controlType": "textbox",
          "order": 8,
          "displayLabel": "CRM Account ID",
          "watermarkText": "Please provide the CRM Account ID (if available)",
-         "infoBalloonText": "In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
 	   {
