@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "49b038a0-7dd3-a90f-d60b-104bf28913b7",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer - health probes",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4ee18ef7-4858-5166-25e0-e4b99044bb88",
       "longDescription": "",
       "shortDescription": "Common problems related to disk related error",
