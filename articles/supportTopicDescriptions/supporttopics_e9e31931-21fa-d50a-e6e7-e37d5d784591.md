@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c07d8380-25b4-37d0-6f9c-57e893dfc6b2",
+      "longDescription": "",
+      "shortDescription": "Help me understand why my guest OS is causing restarts",
+      "searchTags": "Restart",
+      "category": "restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c1a0211a-8db9-39f6-7cc0-f1dc54a097d5",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
