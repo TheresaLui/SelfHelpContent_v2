@@ -110,3 +110,4 @@ Check to see if you're experiencing heavy load on the server with a high number 
 
 * [Connect and manage your  Dedicated SQL Pool using PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-powershell)
 
+ 

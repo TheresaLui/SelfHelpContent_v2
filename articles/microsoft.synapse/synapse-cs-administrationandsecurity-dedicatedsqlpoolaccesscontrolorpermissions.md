@@ -42,3 +42,4 @@ The following details explain how to set up and update common access and permiss
 * [SQL Permissions](https://docs.microsoft.com/sql/relational-databases/security/permissions-database-engine?view=sql-server-ver15)
 * [SQL Security Overview](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 
+ 

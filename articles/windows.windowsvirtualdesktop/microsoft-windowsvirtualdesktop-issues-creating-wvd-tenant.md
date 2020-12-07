@@ -1,13 +1,13 @@
 <properties
-  pagetitle="Windows Virtual Desktop issues creating WVD tenant"
+  pagetitle="Windows Virtual Desktop issues creating WVD tenant&#xD;"
   service=""
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32727880"
+  supporttopicids="32783597"
   resourcetags=""
   productpesids="16582"
-  cloudEnvironments="public, fairfax, usnat, ussec"
+  cloudenvironments="public,fairfax,usnat,ussec"
   articleid="8f53a07f-1c5d-4b08-9510-96b41e6d065b"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop issues creating WVD tenant

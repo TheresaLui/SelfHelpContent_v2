@@ -50,3 +50,4 @@ When a table (a table in a Spark database or external table created in Serverles
 
 * [AAD pass-through in Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/sql/active-directory-authentication#aad-pass-through-in-azure-synapse-analytics)
 
+ 
