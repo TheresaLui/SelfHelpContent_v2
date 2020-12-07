@@ -89,7 +89,7 @@
                 },
                 {
                     "value": "method_copy",
-                    "text": "The COPY or \\COPY command"
+                    "text": "The COPY or \\\\COPY command"
                 },
                 {
                     "value": "method_other",
