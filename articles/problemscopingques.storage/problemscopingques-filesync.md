@@ -104,6 +104,14 @@
                     "text": "0x80C8033E     ECS_E_SERVER_BLOCKED_BY_NETWORK_ACL"
                 },
                 {
+                    "value": "0x80C83088",
+                    "text": "0x80C83088     ECS_E_INVALID_AAD_TENANT"
+                },
+                {
+                    "value": "0x8E5E044E",
+                    "text": "0x8E5E044E     JET_errWriteConflict"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
