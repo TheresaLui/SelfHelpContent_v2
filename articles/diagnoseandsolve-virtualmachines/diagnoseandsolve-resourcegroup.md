@@ -16,7 +16,7 @@ ownershipId="Compute_VirtualMachines_Content"
 # Diagnose and solve v2 test article for windows
 ---
 {
-	"$schema":"SelfHelpContent",
+  "$schema": "SelfHelpContent",
   "commonProblems": [
 	{					   
       "id": "Troubleshoot_Deployment_Failures",
