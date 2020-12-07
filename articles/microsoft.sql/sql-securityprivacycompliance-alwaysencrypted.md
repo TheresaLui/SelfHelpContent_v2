@@ -27,7 +27,7 @@ Most users are able to resolve their issues related to Always Encrypted by using
 ## **Recommended Steps**
 
   1. To use **Always Encrypted with secure enclaves**, create your resource group in a region that supports the DC-series hardware configuration. For the list of currently supported regions, see [DC-series](https://docs.microsoft.com/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#dc-series).
-  Get Started with Always encrypted With secure enclaves with the following [Tutorial](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
+  Get Started with Always encrypted with secure enclaves with this [Tutorial](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
   
    2. Before you can use **Always Encrypted with secure enclaves**, you must configure your environment to ensure that the secure enclave is available for the database. You also need to set up enclave attestation. The attestation of Intel SGX enclaves in Azure SQL Database requires [Microsoft Azure Attestation](https://docs.microsoft.com/azure/attestation/overview).
    
@@ -41,7 +41,7 @@ Most users are able to resolve their issues related to Always Encrypted by using
 * Always Encrypted:
 
    * [Feature Limitations](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15#feature-details)
-   * [Configure Always Encrypted using Powershell](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-using-powershell?view=sql-server-ver15)
+   * [Configure Always Encrypted using PowerShell](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-using-powershell?view=sql-server-ver15)
    * [Configure Always Encrypted using Key Vault](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-azure-key-vault-configure?view=sql-server-ver15&tabs=azure-powershell)
    * [Overview of Key Management](https://docs.microsoft.com/sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15)
    * [Configure desired encryption for columns](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-wizard?view=sql-server-ver15)
@@ -55,9 +55,9 @@ Most users are able to resolve their issues related to Always Encrypted by using
 
   * [Set up the secure enclave and attestation in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
   * [Run Transact-SQL statements using secure enclaves](https://docs.microsoft.com//sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#run-transact-sql-statements-using-secure-enclaves)
-  * [Manage Keys for Always Encrypted with Secure Enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#manage-keys-for-always-encrypted-with-secure-enclaves)
+  * [Manage keys for Always Encrypted with secure enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#manage-keys-for-always-encrypted-with-secure-enclaves)
   * [Create and use indexes on enclave-enabled columns](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#create-and-use-indexes-on-enclave-enabled-columns)
   * [Develop applications using Always Encrypted with secure enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#develop-applications-using-always-encrypted-with-secure-enclaves)
   * [Configure columns with Always Encrypted with secure enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#configure-columns-with-always-encrypted-with-secure-enclaves)
-  * [Troubleshoot common issues when running statements using Enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves-query-columns?view=sql-server-ver15#troubleshoot-common-issues-when-running-statements-using-enclaves) 
+  * [Troubleshoot common issues when running statements using enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves-query-columns?view=sql-server-ver15#troubleshoot-common-issues-when-running-statements-using-enclaves) 
   
