@@ -64,6 +64,10 @@
                     "text": "0x80C8300F     ECS_E_REPLICA_NOT_READY"
                 },
                 {
+                    "value": "0x80C8021C",
+                    "text": "0x80C8021C     ECS_E_SYNC_METADATA_KNOWLEDGE_LIMIT_REACHED"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
