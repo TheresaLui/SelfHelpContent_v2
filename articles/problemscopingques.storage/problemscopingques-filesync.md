@@ -80,6 +80,14 @@
                     "text": "0x80C8031A     ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
                 },
                 {
+                    "value": "0x80C8603E",
+                    "text": "0x80C8603E     ECS_E_AZURE_STORAGE_SHARE_SIZE_LIMIT_REACHED"
+                },
+                {
+                    "value": "0x8E5E0211",
+                    "text": "0x8E5E0211     JET_errLogDiskFull"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
