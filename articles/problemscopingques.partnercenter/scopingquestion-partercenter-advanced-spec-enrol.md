@@ -246,7 +246,7 @@
        },
        {
          "id": "cust_tenant_id5",
-         "visibility": "advanced_spec == mswindows_virtual || advanced_spec == teamwork_deploy",
+         "visibility": "advanced_spec == adoption_change || advanced_spec == teamwork_deploy",
          "controlType": "multilinetextbox",
          "order": 19,
          "displayLabel": "Customer Tenant ID",
@@ -256,7 +256,7 @@
        },
        {
          "id": "subscription_guid5",
-         "visibility": "advanced_spec == mswindows_virtual || advanced_spec == teamwork_deploy",
+         "visibility": "advanced_spec == adoption_change || advanced_spec == teamwork_deploy",
          "controlType": "multilinetextbox",
          "order": 20,
 	     "displayLabel": "Subscription GUID",
@@ -266,7 +266,7 @@
        },
        {
          "id": "cust_name5",
-         "visibility": "advanced_spec == mswindows_virtual || advanced_spec == teamwork_deploy",
+         "visibility": "advanced_spec == adoption_change || advanced_spec == teamwork_deploy",
          "controlType": "multilinetextbox",
          "order": 21,
 	     "displayLabel": "Customer Name",
