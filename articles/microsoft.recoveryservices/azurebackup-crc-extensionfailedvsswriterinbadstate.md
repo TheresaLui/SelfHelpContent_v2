@@ -25,15 +25,15 @@ We have identified that your snapshot operation failed due to the VSS (Volume Sh
 
 ## **Recommended Steps**
 
-Step 1. Restart VSS writers that are in a bad state.
+Step 1: Restart VSS writers that are in a bad state.
 
 * From an elevated command prompt, run <br>
-```vssadmin list writers```.
+  ```vssadmin list writers```
+   
 * The output contains all VSS writers and their state. For every VSS writer with a state that's not **[1] Stable**, restart the respective VSS writer's service.
 * To restart the service, run the following commands from an elevated command prompt:
-
- ```net stop serviceName``` <br>
- ```net start serviceName```
+   ```net stop serviceName``` <br>
+   ```net start serviceName```
 
 >**Note:** Restarting some services can have an impact on your production environment. Make sure to follow the approval process and restart the service at the scheduled downtime.
 
