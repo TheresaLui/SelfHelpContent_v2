@@ -23,9 +23,9 @@
 We have identified that your snapshot operation failed due to the VSS (Volume Shadow copy Service) writer in a bad state.
 <!--/issueDescription-->
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-Step 1: Restart VSS writers that are in a bad state.
+Step 1. Restart VSS writers that are in a bad state.
 
 * From an elevated command prompt, run <br>
 ```vssadmin list writers```.
@@ -34,15 +34,14 @@ Step 1: Restart VSS writers that are in a bad state.
 
  ```net stop serviceName``` <br>
  ```net start serviceName```
+M
+>**Note:** Restarting some services can have an impact on your production environment. Make sure to follow the approval process and restart the service at the scheduled downtime.
 
-> [!NOTE]
-> Restarting some services can have an impact on your production environment. Ensure the approval process is followed and the service is restarted at the scheduled downtime.
-
-Step 2: If restarting the VSS writers did not resolve the issue, then run the following command from an elevated command-prompt (as an administrator) to prevent the threads from being created for blob-snapshots.
+Step 2: If restarting the VSS writers did not resolve the issue, run the following command as an administrator from an elevated command-prompt to prevent the threads from being created for blob-snapshots.
 
 ```
-console
+console 
 REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotWithoutThreads /t REG_SZ /d True /f
 ```
 
-If step 1 and 2 did not resolve the issue, follow the instructions in *Step 3* in this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
+If steps 1 and 2 did not resolve the issue, follow the instructions in Step 3 of this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
