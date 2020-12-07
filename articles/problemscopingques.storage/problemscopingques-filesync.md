@@ -88,6 +88,18 @@
                     "text": "0x8E5E0211     JET_errLogDiskFull"
                 },
                 {
+                    "value": "0x800704C7",
+                    "text": "0x800704C7     ERROR_CANCELLED"
+                },
+                {
+                    "value": "0x80C8306B",
+                    "text": "0x80C8306B     ECS_E_AGENT_VERSION_BLOCKED"
+                },            
+                {
+                    "value": "0x80072EE7",
+                    "text": "0x80072EE7     WININET_E_NAME_NOT_RESOLVED"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
