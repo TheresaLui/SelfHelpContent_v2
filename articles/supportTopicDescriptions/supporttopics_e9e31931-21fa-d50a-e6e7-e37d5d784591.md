@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "79f09d33-c87d-962d-f724-ceee1953ec75",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
       "longDescription": "",
       "shortDescription": "Common problems related to using Orchestration",
