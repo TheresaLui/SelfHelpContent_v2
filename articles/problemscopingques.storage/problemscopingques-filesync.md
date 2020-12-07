@@ -53,8 +53,25 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "filesyncerrors",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "File Sync errors",
+            "watermarkText": "Select File Sync error",
+            "dropdownOptions": [
+                {
+                    "value": "0x80C8300F",
+                    "text": "0x80C8300F     ECS_E_REPLICA_NOT_READY"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ]
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint and error message.",
@@ -63,7 +80,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
