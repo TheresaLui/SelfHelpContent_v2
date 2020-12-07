@@ -21,7 +21,9 @@
 We have identified that you encountered this error during the backup operation.
 <!--/issueDescription-->
 
-The causes and steps to mitigate the issues are listed below:<br>
+Use these steps to mitigate the issue as follows.<br>
+
+## **Recommended Steps**
 
 Step 1: Follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-manage-mars#add-exclusion-rules-to-existing-policy) to exclude the following folders:
 * Exclude the Scratch folder from the Scheduled Backup. This folder is located at C:\Program Files\Microsoft Azure Recovery Services Agent\Scratch<br>
