@@ -68,6 +68,14 @@
                     "text": "0x80C8021C     ECS_E_SYNC_METADATA_KNOWLEDGE_LIMIT_REACHED"
                 },
                 {
+                    "value": "0x80C80253",
+                    "text": "0x80C80253     ECS_E_TOO_MANY_PER_ITEM_ERRORS"
+                },
+                {
+                    "value": "0x8007007B",
+                    "text": "0x8007007B     ERROR_INVALID_NAME"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
