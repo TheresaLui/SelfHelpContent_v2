@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/disks",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yuriic@microsoft.com",
     "icm": {
