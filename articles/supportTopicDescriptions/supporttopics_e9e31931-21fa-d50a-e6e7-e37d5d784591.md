@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "871816c7-0fd7-972c-6fed-fcdcded0d950",
+      "longDescription": "",
+      "shortDescription": "Need Root Cause Statement for an impacted resources",
+      "searchTags": "Restart",
+      "category": "Restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8739dd2e-3f1c-a1a4-6240-590aebf9ed06",
       "longDescription": "",
       "shortDescription": "Common problems related to a failed operation",
