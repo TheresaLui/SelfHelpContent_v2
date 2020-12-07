@@ -1,5 +1,7 @@
 <properties
   pagetitle="Connect to Git Repository&#xD;"
+  service="microsoft.datafactory"
+  resource="factories"
   ms.author="chez,haoc"
   selfhelptype="Generic"
   supporttopicids="32629453,32629524,32629447"
