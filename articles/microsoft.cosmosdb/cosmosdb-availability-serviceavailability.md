@@ -17,12 +17,12 @@
 />
 # Cosmos DB returns service unavailable
 
-The Cosmos DB client might return "Service Unavailable" due to client machine issues, service issues, or environment (network) issues. If you don't see a service health issue in Azure Portal, a common reason for seeing this error is high CPU, low memory, or network failure at the client level.
+The Cosmos DB client might return "Service Unavailable" due to client machine issues, service issues, or environment (network) issues. If you don't see a service health issue in the Azure portal, a common reason for seeing this error is high CPU, low memory, or network failure at the client level.
 
 ## **Recommended Steps**
 
 ### **Use latest SDK versions and singleton client**
-* Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
+* Always ensure that you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
 * Ensure you are using singleton client  
 
 ### **TransportException**
@@ -33,7 +33,7 @@ TransportException: A client transport error occurred: The request timed out whi
 (Time: xxx, activity ID: xxx, error code: ReceiveTimeout [0x0010], base error: HRESULT 0x80131500
 ```
 
-The TransportException can also contain a "CPU history" measurement that will take, every 10 seconds, a CPU utilization measurement, for example:
+The TransportException can also contain a CPU history measurement, which takes a CPU utilization measurement every 10 seconds. For example:
 
 ```
 CPU history: 
@@ -46,15 +46,15 @@ CPU history:
 CPU count: 8)
 ```
 
-If the CPU measurements are over 70%, then the ServiceUnavailable is likely to be caused by **CPU exhaustion**. In this case the solution is to investigate the source/s of the high CPU utilization and reduce it, or scale the machine/s to a larger resource size.
+If the CPU measurements are over 70%, then the ServiceUnavailable is likely to be caused by **CPU exhaustion**. In this case, the solution is to investigate the source of the high CPU utilization and reduce it, or scale the machine to a larger resource size.
 
-If the CPU measurements are not happening every 10 seconds (there are gaps or measurement times indicate larger times in-between measurements) then the cause is **thread starvation**. In this case the solution is to investigate the source/s of the thread starvation (potentially locked threads), or scale the machine/s to a larger resource size.
+If the CPU measurements are not happening every 10 seconds (e.g., gaps or measurement times indicate larger times in between measurements), the cause is **thread starvation**. In this case the solution is to investigate the source/s of the thread starvation (potentially locked threads), or scale the machine/s to a larger resource size.
 
-If CPU measurements are normal, and the TransportException is mentioning request timeout, verify if the instance is not running into **port exhaustion**. Depending on the service your application runs on, the metrics might differ, please see [this article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout#socket-or-port-availability-might-be-low) which describes the steps for various Azure services and the next steps for each.
+If CPU measurements are normal, and the TransportException returns a request timeout, verify if the instance is running into **port exhaustion**. Depending on the service your application runs on, the metrics might differ. For instructions and next steps for the various Azure services, see [this article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout#socket-or-port-availability-might-be-low).
 
 ### **Correlations**  
 
-Collect multiple *ServiceUnavailableException* messages and determine if all failures involve a single machine or a single data replica, find the *StorePhysicalAddress* fields in the error messages.  
+To collect multiple *ServiceUnavailableException* messages and determine if all failures involve a single machine or a single data replica, find the *StorePhysicalAddress* fields in the error messages.  
 * **Example:** ResponseTime: 2018-10-16T20:31:38.8084670Z, StoreReadResult: *StorePhysicalAddress: rntbd://dz5prdapp03-docdb-1.documents.azure.com:14135/*, LSN: -1, GlobalCommittedLsn: -1, PartitionKeyRangeId: , IsValid: True, StatusCode: 410, IsGone: True, IsNotFound: False, IsInvalidPartition: False, RequestCharge: 0, ItemLSN: -1, SessionToken: , ResourceType: Document, OperationType: Read
 
 If the message lacks a *StorePhysicalAddress* field, find the *Request URI* field.
@@ -65,17 +65,17 @@ If *TransportException* is present (.NET Cosmos DB SDK 2.3 and newer), find the 
 
 If multiple server host:port pairs or multiple (partition, replica) pairs are present across different error messages, this indicates a problem with the client machine with a high degree of confidence.  
 
-If multiple client machines fail to connect to a single server, this may indicate a network or service issue. When filing a support ticket, include *StorePhysicalAddress*, *Request URI*, server host:port and the UTC time range of the issue in your request.
+If multiple client machines fail to connect to a single server, this may indicate a network or service issue. When filing a support ticket, include *StorePhysicalAddress*, *Request URI*, server host:port, and the UTC time range of the issue in your request.
 
 ### **Performance and Availability Tips**  
-Please ensure that your application follows the guidance outlined in this article:  
+Ensure that your application follows the guidance outlined in this article:  
 * [Performance Tips with respect to networking and SDKs](https://docs.microsoft.com/azure/cosmos-db/performance-tips-dotnet-sdk-v3-sql)
 
 Additional latency and performance tips include:  
-* Use [Direct/Tcp as connectivity mode](https://docs.microsoft.com/azure/cosmos-db/sql-sdk-connection-modes)
+* Use [Direct/TCP as connectivity mode](https://docs.microsoft.com/azure/cosmos-db/sql-sdk-connection-modes)
 * Include client into Cosmos account VNET 
-* For Azure functions, use non-consumption plan 
-* Ensure that Cosmos container is not getting throttled. By default SDK does retry throttles for availability, which you can override through below APIs.
+* For Azure functions, use a non-consumption plan 
+* Ensure that the Cosmos container is not getting throttled. By default, the SDK does retry throttles for availability, which you can override through the APIs below.
 * Monitor physical resource utilization (CPU, memory, network throughput etc). Alert on excessive resource utilization.
 * Use request deadlines appropriate for the service type: Shorter for latency-sensitive jobs (5-10 seconds) and longer for batch jobs (30-60 seconds)
 
@@ -83,18 +83,18 @@ Additional latency and performance tips include:
 Retry failed operations:  
 * [.NET Retry Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.cosmosclientoptions.maxretryattemptsonratelimitedrequests)
 * [Java Retry Options](https://azure.github.io/azure-cosmosdb-java/1.0.0/index.html?com/microsoft/azure/cosmosdb/RetryOptions.html)
-* Implement a retry loop with exponential back-off and random jitter for writes. Cosmos DB cannot retry writes automatically because they are not idempotent in general.
+* Implement a retry loop with exponential back-off and random jitter for writes. Cosmos DB cannot automatically retry writes. 
 
 ## **Recommended Documents**  
 
 [Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 <br>This article describes how you can improve your database performance.  
 
-[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
+[How to configure an IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
 <br>Learn how you can set an IP firewall on the Azure Cosmos DB account using the following:
 * From the Azure portal
 * Declaratively by using an Azure Resource Manager template
-* Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property  
+* Programmatically through the Azure CLI or Azure PowerShell by updating the `ipRangeFilter` property  
 
 [Frequently Asked Questions: How to configure access from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
 <br>This article describes how to configure a virtual network service endpoint for an Azure Cosmos DB account, and provides answers to frequently asked questions.  
