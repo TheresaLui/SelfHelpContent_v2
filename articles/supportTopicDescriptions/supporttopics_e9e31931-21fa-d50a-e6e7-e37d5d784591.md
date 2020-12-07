@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e1099306-faeb-b279-8724-7bc71657ca16",
+      "longDescription": "",
+      "shortDescription": "My issue is with Windows Update causing restarts",
+      "searchTags": "Restart",
+      "category": "Restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
       "longDescription": "",
       "shortDescription": "Questions specific to configuring monitoring alerts",
