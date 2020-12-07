@@ -22,7 +22,7 @@
 **[Always Encrypted with secure enclaves](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)** extends Always Encrypted by providing richer confidential computing capabilities, including in-place encryption, pattern matching, range comparisons, and sorting.
 It leverages server-side, secure enclaves and does not rely on deterministic encryption to support confidential computations.
 
-Most users are able to resolve their Always Encrypted related issues using the steps below
+Most users are able to resolve their issues related to Always Encrypted by using the following steps.
 
 ## **Recommended Steps**
 
