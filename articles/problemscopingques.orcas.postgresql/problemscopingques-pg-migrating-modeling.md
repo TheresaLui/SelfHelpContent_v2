@@ -54,6 +54,7 @@
             "displayLabel": "Problem description",
             "watermarkText": "Please describe your data modeling goals and challenges.",
             "required": true,
+			"diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],

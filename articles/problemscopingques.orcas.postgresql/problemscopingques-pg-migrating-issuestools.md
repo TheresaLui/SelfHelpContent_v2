@@ -77,6 +77,7 @@
             "displayLabel": "Problem description",
             "watermarkText": "Please provide the repro steps and other information about your issue",
             "required": true,
+			"diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],
