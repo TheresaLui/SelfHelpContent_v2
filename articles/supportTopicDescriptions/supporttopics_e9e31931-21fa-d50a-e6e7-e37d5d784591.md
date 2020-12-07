@@ -558,6 +558,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "eb888ccd-c709-1106-5c2e-a0078b55eaa0",
+      "longDescription": "",
+      "shortDescription": "Help me diagnose my instance restart issue",
+      "searchTags": "Restart",
+      "category": "Restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ebb6a13a-9231-f5b8-173d-31f43a3f36c0",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
