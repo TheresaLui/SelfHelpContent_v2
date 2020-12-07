@@ -17,28 +17,28 @@
 
 # Always Encrypted
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15) protects sensitive data from high privileged unauthorized users, including database administrators,cloud database operators, malware. It supports simple confidential computations, including point lookup searches and equality joins,by leveraging deterministic encryption.
+**[Always Encrypted]**(https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15) protects sensitive data from malware and high-privilege unauthorized users, including database administrators and cloud database operators. It supports simple confidential computations, including point lookup searches and equality joins, by leveraging deterministic encryption.
 
-[Always Encrypted with secure enclaves](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing) extends Always Encrypted by providing richer confidential computing capabilities, including inplace encryption, pattern matching, range comparisons and sorting.
-It leverages server side secure enclaves and does not rely on deterministic encryption to support confidential computations.
+**[Always Encrypted with secure enclaves]**(https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing) extends Always Encrypted by providing richer confidential computing capabilities, including in-place encryption, pattern matching, range comparisons, and sorting.
+It leverages server-side, secure enclaves and does not rely on deterministic encryption to support confidential computations.
 
 Most users are able to resolve their Always Encrypted related issues using the steps below
 
 ## **Recommended Steps**
 
-  1. To use Always Encrypted with Secure Enclaves you will need to create your resource group in a region that supports the DC-series hardware configuration. For the list of currently supported regions, see [DC-series](https://docs.microsoft.com/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#dc-series).
-  Get Started with Always Encrypted With Secure Enclaves with the following [Tutorial](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
+  1. To use **Always Encrypted with secure enclaves**, create your resource group in a region that supports the DC-series hardware configuration. For the list of currently supported regions, see [DC-series](https://docs.microsoft.com/azure/azure-sql/database/service-tiers-vcore?tabs=azure-portal#dc-series).
+  Get Started with Always encrypted With secure enclaves with the following [Tutorial](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
   
-   2. Before you can use Always Encrypted with secure enclaves, you need to configure your environment to ensure the secure enclave is available for the database. You also need to set up enclave attestation. The attestation of Intel SGX enclaves in Azure SQL Database requires [Microsoft Azure Attestation](https://docs.microsoft.com/azure/attestation/overview)
+   2. Before you can use **Always Encrypted with secure enclaves**, you must configure your environment to ensure that the secure enclave is available for the database. You also need to set up enclave attestation. The attestation of Intel SGX enclaves in Azure SQL Database requires [Microsoft Azure Attestation](https://docs.microsoft.com/azure/attestation/overview).
    
    2. Errors can occur at various steps of the above workflow due to misconfigurations. Here are the common attestation errors, their root causes, and the recommended troubleshooting steps: [Troubleshoot common issues when running statements using Enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves-query-columns?view=sql-server-ver15#troubleshoot-common-issues-when-running-statements-using-enclaves) 
 
    3. Check if you are running into [Known Limitations for Always Encrypted with Secure Enclaves](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-enclaves?view=sql-server-ver15#known-limitations)
-      . All other limitations for Always Encrypted listed in [Feature Details](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15#feature-details) also apply to Always Encrypted with secure enclaves.
+      * For additional limitations of Always Encrypted and Always Encrypted with secure enclaves, see [Feature Details](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15#feature-details).
  
 ## **Recommended Documents**
 
-* Always Encrypted
+* Always Encrypted:
 
    * [Feature Limitations](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15#feature-details)
    * [Configure Always Encrypted using Powershell](https://docs.microsoft.com/sql/relational-databases/security/encryption/configure-always-encrypted-using-powershell?view=sql-server-ver15)
@@ -51,7 +51,7 @@ Most users are able to resolve their Always Encrypted related issues using the s
    * [Migrate data stored in encrypted columns or databases using Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-migrate-using-bacpac?view=sql-server-ver15)
    * [Develop applications and learn which drivers support Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-client-development?view=sql-server-ver15)
 
-* Always Encrypted with Secure Enclaves
+* Always Encrypted with secure enclaves:
 
   * [Set up the secure enclave and attestation in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-getting-started)
   * [Run Transact-SQL statements using secure enclaves](https://docs.microsoft.com//sql/relational-databases/security/encryption/configure-always-encrypted-enclaves?view=sql-server-ver15#run-transact-sql-statements-using-secure-enclaves)
