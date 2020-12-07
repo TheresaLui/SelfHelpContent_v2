@@ -112,6 +112,10 @@
                     "text": "0x8E5E044E     JET_errWriteConflict"
                 },
                 {
+                    "value": "0x80C8305F",
+                    "text": "0x80C8305F     ECS_E_EXTERNAL_STORAGE_ACCOUNT_AUTHORIZATION_FAILED"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
