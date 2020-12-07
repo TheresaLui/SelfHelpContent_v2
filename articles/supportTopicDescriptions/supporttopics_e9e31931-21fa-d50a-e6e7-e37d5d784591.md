@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9ed4b878-b6fe-32a8-10d7-4b9c1b371e3c",
+      "longDescription": "",
+      "shortDescription": "Help me with my public IP for my Load Balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9fd3152d-6587-c81f-b0a6-636bcd644ef2",
       "longDescription": "",
       "shortDescription": "Guidance with creating or deleting a virtual disk",
