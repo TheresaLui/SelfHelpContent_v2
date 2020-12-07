@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Maintenance - Node Pause - Memory Preserving - Long - VMPhu"
+	description="Root Cause Analysis (RCA) - Maintenance - Node Pause - Memory Preserving - Long"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"

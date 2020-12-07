@@ -26,7 +26,6 @@ CSP partner support is not the best place to ask these questions, instead utiliz
 
 If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
 
-
 ## **Recommended Documents**
 
 * [Partner Membership Center to Partner Dashboard Transition Guide](https://assetsprod.microsoft.com/mpn/membership-account-set-up-guide.pdf)

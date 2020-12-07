@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **potential failure condition with the node** where the virtual machine was hosted which caused your VM to get rebooted.
+> The Host Node where the VM was running encountered a **potential failure condition with the node** where the virtual machine was hosted which caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
