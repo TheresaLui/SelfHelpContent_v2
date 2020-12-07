@@ -31,7 +31,7 @@ The most likely cause of high outbound connections/flows is a customer applicati
 * Consider adding additional network interfaces to the VM to handle the connection volume
 * Consider adding additional VMs to handle the connection volume
 
-To determine the nature of the traffic, login to the VM and display the destination IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux))
+To determine the nature of the traffic, log in to the VM and display the destination IP addresses of active connections: use command **netstat -an** on Windows, or command **netstat -l** on Linux.
 
 
 ## **Recommended Documents**
