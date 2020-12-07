@@ -96,6 +96,14 @@
                     "text": "0x80C8306B     ECS_E_AGENT_VERSION_BLOCKED"
                 },
                 {
+                    "value": "0x80072EE7",
+                    "text": "0x80072EE7     WININET_E_NAME_NOT_RESOLVED"
+                },
+                {
+                    "value": "0x80C8033E",
+                    "text": "0x80C8033E     ECS_E_SERVER_BLOCKED_BY_NETWORK_ACL"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
