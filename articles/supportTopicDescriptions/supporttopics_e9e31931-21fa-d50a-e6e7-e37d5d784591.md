@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d87bdb67-b9ed-7a9a-9fde-9192026f00fc",
+      "longDescription": "",
+      "shortDescription": "Need assistance with adding or removing a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da505cd0-5cd6-3398-2923-beaf5170b260",
       "longDescription": "",
       "shortDescription": "Common problems related to starting or stopping your instance or scale set",
