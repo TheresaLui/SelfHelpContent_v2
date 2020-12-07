@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "VM Connectivity Troubleshooter",
         "description": "Our VM Connectivity Troubleshooter can help you troubleshoot and solve your problem. Please ensure your VM is turned on (<a href='https://docs.microsoft.com/azure/virtual-machines/states-lifecycle#power-states'>Running Status</a>), or the tool won't detect the issue.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure your VM <!--$VmName-->VmName<!--/$VmName--> is in the <a href='https://docs.microsoft.com/azure/virtual-machines/states-lifecycle#power-states'>Running Status</a> in the Azure portal. Or see our manual troubleshooting steps below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure your VM is in the <a href='https://docs.microsoft.com/azure/virtual-machines/states-lifecycle#power-states'>Running Status</a> in the Azure portal. Or see our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
