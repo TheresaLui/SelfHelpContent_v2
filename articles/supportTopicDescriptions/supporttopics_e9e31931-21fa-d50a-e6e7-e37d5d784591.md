@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d18f8b23-c713-5285-d8f1-91fd8287f66e",
+      "longDescription": "",
+      "shortDescription": "Need assistance with increasing the NAT pool for my load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
