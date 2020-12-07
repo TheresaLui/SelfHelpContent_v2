@@ -46,6 +46,15 @@
             "controlType": "textbox",
             "displayLabel": "Does your database serve multiple tenants? If so, what are they (companies, accounts, etc)?",
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Problem description",
+            "watermarkText": "Please describe your data modeling goals and challenges.",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"

@@ -60,6 +60,15 @@
             "controlType": "textbox",
             "displayLabel": "What is the average latency for typical queries on your source database server?",
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Workload",
+            "watermarkText": "Please describe your database workload and scaling needs",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"

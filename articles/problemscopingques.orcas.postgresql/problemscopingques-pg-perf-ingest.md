@@ -135,6 +135,15 @@
                 }
             ],
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Problem description",
+            "watermarkText": "Extra notes about your data ingestion.",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
