@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds=""
+       supportTopicIds="32725865"
        productPesIds="17007"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -181,7 +181,7 @@
 	       },
 	       {
 		   "value": "data_center",
-		   "text": "Datacenter Option"
+		   "text": "Datacenter Solutions Option"
 	       },
 	       {
 		   "value": "deployment_partner",

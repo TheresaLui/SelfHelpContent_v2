@@ -36,3 +36,4 @@ Diagnose Azure Synapse Studio connectivity issues with [```Test-AzureSynapse``` 
 
 * [Connect to your Azure Synapse workspace using private links](https://docs.microsoft.com/azure/synapse-analytics/security/how-to-connect-to-workspace-with-private-links#step-1-open-your-azure-synapse-workspace-in-azure-portal)
 
+ 
