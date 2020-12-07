@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > To investigate the causes of the VM crash, please use the following references that might be helpful:
 > 
@@ -57,7 +57,6 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 
-<!--recommendedActions-->
 ## **Recommended Documents**
 
 > *Learn more about:*

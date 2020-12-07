@@ -16,6 +16,7 @@
 
 # Create or register Azure Machine Learning datasets
 By creating a dataset, you create a reference to the data source location, along with a copy of its metadata. Because the data remains in its existing location, you incur no extra storage cost. You can create both TabularDataset and FileDataset data sets by using the Python SDK or through the [Azure Machine Learning studio](https://ml.azure.com).
+
 For the data to be accessible by Azure Machine Learning, datasets must be created from paths in Azure datastores or public web URLs.
 
 You can learn how to create or register an Azure Machine Learning datasets by using the following steps.
@@ -26,6 +27,17 @@ You can learn how to create or register an Azure Machine Learning datasets by us
 2. Create [datasets](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-datasets) from paths from your datastores
 
 ### **FAQ**
+
+• **"Permission" problems reigistering a dataset or connecting to datastore
+
+ If you have Permission issues when registering dataset or connecting to datastore, take these steps first:
+1. **Network issues**: Verify if you are facing issues with your network
+2. **VNet issues**: Check that your data storage is behind a Vnet or a firewall. If so, you must make sure your [Storage's Vnet setting is correct](https://docs.microsoft.com/azure/machine-learning/how-to-secure-workspace-vnet#secure-azure-storage-accounts).
+3. **Incorrect credentials**: Verify that the credentials provided (SAS token or account key) for the datastore are correct and still active. If you are using ADLS Gen2, check out their access control setup to learn more: [Access control set up for ADLS Gen 2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control).
+4. **Data deletion**: Verify that the data you are trying to access was deleted from the storage account
+5. **FileNotExist error**: If you get an error message similar to "Cannot open file `/xxx/yyy/zzz.tsv` -  No such file or directory", verify  that the directory you are using exists
+
+
 
 • **When should I use file dataset v/s tabular dataset?**
 For majority of your use-cases, we recommend using file dataset for any file formats (csv, parquet, json, and so on) for ease of use. If you are using autoML and data monitors, then a tabular dataset helps you setting the filtering and partition once and reuse across autoML and data monitor components in Azure ML. Tabular dataset also provides data in table format and offers seamless options to move to pandas dataframe without creating a local copy of your data.
