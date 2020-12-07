@@ -21,11 +21,11 @@
 
 * **Problem**
 
- The Cosmos DB account firewall is blocking Databricks requests, resulting in the following error:
+   The Cosmos DB account firewall is blocking Databricks requests, resulting in the following error:
 
-  ```
-  Uncaught throwable from user code: com.microsoft.azure.documentdb.DocumentClientException: Request originated from client IP xx.xx.xxx.xxx through public internet. This is blocked by your Cosmos DB account firewall settings.
-  ```
+   ```
+   Uncaught throwable from user code: com.microsoft.azure.documentdb.DocumentClientException: Request originated from client IP xx.xx.xxx.xxx through public internet. This is blocked by your Cosmos DB account firewall settings.
+   ```
   
   **Solution**
   
@@ -90,6 +90,22 @@
   **Solution** 
 
   Use the connector option to add the password instead of through the URL, or use a password that is encoded safe for the URL.
+  
+* **Problem**
+
+  Pulling data from Azure Synapse hits Polybase max row size limitation getting error:
+
+  ```
+  com.microsoft.sqlserver.jdbc.SQLServerException: Polybase export failed. The size of a row is xxxxx bytes. It exceeds the maximum allowed row size of 1000000 bytes for Polybase. Consider reducing the number of columns. [ErrorCode = 105062] [SQLState = S0001]
+  ```
+
+  **Cause**
+
+  According to the [Azure Synapse documentation](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits#loads), the limitation for Polybase loads is 1 MB per row. 
+
+  **Solution**
+
+  Consider reducing the number of columns.
   
 ## **Recommended Documents**
 
