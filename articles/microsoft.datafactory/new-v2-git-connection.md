@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Connect to Git Repository&#xD;"
+  pagetitle="Connect to Git Repository"
   service="microsoft.datafactory"
   resource="factories"
   ms.author="chez,haoc"
@@ -17,7 +17,8 @@
 1. You can create an Azure Repos Git repo in a different Azure Active Directory tenant. To specify a different Azure AD tenant, you need to have Administrator permissions for the Azure subscription that you're using. 
 2. As of today, Bitbucket and Gitlab are not supported in Azure Data Factory 
 3. Git publishing **does not allow** for selective publishing subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking QFE [steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
-4. Github has a known limitation that a maximum of 1,000 entities per resource type (such as pipelines, datasets, triggers) can be fetched from a single Github branch. If this limit is reached, split your resources into separate factories. Azure DevOps Git does not have this limitation. 
+4. If you cannot publish changes and get error "This is likely due to publishing outside of Git mode...", this is because your publish branch is out of sync with the master branch. Please refer to [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to recover from this state. 
+5. Github has a known limitation that a maximum of 1,000 entities per resource type (such as pipelines, datasets, triggers) can be fetched from a single Github branch. If this limit is reached, split your resources into separate factories. Azure DevOps Git does not have this limitation. 
 
 ## **Recommended Documents**
 
