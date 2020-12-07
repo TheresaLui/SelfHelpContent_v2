@@ -68,7 +68,7 @@
             "displayLabel": "Workload",
             "watermarkText": "Please describe your database workload and scaling needs",
             "required": true,
-			"diagnosticInputRequiredClients": "Portal",
+            "diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],

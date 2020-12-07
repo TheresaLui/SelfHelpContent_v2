@@ -143,7 +143,7 @@
             "displayLabel": "Problem description",
             "watermarkText": "Extra notes about your data ingestion.",
             "required": true,
-			"diagnosticInputRequiredClients": "Portal",
+            "diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],

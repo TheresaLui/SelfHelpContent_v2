@@ -58,7 +58,7 @@
                 }
             ],
             "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "intermittent",
@@ -99,7 +99,7 @@
                 }
             ],
             "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "vnet_rule",
