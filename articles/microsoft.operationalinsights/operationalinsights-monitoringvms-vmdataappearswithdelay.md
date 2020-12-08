@@ -25,18 +25,17 @@ Typical issues that cause ingestion delay are:
 
 * Check for recent latency issues by executing the following Log Analytics query:
 
-   ```
-Heartbeat
+```Heartbeat
 | where TimeGenerated > ago(8h) 
 | extend E2EIngestionLatency = ingestion_time() - TimeGenerated 
 | extend AgentLatency = _TimeReceived - TimeGenerated 
 | summarize percentiles(E2EIngestionLatency, 95), percentiles(AgentLatency, 95) by Computer
 | extend RESULT=iff(percentile_E2EIngestionLatency_95 < 5min, "OK", 
 		    iff(percentile_AgentLatency_95 > 2min, "AGENT DELAY", "SERVICE DELAY"))
-| top 20 by percentile_E2EIngestionLatency_95 desc
-```
+| top 20 by percentile_E2EIngestionLatency_95 desc```
 
-   **Note:** You can customize thresholds in the above query or run it on any table
+  
+**Note:** You can customize thresholds in the above query or run it on any table
 
    This query displays 20 VMs with the highest ingestion latency. Examine the results in the **RESULT** column: **OK** means the latency is within normal; **SERVICE DELAY** indicates that the delay is on the Log Analytics service side; **AGENT DELAY** signals some latency before the data reaches the Log Analytics ingestion endpoint.
 
@@ -44,7 +43,7 @@ Heartbeat
 
 * Check if your resource is sending the data. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 
-   ```
+```
 Heartbeat  
 | where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
 | summarize NoHeartbeatPeriod = now() - max(TimeGenerated) by Computer  
