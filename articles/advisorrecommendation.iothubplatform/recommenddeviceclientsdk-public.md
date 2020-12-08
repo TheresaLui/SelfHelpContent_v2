@@ -4,7 +4,7 @@
     ms.author="iothubcoresvc"
     articleId="d448c687-b808-4143-bbdc-02c35478198a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="AzureIot_IotHub"
 />
 # Recommendation to upgrade PreLTS Iot Hub Device Clients SDK
