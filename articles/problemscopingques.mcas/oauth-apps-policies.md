@@ -24,14 +24,14 @@
                     "id": "MCAS_URL",
                     "order": 2,
                     "controlType": "textbox",
-                    "displayLabel": "Please provide your MCAS tenant URL (e.g: https://(domain name).portal.cloudappsecurity.com/)",
+                    "displayLabel": "Provide your MCAS tenant URL (e.g., https://(domain name).portal.cloudappsecurity.com/)",
                     "required": true
                 },
 				{
                     "id": "Policy_ID",
                     "order": 3,
                     "controlType": "textbox",
-                    "displayLabel": "Please provide the Policy ID. The ID can be extracted from the policy URL",
+                    "displayLabel": "Provide the Policy ID by extracting it from the policy URL",
                     "required": false
 				},
 				{
