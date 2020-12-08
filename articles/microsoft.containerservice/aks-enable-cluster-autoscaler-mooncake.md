@@ -19,7 +19,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('akscn.kusto.chinacloudapi.cn').database('AKSprod').ClusterAutoscalerDisabled",
     "dataSource": "Kusto",
-    "refreshInterval": "0.24:00:00"
+    "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Low",
