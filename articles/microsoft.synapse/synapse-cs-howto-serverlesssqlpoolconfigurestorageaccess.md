@@ -32,3 +32,4 @@
 
 * If using ADF to access Serverless SQL pool, check if MSI account for your workspace is given access to storage. MSI account has the same name as your workspace name. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
 
+ 

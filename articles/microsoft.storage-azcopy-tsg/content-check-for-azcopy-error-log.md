@@ -25,3 +25,5 @@ By default, the log and plan files are located in the **%USERPROFILE\\.azcopy** 
 
 *Important note: Advise customer to share the redacted version of their commands.*
 
+**The product team maintains and regularly updates [Azcopy v10 Github](https://github.com/Azure/azure-storage-azcopy/issues). Be sure to check for open or known issues.**
+
