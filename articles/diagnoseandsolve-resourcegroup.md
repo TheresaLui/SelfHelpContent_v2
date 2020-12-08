@@ -79,7 +79,7 @@ ownershipId="Compute_VirtualMachines_Content"
 		{
 			"id": "Allocation_recommender",
 			"title": "Allocation Success Recommender",
-			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"description": "Predict the likelihood of a successful allocation in the next 7 days for given sizes and regions",
 			"category": "Virtual Machines",
 			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
 			"supportTopicId": "32743100",
@@ -113,7 +113,7 @@ ownershipId="Compute_VirtualMachines_Content"
         {
           "id": "Choosing_Region_or_VM_size",
           "title": "Choosing Region or VM size",
-          "description": "Guidance on creating a new VM in an unavailable size or region, or when finding suitable SKU for deployment",
+          "description": "Guidance on creating a new VM in an unavailable size or region, or when finding a suitable SKU for deployment",
           "supportTopicId": "32628263",
           "commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
           "symptomId": ""
