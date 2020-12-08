@@ -20,7 +20,7 @@
 # High IO Usage Detected
 
 <!--issueDescription-->
-We ran diagnostics and detected high IO usage on database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. Between **<!--$StartTime-->StartTime<!--/$StartTime--> UTC** and **<!--$EndTime-->EndTime<!--/$EndTime--> UTC**, the IO usage for this database was greater than 90% for more than 5 consecutive minutes. When IO usage is high, your applications may experience performance issues like timeouts or increased latency.
+We ran diagnostics and detected high IO usage on database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. In the past 24 hours, there were **<!--$numOccurences-->numOccurrences<!--$numOccurrences-->** intervals of 5-minutes when the average IO usage was greater than 90%. When IO usage is high, your applications may experience performance issues like timeouts or increased latency.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
