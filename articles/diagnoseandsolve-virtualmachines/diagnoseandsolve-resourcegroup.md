@@ -18,7 +18,7 @@ ownershipId="Compute_VirtualMachines_Content"
 {
   "$schema": "SelfHelpContent",
   "commonProblems": [
-	{					   
+  {             
       "id": "Troubleshoot_Deployment_Failures",
       "title": "Troubleshoot Deployment Failures",
       "description": "Troubleshoot failures and errors when creating a new VM in Azure",
@@ -44,7 +44,7 @@ ownershipId="Compute_VirtualMachines_Content"
         },
         {
           "id": "Provisioning_or_deployment_timeout_error",
-	  "title": "Provisioning or deployment timeout error",
+    "title": "Provisioning or deployment timeout error",
           "description": "Troubleshoot provisioning or deployment timeout errors when creating a new VM in Azure",
           "supportTopicId": "32628279",
           "commonSolutionArticleId": "2b6deeb3-490a-4d18-8a36-83ed65de8451",
@@ -76,17 +76,17 @@ ownershipId="Compute_VirtualMachines_Content"
         }
       ]
     },
-		{
-			"id": "Allocation_recommender",
-			"title": "Allocation Success Recommender",
-			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
-			"category": "Virtual Machines",
-			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
-			"supportTopicId": "32743100",
-			"commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
-			"symptomId": ""
-		},
-		{
+    {
+      "id": "Allocation_recommender",
+      "title": "Allocation Success Recommender",
+      "description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+      "category": "Virtual Machines",
+      "searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+      "supportTopicId": "32743100",
+      "commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
+      "symptomId": ""
+    },
+    {
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
