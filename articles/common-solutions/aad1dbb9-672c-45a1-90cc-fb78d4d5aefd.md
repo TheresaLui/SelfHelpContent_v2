@@ -1,12 +1,13 @@
 <properties
-  pagetitle="Configuring with Azure Active Directory or Office 365"
+  pagetitle="Configuring with Azure Active Directory or Office 365&#xD;"
   service=""
   resource=""
-  ms.author="pazand"
+  ms.author="pazand,vimalt"
   selfhelptype="Generic"
   supporttopicids="32452997"
+  resourcetags=""
   productpesids="15543"
-  cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+  cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   articleid="aad1dbb9-672c-45a1-90cc-fb78d4d5aefd"
   ownershipid="Azure_DevOps_Services" />
 # Configuring with Azure Active Directory or Office 365
@@ -34,4 +35,8 @@
 * [Get list of organizations backed by Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/get-list-of-organizations-connected-to-azure-active-directory?view=azure-devops)
 
 ### **FAQs**
-* [Access via Azure AD FAQs](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#faq-connect) 
+* [Access via Azure AD FAQs](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#faq-connect)
+
+## **Additional Resources**
+* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
