@@ -2,7 +2,7 @@
   pagetitle="Configuring with Azure Active Directory or Office 365"
   service=""
   resource=""
-  ms.author="pazand,vimalt"
+  ms.author="vimalt"
   selfhelptype="Generic"
   supporttopicids="32452997"
   resourcetags=""
@@ -36,6 +36,7 @@
 
 ### **FAQs**
 * [Access via Azure AD FAQs](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#faq-connect)
+
 ### **Additional resources**
 * For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
