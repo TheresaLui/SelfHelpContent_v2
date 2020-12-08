@@ -1654,6 +1654,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb9b6c75-e75f-eb26-c16b-2ae8c8cf5845",
+      "longDescription": "",
+      "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected.",
+      "searchTags": "pipeline;integration;performance;slow;adf",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "edf760d1-db6f-fc9a-a48a-f3d51fcce2b5",
       "longDescription": "",
       "shortDescription": "Issues related to development and deployment of SSDT Database Projects.",
