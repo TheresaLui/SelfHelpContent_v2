@@ -20,7 +20,7 @@
 # High IO Usage Detected
 
 <!--issueDescription-->
-We ran diagnostics and detected high IO usage on database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. In the past 24 hours, there were **<!--$numOccurences-->numOccurrences<!--$numOccurrences-->** intervals of 5-minutes when the average IO usage was greater than 90%. When IO usage is high, your applications may experience performance issues like timeouts or increased latency.
+We ran diagnostics and detected high IO usage on database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. In the past 24 hours, there were **<!--$numOccurences-->numOccurrences<!--/$numOccurrences-->** intervals of 5-minutes when the average IO usage was greater than 90%. When IO usage is high, your applications may experience performance issues like timeouts or increased latency.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -29,7 +29,7 @@ To reduce the IO usage on your database, follow these recommendations:
 
 * Increase your IO capacity by upgrading your database compute size or service tier. See [vCore and DTU Purchasing Models](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models) for more information.
 * Identify and tune the queries consuming the most IO. See [Identify IO Performance Issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-io-performance-issues) for more information.
-* Group separate transactions into batches to consolidate IO costs. See [Batching for Performance Improvements](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching)for more information.
+* Group separate transactions into batches to consolidate IO costs. See [Batching for Performance Improvements](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching) for more information.
 
 ## **Recommended Documents**
 
