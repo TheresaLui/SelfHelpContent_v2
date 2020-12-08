@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Quota validation issues"
-	description="Quota validation issues"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
- 	ms.author="jlian,saziz,jtanner"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32630567"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="07984f0e-a641-4843-a804-e8015906371d"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Not sure why I got throttled or ran out of quota&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,saziz,jtanner"
+  selfhelptype="Generic"
+  supporttopicids="32630567"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="07984f0e-a641-4843-a804-e8015906371d"
+  ownershipid="AzureIot_IotHub" />
 # Not sure why I got throttled or ran out of quota
 
 ## **Recommended Steps**
@@ -36,7 +31,7 @@ To learn more, see [IoT hub throttling](https://docs.microsoft.com/azure/iot-hub
 
 ## **Recommended Documents**
 
-* [IoT Hub throttling and you](https://azure.microsoft.com/blog/iot-hub-throttling-and-you/)<br>
-* [How to upgrade your IoT hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-upgrade) <br>
-* [IoT Hub pricing](https://azure.microsoft.com/pricing/details/iot-hub/)<br>
+* [IoT Hub throttling and you](https://azure.microsoft.com/blog/iot-hub-throttling-and-you/)
+* [How to upgrade your IoT hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-upgrade) 
+* [IoT Hub pricing](https://azure.microsoft.com/pricing/details/iot-hub/)
 * [Choose the right IoT Hub tier for your solution](https://docs.microsoft.com/azure/iot-hub/iot-hub-scaling)
