@@ -17,7 +17,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://iothub.kusto.windows.net').database('IotHub').PreLtsClientSdkAdvisor",
     "dataSource": "Kusto",
-    "refreshInterval": "06:00:00	"
+    "refreshInterval": "06:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
@@ -84,6 +84,6 @@
     }
   ],
   "tip": "",
-  "testData": "C306C958-55C4-41A2-86F4-53F1657A726A,/SUBSCRIPTIONS/C306C958-55C4-41A2-86F4-53F1657A726A/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"Language\"\":\"\"Java\"\",\"\"MinimumSupportedVersion\"\":\"\"1.22.0\"\",\"\"RecommendedActionLearnMore\"\":\"\" https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"ReleaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\"}\"""
+  "testData": "C306C958-55C4-41A2-86F4-53F1657A726A,/SUBSCRIPTIONS/C306C958-55C4-41A2-86F4-53F1657A726A/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"Language\"\":\"\"Java\"\",\"\"MinimumSupportedVersion\"\":\"\"1.22.0\"\",\"\"RecommendedActionLearnMore\"\":\"\" https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"ReleaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\"}\""
 }
 ---
