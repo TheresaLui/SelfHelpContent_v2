@@ -1,19 +1,15 @@
 <properties
-	pageTitle="Issues with IoT Hub routing"
-	description="Issues with IoT Hub routing"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian"
-	ms.author="jlian"
-	selfHelpType="generic"
-	supportTopicIds="32680885,32680884"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="8bb9a0cc-e06a-4e76-bca5-3e703c4ab16a"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Issues with IoT Hub routing&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,jtanner"
+  selfhelptype="Generic"
+  supporttopicids="32680885,32680884"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="8bb9a0cc-e06a-4e76-bca5-3e703c4ab16a"
+  ownershipid="AzureIot_IotHub" />
 # Issues with IoT Hub routing
 
 ## **Recommended Steps** 
@@ -41,8 +37,8 @@ When routing to storage with JSON encoding format, you must set the contentType 
 
 ## **Recommended Documents**
 
-* [Endpoint health status](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-endpoints#custom-endpoints)<br>
-* [Troubleshooting routing issues](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c#monitoring-and-troubleshooting)<br>
-* [IoT Hub routing metrics details](https://docs.microsoft.com/azure/iot-hub/iot-hub-metrics)<br>
-* [Learn more about using queries in message routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax)<br>
+* [Endpoint health status](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-endpoints#custom-endpoints)
+* [Troubleshooting routing issues](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c#monitoring-and-troubleshooting)
+* [IoT Hub routing metrics details](https://docs.microsoft.com/azure/iot-hub/iot-hub-metrics)
+* [Learn more about using queries in message routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax)
 * [Learn about routing endpoints](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c#routing-endpoints)
