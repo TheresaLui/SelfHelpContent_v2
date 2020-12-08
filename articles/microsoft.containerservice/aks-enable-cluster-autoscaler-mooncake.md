@@ -35,7 +35,7 @@
       "service": "Azure Kubernetes Service",
       "team": "Azure Kubernetes Service"
     },
-    "serviceTreeId": "c77cbc0e-e61d-4aa0-9672-b63d529eac77"
+    "serviceTreeId": "8c53e793-aff1-43df-9d49-5911495a531e"
   },
   "ingestionClientIdentities": [],
   "version": 1.1,
