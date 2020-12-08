@@ -25,7 +25,7 @@
 ## **Recommended Documents**
 
 * [Central reporting for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/reports-aip)<br>
-* [Prerequisites for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Prerequisites for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#prerequisites)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Tutorial: Discovering your sensitive content with the Azure Information Protection (AIP) scanner](https://docs.microsoft.com/azure/information-protection/tutorial-scan-networks-and-content)<br>
