@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The reboot was triggered by an authorized user or process from either the Azure Portal or Azure Resource Manager interfaces.
+> The reboot was triggered by an authorized user or process from either the Azure portal or Azure Resource Manager interfaces.
 > 
 
 <!--resolutionDetails-->

@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The redeploy action was triggered by an authorized user or process from either the Azure Portal or Azure Resource Manager interfaces. As a result, your VM was moved to a different host node.
+> The redeploy action was triggered by an authorized user or process from either the Azure portal or Azure Resource Manager interfaces. As a result, your VM was moved to a different host node.
 > 
 
 <!--resolutionDetails-->
