@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a347b531-5dbf-4870-80b0-ace7964605b1",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').PodSecurityPolicyEnabled",
+    "streamNamespace": "cluster('aksff.kusto.usgovcloudapi.net').database('AKSprod').PodSecurityPolicyEnabled",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
