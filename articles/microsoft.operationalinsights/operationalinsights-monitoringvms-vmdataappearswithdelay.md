@@ -25,7 +25,8 @@ Typical issues that cause ingestion delay are:
 
 * Check for recent latency issues by executing the following Log Analytics query:
 
-```Heartbeat
+```
+Heartbeat
 | where TimeGenerated > ago(8h) 
 | extend E2EIngestionLatency = ingestion_time() - TimeGenerated 
 | extend AgentLatency = _TimeReceived - TimeGenerated 
@@ -44,7 +45,8 @@ Typical issues that cause ingestion delay are:
 
 * Check if your resource is sending the data. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 
-```Heartbeat  
+```
+Heartbeat  
 | where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
 | summarize NoHeartbeatPeriod = now() - max(TimeGenerated) by Computer  
 | top 20 by NoHeartbeatPeriod desc
