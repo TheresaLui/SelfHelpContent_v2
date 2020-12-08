@@ -32,7 +32,8 @@ Typical issues that cause ingestion delay are:
 | summarize percentiles(E2EIngestionLatency, 95), percentiles(AgentLatency, 95) by Computer
 | extend RESULT=iff(percentile_E2EIngestionLatency_95 < 5min, "OK", 
 		    iff(percentile_AgentLatency_95 > 2min, "AGENT DELAY", "SERVICE DELAY"))
-| top 20 by percentile_E2EIngestionLatency_95 desc```
+| top 20 by percentile_E2EIngestionLatency_95 desc
+```
 
   
 **Note:** You can customize thresholds in the above query or run it on any table
@@ -43,8 +44,7 @@ Typical issues that cause ingestion delay are:
 
 * Check if your resource is sending the data. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 
-```
-Heartbeat  
+```Heartbeat  
 | where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
 | summarize NoHeartbeatPeriod = now() - max(TimeGenerated) by Computer  
 | top 20 by NoHeartbeatPeriod desc
@@ -53,6 +53,7 @@ Heartbeat
 * Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made available, however, this does not affect the ingestion - your data will be safely stored into the table  
 
 * Review [this article for additional queries to investigate the latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
+
 
 ## **Recommended Documents**
 
