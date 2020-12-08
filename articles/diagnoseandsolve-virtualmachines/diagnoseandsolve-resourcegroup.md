@@ -18,7 +18,7 @@ ownershipId="Compute_VirtualMachines_Content"
 {
   "$schema": "SelfHelpContent",
   "commonProblems": [
-  {             
+  {
       "id": "Troubleshoot_Deployment_Failures",
       "title": "Troubleshoot Deployment Failures",
       "description": "Troubleshoot failures and errors when creating a new VM in Azure",
