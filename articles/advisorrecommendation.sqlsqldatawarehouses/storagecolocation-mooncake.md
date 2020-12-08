@@ -3,9 +3,9 @@
     description="Co-locate the storage account within the same region"
     authors="kevin"
     ms.author="kevin"
-    articleId="314a2614-24d3-496c-b9d6-e6cd3df4b6c2_Fairfax"
+    articleId="314a2614-24d3-496c-b9d6-e6cd3df4b6c2_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_SynapseAnalytics"
 />
 
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "314a2614-24d3-496c-b9d6-e6cd3df4b6c2",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_Load_StorageAccount_AirNatCloud",
+    "streamNamespace": "cluster('https://sqlazurechi2.chinanorth2.kusto.chinacloudapi.cn').database('MoonCake').dw_advisor_Load_StorageAccount_AirNatCloud",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
