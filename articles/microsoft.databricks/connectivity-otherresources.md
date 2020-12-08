@@ -28,8 +28,8 @@
   
 * To synchronize workbooks between a local repo like on-premise DevOps instance and a Databricks workspace:
 
-  - You need to whitelist the [Webapp IP](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#control-plane-nat-and-webapp-ip-addresses) on the on-premise server. 
-  - There are some options to synchronize notebooks: [Workspace CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/workspace-cli) which uses Azure Devops build and release pipelines to automate the process. And for more controllable option, you can use the [Databricks CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/) to define the workflow to export and import notebooks.
+  - Add the [Webapp IP](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#control-plane-nat-and-webapp-ip-addresses) on the on-premise server to the **Allow list**. 
+  - To synchronize notebooks, use [Workspace CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/workspace-cli), which uses Azure Devops build and release pipelines to automate the process; or for a more controllable approach, use [Databricks CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/) to define the workflow to export and import notebooks.
 
 ## **Recommended Documents**
 
