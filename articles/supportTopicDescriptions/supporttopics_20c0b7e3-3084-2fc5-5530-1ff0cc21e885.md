@@ -814,6 +814,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a2a9bef-8d36-feaf-9655-8a2980603b6a",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while importing or exporting data to SQL pool using Polybase.",
+      "searchTags": "sql;polybase;import;export;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6dc242b7-26bc-5b50-8f64-f204479ceb46",
       "longDescription": "",
       "shortDescription": "Failure to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
