@@ -23,7 +23,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Devices/IotHubs",
   "recommendationFriendlyName": "UpgradeDeviceClientSdk",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "iothubcoresvc@microsoft.com",
     "icm": {
