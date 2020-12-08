@@ -54,7 +54,7 @@ Additional possible causes:
 
 * SSL CRL not accessible
 * SSL certificate in connector not trusted by Exchange servers
-* Incorrect MSDRM version in the Exchange server. The MSDRM version must be a [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre).
+* Incorrect MSDRM version in the Exchange server. The MSDRM version must be a [Mode 2 capable client](https://aka.ms/rms-exchange).
 	
 **Users cannot use Exchange IRM features, like OWA**
 
@@ -127,7 +127,7 @@ Additional possible causes:
 
 * SSL CRL is not accessible
 * SSL certificate in the connector is not trusted by the Exchange servers
-* Incorrect MSDRM version in the Exchange server. The MSDRM version must be a [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre).
+* Incorrect MSDRM version in the Exchange server. The MSDRM version must be a [Mode 2 capable client](https://aka.ms/rms-exchange).
 	
 ### The Admin cannot enable the IRM Integration in Exchange
 
@@ -197,7 +197,7 @@ Additional possible causes:
 1. Additional possible issues:
 	* The SSL CRL is not accessible
 	* The SSL certificate in the connector is not trusted by the Exchange servers
-	* An incorrect MSDRM version in Exchange server - the MSDRM version must be a [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre).
+	* An incorrect MSDRM version in Exchange server - the MSDRM version must be a [Mode 2 capable client](https://aka.ms/rms-exchange).
 
 ## **Recommended Documents**
 
