@@ -56,12 +56,10 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
-      "documentLink": ""
+      "actionId": "58cb3e4b-dfff-4758-b953-1fa2ae9b761b",
+      "actionType": "Document",
+      "description": "Upgrade to a supported version of the SDK",
+      "documentLink": "https://aka.ms/iothubsdk"
     }
   },
   "displayLabel": "Upgrade Device Client SDK",
