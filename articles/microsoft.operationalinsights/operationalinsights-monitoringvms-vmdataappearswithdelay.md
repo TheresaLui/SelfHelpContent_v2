@@ -23,7 +23,7 @@ Typical issues that cause ingestion delay are:
 
 * Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you see a notification about an ongoing incident, we are working on it and will communicate through the same blog when it's resolved.
 
-* Check for recent latency issues by executing the following Log Analytics query:
+* Check for recent latency issues by running the following Log Analytics query:
 
 ```
 Heartbeat
@@ -43,7 +43,7 @@ Heartbeat
 
    For additional insights, consult this [article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency).
 
-* Check if your resource is sending the data. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
+* Check if your resource is sending the data. Run the following query to list the active computers that haven’t recently reported a heartbeat (heartbeat is sent once a minute):
 
 ```
 Heartbeat  
