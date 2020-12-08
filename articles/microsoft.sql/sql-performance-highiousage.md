@@ -1,7 +1,7 @@
 <properties
-    pageTitle="query execution/high IO or high log rate usage"
-    description="query execution/high IO or high log rate usage"
-    infoBubbleText="Found high IO or high log rate usage issues with DB. See details on the right."
+    pageTitle="query execution/high IO usage"
+    description="query execution/high IO usage"
+    infoBubbleText="High IO usage detected. See details on the right."
     service="microsoft.sql"
     resource="servers"
     authors="ketho00"
@@ -10,24 +10,27 @@
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32749515, 32749520"
+    supportTopicIds="32630434,32630450,32630454,32630459"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# We ran diagnostics on your resource and found high IO or high log rate usage
+# High IO Usage Detected
 
 <!--issueDescription-->
-Our internal service telemetry detected high IO or high log rate usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
+We ran diagnostics and detected high IO usage on database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. Between **<!--$StartTime-->StartTime<!--/$StartTime--> UTC** and **<!--$EndTime-->EndTime<!--/$EndTime--> UTC**, the IO usage for this database was greater than 90% for more than 5 consecutive minutes. When IO usage is high, your applications may experience performance issues like timeouts or increased latency.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-This indicates possible application slowness, or timeouts due to lack of IO resources to execute the requested workload during that specific period. See the recommended articles for details.
+To reduce the IO usage on your database, follow these recommendations:
+
+* Increase your IO capacity by upgrading your database compute size or service tier. See [vCore and DTU Purchasing Models](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models) for more information.
+* Identify and tune the queries consuming the most IO. See [Identify IO Performance Issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-io-performance-issues) for more information.
+* Group separate transactions into batches to consolidate IO costs. See [Batching for Performance Improvements](https://docs.microsoft.com/azure/azure-sql/performance-improve-use-batching)for more information.
 
 ## **Recommended Documents**
 
-* [Consider batching to reduce IO consumption when doing large operations](https://docs.microsoft.com/azure/sql-database/sql-database-use-batching-to-improve-performance)
-* [Increase Azure Database tier to get more DTUs and hence accommodate for more IO in your environment](https://azure.microsoft.com/pricing/details/sql-database/single)
+* [Monitoring and Performance Tuning in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)
