@@ -8,17 +8,19 @@
     cloudEnvironments="public,ussec,usnat"
     ownershipId="DevDivAzServices_SpringCloud"
 />
+
 # Spring Cloud API Version Recommendation
 ---
+
 {
    "recommendationOfferingId":"9cb52795-75ca-46f7-acc0-e3213428dc2c",
    "recommendationOfferingName":"Azure Spring Cloud",
    "$schema":"AdvisorRecommendation",
    "recommendationTypeId":"3c7ddb62-d514-4794-ba90-8ce5275a7a81",
    "dataSourceMetadata":{
-      "streamNamespace":"cluster('https://springcloud.eastus2.kusto.windows.net').database('prod')..GetApiVersionRecommendationReport",
+      "streamNamespace":"cluster('https://springcloud.eastus2.kusto.windows.net').database('prod').GetApiVersionRecommendationReport",
       "dataSource":"Kusto",
-      "refreshInterval":"0.12.00:00:00"
+      "refreshInterval":"0.12:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
