@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Classic VM's are not suppoerted for JIT"
-	  description="Classic VM's are not suppoerted for JIT"
+	  pageTitle="Classic VMs are not suppoerted for JIT"
+	  description="Classic VMs are not suppoerted for JIT"
       service="Microsoft.Compute"
       resource="Microsoft.Compute/virtualMachines,Microsoft.Compute/virtualMachineScaleSets"
 	  authors="rimayber"
@@ -15,7 +15,7 @@
 	  ownershipId="Azure_Security_Security_Center"
 />
 
-# Classic VM's are not suppoerted for JIT
+# Classic VMs are not suppoerted for JIT
 
 <!--issueDescription-->
 

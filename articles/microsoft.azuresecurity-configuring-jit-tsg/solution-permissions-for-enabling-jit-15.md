@@ -21,7 +21,7 @@
 
 Dear Customer, <br>
 <br>
-Please chcek user permissions for required RBAC role. If user has custom role make sure to follow the document below.<br>
+Please check user permissions for required RBAC role. If user has custom role make sure to follow the document below.<br>
 <br>
 Best Regards,<br>
 
