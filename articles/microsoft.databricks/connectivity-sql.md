@@ -19,9 +19,7 @@
 
 Use this document to resolve many common connectivity issues related to SQL resources.  
 
-* **Problem**
-
-   The Cosmos DB account firewall is blocking Databricks requests, resulting in the error:<br>
+* **Problem**: The Cosmos DB account firewall is blocking Databricks requests, resulting in the error:<br>
    "Uncaught throwable from user code: com.microsoft.azure.documentdb.DocumentClientException: Request originated from client IP xx.xx.xxx.xxx through public internet. This is blocked by your Cosmos DB account firewall settings." 
   
   **Solution**
