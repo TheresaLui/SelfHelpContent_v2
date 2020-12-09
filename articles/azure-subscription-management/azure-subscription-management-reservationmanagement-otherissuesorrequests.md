@@ -7,9 +7,9 @@
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32690276"
+	supportTopicIds="32690276,32781862"
 	resourceTags=""
-	productPesIds="15660"
+	productPesIds="15660,15659"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="08b1aa47-f908-41af-b3eb-37c6e45d3dcd"
 	ownershipId="ASMS_SubscriptionManagement"
@@ -79,7 +79,7 @@ If your internet browser page hangs, try each of the following steps until you c
 This issue can occur if you use more than one user account in an internet browser.To resolve the issue, try one of the following methods:<br>
 
 * Clear the cache and delete Internet cookies. In Internet Explorer, click **Tools > Internet Options > Delete**. Make sure that the check boxes for temporary files, cookies, password, and browsing history are selected, and then click Delete
-* Reset the Internet Explorer settings to revert any personal settings that you’ve made. Click **Tools > Internet Options > Advanced** > select the **Delete personal settings** box > **Reset**
+* Reset the Internet Explorer settings to revert any personal settings that you have made. Click **Tools > Internet Options > Advanced** > select the **Delete personal settings** box > **Reset**
 * Use the private browsing mode for your browser. For Internet Explorer: Click **Tools > Safety > InPrivate Browsing**, and then browse and sign-in to the [Azure portal](https://portal.azure.com/) or [Azure Account center](https://account.windowsazure.com/Subscriptions).
 
 Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)<br>
@@ -87,7 +87,7 @@ Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/404
 **Azure Free Account**<br>
 The Azure Free Account offer includes $200 of Azure credits (to be used within the first 30 days of sign-up) and 12 months of select free services (subject to change).<br>
 This offer is limited to one enrollment per eligible customer and cannot be combined with any other offer unless otherwise permitted by Microsoft.<br>
-Within 30 days of sign-up or upon exhaustion of the customer’s credits (whichever occurs first), the customer must upgrade to a Pay-As-You-Go account by removing the Spending Limit. This allows continued use of the Azure Free Account for the remaining 11 months. After the customer has upgraded, usage outside the initial credits and select free services will be billed at Pay-As-You-Go rates. If the customer elects not to upgrade, the Free Account subscription will be disabled.<br>
+Within 30 days of sign-up or upon exhaustion of the customer's credits (whichever occurs first), the customer must upgrade to a Pay-As-You-Go account by removing the Spending Limit. This allows continued use of the Azure Free Account for the remaining 11 months. After the customer has upgraded, usage outside the initial credits and select free services will be billed at Pay-As-You-Go rates. If the customer elects not to upgrade, the Free Account subscription will be disabled.<br>
 
 Learn more: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
 Additional FAQ: [Free account FAQ](https://azure.microsoft.com/free/free-account-faq/)<br>

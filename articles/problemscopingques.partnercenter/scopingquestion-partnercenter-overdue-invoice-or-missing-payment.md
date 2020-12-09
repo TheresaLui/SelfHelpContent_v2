@@ -67,9 +67,17 @@
             "watermarkText": "Payment Reference",
             "required": false
         },
+	{
+            "id": "# of customers impacted",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted",
+            "required": false
+        },
        {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -78,7 +86,7 @@
         },
        {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 9,
             "controltype": "datetimepicker",
             "displayLabel": "When did this issue start?",
             "required": true

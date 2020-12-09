@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Chat message quality, users and threads, and features",
   "fileAttachmentHint": "",
   "formElements": [

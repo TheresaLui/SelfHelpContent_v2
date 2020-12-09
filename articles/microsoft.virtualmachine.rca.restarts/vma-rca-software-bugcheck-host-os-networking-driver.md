@@ -7,7 +7,7 @@
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
-	articleId="VMA_RCA_Software_BugcCeck_Host_OS_Networking_Driver"
+	articleId="VMA_RCA_Software_BugCheck_Host_OS_Networking_Driver"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -24,12 +24,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > We identified that the physical host node where the VM was running experienced a rare unexpected bug check in a core OS networking driver involving driver kernel stack space usage that resulted in the VM restarting.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for repair. Our core engineers are working to minimize such occurrences.
 > 
 > Our core networking engineers have already identified the issue and are deploying an OS update following safe deployment practices. We have verified that the VM is running on a node where the OS has already been updated, and is not expected to be impacted again. The update is expected to complete across the entire fleet in the next few weeks. 

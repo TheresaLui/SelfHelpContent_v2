@@ -3,15 +3,15 @@
 	description="How to check if you can obtain JIT privileges"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="9f5179df-377a-447a-a0af-ab921063a79a"
 />
 

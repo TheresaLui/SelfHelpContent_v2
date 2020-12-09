@@ -15,7 +15,9 @@
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# How to check if there is a custom probe configured
+# Check for custom probe
+
+## How to check if there is a custom probe configured
 
 Check the custom probe (Backend HTTP Settings --> HTTP Setting --> Probe) settings based on the error that you got in the backend health status
 
