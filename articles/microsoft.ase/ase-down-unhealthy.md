@@ -1,19 +1,15 @@
 <properties
-	pageTitle="ASE Down\ASE Marked as Unhealthy or Suspended"
-	description="Networking\ASE Marked as Unhealthy or Suspended"
-	service="microsoft.ase"
-	resource="ase"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608420"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="cec8676f-8b41-43ac-8608-752f9480cf5b"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="ASE Down\ASE Marked as Unhealthy or Suspended&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608420"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="cec8676f-8b41-43ac-8608-752f9480cf5b"
+  ownershipid="Compute_AppService" />
 # ASE Down\ASE Marked as Unhealthy or Suspended
 
 ## **Recommended documents**
