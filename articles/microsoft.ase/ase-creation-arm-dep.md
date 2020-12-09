@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Creation Issues\ARM  Deployment&#xD;"
+  pagetitle="Creation Issues\ARM  Deployment"
   service="microsoft.web"
   resource="hostingenvironments"
   ms.author="shrahman"
@@ -14,7 +14,7 @@
 
 ## **Recommended documents**
 * [App Service Environment v3](https://docs.microsoft.com/azure/app-service/environment/creation)
-* [Create an AppServicePlan and App in an App Service Environment v2](https://azure.microsoft.com/resources/templates/201-web-app-asp-app-on-asev2-create/)
+* [Create an App Service Plan and App in an App Service Environment v2](https://azure.microsoft.com/resources/templates/201-web-app-asp-app-on-asev2-create/)
 * [Create App Service Environment v2 with an ILB Address](https://azure.microsoft.com/resources/templates/201-web-app-asev2-ilb-create/)
 * [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support#change-the-egress-endpoint-for-your-ase)
 * [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
