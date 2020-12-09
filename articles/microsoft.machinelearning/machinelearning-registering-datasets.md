@@ -1,19 +1,15 @@
-<properties 
-    pageTitle="Creating or registering datasets"
-    description="Creating or registering datasets"
-    service="microsoft.machinelearning"
-    resource="dataset"
-    authors="SturgeonMi"
-    ms.author="xunwan"
-    selfHelpType="generic"
-    supportTopicIds="32690849"
-    resourceTags=""
-    productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
- 	articleId="machinelearning-registering-datasets"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
-
+<properties
+  pagetitle="Create or register Azure Machine Learning datasets&#xD;"
+  service="microsoft.machinelearning"
+  resource="dataset"
+  ms.author="xunwan"
+  selfhelptype="Generic"
+  supporttopicids="32690849"
+  resourcetags=""
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="machinelearning-registering-datasets"
+  ownershipid="AzureML_AzureMachineLearningServices" />
 # Create or register Azure Machine Learning datasets
 By creating a dataset, you create a reference to the data source location, along with a copy of its metadata. Because the data remains in its existing location, you incur no extra storage cost. You can create both TabularDataset and FileDataset data sets by using the Python SDK or through the [Azure Machine Learning studio](https://ml.azure.com).
 
@@ -28,7 +24,7 @@ You can learn how to create or register an Azure Machine Learning datasets by us
 
 ### **FAQ**
 
-• **"Permission" problems reigistering a dataset or connecting to datastore
+• **"Permission" problems reigistering a dataset or connecting to datastore**
 
  If you have Permission issues when registering dataset or connecting to datastore, take these steps first:
 1. **Network issues**: Verify if you are facing issues with your network
