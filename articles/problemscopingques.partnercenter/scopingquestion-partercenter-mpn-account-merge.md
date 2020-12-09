@@ -29,22 +29,22 @@
        "content": "Please check the <a href='https://docs.microsoft.com/partner-center/merge-accounts'>Merge your partner account with another partner account</a> webpage and make sure the user who tries to complete the Merge process has the needed rights and role. Also, be aware of the consequences of account merging prior to the request. If there are any issues during the Merge process, please provide us the PSR (<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)"
       },
       {
-	     "id": "problem_description",
-	     "order": 2,
-	     "controlType": "multilinetextbox",
-	     "displayLabel": "Details",
-	     "watermarkText": "Please provide any additional information about your issue",
-       "infoBalloonText": "For issues encountered during the Merge process, please attach the PSR (<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)"",
-	     "required": true,
-	     "useAsAdditionalDetails": true
+       "id": "problem_description",
+       "order": 2,
+       "controlType": "multilinetextbox",
+       "displayLabel": "Details",
+       "watermarkText": "Please provide any additional information about your issue",
+       "infoBalloonText": "For issues encountered during the Merge process, please attach the PSR (<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)",
+	"required": true,
+	"useAsAdditionalDetails": true
       },
       {
-	     "id": "problem_start_time",
-	     "order": 3,
-	     "controlType": "datetimepicker",
-	     "displayLabel": "Start Date",
-	     "watermarkText": "When did your issue begin?",
-	     "required": true
+	"id": "problem_start_time",
+	"order": 3,
+	"controlType": "datetimepicker",
+	"displayLabel": "Start Date",
+	"watermarkText": "When did your issue begin?",
+	"required": true
       }
    ]
 }
