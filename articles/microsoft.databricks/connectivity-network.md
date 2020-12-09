@@ -21,7 +21,9 @@ To diagnose and resolve connectivity issues with network configuration, use the 
 
 ## **Recommended Steps**
 
-* Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
+* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
+
+* Implement workloads through Azure Firewall to the Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
 
 	|     Name                                                             |     Source                                |     Destination                                             |     Protocol:Port    |     Purpose                                                                                                   |
