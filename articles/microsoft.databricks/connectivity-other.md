@@ -21,7 +21,7 @@ To diagnose and resolve connectivity issues, use the following information.
 
 ## **Recommended Steps**
 
-* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the following format:
+* In April 2020, Azure Databricks added a new unique per-workspace URL for each workspace, which uses the following format:
 
     ```
     adb-<workspace-id>.<random-number>.azuredatabricks.net
@@ -43,58 +43,38 @@ To diagnose and resolve connectivity issues, use the following information.
 * If **IP Access List** is enabled for the workspace, make sure to provide assignment permissions for Azure Data Factory IPs to run notebooks from ADF:
 
   - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
-  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for *DataFactory.Region*. 
+  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for **DataFactory.Region**. 
   
-* **Problem**
-
-  You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and you're receiving an error message similar to the following:
-  
-  ```
-  com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
-  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]
-  ```
+* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
+  "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
+  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]"
  
   The issue is most likely due to managed identity misconfiguration on Azure SQL DW. 
   
-  **Solution**
+  **Solution**: Follow [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
   
-  Follow [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
-  
-* **Problem**
-
-  Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:
-  
-  ```
-  OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')".
-  ```
+* **Problem**: Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:<br>
+  "OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')"."
  
   The pyodbc connection fails, because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
   
-  **Solution**
-  
-  Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999.
+  **Solution**: Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999.
   
   ```
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
   ```
 
-* **Problem**
-  
-  ```
-  Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues.
-  ```
+* **Error:** "Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues."
 
-  **Solution**
-  
-  We generally get RPC error due to the following reasons:
+  **Solution**: RPC errors usually occur for the following reasons:
 
-  1. The communication between the driver and executor is lost - executor is not able to send heartbeats within the threshold time frame which can happen either if the executor is overwhelmed with memory/OOM errors or too many network hits are making executor too busy in GC and it is not able to respond back to driver.
+  1. The communication between the driver and executor is lost. Executor is not able to send heartbeats within the threshold time frame, which can happen either if the executor is overwhelmed with memory/OOM errors, or too many network hits are making executor too busy in GC and it can't respond to driver.
 
-     You could see what is happening in the Spark UI > Stages > sort the tasks based on the error. It will show you what error was happening on executor level.
+     In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you what error was happening on the executor level.
 
-     One quick workaround would be to use bigger cluster (if current cluster is really small).
+     If the current cluster is really small, use a bigger cluster.
 
-  2. Having too many partitions - small files can cause RPC error. You can check the used partition strategy.
+  2. Having too many partitions - small files can cause an RPC error. Check the used partition strategy.
 
   3. Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
 
