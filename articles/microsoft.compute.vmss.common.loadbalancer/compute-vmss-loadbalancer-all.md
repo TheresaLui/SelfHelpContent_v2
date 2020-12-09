@@ -17,7 +17,7 @@
 
 # Cannot connect to my instance
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+Most users can resolve their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 
