@@ -1,16 +1,16 @@
 <properties
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
-	authors="liping-ms"
+    authors="liping-ms"
     ms.author="lipinggao"
-	displayOrder="100"
+    displayOrder="100"
     articleId="b72ddf41-39a2-4158-8492-11ec868aee98_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="DevDivAzServices_SpringCloud"
 />
 # Spring Cloud SDK Version Recommendation
---- 
+---
 {
 	"recommendationOfferingId": "997d7803-aa34-419e-8c09-d7cd8a4ceff2",
 	"recommendationOfferingName": "Azure Spring Cloud",
