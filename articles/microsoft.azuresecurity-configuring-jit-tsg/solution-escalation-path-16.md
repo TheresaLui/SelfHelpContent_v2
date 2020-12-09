@@ -21,7 +21,8 @@
 
 SE: Escalate using escalation process below:
 
-[ASC Escalation Procedure](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Azure%20Security%20Center%20CSS%20wiki/902/ASC-Escalation-Procedure)
-
 <!--/issueDescription-->
 
+## Recommended Documents
+
+1. [ASC Escalation Procedure](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Azure%20Security%20Center%20CSS%20wiki/902/ASC-Escalation-Procedure)
