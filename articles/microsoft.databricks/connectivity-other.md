@@ -17,17 +17,15 @@
 
 # Diagnose and resolve connectivity issues
 
-To diagnose and resolve connectivity issues, use the following information.
+## Unique, per-workspace URLs in Azure Databricks
 
-## **Recommended Steps**
-
-* In April 2020, Azure Databricks added a new unique per-workspace URL for each workspace, which uses the following format:
+* Azure Databricks has added a unique URL for each workspace, which uses the following format:
 
     ```
     adb-<workspace-id>.<random-number>.azuredatabricks.net
     ```
 
-  This URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, we recommend that you use the new per-workspace URL in scripts or provided in other automation that you use with multiple workspaces. 
+  This URL complements the existing regional URLs (<region>.azuredatabricks.net) you use to access your workspaces. Both URLs will continue to be supported. Because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. We recommend that you use the new per-workspace URL in scripts and in other automation for multiple workspaces. 
   For instructions, see the following:
 
      - [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
@@ -44,6 +42,10 @@ To diagnose and resolve connectivity issues, use the following information.
 
   - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
   - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for **DataFactory.Region**. 
+  
+  ## Recommended Steps
+  
+  To diagnose and resolve connectivity issues, use the following information.
   
 * **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
   "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
