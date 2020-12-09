@@ -33,4 +33,4 @@ Best Regards,<br>
 
 ## Recommended Documents
 
-1. [Understanding just-in-time virtual machine access in Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/just-in-time-explained)
+1. [Understanding just-in-time virtual machine access in Azure Security Center](https://docs.microsoft.com/azure/security-center/just-in-time-explained)

@@ -29,4 +29,4 @@ Best Regards,<br>
 
 ## Recommended Documents
 
-1. [NSG Overview](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
+1. [NSG Overview](https://docs.microsoft.com/azure/virtual-network/network-security-groups-overview)
