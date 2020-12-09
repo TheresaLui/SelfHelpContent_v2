@@ -28,13 +28,13 @@
     "controlType": "textbox",
     "displayLabel": "What e-mail address are you using to login to Partner Center?",
     "watermarkText": "Please note that you need to use the work account and not the personal email address.",
-    "infoBalloonText": "If you have problems with your password and it cannot be reset by your Global Admin please reach out to <a href='https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide'>O365 support team</a>.",
+    "infoBalloonText": "If you have problems with your password and it cannot be reset by your Global Admin please reach out to <a href='https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide'>O365 support team</a>. If this is not the problem you are impacted by, please complete this ticket submission.",
     "required": true
     },
     {
      "id": "achieve_box",
      "order": 2,
-     "controlType": "textbox",
+     "controlType": "multilinetextbox",
      "displayLabel": "What are you trying to achieve?",
      "required": false
      },
