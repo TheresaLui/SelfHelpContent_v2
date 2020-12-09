@@ -1,5 +1,5 @@
 <properties
-  pagetitle="ssl\Configuring Force-Tunneling&#xD;"
+  pagetitle="SSL\Configuring Force-Tunneling&#xD;"
   service="microsoft.web"
   resource="hostingenvironments"
   ms.author="shrahman"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="01908760-dde5-4e70-85c2-58f462c216e8"
   ownershipid="Compute_AppService" />
-# ssl\Configuring Force-Tunneling
+# SSL\Configuring Force-Tunneling
 
 ## **Recommended documents**
 * [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support#change-the-egress-endpoint-for-your-ase)
