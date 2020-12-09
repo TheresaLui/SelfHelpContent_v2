@@ -42,3 +42,4 @@
 
 * Submit an [idea or recommendation](https://github.com/microsoft/azuredatastudio/wiki/Submitting-Bugs-and-Suggestions) to improve Azure Data Studio
 
+ 
