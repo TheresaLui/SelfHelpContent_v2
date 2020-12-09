@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Azure Service Connections"
-	description="Issues related to service connection creation, permissions, user interface, usage of the connection types or any other guidances related to service connection"
-	infoBubbleText="Azure Pipelines issues related to Service Endpoints"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzure"
-	supportTopicIds="32742313"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of Azure Service Connections&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,vimalt"
+  selfhelptype="Generic"
+  supporttopicids="32742313"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinesazure"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure Service Connections
 
 ## **Recommended Steps**
@@ -38,3 +32,5 @@ Are you facing one of these common problems?
 * [Azure Resource Manager Service Connection](https://docs.microsoft.com/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
 * [Troubleshoot Azure Resource Manager service connections](https://docs.microsoft.com/azure/devops/pipelines/release/azure-rm-endpoint?view=azure-devops)
 * [Service Connections](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#use-a-service-connection)
+* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
