@@ -18,7 +18,6 @@
 
 ## **Recommended Documents**
 
-- [---](---)
 - [Introduction and overview of Azure DevOps Connector](https://docs.microsoft.com/connectors/visualstudioteamservices/)
 - [How to use the Azure DevOps connector to listen for events](https://www.serverlessnotes.com/docs/keep-your-team-connected-using-azure-devops-and-azure-logic-apps)
 - [Using Azure Logic Apps to create an Azure DevOps Bug WorkItem](https://stefanstranger.github.io/2020/06/05/UsingAzureLogicAppToCreateBugWorkItem/)
