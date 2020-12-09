@@ -1,19 +1,15 @@
 <properties
-	pageTitle="Creation  Issues\ARM  Deployment"
-	description="Creation  Issues\ARM  Deployment"
-	service="microsoft.ase"
-	resource="ase"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608419"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="7ca4d17c-f86c-4ee9-acc0-e4803279b2e5"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Creation Issues\ARM  Deployment&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608419"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="7ca4d17c-f86c-4ee9-acc0-e4803279b2e5"
+  ownershipid="Compute_AppService" />
 # Creation Issues\ARM  Deployment
 
 ## **Recommended documents**
