@@ -1,8 +1,8 @@
 <properties
     pageTitle="Upgrade API version recommendation"
     description="Return list of resources that do not currently use the recommended API version"
-	authors="spring-dev-team"
-    ms.author="spring-dev-team"
+	authors="liping-ms"
+    ms.author="springazure"
 	displayOrder="100"
     articleId="c421d51c-fb47-4b8b-8630-0f067e033fa1_public"
     selfHelpType="advisorRecommendationMetadata"
@@ -10,7 +10,7 @@
     ownershipId="DevDivAzServices_SpringCloud"
 />
 # Spring Cloud API Version Recommendation
---- 
+---
 {
 	"recommendationOfferingId": "9cb52795-75ca-46f7-acc0-e3213428dc2c",
 	"recommendationOfferingName": "Azure Spring Cloud",
@@ -27,7 +27,7 @@
 	"recommendationFriendlyName": "UpgradeSpringCloudAPI",
 	"recommendationMetadataState": "Active",
 	"owner": {
-		"email": "spring-dev-team@microsoft.com",
+		"email": "springazure@microsoft.com",
 		"icm": {
 			"routingId": "AZUREDISTRIBUTEDMANAGEDSERVICEFORSPRING\\AzDMSS-Triage",
 			"service": "Azure Spring Cloud",
@@ -56,7 +56,7 @@
 	],
 	"resourceMetadata": {
 		"action": {
-			"actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5115",
+			"actionId": "54fd58dd-340f-463f-9c61-1f7bd08690b4",
 			"actionType": "Blade",
 			"extensionName": "Microsoft_Spring_Cloud",
 			"bladeName": "VaultBlade",
