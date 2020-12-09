@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="JIT Policy doesn't seems to be configured"
-	  description="JIT Policy doesn't seems to be configured"
+	  pageTitle="JIT Policy doesnt seem to be configured"
+	  description="JIT Policy doesnt seem to be configured"
       service="Microsoft.Compute"
       resource="Microsoft.Compute/virtualMachines,Microsoft.Compute/virtualMachineScaleSets"
 	  authors="rimayber"
@@ -15,7 +15,7 @@
 	  ownershipId="Azure_Security_Security_Center"
 />
 
-# JIT Policy doesn't seems to be configured
+# JIT Policy doesnt seem to be configured
 
 <!--issueDescription-->
 

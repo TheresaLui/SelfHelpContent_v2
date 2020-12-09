@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-SE: Escalate using escalation process below:
+SE: Escalate this using Support Center escalation button.
 
 <!--/issueDescription-->
 
