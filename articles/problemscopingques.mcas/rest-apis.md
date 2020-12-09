@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_API"
 />
-# Integrations with MCAS -  REST APIs
+# Integrations with MCAS - REST APIs
 ---
 {
 				"$schema": "SelfHelpContent",
