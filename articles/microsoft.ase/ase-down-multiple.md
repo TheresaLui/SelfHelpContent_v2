@@ -1,19 +1,15 @@
 <properties
-	pageTitle="ASE Down\Multiple Web Apps Affected"
-	description="Networking\Multiple Web Apps Affected"
-	service="microsoft.ase"
-	resource="ase"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608428"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="c3206276-847f-493c-a54e-629cbc1b583c"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="ASE Down\Multiple Web Apps Affected&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608428"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="c3206276-847f-493c-a54e-629cbc1b583c"
+  ownershipid="Compute_AppService" />
 # ASE Down\Multiple Web Apps Affected
 
 ## **Recommended documents**
