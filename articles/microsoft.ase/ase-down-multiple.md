@@ -13,5 +13,6 @@
 # ASE Down\Multiple Web Apps Affected
 
 ## **Recommended documents**
+* [ASE V3 Networking](https://docs.microsoft.com/azure/app-service/environment/networking)
 * [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
 * [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support#change-the-egress-endpoint-for-your-ase)
