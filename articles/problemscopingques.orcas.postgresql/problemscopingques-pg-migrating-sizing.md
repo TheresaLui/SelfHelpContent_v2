@@ -1,22 +1,22 @@
 <properties
     pageTitle="Migrating to Azure"
     description="Migrating to Azure"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
+    authors="Joe Nelson"
+    ms.author="jonels"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639991, 32639996, 32780999, 32781000, 32781002, 32781003, 32731226"
-    productPesIds="16222,17067,17069,17068"
+    supportTopicIds="32731224"
+    productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
-    articleId="problemscopingques-pg-migrating-issuestools"
+    articleId="problemscopingques-pg-migrating-sizing"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Migrating to Azure - Issues with migration & Migration tools
+# Migrating to Azure - Choosing a server group size
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Migrating to Azure Issues",
+    "title": "Migrating to Azure - Choosing server group size",
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Azure Database for PostgreSQL Migrating to Azure Troubleshooter",
@@ -28,54 +28,45 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "displayLabel": "When did you begin planning your migration?",
+            "infoBalloonText": "Enter the approximate date.",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "problem_end_time",
+            "id": "server_size",
             "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
-            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "controlType": "textbox",
+            "displayLabel": "What is the size of the data in your source database server?",
+            "required": false
         },
         {
-            "id": "env_migrate_from",
+            "id": "server_ram",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the environment you are migrating your server from?",
+            "displayLabel": "How much RAM does your source database server have?",
             "required": false
         },
         {
-            "id": "server_type",
+            "id": "server_cores",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the server type/server version of your source server?",
+            "displayLabel": "How many CPU cores does your source database server have?",
             "required": false
         },
         {
-            "id": "server_size",
+            "id": "server_latency",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What is the size of your source database server?",
-            "required": false
-        },
-        {
-            "id": "tool_migrate",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "What is the tool you are using for migration?",
+            "displayLabel": "What is the average latency for typical queries on your source database server?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Problem description",
-            "watermarkText": "Please provide the repro steps and other information about your issue",
+            "displayLabel": "Workload",
+            "watermarkText": "Please describe your database workload and scaling needs",
             "required": true,
             "diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
