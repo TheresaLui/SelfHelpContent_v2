@@ -25,7 +25,7 @@
    {
     "id": "achieve_box",
     "order": 1,
-    "controlType": "textbox",
+    "controlType": "multilinetextbox",
     "displayLabel": "What are you trying to achieve?",
     "infoBalloonText": "If you need help to create a net new account in Partner Center, please check the <a href='https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account'>Create a Partner Center account</a> webpage. In case the issue persists please complete this ticket submission.",
     "required": true
