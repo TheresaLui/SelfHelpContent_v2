@@ -10,7 +10,7 @@
             resourceTags=""
             productPesIds=""
             cloudEnvironments="public, fairfax, usnat, ussec"
-            articleId="451d5f4f-7eaf-40ad-8e82-d533ff73c133"
+            articleId="dad1d37e-84a6-4dfe-bff6-f81a1fe6a43a"
             ownershipId="Centennial_Cloudnet_VirtualNetwork" />
 
 # [Networking] VNet - Unable to reach a port
