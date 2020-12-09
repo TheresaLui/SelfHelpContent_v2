@@ -29,4 +29,4 @@ Best Regards,<br>
 
 ## Recommended Documents
 
-1. [Permissions needed to configure JIT](https://docs.microsoft.com/en-us/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)
+1. [Permissions needed to configure JIT](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)
