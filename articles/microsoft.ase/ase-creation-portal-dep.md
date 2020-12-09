@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Creation  Issues\Portal Deployment"
-	description="Creation  Issues\Portal Deployment"
-	service="microsoft.ase"
-	resource="ase"
-	authors="cts-shrahman,shrahman"
-    ms.author="shrahman, curibe"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608429"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="2aca238a-96c5-4d78-bec2-6e193757c4b4"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Creation Issues\Portal Deployment&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="curibe,shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608429"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="2aca238a-96c5-4d78-bec2-6e193757c4b4"
+  ownershipid="Compute_AppService" />
 # Creation Issues\Portal Deployment
 
 
@@ -45,4 +40,3 @@ Once the ASE has been successfully created, you can configure the NSG and Route 
 * [Configure your App Service Environment with forced tunneling](https://docs.microsoft.com/azure/app-service/environment/forced-tunnel-support)<br>
 * [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
 * [Locking down an ASE](https://docs.microsoft.com/azure/app-service/environment/firewall-integration)
-
