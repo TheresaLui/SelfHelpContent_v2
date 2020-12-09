@@ -68,19 +68,16 @@
 
 * **Error:** "Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues."
 
-  **Solution**: RPC errors usually occur for the following reasons:
+  **Solutions**: RPC errors usually occur for the following reasons:
+   * The communication between the driver and executor is lost. Executor is not able to send heartbeats within the threshold time frame, which can happen either if the executor is overwhelmed with memory/OOM errors, or too many network hits are making executor too busy in GC and it can't respond to driver.
+   In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you what error was happening on the executor level.
+   If the current cluster is really small, use a bigger cluster.
 
-  1. The communication between the driver and executor is lost. Executor is not able to send heartbeats within the threshold time frame, which can happen either if the executor is overwhelmed with memory/OOM errors, or too many network hits are making executor too busy in GC and it can't respond to driver.
+  * Having too many partitions - small files can cause an RPC error. Check the used partition strategy.
 
-     In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you what error was happening on the executor level.
+  * Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
 
-     If the current cluster is really small, use a bigger cluster.
-
-  2. Having too many partitions - small files can cause an RPC error. Check the used partition strategy.
-
-  3. Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
-
-* Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
+  * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
 	|     Name                                                             |     Source                                |     Destination                                                                                                                                                                                                                                 |     Protocol:Port    |     Purpose                                                                                                   |
 	|----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------|
