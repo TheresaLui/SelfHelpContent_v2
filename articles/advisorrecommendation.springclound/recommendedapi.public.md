@@ -19,7 +19,7 @@
    "$schema":"AdvisorRecommendation",
    "recommendationTypeId":"3c7ddb62-d514-4794-ba90-8ce5275a7a81",
    "dataSourceMetadata":{
-      "streamNamespace":"cluster('https://springcloud.eastus2.kusto.windows.net').database('dogfood').GetAzureAdvisorRecommendationReport",
+      "streamNamespace":"cluster('https://springcloud.eastus2.kusto.windows.net').database('prod').GetAzureAdvisorRecommendationReport",
       "dataSource":"Kusto",
       "refreshInterval":"0.12:00:00"
    },
