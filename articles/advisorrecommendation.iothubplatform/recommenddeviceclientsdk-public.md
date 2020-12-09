@@ -19,7 +19,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "06:00:00"
   },
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Devices/IotHubs",
   "recommendationFriendlyName": "UpgradeDeviceClientSdk",
