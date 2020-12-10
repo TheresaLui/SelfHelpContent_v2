@@ -39,7 +39,7 @@
   "description": "Upgrade to a supported version of the SDK",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
   "potentialBenefits": "Ensure business continuity with supported SDK for your devices",
-  "supportedSDKLanguages": [],
+  "supportedSDKLanguages": ["Java", "C", "C#", "Python", "Node"],
   "actions": [
     {
       "actionId": "6d00a3ba-5303-4d23-bb23-a8851f6c1340",
