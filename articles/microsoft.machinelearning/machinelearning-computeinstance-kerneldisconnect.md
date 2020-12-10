@@ -16,6 +16,7 @@ This section helps with issues connecting to Compute instance through Jupyter, J
 
 ## **Recommended Steps**
 
-- If compute instance is created behind VNET, make sure you have NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning
-- If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains
-- Try restarting the Compute Instance and then rerunning the notebook
+- If compute instance is created behind a VNET, make sure you have a NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. 
+- If you are behind a proxy, ensure that web socket communication is not disabled for azureml.net and azureml.ms domains. 
+- Try restarting the Compute Instance and then rerunning the notebook. 
+- For details, see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
