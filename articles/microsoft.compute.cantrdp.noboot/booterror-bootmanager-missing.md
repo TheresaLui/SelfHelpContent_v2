@@ -22,7 +22,7 @@
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **BOOTMGR is missing Press Ctrl+Alt+Del to restart**. If you encounter this error message, it means that the OS boot process could not locate an active system partition. Alternatively, it could mean that there is a missing reference in the Boot Configuration Data (BCD) store, which is preventing it from locating the Windows partition. 
 <!--/issueDescription-->
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **BOOTMGR is missing Press Ctrl+Alt+Del to restart**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **BOOTMGR is missing Press Ctrl+Alt+Del to restart**. This can also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
