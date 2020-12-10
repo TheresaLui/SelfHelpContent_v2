@@ -40,7 +40,7 @@
    "version": 2.0,
    "learnMoreLink": "https://docs.microsoft.com/azure/spring-cloud",
    "description": "Update Azure Spring Cloud API Version",
-   "longDescription": "We have identified API calls from outdated Azure Spring Cloud API for resources under this subscription. We recommend switching to the latest Spring Cloud API versions. You need to update your existing code to use the latest API version. Also, you need to upgrade your Azure SDK and Azure CLI to the latest version. This ensures you receive the latest features and performance improvements.",
+   "longDescription": "We have identified API calls from outdated Azure Spring Cloud API for resources under this subscription. We recommend switching to the latest Spring Cloud API version. You need to update your existing code to use the latest API version. Also, you need to upgrade your Azure SDK and Azure CLI to the latest version. This ensures you receive the latest features and performance improvements.",
    "potentialBenefits": "Latest Azure Spring Cloud API contain latest fixes, performance improvements, and new feature capabilities.",
    "supportedSDKLanguages": [".NET", "Java", "JavaScript/TypeScript", "Python", "C++", "Embedded C", "Android", "IOS"],
    "actions": [{
