@@ -19,6 +19,10 @@
 
 Geo-redundant backups can be configured at the time an Azure Database for MySQL server is created. If configured, the last known good backup is geo-redundantly store and a new server can be created in a different Azure region. Geo-restore does not allow you to chose a point in time, but rather always restores to the last known good state. Restoring individual databases within a server is not supported.
 
+## Moving from locally redundant backup storage to geo-redundant storage
+Configuring locally redundant or geo-redundant storage for backup is only allowed during server create. Once the server is provisioned, you cannot change the backup storage redundancy option. The only way to move an existing server from locally redundant storage is by recreating a server and migrating the data using [dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore) from old server to new server. Support team cannot migrate the server and migration has to performed by end user using [dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore).
+
+
 ## **Recommended Steps**
 
 * You will not be able to use Geo-restore if Geo-redundancy is not configured on the source server. Check if your server has Geo-redundancy enabled by going to the **Pricing Tier** blade in the portal.

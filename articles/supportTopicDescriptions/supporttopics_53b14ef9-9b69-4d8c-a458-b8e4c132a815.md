@@ -329,6 +329,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "784e0367-9858-2817-8eda-e4be198d0a75",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to Availability Groups and Listener and load balancer or SQL Failover Clustered Instance (FCI) after you have set up AG or L",
+      "searchTags": "connection to listener;load balancer configuration;cannot connect to ag;Listener configuration;ILB",
+      "category": "Connection-SQLAG",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7b90261e-1392-3473-dfb0-566419a1e416",
       "longDescription": "",
       "shortDescription": "Questions or issues on Database Mail, a feature to send e-mail messages to database users, SQL agent Job failures",
@@ -635,7 +643,7 @@
     {
       "id": "f35e96fa-c01e-c7dd-1181-28818c4bd601",
       "longDescription": "",
-      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own Licence and Azure Hyrid Benefit)",
+      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own License and Azure Hybrid Benefit)",
       "searchTags": "licensing;licensing model;AHUB;change licensing;PAYG;BYOL",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "TRUE"

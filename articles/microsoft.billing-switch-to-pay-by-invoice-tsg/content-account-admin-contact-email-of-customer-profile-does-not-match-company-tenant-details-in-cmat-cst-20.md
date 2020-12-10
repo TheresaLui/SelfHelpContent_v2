@@ -22,7 +22,7 @@ Seek approval from a Global Administrator of the Tenant to validate if the Subsc
 Additionally, obtain legal document to validate the company details. 
 For all businesses except for individuals, we require the below documents:
 
-1.	A Certificate of Incorporation signed by the company?s legal representatives.
+1.	A Certificate of Incorporation signed by the company's legal representatives.
 2.	Any Government issued documents having the company name and address. (i.e., Tax Certification) Example: Employer Identification Number (EIN) Letter Confirmation from Internal Revenue Service (IRS)
 3.	Company Registration form signed and issued by the government.
 

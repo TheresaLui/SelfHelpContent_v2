@@ -10,7 +10,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729585,32729584,32729583"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	 ownershipId="AzureMonitoring_ApplicationInsights"
 />
  

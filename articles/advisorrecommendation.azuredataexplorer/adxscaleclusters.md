@@ -44,7 +44,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
+  "learnMoreLink": "https://aka.ms/adxskuperformance",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize performance",

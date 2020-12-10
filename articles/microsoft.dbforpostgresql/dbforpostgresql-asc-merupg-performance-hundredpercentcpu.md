@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-merupg-performance-hundredpercentcpu"
 	diagnosticScenario="OrcasMeruPGHundredPercentCPUInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds="32639959, 32639953"
+	supportTopicIds="32639959, 32639953, 32780889, 32780838"
 	resourceTags=""
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"

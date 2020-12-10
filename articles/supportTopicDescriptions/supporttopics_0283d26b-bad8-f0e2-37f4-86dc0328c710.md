@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5149d3e9-6097-bc64-3746-8495ccee7a76",
+      "longDescription": "",
+      "shortDescription": "Issues with certificate download or exporting pem or pfx file",
+      "searchTags": "export certificate;download;export;pem;pfx",
+      "category": "How to questions about export",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5792b030-de7c-85a3-d058-a9ece7e18ce7",
       "longDescription": "",
       "shortDescription": "Create and manage Azure Key Vault, configure settings, guidelines for throttling and best practices",
@@ -168,7 +176,7 @@
     {
       "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
       "longDescription": "",
-      "shortDescription": "Issues with key vault access control policies",
+      "shortDescription": "Issues with configuring key vault access control policies and RBAC role assignments",
       "searchTags": "access denied;access;policy;security group",
       "category": "Key Vault access policy issues ",
       "useInDiagnoseAndSolve": "true"
@@ -355,6 +363,14 @@
       "shortDescription": "Integrate Azure Key Vault with SQL",
       "searchTags": "Azure;Integrate;SQL",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d4cd7634-af53-a159-394c-3c0ce28bae07",
+      "longDescription": "",
+      "shortDescription": "How to respond to Azure Defender for Key Vault alerts",
+      "searchTags": "unusual;alert;Defender;key vault alert",
+      "category": "Remediation steps for Azure alerts",
       "useInDiagnoseAndSolve": "true"
     },
     {

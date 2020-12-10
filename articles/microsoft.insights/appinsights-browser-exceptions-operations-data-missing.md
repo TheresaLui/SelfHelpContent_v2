@@ -10,7 +10,7 @@
     articleId="appinsights-browser-exceptions-operations-data-missing"
     productPesIds="15693"
     supportTopicIds="32729580, 32729581"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Browser Exceptions or Operations data is incorrect or missing on Failures screen

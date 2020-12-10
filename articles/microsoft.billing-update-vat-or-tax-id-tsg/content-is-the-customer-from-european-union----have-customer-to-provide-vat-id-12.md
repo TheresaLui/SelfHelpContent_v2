@@ -21,7 +21,7 @@
 2. Now we need the customer to provide the correct VAT ID
 3. Call the customer and have them email you the form and copy the case mail. 
 4. Validate VAT ID accessing [this link](https://ec.europa.eu/taxation_customs/vies/vieshome.do) 
-5. Validate that the VAT information matches the account details
+5. Validate that the VAT information matches the account details in CMAT
 
 # Recommended Documents
 

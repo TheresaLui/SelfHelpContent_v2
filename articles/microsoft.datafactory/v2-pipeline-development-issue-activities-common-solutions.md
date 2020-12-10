@@ -12,6 +12,10 @@
   ownershipid="AzureData_DataFactory" />
 # Azure Data Factory: V2 - Pipeline Development Issue - Activities Common Solutions
 
+### **Common Issues**
+
+* [Parameterize Linked Services](https://docs.microsoft.com/azure/data-factory/parameterize-linked-services#supported-data-stores)<br>
+
 ## **Recommended Documents**
 
 * [Pipelines and activities in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)<br>
@@ -19,4 +23,3 @@
 * [Datasets in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services)<br>
 * [Integration runtime in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime)<br>
 * [Transform data in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/transform-data)
-
