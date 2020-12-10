@@ -54,8 +54,8 @@
       "action": {
          "actionId": "54fd58dd-340f-463f-9c61-1f7bd08690b4",
          "actionType": "Blade",
-         "extensionName": "Microsoft_Spring_Cloud",
-         "bladeName": "ResourceOverviewBlade",
+         "extensionName": "AppPlatformExtension",
+         "bladeName": "ApplicationMenuBlade",
          "metadata": {
             "id": "{resourceId}"
          },
