@@ -19,6 +19,6 @@
 ## **Recommended Documents**
 
 - [Introduction and overview of the Azure Automation Connector](https://docs.microsoft.com/connectors/azureautomation/)
-- [Using Logic Apps, to trigger an Azure runbook with an Office365 Calendar Appointment](https://www.4bes.nl/2019/02/18/using-logic-apps-trigger-an-azure-runbook-with-an-office365-calendar-appointment/)
+- [Using Logic Apps to trigger an Azure runbook with an Office365 Calendar Appointment](https://www.4bes.nl/2019/02/18/using-logic-apps-trigger-an-azure-runbook-with-an-office365-calendar-appointment/)
 - [Using Azure Logic App and an Automation Runbook to execute a long-running SQL Stored Procedure](https://connectedcircuits.blog/2018/11/25/using-azure-logic-app-and-an-automation-runbook-to-execute-a-long-running-sql-stored-procedure/)
 - [Integrating Azure Automation Runbook Output with Logic Apps](https://singhkays.medium.com/integrating-azure-automation-runbook-output-with-logic-apps-ef76d1bd76f2)
