@@ -45,7 +45,7 @@
                     "id": "AAD_role_of_the_connecting_user",
                     "order": 5,
                     "controlType": "textbox",
-                    "displayLabel": "In case of issues in connecing apps, please add the AAD role of the user that tries to connect the app",
+                    "displayLabel": "In case of issues in connecting apps, please add the AAD role of the user that tries to connect the app",
                     "required": false
 				},
 				{
