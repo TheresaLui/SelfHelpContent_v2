@@ -25,14 +25,14 @@ Autoscale automatically scales the RU/s of your database or container between th
 * You can enable autoscale on existing databases and containers only from the Azure portal. 
 * You can create new databases or containers with autoscale using the Azure portal, Azure Resource Manager template, Azure Cosmos DB .NET V3.9+ and Java V4+ SDK. 
 
-Support for Powershell, CLI and other SDK is planned, but not yet available
+Support for PowerShell, CLI, and other SDK is planned, but not yet available
 
 
 ### **Rate limiting: Increase RU/s**
-You may have not provisioned enough RUs to meet your per-second request rates. The throughput (RUs) can be increased via the Azure portal, ARM template, PowerShell, Azure CLI or the Cosmos DB SDK.
+You may not have provisioned enough RUs to meet your per-second request rates. The throughput (RUs) can be increased via the Azure portal, ARM template, PowerShell, Azure CLI or the Cosmos DB SDK.
 
 * [Update throughput (RU/s) using ARM templates](https://docs.microsoft.com/azure/cosmos-db/resource-manager-samples)
-* [Update throughput (RU/s) using PowerShell](https://docs.microsoft.com/azure/cosmos-db/scripts/powershell/sql/ps-sql-ru-update?toc=%2fpowershell%2fmodule%2ftoc.json)
+* [Update throughput (RU/s) using PowerShell](https://docs.microsoft.com/azure/cosmos-db/scripts/powershell/sql/throughput)
 * [Update throughput (RU/s) using Azure CLI](https://docs.microsoft.com/azure/cosmos-db/scripts/scale-collection-throughput-cli?toc=%2fcli%2fazure%2ftoc.json)
 * [Update throughput (RU/s using .NET SDK)](https://docs.microsoft.com/azure/cosmos-db/set-throughput#update-throughput-on-a-database-or-a-container)
 
@@ -42,23 +42,23 @@ If your application is not latency sensitive, you can keep the RUs fixed and inc
 ```csharp
 
 // update retries (default is 10)
-RetryOptions retryOptions = new RetryOptions
+CosmosClientOptions options = new CosmosClientOptions
 {
-    MaxRetryAttemptsOnThrottledRequests = 15
+    MaxRetryAttemptsOnRateLimited = 15
 };
 
-ConnectionPolicy connectionPolicy = new ConnectionPolicy
-{
-    ConnectionMode = ConnectionMode.Direct,
-    ConnectionProtocol = Protocol.Tcp,
-    RetryOptions = retryOptions
-};
-
-DocumentClient client = new DocumentClient(new Uri(endpoint), key, connectionPolicy);
-
-client.OpenAsync();
+CosmosClient client = new CosmosClient(endpoint, key, options);
 
 ```
+
+### **Rate limiting: Extract network diagnostic information**
+The SDK provides detailed information on network latency on every request. You can obtain these details from:
+
+* The *RequestDiagnosticsString* property on responses in .NET V2 SDK when using Direct connectivity mode.
+* Calling `ToString()` on the *Diagnostics* property on responses and exceptions in .NET V3 SDK.
+* The *getDiagnostics()* method on responses and exceptions in Java V4 SDK.
+
+This valuable information will show which are the requests being done, and the network latency for each.
 
 ### **Rate limiting: Partition Key Choice**  
 If your throughput utilization is low overall, but you still see rate limiting, you may have to review your partition key choice for skew. You can monitor your Azure Cosmos DB containers in the Azure portal to see if your requests are skewed to one or few partitions. If this is the cause of the rate limiting, you can migrate to a new container with near zero downtime using Change Feed.
@@ -98,15 +98,15 @@ If your RU consumption is predominantly from reads, you may be able to reduce RU
 ### **Why am I getting throttled or seeing 429s with autoscale?**  
 It is possible to see 429s in two scenarios. 
 
-First, if you use more than the max RU/s, the service will throttle requests accordingly. 
+* First, if you use more than the max RU/s, the service will throttle requests accordingly. 
 
-Second, you'll see 492s if you have a hot partition. Hot partitions occur when you have logical partition key value that has a disproportionately higher amount of requests compared to other partition key values. For example, if you partition by "companyName", and most your operations only write or query on one specific company, "Contoso" there is a hot partition on the "Contoso" partition key value. 
+* Second, you'll see 492s if you have a hot partition. Hot partitions occur when you have logical partition key value that has a disproportionately higher amount of requests compared to other partition key values. For example, if you partition by "companyName", and most pf your operations only write or query on one specific company, for example "Contoso", there is a hot partition on the "Contoso" partition key value. 
 
-To see if you have a hot partition, use [Azure Monitor metrics](https://docs.microsoft.com/azure/cosmos-db/monitor-normalized-request-units) to see normalized utilization by physical partition. If one or a few physical partitions consistently have much higher utilization than others, there is a hot partition. 
+   To see if you have a hot partition, use [Azure Monitor metrics](https://docs.microsoft.com/azure/cosmos-db/monitor-normalized-request-units) to see normalized utilization by physical partition. If one or a few physical partitions consistently have much higher utilization than others, there is a hot partition. 
 
-You will see 429s if the underlying physical partition a logical partition key resides in exceeds 100% normalized utilization. 
+   You will see 429s if the underlying physical partition a logical partition key resides in exceeds 100% normalized utilization. 
 
- As a best practice, to avoid hot partitions, [choose a good partition key](https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey) that results in an even distribution of both storage and throughput. If you need to change your partition key, see this [article](https://devblogs.microsoft.com/cosmosdb/how-to-change-your-partition-key/) for instructions.
+    As a best practice, to avoid hot partitions, [choose a good partition key](https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey) that results in an even distribution of both storage and throughput. If you need to change your partition key, see this [article](https://devblogs.microsoft.com/cosmosdb/how-to-change-your-partition-key/) for instructions.
 
 ## **Recommended Documents**
 

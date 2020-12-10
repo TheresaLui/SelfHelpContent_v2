@@ -1,19 +1,15 @@
 <properties
-	pageTitle="Unexpectedly disconnected from IoT Hub"
-	description="Unexpectedly disconnected from IoT Hub"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian"
-	ms.author="jlian"
-	selfHelpType="generic"
-	supportTopicIds="32630568"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
-	articleId="18d13f56-abed-4610-a8ce-0d9dd58d78a9"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="Unexpectedly disconnected from IoT Hub"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="jlian,yiygu"
+  selfhelptype="Generic"
+  supporttopicids="32630568"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="18d13f56-abed-4610-a8ce-0d9dd58d78a9"
+  ownershipid="AzureIot_IotHub" />
 # Unexpectedly disconnected from IoT Hub
 
 ## **Recommended Steps**
@@ -29,6 +25,18 @@
    * [500008 GenericTimeout](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-error-500xxx-internal-errors)
    
 1. If you have access to the device either physically or remotely (like SSH), see if you can get the logs from the device to find out more. These logs will also help our support team to help you troubleshoot.
+
+1. To quickly and reliably keep track of device connection state, we recommend subscribing to the device connection events on Event Grid: 
+
+ 
+
+   * [IoT Hub and Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid#event-types)
+
+   * [Order device connection events from Azure IoT Hub using Azure Cosmos DB](https://docs.microsoft.com/azure/iot-hub/iot-hub-how-to-order-connection-state-events) 
+
+ 
+
+**Note**: The `connectionState` field in IoT Hub identity registry is only for debugging and development purposes: [Understanding the IoT Hub device registry](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#device-heartbeat) 
 
 ## **Recommended Documents**
 
