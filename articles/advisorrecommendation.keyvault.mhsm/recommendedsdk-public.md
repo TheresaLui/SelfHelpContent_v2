@@ -23,7 +23,7 @@
 	"recommendationImpact": "Medium",
 	"recommendationResourceType": "Microsoft.KeyVault/managedHsms",
 	"recommendationFriendlyName": "UpgradeKeyVaultMHSMSDK",
-	"recommendationMetadataState": "Disabled",
+	"recommendationMetadataState": "Active",
 	"owner": {
 		"email": "mhsmdevs@microsoft.com",
 		"icm": {
