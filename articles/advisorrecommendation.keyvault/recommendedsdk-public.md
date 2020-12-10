@@ -33,7 +33,7 @@
 		},
 		"serviceTreeId": "51c86b53-37ee-4e99-9747-89d133719ac4"
 	},
-	"version": 1,
+	"version": 2,
 	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/general/client-libraries",
 	"description": "Update Key Vault SDK Version",
 	"longDescription": "New Key Vault Client Libraries are split to keys, secrets, and certificates SDKs, which are integrated with recommended Azure Identity library to provide seamless authentication to Key Vault across all languages and environments. It also contains several performance fixes to issues reported by customers and proactively identified through our QA process.<br><br>**PLEASE DISMISS:**<br>If Key Vault is integrated with Azure Storage, Disk or other Azure services which can use old Key Vault SDK and when all your current custom applications are using .NET SDK 4.0 or above.",
