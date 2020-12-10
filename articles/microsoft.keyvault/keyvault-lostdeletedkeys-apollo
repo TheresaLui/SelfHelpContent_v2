@@ -14,8 +14,8 @@
 
 # Lost or Deleted Keys and Secrets in Key Vault
 
-## Recovering lost or deleted keys and secrets in Key Vault 
 :::Section Recommended Solution:::
+## Recovering lost or deleted keys and secrets in Key Vault
 
 <Insight>
 	<symptomId>KeyVaultUnauthorizedInsight,KeyVaultThrottledInsight,KeyVaultUnauthorizedData,KeyVaultThrottledData,KeyVaultVaultNotFoundInsight</symptomId>
