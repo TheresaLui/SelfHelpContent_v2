@@ -25,7 +25,8 @@
 <br>There is a `_self` parameter that is not getting updated with the new `collectionid`. This can happen while the new collection is getting created. After the collection create has succeeded, the `_self tag` is populated.
 
 * Saving changes to my indexing policy in portal appears to do nothing
-<br>The properties *kind*, *dataType*, and *precision* are no longer necessary to explicitly set and you can omit them from your indexing policy. [Indexing policy examples](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy#indexing-policy-examples)  
+<br>The properties `kind`, `dataType`, and `precision` are no longer necessary to explicitly set and you can omit them from your indexing policy. 
+See [indexing policy examples](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy#indexing-policy-examples).  
 
 * Slow performance issues
 <br>Ensure that all JSON paths used in queries are included in the index policy for faster reads
@@ -35,7 +36,7 @@
 ## **Recommended Documents**
 
 [Indexing in Azure Cosmos DB - Overview](https://docs.microsoft.com/azure/cosmos-db/index-overview)
-<br>Explains how Azure Cosmos DB indexes data and how it uses indexes to improve query performance. We recommend reading that section before exploring how to customize indexing policies.  
+<br>Learn how Azure Cosmos DB indexes data and how it uses indexes to improve query performance. We recommend reading this section before you explore how to customize indexing policies.  
 
 [Indexing policies in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/index-policy)
 <br>In some situations, you may want to override this automatic behavior to better suit your requirements. You can customize a container's indexing policy by setting its indexing mode, and you can include or exclude property paths.  
