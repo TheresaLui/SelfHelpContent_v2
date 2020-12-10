@@ -2,9 +2,9 @@
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
     ms.author="srthatip"
-    articleId="7c83695a-3fa9-4668-9080-85151f5ab7be_public"
+    articleId="7c83695a-3fa9-4668-9080-85151f5ab7be_fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public,usnat,ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_SynapseAnalytics"
 />
 # SynapseManagementClient SDK Version Recommendation
@@ -15,7 +15,7 @@
 	"$schema": "AdvisorRecommendation",
 	"recommendationTypeId": "7c83695a-3fa9-4668-9080-85151f5ab7be",
 	"dataSourceMetadata": {
-		"streamNamespace": "cluster('https://analytics365prod.kusto.windows.net').database('Analytics365PROD').synapse_advisor_SynapseManagementClientSdk",
+		"streamNamespace": "cluster('analytics365prod.usgovvirginia.kusto.usgovcloudapi.net').database('Analytics365PROD').synapse_advisor_SynapseManagementClientSdk",
 		"dataSource": "Kusto",
 		"refreshInterval": "0.12:00:00"
 	},
@@ -33,7 +33,7 @@
 		},
 		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
 	},
-	"version": 6.0,
+	"version": 5.0,
 	"learnMoreLink": "https://aka.ms/UpgradeSynapseManagementClientSDK",
 	"description": "Update SynapseManagementClient SDK Version",
 	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",

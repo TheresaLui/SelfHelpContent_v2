@@ -3,9 +3,9 @@
     description="Enable autoscale feature on spark compute"
     authors="srthatip"
     ms.author="srthatip"
-    articleId="00b1ef72-4d0f-4452-a6a8-1df5397172d6_public"
+    articleId="00b1ef72-4d0f-4452-a6a8-1df5397172d6_fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_SynapseAnalytics"
 />
 
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "00b1ef72-4d0f-4452-a6a8-1df5397172d6",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('analytics365prod.kusto.windows.net').database('Analytics365PROD').synapse_advisor_EnableAutoScale",
+    "streamNamespace": "cluster('analytics365prod.usgovvirginia.kusto.usgovcloudapi.net').database('Analytics365PROD').synapse_advisor_EnableAutoScale",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -36,7 +36,7 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 3.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/EnableSynapseSparkComputeAutoScaleGuidance",
   "description": "Consider enabling autoscale feature on spark compute.",
   "longDescription": "Apache Spark for Azure Synapse Analytics pool's Autoscale feature automatically scales the number of nodes in a cluster instance up and down. During the creation of a new Apache Spark for Azure Synapse Analytics pool, a minimum and maximum number of nodes can be set when Autoscale is selected. Autoscale then monitors the resource requirements of the load and scales the number of nodes up or down. There's no additional charge for this feature.",

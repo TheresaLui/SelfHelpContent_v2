@@ -3,9 +3,9 @@
     description="Enable autopause feature on spark compute"
     authors="srthatip"
     ms.author="srthatip"
-    articleId="afdf4c1a-e46b-4817-a5d6-4b9909f58e2a_public"
+    articleId="afdf4c1a-e46b-4817-a5d6-4b9909f58e2a_fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_SynapseAnalytics"
 />
 
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "afdf4c1a-e46b-4817-a5d6-4b9909f58e2a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('analytics365prod.kusto.windows.net').database('Analytics365PROD').synapse_advisor_EnableAutoPause",
+    "streamNamespace": "cluster('analytics365prod.usgovvirginia.kusto.usgovcloudapi.net').database('Analytics365PROD').synapse_advisor_EnableAutoPause",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -36,7 +36,7 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 3.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/EnableSynapseSparkComputeAutoPauseGuidance",
   "description": "Consider enabling autopause feature on spark compute.",
   "longDescription": "Auto-pause releases and shuts down unused compute resources after a set idle period of inactivity",
