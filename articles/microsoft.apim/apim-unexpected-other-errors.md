@@ -22,3 +22,9 @@ API Management (APIM) is a way to create consistent and modern API gateways for 
 * [API Management - Diagnostic Logs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#diagnostic-logs)<br>
 * [Error handling in API Management policies](https://docs.microsoft.com/azure/api-management/api-management-error-handling-policies)
 * [Pre-defined Errors for built-in steps during API call execution](https://docs.microsoft.com/azure/api-management/api-management-error-handling-policies#predefined-errors-for-built-in-steps)
+
+### **Troubleshooting**
+
+[Azure API Management Troubleshooting Series](https://docs.microsoft.com/troubleshoot/azure/general/apim-troubleshooting-series#summary)
+
+
