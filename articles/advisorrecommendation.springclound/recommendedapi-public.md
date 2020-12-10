@@ -42,7 +42,6 @@
    "description": "Update Azure Spring Cloud API Version",
    "longDescription": "We have identified API calls from outdated Azure Spring Cloud API for resources under this subscription. We recommend switching to the latest Spring Cloud API version. You need to update your existing code to use the latest API version. Also, you need to upgrade your Azure SDK and Azure CLI to the latest version. This ensures you receive the latest features and performance improvements.",
    "potentialBenefits": "Latest Azure Spring Cloud API contain latest fixes, performance improvements, and new feature capabilities.",
-   "supportedSDKLanguages": [".NET", "Java", "JavaScript/TypeScript", "Python", "C++", "Embedded C", "Android", "IOS"],
    "actions": [{
          "actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
          "description": "Upgrade your Azure Spring Cloud API",
@@ -55,7 +54,7 @@
       "actionId": "54fd58dd-340f-463f-9c61-1f7bd08690b4",
       "actionType": "Blade",
       "extensionName": "AppPlatformExtension",
-      "bladeName": "ApplicationMenuBlade",
+      "bladeName": "ResourceOverviewBlade",
       "metadata": {
          "id": "{resourceId}"
          }
