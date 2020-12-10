@@ -21,4 +21,4 @@
 - [Introduction and overview of Azure Sentinel Connector](https://www.maestralsolutions.com/introduction-to-microsoft-azure-sentinel/)
 - [How to connect Data Sources to Azure Sentinel](https://docs.microsoft.com/azure/sentinel/connect-data-sources)
 - [Connector reference for Azure Sentinel](https://docs.microsoft.com/connectors/azuresentinel/)
-- [How to setup a global email subscription for Sentinel incidents](https://azurecloudai.blog/2020/09/23/sentinel-email-notification-logic-app/)
+- [How to set up a global email subscription for Sentinel incidents](https://azurecloudai.blog/2020/09/23/sentinel-email-notification-logic-app/)
