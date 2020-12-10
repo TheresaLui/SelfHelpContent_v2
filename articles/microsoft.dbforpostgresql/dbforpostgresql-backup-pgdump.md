@@ -7,7 +7,7 @@
     displayOrder="70"
     articleId="dbforpostgresql-backup-pgdump.md"
     selfHelpType="resource"
-    supportTopicIds="32731216"
+    supportTopicIds="32731216, 32780986"
     resourceTags=""
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"

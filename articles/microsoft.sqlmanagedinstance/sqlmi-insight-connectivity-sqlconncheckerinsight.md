@@ -60,3 +60,5 @@ This PowerShell script is run from the client machine where the error is occurri
  The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. </li><br>
 <li> Check if the tool outputted any recommended action based on test results.</li><br>
 </ol>
+
+More details can be found at https://github.com/Azure/SQL-Connectivity-Checker.
