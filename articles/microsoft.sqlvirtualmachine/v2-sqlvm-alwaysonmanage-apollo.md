@@ -8,7 +8,7 @@
   resourcetags="windowssql"
   productpesids="14745,16342"
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
-  articleid="479bfcb0-d975-4810-b14e-1efc25532e7e"
+  articleid="57699e06-7ee3-4cf8-abad-744468c89566"
   ownershipid="AzureData_AzureSQLVM" />
   
 # Always On Availability Groups - Failure,Failover, Sync issues
