@@ -3,27 +3,15 @@
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="amamun,babarmav"
-  selfhelptype="Apollo"
-  supporttopicids="227b3b98-f14f-16d0-dae0-9ed1d8509729"
+  selfhelptype="Generic"
+  supporttopicids="32740064"
   resourcetags="windowssql"
   productpesids="14745,16342"
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="479bfcb0-d975-4810-b14e-1efc25532e7e"
   ownershipid="AzureData_AzureSQLVM" />
-  
 # Always On Availability Groups - Failure,Failover, Sync issues
 
-:::Section Metrics and Diagnostics:::
-
-## Resolve issues with desired region or VM size is unavailable
-
-<Insight>
-    <symptomId>SqlVmHADRPortalInsight</symptomId>
-    <executionText>We are running a few performance checks on your VM</executionText>
-    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-    <noResultText>No issues found</noResultText>
-    <additionalInputsReq>true</additionalInputsReq>
-</Insight>
 
 ## **Recommended Steps**
 
