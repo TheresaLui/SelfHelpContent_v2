@@ -99,7 +99,7 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 This can happen if the following conditions are present: 
 - There is significant disk IO [throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM to avoid IO throttling. 
 - The Storage Spaces property `AutomaticClusteringEnabled` is set to `True` **for an AG Environment**. Change it to `False.` 
-- Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244(v=ws.11)%23to-run-the-validate-a-configuration-wizard) **with Storage option**
+- Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244%28v=ws.11%29#to-run-the-validate-a-configuration-wizard) **with Storage option**
 
 ### **AG DB log file unable to shrink or is growing** 
 - Review  [this article](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability) to understand and manage the AG database log file.
