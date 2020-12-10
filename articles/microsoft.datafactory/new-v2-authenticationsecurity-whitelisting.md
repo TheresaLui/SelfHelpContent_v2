@@ -10,29 +10,23 @@
   ownershipid="AzureData_DataFactory" />
 # IP Whitelisting and Firewall Configurations for Self-hosted Integration Runtime
 
+* On December 8, 2020, some customers received notification about adding new IP addresses of Azure Integration Runtime in the specific Azure region. Starting January 15, 2021, these IP addresses will be available for use by Azure Integration Runtime.<br>
+
+   These new IP addresses will have no impact and require no action for customers who:
+   * Have no inbound blocking rules in resources that only allow IP addresses of Azure Integration Runtime in specific Azure Region
+   * Use service tags in these blocking rules 
+
+   To learn more, see [how to configure Azure Integration Runtime IP addresses](https://docs.microsoft.com/azure/data-factory/azure-integration-
+
+* On October 13, 2020, some customers received notification about new IP ranges being added on multiple regions as part of ADF service growth. Starting November 8, 2020, Azure Data Factory service began using these IP ranges.<br> 
+
+   Customers who use firewall rules based on service tags or FQDNs will not have to update their configuration if they have custom firewall **outbound rules** that are based on IP addresses.
+
+   If you have a Self-Hosted IR or an SSIS IR configured before October 13, 2020---configured on-premise or on an Azure virtual private network---make sure to review our [Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#receiving-email-to-update-the-network-configuration-to-allow-communication-with-new-ip-addresses).
+
 ## **Recommended Documents**
 
 * Hybrid Scenarios Security [Overview](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#hybrid-scenarios) <br>
 * Firewall Configurations and Allow list IP Addresses: <br>
   * [For on-prem/private network](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-requirements-for-on-premisesprivate-network) <br>
   * [In data store](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#ip-configurations-and-whitelisting-in-data-stores) <br><br>
-
-
-### **Note**
-
-1. 
-On December 8th 2020 some customers might have received a notification about adding new IP addresses of Azure Integration Runtime in the specific Azure region.
-
-Starting January 15th 2021 the new IP addresses will start being used by Azure Integration Runtime.<br>
-
-If customers don't have any inbound blocking rules in resources that only allow IP addresses of Azure Integration Runtime in specific Azure Region or customers use service tag in these blocking rules, then the new IP addresses have no impact on their businesses, and they don’t need to take any actions.
-
-You can learn more about how to configure Azure Integration Runtime IP addresses from [more details](https://docs.microsoft.com/azure/data-factory/azure-integration-runtime-ip-addresses).
-
-2. 
-
-On October 13th 2020 some customers might have received a notification about new IP ranges being added on multiple regions as part of ADF service growth.
-
-Starting November 8th 2020 the new IP ranges will start being used by Azure Data Factory service.<br> 
-
-Customers that use firewall rules based on service tags or FQDNs will not have to make any updates on their configuration, if you have custom firewall **outbound rules** based on IP addresses, for existing Self-Hosted IR or SSIS IR configured before October 13th, regardless if they are configured on-premise or on Azure virtual private network, please review our [Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#receiving-email-to-update-the-network-configuration-to-allow-communication-with-new-ip-addresses).
