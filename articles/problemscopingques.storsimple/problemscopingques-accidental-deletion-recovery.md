@@ -20,8 +20,26 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "deleted_component",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
+            }
+        },
+        {
+            "id": "deleted_component",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which component has been deleted?",
             "watermarkText": "Choose an option",
@@ -47,7 +65,7 @@
         },
         {
             "id": "recovery",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you tried to clone or restore from backups?",
             "watermarkText": "Choose an option",
@@ -69,14 +87,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

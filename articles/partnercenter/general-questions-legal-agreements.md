@@ -25,6 +25,8 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 
 ## **Recommended Steps**
 
+Click [here](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) for localized FAQ and Onboarding Guide documents in Korean, Chinese, Japanese and Spanish. 
+
 **Actions for Indirect Resellers**
 1. [Verify your MPN account is active](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-your-mpn-id-is-active-and-migrated-to-partner-center)
 2. [Confirm you are enrolled as a CSP Indirect reseller](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#confirm-you-are-enrolled-as-a-csp-indirect-reseller)

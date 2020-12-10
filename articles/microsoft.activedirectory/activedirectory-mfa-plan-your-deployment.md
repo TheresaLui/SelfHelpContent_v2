@@ -19,22 +19,27 @@
 
 # Plan and manage your MFA deployment
 
+### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):
+
+1. Launch the Sign-in Diagnostic.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
+   
 ## **Recommended Documents**
 
-* Planning your MFA deployment? Start here - [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted).
+* Planning your MFA deployment? See [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted).
+* Deploying MFA using a Conditional Access policy? Learn [How to Create a Conditional Access Policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#create-conditional-access-policy).
+* Deploying and using the NPS extension? Learn [How to Register users for MFA using NPS Extension](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension#register-users-for-mfa)
+* Using App Passwords? 
+	* [Create and delete app passwords](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page)
+	* [Manage app passwords for two-step verification](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords)
+* Using Windows Hello for Business? [Start by deploying WHfB](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-planning-guide)
+* Using Authenticator App? See how to [Set up the Microsoft Authenticator app to use verification codes](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-setup-auth-app#set-up-the-microsoft-authenticator-app-to-send-notifications)
 
-* Deploy MFA using a [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#create-conditional-access-policy).
+### **Recommended Videos**
 
-* Don't prompt my users for MFA from trusted locations - [Define network locations](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#define-network-locations).
-
-* Exclude users and groups from MFA when using a [Conditional Access policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#create-conditional-access-policy).
-
-* MFA administrator permissions - [Authentication administrator role](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#authentication-administrator) and [Privileged authentication administrator](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#privileged-authentication-administrator).
-
-* Manage user's [MFA settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings) including phone numbers.
-
-* How to configure [MFA service settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings), including blocked users and fraud report.
-
-* Register users for MFA - [Plan MFA registration policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#plan-registration-policy).
-
-* Authentication method analysis - use this PowerShell to find recommendation about your users' [authentication methods](https://docs.microsoft.com/samples/azure-samples/azure-mfa-authentication-method-analysis/azure-mfa-authentication-method-analysis/).
+* [How to deploy conditional access](https://www.youtube.com/watch?v=c_izIRNJNuk)
+* [How to set up authenticator on a new phone](https://www.youtube.com/watch?v=jTwtosQkn6I)
+* [Windows Hello for Business Provisioning](https://www.youtube.com/watch?v=RImGsIjSJ1s)

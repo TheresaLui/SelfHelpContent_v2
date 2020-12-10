@@ -2,9 +2,9 @@
 	pageTitle="Cannot delete a Virtual Network"
 	description="Cannot delete a Virtual Network"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584253"
+	supportTopicIds="32781376,32781379,32781381,32781382"
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -16,29 +16,29 @@
 
 ---
 {
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Cannot delete a Virtual Network",
     "fileAttachmentHint": "",
-    "formElements": [
+        "formElements": [
         {
-            "id": "cannot_connect_vm",
+            "id": "cannot_delete_vnet",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Please select the Virtual Network you are unable to delete",
             "watermarkText": "Choose a Virtual Network",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/$ref?api-version=2017-09-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks?api-version=2017-09-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of Virtual Networks",
-                    "text": "Unable to get the list of Virtual Networks"
+                "textPropertyRegex": "[^/]+$",
+		        "defaultdropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
-            ],
+            },
             "required": false
         },
         {
@@ -56,7 +56,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

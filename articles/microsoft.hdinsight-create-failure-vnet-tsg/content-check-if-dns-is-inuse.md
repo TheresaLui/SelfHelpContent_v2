@@ -17,8 +17,6 @@
 
 # Check if DNS is available
 
-**Recommended Steps**
-
 The hostname must resolve for HDInsight cluster creation to work successfully. Use the following `kusto` command to check if DNS is in use:
 
 ```kusto

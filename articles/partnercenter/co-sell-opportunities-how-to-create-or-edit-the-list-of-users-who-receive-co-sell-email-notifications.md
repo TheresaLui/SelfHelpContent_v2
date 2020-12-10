@@ -37,4 +37,4 @@ Please ensure your distribution lists are permitted to receive emails from exter
 
 ## **Recommended Documents**
 
-* [Manage Co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities)
+* [Manage Co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities#frequently-asked-questions)
