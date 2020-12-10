@@ -23,7 +23,7 @@
       "dataSource": "Kusto",
       "refreshInterval": "0.00:10:00"
    },
-   "recommendationCategory": "Operational excellence",
+   "recommendationCategory": "OperationalExcellence",
    "recommendationImpact": "Medium",
    "recommendationResourceType": "Microsoft.AppPlatform/Spring",
    "recommendationFriendlyName": "UpgradeSpringCloudAPI",
