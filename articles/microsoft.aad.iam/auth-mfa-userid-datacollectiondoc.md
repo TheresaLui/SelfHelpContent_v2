@@ -22,7 +22,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Multi-Factor Authentication",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "description": "Click here to use the new <a href='https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom'>Sign-in Diagnostic</a> Or provide additional input below to see a helpful diagnostic analysis.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -75,9 +75,51 @@
             "numberOfLines": 0
         },
         {
+            "id": "userNameOrId",
+            "visibility": "null",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "User Experiencing Problem:",
+            "content": null,
+            "watermarkText": "Example: foo@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "appNameOrId",
+            "visibility": "null",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Application name or ID:",
+            "content": null,
+            "watermarkText": "Example: ContosoApp",
+            "infoBalloonText": "Application to log in to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
             "id": "problem_description",
             "visibility": null,
-            "order": 4,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Full Error Message:",
             "content": null,
@@ -95,7 +137,7 @@
         {
             "id": "correlationId",
             "visibility": null,
-            "order": 5,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Correlation ID:",
             "content": null,
@@ -112,7 +154,7 @@
         {
             "id": "requestId",
             "visibility": null,
-            "order": 6,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Request ID:",
             "content": null,
@@ -125,63 +167,6 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
             "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Date(UTC):",
-            "content": null,
-            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "null",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Application name or ID:",
-            "content": null,
-            "watermarkText": "Example: ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": "null",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "User Experiencing Problem:",
-            "content": null,
-            "watermarkText": "Example: foo@contoso.com",
-            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "problem_start_time",
-            "order": 10,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
-            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

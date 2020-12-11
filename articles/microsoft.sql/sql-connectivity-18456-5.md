@@ -14,9 +14,9 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB_Availability"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Login failed - the specified user could not be found
+# We ran diagnostics on your resource and found an issue
 
 ## **Login failed, the specified user could not be found**
 

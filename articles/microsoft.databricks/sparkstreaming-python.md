@@ -42,4 +42,6 @@ Encrypt the connection string by using the following method:
 
 ## **Recommended Documents**
 
+* [Apache Spark DStream is not supported](https://docs.microsoft.com/azure/databricks/kb/streaming/dstream-not-supported)
 * [Structured Streaming Demo in Python](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python)
+

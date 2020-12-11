@@ -26,8 +26,25 @@
 	},
     "formElements": [
         {
-            "id": "monitor_advisory",
+            "id": "table_names",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Table Names",
+            "watermarkText": "Select from your tables",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/tableServices/default/tables?api-version=2019-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No tables available"
+                    }
+            }
+        },
+        {
+            "id": "monitor_advisory",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Monitor advisory question",
             "watermarkText": "Choose an option",
@@ -58,14 +75,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

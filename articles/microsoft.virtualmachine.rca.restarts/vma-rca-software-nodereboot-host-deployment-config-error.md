@@ -1,9 +1,9 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeReboot - Host Deployment Config Error"
+	description="Root Cause Analysis (RCA) - Software NodeReboot - Host Deployment Config Error"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
@@ -12,34 +12,55 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
+## **VM Availability**
 <!--issueDescription-->
-We identified that your VM **<!--$vmname--> Virtual machine <!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-We identified the physical host node where the VM was running was undergoing updates for our platform components. We determined that a recent azure deployment task inadvertently contained a configuration error when it was deployed broadly. Due to the error the deployment failed and resulted in a number of target nodes in the cluster to become unhealthy. As a result VMs on those nodes were rebooted.
+<!--rcaDescription-->
+### **Root Cause**
+> We identified the physical host node where the VM was running was undergoing updates for our platform components. We determined that a recent azure deployment task inadvertently contained a configuration error when it was deployed broadly. Due to the error the deployment failed and resulted in a number of target nodes in the cluster to become unhealthy. As a result VMs on those nodes were rebooted.
+> 
 
-The issue was quickly detected and the ongoing deployment was stopped. Subsequently roll out of the non-impacting update will contain a fix which will resolve the issue.
+<!--resolutionDetails-->
+### **Resolution**
+> VM was restored following reboot of the host node.
+> 
+> The issue was quickly detected and the ongoing deployment was stopped. Subsequently roll out of the non-impacting update will contain a fix which will resolve the issue.
+> 
+<!--/resolutionDetails-->
 
-We sincerely apologize for the impact to affected customers. We are continuously taking steps to improve the Microsoft Azure Platform and our processes to help reduce the duration of such incidents. This includes (but is not limited to): 
+<!--additionalInfo-->
+### **Additional Information**
+> We sincerely apologize for the impact to affected customers. We are continuously taking steps to improve the Microsoft Azure Platform and our processes to help reduce the duration of such incidents. This includes (but is not limited to): 
+> 
+> - Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates
+> - Improving deployment monitoring and correlation capabilities to detect such faults and halt the rollout sooner
+> 
+<!--/additionalInfo-->
+<!--/rcaDescription-->
 
-- Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates
-- Improving deployment monitoring and correlation capabilities to detect such faults and halt the rollout sooner
-
-Microsoft Azure Term
-<br>
-
+<!--recommendedActions-->
 ## **Recommended Documents**
 
-Learn more about:
-* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
-* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
-* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-<br>
+> *Learn more about:*
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> 
+<!--/recommendedActions-->
+
+
+<!--salutation-->
+We apologize for any inconvenience this may have caused you. 
+
+Microsoft Azure Team
+<!--/salutation-->

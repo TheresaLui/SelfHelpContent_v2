@@ -63,7 +63,6 @@
   "displayLabel": "Match production Virtual Machines with Production Disk for consistent performance and better latency",
   "additionalColumns": [],
   "tip": "Match Production Virtual Machine with Production Disks.",
-  "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#disk-comparison",
   "testData": "95fd5dac-4367-43b4-bf59-39daf2603153,/subscriptions/95fd5dac-4367-43b4-bf59-39daf2603153/resourceGroups/prakashRG/providers/Microsoft.Compute/virtualMachines/manageddisksvm"
 }
 ---
