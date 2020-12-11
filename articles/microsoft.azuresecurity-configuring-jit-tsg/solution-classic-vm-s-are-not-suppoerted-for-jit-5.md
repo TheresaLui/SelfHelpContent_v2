@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Classic VMs are not suppoerted for JIT"
-	  description="Classic VMs are not suppoerted for JIT"
+	  pageTitle="Classic VMs are not supported for JIT"
+	  description="Classic VMs are not supported for JIT"
       service="Microsoft.Compute"
       resource="Microsoft.Compute/virtualMachines,Microsoft.Compute/virtualMachineScaleSets"
 	  authors="rimayber"
@@ -15,16 +15,16 @@
 	  ownershipId="Azure_Security_Security_Center"
 />
 
-# Classic VMs are not suppoerted for JIT
+# Classic VMs are not supported for JIT
 
 <!--issueDescription-->
 
 Dear Customer, <br>
-Classic VM's are not suppoerted for Security Center just-in-time access.<br>
-Please refer to Docs: <br>
+Classic VMs are not supported for Security Center just-in-time access.<br>
+Please refer to the following articles: <br>
 [Secure your management ports with just-in-time access](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc).<br>
 <br>
-Please consider [converting your classic VMs to ARM](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-overview)<br>
+Please also consider [converting your classic VMs to ARM](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-overview)<br>
 <br>
 Best Regards,
 <!--/issueDescription-->
