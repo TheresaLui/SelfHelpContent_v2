@@ -26,7 +26,7 @@
          "id": "learn_more",
          "order": 1,
          "controlType": "infoblock",
-         "content": "If you have questions or issues related to payment transaction, before ending the process, please complete this ticket submission. If you have already completed the payment and you need help with a refund or there is a delay in activating the membership, depending on your issue, please use one of the MPN - Billing and Invoicing templates. (To access these templates please go on the top of this page, click on the "Select a different issue", than click "Browse topics". Select the MPN value from "Category" dropdown, than select the Billing and Invoicing value from the "Topic" dropdown and a "Subtopic" based on your issue. Once you complete this selection click on the "Review solutions" button.)"
+         "content": "If you have questions or issues related to payment transaction, before ending the process, please complete this ticket submission. If you have already completed the payment and you need help with a refund or there is a delay in activating the membership, depending on your issue, please use one of the MPN - Billing and Invoicing templates. (To access these templates please go on the top of this page, click on the 'Select a different issue', than click 'Browse topics'. Select the MPN value from 'Category' dropdown, than select the Billing and Invoicing value from the 'Topic' dropdown and a 'Subtopic' based on your issue. Once you complete this selection click on the 'Review solutions' button.)"
        },
        {
 	     "id": "support_level",
