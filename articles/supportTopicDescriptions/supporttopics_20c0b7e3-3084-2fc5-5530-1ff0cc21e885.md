@@ -814,6 +814,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a2a9bef-8d36-feaf-9655-8a2980603b6a",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while importing or exporting data to SQL pool using Polybase.",
+      "searchTags": "sql;polybase;import;export;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6dc242b7-26bc-5b50-8f64-f204479ceb46",
       "longDescription": "",
       "shortDescription": "Failure to create or drop a Dedicated SQL pool, slow or hung operations, or unexpected behavior.",
@@ -1651,6 +1659,14 @@
       "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
       "searchTags": "connectivity;unavailable;workspace;firewall",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eb9b6c75-e75f-eb26-c16b-2ae8c8cf5845",
+      "longDescription": "",
+      "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected.",
+      "searchTags": "pipeline;integration;performance;slow;adf",
+      "category": "Integration",
       "useInDiagnoseAndSolve": "true"
     },
     {

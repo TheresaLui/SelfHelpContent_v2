@@ -22,6 +22,22 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
+      "longDescription": "",
+      "shortDescription": "Unable to see workspace in workspaces list",
+      "searchTags": "workspace;visible",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
+      "longDescription": "",
+      "shortDescription": "Connecting to workspaces is not working or taking too long",
+      "searchTags": "connecting;workspace",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "09fd360e-8e83-ed0a-c9e6-98eb25ca2d31",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
@@ -46,10 +62,82 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "25757958-afb0-e051-36ba-ed5b112d7508",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure pricing tiers and costs",
+      "searchTags": "Costs;Billing;Bill",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
+      "longDescription": "",
+      "shortDescription": "Diagnosing possible false positive incidents due to system errors",
+      "searchTags": "falsepositive",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
       "searchTags": "Log Analytics;Workspace ;Workbook",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3d439052-5353-271e-fefa-6d084f0628c8",
+      "longDescription": "",
+      "shortDescription": "Topics related to cost and billing",
+      "searchTags": "Billing;Cost;bill",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4c5c911b-a3f0-e3a2-8816-e6a7b7a039e7",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "support",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4d619398-e896-1279-5b49-f34a24911d2a",
+      "longDescription": "",
+      "shortDescription": "Bookmark creation and handling",
+      "searchTags": "create;bookmark",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4fd37abe-6f60-b2fa-d1ec-e198010b2706",
+      "longDescription": "",
+      "shortDescription": "Investigating how or why an incident was triggered",
+      "searchTags": "trigger;triggered",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5013e832-92a8-4556-8223-707bc2d50436",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting the Investigation feature ",
+      "searchTags": "investigation",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
+      "longDescription": "",
+      "shortDescription": "Leveraging Threat Hunting capabilities",
+      "searchTags": "threat;hunting",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5d90c88a-d4c9-0fde-ae74-def23ee4c549",
+      "longDescription": "",
+      "shortDescription": "Playbooks overview, troubleshooting, and guidance",
+      "searchTags": "Playbooks;troubleshooting",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
@@ -59,6 +147,30 @@
       "shortDescription": "How to connect and configure data sources",
       "searchTags": "Connector;Configure",
       "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8b78adba-d412-518e-3789-00436c8d1bea",
+      "longDescription": "",
+      "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
+      "searchTags": "Support",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
+      "longDescription": "",
+      "shortDescription": "Scenario is not listed, add details and open a case",
+      "searchTags": "Support",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
+      "longDescription": "",
+      "shortDescription": "Workspace creation failures",
+      "searchTags": "workspace",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -75,6 +187,22 @@
       "shortDescription": "Data not presenting in Sentinel Workspaces",
       "searchTags": "Connector troubleshooting;data collection",
       "category": "Connectivity, troubleshooting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "be01c177-f4f7-c46c-b8f8-c8b54709233e",
+      "longDescription": "",
+      "shortDescription": "Missing alerts, alert details in Sentinel dashboard",
+      "searchTags": "dashboard;alert",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and creating Analytics alert rules",
+      "searchTags": "alerts;rules",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -102,11 +230,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2be44f8-3c52-383d-f2b5-3ae94fd24f7c",
+      "longDescription": "",
+      "shortDescription": "Diagnosing issues when creating Analytics alert rule",
+      "searchTags": "Analytics;Rules",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e5469f80-6b5d-daf2-9e4a-199bba4943dd",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting, understanding Threat Hunting Queries",
+      "searchTags": "threathunting",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ebd7651e-9021-a12f-c6bb-1f2ff0cc9a70",
       "longDescription": "",
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fda9fa68-64c5-7d3b-30af-82dc58dc53c8",
+      "longDescription": "",
+      "shortDescription": "How to interpret Analytics results from alert rules and queries",
+      "searchTags": "Rules;queries",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     }
   ]
