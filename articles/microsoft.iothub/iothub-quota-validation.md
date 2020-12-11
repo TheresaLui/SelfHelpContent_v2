@@ -14,20 +14,20 @@
 
 ## **Recommended Steps**
 
-**Common reasons for unexpectedly hitting daily quota include:**
+**Common reasons for unexpectedly hitting daily quota**
 
-* If you're using free (F1) edition IoT Hub, it has a smaller message meter size at 0.5 KB (as opposed to 4KB for the paid editions). This might cause you to hit daily quota sooner than expected. [Unfortunately, it's not possible to upgrade from free IoT Hub to paid](https://azure.microsoft.com/pricing/details/iot-hub/). <br>
+If you use the free (F1) edition IoT Hub, it has a smaller message meter size (0.5 KB versus 4KB for paid editions). This can cause you to reach the daily quota sooner than expected. [Unfortunately, it's not possible to upgrade from free IoT Hub to paid](https://azure.microsoft.com/pricing/details/iot-hub/). <br>
 * Typically each file upload uses two messages, one for initiation and one for completion
-* Twin reads, writes, and queries are metered in 0.5-KB chunks as opposed of 4 KB
+* Twin reads, writes, and queries are metered in 0.5 KB chunks as opposed of 4 KB
 
 To learn more, see [IoT Hub Pricing FAQ](https://azure.microsoft.com/pricing/details/iot-hub/).
 
-**Common questions with IoT Hub throttling include:**
+**Common questions with IoT Hub throttling**
 
-* If you **didn't get 429 errors but think you've been throttled**, it might be because IoT Hub only sends 429 ThrottlingException when the limit has been violated for too long. To learn more, see [Traffic shaping](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#traffic-shaping).
-* If you got **JobQuotaExceededException** with device import or export jobs, it's because you can only have one active import or export job at any point in time
+* If you think you've been throttled but didn't get a 429 error, the cause may be because IoT Hub only sends the "429 ThrottlingException" when the limit has been violated for too long. To learn more, see [Traffic shaping](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#traffic-shaping).
+* If you received a "JobQuotaExceededException" with device import or export jobs, the reason is you can only have one active import or export job at any point in time
 
-To learn more, see [IoT hub throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#).
+To learn more, see [IoT Hub throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#).
 
 ## **Recommended Documents**
 
