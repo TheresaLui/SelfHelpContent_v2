@@ -34,7 +34,7 @@
     "serviceTreeId": "aeaf65ef-e107-4f59-b33e-7226c0415cd2"
   },
   "ingestionClientIdentities": [],
-  "version": 1.5,
+  "version": 1.6,
   "learnMoreLink": "https://aka.ms/iothubsdk",
   "description": "Upgrade to a supported version of the SDK",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
@@ -69,7 +69,7 @@
       "title": "SDK Language"
     },
     {
-      "name": "MinimumSupportedVersion",
+      "name": "Version",
       "title": "Minimum Recommended Version"
     },
     {
