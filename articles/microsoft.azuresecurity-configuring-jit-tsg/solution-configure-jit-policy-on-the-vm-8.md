@@ -18,9 +18,9 @@
 # JIT Policy configured
 
 <!--issueDescription-->
+Dear Customer,<br>
 
-You've selected an option that indicates that the JIT policy has been successfully configured. <BR>
-
-Thank you for using the TSG. Please use the feedback options to provide feedback on the TSG. More JIT related troubleshooting guides are available at the article [Just-in-time access (JIT) CSS TSG](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Azure%20Security%20Center%20CSS%20wiki/912/Just-in-time-access-(JIT))
-
+It appears that JIT has been successfully configured on the VM. Please test and confirm and let us know if you have any further issues.<BR>
+<br>
+Best Regards,<br>
 <!--/issueDescription-->
