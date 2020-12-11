@@ -4,8 +4,8 @@
     authors="Xin-Cheng"
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639991, 32639996, 32780999, 32781000, 32781002, 32781003"
-    productPesIds="16222,17067,17069"
+    supportTopicIds="32639991, 32639996, 32780999, 32781000, 32781002, 32781003, 32731226"
+    productPesIds="16222,17067,17069,17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-migrating-issuestools"
@@ -77,6 +77,7 @@
             "displayLabel": "Problem description",
             "watermarkText": "Please provide the repro steps and other information about your issue",
             "required": true,
+            "diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],
