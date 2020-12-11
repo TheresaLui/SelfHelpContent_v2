@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This occurrence was caused by an **Azure initiated memory-preserving update action**. The update process succeeded, but your VM was unavailable longer than the expected maximum duration of 30 seconds.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > This update is part of Azures commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. During these updates, the VM is frozen for up to 30 seconds and then resumed. Our engineers are alerted to investigate all factors that could have caused your VM to take longer to update and to apply fixes to affected hosts as soon as possible. No action is needed from you.
 > 
 <!--/additionalInfo-->

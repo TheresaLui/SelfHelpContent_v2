@@ -147,7 +147,7 @@
       "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Enroll;Onboard;MPA",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA",
     },
     {
       "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",

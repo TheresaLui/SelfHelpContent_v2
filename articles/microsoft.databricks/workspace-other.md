@@ -24,6 +24,14 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * If you are unable to launch or access Azure Databricks workspace and you receive the error message, "User does not have Contributor or Owner role," the issue is by design. Enable access to users by modifying IAM roles and assign **Contributor** or **Owner** roles by following [these steps](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--assign-account-admins). The user should be added **individually** because adding an AD group is **not supported** yet.
 
+* Login issue getting error: 
+
+  ```
+  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
+  ```
+ 
+  To work around this issue, either open a new tab in Google Chrome or close the browser and erase its history. If this doesn't help, there is likely an ongoing maintenance or outages. Check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+ 
 * When using Azure Databricks, it can be confusing when a new workspace and managed resource group just appear. Azure automatically creates a **Databricks workspace**, as well as a **managed resource group (databricks-rg-xxx-xxx)** containing all the resources needed to run the cluster. 
 
   This managed resource group (MRG) is protected by a system-level lock to prevent deletions and modifications. The only way to directly remove the lock is to delete the service. However, by making changes to the parent resource group, those changes will be correspondingly updated in the managed resource group.
@@ -45,7 +53,7 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 	* Standard clusters in both Scala and Python
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
-* If you receive the error message "Unexpected error while loading Spark UI: Max Response Size Reached," the response limit of 30 MB for the Spark UI proxy has been reached. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
+* If you receive the error message `Unexpected error while loading Spark UI: Max Response Size Reached, the response limit of 30 MB for the Spark UI proxy has been reached`. This can happen if the jobs page returned by the Spark UI is very big, which can happen in a long-running cluster with too many jobs. To resolve the issue, modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) by running the following command:
 
     ```
     spark.ui.retainedJobs 100

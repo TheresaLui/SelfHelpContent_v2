@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Configure JIT policy on the VM"
-	  description="Configure JIT policy on the VM"
+	  pageTitle="JIT Policy configured"
+	  description="JIT Policy configured"
       service="Microsoft.Compute"
       resource="Microsoft.Compute/virtualMachines,Microsoft.Compute/virtualMachineScaleSets"
 	  authors="rimayber"
@@ -15,11 +15,12 @@
 	  ownershipId="Azure_Security_Security_Center"
 />
 
-# Configure JIT policy on the VM
+# JIT Policy configured
 
 <!--issueDescription-->
+Dear Customer,<br>
 
-You've selected an option that indicates that the JIT policy has been successfully configured. Thank you for using the TSG. Please use the feedback options to provide feedback on the TSG.
-
+It appears that JIT has been successfully configured on the VM. Please test and confirm and let us know if you have any further issues.<BR>
+<br>
+Best Regards,<br>
 <!--/issueDescription-->
-

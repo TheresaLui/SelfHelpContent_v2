@@ -40,7 +40,7 @@
 * Click on the Access Policies Tab.
 * Find the service principal / security group and confirm the permissions assigned.
 
-**You can’t find the service principal in the key vault Access Policy tab.**
+**You can’t find the service principal in the key vault IAM tab.**
 * Confirm that the service principal has a role assignment to your key vault in Azure Active Directory.
 * Navigate to Azure Active Directory in the portal.
 * Click the Users tab.

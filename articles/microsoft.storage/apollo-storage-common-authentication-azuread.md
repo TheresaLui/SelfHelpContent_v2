@@ -13,15 +13,13 @@ ownershipId="StorageMediaEdge_XStore"
 
 # Troubleshooting authentication and authorization failures using Apollo
 
-## Troubleshooting Authentication and Authorization failures
+## Troubleshooting Authentication and Authorization Failures
 
-Most customers resolved their Azure AD authentication failures on their own, using the diagnostics, articles, and video below.
-
-## Chart for Authentication and Authorization failures
+Most customers resolve their Azure AD authentication failures using charts, diagnostics, and documentation.
 
 :::Section Recommended solutions:::
 
-The following charts can help you to narrow down the time frames when the Authentication or Authorization failures occurred:
+The following chart can help you to narrow down the time frames when the Authentication or Authorization failures occurred:
 
 <metric>
 <name>Transactions</name>
@@ -29,32 +27,57 @@ The following charts can help you to narrow down the time frames when the Authen
 <timeSpanType>relative</timeSpanType>
 <timeSpanDuration>1d</timeSpanDuration>
 <title>Storage Authentication and Authorization Failure</title>
-<client>ASC,Portal</client>
 </metric>
 
-## Finding Authentication and Authorization failure occurrences 
+### Failure diagnostics
 
 <Insight>
 <symptomId>StorageFailureTransactionInsightLight</symptomId>
-<executionText>We are running a quick check to find the authentication or authorization failure occurrences on the storage account</executionText>
+<executionText>We are running a quick check to find authentication and authorization failures on the storage account</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
-<noResultText>No authentication or authorization failures were found during the last 24 hours. Please modify the starttime and endtime to choose a different time window.</noResultText>
-<client>ASC,Portal</client>
+<noResultText>No authentication or authorization failures were found during the last 24 hours. Use the diagnostic below to run a detailed analysis.</noResultText>
 <additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
-### Input the response from the previous troubleshooter or provide custom data so we can run a deep analysis on a specific failure
+### Deeper analysis
+Input the response from the previous troubleshooter or provide custom data so we can run a deeper analysis on a specific failure:
 
 <Insight>
 <symptomId>StorageFailureTransactionInsight</symptomId>
-<executionText>We are running a detailed analysis on the authentication or authorization</executionText>
+<executionText>We are running a detailed analysis to check for authentication and authorization failures</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
-<noResultText>Seems like all is good!</noResultText>
-<client>ASC,Portal</client>
+<noResultText>No authentication or authorization issues found!</noResultText>
 <additionalInputsReq>true</additionalInputsReq>
 </Insight>
 
-<CommonSolution>
-<articleId>0ffe93a2-8388-4727-9601-fbc18fb6ab0c</articleId>
-<client>Portal</client>
-</CommonSolution>
+### More resources
+
+Here are some additional resources that can help resolve Azure AD authentication and connectivity failures
+
+Solutions for common issues reported with RBAC roles
+- [I am the owner of the Storage account but don't get to access data](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal)
+- [I have Data Reader/Data Contributor permission but don't see the storage account on Portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal) 
+- [I have problems accessing storage resources using RBAC in Storage Explorer](https://docs.microsoft.com/azure/storage/common/storage-explorer-troubleshooting?tabs=1904#role-based-access-control-permission-issues)
+
+Grant access to Azure blob and queue data with RBAC
+
+- [Grant access to Azure blob and queue data with RBAC in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal)
+- [Grant access to Azure blob and queue data with RBAC using PowerShell](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-powershell)
+- [Grant access to Azure blob and queue data with RBAC using Azure CLI](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-cli)
+
+Authenticate with Azure AD
+
+- [Get started with Azure AD for Storage](https://docs.microsoft.com/azure/storage/common/storage-auth-aad)
+- [Authenticate with Azure Active Directory from an application for access to blobs and queues (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-app)
+- [Manage access rights to Azure Blob and Queue data with RBAC](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac) 
+- [Authenticate access to blobs and queues with managed identities for Azure Resources](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-msi)
+- [Use an Azure AD identity to access Azure Storage with CLI or PowerShell](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-script)
+- [Authorization options for Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/authorization-for-the-azure-storage-services)
+
+Access Options
+
+- [User Policy to manage resources and control access](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-policy)
+- [Assign a user access to your Storage account](https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/)
+- [Microsoft Azure Storage Explorer](http://storageexplorer.com)
+- [PowerShell](https://azure.microsoft.com/documentation/articles/storage-powershell-guide-full/)
+- [Azure Storage Connection Strings](https://docs.microsoft.com/azure/storage/storage-configure-connection-string)

@@ -10,7 +10,7 @@
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630434,32630450,32630454,32630459"
+    supportTopicIds="32749515, 32749520"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
@@ -25,7 +25,7 @@ Our internal service telemetry detected high IO or high log rate usage greater t
 
 ## **Recommended Steps**
 
-This indicates possible application slowness, timeouts due to lack of IO resources to execute the requested workload during that specific period. Please see the recommended articles for more details.
+This indicates possible application slowness, or timeouts due to lack of IO resources to execute the requested workload during that specific period. See the recommended articles for details.
 
 ## **Recommended Documents**
 

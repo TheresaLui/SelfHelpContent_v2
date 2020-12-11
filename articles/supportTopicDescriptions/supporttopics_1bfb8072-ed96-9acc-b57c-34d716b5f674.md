@@ -448,10 +448,10 @@
     {
       "id": "a1b4f582-317a-0e47-50b0-c99432f7e79d",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring IIS logs collection within Log Analytics workspace.",
-      "searchTags": "IIS;IIS logs;Workspace",
+      "shortDescription": "Troubleshoot issues related with IIS logs collection into Log Analytics workspace. For agent-related issues, please use Agent support topics.",
+      "searchTags": "IIS;IIS logs;Workspace;W3C",
       "category": "Data collection configuration",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
@@ -504,8 +504,8 @@
     {
       "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
       "longDescription": "",
-      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
-      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "shortDescription": "Issues related to network isolation, Private Links, Private Endpoints.",
+      "searchTags": "Private links;Private Endpoints;Network Isolation;VNet",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     },

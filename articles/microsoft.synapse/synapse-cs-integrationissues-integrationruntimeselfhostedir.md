@@ -40,3 +40,4 @@
 
 * [How to create and configure Azure Integration Runtime](https://docs.microsoft.com/azure/data-factory/create-azure-integration-runtime?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#default-azure-ir)
 
+ 

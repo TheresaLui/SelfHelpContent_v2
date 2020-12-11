@@ -68,5 +68,12 @@ To diagnose and resolve issues regarding connectivity to Azure Databricks worksp
 	
 ### **Troubleshooting Errors**
 
+* When signing in to Workspace, you receive this error: 
+
+  ```
+  We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
+  ```
+  The workaround is to open a new tab in Google Chrome, or close the browser and erase its history. If this doesn't help, there would be an ongoing maintenance or outages. Please check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+  
 * Learn how to resolve errors for [instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 
