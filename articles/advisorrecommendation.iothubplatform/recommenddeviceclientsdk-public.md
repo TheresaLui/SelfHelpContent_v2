@@ -81,7 +81,6 @@
         "title": "Count of devices using outdated SDK version"
     }
   ],
-  "tip": "",
-  "testData": "C306C958-55C4-41A2-86F4-53F1657A726A,/SUBSCRIPTIONS/C306C958-55C4-41A2-86F4-53F1657A726A/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"Language\"\":\"\"Java\"\",\"\"MinimumSupportedVersion\"\":\"\"1.22.0\"\",\"\"RecommendedActionLearnMore\"\":\"\" https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"ReleaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\"}\""
+  "tip": ""
 }
 ---
