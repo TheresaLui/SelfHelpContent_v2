@@ -27,7 +27,8 @@ Probably not! You will have an opportunity to resolve any user mapping issues du
 You can still connect on your own, but you should continue contacting support for help with disconnected users
 
 ### Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization? 
-Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).
+Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).<br>
+
 
 * For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
 * Want a quicker answer to common questions and issues? Try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
