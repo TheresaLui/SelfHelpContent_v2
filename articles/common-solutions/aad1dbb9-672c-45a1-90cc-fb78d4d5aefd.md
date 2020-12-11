@@ -29,9 +29,8 @@ You can still connect on your own, but you should continue contacting support fo
 ### Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization? 
 Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).<br>
 
-
-* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
-* Want a quicker answer to common questions and issues? Try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 
 ## **Recommended Documents**
 
@@ -40,10 +39,5 @@ Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in th
 * [Disconnect your organization from Azure Active Directory](https://docs.microsoft.com/azure/devops/organizations/accounts/disconnect-organization-from-azure-ad?view=azure-devops)
 * [Change your organization connection to another Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/change-azure-ad-connection?view=azure-devops)
 * [Get list of organizations backed by Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/get-list-of-organizations-connected-to-azure-active-directory?view=azure-devops)
-
-### **FAQs**
 * [Access via Azure AD FAQs](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#faq-connect)
 
-### **Additional resources**
-* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
-* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
