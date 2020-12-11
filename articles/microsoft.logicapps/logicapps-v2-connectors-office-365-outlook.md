@@ -23,6 +23,8 @@ To connect to your Office 365 email account so that you can create and manage em
 
 - [Shared Mailbox Support](https://docs.microsoft.com/connectors/office365/?WT.mc_id=Portal-Microsoft_Azure_Support#shared-mailbox-support)
 - [Logic Apps: How to send a well-formatted HTMIL Email notification with Office 365 Outlook connector](https://blog.sandro-pereira.com/2020/01/26/logic-apps-how-to-send-a-well-formatted-html-email-notification-with-office-365-outlook-connector/)
+- [Using Service Account for Office 365 Outlook Connector](https://techcommunity.microsoft.com/t5/integrations-on-azure/using-service-account-for-office-365-outlook-connector/ba-p/1978513)
+
 
 ## **Recommended Documents**
 
