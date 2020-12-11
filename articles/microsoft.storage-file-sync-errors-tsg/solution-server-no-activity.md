@@ -41,17 +41,15 @@ A server endpoint health status of "No Activity" means the server endpoint has n
 
 **Additional steps** <br>
 <br>
-Jarvis File Sync Dashboards
+**Jarvis File Sync Dashboards**
 
 Please use the below dashboards to perform in-depth troubleshooting with any Azure File Sync scenario.
 
-|Dashboard       |Description                    
-|----------------|-------------------------------
-|[Tiering and Recall](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FTiering%252520and%252520Recall&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738431233&sdata=E3tWbSS7XpFY42%2F%2FigkGVz0YYa%2B6LP%2FVsETkzuN4VDA%3D&reserved=0)|Used for Sync Tiering & Recall scenarios when Cloud Tiering is On.           
-|[Sync Progress & Performance](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSync%252520Progress%252520%252526%252520Performance&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=7RlKn%2FH5K9wmvOCVPFyvjATEjFb58KpXCi8JRA0gFoY%3D&reserved=0)|Used for tracking Sync Progress - both Upload & Download scenarios from SEP as well as Cloud-side Enumeration.            
-|[SEP Health](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSEP%252520Health&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=8WJdLcSrEfIEZysiKDGfR5OyI3WFbRa6QZ7QFYb6zYo%3D&reserved=0)|Used for viewing Agent & Filter details on SEP.
-|[AFS Management](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FAFS%252520Management&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=rXoJTp53%2FkfZLcUhiaImlyAs6r%2FGvnXTSNuHCOSZcco%3D&reserved=0)|Used for viewing AFS Management operations.
-<br>
+
+[Tiering and Recall](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FTiering%252520and%252520Recall&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738431233&sdata=E3tWbSS7XpFY42%2F%2FigkGVz0YYa%2B6LP%2FVsETkzuN4VDA%3D&reserved=0) : Used for Sync Tiering & Recall scenarios when Cloud Tiering is On.<br>           
+[Sync Progress & Performance](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSync%252520Progress%252520%252526%252520Performance&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=7RlKn%2FH5K9wmvOCVPFyvjATEjFb58KpXCi8JRA0gFoY%3D&reserved=0): Used for tracking Sync Progress - both Upload & Download scenarios from SEP as well as Cloud-side Enumeration.<br>           
+[SEP Health](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FSEP%252520Health&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=8WJdLcSrEfIEZysiKDGfR5OyI3WFbRa6QZ7QFYb6zYo%3D&reserved=0): Used for viewing Agent & Filter details on SEP.<br> <br> 
+[AFS Management](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjarvis-west.dc.ad.msft.net%2Fdashboard%2FXEEE-Dashboards%2FFileSync%2FAFS%252520Management&data=02%7C01%7Cdroltean%40microsoft.com%7Cb10a9d3d669a4499e1b108d85be2bee8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637360376738441190&sdata=rXoJTp53%2FkfZLcUhiaImlyAs6r%2FGvnXTSNuHCOSZcco%3D&reserved=0): Used for viewing AFS Management operations.<br> 
 
 #
 # Escalation
