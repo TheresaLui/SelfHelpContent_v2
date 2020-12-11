@@ -27,7 +27,7 @@ You can learn how to create or register an Azure Machine Learning datasets by us
 
 ### **FAQ**
 
-**"Permission" problems reigistering a dataset or connecting to datastore**
+**Permission problems registering a dataset or connecting to datastore**
 
 If you have Permission issues when registering dataset or connecting to datastore, do the following: 
 * **Network issues**: Verify if you are facing issues with your network
@@ -37,7 +37,7 @@ If you have Permission issues when registering dataset or connecting to datastor
 * **FileNotExist error**: If you get an error message similar to "Cannot open file `/xxx/yyy/zzz.tsv` -  No such file or directory", verify  that the directory you are using exists
 
 
-**When should I use file dataset v/s tabular dataset?**
+**When should I use a file dataset v/s a tabular dataset?**
 
 For the majority of your use cases, we recommend using a file dataset for any file formats (csv, parquet, json, and so on). If you are using autoML and data monitors, then a tabular dataset helps you set the filtering and partition once and then reuse across autoML and data monitor components in Azure ML. Tabular dataset also provides data in table format and offers seamless options to move to pandas dataframe without creating a local copy of your data.
 
@@ -49,6 +49,7 @@ You should always use the dataset mount, upload, and download options to benefit
 
 You should always use the dataset upload and download options to benefit from the improved capabilities and performance. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-datasets#mount-vs-download). 
 
+
 **My data is in Azure SQL DW or SQL DB, how should I access data from AML workspace? What about on-premise SQL?**
    
 * **Azure SQL DW:** We don't recommend creating a datastore for Azure SQL DW. The Azure ML datastore cannot perform parallel reads from your SQL DW and may encounter time-out issues if your query has many filters. We recommend copying data to storages, such as Blob or ADLS gen2, to register as a datastore in Azure ML. 
@@ -57,14 +58,20 @@ You should always use the dataset upload and download options to benefit from th
 
 * **On-premises SQL:** To leverage on-premises SQL server directly, use Python pyodbc. [Learn more](https://pypi.org/project/pyodbc/).
 
+
+
 **Can I use ADLS gen2 as the default storage for my workspace?**
 
 Currently, ADLS Gen2 cannot be set as default storage for your workspace. When you create an Azure ML workspace, an Azure blob container named `workspaceblobstore` is created as default storage to store workspace artifacts and your machine learning experiment logs. You can choose to set this default storage as a blob storage of your choice by using the command `ws.set_default_datastore(new_default_datastore)`. See [this example](https://docs.microsoft.com/azure/machine-learning/how-to-access-data#get-datastores-from-your-workspace).
 
 **Note:** You can still use ADLS Gen2 storage type when you create your own datastore in Azure ML for your training data, but not as a default datastore for your workspace artifacts and experiment logs.
 
+
+
 ### **Known Issues**
 Learn about [known issues concerning AML working with data](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#work-with-data)
+
+
 
 ## **Recommended Documents**
 
