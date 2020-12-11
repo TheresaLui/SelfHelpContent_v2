@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The physical host node where the VM was running experienced an unexpected bug check caused by a networking driver. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 >
 > Our core platform engineers are tracking this issue are working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.
 > 
