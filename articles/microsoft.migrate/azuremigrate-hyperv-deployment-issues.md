@@ -1,21 +1,15 @@
-
-<properties 
-    pageTitle="Deployment issues with Azure Migrate appliance for Hyper-V "
-    description="Issues and guidance regarding deployment issues in Azure Migrate appliance for Hyper-V"
-    service="microsoft.migrate"
-    resource="migrateprojects"
-    authors="vikram1988"
-    ms.author="vibansa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32675746"
-    resourceTags=""
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
-	ownershipId="Compute_AzureMigrate"
-/>
-
+<properties
+  pagetitle="Deployment issues with Azure Migrate appliance for Hyper-V &#xD;"
+  service="microsoft.migrate"
+  resource="migrateprojects"
+  ms.author="vibansa"
+  selfhelptype="Generic"
+  supporttopicids="32675746"
+  resourcetags=""
+  productpesids="16348"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
+  ownershipid="Compute_AzureMigrate" />
 # Deployment issues with Azure Migrate appliance for Hyper-V 
 
 ## **Recommended Steps**
@@ -50,6 +44,11 @@ No, setting up the appliance on an Azure VM is not recommended.
 Ensure that you have whitelisted the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
+
+** After clicking on login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot login**
+
+1. Go back to the Appliance configuration manager tab and you will find the device code **in bold** below the login button.
+1. Copy the device code and paste it in the Login tab to proceed with Azure Login.
 
 **After successful login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
