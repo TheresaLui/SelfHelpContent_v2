@@ -14,14 +14,14 @@
 
 ## **Recommended Steps** 
 
-1. To check the health status of your endpoint, go to **Custom endpoints** in [**Message routing**](data-blade:Microsoft_Azure_IotHub.RoutingBlade.resourceId.$resourceId)
-1. To see the traffic, latency, and if messages have been dropped or orphaned, go to [**Metrics**](data-blade:Microsoft_Azure_Monitoring.MetricsBladeV3.ResourceId.$resourceId). For example:
+1. To determine the health status of your endpoint, go to **Custom endpoints** in [**Message routing**](data-blade:Microsoft_Azure_IotHub.RoutingBlade.resourceId.$resourceId)
+1. To see traffic, latency, and whether messages have been dropped or orphaned, go to [**Metrics**](data-blade:Microsoft_Azure_Monitoring.MetricsBladeV3.ResourceId.$resourceId). For example:
 
-	* Use *Routing: telemetry messages dropped* to see number of messages dropped due to dead endpoints
-	* Use *Routing: telemetry messages orphaned* to see number of messages that didn't match any routing rules, including the fallback route
-	* Use *Routing: message latency for Event Hub* to see the latency for routing to Event Hub endpoints
+	* Use **Routing: telemetry messages dropped** to get the number of messages dropped due to dead endpoints
+	* Use **Routing: telemetry messages orphaned** to get the number of messages that didn't match any routing rules, including the fallback route
+	* Use **Routing: message latency for Event Hub** to see the latency for routing to Event Hub endpoints
 
-1. [Turn on logs for routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health) to see if rules evaluate to "undefined", if there are any errors from an endpoint, etc.
+1. [Turn on logs for routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health) to find out if: rules evaluate to **undefined**, there are errors from an endpoint, etc.
 
 **Not receiving any messages?**
 
@@ -29,11 +29,11 @@ Your messages might be getting lost due to the fallback route being disabled. Tr
 
 **Having trouble applying query on the message body?**
 
-If you think IoT Hub isn't evaluating the query expression on message body, make sure contentType is set as application/JSON and contentEncoding is set as UTF-8, UTF-16, or UTF-32 in the [system properties](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax#system-properties).
+If you think IoT Hub is failing to evaluate the query expression on message body, make sure **contentType** is set as **application/JSON** and **contentEncoding** is set as **UTF-8**, **UTF-16**, or **UTF-32** in the [system properties](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax#system-properties).
 
 **Body of JSON unreadable when routing to storage?**
 
-When routing to storage with JSON encoding format, you must set the contentType to application/JSON and contentEncoding to UTF-8 in the message system properties. If this is not set, then IoT Hub writes the message in base 64 encoded format.
+When routing to storage with JSON encoding format, you must set the **contentType** to **application/JSON** and **contentEncoding** to **UTF-8** in the message system properties. If this is not set, then IoT Hub writes the message in base64 encoded format.
 
 ## **Recommended Documents**
 
