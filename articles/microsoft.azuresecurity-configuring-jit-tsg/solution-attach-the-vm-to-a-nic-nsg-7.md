@@ -22,11 +22,7 @@
 Dear Customer, <br>
 JIT operates by creating Allow and Deny rules to the NSG. <br>
 All VM's Netwroking must have both in order to be protected be Security Center JIT.<br>
-Please attach them as descriibed in the doc below<br>
+Please attach them as descriibed in the article [NSG Overview](https://docs.microsoft.com/azure/virtual-network/network-security-groups-overview)
 Best Regards,<br>
 
 <!--/issueDescription-->
-
-## Recommended Documents
-
-1. [NSG Overview](https://docs.microsoft.com/azure/virtual-network/network-security-groups-overview)
