@@ -13,11 +13,10 @@
 />
 
 # Using Key Vault with Soft Delete
+:::Section Recommended Solution:::
 
 ## Managing soft delete settings for Azure Key Vault
 Our recommended solutions below will help with managing soft delete settings for your Key Vault resource.
-
-:::Section Recommended Solution:::
 
 <Insight>
 	<symptomId>KeyVaultUnauthorizedInsight,KeyVaultThrottledInsight,KeyVaultUnauthorizedData,KeyVaultThrottledData,KeyVaultVaultNotFoundInsight</symptomId>
