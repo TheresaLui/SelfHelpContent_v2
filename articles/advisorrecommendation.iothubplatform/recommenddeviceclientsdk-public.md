@@ -34,7 +34,7 @@
     "serviceTreeId": "aeaf65ef-e107-4f59-b33e-7226c0415cd2"
   },
   "ingestionClientIdentities": [],
-  "version": 1.8,
+  "version": 1.9,
   "learnMoreLink": "https://aka.ms/iothubsdk",
   "description": "Upgrade to a supported version of the SDK",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
@@ -81,6 +81,7 @@
         "title": "Count of devices using outdated SDK version"
     }
   ],
-  "tip": ""
+  "tip": "",
+  "testData": "91d12660-3dec-467a-be2a-213b5544ddc0,/SUBSCRIPTIONS/91d12660-3dec-467a-be2a-213b5544ddc0/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"Language\"\":\"\"C#\"\",\"\"Version\"\":\"\"1.22.0\"\",\"\"RecommendedActionLearnMore\"\":\"\" https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"ReleaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\"}\""
 }
 ---
