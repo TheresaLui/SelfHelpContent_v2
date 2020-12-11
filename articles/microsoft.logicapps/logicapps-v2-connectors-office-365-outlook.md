@@ -1,19 +1,15 @@
 <properties
-    pageTitle="Azure Logic Apps - Office 365 Outlook"
-    description="Azure Logic Apps - Office 365 Outlook"
-    service="microsoft.logicapps"
-    resource="logicapps"
-    authors="v-miegge"
-    ms.author="kawilson"
-    selfHelpType="generic"
-    supportTopicIds="32780503"
-    resourceTags=""
-    productPesIds="17378"
-    ownershipId="Compute_LogicApps"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="0a8cfc5e-c562-4d88-940f-82f0361c6ab3"
-/>
-
+  pagetitle="Azure Logic Apps - Office 365 Outlook&#xD;"
+  service="microsoft.logic"
+  resource="workflows"
+  ms.author="kawilson,shakrish"
+  selfhelptype="Generic"
+  supporttopicids="32742534"
+  resourcetags=""
+  productpesids="15791"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="0a8cfc5e-c562-4d88-940f-82f0361c6ab3"
+  ownershipid="Compute_LogicApps" />
 # Azure Logic Apps - Office 365 Outlook
 
 To connect to your Office 365 email account so that you can create and manage emails, tasks, calendar events and meetings, contacts, requests, and more.
