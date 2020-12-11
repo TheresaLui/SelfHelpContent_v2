@@ -18,6 +18,8 @@
 ## Managing soft delete settings for Azure Key Vault
 Our recommended solutions below will help with managing soft delete settings for your Key Vault resource.
 
+### Key Vault diagnostics
+
 <Insight>
 	<symptomId>KeyVaultUnauthorizedInsight,KeyVaultThrottledInsight,KeyVaultUnauthorizedData,KeyVaultThrottledData,KeyVaultVaultNotFoundInsight</symptomId>
 	<executionText>We are running some checks on your resource</executionText>
@@ -26,11 +28,11 @@ Our recommended solutions below will help with managing soft delete settings for
     	<additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
+### Troubleshooting steps
+
 * **BREAKING CHANGE** To enhance the level of protection that Microsoft offers for your secrets stored in key vault, soft delete will no longer be an opt-out feature. Soft-delete will be required to be enabled on all Azure key vaults. **Starting in December 2020 you will no longer be able to create a new key vault with soft-delete disabled.** Please see the following document that details this change and turn on soft delete protection on all of your key vaults: [Soft Delete Always On](https://docs.microsoft.com/azure/key-vault/general/soft-delete-change).
 
 * [Azure Key Vault soft-delete overview](https://docs.microsoft.com/azure/key-vault/general/key-vault-recovery?tabs=azure-portal)
-
-### Troubleshooting
 
 * If you deleted a key vault it will exist in the soft-deleted state if you had soft-delete enabled on the key vault and the retention period has not elapsed. **If you did not have soft delete enabled, or the soft delete retention period has elapsed, your key vault has been permanently deleted and it is impossible for you or Microsoft to recover your key vault.** 
   Use the following references to list and recover a deleted key vault:
