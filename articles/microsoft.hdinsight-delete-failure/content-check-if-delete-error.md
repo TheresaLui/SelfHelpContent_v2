@@ -30,8 +30,8 @@ Run the below kusto query to get the error code with above information:
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
-| where State == "DeleteError"
+| where State contains "Delete"
 | project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage,RpRegionName,IsSecureHadoop,IsUserError,IsDeleteQueued
 ```
 
-> **NOTE**: ***ErrorInfoAsJson*** and ***InternalErrorMessage*** are also important information to troubleshoot
+> **NOTE**: ***ErrorInfoAsJson*** and ***InternalErrorMessage*** is also important information to troubleshoot.

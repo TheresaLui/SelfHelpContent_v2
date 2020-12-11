@@ -30,3 +30,4 @@ Private Link allows you to connect to various PaaS services in Azure via a priva
 
 * [Connecting from an Dedicated SQL pool to Azure Storage using Polybase](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#connecting-from-an-azure-sql-data-warehouse-to-azure-storage-using-polybase)
 
+ 

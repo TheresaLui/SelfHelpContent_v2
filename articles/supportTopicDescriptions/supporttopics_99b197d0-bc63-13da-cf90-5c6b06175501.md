@@ -26,8 +26,8 @@
     {
       "id": "5ef533af-e202-7ac4-9b91-6b3f0853ddd6",
       "longDescription": "",
-      "shortDescription": "Questions about which licenses/SKU/offer to purchase for a customer. Specific product licensing questions are out of scope for Partner Center support",
-      "searchTags": "Pricing;Offers;Licenses;SKU",
+      "shortDescription": "Questions on CSP Licensing for Microsoft products including available offers and bundles",
+      "searchTags": "Presales;Pre-sales;Sales;License;Offer;SKU;Bundle",
     },
     {
       "id": "91e3bf16-d353-b285-79de-cce9ac114a6c",

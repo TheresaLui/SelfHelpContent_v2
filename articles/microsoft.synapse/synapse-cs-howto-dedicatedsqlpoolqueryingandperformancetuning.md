@@ -72,3 +72,4 @@ The following are the most common issues for slow query performance:
 
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)
 
+ 

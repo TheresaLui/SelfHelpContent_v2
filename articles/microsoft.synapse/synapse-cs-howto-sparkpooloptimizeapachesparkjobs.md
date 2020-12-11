@@ -46,3 +46,4 @@ The most common challenge is memory pressure, because of improper configurations
 
 * [Delta Lake](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake)
 
+ 
