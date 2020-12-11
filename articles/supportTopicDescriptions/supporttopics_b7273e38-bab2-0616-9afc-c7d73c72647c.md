@@ -161,6 +161,12 @@
       "shortDescription": "General issues and questions about Business profile, co-sell, or referrals",
       "searchTags": "Cosell;Business;Referrals;Co-sell",
     },
+    {
+      "id": "193bea89-c1ac-3ac8-22af-79b8e66e563a",
+      "longDescription": "",
+      "shortDescription": "Issues experienced in Partner Center under Referrals > Analytics > Co-sell Opportunities",
+      "searchTags": "Cosell;Insights",
+    },
      {
       "id": "600247b3-a947-21b3-0a21-ecc71d279fea",
       "longDescription": "",
