@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This occurrence was caused by an **Azure initiated maintenance operation**.  Azure had previously notified impacted customers about this maintenance. As part of this operation, your VM experienced a reboot as it was migrated to newer hardware.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

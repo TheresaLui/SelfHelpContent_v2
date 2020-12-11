@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This unexpected occurrence was caused by a crash in the VMs operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
 > 
 > To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
@@ -36,8 +36,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
