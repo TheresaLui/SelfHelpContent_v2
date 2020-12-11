@@ -29,7 +29,3 @@ Please consider [converting your classic VMs to ARM](https://docs.microsoft.com/
 Best Regards,
 <!--/issueDescription-->
 
-## Recommended Documents
-
-1. [Azure Security Center JIT](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc)
-2. [Converting your classic VMs to ARM](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-overview)
