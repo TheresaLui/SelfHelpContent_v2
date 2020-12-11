@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Deployment issues with Azure Migrate appliance for VMware"
+  pagetitle="Deployment issues with Azure Migrate appliance for VMware&#xD;"
   service="microsoft.migrate"
   resource="migrateprojects"
   ms.author="vibansa"
@@ -40,7 +40,7 @@ No, setting up the appliance on an Azure VM is not recommended.
 
 1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
 1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking **Set up proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
+1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
 1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or that you have the mobility service agent installed on the server
 
 **I am getting an error in the auto update check on the appliance**
@@ -49,10 +49,15 @@ Ensure that you have created an allow list for the required [URLs](https://docs.
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
+** After clicking on login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot login**
+
+1. Go back to the Appliance configuration manager tab and you will find the device code **in bold** below the login button.
+1. Copy the device code and paste it in the Login tab to proceed with Azure Login.
+
 **After successful login with Azure user account, appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
 1. This issue happens when the Azure user account that was used to log in from the appliance configuration manager is different from the user account that was used to generate the Azure Migrate project key on the portal
-1. Either use the same Azure user account that generated the Azure Migrate project key on theportal to complete the registration of the appliance, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
+1. Either use the same Azure user account that generated the Azure Migrate project key on the portal to complete the registration of the appliance, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
 
 **I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
