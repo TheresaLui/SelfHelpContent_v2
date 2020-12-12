@@ -15,6 +15,7 @@
 # Troubleshooting migration issue
 ---
 {
+	"$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Troubleshooting migration issue",
@@ -270,7 +271,7 @@
 	},
 	{
 		"id": "migration_tool",
-		"visibility": "IssueType == Performance || IssueType == MigrationTool"
+		"visibility": "IssueType == Performance || IssueType == MigrationTool",
 		"order": 9,
 		"controlType": "dropdown",
 		"displayLabel": "Migration tool",
@@ -346,7 +347,7 @@
 	},
 	{
 		"id": "error_code_dropdown",
-		"visibility": "IssueType != Performance && IssueType != MigrationTool"
+		"visibility": "IssueType != Performance && IssueType != MigrationTool",
 		"order": 11,
 		"controlType": "dropdown",
 		"displayLabel": "Error code",
@@ -422,7 +423,7 @@
 	},
 	{
 		"id": "request_id",
-		"visibility": "IssueType != Performance && IssueType != MigrationTool"
+		"visibility": "IssueType != Performance && IssueType != MigrationTool",
 		"order": 12,
 		"controlType": "textbox",
 		"displayLabel": "Storage server Request ID",
@@ -438,8 +439,21 @@
 		"displayLabel": "Approximate start time of the most recent occurrence",
 		"required": true,
 		"diagnosticInputRequiredClients": "Portal,ASC"
-	}
-],
-"$schema": "SelfHelpContent"
+	},
+	{
+		"id": "problem_description",
+		"order": 14,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true,
+		"hints": [{
+				"text": "Issue description."
+			}, {
+				"text": "Provide additional information about your issue"
+			}
+		]
+	}]
 }
 ---

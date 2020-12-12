@@ -8,13 +8,14 @@
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest,usnat,ussec"
 	schemaVersion="1"
-	articleId="65bbc16c-94c9-4449-9852-31c676302f4d"
+	articleId="0f76c1ac-ed33-475d-a413-5e6a7398186a"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshooting migration issue
 ---
 {
+	"$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Troubleshooting migration issue",
@@ -106,8 +107,21 @@
 		"displayLabel": "Approximate start time of the most recent occurrence",
 		"required": true,
 		"diagnosticInputRequiredClients": "Portal,ASC"
-	}
-],
-"$schema": "SelfHelpContent"
+	},
+	{
+		"id": "problem_description",
+		"order": 6,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true,
+		"hints": [{
+				"text": "Issue description."
+			}, {
+				"text": "Provide additional information about your issue"
+			}
+		]
+	}]
 }
 ---

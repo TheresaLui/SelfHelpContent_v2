@@ -15,6 +15,7 @@
 # Troubleshooting migration issue
 ---
 {
+	"$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Troubleshooting migration issue",
@@ -62,7 +63,7 @@
 			{
 				"value": "copy_files_to_adlsgen2",
 				"text": "Copy Azure Files to Azure Data Lake Gen2 storage"
-			},			
+			},
 			{
 				"value": "copy_adlsgen2_to_adlsgen2",
 				"text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
@@ -85,8 +86,7 @@
 	},
 	{
 		"id": "storage_account_from",
-		"visibility": "adlsgen2_migration_scenario == copy_large_adlsgen2_files_to_localonpremise || adlsgen2_migration_scenario == copy_adlsgen2_to_localonpremise || adlsgen2_migration_scenario == copy_adlsgen2_to_blobs || adlsgen2_migration_scenario == copy_blobs_to_adlsgen2 || adlsgen2_migration_scenario == copy_adlsgen2_to_files ||
-		adlsgen2_migration_scenario == copy_files_to_adlsgen2 || adlsgen2_migration_scenario == copy_adlsgen2_to_adlsgen2",
+		"visibility": "adlsgen2_migration_scenario == copy_large_adlsgen2_files_to_localonpremise || adlsgen2_migration_scenario == copy_adlsgen2_to_localonpremise || adlsgen2_migration_scenario == copy_adlsgen2_to_blobs || adlsgen2_migration_scenario == copy_blobs_to_adlsgen2 || adlsgen2_migration_scenario == copy_adlsgen2_to_files || adlsgen2_migration_scenario == copy_files_to_adlsgen2 || adlsgen2_migration_scenario == copy_adlsgen2_to_adlsgen2",
 		"order": 2,
 		"controlType": "dropdown",
 		"displayLabel": "Source storage account",
@@ -279,7 +279,7 @@
 	},
 	{
 		"id": "migration_tool",
-		"visibility": "IssueType == Performance || IssueType == MigrationTool"
+		"visibility": "IssueType == Performance || IssueType == MigrationTool",
 		"order": 9,
 		"controlType": "dropdown",
 		"displayLabel": "Migration tool",
@@ -355,7 +355,7 @@
 	},
 	{
 		"id": "error_code_dropdown",
-		"visibility": "IssueType != Performance && IssueType != MigrationTool"
+		"visibility": "IssueType != Performance && IssueType != MigrationTool",
 		"order": 11,
 		"controlType": "dropdown",
 		"displayLabel": "Error code",
@@ -431,7 +431,7 @@
 	},
 	{
 		"id": "request_id",
-		"visibility": "IssueType != Performance && IssueType != MigrationTool"
+		"visibility": "IssueType != Performance && IssueType != MigrationTool",
 		"order": 12,
 		"controlType": "textbox",
 		"displayLabel": "Storage server Request ID",
@@ -447,8 +447,21 @@
 		"displayLabel": "Approximate start time of the most recent occurrence",
 		"required": true,
 		"diagnosticInputRequiredClients": "Portal,ASC"
-	}
-],
-"$schema": "SelfHelpContent"
+	},
+	{
+		"id": "problem_description",
+		"order": 14,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true,
+		"hints": [{
+				"text": "Issue description."
+			}, {
+				"text": "Provide additional information about your issue"
+			}
+		]
+	}]
 }
 ---
