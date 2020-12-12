@@ -29,7 +29,7 @@ Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmn
 
 <!--$DataTable-->DataTable<!--/$DataTable-->
 
-# Diagnose and resolve Virtual Machine Disk performance issues
+## Diagnose and resolve Virtual Machine Disk performance issues
 
 Azure virtual machines have IOPS and throughput performance limits based on the virtual machine type and size. When your application running on your virtual machine requests more IOPS or throughput than what is allotted for the virtual machine, your application's performance gets capped. When this happens, the application will experience suboptimal performance and can lead to some negative consequences like increased latency.
 
@@ -37,7 +37,7 @@ Azure virtual machines have IOPS and throughput performance limits based on the 
 
 If you are experiencing issues with disk performance please review our guidance on [Windows Virtual Machines and disk performance](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows).
 
-**Detection: If you are unaware of the process driving disk consumption, for Windows virtual machines you can [run PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for storage analysis.
+**Detection: If you are unaware of the process driving disk consumption, for Windows virtual machines you can [run PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/performanceDiagnostics)** and review results directly from the Azure portal. PerfInsights generates a report that contains a dedicated tab for storage analysis.
 
 You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) and run it in your virtual machine. 
 

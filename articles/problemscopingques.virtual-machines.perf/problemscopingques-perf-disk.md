@@ -46,6 +46,10 @@
                 {
                     "value": "24",
                     "text": "24 hours"
+                },
+                {
+                    "value": "24"
+                    "text": "Unknown"
                 }
             ],
             "required": true,
