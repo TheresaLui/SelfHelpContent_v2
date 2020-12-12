@@ -71,7 +71,7 @@
 			{
 				"value": "copy_from_aws_s3_to_adlsgen2",
 				"text": "Copy files from AWS S3 to Azure Data Lake Gen2 storage"
-			},			
+			},
 			{
 				"value": "copy_from_otherexternalcloud_to_adlsgen2",
 				"text": "Copy files from other external cloud (Google cloud, etc.) to Azure Data Lake Gen2 storage"
