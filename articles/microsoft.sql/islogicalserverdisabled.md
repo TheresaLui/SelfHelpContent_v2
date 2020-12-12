@@ -8,7 +8,7 @@
 	ms.author="aamalvea"
 	displayOrder=""
 	articleId="IsLogicalServerDisabled_56701EED-97BA-4BC5-A916-C4ECFD1C4F07"
-	diagnosticScenario=""
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""

@@ -21,6 +21,7 @@
 2. Now we need the customer to provide the correct ABN ID
 3. Call the customer and have them email you the form and copy the case mail.
 4. Validate VAT ID accessing [this link](http://www.abn.business.gov.au/)
+5. Verify the customer information matches the account in CMAT
 
 # Recommended Documents
 

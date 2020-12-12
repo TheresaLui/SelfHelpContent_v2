@@ -5,9 +5,9 @@
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32729575, 32729576, 32729577, 32729582, 32729588"
+	supportTopicIds="32729575,32729576,32729577,32729582,32729588"
 	productPesIds="15693"
-	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />

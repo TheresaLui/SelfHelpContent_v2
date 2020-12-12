@@ -76,9 +76,17 @@
             ],
             "required": false
         },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -87,7 +95,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

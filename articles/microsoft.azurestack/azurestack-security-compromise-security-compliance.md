@@ -1,10 +1,10 @@
 <properties
-  pagetitle="Azure Stack Compromise, Security, and Compliance concerns"
+  pagetitle="Azure Stack Compromise, Security, and Compliance concerns&#xD;"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="alexsmit,justinha"
+  ms.author="alexsmit,justinha,mabrigg"
   selfhelptype="Generic"
-  supporttopicids="32663930,32737129,32737267,32745854,32748898" 
+  supporttopicids="32663930,32737129,32737267,32745854,32748898"
   resourcetags=""
   productpesids="16226,17322,17057,17058"
   cloudenvironments="public,fairfax,usnat,ussec"

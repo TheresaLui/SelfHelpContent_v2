@@ -1,26 +1,20 @@
 <properties
- pageTitle="V2 - Mapping Data Flow Connectivity Troubleshooting"
- description="V2 - Mapping Data Flow Connectivity Troubleshooting"
- service="microsoft.datafactory"
- resource="factories"
- authors="hecepeda"
- ms.author="hecepeda"
- displayOrder=""
- selfHelpType="generic"
- supportTopicIds="32633540,32633539"
- resourceTags=""
- productPesIds="15613"
- cloudEnvironments="public, fairfax, usnat, ussec"
- articleId="v2-mapping-data-flow-connectivity-formatting.md"
- ownershipId="AzureData_DataFactory"
-/>
+  pagetitle="Mapping data flow - Source/Sink Format and Connector Issue"
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="hecepeda,vimals"
+  selfhelptype="Generic"
+  supporttopicids="32633540,32633539"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="v2-mapping-data-flow-connectivity-formatting.md"
+  ownershipid="AzureData_DataFactory" />
 
 # Mapping data flow - Source/Sink Format and Connector Issue
-
-Mapping data flows currently support connecting to some common data sources and sinks (see current [sources](https://docs.microsoft.com/azure/data-factory/data-flow-source) and [sinks](https://docs.microsoft.com/azure/data-factory/data-flow-sink)), if you are experiencing issues connecting to any of the supported data sources or sinks, make sure you review the following troubleshooting guides which contain most of the common errors and solutions, while connecting to these data sources.
+Mapping data flows currently supports connecting to some common data sources and sinks. See current [sources](https://docs.microsoft.com/azure/data-factory/data-flow-source) and [sinks](https://docs.microsoft.com/azure/data-factory/data-flow-sink). If you are experiencing issues connecting to any of the supported data sources or sinks, review the following troubleshooting guides, which cover the most common errors and solutions.
 
 ### **Troubleshooting guides for supported data sources/sinks**
-
 * [SQL connector, Azure Synapse Analytics troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
 * [Azure Storage connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
 * [ADLS Gen 1 connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
@@ -30,16 +24,13 @@ Mapping data flows currently support connecting to some common data sources and 
 Azure Data Factory has access to over [90 native connectors](https://docs.microsoft.com/azure/data-factory/connector-overview). To include or write data to any of those other sources from your data flow, use the Copy Activity to load or move that data from one of the supported staging areas, before starting, or after completion of your data flow.
 
 ### **Formatting Troubleshooting**
-
-If you are having problems with the format supported by the data sources, review the following troubleshooting guides containing common errors and solutions for the formats below:
-
+If you are having problems with the format supported by the data sources, see the following troubleshooting guides containing common errors and solutions for the following specific formats:
 * [JSON common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
 * [Parquet common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
 * [Delimited text troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format)
 
 ## **Recommended Documents**
-
-For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide).
+For common errors and basic Mapping Data Flow activity troubleshooting, see the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide) 
 
 - [Mapping Data Flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
 - [Mapping Data Flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
@@ -48,20 +39,26 @@ For common errors and basic Mapping Data Flow activity troubleshooting please re
 - [Execute data flow activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-execute-data-flow-activity)
 
 **Data Flow Transformations**
-
 - [Mapping Data Flow Source Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-source)
 - [Mapping Data Flow Schema Drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
 - [Mapping Data Flow Sink Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
 ### **FAQ**
 
-**Q: Can I connect to Azure Analysis Services using Mapping Data Flow?**
-**A:** You will need a copy activity, to move the data to a staging supported data source from your Azure Analysis Services.
+**Can I connect to Azure Analysis Services using Mapping Data Flow?**
 
-**Q: I have a Linked Service for Azure SQL Database configured to use a Self-Hosted IR, can I use it with Mapping Data Flow?**
-**A:** Mapping Data Flow only supports the Azure IR, if your Azure SQL Database Firewall configuration does not allow access to the Azure IR IP address, your mapping data flow will not be access the data, you can resolve this by whitelisting the Azure IR IP addresses, or by copying the data to a staging supported data source in case you cannot change your firewall configuration.
+You will need a copy activity in order to move the data to a staging supported data source from your Azure Analysis Services.
 
-**Q: My connection to Azure Synapse Analytics (Formerly Azure Data Warehouse) works when I test connectivity, but it fails when attempting to write data with a permissions error, what are the permissions required?**
-**A:** To use PolyBase, the user that loads data into SQL Data Warehouse must have "CONTROL" permission on the target database. For more information refer to the connector documentation
+**I have a Linked Service for Azure SQL Database configured to use a Self-Hosted IR, can I use it with Mapping Data Flow?**
 
-To request a new feature visit [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory).
+Mapping Data Flow only supports the Azure IR. if your Azure SQL Database Firewall configuration does not allow access to the Azure IR IP address, your mapping data flow will not be accessing the data. Resolve this by whitelisting the Azure IR IP addresses, or by copying the data to a staging supported data source if you cannot change your firewall configuration.
+
+**My connection to Azure Synapse Analytics (Formerly Azure Data Warehouse) works when I test connectivity, but it fails when attempting to write data with a permissions error. What are the permissions required?**
+
+To use PolyBase, the user loading data into SQL Data Warehouse must have the "CONTROL" permission on the target database. For more informationm see the connector documentation.
+
+To request a new feature, see [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory).
+
+### **Common Issues**
+
+- If you receive **The corpus path is null or empty**_ error message when using model.json source type from Power BI or Power Platform dataflows, see [ADF Adds support for inline datasets and common data models](https://techcommunity.microsoft.com/t5/azure-data-factory/adf-adds-support-for-inline-datasets-and-common-data-model-to/ba-p/1441798)

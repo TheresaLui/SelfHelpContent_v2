@@ -15,7 +15,7 @@
     schemaVersion="1"
     ownershipId="Compute_AzurePolicy"
 />
-# Policy behavior not as expected
+# Issues with Guest Configuration
 ---
 {
     "subscriptionRequired": true,

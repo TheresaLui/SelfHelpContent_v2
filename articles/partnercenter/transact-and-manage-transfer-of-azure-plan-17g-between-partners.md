@@ -32,5 +32,5 @@ The customer should refer to the relevant cancellation terms in their agreement 
 ## **Recommended Documents**
 
 * [CSP resource gallery - Azure transition tool](https://partner.microsoft.com/resources/collection/transition-tool-azure-subscriptions-new-commerce-experience-csp#/)
-
+* [Azure Plan (17G) partner transfers](https://docs.microsoft.com/partner-center/transfer-azure-subscriptions-under-azure-plan)
 

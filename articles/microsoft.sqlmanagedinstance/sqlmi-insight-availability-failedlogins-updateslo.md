@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLMI_Availability"
 />
 # Failed logins due to compute or storage scaling
 
@@ -26,12 +26,13 @@ More details about the failure(s):
 <!--$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->SQLMIFailedLoginsDueToUpdateSloRcaDetails<!--/$SQLMIFailedLoginsDueToUpdateSloRcaDetails-->
 <!--/issueDescription-->
 
-SQL Managed Instance is available during update operations, except a short period of time during the failover that happens at the end of update. It typically lasts seconds even in case of interrupted long-running transactions, thanks to the [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
+SQL Managed Instance is available during update operations, except for a short period of time during the failover that happens at the end of update. This period typically lasts only for a few seconds, even in case of interrupted long-running transactions, due to [accelerated database recovery](https://docs.microsoft.com/azure/azure-sql/accelerated-database-recovery).
 
 ## **Recommended Steps**
-It's not recommended to scale compute or storage of Azure SQL Managed Instance or to change the service tier at the same time with the long-running transactions (data import, data processing jobs, index rebuild, etc.). Database failover that will be performed at the end of the operation will cancel all ongoing transactions.
 
-Building resiliency into your application to account for these situations can help provide seamless experience for the end user when these transient scenarios occur. For information about connectivity in Azure SQL DB, how to implement retry logic, and to understand common errors in Azure SQL DB please refer to the [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors) article.
+We don't recommend scale compute or storage of Azure SQL Managed Instance or to change the service tier at the same time with the long-running transactions (data import, data processing jobs, index rebuild, and so on). Database failover that is performed at the end of the operation cancels all ongoing transactions.
+
+Building resiliency into your application to account for these situations can help provide seamless experience for the end user when these transient scenarios occur. For information about connectivity in Azure SQL DB, how to implement retry logic, and to understand common errors in Azure SQL DB, see [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors).
 
 ## **Recommended Documents**
 

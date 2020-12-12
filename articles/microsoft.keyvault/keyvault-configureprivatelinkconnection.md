@@ -19,6 +19,8 @@
 
 ## **Recommended Steps**
 
+* [Diagnose private links configuration issues on Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/private-link-diagnostics)
+
 ### **Troubleshoot Private Link Connection to On Prem Resources**
 
 * Azure Private Endpoint DNS Configuration [Link](https://docs.microsoft.com/azure/private-link/private-endpoint-dns)

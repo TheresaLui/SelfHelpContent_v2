@@ -15,18 +15,20 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Preparing Certificates
+# Azure Stack Hub preparing certificates
+
+Azure Stack Hub uses certificates for both external and internal secrets. The operator provides external certificates used during both initial deployment of Azure Stack Hub, and regular [secret rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets).
+
+ **This guidance pertains to certificates used for external secrets only**, as internal secret management does not require operator intervention. 
 
 ## **Recommended Steps**
 
-Once your certificates have been validated by the AzsReadinessChecker, you are ready to use them in your Azure Stack deployment or for Azure Stack secret rotation.
-
-- For deployment, securely transfer your certificates to your deployment engineer, so that they can copy them onto the deployment host as specified in the [Azure Stack PKI requirements documentation](https://docs.microsoft.com/azure-stack/operator/azure-stack-pki-certs)
-- For secret rotation, you can use the certificates to update old certificates for your Azure Stack environment's public infrastructure endpoints by following the [Azure Stack Secret Rotation documentation](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets)
-- For PaaS services, you can use the certificates to install SQL, MySQL, and App Services Resource Providers in Azure Stack by following the [Overview of offering services in Azure Stack documentation](https://docs.microsoft.com/azure-stack/operator/azure-stack-offer-services-overview)
+1. First review [Azure Stack Hub public key infrastructure (PKI) certificate requirements](https://docs.microsoft.com/azure/azure-stack/azure-stack-pki-certs#certificate-requirements​).
+2. Then [generate certificate signing requests](https://docs.microsoft.com/azure/azure-stack/azure-stack-get-pki-certs) for your certificates. 
+3. [Prepare Azure Stack Hub PKI certificates for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
+4. Then [validate Azure Stack Hub PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs)
 
 ## **Recommended Documents**
 
-- [Prepare Azure Stack PKI certificates for use in deployment and rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
-- [Remediate common issues for Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-remediate-certs) 
+[Fix common issues with Azure Stack Hub PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-remediate-certs)
 

@@ -36,7 +36,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account",
   "description": "Enable the large file share feature on storage account to avoid throttling.",
   "longDescription": "Standard file shares are limited to 1000 IOPS per share. By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares. Enabling large files shares is an irreversible action. Large file shares enabled account can’t be converted to re-redundant accounts.",
