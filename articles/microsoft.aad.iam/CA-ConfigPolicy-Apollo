@@ -12,11 +12,13 @@ cloudEnvironments="public"
 ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
-## Welcome to our new guided troubleshooting experience for Conditional Access
-This experience integrates automated checks, manual steps, important documents and relevant results from the web.
- 
+# Troubleshooting issues related to Conditional Access
+
 :::Section Insights:::
-## Diagnostics
+## Troubleshooting issues related to Conditional Access
+Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
+
+### Diagnostics
  
 <Insight>
 <symptomId>DxpPrimaryInfoInsight</symptomId>
@@ -31,7 +33,7 @@ This experience integrates automated checks, manual steps, important documents a
 <client>Portal</client>
 </CommonSolution>
 
-## More resources
+### More resources
 Here are some articles from the web that may help you: 
 
 <azureKB>
