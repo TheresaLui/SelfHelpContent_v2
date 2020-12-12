@@ -48,7 +48,7 @@
                     "text": "24 hours"
                 },
                 {
-                    "value": "24"
+                    "value": "24",
                     "text": "Unknown"
                 }
             ],
