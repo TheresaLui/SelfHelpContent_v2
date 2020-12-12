@@ -38,12 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/security/fundamentals/tls-certificate-changes",
   "description": "Prevent HDInsight cluster VMs from rebooting periodically.",
-  "longDescription": "Starting from mid November 2020, you may have noticed HDInsight cluster VMs getting rebooted on a regular basis. This could be caused by: \
-  1. Clamav is enabled on your cluster and it could consume large amount of memory. Under certain conditions this could trigger node reboot. \
-  2. Microsoft is updating Azure services in a phased manner to use TLS certificates from a different set of Certificate Authorities (CAs). When a new CA certificate is available, HDInsight detects and adds the certificate to the JDK trust store and schedules a reboot in a staggered manner. \
-  HDInsight is deploying fixes and applying patch for all running clusters for both issues. To apply the fix immediately and avoid unexpected VMs rebooting, you can run below script actions on all cluster nodes as a persistent script action. HDInsight will post another notice after the fix and patching complete. Link to scripts:\
-  https://hdiconfigactions.blob.core.windows.net/linuxospatchingrebootconfigv02/replace_cacert_script.sh \
-  https://healingscriptssa.blob.core.windows.net/healingscripts/ChangeOOMPolicyAndApplyLatestConfigForClamav.sh
+  "longDescription": "Starting from mid November 2020, you may have noticed HDInsight cluster VMs getting rebooted on a regular basis. This could be caused by: 1. Clamav is enabled on your cluster and it could consume large amount of memory. Under certain conditions this could trigger node reboot. 2. Microsoft is updating Azure services in a phased manner to use TLS certificates from a different set of Certificate Authorities (CAs). When a new CA certificate is available, HDInsight detects and adds the certificate to the JDK trust store and schedules a reboot in a staggered manner. HDInsight is deploying fixes and applying patch for all running clusters for both issues. To apply the fix immediately and avoid unexpected VMs rebooting, you can run below script actions on all cluster nodes as a persistent script action. HDInsight will post another notice after the fix and patching complete. Link to scripts: https://hdiconfigactions.blob.core.windows.net/linuxospatchingrebootconfigv02/replace_cacert_script.sh  https://healingscriptssa.blob.core.windows.net/healingscripts/ChangeOOMPolicyAndApplyLatestConfigForClamav.sh
 ",
   "potentialBenefits": "Avoid unexpected VMs rebooting.",
   "actions": [
