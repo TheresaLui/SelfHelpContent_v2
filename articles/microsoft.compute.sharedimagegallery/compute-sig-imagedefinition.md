@@ -17,7 +17,7 @@
 
 # Cannot activate my Windows VM
 
-Most customers resolved their Shared Image Gallery issue using the steps below.
+Most customers resolved their Shared Image Gallery issue using the following resources.
 
 ## **Recommended Documents**
 
