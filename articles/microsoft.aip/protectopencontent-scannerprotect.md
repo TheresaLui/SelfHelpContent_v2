@@ -17,7 +17,7 @@
 
 # Azure Information Protection Protection - Protecting and Opening Content - Questions about applying protection with the AIP Scanner
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://aka.ms/aipclassicsunset).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
@@ -25,7 +25,7 @@ If you are running the scanner installed with the unified labeling client, run [
 
 ### Export Azure Information Protection Scanner logs
 
-Regardless of whether you're using the unified labeling or classic client, export scanner logs as follows:
+Whether you're using the unified labeling or classic client, export scanner logs as follows:
 
 1. Navigate to `%localappdata%\Microsoft\MSIP`, for the user that's running the scanner service.
 1. Zip all the contents in the **MSIP** folder.
