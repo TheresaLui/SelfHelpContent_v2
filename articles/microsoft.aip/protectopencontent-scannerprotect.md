@@ -25,7 +25,7 @@ If you are running the scanner installed with the unified labeling client, run [
 
 ### Export Azure Information Protection Scanner logs
 
-Regardless of whether you're using the unified labeling or classic client, export scanner logs as follows:
+Whether you're using the unified labeling or classic client, export scanner logs as follows:
 
 1. Navigate to `%localappdata%\Microsoft\MSIP`, for the user that's running the scanner service.
 1. Zip all the contents in the **MSIP** folder.
