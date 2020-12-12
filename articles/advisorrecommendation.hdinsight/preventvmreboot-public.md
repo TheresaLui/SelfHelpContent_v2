@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.HDInsight/clusters",
   "recommendationFriendlyName": "PreventVMReboot",
@@ -28,20 +28,18 @@
   "owner": {
     "email": "hdicorepm@microsoft.com",
     "icm": {
-      "routingId": "MDM://HDInsight PM Team",
+      "routingId": "MDM://HDIStreaming",
       "service": "HDInsight",
-      "team": "HDInsight PM Team"
+      "team": "Streaming & Store (HBase, Phoenix, Kafka, Storm, OMS)"
     },
     "serviceTreeId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135"
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "description": "Starting from mid November 2020, you may have noticed HDInsight cluster VMs getting rebooted on a regular basis. This could be caused by:
-1.	Clamav is enabled on your cluster. The new azsec-clamav package consumes large amount of memory which triggers node rebooting. 
-2.	A CRON job is scheduled daily that monitors for changes to the list of certificate authorities (CAs) used by Azure services. When a new CA certificate is available, the script adds the certificate to the JDK trust store and schedules a reboot.
-HDInsight is deploying fixes and applying patch for all running clusters for both issues. To apply the fix immediately and avoid unexpected VMs rebooting, you can run below script actions on all cluster nodes as a persistent script action. HDInsight will post another notice after the fix and patching complete.
-https://hdiconfigactions.blob.core.windows.net/linuxospatchingrebootconfigv02/replace_cacert_script.sh
-https://healingscriptssa.blob.core.windows.net/healingscripts/ChangeOOMPolicyAndApplyLatestConfigForClamav.sh",
+  "learnMoreLink": "https://docs.microsoft.com/azure/security/fundamentals/tls-certificate-changes",
+  "description": "Prevent HDInsight cluster VMs from rebooting periodically.",
+  "longDescription": "Starting from mid November 2020, you may have noticed HDInsight cluster VMs getting rebooted on a regular basis. This could be caused by: \n1. Clamav is enabled on your cluster. The new azsec-clamav package consumes large amount of memory which triggers node rebooting. \n2. A CRON job is scheduled daily that monitors for changes to the list of certificate authorities (CAs) used by Azure services. When a new CA certificate is available, the script adds the certificate to the JDK trust store and schedules a reboot. \nHDInsight is deploying fixes and applying patch for all running clusters for both issues. To apply the fix immediately and avoid unexpected VMs rebooting, you can run below script actions on all cluster nodes as a persistent script action. HDInsight will post another notice after the fix and patching complete. \nhttps://hdiconfigactions.blob.core.windows.net/linuxospatchingrebootconfigv02/replace_cacert_script.sh \nhttps://healingscriptssa.blob.core.windows.net/healingscripts/ChangeOOMPolicyAndApplyLatestConfigForClamav.sh",
+  "potentialBenefits": "Avoid unexpected VMs rebooting.",
   "actions": [
     {
       "actionId": "d9634cc2-681f-4abc-81a3-4b6adee00eaf",
