@@ -22,10 +22,34 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00767da0-64eb-a6cd-48a0-054c9a600665",
+      "longDescription": "",
+      "shortDescription": "Issues with importing OpenAPI, WSDL, and WADL APIs",
+      "searchTags": "OpenAPI;WSDL;WADL",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
+      "longDescription": "",
+      "shortDescription": "Why is my APIM capacity high?",
+      "searchTags": "capacity",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "17bd9098-5a17-03a0-fb7c-4d076261e407",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues with APIM migrations ",
       "searchTags": "migration;integration",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "192cb6a8-fe07-fd45-9057-3a4f76c229bd",
+      "longDescription": "",
+      "shortDescription": "Issues with changing Admin contact",
+      "searchTags": "Admin",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
@@ -54,11 +78,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "341aadb6-29e6-a050-45c9-aa200ae2d805",
+      "longDescription": "",
+      "shortDescription": "Unexpected behavior in Portal UI",
+      "searchTags": "issue",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37fe510b-e9d2-2b6b-a9ec-0d7f656019ca",
       "longDescription": "",
       "shortDescription": "Guidance on backup, restore, ARM template, deployments, scaling, GIT integration, Migrations and Operations",
       "searchTags": "ARM;GIT;Deployments;Operations;Migrations",
       "category": "Administration and Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "390d849c-fac5-d2e0-812e-0e5d31d8dbde",
+      "longDescription": "",
+      "shortDescription": "Creating APIs",
+      "searchTags": "API",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3eeea2b1-36af-c1b4-fb6e-63e6d4051136",
+      "longDescription": "",
+      "shortDescription": "Configuration issues with MSI and KeyVault",
+      "searchTags": "MSI;KeyVault",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -78,6 +126,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "45b28240-840c-137d-1b13-98b5433cf5c0",
+      "longDescription": "",
+      "shortDescription": "Issues with importing Logic App or Function Apps APIs",
+      "searchTags": "Import;Function Apps;Logic App",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4d21eeb2-be55-0e3a-4064-7b352cf6dd6d",
+      "longDescription": "",
+      "shortDescription": "Issues with subscription keys",
+      "searchTags": "subscriptionkeys",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "50af3be1-7132-0f22-ace4-47d49b0c4ad9",
       "longDescription": "",
       "shortDescription": "Issues related to API Management blade in the Azure Portal",
@@ -94,6 +158,30 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "550f925a-df39-bcb2-d288-d1ef178a0c8a",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring JSON to XML policies",
+      "searchTags": "JSON;XML",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "55281c8f-9b08-13cc-f4fe-a0e66afd3aad",
+      "longDescription": "",
+      "shortDescription": "Portal down",
+      "searchTags": "Down",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "571b0947-da7d-099d-b19b-3cca640f7606",
+      "longDescription": "",
+      "shortDescription": "Integration issues with Application Insights",
+      "searchTags": "integration",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
@@ -107,6 +195,14 @@
       "shortDescription": "Common issues with connectivity and tabs not populating",
       "searchTags": "Tabs;Connectivity;populating",
       "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "66dba1e2-76eb-4860-3a2e-976f99f7451f",
+      "longDescription": "",
+      "shortDescription": "Configuring policies with self-hosted gateway",
+      "searchTags": "policies;configuration",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -134,11 +230,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7bb895a7-d71c-f23a-ec4c-5a1960ce407c",
+      "longDescription": "",
+      "shortDescription": "unexpected API responses with self-hosted gateway",
+      "searchTags": "API;Gateway",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "822c1554-109c-a87a-1cf1-ea44639dde0a",
       "longDescription": "",
       "shortDescription": "Unexpected behavior in Azure Portal",
       "searchTags": "AzurePortal",
       "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8a30810e-71b0-7b92-cfe1-2b02d8383e9e",
+      "longDescription": "",
+      "shortDescription": "External accessibility issues to the portal",
+      "searchTags": "Gateway;accessibility",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "91e9152e-eb22-79e1-09f3-aee02992d8fb",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring CORS",
+      "searchTags": "CORS",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -150,11 +270,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9a8a1f02-944a-2a8f-26d6-9707979ea8e0",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting sign-in issues",
+      "searchTags": "sign in;sign-in",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9e7e7ece-efd9-a8cb-3cb0-26bfc33381a7",
       "longDescription": "",
       "shortDescription": "Assistance with gateways running on Kubernetes or Docker",
       "searchTags": "gateway;Custom domains;Domains;API responses",
       "category": "Self Hosted Gateways",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "af037e8e-94e2-c61e-ead9-f1bb45a82b34",
+      "longDescription": "",
+      "shortDescription": "Issues with performance of self-hosted gateway",
+      "searchTags": "performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b0139cc0-302f-b2f7-0e17-5fb2bc172a7c",
+      "longDescription": "",
+      "shortDescription": "Configuration issues with monitoring and diagnostics",
+      "searchTags": "diagnostic;monitoring",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -166,11 +310,59 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4be2190-1ffc-e36c-b242-f744490951a2",
+      "longDescription": "",
+      "shortDescription": "Issues with the Management API",
+      "searchTags": "ManagementAPI",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d441d37b-d7e0-e149-2842-a399f0d0a9ec",
+      "longDescription": "",
+      "shortDescription": "Issues with API versions and revisions",
+      "searchTags": "versions;revisions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d833283b-325e-c592-e652-c95693444d8b",
       "longDescription": "",
       "shortDescription": "Issues related to APIM upgrades, scaling or changing SKUs",
       "searchTags": "SKUs;Upgrade;scaling",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d8512c11-63a6-a29a-490a-4d26de0b64fe",
+      "longDescription": "",
+      "shortDescription": "Issues with collecting debug traces",
+      "searchTags": "traces;debug",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d90bcc12-a818-e831-4717-1340712e826f",
+      "longDescription": "",
+      "shortDescription": "Issues with using C Sharp expressions in policies",
+      "searchTags": "policies",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ddd06a4d-1dca-3b8f-b8cf-85034e61c044",
+      "longDescription": "",
+      "shortDescription": "Issues with customization and branding the Developer Portal",
+      "searchTags": "customize;Branding",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f50146a0-1e52-89d5-a441-b37679b10670",
+      "longDescription": "",
+      "shortDescription": "Custom domain configurations issues with self-hosted gateway",
+      "searchTags": "Domain",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

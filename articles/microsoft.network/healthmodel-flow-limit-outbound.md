@@ -1,6 +1,6 @@
 <properties
 pageTitle="Outbound Flow Limit Exceeded"
-description="VM network interface is dropping some outbound connections due to the number of flows exceeding the 500K flow limit"
+description="VM network interface is dropping some outbound connections due to the number of flows exceeding the flow limit"
 infoBubbleText="Issues with VM network interface were detected. See details on the right."
 service="microsoft.network"
 resource="virtualmachines"
@@ -19,7 +19,7 @@ ownershipId="CloudNet_PhyNet"
 
 # We found an issue with the network interface on this VM
 <!--issueDescription-->
-Microsoft Azure has identified an issue with your VM, **<!--$vmname-->[vmname]<!--/$vmname-->**.  Some outbound connections are being dropped due to 500K flow limit exceeded on the network interface.
+Microsoft Azure has identified an issue with your VM, **<!--$vmname-->[vmname]<!--/$vmname-->**.  Some outbound connections are being dropped due to flow limit exceeded on the network interface.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
