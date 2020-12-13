@@ -1,8 +1,8 @@
 <properties
-	  pageTitle="CPU > 80%"
-	  description="CPU > 80%"
-      service="Microsoft.DocumentDB"
-      resource="databaseAccounts"
+	  pageTitle="CPU more than 80%"
+	  description="CPU more than 80%"
+	  service="Microsoft.DocumentDB"
+	  resource="databaseAccounts"
 	  authors="anferrei"
 	  ms.author="anferrei"
 	  displayOrder=""
@@ -15,7 +15,7 @@
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# CPU > 80%
+# CPU more than 80%
 
 <!--issueDescription-->
 
