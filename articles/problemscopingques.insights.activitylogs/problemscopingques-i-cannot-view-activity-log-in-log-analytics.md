@@ -26,7 +26,7 @@
             "displayLabel": "When did the problem start happening?",
             "required": false
         },
-                {
+            {
             "id": "problem_descriptionla",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -34,8 +34,7 @@
             "watermarkText": "Provide the Log Analytics workspace name and the Azure subscription id where it exists.",
             "required": true,
             "useAsAdditionalDetails": false,
-            "hints": []
-        },
+             },
         {
             "id": "problem_description",
             "order": 7,
