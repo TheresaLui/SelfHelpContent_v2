@@ -1,9 +1,9 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeCrash - Guest OS - UBUNTU"
+	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - UBUNTU"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service=""
-	resource=""
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="naterns"
 	ms.author="naterns"
 	displayOrder=""
@@ -12,42 +12,59 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 
 />
 # We ran diagnostics on your resource and found an issue
 
+## **VM Availability**
 <!--issueDescription-->
-We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> experienced downtime at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. This unexpected occurrence was caused by a crash in the VM’s operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
+<!--rcaDescription-->
+### **Root Cause**
+> This unexpected occurrence was caused by a crash in the VMs operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
+> 
+> To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
+> 
+> - A memory address that causes an access violation
+> - An unexpected exception or trap
+> - A faulting kernel mode driver
+> 
 
-- A memory address that causes an access violation
-- An unexpected exception or trap
-- A faulting kernel mode driver
+<!--resolutionDetails-->
+### **Resolution**
+> VM was restored following reboot of the host node.
+> 
+<!--/resolutionDetails-->
+<!--/rcaDescription-->
 
-We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+<!--recommendedActions-->## **Recommended Steps**
 
-Microsoft Azure Term
-<br>
+> Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:
+> 
+> Troubleshooting links:
+> * [Ubuntu Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
+> * [Ubuntu wiki - Crash Dump Recipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
 
-## **Recommended Steps**
-
-Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:<br>
-
-Troubleshooting links:
-* [Ubuntu Kernel crash dump ](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
-* [Ubuntu wiki - Crash Dump Recipe ](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
 
 ## **Recommended Documents**
 
-Learn more about:
-* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
-* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
-* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
-* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-<br>
+> *Learn more about:*
+> * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+> * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+> * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+> * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+> * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+> 
+<!--/recommendedActions-->
+
+
+<!--salutation-->
+We apologize for any inconvenience this may have caused you. 
+
+Microsoft Azure Team
+<!--/salutation-->

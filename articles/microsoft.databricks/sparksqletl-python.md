@@ -15,12 +15,14 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Python
+# Diagnose and resolve Spark issues with Python API (PySpark)
+
+Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled. This exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials.
 
 ## **Recommended Steps**
 
-* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
-    - You can either disable Credential Passthrough for this HC cluster
+You can either:
+    - Disable Credential Passthrough for this HC cluster
     - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
 
 ## **Recommended Documents**

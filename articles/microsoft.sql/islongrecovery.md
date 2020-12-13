@@ -8,7 +8,7 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="IsLongRecovery_DB131178-E313-4877-AF3E-8EA46B7D642C"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""
