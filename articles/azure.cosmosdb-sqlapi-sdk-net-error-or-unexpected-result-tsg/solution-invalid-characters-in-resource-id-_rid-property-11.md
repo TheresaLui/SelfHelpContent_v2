@@ -1,8 +1,8 @@
 <properties
-	  pageTitle="Invalid characters in Resource.Id _rid Property"
-	  description="Invalid characters in Resource.Id _rid Property"
-      service="Microsoft.DocumentDB"
-      resource="databaseAccounts"
+	  pageTitle="Invalid characters in Resource Id \_rid Property"
+	  description="Invalid characters in ResourceId \_rid Property"
+	  service="Microsoft.DocumentDB"
+	  resource="databaseAccounts"
 	  authors="anferrei"
 	  ms.author="anferrei"
 	  displayOrder=""
@@ -14,6 +14,7 @@
 	  articleId="63c9bdb9-3171-4c84-b1d9-bec915033910"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
+
 
 # Invalid characters in Resource.Id _rid Property
 
