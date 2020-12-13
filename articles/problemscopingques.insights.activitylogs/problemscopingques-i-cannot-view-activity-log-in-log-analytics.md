@@ -11,6 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
+
 # I can't view Activity Log in Log Analytics
 ---
 {
