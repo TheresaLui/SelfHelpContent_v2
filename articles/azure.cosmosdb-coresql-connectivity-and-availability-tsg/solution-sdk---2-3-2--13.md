@@ -1,8 +1,8 @@
 <properties
-	  pageTitle="SDK < 2.3.2 "
-	  description="SDK < 2.3.2 "
-      service="Microsoft.DocumentDB"
-      resource="databaseAccounts"
+	  pageTitle="SDK version less than 2.3.2 "
+	  description="SDK version less than 2.3.2 "
+	  service="Microsoft.DocumentDB"
+	  resource="databaseAccounts"
 	  authors="anferrei"
 	  ms.author="anferrei"
 	  displayOrder=""
@@ -15,7 +15,7 @@
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# SDK < 2.3.2 
+# SDK version less than 2.3.2 
 
 <!--issueDescription-->
 
