@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_Portal"
 />
-# Portal Usage and Configuration - Roles and permission
+# Portal Usage and Configuration - Roles_and_permission
 ---
 {
 				"$schema": "SelfHelpContent",
