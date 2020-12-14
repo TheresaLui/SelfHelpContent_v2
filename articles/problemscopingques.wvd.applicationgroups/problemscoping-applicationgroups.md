@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Configuration and Management"
-	description="Configuration and management"
+	pageTitle="Application groups"
+	description="Application groups"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32727874,32727875,32727876"
+	supportTopicIds="32783588"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# Configuration and Management
+# Application groups
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": false,
-  "title": "Issues with configuration and management",
+  "title": "Application groups",
   "fileAttachmentHint": "",
   "formElements": [
     {

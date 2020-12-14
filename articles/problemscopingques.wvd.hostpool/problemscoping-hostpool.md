@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Session connectivity"
-	description="Session connectivity"
+	pageTitle="Host pool issues"
+	description="Host pool issues"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783600,32783601,32783602"
+	supportTopicIds="32783590"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="3c88b294-12a6-4d77-ab33-70c8cc9e49e9"
+	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# Session connectivity
+# Host pool issues
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": false,
-  "title": "Issues with session connectivity",
+  "title": "Host pool issues",
   "fileAttachmentHint": "",
   "formElements": [
     {
