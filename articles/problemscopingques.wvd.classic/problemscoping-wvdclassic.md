@@ -1,22 +1,22 @@
 <properties
-	pageTitle="WVD deployment"
-	description="WVD deployment"
+	pageTitle="WVD classic"
+	description="WVD classic"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32727878,32727879,32727880"
+	supportTopicIds="32783592,32783593,32783594,32783595,32783596,32783597,32783598"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="e0722898-a47d-4c8d-b071-a7ab0dbb6d4e"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# WVD deployment
+# WVD classic
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": false,
-	"title": "Issues with WVD deployment",
+	"title": "Issues with WVD classic",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
