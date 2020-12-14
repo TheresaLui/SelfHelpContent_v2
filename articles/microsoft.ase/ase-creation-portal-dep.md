@@ -18,7 +18,7 @@
 If you triggered an ASE deployment that failed more than 12 hours ago, the ASE will be deleted and VNet Verifier won't be able to find it. If the ASE deployment was triggered within 12 hours, use VNet Verifier to verify whether the NSGs and UDRs attached to the ASE's subnet are correctly configured.
 <br>
 
-Most issues related to ASE creation are caused by ASE dependencies being blocked by the customer's NSGs, UDRs, Firewalls, and other routes.
+Most ASE creation issues result from ASE dependencies being blocked by NSGs, UDRs, Firewalls, and other routes.
 <br> 
 
 To avoid deployment failures, follow the next recommendations: <br>
