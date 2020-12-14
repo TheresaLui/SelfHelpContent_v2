@@ -57,7 +57,11 @@
       "bladeName": "SkuRecommendationBlade",
       "metadata": {
         "resource": "{resourceId}",
-        "skuRecommendation": "{Region}",
+        "skuRecommendation": {
+            "skuName": "{recommendedSku}",
+            "isDevSku": "{isDevSku}",
+            "instancesCount": "{recommendedInstanceCount}"
+        },
         "description": "{description}"
       }
     }
