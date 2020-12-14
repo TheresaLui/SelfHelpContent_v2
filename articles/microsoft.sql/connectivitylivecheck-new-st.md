@@ -19,10 +19,10 @@
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins.
+We performed a live connectivity check, using a mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins.
 <!--/issueDescription-->
 
-The issue you are experiencing could also be a network-related problem on your end.
+The issue you are experiencing could also be a network-related issue on your end.
 
 ## **Recommended Steps**
 
@@ -33,10 +33,10 @@ The issue you are experiencing could also be a network-related problem on your e
 
 Running the **Azure SQL Connectivity Checker tool** may help to narrow down the potential causes of failure.
 
-This PowerShell script is run from the client machine where the error is occurring.
+The following PowerShell script is run from the client machine where the error is occurring:
 
 <ol>
-<li> Open Windows PowerShell ISE in Administrator mode. For the better results, we recommend using advanced connectivity tests that require starting PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Note that script parameters `RunAdvancedConnectivityPolicyTests` and `CollectNetworkTrace` will only work if the admin privileges are granted.</li><br>
+<li> Open Windows PowerShell ISE in Administrator mode. For better results, we recommend using advanced connectivity tests that require starting PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Note that script parameters `RunAdvancedConnectivityPolicyTests` and `CollectNetworkTrace` will only work if the admin privileges are granted.</li><br>
 
 <li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
@@ -71,5 +71,4 @@ You can see the results in the output window. If the user has the permissions to
 ## **Recommended Documents**
 
 * [Azure SQL Database and Azure Synapse Analytics connectivity architecture](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture)
-
 * [Ports beyond 1433 for ADO.NET 4.5](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports)
