@@ -4,8 +4,8 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32731217,32639977"
-	productPesIds="16222,17067,17068"
+	supportTopicIds="32639979, 32639977, 32731217, 32780961, 32780963"
+	productPesIds="16222, 17067,17068"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-dropped-errors"
@@ -18,30 +18,29 @@
     "subscriptionRequired": false,
     "title": "Database Connectivity",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for PostgreSQL Connectivity Troubleshooter",
+        "description": "Our Azure Database for PostgreSQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "ongoing",
+            "id": "problem_end_time",
             "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Are you currently facing this issue?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "persistent_or_intermittent",

@@ -35,7 +35,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore",
   "description": "Follow SQL DB Advisor recommendations",
   "longDescription": "Improve the performance of your SQL database. Follow the recommendations from SQL DB Advisor.",

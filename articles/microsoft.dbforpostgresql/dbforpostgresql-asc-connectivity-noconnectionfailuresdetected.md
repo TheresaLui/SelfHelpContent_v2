@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-connectivity-noconnectionfailuresdetected"
 	diagnosticScenario="OrcasPostgresNoSystemErrorsV2TroubleShooter"
 	selfHelpType="diagnostics"
-	supportTopicIds="32731217, 32639977"
+	supportTopicIds="32731217, 32639977, 32780961, 32780963"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

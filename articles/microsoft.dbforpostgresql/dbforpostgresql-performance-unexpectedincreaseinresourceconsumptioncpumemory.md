@@ -7,7 +7,7 @@
     ms.author="sunila"
     displayOrder="100"
     selfHelpType="generic"
-    supportTopicIds="32731228, 32640027"
+    supportTopicIds="32731228, 32640027, 32781016"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
