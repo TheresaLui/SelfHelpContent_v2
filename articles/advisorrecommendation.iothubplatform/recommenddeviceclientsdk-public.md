@@ -34,7 +34,7 @@
     "serviceTreeId": "aeaf65ef-e107-4f59-b33e-7226c0415cd2"
   },
   "ingestionClientIdentities": [],
-  "version": 2.2,
+  "version": 2.3,
   "learnMoreLink": "https://aka.ms/iothubsdk",
   "description": "Upgrade device client SDK to a supported version for IotHub",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
@@ -89,6 +89,6 @@
     }
   ],
   "tip": "",
-  "testData": "91d12660-3dec-467a-be2a-213b5544ddc0,/SUBSCRIPTIONS/91d12660-3dec-467a-be2a-213b5544ddc0/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"language\"\":\"\"Java\"\",\"\"version\"\":\"\"1.22.0\"\",\"\"recommendedActionLearnMore\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\",\"\"currentVersion\"\":\"\"1.12.3\"\"}\""
+  "testData": "91d12660-3dec-467a-be2a-213b5544ddc0,/SUBSCRIPTIONS/91d12660-3dec-467a-be2a-213b5544ddc0/RESOURCEGROUPS/ailn-test/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/ailn-test,\"{\"\"language\"\":\"\"C#\"\",\"\"version\"\":\"\"1.22.0\"\",\"\"recommendedActionLearnMore\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\",\"\"currentVersion\"\":\"\"1.12.3\"\"}\""
 }
 ---
