@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_Portal"
 />
-# Portal Usage and Configuration - Investigating performance and latency issues
+# Portal Usage and Configuration - Investigating_performance_and_latency_issues
 ---
 {
 				"$schema": "SelfHelpContent",
