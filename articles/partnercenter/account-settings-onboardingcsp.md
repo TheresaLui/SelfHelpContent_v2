@@ -23,6 +23,7 @@
 
 ## **Recommended Steps**
 
+- If you are working with an Indirect Provider (or Distributor), refer to [How to enroll as an Indirect reseller](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=7edb156d-e775-c0f0-2943-1eac0738046a).
 - To enroll in CSP, you need a Microsoft Partner Network (MPN) account and a valid MPN Id. If your MPN is still in the legacy Partner Membership Center, you need to migrate it to Partner Center first. Click [here](https://docs.microsoft.com/partner-center/prepare-pmc-pc-migration) to learn more.
 - If you don’t have an MPN account or ID, you need to join the Microsoft Partner Network program first. Click [here](https://partner.microsoft.com/membership) to learn more.
 - If you've already onboarded to CSP but are but are having trouble with the verification step, click [here](https://docs.microsoft.com/partner-center/verification-responses) to learn more
