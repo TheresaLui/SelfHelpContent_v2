@@ -34,43 +34,43 @@ No, setting up the appliance on an Azure VM is not recommended.
 
 **I am getting an error in the Internet prerequisites check on the appliance**
 
-1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
-1. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. Make sure you provide the authorization credentials if the proxy needs them.
-1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server
+1.  Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
+1.  Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
+1.  If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Set up proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
+1.  Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server
 
 **I am getting an error in the auto update check on the appliance**
 
-Ensure that you have whitelisted the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
+Ensure that you have allow listed the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-** After clicking on login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot login**
+**After selecting Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
 
-1. Go back to the Appliance configuration manager tab and you will find the device code **in bold** below the login button.
-1. Copy the device code and paste it in the Login tab to proceed with Azure Login.
+1.  Go back to the **Appliance configuration manager** tab to find the device code below the **Login** button, in bolded text.
+1.  Copy the device code and paste it on the **Login** tab to proceed with the Azure Login.
 
-**After successful login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
+**After a successful login with an Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
-1. The issue happens when the Azure user account used to login from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal
-1. Either use the same Azure user account that generated the Azure Migrate project key on portal to complete the registration of the appliance or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to the other Azure user account which is used for appliance registration
+1. This issue happens when the Azure user account used to log in from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal
+1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to the other Azure user account which is used for appliance registration
 
-**I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
+**I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-1. Ensure that you have copied the correct key from the project. To check, click on **Discover** on the **Server Assessment** card in your project and then click on **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down and copy the corresponding key.
-2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
+1. Ensure that you are pasting the key to the appliance of the correct **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
-**I am unable to complete registration due to insufficient AAD privileges and seeing the error- Azure Active Directory (AAD) operation failed with status "Forbidden"**
+**I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
 
-Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to create and manage AAD Applications in Azure. You should have "Application Developer" role or user role with "User can register applications" allowed at the tenant level.
+Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to create and manage AAD Applications in Azure. You should have the Application Developer role, or the user role with **User can register applications allowed** at the tenant level.
 
 **I am unable to complete registration due to errors related to AAD Application operation failure**
 
-This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance. You can do one of the following:
-
-1. Ensure that the user account initiating the discovery is same as the one used to register the appliance
-2. Provide AAD Application access permissions to the other user account for which the discovery operation is failing
-3. Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
+This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance. 
+Do one of the following:
+* Ensure that the user account initiating the discovery is same as the one used to register the appliance
+* Provide AAD Application access permissions to the other user account for which the discovery operation is failing
+* Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
 
 **I am getting Key Vault create/update issues during appliance registration**
 
@@ -78,20 +78,20 @@ Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-a
 
 ### Issues in adding Hyper-V hosts/clusters
 
-**I am unable to connect to the Hyper-V host/cluster due to incorrect credentials or insufficient permissions**
+**I cannot connect to the Hyper-V host/cluster due to incorrect credentials or insufficient permissions**
 
-Verify the credentials provided for Hyper-V host/cluster. The local or domain user account provided should either be a part of "Administrators" security group or should be a part of the following groups: Remote Management Users, Hyper-V Administrators and Performance Monitor Users.
+Verify the credentials provided for Hyper-V host/cluster. The local or domain user account provided should either be a part of an Administrators security group, or should be a part of the following groups: Remote Management Users, Hyper-V Administrators, and Performance Monitor Users.
 
 **I am facing WinRM errors while validating Hyper-V hosts/clusters**
 
-Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) is open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
+Using PowerShell as an administrator, run the `winrm qc` and `Enable-PSRemoting` commands on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) is open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
 
-**I am getting an error that the host name(s) in the cluster cannot be resolved**
+**I get an error that the host name(s) in the cluster cannot be resolved**
 
-Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. It is advised to get the DNS to resolve the host names if it is not an FQDN. If this is not feasible, update the 'hosts' file on the appliance to map the IP address with the host names.
+Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. Get the DNS to resolve the host names if it is not an FQDN. If this is not feasible, update the **hosts** file on the appliance to map the IP address with the host names.
 
 ### Issues post discovery initiation
 
-**I am seeing some performance data is missing on servers in the assessment I created**
+**Some performance data is missing on servers in the assessment I created**
 
 Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of performance data missing issues and their remediation steps.
