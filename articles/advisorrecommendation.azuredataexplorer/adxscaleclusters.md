@@ -60,7 +60,7 @@
         "skuRecommendation": {
             "skuName": "{recommendedSku}",
             "isDevSku": "{isDevSku}",
-            "instancesCount": "{recommendedInstanceCount}"
+            "instancesCount": "{recommendedInstanceCount}" 
         },
         "description": "{description}"
       }
