@@ -18,4 +18,6 @@
 
 # Diagnose and resolve issues with SQL Analytics Photon 
 
+## **Recommended Steps**
+
 * Multi-cluster Load Balancing and Photon are in **Preview**. Contact your Azure Databricks representative to request access. 
