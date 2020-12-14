@@ -19,12 +19,16 @@
 
 ## **Recommended Steps** 
 
-* If you have deployed the Azure Databricks workspace in your own virtual network and you have configured network security groups (NSG) to deny all outbound traffic that is not required by Azure Databricks, then you must configure an additional **outbound rule for the “AzureMonitor” service tag**. 
+* If you have deployed the Azure Databricks workspace in your own virtual network and you have configured network security groups (NSG) to deny all outbound traffic that is not required by Azure Databricks, then you must configure an additional **outbound rule for the "AzureMonitor" service tag**. 
 
 ## **Recommended Documents** 
 
 * [Azure Monitor Overview](https://docs.microsoft.com/azure/azure-monitor/overview) 
 * [Monitoring Azure Databricks](https://docs.microsoft.com/azure/architecture/databricks-monitoring/): 
+
   * [Send Azure Databricks application logs to Azure Monitor](https://docs.microsoft.com/azure/architecture/databricks-monitoring/application-logs) 
+  
   * [Use dashboards to visualize Azure Databricks metrics](https://docs.microsoft.com/azure/architecture/databricks-monitoring/dashboards) 
+  
   * [Troubleshoot performance bottlenecks](https://docs.microsoft.com/azure/architecture/databricks-monitoring/performance-troubleshooting) 
+  
