@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Deployment issues with Azure Migrate appliance for VMware"
+  pagetitle="Deployment issues with Azure Migrate appliance for VMware&#xD;"
   service="microsoft.migrate"
   resource="migrateprojects"
   ms.author="vibansa"
@@ -39,8 +39,8 @@ No, setting up the appliance on an Azure VM is not recommended.
 **I am getting an error message in the internet prerequisites check on the appliance**
 
 1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
-1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking **Set up proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
+1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs.
+1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
 1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or that you have the mobility service agent installed on the server
 
 **I am getting an error in the auto update check on the appliance**
@@ -49,27 +49,32 @@ Ensure that you have created an allow list for the required [URLs](https://docs.
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-**After successful login with Azure user account, appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
+**After selecting Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
+
+1. Go back to the **Appliance Configuration Manager** tab to find the device code **in bold** below the login button.
+1. Copy the device code and paste it in the **Login** tab to proceed with the Azure login.
+
+**After a successful login with an Azure user account, the appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
 1. This issue happens when the Azure user account that was used to log in from the appliance configuration manager is different from the user account that was used to generate the Azure Migrate project key on the portal
-1. Either use the same Azure user account that generated the Azure Migrate project key on theportal to complete the registration of the appliance, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
+1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
 
-**I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
+**I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-1. Ensure that you have copied the correct key from the project. To check, click on **Discover** on the **Server Assessment** card in your project and then click on **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down and copy the corresponding key.
+1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
 2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
-**I am unable to complete registration due to insufficient AAD privileges and seeing the error, "Azure Active Directory (AAD) operation failed with status Forbidden"**
+**I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status Forbidden"**
 
-Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to create and manage AAD Applications in Azure. You should have Application Developer role or the user role with "User can register applications" allowed at the tenant level.
+Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to create and manage AAD Applications in Azure. You should have the Application Developer role or the user role with **User can register applications** allowed at the tenant level.
 
 **I am unable to complete registration due to errors related to AAD Application operation failure**
 
-This error occurs when the Azure user account used to initiate the discovery is different from the account used to register the appliance. Do one of the following:
-
-1. Ensure that the user account initiating the discovery is same as the one used to register the appliance
-2. Provide AAD Application access permissions to the other user account for which the discovery operation is failing
-3. Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
+This error occurs when the Azure user account used to initiate the discovery is different from the account used to register the appliance. 
+Do one of the following:
+* Ensure that the user account initiating the discovery is same as the one used to register the appliance
+* Provide AAD Application access permissions to the other user account for which the discovery operation is failing
+* Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
 
 **I am experiencing Key Vault create/update issues during appliance registration**
 
@@ -79,22 +84,22 @@ See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/m
 
 **I am unable to connect to vCenter Server due to incorrect credentials or insufficient permissions**
 
-Verify the credentials provided for vCenter Server. You’ll need a **read-only account** to access the vCenter Server managing the VMs that you want to discover. If you want to scope discovery to specific VMware objects (vCenter Server datacenters, clusters, a folder of clusters, hosts, a folder of hosts, or individual VMs), follow these [steps](https://docs.microsoft.com/azure/migrate/set-discovery-scope) to scope the vCenter Server account. 
+Verify the credentials provided for vCenter Server. You’ll need a **read-only account** to access the vCenter Server managing the VMs that you want to discover. If you want to scope discovery to specific VMware objects (e.g., vCenter Server datacenters, clusters, a folder of clusters, hosts, a folder of hosts, or individual VMs), follow these [steps](https://docs.microsoft.com/azure/migrate/set-discovery-scope). 
 
 **I am unable to add multiple vCenter servers on the appliance configuration manager**
 
-Adding multiple vCenter Servers to a single appliance is not currently supported. There is a one-to-one relation between appliance and a vCenter server. To discover multiple vCenter servers, you need to deploy multiple appliances. You can register multiple appliances to the same Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/scale-vmware-assessment#planning-limits) about how you can discover multiple vCenter servers.
+Adding multiple vCenter Servers to a single appliance is not currently supported. There is a one-to-one relation between appliance and a vCenter server. To discover multiple vCenter servers, you must deploy multiple appliances. You can register multiple appliances to the same Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/scale-vmware-assessment#planning-limits) about how to discover multiple vCenter servers.
 
 **I don’t have vCenter Server details, can I discover VMware VMs by providing ESXi host details?**
 
-Currently, this is not supported. If you do not have the vCenter Server details, you can discover the VMs by treating them as physical servers and using the [physical server appliance](https://docs.microsoft.com/azure/migrate/how-to-set-up-appliance-physical) to discover VMs. 
+Currently, this is not supported. If you don't have the vCenter Server details, you can discover the VMs by treating them as physical servers and using the [physical server appliance](https://docs.microsoft.com/azure/migrate/how-to-set-up-appliance-physical) to discover VMs. 
 
 ### Issues post discovery initiation
 
-**I am unable to change the vCenter server details after starting the discovery using the appliance**
+**I can't change the vCenter server details after starting the discovery using the appliance**
 
-After starting the discovery using the appliance, you cannot change the vCenter Server details. To discover another vCenter Server, you'll need to deploy a new appliance.
+You cannot change the vCenter Server details after you've started the discovery using the appliance. To discover another vCenter Server, you'll need to deploy a new appliance.
 
-**I am seeing some performance data is missing on VMs in the assessment I created**
+**Some performance data is missing on VMs in the assessment I created**
 
 See [troubleshoot assessments](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of performance data missing issues and remediation steps.

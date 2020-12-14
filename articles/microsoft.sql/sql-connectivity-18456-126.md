@@ -14,10 +14,9 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLDB_Availability"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-
-# Login failed - the database specified was not found on the server
+# We ran diagnostics on your resource and found an issue
 
 ## **Login failed, the database specified was not found on the server**
 
@@ -34,9 +33,9 @@ The error returned indicated that the database was not found. This may occur if 
 ## **Recommended Steps**
 
 * Please check the application connection string contains the correct server and database name, i.e. `Server=tcp:my-server.database.windows.net,1433;Initial Catalog=mydatabase;Persist Security Info=False;User...`
-* To access the correct connection string please do the following: 
+* To access the correct connection string, do the following: 
 
-	1. [Azure Portal](https://portal.azure.com), navigate to the correct database
-	2. Select 'Connection Strings'
-	3. Review the settings for Server and Catalog
+  - [Azure Portal](https://portal.azure.com), navigate to the correct database
+  - Select 'Connection Strings'
+  - Review the settings for Server and Catalog
  

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software - NodeReboot - Bugcheck Pending Fix"
+	description="Root Cause Analysis (RCA) - Software - NodeReboot - Bugcheck Pending Fix"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The host node reboot action was triggered by our Azure monitoring systems that detected a failure condition due to a **recently discovered platform bug** with the physical node where the virtual machine was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 >
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.
 >  
 <!--/additionalInfo-->

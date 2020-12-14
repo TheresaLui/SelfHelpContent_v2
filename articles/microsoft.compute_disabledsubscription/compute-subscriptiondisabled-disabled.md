@@ -19,10 +19,10 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We detected that the subscription *<!--$subscription-->SubscriptionID<!--/$subscription-->** was recently disabled on **<!--$lastdisabledtime-->lastdisabledtime<!--/$lastdisabledtime--> (UTC)**. Resources for that subscription and operations on those resources may be impacted. Use the following guidance to re-enable your subscription.
+We detected that the subscription **<!--$subscription-->SubscriptionID<!--/$subscription-->** was recently disabled on **<!--$lastdisabledtime-->lastdisabledtime<!--/$lastdisabledtime--> (UTC)**. Resources for this subscription and operations on those resources may be impacted. Use the following guidance to re-enable your subscription.
 <!--/issueDescription-->
 
-Your Azure subscription can get disabled because your credit card has expired, you reached your spending limit, have an overdue bill, reached your credit card limit, or because the subscription was cancelled by the Account Administrator. 
+Your Azure subscription can be disabled because your credit card has expired, you reached your spending limit, have an overdue bill, reached your credit card limit, or because the subscription was cancelled by the Account Administrator. 
 
 [Learn more](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
@@ -30,15 +30,17 @@ Your Azure subscription can get disabled because your credit card has expired, y
 
 **Re-enable your Azure Subscription (subscription was accidentally cancelled)** <br>
 
-The [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can reactivate a cancelled Pay-As-You-Go subscription in the Account Center
+The [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can reactivate a cancelled Pay-As-You-Go subscription in the Account Center:
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions)
-2. Select the cancelled subscription. Click **Reactivate**.
-3. For other subscription types, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to have your subscription reactivated.
+2. Select the cancelled subscription. Click **Reactivate**
+3. For other subscription types, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to have your subscription reactivated
 
 ### **Expired credit card**
 
-When you sign up for an **Azure free account**, you receive a free trial subscription, which provides you with $200 in Azure credits for 30 days and 12 months of free services. At the end of 30 days, Azure disables your subscription. Your subscription is disabled to protect you from accidentally incurring charges for usage beyond the credit and beyond the free services included with your subscription. To continue using Azure services, you must [upgrade your subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription). After you upgrade, your subscription still has access to free services for 12 months. You only get charged for usage beyond the free services and quantities.<br>
+When you sign up for an **Azure free account**, you receive a free trial subscription, which provides you with $200 in Azure credits for 30 days and 12 months of free services. At the end of 30 days, Azure disables your subscription. Your subscription is disabled to protect you from accidentally incurring charges for usage beyond the credit and beyond the free services included with your subscription. 
+
+To continue using Azure services, you must [upgrade your subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription). After you upgrade, your subscription still has access to free services for 12 months. You will be charged only for usage beyond the free services and quantities.<br>
 
 [Learn more](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable#your-credit-is-expired).
 
