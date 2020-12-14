@@ -34,9 +34,9 @@
     "serviceTreeId": "aeaf65ef-e107-4f59-b33e-7226c0415cd2"
   },
   "ingestionClientIdentities": [],
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://aka.ms/iothubsdk",
-  "description": "Upgrade to a supported version of the SDK",
+  "description": "Upgrade device client SDK to a supported version for IotHub",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
   "potentialBenefits": "Ensure business continuity with supported SDK for your devices",
   "supportedSDKLanguages": ["Java", "C", "C#", "Python", "Node"],
@@ -49,7 +49,7 @@
     },
     {
       "actionId": "3c2445ba-3365-45ec-831c-512665ea4105",
-      "description": "View {version} release notes",
+      "description": "View {language} SDK {version} release notes",
       "actionType": "Document",
       "documentLink": "{releaseNotes}"
     }
@@ -57,20 +57,23 @@
   "resourceMetadata": {
     "action": {
       "actionId": "58cb3e4b-dfff-4758-b953-1fa2ae9b761b",
-      "actionType": "Document",
-      "description": "Upgrade to a supported version of the SDK",
-      "documentLink": "https://aka.ms/iothubsdk"
+      "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_IotHub",
+      "bladeName": "IotHubOverviewBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
     }
   },
-  "displayLabel": "Upgrade Device Client SDK",
+  "displayLabel": "Upgrade Device Client SDK for IotHub",
   "additionalColumns": [
     {
       "name": "language",
-      "title": "SDK Language"
+      "title": "Language"
     },
     {
       "name": "version",
-      "title": "Minimum Recommended Version"
+      "title": "Recommended Version"
     },
     {
         "name": "hubName",
@@ -78,10 +81,14 @@
     },
     {
         "name": "deviceCount",
-        "title": "Count of devices using outdated SDK version"
+        "title": "Device Count"
+    }, 
+    {
+      "name": "currentVersion",
+      "title": "Current Version"
     }
   ],
   "tip": "",
-  "testData": "91d12660-3dec-467a-be2a-213b5544ddc0,/SUBSCRIPTIONS/91d12660-3dec-467a-be2a-213b5544ddc0/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"language\"\":\"\"Java\"\",\"\"version\"\":\"\"1.22.0\"\",\"\"recommendedActionLearnMore\"\":\"\" https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\"}\""
+  "testData": "91d12660-3dec-467a-be2a-213b5544ddc0,/SUBSCRIPTIONS/91d12660-3dec-467a-be2a-213b5544ddc0/RESOURCEGROUPS/DPS-RUNNERS/PROVIDERS/MICROSOFT.DEVICES/IOTHUBS/DPS-SU-RUNNER-HUB-MWH001-2,\"{\"\"language\"\":\"\"Java\"\",\"\"version\"\":\"\"1.22.0\"\",\"\"recommendedActionLearnMore\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-iot-sdk-csharp/releases\"\",\"\"hubName\"\":\"\"TestHub\"\",\"\"deviceCount\"\":\"\"102\"\",\"\"currentVersion\"\":\"\"1.12.3\"\"}\""
 }
 ---
