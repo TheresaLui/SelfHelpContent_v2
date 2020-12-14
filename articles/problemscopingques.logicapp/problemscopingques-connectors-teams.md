@@ -31,7 +31,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the problem.",
-            "watermarkText": "Please provide the detailed symptom and any other relevant information",
+            "watermarkText": "Please provide the detailed issue and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },
