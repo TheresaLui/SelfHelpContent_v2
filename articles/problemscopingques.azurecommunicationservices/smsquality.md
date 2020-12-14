@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756373"
 	productPesIds="17327"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="acs-smsqualityissues"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "SMS message delivery quality and performance",
   "fileAttachmentHint": "",
   "formElements": [

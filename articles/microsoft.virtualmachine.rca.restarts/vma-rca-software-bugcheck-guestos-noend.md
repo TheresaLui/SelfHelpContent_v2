@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software BugCheck - Guest OS"
+	description="Root Cause Analysis (RCA) - Software BugCheck - Guest OS"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -24,7 +24,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This unexpected occurrence was caused by a crash in the guest operating system of your VM.
 > 
 > To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
@@ -35,13 +35,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-## **Recommended Steps**
+<!--recommendedActions-->## **Recommended Steps**
 
 > To investigate the causes of the VM crash, please use the following references that might be helpful:
 > 
@@ -57,7 +57,6 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 
-<!--recommendedActions-->
 ## **Recommended Documents**
 
 > *Learn more about:*
