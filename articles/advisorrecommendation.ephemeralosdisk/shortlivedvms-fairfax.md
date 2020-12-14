@@ -5,7 +5,7 @@
     ms.author="EphemeralOSDiskvTeam" 
     articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_fairfax" 
     selfHelpType="advisorRecommendationMetadata" 
-    cloudEnvironments="USGOV" 
+    cloudEnvironments="Fairfax" 
     ownershipId="Compute_VirtualMachines"
 />
 
