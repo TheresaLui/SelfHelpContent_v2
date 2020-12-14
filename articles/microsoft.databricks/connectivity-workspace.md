@@ -17,7 +17,7 @@
 
 # Diagnose and resolve issues with connectivity to Workspace
 
-> Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on future status changes
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. It is highly recommended to subscribe for updates on this page, which will automatically notify you on future status changes**
 
 ## **Recommended Steps**
 
