@@ -24,9 +24,16 @@
 * [Supported external data sources](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/#supported-external-data-source-types) 
 
   * [Axibase Time Series Database](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/axibase-time-series-database) 
+  
   * [Azure Synapse Analytics](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/azure-synapse-analytics) 
+  
   * [ElasticSearch](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/elasticsearch) 
+  
   * [Google Analytics](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/google-analytics) 
+  
   * [Jira](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/jira) 
+  
   * [JSON API](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/json-api) 
+  
   * [MongoDB](https://docs.microsoft.com/azure/databricks/sql/admin/external-data-sources/mongodb) 
+  
