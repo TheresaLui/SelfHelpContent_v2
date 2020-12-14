@@ -39,7 +39,7 @@ Follow our recommended steps to resolve these common configuration issues:
     - If the app does not appear, log in to the app.
     - If the app still does not appear, continue with opening the ticket.
 
-If you're still experiencing the issue or your issue is not listed, our [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy), [videos](#how-to-videos), and [resources](#more-resources) can help you.
+If you're still experiencing the issue or your issue is not listed, our [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy), videos, and resources can help you.
 
 ### How-to videos
 

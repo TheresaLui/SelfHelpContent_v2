@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "02a36e6a-8f38-3b77-184d-55b977bb0bd8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related to create Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "searchTags": "Log Analytics;Create;Workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0b242861-e676-c1cd-9679-b4929328163d",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with connecting Azure Virtual machine to a Log Analytics workspace (for VM related issues please select the Agent topic)",
@@ -440,10 +448,10 @@
     {
       "id": "a1b4f582-317a-0e47-50b0-c99432f7e79d",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring IIS logs collection within Log Analytics workspace.",
-      "searchTags": "IIS;IIS logs;Workspace",
+      "shortDescription": "Troubleshoot issues related with IIS logs collection into Log Analytics workspace. For agent-related issues, please use Agent support topics.",
+      "searchTags": "IIS;IIS logs;Workspace;W3C",
       "category": "Data collection configuration",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
@@ -496,8 +504,8 @@
     {
       "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
       "longDescription": "",
-      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
-      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "shortDescription": "Issues related to network isolation, Private Links, Private Endpoints.",
+      "searchTags": "Private links;Private Endpoints;Network Isolation;VNet",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     },
@@ -616,7 +624,7 @@
     {
       "id": "cf89600e-3c72-4dcb-16eb-7a1ed0e798d6",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related to create or delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "shortDescription": "Troubleshoot issues related to delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
       "searchTags": "Log Analytics;workspace;create;delete",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "true"

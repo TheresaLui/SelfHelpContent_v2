@@ -18,12 +18,23 @@
 
 ## **Recommended Steps**
 
-- [**VMNotInRunningStateUserError** - Ensure the SQL Server is running](https://aka.ms/AA4f1h6)</br>
-- [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>
-- [Are future databases automatically added for backup?](https://aka.ms/AB-AA4dp5q)</br>
-- [Can I protect availability groups across regions?](https://aka.ms/AB-AA4dwue)</br>
+- **Perform this step first:** To successfully configure SQL backup, ensure that all the [prerequisites](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites) are met
+
+**Common error codes**
+- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persist, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue)
+- **VMNotInRunningStateUserError** - Ensure both the VM host and the SQL Server instance are running <br>
+- **GuestAgentStatusUnavailableUserError** - Follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)
+- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation<br>
+
+**Common questions**
+- [Can I control how many concurrent backups run on SQL Server?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-control-how-many-concurrent-backups-run-on-the-sql-server)
+- [Are newly added databases automatically added for backup?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#are-future-databases-automatically-added-for-backup)
+- [Can I protect Availability Groups across regions?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-protect-availability-groups-across-regions)</br>
+- [Back up behavior with Always on availability groups](https://docs.microsoft.com/azure/backup/sql-support-matrix#back-up-behavior-with-always-on-availability-groups)
+- [Troubleshoot discover and configure issues](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#troubleshoot-discover-and-configure-issues)
 
 ## **Recommended Documents**
 
-- [FAQs](https://aka.ms/AB-AA4dwuc)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
+- [FAQs](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
+- [Troubleshooting issues related to backing up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [Troubleshoot re-registration failures](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)

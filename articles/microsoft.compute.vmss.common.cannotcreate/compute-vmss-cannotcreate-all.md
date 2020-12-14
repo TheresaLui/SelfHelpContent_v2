@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641072"
+	supportTopicIds="32641072,32641097,32641100,32641103,32641104,32641119,32641128,32641147,32641148"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax, usnat, ussec"

@@ -23,16 +23,16 @@
 3. If you have sufficient quota, it's possible that another cluster or instance in your workspace is using the quota. Because quota is at a VM series level, and clusters or instances are specific to a VMSize, it's possible that another cluster/instance is sharing and using quota.
 
 ### If you're consistently experiencing an issue at creation time:
-1. Your region could be out of capacity, which is generally represented in the error message at the time of allocation failure. You can try using a different VM family, or retry at a later time.
-2. You could also be using an unsupported VMsize in the region of your workspace. We document the supported VM sizes and generally keep the list up to date with the latest SKUs supported by Azure.
-3. It's also possible that your VNet configuration on your compute target could be misconfigured and preventing Azure services from reaching them, leading to situations such as unusable nodes. Managed Compute has a very specific VNet configuration setup, as detailed in our documentation.
-4. If compute instance is created behind VNET, make sure you have an NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains, see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
-5. If you've created a compute instance in a private link workspace. ensure that you are accessing the compute instance from within virtual network. If you are using custom DNS or a host file, ensure that you have an entry for `<instance-name>.<region>.instances.azureml.ms` with the private IP address of the workspace private endpoint. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-portal).
+1. Your region could be **out of capacity**, which is generally represented in the error message at the time of allocation failure. You can try using a different VM family, or retry at a later time.
+2. You could also be using an **unsupported VMsize** in the region of your workspace. We document the supported VM sizes and generally keep the list up to date with the latest SKUs supported by Azure.
+3. It's also possible that your **VNet configuration** on your compute target could be misconfigured and preventing Azure services from reaching them, leading to situations such as unusable nodes. Managed Compute has a very specific VNet configuration setup, as detailed in our documentation.
+4. If compute instance is created behind VNET, make sure you have an **NSG rule** where inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. Inbound TCP traffic on ports 29876 and 29877 from a Service Tag of BatchNodeManagement also needs to be allowed through NSG. If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains. For full details see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
+5. If you've created a compute instance in a **private link workspace**. ensure that you are accessing the compute instance from within virtual network. If you are using custom DNS or a host file, ensure that you have an entry for `<instance-name>.<region>.instances.azureml.ms` with the private IP address of the workspace private endpoint. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-portal).
 
 ## **Recommended Documents**
 
 * [Learn how to view your Azure Machine Learning quota](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#view-your-usage-and-quotas)
 * [Learn more about Managed Compute Clusters and Instances](https://docs.microsoft.com/azure/machine-learning/concept-compute-target)
-* [Understand our recommended VNet setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet)
+* [Understand our recommended VNet setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance)
 * [View Azure Supported VM sizes by Region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines)
 * [Configure private links](https://docs.microsoft.com/azure/machine-learning/how-to-configure-private-link?tabs=python)

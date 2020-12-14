@@ -21,8 +21,12 @@ Microsoft Support helps to isolate and resolve issues related to libraries insta
 
 Support might ask you to engage other channels for open-source technologies where you can find deep expertise for that technology. There are several community sites; two examples are the [Microsoft Q&A page for Azure Databricks](https://docs.microsoft.com/answers/topics/azure-databricks.html) and [Stack Overflow](https://stackoverflow.com/).
 
+## **Recommended Steps**
+
+**Problem:** After installing PyPMML in a Azure Databricks cluster, it fails with a error `Py4JError: Could not find py4j jar`  
+**Solution:** Follow the [steps here](https://docs.microsoft.com/azure/databricks/kb/libraries/pypmml-fail-find-py4j-jar#solution) to resolve this issue.
+
 ## **Recommended Documents**
 
 * [Libraries overview and Guidance](https://docs.microsoft.com/azure/databricks/libraries)
-
 * [Problem: Can’t Uninstall Library From UI](https://docs.microsoft.com/azure/databricks/kb/libraries/cant-uninstall-libraries)

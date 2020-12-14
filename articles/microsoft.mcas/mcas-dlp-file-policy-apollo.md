@@ -33,7 +33,7 @@ Follow our recommended steps to resolve common DLP and file policy issues.
 1. If you are unable to investigate and control files:
     - Verify that file monitoring is enabled. In Cloud App Security, select **Settings** > **Files**, and then click **Enable file monitoring**. If you don't have access to the Files page for more than 60 days and have no active file policies, file monitoring will be automatically disabled. Learn more about [labels, sensitive information types, and Microsoft information Protection](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/a-journey-to-holistic-cloud-protection-with-the-microsoft-365/ba-p/1341515).
 
-If you're still experiencing the issue, our [videos](#how-to-videos) and [resources](#more-resources) can help you.
+If you're still experiencing the issue, our videos and resources can help you.
 
 ### How-to videos
 
@@ -44,7 +44,7 @@ If you're still experiencing the issue, our [videos](#how-to-videos) and [resour
     </video>
     <video>
         <src>https://www.youtube.com/watch?v=goH_cgc7Nsw</src>
-        <title>How to identify and protect overexposed data in the cloud with Microsoft Cloud App Security</title>
+        <title>How to identify and protect overexposed data in the cloud with Cloud App Security</title>
     </video>
 </videoGroup>
 
