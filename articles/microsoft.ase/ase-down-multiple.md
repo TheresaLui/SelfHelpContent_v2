@@ -12,6 +12,8 @@
   ownershipid="Compute_AppService" />
 # ASE Down\Multiple Web Apps Affected
 
+Most customers resolve their App Service Environment (ASE) issues with the following resources.
+
 ## **Recommended documents**
 * [ASE V3 Networking](https://docs.microsoft.com/azure/app-service/environment/networking)
 * [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
