@@ -34,7 +34,7 @@
     "serviceTreeId": "aeaf65ef-e107-4f59-b33e-7226c0415cd2"
   },
   "ingestionClientIdentities": [],
-  "version": 2.1,
+  "version": 2.2,
   "learnMoreLink": "https://aka.ms/iothubsdk",
   "description": "Upgrade device client SDK to a supported version for IotHub",
   "longDescription": "Some or all of your devices are using outdated SDK and we recommend you upgrade to a supported version of SDK. See the details in the recommendation.",
@@ -69,20 +69,20 @@
   "additionalColumns": [
     {
       "name": "language",
-      "title": "Language"
+      "title": "SDK Language"
     },
     {
       "name": "version",
       "title": "Recommended Version"
     },
     {
-        "name": "hubName",
-        "title": "Hub Name"
+      "name": "hubName",
+      "title": "Iot Hub Name"
     },
     {
-        "name": "deviceCount",
-        "title": "Device Count"
-    }, 
+      "name": "deviceCount",
+      "title": "Number of Impacted Devices"
+    },
     {
       "name": "currentVersion",
       "title": "Current Version"
