@@ -19,6 +19,8 @@
 
 ## Unique, per-workspace URLs in Azure Databricks
 
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. It is highly recommended to subscribe for updates on this page, which will automatically notify you on future status changes**
+
 * Azure Databricks has added a unique URL for each workspace, which uses the following format:
 
     ```
