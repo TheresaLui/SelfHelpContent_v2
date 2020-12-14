@@ -17,37 +17,9 @@
 
 # Diagnose and resolve connectivity issues
 
-## Unique, per-workspace URLs in Azure Databricks
-
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. It is highly recommended to subscribe for updates on this page, which will automatically notify you on future status changes**
 
-* Azure Databricks has added a unique URL for each workspace, which uses the following format:
-
-    ```
-    adb-<workspace-id>.<random-number>.azuredatabricks.net
-    ```
-
-  This URL complements the existing regional URLs (<region>.azuredatabricks.net) you use to access your workspaces. Both URLs will continue to be supported. Because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. We recommend that you use the new per-workspace URL in scripts and in other automation for multiple workspaces. 
-  For instructions, see the following:
-
-     - [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
-     - [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
-     - [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#find-the-legacy-regional-url-for-a-workspace)
-
-* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
-
-* If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets) to solve this problem.
-
-* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. You can use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses, by following the instructions in [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
-
-* If **IP Access List** is enabled for the workspace, make sure to provide assignment permissions for Azure Data Factory IPs to run notebooks from ADF:
-
-  - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
-  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for **DataFactory.Region**. 
-  
-  ## Recommended Steps
-  
-  To diagnose and resolve connectivity issues, use the following information.
+ ## Errors and Resolution Steps
   
 * **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
   "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
@@ -90,14 +62,35 @@
 	|     databricks-sql-metastore (OPTIONAL – External Hive Metastore)    |     Azure Databricks workspace subnets    |     [Region specific SQL Metastore Endpoint](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#--metastore-artifact-blob-storage-log-blob-storage-and-event-hub-endpoint-ip-addresses)            |     tcp:3306         |     Stores metadata for databases and child objects in Azure Databricks workspace                             |
 
 
+## Unique, per-workspace URLs in Azure Databricks
+
+* Azure Databricks has added a unique URL for each workspace, which uses the following format:
+
+    ```
+    adb-<workspace-id>.<random-number>.azuredatabricks.net
+    ```
+
+  This URL complements the existing regional URLs (<region>.azuredatabricks.net) you use to access your workspaces. Both URLs will continue to be supported. Because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. We recommend that you use the new per-workspace URL in scripts and in other automation for multiple workspaces. 
+  For instructions, see the following:
+
+     - [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
+     - [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
+     - [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#find-the-legacy-regional-url-for-a-workspace)
+
+* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
+
+* If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets) to solve this problem.
+
+* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. You can use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses, by following the instructions in [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
+
+* If **IP Access List** is enabled for the workspace, make sure to provide assignment permissions for Azure Data Factory IPs to run notebooks from ADF:
+
+  - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for **DataFactory.Region**. 
+  
 ## **Recommended Documents**
 
-* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
-
 * [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
-
 * [Connect your Azure Databricks Workspace to your On-Premises Network](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network)
-
 * [How to Save Plotly Files and Display From DBFS](https://docs.microsoft.com/azure/databricks/kb/visualizations/save-plotly-to-dbfs)
-
 * [Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns) for VNet- injected workspaces
