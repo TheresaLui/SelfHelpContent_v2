@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureDatabricks" 
 /> 
 
-# Diagnose and resolve issues with Azure Spark monitor 
+# Diagnose and resolve issues with Azure Spark Monitor 
 
 ## **Recommended Steps** 
 
@@ -25,6 +25,6 @@
 
 * [Azure Monitor Overview](https://docs.microsoft.com/azure/azure-monitor/overview) 
 * [Monitoring Azure Databricks](https://docs.microsoft.com/azure/architecture/databricks-monitoring/): 
-* [Send Azure Databricks application logs to Azure Monitor](https://docs.microsoft.com/azure/architecture/databricks-monitoring/application-logs) 
-* [Use dashboards to visualize Azure Databricks metrics](https://docs.microsoft.com/azure/architecture/databricks-monitoring/dashboards) 
-* [Troubleshoot performance bottlenecks](https://docs.microsoft.com/azure/architecture/databricks-monitoring/performance-troubleshooting) 
+  * [Send Azure Databricks application logs to Azure Monitor](https://docs.microsoft.com/azure/architecture/databricks-monitoring/application-logs) 
+  * [Use dashboards to visualize Azure Databricks metrics](https://docs.microsoft.com/azure/architecture/databricks-monitoring/dashboards) 
+  * [Troubleshoot performance bottlenecks](https://docs.microsoft.com/azure/architecture/databricks-monitoring/performance-troubleshooting) 
