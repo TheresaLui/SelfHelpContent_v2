@@ -19,6 +19,8 @@
 
 > Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on future status changes
 
+## **Recommended Steps**
+
 ### **Troubleshooting Errors**
 
 * When signing in to Workspace, you receive this error: 
