@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="CloudAppSecurity_Portal"
 />
-# Portal Usage and Configuration - User_groups_data_enrichment
+# Portal Usage and Configuration - User groups data enrichment
 ---
 {
 				"$schema": "SelfHelpContent",
