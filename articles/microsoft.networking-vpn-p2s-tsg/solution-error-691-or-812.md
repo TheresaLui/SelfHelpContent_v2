@@ -30,5 +30,6 @@ The errors *"Error: 691: The remote connection was denied because the user name 
 
 * Another cause could be that the RADIUS server is unreachable from the VPN gateway: you can determine that by collecting simultaneous packet captures on the Gateway and on the RADIUS server
 
+* Additionally, this issue could be triggered by the fact that the customer may have more than one VPN gateway connected to each other, both configured with the same point to site address range (overlapping).
 
 
