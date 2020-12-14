@@ -12,7 +12,7 @@
   ownershipid="Compute_LogicApps" />
 # Azure Logic Apps - Office 365 Outlook
 
-To connect to your Office 365 email account so that you can create and manage emails, tasks, calendar events and meetings, contacts, requests, and more.
+The following resources can help you connect to your Office 365 email account and manage emails, tasks, meetings, and more.
 
 ## Office 365 Outlook Connector Overview
 
