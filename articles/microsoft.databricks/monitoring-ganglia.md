@@ -20,7 +20,7 @@
 
 ## **Recommended Steps** 
 
-* By default, Azure Databricks collects Ganglia metrics every 15 minutes. To configure the collection period, set the ```DATABRICKS_GANGLIA_SNAPSHOT_PERIOD_MINUTES``` environment variable using an [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts) or in the ```spark_env_vars``` field in the [Cluster Create API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#clusterclusterservicecreatecluster). 
+* By default, Azure Databricks collects Ganglia metrics every 15 minutes. To configure the collection period, set the `DATABRICKS_GANGLIA_SNAPSHOT_PERIOD_MINUTES` environment variable by using an [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts), or in the `spark_env_vars` field in the [Cluster Create API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#clusterclusterservicecreatecluster). 
 
 ## **Recommended Documents** 
 
