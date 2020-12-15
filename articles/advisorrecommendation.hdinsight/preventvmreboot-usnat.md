@@ -3,9 +3,9 @@
     description="Prevent HDInsight cluster VMs from rebooting periodically"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="353bcb88-3747-4a7a-8b1c-374117db5668_Public"
+    articleId="353bcb88-3747-4a7a-8b1c-374117db5668_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="usnat"
     ownershipId="AzureData_HDInsight"
 />
 # Prevent HDInsight cluster VMs from rebooting periodically
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "353bcb88-3747-4a7a-8b1c-374117db5668",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').AllClustersInLastHr",
+    "streamNamespace": "cluster('https://hdinsightwest.usnatwest.kusto.core.eaglex.ic.gov').database('hdinsightkustodb').AllClustersInLastHr",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
