@@ -17,7 +17,7 @@ articleId="23a920e9-0b16-42bb-a56f-73ba8fcc0133"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-## Verify if the customer issues matches this TSG
+## Verify if the customer issue matches this TSG
 
 This TSG is specific to issues related to ExpressRoute. It is applicable to the below mentioned support topics.
 
