@@ -24,13 +24,13 @@
 
   By default, Delta Lake on Databricks collects statistics on the first 32 columns defined in your table schema. So if these columns are not in those first 32 columns, then stats will not be collected for them. To resolve the issue:
 
-  * Re-order the columns in the table, so that these n columns will come to the first few columns in the table. You can issue an alter table statement to re-order the columns, so that you can bring these columns to the front of the table. Sample syntax: 
+  * Reorder the columns in the table, so that these `n` columns will come to the first few columns in the table. You can issue an alter table statement to reorder the columns, so that you can bring these columns to the front of the table. Sample syntax: 
   
     ```
     ALTER TABLE table_name CHANGE [COLUMN] col_name col_name data_type [COMMENT col_comment] [FIRST|AFTER colA_name]
     ```
     
-  * This requires re-writing the table data, as the stats are collected only at the time of writing data. Alternatively, you can recompute the stats by executing below commands:
+  * This requires rewriting the table data, because the stats are collected only at the time of writing data. Alternatively, you can recompute the stats by running the following commands:
 
      ```
      %scala 
@@ -47,7 +47,7 @@
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform 
 * [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations. 
 * [Delta FAQs](https://docs.microsoft.com/azure/databricks/delta/delta-faq) 
-* [Delta How-to?](https://docs.microsoft.com/azure/databricks/delta/delta-intro) 
+* [Delta How-to](https://docs.microsoft.com/azure/databricks/delta/delta-intro) 
 * [Resources](https://docs.microsoft.com/azure/databricks/delta/delta-resources) 
 * [Best Practices](https://docs.microsoft.com/azure/databricks/delta/best-practices) 
 * [Delta Lake Tips and Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/delta/) 
