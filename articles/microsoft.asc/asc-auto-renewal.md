@@ -42,8 +42,3 @@
 - **Denied** - Certificate renewal failed as domain ownership verification was not completed within 45 days. The certificate will be valid till its expiration date and then revoked. Customer need to request for a new certificate.
 
 **Why is my certificate issued for 11 months only and not for a year?**
-
-## **Recommended Documents**
-
-* [My SSL certificate is not being auto-renewed](https://azure.github.io/AppService/2017/07/24/FAQ-SSL-certificates-for-Web-Apps-and-App-Service-Certificates#auto-renew)
-* [Troubleshooting Tools for App Service Certificate](https://azure.github.io/AppService/2018/02/20/Troubleshooting-Tools-for-App-Service-Certificate.html)
