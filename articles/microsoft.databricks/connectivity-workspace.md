@@ -17,7 +17,7 @@
 
 # Diagnose and resolve issues with connectivity to Workspace
 
-> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. It is highly recommended to subscribe for updates on this page, which will automatically notify you on future status changes**
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommended subscribing for updates on this page, which will automatically notify you of future status changes.**
 
 ## **Recommended Steps**
 
@@ -28,7 +28,7 @@
   ```
   We’ve encountered an error logging you in. Databricks support has been alerted and will begin looking into the issue right away. 
   ```
-  The workaround is to open a new tab in Google Chrome, or close the browser and erase its history. If this doesn't help, there would be an ongoing maintenance or outages. Please check [Databricks status page](https://status.azuredatabricks.net/) to confirm.
+  The workaround is to open a new tab in Google Chrome, or close the browser and erase its history. If this doesn't help, there may be ongoing maintenance or outages. Check the  [Databricks status page](https://status.azuredatabricks.net/) to confirm.
   
 * Learn how to resolve errors for [instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 
@@ -50,7 +50,7 @@
 
   - To update IP access list or create additional new one with new CIDR, please follow this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
 
-  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Just search for "DataFactory.Region". 
+  - And you can refer to this [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted.  Search for "DataFactory.Region." 
   
 * Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
