@@ -167,7 +167,13 @@
       "shortDescription": "Issues experienced in Partner Center under Referrals > Analytics > Co-sell Opportunities",
       "searchTags": "Cosell;Insights",
     },
-     {
+    {
+      "id": "30f001a6-bed2-25df-730c-b087cd8f52e6",
+      "longDescription": "",
+      "shortDescription": "Issues experienced in Partner Center under Referrals > Analyze > Leads",
+      "searchTags": "Cosell;Leads insights",
+    },
+    {
       "id": "600247b3-a947-21b3-0a21-ecc71d279fea",
       "longDescription": "",
       "shortDescription": "Select if you are facing problems with migrating users or management activities after moving from PSC to PC",
