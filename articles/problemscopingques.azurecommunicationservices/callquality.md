@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Audio/video quality, no ringing signal, and call drops ",
   "fileAttachmentHint": "",
   "formElements": [

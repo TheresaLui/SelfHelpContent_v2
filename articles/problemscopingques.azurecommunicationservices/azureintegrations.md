@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Connecting to Azure Notification Hubs or Event Grid",
   "fileAttachmentHint": "",
   "formElements": [

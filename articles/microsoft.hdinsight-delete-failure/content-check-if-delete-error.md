@@ -17,8 +17,6 @@
 
 # Check if in DeleteError state
 
-## **Recommended Steps**
-
 Review and validate the customer case:
 
 1. UserSubscriptionId

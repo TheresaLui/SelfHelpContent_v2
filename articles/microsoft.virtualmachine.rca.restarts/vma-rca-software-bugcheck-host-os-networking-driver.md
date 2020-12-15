@@ -7,7 +7,7 @@
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
-	articleId="VMA_RCA_Software_BugcCeck_Host_OS_Networking_Driver"
+	articleId="VMA_RCA_Software_BugCheck_Host_OS_Networking_Driver"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""

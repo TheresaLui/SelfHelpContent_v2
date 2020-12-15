@@ -168,7 +168,7 @@
     {
       "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
       "longDescription": "",
-      "shortDescription": "Issues with key vault access control policies",
+      "shortDescription": "Issues with configuring key vault access control policies and RBAC role assignments",
       "searchTags": "access denied;access;policy;security group",
       "category": "Key Vault access policy issues ",
       "useInDiagnoseAndSolve": "true"
