@@ -42,7 +42,7 @@
 - **Denied** - Certificate renewal failed as domain ownership verification was not completed within 45 days. The certificate will be valid till its expiration date and then revoked. Customer need to request for a new certificate.
 
 **Why is my certificate issued for 11 months only and not for a year?**
-The industry has recently adopted a campaign to reduce the maximum certificate duration from 825 days to 397 days, which applies to any certificate issued after
+
 
 ## **Recommended Documents**
 
