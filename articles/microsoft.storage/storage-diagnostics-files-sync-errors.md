@@ -17,7 +17,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Azure File Sync Errors - Troubleshooting and Remediation
+# Azure File Sync Errors Troubleshooting and Remediation
 
 <!--issueDescription-->
 
