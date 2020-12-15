@@ -25,5 +25,5 @@ Azure is committed to stopping SPAM and reducing the customer impact caused by n
 
 ## **Recommended Steps**
 
-* Please refer to the following article for more information on this restriction and ways to mitigate:
+* See the following article for more information on this restriction and ways to mitigate:
 [Enhanced Azure security for sending emails](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)
