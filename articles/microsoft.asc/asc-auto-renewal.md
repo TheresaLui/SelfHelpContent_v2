@@ -23,7 +23,7 @@
   |Service Principal|Secret Permissions|Certificates | 
 |--|--|--
 |Microsoft Azure App Service|Get|Get|
-|Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List
+|Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
 		
 - Check if domain ownership verification is pending. Most of the time App Service Certificates will be renewed without any need to verify domain ownership. But for few cert renewals, GoDaddy needs domain verification and users have to add the new token into their DNS records. GoDaddy will wait for 45 days for domain verification. If the TXT records is not set within the 45 days, certificate renewal will be denied. But the certificate will still be valid for another 15 days till the certificate expiration date.
 
