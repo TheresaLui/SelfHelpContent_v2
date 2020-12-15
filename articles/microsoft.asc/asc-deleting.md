@@ -20,9 +20,3 @@ There is no option to retrieve a deleted certificate. Once the App Service certi
 
 **How do I request for refund of deleted certificate?**
 App Service certificate will be billed only when the certificate is in Issued state. If the certificate is in Pending state, you can delete it without getting charged. However, as soon as the certificate is issued and the state is moved to Issued state, there is no option to get a refund.
-
-**I am getting this error "Delete for 'XXXX' App Service Certificate failed because there are still imported certificates derived from the App Service Certificate in the source subscription". What does that mean?**
-This means this certificate is used by HTTPS binding on one of the Web Apps. Please remove HTTPS bindings from the Web App and then try to delete the certificate.
-
-**I am getting this error "Cannot remove certificate with thumbprint XXXX because it is used for hostname XXXX". What does that mean?**
-This means this certificate is used by HTTPS binding on one of the Web Apps. Please remove HTTPS bindings from the webapp and then try to delete the certificate.
