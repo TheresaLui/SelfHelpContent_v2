@@ -20,8 +20,9 @@
  
 ## **Recommended Steps**
 
-* **Delta table query performance is slow when underlying data directory is in ADLS Gen2 filesystem** - This problem affects clusters on Databricks Runtime 5.4 or earlier as these versions check for the latest version of a Delta Lake table on ADLS Gen2 by listing all available versions and then finds the latest version of Delta table.
-  In DBR 5.5 improvement has been made to check only the end of the transaction log instead of listing all available versions. This optimization significantly improves the latency. Use DBR 5.5 or above DBR version to see improvement in the Delta table query performance.
+* **Delta table query performance is slow when underlying data directory is in ADLS Gen2 filesystem** - This issue affects clusters on Databricks Runtime 5.4 or earlier because these versions check for the latest version of a Delta Lake table on ADLS Gen2 by listing all available versions, and then find the latest version of the Delta table.
+
+In DBR 5.5, only the end of the transaction log is checked instead of listing all available versions. This optimization significantly improves the latency. For better Delta table query performance, use DBR 5.5 or above.
 
 ## **Recommended Documents** 
 
