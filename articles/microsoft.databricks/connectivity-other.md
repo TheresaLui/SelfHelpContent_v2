@@ -17,7 +17,7 @@
 
 # Diagnose and resolve connectivity issues
 
-> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. It is highly recommended to subscribe for updates on this page, which will automatically notify you on future status changes**
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
  ## Errors and Resolution Steps
   
@@ -32,9 +32,9 @@
 * **Problem**: Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:<br>
   "OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')"."
  
-  The pyodbc connection fails, because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
   
-  **Solution**: Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999.
+  **Solution**: Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999:
   
   ```
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
@@ -44,10 +44,10 @@
 
   **Solutions**: RPC errors usually occur for the following reasons:
    * The communication between the driver and executor is lost. Executor is not able to send heartbeats within the threshold time frame, which can happen either if the executor is overwhelmed with memory/OOM errors, or too many network hits are making executor too busy in GC and it can't respond to driver.
-   In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you what error was happening on the executor level.
-   If the current cluster is really small, use a bigger cluster.
+   In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you which error was happening on the executor level.
+   If the current cluster is very small, use a bigger cluster.
 
-  * Having too many partitions - small files can cause an RPC error. Check the used partition strategy.
+  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy.
 
   * Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
 
