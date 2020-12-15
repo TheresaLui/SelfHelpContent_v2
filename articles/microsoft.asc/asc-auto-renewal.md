@@ -1,20 +1,16 @@
 <properties
-	pageTitle="ASC/Auto-renewal"
-	description="ASC/Auto-renewal"
-	service="microsoft.asc"
-	resource="asc"
-	authors="cts-shrahman"
-    	ms.author="shrahman,curibe"
-	displayOrder="3"
-	selfHelpType="generic"
-	supportTopicIds="32604391"
-	resourceTags=""
-	productPesIds="16512"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="eaa907cb-1571-48f7-9a8a-f925442c5d51"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="ASC/Auto-renewal&#xD;"
+  service="microsoft.certificateregistration"
+  resource="certificateorders"
+  ms.author="curibe,shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32604391"
+  resourcetags=""
+  productpesids="16512"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="eaa907cb-1571-48f7-9a8a-f925442c5d51"
+  ownershipid="Compute_AppService" />
 # ASC/Auto-renewal
 
 ## **Recommended Documents**
