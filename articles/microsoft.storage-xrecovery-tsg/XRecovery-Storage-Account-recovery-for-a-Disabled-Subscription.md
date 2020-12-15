@@ -1,6 +1,6 @@
 <properties
-	pageTitle="XRecovery-Storage-Account-recovery-for-a-Disabled-Subscription"
-	description="XRecovery Storage Account recovery for a Disabled Subscription"
+	pageTitle="xrecovery-Storage-Account-recovery-for-a-Disabled-Subscription"
+	description="xrecovery Storage Account recovery for a Disabled Subscription"
 	service="microsoft.storage"
 	resource="storageAccounts"
 	authors="symondsk"
