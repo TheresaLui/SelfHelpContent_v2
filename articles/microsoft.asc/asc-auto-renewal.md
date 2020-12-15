@@ -43,7 +43,6 @@
 
 **Why is my certificate issued for 11 months only and not for a year?**
 
-
 ## **Recommended Documents**
 
 * [My SSL certificate is not being auto-renewed](https://azure.github.io/AppService/2017/07/24/FAQ-SSL-certificates-for-Web-Apps-and-App-Service-Certificates#auto-renew)
