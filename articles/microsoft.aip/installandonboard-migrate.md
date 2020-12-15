@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Azure Information Protection - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC"
-	description="Azure Information Protection - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727950"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="MIP_Onboard_Install_migrate_to_scc"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727950"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="mip_onboard_install_migrate_to_scc"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC
 
 To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
@@ -53,8 +48,8 @@ Verify that you have the appropriate permissions before activating the Security 
 * [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 * [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)<br>
+* [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center - Display Names](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels#display-names)<br>
 * [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>
 * [How to activate Azure Rights Management from the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-azure)
-
