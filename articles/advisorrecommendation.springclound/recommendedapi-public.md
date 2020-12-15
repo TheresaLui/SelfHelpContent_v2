@@ -27,7 +27,7 @@
    "recommendationImpact": "Medium",
    "recommendationResourceType": "Microsoft.AppPlatform/Spring",
    "recommendationFriendlyName": "UpgradeSpringCloudAPI",
-   "recommendationMetadataState": "Active",
+   "recommendationMetadataState": "Disabled",
    "owner": {
       "email": "springazure@microsoft.com",
       "icm": {
