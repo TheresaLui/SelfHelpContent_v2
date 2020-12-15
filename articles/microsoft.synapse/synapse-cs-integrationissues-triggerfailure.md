@@ -47,3 +47,4 @@
 
 * [Trigger type comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#trigger-type-comparison)
 
+ 
