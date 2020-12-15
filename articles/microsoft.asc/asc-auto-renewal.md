@@ -52,3 +52,8 @@ implemented a subscription service. This service is aware of the customer’s ce
 certificate which will be valid from that date until the original expiration date to account for the remaining time. 
 Rest assured that App Service is working with GoDaddy to address this change to make sure that our customers still 
 get the full duration of their certificates.
+
+## **Recommended Documents**
+
+* [My SSL certificate is not being auto-renewed](https://azure.github.io/AppService/2017/07/24/FAQ-SSL-certificates-for-Web-Apps-and-App-Service-Certificates#auto-renew)
+* [Troubleshooting Tools for App Service Certificate](https://azure.github.io/AppService/2018/02/20/Troubleshooting-Tools-for-App-Service-Certificate.html)
