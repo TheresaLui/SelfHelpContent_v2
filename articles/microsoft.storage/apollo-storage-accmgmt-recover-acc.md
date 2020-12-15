@@ -36,7 +36,7 @@ Storage account recovery cases can now be resolved directly from the portal.
 
 ### Storage account recovery guideline 
 You can initiate the recovery of your storage account directly from the portal. <br />
-Follow [these instructions](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json) and click on the button below to recover your deleted storage account.
+Follow [these instructions](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json) and click on the button below to recover your deleted storage account.
  
 [Recover deleted storage account](button-data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)​ <br />
  
@@ -68,7 +68,7 @@ Follow [these instructions](https://docs.microsoft.com/en-us/azure/storage/commo
 **Note**: It may not be possible to recover deleted data even if above conditions are true. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten.Follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
 
 ## **Recommended Documents**
-* [Recovery of deleted storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json)
+* [Recovery of deleted storage account](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json)
 * [Soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete)
 * [Recovery of deleted storage blob container](https://docs.microsoft.com/azure/storage/common/storage-account-container-recovery)
 
