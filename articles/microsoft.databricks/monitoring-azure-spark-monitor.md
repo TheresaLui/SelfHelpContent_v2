@@ -19,7 +19,10 @@
 
 ## **Recommended Steps** 
 
-* If you have deployed the Azure Databricks workspace in your own virtual network and you have configured network security groups (NSG) to deny all outbound traffic that is not required by Azure Databricks, then you must configure an additional **outbound rule for the "AzureMonitor" service tag**. 
+You must configure an outbound rule for the **AzureMonitor** service tag if you:
+-	deployed the Azure Databricks workspace in your own virtual network, and
+-	configured network security groups (NSG) to deny all outbound traffic not required by Azure Databricks
+ 
 
 ## **Recommended Documents** 
 
