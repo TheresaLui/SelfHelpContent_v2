@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Using scripts in Azure Pipelines"
-	description="Azure Pipelines issues related to command line scripts"
-	infoBubbleText="Azure Pipelines issues related to command line scripts"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="vtbassmatt"
-	ms.author="macoope"
-	articleId="AZDevOpsPipelinesCmdLine"
-	supportTopicIds="32742326"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Pipelines issues related to command line scripts&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="macoope,vimalt"
+  selfhelptype="Generic"
+  supporttopicids="32742326"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinescmdline"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines issues related to command line scripts
 
 3 out of every 5 problems related to triggers were solved using the solutions below.
@@ -59,3 +53,4 @@ Follow through all the steps before you create a support ticket. If you do need 
 * [macOS agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-osx#diagnostics)
 * [Windows agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows#diagnostics)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

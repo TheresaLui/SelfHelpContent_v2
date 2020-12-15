@@ -78,3 +78,4 @@
    
    - [TDE with Bring Your Own Key](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview)
 
+ 

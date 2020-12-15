@@ -17,7 +17,7 @@
 />
 
 # SDK - Error or unexpected result
-Most users are able to resolve their .NET SDK case using the steps below. The Recommended Documents section contain further information for more troubleshooting scenarios.
+Most users are able to resolve issues with .NET SDK by using the steps below. The Recommended Documents section contains further information for troubleshooting scenarios.
 
 
 ## **Recommended Steps**
@@ -25,17 +25,17 @@ Most users are able to resolve their .NET SDK case using the steps below. The Re
 ### **Use latest SDK versions and singleton client**
 Always ensure you are using the latest SDK:
 * [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
-<br>Please ensure you are using singleton (one client instance for the lifetime of the application) client.
+<br>Ensure that you are using a singleton client (one client instance for the lifetime of the application).
 
 ### **Known Issues and Solutions**
-Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
+Review the GitHub issues listed in the following link for your SDK platform to see if there is a known bug, and to see the status of the fix from the Azure Cosmos DB team:  
 * [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 
 
 ### **Common Errors**  
   
 **401: The MAC signature found in the HTTP request is not the same as the computed signature**
-<br>If you received the following 401 error message: "The MAC signature found in the HTTP request is not the same as the computed signature." It can be caused by the following scenarios.
+<br>If you received the following 401 error message: "The MAC signature found in the HTTP request is not the same as the computed signature," this can be caused by the following scenarios:
 
 * The key was rotated and did not follow the [best practices](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). This is usually the case. Cosmos DB account key rotation can take anywhere from a few seconds to possibly days depending on the Cosmos DB account size.
    * 401 MAC signature is seen shortly after a key rotation and eventually stops without any changes. 
@@ -60,6 +60,14 @@ Review the Github issues links below for your SDK platform to see if there is a 
 <br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
 For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units). 
 * See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
+
+
+**449 Retry With**
+<br>This is an expected response that indicates that there were concurrent operations trying to modify the same document. It is safe to retry. If the error is happening during stored procedure executions, decreasing the degree of parallelism of the executions will also reduce the occurrence.
+
+
+**404 NotFoundException: The read session is not available for the input session token**
+<br>Please update your SDK to a version higher than 2.12.0 if using the V2 SDK or 3.15.0 if using the V3 SDK.
 
 
 **404 Not found**

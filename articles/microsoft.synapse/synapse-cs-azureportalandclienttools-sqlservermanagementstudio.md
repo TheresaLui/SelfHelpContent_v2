@@ -50,3 +50,4 @@
 
 * [Set up SQL Server Management Studio to script out Dedicated SQL pool objects](https://docs.microsoft.com/sql/ssms/scripting/generate-and-publish-scripts-wizard?view=azure-sqldw-latest#generating-scripts-on-azure-sql-data-warehouse)
 
+ 
