@@ -1,20 +1,16 @@
 <properties
-	pageTitle="ASC/Domain Verification taking too long or not completing"
-	description="ASC/Domain Verification taking too long or not completing"
-	service="microsoft.asc"
-	resource="asc"
-	authors="cts-shrahman, cristhianu"
-    ms.author="shrahman,curibe"
-	displayOrder="6"
-	selfHelpType="generic"
-	supportTopicIds="32690925"
-	resourceTags=""
-	productPesIds="16512"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="eeb97967-9e08-47fc-8fd2-a9052fa10290"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="ASC/Domain Verification taking too long or not completing&#xD;"
+  service="microsoft.certificateregistration"
+  resource="certificateorders"
+  ms.author="curibe,shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32690925"
+  resourcetags=""
+  productpesids="16512"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="eeb97967-9e08-47fc-8fd2-a9052fa10290"
+  ownershipid="Compute_AppService" />
 # ASC/Domain Verification taking too long or not completing
 
 ## **Recommended Steps**
