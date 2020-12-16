@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5724df2a-a62a-59cc-83aa-1525fbc22377",
+      "longDescription": "",
+      "shortDescription": "Issues with integrating internal or external VNET",
+      "searchTags": "VNET",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
