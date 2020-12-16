@@ -62,7 +62,6 @@
     "displayLabel": "Please provide these details",
     "watermarkText": "Include error details if any",
     "required": true,
-    "useAsAdditionalDetails": true
 },
 
    {
@@ -72,7 +71,6 @@
             "displayLabel": "What have you tried to troubleshoot this?",
             "watermarkText": "Include what you already tried, environment information and recent changes you have done",
             "required": false,
-            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
