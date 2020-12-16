@@ -74,7 +74,7 @@ Most users are able to resolve deployment issues by using the following steps.
 
 **Helpful articles**
 
-* [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models). Learn how to package a registered Azure Machine Learning model with Docker.
+* [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models) Learn how to package a registered Azure Machine Learning model with Docker.
 * [Use the studio to deploy models trained in the Designer](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-model-designer). Learn how to deploy trained model from Designer as a real-time endpoint in Azure Machine Learning Studio.
 * [Profile your model to determine resource utilization.](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-profile-model?pivots=py-sdk)
 * [InferenceSchema](https://github.com/Azure/InferenceSchema) This Python package is intended to provide uniform schema for common machine learning applications, as well as a set of decorators that can be used to aid in web-based ML prediction applications.
