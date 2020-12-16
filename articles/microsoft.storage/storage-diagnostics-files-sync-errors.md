@@ -21,11 +21,11 @@ ownershipId="StorageMediaEdge_StorageFiles"
 
 <!--issueDescription-->
 <br></br>
-<br>Error **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**</br>  
-<br>Error String **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**</br>  
-<br>Issue **<!--$Description-->[Description]<!--/$Description-->**</br>  
-<br>Remediation **<!--$Remediation-->[Remediation]<!--/$Remediation-->**</br>  
-<br>Learn more at the following **<!--$Remediation-->[LearnMoreLink]<!--/$Remediation-->**</br>  
+<br> Error <!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode--></br>  
+<br> Error String <!--$ErrorString-->[ErrorString]<!--/$ErrorString--></br>  
+<br> Issue <!--$Description-->[Description]<!--/$Description--></br>  
+<br> Remediation <!--$Remediation-->[Remediation]<!--/$Remediation--></br>  
+<br> Learn more at the following <!--$Remediation-->[LearnMoreLink]<!--/$Remediation--></br>  
 <!--/issueDescription-->
 
 
