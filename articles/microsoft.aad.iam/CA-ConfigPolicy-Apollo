@@ -1,0 +1,41 @@
+ 
+<properties
+pageTitle="Configuring new or existing policy settings"
+description="Issues related to how to configure new or existing policy settings"
+ms.author="marwa"
+displayOrder=""
+articleId="9e0b1410-af02-46a3-8c6d-d659cf88fbf8"
+selfHelpType="Apollo"
+supportTopicIds="ed228605-ddb7-d2c3-626d-dae69939a1a6"
+productPesIds="16579"
+cloudEnvironments="public"
+ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
+
+# Troubleshooting issues related to Conditional Access
+
+:::Section Insights:::
+## Troubleshooting issues related to Conditional Access
+Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
+
+### Diagnostics
+ 
+<Insight>
+<symptomId>DxpPrimaryInfoInsight</symptomId>
+<executionText>Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade </executionText>
+<timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
+<noResultText>Everything looks good from our side!</noResultText>
+<additionalInputsReq>true</additionalInputsReq> 
+</Insight>
+
+<CommonSolution>
+<articleId>b797ec2d-c7fb-40ae-8baf-0b6ddcfe0a69</articleId>
+<client>Portal</client>
+</CommonSolution>
+
+### More resources
+Here are some articles from the web that may help you: 
+
+<azureKB>
+<client>Portal</client>
+</azureKB>

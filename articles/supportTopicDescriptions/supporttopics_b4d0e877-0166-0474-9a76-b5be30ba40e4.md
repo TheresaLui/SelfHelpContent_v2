@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b4d0e877-0166-0474-9a76-b5be30ba40e4"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_b4d0e877-0166-0474-9a76-b5be30ba40e4"
   ownershipid="Compute_APIManagement" />
 # Support Topic Descriptions for b4d0e877-0166-0474-9a76-b5be30ba40e4
@@ -259,6 +260,14 @@
       "shortDescription": "Issues with configuring CORS",
       "searchTags": "CORS",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "972a6ee1-c34e-93c0-fd62-b177fb24e088",
+      "longDescription": "",
+      "shortDescription": "Issues related to multi-region deployments (premium SKU)",
+      "searchTags": "Multi-region;multiregion",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
