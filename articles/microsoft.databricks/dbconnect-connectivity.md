@@ -7,7 +7,7 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677677"
+	supportTopicIds="32784344"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -16,6 +16,8 @@
 />
 
 # Diagnose and resolve issues related to connectivity with IDE
+
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
 ## **Recommended Steps**
 
