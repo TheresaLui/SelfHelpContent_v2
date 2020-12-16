@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1b0f69a9-d4cf-6c60-c5f8-71f0cfd1d542",
+      "longDescription": "",
+      "shortDescription": "Configuration issues and deploying issues with Self Hosted Gateway",
+      "searchTags": "Gateway",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1d91a89e-3f32-acfa-9185-d9d9a97934af",
       "longDescription": "",
       "shortDescription": "Client certification issues for outbound and inbound gateway calls",
