@@ -20,7 +20,7 @@
 
 # MPN - How to link/unlink MCP IDs
 
-Resources providing knowledge on how to link/unlink MCP IDs
+Resources providing knowledge on how to link or unlink MCP IDs
 
 ## **Recommended Steps**
 
