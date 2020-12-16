@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-To resolve common VM extension issues, follow these [step-by-step instructions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health) 
-- Azure Backup service uses VMSnapshot extension. To take VM backup, **ensure that the VMSnapshot extension is healthy** by following [these prechecks and requirements](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health)**
+- To resolve common VM extension issues, follow these [step-by-step instructions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health). 
+- Azure Backup service uses VMSnapshot extension. To do a VM backup, **first ensure that the VMSnapshot extension is healthy** by following [these prechecks and requirements](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health)**
 - [How to troubleshoot Azure VM extension issues](https://docs.microsoft.com/azure/virtual-machines/extensions/overview#troubleshoot-extensions)
 
 **Common error codes**
