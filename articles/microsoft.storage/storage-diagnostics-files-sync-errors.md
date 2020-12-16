@@ -26,7 +26,6 @@ ownershipId="StorageMediaEdge_StorageFiles"
 <br>Issue: **<!--$Description-->[Description]<!--/$Description-->**</br>  
 <br>Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**</br>  
 <br>Learn more at the following **<!--$Remediation-->[LearnMoreLink]<!--/$Remediation-->**</br>  
-
 <!--/issueDescription-->
 
 
