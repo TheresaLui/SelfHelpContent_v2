@@ -1,7 +1,7 @@
 <properties
     pageTitle="Express Route Circuit Private Peering is down"
     description="Express Route Circuit Private Peering is down"
-    infoBubbleText="Express Route Circuit Private Peering is down"
+    infoBubbleText="Need more information about this issue? See details on the right."
     service="microsoft.network"
     resource="ExpressRoute"
     authors="TobyTu"

@@ -1,7 +1,7 @@
 <properties
 pageTitle="ExpressRoute gateway subnet has UDR applied"
 description="ExpressRoute gateway subnet has UDR applied"
-infoBubbleText="Issues with your ExpressRoute were detected. See details on the right."
+infoBubbleText="Need more information about this issue? See details on the right."
 service="microsoft.network"
 resource="ExpressRoute"
 authors="TobyTu"

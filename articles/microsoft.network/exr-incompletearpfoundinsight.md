@@ -1,7 +1,7 @@
 <properties
     pageTitle="Incomplete ARP(s) found"
     description="Incomplete ARP(s) found"
-    infoBubbleText="ExpressRoute: Incomplete ARP(s) found"
+    infoBubbleText="Need more information about this issue? See details on the right."
     service="microsoft.network"
     resource="ExpressRoute"
     authors="TobyTu"
