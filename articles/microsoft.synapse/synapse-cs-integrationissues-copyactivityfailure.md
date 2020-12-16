@@ -46,3 +46,4 @@
 
 * [Supported data stores](https://docs.microsoft.com/azure/data-factory/connector-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#supported-data-stores)
 
+ 

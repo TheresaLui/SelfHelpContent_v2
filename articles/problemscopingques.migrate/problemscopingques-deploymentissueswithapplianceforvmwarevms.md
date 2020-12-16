@@ -15,8 +15,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with appliance for VMware servers (Configuration Server)",
     "fileAttachmentHint": "",
     "formElements": [

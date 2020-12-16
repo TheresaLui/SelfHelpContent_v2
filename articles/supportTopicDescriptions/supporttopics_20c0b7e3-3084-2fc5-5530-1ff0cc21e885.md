@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2f9f0c2b-f939-a59e-1859-98a5af9173b9",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using Git and CI-CD feature in Synapse Studio.",
+      "searchTags": "git;ci;cd;continuous integration;continuous deployment",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
@@ -802,6 +810,14 @@
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
       "searchTags": "sql;databricks;spark;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6a2a9bef-8d36-feaf-9655-8a2980603b6a",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while importing or exporting data to SQL pool using Polybase.",
+      "searchTags": "sql;polybase;import;export;load",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
@@ -1646,6 +1662,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb9b6c75-e75f-eb26-c16b-2ae8c8cf5845",
+      "longDescription": "",
+      "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected.",
+      "searchTags": "pipeline;integration;performance;slow;adf",
+      "category": "Integration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "edf760d1-db6f-fc9a-a48a-f3d51fcce2b5",
       "longDescription": "",
       "shortDescription": "Issues related to development and deployment of SSDT Database Projects.",
@@ -1659,6 +1683,14 @@
       "shortDescription": "Problems related to provisioning resources using ARM templates, REST API, PowerShell or Azure CLI.",
       "searchTags": "arm;crud;rest;powershell;azure",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "efc152ee-9014-7deb-fa19-51a7588f143a",
+      "longDescription": "",
+      "shortDescription": "Failures linking a Synapse Workspace to an Azure Machine Learning workspace, running Azure ML pipelines, or enriching data from an Azure ML model.",
+      "searchTags": "machine;learning;ml;predict;model",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {
