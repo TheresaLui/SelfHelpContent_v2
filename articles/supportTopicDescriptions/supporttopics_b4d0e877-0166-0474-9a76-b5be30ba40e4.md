@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8d65351d-19b2-e1b4-e56b-90be6270019d",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring quota and rate limit policies",
+      "searchTags": "quota;rate limit",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "91e9152e-eb22-79e1-09f3-aee02992d8fb",
       "longDescription": "",
       "shortDescription": "Issues with configuring CORS",
