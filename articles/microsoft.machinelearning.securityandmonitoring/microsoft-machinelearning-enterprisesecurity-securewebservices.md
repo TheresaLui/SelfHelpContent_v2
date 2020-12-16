@@ -25,7 +25,7 @@ There are two steps you should take to secure your web services:
 1. Ensure you have SSL enabled on your web service domain.
 2. Ensure you have either key-based or token-based authentication enabled on your scoring endpoint.
 
-### **Setup SSL**
+### **Set up SSL**
 
 The general process to secure a web service using SSL is as follows:
 
@@ -36,14 +36,14 @@ The general process to secure a web service using SSL is as follows:
 
 The [following article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service) covers this process in depth.
 
-### **Setup Key-based Authentication**
+### **Set up Key-based Authentication**
 
 Key-based authentication generates static bearer-type authentication keys that do not need to be refreshed. 
 
 * Key-based authentication is **enabled by default** when you deploy to Azure Kubernetes Service
 * Key-based authentication is **disabled by default** when you deploy to Azure Container Instances, but you can enable it by setting `auth_enabled=True` when creating the ACI web-service
 
-The following is an example of creating an ACI deployment configuration with key-based auth enabled:
+The following is an example of creating an ACI deployment configuration with key-based authentication enabled:
 
 ```
 from azureml.core.webservice import AciWebservice
@@ -89,16 +89,16 @@ To regenerate a key, use the `regen_key()` function and pass either **Primary** 
 
 `aci_service.regen_key('Primary')` or `aci_service.regen_key('Secondary')`
 
-### **Setup Token-based Authentication**
+### **Set up Token-based Authentication**
 
 Token-based authentication requires users to present an Azure Machine Learning JSON Web Token to the web service to access it. The token expires after a specified time-frame and needs to be refreshed to continue making calls.
 
-* Token authentication is **disabled by default** when you deploy to Azure Kubernetes Service
-* Token authentication **isn't supported** when you deploy to Azure Container Instances
+* Token authentication is disabled by default when you deploy to Azure Kubernetes Service
+* Token authentication isn't supported when you deploy to Azure Container Instances
 
 To control token authentication, use the `token_auth_enabled` parameter when you create or update a deployment.
 
-The following is an example of creating an AKS deployment configuration with token-based auth enabled:
+The following is an example of creating an AKS deployment configuration with token-based authentication enabled:
 
 ```
 from azureml.core.webservice import AksWebservice
@@ -108,7 +108,7 @@ aks_config = AksWebservice.deploy_configuration(cpu_cores=1,
                                                 token_auth_enabled=True)
 ```
 
-Then you can use the custom AKS configuration in deployment using the `Model` class:
+Then, you can use the custom AKS configuration in deployment using the `Model` class:
 
 ```
 from azureml.core.model import Model, InferenceConfig
@@ -151,7 +151,7 @@ Here is a list of additional resources which may be helpful:
 * [SSL configuration class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.sslconfiguration?view=azure-ml-py)
 * [AksProvisioningConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksprovisioningconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
 * [AksAttachConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksattachconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
-* [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
+* [Set up authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
 * [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
 
