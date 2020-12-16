@@ -1,14 +1,14 @@
 <properties
-    pageTitle="Recent instances of disk throttling detected on this VM"
-    description="Recent instances of disk throttling detected on this VM"
-    infoBubbleText="Recent instances of disk throttling detected on this VM"
+    pageTitle="Recent instances of VM reaching IO limits detected"
+    description="Recent instances of VM reaching IO limits detected"
+    infoBubbleText="Recent instances of VM reaching IO limits detected"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"
     displayOrder=""
     articleId="diskthrottling-vmlimit"
-    diagnosticScenario="Recent instances of disk throttling detected on this VM"
+    diagnosticScenario="Recent instances of VM reaching IO limits detected"
     selfHelpType="diagnostics"
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
     resourceTags="windows"
@@ -17,15 +17,15 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# **Recent instances of disk throttling detected on this VM**
+# **The VM appears to have reached it's IO limits recently**
 
-## **There were recent instances on disk throttling on <!--$vmname-->[vmname]<!--/$vmname-->.**
+## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reached it's IO limits.**
 
 <!--issueDescription-->
-Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> exceeded the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
+Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> reached the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
 <!--/issueDescription-->
 
-### Recent disk throttling instances table
+### Recent instances of the VM reaching it's IO limits
 
 <!--$DataTable-->DataTable<!--/$DataTable-->
 
