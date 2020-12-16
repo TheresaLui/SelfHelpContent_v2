@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b528a786-4066-bc50-0d78-845c2ca08ba9",
+      "longDescription": "",
+      "shortDescription": "Issues with clusters being terminated",
+      "searchTags": "deleted;terminated;cluster has been deleted;cluster has been terminated",
+      "category": "Cluster Creation, Termination and Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b57d66fb-fd1b-04b5-c5fb-8067098eeb52",
       "longDescription": "",
       "shortDescription": "Setup, execution and revision issues related to Notebook",
