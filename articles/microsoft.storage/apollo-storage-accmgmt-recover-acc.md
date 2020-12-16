@@ -28,7 +28,7 @@ Storage account recovery cases can now be resolved directly from the portal.
 <symptomId>StorageRecoveryLightInsight</symptomId> 
 <executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
 <timeoutText>We stopped the check, as it was taking too long</timeoutText> 
-<noResultText>Our diagnostics did not find your storage resource. Please ensure the information provided is accurate and in the approved format. Also, check recommended solution below to find an answer.</noResultText> 
+<noResultText>Our diagnostics did not find your storage resource. Please ensure the information provided is accurate and in the approved format. Also, check additional recommendations below to find an answer.</noResultText> 
 <additionalInputsReq>true</additionalInputsReq> 
 </Insight> 
 
