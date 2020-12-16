@@ -159,6 +159,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7251af10-84a8-b218-a74f-26a9820159e0",
+      "longDescription": "",
+      "shortDescription": "Log search is not displaying results or working as expected",
+      "searchTags": "log ;search",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b78adba-d412-518e-3789-00436c8d1bea",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
