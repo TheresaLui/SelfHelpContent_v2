@@ -279,6 +279,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "70c9f9fe-1763-3a91-1e8d-da257fc2e1e4",
+      "longDescription": "",
+      "shortDescription": "Issues with Git repo integration with API Management",
+      "searchTags": "GitRepo;Integration;APIM",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73e09b7c-39a3-56e4-a357-83be61ec808f",
       "longDescription": "",
       "shortDescription": "Issues with ciphers, protocols and certificates in APIM",
