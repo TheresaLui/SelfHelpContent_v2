@@ -23,6 +23,6 @@
 ## **Recommended Documents**
 
 * [View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)
-* [Refund policy](https://go.microsoft.com/fwlink/?linkid=842232)
-* [Refund eligibility](https://support.microsoft.com/help/4017804/requesting-a-refund)
+* [Renew your MPN offers](https://docs.microsoft.com/partner-center/renew-mpn-offers)
+* [Manage your partner network benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits) 
 

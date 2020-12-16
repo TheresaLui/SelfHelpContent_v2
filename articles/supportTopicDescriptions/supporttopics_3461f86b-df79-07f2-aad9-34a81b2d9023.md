@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3461f86b-df79-07f2-aad9-34a81b2d9023"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023" />
 # Support Topic Descriptions for 3461f86b-df79-07f2-aad9-34a81b2d9023
 ---
@@ -461,6 +462,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9fa22fa2-85ed-cee1-f451-c8507ead2f30",
+      "longDescription": "",
+      "shortDescription": "DBR version issues, DBR upgrade issues",
+      "searchTags": "DBR;Runtime;version",
+      "category": "Cluster Creation, Termination or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a31948fb-b1c4-8962-5c36-4e72a6cd1d5b",
       "longDescription": "",
       "shortDescription": "Notebook Sync or save issues using Azure DevOps",
@@ -506,6 +515,14 @@
       "shortDescription": "Mount point creation or access issues",
       "searchTags": "mount point;dbfs",
       "category": "storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b528a786-4066-bc50-0d78-845c2ca08ba9",
+      "longDescription": "",
+      "shortDescription": "Issues with clusters being terminated",
+      "searchTags": "deleted;terminated;cluster has been deleted;cluster has been terminated",
+      "category": "Cluster Creation, Termination and Sizing",
       "useInDiagnoseAndSolve": "false"
     },
     {
