@@ -24,7 +24,7 @@
 
 * [Supported Databricks runtime releases and support schedule](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#--supported-databricks-runtime-releases-and-support-schedule)
 
-* Compatibility Matrixes - This section lists Databricks Runtime and Databricks Runtime ML versions and their respective Delta Lake API and MLflow versions
+* Compatibility Matrixes - See Databricks Runtime and Databricks Runtime ML versions and their respective Delta Lake API and MLflow versions:
 
      * [Delta Lake API compatibility matrix](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#delta-lake-api-compatibility-matrix)
      * [MLflow compatibility matrix](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#mlflow-compatibility-matrix)
