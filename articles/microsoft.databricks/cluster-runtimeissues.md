@@ -27,5 +27,6 @@
 
      * [Delta Lake API compatibility matrix](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#delta-lake-api-compatibility-matrix)
      * [MLflow compatibility matrix](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#mlflow-compatibility-matrix)
-
+     
 * [Supported Databricks Light releases](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#supported-databricks-light-releases)
+
