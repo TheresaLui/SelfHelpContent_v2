@@ -13,7 +13,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
-articleId="git add"
+articleId="008b431a-b510-470e-bd73-20d29517f3fb"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
