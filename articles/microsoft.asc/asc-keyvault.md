@@ -14,10 +14,13 @@
 # ASC/Certificate Key Vault Binding/Link
 
 ## **Recommended Steps**
-**How to Import a certificate from Key Vault**
-Please review the following [doc](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate#import-a-certificate-from-key-vault)
 
-**I am getting this error "Another certificate exists with same thumbprint XXXX at location XXXX in the Resource Group XXXX". What does that mean?**
+**How to import a certificate from Key Vault**
+
+For instructions, [see this document](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate#import-a-certificate-from-key-vault)
+
+**I get the error "Another certificate exists with same thumbprint XXXX at location XXXX in the Resource Group XXXX". What does this mean?**
+
 Certificates live inside a WebSpace (a virtual boundary where App Service Plans are created). Therefore, all AppServicePlans within a WebSpace will share certificates and we do not need to upload the same certificate again if it has to be used on a website that is within same webspace.
 
 **What permissions are required on Key Vault for App Service Certificate?**
