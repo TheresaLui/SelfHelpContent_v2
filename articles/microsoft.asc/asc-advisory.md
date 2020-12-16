@@ -13,9 +13,11 @@
   ownershipid="Compute_AppService" />
 # ASC/HowTo
 
+The following resources can help you resolve most issues with App Service certificates (ASC). 
+
 ## **Recommended Documents**
 
 * [How to use my App Service certificate in any Azure service](https://blogs.msdn.microsoft.com/appserviceteam/2017/02/24/creating-a-local-pfx-copy-of-app-service-certificate/)
-* [How can I move the app service certificate to another subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
-* [Frequently Asked Questions](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)
-* [Troubleshooting Tools for App Service Certificate](https://blogs.msdn.microsoft.com/appserviceteam/2018/02/20/troubleshooting-tools-for-app-service-certificate/)
+* [How can I move the App Service certificate to another subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+* [Frequently asked questions](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)
+* [Troubleshooting tools for App Service certificate](https://blogs.msdn.microsoft.com/appserviceteam/2018/02/20/troubleshooting-tools-for-app-service-certificate/)
