@@ -367,6 +367,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cb674e9f-aca6-9bdf-e7b1-47b751882500",
+      "longDescription": "",
+      "shortDescription": "Integration issues with Azure Monitor and Log Analytics",
+      "searchTags": "LogAnalytics;AzureMonitor",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d441d37b-d7e0-e149-2842-a399f0d0a9ec",
       "longDescription": "",
       "shortDescription": "Issues with API versions and revisions",
