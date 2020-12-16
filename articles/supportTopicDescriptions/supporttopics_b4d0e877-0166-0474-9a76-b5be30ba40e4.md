@@ -445,6 +445,14 @@
       "searchTags": "users;groups",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f8a76e9d-5da9-162f-a067-d905933e3520",
+      "longDescription": "",
+      "shortDescription": "Issues configuring email templates and notifications",
+      "searchTags": "email ;templates;notifications",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
