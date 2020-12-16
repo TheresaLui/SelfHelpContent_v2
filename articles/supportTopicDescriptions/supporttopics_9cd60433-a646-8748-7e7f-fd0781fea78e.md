@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_9cd60433-a646-8748-7e7f-fd0781fea78e"
   ownershipid="Azure_Sentinel" />
 # Support Topic Descriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e
@@ -122,6 +123,14 @@
       "longDescription": "",
       "shortDescription": "Troubleshooting the Investigation feature ",
       "searchTags": "investigation",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "50709ed0-0612-407c-c7f1-798531a96cec",
+      "longDescription": "",
+      "shortDescription": "Topics related to Sentinel Alert and Incident management",
+      "searchTags": "Alerts;Incident",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
