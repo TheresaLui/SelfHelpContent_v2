@@ -918,6 +918,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80ee09fb-30c6-1702-f09f-62bf7295519a",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or manage Private Link Hubs to securely load Synapse Studio static content over private links.",
+      "searchTags": "synapse studio;private link hubs;networking;security;security",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81095668-40a3-766b-b0cc-e348f083783f",
       "longDescription": "",
       "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or accessing Synapse Studio.",
