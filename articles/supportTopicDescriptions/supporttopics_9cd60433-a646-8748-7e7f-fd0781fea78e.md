@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05d76cc6-6665-8d10-58c7-72ff81a9bced",
+      "longDescription": "",
+      "shortDescription": "Topics related to Alerts, Playbooks, Bookmarks, and Queries",
+      "searchTags": "alerts ;playbooks ;queries",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
       "longDescription": "",
       "shortDescription": "Connecting to workspaces is not working or taking too long",
