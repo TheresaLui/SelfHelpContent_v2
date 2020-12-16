@@ -31,4 +31,3 @@ If your issue is not from the list above, you may use **Edit & Run Again** featu
 ### Recommended documents
 
 * [ExpressRoute documentation](https://docs.microsoft.com/en-us/azure/expressroute/)
-
