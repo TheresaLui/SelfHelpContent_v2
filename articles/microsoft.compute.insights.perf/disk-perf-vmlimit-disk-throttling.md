@@ -19,7 +19,7 @@
 
 # **The VM appears to have reached it's IO limits recently**
 
-## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reached it's IO limits.**
+## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching it's IO limits.**
 
 <!--issueDescription-->
 Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> reached the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
