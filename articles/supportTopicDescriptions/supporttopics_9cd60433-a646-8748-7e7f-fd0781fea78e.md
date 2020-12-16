@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8aa242c3-22f4-4615-f823-6eb18a6b30bb",
+      "longDescription": "",
+      "shortDescription": "Common tips for KQL design",
+      "searchTags": "KQL",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b78adba-d412-518e-3789-00436c8d1bea",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
