@@ -25,13 +25,13 @@
 
 **What can I check if domain verification is not completing?**
  
- * Click on the "Verify" button to open the Domain Verification window
- * At the top, you would see a Domain Verification Token which is a randomly generated identifier that helps in the verification process.
+ * Select the **Verify** button to open the Domain Verification window
+ * At the top, the Domain Verification Token appears. This is a randomly generated identifier that helps in the verification process.
  
  There are three ways to validates domain ownership:
 
    1. HTML file: Host an HTML file at the root of the webserver hosting the domain
    2. DNS TXT record: Create a TXT record for the root domain
-   3. Email: Click on the verification link included in the mail sent to the Email addresses associated with the domain
+   3. Email: Select the verification link included in the mail sent to the email addresses associated with the domain
 
  For more details about each option, please see the following [blog](https://azure.microsoft.com/blog/internals-of-app-service-certificate/).
