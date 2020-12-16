@@ -223,6 +223,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dab8593e-f566-c945-7ef8-a415ed39568e",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure pricing tiers and costs",
+      "searchTags": "billing;bill;costs",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dbf21c3d-7888-fcbd-2593-92c4bde12ed9",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
