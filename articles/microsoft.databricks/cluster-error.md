@@ -17,6 +17,8 @@
 
 # Diagnose and resolve cluster create and launch errors
 
+## **Recommended Steps**
+
 | ERROR | RECOMMENDED STEPS|
 |-------|---------|
 |Error code 500|The error is usually due to transient issues. Please check status pages and try again:<br>[Databricks Status Page](https://status.azuredatabricks.net)<br/>[Azure Status Page](https://status.azure.com/status)|
@@ -33,4 +35,4 @@
 
 
 
-## **Recommended Documents**
+
