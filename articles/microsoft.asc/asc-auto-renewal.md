@@ -20,8 +20,8 @@
 
 - Determine if the Key Vault has required permissions for auto-renewal to work. Add the following permissions to the Key Vault Access Policy for the service principals in question:
 
-```
-  |Service Principal|Secret Permissions|Certificates | 
+    ```
+|Service Principal|Secret Permissions|Certificates | 
 |--|--|--
 |Microsoft Azure App Service|Get|Get|
 |Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
@@ -30,8 +30,8 @@
 - Check if domain ownership verification is pending. Most App Service Certificates renew without the need to verify domain ownership. For some certificate renewals, GoDaddy requires domain verification within 45 days. In this case, users must add the new token to their DNS records. If the TXT records are not set within the 45 days, certificate renewal will be denied. The certificate will be valid for another 15 days until the certificate expiration date.
 
     To manually verify your domain ownership by adding a TXT record:
-    1. Go to the Domain Name Service (DNS) provider that hosts your domain name.
-    2. Add a TXT record for your domain that uses the value of the domain token that's shown in the Azure portal.
+    * Go to the Domain Name Service (DNS) provider that hosts your domain name.
+    * Add a TXT record for your domain that uses the value of the domain token that's shown in the Azure portal.
 
 **What do the certificate statuses mean as shown by diagnostics?**
 
@@ -41,9 +41,9 @@
 
 - **Denied** - Certificate renewal failed as domain ownership verification was not completed within 45 days. The certificate will be valid until its expiration date and then revoked. The customer will need to request a new certificate.
 
-**Why is my certificate issued for 11 months and not for a full year?**
+**Why is my certificate issued for 11 months and not for a full year?**<br>
 For all certificates issued after 9/1/2020, the maximum duration is now 397 days. Certificates issued before 9/1/2020 have a maximum validity of 825 days until they are renewed, rekeyed etc. Any certificate renewed after 9/1/2020 will be affected by this change and users may notice a shorter validity on their renewed certificates. 
-
+<br>
 GoDaddy has implemented a subscription service that both meets the new requirements while honoring existing customer certificates. Thirty days before the newly-issued certificate expires, the service automatically issues a second certificate that extends the duration to the original expiration date. 
 App Service is working with GoDaddy to address this change and make sure that our customers receive the full duration of their certificates.
 
