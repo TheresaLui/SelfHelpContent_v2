@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "21c436e7-dbbc-cb82-36d4-dd26c84b9c03",
+      "longDescription": "",
+      "shortDescription": "Configuring Custom domains",
+      "searchTags": "Domain;Custom",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "317d2bb8-4a47-ca4b-c3e6-6048865245a0",
       "longDescription": "",
       "shortDescription": "Issues with configuring internal and external caching",
