@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "074e8c07-478c-cbd0-0b98-7a0d23479260",
+      "longDescription": "",
+      "shortDescription": "Issues with backend configuration",
+      "searchTags": "backend",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
       "longDescription": "",
       "shortDescription": "Why is my APIM capacity high?",
