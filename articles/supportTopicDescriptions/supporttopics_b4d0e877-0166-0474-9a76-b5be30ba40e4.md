@@ -343,6 +343,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c51d1e96-b195-801b-a5ab-65d6d5d118b2",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring retry policy",
+      "searchTags": "policy;retry",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d441d37b-d7e0-e149-2842-a399f0d0a9ec",
       "longDescription": "",
       "shortDescription": "Issues with API versions and revisions",
