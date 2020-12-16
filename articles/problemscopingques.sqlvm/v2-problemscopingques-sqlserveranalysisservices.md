@@ -55,6 +55,31 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
+        
+        
+        {
+    "id": "error_details",
+    "order": 7,
+    "controlType": "textbox",
+    "displayLabel": "Please provide these details",
+    "watermarkText": "Include error details if any",
+    "required": true,
+    "useAsAdditionalDetails": true
+},
+
+   {
+            "id": "environmentinfo_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What have you tried to troubleshoot this?",
+            "watermarkText": "Include environment information and recent changes you have done",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+
+        
+        
+        
         {
             "id": "problem_description",
             "order": 1000,
@@ -67,4 +92,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
----
+
