@@ -20,15 +20,12 @@ ownershipId="StorageMediaEdge_StorageFiles"
 # Azure File Sync Errors Troubleshooting and Remediation
 
 <!--issueDescription-->
-
-<p></p>
-<p>Below details describe the file sync error and appropriate mitigation steps</p>
-
-<p>Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**</p>  
-<p>Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**</p>  
-<p>Issue: **<!--$Description-->[Description]<!--/$Description-->**</p>  
-<p>Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**</p>  
-<p>Learn more at the following **<!--$Remediation-->[LearnMoreLink]<!--/$Remediation-->**</p>  
+<br></br>
+<br>Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**</br>  
+<br>Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**</br>  
+<br>Issue: **<!--$Description-->[Description]<!--/$Description-->**</br>  
+<br>Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**</br>  
+<br>Learn more at the following **<!--$Remediation-->[LearnMoreLink]<!--/$Remediation-->**</br>  
 
 <!--/issueDescription-->
 
