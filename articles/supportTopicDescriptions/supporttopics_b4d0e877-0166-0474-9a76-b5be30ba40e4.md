@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0d0e3cc9-f367-9bc7-0026-b5e67134bc7e",
+      "longDescription": "",
+      "shortDescription": "Issues with portal performance, slowness and latency",
+      "searchTags": "slow;latency",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
       "longDescription": "",
       "shortDescription": "Why is my APIM capacity high?",
