@@ -15,11 +15,12 @@
 
 ## **Recommended Steps**
 
-Resolve issues with hostname binding not updating after the certificate auto-renews.
+The following solutions help most customers who have issues with hostname binding not updating after the certificate auto-renews.
 
-**What can I check if hostname binding is not updated after certificate auto-renewal?**
+## What can I check if hostname binding is not updated after certificate auto-renewal?
+The sync operation can takes up to 48 hours to update the hostname bindings. 
 
-- The sync operation can takes up to 48 hours to update the hostname bindings. To manually run a sync operation from the Azure portal: select **Certificate** > **Rekey and Sync** > **Sync**.
+- To manually run a sync operation from the Azure portal, select **Certificate** > **Rekey and Sync** > **Sync**.
 
 - Check the required permissions on Key Vault
 	
