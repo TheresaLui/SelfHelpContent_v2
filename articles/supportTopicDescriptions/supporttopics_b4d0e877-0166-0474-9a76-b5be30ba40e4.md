@@ -423,6 +423,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f7cbfe2d-d528-94fe-d796-ebb90157db2f",
+      "longDescription": "",
+      "shortDescription": "Configuring and understanding alerts and metrics",
+      "searchTags": "alerts;metrics",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
       "longDescription": "",
       "shortDescription": "Issues with APIM users and groups",
