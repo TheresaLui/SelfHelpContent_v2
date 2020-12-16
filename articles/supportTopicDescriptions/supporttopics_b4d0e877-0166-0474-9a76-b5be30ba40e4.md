@@ -239,6 +239,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "60f48403-37be-cbca-6fa5-aa7f6c3d77e2",
+      "longDescription": "",
+      "shortDescription": "Issues with authentication policies and Developer portal built-in sign-in",
+      "searchTags": "DevPortal;Signin",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "62ac7b03-c7e4-e848-b157-893da273090c",
       "longDescription": "",
       "shortDescription": "Common issues with connectivity and tabs not populating",
