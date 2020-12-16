@@ -191,6 +191,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
+      "longDescription": "",
+      "shortDescription": "Topics covering creating workspaces, access and connectivity issues",
+      "searchTags": "workspace;connectivity;create",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "Data not presenting in Sentinel Workspaces",
