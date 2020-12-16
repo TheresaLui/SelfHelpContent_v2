@@ -8,7 +8,7 @@
     ms.author="leakkari"
     displayOrder=""
     selfHelpType="Apollo"
-    supportTopicIds="32602701,46112481-76cb-32be-fcc2-c0b0c872410f,be31886c-9e5c-4201-2f7c-659061e183d8"
+    supportTopicIds="46112481-76cb-32be-fcc2-c0b0c872410f,be31886c-9e5c-4201-2f7c-659061e183d8"
     resourceTags="recovery"
     productPesIds="15629,16459"
     cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
