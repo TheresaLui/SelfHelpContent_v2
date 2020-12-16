@@ -17,10 +17,10 @@
 
 # Diagnose and resolve issues with Databricks cluster creation failure
 
-## **Recommended Documents**
 
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
+## **Recommended Documents**
 
 * [Supported Databricks runtime releases and support schedule](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#--supported-databricks-runtime-releases-and-support-schedule)
 
