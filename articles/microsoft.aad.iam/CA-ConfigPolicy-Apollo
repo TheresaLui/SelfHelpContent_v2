@@ -6,18 +6,19 @@ ms.author="marwa"
 displayOrder=""
 articleId="9e0b1410-af02-46a3-8c6d-d659cf88fbf8"
 selfHelpType="Apollo"
-supportTopicIds="32596842"
+supportTopicIds="ed228605-ddb7-d2c3-626d-dae69939a1a6"
 productPesIds="16579"
 cloudEnvironments="public"
 ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
- 
 
-## Welcome to our new guided troubleshooting experience for Conditional Access
-This experience integrates automated checks, manual steps, important documents and relevant results from the web.
- 
+# Troubleshooting issues related to Conditional Access
+
 :::Section Insights:::
-## Running a few automated checks to determine 
+## Troubleshooting issues related to Conditional Access
+Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
+
+### Diagnostics
  
 <Insight>
 <symptomId>DxpPrimaryInfoInsight</symptomId>
@@ -26,35 +27,15 @@ This experience integrates automated checks, manual steps, important documents a
 <noResultText>Everything looks good from our side!</noResultText>
 <additionalInputsReq>true</additionalInputsReq> 
 </Insight>
- 
- <br>
- 
- --------
- 
-:::Section Manual Troubleshooting Solutions::: 
-<video>
-<src>How to deploy conditional access | Azure Active Directory</src>        
 
-<title>How to deploy conditional access</title>
-<size>small</size>        
-</video>
- 
-<br>
- 
- --------
-   
-:::Section Recommended Solutions:::
 <CommonSolution>
 <articleId>b797ec2d-c7fb-40ae-8baf-0b6ddcfe0a69</articleId>
 <client>Portal</client>
 </CommonSolution>
- 
- <br>
- 
- --------
- 
-:::Section Instant answers:::
-## Here are some articles from the web that may help you
+
+### More resources
+Here are some articles from the web that may help you: 
+
 <azureKB>
 <client>Portal</client>
 </azureKB>

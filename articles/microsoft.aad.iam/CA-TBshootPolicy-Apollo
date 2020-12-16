@@ -11,12 +11,14 @@ productPesIds="16579"
 cloudEnvironments="public"
 ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
-  
-## Welcome to our new guided troubleshooting experience for Conditional Access
-This experience integrates automated checks, manual steps, important documents and relevant results from the web.
- 
+
+# Troubleshooting resultant set of Policy 
 :::Section Insights:::
-## Running a few automated checks to determine 
+
+## Troubleshooting resultant set of Policy
+Resolve issues related to Policy using insights from diagnostics, and recommended solutions below.
+
+### Diagnostics
  
 <Insight>
 <symptomId>DxpDsqCardSymptom</symptomId>>
@@ -25,8 +27,6 @@ This experience integrates automated checks, manual steps, important documents a
 <noResultText>Everything looks good from our side!</noResultText>
 <additionalInputsReq>true</additionalInputsReq>
 </Insight>
-
-<br>
 
 ### Run the "What-If" tool
 
