@@ -20,14 +20,12 @@
 
 - Determine if the Key Vault has required permissions for auto-renewal to work. Add the following permissions to the Key Vault Access Policy for the service principals in question:
 
-    ```
-|Service Principal|Secret Permissions|Certificates | 
+   |Service Principal|Secret Permissions|Certificates | 
 |--|--|--
 |Microsoft Azure App Service|Get|Get|
 |Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
-```
 		
-- Check if domain ownership verification is pending. Most App Service Certificates renew without the need to verify domain ownership. For some certificate renewals, GoDaddy requires domain verification within 45 days. In this case, users must add the new token to their DNS records. If the TXT records are not set within the 45 days, certificate renewal will be denied. The certificate will be valid for another 15 days until the certificate expiration date.
+- Determine whether domain ownership verification is pending. Most App Service Certificates renew with no requirement to verify domain ownership. For some certificate renewals, GoDaddy requires domain verification within 45 days. In this case, users must add the new token to their DNS records. If the TXT records are not set within the 45 days, certificate renewal will be denied. The certificate will be valid for another 15 days until the certificate expiration date.
 
     To manually verify your domain ownership by adding a TXT record:
     * Go to the Domain Name Service (DNS) provider that hosts your domain name.
