@@ -61,7 +61,7 @@
     "controlType": "multilinetextbox",
     "displayLabel": "Please provide these details",
     "watermarkText": "Include error details if any",
-    "required": true,
+    "required": true
 },
 
    {
@@ -70,7 +70,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What have you tried to troubleshoot this?",
             "watermarkText": "Include what you already tried, environment information and recent changes you have done",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
