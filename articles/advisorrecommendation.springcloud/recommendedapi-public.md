@@ -21,7 +21,7 @@
    "dataSourceMetadata": {
       "streamNamespace": "cluster('https://springcloud.eastus2.kusto.windows.net').database('prod').GetAzureAdvisorRecommendationReport",
       "dataSource": "Kusto",
-      "refreshInterval": "0.00:10:00"
+      "refreshInterval": "0.00:05:00"
    },
    "recommendationCategory": "OperationalExcellence",
    "recommendationImpact": "Medium",
