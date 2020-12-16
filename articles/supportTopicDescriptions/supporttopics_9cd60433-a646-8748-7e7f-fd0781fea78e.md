@@ -143,6 +143,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58b9550d-e997-9a58-9da7-5f41244c351a",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting Bookmarks",
+      "searchTags": "bookmarks",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5d90c88a-d4c9-0fde-ae74-def23ee4c549",
       "longDescription": "",
       "shortDescription": "Playbooks overview, troubleshooting, and guidance",
