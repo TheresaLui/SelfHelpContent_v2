@@ -1649,7 +1649,7 @@
       "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
-      "searchTags": "sql;polybase;load;import;export",
+      "searchTags": "sql;load;import;export;copy",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
