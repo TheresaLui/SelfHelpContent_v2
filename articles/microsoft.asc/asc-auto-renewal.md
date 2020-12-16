@@ -20,7 +20,7 @@
 
 - Determine if the Key Vault has required permissions for auto-renewal to work. Add the following permissions to the Key Vault Access Policy for the service principals in question:
 
-   |Service Principal|Secret Permissions|Certificates | 
+|Service Principal|Secret Permissions|Certificates | 
 |--|--|--
 |Microsoft Azure App Service|Get|Get|
 |Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
