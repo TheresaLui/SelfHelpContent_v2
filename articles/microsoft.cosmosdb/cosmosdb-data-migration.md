@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636783, 32636785, 32692543, 32681009"
+	supportTopicIds="32636783, 32636785"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -22,22 +22,22 @@ Most users are able to resolve their data migration case using the steps and rec
 
 ## **Recommended Steps**
 
-You can migrate data to Azure Cosmos DB by using a wide variety of tools. To understand which is the best tool, the following factors need to be understood:
+You can migrate data to Azure Cosmos DB by using a wide variety of tools. To understand which is the best tool, consider the following factors:
 
 
 ### **Factors affecting the choice of migration tool**
 
 The following factors determine the choice of the migration tool:
 
-* **Online vs offline migration**: Many migration tools provide a path to do a one-time migration only. This means that the applications accessing the database might experience a period of downtime. Some migration solutions provide a way to do a live migration where there is a replication pipeline set up between the source and the target.
-* **Data source**: The existing data can be in various data sources like Oracle DB2, DataStax Cassandra, Azure SQL Database, PostgreSQL, etc. The data can also be in an existing Azure Cosmos DB account and the intent of migration can be to change the data model or repartition the data in a container with a different partition key.
-* **Azure Cosmos DB API**: For the SQL API in Azure Cosmos DB, there are a variety of tools developed by the Azure Cosmos DB team which aid in the different migration scenarios. All of the other APIs have their own specialized set of tools developed and maintained by the community. Since Azure Cosmos DB supports these APIs at a wire protocol level, these tools should work as-is while migrating data into Azure Cosmos DB too. However, they might require custom handling for throttles as this concept is specific to Azure Cosmos DB.
-* **Size of data**: Most migration tools work very well for smaller datasets. When the data set exceeds a few hundred gigabytes, the choices of migration tools are limited. 
-* **Expected migration duration**: Migrations can be configured to take place at a slow, incremental pace that consumes less throughput or can consume the entire throughput provisioned on the target Azure Cosmos DB container and complete the migration in less time.
+* **Online vs. offline migration**: Many migration tools provide a path to do a one-time migration only. This means that the applications accessing the database might experience a period of downtime. Some migration solutions provide a way to do a live migration where there is a replication pipeline set up between the source and the target.
+* **Data source**: The existing data can be in various data sources, such as Oracle DB2, DataStax Cassandra, Azure SQL Database, PostgreSQL, and so on. The data can also be in an existing Azure Cosmos DB account, and the intent of migration can be to change the data model or to repartition the data in a container with a different partition key.
+* **Azure Cosmos DB API**: For the SQL API in Azure Cosmos DB, there are a variety of tools developed by the Azure Cosmos DB team that aid in the different migration scenarios. All of the other APIs have their own specialized set of tools developed and maintained by the community. Because Azure Cosmos DB supports these APIs at a wire protocol level, these tools should work as-is while migrating data into Azure Cosmos DB too. However, they might require custom handling for throttles because this concept is specific to Azure Cosmos DB.
+* **Size of data**: Most migration tools work very well for smaller datasets. When the data set exceeds a few hundred gigabytes, the choice of migration tools is limited. 
+* **Expected migration duration**: Migrations can be configured to take place at a slow, incremental pace that consumes less throughput, or to consume the entire throughput provisioned on the target Azure Cosmos DB container and therefore complete the migration more quickly.
 
 ### **Examples of migration tool options**
 
-To view the **complete list of options**, please see the [official article](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-migrationchoices).
+To view the **complete list of options**, see the [official article](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-migrationchoices).
 
 Some of the most common options are:
 

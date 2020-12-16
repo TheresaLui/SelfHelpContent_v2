@@ -25,13 +25,13 @@ App-specific proxy settings allow configuration of a proxy specifically for Azur
 
 PowerShell commands to configure app-specific proxy settings:
 
-~~~powershell
+```powershell
 
 Import-Module "C:\Program Files\Azure\StorageSyncAgent\StorageSync.Management.ServerCmdlets.dll"
 
 Set-StorageSyncProxyConfiguration -Address  -Port  -ProxyCredential
 
-~~~
+```
 
 **Machine-wide proxy settings**
 

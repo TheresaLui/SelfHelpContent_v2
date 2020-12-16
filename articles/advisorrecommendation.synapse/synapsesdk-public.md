@@ -33,8 +33,8 @@
 		},
 		"serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
 	},
-	"version": 5.0,
-	"learnMoreLink": "https://docs.microsoft.com/dotnet/api/microsoft.azure.management.synapse.synapsemanagementclient?view=azure-dotnet-preview",
+	"version": 6.0,
+	"learnMoreLink": "https://aka.ms/UpgradeSynapseManagementClientSDK",
 	"description": "Update SynapseManagementClient SDK Version",
 	"longDescription": "New SynapseManagementClient is using .NET SDK 4.0 or above.",
 	"potentialBenefits": "Latest SynapseManagementClient Libraries contain fixes for known issues and additional improvements.",

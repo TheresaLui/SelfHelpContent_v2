@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Docker & Containers"
-	description="Issues with building, creating, or publishing container images"
-	infoBubbleText="Azure Pipelines issues related to Docker tasks"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesDockerIssues"
-	supportTopicIds="32742308"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of docker tasks for building and pushing container images to Azure&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,vimalt"
+  selfhelptype="Generic"
+  supporttopicids="32742308"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinesdockerissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of docker tasks for building and pushing container images to Azure
 
 ## **Recommended Steps**
@@ -49,3 +43,5 @@ Are you facing one of these common problems?
 
 * [Troubleshoot Azure Resource Manager service connections](https://github.com/MicrosoftDocs/azure-devops-docs/blob/master/docs/pipelines/release/azure-rm-endpoint.md)
 * [Build and push Docker images](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/docker?view=azure-devops)
+* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

@@ -68,3 +68,4 @@ The following are the most common issues for slow query performance:
 
 * [Workload management with resource classes in Dedicated SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/resource-classes-for-workload-management)
 
+ 
