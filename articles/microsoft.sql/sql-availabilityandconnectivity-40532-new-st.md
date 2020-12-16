@@ -21,16 +21,16 @@ Follow these steps to resolve the error, "Error 40532: Cannot open server {serve
 
 ## **Recommended Steps**
 
-Error 40532 is usually related to one of the following scenarios:
+This error is usually related to one of the following scenarios:
 
 1. **The login username is an email address or contains the '@' symbol (e.g., user@mydomain.com)**  
    If the *servername* value shown in the error is "mydomain.com," you are encountering this scenario. For instructions on how to handle this, see [Handling Error 40532](https://techcommunity.microsoft.com/t5/azure-database-support-blog/providing-the-server-name-explicitly-in-user-names-for-azure-sql/ba-p/368942?WT.mc_id=pid:13491:sid:32745429/).
 
 1. **The subnet from which you are trying to connect has Microsoft.Sql service endpoint enabled**  
 
-   By enabling virtual network service endpoints to Microsoft.Sql in the subnet, you also enable endpoints for Azure SQL Database, Azure Synapse Analytics, Azure Database for PostgreSQL server, Azure Database for MySQL server and Azure Database for MariaDB. Attempts to connect from subnet might fail if virtual network rules are not set.
+   Enabling virtual network service endpoints to Microsoft.Sql in the subnet can also enable endpoints for Azure SQL Database, Azure Synapse Analytics, Azure Database for PostgreSQL server, Azure Database for MySQL server and Azure Database for MariaDB. Attempts to connect from subnet might fail if virtual network rules are not set.
 
-   This issue is usually originated by one of the following:
+   This issue usually originates from one of the following actions:
 
    - When attempting to connect to SQL Database using service endpoints, Microsoft.Sql was enabled in the subnet. However, the virtual network rule for the originating subnet in the **Firewalls and virtual networks** settings on the server was not added.
    - When attempting to connect to other database service (like Azure Database for MySQL as an example), Azure SQL Database was also impacted.  
