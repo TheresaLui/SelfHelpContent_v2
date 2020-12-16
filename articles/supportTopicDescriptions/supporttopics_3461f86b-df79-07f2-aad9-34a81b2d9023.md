@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3461f86b-df79-07f2-aad9-34a81b2d9023"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023" />
 # Support Topic Descriptions for 3461f86b-df79-07f2-aad9-34a81b2d9023
 ---
@@ -458,6 +459,14 @@
       "shortDescription": "Questions on Job failures, job alerts or job performance",
       "searchTags": "job",
       "category": "Job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9fa22fa2-85ed-cee1-f451-c8507ead2f30",
+      "longDescription": "",
+      "shortDescription": "DBR version issues, DBR upgrade issues",
+      "searchTags": "DBR;Runtime;version",
+      "category": "Cluster Creation, Termination or Sizing",
       "useInDiagnoseAndSolve": "false"
     },
     {
