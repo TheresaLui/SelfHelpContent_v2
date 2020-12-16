@@ -327,6 +327,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2eb5296-4f55-b85a-c41f-a4fa0f6a034d",
+      "longDescription": "",
+      "shortDescription": "Issues with validating JWT policy",
+      "searchTags": "JWT",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4be2190-1ffc-e36c-b242-f744490951a2",
       "longDescription": "",
       "shortDescription": "Issues with the Management API",
