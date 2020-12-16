@@ -18,9 +18,8 @@
 # JIT Policy configured
 
 <!--issueDescription-->
-Dear Customer,<br>
 
-It appears that JIT has been successfully configured on the VM. Please test and confirm and let us know if you have any further issues.<BR>
-<br>
-Best Regards,<br>
+Based on the troubleshooting done so far we have found the following, it appears that JIT has been successfully configured on the VM. Please test and confirm and let us know if you have any further issues.<BR>
+
+
 <!--/issueDescription-->
