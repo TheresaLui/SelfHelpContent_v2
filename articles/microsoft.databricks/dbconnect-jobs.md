@@ -21,6 +21,7 @@
 * [How To: Set up Client](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-client)
 * [How To: Set up IDE or Notebook Server](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#set-up-your-ide-or-notebook-server)
 * [How To: Run examples from your IDE](https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html#run-examples-from-your-ide)
+
 * [Troubleshooting](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#troubleshooting)
 
      * [Python version mismatch](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect#python-version-mismatch)
