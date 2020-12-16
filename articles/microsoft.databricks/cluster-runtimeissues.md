@@ -21,6 +21,7 @@
 
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
+
 * [Supported Databricks runtime releases and support schedule](https://docs.microsoft.com/azure/databricks/release-notes/runtime/releases#--supported-databricks-runtime-releases-and-support-schedule)
 
 * Compatibility Matrixes - This section lists Databricks Runtime and Databricks Runtime ML versions and their respective Delta Lake API and MLflow versions
