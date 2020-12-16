@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure Sentinel costs",
+      "searchTags": "Costs;bill;billing",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fda9fa68-64c5-7d3b-30af-82dc58dc53c8",
       "longDescription": "",
       "shortDescription": "How to interpret Analytics results from alert rules and queries",
