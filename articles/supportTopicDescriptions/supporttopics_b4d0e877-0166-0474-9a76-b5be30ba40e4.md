@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "317d2bb8-4a47-ca4b-c3e6-6048865245a0",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring internal and external caching",
+      "searchTags": "Caching;Policies",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "341aadb6-29e6-a050-45c9-aa200ae2d805",
       "longDescription": "",
       "shortDescription": "Unexpected behavior in Portal UI",
