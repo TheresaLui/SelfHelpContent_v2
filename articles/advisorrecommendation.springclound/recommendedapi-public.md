@@ -44,9 +44,9 @@
    "potentialBenefits": "Latest Azure Spring Cloud API contain latest fixes, performance improvements, and new feature capabilities.",
    "actions": [{
          "actionId": "9017e82f-b7ac-4a06-8b9b-5858cb3d5113",
-         "description": "Upgrade your Azure Spring Cloud API",
+         "description": "Upgrade to version 2020-07-01",
          "actionType": "Document",
-         "documentLink": "{recommendedActionLearnMore}"
+         "documentLink": "https://docs.microsoft.com/en-us/cli/azure/ext/spring-cloud/?view=azure-cli-latest"
       }
    ],
    "resourceMetadata": {
