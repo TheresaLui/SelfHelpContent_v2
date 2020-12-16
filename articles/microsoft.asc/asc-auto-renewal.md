@@ -14,7 +14,8 @@
 # ASC/Auto-renewal
 
 ## **Recommended Steps**
-**What can I check if certificate doesn't auto-renew?**
+
+### What can I check if certificate doesn't auto-renew?
 
 - Check if the certificate expiration date is within 60 days.
 
@@ -30,8 +31,9 @@
     To manually verify your domain ownership by adding a TXT record:
     * Go to the Domain Name Service (DNS) provider that hosts your domain name.
     * Add a TXT record for your domain that uses the value of the domain token that's shown in the Azure portal.
+   <br>
 
-**What do the certificate statuses mean as shown by diagnostics?**
+### What do the certificate statuses mean as shown by diagnostics?
 
 - **Issued** - Certificate is issued and ready for use.
 
@@ -39,7 +41,9 @@
 
 - **Denied** - Certificate renewal failed as domain ownership verification was not completed within 45 days. The certificate will be valid until its expiration date and then revoked. The customer will need to request a new certificate.
 
-**Why is my certificate issued for 11 months and not for a full year?**<br>
+
+### Why is my certificate issued for 11 months and not for a full year?<br>
+
 For all certificates issued after 9/1/2020, the maximum duration is now 397 days. Certificates issued before 9/1/2020 have a maximum validity of 825 days until they are renewed, rekeyed etc. Any certificate renewed after 9/1/2020 will be affected by this change and users may notice a shorter validity on their renewed certificates. 
 <br>
 GoDaddy has implemented a subscription service that both meets the new requirements while honoring existing customer certificates. Thirty days before the newly-issued certificate expires, the service automatically issues a second certificate that extends the duration to the original expiration date. 
