@@ -232,8 +232,8 @@
     {
       "id": "1dbe1c7a-eea3-c2ae-416f-9dda0499cb30",
       "longDescription": "",
-      "shortDescription": "Failures to configure or manage a Private Link connection to SQL pools.",
-      "searchTags": "connectivity;networking;sql;private;link",
+      "shortDescription": "Failures to configure or manage a private endpoint connection to workspace resources like SQL pools, Storage or Cosmos DB.",
+      "searchTags": "connectivity;networking;private;link;endpoint",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
