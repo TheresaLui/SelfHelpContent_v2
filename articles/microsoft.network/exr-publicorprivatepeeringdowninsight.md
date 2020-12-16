@@ -14,14 +14,12 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-     ownershipId="CloudNet_AzureExpressRoute"
+    ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Express Route Circuit Private Peering is down
 <!--/issueDescription-->
-ExpressRoute facilitates hybrid connectivity to Azure resources created privately inside an Azure virtual network and publicly via public IP addresses. Private peering enables connectivity to resources deployed within an Azure virtual network and Microsoft peering enables access to online Microsoft resources.
-
-We have identified that the **[affected circuit peering]** configured on your ExpressRoute circuit **[Azure resource name]** is currently down.
+ExpressRoute facilitates hybrid connectivity to Azure resources created privately inside an Azure virtual network and publicly via public IP addresses. Private peering enables connectivity to resources deployed within an Azure virtual network and Microsoft peering enables access to online Microsoft resources. We have identified that the **[affected circuit peering]** configured on your ExpressRoute circuit **[Azure resource name]** is currently down.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

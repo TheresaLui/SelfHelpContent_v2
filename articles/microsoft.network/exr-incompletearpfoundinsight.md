@@ -21,7 +21,7 @@
 
 <!--/issueDescription-->
 We have identified that the Address Resolution Protocol (ARP) isn't established on your ExpressRoute circuit **[Azure resource name]**. To enable private connectivity to an Azure virtual network or public connectivity to an online Microsoft resource, ARP must be established first.
- <!--/issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
