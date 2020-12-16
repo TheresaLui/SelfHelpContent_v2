@@ -19,14 +19,11 @@
 
 <!--issueDescription-->
 
-Dear Customer,<br>
-
-The user probably does not have authorization to perform the needed action.<br>
+Based on the troubleshooting done so far we have found the following, the user probably does not have authorization to perform the needed action.<br>
 <br>
 Check that the role assignment contains this action:<br>
  'Microsoft.Security/locations/jitNetworkAccessPolicies/write' over scope subscriptions/jitNetworkAccessPolicies.<br>
 <br>
 The user should have the RBAC role to contain the above actions (Contributor or Owner) as described here in the article [Understanding just-in-time virtual machine access in Azure Security Center](https://docs.microsoft.com/azure/security-center/just-in-time-explained)<br>
-Best Regards,<br>
 
 <!--/issueDescription-->
