@@ -1686,6 +1686,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "efc152ee-9014-7deb-fa19-51a7588f143a",
+      "longDescription": "",
+      "shortDescription": "Failures linking a Synapse Workspace to an Azure Machine Learning workspace, running Azure ML pipelines, or enriching data from an Azure ML model.",
+      "searchTags": "machine;learning;ml;predict;model",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
