@@ -477,6 +477,14 @@
       "searchTags": "email ;templates;notifications",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f9522dfc-ba4b-56ae-f622-765defcb9933",
+      "longDescription": "",
+      "shortDescription": "Issues with custom and default roles and RBAC in APIM",
+      "searchTags": "roles;RBAC",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
