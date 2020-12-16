@@ -1,14 +1,14 @@
 <properties
-    pageTitle="Recent instances of VM reaching IO limits detected"
-    description="Recent instances of VM reaching IO limits detected"
-    infoBubbleText="Recent instances of VM reaching IO limits detected"
+    pageTitle="Recent instances of VM reaching disk IO limits detected"
+    description="Recent instances of VM reaching disk IO limits detected"
+    infoBubbleText="Recent instances of VM reaching disk IO limits detected"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"
     displayOrder=""
     articleId="diskthrottling-vmlimit"
-    diagnosticScenario="Recent instances of VM reaching IO limits detected"
+    diagnosticScenario="Recent instances of VM reaching disk IO limits detected"
     selfHelpType="diagnostics"
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
     resourceTags="windows"
@@ -17,15 +17,15 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# **The VM appears to have reached it's IO limits recently**
+# **The VM appears to have reached it's disk IO limits recently**
 
-## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching it's IO limits.**
+## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching it's disk IO limits.**
 
 <!--issueDescription-->
 Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> reached the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
 <!--/issueDescription-->
 
-### Recent instances of the VM reaching it's IO limits
+### Recent instances of the VM reaching it's disk IO limits
 
 <!--$DataTable-->DataTable<!--/$DataTable-->
 
