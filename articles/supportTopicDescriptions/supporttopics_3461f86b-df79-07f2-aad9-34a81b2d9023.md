@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7788be1b-0af9-fcc2-967b-c7b9be931215",
+      "longDescription": "",
+      "shortDescription": "Issue connecting to SQL Analytics from BI tools such as Power BI",
+      "searchTags": "SQL;Power BI;integrate",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7b44c4cc-7a83-1091-8460-82447db5fdc0",
       "longDescription": "",
       "shortDescription": "Questions regarding Databricks workspace migration between subscriptions or regions ",
