@@ -164,8 +164,7 @@
     },
     {
 	   "id": "problem_description",
-	   "order": 4,
-     "visibility": "true",
+	   "order": 5,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about the issue that you've selected above",
@@ -175,7 +174,7 @@
     },
     {
 	   "id": "problem_start_time",
-	   "order": 5,
+	   "order": 6,
      "visibility": "true",
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
