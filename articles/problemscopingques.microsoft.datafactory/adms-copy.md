@@ -33,11 +33,9 @@
             "displayLabel": "Please briefly describe the issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [
-                {
+            "hints": [{
                     "text": "Is it a new issue or regression?"
-                },
-                {
+                }, {
                     "text": "Is the issue intermittent or persistent?"
                 }
             ]
