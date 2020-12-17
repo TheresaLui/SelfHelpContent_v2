@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "540b8c26-03d4-fae2-4509-8d5a48ef992f",
+      "longDescription": "",
+      "shortDescription": "Delta streaming issues ",
+      "searchTags": "delta;streaming",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
       "longDescription": "",
       "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
