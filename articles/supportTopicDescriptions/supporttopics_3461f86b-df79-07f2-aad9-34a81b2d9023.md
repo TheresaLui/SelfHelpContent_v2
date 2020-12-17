@@ -876,6 +876,14 @@
       "searchTags": "connect;tableau;power bi",
       "category": "reporting",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ff6265ff-342f-e1fe-3daf-6289ebe8a5cb",
+      "longDescription": "",
+      "shortDescription": "Delta Performance issues ",
+      "searchTags": "delta;performance",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
