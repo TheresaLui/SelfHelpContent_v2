@@ -28,5 +28,3 @@ Please check with the customer and accordingly make sure that the BGP password s
 #### Recommended Reading
 
 [Create/Modify ExpressRoute Peering](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager)
-
-
