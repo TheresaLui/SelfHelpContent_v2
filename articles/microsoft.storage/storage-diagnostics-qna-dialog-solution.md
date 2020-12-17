@@ -20,8 +20,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 # Solution to your question
 
 <!--issueDescription-->
-See the following solution, which is based on the description of your issue: <!--$ProblemDescription-->[ProblemDescription]<!--/$ProblemDescription-->
-<!--/issueDescription-->
+Refer below solution, which is based on the description of your issue: <!--$ProblemDescription-->[ProblemDescription]<!--/$ProblemDescription-->
+<!--/issueDescription-->. You can Rerun diagnostics to answer additional queries. 
 
 <br/>
 
