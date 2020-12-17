@@ -718,6 +718,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ed73f72c-3703-c22c-e529-2f2beb268be5",
+      "longDescription": "",
+      "shortDescription": "Question or issue on dashboard authoring or visualization",
+      "searchTags": "SQL;dashboard",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f2f4cad6-9ff5-a8ae-7c22-e6891ad98824",
       "longDescription": "",
       "shortDescription": "Library install issues through init script or REST API or UI. Library Compatibility issues",
