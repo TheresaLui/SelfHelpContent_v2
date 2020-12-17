@@ -27,28 +27,36 @@
             "displayLabel": "What offer or program are you having issue with?",
             "watermarkText": "Select offer/program type",
             "dropdownOptions": [
-                {
-                    "value": "MAPS",
-                    "text": "MAPS"
+		{
+                    "value": "advanced_spec",
+                    "text": "Advanced Specialization"
                 },
                 {
-                    "value": "Silver",
-                    "text": "Silver"
+                    "value": "azure_exp_msp",
+                    "text": "Azure Expert MSP"
                 },
                 {
                     "value": "Gold",
                     "text": "Gold"
                 },
                 {
-                    "value": "Azure expert MSP",
-                    "text": "Azure expert MSP"
+                    "value": "Silver",
+                    "text": "Silver"
                 },
-                {
-                    "value": "Other",
+		{
+                    "value": "MAPS",
+                    "text": "MAPS"
+                },
+		{
+                    "value": "other",
                     "text": "Other"
-                }
+                },
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "mpn_benefit_type",
@@ -69,16 +77,16 @@
                     "value": "Visual studio subscriptions",
                     "text": "Visual studio subscriptions"
                 },
-                {
-                    "value": "Technical benefits",
-                    "text": "Technical benefits"
+		{
+                    "value": "other",
+                    "text": "Other"
                 },
-                {
-                    "value": "Go to Market",
-                    "text": "Go to Market"
-                }
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -86,6 +94,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
+	    "infoBalloonText": "To help us better understand your issue and for a faster resolution please upload the PSR (<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)",
             "required": true,
             "useAsAdditionalDetails": true
         },
