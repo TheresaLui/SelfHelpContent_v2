@@ -28,7 +28,7 @@ This error is usually related to one of the following scenarios:
 
 1. **The subnet from which you are trying to connect has Microsoft.Sql service endpoint enabled**  
 
-   Enabling virtual network service endpoints to Microsoft.Sql in the subnet can also enable endpoints for Azure SQL Database, Azure Synapse Analytics, Azure Database for PostgreSQL server, Azure Database for MySQL server and Azure Database for MariaDB. Attempts to connect from subnet might fail if virtual network rules are not set.
+   By enabling virtual network service endpoints to Microsoft.Sql in the subnet, you also enable endpoints for Azure SQL Database, Azure Synapse Analytics, Azure Database for PostgreSQL server, Azure Database for MySQL server and Azure Database for MariaDB. Attempts to connect from subnet might fail if virtual network rules are not set.
 
    This issue usually originates from one of the following actions:
 
