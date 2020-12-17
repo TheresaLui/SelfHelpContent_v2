@@ -18,6 +18,11 @@
     "resourceRequired": true,
     "title": "Storage Files Authentication - AD",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Files On premise AD DS Queries",
+        "description": "The Azure Files troubleshooter can help resolve your queries related to On premise AD DS authentication. Please submit your query to determine best possible solution",
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. Please refer recommended documentation link to troubleshoot your issue"
+    },
     "formElements": [
         {
             "id": "ran_through_prereq",
@@ -143,9 +148,10 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "displayLabel": "Please enter your query for Azure Files AD DS Authentication",
             "required": true,
             "useAsAdditionalDetails": true
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"
