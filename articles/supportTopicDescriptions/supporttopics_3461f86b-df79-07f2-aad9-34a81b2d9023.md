@@ -878,6 +878,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ff2c5a9d-482d-e50e-18eb-189828d3c58a",
+      "longDescription": "",
+      "shortDescription": "Delta history issues ",
+      "searchTags": "delta;history",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ff6265ff-342f-e1fe-3daf-6289ebe8a5cb",
       "longDescription": "",
       "shortDescription": "Delta Performance issues ",
