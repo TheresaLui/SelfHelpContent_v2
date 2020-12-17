@@ -127,7 +127,7 @@
         {
          "value": "other_value",
          "text": "Other"
-        },
+        }
     ],
      "required": false
     },
@@ -181,7 +181,7 @@
         {
          "value": "other_value",
          "text": "Other"
-        },
+        }
     ],
      "required": false
     },
