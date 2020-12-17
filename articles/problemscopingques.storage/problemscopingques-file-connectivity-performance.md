@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "What caused my Azure Files performance issue?",
-        "description": "Our Azure Files performance troubleshooter can help you troubleshoot and solve your problem.",
+        "description": "Our Azure Files performance troubleshooter can help you troubleshoot and resolve your issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
