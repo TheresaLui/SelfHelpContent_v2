@@ -21,13 +21,13 @@ ownershipId="StorageMediaEdge_StorageFiles"
 
 <!--issueDescription-->
 
-<br><br>Refer below for details on File sync error and remediation steps<br><br>
+<br>Refer below for details on File sync error and remediation steps<br>
 
-Error **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br> 
-Error String **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>  
-Issue **<!--$Description-->[Description]<!--/$Description-->**<br>  
-Remediation **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br>  
-Learn more at the following **<!--$Remediation-->[LearnMoreLink]<!--/$Remediation-->**<br><br>  
+Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br> 
+Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>  
+Issue: **<!--$Description-->[Description]<!--/$Description-->**<br>  
+Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br>  
+Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>  
 
 <!--/issueDescription-->
 
