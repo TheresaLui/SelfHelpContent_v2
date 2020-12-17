@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d90f9696-3849-bf6e-acf5-bfc7fed7e791",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Bitbucket",
+      "searchTags": "bitbucket;notebook;sync;source control",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daebbe79-b7e4-3ddc-4c8c-c3812daa26bc",
       "longDescription": "",
       "shortDescription": "DB connect issues",
