@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "63a3b866-5d06-6af1-be43-019823e53d6f",
+      "longDescription": "",
+      "shortDescription": "Databricks monitoring issues or questions using Ganglia",
+      "searchTags": "ganglia;monitor",
+      "category": "Monitoring and diagnostics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
       "longDescription": "",
       "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
