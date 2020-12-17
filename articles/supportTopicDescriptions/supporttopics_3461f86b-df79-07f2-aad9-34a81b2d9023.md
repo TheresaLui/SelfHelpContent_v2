@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "950e94fe-dbb1-b291-a540-7981b9f62a9c",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau, Power BI, AAS using SIMBA connector",
+      "searchTags": "Tableau;connect;error;aas;simba",
+      "category": "reporting",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
