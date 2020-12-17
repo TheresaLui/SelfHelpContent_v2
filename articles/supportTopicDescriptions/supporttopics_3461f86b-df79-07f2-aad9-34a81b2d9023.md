@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "53af67a8-78eb-3843-1592-6b519b1c4aa9",
+      "longDescription": "",
+      "shortDescription": "Notebook Sync or save issues using Azure dev ops",
+      "searchTags": "sync;dev ops;notebook;source control",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
       "longDescription": "",
       "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
