@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2dd621ff-72b0-71ac-675e-b91f9ec4350d",
+      "longDescription": "",
+      "shortDescription": "Delta checkpoint issues ",
+      "searchTags": "delta;checkpoint",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2f19b68f-5d21-60c1-5324-9bc8ba577faf",
       "longDescription": "",
       "shortDescription": "Monitoring, diagnostics and instrumentation issues",
