@@ -21,13 +21,13 @@ We see you are not using TLS that is less than 1.2 in the last 30 days, but you 
 
 ## Documents on why to switch to TLS 1.2:
 
-* [Preparing for TLS 1.2 in Microsoft Azure](https://azure.microsoft.com/en-us/updates/azuretls12/)
+* [Preparing for TLS 1.2 in Microsoft Azure](https://azure.microsoft.com/updates/azuretls12/)
 * [TLS 1.2 enforcement on Azure Cosmos DB](https://devblogs.microsoft.com/cosmosdb/tls-1-2-enforcement/)
-* [Enabling TLS 1.2 with the Windows registry](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs#enable-and-disable-tls-12)
+* [Enabling TLS 1.2 with the Windows registry](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs#enable-and-disable-tls-12)
 
 ## More information based on SDK used:
 
-* [.NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
+* [.NET Framework](https://docs.microsoft.com/dotnet/framework/network-programming/tls)
 * [Java](https://www.java.com/en/configure_crypto.html)
 * [Python](http://pyfound.blogspot.com/2017/01/time-to-upgrade-your-python-tls-v12.html)
 * [Node.js](https://nodejs.org/api/tls.html)
