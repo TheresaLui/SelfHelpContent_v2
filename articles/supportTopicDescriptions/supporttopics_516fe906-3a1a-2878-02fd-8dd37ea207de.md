@@ -272,8 +272,8 @@
     {
       "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
       "longDescription": "",
-      "shortDescription": "Problems with authentication methods like hardware OATH tokens and 3rd party MFA ",
-      "searchTags": "issues with OATH tokens;issues with 3rd party MFA ",
+      "shortDescription": "Problems with authentication methods like hardware OATH tokens, App Passwords, Temporary Access Pass or 3rd party MFA",
+      "searchTags": "issues with OATH tokens;issues with 3rd party MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

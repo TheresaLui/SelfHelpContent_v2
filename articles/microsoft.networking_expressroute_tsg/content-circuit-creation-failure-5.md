@@ -28,4 +28,3 @@ Check the following logs:
 3. Backend Gateway Manager Operations: Check for Gateway Manager failures. You can find the logs in ASC at the specific Circuit level under Operations tab. This can also be found on Jarvis Logs on AsyncWorkerLogsTable table under BrkGWM namespace.
 
 Try to identify the error. If you are not able to identify error from above logs, and need assistance to further isolate, refer to a TA on Teams via Ava.
-

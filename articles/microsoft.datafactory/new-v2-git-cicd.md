@@ -14,9 +14,11 @@
 
 * Review [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD for CI/CD in Azure Data Factory
 
-* Use custom parameters with [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX <br>
+* Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX <br>
 
 * If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
+
+* When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
 
 * [Unsupported features](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features):
     * By design, CI/CD publishing **does not allow** for selective publishing subsets of changes. To publish individual changes into production environment, consider using a [hotfix or QFE](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).

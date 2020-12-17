@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3461f86b-df79-07f2-aad9-34a81b2d9023"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023" />
 # Support Topic Descriptions for 3461f86b-df79-07f2-aad9-34a81b2d9023
 ---
@@ -31,7 +32,7 @@
     {
       "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
       "longDescription": "",
-      "shortDescription": "How to questions related to notebook setup or usage",
+      "shortDescription": "How-to questions related to notebook setup or usage",
       "searchTags": "setup;notebook",
       "category": "notebook",
       "useInDiagnoseAndSolve": "false"
@@ -79,7 +80,7 @@
     {
       "id": "1c16baad-f847-2baa-a34b-d8819a0e5f50",
       "longDescription": "",
-      "shortDescription": "Spark Issues with R, Scala, Python, SQL or 3rd Party library",
+      "shortDescription": "Spark issues with R, Scala, Python, SQL or third-party library",
       "searchTags": "spark",
       "category": "spark",
       "useInDiagnoseAndSolve": "false"
@@ -103,7 +104,7 @@
     {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
-      "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging etc. This is unrelated to spark command failures",
+      "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging, etc. This is unrelated to Spark command failures",
       "searchTags": "notebook;error",
       "category": "notebook",
       "useInDiagnoseAndSolve": "false"
@@ -111,7 +112,7 @@
     {
       "id": "2af6bbb0-4e9e-f6b6-b23a-36fcd49a1384",
       "longDescription": "",
-      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modelling life cycle",
+      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modeling life cycle",
       "searchTags": "MLFlow ;REST API;R;Python;Java",
       "category": "ML",
       "useInDiagnoseAndSolve": "false"
@@ -159,7 +160,7 @@
     {
       "id": "3d06ffb2-4b8a-a2e8-5c41-11f0fee54ff9",
       "longDescription": "",
-      "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
+      "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks users or Groups ACL etc.",
       "searchTags": "key vault;acl;group",
       "category": "security",
       "useInDiagnoseAndSolve": "false"
@@ -191,7 +192,7 @@
     {
       "id": "48136392-d8b2-793e-cd06-901c9c3df493",
       "longDescription": "",
-      "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above dropdown",
+      "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above drop-down list",
       "searchTags": "job;failure",
       "category": "job",
       "useInDiagnoseAndSolve": "false"
@@ -207,7 +208,7 @@
     {
       "id": "489787b7-54bd-3ff6-5806-913c62ab7976",
       "longDescription": "",
-      "shortDescription": "Core Quota Limit getting errors like- Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
+      "shortDescription": "Core Quota Limit getting errors like Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
       "searchTags": "quota;core;creation;cannot create cluster",
       "category": "Cluster Creation, Termination, or Sizing",
       "useInDiagnoseAndSolve": "false"
@@ -285,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "636c9cd0-96c3-b6ed-74bb-32708c3d9776",
+      "longDescription": "",
+      "shortDescription": "Question or issue with using SQL Analytics APIs - API queries, API endpoints",
+      "searchTags": "api;sql",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
       "longDescription": "",
       "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
@@ -298,6 +307,14 @@
       "shortDescription": "Questions or issues connecting from and to Databricks",
       "searchTags": "connect;connectivity",
       "category": "connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "66f2c807-9552-6f02-579f-f7b8694cd375",
+      "longDescription": "",
+      "shortDescription": "Question or issue with configuring or using alert",
+      "searchTags": "sql;alert",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -319,7 +336,7 @@
     {
       "id": "6b7214b5-7b50-8b5a-62af-3d4acac1987d",
       "longDescription": "",
-      "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic-Cluster Creation, Termination or Sizing",
+      "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic: Cluster Creation, Termination or Sizing",
       "searchTags": "workspace",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
@@ -338,6 +355,14 @@
       "shortDescription": "Notebook Issues related to UI slowness or unresponsiveness",
       "searchTags": "notebook;slow;hang;unresponsive",
       "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7788be1b-0af9-fcc2-967b-c7b9be931215",
+      "longDescription": "",
+      "shortDescription": "Issue connecting to SQL Analytics from BI tools such as Power BI",
+      "searchTags": "SQL;Power BI;integrate",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -431,7 +456,7 @@
     {
       "id": "9cb173e9-088a-0322-6dc6-d76d6e99b3eb",
       "longDescription": "",
-      "shortDescription": "Job(s) failure due to 3rd party library. Third party library installation issues",
+      "shortDescription": "Job(s) failure due to 3rd party library. third-party library installation issues",
       "searchTags": "job;library",
       "category": "job",
       "useInDiagnoseAndSolve": "false"
@@ -458,6 +483,14 @@
       "shortDescription": "Questions on Job failures, job alerts or job performance",
       "searchTags": "job",
       "category": "Job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9fa22fa2-85ed-cee1-f451-c8507ead2f30",
+      "longDescription": "",
+      "shortDescription": "DBR version issues, DBR upgrade issues",
+      "searchTags": "DBR;Runtime;version",
+      "category": "Cluster Creation, Termination or Sizing",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -509,6 +542,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b528a786-4066-bc50-0d78-845c2ca08ba9",
+      "longDescription": "",
+      "shortDescription": "Issues with clusters being terminated",
+      "searchTags": "deleted;terminated;cluster has been deleted;cluster has been terminated",
+      "category": "Cluster Creation, Termination and Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b57d66fb-fd1b-04b5-c5fb-8067098eeb52",
       "longDescription": "",
       "shortDescription": "Setup, execution and revision issues related to Notebook",
@@ -530,6 +571,14 @@
       "shortDescription": "Slow scaling or errors resizing Databricks cluster(s) like-Cannot resize, Upsize to xx",
       "searchTags": "sizing;scaling",
       "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "bf6ba420-b7ef-0b58-c504-43edf1e2f615",
+      "longDescription": "",
+      "shortDescription": "Question or issue on Photon",
+      "searchTags": "photon;sql",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -586,6 +635,14 @@
       "shortDescription": "Delta Lake issues",
       "searchTags": "delta;delta lake",
       "category": "delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "caee51e0-2ad6-7e04-20de-ea92f0cd375a",
+      "longDescription": "",
+      "shortDescription": "Question or issue connecting to external data sources",
+      "searchTags": "SQL;data source",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -682,6 +739,14 @@
       "shortDescription": "Assistance with Koalas, a pandas wrapper for PySpark supporting distributed datasets",
       "searchTags": "Koala;panda;PySpark",
       "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ed73f72c-3703-c22c-e529-2f2beb268be5",
+      "longDescription": "",
+      "shortDescription": "Question or issue on dashboard authoring or visualization",
+      "searchTags": "SQL;dashboard",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
