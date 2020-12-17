@@ -7,19 +7,20 @@
   productpesids="3461f86b-df79-07f2-aad9-34a81b2d9023"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   disableclouds=""
-  articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023" />
+  articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023"
+  ownershipid="AzureData_AzureDatabricks" />
 # Support Topic Descriptions for 3461f86b-df79-07f2-aad9-34a81b2d9023
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Azure Databricks ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "0365b69a-cffa-a5fb-3f96-b93f86ae4175",
