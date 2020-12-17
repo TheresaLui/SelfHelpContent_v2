@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0772868e-7944-8899-254e-0b21fd38aafe",
+      "longDescription": "",
+      "shortDescription": "Questions with Spark streaming using Scala. Issues with Kafka or event hubs using Scala",
+      "searchTags": "event hub;spark;kafka;scala",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
       "longDescription": "",
       "shortDescription": "How-to questions related to notebook setup or usage",
