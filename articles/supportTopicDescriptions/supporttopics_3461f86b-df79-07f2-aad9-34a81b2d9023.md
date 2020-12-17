@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5874d1a7-ea45-c0dc-0021-51c813356151",
+      "longDescription": "",
+      "shortDescription": "Issues with migrating a Databricks workspace",
+      "searchTags": "migrate;migrate workspace;migrating;migration",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
       "longDescription": "",
       "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
