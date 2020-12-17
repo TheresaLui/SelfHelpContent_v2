@@ -33,12 +33,7 @@
             "displayLabel": "Please briefly describe the issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [{
-                    "text": "Is it a new issue or regression?"
-                }, {
-                    "text": "Is the issue intermittent or persistent?"
-                }
-            ]
+            "hints": [{"text": "Is it a new issue or regression? Is the issue intermittent or persistent?"}]
         },
         {
             "id": "error_message",
