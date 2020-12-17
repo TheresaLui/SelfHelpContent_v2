@@ -15,7 +15,7 @@
 
 :::Section Metrics and Diagnostics:::
 
-## Resolve issues with desired region or VM size is unavailable
+## Resolve issues with Availability Groups - Failure,Failover, Sync issues
 
 <Insight>
     <symptomId>SqlVmHADRPortalInsight</symptomId>

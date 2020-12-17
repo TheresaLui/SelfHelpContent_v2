@@ -30,5 +30,3 @@ Look at the ErrorCode and ErrorDetails. Consider the following actions based on 
 |--|--|
 |RetryableError |Have customer retry the operation.|
 |InUseRouteFilterCannotBeDeleted  | Look at the ErrorDetails column. It will say RouteFilter \<name> is in use by ExpressRouteBgpPeering /subscriptions/*\<subscription id>*/resourceGroups/*\<resource group name>*/providers/Microsoft.Network/expressRouteCircuits/*\<circuit name>*/peerings/MicrosoftPeering. Instruct the customer to dis-associate the route filter from that peering.|
-
-
