@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7d95d01a-a8b8-ad38-c227-c4a84d3d954d",
+      "longDescription": "",
+      "shortDescription": "Issues with Reporting (Power BI, Tableau, Qlik) or source control and notebook sync",
+      "searchTags": "Report;source control;power bi;tableau;sync",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f59fdf2-5bf0-634c-a31c-7f457a037ec7",
       "longDescription": "",
       "shortDescription": "Any general guidance questions not covered in other topics",
