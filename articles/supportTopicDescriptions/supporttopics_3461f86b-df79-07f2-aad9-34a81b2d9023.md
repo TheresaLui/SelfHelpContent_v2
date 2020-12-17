@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9d006dc5-f458-e305-ba8e-f7c55062b1ac",
+      "longDescription": "",
+      "shortDescription": "DB connect dependency issue like pom.xml, build.sbt having issues ",
+      "searchTags": "pom;build;build.sbt;pom.xml",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9d493413-b0a3-7a8b-3c70-1f13889fc78a",
       "longDescription": "",
       "shortDescription": "VNET injected workspace setup, launch or deployment issues through portal or ARM template",
