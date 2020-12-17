@@ -798,6 +798,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d2fce0f4-81c2-4c3c-b7de-dffa7d61cfb4",
+      "longDescription": "",
+      "shortDescription": "Issues with deploying or launching a Databricks workspace",
+      "searchTags": "deploy;workspace deployment;deploying workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
