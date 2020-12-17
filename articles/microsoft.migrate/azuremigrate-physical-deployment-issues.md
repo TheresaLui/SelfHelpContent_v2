@@ -55,7 +55,7 @@ Include all of the [required URLs](https://docs.microsoft.com/azure/migrate/migr
 **After a successful login with my Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps, or click on 'Retry' button"**. 
 
 This issue occurs when you log in from the Appliance configuration manager using a different Azure user account than the account used to generate the Azure Migrate project key on the portal.
-1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the Azure portal. Or, assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#prepare-azure-for-server-assessment) to the Azure user account that received the error, and then register the appliance.
+* To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the Azure portal. Or, assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#prepare-azure-for-server-assessment) to the Azure user account that received the error, and then register the appliance.
 
 **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
@@ -86,9 +86,9 @@ Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-a
 
 Verify the credentials provided for the physical server: 
 
-**Windows:** Use a domain account for domain-joined machines, and a local account for machines that are not domain-joined. Add the user account to these groups: Remote Management Users, Performance Monitor Users, and Performance Log Users.
+* **Windows:** Use a domain account for domain-joined machines, and a local account for machines that are not domain-joined. Add the user account to these groups: Remote Management Users, Performance Monitor Users, and Performance Log Users.
 
-**Linux:** You need a root account on the Linux servers that you want to discover.
+* **Linux:** You need a root account on the Linux servers that you want to discover.
 <br>
 
 **I am unable to provide SSH key-based credentials for Linux servers**
@@ -96,19 +96,22 @@ Verify the credentials provided for the physical server:
 Currently, SSH key-based credentials are not supported as an input on the appliance for Linux servers.
 
 
-**I am facing WinRM errors while validating Windows servers**
+**I get WinRM errors while validating Windows servers**
 
-Run the `winrm qc` and `Enable-PSRemoting` commands using PowerShell as an administrator on the server to be discovered. Ensure that WinRM port 5985 (HTTP) is open.
+On the server to be discovered, run the `winrm qc` and `Enable-PSRemoting` commands using PowerShell as an administrator. Ensure that WinRM port 5985 (HTTP) is open.
+
 
 **I do not want to use a root account to discover Linux servers** 
 
 Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
+
 
 **I am unable to connect to an AWS or GCP server at the validation stage in the appliance**
 
 1. Ensure password-based authentication is enabled in Linux servers. 
 1. Ensure that port 5985 is open on Windows servers to allow remote WMI calls. 
 1. On GCP Linux VMs, ensure root login is enabled.
+
 
 ### Issues post discovery initiation
 
