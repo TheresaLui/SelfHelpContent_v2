@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2dcd4304-1644-64ae-a7b6-8841d74073b5",
+      "longDescription": "",
+      "shortDescription": "Connectivity issues with  IDE (IntelliJ, Eclipse, PyCharm, RStudio, Visual Studio) and notebook server (Zeppelin, Jupyter)",
+      "searchTags": "DBConnect;IntelliJ;Eclipse;PyCharm;RStudio",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2dd621ff-72b0-71ac-675e-b91f9ec4350d",
       "longDescription": "",
       "shortDescription": "Delta checkpoint issues ",
