@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "69867871-6041-c0a6-89e9-9bb15b2d0996",
+      "longDescription": "",
+      "shortDescription": "Delta Z-Ordering issues ",
+      "searchTags": "delta;Z-Ordering",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6a8487de-cade-6aef-f808-9edb489bcd50",
       "longDescription": "",
       "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
