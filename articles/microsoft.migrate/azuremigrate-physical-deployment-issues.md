@@ -13,9 +13,9 @@
 # Deployment issues with Azure Migrate appliance for physical server assessment
 
 Most customers can resolve deployment issues with Azure Migrate appliance using the following resources.
-For general queries about Azure Migrate appliance, refer to the [documentation](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
+For general queries about Azure Migrate appliance, refer to the [documentation](https://docs.microsoft.com/azure/migrate/common-questions-appliance). <br>
 
-<br>
+
 ### Issues setting up an appliance
 
 **I am unable to allocate the recommended hardware configuration to the appliance while setting it up**
@@ -30,9 +30,8 @@ You must set up separate appliances for each scenario (that is, for VMware VMs, 
 
 **I don’t have enough resources to set up an appliance on-premises. Can I set up the appliance on an Azure VM?**
 
-No, setting up the appliance on an Azure VM is not recommended.
+No, setting up the appliance on an Azure VM is not recommended.<br>
 
-<br>
 ### Issues with the prerequisites check on appliance
 
 **I get an error during the Internet prerequisites check**
@@ -43,9 +42,8 @@ No, setting up the appliance on an Azure VM is not recommended.
 
 **I get an error during the auto update check**
 
-Include all of the [required URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) to the allow list, and make sure they are not blocked by proxy or firewall settings. If the update of any appliance component fails, manually update the component either by rerunning the prerequisites, or by following these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
+Include all of the [required URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) to the allow list, and make sure they are not blocked by proxy or firewall settings. If the update of any appliance component fails, manually update the component either by rerunning the prerequisites, or by following these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).<br>
 
-<br>
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
 **When I click Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
@@ -77,9 +75,8 @@ This error is encountered when the Azure user account used to initiate the disco
 
 **I am having Key Vault create/update issues during appliance registration**
 
-Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
+Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.<br>
 
-<br>
 ### Issues in adding physical, AWS, or GCP servers
 
 **I am unable to connect to the physical server due to incorrect credentials or insufficient permissions**
@@ -109,9 +106,8 @@ Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/m
 
 1. Ensure password-based authentication is enabled in Linux servers. 
 1. Ensure that port 5985 is open on Windows servers to allow remote WMI calls. 
-1. On GCP Linux VMs, ensure root login is enabled.
+1. On GCP Linux VMs, ensure root login is enabled.<br>
 
-<br>
 ### Issues post discovery initiation
 
 **I am seeing some performance data missing on servers in the assessment I created**
