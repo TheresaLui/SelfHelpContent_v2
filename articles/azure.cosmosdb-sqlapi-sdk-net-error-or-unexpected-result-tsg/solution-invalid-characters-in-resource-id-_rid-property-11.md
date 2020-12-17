@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Invalid characters in Resource.Id rid Property"
-	  description="Invalid characters in Resource.Id rid Property"
+	  pageTitle="Invalid characters in Resource id rid Property"
+	  description="Invalid characters in Resource id rid Property"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
