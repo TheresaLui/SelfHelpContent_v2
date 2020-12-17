@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "93a0c498-e9fb-7d94-5639-60df7bee3535",
+      "longDescription": "",
+      "shortDescription": "DB connect jobs issues (Python, Java, Scala, R)",
+      "searchTags": "DB Connect;DB Connect Job;Python;job;Java",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "94501390-9d29-d367-59e6-28304cf3c4dc",
       "longDescription": "",
       "shortDescription": "Questions on Databricks internal hive metastore",
