@@ -2,7 +2,7 @@
   pagetitle="V2 - Author and Develop - ADF Portal not Loading"
   service=""
   resource=""
-  ms.author="chez,haoc"
+  ms.author="chez,haoc,fangl"
   selfhelptype="Generic"
   supporttopicids="32629437"
   resourcetags=""
@@ -22,6 +22,7 @@
   * ADF portal uses browser Cookies to persist user session and enable interactive development and monitoring experiences
   * For _Microsoft Edge_,  please go to __Settings and More ...__ > __Settings__ > __Site permissions__ > __Cookies and site data__ to make the change, make sure **Block third party cookies** is **disabled**, you can also add the site __adf.azure.com__ on the **Allow** section by clicking the button **Add**
   * For _Google Chrome_, please visit __chrome://settings/content/cookies__ to make the change, make sure **Block third party cookies** is **disabled**, you can also add the site __adf.azure.com__ on the **Allow** section by clicking the button **Add**
+  * If you disabled browser popup, check whether your browser address bar has some blocked popup. If yes, allow it. 
 
 * If the ADF UI portal is slow or not as responsive, check if your browser version is too old. Upgrading to newer version could boost the UI performance. 
 
