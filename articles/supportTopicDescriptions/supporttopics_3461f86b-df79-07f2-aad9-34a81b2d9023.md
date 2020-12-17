@@ -80,7 +80,7 @@
     {
       "id": "1c16baad-f847-2baa-a34b-d8819a0e5f50",
       "longDescription": "",
-      "shortDescription": "Spark Issues with R, Scala, Python, SQL or 3rd Party library",
+      "shortDescription": "Spark issues with R, Scala, Python, SQL or third-party library",
       "searchTags": "spark",
       "category": "spark",
       "useInDiagnoseAndSolve": "false"
@@ -104,7 +104,7 @@
     {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
-      "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging etc. This is unrelated to spark command failures",
+      "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging, etc. This is unrelated to Spark command failures",
       "searchTags": "notebook;error",
       "category": "notebook",
       "useInDiagnoseAndSolve": "false"
@@ -112,7 +112,7 @@
     {
       "id": "2af6bbb0-4e9e-f6b6-b23a-36fcd49a1384",
       "longDescription": "",
-      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modelling life cycle",
+      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modeling life cycle",
       "searchTags": "MLFlow ;REST API;R;Python;Java",
       "category": "ML",
       "useInDiagnoseAndSolve": "false"
@@ -160,7 +160,7 @@
     {
       "id": "3d06ffb2-4b8a-a2e8-5c41-11f0fee54ff9",
       "longDescription": "",
-      "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
+      "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks users or Groups ACL etc.",
       "searchTags": "key vault;acl;group",
       "category": "security",
       "useInDiagnoseAndSolve": "false"
@@ -192,7 +192,7 @@
     {
       "id": "48136392-d8b2-793e-cd06-901c9c3df493",
       "longDescription": "",
-      "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above dropdown",
+      "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above drop-down list",
       "searchTags": "job;failure",
       "category": "job",
       "useInDiagnoseAndSolve": "false"
@@ -208,7 +208,7 @@
     {
       "id": "489787b7-54bd-3ff6-5806-913c62ab7976",
       "longDescription": "",
-      "shortDescription": "Core Quota Limit getting errors like- Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
+      "shortDescription": "Core Quota Limit getting errors like Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
       "searchTags": "quota;core;creation;cannot create cluster",
       "category": "Cluster Creation, Termination, or Sizing",
       "useInDiagnoseAndSolve": "false"
@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "66f2c807-9552-6f02-579f-f7b8694cd375",
+      "longDescription": "",
+      "shortDescription": "Question or issue with configuring or using alert",
+      "searchTags": "sql;alert",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6a8487de-cade-6aef-f808-9edb489bcd50",
       "longDescription": "",
       "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
@@ -320,7 +328,7 @@
     {
       "id": "6b7214b5-7b50-8b5a-62af-3d4acac1987d",
       "longDescription": "",
-      "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic-Cluster Creation, Termination or Sizing",
+      "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic: Cluster Creation, Termination or Sizing",
       "searchTags": "workspace",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
@@ -432,7 +440,7 @@
     {
       "id": "9cb173e9-088a-0322-6dc6-d76d6e99b3eb",
       "longDescription": "",
-      "shortDescription": "Job(s) failure due to 3rd party library. Third party library installation issues",
+      "shortDescription": "Job(s) failure due to 3rd party library. third-party library installation issues",
       "searchTags": "job;library",
       "category": "job",
       "useInDiagnoseAndSolve": "false"
