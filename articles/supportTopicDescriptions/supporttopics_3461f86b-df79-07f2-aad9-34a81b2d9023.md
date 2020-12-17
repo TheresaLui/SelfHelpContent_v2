@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "15404cad-c117-e946-dbc3-e837c29a9157",
+      "longDescription": "",
+      "shortDescription": "SQL query running slow or failed with error",
+      "searchTags": "SQL;error;failed;slow;SQL query",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "18f4a1eb-498e-0cb1-8367-2986ad30b76a",
       "longDescription": "",
       "shortDescription": "Databricks monitoring issues using diagnostics logs. Log analytics integration questions",
