@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bef560a-ee88-bc48-d8e0-f16183138a18",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues with SQL Analytics",
+      "searchTags": "SQL Analytics;dashboard;photon;SQL Endpoint;SQL",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
