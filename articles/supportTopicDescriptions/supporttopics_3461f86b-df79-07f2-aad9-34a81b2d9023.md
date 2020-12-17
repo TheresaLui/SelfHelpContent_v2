@@ -566,6 +566,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bf6ba420-b7ef-0b58-c504-43edf1e2f615",
+      "longDescription": "",
+      "shortDescription": "Question or issue on Photon",
+      "searchTags": "photon;sql",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bfc3fb06-dc6b-c4ae-1c58-80be019eee77",
       "longDescription": "",
       "shortDescription": "Spark Scala API questions",
