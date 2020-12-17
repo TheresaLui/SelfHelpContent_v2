@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="SDK < 2.3.2 "
-	  description="SDK < 2.3.2 "
+	  pageTitle="SDK less than 2.3.2 "
+	  description="SDK less than 2.3.2 "
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"

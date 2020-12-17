@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="Query on "order by" showing only 1 result"
-	  description="Query on "order by" showing only 1 result"
+	  pageTitle="Query on \"order by\" showing only 1 result"
+	  description="Query on \"order by\" showing only 1 result"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
