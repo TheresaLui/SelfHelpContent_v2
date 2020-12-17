@@ -8,7 +8,7 @@
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-    articleId="ff731302-5b98-42fd-98d3-73317cd531a0"
+    articleId="adms-connectivity.md"
 	ownershipId="AzureData_DataFactory"
 />
 
