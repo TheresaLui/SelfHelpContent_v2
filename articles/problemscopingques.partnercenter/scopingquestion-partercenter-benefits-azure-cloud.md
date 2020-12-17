@@ -196,7 +196,7 @@
     },
     {
 	 "id": "product_name2",
-	 "order": 6,
+	 "order": 7,
      "visibility": "process_issue == azure_cloud_licenses",
 	 "controlType": "textbox",
 	 "displayLabel": "What is the Product Name you have issues with?",
@@ -205,7 +205,7 @@
     },
     {
 	 "id": "problem_description",
-	 "order": 7,
+	 "order": 8,
 	 "controlType": "multilinetextbox",
 	 "displayLabel": "Details",
 	 "watermarkText": "Please provide any additional information about the issue you've selected above",
@@ -215,7 +215,7 @@
     },
     {
 	 "id": "problem_start_time",
-	 "order": 8,
+	 "order": 9,
 	 "controlType": "datetimepicker",
 	 "displayLabel": "Start Date",
 	 "watermarkText": "When did your issue begin?",
