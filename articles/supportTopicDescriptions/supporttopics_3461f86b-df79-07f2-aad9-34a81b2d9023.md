@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1343dfc8-2c77-3dce-704b-7f70ac1d799a",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Github",
+      "searchTags": "github;git;sync;source control;notebook",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "15404cad-c117-e946-dbc3-e837c29a9157",
       "longDescription": "",
       "shortDescription": "SQL query running slow or failed with error",
