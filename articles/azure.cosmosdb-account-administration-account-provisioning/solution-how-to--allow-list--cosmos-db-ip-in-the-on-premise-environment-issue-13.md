@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="How to \"Allow List\" Cosmos DB IP in the On Premise environment issue"
-	  description="How to \"Allow List\" Cosmos DB IP in the On Premise environment issue"
+	  pageTitle="How to Allow List Cosmos DB IP in the On Premise environment issue"
+	  description="How to Allow List Cosmos DB IP in the On Premise environment issue"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
