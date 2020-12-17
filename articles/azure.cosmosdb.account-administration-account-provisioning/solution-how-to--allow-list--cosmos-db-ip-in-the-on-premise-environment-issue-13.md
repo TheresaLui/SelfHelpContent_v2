@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="How to 'Allow List' Cosmos DB IP in the On Premise environment issue"
-	  description="How to 'Allow List' Cosmos DB IP in the On Premise environment issue"
+	  pageTitle="How to "Allow List" Cosmos DB IP in the On Premise environment issue"
+	  description="How to "Allow List" Cosmos DB IP in the On Premise environment issue"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="977a5838-33de-4037-83e2-77e9117b6c46"
+	  articleId="dd8f9cdf-fc4c-448b-8d48-61d63d51cfcd"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 

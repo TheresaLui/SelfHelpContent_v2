@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="ARM - ACL deny permission restricting the portal to get the Cosmos DB key issue issue"
-	  description="ARM - ACL deny permission restricting the portal to get the Cosmos DB key issue issue"
+	  pageTitle="ARM ACL deny permission restricting portal to get Cosmos DB key"
+	  description="ARM ACL deny permission restricting portal to get Cosmos DB key"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
@@ -11,11 +11,11 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="9ef8d25e-b37b-49e8-afe9-9158a5e09ffe"
+	  articleId="9baa2921-4496-460a-ae1e-66bb29b7cea2"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# ARM - ACL deny permission restricting the portal to get the Cosmos DB key issue issue
+# ARM ACL deny permission restricting portal to get Cosmos DB key
 
 <!--issueDescription-->
 
