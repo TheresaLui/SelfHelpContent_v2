@@ -21,7 +21,7 @@ ownershipId="StorageMediaEdge_StorageFiles"
 
 <!--issueDescription-->
 
-<br>Refer below for details on File sync error and remediation steps<br>
+<br>See the following for details about file sync errors and remediation steps.<br>
 
 Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br> 
 Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>  
@@ -32,5 +32,5 @@ Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMo
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-* Refer to the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)
+* See the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)
 
