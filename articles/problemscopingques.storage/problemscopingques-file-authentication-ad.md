@@ -150,7 +150,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter your query for Azure Files AD DS Authentication",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
