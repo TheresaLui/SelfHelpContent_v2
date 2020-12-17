@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "248a69ac-7ce9-8b33-868a-315d3559dcb1",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with Spark streaming using Python. Issues related to Kafka or event hubs using Python",
+      "searchTags": "event hub;spark;python;kafka",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
       "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging, etc. This is unrelated to Spark command failures",
