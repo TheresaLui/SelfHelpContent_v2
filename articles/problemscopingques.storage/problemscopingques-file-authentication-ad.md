@@ -25,10 +25,10 @@
     },
     "formElements": [
         {
-            "id": "ran_through_prereq",
+            "id": "run_through_prereq",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Have you ran through the prerequisites in the feature enablement document?",
+            "displayLabel": "Have you run the prerequisites in the feature enablement document?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
