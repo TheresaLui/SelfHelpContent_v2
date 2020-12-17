@@ -766,6 +766,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d903ff5e-187b-f12b-72f5-70164c5b6bfb",
+      "longDescription": "",
+      "shortDescription": "Databricks monitoring issues or questions using Azure Spark Monitor",
+      "searchTags": "spark;monitor",
+      "category": "Monitoring and diagnostics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d90f9696-3849-bf6e-acf5-bfc7fed7e791",
       "longDescription": "",
       "shortDescription": "Notebook sync or save issues using Bitbucket",
