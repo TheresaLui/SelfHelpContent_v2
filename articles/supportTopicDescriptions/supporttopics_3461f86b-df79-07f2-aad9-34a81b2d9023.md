@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "636c9cd0-96c3-b6ed-74bb-32708c3d9776",
+      "longDescription": "",
+      "shortDescription": "Question or issue with using SQL Analytics APIs - API queries, API endpoints",
+      "searchTags": "api;sql",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
       "longDescription": "",
       "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
