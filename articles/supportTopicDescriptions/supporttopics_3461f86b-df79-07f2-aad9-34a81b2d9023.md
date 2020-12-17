@@ -836,6 +836,14 @@
       "searchTags": "job;db connect",
       "category": "db connect",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fed43a6c-a6b3-4ee4-ad6c-13f6c5b2dd05",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau, Power BI",
+      "searchTags": "connect;tableau;power bi",
+      "category": "reporting",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
