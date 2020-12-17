@@ -35,10 +35,10 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 ### Issues with the prerequisites check on appliance
 
 * **I get an error during the Internet prerequisites check**
-    1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
-    1. Check if a proxy/firewall is blocking access to these URLs. If allow listing is required, make sure that you allow list all of the URLs.
-    1. If a proxy server is configured on-premises, provide the proxy details by selecting **Set up proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
-    1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
+    * Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
+    * Check if a proxy/firewall is blocking access to these URLs. If allow listing is required, make sure that you allow list all of the URLs.
+    * If a proxy server is configured on-premises, provide the proxy details by selecting **Set up proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
+    * Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
 
 * **I get an error during the auto update check**
 
@@ -48,8 +48,8 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **When I click Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
 
-    1. Go back to the **Appliance configuration manager** tab. The device code appears directly below the **Login** button in bold text.
-    1. Copy the device code and paste it in the **Login** tab to proceed with your Azure log in.
+    * Go back to the **Appliance configuration manager** tab. The device code appears directly below the **Login** button in bold text.
+    * Copy the device code and paste it in the **Login** tab to proceed with your Azure log in.
 
 * **After a successful login with my Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps, or click on 'Retry' button"**. 
 
@@ -58,8 +58,8 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-    1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the drop-down menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
-    2. Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+    * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the drop-down menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
+    * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 * **I am unable to complete registration due to insufficient AAD privileges and get the error "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
 
@@ -75,7 +75,7 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **I am having Key Vault create/update issues during appliance registration**
 
-    Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.<br><br>
+     Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.<br><br>
 
 ### Issues in adding physical, AWS, or GCP servers
 
@@ -94,19 +94,19 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **I get WinRM errors while validating Windows servers**
 
-On the server to be discovered, run the `winrm qc` and `Enable-PSRemoting` commands using PowerShell as an administrator. Ensure that WinRM port 5985 (HTTP) is open.
+    On the server to be discovered, run the `winrm qc` and `Enable-PSRemoting` commands using PowerShell as an administrator. Ensure that WinRM port 5985 (HTTP) is open.
 
 
 * **I do not want to use a root account to discover Linux servers** 
 
-Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
+    Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
 
 
 * **I am unable to connect to an AWS or GCP server at the validation stage in the appliance**
 
-    1. Ensure password-based authentication is enabled in Linux servers. 
-    1. Ensure that port 5985 is open on Windows servers to allow remote WMI calls. 
-    1. On GCP Linux VMs, ensure root login is enabled.<br><br>
+    * Ensure password-based authentication is enabled in Linux servers. 
+    * Ensure that port 5985 is open on Windows servers to allow remote WMI calls. 
+    * On GCP Linux VMs, ensure root login is enabled.<br><br>
 
 ### Issues post discovery initiation
 
