@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "76e82ced-4a7d-2834-42d3-86a8f2cc553c",
+      "longDescription": "",
+      "shortDescription": "Delta caching issues ",
+      "searchTags": "delta;caching",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "77403de1-cd06-f3fd-6a60-9f8ab8da7f13",
       "longDescription": "",
       "shortDescription": "Notebook Issues related to UI slowness or unresponsiveness",
