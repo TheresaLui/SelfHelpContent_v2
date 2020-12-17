@@ -183,6 +183,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6eb2834d-24b6-b275-ac68-685d5cf2962b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot errors related to assigning policy, selecting a scope, triggering effects (audit or deny), and viewing or publishing compliance results.",
+      "searchTags": "Azure Policy;Policy;Enforce;Audit;Compliance",
+      "category": "Governance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
       "longDescription": "",
       "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",

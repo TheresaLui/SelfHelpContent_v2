@@ -1,6 +1,6 @@
 <properties
-	  pageTitle="ARM template - Cannot update properties and add or remove regions at the same time issue"
-	  description="ARM template - Cannot update properties and add or remove regions at the same time issue"
+	  pageTitle="ARM template Cannot update properties and add remove regions same time"
+	  description="ARM template Cannot update properties and add remove regions same time"
       service="Microsoft.DocumentDB"
       resource="databaseAccounts"
 	  authors="anferrei"
@@ -11,11 +11,11 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="771fd39b-57e2-4488-ace8-6e9f7a7061a7"
+	  articleId="6e963ab9-2831-423b-9478-8b81ac6eeaa6"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# ARM template - Cannot update properties and add or remove regions at the same time issue
+# ARM template Cannot update properties and add remove regions same time
 
 <!--issueDescription-->
 
