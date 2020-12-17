@@ -32,7 +32,7 @@
     {
       "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
       "longDescription": "",
-      "shortDescription": "How to questions related to notebook setup or usage",
+      "shortDescription": "How-to questions related to notebook setup or usage",
       "searchTags": "setup;notebook",
       "category": "notebook",
       "useInDiagnoseAndSolve": "false"
@@ -627,6 +627,14 @@
       "shortDescription": "Delta Lake issues",
       "searchTags": "delta;delta lake",
       "category": "delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "caee51e0-2ad6-7e04-20de-ea92f0cd375a",
+      "longDescription": "",
+      "shortDescription": "Question or issue connecting to external data sources",
+      "searchTags": "SQL;data source",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
