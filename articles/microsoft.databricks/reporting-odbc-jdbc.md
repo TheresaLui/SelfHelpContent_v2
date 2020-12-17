@@ -21,7 +21,6 @@
 
 **Common Issues and Resolution Steps**
 
-* [Troubleshooting JDBC and ODBC Connections](https://kb.azuredatabricks.net/bi/jdbc-odbc-troubleshooting.html)
 * [Fetching result set is slow after statement execution](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting#fetching-result-set-is-slow-after-statement-execution)
 * [Timeout/Exception when creating the connection](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting#timeoutexception-when-creating-the-connection)
 * [Error: TTransportException](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting#ttransportexception)
