@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "534e3908-807e-da6b-48c1-204cef438fae",
+      "longDescription": "",
+      "shortDescription": "SQL endpoints failed to start",
+      "searchTags": "SQL endpoint;failed;failed to start",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
       "longDescription": "",
       "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
