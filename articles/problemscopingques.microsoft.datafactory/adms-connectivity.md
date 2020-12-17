@@ -109,7 +109,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
