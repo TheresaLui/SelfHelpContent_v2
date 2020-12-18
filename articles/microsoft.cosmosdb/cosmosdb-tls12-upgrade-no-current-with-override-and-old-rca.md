@@ -16,7 +16,7 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# TLS 1.2 Upgrade Document - No recent TLS < 1.2 but has override and old requests
+# TLS 1.2 Upgrade Document
 We see there is still a use of TLS < 1.2. This is an insecure transport protocol.
 
 ## Documents on why to switch to TLS 1.2:
