@@ -17,35 +17,43 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "Issue with deb sessions (preview)",
+	"title": "Issue with debug sessions (preview)",
 	"fileAttachmentHint": "",
 	"formElements": [
 	  {
-		"id": "replica_count",
-		"order": 1,
+            "id": "error_message",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the exact error message you received?",
+            "required": true,
+            "useAsAdditionalDetails": true
+          },
+	  {
+		"id": "debug_error_session",
+		"order": 2,
 		"controlType": "dropdown",
 		"infoBalloonText": "string",
-		"displayLabel": "Do you have multiple replicas on this service?",
+		"displayLabel": "Are all debug sessions failing or just a combination of document parameters?",
 		"watermarkText": "Choose an option",
 		"dropdownOptions": [{
 				"value": "Yes",
 				"text": "Yes"
-			}, {
+			},{
 				"value": "No",
 				"text": "No"
-			}, {
+			},{
 				"value": "dont_know_answer",
 				"text": "Don't Know"
-		}
-	  ],
+		        }
+	        ],
 		"required": false
-	},
+	    },
 		{
-     			"id": "scoring_profiles",
-			"order": 2,
+     			"id": "data_access",
+			"order": 3,
 			"controlType": "dropdown",
 			"infoBalloonText": "string",
-			"displayLabel": "Are you using scoring profiles?",
+			"displayLabel": "Does the search service have access to the data?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [
 				{
@@ -60,28 +68,8 @@
 				}
 			],
 			"required": false
-		}, {
-			"id": "query_runtime",
-			"order": 3,
-			"controlType": "dropdown",
-			"displayLabel": "Where are you running your query from?",
-			"dropdownOptions": [{
-					"value": "Azure_Portal",
-					"text": "Azure Portal"
-				}, {
-					"value": "REST_API",
-					"text": "REST API"
-				}, {
-					"value": "Custom client using Management API or SDK",
-					"text": "Custom client using Management API or SDK"
-				},
-				 {
-                   			 "value": "dont_know_answer",
-                   			 "text": "Don't Know"
-              			  }
-			],
-			"required": true
-		}, {
+		}, 
+		{
 			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",
