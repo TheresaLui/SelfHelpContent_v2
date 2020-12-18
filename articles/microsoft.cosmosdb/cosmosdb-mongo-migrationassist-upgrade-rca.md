@@ -6,7 +6,7 @@
     resource="databaseAccounts"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="cosmosdb-mongo-upgrade-rca"
+    articleId="cosmosdb-mongo-migrationassist-upgrade-rca"
     diagnosticScenario=""
     selfHelpType="rca"
     supportTopicIds="32636757"
@@ -25,7 +25,8 @@
 Upgrading to the latest version of the service will provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
 
 <!--/issueDescription-->
-You will need to migrate the data in your existing account to a new account created using verstion 3.6 of the MongoDB API engine.
+
+You will need to migrate the data in your existing account to a new account created using verstion 3.6 of the MongoDB API engine. You can use tools like Azure Data Factory or Studio 3T to assist you in migrating your data.
 
 1. Benefits of upgrading to version 3.6
 
