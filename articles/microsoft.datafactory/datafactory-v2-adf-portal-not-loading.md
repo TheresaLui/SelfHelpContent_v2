@@ -23,7 +23,7 @@ Most customer can resolve issues with Azure Data Factory V2 (ADF) portal failing
 
     * For Microsoft Edge, go to **Settings and More** > **Settings** > **Site permissions** > **Cookies and site data**. Deselect **Block third party cookies** and in the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
   
-    * For Google Chrome, go to **chrome://settings/content/cookies**, deselect **Block third party cookies**. In the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
+    * For Google Chrome, go to **chrome://settings/cookies**, deselect **Block third party cookies**. In the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
   
     * If you have disabled browser pop-ups, check the browser's address bar to see if a pop-up is actively blocked, and allow it. 
 
