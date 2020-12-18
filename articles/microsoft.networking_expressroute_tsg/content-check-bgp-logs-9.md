@@ -17,7 +17,6 @@ articleId="d54403ec-2f2e-4b1b-92f3-28c388ddb494"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-
 ## Check BGP status between MSEE and Customer/Provider Edge
 
 ### Recommended Action
@@ -28,4 +27,3 @@ ownershipId="CloudNet_AzureExpressRoute"
   * VRF Name = *Add VRF name in case of Private Peering, else leave it blank*
   * Destination IP Address = *BGP Peer (Customer/Provider Edge) IP address*
   * Device Region = *Global/Regional*
-

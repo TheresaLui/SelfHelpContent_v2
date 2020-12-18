@@ -35,5 +35,3 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 * Customers can limit the route advertisement over the respective peering to avoid BGP down events.  
 * Customers can also upscale the circuit SKU (in the case of private peering) to increase the limits.
-
-
