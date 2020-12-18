@@ -19,7 +19,7 @@ Most customer can resolve issues with Azure Data Factory V2 (ADF) portal failing
 * Ensure that your web browser is officially supported:
   * The [Azure Data Factory portal](https://ms-adf.azure.com/datafactories) supports Microsoft Edge and Google Chrome 
 
-* If the ADF portal doesn't load or you are redirected to a blank page (**https://adf.azure.com/accesstoken.html**), enable third-party cookies on your browser using the steps in [Troubleshoot ADF UX Issues](https://docs.microsoft.com/azure/data-factory/data-factory-ux-troubleshoot-guide). ADF portal uses browser cookies to persist the user session and to enable interactive development and monitoring experiences.
+* If the ADF portal doesn't load or redirects you to a blank page (**https://adf.azure.com/accesstoken.html**), enable third-party cookies on your browser using the steps in [Troubleshoot ADF UX Issues](https://docs.microsoft.com/azure/data-factory/data-factory-ux-troubleshoot-guide). ADF portal uses browser cookies to persist the user session and to enable interactive development and monitoring experiences.
 
     * For Microsoft Edge, go to **Settings and More** > **Settings** > **Site permissions** > **Cookies and site data**. Deselect **Block third party cookies** and in the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
   
