@@ -21,7 +21,7 @@ ownershipId="StorageMediaEdge_StorageFiles"
 
 <!--issueDescription-->
 
-Azure File Sync has identified the error and corresponding remediation steps. Please refer below for details<br/><br/>
+Azure File Sync has identified the error and the corresponding remediation steps. See the following information for details.<br/><br/>
 
 <!--/issueDescription-->
 
@@ -32,5 +32,5 @@ Azure File Sync has identified the error and corresponding remediation steps. Pl
 * Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br/>  
 * Issue: **<!--$Description-->[Description]<!--/$Description-->**<br/>  
 * Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br/>  
-* To resolve this issue go the following <a href="<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->" target="_blank">AFS Troubleshooting Guide</a> link.<br/>     
-* To troubleshoot Azure File Sync issues refer to [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)<br>
+* To resolve this issue, see the <a href="<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->" target="_blank">AFS Troubleshooting Guide</a> link.<br/>     
+* To troubleshoot Azure File Sync issues, see the  [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)<br>
