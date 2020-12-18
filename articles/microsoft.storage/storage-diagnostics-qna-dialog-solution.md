@@ -23,7 +23,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 See the following solution, which is based on the description of your issue: <!--$ProblemDescription-->[ProblemDescription]<!--/$ProblemDescription-->
 <br><br/>
-To answer additional queries, please run diagnostics again. 
+
+To answer additional queries, run diagnostics again. 
 
 <!--/issueDescription-->. 
 
