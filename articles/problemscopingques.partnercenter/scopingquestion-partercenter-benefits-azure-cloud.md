@@ -51,12 +51,8 @@
          "text": "MAPS"
         },
         {
-         "value": "other_value",
-         "text": "Other"
-        },
-        {
          "value": "dont_know_answer",
-         "text": "Not sure"
+         "text": "Not sure / Other"
         }
       ],
      "required": true
