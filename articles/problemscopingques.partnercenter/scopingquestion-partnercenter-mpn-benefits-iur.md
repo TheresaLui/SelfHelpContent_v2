@@ -48,12 +48,8 @@
                     "text": "MAPS"
                 },
 		{
-                    "value": "other",
-                    "text": "Other"
-                },
-		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
             "required": true
@@ -78,12 +74,8 @@
                     "text": "Visual studio subscriptions"
                 },
 		{
-                    "value": "other",
-                    "text": "Other"
-                },
-		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
             "required": true
