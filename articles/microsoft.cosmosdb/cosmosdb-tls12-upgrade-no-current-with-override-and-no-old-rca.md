@@ -16,7 +16,7 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# TLS 1.2 Upgrade Document - No TLS < 1.2 but has override
+# TLS 1.2 Upgrade Document
 We see you are not using TLS that is less than 1.2 in the last 30 days, but you have an override to allow for these insecure versions of TLS.
 
 ## Documents on why to switch to TLS 1.2:
