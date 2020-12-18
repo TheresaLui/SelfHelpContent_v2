@@ -26,7 +26,7 @@
        "id": "learn_more",
        "order": 1,
        "controlType": "infoblock",
-       "content": "Before continuing with this ticket submission please review the <a href='https://docs.microsoft.com/partner-center/merge-accounts'>Merge your partner account with another partner account</a> webpage and make sure the user who tries to complete the Merge process has the needed rights and role. Also, be aware of the consequences of account merging prior to the request. If there are any issues during the Merge process, please attach the PSR in the Upload Files section above(<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)"
+       "content": "Before continuing with this ticket submission please review the <a href='https://docs.microsoft.com/partner-center/merge-accounts'>Merge your partner account with another partner account</a> webpage and make sure the user who tries to complete the Merge process has the needed rights and role. Also, be aware of the consequences of account merging prior to the request. If there are any issues during the Merge process, please attach the PSR in the Upload section above(<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)"
       },
       {
      "id": "issue_details",
