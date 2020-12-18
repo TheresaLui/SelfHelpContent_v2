@@ -58,7 +58,7 @@
             "id": "mpn_benefit_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What type of benefit are you having problem with?",
+            "displayLabel": "What type of benefit are you having problems with?",
             "watermarkText": "Select benefit type",
             "dropdownOptions": [
                 {
@@ -70,8 +70,8 @@
                     "text": "Software products"
                 },
                 {
-                    "value": "Visual studio subscriptions",
-                    "text": "Visual studio subscriptions"
+                    "value": "Visual Studio subscriptions",
+                    "text": "Visual Studio subscriptions"
                 },
 		{
 		   "value": "dont_know_answer",
