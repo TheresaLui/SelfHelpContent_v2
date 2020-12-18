@@ -1,5 +1,5 @@
 <properties
-    pageTitle="TLS 1.2 Upgrade Documents - TLS < 1.2 without override"
+    pageTitle="TLS 1.2 Upgrade Documents - TLS &lt; 1.2 without override"
     description="RCA - Documents recommended to for information on upgrading to using TLS 1.2"
     infoBubbleText="The customer is recommended to upgrade to using TLS 1.2"
     service="microsoft.documentdb"
