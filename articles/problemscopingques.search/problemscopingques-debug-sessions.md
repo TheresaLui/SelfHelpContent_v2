@@ -26,7 +26,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the exact error message you received?",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
           },
 	  {
 		"id": "debug_error_session",
@@ -68,7 +68,7 @@
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 4,
