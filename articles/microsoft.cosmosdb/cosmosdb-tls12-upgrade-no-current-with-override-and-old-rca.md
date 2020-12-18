@@ -43,7 +43,7 @@ We see there is still a use of TLS < 1.2. This is an insecure transport protocol
 * [Enabling TLS 1.2 with the Windows registry](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs#enable-and-disable-tls-12)
 
   ### Enable and Disable TLS 1.2
-  Use the following registry keys and their values to enable and disable TLS 1.2.
+  Use the registry keys and their values from the above link to enable and disable TLS 1.2.
 
 ## More information based on SDK used:
 
