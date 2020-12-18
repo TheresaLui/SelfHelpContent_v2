@@ -19,17 +19,17 @@
 
 # **The VM appears to have reached it's disk IO limits recently**
 
-## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching it's disk IO limits.**
+## **There were recent instances of the <!--$vmname-->[vmname]<!--/$vmname--> reaching its disk IO limits.**
 
 <!--issueDescription-->
 Our diagnostics show there were recent instances where the VM <!--$vmname-->[vmname]<!--/$vmname--> reached the <!--$diskType-->disktype<!--/$diskType--> disk <!--$throttlingCounter-->Counter<!--/$throttlingCounter-->. The current <!--$throttlingCounter-->Counter<!--/$throttlingCounter--> limit for this  (<!--$vmType-->VMSize<!--/$vmType-->) VM is (<!--$vmLimit-->limit<!--/$vmLimit-->).
 <!--/issueDescription-->
 
-### Recent instances of the VM reaching it's disk IO limits
+### Recent instances of the VM reaching its disk IO limits
 
 <!--$DataTable-->DataTable<!--/$DataTable-->
 
-## Diagnose and resolve Virtual Machine Disk performance issues
+## Diagnose and resolve Virtual Machine disk performance issues
 
 Azure virtual machines have IOPS and throughput performance limits based on the virtual machine type and size. When your application running on your virtual machine requests more IOPS or throughput than what is allotted for the virtual machine, your application's performance is capped. When this happens, the application will experience suboptimal performance and can lead to negative consequences, such as increased latency.
 
