@@ -7,7 +7,8 @@
   supporttopicids="32783595"
   resourcetags=""
   productpesids="16582"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
   articleid="53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d"
   ownershipid="Windows_Virtual_Desktop" />
 # WVD - Issues configuring your domain
