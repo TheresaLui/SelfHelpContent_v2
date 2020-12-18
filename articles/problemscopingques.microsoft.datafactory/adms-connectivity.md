@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Azure Data Movement copy issue info"
-	description="Scoping questions to gather Azure Data Movement copy issue information"
-	authors="chez-charlie, hecepeda"
-	ms.author="chez"
+	pageTitle="Azure Data Movement connectivity and connectors"
+	description="Scoping questions to gather Azure Data Movement connectivity issue information"
+	authors="hecepeda"
+	ms.author="hecepeda"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629461, 32629463"
+    supportTopicIds="32784316,32784317,32784318,32784319,32784320,32784321,32784322"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-    articleId="ff731302-5b98-42fd-98d3-73317cd531a0"
+    articleId="adms-connectivity.md"
 	ownershipId="AzureData_DataFactory"
 />
 
@@ -33,14 +33,7 @@
             "displayLabel": "Please briefly describe the issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Is it a new issue or regression?"
-                },
-                {
-                    "text": "Is the issue intermittent or persistent?"
-                }
-            ]
+            "hints": [{"text": "Is it a new issue or regression?"}, {"text": "Is the issue intermittent or persistent?"}]
         },
         {
             "id": "error_message",
@@ -50,17 +43,25 @@
             "required": false
         },
         {
-            "id": "source_name",
+            "id": "radio_servertype",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What's the source of the copy activity?",
-            "required": false
+            "controlType": "radioButtonGroup",
+            "displayLabel": "Select whether you are trying to reach the source or sink server:",
+            "radioButtonOptions": [{
+                    "value": "Source",
+                    "text": "Source server"
+                }, {
+                    "value": "Sink",
+                    "text": "Sink server"
+                }
+            ],
+            "required": true
         },
         {
-            "id": "sink_name",
+            "id": "connector_name",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What's the sink of the copy activity?",
+            "displayLabel": "What connector are you using?",
             "required": false
         },
 		{
@@ -108,13 +109,6 @@
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
-        },
-        {
-            "id": "problem_end_time",
-            "order": 9,
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
