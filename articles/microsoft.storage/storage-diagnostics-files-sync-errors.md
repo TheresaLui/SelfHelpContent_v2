@@ -17,25 +17,20 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Azure File Sync Errors Troubleshooting and Remediation
+# Azure File Sync: Troubleshooting and Remediation
 
 <!--issueDescription-->
 
-**Azure File Sync Errors Troubleshooting and Remediation**<br>
-
-<br>See the following information for details about file sync errors and remediation steps.<br>
-
-Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br> 
-Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>  
-Issue: **<!--$Description-->[Description]<!--/$Description-->**<br>  
-Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br>  
-Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>  
-[Additonal reference link] (**<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>)  
-
+Azure File Sync has identified the error and the corresponding remediation steps. See the following information for details.<br/><br/>
 
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Azure File Sync Error Details and Remediation Steps**
+<br><br/>
 
-* See the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)<br>
-* To resolve your issue. see **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**
+* Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br/> 
+* Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br/>  
+* Issue: **<!--$Description-->[Description]<!--/$Description-->**<br/>  
+* Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br/>  
+* To resolve this issue, see the <a href="<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->" target="_blank">AFS Troubleshooting Guide</a> link.<br/>     
+* To troubleshoot Azure File Sync issues, see the  [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)<br>
