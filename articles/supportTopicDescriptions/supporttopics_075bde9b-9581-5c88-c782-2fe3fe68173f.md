@@ -18,10 +18,10 @@
   "longDescription": "",
   "supportTopics": [
     {
-      "id": "a1af7f3a0-1757-3543-4b6a-c945c3ad187b",
+      "id": "1af7f3a0-1757-3543-4b6a-c945c3ad187b",
       "longDescription": "",
       "shortDescription": "Questions about adding, removing, or managing your partner locations in Partner Center",
-      "searchTags": "Accounts;Onboarding;Locations",
+      "searchTags": "Subsidiary;Accounts;Onboarding;Locations",
     },
     {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
@@ -75,7 +75,7 @@
       "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
       "longDescription": "",
       "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
-      "searchTags": "Accounts;Onboarding;MPNid;Organization",
+      "searchTags": "MPN;ID;Associate;Accounts;Onboarding;MPNid;Organization",
     },
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
@@ -123,7 +123,7 @@
       "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
       "longDescription": "",
       "shortDescription": "Information on CSP enrollment for Direct bill, Indirect provider,Indirect reseller transacting through this channel",
-      "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
+      "searchTags": "Accounts;Onboarding;Enrollment;Indirect;Direct;Bill",
     },
      {
       "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
@@ -147,7 +147,7 @@
       "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Enroll;Onboard;MPA",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA",
     },
     {
       "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
@@ -159,7 +159,7 @@
       "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
       "longDescription": "",
       "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements",
-      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+      "searchTags": "Signature;Sign;MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
     {
       "id": "d61fff15-a73a-eeb1-2519-91b9bb179edf",
