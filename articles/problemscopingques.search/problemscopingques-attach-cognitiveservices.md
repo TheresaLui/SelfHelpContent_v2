@@ -11,7 +11,7 @@
 	articleId="8155a9b8-8a17-4a05-9d04-15bdb8380f85"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue deleting a Search service
+# Issue attaching a cognitive service resource
 ---
 {
     "subscriptionRequired": true,
