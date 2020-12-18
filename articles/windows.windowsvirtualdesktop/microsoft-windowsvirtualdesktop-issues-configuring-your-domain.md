@@ -23,6 +23,7 @@ Most customers can resolve their issues using the following steps.
 * Verify that the virtual network of the VMs has line-of-sight to the domain controller and that its DNS server points to the domain controller
 * Review the [domain, user, and VM requirements](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements) for Windows Virtual Desktop
 * Review the [virtual machine details](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace#virtual-machine-details) for the host pool creation
+* Misconfiguration of session host might lead to status unavailable.[Review how to troubleshoot virtual machine configuration](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/troubleshoot-vm-configuration-2019)
 
 ## **Recommended Documents**
 
