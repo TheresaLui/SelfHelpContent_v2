@@ -18,6 +18,11 @@
     "resourceRequired": true,
     "title": "Storage File Sync scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File Sync Errors - Troubleshooting and Remediation",
+        "description": "The Azure File Sync troubleshooter can help remediate File sync issues",
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. Please refer recommended documentation link to troubleshoot your issue"
+    },
     "formElements": [
         {
             "id": "file_sync",
@@ -119,7 +124,9 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
+             "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

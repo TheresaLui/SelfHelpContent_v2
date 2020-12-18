@@ -123,7 +123,7 @@
       "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
       "longDescription": "",
       "shortDescription": "Information on CSP enrollment for Direct bill, Indirect provider,Indirect reseller transacting through this channel",
-      "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
+      "searchTags": "Accounts;Onboarding;Enrollment;Indirect;Direct;Bill",
     },
      {
       "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
@@ -147,7 +147,7 @@
       "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Enroll;Onboard;MPA",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA",
     },
     {
       "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
