@@ -37,5 +37,4 @@ Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMo
 
 ## **Recommended Steps**
 * See the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)<br>
-* [Refer Troubleshooting Guide](**<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**)<br><br>
 * Refer link to resolve your issue **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**
