@@ -30,7 +30,7 @@ Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>
 Issue: **<!--$Description-->[Description]<!--/$Description-->**<br>  
 Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br>  
 Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>  
-[Learn more link] (**<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>)  
+[Additonal reference link] (**<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>)  
 
 
 <!--/issueDescription-->
