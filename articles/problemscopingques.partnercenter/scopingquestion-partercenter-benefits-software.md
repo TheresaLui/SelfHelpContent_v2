@@ -201,7 +201,7 @@
      "required": true
     },
    {
-     "id": "mpn_benefit_program",
+     "id": "issue_details",
      "order": 3,
      "visibility": "true",
      "controlType": "dropdown",
