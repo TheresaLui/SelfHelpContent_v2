@@ -14,7 +14,7 @@
 
 You can provision a Microsoft Azure SQL Managed Instance by using Azure Portal, PowerShell, CLI, or ARM templates. Before you begin, be aware that:
 
-- Creating an instance is a long-running operation
+- Creating an instance is a [long-running operation](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-operations-overview#duration)
 - Managed instances are not available to client applications during deployment and deletion operations
 
 ## **Recommended Steps**
@@ -43,7 +43,7 @@ The Cancel button is available on the resource group deployments blade, [will no
 
 ### Delete managed instance resources
 
-- Managed instances can be deleted at any time. Deleted instances can't be restored.
+- Managed instances can be deleted at any time. **Deleted instances can't be restored**.
 - To delete a virtual cluster, the cluster needs to be empty. It should not contain any managed instances.
 - For instructions on how to delete a subnet and virtual cluster, see [Delete a subnet and virtual network](https://docs.microsoft.com/azure/azure-sql/managed-instance/virtual-cluster-delete)
 
