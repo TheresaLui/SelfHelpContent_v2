@@ -4,7 +4,7 @@
 	authors="dimanjar" 
         ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32725801,32725871,32725861,32725862"
+	supportTopicIds="32725801,32725861"
 	productPesIds="17000,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
