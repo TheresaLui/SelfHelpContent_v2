@@ -51,7 +51,7 @@
                 },
 		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
             "required": true
@@ -75,13 +75,9 @@
                     "value": "user_management",
                     "text": "User management"
                 },
-      		{
-                    "value": "other",
-                    "text": "Other"
-                },
 		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
     "infoBalloonText": "If you need help to create a net new account in Partner Center, please check the <a href='https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account'>Create a Partner Center account</a> webpage.",
