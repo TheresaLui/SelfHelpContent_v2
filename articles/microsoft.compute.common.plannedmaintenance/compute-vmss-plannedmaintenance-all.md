@@ -4,7 +4,7 @@
   resource=""
   ms.author="scotro,babhoo"
   selfhelptype="Generic"
-  supporttopicids="32641081"
+  supporttopicids="32641081,32783376,32783377,32783378,32783379"
   resourcetags=""
   productpesids="16080"
   cloudenvironments="public,fairfax,usnat,ussec"
