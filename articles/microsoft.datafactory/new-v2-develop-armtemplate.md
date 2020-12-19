@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Export and Import Resource Manager (ARM) Templates&#xD;"
+  pagetitle="Export and import Resource Manager (ARM) templates&#xD;"
   ms.author="chez,haoc"
   selfhelptype="Generic"
   supporttopicids="32629439"
@@ -14,6 +14,7 @@
   * Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template
 ) to override default properties during deployment. You can now edit your arm-template-parameters-definition.json directly in ADF UX. <br>
   * If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
+  * Review [Common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and Github issues in ADF. 
 
 ## **Recommended Documents**
 
