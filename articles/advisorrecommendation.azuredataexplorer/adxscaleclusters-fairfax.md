@@ -57,7 +57,8 @@
             "isDevSku": "{isDevSku}",
             "instancesCount": "{recommendedInstanceCount}"
         },
-        "description": "{description}"
+        "description": "{description}",
+        "recommendedConfig": "{recommendedConfig}"
       }
     }
   ],
