@@ -15,6 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
+
 # Diagnose and resolve issues with Databricks cluster auto scaling
 
 ## **Recommended Steps**
