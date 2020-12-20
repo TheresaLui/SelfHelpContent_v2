@@ -17,11 +17,11 @@
 # Diagnose and resolve issues with Databricks cluster auto scaling
 ## **Recommended Steps**
 
-* Autoscaling is not available for spark-submit jobs.
-
+* Autoscaling is not available for spark-submit jobs
 * [Resize a cluster using Clusters API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--resize) to have a desired number of workers. The cluster must be in the RUNNING state.
 
 ## **Recommended Documents**
+
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Cluster size and autoscaling](https://docs.microsoft.com/azure/databricks/clusters/configure#--cluster-size-and-autoscaling)
 
