@@ -16,8 +16,10 @@
 />
 
 # Diagnose and resolve issues with Databricks cluster auto scaling
+ 
+ 
+## **Recommended Steps** 
 
-## **Recommended Steps**
 
 * Autoscaling is not available for spark-submit jobs.
 
