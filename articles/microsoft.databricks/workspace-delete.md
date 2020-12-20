@@ -21,7 +21,7 @@
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 
-* Follow the below steps to resolve the error `<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope` :
+* Follow the below steps to resolve the error **<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope** :
 	
      * Login to portal and navigate to Databricks Workspace that needs to be deleted
      * Click on Managed Resource Group 
@@ -29,3 +29,5 @@
      * Once Managed Resource group deletion is successful, proceed with deleting workspace
      
 * Cleanup of workspace is an asynchronous process and takes about 5-10 minutes to clean up cluster resources like VNET, Virtual Machines, storage and NSG.  If you just initiated it, please check after 5-10 minutes.
+
+* [How to discover who deleted a workspace in Azure portal?](https://docs.microsoft.com/azure/databricks/kb/administration/who-deleted-workspace)
