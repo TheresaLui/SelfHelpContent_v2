@@ -15,6 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 # Diagnose and resolve issues with Databricks cluster auto scaling
+
 ## **Recommended Steps**
 
 * Autoscaling is not available for spark-submit jobs
