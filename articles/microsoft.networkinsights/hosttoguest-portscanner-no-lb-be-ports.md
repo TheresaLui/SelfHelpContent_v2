@@ -18,14 +18,16 @@ ownershipId="Cloudnet_NetworkWatcher"
 />
 # No Port Connectivity Results - No LoadBalancer Backend Ports Detected
 <!--issueDescription-->
-We could not detect the load balancer backend port configuration for this load balancer. We could not continue validating the backend VM port communication. Please follow the recommended steps below.
+We could not detect the load balancer backend port configuration for this load balancer. We could not continue validating the backend VM port communication. Follow the recommended steps below.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. Complete the configuration of the load balancer by validating there are VMs in the [backend pool](https://docs.microsoft.com/azure/load-balancer/manage#backend-pools).
-2. Complete the configuration of the load balancer by validating there are ports listed in the *'backend ports'* of the [load balancing rules](https://docs.microsoft.com/azure/load-balancer/manage#load-balancing-rules)
-3. Once these settings have been completed and verified run this diagnostic again in the **Diagnose and Solve blade** for this resource
+1. Complete the configuration of the load balancer:
+    - Validate that VMs exist in the [backend pool](https://docs.microsoft.com/azure/load-balancer/manage#backend-pools).
+    - Validate that ports are listed in the **backend ports** of the [load balancing rules](https://docs.microsoft.com/azure/load-balancer/manage#load-balancing-rules)
+    
+2. After you verify that these settings have been completed and verified, run this diagnostic again in the **Diagnose and Solve**blade for this resource.
 
 
 ## **Recommended Documents**
