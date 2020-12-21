@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "What is the name of your skillset?",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": false
         },
         {
