@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 * Autoscaling is not available for spark-submit jobs
-* [Resize a cluster using Clusters API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--resize) to have a desired number of workers. The cluster must be in the RUNNING state.
+* [Resize a cluster using Clusters API](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--resize) to have a desired number of workers. The cluster must be in the `RUNNING` state.
 
 ## **Recommended Documents**
 
