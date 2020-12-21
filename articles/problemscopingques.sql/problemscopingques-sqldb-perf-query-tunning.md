@@ -137,7 +137,7 @@
             "id": "observed_recent_event",
             "order": 60,
             "controlType": "dropdown",
-            "displayLabel": "If applicable, please select recent events prior to observing the query timeouts.",
+            "displayLabel": "If applicable, please select recent events prior to observing the query performance decrease.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
