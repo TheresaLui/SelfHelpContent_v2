@@ -20,9 +20,9 @@ ownershipId="Cloudnet_NetworkWatcher"
 # No Port Connectivity Results - Missing or Invalid Ports
 
 <!--issueDescription-->
-We could not provide connetivity results because there were no ports provided or they were in an invalid format.
+We could not provide connectivity results because no ports were provided or the ports used an invalid format.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. Please correct the port(s) input and run this diagnostic again in the **Diagnose and Solve blade** for this resource
+1. Correct the port input and run this diagnostic again in the **Diagnose and Solve** blade 
