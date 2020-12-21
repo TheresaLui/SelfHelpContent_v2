@@ -7,7 +7,7 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639218,32691092"
+	supportTopicIds="32691092"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
@@ -19,6 +19,7 @@
 
 ## **Recommended Documents**
 
+- [Overview of Azure Storage offers](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)<br>
 - [How to create Premium Fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
 - [How to create premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
 - [Migration to Premium Storage-Managed Disks](https://docs.microsoft.com/azure/storage/storage-migration-to-premium-storage#plan-the-migration-to-premium-storage)<br>
