@@ -20,14 +20,14 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "name",
+            "id": "recommendation_name",
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Please enter the recommendation name",
             "required": false
         },
         {
-            "id": "name",
+            "id": "graph_output",
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter the Resource Graph Output",
