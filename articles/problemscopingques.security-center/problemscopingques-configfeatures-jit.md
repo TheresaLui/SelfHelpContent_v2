@@ -23,7 +23,7 @@
             "id": "issue_type",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "What is the issue you are experiencing?",
+            "displayLabel": "What issue are you experiencing?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -53,7 +53,7 @@
             "id": "issue_location",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Where did you try to perform the action selected in the previous question?",
+            "displayLabel": "Where did you perform the action selected in the previous question?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
