@@ -17,11 +17,14 @@
     ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
-# Diagnostic Information
+# Proactive MFA Prompt Scenario
 
 <!--issueDescription-->
+
+## Diagnostic Information
+
+<!--/issueDescription-->
 
 | Top users with MFA prompt  | MFA prompts per policy(which policy required MFA) |
 | ------------- | ------------- |
 | <!--$topUsers-->[topUsers]<!--/$topUsers-->  | <!--$topPolicies-->[topPolicies]<!--/$topPolicies-->  |
-<!--/issueDescription-->
