@@ -120,7 +120,6 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
-            "includeInQuotaSummary": true,
             "watermarkText": "Provide business justification for your request",
             "required": false
         },
@@ -236,7 +235,6 @@
             "order": 12,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
-            "includeInQuotaSummary": true,
             "watermarkText": "Provide business justification for your request",
             "required": false
         },
@@ -246,7 +244,6 @@
             "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
-            "includeInQuotaSummary": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
             "required": true
