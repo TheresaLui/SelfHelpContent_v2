@@ -21,10 +21,11 @@
 
 <!--issueDescription-->
 
-## Diagnostic Information
+Here is what our diagnosis run found against the sudden increase in MFA prompts for tenant <!--$tenantId-->[tenantId]<!--/$tenantId-->:
 
 <!--/issueDescription-->
 
+## **Diagnostic Information**
 | Top users with MFA prompt  | MFA prompts per policy(which policy required MFA) |
 | ------------- | ------------- |
 | <!--$topUsers-->[topUsers]<!--/$topUsers-->  | <!--$topPolicies-->[topPolicies]<!--/$topPolicies-->  |
