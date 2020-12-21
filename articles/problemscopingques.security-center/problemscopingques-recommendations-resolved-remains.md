@@ -23,14 +23,14 @@
             "id": "recommendation_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please enter the recommendation name",
+            "displayLabel": "Enter the recommendation name",
             "required": false
         },
         {
             "id": "name",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please enter the Resource Graph Output",
+            "displayLabel": "Enter the Resource Graph Output",
             "required": false
         },
         {
