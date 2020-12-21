@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Connect to Git Repository&#xD;"
+  pagetitle="Connect to Git Repository"
   service="microsoft.datafactory"
   resource="factories"
   ms.author="chez,haoc"
@@ -20,6 +20,7 @@
 4. If you can't publish changes and get the error "This is likely due to publishing outside of Git mode...", this is because your publish branch is out of sync with the master branch. See [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to recover from this state. 
 5. When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
 6. GitHub has a known limitation that a maximum of 1,000 entities per resource type (such as pipelines, datasets, triggers) can be fetched from a single GitHub branch. If you reach this limit, split your resources into separate factories. Azure DevOps Git does not have this limitation. 
+7. Review [Common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and Github issues in ADF. 
 
 ## **Recommended Documents**
 

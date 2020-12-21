@@ -30,5 +30,3 @@ This could be an issue with
 #### Note
 
 Microsoft does not control these scenarios. In the above scenarios, the customer should be advised to refer to his local network team and provider to fix the respective issues.
-
-
