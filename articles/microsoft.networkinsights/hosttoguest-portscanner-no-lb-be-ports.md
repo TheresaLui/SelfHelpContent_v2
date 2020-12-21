@@ -27,7 +27,7 @@ We could not detect the load balancer backend port configuration for this load b
     - Validate that VMs exist in the [backend pool](https://docs.microsoft.com/azure/load-balancer/manage#backend-pools).
     - Validate that ports are listed in the **backend ports** of the [load balancing rules](https://docs.microsoft.com/azure/load-balancer/manage#load-balancing-rules)
     
-2. After you verify that these settings have been completed and verified, run this diagnostic again in the **Diagnose and Solve**blade for this resource.
+2. After you verify that these settings have been completed and verified, run this diagnostic again in the **Diagnose and Solve** blade for this resource.
 
 
 ## **Recommended Documents**
