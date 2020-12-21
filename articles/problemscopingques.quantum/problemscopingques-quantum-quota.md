@@ -62,7 +62,7 @@
             ]
         },
         {
-            "id": "quota_workspace_region",
+            "id": "quota_region",
             "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel == region",
             "order": 3,
             "controlType": "dropdown",
@@ -83,8 +83,8 @@
             }
         },
         {
-            "id": "quota_workspace_region_fallback",
-            "visibility": "quota_workspace_region == dont_know_answer",
+            "id": "quota_region_fallback",
+            "visibility": "quota_region == dont_know_answer",
             "order": 4,
             "controlType": "textbox",
             "displayLabel":"Azure Region",
