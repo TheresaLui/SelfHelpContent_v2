@@ -13,10 +13,10 @@
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop (classic) - issues creating WVD tenant
 
-This article applies to Windows Virtual Desktop (classic) only.
+This article applies specifically to issues creating a Windows Virtual Desktop (classic) tenant.
 
 ## **Recommended steps**
- * [Review tutorial for creating a tenant to ensure you haven't missed important steps](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
+ * [Review the tutorial for creating a tenant to ensure you haven't missed important steps](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
  * [Troubleshoot issues when creating the Windows Virtual Desktop tenant](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/troubleshoot-set-up-issues-2019)
 
 ## **Recommended Documents**
