@@ -53,7 +53,7 @@
             "id": "issue_location",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Where did you perform the action selected in the previous question?",
+            "displayLabel": "Where did you perform the action specified in the previous question?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
