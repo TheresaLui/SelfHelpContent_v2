@@ -23,14 +23,14 @@
             "id": "name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please enter the alert name or type",
+            "displayLabel": "Enter the alert name or type",
             "required": false
         },
         {
             "id": "alert_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Please select the alert resource or entity:",
+            "displayLabel": "Select the alert resource or entity",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
