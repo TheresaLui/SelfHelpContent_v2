@@ -17,7 +17,7 @@
 
 # Diagnose and resolve cluster create and launch errors
 
-* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes.
+First, review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes.
 
 ## **Recommended Steps**
 
