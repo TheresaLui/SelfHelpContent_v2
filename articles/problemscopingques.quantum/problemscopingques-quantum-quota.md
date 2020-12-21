@@ -1,10 +1,10 @@
 <properties
-    pageTitle="Azure Quantum Quota"
+    pageTitle="Azure-Quantum-Quota"
     description="Azure Quantum Quota"
     authors="dasto"
     ms.author="dasto"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32784416 "
+    supportTopicIds="32784416"
     productPesIds="15621"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -17,13 +17,13 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Azure Quantum Quota"
+    "title": "Azure Quantum Quota",
     "fileAttachmentHint": "",
     "quotaRequestVersion": "1.0",
     "formElements": [
         {
             "id": "quota_subtype",
-            "order": 2,
+            "order": 1,
             "controlType": "radioButtonGroup",
             "displayLabel": "Choose the type of quota you are requesting",
             "includeInQuotaSummary": true,
@@ -44,7 +44,7 @@
         {
             "id": "quota_workspace_sublevel",
             "visibility": "quota_subtype == workspace-quota",
-            "order": 3,
+            "order": 2,
             "controlType": "radioButtonGroup",
             "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
             "includeInQuotaSummary": true,
@@ -64,7 +64,7 @@
         {
             "id": "quota_workspace_region",
             "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel == region",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
             "includeInQuotaSummary": true,
@@ -85,7 +85,7 @@
         {
             "id": "quota_workspace_region_fallback",
             "visibility": "quota_workspace_region == dont_know_answer",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel":"Azure Region",
             "includeInQuotaSummary": true,
@@ -95,7 +95,7 @@
         {
             "id": "quota_workspace_new_limit",
             "visibility": "quota_subtype == workspace-quota && quota_workspace_sublevel != null",
-            "order": 6,
+            "order": 5,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested",
             "isNewQuotaLimit": true,
@@ -117,7 +117,7 @@
         {
             "id": "quota_workspace_business_justification",
             "visibility": "quota_workspace_new_limit != null",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "includeInQuotaSummary": true,
@@ -127,7 +127,7 @@
         {
             "id": "quota_provider_name",
             "visibility": "quota_subtype == provider-quota",
-            "order": 8,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel":"Provider Name",
             "watermarkText":"Choose the provider that you are requesting quota for",
@@ -158,7 +158,7 @@
         {
             "id": "quota_provider_workspace",
             "visibility": "quota_subtype == provider-quota && quota_provider_name != null",
-            "order": 9,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
             "includeInQuotaSummary": true,
@@ -180,7 +180,7 @@
         {
             "id": "quota_provider_type",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != dont_know_answer",
-            "order": 10,
+            "order": 9,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
             "includeInQuotaSummary": true,
@@ -201,7 +201,7 @@
         {
             "id": "quota_provider_type_fallback",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name == dont_know_answer",
-            "order": 11,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "includeInQuotaSummary": true,
@@ -211,7 +211,7 @@
         {
             "id": "quota_provider_new_limit",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_workspace != dont_know_answer && quota_provider_name != dont_know_answer",
-            "order": 12,
+            "order": 11,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested",
             "includeInQuotaSummary": true,
@@ -233,7 +233,7 @@
         {
             "id": "quota_provider_business_justification",
             "visibility": "quota_provider_new_limit != null",
-            "order": 13,
+            "order": 12,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "includeInQuotaSummary": true,
@@ -243,7 +243,7 @@
         {
             "id": "quota_provider_description_fallback",
             "visibility": "quota_provider_workspace == dont_know_answer || quota_provider_name == dont_know_answer",
-            "order": 14,
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "includeInQuotaSummary": true,
