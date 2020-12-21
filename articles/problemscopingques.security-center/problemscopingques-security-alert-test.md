@@ -23,7 +23,7 @@
             "id": "alert_resource",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Please select the alert resource or entity:",
+            "displayLabel": "Select the alert resource or entity",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
