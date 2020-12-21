@@ -21,19 +21,19 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "skillset_name",
-            "order": 1,
-            "controlType": "textbox",
-            "displayLabel": "What is the name of your skillset?",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
-        {
             "id": "indexer_name",
-            "order": 2,
+            "order": 1,
             "controlType": "textbox",
             "displayLabel": "What is the name of your indexer?",
             "required": true,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "skillset_name",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What is the name of your skillset?",
+            "required": false,
             "useAsAdditionalDetails": false
         },
         {
