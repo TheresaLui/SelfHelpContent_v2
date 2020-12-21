@@ -30,7 +30,7 @@
             "id": "name",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Enter the Resource Graph Output",
+            "displayLabel": "Enter the Resource Graph output",
             "required": false
         },
         {
