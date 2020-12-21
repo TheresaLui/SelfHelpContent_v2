@@ -1,0 +1,45 @@
+ 
+<properties
+pageTitle="Troubleshooting resultant set of Policy"
+description="Issues related to troubleshooting resultant set of Policy"
+ms.author="marwa"
+displayOrder=""
+articleId="25408d96-5218-4f10-a991-d3ec3de6fb72"
+selfHelpType="Apollo"
+supportTopicIds="ddac735b-f798-4302-b470-2d62c74f4342"
+productPesIds="16579"
+cloudEnvironments="public"
+ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
+
+# Troubleshooting resultant set of Policy 
+:::Section Insights:::
+
+## Troubleshooting resultant set of Policy
+Resolve issues related to Policy using insights from diagnostics, and recommended solutions below.
+
+### Diagnostics
+ 
+<Insight>
+<symptomId>DxpDsqCardSymptom</symptomId>>
+<executionText>Enter the following information to be presented with the troubleshooting steps to help you resolve the issue</executionText>
+<timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
+<noResultText>Everything looks good from our side!</noResultText>
+<additionalInputsReq>true</additionalInputsReq>
+</Insight>
+
+### Run the "What-If" tool
+
+Launch The [What-If Tool](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) to troubleshoot your Conditional Access Policies and understand why a policy was or wasn't applied to a user in a specific circumstance or if a policy would apply in a known state.
+
+<CommonSolution>
+<articleId>484b506b-cd37-45aa-b0eb-ea11c390a70b</articleId>
+<client>Portal</client>
+</CommonSolution>
+ 
+### More resources
+Here are some articles from the web that may help you:
+
+<azureKB>
+<client>Portal</client>
+</azureKB>

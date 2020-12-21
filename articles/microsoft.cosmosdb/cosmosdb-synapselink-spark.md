@@ -21,12 +21,11 @@
 Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
 
 
-## Supported APIs  
-
-Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
-
 ## **Recommended Steps**  
 
+### **Supported APIs**  
+
+Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview, for more information please contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
 ### **Spark job failure** 
 The most common challenge is memory pressure, because of improper configurations (particularly wrong-sized executors), long-running operations, and tasks that result in Cartesian operations. 
@@ -64,12 +63,12 @@ You might experience some slowness in the Spark job that can be due to:
 
 
 **Solution**  
-If you have access to SQL serverless support for Synapse Link, we recommend to create a view over the Azure Cosmos DB container that you want to access.  
+Use SQL serverless support for Synapse Link to create a view over the Azure Cosmos DB container that you want to access.  
 
 ### **Data is not refreshing**
 In the case of **loading to Spark DataFrame**, the fetched metadata is cached through the lifetime of the Spark session and hence subsequent actions invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.  
 
-On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark and is reloaded on every SparkSQL query execution against the Spark table.  
+On the other hand, in the case of **creating a Spark table**, the metadata of the analytical store state is not cached in Spark and is reloaded on every Spark SQL query execution against the Spark table.  
 
 Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store respectively.  
 

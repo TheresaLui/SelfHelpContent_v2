@@ -17,6 +17,8 @@
 
 # Issue with Windows failover cluster in Azure
 
+4 out of 5 customers resolved their in-place upgrade issues of their VM using the steps below.<br>
+
 ## **Recommended Documents**
 
 * [Windows Server Failover Cluster on Azure IAAS VM – Part 1](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
