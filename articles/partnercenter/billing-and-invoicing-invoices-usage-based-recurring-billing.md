@@ -27,7 +27,7 @@ You'll be billed for both license-based and usage-based (Azure 145P offer) produ
 For both license-based and usage-based billing, your invoice is available within two (2) days of your selected billing date, in UTC time. For example, if you have a September 12th billing date, the invoice generation process will begin at 12:00AM UTC on the 13th, and complete by 12:00AM UTC on the 15th.
 
 To view your current billing status, invoices, and reconciliation files, use the following procedure:
-1. Sign in to the Partner Center dashboard.
+1. Sign in to the Partner Center [dashboard](https://partner.microsoft.com/dashboard/home).
 2. On the left-hand menu, select Billing, and then select Recurring.
 3. On the billing status page, select the invoice or reconciliation file to view more detailed information.
 
