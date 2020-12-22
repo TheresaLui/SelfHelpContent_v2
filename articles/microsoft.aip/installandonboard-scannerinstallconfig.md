@@ -21,7 +21,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
     - If you're upgrading the classic client, review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
     
-1. Verify that you comply with all [Firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
+1. Verify that you comply with all [firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
 
 1. Set policies appropriately:
     - Use the automatic labeling, or have a default label in the policy. For information about sensitivity labels, see the [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide). 
@@ -38,7 +38,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
 1. If you are using the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common issues when deploying the scanner.
 
-1. If you still experience issues, export the scanner logs and add them to your ticket.
+1. If you still experience issues, export the scanner logs and add them to your support ticket.
 
 **Troubleshooting Guide**
 
