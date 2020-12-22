@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issue with the .NET SDK"
-	description="Issue with the .NET SDK"
+	pageTitle="Issue with security configuration of the service"
+	description="Issue with security configuration of the service"
 	authors="maheff"
 	ms.author="maheff"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681376"
+	supportTopicIds="32781152"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="81fb006f-ff2b-4b65-ae5e-413c94de58f6"
+	articleId="EFAC9470-5FC4-462F-B6B3-A1AF1871C801"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue with the .NET SDK
+# Issue with security configuration of the service
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue with the .NET SDK",
+    "title": "Issue with security configuration of the service",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -35,15 +35,8 @@
             "required": true
         },
         {
-            "id": "sdk_version",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What .NET SDK version are you using?",
-            "required": true
-        },
-        {
             "id": "error_message",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false
