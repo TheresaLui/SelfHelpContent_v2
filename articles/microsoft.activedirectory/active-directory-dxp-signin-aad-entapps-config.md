@@ -27,7 +27,7 @@ Based on the information you provided the user <!--$userName-->[userName]<!--/$u
 
 Be sure to review the details about the sign-in attempt and the application configuration below.
 
-[Edit the application here](<!--$editAppLink-->[editAppLink]<!--/$editAppLink-->)
+<!--$editAppLink-->[editAppLink]<!--/$editAppLink-->
 
 ## **Application Configuration**
 <!--$appConfigContent-->[appConfigContent]<!--/$appConfigContent-->
@@ -37,5 +37,5 @@ Be sure to review the details about the sign-in attempt and the application conf
 
 ## **Recommended Documents**
 
-* [Quickstart: Configure properties for an application in your Azure AD tenant ](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-configure)
-* [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list)
+* [Quickstart: Configure properties for an application in your Azure AD tenant ](https://docs.microsoft.com/azure/active-directory/manage-apps/add-application-portal-configure)
+* [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list)
