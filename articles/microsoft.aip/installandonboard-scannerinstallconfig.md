@@ -36,13 +36,13 @@ Most customers can resolve their issues when installing or upgrading the Azure I
     
 1. Verify that the user account configured to run the scanner service has permissions to access all the configured repositories.
 
-1. If you are using the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common issues when deploying the scanner.
+1. If you are using the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common issues when deploying the scanner. 
 
-1. If you still experience issues, export the scanner logs and add them to your support ticket.
+1. Review the [Troubleshooting Guide for on-premises scanner deployment](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)
 
-**Troubleshooting Guide**
+1. If you experience issues after completing these steps, export the scanner logs and add them to your support ticket.
 
-Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)
+
 
 ### Export Azure Information Protection Scanner logs
 
