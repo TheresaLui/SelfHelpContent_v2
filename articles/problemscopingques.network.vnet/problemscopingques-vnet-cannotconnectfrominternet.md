@@ -54,12 +54,12 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "From VM to Internet",
-                    "text": "From VM to Internet"
+                    "value": "From VM to internet",
+                    "text": "From VM to internet"
                 },
                 {
-                    "value": "From Internet to VM",
-                    "text": "From Internet to VM"
+                    "value": "From internet to VM",
+                    "text": "From internet to VM"
                 },
                 {
                     "value": "dont_know_answer",
