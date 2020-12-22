@@ -1,31 +1,36 @@
 <properties
-  pageTitle="I can't see my activities in the activity log"
-  description="I can't see my activities in the activity log"
-  infoBubbleText=""
+  pagetitle="I can't see my activities in the activity log or my activities have missing/inaccurate information&#xD;"
   service="microsoft.mcas"
   resource=""
-  authors="shsagir"
-  ms.author="shsagir"
-  displayOrder=""
-  articleId="mcas-missing-activities"
-  diagnosticScenario=""
-  selfHelpType="generic"
-  supportTopicIds="32728980"
-  resourceTags=""
-  productPesIds="16031"
-  ownershipId="CloudAppSecurity_API"
-  cloudEnvironments="public, fairfax, usnat, ussec"
-/>
+  ms.author="shsagir,nagrand"
+  selfhelptype="Generic"
+  supporttopicids="32728980"
+  resourcetags=""
+  productpesids="16031"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mcas-missing-activities"
+  ownershipid="CloudAppSecurity_API" />
+# I can't see my activities in the activity log or my activities have missing/inaccurate information
 
-# I can't see my activities in the activity log
-
-Most users are able to resolve missing activities issues using the steps below.
+Most users are able to resolve activity issues using the steps below.
 
 ## **Recommended Steps**
 
 1. Check if you are using a *scoped deployment* to filter out activities performed by members of certain user groups: [How to include or exclude user groups in Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/scoped-deployment#include-or-exclude-user-groups)
 1. Make sure you enabled auditing in Office 365: [How to connect Office 365 to Cloud App security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security#how-to-connect-office-365-to-cloud-app-security)
 1. Check that the app connector is in a healthy state: In Cloud App Security, go to **Settings** > **App connectors**
+1. If you can't see your activities in Cloud App Security, do the following:
+    1. Check the [current status of Microsoft Cloud App Security](https://status.cloudappsecurity.com/). Look for ongoing maintenance or issues affecting your tenant that may result in missing or delayed activities
+    1. Check if the activities exists in the audit log of the connected app
+
+        For example:
+
+        - To check the audit log of Office 365, go to [Unified Audit logs](https://protection.office.com/unifiedauditlog)
+        - To check the audit log of Azure AD sign-ins, go to **Azure Active Directory** > **Sign-ins**
+		
+		**NOTE**: For Azure AD sign-in activities, Cloud App Security only surfaces interactive sign-in activities and sign-in activities from legacy protocols such as ActiveSync. Noninteractive sign-in activities may be viewed in the Azure AD sign-ins audit log.
+1. If your activities are missing information or show incorrect values for username, IP address, etc. in Cloud App Security, compare them with the corresponding activities in the audit log of the connected app. If the information matches, open a ticket with the support team for the app which logged the event.
+1. If you want to see the list of activities we support for an app, in Cloud App Security, on the **Activity log** page, filter by *app* and *activity type* to see the list of supported activities for the app.
 
 ## **Recommended Documents**
 
