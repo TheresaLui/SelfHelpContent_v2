@@ -17,13 +17,13 @@
 
 # ATM debugging
 
-Client is using a ?Virtual WAN User VPN Profile? (GW?s FQDN of type ?wan.xxx.vpn.azure.com?),and after a fresh install of up-to-date package the client still connects to an incorrect HUB of the vWAN.
+Client is using a "Virtual WAN User VPN Profile" (GW's FQDN of type "wan.xxx.vpn.azure.com"),and after a fresh install of up-to-date package the client still connects to an incorrect HUB of the vWAN.
 
 This could be related with:
 
 1)Client?s LDNS unexpectedly mapped to a region which is closer (in terms of performances) to the P2S-GW the client is seen to be connected to
 
-2)A bug in the ATM profile bound to the ?wan.xxx.vpn.azure.com? FQDN
+2)A bug in the ATM profile bound to the "wan.xxx.vpn.azure.com" FQDN
 
 This basically becomes an AzureTrafficManager support case.
 
