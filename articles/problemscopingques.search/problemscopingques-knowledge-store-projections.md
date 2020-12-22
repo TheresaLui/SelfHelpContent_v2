@@ -39,14 +39,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the name of the skillset that had this issue?",
-            "required": true
+            "required": false
         },
         {
             "id": "indexer_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the name of the indexer that had this issue?",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
