@@ -21,9 +21,9 @@
 
 ## Query about order status
 
-The Data Box service **does not guarantee any SLA** for order fulfilment and completion. Processing orders is subject to inventory availability, processing capacity, concurrent orders and other factors at the datacenter including environmental conditions. Please note that orders are processed and shipped at datacenters worldwide only on **business days**.
+The Data Box service **does not guarantee any SLA** for order fulfillment and completion. Order processing is subject to a range of factors, including: inventory availability, processing capacity, concurrent orders, and environmental conditions. Worldwide, data centers only process and ship orders on **business days**.
 
-When a shipment is in transit, tracking information is updated on the Overview page in the portal.
+When a shipment is in transit, tracking information is updated on the **Overview** page in the portal.
 
 ### **Recommended Documents**
 
@@ -35,7 +35,7 @@ When a shipment is in transit, tracking information is updated on the Overview p
 
 ## Status of sign up requests
 
-If you submitted a sign-up request for a Data Box, Data Box Disk, or Data Box Heavy, we'll review the details of the request and get back to you soon. Please note that if your subscription has been enabled to place an order, you'll need to place the order from the Azure portal. Signing up does not automatically create an order.
+If you submitted a sign-up request for a Data Box, Data Box Disk, or Data Box Heavy, we'll review the details of the request and get back to you soon. If your subscription has been enabled to place an order, you'll need to place the order from the Azure portal. Signing up does not automatically create an order.
 
 
 ### **Recommended Documents**
