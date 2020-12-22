@@ -32,11 +32,11 @@
 	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-tenant-id'>How to find Tenant ID association for debugging purposes</a>"
        },
        {
-	   "id": "object_id",
+	   "id": "aad object_id",
 	   "order": 2,
 	   "controlType": "textbox",
-	   "displayLabel": "Object ID",
-	   "watermarkText": "Please provide the Object ID - if this is regarding a Registration query",
+	   "displayLabel": "AAD Object ID",
+	   "watermarkText": "Please provide the AAD Object ID - if this is regarding a Registration query",
 	   "required": false,
 	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
        },
