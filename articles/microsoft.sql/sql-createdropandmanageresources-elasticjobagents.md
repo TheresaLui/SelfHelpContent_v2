@@ -39,6 +39,7 @@ feel free to continue creating this ticket as a request to bump up your Job agen
 * [Creating an Elastic Jobs Agent, Credentials, and Jobs for Azure SQL Database using T-SQL](https://techcommunity.microsoft.com/t5/azure-sql-database/creating-an-elastic-jobs-agent-credentials-and-jobs-for-azure/ba-p/1180096)
 * [Running, Scheduling and Monitoring Elastic Jobs in Azure SQL Database](https://techcommunity.microsoft.com/t5/azure-sql-database/running-scheduling-and-monitoring-elastic-jobs-in-azure-sql/ba-p/1180179)
 * [Troubleshooting Common issues with Elastic Jobs in Azure SQL Database](https://techcommunity.microsoft.com/t5/azure-sql-database/troubleshooting-common-issues-with-elastic-jobs-in-azure-sql/ba-p/1180766)
+* [Automate and Send Alerts for Elastic Jobs Failures](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automate-and-send-alerts-for-elastic-jobs-failures/ba-p/1981457)
 
 ### REST API Documentation
 * [Job Agents](https://docs.microsoft.com/rest/api/sql/jobagents)
