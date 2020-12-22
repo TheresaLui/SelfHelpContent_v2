@@ -19,7 +19,7 @@ Most users are able to resolve activity issues using the steps below.
 1. Check if you are using a *scoped deployment* to filter out activities performed by members of certain user groups: [How to include or exclude user groups in Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/scoped-deployment#include-or-exclude-user-groups)
 1. Make sure you enabled auditing in Office 365: [How to connect Office 365 to Cloud App security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security#how-to-connect-office-365-to-cloud-app-security)
 1. Check that the app connector is in a healthy state: In Cloud App Security, go to **Settings** > **App connectors**
-1. If you can't see your activities in Cloud App Security, do the following:
+1. If you can't see your activities (or getting them in delay) in Cloud App Security, do the following:
     1. Check the [current status of Microsoft Cloud App Security](https://status.cloudappsecurity.com/). Look for ongoing maintenance or issues affecting your tenant that may result in missing or delayed activities
     1. Check if the activities exists in the audit log of the connected app
 
