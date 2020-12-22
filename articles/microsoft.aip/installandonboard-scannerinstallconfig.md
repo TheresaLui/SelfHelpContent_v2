@@ -44,7 +44,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
 
 
-### Export Azure Information Protection Scanner logs
+### Export AIP scanner logs
 
 1. Go to **%localappdata%\Microsoft\MSIP** under the user context running the scanner service.
 2. Zip the entire contents under the **MSIP** folder.
@@ -54,7 +54,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
 ## **Recommended Documents**
 
-* [Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
+* [Deploy the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 * [Specify and use the Token parameter for Set-AIPAuthentication](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell#specify-and-use-the-token-parameter-for-set-aipauthentication)<br>
 * [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#run-a-discovery-cycle-and-view-reports-for-the-scanner)<br>
 * [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
