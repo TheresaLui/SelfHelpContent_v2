@@ -28,7 +28,7 @@ Resources and information about partner earned credit for managed services in Az
 * If you are an Indirect provider, you should verify that either yourself or your indirect reseller (or both) have 24x7 operational control and management of the customer's Azure resources in CSP
 * If the customer has removed your RBAC roles as a CSP Partner on the Azure subscription, please ask the customer to provide a [RBAC](https://docs.microsoft.com/partner-center/azure-roles-perms-pec) permission eligible for PEC, by following the guidance on how to [Reinstate admin privileges for Azure CSP subscriptions](https://docs.microsoft.com/partner-center/revoke-reinstate-csp)
 * The monthly invoice amount is net of partner earned credit. You can review the PEC details on your [monthly recon file](https://docs.microsoft.com/partner-center/daily-rated-usage-recon-files)
-* If you are using Guest / User access, please verify that you have associated your MPN ID successfully to the user or service principal in the customer tenant. Refer to [Link a partner ID to your Azure accounts](https://docs.microsoft.com/azure/cost-management-billing/manage/link-partner-id)**(Note: this action is not applicable / needed for AOBO – Access on behalf of - type access)**
+* If you are using Guest / User access, please verify that you have associated your MPN ID successfully to the user or service principal in the customer tenant. Refer to [Link a partner ID to your Azure accounts](https://docs.microsoft.com/azure/cost-management-billing/manage/link-partner-id) **(Note: this action is not applicable / needed for AOBO – Access on behalf of - type access)**
 
 ## **Recommended Documents**
 
