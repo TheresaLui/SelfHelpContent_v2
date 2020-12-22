@@ -199,7 +199,7 @@
         },
         {
             "id": "quota_provider_type_fallback",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Qunatum",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name != dont_know_answer",
             "order": 10,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
