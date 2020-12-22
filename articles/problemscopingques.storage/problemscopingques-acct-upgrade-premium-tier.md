@@ -31,12 +31,12 @@
             "displayLabel": "Which scenario did you have issue with",
             "dropdownOptions": [
                 {
-                    "value": "cannot_create_premium_stg_v2_acct_for_zone_or_geo_repl",
-                    "text": "Cannot create premium StorageV2 (general purpose v2) account with zone or geo replication type (GRS/RA-GRS/ZRS/GZRS/RA-GZRS)"
+                    "value": "cannot_create_premium_v1_or_v2_acct_for_zone_or_geo_repl",
+                    "text": "Cannot create premium StorageV2 (general purpose v2) account or premium Storage (general purpose v1) account with zone or geo replication type (GRS/RA-GRS/ZRS/GZRS/RA-GZRS)"
                 },
                 {
-                    "value": "cannot_create_premium_blockblob_or_file_stg_acct_for_zrs",
-                    "text": "Cannot create premium BlockBlobStorage or FileStorage account with ZRS replication type in some regions"
+                    "value": "cannot_create_premium_blockblob_or_file_acct_for_zrs",
+                    "text": "Cannot create premium BlockBlobStorage or FileStorage account with zone replication type (ZRS/GZRS/RA-GZRS)"
                 },
                 {
                     "value": "dont_know_answer",
