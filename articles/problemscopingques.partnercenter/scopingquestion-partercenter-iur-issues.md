@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds=""
+       supportTopicIds="32725871"
        productPesIds="17007"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -58,12 +58,8 @@
        "text": "MAPS"
       },
       {
-       "value": "other_value",
-       "text": "Other"
-      },
-      {
        "value": "dont_know_answer",
-       "text": "Not sure"
+       "text": "Not sure / Other"
       }
       ],
      "required": true
@@ -89,12 +85,8 @@
        "text": "Visual studio subscriptions"
       },
       {
-       "value": "other_value",
-       "text": "Other"
-      },
-      {
        "value": "dont_know_answer",
-       "text": "Not sure"
+       "text": "Not sure / Other"
       }
       ],
      "required": true
@@ -152,12 +144,8 @@
        "text": "User assignments on azure credits"
       },
       {
-       "value": "other_value",
-       "text": "Other"
-      },
-      {
        "value": "dont_know_answer",
-       "text": "Not sure"
+       "text": "Not sure / Other"
       }
      ],
 	   "required": false
