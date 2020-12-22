@@ -148,7 +148,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please enter your query for Azure Files AD DS Authentication",
+            "displayLabel": "Enter your query",
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
