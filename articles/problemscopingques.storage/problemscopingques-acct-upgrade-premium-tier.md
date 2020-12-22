@@ -25,14 +25,18 @@
     },
     "formElements": [
         {
-            "id": "failure_scenario",
+            "id": "acct_premium_tier_failure_scenario",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Which scenario did you have issue with",
             "dropdownOptions": [
                 {
-                    "value": "move_account_to_new_subId",
-                    "text": "Cannot create premium StorageV2 (general purpose v2) account with geo replication type (GRS/RA-GRS/GZRS/RA-GZRS)"
+                    "value": "cannot_create_premium_stg_v2_acct_for_zone_or_geo_repl",
+                    "text": "Cannot create premium StorageV2 (general purpose v2) account with zone or geo replication type (GRS/RA-GRS/ZRS/GZRS/RA-GZRS)"
+                },
+                {
+                    "value": "cannot_create_premium_blockblob_or_file_stg_acct_for_zrs",
+                    "text": "Cannot create premium BlockBlobStorage or FileStorage account with ZRS replication type in some regions"
                 },
                 {
                     "value": "dont_know_answer",
