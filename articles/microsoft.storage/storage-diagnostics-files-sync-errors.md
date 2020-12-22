@@ -17,20 +17,22 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Azure File Sync Errors Troubleshooting and Remediation
+# Azure File Sync: Troubleshooting and Remediation
 
 <!--issueDescription-->
 
-<br>See the following for details about file sync errors and remediation steps.<br>
+We have received your input. Azure File Sync has identified the error and the corresponding remediation steps. See the following information for details. 
 
-Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br> 
-Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br>  
-Issue: **<!--$Description-->[Description]<!--/$Description-->**<br>  
-Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br>  
-Learn more at the following: **<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->**<br><br>  
+For other errors, rerun the diagnostics.<br/>
 
 <!--/issueDescription-->
 
-## **Recommended Steps**
-* See the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors)
+## **Azure File Sync Error Details and Remediation Steps**
+<br/>
 
+* Error: **<!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->**<br/> 
+* Error String: **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->**<br/>  
+* Issue: **<!--$Description-->[Description]<!--/$Description-->**<br/>  
+* Remediation: **<!--$Remediation-->[Remediation]<!--/$Remediation-->**<br/>  
+* To resolve this specific error, see the <a href="<!--$LearnMoreLink-->[LearnMoreLink]<!--/$LearnMoreLink-->" target="_blank">AFS Troubleshooting Guide</a> link.<br/>     
+* To troubleshoot Azure File Sync errors in general, see the [Azure Files Sync Troubleshooting Guide](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshooting-per-filedirectory-sync-errors).<br>
