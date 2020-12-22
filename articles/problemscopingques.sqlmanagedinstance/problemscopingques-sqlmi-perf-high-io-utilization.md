@@ -50,7 +50,7 @@
             "id": "event_prior_to_high_io",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "To the best of your knowledge, which event took place prior to observing the high IO.",
+            "displayLabel": "To the best of your knowledge, which event took place prior to observing the high IO?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
