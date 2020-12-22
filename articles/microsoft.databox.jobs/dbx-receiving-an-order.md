@@ -21,7 +21,7 @@
 
 ## Query about order status
 
-The Data Box service **does not guarantee any SLA** for order fulfillment and completion. Order processing is subject to a range of factors, including: inventory availability, processing capacity, concurrent orders, and environmental conditions. Worldwide, data centers only process and ship orders on **business days**.
+The Data Box service **does not guarantee any SLA** for order fulfillment and completion. Order processing is subject to a range of factors including: inventory availability, processing capacity, concurrent orders, and environmental conditions. Worldwide, data centers only process and ship orders on **business days**.
 
 When a shipment is in transit, tracking information is updated on the **Overview** page in the portal.
 
