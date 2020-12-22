@@ -48,7 +48,7 @@
             "controlType": "radioButtonGroup",
             "displayLabel":"Are you requesting an increase to the number of workspaces in an Azure region or at a subscription level?",
             "includeInQuotaSummary": true,
-            "watermarkText":"Choose the level that you are requesting quota for - need to includeInQuotaSummary",
+            "watermarkText":"Choose the level that you are requesting quota for",
             "required": true,
             "radioButtonOptions": [
                 {
@@ -68,7 +68,7 @@
             "controlType": "dropdown",
             "displayLabel":"Azure Region",
             "includeInQuotaSummary": true,
-            "watermarkText":"Choose a location - need to includeInQuotaSummary",
+            "watermarkText":"Choose a location",
             "required": true,
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
@@ -142,7 +142,7 @@
                     "value": "IonQ",
                     "text": "IonQ"
                 }, {
-                    "value": "MS Quantum",
+                    "value": "MS-Quantum",
                     "text": "Microsoft Quantum Solutions"
                 }, {
                     "value": "Quantum Circuits",
@@ -178,7 +178,7 @@
         },
         {
             "id": "quota_provider_type",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != dont_know_answer",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name == MS-Quantum",
             "order": 9,
             "controlType": "radioButtonGroup",
             "displayLabel":"Provider Quota Type",
@@ -199,12 +199,12 @@
         },
         {
             "id": "quota_provider_type_fallback",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name == dont_know_answer",
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Qunatum",
             "order": 10,
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "includeInQuotaSummary": true,
-            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Concurrent Jobs",
+            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Job Hours on IonQ, Job Executions on Honeywell",
             "required": true
         },
         {
