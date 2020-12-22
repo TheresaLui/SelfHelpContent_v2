@@ -22,12 +22,12 @@
 ## We ran diagnostics on your resource and found the following
 
 <!--issueDescription-->
-Based on the RunId provided we found User Errors and we would like to recommend the following Troubleshoot Guides to help you on fixing each of them.
+Based on the RunId provided, we found user errors. We recommend the following troubleshooting guides to help you resolve these issues.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Please follow the Troubleshoot Guide link below for each activity error: 
+Follow the troubleshooting guide link for each activity error, as specified: 
 
 <dl style="margin-left: 4%;">
     <dt><!--$ActivityName0-->[ActivityName0]<!--/$ActivityName0--> <i><!--$ActivityId0-->[ActivityId0]<!--/$ActivityId0--></i></dt>
