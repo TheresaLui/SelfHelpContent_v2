@@ -204,7 +204,7 @@
             "controlType": "textbox",
             "displayLabel":"Provider Quota Type",
             "includeInQuotaSummary": true,
-            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Job Hours on IonQ, Job Executions on Honeywell",
+            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Job Hours, Job Executions, etc.",
             "required": true
         },
         {
