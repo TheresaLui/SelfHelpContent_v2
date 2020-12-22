@@ -54,7 +54,7 @@
             "id": "query_characteristics",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Which type resembles the characteristics of the queries.",
+            "displayLabel": "Which type resembles the characteristics of the queries?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
