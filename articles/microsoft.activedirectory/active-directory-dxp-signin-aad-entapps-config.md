@@ -20,7 +20,7 @@
 # Sign-in failed due to Application configuration
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but the user sign-in failed due application configuration reasons.
+Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName-->, but the user sign-in failed due to application configuration issues.
 <!--/issueDescription-->
 
 <!--$errorCodeContent-->[errorCodeContent]<!--/$errorCodeContent-->
