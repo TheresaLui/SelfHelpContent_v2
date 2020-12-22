@@ -2,7 +2,7 @@
   pagetitle="Unexpectedly disconnected from IoT Hub"
   service="microsoft.devices"
   resource="iothubs"
-  ms.author="jlian,yiygu"
+  ms.author="jlian,yiygu,jtanner"
   selfhelptype="Generic"
   supporttopicids="32630568"
   resourcetags=""
@@ -40,7 +40,7 @@
 
 ## **Recommended Documents**
 
-* [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
-* [Sending Messages to IoT Hubs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
-* [Monitoring Device Connections in Real-Time with Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)<br>
+* [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)
+* [Sending Messages to IoT Hubs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)
+* [Monitoring Device Connections in Real-Time with Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)
 * [Benefits of using the Azure IoT SDKs](https://azure.microsoft.com/blog/benefits-of-using-the-azure-iot-sdks-in-your-azure-iot-solution/)

@@ -232,8 +232,8 @@
     {
       "id": "1dbe1c7a-eea3-c2ae-416f-9dda0499cb30",
       "longDescription": "",
-      "shortDescription": "Failures to configure or manage a Private Link connection to SQL pools.",
-      "searchTags": "connectivity;networking;sql;private;link",
+      "shortDescription": "Failures to configure or manage a private endpoint connection to workspace resources like SQL pools, Storage or Cosmos DB.",
+      "searchTags": "connectivity;networking;private;link;endpoint",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
@@ -915,6 +915,14 @@
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
       "searchTags": "spark;job;execution;failure;unexpected",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "80ee09fb-30c6-1702-f09f-62bf7295519a",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or manage Private Link Hubs to securely load Synapse Studio static content over private links.",
+      "searchTags": "synapse studio;private link hubs;networking;security;security",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1649,7 +1657,7 @@
       "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
-      "searchTags": "sql;polybase;load;import;export",
+      "searchTags": "sql;load;import;export;copy",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
@@ -1683,6 +1691,14 @@
       "shortDescription": "Problems related to provisioning resources using ARM templates, REST API, PowerShell or Azure CLI.",
       "searchTags": "arm;crud;rest;powershell;azure",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "efc152ee-9014-7deb-fa19-51a7588f143a",
+      "longDescription": "",
+      "shortDescription": "Failures linking a Synapse Workspace to an Azure Machine Learning workspace, running Azure ML pipelines, or enriching data from an Azure ML model.",
+      "searchTags": "machine;learning;ml;predict;model",
+      "category": "Synapse Studio",
       "useInDiagnoseAndSolve": "true"
     },
     {
