@@ -17,6 +17,8 @@
 
 # Diagnose and resolve cluster create and launch errors
 
+First, review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes.
+
 ## **Recommended Steps**
 
 | ERROR | RECOMMENDED STEPS|
@@ -30,7 +32,7 @@
 |Cluster terminated. Reason: Cloud Provider Limit|See the cloud provider error information in [cluster unexpected termination](https://docs.microsoft.com/azure/databricks/kb/clusters/termination-reasons)
 |Cluster terminated. Reason: Cloud Provider Shutdown|See the cloud provider error information in [cluster unexpected termination](https://docs.microsoft.com/azure/databricks/kb/clusters/termination-reasons)
 |Cluster terminated. Reason: Instances Unreachable<br>An unexpected error was encountered while setting up the cluster. Retry and contact Azure Databricks if the problem persists. Internal error message: Timeout while placing node|Add a user-defined route (UDR) to give the Azure Databricks control plane ssh access to the cluster instances, Blob Storage instances, and artifact resources. This custom UDR allows outbound connections and does not interfere with cluster creation. For detailed UDR instructions, see [Step 3: Create user-defined routes and associate them with your Azure Databricks virtual network subnets](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#create-routes). For more VNet-related troubleshooting information, see [Troubleshooting](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject#troubleshooting)<br>More information on cause of this error [here](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
-|Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster.<br>Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xxx, Additional requested: xx|Request additional quota as per the article [here](https://docs.microsoft.com/azure/databricks/kb/clusters/azure-core-limit)
+|Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster.<br>Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xxx, Additional requested: xx|Request additional quota, as described in [this article](https://docs.microsoft.com/azure/databricks/kb/clusters/azure-core-limit)
 |Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster<br>ResourceQuotaExceeded Azure error message: Creating the resource of type `Microsoft.Network/publicIPAddresses` would exceed the quota of "xx" resources of type `Microsoft.Network/publicIPAddresses` per resource group. The current resource count is "xx". Delete some resources of this type before creating a new one.|Request additional quota, as described in [this article](https://docs.microsoft.com/azure/databricks/kb/clusters/azure-ip-limit)
 
 

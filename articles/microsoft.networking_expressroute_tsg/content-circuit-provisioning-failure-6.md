@@ -17,7 +17,7 @@ articleId="968d5f3b-695b-45d3-bf69-7158e58e0c01"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-## Circuit has been created but not yet provisioned i
+## Circuit has been created but not yet provisioned
 
 ### Recommended Steps
 
