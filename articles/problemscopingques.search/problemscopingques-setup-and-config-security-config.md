@@ -38,7 +38,7 @@
             "id": "error_message",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
+            "displayLabel": "If you received an error, please provide the error message.",
             "required": false
         }
     ],
