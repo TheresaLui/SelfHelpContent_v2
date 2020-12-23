@@ -22,10 +22,10 @@ Most customers can successfully set up their Azure Backup Server using the follo
 ## **Recommended Steps**
 
 **Supported configurations**
-- Which workloads and servers can I protect with Azure Backup Server(MABS) V3 UR1?(https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)
-- Which workloads and servers can I protect with Azure Backup Server(MABS) V3 RTM?(https://docs.microsoft.com/azure/backup/microsoft-azure-backup-server-protection-v3)
+- [Which workloads and servers can I protect with Azure Backup Server(MABS) V3 UR1?](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)
+- [Which workloads and servers can I protect with Azure Backup Server(MABS) V3 RTM?](https://docs.microsoft.com/azure/backup/microsoft-azure-backup-server-protection-v3)
 
-**Installation**<br>
+**Installation instructions**<br>
 Refer to the instructions that best address your scenario:<br>
 - [Install an Azure Backup Server(MABS)](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)
 - [Move Azure Backup Server(MABS) to a new server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#move-mabs-to-a-new-server)
