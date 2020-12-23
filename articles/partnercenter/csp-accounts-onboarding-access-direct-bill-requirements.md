@@ -30,7 +30,7 @@ This performance standard will go into effect in January 2021 for current direct
 
 Please refer to [Subscription analytics report](https://partner.microsoft.com/dashboard/analytics/licenseanalytics) for details of previous 12 months revenue and refer to [analytics report guide](https://partner.microsoft.com/resources/detail/new-subscription-analytics-report-on-partner-center-guide-pdf) for more information.
 
-**Note**: The Subscription Analytics report does not currently include Azure plan revenue. To calculate the Azure Plan contribution to annual revenue, refer to the “Recurring and one-time purchases” tab in [Billing](https://partner.microsoft.com/dashboard/billing/overview) and add your monthly invoice total (multiplied by the number of months from your support anniversary date) to the other subscriptions revenue shown in the Subscription Analytics report. This total must be greater than 300k USD to meet the revenue requirement.
+**Note**: The Subscription Analytics report does not currently include Azure plan revenue. To calculate the Azure Plan contribution to annual revenue, refer to the "Recurring and one-time purchases" tab in [Billing](https://partner.microsoft.com/dashboard/billing/overview) and add your monthly invoice total (multiplied by the number of months from your support anniversary date) to the other subscriptions revenue shown in the Subscription Analytics report. This total must be greater than 300k USD to meet the revenue requirement.
 
 ## **Recommended Documents**
 
