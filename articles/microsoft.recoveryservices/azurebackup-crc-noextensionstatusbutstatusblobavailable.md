@@ -17,7 +17,7 @@
 	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Error AzureIaaSVMRecoveryPerfDiskNumberGreaterThan8
+# Error NoExtensionStatusButStatusBlobAvailable
 
 <!--issueDescription-->
 We have identified that your backup operation failed because IaaS VM (with Linux OS) backup extension execution was stuck or crashed or the system calls might have timed out.
