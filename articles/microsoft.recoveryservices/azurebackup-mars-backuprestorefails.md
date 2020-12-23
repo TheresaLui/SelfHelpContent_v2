@@ -31,7 +31,7 @@
 
 **Restore**
 - [Invalid vault credentials provided: The file is either corrupted or does not have the latest information](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
-- The vault credentials provided are **different from the vault this server is registered to:** to recover the data to different machine, the Target machine and the Source machine must be registered with the **same Recovery Services vault** and use the **same Vault Credentials key** at the time of restoration
+- The vault credentials provided are **different from the vault this server is registered with:** to recover the data to different machine, the Target machine and the Source machine must be registered with the **same Recovery Services vault** and use the **same Vault Credentials key** at the time of restoration
 - Known Limitation: The target VM's operating system version must be **greater than or equal to** source VM's operating system version for successful restore
 - If you are trying to restore to alternate location/server, **use the same passphrase** that was initially used during backup
 - How to restore files to: [**original location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine) (or) [**alternative location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-restore-data-to-an-alternate-machine)
