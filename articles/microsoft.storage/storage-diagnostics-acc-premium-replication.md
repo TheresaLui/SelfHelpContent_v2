@@ -20,7 +20,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 <!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** with **<!--$AccountType-->[AccountType]<!--/$AccountType-->** type and premium performance tier can only support LRS (Locally Redundant Storage) replication types.<br>
 Azure Premium Storage accounts in Classic, General purpose v1, and General purpose v2 types do not support GRS, RA-GRS, GZRS, or RA-GZRS replication types at this time.<br>
-Azure **Premium BlockBlobStorage** and **Premium FileStorage** accounts can support ZRS replication type only in [certain regions](https://docs.microsoft.com/azure/storage/common/storage-redundancy#zone-redundant-storage).
+Azure **Premium BlockBlobStorage** and **Premium FileStorage** accounts can support ZRS replication type only in certain regions.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
