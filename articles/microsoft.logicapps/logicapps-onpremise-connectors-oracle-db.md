@@ -24,7 +24,7 @@ Before you can connect to on-premises data sources from Azure Logic Apps, [downl
 
 ### Connect to an On-Premises data sources from Azure Logic Apps
 
-Before you create a connection to an on-premises system, you must first download, install and set-up an on-premises data gateway.
+Before you create a connection to an on-premises system, you must first download, install, and set up an on-premises data gateway.
 
 [Connect to on-premises data sources from Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-gateway-connection)
 
@@ -34,7 +34,7 @@ Before you create a connection to an on-premises system, you must first download
 
 ### Oracle Connector-specific details
 
-To view any triggers and actions defined in the swagger, or view any limits, see [Oracle Database](https://docs.microsoft.com/connectors/oracle/)
+To view any triggers and actions defined in the swagger, or to view any limits, see [Oracle Database](https://docs.microsoft.com/connectors/oracle/)
 
 ## **Recommended Steps**
 
