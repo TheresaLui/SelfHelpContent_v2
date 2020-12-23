@@ -94,7 +94,7 @@
       "longDescription": "",
       "shortDescription": "Reconciliation file for CSP billing questions or issues.",
       "searchTags": "Billing;Invoicing;Reconciliation"
-    }
+    },
     {
       "id": "11836811-c6f1-f229-4842-1d283a53403b",
       "longDescription": "",
@@ -110,7 +110,7 @@
     {
       "id": "e0a24b21-e966-9fef-853c-e04defbad80c",
       "longDescription": "",
-      "shortDescription": " Issues and guidance on CSP one-time invoices for perpetual software and hybrid software subscriptions.",
+      "shortDescription": "Issues and guidance on CSP one-time invoices for perpetual software and hybrid software subscriptions.",
       "searchTags": "Invoice;Bill;Charges;Perpetual;Month;Charge"
     },
   ]
