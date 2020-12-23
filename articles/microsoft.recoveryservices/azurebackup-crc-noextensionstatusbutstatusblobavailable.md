@@ -25,7 +25,7 @@ We have identified that your backup operation failed because IaaS VM (with Linux
 
 ## **Recommended Steps**
 
-1. Check if the VM is Linux and has more number of disks (disks count greater than 4). if yes, turn on sequential snapshot by following the below steps:
+1. Check if the VM is Linux and has more number of disks (disks count greater than 4). If yes, turn on sequential snapshot by following the below steps:
 
     -	Go to file */etc/azure/vmbackup.conf* and under [SnapshotThread]<br>
     -	Set the config value: *seqsnapshot = 2*
