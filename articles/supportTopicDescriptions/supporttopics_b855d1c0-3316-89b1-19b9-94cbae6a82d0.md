@@ -94,7 +94,7 @@
       "longDescription": "",
       "shortDescription": "Reconciliation file for CSP billing questions or issues.",
       "searchTags": "Billing;Invoicing;Reconciliation"
-    }
+    },
     {
       "id": "11836811-c6f1-f229-4842-1d283a53403b",
       "longDescription": "",
