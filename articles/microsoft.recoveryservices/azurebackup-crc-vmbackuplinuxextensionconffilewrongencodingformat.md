@@ -7,8 +7,8 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder=""
-	articleId="azurebackup-crc-azureiaasvmrecoveryperfdisknumbergreaterthan8"
-	diagnosticScenario="azurebackup-crc-azureiaasvmrecoveryperfdisknumbergreaterthan8"
+	articleId="azurebackup-crc-vmbackuplinuxextensionconffilewrongencodingformat"
+	diagnosticScenario="azurebackup-crc-vmbackuplinuxextensionconffilewrongencodingformat"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
@@ -17,7 +17,7 @@
 	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Error AzureIaaSVMRecoveryPerfDiskNumberGreaterThan8
+# Error VMBackupLinuxExtensionConfFileWrongEncodingFormat
 
 <!--issueDescription-->
 We have identified that your Linux backup operation might have failed, because there is a change in Linux VM Backup Extension Configuration file.
