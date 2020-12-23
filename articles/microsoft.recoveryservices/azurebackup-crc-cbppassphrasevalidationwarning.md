@@ -25,7 +25,7 @@ We have identified that you have MARS jobs which are succeeding but generating t
 
 ## **Recommended Steps**
 
-1.	Launch the MARS agent console and click on the “Validate” link on the message that shows up at the top of the console. 
+1.	Launch the MARS agent console and click on the *Validate* link on the message that shows up at the top of the console. 
 OR
 Alternatively, search for the validator executable *PassphraseValidator.exe* and launch it from an elevated command prompt window
 2.	Provide the current passphrase. This will be validated both for correctness and to ensure it meets requirements
