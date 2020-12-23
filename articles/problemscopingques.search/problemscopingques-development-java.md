@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issue with the .NET SDK"
-	description="Issue with the .NET SDK"
+	pageTitle="Issue with the Java SDK"
+	description="Issue with the Java SDK"
 	authors="maheff"
 	ms.author="maheff"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681376"
+	supportTopicIds="32781148"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="81fb006f-ff2b-4b65-ae5e-413c94de58f6"
+	articleId="970D0B74-AD99-4051-9E90-323142252EB6"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue with the .NET SDK
+# Issue with the Java SDK
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue with the .NET SDK",
+    "title": "Issue with the Java SDK",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -38,7 +38,7 @@
             "id": "sdk_version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What .NET SDK version are you using?",
+            "displayLabel": "What Java SDK version are you using?",
             "required": true
         },
         {

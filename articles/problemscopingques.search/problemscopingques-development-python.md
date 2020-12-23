@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issue with the .NET SDK"
-	description="Issue with the .NET SDK"
+	pageTitle="Issue with the Python SDK"
+	description="Issue with the Python SDK"
 	authors="maheff"
 	ms.author="maheff"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681376"
+	supportTopicIds="32781150"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="81fb006f-ff2b-4b65-ae5e-413c94de58f6"
+	articleId="DAD0CE9E-9E50-438D-8BE3-BEE808BB30B7"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue with the .NET SDK
+# Issue with the Python SDK
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue with the .NET SDK",
+    "title": "Issue with the Python SDK",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -38,7 +38,7 @@
             "id": "sdk_version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What .NET SDK version are you using?",
+            "displayLabel": "What Python SDK version are you using?",
             "required": true
         },
         {
