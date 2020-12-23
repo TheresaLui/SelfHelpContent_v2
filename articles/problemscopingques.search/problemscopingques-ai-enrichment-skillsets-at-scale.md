@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issue with the .NET SDK"
-	description="Issue with the .NET SDK"
+	pageTitle="Issues with running skillsets at scale"
+	description="Issues with running skillsets at scale"
 	authors="maheff"
 	ms.author="maheff"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681376"
+	supportTopicIds="32681379"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="81fb006f-ff2b-4b65-ae5e-413c94de58f6"
+	articleId="5138938B-1964-4EC3-980A-BDDE354F2884"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue with the .NET SDK
+# Issues with running skillsets at scale
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue with the .NET SDK",
+    "title": "Issues with running skillsets at scale",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -35,15 +35,22 @@
             "required": true
         },
         {
-            "id": "sdk_version",
+            "id": "skillset_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What .NET SDK version are you using?",
-            "required": true
+            "displayLabel": "What is the name of the skillset that had this issue?",
+            "required": false
+        },
+        {
+            "id": "indexer_name",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the indexer that had this issue?",
+            "required": false
         },
         {
             "id": "error_message",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false
