@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-* Broad availability of perpetual software licenses through partners in the Cloud Solution Provider program is targeted for January 2021 (refer to [customer announcement](https://aka.ms/openannounce) and [partner announcement](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) for more details).
+* Broad availability of perpetual software licenses through partners in the Cloud Solution Provider program is targeted for January 2021 (refer to [customer announcement](https://www.microsoft.com/licensing/news/microsoft-open-license-program-changes) and [partner announcement](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) for more details).
   * Effective January 1, 2022, no new purchases, or renewals can be made through the Open License program for commercial organizations.
 * By July 2021, all partners enrolled in the Cloud Solution Provider program will be able to sell perpetual software licenses (without Software Assurance) to government, education, and non-profit organizations for on-premises deployment. Refer to [December 2020 announcements](https://docs.microsoft.com/partner-center/announcements/2020-december#9) for more information.
   * From January 1, 2022, commercial, government, education, and nonprofit organizations won’t be able to buy new or renew software licenses, Software Assurance, or online services through the Open License program. Until then, all customers can continue to purchase through the Open License program.
