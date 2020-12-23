@@ -25,3 +25,4 @@
 ## **Recommended Documents**
 
 * How-to [create a new workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace)
+ 

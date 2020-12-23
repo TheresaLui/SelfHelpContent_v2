@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Approvals, gates, and checks"
-	description="Issues related to setting up approvals, gates, or checks in classic release or multi-stage YAML pipelines, errors with their usage, and permissions"
-	infoBubbleText="Azure Pipelines issues related to Approvals, gates, and checks"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZDevOps"
-	supportTopicIds="32742291"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of Approvals, gates, and checks&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,vimalt"
+  selfhelptype="Generic"
+  supporttopicids="32742291"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevops"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Approvals, gates, and checks
 
 ## **Recommended Steps**
@@ -41,3 +35,4 @@ We do not have support for adding custom checks through extensions. We recommend
 * [Release deployment control using gates](https://docs.microsoft.com/azure/devops/pipelines/release/approvals/gates?view=azure-devops)
 * [Use approvals and gates to control your deployment](https://docs.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops)
 * [Release deployment control using approvals](https://docs.microsoft.com/azure/devops/pipelines/release/approvals/approvals?view=azure-devops)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

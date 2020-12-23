@@ -30,3 +30,4 @@
 
 * [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)
 
+ 

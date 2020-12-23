@@ -24,3 +24,4 @@
 
 * To configure how Serverless SQL pool accesses storage account, visit [control storage access for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 
 
+ 

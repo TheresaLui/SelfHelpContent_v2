@@ -64,3 +64,4 @@ If you need to turn off the capability, you have two options. You can delete and
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
 <br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB
+ 
