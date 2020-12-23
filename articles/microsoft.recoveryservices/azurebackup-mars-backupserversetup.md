@@ -17,18 +17,21 @@
 
 # Azure Backup Server Setup
 
+Most customers can successfully set up their Azure Backup Server using the following instructions and resources.
+
 ## **Recommended Steps**
 
-**Supported/Not supported configurations**
-- What workloads and servers can I protect with Azure Backup Server(MABS) V3 UR1?(https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)
-- What workloads and servers can I protect with Azure Backup Server(MABS) V3 RTM?(https://docs.microsoft.com/azure/backup/microsoft-azure-backup-server-protection-v3)
+**Supported configurations**
+- Which workloads and servers can I protect with Azure Backup Server(MABS) V3 UR1?(https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)
+- Which workloads and servers can I protect with Azure Backup Server(MABS) V3 RTM?(https://docs.microsoft.com/azure/backup/microsoft-azure-backup-server-protection-v3)
 
 **Installation**
-- Step by step instructions to [install an Azure Backup Server(MABS)](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)
-- Step by step instructions to [move Azure Backup Server(MABS) to a new server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#move-mabs-to-a-new-server)
-- Step by step instructions to [upgrade an Azure Backup Server(MABS)](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)
+Refer to the instructions that best address your scenario:<br>
+- [Install an Azure Backup Server(MABS)](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)
+- [Move Azure Backup Server(MABS) to a new server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#move-mabs-to-a-new-server)
+- [Upgrade an Azure Backup Server(MABS)](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)
 - [Troubleshoot common issues that you encounter while using Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot)
--Silent [installation of Azure Backup Server(MABS) using *.ini file*](https://docs.microsoft.com/azure/backup/backup-mabs-unattended-install)
+- [Perform a silent installation of Azure Backup Server(MABS) using *.ini file*](https://docs.microsoft.com/azure/backup/backup-mabs-unattended-install)
 
 ## **Recommended Documents**
 
