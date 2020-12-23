@@ -18,30 +18,30 @@
 
 # Upgrade to MongoDB API engine version 3.6
 
-## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> needs to be migrated to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB.
+## To take advantage of the latest version of Azure Cosmos DB's API for MongoDBYour database account, you need to migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account .
 
 <!--issueDescription-->
 
-Upgrading to the latest version of the service will provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
+Upgrading to the latest version of the service will provide the most up-to-date functionality and the latest fixes, as well as enhancements in performance and stability.
 
 <!--/issueDescription-->
 
-You will need to migrate the data in your existing account to a new account created using verstion 3.6 of the MongoDB API engine. You can use tools like Azure Data Factory or Studio 3T to assist you in migrating your data.
+You'll need to migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. You can use tools like Azure Data Factory or Studio 3T to assist you in migrating your data.
 
-1. Benefits of upgrading to version 3.6
+1. Following are the benefits of upgrading to version 3.6:
 
    - Enhanced performance and stability
    - Support for new database commands
    - Support for aggregation pipeline by default and new aggregation stages
    - Support for ChangeStream
    - Support for Compound Indexes
-   - Cross-partition support for the following operations: UPDATE, DELETE, COUNT, and ORDER BY
-   - Improved performance for the following aggregate operations: COUNT, SKIP, LIMIT, and GROUP BY
+   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER B`Y
+   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Changes from previous engine versions
+2. Following are the changes from previous engine versions: 
 
-   - MongoDB collections will only have the _id property indexed by default
-   - Per request timeout is going to be 60 seconds
+   - MongoDB collections have only the `_id property indexed by default`
+   - Per request, timeout is 60 seconds
 
 ## **Recommended Documents**
 
