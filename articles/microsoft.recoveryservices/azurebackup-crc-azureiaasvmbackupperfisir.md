@@ -25,6 +25,6 @@ We have identified that your backup operation is taking longer to complete becau
 
 ## **Recommended Steps**
 
-For more information review the following articles:
+For more information, see the following articles:
 - [Common scenarios that can affect the total backup time](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
 - [Best Practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
