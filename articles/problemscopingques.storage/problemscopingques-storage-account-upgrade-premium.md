@@ -15,7 +15,14 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "title": "Issue with storage account premium tier",
+    "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to troubleshoot an issue with premium tier?",
+        "description": "Please fill in the information below to find a solution.",
+        "insightNotAvailableText": "Our troubleshooter did not find any issue. Please ensure the information provided is accurate and in the approved format. Also, see our manual steps below to find a solution."
+    },
     "formElements": [
         {
             "id": "premium_tier",
