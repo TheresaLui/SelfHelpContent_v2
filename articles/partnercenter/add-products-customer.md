@@ -25,8 +25,7 @@
 - Select Customers from the Partner Center menu and then locate the customer who wants to buy from you
 - Select the down arrow at the end of the customer's row to expand the customer's record, and then select Add products. From here on out, you're creating an order. An order can include several items of different types, but they must all be for the same customer.
 - On the Add products page, select from Azure, Online services, or Software
-- Select the product the customer wants, enter the desired quantity, and then select Add to cart
-
+- Select the product the customer wants, enter the desired quantity, and then select Add to cart  
 
 Visual Studio Marketplace and all AOBO functions related to Visual Studio transactions are unavailable through Partner Center until further notice. New Visual Studio purchases can be made using customer tenant credentials instead of using Partner user accounts with delegated admin permissions.
 
