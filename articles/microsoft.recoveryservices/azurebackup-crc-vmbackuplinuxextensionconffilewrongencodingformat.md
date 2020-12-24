@@ -20,13 +20,11 @@
 # Error VMBackupLinuxExtensionConfFileWrongEncodingFormat
 
 <!--issueDescription-->
-We have identified that your Linux backup operation might have failed, because there is a change in Linux VM Backup Extension Configuration file.
+We have identified that your Linux backup operation may have failed because there is a change in the Linux VM Backup Extension Configuration file.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 To resolve this issue:
 
-- The configuration values in Linux VM Backup Extension Config file might be modified, we recommend changing the encoding format of the Linux VM *Backup Extension Conf file (/etc/azure/vmbackup.conf)* to ASCII by using a text editor or using the below command:
-
-   *iconv -t ASCII /etc/azure/vmbackup.conf*
+- The configuration values in Linux VM Backup Extension Config file might be modified. We recommend changing the encoding format of the Linux VM *Backup Extension Conf file (/etc/azure/vmbackup.conf)* to ASCII by using a text editor or by using the following command: `iconv -t ASCII /etc/azure/vmbackup.conf`
