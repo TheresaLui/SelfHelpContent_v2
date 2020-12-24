@@ -28,7 +28,7 @@
             "id": "premium_tier",
             "order": 0,
             "controlType": "dropdown",
-            "displayLabel": "Premium storage type to upgrade to",
+            "displayLabel": "Upgrade to this premium storage type",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -55,7 +55,7 @@
             "id": "acct_premium_tier_failure_scenario",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Which scenario did you have issue with",
+            "displayLabel": "Which scenario did you have an issue with",
             "dropdownOptions": [
                 {
                     "value": "cannot_create_premium_v1_or_v2_acct_for_zone_or_geo_repl",
