@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > We identified that the host node where the VM was running was experiencing a transient platform issue during routine background operations. The background operations activity exposed a Host OS issue, where heavy I/O to local disk impacted the VMs. On the physical node, local disk errors were observed. Our core OS engineers are currently evaluating a solution for this platform issue.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

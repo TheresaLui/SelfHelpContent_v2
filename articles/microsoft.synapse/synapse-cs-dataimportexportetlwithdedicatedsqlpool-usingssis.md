@@ -28,3 +28,4 @@
 
 * [Best practices when loading into Dedicated SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)
 
+ 
