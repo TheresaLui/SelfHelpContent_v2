@@ -17,12 +17,14 @@
 
 # Upgrade to premium storage tier
 
+Use the following resources when upgrading to a premium storage tier.
+
 ## **Recommended Documents**
 
 - [Overview of Azure Storage offers](https://docs.microsoft.com/azure/storage/common/storage-account-overview)<br>
-- [How to create Premium Fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
-- [How to create premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
-- [Migration to Premium Storage-Managed Disks](https://docs.microsoft.com/azure/storage/storage-migration-to-premium-storage#plan-the-migration-to-premium-storage)<br>
-- [Migration to Premium Storage-Unmanaged Disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-the-migration-to-premium-storage)<br>
-- [Supported VMs for Premium Storage](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-supported-vms)<br>
-- [Premium Storage scalability and performance targets](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-scalability-and-performance-targets)<br>
+- [How to create a premium fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
+- [How to create a premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
+- [Migration to premium storage: Managed disks](https://docs.microsoft.com/azure/storage/storage-migration-to-premium-storage#plan-the-migration-to-premium-storage)<br>
+- [Migration to Premium Storage: Unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-the-migration-to-premium-storage)<br>
+- [Supported VMs for premium storage](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-supported-vms)<br>
+- [Premium storage scalability and performance targets](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-scalability-and-performance-targets)<br>
