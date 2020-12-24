@@ -25,8 +25,8 @@ We have identified that your backup operation is taking longer to complete becau
 
 ## **Recommended Steps**
 
-This error occurs if backup queue time is greater than 120 min at the time of backup. Consider the following guidelines:
+This error occurs if backup queue time is greater than 120 minutes at the time of the backup. Consider the following guidelines:
 
-- Check if the backup is scheduled during application production time. If yes, consider moving the backup schedule to non-peak hours
-- Ensure the previous backup operation is complete before triggering a new backup, if the backup is triggered while the other backup is in progress then the backup might fail
-- If data churn on VM is more than 2-5 % of original disk size, then backups can be slow
+- Check if the backup is scheduled during application production time. If yes, consider moving the backup schedule to non-peak hours.
+- Ensure that the previous backup operation is complete before starting a new backup. If you start the backup while the previous backup is in progress, the new backup might fail.
+- If data churn onthe VM is more than 2 to 5 percent of original disk size, then backups can be slow.
