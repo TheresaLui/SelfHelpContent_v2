@@ -20,9 +20,9 @@
 # Error AzureIaaSVMRecoveryPerfDifferentSA
 
 <!--issueDescription-->
-We have identified that the restore operation is taking longer to complete because VM restore is running on the different Storage account than the source Storage account.
+We have identified that the restore operation is taking longer to complete because VM restore is running on a Storage account that's different from the source Storage account.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-For more information on Storage accounts, follow this [article](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts) 
+For more information on Storage accounts, see [Storage accounts](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts) 
