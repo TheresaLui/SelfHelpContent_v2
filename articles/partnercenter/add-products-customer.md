@@ -27,6 +27,8 @@
 - On the Add products page, select from Azure, Online services, or Software
 - Select the product the customer wants, enter the desired quantity, and then select Add to cart  
 
+<br>
+
 Visual Studio Marketplace and all AOBO functions related to Visual Studio transactions are unavailable through Partner Center until further notice. New Visual Studio purchases can be made using customer tenant credentials instead of using Partner user accounts with delegated admin permissions.
 
 For any user account created in the customer tenant that has owner permissions on the subscription, new purchases and cancellations of existing Visual Studio subscriptions is possible when accessing [Visual Studio Marketplace](https://marketplace.visualstudio.com) (note that obtaining Visual Studio annual subscription types is not possible for CSP Azure Subscriptions). Assigning obtained Visual Studio subscriptions can then happen in the [Visual Studio Management Portal](https://manage.visualstudio.com). Note that accessing the management portal directly, before VS subscriptions have been obtained via Marketplace, will result in an error. Refer to [Manual Steps to purchase and assign Visual Studio licenses.pdf](https://assetsprod.microsoft.com/mpn/manual-steps-to-purchase-and-assign-visual-studio-license.pdf)
