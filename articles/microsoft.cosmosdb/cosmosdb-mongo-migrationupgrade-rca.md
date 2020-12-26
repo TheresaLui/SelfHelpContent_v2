@@ -12,13 +12,13 @@
     supportTopicIds="32636757"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Upgrade to MongoDB API engine version 3.6
 
-## To take advantage of the latest version of Azure Cosmos DB's API for MongoDBYour database account, you need to migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account .
+## To take advantage of the latest version of Azure Cosmos DB's API for MongoDBYour database account, you need to migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account.
 
 <!--issueDescription-->
 
@@ -35,12 +35,12 @@ You'll need to migrate the data in your existing account to a new account create
    - Support for aggregation pipeline by default and new aggregation stages
    - Support for ChangeStream
    - Support for Compound Indexes
-   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER B`Y
+   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
    - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Following are the changes from previous engine versions: 
+2. Following are the changes from previous engine versions:
 
-   - MongoDB collections have only the `_id property indexed by default`
+   - MongoDB collections have only the `_id` property indexed by default
    - Per request, timeout is 60 seconds
 
 ## **Recommended Documents**
