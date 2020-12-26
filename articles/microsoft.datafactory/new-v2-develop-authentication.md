@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Permissions and Azure Roles for Data Factory"
+  pagetitle="Permissions and Azure Roles for Data Factory&#xD;"
   service="microsoft.datafactory"
   resource="factories"
   ms.author="chez,vimals,haoc"
@@ -14,9 +14,9 @@
 
 ## **Recommended Steps**
 
-* To create and manage child resources for Data Factory, including datasets, linked services, pipelines, triggers, and integration runtimes in the Azure portal, you must havo the [**Data Factory Contributor**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#data-factory-contributor) role at the **Resource Group** level or above. For more information, see [Roles and requirements](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions#roles-and-requirements).<br>
+* To create and manage child resources for Data Factory, including datasets, linked services, pipelines, triggers, and integration runtimes in the Azure portal, you must have the [**Data Factory Contributor**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#data-factory-contributor) role at the **Resource Group** level or above. For more information, see [Roles and requirements](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions#roles-and-requirements).<br>
 
-* To create and manage child resources with PowerShell or SDK, the **Contributor** role at the Resource level or above is sufficient<br>
+* To create and manage child resources with PowerShell or SDK, the **Data Factory Contributor** role at the Resource level or above is sufficient<br>
 
 * To have more granular access control for ADF portal users, consider creating a separate resource group for your data factory<br>
 
