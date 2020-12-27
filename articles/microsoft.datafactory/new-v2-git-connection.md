@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-1. If you can't connect to Git repository from ADF, check if the credentials from Azure DevOps and ADF are the same, make sure that the user has sufficient permissions on the Git account, and check that Azure DevOps and ADF are in the same tenant.  
+1. If you can't connect to Git repository from Azure Data Factory, check if the credentials from Azure DevOps and Azure Data Factory are the same, make sure that the user has sufficient permissions on the Git account, and check that Azure DevOps and Azure Data Factory are in the same tenant.  
 
 2. You can create an Azure Repos Git repo in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
 
@@ -32,25 +32,27 @@
 
 ## **Recommended Documents**
 
-* Source Control in Azure Data Factory <br>
+* Default permissions and access for [Azure DevOps](https://docs.microsoft.com//azure/devops/organizations/security/permissions-access?view=azure-devops)
+  * 
+* Source Control in Azure Data Factory
 
-  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __please read__ <br>
-  * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch <br>
-  * Author with [Azure Repos Git integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-azure-repos-git-integration) <br>
-  * Author with [GitHub integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-github-integration) <br>
-  * Switch to a different Git repo [steps](https://docs.microsoft.com//azure/data-factory/source-control#switch-to-a-different-git-repo) <br>
-  * Version control or source control [documentation](https://docs.microsoft.com//azure/data-factory/source-control#version-control) <br>
+  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __please read__
+  * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch
+  * Author with [Azure Repos Git integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-azure-repos-git-integration)
+  * Author with [GitHub integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-github-integration)
+  * Switch to a different Git repo [steps](https://docs.microsoft.com//azure/data-factory/source-control#switch-to-a-different-git-repo)
+  * Version control or source control [documentation](https://docs.microsoft.com//azure/data-factory/source-control#version-control)
 
 * Azure Repos Git
 
-  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services <br>
+  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services
   * Troubleshooting Guide: [Unable to Connect](https://docs.microsoft.com//azure/devops/reference/error/tf31002-unable-connect-tfs?view=azure-devops)
 
 * Continuous integration and delivery [CI/CD](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment)
 
-  * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD  <br>
-  * Hotfix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) <br>
-  * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features) <br>
+  * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD
+  * Hotfix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch)
+  * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features)
 
 **Azure Data Factory Feature Requests**
 
