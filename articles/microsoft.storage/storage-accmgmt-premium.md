@@ -17,7 +17,7 @@
 
 # Upgrade to premium storage tier
 
-When upgrading to Premium Storage tier, make sure that you have the correct supported options: <br>
+When upgrading to Premium Storage tier, make sure that you have the correct, supported options: <br>
 
 Storage Account Type | Supported Performance Tiers | Replication Options | ZRS Supported Regions |
 --- | --- | --- | --- |
