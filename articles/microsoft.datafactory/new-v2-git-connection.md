@@ -16,7 +16,7 @@ Most customers can resolve connection issues to the Git repository using the fol
 
 ## **Recommended Steps**
 
-1. If attempting to connect from Azure Data Factory, verify the following: credentials from Azure DevOps and Azure Data Factory are the same, the user has sufficient permissions on the Git account, and Azure DevOps and Azure Data Factory are in the same tenant.  
+1. If attempting to connect from Azure Data Factory, verify the following: credentials match for both Azure DevOps and Azure Data Factory, Azure DevOps and Azure Data Factory are in the same tenant, and the user has sufficient permissions on the Git account.  
 
 2. You can create an Azure Repos Git repository in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
 
@@ -38,7 +38,7 @@ Most customers can resolve connection issues to the Git repository using the fol
   
 * Source Control in Azure Data Factory
 
-  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __Strongly recommended__
+  * **Strongly recommended:** [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration
   * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch
   * Author with [Azure Repos Git integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-azure-repos-git-integration)
   * Author with [GitHub integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-github-integration)
@@ -47,14 +47,15 @@ Most customers can resolve connection issues to the Git repository using the fol
 
 * Azure Repos Git
 
-  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services)
+  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services
   * Troubleshooting Guide: [Unable to Connect](https://docs.microsoft.com//azure/devops/reference/error/tf31002-unable-connect-tfs?view=azure-devops)
 
 * Continuous integration and delivery [CI/CD](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment)
 
-  * [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD) __Strongly recommended__
+  * **Strongly recommended:** [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD
   * Hotfix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch)
   * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features)
+ 
 
 **Azure Data Factory Feature Requests**
 
