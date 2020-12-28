@@ -26,15 +26,14 @@
 1. Your region could be **out of capacity**, which is generally represented in the error message at the time of allocation failure. You can try using a different VM family, or retry at a later time.
 2. You could also be using an **unsupported VMsize** in the region of your workspace. We document the supported VM sizes and generally keep the list up to date with the latest SKUs supported by Azure.
 3. It's also possible that your **VNet configuration** on your compute target could be misconfigured and preventing Azure services from reaching them, leading to situations such as unusable nodes. Managed Compute has a very specific VNet configuration setup, as detailed in our documentation.
-4. If compute instance is created behind VNET, make sure you have an **NSG rule** where inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. Inbound TCP traffic on ports 29876 and 29877 from a Service Tag of BatchNodeManagement also needs to be allowed through NSG. If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains. For full details see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
-5. If you've created a compute instance in a **private link workspace**. ensure that you are accessing the compute instance from within virtual network. If you are using custom DNS or a host file, ensure that you have an entry for `<instance-name>.<region>.instances.azureml.ms` with the private IP address of the workspace private endpoint. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-portal).
-6. Configure firewall  and user defined routes according to this document https://docs.microsoft.com/zure/machine-learning/how-to-access-azureml-behind-firewall
-7. Create on behalf of compute instance do not support SSH currently
+4. If compute instance is created behind VNET, make sure you have an **NSG rule** where inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. Inbound TCP traffic on ports 29876 and 29877 from a Service Tag of BatchNodeManagement also needs to be allowed through NSG. If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains. For details, see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
+5. If you've created a compute instance in a **private link workspace**, make sure that you're accessing the compute instance from within virtual network. If you are using custom DNS or a host file, make sure that you have an entry for `<instance-name>.<region>.instances.azureml.ms` with the private IP address of the workspace private endpoint. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-portal).
+6. Configure firewall and user-defined routes according to [these instructions](https://docs.microsoft.com/zure/machine-learning/how-to-access-azureml-behind-firewall).
+7. Currently, creating on behalf of compute instance does not support SSH.
 8. Only the creator of compute instance is able to run notebooks on the compute instance. However, there is a "create on behalf of" feature in preview that allows administrators to create and assign a compute instance to another user to run notebooks.
-9. For compute instance please do not delete the azureml_py36 conda environment or Python 3.6 - AzureML kernel. This is needed for Jupyter/JupyterLab functionality
-10. If you need to download temp data on to compute instance please use the temp disk (/mnt)
-11. At this time we don't support auto-shutdown on compute instance
-
+9. For compute instance, do not delete the `azureml_py36` conda environment or the Python 3.6 - AzureML kernel. These are needed for Jupyter/JupyterLab functionality.
+10. If you need to download temporary data to compute instance, use the temporary disk (/mnt).
+11. Currently, auto-shutdown on compute instance is not supported.
 
 ## **Recommended Documents**
 
