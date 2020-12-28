@@ -17,10 +17,19 @@
 
 # Upgrade to premium storage tier
 
-Use the following resources when upgrading to a premium storage tier.
+When upgrading to Premium Storage tier, make sure you have the correct supported options: <br>
+
+Storage Account Type | Supported Performance Tiers | Replication Options | ZRS Supported Regions |
+--- | --- | --- | --- |
+General-Purpose V1, V2 |Premium | LRS| -
+BlockBlob Storage, File Storage |Premium | LRS, *ZRS (only in certain regions)*| Asia Southeast <br> Australia East <br> Europe North <br> Europe West <br> US East <br> US East 2 <br> US West 2
+
 
 ## **Recommended Documents**
+Use the following resources when upgrading to a premium storage tier:
 
+- [Types of storage accounts, supported performance tiers, and supported replication options](https://docs.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts)
+<br> 
 - [Overview of Azure Storage offers](https://docs.microsoft.com/azure/storage/common/storage-account-overview)<br>
 - [How to create a premium fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
 - [How to create a premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
