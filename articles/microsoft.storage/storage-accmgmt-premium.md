@@ -28,12 +28,12 @@ BlockBlob Storage, File Storage |Premium | LRS, *ZRS (only in certain regions)*|
 ## **Recommended Documents**
 Use the following resources when upgrading to a premium storage tier:
 
-- [Types of storage accounts, supported performance tiers, and supported replication options](https://docs.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts)
+* [Types of storage accounts, supported performance tiers, and supported replication options](https://docs.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts)
 <br> 
-- [Overview of Azure Storage offers](https://docs.microsoft.com/azure/storage/common/storage-account-overview)<br>
-- [How to create a premium fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
-- [How to create a premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
-- [Migrate to premium storage: Managed disks](https://docs.microsoft.com/azure/storage/storage-migration-to-premium-storage#plan-the-migration-to-premium-storage)<br>
-- [Migrate to premium storage: Unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-the-migration-to-premium-storage)<br>
-- [Supported VMs for premium storage](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-supported-vms)<br>
-- [Premium storage scalability and performance targets](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-scalability-and-performance-targets)<br>
+* [Overview of Azure Storage offers](https://docs.microsoft.com/azure/storage/common/storage-account-overview)<br>
+* [How to create a premium fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
+* [How to create a premium block blob account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal)<br>
+* [Migrate to premium storage: Managed disks](https://docs.microsoft.com/azure/storage/storage-migration-to-premium-storage#plan-the-migration-to-premium-storage)<br>
+* [Migrate to premium storage: Unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-the-migration-to-premium-storage)<br>
+* [Supported VMs for premium storage](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-supported-vms)<br>
+* [Premium storage scalability and performance targets](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-scalability-and-performance-targets)<br>
