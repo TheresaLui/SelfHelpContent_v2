@@ -23,7 +23,7 @@ Use the following guidance to validate security alerts.
    `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\Audit" /f /v "ProcessCreationIncludeCmdLine_Enabled"`
 
 2. To get EICAR alerts on the Security Center portal, install the Log Analytics Agent on the resource and verify that it sends a valid heartbeat.
-3. [Monitoring agent health issues troubleshooting](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
+3. [Monitor agent health issues troubleshooting guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
 
 ### Validate alerts on Kubernetes
 
