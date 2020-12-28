@@ -18,7 +18,7 @@ Use the following guidelines to assign permissions and roles in Azure Data Facto
 
 * To create and manage child resources for Azure Data Factory (including datasets, linked services, pipelines, triggers, and integration runtimes in the Azure portal), you must have the [**Data Factory Contributor**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#data-factory-contributor) role at the **Resource Group** level or above. For more information, see [Roles and requirements](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions#roles-and-requirements).<br>
 
-* To create and manage child resources with PowerShell or SDK, you'll need the **Data Factory Contributor** role at the Resource Group level or above.<br>
+* To create and manage child resources with PowerShell or SDK, you'll need the **Data Factory Contributor** role at the Resource Group level or above<br>
 
 * To have greater access control for ADF portal users, consider creating a separate resource group for your data factory<br>
 
