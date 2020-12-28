@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Security Alerts validation self-help guide"
+  pagetitle="Security Alerts validation self-help guide&#xD;"
   ms.author="elsagie"
   selfhelptype="Generic"
   supporttopicids="32693250"
@@ -31,7 +31,8 @@
 
 ### Validate alerts for Storage ATP
 
-* [Validating ATP for Azure Storage Detections in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-atp-for-azure-storage-detections-in-azure-security/ba-p/1068131)
+* Coming soon.  
+Please ask your Support Engineer for updates.
 
 ### Validate alerts for SQL ATP
 
