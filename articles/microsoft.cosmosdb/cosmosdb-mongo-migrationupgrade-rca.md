@@ -40,7 +40,7 @@ When upgrading the service, you must also migrate the data in your existing acco
    - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
    - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Canges from previous engine versions include:
+2. Changes from previous engine versions include:
 
    - MongoDB collections have only the `_id` property indexed by default
    - Per request, timeout is 60 seconds
