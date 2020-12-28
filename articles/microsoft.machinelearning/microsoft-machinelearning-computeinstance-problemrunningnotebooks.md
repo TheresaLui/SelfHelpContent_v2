@@ -28,5 +28,5 @@ Most users can resolve issues with running notebooks on compute instance by usin
 - If you are trying to pip install `pytesseract`, you need to perform "sudo apt install tesseract-ocr"
 - Do not delete the `azureml_py36` conda environment or Python 3.6 - AzureML kernel. These are needed for Jupyter/JupyterLab functionality.
 - If you need to download temporary data to a compute instance, use the temporary disk (/mnt)
-- Currently, we don't support auto-shutdown on a compute instance.
+- Currently, we don't support auto-shutdown on a compute instance
 
