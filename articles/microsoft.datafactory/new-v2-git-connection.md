@@ -12,17 +12,19 @@
   ownershipid="AzureData_DataFactory" />
 # Connect to Git Repository
 
+Most customers can resolve connection issues to the Git repository using the following guidance.
+
 ## **Recommended Steps**
 
-1. If you can't connect to Git repository from Azure Data Factory, check if the credentials from Azure DevOps and Azure Data Factory are the same, make sure that the user has sufficient permissions on the Git account, and check that Azure DevOps and Azure Data Factory are in the same tenant.  
+1. If attempting to connect from Azure Data Factory, verify the following: credentials from Azure DevOps and Azure Data Factory are the same, the user has sufficient permissions on the Git account, and Azure DevOps and Azure Data Factory are in the same tenant.  
 
-2. You can create an Azure Repos Git repo in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
+2. You can create an Azure Repos Git repository in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
 
-3. Bitbucket and Gitlab are not currently supported in Azure Data Factory.
+3. Bitbucket and GitLab are not currently supported in Azure Data Factory.
 
-4. Git publishing does not allow for selectively publishing a subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking [QFE steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
+4. Git publishing does not allow publishing for a subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking [QFE steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
 
-5. If you can't publish changes and you receive the error "This is likely due to publishing outside of Git mode...", this is because your publish branch is out of sync with the master branch. To resolve this issue, see [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration). 
+5. If you can't publish changes and receive the error "This is likely due to publishing outside of Git mode...", your publish branch is out of sync with the master branch. To resolve this issue, see [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration). 
 
 6. When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
 
@@ -33,10 +35,10 @@
 ## **Recommended Documents**
 
 * Default permissions and access for [Azure DevOps](https://docs.microsoft.com//azure/devops/organizations/security/permissions-access?view=azure-devops)
-  * 
+  
 * Source Control in Azure Data Factory
 
-  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __please read__
+  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __Strongly recommended__
   * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch
   * Author with [Azure Repos Git integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-azure-repos-git-integration)
   * Author with [GitHub integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-github-integration)
@@ -45,12 +47,12 @@
 
 * Azure Repos Git
 
-  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services
+  * Azure Repos Git [tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services)
   * Troubleshooting Guide: [Unable to Connect](https://docs.microsoft.com//azure/devops/reference/error/tf31002-unable-connect-tfs?view=azure-devops)
 
 * Continuous integration and delivery [CI/CD](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment)
 
-  * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD
+  * [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD) __Strongly recommended__
   * Hotfix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch)
   * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features)
 
