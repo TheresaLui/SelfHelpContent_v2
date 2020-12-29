@@ -17,7 +17,7 @@
 
 # Bugs with name resolution on ATM profiles
 
-The resolved IP doesn?t belong to any specific P2S GW?s VIP between all the P2S GWs of the vWAN, or customer is using ?HUB user VPN configuration? and the resolved IP is the one of an unexpected HUB?s GW.
+The resolved IP doesn't belong to any specific P2S GW's VIP between all the P2S GWs of the vWAN, or customer is using *"HUB user VPN configuration"* and the resolved IP is the one of an unexpected HUB's GW.
 
 These would be both bugs.
 
