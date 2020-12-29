@@ -31,6 +31,12 @@ Always ensure you are using the latest SDK:
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
 * [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 
+### **Retry logic**
+Cosmos DB SDK on any IO failure will attempt to retry the failed operation if retry in the SDK is feasible. Having a retry in place for any failure is a good practice but specifically handling/retrying write failures is a must.
+
+* Throttling errors (HTTP 429) get automatically retried by the SDK.
+* Read and query IO failures will get retried by the SDK without surfacing them to the end user.
+* Writes (Create, Upsert, Replace, Delete) are "not" idempotent and hence SDK cannot always blindly retry the failed write operations. It is a must that user's application logic to handle the failure and retry.
 
 ### **Common Errors**  
   
@@ -57,9 +63,12 @@ Review the Github issues links below for your SDK platform to see if there is a 
 
 
 **429 Request rate too large**
-<br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
-For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units). 
-* See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
+<br>The volume of operations and data is higher than the provisioned throughput in the container. The service returns an HTTP 429 that tells the SDK to retry the operation after a time interval defined by the service. The SDK retries these errors 9 times by default.
+
+* Setting CosmosClientOptions.MaxRetryAttemptsOnRateLimitedRequests to a different value to define how many retries you want to perform.
+* Setting CosmosClientOptions.MaxRetryWaitTimeOnRateLimitedRequests to a different value to define the maximum period of time you want to retry for.
+
+You should also consider either [increasing the provisioned throughput](https://docs.microsoft.com/azure/cosmos-db/set-throughput#update-throughput-on-a-database-or-a-container) or reducing the operational volume.
 
 
 **404 Not found**
@@ -67,8 +76,8 @@ For more information, see [Handle rate limiting/request rate too large](https://
 * See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
 
 
-**408 Request timeout**
-<br>The HTTP 408 error occurs if the SDK was not able to complete the request before the timeout limit occurs.
+**408 Request timeout or OperationCanceledException**
+<br>The HTTP 408 or OperationCanceledException error occurs if the SDK was not able to complete the request before the timeout limit occurs. It often indicates that either the operation is taking longer to complete or there are connectivity issues on the client environment.
 * See the dedicated support article for [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
 
 
