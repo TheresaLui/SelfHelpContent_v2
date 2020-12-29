@@ -66,8 +66,8 @@
                     "text": "Cisco ISR"
                 },
                 {
-                    "value": "Cisco Meraki - Not Compatible",
-                    "text": "Cisco Meraki - Not Compatible"
+                    "value": "Cisco Meraki",
+                    "text": "Cisco Meraki"
                 },
                 {
                     "value": "Citrix",
