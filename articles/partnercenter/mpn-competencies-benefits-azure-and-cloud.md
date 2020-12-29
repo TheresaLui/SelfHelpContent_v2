@@ -31,5 +31,5 @@
 ## **Recommended Documents**
 
 * [Azure & Cloud products benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center)
-* [Where can I find my Azure & Cloud benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [How these Azure & Cloud benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)

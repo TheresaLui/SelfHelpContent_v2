@@ -34,6 +34,6 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 
 * [Activate and Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
 * [Benefits Overview](https://support.microsoft.com/help/2966368/benefits-overview-in-partner-center-downloading-activating-software)
-* [Where can you find your benefits](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [Microsoft Action Pack Purchase in Partner Center](https://support.microsoft.com/help/4505959/microsoft-action-pack-purchase-in-partner-center)
 * [Silver or Gold Competency Purchase in Partner Center](https://support.microsoft.com/help/4505958/silver-or-gold-competency-purchase-in-partner-center)

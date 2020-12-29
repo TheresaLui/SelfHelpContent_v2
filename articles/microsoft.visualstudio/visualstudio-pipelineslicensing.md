@@ -56,5 +56,6 @@ Are you facing one of these common problems?
 
 * [Parallel jobs](https://docs.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops)
 * [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops)
-* [Self-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/agents?view=azure-devops)
+* [Self-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/agents?view=azure-devops#install)
+* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)

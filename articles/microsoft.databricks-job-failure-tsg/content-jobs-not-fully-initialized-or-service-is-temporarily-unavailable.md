@@ -18,8 +18,11 @@
 # Jobs not fully initialized or service is temporarily unavailable
 
 If customer gets exception message similar to:
-*'Jobs not fully initialized yet. Please retry later.'*
-*'The service at /api/2.0/clusters/start is temporarily unavailable.'*
+
+```
+Jobs not fully initialized yet. Please retry later.
+The service at /api/2.0/clusters/start is temporarily unavailable.
+```
 
 Issue could be due to:
 

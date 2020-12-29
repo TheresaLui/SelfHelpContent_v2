@@ -19,6 +19,8 @@
 
 Data encryption with customer-managed keys for Azure Database for MySQL enables you to bring your own key (BYOK) for data protection at rest. It also allows organizations to implement separation of duties in the management of keys and data. With customer-managed encryption, you are responsible for, and in a full control of, a key's lifecycle, key usage permissions, and auditing of operations on keys. Learn more about [Data encryption](https://docs.microsoft.com/azure/mysql/concepts-data-encryption-mysql).
 
+**NOTE**: **This functionality is currently only supported in Azure Database for MySQL Single server**.
+
 ## **Recommended Steps**
 
 * **Data encryption** is only available for the **General purpose** and **Memory optimized** SKU

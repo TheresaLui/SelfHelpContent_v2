@@ -3,7 +3,7 @@
     description="Update AKS Service Principal"
     authors="jakepearson"
     ms.author="jopears"
-    articleId="58a6b6c6-7653-4d7d-8d89-3d71f04fc010"
+    articleId="58a6b6c6-7653-4d7d-8d89-3d71f04fc010_mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="Compute_AzureKubernetesService"

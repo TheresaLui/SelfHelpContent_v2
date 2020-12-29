@@ -31,6 +31,6 @@
 ## **Recommended Documents**
 
 * [Technical benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515208/technical-benefits-tab-for-mpn-partners-in-partner-center)
-* [Where can I find my Technical benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [How these Technical benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)
 * [Self-Help resources for Technical issues](https://technet.microsoft.com/)

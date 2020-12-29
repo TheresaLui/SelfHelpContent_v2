@@ -53,3 +53,6 @@ Are you facing one of these common problems?
 * [Azure File Copy V4](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy?view=azure-devops#faq)
 * [Azure File Copy V3 or below](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy-version3?view=azure-devops)
 * [AzCopy V10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+

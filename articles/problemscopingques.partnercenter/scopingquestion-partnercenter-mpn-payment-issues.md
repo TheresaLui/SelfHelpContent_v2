@@ -5,12 +5,12 @@
 	ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725824"
-	productPesIds="17003"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_payment_issues"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Partner Center MPN payment issues
 ---

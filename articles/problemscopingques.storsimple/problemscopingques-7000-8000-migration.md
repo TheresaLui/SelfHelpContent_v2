@@ -20,8 +20,26 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "software version",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
+            }
+        },
+        {
+            "id": "software version",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the source appliance software version",
             "watermarkText": "Choose an option",
@@ -43,7 +61,7 @@
         },
         {
             "id": "serial number",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Serial number of source appliance",
             "watermarkText": "Serial number of 5000-7000 series source appliance",
@@ -51,14 +69,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

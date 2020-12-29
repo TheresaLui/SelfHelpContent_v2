@@ -14,7 +14,7 @@
 ---
 {
    "$schema":"SelfHelpContent",
-   "resourceRequired":true,
+   "resourceRequired":false,
    "subscriptionRequired":true,
    "title":"ACI does not start stop or restart",
    "formElements":[

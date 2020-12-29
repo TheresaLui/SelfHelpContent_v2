@@ -19,17 +19,15 @@
 
 <!--issueDescription-->
 
-Based on provided details and our investigation, since the job is scheduled to run on interactive cluster, we need to check the Ganglia metrics to ensure cluster was healthy at issue time. If there are too many GC event failure and driver unresponsive event, please:<br>
-<br>
-1. Try to use bigger instance <br>
-2. Restart the cluster <br>
-3. Reattempt to run the job<br>
-<br>
+Based on provided details and our investigation, since the job is scheduled to run on interactive cluster, we need to check the Ganglia metrics to ensure cluster was healthy at issue time. If there are too many GC event failure and driver unresponsive event, please follow these steps:
+1. Try to use bigger instance
+2. Restart the cluster
+3. Reattempt to run the job
 
 <!--/issueDescription-->
 
 ## Recommended Documents
 
-1. [Ganglia metrics](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#ganglia-metrics)
-2. [View cluster logs](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--view-cluster-logs)
-3. [Restart clusters](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--start-a-cluster)
+* [Ganglia metrics](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics)
+* [View cluster logs](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#--view-cluster-logs)
+* [Restart clusters](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#--start-a-cluster)

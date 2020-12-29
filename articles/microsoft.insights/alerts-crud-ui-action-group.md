@@ -1,28 +1,20 @@
 <properties
-    pageTitle="Creating, editing or deleting an action group in the Azure portal"
-    description="I'm trying to create, edit or delete an action group but I'm getting an error, or I don't know how to configure it"
-    infoBubbleText=""
-    service="microsoft.insights"
-    resource="actiongroups"
-    authors="dkamstra"
-	ms.author="dukek"
-    displayOrder="1"
-    articleId="alerts-crud-ui-action-group"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    supportTopicIds="32739778"
-    resourceTags=""
-    productPesIds="15454"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroup"
-/>
-
+  pagetitle="Troubleshooting information for creating an Action Group"
+  service="microsoft.insights"
+  resource="actiongroups"
+  ms.author="dukek,aaronmax"
+  selfhelptype="Generic"
+  supporttopicids="32739778"
+  resourcetags=""
+  productpesids="15454"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-crud-ui-action-group"
+  ownershipid="AzureMonitoring_ActionGroup" />
 # Troubleshooting information for creating an Action Group
 
 Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) that can be used in an Action group.
 
 ## **Recommended Steps**
-[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
 
 ### Email
 

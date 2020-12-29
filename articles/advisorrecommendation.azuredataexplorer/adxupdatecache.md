@@ -6,7 +6,7 @@
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureOptimizationAutomation_AORec"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
@@ -17,16 +17,15 @@
   "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_ADX_UpdateCacheReco",
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_UpdateCacheReco",
     "dataSource": "Kusto",
-    "refreshInterval": "0.04:00:00"
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
   "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",
@@ -44,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
@@ -74,6 +73,10 @@
   },
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
+    {
+      "name": "clusterName",
+      "title": "Cluster Name"
+    },
 	{
       "name": "tableName",
       "title": "Table Name"
@@ -92,17 +95,17 @@
     },
 	{
       "name": "potentialDataSavings",
-      "title": "Est. Data Savings"
+      "title": "Estimated Data Savings"
     },
 	{
       "name": "requiredDataReductionForScaleIn",
-      "title": "Req. Data Reduction for Scale-In"
+      "title": "Required Data Reduction for Scale-In"
     },
 	{
       "name": "observationWindow",
       "title": "Observation Window"
     }
   ],
-  "costSavingInfo": "*Adjusting the cache policy will enable you to optimize your cluster node count which will result cost savings. Your actual savings may vary."
+  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
 }
 ---

@@ -1,57 +1,64 @@
 <properties
-	pageTitle="SQL image provisioning"
-	description="SQL image provisioning"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740092"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="11c09f5c-18a1-40b6-ae41-176dac796d53"
-	ownershipId="AzureData_AzureSQLVM"
-/>
+  pagetitle="SQL Image Provisioning"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="vadeveka,amamun,ujpat"
+  selfhelptype="Generic"
+  supporttopicids="32740092"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="11c09f5c-18a1-40b6-ae41-176dac796d53"
+  ownershipid="AzureData_AzureSQLVM" />
+# SQL Image Provisioning
 
-# SQL image provisioning
+This article addresses common questions and issues related to deploying SQL Server inside an Azure Virtual Machine (VM). For deployment instructions, see [Provision SQL Server using Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision).
 
-If you are planning to deploy a SQL inside a Virtual Machine, follow the [Provision SQL Server using Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision) guide.
+## **Recommended Steps**
 
-## Common Issues
-* **Cannot find the SQL Image on Azure Portal** 
 
-    * We have a lot of images in the backend which does not show up on Azure Portal as we maintain the latest versions on the portal. Use the below script and deploy the VM from PowerShell if it is available:
+* **Deploy SQL with a different Locale/Language**
 
-```
-Login-AzureRmAccount
-$X = @()
-$SQLVer = "SQL2016"
-$locals = Get-AzureRmLocation
-foreach($local in $locals)
-{
-$X += Get-AzureRmVMImageOffer -Publisher 'MicrosoftSQLServer' -Location $local.DisplayName | Get-AzureRmVMImageSku | Where {($_.Offer).Contains($SQLVer)} 
-}
-$X | Get-AzureRMVMImage | Out-GridView -Title "Images" -PassThru
-```
+   You can only change the locale after image provisioning is completed. See [Change the SQL Locale](https://techcommunity.microsoft.com/t5/sql-server-support/change-locale-language-of-sql-server-on-azure-vm/ba-p/1707566).
+ 
+* **Change the SQL Collation**
+   
+  Currently you cannot change the collation for SQL Server if you are provisioning an image from the Azure Marketplace. After the image is deployed, you must 
+  [rebuild the system databases to change the Collation](https://docs.microsoft.com/sql/relational-databases/collations/set-or-change-the-server-collation?view=sql-server-ver15).
+
+* **Generalize or SysPrep SQL VM**
+
+  You can generalize SQL Server on Azure VM in one of two ways:
+
+   * Start with an OS-only VM, and follow the regular two-step [SQL Sysprep Process](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?view=sql-server-ver15). Follow this with [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).
+   * Use one of our SQL VM images and follow [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource). Make sure that you [add the SQL login to the generalized VM and delete the registry key mentioned here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#images).
+   
+* **SQL BYOL Image deployment fails**
+
+   To deploy SQL Server BYOL Images on Azure, you must have the [Enterprise Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-get-started) and [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default?rtc=1&activetab=software-assurance-default-pivot%3aprimaryr3). Azure Cloud Solution Partner (CSP) cannot deploy BYOL images. You can deploy Pay-as-you-go images and then [enable Azure hybrid benefits](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal#vms-already-registered-with-the-resource-provider) to bring their own licenses.
+
+* **Cannot deploy SQL VM due to capacity or quota limits**
+ 
+   To resolve, [increase the limits](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests).
+
+* **I need the SQL Setup Media to change the edition or version of SQL Server or install another instance**
+
+  Customers who have [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default?rtc=1&activetab=software-assurance-default-pivot%3aprimaryr3) can obtain their installation media from the [Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Customers that do not have Software Assurance can use the setup media from a Marketplace SQL Server VM image (located at **C:\SQLServerFull**) which has their desired edition.
+
+* **Change the default drive for SQL installation**
   
-* **Changing SQL Collation**: Currently you cannot change the collation for SQL Server if you are provisioning an image from the Azure Marketplace. You need to [rebuild the system databases to change the collation](https://docs.microsoft.com/sql/relational-databases/collations/set-or-change-the-server-collation?view=sql-server-ver15) 
-* **Changing Default Drive for SQL installation**: If you deploy any SQL Server Marketplace image then it is not possible to change the installation directory during provisioning. By default we will install the binaries in C drive. There are two ways you can achieve to have SQL binaries/installation on a different drive: <br>
+  If you're deploying any SQL Server Marketplace image, you cannot change the installation directory during provisioning. By default, the binaries are installed in the C drive. 
+  
+  To install SQL binaries/installation on a different drive: <br>
 
-	* Uninstall the SQL with Shared Features and install it on a new location on the same VM which you have<br>
-	* Create a windows only VM and copy the SQL Setup file from the VM you currently have or from Volume licensing and install it on the desired location you want to. Post installation make sure you change the licensing using [SQL Resource Provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal) so that it reflects the correct billing for your VM.
-
-* **Generalize SQL VM**: You have two ways to generalize SQL Server on Azure VM:
-
-	* Start with OS only VM and follow regular two-step [SQL Sysprep process](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?view=sql-server-ver15), followed by [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)
-	* Use one of our SQL VM images and use [Windows Sysprep](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource). If you are following this, make sure you [add SQL login to the generalized VM and you delete the registry key mentioned here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#images).
+  * Uninstall the SQL and its Shared Features, and reinstall on a different drive
+  * Create a Windows-only VM. Copy the SQL Setup file from the source VM or from Volume licensing and install it on the desired destination VM. After installation, make sure that you change the licensing using [SQL Virtual Machine](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) so that it reflects the correct billing for your VM.
 
 ## **Recommended Documents**
 
-* [Install SQL with sysprep](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?view=sql-server-ver15)<br>
-* [Create Managed Image of Generalized VM](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
-* [FAQ on SQL Images](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#images)<br>
-* [Provisioning SQL VM with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-ps-sql-create)<br>
-* [Deploy SQL using Azure quickstart templates](https://azure.microsoft.com/resources/templates/?term=sql)<br>
+* [Install SQL with sysprep](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?view=sql-server-ver15)
+* [Create Managed Image of Generalized VM](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)
+* [FAQ on SQL Images](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#images)
+* [Provisioning SQL VM with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-ps-sql-create)
+* [Deploy SQL using Azure quickstart templates](https://azure.microsoft.com/resources/templates/?term=sql)
 * [Provision SQL Server from Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision)

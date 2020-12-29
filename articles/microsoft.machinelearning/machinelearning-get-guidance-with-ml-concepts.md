@@ -1,20 +1,19 @@
-<properties 
-    pageTitle="Get guidance with AI or ML concepts"
-    description="Get guidance with AI or ML concepts"
-    service="microsoft.machinelearning"
-    resource="machinelearning"
-    authors="SturgeonMi"
-    ms.author="xunwan"
-    selfHelpType="generic"
-    supportTopicIds="32690858"
-    resourceTags=""
-    productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-    articleId="machinelearning-get-guidance-with-ml-concepts"
-    ownershipId="AzureML_AzureMachineLearningServices"
-/>
-
+<properties
+  pagetitle="Get guidance with AI or ML concepts"
+  service="microsoft.machinelearning"
+  resource="machinelearning"
+  ms.author="xunwan,smishah"
+  selfhelptype="Generic"
+  supporttopicids="32690858"
+  resourcetags=""
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="machinelearning-get-guidance-with-ml-concepts"
+  ownershipid="AzureML_AzureMachineLearningServices" />
 # Get guidance with AI or ML concepts
+
+### Code Samples
+* [End to End samples and solutions](https://github.com/microsoft/MLOps/tree/master/examples)
 
 ### Virtual Network configuration
 

@@ -19,6 +19,8 @@
 
 # Azure applications - certification
 
+**IMPORTANT**: If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
+
 The Microsoft Review step of the publishing process represents an extensive review of your offer and its associated technical assets (especially the Azure Resource Manager template).  Issues are typically represented as pull request (PR) links.
 
 Please note that the Microsoft Review step can take **7-14 days**. 

@@ -1,19 +1,15 @@
 <properties
-pageTitle="manage-luis-apps-and-migrations"
-description="Understanding and troubleshooting for migrations"
-service="microsoft.CognitiveServices"
-resource="accounts"
-authors="SaraKandil"
-ms.author="a-sakand"
-displayOrder=""
-selfHelpType="generic"
-supportTopicIds="32683913"
-productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-articleId="LUIS_Conversation_ManageLUISApps_ManageAuthorsAndCollaborators"
-ownershipId="AzureCogSvc_CognitiveServices"
-/>
-
+  pagetitle="Manage Authors and Collaborators"
+  service="microsoft.cognitiveservices"
+  resource="accounts"
+  ms.author="a-sakand"
+  selfhelptype="Generic"
+  supporttopicids="32683913"
+  resourcetags=""
+  productpesids="16869"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="luis_conversation_manageluisapps_manageauthorsandcollaborators"
+  ownershipid="AzureCogSvc_CognitiveServices" />
 # Manage Authors and Collaborators
 ## **Recommended Steps**
 
@@ -31,7 +27,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * Learn more about [the migration process](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#note-before-you-migrate) and how if effects owners and collaborators on an application
 
-* Migration will be will be enforced by August 30th, 2020
+* Migration will be will be enforced by November 2nd, 2020
 
 * Make sure that your account is associated with a valid Azure subscription to be able to Migrate. If you do not have an Azure subscription, create a [free trial](https://azure.microsoft.com/free/).
 

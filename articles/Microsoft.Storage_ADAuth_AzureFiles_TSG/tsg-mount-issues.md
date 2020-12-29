@@ -12,7 +12,7 @@
     productPesIds="1003478"
     cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
     articleId="22055eb3-34cb-4f87-97da-dd62352a501d"
-    ownershipID="Centennial_CloudNet_LoadBalancer"
+    ownershipID="StorageMediaEdge_StorageFiles"
 />
 
 # Customer is facing issues while mounting the file share
@@ -29,15 +29,15 @@ Also, make sure the customer sees Private IP assigned to the Private Link resour
 
 ## Mount File Share using Storage Account Key
 
-Once you have verified that the customer does not have Private Endpoint enabled or has their Private Endpoint setup successfully, try and see if they are able to mount the file share using the storage account key. If mount fails, please have them run [AzFileDiagnostics.ps1](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5) to validate any client side issues and help them resolve those issues as needed. Use this [TSG](https://centennialtsg.azurewebsites.net/TSG2/123931) if required.
+Once you have verified that the customer does not have Private Endpoint enabled or has their Private Endpoint setup successfully, try and see if they are able to mount the file share using the storage account key. If mount fails, please have them run [AzFileDiagnostics.ps1](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics) to validate any client side issues and help them resolve those issues as needed. Use this [TSG](https://centennialtsg.azurewebsites.net/TSG2/123931) if required.
 
 ## Use "Debug-AzStorageAccountAuth" command to further isolate the issue
 
-Once you have confirmed that the user is able to mount the file share using the storage account key but cannot map the same share using their On-Prem credential, use Debug-AzStorageAccountAuth cmdlet (with "-Verbose" option) to further isolate the issue. This cmdlet is supported on [AzFilesHybrid v0.1.2+ version](https://github.com/Azure-Samples/azure-files-samples/releases). You need to run this cmdlet with an AD user that has owner permission on the target storage account.
+Once you have confirmed that the user is able to mount the file share using the storage account key but cannot map the same share using their On-Prem credential, use [Debug-AzStorageAccountAuth cmdlet](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#self-diagnostics-steps) (with "-Verbose" option) to further isolate the issue. This cmdlet is supported on [AzFilesHybrid v0.1.2+ version and above](https://github.com/Azure-Samples/azure-files-samples/releases). You need to run this cmdlet with an AD user that has owner permission on the target storage account. [Our troubleshooting document](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#self-diagnostics-steps) provides more details on the checks we perform and their detailed explanation.
 
     $ResourceGroupName = "<resource-group-name-here>"
     $StorageAccountName = "<storage-account-name-here>"
 
     Debug-AzStorageAccountAuth -StorageAccountName $StorageAccountName -ResourceGroupName $ResourceGroupName -Verbose
 
-Please further continue with this troubleshooter based on the result of this cmdlet.
+Please continue further with this troubleshooter based on the result of this cmdlet.

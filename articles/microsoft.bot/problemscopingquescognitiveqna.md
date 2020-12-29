@@ -64,7 +64,7 @@
 					"text": "No"
 				}
 			],
-			visibility: "kindofassistance == 3b",
+			"visibility": "kindofassistance == 3b",
 			"required": true
 		},
 		{
@@ -83,7 +83,7 @@
 					"text": "All channels"
 				}
 			],
-			visibility: "kindofassistance == 3b",
+			"visibility": "kindofassistance == 3b",
 			"required": true
 		},
 		{
@@ -99,7 +99,7 @@
 					"text": "No"
 				}
 			],
-			visibility: "kindofassistance == 3b",
+			"visibility": "kindofassistance == 3b",
 			"required": true
 		},
         {

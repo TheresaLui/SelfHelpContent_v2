@@ -14,11 +14,11 @@
     ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-# VNeT Service Endpoints
+# VNet Service Endpoints
 
-* **Virtual Network (VNet) service endpoint** provides secure and direct connectivity to Azure services (i.e., SQL DB) over an optimized route over the Azure backbone network. Endpoints allow you to secure your critical Azure service (i.e., SQL DB) resources to only your virtual networks. Service Endpoints enables private IP addresses in the VNet to reach the endpoint of an Azure service (i.e., SQL DB) without needing a public IP address on the VNet.
+Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services (i.e., SQL DB) over an optimized route over the Azure backbone network. Endpoints allow you to secure your critical Azure service (i.e., SQL DB) resources to only your virtual networks. Service Endpoints enables private IP addresses in the VNet to reach the endpoint of an Azure service (i.e., SQL DB) without needing a public IP address on the VNet.
 
-* Virtual network rule is a firewall security feature that controls whether the server for your databases in Azure SQL DB accepts communication that is sent from a particular subnet in the virtual network.
+Virtual network rule is a firewall security feature that controls whether the server for your databases in Azure SQL DB accepts communication that is sent from a particular subnet in the virtual network.
 
 ## **Recommended Documents**
 

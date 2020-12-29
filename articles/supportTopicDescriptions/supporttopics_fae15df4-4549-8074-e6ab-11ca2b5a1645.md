@@ -2,23 +2,24 @@
   pagetitle="SupportTopicDescriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645"
   description="SupportTopicDescriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645"
   authors="elixirsys2"
-  ms.author="someshch"
+  ms.author="someshch, mnayak"
   selfhelptype="SupportTopicDescription"
   productpesids="fae15df4-4549-8074-e6ab-11ca2b5a1645"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_fae15df4-4549-8074-e6ab-11ca2b5a1645" />
+  articleid="supporttopics_fae15df4-4549-8074-e6ab-11ca2b5a1645"
+  ownershipid="Peering_PeeringService" />
 # Support Topic Descriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Routing Preference Interconnect is a direct connect with Microsoft transit edge routers. ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://docs.microsoft.com/azure/virtual-network/routing-preference-overview",
+  "productLinkName1": "Routing Preference Interconnect",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "04750c8f-7ef2-fe6b-ea4a-617f2919ff7c",
@@ -66,6 +67,14 @@
       "shortDescription": "Issue with peering or peering service not listed.",
       "searchTags": "Peering;PeeringService",
       "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4926a98d-6b18-1592-dea2-7a9f1fd8d228",
+      "longDescription": "",
+      "shortDescription": "Latency or packet loss on peering connection.",
+      "searchTags": "Peering",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -218,6 +227,14 @@
       "shortDescription": "Issue with management on peering or peering service.",
       "searchTags": "Peering;PeeringService",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c18a2cea-a5d7-4686-d26d-e7d1f0a94647",
+      "longDescription": "",
+      "shortDescription": "Issue is not listed for peering or peeringservice",
+      "searchTags": "Peering;PeeringService",
+      "category": "Other",
       "useInDiagnoseAndSolve": "true"
     },
     {

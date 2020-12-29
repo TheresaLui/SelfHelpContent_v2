@@ -10,16 +10,18 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
   articleid="alerts-quota-log"
   ownershipid="AzureMonitoring_Alerts_LogSearchAlerts" />
+
 # I want to increase my log search alerts quota
 
 The number of log search alert rules per subscription and resource are subject to the quota limits described [here](https://docs.microsoft.com/azure/azure-monitor/service-limits).
 
 ## **Recommended Steps**
-    
+
 If you have reached the quota limit, the following steps may help resolve the issue:
 
 1. Try deleting or disabling log search alert rules that aren’t used anymore
-2. If you need the quota limit to be increased, please proceed to open a support request, and provide the following information:
+1. Reduce rules count by using splitting alerts by dimensions columns into separate alerts. Splitting is supported in **Metric measurement** alert logic type. The field is called **Aggregate On** in the condition (limited to three columns).
+1. If you need the quota limit to be increased, please proceed to open a support request, and provide the following information:
 
     - Subscription Id(s) for which the quota limit need to be increased
     - Reason for quota increase
@@ -27,7 +29,7 @@ If you have reached the quota limit, the following steps may help resolve the is
     - Requested quota limit
 
 To check the current usage of new log alert rules:
-	
+
 ### **From the Azure portal**
 
 1. Open the *Alerts* screen, and click *Manage alert rules*
