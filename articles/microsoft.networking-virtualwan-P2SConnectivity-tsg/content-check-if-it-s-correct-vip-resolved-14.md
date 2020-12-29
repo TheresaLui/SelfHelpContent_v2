@@ -17,12 +17,12 @@
 
 # Check if it's correct VIP resolved
 
-Client is able to resolve the P2S GW?s ATM FQDN.
+Client is able to resolve the P2S GW's ATM FQDN.
 We need to check that this IP matches effectively with the real VIP mapped to desired GW.
 
 Open ASC at the section of the considered P2SVPNGateway
-Scroll down to section ?P2S VPN Gateway Child gateways?
-Check the columns ?P2S VIP?
+Scroll down to section *"P2S VPN Gateway Child gateways"*
+Check the columns *"P2S VIP"*
 
 Compare the VIP with what you have resolved on test client
 
