@@ -158,7 +158,7 @@
             "watermarkText": "Blob name or path if specific to a blob",
             "required": false,
              "diagnosticInputRequiredClients": "Portal,ASC"
-        }
+        },
         {
             "id": "problem_description",
             "order": 6,
