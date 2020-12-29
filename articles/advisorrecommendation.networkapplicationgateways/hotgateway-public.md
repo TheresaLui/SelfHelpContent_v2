@@ -13,7 +13,7 @@
   "recommendationOfferingId": "dd4296e3-3037-49b2-a443-1f17d54a0720",
   "recommendationOfferingName": "Hot Application Gateway",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "2ee9f31e-df58-4893-b3e7-66c0cd74183a",
+  "recommendationTypeId": "2ee9f31e-df58-4893-b3e7-66c0cd74183a_Public",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://AzureCXPCRE.kusto.windows.net').database('CXPCREMaint').FindHotAppGWs",
     "dataSource": "Kusto",
