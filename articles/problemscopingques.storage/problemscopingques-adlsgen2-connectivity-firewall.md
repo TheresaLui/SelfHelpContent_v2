@@ -84,7 +84,7 @@
 			"value": "HTTP_503",
 			"text": "HTTP 503"
 		}, {
-			"value": "otherdont_know_answer",
+			"value": "dont_know_answer",
 			"text": "Not listed above "
 		}],
 		"defaultDropdownOptions": {
