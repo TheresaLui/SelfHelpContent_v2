@@ -112,7 +112,7 @@
             "id": "request_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
+            "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
 	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
