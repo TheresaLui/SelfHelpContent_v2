@@ -101,7 +101,7 @@
 		"displayLabel": "Storage server Request ID",
 		"watermarkText": "Server Request ID of failed operation ending with 000000",
 		"textPropertyRegexinfoBalloonText": "Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
-		"required": false,
+        "required": false,
 		"diagnosticInputRequiredClients": "Portal,ASC",
 		"validations": [{
 			"type": "RegExMatch",
