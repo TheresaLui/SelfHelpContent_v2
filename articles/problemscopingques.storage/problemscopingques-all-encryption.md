@@ -16,7 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": Encryption issue on account management,blob,table,queues,adlsgen2 scoping question",
+    "title": "Encryption issue on account management,blob,table,queues,adlsgen2 scoping question",
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Encryption Issue Troubleshooter",
@@ -133,12 +133,14 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC",
-            "hints": [{
-            "text": "Issue description."
-        }, {
-            "text": "Paste the exception and error stack here"
-        }
-    ]
+            "hints": [
+                {
+                "text": "Issue description."
+                },
+                {
+                 "text": "Paste the exception and error stack here"
+                }
+            ]
         },
         {
             "id": "learn_more_text",
