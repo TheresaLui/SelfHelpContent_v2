@@ -24,9 +24,13 @@ To proceed further, please take note of the kind of P2S settings are configured 
 Finally, load in ASC the Inner MS-owned subscription hosting the P2S Gateway to access the GW's properties as if it was a standard Brooklyn GW:
 
 -From the P2SVPNGateways section, select the considered P2S GW
+
 -Scroll down to *P2S VPN Gateway Child gateways*
+
 -In the column *Child Virtual Network Gateway Note* you will find a message like *Please add child virtual network gateway subscription: xxxxx to Resource explorer and then access this link*
+
 -Follow such instruction: add the subscription to ASC, and pin it to the case
+
 -Once done, you can now directly click on the link in *Child Virtual Network Gateway*
 
 By doing this, you can now treat this P2S GW as a standard Brooklyn GW (You can review Get-GW outputs, collect Diagnostics, access Visual Debugging dashboards, etc...)
