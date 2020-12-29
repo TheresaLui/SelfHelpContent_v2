@@ -20,7 +20,7 @@
 	"fileAttachmentHint": "",
 	"diagnosticCard": {
 		"title": "Firewall & VNet Issues Troubleshooter",
-		"description": "For Firewall & VNet issue, help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem and recommend the solution without the need to open a support ticket.",
+		"description": "For Firewall & VNet issues, help us by providing your input and by giving us a few minutes to run automated diagnostics. We can help diagnose your problem and recommend the solution without needing to open a support ticket.",
 		"insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
 	},
     "formElements": [
@@ -97,7 +97,7 @@
 			"id": "adlsgen2_firewall_vnet_request_id",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Storage server Request ID",
+			"displayLabel": "Storage server request ID",
 			"watermarkText": "Server Request ID of failed operation ending with 000000",
 			"infoBalloonText": "Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
 			"required": false,
@@ -112,7 +112,7 @@
             "id": "blob_container",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Blob Container",
+            "displayLabel": "Blob container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
