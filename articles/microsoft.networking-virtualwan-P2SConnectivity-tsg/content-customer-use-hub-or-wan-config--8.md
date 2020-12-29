@@ -17,5 +17,5 @@
 
 # Customer use HUB or WAN config?
 
-Is customer using ?Virtual HUB User VPN Profile? or ?Virtual WAN User VPN Profile??
+Is customer using *"Virtual HUB User VPN Profile"* or *"Virtual WAN User VPN Profile"*?
 
