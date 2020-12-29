@@ -21,13 +21,13 @@ Client is using a "Virtual WAN User VPN Profile" (GW's FQDN of type "wan.xxx.vpn
 
 This could be related with:
 
-1)Client?s LDNS unexpectedly mapped to a region which is closer (in terms of performances) to the P2S-GW the client is seen to be connected to
+1)Client's LDNS unexpectedly mapped to a region which is closer (in terms of performances) to the P2S-GW the client is seen to be connected to
 
 2)A bug in the ATM profile bound to the "wan.xxx.vpn.azure.com" FQDN
 
 This basically becomes an AzureTrafficManager support case.
 
-To debug it, you can start with the guidelines provided in this Wiki:
+To debug it, please use the guidelines provided in this Wiki:
 
 https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/140174/TSG-Incorrect-Routing-with-Azure-Traffic-Manager?anchor=traffic-manager-routing-is-incorrect-%26-how-to-query-the-azure-traffic-manager-perf%2Fgeo-databases 
 
