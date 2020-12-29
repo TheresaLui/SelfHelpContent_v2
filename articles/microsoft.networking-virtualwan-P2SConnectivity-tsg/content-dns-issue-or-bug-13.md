@@ -17,7 +17,7 @@
 
 # DNS issue or bug
 
-The client is unable to resolve the P2S GW?s FQDN with any IP, i.e. Name Error.
+The client is unable to resolve the P2S GW's FQDN with any IP, i.e. Name Error.
 
 Try attempting same name resolution from your laptop, and make tests from different clients using different Public DNS servers.
 
