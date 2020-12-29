@@ -132,7 +132,7 @@
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide device Model and iOS/firmware version",
+            "displayLabel": "Provide device model and iOS/firmware version",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
