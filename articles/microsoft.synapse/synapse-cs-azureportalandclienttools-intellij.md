@@ -28,3 +28,4 @@ Review this tutorial on [how to create a spark job step-by-step](https://docs.mi
 
 * [Use Azure Toolkit for IntelliJ to create Apache Spark applications for Spark pools](https://docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
 
+ 

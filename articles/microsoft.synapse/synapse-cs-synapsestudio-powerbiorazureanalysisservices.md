@@ -22,3 +22,4 @@
 
 Review [prerequisites](https://docs.microsoft.com/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop#prerequisites) connecting your Serverless SQL pool to Power BI Desktop for working with Serverless SQL pool.
 
+ 

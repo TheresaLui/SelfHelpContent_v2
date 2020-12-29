@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="809e8afe-489e-08b0-95f2-08f835a383e8"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_809e8afe-489e-08b0-95f2-08f835a383e8"
   ownershipid="Azure_Advanced_Threat_Protection" />
 # Support Topic Descriptions for 809e8afe-489e-08b0-95f2-08f835a383e8
@@ -56,7 +57,7 @@
     {
       "id": "0a060dac-b4dc-623b-aa29-76183f03d068",
       "longDescription": "",
-      "shortDescription": "Security alerts not forwarded, content mismatch or missing content",
+      "shortDescription": "Security alerts not forwarded, content mismatch, or missing content",
       "searchTags": "mcas;integration;alerts",
       "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
@@ -240,8 +241,8 @@
     {
       "id": "d2a16891-95ca-40ad-01bd-e4ad0a983a5f",
       "longDescription": "",
-      "shortDescription": "Questions on network utilization by the sensor service.",
-      "searchTags": "network;excessive",
+      "shortDescription": "Sensor service generating a high number of outbound network connections. For high resources (Cpu or Memory) please see the performance section.",
+      "searchTags": "network;excessive;Sensor",
       "category": "Sensor Issues",
       "useInDiagnoseAndSolve": "true"
     },

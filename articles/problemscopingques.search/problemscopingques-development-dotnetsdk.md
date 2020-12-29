@@ -42,7 +42,7 @@
             "required": true
         },
         {
-            "id": "indexing_error_message",
+            "id": "error_message",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
