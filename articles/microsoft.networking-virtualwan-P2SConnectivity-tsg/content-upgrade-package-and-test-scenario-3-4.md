@@ -21,13 +21,13 @@ The P2S client can connect to the correct HUB, but is unable to reach its destin
 
 If not done already, please ask customer to install a fresh version of the User VPN Client configuration for any new test.
 
-In vWAN, you could have different P2S HUBs with same user configuration applied, and the concept of ?Virtual WAN User VPN profile? vs. ?Virtual HUB User VPN profile? has been introduced.
+In vWAN, you could have different P2S HUBs with same user configuration applied, and the concept of *"Virtual WAN User VPN profile"* vs. "*Virtual HUB User VPN profile"* has been introduced.
 
-?Virtual WAN User VPN profile? = A client profile which will make sure client can connect to the closest P2S HUB of the vWAN, in case of multiple HUBs configured for P2S.
-This can be downloaded from portal, in the ?User VPN Configurations? section, by selecting the desired User VPN Configuration and clicking the ?Download Virtual WAN User Profile? button.
+*"Virtual WAN User VPN profile"* = A client profile which will make sure client can connect to the closest P2S HUB of the vWAN, in case of multiple HUBs configured for P2S.
+This can be downloaded from portal, in the *User VPN Configurations* section, by selecting the desired User VPN Configuration and clicking the *Download Virtual WAN User Profile* button.
 
-?Virtual HUB User VPN profile? = A client profile which will allow client to connect to a single specific HUB within the vWAN
-This can be downloaded from portal, accessing the section of the desired virtual HUB, then clicking ?User VPN (Point to site)?, and finally clicking the ?Download Virtual HUB User Profile? button.
+*"Virtual HUB User VPN profile"* = A client profile which will allow client to connect to a single specific HUB within the vWAN
+This can be downloaded from portal, accessing the section of the desired virtual HUB, then clicking *User VPN (Point to site)*, and finally clicking the *Download Virtual HUB User Profile* button.
 
 Ask customer to install basing on the desired connection topology they want to reach.
 
