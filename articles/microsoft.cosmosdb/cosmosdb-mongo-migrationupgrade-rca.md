@@ -12,35 +12,37 @@
     supportTopicIds="32636757"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Upgrade to MongoDB API engine version 3.6
 
-## To take advantage of the latest version of Azure Cosmos DB's API for MongoDBYour database account, you need to migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account .
+## Advantages of upgrading to MongoDB API engine V 3.6.
+
+To take advantage of the latest version of the Azure Cosmos DB API for your MongoDB database account, you must migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account.
 
 <!--issueDescription-->
 
-Upgrading to the latest version of the service will provide the most up-to-date functionality and the latest fixes, as well as enhancements in performance and stability.
+Version 3.6 of the service provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
 
 <!--/issueDescription-->
 
-You'll need to migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. You can use tools like Azure Data Factory or Studio 3T to assist you in migrating your data.
+When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
 
-1. Following are the benefits of upgrading to version 3.6:
+1. Benefits of upgrading to version 3.6 include:
 
    - Enhanced performance and stability
    - Support for new database commands
    - Support for aggregation pipeline by default and new aggregation stages
    - Support for ChangeStream
    - Support for Compound Indexes
-   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER B`Y
+   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
    - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Following are the changes from previous engine versions: 
+2. Changes from previous engine versions include:
 
-   - MongoDB collections have only the `_id property indexed by default`
+   - MongoDB collections have only the `_id` property indexed by default
    - Per request, timeout is 60 seconds
 
 ## **Recommended Documents**
