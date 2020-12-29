@@ -15,7 +15,7 @@
 	  ownershipId="Cloudnet_VirtualWAN"
 />
 
-# FQDNs don?t match with ASC
+# FQDNs don't match with ASC
 
 The GW FQDN retrieved from a freshly downloaded package is not matching with any of the FQDNs of the Azure Traffic Manager profiles (Virtual WAN / Virtual HUB) found in ASC.
 
