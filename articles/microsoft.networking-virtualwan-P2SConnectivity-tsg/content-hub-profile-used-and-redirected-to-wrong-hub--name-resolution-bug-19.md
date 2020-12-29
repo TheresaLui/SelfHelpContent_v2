@@ -17,9 +17,9 @@
 
 # HUB profile used and redirected to wrong HUB, Name resolution bug
 
-Name resolution of the FQDN of a User VPN Profile of type ?Virtual HUB? (i.e. ?hubx.xxxxxx.vpn.azure.com? ) cannot return IP of another HUB.
+Name resolution of the FQDN of a User VPN Profile of type *Virtual HUB* (i.e. *hubx.xxxxxx.vpn.azure.com* ) cannot return IP of another HUB.
 
-If you validated that this FQDN effectively matches with the relevant HUB-level ATM profile?s FQDN, this has to be a bug.
+If you validated that this FQDN effectively matches with the relevant HUB-level ATM profile's FQDN, this has to be a bug.
 
 Please escalate to TA accordingly.
 
