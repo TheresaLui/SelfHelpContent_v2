@@ -5,7 +5,7 @@
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_authentication"
-	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499"
+	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32731237"
 	productPesIds="15629,16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Authentication Issues Troubleshooter",
-        "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
+        "description": "If you are reporting about an issue please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
     },
     "formElements": [
@@ -114,7 +114,7 @@
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
-	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC",
 	    "validations": [
