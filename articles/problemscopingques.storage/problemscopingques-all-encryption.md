@@ -16,7 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Authentication issue on account management,blob,table,queues,adlsgen2 scoping question",
+    "title": Encryption issue on account management,blob,table,queues,adlsgen2 scoping question",
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Encryption Issue Troubleshooter",
