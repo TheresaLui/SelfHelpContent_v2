@@ -72,11 +72,11 @@
     "title": "Count of Exceeding CPU Limit"
     },
     {"name": "DeltaMinCountFromPrevious",
-    "title": "In the last N minutes"
+    "title": "Timespan"
     }
   ],
   "tip": "Properly scale your Application Gateway",
   "costSavingInfo": "",
-  "testData": "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgHotAppGW/providers/Microsoft.Network/applicationGateways/v2_testhot, \"{\"\"DeltaHitCountFromPrevious\"\" : \"\"8\"\", \"\"DeltaMinCountFromPrevious\"\" : \"\"4\"\"}\""
+  "testData": "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgHotAppGW/providers/Microsoft.Network/applicationGateways/v2_testhot, \"{\"\"DeltaHitCountFromPrevious\"\" : \"\"8\"\", \"\"DeltaMinCountFromPrevious\"\" : \"\"Last 4 minutes\"\"}\""
 }
 ---
