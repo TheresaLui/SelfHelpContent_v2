@@ -12,7 +12,7 @@
   ownershipid="CloudAppSecurity_DataProtection" />
 # I need help investigating files
 
-Most users are able to file investigation questions using the information below.
+Most users are able to resolve file investigation questions using the information below.
 
 ## **Recommended Steps**
 
@@ -24,6 +24,9 @@ Most users are able to file investigation questions using the information below.
    
 * **You can't export more than 5000 results in the Microsoft Cloud App Security portal**<br>
    The portal is limited to 5000 results. To bypass this limit, use the [Cloud App Security REST API](https://docs.microsoft.com/cloud-app-security/api-alerts-list).
+   
+* **You can't govern a file more than once per policy**<br>
+Only the governance action of the first triggered policy is guaranteed to be applied. For example, if a file policy has already applied an Azure Information Protection (AIP) label to a file, a second file policy cannot apply another AIP label to it.
 
 ## **Recommended Documents**
 
