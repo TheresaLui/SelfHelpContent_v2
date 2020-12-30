@@ -164,7 +164,7 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC",
-            "watermarkText": ".Provide issue description \n .Paste the exception message and error stack here"
+            "watermarkText": "Provide issue description \n OR \nPaste the exception message and error stack here"
         },
         {
             "id": "learn_more_text",
