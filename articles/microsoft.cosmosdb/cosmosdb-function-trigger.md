@@ -73,9 +73,6 @@ This error means that you are currently using a partitioned lease container with
 ### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease container to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
-## **Using the Azure Cosmos DB SDK in Azure Functions**
-<br>This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
-
 ### **Functions Host restart**  
 [Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
 <br>If the Host is restarting it could be related to a violation of one of these limits.
