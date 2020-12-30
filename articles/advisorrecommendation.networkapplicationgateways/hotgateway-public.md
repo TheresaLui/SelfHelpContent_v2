@@ -68,7 +68,6 @@
   "additionalColumns": [],
   "tip": "Properly scale your Application Gateway",
   "costSavingInfo": "",
-  "testData":
-    "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgHotAppGW/providers/Microsoft.Network/applicationGateways/v2_testhot"
+  "testData": "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgHotAppGW/providers/Microsoft.Network/applicationGateways/v2_testhot"
 }
 ---
