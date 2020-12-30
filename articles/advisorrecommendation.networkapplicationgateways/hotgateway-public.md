@@ -72,7 +72,7 @@
     "title": "Count of Exceeding CPU Limit"
     },
     {"name": "DeltaMinCountFromPrevious",
-    "title": "Time Window"
+    "title": "In the last N minutes"
     }
   ],
   "tip": "Properly scale your Application Gateway",
