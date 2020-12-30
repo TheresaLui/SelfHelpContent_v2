@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Throttling Troubleshooter",
-        "description": "For \"Throttling\" issues, help us by providing your input. We can diagnose your problem in less than a minute and suggest the recourse without the need of opening a support ticket.",
+        "description": "For \"Throttling\" issues, help us by providing your input. We will diagnose your problem in less than a minute and suggest the recourse without the need of opening a support ticket.", 
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below, ensuring that the format is as suggested in the watermark and rerun the diagnostics."
     },
     "formElements": [
