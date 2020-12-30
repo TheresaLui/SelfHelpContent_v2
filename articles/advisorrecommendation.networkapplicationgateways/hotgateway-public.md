@@ -42,10 +42,10 @@
   "actions": [
     {
       "actionId": "9f4bbd2d-c3cf-4c9b-8e15-e6ae661ea291",
-      "description": "Blade",
-      "actionType": "HubsExtension",
-      "extensionName": "ResourceMenuBlade",
-      "bladeName": "",
+      "description": "Inspect the Application Gateway configuration",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id":"{resourceId}",
         "menuid": "Configuration"
