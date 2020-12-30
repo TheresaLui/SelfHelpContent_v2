@@ -73,8 +73,8 @@ This error means that you are currently using a partitioned lease container with
 ### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease container to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
-### **Using the Azure Cosmos DB SDK in Azure Functions**
-This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
+## **Using the Azure Cosmos DB SDK in Azure Functions**
+<br>This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
 
 ### **Functions Host restart**  
 [Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
@@ -85,11 +85,11 @@ This section refers to using the Cosmos DB SDK to perform operations in the cont
 
 ### **401 - UnauthorizedException**
 This error is often related to using an invalid authorization key or credential. 
-1. Verify that the Key being used is valid. If you are reading the Key or Connection String from an external source, like Azure Key Vault, verify the information there is up to date.
+1. Verify that the Key being used is valid. If you are reading the Key or Connection String from an external source, like Azure Key Vault, verify the information there is up-to-date.
 1. If there was a recent key rotation on the account, ensure you went with the [recommended procedure](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). When using any old or new key there is a window of time where the key might not be valid.
 
 ### **Other issues**
-For any other issues, see the **SDK (SQL API) Issues - Error or unexpected result** problem type. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
+For any other issues, see the **SDK (SQL API) Issues - Error or unexpected result** problem type. Azure Functions is mainly the execution environment. The issue might be a generic SDK issue, which is covered in the general troubleshooting.
 
 ## **Recommended Documents**
 
@@ -112,4 +112,4 @@ For any other issues, see the **SDK (SQL API) Issues - Error or unexpected resul
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the .NET SDK with Azure Cosmos DB SQL API accounts.  
 
 [FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
-<br>Frequently asked questions about Cosmos DB SQL API.  
+<br>Frequently asked questions about Cosmos DB SQL API
