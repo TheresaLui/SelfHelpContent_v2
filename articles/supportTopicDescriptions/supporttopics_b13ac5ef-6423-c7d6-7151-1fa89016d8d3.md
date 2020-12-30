@@ -30,6 +30,12 @@
       "searchTags": "Pre-sales;Licensing;License;SKU",
     },
     {
+      "id": "7aa01557-a00a-1845-57d1-5616d12c6fdc",
+      "longDescription": "",
+      "shortDescription": "Linking of partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
+    },
+    {
       "id": "1f8d2ab4-8109-4771-94da-fefd36173e92",
       "longDescription": "",
       "shortDescription": "Questions about enrolling in the Marketplace Rewards benefit",
