@@ -44,11 +44,10 @@
       "actionId": "9f4bbd2d-c3cf-4c9b-8e15-e6ae661ea291",
       "description": "Inspect the Application Gateway configuration",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_Network",
+      "bladeName": "ApplicationGatewayConfigurationBlade",
       "metadata": {
-        "id":"{resourceId}",
-        "menuid": "Configuration"
+        "id":"{resourceId}"
       },
       "documentLink": ""
     }
