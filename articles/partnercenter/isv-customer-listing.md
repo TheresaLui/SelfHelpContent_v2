@@ -23,8 +23,8 @@
 ## **Recommended Steps**
  
 - There are two pre-requisites for a partner to access the customer list: 
-  - they have to be enrolled as Direct CSP, Indirect provider, or Indirect reseller
-  - they need to have a role that allows them to add customers
+  <ul type="circle"><li>they have to be enrolled as Direct CSP, Indirect provider, or Indirect reseller</li>
+  <li>they need to have a role that allows them to add customers</li></ul>
 - Learn more about configuring user roles and permissions [here](https://docs.microsoft.com/partner-center/permissions-overview)
 - To correct the customer details (name, domain name, bill-to info etc) that appear in the customer list refer to [Updating customer details](https://docs.microsoft.com/partner-center/sell-to-education-customers#correct-the-customer-account-information).
  
