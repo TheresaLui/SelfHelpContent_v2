@@ -17,13 +17,14 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://AzureCXPCRE.kusto.windows.net').database('CXPCREMaint').FindHotAppGWs",
     "dataSource": "Kusto",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "00.01:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/applicationGateways",
   "recommendationFriendlyName": "HotAppGateway",
-  "recommendationMetadataState": "",
+  "recommendationMetadataState": "Active",
+  "owner": {
     "email": "appgwpm@microsoft.com",
     "icm": {
       "routingId": "adrocs://Recovery/AppGWT",
