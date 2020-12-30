@@ -23,11 +23,11 @@ This article covers the most common issues with Azure Cosmos DB database trigger
 ## **Recommended Steps**
 
 ### **Database triggers**<br>
-Registered triggers must be explicitly called when a corresponding operation (create / delete / replace / update) happens. Registered triggers do not run automatically.  
+Registered triggers must be explicitly called when a corresponding operation (e.g., create, delete, replace, update) happens. Registered triggers do not run automatically.  
 
 Azure Cosmos DB supports two types of triggers:
 * [Pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)
-<br>Azure Cosmos DB provides triggers that you can invoke by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you create an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have input parameters. If necessary, use the request object to update the document body from the original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with `TriggerOperation.Create`, this means using the trigger in a replace operation will not be permitted. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers).
+<br>Azure Cosmos DB provides triggers that you can invoke by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you create an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have input parameters. If necessary, use the request object to update the document body from the original request. When triggers are registered, users can specify the operations it runs with. If a trigger was created with `TriggerOperation.Create`, this means using the trigger in a replace operation will not be permitted. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers).
 
 * [Post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)
 <br>Similar to pre-triggers, post-triggers are also associated with an operation on an Azure Cosmos item and do not permit input parameters. Post-triggers run after the operation is completed, and they have access to the response message sent to the client. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
