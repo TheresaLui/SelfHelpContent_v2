@@ -2,7 +2,7 @@
     pageTitle="Review application gateways that are running hot to see if they need to be scaled more"
     description="Review application gateways that are running hot to see if they need to be scaled more"
     ms.author="evanba"
-    articleId="2ee9f31e-df58-4893-b3e7-66c0cd74183a"
+    articleId="2ee9f31e-df58-4893-b3e7-66c0cd74183a_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="CloudNet_AzureApplicationGateway"
@@ -13,7 +13,7 @@
   "recommendationOfferingId": "dd4296e3-3037-49b2-a443-1f17d54a0720",
   "recommendationOfferingName": "Hot Application Gateway",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "2ee9f31e-df58-4893-b3e7-66c0cd74183a_Public",
+  "recommendationTypeId": "2ee9f31e-df58-4893-b3e7-66c0cd74183a",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://AzureCXPCRE.kusto.windows.net').database('CXPCREMaint').FindHotAppGWs",
     "dataSource": "Kusto",
