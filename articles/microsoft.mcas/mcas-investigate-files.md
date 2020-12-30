@@ -19,7 +19,7 @@ Most users are able to resolve file investigation questions using the informatio
 *  **You can't see Amazon Web Services (AWS) files** <br>
    This is expected behavior. Only AWS bucket-level permissions are supported, and Cloud App Security doesn't have visibility into files contained in the buckets.
    
-* **You cant see Office 365 files (including SharePoint Online and OneDrive)** <br>
+* **You can't see Office 365 files (including SharePoint Online and OneDrive)** <br>
    In Cloud App Security, in the **Office 365 connector** settings, verify that you have enabled **Office 365 files** and **Office 365 activities** as described on [How to connect Office 365 to Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security#how-to-connect-office-365-to-cloud-app-security).
    
 * **You can't export more than 5000 results in the Microsoft Cloud App Security portal**<br>
