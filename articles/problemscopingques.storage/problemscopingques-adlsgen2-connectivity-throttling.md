@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Throttling Troubleshooter",
-        "description": "For \"Throttling\" issues please help us with a few inputs and we can help diagnose your problem under a minute to suggest the recourse without the need of opening a support ticket.",
+        "description": "For \"Throttling\" issues, help us by providing your input. We can diagnose your problem in less than a minute and suggest the recourse without the need of opening a support ticket.",
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below, ensuring that the format is as suggested in the watermark and rerun the diagnostics."
     },
     "formElements": [
@@ -111,7 +111,7 @@
             "id": "adlsgen2_connectivity_throttling_request_id",
              "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
+            "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
 	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
             "required": false,
@@ -128,7 +128,7 @@
             "id": "blob_container",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Blob Container",
+            "displayLabel": "Blob container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
