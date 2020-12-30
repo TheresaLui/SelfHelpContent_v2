@@ -20,8 +20,8 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Connection Drop & Request Failure Issues Troubleshooter",
-        "description": "For \"Connection\" and \"Request Failure\" issues, answer the following questions and give us a few minutes to run automated diagnostics. We can diagnose and suggest resolution to your issue without opening a support ticket.",
-        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. Confirm that the answers provided are accurate and they align to the input format suggested in the respective fields."
+        "description": "For \"Connection\" and \"Request Failure\" issues, answer the following questions and give us a few minutes to run automated diagnostics. Using the diagnostics, we’ll provide a self-help solution for you.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. Confirm that the answers provided are accurate and that they align with the input format suggested by watermark in the respective fields."
     },
     "formElements": [
         {
