@@ -59,7 +59,8 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id":"{resourceId}"
+        "id":"{resourceId}",
+        "menuid": "configuration"
       },
       "documentLink": ""
     }
