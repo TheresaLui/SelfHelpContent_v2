@@ -17,38 +17,41 @@
 />
 
 # Azure Functions with Cosmos DB and database triggers
-This article covers the most common issues with Azure Cosmos DB database triggers and using Azure Functions.
+
+This article covers the most common issues with Azure Cosmos DB database triggers and Azure Functions.
 
 ## **Recommended Steps**
 
-### **Database Triggers**
-*Note:*  Registered triggers do not run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.  
+### **Database triggers**<br>
+Registered triggers must be explicitly called when a corresponding operation (create / delete / replace / update) happens. Registered triggers do not run automatically.  
 
 Azure Cosmos DB supports two types of triggers:
 * [Pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)
-<br>Azure Cosmos DB provides triggers that can be invoked by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you are creating an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have any input parameters. If necessary, the request object can be used to update the document body from original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with `TriggerOperation.Create`, this means using the trigger in a replace operation will not be permitted. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers).
+<br>Azure Cosmos DB provides triggers that you can invoke by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you create an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have input parameters. If necessary, use the request object to update the document body from the original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with `TriggerOperation.Create`, this means using the trigger in a replace operation will not be permitted. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers).
 
 * [Post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)
-<br>Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they do not require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
+<br>Similar to pre-triggers, post-triggers are also associated with an operation on an Azure Cosmos item and do not permit input parameters. Post-triggers run after the operation is completed, and they have access to the response message sent to the client. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
 
-### **Azure Functions trigger for Cosmos DB**
-This section is relative to using the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
+### **Azure Functions trigger for Cosmos DB** 
+<br>This section applies to the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
 
-**Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies)  
+**Important:** Always make sure that you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies)  
 
-### **Function not receiving any or partial set of changes**  
+### **Function not receiving any, or only a partial set of, changes**  
 
 **Availability**
-<br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the *Core (SQL) API*, that means that Mongo, Cassandra, and Table accounts are not yet supported. If you are using any of these other APIs, the trigger is not expected to work.
+<br>The Azure Functions trigger for Cosmos DB currently reads the **Change Feed** through the Core (SQL) API. Mongo, Cassandra, and Table accounts are not yet supported. If you use any of these APIs, the trigger is not expected to work.
 
 **Connectivity**
-<br>Verify that your Azure Cosmos account's [Firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)) is allowed.  
+<br>Verify that your Azure Cosmos account [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)) is allowed.  
+
+<br>Verify that Azure datacenters are enabled in the [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) for your Azure Cosmos account. Alternatively, if you are working with an [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)make sure that you use a permitted Virtual Network in association with your Function App. 
 
 **Partition key configuration**
-<br>If your Azure Functions trigger is copying documents over to another Cosmos DB container with Upsert operations, make sure the Partition Key definition of the Monitored container is the same as the Partition Key definition of the destination container. If these don't match, it is possible that multiple documents from the Monitored container are being saved as a single one in the destination.
+<br>If your Azure Functions trigger is copying documents over to another Cosmos DB container with **Upsert** operations, make sure that the **Partition Key** definitions of both the monitored container and destination container are the same. If these don't match, multiple documents from the monitored container may be saved as a single document in the destination.
 
 **Error handling**
-<br>The Azure Functions trigger for Cosmos DB, by default, *won't retry* a batch of changes if there was an unhandled exception during your code execution. This means that, if not handled correctly, when a batch of changes is received by your Function, execution can be stopping and inherently losing part of the batch. Make sure your Function's code has try/catch blocks, especially within any loop, to make sure that any failure in processing one document, does not exit the loop.  
+<br>The Azure Functions trigger for Cosmos DB, by default, won't retry a batch of changes if an unhandled exception occurs during your code execution. This means, when your Function receives a batch of changes, execution can stop and lose part of the batch if not handled correctly. Include try/catch blocks in your Function's code, especially within any loop. This ensures that any failure in processing one document does not exit the loop. 
 
 **Multiplicity**
 <br>The most common scenario, once connectivity and availability problems have been ruled out, is having multiple Azure Functions listening to the *same Monitored container* and using the *same Lease container*. When two or more Triggers share the same monitored and lease container, the locking and load balancing algorithm will probably let one of them own the leases, while leaving the other Function out. This is expected, as these configurations should not be duplicated in multiple Triggers.
