@@ -42,7 +42,7 @@ This section is relative to using the [Azure Functions trigger for Cosmos DB](ht
 <br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the *Core (SQL) API*, that means that Mongo, Cassandra, and Table accounts are not yet supported. If you are using any of these other APIs, the trigger is not expected to work.
 
 **Connectivity**
-<br>Verify that your Azure Cosmos account's [Firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)), whitelisted.  
+<br>Verify that your Azure Cosmos account's [Firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)) is allowed.  
 
 **Partition key configuration**
 <br>If your Azure Functions trigger is copying documents over to another Cosmos DB container with Upsert operations, make sure the Partition Key definition of the Monitored container is the same as the Partition Key definition of the destination container. If these don't match, it is possible that multiple documents from the Monitored container are being saved as a single one in the destination.
