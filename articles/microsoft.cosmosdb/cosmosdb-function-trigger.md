@@ -67,7 +67,7 @@ The rate at which the changes are delivered to your Function depends greatly on 
 4. You can use the `PreferredLocations` attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order, in cases where your Azure Cosmos DB account has multiple regions.
 5. Measure and [monitor the Function execution time](https://docs.microsoft.com/azure/azure-functions/functions-monitoring). To maintain the order of the events, the Azure Functions trigger can only send new changes to be processed after you are done processing the current batch of changes. If your Function execution is taking several seconds,  follow the [Azure Functions Best Practices](https://docs.microsoft.com/azure/azure-functions/functions-best-practices) and optimize the Function.
 
-### **PartitionKey must be supplied for this operation***
+### **PartitionKey must be supplied for this operation**
 This error means that you are currently using a partitioned lease container with an old extension dependency. To solve this issue, update to the latest [extension dependency version](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). If you are running on Azure Functions V1 (using the `Microsoft.Azure.WebJobs.Extensions.DocumentDB` package), you need to migrate to Azure Functions V2 or greater and use `Microsoft.Azure.WebJobs.Extensions.CosmosDB`.
 
 ### **What happens on a Function restart?**
