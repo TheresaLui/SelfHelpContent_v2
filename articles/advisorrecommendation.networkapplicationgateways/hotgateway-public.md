@@ -37,7 +37,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/hotappgw",
   "description": "Make sure you have enough instances in your Application Gateway to support your traffic",
-  "longDescription": "When under high load, Application Gateways can drop traffic. In order to prevent that, make sure you have enough instances to sufficiently spread the traffic out across the instances. For v1 (Standard/WAF), you need to specify a high enough instance count. For v2 (Standard_v2/WAF_v2), you need to enable autoscaling and appropriate minimum and maximum instance counts",
+  "longDescription": "Your Application Gateway has been running on high utilization recently and under heavy load, you may experience traffic loss or increase in latency. It is important that you scale your Application Gateway according to your traffic and with a bit of a buffer so that you are prepared for any traffic surges or spikes and minimizing the impact that it may have in your QoS. Application Gateway v1 SKU (Standard/WAF) supports manual scaling and v2 SKU (Standard_v2/WAF_v2) support manual and autoscaling. In case of manual scaling, increase your instance count and if autoscaling is enabled, make sure your maximum instance count is set to a higher value so Application Gateway can scale out as the traffic increases",
   "potentialBenefits": "Ensure availability of your sites",
   "actions": [
     {
