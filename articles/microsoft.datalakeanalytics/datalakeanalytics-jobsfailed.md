@@ -24,7 +24,7 @@ Most customers can resolve failed U-SQL jobs using the steps in this article.
 * Improvements to the U-SQL compiler and optimizer that cause existing optimizer hints to be outdated
 * Outages in the region where the job is running
 
-**Note:** U-SQL jobs that fail with error type "SYSTEM" are not charged.
+   **Note:** U-SQL jobs that fail with error type "SYSTEM" are not charged.
 
 ## **Recommended Steps**
 
