@@ -16,7 +16,7 @@ Most customers can resolve failed U-SQL jobs using the steps in this article.
 
 ## **What causes a U-SQL job to fail?**
 
-Common reasons for failed U-SQL jobs include:<br>
+Common reasons include:<br>
 * Transient outages of the services that ADLA depends on (such as DNS, networking, ADLS) 
 * Changes to the ACLs of the ADLS files consumed in the job
 * Changing data size that causes data skew or storage throttling
