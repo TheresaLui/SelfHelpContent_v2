@@ -12,23 +12,26 @@
   ownershipid="AzureData_AzureDataLakeAnalytics" />
 # U-SQL jobs failing
 
-U-SQL jobs can fail for a number of reasons.  Common reasons include:
+Most customers can resolve failed U-SQL jobs using the steps in this article.
 
-* Transient outages of the services such as DNS, networking, ADLS that ADLA depends on
+## **What causes a U-SQL job to fail?**
+
+Common reasons for failed U-SQL jobs include:<br>
+* Transient outages of the services that ADLA depends on (such as DNS, networking, ADLS) 
 * Changes to the ACLs of the ADLS files consumed in the job
 * Changing data size that causes data skew or storage throttling
 * Changing data-distribution across partitions that causes errors or unoptimized execution of U-SQL jobs
 * Too many table INSERTS without periodic ALTER TABLE REBUILD. [Alter table](https://docs.microsoft.com/u-sql/ddl/tables/alter-table) can lead to job degradation and failure
 * Outputting huge amount of data to a single file
-* Improvements to the U-SQL compiler and optimizer that can cause existing optimizer hints to become outdated
-* There are outages in the region where this job is running on.
+* Improvements to the U-SQL compiler and optimizer that cause existing optimizer hints to be outdated
+* Outages in the region where the job is running
 
 **Note:** U-SQL jobs that fail with error type "SYSTEM" are not charged.
 
 ## **Recommended Steps**
 
-1. Check if there are outages in the region where this job is running on the [Azure status page](https://status.azure.com/status)<br>
-2. Find the error that caused the job to fail by using the Job Browser in Visual Studio, or the Job management tab for the ADLA account in the Azure portal<br>
+1. Check the [Azure status page](https://status.azure.com/status) if outages have occurred in the region where this job is running<br>
+2. Find the error that caused the job to fail by using the **Job Browser** in Visual Studio, or the **Job management** tab for the ADLA account in the Azure portal<br>
 
 ## **Recommended Documents**
 
