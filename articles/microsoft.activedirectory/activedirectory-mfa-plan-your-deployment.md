@@ -41,5 +41,4 @@ You can quickly find out what happened or diagnose problems related to user sign
 ### **Recommended Videos**
 
 * [How to deploy conditional access](https://www.youtube.com/watch?v=c_izIRNJNuk)
-* [How to set up authenticator on a new phone](https://www.youtube.com/watch?v=jTwtosQkn6I)
-* [Windows Hello for Business Provisioning](https://www.youtube.com/watch?v=RImGsIjSJ1s)
+* [How to configure and enforce multi-factor authentication in your tenant](https://www.youtube.com/watch?v=qNndxl7gqVM)
