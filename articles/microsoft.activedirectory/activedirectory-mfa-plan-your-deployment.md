@@ -29,9 +29,9 @@ You can quickly find out what happened or diagnose problems related to user sign
    
 ## **Recommended Documents**
 
-* Planning your MFA deployment? See [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted).
-* Deploying MFA using a Conditional Access policy? Learn [How to Create a Conditional Access Policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#create-conditional-access-policy).
-* Deploying and using the NPS extension? Learn [How to Register users for MFA using NPS Extension](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension#register-users-for-mfa)
+* Planning your MFA deployment? See [Planning a cloud-based Azure multi-factor authentication deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted).
+* Deploying MFA using a Conditional Access policy? Learn [How to create a conditional access policy](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#create-conditional-access-policy).
+* Deploying and using the NPS extension? Learn [How to register users for MFA using NPS Extension](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-nps-extension#register-users-for-mfa)
 
 ### **Recommended Videos**
 
