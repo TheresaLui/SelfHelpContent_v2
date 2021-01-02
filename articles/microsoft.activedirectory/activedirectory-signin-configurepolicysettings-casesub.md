@@ -43,7 +43,9 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 * [Best Practices](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 	
 **Common Conditional Access Policies**
+* Watch this short video for [How to configure and enforce multi-factor authentication in your tenant](https://www.youtube.com/watch?v=qNndxl7gqVM)
 * [Require MFA for Administrators](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 * [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
 * [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 * [Require Compliant Devices](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
+
