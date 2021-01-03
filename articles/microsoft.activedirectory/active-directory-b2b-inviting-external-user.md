@@ -17,6 +17,11 @@
 
 # Problem inviting an external user
 
+**Announcement** 
+* [Deprecation of WebView sign-in support from Google starting January 4, 2021](https://docs.microsoft.com/azure/active-directory/external-identities/google-federation#deprecation-of-webview-sign-in-support). Test whether your apps may be affected by following [Google’s guidance](https://developers.googleblog.com/2020/08/guidance-for-our-effort-to-block-less-secure-browser-and-apps.html) on testing compatibility
+* Ensure to use system webview or system browser when signing in your users with consumer Google accounts
+
+
 ## **Recommended Steps**
 
 * Make sure to send a user's invitation to the email address that matches the name the user signs in with. If you send the invitation to a user's proxy email address, the user cannot redeem it.
