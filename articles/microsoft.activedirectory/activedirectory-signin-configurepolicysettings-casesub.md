@@ -17,12 +17,12 @@
 
 # Configuring new or existing policy settings for Azure Active Directory Services
 
-### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+Resolve issues with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
-You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
+You can quickly diagnose issues related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
  
 1. Launch the Sign-in Diagnostic.
-2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request ID, or correlation ID.
 3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
    
 ## **Recommended Steps**
@@ -34,7 +34,6 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 1. [Configure policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
 2. Test policy using the [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if) and the [Report-Only Mode](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only)	
 3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
-
 
 ## **Recommended Documents**
 
