@@ -39,7 +39,7 @@ If you cannot see any discovered data or completed parsed tasks in the governanc
 
 - In Zscaler, verify that the NSS server allows the following [domains](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector)
 
-**NOTE**: Zscaler integration supports connecting only one NSS server to Cloud App Security. In order to connect more, please open a ticket with Zscaler support.
+**NOTE**: Zscaler integration supports, by default, connecting one NSS server to Cloud App Security. In order to connect more, please open a ticket with Zscaler support.
 
 **For iboss integration issues**
 
