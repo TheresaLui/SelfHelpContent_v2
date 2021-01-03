@@ -16,6 +16,10 @@
 
 # Problem leaving a directory
 
+**Announcement** 
+* [Deprecation of WebView sign-in support from Google starting January 4, 2021](https://docs.microsoft.com/azure/active-directory/external-identities/google-federation#deprecation-of-webview-sign-in-support). Test whether your apps may be affected by following [Google’s guidance](https://developers.googleblog.com/2020/08/guidance-for-our-effort-to-block-less-secure-browser-and-apps.html) on testing compatibility
+* Ensure to use system webview or system browser when signing in your users with consumer Google accounts
+
 ## **Recommended steps**
 
 * If you want to remove yourself from a directory you've been invited to, you can do so from the Access Panel. [Instructions to remove yourself](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
