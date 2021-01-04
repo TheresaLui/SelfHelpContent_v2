@@ -21,7 +21,7 @@ Most users can resolve issues with running notebooks on compute instance by usin
 - Review the [list of tools and packages installed on compute instance](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance#contents)
 
 - If the compute instance is created behind VNet, make sure that you have an NSG rule that allows compute instance inbound TCP traffic on **port 44224** from a **Service Tag** of AzureMachineLearning. 
-   * If you are behind a proxy, make sure that web socket communication is not disabled for azureml.net and azureml.ms domains. <br>
+   * If you are behind a proxy, make sure that web socket communication is not disabled for **azureml.net** and **azureml.ms domains**. <br>
    * If workspace storage account is attached to a virtual network, make sure that the compute instance is deployed to same virtual network/subnet
    * If you use a custom DNS, check your settings. See [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
 
@@ -30,7 +30,7 @@ Most users can resolve issues with running notebooks on compute instance by usin
      * If workspace storage uses a private link, you must set up a private endpoint to Azure file share. [Learn more](https://docs.microsoft.com/azure/machine-learning/how-to-custom-dns?tabs=azure-portal).
      
 - Configure firewalls and user-defined routes according to [these instructions](https://docs.microsoft.com/azure/machine-learning/how-to-access-azureml-behind-firewall)
-- Restarting the compute instance and then re-run the notebook
+- Restart the compute instance and then re-run the notebook
 - If the notebook is running slowly, check the CPU/GPU usage on the compute instance
 - If you are trying to download files on the compute instance, use a single TCP session to download all the files
 - For package management within a notebook, use `%pip` or `%conda` magic functions to automatically install packages into the currently-running kernel, rather than `!pip` or `!conda`
