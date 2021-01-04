@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 ### If you're experiencing quota issues:
-1. A quota is a limit that is enforced by Azure to prevent fraudulent subscriptions from using Azure capacity, and to control capacity overruns in a particular region. If you are creating a training cluster or a compute instance, they share the same quota and it is internal to the Azure Machine Learning compute. Check if you have enough quota by going to the **Quotas + Usages** section in your workspace for the region that you're experiencing this issue in.
+1. A quota is a limit that is enforced by Azure to prevent fraudulent subscriptions from using Azure capacity, and to control capacity overruns in a particular region. If you are creating a training cluster or a compute instance, they share the same quota, and the quota is internal to the Azure Machine Learning compute. Check if you have enough quota by going to the **Quotas + Usages** section in your workspace for the region that you're experiencing this issue in.
 2. It's also possible that your subscription owner has applied quota limits at your workspace level to better distribute capacity across various workspaces in your subscription. You may need to contact them to request an increase in the quota.
 3. If you have sufficient quota, it's possible that another cluster or instance in your workspace is using the quota. Because quota is at a VM series level, and clusters or instances are specific to a VMSize, it's possible that another cluster/instance is sharing and using quota.
 
@@ -37,8 +37,7 @@
 12. For creating a compute instance the following RBAC permissions are needed:-
 * *Microsoft.MachineLearningServices/workspaces/computes/write*
 * *Microsoft.MachineLearningServices/workspaces/checkComputeNameAvailability/action*
-13. Please note compute instance is a managed, hosted on behalf of offering in which underlying resources will no be deployed in customer Azure subscription. Only network security group, public IP address, and load balancer are deployed in customer subscription. If you have a policy blocking public IP then compute instance deployment will fail. We have a no public IP compute instance feature in private preview.
-
+13. **Important:** Compute instance is a managed, hosted on behalf of offering in which underlying resources will no be deployed in customer Azure subscription. Only network security group, public IP address, and load balancer are deployed in customer subscription. If you have a policy blocking public IP, then compute instance deployment will fail. We have a no public IP compute instance feature in private preview.
 
 ## **Recommended Documents**
 
