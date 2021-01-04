@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="mcas-discovery-integration"
   ownershipid="CloudAppSecurity_Discovery" />
-# I'm having issues around Discovery integrations (Zscaler, iboss, Corrata)
+# Issues with Discovery integrations (Zscaler, iboss, Corrata)
 
 Most users are able to resolve discovery integration issues using the following steps.
 
@@ -37,7 +37,7 @@ Refer to the section that best describes your issue.
 
 1. If the governance log contains no discovered data or completed parsed tasks, in Zscaler, verify that the NSS server allows the following [domains](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector)
 
-**NOTE**: By default, Zscaler integration supports connecting one NSS server to Cloud App Security. To connect additional NSS servers, open a ticket with Zscaler support.
+   **NOTE**: By default, Zscaler integration supports connecting one NSS server to Cloud App Security. To connect additional NSS servers, open a ticket with Zscaler support.
 <br>
 
 ### **iboss integration issues**
