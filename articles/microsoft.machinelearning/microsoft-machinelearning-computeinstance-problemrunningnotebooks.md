@@ -20,9 +20,9 @@ Most users can resolve issues with running notebooks on compute instance by usin
 
 - Review the [list of tools and packages installed on compute instance](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance#contents)
 
-- If the compute instance is created behind VNet, make sure that you have an NSG rule that allows compute instance inbound TCP traffic on port 44224 from a Service Tag of AzureMachineLearning. 
+- If the compute instance is created behind VNet, make sure that you have an NSG rule that allows compute instance inbound TCP traffic on **port 44224** from a **Service Tag** of AzureMachineLearning. 
    * If you are behind a proxy, make sure that web socket communication is not disabled for azureml.net and azureml.ms domains. <br>
-   * If workspace storage account is attached to a virtual network please ensure compute instance is also deployed to same virtual network/subnet. 
+   * If workspace storage account is attached to a virtual network, make sure that the compute instance is deployed to same virtual network/subnet
    * If you use a custom DNS, check your settings. See [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
 
 - If you created a compute instance in a private link workspace, ensure that you're accessing the compute instance from within the virtual network. <br>
@@ -34,7 +34,7 @@ Most users can resolve issues with running notebooks on compute instance by usin
 - If the notebook is running slowly, check the CPU/GPU usage on the compute instance
 - If you are trying to download files on the compute instance, use a single TCP session to download all the files
 - For package management within a notebook, use `%pip` or `%conda` magic functions to automatically install packages into the currently-running kernel, rather than `!pip` or `!conda`
-- If you are trying to pip install `pytesseract`, you need to perform "sudo apt install tesseract-ocr"
+- If you are trying to pip install `pytesseract`, you need to perform `sudo apt install tesseract-ocr`
 - Do not delete the `azureml_py36` conda environment or Python 3.6 - AzureML kernel. These are required for Jupyter/JupyterLab functionality.
 - If you need to download temporary data to a compute instance, use the temporary disk **(/mnt)**
 - Auto-shutdown on a compute instance is not currently supported
