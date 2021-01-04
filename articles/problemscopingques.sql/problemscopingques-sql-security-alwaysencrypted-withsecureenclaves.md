@@ -29,7 +29,7 @@
          "required":true
       },
       {
-         "id":"IssueType_dropdown",
+         "id":"IssueCategory_dropdown",
          "order":2,
          "controlType":"dropdown",
          "displayLabel":"What type of issue are you facing?",
@@ -72,7 +72,7 @@
          "required":true
       },
       {
-         "id":"describeissue",
+         "id":"AEServiceInformation",
          "visibility": "IssueType_dropdown == AESE",
          "order":4,
          "controlType":"multilinetextbox",
@@ -80,7 +80,7 @@
          "required":false
       },
       {
-         "id":"IssueType_dropdown",
+         "id":"IssueType_AEdropdown",
          "order":5,
          "visibility": "IssueType_dropdown == AE",
          "controlType":"dropdown",
