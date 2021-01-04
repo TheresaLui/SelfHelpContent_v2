@@ -16,12 +16,12 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
 ## **Recommended Steps**
 
-1. Do one of the following:
-    -  If you are upgrading (as opposed to first-time installation), review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner). 
+1. Review the instructions (choose one of the following):
+    -  For upgrades (versus for first-time installions), review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner). 
 
-    - If you're upgrading the classic client, review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
+    - For classic client upgrades, review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
 
-   **Demo**: [Watch our AIP on-premises scanner installation video for standard deployments](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
+    -  For standard deployments, [watch this video: *Installing the AIP on-premises scanner (7:41)*](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
     
 1. Verify that you comply with all [firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
 
@@ -53,6 +53,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 3. Save the logs to your choice of location, and attach them to your service request.
 
 **Note:** You can also export your logs via PowerShell. See [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs).
+
 
 ## **Recommended Documents**
 
