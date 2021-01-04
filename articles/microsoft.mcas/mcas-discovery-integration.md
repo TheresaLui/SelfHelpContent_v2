@@ -35,19 +35,18 @@ Refer to the section that best describes your integration issue.
 1. If the governance log contains no discovered data or completed parsed tasks, in Zscaler, verify that the NSS server allows the following [domains](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector)
 
    **NOTE**: By default, Zscaler integration supports connecting one NSS server to Cloud App Security. To connect additional NSS servers, open a ticket with Zscaler support.
-<br>
-
+<br><br>
 
 ## **iboss integration issues**
 
 Verify that the iboss integration is correctly configured. Follow steps in [Integrate Cloud App Security with iboss](https://docs.microsoft.com/cloud-app-security/iboss-integration).
-<br>
+<br><br>
 
 
 ## **Corrata integration issues**
 
 Verify that the Corrata integration is correctly configured. Follow steps in [Integrate Cloud App Security with Corrata](https://docs.microsoft.com/cloud-app-security/corrata-integration).
-<br>
+<br><br>
 
 
 ## **Recommended Documents**
