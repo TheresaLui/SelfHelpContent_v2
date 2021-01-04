@@ -18,8 +18,8 @@ Most users are able to resolve portal access issues using the steps below.
 
 To access the Cloud App Security portal, make sure that:
 
-1. You have a [valid license](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#prerequisites) and that it has not expired
-1. You understand the type of Cloud App Security license bundle you have. If your license is deprecated, your licensing bundle could be decreased to a minimal plan. (For a comparison of the different bundles, see the **Recommended documents** in this article.) The headline title of the Cloud App Security portal will list one of the following:
+1. You have a [valid license](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#prerequisites) that has has not expired
+1. You understand which Cloud App Security license bundle you have. If your license is deprecated, your licensing bundle could be decreased to a minimal plan. (For a comparison of the different bundles, see the **Recommended documents** in this article.) The headline title of the Cloud App Security portal will list one of the following:
     - Microsoft Cloud App Security
     - Office 365 Cloud App Security
     - Cloud App Discovery
