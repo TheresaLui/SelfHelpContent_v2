@@ -29,5 +29,4 @@ Most customers can successfully create a Log Analytics workspace using the follo
 ## **Recommended Documents**
 
 * [Soft-delete behavior](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#soft-delete-behavior)
-* [Recover a workspace](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace)
 * [Manage access to log data and workspaces in Azure Monitor](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
