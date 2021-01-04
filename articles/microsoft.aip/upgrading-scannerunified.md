@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Azure Information Protection  - Upgrading and Migration - Upgrade the AIP Unified Labeling Scanner"
+  pagetitle="Azure Information Protection  - Upgrading and Migration - Upgrade the AIP Unified Labeling Scanner&#xD;"
   service="microsoft.aip"
   resource="aip"
-  ms.author="orbarak,saseftel"
+  ms.author="orbarak,saseftel,esagmon"
   selfhelptype="Generic"
   supporttopicids="32727977"
   resourcetags=""
@@ -16,6 +16,8 @@
 
 1. Follow the steps at [Upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner)
 2. Run [`Start-AIPScannerDiagnostics`](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics) to troubleshoot common issues when deploying the scanner
+
+**Demo**: [Watch our AIP on-premises scanner installation video for standard deployments](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
 
 ### Export Azure Information Protection Scanner logs
 
