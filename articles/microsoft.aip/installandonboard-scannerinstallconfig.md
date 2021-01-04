@@ -2,7 +2,7 @@
   pagetitle="Azure Information Protection (AIP) Scanner - Installing, configuring, and decommissioning&#xD;"
   service="microsoft.aip"
   resource="aip"
-  ms.author="orbarak,saseftel"
+  ms.author="orbarak,saseftel,esagmon"
   selfhelptype="Generic"
   supporttopicids="32727933"
   resourcetags=""
@@ -20,6 +20,8 @@ Most customers can resolve their issues when installing or upgrading the Azure I
     -  If you are upgrading (as opposed to first-time installation), review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner). 
 
     - If you're upgrading the classic client, review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
+
+   **Demo**: [Watch our AIP on-premises scanner installation video for standard deployments](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
     
 1. Verify that you comply with all [firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
 
