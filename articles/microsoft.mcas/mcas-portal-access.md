@@ -19,17 +19,18 @@ Most users are able to resolve portal access issues using the steps below.
 To access the Cloud App Security portal, make sure that:
 
 1. You have a [valid license](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#prerequisites) and that it has not expired
-1. You're license might be deprecated, and your licensing bundle might be decreased into a minimal plan. To understand which type of Cloud App Security license bundle you have, please look at the headline title of Cloud App Security portal. You should be seeing of the following:
- - Microsoft Cloud App Security
- - Office 365 Cloud App Security
- - Cloud App Discovery
-
-To understand the differences between the bundles, please review the following:
-- Compare between [Cloud App Security and Office 365 Cloud App Security](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-o365)
-- Compare between [Cloud App Security and Cloud App Discovery](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-aad)
+1. You understand the type of Cloud App Security license bundle you have. If your license is deprecated, your licensing bundle could be decreased to a minimal plan. (For a comparison of the different bundles, see the **Recommended documents** in this article.) The headline title of the Cloud App Security portal will list one of the following:
+    - Microsoft Cloud App Security
+    - Office 365 Cloud App Security
+    - Cloud App Discovery
 
 1. The account is using a [supported role](https://docs.microsoft.com/cloud-app-security/manage-admins)
 1. If you have Global admin, Compliance admin, or Security admin roles in Office 365 Security and Compliance Center, make sure you also have the same roles in Azure Active Directory.
 1. You have followed the [network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#portal-access) for accessing the portal
+<br>
 
-If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
+## **Recommended documents**
+- Compare between [Cloud App Security and Office 365 Cloud App Security](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-o365)
+- Compare between [Cloud App Security and Cloud App Discovery](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-aad)
+
+If you're still experiencing the issue after reviewing the documentation and configuration, continue with opening the ticket.
