@@ -12,12 +12,15 @@
   ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection  - Upgrading and Migration - Upgrade the AIP Unified Labeling Scanner
 
+Most customers can successfully upgrade and migrate the Azure Information Protection (AIP) scanner using the following steps.
+
 ## **Recommended Steps**
 
-1. Follow the steps at [Upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner)
-2. Run [`Start-AIPScannerDiagnostics`](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics) to troubleshoot common issues when deploying the scanner
+1. Follow the instructions at [Upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner)
 
-**Demo**: [Watch our AIP on-premises scanner installation video for standard deployments](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
+2. To troubleshoot common deployment issues, run [`Start-AIPScannerDiagnostics`](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics) 
+
+3. Watch [a **Demo** of an AIP on-premises scanner installation](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
 
 ### Export Azure Information Protection Scanner logs
 
@@ -25,15 +28,13 @@
 2. Zip all the contents in the **MSIP** folder
 3. Save the logs to your choice of location, and attach them to your service request
 
-**Note**: You can also use [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs) to export your logs via PowerShell.
+**Note**: To export your logs via PowerShell, use [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs)
 
-**Troubleshooting Guide**
-
-Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)
 
 ## **Recommended Documents**
 
-* [Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
+* Troubleshoot issues with on-premises scanner deployment using the [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg)<br>
+* [Deploy the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 * [Specify and use the Token parameter for Set-AIPAuthentication](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-powershell#specify-and-use-the-token-parameter-for-set-aipauthentication)<br>
 * [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-manage)<br>
 * [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
