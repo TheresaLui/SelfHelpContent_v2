@@ -37,15 +37,18 @@ Refer to the section that best describes your integration issue.
    **NOTE**: By default, Zscaler integration supports connecting one NSS server to Cloud App Security. To connect additional NSS servers, open a ticket with Zscaler support.
 <br>
 
+
 ## **iboss integration issues**
 
 Verify that the iboss integration is correctly configured. Follow steps in [Integrate Cloud App Security with iboss](https://docs.microsoft.com/cloud-app-security/iboss-integration).
 <br>
 
+
 ## **Corrata integration issues**
 
 Verify that the Corrata integration is correctly configured. Follow steps in [Integrate Cloud App Security with Corrata](https://docs.microsoft.com/cloud-app-security/corrata-integration).
 <br>
+
 
 ## **Recommended Documents**
 - [Zscaler integration and troubleshooting guide](https://help.zscaler.com/zia/configuring-mcas-integration)
