@@ -12,13 +12,11 @@
   ownershipid="CloudAppSecurity_Discovery" />
 # Issues with Discovery integrations (Zscaler, iboss, Corrata)
 
-Most users are able to resolve discovery integration issues using the following steps.
-
-## **Recommended Steps**
-
+Most users are able to resolve discovery integration issues using the following steps. 
 Refer to the section that best describes your issue.
 
-### **Zscaler integration issues**
+
+## **Zscaler integration issues**
 
 1. Verify that the Zscaler integration is correctly configured. Follow steps in [Integrate Cloud App Security with Zscaler](https://docs.microsoft.com/cloud-app-security/zscaler-integration).
 
@@ -40,12 +38,12 @@ Refer to the section that best describes your issue.
    **NOTE**: By default, Zscaler integration supports connecting one NSS server to Cloud App Security. To connect additional NSS servers, open a ticket with Zscaler support.
 <br>
 
-### **iboss integration issues**
+## **iboss integration issues**
 
 Verify that the iboss integration is correctly configured. Follow steps in [Integrate Cloud App Security with iboss](https://docs.microsoft.com/cloud-app-security/iboss-integration).
 <br>
 
-### **Corrata integration issues**
+## **Corrata integration issues**
 
 Verify that the Corrata integration is correctly configured. Follow steps in [Integrate Cloud App Security with Corrata](https://docs.microsoft.com/cloud-app-security/corrata-integration).
 <br>
