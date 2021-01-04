@@ -21,7 +21,7 @@ Most customers can resolve their issues when installing or upgrading the Azure I
 
     - For classic client upgrades, review [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
 
-    -  For standard deployments, [watch this video: *Installing the AIP on-premises scanner (7:41)*](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
+    -  For standard deployments, [watch this video: *Installing the AIP on-premises scanner* (7:41)](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
     
 1. Verify that you comply with all [firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
 
