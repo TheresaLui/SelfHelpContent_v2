@@ -12,8 +12,7 @@
   ownershipid="CloudAppSecurity_Discovery" />
 # Issues with Discovery integrations (Zscaler, iboss, Corrata)
 
-Most users are able to resolve discovery integration issues using the following steps. 
-Refer to the section that best describes your issue.
+Refer to the section that best describes your integration issue.
 
 
 ## **Zscaler integration issues**
