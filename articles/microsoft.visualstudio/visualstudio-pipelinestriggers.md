@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Pipeline triggers aren't working"
-	description="Azure Pipelines issues related to triggers"
-	infoBubbleText="Azure Pipelines issues related to triggers"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="vijayma"
-	ms.author="vijayma"
-	articleId="AZDevOpsPipelinesTriggerIssues"
-	supportTopicIds="32742305"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Pipelines issues related to triggers&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="vijayma,vimalt"
+  selfhelptype="Generic"
+  supporttopicids="32742305"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinestriggerissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines issues related to triggers
 
 3 out of every 5 problems related to triggers were solved using the solutions below.
@@ -76,3 +70,4 @@ Follow through all the steps before you create a support ticket. If you do need 
 * [YAML syntax for triggers](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema#triggers)
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
