@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor",
+  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Reading most recent data from hbase memstore",
   "longDescription": "From the metrics we find more than 75% of your read requests are landing on the memstore. It indicates that the reads are mostly on the recent data. This suggests that the even if a flush happens on the memstore the recent file needs to be accessed and that needs to be in cache.",
   "potentialBenefits": "If the reads are on the most recent data, the suggested config changes will help you to do the reads from the memory as much as possible thus helping in faster read performance.",
@@ -45,7 +45,7 @@
       "actionId": "2b83b49c-8c01-486b-a569-b22c8c6f2154",
       "description": "The given namespace/table/family has greater than 75% of reads happening on memstore",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor#optimize-hbase-to-read-most-recently-written-data"
+      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor#optimize-hbase-to-read-most-recently-written-data"
     }
   ],
   "resourceMetadata": {
