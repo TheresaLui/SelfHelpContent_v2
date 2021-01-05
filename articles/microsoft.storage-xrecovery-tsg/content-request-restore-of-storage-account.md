@@ -3,15 +3,15 @@
 	description="How to request restore of storage account"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="b7c745a0-79aa-409d-bd24-7ece31fb4442"
 />
 

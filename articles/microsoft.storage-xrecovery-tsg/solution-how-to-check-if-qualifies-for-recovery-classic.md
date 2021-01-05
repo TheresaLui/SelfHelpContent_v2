@@ -3,15 +3,15 @@
 	description="How to check if qualifies for recovery attempt Storage Account Recovery Classic ARM"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="f88e4901-ed18-42d9-829a-fdaf5158fb12"
 />
 

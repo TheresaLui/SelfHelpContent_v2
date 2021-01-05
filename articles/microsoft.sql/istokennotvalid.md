@@ -8,7 +8,7 @@
 	ms.author="subbuk, swbharti"
 	displayOrder=""
 	articleId="IsTokenNotValid_95889E41-4BCE-4142-994B-FF931D177FEA"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""

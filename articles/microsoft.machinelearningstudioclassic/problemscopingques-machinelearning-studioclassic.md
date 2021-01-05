@@ -31,9 +31,23 @@
             		"displayLabel": "When did the problem start?",
             		"required": false
     },
+        {
+			"id": "problem_experiment_url",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "What is the URL of your experiment?",
+			"required": false
+	},
+		{
+			"id": "problem_webservice",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "What is the URL of your web service?",
+			"required": false
+	},
 		{
 			"id": "problem_description",
-			"order": 2,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide detailed information about your issue",

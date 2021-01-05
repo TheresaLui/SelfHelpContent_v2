@@ -21,7 +21,9 @@ To diagnose and resolve connectivity issues with network configuration, use the 
 
 ## **Recommended Steps**
 
-* Implement workloads through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
+* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
+
+* Implement workloads through Azure Firewall to the Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
 
 	|     Name                                                             |     Source                                |     Destination                                             |     Protocol:Port    |     Purpose                                                                                                   |
@@ -41,6 +43,17 @@ To diagnose and resolve connectivity issues with network configuration, use the 
 	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
   ```
 
+* If **IP Access List** is enabled for the workspace, make sure to assign permissions for Azure Data Factory IPs to run notebooks from ADF:
+
+  - To update the IP access list, or to create access lists with the new CIDR, see this [document](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+
+  - For information about assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519).  Search for **DataFactory.Region**. 
+
+* To synchronize workbooks between a local repo like on-premise DevOps instance and a Databricks workspace:
+
+  - You need to add the [Webapp IP](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#control-plane-nat-and-webapp-ip-addresses) on the on-premise server to the allow list. 
+  - Synchronize notebooks using these options: [Workspace CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/workspace-cli) uses Azure Devops build and release pipelines to automate the process. For more controllable option, use the [Databricks CLI](https://docs.microsoft.com/azure/databricks/dev-tools/cli/) to define the workflow to export and import notebooks.
+  
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
