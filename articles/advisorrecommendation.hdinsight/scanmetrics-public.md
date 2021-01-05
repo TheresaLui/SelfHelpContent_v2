@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://github.com/ramkrish86/azure-docs/blob/advisordocs/articles/hdinsight/hbase/apache-hbase-advisor.md",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "More than 75% of your queries seems to be full scan",
   "longDescription": "Analyzing your cluster seems that we see that more than 75% of the scan queries are doing full region/table scan. Revisit your scan queries if you can avoid full region or table scan.",
   "potentialBenefits": "Faster scan performances",
@@ -45,7 +45,7 @@
       "actionId": "bf11f4ca-c126-4a60-9d9f-dc93b7ba161d",
       "description": "Revisit your scan queries to avoid full table/region scans",
       "actionType": "Document",
-      "documentLink": "https://github.com/ramkrish86/azure-docs/blob/advisordocs/articles/hdinsight/hbase/apache-hbase-advisor.md#full-table-scan"
+      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor#full-table-scan"
     }
   ],
   "resourceMetadata": {
