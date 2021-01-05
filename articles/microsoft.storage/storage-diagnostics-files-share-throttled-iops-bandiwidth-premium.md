@@ -20,7 +20,7 @@ ownershipId="StorageMediaEdge_StorageFiles"
 # Azure file share was throttled
 
 <!--issueDescription-->
-The following Azure file share **<!--$PremiumFileShare-->[PremiumFileShare]<!--/$PremiumFileShare-->** in this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled because the IOPS (transactions) and/or bandwidth (ingress, egress) limits were reached. 
+The following Azure file share **<!--$PremiumFileShare-->[PremiumFileShare]<!--/$PremiumFileShare-->** in this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled because the IOPS (transactions) or bandwidth (ingress, egress) limits were reached. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
