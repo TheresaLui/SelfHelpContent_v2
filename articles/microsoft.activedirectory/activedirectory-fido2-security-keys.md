@@ -17,13 +17,15 @@
 
 # Fido2 Security Keys
 
+The following resources can help you set up Azure FIDO 2 security keys.
+
 ## **Recommended Steps**
 
-* [To enable FIDO 2 key sign-in in Azure](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
-* [Verify that your FIDO2 key meets Microsoft requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless#fido2-security-keys)
-* For Hybrid join, verify you are running Windows 10 version 2004 or higher
-* For AADj, verify you are running Windows 10 version 1809 or higher
-* [Setup a security key for your account](https://docs.microsoft.com/azure/active-directory/user-help/security-info-setup-security-key)
+* [To enable FIDO 2 key sign-in](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
+* [Verify that your FIDO 2 key meets Microsoft requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless#fido2-security-keys)
+* For Hybrid join, verify that you are running Windows 10 version 2004 or higher
+* For Azure AD join (AADJ) devices, verify you are running Windows 10 version 1809 or higher
+* [Set up a security key for your account](https://docs.microsoft.com/azure/active-directory/user-help/security-info-setup-security-key)
 
 ## **Recommended Documents**
 
