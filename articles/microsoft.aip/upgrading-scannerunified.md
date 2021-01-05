@@ -24,7 +24,7 @@ Most customers can successfully upgrade and migrate the Azure Information Protec
 
 ### Export Azure Information Protection Scanner logs
 
-1. In the user directory for the user that is running the scanner service, navigate to `%localappdata%\Microsoft\MSIP`
+1. In the user directory for the user who is running the scanner service, go to `%localappdata%\Microsoft\MSIP`
 2. Zip all the contents in the **MSIP** folder
 3. Save the logs to your choice of location, and attach them to your service request
 
