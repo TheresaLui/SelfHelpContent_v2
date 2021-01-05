@@ -16,7 +16,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your requested parameters to provide guidance
 
 The Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, then the Recommender provides alternate recommendations with a high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 

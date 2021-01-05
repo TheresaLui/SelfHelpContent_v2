@@ -1,36 +1,31 @@
 <properties
-	pageTitle="Integrating Key vault with Certificate Authority"
-	description="Integrating Key vault with Certificate Authority"
-	service="Microsoft.Keyvault"
-	resource="vaults"
-	authors="sebansal"
-	ms.author="sebansal"
-	displayOrder="19"
-	selfHelpType="generic"
-	supportTopicIds="32742806"
-	resourceTags="optional"
-	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-integratingkvwithca"
-	ownershipId="AzureKeyVault_KeyVault"
-/>
-
+  pagetitle="Integrating Key vault with Certificate Authority&#xD;"
+  service="microsoft.keyvault"
+  resource="vaults"
+  ms.author="sebansal"
+  selfhelptype="Generic"
+  supporttopicids="32742806"
+  resourcetags="optional"
+  productpesids="15657"
+  cloudenvironments="blackforest,fairfax,public,mooncake,usnat,ussec"
+  articleid="keyvault-integratingkvwithca"
+  ownershipid="AzureKeyVault_KeyVault" />
 # Integrating Key vault with Certificate Authority
 ## **Recommended Steps**
 
 * [Integrating Key Vault with DigiCert Certificate Authority](https://docs.microsoft.com/azure/key-vault/certificates/how-to-integrate-certificate-authority)
-* [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
+* [Getting pending request - status is "inProgress" or "canceled" or "failed"](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
 ### **Troubleshooting**
 
 * I created a certificate from DigiCert. But it is failing/processing?
 	
-	Click on **Certificate Operations** tab of the certificate to view the error. If the error message guides to contact DigiCert, then do so.
+	Click on **Certificate Operations** tab of the certificate to view the error. If the error message advises you to contact DigiCert, then do so.
 
 * New certificates show up in a disabled state, why?
 
-	The certificate status changes after the CA signs the request. Check the progress after sometime, if it is never enabled, then it is likely that your request failed or was rejected by the CA.
+	The certificate status changes after the CA signs the request. Check the progress after a certain amount of time. if it is not enabled, then it is likely that your request failed or was rejected by the CA.
 
 * How to autorotate DigiCert Certificates?
 
