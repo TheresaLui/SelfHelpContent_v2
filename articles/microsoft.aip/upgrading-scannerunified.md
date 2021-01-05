@@ -20,7 +20,7 @@ Most customers can successfully upgrade and migrate the Azure Information Protec
 
 2. To troubleshoot common deployment issues, run [`Start-AIPScannerDiagnostics`](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics) 
 
-3. Watch [a **Demo** of an AIP on-premises scanner installation](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
+3. Watch [a standard deployment video: *Installing the on-premises scanner* (7:41)](https://techcommunity.microsoft.com/t5/microsoft-security-and/mip-scanner-deployment-watch-our-video/ba-p/2023277?attachment-id=32620)
 
 ### Export Azure Information Protection Scanner logs
 
