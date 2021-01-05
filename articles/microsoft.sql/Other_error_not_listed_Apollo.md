@@ -12,6 +12,7 @@ ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # Troubleshoot most common SQL Db connectivity issues
+:::Section Insights:::
 
 ## Troubleshoot most common SQL Db connectivity issues
 Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. If you are experiencing connection failures outside of the above scenarios then insights from diagnostics, and running the Connectivity Checker tool can help to narrow down the potential causes of failure.
@@ -38,7 +39,6 @@ In order to run it you need to:
 
 <li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
-    
     
   ```
       $parameters = @{
@@ -68,5 +68,5 @@ In order to run it you need to:
 
 ### More resources
 
-* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/)<br>
-* [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32745425/)<br>
+* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/)
+* [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32745425/)
