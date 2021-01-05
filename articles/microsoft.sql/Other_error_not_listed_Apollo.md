@@ -14,6 +14,7 @@ ownershipId="AzureData_AzureSQLDB_Availability"
 # Troubleshoot most common SQL Db connectivity issues
 
 ## Troubleshoot most common SQL Db connectivity issues
+
 :::Section Insights:::
 
 Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. If you are experiencing connection failures outside of the above scenarios then insights from diagnostics, and running the Connectivity Checker tool can help to narrow down the potential causes of failure.
