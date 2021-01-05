@@ -26,3 +26,6 @@ The File Open/Close API transactions in storage account **<!--$ResourceName-->[R
 ## **Recommended Steps**
 
 * Refer to the [Azure Files scale targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#file-share-and-file-scale-targets) to learn more about the scalability targets
+* Refer to the [Azure Files extensive open/close operations causing latency workaround](https://docs.microsoft.com/azure/storage/files/storage-troubleshooting-files-performance#high-latencies-for-metadata-heavy-workloads-involving-extensive-openclose-operations) to mitigate latency issues
+* Refer to the [Azure Files heavy metadata workload workaround](https://docs.microsoft.com/azure/storage/files/storage-troubleshooting-files-performance#cause-2-metadatanamespace-heavy-workload) to mitigate latency issues
+* If the file share is a standard file share, check if [larger file shares](https://docs.microsoft.com/azure/storage/files/storage-files-planning#onboard-to-larger-file-shares-standard-tier) is available in your region. Larger file shares support up to 10,000 IOPS per share.
