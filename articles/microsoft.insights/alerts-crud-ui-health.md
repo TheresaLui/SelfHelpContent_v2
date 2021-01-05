@@ -30,3 +30,6 @@ Service Health alert rules can also be reviewed in Service Health>Health Alerts.
 
 **3.	I am not sure if I have the permissions to author the alert.**
 You are required to have the role of [monitoring contributor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security?WT.mc_id=Portal-Microsoft_Azure_Support#built-in-monitoring-roles) on the target subscription to author alerts on it.
+
+
+![video](https://azurecomcdn.azureedge.net/cvt-1dea98bf3c3dc040ee54fdf0895b469d88c2ae1f9f4de188c3f79b529ab20899/mediahandler/files/videofiles/thumbnails/how-to-set-up-your-first-azure-service-health-alert/first-alert-thumbnail.jpg)(https://azure.microsoft.com/en-us/resources/videos/how-to-set-up-your-first-azure-service-health-alert/)
