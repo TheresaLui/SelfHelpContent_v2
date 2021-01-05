@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor",
+  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Check your region counts as you have blocking updates.",
   "longDescription": "Region counts needs to be adjusted to avoid updates getting blocked. It might require a scale up of the cluster by adding new nodes.",
   "potentialBenefits": "Brings more parallelism and ensures writes are more uniform.",
@@ -45,7 +45,7 @@
       "actionId": "bfff1cc7-5e25-46db-be41-496b8a08bed0",
       "description": "Tune the region count per region server",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor#region-count-tuning"
+      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor#region-count-tuning"
     }
   ],
   "displayLabel": "Region count tuning.",

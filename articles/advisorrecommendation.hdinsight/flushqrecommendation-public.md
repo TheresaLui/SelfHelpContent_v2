@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor",
+  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing the flusher threads",
   "longDescription": "We observe that the flush queue size in your region servers are more than 100 or there are updates getting blocked frequently. It suggest a flush handler tuning.",
   "potentialBenefits": "Faster flushes would clear the writes from being blocked.",
@@ -45,7 +45,7 @@
       "actionId": "0418c795-f936-494d-9cae-cd1bc98f4061",
       "description": "Consider increasing the flush handler count",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor#optimize-the-flush-queue"
+      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor#optimize-the-flush-queue"
     }
   ],
   "displayLabel": "Tuning the flushes",

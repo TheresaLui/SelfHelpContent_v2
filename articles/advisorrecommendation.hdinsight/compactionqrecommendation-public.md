@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor",
+  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing your compaction threads for compactions to complete faster",
   "longDescription": "We observe that the compaction queue in your region servers are more than 2000. This suggests that more data is waiting to be compacted.",
   "potentialBenefits": "Faster compactions would ensure that the reads are faster in case there are multiple versions of the data.",
@@ -45,7 +45,7 @@
       "actionId": "d64e27e8-3b25-444e-9a81-feddf8937aad",
       "description": "Consider increasing the compaction threads count",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-advisor#compaction-queue-tuning"
+      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor#compaction-queue-tuning"
     }
   ],
   "displayLabel": "Increasing compaction threads count",
