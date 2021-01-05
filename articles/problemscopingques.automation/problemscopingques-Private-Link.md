@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-Private-Link.md"
+	articleId="problemscopingques-private-link.md"
 	pageTitle="Azure Automation - Private Link"
 	description="Azure Automation - Private Link"
 	authors="bhpat"
@@ -15,7 +15,8 @@
 ---
 {
     "resourceRequired": true,
-    "title": "Azure Automation Private Link",
+	"subscriptionRequired": true,
+    "title": "azure automation private link",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
 	  {
