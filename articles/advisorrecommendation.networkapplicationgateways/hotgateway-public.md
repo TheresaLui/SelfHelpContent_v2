@@ -4,7 +4,7 @@
     ms.author="evanba"
     articleId="2ee9f31e-df58-4893-b3e7-66c0cd74183a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Increase your instance count for gateways running hot
