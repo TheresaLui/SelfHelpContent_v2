@@ -1,4 +1,3 @@
- 
 <properties
 pageTitle="Other connectivity errors not listed"
 description="Other connectivity errors not listed"
@@ -12,9 +11,8 @@ cloudEnvironments="public"
 ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-# Troubleshoot most common SQL Db connectivity issues 
- 
-:::Section Insights:::
+# Troubleshoot most common SQL Db connectivity issues
+
 ## Troubleshoot most common SQL Db connectivity issues
 Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. If you are experiencing connection failures outside of the above scenarios then insights from diagnostics, and running the Connectivity Checker tool can help to narrow down the potential causes of failure.
 
@@ -40,7 +38,8 @@ In order to run it you need to:
 
 <li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
-
+    
+    
   ```
       $parameters = @{
           Server = '.database.windows.net'
@@ -60,6 +59,7 @@ In order to run it you need to:
       Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
       #end
   ```
+  
 </li><br>
 <li> Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.</li><br>
 <li> Run it</li><br>

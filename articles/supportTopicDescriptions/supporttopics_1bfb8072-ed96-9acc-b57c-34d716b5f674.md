@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674"
   ownershipid="AzureMonitoring_LogAnalytics" />
 # Support Topic Descriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674
@@ -360,8 +361,8 @@
     {
       "id": "7df0385d-a098-72c2-f419-8293761a4b0b",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring Custom Logs within Log Analytics workspace.",
-      "searchTags": "Custom Logs;workspace",
+      "shortDescription": "Extracting data into Custom Fields during ingestion, management of custom fields ",
+      "searchTags": "Custom Logs;Field",
       "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "false"
     },

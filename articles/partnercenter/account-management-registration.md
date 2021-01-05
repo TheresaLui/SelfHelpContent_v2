@@ -10,7 +10,7 @@
 	articleId="account_management_registration"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728232"
+	supportTopicIds="32728232,32784509,32784510"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
 	productPesIds="17000"
