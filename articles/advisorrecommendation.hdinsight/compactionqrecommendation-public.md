@@ -8,7 +8,7 @@
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
-# Tune the RegionServer's compaction queue for write performance
+# Tune the RegionServer's compaction queue for read performance
 ---
 {
   "recommendationOfferingId": "2c320048-aefd-4637-b82c-3b0fc8b84830",
