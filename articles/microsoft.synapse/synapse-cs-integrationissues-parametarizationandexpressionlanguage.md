@@ -52,3 +52,4 @@
 
 * [Date](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#date-functions) functions operate over timestamps
 
+ 

@@ -32,3 +32,4 @@
 
 * [Best practices when loading into Dedicated SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data)
 
+ 

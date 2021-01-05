@@ -17,7 +17,7 @@
 />
 
 # SDK Java - Error or unexpected result
-Most users are able to resolve their SQL SDK Java case using the steps below. The Recommended Documents section contains further information for more troubleshooting scenarios.
+Most users are able to resolve issues with SQL SDK Java by using the steps below. The Recommended Documents section includes information for troubleshooting scenarios.
 
 
 ## **Recommended Steps**
@@ -29,7 +29,7 @@ Always ensure you are using the latest SDK:
 <br>Make sure you are using a singleton client, which means one client instance for the lifetime of the application.
 
 ### **Known Issues and Solutions**
-Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
+Review the Github issues links below for your SDK platform to see if there is a known bug, and to determine the status of the fix from the Azure Cosmos DB team:  
 * [Java SDK](https://github.com/Azure/azure-sdk-for-java/issues)
 
 
@@ -38,10 +38,10 @@ Review the Github issues links below for your SDK platform to see if there is a 
 **401: The MAC signature found in the HTTP request is not the same as the computed signature**
 <br>The 401 error message, "The MAC signature found in the HTTP request is not the same as the computed signature," can be caused by one of the following scenarios:
 
-* The key was rotated and did not follow the [best practices](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). This is usually the case. Cosmos DB account key rotation can take anywhere from a few seconds to possibly days depending on the Cosmos DB account size.
+* The key was rotated and did not follow the [best practices](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). This is usually the case. Cosmos DB account key rotation can take anywhere from a few seconds to days, depending on the Cosmos DB account size.
    * 401 MAC signature is seen shortly after a key rotation and eventually stops without any changes. 
 * The key is misconfigured on the application so the key does not match the account.
-   * 401 MAC signature issue will be consistent and happens for all calls.
+   * 401 MAC signature issue is consistent and happens for all calls.
 * The application is using the [read-only keys](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#master-keys).
    * 401 MAC signature issue will occur only when the application is doing write requests. Read requests will succeed.
 * There is a race condition with container creation. An application instance is trying to access the container before container creation is complete. The most common scenario for this if the application is running, and the container is deleted and re-created with the same name while the application is running. The SDK will attempt to use the new container, but the container creation is still in progress so it does not have the keys.
@@ -63,8 +63,13 @@ For more information, see [Handle rate limiting/request rate too large](https://
 * See the support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
 
 
+**449 Retry With**
+<br>This is an expected response that indicates that there were concurrent operations trying to modify the same document. It is safe to retry. If the error is happening during stored procedure executions, decreasing the degree of parallelism of the executions will also reduce the occurrence.
+
+
 **404 Read session not available**
 <br>Upgrade your SDK to the latest available version. This error has been fixed in newer SDK versions.
+
 
 **404 Not found**
 <br>The HTTP status code 404 represents that the resource no longer exists.

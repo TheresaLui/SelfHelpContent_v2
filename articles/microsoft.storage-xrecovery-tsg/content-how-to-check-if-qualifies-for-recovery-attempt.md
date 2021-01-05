@@ -26,3 +26,21 @@ Please note that recovering data at the blob level is best effort attempt and is
  	2. [Storage blob snapshots with powershell](https://blogs.msdn.microsoft.com/cie/2016/05/17/using-blob-snapshots-with-powershell/)
 
 NOTE : Depending on circumstances, only partial data may be recoverable. Individual entities are NOT recoverable. Recovery is not possible if data within a queue was deleted - only if the whole queue was deleted
+
+<br>
+
+# Disk Recovery #
+
+
+When customers request for **Disk recovery** (be it managed or unmanaged), please collect a detailed business justification and email <cssstorageta@microsoft.com> and CC <xsupportpm@microsoft.com> with an ICM number and route the ICM to XStore/Table Server team. If you don't have access to create an ICM with XStore/Table Server team, engage one of the storage TAs or email cssstorageta@microsoft.com to route the ICM. <br>
+
+ Before we engage PG through ICM, make sure that the following statements are true.
+
+```
+1. Business justification to show that data to recover is production data (not test data)
+2. A new blob with the same name has not been created 
+3. Deleted less than a week for standard 
+4. Deleted less than 3 days for XIO(Premium) 
+5. Disk URI (full path) 
+6. Delete Time 
+7. Prioritized list 

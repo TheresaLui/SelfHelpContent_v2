@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "33557a7c-6dd6-4b46-9579-fc5273f07458",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorUMDHDDtoPremiumForPerformancePublic",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorUMDHDDtoPremiumForPerformancePublic",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "UMDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yuriic@microsoft.com",
     "icm": {
