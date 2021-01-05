@@ -37,7 +37,9 @@ This PowerShell script will run connectivity checks from your machine to the ser
 In order to run it you need to:
 
 1. Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.
+
 2. Open a New Script window
+
 3. Paste the following in the script window:
     
   ```
@@ -59,9 +61,10 @@ In order to run it you need to:
       Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
       #end
   ```
-  
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
+
 5. Run it
+
 6. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.
 
 ### More resources
