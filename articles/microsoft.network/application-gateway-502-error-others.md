@@ -17,15 +17,17 @@
 
 # Application Gateway other issues
 
+Use the following steps to resolve "502 Bad Gateway" errors from Application Gateway when the back-end server status is otherwise healthy.
+
+
 ## **Recommended Steps**
 
-If the health status of the back-end server is healthy, but if Application Gateway returns 502 Bad Gateway error, it could be due to one of the following reasons:
+* If you use Application Gateway v1 (Standard or WAF), the request may be timing out at your back-end server. This means that your back-end server took more time to respond to the request than what's configured in the request timeout field of the HTTP settings. Increase the timeout in the respective HTTP settings, or determine why your back-end server is taking longer than expected to respond. Learn more about [troubleshooting request timeouts](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#request-time-out).
 
-- If you are using v1 SKU of Application Gateway (Standard or WAF), then 502 error can also occur due to the request getting timed out at your back-end server, which means that your back-end server took longer time to respond to the request than what's configured in the request timeout field of HTTP settings. In this case, increase the timeout in the respective HTTP settings or check why your back-end server is taking longer than expected to respond. See [this article](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#request-time-out) to learn more about troubleshooting request timeouts.
-- If your Application Gateway's utilization is high, you might receive 502 errors intermittently. This usually happens during peak traffic and if the gateway is not scaled appropriately to handle the traffic. See [Application Gateway high traffic support](https://docs.microsoft.com/azure/application-gateway/high-traffic-support) to learn more about Application Gateway scaling and alerts.
+- If your Application Gateway utilization is high, you might receive 502 errors intermittently. This usually happens during peak traffic and if the gateway is not scaled appropriately to handle the traffic. Learn more about Application Gateway scaling and alerts to [support high traffic](https://docs.microsoft.com/azure/application-gateway/high-traffic-support).
 
 ## **Recommended Documents**
 
 - [Troubleshoot bad gateway errors in Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502)
-- [Troubleshoot backend health issues in Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-health-troubleshooting)
+- [Troubleshoot back-end health issues in Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-health-troubleshooting)
 - [Azure Application Gateway Resource Health overview](https://docs.microsoft.com/azure/application-gateway/resource-health-overview)
