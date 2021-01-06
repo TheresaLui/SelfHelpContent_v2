@@ -15,9 +15,9 @@
 	  ownershipId="StorageMediaEdge_Backup"
 />
 
-# Fix the FireWall and Proxy settings
+# Fix the Firewall and Proxy settings
 
-Fix the FireWall, Anti virus and Proxy settings to allow outbound connectivity to Azure Backup, Azure Storage and Azure Active Directory Services by whitelisting the IP ranges for these Service tags. The IP ranges for the Service tags are available below.
+Fix the Firewall, Anti virus and Proxy settings to allow outbound connectivity to Azure Backup, Azure Storage and Azure Active Directory Services by whitelisting the IP ranges for these Service tags. The IP ranges for the Service tags are available below.
 Public Cloud: https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519 
 US Government Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57063 
 China Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57062 
