@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-VM was behind a load balancer blocking outbound connectivity to Azure services.The connectivty issues have been resolved. Please retry failed operations.
+VM was behind a load balancer blocking outbound connectivity to Azure services.The connectivity issues have been resolved. Please retry failed operations.
 
 <!--/issueDescription-->
 
