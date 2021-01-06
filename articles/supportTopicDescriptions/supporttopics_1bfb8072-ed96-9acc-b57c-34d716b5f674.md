@@ -297,7 +297,7 @@
     {
       "id": "618641f5-670c-a008-fa47-18e1438552c3",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "shortDescription": "Investigate high processor (CPU) or memory usage caused by one of the Windows Agent processes.",
       "searchTags": "Agents;Log Analytics;Virtual Machine",
       "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
