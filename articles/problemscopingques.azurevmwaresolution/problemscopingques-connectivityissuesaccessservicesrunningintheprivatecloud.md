@@ -1,7 +1,7 @@
 <properties
 	articleId="connectivityissuesaccessservicesrunningintheprivatecloud"
 	pageTitle="connectivityissuesaccessservicesrunningintheprivatecloud"
-	description="AVS connectivity scoping questions"
+	description="AVS connectivity access scoping questions"
 	authors="neshenoy"
 	ms.author="neshenoy"
 	selfHelpType="problemScopingQuestions"
