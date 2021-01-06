@@ -6,7 +6,7 @@
     resource="storage"
     authors="annayak"
     ms.author="annayak"
-    displayOrder=""
+    displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32783981,32783979,32783980,32783576"
     resourceTags="recovery"
