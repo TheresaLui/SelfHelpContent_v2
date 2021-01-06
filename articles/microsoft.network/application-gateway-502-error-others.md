@@ -5,13 +5,14 @@
     resource="applicationgateways"
     authors="TobyTu"
     ms.author="mariliu"
-    displayOrder=""
+    displayOrder="32"
     selfHelpType="resource"
     articleId="7640a487-6f9f-4a3c-9e53-5c75862cc1f2"
     resourceTags=""
     productPesIds="15922"
     supportTopicIds="32783370"
-    cloudEnvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+    cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
+    ownershipId="CloudNet_AzureApplicationGateway"
  />
 
 # Application Gateway other issues

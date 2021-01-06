@@ -5,13 +5,14 @@
     resource="applicationgateways"
     authors="TobyTu"
     ms.author="mariliu"
-    displayOrder=""
+    displayOrder="34"
     selfHelpType="resource"
     articleId="7640a487-6f9f-4a3c-9e53-5c75862cc1f4"
     resourceTags=""
     productPesIds="15922"
     supportTopicIds="32783364"
-    cloudEnvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+    cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
+    ownershipId="CloudNet_AzureApplicationGateway"
  />
 
 # Configure SSL offload
