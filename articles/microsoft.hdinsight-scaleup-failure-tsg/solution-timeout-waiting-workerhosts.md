@@ -19,13 +19,13 @@
 
 <!--issueDescription-->
 
-***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
+***INTERNAL CONTENT ONLY - DO NOT PROVIDE TO CUSTOMER***
 
 
 
 <!--/issueDescription-->
 
-Please follow recommended document to mitigate the issue:
+To mitigate the issue, follow the instructions in the recommended document.
 
 
 ## **Recommended Documents**
