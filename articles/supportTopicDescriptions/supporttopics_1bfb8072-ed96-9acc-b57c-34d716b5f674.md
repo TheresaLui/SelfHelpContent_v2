@@ -167,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2f9403e1-8960-b0dc-dc2e-68e174562120",
+      "longDescription": "",
+      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
+      "searchTags": "OMS;Monitor;Agent",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "30ddae08-4760-ee4b-4187-d11a1eaae8b3",
       "longDescription": "",
       "shortDescription": "Assistance with setting ingestion daily cap, and how to control data volume in your workspace ",
