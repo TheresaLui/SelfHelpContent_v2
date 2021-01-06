@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-A firewall or an Anti virus software or Proxy settings were blocking outbound connectivity to Azure services. The connectivty issues have been resolved. Please retry failed operations.
+A firewall or an Antivirus software or Proxy settings were blocking outbound connectivity to Azure services. The connectivity issues have been resolved. Please retry failed operations.
 
 <!--/issueDescription-->
 
