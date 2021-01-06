@@ -26,4 +26,4 @@ It usually is because of subscription elegibility.
 * Check if the billing address is correct
 * If any of this helped solve the issue
 	* Check our [roadmap] (https://github.com/Azure/Communication/issues)
-	* File a [Github issue] (https://github.com/Azure/Communication/issues) 
+	* File a [Github issue] (https://github.com/Azure/Communication/issues)
