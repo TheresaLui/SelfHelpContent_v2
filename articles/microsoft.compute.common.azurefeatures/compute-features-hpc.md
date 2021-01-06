@@ -17,11 +17,11 @@
 
 # Shared Image Gallery
 
-4 out of 5 customers resolve their High Performance Computing issues using below steps:<br>
+Most customers resolve their High Performance Computing issues using below steps:<br>
 
 ## **Recommended Steps**
 
-High Performance Computing (HPC), also called "Big Compute", uses a large number of CPU or GPU-based computers to solve complex mathematical tasks.
+High Performance Computing (HPC), also called *Big Compute*, uses a large number of CPU- or GPU-based computers to solve complex mathematical tasks.
 
 ## **Recommended Documents**
 
