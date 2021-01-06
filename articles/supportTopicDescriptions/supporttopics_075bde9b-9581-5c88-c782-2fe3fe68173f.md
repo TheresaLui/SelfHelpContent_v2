@@ -36,6 +36,12 @@
       "searchTags": "Accounts;Onboarding;Specialization;Enrollment",
     },
     {
+      "id": "9ec9336c-2fc5-73ee-d0f9-6ec275fcd1ce",
+      "longDescription": "",
+      "shortDescription": "Linking of partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
+    },
+    {
       "id": "95b1a700-7fa0-a34a-4d94-79aae67c1a2d",
       "longDescription": "",
       "shortDescription": "Questions about Azure Expert MSP details and enrollment",
