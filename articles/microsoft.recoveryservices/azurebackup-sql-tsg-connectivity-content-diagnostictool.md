@@ -25,6 +25,6 @@ Use network diagnostic tool to verify the network status by following below step
 4. Run the command: PsExec -s -i cmd.exe
 	It will open an elevated command prompt window that is running as Local System.
 5. From the elevated window, cd to the extracted location again and then run the following command: TestAADCallsForWindows.exe ParallelRegistration
-6. Trigger re-registration of VM from Azure portal. (the above utility will wait for registration to be triggered)
+6. Trigger re-registration of VM from Azure portal. he above utility will wait for registration to be triggered.
 7.Keep the command prompt window running till Registration failed/succeeded from portal and verify if the registration has succeeded or not.
 
