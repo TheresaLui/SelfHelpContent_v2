@@ -15,7 +15,7 @@
 	  ownershipId="StorageMediaEdge_Backup"
 />
 
-# Check if the VM is behind a load balancer
+# Check if the VM is behind a load balancer.
 
-check if the VM is behind a Load balancer that's blocking Internet access. If yes, assign public ip to the VM and re-try the operation
+Check if the VM is behind a Load balancer that's blocking Internet access. If yes, assign public ip to the VM and re-try the operation.
 
