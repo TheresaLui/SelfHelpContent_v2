@@ -15,10 +15,10 @@
 	  ownershipId="StorageMediaEdge_Backup"
 />
 
-# Check Firewall/Anti virus/Proxy settings
+# Check Firewall/Antivirus/Proxy settings
 
 Verify that there are no firewalls/antivirus softwares/proxy settings that are blocking calls to any of Azure Backup, Azure Storage and Azure AAD Services
-Links to Service Tags and their IP ranges to which Outbound connectivty should be allowed:
+Links to Service Tags and their IP ranges to which Outbound connectivity should be allowed:
 Public Cloud: https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519 
 US Government Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57063 
 China Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57062 
