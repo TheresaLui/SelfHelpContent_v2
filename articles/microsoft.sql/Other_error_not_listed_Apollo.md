@@ -14,10 +14,10 @@ ownershipId="AzureData_AzureSQLDB_Availability"
 # Troubleshoot most common SQL Db connectivity issues
 
 ## Troubleshoot most common SQL Db connectivity issues
-
 :::Section Insights:::
 
-Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. If you are experiencing connection failures outside of the above scenarios then insights from diagnostics, and running the Connectivity Checker tool can help to narrow down the potential causes of failure.
+Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. 
+If you are experiencing connection failures outside of the above scenarios then insights from diagnostics, and running the Connectivity Checker tool can help to narrow down the potential causes of failure.
 
 ### SQL Db connectivity diagnostics
 
@@ -38,9 +38,9 @@ In order to run it you need to:
 
 1. Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.
 
-2. Open a New Script window
+5. Open a New Script window
 
-3. Paste the following in the script window:
+9. Paste the following in the script window:
     
   ```
       $parameters = @{
@@ -63,9 +63,9 @@ In order to run it you need to:
   ```
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
 
-5. Run it
+16. Run it
 
-6. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.
+25. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.
 
 ### More resources
 
