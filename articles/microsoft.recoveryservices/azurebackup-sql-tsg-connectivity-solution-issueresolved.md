@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-The Azure workload backup extension running on the VM could not connect to Azure services. The connectivty issues have been resolved. Please retry failed operations.
+The Azure workload backup extension running on the VM could not connect to Azure services. The connectivity issues have been resolved. Please retry failed operations.
 
 <!--/issueDescription-->
 
