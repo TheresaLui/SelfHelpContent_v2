@@ -19,7 +19,7 @@
 
 Run below PowerShell cmdlets to white-list Azure Backup, Storage, Active Directory services for outbound network access.
 
-# Add Azure account creds
+# Add Azure account credentials
 Add-AzureRmAccount
 # Select the NSG subscription
 Select-AzureRmSubscription "<Subscription Id>"
