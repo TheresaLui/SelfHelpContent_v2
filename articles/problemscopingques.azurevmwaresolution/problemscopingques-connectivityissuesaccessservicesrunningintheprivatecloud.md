@@ -1,5 +1,4 @@
 <properties
-	articleId="connectivityissuesaccessservicesrunningintheprivatecloud"
 	pageTitle="connectivityissuesaccessservicesrunningintheprivatecloud"
 	description="AVS connectivity access scoping questions"
 	authors="neshenoy"
