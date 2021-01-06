@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Security Alerts validation self-help guide"
+  pagetitle="Security Alerts validation self-help guide&#xD;"
   ms.author="elsagie"
   selfhelptype="Generic"
   supporttopicids="32693250"
@@ -10,28 +10,36 @@
   ownershipid="Azure_Security_Security_Center" />
 # Security Alerts validation self-help guide
 
+Use the following guidance to validate security alerts.
+
+
 ## **Recommended Steps**
 
 ### Validate alerts for VMs
 
 * [Validate your alert configuration (EICAR test file)](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
 
-1. You need to enable command-line arguments auditing. To enable it, use the command `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\Audit" /f /v "ProcessCreationIncludeCmdLine_Enabled"`
-2. In order for EICAR alert to show on the Security Center portal make sure the resource have the monitoring agent (a.k.a Log Analytics Agent) is installed and sending valid heartbeat
-3. [Monitoring agent health issues troubleshooting](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
+1. Enable command-line arguments auditing, using the following command: <br> 
+   `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\Audit" /f /v "ProcessCreationIncludeCmdLine_Enabled"`
+
+2. To get EICAR alerts on the Security Center portal, install the Log Analytics Agent on the resource and verify that it sends a valid heartbeat.
+3. [Monitor agent health issues troubleshooting guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
 
 ### Validate alerts on Kubernetes
 
-1. Connect to the Kubernetes cluster: `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`
+1. Connect to the Kubernetes cluster, using the following command:<br>
+   `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`
+   
 2. [Validate alerts on Kubernetes](https://docs.microsoft.com/azure/security-center/security-center-alert-validation#validate-alerts-on-kubernetes-)
 
 ### Validate alerts for Key Vault
 
-* [Validating Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
+* [Validate Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
 
 ### Validate alerts for Storage ATP
 
-* [Validating ATP for Azure Storage Detections in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-atp-for-azure-storage-detections-in-azure-security/ba-p/1068131)
+* Coming soon.  
+Ask your Support Engineer for updates.
 
 ### Validate alerts for SQL ATP
 

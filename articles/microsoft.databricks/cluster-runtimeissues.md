@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Diagnose and resolve issues with Databricks cluster creation failure"
-	description="Diagnose and resolve issues with Databricks cluster creation failure"
+	pageTitle="Diagnose and resolve issues with Databricks cluster runtime"
+	description="Diagnose and resolve issues with Databricks cluster runtime"
 	service="microsoft.databricks"
 	resource="workspaces"
 	authors="deeptivu"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Databricks cluster creation failure
+# Diagnose and resolve issues with Databricks cluster runtime (DBR)
 
 
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
