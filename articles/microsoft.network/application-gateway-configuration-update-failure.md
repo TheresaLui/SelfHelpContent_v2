@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Configuration update failure"
-    description="Configuration update failure"
+    pageTitle="Application Gateway in Failed state"
+    description="Application Gateway in Failed state"
     service="microsoft.network"
     resource="applicationgateways"
     authors="TobyTu"
@@ -10,12 +10,12 @@
     articleId="7640a487-6f9f-4a3c-9e53-5c75862cc1f9"
     resourceTags=""
     productPesIds="15922"
-    supportTopicIds="32783359"
+    supportTopicIds="32783361"
     cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# Configuration update failure
+# Application Gateway in Failed state
 
 <!--/issueDescription-->
 If you make any changes to your Application Gateway, a PUT operation is performed on the gateway resource to update the configuration. Application Gateway being in a **Failed** state generally means that one or more components of the configuration is malformed, but your gateway will continue to serve requests.
