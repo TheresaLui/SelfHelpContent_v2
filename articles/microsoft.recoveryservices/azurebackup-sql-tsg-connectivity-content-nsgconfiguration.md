@@ -22,7 +22,7 @@ Run below PowerShell cmdlets to white-list Azure Backup, Storage, Active Directo
 # Add Azure account credentials
 Add-AzureRmAccount
 # Select the NSG subscription
-Select-AzureRmSubscription <Subscription Id>
+Select-AzureRmSubscription "SubscriptionId"
 # Select the NSG
 $nsg = Get-AzureRmNetworkSecurityGroup -Name "<NSG name>" -ResourceGroupName "<NSG resource group name>"
 # Add allow outbound rule for Azure Backup service tag
