@@ -17,7 +17,7 @@
 
 # Shared Image Gallery
 
-Most customers resolve their High Performance Computing issues using below steps:<br>
+Most customers resolve their High Performance Computing issues using the following resources.<br>
 
 ## **Recommended Steps**
 
