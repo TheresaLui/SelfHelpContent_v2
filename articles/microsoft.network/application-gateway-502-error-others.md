@@ -13,7 +13,7 @@
     supportTopicIds="32783370"
     cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     ownershipId="CloudNet_AzureApplicationGateway"
- />
+/>
 
 # Application Gateway other issues
 

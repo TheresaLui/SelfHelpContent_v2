@@ -13,7 +13,7 @@
     supportTopicIds="32783372"
     cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     ownershipId="CloudNet_AzureApplicationGateway"
- />
+/>
 
 # Unknown back-end health
 <!--/issueDescription-->

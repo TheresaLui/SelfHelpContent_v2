@@ -13,7 +13,7 @@
     supportTopicIds="32783363"
     cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     ownershipId="CloudNet_AzureApplicationGateway"
- />
+/>
 
 # Configure end-to-end SSL
 

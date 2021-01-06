@@ -13,7 +13,7 @@
     supportTopicIds="32783364"
     cloudEnvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
     ownershipId="CloudNet_AzureApplicationGateway"
- />
+/>
 
 # Configure SSL offload
 
