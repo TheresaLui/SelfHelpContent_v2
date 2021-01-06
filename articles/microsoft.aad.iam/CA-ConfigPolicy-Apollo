@@ -17,10 +17,11 @@ ownershipId="AzureIdentity_MultiFactorAuthentication"
 This experience integrates automated checks, manual steps, important documents and relevant results from the web.
  
 :::Section Insights:::
-## Running a few automated checks to determine 
+## Troubleshooting issues related to Conditional Access 
+Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
  
 <Insight>
-<symptomId>DiagnosticId.DxpPrimaryInfoInsight</symptomId>
+<symptomId>DxpPrimaryInfoInsight</symptomId>
 <executionText>Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade </executionText>
 <timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
 <noResultText>Everything looks good from our side!</noResultText>
@@ -29,9 +30,7 @@ This experience integrates automated checks, manual steps, important documents a
   
 :::Section Manual Troubleshooting Solutions::: 
 <video>
-<src>How to deploy conditional access | Azure Active Directory</src>        
-
-
+<src>https://www.youtube.com/watch?v=c_izIRNJNuk</src>        
 <title>How to deploy conditional access</title>
 <size>small</size>        
 </video>
