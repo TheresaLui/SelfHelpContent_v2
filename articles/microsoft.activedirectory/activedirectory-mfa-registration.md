@@ -17,8 +17,6 @@
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
-# MFA Registration
-
 ### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
 You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
@@ -27,23 +25,19 @@ You can quickly find out what happened or diagnose problems related to user sign
 2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
 3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
    
+
 ## **Recommended Steps**
-
-- Check if Combined Registration is enabled. If not, enable [Combined Registration](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined).
-	- If Combined Registration is enabled: Verify that your tenant's CA policies configured for combined registration are applying, by checking the [Azure AD Sign-in Events](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access#azure-ad-sign-in-events)
-	- If no Combined Registration CA policies are configured, learn how to [Configure the Azure Multi-Factor Authentication Registration Policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
-
-- Check [What Authentication and Verification methods are available in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#how-each-authentication-method-works)
-- Register the security methods by following [these steps](https://myprofile.microsoft.com)
-
-## **Recommended Documents**
-
-* [My users can only register the Authenticator App](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 
-* [Azure MFA authentication method analysis](https://docs.microsoft.com/samples/azure-samples/azure-mfa-authentication-method-analysis/azure-mfa-authentication-method-analysis).
-* [Conditional Access: Securing security info registration](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-registration)
-
-### **Recommended Videos**
-
-* [Manage security information in My Account (1 minute)](https://youtu.be/zmC5UzF25Sg)
-* [Register and manage your security info (2 minutes)](https://youtu.be/k0oiKQK3LjQ)
-
+ 
+Check the scenario which is applicable:
+1. If Registration is  done but getting error while signing In:
+    * Check the [sign in logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/SignIns: see if any error code generated for e.g. 50076. Search the error code in below URL: https://login.microsoftonline.com/error and follow the presented troubleshooting steps 
+ 
+2: If you are looking for combined registration(MFA+SSPR) or getting issue while doing it go to [Manage user feature preview settings](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/UserSettings), and follow these instructions on [how to enable combined security information registration in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined?WT.mc_id=Portal-Microsoft_Azure_Support)
+ 
+3. If any of the below MFA registration method has been selected and getting error:
+    a. Authenticator app
+    	* [Frequently asked questions (FAQ) about the Microsoft Authenticator app](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-faq)
+	* [Issues with Microsoft Authenticator not popping up Approval message](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/issues-with-microsoft-authenticator-not-popping-up-approval/m-p/267794)
+    b. Phone or SMS: [Common problems with two-factor verification and your work or school account](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-troubleshoot)
+ 
+4. If you are looking to change the verification method: Go to https://myapps.microsoft.com and select the verification method you want, and follow these steps to [Change your two-factor verification method and settings](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings) 
