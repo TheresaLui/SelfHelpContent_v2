@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
+**INTERNAL CONTENT ONLY - DO NOT PROVIDE TO CUSTOMER**
 
 <!--/issueDescription-->
 
@@ -33,7 +33,7 @@ Try to follow the recommended documents to troubleshoot or escalate
 
 ## **Recommended Documents**
 
-* [Scale Down Failure Investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349545/ScaleDown-Failure-Investigation)
+* [Scale down failure investigation](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349545/ScaleDown-Failure-Investigation)
 * [Scaling](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349540/Scaling)
 * [Scaling best practices](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
 * [How to troubleshoot zombie hosts](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349548/TSG-to-debug-Zombie-Hosts-Problem)
