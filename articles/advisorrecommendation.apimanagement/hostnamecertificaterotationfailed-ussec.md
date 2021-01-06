@@ -3,7 +3,7 @@
     description="Hostname certificate rotation failed."
     authors="apicore"
     ms.author="aoapicoreaft"
-    articleId="b882dd44-9d01-4d63-917b-1860dcfd1f01_Public"
+    articleId="d56921ac-4544-4ee0-91cb-865bf9d36d24_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
 	  ownershipId="Compute_APIManagement"
@@ -66,7 +66,7 @@
     }
   ],
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://dataexplorer.azure.miccrosoft.scloud/clusters/apimussec.usseceast').database('APIMUSSEC').AzureAdvisor_HostnameCertificateRotationFailed",
+    "streamNamespace": "cluster('https://dataexplorer.azure.microsoft.scloud/clusters/apimussec.usseceast').database('APIMUSSEC').AzureAdvisor_HostnameCertificateRotationFailed",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   }
