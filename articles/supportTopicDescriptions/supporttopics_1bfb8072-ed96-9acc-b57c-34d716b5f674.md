@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   authors="elixirsys2"
-  ms.author="shemers, olegan"
+  ms.author="shemers, olegan, luki"
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -177,10 +177,10 @@
     {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
-      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
-      "searchTags": "Log Analytics;Agent;OMS;Collect",
+      "shortDescription": "Issues related with the Windows Log Analytics agent (previously known as MMA)",
+      "searchTags": "Log Analytics;Agent;OMS;Collect;MMA",
       "category": "Data Collection",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "34ee4c48-dc0a-4b7f-0714-895cabd00e47",
