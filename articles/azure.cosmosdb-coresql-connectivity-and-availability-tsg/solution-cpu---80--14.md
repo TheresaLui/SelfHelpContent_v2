@@ -1,8 +1,8 @@
 <properties
 	  pageTitle="CPU more than 80%"
 	  description="CPU more than 80%"
-	  service="Microsoft.DocumentDB"
-	  resource="databaseAccounts"
+      service="Microsoft.DocumentDB"
+      resource="databaseAccounts"
 	  authors="anferrei"
 	  ms.author="anferrei"
 	  displayOrder=""
@@ -11,11 +11,11 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="55404bba-0f35-4356-9cc1-392a6a69e9ec"
+	  articleId="bfc6a106-6609-4695-a002-2f1118be75d4"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# CPU more than 80%
+# CPU > 80%
 
 <!--issueDescription-->
 
