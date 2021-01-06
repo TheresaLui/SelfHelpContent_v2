@@ -34,4 +34,4 @@ Use the following recommended documents to troubleshoot or escalate.
 
 ## **Known Issues**
 
-* [Hang in Accepted with exception in InitializeFromRemoteStore](https://dev.azure.com/msdata/HDInsight/_workitems/edit/472170)
+* [Hang in Accepted with exception in InitializeFromRemoteStore](https://msdata.visualstudio.com/HDInsight/_workitems/edit/955945)
