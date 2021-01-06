@@ -40,8 +40,7 @@ In order to run it you need to:
 
 5. Open a New Script window
 
-9. Paste the following in the script window:
-    
+9. Paste the following in the script window:    
   ```
       $parameters = @{
           Server = '.database.windows.net'
@@ -60,7 +59,7 @@ In order to run it you need to:
       $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
       Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
       #end
-  ```
+  ```    
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
 
 16. Run it
