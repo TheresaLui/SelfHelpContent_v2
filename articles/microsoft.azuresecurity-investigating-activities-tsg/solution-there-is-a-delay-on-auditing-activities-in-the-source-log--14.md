@@ -20,17 +20,13 @@
 <!--issueDescription-->
 
 1. For MS apps use the template: <br>
-Dear customer, <br>
 <br>
 At this point, it seems that the delay is on source app. We will open a collaboration with them, and they will get in touch with you to continue troubleshooting.<br>
-Best regards,<br>
 <br>
 <br>
 2. For 3rd party app (Gsuite/Box/etc..): <br>
-Dear customer, <br>
 <br>
 It seems that the delay is on the 3rd party app end. Please open a ticket with the 3rd parties support team to understand the delay.<br>
-Best reagrds,<br>
 
 <!--/issueDescription-->
 

@@ -20,17 +20,13 @@
 <!--issueDescription-->
 
 For MS apps use the template: <br>
-Dear customer, <br>
 <br>
 At this point, it seems that the Missing/Inaccurate values is on source app. We will route the case to concern team, and they will get in touch with you to continue troubleshooting.<br>
-Best regards,<br>
 <br>
 <br>
 For 3rd party app (Gsuite/Box/etc..) use the template: <br>
-Dear customer, <br>
 <br>
 It seems that the Missing/Inaccurate values is on the 3rd party app end. Please open a ticket for their support team for further investigation.<br>
-Best regards,<br>
 
 <!--/issueDescription-->
 
