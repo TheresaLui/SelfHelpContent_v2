@@ -20,9 +20,9 @@
 <!--issueDescription-->
 
 1. There is no change in terms of **ADLS Gen2 Accounts**. Follow the same process as that of General Purpose accounts <br>
-2. For **BLOBS** and **CONTAINERS**, continue to file an ICM to xstore\bigdata as appropriate.
-4. To prevent this, you can leverage on Backup and archive solutions in Azure, enabling Azure Soft Delete for Blobs or Azure Blob Snapshots.<br>
-5. Currently recovery of **ADLS Gen 2 File system** isn't supported<br>
+
+2. For blobs and containers, continue to file ICM with XStore/BigData as appropriate. If you don't have access to create an ICM with Big Data team, create a Storage ICM and engage one of the Storage TAs or email cssstorageta@microsoft.com to route the ICM to Table Server team.
+
 
 
 <!--/issueDescription-->

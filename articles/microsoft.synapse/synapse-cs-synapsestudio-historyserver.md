@@ -30,3 +30,4 @@ Use the [Data tab](https://docs.microsoft.com/azure/synapse-analytics/spark/apac
 
 * [Known issues](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-history-server#known-issues)
 
+ 

@@ -23,3 +23,4 @@
 * [Synapse workspace Managed virtual network](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-vnet)
 
 * [Synapse workspace Managed private endpoints](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints)
+ 
