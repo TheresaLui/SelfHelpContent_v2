@@ -39,4 +39,4 @@ If your Application Gateway is in a **Failed** state, follow these steps to reco
 
 ## **Recommended Documents**
 
-- [Application Gateways - Create Or Update](https://docs.microsoft.com/rest/api/application-gateway/applicationgateways/createorupdate)
+- [Application Gateways - Create or Update](https://docs.microsoft.com/rest/api/application-gateway/applicationgateways/createorupdate)
