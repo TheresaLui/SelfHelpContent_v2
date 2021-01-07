@@ -22,15 +22,15 @@
  
 ## **Recommended Steps**
 
-**Go to Benefits, [Technical Benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical), to view benefits, and activate your Support incidents and view Access ID**
+**Go to Benefits > [Technical Benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical), to view benefits, and activate your Support incidents / view Access ID**
 
-Note: _MPN Technical Benefits are available to Gold, Silver or Microsoft Action Pack subscribers (excluding Network members)_
+Note: *MPN Technical Benefits are available to Gold, Silver or Microsoft Action Pack subscribers (excluding Network members)*
 
 There are 2 types of MPN technical benefit:
 
 **1. Support incidents**
  * Use for technical support / break-fix, product functionality failure, error message etc
- * _The Global Admin or MPN Partner Admin must click_ [Activate](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical) before use (allow up to 5 business days), then all users can see the Access ID and Contract ID
+ * *The Global Admin or MPN Partner Admin must click* [Activate](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical) before use (allow up to 5 business days), then all users can see the Access ID and Contract ID
  * Microsoft Product Support is for [recent](https://support.microsoft.com/help/4032154/mpn-partner-support-n-1-policy-for-on-premises-products) on-premises products only – [create request](https://support.serviceshub.microsoft.com/supportforbusiness/create)
  * Signature Cloud Support is for cloud products only (exclusive to Gold & Silver partners) – select [Customers](https://partner.microsoft.com/commerce/customers/list), then Service management
 
