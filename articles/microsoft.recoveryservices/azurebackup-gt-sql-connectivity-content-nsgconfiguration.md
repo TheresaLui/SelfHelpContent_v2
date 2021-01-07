@@ -19,18 +19,18 @@
 
 Run below PowerShell cmdlets to white-list Azure Backup, Storage, Active Directory services for outbound network access.
 
-# Add Azure account credentials
+## Add Azure account credentials
 Add-AzureRmAccount
-# Select the NSG subscription
+## Select the NSG subscription
 Select-AzureRmSubscription "SubscriptionId"
-# Select the NSG
+## Select the NSG
 $nsg = Get-AzureRmNetworkSecurityGroup -Name "<NSG name>" -ResourceGroupName "<NSG resource group name>"
-# Add allow outbound rule for Azure Backup service tag
+## Add allow outbound rule for Azure Backup service tag
 Add-AzureRmNetworkSecurityRuleConfig -NetworkSecurityGroup $nsg -Name "AzureBackupAllowOutbound" -Access Allow -Protocol * -Direction Outbound -Priority <priority> -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix "AzureBackup" -DestinationPortRange 443 -Description "Allow outbound traffic to Azure Backup service"
-# Add allow outbound rule for Storage service tag
+## Add allow outbound rule for Storage service tag
 Add-AzureRmNetworkSecurityRuleConfig -NetworkSecurityGroup $nsg -Name "StorageAllowOutbound" -Access Allow -Protocol * -Direction Outbound -Priority <priority> -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix "Storage" -DestinationPortRange 443 -Description "Allow outbound traffic to Azure Backup service"
-# Add allow outbound rule for AzureActiveDirectory service tag
+## Add allow outbound rule for AzureActiveDirectory service tag
 Add-AzureRmNetworkSecurityRuleConfig -NetworkSecurityGroup $nsg -Name "AzureActiveDirectoryAllowOutbound" -Access Allow -Protocol * -Direction Outbound -Priority <priority> -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix "AzureActiveDirectory" -DestinationPortRange 443 -Description "Allow outbound traffic to AzureActiveDirectory service"
-# Save the NSG
+## Save the NSG
 Set-AzureRmNetworkSecurityGroup -NetworkSecurityGroup $nsg
 
