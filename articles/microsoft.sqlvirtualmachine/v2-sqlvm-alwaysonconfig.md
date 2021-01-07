@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Setup Availability Group"
+  pagetitle="Setup Availability Group&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -17,7 +17,7 @@ Most customers can resolve issues regarding setting up Always On Availability Gr
 
 ## **Recommended Steps**
 
-- **Different ways to Configure Availability Groups in Azure VMsS**
+- **Different ways to Configure Availability Groups in Azure VMs**
 
   The following articles show the different ways to configure AGs, and you can also see the **[comparisons](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment)**
   * [Configure Availability Group Pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-prerequisites-tutorial) and follow the steps for [Always on Configuration-Manually](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial)
