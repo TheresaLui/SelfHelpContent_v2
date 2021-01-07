@@ -19,17 +19,17 @@
 
 ## **Recommended Steps**
 
-To do end-to-end TLS, Application Gateway requires the backend instances to be allowed by uploading authentication or trusted root certificates. For the v1 SKU, authentication certificates are required, and for the v2, SKU trusted root certificates are required to allow the backend servers.
+To perform end-to-end TLS, Application Gateway requires backend instances to be allowed by uploading authentication or trusted root certificates. For the v1 SKU, authentication certificates are required, and for the v2 SKU, trusted root certificates are required, to allow the backend servers.
 
-For v1 SKU (Standard/WAF): Authentication certificates are the public key of backend server certificate. Authentication certificates are not needed for trusted backend services, such as Web Apps.
+For v1 SKU (Standard/WAF): Authentication certificates are the public key of the backend server certificate. Authentication certificates are not needed for trusted backend services, such as Web Apps.
 
 For v2 SKU (Standard_v2/WAF_v2): Trusted root certificates are the root certificate of the backend server certificate. Trusted root certificates are not needed for well-known CAs, such as DigiCert. Make sure that the Hostname in HTTP settings matches with the CN of your certificate.
 
 To upload an authentication certificate or trusted root certificate, follow these steps:
 
 1. Navigate to your HTTP settings and make sure that the protocol is set as HTTPS.
-2. If you are using v1 SKU, you can choose the **create new** option to upload a ".cer" certificate file which is the public key of your backend server certificate. Make sure the thumbprint matches. Or you can choose an existing certificate. If the backend server is a trusted Azure service like Azure App Service/Web Apps, you can choose the **Use for App Service** option and you don't have to upload a certificate.
-3. If you are using v2 SKU, you can choose the **create new** option to upload a ".cer" certificate file which is the root certificate of your backend server certificate. Or you can choose an existing certificate from the list. If your backend server certificate is signed by a well-known CA like Digicert, you can choose the **Use well known CA certificate** and don't have to upload any certificate. If your backend certificate is self-signed or not well-known, then you'll have to upload the root certificate.
+2. If you are using v1 SKU, you can choose the **create new** option to upload a `.cer` certificate file, which is the public key of your backend server certificate. Make sure the thumbprint matches. Or you can choose an existing certificate. If the backend server is a trusted Azure service, such as Azure App Service/Web Apps, you can choose the **Use for App Service** option, and you don't need to upload a certificate.
+3. If you are using v2 SKU, you can choose the **create new** option to upload a `.cer` certificate file, which is the root certificate of your backend server certificate. Or you can choose an existing certificate from the list. If your backend server certificate is signed by a well-known CA, such as Digicert, you can choose the **Use well known CA certificate**, and you don't need to upload a certificate. If your backend certificate is self-signed or not well-known, then you'll have to upload the root certificate.
 
 ## **Recommended Documents**
 
