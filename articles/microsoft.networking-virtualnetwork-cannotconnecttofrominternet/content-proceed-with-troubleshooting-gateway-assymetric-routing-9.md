@@ -34,7 +34,7 @@ Depending on the scenario, platform routes can be learned from components such a
 
 ## Reccommended Documents
 
-1.[ASC  TestTraffic ](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
+1. [ASC  TestTraffic ](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
 
 ## Reccommended Documents
 
