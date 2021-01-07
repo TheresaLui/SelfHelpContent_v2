@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-If the performance of your Application Gateway is not desirable or if you notice that there is a higher latency than expected, it might be because of the fact that your gateway instances are stressed due to the high traffic and you will have to scale out (increase the number of instances). Your Application Gateway can scale out or scale in either manually or autoscaling. Manual scaling is supported both in Application Gateway v1 SKU (Standard/WAF) and v2 SKU (Standard_v2/WAF_v2).
+If the performance of your Application Gateway is not optimal or if there is a higher latency than expected, it might be because your gateway instances are stressed due to high traffic. To fix this, you'll need to scale out (increase the number of instances). Your Application Gateway can scale out or scale, in either manually or by autoscaling. Manual scaling is supported both in Application Gateway v1 SKU (Standard/WAF) and v2 SKU (Standard_v2/WAF_v2).
 
-It is important that you scale your Application Gateway according to your traffic and with a bit of a buffer so that you are prepared for any traffic surges or spikes and minimizing the impact that it may have in your QoS. In manual scaling, you can manually increase the number of instances of your Application Gateway. To scale out manually, follow the steps below:
+It's important to scale your Application Gateway according to your traffic and with a bit of a buffer, so that you're prepared for any traffic surges or spikes and can minimize the impact on your QoS. In manual scaling, you can manually increase the number of instances of your Application Gateway. To scale out manually, follow the steps below:
 
 1. Navigate to your Application Gateway and select the **Configuration** tab.
 2. Choose **Manual** as the capacity type (v2). V1 SKU only supports manual scaling.
