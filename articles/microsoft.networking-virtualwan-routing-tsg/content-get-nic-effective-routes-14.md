@@ -17,7 +17,7 @@ resource="Microsoft.network/virtualWans,Microsoft.Network/virtualwans,Microsoft.
 
 # Get NIC effective routes
 
-In this step, you'll have to pull up a virtual machine from the spoke VNET you?re having issues with and get the NIC effective routes. Please use the steps below:
+In this step, you'll have to pull up a virtual machine from the spoke VNET you're having issues with and get the NIC effective routes. Please use the steps below:
 
 1) Open a VM in the spoke VNET in ASC (Any VM should work which is in running state) 
 2) Navigate to Diagnostics tab on ASC 
