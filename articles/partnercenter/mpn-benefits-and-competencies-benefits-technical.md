@@ -22,7 +22,7 @@
  
 ## **Recommended Steps**
 
-**Go to Benefits, [Technical Benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical), to view benefits, and activate your Support incidents / view Access ID**
+**Go to Benefits, [Technical Benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical), to view benefits, and activate your Support incidents and view Access ID**
 
 Note: _MPN Technical Benefits are available to Gold, Silver or Microsoft Action Pack subscribers (excluding Network members)_
 
