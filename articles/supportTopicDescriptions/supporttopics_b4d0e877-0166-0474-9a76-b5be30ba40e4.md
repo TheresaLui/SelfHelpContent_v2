@@ -31,6 +31,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "074e8c07-478c-cbd0-0b98-7a0d23479260",
+      "longDescription": "",
+      "shortDescription": "Issues with backend configuration",
+      "searchTags": "backend",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0d0e3cc9-f367-9bc7-0026-b5e67134bc7e",
+      "longDescription": "",
+      "shortDescription": "Issues with portal performance, slowness and latency",
+      "searchTags": "slow;latency",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "16572f30-7b9e-7c7f-034f-84a60c3078a5",
       "longDescription": "",
       "shortDescription": "Why is my APIM capacity high?",
@@ -71,11 +87,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1b0f69a9-d4cf-6c60-c5f8-71f0cfd1d542",
+      "longDescription": "",
+      "shortDescription": "Configuration issues and deploying issues with Self Hosted Gateway",
+      "searchTags": "Gateway",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1d91a89e-3f32-acfa-9185-d9d9a97934af",
       "longDescription": "",
       "shortDescription": "Client certification issues for outbound and inbound gateway calls",
       "searchTags": "gateway;certification;client",
       "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "21c436e7-dbbc-cb82-36d4-dd26c84b9c03",
+      "longDescription": "",
+      "shortDescription": "Configuring Custom domains",
+      "searchTags": "Domain;Custom",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "317d2bb8-4a47-ca4b-c3e6-6048865245a0",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring internal and external caching",
+      "searchTags": "Caching;Policies",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -183,11 +223,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5724df2a-a62a-59cc-83aa-1525fbc22377",
+      "longDescription": "",
+      "shortDescription": "Issues with integrating internal or external VNET",
+      "searchTags": "VNET",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ac2919f-baab-f058-b3d4-4a361a995fb5",
       "longDescription": "",
       "shortDescription": "Developer Portal configuration, customization and issues",
       "searchTags": "Signin;Customize;Configuration;Performance;UI Issue",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "60f48403-37be-cbca-6fa5-aa7f6c3d77e2",
+      "longDescription": "",
+      "shortDescription": "Issues with authentication policies and Developer portal built-in sign-in",
+      "searchTags": "DevPortal;Signin",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -223,6 +279,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "70c9f9fe-1763-3a91-1e8d-da257fc2e1e4",
+      "longDescription": "",
+      "shortDescription": "Issues with Git repo integration with API Management",
+      "searchTags": "GitRepo;Integration;APIM",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73e09b7c-39a3-56e4-a357-83be61ec808f",
       "longDescription": "",
       "shortDescription": "Issues with ciphers, protocols and certificates in APIM",
@@ -251,6 +315,14 @@
       "longDescription": "",
       "shortDescription": "External accessibility issues to the portal",
       "searchTags": "Gateway;accessibility",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8d65351d-19b2-e1b4-e56b-90be6270019d",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring quota and rate limit policies",
+      "searchTags": "quota;rate limit",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
@@ -319,11 +391,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2eb5296-4f55-b85a-c41f-a4fa0f6a034d",
+      "longDescription": "",
+      "shortDescription": "Issues with validating JWT policy",
+      "searchTags": "JWT",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4be2190-1ffc-e36c-b242-f744490951a2",
       "longDescription": "",
       "shortDescription": "Issues with the Management API",
       "searchTags": "ManagementAPI",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c51d1e96-b195-801b-a5ab-65d6d5d118b2",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring retry policy",
+      "searchTags": "policy;retry",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cb674e9f-aca6-9bdf-e7b1-47b751882500",
+      "longDescription": "",
+      "shortDescription": "Integration issues with Azure Monitor and Log Analytics",
+      "searchTags": "LogAnalytics;AzureMonitor",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -375,10 +471,34 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f7cbfe2d-d528-94fe-d796-ebb90157db2f",
+      "longDescription": "",
+      "shortDescription": "Configuring and understanding alerts and metrics",
+      "searchTags": "alerts;metrics",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f810189a-b9fa-60ff-2062-dbcba1d03cc6",
       "longDescription": "",
       "shortDescription": "Issues with APIM users and groups",
       "searchTags": "users;groups",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f8a76e9d-5da9-162f-a067-d905933e3520",
+      "longDescription": "",
+      "shortDescription": "Issues configuring email templates and notifications",
+      "searchTags": "email ;templates;notifications",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f9522dfc-ba4b-56ae-f622-765defcb9933",
+      "longDescription": "",
+      "shortDescription": "Issues with custom and default roles and RBAC in APIM",
+      "searchTags": "roles;RBAC",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
     }
