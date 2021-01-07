@@ -1,16 +1,15 @@
 <properties
-	        pageTitle="accessservicesrunningintheprivatecloud"
-	        description="AVS connectivity access scoping questions"
-	        authors="neshenoy"
-	        ms.author="neshenoy"
-            ms.service="azure-vmware-cloudsimple"
-	        selfHelpType="problemScopingQuestions"
-	        supportTopicIds="32743018"
-	        productPesIds="17080"
-	        cloudEnvironments="Public,FairFax, usnat, ussec"
-	        schemaVersion="1"
-            articleId="c633dbbd-7b96-47c6-a191-4589df733dde"
-	        ownershipId="Azure_VMwareSolution_Content"
+	articleId="accessservicesrunningintheprivatecloud"
+	pageTitle="AVS connectivity access scoping questions"
+	description="AVS connectivity access scoping questions"
+	authors="neshenoy"
+	ms.author="neshenoy"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32743018"
+	productPesIds="17080"
+	cloudEnvironments="Public,FairFax, usnat, ussec"
+	schemaVersion="1"
+	ownershipId="Azure_VMwareSolution_Content"
 />
 #connectivity issue Access services running in the private cloud 
 ---
