@@ -15,9 +15,9 @@ resource="Microsoft.network/virtualWans,Microsoft.Network/virtualwans,Microsoft.
 	  ownershipId="Cloudnet_VirtualWAN"
 />
 
-# Check virtual network conenctions to the HUB
+# Check virtual network connections to the HUB
 
-In this step you'll be checking if the VNETs are conencted to the hub. Please refer to the step below:
+In this step you'll be checking if the VNETs are connected to the hub. Please refer to the step below:
 
 There are 3 different places to check those connections as below 
 1) Look into the Virtual Network Connections section of HUB in ASC. 
