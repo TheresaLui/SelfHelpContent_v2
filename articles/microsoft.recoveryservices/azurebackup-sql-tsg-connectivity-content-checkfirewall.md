@@ -7,7 +7,7 @@
 	  ms.author="chgonugu"
 	  displayOrder=""
 	  selfHelpType="TSG_Content"
-	  supportTopicIds=""
+	  supportTopicIds="95c36c0c-9fad-f13d-d32e-301ee4b0434a,6608af94-b1e5-4d3c-99e3-b27a8d647c80"
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
