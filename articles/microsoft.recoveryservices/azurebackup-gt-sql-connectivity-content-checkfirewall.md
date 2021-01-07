@@ -1,12 +1,12 @@
 <properties
 	  pageTitle="Check Firewall/Anti virus/Proxy settings"
 	  description="Check Firewall/Anti virus/Proxy settings"
-      service="Microsoft.RecoveryServices"
-      resource="Microsoft.RecoveryServices/vaults"
+          service="Microsoft.RecoveryServices"
+          resource="Microsoft.RecoveryServices/vaults"
 	  authors="chgonugu"
 	  ms.author="chgonugu"
 	  displayOrder=""
-	  selfHelpType="TSG_Content"
+	  selfHelpType="Guided_TS_Content"
 	  supportTopicIds=""
 	  resourceTags=""
 	  productPesIds=""
@@ -19,8 +19,8 @@
 
 Verify that there are no firewalls/antivirus softwares/proxy settings that are blocking calls to any of Azure Backup, Azure Storage and Azure AAD Services
 Links to Service Tags and their IP ranges to which Outbound connectivity should be allowed:
-Public Cloud: https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519 
-US Government Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57063 
-China Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57062 
-Germany Cloud: https://www.microsoft.com/en-us/download/details.aspx?id=57064 
+Public Cloud: https://www.microsoft.com/download/confirmation.aspx?id=56519 
+US Government Cloud: https://www.microsoft.com/download/details.aspx?id=57063 
+China Cloud: https://www.microsoft.com/download/details.aspx?id=57062 
+Germany Cloud: https://www.microsoft.com/download/details.aspx?id=57064 
 
