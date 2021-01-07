@@ -23,10 +23,10 @@ You can renew SSL certificates in Application Gateway using the **renew** option
 
 1. Navigate to the listener where you have the expired or soon-to-be expired certificate.
 2. Select the **Renew or edit the selected certificate** option.
-3. In the choose certificate option, you can choose between uploading a renewed certificate or choose a certificate from your Key Vault.
+3. In the **Choose certificate** option, you can choose between uploading a renewed certificate or choose a certificate from your Key Vault.
 4. Select **Save** once done.
 
-You can also achieve the same using Azure PowerShell or Azure CLI. For information, see [Renew Application Gateway certificates](https://docs.microsoft.com/azure/application-gateway/renew-certificates).
+You can also renew SSL certificates by using Azure PowerShell or Azure CLI. For information, see [Renew Application Gateway certificates](https://docs.microsoft.com/azure/application-gateway/renew-certificates).
 
 ## **Recommended Documents**
 
