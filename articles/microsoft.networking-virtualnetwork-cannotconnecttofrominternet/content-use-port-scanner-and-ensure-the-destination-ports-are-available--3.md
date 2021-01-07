@@ -23,8 +23,8 @@ The port scan tool can be used to check the availability of a port on the OS lev
 ## Recommended Steps
 
 1. Navigate to the destination VM in ASC Resource Explorer
-2. Select the ""Diagnostics"" Tab
-3. Select the  ""Scan VM Ports""
+2. Select the **Diagnostics** Tab
+3. Select the  **Scan VM Ports**
 4. Enter destination ports to be scanned separated by commas. Example: 40, 443, 3389.  A dash can be used to test a range. Example 20-22. (The destination IP address will be automatically entered for you. )
 5. Run test and review results
 
