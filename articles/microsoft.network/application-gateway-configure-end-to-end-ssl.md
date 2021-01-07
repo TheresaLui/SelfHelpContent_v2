@@ -17,16 +17,19 @@
 
 # Configure end-to-end SSL
 
+End-to-end SSL enables you to secure your web traffic (from the client to Application Gateway, and from the Application Gateway to the back-end server) using TLS encryption.
+
 ## **Recommended Steps**
 
-End-to-end SSL enables you to secure your web traffic (both from the client to Application Gateway and from the Application Gateway to the back-end server) using TLS encryption. To achieve end-to-end SSL encryption in Application Gateway, follow these steps:
+ To achieve end-to-end SSL encryption in Application Gateway, follow these steps:<br>
+- Make sure your listener uses HTTPS protocol
+- Upload your SSL certificate in the listener in .pfx format or reference it from your Key Vault
+- Make sure the protocol in HTTP settings is **HTTPS**.
+- For back-end authentication: <br.
+   - For v1 SKU (Standard/WAF), upload the public key of your back-end server certificate in .cer format so that Application Gateway identifies that as a valid back-end server. If the back-end server is a trusted Azure service like Web Apps, you don't need to upload any certificate, simply choose the **Use for App Service option**.<br>
+   - For v2 SKU, upload the root certificate of the back-end server certificate in .cer format. If the certificate is signed by a well-known CA, you don't have to upload the root certificate.
 
-- Make sure your listener is using HTTPS protocol.
-- Upload your SSL certificate in the listener in .pfx format or referencing it from your Key Vault.
-- Make sure the protocol in HTTP settings is HTTPS.
-- For back-end authentication: v1 SKU (Standard/WAF), you would need to upload the public key of your back-end server certificate in .cer format so that Application Gateway would identify that as a valid back-end server. If the back-end server is a trusted Azure service like Web Apps, you don't need to upload any certificate, simply choose the **Use for App Service option**.
-- For v2 SKU, you must upload the root certificate of the back-end server certificate in .cer format. If the certificate is signed by a well-known CA, you don't have to upload the root certificate.
-- Make sure the hostname entered in your HTTP settings or custom health probe matches with the CN of your back-end server certificate.
+- Make sure the hostname entered in your HTTP settings or custom health probe matches the CN of your back-end server certificate.
 
 |Listener  |Rule  |HTTP Settings  |
 |---------|---------|---------|
