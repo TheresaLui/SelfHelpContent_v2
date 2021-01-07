@@ -36,5 +36,5 @@ The next hop determines what device will receive traffic for  the destination ad
  
 ## Reccommended Documents
 
-1.(Azure Custom Routes)[https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#custom-routes]
+1.[Azure Custom Routes](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#custom-routes)
 
