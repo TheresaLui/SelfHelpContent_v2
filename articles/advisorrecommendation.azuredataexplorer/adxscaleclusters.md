@@ -59,8 +59,8 @@
         "resource": "{resourceId}",
         "skuRecommendation": {
             "skuName": "{recommendedSku}",
-            "isDevSku": {isDevSku},
-            "instancesCount": {recommendedInstanceCount}
+            "isDevSku": "{isDevSku}",
+            "instancesCount": "{recommendedInstanceCount}"
         },
         "description": "{description}",
         "recommendedConfig": "{recommendedConfig}"
