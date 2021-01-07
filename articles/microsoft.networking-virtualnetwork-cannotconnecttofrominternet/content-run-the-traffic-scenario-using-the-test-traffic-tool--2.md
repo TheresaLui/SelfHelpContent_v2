@@ -17,7 +17,7 @@
 
 # Run the traffic scenario using the test traffic tool.
 
-"TestTraffic is a feature of Azure Support Center  that takes IP and port parameters to run against stateful(NSG) and stateless(UDR) VFP rules on the platform showing if traffic theoretically is allowed or blocked.
+TestTraffic is a feature of Azure Support Center  that takes IP and port parameters to run against stateful (NSG) and stateless (UDR) VFP rules on the platform showing if traffic theoretically is allowed or blocked.
 
 
 ## Recommended Steps
