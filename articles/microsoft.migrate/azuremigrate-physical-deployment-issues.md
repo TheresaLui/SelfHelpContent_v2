@@ -12,6 +12,8 @@
   ownershipid="Compute_AzureMigrate" />
 # Deployment issues with Azure Migrate appliance for physical server assessment
 
+## **Recommended Steps**
+
 Most customers can resolve deployment issues with Azure Migrate appliance using the following resources.
 For general queries about Azure Migrate appliance, refer to the [documentation](https://docs.microsoft.com/azure/migrate/common-questions-appliance). <br>
 
@@ -45,11 +47,6 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
     Include all of the [required URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) to the allow list, and make sure they are not blocked by proxy or firewall settings. If the update of any appliance component fails, manually update the component either by rerunning the prerequisites, or by following these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).<br><br>
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
-
-* **When I click Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
-
-    * Go back to the **Appliance configuration manager** tab. The device code appears directly below the **Login** button in bold text.
-    * Copy the device code and paste it in the **Login** tab to proceed with your Azure log in.
 
 * **After a successful login with my Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps, or click on 'Retry' button"**. 
 
