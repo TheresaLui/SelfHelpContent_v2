@@ -38,7 +38,7 @@ Depending on the scenario, platform routes can be learned from components such a
 
 ## Reccommended Documents
 
-1.https://docs.microsoft.com/en-us/azure/virtual-network/diagnose-network-routing-problem
-2.https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#how-azure-selects-a-route
-3.https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#default-route
+1. https://docs.microsoft.com/en-us/azure/virtual-network/diagnose-network-routing-problem
+2. https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#how-azure-selects-a-route
+3. https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#default-route
 
