@@ -17,7 +17,7 @@
 
 # Determine next hop
 
-#Recommended Documents
+## Recommended Documents
 
 https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
 
@@ -26,7 +26,7 @@ User Defined Routes (UDRs) can be used to overwrite Azure system routs and force
 The next hop determines what device will receive traffic for  the destination address space.
 
 
-#Recommended Steps
+## Recommended Steps 
 
 	1. Review the 0.0.0.0 route to find the next hop.
 	2. Note the IP listed.
@@ -34,7 +34,7 @@ The next hop determines what device will receive traffic for  the destination ad
 	4. If the IP is not found in the VNET check for VNET Peerings at the bottom of the VNET properties page. 
 
  
-#Reccommended Documents
+## Reccommended Documents
 
 1.(Azure Custom Routes)[https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#custom-routes]
 
