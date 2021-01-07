@@ -20,7 +20,7 @@
 "TestTraffic is a feature of Azure Support Center  that takes IP and port parameters to run against stateful(NSG) and stateless(UDR) VFP rules on the platform showing if traffic theoretically is allowed or blocked.
 
 
-#Recommended Steps
+## Recommended Steps
 
 1. Navigate to the destination VM in ASC Resource Explorer
 2. Select the ""Diagnostics"" Tab
@@ -30,7 +30,7 @@
 6. Review results to determine if traffic is allowed or blocked
 
 
-#Reccommended Documents
+## Reccommended Documents
 
 1.[ASC  TestTraffic ](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
 
