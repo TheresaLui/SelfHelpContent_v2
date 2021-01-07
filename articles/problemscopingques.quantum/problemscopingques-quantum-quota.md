@@ -156,7 +156,7 @@
         },
         {
             "id": "quota_provider_workspace",
-            "visibility": "quota_subtype == provider-quota && quota_provider_name != null",
+            "visibility": "quota_provider_name == MS-Quantum || quota_provider_name == dont_know_answer",
             "order": 8,
             "controlType": "dropdown",
             "displayLabel":"Workspace Name",
@@ -202,32 +202,28 @@
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name == IonQ",
             "order": 10,
             "controlType": "textBlock",
-            "displayLabel":"Next Steps",
-            "text": "If you would like to request a quota/limit increase for your IonQ offer, please reach out to IonQ support (<a href='https://ionq.zendesk.com/hc/en-us'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The IonQ support team will then evaluate your request."
+            "displayLabel": "If you would like to request a quota/limit increase for your IonQ offer, please reach out to IonQ support (<a href='https://ionq.zendesk.com/hc/en-us'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The IonQ support team will then evaluate your request."
         },
         {
             "id": "quota_provider_type_honeywell",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name == Honeywell",
             "order": 11,
             "controlType": "textBlock",
-            "displayLabel":"Next Steps",
-            "text": "If you would like to request a quota/limit increase for your Honeywell offer, please reach out to Honeywell support (<a href='https://www.honeywell.com/us/en/contact'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The Honeywell support team will then evaluate your request."
+            "displayLabel":"If you would like to request a quota/limit increase for your Honeywell offer, please reach out to Honeywell support (<a href='https://www.honeywell.com/us/en/contact'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The Honeywell support team will then evaluate your request."
         },
         {
             "id": "quota_provider_type_qci",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name == QCI",
             "order": 12,
             "controlType": "textBlock",
-            "displayLabel":"Next Steps",
-            "text": "If you would like to request a quota/limit increase for your Quantum Circuits Inc. (QCI) offer, please reach out to QCI support (<a href='https://quantumcircuits.com/'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The QCI support team will then evaluate your request."
+            "displayLabel":"If you would like to request a quota/limit increase for your Quantum Circuits Inc. (QCI) offer, please reach out to QCI support (<a href='https://quantumcircuits.com/'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The QCI support team will then evaluate your request."
         },
         {
             "id": "quota_provider_type_1qloud",
             "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name == 1Qloud",
             "order": 13,
             "controlType": "textBlock",
-            "displayLabel":"Next Steps",
-            "text": "If you would like to request a quota/limit increase for your 1Qloud Optimization Platform offer offer, please reach out to 1QBit support (<a href='https://1qbit.com/1qloud/'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The 1QBit support team will then evaluate your request."
+            "displayLabel":"If you would like to request a quota/limit increase for your 1Qloud Optimization Platform offer offer, please reach out to 1QBit support (<a href='https://1qbit.com/1qloud/'>link</a>). Please provide details of your subscripton ID, workspace name, and a business justification. The 1QBit support team will then evaluate your request"
         },
         {
             "id": "quota_provider_new_limit",
