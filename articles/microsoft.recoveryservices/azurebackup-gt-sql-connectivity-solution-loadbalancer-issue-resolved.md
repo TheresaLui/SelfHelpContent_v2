@@ -6,7 +6,7 @@
 	  authors="chgonugu"
 	  ms.author="chgonugu"
 	  displayOrder=""
-	  selfHelpType="TSG_Content"
+	  selfHelpType="Guided_TS_Content"
 	  supportTopicIds=""
 	  resourceTags=""
 	  productPesIds=""
