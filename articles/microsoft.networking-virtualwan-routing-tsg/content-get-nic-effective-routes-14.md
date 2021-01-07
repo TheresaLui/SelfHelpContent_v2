@@ -24,5 +24,5 @@ In this step, you'll have to pull up a virtual machine from the spoke VNET you'r
 3) Run a test traffic from VM IP as source to destination IP address on port customer wants to connect on or for just testing you can use port 80 as destination port. 
 4) Open child VPN gateway and in the Brooklyn gateway properties section, click on the raw data URI and open it with notepad. 
 5) Search for CAs and find the instance private IPs (which are CAs) 
-6) Now, Look at the effecitive routes and find the destination address space and see if you can see the next hop type virtual network gateway pointing to VPN gateway CA address. Note: Traffic do not hit route service in this scenario.
+6) Now, Look at the effective routes and find the destination address space and see if you can see the next hop type virtual network gateway pointing to VPN gateway CA address. Note: Traffic do not hit route service in this scenario.
 
