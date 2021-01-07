@@ -27,7 +27,7 @@ To configure SSL offload:
 
 - Make sure your listener uses HTTPS protocol
 - Upload your SSL certificate in the listener in .pfx format or reference it from your Key Vault
-- Make sure the protocol in HTTP settings is **HTTP**.
+- Make sure the protocol in HTTP settings is **HTTP**
 
 Note that the SSL certificate uploaded in the listener can be a local .pfx file. Or, if you use a v2 SKU Gateway (Standard_v2/WAF_v2), you have an option to reference the certificate uploaded in your Key Vault directly from Application Gateway. Key Vault integration enables certificate auto-renewal, where Application Gateway polls KV to check for a newer version of the certificate every 4 hours.
 
