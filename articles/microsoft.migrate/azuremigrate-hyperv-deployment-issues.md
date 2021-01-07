@@ -45,11 +45,6 @@ Ensure that you have allow listed the required [URLs](https://docs.microsoft.com
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-**After I select Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
-
-1.  Go back to the **Appliance configuration manager** tab to find the device code below the **Login** button, in bolded text.
-1.  Copy the device code and paste it on the **Login** tab to proceed with the Azure Login.
-
 **After I successfully log in with an Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
 1. This issue happens when the Azure user account used to log in from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal
