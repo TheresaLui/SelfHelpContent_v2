@@ -2,7 +2,7 @@
   pagetitle="Configuring with Azure Active Directory or Office 365"
   service=""
   resource=""
-  ms.author="vimalt"
+  ms.author="vimalt,cathmill"
   selfhelptype="Generic"
   supporttopicids="32452997"
   resourcetags=""
@@ -27,10 +27,7 @@ Probably not! You will have an opportunity to resolve any user mapping issues du
 You can still connect on your own, but you should continue contacting support for help with disconnected users
 
 ### Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization? 
-Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).<br>
-
-For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
-For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+Are you an Azure AD guest user? [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).
 
 ## **Recommended Documents**
 
@@ -40,4 +37,5 @@ For quick answers to common questions and issues, try the [Azure DevOps Virtual 
 * [Change your organization connection to another Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/change-azure-ad-connection?view=azure-devops)
 * [Get list of organizations backed by Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/get-list-of-organizations-connected-to-azure-active-directory?view=azure-devops)
 * [Access via Azure AD FAQs](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#faq-connect)
-
+* For service impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
