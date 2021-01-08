@@ -15,7 +15,7 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# Kerberos Authentication failure for nfsv4.1 kerberos volume
+# Kerberos Authentication failure for nfsv4.1 Kerberos volume
 
 
 
