@@ -29,29 +29,29 @@ Follow through all of these steps before you create a support ticket. If you do 
    [TFVC](https://docs.microsoft.com/azure/devops/pipelines/repos/tfvc#ci-triggers)
    [Subversion](https://docs.microsoft.com/azure/devops/pipelines/repos/subversion#failing-triggers)	
 
-* I am using **scheduled triggers** in my **YAML pipeline**, and the pipeline is not being triggered on schedule <br>
+* I am using scheduled triggers in my YAML pipeline, and the pipeline is not being triggered on schedule <br>
    Read the suggestions in [scheduled triggers FAQ](https://docs.microsoft.com/azure/devops/pipelines/process/scheduled-triggers#faq).
 
-* I am using **pipeline resources** in my **YAML pipeline**, and the pipeline is not being triggered
+* I am using pipeline resources in my YAML pipeline, and the pipeline is not being triggered
    Read the section on [pipeline triggers](https://docs.microsoft.com/azure/devops/pipelines/process/pipeline-triggers?tabs=yaml) to understand the limitations of this feature.
 
-* I have a **classic build or release pipeline**, and triggers do not work <br>
+* I have a classic build or release pipeline, and triggers do not work <br>
    [Classic release pipeline triggers](https://docs.microsoft.com/azure/devops/pipelines/release/triggers)
    [Build completion triggers](https://docs.microsoft.com/azure/devops/pipelines/process/pipeline-triggers?tabs=classic) in classic build pipelines
 
-* My pipeline is triggered, but it is **stuck waiting** <br>
-   Change the problem type as follows:
-    Problem type: **Pipelines - Configuring pipelines**
+* My pipeline is triggered, but it is stuck waiting <br>
+   Change the problem type as follows:<br>
+    Problem type: **Pipelines - Configuring pipelines**<br>
     Problem subtype: **My pipelines are stuck waiting in a queue**
 
 * My pipeline is triggered, but fails in `checkout` or `get sources` step <br>
-   Change the problem type as follows:
-    Problem type: **Pipelines - Building and testing your application**
+   Change the problem type as follows:<br>
+    Problem type: **Pipelines - Building and testing your application**<br>
     Problem subtype: **Getting source code from repository into pipeline**
 
-* I have **other issues** with integrating my pipeline with Azure Repos, GitHub, BitBucket, or Subversion. <br>
-   Change the problem type as follows:
-    Problem type: **Pipelines - Building and testing your application**
+* I have other issues with integrating my pipeline with Azure Repos, GitHub, BitBucket, or Subversion. <br>
+   Change the problem type as follows:<br>
+    Problem type: **Pipelines - Building and testing your application**<br>
     Problem subtype: **GitHub, BitBucket, SVN integration**
 
 ## **Recommended Documents**
