@@ -9,7 +9,7 @@ articleId="diagnoseandsolve-confluent"
 selfHelpType="diagnoseandsolve"
 resourceTags=""
 productPesIds="17363"
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
 ownershipId="PartnerSolutions_Confluent"
 />
 # Top common problems for Apache Kafka® on Confluent Cloud™

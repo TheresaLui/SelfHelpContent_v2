@@ -14,7 +14,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "MPN Benefits and Competencies related problems",
+  "shortDescription": "MPN benefits and competencies-related problems",
   "longDescription": "",
   "supportTopics": [
     {
@@ -26,8 +26,14 @@
     {
       "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
       "longDescription": "",
-      "shortDescription": "How to request technical presales and deployment support leveraging MPN advisory benefit",
+      "shortDescription": "How to request technical presales and deployment support to leverage MPN advisory benefit",
       "searchTags": "Pre-sales;Licensing;License;SKU",
+    },
+    {
+      "id": "7aa01557-a00a-1845-57d1-5616d12c6fdc",
+      "longDescription": "",
+      "shortDescription": "Link partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
     },
     {
       "id": "1f8d2ab4-8109-4771-94da-fefd36173e92",
@@ -68,7 +74,7 @@
     {
       "id": "f81a1ede-4482-9ffb-099b-9697a59bf02d",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing or using Go-to-Market benefits",
+      "shortDescription": "Questions about reviewing or using go-to-market benefits",
       "searchTags": "MPN;Benefits;Competencies;Go-to-Market",
     },
     {
@@ -128,7 +134,7 @@
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies for which you're currently eligible or requirements missing to gain a competency",
+      "shortDescription": "Questions about competencies for which you're currently eligible or requirements needed to gain a competency",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -140,7 +146,7 @@
     {
       "id": "85b57f3a-5b1c-c66f-01d8-e0242c5ced01",
       "longDescription": "",
-      "shortDescription": "Questions about troubleshooting issues with software benefits downloading",
+      "shortDescription": "Questions about troubleshooting issues with downloading software benefits",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -206,7 +212,7 @@
     {
       "id": "5c862940-d7fd-e36c-b92b-a4102a66e756",
       "longDescription": "",
-      "shortDescription": "Questions about analyzing people in your organization regarding exams, certifications, and assessments toward competency attainment",
+      "shortDescription": "Questions about how to assess competency in your organization through exams and certifications",
       "searchTags": "MPN;Benefits;Competencies",
     },
   ]
