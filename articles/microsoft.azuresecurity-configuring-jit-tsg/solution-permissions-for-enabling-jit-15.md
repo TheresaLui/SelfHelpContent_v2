@@ -19,14 +19,7 @@
 
 <!--issueDescription-->
 
-Dear Customer, <br>
+Please check user permissions for required RBAC role. If user has custom role make sure to follow the article [Permissions needed to configure JIT](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)
 <br>
-Please check user permissions for required RBAC role. If user has custom role make sure to follow the document below.<br>
-<br>
-Best Regards,<br>
 
 <!--/issueDescription-->
-
-## Recommended Documents
-
-1. [Permissions needed to configure JIT](https://docs.microsoft.com/azure/security-center/just-in-time-explained#what-permissions-are-needed-to-configure-and-use-jit)

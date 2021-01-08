@@ -17,5 +17,6 @@
 
 # Check if VM is buit on ARM (Azure Resource Manager)
 
-1. It is recommended to migrate all Azure VM's to ARM (Azure Resource Manager).
-2. Please refer to [Migrating to ARM](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview)
+1. Classic VMs are not supported for Security Center just-in-time access.
+2. It is recommended to migrate all Azure VM's to ARM (Azure Resource Manager).
+3. Please refer to [Migrating to ARM](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview)

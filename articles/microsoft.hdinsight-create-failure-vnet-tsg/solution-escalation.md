@@ -39,3 +39,4 @@ Use the following recommended documents to troubleshoot or escalate.
 
 * [Invalid scriptaction in ADLS Gen2 with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/796654)
 * [Invalid scriptaction in blob storage with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/620356)
+* [NSG validator checks all TCP and UDP ports connectivity](https://msdata.visualstudio.com/HDInsight/_workitems/edit/968423)

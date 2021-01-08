@@ -7,7 +7,7 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677671"
+	supportTopicIds="32784351"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -19,15 +19,10 @@
 
 ## **Recommended Steps**
 
-* [Automatic termination](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#automatic-termination) 
-* [Unexpected Cluster Termination](https://kb.azuredatabricks.net/clusters/termination-reasons.html#unexpected-cluster-termination)
-* By design, clusters which are idle for 30 days will be automatically deleted. To avoid this, you can pin them which will not allow the cluster deletion. More information:
+> Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.
 
-    * [Pin a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#pin-a-cluster)
-    * [Delete a cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#delete-a-cluster)
+* **By design, clusters that are idle for 30 days will be automatically deleted.** To prevent this deletion after 30 days idle time, make sure to [pin the cluster](https://docs.microsoft.com//azure/databricks/clusters/clusters-manage#--pin-a-cluster).
     
-* For details on who deleted the cluster, please check [cluster event log](https://docs.databricks.com/user-guide/clusters/event-log.html#cluster-event-log)
+* [How to set Automatic termination](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#automatic-termination). 
 
-
-
-
+ * For details about who deleted the cluster, check the [cluster event log](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#--cluster-event-logs).
