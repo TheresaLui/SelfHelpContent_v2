@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Pipelines security and permissions"
-	description="Azure Pipelines issues related to security and permissions"
-	infoBubbleText="Azure Pipelines issues related to security and permissions"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="vijayma"
-	ms.author="vijayma"
-	articleId="AZDevOpsPipelinesSecurityIssues"
-	supportTopicIds="32742332"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Pipelines Security and Permissions Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="vijayma,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742332"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinessecurityissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines Security and Permissions Issues
 
 ## **Recommended Steps**
@@ -64,5 +58,5 @@ Are you facing one of these common problems?
 * [Protecting resources in YAML pipelines](https://docs.microsoft.com/azure/devops/pipelines/security/resources?view=azure-devops)
 * [Security through templates in YAML pipelines](https://docs.microsoft.com/azure/devops/pipelines/security/templates?view=azure-devops)
 * [Security best practices](https://docs.microsoft.com/azure/devops/pipelines/security/overview?view=azure-devops)
-* [DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
