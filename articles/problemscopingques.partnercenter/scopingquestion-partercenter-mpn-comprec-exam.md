@@ -26,13 +26,23 @@
        "id": "learn_more_text",
        "order": 1,
        "controlType": "infoblock",
-       "content": "The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu.
-       The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>).
-       Useful steps for the screenshot provided by the user from My Profile showing the completed association can be found <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
+       "content": "The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu"
+       },
+              {
+       "id": "learn_more_text2",
+       "order": 2,
+       "controlType": "infoblock",
+       "content": "The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>).
+       },
+              {
+       "id": "learn_more_text3",
+       "order": 3,
+       "controlType": "infoblock",
+       "content": "Needed steps for the screenshot provided by the user from My Profile showing the completed association can be found <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
        },
        {
 	   "id": "mpn_support_level",
-       "order": 2,
+       "order": 4,
 	   "controlType": "dropdown",
 	   "displayLabel": "What support level are you interested in?",
        "watermarkText":"Please select the support level from the below list",
@@ -54,7 +64,7 @@
        },
        {
 	   "id": "competency_type",
-       "order": 3,
+       "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "What competency are you interested in?",
        "watermarkText":"Please select the Competency from the below list",
@@ -144,7 +154,7 @@
        },
        {
 	   "id": "competency_method",
-       "order": 4,
+       "order": 6,
 	   "controlType": "dropdown",
 	   "displayLabel": "What is the option used to attain the competency?",
        "watermarkText":"Please select an option from the below list",
@@ -290,7 +300,7 @@
        },
               {
 	   "id": "exam_notshowing",
-	   "order": 5,
+	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "What is the exam/assessment/certification's name not showing up or not taken into account by the system?",
 	   "watermarkText": "Please provide the exam/assessment/certification's name",
@@ -299,7 +309,7 @@
        },
        {
 	   "id": "user_notshowing",
-	   "order": 6,
+	   "order": 8,
 	   "controlType": "textbox",
 	   "displayLabel": ""What is the user name and email address used for the above exam/assessment/certification not showing in the report or not taken into account by the system?",
 	   "watermarkText": "Please provide the user name and email address",
@@ -308,7 +318,7 @@
        },
 {
 	   "id": "issue_details",
-	   "order": 7,
+	   "order": 9,
 	   "controlType": "dropdown",
 	   "displayLabel": "What is the help you are looking for?",
 	   "watermarkText": "Please select from the list below",
@@ -354,7 +364,7 @@
     },
        {
 	   "id": "problem_description",
-	   "order": 8,
+	   "order": 10,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about your issue",
@@ -364,7 +374,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 9,
+	   "order": 11,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
