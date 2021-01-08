@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Queries"
-    description="Azure Boards queries"
-    infoBubbleText="Azure Boards queries"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsQueries"
-    supportTopicIds="32260219"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Work Item Query Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32260219"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardsqueries"
+  ownershipid="Azure_DevOps_Services" />
 # Work Item Query Issues
 
 ## **Recommended Steps**
@@ -58,5 +52,5 @@ Are you facing one of these common problems?
 * [Search for work items](https://docs.microsoft.com/azure/devops/project/search/work-item-search?view=azure-devops)
 * [Query across projects](https://docs.microsoft.com/azure/devops/boards/queries/using-queries?view=azure-devops#query-across-projects)
 * [Guidance to create high-performing queries](https://docs.microsoft.com/azure/devops/boards/queries/high-performing-queries?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
