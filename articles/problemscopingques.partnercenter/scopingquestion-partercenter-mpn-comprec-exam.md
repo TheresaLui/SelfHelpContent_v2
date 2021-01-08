@@ -26,7 +26,9 @@
        "id": "learn_more_text",
        "order": 1,
        "controlType": "infoblock",
-       "content": "Guidance on where to find or how to obtain the files needed to be uploaded: The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu. The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>). Needed steps for the screenshot provided by the user from My Profile showing the completed association can be found <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
+       "content": "The Partner Center User report can be exported by the AccountAdmin or MpnPartnerAdmin from User Management menu.
+       The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>).
+       Useful steps for the screenshot provided by the user from My Profile showing the completed association can be found <a href='https://support.microsoft.com/help/2966380/how-to-link-or-unlink-a-mcp-id-to-a-partner-organization'>HERE</a> - section B: Associate Microsoft Learning account (exams and certifications)"
        },
        {
 	   "id": "mpn_support_level",
@@ -286,9 +288,73 @@
 	       ],
 	   "required": true
        },
+              {
+	   "id": "exam_notshowing",
+	   "order": 5,
+	   "controlType": "textbox",
+	   "displayLabel": "What is the exam/assessment/certification's name not showing up or not taken into account by the system?",
+	   "watermarkText": "Please provide the exam/assessment/certification's name",
+	   "infoBalloonText": "In case there are multiple values that are not displayed in the report, for a better analysis and faster resolution, please upload a file containing all values.",
+	   "required": false
+       },
+       {
+	   "id": "user_notshowing",
+	   "order": 6,
+	   "controlType": "textbox",
+	   "displayLabel": ""What is the user name and email address used for the above exam/assessment/certification not showing in the report or not taken into account by the system?",
+	   "watermarkText": "Please provide the user name and email address",
+	   "infoBalloonText": "In case there are multiple users that are not displayed in the report, for a better analysis and faster resolution, please upload a file containing all values.",
+	   "required": false
+       },
+{
+	   "id": "issue_details",
+	   "order": 7,
+	   "controlType": "dropdown",
+	   "displayLabel": "What is the help you are looking for?",
+	   "watermarkText": "Please select from the list below",
+     "dropdownOptions": [
+      {
+       "value": "exam_not_reflecting",
+       "text": "Assessment/exam not reflecting correctly"
+      },
+      {
+       "value": "broken_exam_link",
+       "text": "Broken assessment/exam link"
+      },
+      {
+       "value": "certification_not_reflecting",
+       "text": "Certification not reflecting correctly"
+      },
+      {
+       "value": "mcpid_issue",
+       "text": "Issues with MCP ID"
+      },
+      {
+       "value": "partner_university_issue",
+       "text": "Issues with Partner University account"
+      },
+      {
+       "value": "learning_kpis_issue",
+       "text": "Learning KPIs not reflecting correctly"
+      },
+      {
+       "value": "registering_exam_question",
+       "text": "Questions on registering for exams"
+      },
+      {
+       "value": "retiring_exam_question",
+       "text": "Questions on retiring exams"
+      },
+      {
+       "value": "dont_know_answer",
+       "text": "Not sure / Other"
+      }
+     ],
+	   "required": true
+    },
        {
 	   "id": "problem_description",
-	   "order": 5,
+	   "order": 8,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any additional information about your issue",
@@ -298,7 +364,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 6,
+	   "order": 9,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
