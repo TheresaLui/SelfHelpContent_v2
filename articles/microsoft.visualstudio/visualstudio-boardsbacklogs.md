@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards backlogs"
-    description="Issues with backlogs"
-    infoBubbleText="Azure Boards backlogs"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsBacklogs"
-    supportTopicIds="32260182"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Boards backlog issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32260182"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardsbacklogs"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Boards backlog issues
 
 ## **Recommended Steps**
@@ -54,5 +48,5 @@ Are you facing one of these common problems?
 * [Display rollup progress or totals](https://docs.microsoft.com/azure/devops/boards/backlogs/display-rollup?view=azure-devops&tabs=agile-process)
 * [Filter backlogs or queries based on keywords, tags, or other fields](https://docs.microsoft.com/azure/devops/boards/backlogs/filter-backlogs?view=azure-devops)
 * [Work tracking, process, and project limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
