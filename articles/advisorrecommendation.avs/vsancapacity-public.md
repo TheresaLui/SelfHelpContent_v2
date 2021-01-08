@@ -2,26 +2,26 @@
     pageTitle="vSAN Capacity Utilization"
     description="vSAN capacity warnings"
     ms.author="chetaks"
-    articleId="c397af14-f2eb-454b-8419-2a8e7d9aef8a"
+    articleId="eeb4ed3e-4e9b-40b4-84fb-5514d0be0eda_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USSec, USNat"
-    ownershipId="CloudES_AzureSupportCenterTest"
+    ownershipId="AzureDedicated_Networking"
 />
 # vSAN Capacity Warning
 ---
 {
-  "recommendationOfferingId": "",
-  "recommendationOfferingName": "vSAN Capacity Utilization",
+  "recommendationOfferingId": "ee4d26c1-13da-47fa-af18-02c12ecf15a9",
+  "recommendationOfferingName": "Azure VMware Solution",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "c397af14-f2eb-454b-8419-2a8e7d9aef8a",
+  "recommendationTypeId": "eeb4ed3e-4e9b-40b4-84fb-5514d0be0eda",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://skylink.kusto.windows.net').database('AVSProd').tenanthealth",
+    "streamNamespace": "cluster('https://skylink.kusto.windows.net').database('AVSProd').clusterUsed75",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.Compute/VirtualMachines",
+  "recommendationResourceType": "Microsoft.AVS/privateClouds",
   "recommendationFriendlyName": "vSANCapacity",
   "recommendationMetadataState": "Active",
   "owner": {
@@ -31,37 +31,23 @@
       "service": "Azure VMware Solution",
       "team": "Triage"
     },
-    "serviceTreeId": "VMWAREVIRTUSTREAM\Triage"
+    "serviceTreeId": "ee4d26c1-13da-47fa-af18-02c12ecf15a9"
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://www.vmware.com/my/products/vsan.html",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-private-clouds-clusters",
   "description": "vSAN Capacity Warning",
-  "longDescription": "Your vSAN capacity utilization has reached 65%. The cluster utilization is required to remain below the 75% critical threshold for SLA compliance. Please add nodes or adjust your VM workloads to not exceed 75% utilization and fall out of SLA compliance.
-",
+  "longDescription": "Your vSAN capacity utilization has reached 75%. The cluster utilization is required to remain below the 75% critical threshold for SLA compliance. Please add new nodes to VSphere cluster to increase capacity or delete VMs to reduce consumption or adjust VM workloads",
   "potentialBenefits": "Maintain the health and performance of your vSAN operations",
   "actions": [
     {
-      "actionId": "",
-      "description": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
-      "documentLink": ""
+      "actionId": "a3173c63-db87-414a-bf6d-683e2e97c4c1",
+      "description": "Reduce your storage utilization to below 75%",
+      "actionType": "Document",
+      "documentLink": "https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-storage"
     }
   ],
-  "resourceMetadata": {
-    "action": {
-      "actionId": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
-      "documentLink": ""
-    }
-  },
-  "displayLabel": "Your vSAN utilization is high and the Private Cloud may soon fall out of SLA compliance",
+  "displayLabel": "Your vSAN utilization is high and out of SLA compliance",
   "additionalColumns": [],
   "tip": "",
   "costSavingInfo": "",
