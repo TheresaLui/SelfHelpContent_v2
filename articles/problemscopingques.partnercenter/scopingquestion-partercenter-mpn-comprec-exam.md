@@ -32,7 +32,7 @@
        "id": "learn_more_text2",
        "order": 2,
        "controlType": "infoblock",
-       "content": "The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>)
+       "content": "The MCP transcript (for exams or certifications) passed and not recognized – must be taken from MS Learning and the screenshot for the Assessment proof must be taken from Partner University (useful steps: <a href='https://support.microsoft.com/help/4519831/skills-report-in-partner-center'>Skills report in Partner Center</a>)"
        },
        {
        "id": "learn_more_text3",
