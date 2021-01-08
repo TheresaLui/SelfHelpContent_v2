@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Azure virtual machines or scale sets tasks"
-	description="Issues related to deployment to VMSS, nodes update or any guidance with the usage of the task"
-	infoBubbleText="Azure Pipelines issues related to Azure virtual machines or scale sets tasks"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZVMsandScalesetsIssues"
-	supportTopicIds="32742303"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of Azure virtual machines or scale sets tasks&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742303"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azvmsandscalesetsissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure virtual machines or scale sets tasks
 
 ## **Recommended Steps**
@@ -41,3 +35,5 @@ Are you facing one of these common problems?
 * [Tutorial: Deploy apps to virtual machine scale sets in Azure using Ansible](https://docs.microsoft.com/azure/developer/ansible/vm-scale-set-deploy-app)
 * [Tutorial: Create and manage a virtual machine scale set with the Azure CLI](https://docs.microsoft.com/azure/virtual-machine-scale-sets/tutorial-create-and-manage-cli)
 * [Tutorial: Create and manage a virtual machine scale set with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machine-scale-sets/tutorial-create-and-manage-powershell)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
