@@ -311,7 +311,7 @@
        "id": "user_notshowing",
        "order": 8,
        "controlType": "textbox",
-       "displayLabel": ""What is the user name and email address used for the above exam/assessment/certification not showing in the report or not taken into account by the system?",
+       "displayLabel": "What is the user name and email address used for the above exam/assessment/certification not showing in the report or not taken into account by the system?",
        "watermarkText": "Please provide the user name and email address",
        "infoBalloonText": "In case there are multiple users that are not displayed in the report, for a better analysis and faster resolution, please upload a file containing all values.",
        "required": false
