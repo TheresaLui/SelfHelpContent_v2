@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Azure SQL Database & SQL Server"
-	description="Issues with building database, SSIS, or SSRS projects, or running SQL utilities and scripts in a pipeline"
-	infoBubbleText="Azure Pipelines issues related to SQL projects and utilities"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzureSQLIssues"
-	supportTopicIds="32742307"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of Azure SQL Database and Server&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742307"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinesazuresqlissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure SQL Database and Server
 
 ## **Recommended Steps**
@@ -47,3 +41,5 @@ Are you facing one of these common problems?
 * [Azure SQL Database Deployment task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment?view=azure-devops)
 * [Azure Database for MySQL Deployment task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-mysql-deployment?view=azure-devops)
 * [MySQL Database Deployment on Machine Group task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/mysqldb-deployment?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
