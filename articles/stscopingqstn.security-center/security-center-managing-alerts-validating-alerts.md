@@ -39,7 +39,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 
 **Test alerts for Key Vault**
 
-   [Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
+    [Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
 
 **Test alerts for Storage ATP**
    1.	Navigate to a storage account that has Azure Defender for Storage enabled
@@ -56,7 +56,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 
 **Test alerts for SQL ATP**
 
-* [Create alerts for Azure SQL Managed Instance using the Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/alerts-create)
+    [Create alerts for Azure SQL Managed Instance using the Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/alerts-create)
 
 
 ## **Recommended Documents**
