@@ -12,9 +12,10 @@
   ownershipid="Compute_AzureMigrate" />
 # Deployment issues with Azure Migrate appliance for physical server assessment
 
+Most customers can resolve deployment issues with Azure Migrate appliance using the following resources.
+
 ## **Recommended Steps**
 
-Most customers can resolve deployment issues with Azure Migrate appliance using the following resources.
 For general queries about Azure Migrate appliance, refer to the [documentation](https://docs.microsoft.com/azure/migrate/common-questions-appliance). <br>
 
 
@@ -55,8 +56,8 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-    * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the drop-down menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
-    * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+    * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
+    * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 * **I am unable to complete registration due to insufficient AAD privileges and get the error "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
 
