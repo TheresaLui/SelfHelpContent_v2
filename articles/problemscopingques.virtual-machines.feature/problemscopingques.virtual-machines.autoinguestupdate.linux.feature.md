@@ -1,6 +1,6 @@
 <properties
                 pageTitle="automatic vm guest patching"
-                description="Automatic vm guest patching - Linux"
+                description="automatic vm guest patching linux"
                 authors="bhpat"
                 ms.author="bhpat"
                 selfHelpType="problemScopingQuestions"
@@ -8,15 +8,15 @@
                 productPesIds="15571"
                 cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
                 schemaVersion="1"
-                articleId="11782991-706b-d8c0-3184-904f4d8e529c"
+                articleId="problemscopingques.virtual-machines.autoinguestupdate.linux.feature.md"
                 ownershipId="Compute_VirtualMachines_Content"
 />
-# Automatic VM Guest Patching for Linux
+# automatic vm guest patching for linux
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Automatic vm guest patching",
+    "title": "automatic vm guest patching",
     "fileAttachmentHint": null,
     "formElements": [
         {
