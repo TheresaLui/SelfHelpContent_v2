@@ -17,7 +17,7 @@
 
 # Who accessed my storage resource
 
-## **Recommended Solution**
+## **Recommended Steps**
 
 Storage Analytics logs detailed information about successful and failed requests to a storage service. This information can be used to monitor individual requests and to diagnose issues with a storage service.
 
