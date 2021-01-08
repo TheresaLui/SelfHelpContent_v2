@@ -1,6 +1,7 @@
 <properties
 pageTitle="More information is needed"
 description="More information is needed to run the diagnostic"
+infoBubbleText= "More information is needed to run the diagnostic"
 service="microsoft.network"
 resource="virtualnetworks"
 authors="spacest"
@@ -29,4 +30,4 @@ The VM Connectivity Troubleshooter could not run successfully because the requir
 3. Select the port number. For now, you can only pick one of the most used port numbers at a time. More will be added with the improvement of this troubleshooter.
 4. Click Submit again.
 
-**Note**: If “Other, don’t know or not applicable” is selected, the troubleshooter won’t detect the issue. 
+**Note**: If "Other, don’t know or not applicable" is selected, the troubleshooter won’t detect the issue. 
