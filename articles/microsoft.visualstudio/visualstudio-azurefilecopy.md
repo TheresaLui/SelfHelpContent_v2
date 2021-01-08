@@ -33,8 +33,8 @@ Resolve most common issues using the following solutions.
 
 * I'm not sure which version of AzCopy is being used in the task? I need help specifying the additional arguments accordingly<br>
   The following are the versions of AzCopy are used in the task:<br>
-  Task version 4: AzCopy V10. [Look here for list of arguments and their usage](https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-copy)<br>
-Task version 3 or below: AzCopy V7. [Look here for list of arguments and their usage](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)
+  - Task version 4: AzCopy V10. [Look here for list of arguments and their usage](https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-copy)<br>
+  - Task version 3 or below: AzCopy V7. [Look here for list of arguments and their usage](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)
 
 
 ## **Recommended Documents**
