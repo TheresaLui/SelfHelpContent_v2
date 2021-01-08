@@ -37,8 +37,8 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters",
-  "description": "HDInsight service is applying an important certificate related update to your cluster. However, one or more policies in your subscription are preventing HDInsight service from creating or modifying network resources (Load balancer, Network Interface and Public IP address) associated with your clusters and applying this update. Please take actions to allow HDInsight service creating or modifying network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. The HDInsight team will be performing updates between Jan 13, 2021 05:00 PM UTC and Jan 16, 2021 05:00 PM UTC. Failure to apply this update may result in your clusters becoming unhealthy and unusable. 
-",
+  "description": "Enable critical updates to be applied to your HDInsight clusters",
+  "longDescription": "HDInsight service is applying an important certificate related update to your cluster. However, one or more policies in your subscription are preventing HDInsight service from creating or modifying network resources (Load balancer, Network Interface and Public IP address) associated with your clusters and applying this update. Please take actions to allow HDInsight service creating or modifying network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. The HDInsight team will be performing updates between Jan 13, 2021 05:00 PM UTC and Jan 16, 2021 05:00 PM UTC. Failure to apply this update may result in your clusters becoming unhealthy and unusable.",
   "potentialBenefits": "Ensure cluster health and stability",
   "actions": [
     {
@@ -70,6 +70,6 @@
   "displayLabel": "Enable critical updates to be applied to your HDInsight clusters",
   "additionalColumns": [],
   "tip": "Enable critical updates to be applied to your HDInsight clusters",
-  "testData": "c36fd9e7-e5b1-4d3e-bb85-2e538040258b,/subscriptions/c36fd9e7-e5b1-4d3e-bb85-2e538040258b/resourceGroups/sw-shc/providers/Microsoft.HDInsight/clusters/swtesthb,\"{\"\"group\"\" :\"\"policy\"\"}\"",
+  "testData": "c36fd9e7-e5b1-4d3e-bb85-2e538040258b,/subscriptions/c36fd9e7-e5b1-4d3e-bb85-2e538040258b/resourceGroups/sw-shc/providers/Microsoft.HDInsight/clusters/swtesthb,\"{\"\"group\"\" :\"\"policy\"\"}\""
 }
 ---
