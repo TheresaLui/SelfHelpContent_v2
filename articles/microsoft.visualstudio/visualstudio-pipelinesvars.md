@@ -1,18 +1,15 @@
 <properties
-  pagetitle="Variables and parameters"
-  description="Azure Pipelines issues related to variables and parameters"
-	infoBubbleText="Azure Pipelines issues related to variables and parameters"
-	service="microsoft.visualstudio"
+  pagetitle="Azure Pipelines issues related to variables and parameters&#xD;"
+  service="microsoft.visualstudio"
   resource="account"
-  ms.author="macoope"
+  ms.author="macoope,cathmill"
   selfhelptype="Generic"
   supporttopicids="32742333"
   resourcetags=""
   productpesids="15543"
   cloudenvironments="public,fairfax,usnat,ussec"
-  articleid="AZDevOpsPipelinesVars"
+  articleid="azdevopspipelinesvars"
   ownershipid="Azure_DevOps_Services" />
-
 # Azure Pipelines issues related to variables and parameters
 
 ## **Recommended Steps**
@@ -53,5 +50,5 @@ Follow through all the steps before you create a support ticket. If you do need 
 ## **Recommended Documents**
 
 * [Troubleshoot pipelines](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
