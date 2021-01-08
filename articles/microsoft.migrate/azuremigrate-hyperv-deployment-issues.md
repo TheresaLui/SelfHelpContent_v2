@@ -14,7 +14,8 @@
 
 ## **Recommended Steps**
 
-For general queries, please refer to the documentation [here](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
+For general queries, refer to the documentation [here](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
+
 
 ### Issues with setting up an appliance
 
@@ -30,12 +31,13 @@ You need to set up separate appliances for each scenario: VMware, Hyper-V, Physi
 
 No, setting up the appliance on an Azure VM is not recommended.
 
+
 ### Issues with the prerequisites check on appliance
 
 **I get an error in the Internet prerequisites check on the appliance**
 
 1.  Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
-1.  Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
+1.  Check if there is a proxy/firewall blocking access to these URLs. If allow listing is required, make sure to allow list all the URLs.
 1.  If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Set up proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
 1.  Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server
 
@@ -52,7 +54,7 @@ Ensure that you have allow listed the required [URLs](https://docs.microsoft.com
 
 **I have issues when registering the appliance using the Azure Migrate project key copied from the project**
 
-1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down menu and copy the corresponding key.
+1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the menu and copy the corresponding key.
 1. Ensure that you are pasting the key to the appliance of the correct **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 **I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
@@ -81,7 +83,7 @@ Verify the credentials provided for Hyper-V host/cluster. The local or domain us
 
 Using PowerShell as an administrator, run the `winrm qc` and `Enable-PSRemoting` commands on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) is open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
 
-**I get an error that the host name(s) in the cluster cannot be resolved**
+**I get an error that the host names in the cluster cannot be resolved**
 
 Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. Get the DNS to resolve the host names if it is not an FQDN. If this is not feasible, update the **hosts** file on the appliance to map the IP address with the host names.
 
