@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards missing incorrect work items"
-    description="Azure Boards missing incorrect work items"
-    infoBubbleText="Azure Boards missing incorrect work items"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsMissingIncorrectWorkItems"
-    supportTopicIds="32453003"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Missing or Incorrect Work Items&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32453003"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardsmissingincorrectworkitems"
+  ownershipid="Azure_DevOps_Services" />
 # Missing or Incorrect Work Items
 
 ## **Recommended Steps**
@@ -53,5 +47,5 @@ Are you facing one of these common problems?
 * [Remove or delete work items](https://docs.microsoft.com/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops)
 * [Work tracking, process, and project limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops)
 * [Query quick reference](https://docs.microsoft.com/azure/devops/boards/queries/query-index-quick-ref?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
