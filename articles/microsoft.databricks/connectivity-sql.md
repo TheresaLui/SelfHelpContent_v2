@@ -72,9 +72,9 @@ Use this document to resolve many common connectivity issues related to SQL reso
 
   **Cause**: If you have correctly followed [this document](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/synapse-analytics) to establish a proper connection, issue would be caused by NSG is not being correctly configured and thus connection to the database could not be established.
 
-  **Solution**: Once these ports are whitelisted, you should be able to connect successfully to the target database using SQL Credentials. 
+  **Solution**: After these ports are allow listed, you should be able to connect successfully to the target database using SQL Credentials. 
     * Make sure NSG have **ports 80, 443, and 1433** allowed through the firewall.
-    * As per the [Azure Connectivity architecture](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture) when the connection is within the Azure boundary we make use of Redirection which requires **port Range 11000 to 11999** to be opened as well, when the host is outside of the Azure network it would be a Proxy connection making use of Port 1433 only.
+    * As per the [Azure Connectivity architecture](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture) when the connection is within the Azure boundary we make use of redirection which requires **port Range 11000 to 11999** to be opened as well, when the host is outside of the Azure network it would be a Proxy connection making use of Port 1433 only.
   
       The Firewall rules on the Logical Server allow you to change the [connection policy](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture#connection-policy) for all inbound connections to Proxy, when doing so only Port 1433 will be required. 
 
