@@ -24,7 +24,7 @@ Refer to the following limitaions when setting up private links and Service Endp
 * Private Endpoints is not available for slots.
 
 ### Setting up Service Endpoints for App Service:
-* If remote debugging is performed from an Azure Virtual Machine, then disable Microsoft.Web service endpoint on the subnet corresponding to that Virtual Machine.
+* If remote debugging is performed from an Azure Virtual Machine, disable **Microsoft.Web** service endpoint on the subnet corresponding to that Virtual Machine.
 
 
 ## **Recommended Documents**
