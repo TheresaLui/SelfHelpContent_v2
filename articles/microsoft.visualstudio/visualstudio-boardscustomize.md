@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Customize Work Item Tracking"
-    description="Azure Boards customize work item tracking"
-    infoBubbleText="Azure Boards customize work item tracking"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsCustomizeWorkItemTracking"
-    supportTopicIds="32300884"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Customizing Work Item Tracking Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32300884"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardscustomizeworkitemtracking"
+  ownershipid="Azure_DevOps_Services" />
 # Customizing Work Item Tracking Issues
 
 ## **Recommended Steps**
@@ -57,5 +51,5 @@ Are you facing one of these common problems?
 * [Add or edit portfolio backlogs](https://docs.microsoft.com/azure/devops/organizations/settings/work/customize-process-backlogs-boards?view=azure-devops#add-or-edit-portfolio-backlogs)
 * [Supported operations when moving from Hosted XML to an inherited process](https://docs.microsoft.com/azure/devops/organizations/settings/work/upgrade-support-hosted-to-inherited?view=azure-devops)
 * [Copy a process](https://docs.microsoft.com/azure/devops/organizations/settings/work/manage-process?view=azure-devops#copy-a-process)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
