@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Artifacts"
-    description="Azure Artifacts issues"
-    infoBubbleText="Azure Artifacts issues"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="samuelkoppes"
-    ms.author="sakoppes"
-    articleId="AzDevOpsArtifacts"
-    supportTopicIds="32542242,32572375,32612983,32612984"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Artifacts&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="sakoppes,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32542242,32572375,32612983,32612984"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsartifacts"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Artifacts
 
 ## **Recommended Steps**
@@ -32,10 +26,10 @@ Are you facing one of these common problems?
 
 * I used to be on usage tiers, and am no longer on that!
 
-  - See [this article](https://devblogs.microsoft.com/devops/azure-artifacts-billing-changes-coming-october-2020/) for changes to artifacts billing
+  - See [this article](https://devblogs.microsoft.com/devops/azure-artifacts-billing-changes-coming-october-2020/) for changes to Artifacts billing
 
 ## **Recommended Documents**
 
 * [Azure Artifacts Documentation](https://docs.microsoft.com/azure/devops/artifacts/?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
