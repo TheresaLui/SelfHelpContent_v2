@@ -113,6 +113,12 @@
       "shortDescription": "Issues and guidance on CSP one-time invoices for perpetual software and hybrid software subscriptions.",
       "searchTags": "Invoice;Bill;Charges;Perpetual;Month;Charge"
     },
+     {
+      "id": "5937c261-bbd1-43e1-da44-44fdb6c714e9",
+      "longDescription": "",
+      "shortDescription": "Assistance with and information on Credit limits for purchasing via the CSP channel.",
+      "searchTags": "CLE;Enforcement;Extend;Extension;GFS;Finance;Payable"
+    },
   ]
 }
 ---

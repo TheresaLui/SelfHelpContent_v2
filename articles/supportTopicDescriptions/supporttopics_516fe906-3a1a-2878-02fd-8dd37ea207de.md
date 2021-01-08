@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_MultiFactorAuthentication" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -427,6 +428,14 @@
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb5f0cd3-6664-fdb2-4902-30f1e34dfa69",
+      "longDescription": "",
+      "shortDescription": "Questions regarding default security settings for new tenants",
+      "searchTags": "security;defaults;security default",
+      "category": "security",
       "useInDiagnoseAndSolve": "true"
     },
     {
