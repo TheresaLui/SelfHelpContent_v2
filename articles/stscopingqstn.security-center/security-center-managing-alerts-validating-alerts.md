@@ -21,6 +21,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 ### Testing alerts for various resources
 
 **Test alerts for VMs**
+
    [Test your alert configuration (EICAR test file)](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
 
    1. Enable command-line arguments auditing, using the following command: <br> 
@@ -35,11 +36,13 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
    1. Connect to the Kubernetes cluster, using the following command:<br>
    `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`
    
-   2. [Test alerts on Kubernetes](https://docs.microsoft.com/azure/security-center/security-center-alert-validation#validate-alerts-on-kubernetes-)
+   2. Follow instructions to [test alerts on Kubernetes](https://docs.microsoft.com/azure/security-center/security-center-alert-validation#validate-alerts-on-kubernetes-)
+   
 
 **Test alerts for Key Vault**
 
     [Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
+    
 
 **Test alerts for Storage ATP**
    1.	Navigate to a storage account that has Azure Defender for Storage enabled
@@ -56,7 +59,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 
 **Test alerts for SQL ATP**
 
-    [Create alerts for Azure SQL Managed Instance using the Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/alerts-create)
+ [Create alerts for Azure SQL Managed Instance using the Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/alerts-create)
 
 
 ## **Recommended Documents**
