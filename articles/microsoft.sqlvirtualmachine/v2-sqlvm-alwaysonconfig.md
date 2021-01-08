@@ -17,7 +17,7 @@ Most customers can resolve issues regarding setting up Always On Availability Gr
 
 ## **Recommended Steps**
 
-- **Different ways to Configure Availability Groups in Azure VMs**
+- **Different ways to configure Availability Groups in Azure VMs**
 
   The following articles show the different ways to configure AGs, and you can also see the **[comparisons](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment)**
   * [Configure Availability Group Pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-prerequisites-tutorial) and follow the steps for [Always on manual configuration](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial)
@@ -26,7 +26,7 @@ Most customers can resolve issues regarding setting up Always On Availability Gr
   * [Configure Availability Group Using Azure Portal-Preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
 
-* **Steps to Follow to Avoid any Errors when Configuring Availability Groups and Listener**
+* **Steps to avoid errors when configuring Availability Groups and Listener**
 
   - If you cannot join the database to existing AG, review [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987)
 
