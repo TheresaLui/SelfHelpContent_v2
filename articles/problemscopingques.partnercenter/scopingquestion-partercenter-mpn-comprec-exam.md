@@ -359,7 +359,7 @@
        "value": "dont_know_answer",
        "text": "Not sure / Other"
        }],
-       "required": true
+       "required": false
        },
        {
        "id": "problem_description",
