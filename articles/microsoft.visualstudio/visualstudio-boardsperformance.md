@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Work Item Performance"
-    description="Issues with work item performance"
-    infoBubbleText="Azure Boards work item performance"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsWorkItemPerformance"
-    supportTopicIds="32260215"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Work Item Performance Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32260215"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardsworkitemperformance"
+  ownershipid="Azure_DevOps_Services" />
 # Work Item Performance Issues
 
 ## **Recommended Steps**
@@ -40,5 +34,5 @@ Are you facing one of these common problems?
 
 * [About process customization and inherited processes](https://docs.microsoft.com/azure/devops/organizations/settings/work/inheritance-process-model?view=azure-devops&tabs=agile-process)
 * [Work tracking, process, and project limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
