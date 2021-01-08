@@ -80,7 +80,7 @@
     {
       "id": "a29eb23d-4096-2762-bbfd-df1def674f04",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating, sorting, or downloading Software benefits",
+      "shortDescription": "Questions about reviewing, activating, sorting, or downloading software benefits",
       "searchTags": "MPN;Benefits;Competencies;Software",
     },
     {
