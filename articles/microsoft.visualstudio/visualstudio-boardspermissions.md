@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Permissions"
-    description="Permissions for work items, queries, and boards"
-    infoBubbleText="Azure Boards permissions"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsPermissions"
-    supportTopicIds="32453004"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Work Item Permission Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32453004"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardspermissions"
+  ownershipid="Azure_DevOps_Services" />
 # Work Item Permission Issues
 
 ## **Recommended Steps**
@@ -46,5 +40,5 @@ Are you facing one of these common problems?
 
 * [Quick guide to default permissions and access for Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/permissions-access-boards?view=azure-devops&viewFallbackFrom=azure-devops)
 * [About area and iteration (sprint) paths](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
