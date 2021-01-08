@@ -41,7 +41,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 
 **Test alerts for Key Vault**
 
-    [Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
+  [Test Azure Key Vault threat detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
     
 
 **Test alerts for Storage ATP**
