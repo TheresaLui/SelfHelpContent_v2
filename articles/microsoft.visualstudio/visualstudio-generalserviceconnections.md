@@ -23,7 +23,7 @@ The service endpoints are created automatically because of AAD subscription auth
 This situation is often encountered when you are trying to migrate to a new tenant. In such scenarios, go to the old tenant and delete the app registrations present and delete the [service connection via API](https://docs.microsoft.com/rest/api/azure/devops/serviceendpoint/endpoints/delete?view=azure-devops-rest-6.0).
 
 * **Operation failed to create Service connection**
-When creating the service connection, [make sure that it is verified](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#create-a-service-connection).
+When creating the service connection, [make sure that it is verified](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#create-a-service-connection)
 
 * **Error: "Service Connection is unable to access the pipeline"**
 Make sure that you're using the correct service connection and that the tasks used in the pipeline can access the credentials defined in the secrets.  [Learn how to use a service connection](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#use-a-service-connection).
