@@ -21,15 +21,16 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 ### Testing alerts for various resources
 
 **Test alerts for VMs**
-[Test your alert configuration (EICAR test file)](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
+   [Test your alert configuration (EICAR test file)](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
 
-1. Enable command-line arguments auditing, using the following command: <br> 
+   1. Enable command-line arguments auditing, using the following command: <br> 
    `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\Audit" /f /v "ProcessCreationIncludeCmdLine_Enabled"`
 
-2. To get EICAR alerts on the Security Center portal, install the Log Analytics Agent on the resource and verify that it sends a valid heartbeat.
-3. [Monitor agent health issues troubleshooting guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
+   2. To get EICAR alerts on the Security Center portal, install the Log Analytics Agent on the resource and verify that it sends a valid heartbeat.
+   3. [Monitor agent health issues troubleshooting guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide#monitoring-agent-health-issues-)
 
-* **Test alerts on Kubernetes**
+
+**Test alerts on Kubernetes**
 
    1. Connect to the Kubernetes cluster, using the following command:<br>
    `az aks get-credentials --resource-group myResourceGroup --name myAKSCluster`
@@ -38,10 +39,10 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 
 **Test alerts for Key Vault**
 
-[Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
+   [Test Azure Key Vault Threat Detection in Azure Security Center](https://techcommunity.microsoft.com/t5/azure-security-center/validating-azure-key-vault-threat-detection-in-azure-security/ba-p/1220336#M73)
 
 **Test alerts for Storage ATP**
-1.	Navigate to a storage account that has Azure Defender for Storage enabled
+   1.	Navigate to a storage account that has Azure Defender for Storage enabled
 2.	Select the **Containers** tab in the sidebar
 3.	Navigate to an existing container or create a new one
 4.	Upload a file to that container. Avoid uploading any file that may contain sensitive data.
@@ -51,6 +52,7 @@ Please check [Generate sample Azure Defender alerts](https://docs.microsoft.com/
 8.	Open the Tor browser. You can download it [here](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.torproject.org%2Fdownload%2F&data=04%7C01%7CEli.Sagie%40microsoft.com%7C507f76540eb74f596c2e08d8ac118a6f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637448538650625099%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=nNIKvnIcHCKQhoKt3qqkHKZyj9cVfuUcp535LnyKta4%3D&reserved=0))
 9.	In the Tor browser, navigate to the SAS URL
 10.	You should now see/download the file uploaded in step 4.
+
 
 **Test alerts for SQL ATP**
 
