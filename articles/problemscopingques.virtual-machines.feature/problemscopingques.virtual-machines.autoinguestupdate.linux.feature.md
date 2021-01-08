@@ -1,5 +1,5 @@
 <properties
-                pageTitle="Automatic vm guest patching"
+                pageTitle="automatic vm guest patching"
                 description="Automatic vm guest patching - Linux"
                 authors="bhpat"
                 ms.author="bhpat"
