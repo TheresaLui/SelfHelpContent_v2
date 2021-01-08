@@ -12,16 +12,18 @@
   ownershipid="Compute_AppService" />
 # Private Link and Service Endpoint
 
+Refer to the following limitaions when setting up private links and Service Endpoints for App Service.
+
 ## **Recommended Steps**
 
-Things to remember when setting up private link for App Service:
+### Setting up private links for App Service:
 * Private endpoint can only be accessed from the VNET(and the connected network) in which the private endpoint is created.
-* App Service will no longer be available over its public endpoint. Trying to access App Service over its public endpoint will result in HTTP 403 message.
-* Check the DNS resolution from the client which is accessing the App Service private endpoint. It should resolve to the private IP assigned from the private endpoint then only the app will be accessible.
+* App Service will no longer be available over its public endpoint. Trying to access App Service over its public endpoint will result in an "HTTP 403" message.
+* Check the DNS resolution from the client which is accessing the App Service private endpoint. It should resolve to the private IP assigned from the private endpoint. Only then will the app be accessible.
 * Remote debugging is currently not available with Private Endpoints.
 * Private Endpoints is not available for slots.
 
-Things to remember when setting up Service Endpoints for App Service:
+### Setting up Service Endpoints for App Service:
 * If remote debugging is performed from an Azure Virtual Machine, then disable Microsoft.Web service endpoint on the subnet corresponding to that Virtual Machine.
 
 
