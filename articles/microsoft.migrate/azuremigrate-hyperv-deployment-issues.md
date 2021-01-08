@@ -65,9 +65,9 @@ For general queries, refer to the documentation [here](https://docs.microsoft.co
 
    This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance.<br>
    Do one of the following:
-* Ensure that the user account initiating the discovery is same as the one used to register the appliance
-* Provide AAD Application access permissions to the other user account for which the discovery operation is failing
-* Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
+   * Ensure that the user account initiating the discovery is same as the one used to register the appliance
+   * Provide AAD Application access permissions to the other user account for which the discovery operation is failing
+   * Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
 
 * **I have Key Vault create/update issues during appliance registration**
 
