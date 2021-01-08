@@ -38,19 +38,19 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters",
   "description": "Enable critical updates to be applied to your HDInsight clusters",
-  "longDescription": "HDInsight service is applying an important certificate related update to your cluster. However, one or more policies in your subscription are preventing HDInsight service from creating or modifying network resources (Load balancer, Network Interface and Public IP address) associated with your clusters and applying this update. Please take actions to allow HDInsight service creating or modifying network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. The HDInsight team will be performing updates between Jan 13, 2021 05:00 PM UTC and Jan 16, 2021 05:00 PM UTC. Failure to apply this update may result in your clusters becoming unhealthy and unusable.",
+  "longDescription": "HDInsight service is applying an important certificate related update to your cluster. However, one or more policies in your subscription are preventing HDInsight service from creating or modifying network resources (Load balancer, Network Interface and Public IP address) associated with your clusters and applying this update. Please take actions to allow HDInsight service to create or modify network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. The HDInsight team will be performing updates between Jan 13, 2021 05:00 PM UTC and Jan 16, 2021 05:00 PM UTC. Failure to apply this update may result in your clusters becoming unhealthy and unusable. ",
   "potentialBenefits": "Ensure cluster health and stability",
   "actions": [
     {
       "actionId": "050a15fa-ffb5-49ae-9994-d9f060d942f2",
-      "description": "Please refresh your policy to allow HDInsight service creating or modifying network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. You can also drop and recreate the cluster to apply the updates.",
+      "description": "Please refresh your policy to allow HDInsight service to create or modify network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. You can also drop and recreate the cluster to apply the updates.",
       "actionType": "Document",
       "condition":"group==\"policy\"",
       "documentLink": "https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters"
     },
     {
       "actionId": "9d9127db-e388-4bef-a3f8-415d1067f811",
-      "description": "Please unlock your cluster resource group to allow HDInsight service creating or modifying network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. You can also drop and recreate the cluster to apply the updates.",
+      "description": "Please unlock your cluster resource group to allow HDInsight service to create or modify network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. You can also drop and recreate the cluster to apply the updates.",
       "actionType": "Document",
       "condition":"group==\"template\"",
       "documentLink": "https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters"
