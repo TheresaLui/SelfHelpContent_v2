@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsightff.kusto.usgovcloudapi.net').database('HDInsightFF').GCSCertRotation",
     "dataSource": "Kusto",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",
@@ -35,7 +35,7 @@
     "serviceTreeId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters",
   "description": "Enable critical updates to be applied to your HDInsight clusters",
   "longDescription": "HDInsight service is applying an important certificate related update to your cluster. However, one or more policies in your subscription are preventing HDInsight service from creating or modifying network resources (Load balancer, Network Interface and Public IP address) associated with your clusters and applying this update. Please take actions to allow HDInsight service to create or modify network resources (Load balancer, Network interface and Public IP address) associated with your clusters before Jan 13, 2021 05:00 PM UTC. The HDInsight team will be performing updates between Jan 13, 2021 05:00 PM UTC and Jan 16, 2021 05:00 PM UTC. Failure to apply this update may result in your clusters becoming unhealthy and unusable. ",
