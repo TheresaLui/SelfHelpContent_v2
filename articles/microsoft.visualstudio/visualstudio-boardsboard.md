@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Kanban and Sprint board"
-    description="Issues with Kanban and Sprint board"
-    infoBubbleText="Azure Boards Kanban and Sprint board"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsKanbanAndSprintBoard"
-    supportTopicIds="32260185"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Kanban and Sprint Board Issues&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32260185"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardskanbanandsprintboard"
+  ownershipid="Azure_DevOps_Services" />
 # Kanban and Sprint Board Issues
 
 ## **Recommended Steps**
@@ -55,5 +49,5 @@ Are you facing one of these common problems?
 * [Show bugs on backlogs and boards](https://docs.microsoft.com/azure/devops/organizations/settings/show-bugs-on-backlog?toc=%2Fazure%2Fdevops%2Fboards%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fboards%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
 * [Remove or delete work items](https://docs.microsoft.com/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops)
 * [Work tracking, process, and project limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
