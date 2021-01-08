@@ -1,21 +1,15 @@
 <properties
-    pageTitle="Azure Boards Work Item Search"
-    description="Searching for work items"
-    infoBubbleText="Azure Boards work item search"
-    service="microsoft.visualstudio"
-    resource="account"
-    authors="danhellem"
-    ms.author="dahellem"
-    articleId="AZDevOpsBoardsSearch"
-    supportTopicIds="32612992"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    resourceTags=""
-    productPesIds="15543"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Work Item Search&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="dahellem,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32612992"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopsboardssearch"
+  ownershipid="Azure_DevOps_Services" />
 # Work Item Search
 
 ## **Recommended Steps**
@@ -33,5 +27,5 @@ Are you facing one of these common problems?
 * [Search for work items](https://docs.microsoft.com/azure/devops/project/search/work-item-search?view=azure-devops)
 * [Advanced work items search](https://docs.microsoft.com/azure/devops/project/search/advanced-work-item-search-syntax?view=azure-devops)
 * [Remove or delete work items](https://docs.microsoft.com/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops&tabs=browser)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
