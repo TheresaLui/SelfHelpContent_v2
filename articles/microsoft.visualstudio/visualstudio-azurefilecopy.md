@@ -19,11 +19,11 @@ Resolve most common issues using the following solutions.
 * Can I run the task on a Linux Agent?<br>
   This task is written in PowerShell and therefore works only when run on Windows agents. If your pipelines require Linux agents and need to copy files to an Azure Storage Account, consider running az storage blob commands in the [Azure CLI task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-cli?view=azure-devops) as an alternative.
 
-* The task is failing due to **Authentication** issues<br>
+* The task is failing due to authentication issues<br>
   If you use task version 4, the Service Principal will require more permissions for enhanced security. The following permissions must be provided:<br>
-  [Storage Blob Data Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor)<br>
-  [Storage Blob Data Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)<br>
- For more details on the level of authorization [look here](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10#option-1-use-azure-active-directory)
+  - [Storage Blob Data Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor)<br>
+  - [Storage Blob Data Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)<br>
+  For more details on the level of authorization [look here](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10#option-1-use-azure-active-directory)
 
 * The task is not resuming copy of files after it fails<br>
   Since AzCopy V10 does not support journal files, the task cannot resume the copy. Run the task again to copy all the files.
