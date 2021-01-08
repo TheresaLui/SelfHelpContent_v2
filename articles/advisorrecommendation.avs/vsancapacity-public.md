@@ -35,7 +35,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-private-clouds-clusters",
+  "learnMoreLink": "https://docs.microsoft.com/azure/azure-vmware/concepts-private-clouds-clusters",
   "description": "vSAN Capacity Warning",
   "longDescription": "Your vSAN capacity utilization has reached 75%. The cluster utilization is required to remain below the 75% critical threshold for SLA compliance. Please add new nodes to VSphere cluster to increase capacity or delete VMs to reduce consumption or adjust VM workloads",
   "potentialBenefits": "Maintain the health and performance of your vSAN operations",
@@ -44,13 +44,13 @@
       "actionId": "a3173c63-db87-414a-bf6d-683e2e97c4c1",
       "description": "Reduce your storage utilization to below 75%",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-storage"
+      "documentLink": "https://docs.microsoft.com/azure/azure-vmware/concepts-storage"
     }
   ],
   "displayLabel": "Your vSAN utilization is high and out of SLA compliance",
   "additionalColumns": [],
   "tip": "",
   "costSavingInfo": "",
-  "testData": ""
+  "testData": "db028f5d-a8b6-4b21-bd6a-9ba739cb1b3d,/subscriptions/db028f5d-a8b6-4b21-bd6a-9ba739cb1b3d/resourceGroups/RG-VMWARE-AZURE/providers/Microsoft.AVS/privateClouds/WAN-VMWARE-AZURE"
 }
 ---
