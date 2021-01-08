@@ -1,18 +1,15 @@
 <properties
-  pagetitle="YAML syntax and expressions"
-  description="Azure Pipelines issues related to YAML syntax, conditions, and expressions"
-	infoBubbleText="Azure Pipelines issues related to YAML syntax, conditions, and expressions"
-	service="microsoft.visualstudio"
+  pagetitle="Azure Pipelines issues related to YAML, conditions, and expressions&#xD;"
+  service="microsoft.visualstudio"
   resource="account"
-  ms.author="macoope"
+  ms.author="macoope,cathmill"
   selfhelptype="Generic"
   supporttopicids="32742334"
   resourcetags=""
   productpesids="15543"
   cloudenvironments="public,fairfax,usnat,ussec"
-  articleid="AZDevOpsPipelinesYAML"
+  articleid="azdevopspipelinesyaml"
   ownershipid="Azure_DevOps_Services" />
-
 # Azure Pipelines issues related to YAML, conditions, and expressions
 
 ## **Recommended Steps**
@@ -52,5 +49,5 @@ Follow through all the steps before you create a support ticket. If you do need 
 * [Expressions](https://docs.microsoft.com/azure/devops/pipelines/process/expressions)
 * [Conditions](https://docs.microsoft.com/azure/devops/pipelines/process/conditions)
 * [Troubleshoot pipelines](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
