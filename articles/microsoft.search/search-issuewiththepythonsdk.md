@@ -26,11 +26,11 @@
 
 * Upgrade to the latest version of the Azure Cognitive Search Python SDKs from pypi.org for fixes and improvements
 * If you encounter a bug, please create an issue on [GitHub](https://github.com/azure/azure-sdk-for-python/issues) and mention "Azure Cognitive Search" in the title
-* If you would like to provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search)
+* To provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search)
 
 ## **Recommended Documents**
 
-* [Python quickstart](https://docs.microsoft.com/azure/search/search-get-started-python)<br>
+* [Python Quickstart](https://docs.microsoft.com/azure/search/search-get-started-python)<br>
 * [Python samples](https://docs.microsoft.com/azure/search/samples-python)<br>
 * [Python SDK reference documentation](https://azuresdkdocs.blob.core.windows.net/$web/python/azure-search-documents/latest/index.html)<br>
 * [azure-search-documents on pypi](https://pypi.org/project/azure-search-documents/)<br>
