@@ -20,9 +20,12 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
 
 # RDP-TCP listener is misconfigured
 <!--issueDescription-->
-We have investigated and identified that the RDP-TCP listener is misconfigured impacting RDP connectivity to this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Reconfigure the listener via serial console or other remote management options described below to regain RDP connectivity
+
+## Recommended Steps**
+
+We have investigated and identified that the RDP-TCP listener is misconfigured, which impacts RDP connectivity to this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. To regain RDP connectivity, reconfigure the listener through the serial console or other remote management options, as described in the following documentation.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-Follow the mitigation instructions in [Troubleshoot authentication errors when you use RDP to connect to Azure VM](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/cannot-connect-rdp-azure-vm)/
+See [Troubleshoot authentication errors when you use RDP to connect to Azure VM](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/cannot-connect-rdp-azure-vm)
