@@ -34,7 +34,7 @@ Azure constantly monitors for health of the physical host hardware and clusters 
 ## **Recommendations**
 
 > *Learn more about:*
-> * To prepare for VM recovery events and reduce its impact, try using Scheduled Events for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
+> * To prepare for VM recovery events and reduce its impact, try using Scheduled Events forWindows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)or[Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
 > * Learn more about Azure maintenance and configuring for high availability:  
 >   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
 >   * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) 
