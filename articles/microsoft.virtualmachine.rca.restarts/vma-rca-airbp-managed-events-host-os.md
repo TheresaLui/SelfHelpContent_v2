@@ -12,7 +12,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds="13185,14749,15571,15797,15994,16080,16215,16321,16454,16470,16802"
+	productPesIds="13185,14749,15571,15797,16080,16215,16454,16470,16802"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
