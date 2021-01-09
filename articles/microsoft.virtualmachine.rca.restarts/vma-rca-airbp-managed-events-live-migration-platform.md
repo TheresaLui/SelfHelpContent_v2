@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Live Migration RCA"
 	description="Platform Operation - Live Migration"
-	infoBubbleText="Found events. See details on the right."
+	infoBubbleText="Found recovery events. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="zjalexander"
