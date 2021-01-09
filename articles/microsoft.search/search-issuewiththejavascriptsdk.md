@@ -19,14 +19,14 @@
 
 ## **Recommended Steps**
 
-* The Azure Cognitive Search JavaScript/TypeScript SDK has two libraries.  Please make sure you are using the correct library for the operation you'd like to perform:
+* The Azure Cognitive Search JavaScript/TypeScript SDK has two libraries.  Make sure you're using the correct library for the operation that you'd like to perform:
 
 	* [Client library: @azure/search-documents](https://docs.microsoft.com/javascript/api/overview/azure/search-documents-readme?view=azure-node-latest) to execute indexing and search operations on an Azure Cognitive Search index
 	* [Management library: @azure/arm-search](https://docs.microsoft.com/javascript/api/overview/azure/search/management?view=azure-node-latest) to provision a new service, manage api-keys, and adjust resources
 
 * Upgrade to the latest version of the Azure Cognitive Search JavaScript/TypeScript SDKs from [npm](https://www.npmjs.com/package/@azure/search-documents) for fixes and improvements
-* If you encounter a bug, please create an issue on [GitHub](https://github.com/Azure/azure-sdk-for-js/issues) and mention "Azure Cognitive Search" in the title
-* If you would like to provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search)
+* If you encounter a bug, create an issue on [GitHub](https://github.com/Azure/azure-sdk-for-js/issues) and mention "Azure Cognitive Search" in the title
+* To provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search)
 
 ## **Recommended Documents**
 
