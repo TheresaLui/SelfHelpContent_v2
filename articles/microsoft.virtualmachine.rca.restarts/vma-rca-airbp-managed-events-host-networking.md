@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Live Migration RCA"
+	pageTitle="Host Networking RCA"
 	description="Platform Operation - Maintenance"
 	infoBubbleText="Found maintenance events. See details on the right."
 	service="microsoft.compute"
