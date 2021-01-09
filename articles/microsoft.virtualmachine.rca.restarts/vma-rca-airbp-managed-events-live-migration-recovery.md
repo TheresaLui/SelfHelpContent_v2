@@ -4,7 +4,7 @@
 	infoBubbleText="Found recovery events. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="zjalexnader"
+	authors="zjalexander"
 	ms.author="zachal"
 	displayOrder=""	
 	articleId="VMA_RCA_airbp-managed-events-livemigration-recovery"
