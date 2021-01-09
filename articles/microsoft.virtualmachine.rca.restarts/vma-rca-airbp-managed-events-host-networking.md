@@ -31,7 +31,7 @@ Azure performs updates to improve reliability, performance and security of the V
 
 
 <!--recommendedActions-->
-## **Recommendations**
+## **Recommended Documents**
 
 > *Learn more about:*
 > * To prepare for VM maintenance events and reduce its impact, try using Scheduled Events forWindows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)or[Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
