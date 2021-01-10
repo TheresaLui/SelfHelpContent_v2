@@ -22,7 +22,7 @@ Data encryption with customer-managed keys for Azure Database for PostgreSQL ena
 ## **Recommended Steps**
 
 * **Data encryption** is only available for the **General purpose** and **Memory optimized** SKU
-* For your General purpose and Memory optimized SKU does not have data encryption, please ensure that your server has [large storage](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage). If your server is not enabled for large storage, you must create a new server with large storage and migrate your origignal database
+* For your General purpose and Memory optimized SKU does not have data encryption, please ensure that your server has [large storage](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage). If your server is not enabled for large storage, you must create a new server with large storage and migrate your original database
 * You can set **Data encryption** for your Azure Database for PostgreSQL from [portal](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-portal)
 * You can set **Data encryption** for your Azure Database for PostgreSQL from [CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli)
 * This feature is only supported in regions and servers which support storage up to 16TB. Please refer to the note [here](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage).
