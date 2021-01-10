@@ -1,8 +1,8 @@
 <properties
-  pagetitle=""
+  pagetitle="**I have an issue in creating, editing or deleting Service or Resource Health alert rules in the Azure portal**"
   service="microsoft.insights"
   resource="activitylogalerts"
-  ms.author="t-yasaya"
+  ms.author="t-yasaya,yagil"
   selfhelptype="Generic"
   supporttopicids="32739806"
   resourcetags=""
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
   articleid="alerts-crud-ui-health"
   ownershipid="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts" />
-## **I have an issue in creating, editing or deleting Service or Resource Health alert rules in the Azure portal**
+# **I have an issue in creating, editing or deleting Service or Resource Health alert rules in the Azure portal**
 
 **1.	I am not sure what is the difference between Service Health alert and Resource Health alert, or how to configure it.**
 
