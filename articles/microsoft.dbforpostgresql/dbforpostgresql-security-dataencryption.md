@@ -27,11 +27,11 @@ Data encryption with customer-managed keys for Azure Database for PostgreSQL ena
 * You can set **Data encryption** for your Azure Database for PostgreSQL from [CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli)
 * This feature is only supported in regions and servers which support storage up to 16TB. Please refer to the note [here](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage).
 * Encryption is only supported with RSA 2048 cryptographic key
-* You can set auto-rotation of the CMK in Azure Key Vault, but once the key is rotated, you must explicitly change the new version of the key for the Server using portal or Create CLI command described in [Create CLI](https://docs.microsoft.com/en-us/azure/postgresql/howto-data-encryption-cli#set-data-encryption-for-azure-database-for-postgresql-single-server)
+* You can set auto-rotation of the CMK in Azure Key Vault, but once the key is rotated, you must explicitly change the new version of the key for the Server using portal or Create CLI command described in [Create CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli#set-data-encryption-for-azure-database-for-postgresql-single-server)
 
 ## **Recommended Documents**
 
 * [Data encryption](https://docs.microsoft.com/azure/postgresql/concepts-data-encryption-postgresql)
 * [Data encryption - Portal](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-portal)
 * [Data encryption - CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli)
-* [Data encryption - Azure KeyVault](https://azure.microsoft.com/en-us/services/key-vault)
+* [Data encryption - Azure KeyVault](https://azure.microsoft.com/services/key-vault)
