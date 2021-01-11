@@ -12,25 +12,25 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure SQL Database and Server
 
+
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
 
-**I'm unable to build EF Migration leveraging managed identity**
+* **I'm unable to build EF Migration leveraging managed identity**
 
-[Follow the steps outlined in this document](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-connect-msi)
+   [Follow the steps outlined in this document](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-connect-msi)
 
-**I want to publish a .dacpac file**
+* **I want to publish a .dacpac file**
 
-Publish the generated .dacpac file by following [these steps](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=classic#publish)
+   Publish the generated .dacpac file by following [these steps](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=classic#publish)
 
-**How do I test & deploy SSIS?**
+* **How do I test & deploy SSIS?**
 
-[Follow these steps](https://docs.microsoft.com/sql/integration-services/devops/ssis-devops-overview?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15%20https%3A%2F%2Fdocs.microsoft.com%2F%2Farchive%2Fmsdn-magazine%2F2013%2Faugust%2Fsql-server-unit-and-integration-testing-of-ssis-packages)
+   [Follow these steps](https://docs.microsoft.com/sql/integration-services/devops/ssis-devops-overview?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15%20https%3A%2F%2Fdocs.microsoft.com%2F%2Farchive%2Fmsdn-magazine%2F2013%2Faugust%2Fsql-server-unit-and-integration-testing-of-ssis-packages)
 
-**Where do I find a sample to deploy to Azure SQL database?**
+* **Where do I find a sample to deploy to Azure SQL database?**
 
-Refer to this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
+   Refer to this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
 
 ## **Recommended Documents**
 
