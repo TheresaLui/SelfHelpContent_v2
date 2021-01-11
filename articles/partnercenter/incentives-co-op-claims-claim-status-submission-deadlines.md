@@ -34,7 +34,6 @@ You can learn more about claims status and submission deadlines by accessing the
 
 ## **Recommended Documents**
 
-* [Create and manage Incentives claims](https://docs.microsoft.com/partner-center/create-incentives-claims)
 * [How to check claim status in Partner Center](https://docs.microsoft.com/partner-center/create-incentives-claims)
 * [Co-op claim submission deadlines](https://docs.microsoft.com/partner-center/claims-overview)
 
