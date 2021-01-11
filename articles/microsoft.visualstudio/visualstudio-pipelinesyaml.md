@@ -16,7 +16,7 @@ Use the following recommendations to resolve common issues related to Azure Pipe
 
 ## **Recommended Steps**
 
-Review each of the following steps before you create a support ticket. If you still need to create a ticket after reviewing them, in the ticket, provide information about the path you took and the results of the steps you ran to expedite the resolution of your problem.
+Review each of the following steps before you create a support ticket. If you need to create a ticket, provide information about the path you took and the results of the steps you ran to expedite the resolution of your problem.
 
 **I'm getting an error about unexpected mappings, sequences, scalars, or keys**
 
