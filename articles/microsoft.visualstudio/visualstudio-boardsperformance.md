@@ -12,9 +12,9 @@
   ownershipid="Azure_DevOps_Services" />
 # Work Item Performance Issues
 
-## **Recommended Steps**
+Resolve common issues around work item performance with the following solutions.
 
-Are you facing one of these common problems?
+## **Recommended Steps**
 
 * Loading a work item is slow. How do we improve performance?
 
@@ -25,10 +25,10 @@ Are you facing one of these common problems?
 
 * My Boards and Backlogs are reaching the [work item limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops). Is there a way to increase the limits?
 
-  - Unfortunately the limits cannot be increased. These are in place to ensure the product performance at acceptable levels
-  - Use teams and area paths to break up the work to more manageable levels. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops)
-  - See if it makes sense to split the work into more than one project
-  - Delete work items that are not longer needed or used
+  - Unfortunately the limits cannot be increased. The established limits ensure the product performance at acceptable levels.
+  - Use teams and area paths to break up the work to more manageable levels. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops).
+  - Determine whether it makes sense to split the work into more than one project
+  - Delete work items no longer needed or used
 
 ## **Recommended Documents**
 
