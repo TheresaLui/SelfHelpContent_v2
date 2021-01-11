@@ -10,19 +10,20 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="azdevopsartifacts"
   ownershipid="Azure_DevOps_Services" />
+  
 # Azure Artifacts
+
+Resolve common issues around artifacts with the following solutions.
 
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
+* I am unable to upload additional packages and get the error: "Artifact cannot be uploaded because max quantity has been exceeded or the payment instrument is invalid"
 
-* I am unable to upload additional packages: `Artifact cannot be uploaded because max quantity has been exceeded or the payment instrument is invalid`
+  - Go to the **Billing** section under **Organization Settings** and make sure that your tier is set to **No limit, pay as you go**. After you make this change, the new setting can take approximately 1 hour to take effect.
 
-  - Go to the **Billing** section under **Organization Settings** and make sure that your tier is set to **No limit, pay as you go**. Once you make this change, the new setting can take approximately 1 hour to take effect
+* How can I see which packages are stored and where?
 
-* How can I see what packages are stored and where?
-
-  - Go to the **Artifacts and Storage** section under **Organization Settings**. Here, you can see a breakdown of your packages within feeds and projects. More information can be found [here](https://azure.microsoft.com/updates/azuredevops-artifacts-storage-exploration)
+  - Go to the **Artifacts and Storage** section under **Organization Settings**. Here, you can see a breakdown of your packages within feeds and projects. More information can be found [here](https://azure.microsoft.com/updates/azuredevops-artifacts-storage-exploration).
 
 * I used to be on usage tiers, and am no longer on that!
 
