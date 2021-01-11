@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-mongodbmigration"
+	articleId="cosmosdb-mongod-indexing"
 	displayOrder="225"
 	category="MongoDB"
 	ownershipId="AzureData_AzureCosmosDB"
