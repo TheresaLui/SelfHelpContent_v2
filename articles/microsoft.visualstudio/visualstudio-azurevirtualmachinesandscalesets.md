@@ -12,17 +12,18 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure virtual machines or scale sets tasks
 
+Resolve common issues with VMs and scale sets tasks using the following steps.
+
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
 
 * **My application successfully starts on VM or VMSS using Azure pipelines. However, the application process is terminated in the *Finalize Job* of the pipeline run.**
 	
-    All processes started by Azure pipelines are terminated and cleaned up in the *Finalize Job*. If you don't want the processes to be closed, please create and set a variable **Process.clean=false**. But when you create a new release next time, you need to close the previous application before deploying new one.
+    All processes started by Azure pipelines are terminated and cleaned up in the **Finalize Job**. If you don't want the processes to be closed, please create and set a variable **Process.clean=false**. The next time you create a new release, you'll need to close the previous application before deploying a new one.
 
 * **I want to deploy the application on virtual machine scale set.**
 
-    [Follow these steps](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app#:~:text=To%20run%20applications%20on%20virtual,scripts%20on%20existing%20VM%20instances).
+    [Follow these steps](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app#:~:text=To%20run%20applications%20on%20virtual,scripts%20on%20existing%20VM%20instances)
 
 * **My Build pipeline is failing with PowerShell task on the remote machine**
 
