@@ -18,11 +18,11 @@
 
 As a first step in resolving any connectivity issues with Azure DevOps, complete the following steps: 
 
-1. Sign out of your browser. To do so, select the [Visual Studio sign out link](https://app.vssps.visualstudio.com/_signout) and let the sign-out process complete 
-2. Delete the cookies in your browser. To delete cookies in most browsers, press Ctrl+Shift+Del. 
+1. Sign out of your browser. To do so, select the [Visual Studio sign out link](https://app.vssps.visualstudio.com/_signout) and let the sign-out process complete.
+2. Delete the cookies in your browser. To delete cookies in most browsers, press **Ctrl+Shift+Del**. 
 3. Open Internet Explorer and delete the browser cookies. The Visual Studio IDE uses Internet Explorer cookies. 
 4. Close all browsers and close the Visual Studio IDE
-5. Use a private browser session to retry the connection by directly going to the link dev.azure.com/<your organization name>. If the issue is with the Visual Studio IDE, remove the connection and re-add it. 
+5. Use a private browser session to retry the connection. Go to the link **dev.azure.com/<*your organization name*>**. If the issue is with the Visual Studio IDE, remove the connection and re-add it. 
 
 ## **Recommended Documents** 
 
