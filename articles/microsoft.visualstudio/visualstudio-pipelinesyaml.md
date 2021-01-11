@@ -20,9 +20,9 @@ Review each of the following steps before you create a support ticket. If you ne
 
 **I'm getting an error about unexpected mappings, sequences, scalars, or keys**
 
-  - To write an Azure Pipelines YAML pipeline, an understanding of basic YAML syntax is required. You can find many tutorials available online. For example, [Learn YAML in Y minutes](https://learnxinyminutes.com/docs/yaml/).
+  - To write an Azure Pipelines YAML pipeline, an understanding of basic YAML syntax is required. You can find many tutorials available online, for example, [Learn YAML in Y minutes](https://learnxinyminutes.com/docs/yaml/).
   - Azure Pipelines doesn't support YAML anchors, tags (custom types), or binary data
-  - Once you understand the rules for a syntactically-correct YAML document, you can better understand the [Azure Pipelines schema](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema) for defining pipelines
+  - After you understand the rules for a syntactically-correct YAML document, you can better understand the [Azure Pipelines schema](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema) for defining pipelines
 
 **I'm getting an error about exceeding one or more limits**
 
