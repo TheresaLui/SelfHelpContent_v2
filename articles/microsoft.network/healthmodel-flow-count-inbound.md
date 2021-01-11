@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,Fairfax,Mooncake,Blackforest, usnat, ussec"
+cloudEnvironments="Public,Fairfax,Mooncake,Blackforest,usnat,ussec"
 ownershipId="CloudNet_PhyNet"
 />
 
@@ -31,17 +31,23 @@ If you are NOT running a vulnerability scanning tool, or disabling it does not r
 
 * Login to the VM and display the source IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux))
 * If there are a large number of connections, examine the source IP (Foreign Address) to determine if they are legitimate or not
-* If the connections are legitimate, change your application to reduce the number of connections on this network interface, or add additional network interfaces to the VM
-* If the connections are not legitimate, consider enabling Azure DDOS Protection Standard or placing the VM behind Azure Load Balancer
 
-If you do NOT see a large number of connections within the VM with 'netstat' command, then the connections are possibly being blocked by Network Security Group rule, but still contributing to the 500K flow limit.  Try enabling flow logging for network security groups and determine from the flow logs whether the connections are legitimate or not.  
+If the connections are legitimate then:
 
-* If the connections are legitimate, change your application to reduce the number of connections on this network interface, or add additional network interfaces to the VM
-* If the connections are not legitimate, consider enabling Azure DDOS Protection Standard or placing the VM behind Azure Load Balancer
+* Consider changing your application or service to reduce the number of connections on this network interface
+* Consider enabling Accelerated Networking on the network interface
+* Consider adding additional network interfaces to the VM to handle the connection volume
+* Consider adding additional VMs to handle the connection volume
+* Consider placing your VMs behind Azure Load Balancer to distribute connection volume
+
+If the connections are NOT legitimate, in addition to above options, consider enabling Azure DDOS Protection Standard.
+
 
 ## **Recommended Documents**
 
 * [Virtual machine network bandwidth](https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput)
+* [Create a Windows VM with accelerated networking using Azure PowerShell](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-powershell)
+* [Create a Linux virtual machine with Accelerated Networking using Azure CLI](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli) 
 * [Add network interfaces to or remove network interfaces from virtual machines](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm)
 * [Azure DDoS Protection Standard overview](https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview)
 * [What is Azure Load Balancer?](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview)

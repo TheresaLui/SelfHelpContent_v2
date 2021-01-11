@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="sql-server-in-vm-windows-supporttopicdescription"
   ownershipid="AzureData_AzureSQLVM"
   icmteam="icmteam"
@@ -227,7 +228,7 @@
     {
       "id": "4d0b3a87-a35a-fc46-70ed-daf5241222cf",
       "longDescription": "",
-      "shortDescription": "Questions or issues with installing or uninstalling the SQL IaaS Agent Extension or Resource Provider",
+      "shortDescription": "Questions or issues with installing, managing or uninstalling the SQL IaaS Agent Extension previously called Resource Provider",
       "searchTags": "sql iaas extension;install sql iaas extension;uninstall sql iaas extension;resource provider;rp;resource provider unavailable;install resource provider;uninstall resource provider",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"

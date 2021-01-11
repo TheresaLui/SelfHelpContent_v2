@@ -17,86 +17,41 @@
 
 # Diagnose and resolve connectivity issues
 
-To diagnose and resolve connectivity issues, use the following information.
+> **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
-## **Recommended Steps**
-
-* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the following format:
-
-    ```
-    adb-<workspace-id>.<random-number>.azuredatabricks.net
-    ```
-
-  This URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used until now to access your workspaces. Both URLs continue to be supported. However, because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. Therefore, we recommend that you use the new per-workspace URL in scripts or provided in other automation that you use with multiple workspaces. 
-  For instructions, see the following:
-
-     - [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
-     - [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
-     - [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#find-the-legacy-regional-url-for-a-workspace)
-	
-* If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets) to solve this problem.
-
-* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. You can use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses, by following the instructions in [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
-
-* If **IP Access List** is enabled for the workspace, make sure to provide assignment permissions for Azure Data Factory IPs to run notebooks from ADF:
-
-  - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
-  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for *DataFactory.Region*. 
+ ## Errors and Resolution Steps
   
-* **Problem**
-
-  You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and you're receiving an error message similar to the following:
-  
-  ```
-  com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
-  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]
-  ```
+* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
+  "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
+  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]"
  
   The issue is most likely due to managed identity misconfiguration on Azure SQL DW. 
   
-  **Solution**
+  **Solution**: Follow [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
   
-  Follow [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
-  
-* **Problem**
-
-  Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:
-  
-  ```
-  OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')".
-  ```
+* **Problem**: Using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC results in the error:<br>
+  "OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')"."
  
-  The pyodbc connection fails, because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+The pyodbc connection fails because when credential passthrough is enabled on a cluster, the outbound network traffic from Python processes is blocked by design. Also, the SQL database needs some ports to be open, as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
   
-  **Solution**
-  
-  Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999.
+  **Solution**: Provide assignment permissions to the required ports by setting Spark configuration in the cluster, making sure to open ports 1433, and 11000-11999:
   
   ```
   spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
   ```
 
-* **Problem**
-  
-  ```
-  Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues.
-  ```
+* **Error:** "Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues."
 
-  **Solution**
-  
-  We generally get RPC error due to the following reasons:
+  **Solutions**: RPC errors usually occur for the following reasons:
+   * The communication between the driver and executor is lost. Executor is not able to send heartbeats within the threshold time frame, which can happen either if the executor is overwhelmed with memory/OOM errors, or too many network hits are making executor too busy in GC and it can't respond to driver.
+   In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you which error was happening on the executor level.
+   If the current cluster is very small, use a bigger cluster.
 
-  1. The communication between the driver and executor is lost - executor is not able to send heartbeats within the threshold time frame which can happen either if the executor is overwhelmed with memory/OOM errors or too many network hits are making executor too busy in GC and it is not able to respond back to driver.
+  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy.
 
-     You could see what is happening in the Spark UI > Stages > sort the tasks based on the error. It will show you what error was happening on executor level.
+  * Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
 
-     One quick workaround would be to use bigger cluster (if current cluster is really small).
-
-  2. Having too many partitions - small files can cause RPC error. You can check the used partition strategy.
-
-  3. Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
-
-* Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
+  * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
 	|     Name                                                             |     Source                                |     Destination                                                                                                                                                                                                                                 |     Protocol:Port    |     Purpose                                                                                                   |
 	|----------------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------|
@@ -107,14 +62,35 @@ To diagnose and resolve connectivity issues, use the following information.
 	|     databricks-sql-metastore (OPTIONAL – External Hive Metastore)    |     Azure Databricks workspace subnets    |     [Region specific SQL Metastore Endpoint](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#--metastore-artifact-blob-storage-log-blob-storage-and-event-hub-endpoint-ip-addresses)            |     tcp:3306         |     Stores metadata for databases and child objects in Azure Databricks workspace                             |
 
 
+## Unique, per-workspace URLs in Azure Databricks
+
+* Azure Databricks has added a unique URL for each workspace, which uses the following format:
+
+    ```
+    adb-<workspace-id>.<random-number>.azuredatabricks.net
+    ```
+
+  This URL complements the existing regional URLs (<region>.azuredatabricks.net) you use to access your workspaces. Both URLs will continue to be supported. Because Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. We recommend that you use the new per-workspace URL in scripts and in other automation for multiple workspaces. 
+  For instructions, see the following:
+
+     - [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#launch-a-workspace-using-the-per-workspace-url)
+     - [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#migrate-your-scripts-to-use-per-workspace-urls)
+     - [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/per-workspace-urls#find-the-legacy-regional-url-for-a-workspace)
+
+* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
+
+* If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets) to solve this problem.
+
+* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. You can use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses, by following the instructions in [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
+
+* If **IP Access List** is enabled for the workspace, make sure to provide assignment permissions for Azure Data Factory IPs to run notebooks from ADF:
+
+  - To update the IP access list, or to create additional access lists with a new CIDR, see [IP access lists](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+  - For information about adding assignment permissions for CIDRs, see [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file.  Search for **DataFactory.Region**. 
+  
 ## **Recommended Documents**
 
-* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
-
 * [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
-
 * [Connect your Azure Databricks Workspace to your On-Premises Network](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network)
-
 * [How to Save Plotly Files and Display From DBFS](https://docs.microsoft.com/azure/databricks/kb/visualizations/save-plotly-to-dbfs)
-
 * [Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns) for VNet- injected workspaces

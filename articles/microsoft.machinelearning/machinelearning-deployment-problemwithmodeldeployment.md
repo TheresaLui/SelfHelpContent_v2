@@ -49,12 +49,19 @@ Most users are able to resolve deployment issues by using the following steps.
     * [Secure VNet Traffic](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python#secure-vnet-traffic). There are two ways to isolate traffic to and from AKS cluster to the virtual network. [Private AKS cluster](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python#private-aks-cluster) and [Internal AKS Load Balancer](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python#internal-aks-load-balancer)
     * [To enable Azure Machine Learning to create ACI inside the virtual network, you must enable subnet delegation for the subnet used by the deployment](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python#enable-azure-container-instances-aci)
     * [Limit outbound connectivity from the virtual network](https://docs.microsoft.com/azure/machine-learning/how-to-secure-inferencing-vnet?tabs=python#limit-outbound-connectivity-from-the-virtual-network)
+9. [Create and attach an Azure Kubernetes Service cluster.](https://docs.microsoft.com/azure/machine-learning/how-to-create-attach-kubernetes?tabs=python)
+    * [Prerequisites](https://docs.microsoft.com/azure/machine-learning/how-to-create-attach-kubernetes?tabs=python#prerequisites)
+    * [Limitations](https://docs.microsoft.com/azure/machine-learning/how-to-create-attach-kubernetes?tabs=python#limitations)
+    * [Azure Kubernetes Service version](https://docs.microsoft.com/azure/machine-learning/how-to-create-attach-kubernetes?tabs=python#azure-kubernetes-service-version)
 
 **Python SDK**
 
 * [Webservice Package](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice?view=azure-ml-py) contains functionality for deploying machine learning models as web service endpoints in Azure Machine Learning.
 * [AksWebService class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.akswebservice?view=azure-ml-py&preserve-view=true)
 * [AciWebService class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py)
+* [SSL configuration class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.sslconfiguration?view=azure-ml-py)
+* [AksProvisioningConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksprovisioningconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
+* [AksAttachConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksattachconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
 
 **How to**
 
@@ -67,10 +74,11 @@ Most users are able to resolve deployment issues by using the following steps.
 
 **Helpful articles**
 
-* [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models). Learn how to package a registered Azure Machine Learning model with Docker.
+* [How to package a registered model with Docker?](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-package-models) Learn how to package a registered Azure Machine Learning model with Docker.
 * [Use the studio to deploy models trained in the Designer](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-model-designer). Learn how to deploy trained model from Designer as a real-time endpoint in Azure Machine Learning Studio.
 * [Profile your model to determine resource utilization.](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-profile-model?pivots=py-sdk)
 * [InferenceSchema](https://github.com/Azure/InferenceSchema) This Python package is intended to provide uniform schema for common machine learning applications, as well as a set of decorators that can be used to aid in web-based ML prediction applications.
+* [ONNX and Azure Machine Learning: Create and accelerate ML models.](https://docs.microsoft.com/azure/machine-learning/concept-onnx)
 
 ## **Recommended Documents**
 
