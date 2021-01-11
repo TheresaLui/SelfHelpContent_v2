@@ -24,12 +24,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted which caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 <!--/resolutionDetails-->

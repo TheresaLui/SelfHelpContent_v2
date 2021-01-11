@@ -17,9 +17,8 @@
 
 # How to check applicable VM for JIT 
 
-Conditions for a VM to be "recommended" (for JIT configuration)
+Conditions for a VM to be "recommended" for JIT configuration
 
 1. The VM must be ARM (classic is not currently supported).
 2. The VM must have an attached NIC.
 3. The VM attached NIC has an NSG attached to it.
-
