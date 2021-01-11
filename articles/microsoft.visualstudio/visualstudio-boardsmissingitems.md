@@ -19,8 +19,8 @@ Resolve common issues with missing or incorrect work items on your backlog or ka
 
 **Why can't I find a work item on the backlog or board?**
 
-  - Make sure the work item is assigned to [area path that corresponds to the teams backlog](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops).
-
+  - Make sure the work item is assigned to [area path that corresponds to the teams backlog](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops)
+  
   - Ensure you are looking at the [correct backlog level](https://docs.microsoft.com/azure/devops/boards/backlogs/backlogs-overview?view=azure-devops#product-and-portfolio-backlogs)
 
   - You may not have the backlog level enabled for your team. Try setting your team's [preferences for backlog levels](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels).
