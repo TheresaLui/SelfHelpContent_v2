@@ -24,7 +24,7 @@ Resolve issues with Azure resource groups and ARM templates using the following 
 
    Assign the policies with an [ARM template](https://docs.microsoft.com/azure/governance/policy/assign-policy-template), or make use of [Azure Cli task](https://docs.microsoft.com/azure/governance/policy/assign-policy-azurecli) and [Azure PowerShell task](https://docs.microsoft.com/azure/governance/policy/assign-policy-powershell) respectively.
 
-* **The KeyVault can't be deployed through ARM template in the Azure portal using Azure DevOps pipeline and returns the error: **""Bad JSON content found in the request"**
+* **The KeyVault can't be deployed through ARM template in the Azure portal using Azure DevOps pipeline and returns the error: "Bad JSON content found in the request"**
 
     Find the line of code in the ARM template that contains the Tenant ID and replace the **Subscription().TenantId** with the **actual Tenant ID**. Also, you can [create a secret variable in the pipeline](https://docs.microsoft.com/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for the **Tenant ID** and pass the variable in the ARM template.
 
