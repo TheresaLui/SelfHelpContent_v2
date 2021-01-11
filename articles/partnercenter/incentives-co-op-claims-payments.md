@@ -36,6 +36,6 @@
 
 * [Overview of Incentives coop claims](https://docs.microsoft.com/partner-center/claims-overview)
 * [Create and manage Incentives claims](https://docs.microsoft.com/partner-center/create-incentives-claims)
-* [How to submit a co-op claim](https://support.microsoft.com/help/4024368/)
+* [How to submit a co-op claim](https://docs.microsoft.com/partner-center/create-incentives-claims)
 * [Who can submit a co-op claim?](https://docs.microsoft.com/partner-center/create-incentives-claims)
 * [Core requirements for Incentives co-op claims](https://docs.microsoft.com/partner-center/core-requirements)
