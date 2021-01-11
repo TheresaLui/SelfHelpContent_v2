@@ -19,7 +19,8 @@
 
 ## **Recommended Documents**
 
-**Delete vault or Protected Items**
+**Delete vault or Protected Items**<br>
+You cannot delete a vault that contains protected data sources, contains backup data (active or in soft deleted state) or has registered storage accounts. To delete the vault refer to below articles:
 - [**Step-by-step instructions to permanently delete the vault**](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
 - Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
 - Check if backup infrastructure items are blocking vault delete:
