@@ -26,7 +26,7 @@
 	- [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
 	- [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
 - [What happens to my existing recovery points and future recovery points if I modify policy?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#what-happens-when-i-change-my-backup-policy)
-- Impact of policy change on recovery points: [Azure VM](https://docs.microsoft.com/en-us/azure/backup/backup-architecture#impact-of-policy-change-on-recovery-points); [Azure file share](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#what-is-the-impact-on-existing-recovery-points-and-snapshots-when-i-modify-the-backup-policy-for-an-azure-file-share-to-switch-from-daily-policy-to-gfs-policy) and [SAP HANA](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm#impact-of-modifying-a-policy)
+- Impact of policy change on recovery points: [Azure VM](https://docs.microsoft.com/azure/backup/backup-architecture#impact-of-policy-change-on-recovery-points); [Azure file share](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#what-is-the-impact-on-existing-recovery-points-and-snapshots-when-i-modify-the-backup-policy-for-an-azure-file-share-to-switch-from-daily-policy-to-gfs-policy) and [SAP HANA](https://docs.microsoft.com/azure/backup/sap-hana-faq-backup-azure-vm#impact-of-modifying-a-policy)
 - [Backup policy, schedule and retention behaviour](https://docs.microsoft.com/azure/backup/backup-architecture#backup-policy-essentials)
 
 **Delete vault**
@@ -46,4 +46,3 @@ You cannot delete a vault that contains protected data sources, contains backup 
 - [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#if-i-cancel-a-backup-job-after-it-starts-is-the-transferred-backup-data-deleted)
 - [Is there a limit on the amount of data backed up using a Recovery Services vault?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#is-there-a-limit-on-the-amount-of-data-backed-up-using-a-recovery-services-vault)
 - [Delete old backup data from vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)
-- [Determine the data source size](https://aka.ms/aka.msAB-data-source-size)
