@@ -25,7 +25,7 @@ In this article, you will learn about common issues encountered in creating or p
 To write output data back to Azure Blob, Azure File share, ADLS Gen 1 and ADLS Gen 2 datastores use the public preview class, OutputFileDatasetConfig.
 - Within your pipeline's PythonScriptStep, you can retrieve the available output paths using the program's arguments. If this step is the first and will initialize the output data, you must create the directory at the specified path. You can then write whatever files you wish to be contained in the PipelineData.
 - Performing management operations on compute targets is not supported from inside remote jobs. Since machine learning pipelines are submitted as a remote job, do not use management operations on compute targets from inside the pipeline.
-- If you are using Azure role-based access control to manage access to your pipeline, set the permissions for your pipeline scenario (training or scoring).
+- If you are using Azure role-based access control to manage access to your pipeline, set the permissions for your pipeline scenario.
 
 
 
