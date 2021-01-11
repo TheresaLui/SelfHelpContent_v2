@@ -40,7 +40,6 @@ You can also learn more about CHIP by accessing the Recommended Documents below.
 * [I don’t know how to get my earnings for programs that are not in Partner Center](https://support.microsoft.com/help/2961477/how-to-check-incentive-earnings-on-chip)
 * [Checking payment status in CHIP](https://docs.microsoft.com/partner-center/chip-payment-status)
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [Getting access to CHIP](https://docs.microsoft.com/partner-center/chip-access-trouble)
 * [CHIP User Management](https://docs.microsoft.com/partner-center/chip-users)
 * [Troubleshooting access issues in CHIP](https://docs.microsoft.com/partner-center/chip-access-trouble)
 * [How to view/download earnings statements in CHIP](https://docs.microsoft.com/partner-center/chip-earnings)
