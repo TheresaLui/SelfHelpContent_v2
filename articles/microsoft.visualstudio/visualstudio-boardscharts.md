@@ -12,6 +12,8 @@
   ownershipid="Azure_DevOps_Services" />
 # Issues with Charts
 
+Resolve common issues with charts by using the following resources.
+
 ## **Recommended Documents**
 
 * [Track progress with status and trend query-based charts](https://docs.microsoft.com/azure/devops/report/dashboards/charts?view=azure-devops)
