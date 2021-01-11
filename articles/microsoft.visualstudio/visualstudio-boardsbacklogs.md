@@ -18,7 +18,7 @@ Resolve common issues with Azure Board backlogs using the following solutions.
 
 **Why can't I find a work item on the backlog?**
 
-  - Make sure that the work item is assigned to area path that corresponds to the teams backlog. [Learn more here](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops)
+  - Make sure that the work item is assigned to area path that corresponds to the teams backlog. [Learn more here](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops).
 
   - Ensure you are looking at the correct backlog level. [Learn more here](https://docs.microsoft.com/azure/devops/boards/backlogs/backlogs-overview?view=azure-devops#product-and-portfolio-backlogs).
 
@@ -30,7 +30,7 @@ Resolve common issues with Azure Board backlogs using the following solutions.
 
 **Why are Features or Epics missing from the backlog?**
 
-  - Ensure you are looking at the correct backlog level (Epics, Features, Stories). [Learn more](https://docs.microsoft.com/azure/devops/boards/boards/kanban-overview?view=azure-devops#product-and-portfolio-kanban-boards)
+  - Ensure you are looking at the correct backlog level (Epics, Features, Stories). [Learn more here](https://docs.microsoft.com/azure/devops/boards/boards/kanban-overview?view=azure-devops#product-and-portfolio-kanban-boards).
 
   - Try showing parents to [expand the tree hierarchy](https://docs.microsoft.com/azure/devops/boards/backlogs/organize-backlog?view=azure-devops)
 
