@@ -20,12 +20,12 @@ In this article, you will learn about common issues encountered in creating or p
 
 - Only upload files relevant to the job at hand. Any change in files within the data directory will be seen as reason to rerun the step the next time the pipeline is run even if reuse is specified.
 - To prevent unnecessary files from being included in the snapshot, make an ignore file using .gitignore or .amlignore in the directory. Add the files and directories to exclude to this file.
-- When you create a PipelineData object, you must provide a name and a datastore at which the data will reside. Pass your PipelineData object(s) to your PythonScriptStep using both the arguments and the outputs arguments.
+- When you create a PipelineData object, you must provide a name and a datastore at which the data will reside. Pass your PipelineData objects to your PythonScriptStep using both the arguments and the outputs arguments.
 - Writing output data back to a datastore using PipelineData is only supported for Azure Blob and Azure File share datastores.
 To write output data back to Azure Blob, Azure File share, ADLS Gen 1 and ADLS Gen 2 datastores use the public preview class, OutputFileDatasetConfig.
 - Within your pipeline's PythonScriptStep, you can retrieve the available output paths using the program's arguments. If this step is the first and will initialize the output data, you must create the directory at the specified path. You can then write whatever files you wish to be contained in the PipelineData.
 - Performing management operations on compute targets is not supported from inside remote jobs. Since machine learning pipelines are submitted as a remote job, do not use management operations on compute targets from inside the pipeline.
-- If you are using Azure role-based access control (Azure RBAC) to manage access to your pipeline, set the permissions for your pipeline scenario (training or scoring).
+- If you are using Azure role-based access control to manage access to your pipeline, set the permissions for your pipeline scenario (training or scoring).
 
 
 
