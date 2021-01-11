@@ -12,13 +12,14 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines Security and Permissions Issues
 
+Resolve common issues with Azure Pipelines security and permissions with the following resources.
+
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
 
-* I get the following error during the checkout step: `remote: TF401019: The Git repository with name or identifier XYZ does not exist or you do not have permissions for the operation you are attempting` (or) Why can't I checkout a repository from another project? It used to work.
+* I can't check out a repository from another project, or I get an error during the check-out step: "remote: TF401019: The Git repository with name or identifier XYZ does not exist or you do not have permissions for the operation you are attempting" 
 
-  This is mostly caused by the [job access token](https://docs.microsoft.com/azure/devops/pipelines/process/access-tokens?view=azure-devops&tabs=yaml) not having access to the repository. See [Failing checkout](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml#failing-checkout) in our docs for ways of fixing this problem.
+  This is usually caused by the [job access token](https://docs.microsoft.com/azure/devops/pipelines/process/access-tokens?view=azure-devops&tabs=yaml) not having access to the repository. See [Failing checkout](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml#failing-checkout) in our docs for ways of fixing this problem.
 
 * For my YAML pipelines, why am I prompted to **authorize resources** the first time I try to check out a different repository?
 
@@ -49,7 +50,7 @@ Are you facing one of these common problems?
 
 * I am unable to **add agents** to a pool although I am an administrator on the pool.
 
-  There are two places where agent pools are managed in the UI. In the Organization settings, you manage who can add agents to the pool. In the Project settings, you manage who can use the pool in that project. You may be looking at the project settings instead of organization settings. For more information about these two levels, see [Agent pool security](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#security).
+  There are two places where agent pools are managed in the UI. In the **Organization** settings, you manage who can add agents to the pool. In the **Project** settings, you manage who can use the pool in that project. You may be looking at the project settings instead of organization settings. For more information about these two levels, see [Agent pool security](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#security).
 
 ## **Recommended Documents**
 
