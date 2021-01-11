@@ -16,14 +16,14 @@ Resolve common issues around work item performance with the following solutions.
 
 ## **Recommended Steps**
 
-* Loading a work item is slow. How do we improve performance?
+**Loading a work item is slow. How do we improve performance?**
 
   - Adding lots of custom fields, rules, and extensions can slow down form performance. Try one or more of the following:
     - Remove fields that are not used or can be combined into another field
     - Remove extensions that are not needed
     - Try grouping non-critical fields and placing them on a separate page (tab)
 
-* My Boards and Backlogs are reaching the [work item limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops). Is there a way to increase the limits?
+**My Boards and Backlogs are reaching the [work item limits](https://docs.microsoft.com/azure/devops/organizations/settings/work/object-limits?view=azure-devops). Is there a way to increase the limits?**
 
   - Unfortunately the limits cannot be increased. The established limits ensure the product performance at acceptable levels.
   - Use teams and area paths to break up the work to more manageable levels. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops).
