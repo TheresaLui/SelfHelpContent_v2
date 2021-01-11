@@ -29,7 +29,8 @@ Follow these steps to enable autoscaling:
 2. Choose **Autoscale** in the capacity type.
 3. Under **minimum instance count**, use the slider to set your desired minimum instance count, and then select **Save**.
 
-**Note:** This is the count of number of instances that will always be running, and your Application Gateway's instance count will not go below this number. It is better to set this number to a higher value that what's needed to provide a 20 percent buffer to handle any short spikes or bursts in traffic.
+    **Note:** This is the count of number of instances that will always be running, and your Application Gateway's instance count will not go below this number. It is better to set this number to a higher value that what's needed to provide a 20 percent buffer to handle any short spikes or bursts in traffic.
+
 4. Under **maximum instance count**, use the slider and set your maximum instance count.
 
     Make sure that your Application Gateway subnet has enough IP addresses available to support this number. Otherwise, you'll have to re-create your gateway in the same or different subnet which has enough capacity.
