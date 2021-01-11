@@ -12,6 +12,7 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure SQL Database and Server
 
+Resolve common pipeline issues with the following recommendations.
 
 ## **Recommended Steps**
 
