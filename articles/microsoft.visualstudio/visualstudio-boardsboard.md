@@ -28,7 +28,7 @@ Are you facing one of these common problems?
 
   - Make sure that the [board level](https://docs.microsoft.com/azure/devops/boards/boards/kanban-overview?view=azure-devops#product-and-portfolio-kanban-boards) matches the work item type you are looking for. For example, the Features board level will show Feature work item types.
 
-  - Check your team board configuration to see if the [backlog navigation level](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels?view=azure-devops) is turned on for the work item type you are looking for.
+  - Check your team board configuration to see if the [backlog navigation level](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels?view=azure-devops) is turned on for the work item type you are looking for
 
   - If you are missing Bugs on your board, make sure you are [showing bugs on the backlogs and boards](https://docs.microsoft.com/azure/devops/organizations/settings/show-bugs-on-backlog?toc=%2Fazure%2Fdevops%2Fboards%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fboards%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
 
@@ -36,9 +36,9 @@ Are you facing one of these common problems?
 
 **Why don't I see all the work items on the kanban board?**
 
-  - The number of items on your board exceeds the configured limit of 1,000. [Learn more](https://docs.microsoft.com/azure/devops/user-guide/service-limits?view=azure-devops)
+  - The number of items on your board exceeds the configured limit of 1,000. [Learn more](https://docs.microsoft.com/azure/devops/user-guide/service-limits?view=azure-devops).
 
-  - The new and completed columns are limited to 20 items at a time. This is done to improve performance allowing teams to focus on the active work. You can use the "show more items" link to fetch more work items in those columns
+  - The new and completed columns are limited to 20 items at a time. This is done to improve performance allowing teams to focus on the active work. You can use the **show more items** link to fetch more work items in those columns.
 
 ## **Recommended Documents**
 
