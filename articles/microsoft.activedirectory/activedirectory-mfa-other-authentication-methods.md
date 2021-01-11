@@ -29,6 +29,9 @@ You can quickly find out what happened or diagnose problems related to user sign
    
 ## **Recommended Documents**
 
+* [Create app passwords from the Security info (preview) page](https://docs.microsoft.com/azure/active-directory/user-help/security-info-app-passwords)
+* [Enable and use Azure AD Multi-Factor Authentication with legacy applications using app passwords](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-app-passwords)
+* [Manage app passwords for two-step verification](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords)
 * [Hardware OATH tokens](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#oath-hardware-tokens-public-preview).
 
 * Third-party MFA providers: [Custom Controls](https://docs.microsoft.com/azure/active-directory/conditional-access/controls).
