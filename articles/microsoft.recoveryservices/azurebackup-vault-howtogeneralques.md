@@ -20,8 +20,11 @@
 ## **Recommended Documents**
 
 **Delete vault or Protected Items**
-- [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
-- Unable to delete vault? [Disable soft delete](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal) and retry the operation.
+- [**Step-by-step instructions to permanently delete the vault**](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
+- Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
+- Check if backup infrastructure items are blocking vault delete:
+     - Ensure there are no protected items on the below path: <br>
+      *Vault - Backup infrastructure - under **Protected Servers** and **Storage Accounts** tab*
 - How to **stop backup/protection** for:
 	* [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
 	* [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
@@ -43,7 +46,7 @@
 
 **Security**
 - [How secure and reliable is Azure Backup infrastructure?](https://docs.microsoft.com/azure/backup/security-overview)
-- [How to configure Private Endpoints for Azure Backup?](https://docs.microsoft.com/en-us/azure/backup/private-endpoints)
+- [How to configure Private Endpoints for Azure Backup?](https://docs.microsoft.com/azure/backup/private-endpoints)
 - [Encryption in Azure Backup](https://docs.microsoft.com/azure/backup/backup-encryption) and [using customer-managed keys](https://docs.microsoft.com/azure/backup/encryption-at-rest-with-cmk)
 
 **Restore Backup data**
