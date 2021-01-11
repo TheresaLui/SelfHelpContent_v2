@@ -16,25 +16,25 @@
 
 Are you facing one of these common problems?
 
-* Why can't I find an item on the kanban board?
+**Why can't I find an item on the kanban board?**
 
-  - Check and make sure your filter is showing all work items. If you are filtering by work item type, state, etc., you may be hiding some work items from being displayed. [Learn more](https://docs.microsoft.com/azure/devops/boards/boards/filter-kanban-board?view=azure-devops)
+  - Check and make sure your filter is showing all work items. If you are filtering by work item type, state, etc., you may be hiding some work items from being displayed. [Learn more](https://docs.microsoft.com/azure/devops/boards/boards/filter-kanban-board?view=azure-devops).
 
-  - If you have a large backlog, your work item may be on the board but it appears lost in a sea of work items. Try clearing the filter entirely and then enter the title name or a few [keywords in a new filter](https://docs.microsoft.com/azure/devops/boards/boards/filter-kanban-board?view=azure-devops#filter-using-select-field-values). This will narrow down the list of work cards that match those words
+  - If you have a large backlog, your work item may be on the board but it appears lost in a sea of work items. Try clearing the filter entirely and then enter the title name or a few [keywords in a new filter](https://docs.microsoft.com/azure/devops/boards/boards/filter-kanban-board?view=azure-devops#filter-using-select-field-values). This will narrow down the list of work cards that match those words.
 
-  - The number of new and closed work items is limited to 20 at time. Try using the "show more items" link at the bottom of the column to load more items
+  - The number of new and closed work items is limited to 20 at time. Try using the **show more items** link at the bottom of the column to load more items.
 
-  - Work items on a board must set to an area path and iteration path associated to that team. Otherwise those items will not be displayed. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops)
+  - Work items on a board must set to an area path and iteration path associated to that team, or those items will not be displayed. [Learn more](https://docs.microsoft.com/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops).
 
-  - Make sure the [board level](https://docs.microsoft.com/azure/devops/boards/boards/kanban-overview?view=azure-devops#product-and-portfolio-kanban-boards) matches the work item type you are looking for. For example, the Features board level will show Feature work item types
+  - Make sure that the [board level](https://docs.microsoft.com/azure/devops/boards/boards/kanban-overview?view=azure-devops#product-and-portfolio-kanban-boards) matches the work item type you are looking for. For example, the Features board level will show Feature work item types.
 
-  - Check your team board configuration to see if the [backlog navigation level](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels?view=azure-devops) is turned on for the work item type you are looking for
+  - Check your team board configuration to see if the [backlog navigation level](https://docs.microsoft.com/azure/devops/organizations/settings/select-backlog-navigation-levels?view=azure-devops) is turned on for the work item type you are looking for.
 
   - If you are missing Bugs on your board, make sure you are [showing bugs on the backlogs and boards](https://docs.microsoft.com/azure/devops/organizations/settings/show-bugs-on-backlog?toc=%2Fazure%2Fdevops%2Fboards%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fboards%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
 
-  - Check the recycle bin to see of the work item was deleted. [Learn more](https://docs.microsoft.com/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops)
+  - Check the recycle bin to see of the work item was deleted. [Learn more](https://docs.microsoft.com/azure/devops/boards/backlogs/remove-delete-work-items?view=azure-devops).
 
-* Why don't I see all the work items on the kanban board?
+**Why don't I see all the work items on the kanban board?**
 
   - The number of items on your board exceeds the configured limit of 1,000. [Learn more](https://docs.microsoft.com/azure/devops/user-guide/service-limits?view=azure-devops)
 
