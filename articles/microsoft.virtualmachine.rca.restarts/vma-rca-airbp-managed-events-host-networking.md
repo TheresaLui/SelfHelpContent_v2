@@ -9,7 +9,7 @@
 	displayOrder=""	
 	articleId="VMA_RCA_airbp-managed-events-host-networking"
 	diagnosticScenario="UnexpectedVMReboot"
-	selfHelpType="resource"
+	selfHelpType="RCA"
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds="13185,14749,15571,15797,16080,16215,16454,16470,16802"
