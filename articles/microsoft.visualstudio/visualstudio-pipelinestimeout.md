@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Pipelines Timeout Issues"
+  pagetitle="Azure Pipelines Timeout Issues&#xD;"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="vijayma,cathmill"
@@ -35,14 +35,14 @@ Following are steps to resolve specific issues concerning timeouts in Azure Pipe
   - The maximum duration for each job depends on whether you use self-hosted agents (no limits) or [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops). In the case of the latter, it also depends on whether you use free tier for private projects (60 minute limit) or paid tier/public projects (6 hours).
 
 * My pipeline waits a long time for an agent to be allocated.
-Go back and change the problem type as follows:
-		Problem type: **Pipelines - Configuring pipelines**
-		Problem subtype: **My pipelines are stuck waiting in a queue**
+  - Go back and change the problem type as follows:
+Problem type: **Pipelines - Configuring pipelines**
+Problem subtype: **My pipelines are stuck waiting in a queue**
   
 * I get the error message, "We stopped hearing from agent Azure Pipelines 2. Verify the agent machine is running and has a healthy network connection."
-Go back and change the problem type as follows:
-		Problem type: **Pipelines - Configuring pipelines**
-		Problem subtype: **Microsoft-hosted agents - disk space, IP address range, and so on**
+  - Go back and change the problem type as follows:
+Problem type: **Pipelines - Configuring pipelines**
+Problem subtype: **Microsoft-hosted agents - disk space, IP address range, and so on**
 
 * I deployed a self-hosted build agent as limit exceeded beyond the free minutes specified. However, all my builds still fail.
 
@@ -66,5 +66,5 @@ Go back and change the problem type as follows:
 * [Timeouts and disconnects](https://docs.microsoft.com/azure/devops/pipelines/process/runs?view=azure-devops#timeouts-and-disconnects)
 * [Maximum job limits for Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops)
 * [Timeouts in Classic editor](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=classic#timeouts)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
