@@ -35,7 +35,7 @@
                     "required": false
 				},
 				{
-                    ""id": "Without_Proxy",
+                    "id": "Without_Proxy",
                     "order": 4,
                     "controlType": "dropdown",
                     "displayLabel": "If relevant, once you exclude the proxy service, does this issue still occur? If yes, please create a ticket on the relevant service versus MCAS.",
