@@ -1,6 +1,6 @@
 <properties
-	articleId="accessservicesrunningintheprivatecloud"
-	pageTitle="accessservicesrunningintheprivatecloud"
+	articleId="accessservicesrunninginprivatecloud"
+	pageTitle="accessservicesrunninginprivatecloud"
 	description="AVS connectivity - access scoping questions"
 	authors="neshenoy"
 	ms.author="neshenoy"
