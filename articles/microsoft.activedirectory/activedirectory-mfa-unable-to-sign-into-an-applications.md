@@ -38,3 +38,9 @@ To make sure you are not getting blocked from sign-in when using MFA, use the fo
 2. Use Office and mail clients that supports modern authentication: Make sure your users are not using older clients that do not support modern authentication. [Office 365 Client App Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
 
 3. Disable legacy authentication: Are you using Conditional Access to enforce MFA? After you've taken the preceding steps and you are using modern authentication successfully, we strongly recommend blocking legacy authentication: [Blocking legacy authentication](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication).
+
+## **Recommended Documents**
+
+* [Create app passwords from the Security info (preview) page](https://docs.microsoft.com/azure/active-directory/user-help/security-info-app-passwords)
+* [Enable and use Azure AD Multi-Factor Authentication with legacy applications using app passwords](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-app-passwords)
+* [Manage app passwords for two-step verification](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords)
