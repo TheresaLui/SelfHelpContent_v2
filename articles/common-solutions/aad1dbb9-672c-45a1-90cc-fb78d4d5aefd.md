@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Configuring with Azure Active Directory or Office 365&#xD;"
+  pagetitle="Configuring with Azure Active Directory or Office 365"
   service=""
   resource=""
   ms.author="vimalt,cathmill"
@@ -26,7 +26,7 @@ Probably not. You'll have an opportunity to resolve any user mapping issues duri
 * **I have more than 200 users in my organization. Can I connect to Azure AD?**
 You can still connect on your own, but you should continue contacting support for help with disconnected users
 
-* Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization? 
+* **Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization?** 
 Are you an Azure AD guest user? See details about why [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).
 
 ## **Recommended Documents**
