@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="Azure_VMwareSolution_Content"
 />
-#connectivity issue Access services running in the private cloud 
+# connectivity issue Access services running in the private cloud 
 ---
 {
     "subscriptionRequired": true,
