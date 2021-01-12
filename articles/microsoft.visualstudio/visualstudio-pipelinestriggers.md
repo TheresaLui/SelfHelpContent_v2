@@ -41,19 +41,19 @@ Follow through all of these steps before you create a support ticket. If you nee
   - [Classic release pipeline triggers](https://docs.microsoft.com/azure/devops/pipelines/release/triggers)
   - [Build completion triggers](https://docs.microsoft.com/azure/devops/pipelines/process/pipeline-triggers?tabs=classic) in classic build pipelines
 
-* My pipeline is triggered, but it is stuck waiting
+* My pipeline is triggered, but it is stuck waiting. 
   Go back and change the problem type as follows:
 
     - Problem type: **Pipelines - Configuring pipelines**
     - Problem subtype: **My pipelines are stuck waiting in a queue**
 
-* My pipeline is triggered, but fails in `checkout` or `get sources` step
+* My pipeline is triggered, but fails in `checkout` or `get sources` step. 
   Go back and change the problem type as follows:
   
     - Problem type: **Pipelines - Building and testing your application**
     - Problem subtype: **Getting source code from repository into pipeline**
 
-* I have other issues with integrating my pipeline with Azure Repos, GitHub, BitBucket, or Subversion.
+* I have other issues with integrating my pipeline with Azure Repos, GitHub, BitBucket, or Subversion. 
   Go back and change the problem type as follows:
     - Problem type: **Pipelines - Building and testing your application**
     - Problem subtype: **GitHub, BitBucket, SVN integration**
