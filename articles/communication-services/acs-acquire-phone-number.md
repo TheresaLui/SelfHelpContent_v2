@@ -16,15 +16,18 @@
 # <-- Cannot acquire a phone number -->
 
 <!--issueDescription-->
-Customers are getting an error when trying to acquire a phone number. There are a few reasons of why a user cannot acquire a phone number. 
-It usually is because of subscription eligibility. 
-
+Customers are getting an error when trying to acquire a phone number. There are a few reasons of why a user cannot acquire a phone number.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Check the subscription type
-* Check if the billing address is correct
-* If this didn't solve the issue
+* Sometimes the stock of phone numbers available to purchase runs out. In this case, you will see the phone number type (i.e. "Geographic", or "Toll-free") greyed-out. 
+  If this is the case, please check back again after some time has passed.
+
+* Fails because of subscription eligibility.
+	* Check the subscription type
+	* Check if the billing address is correct
+
+If this didn't solve the issue
 	* Check our [roadmap](https://github.com/Azure/Communication/projects/1)
 	* File a [Github issue](https://github.com/Azure/Communication/issues) 
