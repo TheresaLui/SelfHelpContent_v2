@@ -33,11 +33,13 @@ Wildcard indexes do not support any of the following index types or properties
 Unlike in MongoDB, in Azure Cosmos DBs API for MongoDB you cannot use wildcard indexes for:
 
 Creating a wildcard index that includes multiple specific fields
+
 ```
 db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection " : { "children.givenName" : 1, "children.grade" : 1 } } )
 ```
 
 Creating a wildcard index that excludes multiple specific fields
+
 ```
 db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection" : { "children.givenName" : 0, "children.grade" : 0 } } )
 ```
