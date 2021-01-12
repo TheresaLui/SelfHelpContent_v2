@@ -25,9 +25,9 @@ The VM Connectivity Troubleshooter could not run successfully because the requir
 
 ## **Recommended Steps**
 
-1. Select the virtual machine. You will see a list of virtual machine(s) in the virtual network you’re having issue with. If you don’t see any, that means there’s no virtual machine in the virtual network you selected before. Please go back and select a different virtual network.
-2. Select the traffic direction. It’s either from VM to Internet, or from Internet to VM.
-3. Select the port number. For now, you can only pick one of the most used port numbers at a time. More will be added with the improvement of this troubleshooter.
-4. Click Submit again.
+1. Select the virtual machine. You will see a list of virtual machine(s) in the virtual network you’re having issue with. If you don’t see any, that means there’s no virtual machine in the virtual network that you selected before. Go back and select a different virtual network.
+2. Select the traffic direction. It’s either from VM to internet, or from internet to VM.
+3. Select the port number. For now, you can pick only one of the most used port numbers at a time. More will be added with the improvement of this troubleshooting process.
+4. Select **Submit** again.
 
-**Note**: If "Other, don’t know or not applicable" is selected, the troubleshooter won’t detect the issue. 
+**Note**: If **Other, don’t know or not applicable** is selected, the troubleshooter won’t detect the issue. 
