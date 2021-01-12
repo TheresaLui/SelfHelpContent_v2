@@ -21,10 +21,10 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot NFSv4.1 Kerberos volume issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-nfsv41-kerberos-volumes#error-conditions-and-resolutions)
-* [NFSv4.1 Kerberos encryption Requirements](https://docs.microsoft.com/azure/azure-netapp-files/configure-kerberos-encryption#requirements)
-* [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/configure-nfs-clients)
-* [Requirements for Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#requirements-for-active-directory-connections)
+* Check access error conditions for potential resolution in the [Troubleshoot NFSv4.1 Kerberos volume issues](https://docs.microsoft.com/azure/azure-netapp-files/troubleshoot-nfsv41-kerberos-volumes#error-conditions-and-resolutions)
+* Ensure that your configuration meets the [NFSv4.1 Kerberos encryption Requirements](https://docs.microsoft.com/azure/azure-netapp-files/configure-kerberos-encryption#requirements)
+* For Linux client, see the requirements documented in [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/configure-nfs-clients)
+* Ensure that your configuration meets the [Requirements for Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#requirements-for-active-directory-connections)
 
 
 ## **Recommended Documents**
