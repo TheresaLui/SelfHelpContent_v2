@@ -19,13 +19,13 @@
 
 ## **Recommended Steps**
 
-Storage Analytics logs detailed information about successful and failed requests to a storage service. This information can be used to monitor individual requests and to diagnose issues with a storage service.
+Storage Analytics logs detailed information about successful requests and failed requests to a storage service. You can use this information to monitor individual requests and to diagnose issues with a storage service.
 
-Storage Analytics is not enabled by default for your storage account. You can enable it in the Azure portal or programmatically via the REST API or the client library. You can also use the Get Blob Service Properties, Get Queue Service Properties, and Get Table Service Properties operations to enable Storage Analytics for each service.
+Storage Analytics is not enabled by default for your storage account. You can enable it in the Azure portal, or programmatically, through the REST API or the client library. You can also use the Get Blob Service Properties, Get Queue Service Properties, and Get Table Service Properties operations to enable Storage Analytics for each service.
 
-Please refer to [Storage Analytics](https://docs.microsoft.com/azure/storage/common/storage-analytics?toc=/azure/storage/blobs/toc.jsonhttps://docs.microsoft.com/rest/api/storageservices/storage-analytics-log-format#log-entry-format-20) for more information.
+For more information, see [Storage Analytics](https://docs.microsoft.com/azure/storage/common/storage-analytics?toc=/azure/storage/blobs/toc.jsonhttps://docs.microsoft.com/rest/api/storageservices/storage-analytics-log-format#log-entry-format-20).
 
-Once enabled, you can use [Storage Analytics Log 2.0 to check logging information about requests authorized with an OAuth 2.0 token provided by Azure Active Directory(Azure AD)](https://docs.microsoft.com/rest/api/storageservices/storage-analytics-log-format#log-entry-format-20)
+After it's enabled, you can use [Storage Analytics Log 2.0 to check logging information about requests authorized with an OAuth 2.0 token provided by Azure Active Directory(Azure AD)](https://docs.microsoft.com/rest/api/storageservices/storage-analytics-log-format#log-entry-format-20)
 
 **Note**:
-On August 31, 2023 Storage Analytics metrics, also referred to as classic metrics will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article helps you make the transition.
+On August 31, 2023. Storage Analytics metrics, also referred to as "classic metrics," will be retired. For more information, see the [official announcement](https://azure.microsoft.com/updates/azure-storage-classic-metrics-will-be-retired-on-31-august-2023/). If you use classic metrics, make sure to transition to metrics in Azure Monitor prior to that date. This article will help you make the transition.
