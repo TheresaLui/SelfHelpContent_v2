@@ -94,15 +94,21 @@
 		"required": true,
 		"diagnosticInputRequiredClients": "Portal,ASC"
 	},
-        {
-            "id": "file_firewall_vnet_request_id",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
-        },
+    {
+			"id": "file_firewall_vnet_request_id",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Storage server request ID",
+			"watermarkText": "Server Request ID of failed operation ending with 000000",
+			"infoBalloonText": "Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal,ASC",
+			"validations": [{
+				"type": "RegExMatch",
+				"value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+				"text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+			}]
+		},
         {
             "id": "file_path",
             "order": 5,
