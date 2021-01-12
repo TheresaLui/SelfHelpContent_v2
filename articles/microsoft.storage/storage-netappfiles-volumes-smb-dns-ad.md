@@ -19,13 +19,14 @@
 
 ## DNS and AD Connectivity Issues
 
-Many DNS/AD issues are due to incorrect or unsupported network configurations.  When you encounter connectivity issues, please review the [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-network-topologies) document and make sure your network configuration and Vnet peering follows the supported configurations. 
+Many DNS/AD issues are due to incorrect or unsupported network configurations. When you encounter connectivity issues, make sure that your network configuration and Vnet peering follows the supported configurations by reviewing these [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-network-topologies). 
 
 ## **Recommended Steps for Continuously Available Share Feature in SMB volume**
-1.Note that CA Share feature is supported in SMB3 or later versions and is available in windows 8, windows server 2012 or later versions.
-2.Make sure that this feature is enabled only for Microsoft SQL server workloads since this can have performance impact (even on other volumes in the same ONTAP cluster) if used for non-Microsoft SQL server workloads.
+-  The CA Share feature is supported in SMBv3 or later, and is available in Windows 8, Windows Server 2012 and later versions.
+-  Make sure that this feature is enabled only for Microsoft SQL server workloads. This feature can reduce performance if used for non-Microsoft SQL Server workloads. The impact can include other volumes in the same ONTAP cluster.
+
 ## **Recommended Documents**
 
 - [SMB FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#smb-faqs)<br>
-- [Create an SMB Volumes for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
+- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
 
