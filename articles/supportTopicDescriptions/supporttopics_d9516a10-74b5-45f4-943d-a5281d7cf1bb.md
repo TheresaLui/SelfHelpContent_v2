@@ -754,6 +754,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b21fea52-0767-d410-1ca8-74ea0e13db8b",
+      "longDescription": "",
+      "shortDescription": "Issues related to Spring Data Cosmos DB",
+      "searchTags": "Spring;Data",
+      "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b27adc52-d06f-a2fd-fe54-05f8278c9567",
       "longDescription": "",
       "shortDescription": "Azure Cosmos DB Table API related issues",
