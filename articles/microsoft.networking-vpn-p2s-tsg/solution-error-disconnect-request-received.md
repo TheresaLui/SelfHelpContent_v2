@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VPN Point-to-Site client error Disconnect request received <= Remote initiated"
-	description="VPN Point-to-Site client error Disconnect request received <= Remote initiated"
+	pageTitle="VPN Point-to-Site client error Disconnect request received - Remote initiated"
+	description="VPN Point-to-Site client error Disconnect request received - Remote initiated"
 	service="microsoft.network"
 	resource="VirtualNetworkGateway"
 	authors="stegag"
