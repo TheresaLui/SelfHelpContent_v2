@@ -35,7 +35,7 @@
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
@@ -180,15 +180,6 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Please specify who is facing the issue and Subscription ID",
 	   "watermarkText": "Person facing the issue, Subscription ID",
-	   "required": false
-       },
-       {
-	   "id": "additional_emails_for_notification",
-	   "visibility": null,
-	   "order": 10,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {
