@@ -37,7 +37,7 @@
             "id": "SMBADIssue",
             "order": 3,
             "ControlType": "dropdown",
-            "displayLabel": "Is the username given in security privilege block same as domain username used for installing Microsoft SQL server?",
+            "displayLabel": "Is the username provided in the security privilege block the same as the domain username used for installing Microsoft SQL server?",
             "watermarkText": "Is the username given in security privilege block same as domain username used for installing Microsoft SQL server?",
 			"dropdownOptions": [
 				{
