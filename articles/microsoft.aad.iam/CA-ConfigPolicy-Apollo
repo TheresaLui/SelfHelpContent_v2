@@ -60,7 +60,7 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 ## **Recommended Documents**
 
 **Getting started with Conditional Access**
-* [Short introduction to Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) and [Video](https://www.youtube.com/watch?v=c_izIRNJNuk)
+* [Short introduction to Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 * [Best Practices](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 	
 **Common Conditional Access Policies**
