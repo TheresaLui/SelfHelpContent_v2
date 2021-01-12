@@ -2,7 +2,7 @@
 	pageTitle="Cannot acquire a phone number"
 	description="Cannot acquire a phone number"
 	infoBubbleText="Cannot acquire a phone number"
-	service="Microsoft.Communication/CommunicationServices"
+	service="Microsoft.Communication"
 	resource="SMS, Calling, Development and Authentication"
 	ownershipId="AzureCommunicationServices"
 	authors="AriZavala2"
