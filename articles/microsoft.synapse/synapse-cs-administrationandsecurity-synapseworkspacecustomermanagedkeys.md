@@ -13,7 +13,7 @@
   
 # Administration and Security/Synapse Workspace - Customer Managed Keys
 
-* Use the following steps when the error message, "Workspace activation failed. Click here to retry activation or contact support" occurs during workspace activation.
+Use the following steps when the error message, "Workspace activation failed. Click here to retry activation or contact support" occurs during workspace activation.
 
 ## Recommended Steps
 
