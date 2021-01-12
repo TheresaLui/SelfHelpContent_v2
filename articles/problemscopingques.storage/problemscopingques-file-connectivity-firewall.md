@@ -18,13 +18,19 @@
     "resourceRequired": true,
     "title": "Blob connectivity firewall errors scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "Firewall & VNet Issues Troubleshooter",
+		"description": "For Firewall & VNet issues,answer the following questions and give us a few minutes to run automated diagnostics. Using the diagnostics, we’ll provide a self-help solution for you.",
+		"insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. Confirm that the answers provided are accurate and that they align with the input format suggested by watermark in the respective fields."
+	}
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
@@ -98,7 +104,8 @@
                     "text": "Not listed above  "
                 }
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "file_firewall_vnet_request_id",
@@ -123,7 +130,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"
