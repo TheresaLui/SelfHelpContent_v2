@@ -20,7 +20,7 @@ The following information applies to customers who have source code in an Azure 
 
 Follow through all of these steps before you create a support ticket. If you need to create a ticket, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
 
-* I am setting up **CI (Continuous Integration) or PR (Pull Request) triggers** in my **YAML pipeline**, and they do not work
+* I am setting up CI (Continuous Integration) or PR (Pull Request) triggers in my YAML pipeline, and they do not work
 
    -    [Azure Repos Git repo](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git#failing-triggers)
    -    [GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github#failing-triggers)
