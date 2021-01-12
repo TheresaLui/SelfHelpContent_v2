@@ -21,7 +21,9 @@
 
 Many DNS/AD issues are due to incorrect or unsupported network configurations. When you encounter connectivity issues, make sure that your network configuration and Vnet peering follows the supported configurations by reviewing these [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-network-topologies). 
 
-## **Recommended Steps for Continuously Available Share Feature in SMB volume**
+## **Recommended Steps**
+
+The following details apply to the Continuously Available Share Feature in SMB volume:
 -  The CA Share feature is supported in SMBv3 or later, and is available in Windows 8, Windows Server 2012 and later versions.
 -  Make sure that this feature is enabled only for Microsoft SQL server workloads. This feature can reduce performance if used for non-Microsoft SQL Server workloads. The impact can include other volumes in the same ONTAP cluster.
 
