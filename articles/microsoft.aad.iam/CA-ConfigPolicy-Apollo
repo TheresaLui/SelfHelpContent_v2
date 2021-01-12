@@ -28,7 +28,7 @@ Start by watching this short video
 </video>
 
 <Insight>
-<symptomId>DxpPrimaryInfoInsight</symptomId>
+<symptomId>DxpDsqCardSymptom</symptomId>
 <executionText>Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade </executionText>
 <timeoutText>This check was taking too long, so we stopped the operation</timeoutText> 
 <noResultText>Everything looks good from our side!</noResultText>
