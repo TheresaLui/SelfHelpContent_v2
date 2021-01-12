@@ -25,13 +25,13 @@ We detected that the health of the physical host Hardware your VM was running on
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-Azure constantly monitors for health of the physical host hardware and clusters on which your VM is running. When we observe events that could cause high impact, such as a reboot caused by underlying host hardware failure, we proactively perform a mitigation action. We are continuously working to improve the quality of our hardware and platform. We apologize for any inconvenience this may have caused you. 
+Azure constantly monitors the health of the physical host hardware and clusters on which your VM runs. When we observe events that could cause high impact, such as a reboot caused by underlying host hardware failure, we proactively perform a mitigation action. We are continuously working to improve the quality of our hardware and platform. We apologize for any inconvenience this may have caused you. 
 
 
 <!--recommendedActions-->
 ## **Recommended Documents**
 
-> *Learn more about:*
+> Learn more about:
 > * To prepare for VM maintenance events and reduce its impact, try using Scheduled Events forWindows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)or[Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
 > * Learn more about Azure maintenance and configuring for high availability:  
 >   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
