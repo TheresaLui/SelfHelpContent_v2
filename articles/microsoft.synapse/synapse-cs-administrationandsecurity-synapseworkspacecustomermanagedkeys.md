@@ -12,13 +12,14 @@
   ownershipid="AzureData_SynapseAnalytics" />
 # Administration and Security/Synapse Workspace - Customer Managed Keys
 
-## **Recommended Steps**
+* Use the following steps when the error message, "Workspace activation failed. Click here to retry activation or contact support" occurs during workspace activation.
 
-* Error message **"Workspace activation failed. Click here to retry activation or contact support."** during workspace activation:
-  - Verify if the key used for encryption meets the requirements for Synapse Workspaces.
-  - Synapse Workspaces support RSA keys with 2048 and 3072 byte-sized keys, and do not support the use of Elliptic-Curve Cryptography (ECC) keys for encryption.
-  - If the Workspace was created using an unsupported key size or algorithm, the workspace needs to be recreated using a supported key. Double encryption configuration cannot be changed after the workspace is created.
-  - More information can be found in [Azure Synapse encryption](https://docs.microsoft.com/azure/synapse-analytics/security/workspaces-encryption#azure-synapse-encryption).
+## **Recommended Steps*
+
+- Verify whether the key used for encryption meets the requirements for Synapse Workspaces
+- Synapse Workspaces support RSA keys with 2048 and 3072 byte-sized keys, and do not support the use of Elliptic-Curve Cryptography (ECC) keys for encryption.
+- If the Workspace was created using an unsupported key size or algorithm, the workspace must be recreated using a supported key. Double encryption configuration cannot be changed after the workspace is created.
+- More information can be found in [Azure Synapse encryption](https://docs.microsoft.com/azure/synapse-analytics/security/workspaces-encryption#azure-synapse-encryption)
 
 ## **Recommended Documents**
 
