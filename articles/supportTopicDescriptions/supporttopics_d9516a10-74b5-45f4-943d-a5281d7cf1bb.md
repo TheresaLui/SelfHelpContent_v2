@@ -898,6 +898,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d535fa83-dc43-4def-6f84-e33248612f9c",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB MongoDB API",
+      "searchTags": "MongoDB",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d5785bf6-83a3-50a8-2ca9-4d6173411456",
       "longDescription": "",
       "shortDescription": "How to migrate data to Azure Cosmos DB, estimate the throughput needs and optimize migration",
