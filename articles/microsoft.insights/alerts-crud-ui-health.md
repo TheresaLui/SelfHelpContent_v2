@@ -23,12 +23,12 @@ Resolve issues around Service or Resource Health alert rules using the following
 * [Resource Health](https://docs.microsoft.com/azure/service-health/resource-health-overview) tracks the health of your specific Azure resources. [Configure Resource Health alert rules](https://docs.microsoft.com/azure/service-health/resource-health-alert-monitor-guide) to get notifications when changes occur in your resource’s health status (for example, when a specific virtual machine becomes unavailable).
 
 
-**2.	I created an alert rule, but I don’t see it in the portal.**
+**1. I created an alert rule, but I don’t see it in the portal.**
 
-   Existing alert rules can be reviewed in **Monitor** > **Alerts** > **Manage Alert Rules**.
+     Existing alert rules can be reviewed in **Monitor** > **Alerts** > **Manage Alert Rules**.
    Service Health alert rules can also be reviewed in **Service Health** > **Health Alerts**.
 
 
-**3.	I am not sure if I have the permissions to author the alert.**
+**1.	I am not sure if I have the permissions to author the alert.**
 
-   To author alerts, you must have the role of [monitoring contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security?WT.mc_id=Portal-Microsoft_Azure_Support#built-in-monitoring-roles) on the target subscription.
+     To author alerts, you must have the role of [monitoring contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security?WT.mc_id=Portal-Microsoft_Azure_Support#built-in-monitoring-roles) on the target subscription.
