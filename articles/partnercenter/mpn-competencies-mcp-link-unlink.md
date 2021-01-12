@@ -20,7 +20,7 @@
 
 # MPN - How to link/unlink MCP IDs
 
-Resources providing knowledge on how to link/unlink MCP IDs
+Resources providing knowledge on how to link or unlink MCP IDs
 
 ## **Recommended Steps**
 
@@ -34,4 +34,4 @@ Resources providing knowledge on how to link/unlink MCP IDs
 
 ## **Recommended Documents**
 
-* [Link or unlink an individual to or from a partner organization, to have his exams assessments and certifications reflected for competency](https://support.microsoft.com/help/2966380/link-or-unlink-an-mcp-id-to-or-from-a-partner-organization)
+* [How to associate your MCP ID to your Partner Center account](https://docs.microsoft.com/partner-center/ms-learn-associate)
