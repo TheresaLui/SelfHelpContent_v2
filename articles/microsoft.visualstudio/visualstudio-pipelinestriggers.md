@@ -16,9 +16,9 @@ Resolve most issues related to triggers by using the following solutions.
 
 ## **Recommended Steps**
 
-Your source code may be in an Azure Repos, GitHub, BitBucket, or Subversion. You may be having trouble with CI, CD, pull request, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
+The following information applies to customers who have source code in an Azure Repos, GitHub, BitBucket, or Subversion and are having trouble with CI, CD, pull request, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
 
-Follow through all of these steps before you create a support ticket. If you do need to create a ticket after completing the diagnostic steps, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
+Follow through all of these steps before you create a support ticket. If you need to create a ticket, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
 
 * I am setting up **CI (Continuous Integration) or PR (Pull Request) triggers** in my **YAML pipeline**, and they do not work
 
