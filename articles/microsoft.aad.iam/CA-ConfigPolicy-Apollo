@@ -19,7 +19,14 @@ This experience integrates automated checks, manual steps, important documents a
 :::Section Insights:::
 ## Troubleshooting issues related to Conditional Access 
 Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
- 
+
+Start by watching this short video
+<video>
+<src>https://www.youtube.com/watch?v=c_izIRNJNuk</src>        
+<title>How to deploy Conditional Access</title>
+<size>small</size>        
+</video>
+
 <Insight>
 <symptomId>DxpPrimaryInfoInsight</symptomId>
 <executionText>Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade </executionText>
@@ -28,13 +35,6 @@ Resolve issues related to Conditional Access using insights from diagnostics, an
 <additionalInputsReq>false</additionalInputsReq> 
 </Insight>
   
-:::Section Manual Troubleshooting Solutions::: 
-<video>
-<src>https://www.youtube.com/watch?v=c_izIRNJNuk</src>        
-<title>How to deploy conditional access</title>
-<size>small</size>        
-</video>
- 
   
 :::Section Recommended Solutions:::
 # Configuring new or existing policy settings for Azure Active Directory Services
