@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Common Permissions-Related Issues"
+  pagetitle="Common Permissions-Related Issues&#xD;"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="pazand,cathmill"
@@ -44,8 +44,7 @@
 
 ## **Recommended Documents** 
 * [Add users and manage access in Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/add-organization-users)
-* [Default permissions and access for Azure DevOps]
-(https://docs.microsoft.com/azure/devops/organizations/security/permissions-access)
+* [Default permissions and access for Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/security/permissions-access)
 * [Permissions lookup guide for Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/security/permissions-lookup-guide)
 * [Security namespace and permissions reference for Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/security/namespace-reference)
 * [Troubleshoot connectivity and signing in](https://docs.microsoft.com/azure/devops/user-guide/troubleshoot-connection)
