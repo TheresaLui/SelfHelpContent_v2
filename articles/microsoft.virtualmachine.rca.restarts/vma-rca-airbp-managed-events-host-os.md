@@ -20,20 +20,20 @@
 
 
 <!--issueDescription-->
-The physical host node where your VM was running was undergoing an OS Update. These updates are memory preserving and might have paused your VMs up to 30 seconds. 
+The physical host node where your VM was running underwent an OS Update. These updates are memory preserving and might have paused your VMs up to 30 seconds. 
 
 
 
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in brief connectivity loss. We are continuously working to improve to reduce impact of our updates and apologize for any inconvenience this may have caused you. 
+Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in brief connectivity loss. We are continuously working to improve our update process and apologize for any inconvenience this may have caused you. 
 
 
 <!--recommendedActions-->
 ## **Recommended Documents**
 
-> *Learn more about:*
+> Learn more about:
 > * To prepare for VM maintenance events and reduce its impact, try using Scheduled Events forWindows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)or[Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
 > * Learn more about Azure maintenance and configuring for high availability:  
 >   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
