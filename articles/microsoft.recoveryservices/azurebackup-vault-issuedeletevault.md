@@ -27,7 +27,7 @@ You cannot delete a vault that contains protected data sources, contains backup 
      - Ensure there are no protected items on the below path: <br>
       *Vault - Backup infrastructure - under **Protected Servers** and **Storage Accounts** tab*
 
-## **Recommended documents**
+## **Recommended Documents**
 - How to **stop backup/protection** for:
 	- [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
 	- [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
