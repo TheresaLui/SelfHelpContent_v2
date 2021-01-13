@@ -1,25 +1,21 @@
 <properties
-	pageTitle="MPN - benefits activation"
-	description="MPN - benefits activation"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-	articleId="mpn_benefits_activation"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32725801,32725862"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17000, 17007"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-/>
-
+  pagetitle="MPN - benefits activation"
+  service="partnercenter"
+  resource="csp"
+  ms.author="brserbus,keramp"
+  selfhelptype="Generic"
+  supporttopicids="32725801,32725862"
+  resourcetags="csp"
+  productpesids="17000,17007"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mpn_benefits_activation"
+  ownershipid="PartnerCenter_Accounts_Onboarding_Access" />
 # MPN - benefits activation
-Resources providing knowledge of how to activate benefits in the Microsoft Partner Network.
+
+## **Recommended Steps**
+
+1. If your exisitng cloud subscription on M365 Admin Center is disabled/expired, please copy and paste the below link on an incognito browser window to activate a new subscription
+https://signup.microsoft.com/productkeystart
 
 ## **Recommended Documents**
 
