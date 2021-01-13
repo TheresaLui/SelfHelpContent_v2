@@ -20,14 +20,14 @@
 
 
 Resolve problems with the Sign-in Diagnostic using the following steps. 
-This topic covers sign-in problems and account lockout related completing MFA, legacy authentication, or app passwords.
+This topic covers issues related to sign-in, account lockout, app passwords, and legacy authentication.
 
 ## **Recommended Steps**
 
 **To diagnose problems related to user sign-in:**  
  
 1. Launch the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
-2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
+2. Find the event you want to analyze by entering details you have about the user, application, time of sign-in, request ID, or correlation ID.
 3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed).
    
 
