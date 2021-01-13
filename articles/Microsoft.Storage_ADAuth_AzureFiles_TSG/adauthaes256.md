@@ -7,7 +7,7 @@
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
-    selfHelpType="Diagnostics"
+    selfHelpType="TSG_Content"
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
