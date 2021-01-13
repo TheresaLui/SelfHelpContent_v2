@@ -39,7 +39,7 @@ To delete the vault refer to following articles:<br>
 - [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
 - Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
 - Check if backup infrastructure items are blocking vault delete by ensuring there are no protected items on the following path: <br>
-      **Vault - Backup infrastructure** under **Protected Servers** and **Storage Accounts** tab*
+      **Vault - Backup infrastructure** under **Protected Servers** and **Storage Accounts** tab
 
 
 ## **Recommended Documents**
