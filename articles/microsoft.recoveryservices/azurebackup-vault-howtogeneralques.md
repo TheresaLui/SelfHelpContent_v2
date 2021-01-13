@@ -26,12 +26,12 @@ You cannot delete a vault that contains protected data sources, backup data (act
 To delete the vault, refer to the following articles:
 - [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
 - Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
-- Determine whether backup infrastructure items are blocking vault delete: Go to the **Storage Accounts** tab, and under **Protected Servers** review **Vault - Backup infrastructure**. See instructions on how to stop backup/protection for:
+- Determine whether backup infrastructure items are blocking vault delete. Go to **Storage Accounts** tab, and under **Protected Servers** review **Vault - Backup infrastructure** to make sure that no protected items are on the path. <br> 
+See instructions on how to stop backup/protection for:
     * [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
     * [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
     * [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
 	
-
 **Move a vault or backup data**
 - [Change vault configuration from GRS to LRS ](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription) and between [resource groups?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)<br>
