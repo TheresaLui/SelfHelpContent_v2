@@ -19,7 +19,7 @@
 
 The general elements of this error are:
 
-1. The ustomer is using OpenVPN with Azure VPN Client
+1. The customer is using OpenVPN with Azure VPN Client
 2. The point-to-site client connects with no issues, but after 20 to 60 seconds, it disconnects unexpectedly
 3. The point-to-site logs on the Gateway say, "Disconnect request received <= Remote initiated," confirming that the issue is on client side
 4. But client logs say, "The operation was cancelled by the user," although the user didn't cancel the operation
