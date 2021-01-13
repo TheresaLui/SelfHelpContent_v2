@@ -23,7 +23,7 @@ You cannot delete a vault that contains protected data sources, contains backup 
 
 - [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
 - Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
-- Check if backup infrastructure items are blocking vault delete by ensuring that no protected items are on the below path: <br>
+- Check if backup infrastructure items are blocking vault delete by ensuring that no protected items are on the following path: <br>
      **Vault - Backup infrastructure** under **Protected Servers** and **Storage Accounts** tab
 
 ## **Recommended Documents**
