@@ -12,6 +12,8 @@
   ownershipid="Azure_DevOps_Services" />
 # Common Permissions-Related Issues
 
+Use this topic to resolve common permissions-related issues.
+
 ## **Recommended Steps** 
 
 **Why can't users access some features?**
@@ -24,7 +26,7 @@
 
 **I added a user to my project. Why can't they see the project?**
 
-* To view a [project](https://docs.microsoft.com/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page#project-level-groups), users must have the ["view project level information" permission set to "allow"](https://docs.microsoft.com/azure/devops/organizations/security/set-project-collection-level-permissions?toc=%2Fazure%2Fdevops%2Fsecurity-access-billing%2Ftoc.json&amp;bc=%2Fazure%2Fdevops%2Fsecurity-access-billing%2Fbreadcrumb%2Ftoc.json&amp;view=azure-devops&amp;tabs=preview-page).
+* To view a [project](https://docs.microsoft.com/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page#project-level-groups), users must have the [**view project level information** permission set to **allow**](https://docs.microsoft.com/azure/devops/organizations/security/set-project-collection-level-permissions?toc=%2Fazure%2Fdevops%2Fsecurity-access-billing%2Ftoc.json&amp;bc=%2Fazure%2Fdevops%2Fsecurity-access-billing%2Fbreadcrumb%2Ftoc.json&amp;view=azure-devops&amp;tabs=preview-page).
 
 **I accidentally removed my permissions, and am unable to grant them again. What should I do?**
 
