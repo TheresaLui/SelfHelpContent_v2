@@ -17,19 +17,17 @@
 
 # Solution for VPN Point-to-Site client error Required files could be missing
 
-Thank you for working with us to identify the cause of the issue you are experiencing. The solution to this issue is to reconfigure the gateway and download and install the updated VPN P2S client package again.
-
-We believe this has met your need but feel free to reach out for assistance if needed. We are sorry for the inconvenience. If you have thoughts on how we can improve we would appreciate any feedback you can offer.
+Most users can resolve this issue by reconfiguring the gateway, and downloading and installing the updated VPN P2S client package again.
 
 ## Recommended Steps
 
-1. From The Azure Portal, select the impacted VPN gateway.
-2. On the **Point-to-site configuration** page configure the Tunnel Type as SSTP only.
-3. Hit **Save** and wait for changes to apply.
-4. Reconfigure Tunnel type as it was previously, per customer desire.
-5. Hit **Save** and wait for changes to apply again.
-6. Redownload package from portal and re-install on all clients.
+1. From the Azure portal, select the impacted VPN gateway.
+2. On the **Point-to-site configuration** page, configure the Tunnel type as SSTP only.
+3. Select **Save** and wait for changes to apply.
+4. Reconfigure the Tunnel type as it was previously, according to what the customer wants.
+5. Select **Save** and wait for the changes to apply again.
+6. Download the package again from the portal and reinstall the package on all clients.
 
 ## Recommended Documents
 
-* https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal
+* [VPN Gateway point-to-site resource manager](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-how-to-point-to-site-resource-manager-portal)
