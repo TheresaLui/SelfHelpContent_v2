@@ -17,21 +17,18 @@
 
 # VPN Point-to-Site client error **Disconnect request received <= Remote initiated**
 
-General symptoms for this error are:
+The general elements of this error are:
 
-1. Customer is using OpenVPN with Azure VPN Client
-2. Point to site client connects just fine
-3. After some 20 to 60 seconds, it disconnects unexpectedly
-4. Point to site logs on the Gateway say "Disconnect request received <= Remote initiated" confirming the issue is on client side
-5. But client logs say "The operation was cancelled by the user" while it wasn't the user cancelling the operation
+1. The ustomer is using OpenVPN with Azure VPN Client
+2. The point-to-site client connects with no issues, but after 20 to 60 seconds, it disconnects unexpectedly
+3. The point-to-site logs on the Gateway say, "Disconnect request received <= Remote initiated," confirming that the issue is on client side
+4. But client logs say, "The operation was cancelled by the user," although the user didn't cancel the operation
 
+**This is a Windows OS issue**. There are multiple reasons why this might happen, so there is not a single solution. Generally, you can fix the issue by changing the client (proving the issue is on the client side) or by running Windows Updates.
 
-
-**This is a Windows OS issue**. There are multiple reasons why this might happen, hence there is not an unique solution. Generally the issue is fixed by changing client (proving the issue is on client side) or running Windows Updates.
-
-Either way it's not an Azure Networking issue but a Windows issue.
+Either way, it's not an Azure networking issue but a Windows issue.
 
 ## Recommended Steps
 
 1. Install latest Windows hotfixes on the client by running Windows Update
-2. If issue isn't solved, engage Windows Networking team via Service Desk collaboration
+2. If issue the persists, work with the Windows Networking team through a Service Desk collaboration
