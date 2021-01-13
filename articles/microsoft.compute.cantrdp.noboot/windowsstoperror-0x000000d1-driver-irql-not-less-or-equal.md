@@ -18,11 +18,15 @@
 />
 
 # Windows Stop Error: 'DRIVER IRQL NOT LESS OR EQUAL' while booting a VM
+
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with stop code 'DRIVER IRQL NOT LESS OR EQUAL'. If you encounter this error message, it typically means that Windows encountered a race condition.
 <!--/issueDescription-->
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we’ll restart for you. (##% complete) Stop code: DRIVER IRQL NOT LESS OR EQUAL**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+To confirm the current state of your VM, refer to the [**Boot Diagnostics Screenshot**](datablade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics). The screenshot should reflect the error code: <br> 
+"Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we’ll restart for you. (##% complete) Stop code: DRIVER IRQL NOT LESS OR EQUAL." 
+
+This may help you determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
