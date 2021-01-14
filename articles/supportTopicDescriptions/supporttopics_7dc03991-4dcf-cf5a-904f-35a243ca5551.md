@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="7dc03991-4dcf-cf5a-904f-35a243ca5551"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551" />
 # Support Topic Descriptions for 7dc03991-4dcf-cf5a-904f-35a243ca5551
 ---
@@ -247,7 +248,7 @@
     {
       "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
       "longDescription": "",
-      "shortDescription": "Azure ATP integration, investigation of AD activities, and identity security posture configuration",
+      "shortDescription": "Issues with security posture, AD  activities, Defender for identity based alerts and secure score",
       "searchTags": "ATP;Integration",
       "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
