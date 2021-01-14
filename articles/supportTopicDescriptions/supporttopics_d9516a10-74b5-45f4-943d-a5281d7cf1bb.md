@@ -778,6 +778,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b330106f-c77a-b9e5-64d7-b8b7ea48e720",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API Java SDK",
+      "searchTags": "Java;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b338ae50-7acd-6046-94bb-15f6740b9b51",
       "longDescription": "",
       "shortDescription": "Issues or questions with using your Cosmos DB Keys and Customer Managed Keys",
