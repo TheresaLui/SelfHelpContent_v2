@@ -146,6 +146,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
+      "longDescription": "",
+      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "searchTags": "Python;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "281f8d5e-90e3-1239-4da1-44ad98360fdb",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB Cassandra are timing out, or application is getting Service Unavailable exceptions",
