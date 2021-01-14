@@ -842,6 +842,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b5b7e016-1da9-92b4-2887-b992902b84d0",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Gremlin (Graph)",
+      "searchTags": "Gremlin;Graph",
+      "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5c539ef-dc6f-4223-733d-1e322f7e5ceb",
       "longDescription": "",
       "shortDescription": "RU changes is taking very long time. The change has been running for hours",
