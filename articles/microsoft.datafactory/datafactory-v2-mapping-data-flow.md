@@ -23,7 +23,7 @@ If you are using SQL source, we recommend you to
 
 **Recommended Partitions:**
 Based on sources, we recommend below partitionings
-- SQL Sourceb-> source partitioning
+- SQL Source-> source partitioning
 - File Base Source/Sink -> default partitioning is the best
 - Do not do any explicit partitions in intermediate transformations other than source and sink.
 
