@@ -44,6 +44,15 @@ Azure Cosmos DB will sync your transactional data with analytical store within 2
 Synapse SQL Serverless is read only.  
 
 
+### **Error when trying to create a view**  
+
+You need to use an user database to create a view. You can't use the **master** or the **default** databases.
+
++ If you try to create a view in Synapse's default database, you will get the "Operation CREATE/ALTER VIEW is not allowed for a replicated database" error.
+
++ If you try to create a view in Synapse's master database, you will get the "CREATE/ALTER VIEW is not supported in master database" error.  
+
+
 ## **Recommended Documents**  
 
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)  
