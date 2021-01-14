@@ -12,7 +12,7 @@ cloudEnvironments="public"
 ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
  
-## Welcome to our new guided troubleshooting experience for Conditional Access
+# Welcome to our new guided troubleshooting experience for Conditional Access
  
 :::Section Insights:::
 ## Troubleshooting issues related to Conditional Access 
@@ -40,6 +40,7 @@ Learn to deploy Conditional Access using the how-to video below:
 ### Configuring new or existing policy settings for Active Directory Services
 
 Resolve issues with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
 You can quickly diagnose issues related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
  
 1. Launch the Sign-in Diagnostic.
@@ -56,11 +57,11 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 
 ### Recommended documents
 
-**Getting started with Conditional Access**
+Getting started with Conditional Access
 * [Short introduction to Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 * [Best Practices](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 	
-**Common Conditional Access Policies**
+Common Conditional Access Policies
 * [Require MFA for Administrators](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 * [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
 * [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
