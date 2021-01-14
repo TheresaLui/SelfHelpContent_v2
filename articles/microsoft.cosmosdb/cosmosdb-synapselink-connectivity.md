@@ -43,10 +43,12 @@ When trying to access Cosmos DB analytical store from a Synapse in other subscri
 
 This is caused because your ip address needs to be present in the firewall settings of the Cosmos account you want to access. Please check [this](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure) documentation for more information.
 
+
 ## **Recommended Documents**  
 
 [Azure Synapse Link limits](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
 <br>This article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.
 
-[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
-<br> This article describes how to configure your Cosmos DB firewall for access from another subscription.
+[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)  
+<br> This article describes how to configure your Cosmos DB firewall for access from another subscription.  
+
