@@ -407,6 +407,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a72428f9-6d23-947b-754e-4e3e68249e05",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring Conditional Access policies that apply to certain geographic or IP ranges.",
+      "searchTags": "IP;IP ranges;geo ranges;geographic ranges;CA",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7f81e5c-aa33-5e9a-9d5d-2171f20a78c8",
       "longDescription": "",
       "shortDescription": "Assistance in setting up an OAuth or OIDC app, service, or passive SAML or WS-FED application ",
