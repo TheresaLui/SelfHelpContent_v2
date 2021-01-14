@@ -746,6 +746,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ace77206-20bb-ac18-9704-8d429b346997",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected result issues with SQL API SDK .NET",
+      "searchTags": ".NET;API;SDK",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aefad6a8-330d-7c7a-7e84-a1e0fab0f2dc",
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Spark connector with Cosmos DB",
