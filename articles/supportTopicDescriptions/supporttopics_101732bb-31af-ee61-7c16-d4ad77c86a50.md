@@ -410,6 +410,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "de401b68-8114-843d-b999-d2582f332d95",
+      "longDescription": "",
+      "shortDescription": "Covers configuration and setup issues related to Application Gateway Ingress Controller Add-On for AKS",
+      "searchTags": "ingress controller;agic;configuration;aks;add on",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dfb074b9-9078-cdb8-3e45-18781a09587f",
       "longDescription": "Covers routing issues related to custom error pages in Application Gateway",
       "shortDescription": "Covers routing issues related to custom error pages in Application Gateway",
