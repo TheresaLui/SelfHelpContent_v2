@@ -594,6 +594,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "88e913a4-0c5a-75ba-7faf-9a22077e9e48",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Cassandra",
+      "searchTags": "Cassandra",
+      "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8ba0317c-6c66-349c-4305-04ade4f69b66",
       "longDescription": "",
       "shortDescription": "Migrating your MongoDB account to 3.6",
