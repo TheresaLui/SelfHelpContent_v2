@@ -810,6 +810,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b482eba5-cf15-3878-9d86-5ca5243a1bb6",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK for Nodejs or Javascript",
+      "searchTags": "SDK;Javascript;Nodejs;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5c539ef-dc6f-4223-733d-1e322f7e5ceb",
       "longDescription": "",
       "shortDescription": "RU changes is taking very long time. The change has been running for hours",
