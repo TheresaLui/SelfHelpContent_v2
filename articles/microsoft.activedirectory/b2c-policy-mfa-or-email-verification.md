@@ -26,9 +26,9 @@ Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Mult
 Yes, by using <code>DisplayControls</code> (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template and From: address and subject, as well as support localization and custom one-time password (OTP) settings.
 
 
-### **For my customers can I generate and send a code to a phone number, and then verify the code?**
+### **For my customers, can I generate and send a code to a phone number, and then verify the code?**
 
-Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Use [this](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) technical profile to generate and send a code to a phone number, and then verify the code. 
+Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Use [this technical profile](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) to generate and send a code to a phone number, and then verify the code. 
 
 
 ### **I need to customize behavior of my Azure Active Directory B2C tenant**
@@ -38,10 +38,10 @@ Custom policies are configuration files that define the behavior of your Azure A
 
 ### **Password reset link is not working**
 
-Currently, the combined "Sign-up or Sign-in policy" has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
+Currently, the combined **Sign-up or Sign-in policy** has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
 
-1. **Use a Sign-in Policy**: No work required by the application. Selecting "I forgot my password" redirects the user automatically to a generic Microsoft-branded password reset page.
-1. **Handle the error**: This requires the application to do some extra work. Selecting "I forgot my password" redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
+1. **Use a Sign-in Policy**: No work required by the application. Select **I forgot my password** to redirect the user automatically to a generic Microsoft-branded password reset page.
+1. **Handle the error**: This requires the application to do some extra work. Select **I forgot my password** to redirect the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
 
 
 ## **Recommended Documents**
