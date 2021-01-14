@@ -40,8 +40,8 @@ Custom policies are configuration files that define the behavior of your Azure A
 
 Currently, the combined **Sign-up or Sign-in policy** has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
 
-1. **Use a Sign-in Policy**: No work required by the application. Select **I forgot my password** to redirect the user automatically to a generic Microsoft-branded password reset page.
-1. **Handle the error**: This requires the application to do some extra work. Select **I forgot my password** to redirect the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
+1. **Use a Sign-in Policy**: No work required by the application. Selecting **I forgot my password** redirects the user automatically to a generic Microsoft-branded password reset page.
+1. **Handle the error**: This requires the application to do some extra work. Selecting **I forgot my password** redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
 
 
 ## **Recommended Documents**
