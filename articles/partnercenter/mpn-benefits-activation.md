@@ -2,7 +2,7 @@
   pagetitle="MPN - benefits activation"
   service="partnercenter"
   resource="csp"
-  ms.author="brserbus,keramp"
+  ms.author="keramp"
   selfhelptype="Generic"
   supporttopicids="32725801,32725862"
   resourcetags="csp"
@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-1. If your exisitng cloud subscription on M365 Admin Center is disabled/expired, please copy and paste the below link on an incognito browser window to activate a new subscription
+* If your exisitng cloud subscription on M365 Admin Center is disabled/expired,please copy and paste the below link on an incognito browser window to activate a new subscription
 https://signup.microsoft.com/productkeystart
 
 ## **Recommended Documents**
