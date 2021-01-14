@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead"
   description="SupportTopicDescriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead"
   authors="elixirsys2"
-  ms.author="akucer"
+  ms.author="akucer, russellcooks"
   selfhelptype="SupportTopicDescription"
   productpesids="efa0fcb8-3325-6eb7-b451-8e3a853aaead"
   cloudenvironments=""
@@ -13,10 +13,10 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "Questions regarding Azure Media SErvices",
+  "shortDescription": "Azure Media Services",
   "longDescription": "",
   "productLink1": "",
-  "productLinkName1": "",
+  "productLinkName1": "Product Overview",
   "productLink2": "",
   "productLinkName2": "",
   "productLink3": "",
