@@ -370,6 +370,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2db4cda-e572-4dd6-e19e-f0a198d4450e",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with uploading an SSL certificate to the listener",
+      "searchTags": "certificate;upload;ssl;tls;listener",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d61a1c3d-21e0-d1be-4a2f-5687c3478e3f",
       "longDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
       "shortDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
