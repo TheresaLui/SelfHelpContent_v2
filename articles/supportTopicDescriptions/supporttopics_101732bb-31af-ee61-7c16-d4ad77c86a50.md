@@ -26,6 +26,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "01ee5a2e-02c1-5589-18a0-22099663453b",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with uploading an authentication certificate (v1) or trusted root certificate (v2) to the HTTP settings",
+      "searchTags": "authentication certificate;trusted root certificate;certificate;upload;ssl",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0246abef-6243-380e-d147-a8d908829d76",
       "longDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
       "shortDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
