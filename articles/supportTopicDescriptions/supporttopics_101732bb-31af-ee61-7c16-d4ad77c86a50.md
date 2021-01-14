@@ -362,6 +362,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "cf933cc7-f72d-b499-ed48-c196ccddf343",
+      "longDescription": "",
+      "shortDescription": "If you have issues with renewing expired certificates in Application Gateway or if you would like to learn how-to renew certificates",
+      "searchTags": "certificate;renew;expired;ssl certificate;ssl",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d61a1c3d-21e0-d1be-4a2f-5687c3478e3f",
       "longDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
       "shortDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
