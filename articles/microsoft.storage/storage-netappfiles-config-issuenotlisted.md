@@ -2,7 +2,7 @@
   pagetitle="Common NetApp Config Issues "
   service="microsoft.storage"
   resource="storage"
-  ms.author="raprasad,b-tonya"
+  ms.author="b-tonya"
   selfhelptype="Generic"
   supporttopicids="32640620"
   resourcetags=""
@@ -16,7 +16,7 @@
 
 - [Getting access to Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
 - [Understanding resource limits for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits)<br>
-- [How to submit a request to increase the resource limits that are adjustable for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits#request-limit-increase-)<br>
+- [How to submit an Azure support request to increase the resource limits that are adjustable for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits#request-limit-increase-)<br>
 - [Unable to delegate a subnet to NetApp Resource Provider](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-delegate-subnet)<br>
 - [Unable to create a capacity pool or volume](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits)<br>
 - [Unable to create an Active Directory connection for SMB volumes](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes)<br>
