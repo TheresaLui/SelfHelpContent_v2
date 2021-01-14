@@ -522,6 +522,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80267f41-c30e-d9d0-9ed3-225756c6a837",
+      "longDescription": "",
+      "shortDescription": "Performance related issues with SQL API SDK for Nodejs or Javascript",
+      "searchTags": "SDK;Javascript;Nodejs;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "819ec30a-db03-7ee0-192e-c61afed9975d",
       "longDescription": "",
       "shortDescription": "How to create Stored Procedures, requirement for using Stored Procedures or if Stored Procedures are not behaving as expected",
