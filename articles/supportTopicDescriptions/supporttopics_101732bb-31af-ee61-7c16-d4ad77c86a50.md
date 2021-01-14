@@ -346,6 +346,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "baa2f284-9e24-c0ab-4ccc-90a5765ec2fb",
+      "longDescription": "",
+      "shortDescription": "Covers questions on general guidance related to Application Gateway Ingress Controller Add-On for AKS",
+      "searchTags": "add on;aks;agic;ingress controller;general guidance",
+      "category": "General guidance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "be87bc4e-6fdb-7223-e7c3-75517666bad3",
       "longDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "shortDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
