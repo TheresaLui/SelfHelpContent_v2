@@ -890,6 +890,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce97256c-442e-aa2b-435a-a5f721c97c68",
+      "longDescription": "",
+      "shortDescription": "Performance related issues with SQL API SDK .NET",
+      "searchTags": ".NET;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d16a7a67-2415-f9be-842f-761833fd7daa",
       "longDescription": "",
       "shortDescription": "Unable to customize index, index creation is not taking effect, rebuilding index and query is not using index",
