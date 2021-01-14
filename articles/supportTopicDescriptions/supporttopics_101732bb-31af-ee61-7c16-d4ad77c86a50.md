@@ -282,6 +282,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "9c6c4f5f-803e-1917-4988-99d5df5a0b79",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with updating your Application Gateway configuration or if your Application Gateway provisioning state is Failed.",
+      "searchTags": "failed state;provisioning state;configuration update;changes;failed",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a5376da4-86ae-2b8d-b01e-2c377bcb450e",
       "longDescription": "Covers issues related to Application Gateway SSL offload/SSL termination configuration",
       "shortDescription": "Covers issues related to Application Gateway SSL offload/SSL termination configuration",
