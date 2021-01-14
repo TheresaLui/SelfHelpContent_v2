@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="7dc03991-4dcf-cf5a-904f-35a243ca5551"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551" />
 # Support Topic Descriptions for 7dc03991-4dcf-cf5a-904f-35a243ca5551
 ---
@@ -66,6 +67,14 @@
       "shortDescription": "Configuration of mail notifications",
       "searchTags": "mail;notifications",
       "category": "Email Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "29d29559-31d9-5e37-d406-64531a8b021c",
+      "longDescription": "",
+      "shortDescription": "Configuring 3rd party IdP or onboarding any app to enforce controls to prevent data exfiltration and infiltration",
+      "searchTags": "IdP;any app;3rd Idp",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
