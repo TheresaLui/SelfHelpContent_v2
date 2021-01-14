@@ -16,7 +16,6 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-## Recommended Solution
 
 <!--issueDescription-->
 Account Failover does not support classic storage account. Account failover is available for general-purpose v1, general-purpose v2, and Blob storage account types with Azure Resource Manager deployments. For storage accounts that are configured for RA-GRS and GRS, failover is supported for all public regions but is not available in sovereign or national clouds at this time. For storage accounts that are configured for GZRS and RA-GZRS, failover is supported [only in certain regions](https://docs.microsoft.com/azure/storage/common/storage-redundancy#geo-zone-redundant-storage).
