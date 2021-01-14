@@ -1,6 +1,6 @@
 <properties
-  pagetitle="Vulnerability Assessment - Solutions (BYOL) self help guide"
-  ms.author="amaviram"
+  pagetitle="Vulnerability Assessment - Solutions (BYOL) self help guide&#xD;"
+  ms.author="amaviram,agolden"
   selfhelptype="Generic"
   supporttopicids="32749421"
   resourcetags=""
@@ -15,9 +15,9 @@
 - Check to see if your machine is in the **Not Applicable** tab. If it is, the **Reason** could explain why the machine is at that state. The machine might be an unsupported resource type. See supported resources and operating systems in the [documentation](https://docs.microsoft.com/azure/security-center/deploy-vulnerability-assessment-vm). If you see a message saying that the extension might be corrupted, try to remove or unlink the vulnerability assessment extension for this machine. Wait for it to be recommended for deployment and try to deploy it again.
 
 
-### **My machine fails for successfully deploy the vulnerability scanner**
+### **My machine fails for successfully deploying the vulnerability scanner**
 - Check the [documentation](https://docs.microsoft.com/azure/security-center/deploy-vulnerability-assessment-vm#deploy-the-integrated-scanner-to-your-azure-and-hybrid-machines) to see if you are running a supported operating system. 
-- Make sure you have the VM agent installed. See [VM agent Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows) or [VM agent Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-linux)
+- Cannot enable vulnerability assessment solution on my VM. See [VM agent Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows) or [VM agent Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-linux)
 - Make sure your machine is turned on.
 - Validate that you have Write permissions for the VM or Arc Machine.
 - Make sure your machine has internet access to the vulnerability scanning platform. If you are using the Qualys scanner, see the [network requirements in the FAQ](https://docs.microsoft.com/azure/security-center/deploy-vulnerability-assessment-vm#what-prerequisites-and-permissions-are-required-to-install-the-qualys-extension).
