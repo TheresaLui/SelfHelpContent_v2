@@ -498,6 +498,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7b3fc7be-e70d-d22f-eff8-1e81179298bf",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected result issues with SQL API Java SDK",
+      "searchTags": "Java;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d91ee0e-0c06-d5c8-c1b1-4c1eac14f382",
       "longDescription": "",
       "shortDescription": "Issues regarding request rate too large errors",
