@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Continuous Integration and Delivery with Git Repository Integration&#xD;"
+  pagetitle="Continuous Integration and Delivery with Git Repository Integration"
   ms.author="chez,haoc"
   selfhelptype="Generic"
   supporttopicids="32629448"
@@ -12,11 +12,11 @@
 
 ## **Recommended Steps**
 
-* Review [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD for CI/CD in Azure Data Factory
+* Review [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD in Azure Data Factory
 
 * Review [Troubleshoot CI-CD, Azure DevOps, and Github issues in ADF](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide). 
 
-* Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX. <br>
+* Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX. 
 
 * If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
 
@@ -30,23 +30,23 @@
 
 ## **Recommended Documents**
 
-1. Continuous integration and delivery of [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory <br>
-
-    * **Be sure to read** [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd)<br>
-    * [Hotfix Production Branch Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) <br>
-    * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) <br>
+1. Continuous integration and delivery of [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory 
+    * **Be sure to read** [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd)
+    
+    * [Hotfix Production Branch Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) 
+    * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) 
     * [Automate continuous integration Sample and Steps](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#automate-continuous-integration-with-azure-pipelines-releases): this example shows how to stop active triggers before deployment and restart them afterwards.
 
-2. Source Control in Azure Data Factory <br>
+2. Source Control in Azure Data Factory 
     
-    * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration <br>
-    * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch <br>
-    * Switch to a different Git repo [Steps](https://docs.microsoft.com//azure/data-factory/source-control#switch-to-a-different-git-repo) <br>
+    * **Be sure to read** [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration 
+    * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch
+    * Switch to a different Git repo [Steps](https://docs.microsoft.com//azure/data-factory/source-control#switch-to-a-different-git-repo) 
 
-3. [Copy or clone a data factory in ADF](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory) <br>
+3. [Copy or clone a data factory in ADF](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
 
-    * [Use Cases](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) <br>
-    * [Steps](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) <br>
+    * [Use Cases](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) 
+    * [Steps](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) 
 
 **Azure Data Factory Feature Requests**
 
