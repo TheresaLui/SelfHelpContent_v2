@@ -162,6 +162,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "555e38d8-cb2e-2f48-4346-78586da4b142",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with configuring end-to-end SSL scenarios in Application Gateway",
+      "searchTags": "end to end ssl;ssl;tls;ssl offload;certificate",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5f840c79-ae00-e1d7-2fa2-2c83f90141e7",
       "longDescription": "Covers issues related to Application Gateway V1 to V2 SKU migration",
       "shortDescription": "Covers issues related to Application Gateway V1 to V2 SKU migration",
