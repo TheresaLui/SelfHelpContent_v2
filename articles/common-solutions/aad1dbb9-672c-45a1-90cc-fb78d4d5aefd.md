@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Configuring with Azure Active Directory or Office 365&#xD;"
+  pagetitle="Configuring with Azure Active Directory or Office 365"
   service=""
   resource=""
   ms.author="vimalt,cathmill"
@@ -14,19 +14,19 @@
 
 ## Common issues and questions about Azure Active Directory (AD) and Office 365
 
-* **Where can I find general information on how Azure AD integration works with Azure DevOps?**
+* **Where can I find general information on how Azure AD integration works with Azure DevOps?**<br>
 Start with [accessing your organization via Azure AD](https://docs.microsoft.com/azure/devops/organizations/accounts/access-with-azure-ad?view=azure-devops)
 
-* **After connecting to Azure AD, some users are disconnected, but they have matching identities in Azure AD.**
+* **After connecting to Azure AD, some users are disconnected, but they have matching identities in Azure AD.**<br>
 See [this document](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-some-users-are-disconnected-but-they-have-matching-identities-in-azure-ad-what-should-i-do) for guidance on what to do in this scenario.
 
-* **I have less than 200 users in my organization. Do I need to contact support before connecting to Azure AD?**
+* **I have less than 200 users in my organization. Do I need to contact support before connecting to Azure AD?**<br>
 Probably not. You'll have an opportunity to resolve any user mapping issues during the connection process. If you’ve tried to resolve the mapping issues yourself, but are still seeing issues, start a support ticket.
 
-* **I have more than 200 users in my organization. Can I connect to Azure AD?**
+* **I have more than 200 users in my organization. Can I connect to Azure AD?**<br>
 You can still connect on your own, but you should continue contacting support for help with disconnected users
 
-* Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization? 
+* **Why are no identities found when I try to add users from Azure AD to my Azure DevOps Organization?** <br>
 Are you an Azure AD guest user? See details about why [Azure AD guests can't search the Azure AD in the manner required by Azure DevOps](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-azure-access?view=azure-devops#q-why-are-no-identities-found-when-i-try-to-add-users-from-azure-ad-to-my-azure-devops-organization).
 
 ## **Recommended Documents**
