@@ -36,7 +36,17 @@ We recommend creating a workspace without Managed Vnet to access Azure Synapse L
 ### **Cannot access Cosmos DB analytical store with Synapse SQL dedicated pool**  
 Only Synapse SQL serverless pool and Synapse Spark pool are currently supported. Synapse SQL dedicated pool is not supported.  
 
+
+### **Cannot access Cosmos DB analytical store with Synapse Studio that is in another subscription**  
+
+When trying to access Cosmos DB analytical store from a Synapse in other subscription, you may get the "An error occurred while calling... responseBody = {'code':'Forbidden','message':'Request originated from client IP ... through public internet. This is blocked by your Cosmos DB account firewall settings..." error.
+
+This is caused because your ip address needs to be present in the firewall settings of the Cosmos account you want to access. Please check [this](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure) documentation for more information.
+
 ## **Recommended Documents**  
 
 [Azure Synapse Link limits](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
 <br>This article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.
+
+[Configure your Cosmos DB Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
+<br> This article describes how to configure your Cosmos DB firewall for access from another subscription.
