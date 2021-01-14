@@ -19,7 +19,7 @@
 
 Query performance issues can have many different root causes. Work through the recommended steps to solve for the most common causes for performance issues.
 
-### **Fix it yourself**
+## **Fix it yourself**
 
 * **Are you using Basic Tier server?** Please note that basic tier servers are intended for testing, development or small-scale infrequently used applications and production workload can max out resources easily. For more information read [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142)
 
@@ -37,7 +37,7 @@ Did you know that the number of active connection can cause a CPU spike? Please 
     3. Monitor the resource consumption of your server. If you max out either I/O or compute resources, increase scale up the resource that you are limited on.
     4. Only retrieve the columns you really need instead of using `select \*`.
 
-### **Recommended Documents**
+## **Recommended Documents**
 * [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store)
 * [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
 * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
