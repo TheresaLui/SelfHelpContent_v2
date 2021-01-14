@@ -146,6 +146,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "26727ae1-3877-49f1-ac67-4731a2e22667",
+      "longDescription": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Gremlin;Graph",
+      "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK for Python",
