@@ -146,6 +146,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "52a62184-537d-70cf-376d-9c2053302de2",
+      "longDescription": "",
+      "shortDescription": "If the health status of the backend server is healthy, but Application Gateway is returning 502 Bad Gateway error.",
+      "searchTags": "502;timeout;request timeout;backend health;probe",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5335313e-a524-8e68-de75-9080f933997b",
       "longDescription": "Covers issues where the user gets an Unknown status in Backend health section of Application Gateway",
       "shortDescription": "Covers issues where the user gets an Unknown status in Backend health section of Application Gateway",
