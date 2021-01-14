@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="cosmos-db-supporttopic-description"
   ownershipid="AzureData_AzureCosmosDB"
   icmteam="icmteam"
@@ -246,6 +247,14 @@
       "shortDescription": "How to migrate data to Azure Cosmos DB Cassandra API, estimate the throughput needs and optimize migration",
       "searchTags": "cassandra, migration, data migration, data ingestion",
       "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3f9a3a87-1981-0034-d7d3-809f83118345",
+      "longDescription": "",
+      "shortDescription": "Questions or guidance related to Backup and Restore",
+      "searchTags": "Backup;Restore",
+      "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {

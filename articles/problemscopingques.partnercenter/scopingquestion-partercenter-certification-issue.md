@@ -12,7 +12,7 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Offer_Certification"
 />
-# Payout issue
+# Certification issue
 
 ---
 {
@@ -27,7 +27,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
@@ -136,14 +136,6 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
-	   "required": false
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "order": 7,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {

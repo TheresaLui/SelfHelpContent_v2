@@ -28,10 +28,10 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 
 **Earnings**
 * [Monitoring Azure consumption](https://support.microsoft.com/help/4532661/how-do-we-self-monitor-azure-consumption)
-* [How to view/download earnings statements in CHIP](https://support.microsoft.com/help/2961257/how-to-view-download-earning-statement-from-chip)
+* [How to view/download earnings statements in CHIP](https://docs.microsoft.com/partner-center/chip-earnings)
 
 **Payments**
-* [Checking payment status in CHIP](https://support.microsoft.com/help/2952901/checking-payment-status-in-chip)
+* [Checking payment status in CHIP](https://docs.microsoft.com/partner-center/chip-payment-status)
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
 
 **Still need help?**
