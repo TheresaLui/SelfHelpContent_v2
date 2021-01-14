@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32743028,32743055"
+	supportTopicIds="32743028"
 	resourceTags=""
 	productPesIds="15585,15818"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
