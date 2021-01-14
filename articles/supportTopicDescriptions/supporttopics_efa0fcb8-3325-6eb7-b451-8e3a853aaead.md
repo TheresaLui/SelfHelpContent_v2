@@ -15,7 +15,7 @@
   "$schema": "SelfHelpContent",
   "shortDescription": "Azure Media Services",
   "longDescription": "",
-  "productLink1": "",
+  "productLink1": "https://docs.microsoft.com/azure/media-services/latest/media-services-overview",
   "productLinkName1": "Product Overview",
   "productLink2": "",
   "productLinkName2": "",
