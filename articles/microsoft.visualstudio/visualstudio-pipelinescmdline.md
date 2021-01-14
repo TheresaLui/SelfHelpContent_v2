@@ -51,4 +51,4 @@ Follow through all of these steps before you create a support ticket. If you nee
 * [macOS agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-osx#diagnostics)
 * [Windows agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows#diagnostics)
 * For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
-*For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
