@@ -378,6 +378,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "d7d768cb-f36c-9fcc-8a40-4d9366e103d4",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with configuring predefined or custom SSL policy in Application Gateway",
+      "searchTags": "ssl policy;tls policy;policy;ciphers;tls version",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dfb074b9-9078-cdb8-3e45-18781a09587f",
       "longDescription": "Covers routing issues related to custom error pages in Application Gateway",
       "shortDescription": "Covers routing issues related to custom error pages in Application Gateway",
