@@ -37,7 +37,7 @@ Learn to deploy Conditional Access using the how-to video below:
 	<additionalInputsReq>false</additionalInputsReq> 
 </Insight>
 
-### Configuring new or existing policy settings for Active Directory Services
+
 
 Resolve issues with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
@@ -56,13 +56,8 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
 
 ### Recommended documents
-
-Getting started with Conditional Access
-* [Short introduction to Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-* [Best Practices](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 	
 Common Conditional Access Policies
-* [Require MFA for Administrators](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 * [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
 * [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 * [Require Compliant Devices](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
