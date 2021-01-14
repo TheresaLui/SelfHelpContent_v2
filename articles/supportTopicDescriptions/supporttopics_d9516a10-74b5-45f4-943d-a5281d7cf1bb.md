@@ -98,6 +98,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e10f397-d99b-cf37-b8ff-0aa0f478ff9e",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK for Python",
+      "searchTags": "Python;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ecc0378-0512-3334-90ea-206c642a0a28",
       "longDescription": "",
       "shortDescription": "Azure Activity Log for providing insight into subscription-level events",
