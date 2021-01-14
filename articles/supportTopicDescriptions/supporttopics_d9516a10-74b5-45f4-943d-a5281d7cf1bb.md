@@ -498,6 +498,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78466084-6721-9fde-2999-75b6015ddb04",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected result issues with SQL API SDK for Python",
+      "searchTags": "SDK;API;Python",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7b3fc7be-e70d-d22f-eff8-1e81179298bf",
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API Java SDK",
