@@ -19,7 +19,7 @@
 
 Query performance issues can have many different root causes. Work through the recommended steps to solve for the most common causes for performance issues.
 
-## **Fix it yourself**
+### **Fix it yourself**
 
 * **Are you using Basic Tier server?** Please note that basic tier servers are intended for testing, development or small-scale infrequently used applications and production workload can max out resources easily. For more information read [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142)
 
