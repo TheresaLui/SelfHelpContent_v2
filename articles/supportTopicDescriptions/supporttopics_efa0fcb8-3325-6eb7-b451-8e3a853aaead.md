@@ -1,0 +1,26 @@
+<properties
+  pagetitle="SupportTopicDescriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead"
+  description="SupportTopicDescriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead"
+  authors="elixirsys2"
+  ms.author="akucer"
+  selfhelptype="SupportTopicDescription"
+  productpesids="efa0fcb8-3325-6eb7-b451-8e3a853aaead"
+  cloudenvironments=""
+  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  articleid="supporttopics_efa0fcb8-3325-6eb7-b451-8e3a853aaead"
+  ownershipid="StorageMediaEdge_Media" />
+# Support Topic Descriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead
+---
+{
+  "$schema": "SelfHelpContent",
+  "shortDescription": "Questions regarding Azure Media SErvices",
+  "longDescription": "",
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
+  "supportTopics": []
+}
+---
