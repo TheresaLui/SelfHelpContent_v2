@@ -45,12 +45,15 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 2. Test policy using the [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)
 3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
 
+<br/>
+
 ### Recommended documents
 	
 Common Conditional Access Policies
 * [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
 * [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 * [Require Compliant Devices](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
+
 <br/>
 
 ### More resources
