@@ -17,7 +17,7 @@
 **General Recommendations:**
 If you are using SQL source, we recommend you to
 
-- Analyze the dataflow for optimized partitioning. Please refer to this [Optimized tab](https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance#optimize-tab) for more details.
+- Analyze the dataflow for optimized partitioning. Please refer to this [Optimized tab](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#optimize-tab) for more details.
 - If 1==1 is being used in join condition it is not recommended. Instead, use column value to compare.
 - Debug clusters are intended to preview small data, increase compute size in proportion to the payload being submitted.
 
