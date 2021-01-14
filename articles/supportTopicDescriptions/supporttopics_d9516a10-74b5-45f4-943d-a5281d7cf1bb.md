@@ -594,6 +594,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8e22c842-fcc6-63c7-e0b1-998e0cdf9b13",
+      "longDescription": "",
+      "shortDescription": "Performance related issues with SQL API Java SDK",
+      "searchTags": "Java;SDK;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
