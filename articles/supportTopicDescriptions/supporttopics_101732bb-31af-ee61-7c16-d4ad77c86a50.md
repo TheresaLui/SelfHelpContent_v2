@@ -314,6 +314,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "b9acbe9d-5a27-e09a-1df3-1a00157f5cab",
+      "longDescription": "",
+      "shortDescription": "If you are having issues with configuration of End-to-End SSL, SSL offload, certificate related issues, or SSL policy",
+      "searchTags": "ssl;end to end ssl;ssl offload;tls;certificate",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "be87bc4e-6fdb-7223-e7c3-75517666bad3",
       "longDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "shortDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
