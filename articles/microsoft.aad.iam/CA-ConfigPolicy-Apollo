@@ -43,9 +43,7 @@ Before you get started, download the step-by-step Conditional Access [Deployment
 
 1. [Configure policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
 2. Test policy using the [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)
-3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
-
-<br/>
+3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)<br/>
 
 ### Recommended documents
 	
