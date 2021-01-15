@@ -108,22 +108,29 @@
             "required": true
         },
 		{
-            "id": "exception_count",
+            "id": "exception_message",
             "order": 7,
             "controlType": "textbox",
-            "displayLabel": "How many service unavailable exceptions did you observe?",
+            "displayLabel": "What is the exception message?",
+            "required": false
+        },
+		{
+            "id": "exception_count",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "How many exceptions did you observe?",
             "required": false
         },
 		{
             "id": "vm_count",
-            "order": 8,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Number of VMs the exception was seen during this time.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any additional details about the issue that you were facing",
             "required": true,

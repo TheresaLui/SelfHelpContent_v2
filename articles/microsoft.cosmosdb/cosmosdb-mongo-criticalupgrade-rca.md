@@ -9,7 +9,7 @@
     articleId="cosmosdb-mongo-criticalupgrade-rca"
     diagnosticScenario="CosmosDBMongoCriticalUpgradeInsight"
     selfHelpType="rca"
-    supportTopicIds="32636766, 32636771, 32636778, 32636779, 32636784, 32636789, 32738475, 32636819, 32636831"
+    supportTopicIds="32636766, 32636771, 32636778, 32636784, 32636789, 32738475, 32636819, 32636831"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
