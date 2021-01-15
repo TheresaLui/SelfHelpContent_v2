@@ -5,7 +5,7 @@
 	displayOrder=""
 	articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"
 	selfHelpType="Apollo"
-     supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d" //Sap Id
+     supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"
      productPesIds="16342,16065,15797,16454,16470"
 	cloudEnvironments="public"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
