@@ -16,11 +16,11 @@
     ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Recover deleted storage account
+# Recover deleted storage data
 :::Section Recommended solutions::: 
 
-## Recovering your deleted storage account
-Storage account recovery is now available via the Azure Portal.
+## Recovering your deleted storage data
+Use diagnostics below to check if your data is recoverable.
 
 ### Recovery diagnostics 
 
@@ -32,18 +32,20 @@ Storage account recovery is now available via the Azure Portal.
 <additionalInputsReq>true</additionalInputsReq> 
 </Insight> 
 
-### Storage account recovery guideline 
+:::Storage Account Recovery Guidelines:::
+
 You can initiate the recovery of your storage account directly from the portal.
 Follow [these instructions](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json) and click on the button below to recover your deleted storage account.
 
 [Recover deleted storage account](button-data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
 
-**Note**: If you are trying to recover a storage account in a deleted resource group, **recreate the resource group first**. 
+Note: If you are trying to recover a storage account in a deleted resource group, recreate the resource group first. 
 
+:::Storage Data Recovery Guidelines:::
 ### Container, Blob and Disk Recovery
 
 1. If soft-delete is enabled for your container/blob, you can undelete your container/blob if you are still in your retention period. [Click here](https://docs.microsoft.com/azure/storage/blobs/soft-delete-blob-overview?WT.mc_id=Portal-Microsoft_Azure_Support) for instructions.
-2. If soft-delete is not enabled, **your container/blob/disk can only be recovered if the following conditions are true**:
+2. If soft-delete is not enabled, your container/blob/disk can only be recovered if the following conditions are true:
 
 #### Container recovery:
 
