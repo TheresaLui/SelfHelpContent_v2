@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The reboot was triggered by an authorized user or process from either the Azure Portal or Azure Resource Manager interfaces.
+### **Root Cause**
+> The reboot was triggered by an authorized user or process from either the Azure portal or Azure Resource Manager interfaces.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot. 
+### **Resolution**
+> VM was restored following reboot of the host node. 
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

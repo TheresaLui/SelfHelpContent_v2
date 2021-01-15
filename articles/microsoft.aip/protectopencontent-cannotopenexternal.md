@@ -19,14 +19,13 @@
 
 This article is relevant for the Azure Information Protection classic client only. 
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://aka.ms/aipclassicsunset).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
 1. Verify that you are signed in to Office account, with permissions to view the protected content. 
 2. Review [Configuring secure document collaboration by using Azure Information Protection](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents) to ensure that your settings are configured as needed. 
-3. If you have Conditional Access enabled, make sure that it's properly configured for Azure Information Protection. For more information, see [the relevant FAQ](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work). 
-4. Review recommended documentation below.
+3. If you have Conditional Access enabled, make sure that it's properly configured for Azure Information Protection. For more information, see [the FAQ](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work). 
 
 ## **Recommended Documents**
 

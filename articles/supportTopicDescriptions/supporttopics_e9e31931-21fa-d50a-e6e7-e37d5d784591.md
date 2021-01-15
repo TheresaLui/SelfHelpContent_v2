@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "49b038a0-7dd3-a90f-d60b-104bf28913b7",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer - health probes",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4ee18ef7-4858-5166-25e0-e4b99044bb88",
       "longDescription": "",
       "shortDescription": "Common problems related to disk related error",
@@ -259,6 +267,14 @@
       "shortDescription": "Issues with connecting to your VMSS instance",
       "searchTags": "Connect",
       "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "79f09d33-c87d-962d-f724-ceee1953ec75",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -414,6 +430,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c07d8380-25b4-37d0-6f9c-57e893dfc6b2",
+      "longDescription": "",
+      "shortDescription": "Help me understand why my guest OS is causing restarts",
+      "searchTags": "Restart",
+      "category": "restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c1a0211a-8db9-39f6-7cc0-f1dc54a097d5",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
@@ -470,11 +494,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d18f8b23-c713-5285-d8f1-91fd8287f66e",
+      "longDescription": "",
+      "shortDescription": "Need assistance with increasing the NAT pool for my load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
       "searchTags": "Scale Set",
       "category": "Trigger",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d87bdb67-b9ed-7a9a-9fde-9192026f00fc",
+      "longDescription": "",
+      "shortDescription": "Need assistance with adding or removing a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -515,6 +555,14 @@
       "shortDescription": "Questions or issues specific to performance issues (DISK) with the scale set or instance.",
       "searchTags": "Scale",
       "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "eb888ccd-c709-1106-5c2e-a0078b55eaa0",
+      "longDescription": "",
+      "shortDescription": "Help me diagnose my instance restart issue",
+      "searchTags": "Restart",
+      "category": "Restart",
       "useInDiagnoseAndSolve": "false"
     },
     {
