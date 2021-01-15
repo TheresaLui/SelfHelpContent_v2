@@ -15,18 +15,21 @@
 Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
 
-# Internal-only title  // Required. Level 1 heading for internal reference only. 
-<br>//Insert a black line after every heading.
+# Template in progress! | Internal-only title required for internal reference
+<br> <!--Insert a blank line after every heading-->
 
-## Title //Required. Level 2 heading that briefly describes the issue (5-7 words, optimally). 
-<br>//Insert a black line after every heading.
-For example: “Windows Virtual //Desktop: Connectivity issues”. Use sentence capitalization---first word and product names or features only.
+## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization). 
+<br> <!--Insert a blank line after every heading-->
 
-//Introduction: Required. No heading. Clearly describe the issue and any relevant details not included in the title. Alternatively, summarize the article and how it will help the customer.
-This topic can help you resolve issues <on X problem> by providing useful solutions and documentation. Review the solutions and documentation first. If the issues continue, then file a support ticket.
+**Problem statement/article summary**
+
+<!--Clearly describe the issue and any relevant details not included in the title. 
+For example: "Resolve issues for <problem_type> with these solutions. After you review these solutions and documentation, if the issue persists, then file a support ticket."
+Alternatively, you can summarize the article and how it will help the customer.
+For example: "Learn more about setting up a new domain by watching this video."-->
 
 ## Sample diagnostics
-<br>//Insert a black line after every heading.
+<br> <!--Insert a blank line after every heading-->
 
 // About this section: Graphs and diagnostics from Azure portal metrics will be visually contained in a card.
 If we’re using terms like diagnostic/insight and metric, let’s make it clear in the introductory text to the user how to use each.
@@ -66,12 +69,13 @@ If we’re using terms like diagnostic/insight and metric, let’s make it clear
 
 
 ## Sample guided troubleshooting 
-<br>//Insert a black line after every heading.
-//Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers. 
+<br> <!--Insert a blank line after every heading-->
+<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
 
 For example:
-“Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
+“Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”-->
 
+Here is a sample metric from Azure Monitor:
 <metric>
 	<name>* Percentage CPU</name>
 	<aggregationType>* Sum </aggregationType>
@@ -82,14 +86,14 @@ For example:
 
 
 ## Sample solution // Required heading.  
-<br>//Insert a black line after every heading.
+<br> <!--Insert a blank line after every heading-->
+<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles-->
 
-<br>//Insert a black line before every heading
-### Sample instructions //Optional.  
-<br>//Insert a black line after every heading.
+Below is an example of an ordered list. Use ordered lists for tasks that must be performed in a sequence.
 
-Below is an example of an ordered list. Use these for tasks that must be performed in a sequence.
-
+<br> <!--Insert a blank line after every heading-->
+### Sample steps  
+<br> <!--Insert a blank line after every heading-->
 1. This is a step with a link to an [external article](https://)
 2. This is a step with no link, blade, or instructions. Note that because the next line is a continuation of the list, no <br> (br) break is needed.
 3. As in the example above, this step contains multiple sentences. When a step has multiple complete sentences, the use of a period to end each sentence is acceptable.
@@ -106,9 +110,12 @@ Below is an example of an ordered list. Use these for tasks that must be perform
     MaxCount = 200
     Autoscale = $Autoscale
 ```
+All lists require an empty line before the first item and after the last item.
+
 
 ### Sample bulleted list
-Below is an example of a bulleted list; two levels of bullets are supported. For a sequence of tasks, use an ordered list.
+<br> <!--Insert a blank line after every heading-->
+Below is an example of a bulleted list. Only two levels of bullets are supported. (For step-by-step instructions, use an ordered list instead.)
 
 * Item1
 * Item2
@@ -119,40 +126,45 @@ Below is an example of a bulleted list; two levels of bullets are supported. For
 All lists require an empty line before the first item and after the last item.
 
 
-### Sample inline image 
+### Sample inline image
+<br> <!--Insert a blank line after every heading-->
+Below is an example of an inline image
 ![alt text](/images/image.png)
-// Image requirements:
-//Replace alt text with a concise description of what is being shown in the image to provide accessibility. Remove punctuation. Include only screenshots that have legible text. Use colored boxes, not highlighting, for callouts.
+<!--Image requirements:
+Replace alt text with a concise description of what is being shown in the image to provide accessibility. Remove punctuation. Include only screenshots that have legible text. Use colored boxes, not highlighting, for callouts.-->
 
 ### Sample videos
-// Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player. 
+<br> <!--Insert a blank line after every heading-->
+<!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-
-This is a description of a video that includes highlights and the timecodes where they occur. 
-       <video>
-	<src>http://www.URL_OF_THE_VIDEO</src>	
-	<title>Video title and duration in minutes and sections, m:ss</title>  
+* **Video example 1 - Single video**
+   Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30. 
+<video>
+	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
+	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
 </video>
 
-This is a description of a group of videos, including highlights from each and the timecodes where they occur.  
-   <videoGroup>
+* **Video example 2 - Multiple videos**
+   Caption example: The following videos can help you reduce costs associated with VMs.   
+<videoGroup>
 	<video>
-		<src>URL OF FIRST VIDEO</src>	
-		<title> Video title and duration in minutes and sections, m:ss </title>  
+		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
+		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
 	</video>
 	<video>
-		<src>URL OF SECOND VIDEO</src>	
-		<title> Video title and duration in minutes and sections, m:ss </title> 
+		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
+		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
 	</video>
+</videoGroup>
+
 </videoGroup>
 
 
 ## Recommended resources // Optional section. Level 2 heading required. 
-<br>//
+<br> <!--Insert a blank line after every heading-->
+<!--In this section, include relevant document links (not found in the preceding sections) from the following approved sources: MS docs, MSDN, and Stack Overflow.-->
 
-//In this section, include relevant document links (not found in the preceding sections) from the following approved sources: MS docs, MSDN, and Stack Overflow. 
-
-//For example, format an Azure KB article, as follows. 
+This is an example of Azure KB portal and article links: 
 <azureKB>
 	<client>Portal</client>
 </azureKB>
@@ -161,3 +173,11 @@ This is a description of a group of videos, including highlights from each and t
 	<client>Portal</client>
 </CommonSolution>
 
+<!--IN SUMMARY:
+* Formatting is not identical to Microsoft Docs - tables do not work, neither do [!NOTE] tags
+* Solutions should be instructions, recommendations, or videos, not just links to other articles
+* Ensure all links to Microsoft docs are non-region-specific, (i.e., they do not include /en-us/). This does not apply to articles for Mooncake.
+* Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
+* Do not use aka.ms links
+* Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the properties metadata at the beginning of this article.
+-->
