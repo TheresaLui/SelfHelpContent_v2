@@ -25,7 +25,7 @@ If you intend to recover specific containers, blobs, files etc please go back to
 <symptomId>Storage_Account_Recovery_Portal_Insight</symptomId>
 <executionText>We are running a quick check to find recently deleted storage account</executionText>
 <timeoutText>We stopped the check, as it was taking too long</timeoutText>
-<noResultText>No recoverable storage account was found.If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.</noResultText>
+<noResultText>No recoverable storage account was found. If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.</noResultText>
 <additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
@@ -36,10 +36,12 @@ If you intend to recover specific containers, blobs, files etc please go back to
 - It is not a classic storage account.
 
 ### <span style="color:red">**Prerequisites:**
+  
 - Ensure that the Resource Group is created first, if it has been deleted.
-- Ensure that the KeyVault key is associated with the storage account if it is encrypted with CMK. Failing to do so would result in HTTP 403 failures when accessing endpoints (currently blob and file) of the recovered account.<br>
+- Ensure that the KeyVault key is associated with the storage account if it is encrypted with CMK. Failing to do so would result in HTTP 403 failures when accessing endpoints (currently blob and file) of the recovered account.
 
 ### <span style="color:red">**Disclaimer:**
+  
 - There's no guarantee that recovery will always succeed. Recovery is a best effort rather than a guarantee.
 - We strongly recommend using a combination of [ARM resource locks](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources) and [Azure RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) permissions to prevent accidental account deletion.
 
