@@ -19,21 +19,20 @@ In the body, use markdown for all elements, except for the following which use H
 <br> <!--Insert a blank line after every heading-->
 ## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
-Clearly state the problem and include any relevant details not included in the title. 
-For example: "Resolve issues for <problem_type> with these solutions. After you review these solutions and documentation, if the issue persists, then file a support ticket."
-Alternatively, you can summarize the article and how it will help the customer.
+Clearly state the problem and include any relevant details not included in the title.<br>
+For example: "Resolve issues for <problem_type> with these solutions." <br>
+Alternatively, summarize the article and how it will help the customer.<br>
 For example: "Learn more about setting up a new domain by watching this video."-->
 
 ## Sample body
 <br> <!--Insert a blank line after every heading-->
-The body can contain one or more of the following components:
-* Diagnostics (and insights/results)
-* Metrics
-* Troubleshooting guidance
-* Solutions
-* Images
-* Videos
-* Document links
+The body contains the main content and contains the solution. It may include or more of the following components:
+- Diagnostics (including insights/results)
+- Metrics
+- Solutions 
+- Images
+- Videos
+- Azure KB and docs links
  
 
 ## Sample diagnostic
@@ -43,15 +42,15 @@ Briefly explain how this diagnostic provides helpful information to the customer
 <Insight> 
 *	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
 *	<executionText>We are checking to see if your VM was restarted</executionText><br>
-*	<timeoutText>* Proceeding to the next operation</timeoutText><br>
-*	<noResultText>* No problems found. Your VM is running smoothly.</noResultText><br>
+*	<timeoutText>Proceeding to the next operation</timeoutText><br>
+*	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
 </Insight>
 
 <Insight>
 *	<symptomId_noloc>CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc><br>
 *	<executionText>Assessing VM connectivity now<br></executionText><br>
 *	<timeoutText>The diagnostic took longer than expected, so we stopped it<br></timeoutText><br>
-*	<noResultText>Diagnostics are complete. No problems found.</noResultText><br>
+*	<noResultText>Diagnostics are complete. No problems were found.</noResultText><br>
 *	<additionalInputsReq>true</additionalInputsReq><br> 
 </Insight><br>
 
@@ -121,15 +120,19 @@ Below is an example of an inline image
 <br> <!--Insert a blank line after every heading-->
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-* **Video example 1 - Single video**<br>
+**Video example 1 - Single video**
+
    Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30.<br>
+
 <video>
 	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
 </video>
 
-* **Video example 2 - Multiple videos**<br>
-   Caption example: The following videos can help you reduce costs associated with VMs.<br>
+**Video example 2 - Multiple videos**<br>
+
+   Caption example: The following videos can help you reduce costs associated with VMs.
+   
 <videoGroup>
 	<video>
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
@@ -139,8 +142,6 @@ Below is an example of an inline image
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
 	</video>
-</videoGroup>
-
 </videoGroup>
 
 
@@ -156,6 +157,14 @@ This is an example of Azure KB portal and article links:
 	<articleId>d67fb475-a831-4f4b-a6ce-7fbacb0bf9df</articleId>
 	<client>Portal</client>
 </CommonSolution>
+
+
+
+<!--Article close. Include this text "as is" in all topics.-->
+> If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
+ 
+
+
 
 <!--IN SUMMARY:
 * Formatting is not identical to Microsoft Docs - tables do not work, neither do [!NOTE] tags
