@@ -31,4 +31,4 @@ We have introduced Partner Center API and user interface (UI) enhancements for P
 * [To add a new customer in Partner Center](https://docs.microsoft.com/partner-center/add-a-new-customer#to-add-a-new-customer-in-partner-center)
 * [How to request a reseller relationship from a customer in Partner Center](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer)
 * [Resource collection - Additional mandatory fields when onboarding and updating customer information in selected geographies](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/)
-* [Changes to the CSP customer onboarding requirements.pdf](https://assetsprod.microsoft.com/mpn/en/Friendly URL)
+* [Changes to the CSP customer onboarding requirements.pdf](https://assetsprod.microsoft.com/mpn/en/changes-to-the-csp-customer-onboarding-requirements-en.pdf)
