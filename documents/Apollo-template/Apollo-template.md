@@ -11,9 +11,9 @@
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-// This template demonstrates best practices for Apollo articles for the Azure self-help platform. See tips [add internal link] in this template and see best practices [add link to separate document] for detailed guidance
-//Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
-//In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..
+<!--This template demonstrates best practices for Apollo articles for the Azure self-help platform. See tips [add internal link] in this template and see best practices [add link to separate document] for detailed guidance
+Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
+In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
 
 # Internal-only title  // Required. Level 1 heading for internal reference only. 
 <br>//Insert a black line after every heading.
