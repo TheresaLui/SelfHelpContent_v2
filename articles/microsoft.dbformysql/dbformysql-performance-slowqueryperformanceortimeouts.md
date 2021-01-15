@@ -21,7 +21,7 @@ Query performance issues can have many different root causes. Work through the r
 
 ### **Fix it yourself**
 
-* **Are you using Basic Tier server?** Basic tier servers are intended for testing, development, or small-scale or infrequently used applications. Therefore, a production workload can max out resources easily. For more information read [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
+* **Are you using Basic Tier server?** Basic tier servers are intended for testing, development, and small-scale or infrequently used applications. Therefore, a production workload can max out resources easily. For more information read [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
 
 * **Troubleshooting CPU high utilization?** Please take a look at the [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 Did you know that the number of active connection can cause a CPU spike? Make sure that you are [connecting efficiently to Azure Database for MySQL with ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842).
