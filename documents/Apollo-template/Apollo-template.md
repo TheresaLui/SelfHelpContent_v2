@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Apollo common solutions"
-	description=“Apollo common solutions"
+	description="Apollo common solutions"
 	ms.author="bernardm"
 	displayOrder=""
 	articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"
