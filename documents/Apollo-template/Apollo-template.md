@@ -23,9 +23,7 @@ In the body, use markdown for all elements, except for the following which use H
 ## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
 
-**Problem statement/article summary**
-
-<!--Clearly describe the issue and any relevant details not included in the title. 
+Clearly state the problem and include any relevant details not included in the title. 
 For example: "Resolve issues for <problem_type> with these solutions. After you review these solutions and documentation, if the issue persists, then file a support ticket."
 Alternatively, you can summarize the article and how it will help the customer.
 For example: "Learn more about setting up a new domain by watching this video."-->
@@ -33,21 +31,21 @@ For example: "Learn more about setting up a new domain by watching this video."-
 ## Sample diagnostics
 <br> <!--Insert a blank line after every heading-->
 
-Below is an example of an insight. Use bullets and line breaks to present the text.
+Below is an example of an insight. Use bullets and line breaks to present the textual information.
+
 <Insight> 
-	<symptomId>* NrtVmRestartAzurePortalInsight</symptomId>
-	<executionText>* We are checking to see if your VM was restarted</executionText>
-	<timeoutText>* Proceeding to the next operation</timeoutText>  
-	<noResultText>* No problems found. Your VM is running smoothly. </noResultText> 
+	<symptomId>* NrtVmRestartAzurePortalInsight<br></symptomId>
+	<executionText>* We are checking to see if your VM was restarted<br></executionText>
+	<timeoutText>* Proceeding to the next operation<br></timeoutText>  
+	<noResultText>* No problems found. Your VM is running smoothly.<br></noResultText> 
 </Insight>
 
-
 <Insight>
-	<symptomId_noloc>   * CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc>
-	<executionText>   * Assessing VM connectivity now </executionText>
-	<timeoutText>   * The diagnostic took longer than expected, so we stopped it</timeoutText> 
-	<noResultText>   * Diagnostics are complete. No problems found. </noResultText>
-	<additionalInputsReq>   * true</additionalInputsReq> //TBD
+	<symptomId_noloc>   * CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3<br></symptomId_noloc>
+	<executionText>   * Assessing VM connectivity now<br></executionText>
+	<timeoutText>   * The diagnostic took longer than expected, so we stopped it<br></timeoutText> 
+	<noResultText>   * Diagnostics are complete. No problems found.<br></noResultText>
+	<additionalInputsReq>   * true<br></additionalInputsReq>  
 </Insight>
 
 <metric>
@@ -65,10 +63,10 @@ Below is an example of an insight. Use bullets and line breaks to present the te
 For example:
 “Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”-->
 
-Here is a sample metric from Azure Monitor:
+Below is a sample metric from Azure Monitor. Include bullets and line breaks to present the textual information.
 <metric>
 	<name>* Percentage CPU</name>
-	<aggregationType>* Sum </aggregationType>
+	<aggregationType>* Sum <br></aggregationType>
 	<timeSpanType>* relative</ timeSpanType > 
 	<timeSpanDuration>* 1d</timeSpanDuration>
 	<title>Virtual Machine CPU usage</title>
@@ -120,8 +118,7 @@ All lists require an empty line before the first item and after the last item.
 <br> <!--Insert a blank line after every heading-->
 Below is an example of an inline image
 ![alt text](/images/image.png)
-<!--Image requirements:
-Replace alt text with a concise description of what is being shown in the image to provide accessibility. Remove punctuation. Include only screenshots that have legible text. Use colored boxes, not highlighting, for callouts.-->
+<!--Image requirements: Replace alt text with a concise description of what is being shown in the image (without punctuation). This ensures accessibility, required by Microsoft. Include only screenshots that contain legible text. Use colored boxes, not highlighting, for callouts.-->
 
 ### Sample videos
 <br> <!--Insert a blank line after every heading-->
