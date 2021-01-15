@@ -66,6 +66,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "179deae0-b1ed-6f90-7b2b-4d4b39a574d3",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Throughput and Scaling",
+      "searchTags": "Throughput",
+      "category": "Throughput",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "18094d03-12d5-0a69-ece4-6f45202fc038",
       "longDescription": "",
       "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
