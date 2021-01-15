@@ -66,7 +66,7 @@
             "displayLabel": "Provide the Resource Group name of the source VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2020-12-01",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2020-12-02",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
