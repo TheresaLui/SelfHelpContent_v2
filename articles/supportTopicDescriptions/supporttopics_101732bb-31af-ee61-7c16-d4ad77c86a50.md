@@ -146,6 +146,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "4a2660bb-e876-33ba-052c-0cd103bc72d3",
+      "longDescription": "",
+      "shortDescription": "If you are receiving 502 Bad Gateway error for a health probe status, all of the servers in your backend pool are unhealthy.",
+      "searchTags": "502;unhealthy;health probe;502 error;probe",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "51c18a5b-d8f6-94eb-8689-2b9a39651b30",
       "longDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
       "shortDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
