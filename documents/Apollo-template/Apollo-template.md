@@ -15,10 +15,12 @@
 Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
 
-# Template in progress! | Internal-only title required for internal reference
+# Template in progress! 
+
+## Internal-only title required for internal reference
 <br> <!--Insert a blank line after every heading-->
 
-## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization). 
+## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
 
 **Problem statement/article summary**
@@ -31,41 +33,29 @@ For example: "Learn more about setting up a new domain by watching this video."-
 ## Sample diagnostics
 <br> <!--Insert a blank line after every heading-->
 
-// About this section: Graphs and diagnostics from Azure portal metrics will be visually contained in a card.
-If we’re using terms like diagnostic/insight and metric, let’s make it clear in the introductory text to the user how to use each.
-
-
+Below is an example of an insight. Use bullets and line breaks to present the text.
 <Insight> 
-	<symptomId>NrtVmRestartAzurePortalInsight</symptomId>
-	<executionText>We are checking to see if your VM was restarted</executionText>
-	<timeoutText>Proceeding to the next operation</timeoutText>  
-	<noResultText>No problems found. Your VM is running smoothly. </noResultText> 
+	<symptomId>* NrtVmRestartAzurePortalInsight</symptomId>
+	<executionText>* We are checking to see if your VM was restarted</executionText>
+	<timeoutText>* Proceeding to the next operation</timeoutText>  
+	<noResultText>* No problems found. Your VM is running smoothly. </noResultText> 
 </Insight>
-
-//Include an example of intro sentence and bulleted results.
 
 
 <Insight>
-	<symptomId_noloc>CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc> //TBD
-	<executionText>Assessing VM connectivity now </executionText>
-	<timeoutText> The diagnostic was taking longer than expected, so we stopped it</timeoutText> 
-	<noResultText>Diagnostics are complete. No problems found. </noResultText>
-	<additionalInputsReq>true</additionalInputsReq> //TBD
+	<symptomId_noloc>   * CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc>
+	<executionText>   * Assessing VM connectivity now </executionText>
+	<timeoutText>   * The diagnostic took longer than expected, so we stopped it</timeoutText> 
+	<noResultText>   * Diagnostics are complete. No problems found. </noResultText>
+	<additionalInputsReq>   * true</additionalInputsReq> //TBD
 </Insight>
 
 <metric>
-	<name>Disk Write Operations/Sec</name> //Type of metric
-	<aggregationType>Sum</aggregationType> // It can be Sum/Avg/Count/Percentile (default value Sum)
-	<timeSpanDuration>1d</timeSpanDuration> //d- day, m-minute (default value 1d)
-	<title>Virtual Machine Disk Write Operations/Sec</title>
+	<name>Disk Write Operations/Sec</name> <!--Type of metric-->
+	<aggregationType>Sum</aggregationType> <!--Specify Sum, Avg, Count, or Percentile (default is value Sum)-->
+	<timeSpanDuration>1d</timeSpanDuration><!--Use these time measures: d for day, m for minute (default value is 1d)-->
+	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information-->
 </metric>
-
-<Insight>
-	<symptomId>CannotRdpLRDAzurePortalInsight</symptomId>
-	<executionText>Next, let’s run a more detailed diagnostic of your VM’s connectivity </executionText	<timeoutText>The diagnostic exceeded the allotted time of n:nn and timed out. </timeoutText> 
-	<noResultText>Zero problems found! </noResultText> 
-	<client>ASC</client>
-</Insight>
 
 
 ## Sample guided troubleshooting 
