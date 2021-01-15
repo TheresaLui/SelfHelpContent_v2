@@ -30,10 +30,10 @@ For example: "Learn more about setting up a new domain by watching this video."-
 Below is an example of an insight. Use bullets and line breaks to present the textual information.
 
 <Insight> 
-	<symptomId>NrtVmRestartAzurePortalInsight</symptomId>
-	<executionText>* We are checking to see if your VM was restarted<br></executionText>
-	<timeoutText>* Proceeding to the next operation<br></timeoutText>  
-	<noResultText>* No problems found. Your VM is running smoothly.<br></noResultText> 
+*	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
+*	<executionText>We are checking to see if your VM was restarted</executionText><br>
+	<timeoutText>* Proceeding to the next operation</timeoutText>  
+	<noResultText>* No problems found. Your VM is running smoothly.</noResultText> 
 </Insight>
 
 <Insight>
