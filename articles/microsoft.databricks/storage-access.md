@@ -19,6 +19,8 @@
 
 ## **Recommended Steps**
 
+* [How To: Four ways of accessing Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-datalake-gen2#---access-automatically-with-your-azure-active-directory-credentials)
+
 * When using Azure Databricks, it can be confusing when a new workspace and managed resource group appear. Azure automatically creates a **Databricks workspace**, as well as a **managed resource group (databricks-rg-xxx-xxx)** containing all the resources needed to run the cluster. 
 
   This managed resource group (MRG) is protected by a system-level lock to prevent deletions and modifications. The only way to directly remove the lock is to delete the service. However, by making changes to the parent resource group, those changes will be correspondingly updated in the managed resource group.
