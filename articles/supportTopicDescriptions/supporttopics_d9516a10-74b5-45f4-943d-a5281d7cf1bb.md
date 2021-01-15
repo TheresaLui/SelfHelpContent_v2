@@ -1018,6 +1018,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d1e43aad-5f35-ab29-a519-81d34d17de86",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Cosmos DB Managed Identity Integration",
+      "searchTags": "Identity;Managed;Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d2613a22-9761-3e09-b164-fc8607435c59",
       "longDescription": "",
       "shortDescription": "Observation exception, long running data load, data is not loaded correctly",
