@@ -121,15 +121,15 @@ Below is an example of an inline image
 <br> <!--Insert a blank line after every heading-->
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-* **Video example 1 - Single video**
-   Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30. 
+* **Video example 1 - Single video**<br>
+   Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30.<br>
 <video>
 	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
 </video>
 
-* **Video example 2 - Multiple videos**
-   Caption example: The following videos can help you reduce costs associated with VMs.   
+* **Video example 2 - Multiple videos**<br>
+   Caption example: The following videos can help you reduce costs associated with VMs.<br>
 <videoGroup>
 	<video>
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
