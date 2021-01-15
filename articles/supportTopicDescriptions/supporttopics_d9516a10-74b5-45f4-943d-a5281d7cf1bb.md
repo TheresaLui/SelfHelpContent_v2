@@ -954,6 +954,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6827aba-c69c-dd6d-5be3-a50d601744b1",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Azure Synapse Link",
+      "searchTags": "Synapse;Link",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c762e643-a5fa-6f1f-50c7-c528ea8ad074",
       "longDescription": "",
       "shortDescription": "How to use Bulk executor library, failing to load data, or throwing exceptions",
