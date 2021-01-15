@@ -32,25 +32,17 @@ Below is an example of an insight. Use bullets and line breaks to present the te
 <Insight> 
 *	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
 *	<executionText>We are checking to see if your VM was restarted</executionText><br>
-	<timeoutText>* Proceeding to the next operation</timeoutText>  
-	<noResultText>* No problems found. Your VM is running smoothly.</noResultText> 
+*	<timeoutText>* Proceeding to the next operation</timeoutText><br>
+*	<noResultText>* No problems found. Your VM is running smoothly.</noResultText><br>
 </Insight>
 
 <Insight>
-	<symptomId_noloc>   * CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3<br></symptomId_noloc>
-	<executionText>   * Assessing VM connectivity now<br></executionText>
-	<timeoutText>   * The diagnostic took longer than expected, so we stopped it<br></timeoutText> 
-	<noResultText>   * Diagnostics are complete. No problems found.<br></noResultText>
-	<additionalInputsReq>   * true<br></additionalInputsReq>  
-</Insight>
-
-<metric>
-	<name>Disk Write Operations/Sec</name> <!--Type of metric-->
-	<aggregationType>Sum</aggregationType> <!--Specify Sum, Avg, Count, or Percentile (default is value Sum)-->
-	<timeSpanDuration>1d</timeSpanDuration><!--Use these time measures: d for day, m for minute (default value is 1d)-->
-	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information-->
-</metric>
-
+*	<symptomId_noloc>CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc><br>
+*	<executionText>Assessing VM connectivity now<br></executionText><br>
+*	<timeoutText>The diagnostic took longer than expected, so we stopped it<br></timeoutText><br>
+*	<noResultText>Diagnostics are complete. No problems found.</noResultText><br>
+*	<additionalInputsReq>true</additionalInputsReq><br> 
+</Insight><br>
 
 ## Sample guided troubleshooting 
 <br> <!--Insert a blank line after every heading-->
@@ -59,13 +51,12 @@ Below is an example of an insight. Use bullets and line breaks to present the te
 For example:
 “Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”-->
 
-Below is a sample metric from Azure Monitor. Include bullets and line breaks to present the textual information.
+Below is an example of a metric from Azure Monitor. Include bullets and line breaks to present the textual information.
 <metric>
-	<name>* Percentage CPU</name>
-	<aggregationType>* Sum <br></aggregationType>
-	<timeSpanType>* relative</ timeSpanType > 
-	<timeSpanDuration>* 1d</timeSpanDuration>
-	<title>Virtual Machine CPU usage</title>
+*	<name>Disk Write Operations/Sec</name> <!--Type of metric--><br>
+*	<aggregationType>Sum</aggregationType> <!--Specify Sum, Avg, Count, or Percentile (default is value Sum)--><br>
+*	<timeSpanDuration>1d</timeSpanDuration><!--Use these time measures: d for day, m for minute (default value is 1d)--><br>
+*	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information--><br>
 </metric>
 
 
