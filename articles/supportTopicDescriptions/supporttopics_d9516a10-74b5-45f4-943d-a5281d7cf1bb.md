@@ -298,6 +298,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "419f2aa0-0630-86f3-52d4-61447be932b2",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Account Administration",
+      "searchTags": "Administration",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41b38840-391d-ef79-682f-687789b9b13a",
       "longDescription": "",
       "shortDescription": "Provision or manage Azure Cosmos DB account using ARM, CLI or PowerShell; configure security; and set up global replication and multi-write regions",
