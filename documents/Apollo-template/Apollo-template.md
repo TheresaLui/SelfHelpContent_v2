@@ -15,7 +15,7 @@
 Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
 
-# Template in progress! <!--swap out for this when published: ## Internal-only title required for internal reference
+# Template in progress! <!--swap this out when published: Internal-only title required for internal reference-->
 <br> <!--Insert a blank line after every heading-->
 ## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
@@ -24,10 +24,21 @@ For example: "Resolve issues for <problem_type> with these solutions. After you 
 Alternatively, you can summarize the article and how it will help the customer.
 For example: "Learn more about setting up a new domain by watching this video."-->
 
-## Sample diagnostics
+## Sample body
 <br> <!--Insert a blank line after every heading-->
+The body can contain one or more of the following components:
+* Diagnostics (and insights/results)
+* Metrics
+* Troubleshooting guidance
+* Solutions
+* Images
+* Videos
+* Document links
+ 
 
+## Sample diagnostic
 Below is an example of an insight. Use bullets and line breaks to present the textual information.
+Briefly explain how this diagnostic provides helpful information to the customer about their issue.  
 
 <Insight> 
 *	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
@@ -59,15 +70,14 @@ Below is an example of a metric from Azure Monitor. Include bullets and line bre
 *	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information--><br>
 </metric>
 
-
-## Sample solution // Required heading.  
+## Sample solution  
 <br> <!--Insert a blank line after every heading-->
 <!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles-->
 
 Below is an example of an ordered list. Use ordered lists for tasks that must be performed in a sequence.
 
 <br> <!--Insert a blank line after every heading-->
-### Sample steps  
+### Sample ordered list  
 <br> <!--Insert a blank line after every heading-->
 1. This is a step with a link to an [external article](https://)
 2. This is a step with no link, blade, or instructions. Note that because the next line is a continuation of the list, no <br> (br) break is needed.
