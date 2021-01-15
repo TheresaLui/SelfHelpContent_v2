@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Pipelines issues related to command line scripts"
+  pagetitle="Azure Pipelines issues related to command line scripts&#xD;"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="macoope,vimalt,cathmill"
@@ -12,13 +12,11 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines issues related to command line scripts
 
-Most customers resolved problems related to triggers using the solutions below.
-
 ## **Recommended Steps**
 
-You may be having trouble running command-line tools or scripts in Azure Pipelines.
+If you're having issues running command-line tools or scripts in Azure Pipelines, the following steps can help.
 
-Follow through all of these steps before you create a support ticket. If you need to create a ticket after completing the diagnostic steps, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
+Follow through all of these steps before you create a support ticket. If you need to create a ticket after completing the diagnostic steps, to expedite resolution, provide information about the path you took and results of the steps that you ran in your ticket.
 
 * **I set environment variables, source Bash scripts, or install PowerShell modules in a step, and they aren't available in subsequent steps.**
 
@@ -37,14 +35,14 @@ Follow through all of these steps before you create a support ticket. If you nee
     * Check that you can connect or copy files from the host machine to the remote machine outside of a pipeline. Often, the problem isn't with Azure Pipelines, it's with configuration on the host or the network.
     * Run agent diagnostics to confirm the agent's access to the network: `./run.sh --diagnostics` on Linux and macOS; `./run.cmd --diagnostics` on Windows.
     * Make sure that you have appropriate permissions on the remote machine. On Linux, you may need to be in the appropriate group to allow SSH connections, or may need to be listed in `sudoers`.
-    * Make sure that the remote machine's firewall settings allow the connection, and that the remote network allows inbound connections
-    * If you require a proxy on the host machine, ensure it's configured properly. Also make sure the [agent is configured with the proxy details](https://docs.microsoft.com/azure/devops/pipelines/agents/proxy).
-    * If you're using  WinRM, make sure that the WinRM service is [installed and running on the remote machine](https://docs.microsoft.com/windows/win32/winrm/installation-and-configuration-for-windows-remote-management)        
+    * Make sure that the remote machine's firewall settings allow the connection, and that the remote network allows inbound connections.
+    * If you require a proxy on the host machine, make sure that it's configured properly. Also make sure the [agent is configured with the proxy details](https://docs.microsoft.com/azure/devops/pipelines/agents/proxy).
+    * If you're using  WinRM, make sure that the WinRM service is [installed and running on the remote machine](https://docs.microsoft.com/windows/win32/winrm/installation-and-configuration-for-windows-remote-management).       
     
-* **A script or tool I'm running works locally, but complains about missing files when run in a pipeline.**
+* **A script or tool I'm running works locally, but alerts me to missing files when run in a pipeline.**
 
     * The layout of files may be different on a pipelines agent than on your local machine.
-    * You can try [searching for the missing files](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting/troubleshooting#my-pipeline-is-failing-on-a-command-line-step-such-as-msbuild)   
+    * You can try [searching for the missing files](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting/troubleshooting#my-pipeline-is-failing-on-a-command-line-step-such-as-msbuild).
     
 ## **Recommended Documents**
 
@@ -52,5 +50,5 @@ Follow through all of these steps before you create a support ticket. If you nee
 * [Linux agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux#diagnostics)
 * [macOS agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-osx#diagnostics)
 * [Windows agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows#diagnostics)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
-* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

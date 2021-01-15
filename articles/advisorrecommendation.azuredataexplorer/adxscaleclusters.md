@@ -6,7 +6,7 @@
     articleId="53c3a9f6-baa8-4997-b5a5-a3b5d3347afe_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -43,32 +43,27 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/adxskuperformance",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize performance",
   "actions": [
     {
-      "actionId": "2407eac0-6bd3-4f89-9d48-2c5e372a9366",
-      "description": "Change your SKU to scale up",
-      "actionType": "Blade",
-	  "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
+      "description": "Resize the Cluster",
+      "actionType": "ContextBlade",
+      "extensionName": "Microsoft_Azure_Kusto",
+      "bladeName": "SkuRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}",
-		"menuid": "scale_up"
-      }
-    },
-	{
-      "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
-      "description": "Change your instance count to scale out",
-      "actionType": "Blade",
-	  "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}",
-		"menuid": "scale_out"
+        "resource": "{resourceId}",
+        "skuRecommendation": {
+            "skuName": "{recommendedSku}",
+            "isDevSku": "{isDevSku}",
+            "instancesCount": "{recommendedInstanceCount}"
+        },
+        "description": "{description}",
+        "recommendedConfig": "{recommendedConfig}"
       }
     }
   ],
@@ -89,18 +84,18 @@
       "name": "currentConfig",
       "title": "Current Configuration"
     },
-	{
+    {
       "name": "recommendedConfig",
       "title": "Recommended Configuration"
     },
-	{
+    {
       "name": "observationStartTime",
       "title": "Observation Start Time"
     },
-	{
+    {
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
   ]
-}
+ }
 ---
