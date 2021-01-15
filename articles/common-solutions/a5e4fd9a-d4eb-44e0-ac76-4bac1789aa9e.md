@@ -13,8 +13,10 @@
   ownershipid="AzureData_DataFactory" />
 # Connector Unexpected Behavior or Errors
 
+Resolve unexpected behavior or errors in Connector using the following steps.
+
 ## **Recommended Steps**
 
-Please search [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide) to see if solution is listed.
+* Search for the issue and related solutions in [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
 
-If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory).
+* If you use **Self-Hosted IR**, follow the steps in the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory).
