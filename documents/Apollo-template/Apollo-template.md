@@ -15,14 +15,10 @@
 Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
 
-# Template in progress! 
-
-## Internal-only title required for internal reference
+# Template in progress! <!--swap out for this when published: ## Internal-only title required for internal reference
 <br> <!--Insert a blank line after every heading-->
-
 ## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
-
 Clearly state the problem and include any relevant details not included in the title. 
 For example: "Resolve issues for <problem_type> with these solutions. After you review these solutions and documentation, if the issue persists, then file a support ticket."
 Alternatively, you can summarize the article and how it will help the customer.
@@ -34,7 +30,7 @@ For example: "Learn more about setting up a new domain by watching this video."-
 Below is an example of an insight. Use bullets and line breaks to present the textual information.
 
 <Insight> 
-	<symptomId>* NrtVmRestartAzurePortalInsight<br></symptomId>
+	<symptomId>NrtVmRestartAzurePortalInsight</symptomId>
 	<executionText>* We are checking to see if your VM was restarted<br></executionText>
 	<timeoutText>* Proceeding to the next operation<br></timeoutText>  
 	<noResultText>* No problems found. Your VM is running smoothly.<br></noResultText> 
