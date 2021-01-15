@@ -15,31 +15,31 @@
 ## **Performance Recommendations**:
 
 **General Recommendations:**
-If you are using SQL source, we recommend you to
+If you are using SQL source, we recommend that you: 
 
-- Analyze the dataflow for optimized partitioning. Please refer to this [Optimized tab](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#optimize-tab) for more details.
-- If 1==1 is being used in join condition it is not recommended. Instead, use column value to compare.
-- Debug clusters are intended to preview small data, increase compute size in proportion to the payload being submitted.
+- Analyze the dataflow for optimized partitioning. Refer to this [Optimized tab](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#optimize-tab) for more details.
+- If 1==1 is being used in a join condition, we recommend instead that you use column value to compare.
+- Debug clusters are intended to preview small data. Increase compute size in proportion to the payload being submitted.
 
 **Recommended Partitions:**
-Based on sources, we recommend below partitionings
-- SQL Source-> source partitioning
-- File Base Source/Sink -> default partitioning is the best
-- Do not do any explicit partitions in intermediate transformations other than source and sink.
+Based on sources, we recommend the following partitionings:
+- SQL Source > source partitioning
+- File Base Source/Sink > default partitioning is best
+- In intermediate transformations, avoid any explicit partitions other than source and sink.
 
 ## **Recommended Documents**
 
-- [Mapping Data Flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
-- [Mapping Data Flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
-- [Create Azure Data Factory Data Flow](https://docs.microsoft.com/azure/data-factory/data-flow-create)
-- [Mapping Data Flow Debug Mode](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-debug-mode)
+- [Mapping data flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
+- [Mapping data flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
+- [Create Azure Data Factory data flow](https://docs.microsoft.com/azure/data-factory/data-flow-create)
+- [Mapping data flow Debug mode](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-debug-mode)
 - [Execute data flow activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-execute-data-flow-activity)
 
 **Data Flow Transformations**
 
-- [Mapping Data Flow Source Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-source)
-- [Mapping Data Flow Schema Drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
-- [Mapping Data Flow Sink Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
+- [Mapping data flow source transformation](https://docs.microsoft.com/azure/data-factory/data-flow-source)
+- [Mapping data flow schema drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
+- [Mapping data flow sink transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
 **FAQ**
 
