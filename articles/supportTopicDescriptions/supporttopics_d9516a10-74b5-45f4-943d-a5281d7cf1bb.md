@@ -574,7 +574,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
