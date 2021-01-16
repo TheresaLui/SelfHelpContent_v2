@@ -132,7 +132,6 @@ Caption
 	<client>Portal</client>
 </CommonSolution>
 -->
-
 **Contact us**
 <!--Include this text "as is" in all topics.-->
 > If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
