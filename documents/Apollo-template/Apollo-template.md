@@ -11,9 +11,8 @@
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-<!--Use this template to create Apollo articles for the Azure self-help platform. Copy the raw form of this article to use as a template for your own Common Solution article. This template demonstrates best practices for a rich media customer experience. 
-Include the required title and headings in the order shown. Remove any optional headings you don’t need. 
-In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
+<!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience.
+DIRECTION: Copy the raw form of this article to use as a template for your own Common Solution article. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
 # Template in progress! <!--Replace this heading when approved. Internal-only title required for internal reference-->
 <br> <!--Insert a blank line after every heading-->
@@ -167,10 +166,9 @@ This is an example of Azure KB portal and article links:
  
 
 
-
 <!--IN SUMMARY:
 * Formatting is not identical to Microsoft Docs. 
-* Tables using markdown will work.
+* Only tables using markdown will work.
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
