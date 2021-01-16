@@ -25,7 +25,7 @@ Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help y
 
 <!--/issueDescription-->
 
-You may face service interruptions or downtime during the upgrading process. This process may also require data or index migrations. We will proceed with the upgrade only with your consent, at a time convenient for you. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
+You may experience service interruptions or downtime during the upgrading process. This process may also require data or index migrations. We will proceed with the upgrade only with your consent, at a time convenient for you. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
 1. Benefits of upgrading to version 3.6
 
