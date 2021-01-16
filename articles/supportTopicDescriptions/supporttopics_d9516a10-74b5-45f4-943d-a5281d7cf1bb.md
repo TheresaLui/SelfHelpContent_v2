@@ -830,7 +830,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK .NET",
       "searchTags": ".NET;API;SDK",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
