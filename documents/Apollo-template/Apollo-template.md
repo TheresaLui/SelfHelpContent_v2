@@ -12,7 +12,7 @@
 />
 
 <!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience.
-DIRECTION: Copy the raw form of this article to use as a template for your own Common Solution article. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
+DIRECTIONS: Copy the raw form of this article to use as a template for your own Common Solution article. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
 # Template in progress! <!--Replace this heading when approved. Internal-only title required for internal reference-->
 <br> <!--Insert a blank line after every heading-->
