@@ -1006,7 +1006,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK .NET",
       "searchTags": ".NET;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
