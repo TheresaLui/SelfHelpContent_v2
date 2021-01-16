@@ -11,8 +11,7 @@
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-<!--Use this template to create Apollo articles for the Azure self-help platform. It includes best practices and examples for a rich authoring experience. 
-For more details on authoring guidelines, go to the [document](URL) on theAzure customer experience web site.
+<!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience. For detailed guidance, see authoring tips [add internal link] and best practices [add internal link].
 Include the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
