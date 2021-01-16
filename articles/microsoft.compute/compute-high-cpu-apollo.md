@@ -18,7 +18,7 @@
 
 # Troubleshooting High CPU for an Azure Virtual Machine
 
-## **Troubleshooting High CPU Usage for an Azure Virtual Machine**
+## Troubleshooting High CPU Usage for an Azure Virtual Machine
 
 :::Section Metrics and Diagnostics:::
 
@@ -43,7 +43,9 @@ We are attempting to run diagnostics for your Azure Virtual Machine. If any issu
     <additionalInputsReq>false</additionalInputsReq>
 </Insight>
 
-**What can cause CPU spike on a VM?**
+<br/>
+
+### What can cause CPU spike on a VM?
 
 High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that a component used by this application uses is unable to process data as efficiently as expected, that there might be a code issue, or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:  
 
@@ -54,7 +56,9 @@ High CPU can indicate that the application is performing many CPU-intensive task
 
 For more information, see [troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 
-## **Recommended Steps**
+<br/>
+
+### Recommended Steps
 
 **Detection: If you are unaware of the process driving high CPU consumption, you can [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm)**. PerfInsights generates a report that contains a dedicated tab for CPU analysis. The report lists out the processes per Average CPU consumption in descending order. It indicates if the process was system-based, or related to a Microsoft-owned App (SQL, IIS), or a third-pary process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.
 
@@ -67,7 +71,9 @@ If you're unable to access your virtual machine through RDP or SSH, try restarti
 
 **If you proceed to open a support case, attach the PerfInsights report for the Support Engineer to analyze.**
 
-## **Recommended Documents**
+<br/>
+
+### More resources 
 
 * [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 * [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
