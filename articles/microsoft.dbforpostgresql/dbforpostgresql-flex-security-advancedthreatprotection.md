@@ -7,7 +7,7 @@
     ms.author="janeng"
     displayOrder="470"
     selfHelpType="generic"
-    supportTopicIds="32780936, 32780944"
+    supportTopicIds="32780936"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
