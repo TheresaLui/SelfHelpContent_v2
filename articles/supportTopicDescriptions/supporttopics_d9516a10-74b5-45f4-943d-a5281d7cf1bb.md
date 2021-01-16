@@ -854,7 +854,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
