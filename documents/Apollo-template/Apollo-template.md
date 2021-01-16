@@ -1,3 +1,4 @@
+```
 <properties
 	pageTitle="Apollo common solutions"
 	description="Apollo common solutions"
@@ -10,6 +11,7 @@
 	cloudEnvironments="public"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
+```
 
 <!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience.
 DIRECTIONS: Copy the raw form of this article to use as a template for your own Common Solution article. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
@@ -147,7 +149,7 @@ Below is an example of an inline image
 
 ## Sample of Recommended resources
 <br> <!--Insert a blank line after every heading-->
-<!--Optional section. Level 2 heading required. Use this section to include relevant document links that are included in the body. Approved sources include: MS docs, MSDN, and Stack Overflow. Make sure that links are external (e.g., do not start with "review.microsoft.docs" or "aka.ms"), and non-region-specific (i.e., they do not include /en-us/). Only Mooncake articles can be region-specific.-->
+<!--Optional section. Level 2 heading required. Use this section to include relevant document links that are included in the body. Approved sources include: MS docs, MSDN, and Stack Overflow. Make sure that links are external and do not start with "review.microsoft.docs" or "aka.ms".-->
  
 
 This is an example of Azure KB portal and article links: 
