@@ -5,24 +5,26 @@
 	displayOrder=""
 	articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"
 	selfHelpType="Apollo"
-     supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"
-     productPesIds="16342,16065,15797,16454,16470"
+        supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"
+        productPesIds="16342,16065,15797,16454,16470"
 	cloudEnvironments="public"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-<!--This template demonstrates best practices for Apollo articles for the Azure self-help platform. See tips [add internal link] in this template and see best practices [add link to separate document] for detailed guidance
-Use the required title and headings in the order shown. Remove any optional headings you don’t need. 
-In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos..-->
+<!--Use this template to create Apollo articles for the Azure self-help platform. It includes best practices and examples for a rich authoring experience. 
+For more details on authoring guidelines, go to the [document](URL) on theAzure customer experience web site.
+Include the required title and headings in the order shown. Remove any optional headings you don’t need. 
+In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
-# Template in progress! <!--swap this out when published: Internal-only title required for internal reference-->
+# Template in progress! <!--Replace this heading when approved. Internal-only title required for internal reference-->
 <br> <!--Insert a blank line after every heading-->
 ## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
 <br> <!--Insert a blank line after every heading-->
-Clearly state the problem and include any relevant details not included in the title.<br>
-For example: "Resolve issues for <problem_type> with these solutions." <br>
-Alternatively, summarize the article and how it will help the customer.<br>
-For example: "Learn more about setting up a new domain by watching this video."-->
+Clearly state the specific problem and how the article addresses that problem. Add any relevant details not included in the title.<br>
+For example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
+
+Alternatively, summarize general articles by stating how the article will help the customer.<br>
+For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Sample body
 <br> <!--Insert a blank line after every heading-->
@@ -120,7 +122,7 @@ Below is an example of an inline image
 <br> <!--Insert a blank line after every heading-->
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-**Video example 1 - Single video**
+**Single video example**
 
    Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30.<br>
 
@@ -129,7 +131,7 @@ Below is an example of an inline image
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
 </video>
 
-**Video example 2 - Multiple videos**<br>
+**Multiple video example**<br>
 
    Caption example: The following videos can help you reduce costs associated with VMs.
    
@@ -145,9 +147,10 @@ Below is an example of an inline image
 </videoGroup>
 
 
-## Recommended resources // Optional section. Level 2 heading required. 
+## Sample of Recommended resources
 <br> <!--Insert a blank line after every heading-->
-<!--In this section, include relevant document links (not found in the preceding sections) from the following approved sources: MS docs, MSDN, and Stack Overflow.-->
+<!--Optional section. Level 2 heading required. Use this section to include relevant document links that are included in the body. Approved sources include: MS docs, MSDN, and Stack Overflow. Make sure that links are external (e.g., do not start with "review.microsoft.docs" or "aka.ms"), and non-region-specific (i.e., they do not include /en-us/). Only Mooncake articles can be region-specific.-->
+ 
 
 This is an example of Azure KB portal and article links: 
 <azureKB>
