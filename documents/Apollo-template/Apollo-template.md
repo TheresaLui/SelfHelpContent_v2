@@ -18,12 +18,14 @@
 # Internal-only title - Required 
 <br> <!--Insert a blank line after every heading-->
 
-## Title - Required<!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
+## Title - Required
+<!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-## Sample body - Required<!--The body contains the main content and solution. The solution may be preceded by diagnostics and guided troubleshooting. 
+## Sample body - Required
+<!--The body contains the main content and solution. The solution may be preceded by diagnostics and guided troubleshooting. 
 This section can include or more of the following components: 
 - Diagnostics (including insights/results) 
 - Metrics 
@@ -33,7 +35,8 @@ This section can include or more of the following components:
 - Azure KB and docs links-->
  
 
-## Sample diagnostic<!--Explain how this information can help the customer. Include bullets and line breaks in insights to improve readability.
+## Sample diagnostic
+<!--Explain how this information can help the customer. Include bullets and line breaks in insights to improve readability.
 Example:
 <Insight> 
 *	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
@@ -50,7 +53,8 @@ Example:
 </Insight><br>
 -->
 
-## Sample guided troubleshooting<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
+## Sample guided troubleshooting
+<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
 Example:
 “Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
 <metric>
@@ -61,7 +65,8 @@ Example:
 </metric>
 -->
 
-## Sample solution<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles.
+## Sample solution
+<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles.
 Use ordered (numbered) lists for a sequence of tasks. Example:
 1. This is a step
 2. This step contains multiple sentences. When a step has multiple complete sentences, use a period to end each sentence.
@@ -85,28 +90,22 @@ Use uordered (bullet) lists for non-sequential tasks. Example:
 -->
 
 ### Sample inline image
-<br> <!--Insert a blank line after every heading-->
-Below is an example of an inline image
+<!--Use the following format for images. Replace alt text with a description of what is being shown, without punctuation, to ensure accessibility. 
 ![alt text](/images/image.png)
-<!--Image requirements: Replace alt text with a concise description of what is being shown in the image (without punctuation). This ensures accessibility, required by Microsoft. Include only screenshots that contain legible text. Use colored boxes, not highlighting, for callouts.-->
+-->
 
 ### Sample videos
-<br> <!--Insert a blank line after every heading-->
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-**Single video example**
-
-   Caption example: This video explains the difference between stopping a virtual machine in Windows and shutting it down with Azure IaaS. Benefits of each are highlighted at frame 1:30.<br>
-
+<!--
+Single video example:
+Caption
 <video>
 	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
 </video>
-
-**Multiple video example**<br>
-
-   Caption example: The following videos can help you reduce costs associated with VMs.
-   
+Multiple video example:
+Caption
 <videoGroup>
 	<video>
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
@@ -117,14 +116,11 @@ Below is an example of an inline image
 		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
 	</video>
 </videoGroup>
-
+-->
 
 ## Sample of Recommended resources
 <br> <!--Insert a blank line after every heading-->
-<!--Optional section. Level 2 heading required. Use this section to include relevant document links that are included in the body. Approved sources include: MS docs, MSDN, and Stack Overflow. Make sure that links are external and do not start with "review.microsoft.docs" or "aka.ms".-->
- 
-
-This is an example of Azure KB portal and article links: 
+<!--Include relevant document links that are NOT in the body/solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 <azureKB>
 	<client>Portal</client>
 </azureKB>
@@ -132,13 +128,12 @@ This is an example of Azure KB portal and article links:
 	<articleId>d67fb475-a831-4f4b-a6ce-7fbacb0bf9df</articleId>
 	<client>Portal</client>
 </CommonSolution>
+-->
 
-
-
-<!--Article close. Include this text "as is" in all topics.-->
+**Contact us**
+<!--Include this text "as is" in all topics.-->
 > If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
  
-
 
 <!--RULES:
 * All lists require an empty line before the first item and after the last item.
