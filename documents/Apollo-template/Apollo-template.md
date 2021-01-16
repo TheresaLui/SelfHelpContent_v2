@@ -1,4 +1,7 @@
-```
+DIRECTIONS: Copy the raw form of this articleto create Apollo articles for the Azure self-help platform. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.
+Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, images, and videos.
+
+
 <properties
 	pageTitle="Apollo common solutions"
 	description="Apollo common solutions"
@@ -11,24 +14,17 @@
 	cloudEnvironments="public"
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
-```
 
-<!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience.
-DIRECTIONS: Copy the raw form of this article to use as a template for your own Common Solution article. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
-# Template in progress! <!--Replace this heading when approved. Internal-only title required for internal reference-->
+# Internal-only title - Required 
 <br> <!--Insert a blank line after every heading-->
-## Title <!--Required. Level 2 heading that describes the article contents. Capitalize only the first word and product names (i.e., use sentence capitalization).-->
-<br> <!--Insert a blank line after every heading-->
-Clearly state the specific problem and how the article addresses that problem. Add any relevant details not included in the title.<br>
+
+## Title - Required<!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
 For example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
-
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-## Sample body
-<br> <!--Insert a blank line after every heading-->
-The body contains the main content and contains the solution. It may include or more of the following components:
+## Sample body - Required<!--The body contains the main content and contains the solution. It may include or more of the following components:
 - Diagnostics (including insights/results)
 - Metrics
 - Solutions 
