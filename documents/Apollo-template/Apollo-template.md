@@ -166,7 +166,7 @@ This is an example of Azure KB portal and article links:
  
 
 
-<!--IN SUMMARY:
+<!--RULES:
 * Formatting is not identical to Microsoft Docs. 
 * Only tables using markdown will work.
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
