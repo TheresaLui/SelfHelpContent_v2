@@ -18,7 +18,7 @@
 # Apollo template title 
 <br> 
 <!--Head1 required for internal reference only--> 
-DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
+**Directions:** Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
 
 ## Title - Required
 <!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
