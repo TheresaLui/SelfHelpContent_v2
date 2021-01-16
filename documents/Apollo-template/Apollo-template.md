@@ -91,12 +91,12 @@ Use uordered (bullet) lists for non-sequential tasks. Example:
 	* Sub-ItemB
 -->
 
-    ### Sample inline image
+### Sample inline image
 <!--Use the following format for images. Replace alt text with a description of what is being shown, without punctuation, to ensure accessibility. 
 ![alt text](/images/image.png)
 -->
 
-    ### Sample videos
+### Sample videos
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
