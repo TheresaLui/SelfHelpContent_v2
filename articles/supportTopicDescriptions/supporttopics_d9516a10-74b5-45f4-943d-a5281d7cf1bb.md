@@ -662,7 +662,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
