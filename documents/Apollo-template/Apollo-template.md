@@ -11,7 +11,7 @@
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-<!--Use this template to create Apollo articles for the Azure self-help platform. This template demonstrates best practices for a rich media customer experience. For detailed guidance, see authoring tips [add internal link] and best practices [add internal link].
+<!--Use this template to create Apollo articles for the Azure self-help platform. Copy the raw form of this article to use as a template for your own Common Solution article. This template demonstrates best practices for a rich media customer experience. 
 Include the required title and headings in the order shown. Remove any optional headings you don’t need. 
 In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.-->
 
@@ -169,9 +169,9 @@ This is an example of Azure KB portal and article links:
 
 
 <!--IN SUMMARY:
-* Formatting is not identical to Microsoft Docs - tables do not work, neither do [!NOTE] tags
+* Formatting is not identical to Microsoft Docs. 
+* Tables using markdown will work.
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
-* Ensure all links to Microsoft docs are non-region-specific, (i.e., they do not include /en-us/). This does not apply to articles for Mooncake.
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
 * Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the properties metadata at the beginning of this article.
