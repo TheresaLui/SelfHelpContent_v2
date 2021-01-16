@@ -78,7 +78,7 @@ Do one of the following:
    See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
 
-### Issues in adding vCenter Server
+### Issues in adding credentials and discovery sources
 
 * **I am unable to connect to vCenter Server due to incorrect credentials or insufficient permissions**
 
