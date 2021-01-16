@@ -1,7 +1,6 @@
-DIRECTIONS: Copy the raw form of this articleto create Apollo articles for the Azure self-help platform. Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, and videos.
-Include the required title and headings in the order shown. Remove any optional headings you don’t need. In the body, use markdown for all elements, except for the following which use HTML tags: diagnostics/insights, charts, images, and videos.
+<!--DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified.-->
 
-
+<!--For information about each property, see the Metadata page-->
 <properties
 	pageTitle="Apollo common solutions"
 	description="Apollo common solutions"
@@ -20,30 +19,28 @@ Include the required title and headings in the order shown. Remove any optional 
 <br> <!--Insert a blank line after every heading-->
 
 ## Title - Required<!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
-For example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
+Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-## Sample body - Required<!--The body contains the main content and contains the solution. It may include or more of the following components:
-- Diagnostics (including insights/results)
-- Metrics
-- Solutions 
-- Images
-- Videos
-- Azure KB and docs links
+## Sample body - Required<!--The body contains the main content and solution. The solution may be preceded by diagnostics and guided troubleshooting. 
+This section can include or more of the following components: 
+- Diagnostics (including insights/results) 
+- Metrics 
+- Solutions  
+- Images 
+- Videos 
+- Azure KB and docs links-->
  
 
-## Sample diagnostic
-Below is an example of an insight. Use bullets and line breaks to present the textual information.
-Briefly explain how this diagnostic provides helpful information to the customer about their issue.  
-
+## Sample diagnostic<!--Explain how this information can help the customer. Include bullets and line breaks in insights to improve readability.
+Example:
 <Insight> 
 *	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
 *	<executionText>We are checking to see if your VM was restarted</executionText><br>
 *	<timeoutText>Proceeding to the next operation</timeoutText><br>
 *	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
 </Insight>
-
 <Insight>
 *	<symptomId_noloc>CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc><br>
 *	<executionText>Assessing VM connectivity now<br></executionText><br>
@@ -51,39 +48,26 @@ Briefly explain how this diagnostic provides helpful information to the customer
 *	<noResultText>Diagnostics are complete. No problems were found.</noResultText><br>
 *	<additionalInputsReq>true</additionalInputsReq><br> 
 </Insight><br>
+-->
 
-## Sample guided troubleshooting 
-<br> <!--Insert a blank line after every heading-->
-<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
-
-For example:
-“Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”-->
-
-Below is an example of a metric from Azure Monitor. Include bullets and line breaks to present the textual information.
+## Sample guided troubleshooting<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
+Example:
+“Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
 <metric>
 *	<name>Disk Write Operations/Sec</name> <!--Type of metric--><br>
 *	<aggregationType>Sum</aggregationType> <!--Specify Sum, Avg, Count, or Percentile (default is value Sum)--><br>
 *	<timeSpanDuration>1d</timeSpanDuration><!--Use these time measures: d for day, m for minute (default value is 1d)--><br>
 *	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information--><br>
 </metric>
+-->
 
-## Sample solution  
-<br> <!--Insert a blank line after every heading-->
-<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles-->
-
-Below is an example of an ordered list. Use ordered lists for tasks that must be performed in a sequence.
-
-<br> <!--Insert a blank line after every heading-->
-### Sample ordered list  
-<br> <!--Insert a blank line after every heading-->
-1. This is a step with a link to an [external article](https://)
-2. This is a step with no link, blade, or instructions. Note that because the next line is a continuation of the list, no <br> (br) break is needed.
-3. As in the example above, this step contains multiple sentences. When a step has multiple complete sentences, the use of a period to end each sentence is acceptable.
-4. This step does not have multiple sentences, so no period is required at the end
-5. This is a step with a [link to a blade](data-blade:extensionName.bladeName.nameOfInputParam.valueOfInputParam)
-6. This is a step with a single line or snippet of code: `SELECT name, is_disabled FROM sys.sql_logins`
-7. This is a step with multi-line code:
-
+## Sample solution<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles.
+Use ordered (numbered) lists for a sequence of tasks. Example:
+1. This is a step
+2. This step contains multiple sentences. When a step has multiple complete sentences, use a period to end each sentence.
+3. This is a step with a [link](http://)
+4. This is a step with inline code: `SELECT name, is_disabled FROM sys.sql_logins`
+5. This is a step with multi-line code:
 ```
 [cluster my-cluster]
     FormLayout = selectionpanel
@@ -92,21 +76,13 @@ Below is an example of an ordered list. Use ordered lists for tasks that must be
     MaxCount = 200
     Autoscale = $Autoscale
 ```
-All lists require an empty line before the first item and after the last item.
-
-
-### Sample bulleted list
-<br> <!--Insert a blank line after every heading-->
-Below is an example of a bulleted list. Only two levels of bullets are supported. (For step-by-step instructions, use an ordered list instead.)
-
+Use uordered (bullet) lists for non-sequential tasks. Example:
 * Item1
 * Item2
 * Item3
 	* Sub-ItemA
 	* Sub-ItemB
-
-All lists require an empty line before the first item and after the last item.
-
+-->
 
 ### Sample inline image
 <br> <!--Insert a blank line after every heading-->
@@ -165,6 +141,7 @@ This is an example of Azure KB portal and article links:
 
 
 <!--RULES:
+* All lists require an empty line before the first item and after the last item.
 * Formatting is not identical to Microsoft Docs. 
 * Only tables using markdown will work.
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
