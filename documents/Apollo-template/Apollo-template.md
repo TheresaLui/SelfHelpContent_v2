@@ -1,4 +1,4 @@
-<--DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified.-->
+<!--DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified.-->
 
 <!--For information about each property, see the Metadata page-->
 <properties
