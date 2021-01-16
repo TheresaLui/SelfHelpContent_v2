@@ -15,8 +15,9 @@
 />
 
 
-# Internal-only title - Required 
-<br> <!--Insert a blank line after every heading-->
+# Apollo template title 
+<br> 
+<!--Head1 required for internal reference only--> 
 DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
 
 ## Title - Required
@@ -137,6 +138,7 @@ Caption
  
 
 <!--RULES:
+* Insert a blank line after every heading (head1-3)
 * All lists require an empty line before the first item and after the last item.
 * Formatting is not identical to Microsoft Docs. 
 * Only tables using markdown will work.
