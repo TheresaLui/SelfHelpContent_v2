@@ -58,14 +58,14 @@ Example:
 Example:
 “Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
 <metric>
-*	<name>Disk Write Operations/Sec</name> <!--Type of metric--><br>
-*	<aggregationType>Sum</aggregationType> <!--Specify Sum, Avg, Count, or Percentile (default is value Sum)--><br>
-*	<timeSpanDuration>1d</timeSpanDuration><!--Use these time measures: d for day, m for minute (default value is 1d)--><br>
-*	<title>Virtual Machine Disk Write Operations/Sec</title><!--Include a title that clearly describes the information--><br>
+*	<name>Disk Write Operations/Sec</name> Type of metric
+*	<aggregationType>Sum</aggregationType> Specify Sum, Avg, Count, or Percentile (default is value Sum)
+*	<timeSpanDuration>1d</timeSpanDuration> Use these time measures: d for day, m for minute (default value is 1d)
+*	<title>Virtual Machine Disk Write Operations/Sec</title> Include a title that clearly describes the information
 </metric>
 -->
 
-## Sample solution
+## Sample solutions
 <!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles.
 Use ordered (numbered) lists for a sequence of tasks. Example:
 1. This is a step
@@ -89,12 +89,12 @@ Use uordered (bullet) lists for non-sequential tasks. Example:
 	* Sub-ItemB
 -->
 
-### Sample inline image
+    ### Sample inline image
 <!--Use the following format for images. Replace alt text with a description of what is being shown, without punctuation, to ensure accessibility. 
 ![alt text](/images/image.png)
 -->
 
-### Sample videos
+    ### Sample videos
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
@@ -118,7 +118,7 @@ Caption
 </videoGroup>
 -->
 
-## Sample of Recommended resources
+## Sample of recommended resources
 <br> <!--Insert a blank line after every heading-->
 <!--Include relevant document links that are NOT in the body/solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 <azureKB>
@@ -138,7 +138,7 @@ Caption
 <!--RULES:
 * All lists require an empty line before the first item and after the last item.
 * Formatting is not identical to Microsoft Docs. 
-* Only tables using markdown will work.
+* Only tables using markdown will work. If you need to include a Word table, use a screenshot (png). 
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
