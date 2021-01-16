@@ -1,4 +1,4 @@
-<!--DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified.-->
+<--DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified.-->
 
 <!--For information about each property, see the Metadata page-->
 <properties
@@ -17,6 +17,7 @@
 
 # Internal-only title - Required 
 <br> <!--Insert a blank line after every heading-->
+DIRECTIONS: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
 
 ## Title - Required
 <!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
@@ -138,7 +139,7 @@ Caption
 <!--RULES:
 * All lists require an empty line before the first item and after the last item.
 * Formatting is not identical to Microsoft Docs. 
-* Only tables using markdown will work. If you need to include a Word table, use a screenshot (png). 
+* Only tables using markdown will work.
 * Solutions should be instructions, recommendations, or videos, not just links to other articles
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
