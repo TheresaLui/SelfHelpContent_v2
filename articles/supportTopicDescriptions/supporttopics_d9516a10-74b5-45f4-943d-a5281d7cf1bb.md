@@ -66,6 +66,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "179deae0-b1ed-6f90-7b2b-4d4b39a574d3",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Throughput and Scaling",
+      "searchTags": "Throughput",
+      "category": "Throughput",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "18094d03-12d5-0a69-ece4-6f45202fc038",
       "longDescription": "",
       "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
@@ -287,6 +295,14 @@
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "SQL",
       "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "419f2aa0-0630-86f3-52d4-61447be932b2",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Account Administration",
+      "searchTags": "Administration",
+      "category": "Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -534,7 +550,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -646,7 +662,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -814,7 +830,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK .NET",
       "searchTags": ".NET;API;SDK",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -838,7 +854,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -938,6 +954,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6827aba-c69c-dd6d-5be3-a50d601744b1",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Azure Synapse Link",
+      "searchTags": "Synapse;Link",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c762e643-a5fa-6f1f-50c7-c528ea8ad074",
       "longDescription": "",
       "shortDescription": "How to use Bulk executor library, failing to load data, or throwing exceptions",
@@ -982,7 +1006,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK .NET",
       "searchTags": ".NET;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -991,6 +1015,14 @@
       "shortDescription": "Unable to customize index, index creation is not taking effect, rebuilding index and query is not using index",
       "searchTags": "query, indexing",
       "category": "Throughput",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1e43aad-5f35-ab29-a519-81d34d17de86",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Cosmos DB Managed Identity Integration",
+      "searchTags": "Identity;Managed;Security",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -15,7 +15,8 @@
 ## **Recommended Steps**
 
 * If your exisitng cloud subscription on M365 Admin Center is disabled or expired,please copy and paste the below link on an incognito browser window to activate a new subscription
-https://signup.microsoft.com/productkeystart
+
+    [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
 
 ## **Recommended Documents**
 
