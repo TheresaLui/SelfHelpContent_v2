@@ -59,6 +59,8 @@ Another possible cause is: If the Azure Cosmos DB analytical store follows the w
 All transactional operations are propagated, including deletes. The analytical store TTL (time to live) setting also can cause data removal.
 
 - If a document is deleted in transactional store, it will also be deleted from analytical store despite both stores ttls
+- If transactional TTL is smaller than 2 minutes, it is almost guaranteed that the transacational data will be archived before it is replicated to the analytical store. 
+- If transactional TTL is smaller than 5 minutes, but bigger than 2 minutes, there is a big chance that the transactional data will be archived before it is replicated to analytical store. 
 - If transactional TTL is smaller than analytical TTL, the data is archived from transactional store but kept in analytical store up to the configured TTL limit
 - If transactional TTL is bigger than analytical TTL, data will be archived from analytical store and kept in transactional store up to the configured TTL limit
 - If you are using SQL API, it is well-defined schema by default, meaning that the first document in the collection will define the analytical store schema. Documents that violate that format won't be synced to the analytical store.  
