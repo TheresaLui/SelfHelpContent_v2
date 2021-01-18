@@ -63,7 +63,18 @@ All transactional operations are propagated, including deletes. The analytical s
 - If transactional TTL is smaller than 5 minutes, but bigger than 2 minutes, there is a big chance that the transactional data will be archived before it is replicated to analytical store. 
 - If transactional TTL is smaller than analytical TTL, the data is archived from transactional store but kept in analytical store up to the configured TTL limit
 - If transactional TTL is bigger than analytical TTL, data will be archived from analytical store and kept in transactional store up to the configured TTL limit
-- If you are using SQL API, it is well-defined schema by default, meaning that the first document in the collection will define the analytical store schema. Documents that violate that format won't be synced to the analytical store.  
+- If you are using SQL API, it is well-defined schema by default, meaning that the first document in the collection will define the analytical store schema. Documents properties that violate that format won't be represented in analytical store.  
+
+
+### Accessing a Specific Region  
+
+Azure Cosmos DB is a globally distributed database system that allows you to read and write data from the local replicas of your database. Azure Cosmos DB transparently replicates the data to all the regions associated with your Cosmos account.
+
+If you turn on analytical store for a globally distributed container, or collection, you will have analytical store in all of your regions. To specific access a region, just add it to your connection string: 
+
+```SQL
+'account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>'
+```  
 
 
 ### **Spark data is not refreshing**
@@ -85,4 +96,8 @@ Thus, you can choose between loading to Spark DataFrame and creating a Spark tab
 [Frequently asked questions about Synapse Link for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/synapse-link-frequently-asked-questions)
 <br>This article answers commonly asked questions about Synapse Link for Azure Cosmos DB.  
 
-[Schema Representation](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#schema-representation)  .
+[Schema Representation](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#schema-representation)
+<br>This article answers commonly asked questions about analytical store schema inferece.  
+
+[Cosmos DB Global Data Distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+<br>This article helps you to understand Cosmos DB data distribution.
