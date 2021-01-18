@@ -16,9 +16,9 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-## Azure Pipeline issues during service fabric deployment and use
+# Azure Pipeline issues during service fabric deployment and use
 
-**Common Azure Pipeline issues during service fabric deployment and use**
+## **Common Azure Pipeline issues during service fabric deployment and use**
 
 * **Release pipeline fails due to an invalid client certificate used with the deployment**
 
