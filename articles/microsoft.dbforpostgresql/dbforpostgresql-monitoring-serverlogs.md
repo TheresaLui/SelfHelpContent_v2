@@ -37,7 +37,7 @@ There are two main ways logs can be consumed: .log files or Azure diagnostic log
 * Retention:
   * There is a maximum of 1GB of storage available per server for the .log files. Oldest logs will be deleted to make room for new ones.
   * You can set the retention period for this log storage using the **log_retention_period** parameter. The default value is 3 days; the maximum value is 7 days.
-  * You can download logs to store them for longer in your preferred location
+  * You can download logs to store them for longer in your preferred location. Download using standard CLI/Portal is very dependent on network speed. It times out after 100 seconds. We recommend using [Microsoft Download Manager](https://www.microsoft.com/en-us/p/download-manager/9wzdncrfj2rp?activetab=pivot:overviewtab)
   * The URL generated for accessing your .log file is authenticated using your logged in user's credentials. The URL includes a token that was generated from your authentication. Unauthenticated users cannot view the log unless you choose to share the URL.
   
 ### Azure Monitor diagnostic logging

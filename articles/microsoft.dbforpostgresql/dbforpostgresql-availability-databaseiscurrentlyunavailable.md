@@ -21,7 +21,7 @@ Server unavailability is typically transient and due to a restart. A restart hap
 
 If the server continues to be unavailable after a period and multiple connection attempts, this may be related to:
 * Connection issues - please review the *Error while connecting to server* content for help
-* Long Postgres recovery time due to high activity on the server at the time of restart
+* Long Postgres recovery time due to high transactional activity on the server at the time of restart
 
 
 ## **Recommended Steps**
