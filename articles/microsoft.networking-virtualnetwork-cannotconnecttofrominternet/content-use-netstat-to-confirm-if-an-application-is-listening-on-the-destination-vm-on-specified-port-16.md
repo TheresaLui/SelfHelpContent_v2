@@ -22,10 +22,11 @@
 ## Recommended Steps
 
 1. Ask the customer to run Netstat on the destination VM to confirm if an application is listening on the destination port.
-netstat -an | find ""<port number>""
+ 
+ netstat -an | find "<port number>"
 
 Example:
 netstat -an | find ""8080""
 
-If netstat is returning an empty response, this means that no application is listening on this port."
+If netstat is returning an empty response, this means that no application is listening on this port.
 
