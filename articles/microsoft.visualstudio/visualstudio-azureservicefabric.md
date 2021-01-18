@@ -16,9 +16,9 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-# Azure Pipeline issues during service fabric deployment and use
+## Azure Pipeline issues during service fabric deployment and use
 
-## **Common Azure Pipeline issues during service fabric deployment and use**
+**Common Azure Pipeline issues during service fabric deployment and use**
 
 * **Release pipeline fails due to an invalid client certificate used with the deployment**
 
@@ -28,7 +28,7 @@
 
    Currently, [Service fabric tasks in Azure DevOps](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops) has a limitation for running multiple releases that target the same service connection. In such cases, when two releases run on the same machine, one of the tasks completes and the certificate in the machine cert store is cleaned. Therefore, the second release fails. If there are multiple service connections using same certificate, then the releases using those connections will also fail. We recommend using different agents (on different machines) for parallel service fabric tasks that target the same connection.
     
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Tutorial: Deploy an application with CI/CD to a Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-deploy-app-with-cicd-vsts)
 * [Service Fabric Application Deployment task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops)
