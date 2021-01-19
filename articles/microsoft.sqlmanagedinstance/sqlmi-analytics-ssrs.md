@@ -16,8 +16,8 @@
 
 # SQL Server Reporting Services
 
-SSRS is a stateless service that uses database engine to store metadata and object definitions in two databases.
-These databases currently cannot be hosted on Azure SQL Managed Instance.
+SSRS is a stateless service that uses database engine to store metadata and object definitions in two databases. Azure SQL Managed Instance cannot run SSRS as a service, but it can host SSRS catalog database for a reporting server installed on Azure Virtual machine, using SQL Server authentication. 
 
 ## **Recommended Steps**
+- [Hosting SSRS databases in Azure SQL Managed Instance](https://techcommunity.microsoft.com/t5/azure-sql/hosting-ssrs-databases-in-azure-sql-managed-instance/ba-p/1700197)
 - [Migrate SSRS paginated reports to PowerBI](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
