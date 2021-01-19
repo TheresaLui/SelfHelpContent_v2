@@ -17,9 +17,11 @@
 
 # Diagnose and resolve issues with DBFS mount point
 
+Most customers can diagnose and resolve issues with DBFS mount point using the following resources.
+
 ## **Recommended Documents**
 
-* [How To: four ways of accessing Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-datalake-gen2#---access-automatically-with-your-azure-active-directory-credentials)
+* [How To: Four ways of accessing Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/azure-datalake-gen2#---access-automatically-with-your-azure-active-directory-credentials)
 * [How To: Configure customer-managed keys on default (root) DBFS](https://docs.microsoft.com/azure/databricks/security/keys/customer-managed-keys-dbfs) 
 * [Troubleshoot Error: Access Denied error returns when you attempt to read Azure Databricks objects stored in the DBFS root directory in blob storage](https://docs.microsoft.com/azure/databricks/kb/dbfs/dbfs-root-permissions)  
 * If you encounter error "Unable to update storage account xyz", make sure the storage account identity is given access policy permission  	
