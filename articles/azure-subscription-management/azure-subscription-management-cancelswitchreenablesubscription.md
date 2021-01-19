@@ -56,8 +56,8 @@ If you have a free trial subscription, you don't have to wait 30 days for the su
 ## **Recommended Documents**
 
 * [Cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
-* [Why don't I see the Cancel Subscription option on the Azure portal?](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription#why-dont-i-see-the-cancel-subscription-option-on-the-azure-portal)
-* [Subscription was accidentally cancelled](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/subscription-disabled#the-subscription-was-accidentally-canceled)
+* [Why don't I see the Cancel Subscription option on the Azure portal?](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription#why-dont-i-see-the-cancel-subscription-option-on-the-azure-portal)
+* [Subscription was accidentally cancelled](https://docs.microsoft.com/azure/cost-management-billing/manage/subscription-disabled#the-subscription-was-accidentally-canceled)
 * [Cancelled a subscription but still getting charged](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-subscription-cancellation)
 * [Cancel a support plan](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#cancel-a-support-plan)
 * [Delete free trial subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#delete-free-trial-subscription)
