@@ -36,7 +36,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-vmware/concepts-private-clouds-clusters",
-  "description": "vSAN Capacity Warning",
+  "description": "vSAN capacity utilization has crossed critical threshold",
   "longDescription": "Your vSAN capacity utilization has reached 75%. The cluster utilization is required to remain below the 75% critical threshold for SLA compliance. Please add new nodes to VSphere cluster to increase capacity or delete VMs to reduce consumption or adjust VM workloads",
   "potentialBenefits": "Maintain the health and performance of your vSAN operations",
   "actions": [
