@@ -96,12 +96,12 @@
 	   "required": true
        },
        {
-	   "id": "business_just",
-	   "order": 2,
-	   "controlType": "multilinetextbox",
-	   "displayLabel": "Business justification",
-	   "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
-	   "required": true
+       "id": "business_just",
+       "order": 2,
+       "controlType": "multilinetextbox",
+       "displayLabel": "Business justification"
+       "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
+       "required": false
        },
        {
 	   "id": "pc_isv_publisher_name",
