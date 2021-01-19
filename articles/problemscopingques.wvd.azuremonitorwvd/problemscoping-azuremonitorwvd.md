@@ -32,7 +32,7 @@
           "text": "Issue description."
         },
         {
-          "text": "Name of the session host or virtual machine(s)."
+          "text": "Name of the session host or virtual machines"
         }
       ]
     },
