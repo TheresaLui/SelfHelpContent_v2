@@ -37,9 +37,9 @@
             "id": "issue_type",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Choose an option that best describes your Availability Group setup issue.",
-            "watermarkText": "Common Setup Availability Group issue categories",
-            "infoBalloonText": "Setup Availability Group issue category",
+            "displayLabel": "Choose an option that best describes your issue.",
+            "watermarkText": "Other Common Peformance Issues",
+            "infoBalloonText": "Other common peformance issue categories",
             "dropdownOptions": [
             {
             "value":"test1",
