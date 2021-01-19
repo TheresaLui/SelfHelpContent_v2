@@ -28,7 +28,7 @@ Increase in resource consumption can be a result of an explicit user action or c
 * Review when your tables were last vacuumed and tune threshold parameters (see documentation below)
 * Check if there is spike in short-lived connections
 * Check if there is spike in new connection requests?
-* Enable Query Store to see any changes in the workload or query regression. Please refer to [Performance Troubleshooting with Query Store](https://azure.microsoft.com/en-us/blog/performance-troubleshooting-using-new-azure-database-for-postgresql-features/)
+* Enable Query Store to see any changes in the workload or query regression. Please refer to [Performance Troubleshooting with Query Store](https://azure.microsoft.com/blog/performance-troubleshooting-using-new-azure-database-for-postgresql-features/)
 
 ## **Recommended Documents**
 
