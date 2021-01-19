@@ -17,7 +17,7 @@
 
 # Re enable Subscription
 
-Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was cancelled by the Account Administrator. Refer below on how you can re-enable your subscription
+Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was cancelled by a Service Administrator or Subscription owner. Refer below on how you can re-enable your subscription
 Learn more: [Reactivate Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
 ## **Recommended Steps**
@@ -29,7 +29,6 @@ If you have permissions, you can reactivate an individual subscription with pay-
 2. Go to subscriptions and select the cancelled subscription
 3. Click **Reactivate**
 4. Confirm reactivation by selecting OK
-5. For other subscription types, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to have your subscription reactivated
 
 **Need to make a payment** <br>
 A subscription can be disabled due to a non-payment. To re-enable a subscription, navigate to invoices under billing and select Pay Now to make a one-time payment. Avoid missing future payments by navigating to payment methods and updating your payment information.
