@@ -2,7 +2,7 @@
   pagetitle="Azure Stack virtual machine (VM) extensions&#xD;"
   service="microsoft.azurestack"
   resource="azurestack"
-  ms.author="alexsmit,mabrigg"
+  ms.author="mabrigg"
   selfhelptype="Generic"
   supporttopicids="32663915,32663916"
   resourcetags=""
@@ -10,23 +10,6 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="azurestack-vm-extensions"
   ownershipid="StorageMediaEdge_AzureStack_Hub" />
-<properties
-    pageTitle="Azure Stack virtual machine (VM) extensions"
-    description="Resolve issues with Azure Stack virtual machine (VM) extensions"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32663915,32663916"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="azurestack-vm-extensions"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
 # Azure Stack virtual machine (VM) extensions
 
 Azure Virtual Machine (VM) extensions are small applications that provide post-deployment configuration and automation tasks on Azure VMs. They allow you to use existing marketplace images, and then customize them with extensions as part of your deployments.
@@ -35,7 +18,7 @@ Azure Virtual Machine (VM) extensions are small applications that provide post-d
 
 ## **Recommended Steps**
 
-- You can view the available extensions in the VM blade in the Azure Stack Portal, under extensions, or for the full list you can use the CLI tools:
+ - You can view the available extensions in the VM blade in the Azure Stack Portal, under extensions, or for the full list you can use the CLI tools:
 
   - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
   - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
