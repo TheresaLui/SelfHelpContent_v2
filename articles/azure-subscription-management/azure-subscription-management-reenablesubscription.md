@@ -23,7 +23,7 @@ Learn more: [Reactivate Azure subscription](https://docs.microsoft.com/azure/bil
 ## **Recommended Steps**
 
 **Re-enable your Azure Subscription (subscription was accidentally cancelled)** <br>
-If you have permissions, you can reactivate an individual subscription with pay-as-you-go rates in the Azure portal.
+If you are a Subscription owner or have write access, you can reactivate an individual subscription with pay-as-you-go rates in the Azure portal.
 
 1. Sign in to the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
 2. Go to subscriptions and select the cancelled subscription
@@ -68,4 +68,4 @@ After selecting OK to confirm reactivation, please allow up to 30 minutes for th
 * [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
 * [Azure spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit)
 * [Remove the spending limit in Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit#remove)
-* [My subscription is still disabled after updating the payment method](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/billing-troubleshoot-azure-payment-issues#my-subscription-is-still-disabled-after-updating-the-payment-method)
+* [My subscription is still disabled after updating the payment method](https://docs.microsoft.com/azure/cost-management-billing/manage/billing-troubleshoot-azure-payment-issues#my-subscription-is-still-disabled-after-updating-the-payment-method)
