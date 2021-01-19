@@ -3,8 +3,8 @@
 	description="backup/restore/restore"
 	service="microsoft.sql"
 	resource="servers"
-	authors="andikshi"
-	ms.author="andikshi"
+	authors="sojaga"
+	ms.author="sojaga"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32688668"
@@ -17,6 +17,14 @@
 # backup/restore/restore
 
 **Point in Time Restore**
+
+### Recommended video
+In the following video, you will learn how to perform Point in Time Retore in Azure SQL.
+
+<video>
+<src>https://youtu.be/CX9UoYw9shU</src>
+<title>Restore to Point in Time with Azure SQL Database</title>
+</video>
 
 * The following options are available for [point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32688668/) of databases from automated backups:
 
