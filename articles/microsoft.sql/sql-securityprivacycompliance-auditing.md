@@ -3,8 +3,8 @@
 	description="security, privacy and compliance/auditing"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa"
-   	ms.author="emlisa"
+	authors="sojaga"
+   	ms.author="sojaga"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630407"
@@ -15,7 +15,22 @@
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
-# Auditing 
+# Auditing
+
+## Understanding Auditing for Azure SQL
+
+### Recommended video
+In the following video, you will learn how to configure Auditing in Azure SQL Database to address common questions.
+
+<video>
+<src>https://youtu.be/7uDloadggmA</src>
+<title>Configure Auditing for Azure SQL Databases</title>
+</video>
+
+Summary of configuration steps in the video:
+
+1. Setting up an Auditing
+2. Using Log Analytics and Blob Storage
 
 ## **Recommended Documents**
 
