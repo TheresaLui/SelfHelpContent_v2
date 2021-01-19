@@ -81,7 +81,7 @@
     {
       "id": "6578b875-e5f1-ab6d-0034-af364d71ca00",
       "longDescription": "",
-      "shortDescription": "Assistance with configuring data transfer bandwidth schedules on Azure Portal",
+      "shortDescription": "Assistance with configuring data transfer bandwidth schedules on Azure portal",
       "searchTags": "Bandwidth schedules;variable bandwidth",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
