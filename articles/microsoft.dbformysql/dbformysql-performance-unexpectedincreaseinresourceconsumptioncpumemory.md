@@ -33,7 +33,7 @@ Analyzing your tables frequently pushes better execution plans for your queries.
 * **Are you using Basic Tier server?** <br>
 Basic tier servers are intended for testing, development, or small-scale infrequently-used applications. Production workloads can max out resources easily. For more information read [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
 
-* **Quick tips**
+**Quick tips**
 * Adjust the pricing-tier or compute size in relation to the increase in the workload.
 * You can increase the IOPS available to your server by scaling up storage. IOPS scale with the size of the provisioned storage in a 3:1 ratio.
 * Ensure there are no changes to the pricing-tier or compute size of your service that might have triggered it.
