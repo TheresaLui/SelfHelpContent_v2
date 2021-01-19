@@ -21,10 +21,10 @@ Customers are getting an error when trying to acquire a phone number. There are 
 
 ## **Recommended Steps**
 
-* Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (i.e., Geographic or Toll-free) will be dimmed. 
+Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (i.e., Geographic or Toll-free) will be dimmed. 
   If this is the case, check back again after some time has passed.
 
-* Failure because of subscription eligibility:<br>
+If failure occurred because of subscription eligibility:<br>
     * Check the subscription type
     * Check if the billing address is correct
 
