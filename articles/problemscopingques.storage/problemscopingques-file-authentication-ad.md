@@ -148,6 +148,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
+            "watermarkText": "How to enable on premise AD DS Authentication for Azure Files",
             "displayLabel": "Enter your query",
             "required": true,
             "useAsAdditionalDetails": true,
