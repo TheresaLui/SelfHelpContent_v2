@@ -52,7 +52,7 @@ If you have a free trial subscription, you don't have to wait 30 days for the su
 3. Select the subscription that you want to delete.
 4. Select **Overview**, and then select **Delete Subscription**.
 
-Learn more: [Delete free trial subscription](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription#delete-free-trial-subscription)
+Learn more: [Delete free trial subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription#delete-free-trial-subscription)
 
 ## **Recommended Documents**
 
