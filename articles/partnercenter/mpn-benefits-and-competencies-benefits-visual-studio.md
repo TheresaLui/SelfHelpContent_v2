@@ -31,5 +31,5 @@
 ## **Recommended Documents**
 
 * [Visual Studio benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515204/visual-studio-subscriptions-benefits-tab-for-mpn-partners-in-partner-c)
-* [Where can I find my Visual Studio benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [How these Visual Studio benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)

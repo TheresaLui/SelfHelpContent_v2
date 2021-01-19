@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Virtual Network Configuration"
 	description="Virtual Network Configuration"
-	infoBubbleText="Virtual Network Configuration"
+	infoBubbleText="Virtual Network Configuration "
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"

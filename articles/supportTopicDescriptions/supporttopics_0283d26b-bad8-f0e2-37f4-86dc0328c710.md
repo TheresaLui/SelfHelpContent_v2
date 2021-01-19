@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="0283d26b-bad8-f0e2-37f4-86dc0328c710"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_0283d26b-bad8-f0e2-37f4-86dc0328c710"
   ownershipid="AzureKeyVault_KeyVault" />
 # Support Topic Descriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710
@@ -32,7 +33,7 @@
     {
       "id": "1ce6ba1a-143e-5fc8-2d3c-f5627dafc6df",
       "longDescription": "",
-      "shortDescription": "Issues with secrets which are not covered in above topics",
+      "shortDescription": "Issues with secrets that are not covered in above topics",
       "searchTags": "secret",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -48,8 +49,8 @@
     {
       "id": "21b85356-5cbf-5204-c2e1-dea650a3e613",
       "longDescription": "",
-      "shortDescription": "Issues with retrieving secret when deleted, recovering secret, restoring secret",
-      "searchTags": "restore secret;recover secret",
+      "shortDescription": "Not able to view secret in the vault",
+      "searchTags": "restore secret;recover secret;view secret;see secret;see key",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
@@ -134,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5149d3e9-6097-bc64-3746-8495ccee7a76",
+      "longDescription": "",
+      "shortDescription": "Issues with certificate download or exporting pem or pfx file",
+      "searchTags": "export certificate;download;export;pem;pfx",
+      "category": "How to questions about export",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5792b030-de7c-85a3-d058-a9ece7e18ce7",
       "longDescription": "",
       "shortDescription": "Create and manage Azure Key Vault, configure settings, guidelines for throttling and best practices",
@@ -160,17 +169,25 @@
     {
       "id": "66bbbb9f-eb66-93d1-4137-0950c97901c0",
       "longDescription": "",
-      "shortDescription": "Integrate Azure Key Vault with a Custom Application",
-      "searchTags": "Azure ",
+      "shortDescription": "Use Azure Key Vault with  self-hosted applications or custom applications deployed to VM. Do not use for App Services hosted application.",
+      "searchTags": "Azure",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
       "longDescription": "",
-      "shortDescription": "Issues with key vault access control policies",
+      "shortDescription": "Issues with configuring key vault access control policies and RBAC role assignments",
       "searchTags": "access denied;access;policy;security group",
       "category": "Key Vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6eb2834d-24b6-b275-ac68-685d5cf2962b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot errors related to assigning policy, selecting a scope, triggering effects (audit or deny), and viewing or publishing compliance results.",
+      "searchTags": "Azure Policy;Policy;Enforce;Audit;Compliance",
+      "category": "Governance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -358,9 +375,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d4cd7634-af53-a159-394c-3c0ce28bae07",
+      "longDescription": "",
+      "shortDescription": "How to respond to Azure Defender for Key Vault alerts",
+      "searchTags": "unusual;alert;Defender;key vault alert",
+      "category": "Remediation steps for Azure alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
-      "shortDescription": "Integrating Azure Key Vault with Azure Services",
+      "shortDescription": "Use Azure Key Vault with Azure Services or Applications hosted in managed App Service platform (web apps, functions)",
       "searchTags": "Azure;Integration",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"

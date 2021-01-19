@@ -8,7 +8,7 @@
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32741249"
   productPesIds="17258"
-  cloudEnvironments="public, usnat, ussec"
+  cloudEnvironments="public, usnat, ussec, fairfax"
   schemaVersion="1"
   ownershipId="AzureCogSvc_CognitiveServices"
 />

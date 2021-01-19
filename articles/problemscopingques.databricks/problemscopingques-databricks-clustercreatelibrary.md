@@ -80,6 +80,32 @@
             "required": true
         },
         {
+            "id": "howinstalled",
+            "order": 70,
+            "controlType": "dropdown",
+            "displayLabel": "How the library is being installed?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "initscript",
+                    "text": "Init script"
+                },
+                {
+                    "value": "libraryui",
+                    "text": "Library UI"
+                },
+                {
+                    "value": "notebook",
+                    "text": "Notebook"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "is_new_problem",
             "order": 100,
             "controlType": "dropdown",

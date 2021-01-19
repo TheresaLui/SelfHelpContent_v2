@@ -7,7 +7,7 @@
     ms.author="manishku"
     displayOrder="30"
     selfHelpType="generic"
-    supportTopicIds="32747561"
+    supportTopicIds="32747558"
     resourceTags="servers, databases"
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -38,6 +38,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/howto-configure-ssl)
+* As a part of our maintenance activity, we are working on changing out gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security#ssl-default-settings). Refer to the steps to mitigate the issue in [this article](https://docs.microsoft.com/azure/mysql/concepts-certificate-rotation)
 * Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/mysql/howto-tls-configurations)
 * Review the [supported client driver list](https://docs.microsoft.com/azure/mysql/concepts-compatibility) and ensure you are using a driver that is supported
 * Make sure the user you are using has the appropriate permissions

@@ -33,4 +33,4 @@ Note: If you do not see the Add user button you may not have the required user r
 
 ## **Recommended Documents**
 
-* [How to associate a user to your Organization](https://support.microsoft.com/help/3083683)
+* [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)

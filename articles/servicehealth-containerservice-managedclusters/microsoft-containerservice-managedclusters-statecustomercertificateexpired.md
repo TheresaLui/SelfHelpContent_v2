@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Your service principal has expired. Please check if you are using the correct secret or if the key has expired."
-    description="Your service principal has expired. Please check if you are using the correct secret or if the key has expired."
-    infoBubbleText="Your service principal has expired. Please check if you are using the correct secret or if the key has expired."
+    pageTitle="Your cluster cert has expired. Please check if you are using the correct secret or if the key has expired."
+    description="Your cluster cert has expired. Please check if you are using the correct secret or if the key has expired."
+    infoBubbleText="Your cluster cert has expired. Please check if you are using the correct secret or if the key has expired."
     service="Microsoft.ContainerService"
     resource="managedClusters"
     authors="stephbaron"
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your AKS Cluster resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-Your service principal has expired. Please check if you are using the correct secret or if the key has expired. 
+Your cluster cert has expired. Please check if you are using the correct secret or if the key has expired. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

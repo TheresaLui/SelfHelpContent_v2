@@ -18,12 +18,15 @@
 
 Cluster startup failure due to Databricks is not able to acquire VMs.
 
-**User facing error**: 
-*Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster. See the Databricks guide for more information.*
-*Azure error code: OperationNotAllowed*
-*Azure error message: Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xx, Additional requested: xx.*
+User facing error: 
 
-## Troubleshooting and Solution
+```
+Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster. See the Databricks guide for more information.
+Azure error code: OperationNotAllowed
+Azure error message: Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xx, Additional requested: xx.
+```
+
+**Troubleshooting and Solution**
 
 Go to cluster events tab, look for event when cluster fails and click on it to get more information.
 

@@ -10,7 +10,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32321847"
 	productPesIds="15570"
-	cloudEnvironments="public, usnat, ussec"
+	cloudEnvironments="public, usnat, ussec, fairfax"
 	ownershipId="AzureML_AzureMachineLearning"
 />
 

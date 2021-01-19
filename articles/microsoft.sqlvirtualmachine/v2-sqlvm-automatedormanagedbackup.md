@@ -2,7 +2,7 @@
   pagetitle="Automated backup or managed backup"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun,ujpat"
+  ms.author="ujpat,amamun"
   selfhelptype="Generic"
   supporttopicids="32740066"
   resourcetags="windowssql"
@@ -23,7 +23,7 @@ If you cannot enable Automated backup or managed backup, please ensure following
 - Account 'NT Service\SqlIaaSExtensionQuery' has sysadmin privilege in the SQL instance 
 - Apply the latest SQL Server patch to avoid any known issues
 - User enabling automated backup to form the portal has at least ‘Contributor’ access to the SQL Server machine
-- For SQL Server 2016/2017 versions, make sure "Allow Blob Public Access" disabled on Storage Account
+- For SQL Server 2016/2017 versions, make sure "Allow Blob Public Access" is enabled on the storage Account to temporarily workaround a known issue 
 - SQL FCI, or multiple named instances do not offer SQL IaaS extension full mode and hence automated backup is not supported
 
 **Backup worked previously but is not working now**

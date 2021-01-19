@@ -23,6 +23,12 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
+### Large amount of replication lag
+
+Azure Database for MySQL uses **ROW** based binary logging. If your table is missing a primary key, all rows in the table are scanned for DML operations. This causes increased replication lag. To ensure that the replica is able to keep up with changes on the source, we generally recommend adding a primary key on tables in the source server before creating the replica server or re-creating the replica server if you already have one.
+
+Refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency) to learn on how to troubleshoot replication latency.
+
 ### **Replica creation is taking longer than expected**
 
 Depending on the size of the server, replica creation time can vary from a few minutes to a few hours. This is because of the time it takes to restore all the data from your source server to the replica.
@@ -66,6 +72,7 @@ Replica servers are always created in the same resource group and same subscript
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL Flexible Server documentation](https://docs.microsoft.com/azure/mysql/flexible-server)<br>
-* [Azure Database for MySQL Pricing Page](https://azure.microsoft.com/pricing/details/mysql/)<br>
+* [Azure Database for MySQL Flexible Server documentation](https://docs.microsoft.com/azure/mysql/flexible-server)
+* [Troubleshoot replication latency in Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/troubleshooting-replication-latency-in-azure-database-for-mysql/ba-p/1752473)
+* [Azure Database for MySQL Pricing Page](https://azure.microsoft.com/pricing/details/mysql/)
 * [Pricing calculator](https://azure.microsoft.com/pricing/calculator/?service=mysql/)

@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Troubleshooting the Azure Import/Export Tool](https://docs.microsoft.com/azure/storage/common/storage-import-export-tool-troubleshooting-v1)<br>
+* [Troubleshooting the Azure Import/Export Tool](https://docs.microsoft.com/azure/storage/common/storage-import-export-data-to-blobs?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=azure-portal#step-1-prepare-the-drives)<br>

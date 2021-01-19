@@ -19,6 +19,11 @@
     "subscriptionRequired": true,
     "title": "Resource Health scoping questions",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Diagnostics",
+        "description": "Our diagnostics can identify the cause of many common service-related connection errors.",
+        "insightNotAvailableText": "Our diagnostics did not detect any issues with your resource. See our recommended solutions below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -26,15 +31,17 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
-            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false
+            "displayLabel": "When did the problem stop? (Up to 4 hours after problem start time)",
+            "infoBalloonText": "Enter when the error stopped, or up to 4 hours after problem start time. Please run diagnostics with different time windows if the issue spans for more than 4 hours.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "new_or_recurring_issue",

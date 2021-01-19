@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="38f4a461-1543-4089-854c-90e7edf37707_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USNat,USSec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Reduce the resource cost for Azure Database for PostgreSQL

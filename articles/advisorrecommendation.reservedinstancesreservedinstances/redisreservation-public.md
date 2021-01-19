@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="8ee30d6b-2c73-452a-b4ad-e4386cd6f7d0_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USNat,USSec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy Redis Cache Reserved capacity to save money over pay-as-you-go costs

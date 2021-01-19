@@ -26,7 +26,6 @@
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "Right-size ADX cluster",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "kustosee@microsoft.com",
@@ -39,32 +38,27 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://www.azure.cn/pricing/details/data-explorer/",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize performance",
   "actions": [
     {
-      "actionId": "2407eac0-6bd3-4f89-9d48-2c5e372a9366",
-      "description": "Change your SKU to scale up",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
+      "description": "Resize the Cluster",
+      "actionType": "ContextBlade",
+      "extensionName": "Microsoft_Azure_Kusto",
+      "bladeName": "SkuRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}",
-        "menuid": "scale_up"
-      }
-    },
-    {
-      "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
-      "description": "Change your instance count to scale out",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}",
-        "menuid": "scale_out"
+        "resource": "{resourceId}",
+        "skuRecommendation": {
+            "skuName": "{recommendedSku}",
+            "isDevSku": "{isDevSku}",
+            "instancesCount": "{recommendedInstanceCount}"
+        },
+        "description": "{description}",
+        "recommendedConfig": "{recommendedConfig}"
       }
     }
   ],

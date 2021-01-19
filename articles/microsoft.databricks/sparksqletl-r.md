@@ -21,8 +21,28 @@
 
 * Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
 
+* **Symptom:** 
+  
+  When cancelling R command on DBR < 7.1 (using sparklyr library), all python notebooks sharing the same interactive cluster are cancelling as well. 
+
+  **Cause:** 
+  
+  This is a known bug with the sparklyr library.
+
+  **Solution:** 
+  
+  Current workaround is to apply the following configuration at notebook level:
+
+  ```
+  config <- spark_config()
+  config$sparklyr.cancellable = F
+  spark_connect(spark_config = config)
+  ```
+  While there is currently no cluster level workaround for DBR < 7.1, there is a permanent fix with DBR >= 7.1.
+
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [Change Version of R (r-base)](https://docs.microsoft.com/azure/databricks/kb/r/change-r-version)
 * [Install rJava and RJDBC Libraries](https://docs.microsoft.com/azure/databricks/kb/r/install-rjava-rjdbc-libraries)
 * [Resolving Package or Namespace Loading Error](https://docs.microsoft.com/azure/databricks/kb/r/namespace-onload)

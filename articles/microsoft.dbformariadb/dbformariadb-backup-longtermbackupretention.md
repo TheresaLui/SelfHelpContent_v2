@@ -23,6 +23,9 @@ Native support for long term retention backups is currently being worked on by t
 
 ## **Recommended Steps**
 
+For long term backup retention of backups, you have following options:
+
+* You can write a script to use mysqldump to backup your databases, and copy the dumpfile to Azure blob storage and automate to run it weekly, monthly or yearly based on your archival strategy. Our team has blogged a [step by step article](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157) to achieve it.
 * If you want to export the MariaDB database, review the [How-to export MariaDB database using PHPMyAdmin](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore#export-using-phpmyadmin)
 
 ## **Recommended Documents**

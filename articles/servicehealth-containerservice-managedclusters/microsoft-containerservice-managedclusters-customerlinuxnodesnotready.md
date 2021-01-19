@@ -1,7 +1,7 @@
 <properties
-    pageTitle="All nodes are not ready and heartbeat is not updating. We are trying to recover your nodes."
-    description="All nodes are not ready and heartbeat is not updating. We are trying to recover your nodes."
-    infoBubbleText="All nodes are not ready and heartbeat is not updating. We are trying to recover your nodes."
+    pageTitle="At least 1 node in your cluster is not ready, and heartbeat is not updating. We are trying to recover your node(s)"
+    description="At least 1 node in your cluster is not ready, and heartbeat is not updating. We are trying to recover your node(s)"
+    infoBubbleText="At least 1 node in your cluster is not ready, and heartbeat is not updating. We are trying to recover your node(s)"
     service="Microsoft.ContainerService"
     resource="managedClusters"
     authors="stephbaron"
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your AKS Cluster resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-All nodes are not ready and heartbeat is not updating. We are trying to recover your nodes. 
+At least 1 node in your cluster is not ready, and heartbeat is not updating. We are trying to recover your node(s) 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

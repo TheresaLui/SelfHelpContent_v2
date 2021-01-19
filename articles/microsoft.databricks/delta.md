@@ -19,6 +19,10 @@
 
 ## **Recommended Documents**
 
+* [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
+
+* [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
+
 * [Delta FAQs](https://docs.microsoft.com/azure/databricks/delta/delta-faq)
 * [Delta How-to?](https://docs.microsoft.com/azure/databricks/delta/delta-intro)
 * [Resources](https://docs.microsoft.com/azure/databricks/delta/delta-resources)

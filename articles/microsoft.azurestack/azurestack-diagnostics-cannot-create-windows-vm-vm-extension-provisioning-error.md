@@ -20,10 +20,12 @@ cloudEnvironments="public, FairFax, usnat, ussec"
 # Cannot create a Windows VM VMExtensionProvisioningError
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot create a Windows virtual machine (VM) because of error VMExtensionProvisioningError. 
 
-
+ResultCode: VMExtensionProvisioningError
+ErrorDetails: Failed to provision VM extensions for VM 'VM18040257'
 
 <!--/issueDescription-->
 
-In order to create a Windows VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
+## **Recommended Steps**
+
+Remove the VM extensions during VM deployment and add the VM extensions one-by-one to the VM after successful VM deployment. To troubleshooting VM extensions, see [Troubleshooting Azure Windows VM extension failures](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot) or look for specific VM extension troubleshooting guidance such as [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot).

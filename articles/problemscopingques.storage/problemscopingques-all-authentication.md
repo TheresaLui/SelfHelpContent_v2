@@ -5,8 +5,8 @@
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_authentication"
-	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
-	productPesIds="15629,16459,16462,16461,16598"
+	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32731237"
+	productPesIds="15629,16459,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Authentication Issues Troubleshooter",
-        "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
+        "description": "If you are reporting about an issue please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
     },
     "formElements": [
@@ -112,9 +112,9 @@
             "id": "request_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
+            "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
-	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC",
 	    "validations": [
@@ -126,12 +126,47 @@
 	    ]
         },
         {
+            "id": "blob_container",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Blob container",
+            "watermarkText": "Choose a specific container",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "blob_path",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "Blob name or path if specific to a blob",
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "learn_more_text",

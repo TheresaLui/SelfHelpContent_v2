@@ -42,7 +42,7 @@ To manage your own keys for encrypting data at rest and in transit, you will nee
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
+Here is a list of additional resources which may be helpful: 
 
 * [Enterprise security overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
 * [Azure data encryption at rest](https://docs.microsoft.com/azure/security/fundamentals/encryption-atrest)
