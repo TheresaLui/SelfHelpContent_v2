@@ -256,7 +256,7 @@
     {
       "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
       "longDescription": "",
-      "shortDescription": "Issues with security posture, AD  activities, Defender, for identity-based alerts and secure score",
+      "shortDescription": "Issues with security posture, AD activities, Defender for identity-based alerts and secure score",
       "searchTags": "ATP;Integration",
       "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
