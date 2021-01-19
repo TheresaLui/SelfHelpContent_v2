@@ -20,6 +20,11 @@
     "resourceRequired": true,
     "title": "SQL Database",
     "fileAttachmentHint": "",
+	"diagnosticCard": {
+    "title": "Other errors Troubleshooter",
+    "description": "Our other errors Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,6 +32,30 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
+        },
+ 	{
+            "id": "issue_type",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes your Availability Group setup issue.",
+            "watermarkText": "Common Setup Availability Group issue categories",
+            "infoBalloonText": "Setup Availability Group issue category",
+            "dropdownOptions": [
+            {
+            "value":"test1",
+            "text": "test1"
+            },
+            {
+            "value": "test2",
+            "text": "test2"
+            },
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "is_reproducible",
