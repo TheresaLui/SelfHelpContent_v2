@@ -7,7 +7,7 @@
         ms.author="srinathv"
         displayOrder=""
         selfHelpType="generic"
-        supportTopicIds="32785501;32785502"
+        supportTopicIds="32785501,32785502"
         resourceTags=""
         productPesIds="15207"
         articleId="c08420ae-af5c-403d-83a5-701e9d01f4d1"
