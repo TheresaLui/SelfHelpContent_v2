@@ -7,7 +7,7 @@
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
+	articleId="ce0219d3-1eff-4cf8-8875-63f18f38c458"
 	ownershipId="Windows_Virtual_Desktop"
 />
 # Azure monitor for WVD

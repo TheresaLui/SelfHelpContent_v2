@@ -7,7 +7,7 @@
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
+	articleId="fb177db5-4368-4448-9fc5-d047a70fd2bd"
 	ownershipId="Windows_Virtual_Desktop"
 />
 # MSIX app attach

@@ -7,7 +7,7 @@
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
+	articleId="a04aaa8e-246b-43d4-98cb-8f47388ad1fd"
 	ownershipId="Windows_Virtual_Desktop"
 />
 # Authentication issues
