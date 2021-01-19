@@ -100,7 +100,7 @@
 	   "order": 2,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Business justification",
-	   "watermarkText": "Removing a review from Marketplace store fronts requires a strong business justification",
+	   "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
 	   "required": true,
 	   "useAsAdditionalDetails": true
        },
