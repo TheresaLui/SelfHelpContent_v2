@@ -32,5 +32,5 @@ Private Endpoint is available for multiple [Azure services listed here](https://
 
 **Recommended Steps**<br>
 - [Troubleshoot Azure Private Endpoint connectivity problems](https://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
-- [What is Azure Private Endpoint?](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview)
+- [What is Azure Private Endpoint?](https://docs.microsoft.com/azure/private-link/private-endpoint-overview)
 
