@@ -102,7 +102,6 @@
 	   "displayLabel": "Business justification",
 	   "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
 	   "required": true,
-	   "useAsAdditionalDetails": true
        },
        {
 	   "id": "pc_isv_publisher_name",
