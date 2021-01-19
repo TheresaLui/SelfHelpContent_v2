@@ -18,8 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Monitoring Azure Analysis Services with Log Analytics and Power BI](https://techcommunity.microsoft.com/t5/Premier-Field-Engineering/Monitoring-Azure-Analysis-Services-with-Log-Analytics-and-Power/ba-p/371441)
+* [Monitoring overview](https://docs.microsoft.com/analysis-services/instances/monitor-an-analysis-services-instance?view=asallproducts-allversions)
 
 * [Monitor server metrics](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor)
+
+* [Monitoring Azure Analysis Services with Log Analytics and Power BI](https://techcommunity.microsoft.com/t5/Premier-Field-Engineering/Monitoring-Azure-Analysis-Services-with-Log-Analytics-and-Power/ba-p/371441)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

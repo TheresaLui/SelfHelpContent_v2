@@ -4,7 +4,7 @@
 	authors="chez-charlie, hecepeda"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629461, 32629470, 32629463, 32637163"
+    supportTopicIds="32629461, 32629463"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -20,6 +20,11 @@
     "subscriptionRequired": true,
     "title": "Azure Data Movement copy issue info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service and screen shots to help us triage your problem faster",
+    "diagnosticCard": {
+        "title": "Azure Copy Activity Troubleshooter",
+        "description": "Our Copy Activity RunId Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect the issues we were looking for in your resource. Refer to the help manual below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_description",
@@ -58,9 +63,17 @@
             "displayLabel": "What's the sink of the copy activity?",
             "required": false
         },
+		{
+            "id": "problem_run_id",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
+            "diagnosticInputRequiredClients": "Portal",
+            "required": true
+        },
         {
             "id": "ir_type",
-            "order": 5,
+            "order": 6,
 			"visibility": "null",
             "controlType": "dropdown",
             "displayLabel": "Which type of integration runtime are you using?",
@@ -82,19 +95,11 @@
             "required": true
         },
         {
-            "id": "problem_run_id",
-            "order": 6,
-			"visibility": "ir_type == Azure IR || dont_know_answer",
-            "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
-            "required": true
-        },
-        {
             "id": "problem_report_id",
             "order": 7,
 			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Solutions tab for guidance on how to obtain it)",
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain the ReportID)",
             "required": true
         },
         {

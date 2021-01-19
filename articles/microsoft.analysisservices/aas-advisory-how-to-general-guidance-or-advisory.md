@@ -22,5 +22,8 @@
 
 * [What is Azure Analysis Services?](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [On-premises data gateway support for Azure Analysis Services](https://azure.microsoft.com/blog/on-premises-data-gateway-support-for-azure-analysis-services/)
 
+* [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)

@@ -19,9 +19,13 @@
 
 Heavy users of Azure Databricks run into storage throttling limits on WASB/ADLS. Databricks hosts worker artifacts (JARs for worker services such as Node Daemon, Log Daemon, etc.) and Spark container images on Azure Blob Store. During high usage (hourly boundaries), requests to pull worker artifacts or Spark containers frequently timeout or become throttled.
 
-User facing error : *Files and folders are being created at too high a rate.*
+User facing error : 
 
-**Troubleshooting and Solution**
+```
+Files and folders are being created at too high a rate.
+```
+
+### Troubleshooting and Solution
 
 This is storage side limitation as the error suggests, please get azure storage team involved. 
 

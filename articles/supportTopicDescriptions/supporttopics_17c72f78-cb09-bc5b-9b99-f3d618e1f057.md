@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   description="SupportTopicDescriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   authors="elixirsys2"
-  ms.author="ambhatna, andrela"
+  ms.author="ambhatna, andrela, yahu1"
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -249,7 +249,7 @@
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
-      "searchTags": "too many connections;connection limit;connections;maximum connection limit",
+      "searchTags": "too many connections;connection limit;connections;maximum connection limit;test",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
     },

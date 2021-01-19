@@ -17,4 +17,8 @@
 
 # Fix AD/DNS/Network configuration
 
-* Engage the customer on-premises Active Directory (Directory Services) team in case you need help to fix any DNS issues identified by Azure AD ADConnectivityTools.
+<!--issueDescription-->
+
+1. Engage the customer on-premises Active Directory (Directory Services) team in case you need help to fix any DNS issues identified by Azure AD ADConnectivityTools.
+
+<!--/issueDescription-->

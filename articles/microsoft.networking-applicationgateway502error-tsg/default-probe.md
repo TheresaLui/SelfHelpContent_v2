@@ -15,6 +15,8 @@
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
+# Backend server access
+
 **How to check if the backend server is accessible for default probe settings:**
 
 1. Default probe will be on **<protocol>://127.0.0.1:<port>/** and accepts status codes **200-399**

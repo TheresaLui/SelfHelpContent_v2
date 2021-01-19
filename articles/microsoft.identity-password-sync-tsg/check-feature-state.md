@@ -17,8 +17,8 @@
 
 # How to check sync feature state 
 
-* Check the Password Hash Sync feature state in Azure AD. 
-* You can do that by using the cmdlet on the AADConnect server
+1. Check the Password Hash Sync feature state in Azure AD. 
+2. You can do that by using the cmdlet on the AADConnect server
 
 ~~~powershell
 

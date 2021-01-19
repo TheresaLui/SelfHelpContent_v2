@@ -22,4 +22,9 @@
 
 * [Automating Azure Analysis Service Processing using Azure Automation Account](https://blogs.msdn.microsoft.com/dataaccesstechnologies/2017/09/01/automating-azure-analysis-service-processing-using-azure-automation-account/)
 
+* [Create a standalone Azure Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)
+
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Manage Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage)
+ 

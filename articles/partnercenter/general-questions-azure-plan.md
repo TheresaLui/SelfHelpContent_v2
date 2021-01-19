@@ -26,5 +26,7 @@ Resources for general questions about policy for Azure plan
 
 * [New Azure Experience resource gallery](https://partner.microsoft.com/resources/collection/new-azure-experience-in-csp#/)
 * [Move to Azure plan get started](https://docs.microsoft.com/partner-center/azure-plan-get-started)
+* [Azure plan price lists](https://docs.microsoft.com/partner-center/azure-plan-price-list)
+* [Partner earned credit overview](https://docs.microsoft.com/partner-center/partner-earned-credit)
 
 

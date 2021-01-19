@@ -136,7 +136,7 @@
 			"order": 6,
 			"visibility":"error_advice == restoree || error_advice == backupe",
 			"controlType": "radioButtonGroup",
-			"displayLabel": "Does the issue happen to all users",
+			"displayLabel": "Does the issue happen to all users?",
 			"radioButtonOptions": [
 			    {
 					"value": "all_yes",

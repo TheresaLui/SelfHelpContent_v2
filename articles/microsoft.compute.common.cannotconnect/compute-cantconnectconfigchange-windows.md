@@ -7,7 +7,7 @@
               ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615530,32639644"
+              supportTopicIds="32615530"
               resourceTags=""
               productPesIds="14749,14745"
               cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -31,7 +31,7 @@
    * [Remote Desktop disconnects frequently in Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-intermittent-connectivity)<br>
    * [Troubleshoot a general RDP error in an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
    * [Remote Desktop Services is not starting on an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-remote-desktop-services-issues)<br>
-   * [Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)<br>
+   * [Reset Remote Access to address remote server issues using PowerShell or CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
    * [Unable to RDP due to VM booting into Safe Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-safe-mode)<br>
    * [VM guest network card has DHCP disabled](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-dhcp-disabled)<br>
    * [VM guest network card is disabled](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled)<br>

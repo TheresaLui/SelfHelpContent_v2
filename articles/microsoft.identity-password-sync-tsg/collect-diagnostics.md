@@ -17,7 +17,7 @@
 
 # Collect diagnostics
 
-* Any data or logs or error messages you've discovered should be retained
-* Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
-* On the PowerShell menu, click ‘3’ to Collect General Diagnostics Report.
-* Send diagnostics collected to PG/EEE for analysis
+1. Any data or logs or error messages you've discovered should be retained
+2. Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
+3. On the PowerShell menu, click ‘3’ to Collect General Diagnostics Report.
+4. Send diagnostics collected to PG/EEE for analysis

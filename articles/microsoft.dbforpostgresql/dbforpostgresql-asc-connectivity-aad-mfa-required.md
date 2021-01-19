@@ -10,14 +10,14 @@
 	articleId="dbforpostgresql-asc-connectivity-aad-mfa-required"
 	diagnosticScenario="OrcasPostgresAADMFARequired"
 	selfHelpType="diagnostics"
-	supportTopicIds="32742678"
+	supportTopicIds="32742678, 32780959"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Can’t connect to PostgreSQL server: Azure AD token is not authenticated with multi-factor authentication
+# Can't connect to PostgreSQL server: Azure AD token is not authenticated with multi-factor authentication
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of an Azure AD token that was not validated using multi-factor authentication.

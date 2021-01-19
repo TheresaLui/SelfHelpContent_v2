@@ -17,17 +17,19 @@
 
 # Users can not be created in federated domain
 
+<!--issueDescription-->
+### Root cause
 
-## Root cause
-
-* Users in federated domains can be created in Azure AD only by Azure AD Connect synchronization from an on-premises directory.
+1. Users in federated domains can be created in Azure AD only by Azure AD Connect synchronization from an on-premises directory.
  
-## Solution
+### Solution
 
-* Create the user in your Window Server AD. 
-* Then you will see the user in Azure AD after the next synchronization with Azure AD has completed.
+1. Create the user in your Window Server AD. 
+2. Then you will see the user in Azure AD after the next synchronization with Azure AD has completed.
  
-## **Recommended Documents**
+ <!--/issueDescription-->
 
-* [Domain names in the Azure AD administration portal experience](http://todo-add-link.com)
-* [Documentation: Creating a user in Azure AD](http://todo-add-link.com)
+## Recommended Documents
+
+1. [Domain names in the Azure AD administration portal experience](http://todo-add-link.com)
+2. [Documentation: Creating a user in Azure AD](http://todo-add-link.com)

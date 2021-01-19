@@ -23,8 +23,6 @@
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
-
 For general troubleshooting, please follow these guides:<br>
 
 1. Understand the common scenarios of Allocation Failures for Cloud Services. ([Allocation Failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues))<br>
@@ -32,7 +30,7 @@ For general troubleshooting, please follow these guides:<br>
 3. If it’s an upgrade or scaling of an existing deployment, try one of these ([solutions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions))<br>
 
 ## **Recommended Documents**
-  
+
 * [FAQ on Cloud Services Deployment Failures](https://docs.microsoft.com/azure/cloud-services/cloud-services-deployment-faq)<br>
 * [Allocation Failure possible solutions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
 * [How to create and deploy a Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy)<br>

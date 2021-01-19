@@ -17,9 +17,9 @@
 
 # How to check if the preferred domain controller is reachable
 
-* Check what is/are the preferred DC(s) from the Synchronization Service Manager by going to the AD DS Connector properties and Configure Directory Partitions menu item
-* Confirm if the option to ‘Only use preferred domain controllers’ is enabled and click in ‘Configure….’ to see if there’s any preferred DCs configured
-* Then use Azure AD Connect ADConnectivityTools PowerShell to check connectivity against the Preferred DC
+1. Check what is/are the preferred DC(s) from the Synchronization Service Manager by going to the AD DS Connector properties and Configure Directory Partitions menu item
+2. Confirm if the option to ‘Only use preferred domain controllers’ is enabled and click in ‘Configure….’ to see if there’s any preferred DCs configured
+3. Then use Azure AD Connect ADConnectivityTools PowerShell to check connectivity against the Preferred DC
 
 ~~~powershell
 
@@ -29,6 +29,6 @@ Confirm-DnsConnectivity -Forest "TEST.CONTOSO.COM" -DCs "MYDC1.CONTOSO.COM","MYD
 
 ~~~
 
-## **Recommended Documents**
+## Recommended Documents
 
-* [Azure AD Connectivity Tools](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
+1. [Azure AD Connectivity Tools](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-adconnectivitytools)

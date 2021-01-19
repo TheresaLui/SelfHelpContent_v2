@@ -3,7 +3,7 @@
 	description="Session connectivity"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32625542"
+	supportTopicIds="32783600,32783601,32783602"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"

@@ -19,7 +19,7 @@
 
 ## Issue Description
 
-Scenario connecting SQL Managed Instancee to storage account within the same region with Storage Firewall enabled.
+Scenario connecting SQL Managed Instances to storage account within the same region with Storage Firewall enabled.
 
 ## Symptoms:
 

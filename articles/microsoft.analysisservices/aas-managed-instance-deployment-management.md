@@ -18,8 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Azure Analysis Services integration with VNets via On-Premises Data Gateway](https://azure.microsoft.com/blog/azure-analysis-services-integration-with-azure-virtual-networks-vnets/)
-
 * [Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index)
+
+* [Azure SQL Managed Instance frequently asked questions (FAQ)](https://docs.microsoft.com/azure/azure-sql/managed-instance/frequently-asked-questions-faq)
+
+* [Retrieve connection details to SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/instance-create-quickstart#retrieve-connection-details-to-sql-managed-instance)
+
+* [Azure Analysis Services integration with VNets via On-Premises Data Gateway](https://azure.microsoft.com/blog/azure-analysis-services-integration-with-azure-virtual-networks-vnets/)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

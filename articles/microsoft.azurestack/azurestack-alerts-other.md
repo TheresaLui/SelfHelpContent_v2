@@ -1,23 +1,20 @@
 <properties
-    pageTitle="Azure Stack Hub alerts"
-    description="Azure Stack Hub alerts that are not covered by other specific alert topics"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629237"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="azurestack-alerts-other"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Hub Alerts"
+  service="microsoft.azurestack"
+  resource="registrations"
+  ms.author="justinha"
+  selfhelptype="Generic"
+  supporttopicids="32629237,32737192,32737318,32741954,32745918"
+  resourcetags=""
+  productpesids="16226,17058,17131,17057,17322"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azurestack-alerts-other"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Hub Alerts
 
 **Common Issues**
+
+If you see an error **The Azure Stack Usage Bridge service is unable to connect to the remote service**, make sure required URLs and ports are enabled. For more information, see [Ports and protocols (inbound)](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints#ports-and-protocols-inbound). 
 
 After applying the 2002 update, you might see a false-positive alert in the Administrator portal for an **Invalid Time Source**. The alert can be ignored and will be fixed in an upcoming release. For more information, see [Azure Stack Hub known issues](https://docs.microsoft.com/azure-stack/operator/known-issues?view=azs-2002).  
 
@@ -32,5 +29,3 @@ A critical alert should be addressed urgently because it can impact users. Pleas
 ## **Recommended Documents**
 
 * [Monitor health and alerts in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-monitor-health?view=azs-2002)
-
-

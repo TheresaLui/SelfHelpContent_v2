@@ -7,7 +7,7 @@
     ms.author="ambhatna"
     displayOrder="290"
     selfHelpType="generic"
-    supportTopicIds="32639994"
+    supportTopicIds="32639994, 32780885"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -31,6 +31,11 @@ Most users are able to resolve their issue using the steps below.
 
     * Please note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
 
+* **Query Performance Insight**, Performance Recommendations, Query Store not working
+
+   * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the primary server's Query Store data.
+   
+   * After a replica becomes a standalone server, [set Query Store parameters](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature
 
 ## **Recommended Documents**
 

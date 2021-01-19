@@ -24,6 +24,11 @@ Virtual Network (VNet) services endpoints and rules extend the private address s
 * Ensure that your Azure Database for MySQL is deployed in General Purpose and Memory Optimized servers. The Basic tier does not support VNet service endpoints.
 * If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered
 
+### Private Link
+
+* If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+* If you are using a Basic tier server, note that [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link) is not supported
+
 ## **Recommended Documents**
 
 * [How-to create user in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-users)<br>

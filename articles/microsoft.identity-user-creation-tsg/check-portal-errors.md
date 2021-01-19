@@ -17,7 +17,7 @@
 
 # How to check Kusto for admin portal errors
 
-* Use Kusto to look for errors for requests in the Azure AD admin portal experience, initiated by the admin who is trying to create a user.
+1. Use Kusto to look for errors for requests in the Azure AD admin portal experience, initiated by the admin who is trying to create a user.
 
 ~~~kusto 
 

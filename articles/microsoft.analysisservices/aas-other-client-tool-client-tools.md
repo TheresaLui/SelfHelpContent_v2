@@ -20,6 +20,10 @@
 
 * [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
 
+* [Analysis Services client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
 
+* [Connection string properties](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=azure-analysis-services-current)
 
+* [Create an Office Data Connection file (.odc)](https://docs.microsoft.com/azure/analysis-services/analysis-services-odc)
 
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)

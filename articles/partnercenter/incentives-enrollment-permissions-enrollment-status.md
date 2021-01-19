@@ -44,5 +44,5 @@ You can learn more about enrollment statuses from Partner Center by accessing th
 ## **Recommended Documents**
 
 - [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
-- [I'm unable to find the Incentives program in Partner Center](https://support.microsoft.com/help/4526987)
+- [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 

@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for compute"
-description="Menu based workflow document for top compute problems"        
+description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="gansmore,summertgu"
@@ -11,7 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
 cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines"
+ownershipId="Compute_VirtualMachines"
 />
 # Diagnose and solve v2 test article for linux
 ---
@@ -184,7 +184,17 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         }
       ]
     },
-    {
+		{
+			"id": "Allocation_recommender",
+			"title": "Allocation Success Recommender",
+			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"category": "Deployment",
+			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+			"supportTopicId": "32743100",
+			"commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
+			"symptomId": ""
+		},
+		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",

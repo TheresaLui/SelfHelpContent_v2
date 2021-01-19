@@ -25,6 +25,4 @@ This topic will guide partners to the support experience for Volume Licensing op
 ## **Recommended Steps**
 
 - Contact Volume Licensing Operations through [CLT](https://clt.partners.extranet.microsoft.com/clt/) 
-- [Contact Credit & Collections Americas](https://support.microsoft.com/help/4344215/who-should-i-contact-for-support-relating-to-credits-collections-in-th) 
-- [Contact Credit & Collections EMEA](https://support.microsoft.com/help/4344216/who-should-i-contact-for-support-relating-to-credits-collections-in-em) 
-- [Contact Credit & Collections Asia Pacific](https://support.microsoft.com/help/4344217/who-should-i-contact-for-support-relating-to-credits-collections-in-as) 
+- [Contact Credit & Collections](https://partner.microsoft.com/resources/detail/how-to-engage-with-operations-pdf) 

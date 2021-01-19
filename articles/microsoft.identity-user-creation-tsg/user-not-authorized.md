@@ -17,16 +17,20 @@
 
 # User is not authorized to create users in Azure AD
  
-## Root Cause
-
-* Users can only be created in Azure AD by users who are assigned to the Global administrator or User administrator roles. The user is not assigned to either of these roles.
+ <!--issueDescription-->
  
-## Solution 
+### Root Cause
 
-* You can ask an administrator to create the new user for you. Alternatively, you can ask a global administrator to add you to either the Global administrator role or the User administrator roles.
+1. Users can only be created in Azure AD by users who are assigned to the Global administrator or User administrator roles. The user is not assigned to either of these roles.
  
-## **Recommended Documents**
+### Solution 
 
-* [Roles and administrators in the Azure AD administration portal experience](http://todo-add-link.com)
-* [Documentation: Administrative role permissions in Azure AD](http://todo-add-link.com)
+1. You can ask an administrator to create the new user for you. Alternatively, you can ask a global administrator to add you to either the Global administrator role or the User administrator roles.
+
+<!--/issueDescription-->
+ 
+## Recommended Documents
+
+1. [Roles and administrators in the Azure AD administration portal experience](http://todo-add-link.com)
+2. [Documentation: Administrative role permissions in Azure AD](http://todo-add-link.com)
  

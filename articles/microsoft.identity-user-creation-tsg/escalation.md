@@ -17,8 +17,11 @@
 
 # Escalation
 
-* To get help with this problem, you can ask:
-   * Another engineer on your team
-   * Post on the User Management teams channel
-   * Ask your TA for help with investigation, or creation of an ICM
+<!--issueDescription-->
+
+1. To get help with this problem, you can ask:
+   1. Another engineer on your team
+   2. Post on the User Management teams channel
+   3. Ask your TA for help with investigation, or creation of an ICM
  
+ <!--/issueDescription-->

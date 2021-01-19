@@ -6,16 +6,17 @@ articleId="problemscopingques-Connect_VM_to_workspace_or_no_VM_data_in_workspace
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633004"
+supportTopicIds="32745397,32745398"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+    ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Connect VM to workspace or no VM data in workspace
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Connect VM to workspace or no VM data in workspace",
     "fileAttachmentHint": "",
@@ -126,8 +127,33 @@ schemaVersion="1"
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "workspace_id",
             "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Please select affected workspace name.",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.OperationalInsights/workspaces?api-version=2015-11-01-preview",
+               "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of Workspaces",
+                    "text": "Unable to get the list of Workspaces"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -139,3 +165,5 @@ schemaVersion="1"
     "$schema": "SelfHelpContent"
 }
 ---
+
+

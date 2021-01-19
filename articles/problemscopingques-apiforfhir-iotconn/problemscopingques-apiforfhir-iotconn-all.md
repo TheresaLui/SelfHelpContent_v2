@@ -10,7 +10,7 @@
 	supportTopicIds="32742775,32742776,32742777,32742778,32742779,32742780"
 	resourceTags=""
 	productPesIds="16674"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
 	articleId="f29ea932-7dd8-4960-a619-4d9d4ec47bcf"
 	ownershipId="API_FHIR_Health_Eng"

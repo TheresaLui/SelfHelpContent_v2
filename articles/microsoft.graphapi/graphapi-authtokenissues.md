@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Microsoft Graph authentication token issues"
-	description="Microsoft Graph authentication token issues"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="davidmu1"
-	ms.author="davidmu"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32689192,32596860"
-	resourceTags=""
-	productPesIds="16952,16575"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
-	ownershipId="AzureIdentity_MSGraph"
-/>
-
+  pagetitle="Microsoft Graph authentication token issues"
+  service="microsoft.aad"
+  resource="microsoft_aad_iam"
+  ms.author="davidmu,riclewis"
+  selfhelptype="Generic"
+  supporttopicids="32689192,32596860"
+  resourcetags=""
+  productpesids="16952,16575"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
+  ownershipid="AzureIdentity_MSGraph" />
 # Microsoft Graph authentication token issues
 
 This topic deals with failures to acquire access tokens to call Microsoft Graph. These issues may also be related to any failure to grant consent to access Microsoft Graph, for your application.
@@ -46,3 +41,34 @@ For more information, see [Authentication and authorization error codes](https:/
 ## **Recommended Documents**
 
 * [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
+
+
+## End of support for Azure Active Directory Authentication Library (ADAL) and Azure AD Graph API (AAD Graph)
+
+**Starting June  30th, 2020**, we will no longer add any new features to ADAL and Azure AD Graph. We will continue to provide technical support and security updates but will no longer provide feature updates.
+
+**Starting June  30th, 2022**, we will end support for ADAL and Azure AD Graph and will no longer provide technical support or security updates.
+
+Apps using ADAL on existing OS versions will continue to work after this time but will not *get any  technical support or security updates.*
+
+Apps using Azure AD Graph after this time may no longer receive responses from the Azure AD Graph endpoint. 
+
+## **Recommended Steps**
+
+### ADAL Migration
+We recommend updating to the [Microsoft Authentication Library (MSAL)](https://docs.microsoft.com/azure/active-directory/develop/v2-overview), which has the latest features and security updates. 
+
+If you're using Microsoft apps, know that Microsoft is in the process of migrating its applications to MSAL by the end-of-support deadline, ensuring they'll benefit from MSAL's ongoing security and feature improvements.
+
+1. [Read the ADAL FAQ](https://docs.microsoft.com/azure/active-directory/develop/msal-migration#frequently-asked-questions-faq)
+2. [Learn about how to migrate apps on a per-platform basis](https://docs.microsoft.com/azure/active-directory/develop/msal-migration#frequently-asked-questions-faq)
+3. If you need help understanding which of your apps use ADAL, we recommend you review all of your apps' source code, and if applicable, reach out to any ISVs or app providers. Microsoft support can also provide you with a list of all non-Microsoft ADAL apps in your tenant.
+4. If you can't find an answer to your question, post a [question on StackOverflow with the tag `ADAL-deprecation`](https://stackoverflow.com/questions/ask)
+
+
+### AAD Graph Migration
+For applications  that are using Azure AD Graph, follow our guidance to [migrate Azure AD Graph apps to Microsoft Graph](https://docs.microsoft.com/graph/migrate-azure-ad-graph-overview?view=graph-rest-1.0).
+
+1. [Our migration checklist provides a getting started point.](https://docs.microsoft.com/graph/migrate-azure-ad-graph-planning-checklist)
+2. Your Azure app registration portal shows which applications are using AAD Graph.  We recommend you review all of your apps' source code, and if applicable, reach out to any ISVs or app providers. Microsoft support can also provide you with a list of all AAD Graph usage in your tenant.
+3. If you cannot find an answer to your question, post a [question on StackOverflow with the tag `azureadgraph-deprecation`](https://stackoverflow.com/questions/tagged/azureadgraph-deprecation)

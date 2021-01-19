@@ -17,5 +17,5 @@
 
 # Restart ADSync service
 
-* You've reached this step because it's been determined that a ADSync service restart is required
-* Restart ADSync Service is a common task
+1. You've reached this step because it's been determined that a ADSync service restart is required
+2. Restart ADSync Service is a common task

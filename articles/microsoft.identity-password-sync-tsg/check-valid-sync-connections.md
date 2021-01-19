@@ -17,6 +17,6 @@
 
 # How to check if there are valid sync connections
 
-* To check for sync connections perform the following steps
-* Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
-* On the PowerShell menu, click ‘2’ to Troubleshoot Password Hash Synchronization.
+1. To check for sync connections perform the following steps
+2. Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
+3. On the PowerShell menu, click ‘2’ to Troubleshoot Password Hash Synchronization.

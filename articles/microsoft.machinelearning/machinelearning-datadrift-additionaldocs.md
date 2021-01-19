@@ -22,3 +22,4 @@
 * [Detect data drift on models deployed to Azure Kubernetes Service](https://docs.microsoft.com/azure/machine-learning/how-to-monitor-data-drift)<br>
 * [Data drift python SDK](https://pypi.org/project/azureml-datadrift/)<br>
 * [Data drift SDK doc](https://docs.microsoft.com/python/api/azureml-datadrift/azureml.datadrift.datadriftdetector%28class%29?view=azure-ml-py)<br>
+* [Known Issues in Data drift](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#work-with-data)<br>

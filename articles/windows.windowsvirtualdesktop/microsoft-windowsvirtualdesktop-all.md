@@ -1,16 +1,16 @@
 <properties
-  pagetitle="Windows Virtual Desktop"
+  pagetitle="Windows Virtual Desktop - Performance/session connectivity"
   service=""
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32625541,32625542,32625544"
+  supporttopicids="32625542,32625544"
   resourcetags=""
   productpesids="16582"
-  cloudEnvironments="public, fairfax, usnat, ussec"
+  cloudenvironments="public,fairfax,usnat,ussec"
   articleid="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
   ownershipid="Windows_Virtual_Desktop" />
-# Windows Virtual Desktop
+# Windows Virtual Desktop - Performance/session connectivity
 
 4 out of 5 customers resolved their Windows Virtual Desktop issue using the guides listed below.<br>
 

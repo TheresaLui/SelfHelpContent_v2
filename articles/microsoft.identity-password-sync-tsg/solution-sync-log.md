@@ -17,4 +17,8 @@
 
 # Sync logging
 
-* To check if the AAD user object is exported, make a small change on-premises (e.g. in physicalDeliveryOfficeName/Office attribute) and confirm that such change is exported to Azure AD.
+<!--issueDescription-->
+
+1. To check if the AAD user object is exported, make a small change on-premises (e.g. in physicalDeliveryOfficeName/Office attribute) and confirm that such change is exported to Azure AD.
+
+<!--/issueDescription-->

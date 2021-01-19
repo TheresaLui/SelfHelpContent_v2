@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="5b8ddf04-be28-44ec-ab2c-a63a34d1de13_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USSec,USNat"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy AppService Reserved capacity to save money over pay-as-you-go costs
