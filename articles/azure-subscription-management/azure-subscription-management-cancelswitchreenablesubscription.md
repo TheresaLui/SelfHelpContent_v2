@@ -36,10 +36,9 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 
 **Verify your subscription was canceled**
 
-1. Sign into the Azure portal
-2. Go to subscriptions
-3. You may need to scroll to the right. Under status will show you the current state of the subscription.
-4. If the status reflects **Disabled** then the subscription is canceled.
+1. Go to the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.
+2. You may need to scroll to the right. Under status will show you the current state of the subscription.
+3. If the status reflects **Disabled** then the subscription is canceled.
 
 **What is the difference between cancelling and deleting a subscription?**
 
@@ -52,6 +51,8 @@ If you have a free trial subscription, you don't have to wait 30 days for the su
 2. Select your subscription on the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page in the Azure portal.
 3. Select the subscription that you want to delete.
 4. Select **Overview**, and then select **Delete Subscription**.
+
+Learn more: [Delete free trial subscription](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription#delete-free-trial-subscription)
 
 ## **Recommended Documents**
 
