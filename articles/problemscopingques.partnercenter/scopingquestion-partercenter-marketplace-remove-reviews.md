@@ -101,7 +101,7 @@
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Business justification",
 	   "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
-	   "required": true,
+	   "required": true
        },
        {
 	   "id": "pc_isv_publisher_name",
@@ -127,7 +127,7 @@
 	   "displayLabel": "Seller ID",
 	   "watermarkText": "Please provide the Seller ID",
 	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "problem_description",
