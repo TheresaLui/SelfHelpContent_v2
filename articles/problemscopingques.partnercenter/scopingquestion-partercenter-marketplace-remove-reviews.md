@@ -12,7 +12,6 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Ingestion"
 />
-# Remove reviews from Marketplace store
 
 ---
 {
@@ -99,9 +98,9 @@
        "id": "business_just",
        "order": 2,
        "controlType": "multilinetextbox",
-       "displayLabel": "Business justification"
-       "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
-       "required": false
+       "displayLabel": "Business justification",
+       "watermarkText": "Removing a review from Marketplace store fronts requires a business justification",
+       "required": true
        },
        {
 	   "id": "pc_isv_publisher_name",
