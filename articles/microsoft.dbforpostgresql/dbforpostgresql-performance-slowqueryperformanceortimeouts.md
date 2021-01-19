@@ -52,7 +52,7 @@ If this is higher than 10 ms, your performance issues are likely due to the netw
 
 ### **Issue:** High levels of logging impacting performance
 
-With certain configurations, your PostgreSQL database server outputs a high amount of log lines. This can cause the whole server to slow down, including causing queries to be slow. We recommend testing with the following log configuration settings, and verify whether this improves performance:
+With certain configurations, your PostgreSQL database server outputs a high amount of log lines. This can cause the whole server to slow down, including causing queries to be slow. We recommend that you test with the following log configuration settings, and then verify whether this improves performance:
 
 * `debug_print_parse = OFF`
 * `debug_print_plan = OFF`
