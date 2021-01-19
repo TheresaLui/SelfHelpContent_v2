@@ -31,3 +31,14 @@ Azure Files supports identity-based authentication over Server Message Block (SM
 	<src>https://www.youtube.com/watch?v=9S5A1IJqfOQ</src>
 	<title>Step-by-step guidance for enabling Files AD DS Authentication with Windows Virtual Desktop</title>
 	</video>
+
+
+### Search your queries related to Azure Files and AD DS Authentication
+
+<Insight> 
+<symptomId>StorageQnaInsight</symptomId> 
+<executionText>We are are running a check to determine an accurate response to resolve your issue</executionText> 
+<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
+<noResultText>We are unable to find a response to your query. Please re-run the diagnostic and enter a new query</noResultText> 
+<additionalInputsReq>true</additionalInputsReq> 
+</Insight> 
