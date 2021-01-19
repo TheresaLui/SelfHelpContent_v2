@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Azure Stack Issues with attaching and detaching disks in Windows VM"
-    description="Azure Stack cannot connect to Windows VM"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="genlin"
-    ms.author="mquian"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32663908,32663910"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="6f641910-1010-4135-b8d1-85ab25fa1503"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Issues with attaching and detaching disks in Windows VM&#xD;"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  ms.author="mquian,mabrigg"
+  selfhelptype="Generic"
+  supporttopicids="32663908,32663910"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="6f641910-1010-4135-b8d1-85ab25fa1503"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Issues with attaching and detaching disks in Windows VM
 
 Before you try to detach a disk, connect to the VM and unmount it.
@@ -37,3 +32,4 @@ Most users were able to resolve issues by using the following steps.
 - [High-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#features)
 - [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks)
 - [Convert to managed disks](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)
+- If you can't attach your SSD disk to a VM, it is likely a VM that doesn't support a premium disk. For more detail about the VM sizes which support premium storage, refer to [Sizes for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/sizes).
