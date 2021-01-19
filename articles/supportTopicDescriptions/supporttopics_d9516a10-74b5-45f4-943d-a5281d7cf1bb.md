@@ -666,6 +666,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90e00ac4-6301-8178-2b36-d69e85dbf280",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK .NET",
+      "searchTags": "SDK;.NET;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
@@ -834,10 +842,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acf92de9-ca26-d6eb-cc8d-9f23ace52100",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Core (SQL)",
+      "searchTags": "Core (SQL)",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aefad6a8-330d-7c7a-7e84-a1e0fab0f2dc",
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Spark connector with Cosmos DB",
       "searchTags": "spark",
+      "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b21fea52-0767-d410-1ca8-74ea0e13db8b",
+      "longDescription": "",
+      "shortDescription": "Issues related to Spring Data Cosmos DB",
+      "searchTags": "Spring;Data",
       "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -927,6 +951,14 @@
       "shortDescription": "Issues or questions with using Free Tier billing option",
       "searchTags": "billing, free, free tier",
       "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3b81176-5ee9-2ee9-873a-e3e50f9f6a62",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Security related issues",
+      "searchTags": "Security",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
