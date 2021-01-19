@@ -25,9 +25,9 @@ Sometimes the stock of phone numbers available to purchase runs out. In this cas
   If this is the case, check back again after some time has passed.
 
 If failure occurred because of subscription eligibility:<br>
-    * Check the subscription type
-    * Check if the billing address is correct
+- Check the subscription type
+- Check if the billing address is correct
 
 If this didn't solve the issue:<br>
-    * Check our [roadmap](https://github.com/Azure/Communication/projects/1)
-    * File a [Github issue](https://github.com/Azure/Communication/issues) 
+- Check our [roadmap](https://github.com/Azure/Communication/projects/1)
+- File a [Github issue](https://github.com/Azure/Communication/issues) 
