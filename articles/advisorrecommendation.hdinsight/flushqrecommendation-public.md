@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="53af2425-8287-4ca5-a5da-b84de9af4f42_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
     ownershipId="AzureData_HDInsight"
 />
 # Tune the RegionServer's flush queue for write performance
@@ -38,7 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing the flusher threads",
-  "longDescription": "We observe that the flush queue size in your region servers are more than 100 or there are updates getting blocked frequently. It suggest a flush handler tuning.",
+  "longDescription": "The flush queue size in your region servers are more than 100 or there are updates getting blocked frequently. Tuning of the flush handler is recommended.",
   "potentialBenefits": "Faster flushes would clear the writes from being blocked.",
   "actions": [
     {

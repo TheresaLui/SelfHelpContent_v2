@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="8c04c87d-f4b7-4991-a1c1-2f5fbe689d94_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
     ownershipId="AzureData_HDInsight"
 />
 # Tune the RegionServer's compaction queue for read performance
@@ -38,7 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing your compaction threads for compactions to complete faster",
-  "longDescription": "We observe that the compaction queue in your region servers are more than 2000. This suggests that more data is waiting to be compacted.",
+  "longDescription": "The compaction queue in your region servers are more than 2000. This suggests that more data is waiting to be compacted.",
   "potentialBenefits": "Faster compactions would ensure that the reads are faster in case there are multiple versions of the data.",
   "actions": [
     {
