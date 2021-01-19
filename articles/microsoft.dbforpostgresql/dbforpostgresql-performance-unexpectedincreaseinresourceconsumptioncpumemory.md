@@ -17,11 +17,11 @@
 
 # Troubleshooting unexpected increase in resource consumption
 
-Increase in resource consumption can be a result of an explicit user action or changes in the workload. Sometimes increased CPU utilization can also be caused by an issue with PostgreSQL internal processes, such as autovacuum not running as expected or unexpected increase in short-lived connections.
+Increase in resource consumption can be a result of an explicit user action or changes in the workload. Increased CPU usage can also be caused by an issue with PostgreSQL internal processes, such as autovacuum not running as expected or an unexpected increase in short-lived connections. For example, if you open large number of connections at the same time, you will see performance slowdown.
 
 ## **Recommended Steps**
 
-* Ensure there are no changes to the pricing tier of your service that might have triggered the increase
+* Ensure that there are no changes to the pricing tier of your service that might have triggered the increase
 * Adjust the pricing tier commensurate to the increase in the workload
 * Check if there are any schema changes, for example whether an index was dropped
 * Ensure that the table statistics are up to date

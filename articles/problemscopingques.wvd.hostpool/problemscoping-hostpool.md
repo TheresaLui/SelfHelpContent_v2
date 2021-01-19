@@ -7,7 +7,7 @@
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
+	articleId="5cd2a74e-5684-4e59-aba7-c045e4762994"
 	ownershipId="Windows_Virtual_Desktop"
 />
 # Host pool issues
@@ -32,7 +32,7 @@
           "text": "Issue description."
         },
         {
-          "text": "Name of the session host or virtual machine(s)."
+          "text": "Name of the session host or virtual machines"
         }
       ]
     },
