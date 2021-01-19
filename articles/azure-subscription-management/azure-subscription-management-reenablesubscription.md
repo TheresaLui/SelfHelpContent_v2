@@ -40,7 +40,7 @@ Learn more: [How to pay your bill for Microsoft Azure](https://docs.microsoft.co
 [Pay for your subscription by invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice)
 
 **Made a payment but subscription is still disabled** <br>
-It can take up to 24 hours after a payment has been made for your subscription status to reflect your payment. If it has been longer then 24 hours and your subscription is still disabled, please submit a support request for further assistance.
+It can take up to 24 hours after a payment has been made for your subscription status to reflect your payment. If it has been longer than 24 hours and your subscription is still disabled, please submit a support request for further assistance.
 
 ### **Spending Limit reached**
 When your usage reaches the spending limit, Azure disables your subscription for the remainder of that billing period. Your subscription is disabled to protect you from accidentally incurring charges for usage beyond the credit included with your subscription. To remove your spending limit, see [Azure spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit).<br>
