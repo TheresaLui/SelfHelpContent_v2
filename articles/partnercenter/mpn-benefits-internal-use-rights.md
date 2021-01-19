@@ -1,23 +1,15 @@
 <properties
-	pageTitle="MPN - benefits internal use rights"
-	description="MPN - benefits internal use rights"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-	articleId="mpn_benefits_internal_use_rights"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32725871"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17007"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
-/>
-
+  pagetitle="MPN - benefits internal use rights&#xD;"
+  service="partnercenter"
+  resource="csp"
+  ms.author="brserbus,keramp"
+  selfhelptype="Generic"
+  supporttopicids="32725871"
+  resourcetags="csp"
+  productpesids="17007"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mpn_benefits_internal_use_rights"
+  ownershipid="PartnerCenter_MPN_Benefits_and_Competencies" />
 # MPN - benefits internal use rights
 
 Resources providing knowledge of Microsoft product features and capabilities with Internal-Use Rights (IUR) cloud services and on-premises software.
@@ -29,6 +21,9 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 * [Click here to download the competency wise license table for gold and silver memberships](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx)
 * [Click here to compare MAPS, Gold and Silver Membership Plans](https://partner.microsoft.com/membership/compare-offers)
 * Access your IUR licenses from [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) page
+* If your exisitng cloud subscription on M365 Admin Center is disabled or expired,please copy and paste the below link on an incognito browser window to activate a new subscription
+
+    [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
 
 ## **Recommended Documents**
 
