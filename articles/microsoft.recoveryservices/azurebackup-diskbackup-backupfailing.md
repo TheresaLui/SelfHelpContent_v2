@@ -21,6 +21,7 @@
 ## **Recommended Documents**
 
 - [Troubleshoot common errors in Azure Disk Backup](https://docs.microsoft.com/azure/backup/disk-backup-troubleshoot)
+- [What are the supported and not supported configurations to protect Azure Disks using Azure backup?](https://docs.microsoft.com/azure/backup/disk-backup-support-matrix)
 - [What are the permissions used by Azure Backup during backup operation?](https://docs.microsoft.com/azure/backup/disk-backup-faq#what-are-the-permissions-used-by-azure-backup-during-backup-and-restore-operation)
 - [Why do I need to provide role assignments to be able to configure backups, perform scheduled and on-demand backups?](https://docs.microsoft.com/azure/backup/disk-backup-faq#why-do-i-need-to-provide-role-assignments-to-be-able-to-configure-backups-perform-scheduled-and-on-demand-backups-and-restore-operations)
 - [Where do I track the status of scheduled or on-demand backup operation?](https://docs.microsoft.com/azure/backup/backup-managed-disks#track-a-backup-operation)
