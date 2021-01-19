@@ -12,7 +12,7 @@
        clientIds="partnercenter"
 	ownershipId="PartnerCenter_Ingestion"
 />
-
+# Remove reviews
 ---
 {
    "$schema": "SelfHelpContent",
