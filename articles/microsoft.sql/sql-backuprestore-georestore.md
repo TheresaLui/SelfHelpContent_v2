@@ -60,7 +60,7 @@ In the following video, you will learn how to perform Point in Time Restore in A
 
 * **I want to restore an existing .bak file**
 
-  * Single Azure SQL databases and elastic pools do not allow restoring from provided .bak files. The recommendation is to use [.Bacpac files for importing](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32688668).
+  * Single Azure SQL databases and elastic pools do not allow restoring from provided .bak files. The recommendation is to use[.Bacpac files for importing](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32688668).
   * Azure SQL Database Managed instance does support [native restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore?WT.mc_id=pid:13491:sid:32688668) from .bak files
 
 ## **Recommended Documents**
