@@ -834,6 +834,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acf92de9-ca26-d6eb-cc8d-9f23ace52100",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Core (SQL)",
+      "searchTags": "Core (SQL)",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aefad6a8-330d-7c7a-7e84-a1e0fab0f2dc",
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Spark connector with Cosmos DB",
