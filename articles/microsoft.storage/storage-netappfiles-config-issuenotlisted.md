@@ -12,6 +12,8 @@
   ownershipid="AzureNetAppFiles" />
 # Common NetApp Config Issues 
 
+Most customers can resolve common NetApp configuration issues using the following resources.
+
 ## **Recommended Documents**
 
 - [Getting access to Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
