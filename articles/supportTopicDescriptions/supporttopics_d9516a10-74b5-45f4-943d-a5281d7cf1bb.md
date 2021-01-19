@@ -506,6 +506,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7079b122-3e9e-90e9-f7ab-fff77e3994d7",
+      "longDescription": "",
+      "shortDescription": "Issues with Indexing on Cosmos DB MongoDB API accounts",
+      "searchTags": "MongoDB;Mongo",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
       "longDescription": "",
       "shortDescription": "Issues with using Azure Private Link via a private endpoint",
