@@ -666,6 +666,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90e00ac4-6301-8178-2b36-d69e85dbf280",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK .NET",
+      "searchTags": "SDK;.NET;API",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
