@@ -7,19 +7,20 @@
   productpesids="7dc03991-4dcf-cf5a-904f-35a243ca5551"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   disableclouds=""
-  articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551" />
+  articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551"
+  ownershipid="CloudAppSecurity_Portal" />
 # Support Topic Descriptions for 7dc03991-4dcf-cf5a-904f-35a243ca5551
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "MCAS is a Cloud Access Security Broker (CASB) that supports various deployment modes including log collection, API connectors, and reverse proxy.",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "01b59f25-67c7-7f50-fd3e-f77ead0162af",
