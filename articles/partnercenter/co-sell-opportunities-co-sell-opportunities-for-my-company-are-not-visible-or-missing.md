@@ -24,8 +24,8 @@
 ## **Recommended Steps**
 
 1.	Clear your browser cache & cookies.
-2.	If you are unable to view one or more referrals, for one or more location(s), please verify that you have the role of the referral admin for your desired location(s). You can verify your access by selecting '_My Profile > Partner Center permissions > Click here to view permissions_'.
-3.	If you do not have the requisite access, please reach out to your account administrator to request the referral admin role assignment for your desired location(s).
+2.	If you are unable to view one or more referrals, for one or more location(s), please verify that you have the '_Referrals admin_' role for your desired location(s). You can verify your access by selecting '_My Profile > Partner Center permissions > Click here to view permissions_'.
+3.	If you do not have the requisite access, please reach out to your account administrator to request the '_Referrals admin_' role assignment for your desired location(s).
 
 
 **Note**: Please include your role, location & the MPN ID when filing a support ticket. If you received referral notification(s), please include a screenshot of the email(s) and the referral link (if available).
