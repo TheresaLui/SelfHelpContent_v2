@@ -36,8 +36,8 @@ To resolve past due balance, see [Resolve past due balance for your Azure subscr
 **Need to make a payment** <br>
 A subscription can be disabled due to a non-payment. To re-enable a subscription, navigate to [invoices](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Invoices) under billing and select Pay Now to make a one-time payment. For modern customers,avoid missing future payments by navigating to [payment methods](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/billingAccountPaymentMethodItem), select the **Default payment method** and updating your payment information.
 
-Learn more: (How to pay your bill for Microsoft Azure)[https://docs.microsoft.com/en-us/azure/cost-management-billing/understand/pay-bill]
-(Pay for your subscription by invoice)[https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/pay-by-invoice]
+Learn more: [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill)
+[Pay for your subscription by invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice)
 
 **Made a payment but subscription is still disabled** <br>
 It can take up to 24 hours after a payment has been made for your subscription status to reflect your payment. If it has been longer then 24 hours and your subscription is still disabled, please submit a support request for further assistance.
