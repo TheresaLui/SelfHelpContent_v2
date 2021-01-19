@@ -938,6 +938,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c3b81176-5ee9-2ee9-873a-e3e50f9f6a62",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Security related issues",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e0565b-872c-b867-8cf4-dfa0518b449f",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account or change an existing Azure Cosmos DB account configuration",
