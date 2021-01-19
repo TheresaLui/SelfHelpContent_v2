@@ -72,7 +72,7 @@
     {
       "id": "29d29559-31d9-5e37-d406-64531a8b021c",
       "longDescription": "",
-      "shortDescription": "Configuring 3rd party IdP or onboarding any app to enforce controls to prevent data exfiltration and infiltration",
+      "shortDescription": "Configuring third party IdP or onboarding any app to enforce controls to prevent data exfiltration and infiltration",
       "searchTags": "IdP;any app;3rd Idp",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -104,7 +104,7 @@
     {
       "id": "46ab80c1-1c18-4aa0-0e13-106681af73af",
       "longDescription": "",
-      "shortDescription": "Investigate oAuth or Catalog apps reported by CAS Alerts",
+      "shortDescription": "Investigate OAuth or Catalog apps reported by CAS Alerts",
       "searchTags": "apps;Investigating;OAuth",
       "category": "Apps",
       "useInDiagnoseAndSolve": "true"
@@ -128,7 +128,7 @@
     {
       "id": "62910a91-2877-434b-a6ec-20837c6abed4",
       "longDescription": "",
-      "shortDescription": "Bulk set IP ranges in the portal or via REST API",
+      "shortDescription": "Bulk set IP ranges in the Azure portal or via REST API",
       "searchTags": "REST;API;IP;Range",
       "category": "IP Range",
       "useInDiagnoseAndSolve": "true"
