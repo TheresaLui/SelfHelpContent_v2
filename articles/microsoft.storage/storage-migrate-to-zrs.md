@@ -43,6 +43,7 @@ Consider the following before to submitting a request for live migration to ZRS:
 ## **Recommended Documents**
 
 - [Converting to ZRS replication type](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#converting-to-zrs-replication)<br>
+- [Pricing for different redundancy options](https://azure.microsoft.com/pricing/details/storage/blobs/?OCID=AID2100131_SEM_44cd34dfe0551f34d5ac54d8cbed6754:G:s&ef_id=44cd34dfe0551f34d5ac54d8cbed6754:G:s&msclkid=44cd34dfe0551f34d5ac54d8cbed6754)
 - [Azure Storage replication](https://docs.microsoft.com/azure/storage/common/storage-redundancy)<br>
 - [Zone-redundant storage (ZRS): highly available Azure Storage applications](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs)
 - [Data transfer for large datasets with low or no network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-large-dataset-low-network)<br>
