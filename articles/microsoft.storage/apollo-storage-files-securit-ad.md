@@ -33,7 +33,7 @@ Azure Files supports identity-based authentication over Server Message Block (SM
 	</video>
 
 
-### Search your queries related to Azure Files and AD DS Authentication
+### Search your queries related to Azure Files and AD DS Authentication using the below diagnostic
 
 Enabling Azure Files with AD DS Authentication is a multi-step process. Customers need to review detailed documentation for enabling this feature in terms of prerequisites and actual steps.
 
