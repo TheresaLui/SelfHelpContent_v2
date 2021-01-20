@@ -13,6 +13,9 @@
 # Deployment issues with Azure Migrate appliance for physical server assessment
 
 Most customers can resolve deployment issues with Azure Migrate appliance using the following resources.
+
+## **Recommended Steps**
+
 For general queries about Azure Migrate appliance, refer to the [documentation](https://docs.microsoft.com/azure/migrate/common-questions-appliance). <br>
 
 
@@ -46,11 +49,6 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-* **When I click Login on the Azure Migrate Appliance Configuration Manager, a new tab opens with no device code and I cannot log in**
-
-    * Go back to the **Appliance configuration manager** tab. The device code appears directly below the **Login** button in bold text.
-    * Copy the device code and paste it in the **Login** tab to proceed with your Azure log in.
-
 * **After a successful login with my Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps, or click on 'Retry' button"**. 
 
     This issue occurs when you log in from the Appliance configuration manager using a different Azure user account than the account used to generate the Azure Migrate project key on the Azure portal.
@@ -58,8 +56,8 @@ For general queries about Azure Migrate appliance, refer to the [documentation](
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-    * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the drop-down menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
-    * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
+    * Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select  **Discover** and **Manage Existing appliance** in Step 1. From the menu, select the appliance name (for which you generated a key previously) and copy the corresponding key.
+    * Ensure that you are pasting the key to the appliance of the right **cloud type** (Public/US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 * **I am unable to complete registration due to insufficient AAD privileges and get the error "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
 

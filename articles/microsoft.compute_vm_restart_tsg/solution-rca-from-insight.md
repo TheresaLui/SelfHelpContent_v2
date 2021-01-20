@@ -17,5 +17,5 @@
 
 # RCA from Insight
 <!--issueDescription-->
-Please use the customer ready messages provided by the Insight. 
+Please use the customer ready messages provided by the Insight or VM Health/VMA RCA.
 <!--/issueDescription-->
