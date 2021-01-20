@@ -24,7 +24,7 @@ Directions: Copy the raw form of this article to create Apollo common solutions 
 ## Title - Required
 <!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
-Alternatively, summarize general articles by stating how the article will help the customer.<br>
+Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Body - Required
@@ -68,8 +68,9 @@ Example:
 -->
 
 ## Sample solutions
-<!--Solutions must be instructions or videos specific to the problem statement, not just links to other articles.
-Use ordered (numbered) lists for a sequence of tasks. Example:
+<!--Solutions must include a minimum of one task-based procedure or video that resolves the stated issue, not just links to other articles.
+For procedures (a sequence of tasks), use ordered (numbered) lists.
+Example:
 1. This is a step
 2. This step contains multiple sentences. When a step has multiple complete sentences, use a period to end each sentence.
 3. This is a step with a [link](http://)
@@ -83,7 +84,8 @@ Use ordered (numbered) lists for a sequence of tasks. Example:
     MaxCount = 200
     Autoscale = $Autoscale
 ```
-Use uordered (bullet) lists for non-sequential tasks. Example:
+For non-sequential tasks, use unordered (bullet) lists.
+Example:
 * Item1
 * Item2
 * Item3
