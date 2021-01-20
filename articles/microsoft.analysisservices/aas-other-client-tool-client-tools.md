@@ -1,19 +1,15 @@
- <properties
-	pageTitle="other client tool"
-	description="other client tool"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="20"
-	selfHelpType="generic"
-	supportTopicIds="32558773"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
-	articleId="bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9"
-	ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Connecting to servers&#xD;"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32558773"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9"
+  ownershipid="AzureData_AnalysisServices" />
 # Connecting to servers
 
 ## **Recommended Documents**
