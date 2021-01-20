@@ -22,7 +22,7 @@
 
 * The expiry date listed on Microsoft Partner Center indicates the last date to exercise usage rights on the benefit. This date may differ from the expiry date listed in the product Admin portal due to a several factors including benefit activation date, number of licenses associated with the key used for activation and the licenses were added or extended on admin portal.
 
-* If your exisitng cloud subscription on M365 Admin Center is disabled or expired,please copy and paste the below link on an incognito browser window to activate a new subscription. Ensure that you are activating on the correct tenant.
+* If your existing cloud subscription on M365 Admin Center is disabled or expired, please copy and paste the below link on an incognito browser window to activate a new subscription. Ensure that you are activating on the correct tenant.
 
     [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
 
