@@ -18,6 +18,8 @@
 
 # How to and general questions
 
+Address common questions related to Azure Backup using the following articles.
+
 ## **Recommended Documents**
 
 **Backup**
@@ -26,7 +28,7 @@
 - [What are the permissions used by Azure Backup during backup operation?](https://docs.microsoft.com/azure/backup/disk-backup-faq#what-are-the-permissions-used-by-azure-backup-during-backup-and-restore-operation)
 - [Why do I need to provide role assignments to be able to configure backups, perform scheduled and on-demand backups?](https://docs.microsoft.com/azure/backup/disk-backup-faq#why-do-i-need-to-provide-role-assignments-to-be-able-to-configure-backups-perform-scheduled-and-on-demand-backups-and-restore-operations)
 - [Where do I track the status of scheduled or on-demand backup operation?](https://docs.microsoft.com/azure/backup/backup-managed-disks#track-a-backup-operation)
-- [What are the supported and not supported configurations to protect Azure Disks using Azure backup?](https://docs.microsoft.com/azure/backup/disk-backup-support-matrix)
+- [What are the supported and not supported configurations to protect Azure Disks using Azure Backup?](https://docs.microsoft.com/azure/backup/disk-backup-support-matrix)
 - [What are my options to back up disks across multiple subscriptions?](https://docs.microsoft.com/azure/backup/disk-backup-faq#what-are-my-options-to-back-up-disks-across-multiple-subscriptions)
 
 **Restore**
