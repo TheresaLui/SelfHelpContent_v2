@@ -18,6 +18,8 @@
 
 # Configure backup - unable to configure backup
 
+Resolve issues related to backup configuration using the following articles.
+
 ## **Recommended Documents**
 
 - [Troubleshoot common errors in Azure Disk Backup](https://docs.microsoft.com/azure/backup/disk-backup-troubleshoot)
@@ -27,10 +29,10 @@
 - [Where do I track the status of scheduled or on-demand backup operation?](https://docs.microsoft.com/azure/backup/backup-managed-disks#track-a-backup-operation)
 - [How to configure backup for Azure Managed Disks?](https://docs.microsoft.com/azure/backup/backup-managed-disks#configure-backup)
 - [How to run an on-demand backup?](https://docs.microsoft.com/azure/backup/backup-managed-disks#run-an-on-demand-backup)
-- [Steps to create backup policy, schedule backup and modify retention of recovery points](https://docs.microsoft.com/azure/backup/backup-managed-disks#create-backup-policy)
+- [Steps to create backup policy, schedule backup, and modify retention of recovery points](https://docs.microsoft.com/azure/backup/backup-managed-disks#create-backup-policy)
 
 
 ## **Recommended Steps**
 
 - [Benefits of Disk Backup](https://docs.microsoft.com/azure/backup/disk-backup-overview)
-- [Frequently asked question](https://docs.microsoft.com/azure/backup/disk-backup-faq)
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/disk-backup-faq)
