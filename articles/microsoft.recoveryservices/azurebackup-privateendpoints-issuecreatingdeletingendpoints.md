@@ -18,17 +18,19 @@
 
 # Issues with creating or deleting Private Endpoints
 
+Address many common questions about private endpoints using the following resources.
+
 ## **Recommended Documents**
 
 **Creating Private Endpoints**<br>
-Private Endpoint is available for multiple [Azure services listed here](https://docs.microsoft.com/azure/private-link/private-endpoint-overview?WT.mc_id=Portal-Microsoft_Azure_Support#private-link-resource). The experience is uniform across services. Use the examples in reference documents below for Azure Private Endpoint configuration.
+Private Endpoint is available for multiple [Azure services, which are listed here](https://docs.microsoft.com/azure/private-link/private-endpoint-overview?WT.mc_id=Portal-Microsoft_Azure_Support#private-link-resource). The experience is uniform across services. Use the examples in reference documents below for Azure Private Endpoint configuration.
 
 - [Step-by-step instructions to create private endpoints for Azure Backup](https://docs.microsoft.com/azure/backup/private-endpoints)
-- [Supported backup and restore scenarios using Private Endpoints](https://docs.microsoft.com/azure/backup/private-endpoints#recommended-and-supported-scenarios)
-- [How to backup and restore using Private Endpoints?](https://docs.microsoft.com/azure/backup/private-endpoints#using-private-endpoints-for-backup)
+- [Supported backup and restore scenarios using private endpoints](https://docs.microsoft.com/azure/backup/private-endpoints#recommended-and-supported-scenarios)
+- [How to backup and restore using private endpoints?](https://docs.microsoft.com/azure/backup/private-endpoints#using-private-endpoints-for-backup)
 
 **Deleting Private Endpoints**<br>
-- [Steps to delete Private Endpoints.](https://docs.microsoft.com/rest/api/virtualnetwork/privateendpoints/delete)
+- [Steps to delete private endpoints.](https://docs.microsoft.com/rest/api/virtualnetwork/privateendpoints/delete)
 
 **Recommended Steps**<br>
 - [Troubleshoot Azure Private Endpoint connectivity problems](https://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
