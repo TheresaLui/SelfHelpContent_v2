@@ -18,6 +18,8 @@
 
 # Backup is failing
 
+Resolve issues related to backup failures by reviewing the following resources.
+
 ## **Recommended Documents**
 
 - [Troubleshoot common errors in Azure Disk Backup](https://docs.microsoft.com/azure/backup/disk-backup-troubleshoot)
@@ -33,6 +35,6 @@
 ## **Recommended Steps**
 
 - [Benefits of Disk Backup](https://docs.microsoft.com/azure/backup/disk-backup-overview)
-- [Frequently asked question](https://docs.microsoft.com/azure/backup/disk-backup-faq)
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/disk-backup-faq)
 
 
