@@ -3,7 +3,7 @@
     description="Cluster subnet is full"
     authors="jomore"
     ms.author="jomore"
-    articleId="b1e94ada-196a-4495-a2aa-405a29c23531_public"
+    articleId="b1e94ada-196a-4495-a2aa-405a29c23531_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_AzureKubernetesService"
@@ -12,7 +12,7 @@
 # Cluster subnet is full 
 ---
 {
-  "recommendationOfferingId": "0b9258da-c7d5-4a04-8eb6-01283c4c72e5",
+  "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "15a9b3c0-138b-4141-8bcc-8d8f5a5b91a6",
@@ -24,7 +24,7 @@
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
-  "recommendationFriendlyName": "Node subnet is full",
+  "recommendationFriendlyName": "NodeSubnetIsFull",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "potentialBenefits": "You need to expand your cluster with additional node pools to be able to grow",
@@ -35,7 +35,7 @@
       "service": "Azure Kubernetes Service",
       "team": "Azure Kubernetes Service"
     },
-    "serviceTreeId": "0b9258da-c7d5-4a04-8eb6-01283c4c72e5"
+    "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
   "version": 2.0,

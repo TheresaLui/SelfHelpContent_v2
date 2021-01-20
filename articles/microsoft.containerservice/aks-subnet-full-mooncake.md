@@ -3,7 +3,7 @@
     description="Cluster subnet is full"
     authors="jomore"
     ms.author="jomore"
-    articleId="30049394-b2f3-47f2-bcbe-bcd1328afeec_mooncake"
+    articleId="30049394-b2f3-47f2-bcbe-bcd1328afeec_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="Compute_AzureKubernetesService"
@@ -12,7 +12,7 @@
 # Cluster subnet is full 
 ---
 {
-  "recommendationOfferingId": "0b9258da-c7d5-4a04-8eb6-01283c4c72e5",
+  "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "15a9b3c0-138b-4141-8bcc-8d8f5a5b91a6",
@@ -24,7 +24,7 @@
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
-  "recommendationFriendlyName": "Node subnet is full",
+  "recommendationFriendlyName": "NodeSubnetIsFull",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "potentialBenefits": "You need to expand your cluster with additional node pools to be able to grow",
@@ -35,7 +35,7 @@
       "service": "Azure Kubernetes Service",
       "team": "Azure Kubernetes Service"
     },
-    "serviceTreeId": "0b9258da-c7d5-4a04-8eb6-01283c4c72e5"
+    "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
   "version": 2.0,
@@ -46,7 +46,7 @@
       "actionId": "257304a3-8c20-4034-b7b8-cb9114a672aa",
       "description": "Recreate the cluster in a larger subnet, or add new nodepools to the clusters in additional subnets",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/aks/use-multiple-node-pools#add-a-node-pool-with-a-unique-subnet-preview"
+      "documentLink": "https://docs.azure.cn/zh-cn/aks/use-multiple-node-pools#add-a-node-pool-with-a-unique-subnet-preview"
     }
   ],
   "resourceMetadata": {
@@ -62,6 +62,6 @@
   },
   "displayLabel": "Node subnet is full",
   "additionalColumns": [],
-  "learnMoreLink": "https://docs.microsoft.com/azure/aks/use-multiple-node-pools#add-a-node-pool-with-a-unique-subnet-preview"
+  "learnMoreLink": "https://docs.azure.cn/zh-cn/aks/use-multiple-node-pools#add-a-node-pool-with-a-unique-subnet-preview"
 }
 ---
