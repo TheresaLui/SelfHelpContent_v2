@@ -56,7 +56,7 @@ For general queries, see [common questions about Azure Migrate appliance for VMw
 * **After a successful login with an Azure user account, the appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
    This issue happens when the Azure user account used to log in from the appliance configuration manager is different from the user account used to generate the Azure Migrate project key on the Azure portal 
-   1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
+   To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
