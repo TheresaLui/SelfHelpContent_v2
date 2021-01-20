@@ -1,5 +1,5 @@
 <properties
-  pagetitle="ASC/Renewing-Rekeying"
+  pagetitle="ASC/Renewing-Rekeying&#xD;"
   service="microsoft.certificateregistration"
   resource="certificateorders"
   ms.author="curibe,shrahman"
@@ -17,9 +17,11 @@
 
 
 **How to Rekey?**
+
 See [these instructions](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-certificate).
 
 **How to Renew?**
+
 See [these instructions](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#renew-certificate).
 
 **What permissions are required on Key Vault for App Service Certificate?**
@@ -30,6 +32,7 @@ See [these instructions](https://docs.microsoft.com/azure/app-service/web-sites-
 |Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
 
 **Our App Certificate was expired. Can it be renewed with the same thumbprint?**
+
 It is not possible to renew an expired certificate. You need to create a new certificate, which will have a different thumbprint.
 
 ## **Recommended Documents**
