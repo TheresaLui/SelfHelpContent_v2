@@ -23,3 +23,5 @@
 * [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
 
 * [Connection string properties](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=azure-analysis-services-current)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
