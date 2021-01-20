@@ -35,7 +35,7 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 * [Who can cancel a subscription?](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#who-can-cancel-a-subscription)
 * [What happens after the subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)
 
-If you don't want to cancel your subscription but want to stop charges for a resource, you can manually delete your delete them using the Azure portal. Learn more: [Delete resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
+If you don't want to cancel your subscription but want to stop charges for a resource, you can manually delete them using the Azure portal. Learn more: [Delete resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
 
 **Verify your subscription was canceled**
 
