@@ -12,6 +12,9 @@
   ownershipid="AzureIot_IotHub" />
 # Issues with configuring IP filters
 
+Starting Jan 21, 2022 - IoT Hub is rolling out a new upgraded version of IP Filter that's more secure and works with the built-in endpoint. To avoid service disruption, please upgrade before Feb. 1, 2022. To learn more, see [Azure update](https://aka.ms/ipfilterv2azupdate)
+
 ## **Recommended Documents**
 
 * [Configure IoT Hub IP filters](https://docs.microsoft.com/azure/iot-hub/iot-hub-ip-filtering)
+* [Upgrade from classic IP filter](https://aka.ms/iothubipfilterv2)
