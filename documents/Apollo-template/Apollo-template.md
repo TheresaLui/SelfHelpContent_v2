@@ -22,7 +22,7 @@
 Directions: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
 
 ## Title - Required
-<!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings. 
+<!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
@@ -141,15 +141,14 @@ Caption
 * Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Check product, feature, and service names for accuracy, including capitalization 
-* Spell out product, feature, and service names on first mention, followed by acronym in parentheses (“Azure Active Directory (AAD”), and after that, use the acronym (“AAD”) 
+* Spell out product, feature, and service names on first mention, followed by acronym in parentheses. 
 * Use “select,” not “click” 
 * Don’t use “please” 
 * Bold all UI elements. Don’t overuse bold in text. 
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
 * Enclose error messages in text in quotation marks 
 * Insert a blank line after every heading
-* All lists require an empty line before the first item and after the last item.
-* Tables using Markdown will work.
+* Insert an empty line before the first item and after the last item of all lists (ordered and unordered).
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
 -->
