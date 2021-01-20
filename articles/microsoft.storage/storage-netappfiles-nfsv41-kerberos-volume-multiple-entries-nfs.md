@@ -17,7 +17,7 @@
 
 # Kerberos Multiple Entries to FQDN NFS Server for nfsv4.1 Kerberos volume
 
-
+Use the following steps to resolve issues related to multiple entries to a FQDN NFS Server for an NFSv4.1 Kerberos volume.
 
 ## **Recommended Steps**
 
