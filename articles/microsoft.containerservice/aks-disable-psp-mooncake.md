@@ -12,7 +12,7 @@
 # Disable PSP
 ---
 {
-  "recommendationOfferingId": "efaca250-af83-4cbe-b64d-8be83d79de83",
+  "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a347b531-5dbf-4870-80b0-ace7964605b1",
@@ -24,7 +24,7 @@
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
-  "recommendationFriendlyName": "Use Azure Policy for Kubernetes",
+  "recommendationFriendlyName": "UseAzurePolicyForKubernetes",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "potentialBenefits": "AKS Pod Security Policies will be deprecated and Azure Policy for AKS should be used instead",
@@ -35,7 +35,7 @@
       "service": "Azure Kubernetes Service",
       "team": "Azure Kubernetes Service"
     },
-    "serviceTreeId": "efaca250-af83-4cbe-b64d-8be83d79de83"
+    "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
   "version": 2.0,
@@ -46,7 +46,7 @@
       "actionId": "e0c519d6-837c-48b0-84f0-11c2dc4ff817",
       "description": "Use Azure Policy for AKS instead of Pod Security Policies",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/aks/use-pod-security-on-azure-policy"
+      "documentLink": "https://docs.azure.cn/cli/aks?view=azure-cli-latest#az_aks_enable_addons"
     }
   ],
   "resourceMetadata": {
@@ -62,6 +62,6 @@
   },
   "displayLabel": "Use Azure Policy for AKS instead of Pod Security Policies",
   "additionalColumns": [],
-  "learnMoreLink": "https://docs.microsoft.com/azure/aks/use-pod-security-on-azure-policy"
+  "learnMoreLink": "https://docs.azure.cn/cli/aks?view=azure-cli-latest#az_aks_enable_addons"
 }
 ---
