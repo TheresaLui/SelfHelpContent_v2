@@ -18,10 +18,13 @@
 
 # Configure backup cannot add or modify backup policy
 
+Resolve issues related to backup policy using the following articles.
+
+
 ## **Recommended Documents**
 
 - [How to configure backup for Azure Managed Disks?](https://docs.microsoft.com/azure/backup/backup-managed-disks#configure-backup)
-- [Steps to create backup policy, schedule backup and modify retention of recovery points](https://docs.microsoft.com/azure/backup/backup-managed-disks#create-backup-policy)
+- [Steps to create backup policy, schedule backup, and modify retention of recovery points](https://docs.microsoft.com/azure/backup/backup-managed-disks#create-backup-policy)
 - [What are the permissions used by Azure Backup during backup operation?](https://docs.microsoft.com/azure/backup/disk-backup-faq#what-are-the-permissions-used-by-azure-backup-during-backup-and-restore-operation)
 - [Why do I need to provide role assignments to be able to configure backups, perform scheduled and on-demand backups?](https://docs.microsoft.com/azure/backup/disk-backup-faq#why-do-i-need-to-provide-role-assignments-to-be-able-to-configure-backups-perform-scheduled-and-on-demand-backups-and-restore-operations)
 - [Where do I track the status of scheduled or on-demand backup operation?](https://docs.microsoft.com/azure/backup/backup-managed-disks#track-a-backup-operation)
