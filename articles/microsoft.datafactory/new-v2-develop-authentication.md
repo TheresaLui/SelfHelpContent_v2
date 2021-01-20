@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Permissions and Azure Roles for Data Factory&#xD;"
+  pagetitle="Roles and Permissions for Data Factory&#xD;"
   service="microsoft.datafactory"
   resource="factories"
   ms.author="chez,haoc,vimals"
@@ -10,7 +10,7 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="b71ce604-505b-45a2-991b-b9fc4596c7d8"
   ownershipid="AzureData_DataFactory" />
-# Permissions and Azure Roles for Data Factory
+# Roles and Permissions for Data Factory
 
 Use the following guidelines to assign permissions and roles in Azure Data Factory (ADF).
 
