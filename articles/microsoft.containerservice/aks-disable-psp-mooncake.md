@@ -38,7 +38,7 @@
     "serviceTreeId": "efaca250-af83-4cbe-b64d-8be83d79de83"
   },
   "ingestionClientIdentities": [],
-  "version": 1.1,
+  "version": 2.0,
   "description": "Disable the Application Routing Addon",
   "longDescription": "This cluster has Pod Security Policies enabled, which are going to be deprecated in favor of Azure Policy for AKS",
   "actions": [
