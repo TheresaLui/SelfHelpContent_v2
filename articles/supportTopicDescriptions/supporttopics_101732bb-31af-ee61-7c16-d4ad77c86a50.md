@@ -258,6 +258,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "8192327f-cf51-c486-1c9a-afda3ced5262",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to Application Gateway Ingress Controller Add-On for AKS",
+      "searchTags": "agic;ingress controller;add-on;aks;add on",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "82697465-2215-1c84-7e0e-99ce0bef405b",
       "longDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",
       "shortDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",

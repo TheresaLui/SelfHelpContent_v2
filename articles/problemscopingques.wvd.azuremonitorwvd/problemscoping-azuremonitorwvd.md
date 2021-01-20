@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Session connectivity"
-	description="Session connectivity"
+	pageTitle="Azure monitor for WVD"
+	description="Azure monitor for WVD"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783600,32783601,32783602,32783599"
+	supportTopicIds="32784837"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="3c88b294-12a6-4d77-ab33-70c8cc9e49e9"
+	articleId="ce0219d3-1eff-4cf8-8875-63f18f38c458"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# Session connectivity
+# Azure monitor for WVD
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": false,
-  "title": "Issues with session connectivity",
+  "title": "Azure monitor for WVD issues",
   "fileAttachmentHint": "",
   "formElements": [
     {
