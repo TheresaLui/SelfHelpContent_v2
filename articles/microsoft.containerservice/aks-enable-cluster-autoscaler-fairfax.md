@@ -38,7 +38,7 @@
     "serviceTreeId": "8c53e793-aff1-43df-9d49-5911495a531e"
   },
   "ingestionClientIdentities": [],
-  "version": 1.1,
+  "version": 2.0,
   "description": "Enable the Cluster Autoscaler",
   "longDescription": "This cluster has not enabled AKS Cluster Autoscaler, and it will not adapt to changing load conditions unless you have other ways to autoscale your cluster",
   "actions": [
