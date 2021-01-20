@@ -58,7 +58,7 @@ For more information, see [troubleshoot high-CPU issues for Azure Windows virtua
 
 <br/>
 
-### Recommended Steps
+### Using PerfInsights to diagnose performance issues
 
 **Detection: If you are unaware of the process driving high CPU consumption, you can [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm)**. PerfInsights generates a report that contains a dedicated tab for CPU analysis. The report lists out the processes per Average CPU consumption in descending order. It indicates if the process was system-based, or related to a Microsoft-owned App (SQL, IIS), or a third-pary process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.
 
