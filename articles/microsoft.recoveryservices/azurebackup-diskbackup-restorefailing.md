@@ -18,6 +18,8 @@
 
 # Restore is failing
 
+Resolve most reasons why restore operations fail by reviewing the following articles. 
+
 ## **Recommended Documents**
 
 - [Step-by-step instruction to restore Azure Managed Disks from a restore point created by Azure Backup](https://docs.microsoft.com/azure/backup/restore-managed-disks)
