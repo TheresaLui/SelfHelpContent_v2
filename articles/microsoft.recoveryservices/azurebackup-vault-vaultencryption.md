@@ -17,6 +17,8 @@
 
 # Azure Vault Encryption
 
+Resolve common issues related to Azure Vault Encryption using the following resources
+
 ## **Recommended Documents**
 
 - [Encryption of backup data using customer-managed keys](https://docs.microsoft.com/azure/backup/encryption-at-rest-with-cmk)
