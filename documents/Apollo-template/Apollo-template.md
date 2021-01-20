@@ -138,7 +138,7 @@ Caption
  
 
 <!--RULES:
-* Provide the minimum requirements for each section. (See each section for details.)
+* Provide the minimum requirements for title and body. (See each section for details.)
 * Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
 * Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
 * Use sentence capitalization for all headings (capitalize only the first word) 
