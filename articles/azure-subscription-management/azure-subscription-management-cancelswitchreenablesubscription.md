@@ -29,16 +29,21 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 2. Select the subscription that you want to cancel. When the blade opens select **Overview**.
 3. Select **Cancel subscription**
 4. Follow prompts and finish cancellation
+5. Please allow up to 30 minutes for the subscription status to update in the portal.
 
 * Learn more: [Cancel Azure Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
 * [Who can cancel a subscription?](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#who-can-cancel-a-subscription)
 * [What happens after the subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)
+
+If you don't want to cancel your subscription but want to stop charges for a resource, you can manually delete your delete them using the Azure portal. Learn more: [Delete resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
 
 **Verify your subscription was canceled**
 
 1. Go to the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.
 2. You may need to scroll to the right. Under status will show you the current state of the subscription.
 3. If the status reflects **Disabled** then the subscription is canceled.
+
+Please allow up to 30 minutes for the subscription status to update in the portal.
 
 **What is the difference between cancelling and deleting a subscription?**
 
@@ -62,3 +67,7 @@ Learn more: [Delete free trial subscription](https://docs.microsoft.com/azure/co
 * [Cancelled a subscription but still getting charged](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-subscription-cancellation)
 * [Cancel a support plan](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#cancel-a-support-plan)
 * [Delete free trial subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#delete-free-trial-subscription)
+* [Switch subscription](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+* [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+* [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
+* [Azure spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit)
