@@ -20,7 +20,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 # Summary of some recent Authentication and Authorization failures
 
 <!--issueDescription-->
-Recent Authentication and Authorization Failure Summary
+Summary of recent authentication and authorization failures
 <!--/issueDescription-->
 The following is a list of recent authentication or authorization failures. An immediate failure may not show up in the list. If the list shows an error that matches the time of the issue, use the ServerRequestId for that entry and run the following detailed diagnostics to get a resolution to the issue.<br> 
 
