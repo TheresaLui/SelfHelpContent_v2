@@ -40,7 +40,7 @@ Ensure that you use the [latest Eventhub-Spark connector version](https://mvnrep
   
 * **Eventhub-Spark connector exception**
 
-Eventhub-Spark connector exception `java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit` is thrown because starting from connector version 2.3.15, pyspark requires the connection string to be encrypted when it's passed to the configuration dictionary. 
+Eventhub-Spark connector exception `java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit` is thrown because starting with connector version 2.3.15, `pyspark` requires the connection string to be encrypted when it's passed to the configuration dictionary. 
     
 Encrypt the connection string by using the following method:
   
