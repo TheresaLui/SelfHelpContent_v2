@@ -38,7 +38,7 @@
     "serviceTreeId": "0b9258da-c7d5-4a04-8eb6-01283c4c72e5"
   },
   "ingestionClientIdentities": [],
-  "version": 1.1,
+  "version": 2.0,
   "description": "Pool subnet is full",
   "longDescription": "Some of the subnets for this cluster's nodepools are full and cannot take more worker nodes",
   "actions": [
