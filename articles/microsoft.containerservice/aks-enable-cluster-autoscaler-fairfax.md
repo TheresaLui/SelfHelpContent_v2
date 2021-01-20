@@ -12,7 +12,7 @@
 # Enable Cluster Autoscaler
 ---
 {
-  "recommendationOfferingId": "8c53e793-aff1-43df-9d49-5911495a531e",
+  "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c2f34a5d-2742-4c3d-9247-e0a8b85c3e51",
@@ -35,7 +35,7 @@
       "service": "Azure Kubernetes Service",
       "team": "Azure Kubernetes Service"
     },
-    "serviceTreeId": "8c53e793-aff1-43df-9d49-5911495a531e"
+    "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
   "version": 2.0,
