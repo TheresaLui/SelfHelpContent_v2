@@ -27,7 +27,7 @@ Example: "Resolve issues related to configuring NetApps by reviewing these best 
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-## Sample body - Required
+## Body - Required
 <!--The body contains the main content. In a solution-based article, the body includes the solution and any other information that can help the customer resolve the stated issue. The body can include the following elements: 
 - Diagnostics  
 - Metrics 
