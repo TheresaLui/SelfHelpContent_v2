@@ -22,20 +22,18 @@
 Directions: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
 
 ## Title - Required
-<!--Clearly state the specific problem and how the article addresses it. Sentence capitalization. 
+<!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings. 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, summarize general articles by stating how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Sample body - Required
-<!--The body contains the main content and solution. The solution may be preceded by diagnostics and guided troubleshooting. 
-This section can include or more of the following components: 
-- Diagnostics (including insights/results) 
+<!--The body contains the main content. In a solution-based article, the body includes the solution and any other information that can help the customer resolve the stated issue. The body can include the following elements: 
+- Diagnostics  
 - Metrics 
-- Solutions  
 - Images 
 - Videos 
-- Azure KB and docs links-->
+- Azure KB and document links-->
  
 
 ## Sample diagnostic
@@ -57,7 +55,7 @@ Example:
 -->
 
 ## Sample guided troubleshooting
-<!--Include 1-2 sentences that point out specific aspects of the chart and explains how they are relevant to the problem. This summary is required to ensure accessibility for screen readers.
+<!--Include 1-2 sentences that point out specific aspects of the chart, how they are relevant to the issue, and next steps to resolve the issue. This text is required to ensure accessibility for all users. 
 Example:
 “Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
 <metric>
@@ -132,18 +130,26 @@ Caption
 	<client>Portal</client>
 </CommonSolution>
 -->
+
+<!--Include the following text at the end of all topics.-->
 **Contact us**
-<!--Include this text "as is" in all topics.-->
 > If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
  
 
 <!--RULES:
-* Insert a blank line after every heading (head1-3)
+* Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
+* Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
+* Use sentence capitalization for all headings (capitalize only the first word) 
+* Check product, feature, and service names for accuracy, including capitalization 
+* Spell out product, feature, and service names on first mention, followed by acronym in parentheses (“Azure Active Directory (AAD”), and after that, use the acronym (“AAD”) 
+* Use “select,” not “click” 
+* Don’t use “please” 
+* Bold all UI elements. Don’t overuse bold in text. 
+* Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
+* Enclose error messages in text in quotation marks 
+* Insert a blank line after every heading
 * All lists require an empty line before the first item and after the last item.
-* Formatting is not identical to Microsoft Docs. 
-* Only tables using markdown will work.
-* Solutions should be instructions, recommendations, or videos, not just links to other articles
+* Tables using Markdown will work.
 * Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
 * Do not use aka.ms links
-* Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the properties metadata at the beginning of this article.
 -->
