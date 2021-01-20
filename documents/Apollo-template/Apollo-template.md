@@ -28,7 +28,7 @@ Alternatively, summarize general articles by stating how the article will help t
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Body - Required
-<!--The body contains the main content. In a solution-based article, the body includes the solution and any other information that can help the customer resolve the stated issue. The body can include the following elements: 
+<!--The body contains the main content. In a how-to article, the body contains substantive content that imparts either conceptual information, procedural information, or both. In a solution-based article, the body includes one or more solutions and any other information that can help the customer resolve the stated issue. The body can include the following elements: 
 - Diagnostics  
 - Metrics 
 - Images 
