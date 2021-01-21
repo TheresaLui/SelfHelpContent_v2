@@ -119,7 +119,7 @@
                     "text": "I need assistance enabling this setting"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "inprivate",
@@ -140,7 +140,7 @@
                     "text": "Don't know the answer"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
