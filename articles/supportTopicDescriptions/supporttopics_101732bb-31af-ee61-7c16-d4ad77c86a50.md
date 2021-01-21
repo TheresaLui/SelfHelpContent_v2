@@ -42,6 +42,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "03109984-cd60-5051-6f5f-894bf1251da8",
+      "longDescription": "",
+      "shortDescription": "If you are having issues configuring SSL offload or SSL termination in Application Gateway",
+      "searchTags": "ssl offload;ssl termination;tls;configure;certificate",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0506441f-8ca0-ef07-5ab5-ce31301f6d28",
       "longDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",
       "shortDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",

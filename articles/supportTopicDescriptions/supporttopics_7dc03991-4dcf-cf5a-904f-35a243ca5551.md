@@ -217,7 +217,7 @@
     {
       "id": "8ef7e43f-6258-f2d1-2577-9494243a1a60",
       "longDescription": "",
-      "shortDescription": "Anomaly detection alerts remediation",
+      "shortDescription": "Anomaly detection, suspend user, require user to sign-in again, change sharing, quarantine, alerts remediation",
       "searchTags": "remediate;detection;governance",
       "category": "Investigation",
       "useInDiagnoseAndSolve": "true"
