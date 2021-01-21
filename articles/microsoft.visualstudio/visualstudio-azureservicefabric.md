@@ -20,13 +20,15 @@
 
 **Common Azure Pipeline issues during service fabric deployment and use**
 
-* **Release pipeline fails due to an invalid client certificate used with the deployment**
+Resolve most common Azure Pipeline issues with the following solutions.
+
+* Release pipeline fails due to an invalid client certificate used with the deployment
 
    Ensure that your certificate is not expired. If it is expired, create a new one and update the release pipeline task with new client certificate. See [these instructions](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-deploy-app-with-cicd-vsts).
     
-* **System.Fabric.FabricTransientException: Could not ping any of the provided Service Fabric gateway endpoints warning** while running two releases on the same machine
+* "System.Fabric.FabricTransientException: Could not ping any of the provided Service Fabric gateway endpoints warning" while running two releases on the same machine
 
-   Currently, [Service fabric tasks in Azure DevOps](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops) has a limitation for running multiple releases that target the same service connection. In such cases, when two releases run on the same machine, one of the tasks completes and the certificate in the machine cert store is cleaned. Therefore, the second release fails. If there are multiple service connections using same certificate, then the releases using those connections will also fail. We recommend using different agents (on different machines) for parallel service fabric tasks that target the same connection.
+   Currently, [Service fabric tasks in Azure DevOps](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops) has a limitation for running multiple releases that target the same service connection. In such cases, when two releases run on the same machine, one of the tasks completes and the certificate in the machine cert store is cleaned. Therefore, the second release fails. If there are multiple service connections using same certificate, releases using those connections will also fail. We recommend using different agents (on different machines) for parallel service fabric tasks that target the same connection.
     
 ## **Recommended Documents**
 
