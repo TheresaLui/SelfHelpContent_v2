@@ -110,7 +110,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
