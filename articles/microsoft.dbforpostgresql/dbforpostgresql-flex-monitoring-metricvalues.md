@@ -7,7 +7,7 @@
     ms.author="ambhatna"
     displayOrder="290"
     selfHelpType="generic"
-    supportTopicIds="32639994, 32780885"
+    supportTopicIds="32780880"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -19,17 +19,17 @@
 
 The metrics shown in Azure Database for PostgreSQL portal are numerical values that describe some aspect of a system at a particular **point in time**.
 
-Most users are able to resolve their issue using the steps below.
+Most users are able to resolve issues using the steps below.
 
 ## **Recommended Steps**
 
-* Storage metric shows more storage used than directly querying database:
+* Storage metric shows more storage used than what you'll see by directly querying the database:
 
   * Beyond the data actually stored in your database in the supporting indexes, the footprint of your server includes additional files such as the transaction log, and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
 
-* Metric show different value at different time:
+* Storage metric shows different values at different times:
 
-    * Please note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
+    * Note that the metrics describe some aspect of a system at a particular point in time. For example, the maximum number of active connections will vary when you check at different points of time.
 
 
 ## **Recommended Documents**
