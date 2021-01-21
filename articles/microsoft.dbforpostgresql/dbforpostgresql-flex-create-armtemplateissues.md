@@ -19,7 +19,7 @@
 
 The Azure Database for PostgreSQL REST API enables you to automate the management of servers in Azure. Note that most of the management operations are asynchronous and you might have to poll the status of the operation when using REST APIs.
 
-Most users are able to resolve their issue using the steps below.
+Most users are able to resolve their issues using the steps below.
 
 ## **Recommended Steps**
 
