@@ -19,5 +19,5 @@
 
 ## **Recommended Steps**
 
-We currently do not support PowerShell to manage Flexible Servers.
+We currently do not support PowerShell to manage Flexible Server.
 
