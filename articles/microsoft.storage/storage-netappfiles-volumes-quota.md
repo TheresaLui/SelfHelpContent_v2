@@ -17,10 +17,12 @@
 
 # NetApp Volumes Issue with volume quota or size
 
+Review the following steps to determine the cause of your NetApp Volumes issue.  
+
 ## **Recommended Steps**
 
-1. Note that consumed snapshot size counts towards the provisioned space of the volume.
-2. Note that the volume does not auto grow upon filling up. Either it has to be resized or some data or snapshots have to be deleted.
+1. Any consumed snapshot size counts towards the provisioned space of the volume.
+2. The volume does not automatically grow upon becoming completely filled. You must either resize the volume or delete data or snapshots from it to create more space.
 
 ## **Recommended Documents**
 
