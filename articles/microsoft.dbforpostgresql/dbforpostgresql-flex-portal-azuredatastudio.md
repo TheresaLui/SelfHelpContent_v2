@@ -21,8 +21,8 @@
 
 **About Azure Data Studio**
 
-To learn about Azure Data Studio please refer to (https://docs.microsoft.com/sql/azure-data-studio).
+To learn about Azure Data Studio, see the [primary documentation] (https://docs.microsoft.com/sql/azure-data-studio).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)
