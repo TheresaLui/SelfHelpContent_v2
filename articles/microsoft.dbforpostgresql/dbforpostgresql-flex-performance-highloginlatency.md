@@ -17,7 +17,7 @@
 
 # Troubleshooting login performance
 
-Slow login issues can have many different root causes. Work through the recommended steps to solve for the most common issues.
+Slow login issues have many different root causes. Work through the following recommended steps to resolve the most common issues.
 
 ## **Recommended Steps**
 
