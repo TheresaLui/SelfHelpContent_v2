@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728050,32728232"
+       supportTopicIds="32728050,32728232,32784505,32784504,32784503,32784511,32784508,32784512,32784509,32784510"
        productPesIds="17000"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -39,14 +39,6 @@
 	   "watermarkText": "Please provide the AAD Object ID - if this is regarding a Registration query",
 	   "required": false,
 	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
-       },
-       {
-	   "id": "additional_emails_for_notification",
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
        },
        {
 	   "id": "problem_description",
