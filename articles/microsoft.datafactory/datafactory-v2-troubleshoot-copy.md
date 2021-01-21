@@ -1,23 +1,19 @@
 <properties
-    pageTitle="I got failures in copy activity"
-    description="Troubleshoot Azure Data Factory copy activity issues."
-    service="microsoft.datafactory"
-    resource="factories"
-    authors="shelfeng, hecepeda"
-    ms.author="shelfeng"
-    displayOrder="16"
-    selfHelpType="resource"
-    supportTopicIds="32629461"
-    resourceTags=""
-    productPesIds="15613"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="DataFactoryCopyTroubleshooter"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="V2 - Copy Activity and Self-Hosted IR – Errors or unexpected results&#xD;"
+  description="Troubleshoot Azure Data Factory copy activity issues."
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="shelfeng,brianwan"
+  selfhelptype="Resource"
+  supporttopicids="32629461"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="datafactorycopytroubleshooter"
+  ownershipid="AzureData_DataFactory" />
 # V2 - Copy Activity and Self-Hosted IR – Errors or unexpected results
 
-**Note -** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
+**Note -** If you use **Self-Hosted IR** with related SHIR problems such as SHIR connectivity and others about known issues, please follow the steps on the [Self-IR troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide), and take note of the **Report ID** to provide it with the support request.
 
 If the execution of a **Copy Activity** throws an error code or exception code you can start by validating if the error is contained on the [General Copy Activity errors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error) documentation which contains the most common errors from different data sources and the actions that could help resolving them.
 
