@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-* Geo-redundant backups are currently not supported on flexible server
+* Geo-redundant backups are currently not supported on Flexible Server.
