@@ -18,9 +18,9 @@ ownershipId="StorageMediaEdge_XStore"
 :::Section Recommended solutions:::
 
 ### Initiate Account Recovery
-Click on the button below to initiate storage account recovery. Make sure the right subscription is selected as the diagnostic runs in context of the current subscription only.
+Select the following button to initiate storage account recovery. Make sure the right subscription is selected as the diagnostic runs in context of the current subscription only.
 
-<span style="color:red">Note</span> : If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.
+<span style="color:red">**Note**</span> : If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.
 
 <Insight>
 <symptomId>Storage_Account_Recovery_Portal_Insight</symptomId>
@@ -39,7 +39,7 @@ Click on the button below to initiate storage account recovery. Make sure the ri
 ### <span style="color:red">**Prerequisites:**
 
 - Ensure that the Resource Group is created first, if it has been deleted.
-- Ensure that the KeyVault key is associated with the storage account if it is encrypted with CMK. Failing to do so would result in HTTP 403 failures when accessing endpoints (currently blob and file) of the recovered account.
+- Ensure that the KeyVault key is associated with the storage account if it is encrypted with [Customer Managed Kay(CMK)](https://docs.microsoft.com/azure/storage/common/customer-managed-keys-overview). Failing to do so would result in HTTP 403 failures when accessing endpoints (currently blob and file) of the recovered account. Table and Queue data should be accessible.
 
 ### <span style="color:red">**Disclaimer:**
 
