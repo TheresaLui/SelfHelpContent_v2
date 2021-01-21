@@ -34,7 +34,8 @@ If you are running into issues creating, updating or deleting metric alert rules
 4. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
 
 	- It might take a few minutes for the dimension values to appear under the **Dimension values** list
-	- The displayed dimension values are based on metric data collected in the last three days
+	- The displayed dimension values are based on metric data collected in the last day
+	- If the dimension value isn’t yet emitted or isn't shown, you can use the 'Add custom value' option to add a custom dimension value
 
 5. If an alert previously fired but isn't being resolved, please check the following:
 	- Is the condition still met? The alert rule sends out a resolved/deactivated message when the alert condition is not met for three consecutive periods, to reduce noise in case of flapping conditions.
