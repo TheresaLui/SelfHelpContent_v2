@@ -17,12 +17,12 @@
 
 # Visual Studio Code extensions
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 **About Visual Studio Code**
 
-If you are looking for information and resources about Visual Studio Code, please refer to:
+If you are looking for information and resources about Visual Studio Code, see:
 
-* Microsoft's [Visual Studio Code extension for PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql) in preview
+* Microsoft [Visual Studio Code extension for PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql) in preview
 * [Visual Studio Code extensions](https://code.visualstudio.com/docs/editor/extension-gallery)
 * [Getting started with Visual Studio Code](https://code.visualstudio.com/docs)
