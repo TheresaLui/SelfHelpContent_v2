@@ -21,7 +21,7 @@ Azure Database for PostgreSQL servers are created with default parameter values 
 
 Not all PostgreSQL parameters are available for you to reconfigure in Azure Database for PostgreSQL. If a PostgreSQL parameter is not listed in your server's Azure portal **Server parameters** window, it cannot be reconfigured from the default.
 
-To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal. A few Postgres parameters require you to restart the server for them to take effect. These are indicated by the property 'Static'.
+To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal. A few Postgres parameters require you to restart the server for them to take effect. These are indicated by the property `Static`.
 
 ## **Recommended Steps**
 
