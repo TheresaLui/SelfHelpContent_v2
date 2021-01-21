@@ -30,7 +30,7 @@
             "id": "operation",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Is issue seen while creating volume or resizing the volume?",
+            "displayLabel": "Does the issue happen while creating volume or resizing the volume?",
             "watermarkText": "Is issue seen while creating volume or resizing the volume?",
 			"dropdownOptions": [
 				{
