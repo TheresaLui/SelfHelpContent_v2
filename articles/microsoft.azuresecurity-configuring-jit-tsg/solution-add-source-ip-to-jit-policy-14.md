@@ -19,10 +19,7 @@
 
 <!--issueDescription-->
 
-Dear Customer, <br>
+Based on the troubleshooting done so far we have found the following, we have found that your source IP is out of JIT policy range. Add the source IP address (The VM you are connecting from) to the JIT policy IP address range or request the access using Resource IP = Any (*). Please add the IP to the JIT Policy using the article [Add Source IP to JIT Policy Range](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc#enable-jit-vm-access-)
 <br>
-We have found that your source IP is out of JIT policy range. Add the source IP address (The VM you are connecting from) to the JIT policy IP address range or request the access using Resource IP = Any (*). Please add the IP to the JIT Policy using the article [Add Source IP to JIT Policy Range](https://docs.microsoft.com/azure/security-center/security-center-just-in-time?tabs=jit-config-asc%2Cjit-request-asc#enable-jit-vm-access-)
-<br>
-Best regards, <br>
 
 <!--/issueDescription-->

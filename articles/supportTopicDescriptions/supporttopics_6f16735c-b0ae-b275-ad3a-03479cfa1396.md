@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="virtual-machine-running-windows-supporttopicdescription"
   ownershipid="Compute_VirtualMachines_Content"
   icmteam="icmteam"
@@ -263,6 +264,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "2f4c71ea-0de5-151e-69cc-8c2222140f2e",
+      "longDescription": "",
+      "shortDescription": "Assistance and support for High Performance Compute (HPC)",
+      "searchTags": "HPC",
+      "category": "HPC",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "31b44bbf-c250-1176-5986-9cdc37510515",
@@ -1263,6 +1272,14 @@
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "d42578be-b968-1d01-2927-d8d8663bd4b3",
+      "longDescription": "",
+      "shortDescription": "Issue or assistance with Azure Run-Command",
+      "searchTags": "run",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "d7a1629d-d6fb-42dd-ff65-635009e342e7",

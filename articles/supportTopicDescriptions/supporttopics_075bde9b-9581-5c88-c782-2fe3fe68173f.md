@@ -18,10 +18,10 @@
   "longDescription": "",
   "supportTopics": [
     {
-      "id": "a1af7f3a0-1757-3543-4b6a-c945c3ad187b",
+      "id": "1af7f3a0-1757-3543-4b6a-c945c3ad187b",
       "longDescription": "",
       "shortDescription": "Questions about adding, removing, or managing your partner locations in Partner Center",
-      "searchTags": "Accounts;Onboarding;Locations",
+      "searchTags": "Subsidiary;Accounts;Onboarding;Locations",
     },
     {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
@@ -36,6 +36,12 @@
       "searchTags": "Accounts;Onboarding;Specialization;Enrollment",
     },
     {
+      "id": "9ec9336c-2fc5-73ee-d0f9-6ec275fcd1ce",
+      "longDescription": "",
+      "shortDescription": "Linking of partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
+    },
+    {
       "id": "95b1a700-7fa0-a34a-4d94-79aae67c1a2d",
       "longDescription": "",
       "shortDescription": "Questions about Azure Expert MSP details and enrollment",
@@ -45,7 +51,7 @@
       "id": "eb74583c-61b3-2124-bffc-00920e0ae772",
       "longDescription": "",
       "shortDescription": "Questions about updating company details such as legal business name, address, MPN ID, and contact",
-      "searchTags": "Accounts;Onboarding;Name;Address",
+      "searchTags": "Accounts;Onboarding;Name;Address;email;primary;contact",
     },
     {
       "id": "947c4002-296a-cde8-f0b1-931edc6718f5",
@@ -75,7 +81,7 @@
       "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
       "longDescription": "",
       "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
-      "searchTags": "Accounts;Onboarding;MPNid;Organization",
+      "searchTags": "MPN;ID;Associate;Accounts;Onboarding;MPNid;Organization",
     },
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
@@ -147,19 +153,19 @@
       "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Status;Register;Enroll;Onboard;MPA",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA;register;enroll;CSP",
     },
     {
       "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
       "longDescription": "",
       "shortDescription": "How to accept the MPA, access to indirect reseller agreement for Providers and information on updates to the agreement",
-      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP;signature",
     },
     {
       "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
       "longDescription": "",
       "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements",
-      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+      "searchTags": "Signature;Sign;MPA;PMC;Onboard;Migrate;Indirect;Reseller",
     },
     {
       "id": "d61fff15-a73a-eeb1-2519-91b9bb179edf",
