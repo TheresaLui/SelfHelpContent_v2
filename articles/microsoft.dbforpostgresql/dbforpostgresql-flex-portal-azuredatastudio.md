@@ -21,7 +21,7 @@
 
 **About Azure Data Studio**
 
-To learn about Azure Data Studio, see the [primary documentation] (https://docs.microsoft.com/sql/azure-data-studio).
+To learn about Azure Data Studio, see the [primary documentation](https://docs.microsoft.com/sql/azure-data-studio).
 
 ## **Recommended Documents**
 
