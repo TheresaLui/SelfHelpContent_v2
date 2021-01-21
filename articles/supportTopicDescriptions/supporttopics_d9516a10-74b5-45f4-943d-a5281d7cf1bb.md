@@ -100,7 +100,7 @@
     {
       "id": "1d77dbfb-e2ae-5fbd-27d8-f746218b96c7",
       "longDescription": "",
-      "shortDescription": "Azure Cosmos DB Resource Limits such as storage, container item size, and any exception showing exceeded limits",
+      "shortDescription": "Azure Cosmos DB Resource limits such as storage, container item size, and any exception showing exceeded limits",
       "searchTags": "limit, quota",
       "category": "Limits and Quotas",
       "useInDiagnoseAndSolve": "true"
@@ -156,7 +156,7 @@
     {
       "id": "26727ae1-3877-49f1-ac67-4731a2e22667",
       "longDescription": "",
-      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "shortDescription": "Select the most accurate topic to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "Gremlin;Graph",
       "category": "Gremlin",
       "useInDiagnoseAndSolve": "true"
@@ -164,7 +164,7 @@
     {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
-      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "shortDescription": "Performance-related issues with SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
