@@ -27,8 +27,9 @@ If you think that your metric alert should have triggered but it did not, use th
 
 1. Review the alert rule configuration:
 
-    - Check that **Aggregation type**, **Aggregation granularity (period)** and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
-    - Review the Dynamic Thresholds advanced settings, if used, because **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated
+    - Check that the **Aggregation type** and **Aggregation granularity (period)** are configured as expected. **Aggregation type** determines how metric values are aggregated (learn more [here](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-aggregation-explained#aggregation-types)), and **Aggregation granularity (period)** controls how far back the evaluation aggregates the metric values each time the alert rule runs.
+    - Check that the **Threshold value** or **Sensitivity** are configured as expected.
+    - Review the Dynamic Thresholds advanced settings, if used, because **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated.
 
 Edit the rule to match what you want.
 
