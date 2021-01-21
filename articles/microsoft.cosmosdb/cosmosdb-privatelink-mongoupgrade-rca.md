@@ -44,7 +44,7 @@ Version 3.2 of Azure Cosmos DB's API for MongoDB is not compatible with Azure Pr
 
 3. Action required
 
-   Please file a support ticket to get your Mongo version updated.
+   File a support ticket to update your Mongo version.
 
 ## **Recommended Documents**
 
