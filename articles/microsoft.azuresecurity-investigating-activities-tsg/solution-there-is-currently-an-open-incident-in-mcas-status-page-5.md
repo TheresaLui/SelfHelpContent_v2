@@ -19,11 +19,11 @@
 
 <!--issueDescription-->
 
-Dear customer,<br>
 <br>
-There's currently an open incident that might affect your tenant performance.<br>
-Once the incident is resolved, we suggest to keep monitoring if your scenario still recreates. The status page can be found under [Cloud App Security Status](https://status.cloudappsecurity.com/)<br>
-Best regards,<br>
+Based on the troubleshooting done so far we have found the following. There's currently an open incident that might affect your tenant performance.<br>
+Once the incident is resolved, we suggest to keep monitoring if your scenario still recreates. The status page can be found under [Cloud App Security Status](https://status.cloudappsecurity.com)
+<br>
+
 
 <!--/issueDescription-->
 

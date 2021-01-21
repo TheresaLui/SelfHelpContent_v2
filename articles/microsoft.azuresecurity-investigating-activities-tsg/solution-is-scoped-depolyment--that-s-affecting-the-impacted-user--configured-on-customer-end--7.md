@@ -19,10 +19,7 @@
 
 <!--issueDescription-->
 
-Dear customer,<br>
-<br>
 Please modify your rule according to following doc [Scoped Deployment](https://docs.microsoft.com/cloud-app-security/scoped-deployment)<br>
-Best regards,<br>
 
 <!--/issueDescription-->
 

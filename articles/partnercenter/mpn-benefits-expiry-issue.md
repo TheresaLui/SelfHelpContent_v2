@@ -1,26 +1,20 @@
 <properties
-	pageTitle="MPN - Benefits expiry issue"
-	description="MPN -Benefits expiry issue"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="KalpanaChawla-Infosys"
-	ms.author="KalpanaChawla-Infosys"
-	displayOrder=""
-	articleId="mpn_benefits_expiry_issue"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32725863"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17007"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
-/>
-
+  pagetitle="MPN - Benefits expiry issue"
+  service="partnercenter"
+  resource="csp"
+  ms.author="KalpanaChawla-Infosys,keramp"
+  selfhelptype="Generic"
+  supporttopicids="32725863"
+  resourcetags="csp"
+  productpesids="17007"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="mpn_benefits_expiry_issue"
+  ownershipid="PartnerCenter_MPN_Benefits_and_Competencies" />
 # MPN - Benefits expiry issue
 
-Resources providing knowledge of Benefits expiry issues.
+## **Recommended Steps**
+
+* The expiry date listed on Microsoft Partner Center indicates the last date to exercise usage rights on the benefit. This date may differ from the expiry date listed in the product Admin portal due to a several factors including benefit activation date, number of licenses associated with the key used for activation and the licenses were added or extended on admin portal.
 
 ## **Recommended Documents**
 

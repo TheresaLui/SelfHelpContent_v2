@@ -1,8 +1,8 @@
 <properties
 	  pageTitle="Query on order by showing only 1 result"
 	  description="Query on order by showing only 1 result"
-	  service="Microsoft.DocumentDB"
-	  resource="databaseAccounts"
+      service="Microsoft.DocumentDB"
+      resource="databaseAccounts"
 	  authors="anferrei"
 	  ms.author="anferrei"
 	  displayOrder=""
@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="aa859713-a4df-4505-acee-845d9b5584d3"
+	  articleId="9932142a-5c93-4ff6-b795-b4f0e033cd70"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 

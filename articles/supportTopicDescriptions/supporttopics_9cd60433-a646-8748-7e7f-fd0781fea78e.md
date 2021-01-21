@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_9cd60433-a646-8748-7e7f-fd0781fea78e"
   ownershipid="Azure_Sentinel" />
 # Support Topic Descriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e
@@ -27,6 +28,14 @@
       "shortDescription": "Unable to see workspace in workspaces list",
       "searchTags": "workspace;visible",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "05d76cc6-6665-8d10-58c7-72ff81a9bced",
+      "longDescription": "",
+      "shortDescription": "Topics related to Alerts, Playbooks, Bookmarks, and Queries",
+      "searchTags": "alerts ;playbooks ;queries",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -126,11 +135,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "50709ed0-0612-407c-c7f1-798531a96cec",
+      "longDescription": "",
+      "shortDescription": "Topics related to Sentinel Alert and Incident management",
+      "searchTags": "Alerts;Incident",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
       "longDescription": "",
       "shortDescription": "Leveraging Threat Hunting capabilities",
       "searchTags": "threat;hunting",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58b9550d-e997-9a58-9da7-5f41244c351a",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting Bookmarks",
+      "searchTags": "bookmarks",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -147,6 +172,22 @@
       "shortDescription": "How to connect and configure data sources",
       "searchTags": "Connector;Configure",
       "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7251af10-84a8-b218-a74f-26a9820159e0",
+      "longDescription": "",
+      "shortDescription": "Log search is not displaying results or working as expected",
+      "searchTags": "log ;search",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8aa242c3-22f4-4615-f823-6eb18a6b30bb",
+      "longDescription": "",
+      "shortDescription": "Common tips for KQL design",
+      "searchTags": "KQL",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -182,6 +223,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
+      "longDescription": "",
+      "shortDescription": "Topics covering creating workspaces, access and connectivity issues",
+      "searchTags": "workspace;connectivity;create",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "Data not presenting in Sentinel Workspaces",
@@ -211,6 +260,14 @@
       "shortDescription": "Data is incorrect or mismatched in Workbook",
       "searchTags": "Workbook;Data;Missing data;Data incorrect",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dab8593e-f566-c945-7ef8-a415ed39568e",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure pricing tiers and costs",
+      "searchTags": "billing;bill;costs",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -251,6 +308,14 @@
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure Sentinel costs",
+      "searchTags": "Costs;bill;billing",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {

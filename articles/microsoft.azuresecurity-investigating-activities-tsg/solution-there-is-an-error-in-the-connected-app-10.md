@@ -19,14 +19,14 @@
 
 <!--issueDescription-->
 
-Dear customer,<br>
 <br>
 In case of any errors/exceptions reported by connector status, the correct configuration of the connector as per the public article for that app will need to be verified.<br>
 <br>
-The requirements and processes for all app connectors are listed at [Connector Apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)<br>
+The requirements and processes for all app connectors are listed at [Connector Apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
 <br>
-For troubleshooting of known API errors, please see [Troubleshooting API Connectors](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages)<br>
-Best regards,<br>
+<br>
+For troubleshooting of known API errors, please see [Troubleshooting API Connectors](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages)
+<br>
 
 <!--/issueDescription-->
 
