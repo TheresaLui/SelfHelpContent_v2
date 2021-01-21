@@ -85,6 +85,11 @@ On the other hand, in the case of **creating a Spark table**, the metadata of th
 
 Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store, respectively. [Learn more](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).  
 
+### **You are getting the "File cannot be opened" Error**  
+
+If you are getting the "Failed to execute query. File .... cannot be opened because it does not exist or is used by another process" error message, please check your permissions on the Azure Data Lake Store that supports your Synapse Workspace. For more information, click [here](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#create-a-synapse-workspace)  
+
+
 ## **Recommended Documents**  
 
 [What is Azure Cosmos DB Analytical Store](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction)
