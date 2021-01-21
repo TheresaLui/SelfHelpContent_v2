@@ -1,5 +1,5 @@
 <properties
-  pagetitle="V2 Pipeline Errors and Problems"
+  pagetitle="V2 Pipeline Errors and Problems&#xD;"
   service=""
   resource=""
   ms.author="brianwan"
@@ -13,6 +13,10 @@
 # V2 Pipeline Errors and Problems
 
 ## **Recommended Steps**
+
+* A warm up around 2 minutes at least for each copy activity to start, and it occurs primarily on VNet join rather than Azure IR, it can be one of copy performance issue, if you want to troubleshoot similar issue about Copy Perf one, highly recommend you to review [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting)
+
+* Sometimes, you may encounter the capacity issue from Self-IR, you need to upgrade the VM to increase the node to balance the Activities. Meanwhile, if you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide)
 
 * If you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide)
 
