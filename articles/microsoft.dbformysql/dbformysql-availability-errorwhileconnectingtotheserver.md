@@ -28,7 +28,7 @@ This happens because the client-side firewall is blocking outbound connections, 
 * **Error: Access denied for user 'user'@'IP_Address' (using password: YES)** <br>
 See [Error 1045 troubleshooting guide](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1045-28000-access-denied-for-user-usernameip-address-using-password-yes)
 
-* **Error: Client with IP address 'XXX.XX.XXX.X' is not allowed to connect to this MySQL server.** <br>
+* **Error: Client with IP address '*nnn.nn.nnn.n*' is not allowed to connect to this MySQL server.** <br>
 Make sure that the IP address is allowed on the [server Firewall rule](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) and that you are using correct username format "your_user@servername" and the right password.
 
 * **Error 2013: Lost connection to MySQL server during query**<br>
