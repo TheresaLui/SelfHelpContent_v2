@@ -11,4 +11,6 @@
 
 # Identity Protection Policy
 
-Identity Protection has licensing requirements in order to use the feature without limitations, please find more information in [isp licensing](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection#license-requirements).
+This tenant is a <!--$license-->[license]<!--/$license--> tenant and some features like the risky users and risk detection for the risk event may be obfuscated. In order to see the complete data, you will need to have an Azure AD Premium 2 license.
+
+For more information, please refer to [isp licensing](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection#license-requirements).
