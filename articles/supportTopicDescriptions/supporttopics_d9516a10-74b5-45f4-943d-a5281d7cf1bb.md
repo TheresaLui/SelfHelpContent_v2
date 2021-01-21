@@ -910,7 +910,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
