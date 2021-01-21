@@ -15,12 +15,13 @@ ownershipId="StorageMediaEdge_XStore"
 
 ## Recover Deleted Storage Account
 
-If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.
-
 :::Section Recommended solutions:::
 
 ### Initiate Account Recovery
 Click on the button below to initiate storage account recovery. Make sure the right subscription is selected as the diagnostic runs in context of the current subscription only.
+
+<span style="color:red">Note</span> : If you intend to recover specific containers, blobs, files etc please go back to "Basics" tab and select "Recover deleted storage data" as the problem subtype instead.
+
 <Insight>
 <symptomId>Storage_Account_Recovery_Portal_Insight</symptomId>
 <executionText>We are running a quick check to find recently deleted storage account</executionText>
