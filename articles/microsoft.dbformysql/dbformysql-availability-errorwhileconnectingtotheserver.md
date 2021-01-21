@@ -25,7 +25,7 @@ See [MySQL gone away troubleshooting guide](https://techcommunity.microsoft.com/
 * **I can connect from one device, but can't from another device** <br>
 This happens because the client-side firewall is blocking outbound connections, or the private network is not allowed to connect to the Azure Database for MySQL. Install [psping](https://docs.microsoft.com/sysinternals/downloads/psping) on your client machine to verify connectivity to Azure Database for MySQL. Also, try connecting from a public network.
 
-* **Error: Access denied for user 'user'@'IP_Address' (using password: YES)** <br>
+* **Error: Access denied for user '*user'@'IP_Address*' (using password: YES)** <br>
 See [Error 1045 troubleshooting guide](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1045-28000-access-denied-for-user-usernameip-address-using-password-yes)
 
 * **Error: Client with IP address '*nnn.nn.nnn.n*' is not allowed to connect to this MySQL server.** <br>
@@ -34,7 +34,7 @@ Make sure that the IP address is allowed on the [server Firewall rule](https://d
 * **Error 2013: Lost connection to MySQL server during query**<br>
 This is a common error for MySQL databases. Try to increase the value of the following parameters to solve this issue: `Max_allowed_packet`, `Connect_timeout`, `net_write_timeout`, `net_read_timeout`, `wait_timeout`. Maxing out resource utilization can yield to this error too. Review [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 
-* **The last packet sent successfully to the server was X milliseconds ago. The driver has not received any packets from the server**.<br>
+* **The last packet sent successfully to the server was *nn* milliseconds ago. The driver has not received any packets from the server**.<br>
 You should consider either expiring or testing the connection validity before using it in your application. Increase the server configured values for client timeouts, or use the Connector/J connection property `autoReconnect=true` to avoid this problem.
 
 * **Change username format from your_user@servername or port 3306** <br>
