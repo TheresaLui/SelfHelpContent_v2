@@ -24,7 +24,7 @@ In Azure Database for PostgreSQL, you can alert on metrics for your Azure servic
 
 * If you are having trouble creating and managing metric alerts, review the [Azure metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric) guide
 * If you are having trouble using Azure CLI:
-  * Make sure you are signed in to the correct account using **az login**
+  * Ensure you are signed in to the correct account using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az monitor metrics alert** with valid values. Review the [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) documentation for valid parameters.
 
