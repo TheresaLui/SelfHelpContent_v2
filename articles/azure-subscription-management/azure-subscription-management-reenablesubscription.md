@@ -15,32 +15,37 @@
 	ownershipId="ASMS_SubscriptionManagement"
 />
 
-# Re enable Subscription
+# Re-enable Subscription
 
-Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was cancelled by a Subscription owner. Refer below on how you can re-enable your subscription
+Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was cancelled by a subscription owner. Refer below on how you can re-enable your subscription
 Learn more: [Reactivate Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
 ## **Recommended Steps**
 
-**Re-enable your Azure Subscription (subscription was accidentally cancelled)** <br>
-If you are a Subscription owner you can reactivate a subscription in the Azure portal.
+**Re-enable your Azure subscription (subscription was accidentally cancelled)** <br>
+If you are a subscription owner you can reactivate a subscription in the Azure portal.
 
 1. Sign in to the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-2. Go to subscriptions and select the cancelled subscription
+2. Select the cancelled subscription to look at the subscription details
 3. Click **Reactivate**
 4. Confirm reactivation by selecting OK
+5. Please allow up to 30 minutes for the subscription status to reflect in the portal
 
 ### **Bill past due**
-To resolve past due balance, see [Resolve past due balance for your Azure subscription after getting an email from Azure](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)
 
 **Need to make a payment** <br>
-A subscription can be disabled due to a non-payment. To re-enable a subscription, navigate to [invoices](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Invoices) under billing and select Pay Now to make a one-time payment. For modern customers,avoid missing future payments by navigating to [payment methods](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/billingAccountPaymentMethodItem), select the **Default payment method** and updating your payment information.
+A subscription can be disabled due to a non-payment. To re-enable a subscription, navigate to [invoices](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Invoices) under billing and select Pay Now to make a one-time payment. For modern customers, avoid missing future payments by navigating to [payment methods](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/billingAccountPaymentMethodItem), select the **Default payment method** and update your payment information. To resolve past due balance, see [Resolve past due balance for your Azure subscription](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)
 
 Learn more: [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill)
 [Pay for your subscription by invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice)
 
 **Made a payment but subscription is still disabled** <br>
 It can take up to 24 hours after a payment has been made for your subscription status to reflect your payment. If it has been longer than 24 hours and your subscription is still disabled, please submit a support request for further assistance.
+
+### **Expired credit card**
+
+When you sign up for an **Azure free account**, you get a Free Trial subscription, which provides you $200 in Azure credits for 30 days and 12 months of free services. At the end of 30 days, Azure disables your subscription. Your subscription is disabled to protect you from accidentally incurring charges for usage beyond the credit and free services included with your subscription. To continue using Azure services, you must [upgrade your subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription). After you upgrade, your subscription still has access to free services for 12 months. You only get charged for usage beyond the free services and quantities.<br>
+Learn more: [Expired credit card](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable#your-credit-is-expired)
 
 ### **Spending Limit reached**
 When your usage reaches the spending limit, Azure disables your subscription for the remainder of that billing period. Your subscription is disabled to protect you from accidentally incurring charges for usage beyond the credit included with your subscription. To remove your spending limit, see [Azure spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit).<br>
@@ -58,7 +63,7 @@ Example:
   * The interval is then added to the original SA, and the sum becomes the new SA date (25+6=31).
 **Note**: In this example, since the SA date is now greater than 28, the new SA date will be the 1st of the following month.
 
-**Tried self-reactivation and failed** <br>
+**Tried self-reactivation and subscription status still did not update** <br>
 After selecting OK to confirm reactivation, please allow up to 30 minutes for the changes to be reflected in the portal. To check if the subscription is reactivated, refresh the page and check the status of the subscription. If the subscription is still in a disabled state after 30 minutes, please submit a support request for further assistance.
 
 ## **Recommended Documents**
