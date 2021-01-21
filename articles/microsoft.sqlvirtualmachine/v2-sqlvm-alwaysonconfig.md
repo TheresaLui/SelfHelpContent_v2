@@ -42,12 +42,12 @@ Most customers can resolve issues regarding setting up Always On Availability Gr
     - Figure out the **Variables** using the following chart and ensure that you have [run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener)
      
       
-     * **Cluster Network Name:** In Failover Cluster Manager > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
-     * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > **Roles**, under the SQL Server FCI role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab. 
-     * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
-     * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
+      * **Cluster Network Name:** In Failover Cluster Manager > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
+      * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > **Roles**, under the SQL Server FCI role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab. 
+      * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
+      * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
 
-      **Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role.
+       **Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role.
 
 ## **Recommended Documents**
 * [Prerequisites, Restrictions, and Recommendations for Always On availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-ver15)
