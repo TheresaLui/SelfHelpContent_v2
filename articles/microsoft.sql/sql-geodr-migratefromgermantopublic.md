@@ -20,10 +20,10 @@
 
 To migrate  smaller Azure SQL database workloads using offline method, you can use export/import method to export your database to  .bacpac and import the .bacpac to the target  server location. Exporting and Importing azure database can be done using Azure Portal,  SQLPackage Utility tool, SQL Server Management Studio (SSMS) and PowerShell.
 
-- [Steps to Export Database to a .bacpac](https://review.docs.microsoft.com/azure/azure-sql/database/database-export?branch=pr-en-us-138592)<br>
+- [Steps to Export Database to a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-export?branch=pr-en-us-138592)<br>
 
 
-- [Steps to Import database from a .bacpac](https://review.docs.microsoft.com/azure/azure-sql/database/database-import?branch=pr-en-us-138592&tabs=azure-powershell)<br>
+- [Steps to Import database from a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-import?branch=pr-en-us-138592&tabs=azure-powershell)<br>
 
 
 ### **Migrate database using Geo-Replication Method**
@@ -47,10 +47,10 @@ If you prefer to migrate using Active Geo-Replication, please follow the instruc
 |1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
 |2 |a312i8348c-dd9f-442c-a531-021090a25833  |QX3455555e-449f-R23GB-c333-73jdj876eir0  |
 
-- Once you receive the access confirmation from us for subscription pairs, please  follow the instructions to [Migrate your database using active Geo Replication](https://review.docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
+- Once you receive the access confirmation from us for subscription pairs, please  follow the instructions to [Migrate your database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
 
 
 ## **Recommended Documents**
 
-* [Migrate database resources to Global Azure](https://review.docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592)<br>
+* [Migrate database resources to Global Azure](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592)<br>
 * [Microsoft Cloud Deutschland transition](https://www.microsoft.com/cloud-platform/germany-cloud-regions)   
