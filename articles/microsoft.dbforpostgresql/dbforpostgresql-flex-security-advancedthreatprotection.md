@@ -18,4 +18,5 @@
 # Advanced Threat Protection in Azure Database for PostgreSQL
 
 ## **Recommended Steps**
+
 Advanced Threat Protection is not supported for Flexible Server.
