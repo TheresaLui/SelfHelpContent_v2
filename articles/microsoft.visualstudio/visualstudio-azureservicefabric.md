@@ -18,7 +18,7 @@
 
 # Azure Pipeline issues during service fabric deployment and use
 
-**Common Azure Pipeline issues during service fabric deployment and use**
+## Common Azure Pipeline issues during service fabric deployment and use
 
 Resolve most common Azure Pipeline issues with the following solutions.
 
