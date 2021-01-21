@@ -120,11 +120,7 @@
             "displayLabel": "Chose the virtual network connected to your on-premise network",
             "watermarkText": "Choose a virtual network",
             "dynamicDropdownOptions": {
-<<<<<<< Updated upstream
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualHubs?api-version=2020-07-01",
-=======
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualHubs?api-version=2020-07-01",
->>>>>>> Stashed changes
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{subscriptionId}/providers/Microsoft.Network/virtualWans?api-version=2020-07-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
