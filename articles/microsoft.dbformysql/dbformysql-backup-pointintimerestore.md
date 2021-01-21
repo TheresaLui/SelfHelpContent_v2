@@ -33,9 +33,9 @@ Resolve your issue by reviewing the following questions and solutions.
 
 * **User access issue for the restored server/ Access denied** <br>
    Read the following guides:<br>
-    1. [Azure MySQL migration best practices](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online).
-    2. [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/export-and-import-mysql-users-and-privileges-to-azure-database/ba-p/916995).
-    3. [Tips and Tricks in using `mysqldump` and `mysql restore` to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/tips-and-tricks-in-using-mysqldump-and-mysql-restore-to-azure/ba-p/916912).
+   - [Azure MySQL migration best practices](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online).
+   - [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/export-and-import-mysql-users-and-privileges-to-azure-database/ba-p/916995).
+   - [Tips and Tricks in using `mysqldump` and `mysql restore` to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/tips-and-tricks-in-using-mysqldump-and-mysql-restore-to-azure/ba-p/916912).
 
 * **Migrate MySQL to Azure Database for MySQL online?**<br>
    [Tutorial: Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online#prerequisites).
