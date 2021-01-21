@@ -25,12 +25,12 @@ To migrate  smaller Azure SQL database workloads using offline method, you can u
 
 ### **Migrate using Geo-Replication Method**
 For large database it is not recommended to use export/import. To migrate large database you can configure active geo-replication from Azure Germany Cloud(Source) to Global Azure cloud (Target)
-To migrate using Active Geo-Replication, please follow the instructions below and then proceed with creating a support request to get required access for your subscriptions.
+To migrate using Active Geo-Replication, ensure to provide required information as listed below and proceed with creating this support request.
 
-**Requirements**
+**Information required**
 - Mandatory subscription listing is required for the database migration using active geo-replication from Microsoft Cloud Germany (MCG) to Azure Global Cloud (AGC).
-- Unique pair of your  Source Subscription (Germany Cloud Subscription) and target subscription ID (Global Azure Subscription) is required  to allow active geo-replication for  database migration from German cloud to Global azure subscription.
-- When submitting this request, please ensure to provide  Company Name, Name, Contact Email and list the subscriptions in unique pairs  as shown below.
+- Unique pair of  source Subscription (Germany Cloud Subscription) and target subscription ID (Global Azure Subscription) is required  to allow active geo-replication for migrating databases from German cloud to Global azure subscription.
+- When submitting support request, please ensure to provide  Company Name, Name, Contact Email and  provide the subscriptions in unique pairs  as shown below.
 
 - |No|Microsoft Cloud Germany (MCG)- source           |Azure Global Cloud (AGC)- target |
 |--|--|--|
