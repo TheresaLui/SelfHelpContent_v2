@@ -24,7 +24,7 @@ The time taken to execute a `SELECT 1` query is a common way to measure the netw
 * Ensure that your client and PostgreSQL Database are in the same Azure region
 * If your client is hosted in an Azure VM, turn on accelerated networking for lowest connection latency
 * Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. We strongly recommend connection pooling to avoid the overhead of establishing new connections.
-* Reduce the number of round trips between your application and the database if possible
+* Reduce the number of round trips between your application and the database, if possible
 * We strongly recommend that you use a database connection pool or a long connection to Azure Database for PostgreSQL.
 
 ## **Recommended Documents**
