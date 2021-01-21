@@ -19,7 +19,7 @@
 <br> 
 <!--Head1 required for internal reference only--> 
 
-Directions: Copy the raw form of this article to create Apollo common solutions articles for the Azure self-help platform.
+Directions: Copy the raw form of this article to create Apollo common solutions articles. Authoring guidelines and sample schemas are provided in the template.
 
 ## Title - Required
 <!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
