@@ -93,7 +93,7 @@
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-05-01",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -120,7 +120,11 @@
             "displayLabel": "Chose the virtual network connected to your on-premise network",
             "watermarkText": "Choose a virtual network",
             "dynamicDropdownOptions": {
+<<<<<<< Updated upstream
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-05-01",
+=======
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-11-01",
+>>>>>>> Stashed changes
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
