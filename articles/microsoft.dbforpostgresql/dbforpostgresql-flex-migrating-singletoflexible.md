@@ -18,4 +18,5 @@
 # Migrate from single server to flexible server
 
 ## **Recommended Steps**
+
 * Use the [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/tutorial-azure-postgresql-to-azure-postgresql-online-portal) to migrate from Azure Database for PostgreSQL single server to flexible server
