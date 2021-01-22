@@ -42,6 +42,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "03109984-cd60-5051-6f5f-894bf1251da8",
+      "longDescription": "",
+      "shortDescription": "If you are having issues configuring SSL offload or SSL termination in Application Gateway",
+      "searchTags": "ssl offload;ssl termination;tls;configure;certificate",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0506441f-8ca0-ef07-5ab5-ce31301f6d28",
       "longDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",
       "shortDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",
@@ -146,6 +154,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "4a2660bb-e876-33ba-052c-0cd103bc72d3",
+      "longDescription": "",
+      "shortDescription": "If you are receiving 502 Bad Gateway error for a health probe status, all of the servers in your backend pool are unhealthy.",
+      "searchTags": "502;unhealthy;health probe;502 error;probe",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "51c18a5b-d8f6-94eb-8689-2b9a39651b30",
       "longDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
       "shortDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
@@ -248,6 +264,14 @@
       "searchTags": "appgw;application gateway;app gw;waf;web application firewall;waf policy;per-site;per site",
       "category": "WAF",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "8192327f-cf51-c486-1c9a-afda3ced5262",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to Application Gateway Ingress Controller Add-On for AKS",
+      "searchTags": "agic;ingress controller;add-on;aks;add on",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "82697465-2215-1c84-7e0e-99ce0bef405b",

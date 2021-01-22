@@ -50,6 +50,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0d703174-0622-2c6c-625f-c58e14597a2b",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
+      "searchTags": "SDK;Nodejs;Javascript;api",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
       "longDescription": "",
       "shortDescription": "How to with Azure Cosmos DB Cassandra API, including Data Migration",
@@ -63,6 +71,14 @@
       "shortDescription": "Error or exception when using Data Factory with Cosmos DB",
       "searchTags": "data factory",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "179deae0-b1ed-6f90-7b2b-4d4b39a574d3",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Throughput and Scaling",
+      "searchTags": "Throughput",
+      "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -92,7 +108,7 @@
     {
       "id": "1d77dbfb-e2ae-5fbd-27d8-f746218b96c7",
       "longDescription": "",
-      "shortDescription": "Azure Cosmos DB Resource Limits such as storage, container item size, and any exception showing exceeded limits",
+      "shortDescription": "Azure Cosmos DB Resource limits such as storage, container item size, and any exception showing exceeded limits",
       "searchTags": "limit, quota",
       "category": "Limits and Quotas",
       "useInDiagnoseAndSolve": "true"
@@ -102,7 +118,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -148,7 +164,7 @@
     {
       "id": "26727ae1-3877-49f1-ac67-4731a2e22667",
       "longDescription": "",
-      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "shortDescription": "Select the most accurate topic to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "Gremlin;Graph",
       "category": "Gremlin",
       "useInDiagnoseAndSolve": "true"
@@ -156,7 +172,7 @@
     {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
-      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "shortDescription": "Performance-related issues with SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
@@ -287,6 +303,14 @@
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "SQL",
       "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "419f2aa0-0630-86f3-52d4-61447be932b2",
+      "longDescription": "",
+      "shortDescription": "How-to guidance for Cosmos DB Account Administration",
+      "searchTags": "Administration",
+      "category": "Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -490,6 +514,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7079b122-3e9e-90e9-f7ab-fff77e3994d7",
+      "longDescription": "",
+      "shortDescription": "Issues with Indexing on Cosmos DB MongoDB API accounts",
+      "searchTags": "MongoDB;Mongo",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
       "longDescription": "",
       "shortDescription": "Issues with using Azure Private Link via a private endpoint",
@@ -534,7 +566,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -558,7 +590,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -646,6 +678,14 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API Java SDK",
       "searchTags": "Java;SDK;API",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "90e00ac4-6301-8178-2b36-d69e85dbf280",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK .NET",
+      "searchTags": "SDK;.NET;API",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -814,6 +854,14 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK .NET",
       "searchTags": ".NET;API;SDK",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "acf92de9-ca26-d6eb-cc8d-9f23ace52100",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Core (SQL)",
+      "searchTags": "Core (SQL)",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -822,6 +870,14 @@
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Spark connector with Cosmos DB",
       "searchTags": "spark",
+      "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b21fea52-0767-d410-1ca8-74ea0e13db8b",
+      "longDescription": "",
+      "shortDescription": "Issues related to Spring Data Cosmos DB",
+      "searchTags": "Spring;Data",
       "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -838,7 +894,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API Java SDK",
       "searchTags": "Java;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -854,7 +910,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -914,6 +970,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c3b81176-5ee9-2ee9-873a-e3e50f9f6a62",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Security related issues",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e0565b-872c-b867-8cf4-dfa0518b449f",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account or change an existing Azure Cosmos DB account configuration",
@@ -935,6 +999,14 @@
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "Cassandra",
       "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c6827aba-c69c-dd6d-5be3-a50d601744b1",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Azure Synapse Link",
+      "searchTags": "Synapse;Link",
+      "category": "Azure Synapse Link",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -982,7 +1054,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK .NET",
       "searchTags": ".NET;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -991,6 +1063,14 @@
       "shortDescription": "Unable to customize index, index creation is not taking effect, rebuilding index and query is not using index",
       "searchTags": "query, indexing",
       "category": "Throughput",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1e43aad-5f35-ab29-a519-81d34d17de86",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with Cosmos DB Managed Identity Integration",
+      "searchTags": "Identity;Managed;Security",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
