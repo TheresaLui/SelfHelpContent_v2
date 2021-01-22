@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 # Requests to storage account failed authorization due to insufficient ACL permission
 <!--issueDescription-->
- Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**, we didn't find any requests that failed authorization due to an insufficient **Access Control List (ACL)** associated with the user (service principal). However, we found a recent occurrence of ACL failures around **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->**.
+ Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**, we didn't find any requests that failed authorization due to an insufficient **Access Control List (ACL)** associated with the user (service principal). However, we found a recent occurrence of ACL failures around the **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
