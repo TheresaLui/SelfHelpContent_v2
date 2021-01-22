@@ -19,17 +19,18 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 # Requests to storage account failed authorization due to insufficient ACL permission
 <!--issueDescription-->
- Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** we didn't find any requests that failed authorization due to insufficient **Access Control List (ACL)** associated with the user(service principal). However we found recent occurrence of ACL failures around **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->**
+ Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**, we didn't find any requests that failed authorization due to an insufficient **Access Control List (ACL)** associated with the user (service principal). However, we found a recent occurrence of ACL failures around **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Below table shows details of the failed requests with operation type Get(Read) or Put/Post(Write) along with the folder or file path and user. For successful authorization the user(service principal) should posses the following ACL.
 
-- **For folder path** - Please provide **Execute**(**X**) and **Read**(**R**) permission on the concerned folder and **Execute**(**X**) permission on all the parent folders till root.<br>
-- **For file path** - Please provide **Read**(**R**) or **Write**(**W**) depending on the operation on the file and **Execute**(**X**) permission on all the parent folders till root.
+The following table shows details of the failed requests with the operation type `Get(Read)` or `Put/Post(Write)`, along with the folder or file path and user. For successful authorization, the user (service principal) should have the following ACLs:
 
-Please refer [Manage Access control lists (ACLs) in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control?WT.mc_id=Portal-Microsoft_Azure_Support) to learn more about ACLs.
+- **For the folder path** - Provide **Execute**(**X**) and **Read**(**R**) permissions for the relevant folder and **Execute**(**X**) permission on all the parent folders till root.<br>
+- **For the file path** - Provide **Read**(**R**) or **Write**(**W**) permission, depending on the operation on the file and **Execute**(**X**) permission on all the parent folders till root.
 
-**Note:** There may be more client IPs for which requests were blocked which we are not able to display here. To view the full list, review the **[storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging)**.
+To learn more about ACLs, see [Manage Access control lists (ACLs) in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control?WT.mc_id=Portal-Microsoft_Azure_Support).
+
+**Note:** There may be more client IPs for which requests are blocked, but that are not displayed here. For  the full list, see the **[storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging)**.
 
 Sample list of requests that failed ACL authorization:<br><!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->
