@@ -17,19 +17,18 @@
 
 # Cancel Subscription
 
-If you cancel a paid Azure Support plan, you are billed for the rest of the subscription term. Pay-as-you-go customers can cancel at any time without any penalty fees. You will still owe the balance for any unbilled or unpaid monthly consumption.<br>
+If you cancel a paid Azure Support plan, you are billed for the rest of the subscription term. Pay-as-you-go customers can cancel at any time without any penalty fees. You will still owe the balance for any unbilled or unpaid monthly consumption. Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 
-Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 
 ## **Recommended Steps**
 
-### Cancel Subscription in Azure portal
+### Cancel subscription in the Azure portal
 
 1. Select your subscription from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
 2. Select the subscription that you want to cancel. When the blade opens select **Overview**.
 3. Select **Cancel subscription**
 4. Follow prompts and finish cancellation
-5. Please allow up to 30 minutes for the subscription status to update in the portal.
+5. Allow up to 30 minutes for the subscription status to update in the portal.
    For more information, see **Recommended Documents**
   
    If you don't want to cancel your subscription but want to stop charges for a resource, you can manually delete them using the Azure portal. Learn more: [Delete resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
