@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bdd13e33-c480-311a-2732-386781b82ba0",
+      "longDescription": "",
+      "shortDescription": "Power BI errors when getting data from Azure Analysis Services",
+      "searchTags": "Power BI;PowerBI error",
+      "category": "Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bfb92303-7122-055b-398e-ef0bb88ceedb",
       "longDescription": "",
       "shortDescription": "Azure portal operations including making changes to the server settings",
