@@ -13,23 +13,26 @@
   ownershipid="AzureData_DataFactory" />
 # V2 - Copy Activity and Self-Hosted IR – Errors or unexpected results
 
-**Note -** If you use **Self-Hosted IR** with related SHIR problems such as SHIR connectivity and others about known issues, please follow the steps on the [Self-IR troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide), and take note of the **Report ID** to provide it with the support request.
+Resolve issue related to Self-Hosted Integration Runtime (SHIR) using these steps.
 
-If the execution of a **Copy Activity** throws an error code or exception code you can start by validating if the error is contained on the [General Copy Activity errors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error) documentation which contains the most common errors from different data sources and the actions that could help resolving them.
+## Recommended Steps
 
-For formatting errors, review the following sections:
+* If you use Self-Hosted IR and experience known SHIR problems, follow the steps on the [Self-IR troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide). Note the **Report ID** and provide it with the support request.
 
-* Troubleshooting errors associated with CSV files or [Delimited Text format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format) in general
-* Troubleshooting errors related with [JSON format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
-* Troubleshooting errors when using [Parquet format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
+* If running **Copy Activity** throws an error or exception code, start by validating whether the error is in the [General Copy Activity errors documentation](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error). This article contains most common errors from different data sources and actions to resolve them.
 
-For errors on the most commonly associated data sources and sinks, review the following error troubleshooting guides:
+* For formatting errors, review the following sections:
 
-* [SQL connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
-* [Azure Storage connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
-* [ADLS Gen 1 connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
-* [ADLS Gen 2 connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen2)
-* [Cosmos DB connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
+   * Troubleshoot errors associated with CSV files or [Delimited Text format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format) in general
+   * Troubleshoot errors related with [JSON format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
+   * Troubleshoot errors when using [Parquet format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
+
+* For errors on the most commonly associated data sources and sinks, review the following error troubleshooting guides:
+   * [SQL connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
+   * [Azure Storage connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
+   * [ADLS Gen 1 connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
+   * [ADLS Gen 2 connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen2)
+   * [Cosmos DB connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
    
 ## **Recommended Documents**
 
