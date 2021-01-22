@@ -12,19 +12,19 @@
   ownershipid="AzureData_DataFactory" />
 # V2 Pipeline Errors and Problems
 
+Resolve most V2 pipeline errors using the following recommendations.
+
 ## **Recommended Steps**
 
-* A warm up around 2 minutes at least for each copy activity to start, and it occurs primarily on VNet join rather than Azure IR, it can be one of copy performance issue, if you want to troubleshoot similar issue about Copy Perf one, highly recommend you to review [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting)
+* If each copy activity is taking up to 2 minutes to start, and the problem occurs primarily on a VNet join (vs. Azure IR), this can be a copy performance issue. Review [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting).
 
-* Sometimes, you may encounter the capacity issue from Self-IR, you need to upgrade the VM to increase the node to balance the Activities. Meanwhile, if you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide)
-
-* If you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide)
+* If you encounter a capacity issue from Self-IR, upgrade the VM to increase the node to balance the activities. If you receive an error message about a self-hosted IR general failure or error, a self-hosted IR upgrade, or self-hosted IR connectivity issues, which can generate a long queue, see [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide).
 
 * If you receive an error message from any source or destination via connectors, which can generate a long queue, see the [Connector Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
 
 * If you receive an error message about Mapping Data Flow, which can generate a long queue, see the [Data Flows Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
 
-* If you receive an error message about other activities, such as Databricks, custom activities, HDI, which can generate a long queue, see the [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
+* If you receive an error message about other activities, such as Databricks, custom activities, or HDI, which can generate a long queue, see the [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
 
 * If you receive an error message about running SSIS packages, which can generate a long queue, see the Azure-SSIS [Package Execution Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-ssis-activity-faq) and [Integration Runtime Management Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) for more information
 
