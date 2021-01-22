@@ -31,6 +31,6 @@ The following table shows the details of the failed requests with the operation 
 
 To learn more about ACLs, see [Manage Access control lists (ACLs) in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-**Note:** There may be more client IPs with blocked requests that are not shown here. For the full list, see the **[storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging)**.
+**Note:** There may be more client IPs with blocked requests that are not shown here. For the complete list, see the **[storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging)**.
 
 Sample list of requests that failed ACL authorization:<br><!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->
