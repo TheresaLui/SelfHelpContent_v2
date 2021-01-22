@@ -24,7 +24,10 @@ Nodes within your HDInsight cluster are experiencing a problem due to some nodes
 
 ## **Recommended Steps**
 
-* SSH onto the nodes, given from Support Engineer, within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
-* Open the hosts files vi /etc/hosts
-* Update the host files with the headnodehost pointing to the other headnode
-* Save and close the file
+1. SSH onto the nodes, provided by your Support Engineer, within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
+2. Open the hosts files **vi /etc/hosts**
+3. Update to make sure all nodes in the cluster have **/etc/hosts** files, and point to the same and correct headnodehost VM. Look for keyword 'headnodehost' in a line in **/etc/hosts** file, for example: <br>
+
+   `10.0.0.16       hn1-spec1k.i2ypcarpryeebf2lwa3xcs1gaa.jx.internal.cloudapp.net  hn1-spec1k      headnodehost    hn1-spec1k.i2ypcarpryeebf2lwa3xcs1gaa.jx.internal.cloudapp.net.  headnodehost.   # SlaveNodeManager`
+
+4. Save and close the file
