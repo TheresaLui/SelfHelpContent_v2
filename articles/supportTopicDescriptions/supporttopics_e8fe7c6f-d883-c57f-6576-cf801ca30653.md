@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b62d71c1-44d2-9f17-309e-20ec556664af",
+      "longDescription": "",
+      "shortDescription": "Configure the data gateway to be used by Analysis Services",
+      "searchTags": "configure gateway;gateway configuration;configure data gateway",
+      "category": "On-Premise Data Gateway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e78b9b-41b9-d72a-2651-d996889f0675",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
