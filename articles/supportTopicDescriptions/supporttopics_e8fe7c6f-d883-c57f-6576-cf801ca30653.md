@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b84eddd1-10b9-ba39-bf09-dc13983510ac",
+      "longDescription": "",
+      "shortDescription": "Backup and restore of database either using SSMS or using a PowerShell command, or problem with configure backup storage container",
+      "searchTags": "Backup;Restore;SSMS;Powershell;Storage Container",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e78b9b-41b9-d72a-2651-d996889f0675",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
