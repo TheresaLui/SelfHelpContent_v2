@@ -20,12 +20,12 @@
 # Error UserErrorBailingOutFromBackupOtherNodeMarkerExists
 
 <!--issueDescription-->
-We have identified that your databases is a part of Always on Availability Group, Backup was successful on one of the node from the same Availability Group.
+We have identified that your databases is a part of Always on Availability Group. Backup was successful on one of the nodes from the same Availability Group.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. In case of databases which are part of Always on Availability Group, both the Primary and the Secondary nodes are capable of taking log backups.
-1. By default Azure Workload Backup triggers the backup request on all the nodes of AG and checks for the Backup preference of the Always on Availability group. 
-1. In case the Backup Preference of the Always on Availability group is Prefer Secondary or Any Replica, all the nodes (Primary and multiple secondaries) will compete to take the log backups but at the end only one of the nodes proceeds with the log backup for the database. 
-1. This is decided internally by Azure Workload Backup by stimulating a lock based mechanism between the AG nodes. The node which successfully takes the lock proceeds with the backup and the backup task on rest of the nodes fails with UserErrorBailingOutFromBackupOtherNodeMarkerExists.
+1. Databases in the Always on Availability Group have Primary and the Secondary nodes, which are capable of taking log backups.
+1. By default, Azure Workload Backup triggers the backup request on all nodes of Availability Group (AG). It also checks for the Backup preference of the Always on Availability group. 
+1. If the Backup Preference of the Always on Availability group is set to **Prefer Secondary or Any Replica**, all nodes (Primary and multiple secondaries) compete to take the log backups. Ultimately, only one node will proceed with the log backup for the database. 
+1. To determine which node will proceed with the log backup, Azure Workload Backup stimulates a lock-based mechanism between the AG nodes. The node that successfully takes the lock proceeds with the backup. On the remaining nodes, the backup task fails with "UserErrorBailingOutFromBackupOtherNodeMarkerExists
