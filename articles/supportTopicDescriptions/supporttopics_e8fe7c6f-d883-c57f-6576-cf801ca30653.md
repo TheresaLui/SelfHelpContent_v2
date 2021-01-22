@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7ba2ac8-6c62-e4f3-6fc7-2aa4e092ab31",
+      "longDescription": "",
+      "shortDescription": "Failure to run Azure Automation runbook to execute refresh or other operations",
+      "searchTags": "Azure Automation;runbook;automation account",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a9973b71-c65d-6d90-ea28-a0eada1e62a8",
       "longDescription": "",
       "shortDescription": "How to guidance related to Azure Analysis Services",
