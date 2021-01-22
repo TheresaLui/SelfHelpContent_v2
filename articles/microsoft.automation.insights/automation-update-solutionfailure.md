@@ -37,4 +37,4 @@ We have detected that the configuration settings for Update Management didn't de
 * [Supported Operating Systems](https://docs.microsoft.com/azure/automation/update-management/overview#supported-operating-systems)
 * [System Requirements](https://docs.microsoft.com/azure/automation/update-management/overview#system-requirements)
 * [Role Based Permission requirements](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management-permissions)
-* [Network Requirements](https://docs.microsoft.com/en-us/azure/automation/update-management/overview#ports)
+* [Network Requirements](https://docs.microsoft.com/azure/automation/update-management/overview#ports)
