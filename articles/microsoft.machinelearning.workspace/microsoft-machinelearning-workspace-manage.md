@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Problem provisioning or managing workspace"
+  pagetitle="Managing associated resources (storage, key vault, container registry, app insights)&#xD;"
   service="microsoft.machinelearning.workspace"
   resource="machinelearning"
-  ms.author="johwu,roastala"
+  ms.author="roastala,johwu"
   selfhelptype="Generic"
   supporttopicids="32690836"
   resourcetags=""
@@ -10,33 +10,41 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
   articleid="microsoft.machinelearning.workspace.manage"
   ownershipid="AzureML_AzureMachineLearningServices" />
-# Problem provisioning or managing workspace
+# Managing associated resources (storage, key vault, container registry, app insights)
+
+All workspaces consist of a set of associated resources (storage account, key vault, container registry, application insights). During workspace provisioning, you can choose either to create them as new resources or tp select existing resources.
 
 ## **Recommended Steps**
 
-See the following documents for instructions on provisioning workspaces:
+### **Problem with storage account**
 
-* [Using Azure Portal](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace)
-* [Using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Using REST API](https://docs.microsoft.com/azure/machine-learning/how-to-manage-rest)
-* [Using resource manager template](https://docs.microsoft.com/azure/machine-learning/how-to-create-workspace-template?tabs=azcli)
+If you have issues with the associated storage account, check the following settings:
 
-See the following documents for instructions on advanced workspace settings:
+- Hierarchical namespaces are not enabled on the storage account. Hierarchical namespaces are not yet supported in Azure ML.
+- The storage is not a premium account. Premium accounts are not yet supported in Azure ML.
+- If your workspace is behind a private endpoint, make sure your storage is also behind the same virtual network.
 
-* [Network security](https://docs.microsoft.com/azure/machine-learning/how-to-network-security-overview) 
-  - For support topics relating to network security setup, submit your request under the **Virtual Network and Private Link Configuration** problem subtype
+### **Problem with key vault**
 
-* [Data encryption](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security#data-encryption) 
-  - For support topics relating to data encryption setup, submit your request under the **Data Encryption** problem subtype
+If you have issues with the associated key vault, check the following settings:
 
-* [Role-based access control (RBAC)](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
-  - For support topics relating to RBAC setup, submit your request under the **Authentication & Role-Based Access (RBAC)** problem subtype
+- If you regenerated the keys to your datastores, make sure to also update this in the workspace key vault. See the [documentation](https://docs.microsoft.com/azure/machine-learning/how-to-change-storage-access-key) for instructions.
+- If your workspace is behind a private endpoint, make sure your key vault is also behind the same virtual network.
 
-For setting up private endpoints on customer-managed key vaults, container registries, or Kubernetes clusters, see [managing quotas, private endpoints and private DNS quota increases](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#private-endpoint-and-private-dns-quota-increases) and submit your request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
+### **Problem with container registry**
 
-For using managed identities and accessing Azure Container Registry without admin user, see [Use Managed identities with Azure Machine Learning (preview)](https://docs.microsoft.com/azure/machine-learning/how-to-use-managed-identities).
+If you have issues with the associated container registry, check the following settings:
+
+- If your workspace has no associated container registry, this means that you haven't registered any images yet. Container registries are provisioned only after you submit your first run, when the first image is built. If you want to have a container registry from the beginning, select this option during workspace provisioning.
+- If your workspace is behind a private endpoint, make sure your container registry is also behind the same virtual network.
+- If your workspace is behind a private endpoint, ensure you have private DNS zone quota by submitting a support request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
+
+### **Problem with application insights**
+
+If you have issues with the associated application insights, check the following settings:
+- If you want to adjust data retention period and details, see the [documentation](https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy#how-long-is-the-data-kept)
 
 ## **Recommended Documents**
 
-* [What is an Azure Machine Learning workspace?](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Enterprise security overview](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
+* [How to create a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace?WT.mc_id=Portal-Microsoft_Azure_Support&tabs=azure-portal)
+* [Workspace overview](https://docs.microsoft.com/azure/machine-learning/concept-workspace)

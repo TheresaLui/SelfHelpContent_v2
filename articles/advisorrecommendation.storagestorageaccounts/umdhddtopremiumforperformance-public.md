@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "33557a7c-6dd6-4b46-9579-fc5273f07458",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorUMDHDDtoPremiumForPerformancePublic",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorUMDHDDtoPremiumForPerformancePublic",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "UMDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yuriic@microsoft.com",
     "icm": {
@@ -34,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#premium-ssd",
   "description": "Convert Unmanaged Disks from Standard HDD to Premium SSD for performance",
   "longDescription": "We have noticed your Unmanaged HDD Disk is approaching performance targets. Azure premium SSDs deliver high-performance and low-latency disk support for virtual machines with IO-intensive workloads. Give your disk performance a boost by upgrading your Standard HDD disk to Premium SSD disk. Upgrading requires a VM reboot, which will take three to five minutes.",

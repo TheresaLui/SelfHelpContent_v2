@@ -57,3 +57,6 @@ In general, our support team is equipped to handle specific issues that arise wh
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
 * [Deployment Jobs](https://docs.microsoft.com/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+

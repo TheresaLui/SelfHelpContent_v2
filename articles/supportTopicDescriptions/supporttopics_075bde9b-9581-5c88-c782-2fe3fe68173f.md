@@ -18,16 +18,10 @@
   "longDescription": "",
   "supportTopics": [
     {
-      "id": "a1af7f3a0-1757-3543-4b6a-c945c3ad187b",
+      "id": "1af7f3a0-1757-3543-4b6a-c945c3ad187b",
       "longDescription": "",
       "shortDescription": "Questions about adding, removing, or managing your partner locations in Partner Center",
-      "searchTags": "Accounts;Onboarding;Locations",
-    },
-    {
-      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
-      "longDescription": "",
-      "shortDescription": "Questions on the process for partners who are the reseller of record on a CSP transaction meeting the requirements to have onboarded to partner center and signed the MPA",
-      "searchTags": "MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+      "searchTags": "Subsidiary;Accounts;Onboarding;Locations",
     },
     {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
@@ -42,6 +36,12 @@
       "searchTags": "Accounts;Onboarding;Specialization;Enrollment",
     },
     {
+      "id": "9ec9336c-2fc5-73ee-d0f9-6ec275fcd1ce",
+      "longDescription": "",
+      "shortDescription": "Linking of partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
+    },
+    {
       "id": "95b1a700-7fa0-a34a-4d94-79aae67c1a2d",
       "longDescription": "",
       "shortDescription": "Questions about Azure Expert MSP details and enrollment",
@@ -51,7 +51,7 @@
       "id": "eb74583c-61b3-2124-bffc-00920e0ae772",
       "longDescription": "",
       "shortDescription": "Questions about updating company details such as legal business name, address, MPN ID, and contact",
-      "searchTags": "Accounts;Onboarding;Name;Address",
+      "searchTags": "Accounts;Onboarding;Name;Address;email;primary;contact",
     },
     {
       "id": "947c4002-296a-cde8-f0b1-931edc6718f5",
@@ -81,13 +81,13 @@
       "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
       "longDescription": "",
       "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
-      "searchTags": "Accounts;Onboarding;MPNid;Organization",
+      "searchTags": "MPN;ID;Associate;Accounts;Onboarding;MPNid;Organization",
     },
     {
       "id": "f715e01a-ccda-d173-deed-43392dc7558a",
       "longDescription": "",
-      "shortDescription": "Information about CSP program guidelines – e.g. multi-channel, migrating customers, or transitioning between partner programs",
-      "searchTags": "Accounts;Onboarding;CSP;Guidelines;Migrate;multi-channel",
+      "shortDescription": "CSP guidelines and requirements – e.g. direct bill requirements, multi-channel, transitioning between partner programs",
+      "searchTags": "Direct;Support;CSP;revenue",
     },
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
@@ -125,35 +125,53 @@
       "shortDescription": "Help creating a commercial marketplace account in Partner Center (publisher profile creation)",
       "searchTags": "Accounts;Onboarding;Registration;Profile",
     },
-  {
+    {
       "id": "309a1925-dc37-c4e1-345f-a588b290a04c",
       "longDescription": "",
-      "shortDescription": "Information or assistance on completing CSP enrollment for Direct bill, Indirect provider or Indirect reseller transacting through this channel",
-      "searchTags": "Accounts;Onboarding;Enrollment;Indirect",
+      "shortDescription": "Information on CSP enrollment for Direct bill, Indirect provider,Indirect reseller transacting through this channel",
+      "searchTags": "Accounts;Onboarding;Enrollment;Indirect;Direct;Bill",
     },
      {
       "id": "012ed139-5031-c24a-0e1d-67f084cb181c",
       "longDescription": "",
-      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another e.g. Direct bill to Indirect reseller",
+      "shortDescription": "Information or assistance with offboarding from the CSP program or transitioning from one role or persona to another",
       "searchTags": "Accounts;Onboarding;Offboarding;Transition",
     },
-     {
+    {
       "id": "450a4758-55f5-eb20-34a6-65c82c1d3d83",
       "longDescription": "",
       "shortDescription": "Issues with credit limits or credit balances for transacting CSP partners",
       "searchTags": "Accounts;Onboarding;Limits;Balance",
     },
-     {
+    {
       "id": "77f4aefd-0ed3-570a-c68d-436f11b46638",
       "longDescription": "",
-      "shortDescription": "Information or assistance with transitioning from direct bill to indirect reseller including moving customers and subscriptions to a new Indirect provider",
+      "shortDescription": "Transitioning from direct bill to indirect reseller ,also moving customers and subscriptions to a new Indirect provider",
       "searchTags": "Accounts;Onboarding;Moving;Transition",
     },
-     {
-      "id": "	7edb156d-e775-c0f0-2943-1eac0738046a",
+    {
+      "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
-      "shortDescription": "	Information or assistance with enrolling as a CSP Indirect reseller"
-      "searchTags": "Accounts;Onboarding;Indirect;CSP",
+      "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA;register;enroll;CSP",
+    },
+    {
+      "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
+      "longDescription": "",
+      "shortDescription": "How to accept the MPA, access to indirect reseller agreement for Providers and information on updates to the agreement",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP;signature",
+    },
+    {
+      "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",
+      "longDescription": "",
+      "shortDescription": "Questions on the process for the reseller of record on a CSP transaction meeting the requirements",
+      "searchTags": "Signature;Sign;MPA;PMC;Onboard;Migrate;Indirect;Reseller",
+    },
+    {
+      "id": "d61fff15-a73a-eeb1-2519-91b9bb179edf",
+      "longDescription": "",
+      "shortDescription": "Program requirements for CSP Direct bill enrollment",
+      "searchTags": "Direct;CSP;TTM;Recognition;ASfP;PSfP;Support;300k;Performance;Revenue",
     },
   ]
 }

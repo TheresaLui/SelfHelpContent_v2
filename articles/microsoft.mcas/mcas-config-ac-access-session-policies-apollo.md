@@ -8,8 +8,7 @@
   displayOrder="0"
   articleId="de3c2974-bbf3-482f-b046-10e3c0aba307"
   selfHelpType="Apollo"
-  supportTopicIds="32745217"
-  SapId="8b9f5f69-8c34-3a8f-2353-ae09020daeec"
+  supportTopicIds="8b9f5f69-8c34-3a8f-2353-ae09020daeec"
   productPesIds="16031"
   cloudEnvironments="public"
   ownershipId="CloudAppSecurity_CAAC"
@@ -17,51 +16,51 @@
 
 # Welcome to our new guided troubleshooting experience for access and session policies
 
-Access and Session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
-This experience provides common solutions, important documents, and relevant how-to videos.
+## Configuring access and session policies in Cloud App Security
 
-Most users are able to resolve the following issues using this guide:
+Access and session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
 
-- I'm getting an error when trying to create policies
+Follow our recommended steps to resolve these common configuration issues:
+
+- I'm getting an error message when trying to create policies
 - My access or session policy is not enforced as expected
 
-:::Section Recommended Solution:::
+:::Section Solution:::
 
-## **Recommended Steps**
+### Recommended steps
 
-1. If you are using Azure Active Directory, in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected.
+1. If you're using Azure Active Directory: in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected.
+    - If you're not using a custom Cloud App Security policy, in the drop-down list box, select **Monitor Only** or **Block Downloads**.
+    - Otherwise, in the drop-down list box, select **Use Custom Policy**, and in Cloud App Security, create granular access or session control policies, such as block upload, copy/paste/print, or block downloads, based on content inspection.
+1. If you're using a third-party Identity provider, make sure to onboard the app first.
+    - In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control apps**, and click the plus sign to start the process.
+1. If you're trying to create a session policy and see a "No apps onboarded" error message:
+    - Verify that the app appears on the **Conditional Access App Control apps** page.
+    - If the app does not appear, log in to the app.
+    - If the app still does not appear, continue with opening the ticket.
 
-    - If you are not using a custom Cloud App Security policy, in the dropdown select **Monitor Only** or **Block Downloads**
-    - Otherwise, in the dropdown select **Use Custom Policy** and in Cloud App Security, create granular access or session control policies, such as block upload, copy/paste/print, or block downloads based on content inspection
+If you're still experiencing the issue or your issue is not listed, our [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy), videos, and resources can help you.
 
-1. If you are using a third-party Identity provider, make sure to onboard the app first. In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control apps**, and click the plus sign to start the process.
-
-1. If you are trying to create a session policy and see a "no apps onboarded" error message, verify that the app appears on the **Conditional Access App Control apps** page. If the app does not appear, log in to the app. If the app still does not appear, please continue with opening the ticket.
-
-- To view the tutorial on how to block downloads, see [Tutorial on how to block downloads of sensitive information](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
-- To view the troubleshooting guide, see [Troubleshooting guide for access and session controls](https://docs.microsoft.com/cloud-app-security/troubleshooting-proxy)
-
-## Follow the instructions in the how-to videos below to resolve your issue
+### How-to videos
 
 <videoGroup>
     <video>
-        <src>https://www.youtube.com/watch?v=DyC0eV_pMhs&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=14</src>
+        <src>https://www.youtube.com/watch?v=DyC0eV_pMhs</src>
         <title>How to configure real-time monitoring and control</title>
     </video>
     <video>
-        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=15</src>
+        <src>https://www.youtube.com/watch?v=vD9C9jwDuv4</src>
         <title>How to configure real-time labeling and protection of sensitive files</title>
     </video>
     <video>
-        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o&list=PLXPr7gfUMmKxS1SYNgDaQY-9Q6cOqFxvG&index=16</src>
-        <title>How to configure a policy to block uploads in real-time</title>
+        <src>https://www.youtube.com/watch?v=nGg2XyQWJ4o</src>
+        <title>How to configure a policy to block uploads in real time</title>
     </video>
-<videoGroup>
+</videoGroup>
 
-## **Recommended Documents**
+### More resources
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad)
 - [Session policies](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-
-If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
+- [Tutorial: How to block downloads of sensitive information](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)

@@ -23,10 +23,10 @@
 
 ## **Recommended Steps**
 
-We identified that no action group is configured for your alert rule. This may be a reason for not receiving a notification or an action on your alert. Please see [this article](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups) for more details on configuring action groups. 
+We identified that no action group is configured for your alert rule. This could be a reason for not receiving a notification or an action on your alerts. See [this article](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups) for more details on configuring action groups. 
 
-If you can see in the portal that alerts was previously fired for this alert rule, but you never received notification for such alerts from this alert rule, this may be a potential reason. Please note that action groups may also be added using an action rule, if you have one configured for your rule.
+If you can see in the portal that alerts were previously fired for this alert rule, but you never received notification on alerts from this alert rule, this could be the reason. Note that action groups can also be added by using an action rule, if you have one configured for your alert rule.
 
 ## **Recommended Documents**
 
-* [Create and manage action groups in the Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups)
+* [Create and manage action groups in the Azure Portal](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups)

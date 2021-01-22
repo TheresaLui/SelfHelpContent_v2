@@ -3,24 +3,26 @@
 	description="Currently recovery of ADLS Gen 2 File system isn't supported"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="61814b58-0c40-4aea-902f-d8cd91a3cee3"
 />
 
-# Currently recovery of ADLS Gen 2 File system isn't supported
+# ADLS Gen 2 Recovery
 
 <!--issueDescription-->
-1. Please note that it is impossible to recover Data at the blob level. <br>
-2. To prevent this, you can leverage on Backup and archive solutions in Azure, enabling Azure Soft Delete for Blobs or Azure Blob Snapshots.<br>
-3. Currently recovery of ADLS Gen 2 File system isn't supported<br>
-4. This page will be updated when we have further updates.
+
+1. There is no change in terms of **ADLS Gen2 Accounts**. Follow the same process as that of General Purpose accounts <br>
+
+2. For blobs and containers, continue to file ICM with XStore/BigData as appropriate. If you don't have access to create an ICM with Big Data team, create a Storage ICM and engage one of the Storage TAs or email cssstorageta@microsoft.com to route the ICM to Table Server team.
+
+
 
 <!--/issueDescription-->
