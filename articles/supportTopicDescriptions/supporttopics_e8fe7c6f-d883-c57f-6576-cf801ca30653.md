@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3fdd9bbd-a79b-dc62-89c9-29430b5ff156",
+      "longDescription": "",
+      "shortDescription": "Issues related to Azure subscription",
+      "searchTags": "subscription",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e3db994-18c1-e86f-b4f0-74a2caa7dce2",
       "longDescription": "",
       "shortDescription": "Configure on-premises data gateway to read non-Azure data sources",
