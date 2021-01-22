@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c37e375d-d1e3-626e-753e-c612f8155032",
+      "longDescription": "",
+      "shortDescription": "Client tool errors when trying to connect or execute queries on the server",
+      "searchTags": "Client Tools",
+      "category": "Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e78b9b-41b9-d72a-2651-d996889f0675",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
