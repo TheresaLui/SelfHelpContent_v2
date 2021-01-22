@@ -153,6 +153,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+        {
+            "id": "ipaddress",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is the IP address you have a problem connecting toto?",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
