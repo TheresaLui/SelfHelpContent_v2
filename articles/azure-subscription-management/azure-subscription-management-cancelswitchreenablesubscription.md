@@ -39,12 +39,13 @@ If you cancel a paid Azure Support plan, you are billed for the rest of the subs
 1. Go to the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.
 2. You may need to scroll to the right. Under status will show you the current state of the subscription.
 3. If the status reflects **Disabled** then the subscription is canceled.<br>
-   Allow up to 30 minutes for the subscription status to update in the portal.
+   Allow up to 30 minutes for the subscription status to update in the portal.<br>
+   For more information, see **Recommended Documents**
 
 
 ### What is the difference between cancelling and deleting a subscription?
 
-To delete a subscription the subscription must be cancelled first. After your subscription is cancelled, Microsoft waits 30-90 days before permanently deleting your data in case you need to access it or you change your mind. We don’t charge you for keeping the data. To learn more, see [Microsoft Trust Center – How we manage your data](https://www.microsoft.com/en-us/trust-center/privacy/data-management)
+To delete a subscription the subscription must be cancelled first. After your subscription is cancelled, Microsoft waits 30-90 days before permanently deleting your data in case you need to access it or you change your mind. We don’t charge you for keeping the data. To learn more, see [Microsoft Trust Center – How we manage your data](https://www.microsoft.com/en-us/trust-center/privacy/data-management).
 
 
 ### Delete free trial subscription
@@ -54,8 +55,6 @@ If you have a free trial subscription, you don't have to wait 30 days for the su
 2. Select your subscription on the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page in the Azure portal.
 3. Select the subscription that you want to delete.
 4. Select **Overview**, and then select **Delete Subscription**.
-
-   Learn more: [Delete free trial subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription#delete-free-trial-subscription)
 
 
 ## **Recommended Documents**
