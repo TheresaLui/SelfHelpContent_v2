@@ -29,9 +29,8 @@ If you cancel a paid Azure Support plan, you are billed for the rest of the subs
 3. Select **Cancel subscription**
 4. Follow prompts and finish cancellation
 5. Allow up to 30 minutes for the subscription status to update in the portal.
-   For more information, see **Recommended Documents**
   
-   If you don't want to cancel your subscription but want to stop charges for a resource, you can manually delete them using the Azure portal. Learn more: [Delete resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
+   If you don't want to cancel your subscription but want to stop charges for a resource, you can [manually delete them using the Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-portal#delete-resources)
 
 
 ### Verify your subscription was canceled
@@ -40,7 +39,6 @@ If you cancel a paid Azure Support plan, you are billed for the rest of the subs
 2. You may need to scroll to the right. Under status will show you the current state of the subscription.
 3. If the status reflects **Disabled** then the subscription is canceled.<br>
    Allow up to 30 minutes for the subscription status to update in the portal.<br>
-   For more information, see **Recommended Documents**
 
 
 ### What is the difference between cancelling and deleting a subscription?
