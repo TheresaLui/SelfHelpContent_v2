@@ -46,7 +46,7 @@
             "id": "a_ptr_record_for_dns",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Is PTR record exist for AD host machine in the everse lookup zone ?",
+            "displayLabel": "Does a PTR record exist for the AD host machine in the reverse lookup zone?",
             "watermarkText": "You need to create a reverse lookup zone on the DNS server, and then add a PTR record of the AD host machine in that reverse lookup zone",
 			"dropdownOptions": [
 				{
