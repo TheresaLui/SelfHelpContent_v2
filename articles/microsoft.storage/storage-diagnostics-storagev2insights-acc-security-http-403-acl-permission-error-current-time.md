@@ -26,8 +26,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 The following table shows details of the failed requests with the operation type `Get(Read)` or `Put/Post(Write)`, along with the folder or file path and user. For successful authorization, the user (service principal) should have the following ACLs:
 
-- **For the folder path** - Provide **Execute**(**X**) and **Read**(**R**) permissions for the relevant folder and **Execute**(**X**) permission on all the parent folders up to the root folder.<br>
-- **For the file path** - Provide **Read**(**R**) or **Write**(**W**) permission, depending on the operation on the file and **Execute**(**X**) permission on all the parent folders up to the root folder.
+- **For the folder path** - Provide **Execute**(**X**) and **Read**(**R**) permissions for the relevant folder and **Execute**(**X**) permission for all the parent folders up to the root folder.<br>
+- **For the file path** - Provide **Read**(**R**) or **Write**(**W**) permission, depending on the operation on the file, and **Execute**(**X**) permission for all the parent folders up to the root folder.
 
 To learn more about ACLs, see [Manage Access control lists (ACLs) in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control?WT.mc_id=Portal-Microsoft_Azure_Support).
 
