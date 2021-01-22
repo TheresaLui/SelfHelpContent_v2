@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df57382d-8701-129a-49a9-18f1298d2f2f",
+      "longDescription": "",
+      "shortDescription": "Data refresh including failure and slow performance",
+      "searchTags": "data refresh;processing data refresh;slow performance",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e581eeed-3c1b-ff98-9c5a-e3fadaeabd11",
       "longDescription": "",
       "shortDescription": "Set up authentication account, key, or token on the data source of a tabular model, or authentication failure on a model refresh",
