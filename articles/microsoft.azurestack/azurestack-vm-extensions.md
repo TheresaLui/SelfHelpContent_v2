@@ -19,8 +19,8 @@ Azure Virtual Machine (VM) extensions are small applications that provide post-d
 ## **Recommended Steps**
 
  - For a list of available VM extensions, in to the Azure Stack Portal, go to the **VM blade** and view the list under **Extensions**. For the full list, use the CLI tools:
-  - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
-  - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
+     - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
+     - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
 
 - For a list of additional VM extensions, see [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
 
