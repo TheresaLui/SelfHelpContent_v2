@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c9296792-4d92-46d8-2cc5-2aa992da1105",
+      "longDescription": "",
+      "shortDescription": "Analysis Services server started, but client application fails to connect to server. This topic also covers authentication failure.",
+      "searchTags": "authentication failure;Connectivity;failed to connect",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd276081-4ae1-ebb0-9fca-9c1da2612184",
       "longDescription": "",
       "shortDescription": "Issues related to Power BI data refresh",
