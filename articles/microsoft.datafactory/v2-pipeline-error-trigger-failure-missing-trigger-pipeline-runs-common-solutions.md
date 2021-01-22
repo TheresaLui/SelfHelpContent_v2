@@ -21,7 +21,7 @@ Resolve common issues related to Azure Data Factory triggers v2 using the follow
     * A trigger can kick off multiple pipelines simultaneously
 
 1. There are 3 types of triggers available in Azure Data Factory:
-    * Schedule Trigger: It invokes pipelines on a wall-clock schedule
+    * Schedule Trigger: It invokes pipelines on a clock-based schedule
     * Tumbling Window trigger: It operates on a periodic interval, while also _retaining state_
     * Event-based trigger: It responds to an event
 
