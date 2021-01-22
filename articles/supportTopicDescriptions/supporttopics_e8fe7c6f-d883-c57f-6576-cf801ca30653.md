@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9",
+      "longDescription": "",
+      "shortDescription": "SSMS or third-party tool errors when trying to get data from Azure Analysis Services",
+      "searchTags": "SSMS;third party tools",
+      "category": "Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdc40ec8-9f10-0111-70d1-691a17de43ef",
       "longDescription": "",
       "shortDescription": "Errors when deploying a model definition from SSDT, deployment wizard, or other tools",
