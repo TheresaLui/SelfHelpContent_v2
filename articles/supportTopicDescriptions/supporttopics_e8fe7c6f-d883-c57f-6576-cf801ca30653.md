@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "27c11c5c-3532-0a5a-9364-f5ee07cd4f02",
+      "longDescription": "",
+      "shortDescription": "Connection timeout error from client tools",
+      "searchTags": "connection timeout;timeout",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3af15cd8-0ce4-b02e-1b18-50f49309786f",
       "longDescription": "",
       "shortDescription": "Tabular model processing slow or hang problem",
