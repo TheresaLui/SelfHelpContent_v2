@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4e3db994-18c1-e86f-b4f0-74a2caa7dce2",
+      "longDescription": "",
+      "shortDescription": "Configure on-premises data gateway to read non-Azure data sources",
+      "searchTags": "data gateway;on-premise data gateway;gateway",
+      "category": "On-Premise Data Gateway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "54dc2c0c-a04b-3824-6f3a-b2db87f98a2c",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
