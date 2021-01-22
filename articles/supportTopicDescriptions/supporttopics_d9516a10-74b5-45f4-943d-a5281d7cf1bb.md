@@ -1082,6 +1082,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2a68517-0048-def9-fafb-e6593cf41734",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Monitoring related issues",
+      "searchTags": "Monitoring;Monitor",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d535fa83-dc43-4def-6f84-e33248612f9c",
       "longDescription": "",
       "shortDescription": "How to guidance for Cosmos DB MongoDB API",
