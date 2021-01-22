@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bdc40ec8-9f10-0111-70d1-691a17de43ef",
+      "longDescription": "",
+      "shortDescription": "Errors when deploying a model definition from SSDT, deployment wizard, or other tools",
+      "searchTags": "deploy model;SSDT;Deployment wizard",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bfb92303-7122-055b-398e-ef0bb88ceedb",
       "longDescription": "",
       "shortDescription": "Azure portal operations including making changes to the server settings",
