@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bfb92303-7122-055b-398e-ef0bb88ceedb",
+      "longDescription": "",
+      "shortDescription": "Azure portal operations including making changes to the server settings",
+      "searchTags": "Azure portal;Server settings",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e78b9b-41b9-d72a-2651-d996889f0675",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
