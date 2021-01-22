@@ -22,13 +22,14 @@ Learn how to enable UEBA on specific sources in Azure Sentinel by following thes
 
 3. Select **Select Data Sources** and check the box for the data source for which you want to enable UEBA. 
    *  If no supported data sources for UEBA are connected, go to the relevant data connectors and connect them<br>
-    Note: Not all events from the selected data sources are enriched, only events that have security importance. 
+   
+   **Note:** Not all events from the selected data sources are enriched, only events that have security importance. 
 
 4. After you enable UEBA for these data sources, wait approximately 15 minutes to see data ingested into your Azure Sentinel UEBA table<br>s:
-	1. **BehaviorAnalytics** holds the enriched data 
-	2. **IdentityInfo** holds a snapshot of the users' profiles
-	3. **UserPeersAnalytics** holds information about the calculated user peers
-	4. **UserAccessAnalytics** holds information about Azure RBAC permissions the user has
+   * **BehaviorAnalytics** holds the enriched data 
+   * **IdentityInfo** holds a snapshot of the users' profiles
+   * **UserPeersAnalytics** holds information about the calculated user peers
+   * **UserAccessAnalytics** holds information about Azure RBAC permissions the user has
 
 5. To search the data, use the following [enrichment reference](https://docs.microsoft.com/azure/sentinel/ueba-enrichments) 
 
