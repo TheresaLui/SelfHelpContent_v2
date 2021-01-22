@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "3c2e87fa-d03c-e50d-9190-bd6714e0f715",
+      "longDescription": "",
+      "shortDescription": "Issues related to authentication and user permissions",
+      "searchTags": "authentication;user permission",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a9973b71-c65d-6d90-ea28-a0eada1e62a8",
       "longDescription": "",
       "shortDescription": "How to guidance related to Azure Analysis Services",
