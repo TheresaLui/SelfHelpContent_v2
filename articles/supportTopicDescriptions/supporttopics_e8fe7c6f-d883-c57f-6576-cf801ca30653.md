@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1cc6e37c-056f-eeb9-f9b6-d69461d89ce1",
+      "longDescription": "",
+      "shortDescription": "User MDX or DAX query performance problem or error",
+      "searchTags": "MDX;DAX;query performance;query",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "21aee1ac-3d85-3469-0df6-40a0613731df",
       "longDescription": "",
       "shortDescription": "Slow running query, or query generating a timeout error",
