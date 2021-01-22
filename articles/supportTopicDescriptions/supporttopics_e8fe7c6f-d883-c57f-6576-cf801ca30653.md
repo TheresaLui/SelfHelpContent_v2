@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b2952654-2823-d09f-6290-0a8820f85566",
+      "longDescription": "",
+      "shortDescription": "Set up Azure Diagnostic or analyze the diagnostic log data",
+      "searchTags": "Azure Diagnostic;diagnostic log",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b62d71c1-44d2-9f17-309e-20ec556664af",
       "longDescription": "",
       "shortDescription": "Configure the data gateway to be used by Analysis Services",
