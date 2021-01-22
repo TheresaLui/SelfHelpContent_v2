@@ -24,22 +24,22 @@ Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issu
 
 ### **Supported APIs**  
 
-Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview. For more information, contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
+Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure Cosmos DB API for MongoDB. It is not supported for Gremlin API and Table API. Support for Cassandra API is in private preview. For more information, contact the Azure Synapse Link team at cosmosdbsynapselink@microsoft.com.  
 
 
-### **Unable to set item level TTL for data in analytical store**
+### Unable to set item level TTL for data in analytical store
 
-At this time, TTL for analytical data can only be configured at container level and there is no support to set analytical TTL at item level.  
+At this time, TTL for analytical data can only be configured at the container level. There is no support to set analytical TTL at the item level.  
 
-### **Unable to set container level TTL for data in analytical store**
+### Unable to set container level TTL for data in analytical store
 
 At this time, when creating new containers, analytical TTL can be set for SQL API or MongoDB API containers.  
 
-### **Updating the Analytical Store Time-To-Live**
+### Updating the Analytical Store Time-To-Live
 
-After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later. You can update the value by using the Azure portal or SDKs. For information on the various Analytical TTL config options, see [Analytical TTL supported values](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl) article. Learn how to [configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl).  
+After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later by using the Azure portal or SDKs. For information on the various Analytical TTL config options, see [Analytical TTL supported values](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl) article. Learn how to [configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl).  
 
-### **Unable to understand schema representation** 
+### Unable to understand schema representation
 
 There are two modes of schema representation in the analytical store. These modes have tradeoffs between the simplicity of a columnar representation, handling the polymorphic schemas, and simplicity of query experience:
 
@@ -48,17 +48,17 @@ There are two modes of schema representation in the analytical store. These mode
 
 Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
-### **Missing data (properties) in analytical store**
+### Missing data (properties) in analytical store
 
-You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties doesn't meet this constraint and it will not be represented in the analytical store. An item with more than 5 nested levels in the schema also doesn’t meet this constraint and it will not be represented in the analytical store.  
+You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties exceeds this limit and won't be represented in the analytical store. An item with more than 5 nested levels in the schema also doesn’t meet this constraint and won't be represented in the analytical store.  
 
 Another possible cause is: If the Azure Cosmos DB analytical store follows the well-defined schema representation and the specification above is violated by certain items, those items will not be included in the analytical store. Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema).  
 
-### **Missing data (items or records or documents) in analytical store**
+### Missing data (items or records or documents) in analytical store
 
-All transactional operations are propagated, including deletes. The analytical store TTL (time to live) setting also can cause data removal.
+All transactional operations are propagated, including deletes. The analytical store TTL (time to live) setting can also cause data removal.
 
-- If a document is deleted in transactional store, it will also be deleted from analytical store despite both stores ttls
+- If a document is deleted in transactional store, it will also be deleted from analytical store despite both stores TTLs
 - If transactional TTL is smaller than 2 minutes, it is almost guaranteed that the transactional data will be archived before it is replicated to the analytical store. 
 - If transactional TTL is smaller than 5 minutes, but bigger than 2 minutes, there is a big chance that the transactional data will be archived before it is replicated to analytical store. 
 - If transactional TTL is smaller than analytical TTL, the data is archived from transactional store but kept in analytical store up to the configured TTL limit
@@ -70,14 +70,14 @@ All transactional operations are propagated, including deletes. The analytical s
 
 Azure Cosmos DB is a globally distributed database system that allows you to read and write data from the local replicas of your database. Azure Cosmos DB transparently replicates the data to all the regions associated with your Cosmos account.
 
-If you turn on analytical store for a globally distributed container, or collection, you will have analytical store in all of your regions. To specific access a region, just add it to your connection string: 
+If you turn on analytical store for a globally distributed container or collection, you will have analytical store in all of your regions. To specific access a region, just add it to your connection string: 
 
 ```SQL
 'account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>'
 ```  
 
 
-### **Spark data is not refreshing**
+### Spark data is not refreshing
 
 In the case of **loading to Spark DataFrame**, the fetched metadata is cached through the lifetime of the Spark session. Therefore, subsequent actions invoked on the DataFrame are evaluated against the snapshot of the analytical store at the time of DataFrame creation.  
 
@@ -85,9 +85,9 @@ On the other hand, in the case of **creating a Spark table**, the metadata of th
 
 Thus, you can choose between loading to Spark DataFrame and creating a Spark table based on whether you want your Spark analysis to be evaluated against a fixed snapshot of the analytical store or against the latest snapshot of the analytical store, respectively. [Learn more](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/how-to-query-analytical-store-spark).  
 
-### **You are getting the "File cannot be opened" Error**  
+### "File cannot be opened" Error
 
-If you are getting the "Failed to execute query. File .... cannot be opened because it does not exist or is used by another process" error message, please check your permissions on the Azure Data Lake Store that supports your Synapse Workspace. For more information, click [here](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#create-a-synapse-workspace)  
+If you get the error "Failed to execute query. File .... cannot be opened because it does not exist or is used by another process", check your permissions on the Azure Data Lake Store that supports your Synapse Workspace. For more information, see [this quickstart](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#create-a-synapse-workspace).
 
 
 ## **Recommended Documents**  
