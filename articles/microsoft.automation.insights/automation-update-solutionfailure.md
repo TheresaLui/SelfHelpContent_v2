@@ -15,7 +15,6 @@ productPesIds="15607"
 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 ownershipId="Compute_Automation"
 />
-
 # Update management solution failed to deploy correctly
 
 <!--/issueDescription-->
