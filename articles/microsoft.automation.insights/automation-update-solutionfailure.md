@@ -4,28 +4,37 @@ description="The Update Management solution failed to deploy correctly"
 infoBubbleText="The Update Management solution did not deploy successfully. See details on the right."
 service="microsoft.automation"
 resource="automationaccounts"
-authors="georgewallace"
-ms.author="gwallace"
+authors="stevechilcoat"
+ms.author="stevechi"
 displayOrder=""
 articleId="Update_0875B566-AF30-4581-830F-B49426C05164"
-diagnosticScenario="AAUpdateSolutionFailedInsights"
+diagnosticScenario="UpdateSolutionDeploymentFailure"
 selfHelpType="diagnostics"
-supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,32599903,32599925,32599936,32599937"
+supportTopicIds="32599861,32642183,32599903,32615228,32642184,32615227,32615229,32599937"
 productPesIds="15607"
-cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="Compute_Automation"
+cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+ownershipId="Compute_Automation"
 />
 
 # Update management solution failed to deploy correctly
 
 <!--/issueDescription-->
-We have detected that update management solution didn't properly deploy on the following machines:
+We have detected that the configuration settings for Update Management didn't deploy properly on the following machines.
 
-<!--$computerList-->[computerList]<!--/$computerList-->
+<!--$CustomerTable-->[Table of Failed Deployments]<!--/$CustomerTable-->
 
-Because the machines don't have the update management solution deployed, they are unable to perform scans or patching.
+<br>Because the configuration settings for Update Management didn't successfully deploy to the machines, they are unable to perform scans or patching.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+* [Troubleshoot Feature Deployment Issues](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
+* [Troubleshoot Windows Update Agent Issues](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
+* [Troubleshoot Linux Update Agent Issues](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)
+* [Re-install the Hybrid Runbook worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#install-a-hybrid-runbook-worker)
 
-* [Re-install the Hybrid Runbook worker[(https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#install-a-hybrid-runbook-worker)] and onboard the VM again
+## **Recommended Documents**
+* [Update Management Overview](https://docs.microsoft.com/azure/automation/update-management/overview)
+* [Supported Operating Systems](https://docs.microsoft.com/azure/automation/update-management/overview#supported-operating-systems)
+* [System Requirements](https://docs.microsoft.com/azure/automation/update-management/overview#system-requirements)
+* [Role Based Permission requirements](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management-permissions)
+* [Network Requirements](https://docs.microsoft.com/en-us/azure/automation/update-management/overview#ports)
