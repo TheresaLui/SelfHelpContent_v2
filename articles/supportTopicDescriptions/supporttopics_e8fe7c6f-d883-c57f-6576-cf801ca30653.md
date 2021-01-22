@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3af15cd8-0ce4-b02e-1b18-50f49309786f",
+      "longDescription": "",
+      "shortDescription": "Tabular model processing slow or hang problem",
+      "searchTags": "slow processing;hang",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c2e87fa-d03c-e50d-9190-bd6714e0f715",
       "longDescription": "",
       "shortDescription": "Issues related to authentication and user permissions",
