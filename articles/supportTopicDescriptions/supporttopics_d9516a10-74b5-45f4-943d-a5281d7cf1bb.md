@@ -558,7 +558,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Python",
       "searchTags": "SDK;API;Python",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
