@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66ebe09e-bcc9-50a9-f46f-c988954664a5",
+      "longDescription": "",
+      "shortDescription": "Configure the data gateway to use a proxy server",
+      "searchTags": "proxy server;proxy settings",
+      "category": "On-Premise Data Gateway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "87d8cf82-0387-f7b4-0750-2e75107109fe",
       "longDescription": "",
       "shortDescription": "Processing failure with a timeout error",
