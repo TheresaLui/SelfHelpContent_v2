@@ -18,7 +18,7 @@ ownershipId="Compute_Automation"
 
 # Update management solution failed to deploy correctly
 
-<!--/issueDescription-->
+<!--issueDescription-->
 We have detected that the configuration settings for Update Management didn't deploy properly on the following machines.
 
 <!--$CustomerTable-->[Table of Failed Deployments]<!--/$CustomerTable-->
