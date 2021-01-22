@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8758e0b9-7dea-389f-9bd9-5bb8dcce2e95",
+      "longDescription": "",
+      "shortDescription": "Set up the data source authentication on the data gateway",
+      "searchTags": "authentication;gateway authentication",
+      "category": "On-Premise Data Gateway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "87d8cf82-0387-f7b4-0750-2e75107109fe",
       "longDescription": "",
       "shortDescription": "Processing failure with a timeout error",
