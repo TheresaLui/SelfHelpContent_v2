@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "54dc2c0c-a04b-3824-6f3a-b2db87f98a2c",
+      "longDescription": "",
+      "shortDescription": "Data refresh failure or performance problem through the data gateway",
+      "searchTags": "data gateway refresh;data refresh",
+      "category": "On-Premise Data Gateway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "87d8cf82-0387-f7b4-0750-2e75107109fe",
       "longDescription": "",
       "shortDescription": "Processing failure with a timeout error",
