@@ -70,12 +70,13 @@ All transactional operations are propagated, including deletes. The analytical s
 
 Azure Cosmos DB is a globally distributed database system that allows you to read and write data from the local replicas of your database. Azure Cosmos DB transparently replicates the data to all the regions associated with your Cosmos account.
 
-If you turn on analytical store for a globally distributed container or collection, you will have analytical store in all of your regions. To specific access a region, just add it to your connection string: 
+If you turn on analytical store for a globally distributed container or collection, you will have analytical store in all of your regions. To access a specific region, add it to your connection string: 
 
-```SQL
+```
+SQL
 'account=<database account name>;database=<database name>;region=<region name>;key=<database account master key>'
-```  
 
+```  
 
 ### Spark data is not refreshing
 
