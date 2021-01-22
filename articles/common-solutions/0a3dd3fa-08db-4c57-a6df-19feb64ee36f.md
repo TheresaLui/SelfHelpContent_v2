@@ -25,7 +25,7 @@ Learn how to enable UEBA on specific sources in Azure Sentinel by following thes
    
    **Note:** Not all events from the selected data sources are enriched, only events that have security importance. 
 
-4. After you enable UEBA for these data sources, wait approximately 15 minutes to see data ingested into your Azure Sentinel UEBA table<br>s:
+4. After enabling UEBA for these data sources, wait 15 minutes to see data ingested in your Azure Sentinel UEBA tables:<br>
    * **BehaviorAnalytics** holds the enriched data 
    * **IdentityInfo** holds a snapshot of the users' profiles
    * **UserPeersAnalytics** holds information about the calculated user peers
