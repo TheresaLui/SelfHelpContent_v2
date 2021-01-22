@@ -36,7 +36,7 @@
     "serviceTreeId": "c0ee70d5-102d-438c-8858-795b92dc0f99"
   },
   "ingestionClientIdentities": [ ],
-  "version": 1.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/EnableSynapseSparkComputeAutoPauseGuidance",
   "description": "Consider enabling autopause feature on spark compute.",
   "longDescription": "Auto-pause releases and shuts down unused compute resources after a set idle period of inactivity",
