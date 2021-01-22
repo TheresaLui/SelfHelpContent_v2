@@ -39,7 +39,7 @@
             "id": "ipaddress",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the IP address you have a problem connecting toto?",
+            "displayLabel": "What is the IP address you have a problem connecting to?",
             "required": false
         }
             ]
