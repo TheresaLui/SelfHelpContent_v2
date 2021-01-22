@@ -34,7 +34,7 @@
     "serviceTreeId": "ee4d26c1-13da-47fa-af18-02c12ecf15a9"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-vmware/concepts-private-clouds-clusters",
   "description": "vSAN capacity utilization has crossed critical threshold",
   "longDescription": "Your vSAN capacity utilization has reached 75%. The cluster utilization is required to remain below the 75% critical threshold for SLA compliance. Please add new nodes to VSphere cluster to increase capacity or delete VMs to reduce consumption or adjust VM workloads",
@@ -51,6 +51,6 @@
   "additionalColumns": [],
   "tip": "",
   "costSavingInfo": "",
-  "testData": "db028f5d-a8b6-4b21-bd6a-9ba739cb1b3d,/subscriptions/db028f5d-a8b6-4b21-bd6a-9ba739cb1b3d/resourceGroups/RG-VMWARE-AZURE/providers/Microsoft.AVS/privateClouds/WAN-VMWARE-AZURE"
+  "testData": "1178f22f-6ce4-45e3-bd92-ba89930be5be,/subscriptions/1178f22f-6ce4-45e3-bd92-ba89930be5be/resourceGroups/shawnhu_test/providers/Microsoft.AVS/privateClouds/shawnhuAVStest"
 }
 ---
