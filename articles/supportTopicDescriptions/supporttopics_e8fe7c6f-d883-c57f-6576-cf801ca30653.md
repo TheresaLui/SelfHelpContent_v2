@@ -60,6 +60,14 @@
       "searchTags": "guidance;how to",
       "category": "General Guidance or Advisory",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dd276081-4ae1-ebb0-9fca-9c1da2612184",
+      "longDescription": "",
+      "shortDescription": "Issues related to Power BI data refresh",
+      "searchTags": "Power BI",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
