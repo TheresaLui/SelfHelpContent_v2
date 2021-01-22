@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df8f4c17-79eb-2172-1bfe-4302046829fc",
+      "longDescription": "",
+      "shortDescription": "Deploy Azure Analysis Services using an ARM template",
+      "searchTags": "ARM Template;ARM",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e581eeed-3c1b-ff98-9c5a-e3fadaeabd11",
       "longDescription": "",
       "shortDescription": "Set up authentication account, key, or token on the data source of a tabular model, or authentication failure on a model refresh",
