@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "21aee1ac-3d85-3469-0df6-40a0613731df",
+      "longDescription": "",
+      "shortDescription": "Slow running query, or query generating a timeout error",
+      "searchTags": "slow query;query timeout",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c2e87fa-d03c-e50d-9190-bd6714e0f715",
       "longDescription": "",
       "shortDescription": "Issues related to authentication and user permissions",
