@@ -121,7 +121,7 @@
   ],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-    "CN=cloudfit.azurewebsites.com"
+    "CN=cloudfit.azurewebsites.net"
   ],
   "remediation": [
     {

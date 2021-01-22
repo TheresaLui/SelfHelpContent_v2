@@ -91,7 +91,7 @@
   },
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 5, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-    "CN=cloudfit.azurewebsites.com"
+    "CN=cloudfit.azurewebsites.net"
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
   "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."
