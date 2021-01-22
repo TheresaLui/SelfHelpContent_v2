@@ -308,8 +308,8 @@
     {
       "id": "8d5a15a6-2e27-0a36-161f-1c54b4cb2c5b",
       "longDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "shortDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite",
+      "shortDescription": "Covers routing issues related to header and URL rewrite in Application Gateway",
+      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite;url rewrite;url",
       "category": "Routing",
       "useInDiagnoseAndSolve": "TRUE"
     },
