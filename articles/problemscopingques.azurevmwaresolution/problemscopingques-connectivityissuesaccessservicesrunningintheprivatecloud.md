@@ -60,7 +60,7 @@
         },
         {
             "id": "resourceGroup",
-            "order": 4,
+            "order": 2,
             "visibility": "topology == In the same VNET || topology == In a peered VNET(same region)",
             "controlType": "dropdown",
             "displayLabel": "Provide the Resource Group name of the source VM",
@@ -86,7 +86,7 @@
         },
         {
             "id": "VMName",
-            "order": 5,
+            "order": 3,
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Provide the name of the source VM",
@@ -114,7 +114,7 @@
         },
         {
             "id": "HubVNET",
-            "order": 6,
+            "order": 4,
             "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
             "displayLabel": "Chose the virtual network connected to your on-premise network",
@@ -139,6 +139,13 @@
             "required": true
         },
         {
+            "id": "ipaddress",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "What is the IP address you have a problem connecting to?",
+            "required": false
+        },
+        {
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
@@ -153,13 +160,6 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "ipaddress",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What is the IP address you have a problem connecting to?",
-            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
