@@ -30,11 +30,11 @@
 
 	 To use a certificate in App Service, it must be signed by a trusted certificate authority. See [SSL error](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-function-app?view=azure-devops#ssl-error) to resolve this error.
 
-* Function app deployment on Windows is successfulm but the app is not working
+* Function app deployment on Windows is successful but the app is not working
 
 	This might be because web.config is not present in your app. See [Add a web.config](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-function-app?view=azure-devops#function-app-deployment-on-windows-is-successful-but-the-app-is-not-working).
 
-* I need guidance for deploying an app to Azure Web App
+* I need guidance for deploying an app to Azure Functions
 
 	See [the tutorial about deploying an app to an Azure Function App](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/java-function?view=azure-devops).
 
