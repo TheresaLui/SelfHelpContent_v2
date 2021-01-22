@@ -13,7 +13,7 @@
   ownershipid="Compute_AppService" />
 # ASC/Renewing-Rekeying
 
-Resolve most issues with App Service Certificate (ASC) using the following steps.
+Resolve common issues with App Service Certificate (ASC) using the following steps.
 
 ## **Recommended Steps**
 
