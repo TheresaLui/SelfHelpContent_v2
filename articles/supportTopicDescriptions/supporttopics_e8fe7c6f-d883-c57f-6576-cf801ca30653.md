@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80913bc0-08ec-d169-2070-11b13f86c04b",
+      "longDescription": "",
+      "shortDescription": "Register and use a service principal instead of a user account to execute scheduled jobs ",
+      "searchTags": "service principal;scheduled jobs;Rest API;App;register",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8758e0b9-7dea-389f-9bd9-5bb8dcce2e95",
       "longDescription": "",
       "shortDescription": "Set up the data source authentication on the data gateway",
