@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "972ee660-d223-61d1-a28f-dcf958ad71af",
+      "longDescription": "",
+      "shortDescription": "Any problem related to start or pause of the server, or an unexpected shutdown of the server",
+      "searchTags": "schedule pause;unexpected shut down;server pause",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a9973b71-c65d-6d90-ea28-a0eada1e62a8",
       "longDescription": "",
       "shortDescription": "How to guidance related to Azure Analysis Services",
