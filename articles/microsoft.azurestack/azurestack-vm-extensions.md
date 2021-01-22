@@ -18,16 +18,16 @@ Azure Virtual Machine (VM) extensions are small applications that provide post-d
 
 ## **Recommended Steps**
 
- - You can view the available extensions in the VM blade in the Azure Stack Portal, under extensions, or for the full list you can use the CLI tools:
-
+ - For a list of available VM extensions, in to the Azure Stack Portal, go to the **VM blade** and view the list under **Extensions**. For the full list, use the CLI tools:
   - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
   - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
 
-- You can view additional VM extensions available from [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
-- Azure VM extensions can be managed using either the Azure CLI, Azure PowerShell, Azure Resource Manager templates, and the Azure portal
-- To handle the extension on the VM, you need the Azure VM agent installed
-- You do not need to connect to a VM directly to install or delete the extension, because the Azure extension is managed outside of the VM and integrated into the Azure platform
-- Update to the latest dependency agent version 9.10.3 to avoid VMs in an unresponsive state. For more information see [Linux Ubuntu VMs in non-responsive state for Service Map Agent](https://techcommunity.microsoft.com/t5/azure-monitor-status/linux-ubuntu-vms-in-non-responsive-state-for-service-map-agent/ba-p/1186350).
+- For a list of additional VM extensions, see [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
+
+- To manage Azure VM extensions, use either the Azure CLI, Azure PowerShell, Azure Resource Manager templates, or the Azure portal
+- To handle the extension on the VM, you must have the Azure VM agent installed
+- To install or delete the extension, you don't need to connect to a VM directly. Azure extensions are managed outside of the VM and are integrated into the Azure platform.
+- To prevent your VMs from going into an unresponsive state, update to the latest dependency agent version 9.10.3. For more information, see [Linux Ubuntu VMs in non-responsive state for Service Map Agent](https://techcommunity.microsoft.com/t5/azure-monitor-status/linux-ubuntu-vms-in-non-responsive-state-for-service-map-agent/ba-p/1186350).
 
 ## Issues with VMs deployed with SQL Extension
 
