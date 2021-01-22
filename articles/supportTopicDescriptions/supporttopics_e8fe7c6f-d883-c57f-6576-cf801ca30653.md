@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "87d8cf82-0387-f7b4-0750-2e75107109fe",
+      "longDescription": "",
+      "shortDescription": "Processing failure with a timeout error",
+      "searchTags": "timeout;timeouts",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a9973b71-c65d-6d90-ea28-a0eada1e62a8",
       "longDescription": "",
       "shortDescription": "How to guidance related to Azure Analysis Services",
