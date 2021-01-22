@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95dfb609-f450-6479-f2a7-f9a72d213d48",
+      "longDescription": "",
+      "shortDescription": "AAD authentication errors when a client tool tries to connect to Azure Analysis Services",
+      "searchTags": "AAD Authentication;Authentication error",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "972ee660-d223-61d1-a28f-dcf958ad71af",
       "longDescription": "",
       "shortDescription": "Any problem related to start or pause of the server, or an unexpected shutdown of the server",
