@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="2a570d9c-79a9-4570-99ee-eb90905124b1_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Reads happening on latest data
@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').HBase_MemstoreReads",
     "dataSource": "Kusto",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": 12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
@@ -37,7 +37,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
-  "description": "Reading most recent data from hbase memstore",
+  "description": "Reads happen on most recent data",
   "longDescription": "More than 75% of your read requests are landing on the memstore. That indicates that the reads are primarily on recent data. This suggests that even if a flush happens on the memstore that the recent file needs to be accessed and that file needs to be in the cache.",
   "potentialBenefits": "If the reads are on the most recent data, the suggested config changes will help you to do the reads from the memory as much as possible thus helping in faster read performance.",
   "actions": [
