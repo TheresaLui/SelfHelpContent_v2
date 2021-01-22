@@ -7,19 +7,20 @@
   productpesids="e8fe7c6f-d883-c57f-6576-cf801ca30653"
   cloudenvironments=""
   disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
-  articleid="supporttopics_e8fe7c6f-d883-c57f-6576-cf801ca30653" />
+  articleid="supporttopics_e8fe7c6f-d883-c57f-6576-cf801ca30653"
+  ownershipid="AzureData_AnalysisServices" />
 # Support Topic Descriptions for e8fe7c6f-d883-c57f-6576-cf801ca30653
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Azure Analysis Services",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/azure/analysis-services/",
+  "productLinkName1": "Azure Analysis Services documentation",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "1cc6e37c-056f-eeb9-f9b6-d69461d89ce1",
