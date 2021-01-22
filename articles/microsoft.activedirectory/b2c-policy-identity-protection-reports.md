@@ -10,8 +10,7 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec,blackforest"
   disableclouds=""
   articleid="aa71078e-2b8a-4f9a-bdda-8b4ef19c781b"
-  ownershipid="AzureIdentity_B2C" 
- />
+  ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
 ## **Recommended Steps**
@@ -23,11 +22,14 @@ Your investigation into risk will typically start with the Identity Protection d
 In addition to investigation you can configure an automated response for specific sign-in risk levels via the [sign-in risk policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup#to-create-a-conditional-access-policy). In your response, you can block access to your resources or require passing a [multi-factor authentication (MFA) challenge](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy?WT.mc_id=Portal-Microsoft_Azure_Support) to gain access.
 
 
-## **Recommended Documents**
+### **Useful Links** 
 
-* [Set up Identity Protection and Conditional Access in Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup)
-* [Azure AD B2C policies](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)
-* [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+* [Set up Identity Protection and Conditional Access in Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) to provide ongoing risk detection for your Azure AD B2C tenant. 
+
+* Get started today with predefined, configurable policies called [User Flows in AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies) to set up the most common identity tasks for your applications. 
+
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+
+* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+
+* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
