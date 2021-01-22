@@ -156,6 +156,14 @@
       "searchTags": "authentication account;token;key;authentication failure;model refresh",
       "category": "Processing-Data Refresh",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f7bcb589-a540-cbf5-29ef-3700ef189f2c",
+      "longDescription": "",
+      "shortDescription": "Deployment or creation or operation management of an Azure Analysis Services server ",
+      "searchTags": "Managed instance",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
