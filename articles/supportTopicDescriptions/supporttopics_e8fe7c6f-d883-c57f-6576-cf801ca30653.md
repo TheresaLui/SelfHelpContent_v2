@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "512b6e32-bd21-9fd1-c1fc-9cc4a85c6aa3",
+      "longDescription": "",
+      "shortDescription": "SSMS unable to connect to server",
+      "searchTags": "SSMS;Management Studio",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "54dc2c0c-a04b-3824-6f3a-b2db87f98a2c",
       "longDescription": "",
       "shortDescription": "Data refresh failure or performance problem through the data gateway",
