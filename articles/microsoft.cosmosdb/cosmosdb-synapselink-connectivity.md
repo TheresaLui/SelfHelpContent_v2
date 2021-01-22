@@ -18,7 +18,7 @@
 
 # Azure Synapse Link for Azure Cosmos DB - Connectivity  
 
-Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the steps below.  
+Most users are able to resolve their Azure Synapse Link for Azure Cosmos DB issues using the following steps.  
 
 
 ## **Recommended Steps**  
@@ -29,7 +29,6 @@ Today Azure Synapse Link for Azure Cosmos DB is supported for SQL API and Azure 
 
 ### **Workspace with Managed Virtual Network**   
 Azure Synapse Link for Azure Cosmos DB is currently not supported in workspace with Managed Vnet.   
-
 We recommend creating a workspace without Managed Vnet to access Azure Synapse Link.  
 
 
@@ -39,9 +38,9 @@ Only Synapse SQL serverless pool and Synapse Spark pool are currently supported.
 
 ### **Cannot access Cosmos DB analytical store with Synapse Studio that is in another subscription**  
 
-When trying to access Cosmos DB analytical store from a Synapse in other subscription, you may get the "An error occurred while calling... responseBody = {'code':'Forbidden','message':'Request originated from client IP ... through public internet. This is blocked by your Cosmos DB account firewall settings..." error.
+When trying to access Cosmos DB analytical store from a Synapse in other subscription, you may get the error "An error occurred while calling... responseBody = {'code':'Forbidden','message':'Request originated from client IP ... through public internet. This is blocked by your Cosmos DB account firewall settings...".
 
-This is caused because your ip address needs to be present in the firewall settings of the Cosmos account you want to access. Please check [this](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure) documentation for more information.
+This error occurs because your IP address must be present in the firewall settings of the Cosmos account you want to access. [Follow these instructions](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure).
 
 
 ## **Recommended Documents**  
