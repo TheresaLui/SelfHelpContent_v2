@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c8e78b9b-41b9-d72a-2651-d996889f0675",
+      "longDescription": "",
+      "shortDescription": "Data refresh failure or performance problem through the data gateway",
+      "searchTags": "On-premises data gateway;data gateway",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd276081-4ae1-ebb0-9fca-9c1da2612184",
       "longDescription": "",
       "shortDescription": "Issues related to Power BI data refresh",
