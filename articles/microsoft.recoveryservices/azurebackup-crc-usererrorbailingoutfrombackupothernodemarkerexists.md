@@ -20,7 +20,7 @@
 # Error UserErrorBailingOutFromBackupOtherNodeMarkerExists
 
 <!--issueDescription-->
-We have identified that your databases is a part of Always on Availability Group, Backup was successfull on one of the node from the same Availability Group.
+We have identified that your databases is a part of Always on Availability Group, Backup was successful on one of the node from the same Availability Group.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
