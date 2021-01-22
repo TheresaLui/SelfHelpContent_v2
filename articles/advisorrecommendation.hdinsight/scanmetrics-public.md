@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="09fa655c-8e0b-44fa-9236-e2021c0e7016_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Improving scan query performance
@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').AccWriteCandidateHBaseClusters",
     "dataSource": "Kusto",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
@@ -39,7 +39,7 @@
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "More than 75% of your queries are full scan queries.",
   "longDescription": "More than 75% of the scan queries on your cluster are doing a full region/table scan. Modify your scan queries to avoid full region or table scans.",
-  "potentialBenefits": "Faster scan performances",
+  "potentialBenefits": "Faster scan performance",
   "actions": [
     {
       "actionId": "bf11f4ca-c126-4a60-9d9f-dc93b7ba161d",
