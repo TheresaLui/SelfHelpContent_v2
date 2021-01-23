@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="53af2425-8287-4ca5-a5da-b84de9af4f42_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Tune the RegionServer's flush queue for write performance
@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').HBase_flushQueueLength",
     "dataSource": "Kusto",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "05:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",

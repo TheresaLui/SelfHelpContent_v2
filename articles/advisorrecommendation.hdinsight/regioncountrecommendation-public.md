@@ -50,7 +50,7 @@
   ],
   "displayLabel": "Region count tuning.",
   "additionalColumns": [],
-  "tip": "Region count tuning",
+  "tip": "Tune the cluster based on the number of regions",
   "testData": "c36fd9e7-e5b1-4d3e-bb85-2e538040258b,/subscriptions/c36fd9e7-e5b1-4d3e-bb85-2e538040258b/resourceGroups/blr_hbase/providers/Microsoft.HDInsight/clusters/hbase-216-writes"
 }
 ---

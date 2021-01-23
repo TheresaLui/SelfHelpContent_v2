@@ -5,7 +5,7 @@
     ms.author="ramvasu"
     articleId="8c04c87d-f4b7-4991-a1c1-2f5fbe689d94_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec, BlackForest, FairFax, MoonCake"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Tune the RegionServer's compaction queue for read performance
@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').HBase_compactionQueueLength",
     "dataSource": "Kusto",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "05:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
