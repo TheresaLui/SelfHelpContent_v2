@@ -26,7 +26,7 @@ Resources providing knowledge on CSP Direct Bill Program requirements
 
 We are introducing a performance standard as part of the direct bill partner requirements. Partners who want to enroll as direct bill partners in the Cloud Solution Provider program must meet at least USD300K in Cloud Solution Provider program revenue during the 12 months prior to [required support contract](https://partner.microsoft.com/support/partnersupport) renewal date.
 
-This performance standard will go into effect in January 2021 for current direct bill partners, and you will need to meet the requirements by your partner support plan renewal date.
+This performance standard will go into effect in January 2021 for current direct bill partners, and you will need to meet the requirements by your partner support plan renewal date. If you want to see how you can increase your CSP sales, please contact your Account Manager, Partner Development Manager or [review the guides](https://partner.microsoft.com/solutions/build-a-practice) that can help you understand how to build and develop your business with Microsoft.
 
 Please refer to [Subscription analytics report](https://partner.microsoft.com/dashboard/analytics/licenseanalytics) for details of previous 12 months revenue and refer to [analytics report guide](https://partner.microsoft.com/resources/detail/new-subscription-analytics-report-on-partner-center-guide-pdf) for more information.
 
