@@ -7,7 +7,7 @@
     ms.author="scotro"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32615529,32639643"
+    supportTopicIds="32615529"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -22,6 +22,8 @@
 ## **Recommended Steps**
 
 If you can't connect to a Linux virtual machine (VM) and suspect the issue would be resolved by resetting the SSH service configuration, restarting, or resetting a local users password, you can perform those actions using Password Reset Blade in the Azure Portal or VM Access extension using Azure CLI.<br>
+
+[Reset VM Password](button-data-blade:microsoft_azure_compute.VirtualMachinePasswordReset.id.$resourceId)
 
 If you're using Azure CLI, make sure that you have the latest [latest CLI module installed](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) and configured and are signed in to your Azure subscription. You can also [perform these steps for VMs created with the classic deployment model](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#vms-created-by-using-the-classic-deployment-model).
 
