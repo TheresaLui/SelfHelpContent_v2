@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds="13185,14749,15571,15797,16080,16215,16454,16470,16802"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec, BlackForest, Mooncake"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
@@ -32,7 +32,7 @@ Azure constantly monitors the health of the physical host hardware and clusters 
 ## **Recommended Documents**
 
 > Learn more about:
-> * To prepare for VM maintenance events and reduce its impact, try using Scheduled Events for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux] (https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
+> * To prepare for VM maintenance events and reduce its impact, try using Scheduled Events for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) 
 > * Learn more about Azure maintenance and configuring for high availability:  
 >   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
 >   * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) 
