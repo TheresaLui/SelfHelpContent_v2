@@ -20,13 +20,14 @@
 
 
 <!--issueDescription-->
-The physical host node where your VM is running underwent a networking stack update. These updates might have paused your VMs up to 9 seconds.  
-
+The physical host node where your VM is running underwent a networking stack update.
 
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+
+
 <!--/issueDescription-->
 
-Azure performs updates to improve reliability, performance, and security of the VMs. Azure chooses the least impactful method which might result in brief connectivity loss. We are continuously working to improve the update process and apologize for any inconvenience this may have caused you. 
+Azure performs updates to improve reliability, performance, and security of the VMs. Azure chooses the least impactful method which might result in brief connectivity loss. We are continuously working to improve and reduce impact of our updates and apologize for any inconvenience this may have caused you. 
 
 
 <!--recommendedActions-->

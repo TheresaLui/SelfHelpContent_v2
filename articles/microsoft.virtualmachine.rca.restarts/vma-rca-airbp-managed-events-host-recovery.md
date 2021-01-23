@@ -20,7 +20,7 @@
 
 
 <!--issueDescription-->
-We detected that the health of the physical host Hardware your VM runs on has degraded. To prevent impact to your workload, Azure initiated a memory-preserving Kernel Soft Reboot to improve the health of the Host. During this time your VM might have been paused your VMs up to 9 seconds.
+We detected that the health of the physical host Hardware your VM runs on has degraded. To prevent impact to your workload, Azure initiated a memory-preserving Kernel Soft Reboot to improve the health of the Host. 
 
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
