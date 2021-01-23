@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').HBase_MemstoreReads",
     "dataSource": "Kusto",
-    "refreshInterval": 12:00:00"
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
