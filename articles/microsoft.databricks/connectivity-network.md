@@ -19,6 +19,15 @@
 
 To diagnose and resolve connectivity issues with network configuration, use the following information.
 
+* The **default deployment of Azure Databricks is a fully managed service on Azure**: all data plane resources, including a VNet that all clusters will be associated with, are deployed to a locked resource group. If you require network customization, however, you can [deploy Azure Databricks data plane resources in your own virtual network - VNet injection](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject), enabling you to:
+
+  - Connect Azure Databricks to other Azure services (such as Azure Storage and EventHubs) in a more secure manner.
+  - Connect to on-premises data sources taking advantage of user-defined routes.
+  - Connect Azure Databricks to a network virtual appliance to inspect all outbound traffic and take actions according to allow and deny rules, by using user-defined routes.
+  - Configure Azure Databricks to use custom DNS.
+  - Configure network security group (NSG) rules to specify egress traffic restrictions.
+  - Deploy Azure Databricks clusters in your existing VNet.
+
 ## **Recommended Steps**
 
 * To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
