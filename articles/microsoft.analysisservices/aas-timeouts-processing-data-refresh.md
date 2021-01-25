@@ -1,19 +1,16 @@
- <properties
-    pageTitle="timeouts"
-    description="timeouts"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="340"
-    selfHelpType="generic"
-    supportTopicIds="32675705"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="87d8cf82-0387-f7b4-0750-2e75107109fe"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Automating Azure Analysis Services processing with Azure Functions&#xD;"
+  description="timeouts"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675705"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="87d8cf82-0387-f7b4-0750-2e75107109fe"
+  ownershipid="AzureData_AnalysisServices" />
 # Automating Azure Analysis Services processing with Azure Functions
 
 ## **Recommended Documents**
