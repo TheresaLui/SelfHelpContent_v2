@@ -15,12 +15,12 @@
 
 ## **Recommended Documents**
 
-* [Tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
+* [Tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/partitions-ssas-tabular?view=asallproducts-allversions)
 
-* [Create and manage tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
-
-* [Process tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
+* [Create and manage tabular model partitions](https://docs.microsoft.com/analysis-services/tutorial-tabular-1400/as-lesson-10-create-partitions?view=asallproducts-allversions)
 
 * [Process database, table, or partition (Analysis Services)](https://docs.microsoft.com/analysis-services/tabular-models/process-database-table-or-partition-analysis-services?view=asallproducts-allversions)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
