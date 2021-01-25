@@ -7,7 +7,7 @@
 	supportTopicIds="32785996"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_WinAgentBased"
+    articleId="scoping-WinAgentBased"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -19,12 +19,12 @@
                 "title": "Incident auditing and reporting",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
-                {
+                "formElements": [{
                 "id": "MissingIncID",
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "In case of a missing record, please provide a sample of an incident ID that is missing:",
                 "required": true
-                }
+                }]
 }
 ---

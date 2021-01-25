@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Sentinel - Analytic rules  - Entities in scheduled alert rule"
-	description="Azure Sentinel - Analytic rules  - Entities in scheduled alert rule"
+	pageTitle="Azure Sentinel - Analytic rules  - Scheduled alert rule  - Configuration"
+	description="Azure Sentinel - Analytic rules  - Scheduled alert rule  - Configuration"
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32786012"
+	supportTopicIds="32786020"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_WinAgentBased"
+    articleId="scoping-WinAgentBased"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -16,21 +16,21 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Entities in scheduled alert rule",
+                "title": "Scheduled alert rule  - Configuration",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
-                {
+                "formElements": [{
                 "id": "AlertRuleID",
                 "order": 4,
                 "controlType": "textbox",
                 "displayLabel": "Please provide the Alert rule ID:",
                 "required": true
                 },{
-                "id": "MissingEntAlertID",
+                "id": "ConfigSet",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert ID where the entities are not set:",
+                "displayLabel": "What kind of configuration you are trying to set?",
                 "required": true
-                }
+                }]
 }
 ---

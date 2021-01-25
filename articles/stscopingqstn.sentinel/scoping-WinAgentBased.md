@@ -7,7 +7,7 @@
 	supportTopicIds="32786001"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_WinAgentBased"
+    articleId="scoping-WinAgentBased"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -41,7 +41,7 @@
 						}
                     ],
                     "required": true
-                }],{
+                },{
                 "id": "OSandAgent_version",
                 "order": 3,
                 "controlType": "textbox",
@@ -53,6 +53,6 @@
                 "controlType": "textbox",
                 "displayLabel": "What connector are you using?",
                 "required": true
-                }
+                }]
 }
 ---

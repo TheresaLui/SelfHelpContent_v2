@@ -7,7 +7,7 @@
 	supportTopicIds="32785998"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_WinAgentBased"
+    articleId="scoping-WinAgentBased"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -19,12 +19,12 @@
                 "title": "Using the cross workspace incidents view",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
-                {
+                "formElements": [{
                 "id": "MissingWS",
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "Please provide a list of the workspaces that you are unable to see incidents from:",
                 "required": true
-                }
+                }]
 }
 ---

@@ -7,7 +7,7 @@
 	supportTopicIds="32786000"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_WinAgentBased"
+    articleId="scoping-WinAgentBased"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -19,7 +19,7 @@
                 "title": "Viewing and handling incidents",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
-                {
+                "formElements": [{
                 "id": "AlertID",
                 "order": 3,
                 "controlType": "textbox",
@@ -37,6 +37,6 @@
                 "controlType": "textbox",
                 "displayLabel": "What is the procut for which the incidents was not created?",
                 "required": true
-                }
+                }]
 }
 ---
