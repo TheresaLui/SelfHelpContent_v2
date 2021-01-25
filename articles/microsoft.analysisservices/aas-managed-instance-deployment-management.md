@@ -1,19 +1,16 @@
- <properties
-    pageTitle="managed instance deployment"
-    description="managed instance deployment"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="200"
-    selfHelpType="generic"
-    supportTopicIds="32675697"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="f7bcb589-a540-cbf5-29ef-3700ef189f2c"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Azure Analysis Services integration with VNets via On-Premises Data Gateway&#xD;"
+  description="managed instance deployment"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675697"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="f7bcb589-a540-cbf5-29ef-3700ef189f2c"
+  ownershipid="AzureData_AnalysisServices" />
 # Azure Analysis Services integration with VNets via On-Premises Data Gateway
 
 ## **Recommended Documents**
