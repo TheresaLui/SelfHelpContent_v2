@@ -48,7 +48,7 @@
       "actionId": "b4f99ca1-da88-408a-bbee-4257964ec259",
       "actionType": "Blade",
       "description": "Upgrade the SKU size",
-      "extensionName": "Microsoft_Azure_Network",
+      "extensionName": "Microsoft_Azure_HybridNetworking",
       "bladeName": "ApplicationGatewayConfigurationBlade",
       "metadata": {
         "id": "{resourceId}"
@@ -59,7 +59,7 @@
       "actionId": "e0b4d800-09e0-4aaa-925e-02c8f5fdfdf4",
       "actionType": "Blade",
       "description": "Increase the instance count",
-      "extensionName": "Microsoft_Azure_Network",
+      "extensionName": "Microsoft_Azure_HybridNetworking",
       "bladeName": "ApplicationGatewayConfigurationBlade",
       "metadata": {
         "id": "{resourceId}"
@@ -70,7 +70,7 @@
       "actionId": "118b2801-008e-461a-bf6e-078820b4159a",
       "actionType": "Blade",
       "description": "Upgrade the SKU size, and increase the instance count",
-      "extensionName": "Microsoft_Azure_Network",
+      "extensionName": "Microsoft_Azure_HybridNetworking",
       "bladeName": "ApplicationGatewayConfigurationBlade",
       "metadata": {
         "id": "{resourceId}"

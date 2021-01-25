@@ -17,7 +17,8 @@ articleId="a34260c4-11b1-4871-b941-7e57e3bfbe0d"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-## CRUD failure while setting up Peering
+## CRUD (Create/Read/Update/Delete) failure while setting up Peering
+
 The CRUD operation on peering may fail on Azure portal/PowerShell/CLI. You may be able to track these errors in NRP and BRKGWM/BRKGWT namespaces.
 
 ### Recommended Action
@@ -34,5 +35,3 @@ Look at the "ErrorCode" and "ErrorDetails". Please consider the below actions wi
 |ParentResourceIsInFailedState |Have customer use Azure PowerShell or Azure Cloud Shell in the Portal. <br> Next, have the customer run *Get-AzExpressRouteCircuit \| Set-AzExpressRouteCircuit*. Ensure circuit is no longer in a failed state. If so, retry the operation. Otherwise, engage your TA.|
 |ExpressRoutePrivatePeeringConfigIncomplete |Ensure that the customer provided all the required parameters as publicly documented [here](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager).|
 |\<Blank> |Look at the "ErrorDetails". If you see the error "The specified bgp shared key length was not valid. The maximum length supported is 25.", refer customer to public documentation [here](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager) which explains the 25 alphanumeric character limit. Special characters are not supported. <br> If you see "InternalServerError", ask the customer to retry the operation. If the retry fails, note the "CorrelationRequestId" and timestamp and engage an available TA and escalate case to a CRI. |
-
-

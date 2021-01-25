@@ -22,15 +22,32 @@
  
 ## **Recommended Steps**
 
-1.	As an MPN Partner, once you have acquired a subscription, go to [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) tab in your Partner Center dashboard
-2.	Please ensure that you are a user with Global Admin or an MPN Partner Admin role to perform these activities
-3.	Click on Technical benefits tab in the left navigation panel
-4.	Refer to this article [Technical Benefits](https://support.microsoft.com/help/4515208/technical-benefits-tab-for-mpn-partners-in-partner-center) for step by step instructions to **review or activate** the technical benefit
-5.	For additional help, please refer to Recommended documents below
+**Go to Benefits - [Technical Benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical), to view benefits, activate Support incidents / view Access ID or to use Partner Advisory Hours**
+
+Note: *MPN Technical Benefits are available to Gold, Silver or Microsoft Action Pack subscribers (excluding Network members)*
+
+There are 2 types of MPN technical benefit:
+
+**1. Support incidents**
+ * **Use for technical support / break-fix, product functionality failure, error message etc**
+ * *The Global Admin or MPN Partner Admin must click* [Activate](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical) before use (allow up to 5 business days), then all users can see the Access ID and Contract ID
+ * Microsoft Product Support is for [recent](https://support.microsoft.com/help/4032154/mpn-partner-support-n-1-policy-for-on-premises-products) on-premises products only – [create request](https://support.serviceshub.microsoft.com/supportforbusiness/create)
+ * Signature Cloud Support is for cloud products only (exclusive to Gold & Silver partners) – select [Customers](https://partner.microsoft.com/commerce/customers/list), then Service management  
+ 
+
+**2. Partner Advisory Hours** (Gold and Silver partners get free unlimited presales)
+ * **Use for consultations to build your technical capabilities faster and increase sales, deploy more effectively, and accelerate app development**
+ * All Cloud or Hybrid solutions, and Windows 10, Windows Server, Microsoft SQL are [supported products](https://support.microsoft.com/help/3094111/technical-presales-and-deployment-services-supported-products-and-scen)
+ * Sign-in with any MPN associated user account to submit a request (benefit activation is not required)
+ * [Click here to submit a Technical Presales and Deployment Services request](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)  
+ 
+
+For additional help, please refer to Recommended documents below
 
 ## **Recommended Documents**
 
-* [Technical benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515208/technical-benefits-tab-for-mpn-partners-in-partner-center)
-* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
-* [How these Technical benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)
-* [Self-Help resources for Technical issues](https://technet.microsoft.com/)
+* Support incidents: [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners)
+* Partner Advisory hours: [Technical Presales and Deployment Services](https://partner.microsoft.com/training/technical-presales-deployment-services)
+* [Partner Center - Technical benefits](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical)
+* [MPN Program Benefits](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)
+* [Self-Help resources for Technical issues](https://docs.microsoft.com/)

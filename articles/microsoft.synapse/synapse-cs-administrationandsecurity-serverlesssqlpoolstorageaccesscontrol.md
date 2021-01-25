@@ -1,33 +1,51 @@
 <properties
-    selfHelpType = "generic"
-    cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
-    ownershipId = "AzureData_SynapseAnalytics"
-    service = "microsoft.synapse"
-    resource = "workspaces"
-    resourceTags = ""
-    productPesIds = "15818"
-    supportTopicIds = "32783913"
-    displayOrder = ""
-    diagnosticScenario = ""
-    infoBubbleText = ""
-    pageTitle = "Administration and Security/Serverless SQL pool - Storage access control"
-    description = "Administration and Security/Serverless SQL pool - Storage access control"
-    articleId = "synapse-cs-administrationandsecurity-serverlesssqlpoolstorageaccesscontrol.md"
-    ms.author = "fipopovi, saltug"
-/>
-
+  pagetitle="Administration and Security/Serverless SQL pool - Storage access control"
+  service="microsoft.synapse"
+  resource="workspaces"
+  ms.author="fipopovi,saltug,goventur"
+  selfhelptype="Generic"
+  supporttopicids="32783913"
+  resourcetags=""
+  productpesids="15818"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="synapse-cs-administrationandsecurity-serverlesssqlpoolstorageaccesscontrol.md"
+  ownershipid="AzureData_SynapseAnalytics" />
 # Administration and Security/Serverless SQL pool - Storage access control
+
+Most customers resolve their storage access issues in Serverless SQL pool using these steps.
+
 
 ## **Recommended Steps**
 
-* If your query fails with the error message 'File cannot be opened because it does not exist or it is used by another process' and you're sure both file exist and it's not used by another process, it means Serverless SQL pool can't access the file. 
+* **"File cannot be opened because it does not exist or is used by another process"**<br>
+    If your query fails with this error and you've verified that the file exists and is not used by another process, then the Serverless SQL pool can't access the file.
 
-* If you are using AAD login, check whether UserIdentity credential exists. If it exists, check if you have proper rights to access the file. Easiest way is to grant yourself 'Storage Blob Data Contributor' role on the storage account you're trying to query. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
+* **"Failed to execute the query. Error: External table <_tablename_> is not accessible because content of directory cannot be listed."**<br>
+   If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).
 
-* For credentials defined on storage path level, make sure credential is not created on storage level, but at least on container level. For more information see [control storage access for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
+* **If you use AAD login, check if the UserIdentity credential exists**<br>
+   If this credential exists, you can give yourself permission to access the file by granting yourself the **'Storage Blob Data Contributor'** role on the storage account you're trying to query. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
 
-* Check if proper credential is created as described in [control storage access for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
+* **Create storage path credentials at the container level or higher (not at the storage level).**<br>
+   For more information see [control storage access for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
 
-* If using ADF to access Serverless SQL pool, check if MSI account for your workspace is given access to storage. MSI account has the same name as your workspace name. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
+* **Create appropriate credentials as described in [control storage access for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control).**
 
- 
+* **Check the [supported storage authorization types](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#supported-storage-authorization-types).**
+
+* **If using ADF to access the Serverless SQL pool, determine if the MSI account for your workspace has been given access to storage.**
+      MSI account has the same name as your workspace name. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal).
+
+## **Recommended Documents**
+
+* [Control storage account access for serverless SQL](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity)
+
+* [Supported storage authorization types](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#supported-storage-authorization-types)
+
+* [Querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage)
+
+* [Credentials - Server and Database-scoped](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#credentials)
+
+* [Use the Azure portal to assign an Azure role for access to blob and queue data](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal)
+
+* [Configure Azure Storage firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)

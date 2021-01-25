@@ -19,9 +19,9 @@
 
 <!--issueDescription-->
 
-"<!--issueDescription-->
+<!--issueDescription-->
 Our investigation has determined that the NIC was on failed state and we needed to recover it.
-<!--/issueDescription-->"
+<!--/issueDescription-->
 
 <!--/issueDescription-->
 

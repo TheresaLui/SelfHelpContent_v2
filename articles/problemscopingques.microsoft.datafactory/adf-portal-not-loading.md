@@ -101,8 +101,50 @@
             "required": true
         },
         {
-            "id": "problem_start_time",
+            "id": "allowed_site_list",
             "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Have you added Adf.Azure.com to the allowed site list?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I need assistance enabling this setting"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "inprivate",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Does it work in Incognito mode (Chrome) or InPrivate mode for Edge?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know the answer"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
