@@ -1,19 +1,16 @@
- <properties
-	pageTitle="partitions"
-	description="partitions"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="300"
-	selfHelpType="generic"
-	supportTopicIds="32675702"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
-	articleId="793e7450-a177-4100-42bb-0420672266ea"
-	ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Process Tabular Model Partitions&#xD;"
+  description="partitions"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675702"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="793e7450-a177-4100-42bb-0420672266ea"
+  ownershipid="AzureData_AnalysisServices" />
 # Process Tabular Model Partitions
 
 ## **Recommended Documents**
