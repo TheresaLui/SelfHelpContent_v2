@@ -23,4 +23,4 @@
 
 * [Azure Firewall FAQ](https://docs.microsoft.com/azure/firewall/firewall-faq)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Define a proxy server](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings)
