@@ -159,7 +159,7 @@
             "visibility": "quota_provider_name == MS-Quantum || quota_provider_name == dont_know_answer",
             "order": 8,
             "controlType": "dropdown",
-            "displayLabel":"Workspace Name",
+            "displayLabel":"Workspace name",
             "includeInQuotaSummary": true,
             "watermarkText":"Choose a workspace",
             "required": true,
@@ -202,28 +202,28 @@
             "visibility": "quota_subtype == provider-quota&& quota_provider_name != MS-Quantum && quota_provider_name == IonQ",
             "order": 10,
             "controlType": "textBlock",
-            "displayLabel": "If you would like to request a quota/limit increase for your IonQ offer, please reach out to IonQ support. Please provide details of your subscripton ID, workspace name, and a business justification. The IonQ support team will then evaluate your request. https://aka.ms/AQ/IonQ/CustomerSupport"
+            "displayLabel": "To request a quota/limit increase for your IonQ offer, reach out to IonQ support. Provide details of your subscripton ID, workspace name, and a business justification. The IonQ support team will evaluate your request. https://aka.ms/AQ/IonQ/CustomerSupport"
         },
         {
             "id": "quota_provider_type_honeywell",
             "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == Honeywell",
             "order": 11,
             "controlType": "textBlock",
-            "displayLabel":"If you would like to request a quota/limit increase for your Honeywell offer, please reach out to Honeywell support. Please provide details of your subscripton ID, workspace name, and a business justification. The Honeywell support team will then evaluate your request. https://aka.ms/AQ/Honeywell/CustomerSupport"
+            "displayLabel":"To request a quota/limit increase for your Honeywell offer, reach out to Honeywell support. Provide details of your subscripton ID, workspace name, and a business justification. The Honeywell support team will evaluate your request. https://aka.ms/AQ/Honeywell/CustomerSupport"
         },
         {
             "id": "quota_provider_type_qci",
             "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == QCI",
             "order": 12,
             "controlType": "textBlock",
-            "displayLabel":"If you would like to request a quota/limit increase for your Quantum Circuits Inc. (QCI) offer, please reach out to QCI support. Please provide details of your subscripton ID, workspace name, and a business justification. The QCI support team will then evaluate your request. https://aka.ms/AQ/QCI/CustomerSupport"
+            "displayLabel":"To request a quota/limit increase for your Quantum Circuits Inc. (QCI) offer, reach out to QCI support. Provide details of your subscripton ID, workspace name, and a business justification. The QCI support team will evaluate your request. https://aka.ms/AQ/QCI/CustomerSupport"
         },
         {
             "id": "quota_provider_type_1qloud",
             "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == 1Qloud",
             "order": 13,
             "controlType": "textBlock",
-            "displayLabel":"If you would like to request a quota/limit increase for your 1Qloud Optimization Platform offer offer, please reach out to 1QBit support. Please provide details of your subscripton ID, workspace name, and a business justification. The 1QBit support team will then evaluate your request. https://aka.ms/AQ/1QBit/CustomerSupport"
+            "displayLabel":"To request a quota/limit increase for your 1Qloud Optimization Platform offer offer, reach out to 1QBit support. Provide details of your subscripton ID, workspace name, and a business justification. The 1QBit support team will evaluate your request. https://aka.ms/AQ/1QBit/CustomerSupport"
         },
         {
             "id": "quota_provider_new_limit",
@@ -263,7 +263,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "useAsAdditionalDetails": true,
-            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
+            "watermarkText": "Provide additional information about your issue, including details such as workspace name, region, type of limit, current value and new value requested as applicable.",
             "required": true
         }
     ]
