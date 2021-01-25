@@ -21,7 +21,7 @@
                 "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
                 "formElements": [{
                 "id": "AlertID",
-                "order": 3,
+                "order": 2,
                 "controlType": "textbox",
                 "displayLabel": "Please provide the SystemAlertId of the relevant alert:",
                 "required": true
