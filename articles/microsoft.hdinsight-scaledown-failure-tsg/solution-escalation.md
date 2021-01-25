@@ -28,8 +28,7 @@ Try to follow the recommended documents to troubleshoot or escalate
 ## **Possible RCA**
 
 * [Getting stuck in safe mode](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-scaling-best-practices#getting-stuck-in-safe-mode)
-* [InvalidScaleDownHostErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349724/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
-* [Zombie workernodes heartbeat lost after scaling down](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/3858/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
+* [Zombie workernodes cause InvalidScaleDownHostErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349724/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
 
 ## **Recommended Documents**
 
