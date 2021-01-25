@@ -1,19 +1,16 @@
- <properties
-    pageTitle="authentication"
-    description="authentication"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="270"
-    selfHelpType="generic"
-    supportTopicIds="32675700"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="e581eeed-3c1b-ff98-9c5a-e3fadaeabd11"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Authentication and user permissions&#xD;"
+  description="authentication"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675700"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="e581eeed-3c1b-ff98-9c5a-e3fadaeabd11"
+  ownershipid="AzureData_AnalysisServices" />
 # Authentication and user permissions
 
 ## **Recommended Documents**
