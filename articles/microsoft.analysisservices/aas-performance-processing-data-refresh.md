@@ -1,19 +1,16 @@
- <properties
-    pageTitle="performance"
-    description="performance"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="310"
-    selfHelpType="generic"
-    supportTopicIds="32558775"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="3af15cd8-0ce4-b02e-1b18-50f49309786f"
-    ownershipId="AzureData_AnalysisServices"
-    />
-
+<properties
+  pagetitle="Monitoring Azure Analysis Services with Log Analytics and Power BI&#xD;"
+  description="performance"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32558775"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="3af15cd8-0ce4-b02e-1b18-50f49309786f"
+  ownershipid="AzureData_AnalysisServices" />
 # Monitoring Azure Analysis Services with Log Analytics and Power BI
 
 ## **Recommended Documents**
