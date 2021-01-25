@@ -1,19 +1,17 @@
 <properties
-	pageTitle="Configuring Traffic Manager with App Service"
-	description="Configuring Traffic Manager with App Service"
-	service="microsoft.web"
-	resource="sites"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32581614"
-	resourceTags=""
-	productPesIds="14748, 16170, 16333"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="562b50a2-1356-4a69-9c1d-3c271afc59b5"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Configuring Traffic Manager with App Service&#xD;"
+  description="Configuring Traffic Manager with App Service"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32581614"
+  resourcetags=""
+  productpesids="14748,16170,16333"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="562b50a2-1356-4a69-9c1d-3c271afc59b5"
+  ownershipid="Compute_AppService" />
 # Configuring Traffic Manager with App Service
 
 ## **Recommended documents**
