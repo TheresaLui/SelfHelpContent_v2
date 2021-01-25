@@ -24,3 +24,5 @@
 * [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
