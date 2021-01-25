@@ -1,19 +1,16 @@
- <properties
-    pageTitle="performance and timeouts"
-    description="performance and timeouts"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="360"
-    selfHelpType="generic"
-    supportTopicIds="32558776"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="21aee1ac-3d85-3469-0df6-40a0613731df"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Monitoring Azure Analysis Services with Log Analytics and Power BI&#xD;"
+  description="performance and timeouts"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32558776"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="21aee1ac-3d85-3469-0df6-40a0613731df"
+  ownershipid="AzureData_AnalysisServices" />
 # Monitoring Azure Analysis Services with Log Analytics and Power BI
 
 ## **Recommended Documents**
