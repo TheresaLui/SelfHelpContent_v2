@@ -25,7 +25,7 @@ System.Net.Http.HttpRequestException: An error occurred while sending the reques
 
 ~~~
 
-This error points to a failure of communication with the MDI portal. We should advise the customer to ensure that all the pre-requisites ports are allowed.
+This error points to a failure of communication with the MDI portal. We should advise the customer to ensure that all the pre-requisites ports are allowed and ensure that communication is allowed in firewall and proxy. .
 
 If the log shows: 
 
