@@ -1,19 +1,16 @@
- <properties
-    pageTitle="processing database"
-    description="processing database"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="330"
-    selfHelpType="generic"
-    supportTopicIds="32675704"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="2d858e77-c8fe-a8b1-399f-862580819414"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Using Analysis Services Tabular data in Power BI Desktop&#xD;"
+  description="processing database"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675704"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="2d858e77-c8fe-a8b1-399f-862580819414"
+  ownershipid="AzureData_AnalysisServices" />
 # Using Analysis Services Tabular data in Power BI Desktop
 
 ## **Recommended Documents**
