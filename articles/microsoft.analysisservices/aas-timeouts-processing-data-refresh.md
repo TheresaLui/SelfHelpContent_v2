@@ -19,8 +19,12 @@
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
-* [Troubleshooting refresh scenarios](https://docs.microsoft.com/power-bi/connect-data/refresh-troubleshooting-refresh-scenarios)
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
 
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 
 * [Monitoring overview](https://docs.microsoft.com/analysis-services/instances/monitor-an-analysis-services-instance?view=asallproducts-allversions)
+
+* [Server properties](https://docs.microsoft.com/analysis-services/server-properties/general-properties?view=asallproducts-allversions)
+
+* [How to set command timeout option](https://community.powerbi.com/t5/Desktop/How-to-set-command-timeout-option/td-p/487941)
