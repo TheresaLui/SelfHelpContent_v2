@@ -1,19 +1,16 @@
- <properties
-    pageTitle="replicas sync or scale out"
-    description="replicas sync or scale out"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="120"
-    selfHelpType="generic"
-    supportTopicIds="32675691"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="91e1b156-c83b-c9e3-e635-f1f8026ee29e"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Azure Analysis Services scale-out&#xD;"
+  description="replicas sync or scale out"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675691"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="91e1b156-c83b-c9e3-e635-f1f8026ee29e"
+  ownershipid="AzureData_AnalysisServices" />
 # Azure Analysis Services scale-out
 
 ## **Recommended Documents**
