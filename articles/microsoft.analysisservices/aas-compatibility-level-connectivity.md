@@ -16,3 +16,7 @@
 ## **Recommended Documents**
 
 * [Compatibility level for Analysis Services tabular models](https://docs.microsoft.com/sql/analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services?view=sql-server-2017)
+
+* [1400 compatibility level in Azure Analysis Services](https://azure.microsoft.com/blog/1400-models-in-azure-as/)
+
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
