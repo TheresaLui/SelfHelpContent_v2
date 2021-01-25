@@ -17,7 +17,7 @@
 
 # Customer is facing a data plane issue.
 
-**Data Plane** issues will happen if the user does not have appropriate data plane permissions on the storage account or on the container they are trying to access. Depending on the operation user is trying to perform on the blob object, we have sevaral [built-in roles](https://docs.microsoft.com/azure/storage/common/storage-auth-aad#azure-built-in-roles-for-blobs-and-queues) which the customers can assign to a particular user/identity. 
+**Data Plane** issues will happen if the user does not have appropriate data plane permissions on the storage account or on the container they are trying to access. Depending on the operation user is trying to perform on the blob object, we have several [built-in roles](https://docs.microsoft.com/azure/storage/common/storage-auth-aad#azure-built-in-roles-for-blobs-and-queues) which the customers can assign to a particular user/identity. 
 
 - [Storage Blob Data Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner): Use to set ownership and manage POSIX access control for Azure Data Lake Storage Gen2. For more information, see [Access control in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control).
 - [Storage Blob Data Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor): Use to grant read/write/delete permissions to Blob storage resources.
@@ -36,7 +36,7 @@ In order to resolve permission issue, verify if the user in question has appropr
 1. Navigate to customer's storage account in ASC Resource Explorer
 2. Navigate to **Access Control** tab and plug in user's ObjectID in the **Check Access** option and run it.
 3. You will be able to see user's RBAC permissions on that particular storage account. For each of the role assignment you see in there, please make sure the scope of the role assignment is properly specified.
-4. Verify if the user has appropriate data plane role assigned to them or have a custom role assigned to them which provides appropraite data plane permission.
+4. Verify if the user has appropriate data plane role assigned to them or have a custom role assigned to them which provides appropriate data plane permission.
 5. If the user does not have required permission, please ask them to work with the owner of their storage account to get it. That should help resolve the issue. 
 6. If the user has appropriate permissions but they still face permission issues, please escalate the ticket to the TA.
 
