@@ -60,6 +60,10 @@ pageTitle="Incentives permissions issues"
 					"text": "Commercial Distributor"
 				},
 				{
+					"value": "76A13844-16C7-482F-AD4F-C189F28B20FD",
+					"text": "Converged infrastructure (HCI) Validation Incentive Program"
+				},
+				{
 					"value": "F86AF17C-0021-4D31-A8D5-651AD0610C0B",
 					"text": "CSP Direct Bill Partner"
 				},
@@ -94,6 +98,10 @@ pageTitle="Incentives permissions issues"
 				{
 					"value": "E32E24C2-D9C5-4EF2-BABA-5B622DFCA7E0",
 					"text": "Microsoft Commerce Incentives"
+				},
+				{
+					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
+					"text": "Microsoft Federal Incentives Program"
 				},
 				{
 					"value": "F4E02673-D169-4E70-BA27-B4519B723B1C",
@@ -136,6 +144,10 @@ pageTitle="Incentives permissions issues"
 					"text": "OSU - Microsoft 365"
 				},
 				{
+					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
+					"text": "PowerUp Federal"
+				},
+				{
 					"value": "63C20225-7F78-45FC-A2FB-910A2F970C6D",
 					"text": "Server Market Development Fund"
 				},
@@ -162,6 +174,10 @@ pageTitle="Incentives permissions issues"
 				{
 					"value": "4E0D72D8-69C6-41AD-8839-C0EB67629B1B",
 					"text": "Surface ADR - PC"
+				},
+				{
+					"value": "A43220D9-B586-47A2-A655-E6A8A1E781CA",
+					"text": "Xbox Game Pass Incentive Program"
 				},
 			{
 				"value": "dont_know_answer",
