@@ -7,9 +7,9 @@
 	ms.author="subbuk"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32785509,32785645"
-	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	supportTopicIds="32785509, 32785645"
+	productPesIds="13491, 15660"
+	cloudEnvironments="blackForest"
 	articleId="427a0459-7468-49d0-9da5-111aa863ecfe"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />

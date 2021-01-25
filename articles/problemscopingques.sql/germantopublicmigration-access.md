@@ -6,9 +6,9 @@
 	authoralias="subbuk"
 	ms.author="subbuk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32785509,32785645"
-	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	supportTopicIds="32785509, 32785645"
+	productPesIds="13491, 15660"
+	cloudEnvironments="blackForest"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
