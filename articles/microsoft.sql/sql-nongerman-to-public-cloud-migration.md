@@ -23,6 +23,5 @@ To migrate your database in Germany Cloud  into Azure Public cloud environment, 
 For moving your resources from Non-German Subscription please use the Problem type Backup & Restore Or Migrating to Azure.
 
 ## **Recommended Documents**
-* [Steps to Export Database to a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-export?branch=pr-en-us-138592)<br>
-* [Steps to Import database from a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-import?branch=pr-en-us-138592&tabs=azure-powershell)<br>
+
 * [Microsoft Cloud Deutschland transition](https://www.microsoft.com/cloud-platform/germany-cloud-regions)   

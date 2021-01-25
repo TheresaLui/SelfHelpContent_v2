@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbuk"
+	authoralias="subbuk"
 	ms.author="subbuk"
 	displayOrder=""
 	selfHelpType="generic"
