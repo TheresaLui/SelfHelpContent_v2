@@ -6,7 +6,7 @@
 	authoralias="subbuk"
 	ms.author="subbuk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32785509"
+	supportTopicIds="32785509,32785645"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
