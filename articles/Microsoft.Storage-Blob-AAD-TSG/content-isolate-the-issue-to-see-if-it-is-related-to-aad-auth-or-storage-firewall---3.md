@@ -31,7 +31,7 @@ Once you know the InternalStatus of the failure, use the table below to determin
 | OAuthIpAuthorizationError or SASIpAuthorizationError(Anything which has IP in it) | Firewall failure |
 | SASAuthorizationError                                                             | SAS failure      |
 
-You can also use the AuthenticationType column in Dgrep to determine if the request was made over AAD or SAS. Before moving forward with this TSG, it is important that we first verfiy whether the issue is with AAD, Firewall or SAS. 
+You can also use the AuthenticationType column in Dgrep to determine if the request was made over AAD or SAS. Before moving forward with this TSG, it is important that we first verify whether the issue is with AAD, Firewall or SAS. 
 
 While using dgrep, check the case details to see if the customer has provided a storage server request id. Plug that into dgrep to get to the right failure.
 
