@@ -1,5 +1,5 @@
 <properties
-	articleId="427a0459-7468-49d0-9da5-111aa863ecfe"
+	articleId="dcf3cdb4-0b18-46f2-a834-518db33c300a"
 	pageTitle="SQL Database"
 	description="Scoping questions for Migration from Microsoft Cloud Germany to global Azure"
 	authors="subbuk"
@@ -40,7 +40,7 @@
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Migration Details",
-            "watermarkText": "Provide source (Germany Cloud) and target (Azure global) subscription IDs to enable Geo-Replication method to migrate your database." ,
+            "watermarkText": "Provide source (Germany Cloud) and target (Azure global) subscription IDs to enable Geo-Replication method to migrate your database.",
             "required": true,
             "useAsAdditionalDetails": true
         }
