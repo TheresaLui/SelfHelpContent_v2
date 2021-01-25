@@ -24,3 +24,5 @@
 * [Quickstart: Configure server firewall - Portal](https://docs.microsoft.com/azure/analysis-services/analysis-services-qs-firewall)
 
 * [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+
+* [Create a new Analysis Services firewall config](https://docs.microsoft.com/powershell/module/az.analysisservices/new-azanalysisservicesfirewallconfig?view=azps-5.4.0)
