@@ -1,19 +1,16 @@
- <properties
-    pageTitle="arm deployment"
-    description="arm deployment"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="150"
-    selfHelpType="generic"
-    supportTopicIds="32675693"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="df8f4c17-79eb-2172-1bfe-4302046829fc"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Deploy resources with Resource Manager templates and Azure PowerShell&#xD;"
+  description="arm deployment"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675693"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="df8f4c17-79eb-2172-1bfe-4302046829fc"
+  ownershipid="AzureData_AnalysisServices" />
 # Deploy resources with Resource Manager templates and Azure PowerShell
 
 ## **Recommended Documents**
