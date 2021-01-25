@@ -30,4 +30,3 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended Steps**
 
 1. Update the [ADLS certificate](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access) 
-2. Restart the gateway node for the new certificate to take into effect
