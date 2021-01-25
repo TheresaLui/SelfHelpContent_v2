@@ -1,19 +1,16 @@
- <properties
-    pageTitle="register an app or rest api"
-    description="register an app or rest api"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="110"
-    selfHelpType="generic"
-    supportTopicIds="32675690"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="80913bc0-08ec-d169-2070-11b13f86c04b"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Register an application&#xD;"
+  description="register an app or rest api"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675690"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="80913bc0-08ec-d169-2070-11b13f86c04b"
+  ownershipid="AzureData_AnalysisServices" />
 # Register an application
 
 ## **Recommended Documents**
