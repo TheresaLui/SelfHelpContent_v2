@@ -4,8 +4,8 @@
     service="microsoft.network"
     resource="virtualnetworks"
     authors="v-miegge"
-    editor=�v-jesits�
-    ms.author=""
+    editor="v-jesits"
+    ms.author="Mario.Liu"
     selfHelpType="generic"
     supportTopicIds="32785489"
     resourceTags=""
@@ -21,7 +21,7 @@ The following diagnostic steps can help you to identify issues that affect the i
 
 The most common issues in this scenario are blocking network security groups (NSGs) and virtual machine (VM) firewall and application issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. In [the Azure portal](https://portal.azure.com), navigate to the **Virtual Machine resource** that is experiencing the outbound internet connectivity issue. The resource will default to the **Overview** blade in the left pane.
 
@@ -41,7 +41,7 @@ The most common issues in this scenario are blocking network security groups (NS
 
 6. If the connection is successful, this means that the Azure platform is allowing outbound internet connectivity. Check within the VM for configuration issues in the destination configuration.
 
-## **Recommended articles**
+## **Recommended Documents**
 
 - [Network security groups - Outbound](https://docs.microsoft.com/azure/virtual-network/network-security-groups-overview#outbound)
 - [Check remote endpoint connectivity](https://docs.microsoft.com/azure/network-watcher/network-watcher-connectivity-portal#check-remote-endpoint-connectivity)

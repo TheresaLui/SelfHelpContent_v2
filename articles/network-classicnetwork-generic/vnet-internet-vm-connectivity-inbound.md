@@ -5,7 +5,7 @@
     resource="virtualnetworks"
     authors="v-miegge"
     editor="v-jesits"
-    ms.author=""
+    ms.author="Mario.Liu"
     selfHelpType="generic"
     supportTopicIds="32785488"
     resourceTags=""
@@ -21,7 +21,7 @@ The following diagnostic steps can help you to identify issues that affect the i
 
 The most common issues in this scenario are blocking network security groups (NSGs) and user-defined routes (UDR).
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. In [the Azure portal](https://portal.azure.com), navigate to the **Virtual Machine resource** that is experiencing the inbound internet connectivity issue. The resource will default to the **Overview** blade in the left pane.
 
@@ -41,7 +41,7 @@ The most common issues in this scenario are blocking network security groups (NS
 
 6. If the connection is successful, this means that the Azure platform is allowing inbound internet connectivity. Check within the VM for configuration issues, such as misconfiguration of the host OS firewall or the source configuration.
   
-## **Recommended articles**
+## **Recommended Documents**
 
 - [Troubleshoot Azure VM connectivity problems](https://docs.microsoft.com/azure/virtual-network/troubleshoot-vm-connectivity)
 - [Public IP addresses](https://docs.microsoft.com/azure/virtual-network/public-ip-addresses)
