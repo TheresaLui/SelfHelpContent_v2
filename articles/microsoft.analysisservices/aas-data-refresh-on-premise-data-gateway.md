@@ -24,3 +24,7 @@
 * [Monitor and optimize on-premises data gateway performance](https://docs.microsoft.com/data-integration/gateway/service-gateway-performance)
 
 * [Adjust gateway performance based on server CPU](https://docs.microsoft.com/data-integration/gateway/service-gateway-performance-cpu)
+
+* [Monitor server metrics](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
