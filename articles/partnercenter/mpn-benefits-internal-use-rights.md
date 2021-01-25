@@ -1,8 +1,8 @@
 <properties
-  pagetitle="MPN - benefits internal use rights&#xD;"
+  pagetitle="MPN - benefits internal use rights"
   service="partnercenter"
   resource="csp"
-  ms.author="brserbus,keramp"
+  ms.author="keramp"
   selfhelptype="Generic"
   supporttopicids="32725871"
   resourcetags="csp"
@@ -12,8 +12,6 @@
   ownershipid="PartnerCenter_MPN_Benefits_and_Competencies" />
 # MPN - benefits internal use rights
 
-Resources providing knowledge of Microsoft product features and capabilities with Internal-Use Rights (IUR) cloud services and on-premises software.
-
 ## **Recommended Steps**
 
 * IURs are licenses that are intended to help partners build innovative Microsoft-based apps and services. [Read more on IUR usage policies and compliance.](https://assetsprod.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf) These licenses are meant for internal use and should not be distributed among customers.
@@ -22,11 +20,12 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 * [Click here to compare MAPS, Gold and Silver Membership Plans](https://partner.microsoft.com/membership/compare-offers)
 * Access your IUR licenses from [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) page
 * If your exisitng cloud subscription on M365 Admin Center is disabled or expired,please copy and paste the below link on an incognito browser window to activate a new subscription
-
     [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
+* The expiry date listed on Microsoft Partner Center indicates the last date to exercise usage rights on the benefit. This date may differ from the expiry date listed in the product Admin portal due to a several factors including benefit activation date, number of licenses associated with the key used for activation and the licenses were added or extended on admin portal.
 
 ## **Recommended Documents**
 
+* [Azure & Cloud products benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center)
 * [Activate and Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
 * [Benefits Overview](https://support.microsoft.com/help/2966368/benefits-overview-in-partner-center-downloading-activating-software)
 * [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)

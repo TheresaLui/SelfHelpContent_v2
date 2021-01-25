@@ -15,10 +15,8 @@
     articleId="50bbc8cf-27ea-4359-aacc-9ca621fcb009"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
-# Recover Storage Account
-
+# Recover Deleted Storage Account
 ## **Recommended Steps**
-
-It seems you want to recover a deleted storage account. Select the button below to initiate the recovery.
+Click the button below to initiate recovery of a deleted storage account.
 
 <a href="data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId"><button type="button" style="background-color:#1E90FF;color:white;width:240px; height:40px;"><b> Initiate Storage Account Recovery</button></a>
