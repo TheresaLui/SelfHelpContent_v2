@@ -23,4 +23,4 @@
 
 * [Azure Analysis Services REST API](https://docs.microsoft.com/rest/api/analysisservices/)
 
-* [Azure App Configuration](https://docs.microsoft.com/rest/api/appconfiguration/)
+* [How to Automate Processing your Azure Analysis Services Models](https://docs.microsoft.com/archive/blogs/uktechnet/how-to-automate-processing-your-azure-analysis-services-models)
