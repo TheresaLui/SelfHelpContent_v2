@@ -24,9 +24,9 @@ When all of the servers in a back-end pool are unhealthy, Application Gateway ha
 
 If you receive 502 Bad Gateway error due to unhealthy servers in your back-end pool, troubleshoot the cause using the following steps:
 
-1. In the **Backend health** blade, check the error message for an unhealthy server. Alternatively, you can check the detailed error message by using Azure PowerShell, CLI, or REST API. For more information, see [Back-end health and diagnostic logs for Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#back-end-health).
+1. In the **Backend health** blade, check the error message for an unhealthy server. Alternatively, you can check the detailed error message by using Azure PowerShell, CLI, or REST API. For more information, see [Back-end health and diagnostic logs for Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#back-end-health).  
 
-Click the button below to go to the backend health tab.
+Click the button below to go to the backend health tab.  
 
 [Check Backend Health](button-data-blade:Microsoft_Azure_HybridNetworking.ApplicationGatewayBackendHealthGridBlade.assetId.$resourceId)
 
