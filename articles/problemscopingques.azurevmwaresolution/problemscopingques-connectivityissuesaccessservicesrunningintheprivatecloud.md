@@ -117,7 +117,7 @@
             "order": 4,
             "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
-            "displayLabel": "Chose the virtual network connected to your on-premise network",
+            "displayLabel": "Choose the virtual network connected to your on-premise network",
             "watermarkText": "Choose a virtual network",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualWans?api-version=2020-07-01",
