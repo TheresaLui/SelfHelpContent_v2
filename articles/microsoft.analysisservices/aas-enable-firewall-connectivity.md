@@ -1,19 +1,16 @@
- <properties
-	pageTitle="enable firewall"
-	description="enable firewall"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="90"
-	selfHelpType="generic"
-	supportTopicIds="32675688"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
-	articleId="fce36885-c003-194b-80fa-f3a993b15e23"
-	ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Hardening Azure Analysis Services with the new firewall capability&#xD;"
+  description="enable firewall"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675688"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="fce36885-c003-194b-80fa-f3a993b15e23"
+  ownershipid="AzureData_AnalysisServices" />
 # Hardening Azure Analysis Services with the new firewall capability
 
 ## **Recommended Documents**
