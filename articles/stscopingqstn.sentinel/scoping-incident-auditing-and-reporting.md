@@ -7,7 +7,7 @@
 	supportTopicIds="32785996"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-WinAgentBased"
+    articleId="scoping-incident-auditing-and-reporting"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -25,6 +25,18 @@
                 "controlType": "textbox",
                 "displayLabel": "In case of a missing record, please provide a sample of an incident ID that is missing:",
                 "required": true
-                }]
+                                                },{"id": "problem_description",
+				"order": 1,
+				"controlType": "multilinetextbox",
+				"displayLabel": "Description",
+				"useAsAdditionalDetails": true,
+				"required": true
+				},{
+				"id": "problem_start_time",
+				"order": 8,
+				"controlType": "datetimepicker",
+				"displayLabel": "When did the problem start?",
+				"required": true
+                  }]
 }
 ---

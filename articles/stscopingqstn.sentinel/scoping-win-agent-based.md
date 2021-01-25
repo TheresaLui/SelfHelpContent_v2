@@ -7,7 +7,7 @@
 	supportTopicIds="32786001"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-WinAgentBased"
+    articleId="scoping-win-agent-based"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -21,10 +21,10 @@
                 "fileAttachmentHint": "Please attach a screenshot of relevant Connector blade",
                 "formElements": [
                 {
-                    "id": "Managed by Azure",
+                    "id": "Managed_by_Azure",
                     "order": 6,
                     "controlType": "dropdown",
-                    "displayLabel": "Does you agent machine is managed by Azure?",
+                    "displayLabel": "Does your agent machine is managed by Azure?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -46,13 +46,26 @@
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "Which OS and OMS version are you using?",
-                "required": true
+                "required": false
                 },{
                 "id": "ConnectorName",
                 "order": 4,
                 "controlType": "textbox",
                 "displayLabel": "What connector are you using?",
                 "required": true
-                }]
+                },{
+				"id": "problem_description",
+				"order": 1,
+				"controlType": "multilinetextbox",
+				"displayLabel": "Description",
+				"useAsAdditionalDetails": true,
+				"required": true
+				},{
+				"id": "problem_start_time",
+				"order": 8,
+				"controlType": "datetimepicker",
+				"displayLabel": "When did the problem start?",
+				"required": true
+                  }]
 }
 ---
