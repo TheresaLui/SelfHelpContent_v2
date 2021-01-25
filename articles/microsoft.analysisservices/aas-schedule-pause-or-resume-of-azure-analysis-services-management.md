@@ -15,7 +15,13 @@
 
 ## **Recommended Documents**
 
-* [Azure Analysis Services - Scale and Pause or Resume using scheduled autoscaling](https://gallery.technet.microsoft.com/scriptcenter/Scale-and-Pause-or-Resume-54ce97a2)
+* [Resume operation of the specified Analysis Services server instance](https://docs.microsoft.com/rest/api/analysisservices/Servers/Resume)
+
+* [Suspend operation of the specified Analysis Services server instance](https://docs.microsoft.com/rest/api/analysisservices/servers/suspend)
+
+* [Resume an instance of Analysis Services server](https://docs.microsoft.com/powershell/module/az.analysisservices/resume-azanalysisservicesserver?view=azps-5.4.0)
+
+* [Suspends an instance of Analysis Services server](https://docs.microsoft.com/powershell/module/az.analysisservices/suspend-azanalysisservicesserver?view=azps-5.4.0)
 
 * [Automating Azure Analysis Service Processing using Azure Automation Account](https://blogs.msdn.microsoft.com/dataaccesstechnologies/2017/09/01/automating-azure-analysis-service-processing-using-azure-automation-account/)
 
