@@ -1,19 +1,16 @@
 <properties
-    pageTitle="connection timeout"
-    description="connection timeout"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="60"
-    selfHelpType="generic"
-    supportTopicIds="32558762"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="27c11c5c-3532-0a5a-9364-f5ee07cd4f02"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+  pagetitle="Connecting to servers&#xD;"
+  description="connection timeout"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32558762"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="27c11c5c-3532-0a5a-9364-f5ee07cd4f02"
+  ownershipid="AzureData_AnalysisServices" />
 # Connecting to servers
 
 ## **Recommended Documents**
