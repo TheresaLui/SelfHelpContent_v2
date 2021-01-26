@@ -29,6 +29,6 @@ If you do not see a Role, try the following steps:
 
 ## **Recommended Documents**
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/application-insights/app-insights-asp-net-troubleshoot-no-data)<br>
-* [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)<br>
+* [Troubleshoot issues seeing data with Java 3.0 auto-instrumented applications (the recommended approach)](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot) or [instrumented with the 2.x SDK](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)<br>
 * [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)<br>
 * [Review the complete list of supported SDKs + platforms](https://docs.microsoft.com/azure/application-insights/app-insights-platforms)

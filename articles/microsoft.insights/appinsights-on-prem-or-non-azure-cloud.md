@@ -28,7 +28,7 @@ Note that there are two ways to enable Azure Monitor's Application insights: [Ag
 
 2. Review language-specific troubleshooting guide for your enablement method if available:
 
-    - Agent-based: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/status-monitor-v2-troubleshoot), Java (Not Available))
+    - Agent-based: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/status-monitor-v2-troubleshoot), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot)
     - SDK-based: [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot), Node.JS (Not Available), Python (Not Available)
 
 3. Upgrade to latest version of SDK or Agent
@@ -43,5 +43,5 @@ Note that there are two ways to enable Azure Monitor's Application insights: [Ag
 * Agent Getting Started Guides ([ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/status-monitor-v2-overview), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-on-premises))
 * Agent Troubleshooting Guides ([ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/status-monitor-v2-troubleshoot))
 * SDK Getting Started Guides  ([ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started?tabs=maven), [Node.JS](https://docs.microsoft.com/azure/azure-monitor/app/nodejs#get-started), [Python](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python))
-* SDK Troubleshooting Guides ([ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot))
+* SDK Troubleshooting Guides ([ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [Java 3.0 agent (recommended)](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot) or [Java 2.x SDK](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot))
 * [IP addresses used by Application Insights and Log Analytics](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses)

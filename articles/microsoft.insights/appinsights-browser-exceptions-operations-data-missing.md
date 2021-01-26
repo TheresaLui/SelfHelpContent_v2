@@ -38,7 +38,7 @@ If none of these simple steps resolve your issue, there are more detailed checkl
 ## **Recommended Documents**
 
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
-* [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
+* [Troubleshoot issues seeing data with Java 3.0 auto-instrumented applications (the recommended approach)](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot) or [instrumented with the 2.x SDK](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
 * [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/azure/azure-monitor/app/monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)
 * [Monitoring your client-side JavaScript Application](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
 * [Review the complete list of supported SDKs + platforms ](https://docs.microsoft.com/azure/azure-monitor/app/platforms)
