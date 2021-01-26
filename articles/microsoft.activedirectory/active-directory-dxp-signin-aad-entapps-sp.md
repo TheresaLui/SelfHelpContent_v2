@@ -30,4 +30,4 @@ Based on the information you provided the user <!--$userName-->[userName]<!--/$u
 
 ## **Recommended Documents**
 
-* [Troubleshoot Enterprise Application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/plan-sso-deployment#troubleshooting)
+* [Troubleshoot Enterprise Application](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-sso-deployment#troubleshooting)
