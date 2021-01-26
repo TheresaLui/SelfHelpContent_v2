@@ -34,8 +34,8 @@
                 {
                     "value": "lrs",
                     "text": "LRS"
-                },                
-                {
+                },
+		{
                     "value": "zrs",
                     "text": "ZRS"
                 },
