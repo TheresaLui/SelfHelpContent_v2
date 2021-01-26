@@ -32,3 +32,6 @@
 * If you are migrating your MPN account from PMC to Partner Center: [Migrate from PMC to Partner Center, and accept Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 * If you want to enroll as a CSP Indirect Reseller in Partner Center: [Onboarding for MPN members and the Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
 * To verify your MPA status in Partner Center after completing either step 1 and/or step 2 above: [Verify Microsoft Partner Agreement acceptance status](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
+* To verify the MPN ID location associated to your account refer to [Manage your MPN account locations](https://docs.microsoft.com/partner-center/manage-locations)
+* [MPA Indirect Provider FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq)
+

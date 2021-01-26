@@ -3,7 +3,7 @@
 	description="Session connectivity"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32625542"
+	supportTopicIds="32783600,32783601,32783602,32783599"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -32,7 +32,7 @@
           "text": "Issue description."
         },
         {
-          "text": "Name of the session host or virtual machine(s)."
+          "text": "Name of the session host or virtual machines"
         }
       ]
     },
