@@ -48,6 +48,10 @@ pageTitle="Incentives co-op claims issues"
 					"text": "Azure Incentives"
 				},
 				{
+					"value": "76A13844-16C7-482F-AD4F-C189F28B20FD",
+					"text": "Azure Stack Hyper-Converged Infrastructure Incentive Programs"
+				},
+				{
 					"value": "BE9B1C44-C2C9-47E3-8E5B-EA8DAD561D76",
 					"text": "Campaigns"
 				},
@@ -58,10 +62,6 @@ pageTitle="Incentives co-op claims issues"
 				{
 					"value": "F434BCA2-0F92-4624-BFAF-48B56D225809",
 					"text": "Commercial Distributor"
-				},
-				{
-					"value": "76A13844-16C7-482F-AD4F-C189F28B20FD",
-					"text": "Converged infrastructure (HCI) Validation Incentive Program"
 				},
 				{
 					"value": "F86AF17C-0021-4D31-A8D5-651AD0610C0B",
@@ -84,6 +84,10 @@ pageTitle="Incentives co-op claims issues"
 					"text": "Enterprise Incentives"
 				},
 				{
+					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
+					"text": "Federal Incentives Program"
+				},
+				{
 					"value": "49B6A0A1-5B47-4711-BD15-41CA0A777175",
 					"text": "Hosting"
 				},
@@ -98,10 +102,6 @@ pageTitle="Incentives co-op claims issues"
 				{
 					"value": "E32E24C2-D9C5-4EF2-BABA-5B622DFCA7E0",
 					"text": "Microsoft Commerce Incentives"
-				},
-				{
-					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
-					"text": "Microsoft Federal Incentives Program"
 				},
 				{
 					"value": "F4E02673-D169-4E70-BA27-B4519B723B1C",
@@ -142,10 +142,6 @@ pageTitle="Incentives co-op claims issues"
 				{
 					"value": "631DD725-6F45-4AA1-8D03-383784116BA4",
 					"text": "OSU - Microsoft 365"
-				},
-				{
-					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
-					"text": "PowerUp Federal"
 				},
 				{
 					"value": "63C20225-7F78-45FC-A2FB-910A2F970C6D",
