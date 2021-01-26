@@ -17,5 +17,5 @@
 
 # CEF or Syslog logs are not getting to Sentinel workspace
 
-1. Operating System issues which can cause issues such as:  Data delays, data loss, server-level malfunctions, occasional agent malfunctions, hardening
+Operating System issues which can cause issues such as:  Data delays, data loss, server-level malfunctions, occasional agent malfunctions, hardening
 
