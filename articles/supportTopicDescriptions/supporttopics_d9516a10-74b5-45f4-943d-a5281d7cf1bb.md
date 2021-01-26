@@ -558,7 +558,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Python",
       "searchTags": "SDK;API;Python",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1079,6 +1079,14 @@
       "shortDescription": "Observation exception, long running data load, data is not loaded correctly",
       "searchTags": "data migration",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d2a68517-0048-def9-fafb-e6593cf41734",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Monitoring related issues",
+      "searchTags": "Monitoring;Monitor",
+      "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
     {

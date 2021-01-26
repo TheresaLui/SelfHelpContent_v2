@@ -17,7 +17,15 @@
 
 # Private Link
 
-#Reccommended Documents
+This will link to Prive Link TSG when available.
+In the maeantime, please make use of the our wiki. 
+
+
+
+
+
+
+# Reccommended Documents
 
 1.(Azure Private Link)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134256/Azure-Private-Link]
 
