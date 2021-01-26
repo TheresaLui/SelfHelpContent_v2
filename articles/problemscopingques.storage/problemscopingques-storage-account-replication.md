@@ -39,7 +39,6 @@
                     "value": "zrs",
                     "text": "ZRS"
                 },
-
                 {
                     "value": "grs",
                     "text": "GRS"
@@ -56,7 +55,6 @@
                     "value": "ra_gzrs",
                     "text": "RA-GZRS"
                 },
-
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
