@@ -15,7 +15,9 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Databricks Tags
+# Diagnose and resolve issues with Databricks tags
+
+To learn more about diagnosing and resolving issues with Databricks tags, see the following information.
 
 ## **Recommended Steps**
 
