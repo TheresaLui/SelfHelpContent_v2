@@ -57,7 +57,7 @@ If you are running into issues creating, updating or deleting metric alert rules
 
 ### **Advisory and How-To**
 
-[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
+[![Learn how to configure an alert rule in this v#signhideo](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
 
 ## **Recommended Documents**
 
