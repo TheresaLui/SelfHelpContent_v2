@@ -28,13 +28,13 @@ Are you facing one of these common problems?
 
     Ensure that you have the sufficient permissions on the subscription so that you can make a connection.
 
-* **Unable to create service connection using Azure ML with the error :"Failed to create an app in Azure Active Directory"**
+* **Unable to create service connection using Azure ML with the error:"Failed to create an app in Azure Active Directory"**
 
     Ensure that you have sufficient permissions to create an Azure Active Directory Application. [Refer to this document](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory?context=azure/active-directory/users-groups-roles/context/ugr-context).
 
 * **I'm unable to connect to another GIT Repo from Pipeline. Git clone failed with the error code 128**
 
-    Create an "[Other Git](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#sep-extgit)" service connection and provide the right the username and password.
+    Create another "[external Git service connection](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#sep-extgit)" and provide the right the username and password.
 
 * **I'm unable to generate a Service Principal for data factory using powershell script**
 
