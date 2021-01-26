@@ -13,9 +13,10 @@
   ownershipid="Compute_VirtualMachines_Content" />
 # Resource move to another subscription
 
-**Guidance for support ticket creation**
+### Guidance for support ticket creation
 
-Azure Migrate helps you migrate on-premises resources to Azure. For issues or queries regarding ASM to ARM migration, please go back to the previous tab, 'Basics' and select the service for the resource that you are planning to migrate. For example, if you are planning to migrate a virtual machine from ASM to ARM, please select 'Virtual machines for Windows' as the service.
+Azure Migrate helps you migrate on-premises resources to Azure. <br>
+For issues or queries regarding ASM to ARM migration, go to the previous **Basics** tab, and select the service for the resource that you are planning to migrate. For example, if you plan to migrate a virtual machine from ASM to ARM, select **Virtual machines for Windows** as the service.
 
 ### **Frequently Asked Questions**
 
@@ -26,13 +27,13 @@ Updating your tooling to the Resource Manager deployment model is one of the mos
 It depends on the number of resources that are being migrated. For smaller deployments (a few tens of VMs), the whole migration should take less than an hour. For large-scale deployments (hundreds of VMs), the migration can take a few hours.<br>
 
 **Can I roll back after my migrating resources are committed in Resource Manager?**<br>
-You can abort your migration as long as the resources are in the prepared state. Rollback is not supported after the resources have been successfully migrated through the commit operation.<br>
+You can quit your migration as long as the resources are in the prepared state. Rollback is not supported after the resources have been successfully migrated through the commit operation.<br>
 
 **Can I roll back my migration if the commit operation fails?**<br>
-You cannot abort migration if the commit operation fails. All migration operations, including the commit operation, are idempotent. So we recommend that you retry the operation after a short time. If you still face an error, create a support ticket or create a forum post with the ClassicIaaSMigration tag on our VM forum.<br>
+You cannot abort migration if the commit operation fails. All migration operations, including the commit operation, are idempotent. We recommend that you retry the operation after a short time. If you still face an error, create a support ticket or create a forum post with the **ClassicIaaSMigration** tag on our VM forum.<br>
 
 **What happens if I run into a quota error while preparing the IaaS resources for migration?**<br>
-We recommend that you abort your migration and then log a support request to increase the quotas in the region where you are migrating the VMs. After the quota request is approved, you can start executing the migration steps again.<br>
+We recommend that you abort your migration and log a support request to increase the quotas in the region where you are migrating the VMs. After the quota request is approved, you can start executing the migration steps again.<br>
 
 ## **Recommended Documents**
 
