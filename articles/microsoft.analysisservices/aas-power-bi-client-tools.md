@@ -12,11 +12,11 @@
   ownershipid="AzureData_AnalysisServices" />
 # Using Analysis Services Tabular data in Power BI Desktop
 
+Refer to these documents to understand how to [Use Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-analysis-services-tabular-data) 
+
 ## **Recommended Documents**
 
 * [Connect with Power BI](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)
-
-* [Using Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-analysis-services-tabular-data)
 
 * [Analysis Services client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
 
