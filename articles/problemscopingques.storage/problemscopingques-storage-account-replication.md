@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Storage account replication type"
 	description="Issue with changing storage account replication type"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Lea"
+    ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32691089"
 	productPesIds="15629"
@@ -34,7 +34,12 @@
                 {
                     "value": "lrs",
                     "text": "LRS"
+                },                
+                {
+                    "value": "zrs",
+                    "text": "ZRS"
                 },
+
                 {
                     "value": "grs",
                     "text": "GRS"
@@ -44,19 +49,21 @@
                     "text": "RA-GRS"
                 },
                 {
+                    "value": "gzrs",
+                    "text": "GZRS"
+                },
+                {
+                    "value": "ra_gzrs",
+                    "text": "RA-GZRS"
+                },
+
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
-        },
-        {
-            "id": "error_message",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Error message received",
-            "required": false
         },
         {
             "id": "problem_description",
