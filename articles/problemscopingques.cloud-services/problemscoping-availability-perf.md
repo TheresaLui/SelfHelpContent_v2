@@ -20,8 +20,44 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "occurrence_pattern",
+            "id": "cloud_service_slots",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Slot",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dropdownOptions": [{
+                "value": "Production",
+                "text": "Production"
+            }, {
+                "value": "Staging",
+                "text": "Staging"
+            }]
+        },
+        {
+            "id": "cloud_service_roles",
+            "order": 2,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Role",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
+            "dynamicDropdownOptions": {
+                "dependsOn": "cloud_service_slots",
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No roles available"
+                }
+            }
+        },
+        {
+            "id": "occurrence_pattern",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is the pattern of occurrence of the issue?",
             "watermarkText": "Choose an option",
@@ -47,7 +83,7 @@
         },
         {
             "id": "unavailable_symptoms",
-            "order": 2,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
             "required": false,
@@ -55,7 +91,7 @@
         },
         {
             "id": "if_collectdata",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Have you collected any data during the time of the issue? If yes, please share.",
             "watermarkText": "Choose an option",
@@ -73,7 +109,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -81,7 +117,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

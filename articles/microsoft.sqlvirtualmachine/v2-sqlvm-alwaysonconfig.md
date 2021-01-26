@@ -1,71 +1,58 @@
 <properties
-	pageTitle="AlwaysOn Availability Groups - Configuration"
-	description="AlwaysOn Availability Groups - Configuration"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740063"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="3798c572-ddbe-495f-bb6a-894b9ad9efeb"
-	ownershipId="AzureData_AzureSQLVM"
-/>
+  pagetitle="Setup Availability Group&#xD;"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="vadeveka,amamun,ujpat"
+  selfhelptype="Generic"
+  supporttopicids="32740063"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="3798c572-ddbe-495f-bb6a-894b9ad9efeb"
+  ownershipid="AzureData_AzureSQLVM" />
+# Setup Availability Group
+
+Most customers can resolve issues regarding setting up Always On Availability Group (AG) by using the following steps.
 
 
-# AlwaysOn Availability Groups - Configuration
+## **Recommended Steps**
 
-### **Unable to Setup AG**
+### Different ways to configure Availability Groups in Azure VMs
 
-* **Error 35250: Failed to join database to existing SQL AG**
+The following articles show the different ways to configure AGs. Review a [comparison of these configuration methods](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment).
 
-This failure could happen when the primary and secondary replicas are not able to communicate with each other. Review [these common failures and remedies](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987).
+* [Configure availability group pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-prerequisites-tutorial) and follow the steps for [Always on manual configuration](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial)
+* [Use PowerShell or Az CLI to configure an availability group](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-az-commandline-configure?tabs=azure-cli)
+* [Use Azure Quick-start templates to configure an availability group](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-quickstart-template-configure)
+* [Configure availability group using Azure portal](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
 
- * **Message 41131: Cannot setup SQL AG successfully**
+### Steps to avoid errors when configuring Availability Groups and Listener
 
-Ensure that the *[NT AUTHORITY\SYSTEM]* account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on the participating replicas of the AG. This account is used by SQL Server AlwaysOn health detection to connect to the SQL Server node and to monitor health. 
+1. If you cannot join the database to the existing AG, review [this documentation](https://techcommunity.microsoft.com/t5/SQL-Server-Support/Create-Availability-Group-Fails-With-Error-35250-Failed-to-join/ba-p/317987)
 
-### **Unable to Setup Listener**
+1. Make sure **Port** 1433 (SQL Port), 5022 (Endpoint Port) and 59999 (Load balancer Probe Port) are not blocked at NSG or Windows Firewall on all replicas. Try to create Inbound/Outbound rules accordingly.
+ 
+1. Ensure that the NT AUTHORITY\SYSTEM account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all replicas participating in the availability group for Health Detection and for failing over your AG to another replica. 
 
-If the create listener fails with Message 19471 'The WSFC cluster could not bring the Network Name resource online' please review [this document](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online).
+1. If the **Create listener** fails with Message 19471 ("The WSFC cluster could not bring the Network Name resource online), see [this documentation](https://docs.microsoft.com/archive/blogs/alwaysonpro/create-listener-fails-with-message-the-wsfc-cluster-could-not-bring-the-network-name-resource-online).
 
-### **Unable to connect to AG listener from anywhere except the Primary replica node**
 
-There could be several different reasons related to setup which can cause this issue:
+### Unable to connect to AG listener from anywhere except the Primary replica node
 
-* **Are you able to connect to the current Primary using the replica name (e.g. SQLVM1) from the secondary?**
+1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **Floating IP** (direct server return) is enabled for the load balancer.<br>
 
-If not, please ensure that SQL Server service is up and running on the Primary replica. Ensure that all the ports required for the listener: SQL traffic (e.g. 1433), mirroring traffic (e.g. 5022), Load balancer probe port (e.g. 59999) are open in computer firewall and NSG for all replicas.<br>
-
-* **Is the load balancer correctly configured?**
-
-Please ensure that a load balancer rule corresponding to the AG listener is [correctly configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Please ensure that Floating IP (direct server return) is enabled for the load balancer.<br>
-
-* **Have you ensured that the correct configuration changes have been made at WSFC level for the Load balancer and AG listener?**
-
-Please ensure that you have [run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener) with correct variables as below:
-
-```
-$ClusterNetworkName = "<MyClusterNetworkName>" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
-$IPResourceName = "<IPResourceName>" # the IP Address resource name
-$ListenerILBIP = "<n.n.n.n>" # the IP Address of the Internal Load Balancer (ILB). This is the static IP address for the load balancer you configured in the Azure portal.
-[int]$ListenerProbePort = <nnnnn>
-
-Import-Module FailoverClusters
-Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ListenerILBIP";"ProbePort"=$ListenerProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}
-```
-
-**NOTE**: After you run the PowerShell to configure the cluster parameters, you must take the AG resource offline and online to ensure modifications take effect. You need to run the PowerShell on one node (VM) of the cluster only.
-
-### **Unable to manually failover AG to another replica**
-	
-Ensure that the [NT AUTHORITY\SYSTEM] account is [granted sufficient permissions](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012) on all the participating replicas of the AG. Watch from the cluster manager while you do the failover. Does the IP address and Network name come online? If not, most probably issue is outside of the SQL Server. 
+1. Figure out the **Variables** using the following chart and ensure that you have [run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener). After you run the PowerShell to configure the cluster parameters, restart the AG Role.
+   * **Cluster Network Name:** In Failover Cluster Manager > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
+   
+   * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > **Roles**, under the SQL Server FCI role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab. 
+   
+   * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
+   
+   * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
+   
 
 ## **Recommended Documents**
-
-* [Configure Always On Availability Group in Azure VM manually](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial)<br>
-* [Monitor and troubleshoot availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15)<br>
+* [Prerequisites, Restrictions, and Recommendations for Always On availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-ver15)
+* [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to setup the Disaster Recovery Site.
+* [Monitor and troubleshoot availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15)

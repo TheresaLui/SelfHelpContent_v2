@@ -10,14 +10,14 @@
 	articleId="dbforpostgresql-asc-connectivity-aad-admin-not-set"
 	diagnosticScenario="OrcasPostgresAADAdminNotSet"
 	selfHelpType="diagnostics"
-	supportTopicIds="32742678"
+	supportTopicIds="32742678, 32780959"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Can’t connect to PostgreSQL server: Azure AD administrator is not set
+# Can't connect to PostgreSQL server: Azure AD administrator is not set
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) that attempted to use Azure AD authentication, but the Azure AD administrator is not set.

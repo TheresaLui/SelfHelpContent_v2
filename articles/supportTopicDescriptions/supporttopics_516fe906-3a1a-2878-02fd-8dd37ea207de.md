@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_MultiFactorAuthentication" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -38,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0dfa725f-72a1-1529-2660-e7329c4a4235",
+      "longDescription": "",
+      "shortDescription": "Problems with signing in with Passwordless phone sign-in with Microsoft Authenticator",
+      "searchTags": "Authenticator;Passwordless;phone sign-in",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fc93581-1a62-3006-bbe1-6aeff78e5862",
       "longDescription": "",
       "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
@@ -48,9 +57,17 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless Single-Sign-on",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in error;sign-in",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "193fc235-3cb9-ceb0-c81d-79f2ca5e42d7",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and planning a Windows Hello for Business Cert Trust deployment, including prerequisites, infrastructure config, and device settings",
+      "searchTags": "cert trust;WHFB",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -80,8 +97,8 @@
     {
       "id": "290db722-7106-7012-abb1-b4a9060f2cc7",
       "longDescription": "",
-      "shortDescription": "Problems or requests for implementing or managing or inability to sign in or provision WHfB credentials",
-      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision",
+      "shortDescription": "Problems with unlocking your PC or signing in with Windows Hello for Business",
+      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision;unlock PC",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -104,8 +121,8 @@
     {
       "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
       "longDescription": "",
-      "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
-      "searchTags": "Usage of Seamless SSO ",
+      "shortDescription": "Issues with migration, integrating Seamless SSO with my apps, configuring my apps, token claims and lifetimes, and managing guest users",
+      "searchTags": "migration;my apps;integration;token;guest user",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -158,6 +175,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "644acb3c-e490-6780-d5c0-b507e4bea148",
+      "longDescription": "",
+      "shortDescription": "Problems with unlocking your PC or signing in with FIDO2 security keys",
+      "searchTags": "FIDO;FIDO2;security keys;unlock PC",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67c9c2fc-2ed1-efc5-dc4c-73074b8c16ff",
       "longDescription": "",
       "shortDescription": "Initial deployment or unexpected results when apply password protection in on-prem AD",
@@ -168,7 +193,7 @@
     {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
+      "shortDescription": "Passwordless phone sign-in with Microsoft Authenticator deployment issues, including prerequisites, credential administration, and device settings",
       "searchTags": "Passwordless Authentication;Enable Passwordless Auth;Disable Passwordless Auth",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -222,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7417b6ac-d636-453c-ce64-73c8afe7fa56",
+      "longDescription": "",
+      "shortDescription": "Problems with registering and managing FIDO2 security keys or Microsoft Authenticator on the user registration portal",
+      "searchTags": "FIDO;FIDO2;security keys;Authenticator;portal",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "778d1beb-2942-8e08-b723-be5b3dc463e0",
       "longDescription": "",
       "shortDescription": "Admin unable to reset a users password or user unable to login with new credentials",
@@ -240,8 +273,8 @@
     {
       "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
       "longDescription": "",
-      "shortDescription": "Problems with authentication methods like hardware OATH tokens and 3rd party MFA ",
-      "searchTags": "issues with OATH tokens;issues with 3rd party MFA ",
+      "shortDescription": "Problems with authentication methods like hardware OATH tokens, App Passwords, Temporary Access Pass or 3rd party MFA",
+      "searchTags": "issues with OATH tokens;issues with 3rd party MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -264,8 +297,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
-      "searchTags": "issues with pass-through authentication",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in;sign-in error",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -312,8 +345,8 @@
     {
       "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issue with Seamless Single Sign-on",
+      "shortDescription": "Issues with configuring, signing in with, and managing Seamless Single Sign-on",
+      "searchTags": "Configuration;sign-in;SSO;manage;single sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -352,15 +385,15 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless SSO login",
+      "shortDescription": "I was unable to find a solution to my problem under the other problem sub-types for Seamless SSO",
+      "searchTags": "SSO",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
+      "shortDescription": "Assistance with FIDO2 security key deployment, including prerequisites, credential administration, infrastructure config, and device settings",
       "searchTags": "FIDO;Security Keys;Activating FIDO",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -371,6 +404,14 @@
       "shortDescription": "Troubleshooting apps that have previously been fully functional but now are marginal or offline",
       "searchTags": "problems with marginal or offline apps",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a72428f9-6d23-947b-754e-4e3e68249e05",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring Conditional Access policies that apply to certain geographic or IP ranges.",
+      "searchTags": "IP;IP ranges;geo ranges;geographic ranges;CA",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -395,6 +436,14 @@
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb5f0cd3-6664-fdb2-4902-30f1e34dfa69",
+      "longDescription": "",
+      "shortDescription": "Questions regarding default security settings for new tenants",
+      "searchTags": "security;defaults;security default",
+      "category": "security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -438,6 +487,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc17793b-c3b3-2a3c-1a4a-4fa66c132d41",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting and planning a Windows Hello for Business Key Trust deployment, including prerequisites, infrastructure config, and device settings",
+      "searchTags": "key trust;WHFB",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
       "longDescription": "",
       "shortDescription": "Problems related to MFA prompts and re-authentication",
@@ -458,6 +515,14 @@
       "longDescription": "",
       "shortDescription": "Assistance needed for deploying or configuring Multi-Factor Authentication",
       "searchTags": "Multi-Factor Authentication;Deploying MFA;Configuring MFA",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "da52ae42-28ec-95ba-ff98-17ab6cb306c9",
+      "longDescription": "",
+      "shortDescription": "Unable to troubleshoot or find the answers to my questions related to planning and deploying Passwordless solutions",
+      "searchTags": "question;advisory;help",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

@@ -7,7 +7,7 @@
     ms.author="raagyema"
     displayOrder="530"
     selfHelpType="generic"
-    supportTopicIds="32640016"
+    supportTopicIds="32780850"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,7 +17,8 @@
 
 # PostgreSQL extension not available
 
-## **Recommended steps**
+## **Recommended Steps**
 
-The available extensions in Azure Database for PostgreSQL can be found in the flexible server documentation.
+You can find the available extensions in Azure Database for PostgreSQL in the flexible server documentation.
+
 If you don't see an extension that you'd like to use, let us know by upvoting existing requests or creating new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).

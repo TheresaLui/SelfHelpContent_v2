@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-merupg-connectivity-userrestart"
 	diagnosticScenario="OrcasMeruPGUserRestartInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds="32731217, 32639977"
+	supportTopicIds="32731217, 32639977, 32780960, 32780962"
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
