@@ -30,13 +30,13 @@ The error indicates backups might have failed due to proxy authentication errors
 	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content:
 	```
 	&lt;?xml version ="1.0"?&gt;
-	&lt;configuration&gt;    
-		&lt;system.net&gt;    
+	&lt;configuration&gt;
+		&lt;system.net&gt;
 		&lt;defaultProxy enabled="true" useDefaultCredentials="true"&gt;
 		&lt;proxy usesystemdefault="true"/&gt;
-		&lt;/defaultProxy&gt;   
-		&lt;/system.net&gt;   
-        &lt;/configuration&gt;
+		&lt;/defaultProxy&gt;
+		&lt;/system.net&gt;
+	&lt;/configuration&gt;
 	```
 	- Place the configuration file in the Binn folder of the SQL Server Instance. For example, if MySQL Server is installed on the C drive of the machine, place the configuration file in C:\Program Files\Microsoft SQL Server\MSSQL13.\<InstanceName>\MSSQL\Binn.
 		
