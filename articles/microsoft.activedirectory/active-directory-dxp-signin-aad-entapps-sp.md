@@ -7,7 +7,7 @@
     authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
-    articleId="active-directory-dxp-signin-aad-entapps-config"
+    articleId="active-directory-dxp-signin-aad-entapps-sp"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
