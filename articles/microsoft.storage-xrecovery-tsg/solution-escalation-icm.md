@@ -3,15 +3,15 @@
 	description="Escalation File an IcM"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="edef6e58-e0be-463a-8a41-c8172fee2f4c"
 />
 
@@ -24,7 +24,6 @@
 3. Recommended sample command Steps:<br>
 
 ```powershell
-
 $storageAccount = ""
 $storageKey = ""
 $ctx = New-AzureStorageContext –StorageAccountName $storageAccount -StorageAccountKey $storageKey

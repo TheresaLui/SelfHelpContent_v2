@@ -21,7 +21,7 @@
 
 **Restore scenarios**
 
-- [Options to restore (un)managed or (un)encrypted VM](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)
+- [What are the possible/best **restore options available** for me?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
 - Steps to restore using [Cross Region Restore](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#cross-region-restore)
 - [How to Restore disks](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [ARM templates](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#use-templates-to-customize-a-restored-vm), [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks), or [Azure CLI](https://docs.microsoft.com/azure/backup/tutorial-restore-disk)
 - How to restore: [selective disk](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore#selective-disk-restore), [encrypted Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm), [selective files and folders](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#mount-the-volume-and-copy-files)?
@@ -33,7 +33,7 @@
 
 **Restore files**
 - [Recovering files from an Encrypted Azure VM is currently not supported](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#support-for-file-level-restore). Alternatively, you can [restore disk of the encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm) and copy the required files
-- [Troubleshooting volume mount issues during files restore](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#troubleshooting)
+- [How to restore files from Azure VM Backup?](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
 - Special restore configuration requirements for [Dynamic disks, Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations)
 
 **Common restore issues**

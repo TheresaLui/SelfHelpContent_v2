@@ -8,7 +8,7 @@
   	ms.author="subbuk, swbharti"
 	displayOrder=""
 	articleId="IsUsingDataSecurityProxy_20566AB1-A1DE-46DD-9A10-D875D54E326F"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""

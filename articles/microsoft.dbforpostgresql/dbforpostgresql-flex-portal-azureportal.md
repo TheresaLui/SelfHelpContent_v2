@@ -7,7 +7,7 @@
     ms.author="ambhatna"
     displayOrder="320"
     selfHelpType="generic"
-    supportTopicIds="32639971, 32780904"
+    supportTopicIds="32780894"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,8 +17,8 @@
 
 # Azure portal
 
-Azure Database for PostgreSQL supports managing your server using the Azure portal. Most customers were able to solve the issues with the portal by reviewing the recommended steps.
+Azure Database for PostgreSQL supports managing your server using the Azure portal. 
 
 ## **Recommended Steps**
 
-* Check in the overview page whether the server's status is *Stopped*. This status indicates the server is stopped using the Stop/Start feature. Operations cannot be run on the server while it is in this mode.
+* Check in the overview page whether the server's status is *Stopped*. This status indicates that the server is stopped using the Stop/Start feature. Operations cannot be run on the server while it is in this mode.

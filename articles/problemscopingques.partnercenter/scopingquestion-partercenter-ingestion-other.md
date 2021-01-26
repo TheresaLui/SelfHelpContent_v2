@@ -24,36 +24,43 @@
    "formElements": [
    	{
        "id": "learn_more_text",
+       "visibility": null,
        "order": 1,
        "controlType": "infoblock",
        "content": "To help with troubleshooting please follow the <a href='https://docs.microsoft.com/azure/marketplace/partner-center-portal/support#record-issue-details-with-a-har-file'>Network trace (HAR) file instructions</a> and add the HAR file in the Upload section above"
        },
        {
 	   "id": "pc_isv_publisher_name",
+	   "visibility": null,
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
+	   "visibility": null,
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "watermarkText": "Please provide the Publisher ID",
+	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": false
        },
        {
 	   "id": "pc_isv_seller_id",
+	   "visibility": null,
 	   "order": 4,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
+	   "displayLabel": "Seller ID",
+	   "watermarkText": "Please provide the Seller ID",
+	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
        },
        {
 	   "id": "pc_isv_offer_id",
+	   "visibility": null,
 	   "order": 5,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
@@ -62,6 +69,7 @@
        },
        {
 	   "id": "pc_isv_offer_type",
+	   "visibility": null,
 	   "order": 6,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
@@ -136,6 +144,7 @@
        },
        {
 	   "id": "pc_isv_offer_name",
+	   "visibility": null,
 	   "order": 7,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
@@ -144,6 +153,7 @@
        },
        {
 	   "id": "pc_isv_offer_status",
+	   "visibility": null,
 	   "order": 8,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer status",
@@ -160,35 +170,35 @@
            {
 		   "value": "signoff_status",
 		   "text": "Publisher sign-off status"
-	       }],
-	   "required": false
+	       },
+	       {
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       }
+	       ],
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
+	   "visibility": "pc_isv_offer_status==preview_status",
 	   "order": 9,
 	   "controlType": "textbox",
-	   "displayLabel": "If the offer is in Preview status please confirm the email address of the person trying to access the preview link",
+	   "displayLabel": "Please confirm the email address of the person trying to access the preview link",
 	   "watermarkText": "Email address of the person trying to access the preview link",
 	   "required": false
        },
        {
-	   "id": "additional_email_for_notification",
-	   "order": 10,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
-	   "required": false
-       },
-       {
 	   "id": "problem_start_time",
+	   "visibility": null,
 	   "order": 11,
 	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Time",
+	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
        },
        {
 	   "id": "problem_description",
+	   "visibility": null,
 	   "order": 12,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",

@@ -26,14 +26,14 @@
             "displayLabel": "Please select the source virtual network you are experiencing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/$ref?api-version=2017-09-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks?api-version=2017-09-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
               "defaultdropdownOptions": {
-                    "value": "Unable to get the list of Virtual Networks",
-                    "text": "Unable to get the list of Virtual Networks"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "required": false
