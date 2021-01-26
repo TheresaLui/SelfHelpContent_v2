@@ -28,7 +28,7 @@ If you **don't** have access to your VM due to a reboot loop or other related is
 
 If you **do** have access to your VM, use the following steps to troubleshoot the issue.<br>
 
-### Identify the issue by examining the event log for specific errors:
+### Step 1: Identify the issue by examining the event log for specific errors:
 
 1. Open Event Viewer (from the **Control Panel** > **Administrative Tools**)<br>
 2. Look for Windows Update Agent events in the System log, but also look for errors in the System and Application logs around the same time that updates were applied<br>
@@ -37,7 +37,7 @@ If you **do** have access to your VM, use the following steps to troubleshoot th
 5. Find the error in [Common Windows Update errors](https://docs.microsoft.com/windows/deployment/update/windows-update-errors) or [Windows Update error codes by component](https://docs.microsoft.com/windows/deployment/update/windows-update-error-reference) and mitigate the issue, if possible
 
 
-### Run the Windows Update troubleshooter for Windows: 
+### Step 2: Run the Windows Update troubleshooter for Windows: 
 
 1. Download the troubleshooter, and select **Open** or **Save** in the pop-up window. (If you chose **Save**, you'll need to open the troubleshooter from the save location.)<br>
 2. Select **Next** to start the troubleshooter, and follow the steps to identify and fix any problems<br>
