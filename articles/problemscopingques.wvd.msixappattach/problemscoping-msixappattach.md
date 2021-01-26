@@ -3,7 +3,7 @@
 	description="MSIX app attach issues"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32784011"
+	supportTopicIds="32784012,32784013"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"

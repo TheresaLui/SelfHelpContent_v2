@@ -3,7 +3,7 @@
 	description="Azure monitor for WVD"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32784837"
+	supportTopicIds="32784838,32784839,32784840,32784841"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
