@@ -36,10 +36,6 @@ Are you facing one of these common problems?
 
     Create an "[Other Git](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#sep-extgit)" service connection and provide the right the username and password.
 
-* **The Github release agent is not able to view the "Private" repo even though the Github service connection has all access.**
-
-    Ensure your build pipeline is compiled from the corresponding GitHub repo and in the Release pipeline, make use of the variable **$(Build.SourceVersion)**. If you are making use of the build from a different repo, then you'll have to manually pass the commit id.
-
 * **I'm unable to generate a Service Principal for data factory using powershell script**
 
     If it is an issue related to the Service Principal permission in AAD, Service Principal by default has no permission to read AAD data. In such cases, assign the [Directory Readers](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#directory-readers) role to the Service Principal used in Azure DevOps.
@@ -51,3 +47,5 @@ Are you facing one of these common problems?
 * [Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference)
 * [Create a service hook for Azure DevOps Services and TFS with Jenkins](https://docs.microsoft.com/azure/devops/service-hooks/services/jenkins?view=azure-devops)
 * [Connect on-premises Bitbucket repositories](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
