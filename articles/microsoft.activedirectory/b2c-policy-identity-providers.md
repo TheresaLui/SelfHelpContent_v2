@@ -17,14 +17,14 @@
 
 ### **Can I add external identity providers to my application?**  
 
-Yes, you can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
+Yes. You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Review [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
 
 Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider).
 
 
 ### **Can I customize end user sign up\sign in flows?** 
 
-Yes, to help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
+Yes. To help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
 
 Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. They are fully edited by an identity developer to complete many different tasks. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started). 
 
@@ -35,7 +35,7 @@ Custom policies are configuration files that define the behavior of your Azure A
 
  
 
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
  
 
