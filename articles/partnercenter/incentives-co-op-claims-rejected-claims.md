@@ -33,10 +33,6 @@ If the materials you provided with your co-op claim are determined to be insuffi
 The co-op claims validation team will review the claim within five business days. During this time, the status will show as **Disputed**. We may contact you to request additional information. When the review is complete, the validation team will update the status to either **Approved**, **Rejected**, or **Partner Action Required**.
 
 ## **Recommended Documents**
-* [How to check claim status in Partner Center](https://support.microsoft.com/help/4524526/)
-* [Co-op Claim Submission deadlines](https://support.microsoft.com/help/2969974)
-* [Overview of Incentives coop claims](https://docs.microsoft.com/partner-center/claims-overview)
-* [Create and manage incentives claims](https://docs.microsoft.com/partner-center/create-incentives-claims)
-* [How to submit a co-op claim](https://support.microsoft.com/help/4024368/)
-* [Who can submit a coop claim?](https://docs.microsoft.com/partner-center/create-incentives-claims)
+* [Co-op Claim Submission deadlines](https://docs.microsoft.com/partner-center/claims-overview)
+* [How to submit a co-op claim](https://docs.microsoft.com/partner-center/create-incentives-claims)
 * [Core requirements for incentives co-op claims](https://docs.microsoft.com/partner-center/core-requirements)

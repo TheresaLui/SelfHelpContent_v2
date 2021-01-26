@@ -2,7 +2,7 @@
   pagetitle="Azure Stack Administrator Portal"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="alexsmit,justinha"
+  ms.author="alexsmit,justinha,v-myoung"
   selfhelptype="Generic"
   supporttopicids="32629245,32737195,32737321,32745921"
   resourcetags=""
@@ -24,6 +24,9 @@ To access the administrator portal, go to the portal URL and sign in as an Azure
   ```
   Test-AzureStack -Repair -Include AzsPortalAPISummary
   ```
+
+**CAUTION**
+You can't use this command during a component replacement or update.
 
 ## **Recommended Documents**
 

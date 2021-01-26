@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "01bd0510-714d-b97c-f7a9-721b9742b6bb",
+      "longDescription": "",
+      "shortDescription": "Issues encountered during the provisioning configuration setup process",
+      "searchTags": "provisioning configuration;AD2AAD;Azure AD Cloud Provisioning",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
       "longDescription": "",
       "shortDescription": "You are trying to configure ADFS using AADConnect and run into problems",
@@ -163,6 +171,14 @@
       "shortDescription": "Problems related to provisioning users from Azure AD into connected applications. Not be used for problems for SSO config, AADConnect or Intune.",
       "searchTags": "problem to provide user with SaaS app",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "890a3204-8103-bedf-c835-38ec9c16d794",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while installing Azure AD Cloud Provisioning agent on your on-premises AD server.",
+      "searchTags": "Azure AD Cloud Provisioning;AD2AAD;Install issues",
+      "category": "Installation",
       "useInDiagnoseAndSolve": "true"
     },
     {

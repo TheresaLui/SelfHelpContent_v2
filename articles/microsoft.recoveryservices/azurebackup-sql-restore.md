@@ -19,11 +19,15 @@
 
 ## **Recommended Steps**
 
-- [**UserErrorRestoreFailedDatabaseCannotBeOfflined** - Restore failed as the database could not be brought offline](https://aka.ms/AB-AA4dwua)</br>
-- [**UserErrorCannotRestoreExistingDBWithoutForceOverwrite** - Database with same name already exists at the target location](https://aka.ms/AB-usererrorcannotrestoreexistingdbwithoutforceoverwrite)<br>
-- [**UserErrorCannotFindServerCertificateWithThumbprint** - Cannot find the server certificate with thumbprint on the target](https://aka.ms/AB-usererrorcannotfindservercertificatewiththumbprint)<br>
+- **Perform this step first:** To successfully restore SQL backup, ensure all the [prerequisites](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#prerequisites) are met
+- Step-by-step instructions to [restore SQL DB](https://docs.microsoft.com/azure/backup/restore-sql-database-azure-vm) configured using Azure Backup
+
+**Common error codes**
+- [**UserErrorRestoreFailedDatabaseCannotBeOfflined** - Restore failed because the database could not be brought offline](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorrestorefaileddatabasecannotbeofflined)</br>
+- [**UserErrorCannotRestoreExistingDBWithoutForceOverwrite** - Database with same name already exists at the target location](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotrestoreexistingdbwithoutforceoverwrite)<br>
+- [**UserErrorCannotFindServerCertificateWithThumbprint** - Cannot find the server certificate with thumbprint on the target](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbprint)<br>
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://aka.ms/AB-AA4dwuc)<br>
-- [Troubleshooting restore issues for Backup of SQL Server on Azure](https://aka.ms/AB-AA4dwud)<br>
+- [FAQ for SQL Server backup](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)<br>
+- [Troubleshooting restore issues for backing up SQL Server on Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)<br>

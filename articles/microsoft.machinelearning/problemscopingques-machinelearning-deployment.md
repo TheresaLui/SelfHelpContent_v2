@@ -117,7 +117,7 @@
             "id": "problem_description",
 			    "order": 14,
 			    "controlType": "multilinetextbox",
-			    "displayLabel": "Attachment",
+			    "displayLabel": "Additional Details",
 			    "watermarkText": "Please provide additional details, description of the issue ",
 			    "required": true,
 			    "useAsAdditionalDetails": true,
