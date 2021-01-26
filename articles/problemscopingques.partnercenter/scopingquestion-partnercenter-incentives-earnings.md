@@ -85,7 +85,7 @@ pageTitle="Incentives earnings issues"
 				},
 				{
 					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
-					"text": "Federal Incentives Program"
+					"text": "Federal Incentive Program"
 				},
 				{
 					"value": "49B6A0A1-5B47-4711-BD15-41CA0A777175",
