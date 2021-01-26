@@ -12,6 +12,8 @@
   ownershipid="Compute_AzureMigrate" />
 # Deployment issues with Azure Migrate appliance for VMware
 
+Resolve deployment issues with the Azure Migrate appliance for VMware using the following steps.
+
 ## **Recommended Steps**
 
 For general queries, see [common questions about Azure Migrate appliance for VMware](https://docs.microsoft.com/azure/migrate/common-questions-appliance)
@@ -24,7 +26,7 @@ For general queries, see [common questions about Azure Migrate appliance for VMw
 
 * **I am unable to allocate the recommended hardware configuration to the appliance while setting it up using OVA file or the PowerShell installer script**
 
-   The recommended [configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) is required for the appliance to support the discovery, assessment, and agentless migration of the VMware VMs. Providing less than the recommended configuration may have an impact on one of these operations.
+   The appliance requires this [hardware configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---vmware) to support the discovery, assessment, and agentless migration of the VMware VMs. Providing less than the recommended configuration may impact these operations.
 
 * **I have a mixed on-premises environment with VMware VMs, Hyper-V VMs and physical servers. Can I discover all these using one Azure Migrate appliance?**
 
@@ -42,19 +44,19 @@ For general queries, see [common questions about Azure Migrate appliance for VMw
    1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
    1. Check if there is a proxy/firewall blocking access to these URLs. If you are required to create an allow list, ensure that you include all the URLs.
    1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Setup proxy** in the same step. Ensure that you provide the authorization credentials if the proxy needs them.
-   1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or that you have the mobility service agent installed on the server
+   1. Make sure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) and that you have the mobility service agent installed on the server
 
 * **I am getting an error in the auto update check on the appliance**
 
-   Ensure that you have created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
+   Ensure that you have created an allow list for the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and that no proxy/firewall setting is blocking the URLs. If the update of any appliance component is failing, either rerun the prerequisites or [manually update the component](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version).
    
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
 * **After a successful login with an Azure user account, the appliance registration step fails with the message "Failed to connect to the Azure Migrate project. Check the error detail and follow the remediation steps by clicking Retry"** 
 
-   This issue happens when the Azure user account that was used to log in from the appliance configuration manager is different from the user account that was used to generate the Azure Migrate project key on the portal 
-   1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
+   This issue happens when the Azure user account used to log in from the appliance configuration manager is different from the user account used to generate the Azure Migrate project key on the Azure portal 
+   To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on the portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account that is used for appliance registration
 
 * **I am having issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
@@ -78,7 +80,7 @@ Do one of the following:
    See [troubleshoot appliance discovery errors](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
 
-### Issues in adding vCenter Server
+### Issues in adding credentials and discovery sources
 
 * **I am unable to connect to vCenter Server due to incorrect credentials or insufficient permissions**
 

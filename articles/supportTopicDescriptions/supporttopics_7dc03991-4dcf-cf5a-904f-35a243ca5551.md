@@ -7,19 +7,20 @@
   productpesids="7dc03991-4dcf-cf5a-904f-35a243ca5551"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   disableclouds=""
-  articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551" />
+  articleid="supporttopics_7dc03991-4dcf-cf5a-904f-35a243ca5551"
+  ownershipid="CloudAppSecurity_Portal" />
 # Support Topic Descriptions for 7dc03991-4dcf-cf5a-904f-35a243ca5551
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "MCAS is a Cloud Access Security Broker (CASB) that supports various deployment modes including log collection, API connectors, and reverse proxy.",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "01b59f25-67c7-7f50-fd3e-f77ead0162af",
@@ -67,6 +68,14 @@
       "shortDescription": "Configuration of mail notifications",
       "searchTags": "mail;notifications",
       "category": "Email Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "29d29559-31d9-5e37-d406-64531a8b021c",
+      "longDescription": "",
+      "shortDescription": "Configuring third party IdP or onboarding any app to enforce controls to prevent data exfiltration and infiltration",
+      "searchTags": "IdP;any app;3rd Idp",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -120,7 +129,7 @@
     {
       "id": "62910a91-2877-434b-a6ec-20837c6abed4",
       "longDescription": "",
-      "shortDescription": "Bulk set IP ranges in the portal or via REST API",
+      "shortDescription": "Bulk set IP ranges in the Azure portal or via REST API",
       "searchTags": "REST;API;IP;Range",
       "category": "IP Range",
       "useInDiagnoseAndSolve": "true"
@@ -208,7 +217,7 @@
     {
       "id": "8ef7e43f-6258-f2d1-2577-9494243a1a60",
       "longDescription": "",
-      "shortDescription": "Anomaly detection alerts remediation",
+      "shortDescription": "Anomaly detection, suspend user, require user to sign-in again, change sharing, quarantine, alerts remediation",
       "searchTags": "remediate;detection;governance",
       "category": "Investigation",
       "useInDiagnoseAndSolve": "true"
@@ -248,7 +257,7 @@
     {
       "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
       "longDescription": "",
-      "shortDescription": "Issues with security posture, AD  activities, Defender, for identity-based alerts and secure score",
+      "shortDescription": "Issues with security posture, AD activities, Defender for identity-based alerts and secure score",
       "searchTags": "ATP;Integration",
       "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
