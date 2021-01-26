@@ -24,7 +24,7 @@ To help you set up the most common identity tasks for your applications, the Azu
 
 We've changed the way we reference user flow versions. Previously, we offered V1 (production-ready) versions, and V1.1 and V2 (preview) versions. Now, we've consolidated user flows into two versions. [Find out more details about User Flow Version](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-versions).
 
-### **Can I customize end-user sign up\sign in flows?** 
+### **Can I customize end-user sign up/sign in flows?** 
 
 Yes, to help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
 
