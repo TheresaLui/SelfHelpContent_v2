@@ -2,7 +2,7 @@
   pagetitle="Connecting to servers&#xD;"
   service="microsoft.analysisservices"
   resource="servers"
-  ms.author="pfreitas,amigan"
+  ms.author="amigan"
   selfhelptype="Generic"
   supporttopicids="32558773"
   resourcetags=""
@@ -16,7 +16,7 @@
 
 * [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
 
-* [Analysis Services client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
+* [Analysis Services Client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
 
 * [Connection string properties](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=azure-analysis-services-current)
 
