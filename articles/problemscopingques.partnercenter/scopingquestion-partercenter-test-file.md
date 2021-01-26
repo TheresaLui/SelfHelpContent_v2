@@ -23,11 +23,12 @@
    "fileAttachmentHint": "Please upload a copy if your support contract (if available) also upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
    "formElements": [
        {
-	   "id": "program_enrol",
+       "id": "program_enrol",
        "order": 1,
-	   "controlType": "dropdown",
-	   "displayLabel": "What is the program your company is enrolled in?",
+       "controlType": "dropdown",
+       "displayLabel": "What is the program your company is enrolled in?",
        "watermarkText":"Please select a program from the below list",
+       "infoBalloonText": "In case there are multiple CSP Tenant GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
 	   "dropdownOptions": [
 	       {
 		   "value": "direct_csp",
