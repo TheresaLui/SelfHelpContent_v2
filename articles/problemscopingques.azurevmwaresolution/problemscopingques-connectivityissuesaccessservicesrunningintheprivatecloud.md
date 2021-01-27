@@ -150,7 +150,7 @@
             "order": 100,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
