@@ -42,4 +42,4 @@ There are older versions of the .NET and Java SDK that can cause this behavior a
 
 * [Telemetry Channels](https://docs.microsoft.com/azure/azure-monitor/app/telemetry-channels)<br>
 * [AppCenter](https://docs.microsoft.com/appcenter/diagnostics/)<br>
-* [Application Insights Self Diagnostics Java](https://github.com/microsoft/ApplicationInsights-Java/wiki/ApplicationInsights.XML#sdklogger)
+* [Troubleshoot issues seeing data with Application Insights Java 3.0](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot) or [using the 2.x SDK without the Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)

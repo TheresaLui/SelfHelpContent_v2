@@ -21,11 +21,11 @@
 
 ### Try Going Codeless
 
-It is recommended to try a codeless approach (currently in public preview) instead of the SDK. It is super easy to enable and does not require any code instrumentation. Follow the instructions to enable the [Java agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). 
+It is recommended to try a codeless approach and go with the Application Insights Java 3.0 agent instead of the SDK. It is super easy to enable and does not require any code instrumentation. Follow the instructions to enable the [Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). To troubleshoot Java 3.0 issues, refer to [this troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot).
 
 ### If you decide to stick with the SDK
 
-The most common types of issues are related to the configuration of the SDK, or a network configuration issue such as a proxy or firewall. Here is a list of recommended items to review to ensure your application is configured correctly. Our [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) has a list of the most common concerts with problems using the Java SDK.
+The most common types of issues are related to the configuration of the SDK, or a network configuration issue such as a proxy or firewall. Here is a list of recommended items to review to ensure your application is configured correctly. Our [2.x SDK troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) has a list of the most common concerts with problems using the Java SDK.
 
 1. First, review the Java SDK [getting started guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-get-started?toc=/azure/azure-monitor/toc.json) and check the default configuration
 1. If you're configuration looks correct, enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) and search for errors prefixed with to `AI`

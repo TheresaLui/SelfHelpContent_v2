@@ -37,12 +37,10 @@ For all SDKs there is a minimal level of dependency tracking that will cover the
 4. In Status Monitor, select the installed web application or website that you want to monitor. Sign in with your Azure credentials.
 5. Restart IIS.
 
-**On-premises Java applications**<br>
+**Java applications**<br>
 
-1. Review the agent installation [guide](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
-2. On the machine running your Java server, [download the agent](https://github.com/Microsoft/ApplicationInsights-Java/releases/latest). Please ensure to download the same version of Java Agent as Application Insights Java SDK core and web packages.
-3. Edit the application server startup script, and add the following JVM: `-javaagent:PATHTOAGENTJAR`
-4. Restart JVM
+1. Install Application Insights [Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
+1. No code instrumentation - restart the app and get the dependencies auto-collected
 
 **Node.js**<br>
 
@@ -54,13 +52,11 @@ AJAX dependencies are automatically captured
 **Known Issues**<br>
 
 1. For .NET if there is a version mismatch some dependencies may not be captured or correlated correctly. Ensure all versions of the agent and SDK are the same.
-2. For Java the agent requires the XML file to load, please [check the documentation](https://docs.microsoft.com/azure/azure-monitor/app/java-agent) for examples
-3. For Java, not all database and HTTP clients are implemented [check the documentation](https://docs.microsoft.com/azure/azure-monitor/app/java-agent) for details
 4. For JavaScript we hook on to the XMLHttpRequest object, other libraries that do this can cause conflicts.
 
 ## **Recommended Documents**
 * [Setup App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps#enable-application-insights)<br>
 * [Status Monitor](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-performance-live-website-now)<br>
-* [Java Agent](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)<br>
+* [Java 3.0 Agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)<br>
 * [Node.js](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
 * [Application Insights Troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-asp-net-troubleshoot-no-data)<br>

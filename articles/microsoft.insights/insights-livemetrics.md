@@ -33,19 +33,17 @@ Live Metrics is an addon to the .NET and Java SDK frameworks that allows real ti
 4. Locate the [QuickPulseTelemetryProcessor](https://github.com/Microsoft/ApplicationInsights-Home/blob/045ed7325d115c0f239757690faccb44dbeb453b/Samples/PingMeshWeb/PingMeshWeb/ApplicationInsights.config#L28) config option; if it is not there add it
 5. Restart the application
 
-**Missing Config Java**<br>
+**Live Metrics in Java**<br>
 
-1. Verify you're using version 1.0.8 or greater (2.1.0+ recommended)
-2. Edit the ApplicationInsights.xml file
-3. Locate the [QuickPulse](https://github.com/Microsoft/ApplicationInsights-Java/blob/40809cb6857231e572309a5901e1227305c27c1a/core/src/test/resources/ApplicationInsights2.xml#L132) config option; if it is not there add it
-4. Locate the [QuickPulseTelemetryProcessor](https://github.com/Microsoft/ApplicationInsights-Home/blob/045ed7325d115c0f239757690faccb44dbeb453b/Samples/PingMeshWeb/PingMeshWeb/ApplicationInsights.config#L28); if it is not there add it
+1. We recommend using [Application Insights Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
+1. No additional steps are required to see the live metrics
+1. Limitations: sample live metrics and filtering are not available for Java apps at the moment
 
 ### **Known Issues**
 
 * Live Metrics is not supported on Node.JS. Please upvote [this uservoice](https://feedback.azure.com/forums/357324-application-insights/suggestions/18622672-live-metrics-support-for-node-js) to show interest.<br>
 * Requires Application Insights .NET SDK version 2.4.0-beta2 or greater
 * Requires Java Version 1.0.8 or greater<br> 
-* The native Java SDK does not have full parity with all Live Metrics features. You should consider using the [local forwarder](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#local-forwarder)<br> 
 
 ## **Recommended Documents**
 

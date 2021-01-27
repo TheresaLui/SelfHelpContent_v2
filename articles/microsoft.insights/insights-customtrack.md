@@ -30,6 +30,7 @@ Follow the following guides to track additional telemetry in Azure Functions, de
 
 * [C#](https://docs.microsoft.com/azure/azure-functions/functions-monitoring?tabs=cmd#log-custom-telemetry-in-c-functions)
 * [JavaScript](https://docs.microsoft.com/azure/azure-functions/functions-monitoring?tabs=cmd#log-custom-telemetry-in-javascript-functions)
+* Track [additional dependencies with Java](https://docs.microsoft.com/azure/azure-monitor/app/monitor-functions) on Azure Functions
 
 ### **How do I see debugging information while adding additional telemetry?**
 

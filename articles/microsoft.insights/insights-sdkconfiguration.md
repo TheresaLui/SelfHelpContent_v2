@@ -43,11 +43,9 @@ For all supported SDKs you should not see any errors relating to telemetry colle
 
 ### **Java Configuration Topics**<br>
 
-* [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
-* [Sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling#configuring-fixed-rate-sampling-in-java)
-* [Telemetry Processors](https://docs.microsoft.com/azure/azure-monitor/app/java-filter-telemetry)
-* [Dependency Tracking](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
-* [Configuration Reference](https://github.com/Microsoft/ApplicationInsights-Java/wiki/ApplicationInsights.XML)
+* [Overview](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
+* [Configuration Options](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-config)
+* [Telemetry Processors](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors)
 
 ### **JavaScript Configuration Topics**<br>
 

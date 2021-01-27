@@ -19,24 +19,23 @@
 
 ### **Filtering telemetry**
 
-In order to **filter** telemetry you will need to create an [ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#filtering-itelemetryprocessor) ad add it to your application code. Below is a list of specific SDK implementations:
+In order to **filter** telemetry you will need to create an [ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#filtering-itelemetryprocessor) ad add it to your application code or - for Java applications that are instrumented with Application Insights Java 3.0 agent - use [TelemetryProcessors](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors). Below is a list of language-specific implementations:
 
 * [.NET/Core](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#example-filters)
-* [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-filter-telemetry)
+* [Java 3.0](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors)
 * [Node.JS](https://github.com/Microsoft/ApplicationInsights-JS#build-a-new-extension-for-the-sdk)
 
 ### **Adding additional properties**
 
 In order to add **additional properties** you will need to create an [ITelemetryInitializer](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#add-properties-itelemetryinitializer) and add it to your application code.<br>
 
-[This link](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#add-properties-itelemetryinitializer) has examples for:<br>
+Refer to the links below to see the examples for:<br>
 
-* .NET
-* .NET Core
-* Java
-* JavaScript
-
-[See here](https://github.com/Microsoft/ApplicationInsights-JS#telemetry-initializers) for Node.JS.
+* [.NET and .NET Core](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#create-a-telemetry-processor-c)
+* [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors)
+* [Node](https://github.com/Microsoft/ApplicationInsights-JS#telemetry-initializers)
+* [JavaScript](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#javascript-web-applications)
+* [Python](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#opencensus-python-telemetry-processors)
 
 
 ## **Recommended Documents**
@@ -44,5 +43,5 @@ In order to add **additional properties** you will need to create an [ITelemetry
 * [ITelemetryInitializer Documentation](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#add-properties-itelemetryinitializer)<br>
 * [Node.JS ITelemetryInitializer](https://github.com/Microsoft/ApplicationInsights-JS#telemetry-initializers)<br>
 * [.NET/Core ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#example-filters)<br>
-* [Java ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/java-filter-telemetry)<br>
+* [Java TelemetryProcessors](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors)<br>
 * [Node.JS ITelemetryPlugin](https://github.com/Microsoft/ApplicationInsights-JS#build-a-new-extension-for-the-sdk)<br>
