@@ -143,7 +143,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the IP address you have a problem connecting to?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
