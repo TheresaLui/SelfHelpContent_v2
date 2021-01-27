@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Automation - Creating Run As Accounts "
+  pagetitle="Azure Automation - Creating Run As Accounts &#xD;"
   service="microsoft.automation"
   resource="automationaccounts"
   ms.author="zachal,riyadav"
@@ -7,7 +7,8 @@
   supporttopicids="32635009"
   resourcetags=""
   productpesids="15607"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
   articleid="279cadce-7e06-46bf-a70a-f0268a71a9be"
   ownershipid="Compute_Automation" />
 # Azure Automation - Creating Run As Accounts 
