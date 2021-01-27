@@ -27,7 +27,7 @@ Follow the recommended documents to troubleshoot or escalate.
 
 ## **Possible RCA**
 
-* [Zombie workernodes heartbeat lost after scaling down](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/3858/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
+* ["Zombie" workernodes' heartbeat lost after scaling down](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/3858/Ambari-Workernodes-Heartbeat-Lost-After-Scaling-Failure)
 
 ## **Recommended Documents**
 
