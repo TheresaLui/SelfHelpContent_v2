@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Automation - Expired or Expiring Run As Accounts &#xD;"
+  pagetitle="Azure Automation: expired or expiring Run As accounts &#xD;"
   service="microsoft.automation"
   resource="automationaccounts"
   ms.author="riyadav"
@@ -7,7 +7,8 @@
   supporttopicids="32628007,32628011,32635010,32635015,32782940"
   resourcetags=""
   productpesids="15607"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
   articleid="fbf1c295-d499-4593-bfa9-c41bf607f19c"
   ownershipid="Compute_Automation" />
 # Azure Automation: expired or expiring Run As accounts 
