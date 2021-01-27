@@ -44,7 +44,7 @@
                     "text": "GRS"
                 },
                 {
-                    "value": "ra_grs",
+                    "value": "ragrs",
                     "text": "RAGRS"
                 },
                 {
@@ -52,7 +52,7 @@
                     "text": "GZRS"
                 },
                 {
-                    "value": "ra_gzrs",
+                    "value": "ragzrs",
                     "text": "RAGZRS"
                 },
                 {
