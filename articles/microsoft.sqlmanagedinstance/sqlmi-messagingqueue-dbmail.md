@@ -37,6 +37,7 @@ For issues sending email messages:
 
 - Make sure that you configured the email profile with the correct email server name, IP address, port, and account information (username and password). Check for known issues and limitations in the [Azure SQL Database documentation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#database-mail) that might cause the issue.
 - Verify your email configuration (credentials, mail server and port) with the following PowerShell script. If you can send an email with the script, you configuration is correct.
+
 ```
 {
 $anonUsername = "<user@email.com>"
