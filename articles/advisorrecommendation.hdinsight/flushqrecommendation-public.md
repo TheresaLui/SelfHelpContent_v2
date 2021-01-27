@@ -35,7 +35,7 @@
     "serviceTreeId": "36e3ae94-0955-49ef-801c-da42a638ff35"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing the flusher threads",
   "longDescription": "The flush queue size in your region servers are more than 100 or there are updates getting blocked frequently. Tuning of the flush handler is recommended.",

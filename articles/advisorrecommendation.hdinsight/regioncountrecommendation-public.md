@@ -35,7 +35,7 @@
     "serviceTreeId": "10491829-3504-456f-8f55-9238daefa8e1"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Check your region counts as you have blocking updates.",
   "longDescription": "Region counts needs to be adjusted to avoid updates getting blocked. It might require a scale up of the cluster by adding new nodes.",

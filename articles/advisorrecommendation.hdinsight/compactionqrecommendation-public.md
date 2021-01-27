@@ -35,7 +35,7 @@
     "serviceTreeId": "d99d7c87-0d16-4269-a159-7534cc4795f1"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing your compaction threads for compactions to complete faster",
   "longDescription": "The compaction queue in your region servers are more than 2000. This suggests that more data is waiting to be compacted.",
