@@ -19,7 +19,7 @@
 
 The following diagnostic steps can help you to identify issues that affect the internet connectivity of Microsoft Azure virtual machines.
 
-The most common issues in this scenario are blocking network security groups (NSGs) and user-defined routes (UDR).
+The most common issues in this scenario are blocking network security groups (NSGs) and user-defined routes (UDRs).
 
 ## **Recommended Steps**
 
