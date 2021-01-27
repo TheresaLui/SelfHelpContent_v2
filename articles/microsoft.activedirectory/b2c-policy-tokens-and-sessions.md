@@ -15,17 +15,17 @@
 
 ## **Recommended Steps**
 
-### **Configure tokens in Azure Active Directory B2C** 
+### **Configure tokens in Azure Active Directory (AD) B2C** 
 
-Learn how to configure the lifetime and compatibility of a [token in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/configure-tokens?pivots=b2c-custom-policy).
+Learn how to configure the [lifetime and compatibility of a token](https://docs.microsoft.com/azure/active-directory-b2c/configure-tokens?pivots=b2c-custom-policy).
 
-### **Configure session behavior in Azure Active Directory B2C**
+### **Configure session behavior in AD B2C**
 
-Learn how to configure the Azure AD B2C [session behavior](https://docs.microsoft.com/azure/active-directory-b2c/session-behavior?pivots=b2c-custom-policy#configure-sign-out-behavior).
+Learn how to configure the [session behavior](https://docs.microsoft.com/azure/active-directory-b2c/session-behavior?pivots=b2c-custom-policy#configure-sign-out-behavior).
 
 ### **Can I ensure that only services that have proper credentials make calls to my REST API endpoint?**
 
-Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active-directory-b2c/secure-rest-api) with either HTTP basic, client certificate or OAuth2 authentication.
+Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active-directory-b2c/secure-rest-api) with either HTTP basic, client certificate, or OAuth2 authentication.
 
 
 ### **Useful Links** 
@@ -34,6 +34,6 @@ Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Review our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
