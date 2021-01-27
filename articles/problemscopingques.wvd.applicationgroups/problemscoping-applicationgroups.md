@@ -7,7 +7,7 @@
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="5f5558b1-31e8-4fdb-9866-eeffcb2e9bb0"
+	articleId="869f2252-32b2-4282-8a92-06c4e07dc254"
 	ownershipId="Windows_Virtual_Desktop"
 />
 # Application groups
@@ -32,7 +32,7 @@
           "text": "Issue description."
         },
         {
-          "text": "Name of the session host or virtual machine(s)."
+          "text": "Name of the session host or virtual machines"
         }
       ]
     },

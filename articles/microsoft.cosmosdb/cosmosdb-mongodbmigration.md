@@ -16,7 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Import MongoDB data into Cosmos DB
+# Import MongoDB data into Cosmos DB 
 
 ## **Recommended Steps**
 
