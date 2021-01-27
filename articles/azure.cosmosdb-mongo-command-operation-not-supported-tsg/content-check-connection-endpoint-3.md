@@ -12,7 +12,7 @@
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
 	  articleId="bf71b9e3-2e9b-4af6-8310-a41022ac55d9"
-	  ownershipId="AzureData_AzureCosmosDB"
+	  ownershipId="AzureData_AzureCosmosD"
 />
 
 # Check Connection Endpoint  
