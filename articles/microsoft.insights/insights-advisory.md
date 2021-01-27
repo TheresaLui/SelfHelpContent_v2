@@ -36,7 +36,7 @@
 
 * [ASP.NET Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
 * [Java 3.0 agent Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot)
-* [Java 2.x SDK Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
+* [Java 2.x SDK (without the 3.0 agent) Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
 * [Telemetry Correlation](https://docs.microsoft.com/azure/azure-monitor/app/correlation)
 * [IP Addresses used by Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses)
 
@@ -57,7 +57,6 @@
 * [Java Web Applications - not recommended](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
 * [Node.js Applications](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
 * [JavaScript based Applications](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
-
 
 
 
