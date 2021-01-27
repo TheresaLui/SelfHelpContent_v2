@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Azure File Sync Errors - Troubleshooting and Remediation",
-        "description": "The Azure File Sync troubleshooter can help remediate File sync issues. Use the below diagnostic to search the file sync error observed in the portal. For example search error code 0x80C8021C",
+        "description": "The Azure File Sync troubleshooter can help remediate File sync issues. Use the below diagnostic to search the file sync error observed in the portal. For example search error code 0x8007007B",
         "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. Please refer recommended documentation link to troubleshoot your issue"
     },
     "formElements": [
@@ -62,7 +62,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "File Sync errors",
-            "watermarkText": "Search File Sync error. Example search 0x80C8021C",
+            "watermarkText": "Search File Sync error. Example search 0x8007007B",
             "dropdownOptions": [
                 {
                     "value": "0x80C8300F",
