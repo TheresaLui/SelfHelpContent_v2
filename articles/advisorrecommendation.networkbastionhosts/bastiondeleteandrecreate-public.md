@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hybridnetworking.kusto.windows.net').database('aznwmds').f_Bastion_BastionHostsNeedingRecreation",
     "dataSource": "Kusto",
-    "refreshInterval": "00.06:00:00"
+    "refreshInterval": "00.01:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
