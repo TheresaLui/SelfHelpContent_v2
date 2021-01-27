@@ -37,7 +37,7 @@ The most common issues in this scenario are blocking network security groups (NS
 
 4. Select **Test connection**.
 
-5. If the connection fails, the test results will indicate which NSG or UDR is interferring with connectivity.
+5. If the connection fails, the test results will indicate which NSG or UDR is interfering with connectivity.
 
 6. If the connection is successful, this means that the Azure platform is allowing outbound internet connectivity. Check within the VM for configuration issues in the destination configuration.
 
