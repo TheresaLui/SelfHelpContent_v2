@@ -24,7 +24,7 @@
 Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 <!--/issueDescription-->
 
-The upgrade process will not result in any service interruptions nor require any downtime. <!--{$MigrationCondition}-->[MigrationCondition]<!--/{$MigrationCondition}-->
+The upgrade process will not result in any service interruptions nor require any downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
 
 
 **Benefits of upgrading to version 3.6**
