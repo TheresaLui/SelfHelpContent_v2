@@ -27,7 +27,7 @@ For issues sending email messages:
 - Make sure that you use [supported syntax for Database Mail](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#database-mail-db_mail). Windows Authentication and attachments are not supported.
 - If you get error "Msg 22050, Level 16, State 1", see [known issue with **@query** parameter](https://docs.microsoft.com/azure/azure-sql/database/doc-changes-updates-release-notes?tabs=managed-instance#procedure-sp_send_dbmail-may-transiently-fail-when--parameter-is-used).
 
-- Check that you can reach the mail server from a Managed Instance using SQL Agent Job that tests the network connection:
+- Try to reach the mail server from a Managed Instance using SQL Agent Job that tests the network connection:
 
    1. Create a SQL Agent job that has one PowerShell task that runs a command like `tnc smtp.sendgrid.net -Port 25`. Run the job and check the job output in the job history. This is a public mail server that you should be able to reach from your Managed Instance, unless you have explicitly blocked that name and/or port. If the job step fails, review your networking configuration or create a support ticket under the **Availability and Connectivity**/*Virtual network or subnet configuration* category.
    2. If the previous step succeeded, replace the name of the mail server and port in the job with the mail server and port you're using, and repeat the previous step. Run `tnc YOUR_EMAIL_SERVER -Port -YOUR_EMAIL_SERVER_PORT` in the SQL Agent Job on Managed Instance. If the job step fails, review your networking configuration, or create a support ticket under **Availability and Connectivity**/*Virtual network or subnet configuration* category.
@@ -56,7 +56,7 @@ Send-MailMessage -smtpServer <mail_server> -to "<test@email.com>" -from $anonUse
 
 For issues sending email alerts from SQL Agent:
 
-- Check that you have an email profile called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. The profile must have this specific name to bind the SQL Agent with Database Mail. If this profile is missing, you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607".
+- Make sure that you have an email profile called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. The profile must have this specific name to bind the SQL Agent with Database Mail. If this profile is missing, you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607".
 
 - Send a test email using the [sp_send_dbmail](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure on **AzureManagedInstance_dbmail_profile** profile with T-SQL script
 - Repeat the steps from the previous section to troubleshoot the potential database email issues
