@@ -35,17 +35,10 @@
 ### Troubleshooting Configuration
 
 * [ASP.NET Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
-* [Java Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
+* [Java 3.0 agent Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot)
+* [Java 2.x SDK Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
 * [Telemetry Correlation](https://docs.microsoft.com/azure/azure-monitor/app/correlation)
 * [IP Addresses used by Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses)
-
-### Code Based Monitoring
-
-* [ASP.NET Web Applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)
-* [ASP.NET Core Web Applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
-* [Java Web Applications](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
-* [Node.js Applications](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
-* [JavaScript based Applications](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
 
 ### Codeless Monitoring
 
@@ -53,7 +46,18 @@
 * [Azure App Services](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)
 * [Azure Cloud Services](https://docs.microsoft.com/azure/azure-monitor/app/cloudservices)
 * [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring)
-* [Kubernetes](https://docs.microsoft.com/azure/azure-monitor/app/kubernetes)
+* [Azure Kubernetes Service](https://docs.microsoft.com/azure/azure-monitor/app/kubernetes-codeless)
+* [Any Environment Java Applications](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
 * [On-premises IIS Applications](https://docs.microsoft.com/azure/azure-monitor/app/status-monitor-v2-get-started)
+
+### SDK Based Monitoring
+
+* [ASP.NET Web Applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)
+* [ASP.NET Core Web Applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
+* [Java Web Applications - not recommended](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
+* [Node.js Applications](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
+* [JavaScript based Applications](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
+
+
 
 

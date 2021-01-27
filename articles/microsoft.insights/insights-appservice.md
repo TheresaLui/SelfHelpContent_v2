@@ -31,7 +31,8 @@
 
 1. The specified language/tech stack may not be supported. Here is what you need to know: 
 
-    * Currently you can enable codeless integration with Application Insights for .Net, .NetCore, Java and Node.js (public preview on Linux and private preview on Windows)
+    * Currently you can enable codeless integration with Application Insights for .Net, .NetCore, Java (private preview) and Node.js (public preview on Linux and private preview on Windows)
+    * For Java applications, enable (Application Insights Java 3.0 agent)[https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent] prior to deploying your app in App Service
     * For Python you would need to add SDK to your code
 
 ### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
