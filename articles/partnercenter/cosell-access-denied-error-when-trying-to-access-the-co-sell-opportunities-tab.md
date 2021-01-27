@@ -23,9 +23,7 @@
 ## **Recommended Steps**
 
 1. Clear your browser cookies & cache and refresh the page
-2. Verify that you have the '_Referrals admin_' role for your desired location(s)
-
-You can view your assigned role in your *‘Partner Center profile (on the top right corner) > My profile > Account > Partner Center permissions -> ‘Click here to view permissions’*
+2. Verify that you have the '_Referrals admin_' role for your desired location(s). You can view your assigned role in your Partner Center profile (on the top right corner) *'My profile > Account > Partner Center permissions' -> 'Click here to view permissions'*
 
 **Note**: Please include your role, location, the MPN ID, the solution ID, a screenshot of the error and the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
 

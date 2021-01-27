@@ -2,7 +2,7 @@
   pagetitle="Windows Virtual Desktop - Performance/session connectivity"
   service=""
   resource=""
-  ms.author="jerrycif,evas"
+  ms.author="jerrycif,evas,sefriend"
   selfhelptype="Generic"
   supporttopicids="32625542,32625544"
   resourcetags=""
@@ -22,6 +22,7 @@
 * [Troubleshooting overview](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-overview)<br>
 * [Identify and diagnose issues](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-role-service)<br>
 * [Troubleshoot deployment issues](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#issues-using-windows-virtual-desktop--provision-a-host-pool-azure-marketplace-offering)<br>
+* [Troubleshoot Windows Virtual Desktop Agent issues](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-agent)<br>
 * [Troubleshoot Remote Desktop client connections](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-client)<br>
 * [Troubleshoot session host virtual machine configurations](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-vm-configuration)<br>
 * [Troubleshoot tenant and host pool creation](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues)<br>

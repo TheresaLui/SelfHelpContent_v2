@@ -28,7 +28,7 @@
     {
       "id": "01ee5a2e-02c1-5589-18a0-22099663453b",
       "longDescription": "",
-      "shortDescription": "If you are having issues with uploading an authentication certificate (v1) or trusted root certificate (v2) to the HTTP settings",
+      "shortDescription": "If you're having issues with uploading an authentication certificate (v1) or trusted root certificate (v2) to the HTTP settings",
       "searchTags": "authentication certificate;trusted root certificate;certificate;upload;ssl",
       "category": "Configuration and setup",
       "useInDiagnoseAndSolve": "true"
@@ -40,6 +40,14 @@
       "searchTags": "performance;appgw;application gateway;app gw;waf;performance monitoring;monitoring;metrics",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "03109984-cd60-5051-6f5f-894bf1251da8",
+      "longDescription": "",
+      "shortDescription": "If you are having issues configuring SSL offload or SSL termination in Application Gateway",
+      "searchTags": "ssl offload;ssl termination;tls;configure;certificate",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0506441f-8ca0-ef07-5ab5-ce31301f6d28",
@@ -258,6 +266,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "8192327f-cf51-c486-1c9a-afda3ced5262",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to Application Gateway Ingress Controller Add-On for AKS",
+      "searchTags": "agic;ingress controller;add-on;aks;add on",
+      "category": "Configuration and setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "82697465-2215-1c84-7e0e-99ce0bef405b",
       "longDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",
       "shortDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",
@@ -292,16 +308,16 @@
     {
       "id": "8d5a15a6-2e27-0a36-161f-1c54b4cb2c5b",
       "longDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "shortDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite",
+      "shortDescription": "Covers routing issues related to header and URL rewrite in Application Gateway",
+      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite;url rewrite;url",
       "category": "Routing",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "9013655b-306f-d8c9-798b-9cd0e2072358",
       "longDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
-      "shortDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
-      "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;header rewrite;header",
+      "shortDescription": "Covers issues related to Application Gateway header and URL rewrite configuration",
+      "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;header rewrite;header;url rewrite;url;rewrite",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "TRUE"
     },
