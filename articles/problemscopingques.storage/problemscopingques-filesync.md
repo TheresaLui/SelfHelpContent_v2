@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "Azure File Sync Errors - Troubleshooting and Remediation",
         "description": "The Azure File Sync troubleshooter can help remediate File sync issues. Use the below diagnostic to search the file sync error observed in the portal. For example search error code 0x8007007B",
-        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. Please refer recommended documentation link to troubleshoot your issue"
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. See the recommended documentation link to troubleshoot your issue"
     },
     "formElements": [
         {
@@ -54,7 +54,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Sync Group Name",
-            "watermarkText": "Enter Sync Group Name else enter Not Applicable",
+            "watermarkText": "Enter Sync Group Name or else enter Not Applicable",
             "required": true
         },
         {
@@ -133,7 +133,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint and error message.",
+            "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint, and error message.",
             "required": true,
             "useAsAdditionalDetails": true
         },
