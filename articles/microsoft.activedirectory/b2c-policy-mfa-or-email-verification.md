@@ -17,19 +17,19 @@
 
 ### **Enable multi-factor authentication in Azure Active Directory B2C** 
 
-Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You enable multi-factor authentication without writing a single line of code. [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy) without writing a single line of code.
+Azure Active Directory B2C (AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to the sign-up and sign-in experiences in your applications without writing a single line of code. Review these [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy).
 
 
 ### **Can I send customized email to users that sign up to use my applications?** 
 
 Yes, you can use the company branding feature to customize the content of verification emails. [Learn how elements of the email can be customized](https://docs.microsoft.com/azure/active-directory-b2c/faq?tabs=app-reg-ga#how-do-i-customize-verification-emails-the-content-and-the-from-field-sent-by-azure-ad-b2c). 
 
-Also, by using <code> DisplayControls </code>(currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template and From: address and subject, as well as support localization and custom One-Time Password (OTP) settings. 
+Also, by using `DisplayControls` (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template, From: address, and subject, as well as support localization and custom One-Time Password (OTP) settings. 
 
 
 ### **For my customers, can I generate and send a code to a phone number, and then verify the code?** 
 
-Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). [Steps to define an Azure AD MFA technical profile ](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) technical profile to generate and send a code to a phone number, and then verify the code. 
+Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Review [Steps to define an Azure AD MFA technical profile ](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) to do this. 
 
 
 ### **Can I customize end user sign up/sign in flows?** 
@@ -41,5 +41,5 @@ Custom policies are configuration files that define the behavior of your Azure A
 ### **Useful Links**
 
 * Learn [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
+* Review these [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
 * Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
