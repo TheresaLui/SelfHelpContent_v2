@@ -17,13 +17,13 @@ Azure SQL Database - Managed Instance enables you to directly send the email mes
 
 ## **Recommended Steps**
 
-If you are experiencing issues with sending emails or alerting, the following sections can help you to find a way to troubleshoot the issues.
+If you experience issues when sending emails or alerting, the following sections can help you troubleshoot the issues.
 
 ### Database mail
 
-If you are the experiencing some issues with sending email messages, try some of the following troubleshooting steps:
+If you experience issues sending email messages, try the following steps:
 
-- Check that the options 'Database Mail XPs' and 'show advanced options' enabled in [sys.configurations](https://docs.microsoft.com/sql/relational-databases/system-catalog-views/sys-configurations-transact-sql) view.
+- Check that the options **Database Mail XPs** and 'show advanced options' enabled in [sys.configurations](https://docs.microsoft.com/sql/relational-databases/system-catalog-views/sys-configurations-transact-sql) view.
 - Check that you are using [supported syntax for Database Mail](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#database-mail-db_mail). Windows Authentication and attachments are not supported.
 - If you are getting error "Msg 22050, Level 16, State 1", see [known issue with **@query** parameter](https://docs.microsoft.com/azure/azure-sql/database/doc-changes-updates-release-notes?tabs=managed-instance#procedure-sp_send_dbmail-may-transiently-fail-when--parameter-is-used).
 - Check you can reach the mail server from Managed Instance using SQL Agent Job that tests the network connection:
