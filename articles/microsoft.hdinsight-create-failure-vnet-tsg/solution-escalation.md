@@ -27,7 +27,7 @@ Use the following recommended documents to troubleshoot or escalate.
 
 ## **Possible RCAs**
 
-* [Unaccessible Kafka BYOK keyvault](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/292678/byok-keyvault-create-error)
+* [Inaccessible Kafka BYOK keyvault](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/292678/byok-keyvault-create-error)
 
 ## **Recommended Documents**
 
