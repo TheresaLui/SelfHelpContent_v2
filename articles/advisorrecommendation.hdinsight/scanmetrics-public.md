@@ -35,7 +35,7 @@
     "serviceTreeId": "feeb91fb-3ac7-43b9-8d2e-2290db2173f6"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "More than 75% of your queries are full scan queries.",
   "longDescription": "More than 75% of the scan queries on your cluster are doing a full region/table scan. Modify your scan queries to avoid full region or table scans.",
