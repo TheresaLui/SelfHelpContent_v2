@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="vigunase"
+  ms.author="vigunase,nishring"
   selfhelptype="Generic"
   supporttopicids="32633328"
   resourcetags=""
@@ -13,9 +13,9 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
-## **Recommended Steps**
+Learn more about Azure AD Business to Consumer (B2C) by reviewing the following steps. 
 
-Learn about [Azure AD B2C customization](https://docs.microsoft.com/azure/active-directory-b2c/direct-signin?pivots=b2c-custom-policy)
+## **Recommended Steps**
 
 ### **I need to customize the user input**
 
@@ -43,16 +43,20 @@ Although recommended for security purposes, some business requirements might req
 
 ### **Password reset link is not working**
 
-Currently, the combined "Sign-up or Sign-in policy" has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
+Currently, the combined **Sign-up or Sign-in policy** has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
 
-1. **Use a Sign-in Policy**: No work required by the application. Selecting "I forgot my password" redirects the user automatically to a generic Microsoft-branded password reset page.
-1. **Handle the error**: This requires the application to do some extra work. Selecting "I forgot my password" redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
+1. **Use a Sign-in Policy**: No work required by the application. Selecting **I forgot my password** redirects the user automatically to a generic Microsoft-branded password reset page.
+1. **Handle the error**: This requires the application to do some extra work. Selecting **I forgot my password** redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
 
 
-## **Recommended Documents**
+### **Useful Links** 
 
-* [Azure AD B2C policies](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)
-* [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+* Get started today with predefined, configurable policies called [User Flows in AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies) to set up the most common identity tasks for your applications. 
+
+* Learn about [Azure AD B2C customization](https://docs.microsoft.com/azure/active-directory-b2c/direct-signin?pivots=b2c-custom-policy)
+
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+
+* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+
+* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
