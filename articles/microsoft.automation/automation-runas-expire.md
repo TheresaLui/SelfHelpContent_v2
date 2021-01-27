@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Automation: expired or expiring Run As accounts &#xD;"
+  pagetitle="Azure Automation: expired or expiring Run As accounts "
   service="microsoft.automation"
   resource="automationaccounts"
   ms.author="riyadav"
@@ -16,31 +16,31 @@ The Self-Signed certificate created for Run As/Classic Run As account expires on
 
 ## **Recommended Steps**
 
-### **Check permissions required to renew or recreate Run As/Classic Run As account**
+### **1. Check permissions required to renew or recreate Run As/Classic Run As account**
 
-* In order to manage Run As/Classic Run As accounts, you will need permissions. See [Permissions Required to Manage Run As/Classic Run As Accounts](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
+* In order to manage Run As/Classic Run As accounts, you will need permissions. See [Permissions Required to Manage Run As/Classic Run As Accounts](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions)
 
-### **Renew a Self-Signed Certificate**
+### **2. Renew a Self-Signed Certificate**
 
 * Before your Run As/Classic Run As certificate expires, you can renew it by following the [Certificate Renewal Instructions](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
 
-### **Re-create a Run As/Classic Run As Account**
+### **3. Re-create a Run As/Classic Run As Account**
 
-* After your Run As/Classic Run As certificate expires, you must delete it and create a new one by following the instructions to [Delete and Re-create an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
+* After your Run As/Classic Run As certificate expires, you must delete it and create a new one by following the instructions to [Delete and Re-create an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)
 
 If you are not able to renew or re-create Run As/Classic Run As account by following the steps above, see the following sections.
 
-### **Access Run As/Classic Run As accounts**
+### **Run As/Classic Run As accounts greyed out**
 
-* Run As and Classic Run As accounts are unavailable when you do not have sufficient permissions. Check out the [Permissions required to Manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
+* Run As and Classic Run As accounts appear dimmed when you do not have sufficient permissions. Check out the [Permissions required to Manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions)
 
 ### **Create a Run As/Classic Run As account related to Start/Stop VMs**
 
 * See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create Run As/Classic Run As accounts related to the Start/Stop solution
 
 ## **Recommended Documents**
-* [Create and manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#create-a-run-as-account-in-azure-portal)<br>
-* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)<br>
+* [Create a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/create-runas-account)<br>
+* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)<br>
 * [Run As/Classic Run As account certificate renewal](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)<br>
 * [Resolve a Misconfigured/Incomplete Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#resolve-misconfiguration-issues-for-run-as-accounts)<br>
 * [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
