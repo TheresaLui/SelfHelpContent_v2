@@ -4,7 +4,7 @@
 	authors="dimanjar" 
         ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32725801,32725871,32725861,32725862"
+	supportTopicIds="32725801,32725861"
 	productPesIds="17000,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -48,12 +48,8 @@
                     "text": "MAPS"
                 },
 		{
-                    "value": "other",
-                    "text": "Other"
-                },
-		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
             "required": true
@@ -62,7 +58,7 @@
             "id": "mpn_benefit_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What type of benefit are you having problem with?",
+            "displayLabel": "What type of benefit are you having problems with?",
             "watermarkText": "Select benefit type",
             "dropdownOptions": [
                 {
@@ -74,16 +70,12 @@
                     "text": "Software products"
                 },
                 {
-                    "value": "Visual studio subscriptions",
-                    "text": "Visual studio subscriptions"
-                },
-		{
-                    "value": "other",
-                    "text": "Other"
+                    "value": "Visual Studio subscriptions",
+                    "text": "Visual Studio subscriptions"
                 },
 		{
 		   "value": "dont_know_answer",
-		   "text": "Not sure"
+		   "text": "Not sure / Other"
 	       }
             ],
             "required": true

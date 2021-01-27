@@ -7,19 +7,20 @@
   productpesids="3461f86b-df79-07f2-aad9-34a81b2d9023"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   disableclouds=""
-  articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023" />
+  articleid="supporttopics_3461f86b-df79-07f2-aad9-34a81b2d9023"
+  ownershipid="AzureData_AzureDatabricks" />
 # Support Topic Descriptions for 3461f86b-df79-07f2-aad9-34a81b2d9023
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Azure Databricks ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "0365b69a-cffa-a5fb-3f96-b93f86ae4175",
@@ -27,6 +28,14 @@
       "shortDescription": "Metastore issues",
       "searchTags": "metastore;rds",
       "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "0772868e-7944-8899-254e-0b21fd38aafe",
+      "longDescription": "",
+      "shortDescription": "Questions with Spark streaming using Scala. Issues with Kafka or event hubs using Scala",
+      "searchTags": "event hub;spark;kafka;scala",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -43,6 +52,22 @@
       "shortDescription": "Issues connecting from Databricks to SQL resource(s) like SQL DB, Cosmos DB etc.",
       "searchTags": "SQL;Cosmos;cannot connect",
       "category": "connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "1343dfc8-2c77-3dce-704b-7f70ac1d799a",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Github",
+      "searchTags": "github;git;sync;source control;notebook",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "15404cad-c117-e946-dbc3-e837c29a9157",
+      "longDescription": "",
+      "shortDescription": "SQL query running slow or failed with error",
+      "searchTags": "SQL;error;failed;slow;SQL query",
+      "category": "SQL Analytics",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -102,6 +127,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "248a69ac-7ce9-8b33-868a-315d3559dcb1",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with Spark streaming using Python. Issues related to Kafka or event hubs using Python",
+      "searchTags": "event hub;spark;python;kafka",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
       "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging, etc. This is unrelated to Spark command failures",
@@ -118,6 +151,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bef560a-ee88-bc48-d8e0-f16183138a18",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues with SQL Analytics",
+      "searchTags": "SQL Analytics;dashboard;photon;SQL Endpoint;SQL",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
@@ -131,6 +172,22 @@
       "shortDescription": "Issues related to 3rd party integrations such as Domino, H2O, etc.",
       "searchTags": "Domino;H2O",
       "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "2dcd4304-1644-64ae-a7b6-8841d74073b5",
+      "longDescription": "",
+      "shortDescription": "Connectivity issues with  IDE (IntelliJ, Eclipse, PyCharm, RStudio, Visual Studio) and notebook server (Zeppelin, Jupyter)",
+      "searchTags": "DBConnect;IntelliJ;Eclipse;PyCharm;RStudio",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "2dd621ff-72b0-71ac-675e-b91f9ec4350d",
+      "longDescription": "",
+      "shortDescription": "Delta checkpoint issues ",
+      "searchTags": "delta;checkpoint",
+      "category": "Delta",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -254,6 +311,30 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "534e3908-807e-da6b-48c1-204cef438fae",
+      "longDescription": "",
+      "shortDescription": "SQL endpoints failed to start",
+      "searchTags": "SQL endpoint;failed;failed to start",
+      "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "53af67a8-78eb-3843-1592-6b519b1c4aa9",
+      "longDescription": "",
+      "shortDescription": "Notebook Sync or save issues using Azure dev ops",
+      "searchTags": "sync;dev ops;notebook;source control",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "540b8c26-03d4-fae2-4509-8d5a48ef992f",
+      "longDescription": "",
+      "shortDescription": "Delta streaming issues ",
+      "searchTags": "delta;streaming",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
       "longDescription": "",
       "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
@@ -267,6 +348,14 @@
       "shortDescription": "Billing Issues",
       "searchTags": "Bill",
       "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "5874d1a7-ea45-c0dc-0021-51c813356151",
+      "longDescription": "",
+      "shortDescription": "Issues with migrating a Databricks workspace",
+      "searchTags": "migrate;migrate workspace;migrating;migration",
+      "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -294,6 +383,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "63a3b866-5d06-6af1-be43-019823e53d6f",
+      "longDescription": "",
+      "shortDescription": "Databricks monitoring issues or questions using Ganglia",
+      "searchTags": "ganglia;monitor",
+      "category": "Monitoring and diagnostics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
       "longDescription": "",
       "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
@@ -315,6 +412,14 @@
       "shortDescription": "Question or issue with configuring or using alert",
       "searchTags": "sql;alert",
       "category": "SQL Analytics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "69867871-6041-c0a6-89e9-9bb15b2d0996",
+      "longDescription": "",
+      "shortDescription": "Delta Z-Ordering issues ",
+      "searchTags": "delta;Z-Ordering",
+      "category": "Delta",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -350,6 +455,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "76e82ced-4a7d-2834-42d3-86a8f2cc553c",
+      "longDescription": "",
+      "shortDescription": "Delta caching issues ",
+      "searchTags": "delta;caching",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "77403de1-cd06-f3fd-6a60-9f8ab8da7f13",
       "longDescription": "",
       "shortDescription": "Notebook Issues related to UI slowness or unresponsiveness",
@@ -371,6 +484,14 @@
       "shortDescription": "Questions regarding Databricks workspace migration between subscriptions or regions ",
       "searchTags": "migrate;workspace",
       "category": "migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7d95d01a-a8b8-ad38-c227-c4a84d3d954d",
+      "longDescription": "",
+      "shortDescription": "Issues with Reporting (Power BI, Tableau, Qlik) or source control and notebook sync",
+      "searchTags": "Report;source control;power bi;tableau;sync",
+      "category": "Reporting",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -430,11 +551,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "93a0c498-e9fb-7d94-5639-60df7bee3535",
+      "longDescription": "",
+      "shortDescription": "DB connect jobs issues (Python, Java, Scala, R)",
+      "searchTags": "DB Connect;DB Connect Job;Python;job;Java",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "94501390-9d29-d367-59e6-28304cf3c4dc",
       "longDescription": "",
       "shortDescription": "Questions on Databricks internal hive metastore",
       "searchTags": "metastore",
       "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "950e94fe-dbb1-b291-a540-7981b9f62a9c",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau, Power BI, AAS using SIMBA connector",
+      "searchTags": "Tableau;connect;error;aas;simba",
+      "category": "reporting",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -459,6 +596,14 @@
       "shortDescription": "Job(s) failure due to 3rd party library. third-party library installation issues",
       "searchTags": "job;library",
       "category": "job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9d006dc5-f458-e305-ba8e-f7c55062b1ac",
+      "longDescription": "",
+      "shortDescription": "DB connect dependency issue like pom.xml, build.sbt having issues ",
+      "searchTags": "pom;build;build.sbt;pom.xml",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -654,11 +799,35 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d2fce0f4-81c2-4c3c-b7de-dffa7d61cfb4",
+      "longDescription": "",
+      "shortDescription": "Issues with deploying or launching a Databricks workspace",
+      "searchTags": "deploy;workspace deployment;deploying workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
       "searchTags": "ACL;sql ;access",
       "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d903ff5e-187b-f12b-72f5-70164c5b6bfb",
+      "longDescription": "",
+      "shortDescription": "Databricks monitoring issues or questions using Azure Spark Monitor",
+      "searchTags": "spark;monitor",
+      "category": "Monitoring and diagnostics",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d90f9696-3849-bf6e-acf5-bfc7fed7e791",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Bitbucket",
+      "searchTags": "bitbucket;notebook;sync;source control",
+      "category": "source control",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -787,6 +956,30 @@
       "shortDescription": "DB connect jobs issues (Python, Java, Scala, R)",
       "searchTags": "job;db connect",
       "category": "db connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fed43a6c-a6b3-4ee4-ad6c-13f6c5b2dd05",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau, Power BI",
+      "searchTags": "connect;tableau;power bi",
+      "category": "reporting",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ff2c5a9d-482d-e50e-18eb-189828d3c58a",
+      "longDescription": "",
+      "shortDescription": "Delta history issues ",
+      "searchTags": "delta;history",
+      "category": "Delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ff6265ff-342f-e1fe-3daf-6289ebe8a5cb",
+      "longDescription": "",
+      "shortDescription": "Delta Performance issues ",
+      "searchTags": "delta;performance",
+      "category": "Delta",
       "useInDiagnoseAndSolve": "false"
     }
   ]
