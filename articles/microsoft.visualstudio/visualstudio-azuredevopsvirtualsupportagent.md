@@ -12,9 +12,7 @@
   ownershipid="Azure_DevOps_Services" />
 # DevOps Services Virtual Agent
 
-Most users can resolve issues with the DevOps Service Virtual Agent by following the steps below.
-
 ## **Recommended Steps**
 
-* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* Check the [Azure DevOps Services Status page](https://status.dev.azure.com) to ensure there aren't any ongoing or past incidents causing your issue.
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
