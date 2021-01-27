@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Automation - Run As Accounts&#xD;"
+  pagetitle="Azure Automation: Common issues with Run As accounts&#xD;"
   service="microsoft.automation"
   resource="automationaccounts"
   ms.author="riyadav"
@@ -7,7 +7,8 @@
   supporttopicids="32628010,32635018,32642189"
   resourcetags=""
   productpesids="15607"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
   articleid="b1d09aaa-7185-44ab-999c-b51d64b77a75"
   ownershipid="Compute_Automation" />
 # Azure Automation: Common issues with Run As accounts
