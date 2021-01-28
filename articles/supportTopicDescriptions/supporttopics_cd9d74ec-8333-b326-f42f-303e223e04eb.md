@@ -537,7 +537,7 @@
     {
       "id": "78ddd59d-48cc-c5c3-098a-040a6fb59ca8",
       "longDescription": "",
-      "shortDescription": "Issues that are related to the operation of the Azure DevOps Services service.",
+      "shortDescription": "Issues that are related to the operation of all or multiple features of the Azure DevOps Services service due to a potential or declared outage",
       "searchTags": "Service Issue",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
