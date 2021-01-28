@@ -1,36 +1,39 @@
 <properties
-    pageTitle="Issues with backup using mysqldump and mydumper"
-    description="Issues with backup using mysqldump and mydumper"
-    service="microsoft.dbformysql"
-    resource="servers"
-    authors="mksuni"
-    ms.author="sumuth"
-    displayOrder="120"
-    selfHelpType="generic"
-    supportTopicIds="32747637"
-    resourceTags="servers, databases"
-    productPesIds="17344"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="9f6ab11f-d9a6-426d-8854-51849d8016f1"
-    ownershipId="AzureData_AzureDatabaseforMySQL"
-/>
+  pagetitle="Issues with backup using mysqldump and myDumper&#xD;"
+  description="Issues with backup using mysqldump and mydumper"
+  service="microsoft.dbformysql"
+  resource="servers"
+  ms.author="sumuth,pariks"
+  selfhelptype="Generic"
+  supporttopicids="32747637"
+  resourcetags="servers,databases"
+  productpesids="17344"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="9f6ab11f-d9a6-426d-8854-51849d8016f1"
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
+# Issues with backup using mysqldump and myDumper
 
-# Issues with backup using mysqldump and mydumper
+You can back up your databases using `mysqldump` and `myDumper` and then restore the databases to Azure Database for [My SQL - Single Server](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) or [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created).
 
-You can backup your databases using mysqldump and mydumper and then restore it on to Azure Database for MySQL Flexible server.
+* I see an error like "**MySQL has gone away**" or "**Lost connection to MySQL server during query**" during the backup.
+Increase the `max_allowed_packet`, `net_write_timeout`, and `net_read_timeout` values to appropriate levels.
+
+* I see an error like "**access denied**" when trying to run the command.
+Review the firewall configuration of your My SQL - Single Server or Flexible Server.
+
+* I see an error like **"SSL connection is required. Please specify SSL options and retry."** 
+Check to see if you have the parameter `–ssl=1` in your `mysqldump` command, as shown below:
+
+```
+mysqldump -h servername -u username -p –ssl=1 dbname > filename
+```
 
 ## **Recommended Steps**
 
-* Check if the version of **mysqldump** or **mysqldumper** to make sure they are the same version as that of MySQL Flexible server
-
-* Checkout all known issues for [mydumper](https://github.com/maxbube/mydumper/issues) and if your issue is related to any of those
-
-* If you are getting an error like *MySQL has gone away*  or *Lost connection to MySQL server during query* during the backup, it could be timing out if the data being backup is large. You should increase the **max_allowed_packet**, **net_write_timeout**, **net_read_timeout** values to appropriate levels to fix the error. See [how to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters). This applies to both **mysqldump** and **mydumper**.
-
-* If you get **access denied** error when trying to run the command, check if you client machine has access. Review firewall configuration of your [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created)
+* Check if the version of **`mysqldump`** or **`mysqldumper`** is the same version as that of MySQL - Single Server or Flexible Server
+* Check [all known issues](https://github.com/maxbube/myDumper/issues) for `myDumper` to see if your issue is related to any known issues
 
 ## **Recommended Documents**
 
-* [How to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)
-* [MyDumper documentation](https://github.com/maxbube/mydumper)
-* [mysqldump documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+* [`myDumper` documentation](https://github.com/maxbube/myDumper)
+* [`mysqldump` documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)

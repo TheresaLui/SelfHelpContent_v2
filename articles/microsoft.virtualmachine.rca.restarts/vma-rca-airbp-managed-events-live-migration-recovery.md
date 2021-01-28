@@ -13,14 +13,14 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds="13185,14749,15571,15797,16080,16215,16454,16470,16802"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec, BlackForest, Mooncake"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
 
 <!--issueDescription-->
-The health of the physical host Hardware your VM was running has degraded. To prevent impact to your workload, Azure initiated memory-preserving Live Migration to move your VM to a healthy node. During this time your VM might have been paused your VMs up to 9 seconds. 
+The health of the physical host Hardware your VM was running has degraded. To prevent impact to your workload, Azure initiated memory-preserving Live Migration to move your VM to a healthy node. 
 
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
