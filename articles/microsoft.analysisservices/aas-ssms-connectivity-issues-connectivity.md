@@ -25,6 +25,6 @@
 
 * [Invite guest users to your Azure Analysis Services by using B2B](https://azure.microsoft.com/blog/invite-guest-users-to-your-azure-analysis-services-by-using-b2b/)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
-* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+* [Frequently-asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
