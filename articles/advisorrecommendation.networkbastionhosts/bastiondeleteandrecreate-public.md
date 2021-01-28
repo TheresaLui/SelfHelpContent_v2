@@ -6,7 +6,7 @@
     articleId="17ebccd8-1405-405c-8695-1981d115ffdc_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USSec, USNat",
-    ownershipId="CloudES_AzureBastion"
+    ownershipId="CloudNet_AzureBastion"
 />
 # Create an Azure service health alert
 ---
