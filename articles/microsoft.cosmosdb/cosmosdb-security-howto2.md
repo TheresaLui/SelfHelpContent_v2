@@ -1,24 +1,24 @@
 <properties
-	pageTitle="Security in Azure Cosmos DB"
-	description="Security in Azure Cosmos DB"
+	pageTitle="Security in Azure Cosmos DB How-to"
+	description="Security in Azure Cosmos DB How-to"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32741327"
+	supportTopicIds="32783705"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-security"
-	displayOrder="161"
+	articleId="cosmosdb-security-howto2"
+	displayOrder="162"
 	category="Security"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Compliance in Azure Cosmos DB
+# Azure Cosmos DB Security How-to
 
-For different topics on security in Azure Cosmos DB, see the following articles:
+For different topics on security in Azure Cosmos DB How-to, see the following articles:
 
 
 ## **Recommended Documents**

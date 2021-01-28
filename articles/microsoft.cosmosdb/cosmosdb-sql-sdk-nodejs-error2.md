@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-sql-sdk-nodejs-error"
+	articleId="cosmosdb-sql-sdk-nodejs-error2"
 	displayOrder="421"
 	category="SDK (SQL API) Issues"
 	ownershipId="AzureData_AzureCosmosDB"
