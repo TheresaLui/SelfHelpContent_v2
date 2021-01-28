@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Task groups"
-	description="Issues related to task group creation, usage, errors while using them in classic build or release pipelines"
-	infoBubbleText="Azure Pipelines issues related to task groups"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AZDevOpsPipelineTaskGroupIssues"
-	supportTopicIds="32742329"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while using Task groups&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742329"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinetaskgroupissues"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while using Task groups
 
 ## **Recommended Steps**
@@ -43,3 +37,5 @@ Are you facing one of these common problems?
 
 * [Task groups for builds and releases](https://docs.microsoft.com/azure/devops/pipelines/library/task-groups?view=azure-devops)
 * [Create a task group](https://docs.microsoft.com/azure/devops/pipelines/library/task-groups?view=azure-devops#create-a-task-group)
+* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* [Azure DevOps Services Status](https://status.dev.azure.com)

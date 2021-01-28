@@ -15,7 +15,7 @@
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Check for known issues and solutions
+# Check for known issues and solutions 
 
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
 * [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
