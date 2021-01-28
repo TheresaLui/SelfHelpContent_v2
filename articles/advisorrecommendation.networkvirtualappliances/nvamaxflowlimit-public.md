@@ -35,7 +35,7 @@ ownershipId="CloudNet_NVA"
         "serviceTreeId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985"
     },
     "version": 1.0,
-    "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-machine-network-throughput",
+    "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput",
     "description": "NVA may see traffic loss due to hitting the maximum number of flows.",
     "longDescription": "Packet loss has been observed for this Virtual Machine due to hitting or exceeding the maximum number of flows for a VM instance of this size on Azure",
     "potentialBenefits": "You will see increased performance",
@@ -44,7 +44,7 @@ ownershipId="CloudNet_NVA"
             "actionId": "0ba9ab1e-ab7e-41c7-a346-fee71fa2d34c",
             "description": "NVA VM Instance Maximum Flow Limit",
             "actionType": "Document",
-            "documentLink": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-machine-network-throughput"
+            "documentLink": "https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput"
         }
     ],
     "displayLabel": "NVA VM Instance Maximum Flow Limit",
