@@ -19,6 +19,6 @@
 
 * [Introducing query replica scale-out for Azure Analysis Services](https://azure.microsoft.com/blog/introducing-query-replica-scale-out-for-azure-analysis-services/)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/)
