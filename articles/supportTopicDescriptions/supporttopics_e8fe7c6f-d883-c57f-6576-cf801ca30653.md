@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d858e77-c8fe-a8b1-399f-862580819414",
+      "longDescription": "",
+      "shortDescription": "Tabular model refresh includes database, table or partition processing failure",
+      "searchTags": "processing database; partition processing failure",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3af15cd8-0ce4-b02e-1b18-50f49309786f",
       "longDescription": "",
       "shortDescription": "Tabular model processing slow or hang problem",
