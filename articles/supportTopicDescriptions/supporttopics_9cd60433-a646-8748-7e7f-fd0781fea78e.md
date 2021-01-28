@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01904fa2-1f17-4584-21ee-8b8f73e958e5",
+      "longDescription": "",
+      "shortDescription": "Microsoft products (Office 365, MDTP, Exchange online, Azure AD, and so on) connectors provided by Azure Sentinel native solutions and Azure Diagnostics. ",
+      "searchTags": "Ofiice;365;Exchange;AD;MDATP",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
       "longDescription": "",
       "shortDescription": "Unable to see workspace in workspaces list",
