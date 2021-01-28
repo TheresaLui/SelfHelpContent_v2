@@ -28,6 +28,6 @@ Documents related to how to manage and activate software after you purchase it.
 * [FAQ](https://partner.microsoft.com/resources/detail/software-in-csp-faq-pdf)
 * [Announcement](https://docs.microsoft.com/partner-center/announcements/2021-january#11)
 
-**By Now: THE KEYS ARE ONLY VISIBLE FOR THE END CUSTOMER IN MAC.**
+**Note: The Keys are only available for the end customer in Microsoft Admin Center.**
 
 
