@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d13f9e0b-0af8-632a-e86a-57e856666cd9",
+      "longDescription": "",
+      "shortDescription": "Server operations such as deployment, scale, start, pause, synchronize, backup, restore, logging and Azure portal issues",
+      "searchTags": "Deployment;Scale;Start;Pause;Backup",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd276081-4ae1-ebb0-9fca-9c1da2612184",
       "longDescription": "",
       "shortDescription": "Issues related to Power BI data refresh",
