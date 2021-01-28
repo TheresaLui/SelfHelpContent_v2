@@ -25,7 +25,7 @@ Warn PerformanceCounterMetricHelper PdhAddEnglishCounter failed.
 
 ~~~
 
-See: [Rebuild Performance Counter Library values - Windows Server](https://support.microsoft.com/help/300956/how-to-manually-rebuild-performance-counter-library-values?[pdhAddEnglishCounterResult=0xC0000BB8 SystemUpTime=23.21:28:25.1870000 FullName=\.NET CLR Memory(Microsoft.Tri.Sensor.Updater)\Promoted Memory from Gen 0 OperatingSystemFullName=\.NET CLR Memory(Microsoft.Tri.Sensor.Updater)\Promoted Memory from Gen 0])
+See: [Rebuild Performance Counter Library values Windows Server](https://support.microsoft.com/help/300956/how-to-manually-rebuild-performance-counter-library-values?[pdhAddEnglishCounterResult=0xC0000BB8 SystemUpTime=23.21:28:25.1870000 FullName=\.NET CLR Memory%28Microsoft.Tri.Sensor.Updater%29\Promoted Memory from Gen 0 OperatingSystemFullName=\.NET CLR Memory%28Microsoft.Tri.Sensor.Updater%29\Promoted Memory from Gen 0])
 
 This article describes how to manually rebuild Performance Counter Library values.
 
