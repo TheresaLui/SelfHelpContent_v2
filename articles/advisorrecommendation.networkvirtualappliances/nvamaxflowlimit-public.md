@@ -3,7 +3,7 @@ pageTitle="NVA Max Flow Limit Alert"
 description="NVA Max Flow Limit Alert"
 authors="jeffcoo,scottnap"
 ms.author="nvaeng"
-articleId="NvaMaxFlowLimit_public"
+articleId="f266acba-699d-4900-ae93-1bb488fd69df_public"
 selfHelpType="advisorRecommendationMetadata"
 cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
@@ -14,7 +14,7 @@ ownershipId="CloudNet_NVA"
     "recommendationOfferingId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985",
     "recommendationOfferingName": "NVA Engineering",
     "$schema": "AdvisorRecommendation",
-    "recommendationTypeId": "f266acba-699d-4900-ae93-1bb488fd69df", 
+    "recommendationTypeId": "f266acba-699d-4900-ae93-1bb488fd69df",
     "dataSourceMetadata": {
         "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').NvaMaxFlowLimit",
         "dataSource": "Kusto",
@@ -36,7 +36,7 @@ ownershipId="CloudNet_NVA"
     },
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-machine-network-throughput",
-    "description": "NVA may see traffic loss due to hitting the maximum number of flows.", 
+    "description": "NVA may see traffic loss due to hitting the maximum number of flows.",
     "longDescription": "Packet loss has been observed for this Virtual Machine due to hitting or exceeding the maximum number of flows for a VM instance of this size on Azure",
     "potentialBenefits": "You will see increased performance",
     "actions": [
