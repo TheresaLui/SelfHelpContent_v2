@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "793e7450-a177-4100-42bb-0420672266ea",
+      "longDescription": "",
+      "shortDescription": "Partition processing questions such as incremental data refresh or parallelism",
+      "searchTags": "partition;partition processing;parallelism;incremental data refresh",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80913bc0-08ec-d169-2070-11b13f86c04b",
       "longDescription": "",
       "shortDescription": "Register and use a service principal instead of a user account to execute scheduled jobs ",
