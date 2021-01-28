@@ -18,7 +18,7 @@
                 "resourceRequired": false,
                 "title": "Viewing and handling incidents",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "AlertID",
                 "order": 2,
