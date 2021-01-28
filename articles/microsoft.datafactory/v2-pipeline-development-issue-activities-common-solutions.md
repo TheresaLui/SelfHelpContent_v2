@@ -2,7 +2,7 @@
   pagetitle="Azure Data Factory: V2 - Pipeline Development Issue - Activities Common Solutions"
   service=""
   resource=""
-  ms.author="jaserano,vimals"
+  ms.author="jaserano,vimals,haoc"
   selfhelptype="Generic"
   supporttopicids="32637149"
   resourcetags=""
@@ -14,7 +14,13 @@
 
 ### **Common Issues**
 
-* [Parameterize Linked Services](https://docs.microsoft.com/azure/data-factory/parameterize-linked-services#supported-data-stores)<br>
+* You can parameterize a linked service and pass dynamic values at run time. For example, parameterize database name or other properties. See [Parameterize Linked Services](https://docs.microsoft.com/azure/data-factory/parameterize-linked-services#supported-data-stores) for the list of supported linked service types. 
+* If you hit any issue during publishing, click "Validate" or "Validate all" button to validate your payload. If anything shows up in the validation pane, click that item. It will navigate you to the problem. For the error message to fix it. 
+* If your pipeline run can't run successfully:
+  * Find the referenced linked service first. Try test connection in Linked Service. Follow the error message to fix your linked service if test connection failed. 
+  * Find the referenced dataset, try to do "Preview data". Follow the error message to fix it if you see any failures. 
+  * Try [debug run](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging). You can also set breakpoint in your activity during debugging. 
+
 
 ## **Recommended Documents**
 
