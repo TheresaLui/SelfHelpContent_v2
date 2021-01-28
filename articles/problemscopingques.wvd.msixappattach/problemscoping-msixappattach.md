@@ -104,7 +104,7 @@
       "id": "how often",
       "order": 6,
       "controlType": "multiselectdropdown",
-      "displayLabel": "How often is the problem seen",
+      "displayLabel": "How often does this issue occur",
       "dropdownOptions": [
         {
           "value": "Daily",
