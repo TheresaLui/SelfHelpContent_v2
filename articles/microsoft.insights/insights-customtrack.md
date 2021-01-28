@@ -39,8 +39,8 @@ During debugging, you can use **Developer Mode** to expedite telemetry sending a
 ### **I'm seeing errors when sending telemetry**
 If you are seeing errors that are specific to **dc.services.visualstudio.com**, please use the steps below.
 
-1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)
-2. If the errors are inside of your telemetry, please open a case for the correct SDK
+1. Verify the version of the SDK you are using is up to date and officially supported (.Net, .NetCore, Java, Node.js, Python, JavaScript)
+2. If the errors are inside of your telemetry, please open a case for the correct language
 3. If you are receiving an error message from the service, it is likely that we are experiencing issues and it is recommended to open a case for tracking
 
 ## **Recommended Documents**

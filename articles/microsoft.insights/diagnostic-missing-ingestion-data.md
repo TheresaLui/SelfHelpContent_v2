@@ -1,7 +1,7 @@
 <properties
 pageTitle="Where's my data?"
 description="Where's my data?"
-infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
+infoBubbleText="No data is found for the specified time range"
 service="microsoft.insights"
 resource="components"
 authors="debugthings"
