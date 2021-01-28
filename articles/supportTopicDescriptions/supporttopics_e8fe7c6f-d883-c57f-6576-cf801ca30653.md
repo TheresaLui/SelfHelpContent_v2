@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd72694e-f048-c934-1145-87ae3693f7d4",
+      "longDescription": "",
+      "shortDescription": "Issues related to tabular compatibility models limitations at each compatibility level",
+      "searchTags": "model limitation;compatibility level",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "df57382d-8701-129a-49a9-18f1298d2f2f",
       "longDescription": "",
       "shortDescription": "Data refresh including failure and slow performance",
