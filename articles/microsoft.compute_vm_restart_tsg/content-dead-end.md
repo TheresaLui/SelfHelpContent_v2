@@ -17,4 +17,4 @@
 
 # Please reference wiki TSG
 
-You've reached a point in the TSG where the remaining of the workflow is not built in ASC. Please reference the [Wiki to continue troubleshooting](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/266465/Azure_Virtual-Machine_Restart)
+You've reached a point in the TSG where the remaining of the workflow is not built in ASC. Please reference the [Wiki to continue troubleshooting Advanced Workflow](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/266466/Azure_Virtual-Machine_Restart_Advanced-Workflow)
