@@ -57,7 +57,7 @@
     {
       "id": "0685dab9-818c-f192-c8ad-ba2be1783fc6",
       "longDescription": "",
-      "shortDescription": "Issues that are related to an Azure DevOps Services outage.",
+      "shortDescription": "Issues that are related to an Azure DevOps Services service-wide outage.",
       "searchTags": "Outage;DevOps;Service",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
