@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for cd9d74ec-8333-b326-f42f-303e223e04eb"
   description="SupportTopicDescriptions for cd9d74ec-8333-b326-f42f-303e223e04eb"
   authors="elixirsys2"
-  ms.author="ccoop"
+  ms.author="ccoop, cathmill"
   selfhelptype="SupportTopicDescription"
   productpesids="cd9d74ec-8333-b326-f42f-303e223e04eb"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_cd9d74ec-8333-b326-f42f-303e223e04eb"
   ownershipid="Azure_DevOps_Services" />
 # Support Topic Descriptions for cd9d74ec-8333-b326-f42f-303e223e04eb
@@ -376,7 +377,7 @@
     {
       "id": "53c3d75b-9b4a-c421-01dc-a69ae342f1e0",
       "longDescription": "",
-      "shortDescription": "Troubleshooting issues related to task group creation, usage, errors while using them in pipeline.",
+      "shortDescription": "Troubleshooting issues related to task group usage, pipeline deployment user interface or stage deployment in classic build or release pipelines",
       "searchTags": "Task group;Pipeline;Configure",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -536,7 +537,7 @@
     {
       "id": "78ddd59d-48cc-c5c3-098a-040a6fb59ca8",
       "longDescription": "",
-      "shortDescription": "Issues that are related to the operation of the Azure DevOps Services service.",
+      "shortDescription": "Issues that are related to the operation of all or multiple features of the Azure DevOps Services service due to a potential or declared outage",
       "searchTags": "Service Issue",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
