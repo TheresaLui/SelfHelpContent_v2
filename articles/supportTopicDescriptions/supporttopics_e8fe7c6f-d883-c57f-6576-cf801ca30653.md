@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "408dccb4-f233-3ac1-5465-82e66097ccc9",
+      "longDescription": "",
+      "shortDescription": "Error when model refresh processing needs to get data from Azure Synapse, likely due to VNet configuration",
+      "searchTags": "Azure Synapse;Synapse;VNET",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e3db994-18c1-e86f-b4f0-74a2caa7dce2",
       "longDescription": "",
       "shortDescription": "Configure on-premises data gateway to read non-Azure data sources",
