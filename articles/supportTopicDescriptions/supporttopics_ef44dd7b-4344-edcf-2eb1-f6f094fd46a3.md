@@ -47,6 +47,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
+      "longDescription": "",
+      "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
+      "searchTags": "Discovery;SQL",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "15e27ae2-37d1-6afd-c5fe-db3034457184",
       "longDescription": "",
       "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based Vmware stack",
