@@ -27,7 +27,7 @@
 
 * [Bi-directional cross filters in tabular models](https://docs.microsoft.com/analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services?view=asallproducts-allversions)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Monitoring Azure Analysis Services with Log Analytics and Power BI](https://techcommunity.microsoft.com/t5/Premier-Field-Engineering/Monitoring-Azure-Analysis-Services-with-Log-Analytics-and-Power/ba-p/371441)
 
