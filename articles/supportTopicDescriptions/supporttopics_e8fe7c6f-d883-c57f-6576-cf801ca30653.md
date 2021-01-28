@@ -311,6 +311,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dfe796d1-7da5-f86f-0458-d2b2429413dc",
+      "longDescription": "",
+      "shortDescription": "Excel PivotTable errors when trying to get data from Azure Analysis Services",
+      "searchTags": "Excel PivotTable;excel",
+      "category": "Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e581eeed-3c1b-ff98-9c5a-e3fadaeabd11",
       "longDescription": "",
       "shortDescription": "Set up authentication account, key, or token on the data source of a tabular model, or authentication failure on a model refresh",
