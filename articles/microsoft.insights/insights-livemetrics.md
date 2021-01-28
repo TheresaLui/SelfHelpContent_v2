@@ -30,7 +30,7 @@ Live Metrics is an addon to the .NET and Java SDK frameworks that allows real ti
 1. Verify you're using version 2.4.0-beta2 or greater
 2. Edit the ApplicationInsights.config file
 3. Make sure the [QuickPulseTelemetryModule](https://docs.microsoft.com/azure/azure-monitor/app/configuration-with-applicationinsights-config) exists and is configured properly
-4. Refer to the example on [QuickPulseTelemetryProcessor](https://docs.microsoft.com/en-us/azure/azure-monitor/app/live-stream#enable-livemetrics-using-code-for-any-net-application), make sure it is present and review the configurations option
+4. Refer to the example on [QuickPulseTelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/live-stream#enable-livemetrics-using-code-for-any-net-application), make sure it is present and review the configurations option
 5. Restart the application
 
 **Live Metrics in Java**<br>
