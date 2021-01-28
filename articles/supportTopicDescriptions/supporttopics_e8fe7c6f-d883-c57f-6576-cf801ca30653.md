@@ -293,6 +293,14 @@
       "searchTags": "Managed instance",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f9cbc4fe-d409-ddc9-59c7-b94052f05494",
+      "longDescription": "",
+      "shortDescription": "Tabular model refresh includes database, table or partition processing failure",
+      "searchTags": "model refresh;partition",
+      "category": "Processing-Data Refresh",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
