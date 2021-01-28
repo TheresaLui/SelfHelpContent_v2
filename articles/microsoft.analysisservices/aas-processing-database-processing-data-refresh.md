@@ -15,7 +15,7 @@
 
 ## **Recommended Documents**
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Process Azure Analysis Services a database, table, or partition (Tabular)](https://docs.microsoft.com/analysis-services/tabular-models/process-database-table-or-partition-analysis-services?view=asallproducts-allversions)
 
