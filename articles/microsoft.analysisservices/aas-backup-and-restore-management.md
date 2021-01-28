@@ -23,6 +23,6 @@
 
 * [Database operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-powershell#database-operations)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
