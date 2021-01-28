@@ -60,8 +60,6 @@ The invoice status shows *paid* within 24 hours.
 
 Learn more about [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill) for Microsoft Customer Agreement (MCA) accounts.
 
-## **Pay by Invoice Payments**
-
 ### **How to pay your invoice by check or wire transfer**
 
 If the default payment method of your billing profile is check or wire transfer, follow the payment instructions shown on your invoice PDF file.
