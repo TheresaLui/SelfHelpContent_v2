@@ -19,7 +19,7 @@
 
 ### **Filtering telemetry**
 
-In order to **filter** telemetry you will need to create an [ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#filtering-itelemetryprocessor) ad add it to your application code or - for Java applications that are instrumented with Application Insights Java 3.0 agent - use [TelemetryProcessors](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors). Below is a list of language-specific implementations:
+In order to **filter** telemetry you will need to create an [ITelemetryProcessor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#filtering-itelemetryprocessor) and add it to your application code or - for Java applications that are instrumented with Application Insights Java 3.0 agent - use [TelemetryProcessors](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors). Below is a list of language-specific implementations:
 
 * [.NET/Core](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#example-filters)
 * [Java 3.0](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-telemetry-processors)
