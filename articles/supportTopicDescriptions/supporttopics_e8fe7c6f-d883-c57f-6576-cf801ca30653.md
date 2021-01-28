@@ -311,6 +311,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f4a4a5a5-5af3-68c0-27f2-d3e69d964bbd",
+      "longDescription": "",
+      "shortDescription": "Connectivity errors during data refresh and unable to connect to the connection data source",
+      "searchTags": "data sources;data refresh;data source;connector",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f7bcb589-a540-cbf5-29ef-3700ef189f2c",
       "longDescription": "",
       "shortDescription": "Deployment or creation or operation management of an Azure Analysis Services server ",
