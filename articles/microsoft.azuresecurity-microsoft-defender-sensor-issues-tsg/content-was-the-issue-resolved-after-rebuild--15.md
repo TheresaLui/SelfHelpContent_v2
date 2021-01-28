@@ -30,6 +30,7 @@ These type of logs are related to performance counter issues, it is recommended 
 SE: Please share this action plan with the customer:
 
 ~~~customer
+Dear Customer,
 
 After troubleshooting the issue we found that you need to perform the following steps in order to resolve the issue:
 
