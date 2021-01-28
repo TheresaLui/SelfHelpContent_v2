@@ -23,13 +23,13 @@
                 "id": "AlertID",
                 "order": 2,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the SystemAlertId of the relevant alert:",
+                "displayLabel": "Please provide the SystemAlertId of the relevant alert",
                 "required": true
                 },{
                 "id": "AlertRuleID",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the alert rule ID of the relevant analytic rule:",
+                "displayLabel": "Please provide the alert rule ID of the relevant analytic rule",
                 "required": false
                 },{
                 "id": "ProductName",
