@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
+      "longDescription": "",
+      "shortDescription": "3rd party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
+      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20427bf2-9902-7a67-2eaf-b6f0a19bc968",
       "longDescription": "",
       "shortDescription": "Topics related to Workbook and data management",
