@@ -17,9 +17,9 @@
 
 * [Deploy a model from Visual Studio](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy)
 
-* [Tabular Model Overview](https://docs.microsoft.com/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)
+* [Tabular model overview](https://docs.microsoft.com/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)
 
-* [Deployment Script Files - Input Used to Create Deployment Script](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script?view=sql-server-2017)
+* [Deployment script files - Input used to create deployment script](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script?view=sql-server-2017)
 
 * [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
 
