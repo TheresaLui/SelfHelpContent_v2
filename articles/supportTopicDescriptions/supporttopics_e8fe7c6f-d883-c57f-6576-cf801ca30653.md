@@ -325,6 +325,14 @@
       "searchTags": "model refresh;partition",
       "category": "Processing-Data Refresh",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f9edd860-e767-1d4c-9221-5116896d16e1",
+      "longDescription": "",
+      "shortDescription": "Client connecting to the server causes a proxy error",
+      "searchTags": "proxy;proxy error;forbidden",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
