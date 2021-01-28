@@ -26,7 +26,7 @@ How is Effective unit price calculated for Azure plan consumption?
 * Effective unit price is calculated at the meter level and recalculated daily based on consumption and tiering (if applicable). Refer to [Effective unit price calculation](https://docs.microsoft.com/partner-center/effective-unit-price-calculation)
 
 What's the difference between billed and unbilled data?
-* For one-time and recurring billin, the billing period is aligned to the full calendar month, and the invoice/reconciliation files will be available within the 6th and 8th of next month.
+* For one-time and recurring billing, the billing period is aligned to the full calendar month, and the invoice/reconciliation files will be available within the 6th and 8th of next month.
 * Unbilled reconciliations are provided for partners who need to analyze the customer cost before the final invoice and reconciliation files are ready. Unbilled usage data is only an indicator of your estimates and should not be considered calculating billable invoice amount.
 
 How to reconcile the Azure consumption in one-time purchase recon file?
