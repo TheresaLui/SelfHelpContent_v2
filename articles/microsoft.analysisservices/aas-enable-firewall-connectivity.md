@@ -17,9 +17,9 @@
 
 * [Hardening Azure Analysis Services with the new firewall capability](https://azure.microsoft.com/blog/hardening-azure-analysis-services-with-the-new-firewall-capability/)
 
-* [Azure IP Ranges and Service Tags  US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063)
+* [Azure IP Ranges and Service Tags - US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063)
 
-* [Azure IP Ranges and Service Tags  Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
+* [Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
 
 * [Quickstart: Configure server firewall - Portal](https://docs.microsoft.com/azure/analysis-services/analysis-services-qs-firewall)
 
