@@ -333,6 +333,14 @@
       "searchTags": "proxy;proxy error;forbidden",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fce36885-c003-194b-80fa-f3a993b15e23",
+      "longDescription": "",
+      "shortDescription": "Issues related to enabling a firewall or configuring the allowed IPs",
+      "searchTags": "firewall;allowed IP;enable firewall",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
