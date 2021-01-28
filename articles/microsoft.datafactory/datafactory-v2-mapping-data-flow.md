@@ -26,7 +26,7 @@
 - [Mapping data flow schema drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
 - [Mapping data flow sink transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
-**FAQ**
+**FAQ** 
 
 - [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
