@@ -1,19 +1,16 @@
- <properties
-	pageTitle="create automation account or schedule runbook"
-	description="create automation account or schedule runbook"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="180"
-	selfHelpType="generic"
-	supportTopicIds="32675695"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
-	articleId="a7ba2ac8-6c62-e4f3-6fc7-2aa4e092ab31"
-	ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="How to Automate Processing your Azure Analysis Services Models&#xD;"
+  description="create automation account or schedule runbook"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675695"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="a7ba2ac8-6c62-e4f3-6fc7-2aa4e092ab31"
+  ownershipid="AzureData_AnalysisServices" />
 # How to Automate Processing your Azure Analysis Services Models
 
 ## **Recommended Documents**
@@ -27,3 +24,7 @@
 * [Scheduling a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/schedules)
 
 * [Create a standalone Azure Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)
+
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
