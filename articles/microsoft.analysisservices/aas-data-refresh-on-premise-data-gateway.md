@@ -19,7 +19,7 @@
 
 * [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Monitor and optimize on-premises data gateway performance](https://docs.microsoft.com/data-integration/gateway/service-gateway-performance)
 
