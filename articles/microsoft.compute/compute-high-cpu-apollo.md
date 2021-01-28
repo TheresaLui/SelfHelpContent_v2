@@ -16,7 +16,7 @@
     ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Troubleshooting High CPU for an Azure Virtual Machine
+# Troubleshooting High CPU for an Azure Virtual Machine 
 
 ## Troubleshooting High CPU Usage for an Azure Virtual Machine
 
