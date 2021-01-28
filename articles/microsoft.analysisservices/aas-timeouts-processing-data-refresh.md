@@ -17,7 +17,7 @@
 
 * [Automating Azure Analysis Services processing with Azure Functions](https://azure.microsoft.com/blog/automating-azure-analysis-services-processing-with-azure-functions/)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)
 
