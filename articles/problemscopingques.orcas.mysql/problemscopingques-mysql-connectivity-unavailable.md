@@ -18,17 +18,33 @@
     "subscriptionRequired": false,
     "title": "Database Connectivity",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for MySQL Connectivity Troubleshooter",
+        "description": "Our Azure Database for MySQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "down",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Why do you say database is down/unhealthy?",
             "dropdownOptions": [
@@ -53,7 +69,7 @@
         },
         {
             "id": "dont_know_down",
-            "order": 3,
+            "order": 4,
             "visibility": "down == dont_know_answer",
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the reason why you think database is down/unhealthy:",
@@ -61,7 +77,7 @@
         },
         {
             "id": "server_recover",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Did the server recover?",
             "dropdownOptions": [
@@ -78,7 +94,7 @@
         },
         {
             "id": "when_server_recovered",
-            "order": 5,
+            "order": 6,
             "visibility": "server_recover == Yes",
             "controlType": "datetimepicker",
             "displayLabel": "When did it recover?",
@@ -86,7 +102,7 @@
         },
         {
             "id": "steps_to_recover",
-            "order": 6,
+            "order": 7,
             "visibility": "server_recover == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "What steps did you take to recover the server?",
@@ -94,7 +110,7 @@
         },
         {
             "id": "frequency",
-            "order": 7,
+            "order": 8,
             "visibility": "server_recover == Yes",
             "controlType": "dropdown",
             "displayLabel": "How often does this issue happen?",
@@ -116,7 +132,7 @@
         },
         {
             "id": "application",
-            "order": 8,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [
@@ -133,7 +149,7 @@
         },
         {
             "id": "non_application",
-            "order": 9,
+            "order": 10,
             "visibility": "application == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "What is your client?",
@@ -142,7 +158,7 @@
         },
         {
             "id": "container",
-            "order": 10,
+            "order": 11,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in any container service?",
@@ -160,7 +176,7 @@
         },
         {
             "id": "Azure_application",
-            "order": 11,
+            "order": 12,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in Azure?",
@@ -178,7 +194,7 @@
         },
         {
             "id": "Azure_application_subscription",
-            "order": 12,
+            "order": 13,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "Subscription ID of your Azure App Service:",
@@ -186,7 +202,7 @@
         },
         {
             "id": "Azure_application_type",
-            "order": 13,
+            "order": 14,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the type of your Azure App Service?",
@@ -212,7 +228,7 @@
         },
         {
             "id": "Azure_application_name",
-            "order": 14,
+            "order": 15,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the name of your Azure App Service?",
@@ -220,7 +236,7 @@
         },
         {
             "id": "application_location",
-            "order": 15,
+            "order": 16,
             "visibility": "application == Yes && Azure_application == No",
             "controlType": "textbox",
             "displayLabel": "Where is your application running?",
@@ -228,7 +244,7 @@
         },
         {
             "id": "application_driver",
-            "order": 16,
+            "order": 17,
             "visibility": "application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the type and version of your client driver?",
@@ -237,7 +253,7 @@
         },
         {
             "id": "application_retry",
-            "order": 17,
+            "order": 18,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Does your application have retry mechanism?",
@@ -255,7 +271,7 @@
         },
         {
             "id": "application_log",
-            "order": 18,
+            "order": 19,
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please share any client side logs:",
@@ -263,7 +279,7 @@
         },
         {
             "id": "connection_pooler",
-            "order": 19,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Are you using a connection pooler?",
             "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
@@ -281,7 +297,7 @@
         },
         {
             "id": "connection_pooler_type",
-            "order": 20,
+            "order": 21,
             "visibility": "connection_pooler == Yes",
             "controlType": "textbox",
             "displayLabel": "What connection pooler are you using?",
@@ -289,7 +305,7 @@
         },
         {
             "id": "connection_pooler_config",
-            "order": 21,
+            "order": 22,
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
@@ -297,7 +313,7 @@
         },
         {
             "id": "problem_description",
-            "order": 22,
+            "order": 23,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
             "required": true,
