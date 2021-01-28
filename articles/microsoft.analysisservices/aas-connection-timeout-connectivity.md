@@ -15,7 +15,7 @@
 
 ## **Recommended Documents**
 
-* [Connecting to Servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
