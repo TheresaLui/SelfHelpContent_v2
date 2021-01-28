@@ -143,6 +143,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91e1b156-c83b-c9e3-e635-f1f8026ee29e",
+      "longDescription": "",
+      "shortDescription": "Database replica operations such as scaling and synchronization, and the connectivity errors this feature causes",
+      "searchTags": "replica;scaling;synchronization;database replica",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95dfb609-f450-6479-f2a7-f9a72d213d48",
       "longDescription": "",
       "shortDescription": "AAD authentication errors when a client tool tries to connect to Azure Analysis Services",
