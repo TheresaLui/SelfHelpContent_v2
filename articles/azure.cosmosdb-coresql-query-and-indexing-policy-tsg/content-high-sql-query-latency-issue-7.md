@@ -17,13 +17,10 @@
 
 # High SQL Query Latency issue
 
-The below query would return any changes to the Index Version Schema and gives the time when the index version got changed.
+In this step you will need to check the Index Version. 
 
-Please provide the collection rid you are checking for.
-
-```
-ReportQuota5M
-| where CollectionRid == "COLLECTIONRID"
-| summarize min(TIMESTAMP), max(TIMESTAMP) by GlobalDatabaseAccountName, CollectionName, CollectionRid, IndexingSchemeVersion
-```
-
+Please follow the steps below to find the Index Version:
+1. Go to [**ASC Resource Explorer**](https://azuresupportcenter.msftcloudes.com/resourceExplorer/resource/) and search for the case;
+2. Make sure you are under the **Account Overview** section;
+3. Find the **Collection Overview** which lists all the basic properties of all collections in the Azure Cosmos DB account;
+4. Look at the **IndexVersion** column.

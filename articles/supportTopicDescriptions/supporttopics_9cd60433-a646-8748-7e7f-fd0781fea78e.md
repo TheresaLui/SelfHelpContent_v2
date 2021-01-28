@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
+      "longDescription": "",
+      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace.",
+      "searchTags": "Syslog;Log Analytics;custom logs",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
       "longDescription": "",
       "shortDescription": "Diagnosing possible false positive incidents due to system errors",
