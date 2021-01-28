@@ -21,10 +21,10 @@
 
 * [Refresh with Azure Automation](https://docs.microsoft.com/azure/analysis-services/analysis-services-refresh-azure-automation)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
 * [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
 * [Connecting Azure Analysis Services to Azure Data Lake Storage Gen2](https://powerbi.microsoft.com/blog/connecting-azure-analysis-services-to-azure-data-lake-storage-gen2/)
 
-* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+* [Frequently-asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
