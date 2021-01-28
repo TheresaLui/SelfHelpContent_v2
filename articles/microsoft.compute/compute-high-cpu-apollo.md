@@ -73,7 +73,7 @@ If you're unable to access your virtual machine through RDP or SSH, try restarti
 
 <br/>
 
-### More resources 2
+### More resources
 
 * [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 * [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
