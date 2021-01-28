@@ -20,7 +20,7 @@
 
 # Billing and Invoicing New Seat-based commerce invoice and recon files
 
-## **Recommended Documentss**
+## **Recommended Documents**
 
 * [Use the reconciliation files](https://docs.microsoft.com/partner-center/use-the-reconciliation-files)
 
