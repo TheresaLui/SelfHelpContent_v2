@@ -15,9 +15,9 @@
 />
 
 
-# Apollo template title 
+# Apollo template title - Required
 <br> 
-<!--Head1 required for internal reference only--> 
+<!--Head1 for internal reference only--> 
 
 **Directions:** Copy the raw form of this article to create Apollo common solutions articles. <br>
 Authoring guidelines and sample schemas are provided in the template.
@@ -30,33 +30,22 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 ## Body - Required
 <!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
-- For a solution-based article, the body must contain an issue and a solution.  
-- For a troubleshooting article, the body must contain an issue and one or more solutions. 
-- For a how-to article, the body must contain procedural information.  
-- For a general information article, the body must contain primarily descriptive information. 
+- For a solution-based article, define the issue and provide one or more solutions.  
+- For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
 Solutions can be comprised of: 
+- Instructions
 - Diagnostics  
 - Metrics 
 - Images 
 - Videos 
 - Azure KB and document links-->
- 
 
-## Diagnostics
-<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.  
-Example:
-<Insight>  
-	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
-	<executionText>We are checking to see if your VM was restarted</executionText><br>
-	<timeoutText>Proceeding to the next operation</timeoutText><br>
-	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
-</Insight>
--->
 
-## Procedures 
-<!--Solutions must include a minimum of one task-based procedure or video that resolves the stated issue, not just links to other articles.
-For procedures (a sequence of tasks), use ordered (numbered) lists.
+## Instructions 
+
+<!--Level heading 2 required. Solutions must include a minimum of one task-based procedure or video that resolves the stated issue, not just links to other articles.
+For a sequence of tasks, use ordered (numbered) lists.
 Example:
 1. This is a step
 2. This step contains multiple sentences. When a step has multiple complete sentences, use a period to end each sentence.
@@ -85,29 +74,40 @@ Example:
 ![alt text](/images/image.png)
 -->
 
+### Diagnostics
+<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.  
+Example:
+<Insight>  
+	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
+	<executionText>We are checking to see if your VM was restarted</executionText><br>
+	<timeoutText>Proceeding to the next operation</timeoutText><br>
+	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
+</Insight>
+-->
+
 ### Video solutions
-<!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
+<!--Level 3 heading required. Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
 Single video example:
-Introduction
-Summary of the video procedure.
-<video>
+   Description of the video
+   Outline steps covered in the video
+   <video>
 	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
-</video>
+   </video>
 Multiple video example:
-Caption
-<videoGroup>
-	<video>
+      Description of the videos
+      <videoGroup>
+	        <video>
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
-	</video>
-	<video>
+	        </video>
+	        <video>
 		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
-	</video>
-</videoGroup>
+	        </video>
+       </videoGroup>
 -->
 
 ## Recommended documents
