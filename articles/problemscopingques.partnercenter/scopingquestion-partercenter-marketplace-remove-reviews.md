@@ -67,12 +67,12 @@
        "required": false
        },
        {
-       "id": "pc_isv_offerID",
+       "id": "pc_isv_offer_id",
        "order": 6,
        "visibility": null,
        "controlType": "textbox",
-       "displayLabel": "Offer ID",
-       "watermarkText": "Please provide the Offer ID",
+       "displayLabel": "Offer ID",
+       "watermarkText": "Please provide the Offer ID",
        "required": false
        },
        {
