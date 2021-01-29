@@ -35,7 +35,7 @@
                 "id": "ProductName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What is the procut for which the incidents was not created?",
+                "displayLabel": "What is the product which the incident was not created for?",
                 "required": false
                 },{"id": "problem_description",
 				"order": 1,
