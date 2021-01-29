@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This unexpected occurrence was caused by an **Azure initiated host node reboot action** as the result of a detected **hardware issue** due to **CPU errors** on the physical node where the VM was hosted.
+> This unexpected occurrence was caused by an Azure initiated host node reboot action as the result of a detected hardware issue due to CPU errors on the physical node where the VM was hosted.
 > 
 
 <!--resolutionDetails-->
