@@ -83,7 +83,7 @@ If connection issues last for more than a couple of minutes, the root cause may 
 	* [How to enable VNET  for Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-virtual-network-portal)
 
 * If you use Single Server, make sure that the user name is in this format `username@servername` in the connection string. If you use Flexible Server, make sure that the user name in the connection string does not have `@servername`.
-* If you use a non-admin user for your database, make sure that the user has the necessary write permissions. See [how to create non-admin users](https://docs.microsoft.com/azure/mysql/howto-create-users).
+* If you use a non-admin user for your database, make sure that the user has the necessary right permissions. See [how to create non-admin users](https://docs.microsoft.com/azure/mysql/howto-create-users).
 * Check if SSL is enabled and update your application to use SSL. Check the documentation for the application type you are using on how to enable SSL.
 * Make sure that you are using the correct TLS configuration for [Single Server](https://docs.microsoft.com/azure/mysql/howto-tls-configurations) and [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-connect-tls-ssl).
 
