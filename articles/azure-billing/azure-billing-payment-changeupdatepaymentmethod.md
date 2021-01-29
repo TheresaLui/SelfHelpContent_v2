@@ -15,7 +15,7 @@
 	ownershipId="ASMS_Billing"
 />
 
-# change update payment method
+# Change update payment method
 
 ## **Recommended Steps**
 
@@ -24,56 +24,65 @@ In the Azure portal you can add a new payment method, update an existing payment
 ### **Check the type of your account**
 
 1. Navigate to **Cost Management + Billing**
-1. Select Properties from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
-   - **Microsoft Online Service Program**
+1. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
+   - Microsoft Online Service Program
    - Enterprise Agreement
-   - **Microsoft Customer Agreement**
+   - Microsoft Customer Agreement
    - Microsoft Partner Agreement
 
-Learn more: [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
+For more detailed instruction on how to check the type of account see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
 ## **Microsoft Online Service Program**
 
 ### **Add a new Credit or Debit card to an Azure subscription**
 
-1. Navigate to Cost Management + Billing
-2. Select a Subscription you'd like to add the credit or debit card to. Select Payment methods
-3. In the top-left corner, select + to add a card. Follow the prompts
-4. To make this card your active payment method, check the box next to **Make this my active payment method** above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**
+1. Navigate to **Cost Management + Billing**.
+2. Select a Subscription you'd like to add the credit or debit card to. Select **Payment methods**.
+3. In the top-left corner, select **+** to add a card. Follow the prompts.
+4. To make this card your active payment method, check the box next to **Make this my active payment method** above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**.
 
-Learn more: [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support)
+For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 ### **Delete a credit or debit card from an Azure subscription**
 
-1. Navigate to **Cost Management + Billing**
-2. Select a Subscription you'd like to delete a credit or debit card from. Select **Payment methods**
-3. Select a credit card by clicking the row that it is on
-4. Select **Delete** on the top
-5. Follow the instructions listed on the form that appears on the right
+1. Navigate to **Cost Management + Billing**.
+2. Select a Subscription you'd like to delete a credit or debit card from. Select **Payment methods**.
+3. Select a credit card by clicking the row that it is on.
+4. Select **Delete** on the top.
+5. Follow the instructions listed on the form that appears on the right.
 
-Learn more: [About deleting a card](ttps://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method)
+For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
 ## **Microsoft Customer Agreement**
 
 ### **Add a new Credit or Debit card**
 
-1. Navigate to Cost Management + Billing
-2. Select Payment methods
-3. In the Default payment method section, select Replace
-4. In the new area on the right, select Add a new payment method
+1. Navigate to **Cost Management + Billing**.
+2. Select **Payment methods**.
+3. In the Default payment method section, select **Replace**.
+4. In the new area on the right, select **Add a new payment method**.
 
-Learn more: [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support)
+For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 ### **Delete a credit or debit card from an Azure subscription**
 
-1. Navigate to Cost Management + Billing
-2. Select Payment methods
-3. Find the credit or debit card you would like to delete, and select the ellipsis on that row on the right, and select Delete
-4. Follow the instructions listed on the form that appears on the right
+1. Navigate to **Cost Management + Billing**.
+2. Select **Payment methods**.
+3. Find the credit or debit card you would like to delete, and select the **(...)** on that row on the right, and select **Delete**.
+4. Follow the instructions listed on the form that appears on the right.
 
-Learn more: [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method)<br>
+For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
-Learn more: [Manage credit cards for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support#manage-credit-cards-for-a-microsoft-customer-agreement)
+For more information about managing credit cards for a Microsoft Customer Agreement see [Manage credit cards for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support#manage-credit-cards-for-a-microsoft-customer-agreement).
+
+### **Enterprise Agreement**
+
+For more information about how to manage and act on your **Azure Enterprise Agreement (Azure EA) invoice** see [Azure Enterprise enrollment invoices](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-enrollment-invoices).
+
+### **Microsoft Partner Agreement**
+
+For more information about Azure billing accounts for a Microsoft Partner Agreement see [Terms in your Microsoft Partner Agreement invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/mpa-invoice-terms).
+
 ## **Recommended Documents**
 
 * [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
