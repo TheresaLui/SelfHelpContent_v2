@@ -3,7 +3,7 @@
   description="Azure Automation - Automation Account - Unlink Workspace"
   service="microsoft.automation"
   resource="automationaccounts"
-  ms.author="zachal,riyadav"
+  ms.author="riyadav"
   selfhelptype="Generic"
   supporttopicids="32599933"
   resourcetags=""
@@ -18,7 +18,7 @@
 
 ### Deleting an Automation Account
 
-* If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace)
+* If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/update-management/remove-feature#unlink-workspace-from-automation-account)
 
 ## **Recommended Documents**
 
