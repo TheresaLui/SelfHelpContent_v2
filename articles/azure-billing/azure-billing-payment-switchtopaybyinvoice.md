@@ -19,15 +19,16 @@
 
 ## **Recommended Steps**
 
-If you switch to pay by invoice, that means you pay your bill within **30 days of the invoice date**. To become eligible to pay for your Azure subscription by invoice, submit a request to Azure support. Once your request is approved, you can switch a subscription to invoice pay in the [Azure portal](https://portal.azure.com/).<br>
+If you switch to pay by invoice, that means you pay your bill within **30 days of the invoice date**. To become eligible to pay for your Azure subscription by invoice, submit a request to Azure support. Once your request is approved, you can switch a subscription to invoice pay in the [Azure portal](https://portal.azure.com/).<br>
 
 **Note:**
 
 * Invoice pay is only available for business accounts, not personal accounts.
-* Support team will review the account to determine if it's eligible for Invoice mode of payment.
-* If you intend to switch a current subscription to Invoice that contains Marketplace or 3rd party services, these services will need to be deleted before switching. For future Marketplace services, you are welcome to have a separate subscription on credit card to make these purchases.
+* The support team will review the account to determine if it is eligible for Invoice mode of payment.
+* The support team will need a legal document to validate the legality of the company and its address such as a company registration form signed and issued by the government or any government issued documents having the company name and address (For example, a tax certification form).
+* Your company address, tax ID, and bill-to address listed in your Azure Account properties must match the company’s information in the legal documents.
+* If you intend to switch a current subscription to Invoice that contains Marketplace or 3rd party services, these services will need to be deleted before switching. For future Marketplace services, you are welcome to have a separate subscription using a credit card to make these purchases.
 * You must pay all outstanding charges before switching to invoice pay.
-* Once you switch to invoice pay, you can't switch back to credit or debit card payment.
 
 ### **Switch to invoice pay (check/wire transfer)**
 
@@ -37,8 +38,8 @@ Once you are approved to pay by invoice, you can switch your Azure subscription 
 1.	Navigate to **Cost Management + Billing**.
 2.	Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
     -	Microsoft Online Service Program
+		- Microsoft Customer Agreement
 	  - Enterprise Agreement
-	  - Microsoft Customer Agreement
   	- Microsoft Partner Agreement
 
 For more information, see [check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
