@@ -19,27 +19,28 @@
 
 ## **Recommended Steps**
 
-To migrate  smaller Azure SQL database workloads using offline method, you can use export/import method to export your database to  .bacpac and import the .bacpac to the target  server location. Exporting and Importing azure database can be done using Azure Portal,  SQLPackage Utility tool, SQL Server Management Studio (SSMS) and PowerShell.
+To migrate  smaller Azure SQL database workloads using the offline method, use the export/import method to export your database to a `.bacpac` file and import the `.bacpac` file to the target  server location. You can export and import databases using the Azure portal,  SQLPackage Utility tool, SQL Server Management Studio (SSMS), or PowerShell.
 
-- [Steps to Export Database to a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-export?branch=pr-en-us-138592)<br>
-- [Steps to Import database from a .bacpac](https://docs.microsoft.com/azure/azure-sql/database/database-import?branch=pr-en-us-138592&tabs=azure-powershell)<br>
+- [Steps to export database to a `.bacpac` file](https://docs.microsoft.com/azure/azure-sql/database/database-export?branch=pr-en-us-138592)<br>
+- [Steps to import database from a `.bacpac` file](https://docs.microsoft.com/azure/azure-sql/database/database-import?branch=pr-en-us-138592&tabs=azure-powershell)<br>
 
 ### **Migrate using Geo-Replication Method**
-For large database it is not recommended to use export/import. To migrate large database you can configure active geo-replication from Azure Germany Cloud(Source) to Global Azure cloud (Target)
-To migrate using Active Geo-Replication, ensure to provide required information as listed below and proceed with creating this support request.
+Export/import is not recommended for large databases. To migrate a large database, configure active geo-replication from the Azure Germany cloud source, to the Azure Global cloud target. 
 
-**Information required**
-- Mandatory subscription listing is required for the database migration using active geo-replication from Microsoft Cloud Germany (MCG) to Azure Global Cloud (AGC).
-- Unique pair of  source Subscription (Germany Cloud Subscription) and target subscription ID (Global Azure Subscription) is required  to allow active geo-replication for migrating databases from German cloud to Global azure subscription.
-- When submitting support request, please ensure to provide  Company Name, Name, Contact Email and  provide the subscriptions in unique pairs  as shown below.
+To migrate using active geo-replication, provide the required information (as listed in this article) and proceed with creating a support request.
+ 
+**Information required for database migration using active geo-replication**
+- Mandatory subscription listing
+- Unique pair of  source subscription (Azure Germany subscription) and target subscription ID (Azure Global subscription)
+- When submitting support request, provide  Company Name, Name, and Contact Email. Provide the subscriptions in unique pairs, as shown in the following example.
 
-  |No|Microsoft Cloud Germany (MCG)- source|Azure Global Cloud (AGC)- target|
+  |No|Azure Germany - source|Azure Global  - target|
   |--|--|--|
   |1 |a312i8348c-dd9f-442c-a531-021090a25833|9909093ce-dd9f-442c-a531-021090a25883|
 
-- If you are migrating databases from Or to multiple subscriptions, please ensure to provide  unique pairs for allowing Active Geo-Replication Migration. Sample scenario below showing, customer with 1 German cloud subscription want to move databases to two different Azure Global subscription.
+- If you are migrating databases from, or to, multiple subscriptions, provide unique pairs for allowing Active Geo-Replication Migration. The following scenario shows a customer with one Azure Germany subscription who wants to move databases to two different Azure Global subscriptions.
 
-  |No|Microsoft Cloud Germany (MCG)- source           |Azure Global Cloud (AGC)- target |
+  |No|Azure Germany - source           |Azure Global - target |
   |--|--|--|
   |1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
   |2 |a312i8348c-dd9f-442c-a531-021090a25833  |QX3455555e-449f-R23GB-c333-73jdj876eir0  |
@@ -48,5 +49,5 @@ To migrate using Active Geo-Replication, ensure to provide required information 
 
 ## **Recommended Documents**
 
-* [Migrate database resources to Global Azure](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592)<br>
+* [Migrate database resources to Azure Global](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592)<br>
 * [Microsoft Cloud Deutschland transition](https://www.microsoft.com/cloud-platform/germany-cloud-regions)   
