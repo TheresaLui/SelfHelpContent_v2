@@ -81,8 +81,8 @@
     {
       "id": "89465c12-ccb6-4d8f-57a4-ffe9f85f64a4",
       "longDescription": "",
-      "shortDescription": "Issues or questions about CSP invoice payments - for CSP Billing only",
-      "searchTags": "Billing;Invoicing;CSP;Payments",
+      "shortDescription": "Applicable to payment queries for CSP invoices only. For queries related to Incentive payments, please choose the most appropriate option under Incentives - Payments and Adjustments.",
+      "searchTags": "CSP;Payments;Billing;Invoicing",
       "category": null,
       "useInDiagnoseAndSolve": null
     },
