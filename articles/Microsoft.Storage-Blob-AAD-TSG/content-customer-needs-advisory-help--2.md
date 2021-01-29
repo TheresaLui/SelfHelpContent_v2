@@ -2,7 +2,7 @@
 	  pageTitle="Customer needs advisory help."
 	  description="Customer needs advisory help."
       service="Microsoft.Storage"
-      resource="Microsoft.Storage/storageAccounts"
+      resource="Microsoft.Storage/storageAccounts,Microsoft.ClassicStorage/storageAccounts"
 	  authors="yagohel23"
 	  ms.author="yagohel"
 	  displayOrder=""
