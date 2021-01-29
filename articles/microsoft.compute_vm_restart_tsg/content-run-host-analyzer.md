@@ -19,14 +19,15 @@
 
 Host Analyzer is a one stop tool which captures details from a Host Node perspective and provides you with a holistic view of what was going on the Host during the specified time. This tool should be run in scenarios where you suspect the Host Node has issues.
 
-**Syntax**
-~~~shell
-\\fsu\shares\wats\scripts\get-sub\HostAnalyzer\HostAnalyzer.ps1 -cluster <ClusterName> -nodeId <NodeID> -containerId <ContainerID> startTime <StartTIme in UTC> -endTime <EndTime in UTC> -perfScenario
-
-Example:
-\\fsu\shares\wats\scripts\get-sub\HostAnalyzer\HostAnalyzer.ps1 -cluster BL5PrdApp28 -containerId 697cf228-0991-4e15-b418-cbacf452c8d9 -endTime "2016-10-05 15:45" -nodeId d3136cf1-9b6f-469f-9d34-30ea1cd616d0 -override -perfScenario -startTime "2016-10-05 15:25"
-
-~~~
+1. Under the Resource Explorer, select the Virtual Machine customer informed felt unavailability.
+2. Navigate to the Health tab.
+3. Select the day around the timeframe of the issue and click the "Run" button.
+4. Go to section Container Change Events to get the sets of Cluster, Node Id and Container Id at the occurrence time of the issue.
+5. Save the data for next steps.
+6. Navigate to Host Analyzer section on Diagnostics tab.
+7. Click in create report and add the information you saved from steps 4 and 5.
+8. For the Start Time and Stop Time, make sure you provide a time windows of 2-3 hours around the time of the issue.
+9. Click on “Run”.
 
 **General Findings**
 This gives a consolidated view of the findings on the Node during the time specified. Some of the details it provides:
