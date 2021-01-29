@@ -1,20 +1,17 @@
 <properties
-    pageTitle="Azure Automation - Automation Account - Unlink Workspace"
-    description="Azure Automation - Automation Account - Unlink Workspace"
-    service="microsoft.automation"
-    resource="automationaccounts"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32599933"
-    resourceTags=""
-    productPesIds="15607"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="5e74794f-d5fc-4e2f-aaaa-e622b9dd8f4e"
-	ownershipId="Compute_Automation"
-/>
-
+  pagetitle="Azure Automation - Automation Account - Unlink Workspace&#xD;"
+  description="Azure Automation - Automation Account - Unlink Workspace"
+  service="microsoft.automation"
+  resource="automationaccounts"
+  ms.author="zachal,riyadav"
+  selfhelptype="Generic"
+  supporttopicids="32599933"
+  resourcetags=""
+  productpesids="15607"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="5e74794f-d5fc-4e2f-aaaa-e622b9dd8f4e"
+  ownershipid="Compute_Automation" />
 # Azure Automation - Automation Account - Unlink Workspace
 
 ## **Recommended Steps**
