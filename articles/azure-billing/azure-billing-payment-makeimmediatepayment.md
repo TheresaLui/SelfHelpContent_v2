@@ -17,7 +17,7 @@
 
 # Make immediate payment
 
-If you want to make an immediate payment for your invoice, first you will have to verify your account type.
+If you want to make an immediate payment for your invoice, first you'll have to verify your account type.
 
 ### **Check the type of your account**
 
@@ -37,11 +37,11 @@ Below are next steps to make an immediate payment.
 ### **How to pay if you have Microsoft Online Service Program**
 
 1. Navigate to **Cost Management + Billing**.
-1. Select the past due subscription from the  **Overview**  page.
-1. In the  **Subscription overview**  page, select the red past due banner to settle the balance.
+1. Select the past due subscription from the **Overview** page.
+1. In the **Subscription overview** page, select the red past due banner to settle the balance.
     If you are not the Account Administrator, you will not be able to settle the balance.
-1. In the new  **Settle balance**  page, select  **Select payment method**.
-1. In the new blade on the right, select a credit card from the drop-down or add a new one by selecting the blue  **Add new payment method**  link. This credit card will become the active payment method for all subscriptions currently using the failed payment method.
+1. In the new **Settle balance** page, select **Select payment method**.
+1. In the new blade on the right, select a credit card from the drop-down or add a new one by selecting the blue **Add new payment method** link. This credit card will become the active payment method for all subscriptions currently using the failed payment method.
     The total outstanding balance reflects outstanding charges across all Microsoft services using the failed payment method. If the selected payment method also has outstanding charges for Microsoft services, this will be reflected in the total outstanding balance. You must pay those outstanding charges, too.
 1. Select  **Pay**.
 
@@ -85,22 +85,21 @@ If you want to learn how to change your default payment method to check or wire 
 
 ### **Troubleshooting payments with credit or debit card**
 
-we are, you are do not, can not, you will, shorten these.
-- In order to be able to make immediate payment, make sure to [resolve past due balances](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance?WT.mc_id=Portal-Microsoft_Azure_Support) and [pay your bill](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill). If your payment isn't received or if Azure can't process your payment, you might get an email or see a Past due balance notification alert in the Azure portal.
-- The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. If you are an [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer?WT.mc_id=Portal-Microsoft_Azure_Support) or if you have the correct [MCA permissions](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles) you can review and update the credit card in the Azure portal as documented at [Add/Update my payment method](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
+- In order to be able to make an immediate payment, make sure to [resolve past due balances](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance?WT.mc_id=Portal-Microsoft_Azure_Support) and [pay your bill](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill). If your payment isn't received or if Azure can't process your payment, you might get an email or see a Past due balance notification alert in the Azure portal.
+- The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. If you're an [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer?WT.mc_id=Portal-Microsoft_Azure_Support) or if you have the correct [MCA permissions](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles), you can review and update the credit card in the Azure portal as documented at [Add/Update my payment method](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 - You might have your Azure subscription disabled because:
     - Your credit is expired
-    - You reached your spending limit
+    - You've reached your spending limit
     - Have an overdue bill
     - Hit your credit card limit
     - The subscription was canceled by the Account Administrator or someone with the correct [MCA permissions](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles).
 
 Follow the steps in the article below to get your subscription reactivated: [Reactivate my subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-- If there's a pending payment on the card since the card was denied by your financial institution, contact your  **financial institution**  to resolve the issue. Use the below pointers:
-  - You might have to check with the bank to see if the international transaction is enabled on the card
-  - If card has credit limit to settle the balance
-  - If recurring payment is enabled on the card
+- If there's a pending payment on the card since the card was denied by your financial institution, contact your **financial institution** to resolve the issue and keep in mind:
+  - You might have to check with the bank to see if the international transaction is enabled on the card.
+  - If card has credit limit to settle the balance.
+  - If recurring payment is enabled on the card.
 
 Check the [Payment FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support) to see if it resolves your issue.
 
