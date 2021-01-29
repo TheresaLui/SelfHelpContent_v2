@@ -2,7 +2,7 @@
 	  pageTitle="Scope the issue. "
 	  description="Scope the issue. "
       service="Microsoft.Storage"
-      resource="Microsoft.Storage/storageAccounts"
+      resource="Microsoft.Storage/storageAccounts,Microsoft.ClassicStorage/storageAccounts"
 	  authors="yagohel23"
 	  ms.author="yagohel"
 	  displayOrder=""
