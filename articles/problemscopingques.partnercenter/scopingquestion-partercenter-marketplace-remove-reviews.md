@@ -19,7 +19,7 @@
    "resourceRequired": true,
    "subscriptionRequired": true,
    "title": "Remove reviews from Marketplace store",
-   "fileAttachmentHint": "Upload any supporting files that can help us understand your issue.",
+   "fileAttachmentHint": "Upload any supporting files (screenshot of the review to remove) that can help us understand your issue.",
    "formElements": [
        {
        "id": "learn_more_text1",
@@ -173,7 +173,7 @@
 	"value": "dont_know_answer",
 	"text": "Other"
 	}],
-	"required": false
+	"required": true
        },
        {
        "id": "additional_bussjust",
@@ -182,7 +182,7 @@
        "controlType": "multilinetextbox",
        "displayLabel": "Business justification",
        "watermarkText": "Removing a review from Marketplace store fronts requires a business justification. Please provide a reason for why the review should be removed.",
-       "required": false
+       "required": true
        },
        {
        "id": "offer_url",
@@ -191,7 +191,7 @@
        "controlType": "textbox",
        "displayLabel": "Storefront offer URL",
        "watermarkText": "Please provide the URL of offer in storefront where review is associated",
-       "required": false
+       "required": true
        },
        {
        "id": "user_review_date",
