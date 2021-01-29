@@ -31,7 +31,7 @@ Make sure the IP address is allowed on the [server Firewall rule](https://docs.m
 This is a common error for MySQL databases. Try to increase the value of the following parameters to solve this issue: `Max_allowed_packet`, `Connect_timeout`, `net_write_timeout`, `net_read_timeout`, `wait_timeout`. Maxing out resource usage can result in this error, as well. Check [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 
 * **The last packet sent successfully to the server was X milliseconds ago. The driver has not received any packets from the server**.<br>
-Consider either expiring and/or testing connection validity before using it in your application. To avoice this issue, increase the server configured values for client timeouts, or use the Connector/J connection property `autoReconnect=true` to avoid this problem.
+Consider either expiring and/or testing connection validity before using it in your application. To avoid this issue, increase the server configured values for client timeouts, or use the Connector/J connection property `autoReconnect=true` to avoid this problem.
 
 * **Change username format from your_user@servername or port 3306**<br> 
 Note that this is the only accepted format to connect to Azure Database for MySQL single server and changing the username format is not possible. Also, port 3306 is the only allowed port and changing it is not possible.
@@ -80,7 +80,7 @@ If connection issues last for more than several minutes, the root cause may be a
 	* [How to enable VNET  for Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-virtual-network-portal)
 
 * If using Single Server, make sure that the user name is in the format `username@servername` in the connection string. If you are using Flexible Server, make sure that the user name in the connection string does not include `@servername`.
-* If you are using a non-admin user for your database, make sure the user has the write permissions. See [how to create non-admin users](https://docs.microsoft.com/azure/mysql/howto-create-users).
+* If you are using a non-admin user for your database, make sure the user has the right permissions. See [how to create non-admin users](https://docs.microsoft.com/azure/mysql/howto-create-users).
 * Check if SSL is enabled and update your application to use SSL. Check the documentation for the application type that you're using on how to enable SSL.
 * Make sure you are using the correct TLS configuration for [Single Server](https://docs.microsoft.com/azure/mysql/howto-tls-configurations) and [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-connect-tls-ssl)
 
