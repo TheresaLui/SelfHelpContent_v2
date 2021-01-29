@@ -33,6 +33,7 @@
 
 **Error message contains some of the following text:**
 
+* *The provisioning of deployment for service failed. The Azure Database Migration Service could not be provisioned. One common cause is that the Azure Virtual Network (VNET) does not have Internet access due to firewall restrictions. Your VNET Network Security Group (NSG) rules cannot block following communication ports 53, 443, 445, 1433, 9354, 12000.*
 * *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
 * *Download of configuration content from GCS failed.*
 * *Thread running configuration downloader exited, but configuration file was not downloaded.*
@@ -44,13 +45,21 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 * This error most commonly occurs when the VNET selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point https://gcs.prod.monitoring.core.windows.net/ and/or blocking the following communication ports: 443, 53, 9354,
 445, 12000
+* Make sure that the following NSG rules are added to the DMS subnet. If subnet doesn't already have an NSG, please create a new NSG with the following outbound rules and add it to the DMS subnet.
+
+	![NSG.png](images/NSG.png)
+
+	**Note:** You can also lock down the NSG rules to a specific region, such as "Storage.WestUS2".
+
 * If VNET config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this,  please perform the following steps:
   - Create an Azure VM in the same VNET from which the DMS provisioning is being attempted.
   - Login to the VM and try this URL from a browser: https://gcs.prod.monitoring.core.windows.net/
   - The content of the web page should be a response from the API like this:
 
 	*{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''*
-  - If you get an error, such as Page Not Found 404, that means the firewall config is not allowing the endpoint. Please contact your system administrator.
+  
+  - If you get an error, such as Page Not Found 404, that means the firewall config on your network is blocking the endpoints. Please contact your network or firewall administrator to monitor firewall logs or network capture during DMS deployment and identify the IPs/ports getting blocked.
+  - You can also try pinging the following IPs: 13.86.218.250, 104.208.27.1, 52.138.226.88, 52.169.237.246. If that fails, please refer to the point above regarding contacting your network administrator. 
   - If you are able to hit the endpoint and view the content, then please continue to file the support ticket.
 
 ## **Recommended Documents**
