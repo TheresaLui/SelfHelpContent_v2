@@ -32,7 +32,7 @@
             "id": "sqlexception_received_on_client",
             "order": 20,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide subscription(s) pairs for allow listing. (Obscure the personally identifiable information).",
+            "displayLabel": "Provide subscription pairs for allow listing. (Obscure the personally identifiable information.)",
             "required": false
         },
         {
@@ -40,7 +40,7 @@
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Migration Details",
-            "watermarkText": "Provide source (Germany Cloud) and target (Azure global) subscription IDs to enable Geo-Replication method to migrate your database.",
+            "watermarkText": "Provide source (Azure Germany) and target (Azure Global) subscription IDs to enable the geo-replication method to migrate your database.",
             "required": true,
             "useAsAdditionalDetails": true
         }
