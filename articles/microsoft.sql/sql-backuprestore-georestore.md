@@ -1,17 +1,14 @@
 <properties
-	pageTitle="backup/restore/restore"
-	description="backup/restore/restore"
-	service="microsoft.sql"
-	resource="servers"
-	authors="sojaga"
-	ms.author="sojaga"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32688668"
-	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
-	ownershipId="AzureData_AzureSQLDB_BackupRestore"
+pageTitle="backup/restore"
+description="Backup and Restrore"
+ms.author="sojaga,keithor"
+displayOrder=""
+articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
+selfHelpType="Apollo"
+supportTopicIds="7e6feb46-f2a1-4545-a032-1b0a6113d7a9"
+productPesIds="13491"
+cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
+ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # backup/restore/restore

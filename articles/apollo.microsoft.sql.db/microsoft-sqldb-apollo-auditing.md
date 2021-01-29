@@ -152,4 +152,3 @@ Below are the current product limitations
     -   For Managed Instance, create an audit using the following T-SQL:
 
     -   CREATE SERVER AUDIT [MyAudit] TO EXTERNAL_MONITOR WITH (OPERATOR_AUDIT = ON)
-
