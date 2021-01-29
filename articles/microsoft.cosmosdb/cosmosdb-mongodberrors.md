@@ -15,6 +15,7 @@
 	category="MongoDB"
 	ownershipId="AzureData_AzureCosmosDB"
 />
+
 # MongoDB - Commonly faced errors
 
 ## Common errors and solutions
