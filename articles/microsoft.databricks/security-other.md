@@ -19,6 +19,11 @@
 
 * Enable **[Secure Cluster Connectivity](https://docs.microsoft.com/azure/databricks/security/secure-cluster-connectivity)**, so that customer virtual networks have no open ports and Databricks Runtime cluster nodes have no public IP addresses.
 
+* Sometimes accessing data requires that you authenticate to external data sources through JDBC. Instead of directly entering your credentials into a notebook, use **[Azure Databricks secrets](https://docs.microsoft.com/azure/databricks/security/secrets/)** to store your credentials and reference them in notebooks and jobs. To manage secrets, you can use the Databricks CLI to access the Secrets API. To set up secrets you:
+     - [Create a secret scope](https://docs.microsoft.com/azure/databricks/security/secrets/secret-scopes)
+     - [Add secrets to the scope](https://docs.microsoft.com/azure/databricks/security/secrets/secrets)
+     - If you have the [Azure Databricks Premium Plan](https://databricks.com/product/azure-pricing), assign access control to the secret scope.
+
 * Facing **'Invalid access token'** error when accessing APIs through Databricks CLI, this is due to improper authentication setup for CLI. To resolve the issue, please modify the CLI authentication setup using a valid personal access token and then try to run the CLI commands again. 
 	* [Set up Databricks CLI authentication](https://docs.microsoft.com/azure/databricks/dev-tools/cli/?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-databricks%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#--set-up-authentication)
 	* [CLI Commands](https://docs.microsoft.com/azure/databricks/dev-tools/cli/?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-databricks%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#cli-commands)
