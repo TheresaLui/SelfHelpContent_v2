@@ -155,7 +155,7 @@
        "visibility": null,
        "controlType": "dropdown",
        "displayLabel": "Business justification for removal",
-       "watermarkText": "Please select a Business justification from the below list",
+       "watermarkText": "Please select a Business justification from the below list",
        "dropdownOptions": [
        	{
 	"value": "offensive_content",
