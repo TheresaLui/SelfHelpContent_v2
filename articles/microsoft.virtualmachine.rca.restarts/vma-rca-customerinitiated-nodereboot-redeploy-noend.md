@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Customer Initiated - NodeReboot Redeploy"
+	description="Root Cause Analysis (RCA) - Customer Initiated Redeploy"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
