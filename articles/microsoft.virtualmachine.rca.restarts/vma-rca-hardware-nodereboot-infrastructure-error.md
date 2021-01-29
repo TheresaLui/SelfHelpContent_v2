@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Infrastructure Error"
+	description="Root Cause Analysis (RCA) - Hardware - Infrastructure Error"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"

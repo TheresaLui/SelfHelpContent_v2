@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Memory Bugcheck"
+	description="Root Cause Analysis (RCA) - Hardware - Memory"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
