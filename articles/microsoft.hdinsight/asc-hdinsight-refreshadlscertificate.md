@@ -21,7 +21,7 @@
 
 ## Problem
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only ADLS as storage which is accessed via a certificate. This certificate has expired and must be refreshed in order to access storage.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only Azure Data Lake Storage (ADLS) as storage which is accessed via a certificate. This certificate has expired and must be refreshed in order to access storage.
 <!--/issueDescription-->
 
 ## Thumbprint of expired certificates
