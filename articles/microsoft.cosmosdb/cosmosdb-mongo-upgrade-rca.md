@@ -41,17 +41,17 @@ The upgrade process will not result in any service interruptions nor require any
 **Changes from previous engine versions**
 
     - New MongoDB collections created by you after migration will only have the `_id` property indexed by default.
-    - Per request timeout is going to be 60 seconds.  
+    - Per request, timeout will be 60 seconds.  
 
 
 **Action required**
 
-The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint follows this format: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure portal. The updated endpoint follows this format: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 
-**Note:** The DNS suffix might differ if your account is in a Sovereign, Government, or Restricted Azure cloud. Please check the overview blade for your account on the Azure Portal.
+**Note:** The DNS suffix might differ if your account is in a Sovereign, Government, or Restricted Azure cloud. Please check the overview blade for your account on the Azure portal.
 
-The previous connection string with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
+The previous connection string with a `documents.azure.com` DNS suffix will continue to be operational with the 3.2 server version until further notice. You can switch your applications to the new connection string at your convenience.
 
 **Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new Cosmos DB account with MongoDB server version 3.6 to try it out with your application on a Dev or QA instance **before you update your production application to use Mongo server version 3.6**.
 
