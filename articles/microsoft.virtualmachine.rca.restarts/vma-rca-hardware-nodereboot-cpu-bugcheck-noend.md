@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a **CPU Error** on the physical node where the virtual machine was hosted. 
+> The Host Node where the VM was running encountered a CPU error on the physical node where the virtual machine was hosted. 
 > 
 
 <!--resolutionDetails-->
