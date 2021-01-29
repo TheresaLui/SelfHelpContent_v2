@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Database Mail&#xD;"
+  pagetitle="Database Mail "
   description="Features/DbMail - server integration and sending emails."
   service="microsoft.sql"
   resource="servers"
@@ -39,12 +39,10 @@ For issues sending email messages:
 - Verify your email configuration (credentials, mail server and port) with the following PowerShell script. If you can send an email with the script, you configuration is correct.
 
 ```
-{
-$anonUsername = "<user@email.com>"
-$anonPassword = ConvertTo-SecureString -String "<password>" -AsPlainText -Force
-$anonCredentials = New-Object System.Management.Automation.PSCredential($anonUsername,$anonPassword)
-Send-MailMessage -smtpServer <mail_server> -to "<test@email.com>" -from $anonUsername -subject "Test subject" -credential $anonCredentials -Port <mail_server_port>
-}
+        $username = "user@email.com"
+        $password = ConvertTo-SecureString -String "password" -AsPlainText -Force
+        $credentials = New-Object System.Management.Automation.PSCredential($username,$password)
+        Send-MailMessage -smtpServer "mail_server" -to "name@email.com" -from $username -subject "Test subject" -credential $credentials -Port mail_server_port
 ```
 
 - Script the email profile that you use on Managed Instance, set up the identical email profile on SQL Server, and try to send the email there. If possible, try to place the SQL Server in Azure Virtual machine in the same VNet where you placed your Managed Instance (in the different subnet) to ensure that you have similar networking environment.
