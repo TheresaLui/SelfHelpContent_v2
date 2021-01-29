@@ -20,7 +20,7 @@
 4. Refer to this article [Azure and Cloud benefits](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center) for step by step instructions to **review, activate, sort or download** the Azure and Cloud benefit
 5. For additional help, please refer to Recommended documents below
 
-* The expiry date listed on Microsoft Partner Center indicates the last date to exercise usage rights on the benefit. This date may differ from the expiry date listed in the product Admin portal due to a several factors including benefit activation date, number of licenses associated with the key used for activation and the licenses were added or extended on admin portal.
+* The expiration date listed in Microsoft Partner Center indicates the last date you can exercise usage rights on the associated benefit. Note: This date may differ from the expiration date listed in the Microsoft365 Admin Center portal, which is used to managed your cloud subscriptions. The difference in dates can be due to several factors including benefit activation date, number of licenses per key, and the date licenses were added/extended on the admin portal.  .
 
 * If your existing cloud subscription on M365 Admin Center is disabled or expired, please copy and paste the below link on an incognito browser window to activate a new subscription. Ensure that you are activating on the correct tenant.
 

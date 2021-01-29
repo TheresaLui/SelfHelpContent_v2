@@ -14,14 +14,14 @@
 	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
 	ownershipId="Compute_VirtualMachines_Content"
 />
-
 # Resolve connection issue with your Windows VM
-
 4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
 ## **Recommended Steps**
 
-**Note**: It is recommended to follow the troubleshooting steps below to first identify the problem, then perform the remediation step(s) before opening a support ticket.
+As a first step you can try to redeploy your VM in the Azure Portal.
+
+[Redeploy VM](button-data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId)
 
 If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, you can start by accessing the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId) for your VM and determine if the VM is experiencing a boot error.<br>
 

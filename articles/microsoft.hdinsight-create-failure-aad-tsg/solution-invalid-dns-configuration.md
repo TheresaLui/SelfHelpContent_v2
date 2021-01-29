@@ -19,11 +19,17 @@
 
 <!--issueDescription-->
 
+***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
+
 We have checked the cluster and it seems that cluster creation failure is due to invalid DNS configuration.<br>
 <br>
-Please follow the recommended documents to check DNS setup.
+Please follow the troubleshooting information in the recommended documents, below, to check the DNS setup.
 
 <!--/issueDescription-->
+
+## **Possible RCAs**
+
+* [UnableToEstablishConnectivityFromVirtualMachines](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/441956/UnableToEstablishConnectivityFromVirtualMachines)
 
 ## **Recommended Documents**
 
