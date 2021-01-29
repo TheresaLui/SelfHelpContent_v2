@@ -25,9 +25,11 @@ Sometimes the stock of phone numbers available to purchase runs out. In this cas
   If this is the case, check back again after some time has passed.
 
 If failure occurred because of subscription eligibility:<br>
-- Check the subscription type
-- Check if the billing address is correct
+- Check the subscription type. The subscription must be a paid account; the subscription cannot have any free credits associated with it (i.e. student accounts, visual studio credits, etc.).
+- Check that the billing address is located within the United States, excluding Puerto Rico. Canada and Puerto Rico will be available when the service moves to General Availability.
 
-If this didn't solve the issue:<br>
-- Check our [roadmap](https://github.com/Azure/Communication/projects/1)
-- File a [Github issue](https://github.com/Azure/Communication/issues) 
+If this didn't solve the issue, tell the customer to:<br>
+- Check our [roadmap](https://github.com/Azure/Communication/projects/1) for future region availability 
+- File a [Github issue](https://github.com/Azure/Communication/issues)  for feedback or feature requests 
+
+You can view public documentation on what is currently supported [here](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution).
