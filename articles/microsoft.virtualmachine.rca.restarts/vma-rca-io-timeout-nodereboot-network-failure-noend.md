@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO_Timeout NodeReboot - Network failures"
+	description="Root Cause Analysis (RCA) - IO Timeout - Network failures"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
