@@ -18,18 +18,18 @@
                 "resourceRequired": false,
                 "title": "Viewing and handling incidents",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "AlertID",
                 "order": 2,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the SystemAlertId of the relevant alert:",
+                "displayLabel": "Please provide the SystemAlertId of the relevant alert",
                 "required": true
                 },{
                 "id": "AlertRuleID",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the alert rule ID of the relevant analytic rule:",
+                "displayLabel": "Please provide the alert rule ID of the relevant analytic rule",
                 "required": false
                 },{
                 "id": "ProductName",

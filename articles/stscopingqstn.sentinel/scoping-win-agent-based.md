@@ -18,7 +18,7 @@
                 "resourceRequired": false,
                 "title": "Connectors based on Windows agents",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please attach a screenshot of relevant Connector blade",
+                "fileAttachmentHint": "Please attach a screenshot of the relevant Connector blade",
                 "formElements": [
                 {
                     "id": "Managed_by_Azure",
@@ -45,7 +45,7 @@
                 "id": "OSandAgent_version",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Which OS and OMS version are you using?",
+                "displayLabel": "Which OS and OMS versions are you using?",
                 "required": false
                 },{
                 "id": "ConnectorName",

@@ -18,7 +18,7 @@
                 "resourceRequired": false,
                 "title": "Issues with analytics templates",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "AlertRuleID",
                 "order": 4,
