@@ -212,12 +212,12 @@
        "required": false
        },
        {
-       "id": "attached_file",
+       "id": "file_attached",
        "order": 13,
        "visibility": null,
        "controlType": "dropdown",
-       "displayLabel": "Have you attached a screenshot (in upload files) of the exact review to be removed?",
-       "watermarkText": "Please select from the below list",
+       "displayLabel": "Have you attached a screenshot (in the Upload section above) of the exact review to be removed?",
+       "watermarkText": "Please select from the below list",
 	   "dropdownOptions": [
 	       {
 		   "value": "Yes",
