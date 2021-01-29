@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a **hardware issue** involving **local disk operations** which impacted the VM.
+> The Host Node where the VM was running encountered a hardware issue involving local disk operations which impacted the VM.
 > 
 
 <!--resolutionDetails-->
