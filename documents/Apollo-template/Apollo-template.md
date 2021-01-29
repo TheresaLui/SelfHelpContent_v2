@@ -29,8 +29,13 @@ Alternatively, for how-to or conceptual articles, summarize the article and how 
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Body - Required
-<!--The body contains the main content. At minimum, the body must contain substantive content that clearly addresses the topic or issue. For a solution-based article, the body contains a solution that specifically addresses the stated issue. For a how-to article, the body contains conceptual or procedural information, or both. For a conceptual article, the body contains primarily descriptive information.<br> 
-The body can include the following elements: 
+<!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
+- For a solution-based article, the body must contain an issue and a solution.  
+- For a troubleshooting article, the body must contain an issue and one or more solutions. 
+- For a how-to article, the body must contain procedural information.  
+- For a general information article, the body must contain primarily descriptive information. 
+<br> 
+Solutions can be comprised of: 
 - Diagnostics  
 - Metrics 
 - Images 
@@ -38,7 +43,7 @@ The body can include the following elements:
 - Azure KB and document links-->
  
 
-## Sample diagnostic
+## Diagnostics
 <!--Explain how this information can help the customer. Include bullets and line breaks in insights to improve readability.
 Example:
 <Insight> 
@@ -47,28 +52,9 @@ Example:
 *	<timeoutText>Proceeding to the next operation</timeoutText><br>
 *	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
 </Insight>
-<Insight>
-*	<symptomId_noloc>CannotRdpAzurePortalInsight1, CannotRdpAzurePortalInsight2, CannotRdpAzurePortalInsight3</symptomId_noloc><br>
-*	<executionText>Assessing VM connectivity now<br></executionText><br>
-*	<timeoutText>The diagnostic took longer than expected, so we stopped it<br></timeoutText><br>
-*	<noResultText>Diagnostics are complete. No problems were found.</noResultText><br>
-*	<additionalInputsReq>true</additionalInputsReq><br> 
-</Insight><br>
 -->
 
-## Sample guided troubleshooting
-<!--Include 1-2 sentences that point out specific aspects of the chart, how they are relevant to the issue, and next steps to resolve the issue. This text is required to ensure accessibility for all users. 
-Example:
-“Here is your CPU usage for the past 24 hours. Spikes indicate process-intensive operations which are affecting overall performance.”
-<metric>
-*	<name>Disk Write Operations/Sec</name> Type of metric
-*	<aggregationType>Sum</aggregationType> Specify Sum, Avg, Count, or Percentile (default is value Sum)
-*	<timeSpanDuration>1d</timeSpanDuration> Use these time measures: d for day, m for minute (default value is 1d)
-*	<title>Virtual Machine Disk Write Operations/Sec</title> Include a title that clearly describes the information
-</metric>
--->
-
-## Sample solutions
+## Procedures 
 <!--Solutions must include a minimum of one task-based procedure or video that resolves the stated issue, not just links to other articles.
 For procedures (a sequence of tasks), use ordered (numbered) lists.
 Example:
@@ -94,12 +80,12 @@ Example:
 	* Sub-ItemB
 -->
 
-### Sample inline image
+### Inline images
 <!--Use the following format for images. Replace alt text with a description of what is being shown, without punctuation, to ensure accessibility. 
 ![alt text](/images/image.png)
 -->
 
-### Sample videos
+### Video solutions
 <!--Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
@@ -123,7 +109,7 @@ Caption
 </videoGroup>
 -->
 
-## Sample of recommended resources
+## Recommended documents
 <br> <!--Insert a blank line after every heading-->
 <!--Include relevant document links that are NOT in the body/solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 <azureKB>
