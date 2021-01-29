@@ -32,9 +32,9 @@ In the Azure portal you can add a new payment method, update an existing payment
 
 For more detailed instruction on how to check the type of account see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
-## **Microsoft Online Service Program**
+### **Microsoft Online Service Program**
 
-### **Add a new Credit or Debit card to an Azure subscription**
+**Add a new Credit or Debit card to an Azure subscription**
 
 1. Navigate to **Cost Management + Billing**.
 2. Select a Subscription you'd like to add the credit or debit card to. Select **Payment methods**.
@@ -43,7 +43,7 @@ For more detailed instruction on how to check the type of account see [Check the
 
 For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-### **Delete a credit or debit card from an Azure subscription**
+**Delete a credit or debit card from an Azure subscription**
 
 1. Navigate to **Cost Management + Billing**.
 2. Select a Subscription you'd like to delete a credit or debit card from. Select **Payment methods**.
@@ -53,9 +53,9 @@ For more information, see [About adding a card](https://docs.microsoft.com/azure
 
 For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
-## **Microsoft Customer Agreement**
+### **Microsoft Customer Agreement**
 
-### **Add a new Credit or Debit card**
+**Add a new Credit or Debit card**
 
 1. Navigate to **Cost Management + Billing**.
 2. Select **Payment methods**.
@@ -64,7 +64,7 @@ For more information, see [About deleting a card](https://docs.microsoft.com/azu
 
 For more information, see [About adding a card](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-### **Delete a credit or debit card from an Azure subscription**
+**Delete a credit or debit card from an Azure subscription**
 
 1. Navigate to **Cost Management + Billing**.
 2. Select **Payment methods**.
