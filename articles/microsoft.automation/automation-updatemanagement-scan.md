@@ -1,20 +1,16 @@
 <properties
-    pageTitle="Resolve Update Management issues with Azure Automation - Scan and Deploy"
-    description="Resolve Update Management issues with Azure Automation"
-    service="microsoft.automation"
-    resource="automationaccounts"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32615228"
-    resourceTags=""
-    productPesIds="15607,15725"
-    cloudEnvironments="public, Fairfax, usnat, ussec, blackForest, mooncake"
-    articleId="754ca972-a640-407c-8f78-a0836b393a9d"
-	ownershipId="Compute_Automation"
-/>
-
+  pagetitle="Resolve Update Management issues with Azure Automation - Scanning for Updates&#xD;"
+  description="Resolve Update Management issues with Azure Automation"
+  service="microsoft.automation"
+  resource="automationaccounts"
+  ms.author="zachal,riyadav"
+  selfhelptype="Generic"
+  supporttopicids="32615228"
+  resourcetags=""
+  productpesids="15607,15725"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="754ca972-a640-407c-8f78-a0836b393a9d"
+  ownershipid="Compute_Automation" />
 # Resolve Update Management issues with Azure Automation - Scanning for Updates
 
 This article will help with assessing available updates for machines enrolled in Update Management.
@@ -35,9 +31,9 @@ The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/a
 
 ### **Updates show as missing even after deployment**
 
-* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-view-update-assessments#linux).
-* Check the [job logs](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#view-results-of-a-completed-update-deployment) of a deployment to see if updates were filtered out due to classification
-* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment) is used to specify the KB number. 
+* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. See limitations [here](https://docs.microsoft.com/azure/automation/update-management/view-update-assessments#linux).
+* Check the [job logs](https://docs.microsoft.com/azure/automation/update-management/query-logs) of a deployment to see if updates were filtered out due to classification
+* Updates are often superseded by other updates. See ["Superseded update indicated as missing"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-superseded-update-indicated-as-missing-in-update-management).
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
 * Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
 
