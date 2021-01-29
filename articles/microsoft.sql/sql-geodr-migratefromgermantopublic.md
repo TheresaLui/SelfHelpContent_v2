@@ -33,16 +33,16 @@ To migrate using Active Geo-Replication, ensure to provide required information 
 - Unique pair of  source Subscription (Germany Cloud Subscription) and target subscription ID (Global Azure Subscription) is required  to allow active geo-replication for migrating databases from German cloud to Global azure subscription.
 - When submitting support request, please ensure to provide  Company Name, Name, Contact Email and  provide the subscriptions in unique pairs  as shown below.
 
-- |No|Microsoft Cloud Germany (MCG)- source           |Azure Global Cloud (AGC)- target |
-|--|--|--|
-|1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
+  |No|Microsoft Cloud Germany (MCG)- source|Azure Global Cloud (AGC)- target|
+  |--|--|--|
+  |1 |a312i8348c-dd9f-442c-a531-021090a25833|9909093ce-dd9f-442c-a531-021090a25883|
 
 - If you are migrating databases from Or to multiple subscriptions, please ensure to provide  unique pairs for allowing Active Geo-Replication Migration. Sample scenario below showing, customer with 1 German cloud subscription want to move databases to two different Azure Global subscription.
 
--  |No|Microsoft Cloud Germany (MCG)- source           |Azure Global Cloud (AGC)- target |
-|--|--|--|
-|1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
-|2 |a312i8348c-dd9f-442c-a531-021090a25833  |QX3455555e-449f-R23GB-c333-73jdj876eir0  |
+  |No|Microsoft Cloud Germany (MCG)- source           |Azure Global Cloud (AGC)- target |
+  |--|--|--|
+  |1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
+  |2 |a312i8348c-dd9f-442c-a531-021090a25833  |QX3455555e-449f-R23GB-c333-73jdj876eir0  |
 
 - Once you receive the access confirmation from us for subscription pairs, please  follow the instructions to [Migrate your database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
 
