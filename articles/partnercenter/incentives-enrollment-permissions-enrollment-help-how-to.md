@@ -22,6 +22,6 @@
 
 ## **Recommended Documents**
 
-* [How to enroll in Incentives programs in Partner Center](https://support.microsoft.com/help/4490451/)
+* [How to enroll in Incentives programs in Partner Center](https://docs.microsoft.com/partner-center/incentives-enroll)
 
 

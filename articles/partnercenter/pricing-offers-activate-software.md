@@ -25,4 +25,9 @@ Documents related to how to manage and activate software after you purchase it.
 ## **Recommended Documents**
 
 * [Activate and manage software subscriptions](https://docs.microsoft.com/partner-center/csp-software-subscriptions#activate-and-manage-software-subscriptions)
+* [FAQ](https://partner.microsoft.com/resources/detail/software-in-csp-faq-pdf)
+* [Announcement](https://docs.microsoft.com/partner-center/announcements/2021-january#11)
+
+**Note: The Keys are only available for the end customer in Microsoft Admin Center.**
+
 

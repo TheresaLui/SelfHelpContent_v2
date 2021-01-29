@@ -20,11 +20,8 @@ ownershipId="StorageMediaEdge_StorageFiles"
 # Azure File Sync: Troubleshooting and Remediation
 
 <!--issueDescription-->
-
 We have received your input. Azure File Sync has identified the error and the corresponding remediation steps. See the following information for details. 
-
 For other errors, rerun the diagnostics.<br/>
-
 <!--/issueDescription-->
 
 ## **Azure File Sync Error Details and Remediation Steps**
