@@ -44,13 +44,13 @@ Solutions can be comprised of:
  
 
 ## Diagnostics
-<!--Explain how this information can help the customer. Include bullets and line breaks in insights to improve readability.
+<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.  
 Example:
-<Insight> 
-*	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
-*	<executionText>We are checking to see if your VM was restarted</executionText><br>
-*	<timeoutText>Proceeding to the next operation</timeoutText><br>
-*	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
+<Insight>  
+	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
+	<executionText>We are checking to see if your VM was restarted</executionText><br>
+	<timeoutText>Proceeding to the next operation</timeoutText><br>
+	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
 </Insight>
 -->
 
@@ -81,7 +81,7 @@ Example:
 -->
 
 ### Inline images
-<!--Use the following format for images. Replace alt text with a description of what is being shown, without punctuation, to ensure accessibility. 
+<!--No heading required. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
 ![alt text](/images/image.png)
 -->
 
@@ -90,7 +90,8 @@ Example:
 
 <!--
 Single video example:
-Caption
+Introduction
+Summary of the video procedure.
 <video>
 	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
 	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
