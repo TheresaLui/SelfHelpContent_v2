@@ -24,18 +24,18 @@
 These resources explain enrollment, eligibility, earnings, payments, and policy for the Solution Assessment Incentives program.
 
 **Enrollment & eligibility**
-* [Solution Assessment Incentives Eligibility Status](https://support.microsoft.com/help/2961546/sam-eligibility)
+* [Solution Assessment Incentives Eligibility Status](https://docs.microsoft.com/partner-center/chip-solutions-assessment-eligible)
 
 **Earnings**
-* [How to view/download earnings statements in CHIP](https://support.microsoft.com/help/2961257/how-to-view-download-earning-statement-from-chip)
+* [How to view/download earnings statements in CHIP](https://docs.microsoft.com/partner-center/chip-earnings)
 * [Solution Assessment Incentives Opportunity Status](https://support.microsoft.com/help/2952896/sam-opportunity-status)
 
 **Payments**
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [Solution Assessment Incentives Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
+* [Solution Assessment Incentives Payment status in CHIP](https://docs.microsoft.com/partner-center/chip-solution-assessment-payment)
 
 **Policy**
-* [Solution Assessment Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
+* [Solution Assessment Incentives FAQ](https://docs.microsoft.com/partner-center/chip-faq)
 
 **Still need help?**
 

@@ -17,8 +17,8 @@
 
 # How to check if ASC insight is correct
 
-1. Go to the ASC portal and on the Case overview, make sure everything is accurate for insights
-2. If the Support Topic or selected resource is not correct or even the selected resource is incorrect, select the correct support topic and resource with Edit & Run Again. 
+1. Go to the ASC portal and on the Case Overview, make sure everything is accurate for insights
+2. **If the Support Topic or selected resource is not correct or even the selected resource/VM Name is incorrect, select the correct support topic and resource with Edit & Run Again.**
 3. Once you specify the correct ones, the insight analyzer will be triggered again. 
 4. In several minutes, you will get the new insights result. 
 5. After it finishes, please review the insights result again.

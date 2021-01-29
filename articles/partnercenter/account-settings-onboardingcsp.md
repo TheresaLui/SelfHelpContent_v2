@@ -37,3 +37,5 @@
 * [Enroll in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/enrolling-in-the-csp-program)
 * [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses)
 * [New Microsoft Partner Agreement for Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
+* [MPA Indirect Provider FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq)
+
