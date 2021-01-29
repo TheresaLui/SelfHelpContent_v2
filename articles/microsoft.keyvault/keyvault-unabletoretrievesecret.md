@@ -19,7 +19,8 @@
 
 ## **Recommended Steps**
 
-* If you have problem with access to key vault, make sure that you have access policy created: [Key Vault Access Policies](https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps)
+* **"Something went wrong.." Error** <br>
+    If you have problem with listing/getting/creating or accessing secret, make sure that you have access policy defined to do that operation: [Key Vault Access Policies](https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps)
 
 **Troubleshooting**
 

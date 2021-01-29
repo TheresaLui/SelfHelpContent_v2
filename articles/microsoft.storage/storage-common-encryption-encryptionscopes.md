@@ -7,8 +7,8 @@
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32691404"
-	productPesIds="16459"
+	supportTopicIds="32691404,32691085"
+	productPesIds="16459,16598"
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="storage_common_encryption_encryptionscopes"
@@ -22,6 +22,12 @@ Encryption scopes enable you to manage encryption at the level of an individual 
 ## **Recommended Steps**
 
 Many customers resolved their Encryption Scopes issues using the steps below. This resulted in a faster resolution of the issue and we highly recommend you look through the proposed solutions.
+
+### **Known Limitations**
+
+- **RA-GRS & RA-GZRS replication type limitation** - [Encryption scopes are not supported with read-access geo-redundant storage (RA-GRS) accounts during preview](https://docs.microsoft.com/azure/storage/common/storage-service-encryption#encryption-scopes-for-blob-storage-preview)
+
+- **Data Lake Gen2 limitation** - Currently Data Lake Gen2 accounts (storage accounts with HNS enabled) don't support Encryption Scopes. If you need Encryption Scopes, please use a storage account with HNS disabled.
 
 ### **Common issues with Encryption Scopes**
 

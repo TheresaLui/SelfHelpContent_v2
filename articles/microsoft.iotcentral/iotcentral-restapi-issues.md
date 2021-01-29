@@ -19,3 +19,6 @@
 ## **Recommended Documents**
 
 * [Azure IoT Central REST API reference](https://docs.microsoft.com/rest/api/iotcentral/)
+* [Manage IoT Central applications with the REST API](https://docs.microsoft.com/learn/modules/manage-iot-central-apps-with-rest-api/)
+* [Tutorial: Create and connect a client application to your Azure IoT Central application (Node.js)](https://docs.microsoft.com/azure/iot-central/core/tutorial-connect-device-nodejs)
+* [Tutorial: Create and connect a client application to your Azure IoT Central application (Python)](https://docs.microsoft.com/azure/iot-central/core/tutorial-connect-device-python)

@@ -3,7 +3,7 @@
     description="Update AKS Service Principal"
     authors="jakepearson"
     ms.author="jopears"
-    articleId="58a6b6c6-7653-4d7d-8d89-3d71f04fc010"
+    articleId="58a6b6c6-7653-4d7d-8d89-3d71f04fc010_mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="Compute_AzureKubernetesService"
@@ -38,7 +38,7 @@
     "serviceTreeId": "c77cbc0e-e61d-4aa0-9672-b63d529eac77"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Update cluster's service principal",
   "longDescription": "This cluster's service principal is expired and the cluster will not be healthy until the service principal is updated",
   "actions": [

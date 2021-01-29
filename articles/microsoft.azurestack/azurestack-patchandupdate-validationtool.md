@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Precheck questions or Test-AzureStack failures"
-    description="Precheck questions or Test-AzureStack failures"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmit"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629240"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="abdc2tg3-706d-401c-b984-f996c12frf9f"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Hub validation tool&#xD;"
+  service="microsoft.azurestack"
+  resource="registrations"
+  ms.author="alexsmit,v-myoung"
+  selfhelptype="Generic"
+  supporttopicids="32629240"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="abdc2tg3-706d-401c-b984-f996c12frf9f"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Hub validation tool
 
 <!---Reviewed and confirmed up-to-date by Nick Meader and Alex in May 2020. Alex had revised end of 2019. --->
@@ -23,6 +18,11 @@ Before applying an Azure Stack Hub update, make sure you have applied all requir
 
 The [Test-AzureStack validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) also lets you run a series of tests on your system to identify failures if present, prior to applying an Azure Stack Hub update.
 Using the [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#groups), warnings are displayed as errors in the console output, and should be considered as blockers for the update.
+
+The following categories are part of the UpdateReadiness group:
+* AzsInfraFileValidation
+* AzsActionPlanStatus
+* AzsStampBMCSummary
 
 ## **Recommended Steps**
 

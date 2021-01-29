@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32745010"
     resourceTags=""
-    productPesIds="13670"
+    productPesIds="16370"
     ownershipId="Compute_SiteRecovery"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="89027edb-4755-4bd6-b307-3be036670d07"

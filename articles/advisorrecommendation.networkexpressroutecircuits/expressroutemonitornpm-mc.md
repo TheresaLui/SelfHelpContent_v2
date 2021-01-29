@@ -6,7 +6,7 @@ ms.author = "aadevteam"
 articleId = "258a8948-ad63-4cbc-b498-8220e1b20622_Mooncake"
 selfHelpType = "advisorRecommendationMetadata"
 cloudEnvironments = "Mooncake" 
-	ownershipId="CloudNet_AzureVPNGateway"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # "Implement ExpressRoute Monitor on Network Performance Monitor for end-to-end monitoring of your ExpressRoute circuit"
 ---

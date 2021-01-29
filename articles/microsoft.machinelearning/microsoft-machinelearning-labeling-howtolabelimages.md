@@ -8,7 +8,7 @@
 	ms.author="kvijaykannan"
 	supportTopicIds="32690834"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	articleId="microsoft.machinelearning.labeling.howtolabelimages"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

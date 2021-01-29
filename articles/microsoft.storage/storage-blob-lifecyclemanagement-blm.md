@@ -12,7 +12,7 @@ resourceTags=""
 productPesIds="16459,15629"
 cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Troubleshoot and resolve lob Lifecycle Management issues
@@ -20,6 +20,16 @@ articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
 ## **Recommended Steps**
 
 Most customers resolved their Blob Lifecycle Management issue on their own, using the steps below.
+
+### **Last Access Time based LCM (Preview)**
+- [Last Access Time Tracking is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)<br>
+- [Last Access Time tracking is not supported for Azure Data Lake Storage Gen2 accounts](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#storage-account-support)
+- [Setup lifecycle management policy based on Last Access Time](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#how-last-access-time-tracking-works)
+
+Last access time tracking is available for the following storage account kind:
+
+- StorageV2(general purpose v2)
+- BlobStorage accounts
 
 ### **Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected**
 

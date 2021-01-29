@@ -12,7 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="appgw-waf-ip-reputation"
-	ownershipId="CloudNet_AzureApplicationGateway"
+	ownershipId="CloudNet_AzureApplicationGateway" 
 />
 
 # IP Reputation (Bot mitigation) with Application Gateway WAF

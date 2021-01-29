@@ -17,5 +17,7 @@
 
 # Enable/disable password sync resolved the issue
 
+<!--issueDescription-->
 1. Enable and disabling password sync resolved the issue
 2. If you have any feedback or comments about this TSG, please use the feedback box below
+<!--/issueDescription-->

@@ -15,16 +15,20 @@
     ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-# Unable to login to the server
+# Error 18456: Login failed
 
-## **Recommended Steps**
+**Error 18456: Login failed**
 
-* Login failed with error code 18456 indicates that your packet has reached the Azure SQL services, but was rejected due to one or more of the following reasons:
+Error 18456 indicates that Azure SQL DB rejected a login request for one or more of the following reasons:
 
-  * Incorrect / empty passwords
-  * Database requested by user does not exist
-  * The connections were rejected due to DoS Guard protection
-  * Insufficient permissions
+- Incorrect or empty password: *The client tool / application has incorrect or blank password. Please ensure that you have provided the correct password.*
+- Database does not exist: *Please ensure that the connection string has the correct database name.  If you are connecting from a SQL Server Management Studio, click the 'Options' button in the connection dialog to expose additional connection options, and verify that the 'Connection Properties' tab has a "Connect to database" value of default selected.*
+- Insufficient permissions: *The user does not have CONNECT permissions to the database. Please ensure that the user is granted the necessary permissions to login.*
+- Expired or invalid AAD token: *You might get this error if the token has expired, if the token issuer is invalid, if no object Id is present in the token, if the token signature is incorrect or invalid or if SQL Server was unable to get the token from ADAL.*
+- Connections rejected due to DoSGuard protection: *[DoSGuard](https://docs.microsoft.com/azure/security/fundamentals/infrastructure-sql?WT.mc_id=pid:13491:sid:32745428/#dosguard) actively tracks failed logins from IP addresses. If there are multiple failed logins from a specific IP address within a period of time, the IP address is blocked from accessing any resources in the service for a pre-defined time period--even if the password and other permissions are correct.*
 
-* To increase security, the error message that is returned to the client deliberately hides the nature of the authentication error
+The reason for a login failure is indicated by the State code of the error.  However, the error message that is returned to the client deliberately overrides the state code so as to not give hackers any authentication-related information. Running the diagnostics (above) may return a more detailed message indicating specifically why your logins are failing.
 
+
+## **Recommended Documents**
+[Login Errors with state and description](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?WT.mc_id=pid:13491:sid:32745428&view=sql-server-ver15)

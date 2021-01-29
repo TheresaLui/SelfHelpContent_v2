@@ -3,7 +3,7 @@
     description="Unsupported Kubernetes version is detected"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="a12cf5e4-c3b3-44df-b365-8784f643453c"
+    articleId="a12cf5e4-c3b3-44df-b365-8784f643453c_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Unsupported Kubernetes version is detected",
   "longDescription": "Unsupported Kubernetes version is detected. Ensure Kubernetes cluster runs with a supported version.",
   "actions": [

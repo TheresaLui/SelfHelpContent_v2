@@ -14,7 +14,6 @@
 />
 
 # <-- configuring-export-portal -->
-
 You can use Azure Portal to configure subscription diagnostic settings to continuously export your Activity Logs to Log Analytics workspace, Azure Storage account, or Azure Event Hub.
 
 ## **Recommended Steps**

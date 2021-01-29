@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "83dea395-edb9-1be8-781b-6e898b91f70b",
+      "longDescription": "",
+      "shortDescription": "I have issues with Application Insights Smart Detections or with Failure Anomalies alerts",
+      "searchTags": "Alerts;Application Insights;Smart Detections;Failure Anomalies",
+      "category": "Smart Detections",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b787ca8-a207-8e96-4e26-42b7d7d8f805",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the portal, but its actions or notifications were not received, or malfunctioned",

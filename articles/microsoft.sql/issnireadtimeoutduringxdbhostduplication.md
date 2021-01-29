@@ -8,17 +8,16 @@
     ms.author="aamalvea"
 	displayOrder=""
 	articleId="IsSniReadTimeoutDuringXdbhostDuplication_8BDA22D6-4005-4359-94E6-D3C636CE99C6"
-	diagnosticScenario=""
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Your application may have taken too long to respond during the login request, so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support. 
+Your application may have taken too long to respond during the login request, so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support.
 <!--/issueDescription-->
-

@@ -1,10 +1,10 @@
 <properties
-    pageTitle="Connecting to MySQL"
-    description="Connecting to MySQL"
+    pageTitle="Connecting to Azure Database for MySQL"
+    description="Connecting to Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="jan-eng"
-    ms.author="janeng"
+    authors="ajlam"
+    ms.author="andrela"
     displayOrder="340"
     selfHelpType="generic"
     supportTopicIds="32640049"
@@ -17,7 +17,7 @@
 
 # Connecting to Azure Databases for MySQL
 
-Azure Database for MySQL uses the community edition of MySQL. As such, most drivers and tools are able to connect to the service. There are, however, some limitations in functionality because Azure database for MySQL is a fully managed platform as a service.
+Azure Database for MySQL uses the community edition of MySQL. As such, most drivers and tools are able to connect to the service. There are some limitations in functionality because Azure Database for MySQL is a fully managed platform as a service.
 
 ## **Recommended Steps**
 

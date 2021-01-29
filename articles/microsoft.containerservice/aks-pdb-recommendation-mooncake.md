@@ -3,7 +3,7 @@
     description="Pod Disruption Budgets Recommended"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="6fdf4656-d8b1-465d-9fb5-864379ffecfd"
+    articleId="6fdf4656-d8b1-465d-9fb5-864379ffecfd_mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
     ownershipId="Compute_AzureKubernetesService"

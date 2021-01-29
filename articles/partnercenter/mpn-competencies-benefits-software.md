@@ -31,5 +31,5 @@
 ## **Recommended Documents**
 
 * [Software benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515234/software-products-benefits-tab-for-mpn-partners-in-partner-center)
-* [Where can I find my Software benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [How these Software benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)

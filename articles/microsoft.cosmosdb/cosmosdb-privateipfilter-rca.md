@@ -9,10 +9,10 @@
     articleId="cosmosdb-privateipfilter-rca"
     diagnosticScenario="CosmosDBPrivateIPFilterInsight"
     selfHelpType="rca"
-    supportTopicIds="32636792"
+    supportTopicIds="32636765, 32636824, 32675641, 32636792, 32738664, 32636750, 32636769, 32636776, 32636770, 32681470, 32636777, 32681008, 32636771, 32636778, 32636778, 32738665"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -26,7 +26,7 @@ Some **<!--$ReasonBlocked-->[ReasonBlocked]<!--/$ReasonBlocked-->** that are not
 
 ## **Recommended Steps**
 
-It appears that your account has an IP access control policy which is restricting access to <!--$ReasonBlocked-->[ReasonBlocked]<!--/$ReasonBlocked-->. Please ensure you are accessing the account from whitelisted <!--$ReasonBlocked-->[ReasonBlocked]<!--/$ReasonBlocked-->.
+It appears that your account has an IP access control policy that is restricting access to <!--$ReasonBlocked-->[ReasonBlocked]<!--/$ReasonBlocked-->. Please ensure you are accessing the account from whitelisted <!--$ReasonBlocked-->[ReasonBlocked]<!--/$ReasonBlocked-->.
 
 ## **Recommended Documents**
 
