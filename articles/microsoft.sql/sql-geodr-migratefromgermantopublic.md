@@ -38,14 +38,14 @@ To migrate using active geo-replication, provide the required information (as li
   |--|--|--|
   |1 |a312i8348c-dd9f-442c-a531-021090a25833|9909093ce-dd9f-442c-a531-021090a25883|
 
-- If you are migrating databases from, or to, multiple subscriptions, provide unique pairs for allowing Active Geo-Replication Migration. The following scenario shows a customer with one Azure Germany subscription who wants to move databases to two different Azure Global subscriptions.
+- If you are migrating databases from, or to, multiple subscriptions, provide unique pairs for allowing active geo-replication migration. The following scenario shows a customer with one Azure Germany subscription who wants to move databases to two different Azure Global subscriptions.
 
   |No|Azure Germany - source           |Azure Global - target |
   |--|--|--|
   |1 |a312i8348c-dd9f-442c-a531-021090a25833  |9909093ce-dd9f-442c-a531-021090a25883  |
   |2 |a312i8348c-dd9f-442c-a531-021090a25833  |QX3455555e-449f-R23GB-c333-73jdj876eir0  |
 
-- Once you receive the access confirmation from us for subscription pairs, please  follow the instructions to [Migrate your database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
+- After you receive the access confirmation from us for subscription pairs, follow the instructions to [Migrate your database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
 
 ## **Recommended Documents**
 
