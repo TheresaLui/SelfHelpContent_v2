@@ -17,7 +17,7 @@
 
 ### **Enable multi-factor authentication in Azure Active Directory B2C** 
 
-Azure Active Directory B2C (AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to the sign-up and sign-in experiences in your applications without writing a single line of code. Review these [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy).
+Azure Active Directory B2C (AD B2C) integrates directly with Azure AD Multi-Factor Authentication. This allows you to add a second layer of security to the sign-up and sign-in experiences in your applications without writing a single line of code. Review these [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy).
 
 
 ### **Can I send customized email to users that sign up to use my applications?** 
