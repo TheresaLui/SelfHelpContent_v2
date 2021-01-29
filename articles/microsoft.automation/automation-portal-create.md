@@ -1,9 +1,9 @@
 <properties
-  pagetitle="Azure Automation - Creating Automation Account&#xD;"
+  pagetitle="Azure Automation - Creating Automation Account"
   description="Azure Automation - Creating Automation Account"
   service="microsoft.automation"
   resource="automationaccounts"
-  ms.author="zachal,riyadav"
+  ms.author="riyadav"
   selfhelptype="Generic"
   supporttopicids="32599929"
   resourcetags=""
@@ -17,6 +17,10 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ## **Recommended Steps**
 
+### **Steps to create an Automation account**
+
+* Please follow the steps mentioned [here](https://docs.microsoft.com/azure/automation/automation-create-standalone-account) to create an Automation account.
+
 ### **I want to know what regions Automation Accounts are available in**
 
 * This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability.
@@ -24,7 +28,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ### **I am having trouble selecting a Log Analytics workspace**
 
-* When enabling solutions, only certain regions are supported for linking a Log Analytics workspace and an Automation Account. See ["Enable Solutions" for the supported region mappings](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#enable-solutions)
+* When enabling solutions, only certain regions are supported for linking a Log Analytics workspace and an Automation Account. See [Supported Region mappings](https://docs.microsoft.com/azure/automation/how-to/region-mappings#supported-mappings)
 
 ### **I'm having trouble creating an Automation Account**
 
