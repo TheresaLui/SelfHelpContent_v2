@@ -80,8 +80,8 @@
        "order": 7,
        "visibility": null,
        "controlType": "dropdown",
-       "displayLabel": "Offer type",
-       "watermarkText": "Please select the Offer Type from the below list",
+       "displayLabel": "Offer Type",
+       "watermarkText": "Please select the Offer Type from the below list",
        "dropdownOptions": [
        	{
 	"value": "Azure Application offer",
