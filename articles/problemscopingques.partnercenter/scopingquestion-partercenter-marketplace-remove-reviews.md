@@ -22,7 +22,7 @@
    "fileAttachmentHint": "Upload any supporting files that can help us understand your issue.",
    "formElements": [
        {
-       "id": "learn_more_text",
+       "id": "learn_more_text1",
        "visibility": null,
        "order": 1,
        "controlType": "infoblock",
@@ -62,12 +62,12 @@
        "order": 5,
        "visibility": null,
        "controlType": "textbox",
-       "displayLabel": "Offer Name",
-       "watermarkText": "Please provide the Offer Name",
+       "displayLabel": "Offer Name",
+       "watermarkText": "Please provide the Offer Name",
        "required": false
        },
        {
-       "id": "pc_isv_offer_name",
+       "id": "pc_isv_offerID",
        "order": 6,
        "visibility": null,
        "controlType": "textbox",
@@ -182,7 +182,7 @@
        "controlType": "multilinetextbox",
        "displayLabel": "Business justification",
        "watermarkText": "Removing a review from Marketplace store fronts requires a business justification. Please provide a reason for why the review should be removed.",
-       "required": false,
+       "required": false
        },
        {
        "id": "offer_url",
@@ -200,7 +200,7 @@
        "controlType": "datetimepicker",
        "displayLabel": "When was the review posted?",
        "watermarkText": "When was the review posted?",
-       "required": true
+       "required": false
        },
        {
        "id": "review_title",
@@ -231,7 +231,7 @@
 	   "required": false
        },
        {
-       "id": "learn_more_text",
+       "id": "learn_more_text2",
        "visibility": "attached_file==No",
        "order": 14,
        "controlType": "infoblock",
