@@ -22,4 +22,4 @@
 
 ## **Recommended Documents**
 
-* [Geo Replication Lag on Secondary](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication#monitoring-geo-replication-lag?WT.mc_id=pid:13491:sid:32731231/)<br>
+* [Geo Replication Lag on Secondary](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32731231/#monitoring-geo-replication-lag)<br>

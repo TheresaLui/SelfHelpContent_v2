@@ -17,7 +17,7 @@
   "recommendationTypeId": "97b38421-f88c-4db0-b397-b2d81eff6630",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://azsearchfairfax.kusto.usgovcloudapi.net').database('AzureSearch').GetBasicServicesOver90PercentSizeQuota",
+    "streamNamespace": "cluster('https://fairfax.kusto.usgovcloudapi.net').database('AzureSearch').GetBasicServicesOver90PercentSizeQuota",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
@@ -30,7 +30,7 @@
   "owner": {
     "email": "azuresearch_contact@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
+      "routingId": "MDM://AzureSearch/Portal",
       "service": "Azure Search",
       "team": "Portal"
     },

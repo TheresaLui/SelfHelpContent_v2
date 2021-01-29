@@ -17,23 +17,37 @@
 
 # Diagnose and resolve Virtual Machine CPU performance issues
 
-Try the following steps to diagnose and mitigate VM CPU performance issues.<br>
+**What can cause CPU spike on a VM?**
+
+High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that a component used by this application uses is unable to process data as efficiently as expected, that there might be a code issue, or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:  
+
+1. A recent code change or deployment. This is mostly applicable to apps like IIS, SharePoint, SQL or Third-Party applications.
+1. A recent patch, which could be related to an OS level patch, or Application level cumulative patches/fixes.
+1. Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, data changes, and so on  sometimes lead to some queries getting more compute-intensive. 
+1. Azure VM-specific: there are certain processes like RDAgent, extension specific processes (Monitoring Agent, MMA agent, Security client, and so on) that sometimes lead to High CPU consumption and need ato examined from the perspective of configuration or known issues.  
+
+For more information, see [troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
 
 ## **Recommended Steps**
 
-1. **Did you know Performance diagnostics can help you analyze performance on your VM?** **For Windows virtual machines, you can [run Performance diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)**, select the Performance analysis scenario, and review results directly from the Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on your virtual machine. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
-2. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
-3. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. On **Windows**, use the [Perfmon](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon) tool.
-4. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
-5. Address any Azure host issues by [redeploying](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows) the VM, which migrates it to a new Azure host
-6. Scale up the Virtual Machine to a different VM type or series for increased performance by clicking 'Size' in the Settings blade of the VM resource.  [Compute optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-compute)
-7. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance) if it's an I/O intensive use-case <br>
+**Detection: If you are unaware of the process driving high CPU consumption, you can [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm)**. PerfInsights generates a report that contains a dedicated tab for CPU analysis. The report lists out the processes per Average CPU consumption in descending order. It indicates if the process was system-based, or related to a Microsoft-owned App (SQL, IIS), or a third-pary process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.
+
+There are two broad approaches to resolving high CPU issues, depending upon whether the CPU usage is appropriate given the application load or because of a bug within the application:
+
+1. If it's likely due to the kind of data or user pattern, we recommend resizing to a higher VM SKU**. You can read more about different [Azure Virtual Machine offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/) and decide on which Virtual Machine offering best suits your workload. 
+1. If high CPU is caused due to an application issue, then improving the efficiency of the current application by analyzing the code for potential improvements can help resolve the issue. If the identified application is a third-party application, then you would need to engage the vendor/developer of the application. 
+
+If you're unable to access your virtual machine through RDP or SSH, try restarting to temporarily regain access, then proceed to troubleshoot using [PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) to determine what is causing the CPU spike.
+
+**If you proceed to open a support case, attach the PerfInsights report for the Support Engineer to analyze.**
 
 ## **Recommended Documents**
 
-* [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
+* [Troubleshoot high-CPU issues for Azure Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm)
+* [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
+* [Azure Virtual Machine offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/)
+* [Performance guidelines for SQL Server](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices)
 * [Azure Compute benchmark scores for Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/compute-benchmark-scores)
-* [SQL Performance guidelines for Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance)
 * [Optimize network throughput for Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-optimize-network-bandwidth)
 * [Benchmarking disks in Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/disks-benchmarks)
 * [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)

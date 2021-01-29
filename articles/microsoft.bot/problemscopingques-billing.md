@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Billing"
-	description="Scoping questions to capture more details abou tbilling"
+	description="Scoping questions to capture more details about billing"
 	authors="meetshamir"
 	ms.author="saziz"
 	selfHelpType="problemScopingQuestions"

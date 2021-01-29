@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="0009906a-33cd-4094-bc80-a103393ee1f1"
+	articleId="0009906a-33cd-4094-bc80-a103393aaaaa"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
@@ -19,16 +19,20 @@
 
 This usually occurs when there is about 50 simultaneous write operations (create/delete) on public IPs in a given subscription which creates a slowdown on NRP operations and induces throttling, and results in all the requests above the limit failures. 
 
-User facing Error: *Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.*
+User facing Error:
 
-**Troubleshooting and Solution**
+```
+Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.
+```
 
-1. Check number of nodes requested for cluster creation and see if multiple clusters are being spun up and terminated.
-2. Check if this Subscription has multiple workspaces created.
-3. Check cluster events tab for cluster creation failure/delay cases.
-4. Check driver logs for job failure cases.
+### Troubleshooting and Solution
 
-Good solution to this problem would be to use [Pools](https://docs.microsoft.com/en-us/azure/databricks/clusters/instance-pools/) to reduce churn of resources.
+1. Check number of nodes requested for cluster creation and see if multiple clusters are being spun up and terminated
+2. Check if this Subscription has multiple workspaces created
+3. Check cluster events tab for cluster creation failure/delay cases
+4. Check driver logs for job failure cases
+
+Good solution to this problem would be to use [Pools](https://docs.microsoft.com/azure/databricks/clusters/instance-pools/) to reduce churn of resources.
 
 Another suggested workaround is to perform resizing and/or create clusters in smaller batches (around 50 workers max at one time). This number can also be affected by whatever else is occurring in the customer subscription since the throttling is occurring at the subscription level (whether databricks or non-databricks related Azure events).
 

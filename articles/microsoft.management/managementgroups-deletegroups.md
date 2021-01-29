@@ -7,7 +7,7 @@
     ms.author="rithorn"
     articleId="managementgroups-deletegroups"
     selfHelpType="generic"
-    supportTopicIds="32609538"
+    supportTopicIds="32743303"
     productPesIds="16530"
     cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
     ownershipId="ARM_ManagementGroups"

@@ -24,7 +24,7 @@ If you are trying to chart data from the `InsightsMetric` table in Metrics Explo
 
 ![Metrics explorer](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-metricsexplorer/metrics-explorer-01.png?branch=pr-en-us-115799)
 
-You can choose the option to [Apply splitting](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#apply-splitting-to-a-chart) and split the metric by dimensions based on Computer name, but this is only affective for workspaces with 50 or fewer computers reporting data to the workspace.  
+You can choose the option to [Apply splitting](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#apply-splitting-to-a-chart) and split the metric by dimensions based on Computer name, but this is only effective for workspaces with 50 or fewer computers reporting data to the workspace.  
 
 ![Metrics explorer with splitting applied](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-metricsexplorer/metrics-explorer-02.png?branch=pr-en-us-115799)
 

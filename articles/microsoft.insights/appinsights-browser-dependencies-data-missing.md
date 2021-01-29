@@ -10,7 +10,7 @@
     articleId="appinsights-browser-dependencies-data-missing"
     productPesIds="15693"
     supportTopicIds="32729579"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Dependencies data is incorrect or missing on Application Map

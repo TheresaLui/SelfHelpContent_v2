@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot "Health service data not up to date" alert](https://aka.ms/aadhealth/datafreshness)
+* [Troubleshoot "Health service data not up to date" alert](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-data-freshness)
 
 ## **Recommended Documents**
 

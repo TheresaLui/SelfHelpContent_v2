@@ -32,7 +32,7 @@
 6. On the **New proof of execution** page, enter the required fields
 7. Select **Save**
 8. On the **New proof of execution claim** page, enter the required fields
-9. When you’re finished, select **Create claim**.
+9. When you’re finished, select **Create claim**
 10. On the **Invoice and expense information page**, upload one of the following two documents:
 
 	* Third-party invoice 
@@ -40,6 +40,12 @@
 
 11. You can also upload **Proof documents** if desired
 
-	* Note that if you select **Proof documents**, you must add explanatory notes. When you’ve added a note, select **Save**. 
+Note that if you select **Proof documents**, you must add explanatory notes. When you’ve added a note, select **Save**. 
 
-12.	Enter any final comments before submitting your POE, and then select **Submit claim**
+12. Enter any final comments before submitting your POE, and then select **Submit claim**
+
+## **Recommended Documents**
+
+- [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
+- [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)
+

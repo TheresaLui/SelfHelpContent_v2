@@ -39,4 +39,4 @@
 
 * [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-linux)

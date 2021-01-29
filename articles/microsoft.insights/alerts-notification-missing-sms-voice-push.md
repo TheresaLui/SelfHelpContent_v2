@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Did not receive expected SMS, voice call, or push notification"
-    description="I can see my fired alert in the Azure portal, but did not receive its SMS, push notification, or voice call"
-    infoBubbleText=""
-    service="microsoft.alertsmanagement"
-    resource="alerts"
-    authors="ofirmanor"
-    ms.author="ofmanor"
-    displayOrder="2"
-    articleId="alerts-notification-missing-sms-voice-push"
-    selfHelpType="generic"
-    supportTopicIds="32739781"
-    productPesIds="15454,15725"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroup"
-/>
-
+  pagetitle="I didn't receive an expected SMS, voice call, or push notification&#xD;"
+  service="microsoft.alertsmanagement"
+  resource="alerts"
+  ms.author="ofmanor,yagil"
+  selfhelptype="Generic"
+  supporttopicids="32739781,32745405"
+  resourcetags=""
+  productpesids="15454,15725"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-notification-missing-sms-voice-push"
+  ownershipid="AzureMonitoring_ActionGroup" />
 # I didn't receive an expected SMS, voice call, or push notification
 
 ## **Recommended Steps**

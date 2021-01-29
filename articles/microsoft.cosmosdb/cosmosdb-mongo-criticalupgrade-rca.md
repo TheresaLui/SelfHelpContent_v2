@@ -9,10 +9,10 @@
     articleId="cosmosdb-mongo-criticalupgrade-rca"
     diagnosticScenario="CosmosDBMongoCriticalUpgradeInsight"
     selfHelpType="rca"
-    supportTopicIds="32636757"
+    supportTopicIds="32636766, 32636771, 32636778, 32636784, 32636789, 32738475, 32636819, 32636831"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -21,11 +21,11 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help you resolve the issues you are facing and provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
+Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help you resolve the issues that you encounter and will provide the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.
 
 <!--/issueDescription-->
 
-You may face service interruptions or downtime during this process. It may also require data or index migrations. We will proceed with the upgrade only with your consent at a time of your convenience. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
+You may experience service interruptions or downtime during the upgrading process. This process may also require data or index migrations. We will proceed with the upgrade only with your consent, at a time convenient for you. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
 1. Benefits of upgrading to version 3.6
 
@@ -34,17 +34,21 @@ You may face service interruptions or downtime during this process. It may also 
    - Support for aggregation pipeline by default and new aggregation stages
    - Support for ChangeStream
    - Support for Compound Indexes
-   - Cross-partition support for the following operations: UPDATE, DELETE, COUNT, and ORDER BY
-   - Improved performance for the following aggregate operations: COUNT, SKIP, LIMIT, and GROUP BY
+   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
+   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
 2. Changes from previous engine versions
 
-   - MongoDB collections will only have the _id property indexed by default
-   - Per request timeout is going to be 60 seconds
+   - MongoDB collections will have only the `_id` property indexed by default
+   - Per request timeout will be 60 seconds
 
-3. Action required
+3. Actions required
 
-   The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` but it might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+   The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` 
+
+   **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+
+The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience.
 
 ## **Recommended Documents**
 

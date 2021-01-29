@@ -39,7 +39,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'custom'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -64,7 +64,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01$filter=category eq 'Guest Configuration'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -89,7 +89,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -114,7 +114,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policySetDefinitions?api-version=2019-09-01$filter=category eq 'Guest Configuration'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -168,6 +168,14 @@
                     "text": "Issue description."
                 }
             ]
+        },
+        {
+            "id": "resource_group",
+            "order": 80,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Resource Group",
+            "watermarkText": "Provide Resource Group details for running insight diagnostics(Optional)",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

@@ -30,7 +30,7 @@
   "owner": {
     "email": "azuresearch_contact@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
+      "routingId": "MDM://AzureSearch/Portal",
       "service": "Azure Search",
       "team": "Portal"
     },
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/azs/search-limits-quotas-capacity",
   "description": "You are close to exceeding your available storage quota. Add additional partitions if you need more storage.",
   "longDescription": "You are close to exceeding your available storage quota. Add additional partitions if you need more storage. After exceeding storage quota, you can still query, but indexing operations will no longer work.",

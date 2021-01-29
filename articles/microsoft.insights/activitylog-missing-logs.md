@@ -14,9 +14,7 @@
 />
 
 # <-- missing-logs -->
-
 Activity logs retains the logs for 90 days, users can choose to store the logs in Azure storage (via diagnostic settings) if you would like to retain logs longer than the stipulated period. Following recommendations further provide checks and reference to ensure you are able to retrieve logs as expected. Please proceed to create a support ticket if your problem falls outside of the scope mentioned here.
-
 
 ## **Recommended Steps**
 

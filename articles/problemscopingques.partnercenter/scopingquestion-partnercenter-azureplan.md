@@ -19,7 +19,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Azure plan",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please provide screenshots of the 'Role Assignments' page under this 'Access control (IAM)' tab in Azure portal to verify access on the customers' Azure Plan subscription.",
     "formElements": [
         {
             "id": "pc_subscription_id",
@@ -67,7 +67,7 @@
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "Start Time",
+            "displayLabel": "Date of the first impacted invoice",
             "watermarkText": "When did your issue begin?",
             "required": true
         }

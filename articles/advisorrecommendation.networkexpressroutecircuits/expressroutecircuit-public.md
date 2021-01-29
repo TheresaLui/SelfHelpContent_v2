@@ -6,7 +6,7 @@
     articleId="da6630fb-4286-4996-92a3-a43f5f26dd34_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="CloudNet_AzureVPNGateway"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Delete ExpressRoute circuits in the provider status of Not Provisioned
 ---
@@ -28,13 +28,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "ExRPM@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://ExpressRoute",
+      "service": "Cloudnet",
+      "team": "ExpressRoute"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "7269b88e-b638-4ba5-a55e-5632365dd938"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
@@ -73,7 +73,7 @@
       "httpMethod": "DELETE",
       "uri": "{armEndpoint}{resourceId}?api-version=2019-09-01",
       "actionId": "dd5b01af-7897-4686-ac02-7d57f1dfbe3f",
-      "implication": null,
+      "implication": "There is availability implication for this action.",
       "documentationLink": "https://docs.microsoft.com/rest/api/expressroute/expressroutecircuits/delete"
     }
   ]

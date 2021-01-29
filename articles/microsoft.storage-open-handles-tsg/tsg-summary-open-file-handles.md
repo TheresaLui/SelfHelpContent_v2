@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="4ee89758-b973-47ee-801b-d839ae54031a"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Close Azure File Share opened Handles

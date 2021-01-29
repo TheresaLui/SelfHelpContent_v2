@@ -19,11 +19,11 @@
 
 ### **How to check whether user has appropriate access to create a project**
 
-To create a project, the user needs "Owner" or "Contributor" permissions. [Please check here](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access.
+To create a project, a user needs "Owner" or "Contributor" permissions. [Check here](https://docs.microsoft.com/azure/role-based-access-control/check-access) to see if you have the required access.
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
 
-You can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
+One can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
 
 ### **I want to create a new project in a different geography and add tools to it**  
   
@@ -39,7 +39,7 @@ This can be due to some intermittent issue, retry is suggested way to fix this i
 
 ### **Do I need to pay for Azure Migrate and the non-Microsoft ISV tools that I plan to use?**
 
-Azure Migrate and the in-built Server Assessment and Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for other non-Microsoft or ISV assessment and migration tools you use while using Azure Migrate.
+Azure Migrate and the first party Server Assessment and Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for using integrated non-Microsoft ISV assessment and migration tools.
   
 ### **I don't see the tool that I want to use**
   
@@ -48,3 +48,7 @@ We are constantly [adding tools to Azure Migrate](https://docs.microsoft.com/azu
 ### **ISV tools that are available in other geographies are not listed in Azure Government**
 
 ISV partners are in process of enabling their tools in Azure Government for Azure Migrate. In the meanwhile, either you can use the partner tool independently or use any of the listed tools.
+
+### **Looking to know more about Azure Migrate**
+
+Extensive details regarding Azure Migrate are [documented here](https://docs.microsoft.com/azure/migrate/).

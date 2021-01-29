@@ -19,6 +19,8 @@
 
 ## **Recommended Steps**
 
+4 out of 5 customers resolved their SSL termination issue using the steps listed below.
+
 If you are observing issues with SSL termination with Application Gateway, verify that:
 
 1. **Protocol is HTTPS**: Ensure HTTPS is the protocol in the listener which is accepting the HTTPS request

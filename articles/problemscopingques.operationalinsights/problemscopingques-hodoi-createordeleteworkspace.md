@@ -1,16 +1,16 @@
 
 <properties
-    articleId="problemscopingques-Create_or_delete_workspace"
-    pageTitle="Create or delete workspace"
-    description="Create or delete workspace"
-    authors="yossiy,neilghuman"
-    ms.author="yossiy,neghuman"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32612513"
-    productPesIds="15725"
-    cloudEnvironments="Public, Fairfax, usnat, ussec"
-    schemaVersion="1"
-    ownershipId="AzureMonitoring_LogAnalytics"
+articleId="problemscopingques-Create_or_delete_workspace"
+pageTitle="Create or delete workspace"
+description="Create or delete workspace"
+authors="yossiy,neilghuman,shemers"
+ms.author="yossiy,neghuman,shemers"
+selfHelpType="problemScopingQuestions"
+supportTopicIds="32612513"
+productPesIds="15725"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+schemaVersion="1"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create or delete workspace
@@ -25,12 +25,12 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start happening?",
-            "required": true
+            "displayLabel": "When did the problem started?",
+            "required": false
         },
-                {
+        {
             "id": "operation",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which operation are you trying to perform?",
             "watermarkText": "Choose an option",
@@ -47,7 +47,7 @@
                     "value": "Delete a workspace",
                     "text": "Delete a workspace"
                 },
-                                {
+                {
                     "value": "Permanently delete a workspace",
                     "text": "Permanently delete a workspace"
                 },
@@ -60,7 +60,7 @@
         },
         {
             "id": "users",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening with a single user or multiple users?",
             "watermarkText": "Choose an option",
@@ -82,7 +82,7 @@
         },
         {
             "id": "interface",
-            "order": 7,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Which user experience are you using?",
             "watermarkText": "Choose an option",
@@ -112,19 +112,26 @@
                     "text": "Other"
                 }
             ],
-            "required": true
+            "required": false
+        },
+        {
+            "id": "attachment",
+            "order": 5,
+            "controlType": "infoblock",
+            "content": "Please provide a screenshot of any errors. In case you’re using an ARM template, please also attach all relevant JSON files.",
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. If using an experience other than Azure portal, provide the commands being executed or the API call being made.",
             "required": true,
-                        "hints": [
+            "hints": [
                 {
-                    "text": "In case you’re using an ARM template, please compress all the relevant JSON files and upload the ZIP file."
+                    "text": "Please include the exact text of any error message"
                 }
             ]
         }

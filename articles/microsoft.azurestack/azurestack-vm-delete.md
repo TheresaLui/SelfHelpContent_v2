@@ -29,6 +29,8 @@ If you wish to remove all resources contained in the same resource group, use an
 * [Azure PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-powershell#delete-the-virtual-machine)
 * [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-cli#clean-up-resources)
 
+You can also follow the steps in [How to delete a VM (virtual machine) with dependencies on Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/delete-vm).
+
 ## **Recommended Documents**
 
 * [Delete a VM using Azure PowerShell](https://docs.microsoft.com/powershell/module/azurerm.compute/remove-azurermvm)

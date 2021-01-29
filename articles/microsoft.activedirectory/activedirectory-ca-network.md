@@ -25,6 +25,6 @@ The location condition of a conditional access policy enables you to apply polic
 <br><br>
 For more details, see:
 <br>
-[How to configure "at work" networks for conditional access](http://aka.ms/calocation) <br>
+[How to configure "at work" networks for conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions) <br>
 [How to configure Trusted IP ranges in Azure AD](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next#trusted-ips) <br>
 [How to configure the ADFS inside corporate network claim](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-adfs-cloud)

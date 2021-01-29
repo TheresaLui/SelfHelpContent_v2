@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="a8fd63ce-4600-43eb-af33-a6d5481f5930_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USSec,USNat"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy MySQL DB Reserved capacity to save money over pay-as-you-go costs

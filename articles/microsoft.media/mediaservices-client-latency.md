@@ -9,10 +9,10 @@
 	articleId="mediaservices-client-latency"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32729550"
+	supportTopicIds="32729550,32632085"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public, mooncake, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Media"
 />
 # Client Latency
@@ -21,7 +21,7 @@
 
 * Ensure you are using Azure Media Services in an Azure region that is geographically closest to the majority of your customers
 * Enable Azure CDN for your streaming endpoint if a large number of clients will be simultaneously accessing content. Azure CDN can be enabled directly using either media services APIs or the Azure Portal.
-* For live streaming us a [recommended on-premises encoder](https://docs.microsoft.com/azure/media-services/previous/media-services-recommended-encoders)
+* For live streaming use a [recommended on-premises encoder](https://docs.microsoft.com/azure/media-services/previous/media-services-recommended-encoders)
 * Pre-load the media player on your webpage
 
 ## **Recommended Documents**

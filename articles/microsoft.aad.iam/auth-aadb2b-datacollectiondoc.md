@@ -4,7 +4,7 @@
     authors="marialai"
     ms.author="mal"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615429,32615396,32615387"
+    supportTopicIds=""
     productPesIds="16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -186,6 +186,14 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 10
+        },
+        {
+            "id": "resourceID",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Resoure ID",
+            "watermarkText": "Provide Resource ID for Resource with issue",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

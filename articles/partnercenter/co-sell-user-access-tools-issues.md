@@ -26,11 +26,11 @@
 - You should have referral admin access to view or create referrals
 - At least one solution from your company should be Co-sell ready for you to start creating Co-sell opportunities
 - Please check to make sure that the MPN id associated with your solution in GTM is same as the MPN id associated with your tenant. If they are not, please contact support with this information.
+- All documentation, associated with all other Business Profile, Co-sell and Referral support topics has access information at the beginning so please refer to those articles as appropriate.
 - If your solution was recently whitelisted for co-sell in Partner center, please note that it may take up to 24 hours before you can create a referral.
-- If you want to become Co-sell ready, contact the cosell desk after looking at the details of the program mentioned in the below link
 
 ## **Recommended Documents**
 
-* [Referral admin role details](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
-* [Become Co-sell ready](https://partner.microsoft.com/membership/sell-with-microsoft#become-ready)
-* [Learn how to Co-sell](https://docs.microsoft.com/partner-center/co-sell-with-microsoft)
+* [Access and Permissions to manage referrals](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
+* [Manage co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities)
+* [Manage leads](https://docs.microsoft.com/partner-center/manage-leads)

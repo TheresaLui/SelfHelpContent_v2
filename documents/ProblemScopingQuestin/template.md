@@ -8,7 +8,7 @@
 	cloudEnvironments=""
 	schemaVersion="1"
 	articleId=""
-	ownershipId=""
+	ownershipId="CloudES_AzureSupportPlatform"
 />
 # Useful Title
 ---

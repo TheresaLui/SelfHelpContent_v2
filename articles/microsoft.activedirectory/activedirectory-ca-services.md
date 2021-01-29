@@ -29,4 +29,4 @@ Conditional access policy is supported in the browser and using applications wit
 <br><br>
 The following document explains how to lock down older protocols with ADFS:
 <br>
-[How to configure conditional access for Office 365 SharePoint and Exchange](http://aka.ms/csforexchange)
+[How to configure conditional access for Office 365 SharePoint and Exchange](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)

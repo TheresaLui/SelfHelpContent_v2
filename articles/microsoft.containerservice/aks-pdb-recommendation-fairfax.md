@@ -3,7 +3,7 @@
     description="Pod Disruption Budgets Recommended"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="adfbfb45-0b4d-4d6d-96b5-bc458ae07a3a"
+    articleId="adfbfb45-0b4d-4d6d-96b5-bc458ae07a3a_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="Compute_AzureKubernetesService"

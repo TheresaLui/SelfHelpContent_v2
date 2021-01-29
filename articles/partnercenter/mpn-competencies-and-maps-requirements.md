@@ -25,4 +25,4 @@ How to find performance data in Partner Center.
 ## **Recommended Documents**
 
 * [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
-* [How to use the Problem Steps Recorder in Office 365](https://support.microsoft.com/help/3035258/how-to-use-the-problem-steps-recorder-in-office-365)
+* [How to use the Problem Steps Recorder in Office 365](https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder)

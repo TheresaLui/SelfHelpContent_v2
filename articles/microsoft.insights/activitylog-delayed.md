@@ -14,7 +14,6 @@
 />
 
 # <-- activitylog-delayed -->
-
 Most Activity Log entries are expected to show up in the Azure Portal within 15 minutes after the event has occurred. The **Service Health**, **Resource Health**, and **Security** events may take extra time, as they often require automated analysis or manual intervention before being submitted to the log. In any case, the *eventTimestamp* property of the event is backdated to the time when the incident has happened, while the *submissionTimestamp* property tracks the time when the Activity Log received the log entry.
 
 ## **Recommended Steps**
