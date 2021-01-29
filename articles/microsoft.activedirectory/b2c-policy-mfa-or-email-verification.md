@@ -10,44 +10,36 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec,blackforest"
   disableclouds=""
   articleid="8c96691c-3571-47b9-8b56-02c76feee40d"
-  ownershipid="AzureIdentity_B2C" 
- />
+  ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
 ## **Recommended Steps**
 
-### **Enable multi-factor authentication in Azure Active Directory B2C**
+### **Enable multi-factor authentication in Azure Active Directory B2C** 
 
-Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You enable multi-factor authentication without writing a single line of code. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy).
-
-
-### **Can I send customized email to users that sign up to use my applications?**
-
-Yes, by using <code>DisplayControls</code> (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template and From: address and subject, as well as support localization and custom one-time password (OTP) settings.
+Azure Active Directory B2C (AD B2C) integrates directly with Azure AD Multi-Factor Authentication. This allows you to add a second layer of security to the sign-up and sign-in experiences in your applications without writing a single line of code. Review these [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy).
 
 
-### **For my customers, can I generate and send a code to a phone number, and then verify the code?**
+### **Can I send customized email to users that sign up to use my applications?** 
 
-Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Use [this technical profile](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) to generate and send a code to a phone number, and then verify the code. 
+Yes, you can use the company branding feature to customize the content of verification emails. [Learn how elements of the email can be customized](https://docs.microsoft.com/azure/active-directory-b2c/faq?tabs=app-reg-ga#how-do-i-customize-verification-emails-the-content-and-the-from-field-sent-by-azure-ad-b2c). 
 
-
-### **I need to customize behavior of my Azure Active Directory B2C tenant**
-
-Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. User flows are predefined in the Azure AD B2C portal for the most common identity tasks. Custom policies can be fully edited by an identity developer to complete many different tasks. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview)
+Also, by using `DisplayControls` (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template, From: address, and subject, as well as support localization and custom One-Time Password (OTP) settings. 
 
 
-### **Password reset link is not working**
+### **For my customers, can I generate and send a code to a phone number, and then verify the code?** 
 
-Currently, the combined **Sign-up or Sign-in policy** has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
-
-1. **Use a Sign-in Policy**: No work required by the application. Selecting **I forgot my password** redirects the user automatically to a generic Microsoft-branded password reset page.
-1. **Handle the error**: This requires the application to do some extra work. Selecting **I forgot my password** redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
+Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Review [Steps to define an Azure AD MFA technical profile ](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile) to do this. 
 
 
-## **Recommended Documents**
+### **Can I customize end user sign up/sign in flows?** 
 
-* [Azure AD B2C policies](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)
-* [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+Yes, to help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
+
+Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. They are fully edited by an identity developer to complete many different tasks. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started). 
+
+### **Useful Links**
+
+* Learn [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
+* Review these [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
+* Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
