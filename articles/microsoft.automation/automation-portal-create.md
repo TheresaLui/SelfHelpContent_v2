@@ -1,20 +1,17 @@
 <properties
-    pageTitle="Azure Automation - Creating Automation Account"
-    description="Azure Automation - Creating Automation Account"
-    service="microsoft.automation"
-    resource="automationaccounts"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32599929"
-    resourceTags=""
-    productPesIds="15607"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="628c7a60-1534-4fe0-9f5a-5a125a45772a"
-	ownershipId="Compute_Automation"
-/>
-
+  pagetitle="Azure Automation - Creating Automation Account&#xD;"
+  description="Azure Automation - Creating Automation Account"
+  service="microsoft.automation"
+  resource="automationaccounts"
+  ms.author="zachal,riyadav"
+  selfhelptype="Generic"
+  supporttopicids="32599929"
+  resourcetags=""
+  productpesids="15607"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="628c7a60-1534-4fe0-9f5a-5a125a45772a"
+  ownershipid="Compute_Automation" />
 # Azure Automation - Creating Automation Account
 The Automation Account is used to host a variety of services, from runbooks to Update Management and Start-Stop VM Solution. This article will help you troubleshoot specific aspects of creating and maintaining an Automation Account.
 
