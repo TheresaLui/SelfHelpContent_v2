@@ -20,10 +20,10 @@
 # Netlogon Service is not running
 
 <!--issueDescription-->
-We have investigated and identified that the Netlogon service is not running on this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->, causing a loss of network connectivity. This could happen if the service is disabled accidentally or if the service is crashing or hung.
+We have investigated and identified that the Netlogon service is not running on this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->, causing a loss of network connectivity. This can happen if the service is crashing, hanging, or is accidentally disabled.
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue please follow the steps in the [Netlogon not starting](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/azure-vm-netlogon-not-starting) troubleshooting guide.
+To resolve this issue, follow the steps in the [Netlogon not starting troubleshooting guide](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/azure-vm-netlogon-not-starting).
