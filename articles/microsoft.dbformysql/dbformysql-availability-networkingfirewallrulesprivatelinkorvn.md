@@ -42,6 +42,7 @@ Please refer to recommended steps for respective section for resolving common is
 
 * If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
 * If you are using a Basic tier server, note that [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link) is not supported
+* If you want only private endpoint connections to be allowed to access your server, then set [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access) to **Yes**
 
 ### VNet Service endpoint
 
