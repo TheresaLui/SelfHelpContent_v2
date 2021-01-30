@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="VMA RCA"
 	description="Root Cause Analysis (RCA) - IO Timeout - Storage Partition Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
