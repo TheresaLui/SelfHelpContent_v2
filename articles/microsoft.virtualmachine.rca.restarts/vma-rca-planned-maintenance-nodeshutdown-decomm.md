@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This occurrence was caused by an **Azure initiated maintenance operation**.  Azure had previously notified impacted customers about this maintenance. As part of this operation, your VM experienced a reboot as it was migrated to newer hardware.
+> This occurrence was caused by an Azure initiated maintenance operation.  Azure had previously notified impacted customers about this maintenance. As part of this operation, your VM experienced a reboot as it was migrated to newer hardware.
 > 
 
 <!--resolutionDetails-->

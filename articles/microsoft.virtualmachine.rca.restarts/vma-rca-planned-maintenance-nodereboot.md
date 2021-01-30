@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This expected occurrence was caused by an **Azure initiated planned maintenance action**, which required a reboot of your virtual machines to apply the required updates to the infrastructure. The VM was shut down while we patched the infrastructure, and then restarted.
+> This expected occurrence was caused by an Azure initiated planned maintenance action, which required a reboot of your virtual machines to apply the required updates to the infrastructure. The VM was shut down while we patched the infrastructure, and then restarted.
 > 
 
 <!--resolutionDetails-->
