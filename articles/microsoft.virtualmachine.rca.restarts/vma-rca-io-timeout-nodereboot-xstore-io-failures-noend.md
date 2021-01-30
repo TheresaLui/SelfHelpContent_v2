@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The temporary VM shutdown was triggered by our Azure monitoring systems that detected a failed IO transaction between the physical host node where your VM was running and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. After the node detected that conditions had improved, the VM was restarted.
+> The temporary VM shutdown was triggered by our Azure monitoring systems which detected a failed IO transaction between the physical host node where your VM was running and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. After the node detected that conditions had improved, the VM was restarted.
 > 
 
 <!--resolutionDetails-->
