@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This occurrence was caused by an **Azure initiated memory-preserving update action** resulting in the VM rebooting. 
+> This occurrence was caused by an Azure initiated memory-preserving update action, which resulted in the VM rebooting. 
 > 
 
 <!--resolutionDetails-->
