@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Administration and Security/Serverless SQL pool - Storage access control"
+  pagetitle="Administration and Security/Serverless SQL pool - Storage access control&#xD;"
   service="microsoft.synapse"
   resource="workspaces"
   ms.author="fipopovi,saltug,goventur"
@@ -18,10 +18,27 @@ Most customers resolve their storage access issues in Serverless SQL pool using 
 ## **Recommended Steps**
 
 * **"File cannot be opened because it does not exist or is used by another process"**<br>
-    If your query fails with this error and you've verified that the file exists and is not used by another process, then the Serverless SQL pool can't access the file.
+   If your query fails with this error and you've verified that the file exists and is not used by another process, then the Serverless SQL pool can't access the file.<br>
+   If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).<br>
+   Use the following Powershell script to validate if the storage account network rules are correctly configured:<br>
+   ```
+      $resourceGroupName = "<resource group name>"
+      $accountName = "<storage account name>"
+      $rule = Get-AzStorageAccountNetworkRuleSet -ResourceGroupName $resourceGroupName -Name $accountName
+      
+      $rule.ResourceAccessRules | ForEach-Object {
+         Write-Host "Rule: " $_.ResourceId
+         if ($_.ResourceId -cmatch "\/subscriptions\/(\w\-*)+\/+resourcegroups\/+(.)")
+            { Write-Host "Storage account network rule is successfully configured." -ForegroundColor Green }
+         else
+            { Write-Host "Storage account network rule is not configured correctly. The identifier ""resourcegroups"" must be in lower case." -ForegroundColor Yellow }
+         Write-Host
+      }
+   ```
 
 * **"Failed to execute the query. Error: External table <_tablename_> is not accessible because content of directory cannot be listed."**<br>
-   If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).
+   If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).<br>
+   Use the Powershell script above to validate if the storage account network rules are correctly configured.
 
 * **If you use AAD login, check if the UserIdentity credential exists**<br>
    If this credential exists, you can give yourself permission to access the file by granting yourself the **'Storage Blob Data Contributor'** role on the storage account you're trying to query. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
