@@ -24,4 +24,5 @@ The NSI service is not running on the virtual machine <!--$vmname-->[vmname]<!--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the issue, please try the steps in the [Network Store Interface service not starting](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/azure-vm-nsi-not-starting) troubleshooting guide.
+
+To resolve the issue, follow the steps in the [Network Store Interface service not starting](https://docs.microsoft.com/troubleshoot/azure/virtual-machines/azure-vm-nsi-not-starting) troubleshooting guide.
