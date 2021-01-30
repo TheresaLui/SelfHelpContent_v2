@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The physical node where the virtual machine was hosted experienced a **platform bug involving the NIC firmware and drivers used for the Accelerated Networking**. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts.
+> The physical node where the virtual machine was hosted experienced a platform bug involving the NIC firmware and drivers used for the Accelerated Networking. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts.
 > 
 
 <!--resolutionDetails-->
