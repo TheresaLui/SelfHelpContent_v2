@@ -18,7 +18,7 @@ You can do online and offline migrations using Azure database migration services
 
 ## **Recommended Steps**
 
-* "Error 1" from storage engine <br>
+* "Got error 1 from storage engine" <br>
     * View [Can't restore database with error "Got error 1 from storage engine"](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-8211-can-t-restore-database-with-error/ba-p/368896)
     * View [Common known issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)
     
