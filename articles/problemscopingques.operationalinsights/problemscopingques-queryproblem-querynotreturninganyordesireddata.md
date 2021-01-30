@@ -24,7 +24,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem started?",
+            "displayLabel": "When did the problem start?",
             "required": false
         },
         {
@@ -53,7 +53,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "is_multiple_users",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is the error happening to a single user or multiple users?",
+            "displayLabel": "Is the error happening for a single user or multiple users?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -92,7 +92,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What were the expected query results?",
-            "watermarkText": "Please include as much details as possible",
+            "watermarkText": "Please include as many details as possible",
             "required": false
         },
         {
@@ -108,7 +108,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. Please also add query time range (if not defined directly on the query itself)",
+            "watermarkText": "Describe the issue, including as much detail as possible, and with the exact text of error messages, where available. Please also add query time range (if not defined directly on the query itself)",
             "required": true,
             "hints": []
         }
