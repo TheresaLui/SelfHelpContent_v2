@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - Generic"
+	description="Root Cause Analysis (RCA) - Software - Guest OS - Generic"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -41,7 +41,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-<!--recommendedActions-->## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Steps**
 
 > To investigate the causes of the VM crash, please use the following references that might be helpful:
 > 

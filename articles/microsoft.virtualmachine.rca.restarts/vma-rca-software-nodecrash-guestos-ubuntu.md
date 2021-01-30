@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - UBUNTU"
+	description="Root Cause Analysis (RCA) - Software - Guest OS - UBUNTU"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -41,7 +41,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-<!--recommendedActions-->## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:
 > 

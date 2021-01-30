@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Planned Maintenance - Node Shutdown - Live Migration"
+	description="Root Cause Analysis (RCA) - Planned Maintenance - Live Migration"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
