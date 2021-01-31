@@ -57,5 +57,6 @@ Are you facing one of these common problems?
 * [Run automated tests from test plans](https://docs.microsoft.com/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
 * [Visual Studio Test task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops)
 * [Manage flaky tests](https://docs.microsoft.com/azure/devops/pipelines/test/flaky-test-management?view=azure-devops)
-** For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
-** Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net)
+
