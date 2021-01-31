@@ -1,32 +1,26 @@
 <properties
-	pageTitle="Azure ARM Service Connections"
-	description="Issues related to ARM service connection creation, permissions, user interface, different options available in UI or any other guidances related to service connection."
-	infoBubbleText="Azure Pipelines issues related to Service Endpoints"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="v-abiss"
-	ms.author="v-abiss"
-	articleId="AzureRMServiceConnection"
-	supportTopicIds="32742301"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure pipelines issues while making use of Azure Service Connections&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="v-abiss,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742301"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azurermserviceconnection"
+  ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure Service Connections
 
 ## **Recommended Steps**
 
-* I can't assign an azure subscription to a new release
+* I can't assign an Azure subscription to a new release
 
-    Ensure you are using a subscription with a resource group to which you are authorized to deploy. To push a release, make sure you have the appropriate [user roles/access](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles) to the subscription.
+    Ensure you are using a subscription with a resource group to which you're authorized to deploy. To push a release, make sure you have the appropriate [user roles/access](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles) to the subscription.
 
-* Unable to select a subscription even if I'm the Admin and Owner of it. I also cannot create a new **Service Connection**.
+* Unable to select a subscription even if I'm the Admin and Owner of it. I also can't create a new **Service Connection**.
 	
-    Check the role of the **App Registration**. Update the role of the **App Registration** manually and retry [Creating a new Service Connection](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml). This often happens if you had an existing service connection and the Service Principal associated with it got expired. While trying to renew it, the App registration may have lost the proper role which might be  causing conflicts when trying to use it.
+    Check the role of the **App Registration**. Update the role of the **App Registration** manually and retry [Creating a new Service Connection](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml). This often happens if you had an existing service connection and the Service Principal associated with it was expired. While trying to renew it, the App registration may have lost the proper role, which might cause conflicts when you try to use it.
 
 * I'm unable to authenticate the **Service Principal** in my CI/CD pipeline
 
@@ -36,7 +30,7 @@
 
     Ensure you have the appropriate [user roles/access](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles) assigned.
 
-* Failed to authorize the service connection resource for pipeline
+* Failed to authorize the service connection resource for the pipeline
 
     Make sure the right service connection is selected in the pipeline and the necessary [pipeline permissions](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#pipeline-permissions) are granted to access this service connection.
 
@@ -50,3 +44,5 @@
 * [Azure Resource Manager Service Connection](https://docs.microsoft.com/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
 * [Troubleshoot Azure Resource Manager service connections](https://docs.microsoft.com/azure/devops/pipelines/release/azure-rm-endpoint?view=azure-devops)
 * [Azure Resource Manager service connection using automated security](https://docs.microsoft.com/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

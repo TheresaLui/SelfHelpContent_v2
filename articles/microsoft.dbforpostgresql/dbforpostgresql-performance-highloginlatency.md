@@ -21,7 +21,7 @@ Slow login issues can have many different root causes. Work through the recommen
 
 ## **Recommended Steps**
 
-* Monitor the resource consumption of your server. If you are maxing out IO, memory or compute resources, scale up the resource that you are limited on.
+* Monitor the resource consumption of your server. If you are maxing out IO, memory, or compute resources, scale up the resource that you are limited on.
 * If your client is hosted in an Azure VM, use accelerated networking for lowest connection latency
 * Creating a new connection in Azure database for PostgreSQL - Single Server can take 100-300ms. We recommend using [connection pooling](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/not-all-postgres-connection-pooling-is-equal/ba-p/825717) on the client whenever possible to avoid overhead of frequently establishing new connections. We recommend [pgBouncer](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/steps-to-install-and-setup-pgbouncer-connection-pooling-proxy/ba-p/730555).
 

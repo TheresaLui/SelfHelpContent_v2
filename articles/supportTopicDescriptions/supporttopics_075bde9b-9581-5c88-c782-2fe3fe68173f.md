@@ -51,7 +51,7 @@
       "id": "eb74583c-61b3-2124-bffc-00920e0ae772",
       "longDescription": "",
       "shortDescription": "Questions about updating company details such as legal business name, address, MPN ID, and contact",
-      "searchTags": "Accounts;Onboarding;Name;Address",
+      "searchTags": "Accounts;Onboarding;Name;Address;email;primary;contact",
     },
     {
       "id": "947c4002-296a-cde8-f0b1-931edc6718f5",
@@ -153,13 +153,13 @@
       "id": "7edb156d-e775-c0f0-2943-1eac0738046a",
       "longDescription": "",
       "shortDescription": "Information on how to enroll as an Indirect reseller in CSP channel",
-      "searchTags": "Status;Register;Enroll;Onboard;MPA",
+      "searchTags": "Status;Register;Enroll;Onboard;MPA;register;enroll;CSP",
     },
     {
       "id": "2da4e1c7-3b4b-5672-6227-56bc75a936b4",
       "longDescription": "",
       "shortDescription": "How to accept the MPA, access to indirect reseller agreement for Providers and information on updates to the agreement",
-      "searchTags": "MPAl;Accept;Sign;Direct;CSP",
+      "searchTags": "MPAl;Accept;Sign;Direct;CSP;signature",
     },
     {
       "id": "1376f3dc-d2ac-bf02-4071-939930873b0e",

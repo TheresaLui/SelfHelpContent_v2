@@ -1,21 +1,15 @@
 <properties
-	pageTitle="Azure Pipelines Getting Started"
-	description="Azure Pipelines help getting started"
-	infoBubbleText="Azure Pipelines help getting started"
-	service="microsoft.visualstudio"
-	resource="account"
-	authors="vijayma"
-	ms.author="vijayma"
-	articleId="AZDevOpsPipelinesGetStarted"
-	supportTopicIds="32742316"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	resourceTags=""
-	productPesIds="15543"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Azure_DevOps_Services"
-/>
-
+  pagetitle="Azure Pipelines Getting Started&#xD;"
+  service="microsoft.visualstudio"
+  resource="account"
+  ms.author="vijayma,cathmill"
+  selfhelptype="Generic"
+  supporttopicids="32742316"
+  resourcetags=""
+  productpesids="15543"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azdevopspipelinesgetstarted"
+  ownershipid="Azure_DevOps_Services" />
 # Azure Pipelines Getting Started
 
 ## **Recommended Steps**
@@ -50,5 +44,5 @@ In general, our support team is equipped to handle specific issues that arise wh
 
 * [Azure Pipelines Docs](https://docs.microsoft.com/azure/devops/pipelines/?view=azure-devops)
 * [YAML schema](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema?view=azure-devops)
-* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

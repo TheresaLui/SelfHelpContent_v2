@@ -43,15 +43,6 @@ ownershipId="PartnerSolutions_Confluent"
 			"searchTags": "create, deployment, validations",
 			"supportTopicId": "32783357",
 			"commonSolutionArticleId": "8fc6321c-4174-4b44-93a4-10409cbf7ea6"
-		},
-		{
-			"id": "My_problem_is_not_listed_here",
-			"title": "My problem is not listed here",
-			"description": "Miscellaneous solutions for my resource",
-			"category": "Miscellaneous",
-			"searchTags": "sso, login, offer, plan",
-			"supportTopicId": "32783356",
-			"commonSolutionArticleId": "7cc179f4-ee36-4826-83e8-89413809cf10"
 		}
 	],
 	"troubleshootingTools": []
