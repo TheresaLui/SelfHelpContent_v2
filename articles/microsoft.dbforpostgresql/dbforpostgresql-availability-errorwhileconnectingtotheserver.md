@@ -25,7 +25,7 @@ This means your connection string is correct and you can connect successfully in
 This could be because of issue in Azure infra or maintenance activities.
 * There may be a planned maintenance activity going on your database server. Check your Resource Health for the status. You may also want to setup [planned maintenance notifications](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification) to get notified of any planned activities. 
 * If you think there is a regional outage, see Overview of [business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region. 
-### **Scenario: Unable to connect to Postgres Server**
+### **Scenario: Unable to connect to PostgreSQL Server**
 There can be multiple reasons for failing to establish the connection. The following steps could help you resolve the issue:
 #### **Check connection string and password**
 * Make sure the user you are connecting with an account has the appropriate permission.
@@ -43,10 +43,10 @@ There can be multiple reasons for failing to establish the connection. The follo
 * If you are connecting within Azure VM (virtual machines), check NSG (network security groups) rules to see if it blocks the connection. Also check the route table and see if there is any VPN device which may need to be configured.
 * If you are using VNET rules, ensure that the [service endpoints](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal?WT.mc_id=Portal-Microsoft_Azure_Support)  are correctly configured. 
 * If you are using basic tier and see the error 'Server is not configured to allow IPv6 connections', note that the Basic tier does not support VNet service endpoints. You must remove the endpoint Microsoft.Sql from the subnet attempting to connect to the Basic tier server. 
-* When you see ‘An existing connection was forcibly closed by the remote host,’ that indicates your client closed the connection to the Postgres server. Check your client timeout and idle connection settings. Learn more about [this error](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/are-you-running-into-postgres-connection-issues-on-azure/ba-p/1994913) 
+* When you see ‘An existing connection was forcibly closed by the remote host,’ that indicates your client closed the connection to the PostgreSQL server. Check your client timeout and idle connection settings. Learn more about [this error](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/are-you-running-into-postgres-connection-issues-on-azure/ba-p/1994913) 
 #### **Check if you are using the right connection drivers?**
 * Check out this supported [client library](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) list.
-* If you see an error related to GSS, you are likely using a newer client/driver version which Azure Postgres Single Server does not yet fully support. This error is known to affect [JDBC driver versions 42.2.15 and 42.2.16](https://github.com/pgjdbc/pgjdbc/issues/1868).  Consider using a later driver version. Or, consider disabling the request of GSSAPI. Use a connection parameter like gssEncMode=disable.
+* If you see an error related to GSS, you are likely using a newer client/driver version which Azure PostgreSQL Single Server does not yet fully support. This error is known to affect [JDBC driver versions 42.2.15 and 42.2.16](https://github.com/pgjdbc/pgjdbc/issues/1868).  Consider using a later driver version. Or, consider disabling the request of GSSAPI. Use a connection parameter like gssEncMode=disable.
 ### **Scenario: Connection is taking longer time**
 The Single Server architecture leads to high connection time. This can impact your workload performance if there are large short duration connections. For example, user creates a connection, runs a simple query, and closes the connection. We highly recommend connection pooling if you have not done it yet and exam your pool configuration. [Learn more about this](https://azure.microsoft.com/blog/performance-best-practices-for-using-azure-database-for-postgresql-connection-pooling/). 
 
