@@ -51,7 +51,7 @@ Are you facing one of these common problems?
 ## **Recommended Documents**
 
 * [Review code coverage results](https://docs.microsoft.com/azure/devops/pipelines/test/review-code-coverage-results?view=azure-devops)
-* [Publish Code Coverage Results task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/publish-code-coverage-results?view=azure-devops)
+* [Publish Code Coverage Results task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/publish-code-coverage-results?view=azure-devops)
 * [UI test with Selenium](https://docs.microsoft.com/azure/devops/pipelines/test/continuous-test-selenium?view=azure-devops)
 * [Associate automated tests with test cases](https://docs.microsoft.com/azure/devops/test/associate-automated-test-with-test-case?view=azure-devops)
 * [Run automated tests from test plans](https://docs.microsoft.com/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
