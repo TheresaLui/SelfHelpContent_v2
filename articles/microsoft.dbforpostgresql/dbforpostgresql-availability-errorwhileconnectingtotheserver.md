@@ -15,7 +15,9 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-### **Error while connecting to server**
+# **Error while connecting to server**
+
+## **Recommended Steps**
 
 ### **Scenario: Connection failures/timeout during peak hours**
 
