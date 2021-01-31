@@ -26,7 +26,7 @@ Are you facing one of these common problems?
 
 * **I want to configure Azure pipeline to run Web UI test**
 
-    [Refer to this document](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/continuous-test-selenium?view=azure-devops).
+    [Refer to this document](https://docs.microsoft.com/azure/devops/pipelines/test/continuous-test-selenium?view=azure-devops).
 
 * **My test results are published however, no code coverage data available even though the code coverage file is being created after the build.
 
@@ -56,6 +56,6 @@ Are you facing one of these common problems?
 * [Associate automated tests with test cases](https://docs.microsoft.com/azure/devops/test/associate-automated-test-with-test-case?view=azure-devops)
 * [Run automated tests from test plans](https://docs.microsoft.com/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
 * [Visual Studio Test task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops)
-* [Manage flaky tests](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/flaky-test-management?view=azure-devops)
+* [Manage flaky tests](https://docs.microsoft.com/azure/devops/pipelines/test/flaky-test-management?view=azure-devops)
 ** For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
