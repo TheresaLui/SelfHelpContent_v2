@@ -23,7 +23,6 @@ This means your connection string is correct and you can connect successfully in
 * Check the connection limit for your server's [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). Review the configured number of connections for your server and the usage.
 ### **Scenario: All connections are failing suddenly**
 This could be because of issue in Azure infra or maintenance activities.
-* There may be a planned maintenance activity going on your database server. Check your Resource Health for the status. You may also want to setup [planned maintenance notifications](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification) to get notified of any planned activities.
 * If you think there is a regional outage, see Overview of [business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region.
 ### **Scenario: Unable to connect to PostgreSQL Server**
 There can be multiple reasons for failing to establish the connection. The following steps could help you resolve the issue:
