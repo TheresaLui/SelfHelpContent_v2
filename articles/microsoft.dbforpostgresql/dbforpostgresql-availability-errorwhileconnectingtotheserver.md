@@ -21,10 +21,12 @@
 This means your connection string is correct and you can connect successfully in regular hours. However, during peak hours you may experience either connection failures or time outs.
 * Please check your active connections as well as CPU/memory/IO usage percentage in the portal metrics tab. High utilization may lead to unavailable resources for a new connection. Please consider upgrading your server if the resource is hitting 100%.  
 * Check the connection limit for your server's [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). Review how many connections your server has and how many more you are attempting.
+
 ### **Scenario: All connections are failing suddenly**
 This could be because of issue in Azure infra or maintenance activities.
 * There may be a planned maintenance activity going on your database server. Check your Resource Health for the status. You may also want to setup [planned maintenance notifications](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification) to get notified of any planned activities. 
-* If you think there is a regional outage, see Overview of [business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region. 
+* If you think there is a regional outage, see Overview of [business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region.
+
 ### **Scenario: Unable to connect to PostgreSQL Server**
 There can be multiple reasons for failing to establish the connection. The following steps could help you resolve the issue:
 #### **Check connection string and password**
@@ -47,6 +49,7 @@ There can be multiple reasons for failing to establish the connection. The follo
 #### **Check if you are using the right connection drivers?**
 * Check out this supported [client library](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) list.
 * If you see an error related to GSS, you are likely using a newer client/driver version which Azure PostgreSQL Single Server does not yet fully support. This error is known to affect [JDBC driver versions 42.2.15 and 42.2.16](https://github.com/pgjdbc/pgjdbc/issues/1868).  Consider using a later driver version. Or, consider disabling the request of GSSAPI. Use a connection parameter like gssEncMode=disable.
+
 ### **Scenario: Connection is taking longer time**
 The Single Server architecture leads to high connection time. This can impact your workload performance if there are large short duration connections. For example, user creates a connection, runs a simple query, and closes the connection. We highly recommend connection pooling if you have not done it yet and exam your pool configuration. [Learn more about this](https://azure.microsoft.com/blog/performance-best-practices-for-using-azure-database-for-postgresql-connection-pooling/). 
 
