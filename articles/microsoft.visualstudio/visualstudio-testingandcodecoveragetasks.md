@@ -30,11 +30,11 @@ Are you facing one of these common problems?
 
 * **My test results are published however, no code coverage data available even though the code coverage file is being created after the build.
 
-    This happens when mixed version of Visula Studio are used to build and run tests. Ensure the platform and configurations that are used for running the build and tests are the same in the pipeline. 
+    This happens when mixed version of Visual Studio are used to build and run tests. Ensure the platform and configurations used for running the build and tests are the same in the pipeline. 
 
 * **I would like to link the automation tests that are executed during the pipeline with that of my test plan for a NodeJS/Java application**
 
-    Associating the test case is supported only for MSTest framework which is present in a test case under **Associated Automation** option. For a Node.js and a Java based application. we will not be able to link it with test plan option in Azure DevOps Services. However, you can execute the tests by using a third-party tool and make use of the [tracebility option](https://docs.microsoft.com/azure/devops/pipelines/test/requirements-traceability?view=azure-devops) available in Azure Pipelines to display the reports.
+    Associating the test case is supported only for MSTest framework which is present in a test case under **Associated Automation** option. For a Node.js and a Java based application. We will not be able to link it with test plan option in Azure DevOps Services. However, you can execute the tests by using a third-party tool and make use of the [traceability option](https://docs.microsoft.com/azure/devops/pipelines/test/requirements-traceability?view=azure-devops) available in Azure Pipelines to display the reports.
 
 * **My gradle Build Step fails even after all the test cases passing**
 
@@ -42,7 +42,7 @@ Are you facing one of these common problems?
 
 * **I can't get UnitTest task result and coverage**
 
-    Use the relevant options in [this task](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops) o perform the test and publish the results respectively.
+    Use the relevant options in [this task](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops) to perform the test and publish the results respectively.
 
 * **I'm Unable to publishing code coverage results on the Azure DevOps UI and there is no documentation regarding the same
 
@@ -58,4 +58,4 @@ Are you facing one of these common problems?
 * [Visual Studio Test task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops)
 * [Manage flaky tests](https://docs.microsoft.com/azure/devops/pipelines/test/flaky-test-management?view=azure-devops)
 ** For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
-* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+** Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
