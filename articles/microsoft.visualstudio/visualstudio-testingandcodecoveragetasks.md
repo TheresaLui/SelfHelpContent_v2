@@ -40,7 +40,7 @@ Are you facing one of these common problems?
 
     There is a possibility that a few tests are failing, and passing on rerun. In such scenarios, you can ignore these flaky tests in pass percentage calculation by enabling the [flaky tests](https://docs.microsoft.com/azure/devops/pipelines/test/flaky-test-management?view=azure-devops).
 
-* **I can't get UnitTest task result and coverage**
+* **I'm unable to fetch the Unit Test task's result and coverage reports**
 
     Use the relevant options in [this task](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops) to perform the test and publish the results respectively.
 
@@ -57,5 +57,5 @@ Are you facing one of these common problems?
 * [Run automated tests from test plans](https://docs.microsoft.com/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
 * [Visual Studio Test task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops)
 * [Manage flaky tests](https://docs.microsoft.com/azure/devops/pipelines/test/flaky-test-management?view=azure-devops)
-** For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
-** Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+** For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com)
+** Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net)
