@@ -60,13 +60,13 @@
         },
         {
             "id": "resourceGroup",
-            "order": 4,
+            "order": 2,
             "visibility": "topology == In the same VNET || topology == In a peered VNET(same region)",
             "controlType": "dropdown",
             "displayLabel": "Provide the Resource Group name of the source VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2020-12-01",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -86,14 +86,14 @@
         },
         {
             "id": "VMName",
-            "order": 5,
+            "order": 3,
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Provide the name of the source VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2020-12-01",
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachines?api-version=2020-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -114,13 +114,13 @@
         },
         {
             "id": "HubVNET",
-            "order": 6,
+            "order": 4,
             "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
-            "displayLabel": "Chose the virtual network connected to your on-premise network",
+            "displayLabel": "Choose the virtual network connected to your on-premise network",
             "watermarkText": "Choose a virtual network",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2020-12-01",
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualWans?api-version=2020-07-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -137,6 +137,13 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "ipaddress",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "What is the IP address you have a problem connecting to?",
+            "required": false
         },
         {
             "id": "problem_start_time",

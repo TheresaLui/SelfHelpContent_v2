@@ -16,7 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Cosmos DB MongoDB Indexing
+# Cosmos DB MongoDB Indexing 
 
 Most users are able to resolve issues with MongoDB Indexing by using the steps below.
 

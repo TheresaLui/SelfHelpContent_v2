@@ -24,11 +24,13 @@
 ## **Recommended Steps**
 
 1.	Clear your browser cache & cookies.
-2.	Verify that the referral has not expired.
-3.	If you are unable to view specific referrals from one or more tenants, and you would like to view referrals across multiple tenants, please submit a support ticket to connect the tenants.
+2.	If you are unable to view one or more referrals, for one or more location(s), please verify that you have the '_Referrals admin_' role for your desired location(s). You can verify your access by selecting '_My Profile > Partner Center permissions > Click here to view permissions_'.
+3.	If you do not have the requisite access, please reach out to your account administrator to request the '_Referrals admin_' role assignment for your desired location(s).
 
-**Note**: Please include the MPN ID & the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
+
+**Note**: Please include your role, location & the MPN ID when filing a support ticket. If you received referral notification(s), please include a screenshot of the email(s) and the referral link (if available).
 
 ## **Recommended Documents**
 
 * [Manage Co-sell opportunities](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities#frequently-asked-questions)
+* [Partner Center Permissions Overview](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)

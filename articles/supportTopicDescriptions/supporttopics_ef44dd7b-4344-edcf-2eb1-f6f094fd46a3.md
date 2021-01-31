@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle, deseelam"
+  ms.author="anvar, panshar, adoyle, deseelam, bhpat"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   ownershipid="Compute_AzureMigrate" />
 # Support Topic Descriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3
@@ -43,6 +44,14 @@
       "shortDescription": "Issues related to a difference in count of servers discovered",
       "searchTags": "count mismatch",
       "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
+      "longDescription": "",
+      "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
+      "searchTags": "Discovery;SQL",
+      "category": "Discovery",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -382,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
+      "longDescription": "",
+      "shortDescription": "Issues faced after successfully creating and Azure SQL Assessment ",
+      "searchTags": "Assessment;SQL",
+      "category": "Assessment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c302cd95-1688-fcca-3880-7e4a5a5cd8a5",
       "longDescription": "",
       "shortDescription": "Issues related to Configuration Server and Mobility services",
@@ -390,19 +407,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
-      "longDescription": "",
-      "shortDescription": "Issues related to Configuration Server or Mobility services",
-      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
-      "category": "Physical to Azure",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "c4b201a2-c076-197e-c1a7-e59f1c32cf44",
       "longDescription": "",
       "shortDescription": "Issues related to Hyper-V replication provider",
       "searchTags": "Hyper-V host migration",
       "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server or Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
