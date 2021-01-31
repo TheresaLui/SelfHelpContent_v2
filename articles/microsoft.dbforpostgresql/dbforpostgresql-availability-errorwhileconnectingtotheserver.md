@@ -20,9 +20,10 @@
 ### **Scenario: Connection failures/timeout during peak hours**
 This means your connection string is correct and you can connect successfully in regular hours. However, during peak hours you may experience either connection failures or time outs.
 * Please check your active connections as well as CPU/memory/IO usage percentage in the portal metrics tab. High utilization may lead to unavailable resources for a new connection. Please consider upgrading your server if the resource is hitting 100%.  
-* Check the connection limit for your server's [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). Review the configured number of connections for your server and the usage.
+* check the connection limit of your PostgreSQL server using [pricing tier](https://docs.microsoft.com/azure/postgresql/concepts-limits). Review the configured number of connections and the usage.
 ### **Scenario: All connections are failing suddenly**
 This could be because of issue in Azure infra or maintenance activities.
+* There may be a planned maintenance activity going on your database server. Check your Resource Health for the status. We recommend setting up [planned maintenance notifications](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification) to get advance notification of maintenance activity.
 * If you think there is a regional outage, see Overview of [business continuity](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity) with Azure Database for PostgreSQL for steps to recover to a new region.
 ### **Scenario: Unable to connect to PostgreSQL Server**
 There can be multiple reasons for failing to establish the connection. The following steps could help you resolve the issue:
