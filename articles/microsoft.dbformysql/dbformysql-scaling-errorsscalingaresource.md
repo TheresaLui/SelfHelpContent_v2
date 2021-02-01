@@ -1,51 +1,47 @@
 <properties
-    pageTitle="Error while scaling a resource in Azure Database for MySQL"
-    description="Error while scaling a resource in Azure Database for MySQL"
-    service="microsoft.dbformysql"
-    resource="servers"
-    authors="andrela"
-    ms.author="ajlam"
-    displayOrder="170"
-    selfHelpType="generic"
-    supportTopicIds="32640054"
-    resourceTags="servers, databases"
-    productPesIds="16221"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="58f4750d-e3ae-4f4d-96c6-f0eb789ae5f7"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
-/>
-
+  pagetitle="Error while scaling a resource in Azure Database for MySQL"
+  description="Error while scaling a resource in Azure Database for MySQL"
+  service="microsoft.dbformysql"
+  resource="servers"
+  ms.author="ajlam,jtoland"
+  selfhelptype="Generic"
+  supporttopicids="32640054"
+  resourcetags="servers,databases"
+  productpesids="16221"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="58f4750d-e3ae-4f4d-96c6-f0eb789ae5f7"
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Error while scaling a resource in Azure Database for MySQL
 
-Azure Database for MySQL Single Server and Flexible Servers offer scaling for compute and storage resources. Scaling compute resources (across compute/pricing tiers or vCores) requires a server restart to apply. Scaling storage is an online operation and does not require a restart.
+Azure Database for MySQL Single server and Flexible server offer scaling for compute and storage resources. Scaling compute resources (across compute/pricing tiers or vCores) requires a server restart. Scaling storage is an online operation that does not require a server restart.
 
-Most users are able to resolve their issue using the steps below.
+Most users can resolve their issues by considering the following points.
 
-## **Recommended Steps**
+### Considerations
 
 *Single server*
 
-* Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
+* Unable to scale from Basic to General Purpose/Memory Optimized service tiers, or vice versa.
 
-  * If you want to switch from Basic to General Purpose or Memory Optimized and vice-versa, please follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404) blog
+  To switch from Basic to General Purpose or Memory Optimized, or vice versa, follow the steps in the blog post [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
 
-* Connections are dropped and no new connections can be established while vCores are scaled:
+* Connections are dropped and no new connections can be established while vCores are scaled.
 
-  * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so your application can seamlessly reconnect to the MySQL server once the scale operation is completed. Storage scaling does not cause a restart.
+  vCore scaling requires a server restart. When new connections cannot be established, the time it takes the window to display varies, but in most cases, it takes under a minute. It is recommend to implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
 
-* Cannot scale up the master server when a replica exists, or cannot scale down a replica:
+* Cannot scale up the master server when a replica exists, or cannot scale down a replica.
 
-  * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+  Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
 
-* Cannot scale storage provisioned up to 16 TB:
+* Cannot scale up provisioned storage to 16 TB.
 
-  * Your server may be running on our storage option supporting up to 4 TB. To upgrade your server to support up to 16 TB, perform a dump & restore to a new server created with 16 TB.
+  Storage on a server that supports up to 4 TB cannot be increase. To move to a server with 16 TB of storage, create a new server using the 16 TB storage option and then perform a dump & restore to the new server.
 
 *Flexible server*
 
-* Connections are dropped and no new connections can be established while vCores are scaled:
+* Connections are dropped and no new connections can be established while vCores are scaled.
 
-  * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the MySQL server once the scale operation is completed. Storage scaling does not cause a restart.
+  vCore scaling requires a server restart. When new connections cannot be established, the time it takes the window to display varies, but in most cases, it takes under a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
 
 * Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
