@@ -18,7 +18,7 @@
 
 # Azure Cosmos DB Security How-to
 
-For different topics on security in Azure Cosmos Database (DB), see the following articles:
+For different topics on security in Azure Cosmos DB, see the following articles:
 
 
 ## **Recommended Documents**
