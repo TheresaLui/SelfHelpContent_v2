@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Issues in creating configuration (GitOps) on Arc enabled Kubernetes",
-    "fileAttachmentHint": "Upload the output of running the 'az k8sconfiguration show' command",
+    "fileAttachmentHint": "Upload the output of running the az k8sconfiguration show command",
     "formElements": [{
             "id": "problem_start_time",
             "order": 1,
@@ -38,7 +38,7 @@
             "id": "agent_scheduling",
             "order": 3,
             "controlType": "dropdown",
-            "infoBalloonText": "Run 'kubectl get pods -n azure-arc' to verify that all agent pods are in a 'Running' state",
+            "infoBalloonText": "Run kubectl get pods -n azure-arc to verify that all agent pods are in a Running state",
             "displayLabel": "Are all Azure Arc agent pods in a Running state?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
@@ -58,7 +58,7 @@
             "id": "flux_scheduling",
             "order": 4,
             "controlType": "dropdown",
-            "infoBalloonText": "Run 'kubectl get pods -n <operator-namespace>' to verify that the flux operator pods are in a 'Running' state",
+            "infoBalloonText": "Run kubectl get pods -n your-operator-namespace to verify that the flux operator pods are in a 'Running' state",
             "displayLabel": "Are all Flux operator pods in a Running state?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
