@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Issues in creating configuration (GitOps) on Arc enabled Kubernetes"
-	description="Issues in creating configuration (GitOps) on Arc enabled Kubernetes"
+	pageTitle="Unable to apply configurations at scale on Azure Arc enabled Kubernetes resources using Azure Policy"
+	description="Unable to apply configurations at scale on Azure Arc enabled Kubernetes resources using Azure Policy"
 	ms.author="shasb"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739657"
+	supportTopicIds="32739655"
 	productPesIds="17112"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="a45d3434-4824-417f-b5b8-1dfc2c8a5377"
+	articleId="915a6938-f722-4fcd-a2c9-07712362497e"
 	ownershipId="AzureArc_HybridKubernetes"
 />
 
-# Issues in creating configuration (GitOps) on Arc enabled Kubernetes
+# Unable to apply configurations at scale on Azure Arc enabled Kubernetes resources using Azure Policy
 
 ---
 
@@ -28,15 +28,8 @@
             "displayLabel": "When did you try to create a configuration on your Azure Arc enabled Kubernetes cluster?",
             "required": true
         }, {
-            "id": "versions",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Which version of Azure CLI, Kubernetes cluster are you running?",
-            "watermarkText": "Run 'az -v; kubectl version' and paste the output of the command here",
-            "required": true
-        }, {
             "id": "agent_scheduling",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "infoBalloonText": "Run kubectl get pods -n azure-arc to verify that all agent pods are in a Running state",
             "displayLabel": "Are all Azure Arc agent pods in a Running state?",
@@ -56,7 +49,7 @@
             "required": true
         }, {
             "id": "flux_scheduling",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "infoBalloonText": "Run kubectl get pods -n your-operator-namespace to verify that the flux operator pods are in a 'Running' state",
             "displayLabel": "Are all Flux operator pods in a Running state?",
@@ -76,7 +69,7 @@
             "required": true
         }, {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
