@@ -62,7 +62,7 @@
                     "text": "Expand a Windows volume"
                 },
                 {
-                    "value": "Other (describe below)",
+                    "value": "dont_know_answer",
                     "text": "Other (describe below)"
                 }
             ],
