@@ -24,6 +24,8 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 ### **How to enable PITR on Existing accounts?**
 - This is currently not supported during preview
 
+<br>
+
 ### **What is not supported in Jan 2021 preview**
 - Cassandra, Table, Gremlin not supported
 - Gov/National regions not supported
@@ -39,11 +41,15 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 - The restore window is only 30 days. This cannot be changed.
 - The backups are not automatically geo disaster resistant. Customers need to add another region to get resiliency for account as well as backup.
 - While a restore is in progress, do not modify or delete the Identity and Access Management (IAM) policies that grant the permissions for the account or change any vnet/firewall.
-  
+
+<br>
+
 ### **What is restored?**
 - Data
 - Creation time Index for a collection
 - Creation time TTL
+
+<br>
 
 ### **What is not restored?**
 - Latest RU setting or offer.  The account administrator can apply the required throughput.
@@ -53,19 +59,27 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 - VNET, Firewall settings can be added as required
 - Consistency.  Default session consistency is restored, however this can be changed as required.
   
-  
+<br>
+
 ### **Can you switch off or disable the PITR backups?**
 - No, once turned on, PITR cannot be disabled
 
+<br>
 
 ### **What is the retention for PITR?**
 - A PITR enabled account, retains backups for a period of 30 days
 
+<br>
+
 ### **Can PITR interval be changed?**
 - No
 
+<br>
+
 ### **Can you configure to take a backup in Read regions?**
 - Yes, this happens in continuous backup mode automatically
+
+<br>
 
 ## **Recommended Documents**  
 
