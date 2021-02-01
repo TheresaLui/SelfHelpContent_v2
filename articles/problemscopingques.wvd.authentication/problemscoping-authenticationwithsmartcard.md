@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Authentication issues"
-	description="Authentication issues"
+	pageTitle="Authentication issues using smart card"
+	description="Authentication issues using smart card"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783587"
+	supportTopicIds="32785981"
 	productPesIds="16582"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="a04aaa8e-246b-43d4-98cb-8f47388ad1fd"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# Authentication issues
+# Authentication issues using smart card
 ---
 {
   "$schema": "SelfHelpContent",
@@ -64,7 +64,7 @@
       "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What is the exact error you see",
-      "watermarkText": "Please provide the exact issue seen",
+      "watermarkText": "Please specify the exact issue that occurred",
       "required": true
     },
     {
@@ -104,7 +104,7 @@
       "id": "how often",
       "order": 6,
       "controlType": "multiselectdropdown",
-      "displayLabel": "How often is the problem seen",
+      "displayLabel": "How often does this issue occur",
       "dropdownOptions": [
         {
           "value": "Daily",

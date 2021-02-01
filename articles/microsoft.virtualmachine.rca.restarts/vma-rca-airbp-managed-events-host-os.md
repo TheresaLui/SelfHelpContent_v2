@@ -13,21 +13,19 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds="13185,14749,15571,15797,16080,16215,16454,16470,16802"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec, BlackForest, Mooncake"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
 
 <!--issueDescription-->
-The physical host node where your VM was running underwent an OS Update. These updates are memory preserving and might have paused your VMs up to 30 seconds. 
-
-
+The physical host node where your VM was running underwent an OS Update. 
 
 **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in brief connectivity loss. We are continuously working to improve our update process and apologize for any inconvenience this may have caused you. 
+Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in a brief connectivity loss. We are continuously working to improve and reduce impact of our updates and apologize for any inconvenience this may have caused you. 
 
 
 <!--recommendedActions-->

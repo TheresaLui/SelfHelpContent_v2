@@ -4,7 +4,7 @@
 	authors="TobyTu"
         ms.author="mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584250"
+	supportTopicIds="32584250,32785489,32785488"
 	productPesIds="15526"
 	cloudEnvironments="public"
 	schemaVersion="1"
