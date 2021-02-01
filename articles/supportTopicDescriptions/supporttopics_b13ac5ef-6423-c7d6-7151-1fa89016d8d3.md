@@ -14,7 +14,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "MPN Benefits and Competencies related problems",
+  "shortDescription": "MPN benefits and competencies-related problems",
   "longDescription": "",
   "supportTopics": [
     {
@@ -22,6 +22,18 @@
       "longDescription": "",
       "shortDescription": "Activating sales or marketing benefit",
       "searchTags": "MPN;Benefits;Competencies;Activation",
+    },
+    {
+      "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
+      "longDescription": "",
+      "shortDescription": "How to request Technical Presales and Deployment (TPD) services to leverage MPN advisory benefit",
+      "searchTags": "MPN;Benefits;Competencies;Pre-sales;TPD;Deployment;Consultation;Marketplace;Apps Development;Advisory;Hours;PTC",
+    },
+    {
+      "id": "7aa01557-a00a-1845-57d1-5616d12c6fdc",
+      "longDescription": "",
+      "shortDescription": "Link partner account to customer subscriptions/accounts for competency recognition",
+      "searchTags": "partner;admin;link;record;delegated",
     },
     {
       "id": "1f8d2ab4-8109-4771-94da-fefd36173e92",
@@ -62,20 +74,20 @@
     {
       "id": "f81a1ede-4482-9ffb-099b-9697a59bf02d",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing or using Go-to-Market benefits",
+      "shortDescription": "Questions about reviewing or using go-to-market benefits",
       "searchTags": "MPN;Benefits;Competencies;Go-to-Market",
     },
     {
       "id": "a29eb23d-4096-2762-bbfd-df1def674f04",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating, sorting, or downloading Software benefits",
+      "shortDescription": "Questions about reviewing, activating, sorting, or downloading software benefits",
       "searchTags": "MPN;Benefits;Competencies;Software",
     },
     {
       "id": "c65c3d25-33b1-1f4c-b5b4-c944156a33a9",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing or activating technical benefits",
-      "searchTags": "MPN;Benefits;Competencies",
+      "shortDescription": "Questions about: 1. Activating technical support & access ID including signature. 2. Submit Technical Presales and Deployment (TPD) consultation.",
+      "searchTags": "MPN;Benefits;Competencies;Technical support;Access ID;Signature;Product support;TPD;Presales;Deployment;consultation",
     },
     {
       "id": "44e3c59e-9ca7-6104-5cf7-4b81166bda9f",
@@ -122,7 +134,7 @@
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies for which you're currently eligible or requirements missing to gain a competency",
+      "shortDescription": "Questions about competencies for which you're currently eligible or requirements needed to gain a competency",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -134,7 +146,7 @@
     {
       "id": "85b57f3a-5b1c-c66f-01d8-e0242c5ced01",
       "longDescription": "",
-      "shortDescription": "Questions about troubleshooting issues with software benefits downloading",
+      "shortDescription": "Questions about troubleshooting issues with downloading software benefits",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -186,12 +198,6 @@
       "searchTags": "MPN;Benefits;Training",
     },
     {
-      "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
-      "longDescription": "",
-      "shortDescription": "Questions about activating or using support benefits",
-      "searchTags": "MPN;Benefits;Competencies",
-    },
-    {
       "id": "a1cc176e-7131-62d7-96ca-b2e75a0cd63a",
       "longDescription": "",
       "shortDescription": "Questions about assigning MPN user roles and permissions for individuals in your organization",
@@ -200,7 +206,7 @@
     {
       "id": "5c862940-d7fd-e36c-b92b-a4102a66e756",
       "longDescription": "",
-      "shortDescription": "Questions about analyzing people in your organization regarding exams, certifications, and assessments toward competency attainment",
+      "shortDescription": "Questions about how to assess competency in your organization through exams and certifications",
       "searchTags": "MPN;Benefits;Competencies",
     },
   ]

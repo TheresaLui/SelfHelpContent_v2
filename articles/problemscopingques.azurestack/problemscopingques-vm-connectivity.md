@@ -101,13 +101,13 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
+            "watermarkText": "Example: 1.2008.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
             "id": "connected_deployment",
-            "visibility": "patch_level == 2005 || patch_level == 2002",
+            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Can Azure Stack Hub connect to Azure?",

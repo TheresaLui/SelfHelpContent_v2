@@ -20,6 +20,8 @@
 # Invoices
 Below are documents to help you understand how partner center invoices work.
 
+**Note:** This applies to billing queries for purchases on behalf of customers **through CSP channel only**.  For queries on billing/invoicing for MPN refer to [MPN invoicing](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=2c629139-b7a5-43ba-7a0b-deb18e27dfae). For billing queries on purchases for partner use or on behalf of customers through a different channel, refer to the specific portal for the appropriate products or services. 
+
 ## **Recommended Steps**
 - You can find your invoice on the Billing page of the dashboard. From the Partner Center menu, select "Billing".
 - On the "Billing" page, select the invoice you want to download

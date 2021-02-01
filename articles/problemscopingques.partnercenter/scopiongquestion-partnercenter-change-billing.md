@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
-            "watermarkText": "Please provide additional information about your issue",
+            "watermarkText": "Please specify what piece of information needs to be changed. This could be Bill to address or legal company name or both. Also indicate if the information you want changed is showing up on your invoice and if so, please include the Invoice ID.",
             "required": true,
             "useAsAdditionalDetails": true
         },

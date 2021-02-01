@@ -2,7 +2,7 @@
   pagetitle="Change SQL Server Version or Edition on Azure VM"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun"
+  ms.author="amamun,ujpat"
   selfhelptype="Generic"
   supporttopicids="32740074"
   resourcetags="windowssql"
@@ -25,8 +25,8 @@ Most users can change the SQL Server version or edition on Azure VMs by using th
 - To get the SQL Server **setup product key**, launch `setup.exe` from C:\SQLServerFull on the Azure VM that has the desired edition and version, copy the product key that appears in the install process, and exit the installer 
 
 
-- If you are **unable to change licensing model or manage SQL server from Azure portal**, make sure that [SQL VM Resource Provider (RP) is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash).
-- If you are **[unable to register the SQL VM Resource Provider (RP)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash)**, check the prerequisites for SQL VM RP - 
+- If you are **unable to change licensing model or manage SQL server from Azure portal**, make sure that [SQL IAAS Extension is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash).
+- If you are **[unable to register the SQL IAAS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash)**, check the prerequisites for SQL IAAS Extension - 
   - SQL Server engine is installed as default instance or if there is no default instance there is only one named instance. SQL VM RP does not work if there is no default instance and there are multiple named instances. 
   - SQL instance is not evaluation edition.
 

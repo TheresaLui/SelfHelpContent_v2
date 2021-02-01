@@ -15,7 +15,11 @@
 	ownershipId="AzureIdentity_InformationProtection"
 />
 
-# Azure Information Protection client - Creating and configuring Labels and Policies - Automatic classification not behaving as expected"
+# Azure Information Protection classic client - Creating and configuring Labels and Policies - Automatic classification not behaving as expected"
+
+This article is relevant for the Azure Information Protection classic client only. 
+
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
@@ -39,16 +43,16 @@
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook
-2. Select the **Protect**/**Sensitivity** button -> **Help and feedback**
+2. Select the **Sensitivity**/**Protect** button -> **Help and feedback**
 3. Select **Export Logs**
-4. Save the logs to your choice of location, and attach them to this service request
+4. Save the logs to a location of your choice and then attach them to this service request.
 
 ## **Recommended Documents**
 
 * [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification)<br>
 * [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
-* [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>
+* [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>

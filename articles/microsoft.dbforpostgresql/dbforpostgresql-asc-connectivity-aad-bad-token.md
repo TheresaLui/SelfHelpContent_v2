@@ -10,14 +10,14 @@
 	articleId="dbforpostgresql-asc-connectivity-aad-bad-token"
 	diagnosticScenario="OrcasPostgresAADBadToken"
 	selfHelpType="diagnostics"
-	supportTopicIds="32742678"
+	supportTopicIds="32742678, 32780959"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Can’t connect to PostgreSQL server: Invalid Azure AD token received by database server
+# Can't connect to PostgreSQL server: Invalid Azure AD token received by database server
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of invalid Azure AD authentication tokens.

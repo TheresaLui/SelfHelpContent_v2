@@ -22,6 +22,10 @@
 
 Resource materials related to implementing partner security requirements immediately to safeguard your business. 
 
+## **Recommended Steps**
+
+To view metrics on compliance to [partner security requirements](https://docs.microsoft.com/partner-center/partner-security-requirements) for multi-factor authentication (MFA) for users in your partner tenant, refer to [security requirements status](https://partner.microsoft.com/commerce/security/compliance).
+
 ## **Recommended Documents**
 
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)

@@ -31,7 +31,6 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error",
-			"diagnosticInputRequiredClients": "Portal",
             "required": true
         },
         {

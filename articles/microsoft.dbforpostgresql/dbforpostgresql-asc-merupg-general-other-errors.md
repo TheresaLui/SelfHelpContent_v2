@@ -9,7 +9,7 @@
 	articleId="OrcasMeruPGOtherErrorsInsight"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
-	supportTopicIds="32639953"
+	supportTopicIds="32639953, 32780838"
 	resourceTags=""
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"

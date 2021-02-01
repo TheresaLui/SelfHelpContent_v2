@@ -4,7 +4,7 @@
     authors="dhanyahk"
     ms.author="dhanyahk"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32780784,32780785,32780786,32780787,32780788"
+    supportTopicIds="32780785,32780786,32780787,32780788"
     productPesIds="16666"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -18,8 +18,8 @@
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "PREVIEW: Cloud Provisioning (AD to AAD sync) job analysis",
-    "fileAttachmentHint": null,
-    "diagnosticCard": {
+    "fileAttachmentHint": "Upload the trace or advanced verbose logging (if you have it enabled) from your corresponding AD domain machine. Learn <a href='https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot#log-files'>more</a>",
+        "diagnosticCard": {
         "title": "PREVIEW: Provisioning job analysis",
         "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
@@ -58,7 +58,7 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "infoBalloonText": "Enter the approximate time you started to see the error (in UTC).",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
             "required": false
         },
         {

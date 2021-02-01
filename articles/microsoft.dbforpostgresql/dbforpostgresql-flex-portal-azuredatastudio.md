@@ -7,7 +7,7 @@
     ms.author="jeanyd"
     displayOrder="360"
     selfHelpType="generic"
-    supportTopicIds="32639970"
+    supportTopicIds="32780893"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -21,8 +21,8 @@
 
 **About Azure Data Studio**
 
-To learn about Azure Data Studio please refer to (https://docs.microsoft.com/sql/azure-data-studio).
+To learn about Azure Data Studio, see the [primary documentation](https://docs.microsoft.com/sql/azure-data-studio).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)

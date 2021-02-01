@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="sql-server-in-vm-windows-supporttopicdescription"
   ownershipid="AzureData_AzureSQLVM"
   icmteam="icmteam"
@@ -227,7 +228,7 @@
     {
       "id": "4d0b3a87-a35a-fc46-70ed-daf5241222cf",
       "longDescription": "",
-      "shortDescription": "Questions or issues with installing or uninstalling the SQL IaaS Agent Extension or Resource Provider",
+      "shortDescription": "Questions or issues with installing, managing or uninstalling the SQL IaaS Agent Extension previously called Resource Provider",
       "searchTags": "sql iaas extension;install sql iaas extension;uninstall sql iaas extension;resource provider;rp;resource provider unavailable;install resource provider;uninstall resource provider",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
@@ -327,6 +328,14 @@
       "searchTags": "fci;conenct to listener;listener;ag;availability group;connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "784e0367-9858-2817-8eda-e4be198d0a75",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to Availability Groups and Listener and load balancer or SQL Failover Clustered Instance (FCI) after you have set up AG or L",
+      "searchTags": "connection to listener;load balancer configuration;cannot connect to ag;Listener configuration;ILB",
+      "category": "Connection-SQLAG",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "7b90261e-1392-3473-dfb0-566419a1e416",
@@ -635,7 +644,7 @@
     {
       "id": "f35e96fa-c01e-c7dd-1181-28818c4bd601",
       "longDescription": "",
-      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own Licence and Azure Hyrid Benefit)",
+      "shortDescription": "Questions on changing the licensing model (Pay-as-you-go, Bring your Own License and Azure Hybrid Benefit)",
       "searchTags": "licensing;licensing model;AHUB;change licensing;PAYG;BYOL",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "TRUE"

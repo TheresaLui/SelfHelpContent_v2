@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728050,32728232"
+       supportTopicIds="32728050,32728232,32784505,32784504,32784503,32784511,32784508,32784512,32784509,32784510"
        productPesIds="17000"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -28,39 +28,21 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Tenant ID",
 	   "watermarkText": "Please provide the Tenant ID - if you are adding Owner, Users or Managers",
-	   "required": false
+	   "required": false,
+	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-tenant-id'>How to find Tenant ID association for debugging purposes</a>"
        },
        {
-       "id": "learn_more_text1",
-       "order": 2,
-       "controlType": "infoblock",
-       "content": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-tenant-id'>How to find Tenant ID association for debugging purposes</a>"
-       },
-       {
-	   "id": "object_id",
-	   "order": 3,
+	   "id": "aad object_id",
+	   "order": 2,
 	   "controlType": "textbox",
-	   "displayLabel": "Object ID",
-	   "watermarkText": "Please provide the Object ID - if this is regarding a Registration query",
-	   "required": false
-       },
-       {
-       "id": "learn_more_text2",
-       "order": 4,
-       "controlType": "infoblock",
-       "content": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
-       },
-       {
-	   "id": "additional_email(s)_for_notification",
-	   "order": 5,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
+	   "displayLabel": "AAD Object ID",
+	   "watermarkText": "Please provide the AAD Object ID - if this is regarding a Registration query",
+	   "required": false,
+	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
        },
        {
 	   "id": "problem_description",
-	   "order": 6,
+	   "order": 4,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -69,7 +51,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 7,
+	   "order": 5,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",

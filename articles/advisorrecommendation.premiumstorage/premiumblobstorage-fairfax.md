@@ -36,7 +36,7 @@
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Use premium performance block blob storage",
   "longDescription": "One or more of your storage accounts has a high transaction rate per GB of block blob data stored. Use premium performance block blob storage instead of standard performance storage for your workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
   "potentialBenefits": "Block blob storage performance boost with the lowest Azure transaction prices.",

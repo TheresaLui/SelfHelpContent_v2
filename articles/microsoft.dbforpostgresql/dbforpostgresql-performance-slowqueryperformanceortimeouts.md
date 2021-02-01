@@ -7,7 +7,7 @@
     ms.author="janeng"
     displayOrder="90"
     selfHelpType="generic"
-    supportTopicIds="32640025"
+    supportTopicIds="32640025, 32781012"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -35,12 +35,13 @@ To verify that you are experiencing slow query performance due to query executio
 * Make sure that there are no deadlocks in the concurrent queries
 * Monitor the resource consumption of your server:
 
-    * Higher CPU Consumption: (a) check for high connection churn (open/close) as it can lead to high CPU consumption (b) check for queries are consuming most CPUs and look for ways to optimize them
+    * Higher CPU Consumption: (a) check for high connection churn (open/close) as it can lead to high CPU consumption (b) check for long queries and look for ways to optimize them
     * IO throttling: Before opting to increase IOPS, identify queries that are generating most IOs and look for ways to reduce IO. For example, index may be missing.
     * High memory utilization: high memory can cause data churn leading to higher IOs
     * After evaluating your application, if you are still hitting the resource limits, consider scaling the required resource
 
 * Only retrieve the columns you really need instead of using 'SELECT *'
+* When loading large number of rows, try to batch them into transactions
 * Double-check your PostgreSQL logging settings (see below)
 
 ### **Issue:** High connection latency (slow SELECT 1)
@@ -51,7 +52,7 @@ If this is higher than 10 ms, your performance issues are likely due to the netw
 
 ### **Issue:** High levels of logging impacting performance
 
-With certain configurations, your PostgreSQL database server outputs a high amount of log lines. This can cause the whole server to slow down, including causing queries to be slow. We recommend testing with the following log configuration settings, and verify whether this improves performance:
+With certain configurations, your PostgreSQL database server outputs a high amount of log lines. This can cause the whole server to slow down, including causing queries to be slow. We recommend that you test with the following log configuration settings, and then verify whether this improves performance:
 
 * `debug_print_parse = OFF`
 * `debug_print_plan = OFF`
@@ -62,7 +63,7 @@ With certain configurations, your PostgreSQL database server outputs a high amou
 * `log_statement = NONE`
 * `pg_stat_statements.track = NONE`
 
-Additionally, you can consider setting `logging_collector = OFF`. This will only send the logs to Azure Monitor, and avoid storing them locally on the server.
+Additionally, you can consider setting `logging_collector = OFF`. This will only send the logs to Azure Monitor, and avoid storing them locally on the server. You may also want to tune server parameters `max_wal_size`, `checkpoint_completion_target` or `maintenance_work_mem` but these are very workload sensitive. For most workloads, the default configuration setting works.
 
 ## **Recommended Documents**
 

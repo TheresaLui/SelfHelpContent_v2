@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/aa_premiumstg_migrate_learnmore",
   "description": "Migrate your data from Standard Storage account to Premium Storage account",
   "longDescription": "We noticed that there is a high volume of transactions on your storage account. We recommend you to migrate to Premium Storage (SSD based) to boost your performance on Page Blobs/Unmanaged Disks.",

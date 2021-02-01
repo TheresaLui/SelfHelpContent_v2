@@ -44,9 +44,17 @@
             "watermarkText": "Provide the customer tenant id as a GUID",
             "required": false
         },
+	{
+            "id": "# of customers impacted",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -55,7 +63,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

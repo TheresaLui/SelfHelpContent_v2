@@ -25,29 +25,29 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 
 ## **Recommended Steps**
 
+Click [here](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) for localized FAQ and Onboarding Guide documents in Korean, Chinese, Japanese and Spanish. 
+
 **Actions for Indirect Resellers**
 1. [Verify your MPN account is active](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-your-mpn-id-is-active-and-migrated-to-partner-center)
 2. [Confirm you are enrolled as a CSP Indirect reseller](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#confirm-you-are-enrolled-as-a-csp-indirect-reseller)
-3. Accept the Microsoft Partner Agreement on the [Partner Center dashboard page](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) Program Info or the banner notification on the CSP Overview page.
+3. Accept the Microsoft Partner Agreement on the [Partner Center dashboard page](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Agreements](https://partner.microsoft.com/dashboard/account/v3/settings/agreements) or the banner notification on the CSP Overview page.
 4. [Connect with an indirect provider](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#connect-with-an-indirect-provider)
 
 **Actions for Direct Bill partners**
 1. Inform global administrators in your organization to review the Microsoft Partner Agreement
-2. Accept the Microsoft Partner Agreement on the [CSP Overview page on Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed either from [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) Program Info or the banner notification on the CSP Overview page.
+2. Accept the Microsoft Partner Agreement on the [CSP Overview page on Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed either from [Agreements](https://partner.microsoft.com/dashboard/account/v3/settings/agreements) or the banner notification on the CSP Overview page.
 
 **Actions for Indirect Providers**
 1. Inform global administrators in your organization to review the Microsoft Partner Agreement 
-2. Accept the Microsoft Partner Agreement on the [CSP Overview page on Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) Program Info or the banner notification on the CSP Overview page.
+2. Accept the Microsoft Partner Agreement on the [CSP Overview page on Partner Center](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Agreements](https://partner.microsoft.com/dashboard/account/v3/settings/agreements) or the banner notification on the CSP Overview page.
 3. Use the [API to verify your Indirect Reseller’s signing status](https://docs.microsoft.com/partner-center/develop/verify-indirect-reseller-mpa-status)
 4. Review the [Indirect Reseller agreement](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4DM1R) and assist your Indirect Resellers with completing their actions
 
 
 ## **Recommended Documents**
 
-* [Microsoft Partner Agreement FAQ](https://partner.microsoft.com/resources/detail/microsoft-partner-agreement-faq-pdf)
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
-* [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
 * [Migrate from PMC to Partner Center, and accept Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 * [Onboarding for MPN members and the Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
 * [Verify Microsoft Partner Agreement acceptance status](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
-
+* [MPA Indirect Provider FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq)
