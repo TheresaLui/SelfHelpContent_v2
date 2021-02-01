@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739655"
 	productPesIds="17112"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="915a6938-f722-4fcd-a2c9-07712362497e"
 	ownershipId="AzureArc_HybridKubernetes"
