@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Unable to connect Kubernetes cluster to Azure Arc",
-    "fileAttachmentHint": "Upload the output of running the az connectedk8s connect command with --debug parameter specified",
+    "fileAttachmentHint": "Upload the output of running the `az connectedk8s connect` command with `--debug` parameter specified",
     "formElements": [{
             "id": "problem_start_time",
             "order": 1,
@@ -31,7 +31,7 @@
             "id": "cluster_connectivity",
             "order": 2,
             "controlType": "dropdown",
-            "infoBalloonText": "Run kubectl cluster-info to verify connectivity to your Kubernetes cluster",
+            "infoBalloonText": "Run `kubectl cluster-info` to verify connectivity to your Kubernetes cluster",
             "displayLabel": "Are you able to connect to your Kubernetes cluster?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{

@@ -3,11 +3,11 @@
 	description="Unable to connect Kubernetes cluster to Azure Arc"
 	ms.author="shasb"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739656"
+	supportTopicIds="32739657"
 	productPesIds="17112"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="4a0d73bb-ab6c-4bb1-a048-1ae670980ce6"
+	articleId="a45d3434-4824-417f-b5b8-1dfc2c8a5377"
 	ownershipId="AzureArc_HybridKubernetes"
 />
 
@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Issues in creating configuration (GitOps) on Arc enabled Kubernetes",
-    "fileAttachmentHint": "Upload the output of running the az k8sconfiguration show command",
+    "fileAttachmentHint": "Upload the output of running the `az k8sconfiguration show` command",
     "formElements": [{
             "id": "problem_start_time",
             "order": 1,
@@ -56,7 +56,7 @@
             "required": true
         }, {
             "id": "flux_scheduling",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "infoBalloonText": "Run `kubectl get pods -n <operator-namespace>` to verify that the flux operator pods are in a `Running` state",
             "displayLabel": "Are all Flux operator pods in a Running state?",
@@ -76,7 +76,7 @@
             "required": true
         }, {
             "id": "problem_description",
-            "order": 8,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
