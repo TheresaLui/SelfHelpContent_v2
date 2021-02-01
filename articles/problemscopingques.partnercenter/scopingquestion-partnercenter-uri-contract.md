@@ -38,7 +38,7 @@
 	},
 	{
 		"id": "ticket_list_relative_path_false",
-		"order": 1,
+		"order": 2,
 		"controlType": "dropdown",
 		"displayLabel": "Please select ticket created?",
 		"watermarkText": "Choose an option",
@@ -56,14 +56,14 @@
 	},
 	{
         "id": "problem_start_time",
-        "order": 2,
+        "order": 3,
         "controlType": "datetimepicker",
         "displayLabel": "When did the problem begin?",
         "required": true
     },
 	{
         "id": "problem_description",
-        "order": 3,
+        "order": 4,
         "controlType": "multilinetextbox",
         "useAsAdditionalDetails": true,
         "displayLabel": "Details of the issue.",
