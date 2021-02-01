@@ -24,11 +24,12 @@ Most users are able to resolve their Node.js or javascript SDK case using the st
 ## **Recommended Steps**
 
 ### **Use latest SDK versions and singleton client**
-Always use the latest SDK:<br>
-* [Azure Cosmos DB Node.js SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-node).
-<br>Ensure you are using singleton (one client instance for the lifetime of the application) client.
+
+* Always use the latest SDK. See [Azure Cosmos DB Node.js SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-node).
+* Ensure you are using a singleton (one client instance for the lifetime of the application) client.
 
 ### **Known issues and solutions**
+
 Review the following Github link for your SDK platform to learn about known issues and fixes from the Azure Cosmos DB team:  
 * [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/issues)
 
