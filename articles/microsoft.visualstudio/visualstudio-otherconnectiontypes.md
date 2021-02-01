@@ -18,9 +18,8 @@
 
 # Azure pipelines issues while using other Azure services connections
 
-Refer to the following solutions to resolve issues in Azure pipeline when using other Auzre services connections. 
 
-## **Common issues with Azure pipelines**
+## **Common issues with Azure Pipelines**
 
 * **Unable to link Azure DevOps with Bitbucket**
 
