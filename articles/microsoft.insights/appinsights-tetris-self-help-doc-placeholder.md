@@ -16,15 +16,15 @@
  
 # Server Operations data is incorrect or missing on Failures screen
 
-Operations help with grouping similar requests. Application Insights SDKs set the Operation name attribute in the telemetry, which is used to group requests to triage server side failures with related exceptions or dependency failures. 
+Operations help by grouping similar requests. Application Insights SDKs set the `Operation name` attribute in the telemetry, which is used to group requests to triage server side failures with related exceptions or dependency failures. 
 
 ## **Recommended Steps**
 
 If you do not see a failed Operation, try the following steps:
 
-1. The operation you are looking for may not have been executed, or may not have failed in the selected time period. Try using a longer time range.
-2. If you aren't seeing any data at all, validate that your instrumentation key is set correctly through your code or in your configuration file. 
-3. Ensure the Server/Browser toggle, is set to Server.
+1. The operation you are looking for may not have been run, or may not have failed in the selected time period. Try using a longer time range.
+2. If you are seeing no data, validate that your instrumentation key is set correctly through your code or in your configuration file. 
+3. Ensure that the **Server/Browser** toggle, is set to **Server**.
 4. Check for any other filters on the page. A filter on roles may be excluding the role which executed the request you are looking for. Try resetting the filters.
 
 
