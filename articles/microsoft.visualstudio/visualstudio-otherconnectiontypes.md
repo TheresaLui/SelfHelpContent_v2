@@ -23,14 +23,17 @@
 * **Unable to link Azure DevOps with Bitbucket**
 
     Ensure that you have the sufficient permissions on the subscription to make a connection.
+    
 
 * **Error when creating service connection using Azure ML: "Failed to create an app in Azure Active Directory"**
 
     Ensure that you have sufficient permissions to create an Azure Active Directory Application. [Refer to this document](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory?context=azure/active-directory/users-groups-roles/context/ugr-context).
+    
 
 * **Unable to connect to another GIT Repo from Pipeline: "Git clone failed with the error code 128"**
 
     Create another **[external Git service connection](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#sep-extgit)** and provide the right the username and password.
+    
 
 * **Unable to generate a Service Principal for data factory using powershell script**
 
