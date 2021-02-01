@@ -21,7 +21,7 @@ Most users are able to resolve their Enable Point in Time Restore queries using 
 
 ## **Recommended Steps**
 
-### **How to enable PITR on existing accounts?**
+### **How to enable Point in Time Restore on existing accounts?**
 This is currently not supported during preview
 
 <br>
@@ -63,17 +63,17 @@ The following configurations are not restored after the point-in-time recovery
   
 <br>
 
-### **Can you switch off or disable the PITR backups?**
-No, once turned on, PITR cannot be disabled
+### **Can you switch off or disable the Point in Time Restore backups?**
+No, once turned on, Point in Time Restore cannot be disabled
 
 <br>
 
-### **What is the retention for PITR?**
-A PITR enabled account, retains backups for a period of 30 days
+### **What is the retention for Point in Time Restore?**
+A Point in Time Restore enabled account, retains backups for a period of 30 days
 
 <br>
 
-### **Can PITR interval be changed?**
+### **Can Point in Time Restore interval be changed?**
 No
 
 <br>
