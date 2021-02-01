@@ -16,7 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Backup and restore
+# Backup point in time restore
 Most users are able to resolve their Enable Point in Time Restore issue using the steps below.
 
 ## **Recommended Steps**
