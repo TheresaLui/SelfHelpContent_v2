@@ -1,5 +1,5 @@
 <properties
-  pagetitle="DevOps Services Pipelines Issues&#xD;"
+  pagetitle="DevOps Services Pipelines Issues"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="ccoop,macoope,cathmill"
@@ -14,9 +14,9 @@
 
 ## **Recommended Steps**
 
-* Check out our detailed build and release troubleshooting guide for help with build and release issues
-* Want a quicker answer? For quick answers to common questions and issues, try the Azure DevOps Virtual Agent.
-* For service impacting issues, please check Azure DevOps Services Status
+* Check out our detailed build and release [troubleshooting guide](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting) for help with build and release issues.
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/).
+* Check the [Azure DevOps status page](https://status.dev.azure.com/) to ensure there aren’t any ongoing or past incidents in Azure Pipelines.
 
 ## **Recommended Documents**
 
