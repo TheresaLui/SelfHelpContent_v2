@@ -43,6 +43,6 @@ Are you facing one of these common problems?
 * [YAML schema reference](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema)
 * [Build, test, and deploy .NET Core apps](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops)
 * [.NET Core CLI task](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops)
-* [Create a CI/CD pipeline for .NET with Azure DevOps Starter](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-aspnet-core)
+* [Create a CI/CD pipeline for .NET with Azure DevOps Starter](https://docs.microsoft.com/azure/devops-project/azure-devops-project-aspnet-core)
 * For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
