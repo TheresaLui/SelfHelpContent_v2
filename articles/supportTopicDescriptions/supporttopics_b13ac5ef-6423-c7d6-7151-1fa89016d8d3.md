@@ -152,7 +152,7 @@
     {
       "id": "f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements (how to/ what should I do) before attaing a competency",
+      "shortDescription": "Questions about competency requirements (how to/ what should I do) before attaining a competency",
       "searchTags": "MPN;Benefits;Competencies;Requirements",
     },
     {
@@ -182,7 +182,7 @@
     {
       "id": "106cecbb-8627-c445-2538-7447f5df7b29",
       "longDescription": "",
-      "shortDescription": "Questions about licenses that are part of  Azure & Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
+      "shortDescription": "Questions about licenses that are part of Azure & Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
       "searchTags": "MPN;Benefits;Competencies;IUR",
     },
     {
