@@ -35,7 +35,8 @@
 				"text": "Other, don't know or not applicable"
 			}
 		}
-	}, {
+	},
+	{
 		"id": "ticket_list_relative_path_false",
 		"order": 1,
 		"controlType": "dropdown",
@@ -52,7 +53,22 @@
 				"text": "Other, don't know or not applicable"
 			}
 		}
-	} 
-	]
+	},
+	{
+        "id": "problem_start_time",
+        "order": 2,
+        "controlType": "datetimepicker",
+        "displayLabel": "When did the problem begin?",
+        "required": true
+    },
+	{
+        "id": "problem_description",
+        "order": 3,
+        "controlType": "multilinetextbox",
+        "useAsAdditionalDetails": true,
+        "displayLabel": "Details of the issue.",
+        "watermarkText": "Provide additional information about your issue including error messages.",
+        "required": true
+    }]
 }
 ---
