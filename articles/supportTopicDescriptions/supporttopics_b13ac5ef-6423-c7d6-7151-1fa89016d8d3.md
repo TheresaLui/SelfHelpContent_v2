@@ -164,7 +164,7 @@
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies status that can be “At-risk” due to COVID 19 and not only, renewal date extension request",
+      "shortDescription": "Questions about competencies status that can be "At-risk" due to COVID 19 and not only, renewal date extension request",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
