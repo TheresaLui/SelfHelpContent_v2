@@ -39,7 +39,7 @@
                     "text": "Extending disk using Storage Configuration from SQL Virtual Machine Resource Fails"
                 },
                 {
-                    "value": "Other (describe below)",
+                    "value": "dont_know_answer",
                     "text": "Other (describe below)"
                 }
             ],
