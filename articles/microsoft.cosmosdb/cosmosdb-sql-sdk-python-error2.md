@@ -24,9 +24,9 @@ Most users are able to resolve their Python SDK case using the steps below. The 
 ## **Recommended Steps**
 
 ### **Use latest SDK versions**
-Always use the latest SDK:
-* [Azure Cosmos DB Python SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-python)
-<br>Ensure you are using a singleton (one client instance for the lifetime of the application) client.
+
+* Always use the latest SDK. See [Azure Cosmos DB Python SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-python).
+* Ensure you are using a singleton (one client instance for the lifetime of the application) client.
 
 ### **Known Issues and Solutions**
 Review the Github issues for your SDK platform to learn about known bugs and the status of fixes from the Azure Cosmos DB team:  
