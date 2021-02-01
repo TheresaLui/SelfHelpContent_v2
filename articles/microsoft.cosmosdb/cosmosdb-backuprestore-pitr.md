@@ -16,8 +16,8 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Backup Point in Time Restore
-Most users are able to resolve their Enable Point in Time Restore issue using the steps below.
+# Point in Time Restore
+Most users are able to resolve their Enable Point in Time Restore queries using the steps below.
 
 ## **Recommended Steps**
 
@@ -26,7 +26,7 @@ This is currently not supported during preview
 
 <br>
 
-### **Jan 2021 public preview limitations**
+### **Feb 2021 public preview limitations**
 Currently the point in time restore functionality is in public preview and it has the following limitations
 - Only Azure Cosmos DB APIs for SQL and MongoDB are supported for continuous backup. Cassandra, Table, and Gremlin APIs are not yet supported
 - An existing account with default periodic backup policy cannot be converted to use continuous backup mode
@@ -56,7 +56,7 @@ You can choose to restore any combination of provisioned throughput containers, 
 ### **What is not restored?**
 The following configurations are not restored after the point-in-time recovery
 - Firewall, VNET, private endpoint settings
-- Consistency settings. By default, the account is restored with session consistency. ?
+- Consistency settings. By default, the account is restored with session consistency.  
 - Regions
 - Stored procedures, triggers, UDFs
 - You can add these configurations to the restored account after the restore is completed
