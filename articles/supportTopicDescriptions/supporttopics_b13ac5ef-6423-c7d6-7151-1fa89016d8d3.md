@@ -26,8 +26,38 @@
     {
       "id": "6558187e-03ec-fa15-634f-9b15ebaa4fc5",
       "longDescription": "",
-      "shortDescription": "How to request Technical Presales and Deployment (TPD) services to leverage MPN advisory benefit",
+      "shortDescription": "Questions about how to request technical presales and deployment support leveraging MPN advisory benefit",
       "searchTags": "MPN;Benefits;Competencies;Pre-sales;TPD;Deployment;Consultation;Marketplace;Apps Development;Advisory;Hours;PTC",
+    },
+    {
+      "id": "adbc8a47-b463-1b60-1256-a0753a563392",
+      "longDescription": "",
+      "shortDescription": "Questions about a full refund that needs to be done or it was already completed",
+      "searchTags": "",
+    },
+    {
+      "id": "8a1c22f2-ad5e-4a9b-0d23-2b607588384c",
+      "longDescription": "",
+      "shortDescription": "Questions about Credit Card issues, payment cannot be completed, payment was completed (multiple times) however membership was not activated",
+      "searchTags": "",
+    },
+    {
+      "id": "bcc9c02d-73de-bb9e-ab8e-511cc7c03f31",
+      "longDescription": "",
+      "shortDescription": "Questions about electronic transfer (WT), payment was completed however membership was not activated",
+      "searchTags": "",
+    },
+    {
+      "id": "e9e64888-e185-f9b8-5e3e-0759e20dfcad",
+      "longDescription": "",
+      "shortDescription": "Questions about VAT ID, VAT Tax, wrong charge applied, wrong VAT ID displayed, VAT tax refund",
+      "searchTags": "",
+    },
+    {
+      "id": "2c629139-b7a5-43ba-7a0b-deb18e27dfae",
+      "longDescription": "",
+      "shortDescription": "Questions about how to download the invoice from Partner Center, download option is missing ",
+      "searchTags": "",
     },
     {
       "id": "7aa01557-a00a-1845-57d1-5616d12c6fdc",
@@ -62,49 +92,49 @@
     {
       "id": "54d6238c-9250-ea2b-ff54-4fdf49d6bb02",
       "longDescription": "",
-      "shortDescription": "Questions about activating a support contract, or sharing or accessing the contract ID to use MPN technical benefits",
+      "shortDescription": "Questions about activating a support contract, Contract ID/ Access ID details",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
       "id": "626e8baa-4376-4485-ea76-1eeba70d9254",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating, sorting, or downloading the Azure and Cloud benefit",
+      "shortDescription": "Questions about renewing, activating the Azure and Cloud benefit",
       "searchTags": "MPN;Benefits;Competencies;Cloud",
     },
     {
       "id": "f81a1ede-4482-9ffb-099b-9697a59bf02d",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing or using go-to-market benefits",
+      "shortDescription": "Questions about reviewing or using Go-to-Market benefits",
       "searchTags": "MPN;Benefits;Competencies;Go-to-Market",
     },
     {
       "id": "a29eb23d-4096-2762-bbfd-df1def674f04",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating, sorting, or downloading software benefits",
+      "shortDescription": "Questions about reviewing, activating Software (On-premise) benefits",
       "searchTags": "MPN;Benefits;Competencies;Software",
     },
     {
       "id": "c65c3d25-33b1-1f4c-b5b4-c944156a33a9",
       "longDescription": "",
-      "shortDescription": "Questions about: 1. Activating technical support & access ID including signature. 2. Submit Technical Presales and Deployment (TPD) consultation.",
+      "shortDescription": "Questions about reviewing or activating technical benefits",
       "searchTags": "MPN;Benefits;Competencies;Technical support;Access ID;Signature;Product support;TPD;Presales;Deployment;consultation",
     },
     {
       "id": "44e3c59e-9ca7-6104-5cf7-4b81166bda9f",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating, sorting, or downloading Visual Studio benefits",
+      "shortDescription": "Questions about reviewing, activating or downloading Visual Studio benefits",
       "searchTags": "MPN;Benefits;Visual;Studio",
     },
     {
       "id": "4f80f253-4d78-ea9a-ab3e-15082b26359e",
       "longDescription": "",
-      "shortDescription": "Questions about activating internal use rights, downloading or activating Visual Studio subscriptions or software, or using support benefits",
+      "shortDescription": "Questions about activating Azure and Cloud benefit",
       "searchTags": "MPN;Benefits;Competencies;IUR",
     },
     {
       "id": "d1cd8813-7325-bafd-b4af-242c101b60ef",
       "longDescription": "",
-      "shortDescription": "Questions about MPN benefits, terms and conditions, or renewal and expiry",
+      "shortDescription": "Questions about expiry date of MPN benefits ",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -116,25 +146,25 @@
     {
       "id": "81a7ef29-22ef-20d8-5c4f-206c65c9a424",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements specific to exams, assessments, recognition, and status",
+      "shortDescription": "Questions about competency requirements specific to exams, assessments, certifications recognition or discrepancy, retired exams",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
       "id": "f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements, recognition, and status",
+      "shortDescription": "Questions about competency requirements (how to/ what should I do) before attaing a competency",
       "searchTags": "MPN;Benefits;Competencies;Requirements",
     },
     {
       "id": "76e2d30e-8fa5-c90d-725c-4a999092cfa5",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements specific to revenue, performance, recognition, and status",
+      "shortDescription": "Questions about competency requirements specific to revenue, performance, recognition, type of association, discrepancies - while trying to attain a competency",
       "searchTags": "MPN;Benefits;Competencies;Status",
     },
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies for which you're currently eligible or requirements needed to gain a competency",
+      "shortDescription": "Questions about competencies status that can be “At-risk” due to COVID 19 and not only, renewal date extension request",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -146,13 +176,13 @@
     {
       "id": "85b57f3a-5b1c-c66f-01d8-e0242c5ced01",
       "longDescription": "",
-      "shortDescription": "Questions about troubleshooting issues with downloading software benefits",
+      "shortDescription": "Questions about troubleshooting issues with software (On-premise) benefits downloading",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
       "id": "106cecbb-8627-c445-2538-7447f5df7b29",
       "longDescription": "",
-      "shortDescription": "Questions about activating internal use rights, downloading or activating Visual Studio subscriptions or software, or using support benefits",
+      "shortDescription": "Questions about licenses that are part of  Azure & Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
       "searchTags": "MPN;Benefits;Competencies;IUR",
     },
     {
@@ -182,13 +212,13 @@
     {
       "id": "e8ea5944-8f57-853a-9683-f0e754d73861",
       "longDescription": "",
-      "shortDescription": "Questions about Learning Portal and Partner University",
+      "shortDescription": "Questions about Learning Portal and Partner University, Help and How to navigate, Link/Unlink Partner University account",
       "searchTags": "MPN;Benefits;Learning",
     },
     {
       "id": "fdcda813-2749-4605-4f07-51752ae0825c",
       "longDescription": "",
-      "shortDescription": "Questions about purchasing or renewing competencies, including payment options and required roles",
+      "shortDescription": "Questions about MAPS or Competencies payment process, type of payment options",
       "searchTags": "MPN;Benefits;Competencies;Renewing",
     },
     {
@@ -206,7 +236,7 @@
     {
       "id": "5c862940-d7fd-e36c-b92b-a4102a66e756",
       "longDescription": "",
-      "shortDescription": "Questions about how to assess competency in your organization through exams and certifications",
+      "shortDescription": "Questions about analyzing people in your organization regarding exams, certifications, and assessments that are not recognized toward competency attainment",
       "searchTags": "MPN;Benefits;Competencies",
     },
   ]
