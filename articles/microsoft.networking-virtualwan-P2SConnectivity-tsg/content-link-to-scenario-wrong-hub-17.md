@@ -19,5 +19,5 @@
 
 If the client is experiencing redirection to an unexpected HUB, this is likely to be an issue with the client's LDNS mapping.
 
-Please go ahead with scenario *Client is getting redirected to incorrect HUB* first, since we need to fix client's redirection to wrong HUB before debugging pure P2S connectivity.
+Please restart troubleshooter and select scenario *Client is getting redirected to incorrect HUB* first, since we need to fix client's redirection to wrong HUB before debugging pure P2S connectivity.
 
