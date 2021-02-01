@@ -16,13 +16,13 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Backup point in time restore
+# Backup Point in Time Restore
 Most users are able to resolve their Enable Point in Time Restore issue using the steps below.
 
 ## **Recommended Steps**
 
-### **How to enable PITR on Existing accounts?**
-- This is currently not supported during preview
+### **How to enable PITR on existing accounts?**
+This is currently not supported during preview
 
 <br>
 
@@ -62,22 +62,22 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 <br>
 
 ### **Can you switch off or disable the PITR backups?**
-- No, once turned on, PITR cannot be disabled
+No, once turned on, PITR cannot be disabled
 
 <br>
 
 ### **What is the retention for PITR?**
-- A PITR enabled account, retains backups for a period of 30 days
+A PITR enabled account, retains backups for a period of 30 days
 
 <br>
 
 ### **Can PITR interval be changed?**
-- No
+No
 
 <br>
 
 ### **Can you configure to take a backup in Read regions?**
-- Yes, this happens in continuous backup mode automatically
+Yes, this happens in continuous backup mode automatically
 
 <br>
 
