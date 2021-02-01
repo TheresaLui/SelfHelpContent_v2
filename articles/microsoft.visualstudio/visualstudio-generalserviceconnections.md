@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure pipelines issues while making use of Azure Service Connections"
+  pagetitle="Azure pipelines issues while making use of Azure Service Connections&#xD;"
   service="microsoft.visualstudio"
   resource="account"
   ms.author="v-abiss,vimalt,cathmill"
@@ -12,15 +12,15 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Azure Service Connections
 
-## **Recommended Steps**
+Use the following recommendations to resolve Azure pipeline issues when making Azure Service connections.
 
-Here are solutions to many common Azure pipeline issues when making Azure Service connections.
+## **Recommended Steps**
 
 * **Why are service endpoints automatically created when running YAML pipelines?**<br>
 The service endpoints are created automatically because of AAD subscription auth specified in the pipelines. AAD auth in Pipelines is used for creating ARM service connection or AKS service connection. [Refer this document for more information](https://docs.microsoft.com/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-using-automated-security).
 
 * **Unable to delete the service connections**<br>
-This situation is often encountered when you are trying to migrate to a new tenant. In such scenarios, go to the old tenant and delete the app registrations present and delete the [service connection via API](https://docs.microsoft.com/rest/api/azure/devops/serviceendpoint/endpoints/delete?view=azure-devops-rest-6.0).
+This situation is often encountered when trying to migrate to a new tenant. To resolve, go to the old tenant and delete the app registrations present and delete the [service connection via API](https://docs.microsoft.com/rest/api/azure/devops/serviceendpoint/endpoints/delete?view=azure-devops-rest-6.0).
 
 * **Operation failed to create Service connection**<br>
 When creating the service connection, [make sure that it is verified](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml#create-a-service-connection)

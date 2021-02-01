@@ -18,7 +18,7 @@
 # Are pre-requisites met?
 
 Please check the following:
-1. Check if the nessesary KB applied 
+1. Check if the necessary KB applied 
 2. Check if the server (DC) can reach the portal 
 3. Check if the Windows server version is supported
 4. Check if the .Net framework is supported 
