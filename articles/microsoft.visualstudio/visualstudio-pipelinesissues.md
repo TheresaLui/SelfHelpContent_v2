@@ -1,10 +1,10 @@
 <properties
-  pagetitle="DevOps Services Pipelines Issues"
+  pagetitle="DevOps Services Pipelines Issues&#xD;"
   service="microsoft.visualstudio"
   resource="account"
-  ms.author="ccoop,macoope"
+  ms.author="ccoop,macoope,cathmill"
   selfhelptype="Generic"
-  supporttopicids="32742306,32742319,32742322,32742330"
+  supporttopicids="32742292,32742306,32742319,32742322,32742330"
   resourcetags=""
   productpesids="15543"
   cloudenvironments="public,fairfax,usnat,ussec"
