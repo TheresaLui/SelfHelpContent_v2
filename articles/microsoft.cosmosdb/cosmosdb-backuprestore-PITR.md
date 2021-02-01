@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-backuprestore-PITR"
+	articleId="cosmosdb-backuprestore-pitr"
 	displayOrder="14"
 	category="CosmosDB Backup and Restore"
 	ownershipId="AzureData_AzureCosmosDB"
@@ -69,16 +69,16 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 
 ## **Recommended Documents**  
 
-[Frequently asked questions on the Azure Cosmos DB point-in-time restore feature](https://docs.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-frequently-asked-questions)
+[Frequently asked questions on the Azure Cosmos DB point-in-time restore feature](https://docs.microsoft.com/azure/cosmos-db/continuous-backup-restore-frequently-asked-questions)
 <br>This article lists frequently asked questions about the Azure Cosmos DB point-in-time restore functionality that is achieved by using the continuous backup mode.  
 
-[Continuous backup with point-in-time restore feature in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-introduction)
+[Continuous backup with point-in-time restore feature in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/continuous-backup-restore-introduction)
 <br>This article provides information for Azure Cosmos DBs point-in-time restore funtionality.   
 
-[Resource model for the Azure Cosmos DB point-in-time restore feature](https://docs.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-resource-model)
+[Resource model for the Azure Cosmos DB point-in-time restore feature](https://docs.microsoft.com/azure/cosmos-db/continuous-backup-restore-resource-model)
 <br>This article explains the resource model for the Azure Cosmos DB point-in-time restore feature. It explains the parameters that support the continuous backup and resources that can be restored in Azure Cosmos DB API for SQL and MongoDB accounts.  
 
-[Online backup and on-demand data restore in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/online-backup-and-restore)
+[Online backup and on-demand data restore in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore)
 <br>Azure Cosmos DB automatically takes backups of your data at regular intervals. The automatic backups are taken without affecting the performance or availability of the database operations. All the backups are stored separately in a storage service. The automatic backups are helpful in scenarios when you accidentally delete or update your Azure Cosmos account, database, or container and later require the data recovery.    
 
 
