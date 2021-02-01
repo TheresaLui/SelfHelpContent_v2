@@ -30,10 +30,10 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 - BYOK/CMK accounts not supported
 - Multiwrite enabled accounts not supported
 - The point-in-time restore process always restores to a new account
-- Existing account can not be converted to use continuous backup
+- Existing account cannot be converted to use continuous backup
 - No Toggling between continuous backup to periodic mode
 - Dataplane RBAC enabled accounts are not supported
-- SynapseLink – Accounts with Synapse link can not be opted in with Continuous Backup
+- SynapseLink – Accounts with Synapse link cannot be opted in with Continuous Backup
 - Cross region restores are not supported
 - Inplace restore not supported
 - The restore window is only 30 days. This cannot be changed.
@@ -73,7 +73,7 @@ Most users are able to resolve their Enable Point in Time Restore issue using th
 <br>This article lists frequently asked questions about the Azure Cosmos DB point-in-time restore functionality that is achieved by using the continuous backup mode.  
 
 [Continuous backup with point-in-time restore feature in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/continuous-backup-restore-introduction)
-<br>This article provides information for Azure Cosmos DBs point-in-time restore funtionality.   
+<br>This article provides information for Azure Cosmos DBs point-in-time restore functionality.   
 
 [Resource model for the Azure Cosmos DB point-in-time restore feature](https://docs.microsoft.com/azure/cosmos-db/continuous-backup-restore-resource-model)
 <br>This article explains the resource model for the Azure Cosmos DB point-in-time restore feature. It explains the parameters that support the continuous backup and resources that can be restored in Azure Cosmos DB API for SQL and MongoDB accounts.  
