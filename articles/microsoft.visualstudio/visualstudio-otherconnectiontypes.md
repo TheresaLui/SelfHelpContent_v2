@@ -22,7 +22,7 @@
 
 * **Unable to link Azure DevOps with Bitbucket**
 
-    Ensure that you have the sufficient permissions on the subscription to make a connection.<br>
+    Ensure that you have the sufficient permissions on the subscription to make a connection.<br><br>
     
 
 * **Error when creating service connection using Azure ML: "Failed to create an app in Azure Active Directory"**
