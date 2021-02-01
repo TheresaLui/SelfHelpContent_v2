@@ -1,30 +1,22 @@
 <properties
-	pageTitle="Accounts Settings MPNID"
-	description="Accounts settings MPNID"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-	articleId="account_mpnid"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32730246"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-/>
-
+  pagetitle="Account settings - MPNID&#xD;"
+  service="partnercenter"
+  resource="csp"
+  ms.author="brserbus,vinayks"
+  selfhelptype="Generic"
+  supporttopicids="32730246"
+  resourcetags="csp"
+  productpesids="17000"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="account_mpnid"
+  ownershipid="PartnerCenter_Accounts_Onboarding_Access" />
 # Account settings - MPNID
 
 Resources about Microsoft Partner Network accounts.
 
 ## **Recommended Steps**
 
-You need to use your MPN ID for such things as logging support tickets. If you are a developer, your MPN ID is located on your [Account settings](https://partner.microsoft.com/dashboard/account/management) details page. If you are a CSP partner, your MPN ID is located on the [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) page. If you are a MPN partner, your MPN ID is located in the [Partner Profile](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) page.
+You need to use your MPN ID for such things as logging support tickets. Your Global and Location MPN IDs are located on your [Identity](https://partner.microsoft.com/dashboard/account/v3/organization/identity) details page.
 
 You can update the MPNID associated to your CSP account via [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) page.
 
