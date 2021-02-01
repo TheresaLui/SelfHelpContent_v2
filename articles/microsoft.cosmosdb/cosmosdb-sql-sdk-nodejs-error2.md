@@ -30,8 +30,7 @@ Most users are able to resolve their Node.js or javascript SDK case using the st
 
 ### **Known issues and solutions**
 
-Review the following Github link for your SDK platform to learn about known issues and fixes from the Azure Cosmos DB team:  
-* [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/issues)
+Review the Github link for your SDK platform to learn about known issues and fixes from the Azure Cosmos DB team. See [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/issues).
 
 
 ### **Common Errors**  
