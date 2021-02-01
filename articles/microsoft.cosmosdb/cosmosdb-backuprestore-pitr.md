@@ -26,38 +26,40 @@ This is currently not supported during preview
 
 <br>
 
-### **What is not supported in Jan 2021 preview**
-- Cassandra, Table, Gremlin not supported
-- Gov/National regions not supported
-- BYOK/CMK accounts not supported
-- Multiwrite enabled accounts not supported
-- The point-in-time restore process always restores to a new account
-- Existing account cannot be converted to use continuous backup
-- No Toggling between continuous backup to periodic mode
-- Dataplane RBAC enabled accounts are not supported
-- SynapseLink – Accounts with Synapse link cannot be opted in with Continuous Backup
-- Cross region restores are not supported
-- Inplace restore not supported
-- The restore window is only 30 days. This cannot be changed.
-- The backups are not automatically geo disaster resistant. Customers need to add another region to get resiliency for account as well as backup.
-- While a restore is in progress, do not modify or delete the Identity and Access Management (IAM) policies that grant the permissions for the account or change any vnet/firewall.
+### **Jan 2021 public preview limitations**
+Currently the point in time restore functionality is in public preview and it has the following limitations
+- Only Azure Cosmos DB APIs for SQL and MongoDB are supported for continuous backup. Cassandra, Table, and Gremlin APIs are not yet supported
+- An existing account with default periodic backup policy cannot be converted to use continuous backup mode
+- Azure sovereign and Azure Government cloud regions not yet supported
+- Accounts with customer-managed keys are not supported to use continuous backup
+- Multi-regions write accounts are not supported
+- Accounts with Synapse Link enabled are not supported
+- The restored account is created in the same region where your source account exists. You can't restore an account into a region where the source account did not exist
+- The restore window is only 30 days and it cannot be changed
+- The backups are not automatically geo-disaster resistant. You have to explicitly add another region to have resiliency for the account and the backup.
+- While a restore is in progress, do not modify or delete the Identity and Access Management (IAM) policies that grant the permissions for the account or change any VNET, firewall configuration
+- Azure Cosmos DB API for SQL or MongoDB accounts that create unique index after the container is created are not supported for continuous backup. Only containers that create unique index as a part of the initial container creation are supported. For MongoDB accounts, you create unique index using extension commands.
+- The point-in-time restore functionality always restores to a new Azure Cosmos account. Restoring to an existing account is currently not supported. If you are interested in providing feedback about in-place restore, contact the Azure Cosmos DB team via your account representative or UserVoice.
+- All the new APIs exposed for listing RestorableDatabaseAccount, RestorableSqlDatabases, RestorableSqlContainer, RestorableMongodbDatabase, RestorableMongodbCollection are subject to changes while the feature is in preview.
+- After restoring, it is possible that for certain collections the consistent index may be rebuilding. You can check the status of the rebuild operation via the IndexTransformationProgress property.
+- The restore process restores all the properties of a container including its TTL configuration. As a result, it is possible that the data restored is deleted immediately if you configured that way. In order to prevent this situation, the restore timestamp must be before the TTL properties were added into the container.
 
 <br>
 
 ### **What is restored?**
-- Data
-- Creation time Index for a collection
-- Creation time TTL
+In a steady state, all mutations performed on the source account (which includes databases, containers, and items) are backed up asynchronously within 100 seconds. If the backup media (that is Azure storage) is down or unavailable, the mutations are persisted locally until the media is available back and then they are flushed out to prevent any loss in fidelity of operations that can be restored.
+
+You can choose to restore any combination of provisioned throughput containers, shared throughput database, or the entire account. The restore action restores all data and its index properties into a new account. The restore process ensures that all the data restored in an account, database, or a container is guaranteed to be consistent up to the restore time specified. The duration of restore will depend on the amount of data that needs to be restored.
 
 <br>
 
 ### **What is not restored?**
-- Latest RU setting or offer.  The account administrator can apply the required throughput.
-- UDF/SPROC/Triggers.  The account administrator can add these as required.
-- User/Permissions.  The account administrator can add these as required.
-- Regions.  The account administrator can add these as required.
-- VNET, Firewall settings can be added as required
-- Consistency.  Default session consistency is restored, however this can be changed as required.
+The following configurations are not restored after the point-in-time recovery
+- Firewall, VNET, private endpoint settings
+- Consistency settings. By default, the account is restored with session consistency. ?
+- Regions
+- Stored procedures, triggers, UDFs
+- You can add these configurations to the restored account after the restore is completed
   
 <br>
 
