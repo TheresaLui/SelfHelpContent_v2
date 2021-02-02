@@ -17,7 +17,7 @@
 />
 
 # Point in Time Restore
-Most users are able to resolve their Enable Point in Time Restore queries using the steps below.
+Most users are able to resolve their queries related to point-in-time restore using the steps below.
 
 ## **Recommended Steps**
 
@@ -64,7 +64,7 @@ The following configurations are not restored after the point-in-time recovery
 <br>
 
 ### **Can you switch off or disable the Point in Time Restore backups?**
-No, once turned on, Point in Time Restore cannot be disabled
+No, once turned on, Point in Time Restore feature cannot be disabled
 
 <br>
 
@@ -74,7 +74,7 @@ A Point in Time Restore enabled account, retains backups for a period of 30 days
 <br>
 
 ### **Can Point in Time Restore interval be changed?**
-No
+No, currently you can't change the point-in-time restore interval.
 
 <br>
 
