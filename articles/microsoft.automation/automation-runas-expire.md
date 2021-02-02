@@ -26,7 +26,7 @@ The Self-Signed certificate created for Run As/Classic Run As account expires on
 
 ### **3. Re-create a Run As/Classic Run As Account**
 
-* After your Run As/Classic Run As certificate expires, you must delete it and create a new one by following the instructions to [Delete and Re-create an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)
+* After your Run As/Classic Run As certificate expires, you must delete it and create a new one by following the instructions to [Delete](https://docs.microsoft.com/azure/automation/delete-run-as-account) and [Re-create](https://docs.microsoft.com/azure/automation/create-run-as-account) an Azure Run As/Classic Run As account
 
 If you are not able to renew or re-create Run As/Classic Run As account by following the steps above, see the following sections.
 
@@ -39,8 +39,8 @@ If you are not able to renew or re-create Run As/Classic Run As account by follo
 * See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create Run As/Classic Run As accounts related to the Start/Stop solution
 
 ## **Recommended Documents**
-* [Create a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/create-runas-account)<br>
-* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)<br>
+* [Create a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/create-run-as-account)<br>
+* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-run-as-account)<br>
 * [Run As/Classic Run As account certificate renewal](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)<br>
 * [Resolve a Misconfigured/Incomplete Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#resolve-misconfiguration-issues-for-run-as-accounts)<br>
 * [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
