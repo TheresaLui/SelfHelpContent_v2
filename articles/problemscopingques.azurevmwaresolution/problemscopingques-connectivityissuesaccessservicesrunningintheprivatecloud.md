@@ -32,8 +32,8 @@
                     "text": "In the same VNET"
                 },
                 {
-                    "value": "In a peered VNET(same region)",
-                    "text": "In a peered VNET(same region)"
+                    "value": "In a peered VNET (same region)",
+                    "text": "In a peered VNET (same region)"
                 },
                 {
                     "value": "On-premise, connected to this VNET with ExpressRoute",
@@ -142,7 +142,7 @@
             "id": "ipaddress",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What is the IP address you have a problem connecting to?",
+            "displayLabel": "What is the IP address you're having trouble connecting to?",
             "required": true
         },
         {
