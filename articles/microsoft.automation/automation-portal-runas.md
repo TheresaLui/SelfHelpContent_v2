@@ -16,7 +16,7 @@ This article provides resources to help you resolve common issues with Run As ac
 
 * **Run As/Classic Run As accounts are unavailable**
    
-   If you do not have sufficient permissions, **Run As** and **Classic Run As** accounts appear dimmed. To create or update a Run As account, make sure that you have the [permissions required to create a Run As or Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
+   If you do not have sufficient permissions, Run As and Classic Run As accounts appear **dimmed**. To create or update a Run As account, make sure that you have the [permissions required to create a Run As or Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
 
 * **"You do not have permissions to create.." error**
    
@@ -24,7 +24,7 @@ This article provides resources to help you resolve common issues with Run As ac
 
 * **Recreating Run As/Classic Run As Account which has expired**
    
-   When your Run As/Classic Run As certificate expires, you must delete it and create a new one. See [deleting and recreating an Azure Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account).
+   When your Run As/Classic Run As certificate expires, you must delete it and create a new one. See instructions to [delete](https://docs.microsoft.com/azure/automation/delete-run-as-account) and [re-create](https://docs.microsoft.com/azure/automation/create-run-as-account) an Azure Run As/Classic Run As account.
 
 * **Issues while creating Run As/Classic Run As account to Start/Stop VM**
    
@@ -37,8 +37,8 @@ This article provides resources to help you resolve common issues with Run As ac
 
 ## **Recommended Documents**
 
-* [Create and manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/create-runas-account)<br>
-* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)<br>
+* [Create a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/create-run-as-account)<br>
+* [Delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-run-as-account)<br>
 * [Run As/Classic Run As account certificate renewal](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)<br>
 * [Resolve a Misconfigured/Incomplete Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#resolve-misconfiguration-issues-for-run-as-accounts)<br>
 * [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
