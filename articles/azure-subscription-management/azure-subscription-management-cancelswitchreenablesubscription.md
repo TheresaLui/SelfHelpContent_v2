@@ -26,7 +26,7 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 ### Cancel subscription in the Azure portal
 
 1. Select your subscription from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-2. Select the subscription that you want to cancel. When the blade opens select **Overview**.
+2. Select the subscription that you want to cancel. When the blade opens, select **Overview**.
 3. Select **Cancel subscription**
 4. Follow prompts and finish cancellation
 5. Allow up to 30 minutes for the subscription status to update in the portal.
@@ -34,17 +34,17 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 If you don't want to cancel your subscription but want to stop charges for a resource, you can [manually delete them using the Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resources-portal#delete-resources).
 
 
-### Verify your subscription was canceled
+### Verify that your subscription was canceled
 
 1. Go to the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.
-2. You may need to scroll to the right. Under status will show you the current state of the subscription.
-3. If the status reflects **Disabled** then the subscription is canceled.
+2. You may need to scroll to the right. Under **Status** is the current state of the subscription.
+3. If the status reflects **Disabled**,  the subscription is canceled
 
 Allow up to 30 minutes for the subscription status to update in the portal.
 
 ### What is the difference between canceling and deleting a subscription?
 
-To delete a subscription the subscription must be cancelled first. After your subscription is cancelled, Microsoft waits 30-90 days before permanently deleting your data in case you need to access it or you change your mind. We don’t charge you for keeping the data.
+To delete a subscription, you must first cancel the subscription. After your subscription is cancelled, Microsoft waits 30-90 days before permanently deleting your data in case you need to access it or you change your mind. We don’t charge you for keeping the data.
 
 Learn more, see [Microsoft Trust Center – How we manage your data](https://www.microsoft.com/trust-center/privacy/data-management).
 
