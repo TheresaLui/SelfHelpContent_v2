@@ -13,18 +13,19 @@
   articleid="628c7a60-1534-4fe0-9f5a-5a125a45772a"
   ownershipid="Compute_Automation" />
 # Azure Automation - Creating Automation Account
-The Automation Account is used to host a variety of services, from runbooks to Update Management and Start-Stop VM Solution. This article will help you troubleshoot specific aspects of creating and maintaining an Automation Account.
+
+The Automation Account hosts a variety of services, from runbooks to Update Management and Start/Stop VM Solutions. This article can help you troubleshoot specific aspects of creating and maintaining an Automation Account.
 
 ## **Recommended Steps**
 
 ### **Steps to create an Automation account**
 
-* Please follow the steps mentioned [here](https://docs.microsoft.com/azure/automation/automation-create-standalone-account) to create an Automation account.
+* Follow the steps mentioned [here](https://docs.microsoft.com/azure/automation/automation-create-standalone-account) to create an Automation account.
 
 ### **I want to know what regions Automation Accounts are available in**
 
-* This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability.
-* Note that Automation Accounts can manage resources in any region, regardless of the region the account is created in.
+* This information can be found at [the **Azure Products by Region** page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability.
+* Automation Accounts can manage resources in any region, regardless of the region the account is created in.
 
 ### **I am having trouble selecting a Log Analytics workspace**
 
@@ -32,24 +33,24 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ### **I'm having trouble creating an Automation Account**
 
-* The most common issues creating an Automation Account are related to permissions. Check ["Permissions required to Create an Automation Account"](https://docs.microsoft.com/azure/automation/automation-create-standalone-account#permissions-required-to-create-an-automation-account)
+* When creating an Automation Account, the most common issue is permissions. Review [Permissions required to Create an Automation Account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account#permissions-required-to-create-an-automation-account)
 
-### **I can't create or renew a RunAs account / RunAs is greyed out**
+### **I can't create or renew a RunAs account / RunAs is not available**
 
-* RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions. You might also see the message "You do not have permissions to create…"
-* See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
+* RunAs and Classic RunAs accounts are dimmed when you do not have sufficient permissions. You might also see the message "You do not have permissions to create…"
+* Review [*Unable to Update or Create RunAs account* in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
 ### **Managing permissions and access**
 
-* See the document ["Role based access control in Azure Automation"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)
+* Review the document [Role based access control in Azure Automation](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)
 
 ### **I want to start/stop VMs on a schedule**
 
-* See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
+* Review [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
 
 ### **"Unable to register Automation Resource Provider"**
 
-* See ["Unable to register Automation Resource Provider"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#rp-register)
+* Review [Unable to register Automation Resource Provider](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#rp-register)
 
 
 ## **Recommended Documents**
