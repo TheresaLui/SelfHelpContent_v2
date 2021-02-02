@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "Azure Database for MySQL Connectivity Troubleshooter",
         "description": "Our Azure Database for MySQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Follow the steps in the Recommended Solution below to troubleshoot your problem."
     },
     "formElements": [
         {
@@ -37,7 +37,7 @@
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank.)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
@@ -46,7 +46,7 @@
             "id": "down",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Why do you say database is down/unhealthy?",
+            "displayLabel": "Why is the database down or in an unhealthy state?",
             "dropdownOptions": [
                 {
                     "value": "cannot_load",
@@ -72,7 +72,7 @@
             "order": 4,
             "visibility": "down == dont_know_answer",
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the reason why you think database is down/unhealthy:",
+            "displayLabel": "Provide the reason why the database is down/unhealthy:",
             "required": false
         },
         {
@@ -134,7 +134,7 @@
             "id": "application",
             "order": 9,
             "controlType": "dropdown",
-            "displayLabel": "Are you connecting to your database server from application?",
+            "displayLabel": "Are you connecting to your database server from the application?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -161,7 +161,7 @@
             "order": 11,
             "visibility": "application == Yes",
             "controlType": "dropdown",
-            "displayLabel": "Is your application running in any container service?",
+            "displayLabel": "Is your application running in a container service?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -197,7 +197,7 @@
             "order": 13,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
-            "displayLabel": "Subscription ID of your Azure App Service:",
+            "displayLabel": "Subscription ID of your Azure App Service",
             "required": false
         },
         {
@@ -256,7 +256,7 @@
             "order": 18,
             "visibility": "application == Yes",
             "controlType": "dropdown",
-            "displayLabel": "Does your application have retry mechanism?",
+            "displayLabel": "Does your application have a retry mechanism?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -274,7 +274,7 @@
             "order": 19,
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Please share any client side logs:",
+            "displayLabel": "Share any client-side logs",
             "required": false
         },
         {
@@ -300,7 +300,7 @@
             "order": 21,
             "visibility": "connection_pooler == Yes",
             "controlType": "textbox",
-            "displayLabel": "What connection pooler are you using?",
+            "displayLabel": "Which connection pooler are you using?",
             "required": false
         },
         {
@@ -308,14 +308,14 @@
             "order": 22,
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Could you provide connection pooling configuration?",
+            "displayLabel": "Can you provide the connection pooling configuration?",
             "required": false
         },
         {
             "id": "problem_description",
             "order": 23,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
+            "displayLabel": "Provide any driver exceptions or errors you received and any other information you want to share with us.",
             "required": true,
             "useAsAdditionalDetails": true
         }
