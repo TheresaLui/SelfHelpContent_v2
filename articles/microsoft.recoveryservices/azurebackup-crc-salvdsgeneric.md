@@ -25,5 +25,6 @@ The backup could not be started because of an unexpected error in the virtual di
 
 Note: If you receive a support case with this error, file a documentation bug with case details for us to debug further.
 
+Error code: CloudCommunicationError<br>
 Error Message: The backup could not be started because of an unexpected error in the virtual disk service.<br>
 Recommended Action: Restart the virtual disk service and try the backup operation again. If the issue persists, check the system event log for virtual disk service events.
