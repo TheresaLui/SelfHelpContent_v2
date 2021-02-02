@@ -85,7 +85,7 @@
             "id": "vnet",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Are you facing issues while connecting from VNET?",
+            "displayLabel": "Are you facing issues when connecting from VNET?",
             "infoBalloonText": "VNET is not supported on Basic Tiers.",
             "dropdownOptions": [
                 {
