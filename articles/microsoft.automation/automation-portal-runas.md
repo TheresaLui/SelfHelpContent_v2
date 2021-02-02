@@ -18,11 +18,11 @@ This article provides resources to help you resolve common issues with Run As ac
    
    If you do not have sufficient permissions, Run As and Classic Run As accounts appear **dimmed**. To create or update a Run As account, make sure that you have the [permissions required to create a Run As or Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
 
-* **"You do not have permissions to create.." error**
+* **Error: "You do not have permissions to create.."**
    
    When you try to create or update a Run As account, you receive this error. See the ["Unable to Update or Create Run As account" section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update).
 
-* **Recreating Run As/Classic Run As Account which has expired**
+* **Recreating a Run As/Classic Run As Account that has expired**
    
    When your Run As/Classic Run As certificate expires, you must delete it and create a new one. See instructions to [delete](https://docs.microsoft.com/azure/automation/delete-run-as-account) and [re-create](https://docs.microsoft.com/azure/automation/create-run-as-account) an Azure Run As/Classic Run As account.
 
@@ -32,7 +32,7 @@ This article provides resources to help you resolve common issues with Run As ac
 
 * **Using Run As account with Hybrid Worker**
    
-   You might see the error, "No certificate was found in the certificate store". To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
+   You might see the error, "No certificate was found in the certificate store". To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found).
 
 
 ## **Recommended Documents**
