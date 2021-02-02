@@ -1,22 +1,16 @@
 <properties
-    pageTitle="Configuring the ITSM action"
-    description="I'm trying to create, edit or delete an ITSM integration action but I don't know how to configure it"
-    infoBubbleText=""
-    service="microsoft.insights"
-    resource="actiongroups"
-    authors="nolavime"
-    ms.author="nolavime"
-    displayOrder="1"
-    articleId="alerts-crud-itsm"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    supportTopicIds="32739776"
-    resourceTags=""
-    productPesIds="15454"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroup"
-/>
-
+  pagetitle="I have an issue or I don't know how to create, edit or delete an ITSM integration action&#xD;"
+  description="I'm trying to create, edit or delete an ITSM integration action but I don't know how to configure it"
+  service="microsoft.insights"
+  resource="actiongroups"
+  ms.author="nolavime"
+  selfhelptype="Generic"
+  supporttopicids="32739776"
+  resourcetags=""
+  productpesids="15454"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-crud-itsm"
+  ownershipid="AzureMonitoring_ActionGroup" />
 # I have an issue or I don't know how to create, edit or delete an ITSM integration action
 
 The IT Service Management Connector (ITSMC) allows you to connect Azure and a supported IT Service Management (ITSM) product/service.
@@ -26,6 +20,8 @@ The IT Service Management Connector (ITSMC) allows you to connect Azure and a su
 If you are facing issues while trying to setup ITSM, follow these steps to troubleshoot:
 
 * Ensure that [ITSM Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-overview#adding-the-it-service-management-connector-solution) is installed
+
+* Check the dashboard in order to see if it contains common errors that can be solved by the [dashboard](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-dashboard)
 
 For **Service Now**:
 * Ensure that [connection details](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-connections#connection-procedure-1) are in the ITSM solution workspace and check if all the details are correct: URL, Username/Password, Client ID/Client Secret
@@ -48,3 +44,7 @@ For **Cherwell**:
 
 * Ensure that [connection details](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-connections#connection-procedure-3) is in the ITSM solution workspace and verify that all the details are correct
 * Ensure that the [Client ID is generated](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-connections#generate-client-id-for-cherwell)
+
+
+**Recommended Documents**
+* [Troubleshooting problems in ITSM Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-troubleshoot-overview)
