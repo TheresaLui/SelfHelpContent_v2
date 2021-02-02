@@ -23,11 +23,11 @@ In order to get started with the concept of Run As account and Types of Run As a
 In order to create and manage a Run As/Classic Run As account, you need certain permissions. See [permissions required to manage Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions)
 
 ### **How to Create a Run As/Classic Run As account**
-* In order to create a Run As/Classic Run As account in Azure Portal, follow step-by-step instructions to [create a Run As/Classic Run As account in Azure portal](https://docs.microsoft.com/azure/automation/create-runas-account#create-account-in-azure-portal)
-* In order to create a Run As/Classic Run As account using PowerShell, follow step-by-step instructions to [create a Run As/Classic Run As account using PowerShell](https://docs.microsoft.com/azure/automation/create-runas-account#create-account-using-powershell)
+* In order to create a Run As/Classic Run As account in Azure Portal, follow step-by-step instructions to [create a Run As/Classic Run As account in Azure portal](https://docs.microsoft.com/azure/automation/create-run-as-account#create-account-in-azure-portal)
+* In order to create a Run As/Classic Run As account using PowerShell, follow step-by-step instructions to [create a Run As/Classic Run As account using PowerShell](https://docs.microsoft.com/azure/automation/create-run-as-account#create-account-using-powershell)
 
 ### **How to Delete a Run As/Classic Run As account**
-Follow step-by-step instructions to [delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-runas-account)
+Follow step-by-step instructions to [delete a Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/delete-run-as-account)
 
 ### **How to Renew a Run As/Classic Run As account Certificate**
 The Self-signed certificate created for Run As account expires one year from date of creation. You can renew it any time before it expires by following the steps in [Run As/Classic Run As account Certificate Renewal](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
