@@ -19,7 +19,7 @@
 
 2. Follow the tutorial to configure the app and Azure AD to create the provisioning connection. 
 
-See also **Related Documents**.
+   See also **Related Documents**.
 
 
 ### I'm having problems configuring user provisioning to an application
