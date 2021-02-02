@@ -5,6 +5,7 @@
     resource="applicationgateways"
     authors="v-miegge"
     ms.author="Mario.Liu"
+    displayOrder=""
     selfHelpType="resource"
     supportTopicIds="32786122"
     resourceTags=""
