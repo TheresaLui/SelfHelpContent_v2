@@ -16,7 +16,7 @@ ownershipId="CloudNet_NVA"
     "$schema": "AdvisorRecommendation",
     "recommendationTypeId": "f266acba-699d-4900-ae93-1bb488fd69df",
     "dataSourceMetadata": {
-        "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').NvaMaxFlowLimit",
+        "streamNamespace": "cluster('azphynet.kusto.windows.net').database('azphynetmds').NVAMaxFlowLimit",
         "dataSource": "Kusto",
         "refreshInterval": "0.12:00:00"
     },
@@ -49,6 +49,6 @@ ownershipId="CloudNet_NVA"
     ],
     "displayLabel": "NVA VM Instance Maximum Flow Limit",
     "tip": "Scale to use more VMs or increase the VM size to more than 8 cores",
-    "testData":"0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/CSR2_VR_TEST/providers/Microsoft.Compute/virtualMachines/CSR1"
+    "testData":"/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
 ---
