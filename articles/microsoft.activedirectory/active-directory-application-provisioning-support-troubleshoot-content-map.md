@@ -15,12 +15,12 @@
 
 ## **Recommended steps**
 
-You should always start by finding the setup tutorial specific to setting up provisioning for your application. Then follow those steps to configure both the app and Azure AD to create the provisioning connection. A list of app tutorials can be found at [List of Tutorials on How to Integrate SaaS Apps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
+1. Find the tutorial specific to setting up provisioning for your application. Review this [List of Tutorials on How to Integrate SaaS Apps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
 
-- [Known issues](https://docs.microsoft.com/azure/active-directory/app-provisioning/known-issues) to be aware of when working with app provisioning.
-- [Provisioning reports](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs?context=/azure/active-directory/app-provisioning/context/app-provisioning-context) in the Azure Active Directory portal (preview)
+2. Follow the tutorial to configure the app and Azure AD to create the provisioning connection. 
 
-**I'm having problems configuring user provisioning to an application**
+
+### I'm having problems configuring user provisioning to an application
 
 The following documents can help you to resolve some of the most common issues in this category.
 
@@ -28,3 +28,7 @@ The following documents can help you to resolve some of the most common issues i
   * [I encountered a problem when configuring user provisioning to an Azure AD Gallery application](https://docs.microsoft.com/azure/active-directory/application-provisioning-config-problem/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [I've set up provisioning to my Azure AD Gallery application, but no users are being provisioned](https://docs.microsoft.com/azure/active-directory/application-provisioning-config-problem-no-users-provisioned/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [Provisioning to my Azure AD Gallery application is working, but the wrong set of users are being provisioned](https://docs.microsoft.com/azure/active-directory/application-provisioning-config-problem-wrong-users-provisioned/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
+  
+## Related Documents
+- [Known issues](https://docs.microsoft.com/azure/active-directory/app-provisioning/known-issues) to be aware of when working with app provisioning.
+- [Provisioning reports](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs?context=/azure/active-directory/app-provisioning/context/app-provisioning-context) in the Azure Active Directory portal (preview)
