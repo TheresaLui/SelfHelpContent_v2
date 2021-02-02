@@ -1,23 +1,23 @@
 <properties
-	  pageTitle="Determine if load balancer probe IP is blocked"
-	  description="Determine if load balancer probe IP is blocked"
-    service="Microsoft.Network"
-     resource="Microsoft.Network/loadBalancers"
-	  authors="dgoddard"
-	  ms.author="dgoddard"
-	  displayOrder=""
-	  selfHelpType="TSG_Content"
-	  supportTopicIds=""
-	  resourceTags=""
-	  productPesIds=""
-	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="b550ebc9-7303-42ab-a5f5-bdab41a8ce65"
-	  ownershipId="Centennial_CloudNet_LoadBalancer"
+ pageTitle="Check if load balancer probe IP is blocked by NSG"
+ description="Check if load balancer probe IP is blocked by NSG"
+ service="Microsoft.Network"
+ resource="Microsoft.Network/loadBalancers"
+ authors="Centennial_CloudNet_LoadBalancer"
+ ms.author="Centennial_CloudNet_LoadBalancer"
+ displayOrder=""
+ selfHelpType="TSG_Content"
+ supportTopicIds=""
+ resourceTags=""
+ productPesIds=""
+ cloudEnvironments="public, fairfax, usnat, ussec"
+ articleId="cce95a95-558e-4bb8-8f68-f46797dac7f7"
+ ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Determine if load balancer probe IP is blocked
+# Check if load balancer probe IP is blocked by NSG
 
-## How load balancer health probes work
+# How load balancer health probes work
 The SLB Host Plugin running on all Azure nodes sends the load balancer probes to all VMs that are running on it. Once the probe traffic gets to the guest OS, it appears to be sourced from the IP address 168.63.129.16. NSGs have a default rule to allow this communication (rule priority 65001, rule name AllowAzureLoadBalancerInBound). If the customer has a rule with a lower priority value (meaning it gets evaluated first), the probe traffic will be blocked by the NSG and the health probe will appear down. Check for this condition using the steps below. The probe configuration is up to the customer. It can be a TCP ping or an HTTP GET request. The VM will be probed down if the TCP ping times out or if the HTTP response code is a non-200 series.
 
 To remedy this, the customer must add an inbound rule with higher priority (lower number) to allow traffic from source tag AzureLoadBalancer.
@@ -35,9 +35,8 @@ Destination IP: <VM IP>
 Destination port: <Port customer configured for their probe or 80/443 for HTTP/HTTPS>
 Protocol: TCP
 
-In the result, browse to "Stateful Test (NSG Layer)" to see if the traffic is allowed or blocked.
+In the result, browse to “Stateful Test (NSG Layer)” to see if the traffic is allowed or blocked.
 
-## Public documentation
+### For more public documentation, reference these Microsoft Docs:
 https://docs.microsoft.com/azure/virtual-network/what-is-ip-address-168-63-129-16
-https://docs.microsoft.com/azure/virtual-network/service-tags-overview
-
+https://docs.microsoft.com/azure/virtual-network/service-tags-overview"
