@@ -28,15 +28,7 @@ The error indicates backups might have failed due to proxy authentication errors
 - Proxy Servers can have settings that limit the number of connections per minute. The Backup to URL process is a multi-threaded process that, therefore, can go over this limit. If this happens, the proxy server ends the connection. To resolve this issue, change the proxy settings so that SQL Server is not using the proxy.
 - Sometimes the default settings are not picked up, causing proxy authentication errors. To resolve this issue, create a configuration file that allows the Backup to URL process to use the default proxy settings, by using the following steps:
 	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content:
-	```
-	&lt;configuration&gt;
-		&lt;system.net&gt;
-		&lt;defaultProxy enabled="true" useDefaultCredentials="true"&gt;
-		&lt;proxy usesystemdefault="true"&#47;&gt;
-		&lt;&#47;defaultProxy&gt;
-		&lt;&#47;system.net&gt;
-	&lt;&#47;configuration&gt;
-	```
+		```&lt;configuration&gt;```
 	- Place the configuration file in the Binn folder of the SQL Server Instance. For example, if MySQL Server is installed on the C drive of the machine, place the configuration file in C:\Program Files\Microsoft SQL Server\MSSQL13.\<InstanceName>\MSSQL\Binn.
 		
 
