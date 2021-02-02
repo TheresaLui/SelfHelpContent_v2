@@ -15,9 +15,11 @@
 
 ## **Recommended steps**
 
-1. Find the tutorial specific to setting up provisioning for your application. Review this [List of Tutorials on How to Integrate SaaS Apps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
+1. To set up provisioning for your application, find the tutorial specific to your app from this [List of Tutorials on How to Integrate SaaS Apps with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
 
 2. Follow the tutorial to configure the app and Azure AD to create the provisioning connection. 
+
+See also **Related Documents**.
 
 
 ### I'm having problems configuring user provisioning to an application
