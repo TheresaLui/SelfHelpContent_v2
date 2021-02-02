@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "Azure Database for MySQL Connectivity Troubleshooter",
         "description": "Our Azure Database for MySQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Follow the steps in the Recommended Solution below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Follow the steps in the Recommended Solution section to troubleshoot your problem."
     },
     "formElements": [
         {
@@ -72,7 +72,7 @@
             "order": 4,
             "visibility": "down == dont_know_answer",
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the reason why the database is down/unhealthy:",
+            "displayLabel": "Provide the reason why the database is down/unhealthy",
             "required": false
         },
         {
