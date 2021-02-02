@@ -10,7 +10,7 @@
 	articleId="partnercenter_accounts_onboarding_access_requirement_to_migrate_from_pmc_to_accept_modern_partner_agreemnet"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32747704" 
+	supportTopicIds="32747704,32725801" 
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
