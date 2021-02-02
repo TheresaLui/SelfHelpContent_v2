@@ -85,7 +85,7 @@
             "id": "resource_health",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Does your server show Unavailable in the Resource Health blade in Azure portal?",
+            "displayLabel": "Does your server show as Unavailable in the Resource Health blade in the Azure portal?",
             "infoBalloonText": "Resource health menu item can be found above New support request.",
             "dropdownOptions": [
                 {
@@ -243,7 +243,7 @@
             "order": 16,
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Share any client-side logs:",
+            "displayLabel": "Share any client-side logs",
             "required": false
         },
         {
