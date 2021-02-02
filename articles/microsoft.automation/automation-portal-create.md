@@ -48,7 +48,7 @@ The Automation Account hosts a variety of services, from runbooks to Update Mana
 
 * Review [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
 
-### **"Unable to register Automation Resource Provider"**
+### **Unable to register Automation Resource Provider**
 
 * Review [Unable to register Automation Resource Provider](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#rp-register)
 
