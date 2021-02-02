@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-security"
+	articleId="cosmosdb-security-howto2"
 	displayOrder="162"
 	category="Security"
 	ownershipId="AzureData_AzureCosmosDB"
@@ -18,13 +18,13 @@
 
 # Azure Cosmos DB Security How-to
 
-For different topics on security in Azure Cosmos DB How-to, see the following articles:
+For different topics on security in Azure Cosmos DB, see the following articles:
 
 
 ## **Recommended Documents**
-[Azure Cosmos DB database security](https://docs.microsoft.com/azure/cosmos-db/database-security)
-<br>This article discusses database security best practices and key features offered by Azure Cosmos DB to help you prevent, detect, and respond to database breaches.
 
+* [Azure Cosmos DB database security](https://docs.microsoft.com/azure/cosmos-db/database-security)
+<br>This article explains how Azure Cosmos DB can help you prevent, detect, and respond to database breaches using best practices in database security.
 * [Data encryption in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/database-encryption-at-rest)
 * [Secure access to data in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data)
 * [IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
