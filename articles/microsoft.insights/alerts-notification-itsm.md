@@ -2,7 +2,7 @@
   pagetitle="**I expected an ITSM action to trigger, but it did not or was not received appropriately**&#xD;"
   service=""
   resource=""
-  ms.author="nolavime,yagil"
+  ms.author="yagil,nolavime"
   selfhelptype="Generic"
   supporttopicids="32739780,32745404"
   resourcetags=""
@@ -26,8 +26,10 @@ If you believe your ITSM connector did not send the alert properly, the followin
 * Review the checkbox of the Individual work items for each Configuration Item
 * In order to have duplicate incidents per every update of the alert you need to check the checkbox of "Create Individual work items for each Configuration Item" in the ITSM action definition
 * In order to have one incident that is updated per every update of the ticket, you need to uncheck the checkbox of "Create Individual work items for each Configuration Item" in the ITSM action definition
+* Check the dashboard in order to see if it contains common errors that can be solved [Dashboard](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-dashboard)
 
 ## **Recommended Documents**
 
 * [Connect Azure to ITSM tools using IT Service Management Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-overview)
 * [Connect ITSM products/services with IT Service Management Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-connections)
+* [Troubleshooting problems in ITSM Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-troubleshoot-overview)
