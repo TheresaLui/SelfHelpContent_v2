@@ -6,7 +6,7 @@
     authors="v-miegge"
     ms.author="Mario.Liu"
     displayOrder=""
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32786122"
     resourceTags=""
     productPesIds="15922"
