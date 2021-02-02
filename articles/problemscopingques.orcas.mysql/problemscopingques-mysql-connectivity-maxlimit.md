@@ -21,7 +21,7 @@
     "diagnosticCard": {
         "title": "Azure Database for MySQL Connectivity Troubleshooter",
         "description": "Our Azure Database for MySQL Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Follow the steps in the Recommended Solution section to troubleshoot your problem."
     },
     "formElements": [
         {
@@ -37,7 +37,7 @@
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank.)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
@@ -104,7 +104,7 @@
             "order": 6,
             "visibility": "connection_pooler == Yes",
             "controlType": "textbox",
-            "displayLabel": "What connection pooler are you using?",
+            "displayLabel": "Which connection pooler are you using?",
             "required": false
         },
         {
@@ -112,7 +112,7 @@
             "order": 7,
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Could you provide connection pooling configuration?",
+            "displayLabel": "Can you provide the connection pooling configuration?",
             "required": false
         },
         {
@@ -140,7 +140,7 @@
             "id": "problem_description",
             "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
+            "displayLabel": "Provide any driver exceptions or errors you received and any other information you want to share with us.",
             "required": true,
             "useAsAdditionalDetails": true
         }
