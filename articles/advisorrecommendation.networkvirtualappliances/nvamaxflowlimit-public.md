@@ -49,6 +49,6 @@ ownershipId="CloudNet_NVA"
     ],
     "displayLabel": "NVA VM Instance Maximum Flow Limit",
     "tip": "Scale to use more VMs or increase the VM size to more than 8 cores",
-    "testData":"/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
+    "testData":"0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
 ---
