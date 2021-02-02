@@ -24,7 +24,7 @@ Microsoft Azure Backup encountered an internal error.
 <!--/issueDescription-->
 
 
-Note: If you receive a support case with this error, file a Doc bug with case details for us to debug further. 
+Note: If you receive a support case with this error, file a documentation bug with case details for us to debug further. 
 
 Error code: CloudCommunicationError<br>
 Error Message: Microsoft Azure Backup encountered an internal error.<br>
