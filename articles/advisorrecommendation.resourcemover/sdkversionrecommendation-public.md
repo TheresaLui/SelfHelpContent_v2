@@ -5,7 +5,7 @@
     ms.author="natarajs"
     articleId="703fbf6c-ab3a-47d2-aa26-9092d06a6054_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, ussec, usnat"
     ownershipId="Compute_AzureResourceMover"
 />
 # Resource Mover SDK Ugrade Recommendation
@@ -64,7 +64,7 @@
         }
     },
     "displayLabel": "Update Azure Resource Mover SDK",
-    "additionalColumns": []
+    "additionalColumns": [],
     "testData": "e80eb9fa-c996-4435-aa32-5af6f3d3077c,/subscriptions/e80eb9fa-c996-4435-aa32-5af6f3d3077c"
 }
 ---
