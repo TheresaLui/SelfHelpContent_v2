@@ -112,9 +112,9 @@ Multiple video example:
        </videoGroup>
 -->
 
-## AzureKB and linked documents
+## Resources 
 
-<!--Optional. Rewrite heading to fit the solution (e.g., "Helpful links" or "More resources"). Include only relevant document links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+<!--Optional. Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 This is the Apollo schema for AzureKB articles:
 <azureKB>
 	<client>Portal</client>
