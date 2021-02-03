@@ -54,9 +54,13 @@ See [Create and manage Azure Database for MySQL VNet service endpoints and VNet 
 * **Is the connection failure persistent?**<br>
 See [Troubleshoot persistent errors](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues#troubleshoot-persistent-errors)
 
-Possible causes: Incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user who is trying to connect, and other possible causes. Work through the following recommended steps to ensure that you aren't encountering a misconfiguration problem. See [Set up alerts when your Azure Database for MySQL server is not accessible](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368).
+Possible causes for the preceding issues include: Incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user who is trying to connect, among others. 
+
+Work through the following recommended steps to ensure that you aren't encountering a misconfiguration problem. See [Set up alerts when your Azure Database for MySQL server is not accessible](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368).
+
 
 ## **Recommended Steps**
+
 
 ### **Intermittent connection errors**
 
