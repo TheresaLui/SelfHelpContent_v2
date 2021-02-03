@@ -22,7 +22,7 @@
 
 | Code       | Error                | Description  | Solution  |
 |------------|----------------------|--------------|-----------|
-| 2 | The index path corresponding to the specified order-by item is excluded or the order by query does not have a corresponding composite index that it can be served from. | The query requests a sort on a field that is not indexed. | Create a matching index (or composite index) for the sort query being attempted. |
+| 2 | BadValue | One common cause is that an index path corresponding to the specified order-by item is excluded or the order by query does not have a corresponding composite index that it can be served from. The query requests a sort on a field that is not indexed. | Create a matching index (or composite index) for the sort query being attempted. |
 | 13 | Unauthorized | The request lacks the permissions to complete. | Ensure that you set proper permissions for your database and collection.  |
 | 16 | InvalidLength | The request specified has an invalid length. | If you are using the explain() function, ensure that you supply only one operation. |
 | 26 | NamespaceNotFound | The database or collection being referenced in the query cannot be found. | Ensure your database/collection name precisely matches the name in your query.|
@@ -57,6 +57,5 @@
 
 [Use Robo 3T with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-robomongo)
 <br>This article will help you to add your Cosmos account to the Robo 3T connection manager.
-
 
 
