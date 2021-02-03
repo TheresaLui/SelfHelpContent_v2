@@ -32,7 +32,7 @@
             "order": 2,
             "controlType": "dropdown",
             "infoBalloonText": "Run 'kubectl get pods -n azure-arc' to verify that all agent pods are in a 'Running' state",
-            "displayLabel": "Are all Azure Arc agent pods in a 'Running' state?",
+            "displayLabel": "Are all Azure Arc agent pods in a Running state?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
@@ -52,7 +52,7 @@
             "order": 3,
             "controlType": "dropdown",
             "infoBalloonText": "Run 'kubectl get pods -n your-operator-namespace' to verify that the flux operator pods are in a 'Running' state",
-            "displayLabel": "Are all Flux operator pods in a 'Running' state?",
+            "displayLabel": "Are all Flux operator pods in a Running state?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
