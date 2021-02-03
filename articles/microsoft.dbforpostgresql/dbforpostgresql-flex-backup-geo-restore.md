@@ -7,7 +7,7 @@
     ms.author="janeng"
     displayOrder="160"
     selfHelpType="generic"
-    supportTopicIds="32639984, 32780981"
+    supportTopicIds="32780971"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-* Geo-redundant backups are currently not supported on flexible server
+* Geo-redundant backups are currently not supported on Flexible Server.

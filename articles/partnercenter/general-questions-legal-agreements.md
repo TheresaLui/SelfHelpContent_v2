@@ -50,4 +50,4 @@ Click [here](https://partner.microsoft.com/resources/collection/indirect-reselle
 * [Migrate from PMC to Partner Center, and accept Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 * [Onboarding for MPN members and the Microsoft Partner Agreement](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
 * [Verify Microsoft Partner Agreement acceptance status](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
-
+* [MPA Indirect Provider FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq)

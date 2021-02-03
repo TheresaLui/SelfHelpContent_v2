@@ -16,22 +16,22 @@
 # Dependencies data is incorrect or missing on Application Map
 
 ### **Where's my data?**
-We understand it can be frustrating when some or all your data is missing. The steps below have frequently resolved missing data issues; please try them out and let us know if it they don’t resolve your issue. 
+We understand it can be frustrating when some or all of your data is missing. The following steps have frequently resolved missing data issues. Please try them and let us know if they don’t resolve your issue. 
 
 ## **Recommended Steps**
 
-If you've configured your application to send data to Application Insights but aren't seeing the data you expect, try the following steps: 
+If you configured your application to send data to Application Insights, but aren't seeing the data you expect, try these steps: 
 
-1. **If you aren't seeing any data at all**, validate that your instrumentation key is set correctly through your code or in your configuration file 
-2. **If you are missing Browser or Web page data**, validate that you have added  [Application Insights for JavaScript](https://docs.microsoft.com/azure/azure-monitor/app/javascript) to your application. 
-3. **If data is coming through**, but occasionally (or often) the data doesn't match what you expect, Application Insights only tracks XHR requests made from the page, to track fetch API request please configure it on using disableFetchTracking=false.
+1. **If you have no data**, validate that your instrumentation key is set correctly through your code or in your configuration file. 
+2. **If you are missing browser or web page data**, validate that you have added  [Application Insights for JavaScript](https://docs.microsoft.com/azure/azure-monitor/app/javascript) to your application. 
+3. **If data is coming through**, but occasionally (or often) doesn't match what you expect, Application Insights only tracks XHR requests made from the page. To track fetch API requests, configure it on using `disableFetchTracking=false`.
 
-If none of these simple steps resolve your issue, there are more detailed checklists to follow below depending on which SDK or method of application instrumentation you are using. 
+If none of these simple steps resolve your issue, review the detailed checklists in the **Recommended Documents** that apply to the SDK or method of application instrumentation you use. 
 
 ## **Recommended Documents**
 
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
-* [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
+* [Troubleshoot issues seeing data with Application Insights Java 3.0](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot) or [using the 2.x SDK without the 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
 * [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/azure/azure-monitor/app/monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)
 * [Monitoring your client-side JavaScript Application](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
 * [Review the complete list of supported SDKs + platforms ](https://docs.microsoft.com/azure/azure-monitor/app/platforms)
