@@ -11,7 +11,7 @@
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-backuprestore-pitr"
-	displayOrder="14"
+	displayOrder="15"
 	category="CosmosDB Backup and Restore"
 	ownershipId="AzureData_AzureCosmosDB"
 />
