@@ -31,9 +31,8 @@ Most customers can diagnose and resolve security issues using the following step
 	* [CLI Commands](https://docs.microsoft.com/azure/databricks/dev-tools/cli/?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-databricks%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#cli-commands)
 	* [Generate a Personal Access Token](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/authentication?toc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fazure-databricks%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fbread%2Ftoc.json#--generate-a-personal-access-token)
 	
-* Unable to fetch Azure Active Directory access token getting error:
-	
-	``` {'error':'invalid_resource','error_description':'AADSTS500011: The resource principal named xxx was not found in the tenant named xxx. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You might have sent your authentication request to the wrong tenant.```
+* Unable to fetch Azure Active Directory access token, and getting the following error:<br>
+"{'error':'invalid_resource','error_description':'AADSTS500011: The resource principal named xxx was not found in the tenant named xxx. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You might have sent your authentication request to the wrong tenant."
 	
 	This usually occurs when using the incorrect resource authority in the CURL request. To resolve the issue, update `RESOURCE` to the resource management API URI as below:
 	
