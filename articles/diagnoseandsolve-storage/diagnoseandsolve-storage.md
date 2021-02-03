@@ -17,7 +17,7 @@ ownershipId="StorageMediaEdge_AccountManagement"
 {
 	"$schema":"SelfHelpContent",
 	"commonProblems": [
-		{				    
+		{
 			"id": "cannot_change_replication_type",
 			"title": "Cannot change account replication type",
 			"description": "Cannot change account replication type",
@@ -26,13 +26,13 @@ ownershipId="StorageMediaEdge_AccountManagement"
 			"supportTopicId": "32691089",
 			"commonSolutionArticleId": "commonSoln_replication",
 			"symptomId": ""
-		}		
+		}
 	],
 	"troubleshootingTools": [
 		{
 			"id": "Storage_Account_Health_tool",
 			"title": "Storage Account Health",
-			"description": "Use Azure Resource health to diagnose any issues with the resource. It monitors and indicates any availability issues.",      
+			"description": "Use Azure Resource health to diagnose any issues with the resource. It monitors and indicates any availability issues.",
 			"category": "Management",
 			"searchTags": "resource health, availability, connectivity, Health",
 			"type": "tool",
@@ -50,7 +50,7 @@ ownershipId="StorageMediaEdge_AccountManagement"
 		{
 			"id": "Azure_Service_Health_tool",
 			"title": "Azure Service Health",
-			"description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",      
+			"description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",
 			"category": "Management",
 			"searchTags": "outage, Azure issues, production, platform impact",
 			"type": "tool",
@@ -64,7 +64,7 @@ ownershipId="StorageMediaEdge_AccountManagement"
 					}
 				]
 			}
-		}		
+		}
 	]
 }
 ---
