@@ -38,7 +38,6 @@
 | - | MongoDB wire version issues | The older versions of MongoDB drivers are unable to detect the Azure Cosmos account's name in the connection strings. | Append *appName=@**accountName**@* at the end of your Cosmos DB's API for MongoDB connection string, where ***accountName*** is your Cosmos DB account name. |
 | - | MongoDB client networking issues (such as socket or endOfStream exceptions)| The network request has failed. This is often caused by an inactive TCP connection that the MongoDB client is attempting to use. MongoDB drivers often utilize connection pooling, which results in a random connection chosen from the pool being used for a request. Inactive connections typically timeout on the Azure Cosmos DB end after four minutes. | You can either retry these failed requests in your application code, change your MongoDB client (driver) settings to teardown inactive TCP connections before the four-minute timeout window, or configure your OS keepalive settings to maintain the TCP connections in an active state.<br><br>To avoid connectivity messages, you may want to change the connection string to set maxConnectionIdleTime to 1-2 minutes.<br>- Mongo driver: configure *maxIdleTimeMS=120000* <br>- Node.JS: configure *socketTimeoutMS=120000*, *autoReconnect* = true, *keepAlive* = true, *keepAliveInitialDelay* = 3 minutes
 | - | Mongo Shell Not Working | When user is trying to open a mongo shell, nothing happens and the tab just keeps blank.  | Check Firewall. Firewall is not supported with the Mongo shell. <br>- Install mongo shell on the local computer within the firewall rules <br>- Use legacy mongo shell
-| - | Index path corresponding to the specified order-by item is excluded  | The index path corresponding to the specified order-by item is excluded or the order by query does not have a corresponding composite index that it can be served from. The query requests a sort on a field that is not indexed. | Create a matching index (or composite index) for the sort query being attempted
 | - | Unable to connect with connection string  | The connection string has changed when upgrading from 3.2 -> 3.6 | Note that when using Azure Cosmos DB's API for MongoDB accounts, the 3.6 version of accounts have the endpoint in the format `*.mongo.cosmos.azure.com` whereas the 3.2 version of accounts have the endpoint in the format `*.documents.azure.com`.  
 
 ## **Recommended Documents**  
@@ -57,5 +56,4 @@
 
 [Use Robo 3T with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-robomongo)
 <br>This article will help you to add your Cosmos account to the Robo 3T connection manager.
-
 
