@@ -1,20 +1,16 @@
 <properties
-    pageTitle="V2 - Pipeline Activities - Batch Service (Custom Activity) Common Solutions"
-    description="V2 - Pipeline Activities - Batch Service (Custom Activity) Common Solutions"
-    service=""
-    resource=""
-    authors="chez-charlie"
-    ms.author="chez"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32637158"
-    resourceTags=""
-    productPesIds="15613"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="58f10bd5-ada3-484e-b2b6-a66d55a2226d"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="V2 - Pipeline Activities - Batch Service (Custom Activity)&#xD;"
+  description="V2 - Pipeline Activities - Batch Service (Custom Activity) Common Solutions"
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="chez,hemin"
+  selfhelptype="Resource"
+  supporttopicids="32637158"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="58f10bd5-ada3-484e-b2b6-a66d55a2226d"
+  ownershipid="AzureData_DataFactory" />
 # V2 - Pipeline Activities - Batch Service (Custom Activity)
 
 ## **Recommended Steps**
