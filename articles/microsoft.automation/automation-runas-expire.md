@@ -25,6 +25,7 @@ Before your Run As/Classic Run As certificate expires, you can renew it by follo
 ### **3. Re-create a Run As/Classic Run As Account**
 After your Run As/Classic Run As certificate expires, you must delete it and create a new one. Follow the instructions to [Delete](https://docs.microsoft.com/azure/automation/delete-run-as-account) and [Re-create](https://docs.microsoft.com/azure/automation/create-run-as-account) an Azure Run As/Classic Run As account.
 
+<br>
 ## Troubleshoot issues with Run As accounts
 If you are not able to renew or re-create Run As/Classic Run As account by following the steps above, see the following sections.
 
