@@ -44,7 +44,7 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Provide additional details about the issue that you are encountering",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
