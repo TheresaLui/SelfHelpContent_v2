@@ -5,7 +5,7 @@
     ms.author="natarajs"
     articleId="703fbf6c-ab3a-47d2-aa26-9092d06a6054_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public"
     ownershipId="Compute_AzureResourceMover"
 />
 # Resource Mover SDK Ugrade Recommendation
