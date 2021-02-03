@@ -36,11 +36,11 @@ Once you are approved to pay by invoice, you can switch your Azure subscription 
 
 **Check the type of your account**
 1.	Navigate to **Cost Management + Billing**.
-2.	Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
-    -	Microsoft Online Service Program
-		- Microsoft Customer Agreement
-	  - Enterprise Agreement
-  	- Microsoft Partner Agreement
+1. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
+   - Microsoft Online Service Program
+   - Microsoft Customer Agreement
+   - Enterprise Agreement
+   - Microsoft Partner Agreement
 
 For more information, see [check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
 
