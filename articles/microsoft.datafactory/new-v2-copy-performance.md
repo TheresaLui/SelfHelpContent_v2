@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Understand and Tune Performance of Copy Activity&#xD;"
+  pagetitle="Understand and Tune Performance of Copy Activity"
   description="Guide on understanding and tuning performance of ADF Copy Activity"
   service="microsoft.datafactory"
   resource="factories"
@@ -14,6 +14,12 @@
 # Understand and Tune Performance of Copy Activity
 
 **Note:** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
+
+## Troubleshooting performance issue
+
+When troubleshooting performance issues, refer to the copy status to better understand time spent from the source or destination.
+* If the greatest amount of time was spent from the source, focus on the source from IR. This can point to either a source side issue or a connectivity issue between the IR and Source. For details, refer to [Performance troubleshooting](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting).
+* If you want to focus on the network between the IR and Source/Sink, check for any retransmission between the Integration Runtime and the Source/Sink.
 
 ## **Recommended Steps**
 
@@ -37,6 +43,19 @@ Consider using the following guides for tuning and improving the execution of th
 * Please consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
 * See breakdown info of copy stages in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
 * Benchmark copy performance against recent completed runs in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+
+
+## How to write high performance custom ADF Copy code
+
+Most users are able to resolve issues regarding custom ADF copy code performance and intermittent errors by using the steps below.
+
+* Instead of using **client.Factories.List()**, use  **client.Factories.Get()** by `dataFactoryName`.<br>
+
+* Use **GET** with the Data Factory Name to reduce the number of list factories objects that are called.<br>
+
+* Use the [SQL Server Bulk Copy](https://docs.microsoft.comdotnet/framework/data/adonet/sql/bulk-copy-operations-in-sql-server) method..<br>
+
+* [ADF Copy SDK](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net) .<br>
 
 ## **Recommended Documents**
 
