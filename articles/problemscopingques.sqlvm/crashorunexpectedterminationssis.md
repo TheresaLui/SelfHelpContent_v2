@@ -55,7 +55,7 @@
         {
             "id": "VS",
             "visibility": null,
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "If Visual Studio SSDT is crashing, when is the crash happening? ",
             "watermarkText": "Choose an option",
