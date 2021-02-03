@@ -52,20 +52,7 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
         },
-            {
-         "id": "hasWorked",
-            "visibility": null,
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Has it worked on this computer? Did you install SSIS component successfully?",
-            "content": null,
-            "infoBalloonText": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-               {
+          {
          "id": "KbInfo",
             "visibility": null,
             "order": 4,
