@@ -43,10 +43,11 @@ Solutions can be comprised of:
 - Videos 
 - Azure KB and document links-->
 
+## Solution
+<!--Level heading 2 required. Solutions can include diagnostics, procedures, videos, and inline images.-->
 
-## Instructions 
-
-<!--Level heading 2 required. Solutions must include a minimum of one task-based procedure or video that resolves the stated issue, not just links to other articles.
+## Procedures 
+<!--Level heading 2 required. Use when the solution is a task-based procedure.
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
 1. This is a step
