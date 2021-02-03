@@ -17,7 +17,7 @@
     ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
-# Azure AD Smart Lockout: Blocked Sign-in Attempt 
+# Azure AD Smart Lockout: Blocked Sign-in Attempt
 
 <!--issueDescription-->
 In this sign-in attempt the attempt was made to sign in as <!--$userName-->[userName]<!--/$userName--> to <!--$appName-->[appName]<!--/$appName--> but the user had attempted sign-in with incorrect credentials too many times.

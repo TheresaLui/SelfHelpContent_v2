@@ -34,4 +34,4 @@ Microsoft recommends that this user and their activity be investigated immediate
 
 ## **Recommended Documents**
 
-* [How To: Investigate risk](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk  )
+* [How To Investigate risk](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk  )
