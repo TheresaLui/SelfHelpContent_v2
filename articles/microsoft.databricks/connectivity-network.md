@@ -17,7 +17,8 @@
 
 # Diagnose and resolve connectivity issues with network configuration
 
-* The default deployment of Azure Databricks is a fully managed service on Azure. All data plane resources are deployed to a locked resource group. This  includes a VNet that all clusters are associated with. However, if you require network customization, [Deploy Azure Databricks data plane resources in your own virtual network - VNet injection](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject). This enables you to:
+* The default deployment of Azure Databricks is a fully managed service on Azure. All data plane resources are deployed to a locked resource group. This  includes a VNet that all clusters are associated with. However, if you require network customization, [Deploy Azure Databricks data plane resources in your own virtual network - VNet injection](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject). <br>
+   This enables you to:
 
      - Connect Azure Databricks to other Azure services (such as Azure Storage and EventHubs) in a more secure manner
      - Connect to on-premises data sources taking advantage of user-defined routes
@@ -31,7 +32,7 @@
      - [Option: Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns)
      
 
-* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. You can use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses, by following the instructions for [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
+* Use an Azure Firewall to create a VNet-injected workspace in which all clusters have a single IP outbound address. Use the single IP address as an additional security layer with other Azure services and applications that allow access based on specific IP addresses by following the instructions for [how to assign a single public IP for VNet-injected workspaces using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip).
 
 * If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Use [user-defined routes](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--step-3-create-user-defined-routes-and-associate-them-with-your-azure-databricks-virtual-network-subnets) to solve this problem.
 
