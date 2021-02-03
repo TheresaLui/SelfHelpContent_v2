@@ -27,7 +27,7 @@ This is not supported during preview
 <br>
 
 ### **Feb 2021 public preview limitations**
-Currentl, the point-in-time restore functionality is in public preview and has the following limitations:
+Currently, the point-in-time restore functionality is in public preview and has the following limitations:
 - Only Azure Cosmos DB APIs for SQL and MongoDB are supported for continuous backup. Cassandra, Table, and Gremlin APIs are not yet supported.
 - An existing account with default periodic backup policy cannot be converted to use continuous backup mode
 - Azure sovereign and Azure Government cloud regions not yet supported
@@ -65,7 +65,7 @@ The following configurations are not restored after the point-in-time recovery:
 <br>
 
 ### **Can you switch off or disable the point-in-time restore backups?**
-No, after it's enabled, the Point in Time Restore feature cannot be disabled
+No, after it's enabled, the point-in-time restore feature cannot be disabled
 
 <br>
 
