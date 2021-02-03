@@ -1,10 +1,11 @@
 <properties
     pageTitle="Upgrade SDK version recommendation"
     description="Return list of resources that do not currently use the recommended SDK version"
+    authors="natarajs"
     ms.author="natarajs"
-    articleId="703fbf6c-ab3a-47d2-aa26-9092d06a6054_public"
+    articleId="703fbf6c-ab3a-47d2-aa26-9092d06a6054_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="public,usnat,ussec"
+    cloudEnvironments="Public,usnat,ussec"
     ownershipId="Compute_AzureResourceMover"
 />
 # Resource Mover SDK Ugrade Recommendation
@@ -44,7 +45,7 @@
     "potentialBenefits": "Latest Azure Resource Mover SDK contains the most recent feature functionality",
     "supportedSDKLanguages": [".Net"],
     "actions": [
-        { 
+        {
             "actionId": "4af17698-a8ed-4d2d-aa95-adcce9fce77e",
             "description": "Learn how to update your Resource Mover SDK ",
             "actionType": "Document",
