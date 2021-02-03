@@ -38,13 +38,13 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 3.0,
-  "description": "Pool subnet is full",
-  "longDescription": "Some of the subnets for this cluster's nodepools are full and cannot take more worker nodes",
+  "version": 3.1,
+  "description": "The AKS node pool subnet is full",
+  "longDescription": "Some of the subnets for this cluster's node pools are full and cannot take any more worker nodes. Using the Azure CNI plugin requires to reserve IP addresses for each node and all the pods for the node at node provisioning time. If there is not enough IP address space in the subnet, no worker nodes can be deployed. Additionally, the AKS cluster cannot be upgraded if the node subnet is full.",
   "actions": [
     {
       "actionId": "257304a3-8c20-4034-b7b8-cb9114a672aa",
-      "description": "Recreate the cluster in a larger subnet, or add new nodepools to the clusters in additional subnets",
+      "description": "Recreate the cluster in a larger subnet, or add new node pools to the clusters in additional subnets",
       "actionType": "Document",
       "documentLink": "https://docs.azure.cn/zh-cn/aks/use-multiple-node-pools#add-a-node-pool-with-a-unique-subnet-preview"
     }
