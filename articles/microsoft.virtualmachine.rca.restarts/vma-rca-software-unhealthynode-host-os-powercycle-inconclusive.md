@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--additionalInfo-->
 ### **Additional Information**
-> Our core Azure Engineering teams are tracking this incident and are working on a solution for this issue.  Unfortunately, at the moment we do not have an ETA for the fix. Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
+> Our core Azure Engineering teams are tracking this incident and are working on a solution for this issue.  Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
 >
 > - Software layer: OS Kernel, Hypervisor
 > - Hardware layer:  BIOS, Firmware

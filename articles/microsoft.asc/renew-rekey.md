@@ -1,5 +1,5 @@
 <properties
-  pagetitle="ASC/Renewing-Rekeying"
+  pagetitle="ASC/Renewing-Rekeying&#xD;"
   service="microsoft.certificateregistration"
   resource="certificateorders"
   ms.author="curibe,shrahman"
@@ -13,24 +13,29 @@
   ownershipid="Compute_AppService" />
 # ASC/Renewing-Rekeying
 
+Resolve common issues with App Service Certificate (ASC) using the following steps.
+
 ## **Recommended Steps**
 
+* **How can I Rekey?**
 
-**How to Rekey?**
-See [these instructions](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-certificate).
+   See these [steps to rekey your certificate](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-certificate).
 
-**How to Renew?**
-See [these instructions](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#renew-certificate).
+* **How can I Renew?**
 
-**What permissions are required on Key Vault for App Service Certificate?**
+   See these steps to [both renew and enable automatic renewal of your certificate](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#renew-certificate).
 
-|Service Principal|Secret Permissions|Certificates|
-|--|--|--|
-|Microsoft Azure App Service|Get|Get|
-|Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
+* **What permissions are required on Key Vault for App Service Certificate?**
 
-**Our App Certificate was expired. Can it be renewed with the same thumbprint?**
-It is not possible to renew an expired certificate. You need to create a new certificate, which will have a different thumbprint.
+   |Service Principal|Secret Permissions|Certificates|
+   |--|--|--|
+   |Microsoft Azure App Service|Get|Get|
+   |Microsoft.Azure.CertificateRegistration|Get,List,Set,Delete|Get,List|
+
+* **Our App Certificate is expired. Can it be renewed with the same thumbprint?**
+
+   It is not possible to renew an expired certificate. You need to create a new certificate, which will have a different thumbprint.
+
 
 ## **Recommended Documents**
 
