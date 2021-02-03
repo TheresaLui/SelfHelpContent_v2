@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software BugCheck - Host OS Networking Driver"
+	description="Root Cause Analysis (RCA) - Software BugCheck- Host OS Networking Driver"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
