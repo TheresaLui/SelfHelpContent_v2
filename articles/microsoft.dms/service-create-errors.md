@@ -47,7 +47,16 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 445, 12000
 * Make sure that the following NSG rules are added to the DMS subnet. If subnet doesn't already have an NSG, please create a new NSG with the following outbound rules and add it to the DMS subnet.
 
-	![NSG.png](images/NSG.png)
+	| Priority | Name | Port | Protocol | Source | Destination | Action |
+	| --------------- | --------------- | --------------- |
+	| 100 | allowStorage | 443 | Any | Any | Storage | Allow |
+	| 200 | AllowServiceBus | 443 | Any | Any | ServiceBus | Allow |
+	| 300 | AllowAzureMonitor | Any | Any | Any | AzureMonitor | Allow |
+	| 1000 | deny_all | Any | Any | Any | Any | Deny |
+	| 65000 | AllowVnetOutBound | Any | Any | VirtualNetwork | VirtualNetwork | Allow |
+	| 65001 | AllowInternetOutBound | Any | Any | Any | Internet | Allow |
+	| 65500 | DenyAllOutBound | Any | Any | Any | Any | Deny |
+
 
 	**Note:** You can also lock down the NSG rules to a specific region, such as "Storage.WestUS2".
 
