@@ -21,9 +21,12 @@
 
 ## **Recommended Steps**
 
-Below you will find forms that contain MSFT bank details needed for CSP wire transfer payments for all accepted currencies. 
+Below you will find forms that contain MSFT bank details needed for CSP wire transfer payments for all accepted currencies.
+
 Unfortunately we are unable to fulfill any request to sign partners' customized forms.
-Microsoft is not a vendor to the customer, but instead a service provider, therefore providing a Certificate of Insurance is not required either. 
+
+Microsoft is not a vendor to the customer, but instead a service provider, therefore providing a Certificate of Insurance is not required either.
+
 We have a variety of resources available below regarding Microsoft Company Information, Governance, Business Conduct, and our Compliance Program. The customer may find these to be useful to their needs.
 
 1. [About Microsoft](https://www.microsoft.com/about)
