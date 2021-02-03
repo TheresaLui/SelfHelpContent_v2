@@ -32,3 +32,7 @@ Smart lockout helps lock out bad actors that try to guess your users' passwords 
 
 ## **Sign-in details for this attempt**
 <!--$signinContent-->[signinContent]<!--/$signinContent-->
+
+## **Recommended Documents**
+
+* [Protect user accounts from attacks with Azure Active Directory smart lockout](https://docs.microsoft.com/azure/active-directory/authentication/howto-password-smart-lockout)
