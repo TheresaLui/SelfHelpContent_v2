@@ -72,8 +72,8 @@
       "required":false
     },
       {
-      "id":"environmentinfo_description",
-      "order":4,
+      "id":"ts_description",
+      "order":5,
       "controlType":"multilinetextbox",
       "displayLabel":"What have you tried to troubleshoot this?",
       "watermarkText":"Include what you already tried, environment information and recent changes you have done",
