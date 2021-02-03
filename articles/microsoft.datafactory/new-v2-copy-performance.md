@@ -1,22 +1,16 @@
 <properties
-	pageTitle="Copy Activity - Understand and Tune Performance"
-	description="Guide on understanding and tuning performance of ADF Copy Activity"
-	infoBubbleText=""
-	service="microsoft.datafactory"
-	resource="factories"
-	authors="chez-charlie"
-	ms.author="chez"
-	displayOrder="7"
-	articleId="21260b03-9072-4f08-ab96-1aa7398b090e"
-	diagnosticScenario=""
-	selfHelpType="resource"
-	supportTopicIds="32629468"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="Understand and Tune Performance of Copy Activity&#xD;"
+  description="Guide on understanding and tuning performance of ADF Copy Activity"
+  service="microsoft.datafactory"
+  resource="factories"
+  ms.author="chez,brianwan"
+  selfhelptype="Generic"
+  supporttopicids="32629468"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="21260b03-9072-4f08-ab96-1aa7398b090e"
+  ownershipid="AzureData_DataFactory" />
 # Understand and Tune Performance of Copy Activity
 
 **Note:** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
