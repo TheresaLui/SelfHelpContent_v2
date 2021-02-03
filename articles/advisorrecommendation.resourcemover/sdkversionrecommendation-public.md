@@ -5,7 +5,7 @@
     articleId="703fbf6c-ab3a-47d2-aa26-9092d06a6054_public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="public,usnat,ussec"
-    ownershipId="AzureMigrate_MoveCollections"
+    ownershipId="Compute_AzureResourceMover"
 />
 # Resource Mover SDK Ugrade Recommendation
 ---
@@ -29,9 +29,9 @@
     "owner": { 
         "email": "azregionmove@microsoft.com", 
         "icm": { 
-            "routingId": "MDM://MASR-PROD", 
-            "service": "Azure Resource Mover", 
-            "team": "Azure Resource Mover Engineering Team" 
+            "routingId": "mdm://adspartner", 
+            "service": "AzureResourceMover", 
+            "team": "AzureResourceMoverEngineeringTeam" 
         }, 
         "serviceTreeId": "dd885aa5-f295-4101-98da-6e7b280660da" 
     }, 
