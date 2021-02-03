@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureSQLMI" />
 # Database Mail 
 
-Azure SQL Database - Managed Instance enables you to directly send email messages to external email servers. To do this, use either the [`sp_send_dbmail`](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure or send the email via SQL Agent Jobs as a [alert](https://docs.microsoft.com/azure/sql-database/sql-database-job-automation-overview#job-notifications). Learn more about [Database Mail here](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
+Azure SQL Database - Managed Instance enables you to directly send email messages to external email servers. To do this, use either the [`sp_send_dbmail`](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure or send the email via [SQL Agent Jobs as an alert](https://docs.microsoft.com/azure/sql-database/sql-database-job-automation-overview#job-notifications). Learn more about [Database Mail here](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
 
 ## **Recommended Steps**
 
