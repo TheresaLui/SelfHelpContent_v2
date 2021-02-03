@@ -1,10 +1,10 @@
 <properties
   pagetitle="V2 - Pipeline Activities - Batch Service (Custom Activity)&#xD;"
   description="V2 - Pipeline Activities - Batch Service (Custom Activity) Common Solutions"
-  service="microsoft.datafactory"
-  resource="factories"
+  service=""
+  resource=""
   ms.author="chez,hemin"
-  selfhelptype="Resource"
+  selfhelptype="Generic"
   supporttopicids="32637158"
   resourcetags=""
   productpesids="15613"
