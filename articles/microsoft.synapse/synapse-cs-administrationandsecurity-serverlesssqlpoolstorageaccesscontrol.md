@@ -20,7 +20,7 @@ Most customers resolve their storage access issues in Serverless SQL pool using 
 * **"File cannot be opened because it does not exist or is used by another process"**<br>
    If your query fails with this error and you've verified that the file exists and is not used by another process, then the Serverless SQL pool can't access the file.<br>
    If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).<br>
-   Use the following Powershell script to validate if the storage account network rules are correctly configured:<br>
+   Use the following PowerShell script to validate if the storage account network rules are correctly configured:<br>
    
    ```
       $resourceGroupName = "<resource group name>"
