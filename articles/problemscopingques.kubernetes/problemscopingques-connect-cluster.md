@@ -51,7 +51,7 @@
             "id": "network_requirements",
             "order": 3,
             "controlType": "dropdown",
-            "infoBalloonText": "Network requirements cam be found <a href='https://docs.microsoft.com/azure/azure-arc/kubernetes/connect-cluster#network-requirements'>here</a>",
+            "infoBalloonText": "Network requirements can be found <a href='https://docs.microsoft.com/azure/azure-arc/kubernetes/connect-cluster#network-requirements'>here</a>",
             "displayLabel": "Does your environment meet the network requirements listed under Azure Arc documentation?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
@@ -71,7 +71,7 @@
             "id": "versions",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which version of Azure CLI, Kubernetes cluster and Helm are you running?",
+            "displayLabel": "Which version of Azure CLI, Kubernetes cluster, and Helm are you running?",
             "watermarkText": "Run 'az -v; kubectl version; helm version' and paste the output of the command here",
             "required": true
         }, {
