@@ -36,10 +36,9 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 - For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
 Solutions can be comprised of: 
-- Instructions
+- Procedures
+- Images
 - Diagnostics  
-- Metrics 
-- Images 
 - Videos 
 - Azure KB and document links-->
 
@@ -88,7 +87,7 @@ Example:
 </Insight>
 -->
 
-### Video solutions
+### Videos
 <!--Level 3 heading required. Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
