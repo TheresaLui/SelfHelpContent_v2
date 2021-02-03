@@ -1,23 +1,22 @@
 <properties
-    pageTitle="Creating, updating and exporting assessments"
-    description="Issues and guidance regarding creating, updating and exporting assessments"
-    service="microsoft.migrate"
-    resource="migrateprojects"
-    authors="snehaamicrosoft"
-    ms.author="snehaa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32675741"
-    resourceTags=""
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="75vc5643-2a3f-4d0d-96c5-b2b6546483e6"
-	ownershipId="Compute_AzureMigrate"
-/>
-
+  pagetitle="Creating, updating and exporting assessments&#xD;"
+  description="Issues and guidance regarding creating, updating and exporting assessments"
+  service="microsoft.migrate"
+  resource="migrateprojects"
+  ms.author="snehaa,rajosh"
+  selfhelptype="Generic"
+  supporttopicids="32675741"
+  resourcetags=""
+  productpesids="16348"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="75vc5643-2a3f-4d0d-96c5-b2b6546483e6"
+  ownershipid="Compute_AzureMigrate" />
 # Creating, updating and exporting assessments
 
 ## **Recommended Steps**
+
+### **I am not able to drill down to a machine/server from the Azure readiness/Cost details blade in an assessment**
+There is an ongoing issue that the product team is working on. You might see a "Page not found" error if you click on the machine/server name hyperlink. The workaround is to click anywhere on the row where the server is displayed to drill down to machine details and not the machine/server name.
 
 ### **Why is performance data missing for some/all VMs in my assessment report?**
 
