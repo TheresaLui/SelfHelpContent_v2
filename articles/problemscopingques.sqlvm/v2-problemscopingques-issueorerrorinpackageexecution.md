@@ -35,7 +35,7 @@
             "watermarkText": "Please fill in the version details",
             "content": null,
             "infoBalloonText": null,
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
