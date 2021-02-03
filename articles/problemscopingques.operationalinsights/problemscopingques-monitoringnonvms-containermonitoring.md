@@ -6,7 +6,7 @@ articleId="problemscopingques-Container_monitoring"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612445"
+supportTopicIds="32745413"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Container monitoring",
     "fileAttachmentHint": "",
     "formElements": [

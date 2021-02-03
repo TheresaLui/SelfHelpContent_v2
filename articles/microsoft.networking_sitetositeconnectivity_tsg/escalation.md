@@ -33,7 +33,6 @@
   * ava case SR number
   * (Use'@' to invoke Ava)
 
-* Provide the channel the "TSG History" from the TSG History button to help expedite the escalation process
 * Additionally, use the feedback button below to capture and improvements to the TSG
 
 ## **Recommended Documents**

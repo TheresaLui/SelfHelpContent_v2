@@ -12,7 +12,7 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32681521"
+    supportTopicIds="32729624"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
@@ -20,16 +20,16 @@
 
 ## **Recommended Steps**
 
-### Enable Application Insights without instrumenting the code - .Net and Java
-Note that both of the codeless solutions are currently in public preview, and fully supported.
-For .Net and Java Application Insights can be enabled without any code change with just a few easy steps:
-1. For .Net, follow the [deploy the Azure Monitor Application Insights agent](https://docs.microsoft.com/azure/azure-monitor/app/azure-vm-vmss-apps) guide. 
+### Enable Application Insights without instrumenting the code - .NET and Java
+Note that the .NET solution is currently in public preview.
+For .NET and Java Application Insights can be enabled without any code change with just a few easy steps:
+1. For .NET, follow the [deploy the Azure Monitor Application Insights agent](https://docs.microsoft.com/azure/azure-monitor/app/azure-vm-vmss-apps) guide. 
 1. For Java apps, follow the [codeless application monitoring with Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent) documentation
-1. For .Net Core, Node.js, and Python only SDK instrumentation is available
+1. For .NET Core, Node.js, and Python, only SDK instrumentation is available
 
 ### Enable Application Insights with the SDKs - .Net Core, Node.js, and Python
 Follow the guidelines below:
-1. [To instrument a .Net Core application](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
+1. [To instrument a .NET Core application](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
 1. [To enable Application Insights for a Node.js app](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
 1. [To monitor Python applications](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python)
 

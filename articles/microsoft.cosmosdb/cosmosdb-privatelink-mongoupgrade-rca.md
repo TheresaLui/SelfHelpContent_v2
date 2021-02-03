@@ -18,7 +18,9 @@
 
 # Upgrade to MongoDB API engine version 3.6 to use Azure Private Link
 
-## As an Azure Private Link customer, your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> is recommended to be updated to the latest version of Azure Cosmos DB's API for MongoDB
+## Upgrade the Azure Cosmos DB API for MongoDB
+
+As an Azure Private Link customer, your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> is recommended to be updated to the latest version of Azure Cosmos DB's API for MongoDB
 
 <!--issueDescription-->
 Version 3.2 of Azure Cosmos DB's API for MongoDB is not compatible with Azure Private Link. Upgrading to the latest version of the service will enable compatibility with Private Link and provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
@@ -42,10 +44,10 @@ Version 3.2 of Azure Cosmos DB's API for MongoDB is not compatible with Azure Pr
 
 3. Action required
 
-   Please file a support ticket to get your Mongo version updated.
+   File a support ticket to update your Mongo version.
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- [Azure Cosmos DB API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Azure Private Link for Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-private-endpoints)

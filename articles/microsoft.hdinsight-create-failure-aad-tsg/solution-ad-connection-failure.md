@@ -18,10 +18,13 @@
 # AD connection failure
 
 <!--issueDescription-->
-We have checked the cluster and it seems that cluster creation failure is due to an AADDS connection issue.
 
-We already asked AAD support help to further investigate the issue. If any update, we'll let you know.<br>
+***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 
 <!--/issueDescription-->
 
+Please follow recommended document to ask AAD support help to further investigate the issue
 
+## **Recommended Documents**
+
+* [ESP cluster creation common erros](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349204/Secure-Hadoop-Common-errors-and-troubleshooting)

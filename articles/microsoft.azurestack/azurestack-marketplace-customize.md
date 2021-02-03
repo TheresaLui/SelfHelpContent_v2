@@ -17,6 +17,10 @@
 
 # Customize Azure Stack Hub Marketplace
 
+**Known issue**
+
+* If VM extension deployment fails for **Ubuntu Server 20.04 LTS**, follow the resolution steps in [Issues using VM extensions in Python 3-enabled Linux Azure Virtual Machines systems](https://docs.microsoft.com/azure/virtual-machines/extensions/issues-using-vm-extensions-python-3) but skip step 2 because Azure Stack Hub does not have the **Run command** functionality. For more information, see [Azure Stack Hub known issues](https://docs.microsoft.com/azure-stack/operator/known-issues?view=azs-2005#issues-using-vm-extensions-in-ubuntu-server-2004).
+
 ## **Recommended Steps**
 
 You can add a custom virtual machine (VM) image to the marketplace and make it available to your users. You can add VM images to the Azure Stack Hub Marketplace through the administrator portal or Windows PowerShell. Use either an image from the global Azure Marketplace as a base for your custom image, or your create your own using Hyper-V.

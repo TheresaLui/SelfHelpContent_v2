@@ -19,12 +19,15 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that a previously failed deletion attempt may have missed cleaning up the ***{ClusterDnsName}*** CNAME record<br>
-<br>
-To resolve the issue:<br>
-<br>
-1. We will help you delete the resource  <br>
-2. We will inform you after we delete the resource to try again<br>
+***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
+
+It seems that a previously failed deletion attempt may have missed cleaning up the ***{ClusterDnsName}*** CNAME record
+
 
 <!--/issueDescription-->
 
+Please follow recommended document to resolve the issue
+
+## **Recommended Documents**
+
+* [DNS Name already In Use](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349475/DNS-Name-Already-In-Use)

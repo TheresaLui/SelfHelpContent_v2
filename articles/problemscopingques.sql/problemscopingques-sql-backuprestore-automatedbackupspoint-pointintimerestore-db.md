@@ -17,18 +17,22 @@
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"formElements": [
-        {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true
-        },
+	"formElements": [{
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "What is the start time of the issue?",
+			"required": true
+		}, {
+			"id": "problem_end_time",
+			"order": 2,
+			"controlType": "datetimepicker",
+			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
+			"required": false
+					},
 	{
             "id": "IssueType_dropdown",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue with Backups or Point in time restore",
             "watermarkText": "Choose an option",
@@ -51,7 +55,7 @@
         },
 	{
             "id": "restore_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
 	    "visibility": "IssueType_dropdown==Point in time restore",
             "displayLabel": "What was the requested restore datetime?",

@@ -6,7 +6,7 @@
     articleId="9ebff5d5-10c1-4fed-8c58-1954e27d3bfa_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="Compute_LogicApps"
+	ownershipId="Compute_AppService"
 />
 # Move your App Service Plan to PremiumV2 for better performance
 ---
@@ -37,7 +37,7 @@
   "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46",
   "adf3bc1f-f9ab-49a3-b81c-06a36582c68f"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-premiumv2",
   "description": "Move your App Service Plan to PremiumV2 for better performance",
   "longDescription": "Your app served more than 1000 requests per day for the past 3 days. Your app may benefit from the higher performance infrastructure available with the Premium V2 App Service tier. The Premium V2 tier features Dv2-series VMs with faster processors, SSD storage, and doubled memory-to-core ratio when compared to the previous instances. Learn more about upgrading to Premium V2 from our documentation.",

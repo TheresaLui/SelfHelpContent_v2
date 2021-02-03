@@ -11,7 +11,7 @@
     productPesIds="16556"
     ownershipId="CloudNet_AzureFirewall"
     cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
-    articleId="d2a1bcc0-bc4e-49d3-b71c-121a9a5d9ee7"
+    articleId="5dab2f04-4fdd-462e-81c6-9f09c48fbb9b"
 />
 
 # Issues with deleting a resource

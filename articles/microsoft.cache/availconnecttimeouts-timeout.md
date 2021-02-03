@@ -6,7 +6,7 @@
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder="23"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32690919"
 	resourceTags=""
 	productPesIds="14783"
@@ -21,9 +21,13 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
-* [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
-* [Server-side bandwidth limitation](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)<br>
-* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
-* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
-* [Azure Cache for Redis description](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)
+* [Investigate timeout issues and fix them](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
+* [Fixing client to avoid timeout issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
+* [What is failover and how to make clients resilient to failover](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover)<br>
+* [How does patching occur and how to make clients resilient to patching](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover#how-does-patching-occur)<br>
+* [Troubleshoot server side issues that causes timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
+* [Best practices for better performance and reducing timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
+* [Common causes for Data loss](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
+* [Azure Cache for Redis complete documentation](https://docs.microsoft.com/azure/azure-cache-for-redis/)
+
+

@@ -1,69 +1,94 @@
-
-<properties 
-    pageTitle="Deployment issues with Azure Migrate appliance for Hyper-V "
-    description="Issues and guidance regarding deployment issues in Azure Migrate appliance for Hyper-V"
-    service="microsoft.migrate"
-    resource="migrateprojects"
-    authors="vikram1988"
-    ms.author="vibansa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32675746"
-    resourceTags=""
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
-	ownershipId="Compute_AzureMigrate"
-/>
-
+<properties
+  pagetitle="Deployment issues with Azure Migrate appliance for Hyper-V &#xD;"
+  service="microsoft.migrate"
+  resource="migrateprojects"
+  ms.author="vibansa"
+  selfhelptype="Generic"
+  supporttopicids="32675746"
+  resourcetags=""
+  productpesids="16348"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
+  ownershipid="Compute_AzureMigrate" />
 # Deployment issues with Azure Migrate appliance for Hyper-V 
 
 ## **Recommended Steps**
 
+For general queries, refer to the documentation [here](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
+
+
+### Issues with setting up an appliance
+
+* **I am unable to allocate the recommended hardware configuration to the appliance**
+
+   The recommended [configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---hyper-v) is required to support the discovery and assessment of the Hyper-V VMs. Providing less than recommended configuration may have an impact on one of these operations.
+
+* **I have a mixed on-premises environment with VMware VMs, Hyper-V VMs and physical servers. Can I discover all these using one Azure Migrate appliance?**
+
+   You need to set up separate appliances for each scenario: VMware, Hyper-V, Physical servers. Each of the appliances can be registered to the same Azure Migrate project to assess the discovered servers together.
+
+* **I don’t have enough resources to set up an appliance on-premises. Can I set up the appliance on an Azure VM?**
+
+   No, setting up the appliance on an Azure VM is not recommended.
+
+
 ### Issues with the prerequisites check on appliance
 
-**I am getting an error in the Internet prerequisite check on the appliance**
+* **I get an error in the Internet prerequisites check on the appliance**
 
-The appliance should have Internet connectivity (either directly or via a proxy). Ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v#assessment-appliance-url-access). If whitelisting is required, please ensure you whitelist all the URLs. For Azure Government customers, ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-appliance#government-cloud-urls).
+   1.  Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
+   1.  Check if there is a proxy/firewall blocking access to these URLs. If allow listing is required, make sure to allow list all the URLs.
+   1.  If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by selecting **Set up proxy** in the same step. Make sure that you provide the authorization credentials if the proxy needs them.
+   1.  Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server
 
-### Issues in registering the appliance with Azure Migrate
+* **I get an error in the auto update check on the appliance**
 
-**I am unable to register the appliance to Azure Migrate due to insufficient permissions on the subscription** 
+   Ensure that you have allow listed the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
-Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#azure-permissions).
+### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-**I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+* **After I successfully log in with an Azure user account, the appliance registration step fails with the message, "Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
-Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+   1. This issue happens when the Azure user account used to log in from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal
+   1. To complete the registration of the appliance, use the same Azure user account that generated the Azure Migrate project key on portal, or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to the other Azure user account which is used for appliance registration
 
-### Issues in adding Hyper-V hosts
+* **I have issues when registering the appliance using the Azure Migrate project key copied from the project**
 
-**I am unable to connect to the Hyper-V host/cluster due to incorrect credentials or insufficient permissions**
+   1. Ensure that you have copied the correct key from the project. To check, on the **Server Assessment** card in your project, select **Discover** and then **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the menu and copy the corresponding key.
+   1. Ensure that you are pasting the key to the appliance of the correct **cloud type** (Public/ US Gov) and **appliance type** (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
-Verify the credentials provided for Hyper-V host/cluster. The local or domain user account provided should either be a part of "Administrators" security group or should be a part of the following groups: Remote Management Users, Hyper-V Administrators and Performance Monitor Users.
+* **I am unable to complete registration due to insufficient AAD privileges and get the error, "Azure Active Directory (AAD) operation failed with status 'Forbidden' "**
 
-**I am facing WinRM errors while validating Hyper-V hosts/clusters**
+   Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to create and manage AAD Applications in Azure. You should have the Application Developer role, or the user role with **User can register applications allowed** at the tenant level.
 
-Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) and 5986 (HTTPS) are open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
+* **I am unable to complete registration due to errors related to AAD Application operation failure**
 
-**I am getting an error that the host name(s) in the cluster cannot be resolved**
+   This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance.<br>
+   Do one of the following:
+   * Ensure that the user account initiating the discovery is same as the one used to register the appliance
+   * Provide AAD Application access permissions to the other user account for which the discovery operation is failing
+   * Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
 
-Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. It is advised to get the DNS to resolve the host names if it is not an FQDN. If this is not feasible, update the hosts file on the appliance to map the IP address with the host names.
+* **I have Key Vault create/update issues during appliance registration**
 
-### Issues after hitting Save and Start discovery
+   Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
-**I am unable to initiate discovery due to insufficient AAD privileges**
+### Issues in adding Hyper-V hosts/clusters
 
-Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#azure-permissions) to create and manage AAD application in Azure. The user that you use should have the "Application Developer" role or user role with 'User can register applications' allowed at the tenant level.
+* **I cannot connect to the Hyper-V host/cluster due to incorrect credentials or insufficient permissions**
 
-**I am unable to initiate discovery due to errors related to AAD application operation failure**
+   Verify the credentials provided for Hyper-V host/cluster. The local or domain user account provided should either be a part of an Administrators security group, or should be a part of the following groups: Remote Management Users, Hyper-V Administrators, and Performance Monitor Users.
 
-This error is encountered when the Azure user account used to initiate the discovery is different from the account used to register the appliance. You can do one of the following:
+* **I get WinRM errors while validating Hyper-V hosts/clusters**
 
-1. Ensure that the user account initiating the discovery is same as the one used to register the appliance
-2. Provide AAD application access permissions to the other user account for which the discovery operation is failing
-3. Delete the Resource Group previously created for Azure Migrate project and create another Resource Group to start again
+   Using PowerShell as an administrator, run the `winrm qc` and `Enable-PSRemoting` commands on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) is open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
 
-**I am getting errors related to Discovery operation failure due to conflict in creation of some Migrate artifacts**
+* **I get an error that the host names in the cluster cannot be resolved**
 
-This error indicates a previous discovery operation is still ongoing. Please wait for some time and review the list of machines discovered on Azure portal. If you see the machines are still not discovered, start Discovery again on the appliance.
+   Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. Get the DNS to resolve the host names if it is not an FQDN. If this is not feasible, update the **hosts** file on the appliance to map the IP address with the host names.
+
+### Issues post discovery initiation
+
+* **Some performance data is missing on servers in the assessment I created**
+
+   Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-assessment#why-is-performance-data-missing-for-someall-vms-in-my-assessment-report) for different types of performance data missing issues and their remediation steps.

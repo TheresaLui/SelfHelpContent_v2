@@ -40,6 +40,8 @@ Effective February 29, 2020, Azure Active Directory (Azure AD) ["baseline" polic
 
 If you do not transition to security defaults before February 29, you will lose multi-factor authentication (MFA) enabled with baseline policies on your partner tenants. Please [enable security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults) as soon as possible to avoid any business disruptions. 
 
+To view metrics on compliance to [partner security requirements](https://docs.microsoft.com/partner-center/partner-security-requirements) for multi-factor authentication (MFA) for users in your partner tenant, refer to [security requirements status](https://partner.microsoft.com/commerce/security/compliance).
+
 ## **Recommended Documents**
 
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)

@@ -3,8 +3,8 @@
     description="Troubleshoot issues in migration"
     service="microsoft.migrate"
     resource="migrateprojects"
-    authors="bsiva"
-    ms.author="bsiva"
+    authors="anvar"
+    ms.author="anvar"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32675755"
@@ -17,7 +17,12 @@
 
 # Performing a migration on a replicating machine
 
-## **Recommended steps**
+## **Recommended Steps**
+
+* [Migrate AWS VMs to Azure](https://go.microsoft.com/fwlink/?linkid=2137866)
+* [Migrate physical servers/bare metal servers to Azure](https://go.microsoft.com/fwlink/?linkid=2137867)
+* [Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure](https://go.microsoft.com/fwlink/?linkid=2137963). You can migrate most x64 servers by treating them as physical servers for the purpose of migration.
+* [Migrate Azure VMs from one Azure region to another using Azure Site Recovery (ASR)](https://go.microsoft.com/fwlink/?linkid=2137868)
 
 ### **I get an error that says that the core count limit was reached**
 
@@ -56,4 +61,4 @@ The VM SKUs supported in the assessment and migration tools will depend on the a
 
 ### **What are the target replication regions for migrating to Azure Government?**
 
-Target regions for Azure Government are: US DoD Central, US DoD East, US Gov Arizona, US Gov Iowa, US Gov Texas, US Gov Virginia.
+Target regions for Azure Government are US DoD Central, US DoD East, US Gov Arizona, US Gov Iowa, US Gov Texas, US Gov Virginia.

@@ -11,7 +11,7 @@
 	articleId="problemscopingques-errors-and-exceptions-sf"
 	ownershipId="Compute_ServiceFabric"
 />
-# Application Erros and Exception
+# Application Errors and Exceptions
 ---
 {
     "resourceRequired": false,

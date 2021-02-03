@@ -49,13 +49,20 @@ By default, the Data Explorer returns query results in pages, with up to 100 res
 If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 <br>The setting *Allow access from Azure Portal* is enabled
-	
+
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/how-to-configure-firewall/enable-azure-portal.png)  
 
 If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only setting *Allow access from Azure Portal* is required.  
 If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
 
 **Note** If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above.  
+
+### **Cannot load a document in Data explorer: Error 401**
+
+Error Message: *The input authorization token can't serve the request. Please check that the expected payload is built as per the protocol, and check the key being used.*
+
+* If you are experiencing this error in Data Explorer when using special character encodings in the id, this is a current known issue. Please use the [Sunset Link](https://cosmos.azure.com/sunset) as a workaround.
+* This error can also be caused if the user has a custom RBAC role that does not include `Microsoft.DocumentDB/databaseAccounts/listKeys` action. For more information see, [Role-based access control in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control)
 
 ## **Recommended Documents**  
 

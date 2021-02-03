@@ -24,7 +24,7 @@ This topic will guide you to the support experience for Creator portal.
 
 ## **Recommended Steps**
 
-- Review the support options available [here](https://support.microsoft.com/kb/3020636)
+- Review the support options available [here](https://support.serviceshub.microsoft.com/supportforbusiness/create)
 
 
 ## **Recommended Documents**

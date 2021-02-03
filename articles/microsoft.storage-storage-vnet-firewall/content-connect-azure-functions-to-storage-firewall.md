@@ -17,15 +17,15 @@
 
 # Connect Azure Functions to Storage Firewall
 
-## Issue Description
+### Issue Description
 
 Scenario using connecting a **Function App** to storage account in the same region with firewall enabled.
 
-## Symptoms
+### Symptoms
 
 Azure Function uses an Internal IP (not outbound IP addresses) in the form of 10.x.x.x to access storage that may be subject to change.
 
-## Solution
+### Solution
 
 Below are the solutions/workarounds available to use Azure Functions Apps with Storage Firewall enabled
 
@@ -40,8 +40,6 @@ Please follow the following steps to integrate Function Apps with a VNET and whi
 2. Make sure all resources (Azure Functions, VNET, Storage) are all in the same region.
 
 ### B) Using App Service Environment(ASE)
-
-### Using App Service Environment(ASE)
 
 You can enable this by deploying your Function App into an App Service Environment (ASE), which will give you one **static, dedicated IP** that you can then whitelist in the Storage Firewall.
 

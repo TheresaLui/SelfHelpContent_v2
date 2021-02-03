@@ -21,6 +21,12 @@ Most users are able to resolve their Authentication case using the steps below.
 
 ## **Recommended Steps**
 
+
+### **MAC signature found in the HTTP request is not the same as the computed signature**  
+HTTP 401: The MAC signature found in the HTTP request is not the same as the computed signature.   
+If you received the 401 error message *The MAC signature found in the HTTP request is not the same as the computed signature* it can be caused by the following scenarios identified in the article [Diagnose and troubleshoot Azure Cosmos DB unauthorized exceptions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-unauthorized).
+
+
 ### **TLS 1.2 on Azure Cosmos DB**
 
 Cosmos DB supports TLS 1.2 and enforcement is based on the below factors
@@ -39,7 +45,11 @@ Please file a support ticket with the Cosmos DB.
 
 
 
+
 ## **Recommended Documents**
+
+[Azure Cosmos DB SQL API client library for Python Samples](https://docs.microsoft.com/samples/azure/azure-sdk-for-python/cosmos-db-samples/)
+<br>code samples that show common scenario operations with the Azure Cosmos DB SQL API client library  
 
 [TLS 1.2 enforcement on Azure Cosmos DB](https://devblogs.microsoft.com/cosmosdb/tls-1-2-enforcement/)
 <br>Microsoft Azure recommends all customers complete migration towards solutions that support transport layer security (TLS) 1.2 and make sure that TLS 1.2 is used by default.  

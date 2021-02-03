@@ -7,7 +7,7 @@
     ms.author="janeng"
     displayOrder="140"
     selfHelpType="generic"
-    supportTopicIds="32639968"
+    supportTopicIds="32639968, 32780979"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -19,7 +19,7 @@
 
 Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time and geo restore features. Users do not have direct access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly and differential backups occur twice a day for servers with a max supported storage of 4 TB. Snapshot backups happen at least once a day for servers that support up to 16 TB of storage. Transaction log backups in both cases occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
 
-Azure Database for PostgreSQL provides up to 100% of your provisioned server storage size as backup storage at no additional cost. Typically, this corresponds to a backup retention of 7 days. You can track this storage with the metric Backup Storage Used.
+Azure Database for PostgreSQL provides up to 100% of your provisioned server storage size as backup storage at no additional cost. Typically, this corresponds to a backup retention of 7 days. You can track this storage with the metric Backup Storage Used. Storage consumed for backups in excess of the provisioned server storage size is charged as per the [pricing model](https://azure.microsoft.com/pricing/details/postgresql/).
 
 You can choose to take a dump of a database on your server using [pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore).
 

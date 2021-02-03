@@ -40,9 +40,9 @@
 
 11. You can also upload **Proof documents** if desired
 
-	* Note that if you select **Proof documents**, you must add explanatory notes. When you’ve added a note, select **Save**. 
+Note that if you select **Proof documents**, you must add explanatory notes. When you’ve added a note, select **Save**. 
 
-12.	Enter any final comments before submitting your POE, and then select **Submit claim**
+12. Enter any final comments before submitting your POE, and then select **Submit claim**
 
 ## **Recommended Documents**
 

@@ -1,23 +1,21 @@
 <properties
-    pageTitle="Azure Stack storage devices"
-    description="Storage Capacity"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629224"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="a87b40e7-27ac-42ad-9541-9dc665013831"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
+  pagetitle="Azure Stack capacity"
+  description="Capacity"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  authors="alexsmithMSFT"
+  ms.author="alexsmit,justinha"
+  displayorder=""
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="a87b40e7-27ac-42ad-9541-9dc665013831"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
+# Azure Stack Capacity
 
-# Azure Stack Storage Capacity
-
-The hyper-converged configuration of Azure Stack allows for the sharing of physical storage devices. The three main divisions of the available storage are between:
+Azure Stack Hub allows cloud operators to monitor and manage the compute and storage capacity of their Azure Stack Hub environment. This includes:
 
 * Infrastructure storage
 * Tenant virtual machine storage
@@ -40,3 +38,4 @@ The hyper-converged configuration of Azure Stack allows for the sharing of physi
 * [Manage storage capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares)
 * [Manage physical memory capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-physical-memory-capacity)
 * [Add additional scale unit nodes in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-scale-node)
+* [Manage compute capacity for Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-compute#frequently-asked-questions)

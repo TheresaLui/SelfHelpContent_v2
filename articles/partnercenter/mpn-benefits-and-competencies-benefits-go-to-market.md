@@ -31,5 +31,5 @@
 ## **Recommended Documents**
 
 * [Go-To-Market benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515226)
-* [Where can I find my Go-To-Market benefits in Partner Center](https://support.microsoft.com/help/4489315)
+* [Locate your Microsoft Partner Network benefits](https://docs.microsoft.com/partner-center/mpn-find-benefits)
 * [How these Go-To-Market benefits can be used](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)

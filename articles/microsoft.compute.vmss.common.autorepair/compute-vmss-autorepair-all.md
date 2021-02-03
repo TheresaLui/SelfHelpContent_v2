@@ -17,10 +17,6 @@
 
 # Autorepair issue with my scale set
 
-### **Awareness**
-
-> We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
-
 ## **Recommended Steps**
 
 For general troubleshooting, please follow these guides:<br>
@@ -34,4 +30,4 @@ For general troubleshooting, please follow these guides:<br>
 
 * [Automatic instance repairs for Azure virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-instance-repairs#requirements-for-using-automatic-instance-repairs)<br>
 * [Instance Protection Policies](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-instance-protection)<br>
-* [Terminate notification for Azure virtual machine scale set instances](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-terminate-notification) 
+* [Terminate notification for Azure virtual machine scale set instances](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-terminate-notification)

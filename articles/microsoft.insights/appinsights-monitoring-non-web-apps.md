@@ -8,7 +8,7 @@
     articleId="appinsights-monitoring-non-web-apps"
     displayOrder="99"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
     productPesIds="15693"
     supportTopicIds="32729599"
     ownershipId="AzureMonitoring_ApplicationInsights"

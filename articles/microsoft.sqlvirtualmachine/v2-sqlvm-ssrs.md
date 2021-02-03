@@ -1,20 +1,15 @@
 <properties
-	pageTitle="SQL Server Reporting Services (SSRS)"
-	description="SQL Server Reporting Services (SSRS)"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"
-    authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740061"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="76a93c65-69f2-403e-8183-ca2c97b540e2"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="SQL Server Reporting Services (SSRS)"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="ujpat,vadeveka,amamun,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32747871,32747872,32747873,32747874,32747875,32747876,32747877,32747878,32747879,32747880,32747881,32747882,32747883,32747884"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="76a93c65-69f2-403e-8183-ca2c97b540e2"
+  ownershipid="AzureData_AzureSQLVM" />
 # SQL Server Reporting Services (SSRS)
 
 ### Common Issues

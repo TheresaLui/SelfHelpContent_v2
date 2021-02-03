@@ -23,7 +23,7 @@ Latency sensitive applications are advised to use [performance tips](https://doc
 ## **Recommended Steps**  
 
 ### **Use latest SDK versions and singleton client**  
-Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet). Cosmos SDK's are thread safe, ensure singleton client.  Co-locate the client application in the same Azure region as the Cosmos account. By default SDK will send all requests to the region the account was created in.  
+Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard). Cosmos SDKs are thread safe, ensure singleton client.  Co-locate the client application in the same Azure region as the Cosmos account. By default SDK will send all requests to the region the account was created in.  
 <br>This can be overridden through below APIs:
 * .NET V2 SDK DocumentClient [ConnectionPolicy.PreferredLocations](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.preferredlocations?view=azure-dotnet)
 * .NET V3 SDK CosmosClient [CosmosClientOptions.ApplicationRegion](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.cosmosclientoptions.applicationregion?view=azure-dotnet)  

@@ -17,6 +17,8 @@
 
 # Configure or use Azure Active Directory authentication
 
+**Note:** **These steps apply when using Active directory with Azure Database for MySQL - Single Server. Flexible Server (Preview) currently does not support Active directory.**
+
 Most users are able to resolve issues with connecting with Azure Active Directory using the steps below:
 
 ## **Recommended Steps**
@@ -42,10 +44,12 @@ When connecting with Managed Identity, ensure the following:
 
 1. You are using a User-assigned Managed Identity
 2. You have associated the Client ID of the Managed Identity using the following steps:
+   
    ```sql
    SET aad_auth_validate_oids_in_tenant = OFF;
    CREATE AADUSER 'myuser' IDENTIFIED BY 'CLIENT_ID';
    ```
+   
 3. You are retrieving the token from your VM's Managed Identity endpoint, and specifying the `https://ossrdbms-aad.database.windows.net` resource
 4. You are connecting with the specified MySQL user name, and appending `@servername` (e.g. `myapp@servername`)
 

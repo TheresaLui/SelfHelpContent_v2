@@ -21,7 +21,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.ClassicCompute/virtualMachines",
   "recommendationFriendlyName": "LowUsageVmClassic",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "cloudfit@microsoft.com",

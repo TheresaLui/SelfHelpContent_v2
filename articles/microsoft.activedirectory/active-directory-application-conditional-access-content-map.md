@@ -27,9 +27,8 @@ The following documents can help you to resolve some of the most common issues i
 
 The following documents can help you to resolve some of the most common issues in this category.
 
-  * [How and when do off corpnet rules take effect?](http://aka.ms/calocation/?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
+  * [How and when do off corpnet rules take effect?](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
   * [How to increase the number of devices that user is allowed to register in Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup/?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
-  * [How to set up Conditional Access for Exchange Online?](http://aka.ms/csforexchange/?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
+  * [How to set up Conditional Access for Exchange Online?](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
   * [How to set up Conditional Access for Windows 7 devices?](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access#device-based-conditional-access/?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
   * [Which applications are supported with conditional access?](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps/?WT.mc_id=UI_AAD_Enterprise_Apps_Troubleshooting_L2_Overview)
-

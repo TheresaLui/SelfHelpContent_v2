@@ -10,7 +10,7 @@
 	articleId="consulting_services_offer_troubleshooting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728075,32728076,32728077,32728083,32728081,32728082"
+	supportTopicIds="32728075,32728076,32728077,32728081,32728082"
 	resourceTags="isv"
 	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"

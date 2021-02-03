@@ -19,9 +19,20 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and already escalated this for further investigation.<br>
-<br>
-When we have an update, we'll let you know<br>
+***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 
 <!--/issueDescription-->
 
+Follow the recommended documents to troubleshoot or escalate. 
+
+## **Recommended Documents**
+
+* [Cluster creation process](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/296058/Cluster-create-process)
+* [Cluster creation failure](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/309196/Cluster-create-failed)
+* [CRUD error dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
+
+## **Known Issues**
+
+* [Leaky NICs](https://msdata.visualstudio.com/HDInsight/_workitems/edit/836006)
+* [Invalid scriptaction in ADLS Gen2 with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/796654)
+* [Invalid scriptaction in blob storage with firewall enabled](https://msdata.visualstudio.com/HDInsight/_workitems/edit/620356)

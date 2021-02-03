@@ -1,79 +1,73 @@
 <properties
-    pageTitle="Configure Consistent indexing mode on your Azure Cosmos DB container"
-    description="Configure Consistent indexing mode on your Azure Cosmos DB container"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    pageTitle="Configure Consistent indexing mode on your Azure Cosmos container"
+    description="Configure Consistent indexing mode on your Azure Cosmos container"
+    authors="pratnala"
+    ms.author="pratnala"
     articleId="213974c8-ed9c-459f-9398-7cdaa3c28856_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureData_AzureCosmosDB"
+    cloudEnvironments="Public, USNat, USSec"
+    ownershipId="AzureData_AzureCosmosDB"
 />
-# Configure Consistent indexing mode on your Azure Cosmos DB container
+# Configure Consistent indexing mode on your Azure Cosmos container
 ---
 {
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "213974c8-ed9c-459f-9398-7cdaa3c28856",
-  "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "dataSource": "SAS"
-  },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
-  "recommendationFriendlyName": "CosmosDbLazyIndexing",
+  "recommendationFriendlyName": "CosmosDBLazyIndexing",
   "recommendationMetadataState": "Active",
-  "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://adspartner/CosmosDb",
+      "service": "Azure Cosmos DB",
+      "team": "Supportability"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "ingestionClientIdentities": [
-    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
-    "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
-  ],
-  "recommendationTimeToLive": 86400,
-  "version": 1.0,
-  "learnMoreLink": "https://aka.ms/cosmosdb/how-to-manage-indexing-policy",
-  "description": "Configure Consistent indexing mode on your Azure Cosmos DB container",
-  "longDescription": "We noticed that your Azure Cosmos DB container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
+  "version": 2.0,
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy",
+  "description": "Configure Consistent indexing mode on your Azure Cosmos container",
+  "longDescription": "We noticed that your Azure Cosmos container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
   "potentialBenefits": "Improve query result consistency and reliability",
-  "actions": [
-    {
-      "actionId": "e98bcb9c-c554-46c5-81db-03483f8f38b2",
-      "description": "Configure consistent indexing mode",
-      "actionType": "Document",
-      "documentLink": "https://aka.ms/cosmosdb/how-to-manage-indexing-policy"
-    }
-  ],
-  "resourceMetadata": {
-    "action": {
-      "actionId": "c74a0052-a732-453d-99c3-825671956207",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}"
-      }
-    }
+  "displayLabel": "Configure Consistent indexing mode on your Azure Cosmos container",
+  "dataSourceMetadata": {
+    "dataSource": "Kusto",
+    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').LazyIndexing",
+    "refreshInterval": "0.12:00:00"
   },
-  "displayLabel": "Configure Consistent indexing mode on your collection",
   "additionalColumns": [
     {
       "name": "databaseName",
       "title": "Database"
     },
     {
-      "name": "containerName",
-      "title": "Container"
+      "name": "collectionName",
+      "title": "Collection"
     }
-  ]
+  ],
+  "actions": [
+    {
+      "actionId": "e98bcb9c-c554-46c5-81db-03483f8f38b2",
+      "description": "Configure consistent indexing mode",
+      "actionType": "Document",
+      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy"
+    }
+  ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "c74a0052-a732-453d-99c3-825671956207",
+      "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  }
 }
 ---

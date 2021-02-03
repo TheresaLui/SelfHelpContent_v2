@@ -9,7 +9,7 @@
 	displayOrder=""
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32637273, 32637274, 32637275"
+	supportTopicIds="32637274, 32637275"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"

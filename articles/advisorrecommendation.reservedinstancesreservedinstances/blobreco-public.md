@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="0169a2e1-c7bf-4c37-90b8-0714811c82d3_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USNat,USSec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy Blob Reserved capacity to save money over pay-as-you-go costs

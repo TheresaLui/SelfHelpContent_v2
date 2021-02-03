@@ -27,6 +27,11 @@
 
 ### **Troubleshooting**
 
+* Error type : **Conflict** when creating a certificate
+	
+	* Certificate name should be unique. Certificate with the same name might be in soft-deleted state, [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate)
+    * When a certificate is created, key vault also creates an addressable secret associated with it. You can get that secret by calling it with certificate name. Therefore, if you delete a certificate, make sure that you check if the secret is also deleted.
+
 * I had created a certificate and it is **near expiry**. What happens if it expires?
 	
 	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates).
@@ -39,9 +44,6 @@
 	
 	Access control for certificates is managed by Key Vault, and is provided by the Key Vault that contains those certificates. This operation requires the certificates/create permission. [Read more](https://docs.microsoft.com/azure/key-vault/certificates/about-certificates#certificate-access-control)
 
-* Error type : **Conflict** when creating a certificate
-	
-	Certificate name should be unique. Certificate with the same name might be in soft-deleted state, [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate)
 
 * I have accidentally **deleted a certificate**. How can i recover it?
 	

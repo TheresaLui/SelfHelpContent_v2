@@ -24,6 +24,8 @@
 
 ### **Troubleshooting**
 
+* If your key vault calls are experiencing long latency, or you would like to monitor and create alerts when key vault latency exceeds a certain threshold please see the guidance listed in the following document. [Key Vault Monitoring](https://docs.microsoft.com/azure/key-vault/general/alert) Please note that the current key vault SLA for latency is 5 seconds for each induvidual call. The SLA is documented here [Azure Key Vault SLA](https://azure.microsoft.com/support/legal/sla/key-vault/v1_0/). 
+
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 

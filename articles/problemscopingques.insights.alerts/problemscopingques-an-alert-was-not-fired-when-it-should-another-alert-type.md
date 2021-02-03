@@ -7,10 +7,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739773"
 	productPesIds="15454"
-	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
+
 # An alert was not fired when it should with another alert type
 ---
 {
@@ -26,7 +27,7 @@
             "displayLabel": "When did the problem start happening?",
             "required": false
         },
-                {
+        {
             "id": "problem_frequency",
             "order": 2,
             "controlType": "dropdown",

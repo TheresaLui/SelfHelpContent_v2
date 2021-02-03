@@ -19,10 +19,18 @@
 
 ## **Recommended Documents**
 
+**Azure Files - NFS**
+- [How to create NFS Azure File share in portal](https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-nfs-shares?tabs=azure-portal)<br>
+- [Regional availability for NFS Azure File share](https://docs.microsoft.com/azure/storage/files/storage-files-compare-protocols#regional-availability)<br>
+- [How to mount NFS Azure File share](https://docs.microsoft.com/azure/storage/files/storage-files-how-to-mount-nfs-shares)<br>
+- [Differences between NFS and SMB](https://docs.microsoft.com/azure/storage/files/storage-files-compare-protocols#differences-at-a-glance)<br>
+- [Security guidance for NFS](https://docs.microsoft.com/azure/storage/files/storage-files-compare-protocols#security)<br>
+
+
 **Troubleshooting for Mounting Errors**
 
-- [Step by step guided walkthrough for mounting errors on Windows and Linux](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
-- [Download and run troubleshooting tool for mounting errors on Linux](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
+- [Step by step guided walkthrough for mounting errors on Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems)<br>
+- [Download and run troubleshooting tool for mounting errors on Linux](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)<br>
 
 **Linux Client Problems**
 

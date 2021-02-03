@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="557c9a14-6092-4e41-9b06-5e706879eb12"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Query/Close handles using REST API

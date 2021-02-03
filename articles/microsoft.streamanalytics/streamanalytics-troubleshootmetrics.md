@@ -23,3 +23,4 @@ Azure Stream Analytics provides many metrics that can be used for monitoring and
 
 * [Debug using job diagram](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Send diagnostic logs to Log Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#send-diagnostics-to-azure-monitor-logs)

@@ -4,12 +4,12 @@
          authors="summertgu"
          ms.author="tiag"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32641080"
+         supportTopicIds="32641080,32641091,32641093,32641095,32641114,32641130,32641143"
          productPesIds="16080"
          cloudEnvironments="Public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="b4b6273d-558e-4f2d-ab00-36a830ea0134"
-	ownershipId="Compute_VirtualMachineScaleSets_Content"
+         ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 # Performance
 ---

@@ -19,18 +19,15 @@
 
 <!--issueDescription-->
 
-After checking the job runs and based on provided details, job is failing due Cluster startup failure. This error happens when execution of initscript gets hung and cluster creation gets timed out.<br>
-<br>
-Please go through the following steps to resolve the issue:<br>
-<br>
-1. Check for any global initscripts under *dbfs:/databricks/init/* or cluster scoped initscripts *%sh /dbfs/databricks/init/<ClusterName>* .<br>
-2. Remove the initscript and try to create the cluster to confirm the issue with initscript.<br>
-3. If this is cluster scoped initscript, create a test cluster without any init script and run the each command in initscript manually to find which command is getting hung and try to fix it.<br>
-4.Convert scripts to cluster scoped init scripts.<br>
+After checking the job runs and based on provided details, job is failing due Cluster startup failure. This error happens when execution of initscript gets hung and cluster creation gets timed out. Please go through the following steps to resolve the issue:
+
+1. Check for any global initscripts under *dbfs:/databricks/init/* or cluster scoped initscripts *%sh /dbfs/databricks/init/<ClusterName>* 
+2. Remove the initscript and try to create the cluster to confirm the issue with initscript
+3. If this is cluster scoped initscript, create a test cluster without any init script and run the each command in initscript manually to find which command is getting hung and try to fix it
+4. Convert scripts to cluster scoped init scripts
 
 <!--/issueDescription-->
 
-## Recommended Documents
+## **Recommended Documents**
 
-1. [Cluster node initialization scripts](https://docs.microsoft.com/azure/databricks/clusters/init-scripts)
-
+* [Cluster node initialization scripts](https://docs.microsoft.com/azure/databricks/clusters/init-scripts)

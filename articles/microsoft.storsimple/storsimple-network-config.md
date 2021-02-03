@@ -25,3 +25,4 @@
 * [Modify DNS Settings](https://docs.microsoft.com/azure/storsimple/storsimple-8000-modify-device-config#modify-dns-settings)<br>
 * [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
 * [Configure web proxy](https://docs.microsoft.com/azure/storsimple/storsimple-8000-configure-web-proxy)<br>
+* [Networking requirements for the StorSimple Device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-system-requirements#networking-requirements-for-your-storsimple-device)

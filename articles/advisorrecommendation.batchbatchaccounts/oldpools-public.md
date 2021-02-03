@@ -19,7 +19,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://azurebatch.kusto.windows.net').database('azurebatchprod').AzureAdvisor_OldPools",
     "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "refreshInterval": "0.12:00:01"
   },
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 7.0,
+  "version": 7.2,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
   "description": "Recreate your pool to get the latest node agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",

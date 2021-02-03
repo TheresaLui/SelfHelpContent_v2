@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for compute"
-description="Menu based workflow document for top compute problems"        
+description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="gansmore,summertgu"
@@ -11,7 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines_Content"
+ownershipId="Compute_VirtualMachines_Content"
 />
 # Diagnose and solve v2 test article for windows
 ---
@@ -184,7 +184,17 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         }
       ]
     },
-    {
+		{
+			"id": "Allocation_recommender",
+			"title": "Allocation Success Recommender",
+			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"category": "Deployment",
+			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+			"supportTopicId": "32743100",
+			"commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
+			"symptomId": ""
+		},
+		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -583,7 +593,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         {
           "id": "WVD_DeviceRedirection",
           "title": "Device Redirection",
-          "title": "Issues configuring device redirection",
+          "description": "Issues configuring device redirection",
           "supportTopicId": "32727874",
           "commonSolutionArticleId": "032cf025-2f52-4420-b161-bce71302f41b",
           "symptomId": ""

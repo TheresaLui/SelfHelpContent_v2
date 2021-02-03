@@ -32,8 +32,5 @@ You can learn more about roles and user management in Partner Center by accessin
 
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
-* [How to check your Incentive roles in Partner Center](https://support.microsoft.com/help/4534700)
-* [I need help finding my global admin](https://support.microsoft.com/help/4534519)
-* [Managing Incentives users and admins in Partner Center](https://support.microsoft.com/help/3011450)
-
-
+* [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
+* [I need help finding my global admin](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions#find-your-global-admin)

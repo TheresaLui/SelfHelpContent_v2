@@ -10,7 +10,7 @@
 	supportTopicIds="32680117,32680500,32680499,32680501"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public, fairfax,mooncake,blackforest,usnat, ussec"
 	articleId="c68b1edf-b42d-41fe-8572-84cc7f61d666"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
@@ -18,6 +18,14 @@
 # Troubleshoot and resolve Azure Storage access issues
 
 ## **Recommended Documents**
+
+### **Allow Shared Key Access Feature**
+- [Sign up for the preview](https://docs.microsoft.com/azure/storage/common/shared-key-authorization-prevent?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal#about-the-preview)
+- [Disable Shared Key based Authentication on your storage account](https://docs.microsoft.com/azure/storage/common/shared-key-authorization-prevent?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal#remediate-authorization-via-shared-key)
+- [Compatibility with other Azure Tools and Services](https://docs.microsoft.com/azure/storage/common/shared-key-authorization-prevent?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal#consider-compatibility-with-other-azure-tools-and-services)
+- [Azure Files SMB connections are not affected by this feature](https://docs.microsoft.com/azure/storage/common/shared-key-authorization-prevent?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal)
+- [Consider moving Files/Table Storage data out of the storage account before disabling the feature on the storage account](https://docs.microsoft.com/azure/storage/common/shared-key-authorization-prevent?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal)
+
 
 ### **Shared Key Access**
 

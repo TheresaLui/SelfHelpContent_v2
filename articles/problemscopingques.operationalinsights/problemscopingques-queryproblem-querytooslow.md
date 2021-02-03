@@ -32,7 +32,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "worked_before",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Did this query ever worked before as expected?",
+            "displayLabel": "Was this query ever successful?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -41,7 +41,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 },
                 {
                     "value": "No",
-                    "text": "Multiple machines"
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",

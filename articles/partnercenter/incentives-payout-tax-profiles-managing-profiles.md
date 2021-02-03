@@ -55,6 +55,6 @@ Contact your Account administrator to add additional domains to the AAD account.
 ## **Recommended Documents**
 
 * [Payout and tax profiles in Partner Center](https://docs.microsoft.com/partner-center/incentives-create-and-manage-your-payout-and-tax-profiles)
-* [Managing payout and tax profiles in Partner Center](https://support.microsoft.com/help/4524534)
+* [Manage your Partner Center account - company profiles, bank information, roles, permissions & more](https://docs.microsoft.com/partner-center/partner-center-account-setup)
 
 

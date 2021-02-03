@@ -52,7 +52,7 @@
             "order": 2,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "<a href='https://aka.ms/whfbplan'>Click here to get started with the WHfB Planning Guide.</a>",
+            "content": "<a href='https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-planning-guide'>Click here to get started with the WHfB Planning Guide.</a>",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,

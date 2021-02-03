@@ -3,8 +3,8 @@
     description="Backups and restore options for Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="jan-eng"
-    ms.author="janeng"
+    authors="kummanish"
+    ms.author="manishku"
     displayOrder="130"
     selfHelpType="generic"
     supportTopicIds="32640046"
@@ -17,7 +17,7 @@
 
 # Backups and restore options for Azure Database for MySQL
 
-Azure Database for MySQL automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly and differential backups occur twice a day for servers with a max supported storage of 4 TB. Snapshot backups happen at least once a day for servers that support up to 16 TB of storage. Transaction log backups in both cases occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
+Azure Database for MySQL automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly and differential backups occur twice a day for servers with a max supported storage of 4 TB. Snapshot backups happen at least once a day for servers that support up to 16 TB of storage. Transaction log backups in both cases occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days or can be reduced to 1 day for the Azure Database for MySQL Flexible servers.
 
 ## **Recommended Steps**
 
@@ -26,7 +26,7 @@ Azure Database for MySQL automatically takes backups of your server. The backups
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
-* [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)<br>
-* [How-to restore a MySQL server using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal)<br>
-* [How-to restore a MySQL server using the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)
+* Azure Database for MySQL business continuity overview for [Single server](https://docs.microsoft.com/azure/mysql/concepts-business-continuity) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-servers/concepts-business-continuity)
+* Azure Database for MySQL backup and restore concepts for [Single Server](https://docs.microsoft.com/azure/mysql/concepts-backup) and [Flexible Servers](https://docs.microsoft.com/azure/mysql/flexible-servers/concepts-backup)
+* How-to restore a MySQL server using the Azure portal [Single server](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal) and [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-servers/how-to-restore-mysql-server-portal)
+* How-to restore a MySQL server using the Azure CLI [Single server](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)

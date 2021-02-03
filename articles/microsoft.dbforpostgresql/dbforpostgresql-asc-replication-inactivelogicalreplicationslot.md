@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-replication-inactivelogicalreplicationslot"
 	diagnosticScenario="OrcasPostgresInactiveLogicalReplicationSlotV2TroubleShooter"
 	selfHelpType="diagnostics"
-	supportTopicIds="32639973, 32639976, 32639992, 32639995, 32640026, 32731228, 32639968, 32639994"
+	supportTopicIds="32639973, 32639976, 32639992, 32639995, 32640026, 32731228, 32639968, 32639994, 32780918, 32780919, 32780920, 32780921, 32781014, 32781016, 32780979, 32780885"
     productPesIds="17067"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

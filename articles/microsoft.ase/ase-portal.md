@@ -1,19 +1,15 @@
 <properties
-	pageTitle="Portal Issues"
-	description="Portal Issues"
-	service="microsoft.ase"
-	resource="ase"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608415"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="9cd832b5-11a2-406d-a200-c6ea37444cfb"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Portal Issues&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608415"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="9cd832b5-11a2-406d-a200-c6ea37444cfb"
+  ownershipid="Compute_AppService" />
 # Portal Issues
 
 ## **Recommended documents**

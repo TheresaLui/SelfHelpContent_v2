@@ -5,8 +5,8 @@
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_encryption"
-	supportTopicIds="32691406,32691407,32691408,32691401,32691402,32691403,32691082,32691083,32691084,32691411,32691413,32738646,32729194,32729195,32728875,32729196"
-	productPesIds="15629,16459,16460,16598,16461,16462"
+	supportTopicIds="32691406,32691407,32691408,32691401,32691402,32691403,32691082,32691083,32691084,32691411,32691413,32729194,32729195,32728875,32729196,32691404"
+	productPesIds="15629,16459,16460,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -16,15 +16,21 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Storage encryption issues scoping question",
+    "title": "Encryption issue on account management,blob,table,queues,adlsgen2 scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Encryption Issue Troubleshooter",
+        "description": " For \"Encryption\" issues please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
@@ -32,6 +38,7 @@
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
+            "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
                 {
                     "value": "HTTP_304",
@@ -94,20 +101,29 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
                 }
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "request_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+            "displayLabel": "Storage server request ID",
+            "watermarkText": "Server Request ID of failed operation ending with 000000",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC",
+	    "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+		    "text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+		}
+	    ]
         },
         {
             "id": "problem_description",
@@ -115,7 +131,16 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC",
+            "hints": [
+                {
+                "text": "Issue description."
+                },
+                {
+                 "text": "Paste the exception and error stack here"
+                }
+            ]
         },
         {
             "id": "learn_more_text",

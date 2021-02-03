@@ -28,7 +28,7 @@
 
 ### **Troubleshooting Connectivity Errors on Windows**
 - [Step by step guided walkthrough for connectivity errors on Windows](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
-- [Download and run troubleshooting tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
+- [Download and run troubleshooting tool for mounting errors on Windows](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Windows)<br>
 
 ### **Common Connectivity Errors on Windows**
 - [Error 5 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-5-when-you-mount-an-azure-file-share)<br>

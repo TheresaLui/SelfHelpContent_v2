@@ -39,7 +39,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'custom'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -64,7 +64,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'builtin'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
@@ -89,7 +89,7 @@
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
-                "textTemplate": "{properties.displayName}  ({name})",
+                "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
