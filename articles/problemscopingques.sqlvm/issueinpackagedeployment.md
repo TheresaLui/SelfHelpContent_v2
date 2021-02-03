@@ -48,7 +48,7 @@
             "content": null,
             "infoBalloonText": null,
             "required": false,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "TargetServer",
