@@ -1,22 +1,22 @@
 <properties 
-  pageTitle="SQL Server Integration Services (SSIS)"
-  description="SQL Server Integration Services (SSIS)"
+  pageTitle="Issue or errors in package execution"
+  description="Issue or errors in package execution"
   authors="ujpat,amamun"
-  ms.author="ujpat,amamun,amigan"
+  ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32749435,32749436,32749437,32749438,32749439"
+  supportTopicIds="32749439"
   productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
   articleId="a5df18eb-7790-410f-96ea-6cc4879213dd"
   ownershipId="AzureData_AzureSQLVM"
 />
-# SQL Server Integration Services (SSIS) 
+# Issue or errors in package execution
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "SQL Server Integration Services (SSIS)",
+    "title": "Issue or errors in package execution",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -27,22 +27,50 @@
             "required": true
         },
         {
-            "id": "whatAssistance",
+         "id": "whatVersion",
             "visibility": null,
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What version of SSIS runtime is being used? ",
+            "watermarkText": "Please fill in the version details",
+            "content": null,
+            "infoBalloonText": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+         {
+         "id": "howExecute",
+            "visibility": null,
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "How is the Package being executed and if any errors occured? ",
+            "watermarkText": "Please fill in the version details",
+            "content": null,
+            "infoBalloonText": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "issueType",
+            "visibility": null,
+            "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What assistance do you need with SSIS? ",
+            "displayLabel": "Is the issue intermittent or consistent? ",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Initial Configuration or setup SSIS",
-                    "value": "configSetup"
+                    "text": "Intermittent",
+                    "value": "Intermittent"
                 },
                 {
-                    "text": "Troubleshoot or manage SSRS",
-                    "value": "ManageSSIS"
+                    "text": "Consistent",
+                    "value": "Consistent"
                 },
                 {
                     "value": "dont_know_answer",
@@ -50,7 +78,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
