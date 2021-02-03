@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01904fa2-1f17-4584-21ee-8b8f73e958e5",
+      "longDescription": "",
+      "shortDescription": "Microsoft products (Office 365, MDTP, Exchange online, Azure AD, and so on) connectors provided by Azure Sentinel native solutions and Azure Diagnostics. ",
+      "searchTags": "Ofiice;365;Exchange;AD;MDATP",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
       "longDescription": "",
       "shortDescription": "Unable to see workspace in workspaces list",
@@ -63,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
+      "longDescription": "",
+      "shortDescription": "3rd party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
+      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20427bf2-9902-7a67-2eaf-b6f0a19bc968",
       "longDescription": "",
       "shortDescription": "Topics related to Workbook and data management",
@@ -76,6 +92,14 @@
       "shortDescription": "How to understand Azure pricing tiers and costs",
       "searchTags": "Costs;Billing;Bill",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
+      "longDescription": "",
+      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace.",
+      "searchTags": "Syslog;Log Analytics;custom logs",
+      "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
     {
