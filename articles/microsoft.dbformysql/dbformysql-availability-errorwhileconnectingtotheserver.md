@@ -58,7 +58,7 @@ Servers with less than equal to 100 GB provisioned storage are marked read-only 
 * **Is the connection failure persistent?**<br>
 [Troubleshoot persistent errors](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues#troubleshoot-persistent-errors)
 
-   Possible reasons include: incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user that is trying to connect, and others. Work through the recommended steps to ensure you are not hitting a misconfiguration problem. [Setup alerts when your Azure Database for MySQL server is not accessible](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368).
+   Possible reasons include: incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user that is trying to connect, and others. Work through the **Recommended Steps** to ensure you are not having a misconfiguration problem. [Set up alerts when your Azure Database for MySQL server is not accessible](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/get-alerted-when-your-azure-database-for-mysql-server-is-not/ba-p/1996368).
 
 ## **Recommended Steps**
 
@@ -68,13 +68,13 @@ Causes of intermittent connection issues include server restart, high resource u
 * Retry the connection
 * Check your server metrics to see if any resource is near 100% utilization. High utilization may lead to unavailable resources for a new connection.
 * Check your client's timeout settings
-* If the issue persists, see persistent connection errors below.
+* If the issue persists, see the following persistent connection errors.
 
 ### **Persistent connection errors**
 
 **Note:** We are working on changing out the gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security#ssl-default-settings). Refer to [this article](https://docs.microsoft.com/azure/mysql/concepts-certificate-rotation) to understand the impact and steps to take to avoid connectivity issues.
 
-If connection issues last for more than a couple of minutes, the root cause may be a more persistent issue. Persistent connection issues when connecting to Azure Databases for MySQL can occur because of an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the recommended steps to ensure you are not hitting a misconfiguration issue.
+If connection issues last more than a couple of minutes, the root cause may be a more persistent issue. Persistent connection issues when connecting to Azure Databases for MySQL can occur because of an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the remaining steps to ensure you are not running into a misconfiguration issue.
 
 * Set up firewall rules to be able to connect from your client machine. See how to configure firewall on [Single Server](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) and [Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-connect-tls-ssl) to allow your client's IP address.
 * If you use Virtual network, ensure the service endpoints are correctly configured:
