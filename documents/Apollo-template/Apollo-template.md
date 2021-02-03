@@ -19,16 +19,18 @@
 <br> 
 <!--Required Title in Level 1 heading for internal reference only--> 
 
-**Directions:** Copy the raw form of this article to create Apollo common solutions articles. <br>
-Authoring guidelines and sample schemas are provided in the template.
+**Directions:** Copy the raw form of this article to create Apollo solutions. <br>
+Authoring guidelines and sample schemas are provided in this template.
 
 ## Title - Required
+
 <!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
 ## Body - Required
+
 <!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
 - For a solution-based article, define the issue and provide one or more solutions.  
 - For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
@@ -69,7 +71,7 @@ Example:
 	* Sub-ItemB
 -->
 
-### Inline images
+### Images
 <!--No heading required. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
 ![alt text](/images/image.png)
 -->
@@ -110,16 +112,14 @@ Multiple video example:
        </videoGroup>
 -->
 
-## Recommended documents
-<br> <!--Insert a blank line after every heading-->
-<!--Include relevant document links that are NOT in the body/solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+## AzureKB and linked documents
+
+<!--Optional. Rewrite heading to fit the solution (e.g., "Helpful links" or "More resources"). Include only relevant document links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+This is the Apollo schema for AzureKB articles:
 <azureKB>
 	<client>Portal</client>
 </azureKB>
-<CommonSolution>
-	<articleId>d67fb475-a831-4f4b-a6ce-7fbacb0bf9df</articleId>
-	<client>Portal</client>
-</CommonSolution>
+You can also use Markdown syntax: [Description of document](URL)
 -->
 
 <!--Include the following text at the end of all topics.-->
