@@ -15,9 +15,9 @@
 />
 
 
-# Apollo template title - Required
+# Apollo template 
 <br> 
-<!--Head1 for internal reference only--> 
+<!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this article to create Apollo common solutions articles. <br>
 Authoring guidelines and sample schemas are provided in the template.
