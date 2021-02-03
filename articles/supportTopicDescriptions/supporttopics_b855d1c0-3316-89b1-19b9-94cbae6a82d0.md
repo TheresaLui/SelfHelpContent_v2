@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": null
     },
     {
+      "id": "0d2bf32e-bd4e-f868-58b6-fd7eaeada40b",
+      "longDescription": "",
+      "shortDescription": "Using the Azure spending feature in Partner center to assist in managing customer spending",
+      "searchTags": "email;preferences;notification;consumption;spend",
+      "category": null,
+      "useInDiagnoseAndSolve": null
+    },
+    {
       "id": "47fceff1-f2f2-b690-c59d-dce2c7c816af",
       "longDescription": "",
       "shortDescription": "Reconciliation file for CSP billing questions or issues.",
