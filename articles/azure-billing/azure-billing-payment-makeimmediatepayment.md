@@ -24,8 +24,8 @@ If you want to make an immediate payment for your invoice, first you'll have to 
 1. Navigate to **Cost Management + Billing**.
 1. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
     - Microsoft Online Service Program
-    - Enterprise Agreement
     - Microsoft Customer Agreement
+    - Enterprise Agreement
     - Microsoft Partner Agreement
 
 For more information, see [View your billing accounts in Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
@@ -61,11 +61,13 @@ The invoice status shows *paid* within 24 hours.
 
 For more information, see [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill) for Microsoft Customer Agreement (MCA) accounts.
 
-### **How to pay if you have a Enterprise Agreement or Microsoft Partner Agreement**
+### **How to pay your invoice by credit or debit card**
 
-For more information on Enterprise Agreements see [Understand your Azure Enterprise Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-enterprise-agreement-bill).
+If the default payment method for your billing profile is a credit or debit card, it's automatically charged each billing period.
 
-For more information on Microsoft Partner Agreement see [Review your Microsoft Partner Agreement invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/review-partner-agreement-bill).
+If your automatic credit or debit card charge gets declined for any reason, you can make a one-time payment with a credit or debit card in the Azure portal using **Pay now**.
+
+If you want to learn how to change your default payment method to check or wire transfer, see [How to pay by invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice).
 
 ### **How to pay your invoice by check or wire transfer**
 
@@ -74,14 +76,6 @@ If the default payment method of your billing profile is check or wire transfer,
 Alternatively, if your invoice is under the threshold amount for your currency, you can make a one-time payment in the Azure portal with a credit or debit card using **Pay now**. If your invoice amount exceeds the threshold, you can't pay your invoice with a credit or debit card. You'll find the threshold amount for your currency in the Azure portal after selecting **Pay now**.
 
 For more information, see [Pay by default payment method](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill#pay-by-default-payment-method).
-
-### **How to pay your invoice by credit or debit card**
-
-If the default payment method for your billing profile is a credit or debit card, it's automatically charged each billing period.
-
-If your automatic credit or debit card charge gets declined for any reason, you can make a one-time payment with a credit or debit card in the Azure portal using **Pay now**.
-
-If you want to learn how to change your default payment method to check or wire transfer, see [How to pay by invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice).
 
 ### **Troubleshooting payments with credit or debit card**
 
@@ -103,7 +97,13 @@ Follow the steps in the article below to get your subscription reactivated: [Rea
 
 Check the [Payment FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support) to see if it resolves your issue.
 
-**Recommended Documents**
+### **How to pay if you have a Enterprise Agreement or Microsoft Partner Agreement**
+
+For more information on Enterprise Agreements see [Understand your Azure Enterprise Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-enterprise-agreement-bill).
+
+For more information on Microsoft Partner Agreement see [Review your Microsoft Partner Agreement invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/review-partner-agreement-bill).
+
+## **Recommended Documents**
 
 - [How to pay your bill](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill)
 - [How to resolve your past due balance for your Azure subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/resolve-past-due-balance)
