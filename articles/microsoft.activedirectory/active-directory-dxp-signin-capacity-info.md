@@ -1,7 +1,7 @@
 <properties
     pageTitle="Signin Troubleshooting Error"
     description="Signin summary results limit exceeded text"
-    infoBubbleText="Signin summary results limit exceeded text"
+    infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
     authors="vritiJain"
