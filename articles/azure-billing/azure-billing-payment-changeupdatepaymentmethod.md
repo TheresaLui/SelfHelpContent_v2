@@ -26,9 +26,9 @@ In the Azure portal you can add a new payment method, update an existing payment
 1. Navigate to **Cost Management + Billing**
 1. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
    - Microsoft Online Service Program
-   - Enterprise Agreement
    - Microsoft Customer Agreement
    - Microsoft Partner Agreement
+   - Enterprise Agreement
 
 For more detailed instruction on how to check the type of account see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
@@ -53,7 +53,7 @@ For more information, see [About adding a card](https://docs.microsoft.com/azure
 
 For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
-### **Microsoft Customer Agreement**
+### **Microsoft Customer Agreement/ Microsoft Partner Agreement**
 
 **Add a new Credit or Debit card**
 
@@ -74,14 +74,6 @@ For more information, see [About adding a card](https://docs.microsoft.com/azure
 For more information, see [About deleting a card](https://docs.microsoft.com/azure/cost-management-billing/manage/delete-azure-payment-method).
 
 For more information about managing credit cards for a Microsoft Customer Agreement see [Manage credit cards for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/change-credit-card?WT.mc_id=Portal-Microsoft_Azure_Support#manage-credit-cards-for-a-microsoft-customer-agreement).
-
-### **Enterprise Agreement**
-
-For more information about how to manage and act on your **Azure Enterprise Agreement (Azure EA) invoice** see [Azure Enterprise enrollment invoices](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-enrollment-invoices).
-
-### **Microsoft Partner Agreement**
-
-For more information about Azure billing accounts for a Microsoft Partner Agreement see [Terms in your Microsoft Partner Agreement invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/mpa-invoice-terms).
 
 ## **Recommended Documents**
 
