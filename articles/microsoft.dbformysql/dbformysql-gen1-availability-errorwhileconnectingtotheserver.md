@@ -12,31 +12,33 @@
   ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Connection issues to Azure Databases for MySQL
 
-* **Is the connection failure intermittent?**<br> 
+### Frequently asked questions
+
+* **Is the connection failure intermittent?**
 See [Troubleshoot transient errors](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues#troubleshoot-transient-errors)
 
-* **Azure Database for MySQL server has gone away?**<br> 
+* **Azure Database for MySQL server has gone away?**
 See [MySQL has gone away troubleshooting guide](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-server-has-gone-away/ba-p/369138)
 
-* **Can connect from a device, but can't connect from another device**<br>
+* **Can connect from a device, but can't connect from another device**
 This happens due to a client-side firewall that's blocking outbound connections or a private network that is not allowed to connect to the Azure Database for MySQL. Install [`psping`](https://docs.microsoft.com/sysinternals/downloads/psping) on your client machine to verify connectivity to Azure Database for MySQL. Also try connecting from a public network.
 
-* **Access denied for user "user'@'IP_Address" (using password: YES)**<br> 
+* **Access denied for user "user'@'IP_Address" (using password: YES)**
 See [Error 1045 troubleshooting guide](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-errors#error-1045-28000-access-denied-for-user-usernameip-address-using-password-yes)
 
-* **Client with IP address 'XXX.XX.XXX.X' is not allowed to connect to this MySQL server**<br> 
+* **Client with IP address 'XXX.XX.XXX.X' is not allowed to connect to this MySQL server**
 Make sure the IP address is allowed on the [server Firewall rule](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) and that you are using correct the username format, *your_user@servername*, and the right password.
 
-* **ERROR 2013: "Lost connection to MySQL server during query"**<br>
+* **ERROR 2013: "Lost connection to MySQL server during query"**
 This is a common error for MySQL databases. Try to increase the value of the following parameters to solve this issue: `Max_allowed_packet`, `Connect_timeout`, `net_write_timeout`, `net_read_timeout`, `wait_timeout`. Maxing out resource usage can result in this error, as well. Check [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 
-* **The last packet sent successfully to the server was X milliseconds ago. The driver has not received any packets from the server**.<br>
+* **The last packet sent successfully to the server was X milliseconds ago. The driver has not received any packets from the server**.
 Consider either expiring and/or testing connection validity before using it in your application. To avoid this issue, increase the server configured values for client timeouts, or use the Connector/J connection property `autoReconnect=true` to avoid this problem.
 
 * **Change username format from your_user@servername or port 3306**<br> 
 Note that this is the only accepted format to connect to Azure Database for MySQL single server and changing the username format is not possible. Also, port 3306 is the only allowed port and changing it is not possible.
 
-* **Can't connect using SSMS**<br>
+* **Can't connect using SSMS**
 Consider using MySQL Workbench or `mysql` native client to connect to Azure Database for MySQL. SSMS is compatible only with Azure SQL Database and can't connect to Azure Database for MySQL.
 
 * **Timeout or dropped connection**<br>

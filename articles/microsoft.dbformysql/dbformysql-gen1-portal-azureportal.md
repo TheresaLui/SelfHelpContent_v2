@@ -26,6 +26,7 @@ Azure Database for MySQL Single Server provides easy management of servers throu
 * **Performance Recommendation timeout?**
 
 * [**Auto Stop and Start your Azure Database for MySQL Single Server**](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/auto-stop-and-start-your-azure-database-for-mysql-single-server/ba-p/1955740)
+
 ## **Recommended Documents**
 
 * If you are having problems, review the following docs:

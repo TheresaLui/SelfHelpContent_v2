@@ -30,7 +30,7 @@ Resetting server admin password will automatically reset the server admin privil
 
 * **DBA and super user privileges** are not supported. The administrator user (created during new server creation), allows you to perform most of DDL and DML statements. Review the current [service limitations](https://docs.microsoft.com/azure/mysql/concepts-limits) and [flexible server limitations](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-limitations)
 
-* **Manage users and roles in MySQL?** please refer to the [MySQL community edition documentation](https://dev.mysql.com/doc/refman/5.7/en/access-control.html)
+* **Manage users and roles in MySQL?** Please refer to the [MySQL community edition documentation](https://dev.mysql.com/doc/refman/5.7/en/access-control.html)
 
 ## **Recommended Documents**
 
