@@ -18,7 +18,9 @@
 
 # Upgrade to Mongo server version 3.6
 
-## You must migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB (3.6)
+## Migrate to Azure Cosmos DB API for MongoDB v3.6
+
+You must migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB v3.6
 
 <!--issueDescription-->
 
@@ -41,7 +43,8 @@ When upgrading the service, you must also migrate the data in your existing acco
 
 ### Changes from previous engine versions
 
-- **RequestRateIsLarge errors have been removed**. Requests from the client application will not return 16500 errors anymore. Instead requests will resume until they complete or fulfill the timeout.
+- **RequestRateIsLarge errors have been removed**. 
+  Requests from the client application will no longer return "16500" errors. Instead, requests will resume until they complete or fulfill the timeout.
 - Per request timeout is set to 60 seconds.
 - MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default.
 
