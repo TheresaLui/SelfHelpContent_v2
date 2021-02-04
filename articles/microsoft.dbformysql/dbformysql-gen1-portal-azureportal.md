@@ -21,7 +21,7 @@ Azure Database for MySQL Single Server provides easy management of servers throu
 
 * **Are you seeing wrong server version?** In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the SELECT VERSION(); command at the MySQL prompt.
 
-* **Export Database Backup?** Azure Database for MySQL takes backups of the data files and the transaction log, these backup files are not user-exposed and cannot be exported. You can [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830)
+* **Export Database Backup?** Azure Database for MySQL takes backups of the data files and the transaction log, these backup files are not user-exposed and cannot be exported. You can [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830)
 
 * **Performance Recommendation timeout?**
 

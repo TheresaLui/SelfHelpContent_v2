@@ -19,7 +19,7 @@
 
 User permissions for database user are managed through the MySQL built-in user management capabilities. Users can be created through SQL statements or tools like MySQL Workbench. Please note that super user access cannot be granted in the managed service.
 
-## **Fix it yourself**
+### **Fix it yourself**
 
 * **Reset server admin privileges?**
 Resetting server admin password will automatically reset the server admin privileges to default. [How to reset password](https://docs.microsoft.com/en-us/azure/mysql/howto-create-manage-server-portal#update-admin-password)
@@ -36,6 +36,6 @@ Resetting server admin password will automatically reset the server admin privil
 
 * [Create users in Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-create-users)
 * [Manage Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal)
-* [Manage Azure Database for MySQL Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-portal)
+* [Manage Azure Database for MySQL Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-server-portal)
 * [Azure Database for MySQL Single Server - Limitations](https://docs.microsoft.com/azure/mysql/concepts-limits)
 * [Azure Database for MySQL Flexible Server - Limitations](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-limitations)
