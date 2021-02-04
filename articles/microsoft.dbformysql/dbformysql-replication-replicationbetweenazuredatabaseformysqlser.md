@@ -15,9 +15,9 @@
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Issues using read replicas in Azure Database for MySQL - Single Server
+# Issues using read replicas in Azure Database for MySQL
 
-The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL to a read-only server. You can replicate from the source server to up to five replicas in Azure Database for MySQL- Single Server and up to 10 replicas Azure Database for MySQL- Flexible Server. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
 
 Most users are able to resolve their issue using the steps below.
 
@@ -56,11 +56,15 @@ To prevent data from becoming out of sync and to avoid potential data loss or co
 
 To update one of the locked parameters on the master server, delete replica servers, update the parameter value on the master, and re-create replicas.
 
-
 ### **Move replicas to other subscriptions**
 
 Replica servers are always created in the same resource group and same subscription as the master server. If you want to create a replica server in a different resource group or different subscription, you can [move the replica server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
 
+### **Private link for replicas in Azure Database for MySQL- Single Server**
+
+If you are using private link, make sure that you have a separate private link for replicas and ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+
 ## **Recommended Documents**
+
 * [Troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency)
 * [Read replica non-modificable server parameters](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters)

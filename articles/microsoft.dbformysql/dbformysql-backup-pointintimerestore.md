@@ -43,6 +43,10 @@ Resolve your issue by reviewing the following questions and solutions.
 * **Retention less than 7 days or beyond 35 days?**<br>
    The default retention period is 7 days and can be increased up to 35 days. In Azure MySQL single server, you can't set retention less than 7 days or beyond 35 days. But you may [Automate backups of your Azure Database for MySQL server to azure storage for longer term retention](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
 
+* **Point in time restore to other subscriptions**
+
+   Restore servers are always created in the same resource group and same subscription as the existing server. If you want to restore server in a different resource group or different subscription, you can [move the restore server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation. Also you can refer to [Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/restore-your-azure-database-for-mysql-server-into-a-different/ba-p/1043570) blog.
+
 ## **Recommended Steps**
 
 * Azure Database for MySQL supports point-in-time restore to any point within the configured backup retention period for a server. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported.

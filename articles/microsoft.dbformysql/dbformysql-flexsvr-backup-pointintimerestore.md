@@ -28,6 +28,7 @@ The default retention period is 7 days and can be changed from any time between 
 * You can restore to the latest possible restored point for the server which is available by default.
 * The point in time restore duration depends on your database size and the transaction log size from last full backup. The SLA of restore time is 12 hours.
 * [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+* Restore servers are always created in the same resource group and same subscription as the existing server. If you want to restore server in a different resource group or different subscription, you can [move the restore server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
 
 ## **Recommended Documents**
 
