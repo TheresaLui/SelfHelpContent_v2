@@ -17,7 +17,7 @@
 
 # I can see end-to-end Availability test details, but I'm seeing incomplete or no data
 
-Selecting a web test result on a scatter plot or in search fails to show any correlating server-side telemetry (e.g. requests, custom events, traces, dependencies). THe web test result shows the **E2E Transaction Details** view and individual steps for the web test.
+Selecting a web test result on a scatter plot or in search fails to show any correlating server-side telemetry (e.g., requests, custom events, traces, dependencies). The web test result shows the **E2E Transaction Details** view and individual steps for the web test.
 
 ![Telemetry image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/end2endpic1.jpg)
 
@@ -31,13 +31,13 @@ Selecting a web test result on a scatter plot or in search fails to show any cor
 
 **I used to see data, but don't anymore**<br>
 * Check that a deployment has not modified or removed Application Insights configuration or dependencies
-* If you have configured your application to send data through Status Monitor and web published, ensure you don't select the "delete existing files" option during publish
+* If you configured your application to send data through Status Monitor and web published, ensure you don't select the **delete existing files** option during publish
 
 **I see data in my pre-production/development environment, but not in production**<br>
-* Check that you have configured your firewall to allow traffic through the ports required for Application Insights to send data
+* Check that you've configured your firewall to allow traffic through the ports required for Application Insights to send data
 * If your instrumentation key is set programmatically or through a configuration file, validate that these values are correct
 
-If none of these steps resolve your issue, there are more detailed checklists to follow below depending on which SDK or method of application instrumentation you are using.
+If none of these steps resolve your issue, see additional checklists in the next section for the SDK or method of application instrumentation you use.
 
 ## **Recommended Documents**
 
