@@ -30,7 +30,7 @@ Add a **dotnet restore** step before the build step. This will complete the rest
 
 Ensure that you are using the right version of the task and that the packages for the project are compatible with the target Netcore framework that makes use of latest MSBuild.
 
-### An error occurs while running `dotnet run extract`
+### An error occurs while running dotnet run extract
 
 Make sure that you are using a proper format while running `dotnet run extract`.
 
