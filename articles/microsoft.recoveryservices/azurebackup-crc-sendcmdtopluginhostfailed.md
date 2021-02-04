@@ -22,5 +22,5 @@ This error occurs when the Backup plugin service was not able to start on this m
 <!--/issueDescription-->
 
 To resolve this issue, 
-1. Navigate to services.msc and ensure 'Azure Backup Workload Plugin Service' is up and running with logon user as *NT Service\AzureWLBackupPluginSvc*
-2. Verify if the VM has all the [required permissions](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions). 
+1. Navigate to services.msc and ensure that Azure Backup Workload Plugin Service is up and running, with the logon user as *NT Service\AzureWLBackupPluginSvc*
+2. Verify that the VM has all the [required permissions](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions). 
