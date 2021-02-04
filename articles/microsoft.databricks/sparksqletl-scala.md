@@ -24,7 +24,7 @@
  
 ### [BulkCopyToSqlDB](https://docs.microsoft.com/azure/azure-sql/database/spark-connector#write-data-using-bulk-insert) function does not work if the target table has calculated columns. 
 
-Additionally, this issue causes error messages, such as, "Calculated columns cannot be modified because it is either a computed column or is the result of a UNION operator."
+This issue may also cause an error, such as, "Calculated columns cannot be modified because it is either a computed column or is the result of a UNION operator."
   
 By design, SQL doesn't allow inserting data into calculated columns. To work around the issue, insert a dummy column to the calculated column with an empty string or insert to a staging table.
 
