@@ -20,14 +20,8 @@
 
 ## Migrate to Azure Cosmos DB API for MongoDB v3.6
 
-Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v3.6.
-
-<!--issueDescription-->
-
-Version 3.6 of the service provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
-
-<!--/issueDescription-->
-
+Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v3.6. This version provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
+ 
 When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
 
 ### Benefits of upgrading to version 3.6
