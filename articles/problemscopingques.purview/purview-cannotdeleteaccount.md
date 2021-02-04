@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureData_ProjectBabylon"
 />
-# Purview - Cannot Delete Account
+# Purview Cannot Delete Account
 ---
 {
     "resourceRequired": false,
