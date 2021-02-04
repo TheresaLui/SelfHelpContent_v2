@@ -2,7 +2,7 @@
   pagetitle="Connection issues to Azure Databases for MySQL&#xD;"
   service="microsoft.dbformysql"
   resource="servers"
-  ms.author="manishku,bahusse"
+  ms.author="bahusse"
   selfhelptype="Generic"
   supporttopicids="32747558"
   resourcetags="servers,databases"

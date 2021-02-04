@@ -2,7 +2,7 @@
   pagetitle="Data encryption in Azure Database for MySQL&#xD;"
   service="microsoft.dbformysql"
   resource="servers"
-  ms.author="manishku,pariks"
+  ms.author="bahusse,pariks"
   selfhelptype="Generic"
   supporttopicids="32747554"
   resourcetags="servers,databases"
@@ -47,6 +47,8 @@ az keyvault key show --vault-name keyVaultName -n keyName
 * For your General purpose and Memory optimized SKU does not have data encryption, ensure that your server has [large storage](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage)
 * You can set **Infrastructure double Encryption** for your Azure Database for MySQL from [the portal](https://docs.microsoft.com/azure/mysql/howto-double-encryption)
 * Currently, this feature supported only in East US, South Central US, and West US. For more information, see [limitations](https://docs.microsoft.com/azure/mysql/concepts-infrastructure-double-encryption#limitations).
+
+* **Why Data Encryption is not available for my Azure Database for MySQL server?** Please note that Support for this functionality is limited to General Purpose and Memory Optimized pricing tiers and **only** supported in regions and servers which support storage up to 16TB. Read more on [MySQL data encryption Limitations](https://docs.microsoft.com/azure/mysql/concepts-data-encryption-mysql#limitations).
 
 ## **Recommended Documents**
 

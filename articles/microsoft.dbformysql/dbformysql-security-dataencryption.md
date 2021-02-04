@@ -3,7 +3,7 @@
     description="Data encryption for Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="kummanish"
+    authors="bahusse"
     ms.author="manishku"
     displayOrder="400"
     selfHelpType="generic"
@@ -29,6 +29,8 @@ Data encryption with customer-managed keys for Azure Database for MySQL enables 
 * You can set **Data encryption** for your Azure Database for MySQL from [CLI](https://docs.microsoft.com/azure/mysql/howto-data-encryption-cli)
 * This feature is only supported in regions and servers which support storage up to 16TB. Please refer to the note [here](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage).
 * Encryption is only supported with RSA 2048 cryptographic key
+
+* **Why Data Encryption is not available for my Azure Database for MySQL server?** Please note that Support for this functionality is limited to General Purpose and Memory Optimized pricing tiers and **only** supported in regions and servers which support storage up to 16TB. Read more on [MySQL data encryption Limitations](https://docs.microsoft.com/azure/mysql/concepts-data-encryption-mysql#limitations).
 
 ## **Recommended Documents**
 
