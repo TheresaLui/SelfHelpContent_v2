@@ -103,8 +103,8 @@
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.2008.0.35",
-            "required": false,
-            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>",
+            "required": true
         },
         {
             "id": "cloud_id",
