@@ -61,6 +61,10 @@ If the CPU measurements are not happening every 10 seconds (e.g., gaps or measur
 
 If CPU measurements are normal, and the TransportException returns a request timeout, verify if the instance is running into **port exhaustion**. Depending on the service your application runs on, the metrics might differ. For instructions and next steps for the various Azure services, see [this article](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout#socket-or-port-availability-might-be-low).
 
+**SocketException**
+<br>SocketExceptions are common on HTTP requests that are either taking longer than expected or facing connectivity issues between the instance and the final endpoint. Locally on the instance there should be a CPU usage verification and connection throttling/limiting investigation, any resource contention on both of these can be the source of the issue. Please also verify you are following the Singleton pattern and maintaining a single client for the lifetime of the application. Some environments (like Azure Kubernetes Service), could also impose limits on the established connections and such limits should be verified.
+* See the [request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout) guide for details on verifying CPU and connection limiting.
+
 ### **Correlations**  
 
 To collect multiple *ServiceUnavailableException* messages and determine if all failures involve a single machine or a single data replica, find the *StorePhysicalAddress* fields in the error messages.  
