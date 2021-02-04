@@ -22,7 +22,7 @@ User permissions for database user are managed through the MySQL built-in user m
 ### **Fix it yourself**
 
 * **Reset server admin privileges?**
-Resetting server admin password will automatically reset the server admin privileges to default. [How to reset password](https://docs.microsoft.com/en-us/azure/mysql/howto-create-manage-server-portal#update-admin-password)
+Resetting server admin password will automatically reset the server admin privileges to default. [How to reset password](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal#update-admin-password)
 
 * **Using Triggers or Definers?** Consider using [log_bin_trust_function_creators](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#log_bin_trust_function_creators) and [Tips and Tricks for Azure Database for MySQL Super user errors](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/tips-and-tricks-in-using-mysqldump-and-mysql-restore-to-azure/ba-p/916912)
 
