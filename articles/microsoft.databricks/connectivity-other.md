@@ -47,9 +47,9 @@
    In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you which error was happening on the executor level.
    If the current cluster is very small, use a bigger cluster.
 
-  * If you have too many partitions, check the used partition strategy. Small files can cause an RPC error.
+  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy. 
 
-  * If you're running multiple notebooks on the same cluster, this can cause issues on the driver. Split the workload across multiple clusters.
+  * Running multiple notebooks on the same cluster can cause issues on the driver. Split the workload across multiple clusters.
 
   * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
