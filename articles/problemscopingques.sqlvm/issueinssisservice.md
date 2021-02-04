@@ -23,7 +23,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
@@ -31,7 +31,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": " Do you see any other SSIS errors in the event log? If so, please share the error event",
+            "displayLabel": " Do you see any other SSIS errors in the event log? If so, share the error event.",
             "content": null,
             "infoBalloonText": null,
             "required": true,
