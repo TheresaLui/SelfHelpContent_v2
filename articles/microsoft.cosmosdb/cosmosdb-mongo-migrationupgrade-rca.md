@@ -20,7 +20,7 @@
 
 ## Migrate to Azure Cosmos DB API for MongoDB v3.6
 
-You must migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB v3.6
+Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v3.6.
 
 <!--issueDescription-->
 
