@@ -37,7 +37,7 @@
             "id": "problem_run_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Provide the Pipeline or Activity RunIDs. (separate with commas)",
+            "displayLabel": "Provide the Data flow activity RunID",
             "infoBalloonText": "Enter the RunId for the issue",
 			"diagnosticInputRequiredClients": "Portal",
             "required": true
