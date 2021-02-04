@@ -56,8 +56,8 @@ Container, Blob and Disk Recovery
 Container recovery
 
 1. The container was deleted in the last 14 days<br>
-2. Storage account replication is configured as [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), [RA-GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) or [GZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) (We need the geo-replicated data for recovery):
-3. A new storage object with the same name has not be re-created since deletion.
+2. Storage account replication is configured as [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), [RA-GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) or [GZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) (We need the geo-replicated data for recovery)
+3. A new storage object with the same name has not been re-created since deletion.
 
 Blob and disk recovery
 
