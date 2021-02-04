@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Azure Purview Cannot Create Account",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "If using SDKs to deploy, please attach the deployment script.",
     "formElements": [
     	{
             "id": "problem_start_time",
@@ -47,7 +47,6 @@
             "order": 20,
             "controlType": "textbox",
             "displayLabel": "Complete error message (if any)",
-            "watermarkText": "Please provide error message you are getting",
             "required": false
         },
        {
