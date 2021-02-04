@@ -12,15 +12,16 @@
   articleid="b1d09aaa-7185-44ab-999c-b51d64b77a75"
   ownershipid="Compute_Automation" />
 # Azure Automation: Common issues with Run As accounts
+
 This article provides resources to help you resolve common issues with Run As accounts. 
 
 * **Run As/Classic Run As accounts are unavailable**
    
-   If you do not have sufficient permissions, Run As and Classic Run As accounts appear **dimmed**. To create or update a Run As account, make sure that you have the [permissions required to create a Run As or Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
+   If you do not have sufficient permissions, Run As and Classic Run As accounts appear dimmed. To create or update a Run As account, make sure that you have the [permissions required to create a Run As or Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
 
 * **Error: "You do not have permissions to create.."**
    
-   When you try to create or update a Run As account, you receive this error. See the ["Unable to Update or Create Run As account" section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update).
+   If you receive this error when you try to create or update a Run As account, see the ["Unable to Update or Create Run As account" section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update).
 
 * **Recreating a Run As/Classic Run As Account that has expired**
    
