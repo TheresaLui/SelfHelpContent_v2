@@ -37,7 +37,7 @@ Are you facing one of these common problems?
 
 * I'm facing an error with **dotnet pack** task
 
-    [Follow these steps](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-pack)
+    [Follow these steps](https://docs.microsoft.com/dotnet/core/tools/dotnet-pack)
 
 * NuGet push task fails on lacking permissions
     
@@ -45,22 +45,24 @@ Are you facing one of these common problems?
 
 * I would like to consume the generated artifacts from a specific build in another YAML pipeline
 
-    Make use of the [Download Pipeline Artifacts task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/download-pipeline-artifact?view=azure-devops)
+    Make use of the [Download Pipeline Artifacts task](https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/download-pipeline-artifact?view=azure-devops)
 
 * I need guidance on using the Azure Artifacts in Azure Pipelines
 
 	You can refer to tutorials for publishing & consuming Artifact feeds on the following packages
-    - [NuGet](https://docs.microsoft.com/en-us/azure/devops/artifacts/get-started-nuget?view=azure-devops)
-	- [npm](https://docs.microsoft.com/en-us/azure/devops/artifacts/get-started-npm?view=azure-devops&tabs=windows)
-	- [maven](https://docs.microsoft.com/en-us/azure/devops/artifacts/get-started-maven?view=azure-devops)
-	- [python](https://docs.microsoft.com/en-us/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops)
-	- [Universal Packages](https://docs.microsoft.com/en-us/azure/devops/artifacts/quickstarts/universal-packages?view=azure-devops&tabs=azuredevops)
+    - [NuGet](https://docs.microsoft.com/azure/devops/artifacts/get-started-nuget?view=azure-devops)
+	- [npm](https://docs.microsoft.com/azure/devops/artifacts/get-started-npm?view=azure-devops&tabs=windows)
+	- [maven](https://docs.microsoft.com/azure/devops/artifacts/get-started-maven?view=azure-devops)
+	- [python](https://docs.microsoft.com/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops)
+	- [Universal Packages](https://docs.microsoft.com/azure/devops/artifacts/quickstarts/universal-packages?view=azure-devops&tabs=azuredevops)
 
 
 ## **Recommended Documents**
 
-* [Project scoped feeds](https://docs.microsoft.com/en-us/azure/devops/artifacts/feeds/project-scoped-feeds?view=azure-devops)
-* [Artifacts in Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml)
-* [Publish and download artifacts in Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/pipeline-artifacts?view=azure-devops&tabs=yaml)
-* [Release artifacts & Artifact sources](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/artifacts?view=azure-devops#:~:text=A%20release%20is%20a%20collection,different%20types%20of%20artifact%20repositories.)
-* [Restore NuGet packages in Azure Pieplines](https://docs.microsoft.com/en-us/azure/devops/pipelines/packages/nuget-restore?view=azure-devops)
+* [Project scoped feeds](https://docs.microsoft.com/azure/devops/artifacts/feeds/project-scoped-feeds?view=azure-devops)
+* [Artifacts in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml)
+* [Publish and download artifacts in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/artifacts/pipeline-artifacts?view=azure-devops&tabs=yaml)
+* [Release artifacts & Artifact sources](https://docs.microsoft.com/azure/devops/pipelines/release/artifacts?view=azure-devops#:~:text=A%20release%20is%20a%20collection,different%20types%20of%20artifact%20repositories.)
+* [Restore NuGet packages in Azure Pieplines](https://docs.microsoft.com/azure/devops/pipelines/packages/nuget-restore?view=azure-devops)
+* For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
+* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
