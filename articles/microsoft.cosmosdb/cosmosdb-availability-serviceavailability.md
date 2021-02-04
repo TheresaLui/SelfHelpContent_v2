@@ -25,6 +25,15 @@ The Cosmos DB client might return "Service Unavailable" due to client machine is
 * Always ensure that you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard)
 * Ensure you are using singleton client  
 
+### **Firewall**
+If you see failures related to request being blocked by firewall, with errors like:
+
+```
+Request originated from client IP {...} through public internet. This is blocked by your Cosmos DB account firewall settings.
+```
+
+Make sure your [firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) includes the desired IP. If you recently modified this configuration, keep in mind that **changes can take up to 15 minutes** to propagate.
+
 ### **TransportException**
 The ServiceUnavailable exception can contain a TransportException when the exception details are serialized. The TransportException normally indicates a client-side connectivity issue. For example:
 
