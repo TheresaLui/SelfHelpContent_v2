@@ -15,12 +15,6 @@
     "recommendationOfferingId": "804d176b-e45c-409c-91c9-0d87467837fe",
     "recommendationOfferingName": "Resource Move",
     "recommendationTypeId": "703fbf6c-ab3a-47d2-aa26-9092d06a6054",
-    "dataSourceMetadata": {
-        "schemaVersion": 1.0,
-        "streamNamespace": "cluster('https://rmscluswus.kusto.windows.net').database('RMSKustoDB').GetSDKUsersSubscriptionIds_AA_RMS",
-        "dataSource": "Kusto",
-        "refreshInterval": "1:00:00:00"
-    },
     "recommendationCategory": "Performance",
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
@@ -30,15 +24,15 @@
     "owner": {
         "email": "azregionmove@microsoft.com",
         "icm": {
-            "routingId": "mdm://adspartner",
-            "service": "AzureResourceMover",
-            "team": "AzureResourceMoverEngineeringTeam"
+            "routingId": "MDM://AzRMS",
+            "service": "Azure Resource Mover",
+            "team": "Azure Resource Mover Engineering Team"
         },
         "serviceTreeId": "dd885aa5-f295-4101-98da-6e7b280660da"
     },
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
-    "version": 1.0,
+    "version": 2.0.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
     "longDescription": "Provide this data",
