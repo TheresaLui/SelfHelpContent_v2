@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   description="SupportTopicDescriptions for 90426252-f966-63ea-cbda-cab5ceaa865d"
   authors="elixirsys2"
-  ms.author="zachal"
+  ms.author="zachal, bhpat"
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_90426252-f966-63ea-cbda-cab5ceaa865d"
   ownershipid="Compute_Automation" />
 # Support Topic Descriptions for 90426252-f966-63ea-cbda-cab5ceaa865d
@@ -32,7 +33,7 @@
     {
       "id": "05fd52aa-7f70-1e8a-eddc-2fc162af66c7",
       "longDescription": "",
-      "shortDescription": "Unable to renew an existing RunAs account",
+      "shortDescription": "Unable to renew an existing Run As account",
       "searchTags": "renew;invalid",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -40,7 +41,7 @@
     {
       "id": "1175148d-8465-c4af-0f7b-4b94ffc17b22",
       "longDescription": "",
-      "shortDescription": "Change Tracking and Inventory has been configured, but stopped collecting data. ",
+      "shortDescription": "Change Tracking and Inventory has been configured, but stopped collecting data",
       "searchTags": "heartbeat;stop",
       "category": "Change Tracking",
       "useInDiagnoseAndSolve": "true"
@@ -102,6 +103,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e8d9f0c-79c1-a01f-b542-c13e90be690b",
+      "longDescription": "",
+      "shortDescription": "An existing Run As account is about to expire or has expired",
+      "searchTags": "runas;expired",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2eeda1d1-ab94-6d7f-fe20-7971e26c9b72",
       "longDescription": "",
       "shortDescription": "A runbook job shows up as running and can not be stopped",
@@ -112,7 +121,7 @@
     {
       "id": "32d054de-879b-ac15-60d9-5569476bacac",
       "longDescription": "",
-      "shortDescription": "Issues creating an Automation Account, including regional availability, RunAs accounts, and Log Analytics linking",
+      "shortDescription": "Issues creating an Automation Account, including regional availability, Run As accounts, and Log Analytics linking",
       "searchTags": "link;permission;greyed out;grayed out;region",
       "category": "Automation Account",
       "useInDiagnoseAndSolve": "true"
@@ -128,7 +137,7 @@
     {
       "id": "3d9a7fca-0701-caea-4823-961249dda8a6",
       "longDescription": "",
-      "shortDescription": "Using Hybrid Workers with RunAs accounts or certificates",
+      "shortDescription": "Using Hybrid Workers with Run As accounts or certificates",
       "searchTags": "cert;export;run as;sign",
       "category": "Runbooks",
       "useInDiagnoseAndSolve": "true"
@@ -160,7 +169,7 @@
     {
       "id": "4e986703-6a6c-b8ae-1d19-ef9bc92ba8d2",
       "longDescription": "",
-      "shortDescription": "Help using RunAs accounts in a runbook",
+      "shortDescription": "Help using Run As accounts in a runbook",
       "searchTags": "Run as;account;permissions",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -184,7 +193,7 @@
     {
       "id": "5b186507-1b79-34ab-58f5-4e2cb883c2dc",
       "longDescription": "",
-      "shortDescription": "Creating a new RunAs account",
+      "shortDescription": "Creating a new Run As account",
       "searchTags": "RunAs;connection;permission;unable to create;create",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -232,7 +241,7 @@
     {
       "id": "6e551778-1455-77a1-bd60-700ba414eb18",
       "longDescription": "",
-      "shortDescription": "Issues were runbook jobs are failed, stopped or suspended, or runbooks emit errors",
+      "shortDescription": "Issues where runbook jobs are failed, stopped or suspended, or runbooks emit errors",
       "searchTags": "error;fail;job;exception;runbook",
       "category": "Runbooks",
       "useInDiagnoseAndSolve": "true"
@@ -264,7 +273,7 @@
     {
       "id": "78765c3a-cd8e-f691-511b-7be94e3be6c3",
       "longDescription": "",
-      "shortDescription": "Can not create a new RunAs account",
+      "shortDescription": "Cannot create a new Run As account",
       "searchTags": "create",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -272,7 +281,7 @@
     {
       "id": "78a828dd-1403-42e5-1521-08db5a519a14",
       "longDescription": "",
-      "shortDescription": "Issues trying to use AzureRm or Az cmdlets",
+      "shortDescription": "Issues trying to use AzureRM or Az cmdlets",
       "searchTags": "az;azureRM;module;cmdlet",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -312,7 +321,7 @@
     {
       "id": "90a76cbe-5b2e-7ea1-a96d-5db297eba9e6",
       "longDescription": "",
-      "shortDescription": "Issues with ARM Templates",
+      "shortDescription": "Issues with ARM templates",
       "searchTags": "ARM;template",
       "category": "ARM",
       "useInDiagnoseAndSolve": "false"
@@ -320,7 +329,7 @@
     {
       "id": "94240eb5-ccc1-96ee-e7c7-a25bfab55df0",
       "longDescription": "",
-      "shortDescription": "Issues creating ARM Templates",
+      "shortDescription": "Issues creating ARM templates",
       "searchTags": "ARM;template",
       "category": "ARM",
       "useInDiagnoseAndSolve": "false"
@@ -328,7 +337,7 @@
     {
       "id": "986fdbe8-e849-0447-2015-f6ac430ab952",
       "longDescription": "",
-      "shortDescription": "An existing RunAs account has expired",
+      "shortDescription": "An existing Run As account has expired",
       "searchTags": "expire;cert",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -336,7 +345,7 @@
     {
       "id": "99f956eb-3e01-f14c-b12e-a0586277fed8",
       "longDescription": "",
-      "shortDescription": "An existing RunAs account is about to expire or has expired",
+      "shortDescription": "An existing Run As account is about to expire or has expired",
       "searchTags": "runas",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
@@ -388,6 +397,14 @@
       "searchTags": "agent;ready",
       "category": "update management",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b88b5b98-cdd2-7cd0-0755-75d0c3e226d4",
+      "longDescription": "",
+      "shortDescription": "Privately accessing services in Automation by connecting your virtual network to Automation",
+      "searchTags": "PrivateLink;VirtualNetwork",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "bf96609f-f01c-a33e-50f6-de9417df900b",
@@ -456,7 +473,7 @@
     {
       "id": "e87c7046-e633-8553-7468-61ff9b66215f",
       "longDescription": "",
-      "shortDescription": "Changing Start Stop schedules, targeted VMs or resource groups. Changing the order in which machines start or stop",
+      "shortDescription": "Changing Start Stop schedules, targeted VMs, or resource groups. Changing the order in which machines start or stop",
       "searchTags": "start stop;schedule;order;parallel;exclusion",
       "category": "start stop",
       "useInDiagnoseAndSolve": "true"
@@ -480,7 +497,7 @@
     {
       "id": "f08ed460-14f2-f90b-2695-6a196afe8f8a",
       "longDescription": "",
-      "shortDescription": "General guidance and advisory for RunAs",
+      "shortDescription": "General guidance and advisory for Run As",
       "searchTags": "general",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "false"
@@ -520,7 +537,7 @@
     {
       "id": "ffa06910-7d76-1596-5bec-da597fc57a2d",
       "longDescription": "",
-      "shortDescription": "Can not renew or create Classic RunAs account",
+      "shortDescription": "Cannot renew or create Classic Run As account",
       "searchTags": "classic",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"

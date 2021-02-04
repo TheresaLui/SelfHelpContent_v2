@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO_Timeout NodeReboot - Network failures"
+	description="Root Cause Analysis (RCA) - IO Timeout - Network failures"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The temporary VM shutdown was triggered by our Azure monitoring systems that detected networking issues between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. After the node detected that conditions had improved, the VM was restarted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

@@ -7,7 +7,7 @@
     ms.author="janeng"
     displayOrder="70"
     selfHelpType="generic"
-    supportTopicIds="32639986, 32781008"
+    supportTopicIds="32781007"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -17,7 +17,7 @@
 
 # Troubleshooting login performance
 
-Slow login issues can have many different root causes. Work through the recommended steps to solve for the most common issues.
+Slow login issues have many different root causes. Work through the following recommended steps to resolve the most common issues.
 
 ## **Recommended Steps**
 

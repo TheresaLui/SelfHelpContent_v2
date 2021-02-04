@@ -31,7 +31,7 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - You can **temporarily mask the underlying issue** by relaxing the [AG lease timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#lease-timeout)  and [HealthCheckTimeout](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/configure-healthchecktimeout-property-settings?view=sql-server-ver15#TsqlExample) to a higher value than the default value, such as 60000 (60 seconds),  making [FailureConditionLevel](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#health-check-values) less restrictive (such as 1 or 2, instead of the default 3).
 
 ### Event ID **1135 -node was removed from cluster membership** or **quorum lost** or **Windows Cluster Stops**
-- Ensure [cluster network thresholds are relaxed](https://docs.microsoft.comwindows-server/troubleshoot/iaas-sql-failover-cluster)
+- Ensure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) **to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)**  
   - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
   - Set [**disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for **disks hosting data (mdf/ndf) files**
@@ -87,7 +87,7 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 This can happen if the following conditions are present: 
 - There is significant disk IO [throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM to avoid IO throttling. 
 - The Storage Spaces property `AutomaticClusteringEnabled` is set to `True` **for an AG Environment**. Change it to `False.` 
-- Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244(v=ws.11)#to-run-the-validate-a-configuration-wizard) **with Storage option**
+- Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244%28v=ws.11%29#to-run-the-validate-a-configuration-wizard) **with Storage option**
 
 ### **AG DB log file unable to shrink or is growing** 
 - Review  [this article](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability) to understand and manage the AG database log file.

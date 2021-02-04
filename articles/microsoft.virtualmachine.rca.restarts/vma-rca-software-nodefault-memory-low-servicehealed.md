@@ -24,14 +24,14 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This unexpected occurrence was caused due to a platform issue where resources on the physical node were exhausted. Our engineering teams have identified the two main root causes:
 > * Memory leaks in a few OS and Azure components were identified.
 > * A general overall increase in resource usage across various Azure and OS components.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 > The following platform fixes are in process:
@@ -41,7 +41,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > We are monitoring impacted nodes and have marked them for service so that they can be recovered to full capacity.
 > 
 <!--/additionalInfo-->

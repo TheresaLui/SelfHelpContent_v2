@@ -16,44 +16,46 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to MongoDB API engine version 3.6
+# Upgrade to Mongo server version 3.6
 
-## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->, qualifies to be updated to the latest version of Azure Cosmos DB's API for MongoDB
+## Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB (3.6).
 
 <!--issueDescription-->
-Upgrading to the latest version of the service will provide the most up-to-date functionality, the latest fixes, and enhancements in performance and stability.
-
+Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 <!--/issueDescription-->
 
-The upgrade process will not cause any service interruptions or downtime. It will also not require any data or index migrations. To start the upgrade, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. You'll see the option Upgrade to Mongo server version 3.6. To start the migration, click the **Enable** button. You'll see **Pending** in the features list for up to several days. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+The upgrade process will not result in any service interruptions nor require any downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
 
-**Note:** The notification might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
-**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new account through the portal and select the MongoDB server version 3.6 to try it out with the application on a dev or qa instance, before you update the account while backing any production workload.
+**Benefits of upgrading to version 3.6**
 
-1. Benefits of upgrading to version 3.6
+    - Enhanced performance and stability
+    - Support for new database commands
+    - Support for aggregation pipeline by default and new aggregation stages
+    - Support for ChangeStream
+    - Support for Compound Indexes
+    - Cross-partition support for the following operations: `update`, `delete`, `count`, and `sort`
+    - Improved performance for the following aggregate operations: `$count`, `$skip`, `$limit`, and `$group`  
 
-   - Enhanced performance and stability
-   - Support for new database commands
-   - Support for aggregation pipeline by default and new aggregation stages
-   - Support for ChangeStream
-   - Support for Compound Indexes
-   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
-   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Changes from previous engine versions
+**Changes from previous engine versions**
 
-   - MongoDB collections will only have the `_id` property indexed by default
-   - Per request timeout is going to be 60 seconds
+    - New MongoDB collections created by you after migration will only have the `_id` property indexed by default.
+    - Per request, timeout will be 60 seconds.  
 
-3. Actions required
 
-   - The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+**Action required**
 
-    **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure portal. The updated endpoint follows this format: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
-The previous connection string, with a `documents.azure.com` DNS suffix, will continue to be operational with the 3.2 server version until further notice. Your applications can be switched to the new connection string at your convenience. 
+
+**Note:** The DNS suffix might differ if your account is in a Sovereign, Government, or Restricted Azure cloud. Please check the overview blade for your account on the Azure portal.
+
+The previous connection string with a `documents.azure.com` DNS suffix will continue to be operational with the 3.2 server version until further notice. You can switch your applications to the new connection string at your convenience.
+
+**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new Cosmos DB account with MongoDB server version 3.6 to try it out with your application on a Dev or QA instance **before you update your production application to use Mongo server version 3.6**.
+
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)

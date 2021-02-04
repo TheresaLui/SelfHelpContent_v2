@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds=""
+       supportTopicIds="32725867"
        productPesIds="17007"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -23,13 +23,13 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
    "formElements": [
        {
-	   "id": "mpn_support_level",
+       "id": "mpn_support_level",
        "order": 1,
        "visibility": "true",
-	   "controlType": "dropdown",
-	   "displayLabel": "What support level are you interested in?",
+       "controlType": "dropdown",
+       "displayLabel": "What support level are you interested in?",
        "watermarkText":"Please select the support level from the below list",
-	   "dropdownOptions": [
+       "dropdownOptions": [
 	       {
 		   "value": "silver_level",
 		   "text": "Silver"
@@ -43,16 +43,16 @@
 		   "text": "Not sure"
 	       }
 	       ],
-	   "required": true
+	"required": true
        },
        {
-	   "id": "competency_type",
+       "id": "competency_type",
        "order": 2,
        "visibility": "true",
-	   "controlType": "dropdown",
-	   "displayLabel": "What competency are you interested in?",
+       "controlType": "dropdown",
+       "displayLabel": "What competency are you interested in?",
        "watermarkText":"Please select the Competency from the below list",
-	   "dropdownOptions": [
+       "dropdownOptions": [
 	       {
 		   "value": "app_dev",
 		   "text": "Application Development"
@@ -137,11 +137,11 @@
 	   "required": true
        },
        {
-	   "id": "competency_method",
+       "id": "competency_method",
        "order": 3,
        "visibility": "true",
-	   "controlType": "dropdown",
-	   "displayLabel": "What is the option used to attain the competency?",
+       "controlType": "dropdown",
+       "displayLabel": "What is the option used to attain the competency?",
        "watermarkText":"Please select an option from the below list",
 	   "dropdownOptions": [
 	       {
@@ -280,13 +280,13 @@
 	   "required": false
        },
        {
-	   "id": "competency_requirement",
+       "id": "competency_requirement",
        "order": 4,
        "visibility": "true",
-	   "controlType": "dropdown",
-	   "displayLabel": "What is the competency requirement you need help with?",
+       "controlType": "dropdown",
+       "displayLabel": "What is the competency requirement you need help with?",
        "watermarkText":"Please select the competency requirement from the below list",
-	   "dropdownOptions": [
+       "dropdownOptions": [
 	       {
 		   "value": "assessment",
 		   "text": "Assessments"
@@ -387,6 +387,7 @@
          "order": 7,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
+	 "infoBalloonText": "In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -394,8 +395,9 @@
          "visibility": "competency_requirement == azure_customer_consumption || competency_requirement == monthly_active_usage",
          "controlType": "multilinetextbox",
          "order": 8,
-	     "displayLabel": "Subscription GUID",
-	     "watermarkText": "Please provide the Subscription GUID",
+	 "displayLabel": "Subscription GUID",
+	 "watermarkText": "Please provide the Subscription GUID",
+	 "infoBalloonText": "In case there are multiple Subscription GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -403,9 +405,10 @@
          "visibility": "competency_requirement == azure_customer_consumption || competency_requirement == monthly_active_usage",
          "controlType": "multilinetextbox",
          "order": 9,
-	     "displayLabel": "Customer Name",
-	     "watermarkText": "Please provide the Customer Name",
-         "required": false
+	 "displayLabel": "Customer Name",
+	 "watermarkText": "Please provide the Customer Name",
+         "infoBalloonText": "In case there are multiple Customer Names that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
+	 "required": false
        },
        {
          "id": "text_attach3",
@@ -442,6 +445,7 @@
          "order": 14,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
+	 "infoBalloonText": "In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -449,8 +453,9 @@
          "visibility": "competency_requirement == cloud_revenue_newbilled || competency_requirement == monthly_activeu_cspindirect",
          "controlType": "multilinetextbox",
          "order": 15,
-	     "displayLabel": "Subscription GUID",
-	     "watermarkText": "Please provide the Subscription GUID",
+	 "displayLabel": "Subscription GUID",
+	 "watermarkText": "Please provide the Subscription GUID",
+	 "infoBalloonText": "In case there are multiple Subscription GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -458,16 +463,17 @@
          "visibility": "competency_requirement == cloud_revenue_newbilled || competency_requirement == monthly_activeu_cspindirect",
          "controlType": "multilinetextbox",
          "order": 16,
-	     "displayLabel": "Customer Name",
-	     "watermarkText": "Please provide the Customer Name",
-         "required": false
+	 "displayLabel": "Customer Name",
+	 "watermarkText": "Please provide the Customer Name",
+	 "infoBalloonText": "In case there are multiple Customer Names that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
+	 "required": false
        },
        {
          "id": "text_attach7",
          "order": 17,
          "visibility": "competency_requirement == cloud_revenue_newbilled",
          "controlType": "infoblock",
-         "content": "To help us better understand your issue and for a faster resolution please upload a screenshot with the approved claim from his own dashboard for the customers driving revenue through."
+         "content": "To help us better understand your issue and for a faster resolution please upload a screenshot with the approved claim from his own dashboard for the customers driving revenue through CPOR."
        },
        {
          "id": "text_attach8",
@@ -476,34 +482,34 @@
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload the Proof of association, Proof of payment (i.e. Microsoft Invoice), PSR or Screenshot with the discrepancy, PC Insights Azure usage report. For Azure customer consumption issues or queries please provide the Proof of active usage."
        },
-	   {
-	     "id": "organization_id1",
+       {
+	 "id": "organization_id1",
          "order": 19,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
-	     "controlType": "textbox",
-	     "displayLabel": "Organization ID",
-	     "watermarkText": "Please provide the Organization ID",
-	     "required": false
+	 "controlType": "textbox",
+	 "displayLabel": "Organization ID",
+	 "watermarkText": "Please provide the Organization ID",
+	 "required": false
 	   },
 	   {
-	     "id": "tp_id1",
+	 "id": "tp_id1",
          "order": 20,
          "visibility": "competency_requirement == msauthdistri_cspindirect || competency_requirement == revenue_surface_hubdevice_ttm",
-	     "controlType": "textbox",
-	     "displayLabel": "TPID (Top Partner ID)",
-	     "watermarkText": "Please provide the TPID (Top Partner ID)",
-	     "required": false
+	 "controlType": "textbox",
+	 "displayLabel": "TPID (Top Partner ID)",
+	 "watermarkText": "Please provide the TPID (Top Partner ID)",
+	 "required": false
 	   },
 	   {
-	     "id": "sap_id1",
+	 "id": "sap_id1",
          "order": 21,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
-	     "controlType": "textbox",
-	     "displayLabel": "Company's SAP ID",
-	     "watermarkText": "Please provide the Company's SAP ID",
-	     "required": false
+	 "controlType": "textbox",
+	 "displayLabel": "Company's SAP ID",
+	 "watermarkText": "Please provide the Company's SAP ID",
+	 "required": false
 	   },
-       {
+	   {
          "id": "text_attach9",
          "order": 22,
          "visibility": "competency_requirement == msauthdistri_cspindirect",
@@ -524,6 +530,7 @@
          "order": 24,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
+	 "infoBalloonText": "In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -531,8 +538,9 @@
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == newem_ems_customers",
          "controlType": "multilinetextbox",
          "order": 25,
-	     "displayLabel": "Subscription GUID",
-	     "watermarkText": "Please provide the Subscription GUID",
+	 "displayLabel": "Subscription GUID",
+	 "watermarkText": "Please provide the Subscription GUID",
+	 "infoBalloonText": "In case there are multiple Subscription GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -540,8 +548,9 @@
          "visibility": "competency_requirement == netnew_o365_customers || competency_requirement == newem_ems_customers",
          "controlType": "multilinetextbox",
          "order": 26,
-	     "displayLabel": "Customer Name",
-	     "watermarkText": "Please provide the Customer Name",
+	 "displayLabel": "Customer Name",
+	 "watermarkText": "Please provide the Customer Name",
+	 "infoBalloonText": "In case there are multiple Customer Names that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -565,6 +574,7 @@
          "order": 30,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
+	 "infoBalloonText": "In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -572,8 +582,9 @@
          "visibility": "competency_requirement == seats_powerbi",
          "controlType": "multilinetextbox",
          "order": 31,
-	     "displayLabel": "Subscription GUID",
-	     "watermarkText": "Please provide the Subscription GUID",
+	 "displayLabel": "Subscription GUID",
+	 "watermarkText": "Please provide the Subscription GUID",
+	 "infoBalloonText": "In case there are multiple Subscription GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -581,53 +592,54 @@
          "visibility": "competency_requirement == seats_powerbi",
          "controlType": "multilinetextbox",
          "order": 32,
-	     "displayLabel": "Customer Name",
-	     "watermarkText": "Please provide the Customer Name",
-         "required": false
+	 "displayLabel": "Customer Name",
+	 "watermarkText": "Please provide the Customer Name",
+         "infoBalloonText": "In case there are multiple Customer Names that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
+	 "required": false
        },
-	   {
-	     "id": "tp_id2",
+       {
+	 "id": "tp_id2",
          "order": 33,
          "visibility": "competency_requirement == sold_oem_licenses",
-	     "controlType": "textbox",
-	     "displayLabel": "TPID (Top Partner ID)",
-	     "watermarkText": "Please provide the TPID (Top Partner ID)",
-	     "required": false
-	   },
-	   {
-	     "id": "mar_number",
+	 "controlType": "textbox",
+	 "displayLabel": "TPID (Top Partner ID)",
+	 "watermarkText": "Please provide the TPID (Top Partner ID)",
+	 "required": false
+	},
+	{
+	 "id": "mar_number",
          "order": 34,
          "visibility": "competency_requirement == sold_oem_licenses",
-	     "controlType": "textbox",
-	     "displayLabel": "MAR agreement reference number (for MAR partners)",
-	     "watermarkText": "Please provide the MAR agreement reference number",
-	     "required": false
-	   },
-       {
+	 "controlType": "textbox",
+	 "displayLabel": "MAR agreement reference number (for MAR partners)",
+	 "watermarkText": "Please provide the MAR agreement reference number",
+	 "required": false
+	 },
+	 {
          "id": "text_attach13",
          "order": 35,
          "visibility": "competency_requirement == sold_oem_licenses",
          "controlType": "infoblock",
          "content": "To help us better understand your issue and for a faster resolution please upload a proof sustaining the relevant devices sold across TTM (trailing twelve months)"
-       },
-	   {
-	     "id": "spla_agreement1",
+	 },
+	 {
+	 "id": "spla_agreement1",
          "order": 36,
          "visibility": "competency_requirement == spla_csp_revenue",
-	     "controlType": "textbox",
-	     "displayLabel": "SPLA active agreement number",
-	     "watermarkText": "Please provide the SPLA active agreement number",
+	 "controlType": "textbox",
+	 "displayLabel": "SPLA active agreement number",
+	 "watermarkText": "Please provide the SPLA active agreement number",
          "infoBalloonText": "Required for SPLA Revenue issues or queries",
-	     "required": false
-	   },
-       {
+	 "required": false
+	 },
+	 {
          "id": "cust_tenant_id5",
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
          "order": 37,
          "displayLabel": "Customer Tenant ID",
          "watermarkText": "Please provide the Customer Tenant ID",
-         "infoBalloonText": "Required for CSP Revenue issues or queries",
+         "infoBalloonText": "Required for CSP Revenue issues or queries. In case there are multiple Customer Tenant IDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -635,9 +647,9 @@
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
          "order": 38,
-	     "displayLabel": "Subscription ID",
-	     "watermarkText": "Please provide the Subscription ID",
-         "infoBalloonText": "Required for CSP Revenue issues or queries",
+	 "displayLabel": "Subscription ID",
+	 "watermarkText": "Please provide the Subscription ID",
+         "infoBalloonText": "Required for CSP Revenue issues or queries. In case there are multiple Subscription GUIDs that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
@@ -645,28 +657,28 @@
          "visibility": "competency_requirement == spla_csp_revenue",
          "controlType": "multilinetextbox",
          "order": 39,
-	     "displayLabel": "Customer name",
-	     "watermarkText": "Please provide the Customer name",
-         "infoBalloonText": "Required for CSP Revenue issues or queries",
+	 "displayLabel": "Customer name",
+	 "watermarkText": "Please provide the Customer name",
+         "infoBalloonText": "Required for CSP Revenue issues or queries. In case there are multiple Customer Names that do not show revenue acquirement, for a better analysis, please upload an excel file containing all values.",
          "required": false
        },
        {
-	   "id": "problem_description",
-	   "order": 40,
-	   "controlType": "multilinetextbox",
-	   "displayLabel": "Details",
-	   "watermarkText": "Please provide any additional information about your issue",
-       "infoBalloonText": "To better understand and learn more about competencies and their requirements before attaining them or submit a ticket on this topic please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template. In case there are discrepancies or issues with your exams and assessments please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=81a7ef29-22ef-20d8-5c4f-206c65c9a424'>Competency recognition for exams or assessments</a> template to submit your request.",
-	   "required": true,
-	   "useAsAdditionalDetails": true
+	"id": "problem_description",
+	"order": 40,
+	"controlType": "multilinetextbox",
+	"displayLabel": "Details",
+	"watermarkText": "Please provide any additional information about your issue",
+	"infoBalloonText": "To better understand and learn more about competencies and their requirements before attaining them or submit a ticket on this topic please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=3&topicid=f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf'>Competency requirements</a> template. In case there are discrepancies or issues with your exams and assessments please use the <a href='https://partner.microsoft.com/dashboard/support/mpn/servicerequests/create?stage=2&topicid=81a7ef29-22ef-20d8-5c4f-206c65c9a424'>Competency recognition for exams or assessments</a> template to submit your request.",
+	"required": true,
+	"useAsAdditionalDetails": true
        },
        {
-	   "id": "problem_start_time",
-	   "order": 41,
-	   "controlType": "datetimepicker",
-	   "displayLabel": "Start Date",
-	   "watermarkText": "When did your issue begin?",
-	   "required": true
+	"id": "problem_start_time",
+	"order": 41,
+	"controlType": "datetimepicker",
+	"displayLabel": "Start Date",
+	"watermarkText": "When did your issue begin?",
+	"required": true
        }
    ]
 }

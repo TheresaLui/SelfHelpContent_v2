@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_9cd60433-a646-8748-7e7f-fd0781fea78e"
   ownershipid="Azure_Sentinel" />
 # Support Topic Descriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e
@@ -22,11 +23,27 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01904fa2-1f17-4584-21ee-8b8f73e958e5",
+      "longDescription": "",
+      "shortDescription": "Microsoft products (Office 365, MDTP, Exchange online, Azure AD, and so on) connectors provided by Azure Sentinel native solutions and Azure Diagnostics. ",
+      "searchTags": "Ofiice;365;Exchange;AD;MDATP",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
       "longDescription": "",
       "shortDescription": "Unable to see workspace in workspaces list",
       "searchTags": "workspace;visible",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "05d76cc6-6665-8d10-58c7-72ff81a9bced",
+      "longDescription": "",
+      "shortDescription": "Topics related to Alerts, Playbooks, Bookmarks, and Queries",
+      "searchTags": "alerts ;playbooks ;queries",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -54,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
+      "longDescription": "",
+      "shortDescription": "3rd party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
+      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20427bf2-9902-7a67-2eaf-b6f0a19bc968",
       "longDescription": "",
       "shortDescription": "Topics related to Workbook and data management",
@@ -67,6 +92,14 @@
       "shortDescription": "How to understand Azure pricing tiers and costs",
       "searchTags": "Costs;Billing;Bill",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
+      "longDescription": "",
+      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace.",
+      "searchTags": "Syslog;Log Analytics;custom logs",
+      "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -126,11 +159,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "50709ed0-0612-407c-c7f1-798531a96cec",
+      "longDescription": "",
+      "shortDescription": "Topics related to Sentinel Alert and Incident management",
+      "searchTags": "Alerts;Incident",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
       "longDescription": "",
       "shortDescription": "Leveraging Threat Hunting capabilities",
       "searchTags": "threat;hunting",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58b9550d-e997-9a58-9da7-5f41244c351a",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting Bookmarks",
+      "searchTags": "bookmarks",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -147,6 +196,22 @@
       "shortDescription": "How to connect and configure data sources",
       "searchTags": "Connector;Configure",
       "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7251af10-84a8-b218-a74f-26a9820159e0",
+      "longDescription": "",
+      "shortDescription": "Log search is not displaying results or working as expected",
+      "searchTags": "log ;search",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8aa242c3-22f4-4615-f823-6eb18a6b30bb",
+      "longDescription": "",
+      "shortDescription": "Common tips for KQL design",
+      "searchTags": "KQL",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -182,6 +247,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
+      "longDescription": "",
+      "shortDescription": "Topics covering creating workspaces, access and connectivity issues",
+      "searchTags": "workspace;connectivity;create",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "Data not presenting in Sentinel Workspaces",
@@ -211,6 +284,14 @@
       "shortDescription": "Data is incorrect or mismatched in Workbook",
       "searchTags": "Workbook;Data;Missing data;Data incorrect",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dab8593e-f566-c945-7ef8-a415ed39568e",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure pricing tiers and costs",
+      "searchTags": "billing;bill;costs",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -251,6 +332,14 @@
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
+      "longDescription": "",
+      "shortDescription": "How to understand Azure Sentinel costs",
+      "searchTags": "Costs;bill;billing",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {
