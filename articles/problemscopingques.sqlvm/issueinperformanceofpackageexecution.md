@@ -23,7 +23,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
@@ -31,7 +31,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Do you have a benchmark timing to compare the good run Vs bad Run? If so, please elaborate.",
+            "displayLabel": "Do you have a benchmark timing to compare a bad run vs. a bad Run? If so, explain further.",
             "content": null,
             "infoBalloonText": null,
             "required": true,
@@ -57,7 +57,7 @@
             "visibility": null,
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Do you see any other warnings under the SSIS execution logs / report? If so, please mention.",
+            "displayLabel": "Do you see any other warnings under the SSIS execution logs/report? If so, specify them.",
             "content": null,
             "infoBalloonText": null,
             "required": false,
