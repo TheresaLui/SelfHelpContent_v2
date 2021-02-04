@@ -18,9 +18,9 @@
 # GuestAgentPluginInstallCommandProcessingFailed
 
 <!--issueDescription-->
-Extension failed to start. This can be due to run time environment failure.
+Extension failed to start. This can be due to runtime environment failure.
 <!--/issueDescription-->
 
 To resolve this issue: 
-- Ensure the latest [.NET is installed](https://docs.microsoft.com/dotnet/framework/install/) and running on the Windows VM 
-- Ensure Python 2.7 is installed on Linux VM, check if the [Linux Operating system meets the OS requirements](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-linux)
+- Ensure that the latest [.NET is installed](https://docs.microsoft.com/dotnet/framework/install/) and running on the Windows VM 
+- Ensure that Python 2.7 is installed on Linux VM and check if the [Linux Operating system meets the OS requirements](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-linux)
