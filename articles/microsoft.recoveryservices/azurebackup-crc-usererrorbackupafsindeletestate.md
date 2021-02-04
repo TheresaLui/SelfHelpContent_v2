@@ -18,7 +18,7 @@
 # UserErrorBackupAFSInDeleteState
 
 <!--issueDescription-->
-The file shares blade is displaying the item state by recovering data based on the friendly name, causing a view corresponding to the deleted file share and not the newly created file share having the same friendly name. This inconsistency is not present in the vault blade. The issue will be resolved in the upcoming releases.
+The file shares blade is displaying the item state by recovering data based on the friendly name, causing a view corresponding to the deleted file share and not to the newly created file share that has the same friendly name. This inconsistency is not present in the vault blade. This issue will be resolved in the upcoming releases.
 <!--/issueDescription-->
 
-To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/troubleshoot-azure-files#usererrorbackupafsindeletestate--backup-failed-as-the-associated-azure-file-share-is-permanently-deleted)
+To resolve this issue, follow the steps listed in [backup failed as the Azure file share is permanently deleted](https://docs.microsoft.com/azure/backup/troubleshoot-azure-files#usererrorbackupafsindeletestate--backup-failed-as-the-associated-azure-file-share-is-permanently-deleted)
