@@ -38,7 +38,7 @@
     },
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
-    "version": 2.0.0,
+    "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
     "longDescription": "Provide this data",
