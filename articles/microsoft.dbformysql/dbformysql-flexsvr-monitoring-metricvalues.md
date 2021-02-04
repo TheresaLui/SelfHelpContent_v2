@@ -13,7 +13,7 @@
   ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Metrics shown in the portal
 
-The metrics shown in Azure Database for MySQL Flexible Server portal are numerical values that describe some aspect of a system at a particular **point in time**.
+The metrics shown in Azure Database for MySQL Flexible Server portal are numerical values that describe some aspect of a system at a particular point in time.
 
 Most users are able to resolve their issues after considering the following points.
 
@@ -21,7 +21,7 @@ Most users are able to resolve their issues after considering the following poin
 
 * **Storage metric shows more storage used than when directly querying database.**
 
-  Beyond the data actually stored in your database, the footprint of your server includes additional files such as the transaction log, server log files and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
+  Beyond the data actually stored in your database, the footprint of your server includes additional files such as the transaction log, server log files, and other files needed to run the managed server. As such, there is a difference in the storage used if you are only querying for data stored and indexes.
 
 * **Metric shows a different value at different times.**
 
@@ -30,5 +30,5 @@ Most users are able to resolve their issues after considering the following poin
 ## **Recommended documents**
 
 * [Interacting with Azure Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics#interacting-with-azure-monitor-metrics/)
-* [Create an alert rule on a metric from Azure portal](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)
+* [Create an alert rule on a metric from the Azure portal](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)
 * [Understand your Azure Database for MySQL Flexible Server resources using metrics](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-monitoring)
