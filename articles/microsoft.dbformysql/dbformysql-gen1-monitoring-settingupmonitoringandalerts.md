@@ -19,7 +19,7 @@ Most users can resolve their issues by considering the following points.
 
 ### Considerations
 
-* If you're having trouble creating and managing metric alerts, review the topic [Set up alerts on metrics on flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric/) or [Set up alerts on metrics on Single Server](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric#create-an-alert-rule-on-a-metric-from-the-azure-portal/).
+* If you're having trouble creating and managing metric alerts, review the topic [Set up alerts on metrics on flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric/) or [Set up alerts on metrics on single Server](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric#create-an-alert-rule-on-a-metric-from-the-azure-portal/).
 * If you're having trouble using the Azure CLI:
 
   * Make sure that you are signed-in to the correct account by using `az login`
