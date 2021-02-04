@@ -48,7 +48,7 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 * Make sure that the following NSG rules are added to the DMS subnet. If subnet doesn't already have an NSG, please create a new NSG with the following outbound rules and add it to the DMS subnet.
 
 	| Priority | Name | Port | Protocol | Source | Destination | Action |
-	| --------------- | --------------- | --------------- |
+	| ------ | ----- | ---- | ------ | ----- | --------- | --------- |
 	| 100 | allowStorage | 443 | Any | Any | Storage | Allow |
 	| 200 | AllowServiceBus | 443 | Any | Any | ServiceBus | Allow |
 	| 300 | AllowAzureMonitor | Any | Any | Any | AzureMonitor | Allow |
