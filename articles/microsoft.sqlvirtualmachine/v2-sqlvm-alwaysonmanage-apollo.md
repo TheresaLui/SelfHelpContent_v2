@@ -25,11 +25,11 @@
     <additionalInputsReq>true</additionalInputsReq>
 </Insight>
 
-:::Section Header AG Failure:::
-
 ## **Recommended Steps**
 
 Most of users are able to resolve their issues using the following steps.
+
+:::Section AG Failure:::
 
 ### Availability Group **failed, restarted, failed over or the lease timed out** 
 To know the root cause of the issue, review the logs using [this tool](https://techcommunity.microsoft.com/t5/sql-server/failover-detection-utility-availability-group-failover-analysis/ba-p/386021). To avoid the issue
@@ -43,6 +43,8 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - Update to the **[latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)** to avoid any known issues
 - If you are seeing **VM level throttling**, moving to a [bigger size VM](https://docs.microsoft.com/azure/virtual-machines/sizes) may resolve the issue
 - You can **temporarily mask the underlying issue** by relaxing the [AG lease timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#lease-timeout)  and [HealthCheckTimeout](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/configure-healthchecktimeout-property-settings?view=sql-server-ver15#TsqlExample) to a higher value than the default value, such as 60000 (60 seconds),  making [FailureConditionLevel](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#health-check-values) less restrictive (such as 1 or 2, instead of the default 3).
+
+:::Section Event ID 1135:::
 
 ### Event ID **1135 -node was removed from cluster membership** or **quorum lost** or **Windows Cluster Stops**
 - Ensure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
