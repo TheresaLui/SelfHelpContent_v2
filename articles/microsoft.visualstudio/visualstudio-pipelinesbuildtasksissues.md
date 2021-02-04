@@ -22,7 +22,7 @@
 
 Resolve common problems related to Azure pipelines when using various build tasks using these steps.
 
-### Error "NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages" in the DotNet build task
+### Error "NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages" in the dotnet build task
 
 Add a **dotnet restore** step before the build step. This will complete the restore before the build and add the `--no-restore` argument to the build step.
 
