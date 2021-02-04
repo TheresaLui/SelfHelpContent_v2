@@ -22,13 +22,13 @@ Most users are able to resolve their issues by considering the following points.
 *Compute*
 
 * **Single server supports:**
-  * **Basic**, **General Purpose**, and **Memory Optimized** pricing tiers.
-  * Scaling between the **General Purpose** and **Memory Optimized** tiers.
+  * Basic, General Purpose, and Memory Optimized pricing tiers.
+  * Scaling between the General Purpose and Memory Optimized tiers.
   
-  Scaling to/from the **Basic** tier isn't supported. To switch from the **Basic** to the **General Purpose** or **Memory Optimized** tier, or vice-versa, follow the steps in the blog post [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
+  Scaling to/from the Basic tier isn't supported. To switch from the Basic to the General Purpose or Memory Optimized tier, or vice-versa, follow the steps in the blog post [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
 
 * **Flexible server supports:**
-  * **Burstable**, **General Purpose**, and **Memory Optimized** compute tiers.
+  * Burstable, General Purpose, and Memory Optimized compute tiers.
   * Scaling between all compute tiers and sizes.
 
 * **Connections are dropped and no new connections can be established while scaling compute resources.**
@@ -44,8 +44,8 @@ In both single and flexible server, scaling storage is an online operation that 
   Try to scale the server again after a few minutes have elapsed.
 
 * **Single server**
-  * The **Basic** tier can support up to 1 TB, with variable IOPS.
-  * The **General Purpose** and **Memory Optimized** tiers support scaling up to 16 TB. IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum 20,000 IOPS.
+  * The Basic tier can support up to 1 TB, with variable IOPS.
+  * The General Purpose and Memory Optimized tiers support scaling up to 16 TB. IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum 20,000 IOPS.
 
 * **Flexible server**
   All compute tiers support up to 16 TB.
@@ -53,8 +53,8 @@ In both single and flexible server, scaling storage is an online operation that 
 *IOPS*
 
 * **Single server**
-  * For the **Basic** tier, IOPS are variable.
-  * For the **General Purpose** and **Memory Optimized** tiers, IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum of 20,000 IOPS.
+  * For the Basic tier, IOPS are variable.
+  * For the General Purpose and Memory Optimized tiers, IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum of 20,000 IOPS.
 
 * **Flexible server**
   * The minimum effective IOPS is 100 across all compute tiers and sizes.
