@@ -31,7 +31,7 @@ Customers may face variety of Availability issues such as:
 1. Collect the Complete Error and Exceptions Stack
 2. If the Error  *"The remote name could not be resolved. Since, the issue is with networking and DNS"* then DNS Resolution Issue
 
-##Is Cosmos DB Availability SLA Violated?
+## Is Cosmos DB Availability SLA Violated?
 1. The Azure portal does show the Availability SLA for the given Account.  The customer should be able to check any availability issue in the portal to confirm any service issue.   The Azure Portal basically uses the "ComsosDBAccountAvailability"
 2. Metric to display the chart for customers which we can query through Jarvis. https://jarvis-west.dc.ad.msft.net/dashboard/DocumentDB/SLA. 
 3. The availability is down if the chart show any drop.
@@ -39,7 +39,7 @@ Customers may face variety of Availability issues such as:
 **Example :** No SLA Violation  
 See [image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EXVVCueq0jJBjVkpVs_gyUsBZTt_p-V8T0fB1uwTnnR6Ew?e=5f4FK6)
 
-##Is Gateway Mode?
+## Is Gateway Mode?
 Ensure we get the complete Call Stack as show below.   The class "Microsoft.Azure.Documents.GatewayStoreModel" indicates the connection is using Gateway Mode.  Also, you can get the connection mode from Customer.
 
 ```
@@ -114,7 +114,7 @@ MessageType_s        Error
 Message        A task was canceled.
 ```
 
-##Is Gateway Service Online
+## Is Gateway Service Online
 ```
 1. Extract the Tenant Name using the [Jarvis](https://jarvis-west.dc.ad.msft.net/D16B267D)
    Update the Account Name
@@ -129,7 +129,7 @@ Message        A task was canceled.
 ```
 See [image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/ETqYzbAjyIlMmrqUyQA77OEBK__ev1DZl5Zg2QMKr3mLxg?e=pT3y0j)
 
-##Is Endpoint Online
+## Is Endpoint Online
 
 ### NetworkConnectivityWatchdog
 
@@ -390,7 +390,7 @@ BackendEndRequest5M
 
 <br>
 
-##For Timeout issues Check max time during error scenarios
+## For Timeout issues Check max time during error scenarios
 
 ```
 BackendEndRequest5M
@@ -403,7 +403,7 @@ BackendEndRequest5M
 
 <br>
 
-##Also, See the server CPU usage using below
+## Also, See the server CPU usage using below
 
 ```
 NodeCounter5MRoleInstanceEvent
