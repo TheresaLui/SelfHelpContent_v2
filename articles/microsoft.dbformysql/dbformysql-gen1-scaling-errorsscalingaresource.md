@@ -36,7 +36,7 @@ Most users can resolve their issues by considering the following points.
   Storage on a server that supports up to 4 TB cannot be increase. To move to a server with 16 TB of storage, create a new server using the 16 TB storage option and then perform a dump & restore to the new server.
 
 
-### Considerations for Flexible server*
+### Considerations for Flexible server
 
 * **Connections are dropped and no new connections can be established while vCores are scaled.**
 
