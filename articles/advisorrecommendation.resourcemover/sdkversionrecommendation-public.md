@@ -15,6 +15,12 @@
     "recommendationOfferingId": "804d176b-e45c-409c-91c9-0d87467837fe",
     "recommendationOfferingName": "Resource Move",
     "recommendationTypeId": "703fbf6c-ab3a-47d2-aa26-9092d06a6054",
+    "dataSourceMetadata": {
+        "schemaVersion": 1.0,
+        "streamNamespace": "cluster('https://rmscluswus.kusto.windows.net').database('RMSKustoDB').GetSDKUsersSubscriptionIds_AA_RMS",
+        "dataSource": "Kusto",
+        "refreshInterval": "1:00:00:00"
+    },
     "recommendationCategory": "Performance",
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
@@ -59,6 +65,6 @@
     },
     "displayLabel": "Update Azure Resource Mover SDK",
     "additionalColumns": [],
-    "testData": "e80eb9fa-c996-4435-aa32-5af6f3d3077c,/subscriptions/e80eb9fa-c996-4435-aa32-5af6f3d3077c"
+    "testData": "e80eb9fa-c996-4435-aa32-5af6f3d3077c, /subscriptions/e80eb9fa-c996-4435-aa32-5af6f3d3077c"
 }
 ---
