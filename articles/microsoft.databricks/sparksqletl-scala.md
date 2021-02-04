@@ -40,13 +40,13 @@ By design, SQL doesn't allow inserting data into calculated columns. To work aro
     """,True)
     ```
     
-2.[Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
+2. [Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
   
      ```
      dbfs:/databricks/ssl_change.sh
      ```
      
- 3.Restart the cluster and test this scala code; it should run successfully:
+ 3. Restart the cluster and test this scala code; it should run successfully:
      
      ```
      %scala val html = scala.io.Source.fromURL("https://azure.microsoft.com/api/v2/pricing/databricks/calculator/?currency=US").mkString’
