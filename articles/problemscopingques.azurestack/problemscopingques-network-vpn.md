@@ -104,7 +104,7 @@
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.2008.0.35",
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>",
-            "required": true
+            "required": false
         },
         {
             "id": "cloud_id",
