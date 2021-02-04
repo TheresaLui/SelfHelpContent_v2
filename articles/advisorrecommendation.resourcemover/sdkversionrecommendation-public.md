@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Upgrade SDK version recommendation"
+    pageTitle="Upgrade SDK version recommendation for Azure Resource Mover"
     description="Return list of resources that do not currently use the recommended SDK version"
     authors="natarajs"
     ms.author="natarajs"
@@ -8,7 +8,7 @@
     cloudEnvironments="Public, ussec, usnat"
     ownershipId="Compute_AzureResourceMover"
 />
-# Resource Mover SDK Ugrade Recommendation
+# Azure Resource Mover SDK Ugrade Recommendation
 ---
 {
     "$schema": "AdvisorRecommendation",
@@ -41,7 +41,7 @@
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
-    "longDescription": "Provide this data",
+    "longDescription": "We have identified that you are using an older version of SDK. The latest version of SDK contains new features such as dependency validation improvements, ability to delete source resources, several portal improvements in addition to several fixes proactively identified though our QA process.",
     "potentialBenefits": "Latest Azure Resource Mover SDK contains the most recent feature functionality",
     "supportedSDKLanguages": [".Net"],
     "actions": [
