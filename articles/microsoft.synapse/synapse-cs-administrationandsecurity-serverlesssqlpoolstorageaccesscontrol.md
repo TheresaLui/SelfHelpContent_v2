@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Administration and Security/Serverless SQL pool - Storage access control&#xD;"
+  pagetitle="Administration and Security/Serverless SQL pool - Storage access control"
   service="microsoft.synapse"
   resource="workspaces"
   ms.author="fipopovi,saltug,goventur"
@@ -23,8 +23,8 @@ Most customers resolve their storage access issues in Serverless SQL pool using 
    Use the following PowerShell script to validate if the storage account network rules are correctly configured:<br>
    
    ```
-      $resourceGroupName = "<resource group name>"
-      $accountName = "<storage account name>"
+      $resourceGroupName = "[resource group name]"
+      $accountName = "[storage account name]"
       $rule = Get-AzStorageAccountNetworkRuleSet -ResourceGroupName $resourceGroupName -Name $accountName
       
       $rule.ResourceAccessRules | ForEach-Object {
