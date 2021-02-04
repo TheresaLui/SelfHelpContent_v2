@@ -41,7 +41,7 @@
             "watermarkText": "Please provide any information related to this issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
        {
             "id": "error_msg",
             "order": 20,
