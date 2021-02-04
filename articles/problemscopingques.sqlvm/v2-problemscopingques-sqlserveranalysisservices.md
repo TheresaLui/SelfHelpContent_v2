@@ -23,7 +23,7 @@
       "id":"problem_start_time",
       "order":1,
       "controlType":"datetimepicker",
-      "displayLabel":"When did the problem start",
+      "displayLabel":"When did the problem start?",
       "required":true
     },
     {
@@ -60,7 +60,7 @@
       "order":3,
       "controlType":"multilinetextbox",
       "displayLabel":"What is the error message?",
-      "watermarkText":"Include error details if any",
+      "watermarkText":"Include error details, if any",
       "required":false
     },
     {
@@ -68,7 +68,7 @@
       "order":4,
       "controlType":"multilinetextbox",
       "displayLabel":"What have you tried to troubleshoot this?",
-      "watermarkText":"Include what you already tried, environment information and recent changes you have done",
+      "watermarkText":"Include what you've already tried, environment information, and recent changes you've made",
       "required":false
     },
       {
@@ -76,7 +76,7 @@
       "order":5,
       "controlType":"multilinetextbox",
       "displayLabel":"What have you tried to troubleshoot this?",
-      "watermarkText":"Include what you already tried, environment information and recent changes you have done",
+      "watermarkText":"Include what you've already tried, environment information, and recent changes you've made",
       "required":false
     },
     {
@@ -84,7 +84,7 @@
       "order":1000,
       "controlType":"multilinetextbox",
       "displayLabel":"Description",
-      "watermarkText":"Describe the issue in 2-3 sentences.Include what you are trying to accomplish when the issue occurs",
+      "watermarkText":"Describe the issue in 2-3 sentences. Include what you're trying to accomplish when the issue occurs",
       "required":true,
       "useAsAdditionalDetails":true
     }
