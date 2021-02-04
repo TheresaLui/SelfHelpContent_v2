@@ -62,9 +62,9 @@
 	|     databricks-sql-metastore (OPTIONAL – External Hive Metastore)    |     Azure Databricks workspace subnets    |     [Region specific SQL Metastore Endpoint](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/udr#--metastore-artifact-blob-storage-log-blob-storage-and-event-hub-endpoint-ip-addresses)            |     tcp:3306         |     Stores metadata for databases and child objects in Azure Databricks workspace                             |
 
 
-* Getting network connection error trying to fetch URL using Scala - **javax.net.ssl.SSLException: Connection reset**:
+* **Problem:** Network connection error when trying to fetch URL using Scala "javax.net.ssl.SSLException: Connection reset"
   
-  1.Run this command in a notebook to create [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts):
+  1. Run this command in a notebook to create [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts):
   
     ```
     dbutils.fs.put("dbfs:/databricks/ssl_change.sh","""
@@ -73,13 +73,13 @@
     """,True)
     ```
     
-  2.[Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
+  2. [Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
   
      ```
      dbfs:/databricks/ssl_change.sh
      ```
      
-  3.Restart the cluster and test this scala code, it should run successfully:
+  3. Restart the cluster and test this scala code:
      
      ```
      %scala val html = scala.io.Source.fromURL("https://azure.microsoft.com/api/v2/pricing/databricks/calculator/?currency=US").mkString’
