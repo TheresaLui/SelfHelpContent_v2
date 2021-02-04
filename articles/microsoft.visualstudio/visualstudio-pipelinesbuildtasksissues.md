@@ -20,23 +20,23 @@
 
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
+Resolve common problems related to Azure pipelines when using various build tasks using these steps.
 
-* I encounter an error **NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages** in the DotNet build task
+### Error "NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages" in the DotNet build task
 
-	Add a **dotnet restore** step before the build step which will complete the restore before the build and add the **--no-restore** argument to the build step.
+Add a **dotnet restore** step before the build step. This will complete the restore before the build and add the `--no-restore` argument to the build step.
 
-* **.NET Core** task is failing in my pipelines
+### .NET Core task is failing in my pipelines
 
-	Ensure that you are using the right version of the task and that the packages for the project are compatible with the target Netcore framework that makes use of latest MSBuild.
+Ensure that you are using the right version of the task and that the packages for the project are compatible with the target Netcore framework that makes use of latest MSBuild.
 
-* An error occurs while running **dotnet run extract**
+### An error occurs while running `dotnet run extract`
 
-	Make sure you are using a proper format while running 'dotnet run extract'.
+Make sure that you are using a proper format while running `dotnet run extract`.
 
-* I need guidance on using the **.NetCore** build tasks in my Azure Pipelines
+### Need guidance on using the **.NetCore** build tasks in my Azure Pipelines
 
-	You can refer to [this document](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops)
+Refer to [this document](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops)
 
 ## **Recommended Documents**
 
