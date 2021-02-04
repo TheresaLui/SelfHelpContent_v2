@@ -25,7 +25,7 @@
     },
     "formElements": [
         {
-            "id": "new_replication",
+            "id": "target_replication_type",
             "order": 0,
             "controlType": "dropdown",
             "displayLabel": "New replication type",
