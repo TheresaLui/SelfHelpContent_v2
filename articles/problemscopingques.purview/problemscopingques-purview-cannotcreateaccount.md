@@ -81,7 +81,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the name and Region of the account you tried to create?",
             "required": false
-        }        
+        }
     ],
     "$schema": "SelfHelpContent"
 }
