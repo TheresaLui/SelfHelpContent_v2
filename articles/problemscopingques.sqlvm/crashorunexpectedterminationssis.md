@@ -31,7 +31,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Is there an application which is crashing or is an SSIS Package failing with Unexpected Termination?",
+            "displayLabel": "Is there an application that is crashing or is an SSIS Package failing with Unexpected Termination?",
             "content": null,
             "infoBalloonText": null,
             "required": true,
