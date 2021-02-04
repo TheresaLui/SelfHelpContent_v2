@@ -19,9 +19,9 @@
 
 > **Check [Azure Databricks status page](https://status.azuredatabricks.net/) for current status by region. We highly recommend subscribing for updates on this page, which will automatically notify you of future status changes.**
 
- ## Errors and Resolution Steps
+ ## Common errors and resolutions
   
-* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message similar to the following:<br>
+* **Problem**: You cannot connect to Azure SQL DW using managed identity and ADLS from Databricks, and receive an error message, such as:<br>
   "com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
   com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]"
  
@@ -47,9 +47,9 @@
    In the Spark UI, go to **Stages** and **Sort** tasks based on the error. This will show you which error was happening on the executor level.
    If the current cluster is very small, use a bigger cluster.
 
-  * Having too many partitions. Small files can cause an RPC error. Check the used partition strategy.
+  * If you have too many partitions, check the used partition strategy. Small files can cause an RPC error.
 
-  * Running multiple notebooks on the same cluster can sometimes cause issues on the driver. If that is the case, split the workload across multiple clusters.
+  * If you're running multiple notebooks on the same cluster, this can cause issues on the driver. Split the workload across multiple clusters.
 
   * Implement workload through Azure Firewall to Azure Databricks VNet injected workspace. Make a note of Azure Databricks control plane endpoints for your workspace (map it based on region of your workspace) when configuring Azure Firewall rules:
 
