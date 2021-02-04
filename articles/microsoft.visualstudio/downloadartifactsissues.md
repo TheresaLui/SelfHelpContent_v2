@@ -6,7 +6,7 @@
 	resource="account"
 	authors="v-abiss"
 	ms.author="v-abiss"
-	articleId="AZDevOpsPipelinesAzureWebAppIssues"
+	articleId="AZDevOpsPipelinesDownloadArtifactsIssues"
 	supportTopicIds="32742292"
 	diagnosticScenario=""
 	selfHelpType="generic"
@@ -63,6 +63,6 @@ Are you facing one of these common problems?
 * [Artifacts in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml)
 * [Publish and download artifacts in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/artifacts/pipeline-artifacts?view=azure-devops&tabs=yaml)
 * [Release artifacts & Artifact sources](https://docs.microsoft.com/azure/devops/pipelines/release/artifacts?view=azure-devops#:~:text=A%20release%20is%20a%20collection,different%20types%20of%20artifact%20repositories.)
-* [Restore NuGet packages in Azure Pieplines](https://docs.microsoft.com/azure/devops/pipelines/packages/nuget-restore?view=azure-devops)
+* [Restore NuGet packages in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/packages/nuget-restore?view=azure-devops)
 * For service-impacting issues, see [Azure DevOps Services Status](https://status.dev.azure.com/)
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
