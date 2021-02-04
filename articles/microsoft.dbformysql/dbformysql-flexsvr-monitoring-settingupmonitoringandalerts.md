@@ -22,9 +22,9 @@ Most users can to resolve their issues after considering the following points.
 * If you're having trouble creating and managing metric alerts using the Azure portal, review the article [Set up alerts on metrics](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric/).
 * If you are having trouble using Azure CLI:
 
-  * Make sure you are signed-in to the correct account by using **az login**.
+  * Make sure you are signed-in to the correct account by using `az login`.
   * Ensure you are using the correct subscription if you have multiple subscriptions.
-  * Specify all required parameters in **az monitor metrics alert** using valid values. Review the article [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) for valid parameters.
+  * Specify all required parameters in `az monitor metrics alert` using valid values. Review the article [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) for valid parameters.
 
 * If you are having trouble using Azure Rest API:
 
