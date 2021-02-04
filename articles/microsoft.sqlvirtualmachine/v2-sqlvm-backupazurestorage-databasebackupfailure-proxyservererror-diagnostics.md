@@ -29,15 +29,14 @@ The error indicates backups might have failed due to proxy authentication errors
 - Sometimes the default settings are not picked up, causing proxy authentication errors. To resolve this issue, create a configuration file that allows the Backup to URL process to use the default proxy settings, by using the following steps:
 	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content:
 	```
-		<system.net>
-			<defaultProxy enabled="true" useDefaultCredentials="true">
-				<proxy
-						usesystemdefault="true"
-						proxyaddress="http://[proxy-server]:[proxy-port]"
-						bypassonlocal="true"
-					/>
-			</defaultProxy>
-		</system.net>
+	&lt;?xml version ="1.0"?&gt;
+	&lt;configuration&gt;
+		&lt;system.net&gt;
+		&lt;defaultProxy enabled="true" useDefaultCredentials="true"&gt;
+		&lt;proxy usesystemdefault="true"/&gt;
+		&lt;/defaultProxy&gt;
+		&lt;/system.net&gt;
+	&lt;/configuration&gt;
 	```
 	- Place the configuration file in the Binn folder of the SQL Server Instance. For example, if MySQL Server is installed on the C drive of the machine, place the configuration file in C:\Program Files\Microsoft SQL Server\MSSQL13.\<InstanceName>\MSSQL\Binn.
 		
