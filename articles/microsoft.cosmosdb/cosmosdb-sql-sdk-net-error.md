@@ -85,7 +85,7 @@ You should also consider either [increasing the provisioned throughput](https://
 
 
 **408 Request timeout or OperationCanceledException**
-<br>The HTTP 408 or OperationCanceledException error occurs if the SDK was not able to complete the request before the timeout limit occurs. It often indicates that either the operation is taking longer to complete or that there are connectivity issues on the client environment. 
+<br>The HTTP 408 or OperationCanceledException error occurs if the SDK was not able to complete the request before the timeout limit occurs. It often indicates that either the operation is taking longer to complete or that there are connectivity issues on the client environment.
 * See [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
 
 **SocketException**
