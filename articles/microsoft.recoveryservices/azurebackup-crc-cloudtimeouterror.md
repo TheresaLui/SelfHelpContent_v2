@@ -28,4 +28,4 @@ Note: If you receive a support case with this error, file a documentation bug wi
 
 Error code: CloudTimeoutError<br>
 Error Message: Microsoft Azure Backup was unable to complete the operation in the allotted time.<br>
-Recommended Action: Wait for a few minutes and then try the operation again. If the issue persists, please contact Microsoft support.
+Recommended Action: Wait for a few minutes and then try the operation again. If the issue persists, contact Microsoft support.
