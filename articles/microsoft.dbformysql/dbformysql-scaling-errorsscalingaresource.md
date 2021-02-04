@@ -17,9 +17,7 @@ Azure Database for MySQL Single server and Flexible server offer scaling for com
 
 Most users can resolve their issues by considering the following points.
 
-### Considerations
-
-*Single server*
+### Considerations for Single server
 
 * **Unable to scale from Basic to General Purpose/Memory Optimized service tiers, or vice versa.**
 
@@ -27,7 +25,7 @@ Most users can resolve their issues by considering the following points.
 
 * **Connections are dropped and no new connections can be established while vCores are scaled.**
 
-  vCore scaling requires a server restart. When new connections cannot be established, the time it takes the window to display varies, but in most cases, it takes under a minute. It is recommend to implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
+  vCore scaling requires a server restart. When new connections cannot be established, the time it takes the window to display varies, but in most cases, it takes under a minute. We recommend that you implement [retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed. Storage scaling does not require a restart.
 
 * **Can't scale up the master server when a replica exists, or cannot scale down a replica.**
 
@@ -37,7 +35,7 @@ Most users can resolve their issues by considering the following points.
 
   Storage on a server that supports up to 4 TB cannot be increased. To move to a server with 16 TB of storage, create a new server using the 16 TB storage option and then perform a dump & restore to the new server.
 
-*Flexible server*
+### Considerations for Flexible server
 
 * **Connections are dropped and no new connections can be established while vCores are scaled.**
 
