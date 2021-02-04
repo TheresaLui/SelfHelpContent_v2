@@ -127,7 +127,8 @@ You can also use Markdown syntax: [Description of document](URL)
 > If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
  
 
-<!--RULES:
+<!--NOTE: THIS LIST IS OUTDATED AND PENDING VALIDATION DECISIONS!
+RULES:
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
 * Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
