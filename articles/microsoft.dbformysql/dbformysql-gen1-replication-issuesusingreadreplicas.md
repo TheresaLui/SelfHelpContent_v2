@@ -60,6 +60,10 @@ To update one of the locked parameters on the master server, delete replica serv
 
 Replica servers are always created in the same resource group and same subscription as the master server. If you want to create a replica server in a different resource group or different subscription, you can [move the replica server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
 
+### **Private link for replicas**
+
+If you are using private link, make sure that you have a separate private link for replicas and ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
+
 ## **Recommended Documents**
 
 * [Troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency)
