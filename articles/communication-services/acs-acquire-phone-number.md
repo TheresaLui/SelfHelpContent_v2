@@ -21,11 +21,11 @@ Customers are getting an error when trying to acquire a phone number. There are 
 
 ## **Recommended Steps**
 
-Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (i.e., Geographic or Toll-free) will be dimmed. 
+Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (that is, Geographic or Toll-free) will be dimmed. 
   If this is the case, check back again after some time has passed.
 
-If failure occurred because of subscription eligibility:<br>
-- Check the subscription type. The subscription must be a paid account; the subscription cannot have any free credits associated with it (i.e. student accounts, visual studio credits, etc.).
+If the failure occurred because of subscription eligibility:<br>
+- Check the subscription type. The subscription must be a paid account; the subscription cannot have any free credits associated with it (for example, student accounts, visual studio credits, etc.).
 - Check that the billing address is located within the United States, excluding Puerto Rico. Canada and Puerto Rico will be available when the service moves to General Availability.
 
 If this didn't solve the issue, tell the customer to:<br>
