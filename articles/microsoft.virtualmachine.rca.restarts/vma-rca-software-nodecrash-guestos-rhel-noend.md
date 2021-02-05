@@ -35,6 +35,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 <!--resolutionDetails-->
+
 ### **Resolution**
 > VM was restored following reboot of the host node.
 > 
@@ -49,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > Troubleshooting links:
 > * [RHEL Analyzing the core dump](https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
 > * [RHEL troubleshooting kernel crashes, hangs, or reboots with kdump](https://access.redhat.com/solutions/6038)
-> * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
+> * [RHEL kernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 
 
 ## **Recommended Documents**
