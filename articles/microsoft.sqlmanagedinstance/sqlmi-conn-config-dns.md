@@ -15,7 +15,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLMI_Connectivity"
 />
 
 # DNS configuration
