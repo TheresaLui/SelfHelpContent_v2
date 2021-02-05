@@ -5,7 +5,7 @@
 	authors="deeptivu"
 	ms.author="deeptivu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783246"
+	supportTopicIds="32783246,32783217"
 	productPesIds="17354"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -16,7 +16,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Azure Purview Cannot Create Account",
+    "title": "Azure Purview Missing classifications on an asset",
     "fileAttachmentHint": "Share screenshot of your scan rule set that shows the classifications you are trying to match; In case you are using custom classification, please share a screenshot of the custom classification definition",
     "formElements": [
         {
