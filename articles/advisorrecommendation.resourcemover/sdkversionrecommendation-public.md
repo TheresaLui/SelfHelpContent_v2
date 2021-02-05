@@ -37,7 +37,7 @@
         "serviceTreeId": "dd885aa5-f295-4101-98da-6e7b280660da"
     },
     "ingestionClientIdentities": [],
-    "recommendationTimeToLive": 8640000,
+    "recommendationTimeToLive": 3600,
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
