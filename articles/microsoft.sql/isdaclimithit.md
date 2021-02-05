@@ -20,9 +20,9 @@
 # Dedicated Admin Connection (DAC) limit reached
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, DAC (Dedicated Admin Connection) limit of one was reached and therefore new connection(s) were denied.
+Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, DAC (Dedicated Admin Connection) the limit of one was reached and therefore new connection(s) were denied.
 
-Dedicated Admin connection (DAC) for administrators are solely for diagnosing under rare circumstances and with limitations. To guarantee that there are resources available for the connection, only one DAC is allowed at a time. In your case, DAC connection was already active, and the new request to connect your database through the DAC was denied with error.
+Dedicated Admin connections (DACs) for administrators are solely for diagnosing issues under rare circumstances and with limitations. To guarantee that there are resources available for the connection, only one DAC is allowed at a time. In your case, a DAC connection was already active, and the new request to connect your database through the DAC was denied with an error message.
 
 <!--/issueDescription-->
 
