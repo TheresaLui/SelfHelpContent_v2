@@ -15,6 +15,8 @@ ownershipId="AzureData_AzureSQLDB_BackupRestore"
 
 **Point in Time Restore**
 
+
+
 ### Recommended video
 In the following video, you will learn how to perform Point in Time Restore in Azure SQL.
 
