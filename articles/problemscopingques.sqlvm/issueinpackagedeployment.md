@@ -1,22 +1,22 @@
 <properties 
-  pageTitle="SQL Server Integration Services (SSIS)"
-  description="SQL Server Integration Services (SSIS)"
+  pageTitle="Issue in Package deployment"
+  description="Issue in Package deployment"
   authors="ujpat,amamun"
-  ms.author="ujpat,amamun,amigan"
+  ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32749435,32749436,32749437,32749438,32749439"
+  supportTopicIds="32749436"
   productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
-  articleId="a5df18eb-7790-410f-96ea-6cc4879213dd"
+  articleId="7735839e-a6e3-4f13-9dc6-875010f87b80"
   ownershipId="AzureData_AzureSQLVM"
 />
-# SQL Server Integration Services (SSIS) 
+# Issue in Package deployment
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "SQL Server Integration Services (SSIS)",
+    "title": "Issue in Package deployment",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -27,22 +27,46 @@
             "required": true
         },
         {
-            "id": "whatAssistance",
+         "id": "TargetVersion",
             "visibility": null,
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What is the version of the Target SQL Server where you are deploying the SSIS projects?",
+            "content": null,
+            "infoBalloonText": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+         {
+         "id": "Permissions",
+            "visibility": null,
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Did you change the SQL Server service account recently or can you confirm with your Domain admins if they revoked any permissions/privileges?",
+            "content": null,
+            "infoBalloonText": null,
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "TargetServer",
+            "visibility": null,
+            "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What assistance do you need with SSIS? ",
+            "displayLabel": "Did you set the TargetServerVersion of the SSIS project accordingly?  If not, set it accordingly.",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Initial Configuration or setup SSIS",
-                    "value": "configSetup"
+                    "text": "Yes",
+                    "value": "Yes"
                 },
                 {
-                    "text": "Troubleshoot or manage SSRS",
-                    "value": "ManageSSIS"
+                    "text": "No",
+                    "value": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -50,7 +74,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0

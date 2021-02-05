@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - Generic"
+	description="Root Cause Analysis (RCA) - Software - Guest OS - Generic"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -41,9 +41,10 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-<!--recommendedActions-->## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Steps**
 
-> To investigate the causes of the VM crash, please use the following references that might be helpful:
+> To investigate the causes of the VM crash, the following references might be helpful:
 > 
 > Troubleshooting links:
 > * [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)
@@ -53,7 +54,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [SUSE Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)
 > * [RHEL Analyzing the core dump](https://access.redhat.com/documentation/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
 > * [RHEL troubleshooting kernel crashes, hangs, or reboots with kdump](https://access.redhat.com/solutions/6038)
-> * [RHEL ernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
+> * [RHEL kernel crash dump guide](https://access.redhat.com/documentation/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
 > 
 
 
