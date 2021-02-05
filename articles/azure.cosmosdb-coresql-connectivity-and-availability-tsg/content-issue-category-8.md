@@ -17,7 +17,7 @@
 
 # Issue Category
 
-1- Get the Database Account Name and review the Cosmos DB Account SLA
+1- Get the Database Account Name and review the Cosmos DB Account SLA </br>
 2- Follow every step mentioned below.
 
 Customers may face variety of Availability issues such as:
