@@ -190,7 +190,7 @@
             "displayLabel": "On-premises VPN device configuration",
             "watermarkText": "Provide details about your local VPN device",
             "useAsAdditionalDetails": true,
-            "required": true,
+            "required": false,
             "hints": [{
                         "text": "VPN device model"
                     },
@@ -217,7 +217,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
