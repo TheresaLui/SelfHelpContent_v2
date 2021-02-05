@@ -46,7 +46,6 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "How is the Package being executed and if any errors occured? ",
-            "watermarkText": "Please fill in the version details",
             "content": null,
             "infoBalloonText": null,
             "required": true,
