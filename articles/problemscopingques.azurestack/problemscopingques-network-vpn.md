@@ -132,7 +132,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
             "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
