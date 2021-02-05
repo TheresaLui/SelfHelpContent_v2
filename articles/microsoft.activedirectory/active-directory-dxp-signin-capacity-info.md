@@ -20,5 +20,5 @@
 # Sign-in Results Error
 
 <!--issueDescription-->
-The number of sign-in requests exceeded the number which can be reviewed in one set.
+The number of sign-in requests exceeded the number that can be reviewed in one set.
 <!--/issueDescription-->
