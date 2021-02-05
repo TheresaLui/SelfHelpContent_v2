@@ -1,24 +1,24 @@
 <properties
-	articleId="problemscopingques-sqlmi-tools-ssdt"
-	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to capture SSDT related issues"
-	authors="vitomaz-msft,MladjoA"
+	articleId="problemscopingques-sql-portalandtools-ssms"
+	pageTitle="SQL Database"
+	description="Scoping questions to capture SSMS related issues"
+	authors="vitomaz-msft"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637307"
-	productPesIds="16259"
+	supportTopicIds="32630412"
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLDB"
 />
-# SQL Database Managed Instance
+# SQL Database
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "SQL Database Managed Instance",
+    "title": "SQL Database",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -32,8 +32,8 @@
             "id": "version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the version of SSDT you are using?",
-            "watermarkText": "Provide the SSDT version",
+            "displayLabel": "What is the version of SSMS you are using?",
+            "watermarkText": "Provide the SSMS version",
             "required": false,
             "useAsAdditionalDetails": false
         },

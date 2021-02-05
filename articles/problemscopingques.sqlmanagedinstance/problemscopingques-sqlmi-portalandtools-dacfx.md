@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqlmi-tools-dacfx"
+	articleId="problemscopingques-sqlmi-portalandtools-dacfx"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions to capture DACFx related issues"
 	authors="vitomaz-msft,MladjoA"

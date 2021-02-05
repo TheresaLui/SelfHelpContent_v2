@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqlmi-tools-ssms"
+	articleId="problemscopingques-sqlmi-portalandtools-ssms"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions to capture SSMS related issues"
 	authors="vitomaz-msft,MladjoA"
