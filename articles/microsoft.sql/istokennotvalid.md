@@ -16,7 +16,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# We ran diagnostics on your resource and found an issue
+# Connection token invalid
 
 ## **Connections denied due to an invalid AAD token**
 

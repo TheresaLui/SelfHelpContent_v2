@@ -16,7 +16,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
-# We ran diagnostics on your resource and found an issue
+# Server disabled due to a billing issue
 
 <!--issueDescription-->
 The server <!--$ServerName-->ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information.

@@ -17,7 +17,7 @@
 	ownershipId="AzureData_AzureSQLDB"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Dedicated Admin Connection (DAC) limit reached
 
 <!--issueDescription-->
 Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, DAC (Dedicated Admin Connection) limit of one was reached and therefore new connection(s) were denied.

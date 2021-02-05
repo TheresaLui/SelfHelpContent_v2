@@ -16,7 +16,8 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
-# We ran diagnostics on your resource and found an issue
+
+# Login Timeout (SNI Read Timeout)
 
 <!--issueDescription-->
 Your application/client, which was connecting to database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> has taken too long to respond during the login request, so the login request was terminated. This behavior is by design. As a protection, Azure SQL Database endpoints forcibly terminate connections when the client login packets take several seconds to arrive to our service.
