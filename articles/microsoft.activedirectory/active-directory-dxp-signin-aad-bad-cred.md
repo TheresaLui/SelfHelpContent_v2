@@ -27,9 +27,9 @@ In this sign-in attempt the user <!--$userName-->[userName]<!--/$userName--> was
 
 This user has had <!--$badAttempts-->[badAttempts]<!--/$badAttempts--> similar attempts from the same application-<!--$appName-->[appName]<!--/$appName-->-and the same device over the past 48 hours. 
 
-If the number of attempts from the same application and device are high, then this may be a problem where the application is using an old password and simply resubmitting it. If that is the case, then take action to update the application to use the new password. 
+If the number of attempts from the same application and device are high, this may be a problem where the application is using an old password and simply resubmitting it. If that is the case, take action to update the application to use the new password. 
 
-If the number of attempts is low, or comes from a variety of devices, then this may simply be the result of the user not entering the correct password since they forgot it or mis-typed it.
+If the number of attempts is low, or comes from a variety of devices, then this may simply be the result of the user not entering the correct password since they forgot it or mistyped it.
 
 ## **Incorrect credential for <!--$userName-->[userName]<!--/$userName--> (past 48 hours)**
 <!--$attemptContent-->[attemptContent]<!--/$attemptContent-->
