@@ -13,7 +13,7 @@
   ownershipid="AzureData_DataFactory" />
 # Understand and Tune Performance of Copy Activity
 
-**Note:** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
+**Note:** If you use **Self-Hosted IR** follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
 
 ## Troubleshooting performance issue
 
@@ -23,12 +23,12 @@ When troubleshooting performance issues, refer to the copy status to better unde
 
 ## **Recommended Steps**
 
-After you run a copy activity, you can collect the run result and performance statistics using the [copy activity monitoring view](https://docs.microsoft.com/azure/data-factory/copy-activity-monitoring), then, you can use the [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting) to review:
+After you run a copy activity, collect the run result and performance statistics using the [copy activity monitoring view](https://docs.microsoft.com/azure/data-factory/copy-activity-monitoring), then, you can use the [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting) to review:
 
 * Copy Activity [Performance tuning tips and best practices](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting#performance-tuning-tips) including data store specific tips, data store throttling, integration runtime, fault tolerance and staged copy<br>
-* Understand [copy activity execution details](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting#understand-copy-activity-execution-details) to help identifying possible bottlenecks you can focus on
+* Understand [copy activity execution details](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting#understand-copy-activity-execution-details) to help identifying possible bottlenecks
 
-Consider using the following guides for tuning and improving the execution of the copy activity:
+Consider the following guides for tuning and improving the execution of the copy activity:
 * [Copy Activity performance features](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features) outlines the copy activity performance optimization features that you can leverage in Azure Data Factory, including:
   * [Data Integration Units](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#data-integration-units) when using Azure IR <br>
   * Self-hosted IR [Scalability](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#self-hosted-integration-runtime-scalability)
@@ -40,7 +40,7 @@ Consider using the following guides for tuning and improving the execution of th
   * Underlying data source and sink performance and configuration <br>
   * Serialization/deserialization/compression <br>
   * Column mapping <br>
-* Please consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
+* Consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't get stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
 * See breakdown info of copy stages in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
 * Benchmark copy performance against recent completed runs in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
 
@@ -51,7 +51,7 @@ Most users are able to resolve issues regarding custom ADF copy code performance
 
 * Instead of using **client.Factories.List()**, use  **client.Factories.Get()** by `dataFactoryName`.<br>
 
-* Use **GET** with the Data Factory Name to reduce the number of list factories objects that are called.<br>
+* Use `GET` with the Data Factory Name to reduce the number of list factories objects that are called.<br>
 
 * Use the [SQL Server Bulk Copy](https://docs.microsoft.comdotnet/framework/data/adonet/sql/bulk-copy-operations-in-sql-server) method..<br>
 
