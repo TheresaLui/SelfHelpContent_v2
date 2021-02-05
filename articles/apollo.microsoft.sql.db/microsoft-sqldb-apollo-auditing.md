@@ -23,11 +23,13 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 
 ## Setup and Configuration:
 
-To Enable Auditing at server and database level, below are the available options:
+To enable auditing at the server and database level, you have the available options:
 
 -   Demo: Setup and Configuration of Auditing Step-by-Step using Portal or CLI
+
+
 ### Recommended video
-In the following video, you will learn how to configure Azure SQL Auditing Step-by-Step. 
+In the following video, you will learn how to configure Azure SQL Auditing step-by-step. 
 
 <video>
 <src>https://www.youtube.com/watch?v=7uDloadggmA&feature=youtu.be</src>
@@ -36,15 +38,18 @@ In the following video, you will learn how to configure Azure SQL Auditing Step-
 
 ### Summary of configuration steps in the video:
 
--   Go to [Azure Portal](https://portal.azure.com/) and Navigate to Auditing under the Security heading in your SQL database or SQL server pane (Demo video is below)
--   Create or Update auditing for Azure SQL server and database using [Azure PowerShell](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#using-azure-powershell)
--   Create or Update auditing for Azure SQL server and database using [REST API](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#using-rest-api)
+1.   Go to [Azure Portal](https://portal.azure.com/) and navigate to **Auditing** under the Security heading in your SQL database or SQL server pane. (Demo video is below.)
+1.   Create or Update auditing for Azure SQL server and database, using one of the following methods:
+      - [Azure PowerShell](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#using-azure-powershell)
+      - [REST API](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#using-rest-api)
 
--   If you are using Storage account, one of the key requirement is to generate [Storage key generation](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#storage-key-regeneration)
--   Auditing Geo-replication databases, please follow the [recommendations](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#auditing-geo-replicated-databases)
+1.   If you're using a Storage account, one of the key requirement is to generate [Storage key generation](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#storage-key-regeneration)
 
--   Get [Auditing policy](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#manage-auditing) status once its enabled on a Server or database using
--   Remove or [Disable Auditing](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#manage-auditing)
+1.   To audit Geo-replication databases, see these [recommendations](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#auditing-geo-replicated-databases)
+
+1. After auditing is enabled, use the following links to:
+   -   Get status on [Auditing policy](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#manage-auditing)  
+   -   Remove or [Disable Auditing](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview#manage-auditing)
 
 ## Troubleshooting:
 
@@ -65,7 +70,7 @@ In the following video, you will learn how to configure Azure SQL Auditing Step-
     -   What is monitored and managed using Auditing and how to view the logs based on the Auditing
 
 ### Recommended video
-In the following video, you will learn Monitoring, Logging and Auditing of Azure SQL. 
+In the following video, you will learn about monitoring, logging and auditing of Azure SQL. 
 
 <video>
 <src>https://www.youtube.com/watch?v=HeKDc-ndlYc&feature=youtu.be</src>
@@ -74,7 +79,7 @@ In the following video, you will learn Monitoring, Logging and Auditing of Azure
 
 ### Additional Information for Auditing:
 
-Once Auditing is configured, below are the recommendations to monitor, generate reports
+After Auditing is configured, follow these recommendations to monitor, generate reports:
 
 -   [Permissions and Access for Auditing](https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15#Permissions)
 
@@ -87,14 +92,15 @@ Once Auditing is configured, below are the recommendations to monitor, generate 
 
           [Microsoft.Sql](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftsql&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789331966%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=SYcvZe0iQauYwqgZEmth858yZLp%2B1ARZ%2BClCCLDrefY%3D&reserved=0)/servers/databases/auditingSettings/* or M[icrosoft.Sql](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftsql&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789331966%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=SYcvZe0iQauYwqgZEmth858yZLp%2B1ARZ%2BClCCLDrefY%3D&reserved=0)/servers/extendedAuditingSettings/*
 
-    -   Retrieve audit records in the portal : M[icrosoft.Sql](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftsql&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789351869%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=F68Z0tbeKFdM4A4gCRt9mcaDqOmSaMm5%2FOutkLcZ6jE%3D&reserved=0)/servers/databases/auditRecords/read
+    -   Retrieve audit records in the portal : [Microsoft.Sql](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftsql&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789351869%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=F68Z0tbeKFdM4A4gCRt9mcaDqOmSaMm5%2FOutkLcZ6jE%3D&reserved=0)/servers/databases/auditRecords/read
     -   Additional permissions for storage account behind VNet:
 
         On the storage account: `Microsoft.Authorization/roleAssignments/write`
 
     -   Additional permissions for auditing to Azur Monitor:
 
-        -   [Microsoft.Insights](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftinsights&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789351869%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=1pOWFzkd3BmPy6A%2FTNrMW2JQ1OLKL8qOK%2BXQTDGOuVU%3D&reserved=0)/DiagnosticSettings/*
+        -   [Microsoft.Insights](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Frole-based-access-control%2Fresource-provider-operations%23microsoftinsights&data=04%7C01%7Csojaga%40microsoft.com%7C3cfbba7e873b488d56ee08d8c3da18ce%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637474688789351869%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=1pOWFzkd3BmPy6A%2FTNrMW2JQ1OLKL8qOK%2BXQTDGOuVU%3D&reserved=0)
+        /DiagnosticSettings/*
 
 -   Audit Events
 
