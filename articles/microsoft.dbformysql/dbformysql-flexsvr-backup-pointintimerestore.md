@@ -33,5 +33,5 @@ The default retention period is 7 days and can be changed from any time between 
 ## **Recommended Documents**
 
 *   [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-business-continuity)
-*   [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/flexible-servers/concepts-backup-restore)
-*   [How to restore a MySQL server using the Azure portal](https://docs.microsoft.com/azure/mysql/flexible-servers/how-to-restore-server-portal)
+*   [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-backup-restore)
+*   [How to restore a MySQL server using the Azure portal](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-restore-server-portal)
