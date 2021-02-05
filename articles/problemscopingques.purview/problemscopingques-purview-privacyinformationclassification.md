@@ -1,17 +1,17 @@
 <properties
-	articleId="9ebd4088-fa60-4665-b27f-2beafb83aede"
-	pageTitle="Scoping Questions for Purview Wrong or Missing Classification"
-	description="Scoping Questions for Purview Wrong or Missing Classification"
+	articleId="6d1aa869-d8c4-4457-9765-7b6f597cab59"
+	pageTitle="Scoping Questions for Purview - data has privacy information but scanning did not find a classification"
+	description="Scoping Questions for Purview - data has privacy information but scanning did not find a classification"
 	authors="deeptivu"
 	ms.author="deeptivu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783271"
+	supportTopicIds="32783248"
 	productPesIds="17354"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_ProjectBabylon"
 />
-# Purview Cannot Create Account
+# Purview My data has privacy information but scanning did not find a classification
 ---
 {
     "resourceRequired": false,
