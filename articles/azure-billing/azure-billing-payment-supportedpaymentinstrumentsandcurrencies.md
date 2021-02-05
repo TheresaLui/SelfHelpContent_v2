@@ -15,7 +15,7 @@
 	ownershipId="ASMS_Billing"
 />
 
-# supported payment instruments and currencies
+# Supported payment instruments and currencies
 
 ### **Changing your billing currency or country**
 
