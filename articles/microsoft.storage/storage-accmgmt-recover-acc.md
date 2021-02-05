@@ -16,7 +16,9 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-## Recommended Steps
+# Recover deleted storage data
+
+## **Recommended Steps**
 
 ### **Storage Account Recovery**
 
