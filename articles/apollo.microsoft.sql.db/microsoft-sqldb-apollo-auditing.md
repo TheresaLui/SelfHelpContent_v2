@@ -36,11 +36,6 @@ In the following video, you will learn how to configure Azure SQL Auditing step-
       <title>Demo: Configure Auditing for Azure SQL Database</title>
 </video>  
 
-<video>
-      <src>https://tinyurl.com/1taefcn1</src>
-      <title>Demo: Configure Auditing for Azure SQL Database</title>
-</video>
-
 
 ### Summary of configuration steps in the video:
 
