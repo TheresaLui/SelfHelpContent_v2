@@ -12,15 +12,14 @@
 # Data Factory Limits
 
 
-Azure Data Factory is a multitenant service that has the following default limits in place to make sure customer subscriptions are protected from each other's workloads. To raise the limits up to the maximum for your subscription, you may contact support. In our experience, you can optimize your pipelines to stay below the limits.
+Azure Data Factory (ADF) is a multitenant service. To ensure that customer subscriptions are protected from each other's workloads, ADF has several default limits in place, which are described in the following section. To raise the limits to the maximum for your subscription, contact support. In our experience, you can optimize your pipelines to stay below the limits.
 
 ## **Recommended Steps**
 
 - Review Azure Data Factory Limits at [Data Fcatory Limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-data-factory-limits.md)
 - Some default limits can be increased per [Customer Request](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/) 
-- However, some limits, including bytes per object for pipeline objects, cannot be increased above the default. 
-- See the following documentation link for up-to-date information.
-- If you hit the bytes per object for pipeline objects limit, we recommend that  you split the pipeline into several smaller pipelines.
+- Some limits, including bytes per object for pipeline objects, cannot be increased above the default
+- If you reach the bytes-per-object for pipeline objects limit, we recommend that you split the pipeline into several smaller pipelines.
 
 ## **Recommended Documents**
 
