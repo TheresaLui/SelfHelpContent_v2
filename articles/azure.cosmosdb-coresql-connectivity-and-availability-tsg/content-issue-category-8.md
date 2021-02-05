@@ -84,12 +84,11 @@ There are two types of probes.
 ##### Total Count & Missing Count in below Kusto Queries.
 > There are totally 70 counts for above 2 Prober in every 10 mins (600s): 600/60+600/10 = 70, so for +-10 mins (20 mins) it should be **140** in normal situation. And that's why MissingCount is calculated by 14 * IntervalInput / 1m = 140, to subtract total count.
 
-
 **Probe Logs telemetry in the Kusto table InstanceEndpointHealthEventG**
 
 #### How to check the Health status of the Endpoint
 
-##### OPTION 1a) If customer provided exception contains port number
+##### OPTION 1) If customer provided exception contains port number
 
 > Extract timestamp, tenant, and port number. Run the following query.
 ```txt
@@ -105,7 +104,7 @@ cluster('cdbsupport.kusto.windows.net').database('Support').InstanceEndpointHeal
 ```
 > ResponseTime: **2020-03-03T19:48:46.1449872Z**, StoreResult: StorePhysicalAddress: rntbd://**cdb-ms-prod-northcentralus1-fd7**.documents.azure.com:**14027**/apps/fdb1445f-aa81-4446-9a21-272892b7788a/services/7fd8fa7f-7db9-45a0-b7b6-f745fd2036ed/partitions/563e8457-1942-43eb-b6a8-9aebcb6c641e/replicas/132271431103880573p/, LSN: -1, GlobalCommittedLsn: -1, PartitionKeyRangeId: , IsValid: False, StatusCode: 410, SubStatusCode: 0, RequestCharge: 0, ItemLSN: -1, SessionToken: , UsingLocalLSN: False, TransportException: A client transport error occurred: SSL negotiation timed out. (Time: 2020-03-03T19:48:46.1449872Z, activity ID: 1ea43f80-3f24-40b4-97b3-bfa2f7d4ab67, error code: SslNegotiationTimeout [0x0008], base error: HRESULT 0x80131500, URI: rntbd://cdb-ms-prod-northcentralus1-fd7.documents.azure.com:14027/, connection: 10.0.0.32:54446 -> 52.162.106.10:14027, payload sent: False, CPU history: not available, CPU count: 40), ResourceType: Document, OperationType: Create
 
-##### OPTION 2a) If customer provided exception does not contain port number
+##### OPTION 2) If customer provided exception does not contain port number
 
 > Extract timestamp, partition ID, and replica ID. Run the following query.
 ```txt
@@ -130,19 +129,17 @@ on Tenant, RoleInstance
 
 > "Error":"Message: Channel is closed\r\nActivityId: 33f4310c-bc30-4106-bc4f-a20fed82ea69, Request URI: /apps/274509a2-d536-4a09-b0a3-f4fd526feb25/services/93d47f05-a2cd-411d-992e-6ed60918b588/partitions/**83e62684-4c07-4acb-8a56-a3c0b9af37b8**/replicas/**132172720096843866**p/, RequestStats: \r\nRequestStartTime: **2020-03-03T15:35:15.8610967Z**, RequestEndTime: 2020-03-03T15:35:15.8610967Z, Number of regions attempted:1\r\n, SDK: Windows/10.0.14393 documentdb-netcore-sdk/2.9.2"}
 
-
-
-##### OUTPUT 1a) If MissingCount` and `UnhealthyCount` are both 0
+##### OUTPUT 1) If MissingCount` and `UnhealthyCount` are both 0
 
 > > It indicates that this port was heathy during that time. This is not a service transport issue and it could be network or client side issue.
 
-##### OUTPUT 2a) If `MissingCount` is greater than 1, 
+##### OUTPUT 2) If `MissingCount` is greater than 1, 
 
 > > It indicates an upgrade, high CPU, or monitoring issue on the service.  
 > >
 > > **Please engage engineering through CRI**
 
-##### OUTPUT 3a) If `UnhealthyCount` is greater than 1, 
+##### OUTPUT 3) If `UnhealthyCount` is greater than 1, 
 
 > > It indicates that this port had some unavailability during this time. Please proceed to 
 > > **Please engage engineering through CRI**
@@ -152,100 +149,6 @@ on Tenant, RoleInstance
 1.  If SDK < 2.3.2 and customer complains of service unavailable, we suggest upgrading SDK
 2.  If the client CPU > 80% we point that as the root cause.
 See [image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/ETqYzbAjyIlMmrqUyQA77OEBK__ev1DZl5Zg2QMKr3mLxg?e=qySWoJ)
-
-## B. Is Endpoint Online
-
-### NetworkConnectivityWatchdog
-
-#### Overview
-
-A NetworkConnectivityWatchdog now continuously monitors the health of each endpoint of master and server processes.  The NetworkConnectivityWatchdog  probes the endpoint in regular frequency as stated below. The watchdog log can be used to evaluate the status of the endpoint precisely.
-
-There are two types of probes.
-
-##### ConnectProber 
-> Networkwatchdog  creates a new connection, negotiates SSL, sends a request and validates the response.
-
-> It probes every 60 seconds
-
-##### RequestProber
-> Networkwatchdog uses the existing connection to send a request and validates the response
-
-> It probes every 10 seconds
-
-
-**Probe Logs telemetry in the Kusto table InstanceEndpointHealthEventG**
-
-#### How to check the Health status of the Endpoint
-
-##### OPTION 1b) If customer provided exception contains port number
-> Extract timestamp, tenant, and port number. Run the following query.
-
-```txt
-let TimestampInput = datetime(<Timestamp>);
-let IntervalInput = 10m;
-let TenantInput = "<Tenant>";
-let PortInput = <Port number>;
-cluster('cdbsupport.kusto.windows.net').database('Support').InstanceEndpointHealthEventG
-| where TIMESTAMP > TimestampInput - IntervalInput and TIMESTAMP < TimestampInput + IntervalInput
-| where Tenant == TenantInput and port == PortInput
-| summarize TotalCount = count(), UnhealthyCount = countif(health == "Unhealthy") by Tenant, RoleInstance, protocol, port
-| extend MissingCount = 14 * IntervalInput / 1m - TotalCount
-```
-
-> ResponseTime: **2020-03-03T19:48:46.1449872Z**, StoreResult: StorePhysicalAddress: rntbd://**cdb-ms-prod-northcentralus1-fd7**.documents.azure.com:**14027**/apps/fdb1445f-aa81-4446-9a21-272892b7788a/services/7fd8fa7f-7db9-45a0-b7b6-f745fd2036ed/partitions/563e8457-1942-43eb-b6a8-9aebcb6c641e/replicas/132271431103880573p/, LSN: -1, GlobalCommittedLsn: -1, PartitionKeyRangeId: , IsValid: False, StatusCode: 410, SubStatusCode: 0, RequestCharge: 0, ItemLSN: -1, SessionToken: , UsingLocalLSN: False, TransportException: A client transport error occurred: SSL negotiation timed out. (Time: 2020-03-03T19:48:46.1449872Z, activity ID: 1ea43f80-3f24-40b4-97b3-bfa2f7d4ab67, error code: SslNegotiationTimeout [0x0008], base error: HRESULT 0x80131500, URI: rntbd://cdb-ms-prod-northcentralus1-fd7.documents.azure.com:14027/, connection: 10.0.0.32:54446 -> 52.162.106.10:14027, payload sent: False, CPU history: not available, CPU count: 40), ResourceType: Document, OperationType: Create
-
-##### OPTION 2b) If customer provided exception does not contain port number
-
-> Extract timestamp, partition ID, and replica ID. Run the following query.
-
-```txt
-let TimestampInput = datetime(<Timestamp>);
-let IntervalInput = 10m;
-let PartitionIdInput = "<Partition ID>";
-let ReplicaIdInput = "<Replica ID>";
-Replica
-| where TIMESTAMP > TimestampInput - 30m and TIMESTAMP < TimestampInput + 30m
-| where PartitionId == PartitionIdInput and ReplicaId == ReplicaIdInput
-| where Message startswith "ReplicaMetricReporter::ReportContext"
-| summarize by Tenant, RoleInstance
-| join kind = inner
-(
-    cluster('cdbsupport.kusto.windows.net').database('Support').InstanceEndpointHealthEventG
-    | where TIMESTAMP > TimestampInput - IntervalInput and TIMESTAMP < TimestampInput + IntervalInput
-)
-on Tenant, RoleInstance
-| summarize TotalCount = count(), UnhealthyCount = countif(health == "Unhealthy") by Tenant, RoleInstance, protocol, port
-| extend MissingCount = 14 * IntervalInput / 1m - TotalCount
-```
-
-> "Error":"Message: Channel is closed\r\nActivityId: 33f4310c-bc30-4106-bc4f-a20fed82ea69, Request URI: /apps/274509a2-d536-4a09-b0a3-f4fd526feb25/services/93d47f05-a2cd-411d-992e-6ed60918b588/partitions/**83e62684-4c07-4acb-8a56-a3c0b9af37b8**/replicas/**132172720096843866**p/, RequestStats: \r\nRequestStartTime: **2020-03-03T15:35:15.8610967Z**, RequestEndTime: 2020-03-03T15:35:15.8610967Z, Number of regions attempted:1\r\n, SDK: Windows/10.0.14393 documentdb-netcore-sdk/2.9.2"}
-
-
-##### OUTPUT 1b) If MissingCount` and `UnhealthyCount` are both 0
-
-> > It indicates that this port was heathy during that time. This is not a service transport issue and it could be network or client side issue.
-
-##### OUTPUT 2b) If `MissingCount` is greater than 1, 
-
-> > It indicates an upgrade, high CPU, or monitoring issue on the service.  
-> >
-> > **Please engage engineering through CRI**
-
-##### OUTPUT 3b) If `UnhealthyCount` is greater than 1, 
-
-> > It indicates that this port had some unavailability during this time. Please proceed to 
-> >
-> > **Please engage engineering through CRI**
-<br>
-
-**Guidance to Customer for troubleshooting Client Side issue**
-
-1.  If SDK < 2.3.2 and customer complains of service unavailable, we suggest upgrading SDK
-
-2.  If the client CPU > 80% we point that as the root cause.
-
-<br>
 
 
 ## Step 6) (Java/.NET Only) Has the customer tried the public troubleshooting guide?
