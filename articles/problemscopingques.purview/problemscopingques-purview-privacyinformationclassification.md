@@ -64,7 +64,6 @@
               ],
             "required": true
         },
-      
         {
             "id": "expected_classification",
             "order": 40,
