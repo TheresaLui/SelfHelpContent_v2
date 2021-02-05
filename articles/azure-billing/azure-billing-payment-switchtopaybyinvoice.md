@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-If you switch to pay by invoice, that means you pay your bill within **30 days of the invoice date**. To become eligible to pay for your Azure subscription by invoice, submit a request to Azure support. Once your request is approved, you can switch a subscription to invoice pay in the [Azure portal](https://portal.azure.com/).<br>
+If you switch to pay by invoice, that means you pay your bill within 30 days of the invoice date by check or wire transfer. To become eligible to pay for your Azure subscription by invoice, submit a request to Azure support. Once your request is approved, you can switch a subscription or billing profile to invoice pay in the [Azure portal](https://portal.azure.com/).<br>
 
 **Note:**
 
