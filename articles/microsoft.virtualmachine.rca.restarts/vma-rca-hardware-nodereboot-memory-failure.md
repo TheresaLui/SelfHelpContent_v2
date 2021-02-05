@@ -25,12 +25,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a hardware issue involving memory module errors on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+> The physical host node where the VM was running encountered a **hardware memory error**.  This may have impacted the VMs running on the node.
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> Azure automatically attempts to correct minor errors and restore services on the node.  In the event the node’s health degrades further, the VM will be service healed to healthy nodes.
 > 
 <!--/resolutionDetails-->
 
