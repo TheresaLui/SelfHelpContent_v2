@@ -17,41 +17,48 @@
 
 # Networking in Azure Databases for MySQL - Single Server
 
-There are three networking option to access your Azure Database for MySQL Single Server:
+There are three networking options for accessing your Azure Database for MySQL Single Server instance:
 
 * Private Link
 * VNet Service endpoints
 * Firewall rules
 
-Refer to recommended steps for respective section for resolving common issues.
+To resolve common networking issues when working with Azure Database for MySQL Single Server, consider the following guidance.
 
-## **Recommended Steps**
+## Fix it yourself
 
-### Private Link
+Refer to the appropriate section below depending on your method of access.
 
-* If you are using Private Link, ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
-* If you are using a Basic tier server, note that [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link) is not supported
-* If you want only private endpoint connections to be allowed to access your server, then set [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access) to **Yes**
+### Troubleshooting issues with Private Link?
 
-### VNet Service endpoint
+* Note that the **Basic** tier doesn’t support [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link).
+* To ensure that Private Link is configured correctly, see [Create and manage Private Link using the Portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal).
+* To configure an Azure Database for MySQL server to allow only connections through private endpoints, see [Deny public network access](https://docs.microsoft.com/azure/mysql/howto-deny-public-network-access).
 
-* If you are using VNets, ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
-* If you are using a Basic tier server, note that VNet service endpoints are not supported
+### Troubleshooting issues with VNet service endpoints?
 
-### Firewall rules
+* Note that the **Basic** tier doesn’t support VNet service endpoints.
+* To ensure that VNet service endpoints are configured correctly, see [Create and manage VNet service endpoints and VNet rules](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal).
 
-* To set up firewall rules on your client for outbound connection to Azure Database for MySQL Single Server, add the gateway IP for your particular region to the allow list. For information related to gateway IP addresses, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture#azure-database-for-mysql-gateway-ip-addresses).
+### Troubleshooting issues with firewall rules?
 
-* Make sure you have the right [firewall settings](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) in place to allow the desired access to your server. You can either specify a single IP addresses or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/mysql/).
+* To ensure that you have the correct firewall settings to allow for appropriate access to your server, see [server firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules). You can specify that either a single IP address or a range of IP addresses can access your server. To manage server-level firewall rules, you can use the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli), or our [REST API](https://docs.microsoft.com/rest/api/mysql/).
+* If you’re having issues with outbound connections from your client to the server, ensure that the gateway IP address for your particular region is included in the allow list. For additional detail on gateway IP addresses, see [Azure Database for MySQL gateway IP addresses](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture#azure-database-for-mysql-gateway-ip-addresses).
+* If the server's IP address appears to be public and you can ping or connect using Telnet, connections to the server are routed through a publicly accessible Azure gateway. However, the actual IP address of the server is protected by the firewall. For more information, see [Connectivity architecture](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture).
+* If you’re having issues connecting to your server from other Azure PaaS offerings, ensure that the **Allow access to Azure services** option is set to **On**.
 
-* If you are trying to connect to your server from other azure PaaS offerings, you must toggle the **Allow access to Azure services** option to **On**
+## Quick tips
 
-* If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for MySQL Single Server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture).
+Also, be sure to consider the following points.
 
-## **Recommended Documents**
+* If you need to connect your server to Azure Kubernetes Services (AKS), see [Connecting Azure Kubernetes Service and Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-aks).
+* If are having issues connecting with SSL, see [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
+* If are having issues configuring TLS, see [Configuring TLS settings](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
+
+## **Recommended documents**
 
 * [Create and manage Private Link for Azure Database for MySQL Single Server using Portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
-* [Configure a VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)<br>
-* [Firewall rule concepts in Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)<br>
-* [Troubleshoot common connectivity issues to Azure Databases for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
+* [Configure a VNet connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
+* [Firewall rule concepts in Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)
+* [Troubleshoot common connectivity issues to Azure Databases for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
