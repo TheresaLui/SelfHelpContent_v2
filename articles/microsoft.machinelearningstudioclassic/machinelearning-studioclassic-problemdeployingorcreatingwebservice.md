@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+To deploy experiment as a new web service, user should have **Contributor** role for the subscription which contains the workspace. You could refer to [this article](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) to learn more about **Contributor** role. 
+
 For errors like "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace.", the root cause is authentication. **Deploy Web Service [Classic]** is recommended. When users in multiple tenants and one or more tenants required MFA (multi-factor authentication), this error might occur. There are two ways to fix this:
 
     - Create a new account in your target tenant (where your workspace belongs to)
