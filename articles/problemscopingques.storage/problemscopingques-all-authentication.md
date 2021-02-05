@@ -112,7 +112,7 @@
             "id": "request_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
+            "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
 	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
@@ -126,12 +126,47 @@
 	    ]
         },
         {
+            "id": "blob_container",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Blob container",
+            "watermarkText": "Choose a specific container",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "blob_path",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "Blob name or path if specific to a blob",
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "learn_more_text",

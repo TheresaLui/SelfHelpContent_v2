@@ -29,6 +29,9 @@ Most users are able to resolve activity issues using the steps below.
         - To check the audit log of Azure AD sign-ins, go to **Azure Active Directory** > **Sign-ins**
 		
 		**NOTE**: For Azure AD sign-in activities, Cloud App Security only surfaces interactive sign-in activities and sign-in activities from legacy protocols, such as ActiveSync. View noninteractive sign-in activities in the Azure AD sign-ins audit log.
+1. For Azure AD Identity Protection alerts (i.e. Risky sign-in/Leaked Credentials alerts), you might see Azure AD Identity alerts without logins activities related to it.
+   The reason for that is that Cloud App Security consumes only interactive logins from Azure AD.
+   For further investigation of alerts that doesn't contain logins, we suggest to continue the investigation through Azure AD portal
 1. If your activities are missing information or show incorrect values (i.e., username, IP address, and so on) in Cloud App Security, compare them with corresponding activities in the audit log of the connected app. If the information matches, open a ticket with the support team for the app which logged the event.
 1. If you want to see the list of activities we support for an app, in Cloud App Security, on the **Activity log** page, filter by *app* and *activity type* to see the list of supported activities for the app.
 

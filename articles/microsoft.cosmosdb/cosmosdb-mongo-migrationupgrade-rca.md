@@ -12,38 +12,37 @@
     supportTopicIds="32636757"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to MongoDB API engine version 3.6
+# Upgrade to Mongo server version 3.6
 
-## To take advantage of the latest version of Azure Cosmos DB's API for MongoDBYour database account, you need to migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account .
+## Migrate to Azure Cosmos DB API for MongoDB v3.6
 
-<!--issueDescription-->
+Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v3.6. This version provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
+ 
+When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
 
-Upgrading to the latest version of the service will provide the most up-to-date functionality and the latest fixes, as well as enhancements in performance and stability.
+### Benefits of upgrading to version 3.6
 
-<!--/issueDescription-->
+- Enhanced performance and stability
+- Support for new database commands
+- Support for aggregation pipeline by default and new aggregation stages
+- Support for Change Streams
+- Support for compound Indexes
+- Cross-partition support for the following operations: update, delete, count and sort
+- Improved performance for the following aggregate operations: $count, $skip, $limit and $group
+- Wildcard indexing is now supported
 
-You'll need to migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. You can use tools like Azure Data Factory or Studio 3T to assist you in migrating your data.
+### Changes from previous engine versions
 
-1. Following are the benefits of upgrading to version 3.6:
-
-   - Enhanced performance and stability
-   - Support for new database commands
-   - Support for aggregation pipeline by default and new aggregation stages
-   - Support for ChangeStream
-   - Support for Compound Indexes
-   - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER B`Y
-   - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
-
-2. Following are the changes from previous engine versions: 
-
-   - MongoDB collections have only the `_id property indexed by default`
-   - Per request, timeout is 60 seconds
+- **RequestRateIsLarge errors have been removed**. 
+  Requests from the client application will no longer return "16500" errors. Instead, requests will resume until they complete or fulfill the timeout.
+- Per request timeout is set to 60 seconds.
+- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default.
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- [Azure Cosmos DB's API for MongoDB v3.6](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 - [Migrate your data with Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-azure-cosmos-db-mongodb-api)
