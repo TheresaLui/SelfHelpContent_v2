@@ -19,7 +19,7 @@
         "schemaVersion": 1.0,
         "streamNamespace": "cluster('https://rmscluswus.kusto.windows.net').database('RMSKustoDB').GetSDKUsersSubscriptionIds_AA_RMS",
         "dataSource": "Kusto",
-        "refreshInterval": "1:00:00:00"
+        "refreshInterval": "1:00:00"
     },
     "recommendationCategory": "Performance",
     "recommendationImpact": "Medium",
@@ -37,7 +37,7 @@
         "serviceTreeId": "dd885aa5-f295-4101-98da-6e7b280660da"
     },
     "ingestionClientIdentities": [],
-    "recommendationTimeToLive": 86400,
+    "recommendationTimeToLive": 8640000,
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
