@@ -18,7 +18,7 @@
 # Issue Category
 
 1- Get the Database Account Name and review the Cosmos DB Account SLA
-2- Walkthrough through Service Unavailable Workflow using the this [chart](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EagdtKHKpw9AiWm9E1PXercBhfqq9Fg1koKXuYsIJRJe2w?e=2Fz7AF)
+2- Follow every step mentioned below.
 
 Customers may face variety of Availability issues such as:
 1. DNS Resolution Failure
@@ -27,11 +27,11 @@ Customers may face variety of Availability issues such as:
 4. Endpoint Offline
 5. Java/.Net (Gone exceptions, Timeout, etc.)
 
-##Is DNS Resolution Failure?
+## Step 1) Check if it is DNS Resolution Failure
 1. Collect the Complete Error and Exceptions Stack
-2. If the Error  *"The remote name could not be resolved. Since, the issue is with networking and DNS"* then DNS Resolution Issue
+2. If the Error  *"The remote name could not be resolved. Since, the issue is with networking and DNS"* then it is a DNS Resolution Issue
 
-## Is Cosmos DB Availability SLA Violated?
+## Step 2) Check if Cosmos DB Availability SLA was violated
 1. The Azure portal does show the Availability SLA for the given Account.  The customer should be able to check any availability issue in the portal to confirm any service issue.   The Azure Portal basically uses the "ComsosDBAccountAvailability"
 2. Metric to display the chart for customers which we can query through Jarvis. https://jarvis-west.dc.ad.msft.net/dashboard/DocumentDB/SLA. 
 3. The availability is down if the chart show any drop.
@@ -39,83 +39,16 @@ Customers may face variety of Availability issues such as:
 **Example :** No SLA Violation  
 See [image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EXVVCueq0jJBjVkpVs_gyUsBZTt_p-V8T0fB1uwTnnR6Ew?e=5f4FK6)
 
-## Is Gateway Mode?
+## Step 3) Check if it is Gateway Mode
 Ensure we get the complete Call Stack as show below.   The class "Microsoft.Azure.Documents.GatewayStoreModel" indicates the connection is using Gateway Mode.  Also, you can get the connection mode from Customer.
 
 ```
 Exception_ClassName_s        System.Threading.Tasks.TaskCanceledException Exception_Message_s        A task was canceled. Exception_StackTraceString_s        at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.GatewayStoreModel.<>c__DisplayClass20_0.<<InvokeAsync>b__0>d.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<>c__DisplayClass1_0.<<ExecuteAsync>b__0>d.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__5.MoveNext() --- End of stack trace from previous location where exception was thrown --- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__5.MoveNext() -
-
--- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteAsync>d__1.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.GatewayStoreModel.<InvokeAsync>d__20.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.GatewayStoreModel.<ProcessMessageAsync>d__12.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Client.DocumentClient.<ExecuteQueryAsync>d__260.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DocumentQueryClient.<ExecuteQueryAsync>d__19.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DocumentQueryExecutionContextBase.<ExecuteQueryRequestInternalAsync>d__60.MoveNext()
-
---- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DocumentQueryExecutionContextBase.<ExecuteQueryRequestAsync>d__49.MoveNext() --- End of stack trace from previous location where exception was thrown
-
---- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DocumentQueryExecutionContextBase.<ExecuteRequestAsync>d__47.MoveNext() --- End of stack trace from previous location where exception was thrown
-
---- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task
- at Microsoft.Azure.Documents.Query.DefaultDocumentQueryExecutionContext.<ExecuteOnceAsync>d__10.MoveNext() --- End of stack trace from previous location where exception was thrown
-
- --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DefaultDocumentQueryExecutionContext.<>c__DisplayClass9_0.<<ExecuteInternalAsync>b__0>d.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<>c__DisplayClass1_0.<<ExecuteAsync>b__0>d.MoveNext() --- End of stack trace from previous location where exception was thrown
-
---- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__5.MoveNext() --- End of stack trace from previous location where exception was thrown --- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteRetry>d__5.MoveNext()
-
---- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.BackoffRetryUtility`1.<ExecuteAsync>d__1.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DefaultDocumentQueryExecutionContext.<ExecuteInternalAsync>d__9.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.DocumentQueryExecutionContextBase.<ExecuteNextAsync>d__42.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Query.ProxyDocumentQueryExecutionContext.<ExecuteNextAsync>d__15.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at Microsoft.Azure.Documents.Linq.DocumentQuery`1.<ExecuteNextPrivateAsync>d__36`1.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at MTS.CDP.ProfileIngress.DocumentDbProxy.<GetProfileDocuments>d__1.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at MTS.CDP.ProfileIngress.MatchingService.<GetMatches>d__0.MoveNext() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task
- at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task
- at MTS.CDP.ProfileIngress.ProfileIngressProcessing.<Run>d__11.MoveNext()
-Exception_ExceptionMethod_s        8 ThrowForNonSuccess mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 System.Runtime.CompilerServices.TaskAwaiter Void ThrowForNonSuccess(System.Threading.Tasks.Task)
-Exception_Source_s        mscorlib
-Exception_RemoteStackIndex_d        
-Exception_HResult_d        -2146233029
-MessageType_s        Error
-Message        A task was canceled.
+ at Microsoft.Azure.Documents.GatewayStoreModel.<>c__DisplayClass20_0.<<InvokeAsync>b__0>d.MoveNext() --- End of stack trace from previous location where exception was thrown --
 ```
 
-## Is Gateway Service Online
-```
+## Step 4) Check if Gateway Service is Online
 1. Extract the Tenant Name using the [Jarvis](https://jarvis-west.dc.ad.msft.net/D16B267D)
    Update the Account Name
    Update the Time window for +- 1 hour
@@ -126,10 +59,10 @@ Message        A task was canceled.
    c. Run the Query and review the result as follows  
       i. Zero Rows Returned  - The Gateway Service is Online     
       ii. Row Returned  - The Gateway Service if Offline
-```
+
 See [image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/ETqYzbAjyIlMmrqUyQA77OEBK__ev1DZl5Zg2QMKr3mLxg?e=pT3y0j)
 
-## Is Endpoint Online
+## Step 5) Check if Endpoint is Online
 
 ### NetworkConnectivityWatchdog
 
