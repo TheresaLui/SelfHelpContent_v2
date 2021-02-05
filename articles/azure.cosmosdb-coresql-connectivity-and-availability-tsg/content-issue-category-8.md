@@ -26,14 +26,15 @@ Customers may face variety of Availability issues such as:
 3. Gateway Mode Offline
 4. Endpoint Offline
 5. Java/.Net (Gone exceptions, Timeout, etc.)
+</br>
 
 ## Step 1) Check if it is DNS Resolution Failure
 1. Collect the Complete Error and Exceptions Stack
-2. If the Error  *"The remote name could not be resolved. Since, the issue is with networking and DNS"* then it is a DNS Resolution Issue
+2. If the Error *"The remote name could not be resolved. Since, the issue is with networking and DNS"* then it is a DNS Resolution Issue
 
 ## Step 2) Check if Cosmos DB Availability SLA was violated
-1. The Azure portal does show the Availability SLA for the given Account.  The customer should be able to check any availability issue in the portal to confirm any service issue.   The Azure Portal basically uses the "ComsosDBAccountAvailability"
-2. Metric to display the chart for customers which we can query through Jarvis. https://jarvis-west.dc.ad.msft.net/dashboard/DocumentDB/SLA. 
+1. The Azure portal does show the Availability SLA for the given Account.  The customer should be able to check any availability issue in the portal to confirm any service issue. The Azure Portal basically uses the "ComsosDBAccountAvailability".
+2. Metric to display the chart for customers which we can query through Jarvis: https://jarvis-west.dc.ad.msft.net/dashboard/DocumentDB/SLA. 
 3. The availability is down if the chart show any drop.
 
 **Example :** No SLA Violation  
