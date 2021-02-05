@@ -38,7 +38,7 @@
   "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Reads happen on most recent data",
-  "longDescription": "More than 75% of your read requests are landing on the memstore. That indicates that the reads are primarily on recent data. This suggests that even if a flush happens on the memstore that the recent file needs to be accessed and that file needs to be in the cache.",
+  "longDescription": "More than 75% of your read requests are landing on the memstore. That indicates that the reads are primarily on recent data. This suggests that even if a flush happens on the memstore, the recent file needs to be accessed and that file needs to be in the cache.",
   "potentialBenefits": "If the reads are on the most recent data, the suggested config changes will help you to do the reads from the memory as much as possible thus helping in faster read performance.",
   "actions": [
     {
