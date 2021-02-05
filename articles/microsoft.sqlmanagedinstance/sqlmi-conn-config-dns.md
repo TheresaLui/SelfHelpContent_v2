@@ -15,10 +15,12 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	ownershipId="AzureData_AzureSQLMI_Connectivity"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # DNS configuration
+
+## **Recommended Steps**
 
 There are a few scenarios (for example, db mail, linked servers to other SQL Server instances in your cloud or hybrid environment) that require private host names to be resolved from SQL Managed Instance. In this case, you need to configure a custom DNS inside Azure. See [Configure a custom DNS for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/custom-dns-configure) for details.
 
