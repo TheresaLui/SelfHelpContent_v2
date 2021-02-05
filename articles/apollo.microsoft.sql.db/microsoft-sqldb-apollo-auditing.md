@@ -32,9 +32,15 @@ To enable auditing at the server and database level, you have the available opti
 In the following video, you will learn how to configure Azure SQL Auditing step-by-step. 
 
 <video>
-<src>https://www.youtube.com/watch?v=7uDloadggmA&feature=youtu.be</src>
-<title>Demo: Configure Auditing for Azure SQL Database</title>
+      <src>https://www.youtube.com/watch?v=7uDloadggmA&feature=youtu.be</src>
+      <title>Demo: Configure Auditing for Azure SQL Database</title>
 </video>  
+
+<video>
+      <src>https://tinyurl.com/1taefcn1</src>
+      <title>Demo: Configure Auditing for Azure SQL Database</title>
+</video>
+
 
 ### Summary of configuration steps in the video:
 
