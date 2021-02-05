@@ -248,9 +248,9 @@ on Tenant, RoleInstance
 <br>
 
 
-##(Java/.NET Only) Has the customer tried the public troubleshooting guide?
+## Step 6) (Java/.NET Only) Has the customer tried the public troubleshooting guide?
 
-##Java Troubleshooting Guide
+## Java Troubleshooting Guide
 
 Have customer follow these steps: https://docs.microsoft.com/en-us/azure/cosmos-db/troubleshoot-java-async-sdk
 
@@ -277,17 +277,10 @@ Run 'netstat' and look for number of requests in TIME_WAIT state. Can indicate w
 Tools to Suggest is to User Perfmon if its On-premise environment
 Engage the Azure respective services if the application is running in Azure Platform
 
- 
 
-##For Gone Exceptions, check if Role Instance is changing in below  query.. You will find partition Id, Tenant and replicaid in error stack
+## For Gone Exceptions, check if Role Instance is changing in below  query.. You will find partition Id, Tenant and replicaid in error stack
 
 Example:
-
-``
-Service is currently unavailable. ActivityId: e7c991bd-0000-0000-0000-000000000000, RequestStartTime: 2019-06-11T14:48:35.3209968Z, RequestEndTime: 2019-06-11T14:51:04.7229171Z, Number of regions attempted: 1 ResponseTime: 2019-06-11T14:49:00.1413221Z, StoreResult: StorePhysicalAddress: rntbd://cdb-ms-prod-southcentralus1-fd4.documents.azure.com:14008/apps/f42249a5-7d70-4acb-9e00-6e5f344b92db/services/01d667c7-9386-472d-b79a-e671dececb5c/partitions/5d685886-60a3-42c3-9996-11d32205f120/replicas/132026475180646926s/,
-``
-
-<br>
 
 ```
 BackendEndRequest5M
@@ -298,7 +291,9 @@ BackendEndRequest5M
 //| render timechart
 ```
 
-<br>
+``
+Service is currently unavailable. ActivityId: e7c991bd-0000-0000-0000-000000000000, RequestStartTime: 2019-06-11T14:48:35.3209968Z, RequestEndTime: 2019-06-11T14:51:04.7229171Z, Number of regions attempted: 1 ResponseTime: 2019-06-11T14:49:00.1413221Z, StoreResult: StorePhysicalAddress: rntbd://cdb-ms-prod-southcentralus1-fd4.documents.azure.com:14008/apps/f42249a5-7d70-4acb-9e00-6e5f344b92db/services/01d667c7-9386-472d-b79a-e671dececb5c/partitions/5d685886-60a3-42c3-9996-11d32205f120/replicas/132026475180646926s/,
+``
 
 ## For Timeout issues Check max time during error scenarios
 
