@@ -30,7 +30,7 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/cosmos-db/understand-your-bill#azure-free-tier",
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/understand-your-bill#azure-free-tier",
   "description": "Review the configuration of your Azure Cosmos DB free tier account",
   "longDescription": "Your Azure Cosmos DB free tier account is currently containing resources with a total provisioned throughput exceeding 400 Request Units per second (RU/s). Because Azure Cosmos DB's free tier only covers the first 400 RU/s of throughput provisioned across your account, any throughput beyond 400 RU/s will be billed at the regular pricing. As a result, we anticipate that you will get charged for the throughput currently provisioned on your Azure Cosmos DB account.",
   "potentialBenefits": "Confirm your expected Azure Cosmos DB costs",
