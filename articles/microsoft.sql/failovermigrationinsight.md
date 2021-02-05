@@ -19,5 +19,5 @@
 # Failover Group Migration may impact your service
 
 <!--issueDescription-->
-The connectivity through failover groups and server DNS aliases hosted on the server <!--$ServerName-->ServerName <!--/$ServerName--> were briefly affected by server migration performed as a mitigation for a recent configuration change which impacted a backend service from being accessible. We apologize for the inconvenience it caused to your business.
+The connectivity through failover groups and server DNS aliases hosted on the server <!--$ServerName-->ServerName <!--/$ServerName--> were briefly affected by server migration performed as a mitigation for a recent configuration change, which prevented a backend service from being accessible. We apologize for the inconvenience it caused to your business.
 <!--/issueDescription-->
