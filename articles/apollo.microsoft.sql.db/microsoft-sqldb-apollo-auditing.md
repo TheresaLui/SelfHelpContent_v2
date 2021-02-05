@@ -27,7 +27,7 @@ To enable auditing at the server and database level, you have the available opti
 
 -   Demo: Setup and Configuration of Auditing Step-by-Step using Portal or CLI
 
-
+:::Section Recommended Video:::
 ### Recommended video
 In the following video, you will learn how to configure Azure SQL Auditing step-by-step. 
 
