@@ -21,7 +21,7 @@ Query execution problems can be caused by the database engine itself or by the i
 
 To resolve query execution problems when working with Azure Database for MySQL Single Server, consider the following guidance.
 
-## **Fix it yourself**
+## Fix it yourself
 
 * **Troubleshooting timeouts or the loss of connectivity?**
 
@@ -41,7 +41,7 @@ To resolve query execution problems when working with Azure Database for MySQL S
 
   If you are experiencing out of connections issues, see [Use connection pooling](https://docs.microsoft.com/azure/mysql/app-development-best-practices#use-connection-pooling) in the article on App development best practices.
 
-## **Quick tips**
+## Quick tips
 
 Also, be sure to consider the following points.
 
