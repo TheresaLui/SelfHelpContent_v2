@@ -4,7 +4,7 @@
        authors="A-COFLOR"
        ms.author="A-COFLOR"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds=""
+       supportTopicIds="32725866"
        productPesIds="17007"
        cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
        schemaVersion="1"
@@ -181,7 +181,7 @@
 	       },
 	       {
 		   "value": "data_center",
-		   "text": "Datacenter Option"
+		   "text": "Datacenter Solutions Option"
 	       },
 	       {
 		   "value": "deployment_partner",
@@ -294,12 +294,8 @@
        "watermarkText":"Please select the competency requirement from the below list",
 	   "dropdownOptions": [
 	       {
-		   "value": "active_entitlements",
-		   "text": "Active entitlements or Azure customer consumption"
-	       },
-	       {
 		   "value": "assessment",
-		   "text": "Assessment"
+		   "text": "Assessments"
 	       },
 	       {
 		   "value": "surface_device_reseller",
@@ -318,16 +314,20 @@
 		   "text": "Cloud Revenue - New Billed Revenue"
 	       },
 	       {
-		   "value": "cloud_revenue_d365",
-		   "text": "Cloud Revenue of Dynamics 365 Customer Engagement Plan and Dynamics 365 Enterprise Team Member"
-	       },
-	       {
 		   "value": "exam",
-		   "text": "Exam"
+		   "text": "Exams"
 	       },
 	       {
 		   "value": "gross_var_isv_license",
 		   "text": "Gross VAR license revenue or Gross ISV license revenue"
+	       },
+	       {
+		   "value": "monthly_active_usage",
+		   "text": "Monthly Active Usage"
+	       },
+	       {
+		   "value": "monthly_activeu_cspindirect",
+		   "text": "Monthly Active Usage or Azure customer consumption"
 	       },
 	       {
 		   "value": "msauthdistri_cspindirect",
@@ -360,6 +360,10 @@
 	       {
 		   "value": "spla_csp_revenue",
 		   "text": "SPLA and CSP Revenue"
+	       },
+	       {
+		   "value": "training_kpi",
+		   "text": "Training KPIs"
 	       },
 	       {
 		   "value": "dont_know_answer",

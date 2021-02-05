@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Storage account replication type"
 	description="Issue with changing storage account replication type"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Lea"
+    ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32691089"
 	productPesIds="15629"
@@ -21,11 +21,11 @@
     "diagnosticCard": {
         "title": "Why do I have issue changing replication type for this storage account?",
         "description": "Our replication type troubleshooter can help you identify and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your storage account. Please ensure the selected storage account in the previous blade is the on you are having issue changing replication type."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your storage account. Please make sure that the selected storage account in the previous blade is the one that you're having issues with concerning changing replication type."
     },
     "formElements": [
         {
-            "id": "new_replication",
+            "id": "target_replication_type",
             "order": 0,
             "controlType": "dropdown",
             "displayLabel": "New replication type",
@@ -35,13 +35,25 @@
                     "value": "lrs",
                     "text": "LRS"
                 },
+		{
+                    "value": "zrs",
+                    "text": "ZRS"
+                },
                 {
                     "value": "grs",
                     "text": "GRS"
                 },
                 {
-                    "value": "ra_grs",
-                    "text": "RA-GRS"
+                    "value": "ragrs",
+                    "text": "RAGRS"
+                },
+                {
+                    "value": "gzrs",
+                    "text": "GZRS"
+                },
+                {
+                    "value": "ragzrs",
+                    "text": "RAGZRS"
                 },
                 {
                     "value": "dont_know_answer",
@@ -50,13 +62,6 @@
             ],
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
-        },
-        {
-            "id": "error_message",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Error message received",
-            "required": false
         },
         {
             "id": "problem_description",

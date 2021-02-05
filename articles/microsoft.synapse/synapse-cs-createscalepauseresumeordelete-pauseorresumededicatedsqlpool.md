@@ -54,3 +54,4 @@ Resource Health determines the health of your SQL resource by examining the succ
 
 * [Scale from T-SQL](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-tsql)
 
+ 

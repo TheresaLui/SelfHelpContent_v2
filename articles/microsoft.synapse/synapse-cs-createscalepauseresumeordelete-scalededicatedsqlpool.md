@@ -32,3 +32,4 @@ If you are unable to scale higher, it is usually due to DTU quota limits on the 
 
 * [Scale from T-SQL](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-tsql)
 
+ 

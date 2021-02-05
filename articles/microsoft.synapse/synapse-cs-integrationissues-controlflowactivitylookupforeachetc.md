@@ -31,3 +31,4 @@
 * [If Condition Guide](https://docs.microsoft.com/azure/data-factory/control-flow-if-condition-activity?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
 
 
+ 

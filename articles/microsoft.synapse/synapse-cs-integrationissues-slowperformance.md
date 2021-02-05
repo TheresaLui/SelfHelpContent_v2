@@ -44,3 +44,4 @@
 
 * [Connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#azure-blob-storage)
 
+ 

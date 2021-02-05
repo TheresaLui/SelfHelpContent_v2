@@ -1,5 +1,5 @@
 <properties
-  pagetitle="AlwaysOn, High Availability, Disaster Recovery - Database Mirroring&#xD;"
+  pagetitle="Database Mirroring: Common issues for AlwaysOn, High Availability, and disaster recovery "
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -12,29 +12,29 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Database Mirroring: Common issues for AlwaysOn, High Availability, and disaster recovery 
 
-This article explains how to resolve many common Database Mirroring issues. 
+## Resolve Database Mirroring issues for AlwaysOn, High Availability, and disaster recovery
 
-## **Recommended Steps**
+Use this article to resolve many common Database Mirroring issues. 
 
-* **Error: The server network address 'TCP://server1.test.local:5022' cannot be reached or does not exist**
+* **"Error: The server network address 'TCP://server1.test.local:5022' cannot be reached or does not exist"**
 
     For **Mirroring Synchronization**, make sure to set the correct [**Server Network** address and **Port**](https://docs.microsoft.com/sql/database-engine/database-mirroring/specify-a-server-network-address-database-mirroring?view=sql-server-ver15#Examples). Ensure that the Windows Firewall and Network Security Groups on Azure are not blocking the **Mirroring Ports**.
 
-* **Error: 1479: The mirroring connection to "TCP://server1.test.local:5022" has timed out for database "DBname" after 10 seconds without a response.**
+* **"Error: 1479: The mirroring connection to 'TCP://server1.test.local:5022' has timed out for database 'DBname' after 10 seconds without a response."**
    
     Connection timeouts can result from [SQL performance]( https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices), [storage throttling]( https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics), and network issues. While you investigate the main issue, you can temporarily work around the issue by increasing the [**Partner Timeout**](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-database-mirroring?view=sql-server-ver15#syntax) setting (default is 10 seconds), as follows:
      
-     ```SQL
+    ```SQL
      ALTER DATABASE (database) SET PARTNER TIMEOUT (Number of Seconds)
-      ```
+    ```
     
-* **Error Database Mirroring login attempt by user 'Domain\User$.' failed with the error: 'Connection handshake failed. The login 'Domain\User$' does not have CONNECT permission on the endpoint.**
+* **"Error Database Mirroring login attempt by user 'Domain\User$.' failed with the error: 'Connection handshake failed. The login 'Domain\User$' does not have CONNECT permission on the endpoint."**
     
     Setting up Mirroring requires the **Alter** permission on the database and the **Create endpoint** permission, or membership in the sys admin fixed server role. Make sure that the **ports** are open for communication for Mirroring endpoints and the SQL Instance. Make sure that the SQL Service account is added to SQL. Grant connect permission to the mirroring endpoint to the user, as follows:
       
-      ```SQL
+    ```SQL
       GRANT CONNECT ON ENDPOINT::Endpoint_Mirroring TO [Domain\Login];
-      ```
+    ```
 
 * **Mirror Server Database is Disconnected/In Recovery**
 

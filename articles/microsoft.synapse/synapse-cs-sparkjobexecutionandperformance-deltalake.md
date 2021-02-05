@@ -23,3 +23,4 @@
 * [What is Delta Lake](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake)
 
 * [Delta Lake functional overview](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-delta-lake-overview?pivots=programming-language-csharp)
+ 

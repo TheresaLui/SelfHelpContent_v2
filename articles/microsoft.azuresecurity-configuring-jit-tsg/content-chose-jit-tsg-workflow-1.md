@@ -15,7 +15,9 @@
 	  ownershipId="Azure_Security_Security_Center"
 />
 
-# Chose JIT TSG workflow
+# Choose JIT TSG workflow
 
-Chose a workflow using the selections below: Enabling JIT or JIT access request
+Please choose which workflow topic matches your support case:
 
+1. Enabling JIT (creating VM JIT Policy)
+2. JIT Access request

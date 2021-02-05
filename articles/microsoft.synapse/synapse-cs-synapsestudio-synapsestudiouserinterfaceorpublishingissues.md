@@ -21,3 +21,4 @@
 ## **Recommended Documents**
 
 * [Troubleshoot Synapse Studio](https://docs.microsoft.com/azure/synapse-analytics/troubleshoot/troubleshoot-synapse-studio)
+ 

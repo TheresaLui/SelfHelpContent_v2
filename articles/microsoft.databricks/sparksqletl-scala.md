@@ -17,18 +17,41 @@
 
 # Diagnose and resolve Spark issues with Scala API
 
- [BulkCopyToSqlDB](https://docs.microsoft.com/azure/azure-sql/database/spark-connector#write-data-using-bulk-insert) function does not work if the target table has calculated columns, resulting in error message similars to: 
 
-  ```
-  Calculated columns cannot be modified because it is either a computed column or is the result of a UNION operator.
-  ```
- 
-SQL doesn't allow inserting data into calculated column(s) by design, so it throws this error.
 
 ## **Recommended Steps**
-  
-To work around the issue, you can insert dummy column to the calculated column with empty string or insert to a staging table.
+ 
+ 
+### [BulkCopyToSqlDB](https://docs.microsoft.com/azure/azure-sql/database/spark-connector#write-data-using-bulk-insert) function does not work if the target table has calculated columns. 
 
+This issue may also cause an error, such as, "Calculated columns cannot be modified because it is either a computed column or is the result of a UNION operator."
+  
+By design, SQL doesn't allow inserting data into calculated columns. To work around the issue, insert a dummy column to the calculated column with an empty string or insert to a staging table.
+
+
+### Fetching a URL using Scala causes network connection error "javax.net.ssl.SSLException: Connection reset"
+  
+1. Run the command in a notebook to create an [init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts):
+  
+    ```
+    dbutils.fs.put("dbfs:/databricks/ssl_change.sh","""
+    #!/bin/bash
+    echo "jdk.tls.disabledAlgorithms=anon, NULL" > /databricks/spark/dbconf/java/extra.security
+    """,True)
+    ```
+    
+2. [Add init script path to cluster configuration](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--configure-a-cluster-scoped-init-script):
+  
+     ```
+     dbfs:/databricks/ssl_change.sh
+     ```
+     
+ 3. Restart the cluster and test this scala code; it should run successfully:
+     
+     ```
+     %scala val html = scala.io.Source.fromURL("https://azure.microsoft.com/api/v2/pricing/databricks/calculator/?currency=US").mkString’
+     ```
+     
 ## **Recommended Documents**
 
 * [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)

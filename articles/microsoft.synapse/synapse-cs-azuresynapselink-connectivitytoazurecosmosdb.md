@@ -39,3 +39,4 @@ Only Synapse SQL serverless pool and Synapse Spark pool are currently supported.
 
 [Azure Synapse Link limits](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)
 <br>This article describes the functionalities that are currently supported in Azure Synapse Link for Azure Cosmos DB.
+ 

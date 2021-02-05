@@ -23,7 +23,7 @@
 * **Can [fn_get_audit_file()](https://docs.microsoft.com/sql/relational-databases/system-functions/sys-fn-get-audit-file-transact-sql?view=azure-sqldw-latest) be used to read audit files from Synapse dedicated SQL pool?**
   Yes, but the connection needs to be established to the logical server master database, or to an SQL DB database, and not to a Synapse database.
 
-## **Recommended Documents**
+## **Recommended Documents** 
 
 For getting started with auditing, refer to [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/) document.
 
@@ -33,3 +33,4 @@ For other security capabilities, refer to these documents:
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)
 * [Advanced data security](https://docs.microsoft.com/azure/sql-database/sql-database-advanced-data-security)
 
+ 

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - IO Timeout - NodeReboot - Network Packet Drop- e17"
+	description="Root Cause Analysis (RCA) - IO Timeout - Network Packet Drop"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The physical node where the virtual machine was hosted experienced a **platform bug involving the NIC firmware and drivers used for the Accelerated Networking**. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts.
+### **Root Cause**
+> The physical node where the virtual machine was hosted experienced a platform bug involving the NIC firmware and drivers used for the Accelerated Networking. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot. 
+### **Resolution**
+> VM was restored following reboot of the host node. 
 > 
 > Our engineering team is proactively applying a temporary mitigation to all affected nodes and actively rolling out a hotfix.
 > 

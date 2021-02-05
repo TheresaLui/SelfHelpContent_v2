@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was due to a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation. 
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot. 
+### **Resolution**
+> VM was restored following reboot of the host node. 
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Our platform engineers have identified the required fixes for this issue and tracking them with priority to get them deployed.
 > 
 <!--/additionalInfo--><!--/rcaDescription-->

@@ -16,9 +16,9 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your requested parameters to provide guidance
 
-The Allocation Success Recommender predicts the chance of success for your desired allocation based on the inputs specified. If your desired allocation is blocked or has a low chance of success, the Recommender provides alternate recommendations with high chance of success. Recommendations are ranked based on the likelihood of success.<br>
+The Allocation Success Recommender predicts the chance of success for your specified allocation based on the inputs specified. If your specified allocation is blocked or has a low chance of success, the Recommender provides alternate recommendations with high chance of success. Recommendations are ranked based on the likelihood of success.<br>
 
 <!--issueDescription-->
 Based on the analysis of your desired deployment allocation with the requested parameters: Subscription ID: **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->**, region: **<!--$Region-->Region<!--/$Region-->**, size: **<!--$VMSize-->VMSize<!--/$VMSize-->**, instances: **<!--$Instances-->Instances<!--/$Instances-->**.<br>

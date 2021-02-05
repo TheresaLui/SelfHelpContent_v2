@@ -34,3 +34,4 @@
 
 * If your query fails with the error message "Distributed query timeout expired. The timeout period elapsed prior to completion of the distributed operation.", it means that query lasted longer that allowed. Visit [performance best practices for Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/best-practices-sql-on-demand) to optimize your query to execute faster. 
 
+ 

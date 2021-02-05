@@ -18,7 +18,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcmc2.chinaeast2.kusto.chinacloudapi.cn').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"01:00:00"
+      "refreshInterval":"12:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
@@ -36,7 +36,7 @@
    },
    "ingestionClientIdentities":[
    ],
-   "version":2,
+   "version":3,
    "learnMoreLink":"https://docs.azure.cn/cognitive-services/text-analytics/how-tos/text-analytics-how-to-call-api",
    "description":"Upgrade to the latest Cognitive Service Text Analytics SDK version",
    "longDescription":"Please upgrade to the latest SDK version to get the best results in terms of model quality, performance and service availability. Also there are new features are available as new endpoints starting from V3.0 such as PII recognition, Entity recognition and entity linking available as separate endpoints. In terms of changes in preview endpoints we have Opinion Mining in SA endpoint, redacted text property in PII endpoint",

@@ -28,3 +28,4 @@ Data Discovery & Classification provides advanced capabilities built into Dedica
 
 * [Manage classifications using Rest API](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#using-rest-api)
 
+ 

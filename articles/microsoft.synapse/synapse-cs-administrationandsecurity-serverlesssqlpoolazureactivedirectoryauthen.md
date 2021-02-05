@@ -30,3 +30,4 @@
 
 * If using ADF to access Serverless SQL pool, check if MSI account for your workspace is given permission to log in. [Visit full guide on access control for more information](https://docs.microsoft.com/azure/synapse-analytics/sql/access-control) 
 
+ 
