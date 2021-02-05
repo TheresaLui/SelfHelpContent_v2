@@ -16,14 +16,14 @@
 />
 
 # Unhealthy back-end pool
-When all of the servers in a back-end pool are unhealthy, Application Gateway has no healthy servers to forward client requests to. 
+When all of the servers in a back-end pool are unhealthy, Application Gateway has no healthy servers to forward client requests to.
 
 These issues could stem from the health probe configuration in Application Gateway or your back-end server, which fails to give a healthy response. In this case, the clients will receive a "502 Bad Gateway" error to signify that no active servers are available to accept the requests.
 
 ## **Recommended Steps**
 To troubleshoot 502 Bad Gateway errors open the **Backend health** blade and follow the steps below
 
-[Open Backend Health](button-data-blade:Microsoft_Azure_HybridNetworking.ApplicationGatewayBackendHealthGridBlade.assetId.$resourceId)    
+[Open Backend Health](button-data-blade:Microsoft_Azure_HybridNetworking.ApplicationGatewayBackendHealthGridBlade.assetId.$resourceId)
 
 1. In the **Backend health blade**, check the error message for an unhealthy server. 
 2. Check the error message in the **Details** column
