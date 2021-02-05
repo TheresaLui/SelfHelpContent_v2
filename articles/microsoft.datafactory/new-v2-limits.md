@@ -16,7 +16,7 @@ Azure Data Factory (ADF) is a multitenant service. To ensure that customer subsc
 
 ## **Recommended Steps**
 
-- Review Azure Data Factory Limits at [Data Fcatory Limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-data-factory-limits.md)
+- Review Azure Data Factory Limits at [Data Factory Limits](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/azure-data-factory-limits.md)
 - Some default limits can be increased per [Customer Request](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/) 
 - Some limits, including bytes per object for pipeline objects, cannot be increased above the default
 - If you reach the bytes-per-object for pipeline objects limit, we recommend that you split the pipeline into several smaller pipelines.
