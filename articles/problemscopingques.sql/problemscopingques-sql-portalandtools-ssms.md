@@ -6,7 +6,7 @@
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630412"
+	supportTopicIds="32630456"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
