@@ -1,4 +1,4 @@
-<!--DIRECTIONS: Copy the raw form of this article to create Apollo solutions for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where HTML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
+<!--DIRECTIONS: Copy the raw form of this article to create Apollo solutions for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where XML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
 
 <!--For information about each property, see the Metadata page-->
 <properties
@@ -35,12 +35,12 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 - For a solution-based article, define the issue and provide one or more solutions.  
 - For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
-Solutions can be comprised of: 
+Solutions can be comprised of the following components: 
 - Procedures
 - Images
 - Diagnostics  
 - Videos 
-- Azure KB and document links-->
+- AzureKB and document links-->
 
 ## Solution
 <!--Level heading 2 required. Solutions can include diagnostics, procedures, videos, and inline images.-->
@@ -127,7 +127,8 @@ You can also use Markdown syntax: [Description of document](URL)
 > If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
  
 
-<!--RULES:
+<!--NOTE: THIS RULES LIST IS PENDING DECISIONS AROUND VALIDATION.
+ RULES:
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
 * Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
