@@ -20,7 +20,7 @@
 # Azure AD Smart Lockout: Blocked Sign-in Attempt
 
 <!--issueDescription-->
-In this sign-in attempt the attempt was made to sign in as <!--$userName-->[userName]<!--/$userName--> to <!--$appName-->[appName]<!--/$appName--> but the user had attempted sign-in with incorrect credentials too many times.
+An attempt was made to sign in as <!--$userName-->[userName]<!--/$userName--> to <!--$appName-->[appName]<!--/$appName--> but the user had attempted sign-in with incorrect credentials too many times.
 <!--/issueDescription-->
 
 This user has had <!--$badAttempts-->[badAttempts]<!--/$badAttempts--> similar attempts locked out by Smart Lockout over the past 48 hours. Sign-in was blocked because it came from an IP address with malicious activity.
