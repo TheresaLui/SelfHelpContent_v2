@@ -35,7 +35,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
-        }, 
+        },
         {
             "id": "problem_description",
             "visibility": null,
