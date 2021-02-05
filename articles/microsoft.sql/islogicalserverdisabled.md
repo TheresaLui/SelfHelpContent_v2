@@ -21,7 +21,7 @@
 <!--issueDescription-->
 The server <!--$ServerName-->ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information.
 
-This issue may have occured due an issue with your spending limit, billing information, or subscription status. Please review your account details and latest invoice for further information.
+This issue may have occured due an issue with your spending limit, billing information, or subscription status. For further information, please review your account details and latest invoice.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
