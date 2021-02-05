@@ -108,7 +108,6 @@
         },
         {
             "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Enter your the Stamp Cloud ID",
