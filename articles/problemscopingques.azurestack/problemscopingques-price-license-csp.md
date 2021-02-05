@@ -108,7 +108,7 @@
         },
         {
             "id": "cloud_id",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "########-####-####-####-###########",
