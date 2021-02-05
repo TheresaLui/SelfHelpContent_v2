@@ -17,9 +17,6 @@
 
 # Issue Category
 
-1- Get the Database Account Name and review the Cosmos DB Account SLA </br>
-2- Follow every step mentioned below.
-
 Customers may face variety of Availability issues such as:
 1. DNS Resolution Failure
 2. Availability SLA Violated
@@ -27,6 +24,9 @@ Customers may face variety of Availability issues such as:
 4. Endpoint Offline
 5. Java/.Net (Gone exceptions, Timeout, etc.)
 </br>
+
+1- Get the Database Account Name and review the Cosmos DB Account SLA </br>
+2- Follow every step mentioned below.
 
 ## Step 1) Check if it is DNS Resolution Failure
 1. Collect the Complete Error and Exceptions Stack
