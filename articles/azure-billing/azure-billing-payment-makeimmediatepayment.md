@@ -32,7 +32,7 @@ For more information, see [View your billing accounts in Azure portal](https://d
 
 ## **Recommended steps**
 
-Below are next steps to make an immediate payment.
+Once you have verified your account type follow the steps below to make an immediate payment.
 
 ### **How to pay if you have Microsoft Online Service Program**
 
