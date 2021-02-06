@@ -50,7 +50,7 @@ ownershipId="StorageMediaEdge_AccountManagement"
 		{
 			"id": "Azure_Service_Health_tool",
 			"title": "Azure Service Health",
-			"description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",
+			"description": "Use the Azure Service Health blade to learn about current service issues that may affect your resources",
 			"category": "Management",
 			"searchTags": "outage, Azure issues, production, platform impact",
 			"type": "tool",
