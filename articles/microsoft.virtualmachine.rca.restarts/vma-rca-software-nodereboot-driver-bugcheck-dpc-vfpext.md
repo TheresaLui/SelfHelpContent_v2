@@ -20,18 +20,18 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The physical host node where the VM was running experienced an unexpected bug check caused by excessive CPU cycles being spent in a networking drivers.
+> The physical host node where the VM was running experienced an unexpected bug check, caused by excessive CPU cycles being spent in a networking driver.
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
 > VM was restored following reboot of the host node.
-  Our core platform engineers are tracking this issue and currently in the process of establishing a mitigation to prevent future occurrences of this issue. Platform engineers are also in the process of developing a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.
+  Our core platform engineers are tracking this issue and currently in the process of establishing a mitigation to prevent future occurrences of this issue. Platform engineers are also in the process of developing a fix for this issue. After the solution has been verified and completed testing, it will be deployed to all affected nodes.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
