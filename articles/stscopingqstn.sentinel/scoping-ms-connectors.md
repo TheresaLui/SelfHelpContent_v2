@@ -18,7 +18,7 @@
                 "resourceRequired": false,
                 "title": "Connectors to Microsoft products",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please attach a screenshot of the relevant Connector blade",
+                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
                 "formElements": [{
                 "id": "ConnectorName",
                 "order": 4,
