@@ -5,7 +5,7 @@
 	authors="deeptivu"
 	ms.author="deeptivu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32783187"
+	supportTopicIds="32783198,32783225,32783258"
 	productPesIds="17354"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
