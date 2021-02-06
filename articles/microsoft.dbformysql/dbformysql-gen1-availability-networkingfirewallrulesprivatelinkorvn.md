@@ -52,8 +52,8 @@ Refer to the appropriate section below depending on your method of access.
 Also, be sure to consider the following points.
 
 * If you need to connect your server to Azure Kubernetes Services (AKS), see [Connecting Azure Kubernetes Service and Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-aks).
-* If are having issues connecting with SSL, see [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
-* If are having issues configuring TLS, see [Configuring TLS settings](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
+* If you're having issues connecting with SSL, see [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
+* If you're having issues configuring TLS, see [Configuring TLS settings](https://docs.microsoft.com/azure/mysql/howto-tls-configurations).
 
 ## **Recommended documents**
 
