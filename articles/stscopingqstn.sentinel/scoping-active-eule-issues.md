@@ -23,7 +23,7 @@
                 "id": "AlertRuleID",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert rule ID:",
+                "displayLabel": "Provide the Alert rule ID:",
                 "required": true
                                                 },{"id": "problem_description",
 				"order": 1,
