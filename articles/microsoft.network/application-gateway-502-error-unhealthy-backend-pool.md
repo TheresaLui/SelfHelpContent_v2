@@ -18,7 +18,7 @@
 # Unhealthy back-end pool
 When all of the servers in a back-end pool are unhealthy, Application Gateway has no healthy servers to forward client requests to. 
 
-These issues could stem from the health probe configuration in Application Gateway or your back-end server, which fails to give a healthy response. In this case, the clients will receive a "502 Bad Gateway" error to signify that no active servers are available to accept the requests.
+These issues can stem from the health probe configuration in Application Gateway or your back-end server, which fails to give a healthy response. In this case, the clients will receive a "502 Bad Gateway" error to signify that no active servers are available to accept the requests.
 
 ## **Recommended Steps**
 
