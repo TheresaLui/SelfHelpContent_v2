@@ -18,18 +18,18 @@
                 "resourceRequired": false,
                 "title": "Issues with analytics templates",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+                "fileAttachmentHint": "Provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "AlertRuleID",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert rule ID:",
+                "displayLabel": "Provide the Alert rule ID:",
                 "required": true
                 },{
                 "id": "TemplateName",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the template name:",
+                "displayLabel": "Provide the template name",
                 "required": false
                                                 },{"id": "problem_description",
 				"order": 1,
