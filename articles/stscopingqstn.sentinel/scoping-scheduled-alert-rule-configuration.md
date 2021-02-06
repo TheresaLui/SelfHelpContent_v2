@@ -18,12 +18,12 @@
                 "resourceRequired": false,
                 "title": "Scheduled alert rule  - Configuration",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
+                "fileAttachmentHint": "Provide any screenshot that may be relevant to your issue",
                 "formElements": [{
                 "id": "AlertRuleID",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert rule ID:",
+                "displayLabel": "Provide the Alert rule ID:",
                 "required": true
                 },{
                 "id": "ConfigSet",
