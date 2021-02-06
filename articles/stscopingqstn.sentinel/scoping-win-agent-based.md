@@ -18,13 +18,13 @@
                 "resourceRequired": false,
                 "title": "Connectors based on Windows agents",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please attach a screenshot of the relevant Connector blade",
+                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
                 "formElements": [
                 {
                     "id": "Managed_by_Azure",
                     "order": 6,
                     "controlType": "dropdown",
-                    "displayLabel": "Does your agent machine is managed by Azure?",
+                    "displayLabel": "Is your agent machine managed by Azure?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -51,7 +51,7 @@
                 "id": "ConnectorName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What connector are you using?",
+                "displayLabel": "Which connector are you using?",
                 "required": true
                 },{
 				"id": "problem_description",
