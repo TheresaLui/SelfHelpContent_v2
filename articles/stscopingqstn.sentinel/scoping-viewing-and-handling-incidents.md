@@ -18,24 +18,24 @@
                 "resourceRequired": false,
                 "title": "Viewing and handling incidents",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+                "fileAttachmentHint": "Provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "AlertID",
                 "order": 2,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the SystemAlertId of the relevant alert",
+                "displayLabel": "Provide the SystemAlertId of the relevant alert",
                 "required": true
                 },{
                 "id": "AlertRuleID",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the alert rule ID of the relevant analytic rule",
+                "displayLabel": "Provide the alert rule ID of the relevant analytic rule",
                 "required": false
                 },{
                 "id": "ProductName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What is the product which the incident was not created for?",
+                "displayLabel": "What is the product for which the incident was not created?",
                 "required": false
                 },{"id": "problem_description",
 				"order": 1,
