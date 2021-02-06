@@ -22,7 +22,7 @@ These issues could stem from the health probe configuration in Application Gatew
 
 ## **Recommended Steps**
 
-To troubleshoot 502 Bad Gateway errors open the **Backend health** blade and follow the steps below
+To troubleshoot 502 Bad Gateway errors, open the **Backend health** blade and follow these steps:
 
 [Open Backend Health](button-data-blade:Microsoft_Azure_HybridNetworking.ApplicationGatewayBackendHealthGridBlade.assetId.$resourceId)    
 
