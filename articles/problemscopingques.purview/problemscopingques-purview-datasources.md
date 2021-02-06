@@ -80,7 +80,7 @@
         },
         {
             "id": "other_services",
-            "order": 40,
+            "order": 70,
             "controlType": "textbox",
             "displayLabel": "Are you able to connect to the Data Source from other Azure services like Data Factory or Data Share?",
             "required": false
