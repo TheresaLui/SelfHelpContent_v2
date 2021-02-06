@@ -18,18 +18,18 @@
                 "resourceRequired": false,
                 "title": "Entities in scheduled alert rule",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshot that may be relevant to your issue",
+                "fileAttachmentHint": "Provide any screenshot relevant to your issue",
                 "formElements": [{
                 "id": "AlertRuleID",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert rule ID:",
+                "displayLabel": "Provide the Alert rule ID:",
                 "required": true
                 },{
                 "id": "MissingEntAlertID",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Alert ID where the entities are not set:",
+                "displayLabel": "Provide the Alert ID where the entities are not set:",
                 "required": false
                                                 },{"id": "problem_description",
 				"order": 1,
