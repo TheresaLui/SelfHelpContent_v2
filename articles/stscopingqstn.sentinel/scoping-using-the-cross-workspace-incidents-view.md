@@ -18,12 +18,12 @@
                 "resourceRequired": false,
                 "title": "Using the cross workspace incidents view",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+                "fileAttachmentHint": "Provide any screenshots that are relevant to your issue",
                 "formElements": [{
                 "id": "MissingWS",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide a list of the workspaces that you are unable to see incidents from:",
+                "displayLabel": "Provide a list of the workspaces that you are unable to see incidents from:",
                 "required": true
                                 },{"id": "problem_description",
 				"order": 1,
