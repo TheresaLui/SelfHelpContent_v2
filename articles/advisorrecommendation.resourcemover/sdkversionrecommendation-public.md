@@ -9,7 +9,6 @@
     ownershipId="Compute_AzureResourceMover"
 />
 # Azure Resource Mover SDK Ugrade Recommendation
-# "testData": "e80eb9fa-c996-4435-aa32-5af6f3d3077c, /subscriptions/e80eb9fa-c996-4435-aa32-5af6f3d3077c"
 ---
 {
     "$schema": "AdvisorRecommendation",
