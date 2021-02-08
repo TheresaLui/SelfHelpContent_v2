@@ -1,19 +1,17 @@
 <properties
-	pageTitle="Missing or inaccurate metrics with Azure Cache for Redis"
-	description="Missing or inaccurate metrics with Azure Cache for Redis"
-	service="microsoft.cache"
-	resource="redis"
-	authors="asasine"
-	ms.author="adsasine"
-	displayOrder="43"
-	selfHelpType="resource"
-	supportTopicIds="32690914"
-	resourceTags=""
-	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	articleId="b7b5f6ac-3701-4b11-b64b-a26bec857a0d"
-	ownershipId="RedisCache_RedisCache"
-/>
+  pagetitle="Missing or inaccurate metrics with Azure Cache for Redis&#xD;"
+  description="Missing or inaccurate metrics with Azure Cache for Redis"
+  service="microsoft.cache"
+  resource="redis"
+  ms.author="adsasine,igamigo"
+  selfhelptype="Resource"
+  supporttopicids="32690914"
+  resourcetags=""
+  productpesids="14783"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="b7b5f6ac-3701-4b11-b64b-a26bec857a0d"
+  ownershipid="RedisCache_RedisCache" />
+Due to an internal issue, customers might not be able to see metrics in the portal for their Azure Cache for Redis resources. We are aware of this issue, and are currently in the process of mitigating it.
 
 # Missing or inaccurate metrics with Azure Cache for Redis
 
