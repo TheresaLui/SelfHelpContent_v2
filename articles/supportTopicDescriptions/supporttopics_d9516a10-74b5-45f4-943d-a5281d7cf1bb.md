@@ -172,9 +172,9 @@
     {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
-      "shortDescription": "Performance-related issues with SQL API SDK for Python",
-      "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "searchTags": "Python;SDK",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
