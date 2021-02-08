@@ -33,9 +33,9 @@ To resolve problems with dropped connections when working with Azure Database fo
 
   Also, consider connecting with redirection, which can reduce network latency between client applications and MySQL servers by allowing applications to connect directly to backend server nodes. For more information, see [Connect to Azure Database for MySQL with redirection](https://docs.microsoft.com/azure/mysql/howto-redirection). 
 
-  You also might encounter ERROR 2013: Lost connection to MySQL server during query. This is a common error for MySQL databases. To solve this issue, try increasing the value of the following parameters:  max_allowed_packet, connect_timeout, net_write_timeout, net_read_timeout, wait_timeout. This error can also result if resource usage on your server is very high. For more information, see [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
+  You also might encounter **ERROR 2013: Lost connection to MySQL server during query**. This is a common error for MySQL databases. To solve this issue, try increasing the value of the following parameters: max_allowed_packet, connect_timeout, net_write_timeout, net_read_timeout, wait_timeout. This error can also result if resource usage on your server is very high. For more information, see [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 
-  If you encounter the error message Azure Database for MySQL server has gone away, see the [MySQL has gone away](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-server-has-gone-away/ba-p/369138) troubleshooting guide.
+  If you encounter the error message **Azure Database for MySQL server has gone away**, see the [MySQL has gone away](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-server-has-gone-away/ba-p/369138) troubleshooting guide.
 
   High connection latency can also result from a user configuration error. For potential issues with:
 
