@@ -48,14 +48,14 @@ Data Factory custom activities runs your code logic in an Azure Batch pool of vi
   * Make sure you have more than one node in your pool. 
   * Check and make sure all VM nodes are running on the most recent version of Azure Batch agent.
   * If the jobs your custom activity submits to Azure Batch seem stuck (not picked up by any node), likely the batch pool does not have enough resources, or some node has old Batch Agent installed.
-  * Follow the [Azure Batch Best practices](https://docs.microsoft.com/en-us/azure/batch/best-practices#pool-lifetime-and-billing) to keep your compute node pool healthy.
+  * Follow the [Azure Batch Best practices](https://docs.microsoft.com/azure/batch/best-practices#pool-lifetime-and-billing) to keep your compute node pool healthy.
 	
 * Can you run the batch job successfully from Azure CLI?
   * Log in to the Azure Batch account with the _az batch_ command, make sure the account name and authentication method are the same as your linked service uses.
   * Create a **job** with _az batch job create_ command, make sure to use the same batch pool your linked service uses.
   * Create a **task** with _az batch task create_ command, make sure to use the same command as your linked batch service uses, and specify _--resource-files_ as needed.
   * If running the batch job outside Data Factory also failed with similar symptoms, next step is to debug your custom code on the batch node.
-  * For more information on Azure Batch CLI commands, please refer to the Azure Batch article - [Quickstart - Run your first Batch job with the Azure CLI](https://docs.microsoft.com/en-us/azure/batch/quick-create-cli).
+  * For more information on Azure Batch CLI commands, please refer to the Azure Batch article - [Quickstart - Run your first Batch job with the Azure CLI](https://docs.microsoft.com/azure/batch/quick-create-cli).
 
 
 ## **Recommended Documents**
@@ -65,4 +65,4 @@ Data Factory custom activities runs your code logic in an Azure Batch pool of vi
   * Permission of Custom Activity [_auto-user account_](https://docs.microsoft.com/azure/data-factory/transform-data-using-dotnet-custom-activity#custom-activity-permissions).
   * V2 Custom Activity versus V1 DotNet Activity [Comparison](https://docs.microsoft.com/azure/data-factory/transform-data-using-dotnet-custom-activity#compare-v2-v1).
   * Azure Batch Pool with [Auto-scaling](https://docs.microsoft.com/azure/data-factory/transform-data-using-dotnet-custom-activity#auto-scaling-of-azure-batch).
-* [Azure Batch Best practices - pool lifetime](https://docs.microsoft.com/en-us/azure/batch/best-practices#pool-lifetime-and-billing)
+* [Azure Batch Best practices - pool lifetime](https://docs.microsoft.com/azure/batch/best-practices#pool-lifetime-and-billing)
