@@ -137,11 +137,10 @@ You can also use Markdown syntax: [Description of document](URL)
 * Spell out product, feature, and service names on first mention, followed by acronym in parentheses. 
 * Use “select,” not “click” 
 * Don’t use “please” 
-* Bold all UI elements. Don’t overuse bold in text. 
+* Only bold UI elements (such as buttons, options) in your procedures. Do not use bold for emphasis.  
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
 * Enclose error messages in text in quotation marks 
 * Insert a blank line after every heading
 * Insert an empty line before the first item and after the last item of all lists (ordered and unordered).
-* Don't link to internal review documentation. These URLs always start with "review.microsoft.docs", and users are unable to access them.
-* Do not use aka.ms links
+* Don't use internal links, which users can't access. This includes review.microsoft.docs links and aka.ms links.
 -->

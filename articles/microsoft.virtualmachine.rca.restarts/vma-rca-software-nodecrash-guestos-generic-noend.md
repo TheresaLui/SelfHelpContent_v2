@@ -24,6 +24,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
+
 ### **Root Cause**
 > This unexpected occurrence was caused by a crash in the guest operating system of your VM.
 > 
@@ -36,7 +37,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> VM was restored following a reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
@@ -44,7 +45,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--recommendedActions-->
 ## **Recommended Steps**
 
-> To investigate the causes of the VM crash, please use the following references that might be helpful:
+> To investigate the causes of the VM crash, the following references might be helpful:
 > 
 > Troubleshooting links:
 > * [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)
