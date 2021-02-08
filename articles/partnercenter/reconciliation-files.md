@@ -30,3 +30,8 @@ What's the difference between billed and unbilled data?
 
 How to reconcile the Azure consumption in one-time purchase recon file?
 * With the Azure subscription Id (Entitlement Id), you can obtain the Azure plan Id (Subscription Id) in the One-Time Purchase recon file. Search for this Id in the Daily-rated usage recon file to see all of the costs associated with this Azure plan Id, and the Azure Subscription Id is as Entitlement Id.
+
+## **Recommended Documents**
+
+* [Use the reconciliation files](https://docs.microsoft.com/partner-center/use-the-reconciliation-files)
+* [Reconciliation file charge types](https://docs.microsoft.com/partner-center/recon-file-charge-types)
