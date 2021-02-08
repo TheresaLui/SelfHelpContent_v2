@@ -57,10 +57,13 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - Update to the **[latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)** to avoid any known issues
 - If you are seeing **VM level throttling**, moving to a [bigger size VM](https://docs.microsoft.com/azure/virtual-machines/sizes) may resolve the issue
 
+:::Section Unable to failover AG to another replica:::
 
 ### **Unable to failover AG to another replica**
 - Ensure that the **['NT AUTHORITY\SYSTEM' account is granted required privilege](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** on all the replicas of the AG.
 - Watch from the cluster manager while you do the failover. Does the IP address and Network name come online? If not, resolve the IP or network name issues.
+
+:::Section Unable to connect to AG listener:::
 
 ### **Unable to connect to AG listener** 
 - Ensure that [load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer) is configured correctly.  
@@ -74,11 +77,15 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - Ensure that all the **ports required for the listener are open**  in **[NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)** and in [Windows Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule) for all replicas. For example, SQL instance port (1433), mirroring port (5022), Load balancer probe port (59999).
 - Ensure that SQL Server service is up and running on the Primary replica.
 
+:::Section Why did Availability Group not Failover?:::
+
 ### **Why did Availability Group not Failover?**  
 - Make sure **[Conditions for Automatic Failover](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver15#RequiredConditions)** are met. This means **every secondary database on the failover target is synchronized**
 - Make sure that account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
 - Make sure that the `Maximum Failures in the Specified Period` value [is not exhausted]
 (https://support.microsoft.com/help/2833707/kb2833707-troubleshooting-automatic-failover-problems-in-sql-server-20) 
+
+:::Section AG is Offline or Database are in Resolving State:::
 
 ### **AG is Offline or Database are in Resolving State**
 - Make sure Windows **cluster service is running**
@@ -86,7 +93,9 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - If **[cluster service was started with force quorum](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/force-a-wsfc-cluster-to-start-without-a-quorum?view=sql-server-ver15)**,  you **[must use following command**](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-ver15)** in the correct replica to bring AG online 
 `ALTER AVAILABILITY GROUP AGName FORCE_FAILOVER_ALLOW_DATA_LOSS`
 - Account **[NT AUTHORITY\SYSTEM has required privileges](https://support.microsoft.com/help/2847723/cannot-create-a-high-availability-group-in-microsoft-sql-server-2012)** 
-	
+
+:::Section AG is Slow to Synchronize or Redo is Lagging:::
+
 ### **AG is Slow to Synchronize or Redo is Lagging**  
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) **to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics).**  
   - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
@@ -99,23 +108,33 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 - For hybrid environments such as on-premises and Azure with different disk sector sizes, [apply the latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) and [use trace flag 1800 as startup parameter](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si) 
 - To check **Redo Latency**, review [Scenario 2: Redo Latency](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability)
 
+:::Section Event ID 157- Disk was Surprised-Removed:::
+
 ### **Event ID 157- Disk was Surprised-Removed** 
 This can happen if the following conditions are present: 
 - There is significant disk IO [throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM to avoid IO throttling. 
 - The Storage Spaces property `AutomaticClusteringEnabled` is set to `True` **for an AG Environment**. Change it to `False.` 
 - Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244%28v=ws.11%29#to-run-the-validate-a-configuration-wizard) **with Storage option**
 
+:::Section AG DB log file unable to shrink or is growing:::
+
 ### **AG DB log file unable to shrink or is growing** 
 - Review  [this article](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability) to understand and manage the AG database log file.
 - Review [factors that can delay log truncation](https://docs.microsoft.com/sql/relational-databases/logs/the-transaction-log-sql-server?view=sql-server-ver15#FactorsThatDelayTruncation)
 
+:::Section Error There have been X misaligned log IOs:::
+
 ### **Error There have been X misaligned log IOs** 
 - This can happen in a hybrid environment, such as on-premises and Azure with [different disk sector sizes](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si). **[Apply the latest SQL Server patch**](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) and use **[trace flag 1800 as startup parameter**](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si).
+
+:::Section Unable to login after failover:::
 
 ### **Unable to login after failover** 
 - Ensure that you use the AG Listener name or the [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) to connect 
 - [Listener is set up with a load balancer correctly](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). 
 - Appropriate logins are available in the new primary. [Use Method 2 in this article, under More Information](https://support.microsoft.com//help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server) to transfer logins from the previous primary to the new primary
+
+:::Section How do I setup AG:::
 
 ### **How do I setup AG** 
 **[Compare different ways](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment)** to setup AG and use one of the following methods that best fits your environment:
