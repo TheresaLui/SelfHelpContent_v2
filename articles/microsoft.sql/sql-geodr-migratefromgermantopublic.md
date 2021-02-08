@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-# Geo Replication, Failover Groups and DB Copy/Migration from Microsoft Cloud Germany to global Azure
+# Geo Replication, Failover Groups and DB Copy/Migration from Azure Germany to Azure Global
 
 ## **Recommended Steps**
 
