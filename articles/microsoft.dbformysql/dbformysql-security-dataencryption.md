@@ -24,7 +24,7 @@ Data encryption with customer-managed keys for Azure Database for MySQL enables 
 ## **Recommended Steps**
 
 * **Data encryption** is only available for the **General purpose** and **Memory optimized** SKU
-* For your General purpose and Memory optimized SKU does not have data encryption, ensure that your server has [large storage](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage)
+* For your General purpose and Memory optimized SKU that do not have data encryption, ensure that your server has [large storage](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage)
 * Set **Data encryption** for your Azure Database for MySQL from either:
     * [The Azure portal](https://docs.microsoft.com/azure/mysql/howto-data-encryption-portal)
     * [CLI](https://docs.microsoft.com/azure/mysql/howto-data-encryption-cli)
