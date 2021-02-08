@@ -24,8 +24,6 @@ These issues can stem from the health probe configuration in Application Gateway
 
 To troubleshoot 502 Bad Gateway errors, open the **Backend health** blade and follow these steps:
 
-[Open Backend Health](button-data-blade:Microsoft_Azure_HybridNetworking.ApplicationGatewayBackendHealthGridBlade.Id.resourceId)    
-
 1. In the **Backend health blade**, check the error message for an unhealthy server
 2. Check the error message in the **Details** column
 3. Visit [Back-end health troubleshooting](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#back-end-health) to learn about troubleshooting steps for each error message
