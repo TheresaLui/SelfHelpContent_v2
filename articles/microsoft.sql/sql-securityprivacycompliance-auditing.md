@@ -17,7 +17,7 @@
 
 # Auditing and Monitoring
 
-## Auditing Overview:
+## **Auditing Overview:**
 
 Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
@@ -25,9 +25,9 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 -   Report on database activity. You can use pre-configured reports and a dashboard to get started quickly with activity and event reporting.
 -   Analyze reports. You can find suspicious events, unusual activity, and trends.
 
-## Recommended Steps for Setup and Configuration:
+## **Recommended Steps for Setup and Configuration:**
 
-1.   Go to [Azure Portal](https://portal.azure.com/) and navigate to **Auditing** under the Security heading in your SQL database or SQL server pane. (Demo video is below.)
+1.   Go to [Azure Portal](https://portal.azure.com/) and navigate to Auditing under the Security heading in your SQL database or SQL server pane. (Demo video is below.)
 1.   Create or Update auditing for Azure SQL server and database, using one of the following methods:
       - [Azure PowerShell](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-azure-powershell)
       - [REST API](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-rest-api)
