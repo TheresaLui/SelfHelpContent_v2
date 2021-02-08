@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware - Memory"
+	description="Root Cause Analysis (RCA) - Software NodeReboot - Driver Bugcheck - DPC_VfpExt"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="NatErns"
 	ms.author="naterns"
-	displayOrder=""	
-	articleId="VMA_RCA_Hardware_NodeReboot_Memory_Bugcheck"
+	displayOrder=""
+	articleId="VMA_RCA_Software_NodeReboot_Driver_Bugcheck_DPC_VfpExt"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -25,26 +25,15 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The host node where the VM was running encountered a **Memory Error**.  
+> The physical host node where the VM was running experienced an unexpected bug check, caused by excessive CPU cycles being spent in a networking driver.
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
-> The physical node has been taken out of service for further diagnostics and repair. The VM was service healed and restored on a healthy node.
+> VM was restored following reboot of the host node.
+  Our core platform engineers are tracking this issue and currently in the process of establishing a mitigation to prevent future occurrences of this issue. Platform engineers are also in the process of developing a fix for this issue. After the solution has been verified and completed testing, it will be deployed to all affected nodes.
 > 
 <!--/resolutionDetails-->
-
-<!--additionalInfo-->
-### **Additional Information**
-> The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
-> - Azure is continually working to make improvements to pre-production hardware screening
-> - Azure is continually working with manufacturers to identify and prevent failures through improvements in CPU microcode
-> - Improvements to CPU failure handling to reduce or avoid impact to customers
-> - Improvements to failure prediction telemetry and models
-> 
-> We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
-> 
-<!--/additionalInfo-->
 <!--/rcaDescription-->
 
 <!--recommendedActions-->

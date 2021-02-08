@@ -1,24 +1,24 @@
 <properties
-	articleId="problemscopingques-sqlmi-tools-ssms"
-	pageTitle="SQL Database Managed Instance"
+	articleId="problemscopingques-sql-portalandtools-ssms"
+	pageTitle="SQL Database"
 	description="Scoping questions to capture SSMS related issues"
-	authors="vitomaz-msft,MladjoA"
+	authors="vitomaz-msft"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637308"
-	productPesIds="16259"
+	supportTopicIds="32630456"
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLMI"
+	ownershipId="AzureData_AzureSQLDB"
 />
-# SQL Database Managed Instance
+# SQL Database
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "SQL Database Managed Instance",
+    "title": "SQL Database",
     "fileAttachmentHint": "",
     "formElements": [
         {

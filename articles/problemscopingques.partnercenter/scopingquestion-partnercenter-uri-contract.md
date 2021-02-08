@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
 	productPesIds="17001"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="b3232dfd-6033-4e85-8c01-1eae9b8f8e80"
 	ownershipId="PartnerCenter_Analytics"
