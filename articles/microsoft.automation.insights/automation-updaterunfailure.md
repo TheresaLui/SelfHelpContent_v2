@@ -32,11 +32,12 @@ We have detected that update run(s) have failed between <!--$StartTime-->[StartT
 * [Troubleshooting problems updating Windows 10](https://support.microsoft.com/windows/troubleshoot-problems-updating-windows-10-188c2b0f-10a7-d72f-65b8-32d177eb136c)
 * [Windows Update Troubleshooting Guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting)
 * Often Windows Update issues can be fixed by running the following:
-1. In the search box on the taskbar,
-	1. Type "command prompt"
-	2. Right Click "Command Prompt" and Select "Run as administrator" from the list of options.
-	3. When prompted for "Do you want allow this app to make changes to your device" Select "Yes".
-	4. In the window that appears, type the following commands one at a time, including the spaces as shown. After you type each command, press Enter. Then let each command complete before you type the next command.
+1. In the search box on the taskbar:
+	1. Type `command prompt`
+	2. Right-click **Command Prompt** and select **Run as administrator** from the list of options
+	3. When prompted for "Do you want allow this app to make changes to your device?", select **Yes**
+	4. In the window that appears, type the following commands one at a time, including the spaces, as shown below. After you type each command, press **Enter**. Then let each command complete before you type the next command.
+	
 	```
 	net stop bits
 	net stop wuauserv
@@ -45,12 +46,13 @@ We have detected that update run(s) have failed between <!--$StartTime-->[StartT
 	net start bits
 	net start wuauserv
 	```
+	
 ## **Recommended Documents**
 
 * [Windows Update common errors and mitigation](https://support.microsoft.com/help/938205/windows-update-error-code-list)
 * [Windows Update error codes by component](https://docs.microsoft.com/windows/deployment/update/windows-update-error-reference)
 * [Configure Windows Update settings for Azure Automation Update Management](https://docs.microsoft.com/azure/automation/update-management/configure-wuagent)
-* If the HRESULT code is not listed in the documents above the search the Microsoft documentation using https://docs.microsoft.com/search/?terms=(HRESULT code)
+  * If the HRESULT code is not listed in the documents above, you can search the Microsoft documentation using https://docs.microsoft.com/search/?terms=(HRESULT code)
 * [Update Management overview](https://docs.microsoft.com/azure/automation/update-management/overview)
-* [Machine shows as "Not assessed" and shows an HRESULT exception](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
+* [Machine shows as "Not assessed" and shows an `HRESULT` exception](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 * [Update Management with Windows Server Update Services](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/manage/update-management-with-windows-server-update-services)
