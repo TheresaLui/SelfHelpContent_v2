@@ -116,7 +116,7 @@
     {
       "id": "1e10f397-d99b-cf37-b8ff-0aa0f478ff9e",
       "longDescription": "",
-      "shortDescription": "How to guidance for SQL API SDK for Python",
+      "shortDescription": "How-to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
@@ -686,7 +686,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK .NET",
       "searchTags": "SDK;.NET;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
