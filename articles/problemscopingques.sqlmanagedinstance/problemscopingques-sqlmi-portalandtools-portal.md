@@ -32,7 +32,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Session ID",
-            "watermarkText": "Press 'Ctrl+Alt+D' and copy Session ID from bottom right popup",
+            "watermarkText": "Press 'Ctrl+Alt+D' and copy Session ID from bottom right dialog box",
             "required": false
         },
         {
