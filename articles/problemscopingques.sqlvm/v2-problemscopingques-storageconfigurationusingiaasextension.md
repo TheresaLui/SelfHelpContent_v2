@@ -27,7 +27,7 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "I want help with Extending my disk",
+                    "value": "I want help with extending my disk",
                     "text": "I want help with my Guest OS volume"
                 },
                 {
