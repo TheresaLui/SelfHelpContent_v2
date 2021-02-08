@@ -21,7 +21,7 @@ Azure Database for MySQL Single Server uses the community edition of MySQL. As s
 ## **Recommended Steps**
 
 * Check the current [supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions) for the service.
-* **Are you seeing wrong server version?** In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the SELECT VERSION(); command at the MySQL prompt.
+* **Are you seeing the wrong server version?** In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the SELECT VERSION(); command at the MySQL prompt.
 * **[TLS considerations?](https://docs.microsoft.com/azure/mysql/how-to-connect-overview-single-server#tls-considerations-for-database-connectivity)**
 * Check the current known [limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to see if your scenario is not supported
 * Review the list of officially [supported drivers](https://docs.microsoft.com/azure/mysql/concepts-compatibility) to make sure you are using a supported driver version
