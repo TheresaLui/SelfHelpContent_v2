@@ -45,7 +45,7 @@
             "visibility": null,
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "How is the Package being executed and if any errors occured? ",
+            "displayLabel": "How is the package being executed and did any errors occur? ",
             "content": null,
             "infoBalloonText": null,
             "required": true,
