@@ -20,17 +20,17 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a hardware issue involving memory module errors on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+> The physical host node where the VM was running encountered a **hardware memory error**.  This may have impacted the VMs running on the node.
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> Azure automatically attempts to correct minor errors and restore services on the node. In the event that the node’s health degrades further, the VM will be service healed to healthy nodes.
 > 
 <!--/resolutionDetails-->
 
