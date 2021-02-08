@@ -8,7 +8,8 @@
   supporttopicids="32637158"
   resourcetags=""
   productpesids="15613"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
   articleid="58f10bd5-ada3-484e-b2b6-a66d55a2226d"
   ownershipid="AzureData_DataFactory" />
 # V2 - Pipeline Activities - Batch Service (Custom Activity)
