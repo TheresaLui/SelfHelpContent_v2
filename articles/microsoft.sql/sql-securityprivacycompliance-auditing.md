@@ -25,7 +25,7 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 -   Report on database activity. You can use pre-configured reports and a dashboard to get started quickly with activity and event reporting.
 -   Analyze reports. You can find suspicious events, unusual activity, and trends.
 
-## Setup and Configuration:
+## Recommended Steps for Setup and Configuration:
 
 1.   Go to [Azure Portal](https://portal.azure.com/) and navigate to **Auditing** under the Security heading in your SQL database or SQL server pane. (Demo video is below.)
 1.   Create or Update auditing for Azure SQL server and database, using one of the following methods:
@@ -69,16 +69,16 @@ After Auditing is configured, follow these recommendations to monitor, generate 
 
     -   Edit audit settings :
 
-          [Microsoft.Sql](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/auditingSettings/*
+          [Microsoft.SQL](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/auditingSettings/*
 
-          [Microsoft.Sql](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/databases/auditingSettings/* or M[icrosoft.Sql](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/extendedAuditingSettings/*
+          [Microsoft.SQL](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/databases/auditingSettings/* or M[icrosoft.SQL](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/extendedAuditingSettings/*
 
-    -   Retrieve audit records in the portal : [Microsoft.Sql](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/databases/auditRecords/read
+    -   Retrieve audit records in the portal : [Microsoft.SQL](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftsql)/servers/databases/auditRecords/read
     -   Additional permissions for storage account behind VNet:
 
         On the storage account: `Microsoft.Authorization/roleAssignments/write`
 
-    -   Additional permissions for auditing to Azur Monitor:
+    -   Additional permissions for Auditing to Azure Monitor:
 
         -   [Microsoft.Insights](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftinsights)
         /DiagnosticSettings/*
@@ -113,16 +113,16 @@ After Auditing is configured, follow these recommendations to monitor, generate 
 
 -   Using the Audit Logs
 
-    -   Use the [Azure portal](https://portal.azure.com/). Open the relevant database. At the top of the database's **Auditing** page, select **[View audit logs](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#subheading-3)**
+    -   Use the [Azure portal](https://portal.azure.com/). Open the relevant database. At the top of the database's **Auditing** page, select [View audit logs](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#subheading-3)
     -   If you are planning to use TSQL please follow the document [Consuming audit logs though TSQL](https://docs.microsoft.com/sql/relational-databases/system-functions/sys-fn-get-audit-file-transact-sql?view=sql-server-ver15)
     -   For Managed Instance, create an audit using the following T-SQL:
         -   CREATE SERVER AUDIT [MyAudit] TO EXTERNAL_MONITOR WITH (OPERATOR_AUDIT = ON)
 
 -   More Tutorials and workshop:
 
-    -   Playlist: [Azure SQL for Beginners](https://aka.ms/azuresql4beginners)
-    -   [View Code on GitHub](https://aka.ms/asqlworkshop​)
-    -   [Live Bootcamp](https://aka.ms/azuresqlbootcamp)
+    -   Playlist: [Azure SQL for Beginners](https://aka.ms/azuresql4beginners) This video series covers the challenges, solutions, and key benefits to Azure SQL.  For the full Azure SQL Fundamentals learning path on Microsoft Learn, [Azure SQL Fundamentals](https://aka.ms/azuresqlfundamentalsyt)    
+    -   Select workshop based on your requirement and [View Code on GitHub](https://aka.ms/asqlworkshop​)
+    -   Learn live from Azure SQL DB [Live Bootcamp](https://aka.ms/azuresqlbootcamp)
 
 ## Limitations:
 
