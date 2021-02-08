@@ -54,13 +54,13 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Nodejs;Javascript;api",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
       "longDescription": "",
-      "shortDescription": "How to with Azure Cosmos DB Cassandra API, including Data Migration",
+      "shortDescription": "How-to with Azure Cosmos DB Cassandra API, including Data Migration",
       "searchTags": "cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
