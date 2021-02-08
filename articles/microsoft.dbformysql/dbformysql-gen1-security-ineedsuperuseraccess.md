@@ -17,7 +17,7 @@
 
 # Managing permissions in Azure Database for MySQL Single Server
 
-User permissions for database user are managed through the MySQL built-in user management capabilities. Users can be created through SQL statements or tools like MySQL Workbench. Super user access cannot be granted in the managed service.
+Permissions for database users are managed through the MySQL built-in user management capabilities. Users can be created through SQL statements or tools like MySQL Workbench. Super user access cannot be granted in the managed service.
 
 ### **Fix it yourself**
 
