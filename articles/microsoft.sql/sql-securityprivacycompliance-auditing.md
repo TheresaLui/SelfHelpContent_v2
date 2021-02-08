@@ -17,7 +17,7 @@
 
 # Auditing and Monitoring
 
-## **Auditing Overview:**
+## Auditing Overview:
 
 Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
