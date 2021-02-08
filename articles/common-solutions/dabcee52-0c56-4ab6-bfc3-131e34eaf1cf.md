@@ -14,7 +14,9 @@
 
 ## **Recommended Documents**
 
-* [Tutorial: Create a host pool with Azure portal](https://https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace)
+* [Review Windows Virtual Desktop FAQ](https://docs.microsoft.com/azure/virtual-desktop/faq)
 * [Ensure you have a validation host pool set up](https://docs.microsoft.com/azure/virtual-desktop/create-validation-host-pool)
-* [Windows Virtual Desktop Environment](https://docs.microsoft.com/azure/virtual-desktop/environment-setup)
-* [Review our roadmap for upcoming new features](https://www.microsoft.com/microsoft-365/roadmap?filters=Windows%20Virtual%20Desktop)
+* [Review required URL list](https://docs.microsoft.com/azure/virtual-desktop/safe-url-list)
+
+* [Learn about: Windows Virtual Desktop Environment](https://docs.microsoft.com/azure/virtual-desktop/environment-setup)
+* [Tutorial: Create a host pool with Azure portal](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace)

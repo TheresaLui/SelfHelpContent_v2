@@ -19,11 +19,10 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 <!--issueDescription-->
 
-Dear customer, 
+Dear customer,
 
 Thank you for contacting us on your ExpressRoute issue. Through our troubleshooting process we're suspecting a configuration or layer 2 issues. Please ensure that the VLAN and Interface configuration is correct on both your end and your provider end. Also verify layer 2 connectivity is intact from the provider. 
 
 Best Regards, 
 
 <!--/issueDescription-->
-

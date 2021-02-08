@@ -19,10 +19,7 @@
 
 <!--issueDescription-->
 
-Dear customer,<br>
-<br>
 We will continue the investigation with our Dev team on this issue.<br>
-Best regards,<br>
 
 <!--/issueDescription-->
 

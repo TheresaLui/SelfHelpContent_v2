@@ -20,17 +20,13 @@
 <!--issueDescription-->
 
 For O365 app use the template: <br>
-Dear customer, <br>
 <br>
 As MCAS consume the acvitites from the source app, we will need to open a collab with the relveant support team and update you ASAP. Please export the raw data from the relevant activity, and this will help us to explain the support of the source app, which activity need to be clarified. After we'll open the collab, they will reach you for further investigation.<br>
-Best reagrds,<br>
 <br>
 <br>
 For 3rd party app use the template: <br>
-Dear customer, <br>
 <br>
 As MCAS consume the acvitites from the source app, we will need you to open a support ticket with the source app For further investigation. Please export the raw data from the relevant activity, and send it to them, this will help them to investigate the activity.<br>
-Best regards,<br>
 
 <!--/issueDescription-->
 

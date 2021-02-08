@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="6b7e304f-8ae6-4253-a631-bf92fa1e3241"
+	  articleId="c992e3f2-af67-4cdc-b4e9-00d479d03291"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 

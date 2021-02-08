@@ -28,4 +28,3 @@ ownershipId="CloudNet_AzureExpressRoute"
 * Alternatively, you can also search **Syslog** table. Example queries *(replace with respective Timestamp, Device Name and filter with VRF name or Peer IP address)* :
   * [Kusto query example](https://dataexplorer.azure.com/clusters/aznwnetmon/databases/aznwmds?query=H4sIAAAAAAAAAwuuLM7JT+eqUSjPSC1KVQgoSk3OLE4NycxNDS5JzC1QsFNITM/XMM3VhCtxSS3LTE5VsLVVUKqoqNDNywORIGyopJBfhFvaSElBX78otSAnEShdnlmSoVCSkaqQAlFekJhZBACyjtm+iwAAAA==)  
   * [Jarvis Logs example](https://jarvis-west.dc.ad.msft.net/logs/dgrep?page=logs&be=DGrep&offset=-1&offsetUnit=Minutes&UTC=true&ep=Diagnostics%20PROD&ns=NetMon&en=Syslog&conditions=[["Device","contains",""]]&chartEditorVisible=true&chartType=Line&chartLayers=[["New%20Layer",""]]%20)
-

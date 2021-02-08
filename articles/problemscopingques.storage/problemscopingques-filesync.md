@@ -18,6 +18,11 @@
     "resourceRequired": true,
     "title": "Storage File Sync scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File Sync Errors - Troubleshooting and Remediation",
+        "description": "The Azure File Sync troubleshooter can help remediate File sync issues. Use the below diagnostic to search the file sync error observed in the portal. For example search error code 0x8007007B",
+        "insightNotAvailableText": "Our troubleshooter did not identify remediation for your issue. See the recommended documentation link to troubleshoot your issue"
+    },
     "formElements": [
         {
             "id": "file_sync",
@@ -49,7 +54,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Sync Group Name",
-            "watermarkText": "Enter Sync Group Name else enter Not Applicable",
+            "watermarkText": "Enter Sync Group Name or else enter Not Applicable",
             "required": true
         },
         {
@@ -57,7 +62,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "File Sync errors",
-            "watermarkText": "Select File Sync error",
+            "watermarkText": "Search File Sync error. Example search 0x8007007B",
             "dropdownOptions": [
                 {
                     "value": "0x80C8300F",
@@ -119,14 +124,16 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
+             "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint and error message.",
+            "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint, and error message.",
             "required": true,
             "useAsAdditionalDetails": true
         },

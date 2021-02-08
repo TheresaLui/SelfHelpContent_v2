@@ -27,5 +27,3 @@ ownershipId="CloudNet_AzureExpressRoute"
 * Check the connectivity between the BGP peers. Its possible that the link between both the BGP peer was unstable.
 * If issue persist then run continuous ping between the peers and check for any packet drops. If this message is seen between MSEE and Customer edge device, then check with customer for link stability from their end.
 * In case this message seen between MSEE and Gateway peer, then check for any maintenance on respective Gateway tenants. NetVMA should be a good starting place for this, you can enter deployment id of the Gateway or just enter service key of the circuit and check respective details.
-
-

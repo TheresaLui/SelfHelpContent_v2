@@ -18,12 +18,13 @@
 
 ## **Recommended Steps**
 
-For errors like "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace.", the root cause is authentication. **Deploy Web Service [Classic]** is recommended. When users in multiple tenants and one or more tenants required MFA (multi-factor authentication), this error might occur. There are two ways to fix this:
+For errors like *"Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace."*, the root cause is authentication. When users in multiple tenants and one or more tenants required MFA (multi-factor authentication), this error might occur. You can check whether your account is in multiple tenants by clicking *Switch directory* in your profile in [Azure portal](https://ms.portal.azure.com).
 
-    - Create a new account in your target tenant (where your workspace belongs to)
-    - Or one existing account which only exists in the target tenant, invite this account to your studio workspace and assign proper role to it in your subscription
+There are two ways to fix this:
 
-Then try to login to your studio workspace use this account and deploy webservice to see if it works.
+- Try to **Deploy Web Service [Classic]** instead of Web Service [New].  
+
+- Use one existing account or create a new account which **disable MFA** in your target tenant (where your workspace belongs to. Then try to login to your studio workspace use this account and deploy webservice to see if it works.
 
 ## **Recommended Documents**
 

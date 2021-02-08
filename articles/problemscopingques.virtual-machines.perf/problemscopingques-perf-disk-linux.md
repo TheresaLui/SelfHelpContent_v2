@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Check for VM disk throttling",
-        "description": "We can check for VM disk performance throttling instances for your VM.",
+        "description": "We can check your VM for VM disk performance issues.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
