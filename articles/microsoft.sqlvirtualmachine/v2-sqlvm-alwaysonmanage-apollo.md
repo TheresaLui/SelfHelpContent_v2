@@ -144,6 +144,8 @@ This can happen if the following conditions are present:
   * [Configure an Availability Group using Azure portal preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
 
+:::Section Recommended Documents:::
+
 ## **Recommended Documents**
 
 - [Monitor and troubleshoot Always On Availability Groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support) Availability Groups
