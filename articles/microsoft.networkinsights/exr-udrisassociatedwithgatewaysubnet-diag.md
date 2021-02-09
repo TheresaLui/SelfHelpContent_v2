@@ -19,7 +19,7 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 # ExpressRoute Gateway Subnet has UDR Applied
 <!--issueDescription-->
-We have identified user-defined routes (UDR) <!--$UDRStrings-->**UDRStrings** <!--/$UDRStrings--> in the gateway subnet of your ExpressRoute virtual network gateway <!--$GatewayName-->**GatewayName** <!--/$GatewayName-->. UDR with a 0.0.0.0/0 destination in the gateway subnet are not supported.
+We have identified user-defined routes (UDR) <!--$UDRStrings-->**UDRStrings** <!--/$UDRStrings--> in the gateway subnet of your ExpressRoute virtual network gateway <!--$GatewayName-->**GatewayName**<!--/$GatewayName-->. UDR with a 0.0.0.0/0 destination in the gateway subnet are not supported.
 <!--/issueDescription-->
 ## **Steps to Resolve Issue:**
 
