@@ -23,12 +23,11 @@ Apollo, see the **Overview**.
 | **Body** | **Yes** | Main canvas of the article. **At minimum** , must contain **an**** introduction **and** one solution component:
 |          |         |- Diagnostics
 |          |         |- Azure Monitor charts
-- Video solutions
-- Images
-- Procedures
-- Tables
-- AzureKB article links
-
+|          |         |- Video solutions
+|          |         |- Images
+|          |         |- Procedures
+|          |         |- Tables
+|          |         |- AzureKB article links
  |
 
 ## Properties section
@@ -200,7 +199,7 @@ Provide a comma-separated list of SymptomIds for the diagnostics to be run. The 
 
 **Schema example:**
 
-\&lt;Insight\&gt;
+<Insight>
 
 \&lt;symptomId\&gt;CannotRdpFirewall, CannotRDPPassword\&lt;/symptomId\&gt;\&lt;br\&gt;
 
