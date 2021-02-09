@@ -19,13 +19,15 @@
 
 # Troubleshooting errors while creating Database Migration Service instance
 
-## Create Service Errors
+Most users can resolve issues and error messages that occur when creating a Database Migration Service instance by using the following information.
+
+**Create Service Errors**
 
 **Error:** 
 
-* *"SubnetWithExternalResourcesCannotBeUsedByOtherResources"* 
-* *"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."*
-* *"You need to ***delete these external resources*** before deploying into this subnet."*
+* "SubnetWithExternalResourcesCannotBeUsedByOtherResources" 
+* "xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."
+* "You need to ***delete these external resources*** before deploying into this subnet."
 
 ## **Recommended Steps**
 
@@ -33,13 +35,13 @@
 
 **Error message contains some of the following text:**
 
-* *The provisioning of deployment for service failed. The Azure Database Migration Service could not be provisioned. One common cause is that the Azure Virtual Network (VNet) does not have internet access due to firewall restrictions. Your VNet Network Security Group (NSG) rules cannot block the following communication ports: 53, 443, 445, 1433, 9354, 12000.*
-* *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
-* *Download of configuration content from GCS failed.*
-* *Thread running configuration downloader exited, but configuration file was not downloaded.*
-* *Failed to download the configuration for MA; cannot start Agent.*
-* *Error message: "Command execution finished, but failed because it returned a non-zero exit code of: '1'."
-The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx).*
+* The provisioning of deployment for service failed. The Azure Database Migration Service could not be provisioned. One common cause is that the Azure Virtual Network (VNet) does not have internet access due to firewall restrictions. Your VNet Network Security Group (NSG) rules cannot block the following communication ports: 53, 443, 445, 1433, 9354, 12000.
+* "VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."
+* Download of configuration content from GCS failed.
+* Thread running configuration downloader exited, but configuration file was not downloaded.
+* Failed to download the configuration for MA; cannot start Agent.
+* Error message: "Command execution finished, but failed because it returned a non-zero exit code of: '1'."
+The command had an error output of: `actual size (xxxxxx) expected size (xxxxxx)`
 
 ## **Recommended Steps** 
 
@@ -65,7 +67,7 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
   - Log in to the VM and try this URL from a browser: https://gcs.prod.monitoring.core.windows.net/
   - The content of the web page should be a response from the API like this:
 
-	*{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''*
+	`{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''`
   
   - If you get an error such as "Page Not Found 404", this means that the firewall config on your network is blocking the endpoints. Contact your network or firewall administrator to identify the IPs/ports that are blocked.
   - If you're able to hit the endpoint and view the content, continue to file the support ticket.
@@ -78,8 +80,8 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 **Error:** 
 
-* *"ServiceProvisioningDisabledException"*
-* *"The service could not be provisioned. Please contact Microsoft with error code 'xxxx-<region_name>'"*
+* "ServiceProvisioningDisabledException"
+* "The service could not be provisioned. Please contact Microsoft with error code `xxxx-<region_name>`"
 
 ## **Recommended Steps** 
 
@@ -87,7 +89,7 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 **Error:** 
 
-* *"ResourceNotPermittedOnDelegatedSubnet"*<br>
+* "ResourceNotPermittedOnDelegatedSubnet"<br>
 
 ## **Recommended Steps** 
 
