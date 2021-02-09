@@ -27,11 +27,11 @@ Are you facing one of these common problems?
 	Add a **dotnet restore** step before the build step which will complete the restore before the build and add the **--no-restore** argument to the build step.
 
 
-* Build jobs in Azure DevOps are failing to access Nuget Packages in Artifact feed. 
+* Build jobs in Azure DevOps are failing to access Nuget Packages in Artifact feed
 
-	 Ensure the **Allow project-scoped builds** option is enabled in the Artifact feed settings
+	 Ensure the **Allow project-scoped builds** option is enabled in the **Artifact feed** settings
 
-* Within release pipelines, I no longer seem to be able to select a single artifact to download.
+* Within release pipelines, I can no longer select a single artifact to download
 
 	This might be a UI issue. Try out in different browsers. In most cases, the options are misplaced and will be moved to the bottom of the page. 
 
@@ -41,7 +41,7 @@ Are you facing one of these common problems?
 
 * NuGet push task fails on lacking permissions
     
-    In such scenarios, build identity will not have permissions on that feed. The default Contributor group '[team]\Project Collection Build Service Accounts' apparently does not include the 'Project Collection Build Service' as a member using the default settings. Adding the 'Project Collection Build Service' account directly fixes this issue.
+    In such scenarios, the build identity will not have permissions on that feed. The default Contributor group `[team]\Project Collection Build Service Accounts`  does not include the **Project Collection Build Service** as a member. Add the **Project Collection Build Service** account to fix this issue.
 
 * I would like to consume the generated artifacts from a specific build in another YAML pipeline
 
@@ -49,8 +49,8 @@ Are you facing one of these common problems?
 
 * I need guidance on using the Azure Artifacts in Azure Pipelines
 
-	You can refer to tutorials for publishing & consuming Artifact feeds on the following packages
-    - [NuGet](https://docs.microsoft.com/azure/devops/artifacts/get-started-nuget?view=azure-devops)
+	Refer to tutorials for publishing and consuming Artifact feeds on the following packages:
+        - [NuGet](https://docs.microsoft.com/azure/devops/artifacts/get-started-nuget?view=azure-devops)
 	- [npm](https://docs.microsoft.com/azure/devops/artifacts/get-started-npm?view=azure-devops&tabs=windows)
 	- [maven](https://docs.microsoft.com/azure/devops/artifacts/get-started-maven?view=azure-devops)
 	- [python](https://docs.microsoft.com/azure/devops/artifacts/quickstarts/python-packages?view=azure-devops)
