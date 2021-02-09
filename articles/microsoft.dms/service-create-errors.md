@@ -45,7 +45,7 @@ The command had an error output of: `actual size (xxxxxx) expected size (xxxxxx)
 
 ## **Recommended Steps** 
 
-* This error occurs most often when the VNet selected to create the DMS instance is blocking connectivity to the [metrics and health monitoring end point](https://gcs.prod.monitoring.core.windows.net) and/or blocking the following communication ports: 443, 53, 9354, 445, 12000.
+* This error occurs most often when the VNet selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point and/or blocking the following communication ports: 443, 53, 9354, 445, 12000.
 * If your DMS subnet is using NSG, make sure that the required outbound NSG rules are added, specifically the outbound rules allowing traffic on port 443 for service tags of Azure Monitor, Service Bus, and Storage. Your NSG should look similar to the following:
 
 	| Priority | Name | Port | Protocol | Source | Destination | Action |
