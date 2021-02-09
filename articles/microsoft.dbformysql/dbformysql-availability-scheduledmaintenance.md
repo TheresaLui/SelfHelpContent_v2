@@ -21,8 +21,8 @@ Most users can address the issues they encounter by considering the following po
 
 * You can define different maintenance schedules for each flexible server in your Azure subscription.
 * When specifying preferences for the maintenance schedule, you can pick a day of the week and a time window. If you don't specify, the system will pick times between 11pm and 7am in your server's region time.
-* You can have notifications about upcoming scheduled maintenance emailed to a specific address or to an Azure Resource Manager Role, sent in a text message (SMS) to mobile devices, pushed as a notification to an Azure app, or delivered as a voice message.
-* Normally there are at least 30 days between successful scheduled maintenance events for a server. However, in case of a critical emergency update, such as that to update a severe vulnerability, the notification window could be shorter than five days. A critical update can be applied to your server even if a successful scheduled maintenance was performed within the last 30 days.
+* You can receive email or text (SMS) notifications about upcoming scheduled maintenance. Specify an email address, Azure Resource Manager Role, mobile device, or Azure app.
+* Normally there are at least 30 days between successful scheduled maintenance events for a server. However, in case of a critical emergency update, such as that to update a severe vulnerability, the notification window can be shorter than five days. A critical update can be applied to your server even if a successful scheduled maintenance was performed within the last 30 days.
 
 ## **Recommended documents**
 
