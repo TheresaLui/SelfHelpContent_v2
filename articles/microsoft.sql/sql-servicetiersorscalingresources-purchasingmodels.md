@@ -1,13 +1,13 @@
 <properties
-	pageTitle="create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)"
-	description="create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)"
+	pageTitle="sql-servicetiersorscalingresources/purchasing models (DTU, vCore, reserved capacity, etc)"
+	description="sql-servicetiersorscalingresources/purchasing models (DTU, vCore, reserved capacity, etc)"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa,andikshi"
-    ms.author="emlisa,andikshi"
+	authors="andikshi"
+    ms.author="andikshi"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32630449"
+	supportTopicIds="32632131"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="48307c17-7e37-4428-80e9-b3a30fdfa4dd"
@@ -16,18 +16,20 @@
 
 # create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)
 
-### Types of purchasing models
+[[_TOC_]]
 
-* DTU-based
+** If you have already tried to scale a database or elastic pool and are facing issues (operation is long running , stuck , or have general questions), please go back to the Previous:Basics tab and select the Problem subtype(last drop down) to be Issues scaling a database or elastic pool. **
 
-	This model is best for  Customers who want simple, preconfigured resource options. It is based on a bundled measure of compute, storage, and I/O resources. Compute sizes are expressed in DTUs for single databases and in elastic database transaction units (eDTUs) for elastic pools. For more information about DTUs and eDTUs, see [What are DTUs and eDTUs?](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models#dtu-based-purchasing-model).	
+## Moving between service tiers
 
-* vCore-based
-		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
+You can easily convert your database to any supported performance objective (DTU to VCore and visa versa) by using the Azure portal, PowerShell, the Azure CLI, T-SQL, or the REST API. You don't need to take the application offline. The service tiers offer a simple online-conversion method that's similar to the existing process of upgrading databases from the standard to the premium service tier and the other way around.
 
-### Upgrade to latest version of SQL
+See [Manage single databases](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale) and [Manage elastic pools](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale).
 
-Azure SQL database always uses the latest version of SQL Server. The version cannot be manually configured and is managed by us to keep up with the latest updates. 
+## Pricing and cost analysis
+
+* For more information on pricing visit the [pricing](https://azure.microsoft.com/pricing/details/sql-database/single/) page.
+* Azure Cost Management helps you set budgets and configure alerts to keep spending under control. Analyze, manage, and optimize your costs with Cost Management. To learn more, see the [quickstart on analyzing your costs](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal).
 
 ### Automate management of databases
 
@@ -65,9 +67,14 @@ If you are facing issues while choosing a particular service tier, it could be d
 	* Clear your browser cache. 
 	* Re-login into your portal.
 
-### Questions regarding the deprecation of Premium RS?
+### Choosing between service tiers
 
-[This article](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-prs?WT.mc_id=pid:13491:sid:32630449/) explains how to migrate a database or elastic pool from Premium RS to a different service tier, and provides guidance on how to choose a service tier comparable to the Premium RS tier you're currently using.
+* DTU-based
+
+	This model is best for  Customers who want simple, preconfigured resource options. It is based on a bundled measure of compute, storage, and I/O resources. Compute sizes are expressed in DTUs for single databases and in elastic database transaction units (eDTUs) for elastic pools. For more information about DTUs and eDTUs, see [What are DTUs and eDTUs?](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models#dtu-based-purchasing-model).	
+
+* vCore-based
+		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
 
 ## **Recommended Documents**
 
