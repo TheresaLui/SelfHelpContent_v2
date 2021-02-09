@@ -20,14 +20,14 @@ Apollo, see the **Overview**.
 | **Properties** | **Yes** | Contains the metadata of the article |
 | **Internal title** | **Yes** | Internal only (not customer-facing) component used by the Azure self-help portal |
 | **Customer-facing title** | **Yes** | Provides context for your Apollo solution |
-| **Body** | **Yes** | Main canvas of the article. **At minimum** , must contain **an**** introduction **and** one solution component: * Diagnostics * Azure Monitor charts * Video solutions
-| --- | --- |- Diagnostics
-| --- | --- |- Azure Monitor charts
-| --- | --- |- Video solutions
-| --- | --- |- Images
-| --- | --- |- Procedures
-| --- | --- |- Tables
-| --- | --- |- AzureKB article links
+| **Body** | **Yes** | Main canvas of the article. **At minimum** , must contain an introduction and one or more solution components: Diagnostics, Azure Monitor charts, Video solutions, Images, Procedures, Tables, and AzureKB article links
+| Diagnostics
+| Azure Monitor charts
+| Video solutions
+| Images
+| Procedures
+| Tables
+| AzureKB article links
  
 
 ## Properties section
