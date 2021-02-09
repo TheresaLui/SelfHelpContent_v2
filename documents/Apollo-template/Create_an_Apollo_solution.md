@@ -97,7 +97,7 @@ as your canvas where you can place any combination of content and solution compo
 - For a **how-to article** , the body contains **conceptual** or **procedural** information (in text or video).
 
 ## Introduction
-
+  
 In every article, explicitly state how the solution addresses a particular problem, or summarize the article. 
 The introduction sets context and expectations for your customer and reassures them that they are on the correct page.
 
