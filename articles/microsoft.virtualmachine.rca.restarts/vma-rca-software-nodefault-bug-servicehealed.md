@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software - NodeFault - Bug - Service Healed"
+	description="Root Cause Analysis (RCA) - Software - Bug - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -41,7 +41,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/additionalInfo-->
 <!--/rcaDescription-->
 
-<!--recommendedActions-->## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Steps**
 > To check if SLA was violated: 
 > * [SLA for Virtual Machines](https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_8)
 > 

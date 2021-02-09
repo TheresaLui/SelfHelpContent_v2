@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeCrash - Guest OS - Windows"
+	description="Root Cause Analysis (RCA) - Software - Guest OS - Windows"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -41,7 +41,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
-<!--recommendedActions-->## **Recommended Steps**
+<!--recommendedActions-->
+## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. More information on stop errors and how to analyze them can be found here:
 > 

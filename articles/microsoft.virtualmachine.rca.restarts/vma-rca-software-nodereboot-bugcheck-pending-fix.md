@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software - NodeReboot - Bugcheck Pending Fix"
+	description="Root Cause Analysis (RCA) - Software - Bugcheck Pending Fix"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
