@@ -30,7 +30,7 @@
             "infoBalloonText": ""
         },
         {
-            "id": "sq_2",
+            "id": "language",
             "order": 2,
             "required": true,
             "controlType": "DropDown",
@@ -58,8 +58,26 @@
             ]
         },
         {
-            "id": "sq_3",
+            "id": "yarn_app_id",
             "order": 3,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What was the 'Yarn Application ID'?",
+            "watermarkText": "eg. application_123456789012_0001",
+            "infoBalloonText": "You can find this info from Synapse Studio"
+        },
+        {
+            "id": "livy_job_id",
+            "order": 4,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What was the 'Livy Job ID'?",
+            "watermarkText": "",
+            "infoBalloonText": "You can find this info from Synapse Studio"
+        },
+        {
+            "id": "error_message",
+            "order": 5,
             "required": false,
             "controlType": "textbox",
             "displayLabel": "If an error was displayed, what was the error message?",
@@ -68,7 +86,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
