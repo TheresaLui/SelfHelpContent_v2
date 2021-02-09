@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="ambhatna"
-    ms.author="ambhatna"
+    ms.author="ambhatna,bahusse"
     displayOrder="340"
     selfHelpType="generic"
     supportTopicIds="32747572"
@@ -19,12 +19,24 @@
 
 Most users are able to resolve their issue using the steps below.
 
-## **Recommended Steps**
+#### **Fix it yourself**
 
-* The *Replica lag* metric doesn't show any data: The **Replica Lag** metric is only applicable to replica servers. For each replica, this metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric.
-* The *Replica Lag* metric is showing high replication lag: refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency).
-* The *Replica lag* metric is increasing: Confirm if the configuration of the replica server matches the master. For example, if you have increased the master's vCores, ensure the replica server's vCores are equal or greater than the source.
-* Azure Database for MySQL uses **ROW** based binary logging. If your table is missing a primary key, all rows in the table are scanned for DML operations. This causes increased replication lag. To ensure that the replica is able to keep up with changes on the source, we generally recommend adding a primary key on tables in the source server before creating the replica server or re-creating the replica server if you already have one.
+**Troubleshooting replication lag?** Review [Common scenarios for high replication latency](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency#common-scenarios-for-high-replication-latency) and pay special attention to binlog_group_commit_sync_delay parameter which controls how many microseconds the binary log commit waits before synchronizing the binary log file.
+
+**Does all your tables have primary keys?** Azure Database for MySQL uses **ROW** based binary logging. If your table is missing a primary key, all rows in the table are scanned for DML operations. This causes increased replication lag. To ensure that the replica is able to keep up with changes on the source, we generally recommend adding a primary key on tables in the source server before creating the replica server or re-creating the replica server if you already have one.
+
+>[!Note]
+> High resource utilization and specifically IOPS which are Intensive Write causes multiplication of binlog files and replaying of these files on Read Replica slow down the overall replication performance and subsequently might break replication.
+
+Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
+
+**Replica lag metric doesn't show any data?** Replica Lag metric is only applicable to replica servers. For each replica, this metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric.
+
+**Replica Lag metric is showing high replication lag?** refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency).
+
+**Replica lag metric is increasing?** Confirm if the configuration of the replica server matches the master. For example, if you have increased the master's vCores, ensure the replica server's vCores are equal or greater than the source.
+
+
 
 ## **Recommended Documents**
 
