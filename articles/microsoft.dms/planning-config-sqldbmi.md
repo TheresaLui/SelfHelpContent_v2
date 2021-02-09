@@ -21,7 +21,9 @@
 
 Most users can perform planning and configuration for SQL DB Managed Instance migrations, and resolve related issues, by using the following information. 
 
-**For information on setting up database migration to Azure SQL Database Managed Instance in online mode, see the following documentation:**
+**For information on setting up database migration to Azure SQL Database Managed Instance in online mode:**
+
+## **Recommended Documents**
 
 * [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)<br>
 * [PowerShell script for MI online migration](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-managed-instance-powershell-online)
@@ -32,6 +34,8 @@ Most users can perform planning and configuration for SQL DB Managed Instance mi
 
 **For information on setting up database migration to Azure SQL Database Managed Instance in offline mode, see the following documentation:**
 
+## **Recommended Documents**
+
 * [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)<br>
 * [PowerShell script for MI offline migration](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-managed-instance-powershell-offline)
 * [Blog: Migration from SQL Server to Azure SQL Database Managed Instance](https://blogs.technet.microsoft.com/hybridcloudbp/2018/11/02/migration-from-sql-server-to-azure-sql-database-managed-instance)<br>
@@ -40,6 +44,8 @@ Most users can perform planning and configuration for SQL DB Managed Instance mi
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
 **For information on Migration Project and Activity Configuration, see the following documentation:**
+
+## **Recommended Documents**
 
 * [How to create a File Share for MI migration](https://docs.microsoft.com/azure/dms/known-issues-azure-sql-db-managed-instance-online#smb-file-share-connectivity)<br>
 * [SQL Server to SQL DB managed instance offline](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#create-a-migration-project)<br>
