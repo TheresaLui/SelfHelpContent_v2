@@ -25,33 +25,30 @@ Most customers can resolve VM Agent issues by using the following steps. If the 
 
 ## **Recommended Steps**
 
-**Note**: We recommend following the troubleshooting steps to identify the problem, and then performing the remediation steps, before opening a support ticket.
-
-For the VM **<!--$vmname-->[vmname]<!--/$vmname-->**, you can start troubleshooting VM Agent issues in the [VM overview blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) and check for "Agent Status" property. If the "Agent Status" reflects an unknown or unhealthy state the below steps may help. (The "Agent Status" property will only display if the VM is running.)
+For the VM **<!--$vmname-->[vmname]<!--/$vmname-->**, you can start troubleshooting VM Agent issues in the [VM overview blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) and check the `Agent Status` property. If the `Agent Status` reflects an unknown or unhealthy state, the following steps can help. (The "Agent Status" property will display only if the VM is running.)
 
 ### Critical VM Agent Services
 
-The VM that is migrated to Azure from on-premises or that is created by using a customized image doesn't have Linux Guest Agent installed. In these scenarios, you have to manually install the VM agent. For more information about how to install the VM Agent, see [How to update, install Linux Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent)
+A VM that's migrated to Azure from on-premises or that's created by using a customized image doesn't have Linux Guest Agent installed. In these scenarios, you need to manually install the VM agent. See [How to update or install Linux Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent)
 
-The Linux agent depends on some system packages in order to function properly:
+To function properly, the Linux agent depends on the follow system packages:
 
 * Python 2.6+
 * OpenSSL 1.0+
 * OpenSSH 5.3+
-* Filesystem utilities: sfdisk, fdisk, mkfs, parted
-* Password tools: chpasswd, sudo
-* Text processing tools: sed, grep
-* Network tools: ip-route
-* Kernel support for mounting UDF filesystems.
+* Filesystem utilities: `sfdisk`, `fdisk`, `mkfs`, `parted`
+* Password tools: `chpasswd`, `sudo`
+* Text processing tools: `sed`, `grep`
+* Network tools: `ip-route`
+* Kernel support for mounting UDF filesystems
 
 
-### Checked connectivity to Wireserver?
+### Check connectivity to Wireserver
 
-* Check whether the Azure Linux Guest Agent service is running. [More info](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/linux-azure-guest-agent#step-1-check-whether-the-azure-linux-guest-agent-service-is-running)
+* [Check whether the Azure Linux Guest Agent service is running](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/linux-azure-guest-agent#step-1-check-whether-the-azure-linux-guest-agent-service-is-running)
 * Because the WireServer IP is not reachable, connect to the VM by using SSH, and then try to access the following URL from curl: http://168.63.129.16/?comp=versions
 * Check for any issues that might be caused by a firewall, a proxy, or other source that could be blocking access to the IP address 168.63.129.16.
-* Check whether Linux IPTables or a third-party firewall is blocking access to ports 80, 443, and 32526. For more information about why this address should not be blocked, see What is IP address 168.63.129.16.
-
+* Check whether Linux `IPTables` or a third-party firewall is blocking access to ports 80, 443, and 32526. For more information about why this address should not be blocked, see What is IP address 168.63.129.16.
 
 ## **Recommended Documents**
 
