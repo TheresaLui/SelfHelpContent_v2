@@ -4,9 +4,9 @@
 	authors="TobyTu"
         ms.author="mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584250"
+	supportTopicIds="32584250,32785489,32785488"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="8766b9f2-62d3-4dc0-8b81-597d2b0535ed"
 	ownershipId="CloudNet_VirtualNetwork"
@@ -20,8 +20,8 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "VM Connectivity Troubleshooter",
-        "description": "Our VM Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+        "description": "Our VM Connectivity Troubleshooter can help you troubleshoot and solve your problem. You will find a list of VM(s) in the virtual network you selected before. Make sure that your VM is turned on (<a href='https://docs.microsoft.com/azure/virtual-machines/states-lifecycle#power-states'>Running Status</a>), or the tool won't detect the issue. The diagnostic takes about 30 seconds to complete.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Make sure that your VM is in the <a href='https://docs.microsoft.com/azure/virtual-machines/states-lifecycle#power-states'>Running Status</a> in the Azure portal. Or see our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
@@ -54,12 +54,12 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "From VM to Internet",
-                    "text": "From VM to Internet"
+                    "value": "From VM to internet",
+                    "text": "From VM to internet"
                 },
                 {
-                    "value": "From Internet to VM",
-                    "text": "From Internet to VM"
+                    "value": "From internet to VM",
+                    "text": "From internet to VM"
                 },
                 {
                     "value": "dont_know_answer",
@@ -85,8 +85,8 @@
                     "text": "443 (HTTPS)"
                 },
                 {
-                    "value": "20 & 21 (FTP)",
-                    "text": "20 & 21 (FTP)"
+                    "value": "21 (FTP)",
+                    "text": "21 (FTP)"
                 },
                 {
                     "value": "53 (DNS)",

@@ -19,15 +19,15 @@ Most users can resolve general questions about licensing by following the steps 
 * **Why do I see SQL Virtual Machine Resource? Who created it? Do I get billed for this?**<br>
 SQL Virtual Machine Resource Provider (RP) is a free resource that gives you management capability of the SQL VM from the portal. SQL VM RP is created when you deploy a SQL VM image. Azure can also create this resource automatically on an existing VM if a SQL instance is detected. There is no cost associated with SQL VM RP.
 
-* **Why I am unable to change licensing model or manage SQL server from Azure portal?**<br>
+* **Why am I unable to change licensing model or manage SQL server from Azure portal?**<br>
 If you are unable to change licensing model or manage SQL server from Azure portal, make sure that [SQL VM IaaS Extension is registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).
 
-* **Why I am unable to register the SQL VM IaaS Extension?**<br>
-   If you are [unable to register the SQL IaaS Extension)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli), check the prerequisites for SQL IaaS Extension - 
-   * SQL Server engine is installed as default instance or if there is no default instance there is only one named instance. SQL IaaS Extension does not work if there is no default instance and there are multiple named instances. 
-   * SQL instance is not evaluation edition
+* **Why am I unable to register the SQL VM IaaS Extension?**<br>
+   If you are [unable to register the SQL IaaS Extension)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli), check the prerequisites for the SQL IaaS Extension. 
+   * SQL Server engine is installed as the default instance if there is no default instance or there is only one named instance. SQL IaaS Extension does not work if there is no default instance and multiple named instances. 
+   * SQL instance is not the evaluation edition
 
-* **How do I estimate my cost for SQL Server on Azure VM? How do I reduce cost for SQL VM?**<br>
+* **How do I estimate my cost for SQL Server on Azure VM? How can I reduce the cost for SQL VM?**<br>
    Use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to configure and estimate the cost of SQL Server on Azure VM. For ways to reduce SQL VM cost, see [Reduce costs](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/pricing-guidance#reduce-costs).    
 
 * **Why am I getting charged even though the SQL instance is stopped or the Azure VM is stopped?**<br>
@@ -38,7 +38,7 @@ If you are unable to change licensing model or manage SQL server from Azure port
   
 * **How do I get installation media or the product key?**<br>
    * To get SQL Server installation media, use an existing SQL Server VM or deploy a SQL Server VM from the Azure marketplace that has the desired edition and version of SQL Server. The setup media is located at C:\SQLServerFull of the SQL VM. 
-   * To get the SQL Server setup product key, launch `setup.exe` from C:\SQLServerFull on the SQL Azure VM that has the desired edition and version, copy the product key that appears in the install process, and then exit the installer 
+   * To get the SQL Server setup product key, start `setup.exe` from C:\SQLServerFull on the SQL Azure VM that has the desired edition and version, copy the product key that appears in the install process, and then exit the installer 
 
 * **How do I upgrade or downgrade Edition or Version of a SQL VM?**<br>
    To upgrade or downgrade, follow the instructions in [change the SQL edition](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition) or [change the SQL version](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version).     
@@ -54,9 +54,9 @@ If you are unable to change licensing model or manage SQL server from Azure port
 
 * **How can I determine the license type of my SqlVirtualMachine resources?**<br>
    Run the following PowerShell command:   
-   `(Get-AzureRmResource -ResourceName <vm_name> -ResourceGroupName <resource_group> -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;` 
+   ```(Get-AzureRmResource -ResourceName vm_name -ResourceGroupName resource_group -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;```
      
 ## **Recommended Documents** 
 
-* [Frequently Asked Questions (FAQ)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM 
+* [Frequently asked questions (FAQ)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM 
 * [Pricing guidelines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM

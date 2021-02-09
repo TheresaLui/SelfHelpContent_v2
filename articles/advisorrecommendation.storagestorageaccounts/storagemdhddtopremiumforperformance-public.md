@@ -2,7 +2,7 @@
     pageTitle="Convert Managed Disks from Standard HDD to Premium SSD"
     description="Convert Managed Disks from Standard HDD to Premium SSD"
     authors="xdataanalytics"
-    ms.author="yuriic"
+    ms.author="yinfan"
     articleId="e4fc6ecb-b3e8-4494-800f-547da6a57f28_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "00c14add-2aef-4bb4-a3bd-5759096d4417",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorMDHDDtoPremiumForPerformancePublic",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorMDHDDtoPremiumForPerformancePublic",
+    "dataSource": "Cosmos",
     "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/disks",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yuriic@microsoft.com",
     "icm": {

@@ -4,8 +4,8 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639982, 32780964"
-	productPesIds="16222,17067"
+	supportTopicIds="32639982, 32780964, 32731219"
+	productPesIds="16222,17067,17068"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-firewall"
@@ -57,7 +57,8 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "intermittent",
@@ -97,7 +98,8 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "vnet_rule",
@@ -132,7 +134,8 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -140,6 +143,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
             "required": true,
+			"diagnosticInputRequiredClients": "Portal",
             "useAsAdditionalDetails": true
         }
     ],

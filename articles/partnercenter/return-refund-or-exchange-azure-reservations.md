@@ -21,7 +21,7 @@
 
 **Please Note**
 
-- Support tickets for Azure consumption disputes should be created in the Azure portal. To create an Azure support ticket:
+- Azure Reservations exchanges and refunds can be done by following the steps described in this article [Self-service exchanges and refunds for Azure Reservations | Microsoft Docs](https://docs.microsoft.com/azure/cost-management-billing/reservations/exchange-and-refund-azure-reservations). For any help, a ticket should be created in the Azure portal. To create an Azure support ticket:
 
 ## **Recommended Steps**
 

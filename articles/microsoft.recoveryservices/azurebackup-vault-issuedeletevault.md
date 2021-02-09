@@ -19,11 +19,15 @@
 
 ## **Recommended Steps**
 
-* You can't delete a Recovery Services vault with any of the following dependencies:
-  
-  * Vault contains protected data sources (for example, IaaS VMs, SQL databases, Azure file shares, etc.)
-  * Vault contains backup data. Once backup data is deleted, it will go into the soft deleted state.
-  * Vault contains backup data in the soft deleted state
-  * Vault has registered storage accounts
-  
-* For **step-by-step instructions to permanently delete vault** refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)
+You cannot delete a vault that contains protected data sources, contains backup data (active or in soft deleted state) or has registered storage accounts. To delete the vault refer to below articles:<br>
+
+- [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)<br>
+- Check if soft deleted items are blocking vault delete and [learn how to disable it](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#disabling-soft-delete-using-azure-portal)
+- Check if backup infrastructure items are blocking vault delete by ensuring that no protected items are on the following path: <br>
+     **Vault - Backup infrastructure** under **Protected Servers** and **Storage Accounts** tab
+
+## **Recommended Documents**
+- How to stop backup/protection for:
+	- [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
+	- [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
+	- [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)
