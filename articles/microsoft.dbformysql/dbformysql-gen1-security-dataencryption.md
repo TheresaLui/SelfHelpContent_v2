@@ -47,7 +47,7 @@ az keyvault key show --vault-name keyVaultName -n keyName
 
 ### Infrastructure double Encryption
 * **Infrastructure double Encryption** is only available for the **General purpose** and **Memory optimized** SKU
-* For your General purpose and Memory optimized SKU does not have data encryption, ensure that your server has [large storage](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage)
+* For your General purpose and Memory optimized SKUs that do not have data encryption, ensure that your server has [large storage](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage)
 * You can set **Infrastructure double Encryption** for your Azure Database for MySQL from [the portal](https://docs.microsoft.com/azure/mysql/howto-double-encryption)
 * Currently, this feature is supported only in East US, South Central US, and West US. For more information, see [limitations](https://docs.microsoft.com/azure/mysql/concepts-infrastructure-double-encryption#limitations).
 
