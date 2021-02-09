@@ -11,7 +11,7 @@
   disableclouds=""
   articleid="dce07a0e-aabd-4d42-a5ae-cb3fa620cc54"
   ownershipid="AzureData_Purview" />
-# This is the title of the article. It is not displayed in the portal but is a required part of every article.
+# Delayed assets insight reports in Purview account 
 
 Most users are able to resolve issues with resource sets by using the following steps.
 
