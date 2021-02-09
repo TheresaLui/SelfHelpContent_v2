@@ -1,97 +1,116 @@
 # Authoring guidelines
 
-_[JR: In this doc, I have 3 comments re: links. The first two are TBA—after you&#39;ve done the TOC—and the last one (in comment) is one I didn&#39;t want you to miss. Also see my question (in comment) re: &quot;acceptable links&quot; (one of the last few bullets here).][BV: I revised the intro and added links to two topics (in red).]_
+_[JR: In this doc, I have 3 comments re: links. The first two are TBA—after you've
+done the TOC—and the last one (in comment) is one I didn't want you to miss. Also see
+my question (in comment) re: &quot;acceptable links&quot; (one of the last few bullets here).]
+[BV: I revised the intro and added links to two topics (in red).]_
 
-These authoring guidelines will familiarize you with the concepts of the voice, tone, and strategy of the Microsoft writing style. We urge you to read these guidelines to further your writing skills and and help you comply with company standards for customer-facing content.
+These authoring guidelines will familiarize you with the concepts of the voice, tone, and 
+strategy of the Microsoft writing style. We urge you to read these guidelines to further 
+your writing skills and and help you comply with company standards for customer-facing 
+content.
 
-When you&#39;re ready to get started with Apollo, go to **Create an Apollo solution** to learn about Apollo&#39;s unique article requirements. To decide on the Apollo solution that will best serve the customer for the issue you&#39;re addressing, review **Template and examples** , which covers the following solution examples:
+When you're ready to get started with Apollo, go to **Create an Apollo solution** to
+learn about Apollo's unique article requirements. To decide on the Apollo solution 
+that will best serve the customer for the issue you're addressing, review **Template and 
+examples** , which covers the following solution examples:
 
-- **Issue-based solution**  – Presents a single issue with a single solution, a single issue with multiple solutions, or multiple issues and solutions. You can state the issues directly, or, if the solution covers a range of issues, you can show the issues through diagnostics.
-- **How-to or conceptual solution**  – Provides step-by-step procedures and/or in-depth conceptual information, with the purpose of increasing the user&#39;s skill or knowledge for a specific issue or topic.
+- **Issue-based solution**  – Presents a single issue with a single solution, a single issue
+with multiple solutions, or multiple issues and solutions. You can state the issues directly,
+or, if the solution covers a range of issues, you can show the issues through diagnostics.
 
-At a minimum, the solution must contain substantive content that clearly addresses the issue or topic. If you don&#39;t meet this general minimum—for example, if you include links in the Resources section and nothing else in the body of the solution—the editors will return the solution to you for additional content.
+- **How-to or conceptual solution**  – Provides step-by-step procedures and/or in-depth
+conceptual information, with the purpose of increasing the user&#39;s skill or knowledge for
+a specific issue or topic.
 
-Writing strategy and style
+At a minimum, the solution must contain substantive content that clearly addresses the issue
+or topic. If you don't meet this general minimum—for example, if you include links in the
+Resources section and nothing else in the body of the solution—the editors will return the 
+solution to you for additional content.
 
-The purpose of our writing strategy and style is to present a solution with clear, concise content in a friendly, dynamic voice that engages the customer, while also meeting Microsoft style standards. The following tips will help you do this:
+## Writing strategy and style
+
+The purpose of our writing strategy and style is to present a solution with clear, concise 
+content in a friendly, dynamic voice that engages the customer, while also meeting Microsoft
+style standards. The following tips will help you do this:
 
 **Tone**  – We want our customers to feel that they&#39;ve reached a friendly expert. A conversational, informal tone, rather than a formal tone, helps to convey this. Strategies include addressing the user directly, using positive phrasing as much as possible, and using contractions instead of spelled-out verb phrases.
 
-**Example of a friendly, direct, positive****   ****voice**
+**Example of a friendly, direct, positive voice**<br>
+**Our style:**  You need an ID that looks like this: [someone@example.com]
+(mailto:someone@example.com). <br>
+**Not our style:**  Do not use an invalid ID.<br>
+**Note:**  If, in context, you need to emphasize that the user can't use an invalid ID and no
+example is needed, then "Do not use an invalid ID" or "Make sure not to use an invalid ID" is acceptable.
 
-**Our style:**  You need an ID that looks like this: [someone@example.com](mailto:someone@example.com).
-
-**Not our style:**  Do not use an invalid ID.
-**Note:**  If, in context, you need to emphasize that the user can&#39;t use an invalid ID and no example is needed, then &quot;Do not use an invalid ID&quot; or &quot;Make sure not to use an invalid ID&quot; is acceptable.
-
-**Example of contractions in verb phrases**
-**Our style: ** If you don&#39;t confirm that you&#39;ve received the message, you won&#39;t be able to proceed.
-**Not our style: ** If you do not confirm that you have received the message, you will not be able to proceed.
-**Note: ** Focus mainly on -n&#39;t contractions, such as &quot;isn&#39;t,&quot; &quot;don&#39;t,&quot; &quot;won&#39;t,&quot; &quot;haven&#39;t,&quot; and &quot;can&#39;t.&quot; Avoid contracting the verb &quot;is&quot; (&quot;The browser&#39;s fast, simple, and secure&quot;), which can be harder to read. Also avoid double contractions (&quot;You mightn&#39;t have...&quot;; instead, spell out &quot;You might not have...&quot;).
+**Example of contractions in verb phrases**<br>
+**Our style:** If you don't confirm that you've received the message, you won't be able to proceed.<br>
+**Not our style: ** If you do not confirm that you have received the message, you will not be able to proceed.<br>
+**Note: ** Focus mainly on -n't contractions, such as "isn't," "don't," "won't," "haven't," and "can't." 
+Avoid contracting the verb "is" (The browser's fast, simple, and secure&quot;), which can be harder to read. 
+Also avoid double contractions ("You mightn't have..."; instead, spell out "You might not have...").
 
 For more information, see Microsoft brand voice.
 
 
-**Voice and verbs**  – Use an active voice and active verbs rather than a passive voice and passive verbs. Active voice and verbs produce more concise sentences. Equally important, they directly engage the customer as the active agent (&quot;you,&quot; either explicitly or implicitly).
+**Voice and verbs** – Use an active voice and active verbs rather than a passive voice and passive verbs. 
+Active voice and verbs produce more concise sentences. Equally important, they directly engage the customer 
+as the active agent ("you," either explicitly or implicitly).
 
-**Example**
-**Our style: ** You query the service, and the server sends an acknowledgment.
-**Not our style: ** The service is queried, and an acknowledgment is sent.
+     **Example**<br>
+     **Our style: ** You query the service, and the server sends an acknowledgment.<br>
+     **Not our style: ** The service is queried, and an acknowledgment is sent.<br>
 
-**Exceptions:**
+     **Exceptions:**<br>
+     **It's acceptable to use passive voice and verbs in the following cases:**<br>
 
-**It&#39;s acceptable to use passive voice and verbs in the following cases: **
+     **To emphasize an object over an action**<br>
+     **Example:**  The file is saved.<br>
 
+     **To de-emphasize the subject or the actor**<br>
+     **Example:**  Over 50 conflicts were found in the file.<br>
 
-**To emphasize an object over an action**
-**Example:**  The file is saved.
+     **If the customer doesn't need to know who or what is responsible for the action**<br>
+     **Example:** The database was purged in January.
 
-**To de-emphasize the subject or the actor**
+**Imperative verbs**  – Use imperative verbs—direct commands to the user—whenever possible, omitting extra 
+words. This is the most concise verb form and also directly engages the customer.
 
-**Example:**  Over 50 conflicts were found in the file.
-
-**If the customer doesn&#39;t need to know who or what is responsible for the action**
-
-**Example: ** The database was purged in January.
-
-**Imperative verbs**  – Use imperative verbs—direct commands to the user—whenever possible, omitting extra words. This is the most concise verb form and also directly engages the customer.
-
-**Example**
-**Our style:**  &quot;Run the following command.&quot;
-
-**Not our style:**  &quot;You can run the following command&quot; OR &quot;The following command is run.&quot;
+      **Example**<br>
+      **Our style:**  "Run the following command."<br>
+      **Not our style:**  "You can run the following command" OR "The following command is run."
 
 
-**Verb tense**  – Use present tense, except where past or future tense is necessary. Consistent present tense is easier to read and less confusing than verb tense that shifts between present, past, and future. Try to avoid &quot;will.&quot;
+**Verb tense**  – Use present tense, except where past or future tense is necessary. Consistent present tense
+is easier to read and less confusing than verb tense that shifts between present, past, and future. Try to 
+avoid "will."
 
 
-**Example**
-**Our style: ** Send a query to the service. The server sends an acknowledgment.
+     **Example**<br>
+     **Our style:** Send a query to the service. The server sends an acknowledgment.<br>
+     **Not our style:** If you send a query to the service, the server will send an acknowledgment.<br>
+Try to avoid the hypothetical "would" which sounds less definite than present tense.
 
-**Not our style: ** If you send a query to the service, the server will send an acknowledgment.
+**Example**<br>
+**Our style:** If you send an unsubscribe message, the server removes you from the mailing list.<br>
+**Not our style:** If you send an unsubscribe message, the server would then remove you from the 
+mailing list.
 
-Try to avoid the hypothetical &quot;would,&quot; which sounds less definite than present tense.
-
-**Example**
-
-                 Our style: If you send an unsubscribe message, the server removes you from the mailing list.
-
-Not our style: If you send an unsubscribe message, the server would then remove you from the mailing list.
-
-\*  **Use sentence capitalization for all headings ** (capitalize only the first word). See [examples](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&amp;topicid=25357),
+* **Use sentence capitalization for all headings ** (capitalize only the first word). See [examples]
+(https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&amp;topicid=25357),
 
 
-\*  **Use &quot;select,&quot; not &quot;click.&quot;**  &quot;Select&quot; applies across all devices, whereas &quot;click&quot; is specific to mouse action.  
+* **Use "select," not "click."** "Select" applies across all devices, whereas "click" is specific to mouse action.  
+* **Don't use "please."**  You're providing information to a user seeking help, so "please" isn't necessary.
+* **Don't use Latin abbreviations or words.** Avoid common Latin abbreviations ("e.g., i.e.,"). 
+Instead, spell out "for example" and "that is" Also avoid Latin words such as "via" and "verbatim."
+In most instances of "via," you can use "through" instead.
 
-\*  **Don&#39;t use &quot;please.&quot;**  You&#39;re providing information to a user seeking help, so &quot;please&quot; isn&#39;t necessary.
+**For more information and additional examples, see **[**Top 10 tips for Microsoft style and voice**](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700) **.**
 
-\ *** Don&#39;t use Latin abbreviations or words. ** Avoid common Latin abbreviations (&quot;e.g., i.e.&quot;). Instead, spell out &quot;for example&quot; and &quot;that is.&quot; Also avoid Latin words such as &quot;via&quot; and &quot;verbatim.&quot; In most instances of &quot;via,&quot; you can use &quot;through&quot; instead.
+## Formatting
 
-**For more information and additional examples, see ** [**Top 10 tips for Microsoft style and voice**](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700) **.**
-
-Formatting
-
-\*  **Bold all UI elements** , including buttons, blades, menus, dialogs, windows, fields, or any other feature that has a visible name and involves user action. Don&#39;t use quotation marks or italic font in place of bold font. Be sure to follow the UI label (for example, &quot; **Troubleshoot**&quot;) with its descriptor (for example, &quot;button&quot;).
+* **Bold all UI elements** , including buttons, blades, menus, dialogs, windows, fields, or any other feature that has a visible name and involves user action. Don&#39;t use quotation marks or italic font in place of bold font. Be sure to follow the UI label (for example, &quot; **Troubleshoot**&quot;) with its descriptor (for example, &quot;button&quot;).
 
 
 **Example **
