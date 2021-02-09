@@ -19,6 +19,8 @@
 
 # Planning and Configuration for SQL DB Managed Instance Migrations
 
+Most users can perform planning and configuration for SQL DB Managed Instance migrations, and resolve related issues, by using the following information. 
+
 **For information on setting up database migration to Azure SQL Database Managed Instance in online mode, see the following documentation:**
 
 * [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)<br>
