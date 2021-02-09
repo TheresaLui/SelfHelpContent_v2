@@ -19,7 +19,7 @@
 
 # Incomplete ARP Entry Found
 <!--issueDescription-->
-We have identified that the Address Resolution Protocol (ARP) isn't established on your ExpressRoute circuit **[CircuitName]** for peers **[failedPeerList]**. To enable private connectivity to an Azure virtual network or public connectivity to an online Microsoft resource, ARP must be established first.
+We have identified that the Address Resolution Protocol (ARP) isn't established on your ExpressRoute circuit <!--$CircuitName-->**CircuitName** <!--/$CircuitName--> for peers <!--$failedPeerList-->**failedPeerList** <!--/$failedPeerList-->. To enable private connectivity to an Azure virtual network or public connectivity to an online Microsoft resource, ARP must be established first.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
