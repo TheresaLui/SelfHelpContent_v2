@@ -27,9 +27,13 @@ If you can't connect to the Jupyter, your compute instance may have connection/a
 6. Click "Notebooks" in the Azure ML Studio menu bar
 7. Choose the same Compute Instance, and now you should be able to connect to the Jupyter
 
-## **Recommended Documents**
+## ***Please Note**
+* If the compute instance is created behind a VNET, make sure you have an NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning.
+* If you are behind a proxy, ensure your network allows websocket connections to *.instances.azureml.net and *.instances.azureml.ms.
 
+## **Recommended Documents**
 If you are experiencing issues with Studio Notebooks, here is a list of resources which may be helpful:
+* [Virtual network setup in Azure ML](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet?WT.mc_id=Portal-Microsoft_Azure_Support#compute-instance)
 * [How to run Jupyter Notebooks in your workspace](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
 * [Clone Git repositories into your workspace file system](https://docs.microsoft.com/azure/machine-learning/concept-train-model-git-integration#clone-git-repositories-into-your-workspace-file-system)
 * [What is an Azure Machine Learning compute instance?](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance)
