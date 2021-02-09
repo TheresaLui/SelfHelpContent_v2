@@ -13,16 +13,18 @@
   ownershipid="AzureData_Purview" />
 # This is the title of the article. It is not displayed in the portal but is a required part of every article.
 
-Most users are able to resolve issues with Resource Sets by using the steps below..
+Most users are able to resolve issues with resource sets by using the following steps.
 
 ## **Recommended Steps**
 
-Assets Insight reports are currently delayed by 6-8 hours depending on your Purview account region. The Purview Engineering team is working on this with top priority and this experience is expected to improve significantly in terms of turn around time by the time Purview goes to general availability. You can expect continuous improvement over the coming months but here is an ETA to your Asset Insights today depending on your region:
+Assets Insight reports are currently delayed by 6-8 hours depending on your Purview account region. Significantly improving this turnaround time is a top priority for the Purview Engineering team before Purview goes to general availability. Therefore, you can expect continuous improvement over the coming months. 
+
+Here is an ETA for Asset Insight reports, based on region:
 * WestEurope: ETA 8 Hours
 * EastUS: ETA 6 Hours
 * Other Regions: ETA 3 Hours
 
-If you don't see your asset insights populated after more than 8 hours, please contact support.
+If your asset insights don't populate after more than 8 hours, contact support.
 
 ## **Recommended Documents**
 
