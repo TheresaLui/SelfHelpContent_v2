@@ -52,20 +52,19 @@ The properties section is required and contains the metadata of the article. All
 | **Tag** | **Description** | **Required** | **Notes** | **Example** |
 | --- | --- | --- | --- | --- |
 | **pageTitle** | Name of the issue for troubleshoot content | Yes | * This will not appear on the portal, it is metadata only. * This can only be one sentence - do not include periods or commas. | * Database Connectivity issue due to invalid credentials detected * VM boot error |
-| **description** | Name of the issue or any other description you would like. | Yes | This will not appear on the portal, it is metadata only | * IsBadPassword * Virtual machine failed to boot with error code 0xc000000e |
-| **ms.author** | Microsoft alias for the author | Yes | Microsoft alias of the person who wrote or last edited the document | * bernardm * ramakk |
+| **description** | Name of the issue or any other description you would like. | Yes | This will not appear on the portal, it is metadata only | * IsBadPassword 
+                 | * Virtual machine failed to boot with error code 0xc000000e |
+| **ms.author** | Microsoft alias for the author | Yes | Microsoft alias of the person who wrote or last edited the document | * bernardm 
+| * ramakk |
 | **displayOrder** | Not applicable to Insights | Only for articles displayed in the Help and Support blade (aka Troubleshoot blade) | --- | --- | 
-| **articleId** | Unique identifier for the article | Yes | * MUST be unique for all Insight articles
-* We highly recommend using the file name (which by default is also unique) | * isbadpassword * errorcod-e0xc000000e |
+| **articleId** | Unique identifier for the article | Yes | MUST be unique for all Insight articles. We highly recommend using the file name (which by default is also unique). | * isbadpassword * errorcod-e0xc000000e |
 | **selfHelpType** | Set the value to "Apollo" | Yes |
 |
 |
-| **supportTopicIds** | Support Topic Ids for which this content will be presented in case submission | Only for Diagnostic articles and articles that will be presented during case submission | * Must match a valid support topic for the Resource Provider and Resource Type
- * Must match the support topic Id for which a Diagnostic Scenario was added in SEAM
- * Can have multiple, comma separated values
+| **supportTopicIds** | Support Topic Ids for which this content will be presented in case submission | Only for Diagnostic articles and articles that will be presented during case submission | Must match a valid support topic for the Resource Provider and Resource Type. Must match the support topic Id for which a Diagnostic Scenario was added in SEAM. Can have multiple, comma separated values
 |
 |
-| productPesIds | Product Id(s) for the service for which the article will be presented | Yes | \* Must match a valid PesId for the Resource Provider and Resource Type
+| **productPesIds** | Product Id(s) for the service for which the article will be presented | Yes | * Must match a valid PesId for the Resource Provider and Resource Type
  * In the case of diagnostics articles, it must match the PesId for which a Diagnostic Scenario was added in SEAM
 * Can have multiple, comma separated values
 | * "14749" * "14749, 15571" |
