@@ -25,7 +25,7 @@ If you believe your ITSM connector did not send the alert properly, the followin
 * If your tickets are not being created, or if your token expired in the ITSM provider (which happens every 30 days), do a [manual sync](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-resync-servicenow) is needed   
 * Review the checkbox of the individual work items for each configuration item
 * To have duplicate incidents for every update of the alert, select **Create Individual work items for each Configuration Item** in the ITSM action definition
-* To have one incident that gets updated with every update of the ticket, you must deselect **Create Individual work items for each Configuration Item** in the ITSM action definionetion
+* To have one incident that gets updated with every update of the ticket, you must deselect **Create Individual work items for each Configuration Item** in the ITSM action definition
 * Check the [Dashboard](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-dashboard) to see if it contains common errors that can be solved.
 
 ## **Recommended Documents**
@@ -33,3 +33,4 @@ If you believe your ITSM connector did not send the alert properly, the followin
 * [Connect Azure to ITSM tools using IT Service Management Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-overview)
 * [Connect ITSM products/services with IT Service Management Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-connections)
 * [Troubleshooting problems in ITSM Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-troubleshoot-overview)
+* [There is a new ITSM integration called Secure Export that you can consider to use](https://docs.microsoft.com/azure/azure-monitor/platform/it-service-management-connector-secure-webhook-connections)
