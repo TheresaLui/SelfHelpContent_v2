@@ -31,6 +31,12 @@ If you do not want to enforce GTID, please contact support or our team at AskAzu
 * For more information about the `time_zone` parameter, see [time_zone](https://docs.microsoft.com/azure/mysql/concepts-server-parameters#time_zone). To populate the time zone table, see [Working with the time zone parameter](https://docs.microsoft.com/azure/mysql/howto-server-parameters#working-with-the-time-zone-parameter).
 * If the server is in read-only mode, either use the portal to increase the storage size as described in [Reaching the storage limit](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#reaching-the-storage-limit) or enable storage **auto-growth**. For more information, see [How to enable storage auto-growth](https://docs.microsoft.com/azure/mysql/howto-auto-grow-storage-portal#enable-storage-auto-grow).
 
+## Tips
+
+Also be sure to consider the following points.
+
+* Connections to an Azure Database for MySQL server are established through a gateway responsible for routing incoming connections to the physical location of the server in our clusters. A client attempting to connect will first reach the gateway service, which is hosted on group of stateless compute nodes sitting behind an IP address. As part of ongoing service maintenance, the IP address of this gateway service changes, so avoid hard coding the gateway IP address in your application’s connection string. Instead, use the fully qualified domain name (FQDN) of your server in the format .mysql.database.azure.com, in the connection string. For more information, see [Azure Database for MySQL gateway IP addresses](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture#azure-database-for-mysql-gateway-ip-addresses).
+
 ## **Recommended documents**
 
 * [Configure parameters using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)
