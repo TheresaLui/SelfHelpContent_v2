@@ -22,7 +22,7 @@
 
 Are you facing one of these common problems?
 
-* I encounter an error **NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages** in the DotNet build task
+* Error "NU1101: Unable to find package WindowsAzure.Storage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages" in the DotNet build task
 
 	Add a **dotnet restore** step before the build step which will complete the restore before the build and add the **--no-restore** argument to the build step.
 
@@ -35,7 +35,7 @@ Are you facing one of these common problems?
 
 	This might be a UI issue. Try out in different browsers. In most cases, the options are misplaced and will be moved to the bottom of the page. 
 
-* I'm facing an error with **dotnet pack** task
+* Error with **dotnet pack** task
 
     [Follow these steps](https://docs.microsoft.com/dotnet/core/tools/dotnet-pack)
 
@@ -43,7 +43,7 @@ Are you facing one of these common problems?
     
     In such scenarios, the build identity will not have permissions on that feed. The default Contributor group `[team]\Project Collection Build Service Accounts`  does not include the **Project Collection Build Service** as a member. Add the **Project Collection Build Service** account to fix this issue.
 
-* I would like to consume the generated artifacts from a specific build in another YAML pipeline
+* I want to consume the generated artifacts from a specific build in another YAML pipeline
 
     Make use of the [Download Pipeline Artifacts task](https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/download-pipeline-artifact?view=azure-devops)
 
