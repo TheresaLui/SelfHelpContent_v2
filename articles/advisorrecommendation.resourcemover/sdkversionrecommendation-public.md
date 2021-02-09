@@ -19,7 +19,7 @@
         "schemaVersion": 1.0,
         "streamNamespace": "cluster('https://rmscluswus.kusto.windows.net').database('RMSKustoDB').GetSDKUsersSubscriptionIds_AA_RMS",
         "dataSource": "Kusto",
-        "refreshInterval": "1:00:00"
+        "refreshInterval": "1:00:00:00"
     },
     "recommendationCategory": "Performance",
     "recommendationImpact": "Medium",
@@ -38,7 +38,7 @@
     },
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 3600,
-    "version": 1.0,
+    "version": 1.1,
     "learnMoreLink": "https://docs.microsoft.com/azure/resource-mover/",
     "description": "Update Azure Resource Mover SDK Version",
     "longDescription": "We have identified that you are using an older version of SDK. The latest version of SDK contains new features such as dependency validation improvements, ability to delete source resources, several portal improvements in addition to several fixes proactively identified though our QA process.",
