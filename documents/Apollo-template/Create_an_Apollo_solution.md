@@ -15,7 +15,7 @@ Apollo, see the **Overview**.
 
 ## Basic structure of an Apollo solution
 
-| Section | Required? | Purpose |
+| **Section** | **Required?** | **Purpose** |
 | --- | --- | --- |
 | **Properties** | **Yes** | Contains the metadata of the article |
 | **Internal title** | **Yes** | Internal only (not customer-facing) component used by the Azure self-help portal |
