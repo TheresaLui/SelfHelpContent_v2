@@ -21,78 +21,65 @@ Apollo, see the **Overview**.
 | **Internal title** | **Yes** | Internal only (not customer-facing) component used by the Azure self-help portal |
 | **Customer-facing title** | **Yes** | Provides context for your Apollo solution |
 | **Body** | **Yes** | Main canvas of the article. **At minimum** , must contain **an**** introduction **and** one solution component:
-|          |         |- Diagnostics
-|          |         |- Azure Monitor charts
-|          |         |- Video solutions
-|          |         |- Images
-|          |         |- Procedures
-|          |         |- Tables
-|          |         |- AzureKB article links
- |
+| --- | --- |- Diagnostics
+| --- | --- |- Azure Monitor charts
+| --- | --- |- Video solutions
+| --- | --- |- Images
+| --- | --- |- Procedures
+| --- | --- |- Tables
+| --- | --- |- AzureKB article links
+ 
 
 ## Properties section
 
 The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the following topic.
 
-- Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string (&quot;&quot;) as the value for properties you aren't using.
-- Neither the order of the properties, spaces or capitalization matters
+- Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string ("") as the value for properties you aren't using.
+- Neither the order of the properties, spaces, or capitalization matters
 - For properties that support multiple values, separate them using commas
 
     **Example of schema**
 
-<properties
-        pageTitle="_Apollo\_article\_description_"<br>
-        description="_Apollo\_article\_description_"<br>
-        ms.author="_your\_name_"<br>
-        displayOrder=""<br>
-        articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"<br>
-        selfHelpType="Apollo"<br>
-        supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"<br>
-        productPesIds="16342,16065,15797,16454,16470"<br>
-        cloudEnvironments="public"<br>
-        ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"<br>
+      <properties
+          pageTitle="_Apollo\_article\_description_"<br>
+          description="_Apollo\_article\_description_"<br>
+          ms.author="_your\_name_"<br>
+          displayOrder=""<br>
+          articleId="0008d965-e21e-4e73-80ef-0ccc0765fb0c"<br>
+          selfHelpType="Apollo"<br>
+          supportTopicIds="7d8fb79f-7fbc-7125-b4dc-3060a75a755d"<br>
+          productPesIds="16342,16065,15797,16454,16470"<br>
+         cloudEnvironments="public"<br>
+         ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"<br>
 
-/>
+       />
 
 ## Properties metadata
 
 | **Tag** | **Description** | **Required** | **Notes** | **Example** |
 | --- | --- | --- | --- | --- |
-| pageTitle | Name of the issue for troubleshoot content | Yes | This will not appear on the portal, it is metadata only
- \* This can only be one sentence - do not include periods or commas | \* Database Connectivity issue due to invalid credentials detected
- \* VM boot error |
-| description | Name of the issue or any other description you would like. | Yes
-
- | This will not appear on the portal, it is metadata only | \* IsBadPassword
- \* Virtual machine failed to boot with error code 0xc000000e |
-| ms.author | Microsoft alias for the author | Yes | Microsoft alias of the person who wrote or last edited the documen | \* bernardm
-\* ramakk |
-| displayOrder | Not applicable to Insights | Only for articles displayed in the Help and Support blade (aka Troubleshoot blade) |
- |
- |
-| articleId | Unique identifier for the article | Yes | \* MUST be unique for all Insight articles
-\* We highly recommend using the file name (which by default is also unique) | \* isbadpassword \* errorcod-e0xc000000e |
-| selfHelpType | Set the value to &quot;Apollo&quot; | Yes |
- |
- |
-| supportTopicIds | Support Topic Ids for which this content will be presented in case submission | Only for Diagnostic articles and articles that will be presented during case submission | \* Must match a valid support topic for the Resource Provider and Resource Type
- \* Must match the support topic Id for which a Diagnostic Scenario was added in SEAM
- \* Can have multiple, comma separated values
- |
- |
+| **pageTitle** | Name of the issue for troubleshoot content | Yes | * This will not appear on the portal, it is metadata only. * This can only be one sentence - do not include periods or commas. | * Database Connectivity issue due to invalid credentials detected * VM boot error |
+| **description** | Name of the issue or any other description you would like. | Yes | This will not appear on the portal, it is metadata only | * IsBadPassword * Virtual machine failed to boot with error code 0xc000000e |
+| **ms.author** | Microsoft alias for the author | Yes | Microsoft alias of the person who wrote or last edited the document | * bernardm * ramakk |
+| **displayOrder** | Not applicable to Insights | Only for articles displayed in the Help and Support blade (aka Troubleshoot blade) | --- | --- | 
+| **articleId** | Unique identifier for the article | Yes | * MUST be unique for all Insight articles
+* We highly recommend using the file name (which by default is also unique) | * isbadpassword * errorcod-e0xc000000e |
+| **selfHelpType** | Set the value to "Apollo" | Yes |
+|
+|
+| **supportTopicIds** | Support Topic Ids for which this content will be presented in case submission | Only for Diagnostic articles and articles that will be presented during case submission | * Must match a valid support topic for the Resource Provider and Resource Type
+ * Must match the support topic Id for which a Diagnostic Scenario was added in SEAM
+ * Can have multiple, comma separated values
+|
+|
 | productPesIds | Product Id(s) for the service for which the article will be presented | Yes | \* Must match a valid PesId for the Resource Provider and Resource Type
- \* In the case of diagnostics articles, it must match the PesId for which a Diagnostic Scenario was added in SEAM
- \* Can have multiple, comma separated values
- | \* &quot;14749&quot;
-\* &quot;14749, 15571&quot; |
-| resourceRequired |
- |
- |
- |
- |
-| cloudEnvironments | Indicates if the content specific to a certain cloud. Possible values: &quot;public, blackForest, fairfax and mooncake&quot; | Yes | \* Can have multiple, comma separated values | \* &quot;public&quot;
-\* &quot;public, fairfax&quot; |
-| ownershipId | Indicates the ownershipId who is responsible for this selfhelp asset | Yes | ­­ | ownershipId=&quot;Compute\_BotService&quot; |
+ * In the case of diagnostics articles, it must match the PesId for which a Diagnostic Scenario was added in SEAM
+* Can have multiple, comma separated values
+| * "14749" * "14749, 15571" |
+| **resourceRequired** | --- | --- | --- | --- |
+| **cloudEnvironments** | Indicates if the content specific to a certain cloud. Possible values: "public, blackForest, fairfax and mooncake" | Yes | * Can have multiple, comma-separated values | * "public" * "public, fairfax" |
+| **ownershipId** | Indicates the ownershipId who is responsible for this selfhelp asset | Yes | --- | ownershipId="Compute_BotService" |
+
 
 ## Internal title
 
@@ -103,9 +90,7 @@ Internal-only title **required** for internal reference. Level 1 heading. Use th
 
 ## Customer-facing title
 
-Required. Level 2 heading that describes the article contents, preferably in 10 words or less. The title and provides necessary
-context to the customer and reassurance that the solution targets their concern. Use sentence capitalization: Capitalize only the
-first word and any product, feature, or service names. Start with an active verb (such as resolve, enable, learn, troubleshoot, etc.)
+Required. Level 2 heading that describes the article contents, preferably in 10 words or less. The title and provides necessary context to the customer and reassurance that the solution targets their concern. Use sentence capitalization: Capitalize only the first word and any product, feature, or service names. Start with an active verb (such as resolve, enable, learn, troubleshoot, etc.)
 
 **Examples:**
 
