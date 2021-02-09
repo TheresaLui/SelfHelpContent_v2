@@ -16,7 +16,7 @@
 
 # Can't connect to Jupyter from my Notebook
 
-If you can't connect to the terminal, your compute instance may have connection/authentication issues. Most users are able to resolve their Compute Instance issue by using the following steps.
+If you can't connect to the Jupyter, your compute instance may have connection/authentication issues. Most users are able to resolve their Compute Instance issue by using the following steps.
 
 ## **Recommended Steps**
 1. Click "Compute" in the Azure ML Studio menu bar
@@ -25,7 +25,7 @@ If you can't connect to the terminal, your compute instance may have connection/
 4. If the Jupyter continues to fail, make sure the Compute Instance is stopped and create a new one
 5. Wait for the Compute Instance to reboot
 6. Click "Notebooks" in the Azure ML Studio menu bar
-7. Choose the same Compute Instance, and now you should be able to connect to the terminal
+7. Choose the same Compute Instance, and now you should be able to connect to the Jupyter
 
 ## **Recommended Documents**
 
