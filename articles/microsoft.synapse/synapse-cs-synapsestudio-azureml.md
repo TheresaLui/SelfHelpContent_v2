@@ -20,7 +20,7 @@
 
 ### Machine Learning with Dedicated SQL Pools
 
-* [scoring wizard (preview) for dedicated SQL pools](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
+* [Scoring wizard (preview) for dedicated SQL pools](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
 
 ### Machine Learning with Apache Spark
 
