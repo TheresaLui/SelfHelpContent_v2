@@ -19,7 +19,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "Unexpected result",
+    "title": "Job failure",
     "formElements": [
         {
             "id": "problem_start_time",

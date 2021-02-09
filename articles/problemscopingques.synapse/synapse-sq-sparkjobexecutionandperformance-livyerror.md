@@ -19,7 +19,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "Unexpected result",
+    "title": "Livy error",
     "formElements": [
         {
             "id": "problem_start_time",
