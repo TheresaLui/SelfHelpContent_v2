@@ -110,103 +110,120 @@ In most instances of "via," you can use "through" instead.
 
 ## Formatting
 
-* **Bold all UI elements** , including buttons, blades, menus, dialogs, windows, fields, or any other feature that has a visible name and involves user action. Don&#39;t use quotation marks or italic font in place of bold font. Be sure to follow the UI label (for example, &quot; **Troubleshoot**&quot;) with its descriptor (for example, &quot;button&quot;).
+* **Bold all UI elements**, including buttons, blades, menus, dialogs, windows, fields, or any other feature that has a visible name and involves user action. Don&#39;t use quotation marks or italic font in place of bold font. Be sure to follow the UI label (for example, &quot; **Troubleshoot**&quot;) with its descriptor (for example, &quot;button&quot;).
 
 
-**Example **
-**Our style: ** Select the  **Troubleshoot ** button.
+**Example**
+**Our style:** Select the  **Troubleshoot ** button.
 **Not our style: ** Select  **Troubleshoot**.
 
-**Example**
-
-**Our style: ** In the ** Instance ** field, specify a value less than 64 characters long.
-**Not our style: ** In the &quot;Instance&quot; field, specify a value less than 64 characters long.
-
-
-\*  **Don&#39;t overuse bold in text**. Use bold font occasionally, but excessive bold text can be confusing to the user, who is trying to quickly figure out the logical hierarchy of the solution. In longer solutions or solutions with multiple issues, using bold can be an effective way to make key points or issues more scannable.
-
-\*  **Don&#39;t use bold for emphasis.**  We generally try to avoid visual emphasis of words, and to build emphasis into the structure of the sentence instead. If you need to add visual emphasis, italic font, not bold.
-
-\* **Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names.**
+**Example**<br>
+**Our style:** In the **Instance** field, specify a value less than 64 characters long.
+**Not our style:** In the "Instance" field, specify a value less than 64 characters long.
 
 
-For inline code, use a single backtick (`) at the beginning and end of a code snippet.
- For code samples and other code blocks, use three backticks (```) on the line immediately preceding the code, and on the line immediately following the code.
- Be sure to include a blank line after the last three backticks of a code block.
+* **Don't overuse bold in text.** Use bold font occasionally, but excessive bold text can be confusing
+to the user, who is trying to quickly figure out the logical hierarchy of the solution. In longer 
+solutions or solutions with multiple issues, using bold can be an effective way to make key points
+or issues more scannable.
 
-\*  **Enclose error messages in text in quotation marks.**
+* **Don't use bold for emphasis.**  We generally try to avoid visual emphasis of words, and to build 
+emphasis into the structure of the sentence instead. If you need to add visual emphasis, italic font,
+not bold.
 
-\*  **Insert a blank line above and below every heading.**  
+* **Use code formatting for code (inline and block), values, parameters, properties, operations,
+methods, functions, language keywords, and directory and file names.**
 
-\*  **Tables must be created in Markdown.**   Markdown has no syntax specific to tables, but you can use extended syntax \&lt;[https://www.markdownguide.org/extended-syntax/](https://www.markdownguide.org/extended-syntax/)\&gt;. Also see the Markdown Tables Generator \&lt;[https://www.tablesgenerator.com/markdown\_tables](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.tablesgenerator.com%2Fmarkdown_tables&amp;data=04%7C01%7Cv-jurug%40microsoft.com%7C9ef2b9604684469d8d4908d8c6e4f767%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637478033985795095%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=66G8imdzp6SieqfoNVyiNy%2Buv2YzkEeQix%2BIEloKAA0%3D&amp;reserved=0)\&gt;.
-**Note: ** Be sure to view your table in multiple browser types. A table that looks good in Edge might look very different in Chrome, and vice versa.
+     For inline code, use a single backtick (`) at the beginning and end of a code snippet.
+     For code samples and other code blocks, use three backticks (```) on the line immediately preceding the code, and on the line immediately following the code.
+     Be sure to include a blank line after the last three backticks of a code block.
 
-Branding
+* **Enclose error messages in text in quotation marks.**
 
-\*  **Make sure to check correct spelling and capitalization for product, feature, and service names.**  You can find these names in the [Cloud Style Guide A-Z list](https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&amp;topicid=25353) (most Azure names are listed under A, in the left panel).
+* **Insert a blank line above and below every heading.**  
+
+* **Tables must be created in Markdown.**  Markdown has no syntax specific to tables, but you can use
+[extended syntax](https://www.markdownguide.org/extended-syntax/). Also see the 
+[Markdown Table Generator](https://www.tablesgenerator.com/markdown\_tables).<br>
+**Note:** Be sure to view your table in multiple browser types. A table that looks good in Edge 
+might look very different in Chrome, and vice versa.
+
+## Branding
+
+* **Make sure to check correct spelling and capitalization for product, feature, and service names.**
+You can find these names in the [Cloud Style Guide A-Z list](https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&amp;topicid=25353) (most Azure names are listed under A, in the left panel).
 
 
-**Example**
-**Our style: ** Azure portal
+     **Example**<br>
+     **Our style:** the Azure portal<br>
+     **Not our style:** Azure Portal
 
-**Not our style: ** Azure Portal
 
+* **At first mention of a product, spell out the full name**, with the acronym or abbreviation in
+parentheses. Example: "Azure Active Directory (ADD)." After that, you can use only the acronym ("ADD"). 
+In self-help solutions, we don't require "Microsoft" in front of brand names.
 
-\ *** At first mention of a product, spell out the full name** , with the acronym or abbreviation in parentheses. Example: &quot;Azure Active Directory (ADD).&quot; After that, you can use only the acronym (&quot;ADD&quot;). In self-help solutions, we don&#39;t require &quot;Microsoft&quot; in front of brand names.
+* **Capitalize** [**only product and service names**, **not instances**](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&amp;topicid=44732). If it&#39;s an instance, lowercase all words.
 
-\*  **Capitalize**  [**only product and service names** , ** not instances**](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&amp;topicid=44732). If it&#39;s an instance, lowercase all words.
-
-**Example**
-
-**Our style: ** Use App Service to build web apps, mobile apps, and API apps.
-
+**Example**<br>
+**Our style: ** Use App Service to build web apps, mobile apps, and API apps.<br>
 **Not our style: ** Use App Service to build Web Apps, Mobile Apps, and API Apps.
 
-Accessibility
+## Accessibility
 
-All ** ** non-text content (images, charts, videos) must include alternative text (alt text) to meet [Microsoft Accessibility Standards (MAS)](https://microsoft.sharepoint.com/sites/accessibility/SitePages/Microsoft-Accessibility-Standards-(MAS).aspx) **.**  At a minimum, include an introductory sentence that briefly describes the image, chart, or video.
+All non-text content (images, charts, videos) must include alternative text (alt text) to meet [Microsoft Accessibility Standards (MAS)](https://microsoft.sharepoint.com/sites/accessibility/SitePages/Microsoft-Accessibility-Standards-(MAS).aspx) **.**  At a minimum, include an introductory sentence that briefly describes the image, chart, or video.
 **Images**  – Provide a brief text description in the link text. Optionally, include a brief text description in an introductory sentence immediately above the image.
 
 
-**Charts and tables**  – Provide a brief text description in an introductory sentence immediately above the chart or table.
+**Charts and tables**  – Provide a brief text description in an introductory sentence immediately above
+the chart or table.
 
 
-**Videos**  – Provide a brief text description in the link text, at a minimum. If possible, include closed captions in the video, and a link to a video transcript.
+**Videos**  – Provide a brief text description in the link text, at a minimum. If possible, include 
+closed captions in the video, and a link to a video transcript.
 
 For more information, see [detailed accessibility guidance](https://microsoft.sharepoint.com/:w:/s/accessibility/EYMLhyJUw-pPp8B_OmgeFK4BaGeklhNXU8Da7A17ya-v_g?e=U9Fdrx).
 
 Links
 
-\*  **Use simple, concise phrasing to introduce the link: **&quot;See [link text]&quot; is the best generic phrasing. In most contexts, it&#39;s implicitly clear that the link will contain relevant information. It&#39;s acceptable to use an extended phrase if you need to highlight the purpose of the link.
+* **Use simple, concise phrasing to introduce the link:** "See [link text]" is the best generic phrasing.
+In most contexts, it's implicitly clear that the link will contain relevant information. It's acceptable
+to use an extended phrase if you need to highlight the purpose of the link.
 
 
-**Example of simple, concise phrasing:**
- Our style: &quot;See [_link text_].&quot;
- Not our style: &quot;If you would like more information, refer to [_link text_].&quot;
+     **Example of simple, concise phrasing:**<br>
+     **Our style:** "See [_link text_]."<br>
+     **Not our style:** "If you would like more information, refer to [_link text_]."
 
-**Examples of extended phrasing:**
- &quot;Learn more about [_link text_].&quot;
- &quot;To create a Site-to-Site VPN gateway connection in Azure portal, see [_link text_].&quot;
-
-
-\*  **Under the Resources heading** , if you include a long list of links, you can make the list more scannable by dividing it into clear categories.
+     **Examples of extended phrasing:**<br>
+     "Learn more about [_link text_]."<br>
+     "To create a Site-to-Site VPN gateway connection in Azure portal, see [_link text_]."
 
 
-**Example:**
- &quot;Learn more about creating and managing private endpoints.
+* **Under the Resources heading**, if you include a long list of links, you can make the list more
+scannable by dividing it into clear categories.
+
+
+      **Example:**
+      "Learn more about creating and managing private endpoints.
        [Link 1]
        [Link 2]
-       [Link 3]&quot;
+       [Link 3]"
 
-**\* Link text must clearly indicate the purpose of link ** to help the user decide if they want to proceed. (&quot;Here&quot; or &quot;this document&quot; doesn&#39;t provide enough information about the link.) Descriptive link text also helps to ensure that the content meets Microsoft Accessibility standards.
+* **Link text must clearly indicate the purpose of link** to help the user decide if they want to 
+proceed. ("Here" or "this document" doesn't provide enough information about the link.) 
+Descriptive link text also helps to ensure that the content meets Microsoft Accessibility standards.
 
-**Example**
-**Our style:**  With Azure Cosmos DB, you can save time managing an on-premises database. Get started with [videos on the Cosmos DB YouTube channel](https://www.youtube.com/channel/UC9OJ32CzooNJNoP6_iIfxRw/videos).
-**Not our style:**  With Azure Cosmos DB, you can save time managing an on-premises database. Get started [here].
+**Example**<br>
+**Our style:**  With Azure Cosmos DB, you can save time managing an on-premises database.<br>
+Get started with [videos on the Cosmos DB YouTube channel](https://www.youtube.com/channel/UC9OJ32CzooNJNoP6_iIfxRw/videos).
+**Not our style:**  With Azure Cosmos DB, you can save time managing an on-premises database. 
+Get started [here].
 
 
-\*  **Acceptable links**  are links to Microsoft product documentation and AzureKB.
+* **Acceptable links**  are links to Microsoft product documentation and AzureKB.
 
-\*  **Don&#39;t use internal links,**  such as _aka.ms_ links or_ review.microsoft.docs_ links. These links aren&#39;t accessible to users.   
+* **Don't use internal links,**  such as _aka.ms_ links or_ review.microsoft.docs_ links. 
+These links aren't accessible to users.   
 
-**\* In YouTube links, avoid the ampersand character (&amp;). **This character prevents the video from rendering correctly.
+* **In YouTube links, avoid the ampersand character (&). **This character prevents the video from rendering correctly.
