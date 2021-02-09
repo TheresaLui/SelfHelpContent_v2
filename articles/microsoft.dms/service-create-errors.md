@@ -29,23 +29,22 @@
 
 ## **Recommended Steps**
 
-* The VNET selected to create DMS instance in contained external resources like application gateway, Azure SQL DB Managed Instance, or hosting environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
+* The VNet selected to create a DMS instance in contained external resources such as an application gateway, Azure SQL DB Managed Instance, or hosting environments. DMS can be created in the same VNet, but it needs to be created in a separate subnet. 
 
 **Error message contains some of the following text:**
 
-* *The provisioning of deployment for service failed. The Azure Database Migration Service could not be provisioned. One common cause is that the Azure Virtual Network (VNET) does not have Internet access due to firewall restrictions. Your VNET Network Security Group (NSG) rules cannot block following communication ports 53, 443, 445, 1433, 9354, 12000.*
+* *The provisioning of deployment for service failed. The Azure Database Migration Service could not be provisioned. One common cause is that the Azure Virtual Network (VNet) does not have internet access due to firewall restrictions. Your VNet Network Security Group (NSG) rules cannot block the following communication ports: 53, 443, 445, 1433, 9354, 12000.*
 * *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
 * *Download of configuration content from GCS failed.*
 * *Thread running configuration downloader exited, but configuration file was not downloaded.*
 * *Failed to download the configuration for MA; cannot start Agent.*
-* *Error message: "Command execution finished, but failed because it returned a non-zero exit code of: '1'.
+* *Error message: "Command execution finished, but failed because it returned a non-zero exit code of: '1'."
 The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx).*
 
 ## **Recommended Steps** 
 
-* This error most commonly occurs when the VNET selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point https://gcs.prod.monitoring.core.windows.net/ and/or blocking the following communication ports: 443, 53, 9354,
-445, 12000
-* If your DMS subnet is using NSG, please make sure that the required outbound NSG rules are added, specifically the outbound rules allowing traffic on port 443 for service tags of Azure Monitor, Service Bus and Storage. Your NSG should look similar to the following:
+* This error occurs most often when the VNet selected to create the DMS instance is blocking connectivity to the [metrics and health monitoring end point](https://gcs.prod.monitoring.core.windows.net) and/or blocking the following communication ports: 443, 53, 9354, 445, 12000.
+* If your DMS subnet is using NSG, make sure that the required outbound NSG rules are added, specifically the outbound rules allowing traffic on port 443 for service tags of Azure Monitor, Service Bus, and Storage. Your NSG should look similar to the following:
 
 	| Priority | Name | Port | Protocol | Source | Destination | Action |
 	| ------ | ----- | ---- | ------ | ----- | --------- | --------- |
@@ -58,19 +57,19 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 	| 65500 | DenyAllOutBound | Any | Any | Any | Any | Deny |
 
 
-	**Note:** You can also allow regional service tags instead of global service tags if needed (for eg: Storage.WestUS2), and TCP protocol instead of Any.
+	**Note:** You can also allow regional service tags instead of global service tags, if needed (for example, `Storage.WestUS2`), and TCP protocol instead of Any.
 
 
-* If VNET config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this,  please perform the following steps:
-  - Create an Azure VM in the same VNET from which the DMS provisioning is being attempted.
-  - Login to the VM and try this URL from a browser: https://gcs.prod.monitoring.core.windows.net/
+* If the VNet config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this, use the following steps:
+  - Create an Azure VM in the same VNet from which the DMS provisioning is being attempted
+  - Log in to the VM and try this URL from a browser: https://gcs.prod.monitoring.core.windows.net/
   - The content of the web page should be a response from the API like this:
 
 	*{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''*
   
-  - If you get an error, such as Page Not Found 404, that means the firewall config on your network is blocking the endpoints. Please contact your network or firewall administrator to identify the IPs/ports getting blocked.
-  - If you are able to hit the endpoint and view the content, then please continue to file the support ticket.
-  - **Note:** These troubleshooting steps will also be applicable for service restart failures. 
+  - If you get an error such as "Page Not Found 404", this means that the firewall config on your network is blocking the endpoints. Contact your network or firewall administrator to identify the IPs/ports that are blocked.
+  - If you're able to hit the endpoint and view the content, continue to file the support ticket.
+  - **Note:** You can also use these troubleshooting steps for service restart failures. 
 
 ## **Recommended Documents**
 
@@ -84,8 +83,7 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 ## **Recommended Steps** 
 
-* DMS service may not be available in the region you are trying to create an instance. Check this website for 
-availability by region: https://azure.microsoft.com/global-infrastructure/services/?products=database-migration&regions=all
+* DMS service may not be available in the region you are trying to create an instance. Check [availability by region](https://azure.microsoft.com/global-infrastructure/services/?products=database-migration&regions=all).
 
 **Error:** 
 
@@ -93,7 +91,7 @@ availability by region: https://azure.microsoft.com/global-infrastructure/servic
 
 ## **Recommended Steps** 
 
-* The subnet used is a Delegated Subnet and DMS service cannot be created in one
+* The subnet used is a Delegated Subnet. DMS service can't be created in this type of subnet.
 
 ## **Recommended Documents**
 
