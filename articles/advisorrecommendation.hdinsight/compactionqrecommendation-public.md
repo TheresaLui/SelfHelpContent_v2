@@ -38,8 +38,8 @@
   "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-advisor",
   "description": "Consider increasing your compaction threads for compactions to complete faster",
-  "longDescription": "The compaction queue in your region servers are more than 2000. This suggests that more data is waiting to be compacted.",
-  "potentialBenefits": "Faster compactions would ensure that the reads are faster in case there are multiple versions of the data.",
+  "longDescription": "The compaction queue in your region servers are more than 2000 suggesting that more data requires compaction. Slower compactions can impact read performance as the number of files to read are more. More files without compaction can also impact the heap usage related to how files interact with Azure file system.",
+  "potentialBenefits": "Faster compactions would ensure faster reads and less heap usage.",
   "actions": [
     {
       "actionId": "d64e27e8-3b25-444e-9a81-feddf8937aad",
