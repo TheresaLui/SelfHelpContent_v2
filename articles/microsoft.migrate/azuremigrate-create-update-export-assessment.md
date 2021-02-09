@@ -20,13 +20,13 @@ There is an ongoing issue that the product team is working on. You might see a "
 
 ### **Why is performance data missing for some/all VMs in my assessment report?**
 
-For a Performance-based assessment, the assessment report export says 'PercentageOfCoresUtilizedMissing' or 'PercentageOfMemoryUtilizedMissing' when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. Please check:
+For a Performance-based assessment, the assessment report export says 'PercentageOfCoresUtilizedMissing' or 'PercentageOfMemoryUtilizedMissing' when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. Check the following:
 
 - If the VMs are powered on for the duration for which you are creating the assessment
 - If only memory counters are missing and you are trying to assess Hyper-V VMs, check if you have dynamic memory enabled on these VMs. There is a known issue currently due to which Azure Migrate appliance cannot collect memory utilization for such VMs.
 - If all of the performance counters are missing, ensure that outbound connections on ports 443 (HTTPS) is allowed.
 
-Note- If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory on-premises and recommends a VM size accordingly.
+Note: If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory on-premises and recommends a VM size accordingly.
 
 ### **Why is the confidence rating of my assessment low?**
 
@@ -51,7 +51,7 @@ The confidence rating is calculated for Performance-based assessments based on t
 
 The VM SKU recommendation in Server Assessment depends on the assessment properties. You can create two kinds of assessments in Server Assessment, performance-based and as on-premises assessments. 
 - For performance-based assessments, Server Assessment considers the utilization data of the on-premises VMs (CPU, memory, disk, and network utilization) to determine the right target VM SKU for your on-premises VMs. It also adds a comfort factor when determining effective utilization.
-- For 'as on-premises' assessments, performance data is not considered, and the target SKU is recommended based on-premises allocation.
+- For as on-premises assessments, performance data is not considered, and the target SKU is recommended based on-premises allocation.
 
 For example, let's say there is an on-premises VM with 4 cores and 8 GB memory with 50% CPU utilization and 50% memory utilization, and a comfort factor of 1.3 is specified in the assessment:
 - If the sizing criterion is **As on-premises** an Azure VM SKU with 4 cores and 8 GB memory is recommended.
