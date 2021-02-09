@@ -28,4 +28,4 @@ If your asset insights don't populate after more than 8 hours, contact support.
 
 ## **Recommended Documents**
 
-* [Understand Insights in Azure Purview]: https://docs.microsoft.com/azure/purview/concept-insights
+* [Understand Insights in Azure Purview](https://docs.microsoft.com/azure/purview/concept-insights)
