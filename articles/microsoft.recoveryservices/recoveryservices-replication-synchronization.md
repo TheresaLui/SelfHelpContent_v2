@@ -1,19 +1,17 @@
 <properties
-    pageTitle="Initial replication/synchronization is not progressing"
-    description="Questions or issues related to initial replication being stuck or taking longer than expected"
-    service="microsoft.recoveryservices"
-    resource="vaults"
-    authors="v-miegge"
-    ms.author="sideeksh"
-    selfHelpType="generic"
-    supportTopicIds="32745021"
-    resourceTags=""
-    productPesIds="16370"
-    ownershipId="Compute_SiteRecovery"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="e57ec17f-4ba7-47e4-8b01-79e1d9773e41"
-/>
-
+  pagetitle="Initial replication/synchronization is not progressing&#xD;"
+  description="Questions or issues related to initial replication being stuck or taking longer than expected"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sideeksh,sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32745021"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="e57ec17f-4ba7-47e4-8b01-79e1d9773e41"
+  ownershipid="Compute_SiteRecovery" />
 # Initial replication/synchronization is not progressing
 
 ## **Recommended Documents**
