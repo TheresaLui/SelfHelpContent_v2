@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Cannot start SQL Server Service &#xD;"
+  pagetitle="Cannot start SQL Server Service "
   description="SQL Service startup or configuration"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
@@ -23,17 +23,17 @@ Most users can resolve issues with SQL Service by using the following steps.
 
      If you restarted your VM or resized your VM, SQL Service may not start because of Tempdb Files/Folders missing on the D Drive. We're working on a fix for this. Meanwhile, run the following script, which creates the TempDB structure: 
 
-        ```ps 
-         $SQLService="SQL Server (MSSQLSERVER)" 
-         $SQLAgentService="SQL Server Agent (MSSQLSERVER)" 
-         $tempfolder="D:\tempDB\Data" 
-         $logfolder="D:\tempDB\Log" 
-         if (!(test-path -path $tempfolder))  {   
-         New-Item -ItemType directory -Path $logfolder   
-         New-Item -ItemType directory -Path $tempfolder } 
-         Start-Service $SQLService  
-         Start-Service $SQLAgentService 
-        ``` 
+      ``` 
+      $SQLService="SQL Server (MSSQLSERVER)" 
+      $SQLAgentService="SQL Server Agent (MSSQLSERVER)" 
+      $tempfolder="D:\tempDB\Data" 
+      $logfolder="D:\tempDB\Log" 
+      if (!(test-path -path $tempfolder))  {   
+      New-Item -ItemType directory -Path $logfolder   
+      New-Item -ItemType directory -Path $tempfolder } 
+      Start-Service $SQLService  
+      Start-Service $SQLAgentService 
+      ``` 
         
   *  **Error: Could not open Data/Log file or OS error: 3(The system cannot find the path specified.)** 
 
