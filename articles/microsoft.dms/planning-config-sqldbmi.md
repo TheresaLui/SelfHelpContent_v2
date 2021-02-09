@@ -19,9 +19,7 @@
 
 # Planning and Configuration for SQL DB Managed Instance Migrations
 
-For information on setting up database migration to Azure SQL Database Managed Instance in online mode, see the following documentation.
-
-## **Recommended Documents**
+**For information on setting up database migration to Azure SQL Database Managed Instance in online mode, see the following documentation:**
 
 * [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)<br>
 * [PowerShell script for MI online migration](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-managed-instance-powershell-online)
@@ -30,9 +28,7 @@ For information on setting up database migration to Azure SQL Database Managed I
 * [Migrate certificate of TDE protected database to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate-tde-certificate)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-## Information on setting up database migration to Azure SQL Database Managed Instance in offline mode
-
-## **Recommended Documents**
+**For information on setting up database migration to Azure SQL Database Managed Instance in offline mode, see the following documentation:**
 
 * [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)<br>
 * [PowerShell script for MI offline migration](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-managed-instance-powershell-offline)
@@ -41,13 +37,11 @@ For information on setting up database migration to Azure SQL Database Managed I
 * [Migrate certificate of TDE protected database to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate-tde-certificate)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-## Migration Project and Activity Configuration
-
-## **Recommended Documents**
+**For information on Migration Project and Activity Configuration, see the following documentation:**
 
 * [How to create a File Share for MI migration](https://docs.microsoft.com/azure/dms/known-issues-azure-sql-db-managed-instance-online#smb-file-share-connectivity)<br>
 * [SQL Server to SQL DB managed instance offline](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance#create-a-migration-project)<br>
 * [SQL Server to SQL DB managed instance online](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online#create-a-migration-project)<br>
 * [Custom roles for SQL Server to SQL DB managed instance online migrations](https://docs.microsoft.com/azure/dms/resource-custom-roles-sql-db-managed-instance)<br>
 * [Network topologies for Azure SQL DB Managed Instance migrations](https://docs.microsoft.com/azure/dms/resource-custom-roles-sql-db-managed-instance)<br>
-* [Migrate SQL Server to SQL DB managed instance with PowerShell](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-mi-powershell)<br><br>
+* [Migrate SQL Server to SQL DB managed instance with PowerShell](https://docs.microsoft.com/azure/dms/howto-sql-server-to-azure-sql-mi-powershell)<br>
