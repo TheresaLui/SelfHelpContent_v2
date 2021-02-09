@@ -34,7 +34,7 @@ Apollo, see the **Overview**.
 
 The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the following topic.
 
-- Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string (&quot;&quot;) as the value for properties you aren&#39;t using.
+- Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string (&quot;&quot;) as the value for properties you aren't using.
 - Neither the order of the properties, spaces or capitalization matters
 - For properties that support multiple values, separate them using commas
 
@@ -58,7 +58,7 @@ The properties section is required and contains the metadata of the article. All
 
 | **Tag** | **Description** | **Required** | **Notes** | **Example** |
 | --- | --- | --- | --- | --- |
-| pageTitle | Name of the issue for troubleshoot content | Yes | \* This will not appear on the portal, it is metadata only
+| pageTitle | Name of the issue for troubleshoot content | Yes | This will not appear on the portal, it is metadata only
  \* This can only be one sentence - do not include periods or commas | \* Database Connectivity issue due to invalid credentials detected
  \* VM boot error |
 | description | Name of the issue or any other description you would like. | Yes
