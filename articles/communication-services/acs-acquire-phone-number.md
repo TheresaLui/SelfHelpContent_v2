@@ -9,7 +9,7 @@
 	ms.author="arzavala"
 	articleId="acs-acquire-phone-number"
 	selfHelpType="diagnostics"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	diagnosticScenario="acs-acquire-phone-number"
 />
 
@@ -21,13 +21,15 @@ Customers are getting an error when trying to acquire a phone number. There are 
 
 ## **Recommended Steps**
 
-Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (i.e., Geographic or Toll-free) will be dimmed. 
+Sometimes the stock of phone numbers available to purchase runs out. In this case, the phone number type (that is, Geographic or Toll-free) will be dimmed. 
   If this is the case, check back again after some time has passed.
 
-If failure occurred because of subscription eligibility:<br>
-- Check the subscription type
-- Check if the billing address is correct
+If the failure occurred because of subscription eligibility:<br>
+- Check the subscription type. The subscription must be a paid account; the subscription cannot have any free credits associated with it (for example, student accounts, visual studio credits, etc.).
+- Check that the billing address is located within the United States, excluding Puerto Rico. Canada and Puerto Rico will be available when the service moves to General Availability.
 
-If this didn't solve the issue:<br>
-- Check our [roadmap](https://github.com/Azure/Communication/projects/1)
-- File a [Github issue](https://github.com/Azure/Communication/issues) 
+If this didn't solve the issue, tell the customer to:<br>
+- Check our [roadmap](https://github.com/Azure/Communication/projects/1) for future region availability 
+- File a [Github issue](https://github.com/Azure/Communication/issues)  for feedback or feature requests 
+
+You can view public documentation on what is currently supported [here](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution).
