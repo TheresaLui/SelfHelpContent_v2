@@ -39,7 +39,7 @@ Most customers resolve their storage access issues in Serverless SQL pool using 
 
 * **"Failed to execute the query. Error: External table <_tablename_> is not accessible because content of directory cannot be listed."**<br>
    If the storage is protected with the firewall, review the steps described in [querying firewall protected storage](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#querying-firewall-protected-storage).<br>
-   Use the Powershell script above to validate if the storage account network rules are correctly configured.
+   Use the preceding PowerShell script to validate if the storage account network rules are correctly configured.
 
 * **If you use AAD login, check if the UserIdentity credential exists**<br>
    If this credential exists, you can give yourself permission to access the file by granting yourself the **Storage Blob Data Contributor** role on the storage account you're trying to query. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
@@ -51,7 +51,7 @@ Most customers resolve their storage access issues in Serverless SQL pool using 
 
 * **Check the [supported storage authorization types](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control?tabs=user-identity#supported-storage-authorization-types).**
 
-* **If using ADF to access the Serverless SQL pool, determine if the MSI account for your workspace has been given access to storage.**
+* **If you use ADF to access the Serverless SQL pool, determine if the MSI account for your workspace has been given access to storage.**
       MSI account has the same name as your workspace name. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal).
 
 ## **Recommended Documents**
