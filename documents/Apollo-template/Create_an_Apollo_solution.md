@@ -82,9 +82,11 @@ Required. Level 2 heading that describes the article contents, preferably in 10 
 - "Learn How to Enable Auditing for your SQL DB"
 - "Enable AD DS Authentication for Azure Files and Windows Virtual Desktop"
 
-Use the following Markdown schema. Do not add **bold** formatting. Markdown headings are bolded, by default.
+**Schema example**
+Use the following schema for titles. Do not add **bold** formatting as headings are automatically bolded.
 
-**## Title**
+## Title
+
 
 
 ## Body section<br>
@@ -161,7 +163,7 @@ High CPU can indicate that the application is performing many CPU-intensive task
 | **noResultText** | False | Text to be presented to the user if the diagnostic successfully completes but no insight is returned. | We have checked the current firewall configuration and did not find any issues. |
 | **maxInsightCount** | False | Defines the maximum number of insights to be presented if more than one insight is returned by the diagnostic. If the tag is not provided the default value of 3 will be assumed. | 5 |
 
-1. **List diagnostics in \&lt;SymptomIds\&gt;**
+1. **List diagnostics in <SymptomIds>**
 
 Provide a comma-separated list of SymptomIds for the diagnostics to be run. The order in which the SymptomIds are listed matters. Azure porta prioritizes the presented results for the first diagnostic mapped to the first SymptomId. If no insight is found or the first diagnostic failed/timed-out, the portal will proceed to get the insight from the second diagnostic and so on.
 
@@ -169,21 +171,21 @@ Provide a comma-separated list of SymptomIds for the diagnostics to be run. The 
 
 <Insight>
 
-<symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId><br>
+<symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId> 
 
-<executionText>We are checking to see if your VM was restarted</executionText><br>
+<executionText>We are checking to see if your VM was restarted</executionText> 
 
-<timeoutText>Proceeding to the next operation</timeoutText><br>
+<timeoutText>Proceeding to the next operation</timeoutText> 
 
-<noResultText>No issues found. Your VM is running smoothly.</noResultText><br>
+<noResultText>No issues found. Your VM is running smoothly.</noResultText> 
 
 </Insight>
 
-**Note** : To run each diagnostic in parallel, create separate \&lt;Insight\&gt; tags each tag
+**Note** : To run each diagnostic in parallel, create separate <Insight> tags each tag
 
 2. **Run multiple diagnostics in parallel**
 
-If you need to run multiple diagnostics in parallel, create two separate \&lt;Insight\&gt; tags. For example, if you need to present insights from two different diagnostics for the customer to have a complete picture of a resource&#39;s state, you&#39;ll need diagnostics that check that resource for 2 different things simultaneously to provide insights from both diagnostics.
+If you need to run multiple diagnostics in parallel, create two separate <Insight> tags. For example, if you need to present insights from two different diagnostics for the customer to have a complete picture of a resource's state, you'll need diagnostics that check that resource for 2 different things simultaneously to provide insights from both diagnostics.
 
 **Schema example:**
 
@@ -195,13 +197,13 @@ If you need to run multiple diagnostics in parallel, create two separate \&lt;In
 
 <Insight>
 
-     <symptomId>CannotRDPPassword</symptomId><br>
+     <symptomId>CannotRDPPassword</symptomId>
 
-     <executionText>We are checking to see if your VM was restarted</executionText><br>
+     <executionText>We are checking to see if your VM was restarted</executionText>
 
-     <timeoutText>Proceeding to the next operation</timeoutText><br>
+     <timeoutText>Proceeding to the next operation</timeoutText>
 
-     <noResultText>No issues found. Your VM is running smoothly.</noResultText><br>
+     <noResultText>No issues found. Your VM is running smoothly.</noResultText>
 
 </Insight>
 
@@ -224,11 +226,11 @@ If you need to run multiple diagnostics in parallel, create two separate \&lt;In
 
 </Insight>
 
-3. **Present multiple insights per diagnostic in <maxInsightCount>
+3. **Present multiple insights per diagnostic in <maxInsightCount>**
 
 Control the number of insights that the diagnostic returns using the <maxInsightCount> property inside the <Insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, the insights are limited to two.
 
-If this property is not defined, then we return three critical insights.
+If this property is not defined, three critical insights are returned.
 
 **Example** :
 
@@ -242,15 +244,15 @@ If this property is not defined, then we return three critical insights.
 
        <symptomId>SqlLtsFailedLogin,SqlConnectivity,SqlCustomerVerbatims,SqlLts,SqlConnectivityBasic</symptomId>
 
-   <executionText>The diagnostic is running some checks on your resource</executionText>;
+       <executionText>The diagnostic is running some checks on your resource</executionText>
 
-   <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
+      <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
 
-   <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText>
+      <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText>
 
-   <additionalInputsReq>true</additionalInputsReq>
+      <additionalInputsReq>true</additionalInputsReq>
 
-   <maxInsightCount>2</maxInsightCount>
+      <maxInsightCount>2</maxInsightCount>
 
 </Insight>
 
@@ -262,7 +264,7 @@ Azure Monitor charts target several key performance indicators (KPIs) to help th
 - Provide a succinct title for the chart that corresponds to the y-axis.
 - Explain what information to look for and how the reader will use that information. This text is required to ensure accessibility for all users.
 
-**Example** :
+**Example**:
 
 **Resolve RBAC authorization failures in Blob Storage**
 
