@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Azure Purview Missing classifications on an asset",
-    "fileAttachmentHint": "Share screenshot of your scan rule set that shows the classifications you are trying to match; In case you are using custom classification, please share a screenshot of the custom classification definition",
+    "fileAttachmentHint": "Share screenshot of your scan rule set that shows the classifications you are trying to match. If you are using custom classification, share a screenshot of the custom classification definition",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -53,7 +53,7 @@
             "id": "sample_item",
             "order": 50,
             "controlType": "textbox",
-            "displayLabel": "Share a sample item from the scanned data source that you believe should match",
+            "displayLabel": "Share a sample item from the scanned data source that you think should match",
             "required": false
         }
     ],
