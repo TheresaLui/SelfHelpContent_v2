@@ -45,20 +45,21 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 * This error most commonly occurs when the VNET selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point https://gcs.prod.monitoring.core.windows.net/ and/or blocking the following communication ports: 443, 53, 9354,
 445, 12000
-* Make sure that the following NSG rules are added to the DMS subnet. If subnet doesn't already have an NSG, please create a new NSG with the following outbound rules and add it to the DMS subnet.
+* If your DMS subnet is using NSG, please make sure that the required outbound NSG rules are added, specifically the outbound rules allowing traffic on port 443 for service tags of Azure Monitor, Service Bus and Storage. Your NSG should look similar to the following:
 
 	| Priority | Name | Port | Protocol | Source | Destination | Action |
 	| ------ | ----- | ---- | ------ | ----- | --------- | --------- |
-	| 100 | allowStorage | 443 | Any | Any | Storage | Allow |
-	| 200 | AllowServiceBus | 443 | Any | Any | ServiceBus | Allow |
-	| 300 | AllowAzureMonitor | Any | Any | Any | AzureMonitor | Allow |
-	| 1000 | deny_all | Any | Any | Any | Any | Deny |
+	| 100 | allowStorage | 443 | Any | VirtualNetwork | Storage | Allow |
+	| 200 | AllowServiceBus | 443 | Any | VirtualNetwork | ServiceBus | Allow |
+	| 300 | AllowAzureMonitor | 443 | Any | VirtualNetwork | AzureMonitor | Allow |
+	| 1000 | block_all_outbound | Any | Any | Any | Any | Deny |
 	| 65000 | AllowVnetOutBound | Any | Any | VirtualNetwork | VirtualNetwork | Allow |
 	| 65001 | AllowInternetOutBound | Any | Any | Any | Internet | Allow |
 	| 65500 | DenyAllOutBound | Any | Any | Any | Any | Deny |
 
 
-	**Note:** You can also lock down the NSG rules to a specific region, such as "Storage.WestUS2".
+	**Note:** You can also allow regional service tags instead of global service tags if needed (for eg: Storage.WestUS2), and TCP protocol instead of Any.
+
 
 * If VNET config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this,  please perform the following steps:
   - Create an Azure VM in the same VNET from which the DMS provisioning is being attempted.
@@ -67,9 +68,9 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 	*{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''*
   
-  - If you get an error, such as Page Not Found 404, that means the firewall config on your network is blocking the endpoints. Please contact your network or firewall administrator to monitor firewall logs or network capture during DMS deployment and identify the IPs/ports getting blocked.
-  - You can also try pinging the following IPs: 13.86.218.250, 104.208.27.1, 52.138.226.88, 52.169.237.246. If that fails, please refer to the point above regarding contacting your network administrator. 
+  - If you get an error, such as Page Not Found 404, that means the firewall config on your network is blocking the endpoints. Please contact your network or firewall administrator to identify the IPs/ports getting blocked.
   - If you are able to hit the endpoint and view the content, then please continue to file the support ticket.
+  - **Note:** These troubleshooting steps will also be applicable for service restart failures. 
 
 ## **Recommended Documents**
 
