@@ -7,7 +7,7 @@
     ms.author="raagyema"
     displayOrder="430"
     selfHelpType="generic"
-    supportTopicIds="32639995, 32780921"
+    supportTopicIds="32780915"
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -18,5 +18,7 @@
 # Monitoring replication
 
 ## **Recommended Steps**
+
 * `SELECT * FROM pg_replication_slots;`
+   
    PostgreSQL provides the [pg_replication_slots](https://www.postgresql.org/docs/current/view-pg-replication-slots.html) table for data on replication status. 

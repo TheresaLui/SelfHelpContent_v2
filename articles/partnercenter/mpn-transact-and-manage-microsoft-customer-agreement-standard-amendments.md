@@ -20,7 +20,7 @@
 
 # Partner Center Transact and Manage - Microsoft Customer Agreement Standard Amendments
 
-Standard amendments to the Microsoft Customer agreement for download.
+Standard amendments to the Microsoft Customer Agreement for download.
  
 ## **Recommended Steps**
 
@@ -29,7 +29,8 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 ## **Recommended Documents**
 
 * [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
-* [FSI - Portuguese](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OM67)
+* [Financial Services Amendment - Portuguese](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OM67)
+* [Financial Services Amendment for Canada – English](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ITrM)
 * [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
 * [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
 * [Data Protection Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4EYmn)
@@ -38,4 +39,7 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 * [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
 * [Professional Secrecy Amendment for Switzerland - multiple languages](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Iwvg)
 * [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
+* [Applicable DPA Amendment for Worldwide - German](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-ger-jan2021-cr.pdf)
+* [Applicable DPA Amendment for Worldwide - English](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-eng-jan2021-cr.pdf)
+
 

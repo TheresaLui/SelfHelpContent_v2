@@ -7,7 +7,7 @@
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32633020,32632960"
+	supportTopicIds="32633020,32632960,32602716"
 	resourceTags=""
 	productPesIds="15629,16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
@@ -15,24 +15,14 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Advanced Threat Protection for Azure Storage
+# Azure Defender for Storage
+
+Azure Defender for Storage protects Blob Storage, Files Storage, and Azure Data Lake Gen2 Storage. It is generally available in commercial cloud and US Government cloud. It is not available in China Government or Other Government clouds.  
 
 ## **Recommended Documents**
 
-### **About Advanced Threat Protection for Azure Storage**
-
-- [Set Azure ATP notifications](https://docs.microsoft.com/azure-advanced-threat-protection/notifications)
-- [Advanced Threat Protection for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-advanced-threat-protection)
-
-### **Set Up Advanced Threat Protection for Azure Storage**
-
-- [Set Azure ATP notifications](https://docs.microsoft.com/azure/storage/common/storage-advanced-threat-protection#set-up-advanced-threat-protection)
-- [Set up Advanced Threat Protection using ARM](https://azure.microsoft.com/resources/templates/201-storage-advanced-threat-protection-create)
-- [Set up Advanced Threat Protection using REST API](https://docs.microsoft.com/azure/storage/common/storage-advanced-threat-protection#using-rest-api)
-- [Set up Advanced Threat Protection using PowerShell](https://docs.microsoft.com/azure/storage/common/storage-advanced-threat-protection#using-azure-powershell)
-
-### **Manage Advanced Threat Protection for Azure Storage**
-
-- [Set Azure Storage ATP Protection alerts](https://docs.microsoft.com/azure/storage/common/storage-advanced-threat-protection#protection-alerts)  
-- [Working with Security Alerts](https://docs.microsoft.com/azure-advanced-threat-protection/working-with-suspicious-activities)
-- [Managing and responding to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts) 
+- [Configure Azure Defender for Storage](https://docs.microsoft.com/azure/storage/common/azure-defender-storage-configure?tabs=azure-security-center)
+- [Introduction to Azure Defender for Storage](https://docs.microsoft.com/azure/security-center/defender-for-storage-introduction)
+- [List of Alerts for Azure Storage](https://docs.microsoft.com/azure/security-center/alerts-reference#alerts-azurestorage)
+- [Manage and Respond to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)
+- [How to suppress false positives or other unwanted security alerts from Azure Defender](https://docs.microsoft.com/azure/security-center/alerts-suppression-rules)

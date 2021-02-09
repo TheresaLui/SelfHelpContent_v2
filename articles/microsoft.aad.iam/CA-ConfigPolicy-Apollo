@@ -1,0 +1,67 @@
+ 
+<properties
+pageTitle="Configuring new or existing policy settings"
+description="Issues related to how to configure new or existing policy settings"
+ms.author="marwa"
+displayOrder=""
+articleId="9e0b1410-af02-46a3-8c6d-d659cf88fbf8"
+selfHelpType="Apollo"
+supportTopicIds="ed228605-ddb7-d2c3-626d-dae69939a1a6"
+productPesIds="16579"
+cloudEnvironments="public"
+ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
+ 
+# Welcome to our new guided troubleshooting experience for Conditional Access
+
+## Troubleshooting issues related to Conditional Access 
+:::Section Insights:::
+Resolve issues related to Conditional Access using insights from diagnostics, and recommended solutions below.
+
+### How-to video
+
+Learn to deploy Conditional Access using the how-to video below:
+<video>
+<src>https://www.youtube.com/watch?v=c_izIRNJNuk</src>        
+<title>How to deploy Conditional Access</title>
+<size>small</size>        
+</video>
+
+<br/>
+
+### Sign-in diagnostic
+
+Resolve issues with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+
+You can quickly diagnose issues related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):  
+ 
+1. Launch the Sign-in Diagnostic.
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request ID, or correlation ID.
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes, if any changes are needed.
+
+<br/>
+
+### Steps to deploy a Conditional Access Policy
+
+Before you get started, download the step-by-step Conditional Access [Deployment plan](https://github.com/AzureAD/Deployment-Plans/raw/master/Conditional%20Access/CA%20Deployment%20Plan.docx)
+
+1. [Configure policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
+2. Test policy using the [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)
+3. [Move to production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
+
+<br/>
+
+### Recommended documents
+	
+Common Conditional Access Policies
+* [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
+* [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+* [Require Compliant Devices](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
+
+<br/>
+
+### More resources
+Here are some articles from the web that may help you:
+<azureKB>
+<client>Portal</client>
+</azureKB>

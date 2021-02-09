@@ -21,3 +21,4 @@
 ## **Recommended Documents**
 
 * [Performance optimization for Apache Spark using Hyperspace indexes](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance-hyperspace?pivots=programming-language-csharp)
+ 

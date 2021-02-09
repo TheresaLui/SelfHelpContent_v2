@@ -35,7 +35,7 @@
 	   "order": 2,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
@@ -170,8 +170,13 @@
            {
 		   "value": "signoff_status",
 		   "text": "Publisher sign-off status"
-	       }],
-	   "required": false
+	       },
+	       {
+		   "value": "dont_know_answer",
+		   "text": "Not sure"
+	       }
+	       ],
+	   "required": true
        },
        {
 	   "id": "pc_isv_private_preview",
@@ -180,15 +185,6 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Please confirm the email address of the person trying to access the preview link",
 	   "watermarkText": "Email address of the person trying to access the preview link",
-	   "required": false
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "visibility": null,
-	   "order": 10,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
 	   "required": false
        },
        {

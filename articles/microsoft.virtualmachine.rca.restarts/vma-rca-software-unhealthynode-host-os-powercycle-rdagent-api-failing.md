@@ -24,19 +24,19 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > This unexpected occurrence was caused by a platform initiated reboot when it was detected that a critical hosting environment service had become unresponsive.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
-> Our core Azure Engineering teams are tracking this incident and are working on a solution for this issue.  Unfortunately, at the moment we do not have an ETA for the fix. Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
+### **Additional Information**
+> Our core Azure Engineering teams are tracking this incident and are working on a solution for this issue.  Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
 > 
 > - Software layer: OS Kernel, Hypervisor
 > - Hardware layer:  BIOS, Firmware

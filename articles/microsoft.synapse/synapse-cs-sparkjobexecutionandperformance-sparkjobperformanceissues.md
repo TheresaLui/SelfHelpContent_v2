@@ -49,3 +49,4 @@ Spark pools in Azure Synapse include the following libraries that are available 
 * [Monitor your Apache Spark applications](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications#accessing-the-list-of-spark-applications)
 
 * [Microsoft Spark Utilities](https://docs.microsoft.com/azure/synapse-analytics/spark/microsoft-spark-utilities?pivots=programming-language-csharp)
+ 

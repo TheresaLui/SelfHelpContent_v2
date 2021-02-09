@@ -30,3 +30,4 @@
 
 * Make sure destination storage account is in the same region your Serverless SQL pool endpoint is. You can find storage account and workspace regions on Azure Portal, in Overview blades of your storage account and workspace. 
 
+ 

@@ -31,3 +31,4 @@ Choose a SQL client to issue queries:
 
 Spark supports [IntelliJ](https://docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse).
 
+ 

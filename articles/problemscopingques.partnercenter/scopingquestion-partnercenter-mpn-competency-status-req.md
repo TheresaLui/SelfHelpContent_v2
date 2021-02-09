@@ -4,7 +4,7 @@
 	authors="a-crmire" 
 	ms.author="a-crmire"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32725866,32725868"
+	supportTopicIds="32725868"
 	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"

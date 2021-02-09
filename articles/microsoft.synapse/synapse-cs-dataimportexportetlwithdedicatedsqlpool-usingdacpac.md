@@ -30,3 +30,4 @@
 * [Source Control Integration for Dedicated SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-source-control-integration)
 
 
+ 

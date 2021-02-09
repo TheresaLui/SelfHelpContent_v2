@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The auto-recovery action was triggered by our Azure monitoring systems that detected a failure condition caused by a recently discovered platform bug with the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > The VMs on this node have been Service Healed onto a healthy node to avoid further impact.  The unhealthy node has been taken out of service for analysis and repair.  Our core engineers are working to minimize such occurrences.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Our core platform engineers and are working on a fix for the platform bug that will be deployed to all affected nodes. To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
 > 
 <!--/additionalInfo-->

@@ -18,7 +18,7 @@
    "dataSourceMetadata":{
       "streamNamespace":"cluster('https://cogsvcff.kusto.usgovcloudapi.net').database('Platform').TAResourcesWithOldSDK",
       "dataSource":"Kusto",
-      "refreshInterval":"00:01:00"
+      "refreshInterval":"12:00:00"
    },
    "recommendationCategory":"Performance",
    "recommendationImpact":"Medium",
@@ -36,7 +36,7 @@
    },
    "ingestionClientIdentities":[
    ],
-   "version":1,
+   "version":3,
    "learnMoreLink":"https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/text-analytics-sdk?tabs=version-3-1&pivots=programming-language-csharp",
    "description":"Upgrade to the latest Cognitive Service Text Analytics SDK version",
    "longDescription":"Please upgrade to the latest SDK version for better availability and performance",

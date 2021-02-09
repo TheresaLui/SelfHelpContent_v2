@@ -30,3 +30,4 @@
 
 * How-to [delete a workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#clean-up-resources)
 
+ 

@@ -38,3 +38,4 @@ Currently supported Synapse run-times to access Azure Cosmos DB analytical store
 
 * [Query Azure Cosmos DB data with Serverless SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql/query-cosmos-db-analytical-store?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
 
+ 

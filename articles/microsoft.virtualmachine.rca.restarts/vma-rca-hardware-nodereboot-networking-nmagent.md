@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Networking NMAgent"
+	description="Root Cause Analysis (RCA) - Hardware - Network Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > Microsoft Azure team has finished investigating the issue with your virtual machine. The physical host node where your VM was running was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot. Our core engineers are working on improving the platform to minimize such occurrences.
+### **Resolution**
+> VM was restored following reboot of the host node. Our core engineers are working on improving the platform to minimize such occurrences.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. There is an expected downtime during these updates.
 > 
 <!--/additionalInfo-->

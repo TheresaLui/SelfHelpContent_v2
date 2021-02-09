@@ -17,5 +17,5 @@
 
 # Check Policy IP range
 
-Does the JIT Policy include the source IP address of the machine that you are trying to connect from?
+1. Check if the JIT Policy include the source IP address of the machine that you are trying to connect from
 

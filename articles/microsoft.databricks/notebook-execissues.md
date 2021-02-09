@@ -23,6 +23,8 @@
 
 * [Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features that we develop for Databricks cluster runtimes or images. This includes proprietary features and optimizations.
 
+* To run a Spark job, you need at least one worker. If a cluster has zero workers, you can run non-Spark commands on the driver, but Spark commands will fail.
+
 * If you get error **java.io.EOFException** when handling a huge data set in Spark R, even with a larger cluster, the issue is caused by design because Spark R uses driver node specific to framework resource. To resolve, handle the pipeline by dividing data into smaller sets.
 
 * If you get exception **py4j.security.Py4JSecurityException: … is not whitelisted** on a High Concurrency cluster with Credential Passthrough enabled, this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve this issue:

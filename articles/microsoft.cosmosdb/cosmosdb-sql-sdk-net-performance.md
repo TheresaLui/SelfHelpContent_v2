@@ -29,11 +29,20 @@ Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL AP
 * .NET V3 SDK CosmosClient [CosmosClientOptions.ApplicationRegion](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.cosmosclientoptions.applicationregion?view=azure-dotnet)  
 
 Additional latency and performance tips include:  
-* Use [Direct/Tcp as connectivity mode](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking)
+* Use [Direct/Tcp as connectivity mode](https://docs.microsoft.com/azure/cosmos-db/sql-sdk-connection-modes)
 * Include client into Cosmos account VNET 
 * For Azure functions, use non-consumption plan 
 * Ensure that maximum CPU utilization measured at 10 second granularity stays under 40% 
 * Ensure that Cosmos container is not getting throttled. By default SDK does retry throttles for availability, which can be overridden through below APIs.
+
+### **Extract network diagnostic information**
+The SDK provides detailed information on network latency on every request. You can obtain these details from:
+
+* The *RequestDiagnosticsString* property on responses in .NET V2 SDK when using Direct connectivity mode.
+* Calling `ToString()` on the *Diagnostics* property on responses and exceptions in .NET V3 SDK.
+
+This valuable information will show which are the requests being done, and the network latency for each. This information is useful for the support team and can also be used to identify potential networking problems.
+
 
 ### **Ephemeral port exhaustion**
 If you are facing a high connection volume or high port usage on your instances, first verify your client instances are singletons or unique for the lifetime of the application.
