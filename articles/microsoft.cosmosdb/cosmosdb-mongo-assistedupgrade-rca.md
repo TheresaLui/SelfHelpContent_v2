@@ -22,7 +22,7 @@
 
 Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v3.6. Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 
-The upgrade process will not result in any service interruptions nor require any downtime. This will require an index migration. Please run the [reindex command](https://docs.mongodb.com/manual/reference/method/db.collection.reIndex/) on the identified collections. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+The upgrade process will not result in any service interruptions nor require any downtime. This will require an index migration. Please run the [reindex](https://docs.mongodb.com/manual/reference/method/db.collection.reIndex/) command on the identified collections. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 ### Benefits of upgrading to version 3.6
 
