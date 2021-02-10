@@ -23,7 +23,7 @@
 	"recommendationImpact": "Medium",
 	"recommendationResourceType": "Microsoft.KeyVault/managedHsms",
 	"recommendationFriendlyName": "UpgradeKeyVaultMHSMSDK",
-	"recommendationMetadataState": "Disabled",
+	"recommendationMetadataState": "Active",
 	"owner": {
 		"email": "mhsmdevs@microsoft.com",
 		"icm": {
@@ -33,7 +33,7 @@
 		},
 		"serviceTreeId": "2673daf5-683b-4f60-aa7b-d0313ecf4e70"
 	},
-	"version": 1,
+	"version": 2,
 	"learnMoreLink": "https://docs.microsoft.com/azure/key-vault/general/client-libraries",
 	"description": "Update Key Vault SDK Version",
 	"longDescription": "New Key Vault Client Libraries are split to keys, secrets, and certificates SDKs, which are integrated with recommended Azure Identity library to provide seamless authentication to Key Vault across all languages and environments. It also contains several performance fixes to issues reported by customers and proactively identified through our QA process.

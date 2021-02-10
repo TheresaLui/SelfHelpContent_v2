@@ -1,24 +1,23 @@
-
 <properties
-pageTitle="Create custom fields in Log Analytics"
-description="Create custom fields in Log Analytics"
-service="microsoft.operationalinsights"
-resource="workspaces"
-symptomID=""
-infoBubbleText=""
-authors="yossiy"
-ms.author="yossiy"
-displayorder=""
-selfHelpType="generic"
-supportTopicIds="32612447"
-resourceTags=""
-productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
-	articleId="c8800415-6bac-45c4-8fab-bb72c7a306eb"
-	ownershipId="AzureMonitoring_LogAnalytics"
-/>
+  pagetitle="Custom Fields in Log Analytics"
+  service="microsoft.operationalinsights"
+  resource="workspaces"
+  ms.author="yossiy"
+  selfhelptype="Generic"
+  supporttopicids="32745410"
+  resourcetags=""
+  productpesids="15725"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake"
+  disableclouds="blackforest"
+  articleid="c8800415-6bac-45c4-8fab-bb72c7a306eb"
+  ownershipid="AzureMonitoring_LogAnalytics" />
+# Custom Fields in Log Analytics
 
-# Create Custom Fields in Log Analytics
+You can remove a custom field by using the following REST request: 
+
+```
+Delete https://management.azure.com/subscriptions/{{subscriptionID}}/resourceGroups//{{resourcegroupname}}/providers/Microsoft.OperationalInsights/workspaces/{{loganalyticworkspacename}}/customfields/AzureDiagnostics!{{customfieldsname}}?api-version=2015-11-01-preview
+```
 
 ## **Recommended Documents**
 

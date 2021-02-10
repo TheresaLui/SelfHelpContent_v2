@@ -31,7 +31,7 @@
                     "id": "issue_description",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Describe the issue that you're facing:",
+                    "displayLabel": "Please scope the issue that you're facing:",
                     "watermarkText": "Choose an option",
                     "dropdownOptions":
 					[

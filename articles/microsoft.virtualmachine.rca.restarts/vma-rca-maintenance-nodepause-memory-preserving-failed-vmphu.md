@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Maintenance - Node Pause - Memory Preserving - Failed"
+	description="Root Cause Analysis (RCA) - Maintenance - Memory Preserving Update"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,12 +25,12 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> This occurrence was caused by an **Azure initiated memory-preserving update action** resulting in the VM rebooting. 
+> This occurrence was caused by an Azure initiated memory-preserving update action, which resulted in the VM rebooting. 
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> VM was restored after the update was completed.
 > 
 <!--/resolutionDetails-->
 

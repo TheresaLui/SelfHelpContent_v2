@@ -107,38 +107,17 @@
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
         },
         {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -166,7 +145,7 @@
         },
         {
             "id": "registration_name",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Registration name",
             "watermarkText": "Name of your Azure Stack registration",
@@ -174,7 +153,7 @@
             "infoBalloonText": "You can find the registration name in Region Management - Properties"
         }, {
             "id": "Subscription_name",
-            "order": 9,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "ID of Azure Subscription used for registration",
@@ -183,14 +162,14 @@
         },
 {
             "id": "image_name",
-            "order": 10,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Image name",
             "watermarkText": "Image Name",
             "required": false
         },{
             "id": "image_version",
-            "order": 11,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "Image version",
             "watermarkText": "Image version",

@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   authors="elixirsys2"
-  ms.author="shemers, olegan"
+  ms.author="shemers, olegan, luki"
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674"
   ownershipid="AzureMonitoring_LogAnalytics" />
 # Support Topic Descriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674
@@ -166,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2f9403e1-8960-b0dc-dc2e-68e174562120",
+      "longDescription": "",
+      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
+      "searchTags": "OMS;Monitor;Agent",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "30ddae08-4760-ee4b-4187-d11a1eaae8b3",
       "longDescription": "",
       "shortDescription": "Assistance with setting ingestion daily cap, and how to control data volume in your workspace ",
@@ -176,10 +185,10 @@
     {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
-      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
-      "searchTags": "Log Analytics;Agent;OMS;Collect",
+      "shortDescription": "Issues related with the Windows Log Analytics agent (previously known as MMA)",
+      "searchTags": "Log Analytics;Agent;OMS;Collect;MMA",
       "category": "Data Collection",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "34ee4c48-dc0a-4b7f-0714-895cabd00e47",
@@ -240,7 +249,7 @@
     {
       "id": "4fb18d17-9056-ed22-a90d-15e71a6ea99f",
       "longDescription": "",
-      "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
+      "shortDescription": "Troubleshoot agent installation failures",
       "searchTags": "Agnets;Windows;CPU;OMI",
       "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
@@ -286,9 +295,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6042dbf8-8787-1233-3ac2-2b6e27ffe29e",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics data export feature. ",
+      "searchTags": "Data export;Log Analytics",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618641f5-670c-a008-fa47-18e1438552c3",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "shortDescription": "Investigate high processor (CPU) or memory usage caused by one of the Windows Agent processes.",
       "searchTags": "Agents;Log Analytics;Virtual Machine",
       "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
@@ -360,8 +377,8 @@
     {
       "id": "7df0385d-a098-72c2-f419-8293761a4b0b",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring Custom Logs within Log Analytics workspace.",
-      "searchTags": "Custom Logs;workspace",
+      "shortDescription": "Extracting data into Custom Fields during ingestion, management of custom fields ",
+      "searchTags": "Custom Logs;Field",
       "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "false"
     },
