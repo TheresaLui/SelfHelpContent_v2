@@ -1,11 +1,9 @@
 # Overview
 
-_[All phrases marked with_ _ **\&lt; \&gt;** _ _need to be linked to the relevant documents.]_
-
 ### Overview of Solution 2.0
 
 Apollo is an insightful, powerful, self-help experience for our customers and support engineers. By introducing a single, customizable canvas, 
-Apollo lets you create a solution that specifically targets the customer&#39;s issue and expedites the troubleshooting experience.
+Apollo lets you create a solution that specifically targets the customer's issue and expedites the troubleshooting experience.
 
 Following are the available Apollo solutions. For more information, including examples of media-rich components that you can incorporate into each solution, 
 see the following links:
