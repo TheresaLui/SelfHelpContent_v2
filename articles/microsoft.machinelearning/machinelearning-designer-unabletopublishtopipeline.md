@@ -16,13 +16,13 @@
 
 # Unable to publish to pipeline
 
-Most users are able to resolve this issue using the steps below.
+Most users are able to resolve this issue using the following steps.
 
 ## **Recommended Steps**
 
-1. Click on the **Publish** button at the top right of the canvas.
-2. Since published pipeline or pipeline endpoint is usually for retraining or batch inference scenarios, it's better to set pipeline parameters before publishing the pipeline.
-3. If there's any error when publishing the pipeline, ssend us feedback by clicking the smile icon in the top right corner with **including screenshot** selected. Our engineer team will investigate.
+1. Select **Publish** at the top right of the canvas.
+2. Published pipeline or pipeline endpoint is usually for retraining or batch inference scenarios. Therefore, set pipeline parameters before publishing the pipeline.
+3. If you receive an error when publishing the pipeline, send us feedback by selecting the smile icon in the top-right corner and **including screenshot**. Our engineer team will investigate.
 
 ## **Recommended Documents**
 
