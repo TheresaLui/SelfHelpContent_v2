@@ -20,12 +20,12 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, may have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The host node reboot action was triggered by our Azure monitoring systems that detected a failure condition due to a **recently discovered platform bug** with the physical node where the virtual machine was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
+> The host node reboot action was triggered by our Azure monitoring systems. These systems detected a failure condition due to a recently discovered platform bug with the physical node where the virtual machine was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, may have failed during this time.
 > 
 
 <!--resolutionDetails-->
