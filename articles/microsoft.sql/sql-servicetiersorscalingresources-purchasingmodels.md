@@ -20,6 +20,8 @@
 
 ** If you have already tried to scale a database or elastic pool and are facing issues (operation is long running , stuck , or have general questions), please go back to the Previous:Basics tab and select the Problem subtype(last drop down) to be Issues scaling a database or elastic pool. **
 
+[Goto](button-data-blade:<button-data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade.assetId.$resourceId>)
+
 ## Moving between service tiers
 
 You can easily convert your database to any supported performance objective (DTU to VCore and visa versa) by using the Azure portal, PowerShell, the Azure CLI, T-SQL, or the REST API. You don't need to take the application offline. The service tiers offer a simple online-conversion method that's similar to the existing process of upgrading databases from the standard to the premium service tier and the other way around.
