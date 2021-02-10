@@ -2,7 +2,7 @@
   pagetitle="V2 - Pipeline Activities - Databricks"
   service=""
   resource=""
-  ms.author="chez,haoc,rakatuko"
+  ms.author="chez,haoc,rakatuko,dfandel"
   selfhelptype="Generic"
   supporttopicids="32629480"
   resourcetags=""
@@ -18,11 +18,17 @@
 
 * If your Databricks Notebook Activity is running for a longer period or failed: Because this is a customer-owned cluster, go to the Databricks account or URL provided in the pipeline to find the cluster logs for more details about the error.
 
+* If you are having authentication issues your DataBricks access token might be expired.  [Generation Instructions](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
+
 ## **Recommended Documents**
 
-* Activities documents, including: <br>
-  * Databricks [Jar Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-jar) <br>
-  * Databricks [Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook) <br>
+* Activities documents, including:
+  * [Databricks documents](https://docs.microsoft.com/en-us/azure/databricks/)
+  * Databricks [Jar Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-jar)
+  * Databricks [Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook)
   * Databricks [Python Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-python)
 
-* Transform data in the cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)
+* Other document
+  * Transform data in the cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)
+  * [Databricks Linked Services](https://docs.microsoft.com/en-us/azure/data-factory/compute-linked-services#azure-databricks-linked-service)
+  * [Databricks Solution Template](https://docs.microsoft.com/en-us/azure/data-factory/solution-template-databricks-notebook)
