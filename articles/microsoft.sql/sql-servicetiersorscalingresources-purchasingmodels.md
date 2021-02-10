@@ -10,7 +10,7 @@
 	supportTopicIds="32632131"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	articleId="48307c17-7e37-4428-80e9-b3a30fdfa4dd"
+	articleId="sql-servicetiersorscalingresources-purchasingmodels"
 	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
