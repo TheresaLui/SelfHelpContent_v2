@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeReboot - Workflow TimeOut - HyperV"
+	description="Root Cause Analysis (RCA) - Software Workflow TimeOut - HyperV"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
