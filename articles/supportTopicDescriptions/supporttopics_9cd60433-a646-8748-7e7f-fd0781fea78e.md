@@ -335,6 +335,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f85f94d5-535b-ed24-682e-50cfd1d509ef",
+      "longDescription": "",
+      "shortDescription": "How to create, filter by severity, Include or exclude specific alerts problems",
+      "searchTags": "Analytics;Incidents;rules;configuration",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
       "longDescription": "",
       "shortDescription": "How to understand Azure Sentinel costs",
