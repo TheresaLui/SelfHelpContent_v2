@@ -26,13 +26,13 @@ Our diagnostic has detected that the configured application(s) have not sent any
 
 ## **Recommended Steps**
 
-If you've configured your application to send data to Application Insights but aren't seeing the data you expect, try the following steps:
+If you've configured your application to send data to Application Insights, but aren't seeing the data you expect, try the following steps:
 
 1. If you *aren't seeing any data at all*, validate that your instrumentation key is set correctly through your code or in your configuration file
 2. If you *used to see data but don't anymore*, validate that a deployment has not modified or removed Application Insights configuration or dependencies. If you have configured your application to send data through Status Monitor and web published, ensure you do not select the "delete existing files" option during publish.
 3. If you *see data for a pre-production/development environment but not your production environment*, ensure that you have [configured your firewall to allow traffic through the ports required](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses) for Application Insights to send data. In addition, if your instrumentation key is set programmatically or through a configuration file, validate that these values are correct.
 
-If none of these steps resolve your issue, there are more detailed checklists to follow in the links below depending on which SDK or method of application instrumentation you are using.
+If none of these steps resolve your issue, review checklists in the links below for the SDK or method of application instrumentation you are using.
 
 ## **Recommended Documents**
 
