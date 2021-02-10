@@ -24,13 +24,13 @@
 
 You can initiate the recovery of your storage account directly from the Azure portal. <br />
 
-1. Select the following button to recover your deleted storage account. Then, refer to [these instructions](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json).
+   - Select the following button to recover your deleted storage account. Then, refer to [these instructions](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json).
 
-<a href="data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId"><button type="button" style="background-color:#1E90FF;color:white;width:240px; height:40px;"><b> Initiate Storage Account Recovery </b> </button></a>
+   <a href="data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId"><button type="button" style="background-color:#1E90FF;color:white;width:240px; height:40px;"><b> Initiate Storage Account Recovery </b> </button></a>
 
-**Important:** To recover a storage account in a deleted resource group, re-create the resource group first or recovery will fail.
+   **Important:** To recover a storage account in a deleted resource group, re-create the resource group first or recovery will fail.
 
-<!-- ### [**Click here to recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br /> -->
+   <!-- ### [**Click here to recover a deleted storage account**](data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId) <br /> -->
 
 ### **Storage Data Recovery Guidelines**
 
