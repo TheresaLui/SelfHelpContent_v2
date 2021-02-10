@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The host node reboot was triggered by our Azure monitoring systems detecting that the physical node was not successfully responding to VM operations. We identified that this was caused due to a hyper-v related platform bug involving local (VM) storage stack. 
+> The host node reboot was triggered by our Azure monitoring systems, which detected that the physical node was not successfully responding to VM operations. This was caused by a hyper-v related platform bug involving local (VM) storage stack. 
 > 
 
 <!--resolutionDetails-->
