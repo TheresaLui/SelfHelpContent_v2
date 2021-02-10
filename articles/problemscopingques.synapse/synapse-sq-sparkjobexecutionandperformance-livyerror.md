@@ -26,7 +26,7 @@
             "order": 1,
             "required": true,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "infoBalloonText": ""
         },
         {
@@ -62,7 +62,7 @@
             "order": 3,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": "What was the 'Yarn Application ID'?",
+            "displayLabel": "What was the Yarn Application ID?",
             "watermarkText": "eg. application_123456789012_0001",
             "infoBalloonText": "You can find this info from Synapse Studio"
         },
@@ -71,7 +71,7 @@
             "order": 4,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": "What was the 'Livy Job ID'?",
+            "displayLabel": "What was the Livy Job ID?",
             "watermarkText": "",
             "infoBalloonText": "You can find this info from Synapse Studio"
         },
@@ -80,7 +80,7 @@
             "order": 5,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "If an error appeared, what was the message?",
             "watermarkText": "",
             "infoBalloonText": ""
         },
