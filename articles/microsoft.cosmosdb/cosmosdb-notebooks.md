@@ -24,7 +24,7 @@ Unable to create account with notebooks, or enable notebooks on an existing acco
 
 ## **Recommended Steps**
 
-Built-in notebooks for Azure Cosmos DB are currently available in [29 Azure regions](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks#supported-regions). To use notebooks, create a new account or enable notebooks on an existing account in one of these regions. 
+Built-in notebooks for Azure Cosmos DB are currently available in [29 Azure regions](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks#supported-regions). To use notebooks, create a new account or enable notebooks on an existing account in one of the supported regions. 
 
 Starting February 10, 2021, new Cosmos accounts created in supported regions will automatically have notebooks enabled. There is no configuration required during account creation. After creating the account, you can access your notebooks workspace in Data Explorer. 
 
