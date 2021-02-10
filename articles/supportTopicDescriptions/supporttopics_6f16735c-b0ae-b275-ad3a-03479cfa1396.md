@@ -266,6 +266,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "2f4c71ea-0de5-151e-69cc-8c2222140f2e",
+      "longDescription": "",
+      "shortDescription": "Assistance and support for High Performance Compute (HPC)",
+      "searchTags": "HPC",
+      "category": "HPC",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "31b44bbf-c250-1176-5986-9cdc37510515",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",

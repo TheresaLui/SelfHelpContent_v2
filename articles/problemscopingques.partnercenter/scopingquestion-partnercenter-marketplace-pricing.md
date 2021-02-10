@@ -27,7 +27,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
@@ -81,14 +81,6 @@
 	       }
 	       ],
 	   "required": true
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "order": 5,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
        },
        {
 	   "id": "problem_description",
