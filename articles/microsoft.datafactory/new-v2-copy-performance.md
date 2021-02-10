@@ -13,13 +13,15 @@
   ownershipid="AzureData_DataFactory" />
 # Understand and Tune Performance of Copy Activity
 
-**Note:** If you use **Self-Hosted IR** follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
+Troubleshoot and tune performance of copy activity using these resources. 
 
 ## Troubleshooting performance issue
 
 When troubleshooting performance issues, refer to the copy status to better understand time spent from the source or destination.
 * If the greatest amount of time was spent from the source, focus on the source from IR. This can point to either a source side issue or a connectivity issue between the IR and Source. For details, refer to [Performance troubleshooting](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting).
 * If you want to focus on the network between the IR and Source/Sink, check for any retransmission between the Integration Runtime and the Source/Sink.
+
+**Note:** If you use Self-Hosted IR, follow the steps in this [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory). Make sure to note the **Report ID** of each IR node to provide it with the support request.
 
 ## **Recommended Steps**
 
@@ -49,7 +51,7 @@ Consider the following guides for tuning and improving the execution of the copy
 
 Most users are able to resolve issues regarding custom ADF copy code performance and intermittent errors by using the steps below.
 
-* Instead of using **client.Factories.List()**, use  **client.Factories.Get()** by `dataFactoryName`.<br>
+* Instead of `client.Factories.List()`, use  `client.Factories.Get()` by `dataFactoryName`.<br>
 
 * Use `GET` with the Data Factory Name to reduce the number of list factories objects that are called.<br>
 
