@@ -17,7 +17,7 @@ As of January 31, 2020, all partners in the Cloud Solution Provider program shou
 
 ## **Recommended Steps**
 
-Before you proceed, we highly recommend you read  [MPA FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) to understand your MPN and CSP account structure in Partner Center and other common questions to help you with this onboarding.
+Before you proceed, we **highly recommend** you read  [MPA FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) to understand your MPN and CSP account structure in Partner Center and other common questions to help you with this onboarding. 
 
 **Actions for Indirect Resellers**
 1. [Download](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx) the step-by-step guide to migrate your PMC account to PC. It also includes troubleshooting steps.
