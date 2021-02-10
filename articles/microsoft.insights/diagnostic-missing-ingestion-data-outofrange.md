@@ -26,7 +26,7 @@ Our diagnostic has detected that the Application Insights resource with name <!-
 
 ## **Recommended Steps**
 
-The most common reason this happens is an application goes offline for more than four hours and then reconnects to the internet. An example where this could happen is an application is hosted behind a firewall that unexpectedly does not allow connections to our ingestion endpoints. Our ingestion endpoints will not accept telemetry that is beyond this four-hour window. This scenario is most common for non-web applications that do not send all telemetry on application exit. 
+The most common reason this happens is an application goes offline for more than four hours and then reconnects to the internet. For example, an application is hosted behind a firewall that unexpectedly does not allow connections to our ingestion endpoints. Our ingestion endpoints will not accept telemetry beyond this four-hour window. This scenario is most common for non-web applications that don't send all telemetry on application exit. 
 
 There are older versions of the .NET and Java SDK that can cause this behavior as well. These older versions might have received a bad response code from the ingestion endpoint and were unable to recover. For example in [.net versions prior to 2.10.0](https://github.com/Microsoft/ApplicationInsights-dotnet/issues/1049) and in [Java versions prior to 2.0.0](https://github.com/microsoft/ApplicationInsights-Java/pull/561).
 
