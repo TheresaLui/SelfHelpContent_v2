@@ -1,19 +1,17 @@
 <properties
-    pageTitle="Application consistent recovery points are not being generated"
-    description="Missing app-consistent points that you wanted to use in order to failover"
-    service="microsoft.recoveryservices"
-    resource="vaults"
-    authors="v-miegge"
-    ms.author="sideeksh"
-    selfHelpType="generic"
-    supportTopicIds="32744975"
-    resourceTags=""
-    productPesIds="16370"
-    ownershipId="Compute_SiteRecovery"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
-/>
-
+  pagetitle="Application consistent recovery points are not being generated&#xD;"
+  description="Missing app-consistent points that you wanted to use in order to failover"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sideeksh,sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32744975"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
+  ownershipid="Compute_SiteRecovery" />
 # Application consistent recovery points are not being generated
 
 ## **Recommended Documents**
