@@ -19,7 +19,7 @@
 [Diagnosing connectivity using iothub-diagnostics](https://github.com/Azure/iothub-diagnostics)<br>
 [Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)
 
-## **Notes**
+**Notes**
 Ensure that each device has its own device identity-- do not share device connection strings across multiple devices. They will fight for the same connection.
 
 Ensure that you are only using one device client per device application. Similar to the scenario above, multiple device clients with the same connection details will contend for the same connection, causing frequent timeouts and reconnects. 
