@@ -6,13 +6,13 @@
     resource="databaseAccounts"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="cosmosdb-mongo-selfserveupgrade-rca"
-    diagnosticScenario="CosmosDBMongoSelfServeUpgradeInsight"
+    articleId="cosmosdb-mongo-assistedupgrade-rca"
+    diagnosticScenario="CosmosDBMongoAssistedUpgradeInsight"
     selfHelpType="rca"
     supportTopicIds="32636757"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
