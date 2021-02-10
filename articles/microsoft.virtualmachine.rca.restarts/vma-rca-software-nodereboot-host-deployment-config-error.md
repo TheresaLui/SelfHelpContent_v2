@@ -25,20 +25,20 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> We identified the physical host node where the VM was running was undergoing updates for our platform components. We determined that a recent azure deployment task inadvertently contained a configuration error when it was deployed broadly. Due to the error the deployment failed and resulted in a number of target nodes in the cluster to become unhealthy. As a result VMs on those nodes were rebooted.
+> We identified that the physical host node where the VM was running was undergoing updates for our platform components. We determined that a recent Azure deployment task inadvertently contained a configuration error when it was deployed broadly. Due to the error, the deployment failed and resulted in a number of target nodes in the cluster to become unhealthy. As a result VMs on those nodes were rebooted.
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
 > VM was restored following reboot of the host node.
 > 
-> The issue was quickly detected and the ongoing deployment was stopped. Subsequently roll out of the non-impacting update will contain a fix which will resolve the issue.
+> The issue was quickly detected and the ongoing deployment was stopped. Subsequent roll outs of the non-impacting update will contain a fix which resolves the issue.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
 ### **Additional Information**
-> We sincerely apologize for the impact to affected customers. We are continuously taking steps to improve the Microsoft Azure Platform and our processes to help reduce the duration of such incidents. This includes (but is not limited to): 
+> We sincerely apologize for the impact to affected customers. We are continuously improving the Microsoft Azure Platform and our processes to reduce the duration of such incidents. This includes (but is not limited to): 
 > 
 > - Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates
 > - Improving deployment monitoring and correlation capabilities to detect such faults and halt the rollout sooner
