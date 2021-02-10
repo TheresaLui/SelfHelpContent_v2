@@ -2,7 +2,7 @@
   pagetitle="AlwaysOn, High Availability, Disaster Recovery - SQL Server Failover Clustered Instance"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun"
+  ms.author="amamun,ujpat"
   selfhelptype="Generic"
   supporttopicids="32740097"
   resourcetags="windowssql"
@@ -40,16 +40,17 @@
 
 - Run the following PowerShell command on any node of the cluster in the same Azure region. You have to update and run the script again in other regions if you have an Azure multi-region setup: 
 
-```
-$ClusterNetworkName = "Cluster Network Name"
-$IPResourceName = "SQL Server FCI / AG Listener IP Address Resource Name" 
-$ILBIP = "n.n.n.n" 
-[int]$ProbePort = <nnnnn>
-Import-Module FailoverClusters
-Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}
-```
+   ```
+   $ClusterNetworkName = "Cluster Network Name"
+   $IPResourceName = "SQL Server FCI / AG Listener IP Address Resource Name" 
+   $ILBIP = "n.n.n.n" 
+   [int]$ProbePort = <nnnnn>
+   Import-Module FailoverClusters
+   Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";
+   "ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}         
+   ```
 
-**SQL VM Resource Provider on FCI** 
+**SQL IaaS Extension on FCI** 
 FCI on Azure VM only supports lightweight management mode. [Learn more](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-azure-shared-disks-manually-configure?tabs=windows2012#register-with-the-sql-vm-rp) 
 
 
