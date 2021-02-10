@@ -46,7 +46,7 @@
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering",
+            "displayLabel": "Provide additional context for the error message you are encountering",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
