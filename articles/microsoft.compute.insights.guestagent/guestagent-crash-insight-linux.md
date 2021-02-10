@@ -29,7 +29,7 @@ For the VM **<!--$vmname-->[vmname]<!--/$vmname-->**, you can start troubleshoot
 
 ### Critical VM Agent Services
 
-A VM that's migrated to Azure from on-premises or that's created by using a customized image doesn't have Linux Guest Agent installed. In these scenarios, you need to manually install the VM agent. See [How to update or install Linux Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent)
+A VM that's migrated to Azure from on-premises or that's created by using a customized image doesn't have Linux Guest Agent installed. In these scenarios, you need to manually install the VM agent. See [How to update or install Linux Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent).
 
 To function properly, the Linux agent depends on the follow system packages:
 
