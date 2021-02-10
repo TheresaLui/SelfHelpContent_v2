@@ -16,42 +16,50 @@
     ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Recover deleted storage account
+# Recover deleted storage data
+
+## Recovering your deleted storage data
 :::Section Recommended solutions::: 
 
-## Recovering your deleted storage account
-Storage account recovery is now available via the Azure Portal.
 
 ### Recovery diagnostics 
+Use diagnostics below to check if your data is recoverable.
 
 <Insight> 
-<symptomId>StorageRecoveryLightInsight</symptomId> 
-<executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
-<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
-<noResultText>Our diagnostics did not find your storage resource. Please ensure the information provided is accurate and in the approved format. Also, check additional recommendations below to find an answer.</noResultText> 
-<additionalInputsReq>true</additionalInputsReq> 
+	<symptomId>StorageRecoveryLightInsight</symptomId> 
+	<executionText>We are running a quick check to find out if your storage resource is recoverable</executionText> 
+	<timeoutText>We stopped the check, as it was taking too long</timeoutText> 
+	<noResultText>Our diagnostics did not find your storage resource. Please ensure the information provided is accurate and in the approved format. Also, check additional recommendations below to find an answer.</noResultText> 
+	<additionalInputsReq>true</additionalInputsReq> 
 </Insight> 
 
-### Storage account recovery guideline 
+<br>
+
+### Account Recovery Guidelines
+
 You can initiate the recovery of your storage account directly from the portal.
 Follow [these instructions](https://docs.microsoft.com/azure/storage/common/storage-account-recover?toc=/azure/storage/blobs/toc.json) and click on the button below to recover your deleted storage account.
 
 [Recover deleted storage account](button-data-blade:Microsoft_Azure_Storage.RecoverStorageAccountBlade.subscriptionId.$subscriptionId)
 
-**Note**: If you are trying to recover a storage account in a deleted resource group, **recreate the resource group first**. 
+Note: If you are trying to recover a storage account in a deleted resource group, recreate the resource group first. 
 
-### Container, Blob and Disk Recovery
+<br>
+
+### Storage Data Recovery Guidelines
+
+Container, Blob and Disk Recovery
 
 1. If soft-delete is enabled for your container/blob, you can undelete your container/blob if you are still in your retention period. [Click here](https://docs.microsoft.com/azure/storage/blobs/soft-delete-blob-overview?WT.mc_id=Portal-Microsoft_Azure_Support) for instructions.
-2. If soft-delete is not enabled, **your container/blob/disk can only be recovered if the following conditions are true**:
+2. If soft-delete is not enabled, your container/blob/disk can only be recovered if the following conditions are true:
 
-#### Container recovery:
+Container recovery
 
 1. The container was deleted in the last 14 days<br>
-2. Storage account replication is configured as [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), [RA-GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) or [GZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) (We need the geo-replicated data for recovery):
-3. A new storage object with the same name has not be re-created since deletion.
+2. Storage account replication is configured as [GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs), [RA-GRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) or [GZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) (We need the geo-replicated data for recovery)
+3. A new storage object with the same name has not been re-created since deletion.
 
-#### Blob and disk recovery:
+Blob and disk recovery
 
 1. This is a critical production data
 2. Blob was deleted in the last:<br>

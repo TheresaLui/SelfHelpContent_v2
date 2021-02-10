@@ -106,34 +106,13 @@
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
         },
         {
             "id": "region_name",

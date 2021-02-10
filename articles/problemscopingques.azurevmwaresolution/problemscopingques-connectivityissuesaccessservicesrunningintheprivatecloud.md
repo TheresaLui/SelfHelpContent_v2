@@ -32,8 +32,8 @@
                     "text": "In the same VNET"
                 },
                 {
-                    "value": "In a peered VNET(same region)",
-                    "text": "In a peered VNET(same region)"
+                    "value": "In a peered VNET (same region)",
+                    "text": "In a peered VNET (same region)"
                 },
                 {
                     "value": "On-premise, connected to this VNET with ExpressRoute",
@@ -142,15 +142,15 @@
             "id": "ipaddress",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What is the IP address you have a problem connecting to?",
-            "required": false
+            "displayLabel": "What is the IP address you're having trouble connecting to?",
+            "required": true
         },
         {
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
