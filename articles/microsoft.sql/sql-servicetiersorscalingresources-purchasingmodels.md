@@ -20,7 +20,7 @@
 
 ** If you have already tried to scale a database or elastic pool and are facing issues (operation is long running , stuck , or have general questions), please go back to the Previous:Basics tab and select the Problem subtype(last drop down) to be Issues scaling a database or elastic pool. **
 
-[Goto](button-data-blade:<button-data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade.assetId.$resourceId>)
+[Goto](button-data-blade:Microsoft_Azure_SQL.queryPerformanceInsight.assetId.$resourceId>)
 
 ## Moving between service tiers
 
