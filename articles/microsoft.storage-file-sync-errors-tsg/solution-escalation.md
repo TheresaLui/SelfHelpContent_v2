@@ -31,11 +31,11 @@ If this TSG was not able to solve your issue and you are still experiencing issu
 
 ## Recommended Documents
 
-- [Planning for an Azure File Sync deployment](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)<br>
-- [Deploy Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal)<br>
-- [Planning Data Migration with Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-migration-overview)<br>
-- [Add/Remove server endpoint in Sync group](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-endpoint)<br>
-- [Frequently asked questions (FAQ) about Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-faq#azure-file-sync)<br>
-- [Monitor Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)<br>
-- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal)<br>
-- [Storage Sync Cloud Tiering](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-cloud-tiering)
+- [Planning for an Azure File Sync deployment.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)<br>
+- [Deploy Azure File Sync.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal)<br>
+- [Planning Data Migration with Azure File Sync.](https://docs.microsoft.com/azure/storage/files/storage-files-migration-overview)<br>
+- [Add/Remove server endpoint in Sync group.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-endpoint)<br>
+- [Frequently asked questions (FAQ) about Azure File Sync.](https://docs.microsoft.com/azure/storage/files/storage-files-faq#azure-file-sync)<br>
+- [Monitor Azure File Sync.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)<br>
+- [Troubleshoot Azure File Sync.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal)<br>
+- [Storage Sync Cloud Tiering.](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-cloud-tiering)<br>
