@@ -15,7 +15,7 @@
 
 ## **Recommended Steps**
 
-Before you proceed, we highly recommend you read  [MPA FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) to understand your MPN and CSP account structure in Partner Center and other common questions to help you with this onboarding.
+Before you proceed, we **highly recommend** you read  [MPA FAQ](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) to understand your MPN and CSP account structure in Partner Center and other common questions to help you with this onboarding. 
 
 1. [Download](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx) the step-by-step guide to migrate your PMC account to PC. It also includes troubleshooting steps.
 2. To verify my MPN is in Partner Center, [Click here](https://docs.microsoft.com/partner-center/microsoft-partner-agreement#verify-your-mpn-id-is-active-and-migrated-to-partner-center)
