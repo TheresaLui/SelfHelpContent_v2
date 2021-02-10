@@ -48,7 +48,7 @@ To function properly, the Linux agent depends on the follow system packages:
 * [Check whether the Azure Linux Guest Agent service is running](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/linux-azure-guest-agent#step-1-check-whether-the-azure-linux-guest-agent-service-is-running)
 * Because the WireServer IP is not reachable, connect to the VM by using SSH, and then try to access the following URL from `curl 'http://168.63.129.16/?comp=versions' `
 * Check for any issues that might be caused by a firewall, a proxy, or other source that could be blocking access to the IP address 168.63.129.16.
-* Check whether Linux `IPTables` or a third-party firewall is blocking access to ports 80, 443, and 32526. For more information about why this address should not be blocked, see [What is IP address 168.63.129.16](https://docs.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16#:~:text=IP%20address%20168.63.129.16%20is%20a%20virtual%20public%20IP,be%20presented%20as%20a%20unique%20public%20IP%20address).
+* Check whether Linux `IPTables` or a third-party firewall is blocking access to ports 80, 443, and 32526. For more information about why this address should not be blocked, see [What is IP address 168.63.129.16](https://docs.microsoft.com/azure/virtual-network/what-is-ip-address-168-63-129-16#:~:text=IP%20address%20168.63.129.16%20is%20a%20virtual%20public%20IP,be%20presented%20as%20a%20unique%20public%20IP%20address).
 
 ## **Recommended Documents**
 
