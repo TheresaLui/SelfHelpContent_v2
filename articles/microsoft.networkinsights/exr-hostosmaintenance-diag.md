@@ -6,16 +6,15 @@ service="microsoft.network"
 resource="ExpressRoute"
 authors="genlin"
 ms.author="mariliu"
-articleId="HostOSMaintenance"
-diagnosticScenario=""
+articleId="hostosmaintenance"
 selfHelpType="Diagnostics"
-supportTopicIds=""
 resourceTags="windows"
 supportTopicIds="32602123, 32627985"
-productPesIds=""
+productPesIds="15480"
 cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_AzureExpressRoute"
 />
+
 # ExpressRoute Gateway Has undergone host OS maintenance
 <!--issueDescription-->
 We have identified that your ExpressRoute gateway resource **[Gateway Name]** has undergone OS maintenance within the last 30 days. The ExpressRoute gateway includes multiple instances, and one or more instances of your gateway resource is taken offline during maintenance. Although this may cause your gateway to temporarily support lower network throughput to the virtual network, the gateway itself will not experience any downtime.

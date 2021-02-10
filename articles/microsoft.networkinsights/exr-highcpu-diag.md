@@ -6,16 +6,15 @@ service="microsoft.network"
 resource="ExpressRoute"
 authors="genlin"
 ms.author="mariliu"
-articleId="GatewayFleet"
-diagnosticScenario=""
+articleId="gatewayfleet"
 selfHelpType="Diagnostics"
-supportTopicIds=""
 resourceTags="windows"
 supportTopicIds="32539947"
-productPesIds=""
+productPesIds="15480"
 cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_AzureExpressRoute"
 />
+
 # ExpressRoute Gateway Has Undergone Software Upgrade
 <!--issueDescription-->
 We have identified that your ExpressRoute gateway resource **[Gateway Name]** has recently experienced high CPU use. Your current gateway SKU might not be able to support the current workload. This may cause performance issues when you send traffic from your on-premises resources to virtual machines (VMs) on private endpoints in the Azure virtual network.
