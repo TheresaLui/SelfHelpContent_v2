@@ -20,12 +20,12 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, may have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The auto-recovery action was triggered by our Azure monitoring systems that detected a failure condition caused by a recently discovered platform bug with the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+> The auto-recovery action was triggered by our Azure monitoring systems that detected a failure condition caused by a recently discovered platform bug with the physical node where the virtual machine was hosted. This caused your VM to be rebooted.
 > 
 
 <!--resolutionDetails-->
@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--additionalInfo-->
 ### **Additional Information**
-> Our core platform engineers and are working on a fix for the platform bug that will be deployed to all affected nodes. To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
+> Our core platform engineers are working on a fix for the platform bug that will be deployed to all affected nodes. To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
 > 
 <!--/additionalInfo-->
 <!--/rcaDescription-->
