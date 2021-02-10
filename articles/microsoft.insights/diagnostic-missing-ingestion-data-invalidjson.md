@@ -26,7 +26,7 @@ Our diagnostic has detected that the Application Insights resource with name <!-
 
 ## **Recommended Steps**
 
-The most common reason for this is when you implement a custom SDK to send telemetry or are using an SDK that is not part of our [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms). If you find that you're not using a one of these frameworks, contact the developer of that SDK.
+The most common reason for this issue is implementing a custom SDK to send telemetry or using an SDK that is not part of our [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms). If you're not using a one of these frameworks, contact the developer of that SDK.
 
 1. Verify that you are using a [supported language, framework, or platform](https://docs.microsoft.com/azure/azure-monitor/app/platforms)
 1. For Java apps, make sure to use the [Application Insights Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent), and check the [agent self-diagnostic logs](https://docs.microsoft.com/azure/azure-monitor/app/java-standalone-troubleshoot#check-the-self-diagnostic-log-file)
