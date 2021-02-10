@@ -6,8 +6,8 @@
     resource="databaseAccounts"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="cosmosdb-mongo-upgrade-rca"
-    diagnosticScenario="CosmosDBMongoUpgradeInsight"
+    articleId="cosmosdb-mongo-selfserveupgrade-rca"
+    diagnosticScenario="CosmosDBMongoSelfServeUpgradeInsight"
     selfHelpType="rca"
     supportTopicIds="32636757"
     resourceTags=""
@@ -22,7 +22,7 @@
 
 Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v3.6. Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 
-The upgrade process will not result in any service interruptions nor require any downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
+The upgrade process will not result in any service interruptions nor require any downtime. The existing data and indexes do not need to be migrated. Click [here](data-blade:Microsoft_Azure_DocumentDB.FeaturesBlade.id.$resourceId;data-blade-uri:{$domain}/#blade/Microsoft_Azure_DocumentDB/FeaturesBlade/id/{$resourceId}) to start the upgrade. You'll see the option, "Upgrade to Mongo server version 3.6". To start the migration, click the **Enable** button. You will see **Pending** status until your account has finished upgrading, which may take upto a day. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 ### Benefits of upgrading to version 3.6
 
@@ -30,14 +30,14 @@ The upgrade process will not result in any service interruptions nor require any
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
 - Support for Change Streams
-- Support for compound Indexes
-- Cross-partition support for the following operations: update, delete, count and sort
-- Improved performance for the following aggregate operations: $count, $skip, $limit and $group
+- Support for compound indexes
+- Cross-partition support for the following operations: `update`, `delete`, `count`, and `sort`
+- Improved performance for the following aggregate operations: `$count`, `$skip`, `$limit`, and `$group`
 - Wildcard indexing is now supported
 
 ### Changes from previous engine versions
 
-- **RequestRateIsLarge errors have been removed**. Requests from the client application will not return 16500 errors anymore. Instead requests will resume until they complete or fulfill the timeout.
+- **RequestRateIsLarge errors have been disabled by default**. Requests from the client application will not return 16500 errors anymore. Instead requests will resume until they complete or fulfill the timeout. Disabling server-side retries will restore the old behavior.
 - Per request timeout is set to 60 seconds.
 - MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default.
 
