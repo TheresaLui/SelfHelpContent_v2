@@ -34,7 +34,7 @@ ownershipId="CloudNet_NVA"
         },
         "serviceTreeId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985"
     },
-    "version": 1.0,
+    "version": 1.1,
     "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput",
     "description": "NVA may see traffic loss due to hitting the maximum number of flows.",
     "longDescription": "Packet loss has been observed for this Virtual Machine due to hitting or exceeding the maximum number of flows for a VM instance of this size on Azure",
