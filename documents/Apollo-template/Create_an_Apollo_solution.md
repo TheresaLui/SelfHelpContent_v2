@@ -1,6 +1,6 @@
-# Create an Apollo solution 2.0
+# Create an Solution 2.0 article
 
-Use this document to get started constructing Apollo articles (solution 2.0). Here, we'll describe the article structure,  the components within that structure, and the basic requirements for building a compliant solution. For a complete description of Apollo, see the ![**Overview**](..assets/articles/Overview.md).
+Use this document to get started constructing Apollo Solution 2.0 articles. Here, we'll describe the article structure,  the components within that structure, and the basic requirements for building a compliant solution. For a complete description of Apollo, see the ![**Overview**](..assets/articles/Overview.md).
 
 
 ## Get started
@@ -124,22 +124,6 @@ When you include a diagnostic in your solution, explain what it is and what info
 - List diagnostics in the order you want the results to be displayed. Azure portal prioritizes the presented results for the first diagnostic mapped to the first symptomId. If no insight is found or the first diagnostic failed/timed-out, the portal proceeds to get the insight from the second diagnostic, and so on.
 
 
-**Example:**
-
-### VM CPU performance
-
-Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
-
-![Graph of your workload's CPU usage](../assets/images/ApolloImage.png)
-
-### What can cause a CPU spike on a VM?
-
-High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that the application is not performing as efficiently as expected or has insufficient resources to handle loads. Some common factors to high CPU include:
-
-1. A recent code change or deployment
-2. A recent patch on the OS level or accumulative patches/fixes on the Application
-3. Query change or outdated Indexes. SQL or Oracle data tier applications also have query plan optimizations. Lack of proper indexes, data changes, etc. can lead to some queries becoming more compute intensive.
-
 **Diagnostics schema definitions**
 |     Tag    	|     Required    	|     Details    	|     Example    	|
 |-	|-	|-	|-	|
@@ -180,53 +164,39 @@ High CPU can indicate that the application is performing many CPU-intensive task
 
 <Diagnostic description>
 <Insight> 
-	<symptomId>CannotRdpFirewall</symptomId><br>
-	<executionText>We are checking to see if your VM’s firewall settings</executionText><br>
-	<timeoutText>Proceeding to the next operation</timeoutText><br>
-	<noResultText>No issues found</noResultText><br>
+	<symptomId>CannotRdpFirewall</symptomId>
+	<executionText>We are checking to see if your VM’s firewall settings</executionText>
+	<timeoutText>Proceeding to the next operation</timeoutText>
+	<noResultText>No issues found</noResultText>
 </Insight>
 
 
 ### <Title>
 
 <description>
+<Insight>  
+<symptomId>CannotRdpFirewall</symptomId>
+<executionText>We are checking to see if your VM’s firewall settings</executionText>
+<timeoutText>Proceeding to the next operation</timeoutText>
+<noResultText>No issues found</noResultText>
+</Insight> 
+	
 
-<insight>
+2. **Limit the number of insights per diagnostic**
+   Control the number of insights that the diagnostic returns by including the <maxInsightCount> property in the <insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, only two insights will be shown. If this property is omitted, the portal will return 3 critical insights.
 
-     <symptomId>CannotRdpFirewall</symptomId> 
-
-     <executionText>We are checking to see if your VM was restarted</executionText> 
-
-     <timeoutText>Proceeding to the next operation</timeoutText> 
-
-     <noResultText>No issues found. Your VM is running smoothly.</noResultText> 
-
-</insight>
-
-2.	**Limit the number of insights per diagnostic**
-Control the number of insights that the diagnostic returns by including the <maxInsightCount> property in the <insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, only two insights will be shown. If this property is omitted, the portal will return 3 critical insights.
-
-**Example**:
-
+**Schema example**:
 
 ### <Title>
 
 <description>
-
 <insight>
-
-       <symptomId>SqlLtsFailedLogin,SqlConnectivity,SqlCustomerVerbatims,SqlLts,SqlConnectivityBasic</symptomId>
-
-       <executionText>The diagnostic is running some checks on your resource</executionText>
-
-      <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-
-      <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText>
-
-      <additionalInputsReq>true</additionalInputsReq>
-
-      <maxInsightCount>2</maxInsightCount>
-
+       <symptomId>SqlLtsFailedLogin,SqlConnectivity,SqlCustomerVerbatims,SqlLts,SqlConnectivityBasic</symptomId><br>
+       <executionText>The diagnostic is running some checks on your resource</executionText><br>
+      <timeoutText>This check was taking too long, so we stopped the operation</timeoutText><br>
+      <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText><br>
+      <additionalInputsReq>true</additionalInputsReq><br>
+      <maxInsightCount>2</maxInsightCount><br>
 </insight>
 
 
@@ -251,42 +221,33 @@ Look for spikes in the following chart to determine when and how authorization f
 ### <Title>
 
 <Metric description>
-
+	
 <metric>
-
      <name>Disk Write Operations/Sec</name>
-
      <aggregationType>Sum</aggregationType>
-
      <timeSpanDuration>1d</timeSpanDuration>
-
      <title>Virtual Machine Disk Write Operations/Sec</title>
-
 </metric>
 
 **Metrics schema definitions**
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **Name** | True | Type of the Azure monitor metric | Disk Write Operations |
-| **aggregationType** | True | SymptomId of the diagnostic to be executed. Specify Sum, Avg, Count, or Percentile (default is value Sum) | CannotRdpFirewall, CannotRDPPassword |
-| **timeSpanDuration** | False | Text to be presented to the user while the diagnostic is executing.
- | We are running a few connectivity checks on your VM |
-| **timeSpanDuration** | False | Text to be presented to the user if the diagnostic fails while the diagnostic is executing. Use d for day (one day is the default) and m for minute. | We ran into an issue and could not complete this check
- |
-| **title** | False | Text to be presented to the user if the diagnostic successfully completes but no insight is returned. | We have checked the current firewall configuration and did not find any issues. |
+| Tag  	| Required  	| Details  	| Example  	|
+|-	|-	|-	|-	|
+| Name  	| True  	| Type of the Azure monitor metric  	|  Disk Write Operations  	|
+| aggregationType  	| True  	| SymptomId of the diagnostic to be executed. Specify Sum, Avg, Count, or Percentile (default is value Sum)     	| CannotRdpFirewall, CannotRDPPassword     	|
+| timeSpanDuration  	| False  	| Text to be presented to the user while the diagnostic is executing.    	| We are running a few connectivity checks on your VM  	|
+| timeSpanDuration  	| False  	| Text to be presented to the user if the diagnostic fails while the diagnostic is executing. Use d for day (one day is the default) and m for minute.  	| We ran into an issue and could not complete this check    	|
+| title  	| False  	| Text to be presented to the user if the diagnostic successfully completes but no insight is returned.  	| We have checked the current firewall configuration and did not find any issues.   	|
 
 ## Video solutions
 
 Video solutions have the power to engage the customer by stimulating their senses. Video solutions allow you to walk the customer through the steps of a task and show them what the end result should look like. Video solutions can support an accompanying procedure or stand alone as a solution.
-
-- Optional
-- Level 3 heading
 - Include a title and summary of the instructions or content in the video. Text instructions are usually easier to follow and are more accessible than pure video content.
-- Apollo can accommodate a single video and groups of 2-3 smaller videos.
+- Apollo can accommodate a single video and groups of (up to three) smaller videos.
 - When possible, call out key points of the video and where they occur in the timeline.
+- Video solutions require XML tags. 
 
-**Example (single video):**
+**Example:**
 
 In the following video, you'll learn to configure Azure AD authentication and create users/logins in Azure SQL.
 
@@ -299,7 +260,7 @@ Summary of configuration steps in the video:
 3. Examples of login types
 4. Adding access to existing AD users
 
-**Multiple video example:**
+**Example:**
 
 In the following videos, you'll learn the basics of continuous integration (CI) within Azure DevOps.
 
@@ -307,20 +268,14 @@ In the following videos, you'll learn the basics of continuous integration (CI) 
 
 **Video schema examples**
 
-Video solutions require XML tags. **Important:** Make sure that the URL in the <src> tag doesn't contain ampersands (&) as these will generate validation errors.
-
 - **Single video example**
 
 ### <title>
 
 <description>
-
 <video>
-
 <src> https://tinyurl.com/yyt9xah2 </src>
-
 <title> **Configure Azure AD authentication for Azure SQL, 8:56** </title>
-
 </video>
 
 
@@ -329,47 +284,32 @@ Video solutions require XML tags. **Important:** Make sure that the URL in the <
 ### <title>
 
 <description>
-
 <videoGroup>
-
      <video>
-
      <src> https://tinyurl.com/yxf42xvg </src>
-
      <title> **CI – CD with Azure DevOps, 13:25** </title>
-
      </video>
-
      <video>
-
      <src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>
-
      <title> **Azure DevOps tutorial explains the basics for beginners, 1:00:11** </title>
-
      </video>
-
 </videoGroup>
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **videoGroup** | False | Required if you have multiple videos grouped together |
- |
-| **Video** | True |
- |
- |
-| **Src** | True | Link to the video | Disk Write Operations |
-| **Title** | True | | CannotRdpFirewall, CannotRDPPassword |
+| Tag  	| Required  	| Details  	| Example  	|
+|-	|-	|-	|-	|
+| videoGroup  	| False  	| Required if you have multiple videos grouped together  	|   	|
+| Video  	| True  	|   	|   	|
+| Src  	| True  	| Link to the video  	|  Disk Write Operations  	|
+| Title  	| True  	|    	| CannotRdpFirewall, CannotRDPPassword     	|
 
 
 ## Images
 
-Images are an excellent way to demonstrate and support both conceptual information and tasks in procedures. Apollo supports only web hosted images.
+Images are an excellent way to demonstrate and support both conceptual information and tasks in procedures. Apollo supports only web-hosted images.
 
-- Optional
-- No heading is required
-- Replace "alt text" with a concise description of what is being shown in the image (without punctuation) to ensure accessibility for all user
-- relative link
-
+- No heading required
+- URLs only, no relative links
+- Replace "alt text" with a concise description of what is being shown in the image (without punctuation) to ensure accessibility for all users
 - For screenshots, make sure that they contain legible text
 - Use colored boxes, not highlighting, to call out particular elements
 
@@ -392,7 +332,8 @@ Use tables to make reference content more scannable. Only Markdown tables are pe
 
 ![Table showing article IDs](../assets/images/ApolloTable.png)
 
-**Table schema**
+
+**Example of table schema**
 
 |No|Microsoft Cloud Germany (MCG)- source |Azure Global Cloud (AGC)- target |
 
@@ -406,7 +347,6 @@ Use tables to make reference content more scannable. Only Markdown tables are pe
 # AzureKB
 
 AzureKB is a service that ingests content from many places (Azure public docs, Stack, MSDN, Q&A, support cases from DfM, IcM incidents, etc) and returns relevant articles for Azure specific problems. On the portal side, this shows up as a set of links available to the customer (external sources only) that AzureKB believes are relevant to the problem.
-
 - Include AzureKB schema in the **Resources** section with any links to related and recommended articles
 - Keep the links to documentation short and extremely relevant to the solution
 - Don't have a link farm. Solutions with lots of links typically have lower deflection rates. More than 5 links reduces the usability of the entire solution.
@@ -424,18 +364,14 @@ Here are some relevant results from the web:<br>
 
 <azureKB>portal</azureKB>
 
+| Tag  	| Required  	| Details  	| Example  	|  	|
+|-	|-	|-	|-	|-	|
+| azureKB  	| True  	|   	|   	|  	|
 
-
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **azureKB** | True |
-|
-|
 
 ## Procedures
 
 One of the most helpful solutions you can provide is step-by-step instructions for resolving an identified problem.
-
 - Level 3 heading required.
 - Use Markdown to format solutions and procedures, specifically for unordered and ordered lists (see examples).
 - All lists require an empty line before the first item and after the last item.
