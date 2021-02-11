@@ -17,7 +17,7 @@
     "resourceRequired": true,	
     "subscriptionRequired": true,
     "title": "CosmosDB OSS API",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",

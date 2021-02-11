@@ -14,8 +14,8 @@
 # CosmosDB OSS API Service Connectivity  Issue
 ---
 {
-	"resourceRequired": false,
-	"subscriptionRequired": false,
+    "resourceRequired": true,	
+    "subscriptionRequired": true,
 	"title": "CosmosDB OSS API Service Connectivity Issue",
 	"fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
 	"formElements": [
@@ -27,19 +27,42 @@
 			"required": true
 		},
 		{
-			"id": "database_name",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Database name",
-			"required": false
-		},
+            "id": "database_name",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Database name",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Database Name"
+                }
+            },
+            "required": true
+        },
 		{
-			"id": "collection_name",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Collection name",
-			"required": false
-		},
+            "id": "collection_name",
+            "order": 3,
+            "visibility": "database_name != null",
+            "controlType": "dropdown",
+            "displayLabel": "Collection name",
+            "dynamicDropdownOptions": {
+                "dependsOn": "database_name",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Collection Name"
+                },
+                "valuePropertyRegex":  "[^/]+$"
+            },
+            "required": true
+        },
 		{
 			"id": "problem_duration",
 			"order": 4,
@@ -130,23 +153,30 @@
 			],
 			"required": false
 		},
+		{	
+            "id": "exception_message",	
+            "order": 8,	
+            "controlType": "textbox",	
+            "displayLabel": "What is the exception message?",	
+            "required": false	
+        },
 		{
 			"id": "exception_count",
-			"order": 8,
+			"order": 9,
 			"controlType": "textbox",
 			"displayLabel": "How many service unavailable exceptions did you observe?",
 			"required": false
 		},
 		{
 			"id": "vm_count",
-			"order": 9,
+			"order": 10,
 			"controlType": "textbox",
 			"displayLabel": "Number of VMs the exception was seen during this time.",
 			"required": false
 		},
 		{
 			"id": "problem_description",
-			"order": 10,
+			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide any additional details about the issue that you were facing",
 			"required": true,
