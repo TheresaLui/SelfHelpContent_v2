@@ -10,29 +10,33 @@
   cloudenvironments="public,fairfax,mooncake,usnat,ussec,blackforest"
   disableclouds=""
   articleid="82c180ad-5697-4040-a377-b6f678dba87f"
-  ownershipid="AzureIdentity_B2C" 
- />
+  ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
 ## **Recommended Steps**
 
-### **Can I add external identity providers to my user flows?** 
-Yes, you can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows in the Azure portal. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers).
+### **Can I add external identity providers to my application?**  
+
+Yes. You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Review [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
+
+Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider).
 
 
-### **Does Azure AD B2C allow users to sign in to my application with credentials from external social or enterprise identity providers (IdP)?**
+### **Can I customize end user sign up\sign in flows?** 
 
-Yes, Azure AD B2C supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider)
+Yes. To help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
 
-### **I need to customize behavior of my Azure Active Directory B2C tenant**
-
-Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. User flows are predefined in the Azure AD B2C portal for the most common identity tasks. Custom policies can be fully edited by an identity developer to complete many different tasks. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview)
+Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. They are fully edited by an identity developer to complete many different tasks. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started). 
 
 
-## **Recommended Documents**
+### **Useful Links** 
+ 
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
-* [Azure AD B2C policies](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)
-* [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+ 
+
+* Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+
+ 
+
+* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
