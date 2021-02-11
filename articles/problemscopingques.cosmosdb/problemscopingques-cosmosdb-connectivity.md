@@ -14,7 +14,7 @@
 # CosmosDB OSS API Service Connectivity  Issue
 ---
 {
-    "resourceRequired": true,	
+    "resourceRequired": true,
     "subscriptionRequired": true,
 	"title": "CosmosDB OSS API Service Connectivity Issue",
 	"fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
@@ -153,12 +153,12 @@
 			],
 			"required": false
 		},
-		{	
-            "id": "exception_message",	
-            "order": 8,	
-            "controlType": "textbox",	
-            "displayLabel": "What is the exception message?",	
-            "required": false	
+		{
+            "id": "exception_message",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "What is the exception message?",
+            "required": false
         },
 		{
 			"id": "exception_count",
