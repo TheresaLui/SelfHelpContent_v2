@@ -1,20 +1,17 @@
 <properties
-	pageTitle="Configuring and Managing Function Apps/VNET or Hybrid Connection"
-	description="Configuring and Managing Function Apps/VNET or Hybrid Connection"
-	service="microsoft.web"
-	resource="functions"
-	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman,benpark"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32630473"
-	resourceTags=""
-	productPesIds="16072"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="fe08eafc-356b-4ae5-af6a-68cc5ae76f0c"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Configuring and Managing Function Apps/VNET or Hybrid Connection&#xD;"
+  description="Configuring and Managing Function Apps/VNET or Hybrid Connection"
+  service="microsoft.web"
+  resource="functions"
+  ms.author="benpark,shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32630473"
+  resourcetags=""
+  productpesids="16072"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="fe08eafc-356b-4ae5-af6a-68cc5ae76f0c"
+  ownershipid="Compute_AppService" />
 # Configuring and Managing Function Apps/VNET or Hybrid Connection
 
 * VNET integration is supported when using the **premium plan**
