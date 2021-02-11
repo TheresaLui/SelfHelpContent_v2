@@ -1,5 +1,5 @@
 <properties
-  pagetitle="V2 - Pipeline Activities - Databricks"
+  pagetitle="V2 - Pipeline Activities - Databricks&#xD;"
   service=""
   resource=""
   ms.author="chez,haoc,rakatuko,dfandel"
@@ -20,7 +20,7 @@
 
 * An error code of 3200 with a 403 error usually indicates your DataBricks access token might be expired.  [Access Token Generation Instructions](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
 
-* Error codes of 3201 usually indicate an authroing error.
+* Error codes of 3201 usually indicate an authoring error.
 
 * An error code of 3204 with a "Could not launch cluster due to cloud provider failures" message usually indicates an insufficient quota of cores. Request for increase of core quota per guidance [here](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/per-vm-quota-requests)
 
