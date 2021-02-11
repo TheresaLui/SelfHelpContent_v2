@@ -32,7 +32,7 @@
         },
 	{
 	    "id": "attempt_method",
-	    "order": 3,
+	    "order": 2,
 	    "controlType": "dropdown",
 	    "displayLabel": "What method are you using to create or drop the database?",
 	    "required": true,
@@ -56,7 +56,7 @@
 	},
         {
 	    "id": "encountering_an_error",
-	    "order": 4,
+	    "order": 3,
 	    "controlType": "dropdown",
 	    "displayLabel": "Are you encountering an error message?",
 	    "dropdownOptions": [{
@@ -76,7 +76,7 @@
 	},
 	{
 	    "id": "error_message",
-	    "order": 5,
+	    "order": 4,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Please provide this error message",
 	    "required": false,
@@ -84,7 +84,7 @@
 	},
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controltype": "multilinetextbox",
             "displayLabel": "Any additional details you would like to include?",
             "watermarkText": "Enter any additional details here",
