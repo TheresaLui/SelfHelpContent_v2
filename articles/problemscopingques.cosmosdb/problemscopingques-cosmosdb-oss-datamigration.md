@@ -14,8 +14,8 @@
 # CosmosDB Data Migration
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,	
+    "subscriptionRequired": true,
     "title": "CosmosDB OSS API",
     "fileAttachmentHint": "",
     "formElements": [
