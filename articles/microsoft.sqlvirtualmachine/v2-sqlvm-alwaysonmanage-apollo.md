@@ -13,14 +13,24 @@
 # Always On Availability Groups - Failure,Failover, Sync issues
 
 ## Resolve issues with Availability Groups - Failure,Failover, Sync issues
-  
+
+:::Section Metrics and Diagnostics:::  
+
+### AG Failure diagnostics
+
+<Insight>
+    <symptomId>SqlVmHADRPortalInsight</symptomId>
+    <executionText>We are running a few performance checks on your VM</executionText>
+    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
+    <noResultText>No issues found</noResultText>
+    <additionalInputsReq>true</additionalInputsReq>
+</Insight>
+
 ### Recommended Steps 
-
-
 
 Most of users are able to resolve their issues using the following steps.
 
-:::Section AG Failure:::
+:::Section Availability Group **failed, restarted, failed over or the lease timed out:::
 
 ### Availability Group **failed, restarted, failed over or the lease timed out** 
 To know the root cause of the issue, review the logs using [this tool](https://techcommunity.microsoft.com/t5/sql-server/failover-detection-utility-availability-group-failover-analysis/ba-p/386021). To avoid the issue
@@ -135,28 +145,7 @@ This can happen if the following conditions are present:
   * [Configure an Availability Group using Azure portal preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
 
-
-
-
-<!-- This is the format to include images. No heading required. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
-![alt text](https://wallpapercave.com/wp/mJRWj5T.jpg)
--->
-
-### Diagnostics Title <!-- Title is required. Example: VM Connectivity diagnostics -->
-
-<!--Insight Diagnostics available in the Azure Diagnostic Service can be presented to customers during case submission and on the Diagnose and Solve problems page in the Azure portal. -->
-<Insight>
-    <symptomId>SqlVmHADRPortalInsight</symptomId>
-    <executionText>We are running a few performance checks on your VM</executionText>
-    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-    <noResultText>No issues found</noResultText>
-    <additionalInputsReq>true</additionalInputsReq>
-</Insight>
-
-### Recommended Documents <!-- Use this title for document links and AzureKB links -->
-
-
-
+### Recommended Documents 
 - [Monitor and troubleshoot Always On Availability Groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support) Availability Groups
 - [Monitor performance](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/monitor-performance-for-always-on-availability-groups?view=sql-server-ver15) for Always On availability groups
 - Troubleshoot: Availability Group exceeded [RPO](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/troubleshoot-availability-group-exceeded-rpo?view=sql-server-ver15) or [RTO](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/troubleshoot-availability-group-exceeded-rto?view=sql-server-ver15)
