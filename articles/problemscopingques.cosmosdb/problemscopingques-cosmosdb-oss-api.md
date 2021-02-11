@@ -1,23 +1,23 @@
 <properties
-	pageTitle="CosmosDB OSS API Service Connectivity Issue"
-	description="CosmosDB OSS API Service Connectivity Issue"
+	pageTitle="CosmosDB OSS API scoping questions"
+	description="CosmosDB OSS API scoping questions"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636776,32681008,32681470,32636778"
-	productPesIds="15585"
+	selfHelpType="problemScopingQuestions" 
+	supportTopicIds="32636750,32636769,32636782,32636787,32741537,32783703,32636817,32636830,32636770,32636774,32688843,32783702,32741534,32746031,32675631,32783707,32675633,32783708,32675634,32675635,32675638,32636831,32747699,32636789,32783701,32783714,32636819,32738475"
+    productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="cf3c77da-f5fa-4052-a0fc-248c65e28885"
+	articleId="96cc9e16-5378-4d6e-a8c4-1b23c66994bf"
 	ownershipId="AzureData_AzureCosmosDB"
 />
-# CosmosDB OSS API Service Connectivity  Issue
+# CosmosDB OSS API
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "CosmosDB OSS API Service Connectivity Issue",
-    "fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
+    "title": "CosmosDB OSS API",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -26,37 +26,46 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        		{
+        {
             "id": "database_name",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Database name",
-            "required": false
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Database Name"
+                }
+            },
+            "required": true
         },
 		{
             "id": "collection_name",
             "order": 3,
-            "controlType": "textbox",
+            "visibility": "database_name != null",
+            "controlType": "dropdown",
             "displayLabel": "Collection name",
-            "required": false
-        },
-		{
-            "id": "problem_duration",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "How long was the issue observed?",
-            "required": false
-        },
-		{
-            "id": "region_name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Which region is your client running?",
-            "required": false
+            "dynamicDropdownOptions": {
+                "dependsOn": "database_name",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Collection Name"
+                },
+                "valuePropertyRegex":  "[^/]+$"
+            },
+            "required": true
         },
 		{
             "id": "oss_api",
-            "order": 6,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Which API are you using?",
             "watermarkText": "Choose an option",
@@ -90,7 +99,7 @@
         },
 		{
             "id": "sdk_type",
-            "order": 7,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Which SDK are you using?",
             "watermarkText": "Choose an option",
@@ -130,30 +139,34 @@
             ],
             "required": false
         },
-		{
-            "id": "exception_count",
-            "order": 8,
+        {
+            "id": "sdk_version",
+            "order": 6,
             "controlType": "textbox",
-            "displayLabel": "How many service unavailable exceptions did you observe?",
+            "displayLabel": "What is your SDK Version?",
+			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x, 4.x.x, etc.)",
             "required": false
         },
-		{
-            "id": "vm_count",
-            "order": 9,
+        {
+            "id": "issue_frequency",
+            "order": 7,
             "controlType": "textbox",
-            "displayLabel": "Number of VMs the exception was seen during this time.",
+            "displayLabel": "How frequent is the issue?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any additional details about the issue that you were facing",
+            "displayLabel": "Please provide additional details about the issue that you are facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "More information on the exact issue."
+                },
+                {
+                    "text": "Read/Write regions where the issue is experienced"
                 },
                 {
                     "text": "Activity Id of the request (if available)."
