@@ -12,7 +12,7 @@ Use this document to get started constructing Apollo articles (solution 2.0). He
 
 ## Basic structure of an Apollo solution
 
-| **Required section** | **Description** |
+| **Required** | **Description** |
 | --- | --- |
 |Properties | Contains the metadata of the article |
 |Internal title | Internal only (not customer-facing) component used by the Azure self-help portal |
