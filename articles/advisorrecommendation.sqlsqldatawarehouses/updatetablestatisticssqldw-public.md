@@ -39,7 +39,7 @@
     "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/learnmorestatistics",
   "description": "Update statistics on table columns",
   "longDescription": "We have detected that you do not have up-to-date table statistics which may be impacting query performance. The query optimizer uses up-to-date statistics to estimate the cardinality or number of rows in the query result which enables the query optimizer to create a high quality query plan.",
