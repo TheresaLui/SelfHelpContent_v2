@@ -79,8 +79,30 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "P2S_custompolicy",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Custom policy being used?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "required": true,
