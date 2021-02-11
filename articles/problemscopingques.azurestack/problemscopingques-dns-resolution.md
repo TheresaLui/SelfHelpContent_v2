@@ -109,7 +109,7 @@
             "id": "cloud_id",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
+            "displayLabel": "Enter the Stamp Cloud ID",
             "watermarkText": "########-####-####-####-###########",
             "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
             "required": true
