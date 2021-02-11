@@ -19,11 +19,11 @@
 
 # Get started with Private Link
 
-**Recommended Steps:**
+## **Recommended Steps**
 
 Work through tutorials on the Azure portal, PowerShell (PS), or command-line interface (CLI).
 
-**Recommended Documents:**
+## **Recommended Documents**
 
 Azure Private Link
 

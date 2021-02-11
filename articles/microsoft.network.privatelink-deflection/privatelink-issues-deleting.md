@@ -21,6 +21,6 @@
 
 This is a known issue that we are currently working to resolve.
 
-**Recommended Steps:**
+## **Recommended Steps**
 
 Submit a case and request for assistance.

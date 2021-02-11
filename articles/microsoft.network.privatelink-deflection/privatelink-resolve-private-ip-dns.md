@@ -19,7 +19,7 @@
 
 # Resolve difficulties with private IP or configuring private DNS
 
-**Recommended Steps:**
+## **Recommended Steps**
 
 1. Review the Private Endpoint (PE) configuration:
 
@@ -36,7 +36,7 @@
    1. The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**.
    2. The source VM has IP connectivity to VNet.
 
-**Recommended Documents:**
+## **Recommended Documents**
 
 Trouble shooting connectivity issues
 
