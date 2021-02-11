@@ -30,23 +30,26 @@
             "infoBalloonText": "Specify when the problem started",
             "required": true
         },
-	{
+		{
             "id": "operation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which of the followig operations has an issue",
             "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
+            "dynamicDropdownOptions": 
+			{
                 "uri": "{resourceId}/operations?api-version=2014-04-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "name",
                 "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
+                "defaultDropdownOptions": 
+				{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            },
+			}
+        },
 	{
 	    "id": "attempt_method",
 	    "order": 3,
