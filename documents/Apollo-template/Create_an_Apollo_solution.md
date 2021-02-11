@@ -5,8 +5,9 @@ Use this document to get started constructing Apollo articles (solution 2.0). He
 
 ## Get started
 
-- To create a solution from scratch,[download the raw format of the Apollo template in Markdown](https://github.com/Azure/SelfHelpContent/blob/master/documents/Apollo-template/Apollo-template.md). Alternatively, you can create an Apollo solution in Elixir and simply choose the components you want in your solution (versus typing the schema).
-- Include all **required** components in the order they appear. See also ![**Template and examples**](..assets/articles/TemplateExamples.md) for ideas on how to write an article.
+- To create a solution from scratch, [download the raw format of the Apollo template in Markdown](https://github.com/Azure/SelfHelpContent/blob/master/documents/Apollo-template/Apollo-template.md). Alternatively, you can create an Apollo solution in Elixir and simply choose the components you want in your solution (versus typing the schema).
+- Include all **required** components in the order they appear, as described in ![Basic structure of an Apollo solution](##_Basic_structure_of_an_Apollo_solution)
+- For ideas on how to write an article, see also ![**Template and examples**](..assets/articles/TemplateExamples.md).
 - Format your article in Markdown, unless XML is specifically called for.
 - Review the [**Rules**](#_Rules) to avoid validation warnings and errors. Rules are in place to ensure your solution meets Microsoft standards for writing style, formatting, links, and accessibility.
 
@@ -80,7 +81,7 @@ Required. Level 2 heading that describes the article contents, preferably in 10 
 
 
 ## Body section<br>
-The body comes immediately after the customer-facing title and contains the _entire article contents_. Think of the body section as a canvas where you can place any combination of content and solution components. Always start with a brief [introduction](#_Introduction) that lets the customer know what they can expect from the solution.
+The body comes immediately after the customer-facing title and contains the _entire article contents_. Think of the body section as a canvas where you can place any combination of content and solution components. Always start with a brief [introduction](##_Introduction) that lets the customer know what they can expect from the solution.
 
 **At minimum, your Apollo solution article must include the following**:<br>
 - For a **solution-based article** , the body contains a solution that specifically addresses the stated **issue**.
