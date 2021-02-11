@@ -9,7 +9,7 @@
 	ms.author="arzavala"
 	articleId="acs-acquire-phone-number"
 	selfHelpType="diagnostics"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	diagnosticScenario="acs-acquire-phone-number"
 />
 

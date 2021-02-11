@@ -27,7 +27,7 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "I want help with Extending my disk",
+                    "value": "I want help with extending my disk",
                     "text": "I want help with my Guest OS volume"
                 },
                 {
@@ -48,7 +48,7 @@
         {
             "id": "virtualdisk_task",
             "order": 3,
-            "visibility": "virtualdisk_scenario == I want help with my Guest OS volume",
+            "visibility": "virtualdisk_scenario == I want help with extending my disk",
             "controlType": "dropdown",
             "displayLabel": "What is the task you are trying to perform?",
             "watermarkText": "Choose an option",

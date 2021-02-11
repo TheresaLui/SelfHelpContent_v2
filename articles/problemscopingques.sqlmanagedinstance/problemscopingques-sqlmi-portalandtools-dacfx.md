@@ -1,12 +1,12 @@
 <properties
-	articleId="problemscopingques-sqlmi-tools-ssdt"
+	articleId="problemscopingques-sqlmi-portalandtools-dacfx"
 	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to capture SSDT related issues"
+	description="Scoping questions to capture DACFx related issues"
 	authors="vitomaz-msft,MladjoA"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637307"
+	supportTopicIds="32637253"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -32,8 +32,8 @@
             "id": "version",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the version of SSDT you are using?",
-            "watermarkText": "Provide the SSDT version",
+            "displayLabel": "What is the version of DACFx you are using?",
+            "watermarkText": "Provide the DACFx version",
             "required": false,
             "useAsAdditionalDetails": false
         },
