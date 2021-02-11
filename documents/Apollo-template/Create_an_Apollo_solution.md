@@ -1,6 +1,6 @@
 # Create an Apollo solution 2.0
 
-Use this document to get started constructing Apollo articles (solution 2.0). Here, we'll describe the article structure,  the components within that structure, and the basic requirements for building a compliant solution. For a complete description of Apollo, see the **Overview**.
+Use this document to get started constructing Apollo articles (solution 2.0). Here, we'll describe the article structure,  the components within that structure, and the basic requirements for building a compliant solution. For a complete description of Apollo, see the ![**Overview**](..assets/articles/Overview.md).
 
 
 ## Get started
@@ -22,7 +22,7 @@ Use this document to get started constructing Apollo articles (solution 2.0). He
 
 ## Properties section
 
-The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the following topic.
+The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the table in the following section.
 
 - Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string ("") as the value for properties you aren't using.
 - Neither the order of the properties, spaces, or capitalization matters
