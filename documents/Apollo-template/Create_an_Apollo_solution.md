@@ -12,12 +12,12 @@ Use this document to get started constructing Apollo articles (solution 2.0). He
 
 ## Basic structure of an Apollo solution
 
-| **These sections are required** | **Description** |
+| **Required section** | **Description** |
 | --- | --- |
-| **Properties** | Contains the metadata of the article |
-| **Internal title** | Internal only (not customer-facing) component used by the Azure self-help portal |
-| **Customer-facing title** | Provides context for your Apollo solution |
-| **Body** | Main canvas of the article. **At minimum**, must contain an introduction and one or more solution components: diagnostics, Azure Monitor charts, video solutions, images, procedures, tables, and AzureKB article links
+|Properties | Contains the metadata of the article |
+|Internal title | Internal only (not customer-facing) component used by the Azure self-help portal |
+|Customer-facing title | Provides context for your Apollo solution |
+|Body | Main canvas of the article. **At minimum**, must contain an introduction and one or more solution components: diagnostics, Azure Monitor charts, video solutions, images, procedures, tables, and AzureKB article links
 
 
 ## Properties section
