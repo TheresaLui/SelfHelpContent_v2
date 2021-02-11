@@ -31,8 +31,25 @@
             "required": true
         },
 	{
+            "id": "operation",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Which of the followig operations has an issue",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/operations?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            }
+	{
 	    "id": "attempt_method",
-	    "order": 2,
+	    "order": 3,
 	    "controlType": "dropdown",
 	    "displayLabel": "What method are you using to create or drop the database?",
 	    "required": true,
@@ -56,7 +73,7 @@
 	},
         {
 	    "id": "encountering_an_error",
-	    "order": 3,
+	    "order": 4,
 	    "controlType": "dropdown",
 	    "displayLabel": "Are you encountering an error message?",
 	    "dropdownOptions": [{
@@ -76,7 +93,7 @@
 	},
 	{
 	    "id": "error_message",
-	    "order": 4,
+	    "order": 5,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Please provide this error message",
 	    "required": false,
@@ -84,7 +101,7 @@
 	},
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controltype": "multilinetextbox",
             "displayLabel": "Any additional details you would like to include?",
             "watermarkText": "Enter any additional details here",
