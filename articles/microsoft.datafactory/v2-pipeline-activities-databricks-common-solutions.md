@@ -22,25 +22,25 @@
 
 * Error codes of 3201 usually indicate an authoring error.
 
-* An error code of 3204 with a "Could not launch cluster due to cloud provider failures" message usually indicates an insufficient quota of cores. Request for increase of core quota per guidance [here](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/per-vm-quota-requests)
+* An error code of 3204 with a "Could not launch cluster due to cloud provider failures" message usually indicates an insufficient quota of cores. Request for increase of core quota per guidance [here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
 
 ## **Recommended Documents**
 
 * Activities documents, including:
-  * [Databricks documents](https://docs.microsoft.com/en-us/azure/databricks/)
+  * [Databricks documents](https://docs.microsoft.com/azure/databricks/)
   * Databricks [Jar Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-jar)
   * Databricks [Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook)
   * Databricks [Python Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-python)
 
 * Other document
   * Transform data in the cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)
-  * [Databricks Linked Services](https://docs.microsoft.com/en-us/azure/data-factory/compute-linked-services#azure-databricks-linked-service)
-  * [Databricks Solution Template](https://docs.microsoft.com/en-us/azure/data-factory/solution-template-databricks-notebook)
+  * [Databricks Linked Services](https://docs.microsoft.com/azure/data-factory/compute-linked-services#azure-databricks-linked-service)
+  * [Databricks Solution Template](https://docs.microsoft.com/azure/data-factory/solution-template-databricks-notebook)
 
 **Azure Data Factory Information** 
 
-* [Azure Data Factory Updates](https://azure.microsoft.com/en-us/updates/?query=factory)
+* [Azure Data Factory Updates](https://azure.microsoft.com/updates/?query=factory)
 * [Azure Data Factory Blog](https://techcommunity.microsoft.com/t5/azure-data-factory/bg-p/AzureDataFactoryBlog)
 * [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
-* [Azure Data Factory Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/data-factory/data-factory-troubleshoot-guide)
+* [Azure Data Factory Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
 * [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
