@@ -46,7 +46,7 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            }
+            },
 	{
 	    "id": "attempt_method",
 	    "order": 3,
