@@ -2,7 +2,10 @@
 
 These rules ensure that your self-help articles meet both the validation rules in Elixir and the Microsoft style guidelines. For details and examples, review the ![**Authoring guidelines**](../assets/articles/AuthoringGuidelines.md).
 
-- At minimum, the body must contain substantive content that clearly addresses the topic or issue. For an **issue-based** solution, the body contains a solution that specifically addresses the stated issue. For a **how-to solution** , the body contains conceptual or procedural information, or both.
+- At minimum, the body must contain substantive content that clearly addresses the topic or issue. 
+
+    - For an **issue-based** solution, the body contains a solution that specifically addresses the stated issue. 
+    - For a **how-to** solution, the body contains conceptual or procedural information, or both.
 
 - Use active, imperative verbs and present tense (not passive verbs; not past or future tense)
 
