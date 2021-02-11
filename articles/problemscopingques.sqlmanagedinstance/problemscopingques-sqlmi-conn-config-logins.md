@@ -54,7 +54,7 @@
             "id": "sqlexception_received_on_client",
             "order": 20,
             "controlType": "multilinetextbox",
-            "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
+            "displayLabel": "Paste detailed error message or stack trace. (Remove any personally identifiable information).",
             "required": false
         },
         {
