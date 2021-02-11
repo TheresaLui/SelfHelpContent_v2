@@ -19,11 +19,7 @@
 
 Query execution problems can be caused by the database engine itself or by the interaction of the database engine and the service. Follow the recommended steps to troubleshoot your problem.
 
-# Troubleshoot query execution problems in Azure Database for MySQL Single Server
-
-Query execution problems can be caused by the database engine itself or by the interaction of the database engine and the service. Follow the recommended steps to troubleshoot your problem.
-
-## Fix it yourself
+### Fix it yourself
 **Troubleshooting timeouts or the loss of connectivity?**
 For information about how to resolve timeouts or connectivity issues, see [Troubleshoot issues connecting to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues). You may want to adjust application side parameter like autoReconnect and keepAlive. [Handling transient errors is a good read for such issues](https://docs.microsoft.com/azure/mysql/concepts-connectivity#handling-transient-errors)
 
@@ -49,11 +45,11 @@ If you are experiencing out of connections issues, see [Use connection pooling](
 ## Quick tips
 
 Also, be sure to consider the following points.
-1. Monitor resource consumption on your server. If you max out either I/O or compute resources, scale up the resources that are limited. For more information, see [Monitoring in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-monitoring).
-1. Don’t forget to search the internet for potential solutions from the MySQL community.
+- Monitor resource consumption on your server. If you max out either I/O or compute resources, scale up the resources that are limited. For more information, see [Monitoring in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-monitoring).
+- Don’t forget to search the internet for potential solutions from the MySQL community.
 
 ## **Recommended documents**
 
-•	[How to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)
-•	[Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring/)
-•	[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+- [How to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema).
+- [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring/).
+- [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/).
