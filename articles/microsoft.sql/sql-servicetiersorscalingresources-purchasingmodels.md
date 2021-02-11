@@ -18,26 +18,26 @@
 
 ** If you have already tried to scale a database or elastic pool and are facing issues (operation is long running , stuck , or have general questions), please go back to the Previous:Basics tab and select the Problem subtype(last drop down) to be Issues scaling a database or elastic pool. **
 
-### Moving between service tiers
+## Moving between service tiers
 
 You do not need to take your application offline to convert your database to any supported performance objective (DTU to VCore and visa versa).You can do it by using the Azure portal, PowerShell, the Azure CLI, T-SQL, or the REST API. The service tiers offer a simple online-conversion method that's similar to the existing process of upgrading databases from the standard to the premium service tier and the other way around.
 
 See [Manage single databases](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale) and [Manage elastic pools](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale).
 
-### Quota Requests
+## Quota Requests
 
 To request a quota increase or whitelist a subscription for a particular region follow [Quota requests](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request)
 
-### Manage and Reduce costs
+## Manage and Reduce costs
 
 * For more information on pricing visit the [pricing](https://azure.microsoft.com/pricing/details/sql-database/single/) page.
 * Azure Cost Management helps you set budgets and configure alerts to keep spending under control. Analyze, manage, and optimize your costs with Cost Management. To learn more, see the [quickstart on analyzing your costs](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal).
 
-### Serverless compute tier
+## Serverless compute tier
 
 Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier also automatically pauses databases during inactive periods when only storage is billed and automatically resumes databases when activity returns. For more details refer [serverless-tier-overview](https://docs.microsoft.com/azure/azure-sql/database/serverless-tier-overview).
 
-### Problems selecting a particular service tier
+## Problems selecting a particular service tier
 
 If you are facing issues while choosing a particular service tier, it could be due to: 
 
@@ -64,7 +64,7 @@ If you are facing issues while choosing a particular service tier, it could be d
 	* Clear your browser cache. 
 	* Re-login into your portal.
 
-### Choosing between service tiers
+## Choosing between service tiers
 
 * DTU-based
 
@@ -73,7 +73,7 @@ If you are facing issues while choosing a particular service tier, it could be d
 * vCore-based
 		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
 
-### Automate management of databases
+## Automate management of databases
 
 You can define target database or groups of databases where the job will be executed, and also define schedules for running a job. A job handles the task of logging in to the target database. You also define, maintain, and persist Transact-SQL scripts to be executed across a group of databases.
 Every job logs the status of execution and also automatically retries the operations if any failure occurs. For further details follow [Automation](https://docs.microsoft.com/azure/azure-sql/database/job-automation-overview) 
