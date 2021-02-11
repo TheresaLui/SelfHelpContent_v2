@@ -82,7 +82,7 @@
             "id": "P2S_custompolicy",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Custom policy being used?",
+            "displayLabel": "Using custom policy?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
