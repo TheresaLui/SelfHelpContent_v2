@@ -523,13 +523,13 @@ These rules ensure that your self-help articles meet both the validation rules i
 
 * Insert a blank line after every heading
 
-* Insert a blank line <br> before each level 3 heading **fix**
+* Insert a blank line <br> before each level 3 heading 
 
 * Tables must be created in Markdown
 
-* Include only YouTube video URLs that don't contain an ampersand (&amp;) **fix**
+* Include only YouTube video URLs that don't contain an ampersand (&) 
 
-* All non-text content (images, charts, videos) must include alt text to meet Microsoft Accessibility Standards. At minimum, include an introductory sentence that briefly describes the content. – **blocking**
+* All non-text content (images, charts, videos) must include alt text to meet Microsoft Accessibility Standards. At minimum, include an introductory sentence that briefly describes the content. 
 
 * Link text must clearly indicate the purpose of link ("here" or "this document" is not sufficient)
 
