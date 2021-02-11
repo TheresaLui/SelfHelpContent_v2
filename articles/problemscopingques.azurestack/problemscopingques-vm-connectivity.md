@@ -66,8 +66,17 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
@@ -98,21 +107,12 @@
         },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.2008.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
-        },
-        {
-            "id": "cloud_id",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Enter the Stamp Cloud ID",
-            "watermarkText": "########-####-####-####-###########",
-            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
-            "required": false
         },
         {
             "id": "region_name",
