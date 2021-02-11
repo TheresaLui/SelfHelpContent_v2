@@ -120,9 +120,9 @@ After Auditing is configured, follow these recommendations to monitor, generate 
 
 -   More Tutorials and workshop:
 
-    -   Playlist: [Azure SQL for Beginners](https://aka.ms/azuresql4beginners) This video series covers the challenges, solutions, and key benefits to Azure SQL.  For the full Azure SQL Fundamentals learning path on Microsoft Learn, [Azure SQL Fundamentals](https://aka.ms/azuresqlfundamentalsyt)    
-    -   Select workshop based on your requirement and [View Code on GitHub](https://aka.ms/asqlworkshop​)
-    -   Learn live from Azure SQL DB [Live Bootcamp](https://aka.ms/azuresqlbootcamp)
+    -   Playlist: [Azure SQL for Beginners](https://www.youtube.com/watch?v=Dtr6eRVZQ8I&list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) This video series covers the challenges, solutions, and key benefits to Azure SQL.  For the full Azure SQL Fundamentals learning path on Microsoft Learn, [Azure SQL Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-sql-fundamentals/?WT.mc_id=azuresql4beg_azuresql-ch9-ninert)    
+    -   Select workshop based on your requirement and [View Code on GitHub](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code​)
+    -   Learn live from Azure SQL DB [Live Bootcamp](https://www.youtube.com/playlist?list=PLlrxD0HtieHjveswk8_gkPD42Te48X4zG&WT.mc_id=learnlive-video-learn)
 
 ## Limitations:
 
