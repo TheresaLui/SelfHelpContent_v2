@@ -18,7 +18,7 @@
 
 * If your Databricks Notebook Activity is running for a longer period or failed: Because this is a customer-owned cluster, go to the Databricks account or URL provided in the pipeline to find the cluster logs for more details about the error.
 
-* An error code of 3200 with a 403 error usually indicates your DataBricks access token might be expired.  [Access Token Generation Instructions](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
+* An error code of 3200 with a 403 error usually indicates your Databricks access token might be expired.  [Access Token Generation Instructions](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
 
 * Error codes of 3201 usually indicate an authoring error.
 
