@@ -169,9 +169,9 @@ High CPU can indicate that the application is performing many CPU-intensive task
 **Note**: To run each diagnostic in parallel, create separate <insight> tags each tag
    
 
-2. **Run multiple diagnostics in parallel**
-
-If you need to run multiple diagnostics in parallel, create two separate <Insight> tags. For example, if you need to present insights from two different diagnostics for the customer to have a complete picture of a resource's state, you'll need diagnostics that check that resource for 2 different things simultaneously to provide insights from both diagnostics.
+1. **Include multiple diagnostics**
+   Run multiple diagnostics in parallel by creating separate <insight> tags. For example, to give the customer a more complete picture of a resource’s state, you can include two separate insight tags from two different diagnostics. When the diagnostics finish running, insights from both diagnostics are presented to the customer. 
+   With Solutions 2.0, you can place diagnostics anywhere in the article canvas, giving you complete flexibility in authoring the content to suit your customer’s needs.
 
 **Schema example:**
 
@@ -179,18 +179,12 @@ If you need to run multiple diagnostics in parallel, create two separate <Insigh
 ### <Title>
 
 <Diagnostic description>
-
-<insight>
-
-     <symptomId>CannotRDPPassword</symptomId>
-
-     <executionText>We are checking to see if your VM was restarted</executionText>
-
-     <timeoutText>Proceeding to the next operation</timeoutText>
-
-     <noResultText>No issues found. Your VM is running smoothly.</noResultText>
-
-</insight>
+<Insight> 
+	<symptomId>CannotRdpFirewall</symptomId><br>
+	<executionText>We are checking to see if your VM’s firewall settings</executionText><br>
+	<timeoutText>Proceeding to the next operation</timeoutText><br>
+	<noResultText>No issues found</noResultText><br>
+</Insight>
 
 
 ### <Title>
@@ -209,11 +203,8 @@ If you need to run multiple diagnostics in parallel, create two separate <Insigh
 
 </insight>
 
-3. **Present multiple insights per diagnostic in <maxInsightCount>**
-
-Control the number of insights that the diagnostic returns using the <maxInsightCount> property inside the <Insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, the insights are limited to two.
-
-If this property is not defined, three critical insights are returned.
+2.	**Limit the number of insights per diagnostic**
+Control the number of insights that the diagnostic returns by including the <maxInsightCount> property in the <insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, only two insights will be shown. If this property is omitted, the portal will return 3 critical insights.
 
 **Example**:
 
