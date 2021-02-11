@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="kummanish"
-    ms.author="manishku"
+    ms.author="bahusse"
     displayOrder="250"
     selfHelpType="generic"
     supportTopicIds="32747578"
@@ -19,16 +19,29 @@
 
 Query performance issues can have many different root causes. Work through the recommended steps to solve for the most common causes for performance issues.
 
-## **Recommended Steps**
+**Troubleshooting slow query performance?**
+Review your queries for any recent changes that might have caused the unexpected behavior. Also be sure to check the top consumers in terms of database utilization. You can use [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store) and [Slow Query log](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) to identify top consumers, and then [use Explain to profile and optimize your query](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance).
+For more information about how to resolve issues with query performance, see [Troubleshoot query performance in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance).
 
-* Use our intelligent performance features for additional insights:
+**Troubleshooting high CPU utilization?**
+If you are experiencing high utilization on the CPU, remember that the number of active connections to your server can cause a spike. Be sure to review [Connecting efficiently to Azure Database for MySQL with ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842). For more information about resolving issues related to high CPU utilization, see [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815)
 
-  * [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store)
-  * [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
-  * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
+**Troubleshooting out of memory issues?**
+If you are experiencing out of memory issues, see [Tune your server parameters](https://docs.microsoft.com/azure/mysql/app-development-best-practices#tune-your-server-parameters) in the article on App development best practices.
 
-* If you want to use Query Store, ensure that **default_transaction_read_only** is not set to ON. Assure you have the right set of indexes created for your queries
-* Make sure that the [limitations](https://docs.microsoft.com/azure/mysql/concepts-query-store#limitations-and-known-issues) are not hit.
+**Troubleshooting out of connections issues?**
+If you are experiencing out of connections issues, see [Use connection pooling](https://docs.microsoft.com/azure/mysql/app-development-best-practices#use-connection-pooling) in the article on App development best practices.
+
+**Is your database tuned for best application performance?** Consider [tuning your server parameters for best performance](https://docs.microsoft.com/azure/mysql/app-development-best-practices#tune-your-server-parameters).
+
+**Use our intelligent performance features for additional insights:**
+
+  1. [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store)
+  2. [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
+  3. [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
+
+* If you want to use Query Store, ensure that **default_transaction_read_only** is not set to ON. Assure you have the right set of indexes created for your queries.
+* Make sure that the [limitations](https://docs.microsoft.com/azure/mysql/concepts-query-store#limitations-and-known-issues) are not hit
 
 ## **Recommended Documents**
 
