@@ -116,10 +116,13 @@ The following sections describe each component and provide examples and schema f
 
 ## Diagnostics
 
-Optional. Level 3 heading required. Add a blank line before the heading.<br>
-
-Diagnostics are a feature of Azure Cloud Services that let you diagnose and collect data on the customer's deployed application. 
+Diagnostics are an optional feature of Azure Cloud Services that let you diagnose and collect data on the customer's deployed application. 
 When you include a diagnostic in your solution, explain what it is and what information it's gathering, and how the customer can use that information to address their issue.
+
+- Level 3 heading required
+- If you have more than one diagnostic mapped against the support topic in SEAM and you are migrating the experience to Apollo, provide the symptomdIds as comma-separated list as shown in the following example.
+- List diagnostics in the order you want the results to be displayed. Azure portal prioritizes the presented results for the first diagnostic mapped to the first symptomId. If no insight is found or the first diagnostic failed/timed-out, the portal proceeds to get the insight from the second diagnostic, and so on.
+
 
 **Example:**
 
@@ -138,38 +141,33 @@ High CPU can indicate that the application is performing many CPU-intensive task
 3. Query change or outdated Indexes. SQL or Oracle data tier applications also have query plan optimizations. Lack of proper indexes, data changes, etc. can lead to some queries becoming more compute intensive.
 
 **Diagnostics schema definitions**
+|     Tag    	|     Required    	|     Details    	|     Example    	|
+|-	|-	|-	|-	|
+|     Insight    	|     True    	|     Marks   the start of a Diagnostic XML Control    	|          	|
+|     symptomId    	|     True    	|     SymptomId of the diagnostic to be   run.           	|     CannotRdpFirewall,   CannotRDPPassword          	|
+|     ExecutionText    	|     False    	|     Text to   be presented to the user while the diagnostic is running.          	|     We   are running a few connectivity checks on your VM    	|
+|     failedText    	|     False    	|     Text to be presented to the user   if the diagnostic fails while the diagnostic is running.    	|     We ran into   an issue and could not complete this   check          	|
+|     noResultText    	|     False    	|     Text to   be presented to the user if the diagnostic successfully completes but no insight   is returned.    	|     We   have checked the current firewall configuration and did not find any issues.     	|
+|     maxInsightCount    	|     False    	|     Defines the maximum number of   insights to be presented if more than one insight is returned by the   diagnostic.      If the tag is not provided the default value of 3 will be   assumed.     	|     5    	|
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **Insight** | True | Marks the start of a Diagnostic XML Control | |
-| **symptomId** | True | SymptomId of the diagnostic to be run.
- | CannotRdpFirewall, CannotRDPPassword |
-| **ExecutionText** | False | Text to be presented to the user while the diagnostic is running.
- | We are running a few connectivity checks on your VM |
-| **failedText** | False | Text to be presented to the user if the diagnostic fails while the diagnostic is running. | We ran into an issue and could not complete this check
- |
-| **noResultText** | False | Text to be presented to the user if the diagnostic successfully completes but no insight is returned. | We have checked the current firewall configuration and did not find any issues. |
-| **maxInsightCount** | False | Defines the maximum number of insights to be presented if more than one insight is returned by the diagnostic. If the tag is not provided the default value of 3 will be assumed. | 5 |
 
-1. **List diagnostics in <SymptomIds>**
-
-Provide a comma-separated list of symptomIds for the diagnostics to be run. The order in which the symptomIds are listed matters. Azure porta prioritizes the presented results for the first diagnostic mapped to the first symptomId. If no insight is found or the first diagnostic failed/timed-out, the portal will proceed to get the insight from the second diagnostic and so on.
 
 **Schema example:**
 
 <insight>
 
-<symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId> 
+     <symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId> 
 
-<executionText>We are checking to see if your VM was restarted</executionText> 
+     <executionText>We are checking to see if your VM was restarted</executionText> 
 
-<timeoutText>Proceeding to the next operation</timeoutText> 
+     <timeoutText>Proceeding to the next operation</timeoutText> 
 
-<noResultText>No issues found. Your VM is running smoothly.</noResultText> 
+     <noResultText>No issues found. Your VM is running smoothly.</noResultText> 
 
 </insight>
 
 **Note**: To run each diagnostic in parallel, create separate <insight> tags each tag
+   
 
 2. **Run multiple diagnostics in parallel**
 
@@ -177,7 +175,6 @@ If you need to run multiple diagnostics in parallel, create two separate <Insigh
 
 **Schema example:**
 
-<blank line before head3s>
 
 ### <Title>
 
@@ -195,12 +192,10 @@ If you need to run multiple diagnostics in parallel, create two separate <Insigh
 
 </insight>
 
-<blank line before head3s>
-
 
 ### <Title>
 
-<Diagnostic description>
+<description>
 
 <insight>
 
@@ -220,13 +215,12 @@ Control the number of insights that the diagnostic returns using the <maxInsight
 
 If this property is not defined, three critical insights are returned.
 
-**Example** :
+**Example**:
 
-<blank line before head3s>
 
 ### <Title>
 
-<Diagnostic description>
+<description>
 
 <insight>
 
@@ -262,7 +256,6 @@ Look for spikes in the following chart to determine when and how authorization f
 
 **Schema example:**
 
-<blank line before head3s>
 
 ### <Title>
 
