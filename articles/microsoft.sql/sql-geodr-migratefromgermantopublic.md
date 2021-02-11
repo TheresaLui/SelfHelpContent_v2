@@ -27,6 +27,6 @@ After your allow list request is processed, migrate your database using the foll
 
 
 ## **Recommended Documents**
-* [Migrate database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592#migrate-sql-database-using-active-geo-replication)
+* [Migrate database using active Geo Replication](https://docs.microsoft.com/azure/germany/germany-migration-databases#migrate-sql-database-using-active-geo-replication)
 * [Microsoft Cloud Deutschland transition](https://www.microsoft.com/cloud-platform/germany-cloud-regions)
 * [Migrate database resources to Azure Global](https://docs.microsoft.com/azure/germany/germany-migration-databases?branch=pr-en-us-138592)
