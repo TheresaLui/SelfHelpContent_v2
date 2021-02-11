@@ -1,19 +1,17 @@
 <properties
-	pageTitle="configuration and management/hybrid"
-	description="configuration and management/hybrid"
-	service="microsoft.web"
-	resource="sites"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32581613"
-	resourceTags=""
-	productPesIds="14748, 16170"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="c8301fb1-9668-444d-b000-456f03242194"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="configuration and management/Hybrid&#xD;"
+  description="configuration and management/hybrid"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32581613"
+  resourcetags=""
+  productpesids="14748,16170"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="c8301fb1-9668-444d-b000-456f03242194"
+  ownershipid="Compute_AppService" />
 # configuration and management/Hybrid
 
 ## **Recommended documents**
