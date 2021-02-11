@@ -29,9 +29,9 @@ If the customer is new to Microsoft Cloud Services and does not have an existing
 **IMPORTANT:** only the admin agent role can add or view customers in Partner Center
 
 The admin agent role is available in each of the CSP partner types below:
- * an authorized subscription advisor -> for help [click here](https://docs.microsoft.com/partner-center/advisors-build-your-business)
- * a CSP Direct bill or Indirect provider -> for help [click here](https://docs.microsoft.com/partner-center/add-a-new-customer#to-add-a-new-customer-in-partner-center). You can only add a CSP customer whose tenant is based in the same [region/market](https://docs.microsoft.com/partner-center/regional-authorization-overview) as your tenant.
- * a CSP Indirect reseller -> for help [click here](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center). Refer to [Supported CSP partner relationships](https://docs.microsoft.com/partner-center/csp-supported-partner-relationships#supported-partner-transactions-in-the-csp-program) for more information.
+* an authorized subscription advisor -> for help [click here](https://docs.microsoft.com/partner-center/advisors-build-your-business)
+* a CSP Direct bill or Indirect provider -> for help [click here](https://docs.microsoft.com/partner-center/add-a-new-customer#to-add-a-new-customer-in-partner-center). You can only add a CSP customer whose tenant is based in the same [region/market](https://docs.microsoft.com/partner-center/regional-authorization-overview) as your tenant.
+* a CSP Indirect reseller -> for help [click here](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center). Refer to [Supported CSP partner relationships](https://docs.microsoft.com/partner-center/csp-supported-partner-relationships#supported-partner-transactions-in-the-csp-program) for more information.
 
 We have introduced Partner Center API and user interface (UI) enhancements for Partners who meet the criteria detailed in [December 2020 announcements - Changes to the Cloud Solution Provider (CSP) customer onboarding requirements](https://docs.microsoft.com/partner-center/announcements/2020-december#8).  When adding a new or updating an existing customer, eligible partners will have to submit a customer's legal identifier (also known as the customer's organization INN) and phone number when they next update or create a subscription for that customer. These partners can also enter an optional middle name for the customer.
 
