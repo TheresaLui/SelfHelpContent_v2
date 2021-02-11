@@ -3,8 +3,8 @@
 	description="create drop and manage resources/elastic job agents"
 	service="microsoft.sql"
 	resource="jobAgents"
-	authors="joke"
-    ms.author="joke"
+	authors="joke,andikshi"
+    ms.author="joke,andikshi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32739626"
@@ -15,6 +15,27 @@
 />
 
 # create drop and manage resources/elastic job agents
+
+## Determining the casue of failure
+
+You can confirm the failure by issuing the following query in Sql Server Management Studio when connected to the job database.
+
+```
+SELECT *  
+FROM jobs.job_executions  
+WHERE job_name = '<>'
+ORDER BY start_time DESC 
+```
+
+You can drill down onto the failure message by executing the following query:
+
+```
+SELECT last_message  
+FROM jobs.job_executions 
+WHERE job_name = '<>' AND step_name <> 'NULL'
+```
+
+This step should yeild an error message describing why the job execution failed.
 
 ## **Recommended Steps**
 
