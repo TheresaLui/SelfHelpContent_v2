@@ -25,12 +25,14 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a hardware issue due to motherboard errors on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+> The physical host node where the VM was running encountered a **hardware due to System Board.**  
 > 
 
 <!--resolutionDetails-->
 ### **Resolution**
-> VM was restored following reboot of the host node.
+> The physical node has been taken out of service for further diagnostics and repair. The VM was service healed and restored on a healthy node.
+
+
 > 
 <!--/resolutionDetails-->
 
