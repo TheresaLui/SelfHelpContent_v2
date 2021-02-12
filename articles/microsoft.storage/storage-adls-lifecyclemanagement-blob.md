@@ -1,22 +1,16 @@
 <properties
-	pageTitle="Azure Data Lake Gen 2 Lifecycle Management"
-	description="Azure Data Lake Gen 2 Lifecycle Management"
-	infoBubbleText=""
-	service="microsoft.storage"
-	resource="datalakestoragegen2"
-	authors="AngshumanNayakMSFT"
-	ms.author="annayak"
-	displayOrder=""
-	articleId="d0925508-71da-4f54-8846-4ef79be3e154"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32691063"
-	resourceTags=""
-	productPesIds="16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
-/>
-
+  pagetitle="Troubleshoot and resolve ADLSGen2 Lifecycle Management issues&#xD;"
+  description="Azure Data Lake Gen 2 Lifecycle Management"
+  service="microsoft.storage"
+  resource="storageaccounts"
+  ms.author="annayak,broder"
+  selfhelptype="Generic"
+  supporttopicids="32691063"
+  resourcetags=""
+  productpesids="16598"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="d0925508-71da-4f54-8846-4ef79be3e154"
+  ownershipid="StorageMediaEdge_DataLakeStorageGen2" />
 # Troubleshoot and resolve ADLSGen2 Lifecycle Management issues
 
 ## **Recommended Steps**
