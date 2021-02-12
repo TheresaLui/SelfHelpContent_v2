@@ -1,19 +1,17 @@
 <properties
-	pageTitle="configuration and management/ip configuration"
-	description="configuration and management/ip configuration"
-	service="microsoft.web"
-	resource="sites"
-	authors="aashu"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32542210"
-	resourceTags=""
-	productPesIds="14748, 16170"
-	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
-	articleId="ce8300ba-4b00-400a-aaa0-946f930e754b"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="configuration and management/ip configuration&#xD;"
+  description="configuration and management/ip configuration"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32542210"
+  resourcetags=""
+  productpesids="14748,16170"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="ce8300ba-4b00-400a-aaa0-946f930e754b"
+  ownershipid="Compute_AppService" />
 # configuration and management/ip configuration
 
 ## **Recommended steps**
