@@ -28,7 +28,6 @@ Review customer verbatim and validate that the case has the minimum required det
 7. What changes were made? (if applicable)
 8. Error message/StackTrace (if applicable)
 
-**Please try to obtain all the information from ASC Resource Explorer before reaching to customer.**
+**Please try to obtain all the information from ASC Resource Explorer before reaching the customer.**
 
 If no enough details, please provide customer with customer ready message for minimum required details to start the case.
-
