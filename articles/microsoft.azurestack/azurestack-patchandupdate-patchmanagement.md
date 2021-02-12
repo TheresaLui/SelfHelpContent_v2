@@ -28,9 +28,10 @@ When planning for your maintenance window, it's important to review the specific
 
 For detailed information on recent releases, release notes on updates and cadence, please review [Update package release cadence](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence).
 
+For information on supported Azure Stack Hub versions for Azure App Service, see [Update Azure App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-update).
+
 ## **Recommended Documents**
 
 * [Manage updates in Azure Stack Hub overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)<br>
 * [Monitor updates in Azure Stack Hub using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)<br>
-* [Integrate external monitoring solution with Azure Stack Hub - Integrate with Operations Manager](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-monitor#integrate-with-operations-manager)<br>
-* For information on supported Azure Stack Hub versions for Azure App Service, see [Update Azure App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-update)
+* [Integrate external monitoring solution with Azure Stack Hub - Integrate with Operations Manager](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-monitor#integrate-with-operations-manager)
