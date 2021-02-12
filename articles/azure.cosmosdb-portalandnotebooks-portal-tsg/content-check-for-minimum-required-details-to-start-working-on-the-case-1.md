@@ -27,8 +27,8 @@ Review customer verbatim and validate that the case has the minimum required det
 6. Collection name
 7. What changes were made? (if applicable)
 8. Error message/StackTrace (if applicable)
-9. Session Id for when you observe the issue (see how to obtain below)
-10. HAR file (see how to obtain below)
+9. Session Id for when you observe the issue (see how to obtain it below)
+10. HAR file (see how to obtain it below)
 
 **Please try to obtain all the information from ASC Resource Explorer before reaching the customer.**
 
