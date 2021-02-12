@@ -1,6 +1,6 @@
 <properties
   pagetitle="Continuous Integration and Delivery with Git Repository Integration"
-  ms.author="chez,haoc,nimoolen"
+  ms.author="nimoolen"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -25,7 +25,6 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 
 Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX. 
 
-
 ### **Selective publishing**
 
 Git publishing does not allow publishing for a subset of changes. To publish individual changes in a production environment, consider making a hotfix or taking [QFE steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
@@ -40,12 +39,14 @@ When working on a team, there can be instances where you merge changes, but don'
 ### **Other common errors**
 Review [common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and GitHub issues in ADF. 
 
+
 ## **Recommended Documents**
 
 * Continuous integration and delivery of [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory 
-    * **Strongly recommended:** [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd)
-    * [Hotfix Production Branch Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) 
-    * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle)
+    * **Strongly recommended:** [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd)  
+    
+    * [Hotfix Production Branch Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch)   
+    * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle)  
     * [Automate continuous integration Sample and Steps](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#automate-continuous-integration-with-azure-pipelines-releases): this example shows how to stop active triggers before deployment and restart them afterwards.
 
 * Source Control in Azure Data Factory 
