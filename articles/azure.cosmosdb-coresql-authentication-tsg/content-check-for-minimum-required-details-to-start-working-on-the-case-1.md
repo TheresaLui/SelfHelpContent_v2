@@ -24,15 +24,8 @@ Review customer verbatim and validate that the case has the minimum required det
 4. Account name
 5. Database name 
 6. Collection name
-7. Query Metrics or Activity Id
-8. Collection Indexing Policy
-9. What is the client SDK used?
-10. What changes were made? (if applicable)
-11. Is the error persistent or intermittent? (if applicable)
-12. Error message/StackTrace (if applicable)
-13. MaxItemCount value (if applicable)
-14. MaxBufferedItemCountCount value (if applicable)
-15. MaxDegreeOfParallelismvalue (if applicable)
+7. What changes were made? (if applicable)
+8. Error message/StackTrace (if applicable)
 
 **Please try to obtain all the information from ASC Resource Explorer before reaching the customer.**
 
