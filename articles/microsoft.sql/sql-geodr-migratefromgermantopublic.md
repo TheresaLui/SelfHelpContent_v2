@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-The best method for migrating your database depends on the database size and availability requirements.  Smaller databases can be migrated during a downtime window by exporting to a .bacpac file and then importing the .bacpac to the new server. Larger databases, or scenarios where you must minimize downtime, are best migrated using active geo-replication.
+The best method for migrating your database depends on the database size and availability requirements.  Smaller databases can be migrated during a downtime window by exporting to a `.bacpac` file and then importing the `.bacpac` to the new server. Larger databases, or scenarios where you must minimize downtime, are best migrated using active geo-replication.
 
-Establishing a geo-replication link from the Azure Germany cloud to a server on Azure Global (public cloud) requires that you add allow list each target subscription.  Allow list requests must be submitted from the Azure Germany (source) subscription.  If you are replicating the databases to different target subscriptions you can enter multiple subscriptions in a single request. You will be prompted to enter the desired target, subscription ID(s) on the next (Details) tab. The allow listing will be done for unique subscription pairs.
+Establishing a geo-replication link from the Azure Germany cloud to a server on Azure Global (public cloud) requires that you add an allow list request for each target subscription.  Allow list requests must be submitted from the Azure Germany (source) subscription.  If you are replicating the databases to different target subscriptions, enter the multiple subscriptions in a single request. You will be prompted to enter the desired target subscription ID(s) on the **Details** tab. The allow listing will be done for unique subscription pairs.
 
 The following is the example of unique subscription pairs for migrating databases to  one  target subscription.  
 
