@@ -26,7 +26,7 @@
       "id": "01904fa2-1f17-4584-21ee-8b8f73e958e5",
       "longDescription": "",
       "shortDescription": "Microsoft products (Office 365, MDTP, Exchange online, Azure AD, and so on) connectors provided by Azure Sentinel native solutions and Azure Diagnostics. ",
-      "searchTags": "Ofiice;365;Exchange;AD;MDATP",
+      "searchTags": "Office;365;Exchange;AD;MDATP",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -73,7 +73,7 @@
     {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
-      "shortDescription": "3rd party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
+      "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
       "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
@@ -169,7 +169,7 @@
     {
       "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
       "longDescription": "",
-      "shortDescription": "Leveraging Threat Hunting capabilities",
+      "shortDescription": "Leverage Threat Hunting capabilities",
       "searchTags": "threat;hunting",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -177,7 +177,7 @@
     {
       "id": "58b9550d-e997-9a58-9da7-5f41244c351a",
       "longDescription": "",
-      "shortDescription": "Troubleshooting Bookmarks",
+      "shortDescription": "Troubleshoot Bookmarks",
       "searchTags": "bookmarks",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -249,7 +249,7 @@
     {
       "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
       "longDescription": "",
-      "shortDescription": "Topics covering creating workspaces, access and connectivity issues",
+      "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -273,7 +273,7 @@
     {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
-      "shortDescription": "Troubleshooting and creating Analytics alert rules",
+      "shortDescription": "Troubleshoot and create Analytics alert rules",
       "searchTags": "alerts;rules",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -305,7 +305,7 @@
     {
       "id": "de98062c-87ba-b275-ab27-fa8c4b290aae",
       "longDescription": "",
-      "shortDescription": "Topics related to connecting, collecting and sending data from security solutions to Sentinel",
+      "shortDescription": "Topics related to connecting, collecting, and sending data from security solutions to Sentinel",
       "searchTags": "Connector;Data collection",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -313,7 +313,7 @@
     {
       "id": "e2be44f8-3c52-383d-f2b5-3ae94fd24f7c",
       "longDescription": "",
-      "shortDescription": "Diagnosing issues when creating Analytics alert rule",
+      "shortDescription": "Diagnose issues creating an Analytics alert rule",
       "searchTags": "Analytics;Rules",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -321,7 +321,7 @@
     {
       "id": "e5469f80-6b5d-daf2-9e4a-199bba4943dd",
       "longDescription": "",
-      "shortDescription": "Troubleshooting, understanding Threat Hunting Queries",
+      "shortDescription": "Troubleshoot and understand Threat Hunting queries",
       "searchTags": "threathunting",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -332,6 +332,14 @@
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f85f94d5-535b-ed24-682e-50cfd1d509ef",
+      "longDescription": "",
+      "shortDescription": "How to create, filter by severity, include or exclude, specific alerts problems",
+      "searchTags": "Analytics;Incidents;rules;configuration",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {
