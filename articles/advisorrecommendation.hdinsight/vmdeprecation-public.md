@@ -38,8 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://azure.microsoft.com/updates/a8-a11-azure-virtual-machine-sizes-will-be-retired-on-march-1-2021/",
   "description": "Action required: Migrate your A8–A11 HDInsight cluster before 1 March 2021",
-  "longDescription": "You're receiving this notice because you have one or more active A8, A9, A10, or A11 HDInsight clusters. The A8-A11 virtual machines (VMs) will be retired in all regions on 1 March 2021. After that date, all clusters using A8-A11 will be deallocated. Migrate your affected clusters to another HDInsight supported VM (https://azure.microsoft.com/pricing/details/hdinsight/) before that date. For more details, see 'Learn More' link or contact us at askhdinsight@microsoft.com",
-  "potentialBenefits": "Avoid cluster getting deleted",
+  "longDescription": "You're receiving this notice because you have one or more active A8, A9, A10 or A11 HDInsight cluster. The A8-A11 virtual machines (VMs) will be retired in all regions on 1 March 2021. After that date, all clusters using A8-A11 will be deallocated. Migrate your affected clusters to another HDInsight supported VM (https://azure.microsoft.com/pricing/details/hdinsight/) before that date. For more details, see 'Learn More' link or contact us at askhdinsight@microsoft.com",
   "actions": [
     {
       "actionId": "c6359c0c-6a5c-4f03-862d-98ef5b52b1eb",
