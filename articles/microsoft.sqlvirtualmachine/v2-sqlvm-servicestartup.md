@@ -19,9 +19,9 @@ Most users can resolve issues with SQL Service by using the following steps.
 
 * **Can't start SQL Service or unexpected SQL Service shutdown** 
 
-   * SQL Service doesn't start **because of Missing TempDB Folders** 
+   * SQL Service doesn't start because of missing TempDB folders
 
-     If you restarted your VM or resized your VM, SQL Service may not start because of Tempdb Files/Folders missing on the D Drive. We're working on a fix for this. Meanwhile, run the following script, which creates the TempDB structure: 
+     If you restarted or resized your VM, SQL Service may not start because of missing Tempdb files or folders on the D Drive. We're working on a fix for this. Meanwhile, run the following script, which creates the TempDB structure: 
 
       ``` 
       $SQLService="SQL Server (MSSQLSERVER)" 
@@ -37,9 +37,9 @@ Most users can resolve issues with SQL Service by using the following steps.
         
   *  **Error: Could not open Data/Log file or OS error: 3(The system cannot find the path specified.)** 
 
-     Make sure your database files master, model, and `msdb` and `tempdb` files, which are required for starting SQL Server, are at the **correct location** and that **[SQL Service account has permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Windows) on the folders** where these files are stored. 
+    * Make sure your database files master, model, and `msdb` and `tempdb` files, which are required for starting SQL Server, are at the **correct location** and that **[SQL Service account has permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Windows) on the folders** where these files are stored. 
 
-    * Is there anything related to the issue in the [SQL error log](https://docs.microsoft.com/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver15)? For SQL agent startup issues, you can check [SQL agent logs](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-error-log?view=sql-server-ver15). Are you able to [start the service from command prompt](https://docs.microsoft.com/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services?view=sql-server-ver15#CommandPrompt)? If the password has expired, **change the SQL Server Service account**. 
+    * Check the SQL error log to determine if it contains anything related to the issue. See [SQL error log](https://docs.microsoft.com/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver15). For SQL agent startup issues, check [SQL agent logs](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-error-log?view=sql-server-ver15). Are you able to [start the service from command prompt](https://docs.microsoft.com/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services?view=sql-server-ver15#CommandPrompt)? If the password has expired, change the SQL Server Service account. 
 
 * **Can't log in to SQL Server** 
 
@@ -47,15 +47,15 @@ Most users can resolve issues with SQL Service by using the following steps.
   
       To resolve this SPN issue, log in to the VM as Domain Admin and [run Kerberos Configuration Manager.](https://www.microsoft.com/download/details.aspx?id=39046).
 
-  - To **reset your password**, [Add your own login/Reset SA Password](https://docs.microsoft.com/sql/database-engine/configure-windows/connect-to-sql-server-when-system-administrators-are-locked-out?view=sql-server-ver15#step-by-step-instructions). 
+   - To **reset your password**, [Add your own login/Reset SA Password](https://docs.microsoft.com/sql/database-engine/configure-windows/connect-to-sql-server-when-system-administrators-are-locked-out?view=sql-server-ver15#step-by-step-instructions). 
 
-  - If your **password is expired** and **account is locked,** [change the password of a login](https://docs.microsoft.com/sql/t-sql/statements/alter-login-transact-sql?view=sql-server-ver15#b-changing-the-password-of-a-login).
+   - If your **password is expired** and **account is locked,** [change the password of a login](https://docs.microsoft.com/sql/t-sql/statements/alter-login-transact-sql?view=sql-server-ver15#b-changing-the-password-of-a-login).
 
 * **IAAS Extension failed or SQL Virtual Machine Resource is unavailable** 
 
    Remove and [reinstall IAAS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli).
  
-* **SQL Server Configuration Manager** throws the error "Cannot Connect to WMI Provider. You Do Not Have Permission or The Server is Unreachable" 
+* **SQL Server Configuration Manager** throws the error "Cannot Connect to WMI Provider. You do not have permission or the server is unreachable" 
 
    Check what version of SQL Server you have and replace it with the value `130`. You can try to repair this by compiling the `Mof` file by running the following in Command Prompt: 
 
