@@ -17,7 +17,7 @@
 
 # Issues using read replicas in Azure Database for MySQL
 
-The read replica feature lets you replicate data from an Azure Database for MySQL to a read-only server. You can replicate from the source server to up to five replicas in Azure Database for MySQL- Single Server and up to 10 replicas Azure Database for MySQL- Flexible Server. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL to a read-only server. You can replicate from the source server to up to five replicas in Azure Database for MySQL- Single Server and up to 10 replicas Azure Database for MySQL- Flexible Server. Replicas are updated asynchronously using the MySQL engine's native binary log (`binlog`) file position-based replication technology.
 
 Most users are able to resolve their issue using the steps below.
 
@@ -25,7 +25,7 @@ Most users are able to resolve their issue using the steps below.
 
 ### Large amount of replication lag
 
-Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
+Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the **seconds_behind_master** metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
 
 Refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency) to learn on how to troubleshoot replication latency.
 
