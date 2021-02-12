@@ -25,9 +25,8 @@ Review customer verbatim and validate that the case has the minimum required det
 4. Account name
 5. Database name 
 6. Collection name
-7. Account location
-8. What changes were made? (if applicable)
-9. Error message/StackTrace (if applicable)
+7. What changes were made? (if applicable)
+8. Error message/StackTrace (if applicable)
 
 **Please try to obtain all the information from ASC Resource Explorer before reaching to customer.**
 
