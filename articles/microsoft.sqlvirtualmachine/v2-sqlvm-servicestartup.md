@@ -35,7 +35,7 @@ Most users can resolve issues with SQL Service by using the following steps.
       Start-Service $SQLAgentService 
       ``` 
         
-  *  **Error: Could not open Data/Log file or OS error: 3(The system cannot find the path specified.)** 
+  *  **"Error: Could not open Data/Log file" or "OS error: 3 (The system cannot find the path specified.)"** 
 
     * Make sure your database files master, model, and `msdb` and `tempdb` files, which are required for starting SQL Server, are at the **correct location** and that **[SQL Service account has permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Windows) on the folders** where these files are stored. 
 
@@ -43,7 +43,7 @@ Most users can resolve issues with SQL Service by using the following steps.
 
 * **Can't log in to SQL Server** 
 
-    * **Error:"Cannot Generate SSPI Context"** 
+    * **Error: "Cannot Generate SSPI Context"** 
   
       To resolve this SPN issue, log in to the VM as Domain Admin and [run Kerberos Configuration Manager.](https://www.microsoft.com/download/details.aspx?id=39046).
 
