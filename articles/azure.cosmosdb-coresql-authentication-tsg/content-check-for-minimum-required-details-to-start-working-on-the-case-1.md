@@ -32,7 +32,7 @@ Review customer verbatim and validate that the case has the minimum required det
 12. Error message/StackTrace (if applicable)
 13. MaxItemCount value(if applicable)
 14. MaxBufferedItemCountCount value (if applicable)
-MaxDegreeOfParallelismvalue (if applicable)
+15. MaxDegreeOfParallelismvalue (if applicable)
 
 **Please try to obtain all the information from ASC Resource Explorer before reaching the customer.**
 
