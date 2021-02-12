@@ -21,6 +21,7 @@ ownershipId="CloudNet_AzureExpressRoute"
 <!--issueDescription-->
 We have identified user-defined routes (UDR) **<!--$UDRStrings-->UDRStrings<!--/$UDRStrings-->** in the gateway subnet of your ExpressRoute virtual network gateway **<!--$GatewayName-->GatewayName<!--/$GatewayName-->**. UDR with a 0.0.0.0/0 destination in the gateway subnet are not supported.
 <!--/issueDescription-->
-## **Steps to Resolve Issue:**
 
-Remove the 0.0.0.0/0 default route from the gateway subnet.
+## **Steps to resolve the issue:**
+
+Remove the `0.0.0.0/0` default route from the gateway subnet.
