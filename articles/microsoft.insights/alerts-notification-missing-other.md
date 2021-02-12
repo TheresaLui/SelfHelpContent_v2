@@ -47,16 +47,20 @@ If you see a fired alert in the Azure portal, but its configured action did not 
 ### **3. Did a *secure* webhook not trigger?**
 
 * **Did you configure the AAD correctly?**
+
     Follow the steps in [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 * **Have the source IP addresses been blocked?**
+
    Allow list the [IP addresses](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#action-specific-information) that the webhook is called from.
 
 * **Are you using correct link in the URI?**
+
    Check that the URI link is the correct link to the endpoint.
 
 * **Are you trying to use Secure Export to send alerts to external systems, such as ServiceNow and BMC?**
-   To configure secure webhook, follow these steps:
+
+   To configure secure webhook, follow these steps:<br>
       1) [Register your app with Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/itsm-connector-secure-webhook-connections-azure-configuration#register-with-azure-active-directory)
       2) [Define Service principal](https://docs.microsoft.com/azure/azure-monitor/platform/itsm-connector-secure-webhook-connections-azure-configuration#define-service-principal)
       3) [Create a Secure Webhook action group](https://docs.microsoft.com/azure/azure-monitor/platform/itsm-connector-secure-webhook-connections-azure-configuration#create-a-secure-webhook-action-group)
