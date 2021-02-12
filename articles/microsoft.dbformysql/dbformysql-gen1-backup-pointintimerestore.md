@@ -16,14 +16,14 @@ Resolve issues with backups and restore options using the following solutions.
 
 ## Common questions
 
-* **Restore was successful but still seeing current data in the restored server?**<br>
+* **Restore was successful, but still seeing current data in the restored server**<br>
 Often, users report that their point in time restores show recent (current) data in the restored server. This occurs because of an incorrect connection string when connecting to the restores server. For details, review [this tutorial](https://techcommunity.microsoft.com/t5/azure-database-support-blog/point-in-time-restore-in-azure-database-for-mysql-and-azure/ba-p/772655).
 
 * **Where are my backups?** <br>
-Azure Database for MySQL automatically creates server backups and stores them in user configured locally redundant or geo-redundant storage. Backups can only be used to restore your server to a point-in-time using the **Restore** button on the overview pane on the Azure Portal. See [Backup and restore in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-backup).
+Azure Database for MySQL automatically creates server backups and stores them in user-configured locally redundant or geo-redundant storage. Backups can only be used to restore your server to a point-in-time using the **Restore** button on the overview pane on the Azure Portal. See [Backup and restore in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-backup).
 
 * **Backup failing using MySQL Workbench or taking a cold backup?**<br>
-Try [Export your Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830).
+Review this document: [Export your Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830).
 
 * **Restore server beyond retention?**<br>
 Ensure that you restore to a point in time that is within your configured retention period. Backups are not backfilled when you increase the retention period.
