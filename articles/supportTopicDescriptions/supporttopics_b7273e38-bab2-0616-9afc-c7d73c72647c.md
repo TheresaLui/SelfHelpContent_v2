@@ -169,7 +169,7 @@
     {
       "id": "892d4448-b5cb-720b-1cc4-b642aa15e4af",
       "longDescription": "",
-      "shortDescription": "If you are facing with import or export operations in the ",
+      "shortDescription": "Use this topic if you are facing issues with exporting or importing co-sell opportunities in the Referrals program.",
       "searchTags": "import referrals;export referrals;download referrals;referrals excel",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
