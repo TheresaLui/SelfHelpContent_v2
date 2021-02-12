@@ -5,8 +5,8 @@
   ms.author="esagmon"
   selfhelptype="SupportTopicDescription"
   productpesids="c967e89c-dd01-34fa-231a-5645bdd79459"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  disableclouds=""
   articleid="supporttopics_c967e89c-dd01-34fa-231a-5645bdd79459"
   ownershipid="AzureKeyVault_MHSM" />
 # Support Topic Descriptions for c967e89c-dd01-34fa-231a-5645bdd79459
