@@ -30,7 +30,7 @@ Review customer verbatim and validate that the case has the minimum required det
 10. What changes were made? (if applicable)
 11. Is the error persistent or intermittent? (if applicable)
 12. Error message/StackTrace (if applicable)
-13. MaxItemCount value(if applicable)
+13. MaxItemCount value (if applicable)
 14. MaxBufferedItemCountCount value (if applicable)
 15. MaxDegreeOfParallelismvalue (if applicable)
 
