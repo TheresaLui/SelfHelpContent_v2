@@ -40,6 +40,7 @@ Consider using [Query Store](https://docs.microsoft.com/azure/mysql/concepts-que
     * Only retrieve the columns you really need instead of using `select \*`.
 
 ## **Recommended Documents**
+
 * [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store)
 * [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
 * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
