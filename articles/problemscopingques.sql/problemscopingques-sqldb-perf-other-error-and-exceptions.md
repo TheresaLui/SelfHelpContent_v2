@@ -42,7 +42,7 @@
             "infoBalloonText": "Other common peformance issue categories",
             "dropdownOptions": [
             {
-            "value":"test1",
+            "value":"test21",
             "text": "test1"
             },
             {
