@@ -21,7 +21,7 @@
 
 The billing country, once set, can’t be changed. In order to update the billing country, a new account can be created with a new email address and the desired billing country. After the new account has been created, you can transfer your subscriptions and resources from the old account to the new account.
 
-To view the list of support currencies, go to [Azure pricing FAQ](https://azure.microsoft.com/pricing/faq/) and see section: **Azure is available in the following countries/regions and is billed in the currency noted**.
+To view the list of support currencies, go to [Azure pricing FAQ](https://azure.microsoft.com/pricing/faq/) and find the section,"Azure is available in the following countries/regions and is billed in the currency noted."
 
 ### **Re-enable the subscription**
 
