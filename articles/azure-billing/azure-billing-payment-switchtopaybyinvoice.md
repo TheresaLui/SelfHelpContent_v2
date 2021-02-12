@@ -42,7 +42,7 @@ Once you are approved to pay by invoice, you can switch your Azure subscription 
    - Enterprise Agreement
    - Microsoft Partner Agreement
 
-For more information, see [check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
+   For more information, see [check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
 
 ### **How to switch if you have Microsoft Online Service Program**
 
@@ -50,9 +50,9 @@ For more information, see [check the type of your account](https://docs.microsof
 2.	Select the subscription you'd like to switch to invoice payment. Select **Payment methods**.
 3.	In the top command bar, select the **Pay by invoice** button.
 
-     **NOTE:** Once you switch to invoice pay (check/wire transfer) you can’t switch back to paying by credit card.
+     **Note:** Once you switch to invoice pay (check/wire transfer) you can’t switch back to paying by credit card.
 
-For more information, see [Pay by Invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice?WT.mc_id=Portal-Microsoft_Azure_Support).
+    For more information, see [Pay by Invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 ### **How to switch if you have a Microsoft Customer Agreement**
 
@@ -62,7 +62,7 @@ For more information, see [Pay by Invoice](https://docs.microsoft.com/azure/cost
 4.	In the left menu, select **Payment methods**.
 5.	Select the banner that says you're eligible to pay by check/wire transfer.
 
-For more information, see [Pay by Invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice?WT.mc_id=Portal-Microsoft_Azure_Support).
+    For more information, see [Pay by Invoice](https://docs.microsoft.com/azure/cost-management-billing/manage/pay-by-invoice?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 ### **Recommended Documents**
 
