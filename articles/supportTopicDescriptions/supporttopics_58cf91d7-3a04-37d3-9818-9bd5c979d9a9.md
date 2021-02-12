@@ -13,7 +13,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "please specify your problem with detail",
+  "shortDescription": "Specify your problem in detail",
   "longDescription": "",
   "productLink1": "https://docs.microsoft.com/azure/cdn/cdn-overview",
   "productLinkName1": "what is azure cdn",
