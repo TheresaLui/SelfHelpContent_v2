@@ -24,6 +24,8 @@ We have identified that the Address Resolution Protocol (ARP) isn't established 
 
 ## **Recommended Steps**
 
-If your ExpressRoute circuit is managed via an ExpressRoute partner, review the VLAN IDs set in any peering configured on the circuit and make sure your ExpressRoute partner has configured their end of the connection with the same VLAN IDs.
+Do one of the following: 
 
-If your ExpressRoute circuit is managed via ExpressRoute Direct, review the VLAN IDs set in any peering configured on the circuit and make sure your on-premises configuration matches the Azure configuration.
+* If your ExpressRoute circuit is managed via an ExpressRoute partner, review the VLAN IDs set in any peering configured on the circuit. Also, make sure that your ExpressRoute partner has configured their end of the connection with the same VLAN IDs.
+
+* If your ExpressRoute circuit is managed via ExpressRoute Direct, review the VLAN IDs set in any peering configured on the circuit. Also, make sure that your on-premises configuration matches the Azure configuration.
