@@ -21,17 +21,17 @@
 
 ## **Recommended Steps**
 
-See how to [Configure and manage Azure Active Directory authentication with SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell#provision-an-azure-active-directory-administrator-for-your-managed-instance).
+- For steps on basic configuration, see [Configure and manage Azure Active Directory authentication with SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell#provision-an-azure-active-directory-administrator-for-your-managed-instance).
 
-For questions related on how to connect see [Connect your application to Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app).
+- For questions related on how to connect see [Connect your application to Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app).
 
-If you are facing issues connecting, check how to [troubleshoot problems related to Azure AD authentication](https://techcommunity.microsoft.com/t5/azure-sql-database/troubleshooting-problems-related-to-azure-ad-authentication-with/ba-p/1062991).
+- For help with connectivity issues, check how to [troubleshoot problems related to Azure AD authentication](https://techcommunity.microsoft.com/t5/azure-sql-database/troubleshooting-problems-related-to-azure-ad-authentication-with/ba-p/1062991).
 
 **Multi-factor authentication for Azure AD**  
 
-See more about using Universal Authentication at [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication/).  
+- For information about using Universal Authentication, review [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication/).  
 
-For configuration steps, see [Configure Azure SQL Database multi-factor authentication for SQL Server Management Studio](https://docs.microsoft.com/azure/azure-sql/database/authentication-mfa-ssms-configure).
+- For configuration steps, see [Configure Azure SQL Database multi-factor authentication for SQL Server Management Studio](https://docs.microsoft.com/azure/azure-sql/database/authentication-mfa-ssms-configure).
 
 
 ## **Recommended Documents**
@@ -40,6 +40,6 @@ For configuration steps, see [Configure Azure SQL Database multi-factor authenti
 
 - [Azure AD (new) authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/reference-v2-libraries)
 
-- [Azure AD Authentication and authorization error codes (AADSTS*****)](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
+- [Azure AD Authentication and authorization error codes (AADSTS)](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
 
-- [Sign-in activity report error codes on Azure Portal](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-sign-ins-error-codes)
+- [Sign-in activity report error codes onthe Azure portal](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-sign-ins-error-codes)
