@@ -16,31 +16,29 @@ Query performance issues can have many different root causes. Work through the r
 
 ## **Recommended Steps**
 
-### **Fix it yourself**
-
-* **Are you using Basic Tier server?**
+**Are you using Basic Tier server?**
 
 Basic tier servers are intended for testing, development, and small-scale or infrequently used applications. Therefore, a production workload can max out resources easily. For more information, see [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
 
-* **Do you need to troubleshoot CPU high usage?**
+**Do you need to troubleshoot CPU high usage?**
 
 Review [Azure Database for MySQL Performance Troubleshooting Basics](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/azure-database-for-mysql-performance-troubleshooting-basics/ba-p/782815).
 
 Did you know that the number of active connection can cause a CPU spike? Make sure that you are [connecting efficiently to Azure Database for MySQL with ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842).
 
-* **Does Azure MySQL seem to be running slower than usual?**
+**Does Azure MySQL seem to be running slower than usual?**
 
 Analyzing your tables frequently pushes better execution plans for your queries. Consider [creating a dashboard for Azure Database for MySQL to monitor CPU, Memory, and number of connections](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/create-a-monitoring-dashboard-for-azure-database-for-mysql/ba-p/1233203).
 
-* **Is your database tuned for best application performance?**
+**Is your database tuned for best application performance?**
 
 Consider [tuning your server parameters for best performance](https://docs.microsoft.com/azure/mysql/app-development-best-practices#tune-your-server-parameters).
 
-* **Want more advanced performance monitoring?**
+**Want more advanced performance monitoring?**
 
 See [sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema).
 
-* **Is a specific query slow?**
+**Is a specific query slow?**
 Consider using [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store) and [Slow Query log](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) to spot slow queries and then [Explain and Optimize your query](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance).
     * Make sure that you have the right set of indexes created for your queries.
     * Make sure that there are no deadlocks in concurrent queries.
