@@ -15,7 +15,7 @@ Due to an internal issue, customers might not be able to see metrics in the port
 
 # Missing or inaccurate metrics with Azure Cache for Redis
 
-4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
+Most customers resolve their Azure Cache for Redis issue using the following documents.<br>
 
 ## **Recommended Documents**
 
