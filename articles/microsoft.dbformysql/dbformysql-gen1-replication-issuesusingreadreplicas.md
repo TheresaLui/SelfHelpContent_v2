@@ -25,7 +25,7 @@ Most users are able to resolve their issues using the steps below.
 
 ### Large amount of replication lag
 
-Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
+Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the **seconds_behind_master** metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
 
 Refer to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency) to learn how to troubleshoot replication latency.
 
