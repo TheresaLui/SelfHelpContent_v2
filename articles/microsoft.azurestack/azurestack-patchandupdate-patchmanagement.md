@@ -1,20 +1,16 @@
 <properties
-    pageTitle="Azure Stack Hub Patch management questions (not related to precheck)"
-    description="Assist customers before and during patch and update runs"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT, v-miegge"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32663933"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Hub Patch and Update Management&#xD;"
+  description="Assist customers before and during patch and update runs"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  ms.author="alexsmit,patricka"
+  selfhelptype="Generic"
+  supporttopicids="32663933"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Hub Patch and Update Management
 
 ## Availability of Updates
@@ -36,4 +32,5 @@ For detailed information on recent releases, release notes on updates and cadenc
 
 * [Manage updates in Azure Stack Hub overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)<br>
 * [Monitor updates in Azure Stack Hub using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)<br>
-* [Integrate external monitoring solution with Azure Stack Hub - Integrate with Operations Manager](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-monitor#integrate-with-operations-manager)
+* [Integrate external monitoring solution with Azure Stack Hub - Integrate with Operations Manager](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-monitor#integrate-with-operations-manager)<br>
+* For information on supported Azure Stack Hub versions for Azure App Service, see [Update Azure App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-update)
