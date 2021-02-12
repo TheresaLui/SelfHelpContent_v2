@@ -9,9 +9,9 @@
     supportTopicIds="32637627"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="a645871b-56f2-49c1-ba7f-f9ad4324c360"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting VLAN/Subnet creation 

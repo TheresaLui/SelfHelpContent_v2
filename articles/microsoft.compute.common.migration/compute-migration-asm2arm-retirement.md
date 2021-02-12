@@ -10,9 +10,9 @@
 	supportTopicIds="32731147"
 	resourceTags=""
 	productPesIds="14749,15571,15797,16470,16454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f19125d0-6031-47ed-b63f-26fd7c8ad960"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Migration and Move/Guidance regarding retirement of Classic IAAS resources (ASM)
@@ -44,13 +44,13 @@ For additional information, refer to the [Frequently asked questions about class
 
 ### Next steps
 
-Create a plan to migrate your classic [Linux](./linux/migration-classic-resource-manager-plan.md) or [Windows](./windows/migration-classic-resource-manager-plan.md) VMs to Resource Manager.
+Create a plan to migrate your classic [Linux](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-plan?toc=/azure/virtual-machines/linux/toc.json) or [Windows](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-plan?toc=/azure/virtual-machines/windows/toc.json) VMs to Resource Manager.
 
 ## **Recommended Documents**
 
 * [Frequently asked questions about migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-faq?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review most common migration errors](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-errors?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
-* [Review community tools for assisting with migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-community-tools?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
+* [Review community tools for assisting with migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/migration-classic-resource-manager-community-tools?toc=/azure/virtual-machines/windows/toc.json)<br>
 * [Overview of platform-supported migration](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Technical deep dive on platform-supported migration](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-deep-dive?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Planning for migration of IaaS resources from classic to Azure Resource Manager](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>

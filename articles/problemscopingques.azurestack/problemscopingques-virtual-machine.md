@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack virtual machine"
     description="Azure Stack virtual machine"
-    authors="genlin"
-    ms.author="genli"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663889,32663907,32663909,32663891,32663893,32663895,32663898,32663915,32663917,32663919,32663911,32663912,32663890,32663908,32663910,32663892,32663894,32663896,32663899,32663914,32663916,32663918,32663920,32663897,32663900,32663901"
+    supportTopicIds="32663889,32663907,32663909,32663891,32663893,32663895,32663898,32663915,32663917,32663919,32663911,32663912,32663890,32663908,32663910,32663892,32663894,32663896,32663899,32663916,32663918,32663920,32663897,32663900,32663901"
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-3000-4e97-b711-4b07ac45db50"
-	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack virtual machine
 ---
@@ -71,51 +71,23 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
+            "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
             "dropdownOptions": [
+{
+                    "value": "2008",
+                    "text": "2008"
+                },
+                {
+                    "value": "2005",
+                    "text": "2005"
+                },
+                {
+                    "value": "2002",
+                    "text": "2002"
+                },
                 {
                     "value": "1910",
                     "text": "1910"
-                },
-                {
-                    "value": "1908",
-                    "text": "1908"
-                },
-                {
-                    "value": "1907",
-                    "text": "1907"
-                },
-                {
-                    "value": "1906",
-                    "text": "1906"
-                },
-                {
-                    "value": "1905",
-                    "text": "1905"
-                },
-                {
-                    "value": "1904",
-                    "text": "1904"
-                },
-                {
-                    "value": "1903",
-                    "text": "1903"
-                },
-                {
-                    "value": "1902",
-                    "text": "1902"
-                },
-                {
-                    "value": "1901",
-                    "text": "1901"
-                },
-                {
-                    "value": "1811",
-                    "text": "1811"
-                },
-                {
-                    "value": "1809",
-                    "text": "1809"
                 },
                 {
                     "value": "Other",
@@ -123,20 +95,29 @@
                 }
             ],
             "required": false,
-            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
-        },
+            "infoBalloonText": "Example: Select 2008 if your build number is 1.2008.0.35."
+     },
         {
             "id": "build_number",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
+            "watermarkText": "Example: 1.2008.0.35",
             "required": false,
-            "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
+        },
+        {
+            "id": "cloud_id",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Enter your the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
         },
         {
             "id": "region_name",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -145,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -164,7 +145,7 @@
         },
         {
             "id": "os_version",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the affected virtual machine?",
             "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
@@ -172,7 +153,7 @@
         },
         {
             "id": "tenant_vm_admin",
-            "order": 7,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Is this a tenant or an admin virtual machine?",
             "dropdownOptions": [
@@ -189,7 +170,7 @@
         },
         {
             "id": "how_deploy",
-            "order": 8,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "What image was used to deploy the virtual machine?",
             "watermarkText": "Select a option",
@@ -207,7 +188,7 @@
         },
         {
             "id": "vm_status",
-            "order": 9,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "What is the status of the affected virtual machine in the portal?",
             "watermarkText": "",
@@ -215,7 +196,7 @@
         },
     {
           "id": "has_worked",
-            "order": 10,
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
@@ -233,7 +214,7 @@
         },
         {
             "id": "change_before",
-            "order": 11,
+            "order": 12,
             "visibility": "has_worked == Yes",
             "controlType": "textbox",
             "displayLabel": "Has anything changed since this issue started?",
@@ -242,7 +223,7 @@
         },
     {
           "id": "perform_steps",
-            "order": 12,
+            "order": 13,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [

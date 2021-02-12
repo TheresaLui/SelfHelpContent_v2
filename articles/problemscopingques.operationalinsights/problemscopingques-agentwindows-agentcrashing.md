@@ -1,14 +1,14 @@
 
 <properties
-pageTitle="Agent is crashing"
-description="Agent is crashing"
+pageTitle="Windows Agent is crashing"
+description="Windows Agent is crashing"
 articleId="problemscopingques-Windows_Agent_is_crashing"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612488"
+supportTopicIds="32745402"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -16,6 +16,7 @@ schemaVersion="1"
 # Agent is crashing
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

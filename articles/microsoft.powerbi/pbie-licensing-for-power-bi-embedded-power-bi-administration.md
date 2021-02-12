@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628114"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="ca838b09-1068-746d-a3b3-dce2300be24d"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Frequently asked questions about Power BI Embedded

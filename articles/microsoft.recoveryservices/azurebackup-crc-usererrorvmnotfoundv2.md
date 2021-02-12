@@ -13,18 +13,19 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15207"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Backup"
 />
 
 
 # Error UserErrorVmNotFoundV2
 
-
 <!--issueDescription-->
-We have identified that your backup operation has failed because the Virtual Machine does not exist.
+If an Azure VM that is configured for Azure Backup is either deleted or moved without [stopping protection]( https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm), then the scheduled/on-demand backup job will fail with the error **UserErrorVmNotFoundV2**.
 <!--/issueDescription-->
 
-
 ## **Recommended Steps**
-To resolve this issue, ensure the Virtual Machine exists or select a different Virtual Machine. 
+
+- Ensure the Virtual Machine exists or select a different Virtual Machine
+- The backup pre-check will appear as critical only for the failed on-demand backup jobs (failed scheduled jobs aren't displayed)
+- [Learn more]( https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#backup-item-where-primary-data-source-no-longer-exists)

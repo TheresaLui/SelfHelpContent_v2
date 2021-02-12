@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,32582833,32640606,32640607,32640608,32640603,32639117,32639118,32639111,32639112,32639110,32641400,32674895,32674896,32680759,32680758,32680757,32680756"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="ad021338-109f-4290-a45e-f7be9d73fe26"
 	ownershipId="CloudNet_AzureApplicationGateway"
@@ -24,7 +24,7 @@ supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
-            "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
+            "watermarkText": "Example: http://contoso.com or http://contoso.com:8080",
             "required": true
         },
 				{
@@ -35,12 +35,20 @@ supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "v1_SKU",
-                    "text": "V1 SKU"
+                    "value": "Standard",
+                    "text": "Standard"
                 },
                 {
-                    "value": "v2_SKU",
-                    "text": "V2 SKU"
+                    "value": "WAF",
+                    "text": "WAF"
+                },
+                {
+                    "value": "Standard_v2",
+                    "text": "Standard_v2"
+                },
+                {
+                    "value": "WAF_v2",
+                    "text": "WAF_v2"
                 },
 				{
                     "value": "dont_know_answer",

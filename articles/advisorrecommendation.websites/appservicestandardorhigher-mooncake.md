@@ -6,7 +6,7 @@
     articleId="59a83512-d885-4f09-8e4f-c796c71c686e_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Move your App Service resource to Standard or higher and use deployment slots
 ---
@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "dff79eea-93f9-44ae-8a0f-2f9f937f669e"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-staging_cn",
   "description": "Move your App Service resource to Standard or higher and use deployment slots",
   "longDescription": "You have deployed your application multiple times over the last week. Deployment slots help you manage changes and help you reduce deployment impact to your production web app.",

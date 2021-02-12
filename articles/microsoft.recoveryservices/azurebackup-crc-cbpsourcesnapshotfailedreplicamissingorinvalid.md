@@ -13,8 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error CBPSourceSnapshotFailedReplicaMissingOrInvalid

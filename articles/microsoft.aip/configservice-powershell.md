@@ -11,7 +11,7 @@
 	supportTopicIds="32727979"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	ownershipId="AzureIdentity_InformationProtection"
 />
 
@@ -20,11 +20,11 @@
 ## **Recommended Steps**
 
 1. Verify that you have configured all network devices according to [Firewalls and network infrastructure settings](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
-2. If you need to open a content where you don't have permissions to (user has left the company, etc.) you can use the Super User feature: [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users)
+2. If you need to open content where you don't have permissions, such as when a user has left the company, use the Super User feature: [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users)
 
 ## **Recommended Documents**
 
 * [Administering the Azure Rights Management service by using Windows PowerShell](https://docs.microsoft.com/azure/information-protection/administer-powershell)<br>
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>

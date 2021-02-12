@@ -13,7 +13,7 @@
 	supportTopicIds="32630502"
 	resourceTags="8000Series"
 	productPesIds="15438"	
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
@@ -25,5 +25,7 @@ If the `Invoke-HcsSetupWizard` command is failing while validating DNS with mess
 
 ## **Recommended Documents**
 
-* [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)
+- [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)<br>
+- [CHAP configuration](https://docs.microsoft.com/azure/storsimple/storsimple-8000-configure-chap)
+- [Networking requirements for the StorSimple Device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-system-requirements#networking-requirements-for-your-storsimple-device)
 

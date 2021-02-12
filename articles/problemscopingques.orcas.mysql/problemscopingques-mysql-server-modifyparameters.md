@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640070"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-server-modify_parameters"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
@@ -37,7 +37,7 @@
             "id": "parameter_value",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is value you want to change to?",
+            "displayLabel": "What is the value you want to change the parameter to?",
             "required": false
         },
         {

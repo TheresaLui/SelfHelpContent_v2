@@ -13,8 +13,8 @@
 	supportTopicIds="32632155"
 	resourceTags=""
 	productPesIds="16575"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # <-- I'm having issues managing a user-assigned managed identity -->

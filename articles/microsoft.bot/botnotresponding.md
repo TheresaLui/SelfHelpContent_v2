@@ -1,20 +1,15 @@
 <properties
-	pageTitle="My bot is not responding or times out"
-	description="My bot is not responding or times out"
-	service="Microsoft.BotService"
-	resource="botServices"
-	authors="arturl,meetshamir"
-	ms.author="v-thdurn,snandan,dandris,arturl,saziz"
-	displayOrder="3"
-	selfHelpType="resource"
-	supportTopicIds="32688621"
-	resourceTags=""
-	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="d0e4ed4e-30f4-4c0c-acc5-3f615f1f4f70"
-	ownershipId="Compute_BotService"
-/>
-
+  pagetitle="My bot is not responding or times out"
+  service="microsoft.botservice"
+  resource="botservices"
+  ms.author="jameslew"
+  selfhelptype="Resource"
+  supporttopicids="32688621"
+  resourcetags=""
+  productpesids="16152"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="d0e4ed4e-30f4-4c0c-acc5-3f615f1f4f70"
+  ownershipid="Compute_BotService" />
 # My bot is not responding or times out
 
 When a user sends a message to a bot, the bot must send an HTTP acknowledgment that it received the request. If the bot fails to acknowledge within 15 seconds, an error is logged within the channel where the user sent the request.
@@ -28,11 +23,12 @@ The cause of this failure is typically within the bot's source code, a configura
 ## **Recommended Steps**
 
 1. Use the [bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) to analyze the bot's configuration and look for obvious errors
-2. Use the [Bot Framework emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) to connect directly to the bot's cloud endpoint to see if it functions properly
-3. If the problem only occurs when the bot is first starting, and the bot is hosted on an Azure Web App, consider enabling the AlwaysOn option (Note: this might increase the cost of running the bot)
-4. Enable Application Insights and connect it to both the bot's source code and its Bot Service registration in Azure to log any exceptions that may be occurring within the bot: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
-5. To view Application Insights logs, navigate to AppInsights blade, then click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button
-6. Query for timeout exceptions. The following query will tell you the most recent exceptions in your bot: 
+2. Verify that your client supports [TLS 1.2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) encryption
+3. Use the [Bot Framework emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) to connect directly to the bot's cloud endpoint to see if it functions properly
+4. If the problem only occurs when the bot is first starting, and the bot is hosted on an Azure Web App, consider enabling the AlwaysOn option (Note: this might increase the cost of running the bot)
+5. Enable Application Insights and connect it to both the bot's source code and its Bot Service registration in Azure to log any exceptions that may be occurring within the bot: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
+6. To view Application Insights logs, navigate to AppInsights blade, then click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button
+7. Query for timeout exceptions. The following query will tell you the most recent exceptions in your bot: 
 
 ```
 	exceptions 
@@ -62,4 +58,3 @@ The cause of this failure is typically within the bot's source code, a configura
 ## **Recommended Documents**
 
 * [Troubleshoot HTTP 500 errors](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-500-errors?view=azure-bot-service-4.0&tabs=dotnetwebapi)
-

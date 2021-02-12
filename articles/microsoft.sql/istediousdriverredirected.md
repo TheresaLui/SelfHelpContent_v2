@@ -7,12 +7,12 @@
 	authors="aamalvea"
 	displayOrder=""
 	articleId="IsTediousDriverRedirected_3946B48A-B9F4-4A20-9AA3-5BEE3E1FCFED"
-	diagnosticScenario=""
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     	ms.author="aamalvea"
 	ownershipId="AzureData_AzureSQLDB"
 />
@@ -26,5 +26,3 @@ We’ve detected a possible issue with your driver’s implementation of TDS rou
 <!--/issueDescription-->
 
 For more information about redirection, see [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture).
-
-

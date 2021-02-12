@@ -10,9 +10,9 @@
 	supportTopicIds="32553314"
   resourceTags=""
   productPesIds="13185"
- 	cloudEnvironments="public,Fairfax"
+ 	cloudEnvironments="public,Fairfax, usnat, ussec"
  	articleId="fd74c362-2ece-47cf-ba85-11e207ff2ada"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/configuration and management/monitoring and logging

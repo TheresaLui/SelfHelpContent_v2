@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32612186, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabricks"
 />

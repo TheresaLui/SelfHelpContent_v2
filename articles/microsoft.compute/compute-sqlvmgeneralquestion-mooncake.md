@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="db6237d7-d8b8-413b-a98d-2286fac31065"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I have a general question about SQL VM

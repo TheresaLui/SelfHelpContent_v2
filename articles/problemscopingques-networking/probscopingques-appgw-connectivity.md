@@ -1,17 +1,17 @@
 <properties
-    pageTitle="Application Gateway connectivity"
-    description="Application Gateway connectivity"
+    pageTitle="Application Gateway connectivity for AGIC"
+    description="Application Gateway connectivity for AGIC"
     authors="TobyTu"
     ms.author="mariliu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684008"
     productPesIds="15922"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="711961cc-d014-4550-be70-2069dc2e00ff"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
-# Questions Application Gateway connectivity
+# Questions Application Gateway connectivity for AGIC
 ---
 {
     "subscriptionRequired": true,

@@ -1,29 +1,24 @@
 <properties
-    pageTitle="Azure Stack Patch and Update Not Recognized"
-    description="Issues with Azure Stack Update Not Recognized"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629272"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
-    articleId="azurestack-patchandupdate-updatenotrecognized"
-	ownershipId="ASEP_ContentService_Placeholder"
-/>
-
+  pagetitle="Azure Stack Patch and Update Not Recognized&#xD;"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  ms.author="alexsmit,patricka"
+  selfhelptype="Generic"
+  supporttopicids="32629272"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azurestack-patchandupdate-updatenotrecognized"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Patch and Update Not Recognized
 
-Customers with Azure Stack environments connected to the internet will automatically see "Update Available" in the Admin Portal. For disconnected customers, update release notifications are available vis RSS feed at [Support Content Updates](https://support.microsoft.com/help/4089498/support-content-updates). Select Product as *Azure Stack*, and choose ATOM or RSS.
+Customers with Azure Stack environments connected to the internet will automatically see **Update Available** in the Admin Portal. For customers that aren't connected to the internet, get update release notifications via RSS feed at [Support Content Updates](https://support.microsoft.com/help/4089498/support-content-updates). Select Product as **Azure Stack**, and choose ATOM or RSS.
 
 ## **Recommended Steps**
 
-1. Check the release notes any known issues for the specific update package, listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
-2. If the update is marked as *Not Recognized*, try manually importing the update package with the [Import and install updates instructions](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-prepare-package?view=azs-1908#import-and-install-updates). If you have already attempted manually importing the update package delete the blob container from your previous attempt before reimporting the package.
-3. If a update is still *Not Recognized* after a retry, continue to open a support case
+1. Review the release notes of the specific update package for any known issues. This is listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence).
+2. If the update is marked as **Not Recognized**, try manually importing the update package with the [Import and install updates instructions](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-prepare-package?view=azs-2005). If you have already attempted importing the update package manually, delete the blob container from your previous attempt before reimporting the package.
+3. If the update is still **Not Recognized** after a retry, continue to open a support case
 
 ## **Recommended Documents**
 

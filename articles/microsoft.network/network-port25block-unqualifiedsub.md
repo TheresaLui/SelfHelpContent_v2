@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32592839, 32640601"
 resourceTags="windows"
 productPesIds="15526, 15660"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	ownershipId="CloudNet_VirtualNetwork"
 />
 # This subscription is unauthorized to send mail over TCP port 25
@@ -25,6 +25,5 @@ Azure is committed to stopping SPAM and reducing the customer impact caused by n
 
 ## **Recommended Steps**
 
-* Please refer to the following article for more information on this restriction:
+* See the following article for more information on this restriction and ways to mitigate:
 [Enhanced Azure security for sending emails](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)
-* If you have a requirement to send mail over TCP port 25, you can [create a new 'Pay-as-You-Go' subscription](https://azure.microsoft.com/pricing/purchase-options/) and submit a support request through that subscription for authorization to send mail on TCP port 25

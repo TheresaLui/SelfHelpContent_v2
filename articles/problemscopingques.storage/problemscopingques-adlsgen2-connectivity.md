@@ -7,24 +7,30 @@
 	articleId="StorageScoping_adlsgen2_connectivity"
 	supportTopicIds="32612601,32612612"
 	productPesIds="16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
-# Data Lake Storage Gen2 Connectivity Issues
+# Data Lake Storage Gen2 Connectivity Issue like request failure, dropped connection or request timeouts
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Connectivity issue on adlsgen2 scoping question",
+    "title": "Data Lake Storage Gen2 \"Connectivity\" Issue like request failure, dropped connection or request timeouts",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Connection Drop & Request Failure Issues Troubleshooter",
+        "description": "For \"Connection\" and \"Request Failure\" issues, answer the following questions and give us a few minutes to run automated diagnostics. Using the diagnostics, we’ll provide a self-help solution for you.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. Confirm that the answers provided are accurate and that they align with the input format suggested by watermark in the respective fields."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
@@ -94,20 +100,27 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
-                }
+					"value": "dont_know_answer",
+					"text": "Not listed above"
+				}
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "request_id",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+			"controlType": "textbox",
+			"displayLabel": "Storage server Request ID",
+			"watermarkText": "Server Request ID of failed operation ending with 000000",
+			"infoBalloonText": "Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal,ASC",
+			"validations": [{
+				"type": "RegExMatch",
+				"value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+				"text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+			}]
         },
         {
             "id": "blob_container",
@@ -131,7 +144,8 @@
                     "text": "Not specific to a blob container"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "blob_path",
@@ -139,7 +153,8 @@
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "Blob name or path if specific to a blob",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -147,7 +162,9 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal,ASC",
+            "watermarkText": "Provide issue description \n OR \nPaste the exception message and error stack here"
         },
         {
             "id": "learn_more_text",

@@ -10,7 +10,7 @@
 	supportTopicIds="32612994"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="448074e2-428a-4985-997d-2e3ce3cb345a"
 	ownershipId="StorageMediaEdge_Backup"
 />

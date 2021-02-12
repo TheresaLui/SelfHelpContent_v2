@@ -10,9 +10,9 @@
     supportTopicIds="32691166"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-connectors-enabling-and-configuring-connectors"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Enable and configure connectors

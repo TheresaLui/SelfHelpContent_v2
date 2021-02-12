@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635655"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725883,32692595"
+	productPesIds="17012,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_change_billing"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Change Billing
 ---
@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
-            "watermarkText": "Please provide additional information about your issue",
+            "watermarkText": "Please specify what piece of information needs to be changed. This could be Bill to address or legal company name or both. Also indicate if the information you want changed is showing up on your invoice and if so, please include the Invoice ID.",
             "required": true,
             "useAsAdditionalDetails": true
         },

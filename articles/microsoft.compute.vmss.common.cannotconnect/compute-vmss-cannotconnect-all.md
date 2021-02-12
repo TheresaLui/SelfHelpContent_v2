@@ -7,12 +7,12 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641071"
+	supportTopicIds="32641071,32641094,32641099,32641101,32641118,32641123,32641135,32641149,32641150"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0717e80f-df54-4b7c-80cb-f33930412029"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Cannot connect to my instance

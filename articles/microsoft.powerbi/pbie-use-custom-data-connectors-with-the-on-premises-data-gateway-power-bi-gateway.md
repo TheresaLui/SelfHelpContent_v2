@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628169"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="049ec390-f796-e7e2-a4a6-7536cf464238"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Use custom data connectors with the On-premises data gateway

@@ -7,7 +7,7 @@
 	articleId="StorageScoping_adlsgen2_connectivity_throttling"
 	supportTopicIds="32612611"
 	productPesIds="16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
@@ -18,13 +18,19 @@
     "resourceRequired": true,
     "title": "Connectivity issue on adlsgen2 scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Throttling Troubleshooter",
+        "description": "For \"Throttling\" issues, help us by providing your input. We will diagnose your problem in less than a minute and suggest the recourse without the need of opening a support ticket.", 
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below, ensuring that the format is as suggested in the watermark and rerun the diagnostics."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
@@ -94,26 +100,35 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
                 }
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "adlsgen2_connectivity_throttling_request_id",
-            "order": 3,
+             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+            "displayLabel": "Storage server request ID",
+            "watermarkText": "Server Request ID of failed operation ending with 000000",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC",
+	    "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+		    "text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+		}
+	    ]
         },
         {
             "id": "blob_container",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Blob Container",
+            "displayLabel": "Blob container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
@@ -131,7 +146,8 @@
                     "text": "Not specific to a blob container"
                 }
             ],
-            "required": false
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "blob_path",
@@ -139,7 +155,8 @@
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "Blob name or path if specific to a blob",
-            "required": false
+            "required": false,
+             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -147,7 +164,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "learn_more_text",

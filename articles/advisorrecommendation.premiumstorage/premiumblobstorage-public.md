@@ -5,7 +5,7 @@
     ms.author="hux"
     articleId="7393910d-8cca-4b4b-957c-f53d79a5cd70_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Premium Blobs for block blob storage
@@ -16,9 +16,9 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusepremiumblob",
-    "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorPremiumBlobStorageAccountV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "0.23:59:59"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
@@ -27,7 +27,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",
@@ -36,7 +36,7 @@
     "serviceTreeId": "e58a942f-58e5-49c3-9798-cbd6819f5cc0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Use premium performance block blob storage",
   "longDescription": "One or more of your storage accounts has a high transaction rate per GB of block blob data stored. Use premium performance block blob storage instead of standard performance storage for your workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
   "potentialBenefits": "Block blob storage performance boost with the lowest Azure transaction prices.",

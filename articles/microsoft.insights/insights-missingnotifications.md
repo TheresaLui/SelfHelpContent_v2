@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32630731,32633011,32629671"
 	productPesIds="15454,15725"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 

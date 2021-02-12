@@ -12,7 +12,7 @@
 	supportTopicIds="32637300,32637306,32637313"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmanagedinstance-perf-log-size-misconfiguration"
 	ownershipId="AzureData_AzureSQLMI"
 />

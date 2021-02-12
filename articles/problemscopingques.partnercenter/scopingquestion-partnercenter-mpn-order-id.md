@@ -4,15 +4,15 @@
 	authors="dimanjar" 
         ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635656"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725823"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_MPN_order_id"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
-#Partner Center MPN Order ID
+# Partner Center MPN Order ID
 ---
 {
     "resourceRequired": true,

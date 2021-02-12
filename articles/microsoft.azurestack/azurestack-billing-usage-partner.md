@@ -10,19 +10,19 @@
     supportTopicIds="32629239"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fe241b8a-80a3-46d6-9bb5-350ae05fc4d6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack CSP Billing and Usage
 
 ## **Recommended Steps**
 
-1. To enable multiple Azure AD tenants to use services in Azure Stack, see [enabling multi-tenancy in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-enable-multitenancy)
-2. For end-users managed by a Cloud Service Provider (CSP), [add tenant for usage and billing to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants)
-3. After creating a record of the tenant in the Partner Center, you can sell subscriptions for products in the catalog using steps to [create, suspend, or cancel customer subscriptions](https://msdn.microsoft.com/partner-center/create-a-new-subscription)
-4. If the tenant customer will manage their own account, [create a guest user in the end customer directory](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants#create-a-guest-user-in-the-end-customer-directory). The tenant user can then add the guest and elevate the guest permission to **Owner** of the Azure Stack CSP account.
+1. To enable multiple Azure AD tenants to use services in Azure Stack, you can read [enabling multi-tenancy in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-enable-multitenancy) or [watch the tutorial video](https://www.youtube.com/embed/ZP6jkbLeS34)
+1. For end-users managed by a Cloud Service Provider (CSP), [add tenant for usage and billing to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants)
+1. After creating a record of the tenant in the Partner Center, you can sell subscriptions for products in the catalog using steps to [create, suspend, or cancel customer subscriptions](https://msdn.microsoft.com/partner-center/create-a-new-subscription)
+1. If the tenant customer will manage their own account, [create a guest user in the end customer directory](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants#create-a-guest-user-in-the-end-customer-directory). The tenant user can then add the guest and elevate the guest permission to **Owner** of the Azure Stack CSP account.
 
 ## **Recommended Documents**
 

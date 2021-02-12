@@ -6,13 +6,13 @@
     authors="curtand"
     ms.author="curtand"
     displayOrder="1770"
-    supportTopicIds="32615390"
+    supportTopicIds=""
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="c519ed2e-4220-4daa-8570-f6a2b7d034dd"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Resolve issues with Seamless Single Sign-on login for Azure

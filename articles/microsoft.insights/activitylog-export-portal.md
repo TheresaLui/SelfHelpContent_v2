@@ -9,12 +9,11 @@
     articleId="activitylog-export-portal"
     productPesIds="16251"
     supportTopicIds="32684688"
-    cloudEnvironments="public, Fairfax"
- 	ownershipId="AzureMonitoring_AzureMetrics"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+     ownershipId="AzureMonitoring_AzureMetrics"
 />
 
 # <-- configuring-export-portal -->
-
 You can use Azure Portal to configure subscription diagnostic settings to continuously export your Activity Logs to Log Analytics workspace, Azure Storage account, or Azure Event Hub.
 
 ## **Recommended Steps**

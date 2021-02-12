@@ -1,20 +1,15 @@
 <properties
-	pageTitle="How to use a third party MQTT client with an IoT Hub"
-	description="How to use a third party MQTT client with an IoT Hub"
-	service="microsoft.devices"
-	resource="iothubs"
-	authors="jlian,meetshamir,jtanner-msft"
- 	ms.author="jlian,saziz,jtanner"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32630540"
-	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax"
-	articleId="79e0b13e-ea7e-4ac7-ae18-dec104fe14f8"
-	ownershipId="AzureIot_IotHub"
-/>
-
+  pagetitle="How to use a third party MQTT client with an IoT Hub&#xD;"
+  service="microsoft.devices"
+  resource="iothubs"
+  ms.author="yiygu"
+  selfhelptype="Generic"
+  supporttopicids="32630540"
+  resourcetags=""
+  productpesids="15946"
+  cloudenvironments="public,blackforest,fairfax,usnat,ussec,mooncake"
+  articleid="79e0b13e-ea7e-4ac7-ae18-dec104fe14f8"
+  ownershipid="AzureIot_IotHub" />
 # How to use a third party MQTT client with an IoT Hub
 
 ## **Recommended Steps**

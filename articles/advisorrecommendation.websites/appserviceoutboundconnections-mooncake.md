@@ -6,7 +6,7 @@
     articleId="07f9a07d-9030-465c-89dc-b1f712334b83_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Check outbound connections from your App Service resource
 ---
@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "dff79eea-93f9-44ae-8a0f-2f9f937f669e"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-socket_cn",
   "description": "Check outbound connections from your App Service resource",
   "longDescription": "Your app has opened too many TCP/IP socket connections. Exceeding ephemeral TCP/IP port connection limits can cause unexpected connectivity issues for your apps.",

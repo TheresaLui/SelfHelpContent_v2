@@ -10,7 +10,7 @@
 	supportTopicIds="32677701"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5ca6220e-e35c-4150-b8a3-7f9df4a2a626"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -19,4 +19,5 @@
 
 ## **Recommended Documents**
 
-* [Problem: Maximum Execution Context or Notebook Attachment Limit Reached](https://kb.azuredatabricks.net/execution/maximum-execution-context.html#problem-maximum-execution-context-or-notebook-attachment-limit-reached)
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+* [Problem: Maximum Execution Context or Notebook Attachment Limit Reached](https://docs.microsoft.com/azure/databricks/kb/execution/maximum-execution-context#problem)

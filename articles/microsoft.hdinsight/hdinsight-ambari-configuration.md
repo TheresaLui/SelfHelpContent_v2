@@ -10,7 +10,7 @@
     supportTopicIds="32629024"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-ambari-configuration"
 	ownershipId="AzureData_HDInsight"
 />

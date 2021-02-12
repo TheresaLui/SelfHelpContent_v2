@@ -13,7 +13,7 @@
     supportTopicIds="32636418, 32636420, 32636425"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_HDInsight"
 />
 
@@ -21,7 +21,7 @@
 
 ## Problem
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only ADLS as storage which is accessed via a certificate. This certificate has expired and must be refreshed in order to access storage.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only Azure Data Lake Storage (ADLS) as storage which is accessed via a certificate. This certificate has expired and must be refreshed in order to access storage.
 <!--/issueDescription-->
 
 ## Thumbprint of expired certificates
@@ -30,4 +30,3 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended Steps**
 
 1. Update the [ADLS certificate](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access) 
-2. Restart the gateway node for the new certificate to take into effect

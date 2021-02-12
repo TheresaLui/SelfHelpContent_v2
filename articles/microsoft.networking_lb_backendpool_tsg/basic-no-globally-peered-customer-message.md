@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32588977"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" 	ownershipId="CloudNet_LoadBalancer"
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Support for Basic Load Balancer only exists within the same region

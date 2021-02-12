@@ -10,21 +10,27 @@
 	articleId="mpn_benefits_creating_support_tickets"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692620"
+	supportTopicIds="32725869"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Creating technical support tickets on behalf of customers
 
-Resources providing knowledge of how to create technical support ticket on behalf of customers.
+This topic is to report problems with Azure, Dynamics 365, Enterprise Mobility Suite (EMS), Intune, Microsoft 365 or Office 365 on behalf of a CSP or Non-CSP customer.
+
+## **Recommended Steps**
+
+To report problems on behalf of customers, please refer to [this website](https://docs.microsoft.com/partner-center/report-problems-on-behalf-of-a-customer).
+
+For on behalf of CSP customer support, please [click here](https://go.microsoft.com/fwlink/p/?linkid=851616).
+
 
 ## **Recommended Documents**
 
-* [Providing technical support](https://docs.microsoft.com/partner-center/provide-technical-support)
-* [Microsoft Partner Network Support contract activation and Access ID in Partner Center](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
-* [Using Technical Presales and Deployment Services](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services)
+* [Providing different types of support to your customers](https://docs.microsoft.com/partner-center/customer-support)
 
+* [Perform admin tasks for your customers](https://docs.microsoft.com/partner-center/provide-technical-support#perform-admin-tasks-for-your-customers)

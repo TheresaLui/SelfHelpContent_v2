@@ -6,7 +6,7 @@
           selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632947"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
    articleId="ActivationExtensionRequest-problemscopingquestion"
 	ownershipId="ASMS_SubscriptionManagement"
@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": " Activation Extension Request",
     "fileAttachmentHint": "",
     "formElements": [

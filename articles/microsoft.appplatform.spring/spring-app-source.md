@@ -13,8 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # I cannot deploy a source package

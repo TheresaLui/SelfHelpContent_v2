@@ -11,7 +11,7 @@
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32680757"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
@@ -26,6 +26,8 @@ The performance and request latency of Application Gateway depends on various fa
 If the performance of your application hosted behind Application Gateway is not satisfactory, follow the recommended steps below to troubleshoot.
 
 ## **Recommended Steps**
+
+4 out of 5 customers resolved their latency issues using the steps listed below.
 
 When using **V2 SKU** of Application Gateway, if you observe the latency is higher than expected then perform the below steps:
 
@@ -43,5 +45,7 @@ When using **V1 SKU** of Application Gateway, if you observe the latency is high
 
 ## **Recommended Documents**
 
-* To learn more about Application Gateway SKU sizes and throughput limits, see [here](https://docs.microsoft.com/azure/application-gateway/overview#sizing)
+* To learn more about Application Gateway V1 SKU sizes and throughput limits, see [here](https://docs.microsoft.com/azure/application-gateway/features#sizing)
 * [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2)
+* [Application Gateway access log](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#access-log)
+* [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics)

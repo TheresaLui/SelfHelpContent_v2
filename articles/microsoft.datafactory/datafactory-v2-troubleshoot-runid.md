@@ -1,21 +1,21 @@
 <properties
-    pageTitle="I am having Pipeline/Trigger Run Issue"
-    description="Troubleshoot Azure Data Factory Pipeline and Trigger run issues."
+    pageTitle="I am having Trigger execution Issue"
+    description="Troubleshoot Azure Data Factory Trigger execution issues."
     service="microsoft.datafactory"
     resource="factories"
     authors="samiranshah"
     ms.author="samirans"
     displayOrder="4"
-    selfHelpType="resource"
-    supportTopicIds="32629492"
+    selfHelpType="generic"
+    supportTopicIds="32749442,32749443,32749444"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactoryRunIdTroubleshooter"
 	ownershipId="AzureData_DataFactory"
 />
 
-# Data Factory Pipeline and Trigger Run
+# Data Factory Trigger Run
 
 ## **Recommended Documents**
 

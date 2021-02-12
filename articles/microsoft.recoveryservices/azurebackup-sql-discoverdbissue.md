@@ -10,7 +10,7 @@
 		supportTopicIds="32632803"
 		resourceTags=""
 		productPesIds="15207"
-		cloudEnvironments="public"
+		cloudEnvironments="public, fairfax, usnat, ussec"
 		articleId="590f2f11-423e-4bbe-a601-276b6bc0e3c7"
 	ownershipId="StorageMediaEdge_Backup"
 />
@@ -18,17 +18,23 @@
 
 ## **Recommended Steps**
 
-- **VMNotInRunningStateUserError**: [Ensure the SQL Server is running](https://aka.ms/AA4f1h6)</br>
-- **FabricSvcBackupPreferenceCheckFailedUserError**: [Backup preference for SQL Always On Availability Group cannot be met as some nodes of the Availability Group are not registered](https://aka.ms/AB-fabricsvcbackuppreferencecheckfailedusererror)<br>
-- **VMNotInRunningStateUserError**: [SQL server VM is either shutdown and not accessible to Azure Backup service](https://aka.ms/AB-vmnotinrunningstateusererror)<br>
-- **GuestAgentStatusUnavailableUserError**: [Azure Backup service uses Azure VM guest agent for doing backup but guest agent is not available on the target server](https://aka.ms/AB-guestagentstatusunavailableusererror)<br>
-- **AutoProtectionCancelledOrNotValid**: [Auto-protection Intent was either removed or is no longer valid](https://aka.ms/AB-autoprotectioncancelledornotvalid)
-- [Can I throttle the speed of the SQL Server backup policy?](https://aka.ms/AB-AA4dp5n) </br>
-- [When I protect a SQL Server instance are future databases automatically added?](https://aka.ms/AB-AA4dp5q)</br>
-- [If I change the recovery model, how do I restart protection?](https://aka.ms/AB-AA4dp5p)</br>
-- [Can I protect SQL Always On Availability Groups where the primary replica is on premises?](https://aka.ms/AB-AA4dwue)</br>
+**Common error codes**
+- **VMNotInRunningStateUserError** - [Ensure the SQL Server is running](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#vmnotinrunningstateusererror)</br>
+- **UserErrorSQLNoSysadminMembership** - Ensure your SQL Server instance has the required permissions as specified in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-vm-permissions) and retry the operation
+- **UserErrorVMInternetConnectivityIssue** - Establish network connectivity to Azure Backup services as described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity). If the issue still persists, then follow the steps listed in this [troubleshooting article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorvminternetconnectivityissue). <br>
+- **GuestAgentStatusUnavailableUserError** - [Azure Backup service uses Azure VM guest agent for doing backup but guest agent is not available on the target server](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#guestagentstatusunavailableusererror)<br>
+- **UserErrorDotNetVersionUpgradeRequired** - Ensure latest .NET Framework is installed on the VM. [Learn more](https://docs.microsoft.com/azure/backup/sql-support-matrix#scenario-support)
+- **AutoProtectionCancelledOrNotValid** - [Auto-protection Intent was either removed or is no longer valid](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid)
+- **FabricSvcBackupPreferenceCheckFailedUserError** - [Backup preference for SQL Always On Availability Group cannot be met as some nodes of the Availability Group are not registered](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror)<br>
+
+**Common questions**
+- [When I protect a SQL Server instance are future databases automatically added?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#are-future-databases-automatically-added-for-backup)</br>
+- [Can I protect SQL Always On Availability Groups across regions?](https://docs.microsoft.com/azure/backup/faq-backup-sql-server#can-i-protect-availability-groups-across-regions)</br>
+- [Complete list of supported and unsupported actions and scenarios and known limitations](https://docs.microsoft.com/azure/backup/sql-support-matrix#feature-consideration-and-limitations)
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://aka.ms/AB-AA4dwuc)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
+- [Frequently asked questions](https://docs.microsoft.com/azure/backup/faq-backup-sql-server)</br>
+- [Troubleshooting issues related to backup SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [Troubleshoot discover and configure issues](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#troubleshoot-discover-and-configure-issues)
+- [Troubleshoot re-registration failures](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)

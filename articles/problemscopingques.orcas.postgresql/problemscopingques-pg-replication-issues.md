@@ -4,9 +4,9 @@
     authors="Xin-Cheng"
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639992"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    supportTopicIds="32639992, 32780914, 32780920"
+    productPesIds="16222,17067,17069"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-issues"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
@@ -18,17 +18,33 @@
     "subscriptionRequired": false,
     "title": "Issues with Replication",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for PostgreSQL Replication Troubleshooter",
+        "description": "Our Azure Database for Replication Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "is_replica_enabled",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Do you have a replication that is already enabled?",
             "dropdownOptions": [
@@ -49,7 +65,7 @@
         },
         {
             "id": "master_name",
-            "order": 3,
+            "order": 4,
             "visibility": "is_replica_enabled == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the server name and region of your master server?",
@@ -57,7 +73,7 @@
         },
         {
             "id": "replica_name",
-            "order": 4,
+            "order": 5,
             "visibility": "is_replica_enabled == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the server name and region of your replica server?",
@@ -65,7 +81,7 @@
         },
         {
             "id": "issue_type",
-            "order": 5,
+            "order": 6,
             "visibility": "is_replica_enabled == Yes",
             "controlType": "dropdown",
             "displayLabel": "What issue are you facing with your replica server?",
@@ -87,7 +103,7 @@
         },
         {
             "id": "multiple_replica",
-            "order": 6,
+            "order": 7,
             "visibility": "is_replica_enabled == Yes",
             "controlType": "dropdown",
             "displayLabel": "Do you have more than one replica server?",
@@ -105,7 +121,7 @@
         },
         {
             "id": "issue_with_all",
-            "order": 7,
+            "order": 8,
             "visibility": "multiple_replica == Yes",
             "controlType": "dropdown",
             "displayLabel": "Are you facing issues with all the replica servers?",
@@ -123,7 +139,7 @@
         },
         {
             "id": "enable_replica",
-            "order": 8,
+            "order": 9,
             "visibility": "is_replica_enabled == No",
             "controlType": "dropdown",
             "displayLabel": "Are you facing any issues enabling a replication?",
@@ -145,10 +161,10 @@
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
-            "watermarkText": "Provide your repro steps and other information about your issue",
+            "watermarkText": "Please provide the repro steps and other information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

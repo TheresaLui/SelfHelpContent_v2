@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32674483"
 	productPesIds="16790"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="298c2f72-d3a0-44fb-bf1a-a9aa66eafa53"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_HPCCache"
 />
 # HPC Cache Client Access Issues
 ---

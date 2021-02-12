@@ -1,44 +1,61 @@
-
 <properties
-pageTitle="VM data appears with delay"
-description="VM data appears with delay"
-service="microsoft.operationalinsights"
-resource="workspaces"
-articleId="05738708-090b-4494-8935-c4827de74c53"
-symptomID=""
-infoBubbleText=""
-authors="yossiy"
-ms.author="yossiy"
-displayorder=""
-selfHelpType="generic"
-supportTopicIds="32633009"
-resourceTags=""
-productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	ownershipId="AzureMonitoring_LogAnalytics"
-/>
+  pagetitle="Log data appears with delay&#xD;"
+  service="microsoft.operationalinsights"
+  resource="workspaces"
+  ms.author="olegan,shemers"
+  selfhelptype="Generic"
+  supporttopicids="32745411"
+  resourcetags=""
+  productpesids="15725"
+  cloudenvironments="public,fairfax,usnat,ussec,mooncake,blackforest"
+  articleid="05738708-090b-4494-8935-c4827de74c53"
+  ownershipid="AzureMonitoring_LogAnalytics" />
+# Log data appears with delay
 
-# VM data appears with delay
+The typical delay to ingest log data is between 2 to 5 minutes. The specific latency for any particular data will vary depending on a variety of factors. [Learn more about data ingestion time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time).
 
-The total ingestion time includes:
-
-* Agent time - The time it takes the agent to collect and send a log to Azure Monitor ingestion point.
-* Pipeline time - The time for the ingestion pipeline to process the log record.
-* Indexing time - The time spent to ingest a log record into Azure Monitor big data store.<br>
+Typical issues that cause ingestion delay are:
+* Service incidents - These are rare, but they happen and may affect one or many data types.
+* Data type is inherently slow - Some data types are slow. Frequently this relates to how data is being collected.
+* Customer-side delays - Some VMs introduce additional delays. These can occur due to network issues.
 
 ## **Recommended Steps**
 
-* Review the [Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for service availability and issues.
-* Review the ingestion aspects and the expected latency for your scenario:<br>
+* Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you see a notification about an ongoing incident, we are working on it and will communicate through the same blog when it's resolved.
 
-    * [Agent collection latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-collection-latency)
-    * [Agent upload frequency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-upload-frequency)
-    * [Management solutions data collection](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#management-solutions-collection)
-    * [Data process time in pipeline](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#pipeline-process-time)
-    * [New custom data types provisioning time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#new-custom-data-types-provisioning)
-    * [Indexing time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#indexing-time)<br>
+* Check for recent latency issues by running the following Log Analytics query:
 
-* Query your workspace to [measure the ingestion time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)<br>
+```
+Heartbeat
+| where TimeGenerated > ago(8h) 
+| extend E2EIngestionLatency = ingestion_time() - TimeGenerated 
+| extend AgentLatency = _TimeReceived - TimeGenerated 
+| summarize percentiles(E2EIngestionLatency, 95), percentiles(AgentLatency, 95) by Computer
+| extend RESULT=iff(percentile_E2EIngestionLatency_95 < 5min, "OK", 
+		    iff(percentile_AgentLatency_95 > 2min, "AGENT DELAY", "SERVICE DELAY"))
+| top 20 by percentile_E2EIngestionLatency_95 desc
+```
+
+  
+**Note:** You can customize thresholds in the above query or run it on any table
+
+   This query displays 20 VMs with the highest ingestion latency. Examine the results in the **RESULT** column: **OK** means the latency is within normal; **SERVICE DELAY** indicates that the delay is on the Log Analytics service side; **AGENT DELAY** signals some latency before the data reaches the Log Analytics ingestion endpoint.
+
+   For additional insights, consult this [article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency).
+
+* Check if your resource is sending the data. Run the following query to list the active computers that haven’t recently reported a heartbeat (heartbeat is sent once a minute):
+
+```
+Heartbeat  
+| where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
+| summarize NoHeartbeatPeriod = now() - max(TimeGenerated) by Computer  
+| top 20 by NoHeartbeatPeriod desc
+```
+
+* Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made available, however, this does not affect the ingestion - your data will be safely stored into the table  
+
+* Review [this article for additional queries to investigate the latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
+
 
 ## **Recommended Documents**
 

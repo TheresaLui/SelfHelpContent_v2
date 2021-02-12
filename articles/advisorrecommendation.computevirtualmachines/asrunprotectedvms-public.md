@@ -5,8 +5,8 @@
     ms.author="aadevteam"
     articleId="ed651749-cd37-4fd5-9897-01b416926745_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="Compute_SiteRecovery"
+    cloudEnvironments="Public, usnat, ussec"
+    ownershipId="Compute_SiteRecovery"
 />
 # Enable virtual machine replication to protect your applications from regional outage
 ---
@@ -28,13 +28,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "bcdrasrfte@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://MASR-PROD",
+      "service": "Azure Site Recovery",
+      "team": "Microsoft Azure Site Recovery Engineering"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "5d0f2841-795b-49c6-9ab1-c2195fc9a4ea"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,

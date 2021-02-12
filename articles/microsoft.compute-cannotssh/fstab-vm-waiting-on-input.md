@@ -13,7 +13,7 @@
 	supportTopicIds="32411835"
 	resourceTags="linux"
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public,mooncake, Fairfax"
+	cloudEnvironments="public,mooncake, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 
@@ -24,25 +24,7 @@ Microsoft Azure has concluded an investigation of your  virtual machine. We iden
 
 ## **Recommended Steps**
 
-To recover the virtual machine, follow these steps:
-
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
-
-2. If the VM is configured, press M for manual recovery to enter single user mode or login as root.  If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key.  If you are presented with a grub prompt enter ‘c’ for command prompt.
-
-	* Change into /etc directory and backup your fstab file:
-
-	```
-	cd /etc/
-	cp fstab fstab_orig
-	```
-	* View and verify the contents of the fstab file `cat /etc/fstab`
-	* Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file
-	* Edit the `fstab` file to remove or comment out (with `#` symbol) any incorrect entries using your favorite text editor, for example: `nano /etc/fstab` or `vi /etc/fstab`
-	* Before initiating a reboot, validate changes to `fstab` and check the syntax is correct by running `$ sudo mount -a`
-	* Reboot the VM and test SSH access
-
-3. In case serial console cannot be accessed, please follow the steps at article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue
+* To restore access to the VM, follow the steps in the [Linux VM starting issues due to fstab errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/linux-virtual-machine-cannot-start-fstab-errors) troubleshooting guide
 
 ## **Recommended Documents**
 

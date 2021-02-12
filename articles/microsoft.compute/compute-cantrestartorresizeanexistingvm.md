@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1cf1dd0b-8bde-4432-a753-6e800568aa29"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -18,12 +18,12 @@
 # I can't restart or resize an existing VM
 
 ## **Recommended Steps**
-To resolve common issues, try one or more of the following methods.
 
-1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason.<br>
-2. Look up suggested actions by error code using [Troubleshoot error codes for resize & restart](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/#error-string-lookup).<br>
-3. Try your request by using a smaller VM size or using a different cloud service.
+For general troubleshooting, please follow these guides:<br>
 
+1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
+2. Deploy to another region.<br>
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
 
 ## **Recommended Documents**
 

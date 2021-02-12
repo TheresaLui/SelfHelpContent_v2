@@ -2,11 +2,11 @@
 	pageTitle="How to create rules in an existing NSG"
 	description="How to create rules in an existing NSG"
 	authors="anavinahar"
-    ms.author="anavin"
+    ms.author="anavin,mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584257"
+	supportTopicIds="32781385,32781387,32781395,32781397"
 	productPesIds="15526"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="66574748238"
 	ownershipId="CloudNet_VirtualNetwork"
@@ -17,6 +17,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "How to create rules in an existing NSG",
     "fileAttachmentHint": "",
     "formElements": [
@@ -27,18 +28,16 @@
             "displayLabel": "Please select the NSG you are experiencing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/networkSecurityGroups/$ref?api-version=2018-11-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/networkSecurityGroups?api-version=2018-11-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of NSGs",
-                    "text": "Unable to get the list of NSGs"
+                "textPropertyRegex": "[^/]+$",
+           "defaultdropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
-            ],
+            },
             "required": false
         },
         {

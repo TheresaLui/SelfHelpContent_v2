@@ -11,7 +11,7 @@
 	supportTopicIds="32680649"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-install-ADLAwithinVS"
 	ownershipId="AzureData_AzureDataLakeAnalytics"
 />

@@ -1,17 +1,17 @@
 <properties
-    pageTitle="Application Gateway configuration and setup"
-    description="Application Gateway configuration and setup"
+    pageTitle="Application Gateway configuration and setup for AGIC"
+    description="Application Gateway configuration and setup for AGIC"
     authors="TobyTu"
     ms.author="mariliu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684007"
     productPesIds="15922"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="710961cc-d014-4550-be70-2069dc2e00ff"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
-# Questions Application Gateway configuration and setup
+# Questions Application Gateway configuration and setup for AGIC
 ---
 {
     "subscriptionRequired": true,

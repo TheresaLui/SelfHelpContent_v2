@@ -7,7 +7,7 @@
 	articleid="ProvideOnPremDevice"
 	supportTopicIds="32591149, 32591152, 32633157, 32584874"
 	productPesIds="16094,15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
@@ -66,8 +66,8 @@
                     "text": "Cisco ISR"
                 },
                 {
-                    "value": "Cisco Meraki - Not Compatible",
-                    "text": "Cisco Meraki - Not Compatible"
+                    "value": "Cisco Meraki",
+                    "text": "Cisco Meraki"
                 },
                 {
                     "value": "Citrix",
@@ -132,7 +132,7 @@
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide device Model and iOS/firmware version",
+            "displayLabel": "Provide device model and iOS/firmware version",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

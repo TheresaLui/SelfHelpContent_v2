@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635653"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32692593"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_azure_consumption_dispute"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center Azure Consumption Dispute
 ---

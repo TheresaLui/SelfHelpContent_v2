@@ -1,15 +1,15 @@
 <properties
 	pageTitle="Storage object recovery scoping"
 	description="Storage object recovery scoping question"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Sijia"
+    	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32688873"
-	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	supportTopicIds="32688873,32642178"
+	productPesIds="15629,16459"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="E6801E5C-EFBD-472A-ADC5-F21DC1C5B133"
-	ownershipId="StorageMediaEdge_AccountManagement"
+    	ownershipId="StorageMediaEdge_XStore"
 />
 # Issues accessing a new storage account
 ---
@@ -18,6 +18,11 @@
     "resourceRequired": true,
     "title": "Storage object recovery",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to check if storage resource is recoverable?",
+        "description": "Our Azure Storage diagnostics can help you find out if the storage resource is recoverable. Please fill in the information below to find an answer.",
+        "insightNotAvailableText": "Our diagnostics did not find your storage resource. Please ensure the information provided is accurate and in the approved format. Also, check recommended solution below to find an answer."
+	},
     "formElements": [
         {
             "id": "service_type",
@@ -47,23 +52,12 @@
                     "text": "Blob"
                 },
                 {
-                    "value": "file_share",
-                    "text": "File share"
-                },
-                {
-                    "value": "file",
-                    "text": "File"
-                },
-                {
-                    "value": "table",
-                    "text": "Table"
-                },
-                {
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "resource_group_name",
@@ -72,7 +66,8 @@
             "controlType": "textbox",
             "displayLabel": "Name of the deleted resource group",
             "watermarkText": "ResourceGroupName",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id":"recovery_type",
@@ -99,7 +94,8 @@
                     "text":"Other, don't know or not applicable"
                 }
             ],
-            "required":true
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id":"storage_account_name",
@@ -108,7 +104,8 @@
             "controlType":"textbox",
             "displayLabel":"Name of the deleted storage account to recover",
             "watermarkText":"accountname1;accountname2;accountname3",
-            "required":true
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id":"recovery_option",
@@ -131,7 +128,8 @@
                     "text":"Other, don't know or not applicable"
                 }
             ],
-            "required":true
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "blob_container",
@@ -140,7 +138,8 @@
             "controlType": "textbox",
             "displayLabel": "Name of container to recover",
             "watermarkText": "container1;container2;container3",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "object_name",
@@ -149,7 +148,8 @@
             "controlType": "textbox",
             "displayLabel": "Name of object to recover",
             "watermarkText": "objectname1;objectname2;objectname3",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "object_path",
@@ -158,7 +158,8 @@
             "controlType": "textbox",
             "displayLabel": "Path of object to recover",
             "watermarkText": "https://myaccount.file.core.windows.net/myfile",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id":"blob_path",
@@ -167,7 +168,8 @@
             "controlType":"textbox",
             "displayLabel":"Blob or disk path",
             "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
-            "required":true
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "Backup method",
@@ -190,7 +192,8 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": false
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "data_type",
@@ -213,7 +216,8 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "justification",
@@ -222,14 +226,16 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
-            "required": false
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
             "order": 17,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time when object was deleted",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_end_time",
@@ -245,7 +251,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"

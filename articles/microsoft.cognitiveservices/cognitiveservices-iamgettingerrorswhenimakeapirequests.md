@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6440fc53-0700-4dfe-ad10-f5879462c30e"
 	ownershipId="AzureCogSvc_CognitiveServices"
 />

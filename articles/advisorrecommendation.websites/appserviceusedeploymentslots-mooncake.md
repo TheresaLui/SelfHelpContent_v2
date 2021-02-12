@@ -6,7 +6,7 @@
     articleId="0dc165fd-69bf-468a-aa04-a69377b6feb0_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Use deployment slots for your App Service resource
 ---
@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "dff79eea-93f9-44ae-8a0f-2f9f937f669e"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-staging_cn",
   "description": "Use deployment slots for your App Service resource",
   "longDescription": "You have deployed your application multiple times over the last week. Deployment slots help you manage changes and help you reduce deployment impact to your production web app.",

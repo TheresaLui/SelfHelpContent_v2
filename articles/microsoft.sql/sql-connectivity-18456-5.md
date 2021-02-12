@@ -13,23 +13,21 @@
 	supportTopicIds="32630429"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Login failed - the specified user could not be found
+# We ran diagnostics on your resource and found an issue
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the specified user could not be found**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
-
-<!--$FailedLogins18456State5--> FailedLogins18456State5 <!--/$FailedLogins18456State5-->
-
-<!--/issueDescription-->
-
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
 The error returned indicates that the user was not found. This may occur if the username specified in the application connection string is incorrect, or if there is no corresponding login or contained database user inside the database.
 <br>
+
+<!--$FailedLogins18456State5--> FailedLogins18456State5 <!--/$FailedLogins18456State5-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -48,4 +46,4 @@ The error returned indicates that the user was not found. This may occur if the 
 
 ## **Recommended Documents**
 
-* [Create SQL Login and SQL User on your Azure SQL DB – Azure SQL Database Support](https://blogs.msdn.microsoft.com/azuresqldbsupport/2016/10/05/create-sql-login-and-sql-user-on-your-azure-sql-db/)
+* [Traditional Login and Contained Database User Model](https://docs.microsoft.com/sql/relational-databases/security/contained-database-users-making-your-database-portable)

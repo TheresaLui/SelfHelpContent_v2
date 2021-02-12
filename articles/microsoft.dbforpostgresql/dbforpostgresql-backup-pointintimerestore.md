@@ -7,17 +7,17 @@
     ms.author="janeng"
     displayOrder="150"
     selfHelpType="generic"
-    supportTopicIds="32640011"
+    supportTopicIds="32640011, 32780984"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Point-in-time restore
 
-Azure Database for PostgreSQL supports point-in-time restore to any point within the configured backup retention period for a server. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported.
+Azure Database for PostgreSQL supports point-in-time restore to any point within the configured backup retention period for a server. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported. Only the backups performed by Azure Database for PostgreSQL can be restored.  
 
 The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically. Because transaction log backups are taken every 5 minutes, you may need to wait 5 minutes before you're able to restore to a specific point-in-time within a 5 minute interval.
 

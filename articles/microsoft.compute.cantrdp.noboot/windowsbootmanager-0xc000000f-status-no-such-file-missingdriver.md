@@ -13,8 +13,8 @@
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM boot error
@@ -28,8 +28,8 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 To fix the BCD store, follow the troubleshooting steps indicated below:
 
 1. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. **Make sure that you select the "Keep the disks" option when you do this**.
-2. Before proceeding further, save a copy of the OS disk. This will help in case of a rollback for recovery. See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy).
-3. Attach the OS disk of the deleted VM as a data disk to a troubleshooting VM. For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
+2. Before proceeding further, save a copy of the OS disk. This will help in case of a rollback for recovery. See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/vhd-copy).
+3. Attach the OS disk of the deleted VM as a data disk to a troubleshooting VM. For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal).
 4. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
 5. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition:
 
@@ -58,4 +58,4 @@ bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
 ```
 
-8. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized).
+8. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized).

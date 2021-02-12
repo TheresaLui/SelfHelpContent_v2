@@ -13,8 +13,8 @@
     supportTopicIds="32615525"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # The DHCP request failed causing the VM to lose connectivity
@@ -24,6 +24,8 @@ We have investigated and detected that the virtual machine (VM) <!--$vmname-->[v
 
 ## **Recommended Steps**
 
-* Redeploy to a new host by accessing the [VM properties blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) in the Azure portal and clicking `Redeploy`
-* [Resetting the guest NIC](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-network-interface) may restore RDP connectivity to the VM
-* Check that the [DHCP client service is enabled](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-dhcp-disabled)
+Try each of the following steps in order to resolve the issue.
+
+1. Redeploy to a new host by accessing the [VM properties blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) in the Azure portal and clicking `Redeploy`
+1. [Resetting the guest NIC](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-network-interface) may restore RDP connectivity to the VM
+1. Check that the [DHCP client service is enabled](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-dhcp-disabled)

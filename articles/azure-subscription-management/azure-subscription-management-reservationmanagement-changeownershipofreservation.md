@@ -7,10 +7,10 @@
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32593231"
+	supportTopicIds="32593231,32781860"
 	resourceTags=""
-	productPesIds="15660"
-	cloudEnvironments="public"
+	productPesIds="15660,15659"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="3e3f570d-e378-486d-ab06-cb22839030d8"
 	ownershipId="ASMS_SubscriptionManagement"
 />
@@ -25,7 +25,7 @@ By default, the reservation purchaser and the account owner for the subscription
 
 * These users can add\other user to the reservation using the Access Control (IAM) tab under reservation. Just click on the reservation, then click on reservation order and provide access
 * When adding users to reservations, its better to add them to reservation order so that they can perform exchange and refunds in future.
-* You can add other people to the reservations or reservation orders using power shell / CLI. 
+* You can add other people to the reservations or reservation orders using power shell / CLI.
 
 You can get list of all reservations orders that you have access to: [Reservation Order-List](https://docs.microsoft.com/rest/api/reserved-vm-instances/reservationorder/list)<br>
 
@@ -41,18 +41,18 @@ Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure
 
 You can delegate management of a reservation by adding people to roles on the reservation. By default, the person that bought the reservation and the account administrator have the Owner role on the reservation.<br>
 
-1. Sign in to the [Azure portal](https://portal.azure.com/)
-2. Select **All Services > Reservation** to list reservations that you have access to
+1. Sign in to the [Azure portal](https://portal.azure.com/)
+2. Select **All Services > Reservation** to list reservations that you have access to
 3. Select the reservation that you want to delegate access to other users
-4. Select **Access control (IAM)**
-5. Select **Add role assignment > Role > Owner**. Or, if you want to give limited access, select a different role.<br>
+4. Select **Access control (IAM)**
+5. Select **Add role assignment > Role > Owner**. Or, if you want to give limited access, select a different role.<br>
 6. Type the email address of the user you want to add as owner
-7. Select the user, and then select **Save**
+7. Select the user, and then select **Save**
 
 Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
 
 The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
-To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal.<br>
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal.<br>
 
 ## **Recommended Documents**
 

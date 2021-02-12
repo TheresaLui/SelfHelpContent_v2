@@ -6,7 +6,7 @@
 	resource="vaults"
 	authors="trinadhk"
 	displayOrder="9"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32553297"
 	resourceTags=""
 	productPesIds="15207"

@@ -10,9 +10,9 @@
     supportTopicIds="32629274"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="69477870-4477-4fb1-92da-1d6f6d7f58c0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Usage reporting and billing issues and questions
@@ -32,4 +32,7 @@ Azure Stack collects and groups usage data for resources that are consumed. Then
 * [Report Azure Stack usage data to Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-usage-reporting)<br>
 * [Add tenant for usage and billing to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants)<br>
 * [Provider resource usage API](https://docs.microsoft.com/azure/azure-stack/azure-stack-provider-resource-api)<br>
-* [Tenant Resource Usage API](https://docs.microsoft.com/azure/azure-stack/azure-stack-tenant-resource-usage-api)
+* [Tenant Resource Usage API](https://docs.microsoft.com/azure/azure-stack/azure-stack-tenant-resource-usage-api)<br>
+* [Manage physical memory capacity](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-physical-memory-capacity?view=azs-2005)
+* [What disk sizes are available in Azure Stack Hub?](https://docs.microsoft.com/azure-stack/user/azure-stack-vm-considerations?view=azs-2005#vm-sizes)
+* [FAQ about Azure Stack Hub usage](https://docs.microsoft.com/azure-stack/operator/azure-stack-usage-related-faq?view=azs-2005)

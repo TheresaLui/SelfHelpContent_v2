@@ -10,12 +10,12 @@
 	articleId="partner_center_mfa_exception"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32684683"
+	supportTopicIds="32725807"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Request for MFA exception
@@ -25,6 +25,10 @@ Partner Center is mandating partners to complete MFA verification for specific p
 Before submitting a request for technical exception, please review all the documents listed below to understand what partner-related scenarios will trigger MFA verification, what constitutes a valid reason for technical exception, and information required when submitting an exception. After submission, click ‘Yes’ below to proceed with submitting an exception request.
 
 After the request is submitted, Microsoft will provide a response within 3 business days.
+
+## **Recommended Steps**
+
+To view metrics on compliance to [partner security requirements](https://docs.microsoft.com/partner-center/partner-security-requirements) for multi-factor authentication (MFA) for users in your partner tenant, refer to [security requirements status](https://partner.microsoft.com/commerce/security/compliance).
 
 ## **Recommended Documents**
 

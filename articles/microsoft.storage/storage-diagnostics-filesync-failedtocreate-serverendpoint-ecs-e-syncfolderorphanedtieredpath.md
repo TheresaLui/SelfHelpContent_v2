@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Azure File Sync failed to create server endpoint creation failed due to error ECS_E_SYNC_FOLDER_ORPHANED_TIERED_PATH

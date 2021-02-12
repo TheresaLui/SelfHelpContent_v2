@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635661"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32692596,32725793"
+	productPesIds="17003,17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_credit_limits"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center Credit Limits
 ---

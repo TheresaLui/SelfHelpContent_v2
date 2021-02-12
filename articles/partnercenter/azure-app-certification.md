@@ -10,14 +10,16 @@
 	articleId="marketplace_azure_app_cert_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689329"
+	supportTopicIds="32728052"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17009"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Offer_Certification"
 />
 
 # Azure applications - certification
+
+**IMPORTANT**: If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
 
 The Microsoft Review step of the publishing process represents an extensive review of your offer and its associated technical assets (especially the Azure Resource Manager template).  Issues are typically represented as pull request (PR) links.
 

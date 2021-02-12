@@ -1,12 +1,12 @@
 <properties
     pageTitle="Repurpose or delete idle virtual network gateways"
     description="Repurpose or delete idle virtual network gateways"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="anzaman"
+    ms.author="alzam"
     articleId="129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Repurpose or delete idle virtual network gateways
 ---
@@ -17,7 +17,7 @@
   "recommendationTypeId": "129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "AzureAdvisor.IdleVNetGateways",
+    "streamNamespace": "Microsoft.Cloud.idlevnetgateways",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
@@ -28,13 +28,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "azvpnpms@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://vpngateway",
+      "service": "VPN Gateway",
+      "team": "VPN Gateway"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "10c9bf14-f656-4413-a32c-176b6f203911"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,

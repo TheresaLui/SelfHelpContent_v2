@@ -10,7 +10,7 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="811ad9ff-73cd-494e-8838-5bb57a80bffd"
 	ownershipId="CloudNet_LoadBalancer"
 />

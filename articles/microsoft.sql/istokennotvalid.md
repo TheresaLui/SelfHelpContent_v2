@@ -8,19 +8,20 @@
 	ms.author="subbuk, swbharti"
 	displayOrder=""
 	articleId="IsTokenNotValid_95889E41-4BCE-4142-994B-FF931D177FEA"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
+# Connection token invalid
 
-# We ran diagnostics on your resource and found an issue
+## **Connections denied due to an invalid AAD token**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, connections to server <!--$ServerName-->ServerName<!--/$ServerName--> and database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> were denied due to an invalid AAD token. Token expiry is the most common cause for token to become invalid. By default, the connection token is valid for one hour. Please ensure to use a valid token to connect to your database successfully. This issue may also occur if any of the registered claims in the identity(ID) token is invalid. Please review the documents below for more information.
+Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, connections to server <!--$ServerName-->ServerName<!--/$ServerName--> and database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> were denied due to an invalid AAD token. Token expiration is the most common cause for a token to become invalid. By default, the connection token is valid for one hour. Be sure to use a valid token to connect to your database successfully. This issue may also occur if any of the registered claims in the identity(ID) token are invalid. See the documents below for more information.
 <!--/issueDescription-->
 
 ## **Recommended Documents**

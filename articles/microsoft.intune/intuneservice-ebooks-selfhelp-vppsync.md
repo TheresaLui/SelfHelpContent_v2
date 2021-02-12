@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="ebooks_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1d88efbe-e72f-4758-b1ba-04cbe782323a"
 	ownershipId="IntuneCxP_Intune"
 />

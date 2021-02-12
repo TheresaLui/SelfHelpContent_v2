@@ -10,9 +10,9 @@
     supportTopicIds="32691180"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-viewing-alerts-request-for-more-information-on-an-incident"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # How to investigate an incident

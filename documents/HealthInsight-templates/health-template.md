@@ -4,7 +4,6 @@
 	infoBubbleText="Health Insight template"
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	articleId=""
 	diagnosticScenario="health_diagnostic"

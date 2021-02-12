@@ -10,7 +10,7 @@
 	supportTopicIds="32677734"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="178b9906-c5b3-4eed-9a7a-dac993391ade"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -19,11 +19,15 @@
 
 ## **Recommended Steps**
 
-* Follow the below steps to resolve the error `<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope` :
+* Review the [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes.
+
+* Use the following steps to delete Azure Databricks workspace:
 	
-     * Login to portal and navigate to Databricks Workspace that needs to be deleted
-     * Click on Managed Resource Group 
-     * If there are no [locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks), click 'delete'
-     * Once Managed Resource group deletion is successful, proceed with deleting workspace
+     * Log in to Azure portal as the workspace owner (the user who created the workspace) and navigate to the Databricks Workspace that needs to be deleted
+     * Select **Azure Delete** and then **OK**. The cleanup of the workspace is an asynchronous process. It takes about 5-10 minutes to clean up cluster resources such as VNet, virtual machines, storage, and NSG.  If you just initiated it, wait and then check after 5-10 minutes.
+  
+  It is important to note that Managed Resource Group will be deleted automatically after the workspace is deleted. Managed Resource Group is locked by design, so trying to delete it first would cause errors. Make sure to delete workspace itself first.
+  
+  ## **Recommended Documents**
      
-* Cleanup of workspace is an asynchronous process and takes about 5-10 minutes to clean up cluster resources like VNET, Virtual Machines, storage and NSG.  If you just initiated it, please check after 5-10 minutes.
+* [How to discover who deleted a workspace in Azure portal?](https://docs.microsoft.com/azure/databricks/kb/administration/who-deleted-workspace)

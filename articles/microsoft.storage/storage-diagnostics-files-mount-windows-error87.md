@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
@@ -44,5 +44,5 @@ Revert the **LmCompatibilityLevel** value to the default value of 3 in the follo
 ## **Recommended Documents**
 
 - [Troubleshoot Azure Files problems in Windows](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems)
-- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
+- [AzFileDiagnostics - Troubleshooting tool for Azure Files mounting errors on Windows](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Windows)
 - [LmCompatibilityLevel](https://technet.microsoft.com/library/cc960646.aspx)

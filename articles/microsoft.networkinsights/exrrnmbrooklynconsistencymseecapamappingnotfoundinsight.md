@@ -13,7 +13,7 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="CloudNet_AzureExpressRoute"
 />
 # MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found

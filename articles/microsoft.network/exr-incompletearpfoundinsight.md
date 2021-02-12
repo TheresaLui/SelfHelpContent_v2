@@ -1,33 +1,29 @@
 <properties
-    pageTitle="ExpressRoute: Incomplete ARP(s) found"
-    description="ExpressRoute: Incomplete ARP(s) found"
-    infoBubbleText="ExpressRoute: Incomplete ARP(s) found"
+    pageTitle="Incomplete ARP(s) found"
+    description="Incomplete ARP(s) found"
+    infoBubbleText="Need more information about this issue? See details on the right."
     service="microsoft.network"
     resource="ExpressRoute"
-    authors="pareshmu"
-    ms.author="pareshmu"
+    authors="TobyTu"
+    ms.author="pareshmu, mariliu"
     displayOrder=""
     articleId="ExpressRouteIncompleteArpFoundInsight"
     selfHelpType="diagnostics"
     diagnosticScenario="ExpressRouteIncompleteArpFoundInsight"
-    supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
+    supportTopicIds="32627979"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public, Fairfax"
- 	ownershipId="CloudNet_AzureExpressRoute"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+     ownershipId="CloudNet_AzureExpressRoute"
 />
-# **Incomplete ARP Entry Found**
+
+# Incomplete ARP Entry Found
+<!--issueDescription-->
+We have identified that the Address Resolution Protocol (ARP) isn't established on your ExpressRoute circuit **[Azure resource name]**. To enable private connectivity to an Azure virtual network or public connectivity to an online Microsoft resource, ARP must be established first.
 <!--/issueDescription-->
-ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**'
-Incomplete ARP Entry found
- <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Review '**<!--$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for details and follow the TSG.
+If your ExpressRoute circuit is managed via an ExpressRoute partner, review the VLAN IDs set in any peering configured on the circuit and make sure your ExpressRoute partners have configured their end of the connection with the same VLAN IDs.
 
-In most cases, an Incomplete ARP is an issue with the service provider. Please contact your Service provider and let them know that you are experiencing an incomplete ARP issue with Microsoft Azure ExpressRoute.
-
-## **Recommended Document**
-
-* [Verify ARP between Microsoft and the service provider](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview#validate-arp-between-microsoft-and-the-service-provider) <br>
+If your ExpressRoute circuit is managed via ExpressRoute Direct, review the VLAN IDs set in any peering configured on the circuit and make sure your on-premises configuration matches the Azure configuration.

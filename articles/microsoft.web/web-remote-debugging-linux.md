@@ -1,20 +1,17 @@
 <properties
-	pageTitle="Remote debugging"
-	description="Remote debugging"
-	service="microsoft.web"
-	resource="sites"
-	authors="cts-shrahman, cts-shrahman"
-    ms.author="shrahman,shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32581620"
-	productPesIds="16170"
-	cloudEnvironments="public, Fairfax"
-	articleId="6df2f1a1-c1ef-4c5f-9082-539b8bec4a62"
-	ownershipId="Compute_AppService"
-/>
-
-
+  pagetitle="Remote debugging&#xD;"
+  description="Remote debugging"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32581620"
+  resourcetags=""
+  productpesids="16170"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="6df2f1a1-c1ef-4c5f-9082-539b8bec4a62"
+  ownershipid="Compute_AppService" />
 # Remote debugging
 
 ## **Recommended Documents**

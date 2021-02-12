@@ -1,70 +1,50 @@
 <properties
-	pageTitle="Authenticate, provision or manage my workspace"
-	description="Authenticate, provision or manage my workspace"
-	infoBubbleText="Authenticate, provision or manage my workspace"
-	service="microsoft.machinelearning.workspace"
-	resource="machinelearning"
-	authors="johnwu0604"
-	ms.author="johwu"
-	supportTopicIds="32690836"
-	productPesIds="16644"
-	cloudEnvironments="Public"
-	articleId="microsoft.machinelearning.workspace.manage"
-	selfHelpType="generic"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
+  pagetitle="Managing associated resources (storage, key vault, container registry, app insights)&#xD;"
+  service="microsoft.machinelearning.workspace"
+  resource="machinelearning"
+  ms.author="roastala,johwu"
+  selfhelptype="Generic"
+  supporttopicids="32690836"
+  resourcetags=""
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="microsoft.machinelearning.workspace.manage"
+  ownershipid="AzureML_AzureMachineLearningServices" />
+# Managing associated resources (storage, key vault, container registry, app insights)
 
-# Authenticate, provision or manage my workspace
+All workspaces consist of a set of associated resources (storage account, key vault, container registry, application insights). During workspace provisioning, you can choose either to create them as new resources or tp select existing resources.
 
 ## **Recommended Steps**
 
-### **Azure Machine Learning Python SDK**
+### **Problem with storage account**
 
-To create a workspace using the Python SDK:
+If you have issues with the associated storage account, check the following settings:
 
-```
-from azureml.core import Workspace
+- Hierarchical namespaces are not enabled on the storage account. Hierarchical namespaces are not yet supported in Azure ML.
+- The storage is not a premium account. Premium accounts are not yet supported in Azure ML.
+- If your workspace is behind a private endpoint, make sure your storage is also behind the same virtual network.
 
-workspace = Workspace.create(name='<WORKSPACE-NAME>',
-                            subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                            resource_group='<RESOURCE-GROUP>',
-                            create_resource_group=True,
-                            location='<LOCATION>')
-```
+### **Problem with key vault**
 
-If a workspace has already been created, directly connect to the workspace:
+If you have issues with the associated key vault, check the following settings:
 
-```
-from azureml.core import Workspace
+- If you regenerated the keys to your datastores, make sure to also update this in the workspace key vault. See the [documentation](https://docs.microsoft.com/azure/machine-learning/how-to-change-storage-access-key) for instructions.
+- If your workspace is behind a private endpoint, make sure your key vault is also behind the same virtual network.
 
-workspace = Workspace.get(name='<WORKSPACE-NAME>',
-                        subscription_id='<AZURE-SUBSCRIPTION-ID>',
-                        resource_group='<RESOURCE-GROUP>')
-```
+### **Problem with container registry**
 
-Once access has be granted to the workspace, use any of the existing methods to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace.workspace?view=azure-ml-py) for additional reference.
+If you have issues with the associated container registry, check the following settings:
 
-### **Azure Machine Learning CLI**
+- If your workspace has no associated container registry, this means that you haven't registered any images yet. Container registries are provisioned only after you submit your first run, when the first image is built. If you want to have a container registry from the beginning, select this option during workspace provisioning.
+- If your workspace is behind a private endpoint, make sure your container registry is also behind the same virtual network.
+- If your workspace is behind a private endpoint, ensure you have private DNS zone quota by submitting a support request under the **Private Endpoint and Private DNS zone allowance request** problem subtype.
 
-To create a workspace using the CLI:
+### **Problem with application insights**
 
-```
-az ml workspace create -w <WORKSPACE-NAME> -g <RESOURCE-GROUP>
-```
-
-If a workspace has already been created, use the following command to list the details of your existing workspace:
-
-```
-az ml workspace list
-```
-
-Once the workspace has been created or workspace details have been retrieved, use the other existing CLI commands to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/ml/workspace?view=azure-cli-latest) for additional reference.
+If you have issues with the associated application insights, check the following settings:
+- If you want to adjust data retention period and details, see the [documentation](https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy#how-long-is-the-data-kept)
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
-
-* [What is an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
-* [Create and manage workspace using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
-* [Azure Machine Learning CLI reference docs](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/?view=azure-cli-latest)
+* [How to create a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace?WT.mc_id=Portal-Microsoft_Azure_Support&tabs=azure-portal)
+* [Workspace overview](https://docs.microsoft.com/azure/machine-learning/concept-workspace)

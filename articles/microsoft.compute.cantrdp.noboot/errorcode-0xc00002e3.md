@@ -13,8 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM boot error
@@ -30,8 +30,8 @@ To fix the issue, either replace the file from the C:\windows\WinSxS folder on t
 
 1. Please make a note of the File name and the path from the screenshot.
 2. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.
-3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
-4. Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
+3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/vhd-copy)
+4. Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal).
 5. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 6. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
   * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
@@ -40,4 +40,4 @@ To fix the issue, either replace the file from the C:\windows\WinSxS folder on t
 8. In case you have a backup of the Disk or a System backup taken before the VM ran into this issue, please check if SAM file exists in \windows\system32\config.
 9. If SAM file exists in the backup, replace/copy the file to the affected machine’s OS Disk \windows\system32\config folder.
 10. In cases there are no backups, on the affected disk copy the file from \windows\system32\config\regback\SAM to \windows\system32\config\.
-11. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
+11. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)

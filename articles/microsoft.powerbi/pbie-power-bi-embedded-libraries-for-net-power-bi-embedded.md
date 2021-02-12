@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628131"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="59f8542b-ce47-d1de-fc43-66d5a54361f6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI Embedded libraries for .NET

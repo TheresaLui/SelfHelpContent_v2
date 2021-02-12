@@ -13,7 +13,7 @@
 	supportTopicIds="32630508"
 	resourceTags="8000Series"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
@@ -22,7 +22,8 @@
 ## **Recommended Steps**
 
 1. Verify if the device is online and the volumes are showing online in the portal
-2. Check on the file server if the target (StorSimple appliance) is showing as connected. If not, try to establish connection. 
-3. If the volumes are visible on the file server but not accessible by any users, try to offline/online the volume
-4. If the volumes do not appear on the file server, try to rescan the disk
-5. [Run network diagnostics to check if the configured interfaces are enabled, and the Storage account credentials and SSL certificate is valid](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics#to-run-the-diagnostics-tool)
+2. Check on the file server if the target (StorSimple appliance) is showing as connected. If not, try to establish connection.
+3. [Verify if Azure Datacenter IP Address is whitelisted to allow traffic to Azure Storage](https://www.microsoft.com/download/confirmation.aspx?id=41653)
+4. If the volumes are visible on the file server but not accessible by any users, try to offline/online the volume
+5. If the volumes do not appear on the file server, try to rescan the disk
+6. [Run network diagnostics to check if the configured interfaces are enabled, and the Storage account credentials and SSL certificate is valid](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics#to-run-the-diagnostics-tool)

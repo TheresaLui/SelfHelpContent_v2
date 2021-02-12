@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628132"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="14158f75-cbe9-9671-73da-f7c49e7ce1d7"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Introducing the new Power BI JavaScript API

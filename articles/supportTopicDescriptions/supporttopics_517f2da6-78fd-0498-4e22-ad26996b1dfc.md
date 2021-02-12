@@ -2,15 +2,15 @@
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, prdasneo"
+  ms.author="akankshajsh, prdasneo, mumami, scotro"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="billing-supporttopicdescription"
+  ownershipid="ASMS_Billing"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 517f2da6-78fd-0498-4e22-ad26996b1dfc
 ---
 {
@@ -59,9 +59,9 @@
     {
       "id": "0c04be9f-8434-be1f-8a08-a6a25a730844",
       "longDescription": null,
-      "shortDescription": "Questions about the pricing models of any offers or services",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions about Pricing of Azure Services",
+      "searchTags": "Pricing;Pricing Calculator;Pricing API",
+      "category": "Provisioning",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -71,6 +71,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0f14502b-e27c-c3d4-a2b1-cd5a3875389e",
+      "longDescription": "",
+      "shortDescription": "Need assistance with managing access for Reservations",
+      "searchTags": "RI;Reservations;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
@@ -99,9 +107,9 @@
     {
       "id": "15da022a-a108-c566-b944-c6d46ccd6479",
       "longDescription": null,
-      "shortDescription": "Questions about billing cycles, when you will get your bill, and when your credit card will be auto-charged",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with pricing discounts",
+      "searchTags": "pricing;discounts",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -225,6 +233,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b6b8731-355f-c7a9-aba4-b4cab39eeee9",
+      "longDescription": "",
+      "shortDescription": "Question or request to change the scope of an existing Reserved Instance ",
+      "searchTags": "RI;Reservation;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5c3e2a5f-619a-335b-b5ab-9dec9537d66b",
       "longDescription": null,
       "shortDescription": "Questions and clarifications on getting charged for a cancelled service",
@@ -275,9 +291,9 @@
     {
       "id": "6d607aed-0da2-0322-dfd1-987002d9f410",
       "longDescription": null,
-      "shortDescription": "Questions on any other bill or usage related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance understanding how a service is charged",
+      "searchTags": "service charges;assistance;bill;charge",
+      "category": "Assistance with bill or usage",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -303,6 +319,14 @@
       "searchTags": "Cost Management;AWS",
       "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "767ba34f-180f-c9f6-48c7-c40f6837ef29",
+      "longDescription": "",
+      "shortDescription": "Need assistance with how a reservation is applied to an existing resource",
+      "searchTags": "Ri;Reserved Instance;Reservation",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "76ea362a-2219-833b-d371-d91738e4e31a",
@@ -377,6 +401,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a5f5229a-130c-e227-564e-b8a9cd46889d",
+      "longDescription": "",
+      "shortDescription": "Questions or need assistance with Azure Pricing calculator",
+      "searchTags": "Price calculator;Azure calculator;calculator",
+      "category": "Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
       "longDescription": null,
       "shortDescription": "Questions regarding export related errors or files not exported as expected",
@@ -411,9 +443,9 @@
     {
       "id": "c45a4321-c1ba-400a-d2d0-ab6ecc8a3730",
       "longDescription": null,
-      "shortDescription": "Questions or issues with pricing for Azure subscriptions, services or marketplace items",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on Prices of Azure Services visible on Pricesheet Download, Pricing API, Portal Deployment experience or Azure Pricing Calculator",
+      "searchTags": "Pricing;Pricing Calculator;Pricing API",
+      "category": "Provisioning",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -467,9 +499,9 @@
     {
       "id": "dc1655d0-baa0-76a1-8521-717732d5eb5a",
       "longDescription": null,
-      "shortDescription": "Questions on any other Pricing related issue not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with Azure price sheet API",
+      "searchTags": "price sheet;API",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {

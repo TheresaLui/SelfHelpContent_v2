@@ -9,9 +9,9 @@
     supportTopicIds="32689834"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b08fc474-a30d-44c4-b437-8aa8baa27abe"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I cannot scale my existing cluster up or down

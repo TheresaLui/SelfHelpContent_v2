@@ -10,10 +10,10 @@
 	articleId="dbforpostgresql-asc-operation-serviceunavailable"
 	diagnosticScenario="OrcasPostgresOperationFailure"
 	selfHelpType="rca"
-	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
+	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028, 32780989, 32780992, 32780995, 32780997, 32780998"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public, Fairfax"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 

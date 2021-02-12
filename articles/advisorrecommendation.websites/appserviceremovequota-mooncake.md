@@ -6,7 +6,7 @@
     articleId="78c5ab69-858a-43ca-a5ac-4ca6f9cdc30d_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Scale up your App Service resource to remove the quota limit
 ---

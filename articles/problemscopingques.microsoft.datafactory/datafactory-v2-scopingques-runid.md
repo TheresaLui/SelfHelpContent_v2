@@ -4,9 +4,9 @@
     authors="samiranshah"
     ms.author="samirans"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629472,32629492,32637151"
+    supportTopicIds="32629472,32629491,32680901,32637152,32749442,32749443,32749444,32749445,32749446,32749447"
     productPesIds="15613"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="DataFactoryRunIdScopingQues"
 	ownershipId="AzureData_DataFactory"
@@ -32,8 +32,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_run_id",

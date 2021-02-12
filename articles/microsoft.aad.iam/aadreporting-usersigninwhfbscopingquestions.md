@@ -4,10 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32596873" 
 	 productPesIds="14785,16579" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
     articleId="7262a9ca-3a86-4f67-9acf-b702dd50f0e9"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 /> 
 #  Problem with User sign-in WHFB
 ---
@@ -52,7 +52,7 @@
             "order": 2,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "<a href='https://aka.ms/whfbplan'>Click here to get started with the WHfB Planning Guide.</a>",
+            "content": "<a href='https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-planning-guide'>Click here to get started with the WHfB Planning Guide.</a>",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,

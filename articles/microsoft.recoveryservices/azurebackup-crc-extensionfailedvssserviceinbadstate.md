@@ -10,10 +10,10 @@
 	articleId="azurebackup-crc-extensionfailedvssserviceinbadstate"
 	diagnosticScenario="azurebackup-crc-extensionfailedvssserviceinbadstate"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276,32553277"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Backup"
 />
 
@@ -25,5 +25,13 @@ We have detected that your VSS (Volume Shadow copy Service) service is in an inc
 
 ## **Recommended Steps**
 
-* Restart the VSS and retry the backup operation
-- To restart the VSS services please refer to the [documentation](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)
+Restart VSS (Volume Shadow Copy) service.
+
+- Navigate to Services.msc and restart 'Volume Shadow Copy service'.<br>
+(or)<br>
+- Run the following commands from an elevated command prompt:
+
+ ```net stop VSS``` <br>
+ ```net start VSS```
+
+If the issue still persists, restart the VM at the scheduled downtime.

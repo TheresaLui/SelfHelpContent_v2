@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635701"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725811,32692609"
+	productPesIds="17000,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_tax_exempt"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Tax Exempt
 ---
@@ -39,8 +39,24 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "reason_why_update_not_performed_via_partner_center",
             "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Reason why update not performed via Partner center",
+            "watermarkText": "Please provide the reason why update not performed via Partner center",
+            "required": false
+        },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Please provide the number of customers impacted.",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -49,7 +65,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Tax ID updated date",
             "watermarkText": "When did you add your tax ID to your partner profile?",

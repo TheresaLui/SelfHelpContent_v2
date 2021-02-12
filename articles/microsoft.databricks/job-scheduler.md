@@ -10,7 +10,7 @@
 	supportTopicIds="32677704"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8aabdbb6-7c60-41ea-845c-854b7b9ad973"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -19,5 +19,6 @@
 
 ## **Recommended Documents**
 
-* [Common Errors Using Azure Data Factory](https://kb.azuredatabricks.net/dev-tools/common-errors-adf.html)
-* [Problem: Invalid Access Token Error When Running Jobs with Airflow](https://kb.azuredatabricks.net/dev-tools/invalid-access-token-airflow.html)
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+* [Common Errors Using Azure Data Factory](https://docs.microsoft.com/azure/databricks/kb/dev-tools/common-errors-adf)
+* [Problem: Invalid Access Token Error When Running Jobs with Airflow](https://docs.microsoft.com/azure/databricks/kb/dev-tools/invalid-access-token-airflow)

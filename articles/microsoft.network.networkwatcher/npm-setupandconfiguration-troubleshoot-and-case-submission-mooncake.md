@@ -7,12 +7,12 @@
 	authors="vinynigam"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32606425"
 	resourceTags="optional"
-	productPesIds=""
+	productPesIds="16160"
 	cloudEnvironments="MoonCake"
 	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission-mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Agent Setup and Configuration issues

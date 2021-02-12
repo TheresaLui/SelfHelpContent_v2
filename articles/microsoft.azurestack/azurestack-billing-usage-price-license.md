@@ -10,9 +10,9 @@
     supportTopicIds="32629236"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="abdc2tg3-706d-526c-b984-f433c12f1e9f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack pricing and licensing

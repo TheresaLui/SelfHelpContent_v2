@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632804"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="9e3ebca0-af2a-4446-ad72-98ea62a6bce2"
 	ownershipId="StorageMediaEdge_Backup"
@@ -31,10 +31,10 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Select the virtual machine running SQL",
 	    "dynamicDropdownOptions": {
-        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
+        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+        "jTokenPath": "value",
+        "textProperty": "name",
+        "valueProperty": "id",
         "textPropertyRegex": ".*",
 	"defaultDropdownOptions": {
                            "value": "dont_know_answer",

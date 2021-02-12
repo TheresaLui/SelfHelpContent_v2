@@ -2,15 +2,15 @@
 	pageTitle="CSP analyze and reporting"
 	description="CSP analyze and reporting"
 	authors="brentserbus"
-	ms.author="brserbus"
+	ms.author="A-COFLOR"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635633"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725818"
+	productPesIds="17001"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques_partnercenter_reporting"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Analytics"
 />
 # CSP analyze and reporting
 ---

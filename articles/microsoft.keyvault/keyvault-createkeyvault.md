@@ -10,7 +10,7 @@
 	supportTopicIds="32375289"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="6e122525-b660-4331-a071-2f0e0db865c5"
 	ownershipId="AzureKeyVault_KeyVault"
 />

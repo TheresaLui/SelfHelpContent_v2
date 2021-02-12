@@ -6,7 +6,7 @@
   authors="jaszperez"
   ms.author="japere"
   selfHelpType="resource"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
   resourceTags="enterpriseapps_overview,enterpriseapps_singleapp"
   displayOrder="1507"
  	articleId="090a6a54-5ba7-4d28-8eae-954ca5d4e579"

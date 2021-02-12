@@ -11,15 +11,26 @@
 	selfHelpType="diagnostics"
 	supportTopicIds="32553276,32553277"
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Backup"
 />
 
 # UserErrorRpCollectionLimitReached
+
 <!--issueDescription-->
-We identified that your backup operation was failing due the presence of a lock on the recovery point resource group. The lock might have been applied by an authorized user for security reasons. The presence of a lock prevents the execution of automatic cleanup, which can result in the recovery point reaching the maximum limit.
+Your backup operation failed due the presence of a lock on the recovery point resource group. The lock might have been applied by an authorized user for security reasons. The presence of a lock prevents the execution of automatic cleanup, which can result in the recovery point reaching the maximum limit.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To remove the existing lock and to cleanup the recovery point collection, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached).
+1. [Remove the lock from the resource Group](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#remove_lock_from_the_recovery_point_resource_group)<br>
+2. [Clean up the Restore point collection](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#clean_up_restore_point_collection)<br>
+3. The backup service creates a separate resource group than the resource group of the VM to store restore point collection. You must not lock the resource group created by the backup service. [Learn more](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached).
+4. The naming format of the resource group created by backup service is:
+
+```
+AzureBackupRG_<Geo>_<number>
+```
+For example: AzureBackupRG_northeurope_1
+
+**Note:** If locks are applied at subscription level, then the Resource Group will be locked as well. In this scenario, you should remove the lock from the subscription.

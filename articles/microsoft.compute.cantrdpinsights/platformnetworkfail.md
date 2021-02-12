@@ -13,8 +13,8 @@
     supportTopicIds=""
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Virtual machine networking is not accessible due to a networking platform failure

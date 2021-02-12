@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32591158,32584882"
 	productPesIds="16094,15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
@@ -66,8 +66,8 @@
                     "text": "Cisco ISR"
                 },
                 {
-                    "value": "Cisco Meraki - Not Compatible",
-                    "text": "Cisco Meraki - Not Compatible"
+                    "value": "Cisco Meraki",
+                    "text": "Cisco Meraki"
                 },
                 {
                     "value": "Citrix",
@@ -132,7 +132,7 @@
             "id": "S2S_connectivity_issues",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the issue you are facing",
+            "displayLabel": "Select the issue you have",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -166,7 +166,7 @@
             "id": "source_dest_IP_address",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide source and destination IP addresses (on-premises and/or VNet IP addresses)",
+            "displayLabel": "Provide source and destination IP addresses (on-premises and VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -197,7 +197,7 @@
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide device Model and iOS/firmware version",
+            "displayLabel": "Provide device model and iOS/firmware version",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

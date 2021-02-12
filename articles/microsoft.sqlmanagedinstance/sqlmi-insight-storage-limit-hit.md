@@ -12,7 +12,7 @@
 	supportTopicIds="32637296,32637300,32637306,32637313"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmanagedinstance-perf-increase-storage-limit"
 	ownershipId="AzureData_AzureSQLMI"
 />

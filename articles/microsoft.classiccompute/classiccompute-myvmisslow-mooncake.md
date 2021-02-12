@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="81e4675c-6cdd-4ffc-ab56-afec54522eb3"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My VM is slow

@@ -9,7 +9,7 @@
 	supportTopicIds="32636831"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-mongodbunsupported"
 	displayOrder="225"
 	category="MongoDB"

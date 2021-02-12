@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588973"
 	productPesIds="16098"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="700961cc-d014-454b-be70-2069dc2e00ff"
 	ownershipId="CloudNet_LoadBalancer"

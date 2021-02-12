@@ -10,7 +10,7 @@
     supportTopicIds="32642192"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1b17e1a7-c260-45b6-b533-d6ff9b44a5f7"
 	ownershipId="Compute_Automation"
 />
@@ -51,4 +51,4 @@ These documents will help you with common problems related to Automation Account
 ## **Recommended Documents**
 
 * [Azure Automation documentation](https://docs.microsoft.com/azure/automation/)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

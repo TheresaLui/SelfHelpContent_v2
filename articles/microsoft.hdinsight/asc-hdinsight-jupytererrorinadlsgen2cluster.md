@@ -13,7 +13,7 @@
     supportTopicIds="32636498, 32636484"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake, Fairfax"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	ownershipId="AzureData_HDInsight"
 />
 

@@ -10,19 +10,21 @@
 	supportTopicIds="32632953"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="accessandresourcemanagementissuessigninginoraccessingmysubscription"
 	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # issues signing in or accessing my subscription
 
-### Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)
+## **Recommended Steps**
+
+### **Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
 
 * You might be impacted by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://status.azure.com/status/history/)<br>
 * Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing<br>
 * You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work<br>
-	
+
 Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
 
 ### **Unable to access subscriptions**
@@ -31,7 +33,7 @@ Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/404
 * In the [Azure Account center](https://account.windowsazure.com/Subscriptions), make sure if the account used is the account admin
 
 Learn more: [Troubleshoot No Subscriptions found](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found)
-	
+
 ### **Unable to access billing history**
 
 * The account admin needs to make sure the user accessing the billing information is added in the Azure Active directory as a guest user: [Add or delete a new user](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory)<br>

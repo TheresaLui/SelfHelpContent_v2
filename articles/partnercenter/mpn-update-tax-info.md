@@ -10,15 +10,15 @@
 	articleId="partnercenter_mpn_update_tax_ID"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635702"
+	supportTopicIds="32725825"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Update tax ID/VAT ID
 
 ## **Recommended Documents**
 
-* [How to update tax ID/VAT ID](https://support.microsoft.com/help/4501523)
+* [How to update tax ID/VAT ID](https://docs.microsoft.com/partner-center/organization-tax-info)

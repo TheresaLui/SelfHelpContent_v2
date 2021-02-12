@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="conditionalaccess_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="14fe722d-a90d-40f1-86d7-da02e95348ce"
 	ownershipId="AzureIdentity_User"
 />
@@ -23,7 +23,7 @@ Conditional access policy is supported in the browser and using applications wit
 <br><br>
 The following document explains how to lock down older protocols with ADFS:
 <br>
-[How to configure conditional access for Office 365 SharePoint and Exchange](http://aka.ms/csforexchange)
+[How to configure conditional access for Office 365 SharePoint and Exchange](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
 
 
 **I don't see conditional access policy being enforced for any applications**
@@ -33,4 +33,3 @@ Conditional access policy changes can take up to five minutes to take effect. If
 For more details, see:
 <br>
 [How are conditions used to trigger policy controls](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)
-

@@ -7,17 +7,17 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641079"
+	supportTopicIds="32641079,32641096, 32641122, 32641144, 32641151"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="edac4a30-96cb-45df-bdbd-a56680015b74"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # My instance was restarted or stopped unexpectedly
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 

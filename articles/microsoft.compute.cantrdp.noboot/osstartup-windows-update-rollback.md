@@ -13,8 +13,8 @@
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM boot error
@@ -31,7 +31,7 @@ Depending on the number of updates that are installing or going through rollback
 If the issue continues even after a restart please follow the steps below:
 
 1. Stop/deallocate the VM and [save a copy of the OS disk or create a snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
-2. [Attach the copy/snapshot](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal) of the OS disk as a data disk to a troubleshooting VM
+2. [Attach the copy/snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal) of the OS disk as a data disk to a troubleshooting VM
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
 4. Identify the boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
 5. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism), query the updates that are currently installed and pending installation with `dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt`

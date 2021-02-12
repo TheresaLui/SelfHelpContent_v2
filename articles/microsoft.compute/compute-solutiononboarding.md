@@ -10,7 +10,7 @@
     supportTopicIds=""
     resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
     productPesIds=""
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="d530b6fe-3096-40c1-9ef0-2bc37364bee5"
 	ownershipId="Compute_VirtualMachines"
 />

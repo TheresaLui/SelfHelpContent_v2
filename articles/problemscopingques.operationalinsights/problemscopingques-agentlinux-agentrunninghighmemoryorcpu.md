@@ -6,9 +6,9 @@ articleId="problemscopingques-Windows_Agent running high memory or CPU"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612489"
+supportTopicIds="32745396"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -16,6 +16,7 @@ schemaVersion="1"
 # Agent running high memory or CPU
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

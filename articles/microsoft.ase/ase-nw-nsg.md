@@ -1,20 +1,18 @@
 <properties
-	pageTitle="Networking\Configuring NSGs"
-	description="Networking\Configuring NSGs"
-	service="microsoft.ase"
-	resource="ase"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32608423"
-	resourceTags=""
-	productPesIds="16533"
-	cloudEnvironments="public, Fairfax"
-	articleId="bb03a1f1-7cc4-49ce-bf96-ab1b67a39c9a"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Networking\Configuring NSGs&#xD;"
+  service="microsoft.web"
+  resource="hostingenvironments"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32608423"
+  resourcetags=""
+  productpesids="16533"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="bb03a1f1-7cc4-49ce-bf96-ab1b67a39c9a"
+  ownershipid="Compute_AppService" />
 # Networking\Configuring NSGs
 
-## **Recommended documents**
-* [Networking considerations for an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/network-info)
+## **Recommended Documents**
+
+* [ASE V3 Networking](https://docs.microsoft.com/azure/app-service/environment/networking)
+* [Networking considerations for an App Service environment](https://docs.microsoft.com/azure/app-service/environment/network-info)

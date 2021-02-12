@@ -9,9 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e38b82f1-af17-48bc-8273-4538a34cfba1"
-	ownershipId="AzureMessaging_Common"
+	ownershipId="AzureNotificationHubs"
 />
 
 # How do i check pushes I have sent?

@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "azurestorage.data.storageadvisoraccountscaletargetfairfax",
     "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "2.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",

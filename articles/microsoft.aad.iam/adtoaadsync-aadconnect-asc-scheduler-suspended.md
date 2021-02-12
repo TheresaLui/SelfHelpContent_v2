@@ -11,10 +11,11 @@
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
+
 # The Azure AD Sync scheduler is suspended
 <!--issueDescription-->
 We have detected the synchronization cycle is suspended on server(s) for your tenant.

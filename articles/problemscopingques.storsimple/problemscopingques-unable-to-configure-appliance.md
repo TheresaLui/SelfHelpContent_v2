@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630502"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
@@ -20,8 +20,26 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "device_task",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
+            }
+        },
+        {
+            "id": "device_task",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which device-level configuration task is failing?",
             "watermarkText": "Choose an option",
@@ -51,7 +69,7 @@
         },
         {
             "id": "port",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is port 9354 open on Data0 IPs?",
             "watermarkText": "Choose an option",
@@ -69,14 +87,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

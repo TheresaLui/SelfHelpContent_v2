@@ -6,7 +6,7 @@
     articleId="1294987d-c97d-41d0-8fd8-cb6eab52d87b_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Consider scaling out your App Service Plan to avoid CPU exhaustion
 ---
@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "dff79eea-93f9-44ae-8a0f-2f9f937f669e"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-cpu_cn",
   "description": "Consider scaling out your App Service Plan to avoid CPU exhaustion",
   "longDescription": "Your App reached >90% CPU over the last couple of days. High CPU utilization can lead to runtime issues with your apps, to solve this you could scale out your app.",

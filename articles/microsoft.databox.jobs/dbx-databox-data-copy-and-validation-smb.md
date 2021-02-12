@@ -11,7 +11,7 @@
 	supportTopicIds="32639190"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
     	articleId="32639190"
 	ownershipId="StorageMediaEdge_DataBox"
 />
@@ -22,13 +22,13 @@
 
 ## **Recommended Steps**
 
-* To access the SMB shares for Data Box, type:  `net use \\<IP address of the device>\<share name> /u:<user name for the share>`
+* To access the SMB shares for Data Box, type:  net use `\\<IP address of the device>\<share name>` `/u:<user name for the share>`
 
 Depending upon your data format, the share paths are:
 
-* Azure Block blob - \\\\< IP-address-of-Data-Box\>\\<storage-account-name\>_BlockBlob
-* Azure Page blob - \\\\< IP-address-of-Data-Box\>\\<storage-account-name\>_PageBlob
-* Azure Files - \\\\< IP-address-of-Data-Box\>\\<storage-account-name\>_AzFile
+* Azure Block blob - `\\<IP-address-of-Data-Box>\<storage-account-name>_BlockBlob`
+* Azure Page blob - `\\<IP-address-of-Data-Box>\<storage-account-name>_PageBlob`
+* Azure Files - `\\<IP-address-of-Data-Box>\<storage-account-name>_AzFile`
 
 ## **Recommended Documents**
 

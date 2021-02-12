@@ -10,7 +10,7 @@
     supportTopicIds="32641420"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-performance-other"
 	ownershipId="CloudNet_AzureBastion"
 />

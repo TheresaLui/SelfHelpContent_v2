@@ -11,7 +11,7 @@
     diagnosticScenario=""
     supportTopicIds="32641156,32641157,32641158"
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_Automation"
 />
 
@@ -23,24 +23,22 @@ Below are some quick steps to resolve common Azure template deployment errors.
 
 * [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
 
-## Error Codes
+### **Error Codes**
 
 There are two types of errors you can receive:
 
-* validation errors
-* deployment errors
-
-Validation errors arise from scenarios that can be determined before deployment. They include syntax errors in your template, or trying to deploy resources that would exceed your subscription quotas. Deployment errors arise from conditions that occur during the deployment process. They include trying to access a resource that is being deployed in parallel.
+1. Validation Errors: They arise from scenarios that can be determined before deployment. They include syntax errors in your template, or trying to deploy resources that would exceed your subscription quotas. 
+2. Deployment Errors: They arise from conditions that occur during the deployment process. They include trying to access a resource that is being deployed in parallel.
 
 Both types of errors return an error code that you use to troubleshoot the deployment. Both types of errors appear in the [activity log](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit). However, validation errors don't appear in your deployment history because the deployment never started.
 
-### Validation Errors
+### **Validation Errors**
 
 When deploying through the portal, you see a validation error after submitting your values.
 
 Select the message for more details. You see an **InvalidTemplateDeployment** error and a message that indicates a policy blocked deployment.
 
-### Deployment Errors
+### **Deployment Errors**
 
 When the operation passes validation, but fails during deployment, you get a deployment error.
 

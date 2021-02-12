@@ -5,8 +5,8 @@
     ms.author="aadevteam"
     articleId="07f9a07d-9030-465c-89dc-b1f712334b83_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="Compute_LogicApps"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Check outbound connections from your App Service resource
 ---
@@ -37,7 +37,7 @@
   "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46",
   "adf3bc1f-f9ab-49a3-b81c-06a36582c68f"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-socket",
   "description": "Check outbound connections from your App Service resource",
   "longDescription": "Your app has opened too many TCP/IP socket connections. Exceeding ephemeral TCP/IP port connection limits can cause unexpected connectivity issues for your apps.",

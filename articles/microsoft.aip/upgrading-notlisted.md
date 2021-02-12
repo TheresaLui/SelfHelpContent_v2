@@ -10,7 +10,7 @@
 	supportTopicIds="32727959"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Upgrading_Not_Listed"
 	ownershipId="AzureIdentity_InformationProtection"
 />
@@ -19,7 +19,7 @@
 
 ## **Recommended Documents**
 
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)
+* [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)
 

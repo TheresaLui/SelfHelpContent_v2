@@ -6,10 +6,10 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636809"
+	supportTopicIds="32741541"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-advisory-other"
 	displayOrder="40"
 	category="General Advisory"
@@ -17,27 +17,31 @@
 />
 
 # Azure Cosmos DB - General Advisory
-Most users are able to resolve their General Advisory Questions using the steps below.
 
+Most users are able to resolve their General Advisory Questions using the steps below.
 
 ## **Recommended Steps**
 
 ### **Unable to register for Preview Features**
+
 Issue: I want to preview some new features but I am not able to complete the registration in the portal.
+
 - The account may be missing the required permission
 - The subscription also would require Resource Provider "Microsoft.Features" to be registered
+
 For additional information please see [Microsoft.Features](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftfeatures).
 
 ### **Data backup retention**
+
 Azure Cosmos DB automatically takes a backup of your database every 4 hours and at any point of time, only the latest 2 backups are stored. However, if the container or database is deleted, Azure Cosmos DB retains the existing snapshots of a given container or database for 30 days.
+
 <br>We do have the option to increase the backups retention duration to help you customize.  
+
 There are some limits for the backups:
+
 * Backups cannot be retained for more than 30 days
 * The number of backups cannot be more than 25 at the same time
 * The minimum backup interval is 1 hour  
-
-
-
 
 ## **Recommended Documents**
 

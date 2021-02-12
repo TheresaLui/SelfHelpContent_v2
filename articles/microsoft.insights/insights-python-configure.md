@@ -4,16 +4,18 @@
     service="microsoft.insights"
     resource="components"
     authors="lzchen"
-    ms.author="lechen"
+    ms.author="lechen,neghuman"
     articleId="insights_python_configure"
     displayOrder="1125"
-    selfHelpType="resource"
-    cloudEnvironments="public, Fairfax"
+    selfHelpType="generic"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32681426"
-	ownershipId="AzureMonitoring_ApplicationInsights"
+    ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Configuring OpenCensus Python
+
+## **Recommended Steps**
 
 Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) to see how to setup and instrument your application to send traces to Application Insights. Take a look at the [README](https://github.com/census-instrumentation/opencensus-python/blob/master/contrib/opencensus-ext-azure/README.rst) for more detailed instructions.
 
@@ -42,7 +44,7 @@ tracer = Tracer(
 )
 ```
 
-#### If using opencensus-ext-flask integration
+### If using opencensus-ext-flask integration
 
 1. Make sure you have the latest version of [opencensus-ext-flask](https://pypi.org/project/opencensus-ext-flask/)
 2. Check to see if the requests originating from the url(s) are not in settings.py under `BLACKLIST_PATHS`:
@@ -59,7 +61,7 @@ app.config['OPENCENSUS'] = {
 }
 ```
 
-#### If using opencensus-ext-django integration
+### If using opencensus-ext-django integration
 
 1. Make sure you have the latest version of [opencensus-ext-django](https://pypi.org/project/opencensus-ext-django/)
 2. Make sure you have `'opencensus.ext.django.middleware.OpencensusMiddleware'` in your settings.py file under `MIDDLEWARE`:

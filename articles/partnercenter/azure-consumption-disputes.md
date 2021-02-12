@@ -10,22 +10,26 @@
 	articleId="partnercenter_azure_consumption_disputes"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635653"
+	supportTopicIds="32692593"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Azure consumption disputes
+
+**Please Note**
+
 Support tickets for this issue should be reported in the Azure portal. To create an Azure support ticket:
 
 ## **Recommended Steps**
 
-- On the Partner Center Dashboard menu, select Customers. Select the customer, and then select Service management.
-- In the Support Requests section, select the New request drop-down menu, and then select Microsoft Azure
-- In the Azure portal, select New support request
-- Enter the relevant information for the service request, and then select Submit. For more information about how to fill out the support request, see [How to create Azure support requests](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request).
+- Step 1: On the Partner Center Dashboard menu, select Customers. Select the customer, and then select Service management.
+- Step 2: In the Support Requests section, select the New request drop-down menu, and then select Microsoft Azure
+- Step 3: In the Azure portal, select New support request
+- Step 4: Enter the relevant information for the service request, and then select Submit. For more information about how to fill out the support request, see [How to create Azure support requests](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request).
+- Step 5: Daily-rated usage normally takes 24 hours to appear in Partner Center or to be accessed through API
 
 ## **Recommended Documents**
 

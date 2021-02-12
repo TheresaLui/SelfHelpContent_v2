@@ -10,7 +10,7 @@
 	supportTopicIds="32727947"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="portalusage_performance"
 	ownershipId="AzureIdentity_InformationProtection"
 />
@@ -19,14 +19,14 @@
 
 ## **Recommended Steps**
 
-1. Verify that you don't have any networking issues causing slow response
-2. If you have a big amount of policies/labels expect reasonable time to load them all
+1. Verify that you don't have any networking issues causing slow response.
+2. If you have a large amount of policies/labels, expect a reasonable amount of time to load them all.
 
 If you still experience the issue, take a screenshot of the problem and attach the screenshot to this ticket.
 
 ## **Recommended Documents**
 
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br
+* [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>

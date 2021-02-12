@@ -5,7 +5,7 @@
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="D88F3F43-0CC3-4143-ACED-C4820B56E8EC"
 	ownershipId="ASEP_ContentService_Placeholder"

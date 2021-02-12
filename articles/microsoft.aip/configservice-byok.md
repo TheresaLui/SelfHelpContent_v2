@@ -11,7 +11,7 @@
 	supportTopicIds="32727964"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureIdentity_InformationProtection"
 />
 
@@ -25,6 +25,6 @@
 * [Can I now use BYOK with Exchange Online?](https://docs.microsoft.com/azure/information-protection/faqs-rms#can-i-now-use-byok-with-exchange-online)<br>
 * [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)<br>
 * [Operations for your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/operations-tenant-key)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>

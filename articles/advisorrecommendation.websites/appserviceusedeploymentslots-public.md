@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="0dc165fd-69bf-468a-aa04-a69377b6feb0_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="Compute_AppService"
 />
 # Use deployment slots for your App Service resource
@@ -37,7 +37,7 @@
   "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46",
   "adf3bc1f-f9ab-49a3-b81c-06a36582c68f"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-staging",
   "description": "Use deployment slots for your App Service resource",
   "longDescription": "You have deployed your application multiple times over the last week. Deployment slots help you manage changes and help you reduce deployment impact to your production web app.",

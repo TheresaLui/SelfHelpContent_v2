@@ -1,35 +1,28 @@
-﻿<properties
-    pageTitle="V2 - Pipeline Activities - Databricks Common Solutions"
-    description="V2 - Pipeline Activities - Databricks Activities Common Solutions"
-    service=""
-    resource=""
-    authors="chez-charlie"
-    ms.author="chez"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629480"
-    resourceTags=""
-    productPesIds="15613"
-    cloudEnvironments="public, Fairfax"
-    articleId="3d7b6288-51d3-4d2d-b4f7-0822b21160f5"
-	ownershipId="AzureData_DataFactory"
-/>
-
+<properties
+  pagetitle="V2 - Pipeline Activities - Databricks"
+  service=""
+  resource=""
+  ms.author="chez,haoc,rakatuko"
+  selfhelptype="Generic"
+  supporttopicids="32629480"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="3d7b6288-51d3-4d2d-b4f7-0822b21160f5"
+  ownershipid="AzureData_DataFactory" />
 # V2 - Pipeline Activities - Databricks
 
 ## **Recommended Steps**
 
-If you have received an error message from Databricks activities, including Jar, Notebook and Python activity, please reference [ADF Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#azure-databricks) and [Databricks Troubleshooting Guide](https://kb.azuredatabricks.net/dev-tools/common-errors-adf.html) for more information.
+* If you've received an error message from Databricks activities, including Jar, Notebook, and Python activity, see the [ADF Troubleshooting Guide to understand error codes](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#azure-databricks)
+
+* If your Databricks Notebook Activity is running for a longer period or failed: Because this is a customer-owned cluster, go to the Databricks account or URL provided in the pipeline to find the cluster logs for more details about the error.
 
 ## **Recommended Documents**
 
-* [ADF Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#azure-databricks) __please read to understand your error codes__ <br>
-
-* [Databricks Troubleshooting Guide](https://kb.azuredatabricks.net/dev-tools/common-errors-adf.html) lists common errors using Databricks in ADF <br>
-
-* Activities Documents, including: <br>
+* Activities documents, including: <br>
   * Databricks [Jar Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-jar) <br>
   * Databricks [Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-notebook) <br>
   * Databricks [Python Activity](https://docs.microsoft.com/azure/data-factory/transform-data-databricks-python)
 
-* Transform data in cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)
+* Transform data in the cloud with [Databricks Notebook Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-databricks-notebook)

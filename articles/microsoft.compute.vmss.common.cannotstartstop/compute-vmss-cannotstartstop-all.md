@@ -7,17 +7,17 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641073"
+	supportTopicIds="32641073,32641098, 32641102,32641105,32641124,32641125,32641126,32641138"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2c5e3e6b-90f3-48c5-8045-eb600b18c22f"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Cannot start or stop my instances
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their VMSS issue using the following documents.<br>
 
 ## **Recommended Documents**
 

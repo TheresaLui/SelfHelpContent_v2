@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1fc2c04c-8526-4433-bea4-2b5e8b11adfc"
 	ownershipId="CloudNet_TrafficManager"
 />

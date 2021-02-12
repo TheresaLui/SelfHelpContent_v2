@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635662,32635698,32635699"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725886,32725893,32725894,32692597"
+	productPesIds="17012,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_credit_requests"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Credit Requests
 ---
@@ -44,9 +44,17 @@
             "watermarkText": "Provide the customer tenant id as a GUID",
             "required": false
         },
+	{
+            "id": "# of customers impacted",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -55,7 +63,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

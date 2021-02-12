@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16160"
     articleId="npm-nodataafterrules-troubleshoot-and-case-submission-nw"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	ownershipId="CloudNet_NetAnalytics"
 />
 

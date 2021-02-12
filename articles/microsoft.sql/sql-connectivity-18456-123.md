@@ -13,22 +13,22 @@
 	supportTopicIds="32630429"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Login failed - Empty username or password
+# We ran diagnostics on your resource and found an issue
 
-## We ran diagnostics on your resource and found an issue
+## **Login failed, the login contains an empty username or password**
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
-<!--$FailedLogins18456State123--> FailedLogins18456State123 <!--/$FailedLogins18456State123-->
-
-<!--/issueDescription-->
-
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect login failures.
 <br>
+
 The error returned indicated that the corresponding login contains either an empty username or password.
 <br>
+
+<!--$FailedLogins18456State123--> FailedLogins18456State123 <!--/$FailedLogins18456State123-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

@@ -10,7 +10,7 @@
     supportTopicIds="32640594"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
     articleId="ddos-under-attack-no-resource"
 	ownershipId="CloudNet_AzureDDoSProtection"
 />

@@ -4,9 +4,9 @@
     authors="Xin-Cheng"
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32639997"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    supportTopicIds="32639997, 32780952, 32780956"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-server-modifyparameters"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
@@ -18,31 +18,47 @@
     "subscriptionRequired": false,
     "title": "Server Parameters Modify",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Database for PostgreSQL Server Parameters Troubleshooter",
+        "description": "Our Azure Database for Server Parameters Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Following the steps in Recommended Solution section below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "server_parameter",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What server parameter(s) do you want to change?",
             "required": false
         },
         {
             "id": "parameter_value",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is value you want to change to?",
+            "displayLabel": "What is the value you want to change the parameter to?",
             "required": false
         },
         {
             "id": "error_message",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message you received?",
             "watermarkText": "",
@@ -51,10 +67,10 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
-            "watermarkText": "Provide your repro steps and other information about your issue",
+            "watermarkText": "Please provide the repro steps and other information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

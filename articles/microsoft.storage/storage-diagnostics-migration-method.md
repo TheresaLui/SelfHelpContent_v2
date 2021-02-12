@@ -13,16 +13,12 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Find Data migration solution
 
 <!--issueDescription-->
-There is a Data Transfer feature in Azure portal that provides recommendations on data migration solutions.
+Below are the recommended migration method: <!--$InforBoxMessage-->[InforBoxMessage]<!--/$InforBoxMessage--> <!--$Tools-->[Tools]<!--/$Tools-->.
 <!--/issueDescription-->
-
-## **Recommended Steps**
-
-* Check the <a href="<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->">Data transfer feature in Azure portal </a> to get recommendations on data migration solutions

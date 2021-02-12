@@ -8,7 +8,7 @@
 	displayOrder="200"
 	selfHelpType="resource"
 	supportTopicIds="32629813,32629814"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="c1c9b1fb-3fbb-461f-9949-23fa9ce31e04"
 	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot "Health service data not up to date" alert](https://aka.ms/aadhealth/datafreshness)
+* [Troubleshoot "Health service data not up to date" alert](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-data-freshness)
 
 ## **Recommended Documents**
 

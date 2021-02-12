@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32530438"
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="d73b7cb8-224c-4a21-8390-2bcc03b11948"
 	ownershipId="IntuneCxP_Intune"

@@ -7,10 +7,10 @@
 	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32592839"
+	supportTopicIds="32592839,32785485"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1290e2b4-a827-49e8-a222-a8c9f7dbba98"
 	ownershipId="CloudNet_VirtualNetwork"
 />
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>
+* [Limitations and recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>

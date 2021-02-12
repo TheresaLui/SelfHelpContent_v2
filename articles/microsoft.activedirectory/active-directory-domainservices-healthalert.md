@@ -13,8 +13,8 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16577"
-	cloudEnvironments="public"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Health Alert for Azure AD Domain Services
@@ -26,5 +26,5 @@ To resolve this issue, please refer to the following steps in this guide: **<!--
 
 This information is also always available on the Health page of your managed domain on the Azure portal. We recommend that you visit your health page to keep up-to-date on the synchronization of your managed domain and view any alerts you may have. To learn more, please refer to the following articles:
 
-* [Checking your managed domain's health](https://aka.ms/aadds-health)
-* [Troubleshooting alerts on your managed domain](https://aka.ms/aadds-alerts)
+* [Checking your managed domain's health](https://docs.microsoft.com/azure/active-directory-domain-services/check-health)
+* [Troubleshooting alerts on your managed domain](https://docs.microsoft.com/azure/active-directory-domain-services/troubleshoot-alerts)

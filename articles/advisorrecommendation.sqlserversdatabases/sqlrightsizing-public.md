@@ -5,7 +5,7 @@
     ms.author="aoaft"
     articleId="b83241d3-47ba-4603-8d5a-a1b3331e74f4_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # Right-size underutilized SQL Databases
@@ -86,6 +86,7 @@
       "name": "ObservationPeriodEndDate",
       "title": "Observation End Period"
     }
-  ]
+  ],
+  "costSavingInfo": "*You can save up to the stated amount if you choose to right-size your database. Your actual savings may vary."
 }
 ---

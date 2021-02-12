@@ -9,9 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565574"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="58d228fa-56b0-4a04-8ef4-0e48377fe321"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Issues with Devices or Notifications/Registration disappears

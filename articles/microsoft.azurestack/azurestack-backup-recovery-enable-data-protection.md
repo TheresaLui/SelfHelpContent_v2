@@ -2,17 +2,17 @@
     pageTitle="Azure Stack data protection with Azure Backup"
     description="Azure Stack data protection with Azure Backup"
     service="microsoft.azurestack"
-    resource="azurestack"
+    resource="registrations"
     authors="TobyTu"
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629196"
     resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16226, 17058, 17131, 17057"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="abdc2tg3-706d-401c-b984-f433c12f1e9f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Enable Data Protection with Azure Backup Server

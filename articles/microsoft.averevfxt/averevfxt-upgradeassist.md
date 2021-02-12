@@ -11,8 +11,8 @@
     supportTopicIds="32609697"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="public, fairfax, usnat, ussec"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT Upgrade Assistance

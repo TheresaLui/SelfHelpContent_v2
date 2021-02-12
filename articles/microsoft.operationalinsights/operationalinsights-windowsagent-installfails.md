@@ -11,7 +11,7 @@
     supportTopicIds="32612469"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="627dfbb1-a3f4-4f86-9562-4636370b9106"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />

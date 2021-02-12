@@ -1,12 +1,13 @@
 <properties
-  pagetitle="Support topic description for Azure Backup"
+  pagetitle="Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku"
+  ms.author="akankshajsh, v-kraku, srinathv, yagohel, prachank"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
+  ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -14,29 +15,29 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "",
+  "shortDescription": "Azure Backup",
   "longDescription": "",
-  "productLink1": "",
-  "productLinkName1": null,
+  "productLink1": "https://docs.microsoft.com/azure/backup/backup-overview",
+  "productLinkName1": "Product Overview",
   "productLink2": "",
-  "productLinkName2": null,
+  "productLinkName2": "",
   "productLink3": "",
-  "productLinkName3": null,
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "025dc143-378e-9b1c-ca0d-7056de378d44",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue during restore of Azure Files Share (AFS) using Azure Backup",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "05c0a677-190e-c3ee-464e-d159ad181e7f",
       "longDescription": null,
-      "shortDescription": "Issue related to Recovery Services Vault",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue pertaining to recovery services vault and backup vault",
+      "searchTags": "Vault;recovery services vault;backup vault;retain data",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -50,9 +51,9 @@
     {
       "id": "08b22f15-5b92-c873-e513-18e02aa112f0",
       "longDescription": null,
-      "shortDescription": "Issue during restore of Windows virtual machine ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues during restore for Windows",
+      "searchTags": "Restore;windows",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -69,6 +70,14 @@
       "shortDescription": "Issues related to MARS (Microsoft Azure Recovery Services) Agent for protecting files and folders in Windows",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0bdd4785-33cc-1d02-8f96-f09fbfbd70ac",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Backup Center used to govern, monitor, operate, and analyze backups at scale.",
+      "searchTags": "Backup Center;data is missing;incorrect results;unexpected results",
+      "category": "Backup Center",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -90,10 +99,10 @@
     {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
+      "searchTags": "Backup;Files;share",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "1621a0b2-d93a-9327-b149-de9c05ce34f5",
@@ -146,9 +155,9 @@
     {
       "id": "2497a519-665c-6844-a061-c6a7b9cb955d",
       "longDescription": null,
-      "shortDescription": "Issue during restore of Linux virtual machine ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues during restore for Linux",
+      "searchTags": "Linux;restore",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -168,12 +177,28 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
+      "searchTags": "SAP ;configure;network;configuration",
+      "category": "configure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
       "shortDescription": "Issue undeleting items in soft deleted state",
       "searchTags": "Soft delete;undelete",
       "category": "Vault",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "33ae5afb-30c4-b0dd-ada9-a36ab5fafa5d",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure Database for PostgreSQL servers. ",
+      "searchTags": "PostgreSQL;Backup;Restore;Schedule",
+      "category": "PostgreSQL",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
@@ -186,10 +211,10 @@
     {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
+      "searchTags": "Restore;MABS;Azure Backup Server",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "383972df-72a6-a96f-7175-784c9c608366",
@@ -242,25 +267,25 @@
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
-      "shortDescription": "Issues specific to Azure Backup Service while protecting Azure Virtual Machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue pertaining to backup of Azure Virtual Machine. For individual workloads running in VM, select relevant problem type",
+      "searchTags": "IaaS;virtual machine;Backup of VM",
+      "category": "backup, restore, configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue configuring backup of Azure Files Shares (AFS)",
+      "searchTags": "configure;AFS;Azure Files Share;Azure Files",
+      "category": "configure",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4dd6a432-1c5a-b3a6-ec45-5de2e6f04137",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
-      "searchTags": "",
-      "category": "",
+      "searchTags": "Performance;restore",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -274,9 +299,9 @@
     {
       "id": "52f1a27a-c8a2-9455-896c-c3ee9c6d07d9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Reporting with Diagnostics Settings",
+      "searchTags": "report ;diagnostics",
+      "category": "Alerts and Reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -298,18 +323,18 @@
     {
       "id": "5ac4d72a-7814-6c56-4e28-2694b5e77f1e",
       "longDescription": null,
-      "shortDescription": "Performance issue while taking backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Performance issues during a backup, or scheduled backups start too late",
+      "searchTags": "performance;scheduled backup",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configuration",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Questions on how-to, guidelines, best practices. For error codes and failures, select relevant problem type",
+      "searchTags": "Supported;Not supported;Price;How to configure",
+      "category": "IaaS VM Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
@@ -322,7 +347,7 @@
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "shortDescription": "Backup failed with UserErrorGuestAgentStatusUnavailable, GuestAgentSnapshotTaskStatusError and similar error codes related to VM guest agent.",
       "searchTags": "backup;failed;agent",
       "category": "backup",
       "useInDiagnoseAndSolve": "true"
@@ -362,17 +387,25 @@
     {
       "id": "79c28470-7917-6671-055d-668754e214e0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Linux virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backups of Linux VMs",
+      "searchTags": "backup;failed;on-demand;scheduled",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "7a3867b1-7c5e-a334-4d0c-911960ebd675",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue pertaining to Azure Backup Server",
+      "searchTags": "Azure Backup Server;MABS",
+      "category": "MABS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7a630d4f-4c26-5d75-a53a-702599efd3bf",
+      "longDescription": "",
+      "shortDescription": "Issues related to file recovery in Azure VMs",
+      "searchTags": "File Recovery",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -418,9 +451,9 @@
     {
       "id": "8cc4f4b0-cefd-2647-2861-e70e2e5f8ba4",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues only specific to Backup reports using Power BI ",
+      "searchTags": "report;powerbi",
+      "category": "alert and report",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -442,10 +475,10 @@
     {
       "id": "92f207c2-1fad-b6e3-5dd5-a06f31a634f9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Online Backup failures using Azure Backup Server (MABS) ",
+      "searchTags": "backup;azure backup server;MAB",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
@@ -474,17 +507,17 @@
     {
       "id": "9cc2bc2c-e067-4931-ac5e-155e1d53999c",
       "longDescription": null,
-      "shortDescription": "Errors due to extension failures putting the VM into a failed provisioning state",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Backup failing due to UserErrorVmProvisioningStateFailed, ExtensionFailed, VSS, COM and other extension related issues",
+      "searchTags": "backup;provisioning;extension;VSS",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "a1503a7e-657a-36ce-a5d5-110b02e4e420",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue pertaining to Backup Alerts and Reports",
+      "searchTags": "reports;alert",
+      "category": "alerts and reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -498,9 +531,9 @@
     {
       "id": "a58dd7d1-2b80-0623-67fa-81e712aa3cce",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to slow restore of Azure Files Share using Azure Backup ",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -522,9 +555,9 @@
     {
       "id": "a96ff2f6-1274-f022-4321-43fd1beac140",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues related to backup performance of Azure Files Share (AFS)",
+      "searchTags": "slow;backup;AFS;Azure Files",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -584,11 +617,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2c3bf5d-fbd2-e79b-b34b-890667254076",
+      "longDescription": "",
+      "shortDescription": "Issues in preview features and supported scenarios ",
+      "searchTags": "Preview",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4e0c92b-47a8-fbf4-b071-f52e01d5f239",
       "longDescription": null,
       "shortDescription": "Issues connecting to data lake storage such as timeouts, throttling, dropped connections, etc",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ca4a4f85-79ec-5df0-6af2-ddeef4786ee0",
+      "longDescription": "",
+      "shortDescription": "Issue with backup policies, retention of recovery points, reports, pricing, alerts and notifications",
+      "searchTags": "Backup;policies;retention;recovery point",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -602,7 +651,7 @@
     {
       "id": "cd167c00-fc25-ae4d-43b1-ac530eb6be1b",
       "longDescription": null,
-      "shortDescription": "Issue during backup to Disk or Tapes (not online backup) ",
+      "shortDescription": "Issue during backup to Disk or Tapes (not online backup)",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
@@ -626,17 +675,25 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue while configuring virtual machine backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backups",
+      "searchTags": "configure;modify;stop",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d7e4bacd-18cf-e240-7b27-17285784450a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue only related to Online Backup configuring or enabling online backup ",
+      "searchTags": "online backup;MABS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "db4ac868-3787-043f-4cd6-397d4cb798cc",
+      "longDescription": "",
+      "shortDescription": "Best practices, backup architecture",
+      "searchTags": "Best practices; backup architecture",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -650,7 +707,7 @@
     {
       "id": "e2bc8d87-ac15-698b-4521-a8010fa3b7bc",
       "longDescription": null,
-      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
+      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
@@ -658,9 +715,9 @@
     {
       "id": "e3b27cc4-cda5-965b-7fb6-06fac0e6f6b0",
       "longDescription": null,
-      "shortDescription": "Issue while taking backup of Windows virtual machine",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Failures during scheduled or on-demand backups of Windows VMs",
+      "searchTags": "backup;scheduled;failed;ondemand;windows",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -674,9 +731,9 @@
     {
       "id": "e5f6de9a-f8f6-2cbe-ea0d-e7d53693407f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Backup reports using Log Analytics",
+      "searchTags": "report;LOG analytics",
+      "category": "alerts and reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -693,6 +750,14 @@
       "shortDescription": "Issue while restoring entire volume or individual files and folders using MARS agent",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ed35ef48-803c-6896-9adf-c226eb606279",
+      "longDescription": "",
+      "shortDescription": "Ask for a new feature, ask for new support in existing feature",
+      "searchTags": "new feature;ask",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -714,16 +779,16 @@
     {
       "id": "f53b0b53-ee00-ad7f-1279-8bd4d85df1e3",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to managing Azure Files Shares (AFS) backup policy",
+      "searchTags": "AFS;Azure Files Share;Azure Files;policy",
+      "category": "Configure",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
       "longDescription": "",
-      "shortDescription": "SAP HANA database backup",
-      "searchTags": "SAP HANA",
+      "shortDescription": "Issue specific to backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA;SPA;HANA",
       "category": "SAP",
       "useInDiagnoseAndSolve": "false"
     },
@@ -733,6 +798,14 @@
       "shortDescription": "Issue while restoring System State backup from Azure using MARS Agent",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa7b44a7-1961-a5b5-5de8-a0f5be30f15d",
+      "longDescription": "",
+      "shortDescription": "Backup failed with UserErrorVmProvisioningStateFailed, ExtensionFailed VSS COM and similar error codes related to VM provisioning state and extension.",
+      "searchTags": "UserErrorVmProvisioningStateFailed;Provisioning;failed",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -762,10 +835,10 @@
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",

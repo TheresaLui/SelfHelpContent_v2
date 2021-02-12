@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 

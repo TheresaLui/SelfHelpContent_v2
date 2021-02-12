@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630494"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
@@ -20,8 +20,26 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "local_backups",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No devices available"
+                }
+            }
+        },
+        {
+            "id": "local_backups",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are the local backup successful?",
             "watermarkText": "Choose an option",
@@ -39,7 +57,7 @@
         },
         {
             "id": "cloud_bandwidth",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Specify the cloud bandwidth available to StorSimple",
             "watermarkText": "Cloud bandwidth in Mbps",
@@ -47,7 +65,7 @@
         },
         {
             "id": "dedicated_or_shared",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is the cloud bandwidth dedicated or shared?",
             "watermarkText": "Choose an option",
@@ -65,14 +83,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

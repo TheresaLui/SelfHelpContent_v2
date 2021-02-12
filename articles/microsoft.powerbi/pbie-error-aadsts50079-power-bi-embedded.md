@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628094"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="227102ae-d6f2-40e8-301c-2bcb03f95bd1"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Troubleshoot your embedded application

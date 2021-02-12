@@ -12,7 +12,7 @@
     supportTopicIds="32636761,32636754,32636758,32636759,32636762"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -49,7 +49,7 @@ You can profile your top queries to obtain detailed metrics on query execution b
 
 `x-ms-documentdb-query-metrics: totalExecutionTimeInMs=33.67;queryCompileTimeInMs=0.06;queryLogicalPlanBuildTimeInMs=0.02;queryPhysicalPlanBuildTimeInMs=0.10;queryOptimizationTimeInMs=0.00;VMExecutionTimeInMs=32.56;indexLookupTimeInMs=0.36;documentLoadTimeInMs=9.58;systemFunctionExecuteTimeInMs=0.00;userFunctionExecuteTimeInMs=0.00;retrievedDocumentCount=2000;retrievedDocumentSize=1125600;outputDocumentCount=2000;writeOutputTimeInMs=18.10;indexUtilizationRatio=1.00`
 
-Please share the output along with the query to Microsoft Support, and they can help find optimizations to reduce RU consummption.
+Please share the output along with the query to Microsoft Support, and they can help find optimizations to reduce RU consumption.
 
 ## **Recommended Documents**
 

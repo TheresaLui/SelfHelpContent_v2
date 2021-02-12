@@ -11,7 +11,7 @@
 	supportTopicIds="32639210"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
     articleId="32639210"
 	ownershipId="StorageMediaEdge_DataBox"
 />
@@ -20,5 +20,5 @@
 
 ## **Recommended Steps**
 
-* Use the tracking ID provided to locate the package
-* If issue persists, reach out to DataBoxOps@microsoft.com
+* Use the tracking ID provided on the Overview page in the Azure portal, to locate the package
+* If you are unable to track the package or shipment details are missing, reach out to adbops@microsoft.com

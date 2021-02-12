@@ -10,12 +10,16 @@
     supportTopicIds="32663907,32663909"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6f641910-1002-4135-b8d1-85ab25fa1503"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Issues with attaching and detaching disks in Linux VM
+
+NOTE: When you detach a disk, remember to connect to the VM and unmount the disk first. 
+
+Most users can resolve issues by using the following steps.<br>
 
 ## **Recommended Steps**
 
@@ -25,13 +29,10 @@
 - Detach a data disk using the [Azure portal](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-the-portal) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-azure-cli) 
 - [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/linux/find-unattached-disks)
 - [Understanding the temporary disk on a VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)
-
-NOTE: When you detach a disk, remember to connect to the VM and unmount the disk first. 
+- [Convert unmanaged disk to managed disk](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)
+- If you can't attach your SSD disk to a VM, it is likely a VM that doesn't support a premium disk. For more information about tVM sizes that support premium storage, see [Sizes for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/sizes).
 
 ## **Recommended Documents**
 
-- [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)
 - [High-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage#features)
-- [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage#supported-vms)
-- [FAQ for Premium disks: Managed and unmanaged](https://docs.microsoft.com/azure/virtual-machines/linux/faq-for-disks#premium-disks-managed-and-unmanaged)
-- [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)
+- [Convert to managed disks](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)

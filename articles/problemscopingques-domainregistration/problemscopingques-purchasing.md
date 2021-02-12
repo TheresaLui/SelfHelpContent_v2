@@ -6,9 +6,9 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="16513"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-purchasing"
+	articleId="problemscopingques-purchasing-domain"
 	ownershipId="Compute_AppService"
 />
 # Purchasing

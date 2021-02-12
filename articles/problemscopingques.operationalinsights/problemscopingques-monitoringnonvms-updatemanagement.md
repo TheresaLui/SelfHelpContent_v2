@@ -6,9 +6,9 @@ articleId="problemscopingques-Update_Management"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612529"
+supportTopicIds="32745415"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Update Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -28,7 +29,7 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "single_multiple_machines",
+            "id": "linked_automation_account",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are you having a problem with the linked automation acccount?",

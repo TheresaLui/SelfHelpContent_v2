@@ -10,7 +10,7 @@
     supportTopicIds="32636451"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-slowerjobsorqueries"
 	ownershipId="AzureData_HDInsight"
 />

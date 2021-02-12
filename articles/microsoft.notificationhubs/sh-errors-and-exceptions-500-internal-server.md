@@ -9,9 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565579"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c2bffbfb-3ec9-4002-905c-c8782ab3eb65"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Errors and Exceptions/500 Internal Server

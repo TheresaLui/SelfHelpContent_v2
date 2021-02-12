@@ -10,7 +10,7 @@
     supportTopicIds="32640123"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="81e2e675-78c6-4d02-a363-a6c8f215c0c3"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -21,6 +21,7 @@ Firewall rules need to be configured to be able to access your Azure Database fo
 
 ## **Recommended Steps**
 
+* To set up firewall rules on your client for outbound connection to Azure Database for MariaDB, whitelist the gateway IP for your particular region. For information related to gateway IP addresses, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture#azure-database-for-mariadb-gateway-ip-addresses).
 * Make sure you have the right [firewall settings](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules) in place by to allow the desired access to your server. You can either specify a single IP addresses or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-portal), the [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-cli), and our [REST API](https://docs.microsoft.com/rest/api/mariadb/).
 * If you are using VNets ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-portal)
 * If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mariadb/howto-configure-privatelink-portal)

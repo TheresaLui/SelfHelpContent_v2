@@ -13,8 +13,8 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 
 # Routes missing on point-to-site client

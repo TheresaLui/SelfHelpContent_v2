@@ -5,13 +5,13 @@
     resource="Microsoft_AAD_IAM"
     authors="curtand"
     displayOrder="1770"
-    supportTopicIds="32615398"
+    supportTopicIds=""
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="0587579d-308f-47b9-9eda-69cfa6163044"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Managing Seamless SSO authentication (post-enablement)

@@ -10,12 +10,12 @@
 	articleId="partnercenter_customer_services_credit_requests"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635664"
+	supportTopicIds="32725886"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Customer services credit requests
 

@@ -7,44 +7,37 @@
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32593232"
+	supportTopicIds="32593232,32781861"
 	resourceTags=""
-	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	productPesIds="15660,15659"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="2ab6a0c4-21ea-49f0-a88c-60597e4e38a3"
 	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Reservation Owner or Tenant
+By default, the reservation purchaser and the account owner for the subscription that was used to purchase the reservation get owner access to both the reservation order and the reservations under the reservation order.
 
-### **If the user who purchased the reservation is in the organization, then you can do following:**
+* If the user who purchased the reservation is in the organization, do the following:**
 
-By default, the reservation purchaser and the account owner for the subscription used to purchase the reservation, get owner access to the reservation order and the reservations under the reservation order.
+   * These users can add a user to the reservation by using the **Access Control (IAM)** tab under **Reservation**. Select the reservation, select **Reservation order** and provide access.
+   * When adding users to reservations, its best to add them to the reservation order so that they can perform exchange and refunds in the future.
+   * You can also add people to the reservations or reservation orders using PowerShell/CLI. See [Manage access to Azure resource using RBAC and Azure PowerShell](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-powershell).
+   * To get the full list of reservations orders you have access to, see [Reservation Order -List](https://docs.microsoft.com/rest/api/reserved-vm-instances/reservationorder/list)
+   * For this list, run **New-AzureRmRoleAssignment** to provide users with access to individual reservation.
+   * You can also [change the reservation scope](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance#change-the-reservation-scope)<br>
 
-* These users can add\other user to the reservation using the Access Control (IAM) tab under reservation. Just click on the reservation, then click on reservation order and provide access.
-* When adding users to reservations, its better to add them to reservation order so that they can perform exchange and refunds in future.
-* You can add other people to the reservations or reservation orders using power shell / CLI. 
 
-You can get list of all reservations orders that you have access to: [Reservation Order -List](https://docs.microsoft.com/rest/api/reserved-vm-instances/reservationorder/list)
-
-For this list execute **New-AzureRmRoleAssignment** to provide users with access to individual reservation. 
-
-Read this document to learn more: [Manage access to Azure resource using RBAC and Azure PowerShell](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-powershell)
-
-_If the user who purchased the reservation is not in the organization or if you want to change the tenant under which the reservation resides then please proceed with the support ticket._<br>
-
-Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
-
-Learn more: [Change reservation scope](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance#change-the-reservation-scope)<br>
+* If the user who purchased the reservation is not in the organization, or if you want to change the tenant under which the reservation resides, proceed with the support ticket.<br>
 
 The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
-To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal. 
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal.
 
 ### Reserved Instance Exchange
 
-* It is possible to exchange multiple low cost reservations with one equal or greater costing reservation  if the price of new RI is equal or greater. It is only possible to Exchange multiple RIs for 1 new RI in one transaction
+* You can exchange multiple, low-cost reservations with an equal, or greater, costing reservation if the price of a new RI is equal or greater. However, you can only exchange multiple RIs for 1 new RI in a one transaction.
 * If a reservation is transferred from one subscription to another there will be no change in reservation expiry date
-* If the refund amount for the reservation is more than $50,000 USD then the  self-serve exchange option is unavailable. A support ticket needs to be created for this request and it will be reviewed by the support team and the possible options would be shared.
+* If the refund amount for the reservation is more than $50,000 USD, the self-serve exchange option is unavailable. You must create a support ticket for this request, which will be reviewed by the support team.
 
 Learn more:
 
@@ -52,7 +45,7 @@ Learn more:
 * [Self-service exchange and refund for Azure Reservations](https://azure.microsoft.com/blog/self-service-exchange-and-refund-for-azure-reservations/)
 
 ### Quota Increase Request
-For whitelisting request, please select the below to log a case:<br>
+For an assignment permissions request, provide the following when logging a case:<br>
 **Issue Type**: Service and subscription limits (quotas)<br>
 **Quota Type**: Compute-VM (cores-vCPUs) subscription limit increases
 

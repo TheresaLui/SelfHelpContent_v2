@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609686"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="b57b5e5d-94b5-498e-93e1-a5fa74e8cdee"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems with client access to Avere vFXT cluster.
 ---

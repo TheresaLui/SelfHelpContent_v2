@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_B2B"
 />
 
@@ -22,6 +22,8 @@
 <!--issueDescription-->
 
 As part of authentication request it has been detected that your phone number cannot be reached/subscriber is out of service area or cannot delivered SMS, which can prevent users from receiving authentication requests. Any authentication attempts for **Unreachable phone** or **MFA undelivered SMS** are automatically denied.
+
+Try switching to another MFA method, such as the Microsoft Authenticator mobile application. 
 
 <!--/issueDescription-->
 

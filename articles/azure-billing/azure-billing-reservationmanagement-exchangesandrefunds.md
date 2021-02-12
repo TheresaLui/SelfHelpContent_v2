@@ -10,25 +10,23 @@
 	supportTopicIds="32593227"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
 	ownershipId="ASMS_Billing"
 />
 
 # Cancel or change an existing reservation
 
-You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Please note following:
-
-* You must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order
-* You can exchange a reservation for another reservation of the same type – there are no penalties on reservation exchange
-* You can also refund reservations, up to a total of $50,000 USD in a 12-month rolling window
+* **Self-service:** You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Note that you must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order<br>
+* **Exchange policy:** You can exchange a reservation for another reservation of the same type – there are **no penalties** on reservation exchange. The total commitment with new reservation should be greater than the sum of exchanged reservation’s refund amount and the future monthly payments (if applicable)<br>
+* **Refund policy:** Sum of refund and the cancelled future payments cannot exceed $50,000 USD in a 12-month rolling window. We are **currently not charging any penalty** on refunds but could charge it on future refunds<br>
+** **Exceptions:** Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers<br>
+* **API / PS / CLI** support is not available for cancellation and refunds [Self-service exchanges and refunds for Azure Reservations](https://docs.microsoft.com/azure/cost-management-billing/reservations/exchange-and-refund-azure-reservations)<br>
 * Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported
 
- Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br>
- 
- Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)
-
-Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
+ Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br> 
+ Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)<br>
 
 ### **Exchange an existing reserved instance (Self-service)**
 
@@ -46,16 +44,22 @@ To refund a reservation, go to **Reservation Details** and click **Refund**
 
 ### **Pro-rated refund:**
 
-When you cancel an RI, the prorated amount is calculated based on the lower of the current price of the RI or the purchase price of the RI and by the months remaining. The months remaining will be rounded up to the next month. The termination fee will be applied on the amount to be returned to the customer.
-Here’s an example:
+**Pro-ration and minimum requirement examples for refund and exchange**<br>
+Upfront reservation example:
+* You purchase a one-year term RI for $120 on January 1
+* On April 7th you want to refund or exchange this reservation
+* Since the reservation has been live for 97 days, you will get (1-97/365) * $120 back. (i.e. $88.1). There is currently no penalty on refunds
+* If exchanging, your new purchase should be greater than $88.1
+* There is no penalty on refunds currently
 
-* The customer purchases a one-year term RI for $120 in January 1, 2018
-* The customer cancels their RI on April 7, 2018, during the fourth month of their one-year term
-* The prorated amount returned to the customer will be calculated this way:
+**Billing plan reservation example:**
 
-    $120 (the price of the term OR the current market price of that RI, whichever is lower) * (12 – 4)/12 = $80<br>
-    12% (termination fee) * $80 (prorated amount) = $9.60<br>
-    $80 (prorated amount) - $9.60 (fee) = $70.40 (returned to the customer)<br>
+* You purchase a one-year term RI for $10 per month
+* On April 7th you want to refund or exchange this reservation
+* Since the last payment happened 7 days, you will get (1-7/31) * $10 back. (i.e. $7.74)
+* The future payments cancelled are $ 80. There is currently no penalty on refunds
+* This cancellation will deduct $87.74 from you’re the $50,000 refund limit
+* If exchanging, the total value of new purchase should be greater than $87.74 
 
 ## **Recommended Documents**
 

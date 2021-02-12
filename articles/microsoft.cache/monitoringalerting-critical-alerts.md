@@ -1,23 +1,19 @@
 <properties
-	pageTitle="Critical alerts with Azure Cache for Redis"
-	description="Critical alerts with Azure Cache for Redis"
-	service="microsoft.cache"
-	resource="redis"
-	authors="asasine"
-	ms.author="adsasine"
-	displayOrder="41"
-	selfHelpType="resource"
-	supportTopicIds="32690907"
-	resourceTags=""
-	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	articleId="aa50e14e-2b03-47bc-8a31-8d578829b030"
-	ownershipId="RedisCache_RedisCache"
-/>
-
+  pagetitle="Critical alerts with Azure Cache for Redis&#xD;"
+  description="Critical alerts with Azure Cache for Redis"
+  service="microsoft.cache"
+  resource="redis"
+  ms.author="adsasine,alfantp"
+  selfhelptype="Generic"
+  supporttopicids="32690907"
+  resourcetags=""
+  productpesids="14783"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="aa50e14e-2b03-47bc-8a31-8d578829b030"
+  ownershipid="RedisCache_RedisCache" />
 # Critical alerts with Azure Cache for Redis
 
-4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
+Most users can resolve issues with Azure Cache for Redis by using the following information.<br>
 
 ## **Recommended Documents**
 

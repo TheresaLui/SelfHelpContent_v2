@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="97d99760-718f-47b3-92d5-4f07098fdf85"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I want to use my own SQL Server license in Azure VM

@@ -4,12 +4,12 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32641071"
+                supportTopicIds="32641071,32641094,32641099,32641101,32641118,32641123,32641135,32641149,32641150"
                 productPesIds="16080"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0132"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 # Connect to my instance
 ---
@@ -18,10 +18,39 @@
     "resourceRequired": true,
     "title": "Cannot connect to my instance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine scale set diagnostics",
+            "description": "These diagnostics will check for details about your selected VM instance within your VMSS.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "connect_error",
+            "id": "vmss_instance",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "If your issue is related to a specific instance, select the instance name",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/virtualMachines?api-version=2019-03-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of instances.",
+                    "text": "Unable to retrieve list of instances."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },{
+            "id": "connect_error",
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
@@ -29,7 +58,7 @@
         },
         {
             "id": "connect_config",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please specify your configuration change prior to the issue starting",
             "watermarkText": "Choose an option",
@@ -63,7 +92,7 @@
         },
         {
             "id": "connect_config_firewall",
-            "order": 3,
+            "order": 4,
             "visibility": "connect_config == I've changed my firewall configuration",
             "controlType": "dropdown",
             "displayLabel": "What type of changes were done?",
@@ -82,7 +111,7 @@
         },
         {
             "id": "connect_config_other",
-            "order": 4,
+            "order": 5,
             "visibility": "connect_config == Other",
             "controlType": "multilinetextbox",
             "displayLabel": "Please specify your configuration change prior to the issue starting.",
@@ -91,7 +120,7 @@
         },
         {
             "id": "ippublicprivate",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Do you have issues connecting via Public or Private IP?",
             "watermarkText": "Choose an option",
@@ -113,7 +142,7 @@
         },
         {
             "id": "ippublic",
-            "order": 6,
+            "order": 7,
             "visibility": "ippublicprivate == Public IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Private IP?",
@@ -132,7 +161,7 @@
         },
         {
             "id": "ipprivate",
-            "order": 7,
+            "order": 8,
             "visibility": "ippublicprivate == Private IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Public IP?",
@@ -155,7 +184,7 @@
         },
         {
             "id": "connect_subnet",
-            "order": 8,
+            "order": 9,
             "visibility": "ippublic == No || ipprivate == No || ipprivate == I don't have a Public IP",
             "controlType": "dropdown",
             "displayLabel": "Is the problem isolated when you are connecting from a specific subnet?",
@@ -174,7 +203,7 @@
         },
         {
             "id": "bastionresource",
-            "order": 9,
+            "order": 10,
             "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "dropdown",
             "displayLabel": "Please select your Azure Bastion resource",
@@ -194,7 +223,7 @@
         },
         {
             "id": "bastionbrowser",
-            "order": 10,
+            "order": 11,
             "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What browser are you using?",
@@ -203,7 +232,7 @@
         },
         {
             "id": "bastionbrowserversion",
-            "order": 11,
+            "order": 12,
             "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What version is your browser?",
@@ -212,7 +241,7 @@
         },
         {
             "id": "bastionbrowseros",
-            "order": 12,
+            "order": 13,
             "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What OS is your browser running in?",
@@ -221,7 +250,7 @@
         },
         {
             "id": "isadmin",
-            "order": 13,
+            "order": 14,
             "controlType": "dropdown",
             "displayLabel": "Is this the built-in administrator account?",
             "watermarkText": "Choose an option",
@@ -243,7 +272,7 @@
         },
         {
             "id": "name_useraccount",
-            "order": 14,
+            "order": 15,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
@@ -251,7 +280,7 @@
         },
         {
             "id": "connect_ifnew",
-            "order": 15,
+            "order": 16,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -273,7 +302,7 @@
         },
         {
             "id": "connect_from",
-            "order": 16,
+            "order": 17,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -300,7 +329,7 @@
         },
         {
             "id": "connect_howmigrated",
-            "order": 17,
+            "order": 18,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -327,7 +356,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 18,
+            "order": 19,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -346,7 +375,7 @@
         },
         {
             "id": "connect_ifbackup",
-            "order": 19,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Was this VM recovered from backup?",
             "watermarkText": "Choose an option",
@@ -368,7 +397,7 @@
         },
         {
             "id": "connect_ifinternet",
-            "order": 20,
+            "order": 21,
             "controlType": "dropdown",
             "displayLabel": "Do you have connectivity issues from/to this VM?",
             "watermarkText": "Choose an option",
@@ -386,7 +415,7 @@
         },
         {
             "id": "connect_internetissue",
-            "order": 21,
+            "order": 22,
             "visibility": "connect_ifinternet == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the problem you are having?",
@@ -417,7 +446,7 @@
         },
         {
             "id": "problem_description",
-            "order": 22,
+            "order": 23,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -425,7 +454,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 23,
+            "order": 24,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

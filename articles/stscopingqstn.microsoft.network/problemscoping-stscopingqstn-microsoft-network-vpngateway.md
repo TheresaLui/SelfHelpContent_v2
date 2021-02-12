@@ -6,7 +6,7 @@
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32591150,32591151,32591159,32591155,32591154,32591157,32591153"
    productPesIds="16094"
-   cloudEnvironments="public,fairfax,blackforest,moonCake"
+   cloudEnvironments="public,fairfax,blackforest,moonCake, usnat, ussec"
    schemaVersion="1"
    articleId="e7d714bd-eb61-42d8-8270-df52d8514149"
 	ownershipId="CloudNet_AzureVPNGateway"

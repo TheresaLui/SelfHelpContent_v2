@@ -10,9 +10,9 @@
 	supportTopicIds="32628279"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2b6deeb3-490a-4d18-8a36-83ed65de8451"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I received a provisioning or deployment timeout error
@@ -31,7 +31,7 @@ For other VM deployment issues and questions, see [Troubleshoot deploying Linux 
 ## **Recommended Documents**
 
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-image)<br>
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)<br>
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-windows)<br>
 * [Verify that your VM was properly deprovisioned and generalized](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 * [Troubleshoot allocation failures when you create, restart, or resize VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
 * [Troubleshoot issues when creating virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-windows)

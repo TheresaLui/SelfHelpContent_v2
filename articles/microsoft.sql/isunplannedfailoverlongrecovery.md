@@ -8,12 +8,12 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="UnplannedFailoverLR_D2666F7E-2985-49D9-BCB8-35C787AFC125"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 

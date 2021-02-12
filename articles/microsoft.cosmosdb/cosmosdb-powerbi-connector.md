@@ -9,7 +9,7 @@
 	supportTopicIds="32636820"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-powerbi-connector"
 	displayOrder="125"
 	category="Tools and Connectors"

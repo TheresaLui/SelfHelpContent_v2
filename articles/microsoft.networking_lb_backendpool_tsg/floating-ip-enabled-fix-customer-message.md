@@ -13,15 +13,15 @@ selfHelpType="Diagnostics"
 supportTopicIds="32588977"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" 	ownershipId="CloudNet_LoadBalancer"
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Disable or correct the Floating IP configuration 
 
 <!--issueDescription-->
-Dear customer,
+Dear Customer,
 
-Thank you for contacting us about your load balancer backend pool connectivity issue. We’ve reviewed the logs and diagnostics available to us and we believe the connectivity issue you’re experiencing may be the result of using clustering technology that assigns the frontend IP address to a loopback or virtual adapter (also known as a floating IP address). This is not a supported scenario on Azure. To correct your connectivity issue, we must assign the IP address to a physical network interface instead of a virtual adapter. Please take steps to correct this issue and let us know if you have any further questions.
+Thank you for contacting us about your load balancer backend pool connectivity issue. We’ve reviewed the logs and diagnostics available to us and we believe the connectivity issue you’re experiencing may be the result of specifying floating IP on your load balancing rule. Backend connectivity may not work if your VM is not configured to accept connections for the frontend IP address of your load balancing rule. Typically, this is done in conjunction with a clustering technology such as Windows Clustering. You can also do this by configuring a loopback adapter in your OS. For more information, see [this documentation](https://docs.microsoft.com/azure/load-balancer/load-balancer-floating-ip).
 
 Best regards,
 <!--/issueDescription-->

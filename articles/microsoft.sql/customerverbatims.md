@@ -8,12 +8,12 @@
 	ms.author="vimahadi"
 	displayOrder=""
 	articleId="CustomerVerbatimSolutions_5E819070-FDBA-4C49-A041-24CF7BD81770"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue

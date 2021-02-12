@@ -7,17 +7,23 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32641082"
+	supportTopicIds="32641082,32641116,32641131,32641132,32641133,32641142"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="83305c9c-1097-4a09-88a6-f6bd85717bf5"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Scaling issue with my scale set
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+## **Recommended Steps**
+
+For general troubleshooting, follow these guides:<br>
+
+1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
+2. Deploy to another region <br>
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
 
 ## Autoscale Best Practices
 
@@ -33,7 +39,7 @@
 
 ## **Recommended Documents**
 
-* [Frequently Asked Questions (FAQ) for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
+* [FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
 * [Best practices for Azure AutoScale](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-best-practices)<br>
 * [Learn how to scale up and scale down - vertical scaling](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision)<br>
 * [Learn how to scale out and scale in - horizontal scaling](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision)<br>

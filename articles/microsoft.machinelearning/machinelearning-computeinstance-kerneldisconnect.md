@@ -1,27 +1,22 @@
-<properties 
-    pageTitle="Kernel Disconnect Error in Integrated Notebooks"
-    description="Kernel Disconnect Error in Integrated Notebooks"
-    service="microsoft.machinelearning"
-    resource="computeinstance"
-    authors="hustcrystal"
-    ms.author="chrjia, femi.olukoya"
-    displayOrder="1"
-    selfHelpType="resource"
-    supportTopicIds="32690895"
-    resourceTags="notebook,computeinstance"
-    productPesIds="16644"
-    cloudEnvironments="public"
-    articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
-	ownershipId="AzureML_AzureMachineLearningServices"
-/>
+<properties
+  pagetitle="Problem Connecting to Jupyter, JupyterLab or RStudio"
+  service="microsoft.machinelearningservices"
+  resource="workspaces"
+  ms.author="smishah"
+  selfhelptype="Generic"
+  supporttopicids="32745197"
+  resourcetags="notebook,computeinstance"
+  productpesids="16644"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="microsoft.machinelearning.computeinstance.kerneldisconnect"
+  ownershipid="AzureML_AzureMachineLearningServices" />
+# Problem Connecting to Jupyter, JupyterLab or RStudio
 
-# Kernel Disconnect Error in Integrated Notebooks
-
-- Integrated notebooks aren't working in workspace 2.0 (but they work from the vm/ci itself in Jupyter)
-- This affects primarily the UI and Notebooks
-- How to mitigate this problem and the eventual resolution
+This section helps with issues connecting to compute instance through Jupyter, JupyterLab, and RStudio, and running your notebooks.
 
 ## **Recommended Steps**
 
-- Workaround 1: Use Jupyter from the Compute Instance/Notebook VM instead
-- Workaround 2: Try restarting the Compute Instance/Notebook VM and then rerunning the notebook
+- If the compute instance is created behind a VNET, make sure you have an NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning. 
+- If you are behind a proxy, ensure that web socket communication is not disabled for azureml.net and azureml.ms domains. 
+- Try restarting the compute instance and then rerunning the notebook. 
+- For details, see [documentation for virtual network setup](https://docs.microsoft.com/azure/machine-learning/how-to-secure-training-vnet#compute-instance).
