@@ -19,6 +19,8 @@
 
 Most customers can diagnose and resolve security issues using the following steps.
 
+* By default, all users can create and modify workspace objects—including folders, notebooks, experiments, and models—unless an administrator enables workspace access control. With workspace object access control, individual permissions determine a user’s abilities. **[This article describes the individual permissions and how to configure workspace object access control](https://docs.microsoft.com/azure/databricks/security/access-control/workspace-acl)**
+
 * Enable **[Secure Cluster Connectivity](https://docs.microsoft.com/azure/databricks/security/secure-cluster-connectivity)**, so that customer virtual networks have no open ports and Databricks Runtime cluster nodes have no public IP addresses.
 
 * Sometimes accessing data requires that you authenticate to external data sources through JDBC. Instead of directly entering your credentials into a notebook, use **[Azure Databricks secrets](https://docs.microsoft.com/azure/databricks/security/secrets/)** to store your credentials and reference them in notebooks and jobs. To manage secrets, you can use the Databricks CLI to access the Secrets API. To set up secrets you:
