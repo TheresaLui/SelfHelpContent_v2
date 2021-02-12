@@ -21,22 +21,21 @@
 
 Metrics are published in 60-second intervals and are, by default, enabled for your Application Gateway. You can view the metrics directly from the [Azure portal](https://portal.azure.com), or you can stream the values as logs to your storage account, log analytics, or event hub.
 
-> [!NOTE]
-> If you're not able to see the logs or metrics of your Application Gateway when they are enabled, check whether you have any network security groups (NSGs) or user-defined routes (UDR) on the Application Gateway subnet. NSGs and UDRs can block internet access. You can learn more about NSG and UDR requirements for Application Gateway at [Application Gateway infrastructure configuration](https://docs.microsoft.com/azure/application-gateway/configuration-infrastructure).
+**Note:** If you're not able to see the logs or metrics of your Application Gateway when they are enabled, check whether you have any network security groups (NSGs) or user-defined routes (UDRs) on the Application Gateway subnet. NSGs and UDRs can block internet access. You can learn more about NSG and UDR requirements for Application Gateway at [Application Gateway infrastructure configuration](https://docs.microsoft.com/azure/application-gateway/configuration-infrastructure).
 
 ## **Recommended Steps**
 
-To analyze metrics, please follow these recommended steps:
+To analyze metrics, use the following steps:
 
 1. Navigate to the metrics blade of your Application Gateway.
 
 2. You can limit the scope to a single Application Gateway, or you can extend it to multiple gateways to analyze them at the same time.
 
-3. Select the metric that you want to view, the type of chart and you can choose the time range and the granularity as well.
+3. Select the metric that you want to view, as well as the type of chart. You can choose the time range and the granularity, as well.
 
-4. You can apply splitting to metric based on the supported dimensions to get a more filtered view of the data.
+4. You can apply splitting to metrics, based on the supported dimensions, to get a more filtered view of the data.
 
 ## **Recommended Documents**
 
-- [Learn how to enable diagnostic logs for metrics on Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics)
-- [Learn more on the metrics offered by Application Gateway v1 and v2 SKUs](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics)
+- [How to enable diagnostic logs for metrics on Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics)
+- [Metrics offered by Application Gateway v1 and v2 SKUs](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics)
