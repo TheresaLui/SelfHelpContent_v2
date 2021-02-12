@@ -33,7 +33,7 @@
 						"order": 1000,
 						"controlType": "multilinetextbox",
 						"displayLabel": "Description",
-						"watermarkText": "Provide your target (Azure Global) Subscription ID(s) for listing to allow Geo-Replication method of database migration.",
+						"watermarkText": "Provide your target (Azure Global) Subscription IDs for listing to allow Geo-Replication method of database migration.",
 						"required": true,
 						"useAsAdditionalDetails": true
 				}
