@@ -32,7 +32,7 @@ For more information, see [View your billing accounts in Azure portal](https://d
 
 ## **Recommended steps**
 
-Once you have verified your account type, follow the steps below to make an immediate payment.
+After you verify your account type, follow the steps below to make an immediate payment.
 
 ### **How to pay if you have Microsoft Online Service Program**
 
@@ -57,7 +57,7 @@ To pay invoices in the Azure portal, you must have the correct [MCA permissions]
 4. In the **Pay now** window, select **Select a payment method** to choose an existing credit card or add a new one.
 5. After you select a payment method, select **Pay now**.
 
-The invoice status should show *paid* within 24 hours.
+The invoice status should show as **paid** within 24 hours.
 
 For more information, see [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill) for Microsoft Customer Agreement (MCA) accounts.
 
