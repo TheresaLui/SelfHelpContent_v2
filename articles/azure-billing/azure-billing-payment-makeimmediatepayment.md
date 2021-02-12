@@ -41,11 +41,13 @@ After you verify your account type, follow the steps below to make an immediate 
 1. In the **Subscription overview** page, select the red past due banner to settle the balance.
     If you are not the Account Administrator, you will not be able to settle the balance.
 1. In the new **Settle balance** page, select **Select payment method**.
-1. In the new blade on the right, select a credit card from the drop-down or add a new one by selecting the blue **Add new payment method** link. This credit card will become the active payment method for all subscriptions currently using the failed payment method.
+1. In the new blade on the right, select a credit card from the drop-down or add a new one by selecting the blue **Add new payment method** link.
+
+    This credit card will become the active payment method for all subscriptions currently using the failed payment method.
     The total outstanding balance reflects outstanding charges across all Microsoft services using the failed payment method. If the selected payment method also has outstanding charges for Microsoft services, this will be reflected in the total outstanding balance. You must pay those outstanding charges, too.
 1. Select  **Pay**.
 
-For more information, see [Resolve past due balance in the Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/resolve-past-due-balance#resolve-past-due-balance-in-the-azure-portal).
+   For more information, see [Resolve past due balance in the Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/resolve-past-due-balance#resolve-past-due-balance-in-the-azure-portal).
 
 ### **How to pay if you have Microsoft Customer Agreement**
 
@@ -57,9 +59,9 @@ To pay invoices in the Azure portal, you must have the correct [MCA permissions]
 4. In the **Pay now** window, select **Select a payment method** to choose an existing credit card or add a new one.
 5. After you select a payment method, select **Pay now**.
 
-The invoice status should show as **paid** within 24 hours.
+   The invoice status should show as **paid** within 24 hours.
 
-For more information, see [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill) for Microsoft Customer Agreement (MCA) accounts.
+   For more information, see [How to pay your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/pay-bill) for Microsoft Customer Agreement (MCA) accounts.
 
 ### **How to pay your invoice by credit or debit card**
 
@@ -88,7 +90,7 @@ For more information, see [Pay by default payment method](https://docs.microsoft
     - Hit your credit card limit
     - The subscription was canceled by the Account Administrator or someone with the correct [MCA permissions](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles).
 
-Follow the steps in the article below to get your subscription reactivated: [Reactivate my subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable?WT.mc_id=Portal-Microsoft_Azure_Support).
+    Follow the steps in the article below to get your subscription reactivated: [Reactivate my subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 - If there's a pending payment on the card since the card was denied by your financial institution, contact your **financial institution** to resolve the issue and keep in mind:
   - You might have to check with the bank to see if the international transaction is enabled on the card.
