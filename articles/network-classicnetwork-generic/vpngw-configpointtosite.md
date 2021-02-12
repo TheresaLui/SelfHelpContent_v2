@@ -31,5 +31,5 @@ If you are having problems connecting to your VPN from Windows 7 and Windows 8.1
 * Create an Azure Active Directory tenant for [Point-to-Site OpenVPN protocol connections](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)<br>
 * Generate self-signed certificates for Point-to-Site using [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site), [Makecert](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert), or [Linux](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-linux)<br>
 * [Create an Azure Active Directory tenant](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant) for Point-to-Site OpenVPN protocol connections<br>
-* [Create custom IPsec policies for Point-to-Site](https://docs.microsoft.com/azure/vpn-gateway/create-custom-policies-p2s-ps)<br>
+* [Create custom IPsec policies] (https://docs.microsoft.com/azure/vpn-gateway/create-custom-policies-p2s-ps) on Point-to-Site gateway<br>
 * See [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional information
