@@ -22,9 +22,26 @@
    "title": "Microsoft 365 App Compliance program",
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
+   	{
+	   "id": "pc_publisher_id",
+	   "order": 1,
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher ID",
+	   "watermarkText": "Please provide the Publisher ID",
+	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
+	   "required": true
+	},
+	{
+	   "id": "pc_publisher_name",
+	   "order": 2,
+	   "controlType": "textbox",
+	   "displayLabel": "Publisher name",
+	   "watermarkText": "Please provide the Publisher name",
+	   "required": false
+       },
        {
 	   "id": "pc_offer_name",
-	   "order": 1,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer name",
 	   "watermarkText": "Please provide the Offer name",
@@ -32,7 +49,7 @@
        },
        {
 	   "id": "pc_offer_type",
-       "order": 2,
+       "order": 4,
 	   "controlType": "dropdown",
 	   "displayLabel": "Office Store Offer Type:",
        "watermarkText":"Please select the Office Store Offer Type from the below list",
@@ -58,7 +75,7 @@
        },
        {
 	   "id": "pc_application_type",
-       "order": 3,
+       "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Application",
        "watermarkText":"Please select the Application from the below list",
@@ -67,6 +84,10 @@
 		   "value": "excel_app",
 		   "text": "Excel"
 	       },
+	       {
+	       	   "value": "onenote_app",
+		   "text": "OneNote"
+		},
 	       {
 		   "value": "outlook_app",
 		   "text": "Outlook"
@@ -90,21 +111,17 @@
 	       {
 		   "value": "word_app",
 		   "text": "Word"
+	       },
+	       {
+		   "value": "others_value",
+		   "text": "Others"
 	       }
 	       ],
 	   "required": false
        },
        {
-	   "id": "additional_email(s)_for_notification",
-	   "order": 4,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional emails for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
-       },
-       {
 	   "id": "problem_start_time",
-	   "order": 6,
+	   "order": 7,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Submission Date",
 	   "watermarkText": "When did your issue begin?",
@@ -112,7 +129,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 5,
+	   "order": 8,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",

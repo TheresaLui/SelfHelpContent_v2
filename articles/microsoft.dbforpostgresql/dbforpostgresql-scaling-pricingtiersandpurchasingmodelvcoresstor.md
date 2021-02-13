@@ -23,11 +23,12 @@ Azure Database for PostgreSQL offers Basic, General Purpose, and Memory Optimize
 * **General Purpose** tier is for most business workloads requiring balanced compute and memory with scalable I/O throughput
 * **Memory Optimized** tier is for high performance database workloads requiring in-memory performance for faster transaction processing and higher concurrency
 
-Please note that changing to and from the Basic pricing tier after server creation is not supported.
+Please note that changing to and from the Basic pricing tier after server creation is not supported. You can optionally choose to save money by prepaying for compute resources compared to pay-as-you-go prices. With Azure Database for PostgreSQL reserved capacity, you make an upfront commitment on PostgreSQL server for a one-year or three-year period in order to receive a significant discount on the compute costs.
 
 ## **Recommended Documents**
 
 * Learn more about [the pricing tiers](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers)
 * [Azure Database for PostgreSQL Pricing Page](https://azure.microsoft.com/pricing/details/postgresql/)<br>
 * [Pricing calculator](https://azure.microsoft.com/pricing/calculator/?service=postgresql/)<br>
+* [Reserved Capacity Pricing](https://docs.microsoft.com/azure/postgresql/concept-reserved-pricing)
 

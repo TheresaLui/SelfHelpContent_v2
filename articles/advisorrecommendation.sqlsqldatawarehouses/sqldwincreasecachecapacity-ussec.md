@@ -6,13 +6,13 @@
     articleId="14b28bdb-b83d-4f55-a516-44d4152f1f2b_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USSec"
-	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+	ownershipId="AzureData_SynapseAnalytics"
 />
 # Scale up to optimize cache utilization with SQL Data Warehouse
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "14b28bdb-b83d-4f55-a516-44d4152f1f2b",
   "dataSourceMetadata": {

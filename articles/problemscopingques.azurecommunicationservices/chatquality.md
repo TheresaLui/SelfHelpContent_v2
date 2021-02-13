@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32756383, 32756380, 32756372"
 	productPesIds="17327"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleID="acs-chatqualityissues"
 	ownershipId="AzureCommunicationServices"
 	schemaVersion="1"
@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Chat message quality, users and threads, and features",
   "fileAttachmentHint": "",
   "formElements": [

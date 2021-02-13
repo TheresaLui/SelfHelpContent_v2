@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Software NodeCrash - Guest OS - UBUNTU"
+	description="Root Cause Analysis (RCA) - Software - Guest OS - UBUNTU"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 
@@ -25,8 +25,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> This unexpected occurrence was caused by a crash in the VM’s operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
+### **Root Cause**
+> This unexpected occurrence was caused by a crash in the VMs operating system due to internal checks in the virtual machine that caused the deployment to be terminated.
 > 
 > To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
 > 
@@ -36,12 +36,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->
 
+<!--recommendedActions-->
 ## **Recommended Steps**
 
 > Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:
@@ -50,7 +51,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Ubuntu Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
 > * [Ubuntu wiki - Crash Dump Recipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
 
-<!--recommendedActions-->
+
 ## **Recommended Documents**
 
 > *Learn more about:*

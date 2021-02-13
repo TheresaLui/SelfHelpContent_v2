@@ -3,15 +3,15 @@
 	description="How to check the creation time of storage account"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="20f9696b-bbc7-401a-82d4-27e71e768821"
 />
 
@@ -22,7 +22,7 @@
 
 Successful completion will look like the following example SA output:
 
-~~~
+```
 {
     "DeletedAccount": {
         "value": [
@@ -41,7 +41,7 @@ Successful completion will look like the following example SA output:
         ]
     }
 }
-~~~
+```
 
 **Note:** If you receive the error message "Account not found," this may be because of the following reasons:
 

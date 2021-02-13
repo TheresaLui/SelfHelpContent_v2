@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Hardware NodeReboot - Memory Failure"
+	description="Root Cause Analysis (RCA) - Hardware - Memory Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -20,22 +20,22 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to a **failed memory module** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+### **Root Cause**
+> The physical host node where the VM was running encountered a **hardware memory error**.  This may have impacted the VMs running on the node.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> Azure automatically attempts to correct minor errors and restore services on the node. In the event that the node’s health degrades further, the VM will be service healed to healthy nodes.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > - Azure is continually working to make improvements to pre-production hardware screening.
 > - Improvements to failure prediction telemetry and models.
