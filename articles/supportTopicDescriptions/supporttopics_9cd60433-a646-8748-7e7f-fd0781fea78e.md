@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1f32b433-ee72-e16b-b745-31ca5928ce3e",
+      "longDescription": "",
+      "shortDescription": "Issues with adding, deleting, editing, and using bookmarks",
+      "searchTags": "bookmark",
+      "category": "bookmarks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
       "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
@@ -111,11 +119,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2faba466-e937-63b9-a5d0-d58b305670b1",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, saving or running a hunting or livestream query",
+      "searchTags": "Hunting;livestream ;query",
+      "category": "Hunting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
       "searchTags": "Log Analytics;Workspace ;Workbook",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39d10508-b5a4-8952-1209-674194233dbe",
+      "longDescription": "",
+      "shortDescription": "How to enable the Entity Behavior Analytics",
+      "searchTags": "UEBA;Entity ;Behavior ;Analytics",
+      "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
     },
     {
