@@ -119,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39d10508-b5a4-8952-1209-674194233dbe",
+      "longDescription": "",
+      "shortDescription": "How to enable the Entity Behavior Analytics",
+      "searchTags": "UEBA;Entity ;Behavior ;Analytics",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d439052-5353-271e-fefa-6d084f0628c8",
       "longDescription": "",
       "shortDescription": "Topics related to cost and billing",
