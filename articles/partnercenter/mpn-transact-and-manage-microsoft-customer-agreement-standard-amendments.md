@@ -39,4 +39,7 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 * [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
 * [Professional Secrecy Amendment for Switzerland - multiple languages](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Iwvg)
 * [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
+* [Applicable DPA Amendment for Worldwide - German](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-ger-jan2021-cr.pdf)
+* [Applicable DPA Amendment for Worldwide - English](https://assetsprod.microsoft.com/mpn/microsoft-customer-agreement-applicabledpa-ww-eng-jan2021-cr.pdf)
+
 

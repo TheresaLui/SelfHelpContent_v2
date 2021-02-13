@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": null
     },
     {
+      "id": "0d2bf32e-bd4e-f868-58b6-fd7eaeada40b",
+      "longDescription": "",
+      "shortDescription": "Using the Azure spending feature in Partner center to assist in managing customer spending",
+      "searchTags": "email;preferences;notification;consumption;spend",
+      "category": null,
+      "useInDiagnoseAndSolve": null
+    },
+    {
       "id": "47fceff1-f2f2-b690-c59d-dce2c7c816af",
       "longDescription": "",
       "shortDescription": "Reconciliation file for CSP billing questions or issues.",
@@ -49,8 +57,8 @@
     {
       "id": "4bab69e8-f22b-7934-f630-579d2abfa78d",
       "longDescription": "",
-      "shortDescription": "Issues or questions about CSP invoice payments - for CSP Billing only",
-      "searchTags": "bill;CSP;pay",
+      "shortDescription": "Applicable to payment queries for CSP invoices only. For queries related to Incentive payments, please choose the most appropriate option under Incentives - Payments and Adjustments.",
+      "searchTags": "CSP;payment;invoice;overdue",
       "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
@@ -81,8 +89,8 @@
     {
       "id": "89465c12-ccb6-4d8f-57a4-ffe9f85f64a4",
       "longDescription": "",
-      "shortDescription": "Issues or questions about CSP invoice payments - for CSP Billing only",
-      "searchTags": "Billing;Invoicing;CSP;Payments",
+      "shortDescription": "Applicable to payment queries for CSP invoices only. For queries related to Incentive payments, please choose the most appropriate option under Incentives - Payments and Adjustments.",
+      "searchTags": "CSP;Payments;Billing;Invoicing",
       "category": null,
       "useInDiagnoseAndSolve": null
     },
