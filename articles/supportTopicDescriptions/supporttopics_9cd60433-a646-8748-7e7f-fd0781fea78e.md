@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2faba466-e937-63b9-a5d0-d58b305670b1",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, saving or running a hunting or livestream query",
+      "searchTags": "Hunting;livestream ;query",
+      "category": "Hunting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
