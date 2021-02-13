@@ -22,7 +22,7 @@
 
 Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v3.6. Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 
-The upgrade process will not result in any service interruptions nor require any downtime. The existing data and indexes do not need to be migrated. Click [here](data-blade:Microsoft_Azure_DocumentDB.FeaturesBlade.id.$resourceId;data-blade-uri:{$domain}/#blade/Microsoft_Azure_DocumentDB/FeaturesBlade/id/{$resourceId}) to start the upgrade. You'll see the option, "Upgrade to Mongo server version 3.6". To start the migration, click the **Enable** button. You will see **Pending** status until your account has finished upgrading, which may take upto a day. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+The upgrade process will not result in any service interruptions nor require any downtime. The existing data and indexes do not need to be migrated. [Select this blade](data-blade:Microsoft_Azure_DocumentDB.FeaturesBlade.id.$resourceId;data-blade-uri:{$domain}/#blade/Microsoft_Azure_DocumentDB/FeaturesBlade/id/{$resourceId}) to start the upgrade. You'll see the option, "Upgrade to Mongo server version 3.6". To start the migration, click the **Enable** button. You will see **Pending** status until your account has finished upgrading, which may take upto a day. When the migration has completed, the account will show new connection strings in Azure Portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 ### Benefits of upgrading to version 3.6
 
@@ -43,7 +43,7 @@ The upgrade process will not result in any service interruptions nor require any
 
 ### Action required
 
-The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint follows this format: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure portal. The updated endpoint follows this format: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 **Note:** The DNS suffix might differ if your account is in a Sovereign, Government, or Restricted Azure cloud. Please check the overview blade for your account on the Azure Portal.
 
