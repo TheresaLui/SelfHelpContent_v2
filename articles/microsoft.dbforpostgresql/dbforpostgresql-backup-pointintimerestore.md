@@ -17,9 +17,27 @@
 
 # Point-in-time restore
 
-Azure Database for PostgreSQL supports point-in-time restore to any point within the configured backup retention period for a server. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported. Only the backups performed by Azure Database for PostgreSQL can be restored.  
+Please find answers for most frequently asked questions below.
 
-The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically. Because transaction log backups are taken every 5 minutes, you may need to wait 5 minutes before you're able to restore to a specific point-in-time within a 5 minute interval.
+## Frequently asked questions
+
+* **What is point-in-time recovery?** <br>
+ Azure Database for PostgreSQL supports restoring to any point within the configured backup retention period for a server. 
+
+* **Will the restore overwrite my server?** <br>
+ No. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported. Also, only the backups performed by Azure Database for PostgreSQL can be restored.  
+
+* **How far I can go back to restore?** <br>
+ This depends on your retention period. The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically. 
+
+* **What is the latest data I can restore to?** <br>
+ In many cases, you will be able to restore within 5 minutes of the latest time. In other words, your data loss exposure is typically up to 5 minutes. Note that the time to recover depends on the size of data to restore from the backup, amount of WAL files to recover to the time requested. 
+
+* **Can I run multiple restores for the same server concurrently?** <br>
+   We recommend you perform the restore one after the other for the same server.
+
+* **Why I am not able to connect to my restored server?** <br>
+  It is possible that you may not have changed your server end point and/or the user name to `username@new-restored-server-name` in your connection string.
 
 ## **Recommended Steps**
 

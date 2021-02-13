@@ -17,7 +17,11 @@
 
 # PostgreSQL extension not available
 
+We review all PostgreSQL extension requests, prioritize, perform security review before adding to the service. If you are interested with an extension that is not available with Azure PostgreSQL, 
+1. Please send your request or upvote existing requests in the [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).
+2. You can also reach us at `AskAzureDBforPostgreSQL@service.microsoft.com` with your request.
+
 ## **Recommended steps**
 
 The available extensions in Azure Database for PostgreSQL can be found in [this list](https://docs.microsoft.com/azure/postgresql/concepts-extensions).
-If you don't see an extension that you'd like to use, let us know by upvoting existing requests or creating new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).
+

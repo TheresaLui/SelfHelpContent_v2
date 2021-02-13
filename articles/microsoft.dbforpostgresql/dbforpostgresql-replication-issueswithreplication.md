@@ -27,6 +27,7 @@ Issue: **Replica server is writable**, or has some other property expected only 
 
 Issue: **Replica lag** higher than usual
    * Replica lag increase is typically caused by an increased load on the primary server. Consider reducing the load on the primary or [scaling up](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#scaling).
+   * For most workloads read replicas offer near-real-time updates from the primary. However, with persistent heavy write-intensive primary workloads, the replication lag could continue to grow and may never be able to catch-up with the primary. This may also increase storage usage at the primary as the WAL files are not deleted until they are received at the replica. If this situation persists, deleting and recreating the read replica after the write-intensive workloads completes is the option to bring the replica back to a good state with respect to lag. Asynchronous read replicas are not suitable for such heavy write workloads. When evaluating read replicas for your application, monitor the lag on the replica for a full app work load cycle thru its peak and non-peak times to access the possible lag and the expected RTO/RPO at various points of the workload cycle.
 
 Issue: **Replica failover**
 
