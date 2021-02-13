@@ -16,13 +16,13 @@
 
 # Problem Consuming Endpoint
 
-Most users are able to resolve these issues by using the following steps.
+Most users are able to resolve issues concerning consuming endpoints by using the following steps.
 
 ## **Recommended Steps**
 
-1. See [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service). Deploying an Azure Machine Learning model as a web service creates a REST API endpoint. You can send data to this endpoint and receive the prediction returned by the model. In this article, learn how to create clients for the web service by using C#, Go, Java, and Python.
+1. See [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service). Deploying an Azure Machine Learning model as a web service creates a REST API endpoint. You can send data to this endpoint and receive the prediction returned by the model. The linked article will show you how to create clients for the web service by using C#, Go, Java, and Python.
 
-2. See [Consume the service from Power BI](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service?tabs=python#consume-the-service-from-power-bi). After the web service is deployed, it's consumable from Power BI dataflows. [Learn how to consume an Azure Machine Learning web service from Power BI.](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-machine-learning-integration)
+2. See [Consume the service from Power BI](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service?tabs=python#consume-the-service-from-power-bi). After the web service is deployed, it's consumable from Power BI dataflows. [Learn how to consume an Azure Machine Learning web service from Power BI](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-machine-learning-integration).
 
 3. [How to update a deployed web service](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-update-web-service)
 
