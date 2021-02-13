@@ -28,7 +28,7 @@
 - Ensure Microsoft Azure Recovery Services is running (in Service console). If required restart and retry the operation
 - [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder), If you back up Windows System State, ensure there is 30-35 GB of free space in the volume containing the cache folder.
 - [Check if another process or antivirus software is interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) 
-- [Scheduled backup fails, but manual backup works](https://docs.microsoft.coms/azure/backup/backup-azure-mars-troubleshoot#backups-dont-run-according-to-schedule)
+- [Scheduled backup fails, but manual backup works](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backups-dont-run-according-to-schedule)
 - [Troubleshooting common Azure Backup agent issues](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
 
 ## **Recommended Documents**
