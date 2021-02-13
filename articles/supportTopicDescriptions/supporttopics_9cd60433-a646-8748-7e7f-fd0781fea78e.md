@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   description="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   authors="elixirsys2"
-  ms.author="esagmon, yaronsahar, kawilson"
+  ms.author="esagmon, yaronsahar, kawilson, agolden"
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -219,6 +219,14 @@
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
       "searchTags": "Support",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8c0d9b39-1fe6-53ac-1029-73f5dfabc71c",
+      "longDescription": "",
+      "shortDescription": "Overview, errors questions, and advisory on settings",
+      "searchTags": "overview",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
