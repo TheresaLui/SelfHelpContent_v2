@@ -19,7 +19,7 @@
 
 Long term retention of backup (longer than 35 days) is currently not natively integrated within the service. However you can choose from the below options.
 
-1. [Azure Backup for PostgreSQL - Preview](https://docs.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql).
+1. [Azure Backup for PostgreSQL - Preview](https://docs.microsoft.com/azure/backup/backup-azure-database-postgresql).
 2. You have the option to use *pg_dump* to take backups and store them for long term retention. 
 3. Use third party solutions.
 
