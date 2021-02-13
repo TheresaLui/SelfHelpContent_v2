@@ -33,7 +33,7 @@ You may find answers to your automated backup related questions below.
   The default and minimum retention period for backups is for 7 days and can be increased up to 35 days. You can perform local point-in-time recovery to any time within the retention period.
 
 * **Can i configure long term retention for more than 35 days?** <br>
-  You may choose [Azure Backup for PostgreSQL - Preview](https://docs.microsoft.com/en-us/azure/backup/backup-azure-database-postgresql) for storing long term backup. 
+  You may choose [Azure Backup for PostgreSQL - Preview](https://docs.microsoft.com/azure/backup/backup-azure-database-postgresql) for storing long term backup. 
 
 * **Can I do on-demand backup?** <br>
    The service does not allow on-demand backups from the portal or CLI. You may choose to perform pg_dump from your client. 
