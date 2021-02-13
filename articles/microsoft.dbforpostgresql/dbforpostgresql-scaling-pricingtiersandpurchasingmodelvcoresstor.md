@@ -23,7 +23,14 @@ Azure Database for PostgreSQL offers Basic, General Purpose, and Memory Optimize
 * **General Purpose** tier is for most business workloads requiring balanced compute and memory with scalable I/O throughput
 * **Memory Optimized** tier is for high performance database workloads requiring in-memory performance for faster transaction processing and higher concurrency
 
-Please note that changing to and from the Basic pricing tier after server creation is not supported. You can optionally choose to save money by prepaying for compute resources compared to pay-as-you-go prices. With Azure Database for PostgreSQL reserved capacity, you make an upfront commitment on PostgreSQL server for a one-year or three-year period in order to receive a significant discount on the compute costs.
+* Are you trying to switch from Basic to General Purpose/Memory Optimized service tiers or vice-versa?
+    * It is not supported in the product but you can do it yourself. Please follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers in Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/690976) blog.
+
+* Are you looking for ways to save money with a 1- or 3-year commitment?
+    * Consider prepaying for Azure Database for PostgreSQL compute resources to get lower compute prices compared to no commitment pay-as-you-go ones. With Azure Database for PostgreSQL reserved capacity, you can make an upfront commitment on PostgreSQL server for a one-year or three-year period in order to receive a significant discount on the compute costs.
+
+* Are you looking for the list of regions where Azure Database for PostgreSQL is available? 
+    * You can always check regional availability for Azure Database for PostgreSQL and other Azure products on [this page](https://azure.microsoft.com/global-infrastructure/services/?products=postgresql&regions=all). 
 
 ## **Recommended Documents**
 
@@ -31,4 +38,5 @@ Please note that changing to and from the Basic pricing tier after server creati
 * [Azure Database for PostgreSQL Pricing Page](https://azure.microsoft.com/pricing/details/postgresql/)<br>
 * [Pricing calculator](https://azure.microsoft.com/pricing/calculator/?service=postgresql/)<br>
 * [Reserved Capacity Pricing](https://docs.microsoft.com/azure/postgresql/concept-reserved-pricing)
+* [Regions where Azure Database for PostgreSQL is available](https://azure.microsoft.com/global-infrastructure/services/?products=postgresql&regions=all) 
 
