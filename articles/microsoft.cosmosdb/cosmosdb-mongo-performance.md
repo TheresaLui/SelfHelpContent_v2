@@ -35,8 +35,11 @@ If you are wanting to delete large amounts of data without impacting RU:
 
 
 ## **Recommended Documents**  
+[Azure Cosmos DB's API for MongoDB (4.0 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
+<br>The supported operators and any limitations or exceptions are listed in this article for API version 4.0. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
+
 [Azure Cosmos DB's API for MongoDB (3.6 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
-<br>The Azure Cosmos DB's API for MongoDB is compatible with MongoDB server version 3.6 by default for new accounts. The supported operators and any limitations or exceptions are listed in this article. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
+<br>The supported operators and any limitations or exceptions are listed in this article. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
 
 [Azure Cosmos DB's API for MongoDB (3.2 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)
 <br>This article covers MongoDB version 3.2. The supported operators and any limitations or exceptions are listed in this article.  

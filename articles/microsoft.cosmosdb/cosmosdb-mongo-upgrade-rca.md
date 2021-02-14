@@ -16,19 +16,20 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to Mongo server version 3.6
+# Upgrade to Mongo server version 4.0
 
-## Upgrade to Mongo server v3.6
+## Upgrade to Mongo server v4.0
 
-Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v3.6. Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
+Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v4.0. Upgrading to the Mongo engine version 4.0 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 
 The upgrade process will not result in any service interruptions nor require any downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
 
-### Benefits of upgrading to version 3.6
+### Benefits of upgrading to version 4.0
 
 - Enhanced performance and stability
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
+- Support for multi-document transactions within a fixed collection
 - Support for Change Streams
 - Support for compound Indexes
 - Cross-partition support for the following operations: update, delete, count and sort
@@ -49,8 +50,9 @@ The connection string to the MongoDB service in your application will need to be
 
 The previous connection string with a `documents.azure.com` DNS suffix will continue to be operational with the 3.2 server version until further notice. You can switch your applications to the new connection string at your convenience.
 
-**Important Note:** Although 3.6 is generally compatible with 3.2, we recommend that you provision a new Cosmos DB account with MongoDB server version 3.6 to try it out with your application on a Dev or QA instance **before you update your production application to use Mongo server version 3.6**.
+**Important Note:** Although 4.0 is generally compatible with 3.2, we recommend that you provision a new Cosmos DB account with MongoDB server version 4.0 to try it out with your application on a Dev or QA instance **before you update your production application to use Mongo server version 4.0**.
 
 ## **Recommended Documents**
 
+- [Azure Cosmos DB's API for MongoDB (4.0 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
 - [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)

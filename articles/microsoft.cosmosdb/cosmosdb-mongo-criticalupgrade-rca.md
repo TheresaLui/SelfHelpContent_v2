@@ -1,7 +1,7 @@
 <properties
     pageTitle="Azure Cosmos DB API for MongoDB upgrade eligibility RCA"
-    description="RCA - Azure Cosmos DB API for MongoDB v3.2 account eligible for upgrade to v3.6"
-    infoBubbleText="The customer's account is eligible for an upgrade to Azure Cosmos DB API for MongoDB v3.6"
+    description="RCA - Azure Cosmos DB API for MongoDB v3.2 account eligible for upgrade to v4.0"
+    infoBubbleText="The customer's account is eligible for an upgrade to Azure Cosmos DB API for MongoDB v4.0"
     service="microsoft.documentdb"
     resource="databaseAccounts"
     authors="pratnala"
@@ -16,7 +16,7 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to MongoDB API engine version 3.6
+# Upgrade to MongoDB API engine version 4.0
 
 ## We ran diagnostics on your resource and found an issue
 
@@ -27,11 +27,12 @@ Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help y
 
 You may experience service interruptions or downtime during the upgrading process. This process may also require data or index migrations. We will proceed with the upgrade only with your consent, at a time convenient for you. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
-1. Benefits of upgrading to version 3.6
+1. Benefits of upgrading to version 4.0
 
    - Enhanced performance and stability
    - Support for new database commands
    - Support for aggregation pipeline by default and new aggregation stages
+   - Support for multi-document transactions within fixed collections
    - Support for ChangeStream
    - Support for Compound Indexes
    - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
@@ -52,4 +53,5 @@ The previous connection string, with a `documents.azure.com` DNS suffix, will co
 
 ## **Recommended Documents**
 
+- [Azure Cosmos DB's API for MongoDB (4.0 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
 - [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)

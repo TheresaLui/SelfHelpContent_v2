@@ -49,7 +49,10 @@ As an alternative, you can create multiple wildcard indexes.
 ## **Recommended Documents**
 
 [Manage indexing in Azure Cosmos DB API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-indexing)
-<br>This article focuses on how to add indexes using Azure Cosmos DBs API for MongoDB.   
+<br>This article focuses on how to add indexes using Azure Cosmos DBs API for MongoDB.
+
+[Azure Cosmos DB MongoDB 4.0 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
+<br>Azure Cosmos DB API for MongoDB *4.0 version* supported features and syntax.
 
 [Azure Cosmos DB MongoDB 3.6 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 <br>Azure Cosmos DB API for MongoDB *3.6 version* supported features and syntax.
