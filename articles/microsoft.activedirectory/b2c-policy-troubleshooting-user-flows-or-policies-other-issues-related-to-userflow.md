@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Business to Consumer (B2C)"
+  pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
   ms.author="nishring"
@@ -15,34 +15,14 @@
 
 ## **Recommended Steps**
 
-### **User flows in Azure Active Directory B2C** 
+### **How can I diagnose problems with my custom polices?**
+Application Insights provides a way to diagnose exceptions and visualize application performance issues. Azure AD B2C includes a feature for sending data to Application Insights. Learn how to [Collect Azure Active Directory B2C logs with Application Insights](https://docs.microsoft.com/azure/active-directory-b2c/troubleshoot-with-application-insights#set-up-application-insights).
 
-To help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by  [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+The community has developed a user journey viewer to help identity developers. It reads from your Application Insights instance and provides a well-structured view of the user journey events. You obtain the source code and deploy it in your own solution.
 
+You can find the version of the viewer that reads events from Application Insights on GitHub, here: [Azure-Samples/active-directory-b2c-advanced-policies](https://github.com/Azure-Samples/active-directory-b2c-advanced-policies/tree/master/wingtipgamesb2c/src/WingTipUserJourneyPlayerWebApplication).
 
-### **Recommended user flows vs Standard user flows** 
-
-We've changed the way we reference user flow versions. Previously, we offered V1 (production-ready) versions, and V1.1 and V2 (preview) versions. Now, we've consolidated user flows into two versions. [Find out more details about User Flow Version](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-versions).
-
-### **Can I customize end-user sign up/sign in flows?** 
-
-Yes, to help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview). 
-
-Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. They are fully edited by an identity developer to complete many different tasks. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started). 
-
-### **Password reset link is not working**
-
-Currently, the combined **Sign-up or Sign-in** policy has a limitation that prevents your users from resetting their password on the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
-
-1. **Use a Sign-in Policy**: No work required by the application. Selecting **I forgot my password** automatically redirects you to a generic Microsoft  password reset page.
-
-1. **Handle the error**: This requires the application to do some extra work. Selecting **I forgot my password** redirects you back to the application with an error code. The application needs to detect the error code in the request and then redirects the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
-
-
-### **Useful Links** 
-
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
-
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
-
-* Ask your question to our developer community at [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
+### **Useful Links**
+* Custom policies are fully edited configuration files that define the behavior of your Azure AD B2C tenant. Get started today by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started?WT.mc_id=Portal-Microsoft_Azure_Support).
+* Check our sample on [how to run web tests and monitor results of B2C sign in's, using Azure Application Insights](https://github.com/azure-ad-b2c/samples/tree/master/policies/signin-webtest).
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for integrating Azure AD B2C into existing or new application environments.
