@@ -22,7 +22,7 @@
 ### Common errors
 - **Cannot view disk/volume/drives to copy files?**
     - Unsupported Backup/restore configurations: ***Shared disk***, ***Temp drive***, ***Deduplicated Disk***, ***Ultra disk*** and ***disk with write Accelerator enabled***. [Learn more](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)
-    - If the backed up VM has large disks, ensure they meet the requirements [for Windows OS](https://docs.microsoft.com/en-us/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-windows); [for Linux OS](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-linux)
+    - If the backed up VM has large disks, ensure they meet the requirements [for Windows OS](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-windows); [for Linux OS](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#for-backed-up-vms-with-large-disks-linux)
     - [Ensure you choose the right machine to run the ILR script](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#step-2-ensure-the-machine-meets-the-requirements-before-executing-the-script)
     - Special restore configuration requirements for [**LVM/RAID arrays for Linux VM**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays-for-linux-vms)
 - [Exception caught while connecting to target](https://docs.microsoft.com/azure/backup/backup-azure-vm-file-recovery-troubleshoot#exception-caught-while-connecting-to-target)
