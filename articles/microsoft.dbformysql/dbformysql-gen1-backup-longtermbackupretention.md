@@ -17,6 +17,9 @@
 
 # Backups and restore options for Azure Database for MySQL
 
+**Retention less than 7 days or beyond 35 days?**
+   The default [backup retention]((https://docs.microsoft.com/azure/mysql/concepts-backup) period is 7 days and can be increased up to 35 days. In Azure MySQL single server, you can't set retention for less than 7 days or beyond 35 days. But you may [Automate backups of your Azure Database for MySQL server to azure storage for longer term retention](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
+
 Long term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long term retention. Third party solutions are available.
 
 Native support for long term retention backups is currently being worked on by the Azure engineering team.
@@ -28,5 +31,5 @@ Native support for long term retention backups is currently being worked on by t
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
+* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
 * [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)
