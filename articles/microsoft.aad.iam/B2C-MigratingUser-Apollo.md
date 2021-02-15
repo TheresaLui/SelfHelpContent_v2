@@ -11,6 +11,8 @@ cloudEnvironments="public"
 ownershipId="AzureIdentity_B2C"
 /> 
 
+# Business to Consumer (B2C)
+
 ## Welcome to our new guided troubleshooting experience for migrating users issues. This experience integrates important documents and relevant results from the web. 
 
 ## **Migrate existing consumer** 
