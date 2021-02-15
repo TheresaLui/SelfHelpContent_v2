@@ -3,8 +3,8 @@
 	description="Common issues during backup of files and folders using Azure Backup agent"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="pvrk"
-	ms.author="pvrk"
+	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553275"
@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-- **Job could not be started as another job was in progress** :
-  - [Check steps to prevent job overlap](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#job-could-not-be-started-as-another-job-was-in-progress)
-  - [Check if the previous job was running in unoptimized mode and is taking longer time](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backup-job-running-in-unoptimized-mode)
+- For issue **Job could not be started as another job was in progress**, review following options to resolve:
+  - [Follow these guidelines to prevent job from overlapping](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#job-could-not-be-started-as-another-job-was-in-progress)
+  - [Check if the previous job ran in unoptimized mode and is taking longer time than expected](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backup-job-running-in-unoptimized-mode)
 - [Ensure your OS is supported and has the latest updates](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#supported-operating-systems)
 - [Ensure Microsoft Azure Recovery Services (MARS) Agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/backup/upgrade-mars-agent)
 - [Ensure there is network connectivity between MARS agent and Azure](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup)
@@ -30,6 +30,7 @@
 - [Check if another process or antivirus software is interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) 
 - [Scheduled backup fails, but manual backup works](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backups-dont-run-according-to-schedule)
 - [Troubleshooting common Azure Backup agent issues](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
+- [Backup Jobs Completed with Warning](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backup-jobs-completed-with-warning)
 
 ## **Recommended Documents**
 
