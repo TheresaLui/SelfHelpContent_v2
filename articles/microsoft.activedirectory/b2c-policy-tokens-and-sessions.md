@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Business to Consumer (B2C)"
+  pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
   ms.author="nishring"
@@ -30,7 +30,7 @@ Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active
 
 ### **Useful Links** 
 
-* Get started today with predefined, configurable policies called [User Flows in AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies) to set up the most common identity tasks for your applications. 
+* Custom policies are fully edited configuration files that define the behavior of your Azure AD B2C tenant. Get started today by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
