@@ -13,9 +13,9 @@
 	supportTopicIds="32730262"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Microsoft Customer Agreement
