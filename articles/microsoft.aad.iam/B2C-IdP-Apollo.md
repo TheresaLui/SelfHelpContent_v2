@@ -24,9 +24,9 @@ ownershipId="AzureIdentity_B2C"
 
 # Business to Consumer (B2C)
 
-## Welcome to our new guided troubleshooting experience for Identity Providers issues. This experience integrates important documents and relevant results from the web. 
+## Adding Identity Providers
 
-## Adding Identity Providers 
+## Welcome to our new guided troubleshooting experience for Identity Providers issues. This experience integrates important documents and relevant results from the web. 
 
 :::Section Recommended Solutions::: 
 
@@ -38,8 +38,8 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 
 <br>  
 
-## **Video: Integrate SAML with Azure AD B2C** 
- 
+## **Video: Integrate SAML with Azure AD B2C**
+
 :::Section Integrate SAML with Azure AD B2C::: 
 
 <video> 
@@ -60,7 +60,7 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 
 * Check our [samples for several Social account policy enhancements](https://github.com/azure-ad-b2c/samples#social-account-policy-enhancements) for Azure AD B2C.
 
-* Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started).  
+* Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started).
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
