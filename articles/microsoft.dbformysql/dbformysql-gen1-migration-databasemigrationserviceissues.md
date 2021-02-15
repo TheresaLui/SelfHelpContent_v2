@@ -20,7 +20,7 @@
 You can do online and offline migrations using Azure database migration services (DMS). Most users are able to resolve their issue using the steps below to help resolve common issues.
 
 ### **Frequently Asked Questions**
-* **"Got error 1 from storage engine"**? View [Can't restore database with error "Got error 1 from storage engine"](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-8211-can-t-restore-database-with-error/ba-p/368896)
+* **"Got error 1 from storage engine"?** View [Can't restore database with error "Got error 1 from storage engine"](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-8211-can-t-restore-database-with-error/ba-p/368896)
 
 * **Upgrade MySQL 5.6 to MySQL 5.7?** Review [Major version upgrade FAQs](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#frequently-asked-questions) and tutorial how to upgrade using [Portal](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-portal) or [CLI](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-cli)
 * Verify steps for migrating databases from **RDS MySQL** instance to **Azure Database for MySQL** using this [example for how to migrate from RDS to Single server](https://docs.microsoft.com/azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online)

@@ -28,7 +28,7 @@ Resolve any issues by considering the following points.
 ### Considerations
 
 * To learn more about using MySQL Workbench, see [Import and export by using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench).
-* To back up Azure Database for MySQL to a Blob storage, see [Back up Azure Database for MySQL to a Blob storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830).
+* To backup Azure Database for MySQL to a Blob storage, see [Back up Azure Database for MySQL to a Blob storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830).
 
 ## **Recommended documents**
 
