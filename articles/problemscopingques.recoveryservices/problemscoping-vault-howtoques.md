@@ -19,11 +19,6 @@
     "subscriptionRequired": false,
     "title": "How to and general Questions",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "How to and general Questions",
-        "description": "We would love to answer your query",
-        "insightNotAvailableText": "Our troubleshooter could not find any satisfiable answer to your question. See our manual troubleshooting steps below to troubleshoot your problem, or file a ticket."
-    },
     "formElements": [
 	{
             "id": "problem_start_time",
