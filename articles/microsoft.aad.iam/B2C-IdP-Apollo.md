@@ -22,7 +22,8 @@ ownershipId="AzureIdentity_B2C"
 
 /> 
 
-  
+# Business to Consumer (B2C)
+
 ## Welcome to our new guided troubleshooting experience for Identity Providers issues. This experience integrates important documents and relevant results from the web. 
 
 ## Adding Identity Providers 
