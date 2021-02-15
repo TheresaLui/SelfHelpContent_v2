@@ -1,8 +1,8 @@
 <properties
-  pagetitle="V2 - Author and Develop - ADF Portal not Loading"
+  pagetitle="V2 - Author and Develop - ADF Portal not Loading&#xD;"
   service=""
   resource=""
-  ms.author="chez,haoc,fangl"
+  ms.author="chez,fangl,haoc"
   selfhelptype="Generic"
   supporttopicids="32629437"
   resourcetags=""
@@ -28,6 +28,7 @@ Most customer can resolve issues with Azure Data Factory V2 (ADF) portal failing
     * If you have disabled browser pop-ups, check the browser's address bar to see if a pop-up is actively blocked, and allow it. 
 
 * If the ADF portal is slow to respond, check your browser version. Upgrading your browser to a newer version often improves performance. 
+* If some images of the ADF portal are not loading, it could be related to changes in your network policies. Try accessing the portal from a different machine or network environment to narrow down the issue. 
 
 ## **Recommended Documents**
 
