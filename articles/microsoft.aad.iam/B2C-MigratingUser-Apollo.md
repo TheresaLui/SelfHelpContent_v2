@@ -13,9 +13,10 @@ ownershipId="AzureIdentity_B2C"
 
 # Business to Consumer (B2C)
 
+## Migrate existing consumer
+
 ## Welcome to our new guided troubleshooting experience for migrating users issues. This experience integrates important documents and relevant results from the web. 
 
-## **Migrate existing consumer** 
 
 ### **Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?**  
 
