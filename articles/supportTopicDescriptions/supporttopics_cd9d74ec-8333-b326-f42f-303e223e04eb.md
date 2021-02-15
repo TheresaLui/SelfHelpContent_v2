@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "193e1e68-1fdb-4006-32f5-5dcb2e85c5f6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to buying Azure Artifacts",
+      "searchTags": "Artifacts;Purchase;Buy;Billing",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "199979c4-9e0d-9de3-7893-0e06e183afb6",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Query Designer (errors, bad results, and so on).",

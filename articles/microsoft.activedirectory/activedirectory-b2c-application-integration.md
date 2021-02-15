@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
-  ms.author="nishring"
+  ms.author="nishring,runuguse"
   selfhelptype="Generic"
   supporttopicids="32633321"
   resourcetags=""
@@ -15,7 +15,7 @@
 
 ## **Recommended Steps**
 
-1. Search for your question on [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'
+1. Search for your question on [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html) using the tag `azure-ad-b2c`
 1. Check out our [samples](https://azure.microsoft.com/resources/samples/?term=b2c) that integrate Azure AD B2C with various platforms
 1. If you are having trouble with access tokens, check out our article on how to [use access tokens](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-access-tokens)
 1. Learn how to customize your UI by checking out our [guide on customizing UI](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-ui-customization)
@@ -23,6 +23,6 @@
 ## **Recommended Documents**
 
 * [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
+* [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)
 * [Samples on Github](https://github.com/Azure-Samples?q=b2c)
 * [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
