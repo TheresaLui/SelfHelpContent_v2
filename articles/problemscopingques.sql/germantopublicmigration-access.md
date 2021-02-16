@@ -25,25 +25,18 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
-        },
-        {
-            "id": "sqlexception_received_on_client",
-            "order": 20,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide subscription pairs for allow listing. (Obscure the personally identifiable information.)",
+            "displayLabel": "Date (Optional)",
             "required": false
         },
-        {
-            "id": "problem_description",
-            "order": 1000,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Migration Details",
-            "watermarkText": "Provide source (Azure Germany) and target (Azure Global) subscription IDs to enable the geo-replication method to migrate your database.",
-            "required": true,
-            "useAsAdditionalDetails": true
-        }
+				{
+						"id": "problem_description",
+						"order": 1000,
+						"controlType": "multilinetextbox",
+						"displayLabel": "Description",
+						"watermarkText": "Provide your target (Azure Global) Subscription IDs for listing to allow Geo-Replication method of database migration.",
+						"required": true,
+						"useAsAdditionalDetails": true
+				}
     ]
 }
 ---

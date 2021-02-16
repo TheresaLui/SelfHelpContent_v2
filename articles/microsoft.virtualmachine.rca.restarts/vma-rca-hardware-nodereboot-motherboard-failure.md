@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Motherboard Failure"
+	description="Root Cause Analysis (RCA) - Hardware - Motherboard Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The Host Node where the VM was running encountered a **hardware issue** due to **motherboard errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+> The Host Node where the VM was running encountered a hardware issue due to motherboard errors on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
