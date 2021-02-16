@@ -161,7 +161,7 @@
     {
       "id": "d1e7c92e-e90a-d995-a95a-2ef6f708a6a3",
       "longDescription": "",
-      "shortDescription": "Questions from developers on managing B2C directories using microsoft supported libraries, APIs, and middlerware",
+      "shortDescription": "Questions regarding Microsoft graph APIs and managing applications or APIs registered in Azure AD B2C tenant, using libraries like MSAL",
       "searchTags": "problem with app or API integration",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
