@@ -1,19 +1,16 @@
- <properties
-	pageTitle="Business to Consumer (B2C)"
-	description="Business to Consumer (B2C)"
-	service="microsoft.azureactivedirectory"
-	resource="b2cDirectories"
-	authors="parakhj"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32416703"
-	resourceTags=""
-	productPesIds="16580"
-	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	articleId="0acebf67-f42a-44f3-8dff-463418a08e65"
-	ownershipId="AzureIdentity_B2C"
-/>
-
+<properties
+  pagetitle="Business to Consumer (B2C)&#xD;"
+  description="Business to Consumer (B2C)"
+  service="microsoft.azureactivedirectory"
+  resource="b2cdirectories"
+  ms.author="runuguse"
+  selfhelptype="Generic"
+  supporttopicids="32633306,32633307,32633308,32633312,32633315,32633320,32633325,32633326,32633318,32633322,32633324,32633328,32633319,32633313,32781154,32633321,32633314,32633327,32633323,32781153,32633595"
+  resourcetags=""
+  productpesids="16580"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="0acebf67-f42a-44f3-8dff-463418a08e65"
+  ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
 ## **Recommended steps**
