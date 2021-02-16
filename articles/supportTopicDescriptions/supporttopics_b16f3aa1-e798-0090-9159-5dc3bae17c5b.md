@@ -105,8 +105,8 @@
     {
       "id": "89af12c2-2d66-d3da-fd5d-4337dac23c83",
       "longDescription": "",
-      "shortDescription": "Questions regarding the customization and branding of the AAD B2C UI in your user flows",
-      "searchTags": "B2C user experience and customization ",
+      "shortDescription": "Questions regarding any other Azure AD B2C issues which are not listed",
+      "searchTags": "other Azure AD B2C",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
