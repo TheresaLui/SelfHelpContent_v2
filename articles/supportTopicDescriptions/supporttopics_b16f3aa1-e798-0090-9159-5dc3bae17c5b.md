@@ -33,8 +33,8 @@
     {
       "id": "0bd7d616-07bb-6bec-96c9-3c2e23e3c8b5",
       "longDescription": "",
-      "shortDescription": "Questions regarding migrating users from an external identity provider to an Azure AD B2C directory",
-      "searchTags": "Questions re migrating users to B2C ",
+      "shortDescription": "Questions regarding migrating users from an external identity provider to an Azure AD B2C directory.",
+      "searchTags": "Questions re migrating users to B2C",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
