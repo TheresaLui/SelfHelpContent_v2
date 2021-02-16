@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Export and import Resource Manager (ARM) templates&#xD;"
+  pagetitle="Export and import Resource Manager (ARM) templates"
   ms.author="chez,haoc"
   selfhelptype="Generic"
   supporttopicids="32629439"
@@ -13,7 +13,11 @@
 ## **Recommended Steps**
   * Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template
 ) to override default properties during deployment. You can now edit your arm-template-parameters-definition.json directly in ADF UX. <br>
-  * If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
+  * Azure Resource Manager Template has several limits. Refer to [Resource Manager Template Limits](https://docs.microsoft.com//azure/azure-resource-manager/templates/error-job-size-exceeded) for details. 
+    * Deployment job cannot exceed 1 MB. The job includes metadata about the request. For large templates, the metadata combined with the template can exceed the allowed size for a job.
+    * The template can't exceed 4 MB. The 4-MB limit applies to the final state of the template after it has been expanded for resource definitions that use copy to create many instances. The final state also includes the resolved values for variables and parameters.
+    * Other limits for the template include 256 parameter, 800 resources etc. 
+  * If you reach the Azure Resource Manager template 4MB size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits. 
   * Review [Common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and Github issues in ADF. 
 
 ## **Recommended Documents**
