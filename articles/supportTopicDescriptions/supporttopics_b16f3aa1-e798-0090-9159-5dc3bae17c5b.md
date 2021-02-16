@@ -177,7 +177,7 @@
     {
       "id": "e299aa8f-db1b-2d52-3d94-2bbc5db5eecd",
       "longDescription": "",
-      "shortDescription": "Questions from developers managing B2C using a Native App",
+      "shortDescription": "Questions regarding native app integration with Azure AD B2C.",
       "searchTags": "questions managing B2C using Native Apps",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
