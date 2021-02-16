@@ -145,7 +145,7 @@
     {
       "id": "ce704694-cc29-5c81-3461-6d9cb95131da",
       "longDescription": "",
-      "shortDescription": "Problems regarding the b2c-extensions-app including verifying existence in app registrations blade and how to recover this required app if deleted.",
+      "shortDescription": "Questions regarding Azure AD B2C conditional access, Identity Protection, MFA, email verification, passwords and threat management",
       "searchTags": "Issues re b2c extensions app",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
