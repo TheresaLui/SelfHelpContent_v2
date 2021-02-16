@@ -49,9 +49,9 @@
     {
       "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
       "longDescription": "",
-      "shortDescription": "Connecting to workspaces is not working or taking too long",
-      "searchTags": "connecting;workspace",
-      "category": "Performance",
+      "shortDescription": "Issues with onboarding to Azure Sentinel or connecting to a workspace",
+      "searchTags": "connecting;workspace;Onboarding",
+      "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
     {
