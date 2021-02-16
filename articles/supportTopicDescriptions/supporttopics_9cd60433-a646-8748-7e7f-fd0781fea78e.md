@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "034610b7-e093-dbd9-0f6f-21cc7829bd45",
+      "longDescription": "",
+      "shortDescription": "Having issues while using the Investigation feature",
+      "searchTags": "issues;investigation",
+      "category": "Incidents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
       "longDescription": "",
       "shortDescription": "Unable to see workspace in workspaces list",
