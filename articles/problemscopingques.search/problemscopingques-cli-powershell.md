@@ -26,7 +26,7 @@
             "displayLabel": "Describe the issue you experienced",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Provide additional information about your issue"
+            "watermarkText": "Please provide the full error text when possible."
         },
         {
             "id": "problem_start_time",

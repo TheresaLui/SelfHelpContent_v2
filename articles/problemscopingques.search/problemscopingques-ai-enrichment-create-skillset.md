@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issue creating or updating a skillset",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "If possible, please attach a file containing the JSON definition of the skillset you are trying to create.",
     "formElements": [
         {
             "id": "problem_description",
@@ -29,71 +29,41 @@
 	    "watermarkText":"Please provide the full error text when possible."
         },
         {
-            "id": "service_name",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "What is the name of the search service you tried to create?",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
-        {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last attempt to create the search service?",
-            "required": true
-        },
-        {
-            "id": "previously_exist",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Have you recently deleted a search service with the same name?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't Know"
-                }
-            ],
+            "displayLabel": "When did you last attempt to create this skillset?",
             "required": true
         },
         {
             "id": "create_interface",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What client did you use to create the service?",
+            "displayLabel": "How are you creating the skillset?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Portal",
-                    "text": "Azure Portal"
+                    "value": "REST",
+                    "text": "Programmatically, using REST APIs"
                 },
                 {
-                    "value": "Powershell",
-                    "text": "Powershell"
+                    "value": "SDK",
+                    "text": "Programmatically, using SDK"
                 },
                 {
-                    "value": "Azure CLI",
-                    "text": "Azure CLI"
+                    "value": "Portal_Import_Data",
+                    "text": "Using the Azure Portal - Import Data Flow"
                 },
                 {
-                    "value": "Custom client using Management API or SDK",
-                    "text": "Custom client using Management API or SDK"
+                    "value": "Portal_New_Skillset",
+                    "text": "Using the Azure Portal - New Skillset"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't Know"
+                    "text": "Don't know"
                 }
             ],
-            "required": false
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issue with an built-in cognitive skill",
-    "fileAttachmentHint": "Attach screenshots or logs with details of the error if you have them",
+    "fileAttachmentHint": "Attach screenshots or logs with details of the error",
     "formElements": [
         {
             "id": "problem_description",

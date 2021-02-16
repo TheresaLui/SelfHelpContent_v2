@@ -23,7 +23,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe what issue you experienced",
+            "displayLabel": "Describe the issue you experienced",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error text when possible."
@@ -41,7 +41,7 @@
             "controlType": "textbox",
             "displayLabel": "What scaling operation would you like to perform?",
             "required": false,
-            "watermarkText": "Example: Add 1 parition and 2 replicas"
+            "watermarkText": "Example: Add 1 partition and 2 replicas"
         },
         {
             "id": "create_interface",
@@ -62,6 +62,10 @@
                 {
                     "value": "Azure CLI",
                     "text": "Azure CLI"
+                },
+                {
+                    "value": "ARM Template",
+                    "text": "ARM Template"
                 },
                 {
                     "value": "Custom client using the Management API or SDK",
