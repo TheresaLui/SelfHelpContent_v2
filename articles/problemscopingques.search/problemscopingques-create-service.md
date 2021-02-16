@@ -16,28 +16,50 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue creating a Search service",
+    "title": "Issue creating a search service",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "create_error_message",
+            "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the issue you experienced",
             "useAsAdditionalDetails": true,
-            "required": false,
+            "required": true,
 	    "watermarkText":"Please provide the full error text when possible."
         },
         {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last receive an?",
+            "displayLabel": "When did you last receive an error when creating a search service?",
+            "required": true
+        },
+        {
+            "id": "create_before",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Did you previously have a search service by the same name?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
+                }
+            ],
             "required": true
         },
         {
             "id": "create_interface",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What client did you use to create the service?",
             "watermarkText": "Choose an option",
@@ -63,29 +85,7 @@
                     "text": "Don't Know"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "create_before",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": :"Did you previously have a search service by the same name?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't Know"
-                }
-            ],
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
