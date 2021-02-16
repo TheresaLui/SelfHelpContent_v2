@@ -15,7 +15,7 @@
 
 ## **Recommended Steps**
 
-### **Can I add external identity providers to my application?**  
+Most customers can add external identity providers to their application using the following information.
 
 Yes. You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Review [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
 
