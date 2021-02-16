@@ -66,7 +66,7 @@
     {
       "actionId": "c4be01f3-0180-4ce9-b533-2ba5d177535d",
       "description": "View impacted tables",
-      "actionType": "Blade",
+      "actionType": "ContextBlade",
       "extensionName": "Microsoft_Azure_Synapse",
       "bladeName": "AdvisorStudioRedirectBlade",
       "metadata": {
