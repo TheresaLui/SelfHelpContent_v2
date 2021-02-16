@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
+      "longDescription": "",
+      "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
+      "searchTags": "Alert;Rule;Entity;Map",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f32b433-ee72-e16b-b745-31ca5928ce3e",
       "longDescription": "",
       "shortDescription": "Issues with adding, deleting, editing, and using bookmarks",
