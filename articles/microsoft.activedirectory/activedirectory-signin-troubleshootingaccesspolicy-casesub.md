@@ -3,8 +3,8 @@
     description="Troubleshooting conditional access policies in Azure Active Directory"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="curtand"
-    ms.author="curtand"
+    authors="marwaIDCXP"
+    ms.author="marwa"
     displayOrder="1770"
     supportTopicIds="32596872"
     selfHelpType="generic"
@@ -12,14 +12,14 @@
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="484b506b-cd37-45aa-b0eb-ea11c390a70b"
-	ownershipId="AzureIdentity_MultiFactorAuthentication"
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Troubleshooting conditional access policies in Azure Active Directory
 
-### Resolve problems with the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+### Resolve problems with the [Sign-in Diagnostic]
 
-You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/diagnose/symptomId/ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom):
+You can quickly find out what happened or diagnose problems related to user sign-in by using the \[Sign-in Diagnostic\](data-blade:Microsoft_AAD_IAM.ActiveDirectoryMenuBlade.assetId.ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
 
 1. Launch the Sign-in Diagnostic.
 2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
@@ -27,7 +27,7 @@ You can quickly find out what happened or diagnose problems related to user sign
 
 ## **Recommended Steps**
 
-**Steps to [Troubleshoot a Sign-In](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)**
+**[Use What-If to troubleshoot Sign-In](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)**
 1.	Navigate to the Azure AD Sign-in page
 2.	Filter sign-ins by user, time range, application, status, client app, and so on
 3.	Select a sign-in event and view the Conditional Access tab to see which policies were evaluated
@@ -38,13 +38,9 @@ You can quickly find out what happened or diagnose problems related to user sign
 * What-if tool lets you simulate sign-in events and see which policies apply
 * Insights and reporting workbook displays real-time impact of each policy
 
-**Baseline Protection Policies**
-- Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
-
-
 ## **Recommended Documents**
 
-* [Best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
-* [Conditions in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/conditions)
-* [Controls in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/controls)
-* [Locations in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
+* [How to best configure your CA policy](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
+* [Configure your CA policies using Conditions](https://docs.microsoft.com/azure/active-directory/conditional-access/conditions)
+* [Use Customer Controls in CA Policies](https://docs.microsoft.com/azure/active-directory/conditional-access/controls)
+* [Build CA Policy based on Locations](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
