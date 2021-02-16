@@ -129,7 +129,7 @@
     {
       "id": "bcf7a400-eb33-c207-03f0-a700cbb34834",
       "longDescription": "",
-      "shortDescription": "Problems creating a new AAD B2C directory, or deleting an existing AAD B2C directory.",
+      "shortDescription": "Questions regarding Azure AD B2C session token lifetime, timeout and SSO configuration",
       "searchTags": "issues re new AAD B2C directory",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
