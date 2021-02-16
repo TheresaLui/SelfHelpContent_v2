@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9077aeea-0253-5ec1-5bb5-590f292c3c49",
+      "longDescription": "",
+      "shortDescription": "The playbook did not trigger as I expected",
+      "searchTags": "Playbook;Trigger",
+      "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
