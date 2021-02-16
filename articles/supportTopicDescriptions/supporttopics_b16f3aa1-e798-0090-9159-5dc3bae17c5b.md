@@ -137,8 +137,8 @@
     {
       "id": "c5d97c6d-8fa3-81c2-2243-54c80d902627",
       "longDescription": "",
-      "shortDescription": "Quesitons regarding Azure AD B2C audit or sign in logs and reporting capabilities",
-      "searchTags": "Questions re B2C logs and reporting ",
+      "shortDescription": "Questions regarding Azure AD B2C audit or sign in logs and reporting capabilities.",
+      "searchTags": "Questions re B2C logs and reporting",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
