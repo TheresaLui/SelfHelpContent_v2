@@ -97,8 +97,8 @@
     {
       "id": "80a047a0-fe4c-9df8-33af-6aa2ed06551a",
       "longDescription": "",
-      "shortDescription": "Questions regarding the privacy and consent compliance options for Azure AD B2C directories",
-      "searchTags": "Questions re to B2C privacy and consent",
+      "shortDescription": "Questions regarding Azure AD B2C regional Availability or data residency Location.",
+      "searchTags": "Azure AD B2C regional Availability;data residency Location",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
