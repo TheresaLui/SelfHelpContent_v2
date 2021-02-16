@@ -86,6 +86,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "required": false
@@ -114,7 +118,7 @@
                     "text": "Azure RestAPI"
                 },
                 {
-                    "value": "don't_know_answer",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
                 }
             ],
