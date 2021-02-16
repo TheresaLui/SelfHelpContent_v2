@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   description="SupportTopicDescriptions for 9cd60433-a646-8748-7e7f-fd0781fea78e"
   authors="elixirsys2"
-  ms.author="esagmon, yaronsahar, kawilson"
+  ms.author="esagmon, yaronsahar, kawilson, agolden"
   selfhelptype="SupportTopicDescription"
   productpesids="9cd60433-a646-8748-7e7f-fd0781fea78e"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -26,7 +26,7 @@
       "id": "01904fa2-1f17-4584-21ee-8b8f73e958e5",
       "longDescription": "",
       "shortDescription": "Microsoft products (Office 365, MDTP, Exchange online, Azure AD, and so on) connectors provided by Azure Sentinel native solutions and Azure Diagnostics. ",
-      "searchTags": "Ofiice;365;Exchange;AD;MDATP",
+      "searchTags": "Office;365;Exchange;AD;MDATP",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -49,9 +49,9 @@
     {
       "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
       "longDescription": "",
-      "shortDescription": "Connecting to workspaces is not working or taking too long",
-      "searchTags": "connecting;workspace",
-      "category": "Performance",
+      "shortDescription": "Issues with onboarding to Azure Sentinel or connecting to a workspace",
+      "searchTags": "connecting;workspace;Onboarding",
+      "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -71,9 +71,25 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
+      "longDescription": "",
+      "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
+      "searchTags": "Alert;Rule;Entity;Map",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1f32b433-ee72-e16b-b745-31ca5928ce3e",
+      "longDescription": "",
+      "shortDescription": "Issues with adding, deleting, editing, and using bookmarks",
+      "searchTags": "bookmark",
+      "category": "bookmarks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
-      "shortDescription": "3rd party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
+      "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
       "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
@@ -111,11 +127,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2faba466-e937-63b9-a5d0-d58b305670b1",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, saving or running a hunting or livestream query",
+      "searchTags": "Hunting;livestream ;query",
+      "category": "Hunting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3291fba9-fe91-2840-44a3-7d2da741fcaf",
       "longDescription": "",
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
       "searchTags": "Log Analytics;Workspace ;Workbook",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39d10508-b5a4-8952-1209-674194233dbe",
+      "longDescription": "",
+      "shortDescription": "How to enable the Entity Behavior Analytics",
+      "searchTags": "UEBA;Entity ;Behavior ;Analytics",
+      "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -169,7 +201,7 @@
     {
       "id": "576fdd0d-bf9f-aa6f-30c0-730b3656a86b",
       "longDescription": "",
-      "shortDescription": "Leveraging Threat Hunting capabilities",
+      "shortDescription": "Leverage Threat Hunting capabilities",
       "searchTags": "threat;hunting",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -177,7 +209,7 @@
     {
       "id": "58b9550d-e997-9a58-9da7-5f41244c351a",
       "longDescription": "",
-      "shortDescription": "Troubleshooting Bookmarks",
+      "shortDescription": "Troubleshoot Bookmarks",
       "searchTags": "bookmarks",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -223,11 +255,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8c0d9b39-1fe6-53ac-1029-73f5dfabc71c",
+      "longDescription": "",
+      "shortDescription": "Overview, errors questions, and advisory on settings",
+      "searchTags": "overview",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9077aeea-0253-5ec1-5bb5-590f292c3c49",
+      "longDescription": "",
+      "shortDescription": "The playbook did not trigger as I expected",
+      "searchTags": "Playbook;Trigger",
+      "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "91b2a910-4c63-b45a-8f7b-be8fabae2849",
+      "longDescription": "",
+      "shortDescription": "Questions on how to setup a notebook",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
       "searchTags": "Support",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b1e47430-7f9f-8f5f-0cfb-76026aaabf0f",
+      "longDescription": "",
+      "shortDescription": "Playbook downloaded from Github gallery not working as expected",
+      "searchTags": "Playbook;Github;Template",
+      "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -249,7 +313,7 @@
     {
       "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
       "longDescription": "",
-      "shortDescription": "Topics covering creating workspaces, access and connectivity issues",
+      "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -273,7 +337,7 @@
     {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
-      "shortDescription": "Troubleshooting and creating Analytics alert rules",
+      "shortDescription": "Troubleshoot and create Analytics alert rules",
       "searchTags": "alerts;rules",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -305,7 +369,7 @@
     {
       "id": "de98062c-87ba-b275-ab27-fa8c4b290aae",
       "longDescription": "",
-      "shortDescription": "Topics related to connecting, collecting and sending data from security solutions to Sentinel",
+      "shortDescription": "Topics related to connecting, collecting, and sending data from security solutions to Sentinel",
       "searchTags": "Connector;Data collection",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -313,7 +377,7 @@
     {
       "id": "e2be44f8-3c52-383d-f2b5-3ae94fd24f7c",
       "longDescription": "",
-      "shortDescription": "Diagnosing issues when creating Analytics alert rule",
+      "shortDescription": "Diagnose issues creating an Analytics alert rule",
       "searchTags": "Analytics;Rules",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -321,9 +385,17 @@
     {
       "id": "e5469f80-6b5d-daf2-9e4a-199bba4943dd",
       "longDescription": "",
-      "shortDescription": "Troubleshooting, understanding Threat Hunting Queries",
+      "shortDescription": "Troubleshoot and understand Threat Hunting queries",
       "searchTags": "threathunting",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e7686dc3-69a6-3d92-a048-f4a794d64e25",
+      "longDescription": "",
+      "shortDescription": "Problems with creating a playbook or achieving a specific scenario with playbooks",
+      "searchTags": "Playbook",
+      "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -332,6 +404,14 @@
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
       "searchTags": "Not found;Issue not listed",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f85f94d5-535b-ed24-682e-50cfd1d509ef",
+      "longDescription": "",
+      "shortDescription": "How to create, filter by severity, include or exclude, specific alerts problems",
+      "searchTags": "Analytics;Incidents;rules;configuration",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {

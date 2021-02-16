@@ -1,31 +1,29 @@
-# Create an Apollo solution
+# Create an Solution 2.0 article
 
-_[All phrases in red need to be linked to the relevant documents.]_
+Use this document to get started constructing Apollo Solution 2.0 articles. Here, we'll describe the article structure,  the components within that structure, and the basic requirements for building a compliant solution. For a complete description of Apollo, see the ![**Overview**](..assets/articles/Overview.md).
 
-Use this document to get started constructing Apollo articles. Here, we'll describe the Apollo article structure, solution components
-you can use within that structure, and the basic requirements for building a sound Apollo solution. For a complete description of 
-Apollo, see the **Overview**.
 
 ## Get started
 
-- To create a solution from scratch,[download the raw format of the Apollo template in Markdown](https://github.com/Azure/SelfHelpContent/blob/master/documents/Apollo-template/Apollo-template.md). Alternatively, you can create an Apollo solution in Elixir and simply choose the components you want in your solution (versus typing the schema).
-- Include all **required** components in the order they appear. See also **Template and examples** for ideas on how to write an article.
+- To create a solution from scratch, [download the raw format of the Apollo template in Markdown](https://github.com/Azure/SelfHelpContent/blob/master/documents/Apollo-template/Apollo-template.md). Alternatively, you can create an Apollo solution in Elixir and simply choose the components you want in your solution (versus typing the schema).
+- Include all **required** components in the order they appear, as described in ![Basic structure of an Apollo solution](##_Basic_structure_of_an_Apollo_solution)
+- For ideas on how to write an article, see also ![**Template and examples**](..assets/articles/TemplateExamples.md).
 - Format your article in Markdown, unless XML is specifically called for.
 - Review the [**Rules**](#_Rules) to avoid validation warnings and errors. Rules are in place to ensure your solution meets Microsoft standards for writing style, formatting, links, and accessibility.
 
 ## Basic structure of an Apollo solution
 
-| **Section** | **Required?** | **Purpose** |
-| --- | --- | --- |
-| **Properties** | **Yes** | Contains the metadata of the article |
-| **Internal title** | **Yes** | Internal only (not customer-facing) component used by the Azure self-help portal |
-| **Customer-facing title** | **Yes** | Provides context for your Apollo solution |
-| **Body** | **Yes** | Main canvas of the article. **At minimum**, must contain an introduction and one or more solution components: diagnostics, Azure Monitor charts, video solutions, images, procedures, tables, and AzureKB article links
+| **Required** | **Description** |
+| --- | --- |
+|Properties | Contains the metadata of the article |
+|Internal title | Internal only (not customer-facing) component used by the Azure self-help portal |
+|Customer-facing title | Provides context for your Apollo solution |
+|Body | Main canvas of the article. **At minimum**, must contain an introduction and one or more solution components: diagnostics, Azure Monitor charts, video solutions, images, procedures, tables, and AzureKB article links
 
 
 ## Properties section
 
-The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the following topic.
+The properties section is required and contains the metadata of the article. All self-help articles must start with a **properties** section. For details about property metadata, see the table in the following section.
 
 - Some properties are mandatory, others are optional. However, we ask that you include all properties and assign an empty string ("") as the value for properties you aren't using.
 - Neither the order of the properties, spaces, or capitalization matters
@@ -68,12 +66,11 @@ The properties section is required and contains the metadata of the article. All
 
 Internal-only title **required** for internal reference. Level 1 heading. Use the following Markdown format.
 
-# Title
 
 
 ## Customer-facing title
 
-Required. Level 2 heading that describes the article contents, preferably in 10 words or less. The title and provides necessary context to the customer and reassurance that the solution targets their concern. Use sentence capitalization: Capitalize only the first word and any product, feature, or service names. Start with an active verb (such as resolve, enable, learn, troubleshoot, etc.)
+Required. Level 2 heading that describes the article contents, preferably in 10 words or less. The title and provides necessary context to the customer and reassurance that the solution targets their concern. Use sentence capitalization: Capitalize only the first word and any product, feature, or service names. Start with an active verb (such as resolve, enable, learn, troubleshoot, etc.). Do not add **bold** formatting as headings are automatically bolded.
 
 **Examples:**
 
@@ -82,17 +79,9 @@ Required. Level 2 heading that describes the article contents, preferably in 10 
 - "Learn How to Enable Auditing for your SQL DB"
 - "Enable AD DS Authentication for Azure Files and Windows Virtual Desktop"
 
-**Schema example**
-Use the following schema for titles. Do not add **bold** formatting as headings are automatically bolded.
-
-## Title
-
-
 
 ## Body section<br>
-The body comes immediately after the customer-facing title and contains the _entire article contents_. Think of the body section
-as your canvas where you can place any combination of content and solution components. Always start with a brief 
-[introduction](#_Introduction/Issue_statement) that lets the customer know what they can expect from the solution.
+The body comes immediately after the customer-facing title and contains the _entire article contents_. Think of the body section as a canvas where you can place any combination of content and solution components. Always start with a brief [introduction](##_Introduction) that lets the customer know what they can expect from the solution.
 
 **At minimum, your Apollo solution article must include the following**:<br>
 - For a **solution-based article** , the body contains a solution that specifically addresses the stated **issue**.
@@ -121,102 +110,37 @@ In addition to text, Apollo articles can include any of the following solution c
 - Images
 - Tables
 - Procedures
-- Azure KB and document links
+- AzureKB and document links
 
 The following sections describe each component and provide examples and schema for each.
 
 ## Diagnostics
 
-Optional. Level 3 heading required. Add a blank line before the heading.<br>
+Diagnostics are an optional feature of Azure Cloud Services that let you diagnose and collect data on the customer's deployed application. 
+When you include a diagnostic in your solution, explain what it is and what information it's gathering, and how the customer can use that information to address their issue.
 
-Diagnostics are a feature of Azure Cloud Services that let you diagnose and collect data on the customer's deployed application. 
-When you include a diagnostic in your solution, explain what it is and what information it's gathering, and how the customer
-can use that information to address their issue.
+- Level 3 heading required
+- If you have more than one diagnostic mapped against the support topic in SEAM and you are migrating the experience to Apollo, provide the symptomdIds as comma-separated list as shown in the following example.
+- List diagnostics in the order you want the results to be displayed. Azure portal prioritizes the presented results for the first diagnostic mapped to the first symptomId. If no insight is found or the first diagnostic failed/timed-out, the portal proceeds to get the insight from the second diagnostic, and so on.
 
-**Example:**
-
-### VM CPU performance
-
-Review the graph to see the CPU usage as it correlates to your workload. Identify any patterns or spikes that are tied to the load, scheduled jobs, or unexpected consumption of resources.
-
-![Graph of your workload's CPU usage](RackMultipart20210209-4-sl88e3_html_d9a4372cba82fb8c.png)
-
-### What can cause a CPU spike on a VM?
-
-High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that the application is not performing as efficiently as expected or has insufficient resources to handle loads. Some common factors to high CPU include:
-
-1. A recent code change or deployment
-2. A recent patch on the OS level or accumulative patches/fixes on the Application
-3. Query change or outdated Indexes. SQL or Oracle data tier applications also have query plan optimizations. Lack of proper indexes, data changes, etc. can lead to some queries becoming more compute intensive.
 
 **Diagnostics schema definitions**
+|     Tag    	|     Required    	|     Details    	|     Example    	|
+|-	|-	|-	|-	|
+|     Insight    	|     True    	|     Marks   the start of a Diagnostic XML Control    	|          	|
+|     symptomId    	|     True    	|     SymptomId of the diagnostic to be   run.           	|     CannotRdpFirewall,   CannotRDPPassword          	|
+|     ExecutionText    	|     False    	|     Text to   be presented to the user while the diagnostic is running.          	|     We   are running a few connectivity checks on your VM    	|
+|     failedText    	|     False    	|     Text to be presented to the user   if the diagnostic fails while the diagnostic is running.    	|     We ran into   an issue and could not complete this   check          	|
+|     noResultText    	|     False    	|     Text to   be presented to the user if the diagnostic successfully completes but no insight   is returned.    	|     We   have checked the current firewall configuration and did not find any issues.     	|
+|     maxInsightCount    	|     False    	|     Defines the maximum number of   insights to be presented if more than one insight is returned by the   diagnostic.      If the tag is not provided the default value of 3 will be   assumed.     	|     5    	|
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **Insight** | True | Marks the start of a Diagnostic XML Control | |
-| **symptomId** | True | SymptomId of the diagnostic to be run.
- | CannotRdpFirewall, CannotRDPPassword |
-| **ExecutionText** | False | Text to be presented to the user while the diagnostic is running.
- | We are running a few connectivity checks on your VM |
-| **failedText** | False | Text to be presented to the user if the diagnostic fails while the diagnostic is running. | We ran into an issue and could not complete this check
- |
-| **noResultText** | False | Text to be presented to the user if the diagnostic successfully completes but no insight is returned. | We have checked the current firewall configuration and did not find any issues. |
-| **maxInsightCount** | False | Defines the maximum number of insights to be presented if more than one insight is returned by the diagnostic. If the tag is not provided the default value of 3 will be assumed. | 5 |
 
-1. **List diagnostics in <SymptomIds>**
-
-Provide a comma-separated list of SymptomIds for the diagnostics to be run. The order in which the SymptomIds are listed matters. Azure porta prioritizes the presented results for the first diagnostic mapped to the first SymptomId. If no insight is found or the first diagnostic failed/timed-out, the portal will proceed to get the insight from the second diagnostic and so on.
 
 **Schema example:**
 
-<Insight>
+<insight>
 
-<symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId> 
-
-<executionText>We are checking to see if your VM was restarted</executionText> 
-
-<timeoutText>Proceeding to the next operation</timeoutText> 
-
-<noResultText>No issues found. Your VM is running smoothly.</noResultText> 
-
-</Insight>
-
-**Note** : To run each diagnostic in parallel, create separate <Insight> tags each tag
-
-2. **Run multiple diagnostics in parallel**
-
-If you need to run multiple diagnostics in parallel, create two separate <Insight> tags. For example, if you need to present insights from two different diagnostics for the customer to have a complete picture of a resource's state, you'll need diagnostics that check that resource for 2 different things simultaneously to provide insights from both diagnostics.
-
-**Schema example:**
-
-<blank line before head3s>
-
-### <Title>
-
-<Diagnostic description>
-
-<Insight>
-
-     <symptomId>CannotRDPPassword</symptomId>
-
-     <executionText>We are checking to see if your VM was restarted</executionText>
-
-     <timeoutText>Proceeding to the next operation</timeoutText>
-
-     <noResultText>No issues found. Your VM is running smoothly.</noResultText>
-
-</Insight>
-
-<blank line before head3s>
-
-
-### <Title>
-
-<Diagnostic description>
-
-<Insight>
-
-     <symptomId>CannotRdpFirewall</symptomId> 
+     <symptomId>CannotRdpFirewall, CannotRDPPassword</symptomId> 
 
      <executionText>We are checking to see if your VM was restarted</executionText> 
 
@@ -224,37 +148,56 @@ If you need to run multiple diagnostics in parallel, create two separate <Insigh
 
      <noResultText>No issues found. Your VM is running smoothly.</noResultText> 
 
-</Insight>
+</insight>
 
-3. **Present multiple insights per diagnostic in <maxInsightCount>**
+**Note**: To run each diagnostic in parallel, create separate <insight> tags each tag
+   
 
-Control the number of insights that the diagnostic returns using the <maxInsightCount> property inside the <Insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, the insights are limited to two.
+1. **Include multiple diagnostics**
+   Run multiple diagnostics in parallel by creating separate <insight> tags. For example, to give the customer a more complete picture of a resource’s state, you can include two separate insight tags from two different diagnostics. When the diagnostics finish running, insights from both diagnostics are presented to the customer. 
+   With Solutions 2.0, you can place diagnostics anywhere in the article canvas, giving you complete flexibility in authoring the content to suit your customer’s needs.
 
-If this property is not defined, three critical insights are returned.
+**Schema example:**
 
-**Example** :
-
-<blank line before head3s>
 
 ### <Title>
 
 <Diagnostic description>
-
-<Insight>
-
-       <symptomId>SqlLtsFailedLogin,SqlConnectivity,SqlCustomerVerbatims,SqlLts,SqlConnectivityBasic</symptomId>
-
-       <executionText>The diagnostic is running some checks on your resource</executionText>
-
-      <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
-
-      <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText>
-
-      <additionalInputsReq>true</additionalInputsReq>
-
-      <maxInsightCount>2</maxInsightCount>
-
+<Insight> 
+	<symptomId>CannotRdpFirewall</symptomId>
+	<executionText>We are checking to see if your VM’s firewall settings</executionText>
+	<timeoutText>Proceeding to the next operation</timeoutText>
+	<noResultText>No issues found</noResultText>
 </Insight>
+
+
+### <Title>
+
+<description>
+<Insight>  
+<symptomId>CannotRdpFirewall</symptomId>
+<executionText>We are checking to see if your VM’s firewall settings</executionText>
+<timeoutText>Proceeding to the next operation</timeoutText>
+<noResultText>No issues found</noResultText>
+</Insight> 
+	
+
+2. **Limit the number of insights per diagnostic**
+   Control the number of insights that the diagnostic returns by including the <maxInsightCount> property in the <insights> tag. This property controls the number of critical insights that we showcase to the customer. In the portal, only critical insights are surfaced. In the following example, only two insights will be shown. If this property is omitted, the portal will return 3 critical insights.
+
+**Schema example**:
+
+### <Title>
+
+<description>
+<insight>
+       <symptomId>SqlLtsFailedLogin,SqlConnectivity,SqlCustomerVerbatims,SqlLts,SqlConnectivityBasic</symptomId><br>
+       <executionText>The diagnostic is running some checks on your resource</executionText><br>
+      <timeoutText>This check was taking too long, so we stopped the operation</timeoutText><br>
+      <noResultText>The diagnostic did not find any issues. Use the troubleshooting steps below to resolve your problem</noResultText><br>
+      <additionalInputsReq>true</additionalInputsReq><br>
+      <maxInsightCount>2</maxInsightCount><br>
+</insight>
 
 
 ## Azure Monitor charts
@@ -270,55 +213,45 @@ Azure Monitor charts target several key performance indicators (KPIs) to help th
 
 Look for spikes in the following chart to determine when and how authorization failures have occurred.
 
-![](RackMultipart20210209-4-sl88e3_html_88e560f6a7bd374e.png)
+![Chart showing auth failures](../assets/images/ApolloChart.png)
 
 **Schema example:**
 
-<blank line before head3s>
 
 ### <Title>
 
 <Metric description>
-
+	
 <metric>
-
      <name>Disk Write Operations/Sec</name>
-
      <aggregationType>Sum</aggregationType>
-
      <timeSpanDuration>1d</timeSpanDuration>
-
      <title>Virtual Machine Disk Write Operations/Sec</title>
-
 </metric>
 
 **Metrics schema definitions**
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **Name** | True | Type of the Azure monitor metric | Disk Write Operations |
-| **aggregationType** | True | SymptomId of the diagnostic to be executed. Specify Sum, Avg, Count, or Percentile (default is value Sum) | CannotRdpFirewall, CannotRDPPassword |
-| **timeSpanDuration** | False | Text to be presented to the user while the diagnostic is executing.
- | We are running a few connectivity checks on your VM |
-| **timeSpanDuration** | False | Text to be presented to the user if the diagnostic fails while the diagnostic is executing. Use d for day (one day is the default) and m for minute. | We ran into an issue and could not complete this check
- |
-| **title** | False | Text to be presented to the user if the diagnostic successfully completes but no insight is returned. | We have checked the current firewall configuration and did not find any issues. |
+| Tag  	| Required  	| Details  	| Example  	|
+|-	|-	|-	|-	|
+| Name  	| True  	| Type of the Azure monitor metric  	|  Disk Write Operations  	|
+| aggregationType  	| True  	| SymptomId of the diagnostic to be executed. Specify Sum, Avg, Count, or Percentile (default is value Sum)     	| CannotRdpFirewall, CannotRDPPassword     	|
+| timeSpanDuration  	| False  	| Text to be presented to the user while the diagnostic is executing.    	| We are running a few connectivity checks on your VM  	|
+| timeSpanDuration  	| False  	| Text to be presented to the user if the diagnostic fails while the diagnostic is executing. Use d for day (one day is the default) and m for minute.  	| We ran into an issue and could not complete this check    	|
+| title  	| False  	| Text to be presented to the user if the diagnostic successfully completes but no insight is returned.  	| We have checked the current firewall configuration and did not find any issues.   	|
 
 ## Video solutions
 
 Video solutions have the power to engage the customer by stimulating their senses. Video solutions allow you to walk the customer through the steps of a task and show them what the end result should look like. Video solutions can support an accompanying procedure or stand alone as a solution.
-
-- Optional
-- Level 3 heading
 - Include a title and summary of the instructions or content in the video. Text instructions are usually easier to follow and are more accessible than pure video content.
-- Apollo can accommodate a single video and groups of 2-3 smaller videos.
+- Apollo can accommodate a single video and groups of (up to three) smaller videos.
 - When possible, call out key points of the video and where they occur in the timeline.
+- Video solutions require XML tags. 
 
-**Example (single video):**
+**Example:**
 
 In the following video, you'll learn to configure Azure AD authentication and create users/logins in Azure SQL.
 
-![](RackMultipart20210209-4-sl88e3_html_a4d354aba88f5def.png)
+![Demo of Azure AD authentication for Azure SQL](../assets/images/ApolloLargeVideo.png)
 
 Summary of configuration steps in the video:
 
@@ -327,28 +260,22 @@ Summary of configuration steps in the video:
 3. Examples of login types
 4. Adding access to existing AD users
 
-**Multiple video example:**
+**Example:**
 
 In the following videos, you'll learn the basics of continuous integration (CI) within Azure DevOps.
 
-![](RackMultipart20210209-4-sl88e3_html_4ef55c97b93402f5.jpg) ![](RackMultipart20210209-4-sl88e3_html_faccda19c3fb30e8.jpg)
+![Continuous integration and build](../assets/images/ApolloSmVideo1.jpg) ![Azure DevOps tutorial](../assets/images/ApolloSmVideo2.jpg)
 
 **Video schema examples**
-
-Video solutions require XML tags. **Important:** Make sure that the URL in the <src> tag doesn't contain ampersands (&) as these will generate validation errors.
 
 - **Single video example**
 
 ### <title>
 
 <description>
-
 <video>
-
 <src> https://tinyurl.com/yyt9xah2 </src>
-
 <title> **Configure Azure AD authentication for Azure SQL, 8:56** </title>
-
 </video>
 
 
@@ -357,45 +284,32 @@ Video solutions require XML tags. **Important:** Make sure that the URL in the <
 ### <title>
 
 <description>
-
 <videoGroup>
-
      <video>
-
      <src> https://tinyurl.com/yxf42xvg </src>
-
      <title> **CI – CD with Azure DevOps, 13:25** </title>
-
      </video>
-
      <video>
-
      <src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>
-
      <title> **Azure DevOps tutorial explains the basics for beginners, 1:00:11** </title>
-
      </video>
-
 </videoGroup>
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **videoGroup** | False | Required if you have multiple videos grouped together |
- |
-| **Video** | True |
- |
- |
-| **Src** | True | Link to the video | Disk Write Operations |
-| **Title** | True | | CannotRdpFirewall, CannotRDPPassword |
+| Tag  	| Required  	| Details  	| Example  	|
+|-	|-	|-	|-	|
+| videoGroup  	| False  	| Required if you have multiple videos grouped together  	|   	|
+| Video  	| True  	|   	|   	|
+| Src  	| True  	| Link to the video  	|  Disk Write Operations  	|
+| Title  	| True  	|    	| CannotRdpFirewall, CannotRDPPassword     	|
+
 
 ## Images
 
-Images are an excellent way to demonstrate and support both conceptual information and tasks in procedures. Apollo supports only web hosted images.
+Images are an excellent way to demonstrate and support both conceptual information and tasks in procedures. Apollo supports only web-hosted images.
 
-- Optional
-- No heading is required
+- No heading required
+- URLs only, no relative links
 - Replace "alt text" with a concise description of what is being shown in the image (without punctuation) to ensure accessibility for all users
-
 - For screenshots, make sure that they contain legible text
 - Use colored boxes, not highlighting, to call out particular elements
 
@@ -403,13 +317,11 @@ Images are an excellent way to demonstrate and support both conceptual informati
 
 This screenshot shows how you can back up a disk using incremental snapshots.
 
-![](RackMultipart20210209-4-sl88e3_html_5a02e9665c6faf18.png)
+![Back up disks using incremental snapshots](../assets/images/ApolloImage.png)
 
 **Image schema**
 
-![alt text](/images/image.png)
-
-[Back up your disk using incremental snapshots](../windows/media/incremental-snapshots/storage-incremental-snapshots-1.png)
+![alt text](URL)
 
 
 ## Tables
@@ -418,9 +330,10 @@ Use tables to make reference content more scannable. Only Markdown tables are pe
 
 **Example**
 
-![](RackMultipart20210209-4-sl88e3_html_181b756cc63908a.png)
+![Table showing article IDs](../assets/images/ApolloTable.png)
 
-**Table schema**
+
+**Example of table schema**
 
 |No|Microsoft Cloud Germany (MCG)- source |Azure Global Cloud (AGC)- target |
 
@@ -430,10 +343,10 @@ Use tables to make reference content more scannable. Only Markdown tables are pe
 
 |2 |a312i8348c-dd9f-442c-a531-021090a25833 |QX3455555e-449f-R23GB-c333-73jdj876eir0 |
 
+
 # AzureKB
 
-AzureKB is a service that ingests content from many places (Azure public docs, Stack, MSDN, Q&A, support cases from DfM, IcM incidents, etc) and returns relevant articles for Azure specific problems. On the portal side – this shows up as a set of links available to the customer (external sources only) that AzureKB believes are relevant to the problem.
-
+AzureKB is a service that ingests content from many places (Azure public docs, Stack, MSDN, Q&A, support cases from DfM, IcM incidents, etc) and returns relevant articles for Azure specific problems. On the portal side, this shows up as a set of links available to the customer (external sources only) that AzureKB believes are relevant to the problem.
 - Include AzureKB schema in the **Resources** section with any links to related and recommended articles
 - Keep the links to documentation short and extremely relevant to the solution
 - Don't have a link farm. Solutions with lots of links typically have lower deflection rates. More than 5 links reduces the usability of the entire solution.
@@ -442,28 +355,23 @@ AzureKB is a service that ingests content from many places (Azure public docs, S
 
 **Resources**
 
-Here are some relevant results from the web: ![](RackMultipart20210209-4-sl88e3_html_5d88f0cd263f7607.png)
+Here are some relevant results from the web:<br>
+![AzureKB portal](../assets/images/ApolloReferences.png)
 
 **AzureKB schema example**
 
 ### **Resources**
 
-<azureKB> </azureKB>
-
-**Note** : To include the azureKB portal in the **Resources** section, use this schema:
 <azureKB>portal</azureKB>
 
-| **Tag** | **Required** | **Details** | **Example** |
-| --- | --- | --- | --- |
-| **azureKB** | True |
- |
- |
+| Tag  	| Required  	| Details  	| Example  	|  	|
+|-	|-	|-	|-	|-	|
+| azureKB  	| True  	|   	|   	|  	|
+
 
 ## Procedures
 
 One of the most helpful solutions you can provide is step-by-step instructions for resolving an identified problem.
-
--
 - Level 3 heading required.
 - Use Markdown to format solutions and procedures, specifically for unordered and ordered lists (see examples).
 - All lists require an empty line before the first item and after the last item.
@@ -495,7 +403,7 @@ Tasks that must be performed in a particular order are called _ordered lists_. I
 
 **Example of a non-sequential procedure (or list of disparate tasks)**
 
-Lists of tasks that do not follow any particular order are called _ **unordered lists** _. Unordered lists use bullets. Only two levels of bullets are supported. (For step-by-step instructions, use an ordered list.)
+Lists of tasks that do not follow any particular order are called *unordered lists*. Unordered lists use bullets. Only two levels of bullets are supported. (For step-by-step instructions, use an ordered list.)
 
 ### <title>
 
@@ -509,9 +417,9 @@ Lists of tasks that do not follow any particular order are called _ **unordered 
 
 ## Rules
 
-These rules ensure that your self-help articles meet both the validation rules in Elixir and the Microsoft style guidelines. For details and examples, review the **Authoring guidelines**.
+These rules ensure that your self-help articles meet both the validation rules in Elixir and the Microsoft style guidelines. For details and examples, review the ![**Authoring guidelines**](../assets/articles/AuthoringGuidelines.md).
 
-\* At minimum, the body must contain substantive content that clearly addresses the topic or issue. For an **issue-based** solution, the body contains a solution that specifically addresses the stated issue. For a **how-to solution** , the body contains conceptual or procedural information, or both.
+* At minimum, the body must contain substantive content that clearly addresses the topic or issue. For an **issue-based** solution, the body contains a solution that specifically addresses the stated issue. For a **how-to solution** , the body contains conceptual or procedural information, or both.
 
 * Use active, imperative verbs and present tense (not passive verbs; not past or future tense)
 
@@ -521,9 +429,9 @@ These rules ensure that your self-help articles meet both the validation rules i
 
 * Check product, feature, and service names for accuracy, including capitalization
 
-* Spell out product, feature, and service names on first mention, followed by acronym in parentheses (&quot;Azure Active Directory (AAD)&quot;), and after that, use the acronym (&quot;AAD&quot;)
+* Spell out product, feature, and service names on first mention, followed by acronym in parentheses ("Azure Active Directory (AAD)"), and after that, use the acronym ("AAD")
 
-* Use &quot;select,&quot; not &quot;click&quot;
+* Use "select" not "click"
 
 * Don't use "please"
 
@@ -535,16 +443,14 @@ These rules ensure that your self-help articles meet both the validation rules i
 
 * Insert a blank line after every heading
 
-* Insert a blank line <br> before each level 3 heading **fix**
+* Insert a blank line <br> before each level 3 heading 
 
 * Tables must be created in Markdown
 
-* Include only YouTube video URLs that don't contain an ampersand (&amp;) **fix**
+* Include only YouTube video URLs that don't contain an ampersand (&) 
 
-* All non-text content (images, charts, videos) must include alt text to meet Microsoft Accessibility Standards. At minimum, include an introductory sentence that briefly describes the content. – **blocking**
+* All non-text content (images, charts, videos) must include alt text to meet Microsoft Accessibility Standards. At minimum, include an introductory sentence that briefly describes the content. 
 
 * Link text must clearly indicate the purpose of link ("here" or "this document" is not sufficient)
 
 * Don't use aka.ms links or links to internal documentation ("review.microsoft.docs")
-
-_[__**Editorial note [JR]**__: We can sort the Rules by priority or category (style, formatting, accessibility, etc.); I think category would be the most useful. Additionally, after we determine which rules can be nonblocking validation rules, we&#39;ll call those out separately, with a brief explanation that if the article doesn&#39;t follow those rules, the author will see a nonblocking comment and can make that correction before submitting the PR for review. This will expedite the review process.]_
