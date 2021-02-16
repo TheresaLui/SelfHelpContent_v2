@@ -343,6 +343,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf61c9c5-eaad-045a-759e-614dadd1237b",
+      "longDescription": "",
+      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents, and adding comments",
+      "searchTags": "incident;comments;modify",
+      "category": "Incidents ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c9027e-dd57-1efe-002b-64a7219efe25",
       "longDescription": "",
       "shortDescription": "Data is incorrect or mismatched in Workbook",
