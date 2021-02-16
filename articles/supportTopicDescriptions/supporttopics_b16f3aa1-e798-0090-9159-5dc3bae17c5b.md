@@ -49,7 +49,7 @@
     {
       "id": "147a5c79-3885-5468-f8ec-33856a9dffb0",
       "longDescription": "",
-      "shortDescription": "Questions regarding managing AAD B2C external identity providers in your identity experience framework user flows",
+      "shortDescription": "Questions regarding managing Azure AD B2C external identity providers in your custom policies",
       "searchTags": "questions re managing B2C id providers",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
