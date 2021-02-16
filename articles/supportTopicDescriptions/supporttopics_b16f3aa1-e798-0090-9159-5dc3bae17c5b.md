@@ -73,8 +73,8 @@
     {
       "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
       "longDescription": "",
-      "shortDescription": "Questions regarding Azure AD B2C custom user policies and flows using the Identity Experience Framework (IEF)",
-      "searchTags": "troubleshooting user flows and policies",
+      "shortDescription": "Questions regarding Azure AD B2C custom polices",
+      "searchTags": " custom polices",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
