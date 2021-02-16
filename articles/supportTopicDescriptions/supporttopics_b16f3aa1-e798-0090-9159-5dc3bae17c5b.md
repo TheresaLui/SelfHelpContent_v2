@@ -175,6 +175,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e24fd483-e15a-4e1b-d282-b620cf56615c",
+      "longDescription": "",
+      "shortDescription": "Questions regarding the branding of Azure AD B2C UI with HTML, CSS and Java script, language and email customization",
+      "searchTags": "branding;HTML;CSS;language;email customization",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e299aa8f-db1b-2d52-3d94-2bbc5db5eecd",
       "longDescription": "",
       "shortDescription": "Questions regarding native app integration with Azure AD B2C.",
