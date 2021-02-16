@@ -29,17 +29,25 @@
 	    "watermarkText":"Please provide the full error text when possible."
         },
         {
+            "id": "service_name",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the search service you tried to create?",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did you last receive an error when creating a search service?",
+            "displayLabel": "When did you last attempt to create the search service?",
             "required": true
         },
         {
-            "id": "create_before",
+            "id": "previously_exist",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Did you previously have a search service by the same name?",
+            "displayLabel": "Have you recently deleted a search service with the same name?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
