@@ -367,6 +367,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7686dc3-69a6-3d92-a048-f4a794d64e25",
+      "longDescription": "",
+      "shortDescription": "Problems with creating a playbook or achieving a specific scenario with playbooks",
+      "searchTags": "Playbook",
+      "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ebd7651e-9021-a12f-c6bb-1f2ff0cc9a70",
       "longDescription": "",
       "shortDescription": "My issue is not listed and I will open a case up with Microsoft",
