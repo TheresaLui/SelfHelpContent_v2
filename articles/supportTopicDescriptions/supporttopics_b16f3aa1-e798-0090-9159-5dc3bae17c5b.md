@@ -121,8 +121,8 @@
     {
       "id": "ba3cf1bc-f9fd-552e-8376-fe151bde7d37",
       "longDescription": "",
-      "shortDescription": "Questions regarding managing AAD B2C multi-factor authentication or email verificaiton in your identity experience framework user flows",
-      "searchTags": "questions re AAD B2C MFA",
+      "shortDescription": "Questions regarding Azure AD B2C custom policy concepts",
+      "searchTags": "custom policy concepts",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
