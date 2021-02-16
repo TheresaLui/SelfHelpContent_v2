@@ -25,6 +25,6 @@ This error occurs if the database was initially protected as a standalone databa
 
 ## **Recommended Steps**
 
-- For the backups to continue successfully, remove the database from the Always On availability group. However, if you want to protect the database as a part of the availability group do: 
-  - Step 1: [Stop backup with retain data](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
-  - Step 2: Re-discover the database and re-trigger [Configure backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#discover-sql-server-databases) operation on it.
+- For the backups to continue successfully, remove the database from the Always On availability group. However, if you want to protect the database as a part of the availability group. perform the following steps: 
+  - [Stop backup with retain data](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)
+  - Rediscover the database and restart the [Configure backup](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#discover-sql-server-databases) operation on the database.
