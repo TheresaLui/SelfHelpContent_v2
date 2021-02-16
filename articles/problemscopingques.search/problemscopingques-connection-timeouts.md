@@ -43,7 +43,7 @@
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped.  (Leave blank if the issue is ongoing)",
             "required": false
-        }
+        },
         {
             "id": "is_reproducible",
             "order": 4,

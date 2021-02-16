@@ -38,14 +38,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did you last attempt to create the search service?",
             "required": true
         },
         {
             "id": "previously_exist",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you recently deleted a search service with the same name?",
             "watermarkText": "Choose an option",
@@ -67,7 +67,7 @@
         },
         {
             "id": "create_interface",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What client did you use to create the service?",
             "watermarkText": "Choose an option",
