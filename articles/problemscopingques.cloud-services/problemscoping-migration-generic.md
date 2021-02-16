@@ -66,8 +66,8 @@
                     "text": "Reserved IPs"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other (describe below)"
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "required": true
@@ -114,8 +114,8 @@
                     "text": "Azure RestAPI"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other (describe below)"
+                    "value": "don't_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "required": true
