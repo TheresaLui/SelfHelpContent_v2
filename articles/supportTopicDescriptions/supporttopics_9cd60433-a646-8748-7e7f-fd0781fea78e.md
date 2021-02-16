@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91b2a910-4c63-b45a-8f7b-be8fabae2849",
+      "longDescription": "",
+      "shortDescription": "Questions on how to setup a notebook",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
