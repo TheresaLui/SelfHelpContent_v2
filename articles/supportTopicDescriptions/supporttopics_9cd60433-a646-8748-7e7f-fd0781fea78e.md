@@ -191,6 +191,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "502f0d89-f5bd-ccc8-d42b-34506727d3a4",
+      "longDescription": "",
+      "shortDescription": "Help with incident auditing, incident workbooks, and the Security Incidents table",
+      "searchTags": "audit;workbooks",
+      "category": "Incidents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "50709ed0-0612-407c-c7f1-798531a96cec",
       "longDescription": "",
       "shortDescription": "Topics related to Sentinel Alert and Incident management",
