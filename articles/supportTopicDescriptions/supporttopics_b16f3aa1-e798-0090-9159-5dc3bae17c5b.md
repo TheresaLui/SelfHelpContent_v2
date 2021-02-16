@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   description="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   authors="elixirsys2"
-  ms.author="v-vigra, marwa"
+  ms.author="v-vigra, marwa, nishring"
   selfhelptype="SupportTopicDescription"
   productpesids="b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   ownershipid="AzureIdentity_B2C" />
 # Support Topic Descriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b
@@ -192,7 +193,7 @@
     {
       "id": "ed804dcb-38df-3e51-974c-34d421931ab3",
       "longDescription": "",
-      "shortDescription": "Questions from developers on managing B2C using wep applications.",
+      "shortDescription": "Questions regarding web apps and single page application integration with Azure AD B2C.",
       "searchTags": "Questions managing B2C using Web Apps",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
