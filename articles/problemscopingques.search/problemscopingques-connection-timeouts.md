@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "create_error_message",
+            "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the timeout issue you experienced",

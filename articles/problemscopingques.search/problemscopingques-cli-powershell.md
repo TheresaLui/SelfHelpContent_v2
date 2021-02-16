@@ -23,10 +23,10 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe what issue you experienced",
+            "displayLabel": "Describe the issue you experienced",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about your issue"
         },
         {
             "id": "problem_start_time",
