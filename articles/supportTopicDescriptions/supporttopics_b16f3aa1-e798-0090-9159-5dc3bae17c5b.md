@@ -57,8 +57,8 @@
     {
       "id": "18312fe0-040a-f313-c9cf-2186a0f0c28b",
       "longDescription": "",
-      "shortDescription": "Questions regarding the creation or deletion of Azure AD B2C user accounts.",
-      "searchTags": "Questions re B2C user accounts ",
+      "shortDescription": "Questions regarding the creation or deletion of Azure AD B2C user accounts",
+      "searchTags": "Questions re B2C user accounts",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
