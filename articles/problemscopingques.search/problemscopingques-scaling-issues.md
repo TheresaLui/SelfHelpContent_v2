@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Issue using the ARM template"
-	description="Issue using the ARM template"
+	pageTitle="Issue adding or removing partitions or replicas"
+	description="Issue adding or removing partitions or replicas"
 	authors="mcarter"
 	ms.author="mcarter"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681372"
+	supportTopicIds="32681352"
 	productPesIds="15568"
 	cloudEnvironments="Public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
-	articleId="d9da78f1-e7af-4481-92a4-cec1f1384e8b"
+	articleId="7119e191-4d45-4151-b969-5b49429905e2"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue using the ARM template
+# Issue adding or removing partitions or replicas
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue using the ARM template",
-    "fileAttachmentHint": "Please attach a copy of the ARM template used.",
+    "title": "Issue adding or removing partitions or replicas",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_description",
@@ -36,34 +36,42 @@
             "required": true
         },
         {
-            "id": "operation",
+            "id": "arm_template",
             "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What scaling operation would you like to perform?",
+            "required": false,
+            "watermarkText": "Example: Add 1 parition and 2 replicas"
+        },
+        {
+            "id": "create_interface",
+            "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What operation are you trying to perform?",
+            "displayLabel": "What client did you use?",
             "watermarkText": "Choose an option",
+            "required": true,
             "dropdownOptions": [
                 {
-                    "value": "Create a new search service",
-                    "text": "Create a new search service"
+                    "value": "Azure Portal",
+                    "text": "Azure Portal"
                 },
                 {
-                    "value": "Scale a search service up or down",
-                    "text": "Scale a search service up or down"
+                    "value": "Powershell",
+                    "text": "Powershell"
                 },
                 {
-                    "value": "Modify an existing search service",
-                    "text": "Modify an existing search service"
+                    "value": "Azure CLI",
+                    "text": "Azure CLI"
                 },
                 {
-                    "value": "Permanently delete a search service",
-                    "text": "Permanently delete a search service"
+                    "value": "Custom client using the Management API or SDK",
+                    "text": "Custom client using the Management API or SDK"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Don't Know"
                 }
-            ],
-            "required": true
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
