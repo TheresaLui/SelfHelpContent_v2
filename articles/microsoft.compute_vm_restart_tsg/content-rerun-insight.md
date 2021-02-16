@@ -18,7 +18,7 @@
 # How to check if ASC insight is correct
 
 1. Go to the ASC portal and on the Case Overview, make sure everything is accurate for insights
-2. If the Support Topic or selected resource is not correct or even the selected resource/VM Name is incorrect, select the correct support topic and resource with Edit & Run Again. 
+2. **If the Support Topic or selected resource is not correct or even the selected resource/VM Name is incorrect, select the correct support topic and resource with Edit & Run Again.**
 3. Once you specify the correct ones, the insight analyzer will be triggered again. 
 4. In several minutes, you will get the new insights result. 
 5. After it finishes, please review the insights result again.
@@ -26,5 +26,3 @@
 7. They may appear with two types of titles: **VM RESTART DETECTED** or **SERVICE HEALTH**
 
 *Note* Go through the RCAs listed (if any) and make sure to verify the timeline. Multiple events can happen within even one hour. Focus on what happened within 15 minutes +/- from the given time stamp)
-
-*DIRK NOTE*: Start time of issue, subscription ID -- if changed, re-run insights
