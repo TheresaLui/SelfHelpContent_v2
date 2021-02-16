@@ -13,15 +13,15 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
-## **Recommended Steps**
+Most customers can add external identity providers to their application using the following steps.
 
-Most customers can add external identity providers to their application using the following information.
+## **Recommended Steps**
 
 You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. 
 
 1. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider).
 
-1. Review this [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers).
+1. To add identity providers to your B2C apps, review [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers).
 
 
 ### **Useful Links** 
