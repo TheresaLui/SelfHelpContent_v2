@@ -153,7 +153,7 @@
     {
       "id": "d0a3c9bf-1771-7880-633c-fa098d79fdb6",
       "longDescription": "",
-      "shortDescription": "Questions from developers regarding how to use B2C with a Microsoft implemented library.",
+      "shortDescription": "Questions regarding how to use B2C with a Microsoft implemented library.",
       "searchTags": "questions of how to use B2C MS libraries",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
