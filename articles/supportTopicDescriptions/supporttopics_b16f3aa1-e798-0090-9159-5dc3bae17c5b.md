@@ -41,7 +41,7 @@
     {
       "id": "0c92e5e2-fe1f-e598-48e5-dc53c326eddc",
       "longDescription": "",
-      "shortDescription": "Questions regarding Azure AD B2C directories or Azure AD B2C subscription management.",
+      "shortDescription": "Questions regarding Azure AD B2C User Flow",
       "searchTags": "Questions re Azure AD B2C",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
