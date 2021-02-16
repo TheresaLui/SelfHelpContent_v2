@@ -169,8 +169,8 @@
     {
       "id": "db033092-1023-0b41-0517-41ffb61c7a56",
       "longDescription": "",
-      "shortDescription": "Questions regarding identity experience framework user flow issues which are not listed.",
-      "searchTags": "issues with IEF user flows ",
+      "shortDescription": "Questions regarding collecting and analyzing diagnostic logs from Azure AD B2C with custom policies",
+      "searchTags": "diagnostic logs",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
