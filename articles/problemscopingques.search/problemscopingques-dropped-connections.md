@@ -59,7 +59,7 @@
                     "text": "Postman"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
@@ -81,7 +81,7 @@
                     "text": "No"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
@@ -103,7 +103,7 @@
                     "text": "Private"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ]

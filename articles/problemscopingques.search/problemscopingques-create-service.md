@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Issue creating a Search service"
-	description="Issue creating a Search service"
+	pageTitle="Issue creating a search service"
+	description="Issue creating a search service"
 	authors="mcarter"
 	ms.author="mcarter"
 	selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@
 	articleId="19ac41e7-7222-41c2-bb18-1542db3661d6"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# Issue creating a Search service
+# Issue creating a search service
 ---
 {
     "subscriptionRequired": true,
@@ -23,13 +23,21 @@
             "id": "create_error_message",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
+            "displayLabel": "Describe the issue you experienced",
+            "useAsAdditionalDetails": true,
             "required": false,
-            "useAsAdditionalDetails": true
+	    "watermarkText":"Please provide the full error text when possible."
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did you last receive an?",
+            "required": true
         },
         {
             "id": "create_interface",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What client did you use to create the service?",
             "watermarkText": "Choose an option",
@@ -59,7 +67,7 @@
         },
         {
             "id": "create_before",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": :"Did you previously have a search service by the same name?",
             "watermarkText": "Choose an option",
@@ -77,21 +85,6 @@
                     "text": "Don't Know"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Additional details",
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 5,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did you last attempt to create the service?",
             "required": true
         }
     ],

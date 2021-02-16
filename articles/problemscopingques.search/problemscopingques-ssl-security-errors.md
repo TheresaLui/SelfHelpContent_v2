@@ -51,7 +51,7 @@
                     "text": "No"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
@@ -81,11 +81,11 @@
                     "text": "Postman"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "ip_firewall",
@@ -103,11 +103,11 @@
                     "text": "No"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "private_mode",
@@ -125,11 +125,11 @@
                     "text": "Private"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
             ],
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
