@@ -17,9 +17,11 @@
 
 Most customers can add external identity providers to their application using the following information.
 
-Yes. You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Review [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
+You can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. 
 
-Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider).
+1. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider).
+
+1. Review this [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers).
 
 
 ### **Useful Links** 
@@ -30,10 +32,6 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 
- 
-
 * Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
-
- 
 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
