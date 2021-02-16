@@ -263,6 +263,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b1e47430-7f9f-8f5f-0cfb-76026aaabf0f",
+      "longDescription": "",
+      "shortDescription": "Playbook downloaded from Github gallery not working as expected",
+      "searchTags": "Playbook;Github;Template",
+      "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
       "longDescription": "",
       "shortDescription": "Workspace creation failures",
