@@ -25,7 +25,7 @@
     {
       "id": "09ad8304-0e41-586d-81e5-05044d64b715",
       "longDescription": "",
-      "shortDescription": "Questions from developers regarding the usage of MS Graph API calls to manage B2C information",
+      "shortDescription": "Questions regarding usage of MS graph API calls to manage B2C information.",
       "searchTags": "usage of MS Graph to manage B2C info",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
