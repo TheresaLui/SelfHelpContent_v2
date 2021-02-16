@@ -113,7 +113,7 @@
     {
       "id": "9ccead8a-2fee-5e34-f427-c4a64a269afd",
       "longDescription": "",
-      "shortDescription": "Problems linking or changing the Azure AD B2C Azure subscription used for billing.",
+      "shortDescription": "Questions regarding the branding of Azure AD B2C UI with HTML, CSS and Java script, language and email customization",
       "searchTags": "Issues Modifying B2C subscription",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
