@@ -2,7 +2,7 @@
   pagetitle="V2 Data Factory - Cannot Publish Changes"
   service=""
   resource=""
-  ms.author="hecepeda,vimals"
+  ms.author="hecepeda,vimals,haoc"
   selfhelptype="Generic"
   supporttopicids="32629446"
   resourcetags=""
@@ -18,9 +18,11 @@
 
 * Refer this article to check [Roles and Permissions](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) <br>
 
-* If you are getting an error **_Unable to publish because the resource group or the Factory contains a lock._** while publishing changes to the Data Factory, it is because of the [delete lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources) on the Resource Group. To resolve this error, delete the lock on the Resource Group and then publish changes to Data Factory. You may reapply the lock after the changes are published successfully. <br>
+**_Unable to publish because the resource group or the Factory contains a lock._**
+* This error is due to the [delete lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources) placed on the Resource Group. To resolve this error, delete the lock on the Resource Group and then publish changes to Data Factory. You may reapply the lock after the changes are published successfully. <br>
 
-
+**_Failed to save the ARM template in Git since it's size exceeds "xx MB". Please use linked templates instead if you need to do CI/CD integration._** 
+This error is due to ARM template size exceeding 4MB. See how to use [Linked Resource Manager Template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) feature to break down the entire factory payload into several files so that you aren't constrained by the limits.
 
 ### __Common Errors__
 
