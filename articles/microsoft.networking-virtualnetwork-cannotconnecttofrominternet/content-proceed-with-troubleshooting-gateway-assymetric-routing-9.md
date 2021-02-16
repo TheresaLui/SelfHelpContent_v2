@@ -17,11 +17,11 @@
 
 Depending on the scenario, platform routes can be learned from components such as Vnet Peering, Express Route Gateway, VPN Gateway, that get plumbed into the NIC effective routes, including a 0.0.0.0/0 (forced tunneling).  We need to be aware how a particular destination is being learn from and be mindful of how Azure selects a route. Ie. A particular longer prefix can be learned from BGP propagation, conflicting the intended destination, and causing asymmetric routing. Document the next hop IP and identify what is the component 
 
-#Recommended Steps
+## Recommended Steps
 
 1. Navigate to the destination VM in ASC Resource Explorer
-2.  Select the ""Diagnostics"" Tab
-3.  Select the  ""Test Traffic""
+2. Select the ""Diagnostics"" Tab
+3. Select the  ""Test Traffic""
 4. Fill out the required boxes. (Highlight ""i"" icon for tips if you are unsure of any box)
 5. Click ""Run"" for results
 6. Review the next hop on STATELESS LAYER to determine what the IP of the Next Hop is and what is VFP LAYER is following
@@ -32,13 +32,13 @@ Depending on the scenario, platform routes can be learned from components such a
 - ROUTE TARGET INTERNET
 
 
-#Reccommended Documents
+## Reccommended Documents
 
-1.(ASC  TestTraffic )[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic]"
+1. [ASC  TestTraffic ](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
 
-#Reccommended Documents
+## Reccommended Documents
 
-1.https://docs.microsoft.com/en-us/azure/virtual-network/diagnose-network-routing-problem
+1. https://docs.microsoft.com/en-us/azure/virtual-network/diagnose-network-routing-problem
 2. https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#how-azure-selects-a-route
 3. https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#default-route
 

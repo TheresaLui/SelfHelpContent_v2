@@ -2,7 +2,7 @@
   pagetitle="Azure pipelines issues while making use of Approvals, gates, and checks&#xD;"
   service="microsoft.visualstudio"
   resource="account"
-  ms.author="v-abiss,vimalt"
+  ms.author="v-abiss,vimalt,cathmill"
   selfhelptype="Generic"
   supporttopicids="32742291"
   resourcetags=""
@@ -12,21 +12,26 @@
   ownershipid="Azure_DevOps_Services" />
 # Azure pipelines issues while making use of Approvals, gates, and checks
 
+Most users can resolve issues with Azure Piplines regarding approvals, gates, and checks by using the following information.
+
 ## **Recommended Steps**
 
-Are you facing one of these common problems?
+* Unable to determine how to configure a Release Gate to get the needed Build & WorkItem information <br>
+See [deploy using Approvals](https://docs.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops).
 
-* Unable to determine how to configure a Release Gate to get the needed Build & WorkItem information? [Refer to this document](https://docs.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops).
+* How to approve pipeline without navigating to the Azure DevOps portal<br> 
+The only way to complete (that is, list or update) approvals without going to the Azure DevOps website is to invoke the REST APIs. You'll need to get approval ID by listing all pending approvals before completing it. Approving from the web page is the simplest way.
 
-* How to approve pipeline without navigating to the Azure DevOps portal? Invoking the **REST APIs** to list/update approvals is the only way to complete approvals without going to the Azure DevOps website. You'll need to get approval ID by listing all pending approvals before completing it. Approving from the web page is the simplest way.
+* Unable to change the approval and security settings for the pipelines<br>
+Ensure that the user has the right permissions. Also, make sure the user is added to the group that has sufficient permissions to change the required settings.
 
-* Unable to change the approval and security settings for the pipelines? Ensure that the concerned user has the right permissions and also make sure the user is added to the right group which has sufficient permissions to change the required settings.
+* Revalidation error when the users select **Approve** in the Azure DevOps Pipeline <br>
+Clear the cookies and cache on the browser to resolve this issue.
 
-* Revalidation Error when the users click **Approve** in Azure DevOps Pipeline? Clearing the cookies & cache on the browser should resolve this issue.
+* Unable to see a **gate/check** in the UI <br>
+You can add additional gates to your organization by using [marketplace extensions](https://marketplace.visualstudio.com/azuredevops). Installing the correct extension will help you select the missing gate.
 
-* Unable to see a **gate/check** in the UI? You can add additional Gates to your organization using [marketplace extensions](https://marketplace.visualstudio.com/azuredevops). Installing the right extension would help you select the missing gate.
-
-We do not have support for adding custom checks through extensions. We recommend modelling **Invoke REST API** or **Invoke Azure Function** check to work with the service of your choice.
+We don't have support for adding custom checks through extensions. We recommend modeling an **Invoke REST API** or an **Invoke Azure Function** check to work with the service of your choice.
 
 ## **Recommended Documents**
 
@@ -35,4 +40,5 @@ We do not have support for adding custom checks through extensions. We recommend
 * [Release deployment control using gates](https://docs.microsoft.com/azure/devops/pipelines/release/approvals/gates?view=azure-devops)
 * [Use approvals and gates to control your deployment](https://docs.microsoft.com/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops)
 * [Release deployment control using approvals](https://docs.microsoft.com/azure/devops/pipelines/release/approvals/approvals?view=azure-devops)
-* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* For service impacting issues, check the [Azure DevOps Services Status](https://status.dev.azure.com)
+* For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

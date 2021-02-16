@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software - NodeFault - Defrag - Service Healed"
+	description="Root Cause Analysis (RCA) - Software - Service Healed"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -20,12 +20,12 @@
 
 ## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time, RDP and SSH connections to the VM, or requests to any other services running inside the VM, may have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The unplanned maintenance action was required to ensure the overall health of the Azure Platform. This caused your VM to get rebooted.
+> The unplanned maintenance action was required to ensure the overall health of the Azure Platform. This caused your VM to be rebooted.
 > 
 
 <!--resolutionDetails-->

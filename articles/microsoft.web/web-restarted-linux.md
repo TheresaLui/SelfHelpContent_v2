@@ -1,20 +1,17 @@
 <properties
-	pageTitle="Availability, Performance, and Application Issues/Web app restarted"
-	description="Availability, Performance, and Application Issues/Web app restarted"
-	service="microsoft.web"
-	resource="sites"
-	authors="cts-shrahman, cts-shrahman"
-    ms.author="shrahman,toan"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32570954"
-	resourceTags=""
-	productPesIds="16170,16333"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="5b4b0b9e-cc93-4a3d-9d93-fa45c80dc723"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="Web app restarted&#xD;"
+  description="Availability, Performance, and Application Issues/Web app restarted"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="toan,shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32570954"
+  resourcetags=""
+  productpesids="16170,16333"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="5b4b0b9e-cc93-4a3d-9d93-fa45c80dc723"
+  ownershipid="Compute_AppService" />
 # Web app restarted
 
 ## **Recommended Documents**

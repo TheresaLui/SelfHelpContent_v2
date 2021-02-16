@@ -8,7 +8,7 @@
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Set pg_stat_statements.track = NONE to improve PostgreSQL database performance
+# Set parameter pg_stat_statements.track = NONE to improve PostgreSQL database performance
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
