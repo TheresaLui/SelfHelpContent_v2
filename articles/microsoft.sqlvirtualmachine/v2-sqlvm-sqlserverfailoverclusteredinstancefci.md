@@ -16,7 +16,7 @@
 Resolve issues with SQL Failover Clustered Instance (FCI) using these steps.
 
 
-## Recommended Steps**
+## Recommended Steps
 
 To set up FCI:
 
@@ -25,7 +25,8 @@ To set up FCI:
 1. Relax [cluster network thresholds](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)  
 1. Use [single NIC on the VMs](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#considerations)
 1. Create FCI using one of the following:
-   - [Azure Shared Disk](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-azure-shared-disks-manually-configure?tabs=windows2012)    - [Storage Spaces Direct(S2D)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-storage-spaces-direct-manually-configure?tabs=windows2012)
+   - [Azure Shared Disk](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-azure-shared-disks-manually-configure?tabs=windows2012)
+   - [Storage Spaces Direct(S2D)](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-storage-spaces-direct-manually-configure?tabs=windows2012)
    - [Premium file share](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-premium-file-share-manually-configure?tabs=windows2012)
 1. Create client access using [VNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure) or [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-distributed-network-name-dnn-configure). For DNN, review [feature interoperability](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-dnn-interoperability).
 
@@ -39,8 +40,8 @@ To set up FCI:
 - The probe port (such as 59999) used is free in all nodes
 - [Floating IP (direct server return) for load- balancing rule](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#set-load-balancing-rules) is **Enabled**
 - You ran the [cluster probe PowerShell with correct values](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#configure-cluster-probe) for your environment. To determine appropriate variables for [cluster probe PowerShell](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-vnn-azure-load-balancer-configure#configure-cluster-probe), use the following:
-   * **Cluster Network Name:** In Failover Cluster Manager > Networks, right-click the network and select **Properties**. The correct value is under Name on the General tab.
-   * **SQL Server FCI/AG listener IP Address Resource Name**: In Failover Cluster Manager > Roles, under the SQL Server FCI role, under Server Name, right-click the IP address resource and select **Properties**. The correct value is under Name on the General tab.
+   * **Cluster Network Name:** In **Failover Cluster Manager** > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
+   * **SQL Server FCI/AG listener IP Address Resource Name**: In **Failover Cluster Manager** > **Roles**, under the **SQL Server FCI** role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab.
    * **ILBIP**: Find this in Failover Cluster Manager on the same properties page where you located the **<SQL Server FCI/AG listener IP Address Resource Name>**.
    * **nnnnn**: The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
 
