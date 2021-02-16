@@ -65,8 +65,8 @@
     {
       "id": "1c3a0b23-fca7-5001-ec77-0715a416a675",
       "longDescription": "",
-      "shortDescription": "Questions regarding Azure AD B2C user management, and auditing reports.",
-      "searchTags": "issue with B2C user management",
+      "shortDescription": "Questions regarding Azure AD B2C directories or subscription management and Azure    AD B2C user management.",
+      "searchTags": "Azure AD B2C directories;subscription management;AD B2C user management",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
