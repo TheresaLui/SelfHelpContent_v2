@@ -56,7 +56,7 @@ To set up FCI:
    Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";
    "ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}         
    ```
-### SQL IaaS Extension on FCI** 
+### SQL IaaS Extension on FCI
 FCI on Azure VM only supports lightweight management mode. [Learn more](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/failover-cluster-instance-azure-shared-disks-manually-configure?tabs=windows2012#register-with-the-sql-vm-rp).
 
 
