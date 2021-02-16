@@ -19,15 +19,15 @@
 
 ## **Recommended Steps**
 
-- For issue **Job could not be started as another job was in progress**, review following options to resolve:
-  - [Follow these guidelines to prevent job from overlapping](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#job-could-not-be-started-as-another-job-was-in-progress)
-  - [Check if the previous job ran in unoptimized mode and is taking longer time than expected](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backup-job-running-in-unoptimized-mode)
+- If the **job could not be started because another job was in progress**, review the following options to resolve the issue:
+  - [Follow these guidelines to prevent jobs from overlapping](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#job-could-not-be-started-as-another-job-was-in-progress)
+  - [Check if the previous job ran in unoptimized mode and is taking a longer time than expected](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backup-job-running-in-unoptimized-mode)
 - [Ensure your OS is supported and has the latest updates](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#supported-operating-systems)
-- [Ensure Microsoft Azure Recovery Services (MARS) Agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/backup/upgrade-mars-agent)
+- [Ensure Microsoft Azure Recovery Services (MARS) Agent is up-to-date before troubleshooting further](https://docs.microsoft.com/azure/backup/upgrade-mars-agent)
 - [Ensure there is network connectivity between MARS agent and Azure](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup)
-- Ensure Microsoft Azure Recovery Services is running (in Service console). If required restart and retry the operation
-- [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder), If you back up Windows System State, ensure there is 30-35 GB of free space in the volume containing the cache folder.
-- [Check if another process or antivirus software is interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) 
+- Ensure Microsoft Azure Recovery Services is running (in Service console). If required, restart and retry the operation.
+- [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder). If you back up Windows System State, ensure there is 30-35 GB of free space in the volume containing the cache folder.
+- [Check if another process or antivirus software is interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup).
 - [Scheduled backup fails, but manual backup works](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backups-dont-run-according-to-schedule)
 - [Troubleshooting common Azure Backup agent issues](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
 - [Backup Jobs Completed with Warning](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backup-jobs-completed-with-warning)
