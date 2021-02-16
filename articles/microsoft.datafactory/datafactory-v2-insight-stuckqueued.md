@@ -22,9 +22,9 @@
 ## We ran diagnostics on your resource and found the following
 
 <!--issueDescription-->
-Based on the Run ID provided we can see there are other runs as InProgress status at the same time for the Pipeline <!--$pipelineName-->[pipelineName]<!--/$pipelineName-->. The reason for the long Queued status might be due to Pipeline concurrency setting.
+Based on the Run ID provided, we see that there are other runs in `InProgress` status at the same time for the Pipeline <!--$pipelineName-->[pipelineName]<!--/$pipelineName-->. The reason for the long Queued status might be due to Pipeline concurrency setting.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Please, check the concurrency setting in Pipeline <!--$pipelineName-->[pipelineName]<!--/$pipelineName-->. Remove the concurrency value or set the concurrency value to a larger number.
+Check the concurrency setting in Pipeline <!--$pipelineName-->[pipelineName]<!--/$pipelineName-->. Remove the concurrency value or set the concurrency value to a larger number.
