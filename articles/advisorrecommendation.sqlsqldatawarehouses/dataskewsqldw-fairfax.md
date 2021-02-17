@@ -37,7 +37,7 @@
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
+  "version": 3.1,
   "learnMoreLink": "https://aka.ms/learnmoredataskew",
   "description": "Remove data skew to increase query performance",
   "longDescription": "We have detected distribution data skew greater than 15%. This can cause costly performance bottlenecks.",
