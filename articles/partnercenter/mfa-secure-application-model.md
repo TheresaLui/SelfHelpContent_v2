@@ -13,9 +13,9 @@
 	supportTopicIds="32725796"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17002"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # Getting started and troubleshooting MFA
