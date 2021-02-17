@@ -28,7 +28,7 @@
 
 * Existing VNet Integration does not support: Mounting a drive, AD integration, NetBios, private site access, accessing resources across ExpressRoute, accessing resources across Service Endpoints. 
 
-* Q. Why does tcpping in the Kudu console results on "Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions"? <br>
+* Q: Why does tcpping in the Kudu console results on "Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions"? <br>
 
 	A: This could happen because the IP address you are trying to connect to is not included on the "IP ADDRESSES ROUTED TO VNET" section of the Networking blade of the App Service Plan. For more info see [Managing the VNet Integrations](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-the-vnet-integrations). <br>
 
