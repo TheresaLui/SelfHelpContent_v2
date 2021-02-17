@@ -134,8 +134,8 @@
     {
       "id": "d1cd8813-7325-bafd-b4af-242c101b60ef",
       "longDescription": "",
-      "shortDescription": "Questions about expiry date of MPN benefits ",
-      "searchTags": "MPN;Benefits;Competencies",
+      "shortDescription": "Questions about expiry date of MPN benefits",
+      "searchTags": "MPN;Subscription;Renewal;Benefits",
     },
     {
       "id": "d32449e1-db3d-3617-a6e4-5a71c6711605",
