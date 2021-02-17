@@ -34,7 +34,6 @@
             "displayLabel": "Please select the virtual machine you are facing connectivity issues with",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",

@@ -31,7 +31,7 @@ If the subscription is transferred to an account in a different Azure AD tenant,
 
 - [Management certificates](https://docs.microsoft.com/azure/cloud-services/cloud-services-certs-create) that grant the user admin rights to subscription resources
 - Access keys for services such as [Storage](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
-- Remote Access credentials for services such as Azure Virtual Machines
+- Remote Access credentials for services such as Azure Virtual Machines 
 
 If the recipient needs to restrict access to their Azure resources, they should consider updating any secrets associated with the service. Most resources are be updated by using the following steps:
 
