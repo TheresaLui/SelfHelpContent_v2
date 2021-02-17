@@ -49,9 +49,9 @@
     {
       "id": "0841d719-92e3-4696-c2c7-454084c8fb58",
       "longDescription": "",
-      "shortDescription": "Connecting to workspaces is not working or taking too long",
-      "searchTags": "connecting;workspace",
-      "category": "Performance",
+      "shortDescription": "Issues with onboarding to Azure Sentinel or connecting to a workspace",
+      "searchTags": "connecting;workspace;Onboarding",
+      "category": "Onboarding",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -68,6 +68,14 @@
       "shortDescription": "How to add fields to Workbooks",
       "searchTags": "Fields;Workbooks",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
+      "longDescription": "",
+      "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
+      "searchTags": "Alert;Rule;Entity;Map",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -255,11 +263,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9077aeea-0253-5ec1-5bb5-590f292c3c49",
+      "longDescription": "",
+      "shortDescription": "The playbook did not trigger as I expected",
+      "searchTags": "Playbook;Trigger",
+      "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "91b2a910-4c63-b45a-8f7b-be8fabae2849",
+      "longDescription": "",
+      "shortDescription": "Questions on how to setup a notebook",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
       "searchTags": "Support",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b1e47430-7f9f-8f5f-0cfb-76026aaabf0f",
+      "longDescription": "",
+      "shortDescription": "Playbook downloaded from Github gallery not working as expected",
+      "searchTags": "Playbook;Github;Template",
+      "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -356,6 +388,14 @@
       "shortDescription": "Troubleshoot and understand Threat Hunting queries",
       "searchTags": "threathunting",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e7686dc3-69a6-3d92-a048-f4a794d64e25",
+      "longDescription": "",
+      "shortDescription": "Problems with creating a playbook or achieving a specific scenario with playbooks",
+      "searchTags": "Playbook",
+      "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
     {
