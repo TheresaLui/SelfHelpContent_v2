@@ -15,7 +15,7 @@
 />
 
 
-# Apollo template 
+# Solutions 2.0 template 
 <br> 
 <!--Required Title in Level 1 heading for internal reference only--> 
 
