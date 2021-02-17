@@ -1,4 +1,4 @@
-<!--DIRECTIONS: Copy the raw form of this article to create Apollo solutions for the Azure self-help platform. Include the required properties, title, and body sections in the order shown. Use markdown, except where XML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
+<!--DIRECTIONS: Open the raw form of this article to view template guidelines for creating Solutions 2.0 (Apollo) articles for Azure Self-help. Copy the raw form to create your own solutions outside of Elixir. Make sure to include the required properties, title, and body sections in the order shown. Use markdown, except where XML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
 
 <!--For information about each property, see the Metadata page-->
 <properties
