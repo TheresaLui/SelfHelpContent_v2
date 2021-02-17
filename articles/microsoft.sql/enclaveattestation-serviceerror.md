@@ -36,7 +36,7 @@ Before a client driver submits a T-SQL statement to Azure SQL logical server for
 ## **Recommended Steps**
 
 The validation of the attestation policy failed (in step 3 of the above workflow). It might be due to:
-- An incorrect attestation policy is the likely root cause. Make sure you're using the Microsoft-recommended policy. For more information, see [Create and configure an attestation provider](https://docs.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#create-and-configure-an-attestation-provider).
+- An incorrect attestation policy is the likely root cause. Make sure you're using the Microsoft-recommended policy. For more information, see [Create and configure an attestation provider](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#create-and-configure-an-attestation-provider).
 - The policy validation may also fail as a result of a security breach compromising the server-side enclave.
 ## **Recommended Documents**
 
