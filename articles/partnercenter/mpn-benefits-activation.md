@@ -4,7 +4,7 @@
   resource="csp"
   ms.author="keramp"
   selfhelptype="Generic"
-  supporttopicids="32725801,32725862"
+  supporttopicids="32725862"
   resourcetags="csp"
   productpesids="17000,17007"
   cloudenvironments="public,fairfax,usnat,ussec"

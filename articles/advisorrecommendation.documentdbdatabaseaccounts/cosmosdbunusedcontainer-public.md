@@ -25,7 +25,7 @@
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBOptimizeUnusedContainer",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
