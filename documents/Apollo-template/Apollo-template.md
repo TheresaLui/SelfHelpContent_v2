@@ -24,12 +24,12 @@ Authoring guidelines and sample schemas are provided in this template.
 
 ## Title - Required
 
-<!--Clearly and concisely state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
+<!--Level 2 Heading required; all other headings use level 3 headings. Clearly and concisely state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-## Body - Required
+### Body - Required
 
 <!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
 - For a solution-based article, define the issue and provide one or more solutions.  
@@ -44,13 +44,14 @@ Solutions can be comprised of the following components:
 - 
 Note: Solution elements can be presented as a list of expandable, accordian-like elements by using Section formatting. -->
 
-## Solution
-<!--Level heading 2 required. Solutions can include diagnostics, procedures, videos, and inline images.
-
 :::Section section_name:::
-<!--Section formatting is optional. Section tags enclose a solution in a collapsed element. This helps by making sections scannable and reduces the need to scroll. For longer articles that contain several solutions, consider containing each solution in a section.-->
+<!--Section formatting is optional. Use Section tags to enclose a solution in a collapsed element. Longer articles, in particular, may contain several solutions. Sections make these solutions scannable and reduce the need to scroll.-->
 
-## Procedures 
+### Solution
+<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images.
+
+
+### Procedures 
 <!--Level heading 2 required. Use when the solution is a task-based procedure.
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
@@ -117,7 +118,7 @@ Multiple video example:
        </videoGroup>
 -->
 
-## Useful links 
+### More resources 
 
 <!--Optional. Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 This is the Apollo schema for AzureKB articles:
@@ -129,26 +130,21 @@ Additional resources that may help you:
 </azureKB>
 You can also use Markdown syntax: [Description of document](URL)
 -->
-
-<!--Include the following text at the end of all topics.-->
-**Contact us**
-> If you’ve followed the preceding steps and are still experiencing the issue, file a support ticket at Help + support - Microsoft Azure. 
  
 
 <!--NOTE: THIS RULES LIST IS PENDING DECISIONS AROUND VALIDATION.
  RULES:
 * Provide the minimum requirements for title and body. (See each section for details.)
-* Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
-* Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Check product, feature, and service names for accuracy, including capitalization 
 * Spell out product, feature, and service names on first mention, followed by acronym in parentheses. 
+* Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
+* Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
 * Use “select,” not “click” 
 * Don’t use “please” 
 * Only bold UI elements (such as buttons, options) in your procedures. Do not use bold for emphasis.  
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
-* Enclose error messages in text in quotation marks 
+* Enclose error messages in quotation marks 
 * Insert a blank line after every heading
-* Insert an empty line before the first item and after the last item of all lists (ordered and unordered).
 * Don't use internal links, which users can't access. This includes review.microsoft.docs links and aka.ms links.
 -->
