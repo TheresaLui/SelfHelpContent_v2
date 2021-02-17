@@ -43,14 +43,14 @@
         {
             "id": "tabs_name",
             "order": 4,
-            "controlType": "Tab name",
+            "controlType": "textbox",
             "displayLabel": "Tab name",
             "required": false
         },
         {
             "id": "metric_name",
             "order": 5,
-            "controlType": "Metric name",
+            "controlType": "textbox",
             "displayLabel": "Metric name",
             "required": false
         },
