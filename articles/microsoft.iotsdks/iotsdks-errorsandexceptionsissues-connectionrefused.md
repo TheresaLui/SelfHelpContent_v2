@@ -13,7 +13,7 @@
   ownershipid="AzureIot_IotHub" />
 # Connection refuse issues
 
-Resolve most issues with connection refuse issues using the following steps.
+Resolve most connection refuse issues using the following steps.
 
 ## Recommended Steps
 
