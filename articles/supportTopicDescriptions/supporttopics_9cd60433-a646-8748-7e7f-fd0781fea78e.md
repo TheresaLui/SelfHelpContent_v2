@@ -351,6 +351,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c67a6d66-50d0-95db-d9ed-12c00ab32201",
+      "longDescription": "",
+      "shortDescription": "Having issues while using the Investigation feature ",
+      "searchTags": "Investigation",
+      "category": "Incident",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
