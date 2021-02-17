@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "353bcb88-3747-4a7a-8b1c-374117db5668",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.usseceast.kusto.core.microsoft.scloud').database('hdinsight').AllClustersInLastHr",
+    "streamNamespace": "cluster('https://hdinsight.usseceast.kusto.core.microsoft.scloud').database('hdinsightkustodb').AllClustersInLastHr",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
