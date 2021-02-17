@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636750,32636769,32636782,32636787,32741537,32783703,32636817,32636830,32636770,32636774,32688843,32783702,32741534,32746031,32675631,32783707,32675633,32783708,32675634,32675635,32675638,32636831,32747699,32636789,32783701,32783714,32636819,32738475"
+	supportTopicIds="32636750,32636769,32636782,32636787,32741537,32783703,32636817,32636830,32688843,32783702,32741534,32746031,32675631,32783707,32675633,32783708,32675634,32675635,32675638,32636831,32747699,32636789,32783701,32783714,32636819,32738475"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -26,42 +26,19 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
+       {
             "id": "database_name",
             "order": 2,
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Database name",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Database Name"
-                }
-            },
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "collection_name",
             "order": 3,
-            "visibility": "database_name != null",
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Collection name",
-            "dynamicDropdownOptions": {
-                "dependsOn": "database_name",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Collection Name"
-                },
-                "valuePropertyRegex":  "[^/]+$"
-            },
-            "required": true
+            "required": false
         },
 		{
             "id": "oss_api",

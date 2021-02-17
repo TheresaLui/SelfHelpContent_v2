@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636776,32681008,32681470,32636778"
+	supportTopicIds="32636776,32681008,32636778"
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -29,39 +29,16 @@
 		{
             "id": "database_name",
             "order": 2,
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Database name",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Database Name"
-                }
-            },
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "collection_name",
             "order": 3,
-            "visibility": "database_name != null",
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Collection name",
-            "dynamicDropdownOptions": {
-                "dependsOn": "database_name",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Collection Name"
-                },
-                "valuePropertyRegex":  "[^/]+$"
-            },
-            "required": true
+            "required": false
         },
 		{
 			"id": "problem_duration",
