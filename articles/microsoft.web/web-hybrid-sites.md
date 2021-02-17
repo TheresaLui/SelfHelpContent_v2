@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Things You Should Know: Web Apps and Hybrid Connections](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/)<br>
+* [Things You Should Know: Web Apps and Hybrid Connections](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/)<br>
 * [Update your Hybrid Connection Manager](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#UpdateHCM)<br>
 * [Don't Use an IP Address for Your Endpoint, and Be Careful with Fully-Qualified Names](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#NoIP)<br>
 * [Azure Relay Hybrid Connections Don't Work in Windows Server 2008 R2](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#NoR2)<br>
