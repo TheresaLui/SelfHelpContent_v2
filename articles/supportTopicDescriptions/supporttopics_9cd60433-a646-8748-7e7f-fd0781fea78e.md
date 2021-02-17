@@ -119,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "28adceb9-e5bd-75e3-73d8-762978a174a2",
+      "longDescription": "",
+      "shortDescription": "Problem with defining, managing, or deleting automation rules",
+      "searchTags": "automation;rules",
+      "category": "Automation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
       "longDescription": "",
       "shortDescription": "Diagnosing possible false positive incidents due to system errors",
