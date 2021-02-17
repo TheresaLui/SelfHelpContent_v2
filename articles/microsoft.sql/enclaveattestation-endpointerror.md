@@ -36,7 +36,7 @@ Before a client driver submits a T-SQL statement to Azure SQL logical server for
 ## **Recommended Steps**
 
 Your Azure SQL logical server is unable to connect to the attestation provider in Azure Attestation (step 2 of the above workflow), specified in the attestation URL. The likely causes include:
-- The attestation URL is incorrect or incomplete. For more information, see [Determine the attestation URL for your attestation policy](https://docs.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#determine-the-attestation-url-for-your-attestation-policy).
+- The attestation URL is incorrect or incomplete. For more information, see [Determine the attestation URL for your attestation policy](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#determine-the-attestation-url-for-your-attestation-policy).
 - The attestation provider has been accidentally deleted.
 - The firewall was configured for the attestation provider, but it doesn't allow access to Microsoft services.
 - An intermittent network error causes the attestation provider to be unavailable.

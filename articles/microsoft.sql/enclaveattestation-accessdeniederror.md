@@ -37,7 +37,7 @@ Before a client driver submits a T-SQL statement to Azure SQL logical server for
 
 ## **Recommended Steps**
 
-- Your Azure SQL logical server is not authorized to send attestation requests to the attestation provider. Make sure the administrator of your attestation provider has added the database server to the Attestation Reader role. For more information, see [Grant your Azure SQL database server access to your attestation provider](https://docs.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#grant-your-azure-sql-database-server-access-to-your-attestation-provider).
+- Your Azure SQL logical server is not authorized to send attestation requests to the attestation provider. Make sure the administrator of your attestation provider has added the database server to the Attestation Reader role. For more information, see [Grant your Azure SQL database server access to your attestation provider](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#grant-your-azure-sql-database-server-access-to-your-attestation-provider).
 
 ## **Recommended Documents**
 
