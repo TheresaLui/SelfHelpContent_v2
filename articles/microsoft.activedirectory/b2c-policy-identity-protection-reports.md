@@ -27,34 +27,48 @@ Also, by using **DisplayControls** (currently in preview) and the third-party em
 
 ### **For my customers, can I generate and send a code to a phone number, and then verify the code?** 
 
-Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Review these [Steps to define an Azure AD MFA technical profile ](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile).  
+Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Review these [Steps to define an Azure AD MFA technical profile](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile).  
 
+### **Conditional Access in B2C requires the configuration of two elements**
+1. **User flow.** Must use next generation user flows which support Conditional Access policies. These are labelled as **recommended**.
 
-### **Can I use Conditional Access Policies for my Azure Active Directory B2C tenant?** 
+2. **Conditional Access policy.** [Create a Conditional Access policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) and specify the apps and users in scope for the policy.
 
-Yes, you can create Conditional Access policies that use these risk detections to determine actions and enforce organizational policies. [Set up Identity Protection and Conditional Access for Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup).
+When using custom policies, you must refer to the [github sample](https://github.com/azure-ad-b2c/samples/tree/master/policies/conditional-access).
 
-### **Can I integrate Conditional Access with user flows and custom policies?** 
+### **How can I test my Conditional Access policy?**  
+For testing, reduce the scope of the conditional access policy to one AAD B2C user and one AAD B2C application.  Create a next generation user flow (recommended), making sure that the conditional access box is selected (default).  Use Run Now to test your policy under various situations.
 
-[Learn how to Add Conditional Access to custom policy in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-user-flow?pivots=b2c-custom-policy). 
+#### **Is report only mode supported?**
+Yes
 
+### **How can I tell if the CA policy was active for a given authentication?**
+Conditional Access policy activity is reported here: In your B2C tenant, Audit logs., Service: B2C, Category: Identity Protection. Look for Evaluate ….. and  Remediate response. 
 
-### **Identity Protection dashboard**
-Your investigation into risk will typically start with the Identity Protection dashboard. <br>
-The dashboard gives you access to:<br>
+### **How can I choose between an MFA with TXT or MFA with email?**
 
-* Reports such as [Risky users](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risky-users), [Risky sign-ins](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risky-sign-ins), and [Risk detections](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risk-detections)
+Learn about it at [Resilient end-user experience](https://docs.microsoft.com/azure/active-directory/fundamentals/resilient-end-user-experience)
+ 
 
-* Configuration settings for your Security Policies, [Notifications](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications?WT.mc_id=Portal-Microsoft_Azure_Support), and [multi-factor authentication registration](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy?WT.mc_id=Portal-Microsoft_Azure_Support)
+### **Identity Protection**
 
-In addition to investigation, you can configure an automated response for specific sign-in risk levels through the [sign-in risk policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup#to-create-a-conditional-access-policy). In your response, you can block access to your resources or require passing a [multi-factor authentication (MFA) challenge](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy?WT.mc_id=Portal-Microsoft_Azure_Support) to gain access.
+Your investigation into risk will often include:
+* Reports such as [Risky users](https://docs.microsoft.coms/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risky-users) and [Risk detections](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risk-detections)
+
+* Sign-in events in the [B2C Audit Logs](https://docs.microsoft.com//azure/active-directory-b2c/view-audit-logs)
+
+* Configuration settings for your [technical profiles, user flows, custom policies](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-technical-profile)
+
+* Configuration settings for your Conditional Access policies
 
 
 ### **Useful Links** 
 
 * [Set up Identity Protection and Conditional Access in Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) to provide ongoing risk detection for your Azure AD B2C tenant. 
 
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+* [What is risk?](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-risks)
+
+* [Identity Protection policies](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-policies)
 
 * Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
