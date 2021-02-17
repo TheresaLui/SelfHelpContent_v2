@@ -24,7 +24,7 @@ Authoring guidelines and sample schemas are provided in this template.
 
 ## Title - Required
 
-<!--Clearly state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
+<!--Clearly and concisely state the specific issue and how the article addresses it. Use sentence capitalization for all headings (capitalize only the first word). 
 Example: "Resolve issues related to configuring NetApps by reviewing these best practices." <br>
 Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
@@ -40,10 +40,15 @@ Solutions can be comprised of the following components:
 - Images
 - Diagnostics  
 - Videos 
-- AzureKB and document links-->
+- AzureKB and document links
+- 
+Note: Solution elements can be presented as a list of expandable, accordian-like elements by using Section formatting. -->
 
 ## Solution
-<!--Level heading 2 required. Solutions can include diagnostics, procedures, videos, and inline images.-->
+<!--Level heading 2 required. Solutions can include diagnostics, procedures, videos, and inline images.
+
+:::Section section_name:::
+<!--Section formatting is optional. Section tags enclose a solution in a collapsed element. This helps by making sections scannable and reduces the need to scroll. For longer articles that contain several solutions, consider containing each solution in a section.-->
 
 ## Procedures 
 <!--Level heading 2 required. Use when the solution is a task-based procedure.
@@ -72,7 +77,7 @@ Example:
 -->
 
 ### Images
-<!--No heading required. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
+<!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
 ![alt text](/images/image.png)
 -->
 
@@ -88,7 +93,7 @@ Example:
 -->
 
 ### Videos
-<!--Level 3 heading required. Include a caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
+<!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 <!--
 Single video example:
@@ -112,10 +117,13 @@ Multiple video example:
        </videoGroup>
 -->
 
-## Resources 
+## Useful links 
 
 <!--Optional. Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
 This is the Apollo schema for AzureKB articles:
+
+
+Additional resources that may help you:
 <azureKB>
 	<client>Portal</client>
 </azureKB>
