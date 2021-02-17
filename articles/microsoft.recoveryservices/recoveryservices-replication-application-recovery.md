@@ -14,9 +14,8 @@
   ownershipid="Compute_SiteRecovery" />
 # Application consistent recovery points are not being generated
 
-## **Recommended Documents**
 
-### **Common issues and solutions**
+## **Common issues and solutions**
 
 - No app-consistent recovery point available for the VM in the past "X" minute.
     - Check some of the most common issues causing this error for – 
