@@ -5,7 +5,7 @@
 	authors="taballa"
 	ms.author="taballa"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32641415"
+	supportTopicIds="TODO"
 	productPesIds="17319"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
