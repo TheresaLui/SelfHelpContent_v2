@@ -15,7 +15,7 @@
 
 The metrics shown in Azure Database for MySQL Flexible Server portal are numerical values that describe some aspect of a system at a particular point in time.
 
-Most users are able to resolve their issues after considering the following points.
+Most users can resolve their issues after considering the following points.
 
 ### Considerations
 
