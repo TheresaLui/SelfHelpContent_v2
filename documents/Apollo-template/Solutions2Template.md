@@ -19,7 +19,7 @@
 <br> 
 <!--Required Title in Level 1 heading for internal reference only--> 
 
-**Directions:** Copy the raw form of this article to create Apollo solutions. <br>
+**Directions:** Copy the raw form of this article to create Solution 2.0 (Apollo) articles. <br>
 Authoring guidelines and sample schemas are provided in this template.
 
 ## Title - Required
