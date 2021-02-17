@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636831,32636778,32747699,32636789,32783701,32783714,32636819,32738475,32636784"
+	supportTopicIds="32636831,32636778,32747699,32636789,32783701,32783714,32636819,32738475"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
 	schemaVersion="1"
