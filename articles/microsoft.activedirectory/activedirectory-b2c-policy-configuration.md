@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="vigunase"
+  ms.author="vigunase,nishring"
   selfhelptype="Generic"
   supporttopicids="32633328"
   resourcetags=""
@@ -15,44 +15,23 @@
 
 ## **Recommended Steps**
 
-Learn about [Azure AD B2C customization](https://docs.microsoft.com/azure/active-directory-b2c/direct-signin?pivots=b2c-custom-policy)
-
-### **I need to customize the user input**
-
-Learn more about how to [customize the user input with user flows and custom policies](https://docs.microsoft.com/azure/active-directory-b2c/configure-user-input?pivots=b2c-custom-policy)
-
-### **I need to add my company branding to Azure AD B2C pages**
-
-Learn more about [B2C custom policy](https://docs.microsoft.com/azure/active-directory-b2c/company-branding?pivots=b2c-custom-policy)
-
-### **I need fully brand the user experiences with HTML, CSS and JavaScript**
-
-Learn how to [bring your own HTML and CSS](https://docs.microsoft.com/azure/active-directory-b2c/customize-ui-with-html?pivots=b2c-custom-policy) and how to [embed your custom JavaScript in B2C pages](https://docs.microsoft.com/azure/active-directory-b2c/javascript-and-page-layout?pivots=b2c-custom-policy)
-
-### **I need to add language customization to Azure AD B2C pages**
-
-Learn how to [add language customization](https://docs.microsoft.com/azure/active-directory-b2c/language-customization?pivots=b2c-custom-policy)
-
-### **I need to enable Password Complexity**
-
-Azure AD B2C supports granular password complexity policies, in addition to the defaults that are supported in Azure AD. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/password-complexity?pivots=b2c-custom-policy). 
-
-### **I need to disable email verification**
-
-Although recommended for security purposes, some business requirements might require disabling email verification. [Learn more](https://docs.microsoft.com/azure/active-directory-b2c/disable-email-verification?pivots=b2c-custom-policy). 
-
 ### **Password reset link is not working**
 
-Currently, the combined "Sign-up or Sign-in policy" has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
+Currently, the combined **Sign-up or Sign-in policy** has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user selects the password reset link. There are two different mechanisms to implement password reset:
 
-1. **Use a Sign-in Policy**: No work required by the application. Selecting "I forgot my password" redirects the user automatically to a generic Microsoft-branded password reset page.
-1. **Handle the error**: This requires the application to do some extra work. Selecting "I forgot my password" redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
+1. **Use a Sign-in Policy**: No work required by the application. Selecting **I forgot my password** redirects the user automatically to a generic Microsoft-branded password reset page.
+1. **Handle the error**: This requires the application to do some extra work. Selecting **I forgot my password** redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
 
+### **Can I customize end user Sign up/Sign in flows?**
 
-## **Recommended Documents**
+Yes, to help you set up the most common identity tasks for your applications, the Azure AD B2C includes predefined, configurable policies called User flows. Get started by [creating a User Flow](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-* [Azure AD B2C policies](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)
-* [Best practices](https://docs.microsoft.com/azure/active-directory-b2c/best-practices)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. They are fully edited by an identity developer to complete many different tasks. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started?WT.mc_id=Portal-Microsoft_Azure_Support).
+
+### **Useful Links** 
+
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+
+* Learn more from our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+
+* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
