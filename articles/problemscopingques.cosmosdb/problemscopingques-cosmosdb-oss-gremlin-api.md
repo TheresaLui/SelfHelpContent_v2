@@ -1,23 +1,23 @@
 <properties
-	pageTitle="CosmosDB OSS Data Migration scoping questions"
-	description="CosmosDB OSS Data Migration questions"
+	pageTitle="CosmosDB OSS Gremlin API scoping questions"
+	description="CosmosDB OSS Gremlin API scoping questions"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636783,32636784,32636782"
+	supportTopicIds="32746031,32681008,32675631,32783707,32675633,32783708,32675634,32675635,32675638"
     productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+	cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="a7950f46-dd38-4407-b1aa-eaa8820ea264"
+	articleId="b13e6455-8181-4942-a8b8-56f56f98e28b"
 	ownershipId="AzureData_AzureCosmosDB"
 />
-# CosmosDB Data Migration
+# CosmosDB OSS Gremlin API
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "CosmosDB OSS API",
-    "fileAttachmentHint": "",
+    "title": "CosmosDB OSS Gremlin API",
+    "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -26,7 +26,7 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
+       {
             "id": "database_name",
             "order": 2,
             "controlType": "textbox",
@@ -48,24 +48,8 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Table",
-                    "text": "Azure Table"
-                },
-                {
-                    "value": "Cassandra API",
-                    "text": "Cassandra API"
-                },
-                {
-                    "value": "Core (SQL)",
-                    "text": "Core (SQL)"
-                },
-                {
                     "value": "Gremlin (Graph)",
                     "text": "Gremlin (Graph)"
-                },
-                {
-                    "value": "MongoDB",
-                    "text": "MongoDB"
                 },
                 {
                     "value": "dont_know_answer",

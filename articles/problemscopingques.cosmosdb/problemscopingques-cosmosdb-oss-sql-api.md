@@ -1,23 +1,23 @@
 <properties
-	pageTitle="CosmosDB OSS Data Migration scoping questions"
-	description="CosmosDB OSS Data Migration questions"
+	pageTitle="CosmosDB OSS SQL API scoping questions"
+	description="CosmosDB OSS SQL API scoping questions"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636783,32636784,32636782"
+	supportTopicIds="32636770,32636774,32783702,32741534"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="a7950f46-dd38-4407-b1aa-eaa8820ea264"
+	articleId="c506ee0d-d6c5-41fe-9690-36469cf91f2e"
 	ownershipId="AzureData_AzureCosmosDB"
 />
-# CosmosDB Data Migration
+# CosmosDB OSS SQL API
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "CosmosDB OSS API",
-    "fileAttachmentHint": "",
+    "title": "CosmosDB OSS SQL API",
+    "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -29,16 +29,39 @@
         {
             "id": "database_name",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Database name",
-            "required": false
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2021-01-15",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Database Name"
+                }
+            },
+            "required": true
         },
-        {
+		{
             "id": "collection_name",
             "order": 3,
-            "controlType": "textbox",
+            "visibility": "database_name != null",
+            "controlType": "dropdown",
             "displayLabel": "Collection name",
-            "required": false
+            "dynamicDropdownOptions": {
+                "dependsOn": "database_name",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2021-01-15",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Select Collection Name"
+                },
+                "valuePropertyRegex":  "[^/]+$"
+            },
+            "required": true
         },
 		{
             "id": "oss_api",
@@ -48,24 +71,8 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Table",
-                    "text": "Azure Table"
-                },
-                {
-                    "value": "Cassandra API",
-                    "text": "Cassandra API"
-                },
-                {
                     "value": "Core (SQL)",
                     "text": "Core (SQL)"
-                },
-                {
-                    "value": "Gremlin (Graph)",
-                    "text": "Gremlin (Graph)"
-                },
-                {
-                    "value": "MongoDB",
-                    "text": "MongoDB"
                 },
                 {
                     "value": "dont_know_answer",

@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "034610b7-e093-dbd9-0f6f-21cc7829bd45",
+      "longDescription": "",
+      "shortDescription": "Having issues while using the Investigation feature",
+      "searchTags": "issues;investigation",
+      "category": "Incidents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03663066-ac6c-fa02-52af-57ea49f2d6e1",
       "longDescription": "",
       "shortDescription": "Unable to see workspace in workspaces list",
@@ -119,6 +127,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "28adceb9-e5bd-75e3-73d8-762978a174a2",
+      "longDescription": "",
+      "shortDescription": "Problem with defining, managing, or deleting automation rules",
+      "searchTags": "automation;rules",
+      "category": "Automation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2f4cf1c0-f41e-cad1-d023-eff43f660d91",
       "longDescription": "",
       "shortDescription": "Diagnosing possible false positive incidents due to system errors",
@@ -188,6 +204,14 @@
       "shortDescription": "Troubleshooting the Investigation feature ",
       "searchTags": "investigation",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "502f0d89-f5bd-ccc8-d42b-34506727d3a4",
+      "longDescription": "",
+      "shortDescription": "Help with incident auditing, incident workbooks, and the Security Incidents table",
+      "searchTags": "audit;workbooks",
+      "category": "Incidents",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -335,11 +359,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c67a6d66-50d0-95db-d9ed-12c00ab32201",
+      "longDescription": "",
+      "shortDescription": "Having issues while using the Investigation feature ",
+      "searchTags": "Investigation",
+      "category": "Incident",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
       "searchTags": "alerts;rules",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cf61c9c5-eaad-045a-759e-614dadd1237b",
+      "longDescription": "",
+      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents, and adding comments",
+      "searchTags": "incident;comments;modify",
+      "category": "Incidents ",
       "useInDiagnoseAndSolve": "true"
     },
     {

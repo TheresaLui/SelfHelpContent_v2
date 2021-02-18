@@ -1,22 +1,22 @@
 <properties
-	pageTitle="CosmosDB OSS API scoping questions"
-	description="CosmosDB OSS API scoping questions"
+	pageTitle="CosmosDB OSS MongoDB API scoping questions"
+	description="CosmosDB OSS MongoDB API scoping questions"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636750,32636769,32636782,32636787,32741537,32783703,32636817,32636830,32636770,32636774,32688843,32783702,32741534,32746031,32675631,32783707,32675633,32783708,32675634,32675635,32675638,32636831,32747699,32636789,32783701,32783714,32636819,32738475"
+	supportTopicIds="32636831,32636778,32747699,32636789,32783701,32783714,32636819,32738475"
     productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+	cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
 	schemaVersion="1"
-	articleId="96cc9e16-5378-4d6e-a8c4-1b23c66994bf"
+	articleId="e64667cc-6397-4b0e-a698-ef40b950ab4e"
 	ownershipId="AzureData_AzureCosmosDB"
 />
-# CosmosDB OSS API
+# CosmosDB OSS MongoDB API
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "CosmosDB OSS API",
+    "title": "CosmosDB OSS MongoDB API",
     "fileAttachmentHint": "Please attach at least 20 stack traces with the exception message in a single flat text file.",
     "formElements": [
         {
@@ -26,42 +26,19 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
+       {
             "id": "database_name",
             "order": 2,
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Database name",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Database Name"
-                }
-            },
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "collection_name",
             "order": 3,
-            "visibility": "database_name != null",
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Collection name",
-            "dynamicDropdownOptions": {
-                "dependsOn": "database_name",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Collection Name"
-                },
-                "valuePropertyRegex":  "[^/]+$"
-            },
-            "required": true
+            "required": false
         },
 		{
             "id": "oss_api",
@@ -70,22 +47,6 @@
             "displayLabel": "Which API are you using?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
-                {
-                    "value": "Azure Table",
-                    "text": "Azure Table"
-                },
-                {
-                    "value": "Cassandra API",
-                    "text": "Cassandra API"
-                },
-                {
-                    "value": "Core (SQL)",
-                    "text": "Core (SQL)"
-                },
-                {
-                    "value": "Gremlin (Graph)",
-                    "text": "Gremlin (Graph)"
-                },
                 {
                     "value": "MongoDB",
                     "text": "MongoDB"
