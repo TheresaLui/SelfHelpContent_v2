@@ -36,7 +36,7 @@ Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone
 
 2. **Conditional Access policy.** [Create a Conditional Access policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) and specify the apps and users in scope for the policy.
 
-When using custom policies, you must refer to the [github sample](https://github.com/azure-ad-b2c/samples/tree/master/policies/conditional-access).
+When using custom policies, you must refer to the [GitHub sample](https://github.com/azure-ad-b2c/samples/tree/master/policies/conditional-access).
 
 ### **How can I test my Conditional Access policy?**  
 For testing, reduce the scope of the conditional access policy to one AAD B2C user and one AAD B2C application.  Create a next generation user flow (recommended), making sure that the conditional access box is selected (default).  Use Run Now to test your policy under various situations.
