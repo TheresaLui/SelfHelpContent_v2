@@ -38,7 +38,7 @@
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyExemptions?api-version=2020-07-01-preview",
                 "jTokenPath": "value",
-                "textProperty": "properties.displayName,name",
+                "textProperty": "properties.displayName,id",
                 "textTemplate": "{properties.displayName}  ({id})",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
