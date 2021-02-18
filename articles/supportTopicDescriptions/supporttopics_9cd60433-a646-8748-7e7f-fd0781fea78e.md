@@ -479,6 +479,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f884041c-db5d-d916-1792-e41ec610ffee",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, saving, uploading file, API, or querying a watchlist",
+      "searchTags": "Upload;Watchlist",
+      "category": "Threat Hunting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
       "longDescription": "",
       "shortDescription": "How to understand Azure Sentinel costs",
