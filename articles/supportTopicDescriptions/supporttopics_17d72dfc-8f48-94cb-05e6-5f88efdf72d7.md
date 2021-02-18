@@ -266,6 +266,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39896de5-4a38-0004-27c2-c613060aaf5a",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling disk backup",
+      "searchTags": "Disable;Disk Backup",
+      "category": "config",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3f1a599a-e8be-1ef7-5d38-7016f8093c31",
       "longDescription": "",
       "shortDescription": "Issue with discovering the SAP HANA instance",
