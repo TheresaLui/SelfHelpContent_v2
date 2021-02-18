@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="azure-backup-supporttopicdescription"
   ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
@@ -254,6 +255,14 @@
       "shortDescription": "Solve issues connecting to data lake storage which are not covered by other problem subtypes",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "49f04cb1-ff68-f6fe-cdd3-bc6209ee00b7",
+      "longDescription": "",
+      "shortDescription": "Issue with enabling  vault managed identity",
+      "searchTags": "vault;managed identity",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
