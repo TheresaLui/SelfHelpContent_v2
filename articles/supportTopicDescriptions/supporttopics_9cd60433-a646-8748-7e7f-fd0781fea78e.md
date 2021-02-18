@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b2bfdd9-bc62-0320-3a5a-105274f860e3",
+      "longDescription": "",
+      "shortDescription": "Issues with Azure Sentinel RBAC roles",
+      "searchTags": "RBAC;permissions",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
