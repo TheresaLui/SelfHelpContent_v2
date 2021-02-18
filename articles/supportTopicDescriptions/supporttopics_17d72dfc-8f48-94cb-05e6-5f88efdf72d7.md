@@ -322,6 +322,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5046b91e-3a73-6596-eb12-2a9aa9b9557f",
+      "longDescription": "",
+      "shortDescription": "Issues specific to  Backup Center - Data Issues",
+      "searchTags": "Backup Center",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "52f1a27a-c8a2-9455-896c-c3ee9c6d07d9",
       "longDescription": null,
       "shortDescription": "Issues specific to Reporting with Diagnostics Settings",
