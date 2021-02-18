@@ -375,6 +375,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c889af10-7efb-fa08-da25-9e41e5f9b008",
+      "longDescription": "",
+      "shortDescription": "Missing TAXII Server values, filtering for indicators is not working as expected",
+      "searchTags": "TAXII;filtering",
+      "category": "Threat Intelligence",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
