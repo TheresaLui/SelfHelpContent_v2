@@ -14,7 +14,7 @@
 
 Most customers can resolve connection issues to the Git repository using the following guidance.
 
-Skip to:
+In this article:
 1. [Before you begin...](#**before-you-begin...**)
 1. [Known limitations](#**known-limitations**)
 1. [Connecting to GitHub for the first time](#**connecting-to-github-for-the-first-time**)
