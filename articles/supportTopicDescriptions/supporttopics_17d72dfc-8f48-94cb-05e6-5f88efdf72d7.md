@@ -618,6 +618,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ac03a8b0-d47f-1ce4-2ce3-8dc100111a65",
+      "longDescription": "",
+      "shortDescription": "Issue while  creating private endpoints",
+      "searchTags": "private endpoints",
+      "category": "back up",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac75bab3-4a76-04b6-ed3a-ded22c60154c",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
