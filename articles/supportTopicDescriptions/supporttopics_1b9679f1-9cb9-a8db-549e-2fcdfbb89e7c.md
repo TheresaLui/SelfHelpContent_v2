@@ -271,6 +271,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ab91e7a-0e42-e643-46ff-834f5b464215",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search JavaScript or Typescript SDK.",
+      "searchTags": "SDK;JavaScript;Typescript ",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fd3b7ea-1077-bc47-56e4-0869060d26b2",
       "longDescription": "",
       "shortDescription": "Issues with the supported Powershell and Azure CLI operations for Azure Cognitive Search.",
