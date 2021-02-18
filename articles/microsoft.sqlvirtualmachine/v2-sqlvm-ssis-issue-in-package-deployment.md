@@ -20,13 +20,14 @@
 The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
 A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal":
 System.Data.SqlClient.SqlException: The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
-``` 
+```
 
 This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
 
 ```
 HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server\130\SSIS\Setup\DTSPath- '130' is for SQL 2016.
 ```
+
 Check your version and point it to the path where the ISServerExec.exe is available.
 
 **Error:**
@@ -61,6 +62,7 @@ You may encounter this issue if you are trying to deploy an older version of a p
 A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
 System.ComponentModel.Win32Exception: A required privilege is not held by the client
 ```
+
 _Or_
 
 ```
@@ -124,7 +126,6 @@ A .NET Framework error occurred during execution of user-defined routine or aggr
 
 System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnection' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnectionFactory' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlPerformanceCounters' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file:_ _Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.(C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config) ---> System.UnauthorizedAccessException: Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.
 ```
-
 
 As the error message says, please validate that the SQL Server service account has the necessary NTFS permissions to access **machine.config** file.
 

@@ -57,6 +57,3 @@ You can review the below documentation for enhancing your package design.
 ## **Recommended Documents**
 
 [Data Flow Performance Features](https://docs.microsoft.com/sql/integration-services/data-flow/data-flow-performance-features?view=sql-server-ver15)
-
-[Integration Services: Performance Tuning Techniques](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/administrator/cc966529(v=technet.10)?redirectedfrom=MSDN)
-
