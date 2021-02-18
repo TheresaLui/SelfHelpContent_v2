@@ -11,11 +11,11 @@
   cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
   articleid="troubleshoot_and_resolve_blob_lifecycle_management_issues"
   ownershipid="StorageMediaEdge_StorageBlobs" />
-# Troubleshoot and resolve lob Lifecycle Management issues
+# Troubleshoot and resolve Blob Lifecycle Management issues
 
-## **Recommended Steps**
+Most customers resolved their Blob Lifecycle Management issue on their own, using the following information.
 
-Most customers resolved their Blob Lifecycle Management issue on their own, using the information below.
+## Recommended steps
 
 ### **Lifecycle Management may not have executed as per your expectation**
 
