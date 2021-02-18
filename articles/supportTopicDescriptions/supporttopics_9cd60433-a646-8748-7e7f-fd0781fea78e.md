@@ -255,6 +255,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64715b26-ce7e-1905-3752-06abc7773fd6",
+      "longDescription": "",
+      "shortDescription": "Built-in workbooks not working as expected, missing, or unexpected data",
+      "searchTags": "workbooks;data",
+      "category": "Workbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
