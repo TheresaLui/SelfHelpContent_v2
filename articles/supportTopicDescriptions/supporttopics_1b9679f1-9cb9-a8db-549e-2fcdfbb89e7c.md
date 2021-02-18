@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e251ad9-f1d6-4553-f046-96321d2ae300",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search Python SDK.",
+      "searchTags": "SDK;Python",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2171314a-9c26-7060-247f-5dc642d83da7",
       "longDescription": "",
       "shortDescription": "Issues related to field mappings in indexers",
