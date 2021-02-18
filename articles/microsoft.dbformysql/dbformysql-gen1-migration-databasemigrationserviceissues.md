@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="mksuni"
-    ms.author="sumuth"
+    ms.author="bahusse"
     displayOrder="160"
     selfHelpType="generic"
     supportTopicIds="32747556"
@@ -21,15 +21,12 @@ You can do online and offline migrations using Azure database migration services
 
 ### **Frequently Asked Questions**
 
-* **"Got error 1 from storage engine"?** 
+- **Got error 1 from storage engine?** See [Can't restore database with error "Got error 1 from storage engine"](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-8211-can-t-restore-database-with-error/ba-p/368896)
 
-* See [Can't restore database with error "Got error 1 from storage engine"](https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-database-for-mysql-8211-can-t-restore-database-with-error/ba-p/368896)
+- **Upgrade MySQL 5.6 to MySQL 5.7?** See [Major version upgrade FAQs](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#frequently-asked-questions) and this [tutorial about how to upgrade using Azure portal](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-portal) or [CLI](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-cli)
 
-* **Upgrade MySQL 5.6 to MySQL 5.7?** 
-*
-* See [Major version upgrade FAQs](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#frequently-asked-questions) and this [tutorial about how to upgrade using Azure portal](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-portal) or [CLI](https://docs.microsoft.com/azure/mysql/how-to-major-version-upgrade#perform-major-version-upgrade-from-mysql-56-to-mysql-57-using-azure-cli)
-* Verify steps for migrating databases from **RDS MySQL** instance to **Azure Database for MySQL** using [this example of how to migrate from RDS to Single server](https://docs.microsoft.com/azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online)
-* Verify steps for migrating from **on-premises MySQL** instance to **Azure Database for MySQL** Single server using [this example for online migration with MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)
+- Verify steps for migrating databases from **RDS MySQL** instance to **Azure Database for MySQL** using [this example of how to migrate from RDS to Single server](https://docs.microsoft.com/azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online)
+- Verify steps for migrating from **on-premises MySQL** instance to **Azure Database for MySQL** Single server using [this example for online migration with MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)
 * See [Common known issues with DMS](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)
 
 ## **Recommended Documents**
