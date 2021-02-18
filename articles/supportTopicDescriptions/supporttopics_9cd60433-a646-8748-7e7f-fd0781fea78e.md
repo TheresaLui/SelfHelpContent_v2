@@ -490,7 +490,7 @@
       "id": "e7686dc3-69a6-3d92-a048-f4a794d64e25",
       "longDescription": "",
       "shortDescription": "Problems with creating a playbook or achieving a specific scenario with playbooks",
-      "searchTags": "Playbook",
+      "searchTags": "Playbook;create",
       "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
