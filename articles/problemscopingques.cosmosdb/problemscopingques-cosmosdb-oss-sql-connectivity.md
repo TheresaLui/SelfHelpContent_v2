@@ -40,27 +40,9 @@
             "displayLabel": "Which region is your client running?",
             "required": false
         },
-        {
-            "id": "oss_api",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Which API are you using?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Core (SQL)",
-                    "text": "Core (SQL)"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true
-        },
 		{
             "id": "sdk_type",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
@@ -90,7 +72,7 @@
         },
 		{
             "id": "database_name",
-            "order": 6,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Database name",
             "dynamicDropdownOptions": {
@@ -107,7 +89,7 @@
         },
 		{
             "id": "collection_name",
-            "order": 7,
+            "order": 6,
             "visibility": "database_name != null",
             "controlType": "dropdown",
             "displayLabel": "Collection name",
@@ -127,28 +109,28 @@
         },
 		{
             "id": "exception_message",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What is the exception message?",
             "required": false
         },
 		{
             "id": "exception_count",
-            "order": 9,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "How many exceptions did you observe?",
             "required": false
         },
 		{
             "id": "vm_count",
-            "order": 10,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Number of VMs the exception was seen during this time.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 11,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any additional details about the issue that you were facing",
             "required": true,
