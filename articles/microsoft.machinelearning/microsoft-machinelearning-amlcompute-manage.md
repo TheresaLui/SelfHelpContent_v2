@@ -38,6 +38,9 @@
 * *Microsoft.MachineLearningServices/workspaces/computes/write*
 * *Microsoft.MachineLearningServices/workspaces/checkComputeNameAvailability/action*
 13. **Important:** Compute instance is a managed, hosted on behalf of offering in which underlying resources will no be deployed in customer Azure subscription. Only network security group, public IP address, and load balancer are deployed in customer subscription. If you have a policy blocking public IP, then compute instance deployment will fail. We have a no public IP compute instance feature in private preview.
+14. Please note if the virtual network resource group is locked then deletion of compute cluster/instance will fail
+15. Please note Load balancer cannot be deleted until the compute cluster/instance is deleted
+16. Please ensure there is no Azure policy which prohibits creation of network security groups.
 
 ## **Recommended Documents**
 
