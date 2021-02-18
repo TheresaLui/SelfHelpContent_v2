@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   ownershipid="AzureSearch_AzureSearch" />
 # Support Topic Descriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c
@@ -243,6 +244,14 @@
       "shortDescription": "Issues related to using the Azure Cognitive Search .NET SDK.",
       "searchTags": "SDK;.NET",
       "category": "Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9216ab1e-be3d-567e-b3fd-1f726dbc5907",
+      "longDescription": "",
+      "shortDescription": "Issue with debug sessions for AI Enrichments in the Azure Portal (preview)",
+      "searchTags": "Debug;Sessions;Portal",
+      "category": "AI Enrichment",
       "useInDiagnoseAndSolve": "true"
     },
     {
