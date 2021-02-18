@@ -22,7 +22,7 @@
 2. If the error appears, ask customer to ensure that the perfomance counters are enabled based on the error as decribed below. Please share the action plan with the customer. A sample customer ready message is provided below. 
 
 If no graphical error appears, please check in the logs which type of Performance Counter is affected and in case there are none specified follow the procedure related to the Network Interface.
-The procedure is available in the WIKI: [Performance Counter issues](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Microsoft%20Defender%20for%20Identity%20(Azure%20ATP)%20wiki/1780/Performance-Counter-issues)
+The procedure is available in the WIKI: [Performance Counter issues](https://dev.azure.com/SupportabilityWork/Azure%20Security/_wiki/wikis/Microsoft%20Defender%20for%20Identity%20%28Azure%20ATP%29%20wiki/1780/Performance-Counter-issues)
 
 ~~~customer
 
