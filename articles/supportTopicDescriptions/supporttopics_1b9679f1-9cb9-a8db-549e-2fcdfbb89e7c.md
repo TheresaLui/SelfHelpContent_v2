@@ -391,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f0b3f9be-abcb-8549-9ff4-b9dec3c732bd",
+      "longDescription": "",
+      "shortDescription": "Issue with the security configuration of your Azure Cognitive Search service",
+      "searchTags": "Security;Private Link;Private Endpoint;IP Filtering",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f897b14f-adac-67bb-134f-ec2f8f43962a",
       "longDescription": "",
       "shortDescription": "Issues related to creating an Azure Cognitive Search indexer. ",
