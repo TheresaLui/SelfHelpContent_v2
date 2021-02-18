@@ -34,6 +34,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "03b58209-3d6e-265c-6d45-65f54a7aecf3",
+      "longDescription": "",
+      "shortDescription": "Issue while  enabling  encryption using customer managed keys on the vault",
+      "searchTags": "CMK;vault ;encryption",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "05c0a677-190e-c3ee-464e-d159ad181e7f",
       "longDescription": null,
       "shortDescription": "Issue pertaining to recovery services vault and backup vault",
