@@ -303,6 +303,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
+      "longDescription": "",
+      "shortDescription": "TAXII, TIP and filtering",
+      "searchTags": "TAXII;TIP ;Filtering",
+      "category": "Threat Intelligence",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
