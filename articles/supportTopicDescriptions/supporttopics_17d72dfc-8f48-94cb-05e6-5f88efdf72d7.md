@@ -106,6 +106,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1326ba37-7447-711f-12e3-f62cd1632cdd",
+      "longDescription": "",
+      "shortDescription": "Issue related to assigning or updating the encryption key used for CMK encryption ",
+      "searchTags": "CMK;encryption",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
       "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
