@@ -17,7 +17,7 @@ Answer many common questions about Azure Active Directory B2C by reviewing the f
 
 ## **Recommended Steps**
 
-### **How do I enable multi-factor authentication in Azure Active Directory B2C** 
+### **How do I enable multi-factor authentication in Azure Active Directory B2C?** 
 
 Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You can enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
 
