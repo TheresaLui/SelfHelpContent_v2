@@ -154,6 +154,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1fe9f914-3dd2-05dc-4439-4e02a3258f65",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "Disk Backup",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
       "longDescription": null,
       "shortDescription": "Issues using Anonymous access to data lake storage resulting in access denied or connectivity failures ",
