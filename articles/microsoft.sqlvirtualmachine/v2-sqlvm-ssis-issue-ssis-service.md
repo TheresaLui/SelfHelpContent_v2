@@ -165,7 +165,7 @@ Please follow the items specified under the below article to correctly modify th
 
 If you are looking forward to cluster Integration services, then Clustering Integration Services is not recommended because the Integration Services service is not a clustered or cluster-aware service, and does not support failover from one cluster node to another. Therefore, in a clustered environment, Integration Services should be installed and started as a stand-alone service on each node in the cluster.
 
-[Integration Services (SSIS) in a Cluster](https://docs.microsoft.com/previous-versions/sql/sql-server-2012/hh213127(v=sql.110))
+[Integration Services (SSIS) in a Cluster](https://docs.microsoft.com/sql/integration-services/service/integration-services-ssis-in-a-cluster?view=sql-server-ver15)
 
 
 **Error:**
@@ -180,7 +180,7 @@ Refer to the below articles to open the port 135 and resolve this issue.
 
 [Configure the firewall](https://docs.microsoft.com/sql/integration-services/service/integration-services-service-ssis-service?view=sql-server-ver15#configure-the-firewall)
 
-[Configure a Windows Firewall for Access to the SSIS Service](https://docs.microsoft.com/previous-versions/sql/sql-server-2012/ms137861(v=sql.110))
+[Configure a Windows Firewall for Access to the SSIS Service](https://docs.microsoft.com/sql/integration-services/service/integration-services-service-ssis-service?view=sql-server-ver15#configuring-a-windows-firewall)
 
 **Error:**
 
