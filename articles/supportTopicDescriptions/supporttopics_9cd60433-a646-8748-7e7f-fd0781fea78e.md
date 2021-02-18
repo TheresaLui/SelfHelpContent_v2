@@ -177,7 +177,7 @@
     {
       "id": "39d10508-b5a4-8952-1209-674194233dbe",
       "longDescription": "",
-      "shortDescription": "How to enable the Entity Behavior Analytics",
+      "shortDescription": "How to enable Entity Behavior Analytics",
       "searchTags": "UEBA;Entity ;Behavior ;Analytics",
       "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
