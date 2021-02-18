@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeReboot - Workflow TimeOut - Blob Cache Race Condition"
+	description="Root Cause Analysis (RCA) - Software - Workflow TimeOut"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was due to a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation. 
+> We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation. 
 > 
 
 <!--resolutionDetails-->
@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--additionalInfo-->
 ### **Additional Information**
-> Our platform engineers have identified the required fixes for this issue and tracking them with priority to get them deployed.
+> Our platform engineers have identified the required fixes for this issue and are tracking them with priority to get them deployed.
 > 
 <!--/additionalInfo--><!--/rcaDescription-->
 

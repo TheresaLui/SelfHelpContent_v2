@@ -21,7 +21,7 @@
 ## Migrate to Azure Cosmos DB API for MongoDB v3.6
 
 Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v3.6. This version provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
- 
+
 When upgrading the service, you must also migrate the data in your existing account to a new account created using version 3.6 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
 
 ### Benefits of upgrading to version 3.6
@@ -30,15 +30,14 @@ When upgrading the service, you must also migrate the data in your existing acco
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
 - Support for Change Streams
-- Support for compound Indexes
-- Cross-partition support for the following operations: update, delete, count and sort
-- Improved performance for the following aggregate operations: $count, $skip, $limit and $group
+- Support for compound indexes
+- Cross-partition support for the following operations: `update`, `delete`, `count`, and `sort`
+- Improved performance for the following aggregate operations: `$count`, `$skip`, `$limit`, and `$group`
 - Wildcard indexing is now supported
 
 ### Changes from previous engine versions
 
-- **RequestRateIsLarge errors have been removed**. 
-  Requests from the client application will no longer return "16500" errors. Instead, requests will resume until they complete or fulfill the timeout.
+- **RequestRateIsLarge errors have been disabled by default**. Requests from the client application will not return 16500 errors anymore. Instead requests will resume until they complete or fulfill the timeout. Disabling server-side retries will restore the old behavior.
 - Per request timeout is set to 60 seconds.
 - MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default.
 
