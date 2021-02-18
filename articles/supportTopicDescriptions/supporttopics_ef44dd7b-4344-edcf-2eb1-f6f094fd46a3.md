@@ -249,7 +249,7 @@
     {
       "id": "7ae41f27-dad0-43bb-8267-3e1bcaf68dd7",
       "longDescription": "",
-      "shortDescription": "Issues faced while performing agentless dependency analysis",
+      "shortDescription": "Issues while performing agentless dependency analysis",
       "searchTags": "dependency analysis",
       "category": "Functionality",
       "useInDiagnoseAndSolve": "true"
@@ -393,7 +393,7 @@
     {
       "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
       "longDescription": "",
-      "shortDescription": "Issues faced after successfully creating and Azure SQL Assessment ",
+      "shortDescription": "Issues after successfully creating and Azure SQL Assessment ",
       "searchTags": "Assessment;SQL",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
@@ -452,6 +452,14 @@
       "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e255c19d-3e8e-8be3-10a3-af00244635ef",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentbased)",
+      "searchTags": "ASR",
+      "category": "ASR",
       "useInDiagnoseAndSolve": "true"
     },
     {
