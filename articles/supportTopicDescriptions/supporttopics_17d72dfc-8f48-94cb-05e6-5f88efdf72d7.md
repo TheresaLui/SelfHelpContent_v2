@@ -754,6 +754,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ced6912a-0f66-4cde-93c7-b0ea835a301d",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing backup",
+      "searchTags": "Performance;Slow;Disk Backup",
+      "category": "performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1b240ee-a308-c891-a94d-3a422b54c818",
       "longDescription": null,
       "shortDescription": "Performance issue while taking System State backup using MARS Agent",
