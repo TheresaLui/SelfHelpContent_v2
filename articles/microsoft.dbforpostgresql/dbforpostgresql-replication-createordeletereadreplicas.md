@@ -17,7 +17,7 @@
 
 # Creating and deleting read replicas
 
-Most users are able to resolve issues regarding creating and deleting read replicas by using the following information.
+Most users are able to resolve issues they experience when creating and deleting read replicas by using the following information.
 
 ## Creating read replica: Frequently asked questions
 
@@ -28,29 +28,29 @@ Most users are able to resolve issues regarding creating and deleting read repli
   No. Only asynchronous mode of replication is supported. This helps with non-impact for application writes and commits at the primary site.
 
 * **What technology you use for replica?** <br>
-  PostgreSQL's native WAL streaming replication is used.
+  We use the PostgreSQL native WAL streaming replication.
 
 * **What use cases involve read replicas server?** <br>
   Read replicas servers serve two purposes.
   1. Offload read queries to read replica so that your primary server can serve write requests more efficiently.
   2. Help with disaster recovery where, if the primary server unavailable, you can fail over to the read replica.
    
-* **While creating new replica, why my preferred region not listed?** <br>
-  The list of available cross-regions depends on your master server's region. Visit the [read replica documentation for more information](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#cross-region-replication). We are working to expand to more regions in the future.
+* **While creating new replica, why is my preferred region not listed?** <br>
+  The list of available cross-regions depends on your master server's region. For more information, see the [read replica documentation](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#cross-region-replication). We are working to expand to more regions in the future.
 
 * **How do I connect to the replica server?** <br>
-  Replica server is a physically separate server with its own end point (host). You can connect to the replica server using its end point and using the `username@replica-server-name` user name.
+  The replica server is a physically separate server with its own end point (host). You can connect to the replica server using its end point and using the `username@replica-server-name` user name.
 
 * **How do I find the replica lag?** <br>
    You can monitor replica lag and maximum replica lag across many replicas in Azure portal. You can even set alerts if the lag exceeds certain threshold; for example, > 10 minutes.
 
-* **Why i am seeing excessive replica lag?** <br>
-  In many cases, the source server may be doing a heavy, write-intensive workload that needs to be transmitted to the remote region. PostgreSQL's apply of WAL at the replica is usually single-threaded. This can introduce the lag.
+* **Why am I seeing excessive replica lag?** <br>
+  In many cases, the source server is performing a heavy, write-intensive workload that needs to be transmitted to the remote region. PostgreSQL's apply of WAL at the replica is usually single-threaded. This can introduce the lag.
 
 * **What do I do if the replica lag is in hours, although my server is small in size (few GBs)?** <br>
   In such cases, it is faster to just drop the replica server and re-create a fresh replica server.
 
-* **Why is the Add Replica button idisabled?** <br>
+* **Why is the Add Replica button disabled?** <br>
   1. Refresh the Replication portal page
   2. Confirm that you've selected **replica** or **logical** for your replication support level. [Learn more about these settings](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#prerequisites).
   3. Restart the server
@@ -71,7 +71,7 @@ Most users are able to resolve issues regarding creating and deleting read repli
 
   If you prefer CLI, you can run `az postgres server replica stop -g <resourceGroup> -n <replServer>` command.
 
-  **Note:** Once the connection between the primary and the replica is severed, you cannot re-attach the replica. You need to create a new replica server.
+  **Note:** After the connection between the primary and the replica is severed, you cannot re-attach the replica. You need to create a new replica server.
 
 * **Can I use the same hostname (end point) for the replica server after the failover?** <br>
   The replica server is a different server with a different end point. If you want to use the same name, then you may choose to deploy a proxy such as `pgbouncer`, `pgpool-II`, or a third-party proxy to point the same endpoint to point to the replica server name.
@@ -85,7 +85,6 @@ Most users are able to resolve issues regarding creating and deleting read repli
   2. After the replica is created, you can perform another failover (stop replica), which makes server-A2 independent.
   3. You can then start using server-A2 for production, and optionally create a replica in another region for DR.
   4. If you want to use the same name server-A in the failback scenario, you first need to delete the original server-A before step #1.
- 
 
 ## **Recommended Documents**
 
