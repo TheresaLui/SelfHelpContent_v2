@@ -13,11 +13,9 @@
   ownershipid="StorageMediaEdge_DataLakeStorageGen2" />
 # Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues
 
-## **Recommended Steps**
+Most customers resolved their Azure Data Lake Storage Gen 2 (ADLS Gen 2) Lifecycle Management issue on their own, using the steps below.
 
-Most customers resolved their ADLSGen2 Lifecycle Management issue on their own, using the steps below.
-
-### **Some Lifecycle Management features may not be supported for ADLS Gen2 storage accounts**
+### **Some Lifecycle Management features may not be supported for ADLS Gen 2 storage accounts**
 - [Blob storage features available in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-supported-blob-storage-features)
 
 ### **Lifecycle Management may not have executed as per your expectation**
