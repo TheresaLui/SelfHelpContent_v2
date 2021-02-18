@@ -319,6 +319,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8eaed2a8-7090-653b-ea83-c7defb984662",
+      "longDescription": "",
+      "shortDescription": "3rd party integrations using the Linux AMA or MMA agent to implement CEF and Syslog collections, Windows Firewall, Security events and DNS scenarios.",
+      "searchTags": "CEF;Syslog;DNS;AWS;MMA",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9077aeea-0253-5ec1-5bb5-590f292c3c49",
       "longDescription": "",
       "shortDescription": "The playbook did not trigger as I expected",
