@@ -794,6 +794,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e1e2ca15-ebda-44ee-f8b1-849913638508",
+      "longDescription": "",
+      "shortDescription": "Issue while adding or modifying backup policy",
+      "searchTags": "Configure;Disk Backup",
+      "category": "config",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
       "longDescription": null,
       "shortDescription": "Issue related to DPM (Data Protection Manager) for protecting on-premises to Azure",
