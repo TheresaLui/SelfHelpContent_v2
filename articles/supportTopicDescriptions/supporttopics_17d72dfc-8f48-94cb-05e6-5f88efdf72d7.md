@@ -234,6 +234,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34ce90e6-4d21-2f6c-12d0-3b8a4305de2d",
+      "longDescription": "",
+      "shortDescription": "Restore is failing for disk backup",
+      "searchTags": "restore;disk backup",
+      "category": "restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
       "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
