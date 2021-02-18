@@ -335,6 +335,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd347108-8d52-2399-2237-bb3f3ae7b5fd",
+      "longDescription": "",
+      "shortDescription": "Issues related to using the Azure Cognitive Search Java SDK.",
+      "searchTags": "SDK;Java",
+      "category": "Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bfc0675a-9c4d-f37b-5750-fd96b94f2164",
       "longDescription": "",
       "shortDescription": "Issues with an indexer and an Azure SQL data source.",
