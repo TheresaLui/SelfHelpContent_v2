@@ -24,8 +24,8 @@ If  you need to configure a dedicated/reserved IP address for inbound calls made
 Follow these steps:
 
 1. Browse to the details of your specific web app using the new Azure portal at `portal.azure.com`
-2. Towards the top of the details for your web app, select the **All settings** link<br>
+2. Towards the top of the details for your web app, select the **All settings** link.<br>
    This link opens a list of web app information that you can drill into further. 
 3. Select **Properties** to get specific details. 
-4. In **Properties**, use the icon to the side of the **Outbound IP Addresses** text box to select each of the addresses. 
+4. In **Properties**, use the icon to the side of the **Outbound IP Addresses** text box to select these addresses. 
 5. To copy an address, press **Ctrl+C**.
