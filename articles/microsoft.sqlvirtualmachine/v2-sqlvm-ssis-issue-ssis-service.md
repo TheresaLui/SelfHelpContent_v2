@@ -86,8 +86,6 @@ If you changed the SSIS service account recently, try to revert the SSIS service
 
 [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
 
-[Setting Up Windows Service Accounts](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms143504(v=sql.105)?redirectedfrom=MSDN)
-
 If you suspect that your machine.config file has been corrupted, please take a back-up of your current machine.config file.
 
 Review machine.config and compare it with a machine.config on a good machine to see if any configuration sections are missing. For example, <system.serviceModel>. If we can identify the missing section above, we can copy the section from good machine to the faulty server and start the server or try to replace the machine.config with the file from a good machine and see whether the service can start successfully.
@@ -103,8 +101,6 @@ This error can happen if the specific COM component is not installed properly or
 If you changed the SSIS service account recently, try to revert the SSIS service account to the original service account, or grant the corresponding permissions for the current service account to access the necessary system registry keys. Alternatively, you can try to grant the permissions or change the service account to a local admin account to verify it is really due to permissions.
 
 [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
-
-[Setting Up Windows Service Accounts](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms143504(v=sql.105)?redirectedfrom=MSDN)
 
 If the class is from some external component (e.g. Office Web Component) or if you cannot identify which COM component is missing, try to install the corresponding component again (check whether it is 32bit or 64bit and install accordingly). Alternatively, if the component is within the SSIS component, try a reinstall of the SSIS component and see whether it is helpful.
 
@@ -149,8 +145,6 @@ This error can happen if the SSIS service account doesn't have the necessary per
 Did you change the SSIS service account recently? If so, try to revert the SSIS service account to the original service account, or grant the corresponding permissions for the current service account to access the necessary system registry keys. Alternatively, you can try to grant the permissions or change the service account to a local admin account to verify it is really due to permissions.
 
 [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
-
-[Setting Up Windows Service Accounts](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms143504(v=sql.105)?redirectedfrom=MSDN)
 
 
 ### **Issues with connecting to Integration services (SSIS Service)**
