@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Vetting Employment Verification",
-    "fileAttachmentHint": "Please attach a screenshot of the issue or error you are having",
+    "fileAttachmentHint": "Please upload your verification documents as .pdf or screenshots. File size for uploads is restricted to less than 8MB. Review the types of verification from the recommended steps.",
     "formElements": [
         {
             "id": "problem_description",
