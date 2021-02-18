@@ -121,7 +121,7 @@
     {
       "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
       "longDescription": "",
-      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace.",
+      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace",
       "searchTags": "Syslog;Log Analytics;custom logs",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
