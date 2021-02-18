@@ -129,7 +129,7 @@
     {
       "id": "3985c162-eb57-dad1-5ae0-6ba9474f3c5b",
       "longDescription": "",
-      "shortDescription": "Issues while using Server Migration tool for migration from AWS, GCP, other clouds and physical servers",
+      "shortDescription": "Issues while using Server Migration tool for migration from Hyper-V, AWS, GCP, other clouds and physical servers",
       "searchTags": "Physical server Migration;AWS;GCP;Configuration server",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -529,7 +529,7 @@
     {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
-      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
+      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-premises",
       "searchTags": "assessment;Onboarding;Discovery;App dependency",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
