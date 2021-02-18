@@ -330,6 +330,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4ea68f70-6dfd-faaf-1e5b-65b14677108e",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Private Endpoint",
+      "searchTags": "Private Endpoint",
+      "category": "bkup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5046b91e-3a73-6596-eb12-2a9aa9b9557f",
       "longDescription": "",
       "shortDescription": "Issues specific to  Backup Center - Data Issues",
