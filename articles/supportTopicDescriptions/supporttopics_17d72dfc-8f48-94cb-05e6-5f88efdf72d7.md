@@ -210,6 +210,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "330a2ac9-29db-cf36-287c-9aa4712df954",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Backup Center - Portal Issues",
+      "searchTags": "Back up center",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "33ae5afb-30c4-b0dd-ada9-a36ab5fafa5d",
       "longDescription": "",
       "shortDescription": "Issues specific to Azure Backup Service for protecting Azure Database for PostgreSQL servers. ",
