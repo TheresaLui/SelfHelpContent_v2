@@ -21,6 +21,7 @@ Please note that the Integration Services - SSIS service (as a Windows service) 
 Most users were able to resolve their issues with SQL Server Integration services (SSIS service) using the recommended solutions & documents below.
 
 **Error:**
+
 ```
 Event ID: 7000- Description: The SQL Server Integration Services service failed to start due to the following error: The service did not respond to the start or control request in a timely fashion.
 ```
@@ -34,6 +35,8 @@ A timeout was reached (30000 milliseconds) while waiting for the SQL Server Inte
 During any .NET application startup, the .NET Framework application services validates [code access security (CAS)] for Microsoft assemblies, this is done connecting to a server that has a revocation list in internet.
 
 The above error means that the SSIS timeout is lower than the timeout of the connection to the revoke list server. This issue affects to all applications that runs on .NET framework 2.0 and there are several workarounds for this problem.
+
+## **Recommended Steps**
 
 In general, we can disable the certificate checking in the MsDtsSrvr.exe.config file directly, [By default, this setting is in place unless modified explicitly]
 
