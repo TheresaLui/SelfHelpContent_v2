@@ -15,11 +15,11 @@
 
 ### **Fix it yourself**
 
-Query performance issues can have many different root causes. Work through the recommended steps, below, to resolve the most common causes for performance issues.
+Query performance issues can have many different root causes. Most users can resolve common causes for performance issues by using the following information.
 
-**Are you using Basic Tier server?**
+**Are you using a Basic Tier server?**
 
-Basic tier servers are intended for testing, development, and small-scale or infrequently used applications. Therefore, a production workload can max out resources easily. For more information, see [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
+Basic Tier servers are intended for testing, development, and small-scale or infrequently used applications. Therefore, a production workload can max out resources easily. For more information, see [Understanding Performance in Basic Tier for Azure Database MySQL](https://techcommunity.microsoft.com/t5/azure-database-support-blog/understanding-performance-in-basic-tier-for-azure-database/ba-p/369142).
 
 **Troubleshooting CPU high usage?**
 
@@ -40,11 +40,12 @@ Consider [tuning your server parameters for best performance](https://docs.micro
 See [sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema).
 
 **Is a specific query slow?**
+
 Consider using [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store) and [Slow Query log](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) to spot slow queries and then [Explain and Optimize your query](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance).
     * Make sure that you have the right set of indexes created for your queries.
     * Make sure that there are no deadlocks in concurrent queries.
     * Monitor the resource consumption of your server. If you max out I/O or compute resources, increase or scale up the resource on which you are limited.
-    * Only retrieve the columns that you really need instead of using `select \*`.
+    * Only retrieve the columns that you really need, instead of using `select \*`.
 
 ## **Recommended Documents**
 
