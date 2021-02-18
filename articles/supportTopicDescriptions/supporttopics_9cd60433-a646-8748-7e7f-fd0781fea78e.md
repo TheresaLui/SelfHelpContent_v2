@@ -127,6 +127,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2840bd22-d8c3-bb46-09f8-166adcc48463",
+      "longDescription": "",
+      "shortDescription": "Issues with viewing incidents from multiple workspaces",
+      "searchTags": "incidents ;workspaces",
+      "category": "Incidents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
       "longDescription": "",
       "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace",
