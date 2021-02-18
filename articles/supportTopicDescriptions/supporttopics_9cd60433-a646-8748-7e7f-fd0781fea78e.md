@@ -383,6 +383,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c8a46e53-2f97-f63e-92da-6c07ea1e91ec",
+      "longDescription": "",
+      "shortDescription": "TIP data connector has never received data, or did receive data initially, but has not since the initial connection",
+      "searchTags": "TIP;Connector",
+      "category": "Threat Intelligence",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
