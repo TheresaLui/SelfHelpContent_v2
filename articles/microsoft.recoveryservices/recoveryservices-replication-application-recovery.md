@@ -1,35 +1,38 @@
 <properties
-    pageTitle="Application consistent recovery points are not being generated"
-    description="Missing app-consistent points that you wanted to use in order to failover"
-    service="microsoft.recoveryservices"
-    resource="vaults"
-    authors="v-miegge"
-    ms.author="sideeksh"
-    selfHelpType="generic"
-    supportTopicIds="32744975"
-    resourceTags=""
-    productPesIds="16370"
-    ownershipId="Compute_SiteRecovery"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
-/>
-
+  pagetitle="Application consistent recovery points are not being generated"
+  description="Missing app-consistent points that you wanted to use in order to failover"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sideeksh,sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32744975"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
+  ownershipid="Compute_SiteRecovery" />
 # Application consistent recovery points are not being generated
 
-## **Recommended Documents**
 
-- [Troubleshoot common application consistent points not generating issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#error-id-153006---no-app-consistent-recovery-point-available-for-the-vm-in-the-last-xxx-minutes)
-- [Application consistent points are not generating for SQL 2008/ 2008 R2](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-1-known-issue-on-sql-server-20082008-r2)
-- [Application consistent points are not generating for any SQL version with AUTO_CLOSE DBs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-2-azure-site-recovery-jobs-fail-on-servers-hosting-any-version-of-sql-server-instances-with-auto_close-dbs)
-- [Application consistent points are not generating for VMs having Storage Spaces Direct](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-3-you-are-using-storage-spaces-direct-configuration)
-- [Troubleshoot Application consistent points not generating due to VSS issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#more-causes-due-to-vss-related-issues)
-- [Steps to configure outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)
-- [Review the Support Requirements for all components](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
-- [Steps to enable replication for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication)
-- [Networking guidance for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking)
-- [Understand the scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-architecture)
-- [Ensure that Site Recovery VSS provider is installed on the machine. If not, complete installation.](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
-- [Ensure that Site Recovery VSS provider is running on the machine. If not, start the services.](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#missing-app-consistent-recovery-points-error-78144)
-- [Known issue in SQL Server 2016 and 2017](https://support.microsoft.com/help/4493364/fix-error-occurs-when-you-back-up-a-virtual-machine-with-non-component)
-- [Known issue is SQL Server instances with AUTO_CLOSE DBs](https://support.microsoft.com/help/4504104/non-component-vss-backups-such-as-azure-site-recovery-jobs-fail-on-ser)
-- [Known issue in SQL Server 2008 R2](https://support.microsoft.com/help/4504103/non-component-vss-backup-fails-for-server-hosting-sql-server-2008-r2)
+## **Common issues and solutions**
+
+- No app-consistent recovery point available for the VM in the past "X" minute.
+    - Check some of the most common issues causing this error for – 
+        - [Azure machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#error-id-153006---no-app-consistent-recovery-point-available-for-the-vm-in-the-past-x-minutes)
+        - [VMware/Physical machines](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#error-id-78144---no-app-consistent-recovery-point-available-for-the-vm-in-the-last-xxx-minutes)
+        - [Hyper-V machines](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-troubleshoot#app-consistent-snapshot-issues)
+
+    - If you are using a Linux operating system, then make sure you have [setup custom scripts](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-enable-replication-with-app-consistency-in-linux-servers) to create app-consistent recovery points.
+    - Ensure that Volume Shadow Copy Services (VSS) are running and healthy on your source machines. Check the step-by-step guide for –
+        - [Azure machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#vss-writer-is-not-installed---error-2147221164)
+        - [VMware/Physical machines](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
+        - [Hyper-V machines](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-troubleshoot#vss-failing-inside-the-vm)
+    - If the source machine is running any version of Microsoft SQL Server then check the documentation [here](https://docs.microsoft.com/troubleshoot/sql/admin/revocery-jobs-fail-servers) for a step by step guide on how to resolve this issue. For Microsoft SQL Servers 2008 or SQL Server 2008 R2 check the step-by-step guide [here](https://docs.microsoft.com/troubleshoot/sql/admin/asr-agent-vss-backup-fails).
+
+- Replication is not progressing for the source machine.
+    - Ensure that you have checked the supported [data churn limits](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#azure-site-recovery-limits) of Azure Site Recovery. A higher data churn will cause the replication to slow down. If the churn is high, then try to switch to a premium disk or reduce the churn.
+    - For VMware/Physical machines, ensure that the configuration server and process server are in a healthy state and [all the services required for replication](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#step-2-check-process-server-services) are running. Also, make sure that the system time is in sync with the global time.
+
+- Enable replication is failing for the source machine
+    - If you’re trying to enable replication on encrypted Azure VMs, then make sure the [required key vault permissions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-ade-vms#trusted-root-certificates-error-code-151066) are already present.

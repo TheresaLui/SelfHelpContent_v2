@@ -20,7 +20,7 @@
 "The SKU of the VIP will if incoming traffic is allowed or denied by default. 
 
 
-#Recommended Steps
+## Recommended Steps 
 
 1. Navigate to the VM in ASC Resource Explorer
 2.  From the Properties select ""IP Configurations""

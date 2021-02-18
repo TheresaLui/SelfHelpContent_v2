@@ -23,5 +23,5 @@ The error *"0x80072af9 : No such host is Known"* is a Windows error that happens
 
 1. Clear the DNS client cache with *ipconfig /flushdns* and test
 2. Check for DNS resolution errors and fix on-premises DNS server issue(s).
-3. Check if [Cisco Umbrella](https://umbrella.cisco.com/) software is installed on the client as it has been shown to be responsible for causing this error.
+3. Check if [Cisco Umbrella](https://umbrella.cisco.com/) or [Akamai ETP](https://learn.akamai.com/en-us/webhelp/enterprise-threat-protector/enterprise-threat-protector/GUID-778840B3-82D0-4BFB-A091-91AFFE48BA48.html) software is installed on the client as it has been shown to be responsible for causing this error.
 

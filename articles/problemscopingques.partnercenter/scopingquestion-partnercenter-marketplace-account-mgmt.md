@@ -41,14 +41,6 @@
 	   "infoBalloonText": "<a href='https://docs.microsoft.com/azure/marketplace/find-tenant-object-id#find-user-object-id'>How to find Object ID association for debugging purposes</a>"
        },
        {
-	   "id": "additional_emails_for_notification",
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
-       },
-       {
 	   "id": "problem_description",
 	   "order": 4,
 	   "controlType": "multilinetextbox",
