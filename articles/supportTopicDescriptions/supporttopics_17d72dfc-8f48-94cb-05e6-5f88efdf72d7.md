@@ -666,6 +666,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ab502eca-6186-6c89-07c4-dbb0dca7ccd8",
+      "longDescription": "",
+      "shortDescription": "Scheduled backup is failing but On-demand backup is working",
+      "searchTags": "Disk Backup;Scheduled ",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ac03a8b0-d47f-1ce4-2ce3-8dc100111a65",
       "longDescription": "",
       "shortDescription": "Issue while  creating private endpoints",
