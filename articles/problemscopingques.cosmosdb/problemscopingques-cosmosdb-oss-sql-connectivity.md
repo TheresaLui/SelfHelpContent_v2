@@ -125,7 +125,7 @@
             "id": "vm_count",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "Number of VMs the exception was seen during this time.",
+            "displayLabel": "Number of VMs that the exception was seen during this time.",
             "required": false
         },
         {
