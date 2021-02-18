@@ -594,6 +594,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8855440-d08d-d2c5-dc93-8ead72d3bf7d",
+      "longDescription": "",
+      "shortDescription": "Issues faced while  deleting private endpoints",
+      "searchTags": "delete;private endpoint",
+      "category": "back up",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a96ff2f6-1274-f022-4321-43fd1beac140",
       "longDescription": null,
       "shortDescription": "Issues related to backup performance of Azure Files Share (AFS)",
