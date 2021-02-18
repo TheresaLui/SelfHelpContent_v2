@@ -119,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "26960f73-f09b-b788-6e63-bc689c49475e",
+      "longDescription": "",
+      "shortDescription": "Workbook template not working as expected",
+      "searchTags": "Workbooks;Template",
+      "category": "Workbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
       "longDescription": "",
       "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace",
