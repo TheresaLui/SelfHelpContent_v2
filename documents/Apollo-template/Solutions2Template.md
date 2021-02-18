@@ -32,7 +32,7 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 ### Body - Required
 
 <!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
-- For a solution-based article, define the issue and provide one or more solutions.  
+- For a solution-based article, define the issue and provide one or more solutions. Always order your solutions in the body with the most common solutions at the top; least common solutions are at the bottom.  
 - For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
 Solutions can be comprised of the following components: 
@@ -48,7 +48,7 @@ Note: Solution elements can be presented as a list of expandable, accordian-like
 <!--Section formatting is optional. Use Section tags to enclose a solution in a collapsed element. Longer articles, in particular, may contain several solutions. Sections make these solutions scannable and reduce the need to scroll.-->
 
 ### Solution
-<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images.
+<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
 
 
 ### Procedures 
