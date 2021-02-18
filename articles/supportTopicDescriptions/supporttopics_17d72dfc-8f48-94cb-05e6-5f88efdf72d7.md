@@ -450,6 +450,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6ef7131b-6534-c75d-35df-f14f3309fd98",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling disk backup",
+      "searchTags": "Configure;Disk backup",
+      "category": "config",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78cb4ff6-62c8-3f8a-6eab-287d42fcab37",
       "longDescription": null,
       "shortDescription": "Scheduled backup is failing  but On-demand backup is working",
