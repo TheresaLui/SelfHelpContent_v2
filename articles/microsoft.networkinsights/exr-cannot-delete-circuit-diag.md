@@ -21,6 +21,7 @@ We have determined that the ExpressRoute circuit cannot be deleted because it ha
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 Delete the connections and authorizations that are associated with the circuit. If a connection belongs to a different subscription, or if an authorization is in use by another subscription, contact the subscription owner for more help.
 
 ## **Recommended Documents**
