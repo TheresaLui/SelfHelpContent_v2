@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32745218,32745226,32745225,32745224,32745223,32745222,32745228,32745221,32745220,32745219"
 	productPesIds="16478"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-general"
 	ownershipId="Compute_AzureCycleCloud"
