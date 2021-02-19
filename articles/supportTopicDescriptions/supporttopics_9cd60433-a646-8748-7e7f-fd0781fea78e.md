@@ -87,6 +87,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0dfe6c24-6fb6-af46-99ff-674992ea715f",
+      "longDescription": "",
+      "shortDescription": "Notebook failed to run",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
