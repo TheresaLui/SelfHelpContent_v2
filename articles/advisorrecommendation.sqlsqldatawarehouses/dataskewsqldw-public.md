@@ -39,7 +39,7 @@
     "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
+  "version": 3.1,
   "learnMoreLink": "https://aka.ms/learnmoredataskew",
   "description": "Remove data skew to increase query performance",
   "longDescription": "We have detected distribution data skew greater than 15%. This can cause costly performance bottlenecks.",
@@ -66,7 +66,7 @@
     {
       "actionId": "c4be01f3-0180-4ce9-b533-2ba5d177535d",
       "description": "View impacted tables",
-      "actionType": "Blade",
+      "actionType": "ContextBlade",
       "extensionName": "Microsoft_Azure_Synapse",
       "bladeName": "AdvisorStudioRedirectBlade",
       "metadata": {
