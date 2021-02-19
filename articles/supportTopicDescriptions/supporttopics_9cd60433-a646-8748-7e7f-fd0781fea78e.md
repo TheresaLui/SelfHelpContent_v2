@@ -391,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b2f29847-7a0f-4c26-7c50-6d97ba821120",
+      "longDescription": "",
+      "shortDescription": "Analytics templates are not producing the expected results",
+      "searchTags": "Analytics;template",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b5aa5c0e-aec3-70b5-1b7a-a6ca3cea80fd",
       "longDescription": "",
       "shortDescription": "Workspace creation failures",
