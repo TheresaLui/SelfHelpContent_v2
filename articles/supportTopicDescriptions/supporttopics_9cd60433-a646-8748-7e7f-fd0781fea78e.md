@@ -295,6 +295,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6fd67b9f-aae3-7d95-075e-95f5f8954144",
+      "longDescription": "",
+      "shortDescription": "TAXII connector has never received data, or did receive data initially but has not since the initial connection.",
+      "searchTags": "TAXII ;data;Intelligence ;Trusted ;Information ",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7251af10-84a8-b218-a74f-26a9820159e0",
       "longDescription": "",
       "shortDescription": "Log search is not displaying results or working as expected",
