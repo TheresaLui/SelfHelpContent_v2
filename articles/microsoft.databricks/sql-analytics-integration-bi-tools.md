@@ -19,6 +19,7 @@
 # Diagnose and resolve issues with SQL Analytics Integration with BI tools 
 
 * This feature is in **Public Preview**. Contact your Azure Databricks representative to request access. 
+* Azure Databricks account should be on the Premium plan.
 
 ## **Recommended Steps** 
 
