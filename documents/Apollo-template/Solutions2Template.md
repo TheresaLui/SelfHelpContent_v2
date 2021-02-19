@@ -14,9 +14,7 @@
 	ownershipId="b6015c21-c91a-4248-8d13-426894cd5140"
 />
 
-
 # Solutions 2.0 template 
-<br> 
 <!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this article to create Solution 2.0 (Apollo) articles. <br>
@@ -29,7 +27,7 @@ Example: "Resolve issues related to configuring NetApps by reviewing these best 
 Alternatively, for how-to or conceptual articles, summarize the article and how the article will help the customer.<br>
 For example: "Learn how to adjust resource limits for NetApp files by watching the following video."-->
 
-### Body - Required
+## Body - Required
 
 <!--The body contains the main content.  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
@@ -80,7 +78,7 @@ Example:
 <!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
 ![alt text](/images/image.png)
 
-## Diagnostics
+### Diagnostics
 <!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.-->
 
 <Insight>  
@@ -90,7 +88,7 @@ Example:
 	<noResultText></noResultText><br>
 </Insight>
 
-## Videos
+### Videos
 <!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
 ### Single video
