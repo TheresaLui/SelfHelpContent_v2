@@ -391,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bba76dd0-3d90-b110-304e-7b427498e7bf",
+      "longDescription": "",
+      "shortDescription": "How to select which data sources will get UEBA enrichments and anomalies ",
+      "searchTags": "UEBA;anomalies ;Entity;Behavior;Analytics",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "Data not presenting in Sentinel Workspaces",
