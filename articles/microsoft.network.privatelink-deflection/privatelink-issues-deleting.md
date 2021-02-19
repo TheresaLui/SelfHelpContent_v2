@@ -19,7 +19,7 @@
 
 # Issues when deleting a Private Link
 
-This is a known issue that we are currently working to resolve.
+We’ve received multiple reports about the problem of not being able to delete a private link, and we’re still investigating. It may relate to a product known issue. Please submit a case with details (what kind of details can help) and request for assistance. Thanks for your understanding.
 
 ## **Recommended Steps**
 

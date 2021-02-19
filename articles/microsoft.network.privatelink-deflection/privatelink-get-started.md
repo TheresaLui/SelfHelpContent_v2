@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Get started with Private Link"
-	description="Get started with Private Link"
-	infoBubbleText="Get started with Private Link"
+	description="General guidance and best practices for Private Link."
+	infoBubbleText="General guidance and best practices for Private Link."
 	service=""
 	resource=""
 	authors="v-miegge"
@@ -19,19 +19,15 @@
 
 # Get started with Private Link
 
-## **Recommended Steps**
-
-Work through tutorials on the Azure portal, PowerShell (PS), or command-line interface (CLI).
-
 ## **Recommended Documents**
 
 Azure Private Link
 
-- [What is Azure Private Link?](https://docs.microsoft.com/azure/private-link/private-link-overview)
+- [What is Azure Private Link?](/azure/private-link/private-link-overview)
 - [How to connect and deliver services privately on Azure with Azure Private Link](https://www.youtube.com/watch?v=AZ0iFcyPDkc)
-- [Private Link Limits](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
+- [Private Link Limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
 
 Azure Private Endpoint
 
-- [What is an Azure Private Endpoint?](https://docs.microsoft.com/azure/private-link/private-endpoint-overview)
-- [Azure Private Link frequently asked questions (FAQ)](https://docs.microsoft.com/azure/private-link/private-link-faq)
+- [What is an Azure Private Endpoint?](/azure/private-link/private-endpoint-overview)
+- [Azure Private Link frequently asked questions (FAQ)](/azure/private-link/private-link-faq)
