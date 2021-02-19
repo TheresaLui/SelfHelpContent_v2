@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="217152B3-3A59-4441-8B67-B20B2DE5CD95"
+	articleId="problemscopingques-sql-security-add"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
