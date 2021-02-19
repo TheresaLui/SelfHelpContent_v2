@@ -43,9 +43,9 @@ Solutions can be comprised of the following components:
 - Videos 
 - AzureKB and document links
 <br>
-Note: If you have several solutions, consider presenting them accordian-style using Section tags (see example).-->
+Note: If you have several solutions, consider presenting them accordian-style using Section tags. For example:
 :::Section section_name:::
-
+-->
 
 ### Solution
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
