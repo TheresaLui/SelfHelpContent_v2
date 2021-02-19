@@ -10,9 +10,11 @@ cloudEnvironments="public"
 ownershipId="AzureIdentity_B2C"
 /> 
 # Business to Consumer (B2C)
-##  Welcome, as we walk you through this article to resolve an Identity Provider issues. This experience integrates important documents and relevant results from the web. 
 
-:::Section Recommended Solutions::: 
+## Adding Identity Providers
+Welcome, as we walk you through this article to resolve an Identity Provider issues. This experience integrates important documents and relevant results from the web. 
+
+:::Section Recommended solutions::: 
 
 ### **Can I add external identity providers to my application?**  
 
@@ -22,6 +24,7 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 <br>
 :::Section Integrate SAML with Azure AD B2C::: 
 ### Video: Integrate SAML with Azure AD B2C
+
 <video>
 <src>https://www.youtube.com/watch?v=r2TIVBCm7v4</src>
 <title>Integration of SAML with Azure AD B2C</title> 
@@ -30,12 +33,11 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 
 :::Section Additional resources:::  
 
-### Useful Links
+## **Useful Links**
 
 * Check our [samples for several Social account policy enhancements](https://github.com/azure-ad-b2c/samples#social-account-policy-enhancements) for Azure AD B2C.
-* Custom policies are configuration files that define the behavior of your Azure AD B2C tenant. Get started by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started).
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Learn more about our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
 ### Additional articles that may help you   
 <azureKB>
