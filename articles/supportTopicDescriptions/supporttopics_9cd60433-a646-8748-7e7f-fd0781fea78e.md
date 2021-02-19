@@ -535,6 +535,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fb90f17a-7d1b-7b2b-88aa-a4d7b1d8f54f",
+      "longDescription": "",
+      "shortDescription": "Issues with removing Azure Sentinel from your workspace",
+      "searchTags": "workspace;sentinel",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fda9fa68-64c5-7d3b-30af-82dc58dc53c8",
       "longDescription": "",
       "shortDescription": "How to interpret Analytics results from alert rules and queries",
