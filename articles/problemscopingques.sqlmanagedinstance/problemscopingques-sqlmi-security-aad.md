@@ -23,18 +23,78 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Start Time of the AAD Issue",
-            "infoBalloonText": "Provide the start time of the most recent occurrence of AAD issue.",
-            "required": true
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "auth_method",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What authentication method you are using?",
+            "required": true,
+            "watermarkText": "Authentication method",
+            "infoBalloonText": "Choose the authentication method you are using",
+            "dropdownOptions": [
+                {
+                    "text": "Application token authentication",
+                    "value": "Token"
+                },
+                {
+                    "text": "Azure Active Directory Password",
+                    "value": "AADPassword"
+                },
+                {
+                    "text": "Azure Active Directory Integrated",
+                    "value": "AADIntegrated"
+                },
+                {
+                    "text": "Azure Active Directory Universal with Multi-Factor Authentication",
+                    "value": "AADUniversalMFA"
+                },
+                {
+                    "text": "Don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "database_name",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What database is having issues?",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of databases",
+                    "text": "Unable to get the list of databases"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": ""
+            "watermarkText": "On the basics tab, please ensure that you have selected a server, database or an elastic pool in the resource dropdown. This will let us know the resource that you need assistance with. Please provide any additional details that may help us troubleshoot your issue."
         },
         {
             "id": "aad_issue_type",

@@ -6,7 +6,7 @@
     authoralias="vitomaz"
     ms.author="vitomaz"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32746123"
+    supportTopicIds="32746123,32746114"
     productPesIds="16259"
     cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
@@ -21,9 +21,9 @@
     "title": "SQL Database Managed Instance",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Diagnostics",
-        "description": "Our diagnostics can identify the cause of many common service-related connection errors.",
-        "insightNotAvailableText": "Our diagnostics did not detect any issues with your resource. See our recommended solutions below to troubleshoot your problem."
+        "title": "Failed Login Troubleshooter",
+        "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
         {
@@ -36,12 +36,40 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "problem_end_time",
+            "id": "auth_method",
             "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem stop? (Up to 4 hours after problem start time)",
-            "infoBalloonText": "Enter when the error stopped, or up to 4 hours after problem start time. Please run diagnostics with different time windows if the issue spans for more than 4 hours.",
-            "required": false,
+            "controlType": "dropdown",
+            "displayLabel": "What authentication method you are using?",
+            "required": true,
+            "watermarkText": "Authentication method",
+            "infoBalloonText": "Choose the authentication method you are using",
+            "dropdownOptions": [
+                {
+                    "text": "SQL Server Authentication",
+                    "value": "SQL"
+                },
+                {
+                    "text": "Application token authentication",
+                    "value": "Token"
+                },
+                {
+                    "text": "Azure Active Directory Password",
+                    "value": "AADPassword"
+                },
+                {
+                    "text": "Azure Active Directory Integrated",
+                    "value": "AADIntegrated"
+                },
+                {
+                    "text": "Azure Active Directory Universal with Multi-Factor Authentication",
+                    "value": "AADUniversalMFA"
+                },
+                {
+                    "text": "Don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ],
+            "dynamicDropdownOptions": null,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
