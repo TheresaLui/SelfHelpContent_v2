@@ -13,7 +13,9 @@ ownershipId="AzureIdentity_B2C"
 
 # Business to Consumer (B2C)
 
-## Welcome, as we walk you through this article to resolve any  migrating users issues. This experience integrates important documents and relevant results from the web. 
+## Migrate users to Azure AD B2C
+
+Welcome, as we walk you through this article to resolve any migrating users issues. This experience integrates important documents and relevant results from the web. 
 
 ### **Can I migrate existing consumer user accounts from any identity provider to Azure AD B2C?**  
 
@@ -35,13 +37,13 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
 <br> 
 
 :::Section Additional resources:::  
+
 ## **Useful Links** 
 
-* Get started today with predefined, configurable policies called [User Flows in AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies)to set up the most common identity tasks for your applications. 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
 * Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
-## Here are some articles from the web that may help you 
+### Here are some articles from the web that may help you 
 <azureKB> 
 <client>Portal</client> 
 </azureKB> 
