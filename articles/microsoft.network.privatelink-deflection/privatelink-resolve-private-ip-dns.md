@@ -23,9 +23,9 @@
 
 1. Review the Private Endpoint (PE) configuration:
 
-   1. The PE must be in an approved and succeeded state.
-   2. Ensure that the fully qualified domain name (FQDN) is assigned properly, with **A record** (a basic type of domain name service (DNS) record) and **CName**.
-   3. The client virtual machine (VM) virtual network must be associated with the private zone.
+   * The PE must be in an approved and succeeded state.
+   * Ensure that the fully qualified domain name (FQDN) is assigned properly, with **A record** (a basic type of domain name service (DNS) record) and **CName**.
+   * The client virtual machine (VM) virtual network must be associated with the private zone.
 
 2. Validate the DNS connection health by using Azure [Network Watcher](http://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview#monitor-communication-between-a-virtual-machine-and-an-endpoint).
 
@@ -33,8 +33,8 @@
 
 4. If you are using a custom DNS, verify that:
 
-   1. The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**.
-   2. The source VM has IP connectivity to VNet.
+   * The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**.
+   * The source VM has IP connectivity to VNet.
 
 ## **Recommended Documents**
 
