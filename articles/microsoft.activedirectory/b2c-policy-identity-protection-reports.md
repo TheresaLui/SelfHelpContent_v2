@@ -15,7 +15,7 @@
 
 Answer many common questions about Azure Active Directory B2C by reviewing the following information. 
 
-## **Recommended Steps**
+## **Recommended steps**
 
 ### **How do I enable multi-factor authentication in Azure Active Directory B2C?** 
 
@@ -39,7 +39,7 @@ When using custom policies, you must refer to the [GitHub sample](https://github
 ### **How can I test my Conditional Access policy?**  
 For testing, reduce the scope of the conditional access policy to one AAD B2C user and one AAD B2C application.  Create a next generation user flow (recommended), making sure that the conditional access box is selected (default).  Use Run Now to test your policy under various situations.
 
-#### **Is report-only mode supported?**
+### **Is report-only mode supported?**
 Yes.
 
 ### **How can I tell if the CA policy was active for a given authentication?**
@@ -50,7 +50,7 @@ Conditional Access policy activity is reported here: In your B2C tenant, Audit l
 Learn about it at [Resilient end-user experience](https://docs.microsoft.com/azure/active-directory/fundamentals/resilient-end-user-experience)
  
 
-### **Identity Protection**
+## **Identity Protection**
 
 Your investigation into risk will often include:
 * Reports such as [Risky users](https://docs.microsoft.coms/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risky-users) and [Risk detections](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risk-detections)
