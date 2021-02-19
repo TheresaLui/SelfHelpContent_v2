@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "793d8e76-5f91-92f9-eaf2-c1d6b0658c27",
+      "longDescription": "",
+      "shortDescription": "Questions regarding session or token configuration in Microsoft Supported Libraries",
+      "searchTags": "token configuration;session configuration",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80a047a0-fe4c-9df8-33af-6aa2ed06551a",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C regional Availability or data residency Location.",
