@@ -27,7 +27,7 @@
    2. Ensure that the fully qualified domain name (FQDN) is assigned properly, with **A record** (a basic type of domain name service (DNS) record) and **CName**.
    3. The client virtual machine (VM) virtual network must be associated with the private zone.
 
-2. Validate the DNS connection health using Azure [Network Watcher](/azure/network-watcher/network-watcher-monitoring-overview#monitor-communication-between-a-virtual-machine-and-an-endpoint).
+2. Validate the DNS connection health using Azure [Network Watcher](http:docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview#monitor-communication-between-a-virtual-machine-and-an-endpoint).
 
 3. Verify that you are using a private Domain Name Service(DNS) Zone.
 
@@ -40,12 +40,12 @@
 
 Troubleshooting connectivity issues
 
-- [Troubleshoot Azure Private Endpoint connectivity problems](/azure/private-link/troubleshoot-private-endpoint-connectivity)
-- [Troubleshoot Private Link Service connectivity problems (microsoft.com)](/azure/private-link/troubleshoot-private-link-connectivity)
+- [Troubleshoot Azure Private Endpoint connectivity problems](http:docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
+- [Troubleshoot Private Link Service connectivity problems (microsoft.com)](http:docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
 
 Private Endpoint DNS configuration General Information
 
-- [Azure Private Endpoint DNS configuration](/azure/private-link/private-endpoint-dns)
+- [Azure Private Endpoint DNS configuration](http:docs.microsoft.com/azure/private-link/private-endpoint-dns)
 Integrate with Private DNS
 - [DNS-Integration-Scenarios at master](https://github.com/dmauser/PrivateLink/tree/master/DNS-Integration-Scenarios)
 
@@ -55,8 +55,8 @@ Build DNS Forwarder
 DNS Configuration Using Active Directory
 - [DNS-Scenario-Using-AD at master](https://github.com/dmauser/PrivateLink/tree/master/DNS-Scenario-Using-AD)
 Azure DNS Limits
-- [Azure DNS Limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-dns-limits)
+- [Azure DNS Limits](http:docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-dns-limits)
 
 Private Link Limits
 
-- [Private Link Limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
+- [Private Link Limits](http:docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)

@@ -23,11 +23,11 @@
 
 Azure Private Link
 
-- [What is Azure Private Link?](/azure/private-link/private-link-overview)
+- [What is Azure Private Link?](http:docs.microsoft.comhttp:docs.microsoft.com/azure/private-link/private-link-overview)
 - [How to connect and deliver services privately on Azure with Azure Private Link](https://www.youtube.com/watch?v=AZ0iFcyPDkc)
-- [Private Link Limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
+- [Private Link Limits](http:docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
 
 Azure Private Endpoint
 
-- [What is an Azure Private Endpoint?](/azure/private-link/private-endpoint-overview)
-- [Azure Private Link frequently asked questions (FAQ)](/azure/private-link/private-link-faq)
+- [What is an Azure Private Endpoint?](http:docs.microsoft.com/azure/private-link/private-endpoint-overview)
+- [Azure Private Link frequently asked questions (FAQ)](http:docs.microsoft.com/azure/private-link/private-link-faq)
