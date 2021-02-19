@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e20bda7-485f-dfa4-c91e-c501d315adfe",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C conditional access, Identity Protection, MFA, email verification, passwords and threat management",
+      "searchTags": "custom policy conditional access;custom policy MFA;passwords;threat management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C custom polices",
