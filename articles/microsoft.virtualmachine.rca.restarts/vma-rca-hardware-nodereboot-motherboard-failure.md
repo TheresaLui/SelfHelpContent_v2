@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The physical host node where the VM was running encountered a **hardware failure due to System Board.**  
+> The physical host node where the VM was running encountered a **hardware failure due to system board.**  
 > 
 
 <!--resolutionDetails-->
