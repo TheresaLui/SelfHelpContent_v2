@@ -31,10 +31,8 @@ Also, by using **DisplayControls** (currently in preview) and the third-party em
 
 Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone number by using Azure AD Multi-Factor Authentication (MFA). Review these [Steps to define an Azure AD MFA technical profile](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-auth-technical-profile).  
 
-### **Conditional Access in B2C requires the configuration of two elements**
-1. **User flow.** You must use the next generation user flows, as they support Conditional Access policies. These are labelled as **recommended**.
-
-2. **Conditional Access policy.** [Create a Conditional Access policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) and specify the apps and users in scope for the policy.
+### **Conditional Access in B2C**
+[Create a Conditional Access policy](https://docs.microsoft.com/azure/active-directory-b2c/conditional-access-identity-protection-setup) and specify the apps and users in scope for the policy.
 
 When using custom policies, you must refer to the [GitHub sample](https://github.com/azure-ad-b2c/samples/tree/master/policies/conditional-access).
 
@@ -71,6 +69,10 @@ Your investigation into risk will often include:
 * [What is risk?](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-risks)
 
 * [Identity Protection policies](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-policies)
+
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.
+
+* Check out our [Azure AD B2C community samples at GitHub](https://github.com/azure-ad-b2c/samples) today.
 
 * Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
