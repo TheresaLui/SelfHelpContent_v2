@@ -2,7 +2,7 @@
   pagetitle="Problems developing my application"
   service="microsoft.aad"
   resource="microsoft_aad_iam"
-  ms.author="marwa,riclewis,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32570261"
   resourcetags=""
@@ -12,7 +12,7 @@
   ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Problems developing my application
 
-Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/questions/ask.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/questions/ask.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://docs.microsoft.com/answers/questions/ask.html).
 
 ## **Recommended Documents**
 
@@ -42,7 +42,7 @@ If you're using Microsoft apps, know that Microsoft is in the process of migrati
 1. [Read the ADAL FAQ](https://docs.microsoft.com/azure/active-directory/develop/msal-migration#frequently-asked-questions-faq)
 2. [Learn about how to migrate apps on a per-platform basis](https://docs.microsoft.com/azure/active-directory/develop/msal-migration#frequently-asked-questions-faq)
 3. If you need help understanding which of your apps use ADAL, we recommend you review all of your apps' source code, and if applicable, reach out to any ISVs or app providers. Microsoft support can also provide you with a list of all non-Microsoft ADAL apps in your tenant.
-4. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-ad-adal-deprecation`](https://docs.microsoft.com/answers/topics/azure-ad-adal-deprecation.html)
+4. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-ad-adal-deprecation`](https://docs.microsoft.com/answers/topics/azure-ad-adal-deprecation.html)
 
 
 ### AAD Graph Migration
