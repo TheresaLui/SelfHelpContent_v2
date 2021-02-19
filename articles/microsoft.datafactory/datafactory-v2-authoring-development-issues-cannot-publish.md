@@ -58,7 +58,7 @@
 
 ## **Recommended Documents**
 
-- How to: [Troubleshooting Git Integration](https://docs.microsoft.com/azure/data-factory/source-control#troubleshooting-git-integration) <br>
+- How to: [Troubleshoot Git Integration](https://docs.microsoft.com/azure/data-factory/source-control#troubleshooting-git-integration) <br>
 
 **FAQ**
 
