@@ -2,7 +2,7 @@
 	pageTitle="Scoping Questions for Azure Active Directory (AAD) authentication"
 	description="Scoping questions to capture more details about Azure Active Directory (AAD) authentication issue."
 	authors="keithelm"
-	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi,subbuk"
+	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi,subbuk, vitomaz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630410"
 	productPesIds="13491"
@@ -21,22 +21,65 @@
   "title": "Azure Active Directory (AAD) authentication scoping questions",
   "fileAttachmentHint": "",
   "diagnosticCard": {
-    "title": "Azure Active Directory (AAD) authentication scoping questions",
-    "description": "Scoping questions to capture more details about Azure Active Directory (AAD) authentication issue.",
-    "insightNotAvailableText": "We did not find any issues with your AAD configuration."
+    "title": "Failed Login Troubleshooter",
+    "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
   },
   "formElements": [
     {
       "id": "problem_start_time",
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "Start Time of the AAD Issue",
-      "infoBalloonText": "Please provide the start time of the most recent occurrence of AAD Issue.",
-      "required": true
+      "displayLabel": "When did the problem start?",
+      "infoBalloonText": "Enter the approximate time you started to see the error.",
+      "required": true,
+      "diagnosticInputRequiredClients": "Portal"
+    },
+    {
+      "id": "problem_end_time",
+      "order": 2,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+      "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+      "required": false,
+      "diagnosticInputRequiredClients": "Portal"
+    },
+    {
+      "id": "auth_method",
+      "order": 3,
+      "controlType": "dropdown",
+      "displayLabel": "What authentication method you are using?",
+      "required": true,
+      "watermarkText": "Authentication method",
+      "infoBalloonText": "Choose the authentication method you are using",
+      "dropdownOptions": [
+        {
+          "text": "Application token authentication",
+          "value": "Token"
+        },
+        {
+          "text": "Azure Active Directory Password",
+          "value": "AADPassword"
+        },
+        {
+          "text": "Azure Active Directory Integrated",
+          "value": "AADIntegrated"
+        },
+        {
+          "text": "Azure Active Directory Universal with Multi-Factor Authentication",
+          "value": "AADUniversalMFA"
+        },
+        {
+          "text": "Don't know or not applicable",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "diagnosticInputRequiredClients": "Portal"
     },
     {
       "id": "problem_description",
-      "order": 2,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Additional context to help us solve your issue.",
       "required": true,
@@ -70,7 +113,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal"
     },
     {
       "id": "sqlexception_received_on_client",
@@ -79,7 +121,6 @@
       "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": true,
       "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == dont_know_answer",
-      "diagnosticInputRequiredClients": "Portal"
     },
 		{
 			"id": "aad_user_type_login",
@@ -112,7 +153,6 @@
 				}
 			],
 			"dynamicDropdownOptions": null,
-			"diagnosticInputRequiredClients": "Portal",
 			"visibility": "aad_issue_type == AADLogin"
 		},
     {
@@ -134,7 +174,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADLogin"
     },
     {
@@ -168,7 +207,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADLogin && aad_are_failures_conditional == Yes"
     },
     {
@@ -363,7 +401,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser"
     },
     {
@@ -395,7 +432,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-			"diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser"
     },
     {
@@ -502,7 +538,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADSetupAdmin"
     },
     {
@@ -524,7 +559,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADSetupAdmin"
     },
     {
@@ -554,7 +588,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADSetupAdmin"
     },
     {
@@ -576,7 +609,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == dont_know_answer"
     }
   ]

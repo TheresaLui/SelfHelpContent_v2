@@ -1,27 +1,27 @@
 <properties
-	pageTitle="Error When Connecting to my Database"
-	description="Scoping questions to capture more details about connectivity errors"
-	authors="keithelm"
-	ms.author="keithelm,muruga"
+	pageTitle="Login failed"
+	description="Scoping questions to capture more details about failed logins"
+	authors="vitomaz"
+	ms.author="keithelm, muruga, vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745427,32745430"
+	supportTopicIds="32745428,32745433"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="6A45299F-C40E-4CCF-80D1-2ADECF7FF583"
-	ownershipId="AzureData_AzureSQLDB_Availability"
+	articleId="problemscopingques-sql-conn-ts-18456"
+	ownershipId="AzureData_AzureSQLDB_Connectivity"
 />
-# Error When Connecting to my Database
+# Login failed
 ---
 {
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Error When Connecting to my Database",
+  "title": "Failed Login",
   "fileAttachmentHint": "",
   "diagnosticCard": {
-    "title": "SQL DB Connectivity Troubleshooter",
-    "description": "The SQL DB Connectivity Troubleshooter can identify the cause of many common service-related connection errors.",
+    "title": "Failed Login Troubleshooter",
+    "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
     "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
   },
   "formElements": [
@@ -44,31 +44,49 @@
       "diagnosticInputRequiredClients": "Portal"
     },
     {
+      "id": "auth_method",
+      "order": 3,
+      "controlType": "dropdown",
+      "displayLabel": "What authentication method you are using?",
+      "required": true,
+      "watermarkText": "Authentication method",
+      "infoBalloonText": "Choose the authentication method you are using",
+      "dropdownOptions": [
+        {
+          "text": "SQL Server Authentication",
+          "value": "SQL"
+        },
+        {
+          "text": "Application token authentication",
+          "value": "Token"
+        },
+        {
+          "text": "Azure Active Directory Password",
+          "value": "AADPassword"
+        },
+        {
+          "text": "Azure Active Directory Integrated",
+          "value": "AADIntegrated"
+        },
+        {
+          "text": "Azure Active Directory Universal with Multi-Factor Authentication",
+          "value": "AADUniversalMFA"
+        },
+        {
+          "text": "Don't know or not applicable",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "diagnosticInputRequiredClients": "Portal"
+    },
+    {
       "id": "problem_description",
       "order": 1000,
       "controlType": "multilinetextbox",
       "displayLabel": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well.",
       "required": true,
       "useAsAdditionalDetails": true
-    },
-    {
-      "id": "database_name",
-      "order": 3000,
-      "controlType": "dropdown",
-      "displayLabel": "Please provide the database name for which you are creating a support ticket. If multiple databases are affected, select one of the affected databases to start an investigation",
-      "required": false,
-      "infoBalloonText": "Which of these databases are you filing a ticket for?",
-      "dynamicDropdownOptions": {
-        "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
-        "textPropertyRegex": null,
-        "defaultDropdownOptions": {
-          "value": "dont_know_answer",
-          "text": "Don't know/None of these"
-        }
-      }
     }
   ]
 }
