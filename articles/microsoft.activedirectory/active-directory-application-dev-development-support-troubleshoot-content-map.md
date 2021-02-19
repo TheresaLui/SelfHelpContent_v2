@@ -12,7 +12,7 @@
   ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Problems developing my application
 
-Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/questions/ask.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://docs.microsoft.com/answers/questions/ask.html).
+Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/questions/ask.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://docs.microsoft.com/answers/topics/azure-active-directory.html).
 
 ## **Recommended Documents**
 
@@ -50,4 +50,4 @@ For applications  that are using Azure AD Graph, follow our guidance to [migrate
 
 1. [Our migration checklist provides a getting started point.](https://docs.microsoft.com/graph/migrate-azure-ad-graph-planning-checklist)
 2. Your Azure app registration portal shows which applications are using AAD Graph.  We recommend you review all of your apps' source code, and if applicable, reach out to any ISVs or app providers. Microsoft support can also provide you with a list of all AAD Graph usage in your tenant.
-3. If you cannot find an answer to your question, post a [question on StackOverflow with the tag `azure-ad-graph-deprecation`](https://docs.microsoft.com/answers/topics/azure-ad-graph-deprecation.html)
+3. If you cannot find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-ad-graph-deprecation`](https://docs.microsoft.com/answers/topics/azure-ad-graph-deprecation.html)
