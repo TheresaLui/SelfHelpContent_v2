@@ -37,9 +37,7 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.
 * Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
-
 ### Additional articles that may help you   
-
 <azureKB>
 <client>Portal</client>
 </azureKB>
