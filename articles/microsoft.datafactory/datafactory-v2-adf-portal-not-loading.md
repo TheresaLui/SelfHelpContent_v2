@@ -25,7 +25,7 @@ Most customer can resolve issues with Azure Data Factory V2 (ADF) portal failing
   
     * For Google Chrome, go to **chrome://settings/cookies**, deselect **Block third party cookies**. In the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
   
-    * If you have disabled browser pop-ups, check the browser's address bar to see if a pop-up is actively blocked, and allow it. 
+    * If you disabled browser pop-ups, check the browser's address bar to see if a pop-up is actively blocked, and allow it. 
 
 * If the ADF portal is slow to respond, check your browser version. Upgrading your browser to a newer version often improves performance. 
 * If some images of the ADF portal are not loading, it could be related to changes in your network policies. Try accessing the portal from a different machine or network environment to narrow down the issue. 
