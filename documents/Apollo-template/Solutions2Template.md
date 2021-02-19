@@ -31,28 +31,28 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 ### Body - Required
 
-<!--The body contains the main content.  At minimum, the body of the article must contain substantive content that clearly addresses the topic or issue.  
-- For a solution-based article, define the issue and provide one or more solutions. Always order your solutions in the body with the most common solutions at the top; least common solutions are at the bottom.  
-- For a how-to or general information article, provide instructions (e.g., steps, video, links, etc.)   
+<!--The body contains the main content.  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
+- For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
+- For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
 Solutions can be comprised of the following components: 
 - Procedures
 - Images
 - Diagnostics  
+- Metrics
 - Videos 
 - AzureKB and document links
-- 
-Note: Solution elements can be presented as a list of expandable, accordian-like elements by using Section formatting. -->
-
+<br>
+Note: If you have several solutions, consider presenting them accordian-style using Section tags (see example).-->
 :::Section section_name:::
-<!--Section formatting is optional. Use Section tags to enclose a solution in a collapsed element. Longer articles, in particular, may contain several solutions. Sections make these solutions scannable and reduce the need to scroll.-->
+
 
 ### Solution
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
 
 
 ### Procedures 
-<!--Level heading 2 required. Use when the solution is a task-based procedure.
+<!--Level heading 2 required. Use when the solution is a task-based procedure.-->
 For a sequence of tasks, use ordered (numbered) lists.
 Example:
 1. This is a step
@@ -75,74 +75,69 @@ Example:
 * Item3
 	* Sub-ItemA
 	* Sub-ItemB
--->
 
 ### Images
-<!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users. 
+<!--No heading required. Incorporate images within a solution. Use the following format, replacing "alt text" with a description of what is being shown, without punctuation, to ensure accessibility for all users.-->
 ![alt text](/images/image.png)
--->
 
-### Diagnostics
-<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.  
-Example:
+## Diagnostics
+<!--Optional. Level 3 heading required. A diagnostic is a capability of Azure Cloud Services that collects data from deployed customer services. Explain how this information can help the customer in defining the issue and how it will determine what action they need to take next.-->
+
 <Insight>  
-	<symptomId>NrtVmRestartAzurePortalInsight</symptomId><br>
-	<executionText>We are checking to see if your VM was restarted</executionText><br>
-	<timeoutText>Proceeding to the next operation</timeoutText><br>
-	<noResultText>No problems found. Your VM is running smoothly.</noResultText><br>
+	<symptomId></symptomId><br>
+	<executionText></executionText><br>
+	<timeoutText></timeoutText><br>
+	<noResultText></noResultText><br>
 </Insight>
--->
 
-### Videos
+## Videos
 <!--Heading optional. Include a title and caption that describes how the video addresses this issue. Call out highlights of the video and include timecode to save the reader from having to scrub through it. To be accessible, video must include captions, a transcript, and audio description, and is delivered in an accessible media player.-->
 
-<!--
-Single video example:
-   Description of the video
-   Outline steps covered in the video
+### Single video
+<!--Description-->
+
    <video>
-	<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
-	<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title>  
+	<src></src>	
+	<title></title>  
    </video>
-Multiple video example:
-      Description of the videos
-      <videoGroup>
-	        <video>
-		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
-		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
-	        </video>
-	        <video>
-		<src>https://www.youtube.com/watch?v=-Peb5IPGvVI</src>	
-		<title>How to use Azure Bastion to securely connect to your VMs, 4:11</title> 
-	        </video>
-       </videoGroup>
--->
-
-### More resources 
-
-<!--Optional. Include links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
-This is the Apollo schema for AzureKB articles:
+   
+<!--Steps covered in the video-->
 
 
-Additional resources that may help you:
+### Multiple video
+<!--Description-->
+
+   <videoGroup>
+	<video>
+	    <src></src>	
+	    <title></title> 
+	</video>
+	<video>
+            <src></src>	
+	    <title></title> 
+	</video>
+    </videoGroup>
+
+## Resources 
+<!--Optional. Only list links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+This is the Apollo schema for AzureKB articles-->
+
+
+### Additional resources that may help you:
 <azureKB>
 	<client>Portal</client>
 </azureKB>
-You can also use Markdown syntax: [Description of document](URL)
--->
- 
 
-<!--NOTE: THIS RULES LIST IS PENDING DECISIONS AROUND VALIDATION.
- RULES:
+
+<!--RULES:
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
-* Check product, feature, and service names for accuracy, including capitalization 
-* Spell out product, feature, and service names on first mention, followed by acronym in parentheses. 
+* Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 
 * Use active, imperative verbs and present tense (not passive verbs; not past or future tense) 
 * Use contractions (“don’t” instead of “do not”; “you’ll” instead of “you will”) 
 * Use “select,” not “click” 
 * Don’t use “please” 
-* Only bold UI elements (such as buttons, options) in your procedures. Do not use bold for emphasis.  
+* Only bold UI elements (such as buttons, options) in your procedures. Do not overuse.  
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
 * Enclose error messages in quotation marks 
 * Insert a blank line after every heading
