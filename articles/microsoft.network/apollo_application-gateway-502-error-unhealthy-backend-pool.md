@@ -31,7 +31,7 @@ These issues can stem from the health probe configuration in Application Gateway
 
 <br>
 
-### Recommended Steps
+### Recommended steps
 
 To troubleshoot 502 Bad Gateway errors, open the **Backend health** blade and follow these steps:
 
@@ -41,7 +41,7 @@ To troubleshoot 502 Bad Gateway errors, open the **Backend health** blade and fo
 
 Alternatively, you can check the detailed error message by using Azure PowerShell, CLI, or REST API. For more information, see [Back-end health and diagnostic logs for Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#back-end-health).
 
-### Recommended Documents
+### Recommended documents
 
 - [Troubleshoot bad gateway (502) errors in Azure Application Gateway](https://support.microsoft.com/help/4504111).
 - [Learn how to troubleshoot bad gateway (502) errors in Azure Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502).
