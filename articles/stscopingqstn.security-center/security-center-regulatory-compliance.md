@@ -23,8 +23,7 @@ ASC Regulatory Compliance supports the following compliance standards by default
 * SOC TSP
 
 These standards appear in your Security Policy management portal "out of the box."  
-Azure Security Benchmark was developed by Microsoft for security and compliance best practices on the Azure portal, based on common compliance frameworks.  
-Learn more about [Azure Security Benchmark](https://docs.microsoft.com/azure/security/benchmarks/introduction).
+Azure Security Benchmark was developed by Microsoft for security and compliance best practices on the Azure portal, based on common compliance frameworks. Learn more about [Azure Security Benchmark](https://docs.microsoft.com/azure/security/benchmarks/introduction).
 
 
 ## Regulatory Compliance management
