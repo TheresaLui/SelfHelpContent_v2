@@ -25,7 +25,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--rcaDescription-->
 ### **Root Cause**
-> The physical host node where the VM was running encountered a **hardware due to System Board.**  
+> The physical host node where the VM was running encountered a **hardware failure due to System Board.**  
 > 
 
 <!--resolutionDetails-->
@@ -40,7 +40,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 ### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > - Azure is continually working with manufacturers to identify and prevent failures through improvements in motherboard functional tests
-> - Improved logging providing better more accurate failure signatures to reduce or avoid impact to customers due to motherboard failures
+> - Improved logging to provide better more and more accurate failure signatures to reduce impact to customers
 > - Improvements to failure prediction telemetry and tighter restrictions to approved motherboard PCBA vendors
 > 
 > We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
