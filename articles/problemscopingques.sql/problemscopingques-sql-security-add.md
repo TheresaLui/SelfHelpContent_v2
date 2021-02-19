@@ -18,7 +18,7 @@
     "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure Active Directory (AAD) authentication scoping questions",
+    "title": "Azure Active Directory authentication",
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Failed Login Troubleshooter",

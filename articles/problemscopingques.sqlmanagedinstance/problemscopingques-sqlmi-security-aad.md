@@ -16,8 +16,15 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "Azure Active Directory authentication",
+    "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Failed Login Troubleshooter",
+        "description": "The Failed Login Troubleshooter can identify the cause of many common failed login errors.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
