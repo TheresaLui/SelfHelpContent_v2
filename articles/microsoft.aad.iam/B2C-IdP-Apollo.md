@@ -19,9 +19,7 @@ ownershipId="AzureIdentity_B2C"
 Yes, you can add identity providers that are supported by Azure Active Directory B2C (Azure AD B2C) to your user flows using the Azure portal. [Tutorial: Add identity providers to your applications in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-add-identity-providers). 
 
 Azure AD B2C also supports external identity providers like Facebook, Microsoft account, Google, Twitter, and any identity provider that supports OAuth 1.0, OAuth 2.0, OpenID Connect, and SAML protocols. [Start by selecting an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider#select-an-identity-provider). 
-
-<br>  
-
+<br>
 :::Section Integrate SAML with Azure AD B2C::: 
 ### Video: Integrate SAML with Azure AD B2C
 <video>
@@ -44,4 +42,4 @@ Azure AD B2C also supports external identity providers like Facebook, Microsoft 
 
 <azureKB>
 <client>Portal</client>
-</azureKB> 
+</azureKB>
