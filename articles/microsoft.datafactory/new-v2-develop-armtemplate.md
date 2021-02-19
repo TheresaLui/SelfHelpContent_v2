@@ -10,10 +10,12 @@
   ownershipid="AzureData_DataFactory" />
 # Export and import Resource Manager (ARM) templates
 
+Most customers can resolve import/export issues with Azure Resource Manager (ARM) templates using the following steps.
+
 ## **Recommended Steps**
   * Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template
 ) to override default properties during deployment. You can now edit your arm-template-parameters-definition.json directly in ADF UX. <br>
-  * Azure Resource Manager Template has several limits. Refer to [Resource Manager Template Limits](https://docs.microsoft.com//azure/azure-resource-manager/templates/error-job-size-exceeded) for details. 
+  * The Resource Manager template has several limits. For details, see [Resource Manager Template Limits](https://docs.microsoft.com//azure/azure-resource-manager/templates/error-job-size-exceeded) for details. 
     * Deployment job cannot exceed 1 MB. The job includes metadata about the request. For large templates, the metadata combined with the template can exceed the allowed size for a job.
     * The template can't exceed 4 MB. The 4-MB limit applies to the final state of the template after it has been expanded for resource definitions that use copy to create many instances. The final state also includes the resolved values for variables and parameters.
     * Other limits for the template include 256 parameter, 800 resources etc. 
