@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18b577bb-0d09-ecc9-a495-7877e04159fd",
+      "longDescription": "",
+      "shortDescription": "Alert rule scheduling creation, suppression and grouping (event or alert) questions. Alerts are not generated as expected.",
+      "searchTags": "Analytics;alert;rules;schedule;supress",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
