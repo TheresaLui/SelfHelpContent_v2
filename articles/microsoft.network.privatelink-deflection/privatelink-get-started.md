@@ -19,6 +19,8 @@
 
 # Get started with Private Link
 
+To get started with Azure Private Link, review the following documentation.
+
 ## **Recommended Documents**
 
 Azure Private Link
