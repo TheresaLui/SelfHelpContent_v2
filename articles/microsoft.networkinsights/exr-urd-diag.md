@@ -17,9 +17,10 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 # ExpressRoute gateway subnet has UDR applied
 <!--issueDescription-->
-We have detected user-defined routes (UDR) **<!--$UDRStrings-->UDRStrings<!--/$UDRStrings-->** in the gateway subnet of your ExpressRoute virtual network gateway **<!--$GatewayName-->GatewayName<!--/$GatewayName-->**. Traffic that’s routed to a Next Hop Type of "None" or "Null" by using UDR will cause dropped traffic.
+We have detected user-defined routes (UDRs) **<!--$UDRStrings-->UDRStrings<!--/$UDRStrings-->** in the gateway subnet of your ExpressRoute virtual network gateway **<!--$GatewayName-->GatewayName<!--/$GatewayName-->**. Traffic that’s routed to a Next Hop Type of `None` or `Null` by using UDR will cause dropped traffic.
 **[Gateway Update Data Table]**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Review the UDR in the gateway subnet that have a Next Hop Type of "None" or "Null". Remove any that are causing unintended traffic drops.
+
+Review the UDRs in the gateway subnets that have a Next Hop Type of `None` or `Null`. Remove any that are causing unintended traffic drops.
