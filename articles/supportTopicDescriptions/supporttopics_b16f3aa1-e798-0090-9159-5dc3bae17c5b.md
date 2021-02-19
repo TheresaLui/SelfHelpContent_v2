@@ -209,8 +209,8 @@
     {
       "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
       "longDescription": "",
-      "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
-      "searchTags": "questions re to B2C availability ;questions re to B2C data residency",
+      "shortDescription": "Questions regarding managing Azure AD B2C external identity providers in your user flows",
+      "searchTags": "identity providers",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
