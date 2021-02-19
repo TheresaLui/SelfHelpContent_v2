@@ -70,7 +70,7 @@
         },
         {
             "id": "database_name",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What database is having issues?",
             "watermarkText": "Choose an option",
