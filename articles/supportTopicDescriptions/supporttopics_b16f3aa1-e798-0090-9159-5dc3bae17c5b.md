@@ -81,8 +81,8 @@
     {
       "id": "6b5003c0-49d5-e547-fe77-e0306130831f",
       "longDescription": "",
-      "shortDescription": "Questions regarding the management of custom attributes for Azure AD B2C objects",
-      "searchTags": "Questions re B2C custom attributes",
+      "shortDescription": "Problem with creating or deleting a new Azure AD B2C directory or problem with linking or changing Azure AD B2C subscription.",
+      "searchTags": "creating Azure AD B2C directory;deleting Azure AD B2C directory;linking Azure AD B2C subscription;changing Azure AD B2C subscription",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
