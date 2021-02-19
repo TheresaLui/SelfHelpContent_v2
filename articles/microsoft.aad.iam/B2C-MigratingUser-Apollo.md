@@ -22,17 +22,18 @@ Welcome, as we walk you through this article to resolve any migrating users issu
 Yes, you can migrate existing consumer user accounts from any identity provider to Azure AD B2C. For more information, see [Migrate users to Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-migration). 
 
  <video> 
-<src> https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s </src> 
-<title> Azure AD B2C user migration strategies </title> 
+<src>https://www.youtube.com/watch?v=lCWR6PGUgz0&t=15s</src> 
+<title>Azure AD B2C user migration strategies</title> 
 </video> 
 <br>
 
 :::Section Tutorial: user migration using Microsoft Graph API for Azure AD B2C::: 
 
-## ** Video Tutorial: User migration using Microsoft Graph API for Azure AD B2C** 
+## **Video Tutorial: User migration using Microsoft Graph API for Azure AD B2C** 
+
 <video> 
-<src> https://www.youtube.com/watch?v=9BRXBtkBzL4 </src> 
-<title> Azure AD B2C user migration using Microsoft Graph API</title> 
+<src>https://www.youtube.com/watch?v=9BRXBtkBzL4</src> 
+<title>Azure AD B2C user migration using Microsoft Graph API</title> 
 </video> 
 <br> 
 
@@ -41,7 +42,7 @@ Yes, you can migrate existing consumer user accounts from any identity provider 
 ## **Useful Links** 
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
-* Click here to learn [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Learn more from our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 * Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c). 
 ### Here are some articles from the web that may help you 
 <azureKB> 
