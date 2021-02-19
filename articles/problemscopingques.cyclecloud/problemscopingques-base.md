@@ -100,7 +100,15 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
-        }
+        },
+        {
+        "id": "problem_description",
+        "order": 5,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "useAsAdditionalDetails": true,
+        "required": true
+    },
 	]
 }
 ---
