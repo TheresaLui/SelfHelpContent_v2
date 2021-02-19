@@ -199,6 +199,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3975af4f-5e63-cede-a4fe-a44f79c65487",
+      "longDescription": "",
+      "shortDescription": "Cannot delete, disable, update or save an alert rule",
+      "searchTags": "Analytics;rules;active;alert",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "39d10508-b5a4-8952-1209-674194233dbe",
       "longDescription": "",
       "shortDescription": "How to enable Entity Behavior Analytics",
