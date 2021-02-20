@@ -18,8 +18,10 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+We ran diagnostics on your resource and found an issue.
+
 <!--issueDescription-->
-The error indicates backups might have failed due to proxy authentication errors or due to connection throttling.
+This error indicates that backups might have failed due to proxy authentication errors or due to connection throttling.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
