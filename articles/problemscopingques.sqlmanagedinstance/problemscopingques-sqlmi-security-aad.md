@@ -58,7 +58,7 @@
                     "text": "Unable to get the list of databases"
                 }
             ],
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
