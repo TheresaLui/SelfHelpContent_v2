@@ -4,7 +4,7 @@
        authors="brentserbus"
        ms.author="brserbus"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32728015,32728016,32728031,32728036,32728048,32728056,32728077,32728089,32728103,32728116,32728129,32728154,32728169,32728187,32728207,32728220,32728237,32728250,32728263,32728278,32728059,32728080,32728092,32728106,32728119,32728132,32728162,32728172,32728190,32728210,32728223,32728240,32728253,32728266,32728281,32728028,32728041,32728044,32728049,32728034,32728199,32728299,32728300,32728067,32728197,32728068,32728198,32728070,32728200,32728071,32728201,32728051,32728066,32728042"
+       supportTopicIds="32728015,32728016,32728031,32728036,32728048,32728056,32728077,32728089,32728103,32728116,32728129,32728154,32728169,32728187,32728207,32728220,32728237,32728250,32728263,32728278,32728059,32728080,32728092,32728106,32728119,32728132,32728162,32728172,32728190,32728210,32728223,32728240,32728253,32728266,32728281,32728028,32728041,32728044,32728049,32728034,32728199,32728299,32728300,32728067,32728197,32728068,32728198,32728070,32728200,32728071,32728201,32728051,32728066,32728042,32779870"
        productPesIds="17010,17009,17006,17001,17000"
        cloudEnvironments="public, fairfax, usnat, ussec"
        schemaVersion="1"
@@ -26,7 +26,7 @@
 	   "id": "pc_isv_offer_type",
 	   "order": 1,
 	   "controlType": "dropdown",
-	   "displayLabel": "Offer type:",
+	   "displayLabel": "Offer type",
 	   "dropdownOptions": [
 	       {
 		   "value": "Azure Application offer",
@@ -99,15 +99,15 @@
 	   "id": "pc_isv_publisher_name",
 	   "order": 2,
 	   "controlType": "textbox",
-	   "displayLabel": "Please provide the publisher name.",
-	   "watermarkText": "Please provide the publisher name.",
+	   "displayLabel": "Publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
 	   "id": "pc_isv_publisher_id",
 	   "order": 3,
 	   "controlType": "textbox",
-	   "displayLabel": "Publisher ID.",
+	   "displayLabel": "Publisher ID",
 	   "watermarkText": "Please provide the Publisher ID",
 	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": false
@@ -116,7 +116,7 @@
 	   "id": "pc_isv_seller_id",
 	   "order": 4,
 	   "controlType": "textbox",
-	   "displayLabel": "Seller ID.",
+	   "displayLabel": "Seller ID",
 	   "watermarkText": "Please provide the Seller ID",
 	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
@@ -137,14 +137,6 @@
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "order": 7,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
-	   "required": false
        }
    ]
 }

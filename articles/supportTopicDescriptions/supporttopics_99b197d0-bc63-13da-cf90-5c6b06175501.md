@@ -30,6 +30,12 @@
       "searchTags": "Presales;Pre-sales;Sales;License;Offer;SKU;Bundle",
     },
     {
+      "id": "8c1cf846-e2c1-c390-6230-a093b74a6964",
+      "longDescription": "",
+      "shortDescription": "Questions on the open license program changes",
+      "searchTags": "VL;evolution;Perpetual;Software",
+    },
+    {
       "id": "91e3bf16-d353-b285-79de-cce9ac114a6c",
       "longDescription": "",
       "shortDescription": "Issues with offer pricing, availability, restrictions, or add-ons in the CSP Catalog, as well as, inconsistencies with pricelists or offer list matrix",

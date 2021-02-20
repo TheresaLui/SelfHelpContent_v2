@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Planned Maintenance - Node Shutdown - Decommission"
+	description="Root Cause Analysis (RCA) - Planned Maintenance - Decommission"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,13 +24,13 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> This occurrence was caused by an **Azure initiated maintenance operation**.  Azure had previously notified impacted customers about this maintenance. As part of this operation, your VM experienced a reboot as it was migrated to newer hardware.
+### **Root Cause**
+> This occurrence was caused by an Azure initiated maintenance operation.  Azure had previously notified impacted customers about this maintenance. As part of this operation, your VM experienced a reboot as it was migrated to newer hardware.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 <!--/rcaDescription-->

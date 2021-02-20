@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software NodeReboot - Workflow TimeOut - HyperV"
+	description="Root Cause Analysis (RCA) - Software Workflow TimeOut - HyperV"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,17 +24,17 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems detecting that the physical node was not successfully responding to VM operations. We identified that this was caused due to a hyper-v related platform bug involving local (VM) storage stack. 
+### **Root Cause**
+> The host node reboot was triggered by our Azure monitoring systems, which detected that the physical node was not successfully responding to VM operations. This was caused by a hyper-v related platform bug involving local (VM) storage stack. 
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > VMs that could be relocated to different, healthy nodes were automatically moved before the host node was rebooted. > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > Our core platform engineers are currently working on the solution for this issue and to improve the platform to reduce incidences of virtual machine unavailability.
 > 
 <!--/additionalInfo-->

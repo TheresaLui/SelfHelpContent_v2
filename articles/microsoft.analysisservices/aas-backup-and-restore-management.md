@@ -1,19 +1,16 @@
- <properties
-    pageTitle="backup and restore"
-    description="backup and restore"
-    service="Microsoft.AnalysisServices"
-    resource="Microsoft.AnalysisServices/servers"
-    authors="pjfreitas"
-    ms.author="pfreitas"
-    displayOrder="170"
-    selfHelpType="generic"
-    supportTopicIds="32675694"
-    productPesIds="16157"
-    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-    articleId="b84eddd1-10b9-ba39-bf09-dc13983510ac"
-    ownershipId="AzureData_AnalysisServices"
-/>
-
+<properties
+  pagetitle="Backup and restore&#xD;"
+  description="backup and restore"
+  service="microsoft.analysisservices"
+  resource="servers"
+  ms.author="pfreitas,amigan"
+  selfhelptype="Generic"
+  supporttopicids="32675694"
+  resourcetags=""
+  productpesids="16157"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
+  articleid="b84eddd1-10b9-ba39-bf09-dc13983510ac"
+  ownershipid="AzureData_AnalysisServices" />
 # Backup and restore
 
 ## **Recommended Documents**
@@ -26,4 +23,6 @@
 
 * [Database operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-powershell#database-operations)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Best practices for long-running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Monitor Analysis Services with SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=asallproducts-allversions)

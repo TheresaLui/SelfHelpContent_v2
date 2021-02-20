@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_90426252-f966-63ea-cbda-cab5ceaa865d"
   ownershipid="Compute_Automation" />
 # Support Topic Descriptions for 90426252-f966-63ea-cbda-cab5ceaa865d
@@ -398,6 +399,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b88b5b98-cdd2-7cd0-0755-75d0c3e226d4",
+      "longDescription": "",
+      "shortDescription": "Privately accessing services in Automation by connecting your virtual network to Automation",
+      "searchTags": "PrivateLink;VirtualNetwork",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf96609f-f01c-a33e-50f6-de9417df900b",
       "longDescription": "",
       "shortDescription": "Onboarding and configuring Change Tracking or Inventory",
@@ -528,7 +537,7 @@
     {
       "id": "ffa06910-7d76-1596-5bec-da597fc57a2d",
       "longDescription": "",
-      "shortDescription": "Can not renew or create Classic Run As account",
+      "shortDescription": "Cannot renew or create Classic Run As account",
       "searchTags": "classic",
       "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"

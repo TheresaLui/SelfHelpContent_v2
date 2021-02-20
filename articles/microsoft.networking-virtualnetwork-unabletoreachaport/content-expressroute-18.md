@@ -17,5 +17,12 @@
 
 # Expressroute
 
-This should link to the Expressroute TSG
+This will link to expressroute TSG when available.
+In the maeantime, please make use of the our wiki. 
 
+
+
+
+# Reccommended Documents
+
+1.(Azure Expressroute)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/24330/Azure-ExpressRoute]

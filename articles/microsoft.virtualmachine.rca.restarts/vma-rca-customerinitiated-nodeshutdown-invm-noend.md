@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Customer Initiated - in-VM shutdown"
+	description="Root Cause Analysis (RCA) - Customer Initiated in-VM shutdown"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,11 +24,11 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
+### **Root Cause**
 > The shutdown was triggered by an authorized user or process from within the Virtual Machine. Your VM remained in this state until user action was taken to restart it.
 
 <!--resolutionDetails-->
-### *Resolution*
+### **Resolution**
 > VM Services were restored following the restart.
 > 
 <!--/resolutionDetails-->

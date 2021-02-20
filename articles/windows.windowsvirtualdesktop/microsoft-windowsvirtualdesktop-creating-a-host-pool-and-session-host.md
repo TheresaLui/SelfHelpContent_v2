@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Creating a host pool or session host&#xD;"
+  pagetitle="Windows Virtual Desktop (classic) - Creating a host pool or session host&#xD;"
   service=""
   resource=""
   ms.author="evas"
@@ -10,12 +10,14 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="1b9984b1-6b6c-4f67-9415-a597c3de8112"
   ownershipid="Windows_Virtual_Desktop" />
-# Windows Virtual Desktop - Creating a host pool or session host
+# Windows Virtual Desktop (classic) - Creating a host pool or session host
 
 When you create a host pool or a session host on Windows Virtual Desktop, use the following steps and documents.
 
 ## **Recommended Steps**
 * Review [troubleshooting guidance using Windows Virtual Desktop (classic)](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/troubleshoot-set-up-issues-2019)
+
+* Review [troubleshooting guidance for session host machine configuration](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/troubleshoot-vm-configuration-2019)
 
 * When adding a customized image to your host pool, ensure that you follow the steps to [prepare and customize a master VHD image](https://docs.microsoft.com/azure/virtual-desktop/set-up-customize-master-image)
 
