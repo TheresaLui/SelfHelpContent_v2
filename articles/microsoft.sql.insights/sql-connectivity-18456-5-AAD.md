@@ -7,7 +7,7 @@
 	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
-	articleId="sql_connectivity_18456_5_AAD_SQL"
+	articleId="sql_connectivity_18456_5_aad_sql"
 	diagnosticScenario="SqlLoginError18456"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
