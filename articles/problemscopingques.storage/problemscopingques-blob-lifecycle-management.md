@@ -20,7 +20,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Blob Lifecycle Management Troubleshooter",
-        "description": "Help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a case.",
+        "description": "Click on the Submit to diagnose Life Cycle Management Issues.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please provide a sample blob path with this issue and ensure that it is in the approved format as suggested in the watermark."
     },
     "formElements": [
@@ -28,10 +28,10 @@
             "id": "blob_path",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Sample blob path with tiering issues",
+            "displayLabel": "Optional : For LCM with specific blob add the blob path",
             "watermarkText": "'mycontainer/myblob.txt'",
             "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "problem_start_time",
