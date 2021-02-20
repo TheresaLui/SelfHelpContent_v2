@@ -4,7 +4,7 @@
 	authors="jajens"
 	ms.author="jajens"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32592869,32592868,32727891,32727892,32740892,32727893,32592903,32727894"
+	supportTopicIds="32592869,32727891,32727892,32740892,32727893,32592903,32727894"
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake,usnat,ussec"
 	schemaVersion="1"
