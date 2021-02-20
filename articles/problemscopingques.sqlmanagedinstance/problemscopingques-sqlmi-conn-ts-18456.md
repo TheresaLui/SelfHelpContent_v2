@@ -45,24 +45,12 @@
             "infoBalloonText": "Choose the authentication method you are using",
             "dropdownOptions": [
                 {
-                    "text": "SQL Server Authentication",
+                    "text": "SQL authentication",
                     "value": "SQL"
                 },
                 {
-                    "text": "Application token authentication",
-                    "value": "Token"
-                },
-                {
-                    "text": "Azure Active Directory Password",
-                    "value": "AADPassword"
-                },
-                {
-                    "text": "Azure Active Directory Integrated",
-                    "value": "AADIntegrated"
-                },
-                {
-                    "text": "Azure Active Directory Universal with Multi-Factor Authentication",
-                    "value": "AADUniversalMFA"
+                    "text": "Azure Active Directory authentication",
+                    "value": "AAD"
                 },
                 {
                     "text": "Don't know or not applicable",

@@ -36,39 +36,6 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "auth_method",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "What authentication method you are using?",
-            "required": true,
-            "watermarkText": "Authentication method",
-            "infoBalloonText": "Choose the authentication method you are using",
-            "dropdownOptions": [
-                {
-                    "text": "Application token authentication",
-                    "value": "Token"
-                },
-                {
-                    "text": "Azure Active Directory Password",
-                    "value": "AADPassword"
-                },
-                {
-                    "text": "Azure Active Directory Integrated",
-                    "value": "AADIntegrated"
-                },
-                {
-                    "text": "Azure Active Directory Universal with Multi-Factor Authentication",
-                    "value": "AADUniversalMFA"
-                },
-                {
-                    "text": "Don't know or not applicable",
-                    "value": "dont_know_answer"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
             "id": "database_name",
             "order": 4,
             "controlType": "dropdown",
