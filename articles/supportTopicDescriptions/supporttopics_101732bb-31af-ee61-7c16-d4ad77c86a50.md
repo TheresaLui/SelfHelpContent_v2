@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Azure Application Gateway"
   description="Support topic description for Azure Application Gateway"
   authors="surajmb, elixirsys2"
-  ms.author="surmb"
+  ms.author="surmb, azhussai"
   selfhelptype="SupportTopicDescription"
   productpesids="101732bb-31af-ee61-7c16-d4ad77c86a50"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
@@ -160,6 +160,14 @@
       "searchTags": "502;unhealthy;health probe;502 error;probe",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4e2b5ae3-7533-be76-a652-2260e1e56e32",
+      "longDescription": "",
+      "shortDescription": "Issues related to the metric data published for your Application Gateway",
+      "searchTags": "metrics;capacity units;latency;throughput",
+      "category": "Metrics",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "51c18a5b-d8f6-94eb-8689-2b9a39651b30",
