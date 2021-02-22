@@ -79,6 +79,30 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b2bfdd9-bc62-0320-3a5a-105274f860e3",
+      "longDescription": "",
+      "shortDescription": "Issues with Azure Sentinel RBAC roles",
+      "searchTags": "RBAC;permissions",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0dfe6c24-6fb6-af46-99ff-674992ea715f",
+      "longDescription": "",
+      "shortDescription": "Notebook failed to run",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "18b577bb-0d09-ecc9-a495-7877e04159fd",
+      "longDescription": "",
+      "shortDescription": "Alert rule scheduling creation, suppression and grouping (event or alert) questions. Alerts are not generated as expected.",
+      "searchTags": "Analytics;alert;rules;schedule;supress",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
@@ -119,9 +143,25 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "26960f73-f09b-b788-6e63-bc689c49475e",
+      "longDescription": "",
+      "shortDescription": "Workbook template not working as expected",
+      "searchTags": "Workbooks;Template",
+      "category": "Workbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2840bd22-d8c3-bb46-09f8-166adcc48463",
+      "longDescription": "",
+      "shortDescription": "Issues with viewing incidents from multiple workspaces",
+      "searchTags": "incidents ;workspaces",
+      "category": "Incidents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "288af9dd-36c6-f20d-ed5f-3053b4d078cf",
       "longDescription": "",
-      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace.",
+      "shortDescription": "Syslog data collection and non Microsoft integrations connectors using the Log Analytics API to Send custom logs events to Log Analytics workspace",
       "searchTags": "Syslog;Log Analytics;custom logs",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
@@ -159,9 +199,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3975af4f-5e63-cede-a4fe-a44f79c65487",
+      "longDescription": "",
+      "shortDescription": "Cannot delete, disable, update or save an alert rule",
+      "searchTags": "Analytics;rules;active;alert",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "39d10508-b5a4-8952-1209-674194233dbe",
       "longDescription": "",
-      "shortDescription": "How to enable the Entity Behavior Analytics",
+      "shortDescription": "How to enable Entity Behavior Analytics",
       "searchTags": "UEBA;Entity ;Behavior ;Analytics",
       "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
@@ -247,11 +295,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64715b26-ce7e-1905-3752-06abc7773fd6",
+      "longDescription": "",
+      "shortDescription": "Built-in workbooks not working as expected, missing, or unexpected data",
+      "searchTags": "workbooks;data",
+      "category": "Workbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
       "searchTags": "Connector;Configure",
       "category": "Connector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6fd67b9f-aae3-7d95-075e-95f5f8954144",
+      "longDescription": "",
+      "shortDescription": "TAXII connector has never received data, or did receive data initially but has not since the initial connection.",
+      "searchTags": "TAXII ;data;Intelligence ;Trusted ;Information ",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -287,6 +351,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8eaed2a8-7090-653b-ea83-c7defb984662",
+      "longDescription": "",
+      "shortDescription": "3rd party integrations using the Linux AMA or MMA agent to implement CEF and Syslog collections, Windows Firewall, Security events and DNS scenarios.",
+      "searchTags": "CEF;Syslog;DNS;AWS;MMA",
+      "category": "Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9077aeea-0253-5ec1-5bb5-590f292c3c49",
       "longDescription": "",
       "shortDescription": "The playbook did not trigger as I expected",
@@ -303,6 +375,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
+      "longDescription": "",
+      "shortDescription": "TAXII, TIP and filtering",
+      "searchTags": "TAXII;TIP ;Filtering",
+      "category": "Threat Intelligence",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a90de91c-c8be-bf15-6bc2-3d7534b72fdf",
       "longDescription": "",
       "shortDescription": "Scenario is not listed, add details and open a case",
@@ -316,6 +396,14 @@
       "shortDescription": "Playbook downloaded from Github gallery not working as expected",
       "searchTags": "Playbook;Github;Template",
       "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b2f29847-7a0f-4c26-7c50-6d97ba821120",
+      "longDescription": "",
+      "shortDescription": "Analytics templates are not producing the expected results",
+      "searchTags": "Analytics;template",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -343,6 +431,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bba76dd0-3d90-b110-304e-7b427498e7bf",
+      "longDescription": "",
+      "shortDescription": "How to select which data sources will get UEBA enrichments and anomalies ",
+      "searchTags": "UEBA;anomalies ;Entity;Behavior;Analytics",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd3d5934-3291-31d1-55fe-81e339d76588",
       "longDescription": "",
       "shortDescription": "Data not presenting in Sentinel Workspaces",
@@ -364,6 +460,22 @@
       "shortDescription": "Having issues while using the Investigation feature ",
       "searchTags": "Investigation",
       "category": "Incident",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c889af10-7efb-fa08-da25-9e41e5f9b008",
+      "longDescription": "",
+      "shortDescription": "Missing TAXII Server values, filtering for indicators is not working as expected",
+      "searchTags": "TAXII;filtering",
+      "category": "Threat Intelligence",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c8a46e53-2f97-f63e-92da-6c07ea1e91ec",
+      "longDescription": "",
+      "shortDescription": "TIP data connector has never received data, or did receive data initially, but has not since the initial connection",
+      "searchTags": "TIP;Connector",
+      "category": "Threat Intelligence",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -434,7 +546,7 @@
       "id": "e7686dc3-69a6-3d92-a048-f4a794d64e25",
       "longDescription": "",
       "shortDescription": "Problems with creating a playbook or achieving a specific scenario with playbooks",
-      "searchTags": "Playbook",
+      "searchTags": "Playbook;create",
       "category": "Playbook",
       "useInDiagnoseAndSolve": "true"
     },
@@ -455,11 +567,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f884041c-db5d-d916-1792-e41ec610ffee",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, saving, uploading file, API, or querying a watchlist",
+      "searchTags": "Upload;Watchlist",
+      "category": "Threat Hunting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f8ff9222-66f7-e4ee-3923-5f689328cd32",
       "longDescription": "",
       "shortDescription": "How to understand Azure Sentinel costs",
       "searchTags": "Costs;bill;billing",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb90f17a-7d1b-7b2b-88aa-a4d7b1d8f54f",
+      "longDescription": "",
+      "shortDescription": "Issues with removing Azure Sentinel from your workspace",
+      "searchTags": "workspace;sentinel",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
