@@ -14,43 +14,35 @@
 
 # Issue in Package deployment
 
-**Error:** "The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
-A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
-System.Data.SqlClient.SqlException: The path for 'ISServerExec.exe' cannot be found. The operation will now exit."
+Review the following solutions for common errors in package deployment.
 
-This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
+* **Error:** "The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
+  A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
+System.Data.SqlClient.SqlException: The path for `ISServerExec.exe` cannot be found. The operation will now exit."
 
-```
-HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server\130\SSIS\Setup\DTSPath- '130' is for SQL 2016.
-```
+   **Solution:** This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
 
-Check your version and point it to the path where the ISServerExec.exe is available.
+   ```
+   HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server\130\SSIS\Setup\DTSPath- '130' is for SQL 2016.
+   ```
 
-**Error:**"Project Deployment fails or takes a long time to deploy when you have a large number of packages."
+   Check your version and point it to the path where the ISServerExec.exe is available.
 
-**Cause**  
+* **Error:**"Project Deployment fails or takes a long time to deploy when you have a large number of packages."
+   This error is not specific to SSIS, but almost all projects developed in SQL Server Data Tools. SSDT is a 32bit application, therefore it is governed by a 2 GB memory limit. When there are large amounts of packages in a Project, it will need to build and deploy all of those projects using that contained memory. Read this article, which talks about this in detail [https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception](https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception)
 
-This is not specific to SSIS, but almost all projects developed in SQL Server Data Tools. **SSDT is a 32bit** application, therefore it is governed by a **2 GB** memory limit. When there are large amounts of packages in a Project, it will need to build and deploy all of those projects using that contained memory.
+  **Solution:** We recommend that you split up your Projects to make it more manageable. In the interim, you can use the 64bit ISDeploymentWizard.exe application to deploy your projects to get around the memory limitation.
 
-Read this article, which talks about this in detail [https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception](https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception)
-
-**Resolution** 
-
-We recommend that you split up your Projects to make it more manageable. In the interim, you can use the 64bit ISDeploymentWizard.exe application to deploy your projects to get around the memory limitation.
-
-**Error:**"The package format was migrated from version 6 to version 8. It must be saved to retain migration changes"
-
+* **Error:**"The package format was migrated from version 6 to version 8. It must be saved to retain migration changes"
 You may encounter this issue if you are trying to deploy an older version of a package developed for a previous version of SSIS. When you opened the `.ispac` file in SSDT or deployed the package onto SSISDB catalog, some components of the package could not be updated due to encryption.
 
-**Remember to change the Deployment** TargetServerVersion **to match the version of the SQL Server -SSISDB where you are deploying the SSIS Project.** You can also use the ISDeploymentWizard.exe application aligned to the version of the target SQL Server to deploy your projects.
+   **Solution:** Remember to change the Deployment `TargetServerVersion` to match the version of the SQL Server -SSISDB where you are deploying the SSIS Project. You can also use the `ISDeploymentWizard.exe` application aligned to the version of the target SQL Server to deploy your projects.
 
-**Error:** "A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
+* **Errors:**"A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
 System.ComponentModel.Win32Exception: A required privilege is not held by the client"
 
-_Or_
-
-".NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal"
-System.ComponentModel.Win32Exception: Access is denied" 
+_Or_  ".NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal"
+System.ComponentModel.Win32Exception: Access is denied"
 
 This is one of the known error messages that occur if the SQL Server or SQL Server Agent service account doesn't have the necessary permissions or privileges on the SQL Server machine.
 
@@ -60,13 +52,11 @@ Resolution steps includes providing the necessary permissions to the SQL Server 
 
 ## **Recommended Steps**
 
-**Provide the necessary Local policy permissions:**
+### Provide the necessary Local policy permissions. 
 
-On the SQL Server machine,
-
-1. Open the **Run** prompt _(Windows + R key)_ and type in **secpol.msc** &amp; OK to open Local Security Policy window.
-2. Expand **Local Policies** under **Security Settings** in the left pane&amp; click **User Rights Assignment.**
-3. In the right pane, open the following Policies and add the &_SQL Server Service account_ and/or _SQL Server Agent service account_ under the following policies.
+1. On the SQL Server machine, open the **Run** prompt (Windows + R key) and type `secpol.msc`. Select **OK** to open **Local Security Policy** window.
+2. Expand **Local Policies** under **Security Settings** in the left pane and select **User Rights Assignment.**
+3. In the right pane, open the following Policies and add the **SQL Server Service account** or **SQL Server Agent service account** under the following policies.
   - **Act as a part of Operating system**
   - **Log on as Service.**
   - **Replace a process-level token.**
@@ -74,28 +64,25 @@ On the SQL Server machine,
   - **Adjust memory quotas for a process.**
   - **Impersonate a client after authentication.**
 
-**Setting DCOM permissions:**
+### Set the DCOM permissions
 
-On the SQL Server machine,
-
-1. Open the Run prompt (Windows + R key) and type in **dcomcnfg.exe** &amp; OK to open **Component Services** window
+1. On the SQL Server machine, open the **Run** prompt (Windows + R key) and type `dcomcnfg.exe`. Select **OK** to open **Component Services** window.
 2. On the left pane, go to **Component Services** > **Computers** > **My Computer** > **DCOM Config** node.
-3. Under DCOM Config node, based on the version of the Microsoft SQL Server Integration services installed on the SQL Server, choose the respective &quot; **Microsoft SQL Server Integration Services** 1X.0&quot; component.
+3. Under DCOM Config node, based on the version of the Microsoft SQL Server Integration services installed on the SQL Server, choose the respective **Microsoft SQL Server Integration Services** component.
 
-- Microsoft SQL Server 2012 – Microsoft SQL Server Integration Services 11.0
-- Microsoft SQL Server 2014 – Microsoft SQL Server Integration Services 12.0
-- Microsoft SQL Server 2016 – Microsoft SQL Server Integration Services 13.0
-- Microsoft SQL Server 2017 – Microsoft SQL Server Integration Services 14.0
-- Microsoft SQL Server 2019 – Microsoft SQL Server Integration Services 15.0
+   - Microsoft SQL Server 2012 – Microsoft SQL Server Integration Services 11.0
+   - Microsoft SQL Server 2014 – Microsoft SQL Server Integration Services 12.0
+   - Microsoft SQL Server 2016 – Microsoft SQL Server Integration Services 13.0
+   - Microsoft SQL Server 2017 – Microsoft SQL Server Integration Services 14.0
+   - Microsoft SQL Server 2019 – Microsoft SQL Server Integration Services 15.0
 
   1. Right-click &amp; choose **Properties** of the Microsoft SQL Server Integration Services 1X.0 component.
   2. Under **Security** Tab,
     * Go to **Launch &amp; Activation Permissions** , choose **Customize** option &amp; click **Edit** button. Add the SQL Server Service account and/or SQL Server Agent service account under them. Give **Allow** permissions for **Local Launch, Remote Launch, Local Activation &amp; Remote Activation** for this account.
     * Go to **Access Permissions** , choose **Customize** option &amp; click **Edit** button. Add the SQL Server Service account and/or SQL Server Agent service account under them. Give **Allow** permissions for **Local Access, Remote Access** for this account.
-    * Go to **Configuration Permissions** , choose **Customize** option &amp; click **Edit** button. Add the SQL Server Service account and/or SQL Server Agent service account under them. Give **Allow** permissions for **Full Control, Read &amp; Special Permissions** for this account.
+    * Go to **Configuration Permissions** , choose **Customize** option and select the **Edit** button. Add the SQL Server Service account and/or SQL Server Agent service account under them. Give **Allow** permissions for **Full Control, Read &amp; Special Permissions** for this account.
 
-4. **Reboot the SQL Server Machine** post the above changes [MANDATORY – Changes will not come into effect if reboot is not performed]
-2. If issue still persists, collect a RSOP report and to make sure that the SQL Server Service account and/or SQL Server Agent service account is added to the necessary policies as mentioned above and there is no explicit DENY permission set of these accounts at the GPO level.
+3. Reboot the SQL Server Machine to post the above changes [MANDATORY – Changes will not come into effect if reboot is not performed]. If the issue still persists, collect a RSOP report to make sure that the SQL Server Service account and/or SQL Server Agent service account is added to the necessary policies as mentioned above and there is no explicit DENY permission set of these accounts at the GPO level.
 
 ## **Recommended Documents**
 
