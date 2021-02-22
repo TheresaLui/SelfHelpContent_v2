@@ -24,7 +24,7 @@ This topic will guide partners to the support experience for Volume Licensing op
 
 ## **Recommended Steps**
 
-- Chat now to speak with a Volume Licensing Operations Specialist [here](www.link-to-be-added-here.com)
+- Chat now to speak with a Volume Licensing Operations Specialist [here](https://www.explore.ms/Home/EmsLiveChat)
 - Submit a new support request for all Volume Licensing operations question through the Call Logging Tool (CLT) [here](https://clt.partners.extranet.microsoft.com/clt/) 
 - To access the ROC Operations Bot for existing ticket reactivation or escalation click [here](https://cosmiccasereactivation.trafficmanager.net/)
 
