@@ -24,4 +24,4 @@
 
 ## **Recommended Documents**
 
-* [Change SiteConnectivityAction flag](https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Down#SiteConnectivityAction_flag_set_to_Disconnect)
+* [Change SiteConnectivityAction flag](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134283/VPN-Down?anchor=siteconnectivityaction-flag-set-to-disconnect)

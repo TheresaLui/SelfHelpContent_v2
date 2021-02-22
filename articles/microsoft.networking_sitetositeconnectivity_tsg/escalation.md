@@ -18,10 +18,10 @@
 # VPN Gateway escalation path
 
 ## **Recommended Steps**
+* If you have reached this step, it means that something which is supposed to work in a certain way, doesn’t work because of an issue on the Azure side
+* It is recommended that you share _Network Traces_ from all the hops, including the ones from hosts, along with _Test Traffic_ logs, and _Effective Routes_ output.
 
 ### Standard Escalation
-
-* If you have reached this step, it means that something which is supposed to work in a certain way, doesn’t work because of an issue on the Azure side
 * The escalation process is as usual raising the issue on teams and get help from the Technical Advisors
 * TA must determine if we got to this point because we didn’t properly follow the TSG and should have checked something else, or may determine this is an issue that requires an ICM, where EEE/PG should be involved
 

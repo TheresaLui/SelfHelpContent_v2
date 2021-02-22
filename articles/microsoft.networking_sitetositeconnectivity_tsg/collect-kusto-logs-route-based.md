@@ -31,4 +31,4 @@
 * [Configure IPsec/IKE policy for S2S VPN or VNet-to-VNet connections](https://docs.microsoft.com/en-us/azure/vpn-gateway/ipsec-ike-policy-howto)
 * [IkeLogsTable](https://jarvis-west.dc.ad.msft.net/3B96A61D)
 * [SeamlessTunnelServiceTraceTable](https://jarvis-west.dc.ad.msft.net/CAB06602)
-* [Azure Gateway Diagnostics on internal wiki](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki?pageId=134103)
+* [Azure Gateway Diagnostics on internal wiki](https://aka.ms/AnpBrkCapAsc)
