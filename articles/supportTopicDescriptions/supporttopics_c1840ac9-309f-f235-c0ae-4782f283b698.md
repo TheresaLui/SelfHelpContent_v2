@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for c1840ac9-309f-f235-c0ae-4782f283b698"
   description="SupportTopicDescriptions for c1840ac9-309f-f235-c0ae-4782f283b698"
   authors="elixirsys2"
-  ms.author="yagil"
+  ms.author="yagil, nolavime"
   selfhelptype="SupportTopicDescription"
   productpesids="c1840ac9-309f-f235-c0ae-4782f283b698"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_c1840ac9-309f-f235-c0ae-4782f283b698"
   ownershipid="AzureMonitoring_ActionGroup" />
 # Support Topic Descriptions for c1840ac9-309f-f235-c0ae-4782f283b698
@@ -232,7 +233,7 @@
     {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
-      "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
+      "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, secure webhook (or export), logic app, Azure function or auto runbook",
       "searchTags": "Alerts;Notifications;Actions;Webhook;Runbook",
       "category": "Actions and Notifications",
       "useInDiagnoseAndSolve": "true"
@@ -283,6 +284,14 @@
       "shortDescription": "An activity log alert should have fired but I do not see it in the Azure portal",
       "searchTags": "Alerts;Activity log alerts",
       "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "83dea395-edb9-1be8-781b-6e898b91f70b",
+      "longDescription": "",
+      "shortDescription": "I have issues with Application Insights Smart Detections or with Failure Anomalies alerts",
+      "searchTags": "Alerts;Application Insights;Smart Detections;Failure Anomalies",
+      "category": "Smart Detections",
       "useInDiagnoseAndSolve": "true"
     },
     {

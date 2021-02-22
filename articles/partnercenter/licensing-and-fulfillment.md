@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Make sure you have read the [Quick Reference Guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide) for licensing questions before creating a service request
+* Make sure you have read the [Quick Reference Guide](https://docs.microsoft.com/partner-center/support-resources-licensing) for licensing questions
 
 ## **Recommended Documents**
 
@@ -33,4 +33,3 @@
 * [Azure Products](https://docs.microsoft.com/azure/#pivot=products)
 * [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)
 * [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
-

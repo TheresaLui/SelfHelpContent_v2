@@ -17,7 +17,7 @@
 
 # Access customer workspace and check the issue
 
-### What is Genie?
+**What is Genie?**
 
 Genie tool is an application that with customer permission allows CSS to access:
 
@@ -29,7 +29,7 @@ Check in the case that the **DatabricksConsent**  is **True**. This gives Micros
 
 **Important**: If DatabricksConsent is False, please get customer written or verbal consent before accessing Genie.
 
-### Create Genie access ticket
+**Create Genie access ticket**
 
 1. Go to Salesforce portal to submit ticket: [Submit Request](https://help.databricks.com/s/submitrequest)
 2. Fill all required details making sure to have the following:
@@ -47,7 +47,7 @@ Check in the case that the **DatabricksConsent**  is **True**. This gives Micros
 
 3. Submit request and copy ticket number to use it afterwards
 
-### Access customer workspace
+**Access customer workspace**
 
 1. Go to [Genie](https://genie-azure-prod.dev.databricks.com/)
 2. Fill customer workspace and ticket details gathered in previous steps

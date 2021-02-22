@@ -19,16 +19,50 @@
 
 ## **Recommended Steps**
 
-### **Preview Limitation**
+1. See [**How to register for the preview**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#register-for-the-preview)<br>
 
-- Restoring premium block blobs is not supported
-- Restoring blobs in the archive tier is not supported. For example, if a blob in the hot tier was moved to the archive tier two days ago, and a restore operation restores to a point three days ago, the blob is not restored to the hot tier.
-- Restoring Azure Data Lake Storage Gen2 flat and hierarchical namespaces is not supported
-- Restoring storage accounts using customer-provided keys is not supported
+2. Register for the point-in time restore preview
+
+	```powershell
+	Register-AzProviderFeature -FeatureName RestoreBlobRanges -ProviderNamespace Microsoft.Storage
+	```
+	#### Register for change feed (preview)
+	```powershell
+	Register-AzProviderFeature -FeatureName Changefeed -ProviderNamespace Microsoft.Storage
+	```
+	#### Register for blob versioning (preview)
+	```powershell
+	Register-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Versioning
+	```
+
+	#### Refresh the Azure Storage provider namespace
+	```powershell
+	Register-AzResourceProvider -ProviderNamespace Microsoft.Storage
+	```
+	
+
+- **How to check registration status**
+
+	```powershell
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName RestoreBlobRanges
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Changefeed
+	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage `
+    -FeatureName Versioning
+
+	```
+- [**How to enable point-in time restore**](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage?tabs=portal)
+
+ ### **Preview limitations and known issues**
+
+ Learn more about [preview limitations and known issues](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#limitations-and-known-issues).
+
 
 ## **Recommended Documents**
 
-- [Pre-requisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
+- [Prerequisites for using point-in-time restore Feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#prerequisites-for-point-in-time-restore)
 - [Regions Availability & Preview Limitation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-overview#about-the-preview)
 - [How to enable point-in-time restore feature](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage)
 - [How to perform a restore operation](https://docs.microsoft.com/azure/storage/blobs/point-in-time-restore-manage#perform-a-restore-operation)

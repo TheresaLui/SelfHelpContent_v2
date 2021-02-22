@@ -35,7 +35,7 @@
     "serviceTreeId": "362c0db7-c08b-4471-93ef-c90effc930dd"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-powershell",
   "description": "Not enough production environments enabled",
   "longDescription": "We have determined that too many of your host pools have Validation Environment enabled. In order for Validation Environments to best serve their purpose, you should have at least one, but never more than half of your host pools in Validation Environment. By having a healthy balance between your host pools with Validation Environment enabled and those with it disabled, you will best be able to utilize the benefits of the multistage deployments that Windows Virtual Desktop offers with certain updates. To fix this issue, open your host pool's properties and select \"No\" next to the \"Validation Environment\" setting.",
@@ -64,7 +64,16 @@
     }
   },
   "displayLabel": "Deploy Host Pool to production (non-validation) environment",
-  "additionalColumns": [],
+  "additionalColumns": [
+    {
+      "name": "productionPools",
+      "title": "# Production Pools"
+    },
+    {
+      "name": "validationPools",
+      "title": "# Validation Pools"
+    }
+  ],
   "tip": "Use Host Pool deployed to production (non-validation) environment to ensure business functionality continuation with increased stability"
 }
 ---

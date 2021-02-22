@@ -38,6 +38,7 @@ Error Message: *The input authorization token can't serve the request. Please ch
 
 * First verify the expected payload is as per the protocol you are using
 * If you are experiencing this error in Data Explorer when using special character encodings in the id, this is a current known issue. Please use the [Sunset Link](https://cosmos.azure.com/sunset) as a workaround.
+* This error can also be caused if the user has a custom RBAC role that does not include `Microsoft.DocumentDB/databaseAccounts/listKeys` action. For more information see, [Role-based access control in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control)
 
 ### **Find out who made changes to an Azure Cosmos DB account**
 

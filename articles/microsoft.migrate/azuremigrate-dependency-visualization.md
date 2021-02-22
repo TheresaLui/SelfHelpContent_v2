@@ -1,20 +1,18 @@
-<properties 
-    pageTitle="Dependency Visualization"
-    description="Issues and guidance regarding view dependencies feature in Azure Migrate: Server Assessment"
-    service="microsoft.migrate"
-    resource="migrateprojects"
-    authors="musa-57"
-    ms.author="hamusa"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32675744"
-    resourceTags=""
-    productPesIds="16348"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="b5dcb587-3130-4550-af8e-2517b61fb5e2"
-	ownershipId="Compute_AzureMigrate"
-/>
-
+<properties
+  pagetitle="Dependency Visualization"
+  description="Issues and guidance regarding view dependencies feature in Azure Migrate: Server Assessment"
+  service="microsoft.migrate"
+  resource="migrateprojects"
+  authors="musa-57"
+  ms.author="hamusa,vivikram"
+  displayorder=""
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="16348"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="b5dcb587-3130-4550-af8e-2517b61fb5e2"
+  ownershipid="Compute_AzureMigrate" />
 # Dependency analysis (agent-based)
 
 ## **Recommended Steps**

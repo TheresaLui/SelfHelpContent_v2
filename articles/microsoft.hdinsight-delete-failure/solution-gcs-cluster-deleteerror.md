@@ -27,4 +27,4 @@ Please follow recommended document to delete the DeleteError cluster.
 
 ## **Recommended Documents**
 
-* [GCS cluster DeleteError](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki/6608/GCS-Cluster-Deletion-Error)
+* [GCS cluster DeleteError](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349536/GCS-Cluster-Deletion-Error)

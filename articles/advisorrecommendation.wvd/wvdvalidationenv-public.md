@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Join validation environment to ensure functionality accross service deployments"
-    description="Join validation environment to ensure functionality accross service deployments"
+    pageTitle="Join validation environment to ensure functionality across service deployments"
+    description="Join validation environment to ensure functionality across service deployments"
     authors="marius"
     ms.author="rdinfra"
     articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Public"
@@ -35,7 +35,7 @@
     "serviceTreeId": "362c0db7-c08b-4471-93ef-c90effc930dd"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-validation-host-pool",
   "description": "No validation environment enabled",
   "longDescription": "We have determined that you do not have a validation environment enabled in current subscription. When creating your host pools, you have selected \"No\" for \"Validation environment\" in the properties tab. Having at least one host pool with a validation environment enabled ensures the business continuity through Windows Virtual Desktop service deployments with early detection of potential issues.",
@@ -64,7 +64,16 @@
     }
   },
   "displayLabel": "Deploy Host Pool to validation environment",
-  "additionalColumns": [],
+  "additionalColumns": [
+    {
+      "name": "validationPools",
+      "title": "# Validation Pools"
+    },
+    {
+      "name": "productionPools",
+      "title": "# Production Pools"
+    }
+  ],
   "tip": "Use Host Pool deployed to Validation Environment to ensure deployment resilience and business functionality continuation"
 }
 ---

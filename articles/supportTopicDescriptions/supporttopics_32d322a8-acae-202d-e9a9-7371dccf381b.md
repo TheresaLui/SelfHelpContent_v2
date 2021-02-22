@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a8e993db-fddd-5cc1-cdca-f05e3371feb5",
+      "longDescription": "",
+      "shortDescription": "Security profile of Azure Stack Hub infrastructure network, including DDoS and ACLs",
+      "searchTags": "DDoS;DoS;ACL",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acba8e31-02de-0bba-f6a9-84f61342f338",
       "longDescription": "",
       "shortDescription": "VPNs for connectivity in user environment, including network virtual appliances, and site-to-site connections",

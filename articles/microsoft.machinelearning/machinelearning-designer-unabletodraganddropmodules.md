@@ -21,9 +21,9 @@ Most users are able to resolve this issue using the steps below.
 ## **Recommended Steps**
 
 1. If the pipeline is running, you cannot drag and drop new modules into the canvas or edit existing ones.
-2. When you are connecting modules, make sure you see a cross **+** on the port then connect it with highlighted port(s) in blue.
+2. When you are connecting modules, make sure you see a cross **+** on the port, and then connect it with highlighted port(s) in blue.
 
 ## **Recommended Documents**
 
-* [What is Azure Machine Learning designer (preview)?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
-* [Tutorial: Predict automobile price with the designer (preview)](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score)
+* [What is Azure Machine Learning designer?](https://docs.microsoft.com/azure/machine-learning/concept-designer)
+* [Tutorial: Predict automobile price with the designer](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score)

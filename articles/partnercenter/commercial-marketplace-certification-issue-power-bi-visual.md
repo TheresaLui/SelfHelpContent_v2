@@ -20,6 +20,8 @@
 
 # Commercial Marketplace - Certification issue - Power BI visual
 
+**IMPORTANT**: If your issue is regarding expediting the certification process please note this is not supported unless there is a strong business justification or you may contact your internal Microsoft counterpart (e.g. PDM) with help expediting.
+
 Submitted products undergo rigorous review during the certification step, some automated and others manual. Review the commercial marketplace certification policies to learn more on tests performed during the review.
 
 The review process can take up to **5 business days**. However, if you have requested **for the optional Power BI certification**, the review process will take much longer - up to an **additional 4 business week for first time request** or up to an **additional 3 business weeks for resubmissions**. We recommend you request the optional Power BI certification after your visual is live in the marketplace. Cancelling an in-progress submission will reset your position to the back of the review queue when you resubmit. 

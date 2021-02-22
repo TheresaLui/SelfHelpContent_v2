@@ -1,48 +1,50 @@
 <properties
-	pageTitle="Azure Data Lake Gen 2 Lifecycle Management"
-	description="Azure Data Lake Gen 2 Lifecycle Management"
-	infoBubbleText=""
-	service="microsoft.storage"
-	resource="datalakestoragegen2"
-	authors="AngshumanNayakMSFT"
-	ms.author="annayak"
-	displayOrder=""
-	articleId="d0925508-71da-4f54-8846-4ef79be3e154"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32691063"
-	resourceTags=""
-	productPesIds="16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
-/>
+  pagetitle="Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues&#xD;"
+  description="Azure Data Lake Gen 2 Lifecycle Management"
+  service="microsoft.storage"
+  resource="storageaccounts"
+  ms.author="broder"
+  selfhelptype="Generic"
+  supporttopicids="32691063"
+  resourcetags=""
+  productpesids="16598"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="d0925508-71da-4f54-8846-4ef79be3e154"
+  ownershipid="StorageMediaEdge_DataLakeStorageGen2" />
+# Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues
 
-# Troubleshoot and resolve ADLSGen2 Lifecycle Management issues
+Most customers resolved their Azure Data Lake Storage Gen 2 (ADLS Gen 2) Lifecycle Management issue on their own, using the steps below.
 
-## **Recommended Steps**
-
-Most customers resolved their ADLSGen2 Lifecycle Management issue on their own, using the steps below.
-
-### **Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected**
-
-- [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
-
-### **Lifecycle Management wouldn't transition file for unsupported account or file type**
-
-- [Storage account supported by Lifecycle Management](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#storage-account-support)
-- [Lifecycle management policies are not supported for ADLSGen2 Premier Tier](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#lifecycle-management-policies-1)
-- [Lease blob also locks the ADLsGen2 file for write or delete operation hence is not affected by Lifecycle Management](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
+### **Some Lifecycle Management features may not be supported for ADLS Gen 2 storage accounts**
+- [Blob storage features available in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-supported-blob-storage-features)
 
 ### **Lifecycle Management may not have executed as per your expectation**
 
+- [**Page blob types are not supported** and will be ignored during policy execution](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
+- [**Append blob** type supports tiering only. **Block blob** type supports deletion and tiering.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
+- [**New or updated policy** - It could take from **24 to 48 hours** to execute a new or updated policy. We recommend waiting up to 48 hours to see the first batch of data transitions.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#faq)
+- [**System containers** such as **$logs** (diagnostic logs) and **$web** (static website) are **not supported** and will be ignored during policy execution.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
+- [**Immutable blob policies**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) [and **Blob Leases** will prevent blobs from being deleted](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
+- [**Last Access Time Tracking (Preview)** is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
+- [Make sure you are using a supported **Storage account type**](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#availability-and-pricing)
+
+### **Common prefix match misunderstandings**
+
 For successful execution of Lifecycle Management policies on the storage account, refer the following execution and rule criteria to make modifications.
 
-1. New or updated policy - It could take from 24 to 48 hours for executing a new or updated policy. We recommend waiting up to 48 hours to see the first batch of data transition.
-2. Wildcard character '_*_' - This doesn't mean _'matches one or more occurrences of any character'_. The character '_*_' is a valid character in a ADLSGen2 file name in Azure Storage. Hence, if added in a rule it means match the blobs with '_*_' in the file name.
-3. Wildcard character '?' - This doesn't mean _'match a single occurrence of any character'_. The character '?' is a valid character in a file name in Azure Storage. Hence, if added in a rule it means match the blobs with '?' in the ADLSGen2 file name.
-4. prefixMatch with '!=' - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
+1. Wildcard character '_*_' - This doesn't mean _'matches one or more occurrences of any character'_. The character '_*_' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '_*_' in the blob name.
+2. Wildcard character '?' - This doesn't mean _'match a single occurrence of any character'_. The character '?' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '?' in the blob name.
+3. prefixMatch with '!=' - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
 
-## **Recommended Documents**
-
-- [Naming and Referencing ADLSGen2 Files](https://docs.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata#blob-names)
+- [Naming and Referencing Blobs](https://docs.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata#blob-names)
 - [Policy Rule Filters](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
+
+### **Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected**
+
+- [Configure firewall and virtual networks Exception](https://docs.microsoft.com/azure/storage/common/storage-network-security#manage-exceptions)
+- [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
+- [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
+
+### **Last Access Time based LCM (Preview)**
+- [Last Access Time Tracking is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
+- [Setup a Lifecycle Management policy based on Last Access Time](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#how-last-access-time-tracking-works)

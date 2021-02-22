@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="ambhatna"
-    ms.author="ambhatna"
+    ms.author="ambhatna,bahusse"
     displayOrder="330"
     selfHelpType="generic"
     supportTopicIds="32747568"
@@ -17,56 +17,58 @@
 
 # Issues using read replicas in Azure Database for MySQL - Single Server
 
-The read replica feature allows you to replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate up to five replicas from the master server. Replicas are updated asynchronously using the MySQL engine native binary log (binlog) file position-based replication technology.
 
-Most users are able to resolve their issue using the steps below.
+Most users are able to resolve issues by using the steps below.
 
-## **Recommended Steps**
+### **Fix it yourself**
 
-### **Replica creation is taking longer than expected**
+**Troubleshooting replication lag?** 
 
-Depending on the size of the server, replica creation time can vary from a few minutes to a few hours. This is because of the time it takes to restore all the data from your master server to the replica.
+Review [Common scenarios for high replication latency](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency#common-scenarios-for-high-replication-latency). Pay special attention to `binlog_group_commit_sync_delay` parameter, which controls how many microseconds the binary log commit waits before synchronizing the binary log file.
+
+**Make sure all your tables have primary keys**
+
+Lack of primary keys makes SQL thread scans all rows in the target table to apply the changes. This scan can cause replication latency.
+
+**Note:** High resource usage (specifically IOPS, which are Intensive Write), causes multiplication of `binlog` files. Replaying these files on Read Replica slows down the overall replication performance and therefore might break replication.
+
+Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
+
+Learn how to [troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency).
+
+**Replica creation is taking longer than expected**
+
+Depending on the size of the server, replica creation time can vary from a few minutes to a few hours. This is due to the time it takes to restore all the data from your master server to the replica.
 
 1. Using Azure Cloud Shell, ping the DNS of the replica. For example, if you named the replica `myreplica`, the DNS name is `myreplica.mysql.database.azure.com`.
-2. If it's been at least five minutes since you requested the replica, and the name is resolving, then replica creation is in progress. If the name is not resolving, proceed to open a support ticket.
+2. If it's been at least five minutes since you requested the replica and the name is resolving, then replica creation is in progress. If the name is not resolving, proceed to open a support ticket.
 
-### **Can't scale down replica's compute and storage**
+**Replica creation fails using REST APIs, Azure Resource Manager, or Terraform, with "Unexpected error"**
 
-The replica's compute and storage tiers should be equal or greater than the master server to ensure the replica is able to keep up with the master server.
+If you are creating a read replica using REST APIs, ARM or Terraform, immediately after creation of the source server, the replica creation may fail with an "Unexpected error". This is because the initial backup of the source server, which is required to seed the read replica, may not be created yet. We recommend that you provision a read replica at least 15 minutes after creation of the source server to ensure initial backup is completed and available for replica seeding.
 
-### **Replica failover**
+**Can't scale down replica's compute and storage**
+
+The replica's compute and storage tiers should be equal or greater than the master server to ensure that the replica is able to keep up with the master server.
+
+**Set up replica failover?**
 
 You can choose to stop replication to a replica. Stopping replication disconnects the replica from the master server and makes the replica server a standalone read/write server.
 
-Replicas do not automatically failover. You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. Make sure to also change the user name to include the correct server name after the @ sign. The replica will always have a unique connection string from the master server.
+Replicas do not automatically fail over. You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. Make sure to also change the user name to include the correct server name after the @ sign. The replica will always have a unique connection string from the master server.
 
-### **Deleting replica servers**
+**Server parameters**
 
-Replica servers can be deleted from the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal#delete-a-replica-server) or [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli#delete-a-replica-server).
+To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (for example, `log_bin_trust_function_creators` is locked on both master and replica). See the [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
 
-### **Deleting master servers**
+To update one of the locked parameters on the master server: Delete replica servers, update the parameter value on the master, and re-create replicas.
 
-Master servers can be deleted from the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal#delete-a-master-server) or [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli#delete-a-master-server).
-
-Deleting a master server stops replication to all replica servers and deletes the master server itself. Replica servers become standalone servers that now support both read and writes.
-
-### **Server parameters**
-
-To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas (ex. `log_bin_trust_function_creators` is locked on both master and replica). Refer to [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
-
-To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and recreate replicas.
-
-### **Replication lag**
-
-Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
-
-### **Move replicas to other subscriptions**
+**Move replicas to other subscriptions**
 
 Replica servers are always created in the same resource group and same subscription as the master server. If you want to create a replica server in a different resource group or different subscription, you can [move the replica server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
 
 ## **Recommended Documents**
 
-* Learn more about [read replica servers](https://docs.microsoft.com/azure/mysql/concepts-read-replicas)
-* Create and manage read replica servers using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal)
-* Create and manage read replica servers using the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)
-* [Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/)
+* [Troubleshoot replication latency in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency)
+* [Read replica non-modifiable server parameters](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters)

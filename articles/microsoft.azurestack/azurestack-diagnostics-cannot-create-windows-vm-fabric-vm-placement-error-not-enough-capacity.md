@@ -20,10 +20,12 @@ cloudEnvironments="public, FairFax, usnat, ussec"
 # Cannot create a Windows VM FabricVmPlacementErrorNotEnoughCapacity
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot create a Windows virtual machine (VM) because of error FabricVmPlacementErrorNotEnoughCapacity.
 
+ResultCode: FabricVmPlacementErrorNotEnoughCapacity
+ErrorDetails: Failed to create VM 'VM18040135'
 
 <!--/issueDescription-->
 
-In order to create a Windows VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
+## **Recommended Steps**
 
+Manage the capacity of your Azure Stack System by [reclaiming capacity](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-physical-memory-capacity) or [adding scale units](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-scale-node) or [public IP space](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-ips).

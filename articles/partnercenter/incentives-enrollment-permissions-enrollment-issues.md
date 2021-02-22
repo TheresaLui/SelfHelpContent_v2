@@ -38,4 +38,4 @@ You can find the specific eligibility requirements for your program in the progr
 ## **Recommended Documents**
 
 * [Getting started with incentives: Determine your program eligibility](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
-* [I'm unable to find the Incentives program in Partner Center](https://support.microsoft.com/help/4526987)
+* [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)

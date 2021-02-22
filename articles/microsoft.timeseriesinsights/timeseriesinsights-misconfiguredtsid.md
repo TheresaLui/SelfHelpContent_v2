@@ -1,20 +1,20 @@
 <properties
   pagetitle="Environment configuration issue due to misconfigured Time Series ID property"
   service="microsoft.timeseriesinsights"
-  resource="timeseriesinsights"
+  resource="environments"
   ms.author="lyhughes"
   selfhelptype="Resource"
-  supporttopicids="32571145,32571148,32571151"
+  supporttopicids="32571148"
   resourcetags=""
   productpesids="16244"
-  cloudEnvironments="public,mooncake, fairfax, usnat, ussec"
+  cloudenvironments="public,mooncake,fairfax,usnat,ussec"
   articleid="timeseriesinsights-misconfiguredtsid"
   ownershipid="AzureIot_IotTSI" />
 # Environment configuration issue due to misconfigured Time Series ID property
 
-When an environment's Time Series ID (TS ID) is misconfigured or missing from an event, "(null)" will appear in the Explorer in place of your time series instances. This occurs when the TS ID provided at environment creation time is not present in your JSON telemetry payload.
+When an environment's Time Series ID (TS ID) is misconfigured or missing from an event, "(null)" will appear in the Explorer in place of your time series instances. This occurs when the TS ID provided at environment creation time is not present in your JSON telemetry payload. 
 
-## **Recommended Steps**
+## **Recommended Steps** 
 
 1. Check the Time Series ID for your environment on the overview page
 2. Make sure that the value provided is the correct unique identifier for your time series instances, and that it is present as a JSON property in your telemetry event payload

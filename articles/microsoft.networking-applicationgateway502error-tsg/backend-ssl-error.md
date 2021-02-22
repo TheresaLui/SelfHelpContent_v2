@@ -15,6 +15,8 @@
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# How to check if the problem is due to an SSL-related error:
+# Check for SSL errors
 
-In the backend health status, check the details tab for the error message displayed.
+## How to check if the problem is due to an SSL related error
+
+Navigate to the affected Application Gateway on the Azure Portal. Click on "Backend Health". Check the "Details" tab for the error message.

@@ -1,22 +1,56 @@
 <properties
-    pageTitle="Azure Security Center - Onboarding or Offboarding Agent - Product Integration"
-    description="Azure Security Center - Onboarding or Offboarding Agent - Product Integration"
-    authors="v-miegge"
-    ms.author="kawilson"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32693244"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="920335e4-8548-4e24-9a8e-c232ab6a636c"
-	ownershipId="Azure_Security_Security_Center"
-/>
+  pagetitle="Threat Detection self help guide"
+  ms.author="elsagie"
+  selfhelptype="Generic"
+  supporttopicids=""
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="920335e4-8548-4e24-9a8e-c232ab6a636c"
+  ownershipid="Azure_Security_Security_Center" />
+# Threat Detection self help guide
 
-# Azure Security Center - Onboarding or Offboarding Agent - Product Integration
+## **Recommended Steps**
+
+### Allow Windows Defender ATP to access your data
+
+Onboarding to "Microsoft Defender for Endpoint" previously known as "Microsoft Defender Advanced Threat Protection" (MDATP): Azure Security Center is extending its Cloud Workload Protection Platforms offering by integrating with [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender).
+
+These capabilities are available for Azure Defender (Security Center Standard pricing tier) customers at no extra charge:
+
+- Automated onboarding: The Windows Defender ATP sensor is automatically enabled for Windows servers that are onboarded to Azure Defender
+- Single pane of glass: The Azure Defender console displays Windows Defender ATP alerts
+- Detailed machine investigation: Azure Defender customers can access Windows Defender ATP console to perform a detailed investigation to uncover the scope of a breach
+
+To onboard servers to Security Center:
+
+1. Make sure that the subscription has Azure Defender enabled (previously known as Security Center standard pricing tier)
+1. Make sure that in Pricing & Settings -> Threat detection -> Enable integrations are checked:
+- Allow Microsoft Cloud App Security to access my data
+- Allow Windows Defender ATP to access my data  
+**Note:** Both of the above are selected by default
+2. Make sure all required workspaces under the subscription, both default and user workspaces, are [Azure defender enabled](https://docs.microsoft.com/azure/security-center/security-center-pricing#enable-azure-defender)
+3. To verify that the workspace is eligible check that 'Security' solution is enabled on that workspace
+4. Onboarding for the first time can take up to 48 hours
+
+### Allow Microsoft Cloud App Security to access your data
+
+Azure Security Center partners with Microsoft Cloud App Security to bring you alerts based on user and entity behavioral analytic (UEBA) for your Azure resources and users (Azure Activity). These alerts detect anomalies in user behavior and are based on user and entity behavioral analytic and machine learning (ML) so that you can immediately run advanced threat detection across your subscriptions' activities. Because they are automatically enabled, the new anomaly detection provide immediate results by providing immediate detection, targeting numerous behavioral anomalies across the users and resources associated with your subscription. In addition, these alerts leverage additional data that already exists in the Microsoft Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
+
+### Disabling threat detection alerts
+
+1. In Security Center portal go to Pricing & Settings -> Threat detection 
+2. Un-check the required checkbox
+3. Click **Save**
 
 ## **Recommended Documents**
 
-* [Integrate security solutions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-partner-integration)<br>
-* [Azure Container Registry integration with Security Center (Preview)](https://docs.microsoft.com/azure/security-center/azure-container-registry-integration)<br>
-* [Azure Kubernetes Services integration with Security Center (Preview)](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
+- [Microsoft Defender Advanced Threat Protection with Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+- [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender).
+- [Microsoft Cloud App Security documentation](https://docs.microsoft.com/cloud-app-security/)
+
+### Troubleshooting
+* [ASC Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
+
+### FAQ
+* [ASC FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)

@@ -5,7 +5,7 @@
     ms.author="pkshultz"
     articleId="48ae14cb-10de-4bd9-a005-5c25f498649b_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,Usnat,USsec"
     productPesIds="15614"
     ownershipId="Compute_Batch"
 />

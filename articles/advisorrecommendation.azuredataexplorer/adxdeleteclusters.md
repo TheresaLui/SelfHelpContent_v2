@@ -6,7 +6,7 @@
     articleId="d9c2f871-904e-4907-8572-0a33b0651f01_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureOptimizationAutomation_AORec"
+	ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters are not being used and are candidates for deletion.
 ---
@@ -44,10 +44,10 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
+  "learnMoreLink": "https://aka.ms/adxemptycluster",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have a small amount of data, queries, and ingestions during the last 30 days; has low CPU usage during the last two days, and has no followers during the last day (the dates are from the recommendation generated date). The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
-  "potentialBenefits": "Optimize Azure spend",
+  "potentialBenefits": "Optimize cost",
   "actions": [
     {
       "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",

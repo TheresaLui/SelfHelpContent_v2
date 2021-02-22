@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Slow query and audit logging capabilities in Azure Database for MySQL"
-    description="Slow query and audit logging capabilities in Azure Database for MySQL"
+    pageTitle="Slow query logging capabilities in Azure Database for MySQL"
+    description="Slow query logging capabilities in Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
     authors="ajlam"
@@ -15,35 +15,31 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Slow query and audit logging capabilities in Azure Database for MySQL
+# Slow query logs in Azure Database for MySQL
 
-Azure Database for MySQL has slow query and audit logs available. Slow query logs can be used to identify slow running queries and audit logs can be used to audit database events.
+Azure Database for MySQL Single Server and Flexible Server offer slow query logs that can be used to identify slow running queries and assist with performance troubleshooting.
 
 Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-*Slow query logs*
+*Enabling slow query logs*
 
-* Review documentation about [slow query logs](https://docs.microsoft.com/azure/mysql/concepts-server-logs)
-* Review how to configure & access slow query logs from the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) and [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
-* If your tables are not indexed, setting the **log_queries_not_using_indexes** and **log_throttle_queries_not_using_indexes** parameters to ON may affect MySQL performance since all queries running against these non-indexed tables will be written to the slow query log.
-* There are two ways slow query logs can be consumed: .log files or Azure Monitor diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
-  * .log files provide short-term storage for logs in a CSV-like format and are stored locally on the server. These logs are retained for up to seven days and the files are rotated every 24 hours or 7 GB (whichever comes first). They can be downloaded from the Azure portal or CLI
-  * Diagnostic logs send logs in JSON format to a storage account, Event Hub, or Azure Monitor logs for longer term storage and analysis. This feature is only available in the General Purpose and Memory Optimized pricing tiers
-  * The **log_output** parameter allows you to configure where logs are output to. If "File",  the slow query log is written to both the local server storage and to Azure Monitor Diagnostic Logs. If "None", the slow query log will only be written to Azure Monitor Diagnostics Logs.
-* If you are downloading large slow query log files from the Azure portal, you may want to consider using the [Microsoft Download Manager](https://www.microsoft.com/en-us/download/details.aspx?id=27960) to increase the threads available to download.
+Slow query logs are disabled by default. Use the following to enable logs:
+* Azure portal: [Single server](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) | [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-configure-slow-query-logs-portal)
+* Azure CLI: [Single server](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
 
-*Audit logs*
+*Configuring slow query logs*
 
-* Review documentation about [audit logs](https://docs.microsoft.com/azure/mysql/concepts-audit-logs)
-* Review how to configure logs from the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-portal)
-* Audit logs are only available through Azure Monitor diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
-* It is recommended to only log the event types (using the **audit_log_events** parameter) and users (using the **audit_log_include_users** & **audit_log_exclude_users** parameters) required for your auditing purposes to ensure your server's performance is not heavily impacted.
+* Logging behavior can be changed using a number of server parameters (ex. **`long_query_time`**). Refer to the [slow query logs documentation](https://docs.microsoft.com/azure/mysql/concepts-server-logs) for the full list.
+* If your tables are not indexed, setting the **`log_queries_not_using_indexes`** and **`log_throttle_queries_not_using_indexes`** parameters to ON may affect MySQL performance since all queries running against these non-indexed tables will be written to the slow query log
+
+*Accessing slow query logs*
+
+* In single server, slow query logs are available via downloadable log files or integration with Azure Monitor diagnostics. This behavior is set using the **`log_output`** parameter.
+* In flexible server, logs are integrated with Azure Monitor diagnostics, which emits logs (in JSON format) to a storage account, Event Hub, or Azure Monitor logs for longer term storage and analysis
 
 ## **Recommended Documents**
 
-* [Access slow query logs - Portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
-* [Access slow query logs - CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)<br>
-* [Configure and access audit logs - Portal](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-portal)<br>
-* [Configure and access audit logs - CLI](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-cli)
+* [Single server - Slow query logs](https://docs.microsoft.com/azure/mysql/concepts-server-logs)<br>
+* [Flexible server - Slow query logs](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-slow-query-logs)

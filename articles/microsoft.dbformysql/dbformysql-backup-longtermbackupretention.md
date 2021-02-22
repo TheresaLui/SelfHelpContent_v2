@@ -17,16 +17,20 @@
 
 # Backups and restore options for Azure Database for MySQL
 
-Long term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long term retention. Third party solutions are available.
+**Retention less than 7 days or beyond 35 days?**
 
-Native support for long term retention backups is currently being worked on by the Azure engineering team.
+   The default [backup retention](https://docs.microsoft.com/azure/mysql/concepts-backup) period is 7 days and can be increased up to 35 days. In Azure MySQL Single server, you can't set retention for less than 7 days or beyond 35 days. But you can [Automate backups of your Azure Database for MySQL server to azure storage for longer term retention](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
+
+Long-term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long-term retention. Third-party solutions are available.
+
+The Azure engineering team is currently working on native support for long-term retention backups.
 
 ## **Recommended Steps**
 
 * [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
-* If you want to backup Azure Database for MySQL to a Blob storage, please refer to [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
+* If you want to back up Azure Database for MySQL to a Blob storage, see [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
+* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
 * [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)

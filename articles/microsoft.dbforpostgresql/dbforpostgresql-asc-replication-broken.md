@@ -19,15 +19,16 @@
 # Broken streaming replication
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your broken streaming replication issue with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation showed that streaming replication has been broken between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
+Thank you for contacting Microsoft support about your broken streaming replication issue with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. Our investigation shows that streaming replication has been broken between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1.	Please check if primary or replica server has been restarted explicitly or if they have undergone a change in sku size, which will also result in a restart. In this case streaming replication will be temporarily broken until both servers are available again. This can also happen for short periods of time during service upgrades to the PostgreSQL service, about once every month.
+1.	Please check if the primary or the replica server has been restarted explicitly or if they have undergone a change in the SKU size, which will also result in a restart. In this case streaming replication will be temporarily broken until both servers are available again. This can also happen for short periods of time during service planned maintenance which happens usually once a month.
 
-2.	Please check if the streaming replication is broken for an extended period of time. In this case please check if the primary or replica server is not available for connections. In this case please contact microsoft support.
+2.	If streaming replication is broken for an extended period of time, check connectivity to the primary and the replica servers and if connecitivity failed on one of them please continue filing a support ticket for further investigation.
 
 ## **Recommended Documents**
 
 * [Monitoring Replication]( https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#monitor-replication)
+* [Planned maintenance notification in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-planned-maintenance-notification)

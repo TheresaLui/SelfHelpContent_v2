@@ -4,8 +4,8 @@
     authors="alexsmithMSFT"
     ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629242,32629245,32629247,32629249,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278,32630572,32629199,32629201,32630573,32629220,32629221,32629224,32629237,32629241,32629256,32629267,32629266,32629270,32629194,32629205,32663934,32629253,32629198"
-    productPesIds="16226"
+    supportTopicIds="32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629242,32629245,32629247,32629249,32630576,32629269,32629234,32629263,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278,32630572,32630573,32629220,32629221,32629224,32629237,32629241,32629256,32629267,32629270,32629194,32629205,32663934,32629253,32629198,32689841,32689842,32689843,32689844,32689845,32689846,32689847,32689855,32689833,32689834,32689836,32689837,32689838,32689851,32689828,32689830,32689835,32689839,32689840,32689849,32689850,32689852,32689858,32689829,32689831,32689832,32689848,32689853,32689854,32689856,32689857"
+    productPesIds="16226,16963"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
@@ -67,13 +67,26 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID. If you aren't sharing diagnostic data or you're running a build earlier than 1910, type N/A.</a>",
+            "required": true
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
+            "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
             "dropdownOptions": [
 {
+                    "value": "2008",
+                    "text": "2008"
+                },
+                {
                     "value": "2005",
                     "text": "2005"
                 },
@@ -86,59 +99,25 @@
                     "text": "1910"
                 },
                 {
-                    "value": "1908",
-                    "text": "1908"
-                },
-                {
                     "value": "Other",
                     "text": "Other"
                 }
             ],
             "required": false,
-            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
+            "infoBalloonText": "Example: Select 2008 if your build number is 1.2008.0.35."
         },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1903.0.35",
+            "watermarkText": "Example: 1.2008.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
-        },
-        {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",

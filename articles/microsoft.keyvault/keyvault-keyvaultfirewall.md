@@ -28,6 +28,7 @@
 ## **Recommended Documents**
 
 * [Azure IP Address Ranges and Service Tags - Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)<br>
+* [Azure DevOps IP Address Ranges](https://docs.microsoft.com/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops)<br>
 * [Access Key Vault behind firewall](https://docs.microsoft.com/azure/key-vault/key-vault-access-behind-firewall)<br>
 * [Virtual network service endpoints](https://docs.microsoft.com/azure/key-vault/key-vault-overview-vnet-service-endpoints)<br>
 * [Configure firewalls and virtual networks](https://docs.microsoft.com/azure/key-vault/key-vault-network-security)<br>

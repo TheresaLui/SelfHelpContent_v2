@@ -15,4 +15,4 @@
 
 # File Sync sync issue
 
-This troubleshooter will guide you to find the root cause and resolution for customers experiencing issues with Azure File Sync Errors
+This troubleshooter will guide you to find the root cause and resolution for customers experiencing issues with Azure File Sync Errors.

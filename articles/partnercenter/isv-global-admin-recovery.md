@@ -19,9 +19,17 @@
 />
 
 # Partner Center Global admin recovery
+
+## **Recommended Steps**
+
+**Depending on the scenario you find yourself in, follow the steps outlined accordingly:**
+
+* **MPN Partner Admin/Account Admin has left the company but there are still Global admins in the account** - [Find the company's global admin](https://docs.microsoft.com/partner-center/become-global-admin#find-the-companys-global-admin)
+* **MPN Partner Admin/Account Admin has left the company and there are no Global admins in the account** - Sign into [portal.azure.com](https://ms.portal.azure.com/) with your work account and create a support ticket of type "Technical" with the problem description that the global admin has left the company 
+* **MPN Partner Admin/Account Admin/Global admin has left the company and there are no other users that can access the company’s Azure Active Directory** – Follow the [Administrator Takeover steps](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) to take over the unmanaged Azure Active Directory as administrator.
  
 ## **Recommended Documents**
 
-* [Unable to sign in](https://docs.microsoft.com/partner-center/unable-to-sign-in)
+* [Verify your domain ownership to become global admin](https://docs.microsoft.com/partner-center/become-global-admin)
 
-* [New global admin](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions#new-global-admin)
+* [Unable to sign into Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)

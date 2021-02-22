@@ -4,7 +4,7 @@
     service="microsoft.apim"
     resource="apimanagement"
     authors="genli"
-    ms.author="mquian,toddfous"
+    ms.author="kawilson, mquian,toddfous"
     selfHelpType="generic"
     supportTopicIds="32632438"
     resourceTags=""
@@ -24,4 +24,5 @@ API Management is a way to create consistent and modern API gateways for existin
 
 - [Use revisions to make non-breaking changes safely](https://docs.microsoft.com/azure/api-management/api-management-get-started-revise-api)
 - [Publish multiple versions of your API](https://docs.microsoft.com/azure/api-management/api-management-get-started-publish-versions)
+- [How to safely make changes to your API definitions and policies](https://docs.microsoft.com/azure/api-management/api-management-revisions)
 

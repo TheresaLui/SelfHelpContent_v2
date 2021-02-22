@@ -18,14 +18,16 @@
 # Check Transit Routing
 
 By default, a Point to Site client will only be able to access the address space of:
-* The Vnet it is connected to
-* Vnets that have a vnet peering connection to the vnet with the gateway
-* Other local/virtual networks that are connected to the vnet with the gateway via a site to site connection
-* Further local/virtual networks that are connected to the vnet with the gateway via a sequence of chained connections that use BGP
+* The Virtual Network it is connected to
+* Virtual Networks that have a VNet Peering connection to the Virtual Network with the Azure VPN Gateway
+* Other local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a site to site connection
+* Further local/virtual networks that are connected to the Virtual Network with the Azure VPN Gateway via a sequence of chained connections that use BGP
 
-Connectivity to other networks via a routing hop through the Gateway is called **Transit Routing**.
+Connectivity to other networks via a routing hop through the Azure VPN Gateway is called **Transit Routing**.
 
-Notice that transit routing over coexistence gateways is not supported - You cannot route (via Azure) between your local network connected via Site-to-Site VPN and your local network connected via ExpressRoute.
+**Note: By design Point to site clients will NOT have connectivity with remote networks if they are connected via an NVA appliance rather than an Azure VPN Gateway. This is achieved by means of UDRs.** See [Scenario: Route traffic through an NVA](https://docs.microsoft.com/en-us/azure/virtual-wan/scenario-route-through-nva) for more info on this.
+
+Notice also that that transit routing over coexistence gateways is not supported - You cannot route (via Azure) between your local network connected via Site-to-Site VPN and your local network connected via ExpressRoute.
 
 ## Recommended Steps
 1. Determine VPN Client Protocol

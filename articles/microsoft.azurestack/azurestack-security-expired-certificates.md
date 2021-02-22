@@ -15,24 +15,29 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack expired certificates issue
+# Azure Stack Hub expired certificates issue
+
+Azure Stack Hub uses certificates for both external and internal secrets. When certificates are within 30 days of expiration, the following alerts are generated in the administrator portal:
+
+- Pending internal certificate expiration
+- Pending external certificate expiration
+
+External secrets are used to secure endpoints on external infrastructure and services, and are provided by the Azure Stack Hub operator. Internal secrets are used by the Azure Stack Hub infrastructure without intervention of the Azure Stack Hub Operator.
+
+In order to resolve alerts for expired certificates, you need to rotate new certificates in their place. The process for rotating expired certificates is different for external and internal certificates.
 
 ## **Recommended Steps**
 
-If you have validated the certificate, see [Using validated certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#using-validated-certificates).
-
-If you have not validated or obtain a new certificate, follow these steps:
-
-1. [Prepare Azure Stack PKI certificate for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
-2. You can use the Azure Stack Readiness Checker tool to validate the generated PKI certificate is suitable for pre-deployment: [Validate Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs)
-3. [Perform core services certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-core-services-certificate-validation)
-4. [Perform platform as a service certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-platform-as-a-service-certificate-validation)
+When certificates are about to expire or have expired, they are updated through the [certificate rotation process](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets). This article outlines the prerequisite steps you need to take, and provides details on how to rotate the certificates used for both external and internal secrets. The article also provides details on where to get help for rotating external certificates used by value-add resource providers.
 
 ## **Recommended Documents**
 
-- [Remediate common issues for Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-remediate-certs)
-- [Start-AzsReadinessChecker cmdlet reference](https://docs.microsoft.com/azure-stack/operator/azure-stack-azsreadiness-cmdlet)
-- [Azure Stack certificates signing request generation](https://docs.microsoft.com/azure/azure-stack/azure-stack-get-pki-certs)
-- [Azure Stack public key infrastructure certificate requirements](https://docs.microsoft.com/azure/azure-stack/azure-stack-pki-certs#certificate-requirements​)
-- [ Prepare Azure Stack PKI certificates for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
-- [Validate Azure Stack PKI certificates](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-pki-certs)
+[Rotate secrets in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-rotate-secrets)
+
+The following recommended documents pertain only to certificates used for external secrets, provided by the Azure Stack Hub operator:
+
+- [Azure Stack Hub public key infrastructure (PKI) certificate requirements](https://docs.microsoft.com/azure/azure-stack/azure-stack-pki-certs#certificate-requirements​)
+- [Generate certificate signing requests for Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-get-pki-certs)
+- [Prepare Azure Stack PKI certificates for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
+- [Validate Azure Stack Hub PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs)
+- [Fix common issues with Azure Stack Hub PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-remediate-certs)

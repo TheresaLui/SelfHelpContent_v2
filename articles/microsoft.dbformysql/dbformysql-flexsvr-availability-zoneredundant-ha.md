@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Backups and restore options for Azure Database for MySQL Flexible Server"
-    description="Backups and restore options for Azure Database for MySQL Flexible Server"
+    pageTitle="Zone redundancy for Azure Database for MySQL Flexible Server"
+    description="Zone redundancy for Azure Database for MySQL Flexible Server"
     service="microsoft.dbformysql"
     resource="flexibleServers"
     authors="kummanish"

@@ -5,8 +5,8 @@
     ms.author="kummanish"
     articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+    cloudEnvironments="Public,usnat,ussec"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Reduce the resource cost for Azure Database for MySQL
 ---

@@ -2,7 +2,7 @@
 	pageTitle="Azure Arc enabled Data Services"
 	description="Azure Arc enabled Data Services"
 	ms.author="pradm,amigan"
-	selfHelpType="problemScopingQuestions"	supportTopicIds="32743716,32743717,32743734,32743735,32743733,32743736,32743721,32743727,32743728,32743729,32743730,32743737,32743725,32743726,32743722,32743723,32743724,32743738,32747945,32747946,32747947,32747948,32747949,32743719,32743731,32743732,32743739,32743740,32743718,32743720"
+	selfHelpType="problemScopingQuestions"	supportTopicIds="32743718,32743720,32749972,32749957,32749958,32743716,32743734,32749959,32749960,32749961,32743733,32749962,32743735,32743736,32743717,32743730,32743721,32743727,32743729,32743737,32743728,32749968,32749969,32749970,32749971,32743723,32743725,32743726,32743722,32743724,32743738,32743731,32743732,32743719,32743739,32743740,32749963,32747945,32747946,32747947,32747948,32749964,32749965,32747949,32749966"
 	productPesIds="17076"
 	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -101,22 +101,22 @@
 			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
+			"displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Describe your Problem Scenario, with the relative error messages if any. Also share these details along with the scenario, if possible."
+					"text": "Describe your Problem Scenario with relative error messages"
 				}, {
-					"text": " a. Platform Version if it is not a Native Kubernetes deployment"
+					"text": "Platform Version if it is not a native Kubernetes deployment"
 				}, {
-					"text": " b. Kubernetes cluster version"
+					"text": "Kubernetes cluster version"
 				}, {
-					"text": " c. Kubectl binary version if the issue involves using Kubectl utility"
+					"text": "Kubectl binary version for Kubectl issues"
 				}, {
-					"text": " d. azdata version if the issue involves using azdata utility"
+					"text": "azdata version for azdata utility issues"
 				}, {
-					"text": " e. Azure Data Studio version & Data Controller Extension version if the issue involves using ADS utility"
+					"text": "Azure Data Studio & Arc Extension version for ADS utility issues"
 				}
 			]
 		}

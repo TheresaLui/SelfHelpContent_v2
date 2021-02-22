@@ -176,9 +176,25 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
         },
+	 {
+            "id": "tenantID",
+            "visibility": null,
+            "order": 10,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide target Tenant ID(s) (Comma separated, if multiple)",
+            "content": null,
+            "watermarkText": "Enter Tenant ID(s)",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 11,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

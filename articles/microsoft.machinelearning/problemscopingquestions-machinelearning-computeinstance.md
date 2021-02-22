@@ -6,7 +6,7 @@
 	authors="SturgeonMi"
 	ms.author="vijetajo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745197,32745198,32690861"
+	supportTopicIds="32745197,32745198,32690861,32739648,32739645,32739646"
 	productPesIds="16644"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
@@ -36,7 +36,7 @@
 			"id": "problem_computeinstancename",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "What is the name of compute instance?",
+			"displayLabel": "What is the name of the compute resource?",
 			"required": true
 	},
 		{
@@ -47,8 +47,15 @@
 			"required": false
 	},
 		{
-			"id": "problem_description",
+			"id": "problem_workspacetype",
 			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Is this a private link Azure ML workspace?",
+			"required": false
+	},
+		{
+			"id": "problem_description",
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",

@@ -6,7 +6,7 @@
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-    ownershipId="AzureOptimizationAutomation_AORec"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
@@ -43,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
@@ -73,6 +73,10 @@
   },
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
+    {
+      "name": "clusterName",
+      "title": "Cluster Name"
+    },
 	{
       "name": "tableName",
       "title": "Table Name"
@@ -91,11 +95,11 @@
     },
 	{
       "name": "potentialDataSavings",
-      "title": "Est. Data Savings"
+      "title": "Estimated Data Savings"
     },
 	{
       "name": "requiredDataReductionForScaleIn",
-      "title": "Req. Data Reduction for Scale-In"
+      "title": "Required Data Reduction for Scale-In"
     },
 	{
       "name": "observationWindow",

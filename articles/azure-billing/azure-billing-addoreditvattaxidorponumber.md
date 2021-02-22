@@ -15,54 +15,93 @@
 	ownershipId="ASMS_Billing"
 />
 
-# Add or edit vat tax id or po number
-
+# Add or edit tax id, po number, sold-to or bill-to
 
 ## **Recommended Steps**
 
-### **Add/update TAX ID**
+You can't update these properties on an existing invoice in the portal. The updated values are only used for invoices that are generated in the future.
 
-To add or update Tax ID, visit your [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
+## Add or edit TAX ID
 
-### **Add/update PO Number**
+The Tax ID is used for tax exemption calculation and appears on your invoice.
 
-* During subscription purchase, a PO# can be added for a subscription when initially setting up the new subscription by entering in the PO# information on the payment information page, PO Number field
-* Updating a PO # online:
+1. Go to the [Cost Management + Billing](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Overview) page
+2. Select **Properties** from the left-hand side
+3. Select **Manage Tax IDs** from the Tax IDs section, then enter your new Tax ID
+4. Select **Update**
 
-  1. Login into **Billing** portal, select the **Subscription** that needs to be edited
-  2. On Subscription page select **Change Payment Method** and select **Edit Payment method**. Enter in PO Number and select **Next**
-  3. This will take the you back to the initial Choose payment method page. Select the check at the bottom to **save** changes.
+If you don't see the Tax IDs section, Tax IDs are not yet collected for your region or updating Tax IDs in the portal is not supported for your account.
 
-* For EA Admins & EA Customers 
+## Add or edit PO number
 
-  1. Sign into **EA portal** as EA admin<br>
-  2. Click on the **Usage Summary** option under Reports on the left-hand navigation pane<br>
-  3. Select the relevant quarter in the usage summary in which the overage usage accrued<br>
-  4. Select **edit** beside the PO number on the top right-hand side of the summary view
+Adding a PO number is only supported for customers who pay by invoice (Check/Wire transfer). The instructions to update PO number depend on your billing account type. To learn more about billing accounts and identify your billing account type, see [View billing accounts in Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
 
-### **Add/update VAT ID**
+### Editing a PO number for a Microsoft Online Service Program (MOSP) billing account
 
-Users should add a VAT ID to their account during the initial purchase and account setup. Should you need to add, update, or experienced an error with VAT ID later please [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
+You need to have an [account admin](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles#classic-subscription-administrator-roles) role to edit PO number.
 
-### **Edit Profile/Company Information**
+1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+1. Select **Payment methods** from the left-hand side
+1. From the payment methods table, click on **Invoice**
+1. Enter your new **PO number** and then click **Save**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile) and select the **Profile** button. Click **Edit details**,  then update the Profile information.
-  2. Update the necessary information and click **Complete**
-  
-Note: If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
+### Editing a PO number for a Microsoft Customer Agreement (MCA) billing account
 
-### **Add/Update Billing Information**
+You need to have an owner or a contributor role on a billing profile or a billing account to update PO number.
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Subscriptions** button and select the one that needs to be updated.
-  2. Click on **Manage payment methods** and then select **Edit** next to the payment instrument. Update the required details on the billing address field. Click **Save**.
-  
-Note: The existing invoices will be unable to show the updated Billing information, however all the future invoices will reflect the change
+1. Go to the [Cost Management + Billing](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Overview) page
+1. Select **Invoices** from the left-hand side
+1. Select **Update po number** from the Useful links section
+1. Enter the new PO number
+1. Select **Update**
+
+### Editing PO numbers for Enterprise Agreement (EA) enrollments
+
+1. Sign into [EA portal](https://ea.azure.com)
+1. Select **Reports** from the left-hand side
+1. Click **Usage Summary** from the top of the page
+1. Select the relevant period from the dropdown
+1. Select **View/Edit PO Numbers**
+1. Enter the new PO number and click **Save**
+
+## Edit sold-to and bill-to
+
+The instructions to update sold-to and bill-to depend on your billing account type. To learn more about billing accounts and identify your billing account type, see [View billing accounts in Azure portal](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts).
+
+### Editing sold-to and bill-to for a Microsoft Online Service Program (MOSP) billing account
+
+You need to have an [account admin](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles#classic-subscription-administrator-roles) role to add or edit sold-to and bill-to.
+
+1. Go to the [Cost Management + Billing](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Overview) page
+1. Select **Properties** from the left-hand side
+1. Select **Update sold to/bill to** from the Sold to/Bill to section, then enter your new address
+1. Select **Save**
+
+### Editing sold-to and bill-to for a Microsoft Customer Agreement (MCA) billing account
+
+The tax for your Azure consumption is calculated based on your sold-to. You need to have an owner or a contributor role on a billing account to update sold-to. To update bill-to, you need to have an owner or a contributor on a billing profile or a billing account.
+
+1. Go to the [Cost Management + Billing](https://portal.azure.com/#blade/Microsoft_Azure_GTM/ModernBillingMenuBlade/Overview) page
+1. Select **Invoices** from the left-hand side
+1. Select **sold-to** or **bill-to** from the Useful links section
+1. Enter the new address
+1. Select **Save**
+
+### Editing sold-to and bill-to for an for Enterprise Agreement (EA) enrollment
+
+The sold to and bill to for an Enterprise Agreement enrollment can't be updated in the portal. Please contact Azure support to update the sold to and the bill to.
+
+## Edit subscription/ship to address for a Microsoft Online Service Program (MOSP) subscription
+
+Address where the service is being used, usually the same as the sold-to address. The tax for your Azure consumption is calculated based on this address. You need to have an owner or a contributor role on the subscription to update its subscription address.
+
+1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
+1. Select **Properties** from the left-hand side
+1. Select **Update Address** from the Subscription Address section, then enter your new address
+1. Select **Save**
 
 ## **Recommended Documents**
 
 * Check the list of supported countries/regions and currencies in the Purchase FAQ: [Supported countries/regions and currencies](https://azure.microsoft.com/pricing/faq/)
-* [Manage (Reactivate/Cancel/Switch) subscription](https://azure.microsoft.com/pricing/faq/)
 * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
 * [How to add, update or remove a credit or debit card from Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [How to change currency](https://azure.microsoft.com/pricing/faq/)
-* [Understand your Azure billing for marketplace charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
