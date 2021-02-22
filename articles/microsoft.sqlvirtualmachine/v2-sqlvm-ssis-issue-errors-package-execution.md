@@ -16,7 +16,7 @@
 The execution of an SSIS package may fail due to multiple reasons. We will discuss a few of the reasons in brief.
 
 
-### Issue: Missing Windows privileges and rights
+### Missing Windows privileges and rights
 
 The Service Accounts running SSIS Service, SQL Server Agent Service, and SQL Server Agent Service require privileges at the Operating System level to execute SSIS packages. A lack of these permissions can impact: deployment of an SSIS package to SSISDB Catalog, execution of an SSIS package located in SSISDB Catalog, and execution of an SSIS package via SQL Server Agent job.
 
@@ -70,7 +70,7 @@ If an SSIS Package fails due to memory related issues, ensure that best practice
 [Data flow performance features](https://docs.microsoft.com/sql/integration-services/data-flow/data-flow-performance-features?view=sql-server-ver15)
 [Tutorial SSIS performance videos](https://techcommunity.microsoft.com/t5/sql-server-integration-services/tutorial-ssis-performance-videos/ba-p/387581)
 
-### Solutions
+## Recommended Steps
 
 - If possible, try executing the package in **64-bit**.
 - If SSIS Package is running on the same machine as SQL Server and if SQL Server is consuming most of the memory, reduce the memory cap for SQL Server, or try to execute the SSIS Package on another machine.
@@ -79,6 +79,8 @@ If an SSIS Package fails due to memory related issues, ensure that best practice
 ### **Account related issues**
 
 In some cases, a package might run in Visual Studio SSDT and the execution fails post deployment with a different account.
+
+## Recommended Steps
 
 1. Ensure that the package is failing due to permission differences between the two accounts: Execute the package with the same account that was used to execute it on Visual Studio SSDT.
 2. If the Package executes successfully under one account and fails under another, then one of the accounts is missing a required privilege. This may be a privilege for a network share for a connection or a privilege on the OS level.
@@ -96,7 +98,7 @@ One of the most common issues that prevents an SSIS package from getting execute
 
 Connection to a data source can fail in validation phase or in execution phase.
 
-### Solutions
+## Recommended Steps
 If a connection fails in validation phase, there is either a design issue in the package or an connectivity issue to the data source. 
 
    - If a connection works during the design phase but fails when the package is executed, try to hardcode the connection properties (connection string, username, password etc.) if the connection manager was parameterized to determine if there is an issue with parameterization.
