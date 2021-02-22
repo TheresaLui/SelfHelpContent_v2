@@ -31,7 +31,7 @@ Before a client driver submits a T-SQL statement to Azure SQL logical server for
 2.  The Azure SQL logical server collects the evidence about the enclave, its hosting environment, and the code running inside the enclave. The server then sends an attestation request to the attestation provider, referenced in the attestation URL.
 3.  The attestation provider validates the evidence against the configured policy and issues an attestation token to the Azure SQL logical server. The attestation provider signs the attestation token with its private key.
 4.  The Azure SQL logical server sends the attestation token to the client driver.
-5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key and it verifies the signature in the attestation token.
+5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key. It then verifies the signature in the attestation token.
 
 ## **Recommended Steps**
 
