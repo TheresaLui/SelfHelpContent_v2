@@ -21,9 +21,9 @@
 Most users are able to resolve their Cosmos DB Insights and Workbooks issue following the recommended steps and reading the recommended documents provided below.  
 
 
-##**Recommended Steps**  
+## **Recommended Steps**  
 
-###**Insights show NormalizedRU consumption reaching 100%, but no RU rate limiting errors are received**
+### **Insights show NormalizedRU consumption reaching 100%, but no RU rate limiting errors are received**
 
 **Scenario**: You are seeing your normalized RU consumption reaching 100%, but are not viewing the corresponding rate limiting error.  
 - By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics in your normalized RU chart.
@@ -32,7 +32,7 @@ Most users are able to resolve their Cosmos DB Insights and Workbooks issue foll
 
 <br>
 
-###**Insights show throttling (429) at account level, but no throttles for individual databases or containers**   
+### **Insights show throttling (429) at account level, but no throttles for individual databases or containers**   
 
 **Scenario**: You are seeing throttles (429) when viewing the insights at the account level (when Database(s) and Container(s) are filtered to ALL), but not seeing 429s when filtered to any individual database or container.
 
@@ -41,7 +41,7 @@ Most users are able to resolve their Cosmos DB Insights and Workbooks issue foll
 
 <br>
 
-###**Metadata throttling**  
+### **Metadata throttling**  
 
 **Scenario:** You are seeing high rate of throttling (429) in the System metrics tab, and want to know the cause  
 - Metadata throttling can occur when you are performing a high volume of CRUD operations on databases or containers, such as listing databases/containers or querying for offers to see the current provisioned throughput
@@ -50,7 +50,7 @@ Most users are able to resolve their Cosmos DB Insights and Workbooks issue foll
 
 <br>
 
-##**Recommended Documents**  
+## **Recommended Documents**  
 
 [Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-metrics)
 <br>Azure Cosmos DB provides metrics for throughput, storage, consistency, availability, and latency. The Azure portal provides an aggregated view of these metrics. You can also view Azure Cosmos DB metrics from Azure Monitor API.  
