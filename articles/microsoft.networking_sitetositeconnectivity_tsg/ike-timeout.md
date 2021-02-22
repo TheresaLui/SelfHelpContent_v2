@@ -28,4 +28,5 @@ Remote site is unreachable.
 
 ## **Recommended Documents**
 
-* [Express Route: Asymmetric Routing](https://docs.microsoft.com/azure/expressroute/expressroute-asymmetric-routing)
+* [Express Route: Asymmetric Routing](https://docs.microsoft.com/azure/expressroute/expressroute-asymmetric-routing)  
+ _Note: Although this document is from ExpressRoute documentation, it serves our purpose of explaining the concept, so do not get confused!_
