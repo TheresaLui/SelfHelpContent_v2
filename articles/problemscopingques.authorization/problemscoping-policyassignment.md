@@ -34,7 +34,7 @@
             "id": "customPolicyDefinition",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Please select the policy definition (if it's a custom policy)",
+            "displayLabel": "Select the policy definition (if it's a custom policy)",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'custom'",
                 "jTokenPath": "value",
@@ -59,7 +59,7 @@
             "id": "builtinPolicyDefinition",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "Please select the policy definition (if it's a builtin policy)",
+            "displayLabel": "Select the policy definition (if it's a builtin policy)",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'builtin'",
                 "jTokenPath": "value",
@@ -84,7 +84,7 @@
             "id": "policyAssignment",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "Please select the policy assignment",
+            "displayLabel": "Select the policy assignment",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
                 "jTokenPath": "value",
