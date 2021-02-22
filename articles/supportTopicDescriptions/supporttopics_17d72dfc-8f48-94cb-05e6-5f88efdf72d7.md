@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="azure-backup-supporttopicdescription"
   ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
@@ -30,6 +31,14 @@
       "shortDescription": "Issue during restore of Azure Files Share (AFS) using Azure Backup",
       "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
       "category": "Restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "03b58209-3d6e-265c-6d45-65f54a7aecf3",
+      "longDescription": "",
+      "shortDescription": "Issue while  enabling  encryption using customer managed keys on the vault",
+      "searchTags": "CMK;vault ;encryption",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -97,6 +106,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1326ba37-7447-711f-12e3-f62cd1632cdd",
+      "longDescription": "",
+      "shortDescription": "Issue related to assigning or updating the encryption key used for CMK encryption ",
+      "searchTags": "CMK;encryption",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
       "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
@@ -135,6 +152,14 @@
       "searchTags": "Edit policy;Change policy",
       "category": "Configure",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "1fe9f914-3dd2-05dc-4439-4e02a3258f65",
+      "longDescription": "",
+      "shortDescription": "General questions on functionality and supported configurations",
+      "searchTags": "Disk Backup",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
@@ -193,6 +218,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "330a2ac9-29db-cf36-287c-9aa4712df954",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Backup Center - Portal Issues",
+      "searchTags": "Back up center",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "33ae5afb-30c4-b0dd-ada9-a36ab5fafa5d",
       "longDescription": "",
       "shortDescription": "Issues specific to Azure Backup Service for protecting Azure Database for PostgreSQL servers. ",
@@ -209,6 +242,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34ce90e6-4d21-2f6c-12d0-3b8a4305de2d",
+      "longDescription": "",
+      "shortDescription": "Restore is failing for disk backup",
+      "searchTags": "restore;disk backup",
+      "category": "restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
       "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
@@ -222,6 +263,14 @@
       "shortDescription": "General questions on functionality and supported configurations",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39896de5-4a38-0004-27c2-c613060aaf5a",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling disk backup",
+      "searchTags": "Disable;Disk Backup",
+      "category": "config",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -254,6 +303,14 @@
       "shortDescription": "Solve issues connecting to data lake storage which are not covered by other problem subtypes",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "49f04cb1-ff68-f6fe-cdd3-bc6209ee00b7",
+      "longDescription": "",
+      "shortDescription": "Issue with enabling  vault managed identity",
+      "searchTags": "vault;managed identity",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -294,6 +351,22 @@
       "shortDescription": "Issue while restoring using DPM",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4ea68f70-6dfd-faaf-1e5b-65b14677108e",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Private Endpoint",
+      "searchTags": "Private Endpoint",
+      "category": "bkup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5046b91e-3a73-6596-eb12-2a9aa9b9557f",
+      "longDescription": "",
+      "shortDescription": "Issues specific to  Backup Center - Data Issues",
+      "searchTags": "Backup Center",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -374,6 +447,22 @@
       "shortDescription": "Issues specific to Azure Backup Service for protecting SQL Server database in Azure Virtual Machine",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6d7d76d6-7547-a837-2cb6-926c4d60972b",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup using Disk Backup",
+      "searchTags": "Disk Backup ;Fail",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6ef7131b-6534-c75d-35df-f14f3309fd98",
+      "longDescription": "",
+      "shortDescription": "Issue while disabling disk backup",
+      "searchTags": "Configure;Disk backup",
+      "category": "config",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -553,6 +642,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8855440-d08d-d2c5-dc93-8ead72d3bf7d",
+      "longDescription": "",
+      "shortDescription": "Issues faced while  deleting private endpoints",
+      "searchTags": "delete;private endpoint",
+      "category": "back up",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a96ff2f6-1274-f022-4321-43fd1beac140",
       "longDescription": null,
       "shortDescription": "Issues related to backup performance of Azure Files Share (AFS)",
@@ -566,6 +663,22 @@
       "shortDescription": "Scheduled backup is failing  but On-demand backup is working",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ab502eca-6186-6c89-07c4-dbb0dca7ccd8",
+      "longDescription": "",
+      "shortDescription": "Scheduled backup is failing but On-demand backup is working",
+      "searchTags": "Disk Backup;Scheduled ",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ac03a8b0-d47f-1ce4-2ce3-8dc100111a65",
+      "longDescription": "",
+      "shortDescription": "Issue while  creating private endpoints",
+      "searchTags": "private endpoints",
+      "category": "back up",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -657,6 +770,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ced6912a-0f66-4cde-93c7-b0ea835a301d",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing backup",
+      "searchTags": "Performance;Slow;Disk Backup",
+      "category": "performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1b240ee-a308-c891-a94d-3a422b54c818",
       "longDescription": null,
       "shortDescription": "Performance issue while taking System State backup using MARS Agent",
@@ -694,6 +815,14 @@
       "shortDescription": "Best practices, backup architecture",
       "searchTags": "Best practices; backup architecture",
       "category": "backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e1e2ca15-ebda-44ee-f8b1-849913638508",
+      "longDescription": "",
+      "shortDescription": "Issue while adding or modifying backup policy",
+      "searchTags": "Configure;Disk Backup",
+      "category": "config",
       "useInDiagnoseAndSolve": "true"
     },
     {

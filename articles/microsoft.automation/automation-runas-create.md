@@ -16,8 +16,9 @@ Run As accounts are used by Azure Automation to help authenticate against Azure 
 
 ## **Recommended Steps**
 
-### **What is Run As account and Types of Run As account**
-To get started with the concept of Run As account and Types of Run As account, see [Run As account Overview](https://docs.microsoft.com/azure/automation/automation-security-overview#run-as-accounts)
+### **Introduction to Run As account**
+To get started with the concept of Run As account, check out this short, **4-minute video** here: [Video on Introduction to Run As account](https://www.microsoft.com/videoplayer/embed/RWwtF3)
+You can read more about it at [Run As account Overview](https://docs.microsoft.com/azure/automation/automation-security-overview#run-as-accounts)
 
 ### **Permissions Required for Run As/Classic Run As account**
 To create and manage a Run As/Classic Run As account, you need certain permissions. See [Permissions required to manage Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions)
