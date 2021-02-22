@@ -4,7 +4,7 @@
   resource="csp"
   ms.author="keramp"
   selfhelptype="Generic"
-  supporttopicids="32725801,32725862"
+  supporttopicids="32725862"
   resourcetags="csp"
   productpesids="17000,17007"
   cloudenvironments="public,fairfax,usnat,ussec"
@@ -17,6 +17,8 @@
 * If your exisitng cloud subscription on M365 Admin Center is disabled or expired,please copy and paste the below link on an incognito browser window to activate a new subscription
 
     [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
+
+* The expiration date listed in Microsoft Partner Center indicates the last date you can exercise usage rights on the associated benefit. Note: This date may differ from the expiration date listed in the Microsoft365 Admin Center portal, which is used to managed your cloud subscriptions. The difference in dates can be due to several factors including benefit activation date, number of licenses per key, and the date licenses were added/extended on the admin portal.  
 
 ## **Recommended Documents**
 

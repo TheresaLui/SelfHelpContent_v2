@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Azure Application Gateway"
   description="Support topic description for Azure Application Gateway"
   authors="surajmb, elixirsys2"
-  ms.author="surmb"
+  ms.author="surmb, azhussai"
   selfhelptype="SupportTopicDescription"
   productpesids="101732bb-31af-ee61-7c16-d4ad77c86a50"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
@@ -28,7 +28,7 @@
     {
       "id": "01ee5a2e-02c1-5589-18a0-22099663453b",
       "longDescription": "",
-      "shortDescription": "If you are having issues with uploading an authentication certificate (v1) or trusted root certificate (v2) to the HTTP settings",
+      "shortDescription": "If you're having issues with uploading an authentication certificate (v1) or trusted root certificate (v2) to the HTTP settings",
       "searchTags": "authentication certificate;trusted root certificate;certificate;upload;ssl",
       "category": "Configuration and setup",
       "useInDiagnoseAndSolve": "true"
@@ -308,16 +308,16 @@
     {
       "id": "8d5a15a6-2e27-0a36-161f-1c54b4cb2c5b",
       "longDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "shortDescription": "Covers routing issues related to header rewrite in Application Gateway",
-      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite",
+      "shortDescription": "Covers routing issues related to header and URL rewrite in Application Gateway",
+      "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;header rewrite;url rewrite;url",
       "category": "Routing",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "9013655b-306f-d8c9-798b-9cd0e2072358",
       "longDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
-      "shortDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
-      "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;header rewrite;header",
+      "shortDescription": "Covers issues related to Application Gateway header and URL rewrite configuration",
+      "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;header rewrite;header;url rewrite;url;rewrite",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "TRUE"
     },
@@ -400,6 +400,14 @@
       "searchTags": "performance;appgw;application gateway;app gw;waf;latency;slow",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "c57aa03b-1007-e23a-a96c-2f309df6769d",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring diagnostic logs for your Application Gateway",
+      "searchTags": "Diagnostic settings;Debugging;logs ;metrics;log analytics",
+      "category": "Metrics",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c7789b3e-5810-09e4-852b-18c0c1a3e2a4",
