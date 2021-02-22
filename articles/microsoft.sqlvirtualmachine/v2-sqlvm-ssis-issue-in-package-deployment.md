@@ -16,11 +16,12 @@
 
 Review the following solutions for common errors in package deployment.
 
-* **Error:** "The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
-  A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
+### Error: "The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
+
+A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
 System.Data.SqlClient.SqlException: The path for `ISServerExec.exe` cannot be found. The operation will now exit."
 
-   **Solution:** This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
+This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
 
    ```
    HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server\130\SSIS\Setup\DTSPath- '130' is for SQL 2016.
@@ -28,20 +29,25 @@ System.Data.SqlClient.SqlException: The path for `ISServerExec.exe` cannot be fo
 
    Check your version and point it to the path where the ISServerExec.exe is available.
 
-* **Error:**"Project Deployment fails or takes a long time to deploy when you have a large number of packages."
-   This error is not specific to SSIS, but almost all projects developed in SQL Server Data Tools. SSDT is a 32bit application, therefore it is governed by a 2 GB memory limit. When there are large amounts of packages in a Project, it will need to build and deploy all of those projects using that contained memory. Read this article, which talks about this in detail [https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception](https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception)
+### Error "Project Deployment fails or takes a long time to deploy when you have a large number of packages."
+   
+This error is not specific to SSIS, but almost all projects developed in SQL Server Data Tools. SSDT is a 32bit application, therefore it is governed by a 2 GB memory limit. When there are large amounts of packages in a Project, it will need to build and deploy all of those projects using that contained memory. Read this article, which talks about this in detail [https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception](https://docs.microsoft.com/troubleshoot/aspnet/troubleshoot-outofmemoryexception)
 
-  **Solution:** We recommend that you split up your Projects to make it more manageable. In the interim, you can use the 64bit ISDeploymentWizard.exe application to deploy your projects to get around the memory limitation.
+We recommend that you split up your Projects to make it more manageable. In the interim, you can use the 64bit ISDeploymentWizard.exe application to deploy your projects to get around the memory limitation.
 
-* **Error:**"The package format was migrated from version 6 to version 8. It must be saved to retain migration changes"
+### Error:"The package format was migrated from version 6 to version 8. It must be saved to retain migration changes"
 You may encounter this issue if you are trying to deploy an older version of a package developed for a previous version of SSIS. When you opened the `.ispac` file in SSDT or deployed the package onto SSISDB catalog, some components of the package could not be updated due to encryption.
 
-   **Solution:** Remember to change the Deployment `TargetServerVersion` to match the version of the SQL Server -SSISDB where you are deploying the SSIS Project. You can also use the `ISDeploymentWizard.exe` application aligned to the version of the target SQL Server to deploy your projects.
+Remember to change the Deployment `TargetServerVersion` to match the version of the SQL Server -SSISDB where you are deploying the SSIS Project. You can also use the `ISDeploymentWizard.exe` application aligned to the version of the target SQL Server to deploy your projects.
 
-* **Errors:**"A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
+### .NET Framework errors
+
+"A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
 System.ComponentModel.Win32Exception: A required privilege is not held by the client"
 
-_Or_  ".NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal"
+_Or_  
+
+".NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal"
 System.ComponentModel.Win32Exception: Access is denied"
 
 This is one of the known error messages that occur if the SQL Server or SQL Server Agent service account doesn't have the necessary permissions or privileges on the SQL Server machine.
