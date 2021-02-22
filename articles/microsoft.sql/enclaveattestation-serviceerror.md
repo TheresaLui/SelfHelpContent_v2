@@ -40,7 +40,7 @@ The validation of the attestation policy failed (in step 3 of the preceding work
 This might be due to:
 - An incorrect attestation policy. Make sure you're using the Microsoft-recommended policy. For more information, see [Create and configure an attestation provider](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#create-and-configure-an-attestation-provider).
 - A security breach compromising the server-side enclave.
-- 
+
 ## **Recommended Documents**
 
 * [Guidelines for setting up Always Encrypted with secure enclaves](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)
