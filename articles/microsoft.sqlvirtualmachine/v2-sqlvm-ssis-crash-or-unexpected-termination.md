@@ -16,11 +16,11 @@
 
 Resolve the following issues using the steps provided.
 
-### Issue: Package failures
+## Issue: Package failures
 - Visual Studio SSDT crashes while opening/designing/building/executing a specific package
 - Package execution fails with status **Unexpected Termination** for a package stored in SSISDB Catalog
 
-### Solutions
+## Recommended Steps
 
 - Confirm if the project/package uses third-party tasks or components, or custom data flow/control flow tasks. If so, create a new SSIS Project, and then add the custom task to see if the task works as expected.
 
@@ -28,9 +28,9 @@ Resolve the following issues using the steps provided.
 
 - The same holds for references to third-party DLLs in a Script task or component. If you're experiencing crashes with a package that contains a script task or component which references a third-party DLL, design a package that doesn't reference any third-party DLLs to confirm if that is the root of the issue.
 
-### Issue: Visual Studio SSDT crashes opening or designing packages that have Excel Source/Destination components
+## Issue: Visual Studio SSDT crashes opening or designing packages that have Excel Source/Destination components
 
-### Solutions
+## Recommended Steps
 
 - Excel Connection Manager uses ACE OLEDB Driver to connect to Excel and the driver is shipped along with **Access Database Engine**. Check the version of **Access Database Engine** installed on the affected machine where Visual Studio SSDT is crashing.
 
