@@ -1,6 +1,8 @@
-## Rules
+## Validation rules
 
-These rules ensure that your self-help articles meet both the validation rules in Elixir and the Microsoft style guidelines. For details and examples, review the ![**Authoring guidelines**](../assets/articles/AuthoringGuidelines.md).
+*[[Editor's note: Some of the following rules are being implemented in Elixir as warnings. This file will be updated when that work is finalized.]]*
+
+These rules ensure that your self-help articles meet both the validation rules in Elixir and the Microsoft style guidelines. For details and examples, review the ![**Authoring guidelines**](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
 
 - At minimum, the body must contain substantive content that clearly addresses the topic or issue. 
 
