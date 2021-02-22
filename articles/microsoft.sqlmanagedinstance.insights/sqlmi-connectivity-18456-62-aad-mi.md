@@ -7,7 +7,7 @@
 	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
-	articleId="sql_connectivity_18456_5_aad_mi"
+	articleId="sql_connectivity_18456_62_aad_mi"
 	diagnosticScenario="SqlMILoginError18456"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
