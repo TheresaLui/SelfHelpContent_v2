@@ -17,7 +17,7 @@
 
 # How to synchronize ARM subscription resources
 
-1. Navigate to Geneva Actions (Jarvis Actions) : [Azure Resource Manager > Resource Group Management > Synchronize Subscription resources from specific resource provider](https://jarvis-west.dc.ad.msft.net/B7BF0B48?genevatraceguid=b7ab48f0-5c87-405b-af1a-a01ad587b009)
+1. Navigate to Geneva Actions (Jarvis Actions) : [Azure Resource Manager >  Resource Synchronization > Synchronize Subscription resources from specific resource provider](https://jarvis-west.dc.ad.msft.net/B7BF0B48?genevatraceguid=b7ab48f0-5c87-405b-af1a-a01ad587b009)
 2. Fill in the requested information and provide Resource Provider Namespace as "Microsoft.Storage"
 3. Hit "Run".
 4. You should see the details of the synchronization operation including a message like "Synchronization jobs started successfully"
