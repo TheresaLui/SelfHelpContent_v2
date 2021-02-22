@@ -26,8 +26,8 @@
 
 ### If you're consistently experiencing an issue at creation time
 
-The cause may be one of the following:
-- Your region could be **out of capacity**, which is generally represented in the error message at the time of allocation failure. You can try using a different VM family, or retry at a later time.
+This may be caused by the following:
+- Your region is **out of capacity**. This is generally represented in the error message at the time of allocation failure. You can try using a different VM family, or retry at a later time.
 - You may be using an **unsupported VMsize** in the region of your workspace. We document the supported VM sizes and generally keep the list up to date with the latest SKUs supported by Azure.
 - The **VNet configuration** on your compute target may be misconfigured and is preventing Azure services from reaching them, leading to situations such as unusable nodes. Managed Compute has a very specific VNet configuration setup, as detailed in our documentation.
 **Note**:  Currently, creating on behalf of a compute instance does not support SSH. Also, auto-shutdown on a compute instance is not supported.
