@@ -22,11 +22,12 @@
 ## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and 
-it seems like there is an error in connecting to the Intel DCAP client for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. 
-To resolve this issue, please follow the recommended steps.
+it seems there is an error connecting to the Intel DCAP client for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. 
+To resolve this issue, follow the recommended steps.
 <!--/issueDescription-->
 
 ## **Attestation Process**
+
 Before a client driver submits a T-SQL statement to Azure SQL logical server for execution, the driver triggers the following enclave attestation workflow using Microsoft Azure Attestation.
 1.  The client driver passes the attestation URL, specified in the database connection, to the Azure SQL logical server.
 2.  The Azure SQL logical server collects the evidence about the enclave, its hosting environment, and the code running inside the enclave. The server then sends an attestation request to the attestation provider, referenced in the attestation URL.
