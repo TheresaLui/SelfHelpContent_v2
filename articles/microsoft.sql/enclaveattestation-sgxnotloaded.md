@@ -22,26 +22,28 @@
 ## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and 
-it seems like the SGX enclave is not loaded correctly on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. To resolve this issue, please follow the recommended steps.
+it seems the SGX enclave is not loaded correctly on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. To resolve this issue, follow the recommended steps.
 <!--/issueDescription-->
 
 ## **Attestation Process**
+
 Before a client driver submits a T-SQL statement to Azure SQL logical server for execution, the driver triggers the following enclave attestation workflow using Microsoft Azure Attestation.
 1.  The client driver passes the attestation URL, specified in the database connection, to the Azure SQL logical server.
 2.  The Azure SQL logical server collects the evidence about the enclave, its hosting environment, and the code running inside the enclave. The server then sends an attestation request to the attestation provider, referenced in the attestation URL.
 3.  The attestation provider validates the evidence against the configured policy and issues an attestation token to the Azure SQL logical server. The attestation provider signs the attestation token with its private key.
 4.  The Azure SQL logical server sends the attestation token to the client driver.
-5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key and it verifies the signature in the attestation token.
+5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key, and then verifies the signature in the attestation token.
 
 ## **Recommended Steps**
 
-Please try validating if SGX enclave is loaded correctly on **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** by running the following query in SSMS:
+Validate if the SGX enclave is loaded correctly on **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** by running the following query in SSMS:
 
-**`select * from sys.dm_column_encryption_enclave`**
+`select * from sys.dm_column_encryption_enclave`
 
-If the query returns a row and size of **current_memory_size_kb > 0**, then the SGX enclave is loaded correctly.
 
-If enclave fails to load due to some reason, then contact **Customer Support**.
+- If the query returns a row and size of **current_memory_size_kb > 0**, the SGX enclave is loaded correctly.
+
+- If enclave fails to load due to some reason, contact **Customer Support**.
 
 ## **Recommended Documents**
 
