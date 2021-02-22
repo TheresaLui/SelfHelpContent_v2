@@ -24,6 +24,6 @@ This topic will guide partners to the support experience for Volume Licensing op
 
 ## **Recommended Steps**
 
-- Chat now to speak with a Volume Licensing Operations Specialist [here](www.link-to-be-added-here.com)
+- Chat now to speak with a Volume Licensing Operations Specialist [here](https://www.explore.ms/Home/EmsLiveChat)
 - Contact Volume Licensing Operations through [CLT](https://clt.partners.extranet.microsoft.com/clt/) 
 - [Contact Credit & Collections](https://partner.microsoft.com/resources/detail/how-to-engage-with-operations-pdf) 
