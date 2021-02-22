@@ -94,9 +94,11 @@ Resolution steps includes providing the necessary permissions to the SQL Server 
 
 Reference: [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
 
-**Error:** "A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
+Error: "A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
 
+```
 System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnection' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnectionFactory' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlPerformanceCounters' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file:_ _Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.(C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config) ---> System.UnauthorizedAccessException: Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.
+```
 
 As the error message says, validate that the SQL Server service account has the necessary NTFS permissions to access `machine.config` file.
 
