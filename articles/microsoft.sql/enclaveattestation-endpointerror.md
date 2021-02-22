@@ -41,7 +41,7 @@ The likely causes include:
 - The attestation provider has been accidentally deleted.
 - The firewall was configured for the attestation provider, but it doesn't allow access to Microsoft services.
 - An intermittent network error causes the attestation provider to be unavailable.
-- 
+
 ## **Recommended Documents**
 
 * [Guidelines for setting up Always Encrypted with secure enclaves](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)
