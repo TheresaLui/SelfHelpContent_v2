@@ -27,14 +27,10 @@
 
 ### Expedited Escalation
 
-* For fastest escalation support, use the Teams Channel for VPN Gateway
+* For fastest escalation support, use the [Teams Channel for VPN Gateway](https://teams.microsoft.com/l/channel/19%3ae06ed20fd027444d88ae863541ab1c51%40thread.skype/VPN%2520%28S2S%2520and%2520P2S%29?groupId=c3e00ac7-3f76-4350-ba3b-e335a6bbbe21&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47).
 * Click the link below to be taken to the Teams Channel. Use Ava to notify the available SMEs for assistance, for example:
 
-  * ava case SR number
-  * (Use'@' to invoke Ava)
+  * @Ava _Case-Id_  
+  _Use '@' to invoke Ava, proceed with a space and then the case number_
 
-* Additionally, use the feedback button below to capture and improvements to the TSG
-
-## **Recommended Documents**
-
-* [Teams Channel for VPN Gateway](https://teams.microsoft.com/l/channel/19%3ae06ed20fd027444d88ae863541ab1c51%40thread.skype/VPN%2520%28S2S%2520and%2520P2S%29?groupId=c3e00ac7-3f76-4350-ba3b-e335a6bbbe21&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
+* Additionally, please use the frown button and provide us some actionable suggestions to help improve this TSG.

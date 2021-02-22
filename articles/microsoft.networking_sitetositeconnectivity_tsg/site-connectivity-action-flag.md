@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-* The SiteConnectivityAction flag is set to Disconnect
-* Change it to Connect per the below link
+* The flag _SiteConnectivityAction_ is set to _Disconnect_.
+* Change it to _Connect_ per the document below.
 
 ## **Recommended Documents**
 

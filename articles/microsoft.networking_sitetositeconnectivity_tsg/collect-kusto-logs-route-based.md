@@ -19,10 +19,10 @@
 
 ## **Recommended Steps**
 
-* Utilize the "Visual Debugging" available in ASC on VPN Gateway resource. Most of the issues may be evident from these dashboards.
+* Utilize the **Visual Debugging** available in ASC on VPN Gateway resource. Most of the issues may be evident from these dashboards.
 * Diagnostic logs (IkeLogsTable, TunnelEvents, SeamlessTunnelServiceTraceTable) are available in ASC under the "Brooklyn Logs" tab
-* If PolicyBasedTrafficSelectors are enabled on Azure, on-premises VPN device configuration must match or contain the algorithms and parameters that you specify on the Azure IPsec/IKE policy.
-* You can also collect Gateway Diagnostics in ASC from the "Diagnostics" tab
+* If the option _PolicyBasedTrafficSelectors_ is enabled on Azure, on-premises VPN device configuration must match or contain the algorithms and parameters that you specify on the Azure IPsec/IKE policy.
+* You can also collect _Gateway Diagnostics_ in ASC from the _Diagnostics_ tab
 * In some scenarios you may be required to collect these logs and diagnostics manually. In such scenarios, use the alternative steps link provided below.
 
 ## **Recommended Documents**
