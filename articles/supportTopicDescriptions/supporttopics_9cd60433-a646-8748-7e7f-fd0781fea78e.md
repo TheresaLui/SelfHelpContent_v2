@@ -377,7 +377,7 @@
     {
       "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
       "longDescription": "",
-      "shortDescription": "TAXII, TIP and filtering",
+      "shortDescription": "Topics related to TAXII, TIP and filtering",
       "searchTags": "TAXII;TIP ;Filtering",
       "category": "Threat Intelligence",
       "useInDiagnoseAndSolve": "true"
