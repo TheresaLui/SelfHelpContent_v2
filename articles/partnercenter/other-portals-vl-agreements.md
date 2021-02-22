@@ -30,9 +30,6 @@ This topic will guide partners to the support experience for Volume Licensing op
 
 ## **Recommended Documents**
 
- * [Guide to licensing resources for Microsoft partners](https://docs.microsoft.com/partner-center/support-resources-licensing)
- * [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)
- * [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)
- 
- 
- 
+- [Guide to licensing resources for Microsoft partners](https://docs.microsoft.com/partner-center/support-resources-licensing)
+- [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)
+- [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)
