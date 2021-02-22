@@ -22,7 +22,7 @@
 <!--issueDescription-->
 The health of the physical host Hardware your VM was running has degraded. To prevent impact to your workload, Azure initiated memory-preserving Live Migration to move your VM to a healthy node. 
 
-**<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+<!--$EventTable-->EventTable<!--/$EventTable-->
 <!--/issueDescription-->
 
 

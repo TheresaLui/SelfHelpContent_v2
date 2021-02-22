@@ -22,7 +22,8 @@
 <!--issueDescription-->
 The physical host node where your VM was running underwent an OS Update. 
 
-**<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
+<!--$EventTable-->EventTable<!--/$EventTable-->
+
 <!--/issueDescription-->
 
 Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in a brief connectivity loss. We are continuously working to improve and reduce impact of our updates and apologize for any inconvenience this may have caused you. 
