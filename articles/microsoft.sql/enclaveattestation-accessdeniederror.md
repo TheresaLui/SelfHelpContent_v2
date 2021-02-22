@@ -24,10 +24,11 @@
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and 
 it seems like you are facing an access denied error for the attestation tenant on your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. 
 
-This error is probably due to an issue with the RBAC(Role Based Access Control) permission. To resolve this issue, please follow the recommended steps.
+This error is probably due to an issue with the RBAC (Role Based Access Control) permission. To resolve this issue, follow the recommended steps.
 <!--/issueDescription-->
 
 ## **Attestation Process**
+
 Before a client driver submits a T-SQL statement to Azure SQL logical server for execution, the driver triggers the following enclave attestation workflow using Microsoft Azure Attestation.
 1.  The client driver passes the attestation URL, specified in the database connection, to the Azure SQL logical server.
 2.  The Azure SQL logical server collects the evidence about the enclave, its hosting environment, and the code running inside the enclave. The server then sends an attestation request to the attestation provider, referenced in the attestation URL.
