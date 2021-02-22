@@ -3,7 +3,7 @@
 	pageTitle="Issues using Development SDK"
 	description="Issues using Development SDK"
 	authors="b-tonya"
-    ms.author="b-tonya"
+        ms.author="b-tonya"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32740773,32740774"
 	productPesIds="16469"
