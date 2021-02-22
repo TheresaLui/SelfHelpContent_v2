@@ -87,6 +87,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0dfe6c24-6fb6-af46-99ff-674992ea715f",
+      "longDescription": "",
+      "shortDescription": "Notebook failed to run",
+      "searchTags": "Notebook",
+      "category": "Notebook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "18b577bb-0d09-ecc9-a495-7877e04159fd",
+      "longDescription": "",
+      "shortDescription": "Alert rule scheduling creation, suppression and grouping (event or alert) questions. Alerts are not generated as expected.",
+      "searchTags": "Analytics;alert;rules;schedule;supress",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "197809eb-0f07-f81a-7edc-4b3681efcacd",
       "longDescription": "",
       "shortDescription": "How to map entities in alert rules. Missing entities in rules.",
@@ -105,8 +121,8 @@
     {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
-      "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
-      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "shortDescription": "Logstash based output plugin configuration.",
+      "searchTags": "Logstach",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -180,6 +196,14 @@
       "shortDescription": "Missing data in Log Analytics Workspace or Sentinel Workbook",
       "searchTags": "Log Analytics;Workspace ;Workbook",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3975af4f-5e63-cede-a4fe-a44f79c65487",
+      "longDescription": "",
+      "shortDescription": "Cannot delete, disable, update or save an alert rule",
+      "searchTags": "Analytics;rules;active;alert",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -287,6 +311,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6fd67b9f-aae3-7d95-075e-95f5f8954144",
+      "longDescription": "",
+      "shortDescription": "TAXII connector has never received data, or did receive data initially but has not since the initial connection.",
+      "searchTags": "TAXII ;data;Intelligence ;Trusted ;Information ",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7251af10-84a8-b218-a74f-26a9820159e0",
       "longDescription": "",
       "shortDescription": "Log search is not displaying results or working as expected",
@@ -345,7 +377,7 @@
     {
       "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
       "longDescription": "",
-      "shortDescription": "TAXII, TIP and filtering",
+      "shortDescription": "Topics related to TAXII, TIP and filtering",
       "searchTags": "TAXII;TIP ;Filtering",
       "category": "Threat Intelligence",
       "useInDiagnoseAndSolve": "true"
@@ -364,6 +396,14 @@
       "shortDescription": "Playbook downloaded from Github gallery not working as expected",
       "searchTags": "Playbook;Github;Template",
       "category": "Playbook",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b2f29847-7a0f-4c26-7c50-6d97ba821120",
+      "longDescription": "",
+      "shortDescription": "Analytics templates are not producing the expected results",
+      "searchTags": "Analytics;template",
+      "category": "Analytics",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -388,6 +428,14 @@
       "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bba76dd0-3d90-b110-304e-7b427498e7bf",
+      "longDescription": "",
+      "shortDescription": "How to select which data sources will get UEBA enrichments and anomalies ",
+      "searchTags": "UEBA;anomalies ;Entity;Behavior;Analytics",
+      "category": "UEBA",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -532,6 +580,14 @@
       "shortDescription": "How to understand Azure Sentinel costs",
       "searchTags": "Costs;bill;billing",
       "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb90f17a-7d1b-7b2b-88aa-a4d7b1d8f54f",
+      "longDescription": "",
+      "shortDescription": "Issues with removing Azure Sentinel from your workspace",
+      "searchTags": "workspace;sentinel",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {

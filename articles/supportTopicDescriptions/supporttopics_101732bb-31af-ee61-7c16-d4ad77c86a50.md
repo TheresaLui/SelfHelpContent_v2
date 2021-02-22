@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Azure Application Gateway"
   description="Support topic description for Azure Application Gateway"
   authors="surajmb, elixirsys2"
-  ms.author="surmb"
+  ms.author="surmb, azhussai"
   selfhelptype="SupportTopicDescription"
   productpesids="101732bb-31af-ee61-7c16-d4ad77c86a50"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
@@ -400,6 +400,14 @@
       "searchTags": "performance;appgw;application gateway;app gw;waf;latency;slow",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "c57aa03b-1007-e23a-a96c-2f309df6769d",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring diagnostic logs for your Application Gateway",
+      "searchTags": "Diagnostic settings;Debugging;logs ;metrics;log analytics",
+      "category": "Metrics",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c7789b3e-5810-09e4-852b-18c0c1a3e2a4",
