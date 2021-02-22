@@ -22,22 +22,25 @@
 ## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and 
-it seems like there is an service error with the attestation policy used for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. To resolve this issue, please follow the recommended steps.
+it seems there is an service error with the attestation policy used for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**. To resolve this issue, follow the recommended steps.
 <!--/issueDescription-->
 
 ## **Attestation Process**
+
 Before a client driver submits a T-SQL statement to Azure SQL logical server for execution, the driver triggers the following enclave attestation workflow using Microsoft Azure Attestation.
-1.  The client driver passes the attestation URL, specified in the database connection, to the Azure SQL logical server.
+1.  The client driver passes the attestation URL specified in the database connection to the Azure SQL logical server.
 2.  The Azure SQL logical server collects the evidence about the enclave, its hosting environment, and the code running inside the enclave. The server then sends an attestation request to the attestation provider, referenced in the attestation URL.
 3.  The attestation provider validates the evidence against the configured policy and issues an attestation token to the Azure SQL logical server. The attestation provider signs the attestation token with its private key.
 4.  The Azure SQL logical server sends the attestation token to the client driver.
-5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key and it verifies the signature in the attestation token.
+5.  The client contacts the attestation provider at the specified attestation URL to retrieve its public key, and then verifies the signature in the attestation token.
 
 ## **Recommended Steps**
 
-The validation of the attestation policy failed (in step 3 of the above workflow). It might be due to:
-- An incorrect attestation policy is the likely root cause. Make sure you're using the Microsoft-recommended policy. For more information, see [Create and configure an attestation provider](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#create-and-configure-an-attestation-provider).
-- The policy validation may also fail as a result of a security breach compromising the server-side enclave.
+The validation of the attestation policy failed (in step 3 of the preceding workflow). <br>
+This might be due to:
+- An incorrect attestation policy. Make sure you're using the Microsoft-recommended policy. For more information, see [Create and configure an attestation provider](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-enclaves-configure-attestation#create-and-configure-an-attestation-provider).
+- A security breach compromising the server-side enclave.
+- 
 ## **Recommended Documents**
 
 * [Guidelines for setting up Always Encrypted with secure enclaves](https://docs.microsoft.com/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)
