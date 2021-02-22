@@ -32,13 +32,13 @@
     {
       "id": "adbc8a47-b463-1b60-1256-a0753a563392",
       "longDescription": "",
-      "shortDescription": "Questions about a full refund that needs to be done or it was already completed",
+      "shortDescription": "Questions on whether a full refund needs to be done or was already completed",
       "searchTags": "",
     },
     {
       "id": "8a1c22f2-ad5e-4a9b-0d23-2b607588384c",
       "longDescription": "",
-      "shortDescription": "Questions about Credit Card issues, payment cannot be completed, payment was completed (multiple times) however membership was not activated",
+      "shortDescription": "Questions about credit card issues, payment cannot be completed, payment was completed (multiple times) however membership was not activated",
       "searchTags": "",
     },
     {
@@ -98,7 +98,7 @@
     {
       "id": "626e8baa-4376-4485-ea76-1eeba70d9254",
       "longDescription": "",
-      "shortDescription": "Questions about renewing, activating the Azure and Cloud benefit",
+      "shortDescription": "Questions about renewing, activating Azure and Cloud benefits",
       "searchTags": "MPN;Benefits;Competencies;Cloud",
     },
     {
@@ -110,7 +110,7 @@
     {
       "id": "a29eb23d-4096-2762-bbfd-df1def674f04",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating Software (On-premise) benefits",
+      "shortDescription": "Questions about reviewing, activating software (On-premise) benefits",
       "searchTags": "MPN;Benefits;Competencies;Software",
     },
     {
@@ -122,13 +122,13 @@
     {
       "id": "44e3c59e-9ca7-6104-5cf7-4b81166bda9f",
       "longDescription": "",
-      "shortDescription": "Questions about reviewing, activating or downloading Visual Studio benefits",
+      "shortDescription": "Questions about reviewing, activating, or downloading Visual Studio benefits",
       "searchTags": "MPN;Benefits;Visual;Studio",
     },
     {
       "id": "4f80f253-4d78-ea9a-ab3e-15082b26359e",
       "longDescription": "",
-      "shortDescription": "Questions about activating Azure and Cloud benefit",
+      "shortDescription": "Questions about activating Azure and Cloud benefits",
       "searchTags": "MPN;Benefits;Competencies;IUR",
     },
     {
@@ -146,25 +146,25 @@
     {
       "id": "81a7ef29-22ef-20d8-5c4f-206c65c9a424",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements specific to exams, assessments, certifications recognition or discrepancy, retired exams",
+      "shortDescription": "Questions about competency requirements specific to exams, assessments, certifications recognition, or discrepancy; retired exams",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
       "id": "f6d4d9aa-acd2-f7e2-ad7e-1fb5e07f20cf",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements (how to/ what should I do) before attaining a competency",
+      "shortDescription": "Questions about competency requirements before attaining a competency",
       "searchTags": "MPN;Benefits;Competencies;Requirements",
     },
     {
       "id": "76e2d30e-8fa5-c90d-725c-4a999092cfa5",
       "longDescription": "",
-      "shortDescription": "Questions about competency requirements specific to revenue, performance, recognition, type of association, discrepancies - while trying to attain a competency",
+      "shortDescription": "Questions about competency requirements specific to revenue, performance, recognition, type of association; discrepancies while trying to attain a competency",
       "searchTags": "MPN;Benefits;Competencies;Status",
     },
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies status that can be "At-risk" due to COVID 19 and not only, renewal date extension request",
+      "shortDescription": "Questions about competencies status that can be "At-risk" due to COVID 19, renewal date extension requests",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
@@ -176,13 +176,13 @@
     {
       "id": "85b57f3a-5b1c-c66f-01d8-e0242c5ced01",
       "longDescription": "",
-      "shortDescription": "Questions about troubleshooting issues with software (On-premise) benefits downloading",
+      "shortDescription": "Questions about troubleshooting issues downloading software (On-premise) benefits",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
       "id": "106cecbb-8627-c445-2538-7447f5df7b29",
       "longDescription": "",
-      "shortDescription": "Questions about licenses that are part of Azure & Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
+      "shortDescription": "Questions about licenses that are part of Azure and Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
       "searchTags": "MPN;Benefits;Competencies;IUR",
     },
     {
@@ -212,7 +212,7 @@
     {
       "id": "e8ea5944-8f57-853a-9683-f0e754d73861",
       "longDescription": "",
-      "shortDescription": "Questions about Learning Portal and Partner University, Help and How to navigate, Link/Unlink Partner University account",
+      "shortDescription": "Questions about Learning Portal and Partner University, Help and how to navigate, Link/Unlink Partner University account",
       "searchTags": "MPN;Benefits;Learning",
     },
     {
