@@ -1,20 +1,16 @@
 <properties
-    pageTitle="Azure Stack Hub Patch and Update Failure"
-    description="Assist customers during patch and update runs, or after a failure"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT, v-miegge"
-    ms.author="alexsmit"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629195,32630577"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="azurestack-patchandupdate-updatefailure"
-	ownershipId="StorageMediaEdge_AzureStack_Hub"
-/>
-
+  pagetitle="Azure Stack Hub Patch and Update Failures&#xD;"
+  description="Assist customers during patch and update runs, or after a failure"
+  service="microsoft.azurestack"
+  resource="azurestack"
+  ms.author="alexsmit,patricka"
+  selfhelptype="Generic"
+  supporttopicids="32629195,32630577"
+  resourcetags=""
+  productpesids="16226"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="azurestack-patchandupdate-updatefailure"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Hub Patch and Update Failures
 
 <!---this is number one hit topic. This currently is sunny day content. Most customers coming through this path require a break-glass solution. MPI is very high. Some engineering work in 2005 to improve perf of patch and update by using image-based process. Look for how to streamline.  --->
@@ -43,6 +39,7 @@ Each release of Microsoft software updates is bundled as a single update package
 
 ## **Recommended Documents**
 
+* [Common Azure Stack Hub patch and update issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#common-azure-stack-hub-patch-and-update-issues)<br>
 * [Manage updates in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#install-updates-and-monitor-progress)<br>
 * [Apply updates in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates)<br>
 * [Update Azure Stack Hub by downloading the package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#update-azure-stack-hub-by-downloading-the-package)<br>
