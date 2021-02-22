@@ -10,7 +10,7 @@
 	supportTopicIds="32749512"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-    resourceTags="servers, databases"
+    	resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-blockinganddeadlocks"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
@@ -21,7 +21,7 @@
 
 Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. While the concepts of blocking are the same for SQL Server and Azure SQL Database, the default isolation level is different. [READ_COMMITTED_SNAPSHOT](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server) is set to on for Azure SQL Databases.
 
-Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
+Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency. See [Understand and Resolve Azure SQL Database Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information on diagnosing and solving blocking issues. 
 
 The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries:
 
@@ -69,8 +69,8 @@ If you need to customize the events you capture when a deadlock occurs, you can 
 
 ## **Recommended Documents**
 
+* [Understand and resolve blocking](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking)
 * [Find blocking queries](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure/)
-* [Understanding blocking](https://support.microsoft.com/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems)
 * [Deadlocks](https://techcommunity.microsoft.com/t5/azure-database-support-blog/lesson-learned-19-how-to-obtain-the-deadlocks-of-your-azure-sql/ba-p/368847)
 * [Locks](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
 * [Monitoring and performance tuning](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)
