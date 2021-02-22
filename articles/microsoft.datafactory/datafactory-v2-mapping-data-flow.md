@@ -1,31 +1,16 @@
 <properties
-  pagetitle="V2 - Mapping Data Flow Common Solutions"
+  pagetitle="V2 - Mapping Data Flow Common Solutions&#xD;"
   service=""
   resource=""
-  ms.author="jaserano,rakatuko"
+  ms.author="rakatuko"
   selfhelptype="Generic"
-  supporttopicids="32633535,32633532,32633537,32633533,32633536"
+  supporttopicids="32633532,32633533,32633535,32633536"
   resourcetags=""
   productpesids="15613"
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="4041ad80-1861-9011-a7a2-828a98325d20"
   ownershipid="AzureData_DataFactory" />
 # V2 - Mapping Data Flow Common Solutions
-
-## **Performance Recommendations**:
-
-**General Recommendations:**
-If you are using SQL source, we recommend that you: 
-
-- Analyze the dataflow for optimized partitioning. Refer to this [Optimized tab](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-performance#optimize-tab) for more details.
-- If 1==1 is being used in a join condition, we recommend instead that you use column value to compare.
-- Debug clusters are intended to preview small data. Increase compute size in proportion to the payload being submitted.
-
-**Recommended Partitions:**
-Based on sources, we recommend the following partitionings:
-- SQL Source > source partitioning
-- File Base Source/Sink > default partitioning is best
-- In intermediate transformations, avoid any explicit partitions other than source and sink.
 
 ## **Recommended Documents**
 
@@ -41,7 +26,7 @@ Based on sources, we recommend the following partitionings:
 - [Mapping data flow schema drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
 - [Mapping data flow sink transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
-**FAQ**
+**FAQ** 
 
 - [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
