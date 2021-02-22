@@ -22,8 +22,8 @@
 ## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and 
-it seems like there is an error in connecting to the Azure DCAP client for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**.
-To resolve this issue, please follow the recommended steps.
+it seems there is an error in connecting to the Azure DCAP client for your database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->**.
+To resolve this issue, follow the recommended steps.
 <!--/issueDescription-->
 
 ## **Attestation Process**
