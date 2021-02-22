@@ -13,9 +13,8 @@
 />
 
 # Lost or Deleted Keys and Secrets in Key Vault
-
-## Recovering lost or deleted keys and secrets in Key Vault 
 :::Section Recommended Solution:::
+## Recovering lost or deleted keys and secrets in Key Vault
 
 <Insight>
 	<symptomId>KeyVaultUnauthorizedInsight,KeyVaultThrottledInsight,KeyVaultUnauthorizedData,KeyVaultThrottledData,KeyVaultVaultNotFoundInsight</symptomId>
@@ -25,7 +24,7 @@
     <additionalInputsReq>true</additionalInputsReq>
 </Insight>
 
-### Manual troubleshooting steps
+### Troubleshooting steps
 
 * [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
 

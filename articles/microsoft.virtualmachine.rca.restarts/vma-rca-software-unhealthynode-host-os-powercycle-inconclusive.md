@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Software Unhealthy Node - Host OS PowerCycle Inconclusive"
+	description="Root Cause Analysis (RCA) - Software - Unhealthy Node"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,25 +24,25 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> This unexpected occurrence was caused by a platform initiated reboot when it was detected that the server hosting your VM had become unresponsive.
+### **Root Cause**
+> This unexpected occurrence was caused by a platform-initiated reboot when the server hosting your VM was detected as unresponsive.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
-> Our core Azure Engineering teams are tracking this incident and are working on a solution for this issue.  Unfortunately, at the moment we do not have an ETA for the fix. Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
+### **Additional Information**
+> Our core Azure Engineering teams are tracking the incident and are working on a solution.  Additional telemetry and diagnostics are being instrumented and deployed to the platform in the following layers to understand this issue better:
 >
 > - Software layer: OS Kernel, Hypervisor
 > - Hardware layer:  BIOS, Firmware
 > - Azure monitoring and diagnostics layer
 > 
-> Additionally, Azure team is investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
+> Additionally, the Azure team is investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
 > 
 <!--/additionalInfo-->
 <!--/rcaDescription-->
