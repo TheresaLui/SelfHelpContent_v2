@@ -54,13 +54,13 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Nodejs;Javascript;api",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
       "longDescription": "",
-      "shortDescription": "How to with Azure Cosmos DB Cassandra API, including Data Migration",
+      "shortDescription": "How-to with Azure Cosmos DB Cassandra API, including Data Migration",
       "searchTags": "cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
@@ -116,7 +116,7 @@
     {
       "id": "1e10f397-d99b-cf37-b8ff-0aa0f478ff9e",
       "longDescription": "",
-      "shortDescription": "How to guidance for SQL API SDK for Python",
+      "shortDescription": "How-to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
@@ -172,9 +172,9 @@
     {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
-      "shortDescription": "Performance-related issues with SQL API SDK for Python",
-      "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "searchTags": "Python;SDK",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -686,7 +686,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK .NET",
       "searchTags": "SDK;.NET;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
