@@ -6,7 +6,7 @@
 	authors="ealsur"
 	ms.author="maquaran"
 	selfHelpType="generic"
-	supportTopicIds="32636793,32688843"
+	supportTopicIds="32636793"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
