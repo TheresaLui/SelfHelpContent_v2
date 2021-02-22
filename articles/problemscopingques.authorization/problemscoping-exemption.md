@@ -34,7 +34,7 @@
             "id": "policyExemption",
             "order": 20,
             "controlType": "dropdown",
-            "displayLabel": "Please select the policy exemption",
+            "displayLabel": "Select the policy exemption",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyExemptions?api-version=2020-07-01-preview",
                 "jTokenPath": "value",
