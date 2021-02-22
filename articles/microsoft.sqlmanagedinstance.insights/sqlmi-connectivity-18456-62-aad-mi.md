@@ -30,8 +30,6 @@ SQL Managed Instance supports Azure AD server principals (logins), using contain
 This error may occur if you are trying to connect with an AAD user (other than the server administrator that owns the database) but there is no Azure AD-based login created for that AAD user/group/application.  
 <br>
 
-<br>
-
 <!--$FailedLogins18456State62AADMI--> FailedLogins18456State62AADMI <!--/$FailedLogins18456State62AADMI-->
 <!--/issueDescription-->
 
