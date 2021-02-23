@@ -11,7 +11,7 @@
          articleId="f54e681f-a2e3-41d9-b60e-7a342efb61ea"
          ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure Disk Backup backup configuration failure
+# Questions Azure Disk Backup configuration failure
 ---
 {
     "resourceRequired": true,
