@@ -49,12 +49,12 @@
 			"text": "Issue with using ARM Templates"
 	     	},
 	     	{
-			"value": "noneoftheabove",
+			"value": "dont_know_answer",
 			"text": "None of the above"
 	      	}
 	    ],
 		"required": true
-	},			
+	},		
 	{
 		"id": "RESTAPIused",
 		"order": 2,
@@ -62,10 +62,10 @@
 		"controlType": "multilinetextbox",
 		"displayLabel": "What was the REST operation, resource type and version causing the issue?",
 		"required": false
-	},		
+	},
 	{
 		"id": "ARMtemplateused",
-		"order": 2,
+		"order": 3,
 		"visibility": "DEVtype == devARMtemplates",
 		"controlType": "multilinetextbox",
 		"displayLabel": "What ARM template is causing the issue?",
@@ -73,7 +73,7 @@
 	},
 	{
 		"id": "SDKused",
-		"order": 2,
+		"order": 4,
 		"visibility": "DEVtype == devSDK",
 		"controlType": "dropdown",
 		"displayLabel": "What type of SDK is causing the issue?",
@@ -104,7 +104,7 @@
 				"text": "SDK for Ruby"
 			},
 			{
-				"value": "noneoftheabove",
+				"value": "dont_know_answer",
 				"text": "None of the above"
 			}
 		],
@@ -135,14 +135,14 @@
 	},
 	{
             "id": "error_message",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
             "required": false
     	},
     	{
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide any other additional details",
