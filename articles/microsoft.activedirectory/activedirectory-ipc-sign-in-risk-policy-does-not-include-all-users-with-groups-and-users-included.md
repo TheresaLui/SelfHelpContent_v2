@@ -4,7 +4,8 @@
 	articleId="IPC_SignInRiskPolicy_DoesNotIncludeAllUsers_WithGroupsAndUsersIncluded"
 	authors="idamsupport"
 	ms.author="sridhara"
-	selfHelpType="insight"	
+	selfHelpType="diagnostics"
+	diagnosticScenario="self_diagnostic"
 	cloudEnvironments="public"
 	ownershipId="AzureIdentity_IdentityProtection"
 />
