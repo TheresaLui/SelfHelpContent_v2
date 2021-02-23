@@ -30,7 +30,7 @@
 
 Most of users are able to resolve their issues using the following steps.
 
-:::Section Availability Group **failed, restarted, failed over or the lease timed out:::
+:::Section Availability Group failed, restarted, failed over or the lease timed out:::
 
 ### Availability Group failed, restarted, failed over or the lease timed out 
 To know the root cause of the issue, review the logs using [this tool](https://techcommunity.microsoft.com/t5/sql-server/failover-detection-utility-availability-group-failover-analysis/ba-p/386021). 
