@@ -41,3 +41,7 @@ See How-to Guides, Tutorials and Resources section in Azure Database Migration S
 ## Migration Activity in Queued State
 
 * [Troubleshooting migration activity in queued state](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#migration-activity-in-queued-state)<br>
+
+## Validation error when having many roles assigned to a resource
+
+* When multiple roles are assigned to a resource, such as the storage account, the most restrictive role gets applied for the Service Principal, and this would result in "insufficient permissions" error during the validation step. Please grant only Contributor role to the AppID used for the MI migration. Refer to the documentation on [MI pre-requisites](https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-managed-instance-online#prerequisites) for more information.
