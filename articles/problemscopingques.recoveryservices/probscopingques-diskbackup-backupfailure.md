@@ -11,7 +11,7 @@
          articleId="7524bd38-e9e4-4b1b-9503-756144e5fb5b"
          ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure Disk Backup backup failure
+# Questions Azure Disk Backup failure
 ---
 {
     "resourceRequired": true,
