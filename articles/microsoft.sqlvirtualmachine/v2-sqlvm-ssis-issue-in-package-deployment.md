@@ -18,8 +18,10 @@ Review the following solutions for common errors in package deployment.
 
 ### Error: "The path for 'ISServerExec.exe' cannot be found. The operation will now exit.
 
+```
 A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
 System.Data.SqlClient.SqlException: The path for `ISServerExec.exe` cannot be found. The operation will now exit."
+```
 
 This error crops up because the machine where you are trying to deploy the SSIS Project is not recognizing the install path for **ISServerExec.exe.** You either don't have SSIS installed on that machine, or the setup registry path for ISServerExec.exe doesn't actually contain the executable.
 
@@ -36,19 +38,32 @@ This error is not specific to SSIS, but almost all projects developed in SQL Ser
 We recommend that you split up your Projects to make it more manageable. In the interim, you can use the 64bit ISDeploymentWizard.exe application to deploy your projects to get around the memory limitation.
 
 ### Error:"The package format was migrated from version 6 to version 8. It must be saved to retain migration changes"
+
 You may encounter this issue if you are trying to deploy an older version of a package developed for a previous version of SSIS. When you opened the `.ispac` file in SSDT or deployed the package onto SSISDB catalog, some components of the package could not be updated due to encryption.
 
 Remember to change the Deployment `TargetServerVersion` to match the version of the SQL Server -SSISDB where you are deploying the SSIS Project. You can also use the `ISDeploymentWizard.exe` application aligned to the version of the target SQL Server to deploy your projects.
 
 ### .NET Framework errors
 
-"A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal" 
+```
+A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
+System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnection' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnectionFactory' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlPerformanceCounters' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file:_ _Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.(C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config) ---> System.UnauthorizedAccessException: Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.
+```
+
+As the error message says, validate that the SQL Server service account has the necessary NTFS permissions to access `machine.config` file.
+
+
+```
+A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
 System.ComponentModel.Win32Exception: A required privilege is not held by the client"
+```
 
 _Or_  
 
-".NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal"
+```
+A .NET Framework error occurred during execution of user-defined routine or aggregate "deploy\_project\_internal
 System.ComponentModel.Win32Exception: Access is denied"
+```
 
 This is one of the known error messages that occur if the SQL Server or SQL Server Agent service account doesn't have the necessary permissions or privileges on the SQL Server machine.
 
@@ -93,12 +108,4 @@ Resolution steps includes providing the necessary permissions to the SQL Server 
 ## **Recommended Documents**
 
 Reference: [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
-
-Error: "A .NET Framework error occurred during execution of user-defined routine or aggregate 'deploy\_project\_internal':
-
-```
-System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnection' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnectionFactory' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlPerformanceCounters' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file:_ _Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.(C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config) ---> System.UnauthorizedAccessException: Access to the path 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config' is denied.
-```
-
-As the error message says, validate that the SQL Server service account has the necessary NTFS permissions to access `machine.config` file.
 
