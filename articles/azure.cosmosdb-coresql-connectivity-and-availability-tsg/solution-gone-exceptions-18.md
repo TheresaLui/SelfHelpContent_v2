@@ -18,8 +18,11 @@
 # Gone exceptions
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-##For Timeout issues Check max time during error scenarios
+**Next steps:** 
+
+For Timeout issues Check max time during error scenarios
 ```
 BackendEndRequest5M
 | where TIMESTAMP > datetime(2019-06-12T12:27:34.7982646Z) and TIMESTAMP  < datetime(2019-06-12T19:57:34.7982646Z)
@@ -29,7 +32,7 @@ BackendEndRequest5M
 | render timechart
 ```
 
-##Also, See the server CPU usage using below
+Also, See the server CPU usage using below
 ```
 NodeCounter5MRoleInstanceEvent
 | where TIMESTAMP > datetime(2019-06-12T12:27:34.7982646Z) and TIMESTAMP  < datetime(2019-06-12T19:57:34.7982646Z)
@@ -39,8 +42,7 @@ NodeCounter5MRoleInstanceEvent
 | render timechart
 ```
 
-##Customer message:
-Please inform customer about your findings
+Please inform customer about your findings.
 
 <!--/issueDescription-->
 
