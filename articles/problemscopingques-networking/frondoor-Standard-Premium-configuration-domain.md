@@ -25,6 +25,21 @@
             "displayLabel": "What is the custom domain you like to add?",
             "watermarkText": "Enter the name of the custom domain",
             "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }
