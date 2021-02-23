@@ -121,8 +121,8 @@
     {
       "id": "1fe56457-5adb-d184-2f17-6c414eb63ecb",
       "longDescription": "",
-      "shortDescription": "Third-party integrations (AWS CloudTrail, Palo Alto, Zscaler, Cisco) using the Linux AMA, MMA agent to implement CEF and Syslog collections, Windows FW.",
-      "searchTags": "CEF;Syslog;Linux AMA;Linux MMA;Events",
+      "shortDescription": "Logstash based output plugin configuration.",
+      "searchTags": "Logstach",
       "category": "Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -377,7 +377,7 @@
     {
       "id": "a565c2dd-9737-ea31-dd4d-e4503c5e702d",
       "longDescription": "",
-      "shortDescription": "TAXII, TIP and filtering",
+      "shortDescription": "Topics related to TAXII, TIP and filtering",
       "searchTags": "TAXII;TIP ;Filtering",
       "category": "Threat Intelligence",
       "useInDiagnoseAndSolve": "true"

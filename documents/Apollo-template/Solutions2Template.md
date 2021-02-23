@@ -116,8 +116,9 @@ Example:
 	</video>
     </videoGroup>
 
-## Resources 
+## More resources 
 <!--Optional. Only list links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+Do not add periods after your document links, even if you introduce the link with a complete sentence.
 This is the Apollo schema for AzureKB articles-->
 
 
