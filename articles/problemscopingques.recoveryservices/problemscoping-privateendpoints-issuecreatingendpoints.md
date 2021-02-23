@@ -16,7 +16,7 @@
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Issue with creating or deleting private endpoints",
+    "title": "Issue with creating private endpoints",
     "fileAttachmentHint": "",
     "formElements": [
         {     "id": "Issue_Type",
