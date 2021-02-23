@@ -11,7 +11,7 @@
          articleId="5c3a9da3-264b-4015-82c5-2f0eda088615"
          ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure Disk Backup backup performance
+# Questions Azure Disk Backup performance
 ---
 {
     "resourceRequired": true,
