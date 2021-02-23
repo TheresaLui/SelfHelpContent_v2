@@ -41,7 +41,7 @@
                 {
                     "value": "NO",
                     "text": "NO"
-                },
+                }
             ],
             "required": false
         },
