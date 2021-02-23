@@ -28,6 +28,7 @@
     	},
 	{
             "id": "DEVtype",
+	    "order": 2,
 	    "controlType": "dropdown",
 	    "displayLabel": "Issues with REST API, SDKs, CLI or ARM Templates?",
 	    "watermarkText": "Select the type of development issue",
@@ -53,11 +54,11 @@
 			"text": "None of the above"
 	      	}
 	    ],
-		"required": true
-	},		
+		"required": false
+	},
 	{
 		"id": "RESTAPIused",
-		"order": 2,
+		"order": 3,
 		"visibility": "DEVtype == devRESTAPI",
 		"controlType": "multilinetextbox",
 		"displayLabel": "What was the REST operation, resource type and version causing the issue?",
@@ -65,7 +66,7 @@
 	},
 	{
 		"id": "ARMtemplateused",
-		"order": 3,
+		"order": 4,
 		"visibility": "DEVtype == devARMtemplates",
 		"controlType": "multilinetextbox",
 		"displayLabel": "What ARM template is causing the issue?",
@@ -73,7 +74,7 @@
 	},
 	{
 		"id": "SDKused",
-		"order": 4,
+		"order": 5,
 		"visibility": "DEVtype == devSDK",
 		"controlType": "dropdown",
 		"displayLabel": "What type of SDK is causing the issue?",
@@ -112,7 +113,7 @@
 	},
 	{
 		"id": "CLIused",
-		"order": 2,
+		"order": 6,
 		"visibility": "DEVtype == devCLI",
 		"controlType": "dropdown",
 		"displayLabel": "If using CLI, select CLI tool?",
@@ -135,14 +136,14 @@
 	},
 	{
             "id": "error_message",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
             "required": false
     	},
     	{
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide any other additional details",
