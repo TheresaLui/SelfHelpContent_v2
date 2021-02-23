@@ -77,7 +77,6 @@
             "displayLabel": "Please share the error message you are seeing",
             "watermarkText": "Error code: Error message",
             "required": true,
-            "hints": []
         },
          {
             "id": "problem_description",
