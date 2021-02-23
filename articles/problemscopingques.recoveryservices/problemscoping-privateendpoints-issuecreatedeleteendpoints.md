@@ -82,11 +82,10 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": []
+	     "useAsAdditionalDetails": true
         }
         ],
     "$schema": "SelfHelpContent"
