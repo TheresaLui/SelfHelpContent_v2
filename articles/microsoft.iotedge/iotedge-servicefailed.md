@@ -2,7 +2,7 @@
   pagetitle="The iotedged service is in a failed state"
   service="microsoft.devices"
   resource="iothubs"
-  ms.author="veyalla,kgremban,darobs"
+  ms.author="veyalla,kgremban,darobs,micahl"
   selfhelptype="Generic"
   supporttopicids="32680960"
   resourcetags=""
@@ -21,7 +21,8 @@ Run the IoT Edge troubleshooting tool on your IoT Edge device:
 
 ## **Recommended Documents**
 
-* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+* (v1.1 and earlier) [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06)
+* (v1.2 and later) [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
 * [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)
 
 Consider using the following channels for non-blocking incidents: 
