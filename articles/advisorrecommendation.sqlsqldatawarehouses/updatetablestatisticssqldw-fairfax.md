@@ -37,7 +37,7 @@
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
+  "version": 3.1,
   "learnMoreLink": "https://aka.ms/learnmorestatistics",
   "description": "Update statistics on table columns",
   "longDescription": "We have detected that you do not have up-to-date table statistics which may be impacting query performance. The query optimizer uses up-to-date statistics to estimate the cardinality or number of rows in the query result which enables the query optimizer to create a high quality query plan.",
@@ -64,7 +64,7 @@
     {
       "actionId": "b8af85e7-1477-4a04-be79-4d2bbd9e2eda",
       "description": "View impacted tables",
-      "actionType": "Blade",
+      "actionType": "ContextBlade",
       "extensionName": "Microsoft_Azure_Synapse",
       "bladeName": "AdvisorStudioRedirectBlade",
       "metadata": {

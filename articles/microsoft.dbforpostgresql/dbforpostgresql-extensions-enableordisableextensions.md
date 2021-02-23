@@ -17,8 +17,12 @@
 
 # Enabling PostgreSQL extensions
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Most extensions can be enabled using the SQL command `CREATE EXTENSION <Extension name>;`
+Most extensions can be enabled by using the SQL command `CREATE EXTENSION <Extension name>;`.
 
-Some extensions may have different instructions around enabling or disabling them. We recommend that you review your specific extension's documentation to learn more. The [Azure Database for PostgreSQL extensions document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) provides links to each extension's documentation. [This document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) also provides additional guidance for some extensions, for example how to set-up TimescaleDB in Azure Database for PostgreSQL.
+Some extensions may have different instructions around enabling or disabling them. We recommend that you review your specific extension's documentation to learn more. The [Azure Database for PostgreSQL extensions document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) provides links to each extension's documentation. [This document](https://docs.microsoft.com/azure/postgresql/concepts-extensions) also provides additional guidance for some extensions; for example, how to set up TimescaleDB in Azure Database for PostgreSQL.
+
+## **Recommended Documents**
+
+[Available extensions in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-extensions)
