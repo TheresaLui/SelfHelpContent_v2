@@ -17,10 +17,11 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-# ExpressRoute gateway subnet has UDR applied
+# ExpressRoute Gateway Subnet has UDR Applied
 <!--issueDescription-->
-We have identified a user-defined route (UDR) in the gateway subnet of your ExpressRoute virtual network gateway **[Azure resource name]**. UDR with a 0.0.0.0/0 destination aren't supported. Gateways require access to the management controllers to function properly. BGP Route Propagation should be set to "enabled" on the GatewaySubnet to ensure the availability of the gateway. The gateway won't function if set to "disabled".
+We have identified user-defined routes (UDR) **<!--$UDRStrings-->UDRStrings<!--/$UDRStrings-->** in the gateway subnet of your ExpressRoute virtual network gateway **<!--$GatewayName-->GatewayName<!--/$GatewayName-->**. UDR with a 0.0.0.0/0 destination in the gateway subnet are not supported.
 <!--/issueDescription-->
-## **Steps to resolve the issue**
 
-Remove the 0.0.0.0/0 default route from the gateway subnet.
+## **Steps to resolve the issue:**
+
+Remove the `0.0.0.0/0` default route from the gateway subnet.

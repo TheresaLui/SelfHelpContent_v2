@@ -55,12 +55,16 @@
             "id": "sdk_type",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is the client SDK used?",
+            "displayLabel": "Which SDK are you using?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": ".NET",
                     "text": ".NET"
+                },
+                {
+                    "value": ".NET Core",
+                    "text": ".NET Core"
                 },
                 {
                     "value": "Java",
@@ -75,8 +79,16 @@
                     "text": "Python"
                 },
                 {
+                    "value": "Spring Boot",
+                    "text": "Spring Boot"
+                },
+                {
                     "value": "REST",
                     "text": "REST"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
                 }
             ],
             "required": false
