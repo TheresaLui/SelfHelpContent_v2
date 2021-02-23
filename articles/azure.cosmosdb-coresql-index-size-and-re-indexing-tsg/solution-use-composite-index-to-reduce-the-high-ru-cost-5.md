@@ -69,21 +69,16 @@ SqlQueryExecMetrics
 | where QueryCharge > 50
 ```
 
-
 #### Does adding the composite index trigger index full rebuild ? 
-
 No. 
 
 #### How does the index get built when composite is added to the existing index.
-
 The additional composite index is build without impacting the existing index. However, the newly building index would not be used by the query optimization until the composite index is fully built.
 
 #### Does the composite index build have any impact on provisioned RUs? 
-
 The build does consume the provisioned RU.  Increasing the Provisioned RU would help build faster or adding the composite index when less usage is recommended.
 
 #### Query is still failing ever after composite index is created 
-
  The Key thing to emphasize is that if a customer has the following query:
 
  SELECT * FROM c ORDER BY a,b 
@@ -91,7 +86,7 @@ The build does consume the provisioned RU.  Increasing the Provisioned RU would 
 If they try to run this when the composite index addition is not complete, they will get an error telling them to add a composite index (even if they had just added one). As of now, the error message doesn?t mention that they have an index rebuild in progress that will eventually allow the query. 
 
 ## Customer message: 
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 
