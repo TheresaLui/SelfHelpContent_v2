@@ -24,7 +24,6 @@ The Azure Cosmos DB's API for MongoDB is compatible with the following versions 
 * [MongoDB Feature Support (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36) for the list of supported operators and limitations
 * [MongoDB Feature Support (3.2 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support) for the list of supported operators and limitations
 
-Features or query operators added in MongoDB version 3.4, including aggregation pipeline support is currently available as a preview feature. See [Mongo Preview Features](https://azure.microsoft.com/blog/azure-cosmosdb-extends-support-for-mongodb-aggregation-pipeline-unique-indexes-and-more/) for to enable these capabilities.  
 
 ## **Recommended Steps**  
 
@@ -51,7 +50,6 @@ If you are experiencing this issue and unable to migrate to 3.6+, please conside
 
 [Azure Lock Management](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
 <br>As an administrator, you may need to lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources. This article covers how to enable locks in the Portal and the intent for each lock type.
-
 
 
 

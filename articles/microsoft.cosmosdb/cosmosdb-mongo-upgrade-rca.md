@@ -16,11 +16,11 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Upgrade to Mongo server version 4.0
+# Upgrade to Mongo server version 3.6
 
-## Upgrade to Mongo server v4.0
+## Upgrade to Mongo server v3.6
 
-Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v4.0. Upgrading to the Mongo engine version 4.0 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
+Your database account <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> can now be upgraded to the latest version of Azure Cosmos DB's API for MongoDB v3.6. Upgrading to the Mongo engine version 3.6 will provide the most up-to-date functionality, as well as enhancements in performance and stability.
 
 The upgrade process will not result in any service interruptions nor require any downtime. <!--$MigrationCondition-->[MigrationCondition]<!--/$MigrationCondition-->
 
