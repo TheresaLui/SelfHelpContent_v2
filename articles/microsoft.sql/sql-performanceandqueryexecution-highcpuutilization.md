@@ -17,7 +17,12 @@
 
 # Resolve poor performance and timeout issues in Azure SQL Database
 
-Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
+Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. 
+Using the Query performance Insight, you can directly identify the top resource consuming queries 
+
+[Top resource consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
+
+There are various other [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
 For analyzing High CPU usage we recommend the following:
 
 ### **TSQL**
