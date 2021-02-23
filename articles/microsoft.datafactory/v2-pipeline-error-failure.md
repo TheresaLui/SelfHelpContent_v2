@@ -2,7 +2,7 @@
   pagetitle="V2 Pipeline Errors and Problems&#xD;"
   service=""
   resource=""
-  ms.author="brianwan,spagarwa,pacodel"
+  ms.author="pacodel"
   selfhelptype="Generic"
   supporttopicids="32788155"
   resourcetags=""
@@ -28,7 +28,7 @@ Resolve most V2 pipeline errors using the following recommendations.
 
 * If you receive an error message about running SSIS packages, which can generate a long queue, see the Azure-SSIS [Package Execution Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-ssis-activity-faq) and [Integration Runtime Management Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) for more information
 
-* Transient issues could cause activities to be stuck while processing a new status. We have a background job to recover from this, but it could take up to 1 hour to run. You can also use timeout and retry policies for activities that support it and the retry should finish in time. For activities that don't support retry and timeout policies, the recommendation is to cancel and rerun the pipeline.
+* Transient issues could cause activities to be stuck while reporting a new status. We have a background job to recover from this, but it could take up to 1 hour to run. You can also use timeout and retry policies for activities that support it and the retry should finish in time. For activities that don't support retry and timeout policies, the recommendation is to cancel and rerun the pipeline.
 
 ## **Recommended Documents**
 
