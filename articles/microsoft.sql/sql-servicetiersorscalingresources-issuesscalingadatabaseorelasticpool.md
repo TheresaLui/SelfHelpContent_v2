@@ -22,7 +22,7 @@ Azure Resource Manager is our cloud infrastructure stack that fully replaces the
 
 ### Scaling Operation Slow or Stuck
 
-Scaling operations can take anywhere from a few minutes to several hours depending on the service tiers involved and sometimes the size of the database.  For information on factors that affect how long a scaling operation runs and rules of thumb for estimating how long a scaling operation should take, see the following.
+A Scaling operations can take anywhere from a few minutes to several hours depending on the service tiers involved and sometimes the size of the database.  For information on factors that affect how long a scaling operation runs and rules of thumb for estimating how long a scaling operation should take, see the following.
 
 * [Scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)<br>
 * [Scaling an elastic pool](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale#change-compute-resources-vcores-or-dtus)<br>
