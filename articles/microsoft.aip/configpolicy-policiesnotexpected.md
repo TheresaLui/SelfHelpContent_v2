@@ -1,21 +1,17 @@
 <properties
-	pageTitle="Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
-	description="Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727961"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="configpolicy_policiesnotexpected"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
-# Azure Information Protection Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
+  pagetitle="Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected&quot;&#xD;"
+  description="Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727961"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configpolicy_policiesnotexpected"
+  ownershipid="AzureIdentity_InformationProtection" />
+# Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
 
 To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
