@@ -29,7 +29,7 @@
 	{
             "id": "DEVtype",
 	    "controlType": "dropdown",
-	    "displayLabel": "Issues with REST API, SDKs, CLI or ARM Templates?"
+	    "displayLabel": "Issues with REST API, SDKs, CLI or ARM Templates?",
 	    "watermarkText": "Select the type of development issue",
 	    "dropdownOptions": [
 	    	{
