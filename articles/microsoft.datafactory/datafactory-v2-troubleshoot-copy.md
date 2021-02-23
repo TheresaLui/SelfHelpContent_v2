@@ -3,7 +3,7 @@
   description="Troubleshoot Azure Data Factory copy activity issues."
   service="microsoft.datafactory"
   resource="factories"
-  ms.author="shelfeng,brianwan"
+  ms.author="brianwan,shelfeng"
   selfhelptype="Generic"
   supporttopicids="32629461"
   resourcetags=""
@@ -13,13 +13,11 @@
   ownershipid="AzureData_DataFactory" />
 # V2 - Copy Activity and Self-Hosted IR – Errors or unexpected results
 
-Resolve issue related to Self-Hosted Integration Runtime (SHIR) using these steps.
-
 ## Recommended Steps
 
 * If you use Self-Hosted IR and experience known SHIR problems, follow the steps on the [Self-IR troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide). Note the **Report ID** and provide it with the support request.
 
-* If running **Copy Activity** throws an error or exception code, start by validating whether the error is in the [General Copy Activity errors documentation](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error). This article contains most common errors from different data sources and actions to resolve them.
+* If running **Copy Activity** throws an error or exception code, start by validating whether the error is in the [Copy Activity errors documentation](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). This article contains most common errors from different data sources and actions to resolve them.
 
 * For formatting errors, review the following sections:
 
