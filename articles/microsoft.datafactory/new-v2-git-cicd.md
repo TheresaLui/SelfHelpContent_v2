@@ -1,6 +1,6 @@
 <properties
   pagetitle="Continuous Integration and Delivery with Git Repository Integration"
-  ms.author="nimoolen"
+  ms.author="nimoolen,fangl"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -20,6 +20,9 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 - Bitbucket and GitLab are not currently supported in Azure Data Factory (ADF)
 - We do not recommend assigning Azure RBAC controls to individual entities (pipelines, datasets, and so on) in a data factory. For example, if a developer has access to a pipeline or a dataset, they should be able to access all pipelines or datasets in the data factory. If you feel that you need to implement many Azure roles within a data factory, consider deploying a second data factory.
 - You cannot publish from private branches
+
+### **Best Practice**
+ [Best practices](https://docs.microsoft.com/azure/data-factory/)
 
 ### **Custom parameters**
 
