@@ -18,7 +18,7 @@
   "subscriptionRequired": false,
   "resourceRequired": false,
   "title": "Issues with Device Update resource",
-  "fileAttachmentHint": "Upload screenshots of errors if available",
+  "fileAttachmentHint": "Please upload the following if available: screenshots of errors.",
   "formElements": [
     {
       "id": "problem_start_time",
