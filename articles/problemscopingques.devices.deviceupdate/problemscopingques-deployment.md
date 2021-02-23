@@ -32,91 +32,91 @@
       "order": 2,
       "controlType": "textbox",
       "displayLabel": "What is the Trace ID associated with the attempted import action?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_deploymentid",
       "order": 3,
       "controlType": "textbox",
       "displayLabel": "What is the Deployment ID for the deployment encountering an issue?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_updateid",
       "order": 4,
       "controlType": "textbox",
       "displayLabel": "What is the Update ID for the update content encountering an issue?",
-      "required": true
+      "required": false
     },
     {
       "id": "iot_hub_name",
       "order": 5,
       "controlType": "textbox",
       "displayLabel": "What is the name of your IoT Hub instance?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_account_name",
       "order": 6,
       "controlType": "textbox",
       "displayLabel": "What is the name of your Device Update account?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_instance_name",
       "order": 7,
       "controlType": "textbox",
       "displayLabel": "What is the name of your Device Update instance?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_resultcode",
       "order": 8,
       "controlType": "textbox",
       "displayLabel": "What ResultCode are you encountering?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_ext_resultcode",
       "order": 9,
       "controlType": "textbox",
       "displayLabel": "What ExtendedResultCode are you encountering?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_deviceid",
       "order": 10,
       "controlType": "textbox",
       "displayLabel": "What is the Device ID(s) of the device(s) encountering an issue?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_agentlog",
       "order": 11,
       "controlType": "textbox",
       "displayLabel": "Please upload the ADU Agent component logs from the device(s) encountering an issue.",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_do_agentlog",
       "order": 12,
       "controlType": "textbox",
       "displayLabel": "Please upload the DO Agent component logs from the device(s) encountering an issue.",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_config",
       "order": 13,
       "controlType": "textbox",
       "displayLabel": "Please upload the Device Update configuration file from the device(s) encountering an issue (adu-conf.txt).",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_importmanifest",
       "order": 14,
       "controlType": "textbox",
       "displayLabel": "Please upload the ADU Agent component logs from the device(s) encountering an issue.",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

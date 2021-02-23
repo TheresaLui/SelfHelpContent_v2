@@ -32,21 +32,21 @@
       "order": 2,
       "controlType": "textbox",
       "displayLabel": "What is the name of your IoT Hub instance?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_account_name",
       "order": 3,
       "controlType": "textbox",
       "displayLabel": "What is the name of your Device Update account?",
-      "required": true
+      "required": false
     },
     {
       "id": "adu_instance_name",
       "order": 4,
       "controlType": "textbox",
       "displayLabel": "What is the name of your Device Update instance?",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
