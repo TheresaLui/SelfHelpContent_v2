@@ -3,7 +3,7 @@
   description="Troubleshoot Azure Data Factory Trigger execution issues."
   service="microsoft.datafactory"
   resource="factories"
-  ms.author="samirans,kantao"
+  ms.author="kantao"
   selfhelptype="Generic"
   supporttopicids="32749442,32749443,32749444"
   resourcetags=""
@@ -14,9 +14,12 @@
 # Data Factory Trigger Run
 
 ## **Recommended Steps**
+
+
+**Event-based Trigger:** [Create event-based triggers](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) 
 * Make sure that the event trigger is enabled and published. 
-* Make sure that the storage account name and container name are correct. 
-* If the `blob path begins with` and `blob path ends with` values are specified, make sure they are correct. 
+* Make sure that the trigger run parameter are used correctly. Supported parameters are @triggerBody().folderPath and @triggerBody().fileName.
+* ADF blob events trigger does not guarente the order for event delivery. 
 * If the storage account is a Data Lake Storage Gen2 Storage Account and the action is `flush` when the file is uploaded, make sure to have the `close` query parameter as `true`. This setting allows Azure Data Factory to receive notifications when files change. See [Data Lake Storage Gen2 references](https://docs.microsoft.com/rest/api/storageservices/datalakestoragegen2/path/update)
 
 ## **Recommended Documents**
