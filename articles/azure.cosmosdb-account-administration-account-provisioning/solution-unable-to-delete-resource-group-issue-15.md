@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-### THIS IS NOT A CUSTOMER READY CONTENT MESSAGE
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Next steps:** Execute the query from last step and paste your findings based on the results obtained.
 
