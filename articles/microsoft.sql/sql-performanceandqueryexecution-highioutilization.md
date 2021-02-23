@@ -17,10 +17,22 @@
 
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
-Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more information on updating statistics.
+IO Usage is split into two types: Data IO and Log IO.
+Click the button below to identify the top IO consuming queries
 
-IO Usage is split into two types: Data IO and Log IO. You can quickly identify the IO usage using the query below:
+[Top IO consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
 
+Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. 
+You can enable your server nad database to utilize intelligent automatic tuning to optimize the performance by going to [Automatic Tuning](data-blade:SqlAzureExtension.AutotuningBlade.databaseResourceId.$resourceId)
+
+See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more information on updating statistics.
+
+There are various other [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
+For analyzing High IO usage we recommend the following:
+
+### T SQL
+
+You can quickly identify the IO usage using the query below:
 ```
 SELECT end_time, avg_data_io_percent, avg_log_write_percent
 FROM sys.dm_db_resource_stats
