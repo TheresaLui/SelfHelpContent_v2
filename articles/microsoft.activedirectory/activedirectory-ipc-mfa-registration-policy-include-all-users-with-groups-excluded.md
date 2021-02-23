@@ -4,8 +4,7 @@
 	articleId="IPC_MfaRegistrationPolicy_IncludeAllUsers_WithGroupsExcluded"
 	authors="idamsupport"
 	ms.author="sridhara"
-	selfHelpType="diagnostics"
-	diagnosticScenario="self_diagnostic"
+	selfHelpType="insight"	
 	cloudEnvironments="public"
 	ownershipId="AzureIdentity_IdentityProtection"
 />
