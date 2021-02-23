@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Integration Issues/Failed to connect to data store"
+  pagetitle="Integration Issues/Failed to connect to data store&#xD;"
   description="Integration Issues/Failed to connect to data store"
   service="microsoft.synapse"
   resource="workspaces"
@@ -24,8 +24,8 @@
    Use the following PowerShell script to validate if the storage account network rules are correctly configured:<br>
    
    ```
-      $resourceGroupName = "<resource group name>"
-      $accountName = "<storage account name>"
+      $resourceGroupName = "[resource group name]"
+      $accountName = "[storage account name]"
       $rule = Get-AzStorageAccountNetworkRuleSet -ResourceGroupName $resourceGroupName -Name $accountName
       
       $rule.ResourceAccessRules | ForEach-Object {
