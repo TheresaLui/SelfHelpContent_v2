@@ -2,7 +2,7 @@
   pagetitle="V2 Pipeline Errors and Problems&#xD;"
   service=""
   resource=""
-  ms.author="pacodel"
+  ms.author="pacodel,spagarwa"
   selfhelptype="Generic"
   supporttopicids="32788155"
   resourcetags=""
@@ -12,7 +12,7 @@
   ownershipid="AzureData_DataFactory" />
 # V2 Pipeline Errors and Problems
 
-Resolve most V2 pipeline errors using the following recommendations.
+Resolve most V2 pipeline errors using the following recommendations. 
 
 ## **Recommended Steps**
 
