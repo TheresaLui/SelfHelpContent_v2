@@ -22,7 +22,7 @@
 
 **Next steps:** 
 
-1) For Timeout issues Check max time during error scenarios
+1\) For Timeout issues Check max time during error scenarios
 ```
 BackendEndRequest5M
 | where TIMESTAMP > datetime(2019-06-12T12:27:34.7982646Z) and TIMESTAMP  < datetime(2019-06-12T19:57:34.7982646Z)
@@ -42,7 +42,7 @@ NodeCounter5MRoleInstanceEvent
 | render timechart
 ```
 
-2) Please inform customer about your findings.
+2\) Please inform customer about your findings.
 
 <!--/issueDescription-->
 
