@@ -20,7 +20,7 @@ Azure Database for MySQL automatically creates server backups and stores them in
 
 **Retention less than 7 days or beyond 35 days?** 
 
-The default retention period is 7 days and can be increased up to 35 days. In Azure MySQL single server, you can't set retention for less than 7 days or beyond 35 days. But you can automate backups of your Azure Database for MySQL Server to Azure Storage (see Recommended documents). For Azure Database for MySQL Flexible servers, you can reduce the backup period to a minimum of 1 day.
+The default retention period is 7 days and can be increased up to 35 days. In Azure MySQL single server, you can't set retention for less than 7 days or beyond 35 days. But you can automate backups of your Azure Database for MySQL Server to Azure Storage (see **Recommended documents**). For Azure Database for MySQL Flexible servers, you can reduce the backup period to a minimum of 1 day.
 
 **Azure Database for MySQL automatically takes backups of your server**
 
