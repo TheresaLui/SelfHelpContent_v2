@@ -19,11 +19,7 @@
 
 <!--issueDescription-->
 
-Dear customer,
-
-<EXECUTE THE QUERY FROM LAST STEP AND PASTE YOUR FINDINGS>
-
-Thank you.
+# EXECUTE THE QUERY FROM LAST STEP AND PASTE YOUR FINDINGS>
 
 <!--/issueDescription-->
 
