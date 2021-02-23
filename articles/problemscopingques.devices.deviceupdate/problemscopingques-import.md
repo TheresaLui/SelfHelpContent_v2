@@ -63,13 +63,6 @@
       "required": false
     },
     {
-      "id": "adu_importmanifest",
-      "order": 8,
-      "controlType": "textbox",
-      "displayLabel": "Please upload the ADU Agent component logs from the device(s) encountering an issue.",
-      "required": false
-    },
-    {
       "id": "problem_description",
       "order": 15,
       "controlType": "multilinetextbox",

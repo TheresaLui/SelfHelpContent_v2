@@ -91,34 +91,6 @@
       "required": false
     },
     {
-      "id": "adu_agentlog",
-      "order": 11,
-      "controlType": "textbox",
-      "displayLabel": "Please upload the ADU Agent component logs from the device(s) encountering an issue.",
-      "required": false
-    },
-    {
-      "id": "adu_do_agentlog",
-      "order": 12,
-      "controlType": "textbox",
-      "displayLabel": "Please upload the DO Agent component logs from the device(s) encountering an issue.",
-      "required": false
-    },
-    {
-      "id": "adu_config",
-      "order": 13,
-      "controlType": "textbox",
-      "displayLabel": "Please upload the Device Update configuration file from the device(s) encountering an issue (adu-conf.txt).",
-      "required": false
-    },
-    {
-      "id": "adu_importmanifest",
-      "order": 14,
-      "controlType": "textbox",
-      "displayLabel": "Please upload the ADU Agent component logs from the device(s) encountering an issue.",
-      "required": false
-    },
-    {
       "id": "problem_description",
       "order": 15,
       "controlType": "multilinetextbox",
