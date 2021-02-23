@@ -19,7 +19,7 @@
 
 **Next steps:** 
 
-# Check Index V2 with Full Fidelity
+#### Check Index V2 with Full Fidelity
 
 <!--issueDescription-->
 
