@@ -5,7 +5,7 @@
   resource="factories"
   ms.author="kantao"
   selfhelptype="Generic"
-  supporttopicids="32749442,32749443,32749444"
+  supporttopicids="32749442"
   resourcetags=""
   productpesids="15613"
   cloudenvironments="public,fairfax,usnat,ussec"
