@@ -249,8 +249,8 @@
     {
       "id": "7417b6ac-d636-453c-ce64-73c8afe7fa56",
       "longDescription": "",
-      "shortDescription": "Problems with registering and managing FIDO2 security keys or Microsoft Authenticator on the user registration portal",
-      "searchTags": "FIDO;FIDO2;security keys;Authenticator;portal",
+      "shortDescription": "Problems with registering or managing FIDO2 security keys or Microsoft Authenticator portal or using Temporary Access Pass.",
+      "searchTags": "FIDO2;security keys;Authenticator;portal;Temporary Access Pass",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
