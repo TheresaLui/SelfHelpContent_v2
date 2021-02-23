@@ -21,7 +21,7 @@
 
 ### THIS IS NOT A CUSTOMER READY CONTENT MESSAGE
 
-**Next steps:** EXECUTE THE QUERY FROM LAST STEP AND PASTE YOUR FINDINGS BASED ON THE RESULTS OBTAINED
+**Next steps:** Execute the query from last step and paste your findings based on the results obtained.
 
 <!--/issueDescription-->
 
