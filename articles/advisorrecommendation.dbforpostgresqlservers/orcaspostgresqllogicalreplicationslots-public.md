@@ -53,8 +53,8 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "",
-      "actionType": "",
+      "actionId": "ec1d6366-a6b2-4edd-8171-411ef09fa352",
+      "actionType": "Document",
       "extensionName": "",
       "bladeName": "",
       "metadata": {
