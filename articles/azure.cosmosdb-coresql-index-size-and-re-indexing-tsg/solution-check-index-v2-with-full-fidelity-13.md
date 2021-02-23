@@ -17,7 +17,7 @@
 
 ### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Next steps:** 
+**Next steps:** Investigate based on the steps below.
 
 #### Check Index V2 with Full Fidelity
 
