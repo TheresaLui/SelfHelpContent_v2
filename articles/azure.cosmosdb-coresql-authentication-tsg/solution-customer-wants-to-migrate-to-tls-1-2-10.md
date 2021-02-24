@@ -24,7 +24,7 @@
 The product team need to enable configuration to enforce the TLS 1.2.   Please file a CRI to Security team.
 
 ## Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 
