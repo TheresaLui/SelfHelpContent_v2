@@ -20,10 +20,7 @@
 <!--issueDescription-->
 ### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Next steps:** 
-
-**Investigation (not customer message):**
-This query shows the amount of storage in GB used for each physical partition. 
+**Next steps:** This query shows the amount of storage in GB used for each physical partition. 
 
 [Query link](https://cdbsupport.kusto.windows.net/Support?query=H4sIAAAAAAAEAHWQwW7CMBBE75HyDytOoYUGqvaYSimlKIdUFMIHbJwViWR7I9sIqPrxdUKBHsrJHs%2fuyG9W1LJxnzt2%2bJyHwTfsazIERZbP10WaL%2bElAdxyNK2HV3chuUT5hg5LtJQKwTvtPlARJMlAsFVsx4qcaYQdV6R40K3anVJomi%2bCHA8z1l5TtXZscEuZXrxCAgoPkTc31j%2fd%2b0umKzqpYRxNJ49PD5PJ3e85HEHhPy1TKXl%2fI6jH%2bmcVyiMs0bjGNayzagRnlI7hqlaNt2YsJYlu8GRedW9figqDOIY5ivpvMhhqDVnSzsIU2vpoG4ES2vNE1wsdHOkK3g32qRtLlSe4VVJ8izoMfgCLndYaywEAAA%3d%3d&web=0)
 
