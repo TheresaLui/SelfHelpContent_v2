@@ -1,19 +1,16 @@
- <properties
-	pageTitle="Business to Consumer (B2C)/Creating or migrating users into B2C"
-	description="Business to Consumer (B2C)/Creating or migrating users into B2C"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="parakhj"
-	displayOrder="901"
-	selfHelpType="resource"
-	supportTopicIds="32416703"
-	resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
-	productPesIds="14785,16580"
-	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	articleId="9c3caee9-a539-4c9d-afb9-9a713e01ab49"
-	ownershipId="AzureIdentity_B2C"
-/>
-
+<properties
+  pagetitle="B2C: How to create or migrate users into Azure AD B2C&#xD;"
+  description="Business to Consumer (B2C)/Creating or migrating users into B2C"
+  service="microsoft.aad"
+  resource="microsoft_aad_iam"
+  ms.author="sischleg"
+  selfhelptype="Resource"
+  supporttopicids="32633321"
+  resourcetags="userandgroups_overview,userandgroups_user,userandgroups_group"
+  productpesids="14785,16580"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="9c3caee9-a539-4c9d-afb9-9a713e01ab49"
+  ownershipid="AzureIdentity_B2C" />
 # B2C: How to create or migrate users into Azure AD B2C
 
 The only way to create Azure AD B2C users that can sign in through your B2C integrated app is either:
