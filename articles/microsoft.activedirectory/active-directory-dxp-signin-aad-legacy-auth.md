@@ -35,8 +35,8 @@ Note: Exchange Online is removing support for Basic Authentication (another name
 
 ## **Recommended Documents**
 
-* [Exchange Online deprecating Basic Authentication](https://docs.microsoft.com/en-us/lifecycle/announcements/exchange-online-basic-auth-deprecated)
-* [How to: Block legacy authentication to Azure AD with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/block-legacy-authentication)
+* [Exchange Online deprecating Basic Authentication](https://docs.microsoft.com/lifecycle/announcements/exchange-online-basic-auth-deprecated)
+* [How to: Block legacy authentication to Azure AD with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
 
 ## **Sign-in details**
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->

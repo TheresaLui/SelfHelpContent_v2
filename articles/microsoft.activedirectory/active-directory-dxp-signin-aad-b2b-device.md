@@ -37,5 +37,5 @@ More information which the client submitted for the sign in attempt and the matc
 
 ## **Recommended Documents**
 
-* [B2B Sign-in and Device-based Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/conditional-access#device-based-conditional-access)
-* [Troubleshooting sign-in problems with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/troubleshoot-conditional-access)
+* [B2B Sign-in and Device-based Conditional Access](https://docs.microsoft.com/azure/active-directory/external-identities/conditional-access#device-based-conditional-access)
+* [Troubleshooting sign-in problems with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access)

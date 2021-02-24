@@ -35,4 +35,4 @@ Review what the client submitted for the sign in attempt and user risk informati
 
 ## **Recommended Documents**
 
-* [How To: Investigate risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk )
+* [How To: Investigate risk](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk )

@@ -33,4 +33,4 @@ Review what the client submitted for the sign in and what happened during the au
 
 ## **Recommended Documents**
 
-* [Security Defaults Enforced Settings](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#policies-enforced)
+* [Security Defaults Enforced Settings](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#policies-enforced)
