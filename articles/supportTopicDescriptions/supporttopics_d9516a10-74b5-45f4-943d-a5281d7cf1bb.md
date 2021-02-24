@@ -946,6 +946,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb13168d-3d79-1572-df16-8fb06a807f48",
+      "longDescription": "",
+      "shortDescription": "How to enable point in time restore for your account",
+      "searchTags": "restore;backup;retention",
+      "category": "Backup and Restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdcd3fa3-04a3-032b-ee4a-4db844e124f7",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account, or change an existing Azure Cosmos DB account configuration",
