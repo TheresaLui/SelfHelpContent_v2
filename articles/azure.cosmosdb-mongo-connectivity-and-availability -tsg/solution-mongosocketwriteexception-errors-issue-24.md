@@ -23,7 +23,7 @@
 ### Follow all steps below before opening an incident with PG, If Setting MaxIdleTime does not help
 Please raise an ICM ticket against the Mongo queue - include all information on what was already tried from the above as well as the customer's driver and OS version.
 
-#Customer Message
+## Customer message:
 Dear customer,
 
 Your connection fails or is closed with one of the following error stacks:
