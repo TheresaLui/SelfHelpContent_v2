@@ -114,7 +114,7 @@
       },
       {
          "id":"quota_account",
-         "visibility":"quota_subtype != enableLocation &&  quota_subtype != accountLimitChange || quota_othersubtype != null ",
+         "visibility":"quota_subtype == throughputLimitChange || quota_subtype == storageLimitIncrease || quota_subtype == ruDatabaseShared || quota_subtype == containerLimitIncrease || quota_othersubtype != null ",
          "order":3,
          "controlType":"dropdown",
          "displayLabel":"Account Name",
