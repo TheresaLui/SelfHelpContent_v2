@@ -18,9 +18,9 @@
 # Know if a physical partition split is currently taking place
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Investigation (not customer message):**
-One common CRI is that customers will report, "My scale-up operation seems to be taking a while. What should I do?". We should first check if the split operation is pending, via the **IsOfferReplacePending** property in **BillingOffers5M**.
+**Next steps:** One common CRI is that customers will report, "My scale-up operation seems to be taking a while. What should I do?". We should first check if the split operation is pending, via the **IsOfferReplacePending** property in **BillingOffers5M**.
 
 ```
 let _collectionname="xxxxxx";
@@ -40,7 +40,7 @@ ReportQuota5M | where CollectionName ==_collectionname and GlobalDatabaseAccount
 | summarize dcount(PartitionId) by GlobalDatabaseAccountName, CollectionName, CollectionRid
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
