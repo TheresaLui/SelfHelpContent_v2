@@ -25,4 +25,4 @@ We have identified that your operation failed because of an underlying issue wit
 
 ## **Recommended Document**
 
-To resolve this issue, use the additional details on the Azure portal error menu to narrow down the root causes. For more information, see the [SQL Server documentation](https://docs.microsoft.com/sql/relational-databases/backup-restore/restore-a-database-backup-using-ssms?view=sql-server-2017).
+To solve this issue, refer to additional details section for recommendations specific to SQL Server to resolve the SQL System Errors. [Learn more](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/cc645603(v=sql.105)?redirectedfrom=MSDN).
