@@ -4,7 +4,7 @@
     service="microsoft.dbformysql"
     resource="servers"
     authors="kummanish"
-    ms.author="manishku"
+    ms.author="bahusse"
     displayOrder="120"
     selfHelpType="generic"
     supportTopicIds="32747569"
@@ -15,18 +15,23 @@
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Backups and restore options for Azure Database for MySQL
+# Long term backup retention for Azure Database for MySQL
 
-Long term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long term retention. Third party solutions are available.
+**Retention less than 7 days or beyond 35 days?** 
 
-Native support for long term retention backups is currently being worked on by the Azure engineering team.
+The default [backup retention](https://docs.microsoft.com/azure/mysql/concepts-backup) period is 7 days and can be increased up to 35 days. In Azure MySQL Single server, you can't set retention for less than 7 days or beyond 35 days. But you can automate backups of your Azure Database for MySQL Server to Azure Storage (see **Recommended documents**). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
 
-## **Recommended Steps**
+Long-term retention backups are currently not natively supported by the service. You have the option to use `mysqldump` to take backups and store them for long-term retention. Third-party solutions are available. The Azure engineering team is currently working on native support for long-term retention backups.
 
-* [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
-* If you want to backup Azure Database for MySQL to a Blob storage, please refer to [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
+**Exporting Azure Database for MySQL database using MySQL Workbench?** 
+
+Read [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+
+**Backing up Azure Database for MySQL to Blog Storage?** 
+
+If you want to back up Azure Database for MySQL to a Blob storage, see [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
+* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)
 * [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)
