@@ -53,7 +53,7 @@
                "value":"ruDatabaseShared"
             },
             {
-               "text":"Max number of containers for shared database",
+               "text":"Remove limit on number of containers for Shared database throughput",
                "value":"containerLimitIncrease"
             },
             {
