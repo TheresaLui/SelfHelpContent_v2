@@ -20,7 +20,7 @@ Resolve issues with backups and restore options using the following solutions.
 Often, users report that their point in time restores show recent (current) data in the restored server. This occurs because of an incorrect connection string when connecting to the restores server. For details, review [this tutorial](https://techcommunity.microsoft.com/t5/azure-database-support-blog/point-in-time-restore-in-azure-database-for-mysql-and-azure/ba-p/772655).
 
 * **Where are my backups?** <br>
-Azure Database for MySQL automatically creates server backups and stores them in user-configured locally redundant or geo-redundant storage. Backups can only be used to restore your server to a point-in-time using the **Restore** button on the overview pane on the Azure Portal. See [Backup and restore in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-backup).
+Azure Database for MySQL automatically creates server backups and stores them in user-configured locally redundant or geo-redundant storage. Backups can only be used to restore your server to a point-in-time using the **Restore** button on the Overview pane on the Azure portal. See [Backup and restore in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-backup).
 
 * **Backup failing using MySQL Workbench or taking a cold backup?**<br>
 Review this document: [Export your Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/backup-azure-database-for-mysql-to-a-blob-storage/ba-p/803830).
@@ -38,7 +38,7 @@ See [Troubleshoot database corruption in Azure Database for MySQL](https://docs.
    * [Tips and Tricks in using mysqldump and mysql restore to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/tips-and-tricks-in-using-mysqldump-and-mysql-restore-to-azure/ba-p/916912).
 
 * **Migrate MySQL to Azure Database for MySQL online?** <br>
-   [Tutorial: Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online#prerequisites).
+   See this [Tutorial: Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online#prerequisites).
 
 * **Retention less than 7 days or beyond 35 days?** <br>
    The default retention period is 7 days and can be increased up to 35 days. In Azure MySQL single server, you can't set retention for less than 7 days or beyond 35 days. But you may [Automate backups of your Azure Database for MySQL server to azure storage for longer term retention](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/automate-backups-of-your-azure-database-for-mysql-server-to/ba-p/1791157). For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.
