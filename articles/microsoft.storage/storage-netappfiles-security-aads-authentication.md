@@ -17,7 +17,7 @@
 
 DNS and AD Connectivity Issues
 
-Many DNS/AD issues are due to incorrect or unsupported network configurations. When you encounter connectivity issues, make sure that your network configuration and VNET peering follows the supported configurations by reviewing the [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies?WT.mc_id=Portal-Microsoft_Azure_Support).
+Many DNS/AD issues are due to incorrect or unsupported network configurations. When you encounter connectivity issues, make sure that your network configuration and VNET peering follows the supported configurations by reviewing the [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-network-topologies?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 # Enable Azure Active Directory Domain Services authentication on Azure Netapp Files
 
