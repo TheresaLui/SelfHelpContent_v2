@@ -26,5 +26,5 @@ We have identified that your backup operation failed because of the below reason
 ## **Recommended steps**
 
 1. The database might be offline, ensure database is online and running
-2. Check if there is an antivirus software blocking installation of plug-in(Link)
+2. [Check if there is an antivirus software blocking installation of plug-in](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#troubleshoot-backup-and-recovery-issues)
 3. Ensure latest VM guest agent is installed and is in running state.
