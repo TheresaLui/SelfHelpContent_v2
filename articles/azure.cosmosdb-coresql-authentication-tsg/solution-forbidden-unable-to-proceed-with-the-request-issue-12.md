@@ -46,7 +46,7 @@ FrontendEvent
 4. Be sure to double check the **global database account name** matches what the customer expects.
 
 
-#### KUSTO
+#### KUSTO:
 
 5. You can verify their current settings in the MgmtGlobalDatabaseAccountTrace table:
 ```
