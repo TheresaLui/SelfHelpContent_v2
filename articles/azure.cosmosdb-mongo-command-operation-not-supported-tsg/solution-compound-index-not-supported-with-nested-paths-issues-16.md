@@ -41,8 +41,8 @@ Please be aware that we currently do not support nested documents or arrays.
 https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-indexing#index-types  
 
 #### Mitigation
-?	Please confirm that no arrays are in the path.  
-?	Refactor data model to bring field to root.  
+* Please confirm that no arrays are in the path.  
+* Refactor data model to bring field to root.  
 
 Thank you .
 
