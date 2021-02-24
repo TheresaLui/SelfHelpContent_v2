@@ -25,4 +25,4 @@ We have identified that your operation failed because of an underlying issue wit
 
 ## **Recommended Document**
 
-To solve this issue, refer to additional details section for recommendations specific to SQL Server to resolve the SQL System Errors. [Learn more](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/cc645603(v=sql.105)#in-this-section).
+To solve this issue, refer to additional details section for recommendations specific to SQL Server to resolve the SQL System Errors. [Learn more](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/cc645603\(v=sql.105\)).
