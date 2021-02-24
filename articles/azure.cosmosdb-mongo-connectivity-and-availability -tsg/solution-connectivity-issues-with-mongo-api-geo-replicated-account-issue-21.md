@@ -27,7 +27,7 @@ For mongo 3.2 account, the C# driver version < 2.8.0 ( Java driver version < 3.8
 
 Advice to customers with multi-region accounts on 3.2 is to use a driver < 2.8 if they want to issue requests to their read region. For 3.6 accounts, advice is to use the latest driver and always include appName.
 
-##Customer Impact
+#### Customer Impact
 This prevents the customer from being able to utilize geo replication features of Cosmos DB Mongo API from C# and Java driver.
 
 ##Symptoms
@@ -35,7 +35,7 @@ Customer is not able to connect to different regions (or not able to connect at 
 
 <br>
 
-##Solution
+#### Solution
 Please see [PG TSG 1204: Working with C# driver and Mongo API Geo-Replicated account](https://cosmosdbdocs.azurewebsites.net/tsg/tsg1204.html)
 
 Please see [PG TSG 1205: Working with C# driver and Mongo API Multimaster account](https://cosmosdbdocs.azurewebsites.net/tsg/tsg1205.html)
