@@ -1146,6 +1146,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8a26a80-1550-75ef-5c30-db694e4ac579",
+      "longDescription": "",
+      "shortDescription": "Issues and questions related to SQL API SDK",
+      "searchTags": "sql;sdk;api",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
