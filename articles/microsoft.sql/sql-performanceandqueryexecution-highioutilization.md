@@ -23,7 +23,7 @@ Click the button below to identify the top IO consuming queries
 [Top IO consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
 
 Up-to-date index statistics are crucial for the SQL DB query optimizer to generate optimal execution plans. Better execution plans use the right amount of resources and thus help reduce IO usage. 
-You can enable your server and database to utilize intelligent automatic tuning to optimize the performance by going to [Automatic Tuning](button-data-blade:SqlAzureExtension.AutotuningBlade.databaseResourceId.$resourceId)
+You can enable your server and database to utilize intelligent automatic tuning to optimize the performance by going to [Automatic Tuning](button-data-blade:SqlAzureExtension.AutotuningBlade.resourceId.$resourceId)
 
 See [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more information on updating statistics.
 
