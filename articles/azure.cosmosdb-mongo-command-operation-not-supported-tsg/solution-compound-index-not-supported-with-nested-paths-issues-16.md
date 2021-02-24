@@ -44,7 +44,7 @@ https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-indexing#index-types
 * Please confirm that no arrays are in the path.  
 * Refactor data model to bring field to root.  
 
-Thank you .
+Thank you.
 
 <!--/issueDescription-->
 
