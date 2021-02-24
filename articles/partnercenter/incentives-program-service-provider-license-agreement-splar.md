@@ -24,10 +24,10 @@
 These resources explain enrollment, eligibility, earnings, payments, and policy for the SPLAR Incentives program.
 
 **Enrollment & eligibility**
-* [SPLAR Program Rules](https://support.microsoft.com/help/2961263/splar-clarify-program-rules)
+* [SPLAR Program Rules](https://docs.microsoft.com/partner-center/incentives-determined-your-program-eligibility)
 
 **Earnings**
-* [How to view/download earnings statements in CHIP](https://support.microsoft.com/help/2961257/how-to-view-download-earning-statement-from-chip)
+* [How to view/download earnings statements in CHIP](https://docs.microsoft.com/partner-center/chip-earnings)
 
 **Payments**
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)

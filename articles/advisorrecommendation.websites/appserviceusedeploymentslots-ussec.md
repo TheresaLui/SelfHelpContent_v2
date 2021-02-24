@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "8c55a855-0672-4b40-b8ff-8a61441666cc"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/ant-staging_cn",
   "description": "Use deployment slots for your App Service resource",
   "longDescription": "You have deployed your application multiple times over the last week. Deployment slots help you manage changes and help you reduce deployment impact to your production web app.",
