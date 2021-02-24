@@ -30,7 +30,7 @@ Advice to customers with multi-region accounts on 3.2 is to use a driver < 2.8 i
 #### Customer Impact
 This prevents the customer from being able to utilize geo replication features of Cosmos DB Mongo API from C# and Java driver.
 
-##Symptoms
+####Symptoms
 Customer is not able to connect to different regions (or not able to connect at all) to a mulit-region account.
 
 <br>
