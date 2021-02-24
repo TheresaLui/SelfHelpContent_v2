@@ -27,7 +27,7 @@ Please provide the collection rid you are checking for.
 
 ```
 ReportQuota5M
-| where CollectionRid == "D3wQALXlSQA="
+| where CollectionRid == "COLLECTIONRID"
 | summarize min(TIMESTAMP), max(TIMESTAMP) by GlobalDatabaseAccountName, CollectionName, CollectionRid, IndexingSchemeVersion
 ```
 
