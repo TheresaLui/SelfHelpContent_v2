@@ -1050,6 +1050,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca6dbd15-e36d-6eb5-a154-50d8e238432d",
+      "longDescription": "",
+      "shortDescription": "Issues or question on Nodejs or Javascript with SQL API",
+      "searchTags": "nodejs;javascript;sql;sdk",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cd88d787-ef6f-4901-653b-acb3c2b1052f",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB service is failing with authentication error",
