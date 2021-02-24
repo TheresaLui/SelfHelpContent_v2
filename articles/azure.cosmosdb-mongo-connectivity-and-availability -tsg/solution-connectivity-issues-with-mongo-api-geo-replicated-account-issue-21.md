@@ -18,7 +18,9 @@
 # Connectivity Issues with Mongo API Geo-Replicated account issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 All mongo C# client and Java drivers does not work seamlessly with Cosmos DB Mongo API account with Geo-Replication. We need to use specific connection string along with specific driver versions.
 
 For mongo 3.2 account, the C# driver version < 2.8.0 ( Java driver version < 3.8.0 ) will not issue requests to read regions. For 3.6 mongo accounts, including the appName in the connection string (as provided in the portal) is required for drivers of any version to issue requests to read regions.
@@ -56,8 +58,8 @@ The dependency below will use 3.7.1 version, but a pom.xml file with springboot 
 </dependency>
 ```
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 
