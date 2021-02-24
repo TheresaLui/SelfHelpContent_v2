@@ -93,14 +93,14 @@
                     "value": "No",
                     "text": "No"
                 },
-								{
+		{
                     "value": "dont_know_answer",
                     "text": "None of the above"
                 }
 			],
             "required": false
       },
-			{
+	{
 		            "id": "PTRrecord",
 		            "order": 5,
 		            "controlType": "dropdown",
