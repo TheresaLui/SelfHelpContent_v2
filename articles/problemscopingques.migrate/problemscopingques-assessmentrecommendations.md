@@ -38,6 +38,7 @@
                 }
             ],
             "required": false
+	},   
         {
             "id": "assessment_name",
             "order": 2,
