@@ -18,7 +18,9 @@
 # Forbidden Unable to proceed with the request issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 1. If you customer gets an error message like so:
 
 *Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request.*
@@ -44,7 +46,7 @@ FrontendEvent
 4. Be sure to double check the **global database account name** matches what the customer expects.
 
 
-##KUSTO
+#### KUSTO
 
 5. You can verify their current settings in the MgmtGlobalDatabaseAccountTrace table:
 ```
@@ -59,8 +61,8 @@ MgmtGlobalDatabaseAccountTrace
 7. If this isn't the cause, engage the Ops queue and they'll triage if it is an SDK issue or a backend issue. You 100% need an activity id before you engage the product group. They cannot help without it. Include the above queries in it.
 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query to customer.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query to customer.
 
 
 <!--/issueDescription-->
