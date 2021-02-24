@@ -21,7 +21,7 @@
 ### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Just for CSS Information:**
-Tthe 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6.
+The 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6.
 
 ## Example of Customer message:
 Dear customer,
