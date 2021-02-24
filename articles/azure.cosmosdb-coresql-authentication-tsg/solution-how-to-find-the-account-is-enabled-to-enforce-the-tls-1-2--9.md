@@ -33,7 +33,7 @@ MgmtDatabaseAccountTrace
 
 
 ## Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 
