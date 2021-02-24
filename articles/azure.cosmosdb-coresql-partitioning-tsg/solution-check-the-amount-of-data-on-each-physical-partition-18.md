@@ -18,6 +18,9 @@
 # Check the amount of data on each physical partition
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
+
+**Next steps:** 
 
 **Investigation (not customer message):**
 This query shows the amount of storage in GB used for each physical partition. 
@@ -33,7 +36,7 @@ ReportQuota5M
 | extend FractionUsed =  MaxConsumedStorageInGB / TotalAllowedStorageInGB
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
