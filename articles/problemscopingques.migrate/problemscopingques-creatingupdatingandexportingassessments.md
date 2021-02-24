@@ -53,7 +53,7 @@
                 {
                     "value": "Azure SQL",
                     "text": "Azure SQL"
-                }
+                },
                   {
                     "value": "Azure VMware Solution(AVS)",
                     "text": "Azure VMware Solution(AVS)"
