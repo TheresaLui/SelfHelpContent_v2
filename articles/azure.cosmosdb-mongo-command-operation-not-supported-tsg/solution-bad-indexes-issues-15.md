@@ -23,16 +23,16 @@ Dear customer,
 
 If you are getting Queries that do not utilize index or act as if index does not exist.  
 
-###Cause
+#### Cause
 Internal index specification has improved from 3.2 and may be out of date.
 
-###Diagnosis
+#### Diagnosis
 ```
 db.runCommand({customAction:"GetCollection", collection:"<collectionName>", showIndexes:true})
 ```
 Indexes are out of date if any indexes show requiresReIndex=true.
 
-###Mitigation
+#### Mitigation
 Do one of the following  
 ?	Run the reIndex command  
 ?	Drop and re-add the index  
@@ -41,7 +41,7 @@ Do one of the following
 The reIndex command effectively drops and re-adds the bad indexes which may impact query performance and the ability to sort while the indexes are rebuilt.  We recommend scheduling a time to minimized impact.  
 
 
-Thank you .
+Thank you.
 
 <!--/issueDescription-->
 
