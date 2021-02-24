@@ -722,6 +722,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95a8f77a-c998-5749-c74e-66b3196fc6de",
+      "longDescription": "",
+      "shortDescription": "Issues or questions for Python using SQL API",
+      "searchTags": "Python;SQL;SDK",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95bae313-257a-1d98-2ddf-f49674ec268d",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB is failing with authentication error or connection is failing with SSL errors",
