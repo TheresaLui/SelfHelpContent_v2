@@ -77,7 +77,7 @@ To look at the underlying query for this function, run the following command:
 
 
 ## Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 
 
