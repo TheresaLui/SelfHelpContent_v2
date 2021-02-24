@@ -18,12 +18,13 @@
 # Socket Connection Exceptions troubleshooting
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-##Follow all steps below before opening an incident with PG
+#### Follow all steps below before opening an incident with PG
 If all of the below steps fail, collect all connection details from the **details shared below** plus details shared in **9. Connection Debug TSG**, and then transfer the CRI to MongoDB PG for further investigation.?
 
 
-#Customer message:
+## Customer message:
 Dear customer,
 
 Inactive TCP connections starting after 4 minutes are torn down by the Azure Load Balancer.  Mongo drivers are unaware of when connections are torn down by the server and reuse torn down connections causing socket/connection exceptions. Clients can handle this in two ways:
