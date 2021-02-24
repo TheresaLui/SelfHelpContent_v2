@@ -21,9 +21,26 @@
     "title": "Discovery issues",
     "fileAttachmentHint": "",
     "formElements": [
+         {
+            "id": "Assessment Type",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Provide the assessment type",
+            "watermarkText": "Select",
+            "dropdownOptions": [
+                {
+                    "value": "Azure VM",
+                    "text": "Azure VM"
+                },
+                {
+                    "value": "Azure VMware Solution(AVS)",
+                    "text": "Azure VMware Solution(AVS)"
+                }
+            ],
+            "required": false
         {
             "id": "assessment_name",
-            "order": 1,
+            "order": 2,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name of the assessment in which you are facing issue.",
@@ -32,7 +49,7 @@
         },
         {
             "id": "VM_name",
-            "order": 2,
+            "order": 3,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Please provide VM name (if applicable)",
@@ -41,7 +58,7 @@
         },
         {
             "id": "disk_name",
-            "order": 3,
+            "order": 4,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Please provide disk name (if applicable)",
@@ -50,14 +67,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
