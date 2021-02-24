@@ -34,8 +34,8 @@ Indexes are out of date if any indexes show requiresReIndex=true.
 
 #### Mitigation
 Do one of the following  
-?	Run the reIndex command  
-?	Drop and re-add the index  
+*	Run the reIndex command  
+*	Drop and re-add the index  
 
 **Notes:**    
 The reIndex command effectively drops and re-adds the bad indexes which may impact query performance and the ability to sort while the indexes are rebuilt.  We recommend scheduling a time to minimized impact.  
