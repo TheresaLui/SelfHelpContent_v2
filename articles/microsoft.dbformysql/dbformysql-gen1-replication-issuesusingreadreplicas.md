@@ -17,7 +17,7 @@
 
 # Issues using read replicas in Azure Database for MySQL - Single Server
 
-The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate up to five replicas from the master server. Replicas are updated asynchronously using the MySQL engine native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate up to five replicas from the master server. Replicas are updated asynchronously using the MySQL engine native binary log (`binlog`) file position-based replication technology.
 
 Most users are able to resolve issues by using the steps below.
 
@@ -30,7 +30,7 @@ Review [Common scenarios for high replication latency](https://docs.microsoft.co
 
 **Make sure all your tables have primary keys**
 
-Lack of primary keys makes SQL thread scans all rows in the target table to apply the changes. This scan can cause replication latency.
+Lack of primary keys makes SQL thread scan all rows in the target table to apply the changes. This scan can cause replication latency.
 
 **Note:** High resource usage (specifically IOPS, which are Intensive Write), causes multiplication of `binlog` files. Replaying these files on Read Replica slows down the overall replication performance and therefore might break replication.
 
