@@ -22,11 +22,9 @@ Most users are able to resolve their Cassandra API migration issue using the ste
 ## **Recommended Steps**
 
 ### **Unable to Connect Cosmos Cassandra API with Cqlsh**
-* Properly convert the .crt to .cer file [cosmos_sample.js](https://gist.github.com/prashanthmadi/afba93b4871fd8e79f22e13ecf05ecfc)
+* Convert the .crt to .cer file [cosmos_sample.js](https://gist.github.com/prashanthmadi/afba93b4871fd8e79f22e13ecf05ecfc)
 * Do not deactivate the TLS
-* Check your firewall configuration for this service. Do you have Allow access from All networks or from Selected networks? If Selected networks is selected, do you have the IP address from which you are attempting to connect from added to the Allow list?
-
-
+* Check your firewall configuration for this service. Do you have **Allow access** from **All networks** or from **Selected networks**? If **Selected networks** is selected, do you have the IP address from which you are attempting to connect from added to the Allow list?
 
 ## **Recommended Documents**
 
@@ -34,9 +32,8 @@ Most users are able to resolve their Cassandra API migration issue using the ste
 <br>This tutorial covers the following tasks:
 * Plan for migration
 * Prerequisites for migration
-* Migrate data using cqlsh COPY command
+* Migrate data using `cqlsh COPY` command
 * Migrate data using Spark  
-
 
 [Azure Cosmos DB Cassandra API data migration options](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-migrationchoices#azure-cosmos-db-cassandra-api)
 <br>Migration type, options, and considerations
