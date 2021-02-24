@@ -18,10 +18,12 @@
 # Customer wants to migrate to TLS 1.2
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 The product team need to enable configuration to enforce the TLS 1.2.   Please file a CRI to Security team.
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->
