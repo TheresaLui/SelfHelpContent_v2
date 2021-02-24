@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Business to Consumer (B2C)&#xD;"
+  pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
   ms.author="nishring,runuguse"
@@ -38,4 +38,4 @@ Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active
 
 * Review our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
-* Ask your question to our developer community at  [Microsoft Q&A](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
+* Ask your question to our developer community at  [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html).
