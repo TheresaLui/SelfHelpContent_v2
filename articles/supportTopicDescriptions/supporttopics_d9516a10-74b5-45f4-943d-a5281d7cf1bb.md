@@ -626,6 +626,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "886e2125-f2ed-5047-b5d6-f539f63866fe",
+      "longDescription": "",
+      "shortDescription": "MongoDB data migration issues",
+      "searchTags": "Mongo;MongoDB;migrate;migration;import",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "88e913a4-0c5a-75ba-7faf-9a22077e9e48",
       "longDescription": "",
       "shortDescription": "How to guidance for Cosmos DB Cassandra",
