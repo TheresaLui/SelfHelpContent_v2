@@ -1186,6 +1186,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e98c90d1-eeab-1a6b-5ec7-019192ce0868",
+      "longDescription": "",
+      "shortDescription": "Issues and question on .NET for SQL API",
+      "searchTags": ".net;sql",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea28ce51-3290-cff3-ba2b-61d30f872a51",
       "longDescription": "",
       "shortDescription": "Design partitioning, identify the correct partitioning key, and manage partitions with throughput",
