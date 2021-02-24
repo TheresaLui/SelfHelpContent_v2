@@ -53,6 +53,10 @@
                "value":"ruDatabaseShared"
             },
             {
+               "text":"Max number of containers for shared database",
+               "value":"containerLimitIncrease"
+            },
+            {
                "text":"Other quota types",
                "value":"otherQuotas"
             }
@@ -70,10 +74,6 @@
          "includeInQuotaSummary":true,
          "infoBalloonText":"Other quota types",
          "dropdownOptions":[
-            {
-               "text":"Containers for shared database throughput",
-               "value":"containerLimitIncrease"
-            },
             {
                "text":"Number of regional failover",
                "value":"regionalFailovers"
@@ -187,7 +187,7 @@
       },
       {
          "id":"current_limit",
-         "visibility":"quota_subtype != enableLocation",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != containerLimitIncrease",
          "order":9,
          "controlType":"numerictextbox",
          "displayLabel":"Current Limit",
@@ -203,7 +203,7 @@
       },
       {
          "id":"new_limit",
-         "visibility":"quota_subtype != enableLocation",
+         "visibility":"quota_subtype != enableLocation && quota_subtype != containerLimitIncrease",
          "order":10,
          "controlType":"numerictextbox",
          "displayLabel":"New quota requested",
