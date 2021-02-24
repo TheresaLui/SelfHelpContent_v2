@@ -17,7 +17,7 @@
 	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Error SQL ErrorNumber: 3204 The backup or restore was aborted
+# SQL ErrorNumber: 3204 The backup or restore was aborted
 
 <!--issueDescription-->
 We have identified that your backup operation was aborted. This could be due to high IOPS or hitting throttling limit while taking backup.
