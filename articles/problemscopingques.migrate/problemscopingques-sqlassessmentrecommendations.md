@@ -32,7 +32,7 @@
                     "value": "Azure VM",
                     "text": "Azure VM"
                 },
-				{
+		{
                     "value": "Azure SQL",
                     "text": "Azure SQL"
                 },
@@ -42,6 +42,7 @@
                 }
             ],
             "required": false
+	},
         {
             "id": "assessment_name",
             "order": 2,
@@ -51,7 +52,7 @@
             "watermarkText": "E.g. MyContosoAssessment",
             "required": false
         },
-		{
+	{
             "id": "SQL_name",
             "order": 3,
             "visibility": "null",
@@ -59,6 +60,7 @@
             "displayLabel": "Provide the name(s) of the impacted SQL instance(s):",
             "watermarkText": "E.g. MyContosoSQL",
             "required": false
+	 },   
          {
             "id": "Problem Type",
             "order": 4,
@@ -84,6 +86,7 @@
                 }
             ],
             "required": false
+	},    
         {
             "id": "problem_start_time",
             "order": 5,
