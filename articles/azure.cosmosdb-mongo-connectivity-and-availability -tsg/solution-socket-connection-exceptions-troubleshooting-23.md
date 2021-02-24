@@ -57,13 +57,13 @@ globaldb:PRIMARY>
 
 <br>
 
-##FAQ:
+#### FAQ:
 But my application has been working for X amount of time without an issue: although the client application code has not changed there can be changes in request volume and load, networking condition, etc that can lead to this issue. Handling this scenario is good practice because there is always a chance of getting this exceptions when working over a network.
 
-###Option 1: Client Code Handling
+#### Option 1: Client Code Handling
 MongoDB drivers do not handle retries well so this logic will need to be written in the client code.
 
-###Option 2: Driver Settings
+#### Option 2: Driver Settings
 The goal is to make the drivers tear down the TCP connection before Cosmos DB so the client can do a graceful closure and reconnect.
 
 For all drivers (and mongo shell) except nodejs: <br/>
@@ -77,7 +77,7 @@ Configure socketTimeoutMS < 3 minutes, autoReconnect = true, keepAlive = true, k
 - In NodeJS this setting operates similar to maxIdleTimeMS. NodeJS does not accept maxIdleTime. So, use the connection string from portal and options above as the connection parameters.
 - https://mongoosejs.com/docs/connections.html#options, http://mongodb.github.io/node-mongodb-native/3.1/api/MongoClient.html#.connect
 
-##Option 3: Operating System Settings
+#### Option 3: Operating System Settings
 The goal is for the operating system to maintain TCP connections such that they will not be torn down.
 
 Configure the OS TCP keepalive to use the following values
