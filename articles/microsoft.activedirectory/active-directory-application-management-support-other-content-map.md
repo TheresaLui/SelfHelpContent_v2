@@ -53,4 +53,4 @@ For applications  that are using Azure AD Graph, follow our guidance to [migrate
 
 1. [Our migration checklist provides a getting started point.](https://docs.microsoft.com/graph/migrate-azure-ad-graph-planning-checklist)
 2. Your Azure app registration portal shows which applications are using AAD Graph.  We recommend you review all of your apps' source code, and if applicable, reach out to any ISVs or app providers. Microsoft support can also provide you with a list of all AAD Graph usage in your tenant.
-3. If you cannot find an answer to your question, post a [question on Microsoft Q&A with the tag `microsoft-graph-*`](https://aka.ms/askgraph)
+3. If you cannot find an answer to your question, post a [question on Microsoft Q&A with the tag `microsoft-graph-*`](https://docs.microsoft.com/answers/search.html?type=question&q=microsoft-graph-*)
