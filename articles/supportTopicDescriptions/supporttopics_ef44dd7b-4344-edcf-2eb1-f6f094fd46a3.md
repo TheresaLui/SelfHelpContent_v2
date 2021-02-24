@@ -169,7 +169,7 @@
     {
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
-      "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
+      "shortDescription": "Issue encountered while creating or deleting project or using the partner tools ",
       "searchTags": "Find project;Delete project;Know more;ISV;Learn more",
       "category": "Project",
       "useInDiagnoseAndSolve": "true"
