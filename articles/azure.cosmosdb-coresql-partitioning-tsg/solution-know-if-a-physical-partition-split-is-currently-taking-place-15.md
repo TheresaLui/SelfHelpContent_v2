@@ -41,7 +41,7 @@ ReportQuota5M | where CollectionName ==_collectionname and GlobalDatabaseAccount
 ```
 
 ## Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
 
