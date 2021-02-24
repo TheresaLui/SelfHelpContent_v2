@@ -114,7 +114,7 @@
       },
       {
          "id":"quota_account",
-         "visibility":"quota_subtype == throughputLimitChange || quota_subtype == storageLimitIncrease || quota_subtype == ruDatabaseShared || quota_subtype == containerLimitIncrease || quota_othersubtype != null ",
+         "visibility":"quota_subtype == throughputLimitChange || quota_subtype == storageLimitIncrease || quota_subtype == ruDatabaseShared || quota_subtype == containerLimitIncrease || quota_othersubtype != null",
          "order":3,
          "controlType":"dropdown",
          "displayLabel":"Account Name",
@@ -160,7 +160,7 @@
       {
          "id":"unit_measureUnits",
          "order":5,
-         "visibility":"quota_subtype == accountLimitChange || quota_subtype == throughputLimitChange || quota_subtype == ruDatabaseShared",
+         "visibility":"quota_subtype == accountLimitChange || quota_subtype == throughputLimitChange || quota_subtype == ruDatabaseShared || quota_subtype == containerLimitIncrease",
          "controlType":"textBlock",
          "displayLabel":"Please enter limit values using Units as your unit of measure"
       },
