@@ -434,6 +434,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a793120-29c3-05f3-402f-0d2930ba33e7",
+      "longDescription": "",
+      "shortDescription": "Core (SQL) Data Migration Issues",
+      "searchTags": "SQL;migrate;migration;import",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5b582dc7-46bd-3590-e50a-c8eb57d5e789",
       "longDescription": "",
       "shortDescription": "Azure Power BI connection to Azure Cosmos DB is failing, throwing an exception, or observing high latency",
