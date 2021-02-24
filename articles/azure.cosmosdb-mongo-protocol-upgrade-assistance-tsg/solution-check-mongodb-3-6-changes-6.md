@@ -18,11 +18,12 @@
 # Check MongoDB 3.6 changes
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Just for CSS Information:**
 Tthe 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6.
 
-**Customer message:**
+## Example of Customer message:
 Dear customer,
 
 ##New Features and Benefits of upgrading to version 3.6:
