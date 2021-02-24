@@ -20,10 +20,7 @@
 <!--issueDescription-->
 ### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Next steps:** 
-
-**Investigation (not customer message):**
-Use the OperationQOSEvent table and look at the operationName property. 
+**Next steps:** Use the OperationQOSEvent table and look at the operationName property. 
 - **ThroughputSplit**: User initiated the RU/s scale-up
 - **SplitRange**: System initiated split due to storage increase
 
