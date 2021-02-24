@@ -46,7 +46,7 @@ Please let me know your feedback on the above.
  
 Thank you.
 
-#Recommended Documents
+### Recommended Documents
 https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-version-upgrade
 https://devblogs.microsoft.com/cosmosdb/upgrade-your-server-version-from-3-2-to-3-6-for-azure-cosmos-db-api-for-mongodb/
 https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
