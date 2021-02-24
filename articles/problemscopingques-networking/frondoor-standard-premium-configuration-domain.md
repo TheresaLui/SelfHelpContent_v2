@@ -22,7 +22,7 @@
             "id": "custom-domain",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What is the custom domain you like to add?",
+            "displayLabel": "What is the custom domain you want to add?",
             "watermarkText": "Enter the name of the custom domain",
             "required": true
         },
