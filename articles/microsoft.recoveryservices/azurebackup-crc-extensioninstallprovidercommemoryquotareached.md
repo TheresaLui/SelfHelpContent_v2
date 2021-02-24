@@ -17,7 +17,7 @@
 	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Error UserErrorGenericSQLUserCorrectableFault
+# Error ExtensionInstallProviderCOMMemoryQuotaReached
 
 <!--issueDescription-->
 We have identified that your backup operation failed because the extension could not be installed.  
