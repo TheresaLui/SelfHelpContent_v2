@@ -1298,6 +1298,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f3eae135-295b-7bb2-6de7-e3dfdaa8433c",
+      "longDescription": "",
+      "shortDescription": "Cassandra Data Migration Issues",
+      "searchTags": "Cassandra;migrate;migration;import",
+      "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f5406ba1-bc93-b5e8-ac90-c6f09569a61d",
       "longDescription": "",
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
