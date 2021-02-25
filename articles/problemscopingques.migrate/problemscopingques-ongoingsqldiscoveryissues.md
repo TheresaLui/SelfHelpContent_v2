@@ -61,9 +61,9 @@
             "watermarkText": "E.g. IP = 172.22.60.1",
             "required": false
         },
-		{
+	{
             "id": "problem_type",
-            "order": 1,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Your problem is related to",
             "watermarkText": "Select",
@@ -91,9 +91,9 @@
             ],
             "required": true
         },
-		{
+	{
             "id": "sql_name",
-            "order": 2,
+            "order": 5,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the impacted SQL instance(s) (ServerName\InstanceName)",
@@ -101,14 +101,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
