@@ -24,6 +24,8 @@
     <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
     <noResultText>No issues found</noResultText>
     <additionalInputsReq>true</additionalInputsReq>
+    <maxInsightCount>1</maxInsightCount>
+    <failedText>We ran into an issue and could not complete this check</failedText>
 </insight>
 
 ### Recommended Steps 
