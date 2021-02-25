@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	ownershipId="AzureData_AzureSQLMI_Connectivity"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # We ran diagnostics on your resource and found an issue
 
