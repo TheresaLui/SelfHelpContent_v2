@@ -160,7 +160,7 @@
       },
       {
          "id":"quota_region",
-         "visibility":"quota_subtype == enableLocation || quota_subtype == throughputLimitChange  || quota_subtype == storageLimitIncrease",
+         "visibility":"quota_subtype == enableLocation || quota_subtype == storageLimitIncrease",
          "order":5,
          "controlType":"dropdown",
          "displayLabel":"Location requested",
