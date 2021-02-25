@@ -21,12 +21,6 @@
 
 - **DO NOT** enable metadata options you don't use for better performance.
 
-### **Public Documentation**
-Please checkout [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about,
-- Supported file connectors and databases
-- Supported metadata options
-- Other limitations
-
 ## **Lookup: Common mistakes and hard limitations**
 - When query or stored procedure is used,
   - it **MUST return one and exact one result set**, otherwise, Lookup activity may fail.
@@ -36,11 +30,16 @@ Please checkout [Get Metadata activity in Azure Data Factory](https://docs.micro
 - The Lookup activity output supports up to **4 MB** in size, activity will fail if the size exceeds the limit. 
 - Currently, the longest duration for Lookup activity before timeout is **24 hours**.
 
-### **Public Documentation**
+## **How to parameterize GetMetadata and Lookup activity**
+Please go back to the previous page and re-select problem type and subtype (***Authoring or Development Issues/Parameterization and Expression Language***) for more details.
+
+## **Recommended Documents**
+Please checkout [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about,
+- Supported file connectors and databases
+- Supported metadata options
+- Other limitations
+
 Please checkout [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity) to learn more about,
 - Supported capabilities
 - How to use Lookup activity output in subsequent activity
 - Other limitations
-
-## **How to parameterize GetMetadata and Lookup activity**
-Please go back to the previous page and re-select problem type and subtype (Authoring or Development Issues/Parameterization and Expression Language).
