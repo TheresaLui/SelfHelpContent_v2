@@ -1,9 +1,9 @@
 <properties
-  pagetitle="Getmetadata and lookup Common Solutions&#xD;"
+  pagetitle="Getmetadata and lookup Common Solutions"
   description="Getmetadata and lookup Common Solutions"
   service=""
   resource=""
-  ms.author="hemin,keynesy"
+  ms.author="keynesy"
   selfhelptype="Generic"
   supporttopicids="32680906"
   resourcetags=""
@@ -24,7 +24,7 @@
 ### **Lookup: Common mistakes and hard limitations**
 - When query or stored procedure is used,
   - MUST return one and exact one result set, otherwise, Lookup activity may fail.
-  - SHOULD be idempotent, as Lookup activity may retry internally due to transient issues, 
+  - SHOULD be idempotent, as Lookup activity may retry internally due to transient issues.
 - Output parameter of stored procedure can't be returned as output of Lookup activity.
 - The Lookup activity can return up to 5000 rows; if the result set contains more records, the first 5000 rows will be returned.
 - The Lookup activity output supports up to 4 MB in size, activity will fail if the size exceeds the limit. 
