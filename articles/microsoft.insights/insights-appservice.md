@@ -19,22 +19,24 @@
 
 ## Common issues
 
-1. The Application Insights option is grayed out and not clickable:
+1. The Application Insights option is dimmed and not available:
 
 ![Application Insights Menu Item](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-disabled.png)
 
-2. The Application Insights option is clickable, but it is not possible to advance beyond the options screen
+2. The **Application Insights** option is available, but it is not possible to advance beyond the **Options** screen
+
 
 ## **Recommended Steps**
 
-### **If the Application Insights option is grayed out**
+### **If the Application Insights option is dimmed**
 
 1. The specified language/tech stack may not be supported. Here is what you need to know: 
 
-    * Currently you can enable codeless integration with Application Insights for .Net, .NetCore, Java and Node.js (public preview on Linux and private preview on Windows)
-    * For Python you would need to add SDK to your code
+    * Currently you can enable codeless integration with Application Insights for .NET, .NetCore, Java (private preview) and Node.js (public preview on Linux and private preview on Windows)
+    * For Java applications, enable [Application Insights Java 3.0 agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent) prior to deploying your app in App Service
+    * For Python, you need to add SDK to your code
 
-### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
+### **If the Application Insights option is available, but you can't advance beyond the first screen**
 
 1. You are using a free subscription AND happen to have Application Insights enabled for other resources: 
 

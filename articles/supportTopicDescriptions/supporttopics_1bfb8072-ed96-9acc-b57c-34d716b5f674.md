@@ -295,6 +295,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6042dbf8-8787-1233-3ac2-2b6e27ffe29e",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics data export feature. ",
+      "searchTags": "Data export;Log Analytics",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618641f5-670c-a008-fa47-18e1438552c3",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) or memory usage caused by one of the Windows Agent processes.",
