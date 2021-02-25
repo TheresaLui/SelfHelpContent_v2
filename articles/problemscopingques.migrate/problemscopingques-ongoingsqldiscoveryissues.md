@@ -85,7 +85,7 @@
                     "text": "Not able to see latest SQL discovery data"
                 },
 		{
-                    "value": "None of the above",
+                    "value": "dont_know_answer",
                     "text": "None of the above"
                 }
             ],
