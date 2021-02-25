@@ -24,7 +24,7 @@ Our internal service telemetry detected blocking sessions on the database **<!--
 We have identified at least one lead blocking session.
 
 Blocking occurs when one session holds a lock on a specific resource and a second session attempts to acquire a conflicting lock type on the same resource. When locking and blocking persists, it can have detrimental effect on system performance.
-<!--issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 We recommend running the query below to identify the lead blocking session.
@@ -32,6 +32,7 @@ We recommend running the query below to identify the lead blocking session.
 If the query returns results, blocking is currently occurring and we recommend running the following command to kill the lead blocker: KILL {head_blocker_session_id}; Additionally, see [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
 
 If the query does not return results, blocking is not currently occurring. In this case, if you are currently experiencing performance issues, we recommend walking through this article to help [identify query performance issues in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/identify-query-performance-issues).
+
 
 ```sql
 WITH cteHead ( session_id,request_id,wait_type,wait_resource,last_wait_type,is_user_process,request_cpu_time
