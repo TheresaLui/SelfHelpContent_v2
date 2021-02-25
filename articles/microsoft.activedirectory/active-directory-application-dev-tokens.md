@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Problems acquiring tokens to access a resource&#xD;"
+  pagetitle="Problems acquiring tokens to access a resource"
   description="Problems acquiring tokens using the MSAL or ADAL libraries"
   service="microsoft.aad"
   resource="microsoft_aad_iam"
@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Below you will find help and links for the most common problems when building Azure Active Directory apps. We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Below you will find help and links for the most common problems when building Azure Active Directory apps. We highly recommend you check Microsoft Q&A for [issues building Azure Active Directory apps](https://docs.microsoft.com/answers/topics/azure-active-directory.html), the answer to your question may already be available. If you can't find an answer to your question, post a [question on Microsoft Q&A with the tag `azure-active-directory`](https://docs.microsoft.com/answers/questions/ask.html).
 
 **I'm having trouble getting started**
 
