@@ -3,13 +3,13 @@
   description="Problems acquiring tokens using the MSAL or ADAL libraries"
   service="microsoft.aad"
   resource="microsoft_aad_iam"
-  ms.author="jmprieur,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32596835"
   resourcetags=""
   productpesids="16575"
-  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
-  disableclouds=""
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec"
+  disableclouds="blackforest"
   articleid="db030fe2-d0c4-46cd-a074-636a421a6062"
   ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Problems acquiring tokens to access a resource
