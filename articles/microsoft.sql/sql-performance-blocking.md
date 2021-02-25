@@ -35,6 +35,7 @@ If the query does not return results, blocking is not currently occurring. In th
 
 
 ```sql
+
 WITH cteHead ( session_id,request_id,wait_type,wait_resource,last_wait_type,is_user_process,request_cpu_time
 ,request_logical_reads,request_reads,request_writes,wait_time,blocking_session_id,memory_usage
 ,session_cpu_time,session_reads,session_writes,session_logical_reads
