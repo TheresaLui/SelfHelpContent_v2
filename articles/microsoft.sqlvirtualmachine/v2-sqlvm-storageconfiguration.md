@@ -17,32 +17,32 @@
  
 ## **Recommended Steps**  
  
-  **SQL Virtual Machine Resource can help you to [Configure your storage/Extend Disks](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/storage-configuration#existing-vms) from Azure Portal**. Please make sure you have met the **[Pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/storage-configuration#prerequisites)**  
+SQL Virtual Machine Resource can help you to [Configure your storage/Extend Disks](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/storage-configuration#existing-vms) from the Azure portal. Make sure that you have met the **[Pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/storage-configuration#prerequisites)**  
 
  
-- **Extend Disk option or Configure blade** on SQL Virtual Machine Resource is **Greyed Out**  
+- **Extend Disk option or Configure blade** on SQL Virtual Machine Resource is dimmed.
  
-    - Config Blade can be greyed out if your IaaS Extension is in a failed state. [Please remove and reinstall IaaS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) 
+    - Config Blade can be dimmed if your IaaS Extension is in a failed state. [Please remove and reinstall IaaS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) 
  
-  - Extend Disk option can be greyed out if you have customized your Storage Pool. Increasing a disk size require adding disks to the storage pool and enlarge the virtual disk. 
+  - Extend Disk option can be dimmed if you have customized your Storage Pool. Increasing a disk size require adding disks to the storage pool and enlarge the virtual disk. 
 
-  - Storage Configuration is expected to have only 1 virtual disk per storage pool and 1 volume per virtual disk. Extension will check default naming as SQLVMStoragePool, SQLVMVirtualDisk, and Volume name to be SQLVMDATA1, SQLVMLOG and SQLVMTEMPDB.  Rename to match these naming will solve the greyed-out issue if the setup matches the expectation. We’ll work on relaxing the naming constrain so cx don’t need to that later. 
+  - Storage Configuration is expected to have only one virtual disk per storage pool and one volume per virtual disk. Extension will check default naming as `SQLVMStoragePool`, `SQLVMVirtualDisk`, and Volume name to be `SQLVMDATA1`, `SQLVMLOG` and `SQLVMTEMPDB`.  Make sure the names match these default names to resolve this issue. We're working on relaxing the naming constraint to eliminate this problem. 
  
 * **SQL Virtual Machine Unavailable/Not Visible** 
  
    [Remove and reinstall IaaS Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) to get the SQL Virtual Machine resource. 
  
-- **Disk configuration grayed out for SQL server while creating the VM with unmanaged disk.** 
+- **Disk configuration is dimmed for SQL server while creating the VM with unmanaged disk.** 
  
    This is a default behavior.  
  
 * **I have a disk with 1TB of unallocated space that I cannot remove from storage pool** 
  
-   Unfortunately there is not option to remove the unallocated space from a disk that belongs to a storage pool. **You can manually expand virtual disks space and expand the volume space if desired.**  
+   Unfortunately there is no option to remove the unallocated space from a disk that belongs to a storage pool. You can manually expand virtual disk and volume space if desired.
 
-* **You Uninstall and reinstall extension and SQL Server failed to start after VM reboot**
+* **After uninstalling and reinstalling extension, SQL Server failed to start after VM reboot**
    
-     If you use storage configuration to create Vm and allocate temp db on D drive, we’ll create a scheduledTask to create the folder structure and start SQL Server at OS start up time. Uninstalling extension will delete this task.  To create the task again please run the below PowerShell
+     If you use storage configuration to create a VM and allocate temp DB on the D drive, we’ll create a `scheduledTask` to create the folder structure and start SQL Server at OS start up time. Uninstalling the extension will delete this task.  To create the task again run this script in PowerShell:
 
      ```
       Set-AzureRmVMExtension -ResourceGroupName "{rgName}" -VMName "{vmName}" -Name "SqlIaasExtension" -Publisher 
