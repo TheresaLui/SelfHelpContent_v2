@@ -7,7 +7,7 @@
 	supportTopicIds="32786019"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-active-eule-issues"
+    articleId="scoping-notebook-is-not-running-as-expected"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -26,7 +26,6 @@
                 "displayLabel": "What is your expected result?",
                 "required": true
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",

@@ -7,7 +7,7 @@
 	supportTopicIds="32691186"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-active-eule-issues"
+    articleId="scoping-why-am-i-being-billed"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -25,7 +25,7 @@
                 "controlType": "textbox",
                 "displayLabel": "What is your billing plan in Sentinel?",
                 "required": true
-                                                },{"id": "problem_description",
+                 },{"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",

@@ -7,7 +7,7 @@
 	supportTopicIds="32691177"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-active-eule-issues"
+    articleId="scoping-questions-about-data-usage"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />

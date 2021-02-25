@@ -7,7 +7,7 @@
 	supportTopicIds="32785995"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-active-eule-issues"
+    articleId="scoping-playbooks-not-triggering-as-expected"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -26,7 +26,6 @@
                 "displayLabel": "What is the expected results of the Playbook?",
                 "required": true
                 },{
-				
 				"id": "FaileingStep",
                 "order": 3,
                 "controlType": "textbox",

@@ -7,7 +7,7 @@
 	supportTopicIds="32786026"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-active-eule-issues"
+    articleId="scoping-workbooks-loading-data-issues"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -26,14 +26,12 @@
                 "displayLabel": "What is the Workbook name?",
                 "required": true
                 },{
-				
 				"id": "isCustom",
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "Is it a custom Workbook?",
-                "required": true
+                "required": false
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
