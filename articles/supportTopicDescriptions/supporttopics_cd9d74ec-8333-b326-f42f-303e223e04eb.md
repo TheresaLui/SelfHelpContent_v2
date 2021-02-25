@@ -135,6 +135,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "193e1e68-1fdb-4006-32f5-5dcb2e85c5f6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to buying Azure Artifacts",
+      "searchTags": "Artifacts;Purchase;Buy;Billing",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "199979c4-9e0d-9de3-7893-0e06e183afb6",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Query Designer (errors, bad results, and so on).",
@@ -276,6 +284,14 @@
       "shortDescription": "Troubleshooting issues related to setting up approval, gates, checks in the pipeline, error with the usage, permissions.",
       "searchTags": "Approval;Gated check in;Gate;Pipeline;Configure",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39842b53-fdd4-e6ed-e4ee-651bf6b0bbfa",
+      "longDescription": "",
+      "shortDescription": "Issues accessing or viewing auditing events",
+      "searchTags": "Audit",
+      "category": "Configuring",
       "useInDiagnoseAndSolve": "true"
     },
     {

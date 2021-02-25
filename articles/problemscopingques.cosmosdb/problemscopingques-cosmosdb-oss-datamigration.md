@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions" 
-	supportTopicIds="32636784,32636783"
+	supportTopicIds="32788295,32788297,32788299,32788296,32788298"
     productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -29,43 +29,20 @@
         {
             "id": "database_name",
             "order": 2,
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Database name",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Database Name"
-                }
-            },
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "collection_name",
             "order": 3,
-            "visibility": "database_name != null",
-            "controlType": "dropdown",
+            "controlType": "textbox",
             "displayLabel": "Collection name",
-            "dynamicDropdownOptions": {
-                "dependsOn": "database_name",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.DocumentDB/databaseAccounts/{resourcename}/sqlDatabases/{replaceWithParentValue}/containers?api-version=2020-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Select Collection Name"
-                },
-                "valuePropertyRegex":  "[^/]+$"
-            },
-            "required": true
+            "required": false
         },
 		{
             "id": "oss_api",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Which API are you using?",
             "watermarkText": "Choose an option",
@@ -99,7 +76,7 @@
         },
 		{
             "id": "sdk_type",
-            "order": 6,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Which SDK are you using?",
             "watermarkText": "Choose an option",
@@ -141,7 +118,7 @@
         },
         {
             "id": "sdk_version",
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
 			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x, 4.x.x, etc.)",
@@ -149,14 +126,14 @@
         },
         {
             "id": "issue_frequency",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "How frequent is the issue?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing",
             "required": true,

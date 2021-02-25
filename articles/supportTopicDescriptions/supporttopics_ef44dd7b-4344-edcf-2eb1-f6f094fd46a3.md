@@ -129,7 +129,7 @@
     {
       "id": "3985c162-eb57-dad1-5ae0-6ba9474f3c5b",
       "longDescription": "",
-      "shortDescription": "Issues while using Server Migration tool for migration from AWS, GCP, other clouds and physical servers",
+      "shortDescription": "Issues while using Server Migration tool for migration from Hyper-V, AWS, GCP, other clouds and physical servers",
       "searchTags": "Physical server Migration;AWS;GCP;Configuration server",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -249,7 +249,7 @@
     {
       "id": "7ae41f27-dad0-43bb-8267-3e1bcaf68dd7",
       "longDescription": "",
-      "shortDescription": "Issues faced while performing agentless dependency analysis",
+      "shortDescription": "Issues while performing agentless dependency analysis",
       "searchTags": "dependency analysis",
       "category": "Functionality",
       "useInDiagnoseAndSolve": "true"
@@ -393,7 +393,7 @@
     {
       "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
       "longDescription": "",
-      "shortDescription": "Issues faced after successfully creating and Azure SQL Assessment ",
+      "shortDescription": "Issues after successfully creating and Azure SQL Assessment ",
       "searchTags": "Assessment;SQL",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
@@ -455,6 +455,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e255c19d-3e8e-8be3-10a3-af00244635ef",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentbased)",
+      "searchTags": "ASR",
+      "category": "ASR",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e3044429-6b72-05c9-fe46-b21c17fe84b3",
       "longDescription": "",
       "shortDescription": "When your VM does not boot in Azure or you are unable to RDP or SSH (connect) to your migrated VM in Azure",
@@ -505,7 +513,7 @@
     {
       "id": "fa1ba081-f810-2734-79ba-505de2dbac7a",
       "longDescription": "",
-      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless)",
       "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -521,7 +529,7 @@
     {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
-      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
+      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-premises",
       "searchTags": "assessment;Onboarding;Discovery;App dependency",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
