@@ -80,7 +80,7 @@ If you are upgrading from version 3.2, you will need to replace the existing end
 5. After starting the process, the `Features` menu will show the status of the upgrade. The status will go from `Pending`, to `In Progress`, to `Upgraded`. This process will not affect the existing functionality or operations of the database account.
 
 
-6. Once the upgrade is completed, the status will show as `Upgraded`. Click on it to learn more about the next steps and actions you need to take to finalize the process. Please [contact support](https://azure.microsoft.com/en-us/support/create-ticket/) if there was an issue processing your request.
+6. Once the upgrade is completed, the status will show as `Upgraded`. Click on it to learn more about the next steps and actions you need to take to finalize the process. Please [contact support](https://azure.microsoft.com/support/create-ticket/) if there was an issue processing your request.
 
 7. 
     1. If you upgraded from 3.2, go back to the `Overview` blade, and copy the new connection string to use in your application. The old connection string running 3.2 will not be interrupted. To ensure a consistent experience, all your applications must use the new endpoint.
@@ -96,8 +96,8 @@ If you upgraded from 3.2 to (4.0 or 3.6) and wish to downgrade back to 3.2, you 
 
 ## **Recommended Documents**
 
-- Learn about the supported and unsupported [features of MongoDB version 4.0](mongodb-feature-support-40.md).
-- Learn about the supported and unsupported [features of MongoDB version 3.6](mongodb-feature-support-36.md).
+- Learn about the supported and unsupported [features of MongoDB version 4.0](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40).
+- Learn about the supported and unsupported [features of MongoDB version 3.6](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36).
 - For further information check [Mongo 3.6 version features](https://devblogs.microsoft.com/cosmosdb/azure-cosmos-dbs-api-for-mongodb-now-supports-server-version-3-6/)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Azure Private Link for Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-private-endpoints)
