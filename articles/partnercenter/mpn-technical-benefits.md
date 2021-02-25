@@ -31,5 +31,5 @@
 * [Manage technical benefits - Activate](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits#manage-technical-benefits)
 * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
 * [Technical Benefits - Usage of Product Support Incidents, Signature Cloud Support and Advisory Hours](https://support.microsoft.com/help/2987884/microsoft-partner-network-technical-benefits-summary)
-* [Missing a support plan or An error occurred / Add Contract fails](https://docs.microsoft.com/services-hub/support/support-for-business/missing-support-plan)
+* [Missing a support plan or An error occurred / Add Contract fails](https://docs.microsoft.com/services-hub/sfbus/support-for-business/missing-support-plan)
 
