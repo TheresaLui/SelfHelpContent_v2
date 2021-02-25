@@ -25,6 +25,8 @@ In the following video, you will learn how to configure Azure AD authentication 
 <title>Azure Active Directory Authentication for Azure SQL</title>
 </video>
 
+
+
 Summary of configuration steps in the video:
 
 1. Setting up an Azure Active Directory Admin
