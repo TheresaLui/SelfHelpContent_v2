@@ -21,7 +21,7 @@
 ## **Connections using unsupported driver (jTDS)**
 
 <!--issueDescription-->
-We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect connection attempts to database <b><!--$DatabaseName-->DatabaseName<!--/$DatabaseName--></b> on server <b><!--$ServerName-->ServerName<!--/$ServerName--></b> using an <b>unsupported driver (jTDS)</b>.
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect connection attempts to database <b><!--$DatabaseName-->DatabaseName<!--/$DatabaseName--></b> on server <b><!--$ServerName-->ServerName<!--/$ServerName--></b> using an <b>unsupported driver</b> (jTDS).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
