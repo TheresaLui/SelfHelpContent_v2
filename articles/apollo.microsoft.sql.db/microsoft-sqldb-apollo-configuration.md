@@ -1,16 +1,14 @@
 <properties
-pageTitle="Azure Active Directory Authentication"
-description="Azure Active Directory Authentication"
-ms.author="bernardm"
-displayOrder="1"
-articleId="88553c47-ab11-4e6c-a0b9-61ceb4053bd0"
-selfHelpType="Apollo"
-supportTopicIds="a9a24df2-159b-f313-6f4d-31a1bbdbb3bc"
-productPesIds="13491"
-cloudEnvironments="public"
-ownershipId="AzureData_AzureSQLDB_Security"
-/>
-
+  pagetitle="Azure Active Directory Authentication"
+  description="Azure Active Directory Authentication"
+  ms.author="bernardm,sischleg"
+  selfhelptype="apollo"
+  supporttopicids="a9a24df2-159b-f313-6f4d-31a1bbdbb3bc"
+  resourcetags=""
+  productpesids="13491"
+  cloudenvironments="public"
+  articleid="88553c47-ab11-4e6c-a0b9-61ceb4053bd0"
+  ownershipid="AzureData_AzureSQLDB_Security" />
 # Configuring Azure Active Directory
 
 ## Understanding Azure SQL Active Directory authentication
