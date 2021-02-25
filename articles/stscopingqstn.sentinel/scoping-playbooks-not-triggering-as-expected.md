@@ -32,7 +32,6 @@
                 "displayLabel": "Which step in the Playbook is failing?",
                 "required": false
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",

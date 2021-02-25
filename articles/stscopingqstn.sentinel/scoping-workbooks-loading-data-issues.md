@@ -30,7 +30,7 @@
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "Is it a custom Workbook?",
-                "required": true
+                "required": false
                 },{
 				"id": "problem_description",
 				"order": 1,
