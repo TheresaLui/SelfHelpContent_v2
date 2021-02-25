@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Discovery issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -97,7 +97,7 @@
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the impacted SQL instance(s)",
-	    "watermarkText": "(ServerName\InstanceName)",
+	    "watermarkText": "",
             "required": false
         },
         {
