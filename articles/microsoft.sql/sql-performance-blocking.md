@@ -74,4 +74,5 @@ AS ( SELECT head.session_id AS head_blocker_session_id, head.session_id AS sessi
 SELECT bh.*, txt.text AS blocker_query_or_most_recent_query
 FROM cteBlockingHierarchy AS bh
 OUTER APPLY sys.dm_exec_sql_text (ISNULL ([sql_handle], most_recent_sql_handle)) AS txt;
+
 ```
