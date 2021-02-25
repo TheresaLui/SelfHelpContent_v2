@@ -1,22 +1,17 @@
 <properties
-	pageTitle="Cannot manage projected resources"
-	description="Cannot manage projected resources"
-	infoBubbleText="Cannot manage projected resources"
-	service="microsoft.managedservices"
-	resource="managedservices"
-	authors="prukulka"
-	ms.author="prukulka"
-	displayOrder=""
-	articleId="CommonSolutions-managedservices-cannotmanageprojectedresources"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32642165"
-	resourceTags=""
-	productPesIds="16761"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Compute_AzureLighthouse"
-/>
-
+  pagetitle="Cannot manage projected resources&#xD;"
+  description="Cannot manage projected resources"
+  service=""
+  resource=""
+  ms.author="prukulka,sezhen"
+  selfhelptype="Generic"
+  supporttopicids="32642165"
+  resourcetags=""
+  productpesids="16761"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="commonsolutions-managedservices-cannotmanageprojectedresources"
+  ownershipid="Compute_AzureLighthouse" />
 # Cannot manage projected resources
 
 Most users are able to manage projected resources using the steps below.
