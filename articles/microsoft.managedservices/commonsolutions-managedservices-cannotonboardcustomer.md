@@ -22,6 +22,8 @@ Most users are able to resolve their customer onboarding to Lighthouse issue usi
 
 - To onboard your customer, you'll need to create an [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/index) template for your offer with the following information. The mspOfferName and mspOfferDescription values will be visible to the customer when viewing offer details in the [Service providers page](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-service-providers) of the Azure portal.
 - The onboarding process requires an Azure Resource Manager template (provided in our [samples repo](https://github.com/Azure/Azure-Lighthouse-samples/) and a corresponding parameters file that you modify to match your configuration and define your authorizations
+- Watch this [demo](https://www.microsoft.com/azure/partners/videos/how-to-onboard-to-a-service-provider-using-arm-templates-in-azure-lighthouse) on how to onboard via ARM templates. 
+- Try our common [troubleshooting tips](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#troubleshooting).
 
 **Can't deploy template at resource group level?**
 
