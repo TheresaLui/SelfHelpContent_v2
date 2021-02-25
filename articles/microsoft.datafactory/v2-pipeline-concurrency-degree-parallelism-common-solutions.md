@@ -3,7 +3,7 @@
   description="Pipeline Concurrency or Degree of Parallelism Common Solutions"
   service=""
   resource=""
-  ms.author="jaserano,lijzha"
+  ms.author="lijzha"
   selfhelptype="Generic"
   supporttopicids="32680901"
   resourcetags=""
@@ -31,9 +31,9 @@ By default, it's unlimited.
 
 ### How to allow multiple concurrent runs for a pipeline but limit the concurrency for some scenarios?
 
-If a pipeline is well parameterized and designed to be used for multiple scenarios based on input, it's possible that the pipeline can run concurrently without limit while some scenarios need to be limited. In this case, consider use tumbling window trigger with concurrency based on requirement, and leave pipeline concurrency unset. Multiple triggers can be configured to trigger same pipeline with different inputs to serve different scenarios.
+If a pipeline is well parameterized and designed to be used for multiple scenarios based on input, it's possible that the pipeline can run concurrently without limit while some scenarios need to be limited. In this case, consider use tumbling window trigger with concurrency based on requirement, and leave pipeline concurrency unset. Multiple triggers can be configured to trigger same pipeline with different input to serve different scenarios.
 
 ## **Recommended Documents**
 
-- [Pipelines and Activities](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
-- [Data Factory Limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#data-factory-limits)
+- [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+- [Data Factory Limits](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#data-factory-limits)
