@@ -16,7 +16,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "workbooks loading data issues ",
+                "title": "workbooks loading data issues",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
 				"formElements": [{
@@ -30,7 +30,7 @@
                 "order": 3,
                 "controlType": "textbox",
                 "displayLabel": "Is it a custom Workbook?",
-                "required": false
+                "required": true
                 },{
 				"id": "problem_description",
 				"order": 1,

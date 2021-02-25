@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected "
-	description="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected "
+	pageTitle="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected"
+	description="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected"
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
@@ -16,7 +16,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Notebook is not running as expected ",
+                "title": "Notebook is not running as expected",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
 				"formElements": [{
