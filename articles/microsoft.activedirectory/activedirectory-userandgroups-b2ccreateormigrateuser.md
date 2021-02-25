@@ -3,12 +3,13 @@
   description="Business to Consumer (B2C)/Creating or migrating users into B2C"
   service="microsoft.aad"
   resource="microsoft_aad_iam"
-  ms.author="sischleg"
+  ms.author="sischleg,runuguse"
   selfhelptype="Resource"
   supporttopicids="32633321"
   resourcetags="userandgroups_overview,userandgroups_user,userandgroups_group"
   productpesids="14785,16580"
-  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec,blackforest"
+  disableclouds=""
   articleid="9c3caee9-a539-4c9d-afb9-9a713e01ab49"
   ownershipid="AzureIdentity_B2C" />
 # test B2C: How to create or migrate users into Azure AD B2C
