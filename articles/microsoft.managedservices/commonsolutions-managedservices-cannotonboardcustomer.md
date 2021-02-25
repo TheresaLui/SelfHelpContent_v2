@@ -1,22 +1,17 @@
 <properties
-	pageTitle="Cannot onboard customer"
-	description="Cannot onboard customer"
-	infoBubbleText="Cannot onboard customer"
-	service="microsoft.managedservices"
-	resource="managedservices"
-	authors="prukulka"
-	ms.author="prukulka"
-	displayOrder=""
-	articleId="CommonSolutions-managedservices-cannotonboardcustomer-cantfindIDs"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32642166"
-	resourceTags=""
-	productPesIds="16761"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Compute_AzureLighthouse"
-/>
-
+  pagetitle="Cannot onboard customer&#xD;"
+  description="Cannot onboard customer"
+  service=""
+  resource=""
+  ms.author="prukulka,sezhen"
+  selfhelptype="Generic"
+  supporttopicids="32642166"
+  resourcetags=""
+  productpesids="16761"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="commonsolutions-managedservices-cannotonboardcustomer-cantfindids"
+  ownershipid="Compute_AzureLighthouse" />
 # Cannot onboard customer
 
 Most users are able to resolve their customer onboarding to Lighthouse issue using the steps below.
