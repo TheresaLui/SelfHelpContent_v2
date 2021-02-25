@@ -36,7 +36,7 @@
     {
       "id": "0246abef-6243-380e-d147-a8d908829d76",
       "longDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
-      "shortDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
+      "shortDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, and so on",
       "searchTags": "performance;appgw;application gateway;app gw;waf;performance monitoring;monitoring;metrics",
       "category": "Performance",
       "useInDiagnoseAndSolve": "TRUE"
@@ -67,24 +67,24 @@
     },
     {
       "id": "095f93e3-0584-1b5e-bf05-af682671dc69",
-      "longDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, etc.",
-      "shortDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, etc.",
+      "longDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, and so on",
+      "shortDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, and so on",
       "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;multi-site hosting,multi-site,multi site,multiple site",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "0aea7290-5e10-63cb-c549-009a6fb7104a",
-      "longDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected behavior affinity behavior",
-      "shortDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected behavior affinity behavior",
+      "longDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected affinity behavior",
+      "shortDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected affinity behavior",
       "searchTags": "appgw;application gateway;app gw;waf;web application firewall;routing;cookie based affinity;affinity;cookie",
       "category": "Routing",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "0ffafd9e-f169-970b-779d-f8a8c2a393d7",
-      "longDescription": "Covers issues related to SSL certificate or authentication or trusted root certificate configuration in Application Gateway",
-      "shortDescription": "Covers issues related to SSL certificate or authentication or trusted root certificate configuration in Application Gateway",
+      "longDescription": "Covers issues related to SSL certificate, authentication, or trusted root certificate configuration in Application Gateway",
+      "shortDescription": "Covers issues related to SSL certificate, authentication, or trusted root certificate configuration in Application Gateway",
       "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;ssl;end to end ssl;certificate;tls;e2e ssl;ssl certificate;authentication certificate;trusted root certificate",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "TRUE"
@@ -171,8 +171,8 @@
     },
     {
       "id": "51c18a5b-d8f6-94eb-8689-2b9a39651b30",
-      "longDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
-      "shortDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
+      "longDescription": "Covers general guidance and advisory queries related to Application Gateway. You can choose this option when none of the support topics represent your issue",
+      "shortDescription": "Covers general guidance and advisory queries related to Application Gateway. You can choose this option when none of the support topics represent your issue",
       "searchTags": "advisory;guidance;appgw;application gateway;app gw;waf;web application firewall;agic;ingress controller;",
       "category": "Advisory",
       "useInDiagnoseAndSolve": "TRUE"
@@ -332,7 +332,7 @@
     {
       "id": "9c6c4f5f-803e-1917-4988-99d5df5a0b79",
       "longDescription": "",
-      "shortDescription": "If you are having issues with updating your Application Gateway configuration or if your Application Gateway provisioning state is Failed.",
+      "shortDescription": "If you're having issues updating your Application Gateway configuration, or if your Application Gateway provisioning state is Failed.",
       "searchTags": "failed state;provisioning state;configuration update;changes;failed",
       "category": "Configuration and setup",
       "useInDiagnoseAndSolve": "true"
@@ -420,7 +420,7 @@
     {
       "id": "cf933cc7-f72d-b499-ed48-c196ccddf343",
       "longDescription": "",
-      "shortDescription": "If you have issues with renewing expired certificates in Application Gateway or if you would like to learn how-to renew certificates",
+      "shortDescription": "If you have issues with renewing expired certificates in Application Gateway or if you would like to learn how to renew certificates",
       "searchTags": "certificate;renew;expired;ssl certificate;ssl",
       "category": "Configuration and setup",
       "useInDiagnoseAndSolve": "true"
@@ -428,7 +428,7 @@
     {
       "id": "d2db4cda-e572-4dd6-e19e-f0a198d4450e",
       "longDescription": "",
-      "shortDescription": "If you are having issues with uploading an SSL certificate to the listener",
+      "shortDescription": "If you're having issues uploading an SSL certificate to the listener",
       "searchTags": "certificate;upload;ssl;tls;listener",
       "category": "Configuration and setup",
       "useInDiagnoseAndSolve": "true"
@@ -507,8 +507,8 @@
     },
     {
       "id": "fa2b8642-b871-d6f2-e796-42f39216704e",
-      "longDescription": "Covers issues related to Application Gateway diagnostics configuration which includes logs and metrics",
-      "shortDescription": "Covers issues related to Application Gateway diagnostics configuration which includes logs and metrics",
+      "longDescription": "Covers issues related to Application Gateway diagnostics configuration, which includes logs and metrics",
+      "shortDescription": "Covers issues related to Application Gateway diagnostics configuration, which includes logs and metrics",
       "searchTags": "configuration;setup;appgw;application gateway;app gw;waf;logging;metrics;logs;log analytics",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "TRUE"
