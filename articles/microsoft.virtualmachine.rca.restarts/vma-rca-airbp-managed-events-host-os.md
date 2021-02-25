@@ -37,5 +37,4 @@ Azure performs updates to improve reliability, performance and security of the V
 > * Learn more about Azure maintenance and configuring for high availability:  
 >   * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) 
 >   * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) 
-> * Understand and use [Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview) to troubleshoot this scenario in the future 
-
+> * To troubleshoot this scenario in the future, see [Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
