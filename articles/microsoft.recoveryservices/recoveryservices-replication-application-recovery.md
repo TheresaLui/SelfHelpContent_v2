@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Application consistent recovery points are not being generated&#xD;"
+  pagetitle="Performing a migration on a replicating machine"
   description="Missing app-consistent points that you wanted to use in order to failover"
   service="microsoft.recoveryservices"
   resource="vaults"
@@ -12,27 +12,54 @@
   disableclouds=""
   articleid="53ccadf1-b0a6-4cd5-a374-c90d901e6be0"
   ownershipid="Compute_SiteRecovery" />
-# Application consistent recovery points are not being generated
+# Performing a migration on a replicating machine
 
+## **Recommended Steps**
 
-## **Common issues and solutions**
+* [Migrate AWS VMs to Azure](https://go.microsoft.com/fwlink/?linkid=2137866)
+* [Migrate physical servers/bare metal servers to Azure](https://go.microsoft.com/fwlink/?linkid=2137867)
+* [Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure](https://go.microsoft.com/fwlink/?linkid=2137963). You can migrate most x64 servers by treating them as physical servers for the purpose of migration.
+* [Migrate Azure VMs from one Azure region to another using Azure Site Recovery (ASR)](https://go.microsoft.com/fwlink/?linkid=2137868)
 
-- No app-consistent recovery point available for the VM in the past "X" minute.
-    - Check some of the most common issues causing this error for – 
-        - [Azure machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#error-id-153006---no-app-consistent-recovery-point-available-for-the-vm-in-the-past-x-minutes)
-        - [VMware/Physical machines](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#error-id-78144---no-app-consistent-recovery-point-available-for-the-vm-in-the-last-xxx-minutes)
-        - [Hyper-V machines](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-troubleshoot#app-consistent-snapshot-issues)
+### **I get an error that says that the core count limit was reached**
 
-    - If you are using a Linux operating system, then make sure you have [setup custom scripts](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-enable-replication-with-app-consistency-in-linux-servers) to create app-consistent recovery points.
-    - Ensure that Volume Shadow Copy Services (VSS) are running and healthy on your source machines. Check the step-by-step guide for –
-        - [Azure machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#vss-writer-is-not-installed---error-2147221164)
-        - [VMware/Physical machines](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
-        - [Hyper-V machines](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-troubleshoot#vss-failing-inside-the-vm)
-    - If the source machine is running any version of Microsoft SQL Server then check the documentation [here](https://docs.microsoft.com/troubleshoot/sql/admin/revocery-jobs-fail-servers) for a step by step guide on how to resolve this issue. For Microsoft SQL Servers 2008 or SQL Server 2008 R2 check the step-by-step guide [here](https://docs.microsoft.com/troubleshoot/sql/admin/asr-agent-vss-backup-fails).
+This happens when your subscription has run out of its allocated quota of virtual machine cores, and is unable to create the virtual machine. You can check the available quota by going to Subscription > Usage + quotas. You can have the quota increased by opening a support request to increase your virtual machine core count quota.
 
-- Replication is not progressing for the source machine.
-    - Ensure that you have checked the supported [data churn limits](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#azure-site-recovery-limits) of Azure Site Recovery. A higher data churn will cause the replication to slow down. If the churn is high, then try to switch to a premium disk or reduce the churn.
-    - For VMware/Physical machines, ensure that the configuration server and process server are in a healthy state and [all the services required for replication](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#step-2-check-process-server-services) are running. Also, make sure that the system time is in sync with the global time.
+### **I get an error that says that the resource was disallowed by policy**
 
-- Enable replication is failing for the source machine
-    - If you’re trying to enable replication on encrypted Azure VMs, then make sure the [required key vault permissions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-ade-vms#trusted-root-certificates-error-code-151066) are already present.
+This happens when you have an Azure policy that enforces a naming convention on Azure resources that are created in the subscription. The migration operation creates Azure resources for the migrated virtual machine, it's disks and its network interface cards. Ensure that the policy doesn't disallow creation of virtual machines with the specified name. If you wish to change the name of the migrated virtual machine, you can do so before migration from the Compute and Network properties page for the replicating machine in the Server Migration tool.
+
+### **I get an error that says 'VM Provisioning Failed', 'ComputeRpVmAllocationFailedV2', 'VMProvisioningTimeoutError', or 'FailedStartingVMError'**
+
+As part of the  migration process, the Server Migration tool creates a temporary virtual machine in your Azure subscription. This temporary virtual machine is used to prepare the machines being migrated to make them operable in Azure. The preparation step includes things like enabling the essential Hyper-V drivers that are needed for proper functioning of the machine in Azure. This error indicates that creation of the temporary virtual machine failed. These kind of failures are mostly transient issues that go away on a retry. If you run into this issue, retry the operation again after 10 - 15 minutes.
+
+### **I'm unable to connect to the migrated machine**
+
+- Ensure that the on-premises machine was configured to allow remote connections to it
+- For Linux machines, the on-premises (the actual machine being migrated) machine should have had SSH enabled and configured to start automatically on boot
+- For Windows machines, the on-premises (the actual machine being migrated) machine should have had Remote Desktop enabled and remote desktop connections allowed by the Windows Firewall
+- Ensure that there are no network security group rules that are blocking connections to the virtual machine in Azure
+- [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
+- [How to] [troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
+
+### **The migrated machine doesn't have the Azure agent, and I am unable to install Azure VM extensions on the machine**
+
+Server Migration installs the Azure agent on the virtual machine as part of the migration operation in certain scenarios as listed below. For other scenarios it is recommended that you install the Azure agent on the virtual machine post migration to Azure.
+
+| Replication method | For Windows machines | For Linux machines |
+|--|--|
+| Agentless replication for VMware virtual machines | Requires manual installation post migration | Requires manual installation post migration |
+
+| Replication method  | For Windows machines  | For Linux machines |  
+|---------|---------|---------|
+|Agentless replication for VMware virtual machines     |  Requires manual installation post migration        | Requires manual installation post migration         |
+|Agent-based replication for VMware virtual machines and physical servers     |   Installed by Server Migration tool</br>*(Not applicable for versions for which Azure VM agents aren't available)*      | Requires manual installation post migration      |
+|Agentless replication of Hyper-V virtual machines     | Requires manual installation post migration        |   Requires manual installation post migration      |
+
+### **I cannot see all VM SKUs while migrating to Azure Government**
+
+The VM SKUs supported in the assessment and migration tools will depend on the availability in these Government regions. Comparison of Gov SKUs with respect to public cloud SKUs can be found [here](https://azure.microsoft.com/global-infrastructure/services/) by selecting region as Azure Government.
+
+### **What are the target replication regions for migrating to Azure Government?**
+
+Target regions for Azure Government are US DoD Central, US DoD East, US Gov Arizona, US Gov Iowa, US Gov Texas, US Gov Virginia.
