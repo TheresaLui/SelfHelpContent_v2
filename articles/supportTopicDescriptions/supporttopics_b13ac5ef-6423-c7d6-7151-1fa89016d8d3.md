@@ -182,8 +182,8 @@
     {
       "id": "106cecbb-8627-c445-2538-7447f5df7b29",
       "longDescription": "",
-      "shortDescription": "Questions about licenses that are part of Azure and Cloud, replacement keys related to activation on wrong tenant, added seats instead of renewing, License statement - usage policy, Product key or token not working, User Assignment, ABTK, Transfer subscription to another user",
-      "searchTags": "MPN;Benefits;Competencies;IUR",
+      "shortDescription": "Questions about replacement keys, licenses activated on wrong tenants, added seats instead of renewing, License statement - usage policy, key or token not working, ABTK or Limited Time Offer",
+      "searchTags": "IUR;licenses;key;ABTK;seats",
     },
     {
       "id": "2728e0d8-0f07-8733-74c0-20b550146f06",
@@ -212,8 +212,8 @@
     {
       "id": "e8ea5944-8f57-853a-9683-f0e754d73861",
       "longDescription": "",
-      "shortDescription": "Questions about Learning Portal and Partner University, Help and how to navigate, Link/Unlink Partner University account",
-      "searchTags": "MPN;Benefits;Learning",
+      "shortDescription": "Questions about technical issues with the Partner University platform itself (page not loading properly, dashboard not displayed or dimmed buttons)",
+      "searchTags": "University;MPN;Learning;platform",
     },
     {
       "id": "fdcda813-2749-4605-4f07-51752ae0825c",
