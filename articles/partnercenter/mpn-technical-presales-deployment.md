@@ -22,15 +22,9 @@
 
 ## **Recommended Steps**
 
-- As an MPN Partner, once you have acquired a **Gold, Silver or Microsoft Action Pack** subscription, you are eligible to leverage **Technical Presales and Deployment Services consultations (formerly known as Advisory Hours)** to increase sales, deploy more effectively, or to accelerate app development
-- [Supported products and scenarios for consultation services](https://support.microsoft.com/help/3094111/technical-presales-and-deployment-services-supported-products-and-scen)
-    - To learn more about Azure, please go [here](https://support.microsoft.com/help/4521805/azure-consultations)
-    - To learn more about Modern Workplace, go [here](https://support.microsoft.com/help/4521795/modern-workplace-consultations)
-    - To learn more about Business Applications, go [here](https://support.microsoft.com/help/4521800/business-applications-consultations)
-    - To learn more about Marketplace Preparation, go [here](https://support.microsoft.com/help/4521806/marketplace-preparation)
-- **To request technical services consultation (using your advisory hours), submit a request [here](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)**
-
-## **Recommended Documents**
-
-* [Virtual instructor-led training](https://partner.microsoft.com/training/virtual-instructor-led-training#/) (available to all partners)
-* [Quick Reference Guide](https://docs.microsoft.com/partner-center/support-resources-licensing) for licensing questions
+* **Technical Presales and Deployment Services (Advisory hours)** are available to Gold, Silver or Microsoft Action Pack subscribers (network members may purchase [Microsoft Action Pack](https://partner.microsoft.com/membership/action-pack)).
+* Gold and Silver partners get free unlimited presales
+* **Use for consultations to build your technical capabilities faster and increase sales, deploy more effectively, and accelerate app development**
+* All Cloud or Hybrid solutions, and Windows 10, Windows Server, Microsoft SQL are [supported products](https://support.microsoft.com/help/3094111/technical-presales-and-deployment-services-supported-products-and-scen)
+* Sign-in with any MPN associated user account to submit a request (benefit activation is not required)
+	* [**Click here to submit a Technical Presales and Deployment Services request**](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest) 

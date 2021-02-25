@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3366336e-70d9-3450-f04d-5eecce9374fe"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_3366336e-70d9-3450-f04d-5eecce9374fe"
   ownershipid="Compute_AzureMigrate" />
 # Support Topic Descriptions for 3366336e-70d9-3450-f04d-5eecce9374fe
@@ -46,6 +47,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "20c9ce32-aad4-da67-cb2e-151eea4689b8",
+      "longDescription": "",
+      "shortDescription": "Resolve errors when moving resources between subscriptions and resource groups",
+      "searchTags": "subscription;resouce group;move",
+      "category": "Move",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2121bb2b-15ab-0997-4d84-c725b3984136",
       "longDescription": "",
       "shortDescription": "Help to select and add dependent resources from the target region. ",
@@ -80,7 +89,7 @@
     {
       "id": "3238ab0f-f43c-ff86-dd8f-b9fe5dc27556",
       "longDescription": "",
-      "shortDescription": "Help with the dependent resources that needs to be Committed for parent resources to be moved",
+      "shortDescription": "Help with the dependent resources that needs to be committed for parent resources to be moved",
       "searchTags": "Move, quota, failed,  committed, missing",
       "category": "Move",
       "useInDiagnoseAndSolve": "false"
@@ -96,7 +105,7 @@
     {
       "id": "44c8f199-1ad4-4a90-0edc-974622d58ca3",
       "longDescription": "",
-      "shortDescription": "Help with Portal related issues for Azure Resource Mover",
+      "shortDescription": "Help with portal-related issues for Azure Resource Mover",
       "searchTags": "Subscription , RBAC, Portal, PowerShell",
       "category": "Other",
       "useInDiagnoseAndSolve": "false"
@@ -200,7 +209,7 @@
     {
       "id": "ab4e9e8c-6c77-5b9e-68b0-da926ea0bc7e",
       "longDescription": "",
-      "shortDescription": "Help modifying resource target configuration settings (Selecting AVSet, Availability Zones, etc)",
+      "shortDescription": "Help modifying resource target configuration settings (Selecting AVSet, Availability Zones, etc.)",
       "searchTags": "Resolve, missing, config, dependencies ",
       "category": "Validate",
       "useInDiagnoseAndSolve": "false"

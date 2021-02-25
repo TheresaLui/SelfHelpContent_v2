@@ -25,5 +25,5 @@ Proceed with troubleshooting for Firewall
 
 ## Recommended Documents
 
-1. (TSG: Azure Firewall Confirming Routing and Paths)[https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/354232/TSG-Azure-Firewall-Confirming-Routing-and-Paths]
+1. [Azure Firewall TSG](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/354232/TSG-Azure-Firewall-Confirming-Routing-and-Paths
 

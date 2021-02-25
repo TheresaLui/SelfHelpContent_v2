@@ -46,7 +46,7 @@
             "id": "ad_vm",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD (also referred as AD DS)?",
+            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD (also referred to as AD DS)?",
             "watermarkText": "Choose an option",
             "visibility": "ran_through_prereq == yes",
             "dropdownOptions": [
@@ -103,7 +103,7 @@
             "id": "share_permission",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Have you granted share level permission to the target user through RBAC?",
+            "displayLabel": "Have you granted share-level permission to the target user through RBAC?",
             "watermarkText": "Choose an option",
             "visibility": "synced_ad_connect == yes",
             "dropdownOptions": [
@@ -148,6 +148,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
+            "watermarkText": "How to enable on-premises AD DS Authentication for Azure Files",
             "displayLabel": "Enter your query",
             "required": true,
             "useAsAdditionalDetails": true,

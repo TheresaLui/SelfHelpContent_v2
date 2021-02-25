@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle, deseelam"
+  ms.author="anvar, panshar, adoyle, deseelam, bhpat"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   ownershipid="Compute_AzureMigrate" />
 # Support Topic Descriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3
@@ -43,6 +44,14 @@
       "shortDescription": "Issues related to a difference in count of servers discovered",
       "searchTags": "count mismatch",
       "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
+      "longDescription": "",
+      "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
+      "searchTags": "Discovery;SQL",
+      "category": "Discovery",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -120,7 +129,7 @@
     {
       "id": "3985c162-eb57-dad1-5ae0-6ba9474f3c5b",
       "longDescription": "",
-      "shortDescription": "Issues while using Server Migration tool for migration from AWS, GCP, other clouds and physical servers",
+      "shortDescription": "Issues while using Server Migration tool for migration from Hyper-V, AWS, GCP, other clouds and physical servers",
       "searchTags": "Physical server Migration;AWS;GCP;Configuration server",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -240,7 +249,7 @@
     {
       "id": "7ae41f27-dad0-43bb-8267-3e1bcaf68dd7",
       "longDescription": "",
-      "shortDescription": "Issues faced while performing agentless dependency analysis",
+      "shortDescription": "Issues while performing agentless dependency analysis",
       "searchTags": "dependency analysis",
       "category": "Functionality",
       "useInDiagnoseAndSolve": "true"
@@ -382,6 +391,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
+      "longDescription": "",
+      "shortDescription": "Issues after successfully creating and Azure SQL Assessment ",
+      "searchTags": "Assessment;SQL",
+      "category": "Assessment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c302cd95-1688-fcca-3880-7e4a5a5cd8a5",
       "longDescription": "",
       "shortDescription": "Issues related to Configuration Server and Mobility services",
@@ -390,19 +407,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
-      "longDescription": "",
-      "shortDescription": "Issues related to Configuration Server or Mobility services",
-      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
-      "category": "Physical to Azure",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "c4b201a2-c076-197e-c1a7-e59f1c32cf44",
       "longDescription": "",
       "shortDescription": "Issues related to Hyper-V replication provider",
       "searchTags": "Hyper-V host migration",
       "category": "Hyper-V to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c4b54e9c-e4a1-ac0e-f018-fc1ca5fc40b8",
+      "longDescription": "",
+      "shortDescription": "Issues related to Configuration Server or Mobility services",
+      "searchTags": "Configuration server;Process server;Mobility service;Agent based appliance",
+      "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -435,6 +452,14 @@
       "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "VMware to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e255c19d-3e8e-8be3-10a3-af00244635ef",
+      "longDescription": "",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentbased)",
+      "searchTags": "ASR",
+      "category": "ASR",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -488,7 +513,7 @@
     {
       "id": "fa1ba081-f810-2734-79ba-505de2dbac7a",
       "longDescription": "",
-      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless & agent-based)",
+      "shortDescription": "Issues while using Server Migration tool for VMware migration (agentless)",
       "searchTags": "VMware VM migration;Installing replication appliance;Agentless replication",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -504,7 +529,7 @@
     {
       "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
       "longDescription": "",
-      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
+      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-premises",
       "searchTags": "assessment;Onboarding;Discovery;App dependency",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"

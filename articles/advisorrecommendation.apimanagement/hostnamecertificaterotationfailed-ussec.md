@@ -66,7 +66,7 @@
     }
   ],
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://dataexplorer.azure.microsoft.scloud/clusters/apimussec.usseceast').database('APIMUSSEC').AzureAdvisor_HostnameCertificateRotationFailed",
+    "streamNamespace": "cluster('https://apimussec.usseceast.kusto.core.microsoft.scloud').database('APIMUSSEC').AzureAdvisor_HostnameCertificateRotationFailed",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   }

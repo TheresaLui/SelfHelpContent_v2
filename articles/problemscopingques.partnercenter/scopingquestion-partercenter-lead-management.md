@@ -28,7 +28,7 @@
 	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
+	   "watermarkText": "Please provide the Publisher name",
 	   "required": false
        },
        {
@@ -50,15 +50,6 @@
 	   "watermarkText": "Please provide the Seller ID",
 	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
 	   "required": true
-       },
-       {
-	   "id": "additional_email_for_notification",
-	   "visibility": null,
-	   "order": 4,
-	   "controlType": "textbox",
-	   "displayLabel": "Additional email(s) for notification",
-	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications",
-	   "required": false
        },
        {
 	   "id": "pc_isv_lead_destination",

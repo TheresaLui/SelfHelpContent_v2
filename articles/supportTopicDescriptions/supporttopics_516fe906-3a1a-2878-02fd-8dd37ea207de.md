@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_MultiFactorAuthentication" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -248,8 +249,8 @@
     {
       "id": "7417b6ac-d636-453c-ce64-73c8afe7fa56",
       "longDescription": "",
-      "shortDescription": "Problems with registering and managing FIDO2 security keys or Microsoft Authenticator on the user registration portal",
-      "searchTags": "FIDO;FIDO2;security keys;Authenticator;portal",
+      "shortDescription": "Problems with registering or managing FIDO2 security keys or Microsoft Authenticator portal or using Temporary Access Pass.",
+      "searchTags": "FIDO2;security keys;Authenticator;portal;Temporary Access Pass",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -406,6 +407,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a72428f9-6d23-947b-754e-4e3e68249e05",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring Conditional Access policies that apply to certain geographic or IP ranges.",
+      "searchTags": "IP;IP ranges;geo ranges;geographic ranges;CA",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7f81e5c-aa33-5e9a-9d5d-2171f20a78c8",
       "longDescription": "",
       "shortDescription": "Assistance in setting up an OAuth or OIDC app, service, or passive SAML or WS-FED application ",
@@ -427,6 +436,14 @@
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb5f0cd3-6664-fdb2-4902-30f1e34dfa69",
+      "longDescription": "",
+      "shortDescription": "Questions regarding default security settings for new tenants",
+      "searchTags": "security;defaults;security default",
+      "category": "security",
       "useInDiagnoseAndSolve": "true"
     },
     {
