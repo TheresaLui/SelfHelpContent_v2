@@ -20,13 +20,13 @@
 
 
 <!--issueDescription-->
-The physical host node where your VM was running underwent an OS Update. 
+The physical host node where your VM was running underwent an OS update. 
 
 <!--$EventTable-->EventTable<!--/$EventTable-->
 
 <!--/issueDescription-->
 
-Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method that might result in a brief connectivity loss. We are continuously working to improve and reduce impact of our updates and apologize for any inconvenience this may have caused you. 
+Azure performs updates to improve reliability, performance and security of the VMs. Azure chooses the least impactful method, which might result in a brief connectivity loss. We are continuously working to improve and reduce impact of our updates, and we apologize for any inconvenience this may have caused you. 
 
 
 <!--recommendedActions-->
