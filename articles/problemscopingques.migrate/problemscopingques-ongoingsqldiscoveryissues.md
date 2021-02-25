@@ -80,11 +80,11 @@
                     "value": "Not able to discover SQL databases and their properties",
                     "text": "Not able to discover SQL databases and their properties"
                 },
-				{
+		{
                     "value": "Not able to see latest SQL discovery data",
                     "text": "Not able to see latest SQL discovery data"
                 },
-				{
+		{
                     "value": "None of the above",
                     "text": "None of the above"
                 }
@@ -96,7 +96,8 @@
             "order": 5,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name(s) of the impacted SQL instance(s) (ServerName\InstanceName)",
+            "displayLabel": "Provide the name(s) of the impacted SQL instance(s)",
+	    "watermarkText": "(ServerName\InstanceName)",
             "required": false
         },
         {
