@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Cannot manage projected resources&#xD;"
+  pagetitle="Cannot manage projected resources"
   description="Cannot manage projected resources"
   service=""
   resource=""
@@ -18,18 +18,22 @@ Most users are able to manage projected resources using the steps below.
 
 ## **Recommended Steps**
 
-**Can't remove a customer delegation?**
+**Do you have the appropriate delegated permissions?**
 
-There are two ways to remove a delegation:
+As a user, make sure you’re 1) part of the group or users that have been granted access to the resources, and 2) that the appropriate [RBAC role](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) has been assigned. 
 
-- In order to remove a delegation, the Managed Services Registration Assignment Delete Role must have been assigned when onboarding the customer. Users with this role can remove a delegation. 
--  Customers can remove delegation from their tenant. Remember: Delegation must be done by a non-guest account in the customer's tenant which has the Owner built-in role for the subscription being onboarded.
+For example, if you’d like to see a customer delegation, then you must have the Reader role. Or, if you’d like to remove a customer delegation, then you must have the Managed Service Registration Assignment Delete Role.
 
-**Can't deploy policy to customers?**
+You can [check your assigned permissions](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) on the "My Customers" blade in Azure Portal.
 
-- As a service provider, you may have onboarded multiple customer tenants for Azure delegated resource management. Azure Lighthouse allows service providers to perform operations at scale across several tenants at once, making management tasks more efficient. [This](https://docs.microsoft.com/azure/lighthouse/how-to/policy-at-scale) topic shows you how to use Azure Policy to deploy a policy definition and policy assignment across multiple tenants using PowerShell commands.
+**Have you selected the correct scope?**
+
+If you’re in the Azure Portal, check your [global and local filters](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-customers#work-in-the-context-of-a-delegated-subscription) to select a specific scope or select all.
+
+**Are you trying something that’s not supported by Azure Lighthouse?**
+
+Please be aware of Azure Lighthouse’s [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
 
 ## **Recommended Documents**
 
-* [Remove access to a delegation](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#remove-access-to-a-delegation)
-* [How to deploy policy at scale](https://docs.microsoft.com/azure/lighthouse/how-to/policy-at-scale)
+* [View and manage customers and delegated resources](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-customers)
