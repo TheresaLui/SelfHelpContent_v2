@@ -1,5 +1,5 @@
-<properties pageTitle="TSG Summary: AZS SQL/MySQL RP deployment update issues"
-            description="TSG Summary: AZS SQL/MySQL RP deployment update issues"
+<properties pageTitle="TSG Summary: AZS SQL - MySQL RP deployment update issues"
+            description="TSG Summary: AZS SQL - MySQL RP deployment update issues"
             service="Microsoft.AzureStack"
             resource="Microsoft.AzureStack/Operations"
             authors="AzureStack_DPS"
