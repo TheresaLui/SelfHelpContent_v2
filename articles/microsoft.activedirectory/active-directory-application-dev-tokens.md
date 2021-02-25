@@ -1,18 +1,17 @@
 <properties
-  pageTitle="Problems acquiring tokens using the MSAL or ADAL libraries"
+  pagetitle="Problems acquiring tokens to access a resource&#xD;"
   description="Problems acquiring tokens using the MSAL or ADAL libraries"
   service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="jmprieur"
-  ms.author="jmprieur"
-  selfHelpType="generic"
-  supportTopicIds="32596835"
-  productPesIds="16575"
-  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-  articleId="db030fe2-d0c4-46cd-a074-636a421a6062"
-  ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
-/>
-
+  resource="microsoft_aad_iam"
+  ms.author="jmprieur,runuguse"
+  selfhelptype="Generic"
+  supporttopicids="32596835"
+  resourcetags=""
+  productpesids="16575"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="db030fe2-d0c4-46cd-a074-636a421a6062"
+  ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Problems acquiring tokens to access a resource
 
 ## **Recommended Steps**
