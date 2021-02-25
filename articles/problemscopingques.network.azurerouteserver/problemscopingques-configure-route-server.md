@@ -5,7 +5,7 @@
 	authors="taballa"
 	ms.author="taballa"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="b4c24a18-975d-ae6a-8441-c6256ba37527,49a87b5f-11ba-3486-454a-4201369710fb,2f7d1850-627b-b8f7-8f09-93ae9daadbd6,6ba18114-732b-3a9c-c0ef-ed872b93b4d4,e97711a2-ea35-1cb0-49da-df48b7a05a72,ddd5e7dc-160b-3213-a4df-2209c716c819"
+	supportTopicIds="32781179,32781184,32781185,32781183,32781182,32781178"
 	productPesIds="17319"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
