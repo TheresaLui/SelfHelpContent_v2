@@ -1,19 +1,14 @@
 <properties
-	pageTitle="Data Factory V2 - Backup and Restore"
-	description="How to keep a backup or restore a deleted data factory resource"
-	infoBubbleText=""
-	authors="hecepeda"
-	ms.author="hecepeda"
-	articleId="new-v2-backup-restore.md"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32781329"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="Azure Data Factory Backup and Restore&#xD;"
+  description="How to keep a backup or restore a deleted data factory resource"
+  ms.author="hecepeda,haoc"
+  selfhelptype="Generic"
+  supporttopicids="32781329"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="new-v2-backup-restore.md"
+  ownershipid="AzureData_DataFactory" />
 # Azure Data Factory Backup and Restore
 
 ## **Recommended Steps**
@@ -35,8 +30,6 @@ After the setup of the Self-Hosted IR is completed, you will need to change the 
 
 ### **Backup**
 
-Azure Data Factory provides Source Control integration with Git repositories to manage version control and history of changes. To review the benefits of Source Control integration, and a step by step guide on how to configure it, review [Advantages of Git integration](https://docs.microsoft.com/azure/data-factory/source-control#advantages-of-git-integration).
+You can back up your data factory If the factory is integrated with a Git repository, the factory can be recreated from the ARM Template in the publish branch or from the existing resources in the repository. Git integration is highly recommended as backup for accidental deletion. Azure Data Factory allows you to configure a Git repository with either Azure Repos or GitHub. Git is a version control system that allows for easier change tracking and collaboration. To review the benefits of Source Control integration, and a step by step guide on how to configure it, review [Advantages of Git integration](https://docs.microsoft.com/azure/data-factory/source-control#advantages-of-git-integration).
 
 After Source Control integration is defined, you can implement continuous integration and delivery by following the documentation about [Continuous integration and delivery in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment).
-
- 
