@@ -10,9 +10,9 @@
 	ownershipId="AzureData_AzureSQLVM" 
 />
 
-# Always On Availability Groups - Failure,Failover, Sync issues
+# Always On Availability Groups - Failure, Failover, Sync issues
 
-## Resolve issues with Availability Groups - Failure, ailover, Sync issues
+## Resolve issues with Availability Groups - Failure, Failover, Sync issues
 
 :::Section Metrics and Diagnostics:::  
 
@@ -38,9 +38,9 @@ To know the root cause of the issue, review the logs using [this tool](https://t
 To avoid this issue:<br>
 - Make sure that the Windows cluster service is running and that [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster).
 - Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). 
-  - Use separate premium or ultra data disks for SQL data (.mdf, .ndf) and SQL log (.ldf) files
-  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (mdf/ndf) files
-  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (ldf) file
+  - Use separate premium or ultra data disks for SQL data (`.mdf`, `.ndf`) and SQL log (`.ldf`) files
+  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (`mdf/ndf`) files
+  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (`ld`f) file
   - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the [latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) to avoid any known issues
@@ -52,9 +52,9 @@ To avoid this issue:<br>
 ### Event ID 1135 - Node was removed from cluster membership, "Quorum lost", or "Windows Cluster stops"
 - Ensure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
 - Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)
-  - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
-  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (mdf/ndf) files
-  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (ldf) file
+  - Use separate premium or ultra data disks for SQL data (`mdf/ndf`) and SQL log (`ldf`) files
+  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (`mdf/ndf`) files
+  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (`ldf`) file
   - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [`TempDB`, on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the [latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) to avoid any known issues
@@ -103,9 +103,9 @@ To avoid this issue:<br>
 
 ### **AG is Slow to Synchronize or Redo is Lagging**  
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) **to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics).**  
-  - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
-  - Set [**disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for **disks hosting data (mdf/ndf) files**
-  - Set [**disk caching to None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) **for disks hosting the log (ldf) file**
+  - Use separate premium or ultra data disks for SQL data (`mdf/ndf`) and SQL log (`ldf`) files
+  - Set [**disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for **disks hosting data (`mdf/ndf`) files**
+  - Set [**disk caching to None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) **for disks hosting the log (`ldf`) file**
   - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the **[latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)** to avoid any known issues
@@ -140,7 +140,7 @@ This can happen if the following conditions are present:
 - [Listener is set up with a load balancer correctly](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). 
 - Appropriate logins are available in the new primary. [Use Method 2 in this article, under More Information](https://support.microsoft.com//help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server) to transfer logins from the previous primary to the new primary.
 
-:::Section How do I setup AG:::
+:::Section How do I set up AG:::
 
 ### **How do I set up AG** 
 [Compare different ways](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment) to setup AG and use one of the following methods that best fits your environment:
