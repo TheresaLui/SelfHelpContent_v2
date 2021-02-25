@@ -4,7 +4,7 @@
   service="microsoft.datafactory"
   resource="factories"
   ms.author="shelfeng,brianwan"
-  selfhelptype="Resource"
+  selfhelptype="Generic"
   supporttopicids="32629461"
   resourcetags=""
   productpesids="15613"

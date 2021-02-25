@@ -54,13 +54,13 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Nodejs;Javascript;api",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
       "longDescription": "",
-      "shortDescription": "How to with Azure Cosmos DB Cassandra API, including Data Migration",
+      "shortDescription": "How-to with Azure Cosmos DB Cassandra API, including Data Migration",
       "searchTags": "cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
@@ -116,7 +116,7 @@
     {
       "id": "1e10f397-d99b-cf37-b8ff-0aa0f478ff9e",
       "longDescription": "",
-      "shortDescription": "How to guidance for SQL API SDK for Python",
+      "shortDescription": "How-to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
@@ -172,9 +172,9 @@
     {
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
-      "shortDescription": "Performance-related issues with SQL API SDK for Python",
-      "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "shortDescription": "Performance related issues with SQL API SDK for Python",
+      "searchTags": "Python;SDK",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -434,6 +434,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a793120-29c3-05f3-402f-0d2930ba33e7",
+      "longDescription": "",
+      "shortDescription": "Core (SQL) Data Migration Issues",
+      "searchTags": "SQL;migrate;migration;import",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5b582dc7-46bd-3590-e50a-c8eb57d5e789",
       "longDescription": "",
       "shortDescription": "Azure Power BI connection to Azure Cosmos DB is failing, throwing an exception, or observing high latency",
@@ -626,6 +634,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "886e2125-f2ed-5047-b5d6-f539f63866fe",
+      "longDescription": "",
+      "shortDescription": "MongoDB data migration issues",
+      "searchTags": "Mongo;MongoDB;migrate;migration;import",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "88e913a4-0c5a-75ba-7faf-9a22077e9e48",
       "longDescription": "",
       "shortDescription": "How to guidance for Cosmos DB Cassandra",
@@ -686,7 +702,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK .NET",
       "searchTags": "SDK;.NET;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -718,6 +734,14 @@
       "longDescription": "",
       "shortDescription": "High latency related issues for CRUD requests when using SDKs",
       "searchTags": "sdk, latency",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95a8f77a-c998-5749-c74e-66b3196fc6de",
+      "longDescription": "",
+      "shortDescription": "Issues or questions for Python using SQL API",
+      "searchTags": "Python;SQL;SDK",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -938,6 +962,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb13168d-3d79-1572-df16-8fb06a807f48",
+      "longDescription": "",
+      "shortDescription": "How to enable point in time restore for your account",
+      "searchTags": "restore;backup;retention",
+      "category": "Backup and Restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdcd3fa3-04a3-032b-ee4a-4db844e124f7",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account, or change an existing Azure Cosmos DB account configuration",
@@ -1042,6 +1074,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca6dbd15-e36d-6eb5-a154-50d8e238432d",
+      "longDescription": "",
+      "shortDescription": "Issues or question on Nodejs or Javascript with SQL API",
+      "searchTags": "nodejs;javascript;sql;sdk",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cd88d787-ef6f-4901-653b-acb3c2b1052f",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB service is failing with authentication error",
@@ -1130,6 +1170,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8a26a80-1550-75ef-5c30-db694e4ac579",
+      "longDescription": "",
+      "shortDescription": "Issues and questions related to SQL API SDK",
+      "searchTags": "sql;sdk;api",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
@@ -1167,6 +1215,14 @@
       "shortDescription": "Provision or manage Azure Cosmos DB account through ARM Template or access the resources through Rest API",
       "searchTags": "arm, arm template, rest, rest api",
       "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e98c90d1-eeab-1a6b-5ec7-019192ce0868",
+      "longDescription": "",
+      "shortDescription": "Issues and question on .NET for SQL API",
+      "searchTags": ".net;sql",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1239,6 +1295,14 @@
       "shortDescription": "Architecting Azure Cosmos DB data model",
       "searchTags": "advisory, architecture",
       "category": "General Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f3eae135-295b-7bb2-6de7-e3dfdaa8433c",
+      "longDescription": "",
+      "shortDescription": "Cassandra Data Migration Issues",
+      "searchTags": "Cassandra;migrate;migration;import",
+      "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
     {

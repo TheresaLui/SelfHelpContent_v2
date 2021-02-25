@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32784416"
     productPesIds="15621"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-quantum-quota"
     ownershipId="Azure_Quantum"
@@ -145,7 +145,7 @@
                     "value": "MS-Quantum",
                     "text": "Microsoft Quantum Solutions"
                 }, {
-                    "value": "Quantum Circuits",
+                    "value": "QCI",
                     "text": "Quantum Circuits, Inc."
                 },
                 {
@@ -156,10 +156,10 @@
         },
         {
             "id": "quota_provider_workspace",
-            "visibility": "quota_subtype == provider-quota && quota_provider_name != null",
+            "visibility": "quota_provider_name == MS-Quantum || quota_provider_name == dont_know_answer",
             "order": 8,
             "controlType": "dropdown",
-            "displayLabel":"Workspace Name",
+            "displayLabel":"Workspace name",
             "includeInQuotaSummary": true,
             "watermarkText":"Choose a workspace",
             "required": true,
@@ -198,19 +198,37 @@
             ]
         },
         {
-            "id": "quota_provider_type_fallback",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_name != MS-Quantum && quota_provider_name != dont_know_answer",
+            "id": "quota_provider_type_ionq",
+            "visibility": "quota_subtype == provider-quota&& quota_provider_name != MS-Quantum && quota_provider_name == IonQ",
             "order": 10,
-            "controlType": "textbox",
-            "displayLabel":"Provider Quota Type",
-            "includeInQuotaSummary": true,
-            "watermarkText":"Specify the type of provider quota you'd like to request. For example: Job Hours, Job Executions, etc.",
-            "required": true
+            "controlType": "textBlock",
+            "displayLabel": "To request a quota/limit increase for your IonQ offer, reach out to IonQ support. Provide details of your subscripton ID, workspace name, and a business justification. The IonQ support team will evaluate your request. https://aka.ms/AQ/IonQ/CustomerSupport"
+        },
+        {
+            "id": "quota_provider_type_honeywell",
+            "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == Honeywell",
+            "order": 11,
+            "controlType": "textBlock",
+            "displayLabel":"To request a quota/limit increase for your Honeywell offer, reach out to Honeywell support. Provide details of your subscripton ID, workspace name, and a business justification. The Honeywell support team will evaluate your request. https://aka.ms/AQ/Honeywell/CustomerSupport"
+        },
+        {
+            "id": "quota_provider_type_qci",
+            "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == QCI",
+            "order": 12,
+            "controlType": "textBlock",
+            "displayLabel":"To request a quota/limit increase for your Quantum Circuits Inc. (QCI) offer, reach out to QCI support. Provide details of your subscripton ID, workspace name, and a business justification. The QCI support team will evaluate your request. https://aka.ms/AQ/QCI/CustomerSupport"
+        },
+        {
+            "id": "quota_provider_type_1qloud",
+            "visibility": "quota_subtype == provider-quota && quota_provider_name != MS-Quantum && quota_provider_name == 1Qloud",
+            "order": 13,
+            "controlType": "textBlock",
+            "displayLabel":"To request a quota/limit increase for your 1Qloud Optimization Platform offer offer, reach out to 1QBit support. Provide details of your subscripton ID, workspace name, and a business justification. The 1QBit support team will evaluate your request. https://aka.ms/AQ/1QBit/CustomerSupport"
         },
         {
             "id": "quota_provider_new_limit",
-            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_workspace != dont_know_answer && quota_provider_name != dont_know_answer",
-            "order": 11,
+            "visibility": "quota_subtype == provider-quota && quota_provider_workspace != null && quota_provider_workspace != dont_know_answer && quota_provider_name == MS-Quantum",
+            "order": 14,
             "controlType": "numerictextbox",
             "displayLabel": "New quota value requested",
             "includeInQuotaSummary": true,
@@ -232,7 +250,7 @@
         {
             "id": "quota_provider_business_justification",
             "visibility": "quota_provider_new_limit != null",
-            "order": 12,
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
@@ -241,11 +259,11 @@
         {
             "id": "quota_provider_description_fallback",
             "visibility": "quota_provider_workspace == dont_know_answer || quota_provider_name == dont_know_answer",
-            "order": 13,
+            "order": 16,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "useAsAdditionalDetails": true,
-            "watermarkText": "Provide additional information about your issue, include details such as workspace name, region, type of limit, current value and new value requested as applicable.",
+            "watermarkText": "Provide additional information about your issue, including details such as workspace name, region, type of limit, current value and new value requested as applicable.",
             "required": true
         }
     ]

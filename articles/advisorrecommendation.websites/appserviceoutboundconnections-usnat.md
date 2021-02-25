@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [
   "bfc9fa96-6f4a-42b3-894f-29ff56b2bc89"
   ],
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/antbc-socket_cn",
   "description": "Check outbound connections from your App Service resource",
   "longDescription": "Your app has opened too many TCP/IP socket connections. Exceeding ephemeral TCP/IP port connection limits can cause unexpected connectivity issues for your apps.",
