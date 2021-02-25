@@ -18,13 +18,13 @@
 
 ### AG Failure diagnostics
 
-<Insight>
+<insight>
     <symptomId>SqlVmHADRPortalInsight</symptomId>
     <executionText>We are running a few performance checks on your VM</executionText>
     <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
     <noResultText>No issues found</noResultText>
     <additionalInputsReq>true</additionalInputsReq>
-</Insight>
+</insight>
 
 ### Recommended Steps 
 
