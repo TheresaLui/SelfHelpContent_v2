@@ -23,7 +23,7 @@
             "id": "disk_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide the details of the Disk that is experiencing the problem?",
+            "displayLabel": "Provide details for the disk that is experiencing the problem",
             "watermarkText": "Enter the disk-name that you are trying backup",
             "required": true
         },
@@ -39,7 +39,7 @@
             "id": "select_ErrorMessage",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the error message that you are seeing?",
+            "displayLabel": "Select the error message that you are seeing",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
