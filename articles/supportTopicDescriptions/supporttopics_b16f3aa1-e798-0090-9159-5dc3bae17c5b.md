@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e20bda7-485f-dfa4-c91e-c501d315adfe",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C conditional access, Identity Protection, MFA, email verification, passwords and threat management",
+      "searchTags": "custom policy conditional access;custom policy MFA;passwords;threat management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C custom polices",
@@ -81,8 +89,8 @@
     {
       "id": "6b5003c0-49d5-e547-fe77-e0306130831f",
       "longDescription": "",
-      "shortDescription": "Questions regarding the management of custom attributes for Azure AD B2C objects",
-      "searchTags": "Questions re B2C custom attributes",
+      "shortDescription": "Problem with creating or deleting a new Azure AD B2C directory or problem with linking or changing Azure AD B2C subscription.",
+      "searchTags": "creating Azure AD B2C directory;deleting Azure AD B2C directory;linking Azure AD B2C subscription;changing Azure AD B2C subscription",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -91,6 +99,14 @@
       "longDescription": "",
       "shortDescription": "Questions regarding managing AAD B2C encryption keys used for signing and validating tokens.",
       "searchTags": "Key mngmt re Identity Exp Framework",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "793d8e76-5f91-92f9-eaf2-c1d6b0658c27",
+      "longDescription": "",
+      "shortDescription": "Questions regarding session or token configuration in Microsoft Supported Libraries",
+      "searchTags": "token configuration;session configuration",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -193,8 +209,8 @@
     {
       "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
       "longDescription": "",
-      "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
-      "searchTags": "questions re to B2C availability ;questions re to B2C data residency",
+      "shortDescription": "Questions regarding managing Azure AD B2C external identity providers in your user flows",
+      "searchTags": "identity providers",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },

@@ -36,3 +36,19 @@ See the following links for information and resources about Microsoft Cloud and 
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/)
 * [Microsoft Cloud Agreement customer acceptance confirmation Frequently Asked Questions](https://docs.microsoft.com/partner-center/confirm-consent)
 * [Microsoft Cloud Agreements by region and language](https://docs.microsoft.com/partner-center/agreements)
+
+See the following links for various amendments to Microsoft Cloud and Customer Agreements. 
+Only **Direct Bill Partners** and **Indirect Providers** can download these files. 
+Indirect resellers should consult with their Indirect Providers to get these files.
+
+* [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
+* [Financial Services Amendment - Portuguese](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE2OM67)
+* [Financial Services Amendment for Canada – English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4ITrM)
+* [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
+* [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
+* [Data Protection Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4EYmn)
+* [Data Protection Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4F3DV)
+* [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
+* [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
+* [Professional Secrecy Amendment for Switzerland - multiple languages](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Iwvg)
+* [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
