@@ -55,8 +55,8 @@
       			"displayLabel": "Capacity Pool Name",
       			"watermarkText": "Name of Capacity Pool used",
       			"required": false
-  		}, {
-      			"id": "pool_size",
+		}, {
+			"id": "pool_size",
       			"order": 4,
       			"controlType": "textbox",
       			"displayLabel": "New Size",
