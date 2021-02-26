@@ -44,12 +44,12 @@
 	}
       },
       "dropdownOptions": [
-	 {
+        {
 	   "value": "NoNetAppAccount",
 	   "text": "Did not find the NetApp account"
-         }
-       ],
-       "required": true
+        }
+      ],
+      "required": true
    },
    {
       "id": "pool_name",
