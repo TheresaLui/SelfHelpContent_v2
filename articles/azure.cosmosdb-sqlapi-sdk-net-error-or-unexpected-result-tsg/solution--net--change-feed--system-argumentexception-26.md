@@ -20,9 +20,9 @@
 <!--issueDescription-->
 
 **Investigation (not customer message):**
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-##Issue: System.ArgumentException (Lease Collection Not Found)
-
+#### Issue: System.ArgumentException (Lease Collection Not Found)
 
 if you get an error like
 
@@ -57,8 +57,8 @@ If you can't debug it, assign to Change Feed queue and provide:
 - Timestamps of last error seen
 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
 
