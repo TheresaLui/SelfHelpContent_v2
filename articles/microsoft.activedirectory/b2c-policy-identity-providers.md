@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
-  ms.author="nishring,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32633318"
   resourcetags=""
@@ -13,7 +13,7 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
-Most customers can add external identity providers to their application using the following steps.
+Most customers can add external identity providers to their application using the following steps. 
 
 ## **Recommended Steps**
 
