@@ -23,7 +23,7 @@
 **Investigation (not customer message):**
 This TSG is to identify the properties that are available per diagnostic log category.  The properties map to columns in AzureDiagnostics
 
-# Azure CosmosDB Diagnostic Log overview
+### Azure CosmosDB Diagnostic Log overview
 The logs are categorized into seven categories such as:  
 
 - DataPlaneRequest
@@ -36,8 +36,8 @@ The logs are categorized into seven categories such as:
 
 Each category emits different properties (i.e. Columns in AzureDiagnostics).  There are several support tickets that customers ask why certain columns are empty for a category in AzureDiagnostics.
 
-# DataPlaneRequest
-## Direct Mode
+### DataPlaneRequest
+#### Direct Mode
 The following properties (i.e. Columns in AzureDiagnostics) are emitted for DataPlaneRequest in Direct mode.
 
 https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%2FServiceMonitoring%2FConfigGen%2FWarmPathTemplates%2FDiagLogsWarmpathConfig_Template.xml&version=GBmaster&line=136&lineEnd=155&lineStartColumn=1&lineEndColumn=95&lineStyle=plain
@@ -63,7 +63,7 @@ https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%
           let TransportLayerSecurityProtocolProperty = Concat( "","\",\"transportLayerSecurityProtocol\": \"", TransportLayerSecurityProtocol)
           let ConnectionModeProperty = Concat( "","\",\"connectionMode\": \"", ConnectionMode)
 
-## Gateway Mode
+### Gateway Mode
 The following properties are emitted for the DataPlaneRequest in Gateway mode.
 
 https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%2FServiceMonitoring%2FConfigGen%2FWarmPathTemplates%2FDiagLogsWarmpathConfig_Template.xml&version=GBmaster&line=234&lineEnd=249&lineStartColumn=1&lineEndColumn=95&lineStyle=plain
@@ -85,7 +85,7 @@ https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%
           let PartitionIdProperty = Concat( "","\",\"partitionId\": \"", "")
           let ConnectionModeProperty = Concat( "","\",\"connectionMode\": \"", ConnectionMode)
 
-# QueryRuntimeStatistics
+### QueryRuntimeStatistics
 The following properties are emitted for the QueryRuntimeStatistics
 
 https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FBackend%2Fnative%2Fqueryengines%2FqueryLanguages%2Fsql%2FQueryEngine.SqlQueryAsyncContext.cpp&version=GBmaster&line=528&lineEnd=532&lineStartColumn=11&lineEndColumn=40&lineStyle=plain
