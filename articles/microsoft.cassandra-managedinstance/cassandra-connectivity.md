@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Azure Managed Instance Apache Cassandra connectivity"
 	description="Azure Managed Instance Apache Cassandra connectivity"
-	service="microsoft.cassandra"
-	resource="databaseAccounts"
+	service="microsoft.documentdb"
+	resource="cassandraClusters"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"

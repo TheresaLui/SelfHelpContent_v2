@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Azure Managed Instance Apache Cassandra backup and restore"
 	description="Azure Managed Instance Apache Cassandra backup and restore"
-	service="microsoft.cassandra"
-	resource="databaseAccounts"
+	service="microsoft.documentdb"
+	resource="cassandraClusters"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
@@ -17,7 +17,7 @@
 />
 
 # Azure Managed Instance for Apache Cassandra backup and restore
-Most users are able to resolve their Managed Instance Cassandra basic and restore issue using the steps below.
+Most users are able to resolve their Managed Instance Cassandra backup and restore issue using the steps below.
 
 ## **Recommended Steps** 
 
