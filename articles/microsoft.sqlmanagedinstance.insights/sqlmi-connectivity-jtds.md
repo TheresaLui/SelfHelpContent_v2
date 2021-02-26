@@ -22,7 +22,7 @@
 
 <!--issueDescription-->
 
-We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect connection attempts to database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> using an unsupported jTDS driver.
+We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC and we were able to detect connection attempts to database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on managed instance <!--$ServerName-->ServerName<!--/$ServerName--> using jTDS, an unsupported driver.
 
 <!--/issueDescription-->
 
