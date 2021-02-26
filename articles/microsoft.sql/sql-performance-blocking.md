@@ -68,7 +68,7 @@ AS ( SELECT head.session_id AS head_blocker_session_id, head.session_id AS sessi
        blocked.wait_time, blocked.wait_resource, h.statement_start_offset, h.statement_end_offset,
        h.plan_handle, h.sql_handle, h.most_recent_sql_handle, [Level] + 1
        FROM cteHead AS blocked
-       INNER JOIN cteBlockingHierarchy AS h ON h.session_id = blocked.blocking_session_id and h.session_id!=blocked.session_id --avoid infinite recursion for latch type of blocknig
+       INNER JOIN cteBlockingHierarchy AS h ON h.session_id = blocked.blocking_session_id and h.session_id!=blocked.session_id --avoid infinite recursion for latch type of blocking
        WHERE h.wait_type COLLATE Latin1_General_BIN NOT IN ('EXCHANGE', 'CXPACKET') or h.wait_type is null
        )
 SELECT bh.*, txt.text AS blocker_query_or_most_recent_query
