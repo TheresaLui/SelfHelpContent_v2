@@ -14,6 +14,7 @@
 # Unable to move volume to destination Pool
 ---
 {
+  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Unable to resize Capacity Pool",
@@ -25,7 +26,7 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
-  }
+  },
   {
       "id": "netapp_account",
       "order": 2,
@@ -83,7 +84,6 @@
       "watermarkText": "What was the error message",
       "required": false
   },
-  ],
-  "$schema": "SelfHelpContent"
+  ]
 }
 ---
