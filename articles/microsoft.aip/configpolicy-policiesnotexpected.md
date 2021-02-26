@@ -19,13 +19,15 @@ To provide a unified and streamlined customer experience, the classic client and
 
 1. If you have migrated to Azure Information Protection unified labeling, and are using the Microsoft 365 Security and Compliance Center (SCC) to manage your policies, raise a support ticket to the Security and Compliance Center team to troubleshoot the policy configuration issues: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 2. If you recently changed/created the labels, and the changes are not updated, wait 24 hours before raising a support ticket.
-3. **Classic client only**: If you are having issues with visual markings, review [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied).<br>
-4. **Classic client only**: If you are having issues with automatic labeling, please review [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification) and [What the sensitive information types look for](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for).<br>
-5. If you are having issues with Native/Pfile protection, review [File API configuration](https://docs.microsoft.com/azure/information-protection/develop/file-api-configuration).
-6. **Classic client only**: Check if you are using scoped policies that aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
-7. If automatic labeling isn't working for Outlook when attaching a labeled document, or if Label information doesn't appear properly on files using PowerShell or other applications, verify that the **DRMEncryptProperty** isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
-8. **Unified labeling client only**: If you are encountering issues regarding justification messages or default labels, review [Order of precedence - how conflicting settings are resolved](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#order-of-precedence---how-conflicting-settings-are-resolved).
-9. If you are missing the Sensitivity labels in Excel only, and your client appears to work offline, make sure to remove any files in the following folders: 
+3. **Classic client only**:
+     -  If you are having issues with visual markings, review [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied).<br>
+     -  If you are having issues with automatic labeling, please review [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification) and [What the sensitive information types look for](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for).<br>
+     -  Check if you are using scoped policies that aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
+
+4. If you are having issues with Native/Pfile protection, review [File API configuration](https://docs.microsoft.com/azure/information-protection/develop/file-api-configuration).
+5. If automatic labeling isn't working for Outlook when attaching a labeled document, or if Label information doesn't appear properly on files using PowerShell or other applications, verify that the `DRMEncryptProperty` isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
+6. **Unified labeling client only**: If you are encountering issues regarding justification messages or default labels, review [Order of precedence - how conflicting settings are resolved](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#order-of-precedence---how-conflicting-settings-are-resolved).
+7. If you're missing the Sensitivity labels in Excel only, and your client appears to work offline, make sure to remove any files in the following folders: 
 
     ```
     C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
@@ -39,12 +41,12 @@ To provide a unified and streamlined customer experience, the classic client and
     "UseOfficeForLabelling"=dword:00000000
     ```
 
-10. If you still experiencing issues, collect Azure Information Protection client logs and attach the exported logs to this ticket.
+If you're still experiencing issues after reviewing the preceding steps, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook.
-2. Select the **Protect**/**Sensitivity** button -> **Help and feedback**.
+2. Select the **Protect**/**Sensitivity** button > **Help and feedback**.
 3. Select **Export Logs**.
 4. Save the logs to a location of your choice, and attach them to this service request.
 
