@@ -63,7 +63,7 @@ https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%
           let TransportLayerSecurityProtocolProperty = Concat( "","\",\"transportLayerSecurityProtocol\": \"", TransportLayerSecurityProtocol)
           let ConnectionModeProperty = Concat( "","\",\"connectionMode\": \"", ConnectionMode)
 
-### Gateway Mode
+#### Gateway Mode
 The following properties are emitted for the DataPlaneRequest in Gateway mode.
 
 https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FCosmos%2FServiceMonitoring%2FConfigGen%2FWarmPathTemplates%2FDiagLogsWarmpathConfig_Template.xml&version=GBmaster&line=234&lineEnd=249&lineStartColumn=1&lineEndColumn=95&lineStyle=plain
