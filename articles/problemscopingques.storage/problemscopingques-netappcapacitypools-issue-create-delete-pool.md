@@ -42,18 +42,18 @@
 	  "value": "dont_know_answer",
 	  "text": "None of the above"
 	}
-	},
-	  "dropdownOptions": [
-	  {
-	    "value": "NoNetAppAccount",
-	    "text": "Did not find the NetApp account"
-	  }
-	  ],
-	    "required": true
-	  },
-      {
+     },
+       "dropdownOptions": [
+	{
+	  "value": "NoNetAppAccount",
+	  "text": "Did not find the NetApp account"
+        }
+	],
+	"required": true
+     },
+     {
       "id": "pool_name",
-      "order": 6,
+      "order": 3,
       "controlType": "textbox",
       "displayLabel": "Capacity Pool Name",
       "watermarkText": "Name of Capacity Pool used",
@@ -61,7 +61,7 @@
     },
     {
       "id": "problem_description",
-      "order": 2,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide any additional details",
       "required": true,
@@ -69,7 +69,7 @@
     },
     {
       "id": "error_message",
-      "order": 6,
+      "order": 5,
       "controlType": "textbox",
       "displayLabel": "Error message",
       "watermarkText": "What was the error message",
