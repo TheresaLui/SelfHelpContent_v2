@@ -62,6 +62,7 @@ If you are new to ADF, review the following documents.
 
 ### More resources
 Here are some articles from the web that may help you based on the description provided:
+
 <azureKB>
 <client>Portal</client>
 </azureKB>
