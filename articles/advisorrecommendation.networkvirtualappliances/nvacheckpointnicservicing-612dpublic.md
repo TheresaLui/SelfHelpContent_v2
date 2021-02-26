@@ -50,15 +50,15 @@ ownershipId="CloudNet_NVA"
     "displayLabel": "Known issue for Checkpoint Network Virtual Appliance image version with NIC servicing",
     "tip": "Upgrade Network Virtual Appliance image to ensure business continuity.",
     "additionalColumns": [
-    {
-      "name": "startTime",
-      "title": "Event Start Time"
-    },
-    {
-      "name": "Duration",
-      "title": "Event Duration"
-    }
-  ],
+        {
+          "name": "startTime",
+          "title": "Event Start Time"
+        },
+        {
+          "name": "Duration",
+          "title": "Event Duration"
+        }
+    ],
     "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
 ---
