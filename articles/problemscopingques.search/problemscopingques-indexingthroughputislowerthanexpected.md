@@ -23,7 +23,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Additional details. If possible, describe the indexing load, and the symptoms.",
+            "displayLabel": "Additional details. If possible, describe the indexing load and the symptoms.",
             "required": true,
             "useAsAdditionalDetails": true
         },
