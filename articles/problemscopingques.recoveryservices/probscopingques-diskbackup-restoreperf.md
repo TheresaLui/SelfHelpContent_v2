@@ -23,7 +23,7 @@
             "id": "disk_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide the details of the Disk that is experiencing the problem?",
+            "displayLabel": "Provide details for the disk that is experiencing the problem",
             "watermarkText": "Enter the disk-name that is experiencing the problem",
             "required": true
         },
@@ -39,7 +39,7 @@
             "id": "backup_completed",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is the backup ever completed before?",
+            "displayLabel": "Has the backup ever completed before?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
@@ -57,14 +57,14 @@
             "id": "backup_job_starttime",
             "order": 4,
             "controlType": "datetimepicker",
-            "displayLabel": "Since how long the job is running?",
+            "displayLabel": "How long has the job been running?",
             "required": false
         },
         {
             "id": "select_ErrorMessage",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Select the error message that you are seeing?",
+            "displayLabel": "Select the error message you are seeing?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
