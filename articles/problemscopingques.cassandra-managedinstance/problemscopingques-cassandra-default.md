@@ -9,7 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
 	schemaVersion="1"
 	articleId="14340e43-7f28-49ed-b3e7-d1cc1a144763"
-	ownershipId="Azure_ManagedInstanceCassandra"
+	ownershipId="AzureData_AzureManagedInstanceCassandra"
 />
 # Cassandra Managed Instance Info
 ---

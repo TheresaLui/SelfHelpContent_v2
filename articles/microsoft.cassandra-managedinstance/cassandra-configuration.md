@@ -29,23 +29,25 @@ Make sure you are not blocking access to vital Azure services which are needed f
 - Azure Storage
 - Azure KeyVault
 - Azure Virtual Machine Scale Sets
-- Azure Moniroring
+- Azure Monitoring
 - Azure AAD
 - Azure Security
 
 ### **A data center in a different vnet is not running or starting up**
 
-Make sure the orchestrator node (the one having the Prometheus endpoint) has connectivity to the data center by starting a vm in that vnet and running 
+Make sure the orchestrator node (the one having the Prometheus endpoint) has connectivity to the data center by starting a vm in that vnet and running.   
 
-```shell
+```
+shell
     curl -v https://<ip in the other datacenter>:9443
     curl -v https://<ip in the other datacenter>:8443
 ```
 
 Only if both return something like:   
 
-html
+
 ```
+html
     <html>
     <head><title>400 No required SSL certificate was sent</title></head>
     <body bgcolor="white">
@@ -59,7 +61,7 @@ Then everything is set up correctly.  If this is not the case review your vnet-p
 
 ### **Which ports is Managed Cassandra using?**
 
-Cassandra Managed Instances is not using a public IP so the following ports are inly accessible from the vnet (or peered vnets./express routes) and *should* not be made accessible on the Internet.
+Cassandra Managed Instances is not using a public IP so the following ports are only accessible from the vnet (or peered vnets./express routes) and *should* not be made accessible on the Internet.
 
 **Cassandra data VM**  
 <br> **Port**, *purpose*, Remark
@@ -93,4 +95,4 @@ Functionality for that is planned for a later release
 
 
 ## **Recommended Documents**
-[FAQ for Azure Managed Instance Apache Cassandra ](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq) 
+[FAQ for Azure Managed Instance Apache Cassandra](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq) 

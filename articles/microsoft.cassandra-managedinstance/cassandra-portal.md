@@ -21,7 +21,7 @@ Most users are able to resolve their Managed Instance Cassandra portal issue usi
 
 ## **Recommended Steps**  
 
-Azure Managed Instance for Apache Cassandra provides automated deployment and scaling operations for managed open-source Apache Cassandra datacenters, accelerating hybrid scenarios and reducing ongoing maintenance.
+Azure Managed Instance for Apache Cassandra provides automated deployment and scaling operations for managed open-source Apache Cassandra data centers, accelerating hybrid scenarios and reducing ongoing maintenance.
 
 Instructions of how to use the Azure portal to create an Azure Managed Instance for Apache Cassandra cluster [Create using Azure Portal](https://docs.microsoft.com/azure/cassandra-managed-instance/quickstart?branch=release-ignite-cassandra-managed-instance).
 

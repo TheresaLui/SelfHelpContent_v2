@@ -13,7 +13,7 @@
 	articleId="cassandra-connectivity"
 	displayOrder="20"
 	category="Connectivity"
-	ownershipId="Azure_ManagedInstanceCassandra"
+	ownershipId="AzureData_AzureManagedInstanceCassandra"
 />
 
 # Azure Managed Instance Apache Cassandra Connectivity Configuration
@@ -36,7 +36,9 @@ If you get certificate errors make sure you have all the Azure certificates (see
 
 ### **I cannot connect with cqlsh**
 If verifying certificates and connectivity with curl above was successful, try in cqlsh:
-```shell
+
+```
+shell
 export SSL_VERSION=TLSv1_2
 export SSL_VALIDATE=false # disable hostname validation
 cqlsh --ssl <host IP> -u <username> -p <password>
