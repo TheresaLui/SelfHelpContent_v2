@@ -25,7 +25,7 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
-    },
+    }
     {
       "id": "netapp_account",
       "order": 2,
