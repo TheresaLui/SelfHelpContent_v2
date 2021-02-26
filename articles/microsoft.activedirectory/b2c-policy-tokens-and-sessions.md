@@ -28,11 +28,13 @@ Learn how to configure the [session behavior](https://docs.microsoft.com/azure/a
 Yes, learn how to [secure your REST API](https://docs.microsoft.com/azure/active-directory-b2c/secure-rest-api) with either HTTP basic, client certificate, or OAuth2 authentication.
 
 
-### **Recommended Documents** 
+### **Useful Links** 
 
 * Custom policies are fully edited configuration files that define the behavior of your Azure AD B2C tenant. Get started today by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started?WT.mc_id=Portal-Microsoft_Azure_Support).
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+
+* Check out our [Azure AD B2C community samples at GitHub](https://github.com/azure-ad-b2c/samples) today.
 
 * Review our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
