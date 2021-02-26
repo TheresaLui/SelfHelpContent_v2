@@ -42,7 +42,8 @@ shell
 export SSL_VERSION=TLSv1_2
 export SSL_VALIDATE=false # disable hostname validation
 cqlsh --ssl <host IP> -u <username> -p <password>
-```   
+```
+   
 
 If you have set up public/private key authentication for the Cassandra API make sure to supply the private key in the .cqlshrc when connecting.
 
@@ -61,15 +62,15 @@ In that case specify it explicitly, for example:
 ```
 shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node 10.0.13.5 -mode native cql3 user=cassandra password=cassandra
-```   
-
+``` 
+   
 If you have set up public/private key authentication for Cassandra, make sure to supply the private key when connecting as follows:
 
 ```
 shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node 10.0.13.5 -mode native cql3 user=cassandra password=Cassandra keystore=<my-keystore> keystore-password=<my keystore password>
 ```
-
+   
 
 ### **How do I convert a pem certificate to use as a truststore with Java programs like cassandra stress?**
 The intent is for the installed public certificates to work out of the box with Managed Instance Cassandra offering and this has been tested as such. So in most cases the following should not be necessary.  
@@ -77,8 +78,8 @@ The intent is for the installed public certificates to work out of the box with 
 ```
 shell
 keytool -import -alias mycert -file <certificate file>  -keystore <keystore-file> -storetype PKCS12  -storepass password
-```   
-
+```
+   
 ### **I am seeing *com.datastax.driver.core.exceptions.NoHostAvailableException* when running Cassandra-stress**
 
 The first error can occur when trying to use Cassandra-stress on a multi-dc Cassandra cluster. By default it creates a non-replicated keyspace, and then fails when trying to access that keyspace from the other datacenter.
@@ -89,6 +90,7 @@ You can work around this issue by specifying additional command line argument, p
 shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node $host -mode native cql3 user=cassandra password=cassandra -schema "replication(strategy=NetworkTopologyStrategy, my-dc-westus=3, my-dc-eastus=3)"
 ```
+   
 **!NOTE**
 The above does not update the keyspace if it already exists, so use CQLSH to delete `keyspace1` before trying this
 
