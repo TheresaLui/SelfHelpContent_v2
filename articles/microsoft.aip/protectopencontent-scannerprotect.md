@@ -16,9 +16,9 @@ To provide a unified and streamlined customer experience, the classic client and
 
 ## **Recommended Steps**
 
-If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues.
+* If you're running the scanner installed with the unified labeling client, run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) to troubleshoot common deployment issues.
 
-Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg).
+* Troubleshoot your on-premises scanner deployment with our [Troubleshooting Guide](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-tsg).
 
 ### Export Azure Information Protection Scanner logs
 
