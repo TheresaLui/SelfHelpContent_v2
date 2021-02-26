@@ -25,8 +25,8 @@
       "id": "c4db8509-8e84-3c1c-777e-5a61e02cc18c",
       "longDescription": "",
       "shortDescription": "The reference to your own service that is powered by Azure Private Link",
-      "searchTags": "third party",
-      "category": "advisory",
+      "searchTags": "third party;private link service;pls",
+      "category": "Advisory",
       "useInDiagnoseAndSolve": "true"
     }
   ]
