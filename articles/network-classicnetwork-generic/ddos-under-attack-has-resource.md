@@ -21,7 +21,7 @@ If you do not have a DDoS Protection Standard plan, we recommend that you onboar
 
 Otherwise, proceed to file a support ticket if:
 
-- During a DDoS attack you find that the performance of the protected resource is severely degraded or the resource is unavailable.
+- During a DDoS attack, you find that the performance of the protected resource is severely degraded, or the resource is unavailable.
 - You think your resource is under DDoS attack, but DDoS Protection service is not mitigating the attack effectively.
 - You're planning a viral event that will significantly increase your network traffic.
 - The attack has a critical business impact.
