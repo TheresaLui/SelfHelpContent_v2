@@ -15,10 +15,10 @@
 
 ## **Recommended Steps**
 **Event-based Trigger:** [Create event-based triggers](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) 
-* Make sure that the event trigger is enabled and published. 
-* Make sure that the trigger run parameter are used correctly. Supported parameters are @triggerBody().folderPath and @triggerBody().fileName.
-* Blob event trigger does not guarantee the order for event delivery. 
-* Blob event trigger filters out duplicate blob events if they are from same blob event id. If you get multiple events for a same file, check the properties column for trigger runs. From properties, you can see the whole EventPayload of your file update event. If you think the trigger runs are duplicated, please contact blob storage support by giving the duplicate EventPayload.
+* Make sure that the event trigger is enabled and published
+* Make sure that the trigger run parameter are used correctly. Supported parameters are `@triggerBody().folderPath` and `@triggerBody().fileName`.
+* Blob event trigger does not guarantee the order for event delivery
+* Blob event trigger filters out duplicate blob events if they are from same blob event id. If you get multiple events for a same file, check the properties column for trigger runs. From properties, you can see the whole `EventPayload` of your file update event. If you think the trigger runs are duplicated, contact blob storage support by giving the duplicate `EventPayload`.
 * If the storage account is a Data Lake Storage Gen2 Storage Account and the action is `flush` when the file is uploaded, make sure to have the `close` query parameter as `true`. This setting allows Azure Data Factory to receive notifications when files change. See [Data Lake Storage Gen2 references](https://docs.microsoft.com/rest/api/storageservices/datalakestoragegen2/path/update)
 
 ## **Recommended Documents**
