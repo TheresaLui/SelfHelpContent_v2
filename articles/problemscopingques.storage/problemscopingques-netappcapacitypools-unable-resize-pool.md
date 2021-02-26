@@ -46,10 +46,10 @@
 				"value": "NoNetAppAccount",
                     		"text": "Did not find the netapp account"
                 		}
-      			],
-      			"required": true
+			],
+			"required": true
 		}, {
-      			"id": "pool_name",
+			"id": "pool_name",
       			"order": 3,
       			"controlType": "textbox",
       			"displayLabel": "Capacity Pool Name",
