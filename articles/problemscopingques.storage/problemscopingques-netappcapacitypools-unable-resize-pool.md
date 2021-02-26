@@ -63,14 +63,14 @@
       			"watermarkText": "What is the desired new size of the Capacity Pool",
       			"required": false
 		}, {
-      			"id": "problem_description",
+			"id": "problem_description",
       			"order": 5,
       			"controlType": "multilinetextbox",
       			"displayLabel": "Provide any additional details",
       			"required": true,
       			"useAsAdditionalDetails": true
-  		}, {
-      			"id": "error_message",
+		}, {
+			"id": "error_message",
       			"order": 6,
       			"controlType": "textbox",
       			"displayLabel": "Error message",
