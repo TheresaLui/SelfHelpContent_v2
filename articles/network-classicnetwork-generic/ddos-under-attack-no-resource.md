@@ -15,7 +15,9 @@
 
 ## **Recommended Steps**
 
-Distributed denial of service (DDoS) attacks are some of the largest availability and security concerns facing customers that are moving their applications to the cloud. A DDoS attack attempts to exhaust an application’s resources, making the application unavailable to legitimate users. DDoS attacks can be targeted at any endpoint that is publicly reachable through the internet. To learn more about onboarding to DDOS Protection Service, review these documents on how you can protect your resources running on Azure against DDoS:
+Distributed denial of service (DDoS) attacks are some of the largest availability and security concerns facing customers who are moving their applications to the cloud. A DDoS attack attempts to exhaust an application’s resources, making the application unavailable to legitimate users. DDoS attacks can be targeted at any endpoint that is publicly reachable through the internet. 
+
+To learn more about onboarding to DDOS Protection Service, review these documents on how you can protect your resources running on Azure against DDoS:
 
 * [Azure DDoS Protection standard Overview](https://docs.microsoft.com/azure/ddos-protection/manage-ddos-protection)
 * [Create a DDoS Protection Plan - Portal](https://docs.microsoft.com/azure/ddos-protection/manage-ddos-protection)
