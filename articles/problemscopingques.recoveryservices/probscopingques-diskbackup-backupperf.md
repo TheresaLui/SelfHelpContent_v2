@@ -23,7 +23,7 @@
             "id": "disk_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide the details of the Disk that is experiencing the problem?",
+            "displayLabel": "Provide details for the disk that is experiencing the problem",
             "watermarkText": "Enter the disk-name that you are trying backup",
             "required": true
         },
@@ -31,7 +31,7 @@
             "id": "select_ErrorMessage",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Has the backup ever completed before?",
+            "displayLabel": "Has the backup ever successfully completed?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
