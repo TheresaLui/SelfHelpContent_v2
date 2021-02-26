@@ -45,7 +45,6 @@ shell
 
 Only if both return something like:   
 
-
 ```
 html
     <html>
@@ -85,6 +84,7 @@ We currently only support Apache Cassandra 3.11 – we will have guidance to conne
 
 ### **Nodetool**
 We do not support nodetool directly – instead use (in Azure CLI):
+
 ```
 azurecli-interactive
 az managed-cassandra cluster node-status   -g <my resource group> -c <my cluster> --output table
