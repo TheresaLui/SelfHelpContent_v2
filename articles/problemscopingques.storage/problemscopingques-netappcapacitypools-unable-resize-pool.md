@@ -48,7 +48,7 @@
                 		}
       			],
       			"required": true
-  		}, {
+		}, {
       			"id": "pool_name",
       			"order": 3,
       			"controlType": "textbox",
