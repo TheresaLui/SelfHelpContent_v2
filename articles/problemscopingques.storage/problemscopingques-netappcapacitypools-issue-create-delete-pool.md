@@ -43,11 +43,10 @@
 	  "text": "None of the above"
         }
       },
-      "dropdownOptions": [
-        {
-	   "value": "NoNetAppAccount",
-	   "text": "Did not find the NetApp account"
-        }
+      "dropdownOptions":[ {
+	 "value": "NoNetAppAccount",
+	 "text": "Did not find the NetApp account"
+      }
       ],
       "required": true
    },
