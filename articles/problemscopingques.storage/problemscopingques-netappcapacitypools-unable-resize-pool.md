@@ -27,12 +27,12 @@
       "required": true
     },
     {
-            "id": "netapp_account",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "NetApp Account",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
+      "id": "netapp_account",
+      "order": 2,
+      "controlType": "dropdown",
+      "displayLabel": "NetApp Account",
+      "watermarkText": "Choose an option",
+      "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts?api-version=2019-11-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
@@ -42,14 +42,14 @@
 					"value": "dont_know_answer",
 					"text": "None of the above"
                 }
-            },
-            "dropdownOptions": [
+      },
+      "dropdownOptions": [
                 {
                     "value": "NoNetAppAccount",
                     "text": "Did not find the netapp account"
                 }
-            ],
-            "required": true
+      ],
+      "required": true
     },
     {
       "id": "pool_name",
