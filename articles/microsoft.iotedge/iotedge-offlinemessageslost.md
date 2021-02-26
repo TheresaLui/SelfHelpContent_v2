@@ -20,6 +20,12 @@ Azure IoT Edge is designed to operate while offline, and then forward stored mes
 
 ## **Recommended Steps**
 
-* Review the [Optional offline settings](https://docs.microsoft.com/azure/iot-edge/offline-capabilities#optional-offline-settings) and adjust the time to live settings and offline storage capabilities to suit your scenario
-* If your IoT Edge device is small, review the troubleshooting steps for [Stability issues on resource constrained devices](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors#stability-issues-on-smaller-devices)
+**1.1 (or earlier)**
 
+* Review the [Optional offline settings](https://docs.microsoft.com/azure/iot-edge/offline-capabilities?view=iotedge-2018-06#optional-offline-settings) and adjust the time to live settings and offline storage capabilities to suit your scenario
+* If your IoT Edge device is small, review the troubleshooting steps for [Stability issues on resource constrained devices](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2018-06#stability-issues-on-smaller-devices)
+
+**1.2 (or later)**
+
+* Review the [Optional offline settings](https://docs.microsoft.com/azure/iot-edge/offline-capabilities?view=iotedge-2020-11#optional-offline-settings) and adjust the time to live settings and offline storage capabilities to suit your scenario
+* If your IoT Edge device is small, review the troubleshooting steps for [Stability issues on resource constrained devices](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2020-11#stability-issues-on-smaller-devices)
