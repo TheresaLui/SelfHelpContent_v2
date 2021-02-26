@@ -11,16 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="a64671b4-252d-45d7-8eea-57a0efed6837"
+	  articleId="c846e8eb-2145-4e2c-bb6d-851bab75d0df"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Know if a physical partition split is currently taking place
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Investigation (not customer message):**
-One common CRI is that customers will report, "My scale-up operation seems to be taking a while. What should I do?". We should first check if the split operation is pending, via the **IsOfferReplacePending** property in **BillingOffers5M**.
+**Next steps:** One common CRI is that customers will report, "My scale-up operation seems to be taking a while. What should I do?". We should first check if the split operation is pending, via the **IsOfferReplacePending** property in **BillingOffers5M**.
 
 ```
 let _collectionname="xxxxxx";
@@ -40,8 +40,8 @@ ReportQuota5M | where CollectionName ==_collectionname and GlobalDatabaseAccount
 | summarize dcount(PartitionId) by GlobalDatabaseAccountName, CollectionName, CollectionRid
 ```
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
 

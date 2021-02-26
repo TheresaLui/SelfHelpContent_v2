@@ -11,14 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="a463e586-f1f1-42db-9ade-3e58172e407d"
+	  articleId="e6637917-2a2d-4e41-8fd7-3fd69f12f933"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Check the collections has Index Defined on all Properties
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 The below query would provide return the below details
 
 1. DefaultPathSpec : 4 =>  mean its custom index definition. Anyother value is /*
@@ -31,7 +33,7 @@ MetricsIndexingPolicy5M
 | order by TIMESTAMP desc
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->

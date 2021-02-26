@@ -11,15 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="562e3fc5-c22f-4e6e-995f-e655d1403d32"
+	  articleId="9e5686fb-5ed0-465b-b225-e86afaecf53a"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # NotSupportedMongoException: 'unique' is not supported issue
 
 <!--issueDescription-->
-
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 If the following steps don't help the customer, please create a CRI for Product team to enable if needed.
+
+## Customer message:
+Dear customer,
 
 **Error message returned**
 `
@@ -47,10 +50,6 @@ To validate, you need to run 'get database account'  ACIS command against the ac
  
 
 If enableBsonSchema is false and/or  is set to true, follow the guidelines for enabling bson schema on the account before enabling index management
-
-
-#Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->
 

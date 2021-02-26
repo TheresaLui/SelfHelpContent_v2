@@ -29,4 +29,3 @@ ownershipId="CloudNet_AzureExpressRoute"
 ### Recommended Reading
 
 [Create and modify ExpressRoute peering](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager)
-

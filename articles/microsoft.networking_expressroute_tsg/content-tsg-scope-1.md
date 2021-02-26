@@ -26,9 +26,12 @@ This TSG is specific to issues related to ExpressRoute. It is applicable to the 
 * Azure/ExpressRoute/Configuration and Setup/ExpressRoute Gateway
 
 **Note:**  
-If your issue is not from the list above, you may use **Edit & Run Again** feature on the **ASC** to look for new Insights and Troubleshooters. Make sure you replace the Support Topic correctly and specify right Resource for better results.
 
+* *If your issue is NOT from the list above, you may use "Edit & Run Again" feature on the ASC to look for new Insights and Troubleshooters. Make sure you replace the Support Topic correctly and specify right Resource for correct results.  
+Also, if you select "No" option, you would see some Azure Networking Troubleshooters that you can select from.*
+
+* We strongly recommend to review the [Active Azure ExpressRoute Work Items](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/24330/Azure-ExpressRoute?anchor=active-azure-expressroute-%5Bwork-items%5D(https%3A%2F%2Faka.ms%2Fanpworkitems)) before you continue.
 ### Recommended documents
 
+* [Active Azure ExpressRoute Work Items](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/24330/Azure-ExpressRoute?anchor=active-azure-expressroute-%5Bwork-items%5D(https%3A%2F%2Faka.ms%2Fanpworkitems))
 * [ExpressRoute documentation](https://docs.microsoft.com/en-us/azure/expressroute/)
-

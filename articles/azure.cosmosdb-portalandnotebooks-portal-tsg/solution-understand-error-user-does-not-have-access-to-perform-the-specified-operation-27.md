@@ -11,19 +11,20 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="b2ff5a6e-456e-44ba-8b3a-69bbd1327670"
+	  articleId="dd145cb0-5bc1-4646-82a0-6e021707eebc"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Understand error User does not have access to perform the specified operation
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 Unable to access the Cosmos DB in Portal or Cosmos DB Portal Overview page fails with Access Denied. User is the owner of the Cosmos DB Account or does have full control permission. But still the below exception is shown in the portal.
 
 
-*Symptom*:
+**Symptom**:
 ![Error message image](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EQR41VCB2ANGpJD9VwybmfMBOg4fTqxXQzdX8TyKLKbWPg?e=J2SanN)
 
 **Exception**
@@ -38,7 +39,7 @@ Microsoft_Azure_DocumentDB]  11:32:34 AM DocumentDBClientProxy DocumentDBClientP
 
 <br>
 
-##Back ground/Cause
+#### Back ground/Cause
  
 ARM have released a feature called ?Blue Print? which basically helps to ACL a deny permission.   This feature is basically restricting the portal to get the Cosmos DB key triggering the below issue.
 
@@ -75,25 +76,24 @@ az cosmosdb list-read-only-keys --name MyCosmosDBDatabaseAccount --resource-grou
 `
 az cosmosdb list-read-only-keys --name MyCosmosDBDatabaseAccount --resource-group MyResourceGroup
 `
- 
+
 <br>
  
-##Mitigation
- 
-
+#### Mitigation
 - They can use the sunset link if they have connection string for cosmosdb account.  
 or
 - They need to remove the Deny by removing configuration through Blue Print.
 
 <br>
 
-###Engineering Engagement 
+#### Engineering Engagement 
  
 Please raise a CRI to Azure ARM Team.  You can also check the status from the CRI https://portal.microsofticm.com/imp/v3/incidents/details/123438318/home
 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
+## Customer message:
+
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
 

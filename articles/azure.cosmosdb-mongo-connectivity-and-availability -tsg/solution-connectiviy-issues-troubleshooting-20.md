@@ -11,16 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="28e09967-47fa-4436-9caa-9b4c502a4518"
+	  articleId="ab91591e-904e-4c07-a477-e5f2d90bf977"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connectiviy Issues troubleshooting
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Troubleshooting:**
-##Get the CosmosDB connection GUID from the client connectionId
+
+#### Get the CosmosDB connection GUID from the client connectionId
 CosmosDB Mongo api assigns a unique GUID to each connection. Use the below kusto query to get the ConnectionGuid from the client-side connectionId
 
 ```
@@ -39,7 +41,7 @@ https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/ERo
 <br>
 <br>
 
-##Find the connection closure reason from the CosmosDB connection GUID
+#### Find the connection closure reason from the CosmosDB connection GUID
 
 Use the below kusto query to get all the logs for the given connection, including the closure reason
 
@@ -57,7 +59,7 @@ Example:
 https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EQNyyIvPi_5DnywcfXd7-TYBIkGzmOsnh_mZnYFKGCKHLQ?e=WJp9VS
 
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->

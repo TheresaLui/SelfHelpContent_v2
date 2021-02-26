@@ -1,6 +1,6 @@
 <properties
-	pageTitle="scoping-questions-for-always-encrypted with secure enclaves"
-	description="Scoping questions to capture more details about always encrypted, secure enclaves."
+	pageTitle="scoping-questions-for-Always Encrypted and Always Encrypted with Secure Enclaves"
+	description="Scoping questions to capture more details about always encrypted and Always Encrypted with Secure Enclaves"
 	authors="sojaga"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
@@ -11,13 +11,13 @@
 	articleId="64f06aa0-a3a0-4f5e-a201-f1bbf78555d8"
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
-# Scoping questions for Always Encrypted, Secure Enclaves
+# Scoping questions for Always Encrypted and Always Encrypted with Secure Enclaves
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"Always Encrypted with Secure Enclaves",
+   "title":"Always Encrypted",
    "fileAttachmentHint":"",
    "formElements":[
       {
@@ -29,24 +29,80 @@
          "required":true
       },
       {
-         "id":"IssueType_dropdown",
-         "order":10,
+         "id":"IssueCategory_dropdown",
+         "order":2,
          "controlType":"dropdown",
          "displayLabel":"What type of issue are you facing?",
          "watermarkText":"Choose an option",
          "infoBalloonText":"Choose the type of issue you are facing",
          "dropdownOptions":[
             {
-               "value":"AECERTStore",
-               "text":"Always Encrypted with Certificate Store"
-            },
-            {
-               "value":"AEAKV",
-               "text":"Always Encrypted with Azure Key Vault"
+               "value":"AE",
+               "text":"Always Encrypted"
             },
             {
                "value":"AESE",
-               "text":"Always Encrypted with Security Enclaves"
+               "text":"Always Encrypted with Secure Enclaves"
+            },
+            {
+               "value":"dont_know_answer",
+               "text":"Other"
+            }
+         ],
+         "required":true
+      },
+      {
+         "id":"IssueType_dropdown",
+         "order":3,
+         "visibility": "IssueType_dropdown == AESE",
+         "controlType":"dropdown",
+         "displayLabel":"What type of issue are you facing?",
+         "watermarkText":"Choose an option",
+         "infoBalloonText":"Choose the type of issue you are facing",
+         "dropdownOptions":[
+            {
+               "value":"AESEATTURL",
+               "text":"AE with Secure Enclaves using Attestation URL"
+            },
+            {
+               "value":"dont_know_answer",
+               "text":"Other"
+            }
+         ],
+         "required":true
+      },
+      {
+         "id":"AEServiceInformation",
+         "visibility": "IssueType_dropdown == AESE",
+         "order":4,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Where is the Always Encrypted with Secure Enclaves Service running ?",
+         "required":false
+      },
+      {
+         "id":"IssueType_AEdropdown",
+         "order":5,
+         "visibility": "IssueType_dropdown == AE",
+         "controlType":"dropdown",
+         "displayLabel":"What type of issues with Always Encrypted Certificate Store?",
+         "watermarkText":"Choose an option",
+         "infoBalloonText":"Choose the type of issue you are facing",
+         "dropdownOptions":[
+            {
+               "value":"AESSMS",
+               "text":"Using SSMS"
+            },
+            {
+               "value":"AEADS",
+               "text":"Using ADS (Azure Data Studio)"
+            },
+            {
+               "value":"AEPWShell",
+               "text":"Using PowerShell"
+            },
+            {
+               "value":"AEPermissions",
+               "text":"Removing Adimistrator permissions"
             },
             {
                "value":"dont_know_answer",
@@ -57,46 +113,14 @@
       },
       {
          "id":"describeissue",
-         "order":11,
+         "order":6,
          "controlType":"multilinetextbox",
          "displayLabel":"Please describe the issue/error message you are facing",
          "required":false
       },
       {
-         "id":"Issue_Type",
-         "order":50,
-         "visibility": "IssueType_dropdown == AECERTStore",
-         "controlType":"dropdown",
-         "displayLabel":"What type of Always Encryption you are trying ?",
-         "infoBalloonText":"Describe the action of Always Encryption trying to perform",
-         "watermarkText":"Choose an option",
-         "dropdownOptions":[
-            {
-               "value":"AESSMS",
-               "text":"SSMS to create Always Encrypted Keys)"
-            },
-            {
-               "value":"AECMK",
-               "text":"Column Master Key (CMK)"
-            },
-            {
-               "value":"AECEK",
-               "text":"Column Encryption Key (CEK)"
-            },
-            {
-               "value":"AEDBTBL",
-               "text":"Database table and encrypt columns."
-            },
-            {
-               "value":"AEAPP",
-               "text":"Create an Application that Encrypt Columns"
-            }
-         ],
-         "required":false
-      },
-     {
          "id":"subscription_administrator",
-         "order":80,
+         "order":7,
          "controlType":"dropdown",
          "displayLabel":"Do you have an administrator permission on the subscription?",
          "watermarkText":"Choose an option",
@@ -118,91 +142,14 @@
       },
       {
          "id":"server_region",
-         "order":100,
+         "order":8,
          "controlType":"textbox",
-         "displayLabel":"What is the Azure SQL Server egion?",
-         "required":false
-      },
-      {
-         "id":"akv_region",
-         "order":110,
-         "visibility": "IssueType_dropdown == AEAKV",
-         "controlType":"textbox",
-         "displayLabel":"What is the Azure Key Vault region?",
-         "required":false
-      },
-      {
-         "id":"akv_region_server",
-         "order":120,
-         "visibility": "IssueType_dropdown == AEAKV ",
-         "controlType":"dropdown",
-         "displayLabel":"Is the Azure Key Vault in the same region as the Azure SQL Server?",
-         "watermarkText":"Choose an option",
-         "dropdownOptions":[
-             {
-               "value":"yes",
-               "text":"Yes"
-            },
-            {
-               "value":"no",
-               "text":"No"
-            },
-            {
-               "value":"dont_know_answer",
-               "text":"Don't know the answer"
-            }
-         ],
-         "required":false
-      },
-      {
-         "id":"AKV_subscription_server",
-         "order":130,
-         "visibility": "IssueType_dropdown == AEAKV ",
-         "controlType":"dropdown",
-         "displayLabel":"Is the Azure Key Vault in the same subscription as the Azure SQL Server?",
-         "watermarkText":"Choose an option",
-         "dropdownOptions":[
-             {
-               "value":"yes",
-               "text":"Yes"
-            },
-            {
-               "value":"no",
-               "text":"No"
-            },
-            {
-               "value":"dont_know_answer",
-               "text":"Don't know the answer"
-            }
-         ],
-         "required":false
-      },
-      {
-         "id":"AKV_access",
-         "order":140,
-         "visibility": "IssueType_dropdown == AEAKV",
-         "controlType":"dropdown",
-         "displayLabel":"Do you have access to the Azure KeyVault?",
-         "watermarkText":"Choose an option",
-         "dropdownOptions":[
-             {
-               "value":"yes",
-               "text":"Yes"
-            },
-            {
-               "value":"no",
-               "text":"No"
-            },
-            {
-               "value":"dont_know_answer",
-               "text":"Don't know the answer"
-            }
-         ],
+         "displayLabel":"What is the Azure SQL Server region?",
          "required":false
       },
       {
          "id":"problem_description",
-         "order":999,
+         "order":9,
          "controlType":"multilinetextbox",
          "displayLabel":"Additional context to help us solve your issue.",
          "required":true,

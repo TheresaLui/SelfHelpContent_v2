@@ -11,17 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="25f1f383-8dda-4aec-87a2-d33db4b671df"
+	  articleId="02f13345-33c7-40b6-8def-cdcbb1e6b32b"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Check if accounts is not eligible to upgrade from Portal
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-## ** Troubleshooting Accounts that were not eligible to upgrade from Portal**
+#### ** Troubleshooting Accounts that were not eligible to upgrade from Portal**
 
-### NOTE: Please ensure the customer is using the 3.6 after migration.
+#### NOTE: Please ensure the customer is using the 3.6 after migration.
 
 1. The update will change the server version. While generally 3.6 is compatible with 3.2, it's recommended a customer try out 3.6 with their application on a dev or qa instance before considering updating the account backing any production workload.
 2. Run below query:
@@ -75,8 +76,8 @@ To look at the underlying query for this function, run the following command:
 **If you need to edit the underlying query, please email Cosmos DB Supportability Team <cosmossupportability@microsoft.com> and they will help you update it since that query is source controlled in ASC repo.**
 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 
 

@@ -35,4 +35,4 @@ LogEntry
 
 ## **Recommended Documents**
 
-* [DeleteError](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349535/Cluster-deletion-failure-Delete-error)
+* [DeleteError](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349535/Cluster-deletion-failure-DeleteError)

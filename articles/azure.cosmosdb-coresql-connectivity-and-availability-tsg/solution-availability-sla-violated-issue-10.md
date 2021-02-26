@@ -11,17 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="cdc11f3e-3fb6-4397-b11d-21fab20e8a8e"
+	  articleId="53c98a53-d8f8-49f1-bfc9-0f8fdb86053d"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Availability SLA Violated issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Please create a IcM for the Availability and Store Sev 2 or Sev 3 Cosmos DB team
+**Next steps:** Please create an IcM for the Availability and Store Sev 2 or Sev 3 Cosmos DB team.
 
-##Customer message:
+## Customer message:
 Dear customer,
 
 We need to follow up with Cosmos DB product team due to the availability issue and we will get back to you as soon as possibe.

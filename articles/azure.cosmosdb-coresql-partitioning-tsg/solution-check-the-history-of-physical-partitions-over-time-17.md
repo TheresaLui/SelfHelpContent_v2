@@ -11,15 +11,17 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="ed8aa0be-db23-40bd-bf51-9cc45bda1512"
+	  articleId="3b89a704-fe38-4994-ac48-ec6b5ceae939"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Check the history of physical partitions over time
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Investigation (not customer message):**
+**Next steps:** 
+
 [Number of physical partitions for manual throughput collection](https://cosmosdbmetrics.kusto.windows.net/MetricsDB?query=H4sIAAAAAAAEAH1STU8bQQy9R%2bp%2fsOghiRSSFM5Bgmyr9gCN%2bLqiyayTsTof0XimyVb98Xh3YbMCxNzG9nt%2bfvZs1r0CE0ZHnvwWvkLYwM5UTFpZ2KmYKFHwDJsQwSmfJZpMDHlrdjmBDtaibiuOhLMvA20zC%2btoqAO7wOXaYYqkefpH4mG6J1%2bGPU89puF4Wqqk1opxNLxuq4oriRaKbLXsGtxl51SsHs8G%2f2FvMCIUKiFcLEBtw%2bh8Pi%2fHIgHuDTEInUUwiuEbVKhiPVTdBE6BEkiBkq%2bwA7ekdR6VNr15JrCnZARvyaOg0DUWNFURt1IhPmAPUNOS74trZrrUOmSfbpRDWCzgZNn4UVw99RInHeoXX%2bYU7sR7%2fO7rIcoaNO%2fy1%2brwM%2bRoq1UMf4mlLZb3x3VcwFw8%2bEFWrIfwZj%2fkgY2KQtlb4Kv1LC1aM%2bgfwk12a4y%2fN6uXQ1gd72AhV3AYFcSJvE5dYlnPMp7Ax7pa0Ofix7CuOtdqVyZwXP7b%2fy2Vk2b%2fIhsPCX0Jtw%2b8wvhOsfT%2bWNPskykHg2eNgCI5HwMAAA%3d%3d&web=0)
 ```
 /////////// Determining # of physical partitions for manual throughput collections ///////////
@@ -73,7 +75,7 @@ cluster('cosmosdbmetrics.kusto.windows.net').database('MetricsDB').DailyDatabase
 | extend RUsPerPhysicalPartition = AutoscaleMaxThroughput / NumberOfPhysicalPartitions
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->

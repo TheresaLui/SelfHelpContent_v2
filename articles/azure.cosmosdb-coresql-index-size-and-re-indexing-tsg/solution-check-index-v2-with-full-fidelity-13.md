@@ -11,21 +11,24 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="6eaa758c-cab7-4909-b82d-c13271925f45"
+	  articleId="ca315c88-dcc9-4f7a-bddf-371e78d63c64"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Check Index V2 with Full Fidelity
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
+
+**Next steps:** Investigate based on the steps below.
+
+#### Check Index V2 with Full Fidelity
 
 <!--issueDescription-->
 
-ndex V2 with Full fidelity is the latest layout of Index V2. To check whether a container is full fidelity, you can use ReportQuota5M table (global table). A container can have Index V2, but may not be Full Fidelity. To be as much optimized as possible a container need to be Index V2 with Full Fidelity.
+Index V2 with Full fidelity is the latest layout of Index V2. To check whether a container is full fidelity, you can use ReportQuota5M table (global table). A container can have Index V2, but may not be Full Fidelity. To be as much optimized as possible a container need to be Index V2 with Full Fidelity.
 
 The product group (Query team) can help to move the Index V2 to Index V2 with Full Fidelity.
 
 
 **Kusto query to check if customer containers are set as full fidelity:**
-
 ```
 // Kusto Query which helps to check if the container is full fidelity. 
 // Use Global table
@@ -37,8 +40,6 @@ ReportQuota5M
 | distinct GlobalDatabaseAccountName, DatabaseName, CollectionName 
 ```
 
-<br>
-
 **Important Notes:**
 * Note that you'd need all 3 conditions to determine whether or not the query would consider a collection full-fidelity
 * You should use Global table in Kusto to execute this query.
@@ -46,15 +47,16 @@ ReportQuota5M
 * For more details about Full fidelity please watch the following video: https://msit.microsoftstream.com/video/87de30ab-8b92-46f5-a93a-a132cb283942?st=2219 
 
 
-##Other Notes:
+#### Other Notes:
 In case you want to find the Index Version on a given collection, use the below Kusto query:
 ```
 ReportQuota5M
 | where GlobalDatabaseAccountName =="ACCOUNTNAME"
 | summarize by CollectionName , CollectionRid , IndexingSchemeVersion
+```
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 

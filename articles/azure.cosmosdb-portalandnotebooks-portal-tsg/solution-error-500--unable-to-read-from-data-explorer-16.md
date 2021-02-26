@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="08a4951f-5d0d-488c-90f9-0d4eae5ad6b8"
+	  articleId="7be9cf7e-1031-4a04-8b64-edc1f32d4f93"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -25,7 +25,7 @@ One possible cause if you are using the SDK used by the application is .Net SDK 
  
 Collect Information for investigation
 
-##How to Collect Fiddler Traces:
+#### How to Collect Fiddler Traces:
 
 Please install the fiddler from the web
 https://www.telerik.com/download/fiddler

@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="ffc0cb20-53f6-44e9-8041-e53e2ff79062"
+	  articleId="1fe37d36-d04e-4266-adb4-03e41aa1d417"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -46,12 +46,12 @@ Please let me know your feedback on the above.
  
 Thank you.
 
-#Recommended Documents
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-version-upgrade
-https://devblogs.microsoft.com/cosmosdb/upgrade-your-server-version-from-3-2-to-3-6-for-azure-cosmos-db-api-for-mongodb/
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support
-https://docs.microsoft.com/en-us/azure/cosmos-db/connect-mongodb-account
+### Recommended Documents
+* https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-version-upgrade
+* https://devblogs.microsoft.com/cosmosdb/upgrade-your-server-version-from-3-2-to-3-6-for-azure-cosmos-db-api-for-mongodb/
+* https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
+* https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support
+* https://docs.microsoft.com/en-us/azure/cosmos-db/connect-mongodb-account
 
 <!--/issueDescription-->
 

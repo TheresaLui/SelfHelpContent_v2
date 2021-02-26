@@ -11,13 +11,14 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="42e5421d-019a-4d46-8bba-c62326c47417"
+	  articleId="88c3a8e4-2280-418e-bd39-e8d9080efaa1"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Query hitting retries on the server side issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **CSS Investigation:**
 Run the below query only for the time-period when the customer ran the repro
@@ -44,8 +45,7 @@ For these entries, check if the MaxRetryCount/TotalRetryCount is value is greate
 
 Thank you.
 
-
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step above, please share the known issue or solution to customer and share any necessary link.
 
 <!--/issueDescription-->

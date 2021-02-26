@@ -11,13 +11,13 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="2d30fb2e-0670-4653-88b8-ede3daf29b5c"
+	  articleId="79db4113-9091-4477-a89c-0674a9a791b8"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Check for minimum required details to start working on the case
 
-Review customer verbatim for the following and validate that the case has the minimum required details to start working:
+Review customer verbatim and validate that the case has the minimum required details mentioned below to start working. Most of the information should have been already provided in the scoping questions. 
 
 1. Clear issue description
 2. Subscription ID
@@ -25,11 +25,17 @@ Review customer verbatim for the following and validate that the case has the mi
 4. Account name
 5. Database name 
 6. Collection name
-7. Account location
-8. Is the error persistent or intermittent? 
-9. What changes were made?
-10. Error message/StackTrace
-11. Attachments (if applicable)
+7. Query Metrics or Activity Id
+8. Collection Indexing Policy
+9. What is the client SDK used?
+10. What changes were made? (if applicable)
+11. Is the error persistent or intermittent? (if applicable)
+12. Error message/StackTrace (if applicable)
+13. MaxItemCount value (if applicable)
+14. MaxBufferedItemCountCount value (if applicable)
+15. MaxDegreeOfParallelismvalue (if applicable)
+
+**Please try to obtain all the information from ASC Resource Explorer before reaching the customer.**
 
 If no enough details, please provide customer with customer ready message for minimum required details to start the case.
 

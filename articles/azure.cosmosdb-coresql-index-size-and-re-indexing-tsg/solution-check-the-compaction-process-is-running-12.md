@@ -11,13 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="f3ca4b4a-90d9-4a46-8222-4e8cf8247a71"
+	  articleId="a8cf3051-6427-420b-a4d1-fc77e71eb302"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Check the compaction process is running
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
+
+**Next steps:** 
 
 1. The compaction is executed on each partition. 
 2. Extract any partition ID for a given collection and replace predicate value below.
@@ -44,8 +47,9 @@ TIMESTAMP	CounterName	       MaxCounterValue
 2020-02-19 17:25:00.0000000	\DocDB Server Replica Counters(11512P_d808b694-d79a-45ab-bf7c-f536ea204aef_R_132158145462074212_Sat, 08 Feb 2020 14:02:24.332 GMT)   \BwTree Background Compaction IO Reads/sec (Consistent)	34.9226561067568
 2020-02-19 17:35:00.0000000	\DocDB Server Replica Counters(16464P_d808b694-d79a-45ab-bf7c-f536ea204aef_R_132118462240642307_Fri, 07 Feb 2020 23:52:11.315 GMT)   \BwTree Background Compaction IO Reads/sec (Consistent)	30.0569826887202
 2020-02-19 18:00:00.0000000	\DocDB Server Replica Counters(16464P_d808b694-d79a-45ab-bf7c-f536ea204aef_R_132118462240642307_Fri, 07 Feb 2020 23:52:11.315 GMT)   \BwTree Background Compaction IO Reads/sec (Consistent)	20.1330075050146
+```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->

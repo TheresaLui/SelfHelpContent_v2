@@ -11,15 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="fa7ed464-0c8e-466e-a1a6-2aa6f8cf363b"
+	  articleId="08c7ed2c-ac5d-4607-9303-f9d49fab8e3d"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Server Side issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Based on the troubleshooting step before, please write your conclusions to customer.
+**Next steps:** Based on the troubleshooting step before, please write your conclusions to customer.
 
 <!--/issueDescription-->
 

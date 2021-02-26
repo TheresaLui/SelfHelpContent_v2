@@ -25,3 +25,4 @@ Find the latest product launch information, operational enhancements, and detail
 ## **Recommended Steps**
 
 -  Access the [Operations Readiness Portal](https://partner.microsoft.com/explore/operations-readiness)
+-  Chat now to speak with a Volume Licensing Operations Specialist [here](https://www.explore.ms/Home/EmsLiveChat)

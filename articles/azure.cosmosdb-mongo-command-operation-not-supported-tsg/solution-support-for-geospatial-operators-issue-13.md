@@ -11,7 +11,7 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="dffe73a2-71ce-4f42-9fdb-f7f997ea5938"
+	  articleId="a35a69bf-572e-4f64-8c4e-0694a049e5a3"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -24,7 +24,7 @@ Dear customer,
 You are trying to Migrate your data to CosmosDB MongoDB as it now supports Geospatial operators.
 But the indexing does not allow "2d" mode. However, "2dsphere" is allowed.
 
-####Resolution:
+#### Resolution:
 At this time we support "2dsphere" and plan to support "2d" in the future.  
 
 Please review https://docs.mongodb.com/manual/geospatial-queries/#geospatial-indexes as you'll need most likely be better served using "2dsphere"

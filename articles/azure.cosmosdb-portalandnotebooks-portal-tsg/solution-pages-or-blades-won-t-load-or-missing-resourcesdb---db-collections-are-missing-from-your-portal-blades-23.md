@@ -11,17 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="5c692908-9779-4f72-9c2a-6af34c37c5de"
+	  articleId="4954a4d6-2f56-43d3-b8b9-97ca27573239"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Pages or blades won't load or Missing ResourcesDB - db collections are missing from your portal blades
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 
-##Issue: 
+#### Issue: 
 - Resources are missing
 - Pages or blades won't load  
 
@@ -52,8 +53,8 @@ BackendEndRequest5M
 | render timechart
 ```
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->
 

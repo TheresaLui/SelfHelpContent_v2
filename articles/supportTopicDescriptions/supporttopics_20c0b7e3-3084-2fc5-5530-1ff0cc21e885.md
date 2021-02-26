@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -222,6 +223,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c5d5b8e-04e8-70a6-a485-db9258bc72cc",
+      "longDescription": "",
+      "shortDescription": "Problems related to connecting an Azure Purview account to a Synapse Workspace, or discovering and exploring Purview data in Synapse.",
+      "searchTags": "purview;connect;discover;explore;lineage",
+      "category": "Synapse Studio",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c7e286b-27b0-081c-f5a1-4bcfa02fffde",
       "longDescription": "",
       "shortDescription": "Queries failures, unexpected results, slow or hung queries when loading data from Synapse Link for CosmosDB from SQL On-demand.",
@@ -232,8 +241,8 @@
     {
       "id": "1dbe1c7a-eea3-c2ae-416f-9dda0499cb30",
       "longDescription": "",
-      "shortDescription": "Failures to configure or manage a Private Link connection to SQL pools.",
-      "searchTags": "connectivity;networking;sql;private;link",
+      "shortDescription": "Failures to configure or manage a private endpoint connection to workspace resources like SQL pools, Storage or Cosmos DB.",
+      "searchTags": "connectivity;networking;private;link;endpoint",
       "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
@@ -915,6 +924,14 @@
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
       "searchTags": "spark;job;execution;failure;unexpected",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "80ee09fb-30c6-1702-f09f-62bf7295519a",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or manage Private Link Hubs to securely load Synapse Studio static content over private links.",
+      "searchTags": "synapse studio;private link hubs;networking;security;security",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1649,7 +1666,7 @@
       "id": "eb86dd80-1868-d82e-a616-745a27a5b392",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using COPY T-SQL command.",
-      "searchTags": "sql;polybase;load;import;export",
+      "searchTags": "sql;load;import;export;copy",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },

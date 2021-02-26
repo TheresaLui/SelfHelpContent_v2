@@ -29,5 +29,3 @@ ownershipId="CloudNet_AzureExpressRoute"
 ### Solution
 
 To fix this issue, reach out to your TA with Letter of Authorization (LoA) from customer for manual validation.
-
-

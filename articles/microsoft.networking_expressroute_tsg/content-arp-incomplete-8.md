@@ -17,7 +17,7 @@ articleId="192a1d03-cff0-4611-ae8b-0dc1dae7cab9"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-## ARP incomplete between MSEC and Customer/Provider Edge
+## ARP incomplete between MSEE and Customer/Provider Edge
 
 ### Recommended Action
 
@@ -35,5 +35,3 @@ This is typically due to a Dot1Q/QinQ mismatch between customer and their servic
 
 * [ARP table when on-premises / connectivity provider side has problems](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-arp-resource-manager#arp-table-when-on-premises--connectivity-provider-side-has-problems) 
 * [Azure ExpressRoute: Router configuration samples](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-config-samples-routing#cisco-ios-xe-based-routers)
-
-

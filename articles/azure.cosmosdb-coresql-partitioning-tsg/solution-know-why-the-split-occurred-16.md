@@ -11,16 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="9d4bd5f6-f3e1-4987-96aa-551d491a24f0"
+	  articleId="156ec528-93e5-4063-8e35-2dff7a2396aa"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Know why the split occurred
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Investigation (not customer message):**
-Use the OperationQOSEvent table and look at the operationName property. 
+**Next steps:** Use the OperationQOSEvent table and look at the operationName property. 
 - **ThroughputSplit**: User initiated the RU/s scale-up
 - **SplitRange**: System initiated split due to storage increase
 
@@ -38,7 +38,7 @@ OperationQOSEvent
 | where operationName == "SplitRange"
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query, you can share the output table but make sure to not incude any internal information.
 
 <!--/issueDescription-->

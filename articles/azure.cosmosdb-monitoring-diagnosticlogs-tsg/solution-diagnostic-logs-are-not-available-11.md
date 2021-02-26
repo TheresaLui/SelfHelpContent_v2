@@ -11,19 +11,20 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="9e909e3a-8d28-4e81-8f9a-fe3dec80501d"
+	  articleId="cd6c0051-723d-49dd-a008-b774d2d83e4e"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Diagnostic Logs are not available
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 This TSG is to provide investigation steps that CSS engineers can follow against the issue with unavailable diagnostic logs.
 
 
-# Azure CosmosDB Diagnostic Log overview
+### Azure CosmosDB Diagnostic Log overview
 The logs are categorized into seven categories such as:  
 
 - DataPlaneRequest
@@ -36,7 +37,7 @@ The logs are categorized into seven categories such as:
 
 This TSG is applied to all the categories.
  
-# Diagnostic Log Owners
+### Diagnostic Log Owners
 The following table shows the teams that are responsible to the categories in the diagnostic log.  Please consult with the corresponding teams for proper support.
 |Category  | Owning Team  |
 |--|--|
@@ -45,7 +46,7 @@ The following table shows the teams that are responsible to the categories in th
 | CassandraRequest | Cassandra API Team  |
 | ControlPlaneRequest | Management Service Team |
 
-# Trouble Shooting Workflow
+### Trouble Shooting Workflow
 
 1. Run the query to identify the Primary Region for the given Cosmos DB Account.  Replace <globaldatabaseaccount> with a target account name in the query.
 

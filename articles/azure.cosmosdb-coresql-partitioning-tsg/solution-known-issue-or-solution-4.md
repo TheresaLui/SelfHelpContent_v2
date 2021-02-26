@@ -11,15 +11,16 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="2d349b17-1d73-43dd-9115-62d516dfa519"
+	  articleId="6950d060-0337-4f44-8a42-180a2e700ca6"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Known issue or solution
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-**Customer message:**
+**Next steps:** 
 Based on the troubleshooting step before, please share the known issue or solution to customer and share any necessary link.
 
 <!--/issueDescription-->

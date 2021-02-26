@@ -11,17 +11,18 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="2996a817-a5bb-4665-9aa1-abe32a220792"
+	  articleId="6beecce9-a8cd-4927-a9a2-4b8f11b2101f"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Share Data Migration Documentation
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 Based on the troubleshooting step before, please share the known issue or solution to customer and share any necessary link.
 
-**Example of Customer message:**
+## Example of Customer message:
 Dear customer,
 
 Please consider using  Azure Data factory to migrate data to a new account in your or another subscription. Here are the instructions for copying data for the Mongo API:

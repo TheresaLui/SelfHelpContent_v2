@@ -11,32 +11,27 @@
 	  resourceTags=""
 	  productPesIds=""
 	  cloudEnvironments="public, fairfax, usnat, ussec"
-	  articleId="fd98732f-da76-40bc-8201-60aadaaf98c1"
+	  articleId="b755580b-de5f-4ba7-9f62-4787a0bd3628"
 	  ownershipId="AzureData_AzureCosmosDB"
 />
 
 # MongoSocketWriteException Errors issue
 
 <!--issueDescription-->
-
-##Follow all steps below before opening an incident with PG, If Setting MaxIdleTime does not help
-Please raise an ICM ticket against the Mongo queue - include all information on what was already tried from the above as well as the customer's driver and OS version.
-
-#Customer Message
 Dear customer,
 
 Your connection fails or is closed with one of the following error stacks:
 **java.lang.Exception: Exception sending message; nested exception is *com.mongodb.MongoSocketWriteException: Exception sending message***
 
-##Cause
+### Cause
 - Cosmos DB Server is configured with idle to timeout after 30 minutes of idleness.  This means any connection which have not submitted any request for 30 minutes would be killed by the Server.
 - The Client does not know that the server have killed the connection and the driver is reusing the connection for the request generating the above exception.
 
-##Connection Pool Behavior
+### Connection Pool Behavior
 - The Mongo driver supports connection pool which mean n connection is used to submit the request.   The driver randomly uses the connection from the pool. So if the client application is not active enough or idle then some connection from the pool is idle for more than 30 minutes which is not known by the driver. The driver reuses the connection to submit the request and generate the exception.
 - The Parameter "maxIdleTimeMS" can be part of connection string which help the driver to close the connection and reopen when required.
  
-###maxIdleTimeMS
+#### maxIdleTimeMS
 The maximum number of milliseconds that a connection can remain idle in the pool before being removed and closed.  
 This option is not supported by all drivers.
 
@@ -48,7 +43,7 @@ The "maxIdleTimeMS" is supported by the following languages and drivers.
 - Mongoose -https://docs.mongodb.com/manual/reference/connection-string/
 - Springboot. -  This https://github.com/spring-projects/spring-data-mongodb) build on the official mongo driver so the connections should be managed the same way so this setting should be passed through the connection string as well.
  
-##Resolution / Mitigation
+### Resolution / Mitigation
 Ensure the customer is using the "maxIdleTimeMS" in the connection string.
 
 Thank you.
