@@ -23,7 +23,7 @@
             "id": "disk_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide the details of the Disk that is experiencing the problem?",
+            "displayLabel": "Provide details for the disk that is experiencing the problem",
             "watermarkText": "Enter the disk-name that is experiencing the problem",
             "required": true
         },
@@ -31,7 +31,7 @@
             "id": "jobID_Name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Enter the failed backup job Activity ID:",
+            "displayLabel": "Enter the failed backup job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b ",
             "required": false
         },
@@ -39,7 +39,7 @@
             "id": "select_ErrorMessage",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the error message that you are seeing?",
+            "displayLabel": "Select the error message you are seeing",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
@@ -55,8 +55,8 @@
                     "text": "Target Resource Group does not exist."
                 },
                 {
-                    "value": "The disk snapshot(metadata) for this Restore point has been deleted.",
-                    "text": "The disk snapshot(metadata) for this Restore point has been deleted."
+                    "value": "The disk snapshot (metadata) for this Restore point has been deleted.",
+                    "text": "The disk snapshot (metadata) for this Restore point has been deleted."
                 }
             ],
             "required": false
