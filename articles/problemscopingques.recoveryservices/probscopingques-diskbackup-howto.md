@@ -23,7 +23,7 @@
             "id": "operation_type",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Choose the topic that you have question about:",
+            "displayLabel": "Choose the topic you have question about:",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
