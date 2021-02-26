@@ -25,6 +25,15 @@ If your IoT Edge device was running successfully for a while, then eventually lo
 
 ## **Recommended Documents**
 
-* [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)
-* [Detect and troubleshoot disconnects with Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity)
-* [Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)
+**1.1 (and earlier)**
+
+* [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md?view=iotedge-2018-06)
+* [Detect and troubleshoot disconnects with Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity?view=iotedge-2018-06)
+* [How to Update IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge?view=iotedge-2018-06)
+
+**1.2 (and later)**
+
+* [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md?view=iotedge-2020-11)
+* [Detect and troubleshoot disconnects with Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity?view=iotedge-2020-11)
+* [How to Update IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge?view=iotedge-2020-11)
+
