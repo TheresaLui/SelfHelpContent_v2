@@ -131,7 +131,7 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        } 
     ],
     "$schema": "SelfHelpContent"
 }
