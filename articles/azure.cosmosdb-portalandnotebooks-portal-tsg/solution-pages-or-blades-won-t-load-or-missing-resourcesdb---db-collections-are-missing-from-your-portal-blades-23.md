@@ -18,10 +18,11 @@
 # Pages or blades won't load or Missing ResourcesDB - db collections are missing from your portal blades
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 
-### Issue: 
+#### Issue: 
 - Resources are missing
 - Pages or blades won't load  
 
