@@ -18,8 +18,6 @@
 # .Net: Change Feed: System.ArgumentException
 
 <!--issueDescription-->
-
-**Investigation (not customer message):**
 ### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 #### Issue: System.ArgumentException (Lease Collection Not Found)
