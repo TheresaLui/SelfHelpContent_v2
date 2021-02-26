@@ -67,7 +67,7 @@
       "order": 15,
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
-      "watermarkText": "Please provide additional information about your issue",
+      "watermarkText": "Provide additional information about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
