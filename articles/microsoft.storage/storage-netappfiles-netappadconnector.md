@@ -17,6 +17,8 @@
 
 # NetApp Volumes Unable to create or update AD connection
 
+Use these recommendations to resolve issues pertaining to Active Directory (AD) connections.
+
 ## **Recommended Steps**
 
 1. Note that only one Active Directory connection is allowed in a region. Refer to [Number of Active Directory connections](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#how-many-active-directory-connections-are-supported) for more details
