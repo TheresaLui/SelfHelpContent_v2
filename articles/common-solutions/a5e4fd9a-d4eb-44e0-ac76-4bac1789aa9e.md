@@ -16,13 +16,13 @@
 Resolve unexpected behavior or errors in Connector using the following steps.
 
 ## **Recommended Steps**
-* If connector throws an error or exception code, start by validating whether the error is in the [Copy Activity errors documentation](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). This article contains most common errors from different data sources and actions to resolve them.
+* If Connector throws an error or exception code, start by validating whether the error is in the [Copy Activity errors documentation](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). This article contains most common errors from different data sources and actions to resolve them.
 
-* If this is a transient issue, such as an instable network connection, add retry in your [activity policy](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#activity-policy).
+* If this is a transient issue, such as an instable network connection, add `retry` to your [activity policy](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#activity-policy).
 
 * Review the specific connector’s document from [Data Store connectors](https://docs.microsoft.com/azure/data-factory/copy-activity-overview?WT.mc_id=Portal-Microsoft_Azure_Support#supported-data-stores-and-formats) for more details.  If error or exception is thrown from 3rd party driver (ODBC Connector), please review documents from 3rd party.
 
-* If you ****use **Self-Hosted IR**, follow the steps in the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory).
+* If you use **Self-Hosted IR**, follow the steps in the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory).
 
 * For errors on the most commonly associated data sources and sinks, review the following error troubleshooting guides:
    * [SQL connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
