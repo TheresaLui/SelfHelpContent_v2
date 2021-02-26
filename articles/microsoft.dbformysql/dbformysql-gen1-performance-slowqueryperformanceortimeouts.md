@@ -42,10 +42,10 @@ See [sys_schema views for performance tuning](https://docs.microsoft.com/azure/m
 **Is a specific query slow?**
 
 Consider using [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store) and [Slow Query log](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal) to spot slow queries and then [Explain and Optimize your query](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance).
-    * Make sure that you have the right set of indexes created for your queries.
-    * Make sure that there are no deadlocks in concurrent queries.
-    * Monitor the resource consumption of your server. If you max out I/O or compute resources, increase or scale up the resource on which you are limited.
-    * Only retrieve the columns that you really need, instead of using `select \*`.
+  - Make sure that you have the right set of indexes created for your queries.
+  - Make sure that there are no deadlocks in concurrent queries.
+  - Monitor the resource consumption of your server. If you max out I/O or compute resources, increase or scale up the resource on which you are limited.
+  - Only retrieve the columns that you really need, instead of using `select \*`.
 
 ## **Recommended Documents**
 
