@@ -66,7 +66,7 @@
       "id": "adu_deviceid",
       "order": 7,
       "controlType": "textbox",
-      "displayLabel": "What is the Device ID(s) of the device(s) encountering an issue?",
+      "displayLabel": "What is the Device ID of the device encountering an issue?",
       "required": false
     },
     {
@@ -74,7 +74,7 @@
       "order": 15,
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
-      "watermarkText": "Please provide additional information about your issue",
+      "watermarkText": "Provide additional information about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
