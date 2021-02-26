@@ -41,9 +41,9 @@
 	"defaultDropdownOptions": {
 	  "value": "dont_know_answer",
 	  "text": "None of the above"
-	}
+        }
       },
-        "dropdownOptions": [
+      "dropdownOptions": [
         {
 	   "value": "NoNetAppAccount",
 	   "text": "Did not find the NetApp account"
