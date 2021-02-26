@@ -31,7 +31,7 @@
             "id": "jobID_Name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Enter the failed backup job Activity ID:",
+            "displayLabel": "Enter the failed backup job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b ",
             "required": false
         },
@@ -39,7 +39,7 @@
             "id": "backup_completed",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Has the backup ever completed before?",
+            "displayLabel": "Has the backup ever completed successfully?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
