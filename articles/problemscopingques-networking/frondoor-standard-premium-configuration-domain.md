@@ -14,7 +14,6 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Error When Add custom domain",
     "formElements": [
