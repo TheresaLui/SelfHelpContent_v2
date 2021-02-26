@@ -22,7 +22,7 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 - You cannot publish from private branches
 
 ### **Best Practice**
- [Best practices](https://docs.microsoft.com/azure/data-factory/)
+[Best practices](https://docs.microsoft.com/azure/data-factory/)
 
 ### **Custom parameters**
 
@@ -34,7 +34,7 @@ Git publishing does not allow publishing for a subset of changes. To publish ind
 
 ### **Azure Resource Manager template size limit**
 
-If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits
+If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits.
 
 ### **Running only in test env.**
 When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
