@@ -82,7 +82,7 @@
       "displayLabel": "Error message",
       "watermarkText": "What was the error message",
       "required": false
-    },
+    }
   ],
   "$schema": "SelfHelpContent"
 }
