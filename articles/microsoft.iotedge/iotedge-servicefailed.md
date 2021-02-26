@@ -12,7 +12,7 @@
   ownershipid="AzureIot_IotEdge" />
 # The iotedged service is in a failed state
 
-If the IoT Edge service is reporting a failed state, there are several possible causes, including an error in the connection string, firewall connection errors, and the container engine not running. IoT Edge has a built-in troubleshooting tool to check all these common errors at once. 
+If the IoT Edge service is reporting a failed state, there are several possible causes, including an error in the connection string, firewall connection errors, and the container engine not running. IoT Edge has a built-in troubleshooting tool that can check for all of these common errors. 
 
 ## **Recommended Steps**
 Run the IoT Edge troubleshooting tool on your IoT Edge device:
