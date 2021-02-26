@@ -62,7 +62,7 @@
       			"displayLabel": "New Size",
       			"watermarkText": "What is the desired new size of the Capacity Pool",
       			"required": false
-  		}, {
+		}, {
       			"id": "problem_description",
       			"order": 5,
       			"controlType": "multilinetextbox",
