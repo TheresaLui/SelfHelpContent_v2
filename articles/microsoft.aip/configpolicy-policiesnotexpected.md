@@ -13,7 +13,7 @@
   ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection - Creating and configuring Labels and Policies - Policies not behaving as expected"
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 ## **Recommended Steps**
 
