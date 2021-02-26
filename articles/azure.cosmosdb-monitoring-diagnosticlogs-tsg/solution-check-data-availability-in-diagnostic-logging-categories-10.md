@@ -18,6 +18,7 @@
 # Check Data Availability in Diagnostic Logging Categories
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 **Investigation (not customer message):**
 This TSG is to identify the properties that are available per diagnostic log category.  The properties map to columns in AzureDiagnostics
@@ -96,7 +97,7 @@ https://msdata.visualstudio.com/CosmosDB/_git/CosmosDB?path=%2FProduct%2FBackend
             L" \"querytext\": \"%s\"}",
 
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.
 
 <!--/issueDescription-->
