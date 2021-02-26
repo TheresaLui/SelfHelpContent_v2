@@ -30,4 +30,10 @@ IoT Edge deployment manifests describe the modules that should be running on an 
 
 ## **Recommended Documents**
 
-* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)
+**1.1 (and earlier)**
+
+* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2018-06#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)
+
+**1.2 (and later)**
+
+* [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot-common-errors?view=iotedge-2020-11#edge-agent-module-reports-empty-config-file-and-no-modules-start-on-the-device)
