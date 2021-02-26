@@ -66,28 +66,28 @@
       "id": "adu_deviceid",
       "order": 7,
       "controlType": "textbox",
-      "displayLabel": "What is the Device ID(s) of the device(s) encountering an issue?",
+      "displayLabel": "What is the Device ID of the device encountering an issue?",
       "required": false
     },
     {
       "id": "adu_agenttype",
       "order": 10,
       "controlType": "textbox",
-      "displayLabel": "What type of ADU Agent is running on the device(s) encountering an issue? (e.g. Azure Percept, Edge Gateway, Other)",
+      "displayLabel": "What type of ADU Agent is running on the device encountering an issue? (for example, Azure Percept, Edge Gateway, Other)",
       "required": false
     },
     {
       "id": "adu_ostype",
       "order": 11,
       "controlType": "textbox",
-      "displayLabel": "What type of Operating System is running on the device(s) encountering an issue?",
+      "displayLabel": "What type of Operating System is running on the device encountering an issue?",
       "required": false
     },
     {
       "id": "adu_devicearch",
       "order": 12,
       "controlType": "textbox",
-      "displayLabel": "What architecture is being used by the device(s) encountering an issue?",
+      "displayLabel": "What architecture is being used by the device encountering an issue?",
       "required": false
     },
     {
@@ -95,7 +95,7 @@
       "order": 15,
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
-      "watermarkText": "Please provide additional information about your issue",
+      "watermarkText": "Provide additional information about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
