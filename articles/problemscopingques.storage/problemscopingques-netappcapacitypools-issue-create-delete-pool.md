@@ -50,7 +50,7 @@
                 }
             ],
             "required": true
-        },
+  },
   {
       "id": "pool_name",
       "order": 3,
