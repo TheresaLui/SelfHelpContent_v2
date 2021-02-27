@@ -17,18 +17,18 @@
 />
 
 # Azure Managed Instance for Apache Cassandra configuration
-Most users are able to resolve their Managed Instance Cassandra configuration issue using the steps below.
+Most users are able to resolve issues with Managed Instance Cassandra configurations by using the steps below.
 
 ## **Recommended Steps**
 
 ### **Cassandra is not running or starting up**
-Make sure you are not blocking access to vital Azure services that are necessary for Managed Cassandra to work properly:
+Make sure you aren't blocking access to vital Azure services that are necessary for Managed Cassandra to work properly:
 
 - Azure Storage
 - Azure KeyVault
 - Azure Virtual Machine Scale Sets
 - Azure Monitoring
-- Azure AAD
+- Azure Active Directory
 - Azure Security
 
 ### **A datacenter in a different VNet is not running or starting up**
@@ -80,7 +80,7 @@ Cassandra Managed Instances is not using a public IP, so the following ports are
 We currently support only Apache Cassandra 3.11. We'll have guidance for connecting DSE clusters at a later time.
 
 ### **nodetool**
-We do not support `odetool` directly. Instead, use the following, in Azure CLI:
+We do not support `nodetool` directly. Instead, use the following, in Azure CLI:
 
 ```
 azurecli-interactive
