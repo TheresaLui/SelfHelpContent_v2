@@ -37,8 +37,8 @@ If you get certificate errors make sure you have all the Azure certificates (see
 ### **I cannot connect with cqlsh**
 If verifying certificates and connectivity with curl above was successful, try in cqlsh:
 
+
 ```
-shell
 export SSL_VERSION=TLSv1_2
 export SSL_VALIDATE=false # disable hostname validation
 cqlsh --ssl <host IP> -u <username> -p <password>
@@ -59,15 +59,15 @@ Most systems are setup such that the certificates installed on the system are al
 
 In that case specify it explicitly, for example:
 
+
 ```
-shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node 10.0.13.5 -mode native cql3 user=cassandra password=cassandra
 ``` 
    
 If you have set up public/private key authentication for Cassandra, make sure to supply the private key when connecting as follows:
 
+
 ```
-shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node 10.0.13.5 -mode native cql3 user=cassandra password=Cassandra keystore=<my-keystore> keystore-password=<my keystore password>
 ```
    
@@ -75,8 +75,8 @@ cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/s
 ### **How do I convert a pem certificate to use as a truststore with Java programs like cassandra stress?**
 The intent is for the installed public certificates to work out of the box with Managed Instance Cassandra offering and this has been tested as such. So in most cases the following should not be necessary.  
 
+
 ```
-shell
 keytool -import -alias mycert -file <certificate file>  -keystore <keystore-file> -storetype PKCS12  -storepass password
 ```
    
@@ -86,8 +86,8 @@ The first error can occur when trying to use Cassandra-stress on a multi-dc Cass
 
 You can work around this issue by specifying additional command line argument, passing the *schema* parameter
 
+
 ```
-shell
 cassandra-stress write n=1000000 -rate threads=160 -transport "truststore=/etc/ssl/certs/java/cacerts truststore-password=changeit" -node $host -mode native cql3 user=cassandra password=cassandra -schema "replication(strategy=NetworkTopologyStrategy, my-dc-westus=3, my-dc-eastus=3)"
 ```
    
