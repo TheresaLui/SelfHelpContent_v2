@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="nishring,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32633327"
   resourcetags=""
@@ -13,7 +13,7 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
-## **Recommended Steps**
+## **Recommended Steps** 
 
 ### **Configure tokens in Azure Active Directory (AD) B2C** 
 
