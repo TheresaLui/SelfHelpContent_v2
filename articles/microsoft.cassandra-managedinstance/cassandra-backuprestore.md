@@ -24,7 +24,5 @@ Most users are able to resolve their Managed Instance Cassandra backup and resto
 ### **Public Preview**
 The backup or restore feature is not supported yet.  The feature is expected to be available soon.  
 
-
-
 ## **Recommended Documents**
 [FAQ for Azure Managed Instance Apache Cassandra](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq)
