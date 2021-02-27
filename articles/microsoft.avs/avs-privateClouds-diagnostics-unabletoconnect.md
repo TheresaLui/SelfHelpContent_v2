@@ -13,7 +13,7 @@
 	productPesIds="17080"
 	cloudEnvironments="public"
 	articleId="AvsControlPlaneIssues_UnableToConnectToVMwareVM"
-	ownershipId="Azure_VMwareSolution_Content"
+	ownershipId="AzureDedicated_Networking"
 />
 
 # Network Control Plane Issues
