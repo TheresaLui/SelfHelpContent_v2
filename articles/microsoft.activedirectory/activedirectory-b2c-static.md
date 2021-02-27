@@ -13,7 +13,7 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
-## **Recommended steps**
+## **Recommended steps** 
 
 You can get help for many common problems by exploring the following channels.
 
