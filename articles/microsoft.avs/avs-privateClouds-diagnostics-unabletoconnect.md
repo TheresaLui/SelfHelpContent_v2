@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="17080"
 	cloudEnvironments="public"
-	articleId="AvsControlPlaneIssues_UnableToConnectToVMwareVM"
+	articleId="AvsControlPlaneIssues-UnableToConnectToVMwareVM"
 	ownershipId="AzureDedicated_Networking"
 />
 
