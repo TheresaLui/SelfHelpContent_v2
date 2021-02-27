@@ -44,7 +44,7 @@ For Linux devices:
 
 For Windows devices:
 
-__Pending support for 1.2 in EFLOW__
+__Pending support for 1.2 in Edge for Linux on Windows (EFLOW)__
 
 ## **Recommended Documents**
 
