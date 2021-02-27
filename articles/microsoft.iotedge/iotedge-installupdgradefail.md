@@ -25,7 +25,7 @@ If IoT Edge fails during installation or update, it's often because of a missing
 For Linux devices:<br>
 
 1. If you can, run the command **sudo iotedge check --verbose** to test for common configuration errors
-2. Make sure that the container engine is running. If you get errors trying to install the Moby container engine, [Verify your Linux kernel for Moby compatibility](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-linux?view=iotedge-2018-06#verify-your-linux-kernel-for-moby-compatibility).
+2. Make sure that the container engine is running. If you get errors trying to [install the Moby container engine](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?view=iotedge-2018-06#install-a-container-engine).
 3. Check that you used the installation packages that match your device's operating system. There are unique packages for each [supported operating system](https://docs.microsoft.com/azure/iot-edge/support#operating-systems?view=iotedge-2018-06).
 
 For Windows devices:<br>
@@ -38,12 +38,12 @@ For Windows devices:<br>
 For Linux devices:<br>
 
 1. If you can, run the command **sudo iotedge check --verbose** to test for common configuration errors
-2. Make sure that the container engine is running. If you get errors trying to install the Moby container engine, [Verify your Linux kernel for Moby compatibility](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-linux?view=iotedge-2020-11#verify-your-linux-kernel-for-moby-compatibility).
+2. Make sure that the container engine is running. If you get errors trying to [install the Moby container engine](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge?view=iotedge-2020-11#install-a-container-engine).
 3. Check that you used the installation packages that match your device's operating system. There are unique packages for each [supported operating system](https://docs.microsoft.com/azure/iot-edge/support?view=iotedge-2020-11#operating-systems).
 
 For Windows devices:<br>
 
-__Pending support for v1.2 in EFLOW__
+__Pending support for v1.2 in Edge for Linux on Windows (EFLOW)__
 
 ## **Recommended Documents**
 
