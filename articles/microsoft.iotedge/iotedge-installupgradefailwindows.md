@@ -21,7 +21,7 @@ If IoT Edge fails during installation or update, it's often because of a missing
 ## **Recommended Steps**
 
 1. If you can, run the command **iotedge check --verbose** to test for common configuration errors
-2. Verify that your device is running a [supported version of Windows](https://docs.microsoft.com/azure/iot-edge/support?view=iotedge-2018-06#operating-systems). Windows 10 Enterprise is not supported to host IoT Edge due to licensing issues. The EULA explicitly excludes the use of Windows Containers on non-Server and non-IOT editions of Windows in product environments.
+2. Verify that your device is running a [supported version of Windows](https://docs.microsoft.com/azure/iot-edge/support?view=iotedge-2018-06#operating-systems).
 
 ## **Recommended Documents**
 
