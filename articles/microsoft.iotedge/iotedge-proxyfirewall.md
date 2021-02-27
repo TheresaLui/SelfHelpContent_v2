@@ -27,13 +27,13 @@ Run the IoT Edge troubleshooting tool on your IoT Edge device to identify common
 
 ## **Recommended Documents**
 
-**1.1 (or earlier)**
+**1.1 (and earlier)**
 
 * [Firewall and port configuration rules for IoT Edge deployments](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06#check-your-firewall-and-port-configuration-rules)
 * [Configure an IoT Edge device to communicate through a proxy server](https://docs.microsoft.com/azure/iot-edge/how-to-configure-proxy-support?view=iotedge-2018-06)
 * [Networking checklist for IoT Edge deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist?view=iotedge-2018-06#networking)
 
-**1.2 (or later)**
+**1.2 (and later)**
 
 * [Firewall and port configuration rules for IoT Edge deployments](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11#check-your-firewall-and-port-configuration-rules)
 * [Configure an IoT Edge device to communicate through a proxy server](https://docs.microsoft.com/azure/iot-edge/how-to-configure-proxy-support?view=iotedge-2020-11)
