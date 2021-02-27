@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
 	"title": "CycleCloud issues in general",
 	"fileAttachmentHint": "",
 	"formElements": [{
