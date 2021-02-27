@@ -76,7 +76,7 @@ Cassandra Managed Instances is not using a public IP, so the following ports are
 <br> **9443**, *Prometheus*, Endpoint for Prometheus metrics   
 
 
-### **DSE 6.0 will not connect to Managed Instances for Cassandra in Hybrid Mode**
+### **DSE 6.0 will not connect to Managed Instances for Cassandra in hybrid mode**
 We currently support only Apache Cassandra 3.11. We'll have guidance for connecting DSE clusters at a later time.
 
 ### **nodetool**
