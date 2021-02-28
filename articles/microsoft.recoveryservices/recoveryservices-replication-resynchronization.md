@@ -1,19 +1,17 @@
 <properties
-    pageTitle="I need help with resynchronization"
-    description="Questions or issues related to resync failures"
-    service="microsoft.recoveryservices"
-    resource="vaults"
-    authors="v-miegge"
-    ms.author="sideeksh"
-    selfHelpType="generic"
-    supportTopicIds="32745015"
-    resourceTags=""
-    productPesIds="16370"
-    ownershipId="Compute_SiteRecovery"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="37f9bdea-af30-4a87-98d6-e02e95b90364"
-/>
-
+  pagetitle="I need help with resynchronization&#xD;"
+  description="Questions or issues related to resync failures"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sideeksh,sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32745015"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="37f9bdea-af30-4a87-98d6-e02e95b90364"
+  ownershipid="Compute_SiteRecovery" />
 # I need help with resynchronization
 
 ## **Recommended Documents**
