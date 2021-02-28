@@ -52,7 +52,7 @@
       			"id": "netapp_account_name",
       			"order": 3,
       			"controlType": "textbox",
-						"visibility": "netapp_account != null && netapp_account == NoNetAppAccount"
+			"visibility": "netapp_account != null && netapp_account == NoNetAppAccount",
       			"displayLabel": "NetApp Account Name",
       			"watermarkText": "Name of NetApp Account used",
       			"required": false
