@@ -450,6 +450,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d7d76d6-7547-a837-2cb6-926c4d60972b",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup using Disk Backup",
+      "searchTags": "Disk Backup ;Fail",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ef7131b-6534-c75d-35df-f14f3309fd98",
       "longDescription": "",
       "shortDescription": "Issue while disabling disk backup",
@@ -655,6 +663,14 @@
       "shortDescription": "Scheduled backup is failing  but On-demand backup is working",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ab502eca-6186-6c89-07c4-dbb0dca7ccd8",
+      "longDescription": "",
+      "shortDescription": "Scheduled backup is failing but On-demand backup is working",
+      "searchTags": "Disk Backup;Scheduled ",
+      "category": "connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {

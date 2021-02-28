@@ -18,10 +18,12 @@
 # Cancel long running query issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:**
 Make sure to confirm customer executed an Expensive Query and wanted to cancel the Execution with no luck. If customer claims that the query has been running for a long time on the server based on their RUs observations, customer also noticed a spike in RU consumption and it matches the query execution time.
 
-##Resolution:
+**Resolution:**
 * The spikes in their request count may come from the SDK (for example the .NET SDK). Closing portal window, will stop the request. Please find more information in the comment below.
 * From query engine perspective, each backend request is preempted after 4.5 seconds. A query can have multiple backend requests.
 If the query was long running, there must have been many throttled requests. Please execute the below Kusto query:
@@ -43,7 +45,7 @@ Request5M
 | order by userAgent asc
 ```
 
-**Customer message:**
+## Customer message:
 Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->

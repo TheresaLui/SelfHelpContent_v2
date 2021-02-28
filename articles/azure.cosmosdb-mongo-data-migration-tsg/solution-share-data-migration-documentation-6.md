@@ -18,10 +18,11 @@
 # Share Data Migration Documentation
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
 Based on the troubleshooting step before, please share the known issue or solution to customer and share any necessary link.
 
-**Example of Customer message:**
+## Example of Customer message:
 Dear customer,
 
 Please consider using  Azure Data factory to migrate data to a new account in your or another subscription. Here are the instructions for copying data for the Mongo API:

@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Business to Consumer (B2C)"
+  pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
   ms.author="vigunase,nishring"
@@ -31,6 +31,8 @@ Custom policies are configuration files that define the behavior of your Azure A
 ### **Useful Links** 
 
 * Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+
+* Check out our [Azure AD B2C community samples at GitHub](https://github.com/azure-ad-b2c/samples) today.
 
 * Learn more from our [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
