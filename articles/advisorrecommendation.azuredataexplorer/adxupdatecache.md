@@ -74,10 +74,6 @@
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
     {
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
-    {
       "name": "databaseName",
       "title": "Database Name"
     },

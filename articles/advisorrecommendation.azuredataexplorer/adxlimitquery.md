@@ -74,10 +74,6 @@
   "displayLabel": "Query time range is too wide - Consider setting your cache period (policy) to the recommended value",
   "additionalColumns": [
     {
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
-    {
       "name": "databaseName",
       "title": "Database Name"
     },

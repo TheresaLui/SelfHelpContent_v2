@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
+  "recommendationFriendlyName": "ReduceCacheForAzureDataExplorerTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
@@ -68,6 +68,10 @@
   },
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
+    {
+      "name": "databaseName",
+      "title": "Database Name"
+    },
 	{
       "name": "tableName",
       "title": "Table Name"
