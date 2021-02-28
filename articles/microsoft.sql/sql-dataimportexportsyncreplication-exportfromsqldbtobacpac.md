@@ -36,7 +36,7 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 * Customer will be able to perform cancel operation using REST API or PowerShell to cancel asynchronous update operations on the database.
 	* [Database Operations - Cancel using REST API](https://docs.microsoft.com/rest/api/sql/databaseoperations/cancel)
-	* [Database Operations - Cancel using PowerShell](https://docs.microsoft.com/en-us/powershell/module/az.sql/Stop-AzSqlDatabaseActivity?view=azps-5.5.0&viewFallbackFrom=azps-5.0.0)
+	* [Database Operations - Cancel using PowerShell](https://docs.microsoft.com/powershell/module/az.sql/Stop-AzSqlDatabaseActivity?view=azps-5.5.0&viewFallbackFrom=azps-5.0.0)
 	* If there are any issues cancelling the operation or unable to cancel using above options. Please file a ticket to get your export cancelled.
 
 ### Blob already exists
