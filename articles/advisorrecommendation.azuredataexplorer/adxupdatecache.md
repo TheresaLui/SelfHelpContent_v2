@@ -1,7 +1,7 @@
 <properties
     pageTitle="Reduce cache in Azure Data Explorer table"
     description="Reduce cache for Azure Data Explorer tables"
-    authors="raldaba"
+    authors="joaldaba"
     ms.author="aoaft"
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
     selfHelpType="advisorRecommendationMetadata"
@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_UpdateCacheReco",
+    "schemaVersion": 2.1,
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUpdateCacheRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.08:00:00"
+    "refreshInterval": "0.01:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
+  "recommendationFriendlyName": "ReduceCacheForAzureDataExplorerTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -43,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.1,
+  "version": 3.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
@@ -76,6 +76,10 @@
     {
       "name": "clusterName",
       "title": "Cluster Name"
+    },
+    {
+      "name": "databaseName",
+      "title": "Database Name"
     },
 	{
       "name": "tableName",

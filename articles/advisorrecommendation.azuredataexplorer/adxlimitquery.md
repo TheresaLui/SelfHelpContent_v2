@@ -1,7 +1,7 @@
 <properties
     pageTitle="Update cache policies in Azure Data Explorer table"
     description="Update cache policies for Azure Data Explorer tables"
-    authors="raldaba"
+    authors="joaldaba"
     ms.author="aoaft"
     articleId="d437a3b5-c7a2-4162-83a2-ba8e7ce18d99_Public"
     selfHelpType="advisorRecommendationMetadata"
@@ -16,15 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "f011adf6-475a-48c9-bf26-8db051cb6964",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_LimitQueryReco",
+    "schemaVersion": 2.1,
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishLimitQueryRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.08:00:00"
+    "refreshInterval": "0.01:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Update Cache Policies for ADX tables",
+  "recommendationFriendlyName": "UpdateCachePoliciesForAdxTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -43,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.1,
+  "version": 3.1,
   "learnMoreLink": "https://aka.ms/adxcacheperformance",
   "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: Limit queries on this table to the minimal necessary time range (within the defined policy). Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
@@ -76,6 +76,10 @@
     {
       "name": "clusterName",
       "title": "Cluster Name"
+    },
+    {
+      "name": "databaseName",
+      "title": "Database Name"
     },
 	{
       "name": "tableName",
