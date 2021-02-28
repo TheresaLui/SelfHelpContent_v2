@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
 />
-# Unable to move volume to destination Pool
+# Issues creating or deleting a NetApp Account
 ---
 {
   "$schema": "SelfHelpContent",
