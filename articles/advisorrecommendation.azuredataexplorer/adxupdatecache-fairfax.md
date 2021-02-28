@@ -92,6 +92,10 @@
       "name": "potentialDataSavings",
       "title": "Est. Data Savings"
     },
+    {
+      "name": "potentialInstancesSave",
+      "title": "Potential Instances Save"
+    },
 	{
       "name": "requiredDataReductionForScaleIn",
       "title": "Req. Data Reduction for Scale-In"
