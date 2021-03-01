@@ -59,6 +59,6 @@ ownershipId="CloudNet_NVA"
           "title": "Event Start Time"
         }
     ],
-    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer, {\"startTime\" :\"2021-02-28 19:34:54.7517879\", \"Duration\" :\"00:00:00.9260000\"}"
+    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer, \"{\"\"startTime\"\":\"\"2021-02-28 19:34:54.7517879\"\", \"\"Duration\"\" :\"\"00:00:00.9260000\"\"}\""
 }
 ---
