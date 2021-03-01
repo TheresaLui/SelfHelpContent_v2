@@ -20,16 +20,16 @@
 # Sign In Failed due to Legacy Authentication
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Exchange Online and was not allowed to sign-in since the client attempted to authenticate using a legacy authentication protocol. 
+Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Exchange Online and was not allowed to sign-in since the client attempted to authenticate using a legacy authentication protocol. 
 
 Preventing legacy authentication sign-in is recommended as a best practice for security. Legacy authentication protocols like POP, SMTP, IMAP, and MAPI cannot enforce Multi-Factor Authentication (MFA) which makes them preferred entry points for adversaries to attack your organization.
 
-The policy or policies below prevented the sign-in:
+The policy or policies that prevented the sign-in:
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
 
-Review the application and client information in the Sign-in Details below for more information about this sign-in attempt. 
+Review the application and client information in the following Sign-in Details for more information about this sign-in attempt. 
 
 Note: Exchange Online is removing support for Basic Authentication (another name for legacy authentication). More information is available in the links below.
 
