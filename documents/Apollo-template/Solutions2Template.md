@@ -1,5 +1,3 @@
-<!--DIRECTIONS: Open the raw form of this article to view template guidelines for creating Solutions 2.0 (Apollo) articles for Azure Self-help. Copy the raw form to create your own solutions outside of Elixir. Make sure to include the required properties, title, and body sections in the order shown. Use markdown, except where XML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
-
 <!--For information about each property, see the Metadata page-->
 <properties
 	pageTitle="Apollo common solutions"
@@ -18,7 +16,7 @@
 <!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this article to create Solution 2.0 (Apollo) articles. <br>
-Authoring guidelines and sample schemas are provided in this template.
+Be sure to review the Rules at the end of this template to prevent validation and editorial errors.
 
 ## Title - Required
 
@@ -130,8 +128,7 @@ This is the Apollo schema for AzureKB articles-->
 	<client>Portal</client>
 </azureKB>
 
-
-<!--RULES:
+## Rules
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 
@@ -145,4 +142,3 @@ This is the Apollo schema for AzureKB articles-->
 * Insert a blank line after every heading
 * Don't use more than five (5) sections per article.
 * Don't use internal links, which users can't access. This includes `review.microsoft.docs` links and `aka.ms` links.
--->
