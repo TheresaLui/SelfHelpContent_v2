@@ -23,9 +23,7 @@ Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Mult
 
 ### **Can I send customized email to users that sign up to use my applications?**
 
-Yes. Use the company branding feature to customize the content of verification emails. [Learn how elements of the email can be customized](https://docs.microsoft.com/azure/active-directory-b2c/faq?tabs=app-reg-ga#how-do-i-customize-verification-emails-the-content-and-the-from-field-sent-by-azure-ad-b2c). 
-
-Also, by using **DisplayControls** (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template and **From:** address and subject, as well as support localization and custom One-Time Password (OTP) settings. 
+Yes. Use the company branding feature to customize the content of verification emails. [Learn how elements of the email can be customized](https://docs.microsoft.com/azure/active-directory-b2c/faq?tabs=app-reg-ga#how-do-i-customize-verification-emails-the-content-and-the-from-field-sent-by-azure-ad-b2c). Also, by using **DisplayControls** (currently in preview) and the third-party email provider [SendGrid](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-sendgrid) or [Mailjet](https://docs.microsoft.com/azure/active-directory-b2c/custom-email-mailjet), you can use your own email template and **From:** address and subject, as well as support localization and custom One-Time Password (OTP) settings. 
 
 ### **For my customers, can I generate and send a code to a phone number, and then verify the code?** 
 
