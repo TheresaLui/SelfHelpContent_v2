@@ -3,7 +3,7 @@
   description="Missing app-consistent points that you wanted to use in order to failover"
   service="microsoft.recoveryservices"
   resource="vaults"
-  ms.author="sideeksh,sharrai"
+  ms.author="sharrai"
   selfhelptype="Generic"
   supporttopicids="32786262"
   resourcetags=""
@@ -44,17 +44,7 @@ As part of the  migration process, the Server Migration tool creates a temporary
 
 ### **The migrated machine doesn't have the Azure agent, and I am unable to install Azure VM extensions on the machine**
 
-Server Migration installs the Azure agent on the virtual machine as part of the migration operation in certain scenarios as listed below. For other scenarios it is recommended that you install the Azure agent on the virtual machine post migration to Azure.
-
-| Replication method | For Windows machines | For Linux machines |
-|--|--|
-| Agentless replication for VMware virtual machines | Requires manual installation post migration | Requires manual installation post migration |
-
-| Replication method  | For Windows machines  | For Linux machines |  
-|---------|---------|---------|
-|Agentless replication for VMware virtual machines     |  Requires manual installation post migration        | Requires manual installation post migration         |
-|Agent-based replication for VMware virtual machines and physical servers     |   Installed by Server Migration tool</br>*(Not applicable for versions for which Azure VM agents aren't available)*      | Requires manual installation post migration      |
-|Agentless replication of Hyper-V virtual machines     | Requires manual installation post migration        |   Requires manual installation post migration      |
+Azure agent is installed automatically for Windows machines. For Linux machines it is recommended that you install the Azure agent on the virtual machine post migration to Azure.
 
 ### **I cannot see all VM SKUs while migrating to Azure Government**
 
