@@ -53,7 +53,7 @@
             "id": "scan_id",
             "order": 30,
             "controlType": "textbox",
-            "displayLabel": "Please provide Scan Run ID",
+            "displayLabel": "Provide Scan Run ID",
             "required": false
         },
        {
