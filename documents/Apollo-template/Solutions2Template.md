@@ -57,6 +57,7 @@ Example:
 3. This is a step with a [link](http://)
 4. This is a step with inline code: `SELECT name, is_disabled FROM sys.sql_logins`
 5. This is a step with multi-line code:
+
 ```
 [cluster my-cluster]
     FormLayout = selectionpanel
@@ -65,6 +66,7 @@ Example:
     MaxCount = 200
     Autoscale = $Autoscale
 ```
+
 For non-sequential tasks, use unordered (bullet) lists.
 Example:
 * Item1
