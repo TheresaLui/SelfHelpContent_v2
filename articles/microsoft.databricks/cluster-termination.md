@@ -29,4 +29,4 @@
 
 * **Is is possible to restore a cluster?**
   
-  If cluster is deleted, it cannot be restored by design. Instead, a new cluster should be created.
+  If a cluster is deleted, it cannot be restored by design. Instead, a new cluster should be created.
