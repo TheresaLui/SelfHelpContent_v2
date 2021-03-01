@@ -50,7 +50,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 > * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 > * [Service Health Alerts](https://docs.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal)
-> *  [Scheduled Events](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)
+> * [Scheduled Events](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)
 <!--/recommendedActions-->
 
 
