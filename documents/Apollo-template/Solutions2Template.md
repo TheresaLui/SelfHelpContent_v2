@@ -44,8 +44,7 @@ Solutions can be comprised of the following components. To format these solution
 -->
 
 ### Solution
-<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top.
-Note: If you have several solutions, consider presenting them accordian-style using Section tags. For example:
+<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. If you have several solutions, format them using Section tags. For example:
 :::Section section_name:::
 
 
