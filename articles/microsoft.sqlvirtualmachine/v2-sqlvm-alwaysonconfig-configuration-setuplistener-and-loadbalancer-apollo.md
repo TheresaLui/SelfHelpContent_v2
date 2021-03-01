@@ -1,21 +1,32 @@
 <properties
 	pageTitle="AlwaysOn Availability Groups - Setup Listener and Load Balancer"
-	description="AlwaysOn Availability Groups - Setup Listener and Load Balancer"
-	infoBubbleText="AlwaysOn Availability Groups - Setup Listener and Load Balancer"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat"	
-	authors="ujpat"
-	displayOrder="1"
-	diagnosticScenario=""
-	selfHelpType="diagnostics"
-	supportTopicIds="32740063,32740109"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="1d6f8725-f391-4668-9a5b-7d352b7806e7"
-	ownershipId="AzureData_AzureSQLVM"
+	description="AlwaysOn Availability Groups - Setup Listener and Load Balancer" 
+	ms.author="ujpat"
+	articleId="9c3eb3ef-1f70-408b-9281-f00a1cae3c8b" 
+	selfHelpType="Apollo" 
+    supportTopicIds="cbc61367-a1a4-0071-698c-df2a9d7ab579" 
+    productPesIds="14745,16342" 
+	cloudEnvironments="public,fairfax,usnat,ussec,blackforest,mooncake" 
+	ownershipId="AzureData_AzureSQLVM" 
 />
+
+# Always On Availability Groups - Failure, Failover, Sync issues
+
+## Resolve issues with Availability Groups - Failure, Failover, Sync issues
+
+:::Section Metrics and Diagnostics:::  
+
+### AG Failure diagnostics
+
+<insight>
+    <symptomId>SqlVmHADRPortalInsight</symptomId>
+    <executionText>We are running a few performance checks on your VM</executionText>
+    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
+    <noResultText>No issues found</noResultText>
+    <additionalInputsReq>true</additionalInputsReq>
+    <maxInsightCount>1</maxInsightCount>
+    <failedText>We ran into an issue and could not complete this check</failedText>
+</insight>
 
 # We ran diagnostics on your resource and found the below steps which can help you. 
 
@@ -28,6 +39,7 @@ Most users can find sufficient information for **Setting up Listener and a load 
 
 ## **Recommended Steps** 
 
+:::Section Configuring Listener for Availability Groups:::
 * **Configuring Listener for Availability Groups** 
 
 1. [Configure Listener](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener). If you are using SQL 2019 CU8+ on Windows 2016, you can use [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer. 
@@ -36,8 +48,8 @@ Most users can find sufficient information for **Setting up Listener and a load 
 
 3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
 
-
-- **Configuring Load Balancer using Azure Portal** 
+:::Section Configuring Load Balancer using Azure Portal:::
+- **Configuring Load Balancer using portal and powershell** 
 
 1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
 
@@ -75,15 +87,16 @@ Most users can find sufficient information for **Setting up Listener and a load 
 	}
 	```
 
-	**Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
+    **Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
+:::Section Things to Keep in Mind when Configuring Listener or Load Balancer:::
 * **Things to Keep in Mind when Configuring Listener or Load Balancer** 
 
   * Multiple listeners can [use the same port (example 1433)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-listener-overview?view=sql-server-ver15#SelectListenerPort), but they must use a different probe port (for example, 59999 or 59998) 
    * The load balancer probe port (for example, 59999) must use a free port. 
    *  Make sure that the SQL instance port (for example, 1433), mirroring endpoint (for example, 5022), probe port (for example, 59999) are open in [NSG](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal#create-an-inbound-security-rule) and [Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule). You can [telnet](https://docs.microsoft.com/windows-server/administration/windows-commands/telnet) to the port or use [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection?view=win10-ps#example-3--test-tcp-connectivity-and-display-detailed-results) to check that the connections are not blocked at **NSG or Windows Firewall**.  
 
-
+:::Section Recommended Documents:::
 ## **Recommended Documents** 
 
 * [Create Standard SKU Load Balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-load-balancer-portal-configure) 
