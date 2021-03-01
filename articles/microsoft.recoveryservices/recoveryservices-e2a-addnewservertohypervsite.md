@@ -1,19 +1,17 @@
 <properties
-	pageTitle="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration"
-	description="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration"
-	service="microsoft.recoveryservices"
-	resource="vaults"
-	authors="anoopkv"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32536453"
-	resourceTags=""
-	productPesIds="16370"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="149aa758-e4a5-473b-8a18-4a4376439aa0"
-	ownershipId="Compute_SiteRecovery"
-/>
-
+  pagetitle="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration&#xD;"
+  description="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration"
+  service="microsoft.recoveryservices"
+  resource="vaults"
+  ms.author="sharrai"
+  selfhelptype="Generic"
+  supporttopicids="32786261"
+  resourcetags=""
+  productpesids="16370"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="149aa758-e4a5-473b-8a18-4a4376439aa0"
+  ownershipid="Compute_SiteRecovery" />
 # Site Recovery (VMM to Azure)/Site Recovery provider setup and registration
 
 ## **Recommended Steps**
