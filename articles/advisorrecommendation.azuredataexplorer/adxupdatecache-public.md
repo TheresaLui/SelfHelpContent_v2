@@ -1,11 +1,11 @@
 <properties
     pageTitle="Reduce cache in Azure Data Explorer table"
     description="Reduce cache for Azure Data Explorer tables"
-    authors="prvavill"
-    ms.author="kustosee"
-    articleId="79EB08B9-3448-4405-B0D9-1747BEEC2B89_Mooncake"
+    authors="joaldaba"
+    ms.author="aoaft"
+    articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Mooncake"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureDataExplorer_Kusto"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://kustodataestate.chinaeast2.kusto.chinacloudapi.cn').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUpdateCacheRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -27,18 +27,23 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "kustosee@microsoft.com",
+    "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "83b9306c-e434-4ec5-9bfc-a33b11e3eb19",
-      "service": "Kusto",
-      "team": "Kusto Live Incidents"
+      "routingId": "AORECOMMENDATIONS\\Triage",
+      "service": "AO Recommendations",
+      "team": "Triage"
     },
-    "serviceTreeId": "e02603c6-3469-498a-994c-b0df4ceae1d0"
+    "serviceTreeId": "2edb14ce-371e-489a-9807-379870b819ef"
   },
-  "ingestionClientIdentities": [],
+  "ingestionClientIdentities": [
+    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
+    "db97364d-48bf-4567-af34-e0843d0ee0af",
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "9c14bff5-1bda-4de6-a74f-4c3caa370570"
+  ],
   "recommendationTimeToLive": 86400,
   "version": 4.0,
-  "learnMoreLink": "https://docs.azure.cn/zh-cn/data-explorer/kusto/management/cachepolicy",
+  "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
   "potentialBenefits": "Optimize cost",
@@ -89,7 +94,7 @@
     },
 	{
       "name": "potentialDataSavings",
-      "title": "Est. Data Savings"
+      "title": "Estimated Data Savings"
     },
     {
       "name": "potentialInstancesSave",
@@ -97,7 +102,7 @@
     },
 	{
       "name": "requiredDataReductionForScaleIn",
-      "title": "Req. Data Reduction for Scale-In"
+      "title": "Required Data Reduction for Scale-In"
     },
 	{
       "name": "observationWindow",

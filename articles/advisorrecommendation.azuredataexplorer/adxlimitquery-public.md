@@ -1,9 +1,9 @@
 <properties
-    pageTitle="Reduce cache in Azure Data Explorer table"
-    description="Reduce cache for Azure Data Explorer tables"
-    authors="raldaba"
+    pageTitle="Update cache policies in Azure Data Explorer table"
+    description="Update cache policies for Azure Data Explorer tables"
+    authors="joaldaba"
     ms.author="aoaft"
-    articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
+    articleId="d437a3b5-c7a2-4162-83a2-ba8e7ce18d99_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureDataExplorer_Kusto"
@@ -11,20 +11,19 @@
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
 {
-  "recommendationOfferingId": "942bca88-3367-420f-a8c7-7eb34957f84d",
+  "recommendationOfferingId": "0b85c950-0437-4844-be0e-dbbeced43ae5",
   "recommendationOfferingName": "Azure Data Explorer",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
+  "recommendationTypeId": "f011adf6-475a-48c9-bf26-8db051cb6964",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_UpdateCacheReco",
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishLimitQueryRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
-  "recommendationCategory": "Cost",
+  "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
+  "recommendationFriendlyName": "UpdateCachePoliciesForAdxTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -43,26 +42,26 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.1,
-  "learnMoreLink": "https://aka.ms/adxcachepolicy",
-  "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
-  "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
-  "potentialBenefits": "Optimize cost",
+  "version": 4.0,
+  "learnMoreLink": "https://aka.ms/adxcacheperformance",
+  "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
+  "longDescription": "This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: Limit queries on this table to the minimal necessary time range (within the defined policy). Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
+  "potentialBenefits": "Optimize performance",
   "actions": [
-	{
-      "actionId": "b5c42adb-3575-42e4-b0f6-fbfac584b362",
-      "description": "Update cache settings",
+    {
+      "actionId": "d437a3b5-c7a2-4162-83a2-ba8e7ce18d99",
+      "description": "Update cache period",
       "actionType": "Blade",
 	  "extensionName": "Microsoft_Azure_Kusto",
       "bladeName": "DatabaseOverviewBladeViewModel",
       "metadata": {
         "id": "{resourceId}"
       }
-	}
+    }
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "72862f39-b75d-462f-b432-53a0f0dc37c7",
+      "actionId": "f702dbb7-6a38-41ed-ab6e-1af313ad260e",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -71,11 +70,11 @@
       }
     }
   },
-  "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
+  "displayLabel": "Query time range is too wide - Consider setting your cache period (policy) to the recommended value",
   "additionalColumns": [
     {
-      "name": "clusterName",
-      "title": "Cluster Name"
+      "name": "databaseName",
+      "title": "Database Name"
     },
 	{
       "name": "tableName",
@@ -83,7 +82,7 @@
     },
 	{
       "name": "currentConfig",
-      "title": "Current Cache Policy"
+      "title": "Current Cache Period"
     },
 	{
       "name": "cacheUsage",
@@ -91,21 +90,12 @@
     },
 	{
       "name": "recommendedConfig",
-      "title": "Recommended Cache Policy"
-    },
-	{
-      "name": "potentialDataSavings",
-      "title": "Estimated Data Savings"
-    },
-	{
-      "name": "requiredDataReductionForScaleIn",
-      "title": "Required Data Reduction for Scale-In"
+      "title": "Recommended Cache Period"
     },
 	{
       "name": "observationWindow",
       "title": "Observation Window"
     }
-  ],
-  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
+  ]
 }
 ---

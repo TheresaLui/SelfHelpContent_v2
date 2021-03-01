@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -24,7 +23,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
+  "recommendationFriendlyName": "ReduceCacheForAzureDataExplorerTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 4.0,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
@@ -68,6 +67,10 @@
   },
   "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
+    {
+      "name": "databaseName",
+      "title": "Database Name"
+    },
 	{
       "name": "tableName",
       "title": "Table Name"
@@ -87,6 +90,10 @@
 	{
       "name": "potentialDataSavings",
       "title": "Est. Data Savings"
+    },
+    {
+      "name": "potentialInstancesSave",
+      "title": "Potential Instances Save"
     },
 	{
       "name": "requiredDataReductionForScaleIn",
