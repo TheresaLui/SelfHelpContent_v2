@@ -16,16 +16,21 @@
 
 ## **Recommended Steps**
 
-- Ensure that the installation is done using an account that is a **Local Administrator** on the server. </br>
-- Ensure that the server on which you install the **Microsoft Azure Site Recovery Provider** has access to the following url's <br>
-	1. *.hypervrecoverymanager.windowsazure.com</br>
-	2. *.accesscontrol.windows.net</br>
-	3. *.backup.windowsazure.com</br>
-	4. *.blob.core.windows.net</br>
-	5. *.store.core.windows.net</br>
-- Ensure that the system clock on the server where you install **Microsoft Azure Site Recovery Provider** has the correct time for the time zone the server is configured for.</br>
-- Always choose the 'Connect to Azure Site Recovery using a proxy server' option if you know that the server on which you are installing **Microsoft Azure Site Recovery Provider** is behind a proxy server.</br>
+### **Errors while installing the Hyper-V replication provider**
 
-## **Recommended  Documents**
+The Hyper-V replication provider (AzureSiteRecoveryProvider.exe) should be installed on the Hyper-V host servers that hosts the virtual machines to be migrated. The Hyper-V hosts server must be on Windows Server 2012 R2 or a later version of Windows Server, and should have .NET framework 4.0/.30319 or later.
 
-[On-premises prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmm-to-azure/#on-premises-prerequisites)</br>
+For Hyper-V hosts that are on a version of Hyper-V older than Windows Server 2012 R2, consider using the [agent-based replication of physical and non-virtualized servers](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)] method instead to migrate the Hyper-V virtual machines.
+
+### **I get an error that says that the Hyper-V host is already registered to a Recovery Services vault.**
+
+The registration step connects the replication provider software installed on Hyper-V host to the Azure Migrate: Server Migration. The replication provider component is also used by Azure Site Recovery to provide disaster recovery for Hyper-V virtual machines. If you see a message indicating that the Hyper-V host is already registered to a Recovery Services vault, this most likely is because the Hyper-V host is configured for disaster recovery with Azure Site Recovery, or because the Hyper-V host is already registered to a different Azure Migrate: Server Migration project. Registering the Hyper-V host with two instances of Azure Migrate: Server Migration is not supported.
+If the Hyper-V host is already being using with Azure Site Recovery, consider using the [agent-based replication of physical and non-virtualized servers](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)] method instead to migrate the Hyper-V virtual machines.
+
+### **I get an error while finalizing registration for the Hyper-V host**
+
+After the replication provider is installed on the Hyper-V host and the registration has been completed using the registration key, you'll need to finalize the registration from the portal experience for the Server Migration tool. If the finalize registration step fails, retry the operation again as the error may be a transient. If the finalize registration operation continues to fail, you can troubleshoot further by going to the Server Migration jobs page. To see failed jobs, go to the Servers page of the Azure Migrate portal experience and click on 'Overview' on the Server Migration tile. In the Server Migration overview page that opens select 'Jobs' from the left menu to see a list of jobs. Right click the failed job and select error details to troubleshoot further.
+
+### **Where can I find the URLs that need access for Hyper-V migration in Azure Government**
+
+The replication provider software on the Hyper-V hosts will need access to the URLs mentioned [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v-migration#url-access-azure-government).
