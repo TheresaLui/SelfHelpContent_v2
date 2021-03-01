@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Business to Consumer (B2C)"
+  pagetitle="Business to Consumer (B2C)&#xD;"
   service=""
   resource=""
-  ms.author="nishring"
+  ms.author="nishring,runuguse"
   selfhelptype="Generic"
   supporttopicids="32781154"
   resourcetags=""
@@ -76,4 +76,4 @@ Your investigation into risk will often include:
 
 * Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
 
-* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c).
+* Ask your question to our developer community at  [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html).
