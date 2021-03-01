@@ -24,7 +24,7 @@
 The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is throwing a TooManyRequests error with the 16500 error code.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## Recommended Steps
 
 We recommend that you [enable server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) on this account to mitigate this issue. Note that server-side retries will prevent the service from ever sending a 16500 error. Instead, a request that would have resulted in a 16500 will be delayed until sufficient RU are available to complete the request, up to the request timeout of 60 seconds.
 
