@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Business to Consumer (B2C)&#xD;"
+  pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="nishring,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32781154"
   resourcetags=""
@@ -21,7 +21,7 @@ Answer many common questions about Azure Active Directory B2C by reviewing the f
 
 Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You can enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
 
-### **Can I send customized email to users that sign up to use my applications?** 
+### **Can I send customized email to users that sign up to use my applications?**
 
 Yes. Use the company branding feature to customize the content of verification emails. [Learn how elements of the email can be customized](https://docs.microsoft.com/azure/active-directory-b2c/faq?tabs=app-reg-ga#how-do-i-customize-verification-emails-the-content-and-the-from-field-sent-by-azure-ad-b2c). 
 
