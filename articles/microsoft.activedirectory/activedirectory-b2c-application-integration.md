@@ -2,7 +2,7 @@
   pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="runuguse,nishring"
+  ms.author="nishring,runuguse"
   selfhelptype="Generic"
   supporttopicids="32633321"
   resourcetags=""
@@ -36,4 +36,4 @@ The Microsoft Authentication Library (MSAL) enables application developers to au
 
 * Review [Frequently-asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C 
 
-* Ask your question to our developer community at  [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
+* Ask your question to our developer community at  [ Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)
