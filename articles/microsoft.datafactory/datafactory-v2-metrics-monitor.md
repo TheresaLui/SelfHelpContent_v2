@@ -1,20 +1,16 @@
 <properties
-    pageTitle="V2 - Monitor and Metrics Common Solutions"
-    description="V2 - Monitor and Metrics Common Solutions"
-    service=""
-    resource=""
-    authors="chez-charlie"
-    ms.author="chez"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32629510, 32637164"
-    resourceTags=""
-    productPesIds="15613"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="8c727d6a-a637-4401-a801-cafb122d252c"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="V2 - Monitor and Metrics Common Solutions&#xD;"
+  description="V2 - Monitor and Metrics Common Solutions"
+  service=""
+  resource=""
+  ms.author="chez,spagarwa"
+  selfhelptype="Generic"
+  supporttopicids="32637164"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="8c727d6a-a637-4401-a801-cafb122d252c"
+  ownershipid="AzureData_DataFactory" />
 # V2 - Monitor and Metrics Common Solutions
 
 ## **Recommended Steps**
