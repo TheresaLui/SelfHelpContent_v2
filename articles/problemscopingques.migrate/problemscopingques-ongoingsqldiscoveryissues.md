@@ -25,7 +25,7 @@
             "id": "access_privileges",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Do you have contributor or access to create Azure resources in subscription?",
+            "displayLabel": "Do you have contributor or access to create Azure resources in the subscription?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
@@ -116,7 +116,7 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
-        }
+        } 
     ],
     "$schema": "SelfHelpContent"
 }
