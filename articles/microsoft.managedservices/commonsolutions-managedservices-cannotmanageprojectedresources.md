@@ -14,13 +14,13 @@
   ownershipid="Compute_AzureLighthouse" />
 # Cannot manage projected resources
 
-Most users are able to manage projected resources using the steps below.
+Most users are able to manage projected resources using the following steps.
 
 ## **Recommended Steps**
 
 **Do you have the appropriate delegated permissions?**
 
-As a user, make sure you’re 1) part of the group or users that have been granted access to the resources, and 2) that the appropriate [RBAC role](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) has been assigned. 
+As a user, make sure that you’re 1) part of the group or users that have been granted access to the resources, and 2) that the appropriate [RBAC role](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) has been assigned. 
 
 For example, if you’d like to see a customer delegation, then you must have the Reader role. Or, if you’d like to remove a customer delegation, then you must have the Managed Service Registration Assignment Delete Role.
 
@@ -32,7 +32,7 @@ If you’re in the Azure Portal, check your [global and local filters](https://d
 
 **Are you trying something that’s not supported by Azure Lighthouse?**
 
-Please be aware of Azure Lighthouse’s [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
+Be aware of [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
 
 ## **Recommended Documents**
 
