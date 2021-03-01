@@ -29,7 +29,7 @@ To solve this issue, refer to additional details section for recommendations spe
 
 **Common error code** : **SQL ErrorNumber: 3204 The backup or restore was aborted**
 
-Check the Event viewer for error message 'The I/O operation has been aborted because of either a thread exit or an application request'. This could be due to high IOPS or hitting throttling limit while taking backup.
+Check the Event viewer for error message "The I/O operation has been aborted because of either a thread exit or an application request". This could be due to high IOPS or hitting throttling limit while taking backup.
 
 To resolve this issue, decrease the throughput by following the below steps:
 
