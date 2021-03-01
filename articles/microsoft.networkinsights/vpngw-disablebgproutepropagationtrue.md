@@ -16,14 +16,14 @@ ownershipId="CloudNet_AzureVPNGateway"
 
 # Route propagation disabled on gateway subnet
 <!--issueDescription-->
-We has detected a route table that is attached to the gateway subnet has route propagation disabled.
-The route propagation should not be disabled on the gateway subnet. The gateway will not function if this setting is disabled.
+We detected a route table attached to the gateway subnet has **Route propagation** disabled.
+The route propagation should not be disabled on the gateway subnet, or the gateway will not function.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 To enable route propagation for the VPN gateway, follow these steps:
 
-1. sign in to the Azure portal, and locate the affected route table.
+1. Sign in to the Azure portal, and locate the affected route table.
 2. On the **Configuration settings** blade, select **Yes** under **propagate gateway routes**.
 
 ## **Recommended Documents**
