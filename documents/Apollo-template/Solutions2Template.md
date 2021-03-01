@@ -33,7 +33,7 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
 - For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
-Solutions can be comprised of the following components. To format these solutions, go to the next section, "Solution". 
+Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
 - Procedures
 - Images
 - Diagnostics  
