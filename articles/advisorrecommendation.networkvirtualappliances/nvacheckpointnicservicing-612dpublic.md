@@ -20,7 +20,7 @@ ownershipId="CloudNet_NVA"
         "dataSource": "Kusto",
         "refreshInterval": "0.12:00:00"
     },
-    "recommendationCategory": "Availability",
+    "recommendationCategory": "OperationalExcellence",
     "recommendationImpact": "High",
     "recommendationResourceType": "Microsoft.Compute/virtualMachines",
     "recommendationFriendlyName": "NvaCheckpointNicServicing",
