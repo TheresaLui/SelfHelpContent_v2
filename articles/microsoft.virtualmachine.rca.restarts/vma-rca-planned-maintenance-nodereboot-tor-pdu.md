@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--additionalInfo-->
 ### **Additional Information**
-> Customers can control the distribution of their VMs that are at risk of impact from a single infrastructure failure, like in this case. For more details, please see: https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability. Configure [Service Health Alerts](https://docs.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal) to recieve advanced notification of planned updates.
+> Customers can control the distribution of their VMs that are at risk of impact from a single infrastructure failure, like in this case. For more details, please see: https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability. Configure [Service Health Alerts](https://docs.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal) to recieve advanced notification of planned updates.
 > 
 <!--/additionalInfo-->
 <!--/rcaDescription-->
@@ -49,8 +49,8 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 > * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 > * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
-> * [Service Health Alerts](https://docs.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal)
-> * [Scheduled Events](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)
+> * [Service Health Alerts](https://docs.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal)
+> * [Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)
 <!--/recommendedActions-->
 
 
