@@ -1,38 +1,33 @@
 <properties
-	articleId="costanalysis-tags"
-	articleTags="costanalysis,tags"
-	pageTitle="Tags I have set on resources are missing from Cost Management, can you explain why?"
-	description="Tags on resource"
-	displayOrder="7"
-	authors="prdasneo"
-	ms.author="prdasneo"
-	selfHelpType="resource"
-	service="microsoft.costmanagement"
-	resource="costanalysis"
-	resourceTags=""
-	productPesIds="15659"
-	supportTopicIds="32615286"
-	cloudEnvironments="public,fairfax, usnat, ussec"
-	ownershipId="ASMS_Billing"
-/>
-
+  pagetitle="Tags I have set on resources are missing from Cost Management, can you explain why?&#xD;"
+  description="Tags on resource"
+  service="microsoft.costmanagement"
+  resource="costanalysis"
+  ms.author="prdasneo,shasulin"
+  selfhelptype="Resource"
+  supporttopicids="32615286"
+  resourcetags=""
+  productpesids="15659"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="costanalysis-tags"
+  ownershipid="ASMS_Billing" />
 # Tags I have set on resources are missing from Cost Management, can you explain why?
 
 Most taggable Azure services, emit tags to the Cost Management platform. However, a few services are yet to complete this work <br>  
  
 The following services don’t emit tags yet to the Cost Management platform:
 
-* Azure Networking - VPN Gateway
-* Azure ExpressRoute
-* Azure Eventgrid
+* Azure Active Directory Domain Services
+* Azure Bastion
+* Azure Event Grid
 * Azure Firewall
-* Azure Databricks
+* Azure NetApp Files
+* Azure SQL Managed Instance (Databases)
+* Azure Storage | Advanced Threat Protection
+* Azure Subscriptions (Tag at sub level
 * Notification Hub
-* Azure Subscriptions (Tag at sub level)
-* Azure Compute | Disk Resource Provider (RP)
-* Azure DataFactory
-* Azure AppServices 
- 
+* Virtual WAN
+
 This is work in progress and we will update this list if any change occurs <br>
 
 
