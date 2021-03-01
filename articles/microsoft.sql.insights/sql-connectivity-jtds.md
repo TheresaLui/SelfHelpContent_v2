@@ -28,11 +28,11 @@ We ran diagnostics between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and 
 
 ## **Recommended Steps**
 
-To ensure stable, reliable, and secure connectivity, we strongly recommend you update (or contact the application provider) to the latest version of a supported driver like [Microsoft JDBC Driver for SQL Server](https://docs.microsoft.com/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server). This driver is available at no additional charge and provides Java database connectivity from any Java application, application server, or Java-enabled applet. This driver is a Type 4 JDBC driver that provides database connectivity through the standard JDBC application program interfaces (APIs).  
+To ensure stable, reliable, and secure connectivity, we strongly recommend that you update (or contact the application provider) to the latest version of a supported driver like [Microsoft JDBC Driver for SQL Server](https://docs.microsoft.com/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server). This driver is available at no additional charge and provides Java database connectivity from any Java application, application server, or Java-enabled applet. This driver is a Type 4 JDBC driver that provides database connectivity through the standard JDBC application program interfaces (APIs).  
 
-Based on jTDS official documentation (http://jtds.sourceforge.net/), jTDS is an open source 100% pure Java (type 4) JDBC 3.0 driver for Microsoft SQL Server (6.5, 7, 2000, 2005, 2008 and 2012). The last update on this driver was done in 2013 and it does not seem to be actively developed.  
+Based on jTDS official documentation (http://jtds.sourceforge.net/), jTDS is an open-source 100% pure Java (type 4) JDBC 3.0 driver for Microsoft SQL Server (6.5, 7, 2000, 2005, 2008 and 2012). The last update on this driver was done in 2013 and it does not seem to be actively developed.  
 
-Please note that connection attempts using jTDS are not covered by our technical support.
+Connection attempts using jTDS are not covered by our technical support.
 
 ## **Recommended Documents**
 
