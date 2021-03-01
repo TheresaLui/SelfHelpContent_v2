@@ -15,16 +15,18 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Managing VNet service endpoints for your Azure Database for PostgreSQL servers
+# Managing VNet service endpoints for your Azure Database for PostgreSQL - Single server
 
 Virtual Network (VNet) service endpoints and rules extend the private address space of a Virtual Network to your Azure Database for PostgreSQL server.
 
-## **Recommended Steps**
+## **Recommended steps**
 
-* Ensure that your Azure Database for PostgreSQL is deployed in General Purpose and Memory Optimized servers. The Basic tier does not support VNet service endpoints.
-* If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered
+* Are you trying to use VNet service endpoints for a Basic tier server?
+    * The Basic tier does not support VNet service endpoints.Ensure that your Azure Database for PostgreSQL - Single server is deployed in General Purpose and Memory Optimized servers. 
+* Are you troubleshooting a private connection between Azure resources in different Azure subscriptions?
+    * If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 * [How-to create user in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-create-users)<br>
 * [Azure Database for PostgreSQL Virtual network service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet)<br>
