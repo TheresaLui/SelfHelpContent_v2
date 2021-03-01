@@ -57,7 +57,7 @@ ownershipId="CloudNet_NVA"
         {
           "name": "startTime",
           "title": "Event Start Time"
-        },
+        }
     ],
     "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer"
 }
