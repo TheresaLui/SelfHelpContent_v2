@@ -40,7 +40,7 @@
             "id": "DNS_Type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Please select the type of DNS usage",
+            "displayLabel": "Select the type of DNS usage",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -74,7 +74,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": false,
-            "displayLabel": "Please share the error message you are seeing",
+            "displayLabel": "Share the error message you are seeing",
             "watermarkText": "Error code: Error message",
             "required": true
         },
