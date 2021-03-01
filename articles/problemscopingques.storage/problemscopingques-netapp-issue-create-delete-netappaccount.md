@@ -26,11 +26,33 @@
       			"displayLabel": "When did the problem start?",
       			"required": true
 		}, {
-            		"id": "netapp_account",
+		        "id": "failed_operation",
             		"order": 2,
+            		"ControlType": "dropdown",
+            		"displayLabel": "Were you trying to create or delete a NetApp account?",
+            		"watermarkText": "Is the username given in security privilege block same as domain username used for installing Microsoft SQL server?",
+			"dropdownOptions": [
+					{
+                    				"value": "Create",
+                    				"text": "Create"
+                			},
+                			{
+                    				"value": "Delete",
+                    				"text": "Delete"
+                			},
+					{
+                    				"value": "dont_know_answer",
+                    				"text": "None of the above"
+                			}
+			],
+            			"required": true
+		}, {
+            		"id": "netapp_account",
+            		"order": 3,
             		"controlType": "dropdown",
+			"visibility": "failed_operation != null && failed_operation == Delete",
             		"displayLabel": "NetApp Account",
-            		"watermarkText": "Select NetApp Account",
+            		"watermarkText": "Select NetApp Account used?",
             		"dynamicDropdownOptions": {
                 		"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts?api-version=2019-11-01",
                 		"jTokenPath": "value",
@@ -47,32 +69,32 @@
                     		"text": "Did not find the netapp account"
                 		}
 			],
-        		"required": true
+        		"required": false
     		}, {
       			"id": "netapp_account_name",
-      			"order": 3,
+      			"order": 4,
       			"controlType": "textbox",
-			"visibility": "netapp_account != null && netapp_account == NoNetAppAccount",
-      			"displayLabel": "NetApp Account Name",
+			"visibility": "failed_operation != null && failed_operation == Create",
+      			"displayLabel": "What was the NetApp Account name used?",
       			"watermarkText": "Name of NetApp Account used",
       			"required": false
     		}, {
       			"id": "resource_group_name",
-      			"order": 4,
+      			"order": 5,
       			"controlType": "textbox",
       			"displayLabel": "Resource Groups Name",
       			"watermarkText": "Name of Resource Group used",
       			"required": false
     		}, {
       			"id": "problem_description",
-      			"order": 5,
+      			"order": 6,
       			"controlType": "multilinetextbox",
       			"displayLabel": "Provide any additional details",
       			"required": true,
       			"useAsAdditionalDetails": true
     		}, {
       			"id": "error_message",
-      			"order": 6,
+      			"order": 7,
      			"controlType": "textbox",
       			"displayLabel": "Error message",
       			"watermarkText": "What was the error message",
