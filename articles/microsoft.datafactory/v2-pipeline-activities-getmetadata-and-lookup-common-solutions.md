@@ -34,12 +34,12 @@
 Go back to the previous page and re-select problem type and subtype (*Authoring or Development Issues/Parameterization and Expression Language*) for more details.
 
 ## **Recommended Documents**
-Check out [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about,
+Check out [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about:
 - Supported file connectors and databases
 - Supported metadata options
 - Other limitations
 
-Check out [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity) to learn more about,
+Check out [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity) to learn more about:
 - Supported capabilities
 - How to use Lookup activity output in subsequent activity
 - Other limitations
