@@ -19,7 +19,7 @@
     "schemaVersion": 2.1,
     "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUpdateCacheRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.01:00:00"
+    "refreshInterval": "0.01:00:01"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
