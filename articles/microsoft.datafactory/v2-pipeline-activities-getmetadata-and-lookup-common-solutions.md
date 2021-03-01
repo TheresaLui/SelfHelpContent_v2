@@ -15,31 +15,31 @@
 # Getmetadata and lookup Common Solutions
 
 ### **GetMetadata: Best Practices**
-- DONOT use a large dataset that contains many items (e.g. files / folders or tables) as an input of GetMetadata activity,
+- Do not use a large dataset that contains many files, folders, or tables as an input of GetMetadata activity,
   - The maximum size of returned metadata is 4 MB (hard limit).
   - Even if *modifiedDatetimeStart* or *modifiedDatetimeEnd* (file filter) is set to limit the output, GetMetadata activity will inevitably scan all files in a large dataset for modified time is not natively indexed by most files stores.
 
-- DONOT enable metadata options you don't use for better performance.
+- Do not enable metadata options you don't use for better performance.
 
 ### **Lookup: Common mistakes and hard limitations**
-- When query or stored procedure is used,
-  - MUST return one and exact one result set, otherwise, Lookup activity may fail.
-  - SHOULD be idempotent, as Lookup activity may retry internally due to transient issues.
+- When query or stored procedure is used, it:
+  - Must return one and exact one result set, otherwise, Lookup activity may fail.
+  - Should be idempotent, as Lookup activity may retry internally due to transient issues.
 - Output parameter of stored procedure can't be returned as output of Lookup activity.
 - The Lookup activity can return up to 5000 rows; if the result set contains more records, the first 5000 rows will be returned.
 - The Lookup activity output supports up to 4 MB in size, activity will fail if the size exceeds the limit. 
 - Currently, the longest duration for Lookup activity before timeout is 24 hours.
 
 ### **How to parameterize GetMetadata and Lookup activity**
-Please go back to the previous page and re-select problem type and subtype (*Authoring or Development Issues/Parameterization and Expression Language*) for more details.
+Go back to the previous page and re-select problem type and subtype (*Authoring or Development Issues/Parameterization and Expression Language*) for more details.
 
 ## **Recommended Documents**
-Please checkout [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about,
+Check out [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity) to learn more about,
 - Supported file connectors and databases
 - Supported metadata options
 - Other limitations
 
-Please checkout [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity) to learn more about,
+Check out [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity) to learn more about,
 - Supported capabilities
 - How to use Lookup activity output in subsequent activity
 - Other limitations
