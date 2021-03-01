@@ -11,13 +11,13 @@
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
 />
-# Unable to move volume to destination Pool
+# Issues creating or deleting a SMB Volume
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "Issues creating or deleting a NetApp Account",
+	"title": "Issues creating or deleting a SMB Volume",
   	"fileAttachmentHint": "",
   	"formElements": [ {
   			"id": "problem_start_time",
