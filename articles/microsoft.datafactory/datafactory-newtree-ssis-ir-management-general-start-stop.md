@@ -14,21 +14,21 @@
   ownershipid="AzureData_DataFactory" />
 # Azure-SSIS IR General start and stop Issues
 
-The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
+The ADF Portal can be used to check the result of Azure SSIS IR start. The start result can also be retrieved by using the Azure PowerShell command.
 
 ## **Recommended Steps**
 
-* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) of the error code and find the detail cause and solution
+* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) to find the cause and solution.
 
 ### Common errors, causes, and solutions
 
-The common error will be Azure SQL Server or Managed Instance related.
+The common error will be related to Azure SQL Server or Managed Instance.
 
 An Azure SQL Database server or managed instance is required if you're provisioning SSIS IR with an SSIS catalog database. The SSIS IR must be able to access the Azure SQL Database server or managed instance. Also, the account of the Azure SQL Database server or managed instance should have permission to create an SSIS catalog database (SSISDB). If there's an error, an error code with a detailed SQL exception message will be shown in the Data Factory portal. Use the information in the following list to troubleshoot the error codes.
 
 ### AzureSqlConnectionFailure
 
-You might see this issue when you're provisioning a new SSIS IR or while IR is running. If you experience this error during IR provisioning, you might get a detailed SqlException message in the error message that indicates one of the following problems:
+You might see this issue when you're provisioning a new SSIS IR or while IR is running. If you experience this error during IR provisioning, you might get a detailed SqlException message in the error message, which indicates one of the following problems:
 
 * A network connection issue. Check whether the SQL Server or managed instance hostname is accessible. Also verify that no firewall or network security group (NSG) is blocking SSIS IR access to the server.
 * Login failed during SQL authentication. The account provided can't sign in to the SQL Server database. Make sure you provide the correct user account.
