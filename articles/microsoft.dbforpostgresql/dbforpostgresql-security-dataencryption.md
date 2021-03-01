@@ -52,7 +52,7 @@ You can use infrastructure double-encryption for a second layer of encryption us
 * [Data encryption with CMK in Azure Database for PostgreSQL - Single server](https://docs.microsoft.com/azure/postgresql/concepts-data-encryption-postgresql)
 * [Data encryption with CMK - Portal](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-portal)
 * [Data encryption with CMK - CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli)
-* [Validating data encryption with CMK](https://docs.microsoft.com/en-us/azure/postgresql/howto-data-encryption-validation)
+* [Validating data encryption with CMK](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-validation)
 * [Data encryption - Azure KeyVault](https://azure.microsoft.com/services/key-vault)
 * [Infrastructure double encryption](https://docs.microsoft.com/azure/postgresql/concepts-infrastructure-double-encryption)
 
