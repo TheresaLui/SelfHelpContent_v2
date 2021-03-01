@@ -44,7 +44,7 @@
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the assessment in which you are facing issue.",
+            "displayLabel": "Provide the name of the assessment in which you are facing an issue.",
             "watermarkText": "E.g. MyContosoAssessment",
             "required": false
         },
@@ -53,7 +53,7 @@
             "order": 3,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Please provide VM name (if applicable)",
+            "displayLabel": "Provide the VM name (if applicable)",
             "watermarkText": "E.g. MyContosoVM01",
             "required": false
         },
@@ -62,7 +62,7 @@
             "order": 4,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Please provide disk name (if applicable)",
+            "displayLabel": "Provide the disk name (if applicable)",
             "watermarkText": "E.g. MyContosodisk01",
             "required": false
         },
