@@ -57,7 +57,7 @@
     {
       "id": "15e27ae2-37d1-6afd-c5fe-db3034457184",
       "longDescription": "",
-      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based Vmware stack",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agent-based VMware stack",
       "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -65,7 +65,7 @@
     {
       "id": "164b9f09-19af-b77a-fa69-b12392f01d9a",
       "longDescription": "",
-      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "shortDescription": "Issues encountered when migrate operation was triggered for VMware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "Physical to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -225,7 +225,7 @@
     {
       "id": "6c688354-c0e1-4677-8ccf-a107e4eda746",
       "longDescription": "",
-      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless Vmware stack",
+      "shortDescription": "Issues encountered while enabling replication or with ongoing replication in agentless VMware stack",
       "searchTags": "Initial replication;Replication cycle failed for VM;Replication cycle failed for disk",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
@@ -449,7 +449,7 @@
     {
       "id": "e218177a-92e4-c9a0-2273-f52ee7426379",
       "longDescription": "",
-      "shortDescription": "Issues encountered when migrate operation was triggered for Vmware VMs",
+      "shortDescription": "Issues encountered when migrate operation was triggered for VMware VMs",
       "searchTags": "Migrate operation;Request disallowed by policy;Quota limit",
       "category": "VMware to Azure",
       "useInDiagnoseAndSolve": "true"
