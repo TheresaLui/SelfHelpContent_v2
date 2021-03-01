@@ -20,16 +20,16 @@
 # B2B Sign-in Interrupted by Conditional Access
 
 <!--issueDescription-->
-Based on the information you provided the B2B user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and sign in was interrupted by one or more Conditional Access policies which required that the user's device or client application be managed your organization.
+Based on the information you provided, the B2B user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and sign in was interrupted by one or more Conditional Access policies that required the user's device or client application to be managed your organization.
 
-Since the user is from a different organization the device would be managed by the other organization if at all. 
+Since the user is from a different organization, the device would be managed by the other organization, if at all. 
 
-The policy or policies below gave the interruption:
+The following policies gave the interruption:
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
 
-More information which the client submitted for the sign in attempt and the matched the policy conditions is below.
+Additional the client submitted for the sign-in attempt and policy in question:
 
 <!--$devicesDetails-->[devicesDetails]<!--/$devicesDetails-->
 
