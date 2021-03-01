@@ -39,8 +39,8 @@ This error may occur if you are trying to connect with an AAD user (other than t
 
     1. Connect to the database
     2. Run the following query: `select * from sys.database_principals where name = 'insert the username here'`
-    3. If the query returns no record, please [create the login](https://docs.microsoft.com/sql/t-sql/statements/create-login-transact-sql?view=azuresqldb-mi-current#azure-sql-managed-instance) in the database
-    4. If the user exists, please verify if the last 4 digits in the sid are the same as the last 4 digits of the Object ID for that AAD user
+    3. If the query returns no record, [create the login](https://docs.microsoft.com/sql/t-sql/statements/create-login-transact-sql?view=azuresqldb-mi-current#azure-sql-managed-instance) in the database
+    4. If the user exists, verify if the last 4 digits in the sid are the same as the last 4 digits of the Object ID for that AAD user
 
 
 ## **Recommended Documents**
