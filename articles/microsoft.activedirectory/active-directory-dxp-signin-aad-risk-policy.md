@@ -20,9 +20,9 @@
 # Sign In Interrupted by Risk Policy
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and was interrupted by Identity Protection risk policy. 
+Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and was interrupted by Identity Protection risk policy. 
 
-Review what the client submitted for the sign in attempt and user risk information (if available) below.
+Review what the client submitted for the sign-in attempt and user risk information (if available):
 <!--/issueDescription-->
 
 ## **Risky User Details**
