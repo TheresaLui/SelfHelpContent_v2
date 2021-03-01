@@ -46,7 +46,7 @@ Solutions can be comprised of the following components. To format these solution
 ### Solution
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
 - If you have more than one solution, format them using Section tags. 
-- If you have more than five (5) sections, consider breaking out your content into one or more articles.
+- If you have more than five (5) sections, break your your content into multiple articles.
 - Sections are formatted as follows:
    :::Section section_name:::
 
