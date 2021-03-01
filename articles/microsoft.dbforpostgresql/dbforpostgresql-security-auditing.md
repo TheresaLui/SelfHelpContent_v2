@@ -59,4 +59,4 @@ The **Azure Activity Log** provides information about subscription-level events.
 * [Introduction to pgaudit](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/auditing-know-what-s-going-on-in-your-postgres-database/ba-p/885243)
 * [Auditing in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-audit)
 * [Azure Database for PostgreSQL logging](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)
-* [pgAudit documentationx`](https://github.com/pgaudit/pgaudit/blob/master/README.md)
+* [pgAudit documentation`](https://github.com/pgaudit/pgaudit/blob/master/README.md)
