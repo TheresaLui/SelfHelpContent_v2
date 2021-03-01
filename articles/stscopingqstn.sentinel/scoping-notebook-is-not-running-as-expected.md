@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Sentinel - Data collection - Connectors to Microsoft products"
-	description="Azure Sentinel - Data collection - Connectors to Microsoft products"
+	pageTitle="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected"
+	description="Azure Sentinel - Threat Hunting ,Watchlist and Notebooks  - Notebook is not running as expected"
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32786004"
+	supportTopicIds="32786019"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-ms-connectors"
+    articleId="scoping-notebook-is-not-running-as-expected"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -16,16 +16,17 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Connectors to Microsoft products",
+                "title": "Notebook is not running as expected",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
-                "formElements": [{
-                "id": "ConnectorName",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+				"formElements": [{
+                "id": "ExpResu",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What connector are you using?",
+                "displayLabel": "What is your expected result?",
                 "required": true
-				                                },{"id": "problem_description",
+                },{
+				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
@@ -38,5 +39,5 @@
 				"displayLabel": "When did the problem start?",
 				"required": true
                   }]
-}
---- 
+} 
+---

@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Sentinel - Data collection - Connectors to Microsoft products"
-	description="Azure Sentinel - Data collection - Connectors to Microsoft products"
+	pageTitle="Azure Sentinel - Automation and Playbooks  - Playbook template is not working as expected"
+	description="Azure Sentinel - Automation and Playbooks  - Playbook template is not working as expected"
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32786004"
+	supportTopicIds="32785994"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-ms-connectors"
+    articleId="scoping-playbook-template-is-not-working-as-expected"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -16,16 +16,17 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Connectors to Microsoft products",
+                "title": "Playbook template is not working as expected",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
-                "formElements": [{
-                "id": "ConnectorName",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+				"formElements": [{
+                "id": "TempName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What connector are you using?",
+                "displayLabel": "What is the name of the Playbook template?",
                 "required": true
-				                                },{"id": "problem_description",
+                },{
+				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",

@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Sentinel - Data collection - Connectors to Microsoft products"
-	description="Azure Sentinel - Data collection - Connectors to Microsoft products"
+	pageTitle="Azure Sentinel - Incidents and investigation  - Need help investigating an incident"
+	description="Azure Sentinel - Incidents and investigation  - Need help investigating an incident"
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32786004"
+	supportTopicIds="32785997"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-ms-connectors"
+    articleId="scoping-need-help-investigating-an-incident"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -16,16 +16,17 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Connectors to Microsoft products",
+                "title": "Need help investigating an incident",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
-                "formElements": [{
-                "id": "ConnectorName",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+				"formElements": [{
+                "id": "IncName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What connector are you using?",
+                "displayLabel": "What is the incident name?",
                 "required": true
-				                                },{"id": "problem_description",
+                },{
+				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
@@ -39,4 +40,4 @@
 				"required": true
                   }]
 }
---- 
+---

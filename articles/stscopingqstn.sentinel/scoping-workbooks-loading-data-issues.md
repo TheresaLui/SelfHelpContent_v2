@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Sentinel - Data collection - Connectors to Microsoft products"
-	description="Azure Sentinel - Data collection - Connectors to Microsoft products"
+	pageTitle="Azure Sentinel - Workbooks  - workbooks loading data issues "
+	description="Azure Sentinel - Workbooks  - workbooks loading data issues "
 	authors="yaronsahar-ms"
 	ms.author="yaronsahar"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32786004"
+	supportTopicIds="32786026"
     productPesIds="16690"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping-ms-connectors"
+    articleId="scoping-workbooks-loading-data-issues"
 	schemaVersion="1"
 	ownershipId="Azure_Sentinel"
 />
@@ -16,16 +16,23 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Connectors to Microsoft products",
+                "title": "workbooks loading data issues",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Attach a screenshot of the relevant Connector blade",
-                "formElements": [{
-                "id": "ConnectorName",
+                "fileAttachmentHint": "Please provide any screenshots that are relevant to your issue",
+				"formElements": [{
+                "id": "WorkbookName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What connector are you using?",
+                "displayLabel": "What is the workbook name?",
                 "required": true
-				                                },{"id": "problem_description",
+                },{
+				"id": "isCustom",
+                "order": 3,
+                "controlType": "textbox",
+                "displayLabel": "Is it a custom Workbook?",
+                "required": false
+                },{
+				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
@@ -39,4 +46,4 @@
 				"required": true
                   }]
 }
---- 
+---
