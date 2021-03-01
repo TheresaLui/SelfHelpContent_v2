@@ -45,7 +45,7 @@ Solutions can be comprised of the following components. To format these solution
 
 ### Solution
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
-- If you have more than one solution, format them into sections. Precede your solution with a Section tag, as follows:
+- If you have more than one solution, format them into sections, using the following heading:
    :::Section section_name:::
 - If you have more than five (5) sections, break your your content into multiple articles.
 
@@ -143,5 +143,6 @@ This is the Apollo schema for AzureKB articles-->
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
 * Enclose error messages in quotation marks 
 * Insert a blank line after every heading
-* Don't use internal links, which users can't access. This includes review.microsoft.docs links and aka.ms links.
+* Don't use more than five (5) sections per article.
+* Don't use internal links, which users can't access. This includes `review.microsoft.docs` links and `aka.ms` links.
 -->
