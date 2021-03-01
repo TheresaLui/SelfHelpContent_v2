@@ -16,7 +16,7 @@
 <!--Required Title in Level 1 heading for internal reference only--> 
 
 **Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
-Be sure to review the Rules at the end of this template to prevent validation and editorial errors.
+Be sure to review the Rules at the end of this template to prevent validation and editorial errors. For for more information, see [Authoring guidelines[(https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
 
 
 ## Title - Required
