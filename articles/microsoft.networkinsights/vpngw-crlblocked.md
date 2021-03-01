@@ -16,7 +16,7 @@ ownershipId="CloudNet_AzureVPNGateway"
 
 # Configuration operation on the gateway fails 
 <!--issueDescription-->
-We has detected that configuration operations on the gateway have failed. An NSG or UDR on the gateway subnet might be blocking the traffic to the Certificate Authority (CA) that hosts the Certificate Revocation List (CRL). The is causing communication between the gateway and Azure VPN management components to fail. 
+We detected that a configuration operation on the gateway failed. An NSG (network security gateway) or UDR on the gateway subnet might be blocking traffic to the Certificate Authority (CA) that hosts the Certificate Revocation List (CRL). The is causing communication between the gateway and Azure VPN management components to fail. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
