@@ -48,7 +48,7 @@
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the assessment in which you are facing issue.",
+            "displayLabel": "Provide the name of the assessment in which you are facing the issue.",
             "watermarkText": "E.g. MyContosoAssessment",
             "required": false
         },
@@ -57,7 +57,7 @@
             "order": 3,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name(s) of the impacted SQL instance(s):",
+            "displayLabel": "Provide the names of the impacted SQL instances:",
             "watermarkText": "E.g. MyContosoSQL",
             "required": false
 	 },
