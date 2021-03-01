@@ -21,13 +21,13 @@ To see Azure Lighthouse in action, watch this overview [demo](https://www.youtub
 
 To learn how to use Azure Lighthouse, we recommend going through our [Learn modules](https://docs.microsoft.com/learn/browse/?terms=azure%20lighthouse) and reading our [documentation](https://docs.microsoft.com/azure/lighthouse/).
 
-For best practices, please see [Multi-tenant Landing Zones](https://github.com/Azure/Multi-tenant-Landing-Zones) reference architecture or our [Azure Lighthouse samples](https://github.com/Azure/Azure-Lighthouse-samples).
+For best practices, see [Multi-tenant Landing Zones](https://github.com/Azure/Multi-tenant-Landing-Zones) reference architecture or our [Azure Lighthouse samples](https://github.com/Azure/Azure-Lighthouse-samples).
 
 ## Can I do [insert action] with Azure Lighthouse?
 
-Most tasks and services can be performed on delegated resources across managed tenants. Please see the list of key [cross-tenant experiences](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#enhanced-services-and-scenarios) supported by Azure Lighthouse. To use Azure Lighthouse with other Azure services, make sure you have (1) the RPs registered and (2) the appropriate delegated [RBAC roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles).
+Most tasks and services can be performed on delegated resources across managed tenants. See this list of key [cross-tenant experiences](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#enhanced-services-and-scenarios) supported by Azure Lighthouse. To use Azure Lighthouse with other Azure services, make sure you have (1) the RPs registered, and (2) the appropriate delegated [RBAC roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles).
 
-Please also be aware of Azure Lighthouse’s [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
+Be aware of the [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
 
 If you’d like to submit a feature request, then head over to our [feedback forum](https://feedback.azure.com/forums/922753-azure-lighthouse). 
 
