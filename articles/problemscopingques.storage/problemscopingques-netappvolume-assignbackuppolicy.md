@@ -26,7 +26,6 @@
             "displayLabel": "When did the problem start?",
             "required": true
         },
-<<<<<<< HEAD
 		{
             "id": "Policy_creation",
             "order": 2,
@@ -52,11 +51,6 @@
 		{
             "id": "netapp_account",
             "order": 3,
-=======
-               {
-            "id": "netapp_account",
-            "order": 2,
->>>>>>> b12d42114166b55c039e3acb382fadca73b4edc7
             "controlType": "dropdown",
             "displayLabel": "NetApp Account",
             "watermarkText": "Choose an option",
@@ -79,25 +73,15 @@
             ],
             "required": false
         },
-<<<<<<< HEAD
 		{
             "id": "backup_policy",
             "order": 4,
             "visibility": "netapp_account != null && netapp_account != dont_know_answer",
-=======
-                {
-            "id": "backup_policy",
-            "order": 3,
->>>>>>> b12d42114166b55c039e3acb382fadca73b4edc7
             "controlType": "dropdown",
             "displayLabel": "Select Backup Policy",
             "dynamicDropdownOptions": {
                 "dependsOn": "netapp_account",
-<<<<<<< HEAD
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts/{replaceWithParentValue}/backuppolicies?api-version=2020-09-01",
-=======
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts/{replaceWithParentValue}/backuppolicies?api-version=2020-08-01",
->>>>>>> b12d42114166b55c039e3acb382fadca73b4edc7
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
@@ -117,38 +101,7 @@
             ],
             "required": false
         },
-<<<<<<< HEAD
-		{
-=======
-                {
-            "id": "volume_name",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Select Volume",
-            "dynamicDropdownOptions": {
-                "dependsOn": "netapp_account",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}/capacityPools/{poolName}/volumes/{volumeName}?api-version=2020-08-01",
-                "jTokenPath": "value",
-                "textProperty": "id",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-					"value": "dont_know_answer",
-					"text": "None of the above"
-                },
-                "textPropertyRegex": "[^/]+$",
-                "valuePropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to retrieve volumes.",
-                    "text": "Unable to retrieve volumes."
-                }
-            ],
-            "required": false
-        },
         {
->>>>>>> b12d42114166b55c039e3acb382fadca73b4edc7
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",

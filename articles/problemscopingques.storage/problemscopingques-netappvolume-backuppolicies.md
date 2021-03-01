@@ -91,7 +91,6 @@
                     "text": "Did not find the netapp account"
                 }
             ],
-<<<<<<< HEAD
             "required": true
         },
 		{
@@ -103,38 +102,6 @@
             "watermarkText": "Give the name of backup policy which is not getting deleted",
             "required": true
             },
-=======
-            "required": false
-        },
-		{
-            "id": "backup_policy",
-            "order": 5,
-            "visibility": "operation == Delete && netapp_account != null && netapp_account != dont_know_answer",
-            "controlType": "dropdown",
-            "displayLabel": "Select Backup Policy",
-            "dynamicDropdownOptions": {
-                "dependsOn": "netapp_account",
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts/{replaceWithParentValue}/backuppolicies?api-version=2020-08-01",
-                "jTokenPath": "value",
-                "textProperty": "id",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-					"value": "dont_know_answer",
-					"text": "None of the above"
-                },
-                "textPropertyRegex": "[^/]+$",
-                "valuePropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to retrieve list of backup policies.",
-                    "text": "Unable to retrieve list of backup policies."
-                }
-            ],
-            "required": false
-        },
->>>>>>> b12d42114166b55c039e3acb382fadca73b4edc7
         {
             "id": "problem_description",
             "order": 6,
