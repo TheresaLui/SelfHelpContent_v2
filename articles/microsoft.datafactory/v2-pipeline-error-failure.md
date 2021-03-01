@@ -1,5 +1,5 @@
 <properties
-  pagetitle="V2 Pipeline Errors and Problems&#xD;"
+  pagetitle="V2 Pipeline Activity Errors and Problems&#xD;"
   service=""
   resource=""
   ms.author="pacodel,spagarwa"
@@ -10,9 +10,9 @@
   cloudenvironments="public,fairfax,usnat,ussec"
   articleid="31d2e95f-a781-4b9c-98dd-1338efb47e29"
   ownershipid="AzureData_DataFactory" />
-# V2 Pipeline Errors and Problems
+# V2 Pipeline Activity Errors and Problems
 
-Resolve most V2 pipeline errors using the following recommendations. 
+Resolve most V2 pipeline activity errors using the following recommendations. 
 
 ## **Recommended Steps**
 
