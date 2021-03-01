@@ -38,7 +38,7 @@ If you are connecting using tools like SSMS you may also need to specify the dat
 
     1. Connect to the database
     2. Run the following query: `select * from sys.database_principals where name = 'insert the username here'`
-    3. If the query returns no record, please [create the user](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell#create-contained-users-mapped-to-azure-ad-identities) in the database
+    3. If the query returns no record, [create the user](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell#create-contained-users-mapped-to-azure-ad-identities) in the database
     4. If the user exists, please verify if the last 4 digits in the sid are the same as the last 4 digits of the Object ID for that AAD user
 
 
