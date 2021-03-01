@@ -26,6 +26,6 @@ The Cosmos DB account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountN
 
 ## Recommended Steps
 
-We recommend that you [enable server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) on this account to mitigate this issue. Note that server-side retries will prevent the service from ever sending a 16500 error. Instead, a request that would have resulted in a 16500 will be delayed until sufficient RU are available to complete the request, up to the request timeout of 60 seconds.
+It is recommended to [enable server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) on this account to mitigate the TooManyRequests issue. Please note that server-side retries will prevent the service from ever sending a 16500 error. Instead, a request that would have resulted in a 16500 error will be delayed until sufficient RUs are available to complete the request, up to the request timeout of 60 seconds.
 
 Click [here](data-blade:Microsoft_Azure_DocumentDB.FeaturesBlade.id.$resourceId;data-blade-uri:{$domain}/#blade/Microsoft_Azure_DocumentDB/FeaturesBlade/id/{$resourceId}) to go to the Azure portal and enable server-side retries on your account.
