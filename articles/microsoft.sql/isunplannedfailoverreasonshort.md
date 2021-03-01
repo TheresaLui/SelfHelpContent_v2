@@ -8,7 +8,7 @@
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="FailoverDowntimeUnplanned_518F0886-57CD-42A7-B526-77900A8C0D9D"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""

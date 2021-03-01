@@ -17,6 +17,15 @@
 
 # Diagnose and resolve issues with connectivity to Databricks cluster
 
+## **Recommended Steps**
+
+* The Azure Databricks connector integrated in Power BI Desktop is in [Public Preview](https://powerbi.microsoft.com/blog/announcing-power-bi-connector-to-azure-databricks-public-preview/). Make sure to upgrade Power BI Desktop to version 2.85.681.0 and above to use it.
+
+* If IP Access List feature is enabled for the workspace, make sure to whitelist Azure Data Factory IPs so that you can run notebooks from ADF:
+
+  - To update IP access list or create additional new one with new CIDR, follow [these instructions](https://docs.microsoft.com/azure/databricks/security/network/ip-access-list).
+  - See the [Azure IP Ranges and Service Tags – Public Cloud]( https://www.microsoft.com/download/details.aspx?id=56519) file for CIDRs to be whitelisted. Search for DataFactory.Region. 
+
 ## **Recommended Documents**
 
 * Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes

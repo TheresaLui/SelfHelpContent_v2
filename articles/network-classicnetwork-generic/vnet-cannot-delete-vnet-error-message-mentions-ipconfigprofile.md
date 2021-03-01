@@ -34,11 +34,11 @@ Delete the subnet or virtual network again.
 
 If these steps don't resolve the issue, use these Azure CLI commands to clean up resources:
 
-1. Replace `<my-resource-group>`, `<my-vnet-name>`, and `<my-subnet-name>` with the name of your resource group, VNet, and subnet:
+1. Replace `{my-resource-group}`, `{my-vnet-name}`, and `{my-subnet-name}` with the name of your resource group, VNet, and subnet:
 
-   `RES_GROUP=<my-resource-group>`<br>
-   `VNET_NAME=<my-vnet-name >`<br>
-   `SUBNET_NAME=<my-subnet-name>`
+   `RES_GROUP={my-resource-group}`<br>
+   `VNET_NAME={my-vnet-name}`<br>
+   `SUBNET_NAME={my-subnet-name}`
 
 2. Get the network profile ID:
 

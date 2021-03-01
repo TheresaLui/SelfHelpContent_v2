@@ -2,7 +2,7 @@
   pagetitle="Threat Detection self help guide"
   ms.author="elsagie"
   selfhelptype="Generic"
-  supporttopicids="32693244"
+  supporttopicids=""
   resourcetags=""
   productpesids="15947"
   cloudenvironments="public,fairfax,usnat,ussec"

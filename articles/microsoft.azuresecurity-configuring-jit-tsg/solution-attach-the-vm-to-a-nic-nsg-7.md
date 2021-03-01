@@ -19,13 +19,8 @@
 
 <!--issueDescription-->
 
-SE: Ask customer to attach NIC or NSG to the VM. Use this template below: 
-
-Dear Customer, 
-The VM is missing NIC or NSG, please attach them.  please refer to Docs: 
-https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
-
-Best Regards,
+JIT operates by creating Allow and Deny rules to the NSG. <br>
+All VMs Networking must have both in order to be protected be Security Center JIT.<br>
+Please attach them as descriibed in the article [NSG Overview](https://docs.microsoft.com/azure/virtual-network/network-security-groups-overview)<br>
 
 <!--/issueDescription-->
-

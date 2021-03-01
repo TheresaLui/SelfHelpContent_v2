@@ -17,7 +17,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "SMS message delivery quality and performance",
   "fileAttachmentHint": "",
   "formElements": [

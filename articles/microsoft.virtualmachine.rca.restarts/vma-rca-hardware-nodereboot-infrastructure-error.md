@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="Root Cause Analysis (RCA) - Hardware NodeReboot - Infrastructure Error"
+	description="Root Cause Analysis (RCA) - Hardware - Infrastructure Error"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -24,18 +24,18 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to **infrastructure errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
+### **Root Cause**
+> The Host Node where the VM was running encountered a hardware issue due to infrastructure errors on the physical node where the virtual machine was hosted. This caused your VM to get rebooted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> VM Services were restored following the reboot.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
+### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > - Azure is continually working with manufacturers to identify and prevent failures through improvements in infrastructure quality checks
 > - Improved infrastructure IOT monitoring providing better more accurate failure signatures to reduce or avoid impact to customers due to failing infrastructure

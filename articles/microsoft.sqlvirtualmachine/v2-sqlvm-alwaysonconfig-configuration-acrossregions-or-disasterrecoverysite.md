@@ -32,7 +32,7 @@ Most users can resolve issues **configuring Availability Group across different 
 
 * **Configure Availability Group across different regions or as a Disaster Recovery Site** 
 
-You already have or are planning to create an Availability Group between two nodes. You're planning to set up the third node on Azure to extend your on-premises environment or your Azure AG environment. See [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to set up the Disaster Recovery Site. 
+  You already have or are planning to create an Availability Group between two nodes. You're planning to set up the third node on Azure to extend your on-premises environment or your Azure AG environment. See [Configure a SQL Server Always On availability group across different Azure regions](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions) to set up the Disaster Recovery Site. 
  
 
 * **Things to Keep in Mind when Configuring Multi-Region, Always On Availability Groups** 

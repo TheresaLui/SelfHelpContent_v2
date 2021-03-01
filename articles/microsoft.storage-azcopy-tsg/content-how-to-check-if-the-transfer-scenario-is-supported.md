@@ -19,7 +19,7 @@
 
 ## Transfer scenarios
 
-Scenario | OnPrem | Blob Storage | ADLS Gen2 | File Storage | Amazon S3 Bucket
+Source | OnPrem | Blob Storage | ADLS Gen2 | File Storage | Amazon S3 Bucket
 ------------ | ------------- | ---------- | -------- | ------ | --------
 OnPrem | NA | Yes | Yes | Yes | No
 Blob Storage | Yes | Yes | Yes | Yes | No

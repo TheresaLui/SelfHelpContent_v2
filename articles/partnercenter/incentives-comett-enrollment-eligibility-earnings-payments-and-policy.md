@@ -27,7 +27,7 @@
 * [My incentives overview - Enrollment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#my-incentives-overview-page)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
-* [I need help finding my global admin](https://support.microsoft.com/help/4534519)
+* [I need help finding my global admin](https://docs.microsoft.com/partner-center/find-your-role#find-your-global-admin)
 
 **Payments**
 * [Troubleshooting payments and earnings issues](https://docs.microsoft.com/partner-center/incentives-payment-issues)

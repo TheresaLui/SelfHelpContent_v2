@@ -23,20 +23,20 @@
     "fileAttachmentHint": "",
         "formElements": [
         {
-            "id": "cannot_connect_vm",
+            "id": "cannot_delete_vnet",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Please select the Virtual Network you are unable to delete",
             "watermarkText": "Choose a Virtual Network",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/$ref?api-version=2017-09-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks?api-version=2017-09-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
 		        "defaultdropdownOptions": {
-                    "value": "Unable to get the list of Virtual Networks",
-                    "text": "Unable to get the list of Virtual Networks"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "required": false

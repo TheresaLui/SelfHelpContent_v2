@@ -3,15 +3,15 @@
 	description="Azure Storage Blob Recovery"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="e542e56b-e181-411d-8f2a-8f163314f035"
 />
 
@@ -38,5 +38,4 @@
 
 ## Recommended Documents
 
-1. [Sev 2 IcM to WASU for Managed Disk or Blob Recovery](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=v154BG)
-2. [Sev 3 IcM to XStore PG for Managed Disk or Blob Recovery](https://aka.ms/IcMXTableServer)
+1. [Sev 3 IcM to XStore PG for Managed Disk or Blob Recovery](https://aka.ms/IcMXTableServer)

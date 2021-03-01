@@ -39,7 +39,7 @@ Most users can resolve issues concerning **configuring Availability Groups** by 
 
 	* [Use Azure Quick Start templates to configure an availability group](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-quickstart-template-configure) 
 
-	* [Configure an Availability Group Using Azure Portal-Preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli) 
+	* [Configure an Availability Group using Azure Portal-Preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli) 
 
 * **Configuring Load Balancer with Listener** 
 
@@ -47,16 +47,16 @@ Most users can resolve issues concerning **configuring Availability Groups** by 
     * If you have set up an Availability Group across different Azure Regions, you will need one [load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-multiple-regions#create-remote-replica) in each region. 
   * You have to use same load balancer if you have multiple Availability Groups in the same region. You must [add the additional IPs to the existing load balancer](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-listener-powershell-configure#Add-IP) for additional AGs. 
 
- * **Configure Basic Availability Group on Standard Edition** 
+* **Configure Basic Availability Group on Standard Edition** 
  
-  Always On [Basic Availability Groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups?view=sql-server-ver15) provide a high-availability solution for SQL Server 2016 and SQL Server 2017 Standard Edition. A basic availability group supports a failover environment for a single database. With a Basic Availability Group, you have many other [additional limitations](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups?view=sql-server-ver15#limitations). For Basic AG, you can use [Database Mirroring Connection String](https://docs.microsoft.com/sql/database-engine/database-mirroring/connect-clients-to-a-database-mirroring-session-sql-server?view=sql-server-ver15#example-connection-string) instead of a load balancer. 
+   Always On [Basic Availability Groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups?view=sql-server-ver15) provide a high-availability solution for SQL Server 2016 and SQL Server 2017 Standard Edition. A Basic Availability Group supports a failover environment for a single database. With a Basic Availability Group, you have many other [additional limitations](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups?view=sql-server-ver15#limitations). For Basic AG, you can use [Database Mirroring Connection String](https://docs.microsoft.com/sql/database-engine/database-mirroring/connect-clients-to-a-database-mirroring-session-sql-server?view=sql-server-ver15#example-connection-string) instead of a load balancer. 
 
 * **Things to Keep in Mind when Configuring Always On Availability Groups** 
 
    - Before deploying Always On AGs, review [Performance Guidelines for your VMs](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices) 
    - The VMS where you set up an Availability Group should be a part of an [Availability Set](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets#create-an-availability-set) or an [Availability Zone](https://docs.microsoft.com/azure/availability-zones/az-overview). Each node will have its own local storage. There is no Shared Storage concept in an Always On Availability Group. 
   - If your Availability Group spans across Azure and on-premises environments (a hybrid environment), you will still need a load balancer. 
-  - If you are using SQL 2019 CU8+ on Windows 2016, you can [use DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of load balancer 
+  - If you are using SQL 2019 CU8+ on Windows 2016, you can [use DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) instead of a load balancer 
 
 ## **Recommended Documents** 
 
