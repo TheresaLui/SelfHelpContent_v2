@@ -6,7 +6,7 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="genlin"
 ms.author="mariliu"
-articleId="VNGVirtualNetworkGatewayUpgradeDetectedInsight"
+articleId="disableBgpRoutePropagationTrue"
 selfHelpType="Diagnostics"
 supportTopicIds = "32591151"
 productPesIds="16094"
@@ -21,7 +21,7 @@ The route propagation should not be disabled on the gateway subnet. The gateway 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To restore route propagation for the VPN gateway, follow these steps:
+To enable route propagation for the VPN gateway, follow these steps:
 
 1. sign in to the Azure portal, and locate the affected route table.
 2. On the **Configuration settings** blade, select **Yes** under **propagate gateway routes**.
