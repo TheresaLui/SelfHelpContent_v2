@@ -2,7 +2,7 @@
   pagetitle="Azure Stack Hub Alerts"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="justinha"
+  ms.author="justinha,patricka"
   selfhelptype="Generic"
   supporttopicids="32629237,32737192,32737318,32741954,32745918"
   resourcetags=""
@@ -29,3 +29,4 @@ A critical alert should be addressed urgently because it can impact users. Pleas
 ## **Recommended Documents**
 
 * [Monitor health and alerts in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-monitor-health?view=azs-2002)
+* [Validate Azure Stack Hub system state](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test)
