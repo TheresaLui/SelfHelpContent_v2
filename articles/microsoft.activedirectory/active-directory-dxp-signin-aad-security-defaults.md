@@ -20,9 +20,9 @@
 # Sign In Interrupted by Security Defaults
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and was interrupted by Security Defaults. Security Defaults enforce best practice security for your organization and will require Multi-Factor Authentication (MFA) to be configured and used in many scenarios to prevent password sprays, replay attacks and phishing attempts from being successful.
+Based on the information you provided, the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into Office 365 (preview) and was interrupted by Security Defaults. Security Defaults enforce best practice security for your organization. These defaults require that you configure Multi-Factor Authentication (MFA) to prevent password sprays, replay attacks and phishing attempts from being successful.
 
-Review what the client submitted for the sign in and what happened during the authentication attempts below.
+Review what the client submitted for the sign-in and what happened during the authentication attempts:
 <!--/issueDescription-->
 
 ## **Authentication details**
