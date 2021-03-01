@@ -23,7 +23,7 @@
                 "id": "IncName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What is the Incidnet name?",
+                "displayLabel": "What is the incident name?",
                 "required": true
                 },{
 				"id": "problem_description",
