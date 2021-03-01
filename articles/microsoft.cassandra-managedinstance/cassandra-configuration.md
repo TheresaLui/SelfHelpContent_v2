@@ -17,25 +17,23 @@
 />
 
 # Azure Managed Instance for Apache Cassandra configuration
-Most users are able to resolve their Managed Instance Cassandra configuration issue using the steps below.
-
-
+Most users are able to resolve issues with Managed Instance Cassandra configurations by using the steps below.
 
 ## **Recommended Steps**
 
 ### **Cassandra is not running or starting up**
-Make sure you are not blocking access to vital Azure services which are needed for Managed Cassandra to work properly:
+Make sure you aren't blocking access to vital Azure services that are necessary for Managed Cassandra to work properly:
 
 - Azure Storage
 - Azure KeyVault
 - Azure Virtual Machine Scale Sets
 - Azure Monitoring
-- Azure AAD
+- Azure Active Directory
 - Azure Security
 
-### **A data center in a different vnet is not running or starting up**
+### **A datacenter in a different VNet is not running or starting up**
 
-Make sure the orchestrator node (the one having the Prometheus endpoint) has connectivity to the data center by starting a vm in that vnet and running.   
+Make sure the orchestrator node (the one with the Prometheus endpoint) has connectivity to the datacenter by starting a VM in that VNet and running the following:   
 
 ```
 shell
@@ -43,7 +41,7 @@ shell
     curl -v https://<ip in the other datacenter>:8443
 ```
 
-Only if both return something like:   
+If both commands above return something like the following, this indicates that everything is set up correctly:   
 
 ```
 html
@@ -56,11 +54,11 @@ html
     </body>
     </html>
 ```
-Then everything is set up correctly.  If this is not the case review your vnet-peering configuration and/or firewall settings.
+If this is not returned in both cases, review your VNet Peering configuration and/or firewall settings.
 
 ### **Which ports is Managed Cassandra using?**
 
-Cassandra Managed Instances is not using a public IP so the following ports are only accessible from the vnet (or peered vnets./express routes) and *should* not be made accessible on the Internet.
+Cassandra Managed Instances is not using a public IP, so the following ports are accessible only from VNet (or from peered vnets./express routes) and **should not** be made accessible on the internet.
 
 **Cassandra data VM**  
 <br> **Port**, *purpose*, Remark
@@ -78,21 +76,19 @@ Cassandra Managed Instances is not using a public IP so the following ports are 
 <br> **9443**, *Prometheus*, Endpoint for Prometheus metrics   
 
 
-### **DSE 6.0 will not connect to Managed Instances for Cassandra in Hybrid Mode**
-We currently only support Apache Cassandra 3.11 – we will have guidance to connect DSE clusters at a later time.
+### **DSE 6.0 will not connect to Managed Instances for Cassandra in hybrid mode**
+We currently support only Apache Cassandra 3.11. We'll have guidance for connecting DSE clusters at a later time.
 
-
-### **Nodetool**
-We do not support nodetool directly – instead use (in Azure CLI):
+### **nodetool**
+We do not support `nodetool` directly. Instead, use the following, in Azure CLI:
 
 ```
 azurecli-interactive
 az managed-cassandra cluster node-status   -g <my resource group> -c <my cluster> --output table
 ```
 
-### **sstable tool**
-Functionality for that is planned for a later release  
-
+### **SSTable tool**
+Functionality for SSTable tools is planned for a later release. 
 
 ## **Recommended Documents**
 [FAQ for Azure Managed Instance Apache Cassandra](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq) 
