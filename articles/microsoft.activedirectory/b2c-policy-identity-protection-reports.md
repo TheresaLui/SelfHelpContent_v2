@@ -19,7 +19,7 @@ Answer many common questions about Azure Active Directory B2C by reviewing the f
 
 ### **How do I enable multi-factor authentication in Azure Active Directory B2C?** 
 
-Azure Active Directory B2C (Azure AD B2C) integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You can enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
+Azure Active Directory B2C (Azure AD B2C)  integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You can enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
 
 ### **Can I send customized email to users that sign up to use my applications?**
 
@@ -48,7 +48,7 @@ Conditional Access policy activity is reported here: In your B2C tenant, Audit l
 Learn about it at [Resilient end-user experience](https://docs.microsoft.com/azure/active-directory/fundamentals/resilient-end-user-experience)
  
 
-## **Identity Protection**
+### **Identity Protection**
 
 Your investigation into risk will often include:
 * Reports such as [Risky users](https://docs.microsoft.coms/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risky-users) and [Risk detections](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=Portal-Microsoft_Azure_Support#risk-detections)
