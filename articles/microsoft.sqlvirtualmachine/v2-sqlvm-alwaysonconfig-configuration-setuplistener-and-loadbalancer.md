@@ -21,40 +21,6 @@
 
 
 <!--issueDescription--> 
-Most users facing issues with setting up AG listener cluster resource using load balancer will be resolved with the below powershell script
-
-Import-Module FailoverClusters;
-$AGName = $ScopingAGName;
-$AGProbePort = $ScopingAGProbePort;
-write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
-$AGValidate=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
-
-if ($AGName -eq $AGValidate) 
-{
-    #AG is found
-    Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
-    $MyClusterNetworkName=Get-ClusterNetwork  
-    $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
-    Write-Host ('Cluster Network is' + $ClusterNetworkName);
-        
-    $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq 'Online')  }
-    $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
-    Write-Host ('IP Resource Name is' + $IPResourceName)
-        
-    $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name 'Address'
-    $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
-    Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
-    
-    Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
-    }  
-else
-{
-    #AG is not found
-    Write-Host 'AG: $AGName is not found'
-}
-
-
-
 Most users can find sufficient information for **Setting up Listener and a load balancer for Availability Groups** by using the following steps.
 
 
