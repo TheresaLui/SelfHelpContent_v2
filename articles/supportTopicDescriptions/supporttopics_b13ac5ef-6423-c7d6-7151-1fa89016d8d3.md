@@ -38,7 +38,7 @@
     {
       "id": "8a1c22f2-ad5e-4a9b-0d23-2b607588384c",
       "longDescription": "",
-      "shortDescription": "Questions about credit card issues, payment cannot be completed, payment was completed (multiple times) however membership was not activated",
+      "shortDescription": "Questions about credit card issues, payment cannot be completed, payment was completed (multiple times) but membership was not activated",
       "searchTags": "",
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": "f788ba1e-a075-e660-1f8f-802fc8ddba21",
       "longDescription": "",
-      "shortDescription": "Questions about competencies status that can be "At-risk" due to COVID 19, renewal date extension requests",
+      "shortDescription": "Questions about competencies status that can be "at-risk" due to COVID 19, renewal date extension requests",
       "searchTags": "MPN;Benefits;Competencies",
     },
     {
