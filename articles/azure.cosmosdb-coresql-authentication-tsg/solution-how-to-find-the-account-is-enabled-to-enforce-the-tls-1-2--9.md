@@ -18,7 +18,9 @@
 # How to find the account is enabled to enforce the TLS 1.2?
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 Please kindly use the below Kusto query and check if the minimum_TLS column has the value 'Tls12':
 ```
 MgmtDatabaseAccountTrace
@@ -30,8 +32,8 @@ MgmtDatabaseAccountTrace
 ```
 
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 

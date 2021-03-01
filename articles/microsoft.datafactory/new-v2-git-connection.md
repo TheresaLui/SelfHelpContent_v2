@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Connect to Git Repository"
+  pagetitle="Connect to Git Repository&#xD;"
   service="microsoft.datafactory"
   resource="factories"
   ms.author="chez,haoc,nimoolen"
@@ -13,17 +13,6 @@
 # Connect to Git Repository
 
 Most customers can resolve connection issues to the Git repository using the following guidance.
-
-In this article:
-1. [Before you begin...](#**before-you-begin...**)
-1. [Known limitations](#**known-limitations**)
-1. [Connecting to GitHub for the first time](#**connecting-to-github-for-the-first-time**)
-1. [Using an Azure DevOps repo in another tenant](#**using-an-azure-devops-repo-in-another-tenant**)
-1. [Selective publishing](#**selective-publishing**)
-1. [Error: "This is likely due to publishing outside of Git mode..."](#**error:-"this-is-likely-due-to-publishing-outside-of-git-mode..."**)
-1. [Running only in test env.](#**running-only-in-test-env.**)
-1. [Other common errors](#**other-common-errors**)
-1. [Recommended Documents](#**recommended-documents**)
 
 ## **Recommended Steps**
 

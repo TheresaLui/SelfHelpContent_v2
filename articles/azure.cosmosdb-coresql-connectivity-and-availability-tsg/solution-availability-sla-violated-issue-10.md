@@ -18,10 +18,11 @@
 # Availability SLA Violated issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Please create a IcM for the Availability and Store Sev 2 or Sev 3 Cosmos DB team
+**Next steps:** Please create an IcM for the Availability and Store Sev 2 or Sev 3 Cosmos DB team.
 
-##Customer message:
+## Customer message:
 Dear customer,
 
 We need to follow up with Cosmos DB product team due to the availability issue and we will get back to you as soon as possibe.
