@@ -20,8 +20,8 @@
 Data Discovery & Classification is built into Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. It provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases.
 
 ## Recommended Steps
--	Use [Azure Portal.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#discover-classify-columns)
- or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql#Manage-information-protection-policy-with-SSMS)
+-	Use [Azure Portal.](https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database)
+ or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
 
 ### Manage classifications
 -	Use [T-SQL.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
@@ -29,13 +29,16 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 -	Use [REST-APIs.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
 
 ### Permissions needed for Data Classification
-* Read about permissions and access needed for enable/setup data classification for a database: [Owner.](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader)
-, [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor), [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
-•	[User Access Administrator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)
-* To Modify data classification of a database permissions and access needed:
-•	[Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
-•	[Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
-•	[SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
+* Below list of permissions are needed to Read data classification in a database: 
+- [Owner.](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
+- [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader)
+- [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
+- [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
+- [User Access Administrator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)
+* Below list of permissions allow you to Modify data classifications in a database:
+- [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
+- [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
+- [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
 
 ### FAQ
 * Q.	Will [Azure Purview](https://docs.microsoft.com/azure/purview/overview) replace SQL Data Discovery & Classification or will SQL Data Discovery & Classification be retired soon?
@@ -54,5 +57,4 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 * [Overview of Data Classification](https://youtu.be/itVi9bkJUNc)
 
 ### Data Classification documentation on setup and overview
-* [Data discovery and classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?WT.mc_id=pid:13491:sid:32630416/)<br>
-* [Advanced Threat Protection](https://docs.microsoft.com/azure/sql-database/sql-advanced-threat-protection?WT.mc_id=pid:13491:sid:32630416/)
+* [Data discovery and classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?WT.mc_id=pid:13491:sid:32630416/)
