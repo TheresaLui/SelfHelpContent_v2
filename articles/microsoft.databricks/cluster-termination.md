@@ -26,3 +26,7 @@
 * [How to set Automatic termination](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#automatic-termination). 
 
  * For details about who deleted the cluster, check the [cluster event log](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#--cluster-event-logs).
+
+* **Is is possible to restore a cluster?**
+  
+  If a cluster is deleted, it cannot be restored by design. Instead, a new cluster should be created.

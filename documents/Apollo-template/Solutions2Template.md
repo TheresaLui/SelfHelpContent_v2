@@ -1,5 +1,3 @@
-<!--DIRECTIONS: Open the raw form of this article to view template guidelines for creating Solutions 2.0 (Apollo) articles for Azure Self-help. Copy the raw form to create your own solutions outside of Elixir. Make sure to include the required properties, title, and body sections in the order shown. Use markdown, except where XML is specified. Be sure to review the Rules at the end of this template to prevent validation and editorial errors.-->
-
 <!--For information about each property, see the Metadata page-->
 <properties
 	pageTitle="Apollo common solutions"
@@ -17,8 +15,9 @@
 # Solutions 2.0 template 
 <!--Required Title in Level 1 heading for internal reference only--> 
 
-**Directions:** Copy the raw form of this article to create Solution 2.0 (Apollo) articles. <br>
-Authoring guidelines and sample schemas are provided in this template.
+**Directions:** Copy the raw form of this page to create a Solution 2.0 (Apollo) article. <br>
+Be sure to review the **Rules** at the end of this template to prevent validation errors and comply with [Authoring guidelines](https://azsupportdocs.azurewebsites.net/elixir/articles/AuthoringGuidelines.html).
+
 
 ## Title - Required
 
@@ -29,11 +28,11 @@ For example: "Learn how to adjust resource limits for NetApp files by watching t
 
 ## Body - Required
 
-<!--The body contains the main content.  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
+<!--The body contains the main content (that is, the solution).  At minimum, it must include meaningful content that clearly addresses the customer's issue.  
 - For a solution-based article, include an issue statement and one or more solutions. Prioritize your solutions with the one that's most likely to fix the issue at the top.  
 - For a how-to or conceptual article, provide instructions (e.g., steps, video, links, etc.)   
 <br> 
-Solutions can be comprised of the following components: 
+Solutions can be comprised of the following components. To format these solutions, go to the next section, ### Solution. 
 - Procedures
 - Images
 - Diagnostics  
@@ -41,12 +40,13 @@ Solutions can be comprised of the following components:
 - Videos 
 - AzureKB and document links
 <br>
-Note: If you have several solutions, consider presenting them accordian-style using Section tags. For example:
-:::Section section_name:::
 -->
 
 ### Solution
 <!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
+- If you have more than one solution, format them into sections, using the following heading:
+   :::Section section_name:::
+- If you have more than five (5) sections, break your your content into multiple articles.
 
 
 ### Procedures 
@@ -58,6 +58,7 @@ Example:
 3. This is a step with a [link](http://)
 4. This is a step with inline code: `SELECT name, is_disabled FROM sys.sql_logins`
 5. This is a step with multi-line code:
+
 ```
 [cluster my-cluster]
     FormLayout = selectionpanel
@@ -66,6 +67,7 @@ Example:
     MaxCount = 200
     Autoscale = $Autoscale
 ```
+
 For non-sequential tasks, use unordered (bullet) lists.
 Example:
 * Item1
@@ -116,8 +118,9 @@ Example:
 	</video>
     </videoGroup>
 
-## Resources 
+## More resources 
 <!--Optional. Only list links that aren't already listed in the solution. Approved sources include: MS docs, MSDN, and Stack Overflow.
+Do not add periods after your document links, even if you introduce the link with a complete sentence.
 This is the Apollo schema for AzureKB articles-->
 
 
@@ -126,8 +129,7 @@ This is the Apollo schema for AzureKB articles-->
 	<client>Portal</client>
 </azureKB>
 
-
-<!--RULES:
+## Rules
 * Provide the minimum requirements for title and body. (See each section for details.)
 * Use sentence capitalization for all headings (capitalize only the first word) 
 * Use accurate, complete spelling of product, feature, and service names (including capitalization). Don't use an acronym on first mention. 
@@ -139,5 +141,5 @@ This is the Apollo schema for AzureKB articles-->
 * Use code formatting for code (inline and block), values, parameters, properties, operations, methods, functions, language keywords, and directory and file names 
 * Enclose error messages in quotation marks 
 * Insert a blank line after every heading
-* Don't use internal links, which users can't access. This includes review.microsoft.docs links and aka.ms links.
--->
+* Don't use more than five (5) sections per article.
+* Don't use internal links, which users can't access. This includes `review.microsoft.docs` links and `aka.ms` links.

@@ -24,9 +24,11 @@
 
 Taxes for Partner Center purchases are determined by your business address. Businesses in some [countries](https://docs.microsoft.com/partner-center/tax-and-tax-exemptions#country-and-region-tax-details) can provide their value-added tax (VAT) number or local equivalent. To update your Tax/VAT ID, you must be a Global admin, billing admin, or admin agent.
 
-1. From the **Partner Center dashboard** go to **Settings** and then select **Billing profile**
-2. In the **Financial data** section, select **Update**
-3. In the **Company Tax ID** field, enter your VAT ID number
+1. Sign in to the [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+2. In the **Settings** menu (gear icon), choose **Account Settings**.
+3. On the **Account settings** page, choose **Partner billing profile** on the page menu.
+4. In the **Financial data** section, choose **Update**.
+5. For **Company Tax ID**, specify your VAT ID number.
 
 Common Tax Forms needed to set up Microsoft in your Accounts Payable system:
 * [US](https://assetsprod.microsoft.com/mpn/1010-microsoft-corporation-2021-w-9-signed.pdf)
