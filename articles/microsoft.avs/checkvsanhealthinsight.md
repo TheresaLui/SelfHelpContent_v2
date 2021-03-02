@@ -22,7 +22,7 @@
 <!--issueDescription-->
 Recently, vSAN datastore was reported as unhealthy. 
 
-Excluding the cache, capacity of the drives used for the vSAN is termed as "vSAN health." It is generally recommended that there is 25%-30% raw free disk space, or "slack-space," on the vSAN datastore to allow for expected host behavior (e.g., snapshots, maintenance, storage policy changes) and unexpected host behavior (e.g., failures). In this case, vSAN was reported as unhealthy because there was a recent instance where "slack-space" was less than 30%. 
+Excluding the cache, capacity of the drives used for the vSAN is termed as "vSAN health." It is generally recommended that there be 25%-30% raw free disk space, or "slack-space," on the vSAN datastore to allow for expected host behavior (e.g., snapshots, maintenance, storage policy changes) and unexpected host behavior (e.g., failures). In this case, vSAN was reported as unhealthy because there was a recent instance where "slack-space" was less than 30%. 
 
 **Note:** vSAN usage greater than or equal to 80% is considered a breach of the SLA. 
 <!--/issueDescription-->
