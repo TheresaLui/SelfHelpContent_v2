@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar, panshar, adoyle, deseelam, bhpat"
+  ms.author="anvar, panshar, adoyle, deseelam, bhpat, rajosh"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -393,8 +393,8 @@
     {
       "id": "c2a32eea-03dc-d311-0b42-dc3c36845fe2",
       "longDescription": "",
-      "shortDescription": "Issues after successfully creating and Azure SQL Assessment ",
-      "searchTags": "Assessment;SQL",
+      "shortDescription": "Issues faced after successfully creating an Azure SQL assessment ",
+      "searchTags": "SQL;Azure SQL assessment;Recommended deployment type;unknown;service tier",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
