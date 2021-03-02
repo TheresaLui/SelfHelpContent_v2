@@ -1,18 +1,14 @@
 <properties
-    pageTitle="Azure Security Center Recommendation - Recommendation keeps on appearing"
-    description="Azure Security Center Recommendation - Recommendation keeps on appearing"
-    authors="genlin"
-    ms.author="jaserano"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32636900"
-    resourceTags=""
-    productPesIds="15947"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-     articleId="a15f057d-9111-9011-a98a-dfaf3843dc2f"
-	ownershipId="Azure_Security_Security_Center"
-/>
-
+  pagetitle="Azure Security Center Recommendation - Recommendation keeps on appearing&#xD;"
+  description="Azure Security Center Recommendation - Recommendation keeps on appearing"
+  ms.author="jaserano,elsagie"
+  selfhelptype="Generic"
+  supporttopicids="32788547"
+  resourcetags=""
+  productpesids="15947"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="a15f057d-9111-9011-a98a-dfaf3843dc2f"
+  ownershipid="Azure_Security_Security_Center" />
 # Azure Security Center Recommendation - Recommendation keeps on appearing
 
 ## **Recommended Steps**
@@ -48,5 +44,3 @@ In addition, Azure security center uses Azure policy as its main policy engine. 
 **FAQ**
 
 - [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
-
-
