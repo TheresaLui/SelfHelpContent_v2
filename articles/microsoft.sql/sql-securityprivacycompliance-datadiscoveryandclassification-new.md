@@ -21,29 +21,29 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 
 ## Recommended Steps
 -	Use [Azure Portal.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#discover-classify-columns)
--	Use [SQL Server Management Studio SSMS.](SQL%20Server%20Management%20Studio%20(SSMS))
+ or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql#Manage-information-protection-policy-with-SSMS)
 
 ### Manage classifications
--	Use [T-SQL.](https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
--	Use [PowerShell Cmdlets.](https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview#use-powershell-cmdlets)
--	Use [REST-APIs.](https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
+-	Use [T-SQL.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
+-	Use [PowerShell Cmdlets.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-powershell-cmdlets)
+-	Use [REST-APIs.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
 
 ### Permissions needed for Data Classification
--	Read about permissions and access needed for enable/setup data classification for a database: [Owner.](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner), [Reader](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#reader)
-, [Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor), [SQL Security Manager](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#sql-security-manager)
-•	[User Access Administrator](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#user-access-administrator)
+-	Read about permissions and access needed for enable/setup data classification for a database: [Owner.](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader)
+, [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor), [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
+•	[User Access Administrator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)
 -	To Modify data classification of a database permissions and access needed:
-•	[Owner](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner)
-•	[Contributor](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#contributor)
-•	[SQL Security Manager](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#sql-security-manager)
+•	[Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
+•	[Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
+•	[SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
 
 ### FAQ
-- Q.	Will [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) replace SQL Data Discovery & Classification or will SQL Data Discovery & Classification be retired soon?
-<br>A.	We continue to support SQL Data Discovery & Classification and encourage you to adopt [Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) which has richer capabilities to drive advanced classification capabilities and data governance. If we decide to retire any service, feature, API or SKU, you will receive advance notice including a migration or transition path. Learn more about Microsoft Lifecycle policies here.
+- Q.	Will [Azure Purview](https://docs.microsoft.com/azure/purview/overview) replace SQL Data Discovery & Classification or will SQL Data Discovery & Classification be retired soon?
+<br>A.	We continue to support SQL Data Discovery & Classification and encourage you to adopt [Azure Purview](https://docs.microsoft.com/azure/purview/overview) which has richer capabilities to drive advanced classification capabilities and data governance. If we decide to retire any service, feature, API or SKU, you will receive advance notice including a migration or transition path. Learn more about Microsoft Lifecycle policies here.
 - Q.	How to classify my Azure SQL data using Azure Purview labels?
-<br>A.	Please follow these [steps](https://docs.microsoft.com/en-us/azure/sql-database/scripts/sql-database-import-purview-labels).
+<br>A.	Please follow these [steps](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-import-purview-labels).
 - Q.	How to dismiss all recommendations for a given Azure SQL Database?
-<br>A.	Drop sensitivity [Classification](https://docs.microsoft.com/en-us/sql/t-sql/statements/drop-sensitivity-classification-transact-sql?view=sql-server-ver15)
+<br>A.	Drop sensitivity [Classification](https://docs.microsoft.com/sql/t-sql/statements/drop-sensitivity-classification-transact-sql?view=sql-server-ver15)
 
 
 ## **Recommended Documents**
