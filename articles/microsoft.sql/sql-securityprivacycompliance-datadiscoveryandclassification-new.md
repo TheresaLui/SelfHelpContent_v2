@@ -47,7 +47,7 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 
 ## **Recommended Documents**
 
-### Data Classificiation Videos on setup and overview
+### Data Classification Videos on setup and overview
 * [Demo Data Classification](https://youtu.be/_aJiFzyPfnE)
 * [Overview of Data Classification](https://youtu.be/itVi9bkJUNc)
 
