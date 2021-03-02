@@ -9,7 +9,7 @@
 	articleId="highvsanutilization_b53b92be-32dc-4c13-ab13-238d6256d72a"
 	diagnosticScenario="CheckVsanHealthInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32739946, 32739976, 32739979,"
 	resourceTags="AVS,privateClouds,vSAN"
 	productPesIds="17080"
 	cloudEnvironments="public"
@@ -20,9 +20,9 @@
 
 ## High vSAN Usage
 <!--issueDescription-->
-vSAN has been reported as unhealthy at least once in the past 30 days. 
+Recently, vSAN datastore was reported as unhealthy. 
 
-The capacity of the drives used for vSAN, besides the cache, is termed as "vSAN health." We generally recommended that you have 25%-30% raw free disk space, or "slack-space," on the vSAN datastore to allow for expected host behavior (for example, snapshots, maintenance, storage policy changes) and unexpected host behavior (for example, failures). In this case, vSAN was reported as unhealthy because there was an instance where slack-space was less than 30%. 
+Excluding the cache, capacity of the drives used for the vSAN is termed as "vSAN health." It is generally recommended that there is 25%-30% raw free disk space, or "slack-space," on the vSAN datastore to allow for expected host behavior (e.g., snapshots, maintenance, storage policy changes) and unexpected host behavior (e.g., failures). In this case, vSAN was reported as unhealthy because there was a recent instance where "slack-space" was less than 30%. 
 
 **Note:** vSAN usage greater than or equal to 80% is considered a breach of the SLA. 
 <!--/issueDescription-->
