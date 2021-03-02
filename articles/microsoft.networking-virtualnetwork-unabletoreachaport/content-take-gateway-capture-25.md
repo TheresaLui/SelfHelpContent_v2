@@ -23,12 +23,11 @@ Brooklyn Gateway Packet Capture is utilized to capture ESP / IKE / OVPN / unencr
 
 1. Navigate to the Diagnostics tab in of the VNG within ASC and navigate to the Brooklyn Gateway Packet Capture option.
 2. Pick packet capture operation, options are start and stop
-3. Select which connection object you want to capture for
-4. Leave everything else blank
-5. Ensure that capture software and customer repro is ready. 
-6. Run the capture
-7. Reproduce issue.
-8. Stop capture. 
+3. Select which connection object you want to capture for (Leave everything else blank)
+4. Ensure that capture software and customer repro is ready. 
+5. Run the capture
+6. Reproduce issue.
+7. Stop capture. 
 
 # Reccommended Documents
 
