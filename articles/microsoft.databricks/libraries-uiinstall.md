@@ -30,3 +30,4 @@ Support might ask you to engage other channels for open-source technologies wher
 
 * [Libraries overview and Guidance](https://docs.microsoft.com/azure/databricks/libraries)
 * [Problem: Can’t Uninstall Library From UI](https://docs.microsoft.com/azure/databricks/kb/libraries/cant-uninstall-libraries)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)
