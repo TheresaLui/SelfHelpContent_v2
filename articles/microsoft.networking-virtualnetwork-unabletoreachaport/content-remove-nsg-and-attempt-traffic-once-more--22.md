@@ -19,7 +19,7 @@
 
 Remove the NSG and repro to ensure the NSG is not a blocker in this situation. 
 
-# Reccommended Steps
+# Recommended Steps
 
 1. Remove any NIC or subnet level NSGs.
 2. Reproduce the issue. 
