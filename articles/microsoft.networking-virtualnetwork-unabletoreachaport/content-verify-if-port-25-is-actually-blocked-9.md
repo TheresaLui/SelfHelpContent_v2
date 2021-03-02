@@ -23,13 +23,9 @@ Starting on November 15th, 2017, sending outbound email directly to external dom
 # Recommended Steps
 
 1. Find the VM resource/s in 'Resource Explorer' in ASC (make sure to include VMs in the outbound path. eg. NVAs)
-
 2.  On the 'Diagnostic' tab choose 'Test Traffic'
-
 3. Leave all the defaults but update the 'Destination IP' to 8.8.8.8 and the 'Destination Port' to 25 then click 'Run'
-
 4. Review results to see if customer is blocked.
-
 5. If the results show as "Fraudulent" close the SR and do not contact the customer. 
 
 
