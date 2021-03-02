@@ -3,9 +3,9 @@
     description="Improve the availability of your production workloads on Azure Cosmos DB"
     authors="thweiss"
     ms.author="thweiss"
-    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_Public"
+    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_USSec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Improve the availability of your production workloads on Azure Cosmos DB

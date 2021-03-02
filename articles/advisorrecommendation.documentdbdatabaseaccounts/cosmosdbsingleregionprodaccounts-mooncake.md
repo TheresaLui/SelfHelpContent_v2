@@ -3,9 +3,9 @@
     description="Improve the availability of your production workloads on Azure Cosmos DB"
     authors="thweiss"
     ms.author="thweiss"
-    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_Public"
+    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Improve the availability of your production workloads on Azure Cosmos DB
@@ -30,14 +30,14 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/high-availability",
+  "learnMoreLink": "https://docs.azure.cn/azure/cosmos-db/high-availability",
   "description": "Improve the availability of your production workloads on Azure Cosmos DB",
   "longDescription": "Based on their names and configuration, we have detected the Azure Cosmos DB accounts below as being potentially used for production workloads. These accounts currently run in a single Azure region. You can increase their availability by configuring them to span at least two Azure regions. <b>Note that additional regions will incur extra costs.</b>",
   "potentialBenefits": "Improve the availability of your production workloads",
   "displayLabel": "Improve the availability of your production workloads on Azure Cosmos DB",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').SingleRegionProdAccounts",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').SingleRegionProdAccounts",
     "refreshInterval": "1.00:00:00"
   },
   "actions": [

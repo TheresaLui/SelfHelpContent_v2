@@ -3,9 +3,9 @@
     description="Improve the availability of your production workloads on Azure Cosmos DB"
     authors="thweiss"
     ms.author="thweiss"
-    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_Public"
+    articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Improve the availability of your production workloads on Azure Cosmos DB
@@ -37,7 +37,7 @@
   "displayLabel": "Improve the availability of your production workloads on Azure Cosmos DB",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').SingleRegionProdAccounts",
+    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').SingleRegionProdAccounts",
     "refreshInterval": "1.00:00:00"
   },
   "actions": [
