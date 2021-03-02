@@ -22,7 +22,6 @@ Before continuing to troubleshoot the connection it is important to ensure that 
 
 # Recommended Steps
 
-
-	1. Navigate to the VNET in ASC
-	2. Find the peering section at the bottom of the page. 
-	3. Review the peering in use and ensure that the peering state is succeeded. 
+1. Navigate to the VNET in ASC
+2. Find the peering section at the bottom of the page. 
+3. Review the peering in use and ensure that the peering state is succeeded. 
