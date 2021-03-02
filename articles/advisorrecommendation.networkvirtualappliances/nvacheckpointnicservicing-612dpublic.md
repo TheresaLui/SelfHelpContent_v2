@@ -51,12 +51,12 @@ ownershipId="CloudNet_NVA"
     "tip": "Upgrade Network Virtual Appliance image to ensure business continuity.",
     "additionalColumns": [
         {
-          "name": "duration",
-          "title": "Event Duration"
-        },
-        {
           "name": "startTime",
           "title": "Event Start Time"
+        },
+        {
+          "name": "duration",
+          "title": "Event Duration"
         }
     ],
     "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer, \"{\"\"startTime\"\":\"\"2021-02-28 19:34:54.7517879\"\", \"\"duration\"\" :\"\"00:00:00.9260000\"\"}\""
