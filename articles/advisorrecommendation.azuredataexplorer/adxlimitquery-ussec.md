@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "f011adf6-475a-48c9-bf26-8db051cb6964",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.usseceast.kusto.core.microsoft.scloud').database('AdvisorRecommendations').PublishLimitQueryRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -24,7 +23,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Update Cache Policies for ADX tables",
+  "recommendationFriendlyName": "UpdateCachePoliciesForAdxTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 4.0,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: Limit queries on this table to the minimal necessary time range (within the defined policy). Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
@@ -68,6 +67,10 @@
   },
   "displayLabel": "Query time range is too wide - Consider setting your cache period (policy) to the recommended value",
   "additionalColumns": [
+    {
+      "name": "databaseName",
+      "title": "Database Name"
+    },
 	{
       "name": "tableName",
       "title": "Table Name"
