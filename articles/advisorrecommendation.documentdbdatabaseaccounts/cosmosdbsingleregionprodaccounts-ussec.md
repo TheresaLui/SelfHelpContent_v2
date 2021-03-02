@@ -15,7 +15,7 @@
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b57f7a29-dcc8-43de-86fa-18d3f9d3764d",
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBSingleRegionProdAccounts",
@@ -37,7 +37,7 @@
   "displayLabel": "Improve the availability of your production workloads on Azure Cosmos DB",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').SingleRegionProdAccounts",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').SingleRegionProdAccounts",
     "refreshInterval": "1.00:00:00"
   },
   "actions": [

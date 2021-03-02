@@ -15,7 +15,7 @@
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b57f7a29-dcc8-43de-86fa-18d3f9d3764d",
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBSingleRegionProdAccounts",
