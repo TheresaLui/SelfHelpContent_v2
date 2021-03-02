@@ -33,7 +33,7 @@ To solve this problem,
 
 2. Ask an administrator ( a user in Managed HSM builtin roles \"Managed HSM Administor\" ) of Managed HSM '**<!--PoolName-->[PoolName]<!--/PoolName-->**' to assign a appropriate role to the application with service principal id '**<!--CallerId-->[CallerId]<!--/CallerId-->**'.
  
-  For example when using Azure CLI, run this command as the administrator of the Managed HSM '<!--PoolName-->[PoolName]<!--/PoolName-->':
+  For example when using Azure CLI, run this command as the administrator of the Managed HSM '<!--PoolName-->[PoolName]<!--/PoolName-->':<br>
   - To give key encrypt/decrypt operations to the application:
     ```
     az keyvault role assignment create --assignee \"<!--CallerId-->[CallerId]<!--/CallerId-->\" --role \"Managed HSM Crypto User\" --scope \"/\" --hsm-name <!--PoolName-->[PoolName]<!--/PoolName-->
@@ -56,7 +56,7 @@ To solve this problem,
 
 ## **Recommended Documents**
 
-Refer to the following documents to setup permissions for your application.
+Refer to the following documents to setup permissions for your application.<br>
 
 * [Managed HSM local RBAC built-in roles](https://docs.microsoft.com/azure/key-vault/managed-hsm/built-in-roles)
 * [Managed HSM access control](https://docs.microsoft.com/azure/key-vault/managed-hsm/access-control)
