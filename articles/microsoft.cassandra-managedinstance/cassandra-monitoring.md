@@ -18,31 +18,29 @@
 
 
 # Azure Managed Instance for Apache Cassandra monitoring
-Most users are able to resolve their Managed Instance Cassandra monitoring issue using the steps below.
+Most users can resolve issues with Managed Instance Cassandra monitoring by using the steps below.
 
 ## **Recommended Steps**  
 
-### **How do I access Prometheus**
-Copy the value of the field output of az managed-cassandra cluster show -g <your resource group> -c <your cluster> the value of the field prometheusEndpoint. In a browser go to https:\\<the ip you just copied>:9443. You might need to approve of a certificate error since we do not support hostname validation at this point.  
+### **How do I access Prometheus?**
+Copy the value of the field output of the Azure managed-cassandra cluster that shows `-g` <your resource group> and `-c` <your cluster>, the value of the field `prometheusEndpoint`. In a browser, go to https:\\<the ip you just copied>:9443. You might need to approve a certificate error, since we don't currently support hostname validation.  
 
-**Note:** The data on this endpoint is only stored for the last 10 minutes and/or 10 GB of data - whichever is reached first. For this reason we recommend to link this to your own monitoring infrastructure. Refer to the documentation of your system on how to link up a prometheus server. For Prometheus itself you can find this information at https://prometheus.io/docs/prometheus/latest/federation/.   
-
+**Note:** The data on this endpoint is stored only for the last 10 minutes and/or 10 GB of data, whichever limit is reached first. For this reason, we recommend linking this to your own monitoring infrastructure. See your system's documentation on how to link up a Prometheus server. For Prometheus, see [more information](https://prometheus.io/docs/prometheus/latest/federation/).   
 
 ### **Not able to access Prometheus**  
-- Verify if you have connectivity to the prometheus endpoint using  `curl -k https://<prometheus endpoint>:9042` and take note of the error. Make certain firewalls and connectivity is configured accordingly.
+- Verify if you have connectivity to the Prometheus endpoint by using  `curl -k https://<prometheus endpoint>:9042` and take note of the error. Make sure that firewalls and connectivity are configured accordingly.
 
-### **Will there be Azure Monitoring Support**
-Azure Monitoring support will be coming in one of the future releases.
+### **Will there be Azure Monitoring Support?**
+Azure Monitoring support will be available in a future release.
 
 ### **Which metrics are being provided**
-We provide all the cassandra metrics you might find on a page like https://cassandra.apache.org/doc/latest/operating/metrics.html Refer to the installed Prometheus for an up-to date list.
+We provide all the Cassandra metrics. For example, see [operating metrics](https://cassandra.apache.org/doc/latest/operating/metrics.html). See your installed Prometheus version for an up-to-date list.
 
 ### **Prometheus is not running**
-Since the probes Prometheus relies upon is store data, it will eventually catch up.
+Because the probes that Prometheus relies on consisted of stored data, they will eventually catch up.
 
 ### **I am missing data**
-Please review the setup of your monitoring system and increase the interval you are scraping data as needed.  
-
+Review the setup of your monitoring system and increase the interval with which you are scraping data, as needed.  
 
 ## **Recommended Documents**
 [FAQ for Azure Managed Instance Apache Cassandra](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq)
