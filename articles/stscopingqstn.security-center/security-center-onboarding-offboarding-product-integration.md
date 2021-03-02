@@ -12,22 +12,22 @@
 
 ## **Recommended Steps**
 
-### Allow Windows Defender ATP to access your data
+### Allow Microsoft Defender for Endpoint to access your data
 
 Onboarding to "Microsoft Defender for Endpoint" previously known as "Microsoft Defender Advanced Threat Protection" (MDATP): Azure Security Center is extending its Cloud Workload Protection Platforms offering by integrating with [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender).
 
 These capabilities are available for Azure Defender (Security Center Standard pricing tier) customers at no extra charge:
 
-- Automated onboarding: The Windows Defender ATP sensor is automatically enabled for Windows servers that are onboarded to Azure Defender
-- Single pane of glass: The Azure Defender console displays Windows Defender ATP alerts
-- Detailed machine investigation: Azure Defender customers can access Windows Defender ATP console to perform a detailed investigation to uncover the scope of a breach
+- Automated onboarding: The Microsoft Defender for Endpoint sensor is automatically enabled for Windows servers that are onboarded to Azure Defender
+- Single pane of glass: The Azure Defender console displays Microsoft Defender for Endpoint alerts
+- Detailed machine investigation: Azure Defender customers can access Microsoft Defender for Endpoint console to perform a detailed investigation to uncover the scope of a breach
 
 To onboard servers to Security Center:
 
 1. Make sure that the subscription has Azure Defender enabled (previously known as Security Center standard pricing tier)
 1. Make sure that in Pricing & Settings -> Threat detection -> Enable integrations are checked:
 - Allow Microsoft Cloud App Security to access my data
-- Allow Windows Defender ATP to access my data  
+- Allow Microsoft Defender for Endpoint to access my data  
 **Note:** Both of the above are selected by default
 2. Make sure all required workspaces under the subscription, both default and user workspaces, are [Azure defender enabled](https://docs.microsoft.com/azure/security-center/security-center-pricing#enable-azure-defender)
 3. To verify that the workspace is eligible check that 'Security' solution is enabled on that workspace
