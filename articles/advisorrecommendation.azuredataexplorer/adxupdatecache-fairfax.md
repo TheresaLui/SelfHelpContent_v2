@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
+  "recommendationResourceType": "Microsoft.Kusto/Clusters",
   "recommendationFriendlyName": "ReduceCacheForAzureDataExplorerTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
