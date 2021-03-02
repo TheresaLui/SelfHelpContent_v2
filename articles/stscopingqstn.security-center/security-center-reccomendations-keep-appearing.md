@@ -1,9 +1,9 @@
 <properties
   pagetitle="Azure Security Center Recommendation - Recommendation keeps on appearing&#xD;"
   description="Azure Security Center Recommendation - Recommendation keeps on appearing"
-  ms.author="jaserano,elsagie"
+  ms.author="elsagie"
   selfhelptype="Generic"
-  supporttopicids="32788547"
+  supporttopicids="32788547,32788549,32788551,32788555,32788557,32788558"
   resourcetags=""
   productpesids="15947"
   cloudenvironments="public,fairfax,usnat,ussec"
