@@ -18,11 +18,11 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUpdateCacheRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.08:00:00"
+    "refreshInterval": "0.01:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
+  "recommendationResourceType": "Microsoft.Kusto/Clusters",
   "recommendationFriendlyName": "ReduceCacheForAzureDataExplorerTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
@@ -42,7 +42,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 4.0,
+  "version": 4.1,
   "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
