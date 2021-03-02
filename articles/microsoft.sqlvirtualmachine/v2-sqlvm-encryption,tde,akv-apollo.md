@@ -2,7 +2,7 @@
 	pageTitle="Encryption, TDE, Azure Key Vault (AKV)"
 	description="Encryption, TDE, Azure Key Vault (AKV)" 
 	ms.author="ujpat,amamun"
-	articleId="b35ad0aa-4229-48f0-b3fb-5caf7c8154c7" 
+	articleId="b1c054da-40da-4b13-ace1-6b24d6f84111" 
 	selfHelpType="Apollo" 
         supportTopicIds="ccff42f4-ab6c-4296-d948-886eed26b053" 
         productPesIds="14745,16342" 
