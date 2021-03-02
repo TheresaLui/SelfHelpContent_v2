@@ -29,13 +29,13 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 -	Use [REST-APIs.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
 
 ### Permissions needed for Data Classification
-* Below list of permissions are needed to Read data classification in a database: 
+* List of permissions to Read data classification in a database: 
 - [Owner.](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
 - [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader)
 - [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
 - [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
 - [User Access Administrator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)
-* Below list of permissions allow you to Modify data classifications in a database:
+* List of permissions allow you to Modify data classifications in a database:
 - [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)
 - [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor)
 - [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager)
