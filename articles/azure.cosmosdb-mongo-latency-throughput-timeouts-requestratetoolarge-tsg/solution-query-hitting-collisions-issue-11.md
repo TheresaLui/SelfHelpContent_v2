@@ -18,7 +18,9 @@
 # Query hitting collisions issue
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 When a query hits collisions, the customer visible outcome can be one of the following
 - Query fails with "Request Rate is Large error"
 - Query takes very long time to execute and/or hits a timeout issue.
@@ -40,7 +42,7 @@ SqlQueryExecMetrics
 **Customer message:**
 Based on the troubleshooting step above, please share the known issue or solution to customer and share any necessary link.
 
-##Resolution
+#### Resolution
 
 Migrate the customer collection/account to use IndexV2 following the steps at
 [Index V2](https://supportability.visualstudio.com/AzureCosmosDB/_wiki/wikis/AzureCosmosDB.wiki/237343)
