@@ -81,5 +81,5 @@ We recommend running the query below to identify the lead blocking session.
    -   If the query returns results, blocking is currently occurring. If the blocking is impacting workload performance, run the following command to kill the lead   blocker: 
        `KILL {head_blocker_session_id};` 
    -   If the query does not return results, blocking is not currently occurring. In this case, if you are still experiencing performance issues, review this article to help [identify other query performance issues in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/identify-query-performance-issues).
-    -  
+
 3. Review [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
