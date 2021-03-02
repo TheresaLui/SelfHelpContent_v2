@@ -9,7 +9,7 @@
 	articleId="highvsanutilization_b53b92be-32dc-4c13-ab13-238d6256d72a"
 	diagnosticScenario="CheckVsanHealthInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds="32739946, 32739976, 32739979,"
+	supportTopicIds="32739946, 32739976, 32739979"
 	resourceTags="AVS,privateClouds,vSAN"
 	productPesIds="17080"
 	cloudEnvironments="public"
