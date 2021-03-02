@@ -97,3 +97,4 @@ Most users can diagnose and resolve issues with Azure Databricks workspace by us
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) covers the features for the Azure Databricks platform
 * [Azure Databricks Runtime release notes](https://docs.microsoft.com/azure/databricks/release-notes/runtime/) cover the features for Databricks cluster runtimes or images, including proprietary features and optimizations
 * [Upgrade or Downgrade an Azure Databricks Workspace](https://docs.microsoft.com/azure/databricks/administration-guide/account-settings/account#--upgrade-or-downgrade-an-azure-databricks-workspace)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)
