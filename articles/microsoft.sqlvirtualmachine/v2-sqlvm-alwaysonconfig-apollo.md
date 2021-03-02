@@ -59,15 +59,51 @@ The following articles show the different ways to configure AGs. Review a [compa
 
 1. Ensure that a load balancer rule corresponding to the AG listener is [configured](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener. Ensure that **Floating IP** (direct server return) is enabled for the load balancer.<br>
 
-1. Figure out the **Variables** using the following chart and ensure that you have [run the PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener). After you run the PowerShell to configure the cluster parameters, restart the AG Role.
-   * **Cluster Network Name:** In Failover Cluster Manager > **Networks**, right-click the network and select **Properties**. The correct value is under **Name** on the **General** tab.
-   
-   * **SQL Server FCI/AG listener IP Address Resource Name:** In Failover Cluster Manager > **Roles**, under the SQL Server FCI role, under **Server Name**, right-click the IP address resource and select **Properties**. The correct value is under **Name** on the **General** tab. 
-   
-   * **ILBIP:** You can find it in Failover Cluster Manager on the same properties page where you located the <SQL Server FCI/AG listener IP Address Resource Name>.
-   
-   * **nnnnn:** The probe port that you configured in the load balancer's health probe (such as 59999). Any unused TCP port is valid.
-   
+1. Run the below powershell command
+```
+Param
+(
+    [Parameter(Mandatory = $true)]
+    [ValidateNotNullOrEmpty()]
+    [String]
+    $AGName,
+
+    [Parameter(Mandatory = $true)]
+    [ValidateNotNullOrEmpty()]
+    [String]
+    $AGProbePort
+);
+
+Import-Module FailoverClusters;
+write-Host ('The Probe Port Entered is $AGProbePort and AG Name is' + $AGName);
+$AGValidate = Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'SQL Server Availability Group') -and ($_.Name -eq $AGName)};
+
+if ($AGName -eq $AGValidate) 
+{
+    #AG is found
+    Write-Host 'AG is found. Setting up your Listener/ILB Configuration...' 
+    $MyClusterNetworkName = Get-ClusterNetwork  
+    $ClusterNetworkName = $MyClusterNetworkName.Name # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
+    Write-Host ('Cluster Network is' + $ClusterNetworkName);
+        
+    $ClusterIPResourceName=Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName) -and ($_.State -eq 'Online')  }
+    $IPResourceName = $ClusterIPResourceName.Name  #Gets the IP Resource Name for this particular AG
+    Write-Host ('IP Resource Name is' + $IPResourceName)
+        
+    $ListenerIP= Get-ClusterResource |  Where-Object -FilterScript {($_.ResourceType.Name -eq 'IP Address') -and ($_.OwnerGroup -eq $AGName)} | Get-ClusterParameter -Name 'Address'
+    $ClusterCoreIP = $ListenerIP.Value #Gets listener IP for this particular AG
+    Write-Host( 'Listener Ip is ' + $ClusterCoreIP)          
+    
+    Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{'Address'='$ClusterCoreIP';'ProbePort'=$AGProbePort;'SubnetMask'='255.255.255.255';'Network'='$ClusterNetworkName';'EnableDhcp'=0}
+    }  
+else
+{
+    #AG is not found
+    Write-Host 'AG: $AGName is not found'
+}
+```
+
+**Note:** After you run the PowerShell to configure the cluster parameters, restart the AG Role. 
 
 :::Section Recommended Documents:::
 ## **Recommended Documents**
