@@ -70,13 +70,13 @@
       			"order": 4,
       			"controlType": "textbox",
       			"displayLabel": "Provide  details on what workload and operating system mounted to the volume?",
-      			"required": true
+      			"required": false
     		}, {
       			"id": "How many clients are accessing the volume?",
       			"order": 5,
       			"controlType": "textbox",
       			"displayLabel": "How many clients are accessing the volume?",
-      			"required": true
+      			"required": false
     		}, {
       			"id": "problem_description",
       			"order": 6,
