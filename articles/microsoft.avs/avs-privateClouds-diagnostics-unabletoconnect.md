@@ -3,7 +3,7 @@
 	description="Unable to connect to destination VMware VM"
 	infoBubbleText="We have detected a connectivity issue to your destination VMware VM. See details on the right."
 	service="microsoft.AVS"
-	resource="privateClouds"
+	resource="privateclouds"
 	authors="Alice-Muhimpundu"
 	ms.author="almuhimp"
 	displayOrder=""
