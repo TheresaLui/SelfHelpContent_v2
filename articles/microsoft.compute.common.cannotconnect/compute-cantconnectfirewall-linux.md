@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Use the [Serial Console blade](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
+* Use the [Serial Console blade](button-data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
 
 ## **Recommended Documents**
 
