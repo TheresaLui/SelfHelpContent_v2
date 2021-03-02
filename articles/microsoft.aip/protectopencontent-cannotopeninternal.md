@@ -39,4 +39,4 @@
 * [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quickstart: Deploy the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/quickstart-deploy-client)<br>
-* [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>/
+* [Download the Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>
