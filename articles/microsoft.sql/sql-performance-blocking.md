@@ -29,20 +29,19 @@ Blocking occurs when one session holds a lock on a specific resource and a secon
 ## **Recommended Steps**
 We recommend running the query below to identify the lead blocking session. 
 
-If the query returns results, blocking is currently occurring. Please check the wait_duration_ms to determine if the blocking is impactful. If the blocking is impacting workload performance, we recommend running the following command to kill the lead blocker: KILL {head_blocker_session_id}; Additionally, see [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
+1. Check the `wait_duration_ms` to determine if the blocking is impactful.
 
-If the query does not return results, blocking is not currently occurring. In this case, if you are still experiencing performance issues, we recommend walking through this article to help [identify other query performance issues in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/identify-query-performance-issues).
+2. Run the following query:
 
+   ```sql
 
-```sql
-
-WITH cteHead ( session_id,request_id,wait_type,wait_resource,last_wait_type,is_user_process,request_cpu_time
-,request_logical_reads,request_reads,request_writes,wait_time,blocking_session_id,memory_usage
-,session_cpu_time,session_reads,session_writes,session_logical_reads
-,percent_complete,est_completion_time,request_start_time,request_status,command
-,plan_handle,sql_handle,statement_start_offset,statement_end_offset,most_recent_sql_handle
-,session_status,group_id,query_hash,query_plan_hash)
-AS ( SELECT sess.session_id, req.request_id, LEFT (ISNULL (req.wait_type, ''), 50) AS 'wait_type'
+   WITH cteHead ( session_id,request_id,wait_type,wait_resource,last_wait_type,is_user_process,request_cpu_time
+   ,request_logical_reads,request_reads,request_writes,wait_time,blocking_session_id,memory_usage
+   ,session_cpu_time,session_reads,session_writes,session_logical_reads
+   ,percent_complete,est_completion_time,request_start_time,request_status,command
+   ,plan_handle,sql_handle,statement_start_offset,statement_end_offset,most_recent_sql_handle
+   ,session_status,group_id,query_hash,query_plan_hash)
+   AS ( SELECT sess.session_id, req.request_id, LEFT (ISNULL (req.wait_type, ''), 50) AS 'wait_type'
        , LEFT (ISNULL (req.wait_resource, ''), 40) AS 'wait_resource', LEFT (req.last_wait_type, 50) AS 'last_wait_type'
        , sess.is_user_process, req.cpu_time AS 'request_cpu_time', req.logical_reads AS 'request_logical_reads'
        , req.reads AS 'request_reads', req.writes AS 'request_writes', req.wait_time, req.blocking_session_id,sess.memory_usage
@@ -55,9 +54,9 @@ AS ( SELECT sess.session_id, req.request_id, LEFT (ISNULL (req.wait_type, ''), 5
        LEFT OUTER JOIN sys.dm_exec_requests AS req ON sess.session_id = req.session_id
        LEFT OUTER JOIN sys.dm_exec_connections AS conn on conn.session_id = sess.session_id
        )
-, cteBlockingHierarchy (head_blocker_session_id, session_id, blocking_session_id, wait_type, wait_duration_ms,
-wait_resource, statement_start_offset, statement_end_offset, plan_handle, sql_handle, most_recent_sql_handle, [Level])
-AS ( SELECT head.session_id AS head_blocker_session_id, head.session_id AS session_id, head.blocking_session_id
+   , cteBlockingHierarchy (head_blocker_session_id, session_id, blocking_session_id, wait_type, wait_duration_ms,
+   wait_resource, statement_start_offset, statement_end_offset, plan_handle, sql_handle, most_recent_sql_handle, [Level])
+   AS ( SELECT head.session_id AS head_blocker_session_id, head.session_id AS session_id, head.blocking_session_id
        , head.wait_type, head.wait_time, head.wait_resource, head.statement_start_offset, head.statement_end_offset
        , head.plan_handle, head.sql_handle, head.most_recent_sql_handle, 0 AS [Level]
        FROM cteHead AS head
@@ -68,12 +67,19 @@ AS ( SELECT head.session_id AS head_blocker_session_id, head.session_id AS sessi
        blocked.wait_time, blocked.wait_resource, h.statement_start_offset, h.statement_end_offset,
        h.plan_handle, h.sql_handle, h.most_recent_sql_handle, [Level] + 1
        FROM cteHead AS blocked
-       INNER JOIN cteBlockingHierarchy AS h ON h.session_id = blocked.blocking_session_id and h.session_id!=blocked.session_id --avoid infinite recursion for latch type of blocking
+       INNER JOIN cteBlockingHierarchy AS h ON h.session_id = blocked.blocking_session_id and h.session_id!=blocked.session_id --avoid infinite recursion for latch type of    blocking
        WHERE h.wait_type COLLATE Latin1_General_BIN NOT IN ('EXCHANGE', 'CXPACKET') or h.wait_type is null
        )
-SELECT bh.*, txt.text AS blocker_query_or_most_recent_query
-FROM cteBlockingHierarchy AS bh
-OUTER APPLY sys.dm_exec_sql_text (ISNULL ([sql_handle], most_recent_sql_handle)) AS txt
-ORDER BY bh.wait_duration_ms DESC;
+   SELECT bh.*, txt.text AS blocker_query_or_most_recent_query
+   FROM cteBlockingHierarchy AS bh
+   OUTER APPLY sys.dm_exec_sql_text (ISNULL ([sql_handle], most_recent_sql_handle)) AS txt
+   ORDER BY bh.wait_duration_ms DESC;
 
-```
+   ```
+   
+3. Do one of the following:
+   -   If the query returns results, blocking is currently occurring. If the blocking is impacting workload performance, run the following command to kill the lead   blocker: 
+       `KILL {head_blocker_session_id};` 
+   -   If the query does not return results, blocking is not currently occurring. In this case, if you are still experiencing performance issues, review this article to help [identify other query performance issues in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/identify-query-performance-issues).
+    -  
+3. Review [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
