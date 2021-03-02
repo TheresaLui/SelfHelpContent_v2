@@ -17,17 +17,20 @@
 
 # Connectivity Issue: Connection Timed out
 
-Connection timed out error usually occurs when the client is not able to establish a TCP session with the Application Gateway on the requested port. This can happen because of the following reasons:
+A connection time-out error usually occurs if the client can’t establish a TCP session with the application gateway on the requested port. This can occur for any of the following reasons:
 
-- Client DNS is not able to resolve to the Application Gateway's IP
-- A listener is not configured for the port on which the client is trying to establish a TCP connection
-- The listener accepting the request does not have any request routing rules associated with it
-- An NSG is blocking the access to the port on which the client is sending the request
-- In case of HTTPS, the connection can get rejected if the TLS version of the request is not supported by the Application Gateway, and/or the cipher suite supported by the client request does not match the cipher suites configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy)
+- The client DNS can’t resolve to the application gateway's IP.
+- A listener is not configured for the port on which the client is trying to establish a TCP connection.
+- The listener that accepts the request doesn’t have any request routing rules associated with it.
+- An NSG is blocking access to the port on which the client is sending the request.
+- For “HTTPS,” the connection can get rejected if the TLS version of the request is not supported by the application gateway, or the cipher suite that’s supported by the client request doesn’t match the cipher suites that are configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
 
 ## **Recommended Steps**
 
-1. Check the configuration of the application gateway to ensure that there is a listener configured for the port on which the client is sending the request. If you have found that there is no listener configured on the requested front-end port, create the required listener by following the [listener configuration instructions](https://docs.microsoft.com/azure/application-gateway/configuration-overview#listeners) and ensure that this listener is associated to the relevant request routing rule.
-2. Ensure that the NSG on the Application Gateway subnet is allowing inbound access to the port on which the client is making the request
+Follow the steps below to troubleshoot:
 
-If the above two steps do not resolve the issue, then proceed to file the support request.
+1. Make sure that the traffic will reach the application gateway. If you are using a domain name, verify that the domain name resolves to the application gateway's IP address.
+2. Make sure that your application gateway is running and is healthy according to the [Azure Resource Health criteria](https://docs.microsoft.com/azure/application-gateway/resource-health-overview).
+3. Make sure that a listener is configured for the port that you’re trying to connect to. Follow [this documentation](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to configure a listener for the front-end port.
+4. NSG or UDR could be blocking access to the ports. Check the [documentation](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to understand the NSG requirements, apart from allowing inbound access to the required ports. If you have a UDR configured, make sure that the application gateway can reach the client by using the configured routes.
+5. If an SSL issue exists because of an SSL policy mismatch, see [Application Gateway TLS policy overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview) to learn more about the SSL policies that can be configured in Microsoft Azure Application Gateway.
