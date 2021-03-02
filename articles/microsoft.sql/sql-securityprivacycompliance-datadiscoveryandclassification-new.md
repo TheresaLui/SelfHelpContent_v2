@@ -20,8 +20,8 @@
 Data Discovery & Classification is built into Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. It provides basic capabilities for discovering, classifying, labeling, and reporting the sensitive data in your databases.
 
 ## Recommended Steps
--	Use [Azure Portal.](https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database)
- or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
+-	Use [Azure Portal.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database)
+ or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
 
 ### Manage classifications
 -	Use [T-SQL.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
