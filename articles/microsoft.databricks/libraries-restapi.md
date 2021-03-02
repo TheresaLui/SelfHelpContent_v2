@@ -41,3 +41,4 @@ Support might ask you to engage other channels for open-source technologies wher
 
 * [Install libraries on a cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install)
 * [Databricks Connect](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)
