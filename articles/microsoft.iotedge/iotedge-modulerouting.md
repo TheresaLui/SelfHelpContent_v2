@@ -27,7 +27,7 @@ IoT Edge uses routing to connect message inputs and outputs of individual module
 	* Do the names of the modules in your route match the actual names of the modules running on your device? Names are case sensitive.
 	* Does each named input and output exist in the correct module?
 
-* Update to latest IoT Edge Runtime
+* Update to the latest IoT Edge Runtime:
 
 	* _1.1 (and earlier)_ See [how to upgrade the IoT Edge runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge?view=iotedge-2018-06&WT.mc_id=Portal-Microsoft_Azure_Support).
 	* _1.2 (and later)_ See [how to upgrade the IoT Edge runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge?view=iotedge-2020-11&WT.mc_id=Portal-Microsoft_Azure_Support).
