@@ -11,6 +11,22 @@
 />
 # Setup Availability Group
 
+## Resolve issues with Setup Availability Group
+
+:::Section Metrics and Diagnostics:::  
+
+### AG Failure diagnostics
+
+<insight>
+    <symptomId>SqlVmHADRPortalInsight</symptomId>
+    <executionText>We are running a few performance checks on your VM</executionText>
+    <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
+    <noResultText>No issues found</noResultText>
+    <additionalInputsReq>true</additionalInputsReq>
+    <maxInsightCount>1</maxInsightCount>
+    <failedText>We ran into an issue and could not complete this check</failedText>
+</insight>
+
 Most customers can resolve issues regarding setting up Always On Availability Group (AG) by using the following steps.
 
 
