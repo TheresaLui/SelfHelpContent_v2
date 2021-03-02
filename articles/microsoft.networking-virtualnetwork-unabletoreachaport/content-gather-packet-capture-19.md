@@ -19,13 +19,14 @@
 
 Gather packet captures to confirm traffic. 
 
-#Recommended Steps
-	1. Ensure that capture software and customer repro is ready. 
-	2. Begin capture.
-	3. Reproduce issue.
-	4. Stop and review captures. 
+# Recommended Steps
+1. Ensure that capture software and customer repro is ready. 
+2. Begin capture.
+3. Reproduce issue.
+4. Stop and review captures. 
 ?
-#Reccommended Documents
+
+# Reccommended Documents
 ?
 	1. (Wireshark Filters)[https://wiki.wireshark.org/DisplayFilters]
 	2. (Network Monitor) [https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-netmon]
