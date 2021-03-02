@@ -31,7 +31,7 @@ For Linux devices:
 For Windows devices:
 
 1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues: `iotedge check --verbose`
-2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed: `. {Invoke-WebRequest -useb https://aka.ms/iotedge-win} | Invoke-Expression; Get-IoTEdgeLog`
+2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed: `. {Invoke-WebRequest -useb https://github.com/Azure/azure-iotedge/releases/download/1.1.0/IotEdgeSecurityDaemon.ps1} | Invoke-Expression; Get-IoTEdgeLog`
 3. Restart the IoT Edge service: `Stop-Service iotedge` and `Start-Service iotedge`
 
 **1.2 (and later)**
