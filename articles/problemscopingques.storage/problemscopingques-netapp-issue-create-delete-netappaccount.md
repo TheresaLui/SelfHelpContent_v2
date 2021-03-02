@@ -30,7 +30,6 @@
             		"order": 2,
             		"ControlType": "dropdown",
             		"displayLabel": "Were you trying to create or delete a NetApp account?",
-            		"watermarkText": "Is the username given in security privilege block same as domain username used for installing Microsoft SQL server?",
 			"dropdownOptions": [
 					{
                     				"value": "Create",
