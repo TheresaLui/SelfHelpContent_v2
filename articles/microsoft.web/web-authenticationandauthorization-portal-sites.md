@@ -1,20 +1,17 @@
 <properties
-	pageTitle="authentication and authorization/App Service Authentication built-in through portal"
-	description="authentication and authorization/App Service Authentication built-in through portal"
-	service="microsoft.web"
-	resource="sites"
-	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman, shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32606474"
-	resourceTags=""
-	productPesIds="14748"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId = "Compute_AppService"
-	articleId="aacd0390-479c-4938-8f8a-1f665536b637"
-/>
-
+  pagetitle="authentication and authorization/App Service Authentication (built-in) through portal&#xD;"
+  description="authentication and authorization/App Service Authentication built-in through portal"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32606474"
+  resourcetags=""
+  productpesids="14748"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="aacd0390-479c-4938-8f8a-1f665536b637"
+  ownershipid="Compute_AppService" />
 # authentication and authorization/App Service Authentication (built-in) through portal
 
 ## **Recommended Documents**
