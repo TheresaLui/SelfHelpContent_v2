@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 4.0,
+  "version": 4.1,
   "learnMoreLink": "https://docs.azure.cn/zh-cn/data-explorer/kusto/management/cachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
   "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
