@@ -17,7 +17,7 @@
 
 # Take Gateway Capture
 
-Brooklyn Gateway Packet Capture is utilized to capture ESP / IKE / OVPN / unencrypted packets over the tunnel i.e. seeing source IP and port and destination IP and port like when doing pspings across the tunnel when troubleshooting Site to Site
+Brooklyn Gateway Packet Capture is utilized to capture ESP / IKE / OVPN / unencrypted packets over the tunnel I.E. seeing source IP and port and destination IP and port like when doing pspings across the tunnel when troubleshooting Site to Site
 
 # Recommended Steps
 
