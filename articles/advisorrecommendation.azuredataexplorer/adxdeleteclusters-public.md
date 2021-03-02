@@ -16,10 +16,9 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "d9c2f871-904e-4907-8572-0a33b0651f01",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_EmptyClusterReco",
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.08:00:00"
+    "refreshInterval": "0.01:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
@@ -43,7 +42,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/adxemptycluster",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have a small amount of data, queries, and ingestions during the last 30 days; has low CPU usage during the last two days, and has no followers during the last day (the dates are from the recommendation generated date). The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
