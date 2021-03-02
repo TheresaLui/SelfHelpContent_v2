@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
     "dataSource": "Kusto",
-    "refreshInterval": "0.08:00:00"
+    "refreshInterval": "0.01:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
