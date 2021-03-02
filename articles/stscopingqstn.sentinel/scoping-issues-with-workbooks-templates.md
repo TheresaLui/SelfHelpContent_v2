@@ -26,7 +26,6 @@
                 "displayLabel": "What is the Workbook name?",
                 "required": true
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",

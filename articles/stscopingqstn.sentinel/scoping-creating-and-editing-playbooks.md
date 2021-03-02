@@ -26,7 +26,6 @@
                 "displayLabel": "Is this a custom or built-in playbook?",
                 "required": true
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",

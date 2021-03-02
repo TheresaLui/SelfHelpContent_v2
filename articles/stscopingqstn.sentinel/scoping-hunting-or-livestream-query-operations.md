@@ -26,7 +26,6 @@
                 "displayLabel": "What is the Hunting query you are using?",
                 "required": true
                 },{
-				
 				"id": "problem_description",
 				"order": 1,
 				"controlType": "multilinetextbox",
