@@ -84,8 +84,7 @@
       ],
       "required": false
     },
-
-    {   
+    {
       "id": "message header",
       "order": 4,
       "controlType": "multiselectdropdown",
@@ -102,10 +101,7 @@
         }
       ],
       "required": false
-        
-
     },
-
     {
       "id": "problem_description",
       "order": 6,
