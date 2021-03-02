@@ -5,7 +5,7 @@
 	authors="b-tonya"
 	ms.author="b-tonya"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640631"
+	supportTopicIds="32640632"
 	productPesIds="16469"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
