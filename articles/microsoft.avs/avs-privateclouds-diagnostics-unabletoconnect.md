@@ -11,7 +11,7 @@
 	supportTopicIds="32743018"
 	resourceTags=""
 	productPesIds="17080"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,Fairfax"
 	articleId="AvsControlPlaneIssuesUnableToConnectToVMwareVM"
 	ownershipId="AzureDedicated_Networking"
 />
