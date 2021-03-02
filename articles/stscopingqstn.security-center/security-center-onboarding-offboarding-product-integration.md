@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Threat Detection self help guide"
+  pagetitle="Threat Detection self help guide&#xD;"
   ms.author="elsagie"
   selfhelptype="Generic"
-  supporttopicids=""
+  supporttopicids="32788559"
   resourcetags=""
   productpesids="15947"
   cloudenvironments="public,fairfax,usnat,ussec"
