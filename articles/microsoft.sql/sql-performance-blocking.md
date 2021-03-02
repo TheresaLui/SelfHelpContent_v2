@@ -27,11 +27,9 @@ Blocking occurs when one session holds a lock on a specific resource and a secon
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We recommend running the query below to identify the lead blocking session. 
+We recommend following the steps below below to determine if impactful blocking is currently occuring and to identify the lead blocking session. 
 
-1. Check the `wait_duration_ms` to determine if the blocking is impactful.
-
-2. Run the following query:
+1. Run the following query:
 
    ```sql
 
@@ -77,9 +75,11 @@ We recommend running the query below to identify the lead blocking session.
 
    ```
    
+2. Check the `wait_duration_ms` to determine if the blocking is impactful.
+
 3. Do one of the following:
    -   If the query returns results, blocking is currently occurring. If the blocking is impacting workload performance, run the following command to kill the lead   blocker: 
        `KILL {head_blocker_session_id};` 
    -   If the query does not return results, blocking is not currently occurring. In this case, if you are still experiencing performance issues, review this article to help [identify other query performance issues in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/identify-query-performance-issues).
 
-3. Review [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
+4. Review [Understand and Resolve Azure SQL DB Blocking Problems](https://docs.microsoft.com/azure/azure-sql/database/understand-resolve-blocking) for more information.
