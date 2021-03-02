@@ -43,8 +43,7 @@ Data Discovery & Classification is built into Azure SQL Database, Azure SQL Mana
 - Q.	How to classify my Azure SQL data using Azure Purview labels?
 <br>A.	Please follow these [steps](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-import-purview-labels).
 - Q.	How to dismiss all recommendations for a given Azure SQL Database?
-<br>A.	Drop sensitivity [Classification](https://docs.microsoft.com/sql/t-sql/statements/drop-sensitivity-classification-transact-sql?view=sql-server-ver15)
-
+<br>A.  Please run this [PowerShell Command](https://docs.microsoft.com/powershell/module/az.sql/disable-azsqldatabasesensitivityrecommendation?view=azps-5.5.0#example-2--disable-sensitivity-recommendations-on-columns-which-have-sensitivity-recommendations-in-an-azure-sql-database-using-piping-)
 
 ## **Recommended Documents**
 
