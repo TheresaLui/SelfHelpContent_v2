@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Improve the availability of your production workloads on Azure Cosmos DB"
-    description="Improve the availability of your production workloads on Azure Cosmos DB"
+    pageTitle="Add a second region to your production workloads on Azure Cosmos DB"
+    description="Add a second region to your production workloads on Azure Cosmos DB"
     authors="thweiss"
     ms.author="thweiss"
     articleId="b57f7a29-dcc8-43de-86fa-18d3f9d3764d_USSec"
@@ -8,7 +8,7 @@
     cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
-# Improve the availability of your production workloads on Azure Cosmos DB
+# Add a second region to your production workloads on Azure Cosmos DB
 ---
 {
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
@@ -29,12 +29,12 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/high-availability",
-  "description": "Improve the availability of your production workloads on Azure Cosmos DB",
+  "description": "Add a second region to your production workloads on Azure Cosmos DB",
   "longDescription": "Based on their names and configuration, we have detected the Azure Cosmos DB accounts below as being potentially used for production workloads. These accounts currently run in a single Azure region. You can increase their availability by configuring them to span at least two Azure regions. <b>Note that additional regions will incur extra costs.</b>",
   "potentialBenefits": "Improve the availability of your production workloads",
-  "displayLabel": "Improve the availability of your production workloads on Azure Cosmos DB",
+  "displayLabel": "Add a second region to your production workloads on Azure Cosmos DB",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').SingleRegionProdAccounts",
