@@ -25,9 +25,9 @@ The connection object is the bridge between the VPN gateway and the VNET. There 
 2. Select the option for "Connections" within the gateway's blade.
 3. Select the correct connection.
 4. Delete connection.
-5. Recreate connection with same configruation. 
+5. Recreate connection with same configuration. 
 	
-# Reccommended Documents
+# Recommended Documents
 
 1. (Creating a VPN Connection) [https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#CreateConnection]
 
