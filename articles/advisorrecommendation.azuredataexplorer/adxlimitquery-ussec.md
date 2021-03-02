@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
+  "recommendationResourceType": "Microsoft.Kusto/Clusters",
   "recommendationFriendlyName": "UpdateCachePoliciesForAdxTables",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
