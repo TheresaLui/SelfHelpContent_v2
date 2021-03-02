@@ -23,7 +23,7 @@ A connection time-out error usually occurs if the client can’t establish a TCP
 - A listener is not configured for the port on which the client is trying to establish a TCP connection.
 - The listener that accepts the request doesn’t have any request routing rules associated with it.
 - An NSG is blocking access to the port on which the client is sending the request.
-- For “HTTPS,” the connection can get rejected if the TLS version of the request is not supported by the application gateway, or the cipher suite that’s supported by the client request doesn’t match the cipher suites that are configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
+- For the client that uses HTTPS, the connection can get rejected if the TLS version of the request is not supported by the application gateway, or the cipher suite that’s supported by the client request doesn’t match the cipher suites that are configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
 
 ## **Recommended Steps**
 
