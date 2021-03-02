@@ -17,17 +17,15 @@
 />
 
 # Azure Managed Instance Apache Cassandra resources
-Most users are able to resolve their Managed Instance Cassandra resources issue using the steps below.
+Most users can resolve issues with Managed Instance Cassandra resources using the steps below.
 
 ## **Recommended Steps**
 
 ### **Creating a cluster fails**
 
-Creating a cluster fails
 - Verify if you are creating the cluster in a supported region
-- Verify the Azure Cosmos DB Network Contributor has permission on the subnet (see https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions)
-- Verify the subscription has the expected quota/permissions
-
+- Verify that the Azure Cosmos DB Network Contributor has permission on the subnet. See [required RBAC permissions](https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions).
+- Verify that the subscription has the expected quota/permissions
 
 ## **Recommended Documents**
 [FAQ for Azure Managed Instance Apache Cassandra](https://docs.microsoft.com/azure/managed-instance-apache-cassandra/faq)
