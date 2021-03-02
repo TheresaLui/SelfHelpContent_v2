@@ -20,9 +20,8 @@
 Gather a full understanding of the issue.
 
 
-#Recommended Steps
+# Recommended Steps
 
 1. Review customer verbatum and network topology to get a full understanding of the issue seen to ensure you are following the correct Trouble Shooting Guide.
-
 2. If you are unsure of the scope ask necessary questions of the customer to gather an understanding. 
 
