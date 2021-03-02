@@ -34,7 +34,7 @@
             "required": true
         },
  	{
-            "id": "issue_type",
+            "id": "backuptoazurestorage_issue_type",
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your issue.",
