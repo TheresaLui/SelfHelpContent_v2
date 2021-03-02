@@ -199,14 +199,14 @@
          "order":8,
          "visibility":"quota_subtype == storageLimitIncrease",
          "controlType":"textBlock",
-         "displayLabel":"Please enter limit values using GigaBytes (GB) as your unit of measure"
+         "displayLabel":"Enter limit values using GigaBytes (GB) as your unit of measure"
       },
       {
          "id":"minutes_measureUnits",
          "order":9,
          "visibility":"quota_othersubtype == tokenExpiryTime",
          "controlType":"textBlock",
-         "displayLabel":"Please enter limit values using minutes (mm) as your unit of measure"
+         "displayLabel":"Enter limit values using minutes (mm) as your unit of measure"
       },
       {
          "id":"current_limit",
