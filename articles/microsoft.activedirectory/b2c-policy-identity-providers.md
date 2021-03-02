@@ -26,12 +26,12 @@ You can add identity providers that are supported by Azure Active Directory B2C 
 
 ### **Useful Links** 
  
-* Check our [samples for several Social account policy enhancements](https://github.com/azure-ad-b2c/samples#social-account-policy-enhancements) for Azure AD B2C.
+* Check our [samples for several Social account policy enhancements](https://github.com/azure-ad-b2c/samples#social-account-policy-enhancements) for Azure AD B2C
 
 * Custom policies are fully edited configuration files that define the behavior of your Azure AD B2C tenant. Get started today by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-get-started?WT.mc_id=Portal-Microsoft_Azure_Support).
 
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments.  
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments
 
-* Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C. 
+* Review [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C 
 
-* Ask your question to our developer community at  [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html).
+* Ask your question to our developer community at  [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)
