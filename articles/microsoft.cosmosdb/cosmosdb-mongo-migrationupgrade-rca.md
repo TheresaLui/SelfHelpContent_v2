@@ -26,14 +26,22 @@ When upgrading the service, you must also migrate the data in your existing acco
 
 ### Benefits of upgrading to version 4.0
 
+The following are the new features included in version 4.0:
+- Support for multi-document transactions within unsharded collections.
+- New aggregation operators
+- Enhanced scan performance
+- Faster, more efficient storage
+
+### Benefits of upgrading to version 3.6
+
+The following are the new features included in version 3.6:
 - Enhanced performance and stability
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
-- Support for multi-document transactions within fixed collections
 - Support for Change Streams
-- Support for compound indexes
-- Cross-partition support for the following operations: `update`, `delete`, `count`, and `sort`
-- Improved performance for the following aggregate operations: `$count`, `$skip`, `$limit`, and `$group`
+- Support for compound Indexes
+- Cross-partition support for the following operations: update, delete, count and sort
+- Improved performance for the following aggregate operations: $count, $skip, $limit and $group
 - Wildcard indexing is now supported
 
 ### Changes from previous engine versions
