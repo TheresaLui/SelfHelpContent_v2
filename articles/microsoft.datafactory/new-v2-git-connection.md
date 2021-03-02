@@ -16,7 +16,7 @@ Most customers can resolve connection issues to the Git repository using the fol
 
 ## **Recommended Steps**
 
-### **Before you begin...**
+### **Before you begin**
 Ensure all of the following is true:
 - You have admin permissions on the Git repo
 - You have write access at the factory level of your ADF resource
@@ -52,8 +52,6 @@ Review [common errors and messages](https://docs.microsoft.com//azure/data-facto
 ## **Recommended Documents**
 
 - Learn about [Azure DevOps permissions and access](https://docs.microsoft.com//azure/devops/organizations/security/permissions-access?view=azure-devops)  
-
-
 
 
 - Source Control in Azure Data Factory
