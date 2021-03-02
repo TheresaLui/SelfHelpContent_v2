@@ -27,7 +27,7 @@
     <failedText>We ran into an issue and could not complete this check</failedText>
 </insight>
 
-# We ran diagnostics on your resource and found the below steps which can help you. 
+## We ran diagnostics on your resource and found the below steps which can help you. 
 
 
 <!--issueDescription--> 
