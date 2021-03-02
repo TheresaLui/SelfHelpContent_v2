@@ -23,7 +23,7 @@
                 "id": "WorkbookName",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "What is the Workbook name?",
+                "displayLabel": "What is the workbook name?",
                 "required": true
                 },{
 				"id": "isCustom",
