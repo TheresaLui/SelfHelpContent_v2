@@ -28,7 +28,7 @@ Resetting an Azure VPN gateway is helpful if you lose cross-premises VPN connect
 Resetting the gateway will cause a gap in VPN connectivity, and may limit future root cause analysis of the issue.
 	
 	
-# Reccommended Documents
+# Recommended Documents
 
 1. (Reset a VPN Gateway) [https://docs.microsoft.com/en-us/azure/vpn-gateway/reset-gateway#:~:text=In%20the%20portal%2C%20go%20to,VPN%20gateway%20is%20rebooted%20immediately.]
 
