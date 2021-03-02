@@ -28,6 +28,8 @@ First, review [Azure Databricks Status Page](https://status.azuredatabricks.net/
    * Deploying Azure Databricks data plane resources to your own VNet lets you take advantage of flexible CIDR ranges (anywhere between /16-/24 for the VNet and up to /26 for the subnets).
    
    * You cannot replace the VNet for an existing workspace or modify the subnet CIDR ranges. If your current workspace cannot accommodate the required number of active cluster nodes, we recommend that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
+
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)
    
 * **Common Errors**
 
