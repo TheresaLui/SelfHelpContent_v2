@@ -48,7 +48,7 @@ Most users can find sufficient information for **Setting up Listener and a load 
 
 3. **Listener may not show up** in SSMS. Make sure you [add Listener dependency](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#configure-listener) to AG Resource to ensure that it shows up in SSMS. 
 
-:::Section Configuring Load Balancer using Azure Portal:::
+:::Section Configuring Load Balancer using portal and powershell:::
 - **Configuring Load Balancer using portal and powershell** 
 
 1. On Azure virtual machines, a SQL Server availability group requires a [Load Balancer to be configured](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). Make sure Floating IP is enabled when you configure the Load Balancing Rule. 
