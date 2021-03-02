@@ -4,7 +4,6 @@
 	ms.author="ujpat"
 	articleId="9c3eb3ef-1f70-408b-9281-f00a1cae3c8b" 
 	selfHelpType="Apollo" 
-    supportTopicIds="cbc61367-a1a4-0071-698c-df2a9d7ab579" 
     productPesIds="14745,16342" 
 	cloudEnvironments="public,fairfax,usnat,ussec,blackforest,mooncake" 
 	ownershipId="AzureData_AzureSQLVM" 
