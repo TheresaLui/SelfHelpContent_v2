@@ -23,38 +23,9 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps/screenshots to recreate the issue)",
    "formElements": [
        {
-	   "id": "pc_isv_publisher_name",
-	   "visibility": null,
-	   "order": 1,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the Publisher name",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_publisher_id",
-	   "visibility": null,
-	   "order": 2,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher ID",
-	   "watermarkText": "Please provide the Publisher ID",
-	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_seller_id",
-	   "visibility": null,
-	   "order": 3,
-	   "controlType": "textbox",
-	   "displayLabel": "Seller ID",
-	   "watermarkText": "Please provide the Seller ID",
-	   "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-	   "required": true
-       },
-       {
 	   "id": "pc_isv_lead_destination",
 	   "visibility": null,
-	   "order": 5,
+	   "order": 1,
 	   "controlType": "dropdown",
 	   "displayLabel": "Lead Destination",
        "watermarkText":"Please select Lead Destination from the below list",
@@ -84,7 +55,7 @@
        {
 	   "id": "pc_isv_offer_type",
 	   "visibility": null,
-	   "order": 6,
+	   "order": 2,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type",
        "watermarkText":"Please select the Offer Type from the below list",
@@ -159,25 +130,25 @@
        {
 	   "id": "pc_isv_offer_name",
 	   "visibility": null,
-	   "order": 7,
+	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_offer_id",
 	   "visibility": null,
-	   "order": 8,
+	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer ID",
 	   "watermarkText": "Please provide the Offer ID",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_offer_d365",
 	   "visibility": null,
-	   "order": 9,
+	   "order": 5,
 	   "controlType": "dropdown",
 	   "displayLabel": "Is Offer D365 type?",
        "watermarkText":"Choose from below",
@@ -199,7 +170,7 @@
        {
 	   "id": "pc_isv_d365offer_true",
 	   "visibility": "pc_isv_offer_d365==D365_Yes",
-	   "order": 10,
+	   "order": 6,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the Environment Name and Environment Type",
 	   "watermarkText": "Environment Name; Environment Type",
@@ -208,7 +179,7 @@
        {
 	   "id": "problem_start_time",
 	   "visibility": null,
-	   "order": 11,
+	   "order": 7,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
@@ -217,7 +188,7 @@
        {
 	   "id": "problem_description",
 	   "visibility": null,
-	   "order": 12,
+	   "order": 8,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
