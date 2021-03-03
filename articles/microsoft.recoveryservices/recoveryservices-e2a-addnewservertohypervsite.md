@@ -24,12 +24,19 @@ For Hyper-V hosts that are on a version of Hyper-V older than Windows Server 201
 
 ### **I get an error that says that the Hyper-V host is already registered to a Recovery Services vault.**
 
-The registration step connects the replication provider software installed on Hyper-V host to the Azure Migrate: Server Migration. The replication provider component is also used by Azure Site Recovery to provide disaster recovery for Hyper-V virtual machines. If you see a message indicating that the Hyper-V host is already registered to a Recovery Services vault, this most likely is because the Hyper-V host is configured for disaster recovery with Azure Site Recovery, or because the Hyper-V host is already registered to a different Azure Migrate: Server Migration project. Registering the Hyper-V host with two instances of Azure Migrate: Server Migration is not supported.
+The registration step connects the replication provider software installed on Hyper-V host to the Azure Migrate: Server Migration. The replication provider component is also used by Azure Site Recovery to provide disaster recovery for Hyper-V virtual machines. If you see a message indicating that the Hyper-V host is already registered to a Recovery Services vault, this most likely is because the Hyper-V host is configured for disaster recovery with Azure Site Recovery, or because the Hyper-V host is already registered to a different Azure Migrate: Server Migration project.
+
+Registering the Hyper-V host with two instances of Azure Migrate: Server Migration is not supported.<br>
 If the Hyper-V host is already being using with Azure Site Recovery, consider using the [agent-based replication of physical and non-virtualized servers](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)] method instead to migrate the Hyper-V virtual machines.
 
 ### **I get an error while finalizing registration for the Hyper-V host**
 
-After the replication provider is installed on the Hyper-V host and the registration has been completed using the registration key, you'll need to finalize the registration from the portal experience for the Server Migration tool. If the finalize registration step fails, retry the operation again as the error may be a transient. If the finalize registration operation continues to fail, you can troubleshoot further by going to the Server Migration jobs page. To see failed jobs, go to the Servers page of the Azure Migrate portal experience and click on 'Overview' on the Server Migration tile. In the Server Migration overview page that opens select 'Jobs' from the left menu to see a list of jobs. Right click the failed job and select error details to troubleshoot further.
+After the replication provider is installed on the Hyper-V host and the registration has been completed using the registration key, you'll need to finalize the registration from the portal experience for the Server Migration tool. If the finalize registration step fails, retry the operation again as the error may be a transient. If the finalize registration operation continues to fail, you can troubleshoot further by going to the Server Migration jobs page. 
+
+To see failed jobs:<br>
+1. Go to the Servers page of the Azure Migrate portal experience and select **Overview** on the Server Migration tile. 
+2. In the Server Migration overview page that opens select '**Jobs** from the left menu to see a list of jobs. 
+3. Right-click the failed job and select the error details to troubleshoot further.
 
 ### **Where can I find the URLs that need access for Hyper-V migration in Azure Government**
 
