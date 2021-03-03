@@ -17,15 +17,14 @@
 
 # Security in Azure Database for PostgreSQL
 
+Azure Database for PostgreSQL comes with a rich set of security features, including server-level firewall rules, encryption for data at rest and in flight, Private Link, virtual network service endpoints, and Advanced Threat Protection. 
 
-Azure Database for PostgreSQL comes with a rich set of security features including server level firewall rules, encryption for data at rest and in flight, Private Link, virtual network service endpoints, and Advanced Threat Protection. 
-
-Advanced Threat Protection for Azure Database for PostgreSQL detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases via integration with Azure Security Center.
+Advanced Threat Protection for Azure Database for PostgreSQL detects anomalous activities, which indicate unusual and potentially harmful attempts to access or exploit databases through integration with Azure Security Center.
 
 ## **Recommended Steps**
 
 * Are you trying to enable Advanced Threat Protection for your server and can't find it in Azure portal?
-    * Note that Advanced Threat Protection is not available in the Azure government and sovereign cloud regions.
+    * Note that Advanced Threat Protection is not available in the Azure Government and Sovereign Cloud regions.
 
 * Are you looking for Advanced Threat Protection for your Basic tier server?
     * Advanced Threat Protection require General Purpose or Memory Optimized servers.
@@ -33,7 +32,6 @@ Advanced Threat Protection for Azure Database for PostgreSQL detects anomalous a
 ## **Recommended Documents**
 
 * [Advanced Threat Protection](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-threat-protection)
-
 * [Firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules)<br>
 * [Configuring SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security)<br>
 * [VNet service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet)<br>
