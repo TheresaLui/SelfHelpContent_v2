@@ -17,6 +17,7 @@
 
 # Security in Azure Database for PostgreSQL
 
+
 Azure Database for PostgreSQL comes with a rich set of security features including server level firewall rules, encryption for data at rest and in flight, Private Link, virtual network service endpoints, and Advanced Threat Protection. 
 
 Advanced Threat Protection for Azure Database for PostgreSQL detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases via integration with Azure Security Center.
