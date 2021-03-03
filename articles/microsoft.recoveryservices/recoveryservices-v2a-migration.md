@@ -30,7 +30,7 @@ Mobility agent installation is not supported on machines that have secure boot e
 
 ### **Configuration Server registration failing due to permissions (requires admin approval)**
 
-If you are deploying the replication appliance on VMware using the .ova template, you'll need permissions to register an AAD application and to consent to delegated permissions to access resources. You'll see a message asking for admin approval during appliance configuration if the tenant administrator of your Azure account hasn't given you permissions to provide user consent. [Learn more](https://go.microsoft.com/fwlink/?linkid=2140829).
+If you're deploying the replication appliance on VMware using the `.ova` template, you'll need permissions to register an AAD application and to consent to delegated permissions to access resources. You'll see a message asking for admin approval during appliance configuration if the tenant administrator of your Azure account hasn't given you permissions to provide user consent. [Learn more](https://go.microsoft.com/fwlink/?linkid=2140829).
 
 If you are unable to consent to the necessary permissions, you can do one of the following:
 
@@ -42,4 +42,4 @@ If none of the above options are feasible, you can install the replication appli
 
 After completing registration of the appliance, finalize registration of the replication appliance (Click Discover on the Server Migration tool tile in the Azure portal > Select VMware, install new replication appliance, select the replication appliance that you registered by friendly name, and click finalize registration.)
 
-To add a vCenter, click Overview on the Server Migration tool tile, select Infrastructure Servers from the left menu, and select the replication appliance to drill down to the replication appliance page. Click +vCenter on the replication appliance page to add a vCenter server to the appliance.
+To add a vCenter, selsect **Overview** on the Server Migration tool tile, select **Infrastructure Servers** from the left menu, and select the replication appliance to drill down to the replication appliance page. Select **+vCenter** on the replication appliance page to add a vCenter server to the appliance.
