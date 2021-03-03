@@ -21,10 +21,11 @@ Each Azure Database for PostgreSQL server is created with a highly privileged ad
 
 ## **Recommended steps**
 
-* Are you looking for more information on how to manage users and roles in PostgreSQL?
-    * Refer to the [PostgreSQL documentation](https://www.postgresql.org/docs/current/user-manag.html) for the PostgreSQL version you are using
-* Did you lose your admin account password?
-    * If you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/postgresql/howto-create-manage-server-portal#update-admin-password) to manage your admin account
+**Are you looking for more information on how to manage users and roles in PostgreSQL?** <br>
+Refer to the [PostgreSQL documentation](https://www.postgresql.org/docs/current/user-manag.html) for the PostgreSQL version you are using
+
+**Did you lose your admin account password?**<br>
+If you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/postgresql/howto-create-manage-server-portal#update-admin-password) to manage your admin account
 
 ## **Recommended documents**
 
