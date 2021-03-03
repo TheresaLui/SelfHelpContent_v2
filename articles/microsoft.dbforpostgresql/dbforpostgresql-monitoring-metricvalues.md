@@ -19,23 +19,23 @@
 
 The metrics shown in Azure Database for PostgreSQL - Single server portal are numerical values that describe some aspect of a system at a particular **point in time**.
 
-Most users are able to resolve their issue using the steps below.
+Most users are able to resolve their issue using the following steps.
 
 ## **Recommended steps**
 
-* Do you see that **storage metric** shows more storage used than when you directly query database?
+* Does **storage metric** show more storage used than when you directly query the database?
 
   * Beyond the data actually stored in your database in the supporting indexes, the footprint of your server includes additional files such as the transaction log, and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
 
-* Do you see metric show different values at different times?
+* Does the metric show different values at different times?
 
     * Note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
 
-* Are you trying to enable **Query Performance Insight**, Performance Recommendations, or Query Store on a replica server or on a server that was a replica before?
+* Are you trying to enable **Query Performance Insight**, Performance Recommendations, or Query Store on a replica server or on a server that was previously a replica?
 
    * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the primary server's Query Store data.
    
-   * After a replica becomes a standalone server, [set Query Store parameters](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature.
+   * After a replica becomes a standalone server, [set **Query Store parameters**](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature.
 
 ## **Recommended documents**
 
