@@ -21,6 +21,6 @@ Most customers resolve their Disabling Hyper-threading request using the followi
 
 ## **Recommended Documents**
 
-* [Guidance for mitigating speculative execution side-channel vulnerabilities](https://docs.microsoft.com/en-us/azure/virtual-machines/mitigate-se)<br>
-* [Disabling Hyper-threading on Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/mitigate-se#windows)
-* [Disabling Hyper-threading on Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/mitigate-se#linux)
+* [Guidance for mitigating speculative execution side-channel vulnerabilities](https://docs.microsoft.com/azure/virtual-machines/mitigate-se)<br>
+* [Disabling Hyper-threading on Windows](https://docs.microsoft.com/azure/virtual-machines/mitigate-se#windows)
+* [Disabling Hyper-threading on Linux](https://docs.microsoft.com/azure/virtual-machines/mitigate-se#linux)
