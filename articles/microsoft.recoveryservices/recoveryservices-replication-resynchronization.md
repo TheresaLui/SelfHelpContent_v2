@@ -44,5 +44,5 @@
 - If you plan to move your configuration server to a different vault then follow [these](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#register-a-configuration-server-with-a-different-vault) steps. Note that moving the configuration server will stop the replication of all protected virtual machines under it and replication will have to be enabled again.
 
 
-**Proximity Placement Groups for unmanaged disks (storage accounts) are not supported** 
+**Proximity Placement Groups for unmanaged disks (storage accounts) are not supported** <br>
 To use proximity placement groups, ensure that you have used managed disks to setup replication. To setup replication to proximity placement groups, check the steps mentioned [here](https://docs.microsoft.com/azure/site-recovery/how-to-enable-replication-proximity-placement-groups#set-up-disaster-recovery-for-vms-in-proximity-placement-groups-via-portal).
