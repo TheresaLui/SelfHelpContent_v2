@@ -16,7 +16,7 @@
 
 # create drop and manage resources/elastic job agents
 
-## Determining the casue of failure
+## Determining the cause of failure
 
 You can confirm the failure by issuing the following query in Sql Server Management Studio when connected to the job database.
 
@@ -27,7 +27,7 @@ WHERE job_name = '<>'
 ORDER BY start_time DESC 
 ```
 
-You can drill down onto the failure message by executing the following query:
+You can drill down into the failure message by executing the following query:
 
 ```
 SELECT last_message  
@@ -35,7 +35,7 @@ FROM jobs.job_executions
 WHERE job_name = '<>' AND step_name <> 'NULL'
 ```
 
-This step should yeild an error message describing why the job execution failed.
+This step should yield an error message describing why the job execution failed.
 
 ## **Recommended Steps**
 
