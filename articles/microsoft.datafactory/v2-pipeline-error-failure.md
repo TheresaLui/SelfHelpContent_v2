@@ -34,20 +34,20 @@ Resolve most V2 pipeline activity errors using the following recommendations.
 
 Troubleshooting Guides:
 
-    * [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) 
-    * [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
-    * [Connector Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide) for _Copy_ activities
-    * [Data Flows Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide) for _Mapping Data Flow_
-    * Azure-SSIS [Package Execution Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-ssis-activity-faq)
-    * Azure-SSIS [Integration Runtime Management Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot)
+ * [Troubleshoot self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) 
+ * [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
+ * [Connector Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide) for _Copy_ activities
+ * [Data Flows Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide) for _Mapping Data Flow_
+ * Azure-SSIS [Package Execution Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-ssis-activity-faq)
+ * Azure-SSIS [Integration Runtime Management Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot)
 
 Relevant Concepts:
-    * [Pipelines and activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
-    * [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
+ * [Pipelines and activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
+ * [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
 
 How-tos with Sample:
-    * [Create pipeline and trigger](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
-    * [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
+ * [Create pipeline and trigger](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
+ * [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
 
 **FAQ**
 
