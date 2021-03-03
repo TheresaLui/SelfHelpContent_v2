@@ -27,7 +27,7 @@ Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help y
 
 You may experience service interruptions or downtime during the upgrading process. This process may also require data or index migrations. We will proceed with the upgrade only with your consent, at a time convenient for you. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
-1. Benefits of upgrading to version 4.0
+1. Benefits of upgrading to version 4.0:
 
    - Enhanced performance and stability
    - Support for new database commands
@@ -38,14 +38,14 @@ You may experience service interruptions or downtime during the upgrading proces
    - Cross-partition support for the following operations: `UPDATE`, `DELETE`, `COUNT`, and `ORDER BY`
    - Improved performance for the following aggregate operations: `COUNT`, `SKIP`, `LIMIT`, and `GROUP BY`
 
-2. Changes from previous engine versions
+2. Changes from previous engine versions:
 
    - MongoDB collections will have only the `_id` property indexed by default
    - Per request timeout will be 60 seconds
 
-3. Actions required
+3. Actions required:
 
-   The connection string to the MongoDB service in your application will need to be updated, as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` 
+   The connection string to the MongoDB service in your application must be updated, as shown in the **Overview** dashboard of the Azure portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` 
 
    **Note:** The endpoint might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
 
