@@ -39,6 +39,7 @@
 | - | Mongo Shell not working in the Azure portal | When user is trying to open a Mongo shell, nothing happens and the tab stays blank.  | Check Firewall. Firewall is not supported with the Mongo shell in the Azure portal. <br>- Install Mongo shell on the local computer within the firewall rules <br>- Use legacy Mongo shell
 | - | Unable to connect with connection string  | The connection string has changed when upgrading from 3.2 -> 3.6+ | Note that when using Azure Cosmos DB's API for MongoDB accounts, the 3.6+ version of accounts have the endpoint in the format `*.mongo.cosmos.azure.com` whereas the 3.2 version of accounts have the endpoint in the format `*.documents.azure.com`.  
 
+
 ## **Recommended Documents**  
 
 [Azure Cosmos DB's API for MongoDB (4.0 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
