@@ -25,7 +25,7 @@
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
     "recommendationFriendlyName": "UpgradeResourceMoverSDK",
-    "recommendationMetadataState": "Active",
+    "recommendationMetadataState": "Disabled",
     "portalFeatures": [],
     "owner": {
         "email": "azregionmove@microsoft.com",

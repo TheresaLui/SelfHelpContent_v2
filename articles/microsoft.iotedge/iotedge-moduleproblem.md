@@ -35,5 +35,13 @@ Whether deploying custom code or an Azure service as an IoT Edge module, there a
 
 ## **Recommended Documents**
 
-* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
-* [Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist#container-management)
+**1.1 (and earlier)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06)
+* [Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist?view=iotedge-2018-06#container-management)
+
+**1.2 (and later)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
+* [Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist?view=iotedge-2020-11#container-management)
+

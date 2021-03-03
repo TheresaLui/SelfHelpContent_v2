@@ -21,11 +21,13 @@ First, review [Azure Databricks Status Page](https://status.azuredatabricks.net/
 
 ## **Recommended Steps**
 
-* Important for [VNet Injected workspace](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject):
+* Find a list of supported instance/node types [Pricing page under Instances section](https://azure.microsoft.com/pricing/details/databricks/).
+
+* Review important details for [VNet Injected workspace](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject):
    
-   * Deploying Azure Databricks data plane resources to your own VNet also lets you take advantage of flexible CIDR ranges (anywhere between /16-/24 for the VNet and up to /26 for the subnets).
+   * Deploying Azure Databricks data plane resources to your own VNet lets you take advantage of flexible CIDR ranges (anywhere between /16-/24 for the VNet and up to /26 for the subnets).
    
-   * You cannot replace the VNet for an existing workspace or modify the subnet(s) CIDR ranges. If your current workspace cannot accommodate the required number of active cluster nodes, we recommend that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
+   * You cannot replace the VNet for an existing workspace or modify the subnet CIDR ranges. If your current workspace cannot accommodate the required number of active cluster nodes, we recommend that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
    
 * **Common Errors**
 

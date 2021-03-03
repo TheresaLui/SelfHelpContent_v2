@@ -37,6 +37,12 @@
 - [Monitor Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace) and [create Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics) using Log Analytics<br>
 - Monitor [Alerts and Jobs](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#backup-jobs-in-recovery-services-vault) through Recovery Services vault<br>
 
+**Moving resources**
+
+- [How do I change my vault storage replication type from **GRS to LRS**?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
+- How to move resources: Azure VM across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group); VMs across [Vault](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#move-an-azure-virtual-machine-to-a-different-recovery-service-vault); Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group); Vault across [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription).<br>
+- **Moving Recovery points/backup data** across Vaults/Subscription is not supported. <br>
+
 **Backup pricing**<br>
 - Understanding Azure Backup [**pricing**](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-costs) and [charges](https://azure.microsoft.com/pricing/details/backup/)<br>
 
