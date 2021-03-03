@@ -1,27 +1,23 @@
 <properties
-	pageTitle="Azure Key Vault Access Policies"
-	description="Azure Key Vault Access Policies"
-	service="Microsoft.Keyvault"
-	resource="vaults"
-	authors="ShaneBala-keyvault"
-	ms.author="sudbalas"
-	displayOrder="9"
-	selfHelpType="generic"
-	supportTopicIds="32743815"
-	resourceTags="optional"
-	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-accesspolicies"
-	ownershipId="AzureKeyVault_KeyVault"
-/>
-
+  pagetitle="Azure Key Vault Access Policies and Azure RBAC&#xD;"
+  description="Azure Key Vault Access Policies"
+  service="microsoft.keyvault"
+  resource="vaults"
+  ms.author="sudbalas,sebansal"
+  selfhelptype="Generic"
+  supporttopicids="32743815"
+  resourcetags="optional"
+  productpesids="15657"
+  cloudenvironments="blackforest,fairfax,public,mooncake,usnat,ussec"
+  articleid="keyvault-accesspolicies"
+  ownershipid="AzureKeyVault_KeyVault" />
 # Azure Key Vault Access Policies and Azure RBAC
 
 ## **Recommended Steps**
 
 1. Use Azure individual identity or security group
-1. Assign access policies: [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
-1. Assign Azure roles: [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
+2. Assign access policies: [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
+3. Provide access to Key Vault keys, certificates, and secrets with an Azure RBAC [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
 
 **Troubleshooting Steps**
 
