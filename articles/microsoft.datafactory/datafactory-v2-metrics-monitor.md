@@ -15,14 +15,14 @@
 
 ## **Recommended Steps**
 
-1. Data Factory stores pipeline run information for 45 days only. If users want to persist the log for longer period, they may [Send Logs to Azure Monitor and Log Analytics](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor) or [Query and Capture Diagnostic Logs with SDK](https://docs.microsoft.com/azure/data-factory/monitor-programmatically).
+* Data Factory stores pipeline run information for 45 days only. If users want to persist the log for longer period, they may [Send Logs to Azure Monitor and Log Analytics](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor) or [Query and Capture Diagnostic Logs with SDK](https://docs.microsoft.com/azure/data-factory/monitor-programmatically).
 
-1. __Notes__ on Azure Data Factory - Log Analytics integration: <br>
+* __Notes__ on Azure Data Factory - Log Analytics integration: <br>
 
     1. There is [a known limitation in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs-collect-workspace#known-limitation-column-limit-in-azurediagnostics) that a log table cannot have more than 500 columns <br>
     1. To address any problems with Log Analytics, we _strongly_ recommend users [configure diagnostic settings](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#configure-diagnostic-settings-and-workspace) to _Resource-Specific_ mode instead of _Azure-Diagnostics_ mode
 
-1. __Notes__ on Log Analytics tables: <br>
+* __Notes__ on Log Analytics tables: <br>
 
     * In _Resource-Specific_ mode, diagnostic logs from Azure Data Factory flow into _ADFPipelineRun_, _ADFTriggerRun_ and _ADFActivityRun_ tables <br>
     * In _Azure-Diagnostics_ mode, diagnostic logs flow into _AzureDiagnostics_ table <br>
