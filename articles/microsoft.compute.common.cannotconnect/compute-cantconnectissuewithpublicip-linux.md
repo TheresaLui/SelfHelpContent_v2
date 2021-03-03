@@ -28,7 +28,7 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 
 Use *IP flow verify* to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine:
 
-[IP flow verify](button-data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) 
+[IP flow verify](button-data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId)
 
 **Additional Documents**
 
