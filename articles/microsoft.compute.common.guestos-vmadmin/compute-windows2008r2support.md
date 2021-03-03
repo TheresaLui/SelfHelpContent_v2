@@ -15,9 +15,9 @@
     ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Troubleshoot Windows Update issues
+# Windows Server 2008 and 2008 R2 extended security updates (ESU)
 
-4 out of 5 customers resolved their VM Windows Update issue using the steps below.<br>
+4 out of 5 customers resolved their indows Server 2008 extended security updates issue using the steps below.<br>
 
 ## **Recommended Documents**
 
