@@ -16,7 +16,7 @@
 
 :::Section Metrics and Diagnostics:::  
 
-### Change SQL Server Version or Edition on Azure VM diagnostics
+### Change SQL Server Version or Edition on Azure VM
 
 <insight>
     <symptomId>SqlVmHADRPortalInsight</symptomId>
