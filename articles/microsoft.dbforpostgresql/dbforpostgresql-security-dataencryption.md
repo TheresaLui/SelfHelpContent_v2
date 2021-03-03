@@ -17,9 +17,9 @@
 
 # Data encryption with customer-managed key (CMK) in Azure Database for PostgreSQL - Single server
 
-Azure PostgreSQL leverages Azure Storage encryption to **encrypt data at-rest** by default using Microsoft-managed keys. It is on from the moment your server is created and can't be disabled.
+Azure PostgreSQL leverages Azure Storage encryption to encrypt data at-rest using Microsoft-managed keys. This default setting is enabled from the moment your server is created and can't be disabled.
 
-Data **encryption with customer-managed keys** for Azure Database for PostgreSQL enables you to bring your own key (BYOK), also known as a Customer Managed Key (CMK), for data protection at rest. It also allows organizations to implement separation of duties in the management of keys and data. With customer-managed encryption, you are responsible for, and in a full control of, a key's lifecycle, key usage permissions, and auditing of operations on keys. Learn more about [Data encryption with CMK](https://docs.microsoft.com/azure/postgresql/concepts-data-encryption-postgresql).
+Data encryption with customer-managed keys for Azure Database for PostgreSQL enables you to bring your own key (BYOK)---also known as a Customer Managed Key (CMK)---for data protection at rest. It also allows organizations to implement separation of duties in the management of keys and data. With customer-managed encryption, you are responsible for, and in a full control of, a key's lifecycle, key usage permissions, and auditing of operations on keys. Learn more about [Data encryption with CMK](https://docs.microsoft.com/azure/postgresql/concepts-data-encryption-postgresql).
 
 You can use infrastructure double-encryption for a second layer of encryption using service-managed keys.
 
@@ -31,7 +31,7 @@ You can use infrastructure double-encryption for a second layer of encryption us
 
 * Are you looking for a way to enable customer-managed key (CMK) for data encryption on your server but can't find it?
     * Check that you are not using Basic tier. CMK for data encryption is only available for the **General purpose** and **Memory optimized** tiers.
-    * If you are using  General purpose or Memory optimized tier, ensure that your server has [large storage up to 16 TB](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage). If your server is not enabled for large storage, you would need to create a new server with large storage and migrate your original database to use CMK for data encryption.
+    * If you are using General purpose or Memory optimized tier, ensure that your server has [large storage up to 16 TB](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers#storage). If your server is not enabled for large storage, you would need to create a new server with large storage and migrate your original database to use CMK for data encryption.
 
 * Do you need to find steps to enable CMK for data encryption on your server?
     * You can enable CMK for your Azure Database for PostgreSQL from the [portal](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-portal).
