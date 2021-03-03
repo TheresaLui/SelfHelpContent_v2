@@ -60,7 +60,7 @@ It can take up to **five-minutes** for changes to the Azure Database for Postgre
 
 ### You can't connect but server's IP appears to be public and you can ping or connect to it using telnet?
 
-Connections to the Azure Database for PostgreSQL - Single server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules.
+Connections to the Azure Database for PostgreSQL - Single server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules).
 
 ## **Recommended Documents**
 
