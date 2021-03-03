@@ -44,7 +44,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--recommendedActions-->
 ## **Recommended Steps**
 
-> To investigate the causes of the VM crash, please use the following references that might be helpful:
+> To investigate the causes of the VM crash, refer to the following references:
 > 
 > Troubleshooting links:
 > * [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)
