@@ -24,7 +24,8 @@ Most users are able to resolve their firewall issue using the steps below.
 ## **Recommended steps**
 
 ### Did you set **Deny public network access** to **Yes** (enabled) on the **Connection security** page in Azure portal?
-  * When this setting is enabled, the firewall rules you may have configured in your Azure Database for PostgreSQL - Single server are disabled. If you need to access your Postgres server via its public IP, make sure to set **Deny public network access** to **No**.
+
+When this setting is enabled, the firewall rules you may have configured in your Azure Database for PostgreSQL - Single server are disabled. If you need to access your Postgres server via its public IP, make sure to set **Deny public network access** to **No**.
 
 ### Are you trying to connect to your server too soon after setting new firewall rules?
 
