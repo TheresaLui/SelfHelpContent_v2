@@ -4,7 +4,7 @@
   resource="account"
   ms.author="ccoop,macoope,cathmill"
   selfhelptype="Generic"
-  supporttopicids="32742292,32742306,32742322"
+  supporttopicids="32742306,32742322"
   resourcetags=""
   productpesids="15543"
   cloudenvironments="public,fairfax,usnat,ussec"
