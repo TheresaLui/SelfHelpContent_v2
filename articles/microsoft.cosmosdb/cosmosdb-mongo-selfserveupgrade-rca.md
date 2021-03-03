@@ -58,18 +58,15 @@ When upgrading from 3.2, the database account endpoint suffix will be updated to
 <your_database_account_name>.mongo.cosmos.azure.com
 ```
 
-If you are upgrading from version 3.2, you'll need to replace the existing endpoint in your applications and drivers that connect with this database account. **Only connections that are using the new endpoint will have access to the features in the new API version**. The previous 3.2 endpoint should have the suffix `.documents.azure.com`.
-
->[!Note]
-> This endpoint might have slight differences if your account was created in a Sovereign, Government, or Restricted Azure Cloud.
+If you are upgrading from version 3.2, you'll need to replace the existing endpoint in your applications and drivers that connect with this database account. **Only connections that are using the new endpoint will have access to the features in the new API version**. The previous 3.2 endpoint should have the suffix `.documents.azure.com`. This endpoint might have slight differences if your account was created in a Sovereign, Government, or Restricted Azure Cloud.
 
 ## How to upgrade
 
-1. Go to the Azure portal and navigate to your Azure Cosmos DB API for MongoDB account overview blade. Verify your current server version is what you expect.
+1. Go to the Azure portal and navigate to your Azure Cosmos DB API for MongoDB account **Overview** blade. Verify that your current server version is what you expect.
 
-2. From the options on the left, select the `Features` blade. This will reveal the Account level features that are available for your database account.
+2. From the options on the left, select the **Features** blade. This will reveal the Account level features that are available for your database account.
 
-3. Click on the `Upgrade Mongo server version` row. If you don't see this option, your account might not be eligible for this upgrade. If this is the case, file [a support ticket](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
+3. Select the `Upgrade Mongo server version` row. If you don't see this option, your account might not be eligible for this upgrade. If this is the case, file [a support ticket](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
 
 4. Review the information displayed about the upgrade. When you're ready to start the process, select `Enable`.
@@ -87,7 +84,7 @@ If you are upgrading from version 3.2, you'll need to replace the existing endpo
 ## How to downgrade
 You may also downgrade your account from 4.0 to 3.6 via the same steps in the preceding section, "How to Upgrade." 
 
-If you upgraded from 3.2 to (4.0 or 3.6) and wish to downgrade back to 3.2, you can simply switch back to using your previous (3.2) connection string with the host `accountname.documents.azure.com` which remains active post-upgrade running version 3.2.
+If you upgraded from 3.2 to (4.0 or 3.6) and wish to downgrade back to 3.2, simply switch back to using your previous (3.2) connection string with the host `accountname.documents.azure.com`, which remains active post-upgrade running version 3.2.
 
 
 ## **Recommended Documents**
