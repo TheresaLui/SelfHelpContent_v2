@@ -29,5 +29,14 @@ If you open a support case, include the output of the troubleshooting tool to he
 
 ## **Recommended Documents**
 
-* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+**1.1 (and earlier)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06)
+
+**1.2 (and later)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
+
+**More Resources**
+
 * [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)
