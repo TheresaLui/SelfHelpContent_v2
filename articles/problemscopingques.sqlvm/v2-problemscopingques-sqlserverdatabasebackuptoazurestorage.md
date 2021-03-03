@@ -240,10 +240,6 @@
             "text": "3013: A nonrecoverable I/O error occurred on file Backup Database Terminating abnormally"
             },
             {
-            "value": "MigrateDatabaseToAzureVM",
-            "text": "Migrate Databases from On Premise/Another Cloud to Azure VM"
-            },
-            {
             "value": "BackupToURL_Error",
             "text": "Backup to URL received an exception from the remote endpoint"
             },

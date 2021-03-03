@@ -20,9 +20,9 @@
 Before continuing to troubleshoot the connection it is important to ensure that the Expressroute  as a whole is in a connected state. 
 
 
-#Recommended Steps
+# Recommended Steps
 
-	1. Navigate to the Expressroute Circuit  in ASC
-	2. Scroll down and download the Dump routing file.
-	3. Review BGP peering section to confirm that BGP is up. 
+1. Navigate to the Expressroute Circuit  in ASC
+2. Scroll down and download the Dump routing file.
+3. Review BGP peering section to confirm that BGP is up. 
 

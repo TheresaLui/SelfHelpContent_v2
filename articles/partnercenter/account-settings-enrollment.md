@@ -33,7 +33,7 @@
 ### Account verification in Rejected
 * If your account verification is "Rejected", you need to fix it by providing more documentation. [Learn more](https://docs.microsoft.com/partner-center/verification-responses) on documentation.
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Create MPN account in Partner Center](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
 * [Download PMC to Partner Center migration guide](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
