@@ -29,7 +29,7 @@ If there are multiple VMs that are replicating, initial replication for the VMs 
 
 **Bandwidth throttling for replication**
 
-* You can control the bandwidth used by the Azure Migrate appliance for replication using [Windows NetQosPolicy](https://go.microsoft.com/fwlink/?linkid=2137869)
+You can control the bandwidth used by the Azure Migrate appliance for replication using [Windows NetQosPolicy](https://go.microsoft.com/fwlink/?linkid=2137869)
 
 **Replication cycle failed with error "No disk snapshots were found for snapshot replication"**
 
@@ -49,10 +49,10 @@ This error occurs when a storage vMotion happens on a virtual machine under repl
   - **Checking connectivity to scale-out Process Server from a Linux machine:** Log in to the Linux machine and open shell. Run `telnet <Scale-OutProcessServerIPAddress>:9443`. If connectivity exists the telnet client will be able to open a connection on port 9443 of the scale-out Process Server.
 Connectivity from the Mobility service to the Configuration Server or Process Server could be impacted due to one of these reasons:
 
-* The network communication paths have been blocked off due to a firewall or routing configuration
-* The Configuration Server or Process Server machines are powered off
-* The Configuration Server process ('cxpsprocessserver' in services.msc) that listens on port 443 is not running
-* The Process Server process ('tmansvc' in services.msc) than listens on port 9443 is not running
+    * The network communication paths have been blocked off due to a firewall or routing configuration
+    * The Configuration Server or Process Server machines are powered off
+    * The Configuration Server process ('cxpsprocessserver' in services.msc) that listens on port 443 is not running
+    * The Process Server process ('tmansvc' in services.msc) than listens on port 9443 is not running
 
 **Installation issues with Mobility service agent**
 
@@ -64,4 +64,5 @@ Connectivity from the Mobility service to the Configuration Server or Process Se
 
 This can happen when the data change rate (write bytes/sec) on the disks of the virtual machines under replication is more than the [supported limits](https://go.microsoft.com/fwlink/?linkid=2137870) for the target disks.
 
-If you see this issue consistently, use Premium Managed Disks. If you're replicating to Standard HDD/SSD, then upgrade to Premium SSD. To do this, disable replication for the VM, and enable replication again with Premium SSD disks selected for replication.
+- If you see this issue consistently, use Premium Managed Disks. 
+- If you're replicating to Standard HDD/SSD, then upgrade to Premium SSD. To do this, disable replication for the VM, and enable replication again with Premium SSD disks selected for replication.
