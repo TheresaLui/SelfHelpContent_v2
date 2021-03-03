@@ -134,7 +134,7 @@
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
-	   "required": true
+	   "required": false
        },
        {
 	   "id": "pc_isv_offer_id",
