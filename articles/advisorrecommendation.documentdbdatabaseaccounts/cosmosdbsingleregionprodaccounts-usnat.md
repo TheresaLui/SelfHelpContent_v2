@@ -29,10 +29,10 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.1,
+  "version": 1.2,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/high-availability",
   "description": "Add a second region to your production workloads on Azure Cosmos DB",
-  "longDescription": "Based on their names and configuration, we have detected the Azure Cosmos DB accounts below as being potentially used for production workloads. These accounts currently run in a single Azure region. You can increase their availability by configuring them to span at least two Azure regions. <b>Note that additional regions will incur extra costs.</b>",
+  "longDescription": "Based on their names and configuration, we have detected the Azure Cosmos DB accounts below as being potentially used for production workloads. These accounts currently run in a single Azure region. You can increase their availability by configuring them to span at least two Azure regions. NOTE: Additional regions will incur extra costs.",
   "potentialBenefits": "Improve the availability of your production workloads",
   "displayLabel": "Add a second region to your production workloads on Azure Cosmos DB",
   "dataSourceMetadata": {
