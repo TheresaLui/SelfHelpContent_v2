@@ -1,16 +1,16 @@
 <properties
-    pageTitle="I receive Permission Denied error while configuring Prometheus scrapping"
-    description="I receive Permission Denied error while configuring Prometheus scrapping"
-    infoBubbleText="Here is the information to resolve permssions errors related to Prometheus scrapping"
+    pageTitle="I receive Permission Denied error while configuring Prometheus scraping"
+    description="I receive Permission Denied error while configuring Prometheus scraping"
+    infoBubbleText="Here is the information to resolve permssions errors related to Prometheus scraping"
     service="microsoft.insights"
     resource="components"
     authors="rashmian"
     ms.author="rashmia"
     selfHelpType="generic"
-    articleId="insights-for-container-prometheus-integration"
+    articleId="insights-for-container-prometheus-permission"
     productPesIds="17083"
     supportTopicIds="32740219"
-    cloudEnvironments="public, blackForest, fairfax,mooncake"
+    cloudEnvironments="public, blackForest, fairfax,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

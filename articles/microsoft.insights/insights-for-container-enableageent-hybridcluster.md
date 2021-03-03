@@ -10,7 +10,7 @@
     articleId="insights-for-container-enableageent-hybrid cluster"
     productPesIds="17083"
     supportTopicIds="32740208, 32740209"
- cloudEnvironments="public, blackForest, fairfax,mooncake"
+ cloudEnvironments="public, blackForest, fairfax,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

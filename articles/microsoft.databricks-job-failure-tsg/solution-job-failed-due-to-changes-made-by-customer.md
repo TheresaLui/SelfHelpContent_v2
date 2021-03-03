@@ -28,4 +28,4 @@ Let's revert the changes and run the jobs again.<br>
 
 ## Recommended Documents
 
-1. [DBR releases](https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/releases)
+* [DBR releases](https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/releases)

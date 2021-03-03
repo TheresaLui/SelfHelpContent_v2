@@ -21,11 +21,11 @@ This article discusses how to handle a job that will not stop running or otherwi
 
 ## **Recommended Steps**
 
-### Runbook is stuck
+### **Runbook is stuck**
 
 * If you are unable to stop a runbook job in the portal, you may be able to stop it via PowerShell with either [Stop-AzureRmAutomationJob](https://docs.microsoft.com/powershell/module/azurerm.automation/Stop-AzureRmAutomationJob?view=azurermps-6.13.0) or [Stop-AzAutomationJob](https://docs.microsoft.com/powershell/module/az.automation/Stop-AzAutomationJob?view=azps-2.4.0)
 
-### Runbook is suspended or unexpectedly failed
+### **Runbook is suspended or unexpectedly failed**
 
 There are several reasons why a runbook may be suspended or failed:
 
@@ -33,11 +33,11 @@ There are several reasons why a runbook may be suspended or failed:
 * [Add additional output](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#message-streams) to the runbook to identify what happens before the runbook is suspended
 * [Handle any exceptions](https://docs.microsoft.com/azure/automation/automation-runbook-execution#handling-exceptions) that are thrown by your job
 
-### Job was tried three times but it failed 
+### **Job was tried three times but it failed**
 
 * Check the [Automation Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits), and consider moving to a [Hybrid Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker) if the limitation applies to Azure sandboxes only
 
-### Runbooks were working, but suddenly stopped
+### **Runbooks were working, but suddenly stopped**
 
 * If runbooks were previously executing but stopped, [ensure the RunAs account has not expired](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
 * If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook).

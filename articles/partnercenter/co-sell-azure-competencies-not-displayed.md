@@ -22,9 +22,15 @@
 
 
 ## **Recommended Steps**
-- It takes 48 hours for the badge to appear on the Solution provider page after your company had achieved the same 
-- If there is an issue even after 48 hours, please create a support ticket with the details of the profile and country from which you are searching
+* Azure Expert MSP is allotted across multiple legal organizations (VOrgs)
+* Partner Center business profile only supports creating a business profile with the Azure Expert MSP tag for the primary vOrg to which the badge has been awarded
+* If this request it about business profiles not showing Azure Expert MSP tag even though it appears for business profiles in a different vOrg, the scenario is not supported in partner center
+* It takes 48 hours for the advanced specializations and competency badges to appear on the Microsoft Solution Provider page after your company has been awarded the specialization or competency
+* If there is an issue even after 48 hours, please create a support ticket with the details of the profile and country from which you are searching
 
 ## **Recommended Documents**
 
-*  [Manage business profile](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
+* [Understanding how Azure Expert MSP badging on Microsoft Solution Provider works](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
+* [Managing business profile](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
+
+

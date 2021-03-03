@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677655, 32677701, 32677702, 32677703, 32677704"
+	supportTopicIds="32677701, 32677702, 32677703, 32677704"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -78,28 +78,36 @@
             "required": false
         },
         {
-            "id": "cluster_url",
-            "order": 170,
-            "controlType": "textbox",
-            "displayLabel": "Cluster URL",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
-            "required": true
-        },
-        {
-            "id": "job_rul",
-            "order": 300,
+            "id": "job_url",
+            "order": 150,
             "controlType": "textbox",
             "displayLabel": "Job URL for the job with issue",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",
             "required": false
         },
         {
-            "id": "job_rul_goodrun",
-            "order": 400,
+            "id": "job_url_goodrun",
+            "order": 170,
             "controlType": "textbox",
             "displayLabel": "Job URL from last known good run if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",
             "required": false
+        },
+        {
+            "id": "storage_url",
+            "order": 200,
+            "controlType": "textbox",
+            "displayLabel": "Azure storage account resource ID if job involved reading from or writing to Azure storage account",
+            "infoBalloonText": "Get Azure storage account resourcre ID from the Azure Portal under the storage account properties page. Resource ID is in the form of /subscriptions/[subscriptionID]/resourceGroups/[resourcegroupname]/providers/Microsoft.Storage/storageAccounts/[storageaccountname]",
+            "required": false
+        },
+        {
+            "id": "cluster_url",
+            "order": 300,
+            "controlType": "textbox",
+            "displayLabel": "Cluster URL in case job URL is not available",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
+            "required": true
         },
         {
             "id": "problem_description",

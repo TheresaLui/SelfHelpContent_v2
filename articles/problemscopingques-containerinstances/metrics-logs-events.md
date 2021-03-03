@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32742283"
 	productPesIds="16326"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-acimetricslogsevents"
 	ownershipId="compute-containerinstances-cs"
@@ -14,7 +14,7 @@
 ---
 {
    "$schema":"SelfHelpContent",
-   "resourceRequired":true,
+   "resourceRequired":false,
    "subscriptionRequired":true,
    "title":"ACI cannot access metrics logs or events",
    "formElements":[

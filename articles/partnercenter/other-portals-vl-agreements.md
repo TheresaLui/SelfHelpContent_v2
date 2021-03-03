@@ -24,13 +24,12 @@ This topic will guide partners to the support experience for Volume Licensing op
 
 ## **Recommended Steps**
 
+- Chat now to speak with a Volume Licensing Operations Specialist [here](https://www.explore.ms/Home/EmsLiveChat)
 - Submit a new support request for all Volume Licensing operations question through the Call Logging Tool (CLT) [here](https://clt.partners.extranet.microsoft.com/clt/)  
 - To access the ROC Operations Bot for existing ticket reactivation or escalation click [here](https://cosmiccasereactivation.trafficmanager.net/)   
 
 ## **Recommended Documents**
 
- * [Partner licensing questions – quick reference guide](https://support.microsoft.com/help/4076425)    
- * [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)     
- * [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
- 
- 
+- [Guide to licensing resources for Microsoft partners](https://docs.microsoft.com/partner-center/support-resources-licensing)
+- [Microsoft Products and Services Agreement](https://www.microsoft.com/Licensing/MPSA/default.aspx)
+- [Self Serve via VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)

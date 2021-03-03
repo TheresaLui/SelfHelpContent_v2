@@ -3,15 +3,15 @@
 	description="How to check if the recovered classic storage account can be registered in RDFE"
 	service="microsoft.storage"
 	resource="storageAccounts"
-	authors="JRMayberry"
-	ms.author="rimayber"
+	authors="symondsk"
+	ms.author="ksymonds"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Centennial_CloudNet_LoadBalancer"
+	ownershipId="StorageMediaEdge_AccountManagement"
 	articleId="a716864b-2b05-4e88-a1ad-6038a17941f6"
 />
 
@@ -23,7 +23,7 @@
 4. Name of Storage Service: **Storage Account Name**
 5. StorageGeoId for storage account: **Geo Domain from XLS**
 6. Label for storage account: **Storage Account Name**
-7. Location for the service: **Primary stamp name from Geo Region in XLS**
+7. Location for the service: **Geo Location**
 8. Approver:**,**
 9. Approver Link: **ICM#**
 10. Click on **Get Access** after providing all information.

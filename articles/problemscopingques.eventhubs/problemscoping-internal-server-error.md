@@ -24,15 +24,33 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "eventhubs_namespaces",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Event Hubs",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No event hubs available"
+                }
+            }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
           {
             "id": "problem_issueFrequency",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How frequently does the issue occur?",
             "watermarkText": "Choose an option",
@@ -53,14 +71,14 @@ schemaVersion="1"
         },
         {
             "id": "problem_sdkversion",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Have you enabled exponential back off and retry behaviors" ,
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the call stack with exception messages?",
             "required": true,

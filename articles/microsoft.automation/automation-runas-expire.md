@@ -1,45 +1,41 @@
 <properties
-    pageTitle="Azure Automation - Expired Run As Accounts"
-    description="Azure Automation - Expired Run As Accounts"
-    service="microsoft.automation"
-    resource="automationaccounts"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32628007, 32628010, 32628011, 32635010,32635015"
-    resourceTags=""
-    productPesIds="15607"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="fbf1c295-d499-4593-bfa9-c41bf607f19c"
-	ownershipId="Compute_Automation"
-/>
-
-# Azure Automation - Expired or Expiring Run As Accounts 
-RunAs accounts are used by Azure Automation to help authenticate against Azure resources.
+  pagetitle="Azure Automation: expired or expiring Run As accounts "
+  service="microsoft.automation"
+  resource="automationaccounts"
+  ms.author="riyadav"
+  selfhelptype="Generic"
+  supporttopicids="32628007,32628011,32635010,32635015,32782940"
+  resourcetags=""
+  productpesids="15607"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="fbf1c295-d499-4593-bfa9-c41bf607f19c"
+  ownershipid="Compute_Automation" />
+# Azure Automation: expired or expiring Run As accounts 
+The Self-Signed certificate created for Run As/Classic Run As account expires one year from date of creation. 
 
 ## **Recommended Steps**
 
-In order to manage RunAs accounts, you will need permissions as listed at ["Permissions Required to Manage RunAs Accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account#permissions)
+**1. Check permissions required to renew or recreate Run As/Classic Run As account**<br>
+   To manage Run As/Classic Run As accounts, you will need permissions. See [Permissions Required to Manage Run As/Classic Run As Accounts](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions)
 
-### Renewing self-signed certificate
+**2. Renew a Self-Signed Certificate**<br>
+   Before your Run As/Classic Run As certificate expires, you can renew it by following the [Certificate Renewal Instructions](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
 
-* Before your RunAs certificate expires, you can renew it by following the Cert Renewal instructions at ["Manage RunAs Accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal).
+**3. Re-create a Run As/Classic Run As Account**<br>
+   After your Run As/Classic Run As certificate expires, you must delete it and create a new one. Follow the instructions to [Delete](https://docs.microsoft.com/azure/automation/delete-run-as-account) and [Re-create](https://docs.microsoft.com/azure/automation/create-run-as-account) an Azure Run As/Classic Run As account.
 
-### Recreating RunAs Account
 
-* After your RunAs certificate expires, you will have to delete it and create a new one by following the instructions for ["Delete and recreate an Azure RunAs account"](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
+## Troubleshoot issues with Run As accounts
+If you are not able to renew or re-create Run As/Classic Run As account by following the steps above, see the following sections.
 
-### I want to start/stop VMs
+### **Run As/Classic Run As accounts are greyed out**
+Run As and Classic Run As accounts appear dimmed when you do not have sufficient permissions. Check out the [Permissions required to Manage Run As/Classic Run As account](https://docs.microsoft.com/azure/automation/automation-security-overview#permissions).
 
-* See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create RunAs accounts related to the Start/Stop solution
-
+### **Create a Run As/Classic Run As account related to Start/Stop VMs**
+See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create Run As/Classic Run As accounts related to the Start/Stop solution
 
 ## **Recommended Documents**
 
-* [Misconfigured Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#misconfiguration)<br>
-* [Run As account certificate renewal](https://docs.microsoft.com/azure/automation/automation-manage-account#self-signed-certificate-renewal)<br>
-* [Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)<br>
-* [Test Run As account authentication](https://docs.microsoft.com/azure/automation/automation-verify-runas-authentication)<br>
-* [Delete a Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#delete-a-run-as-or-classic-run-as-account)<br>
+* [Resolve a Misconfigured/Incomplete Run As account](https://docs.microsoft.com/azure/automation/manage-runas-account#resolve-misconfiguration-issues-for-run-as-accounts)<br>
 * [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

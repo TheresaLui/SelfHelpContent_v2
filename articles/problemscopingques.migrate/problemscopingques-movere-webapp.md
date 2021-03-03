@@ -1,22 +1,22 @@
 <properties
-         pageTitle="Movere, VDI, Database and webapp tools"
-         description="Movere, VDI, Database and webapp tools"
+         pageTitle="Database, VDI and webapp tools"
+         description="Database, VDI and webapp tools"
          authors="ms-psharma"
         ms.author="panshar"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32743017"
+         supportTopicIds="32755186"
          productPesIds="16348"
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
         articleId="5ba7abf0-b19a-11ea-b3de-0242ac130004"
 	ownershipId="Compute_AzureMigrate"
 />
-# Movere, VDI, Database and webapp tools
+# Database, VDI and webapp tools
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Movere, VDI, Database and webapp tools",
+    "title": "Database, VDI and webapp tools",
     "fileAttachmentHint": "",
     "formElements": [
           {

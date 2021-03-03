@@ -19,6 +19,7 @@
 
 ## **Recommended Steps**
 
+* When the problem is determined with a specific tunnel in a multi-tunnel scenario, most likely the issue is with the peer configuration. Follow _[Troubleshooting: An Azure site-to-site VPN connection cannot connect and stops working](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-cannot-connect)_ to verify the configuration.
 * Identify when the disconnection happened by reviewing the output of TunnelEventsTable or the Tenant Tunnel Stats from ASC Visual Debugging
 * Identify a "TunnelStateChangedToDisconnected" event
 * Identify the values of IsPlannedFailover and TunnelStateChangeReason columns

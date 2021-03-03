@@ -4,7 +4,7 @@
     service="microsoft.apim"
     resource="apimanagement"
     authors="genli"
-    ms.author="mquian,toddfous"
+    ms.author="kawilson, toddfous"
     selfHelpType="generic"
     supportTopicIds="32632413"
     resourceTags=""
@@ -25,3 +25,5 @@ API Management is a way to create consistent and modern API gateways for existin
 - [Azure API Management developer portal overview](https://docs.microsoft.com/azure/api-management/api-management-howto-developer-portal)
 - [API Management Pricing and SLA](https://azure.microsoft.com/pricing/details/api-management/). Check if you are on Developer tier.
 - [Capture a Trace for troubleshooting Azure Portal issues](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues)
+- [Integrating API Management with App Gateway](https://techcommunity.microsoft.com/t5/azure-paas-developer-blog/integrating-api-management-with-app-gateway-v2/ba-p/1241650)
+- [Integrate API Management in an internal VNET with Application Gateway](https://docs.microsoft.com/azure/api-management/api-management-howto-integrate-internal-vnet-appgateway)

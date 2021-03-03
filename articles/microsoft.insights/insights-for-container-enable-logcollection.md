@@ -10,7 +10,7 @@
     articleId="insights-for-container-enable-logcollection"
     productPesIds="17083"
     supportTopicIds="32740212"
-    cloudEnvironments="public, blackForest, fairfax,mooncake"
+    cloudEnvironments="public, blackForest, fairfax,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

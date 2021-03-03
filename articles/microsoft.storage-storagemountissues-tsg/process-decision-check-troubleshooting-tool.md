@@ -24,7 +24,7 @@
 
 **Recommended Documents**
 
-[Troubleshooting tool](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
+[Troubleshooting tool](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Windows)
 
 <!---
 

@@ -27,7 +27,7 @@ If issues persist, discuss the issue further with your SME/TA/EEE through [Ava](
 
 ## Recommended Documents
 
-1. [Ganglia metrics](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#ganglia-metrics)
-2. [View cluster logs](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--view-cluster-logs)
-3. [Restart clusters](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--start-a-cluster)
+* [Ganglia metrics](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#ganglia-metrics)
+* [View cluster logs](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--view-cluster-logs)
+* [Restart clusters](https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#--start-a-cluster)
 

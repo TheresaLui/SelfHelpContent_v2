@@ -10,7 +10,7 @@
   articleId="mcas-config-ac-access-session-policies"
   diagnosticScenario=""
   selfHelpType="generic"
-  supportTopicIds="32728961"
+  supportTopicIds="32745217"
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_CAAC"
@@ -40,7 +40,7 @@ Most users are able to resolve the following issues using the steps below:
 ## **Recommended Documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
-- [Access policies](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#access-policy-aad)
+- [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad)
 - [Session policies](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.

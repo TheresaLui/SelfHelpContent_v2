@@ -9,7 +9,7 @@
     articleId="insights-for-keyvault-commonsolution"   
     productPesIds="17267"
     supportTopicIds="32742641,32742645,32742646,32742647,32742642,32742644,32742652,32742654,32742650,32742651,32742655,32742643,32742649,32742653"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
 />
 

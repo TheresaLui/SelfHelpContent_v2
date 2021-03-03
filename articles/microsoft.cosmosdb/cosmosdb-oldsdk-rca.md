@@ -9,7 +9,7 @@
     articleId="cosmosdb-oldsdk-rca"
     diagnosticScenario="CosmosDBOldSDKInsight"
     selfHelpType="rca"
-    supportTopicIds="32636763,32636796,32636801,32636775,32741535"
+    supportTopicIds="32636763, 32636796, 32636801, 32636775, 32741535"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -22,14 +22,14 @@
 
 <!--issueDescription-->
 
-Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK that is an outdated version.
-
-<!--/issueDescription-->
+Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKLanguage-->SDKLanguage<!--/$SDKLanguage-->** SDK that is a relatively older version.
 
 ## **Recommended Steps**
 
-We highly recommend upgrading to the latest version of the SDK for performance and reliability improvements along with the latest bug fixes.
+We highly recommend upgrading to the latest version of the <!--$SDKLanguage-->SDKLanguage<!--/$SDKLanguage--> SDK for performance and reliability improvements along with the latest bug fixes.
 
 ## **Recommended Documents**
 
-* <!--$SDKDocsLink-->SDKDocsLink<!--/$SDKDocsLink-->
+* <!--$SDKDocsLinkText-->SDKDocsLinkText<!--/$SDKDocsLinkText-->
+
+<!--/issueDescription-->

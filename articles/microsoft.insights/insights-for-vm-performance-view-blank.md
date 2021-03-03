@@ -6,7 +6,7 @@
     authors="rashmian"
     ms.author="rashmia"
     selfHelpType="generic"
-    articleId="insights-for-vm-agent-upgrade"
+    articleId="insights-for-vm-agent-performance-view-blank"
     productPesIds="17081"
     supportTopicIds="32738521"
     cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"

@@ -33,18 +33,18 @@ In case you are aware that the objects were removed from your database, please p
 
 If you are unsure about the missing objects, run the PowerShell script below from either Windows PowerShell or Azure Cloud Shell and share the results with us. You will need to fill the SyncDbUser and the SyncDbPassword parameters. This script will check the missing objects from Sync Metadata Database. Based on the missing objects, we will provide you an action plan.
 
-```
-$parameters = @{    
-    SyncDbServer = '<!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->.database.windows.net'
-    SyncDbDatabase = '<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->'
-    SyncDbUser = ''
-    SyncDbPassword = ''
-}
+  ```
+    $parameters = @{    
+        SyncDbServer = '<!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->.database.windows.net'
+        SyncDbDatabase = '<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->'
+        SyncDbUser = ''
+        SyncDbPassword = ''
+    }
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master/AzureSQLDataSyncHealthChecker.ps1'
-Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Content)) -ArgumentList $parameters
-#end
-```
+    $scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master/AzureSQLDataSyncHealthChecker.ps1'
+    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Content)) -ArgumentList $parameters
+    #end
+  ```
 
 ### Disclaimers
 

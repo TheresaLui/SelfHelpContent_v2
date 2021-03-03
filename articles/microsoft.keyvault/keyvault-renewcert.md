@@ -18,6 +18,8 @@
 # Certificate Renewal in Key vault
 ## **Recommended Steps**
 
+* [Renewing key vault certificate](https://docs.microsoft.com/azure/key-vault/certificates/overview-renew-certificate)
+* [Get notified about certificate expiry](https://docs.microsoft.com/azure/key-vault/certificates/overview-renew-certificate?WT.mc_id=Portal-Microsoft_Azure_Support#get-notified-about-certificate-expirations)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 

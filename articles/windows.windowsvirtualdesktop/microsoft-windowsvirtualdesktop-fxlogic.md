@@ -1,21 +1,16 @@
 <properties
-	pageTitle="Windows Virtual Desktop"
-	description="Windows Virtual Desktop"
-	service=""
-	resource=""
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32681783"
-	resourceTags=""
-	productPesIds="16582"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="803975e4-6094-4086-95ff-2896a7e7902f"
-	ownershipId="Windows_Virtual_Desktop"
-/>
-
-# Windows Virtual Desktop
+  pagetitle="Windows Virtual Desktop - FSLogix Agent"
+  service=""
+  resource=""
+  ms.author="scotro,evas"
+  selfhelptype="Generic"
+  supporttopicids="32681783"
+  resourcetags=""
+  productpesids="16582"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="803975e4-6094-4086-95ff-2896a7e7902f"
+  ownershipid="Windows_Virtual_Desktop" />
+# Windows Virtual Desktop - FSLogix Agent
 
 4 out of 5 customers resolved their FSLoigix issue using the guides listed below.<br>
 

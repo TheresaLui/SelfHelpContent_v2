@@ -5,7 +5,7 @@
     ms.author="xunwei"
     articleId="36dff9ef-afde-40f5-b742-79a0bafcf6c2_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster

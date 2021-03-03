@@ -30,9 +30,8 @@ Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/doc
 
 * ***```property(set, 'xyz', 1)```*** set cardinality is not supported today. Support for set property cardinality will be enabled in the future. Please use ```property(list, 'xyz', 1)``` today.
 
-* ***Objects as properties*** on vertices or edges are not supported. Properties can only be primitive types or arrays.
+* ***Objects as properties*** on vertices or edges are not supported. Properties can only be primitive types.
 
-* ***Sorting by array properties*** ```.order().by(<array property>)``` is not supported. Sorting is supported only by primitive types.
 
 * ***Non-primitive JSON types*** are not supported. Please use ```string```, ```number``` or ```true```/```false``` types. ```null``` values are not supported. 
 
@@ -42,13 +41,7 @@ Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/doc
 
 
 ### **Case-insensitive string functions with Gremlin API**
-As of now this case insensitive search feature in Gremlin is not supported .  The official Tinkerpop Gremlin spec itself does not have a way to specify case insensitivity in the predicate.  
-You can search with Text containing string filtering function using the SQL query for the gremlin account.  
-**Example:** SQL query to filter on DisplayName property of a vertex
-
-```
-SELECT c.DisplayName FROM c WHERE CONTAINS(c.DisplayName[0]._value, "ab5", true)
-```   
+As of now this case insensitive search feature in Gremlin is not supported
 
 
 

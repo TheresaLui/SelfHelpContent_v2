@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="171f87ad-4ead-42fc-8f32-a3b18d451837_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public,USNat,USSec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy MariaDB DB Reserved capacity to save money over pay-as-you-go costs

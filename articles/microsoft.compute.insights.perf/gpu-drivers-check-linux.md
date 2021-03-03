@@ -20,7 +20,7 @@
 # Missing or outdated GPU Drivers on N-Series VM can impact Performance
 
 <!--issueDescription-->
-The GPU may not be visible due to missing GPU drivers, or GPU performance could be a reduced due to outdated GPU drivers. We strongly recommend verifying that the GPU drivers on the VM  **<!--$vmname-->[vmname]<!--/$vmname-->** are installed and updated to the latest build.
+The GPU may not be visible due to missing GPU drivers, or GPU performance could be reduced due to outdated GPU drivers. We strongly recommend verifying that the GPU drivers on the VM  **<!--$vmname-->[vmname]<!--/$vmname-->** are installed and updated to the latest build.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

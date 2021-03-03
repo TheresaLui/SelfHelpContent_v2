@@ -4,8 +4,8 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
+	authors="vijvala"
+	ms.author="vijvala"
 	displayOrder=""
 	articleId="api_sdk_sandbox_errors"
 	diagnosticScenario=""
@@ -21,6 +21,9 @@
 # Errors while using Partner Center API
 
 Review the error codes returned using in Partner REST APIs including standard HTTP status codes, as well as a JSON error response object.
+
+The document below now includes additional error codes with error descriptions.
+
 
 ## **Recommended Documents**
 

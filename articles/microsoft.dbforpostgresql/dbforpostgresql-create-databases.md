@@ -7,7 +7,7 @@
 	ms.author="chengxin"
     displayOrder="540"
     selfHelpType="generic"
-    supportTopicIds="32684527"
+    supportTopicIds="32684527, 32780991"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"

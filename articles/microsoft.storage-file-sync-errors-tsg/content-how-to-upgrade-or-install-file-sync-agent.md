@@ -28,16 +28,16 @@ Go to Apps and features, look for Storage Sync Agent. If not found or the versio
 	  3. Or Manually download the update from [Manual Download ](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-release-notes)or perform a silent installation for a new agent installation
 3. Run the following command at an elevated command prompt:
 
-~~~shell
+```shell
 
 msiexec /i packagename.msi /qb /l*v AFSInstaller.log
 
-~~~
+```
 
 4. For example, to install the Azure File Sync agent for Windows Server 2016, run the following command:
 
-~~~shell
+```shell
 
 msiexec /i StorageSyncAgent.msi /qb /l*v AFSInstaller.log
 
-~~~
+```

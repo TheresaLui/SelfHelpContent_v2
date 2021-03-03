@@ -168,10 +168,26 @@
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
     },
+     {
+            "id": "tenantID",
+            "visibility": null,
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide target Tenant ID(s) (Comma separated, if multiple)",
+            "content": null,
+            "watermarkText": "Enter Tenant ID(s)",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
     {
       "id": "timestamp",
       "visibility": "hasErrorData==yes",
-      "order": 6,
+      "order": 7,
       "controlType": "textbox",
       "displayLabel": "Timestamp",
       "content": null,
@@ -187,7 +203,7 @@
     {
       "id": "tenantId",
       "visibility": "hasErrorData==no",
-      "order": 7,
+      "order": 8,
       "controlType": "textbox",
       "displayLabel": "Tenant ID or tenant domain name",
       "content": null,
@@ -203,7 +219,7 @@
     {
       "id": "appId",
       "visibility": "hasErrorData==no",
-      "order": 8,
+      "order": 9,
       "controlType": "textbox",
       "displayLabel": "Application ID",
       "content": null,
@@ -219,7 +235,7 @@
     {
       "id": "symptoms",
       "visibility": "hasErrorData==no",
-      "order": 9,
+      "order": 10,
       "controlType": "multilinetextbox",
       "displayLabel": "Symptoms of the problem",
       "content": null,
@@ -235,7 +251,7 @@
     {
       "id": "problem_start_time",
       "visibility": null,
-      "order": 10,
+      "order": 11,
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem begin?",
       "content": null,
@@ -251,7 +267,7 @@
     {
       "id": "problem_description",
       "visibility": null,
-      "order": 11,
+      "order": 12,
       "controlType": "multilinetextbox",
       "displayLabel": "Please provide additional details",
       "content": null,

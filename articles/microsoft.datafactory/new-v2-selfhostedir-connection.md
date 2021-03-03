@@ -7,7 +7,7 @@
 	articleId="5c190125-b0df-4fc9-a5cd-bed5004cfcd6"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629537, 32637155"
+	supportTopicIds="32629537"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,6 +15,8 @@
 />
 
 # Self-Hosted Integration Runtime fails to copy data to/from an on-premises data store
+
+**Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
 
 ## **Recommended Steps**
 

@@ -24,15 +24,33 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "eventhubs_namespaces",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Event Hubs",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable/No event hubs available"
+                }
+            }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
           {
             "id": "problem_issueFrequency",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How frequently does the issue occur?",
             "watermarkText": "Choose an option",
@@ -53,35 +71,35 @@ schemaVersion="1"
         },
         {
             "id": "problem_locationofcode",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?",
+            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider? If Azure, please specify the Azure service name and specific resource name.",
             "required": true
         },
         {
             "id": "problem_sdkversion",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Enter the SDK stack and SDK version you are using?",
             "required": false
         },
         {
             "id": "problem_currentLatency",
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide current latency of the request(s)",
             "required": false
         },
         {
             "id": "problem_expectedLatency",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Provide the expected latency of the request(s)",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

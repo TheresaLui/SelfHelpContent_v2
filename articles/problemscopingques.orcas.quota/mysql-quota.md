@@ -19,15 +19,17 @@
     "resourceRequired": false,
     "title": "MySQL-Quota",
     "fileAttachmentHint": "",
+    "quotaRequestVersion": "0.0",
     "formElements": [
         {
-            "id": "quotaType",
+            "id": "quota_subtype",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Quota type",
             "watermarkText": null,
             "required": "true",
             "filter": false,
+            "includeInQuotaSummary": true,
             "dropdownOptions": [
                 {
                     "text": "Region access",
@@ -40,19 +42,20 @@
             ]
         },
         {
-            "id": "location_requested",
-            "visibility": "quotaType != null && quotaType == enablelocation",
+            "id": "quota_region",
+            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Location requested",
             "watermarkText":"Choose a location",
             "required": true,
+            "includeInQuotaSummary": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quotaType",
+                "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
-                "ValueProperty":"displayName",
+                "ValueProperty":"name",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
@@ -62,16 +65,24 @@
         },
         {
             "id": "capacity_requested",
-            "visibility": "quotaType != null && quotaType == enablelocation",
+            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
             "order": 3,
             "controlType": "numerictextbox",
+            "isNewQuotaLimit": true,
+            "includeInQmsPayload": true,
             "displayLabel": "Capacity requested (in VCores)",
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers'>Learn more</a>.",
-            "required": true
+            "required": true,
+            "validations": [
+                            {
+                             "type": "greaterthan",
+                             "value": 0
+                            }
+                           ]
         },
         {
             "id": "business_justification",
-            "visibility": "quotaType != null && quotaType == enablelocation",
+            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
@@ -80,7 +91,7 @@
         },
         {
             "id": "problem_description",
-            "visibility": "quotaType != null && quotaType == dont_know_answer",
+            "visibility": "quota_subtype != null && quota_subtype == dont_know_answer",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",

@@ -18,8 +18,8 @@
 
 ## **Recommended steps**
 
-1. If you are setting up device registrations for the first time, please ensure that you have reviewed [Introduction to device management in Azure Active Directory](https://aka.ms/support-devicemanagement-intro) that will guide you on how to get devices under the control of Azure AD.
-2. If you are registering devices into Azure AD directly and enrolling them into Intune, you will need to ensure that you have [configured Intune](https://aka.ms/support-aad-configureintune) and have the [licensing](https://aka.ms/support-aad-configureintunelicensing) in place first.
+1. If you are setting up device registrations for the first time, please ensure that you have reviewed [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) that will guide you on how to get devices under the control of Azure AD.
+2. If you are registering devices into Azure AD directly and enrolling them into Intune, you will need to ensure that you have [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first.
 3. Ensure you are authorized to perform operations in Azure AD. Only a global administrator in Azure AD can manage settings for device registrations. 
 
 ## **Recommended documents**
@@ -30,10 +30,10 @@
 
 * [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
-* [Set up Azure AD joined devices during Windows 10 first-run experience](https://aka.ms/support-devicemanagement-azureadjoin-frx)
+* [Set up Azure AD joined devices during Windows 10 first-run experience](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
-* [Manage devices using the Azure portal](https://aka.ms/support-devicemanagement-azureportal)
+* [Manage devices using the Azure portal](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal)
 
 ### Troubleshooting common issues for registration and managing Azure AD joined devices ###
 
-* [Frequently asked questions for device registration](https://aka.ms/support-devicemanagement-faq)
+* [Frequently asked questions for device registration](https://docs.microsoft.com/azure/active-directory/devices/faq)

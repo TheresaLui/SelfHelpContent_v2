@@ -35,6 +35,7 @@ We want to check if the customer is leveraging ***Global VNet Peering*** (peerin
 	7. App Service Environments (ASE) (uses Basic ILB SKU)
 	8. API Management (uses Basic ILB SKU)
 	9. Azure Active Directory Domain Service (ADDS) (uses Basic ILB SKU)
+	10. VNet Integration (SWIFT) resources cannot communicate with resources in a globally peered VNet
 
 ## **Recommended Documents**
 

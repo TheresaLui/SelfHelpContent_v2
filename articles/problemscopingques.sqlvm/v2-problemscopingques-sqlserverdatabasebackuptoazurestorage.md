@@ -18,6 +18,11 @@
     "subscriptionRequired": false,
     "title": "SQL Server database backup to Azure Storage",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+    "title": "Backup to Azure Storage Troubleshooter",
+    "description": "Our Backup to Azure Storage Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -31,7 +36,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What phase of implementation are you at?",
+            "displayLabel": "What phase of implementation are you in?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
@@ -161,7 +166,100 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
+        {
+            "id": "backuptoazurestorage_issue_type",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes your Backup to Azure Storage issue.",
+            "watermarkText": "Common Backup to Azure Storage issue categories",
+            "infoBalloonText": "Backup to Azure Storage issue category",
+            "dropdownOptions": [
+            {
+            "value": "DatabaseBackupFailure_BlockSizeReached_Error_3063",
+            "text": "Error 3063: Write to backup block blob device failed"
+            },
+            {
+            "value": "MigrateDatabaseToAzureVM",
+            "text": "Migrate Databases from On Premise/Another Cloud to Azure VM"
+            },
+            {
+            "value": "DatabaseBackupFailure_OSError50_Error_3201",
+            "text": "OS Error 50: Cannot open backup device"
+            },
+            {
+            "value": "DatabaseBackupFailure_DifferentialBackup_AzureBackUpService_Error_3035",
+            "text": "Error 3035: Cannot perform a differential backup for database"
+            },
+            {
+            "value": "DatabaseBackupFailure_1TB_PageBlob_Error_416",
+            "text": "Error 416: Cannot backup database of 1 TB or more to Page blob"
+            },
+            {
+            "value": "DatabaseBackupFailure_TLS_Error_3271",
+            "text": "Error 3271: Backup fails due to TLS errors"
+            },
+            {
+            "value": "DatabaseBackupFailure_ContainerURL_Error_45207",
+            "text": "Error 45207: A container URL was either not provided or invalid"
+            },
+            {
+            "value": "DatabaseBackupFailure_1TB_ActiveLease_Error_412",
+            "text": "Error 412: Backup Files with active lease and 1 TB Size on storage account"
+            },
+            {
+            "value": "DatabaseBackupFailure_ProxyServer",
+            "text": "Backup failed due to proxy server issues"
+            },
+            {
+            "value": "DatabaseBackupFailure_LongRunning",
+            "text": "My backup is taking longer to complete/ Database Restore is slow"
+            },
+            {
+            "value": "DatabaseRestoreFailure_RestoringFromStorageAccount_Error_3284",
+            "text": "Error 3284: Restore database from storage account fails"
+            },
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+    },
+    {
+        "id": "backuptoazurestorage_proxyserver_issue_type",
+        "order": 2100,
+        "controlType": "dropdown",
+        "displayLabel": "Choose an option that best describes your proxy server issue Types.",
+        "watermarkText": "Proxy Server Issue Types",
+        "infoBalloonText": "Proxy Server Issue Types",
+        "dropdownOptions": [
+            {
+            "value": "NonrecoverableIOErrorBackupDatabase_Error_3013",
+            "text": "3013: A nonrecoverable I/O error occurred on file Backup Database Terminating abnormally"
+            },
+            {
+            "value": "BackupToURL_Error",
+            "text": "Backup to URL received an exception from the remote endpoint"
+            },
+            {
+            "value": "BackupIORequest_Error",
+            "text": "BackupIORequest::ReportIoError: write failure on backup device"
+            },
+            {
+            "value": "NonrecoverableIOErrorProxy_Error_407",
+            "text": "407: A nonrecoverable I/O error occurred on file : Proxy Authentication Required"
+            },
+            {
+            "value": "dont_know_answer",
+            "text": "None of the above"
+            }
+        ],
+        "required": false,
+        "diagnosticInputRequiredClients": "Portal",
+        "visibility": "backuptoazurestorage_issue_type == DatabaseBackupFailure_ProxyServer"
+    }
     ],
     "$schema": "SelfHelpContent"
 }

@@ -3,8 +3,8 @@
 	description="How to Perform Key Vault actions"
 	service="Microsoft.Keyvault"
 	resource="vaults"
-	authors="jlichwa"
-	ms.author="jalichwa"
+	authors="ShaneBala-keyvault"
+	ms.author="sudbalas"
 	displayOrder="5"
 	selfHelpType="generic"
 	supportTopicIds="32738119, 32738115, 32738120, 32738117"
@@ -16,6 +16,11 @@
 />
 
 # How to Perform Key Vault actions
+
+## **Recommended Documents**
+* [Integrate Key Vault with Kubernetes](https://docs.microsoft.com/azure/key-vault/general/key-vault-integrate-kubernetes)
+* [Integrate Key Vault with Databricks](https://docs.microsoft.com/azure/key-vault/general/integrate-databricks-blob-storage)
+
 ## **Recommended Steps**
 
 * [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)

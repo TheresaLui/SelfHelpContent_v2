@@ -16,16 +16,16 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dd65e838-4473-4fdb-b124-e09798e35f36",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
+    "schemaVersion": 2.0,
     "streamNamespace": "AzureStorage.Data.StorageAdvisorEnableLargeFileSharesPublicV1_0",
     "dataSource": "Cosmos",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "EnableLargeFileShares",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "xdataanalytics@microsoft.com",
@@ -36,7 +36,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account",
   "description": "Enable the large file share feature on storage account to avoid throttling.",
   "longDescription": "Standard file shares are limited to 1000 IOPS per share. By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares. Enabling large files shares is an irreversible action. Large file shares enabled account can’t be converted to re-redundant accounts.",
@@ -63,7 +63,6 @@
   "displayLabel": "Enable the large file share feature on storage account to avoid throttling",
   "additionalColumns": [],
   "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/axdataanalyticsstgwcus",
-  "tip": "By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares.",
-  "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
+  "tip": "By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares."
 }
 ---

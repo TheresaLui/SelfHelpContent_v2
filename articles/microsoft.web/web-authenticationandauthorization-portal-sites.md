@@ -17,9 +17,6 @@
 
 # authentication and authorization/App Service Authentication (built-in) through portal
 
-**Note:**
-If you have questions related to Azure Active Directory, please consider going back to the previous screen and selecting one of the Active Directory services to get better solution recommendations and faster access to an appropriate support resource.  <br>
-
 ## **Recommended Documents**
 
 * [Overview of Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)

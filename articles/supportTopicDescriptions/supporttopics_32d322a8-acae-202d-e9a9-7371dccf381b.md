@@ -264,8 +264,8 @@
     {
       "id": "3a398ea2-670c-bd78-728c-2dc887cbed5b",
       "longDescription": "",
-      "shortDescription": "Monitoring and managing storage and physical memory capacity",
-      "searchTags": "Capacity;Storage;Memory",
+      "shortDescription": "Monitoring and managing storage, physical memory capacity, and virtual CPU cores",
+      "searchTags": "Capacity;Storage;Memory;CPU",
       "category": "Capacity",
       "useInDiagnoseAndSolve": "false"
     },
@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a8e993db-fddd-5cc1-cdca-f05e3371feb5",
+      "longDescription": "",
+      "shortDescription": "Security profile of Azure Stack Hub infrastructure network, including DDoS and ACLs",
+      "searchTags": "DDoS;DoS;ACL",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acba8e31-02de-0bba-f6a9-84f61342f338",
       "longDescription": "",
       "shortDescription": "VPNs for connectivity in user environment, including network virtual appliances, and site-to-site connections",
@@ -854,6 +862,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c825f1a3-1cca-b2aa-4dd6-f6b315bd316b",
+      "longDescription": "",
+      "shortDescription": "Administrator operations for tenant management, including tenant registration and usage tracking",
+      "searchTags": "Operator;Administration",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
       "longDescription": "",
       "shortDescription": "Azure Stack general guidance and advisory",
@@ -1000,8 +1016,8 @@
     {
       "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
       "longDescription": "",
-      "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
-      "searchTags": "ERCS;PEP;Administration",
+      "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS), or using an Operator Access Workstation (OAW)",
+      "searchTags": "ERCS;PEP;Administration;OAW",
       "category": "Administration",
       "useInDiagnoseAndSolve": "false"
     },

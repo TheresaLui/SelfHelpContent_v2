@@ -1,48 +1,76 @@
 <properties
-    pageTitle="Scaling Azure Database for MySQL servers"
-    description="Scaling Azure Database for MySQL servers"
-    service="microsoft.dbformysql"
-    resource="servers"
-    authors="ambhatna"
-    ms.author="ambhatna"
-    displayOrder="180"
-    selfHelpType="generic"
-    supportTopicIds="32640086"
-    resourceTags="servers, databases"
-    productPesIds="16221"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="d980b014-1500-4f79-a025-03717b4576da"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
-/>
-
+  pagetitle="Scaling Azure Database for MySQL servers&#xD;"
+  description="Scaling Azure Database for MySQL servers"
+  service="microsoft.dbformysql"
+  resource="servers"
+  ms.author="ajlam,jtoland"
+  selfhelptype="Generic"
+  supporttopicids="32640086"
+  resourcetags="servers,databases"
+  productpesids="16221"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="d980b014-1500-4f79-a025-03717b4576da"
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Scaling Azure Database for MySQL servers
 
-In Azure Database for MySQL, scaling can only be done between General Purpose and Memory Optimized service tiers. Scaling to/from the Basic service tier is not supported.
+In Azure Database for MySQL, you can scale both compute and storage resources. You can initiate scaling operations from the Azure portal, the Azure CLI, ARM templates, or the REST API.
 
-Most users are able to resolve their issue using the steps below.
+Most users can resolve issues by considering the following points.
 
-## **Recommended Steps**
+### Considerations for Compute
 
-* Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
+* **Single server supports:**
+  * **Basic**, **General Purpose**, and **Memory Optimized** pricing tiers
+  * Scaling between the **General Purpose** and **Memory Optimized** tiers
+  
+  Scaling to/from the **Basic** tier isn't supported. To switch from the **Basic** to the **General Purpose** or **Memory Optimized** tier, or vice-versa, follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404).
 
-    * If you want to switch from Basic to General purpose or Memory Optimized and vice-versa, please follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers in Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404) blog
+* **Flexible server supports:**
+  * **Burstable**, **General Purpose**, and **Memory Optimized** compute tiers
+  * Scaling between all compute tiers and sizes
 
-* Connections are dropped and no new connections can be established while vCores are scaled:
+* **Connections are dropped and no new connections can be established while scaling compute resources.**
 
-    * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the MySQL server once the scale operation is completed. Storage scaling does not cause a restart.
+  Compute scaling requires a server restart. When new connections can't be established, the time it takes for the window to appear varies, but in most cases, it is under a minute. It is recommended to implement retry logic so that your application can seamlessly reconnect to the MySQL server after the scale operation is completed.
 
-* Cannot scale up the master server when a replica exists, or cannot scale down a replica:
+### Considerations for Storage
 
-    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+In both single and flexible server, scaling storage is an online operation that does not require a server restart.
 
-* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
+* **Scaling fails with the error "Service is temporarily busy and the operation cannot be performed. Please try again later".** 
+  
+  Try to scale the server again after a few minutes have elapsed.
 
-    * Try to scale the server again after a few minutes have passed
+* **Single server**
+  * The **Basic** tier can support up to 1 TB, with variable IOPS.
+  * The **General Purpose** and **Memory Optimized** tiers support scaling up to 16 TB. IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum 20,000 IOPS.
 
-* The Azure Monitor auto-scale feature is not supported in Azure Database for MySQL. However, you can configure auto-scaling using Azure runbook and Python. Please refer to [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
+* **Flexible server**
 
-## **Recommended Documents**
+  All compute tiers support up to 16 TB.
 
-* [Azure Database for MySQL Pricing Page](https://azure.microsoft.com/pricing/details/mysql/)<br>
+### Considerations for IOPS
+
+* **Single server**
+  * For the **Basic** tier, IOPS are variable.
+  * For the **General Purpose** and **Memory Optimized** tiers, IOPS scale with storage in a ratio of three IOPS per GB, up to a maximum of 20,000 IOPS.
+
+* **Flexible server**
+  * The minimum effective IOPS is 100 across all compute tiers and sizes.
+  * The maximum effective IOPS is determined by both compute and storage configurations.
+
+### Considerations for Read replicas
+
+* **Can't scale up the source server when a replica exists, or can't scale down a replica.**
+  Before updating the configuration of a source server, update the configuration of the replica using equal or greater values. This action ensures that the replica can keep up with any changes made to the source.
+
+Azure Database for MySQL doesn't support the Azure Monitor auto-scale feature. However, you can configure auto-scaling using Azure run books and Python. Refer to [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
+
+## **Recommended documents**
+
+* [Azure Database for MySQL Pricing Page](https://azure.microsoft.com/pricing/details/mysql/)
+* [Azure Database for MySQL Single Server - Pricing tiers](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)
+* [Azure Database for MySQL Flexible Server - Compute and storage](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-compute-storage)
+* [Manage Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal)
+* [Manage Azure Database for MySQL Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-maintenance-portal)
 * [Migrate to Azure Database for MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)
-* [Scaling resources in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#scale-resources/)

@@ -31,6 +31,10 @@ Most users are able to resolve their issue using the steps below.
 
     * Please note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
 
+* Unable to view query text in Query Performance Insights:
+
+    * You must have an Owner or Contributor role to view the text of the queries in Query Performance Insight. If you have a Reader role, you can view charts and tables but not query text.
+
 ## **Recommended Documents**
 
 * [Interacting with Azure Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics#interacting-with-azure-monitor-metrics/)<br>

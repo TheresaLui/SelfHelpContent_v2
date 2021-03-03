@@ -48,6 +48,10 @@ pageTitle="Incentives payout and tax profile issues"
 					"text": "Azure Incentives"
 				},
 				{
+					"value": "76A13844-16C7-482F-AD4F-C189F28B20FD",
+					"text": "Azure Stack Hyper-Converged Infrastructure Incentive Programs"
+				},
+				{
 					"value": "BE9B1C44-C2C9-47E3-8E5B-EA8DAD561D76",
 					"text": "Campaigns"
 				},
@@ -78,6 +82,10 @@ pageTitle="Incentives payout and tax profile issues"
 				{
 					"value": "B9C1E7AC-5F60-4800-99A2-033F4C6775C7",
 					"text": "Enterprise Incentives"
+				},
+				{
+					"value": "53B77C97-3710-4E23-B292-FC685AF25F59",
+					"text": "Federal Incentive Program"
 				},
 				{
 					"value": "49B6A0A1-5B47-4711-BD15-41CA0A777175",
@@ -141,7 +149,7 @@ pageTitle="Incentives payout and tax profile issues"
 				},
 				{
 					"value": "B0556568-3E0F-429E-B17A-32B791C9F943",
-					"text": "Software Asset Management"
+					"text": "Solution Assessment Incentives"
 				},
 				{
 					"value": "3C1B8C00-FBAD-4142-A802-B1D740AD31E5",
@@ -162,6 +170,10 @@ pageTitle="Incentives payout and tax profile issues"
 				{
 					"value": "4E0D72D8-69C6-41AD-8839-C0EB67629B1B",
 					"text": "Surface ADR - PC"
+				},
+				{
+					"value": "A43220D9-B586-47A2-A655-E6A8A1E781CA",
+					"text": "Xbox Game Pass Incentive Program"
 				},
 			{
 				"value": "dont_know_answer",

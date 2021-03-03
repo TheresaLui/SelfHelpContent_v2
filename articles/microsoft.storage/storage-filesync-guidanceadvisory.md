@@ -3,8 +3,8 @@
 	description="General Guidance or Advisory"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="jeffpatt24"
-	ms.author="jeffpatt"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32675715"
@@ -21,6 +21,8 @@
 
 - [Planning for an Azure File Sync deployment](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)<br>
 - [Deploy Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal)<br>
+- [Planning Data Migration with Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-migration-overview)<br>
+- [Add/Remove server endpoint in Sync group](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-endpoint)<br>
 - [Frequently asked questions (FAQ) about Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-faq#azure-file-sync)<br>
 - [Monitor Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)<br>
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal)
