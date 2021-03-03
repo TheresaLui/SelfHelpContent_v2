@@ -53,13 +53,13 @@ The **Azure Activity Log** provides information about subscription-level events.
   Setting `pgaudit.log_client` to **On** will redirect logs to a client process (like `psql`) instead of being written to file. This setting should generally be left disabled.
     
 * Are you trying to set `pgaudit.log_level` server parameter to a value and not getting expected results?
-  Make sure `pgaudit.log_client` is set to **On**. `pgaudit.log_level` is only enabled when `pgaudit.log_client` is on
+  Make sure `pgaudit.log_client` is set to **On**. `pgaudit.log_level` is only enabled when `pgaudit.log_client` is on.
   
 * Are you using the minus sign ("-") shortcut for `pgaudit.log` parameter?
-  In Azure Database for PostgreSQL, `pgaudit.log` cannot be set using a minus sign shortcut as described in the pgAudit documentation. All required statement classes (READ, WRITE, etc) should be individually specified.
+  In Azure Database for PostgreSQL, `pgaudit.log` cannot be set using a minus sign shortcut as described in the pgAudit documentation. All required statement classes (`READ`, `WRITE`, etc) should be individually specified.
   
 * Do you need to add a prefix in the beginning of each log line?
-    * Use the `log_line_prefix` server parameter to add information like user who executed commands and database name. As an example, the following `log_line_prefix` setting provides timestamp, username, database name, and process ID: `t=%m u=%u db=%d pid=[%p]:`
+  Use the `log_line_prefix` server parameter to add information like user who executed commands and database name. As an example, the following `log_line_prefix` setting provides timestamp, username, database name, and process ID: `t=%m u=%u db=%d pid=[%p]:`
     
 * Are you trying to setup connection logging using pgAudit?
   pgaudit does not provide connection logging. This is provided by Postgres's `log_connections` and `log_disconnections` parameters.
