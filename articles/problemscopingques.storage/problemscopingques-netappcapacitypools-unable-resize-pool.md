@@ -60,7 +60,7 @@
       			"order": 4,
       			"controlType": "textbox",
       			"displayLabel": "New Size",
-      			"watermarkText": "What is the desired new size (TiB) of the Capacity Pool",
+      			"watermarkText": "What is the desired new size (TiB) of the Capacity Pool?",
       			"required": false
 		}, {
 			"id": "problem_description",
