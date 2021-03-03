@@ -34,7 +34,7 @@
             "required": true
         },
  	{
-            "id": "backuptoazurestorage_issue_type",
+            "id": "othererrorsandexception_issue_type",
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Choose an option that best describes your issue.",
@@ -42,12 +42,20 @@
             "infoBalloonText": "Other common peformance issue categories",
             "dropdownOptions": [
             {
-            "value":"test21",
-            "text": "test1"
+            "value":"Query Store and Related Issues",
+            "text": "Query_Store"
             },
             {
-            "value": "test2",
-            "text": "test2"
+            "value": "Issues with Bulk Insert",
+            "text": "Bulk_Insert"
+            },
+             {
+            "value": "Temp DB Full other Issues with TempDB",
+            "text": "Temp_DB"
+            },
+             {
+            "value": "Error 9002: The transaction log for database X is full",
+            "text": "Transaction_Log_Full"
             },
             {
             "value": "dont_know_answer",
