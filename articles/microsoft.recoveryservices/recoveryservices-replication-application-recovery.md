@@ -23,7 +23,7 @@
 
 ### **I get an error that says that the core count limit was reached**
 
-This happens when your subscription has run out of its allocated quota of virtual machine cores, and is unable to create the virtual machine. You can check the available quota by going to Subscription > Usage + quotas. You can have the quota increased by opening a support request to increase your virtual machine core count quota.
+This happens when your subscription has run out of its allocated quota of virtual machine cores, and is unable to create the virtual machine. You can check the available quota by going to **Subscription** > **Usage + quotas**. You can have the quota increased by opening a support request to increase your virtual machine core count quota.
 
 ### **I get an error that says that the resource was disallowed by policy**
 
