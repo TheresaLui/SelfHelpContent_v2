@@ -14,8 +14,9 @@
 # Scoping questions for Application Gateway connection timed out
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-	"resourceRequired": true,
+    "resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
      "diagnosticCard": {
@@ -108,7 +109,6 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
