@@ -26,7 +26,7 @@ Here are some common questions we receive about Azure Lighthouse.
 
 **Can I do [insert action] with Azure Lighthouse?**
 
-- Most tasks and services can be performed on delegated resources across managed tenants. See this list of key [cross-tenant experiences](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#enhanced-services-and-scenarios) supported by Azure Lighthouse. To use Azure Lighthouse with other Azure services, make sure you have (1) the RPs registered, and (2) the appropriate delegated [RBAC roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles).
+- Most tasks and services can be performed on delegated resources across managed tenants. See this list of key [cross-tenant experiences](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#enhanced-services-and-scenarios) supported by Azure Lighthouse. To use Azure Lighthouse with other Azure services, make sure that you have 1) the RPs registered, and (2) delegated the appropriate [RBAC roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles).
 
 - Be aware of the [current limitations](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience#current-limitations). 
 
