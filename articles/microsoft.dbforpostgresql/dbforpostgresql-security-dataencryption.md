@@ -25,9 +25,9 @@ You can use infrastructure double-encryption for a second layer of encryption us
 
 ## **Recommended steps**
 
-* Are you trying to confirm whether data is encrypted in Azure Database for PostgreSQL? 
-    * Data is always encrypted in Azure Database for PostgreSQL - Single server (data, logs, backups, etc.) It is mandatory and can't be turned off. 
-    * Customer managed key (CMK) is a feature that allows you to be in full control of the encryption key.
+**Are you trying to confirm whether data is encrypted in Azure Database for PostgreSQL?**
+* Data is always encrypted in Azure Database for PostgreSQL - Single server (data, logs, backups, etc.) It is mandatory and can't be turned off. 
+* Customer managed key (CMK) is a feature that allows you to be in full control of the encryption key.
 
 **Are you looking for a way to enable customer-managed key (CMK) for data encryption on your server but can't find it?**
 * Check that you are not using Basic tier. CMK for data encryption is only available for the **General purpose** and **Memory optimized** tiers.
@@ -37,13 +37,13 @@ You can use infrastructure double-encryption for a second layer of encryption us
 * You can enable CMK for your Azure Database for PostgreSQL from the [portal](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-portal).
 * You can enable CMK for your Azure Database for PostgreSQL from [CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli).
 
-**Do you need to find information about strength of CMK?**
+**Do you need to find information about strength of CMK?**<br>
 Encryption is only supported with the RSA 2048 cryptographic key.
 
-**Are you looking for a way to setup key auto-rotation?**
+**Are you looking for a way to setup key auto-rotation?**<br>
 You can set auto-rotation of the CMK in Azure Key Vault, but after the key is rotated, you must explicitly change the new version of the key for the Server by using the portal or the Create CLI command described in [Create CLI](https://docs.microsoft.com/azure/postgresql/howto-data-encryption-cli#set-data-encryption-for-azure-database-for-postgresql-single-server).
 
-**Do you need to enable [double encryption](https://docs.microsoft.com/azure/postgresql/concepts-infrastructure-double-encryption) on your server?**
+**Do you need to enable [double encryption](https://docs.microsoft.com/azure/postgresql/concepts-infrastructure-double-encryption) on your server?**<br>
 You can enable infrastructure double encryption for Azure Database for PostgreSQL - Single server at create time [in portal or using CLI](https://docs.microsoft.com/azure/postgresql/howto-double-encryption)
     
 ## **Recommended documents**
