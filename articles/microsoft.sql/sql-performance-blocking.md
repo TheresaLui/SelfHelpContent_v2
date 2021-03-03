@@ -27,7 +27,7 @@ Blocking occurs when one session holds a lock on a specific resource and a secon
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We recommend following the steps below below to determine if impactful blocking is currently occuring and to identify the lead blocking session. 
+We recommend following the steps to determine if impactful blocking is currently occuring. This procedure will identify the lead blocking session and wait duration. 
 
 1. Run the following query:
 
