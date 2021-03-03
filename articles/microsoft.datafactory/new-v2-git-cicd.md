@@ -1,6 +1,6 @@
 <properties
   pagetitle="Continuous Integration and Delivery with Git Repository Integration"
-  ms.author="nimoolen"
+  ms.author="nimoolen,fangl"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -21,6 +21,9 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 - We do not recommend assigning Azure RBAC controls to individual entities (pipelines, datasets, and so on) in a data factory. For example, if a developer has access to a pipeline or a dataset, they should be able to access all pipelines or datasets in the data factory. If you feel that you need to implement many Azure roles within a data factory, consider deploying a second data factory.
 - You cannot publish from private branches
 
+### **Best Practice**
+[Best practices](https://docs.microsoft.com/azure/data-factory/)
+
 ### **Custom parameters**
 
 Use custom parameters with the [Resource Manager template](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#use-custom-parameters-with-the-resource-manager-template) to override default properties during deployment. You can now edit your `arm-template-parameters-definition.Json` directly in ADF UX. 
@@ -31,7 +34,7 @@ Git publishing does not allow publishing for a subset of changes. To publish ind
 
 ### **Azure Resource Manager template size limit**
 
-If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits
+If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits.
 
 ### **Running only in test env.**
 When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 

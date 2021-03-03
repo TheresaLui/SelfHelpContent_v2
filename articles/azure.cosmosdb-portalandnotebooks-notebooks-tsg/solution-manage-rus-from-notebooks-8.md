@@ -23,11 +23,11 @@ Dear customer,
 
 There are cases in which the scaling operation needs to be done through data bricks notebooks. The sample provided below would help to scale up or down the provisioned throughput.
 
-###**Requirement:**  Install PyPI package on the Cluster.
+#### Requirement: Install PyPI package on the Cluster.
 
 ![Image Sample](https://microsofteur-my.sharepoint.com/:i:/g/personal/anferrei_microsoft_com/EU3XTyktyOpFuUBcwusx1j4BuQnlCjdZg1p2b_VLIkwMnA?e=DmOTQy)
 
-###Sample Code
+#### Sample Code
 
 ```
 import azure.cosmos.cosmos_client as cosmos_client

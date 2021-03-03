@@ -23,24 +23,16 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording, error messages encountered or a document with steps to recreate the issue)",
    "formElements": [
        {
-	   "id": "seller_id",
+	   "id": "mpn_id",
 	   "order": 1,
 	   "controlType": "textbox",
-	   "displayLabel": "Seller ID",
-	   "watermarkText": "Provide the Seller ID for which the MPN ID is to be updated (required)",
-	   "required": false
-       },
-       {
-	   "id": "mpn_id",
-	   "order": 2,
-	   "controlType": "textbox",
 	   "displayLabel": "MPN ID",
-	   "watermarkText": "Provide the MPN ID to be updated (required)",
+	   "watermarkText": "Provide the MPN ID to be updated",
 	   "required": true
        },
        {
 	   "id": "problem_description",
-	   "order": 3,
+	   "order": 2,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -49,7 +41,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 4,
+	   "order": 3,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",

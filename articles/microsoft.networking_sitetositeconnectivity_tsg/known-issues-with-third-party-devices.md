@@ -23,4 +23,4 @@
 
 ## **Recommended Documents**
 
-* [VPN Connection Unreliable - 3rd party issues](https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Connection_Unreliable#Issues_with_3rd_party_devices)
+* [VPN Connection Unreliable - 3rd party issues](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134282/VPN-Connection-Unreliable?anchor=issues-with-3rd-party-devices)

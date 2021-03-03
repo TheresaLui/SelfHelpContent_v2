@@ -18,8 +18,10 @@
 # Modify the Index to include new fields
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
-Based on the troubleshooting step before, please write your conclusions to customer. Mention to customer what  fields should be indexed in orde to increase the Index Utilization, and hence, improve as well the request charge. 
+**Next steps:** 
+Based on the troubleshooting step before, please write your conclusions to customer. Mention to customer what  fields should be indexed in orded to increase the Index Utilization, and hence, improve as well the request charge. 
 
 <!--/issueDescription-->
 
