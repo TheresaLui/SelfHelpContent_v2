@@ -29,7 +29,7 @@ Please wait for 15-20 minutes before testing the connection through the VNet. Yo
 If you are having connectivity issues to your Cosmos DB account, you may have not added your IP address or IP address ranges in your account's firewall and virtual networks settings.
 
 * To configure IP policy-based access control, you must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. Note that changes in firewall rules can take up to 15 minutes to apply.
-  * We'll give you back your IP with the 403 returned by Cosmos DB, or you can look it up in your activity logs. 
+  * We'll give you back your IP with the 403 returned by Cosmos DB, or you can look it up in your activity logs.
 **Note:** You must Enable Diagnostic logs in order to get this data from your logs.
   * If you are using proxies you may get a new IP on each request
 * If you want to extend access to any Azure service, select the **Accept connections from within public Azure datacenters** checkbox in the **Firewall and virtual networks** section  
@@ -54,22 +54,30 @@ The Option *Accept connection from within public Azure datacenters* becomes un-s
 
 * The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account. Remove the 0.0.0.0 address.  
 
+### **Add outbound rules to the firewall**
+
+To access a current list of outbound IP ranges to add to your firewall settings, please see [Download Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519).
+
+To automate the list, please see [Use the Service Tag Discovery API (public preview)](https://docs.microsoft.com/azure/virtual-network/service-tags-overview#use-the-service-tag-discovery-api-public-preview).
+
 ### **Unable to update Consistency as well as enable or disable multi-region writes**
 
 With VNet-enabled accounts, the selected user making changes to the account must have permissions on the VNet.
 
-* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency. 
+* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency.
 
 ## **Recommended Documents**  
 
 [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
-<br>Learn how you can set an IP firewall on the Azure Cosmos DB account in the following ways:
+
+Learn how you can set an IP firewall on the Azure Cosmos DB account in the following ways:
+
 * From the Azure portal
 * Declaratively by using an Azure Resource Manager template
 * Programmatically through the Azure CLI or Azure PowerShell by updating the `ipRangeFilter` property  
 
 [Frequently Asked Questions: How to configure access from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
-<br>This article describes how to configure a virtual network service endpoint for an Azure Cosmos DB account, and provides answers to frequently asked questions.  
 
-[IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
-<br>This article provides an IP access control overview.
+This article describes how to configure a virtual network service endpoint for an Azure Cosmos DB account, and provides answers to frequently asked questions.  
+
+* The article [IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support) provides an IP access control overview.
