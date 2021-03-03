@@ -11,6 +11,7 @@
   articleId="88e83cb3-2045-4177-869c-60756dd6dfc5"
   ownershipId="AzureData_AzureSQLVM"
 />
+
 # Change SQL Server Version, Edition
 ---
 {
@@ -18,6 +19,11 @@
     "subscriptionRequired": false,
     "title": "Change SQL Server Version, Edition",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+    "title": "Change SQL Server Version, Edition Troubleshooter",
+    "description": "Our Change SQL Server Version, Edition Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -53,7 +59,8 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "upgradeDowngrade",
@@ -82,7 +89,35 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "upgradeEdition",
+            "visibility": null,
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Are you interested in upgrade or downgrade?",
+            "watermarkText": "Choose an option",
+            "content": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Express to Developer",
+                    "value": "express_to_developer"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+             "visibility": "upgradeDowngrade == Upgrade && whichOption == SQLEdition",
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
