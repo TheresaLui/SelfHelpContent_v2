@@ -43,10 +43,12 @@ Solutions can be comprised of the following components. To format these solution
 -->
 
 ### Solution
-<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. Order your solutions in the body so the most common solutions are at the top. 
+<!--Level heading 3 required. Solutions can include diagnostics, procedures, videos, and inline images. 
+Order your solutions in the body so the most common solutions are at the top. 
 - If you have more than one solution, format them into sections, using the following heading:
    :::Section section_name:::
 - If you have more than five (5) sections, break your your content into multiple articles.
+- If you use section headings, omit any Head2s and headings (H2s, H3s). THE SECTION HEADING IS YOUR HEADING.->
 
 
 ### Procedures 
