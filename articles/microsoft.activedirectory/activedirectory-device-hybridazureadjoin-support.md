@@ -17,7 +17,7 @@
 
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
 
-**Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://gallery.technet.microsoft.com/Test-Device-Registration-3dc944c0)
+**Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/)
 
 ## **Recommended Steps**
 
