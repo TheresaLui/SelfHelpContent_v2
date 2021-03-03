@@ -1,4 +1,4 @@
-<properties  
+<properties
     pageTitle="I have an issue with my public IP"
     description="I have an issue with my public IP"
     service="microsoft.compute"
