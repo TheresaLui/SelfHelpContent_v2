@@ -97,7 +97,7 @@
             "visibility": null,
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you interested in upgrade or downgrade?",
+            "displayLabel": "What area do you need assistance troubleshooting?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
