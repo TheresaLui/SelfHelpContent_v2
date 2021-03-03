@@ -26,13 +26,13 @@
             "controlType": "textbox",
             "displayLabel": "Correlation ID",
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
         {
             "id": "tenant_id",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Customer's tenant ID",
+            "displayLabel": "Customer's Tenant ID",
             "useAsAdditionalDetails": false,
             "required": false
         },
@@ -40,7 +40,7 @@
             "id": "subscription_id",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Customer's Subscription No.",
+            "displayLabel": "Customer's Subscription ID",
             "useAsAdditionalDetails": false,
             "required": false
         },
@@ -48,7 +48,7 @@
             "id": "resource_id",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "Customer's Resource ID",
+            "displayLabel": "Customer's Azure Resource ID",
             "useAsAdditionalDetails": false,
             "required": false
         },
@@ -60,6 +60,32 @@
             "useAsAdditionalDetails": false,
             "required": false
         },
+
+        {
+            "id": "customer_impact",
+            "order": 8,
+            "controlType": "dropdownlist",
+            "displayLabel": "How many customers are impacted by this issue?",
+            "watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Just One",
+					"text": "Just one"
+				}, {
+					"value": "More than one but not all",
+					"text": "More than one but not all"
+				}, {
+					"value": "All customers",
+					"text": "All customers"
+				},  {
+					"value": "dont_know_answer",
+					"text": "Don't Know"
+				}
+			],
+			"required": true
+		}, 
+
+        
+        
         {
             "id": "problem_description",
             "order": 2,
@@ -77,4 +103,4 @@
         }
     ]
 }
----
+
