@@ -17,7 +17,7 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 # ExpressRoute Gateway CPU Utilization is high
 <!--issueDescription-->
-We have identified that your ExpressRoute gateway resource **[Gateway Name]** has recently experienced high CPU use. Your current gateway SKU might not be able to support the current workload. This may cause performance issues when you send traffic from your on-premises resources to virtual machines (VMs) on private endpoints in the Azure Virtual Network.
+We have identified that your ExpressRoute gateway resource '**<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->**' has recently experienced high CPU use. Your current gateway SKU might not be able to support the current workload. This may cause performance issues when you send traffic from your on-premises resources to virtual machines (VMs) on private endpoints in the Azure Virtual Network.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
