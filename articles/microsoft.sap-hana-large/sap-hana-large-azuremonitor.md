@@ -19,9 +19,9 @@
 
 ## **Recommended Documents**
 
-  * [How to monitor SAP HANA on Azure Large Instances](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/troubleshooting-monitoring)<br>
-  * [Overview: Azure monitor for SAP solutions](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-overview)
-  * [Overview: Azure monitor for SAP solutions providers](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-providers)
-  * [Quickstart: for SAP Solutions with Azure portal](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-sap-quickstart)
-  * [Quickstart: Deploy Azure Monitor for SAP Solutions with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-sap-quickstart-powershell)
-  * [Azure Monitor for SAP solutions FAQ](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-faq)
+* [How to monitor SAP HANA on Azure Large Instances](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/troubleshooting-monitoring)<br>
+* [Overview: Azure monitor for SAP solutions](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-overview)<br>
+* [Overview: Azure monitor for SAP solutions providers](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-providers)<br>
+* [Quickstart: for SAP Solutions with Azure portal](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-sap-quickstart)<br>
+* [Quickstart: Deploy Azure Monitor for SAP Solutions with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-sap-quickstart-powershell)<br>
+* [Azure Monitor for SAP solutions FAQ](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/azure-monitor-faq)<br>
