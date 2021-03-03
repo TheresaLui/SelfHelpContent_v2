@@ -15,10 +15,10 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-# ExpressRoute Gateway Has undergone host OS maintenance
+# ExpressRoute Gateway Has undergone Host OS maintenance
 <!--issueDescription-->
-We have identified that your ExpressRoute gateway resource **[Gateway Name]** has undergone OS maintenance within the last 30 days. The ExpressRoute gateway includes multiple instances, and one or more instances of your gateway resource is taken offline during maintenance. Although this may cause your gateway to temporarily support lower network throughput to the virtual network, the gateway itself will not experience any downtime.
-**[Gateway Update Data Table]**
+We have identified that your ExpressRoute gateway resource '**<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->**' has undergone OS maintenance within the last 30 days. The ExpressRoute gateway includes multiple instances, and one or more instances of your gateway resource is taken offline during maintenance. Although this may cause your gateway to temporarily support lower network throughput to the virtual network, the gateway itself will not experience any downtime.
+'**<!--$GatewayUpdateDataTable-->[GatewayUpdateDataTable]<!--/$GatewayUpdateDataTable-->**'
 <!--/issueDescription-->
 
 ## **Recommended Steps**
