@@ -26,15 +26,15 @@ When upgrading the service, you must also migrate the data in your existing acco
 
 ### Benefits of upgrading to version 4.0
 
-The following are the new features included in version 4.0:
-- Support for multi-document transactions within unsharded collections.
+Version 4.0 includes the following new features:
+- Support for multi-document transactions within unsharded collections
 - New aggregation operators
 - Enhanced scan performance
 - Faster, more efficient storage
 
 ### Benefits of upgrading to version 3.6
 
-The following are the new features included in version 3.6:
+Version 3.6 includes the following new features:
 - Enhanced performance and stability
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
@@ -46,9 +46,9 @@ The following are the new features included in version 3.6:
 
 ### Changes from previous engine versions
 
-- **RequestRateIsLarge errors have been disabled by default**. Requests from the client application will not return 16500 errors anymore. Instead requests will resume until they complete or fulfill the timeout. Disabling server-side retries will restore the old behavior.
-- Per request timeout is set to 60 seconds.
-- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default.
+- **RequestRateIsLarge errors have been disabled by default**. Requests from the client application will no longer return 16500 errors. Instead, requests will resume until they complete or fulfill the timeout. Disabling server-side retries will restore the old behavior.
+- Per request timeout is set to 60 seconds
+- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed, by default
 
 ## **Recommended Documents**
 
