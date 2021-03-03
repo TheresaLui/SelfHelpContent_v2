@@ -18,7 +18,7 @@
 
 # Cosmos DB MongoDB Indexing 
 
-Most users are able to resolve issues with MongoDB Indexing by using the steps below.
+Most users are able to resolve issues with MongoDB Indexing by using the following steps.
 
 
 ## **Recommended Steps**
@@ -32,19 +32,20 @@ Wildcard indexes don't support any of the following index types or properties:
 
 Unlike MongoDB, in Azure Cosmos DBs API for MongoDB, you can't use wildcard indexes for:
 
-Creating a wildcard index that includes multiple specific fields
+- Creating a wildcard index that *includes* multiple specific fields
 
-```
-db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection " : { "children.givenName" : 1, "children.grade" : 1 } } )
-```
+   ```
+   db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection " : { "children.givenName" : 1, "children.grade" : 1 } } )
+   ```
 
-Creating a wildcard index that excludes multiple specific fields
+- Creating a wildcard index that *excludes* multiple specific fields
 
-```
-db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection" : { "children.givenName" : 0, "children.grade" : 0 } } )
-```
+   ```
+   db.coll.createIndex( { "$**" : 1 }, { "wildcardProjection" : { "children.givenName" : 0, "children.grade" : 0 } } )
+   ```
 
 As an alternative, you can create multiple wildcard indexes.
+
 
 ## **Recommended Documents**
 
