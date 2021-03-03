@@ -6,7 +6,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="23"
-    selfHelpType="resource"
+    selfHelpType="generic"
     articleId="application-gateway-connection-timed-out-error"
     resourceTags=""
 	productPesIds="15922"
