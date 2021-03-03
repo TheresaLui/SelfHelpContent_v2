@@ -23,10 +23,10 @@
 	You can back up individual Key Vault objects, for example, Backup Key, Backup Secret, Backup Certificate, by [using Azure CLI](https://docs.microsoft.com/rest/api/keyvault/backupkey), [Using Powershell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/backup-azurekeyvaultkey?view=azurermps-6.13.0). The backup command backs up old versions of each secret. If you have a secret with a large number of previous versions (more than 10), the request size might exceed the allowed maximum and the operation might fail.
 
 * Moving Key Vault
-    - [Moving an Azure Key Vault across resource groups](https://docs.microsoft.com/azure/key-vault/general/keyvault-moveresourcegroup)
-    - [Moving an Azure Key Vault to another subscription](https://docs.microsoft.com/azure/key-vault/general/keyvault-move-subscription)
-    - [Moving an Azure key vault across regions](https://docs.microsoft.com/azure/key-vault/general/keyvault-moveregion)
-    - [Change a Key Vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/general/subscription-move-fix)
+    - [Moving an Azure Key Vault across resource groups](https://docs.microsoft.com/azure/key-vault/general/move-resourcegroup)
+    - [Moving an Azure Key Vault to another subscription](https://docs.microsoft.com/azure/key-vault/general/move-subscription)
+    - [Moving an Azure key vault across regions](https://docs.microsoft.com/azure/key-vault/general/move-region)
+    - [Change a Key Vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/general/move-subscription#additional-steps-when-subscription-is-in-a-new-tenant)
 
 * I have several (over 16) applications that need to access a key vault. How can I add multiple access policies?<br>
 
