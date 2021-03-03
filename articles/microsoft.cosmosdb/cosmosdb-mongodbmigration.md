@@ -30,9 +30,7 @@ To migrate data from MongoDB to an Azure Cosmos DB account for use with the API 
 **Note:** Throughput that you provision directly impacts the duration of migration. Consider increasing RUs during migration and scaling down after they complete. 
 
 ### **Updating MongoDB 3.2 to 3.6+**  
-
-**Important:**
-Although 3.6+ is generally compatible with 3.2, we recommend that you provision a new account through the portal for the purpose of trying out the MongoDB server version 3.6+  with your application on a dev or qa instance, before updating the account backing any production workload.
+Although 3.6+ is generally compatible with 3.2, we recommend that you provision a new account through the portal for the purpose of trying out the MongoDB server version 3.6+  with your application on a dev or qa instance, *before* you update the account backing any production workload.
 
 1. For existing accounts, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. The option, Upgrade to Mongo server (version number), should be visible. (If this option does not appear for your account, file a support ticket request.)  
 
