@@ -32,5 +32,5 @@ Client applications primarily connect with Azure Service Bus over the AMQP proto
 * [Check if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)<br>
 * [Azure service status site](https://azure.microsoft.com/status/)<br>
 * [Virtual Network service endpoints](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-service-endpoints)<br>
-* [Firewall - IP filtering](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-ip-filtering)
-* [Private endpoints](https://docs.microsoft.com/azure/service-bus-messaging/private-link-service)
+* [Firewall - IP filtering](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-ip-filtering)<br>
+* [Private endpoints](https://docs.microsoft.com/azure/service-bus-messaging/private-link-service)<br>
