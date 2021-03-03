@@ -32,7 +32,7 @@ It can take up to **five-minutes** for changes to the Azure Database for Postgre
 
 ### Are your errors related to firewall rules and connectivity?
 
-* Make sure you specified the user name in the correct format: `username&your_postgres_server_name`; e.g. user@server1
+* Make sure you specified the user name in the correct format: `username@your_postgres_server_name`. For example, `user@server1`
 * Make sure your security credentials are valid in case you are seeing authentication errors
 * Make sure that you specified the correct database name 
 
