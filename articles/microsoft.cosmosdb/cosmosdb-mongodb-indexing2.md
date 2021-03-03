@@ -30,7 +30,7 @@ Wildcard indexes don't support any of the following index types or properties:
 - TTL
 - Unique
 
-Unlike MongoDB, in Azure Cosmos DBs API for MongoDB, you can't use wildcard indexes for:
+Unlike MongoDB, in Azure Cosmos DBs API for MongoDB you can't use wildcard indexes for:
 
 - Creating a wildcard index that *includes* multiple specific fields
 
