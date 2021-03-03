@@ -36,7 +36,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 
 <!--additionalInfo-->
 ### **Additional Information**
-> Customers can control the distribution of their VMs that are at risk of impact from a single infrastructure failure, like in this case. For more details, please see: https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability. Configure [Service Health Alerts](https://docs.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal) to recieve advanced notification of planned updates.
+> Customers can control the distribution of their VMs that are at risk of impact from a single infrastructure failure, like in this case. For more details, see: https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability. Configure [Service Health Alerts](https://docs.microsoft.com/azure/service-health/alerts-activity-log-service-notifications-portal) to receive advanced notification of planned updates.
 > 
 <!--/additionalInfo-->
 <!--/rcaDescription-->
