@@ -21,10 +21,11 @@ Virtual Network (VNet) service endpoints and rules extend the private address sp
 
 ## **Recommended steps**
 
-* Are you trying to use VNet service endpoints for a Basic tier server?
-    * The Basic tier does not support VNet service endpoints.Ensure that your Azure Database for PostgreSQL - Single server is deployed in General Purpose and Memory Optimized servers. 
-* Are you troubleshooting a private connection between Azure resources in different Azure subscriptions?
-    * If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered.
+**Are you trying to use VNet service endpoints for a Basic tier server?**
+<br>The Basic tier does not support VNet service endpoints.Ensure that your Azure Database for PostgreSQL - Single server is deployed in General Purpose and Memory Optimized servers. 
+
+**Are you troubleshooting a private connection between Azure resources in different Azure subscriptions?**
+<br>If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active directory tenant and both of them have **Microsoft.SQL** resource provider registered.
 
 ## **Recommended documents**
 
