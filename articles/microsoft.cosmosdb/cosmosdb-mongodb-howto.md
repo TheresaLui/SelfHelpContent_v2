@@ -17,7 +17,7 @@
 />
 
 # MongoDB - How-to
-
+ 
 Most users are able to resolve their Cosmos DB related MongoDB How-to questions or issues using the steps below.  
 
 ### **Migrating MongoDB Data to Cosmos DB**  
