@@ -31,13 +31,15 @@ To migrate data from MongoDB to an Azure Cosmos DB account for use with the API 
 
 ### **Updating MongoDB 3.2 to 3.6+**  
 
-For existing accounts, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. The option, Upgrade to Mongo server (version number), should be visible. 
-- Option not visible: If this option does not appear for your account, file a support ticket request.  
-- Option is visible: If the option is enabled for you, click **Enable** to start the update. The update status will show as **Pending** in the features list for up to 15min. When the update has completed, the account will show new connection strings in the portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
+**Important:**
+Although 3.6+ is generally compatible with 3.2, we recommend that you provision a new account through the portal for the purpose of trying out the MongoDB server version 3.6+  with your application on a dev or qa instance, before updating the account backing any production workload.
+
+1. For existing accounts, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. The option, Upgrade to Mongo server (version number), should be visible. (If this option does not appear for your account, file a support ticket request.)  
+
+2. Select **Enable** to start the update. 
+   The update status will show as **Pending** in the features list for up to 15min. When the update has completed, the account will show new connection strings in the portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
 
 **Note:** What appears in the portal might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.  
-
-**Important Note:** Although 3.6+ is generally compatible with 3.2, we recommend that a customer provisions a new account through the portal and selects the MongoDB server version 3.6+ to try it out with their application on a dev or qa instance, before considering updating the account backing any production workload.
 
 
 ### **Connecting to 3.6+ after migration**
