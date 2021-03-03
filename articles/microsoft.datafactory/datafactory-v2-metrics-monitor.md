@@ -19,8 +19,8 @@
 
 * __Notes__ on Azure Data Factory - Log Analytics integration: <br>
 
-    1. There is [a known limitation in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs-collect-workspace#known-limitation-column-limit-in-azurediagnostics) that a log table cannot have more than 500 columns <br>
-    1. To address any problems with Log Analytics, we _strongly_ recommend users [configure diagnostic settings](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#configure-diagnostic-settings-and-workspace) to _Resource-Specific_ mode instead of _Azure-Diagnostics_ mode
+    * There is [a known limitation in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs-collect-workspace#known-limitation-column-limit-in-azurediagnostics) that a log table cannot have more than 500 columns <br>
+   * To address any problems with Log Analytics, we _strongly_ recommend users [configure diagnostic settings](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#configure-diagnostic-settings-and-workspace) to _Resource-Specific_ mode instead of _Azure-Diagnostics_ mode
 
 * __Notes__ on Log Analytics tables: <br>
 
