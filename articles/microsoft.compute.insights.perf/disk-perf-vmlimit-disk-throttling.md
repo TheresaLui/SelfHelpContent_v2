@@ -10,7 +10,7 @@
     articleId="diskthrottling-vmlimit"
     diagnosticScenario="Recent instances of VM reaching disk IO limits detected"
     selfHelpType="diagnostics"
-    supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
+    supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527,32740099,32748893,32740104,32740098,32740064"
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public, Fairfax, usnat, ussec"
