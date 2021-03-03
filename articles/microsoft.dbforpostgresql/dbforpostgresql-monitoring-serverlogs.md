@@ -29,22 +29,19 @@ Most users are able to resolve their issue using the steps below.
 
 - Review how to [configure server logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs).
 - Familiarize yourself with the [log parameters](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/how-to-configure-postgres-log-settings/ba-p/1214716).
-- Consider performance consequences of logging. Verbose logging will cause a significant performance overhead. We recommend that you only use statement logging parameters like `log_statement` and `log_min_duration_statement` for short periods of troubleshooting. 
-
-**Note:** Access to transaction logs is not available.
-
-There are two main ways logs can be consumed in Azure Database for PostgreSQL - Single server: 
-* As `.log` files
-* Through Azure diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
+- Consider performance consequences of logging. Verbose logging will cause a significant performance overhead. We recommend that you only use statement logging parameters like `log_statement` and `log_min_duration_statement` for short periods of troubleshooting. Note that access to transaction logs is not available.
+- There are two main ways logs can be consumed in Azure Database for PostgreSQL - Single server: 
+   * As log (`.log`) files
+   * Through Azure diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
 
 
 ### .log files
 
 **Do you need to find out what is the format of .log files?**
-Log `.log` files provide short-term storage for logs in a CSV-like format. This is the default log option in Azure Database for PostgreSQL - Single server.
+Log files provide short-term storage for logs in a CSV-like format. This is the default log option in Azure Database for PostgreSQL - Single server.
 
 **Are you looking for information on log rotation?**<br>
-The .log files rotate every hour or when it reaches 100 MB in size, whichever comes first
+Log files rotate every hour or when it reaches 100 MB in size, whichever comes first
 
 **Are you troubleshooting or tuning log retention?**<br>
 - The maximum storage for .log files, per server, is 1 GB. Oldest logs are deleted to make room for new logs.
