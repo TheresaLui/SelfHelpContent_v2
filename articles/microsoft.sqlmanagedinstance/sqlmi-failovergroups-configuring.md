@@ -28,7 +28,7 @@ Before creating failover group(s), it is critical to consider the following prer
 - The two instances of SQL Managed Instance need to be the same service tier, and have the same storage size
 - Your secondary instance of SQL Managed Instance must be empty (no user databases)
 - The virtual networks used by the instances of SQL Managed Instance need to be connected through a VPN Gateway or Express Route. When two virtual networks connect through an on-premises network, ensure there is no firewall rule blocking ports 5022, and 11000-11999. Global VNet Peering is supported with the limitation described in the note below.
-    - [On 9/22/2020 we announced global virtual network peering for newly created virtual clusters](https://azure.microsoft.com/en-us/updates/global-virtual-network-peering-support-for-azure-sql-managed-instance-now-available/). That means that global virtual network peering is supported for SQL Managed Instances created in empty subnets after the announcement date, as well for all the subsequent managed instances created in those subnets. 
+    - [On 9/22/2020 we announced global virtual network peering for newly created virtual clusters](https://azure.microsoft.com/updates/global-virtual-network-peering-support-for-azure-sql-managed-instance-now-available/). That means that global virtual network peering is supported for SQL Managed Instances created in empty subnets after the announcement date, as well for all the subsequent managed instances created in those subnets. 
 
 - The two SQL Managed Instance VNets cannot have overlapping IP addresses
 - You need to set up your Network Security Groups (NSG) such that ports 5022 and the range 11000~12000 are open inbound and outbound for connections from the subnet of the other managed instance. This is to allow replication traffic between the instances. 
@@ -54,15 +54,15 @@ Read-write and read-only listeners are DNS CNAME records that points to the curr
 - The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.<zone_id>.database.windows.net`
 - The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.secondary.<zone_id>.database.windows.net`
 
-## **Common errors when configuring failover group first time** 
+### **Common errors when configuring failover group first time** 
 
-1. **“Replication to the partner managed instance could not be established. Verify that connectivity between the Virtual Networks of the primary and secondary managed servers has been established correctly according to guidelines in https://aka.ms/instanceFailoverGroups.”**
+1. **“Replication to the partner managed instance could not be established. Verify that connectivity between the Virtual Networks of the primary and secondary managed servers has been established correctly according to guidelines...”**
     
     Please verify if NSG, firewall, VNET connectivity are set properly following **Recommended Steps** part. 
 
 2. **Unable to select secondary managed instance when adding failover group on Azure Portal**
 
-    This is usually caused by DNS zone ID mismatch. Please ensure you deploy secondary managed instance under same DNS zone ID following [Create a secondary managed instance](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal#create-a-secondary-managed-instance).  
+    This is usually caused by DNS zone ID mismatch. Please ensure you deploy secondary managed instance under same DNS zone ID following [Create a secondary managed instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal#create-a-secondary-managed-instance).  
 
 ## **Recommended Documents**
 
