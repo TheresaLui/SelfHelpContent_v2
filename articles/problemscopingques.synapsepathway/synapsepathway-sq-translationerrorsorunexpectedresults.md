@@ -59,7 +59,7 @@
         {
             "id": "problem_description",
             "order": 5,
-            "required": false,
+            "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",
