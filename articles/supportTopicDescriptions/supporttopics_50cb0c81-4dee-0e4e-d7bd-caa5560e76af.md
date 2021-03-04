@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a28bc3fa-289c-52af-c572-a6d3fadde3b6",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, updating, or managing private link service",
+      "searchTags": "setup private link service",
+      "category": "CRUD",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4db8509-8e84-3c1c-777e-5a61e02cc18c",
       "longDescription": "",
       "shortDescription": "The reference to your own service that is powered by Azure Private Link",
