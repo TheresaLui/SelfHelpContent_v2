@@ -14,7 +14,7 @@
 
 ### Allow Microsoft Defender for Endpoint to access your data
 
-Onboarding to "Microsoft Defender for Endpoint" previously known as "Microsoft Defender Advanced Threat Protection" (MDATP): Azure Security Center is extending its Cloud Workload Protection Platforms offering by integrating with [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender).
+Onboarding to Microsoft Defender for Endpoint (previously known as *Microsoft Defender Advanced Threat Protection (MDATP)*): Azure Security Center is extending its Cloud Workload Protection Platforms offering by integrating with [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender).
 
 These capabilities are available for Azure Defender (Security Center Standard pricing tier) customers at no extra charge:
 
@@ -25,12 +25,13 @@ These capabilities are available for Azure Defender (Security Center Standard pr
 To onboard servers to Security Center:
 
 1. Make sure that the subscription has Azure Defender enabled (previously known as Security Center standard pricing tier)
-1. Make sure that in Pricing & Settings -> Threat detection -> Enable integrations are checked:
-- Allow Microsoft Cloud App Security to access my data
-- Allow Microsoft Defender for Endpoint to access my data  
-**Note:** Both of the above are selected by default
-2. Make sure all required workspaces under the subscription, both default and user workspaces, are [Azure defender enabled](https://docs.microsoft.com/azure/security-center/security-center-pricing#enable-azure-defender)
-3. To verify that the workspace is eligible check that 'Security' solution is enabled on that workspace
+1. Go to **Pricing & Settings** > **Threat detection** > **Enable integrations** to make sure that these settings are selected:
+   - **Allow Microsoft Cloud App Security to access my data**
+   - **Allow Microsoft Defender for Endpoint to access my data**  
+   **Note:** Both are selected by default
+
+2. Make sure that all required workspaces under the subscription, both default and user workspaces, are [Azure defender enabled](https://docs.microsoft.com/azure/security-center/security-center-pricing#enable-azure-defender)
+3. To verify that the workspace is eligible, ensure that **Security** solution is enabled on that workspace
 4. Onboarding for the first time can take up to 48 hours
 
 ### Allow Microsoft Cloud App Security to access your data
@@ -39,9 +40,9 @@ Azure Security Center partners with Microsoft Cloud App Security to bring you al
 
 ### Disabling threat detection alerts
 
-1. In Security Center portal go to Pricing & Settings -> Threat detection 
+1. In the Azure Security Center portal, go to **Pricing & Settings** > **Threat detection** 
 2. Un-check the required checkbox
-3. Click **Save**
+3. Select **Save**
 
 ## **Recommended Documents**
 
