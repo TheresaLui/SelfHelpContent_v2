@@ -13,6 +13,8 @@
   ownershipid="AzureIdentity_B2C" />
 # Business to Consumer (B2C)
 
+Resolve many common Active Directory (AD) Business to Consumer (B2C) issues with the following information.
+
 ## **Recommended Steps**
 
 ### **Password reset link is not working**
