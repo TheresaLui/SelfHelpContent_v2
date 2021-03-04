@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d1e12d3c-7ccb-30cc-f347-e2b0648300a8",
+      "longDescription": "",
+      "shortDescription": "Network interface that connects you privately and securely to a service",
+      "searchTags": "first party;private endpoint;private IP;NIC",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d44c1c68-c5dd-93d3-f3ed-80de7de84dda",
       "longDescription": "",
       "shortDescription": "Questions about Network security groups or Application security groups",
