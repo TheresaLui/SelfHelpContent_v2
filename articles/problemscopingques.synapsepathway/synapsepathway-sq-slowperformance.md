@@ -51,8 +51,8 @@
             "id": "script_total_size",
             "order": 4,
             "required": false,
-            "controlType": "textbox",
-            "displayLabel": "What is the total size of the source scripts?",
+            "controlType": "numerictextbox",
+            "displayLabel": "What is the total size (KB) of the source scripts?",
             "watermarkText": "",
             "infoBalloonText": ""
         },
@@ -60,7 +60,7 @@
             "id": "script_total_files",
             "order": 5,
             "required": false,
-            "controlType": "textbox",
+            "controlType": "numerictextbox",
             "displayLabel": "What is the total number of source scripts?",
             "watermarkText": "",
             "infoBalloonText": ""
