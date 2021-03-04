@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "17cc178e-6568-58eb-9a48-7e3ebd1f6a85",
+      "longDescription": "",
+      "shortDescription": "Help troubleshoot issues with device network port configuration",
+      "searchTags": "Network Setup;Network ports",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e269913-55f4-1d9e-c493-0d82a1afa5cb",
       "longDescription": "",
       "shortDescription": "Help check if device specifications does not match the order",
