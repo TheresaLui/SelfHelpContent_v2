@@ -28,7 +28,7 @@ which documents the fix.
 
 - **Set up SQL Server Auditing**
 
-  To enable auditing in SQL Server, you must create the **[Server Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15)** and **[Database Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification?view=sql-server-ver15)**. In "Server Audit", you can set the destination of the audit and the action when it is not available to write to the audit. The Server Audit Specification specifies the server-level actions that you want to audit. Database Audit Specification specifies the database-level action of the action to audit.
+  To enable auditing in SQL Server, you must create the **[Server Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15)** and **[Database Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification?view=sql-server-ver15)**. In **Server Audit**, you can set the destination of the audit and the action when it is not available to write to the audit. The Server Audit Specification specifies the server-level actions that you want to audit. Database Audit Specification specifies the database-level action of the action to audit.
 
 - **SQL Threat Detection/Vulnerability Assessments/Azure Defender for SQL Audits Generating errors** 
 
