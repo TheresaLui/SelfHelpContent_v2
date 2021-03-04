@@ -35,7 +35,7 @@
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",
+            "watermarkText": "Provide additional information about your issue (include error message and steps to reproduce, if applicable)",
             "infoBalloonText": "",
             "useAsAdditionalDetails": true
         }

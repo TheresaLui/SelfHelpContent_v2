@@ -30,17 +30,8 @@
             "infoBalloonText": ""
         },
         {
-            "id": "error_message",
-            "order": 2,
-            "required": false,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If an error was displayed, what was the error message",
-            "watermarkText": "Error message",
-            "infoBalloonText": ""
-        },
-        {
             "id": "is_reproducible",
-            "order": 3,
+            "order": 2,
             "required": false,
             "controlType": "radioButtonGroup",
             "displayLabel": "Is the problem reproducible?",
@@ -58,11 +49,11 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",
+            "watermarkText": "Provide additional information about your issue (include error message and steps to reproduce, if applicable)",
             "infoBalloonText": "",
             "useAsAdditionalDetails": true
         }

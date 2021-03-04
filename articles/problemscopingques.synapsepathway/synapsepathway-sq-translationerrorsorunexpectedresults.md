@@ -35,7 +35,7 @@
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the source database system?",
-            "watermarkText": "",
+            "watermarkText": "Ex: IBM Netezza, Microsoft SQL Server, Snowflake, etc.",
             "infoBalloonText": ""
         },
         {
@@ -44,25 +44,16 @@
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the version of the source database system?",
-            "watermarkText": "",
-            "infoBalloonText": ""
-        },
-        {
-            "id": "error_message",
-            "order": 4,
-            "required": false,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If an error was displayed, what was the error message",
-            "watermarkText": "Error message",
+            "watermarkText": "Ex: 7.2, 2019, 4.32",
             "infoBalloonText": ""
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",
+            "watermarkText": "Provide additional information about your issue (include error message and steps to reproduce, if applicable)",
             "infoBalloonText": "",
             "useAsAdditionalDetails": true
         }
