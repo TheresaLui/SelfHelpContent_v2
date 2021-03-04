@@ -35,7 +35,7 @@
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the source database system?",
-            "watermarkText": "Ex: IBM Netezza, Microsoft SQL Server, Snowflake, etc.",
+            "watermarkText": "Ex: IBM Netezza, Microsoft SQL Server, Snowflake",
             "infoBalloonText": ""
         },
         {

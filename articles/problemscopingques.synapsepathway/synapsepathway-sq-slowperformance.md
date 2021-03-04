@@ -35,7 +35,7 @@
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the source database system?",
-            "watermarkText": "",
+            "watermarkText": "Ex: IBM Netezza, Microsoft SQL Server, Snowflake",
             "infoBalloonText": ""
         },
         {
@@ -44,7 +44,7 @@
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the version of the source database system?",
-            "watermarkText": "",
+            "watermarkText": "Ex: 7.2, 2019, 4.32",
             "infoBalloonText": ""
         },
         {
