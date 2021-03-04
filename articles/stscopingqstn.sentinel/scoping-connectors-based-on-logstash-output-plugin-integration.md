@@ -23,13 +23,13 @@
                 "id": "LSConfig",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Logstash configuration",
+                "displayLabel": "Provide the Logstash configuration",
                 "required": true
 				 },{
 				"id": "AnyIssue",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "Please provide the Logstash log",
+                "displayLabel": "Provide the Logstash log",
                 "required": false
 				 },{
 				"id": "problem_description",
