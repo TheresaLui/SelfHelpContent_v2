@@ -19,7 +19,7 @@
 
 ### Resolve problems with the [Sign-in Diagnostic]
 
-You can quickly find out what happened or diagnose problems related to user sign-in by using the \[Sign-in Diagnostic\](data-blade:Microsoft_AAD_IAM.ActiveDirectoryMenuBlade.assetId.ms_aad_dxp_signin_caDiagnoseAndSolveSummarySymptom)
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose)
 
 1. Launch the Sign-in Diagnostic.
 2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
