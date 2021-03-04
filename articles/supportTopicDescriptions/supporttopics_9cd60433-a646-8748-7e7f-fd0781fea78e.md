@@ -33,7 +33,7 @@
     {
       "id": "034610b7-e093-dbd9-0f6f-21cc7829bd45",
       "longDescription": "",
-      "shortDescription": "Having issues while using the Investigation feature",
+      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents and adding comments",
       "searchTags": "issues;investigation",
       "category": "Incidents",
       "useInDiagnoseAndSolve": "true"
