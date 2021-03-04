@@ -77,6 +77,14 @@
       "searchTags": "kerberos;nfsv4.1",
       "category": "Security",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "bc46f0e5-1edc-b570-85db-f6f12d7a3629",
+      "longDescription": "",
+      "shortDescription": "Resolving issues with provisioning, mounting or managing your SMB, NFS or Dual Protocol Volumes.",
+      "searchTags": "mount;export;resize;connect",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
