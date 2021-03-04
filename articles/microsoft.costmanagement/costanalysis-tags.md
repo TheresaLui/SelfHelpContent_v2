@@ -13,9 +13,9 @@
   ownershipid="ASMS_Billing" />
 # Tags I have set on resources are missing from Cost Management, can you explain why?
 
-Most taggable Azure services, emit tags to the Cost Management platform. However, a few services are yet to complete this work <br>  
+Most taggable Azure services emit tags to the Cost Management platform. However, a few services are yet to complete this work.<br>  
  
-The following services don’t emit tags yet to the Cost Management platform:
+The following services don’t yet emit tags to the Cost Management platform:
 
 * Azure Active Directory Domain Services
 * Azure Bastion
@@ -28,7 +28,7 @@ The following services don’t emit tags yet to the Cost Management platform:
 * Notification Hub
 * Virtual WAN
 
-This is work in progress and we will update this list if any change occurs <br>
+This is work in progress. We will update this list as changes occur. <br>
 
 
 ## **Recommended Documents**
