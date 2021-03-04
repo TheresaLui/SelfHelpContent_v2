@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "478d9450-82b7-c71a-5ca1-623ba28a5550",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, updating, or managing private endpoint",
+      "searchTags": "create private endpoint;update private endpoint",
+      "category": "CRUD",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e923c00-cbfb-a2cb-49ad-cf2ab3d248eb",
       "longDescription": "",
       "shortDescription": "Issues with PLS Application Insights",
