@@ -44,6 +44,14 @@
       "searchTags": "synapse;pathway;performance;slow;hang",
       "category": "Azure Synapse Pathway",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f4ed232b-ee84-22df-7d19-822edf203638",
+      "longDescription": "",
+      "shortDescription": "Problems or questions found during the installation of Azure Synapse Pathway application.",
+      "searchTags": "installation;synapse;pathway",
+      "category": "Azure Synapse Pathway",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
