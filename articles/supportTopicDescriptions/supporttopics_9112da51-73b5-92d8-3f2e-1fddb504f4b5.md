@@ -7,19 +7,20 @@
   productpesids="9112da51-73b5-92d8-3f2e-1fddb504f4b5"
   cloudenvironments=""
   disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
-  articleid="supporttopics_9112da51-73b5-92d8-3f2e-1fddb504f4b5" />
+  articleid="supporttopics_9112da51-73b5-92d8-3f2e-1fddb504f4b5"
+  ownershipid="AzureData_SynapseAnalytics" />
 # Support Topic Descriptions for 9112da51-73b5-92d8-3f2e-1fddb504f4b5
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Issues or questions related to Azure Synapse Pathway product.",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/sql/tools/synapse-pathway/azure-synapse-pathway-overview?view=azure-sqldw-latest",
+  "productLinkName1": "Azure Synapse Pathway",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "8200f05b-e3e9-3378-8cda-abc8ebd15f6e",
