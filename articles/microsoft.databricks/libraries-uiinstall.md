@@ -23,7 +23,7 @@ Support might ask you to engage other channels for open-source technologies wher
 
 ## **Recommended Steps**
 
-**Problem:** After installing PyPMML in a Azure Databricks cluster, it fails with a error `Py4JError: Could not find py4j jar`  
+**Issue:** After installing PyPMML in a Azure Databricks cluster, it fails with a error "Py4JError: Could not find py4j jar".
 **Solution:** Follow the [steps here](https://docs.microsoft.com/azure/databricks/kb/libraries/pypmml-fail-find-py4j-jar#solution) to resolve this issue.
 
 ## **Recommended Documents**
