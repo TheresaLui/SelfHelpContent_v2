@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53c9538c-bbff-427a-a7ae-c50dcc75af77",
+      "longDescription": "",
+      "shortDescription": "Unable to delete private link resource ",
+      "searchTags": "delete private endpoint;remove",
+      "category": "CRUD",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6503bf00-bff1-7033-d821-4de5105daa20",
       "longDescription": "",
       "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
