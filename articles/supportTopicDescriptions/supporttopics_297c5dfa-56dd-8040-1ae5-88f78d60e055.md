@@ -61,6 +61,14 @@
       "searchTags": "Device ordering;Track Return",
       "category": "Ordering",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eac77c27-7f79-7327-5a5c-24d67bc4be14",
+      "longDescription": "",
+      "shortDescription": "Help configure device network settings including IP addresses",
+      "searchTags": "Network settings;DHCP;IP Settings",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
