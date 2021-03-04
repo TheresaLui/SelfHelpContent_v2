@@ -28,6 +28,14 @@
       "searchTags": "synapse;pathway;ui;ux;user interface",
       "category": "Azure Synapse Pathway",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "96822433-7908-3859-8eaa-53b4fc11a2a2",
+      "longDescription": "",
+      "shortDescription": "An error message is shown while using Synapse Pathway. Crash or unexpected application behavior.",
+      "searchTags": "synapse;pathway;error;crash;failure",
+      "category": "Azure Synapse Pathway",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
