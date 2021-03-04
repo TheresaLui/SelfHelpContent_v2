@@ -1,0 +1,93 @@
+<properties
+    schemaVersion = "1"
+    selfHelpType = "problemScopingQuestions"
+    cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
+    ownershipId = "AzureData_SynapseAnalytics"
+    productPesIds = "17487"
+    supportTopicIds = "32788657"
+    pageTitle = "Slow performance"
+    description = "Slow performance"
+    articleId = "synapsepathway-sq-slowperformance.md"
+    ms.author = "goventur"
+/>
+
+# Slow performance
+
+---
+{
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": false,
+    "resourceRequired": false,
+    "fileAttachmentHint": "",
+    "title": "Slow performance",
+    "formElements": [
+        {
+            "id": "source_db_system",
+            "order": 1,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the source database system?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "source_db_version",
+            "order": 2,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the version of the source database system?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "script_total_size",
+            "order": 3,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the total size of the source scripts?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "script_total_files",
+            "order": 4,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the total number of source scripts?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "is_reproducible",
+            "order": 5,
+            "required": false,
+            "controlType": "radioButtonGroup",
+            "displayLabel": "Is the problem reproducible?",
+            "radioButtonOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                }, {
+                    "value": "No",
+                    "text": "No"
+                }, {
+                    "value": "N/A",
+                    "text": "N/A"
+                }
+            ],
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "required": false,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",
+            "infoBalloonText": "",
+            "useAsAdditionalDetails": true
+        }
+    ]
+}
+---
+
+
+
