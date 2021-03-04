@@ -105,8 +105,8 @@
     {
       "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
       "longDescription": "",
-      "shortDescription": "Questions on assessment recommendations ",
-      "searchTags": "Compute cost;Cost analysis;Performance data",
+      "shortDescription": "Issues faced after successfully creating an Azure VM or an Azure VMware Solution(AVS) assessment. ",
+      "searchTags": "Cost analysis;Performance data;Assessment;Confidence rating;VM size",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
