@@ -223,6 +223,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43baed3d-3abf-a921-93f8-b6e98c537028",
+      "longDescription": "",
+      "shortDescription": "Hunting, Watchlist, Bookmarks and Notebooks",
+      "searchTags": "Hunting;Watchlist;Bookmarks ;Notebooks",
+      "category": "Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4c5c911b-a3f0-e3a2-8816-e6a7b7a039e7",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
