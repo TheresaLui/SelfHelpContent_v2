@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "4c0ca5f4-bd9d-524e-ae07-097912e45357",
+      "longDescription": "",
+      "shortDescription": "Help directly request a device return ",
+      "searchTags": "Device Return",
+      "category": "Ordering",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d40a3c20-ba42-b1cf-780e-b7e31dc58c1c",
       "longDescription": "",
       "shortDescription": "Help with download and installing the device level updates",
