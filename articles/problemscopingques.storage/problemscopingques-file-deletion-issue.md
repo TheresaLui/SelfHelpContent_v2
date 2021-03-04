@@ -52,7 +52,7 @@
         },
         {
             "id": "file_share_or_path",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "File path",
             "watermarkText": "Please enter full path for file that cannot be deleted - FileShare/Folder/FileName",
@@ -61,7 +61,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true,
@@ -69,7 +69,7 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
