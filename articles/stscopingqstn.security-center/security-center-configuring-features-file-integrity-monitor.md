@@ -11,7 +11,9 @@
   ownershipid="Azure_Security_Security_Center" />
 # Security Center File Integrity Monitor self-help guide
 
-**Note:** FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
+FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
+
+Resolve issues with Security Center File Integrity Monitor using the following information. 
 
 ## Azure Security Center File Integrity monitor Configuration failure
 
@@ -24,13 +26,15 @@ If one of these two solutions are not enabled on the workspace solution list, go
 
 ### Azure Security Center File Integrity monitor - FIM false report
 
-To check if the false reporting is a UI issue or change tracking issue, you need to open Log Analytics workspace -> Logs and run this query:
+To check if the false reporting is a UI issue or change tracking issue, you need to open **Log Analytics workspace** > **Logs** and run this query:
 
+```
     ConfigurationChange
     | where Computer == "Your_VM_Name"
     | where ConfigChangeType in("Files", "Registry")
     | order by TimeGenerated
     | render table
+```
 
 If you don't see the results in the workspace, contact our support.  
 
