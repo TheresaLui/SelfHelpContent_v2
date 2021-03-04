@@ -11,7 +11,7 @@
   ownershipid="Azure_Security_Security_Center" />
 # Azure Security Center Data and Storage SQL Common Solutions
 
-SQL Advanced Threat Protection (ATP) provides a single go-to location for discovering, classifying and protecting sensitive data, managing your database vulnerabilities, and detecting anomalous activities that could indicate a threat to the database. You can enable ATP on your entire database server and apply to all databases on the server.
+SQL Advanced Threat Protection (ATP) provides a single go-to location for discovering, classifying and protecting sensitive data, managing your database vulnerabilities, and detecting anomalous activities that could indicate a threat to the database. You can enable ATP on your entire database server, and apply it to all databases on the server.
 
 SQL Vulnerability Assessment has some new and valuable capabilities:
 
