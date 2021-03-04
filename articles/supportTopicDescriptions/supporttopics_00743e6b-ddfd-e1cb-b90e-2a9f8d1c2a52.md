@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "27ef3d05-b313-aa8f-b989-499b61b4ccc9",
+      "longDescription": "",
+      "shortDescription": "Issues with using cross-region replication or snapshot for data protection",
+      "searchTags": "replication;snapshot",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a7780280-b500-cefb-9a06-61b31715d66b",
       "longDescription": "",
       "shortDescription": "Issues with NFSv4.1 Kerberos volumes such as authentication or mounting failures",
