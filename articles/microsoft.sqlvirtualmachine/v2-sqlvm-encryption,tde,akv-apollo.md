@@ -83,7 +83,7 @@
 ###  What version or edition of SQL Server Supports TDE/Always Encrypted
 - You can check [what features are supported under what version/edition of SQL Server here](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-ver15)
 
-:::Section Failed to enable AKV from SQL VM Resource:::
+:::Section Failed to enable AKV from SQL IaaS Extension/SQL VM Resource:::
 ###  Failed to enable AKV integration from SQL Virtual Machine Resource on Azure portal
 -  Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your VM
 -  Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
@@ -104,7 +104,7 @@
 
 :::Section Restore TDE enabled database:::
 
-###  Restore TDE Enabled Database
+###  Restore TDE Enabled Database Procedure
 - To restore a backup encrypted with a TDE protector from Key Vault, make sure that the key is available to the target server. Therefore, we recommend that you keep all the old versions of the TDE protector in key vault, so database backups can be restored. Please [review the process here](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=sql-server-2017#database-backup-and-restore-with-customer-managed-tde
 ). You might get **401 error** in application log if your client secret is expired. Renew it and alter the credential with new secret to finish the restore successfully.
 
