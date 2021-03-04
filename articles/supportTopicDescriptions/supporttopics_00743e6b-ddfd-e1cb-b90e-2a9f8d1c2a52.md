@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4935a775-932c-741a-1541-02c7b8105d48",
+      "longDescription": "",
+      "shortDescription": "Issues with creating or deleting your NetApp account or configuring virtual network (subnet)",
+      "searchTags": "account;subnet",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "527f4a0d-fb46-f320-ddc7-b5cc31c22556",
       "longDescription": "",
       "shortDescription": "Resolving issues with managing Capacity Pool such as creating, deleting, resizing or moving volumes ",
