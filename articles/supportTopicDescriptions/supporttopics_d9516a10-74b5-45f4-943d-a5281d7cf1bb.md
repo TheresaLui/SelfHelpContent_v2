@@ -1138,6 +1138,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d3d43414-a453-7d4c-0509-902e61d61e6f",
+      "longDescription": "",
+      "shortDescription": "Azure Monitoring set of metrics using Portal Insights and Workbooks",
+      "searchTags": "monitoring;workbooks;portal insight;metrics",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d535fa83-dc43-4def-6f84-e33248612f9c",
       "longDescription": "",
       "shortDescription": "How to guidance for Cosmos DB MongoDB API",
