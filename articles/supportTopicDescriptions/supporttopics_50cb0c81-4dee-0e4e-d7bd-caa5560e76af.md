@@ -124,6 +124,14 @@
       "searchTags": "limitations;limits",
       "category": "Advisory",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fee5f1a6-43dd-bd38-cce1-dd735404c80f",
+      "longDescription": "",
+      "shortDescription": "Understanding private link best practices and getting started guide",
+      "searchTags": "questions about private link;get started",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
