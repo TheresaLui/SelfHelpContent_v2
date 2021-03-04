@@ -21,6 +21,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "a7780280-b500-cefb-9a06-61b31715d66b",
+      "longDescription": "",
+      "shortDescription": "Issues with NFSv4.1 Kerberos volumes such as authentication or mounting failures",
+      "searchTags": "kerberos;nfsv4.1",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    }
+  ]
 }
 ---
