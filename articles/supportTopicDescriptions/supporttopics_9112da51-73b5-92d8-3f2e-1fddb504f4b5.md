@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "2f64ce77-9c7e-346a-db69-9d5c374518cd",
+      "longDescription": "",
+      "shortDescription": "Problems or questions found during report generation.",
+      "searchTags": "pathway;synapse;reports;generation",
+      "category": "Azure Synapse Pathway",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8200f05b-e3e9-3378-8cda-abc8ebd15f6e",
       "longDescription": "",
       "shortDescription": "Problems found or questions related to the Azure Synapse Pathway user interface or experience.",
