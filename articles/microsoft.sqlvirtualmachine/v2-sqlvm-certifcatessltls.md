@@ -13,32 +13,32 @@
   ownershipid="AzureData_AzureSQLVM" />
 # Certificate Management, SSL and TLS
 
-4 out of 5 customers were able to resolve issues with Certificates, SSL and TLS by using the following steps. 
+Most customers are able to resolve issues with SSL and TLS certificates by using the following steps. 
 
 ## **Recommended Steps** 
 
 - **Use Encrypt=True, TrustServerCertifice=True when making a connection**
-   -  SQL communication can be established if **TrustServerCertifice=True**. In this scenario, connection is encrypted and does not validate certificates on the client side.
-   -  **TLS encryption** can be requested from the server or from the client side.　**Encrypt=True allows** the client to request encryption.　In this case, connection is encrypted, even if the server is not configured to require encryption.　**TrustServerCertificate** also makes the difference between validating a certificate or not.　Therefore, "Encrypt=True; TrustServerCertificate=True" does not validate the certificate on the client side, and the **communication is TLS encrypted.**
-   - If **Force Encryption is enabled** from sql server configuration manager (SSCM), encryption is requested from the server side. Therefore, there is no need for client-side requests.However, if you need to trust the server's certificate and not validate it, click Encrypt=True; TrustServerCertificate=True" allows you to connect to SQL Server.
+   -  SQL communication can be established if `TrustServerCertifice=True`. In this scenario, connection is encrypted and does not validate certificates on the client side.
+   -  **TLS encryption** can be requested from the server or from the client side.　`Encrypt=True` allows the client to request encryption.　In this case, connection is encrypted, even if the server is not configured to require encryption.　`TrustServerCertificate` also makes the difference between validating a certificate or not.　Therefore, `Encrypt=True; TrustServerCertificate=True` does not validate the certificate on the client side, and the communication is TLS encrypted.
+   - If **Force Encryption** is enabled from SQL Server Configuration Manager (SSCM), encryption is requested from the server side. Therefore, there is no need for client-side requests. However, if you need to trust the server's certificate and not validate, select `Encrypt=True; TrustServerCertificate=True` to connect to SQL Server.
  
  - **Error: "Unable to load user-specified certificate [Cert Hash(sha1) "xxx"]. The server will not accept a connection"**
  
-   Please ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements).  
+   Ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements).  
 
-   For the Certificate, make sure we have given **enough privileges** to the SQL server Service account ( Open mmc.exe --> Certificates(Local Computer) --> Personal --> Certificates --> All tasks --> Manage Private Keys --> Add the service account)
+   For the Certificate, make sure we have given enough privileges to the SQL server Service account. (Open `mmc.exe` > **Certificates(Local Computer)** > **Personal** > **Certificates** > **All tasks** > **Manage Private Keys** > **Add the service account**.)
 
 - **Error: "Existing connection between servers forcibly closed by the remote host"**   
 
-   To resolve this, Make sure both the client and server involved in a connection have the leading zero fixes for **TLS_DHE installed** as suggested in this [public documentation](https://docs.microsoft.com/troubleshoot/windows-server/identity/apps-forcibly-closed-tls-connection-errors)
+   To resolve this, make sure both the client and server involved in a connection have the leading zero fixes for **TLS_DHE installed** as suggested in this [public documentation](https://docs.microsoft.com/troubleshoot/windows-server/identity/apps-forcibly-closed-tls-connection-errors).
 
 -  **SSL certificate missing from dropdown in SQL Server Configuration Manager**
 
-   Please ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements)
+   Ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements).
 
-- **Error: "A fatal error occurred while creating a TLS client credential. "**
+- **Error: "A fatal error occurred while creating a TLS client credential"**
 
-  As per [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server), please ensure that:
+  As per [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server), ensure that:
   - Both SQL Server and .NET framework are up-to-date 
   - Corrective actions have been followed for known issues. [Enable TLS 1.2 on the site servers and remote site systems](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-server)
 
