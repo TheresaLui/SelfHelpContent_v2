@@ -35,7 +35,7 @@
 Troubleshooting connectivity issues
 
 - [Troubleshoot Azure Private Endpoint connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
-- [Troubleshoot Private Link Service connectivity problems (microsoft.com)](http://docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
+- [Troubleshoot Private Link Service connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
 - [Use Azure Firewall to inspect traffic destined to a private endpoint](https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall)
 
 Frequently-used links 
