@@ -19,7 +19,7 @@ Most customers are able to resolve issues with SSL and TLS certificates by using
 
 - **Use Encrypt=True, TrustServerCertificate=True when making a connection**
    -  SQL communication can be established if `TrustServerCertificate=True`. In this scenario, connection is encrypted and does not validate certificates on the client side.
-   -  TLS encryption can be requested from the server or from the client side.　`Encrypt=True` allows the client to request encryption.　In this case, connection is encrypted, even if the server is not configured to require encryption.　`TrustServerCertificate` also makes the difference between validating a certificate or not.　Therefore, `Encrypt=True; TrustServerCertificate=True` does not validate the certificate on the client side, and the communication is TLS encrypted.
+   -  TLS encryption can be requested from the server or from the client side.`Encrypt=True` allows the client to request encryption.　In this case, connection is encrypted, even if the server is not configured to require encryption.`TrustServerCertificate` also makes the difference between validating a certificate or not. Therefore, `Encrypt=True; TrustServerCertificate=True` does not validate the certificate on the client side, and the communication is TLS encrypted. 
    - If `Force Encryption` is enabled from SQL Server Configuration Manager (SSCM), encryption is requested from the server side. Therefore, there is no need for client-side requests. However, if you need to trust the server's certificate and not validate, select `Encrypt=True; TrustServerCertificate=True` to connect to SQL Server.
  
  - **Error: "Unable to load user-specified certificate [Cert Hash(sha1) "xxx"]. The server will not accept a connection"**
