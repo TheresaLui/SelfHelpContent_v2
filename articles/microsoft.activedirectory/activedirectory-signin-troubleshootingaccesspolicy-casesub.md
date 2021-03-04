@@ -17,7 +17,7 @@
 
 # Troubleshooting conditional access policies in Azure Active Directory
 
-### Resolve problems with the [Sign-in Diagnostic]
+## Resolve problems with the [Sign-in Diagnostic]
 
 You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose)
 
