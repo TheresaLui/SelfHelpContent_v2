@@ -37,7 +37,8 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": 
-                { "value": "dont_know_answer",
+                { 
+                "value": "dont_know_answer",
                 "text": "None of the above"
                 }
             },
