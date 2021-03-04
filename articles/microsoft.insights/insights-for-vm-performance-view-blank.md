@@ -27,6 +27,11 @@ If installation of the log analytics agent succeeded, but you don't see data on 
 
 *  Go to Azure Monitor\Logs and run the following query for your computer: 
 * `Usage | where Computer == "admdemo-appsvr" | summarize sum(Quantity), any(QuantityUnit) by DataType`
+*	Are you facing connectivity issues? You can use TestCloudConnectivity tool to identify connectivity issue. The tool is installed by default with the agent in the folder %SystemRoot%\Program Files\Microsoft Monitoring Agent\Agent. From an elevated command prompt, navigate to the folder and run the tool. The tool returns the results and highlights where the test failed. 
+For more information refer [Troubleshoot Connectivity issues](https://docs.microsoft.com/azure/azure-monitor/agents/agent-windows-troubleshoot?WT.mc_id=Portal-Microsoft_Azure_Support#connectivity-issues).
+
+![Test connectivity](https://docs.microsoft.com/azure/azure-monitor/agents/media/agent-windows-troubleshoot/output-testcloudconnection-tool-01.png)
+
 * Did you receive a variety of events in the results? Is the data recent? If so, your Log Analytics agent is operating correctly and communicating with the workspace. If not, check the agent on your machine: [Log Analytics agent for Windows troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot) or [Log Analytics agent for Linux troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/agent-linux-troubleshoot). 
 
 **Is you workspace setup to collect the performance counters?**
