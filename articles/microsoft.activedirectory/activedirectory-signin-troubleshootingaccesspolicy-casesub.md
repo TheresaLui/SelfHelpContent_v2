@@ -19,21 +19,21 @@
 
 ## Resolve problems with the [Sign-in Diagnostic]
 
-You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose)
+You can quickly find out what happened or diagnose problems related to user sign-in by using the [Sign-in Diagnostic](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/diagnose).
 
-1. Launch the Sign-in Diagnostic.
-2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id.
-3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed).
+1. Start the Sign-in Diagnostic
+2. Find the event to analyze by entering in the details you have about the user, application, time of sign-in, request Id, or correlation Id
+3. Review the diagnostic results showing the details of what happened and what actions you can take to make changes (if any changes are needed)
 
 ## **Recommended Steps**
 
 **[Use What-If to troubleshoot Sign-In](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)**
 1.	Navigate to the Azure AD Sign-in page
 2.	Filter sign-ins by user, time range, application, status, client app, and so on
-3.	Select a sign-in event and view the Conditional Access tab to see which policies were evaluated
-4.	Click on the row of a policy to view the policy details and understand why it applied
+3.	Select a sign-in event and view the **Conditional Access** tab to see which policies were evaluated
+4.	Select the row of a policy to view the policy details and understand why it applied
 
-**Tools to troubleshoot a Conditional Access policy**
+**Tools to troubleshoot a Conditional Access policy:**
 * Report-only mode lets you evaluate a policy without impacting users
 * What-if tool lets you simulate sign-in events and see which policies apply
 * Insights and reporting workbook displays real-time impact of each policy
