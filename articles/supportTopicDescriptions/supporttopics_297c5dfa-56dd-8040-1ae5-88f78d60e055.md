@@ -23,6 +23,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "2e269913-55f4-1d9e-c493-0d82a1afa5cb",
+      "longDescription": "",
+      "shortDescription": "Help check if device specifications does not match the order",
+      "searchTags": "Device Specification",
+      "category": "Ordering",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4c0ca5f4-bd9d-524e-ae07-097912e45357",
       "longDescription": "",
       "shortDescription": "Help directly request a device return ",
