@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1dd04765-c993-2fde-8740-62c990b4249e",
+      "longDescription": "",
+      "shortDescription": "Issues with monitoring, log analytics, etc ",
+      "searchTags": "monitoring;log analytics;application insights",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6503bf00-bff1-7033-d821-4de5105daa20",
       "longDescription": "",
       "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
