@@ -77,9 +77,6 @@
                 }, {
                     "value": "No",
                     "text": "No"
-                }, {
-                    "value": "N/A",
-                    "text": "N/A"
                 }
             ]
         },
