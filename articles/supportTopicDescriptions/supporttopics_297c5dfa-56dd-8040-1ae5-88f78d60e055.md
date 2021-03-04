@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3efa9b97-c1d6-231b-9767-717ba1566ebf",
+      "longDescription": "",
+      "shortDescription": "Help troubleshoot web proxy settings for device",
+      "searchTags": "Web Proxy",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "466d1203-8d1b-c9a2-2cd7-35d598db0aec",
       "longDescription": "",
       "shortDescription": "Steps to be followed to reset the device",
