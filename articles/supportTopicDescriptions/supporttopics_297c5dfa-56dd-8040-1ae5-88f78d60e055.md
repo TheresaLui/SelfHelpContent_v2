@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1bda9864-b517-9a75-cbc9-b880db764eae",
+      "longDescription": "",
+      "shortDescription": "Help diagnose device connectivity to Azure",
+      "searchTags": "Azure Connectivity;Device connection",
+      "category": "Connectivity and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d509618-63cd-8593-8b0b-e2b7eca8cb00",
       "longDescription": "",
       "shortDescription": "Help to troubleshoot issues with initial device configuration and setup",
