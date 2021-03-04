@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "527f4a0d-fb46-f320-ddc7-b5cc31c22556",
+      "longDescription": "",
+      "shortDescription": "Resolving issues with managing Capacity Pool such as creating, deleting, resizing or moving volumes ",
+      "searchTags": "pool;move;resize;change",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "68d9df13-2a57-7e5a-2d51-b0a1ab682f97",
       "longDescription": "",
       "shortDescription": "Troubleshoot volume performance issues such as higher than expected latency or lower than expected throughput or IOPS",
