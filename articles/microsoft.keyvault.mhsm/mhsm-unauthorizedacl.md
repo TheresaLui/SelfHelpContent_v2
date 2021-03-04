@@ -20,42 +20,39 @@
 # You have Key Vault Managed HSM recommendations
 
 <!--issueDescription-->
-An application(s) does not have sufficient permissions to perform operations on '<!--$PoolName-->[PoolName]<!--/$PoolName-->' Managed HSM.
+An application does not have sufficient permissions to perform operations on Managed HSM.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-We have run a diagnostics in our logs and identified that operation **<!--ActivityName-->[ActivityName]<!--/ActivityName-->** of an application with service principal id '**<!--CallerId-->[CallerId]<!--/CallerId-->**' was denied at around <!--ActivityTime-->[ActivityTime]<!--/ActivityTime--> UTC between problem start time <!--ProblemStartTime-->[ProblemStartTime]<!--/ProblemStartTime--> UTC and <!--CaseCreationTime-->[CaseCreationTime]<!--/CaseCreationTime--> UTC.   
 
-To solve this problem, 
+1. Make sure this service principal is the one used in your application. The CLI command below can show the information about your application's service principal id.
+    ```
+    az ad sp show --id [your application id] --query "{servicePrincipalId: objectId}" -o table
+    ```
 
-1. Make sure this service principal is the one used in your application. The CLI command below can show the information about this service principal.
-  ```
-  az ad sp show --id "<!--CallerId-->[CallerId]<!--/CallerId-->" 
-  ```
-
-2. If this is a trusted application, ask an administrator ( a user in Managed HSM builtin roles "Managed HSM Administor" ) of Managed HSM '**<!--PoolName-->[PoolName]<!--/PoolName-->**' to assign a appropriate role to the application with service principal id '**<!--CallerId-->[CallerId]<!--/CallerId-->**'.
+2. If this is a trusted application, ask an administrator ( a user in Managed HSM builtin roles "Managed HSM Administor" ) of Managed HSM to assign a appropriate role to service principal retrieved above.
  
-  For example when using Azure CLI, run this command as the administrator of the Managed HSM '<!--PoolName-->[PoolName]<!--/PoolName-->':<br>
-  - To give key encrypt/decrypt operations to the application:
+    For example when using Azure CLI, run this command as the administrator of the Managed HSM:<br>
+    - To give key encrypt/decrypt operations to the application:
+        ```
+        az keyvault role assignment create --assignee "[service principal id]" --role "Managed HSM Crypto User" --scope "/" --hsm-name [PoolName]
+        ```
+
+    - To give key additional key create/delete operations to the application: 
+
+        ```
+        az keyvault role assignment create --assignee "[service principal id]" --role "Managed HSM Crypto Officer" --scope "/" --hsm-name [PoolName]
+        ```
+
+    Role "Managed HSM Administrator" has all the permissions.
+
+    To list all the administorators of this Managed HSM, run Azure CLI command:
     ```
-    az keyvault role assignment create --assignee "<!--CallerId-->[CallerId]<!--/CallerId-->" --role "Managed HSM Crypto User" --scope "/" --hsm-name <!--PoolName-->[PoolName]<!--/PoolName-->
+    az keyvault role assignment list --hsm-name [PoolName] --role "Managed HSM Administrator"
     ```
 
-  - To give key additional key create/delete operations to the application: 
-
-    ```
-    az keyvault role assignment create --assignee "<!--CallerId-->[CallerId]<!--/CallerId-->" --role "Managed HSM Crypto Officer" --scope "/" --hsm-name <!--PoolName-->[PoolName]<!--/PoolName-->
-    ```
-
-  Role "Managed HSM Administrator" has all the permissions.
-
-  To list all the administorators of this Managed HSM, run Azure CLI command:
-  ```
-  az keyvault role assignment list --hsm-name <!--PoolName-->[PoolName]<!--/PoolName--> --role "Managed HSM Administrator"
-  ```
-
-  See links below for details of different builtin roles' permissions in Managed HSM.
+See links below for details of different builtin roles' permissions in Managed HSM.
 
 ## **Recommended Documents**
 
