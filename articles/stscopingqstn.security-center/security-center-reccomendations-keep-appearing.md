@@ -11,12 +11,12 @@
   ownershipid="Azure_Security_Security_Center" />
 # Azure Security Center Recommendation - Recommendation keeps on appearing
 
-If recommendations keep appearing in the Azure Security Center, follow these steps. <br>
-Recommendations are removed if one of the following conditions is true:
+Azure Security Center removes recommendations if one of the following conditions is true:
 
 - All the resources under this recommendation become healthy
 - The recommendation is disabled through the Azure policy
 
+Resolve issues with persisting recommendations using the following steps.
 
 ## **Recommended Steps**
 
