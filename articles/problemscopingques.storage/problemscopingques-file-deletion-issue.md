@@ -25,30 +25,30 @@
     },
     "formElements": [
         {
-            "id": "file_share",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "File share",
-            "watermarkText": "Choose a specific File share",
-             "dynamicDropdownOptions": 
+        "id": "file_share",
+        "order": 1,
+        "controlType": "dropdown",
+        "displayLabel": "File share",
+        "watermarkText": "Choose a specific File share",
+        "dynamicDropdownOptions": 
+            {
+            "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/shares?api-version=2019-06-01",
+             "jTokenPath": "value",
+             "textProperty": "name",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions":
              {
-                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/shares?api-version=2019-06-01",
-                 "jTokenPath": "value",
-                 "textProperty": "name",
-                 "valueProperty": "id",
-                 "textPropertyRegex": "[^/]+$",
-                 "defaultDropdownOptions":
-                 {
-                     "value": "dont_know_answer",
-                     "text": "None of the above"
-                 },
-                 "dropdownOptions": [
+                 "value": "dont_know_answer",
+                 "text": "None of the above"
+             },
+            "dropdownOptions":[
                      {
                          "value": "NoFileShare",
                          "text": "NA"
                      }
-                     ]
-             },
+                    ]
+            },
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
