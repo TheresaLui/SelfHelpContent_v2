@@ -18,7 +18,7 @@
 
 # Cannot connect to my VM
 
-4 out of 5 customers resolved their VM connectivity issue using the links below.<br>
+Most users can resolve issues with VM connectivity by using the information below.<br>
 
 ## **Recommended Documents**
 
