@@ -10,7 +10,7 @@
   clientIds='partnercenter'
   ownershipid="PartnerCenter_MPN_Benefits_and_Competencies" />
 
-# Support Topic Descriptions for b13ac5ef-6423-c7d6-7151-1fa89016d8d3
+# Support Topic Descriptions for b13ac5ef-6423-c7d6-7151-1fa89016d8d3 
 ---
 {
   "$schema": "SelfHelpContent",
