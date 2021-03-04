@@ -56,7 +56,7 @@ Read-write and read-only listeners are DNS CNAME records that points to the curr
 
 ### **Common errors when configuring failover group first time** 
 
-1. **“Replication to the partner managed instance could not be established. Verify that connectivity between the Virtual Networks of the primary and secondary managed servers has been established correctly according to guidelines...”**
+1. **Replication to the partner managed instance could not be established. Verify that connectivity between the Virtual Networks of the primary and secondary managed servers has been established correctly according to guidelines**
     
     Please verify if NSG, firewall, VNET connectivity are set properly following **Recommended Steps** part. 
 
