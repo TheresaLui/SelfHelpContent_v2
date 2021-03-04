@@ -594,6 +594,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7e537260-8e63-96f3-527e-27f28022d8af",
+      "longDescription": "",
+      "shortDescription": "Cassandra API Data Migration Issues",
+      "searchTags": "Cassandra;migrate;migration;import",
+      "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7fabd974-2e47-f7e3-925b-3036d628a48a",
       "longDescription": "",
       "shortDescription": "Time To Live (TTL) feature",
