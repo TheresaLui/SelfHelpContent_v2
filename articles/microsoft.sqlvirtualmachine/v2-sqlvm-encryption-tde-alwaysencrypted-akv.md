@@ -32,9 +32,9 @@ disclosed to SQL Server.
 
 - **SQL Server FCI, Databases are stuck in a recovery pending state after a SQL failover**  
 
- - EKM dll version and build should be same on all Always on nodes. 
- - Location of EKM dll should be same such as `C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\Microsoft.AzureKeyVaultService.EKM.dll`
- - If the previous two conditions are satisfied, you can export the registry value from following path
+    - EKM dll version and build should be same on all Always on nodes. 
+    - Location of EKM dll should be same such as `C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\Microsoft.AzureKeyVaultService.EKM.dll`
+    - If the previous two conditions are satisfied, you can export the registry value from following path
    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]` and import ore create this entry manually on other Always On AG nodes.
 
 - **Cannot open session for cryptographic provider 'AzureKeyVault_EKM'. Provider error code: 2050.**
@@ -42,19 +42,20 @@ disclosed to SQL Server.
      It seems there is some mistake we did while following the initial steps due to which you can get this error. Please [follow this steps](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal
  ) from start correctly to prevent this error.
 
-  - **Key with name 'xxx' does not exist in the provider or access is denied. Provider error code: 2058**
+- **Key with name 'xxx' does not exist in the provider or access is denied. Provider error code: 2058**
   
     Create a new [registry Key](https://docs.microsoft.com/sql/relational-databases/security/encryption/sql-server-connector-registry-modification?view=sql-server-ver15) _**[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]**_ and add SQL Service Full Control permissions on this key to resolve this. Finally add SQL server service account to local Admin Group.
 
 - **Cannot open session for cryptographic provider 'AzureKeyVault_EKM_Prov'. Provider error code: 3303**
 
-  - It seems your client key might have expired Alter the credential using below script here Client ID will remain same and only  client key need to be changed in secret part of TSQL query. 
+  Your client key might have expired.
+  1. Alter the credential using the following script. Client ID will remain the same and only the client key needs to be changed in the secret part of the TSQL query. 
 
    ```
    ALTER CREDENTIAL credential_name WITH IDENTITY = 'identity_name'  [ , SECRET = 'secret' ]  
     ```
 
-  - Restart SQL Services.
+  2. Restart SQL Services.
 
 
 - **Cannot open session for cryptographic provider 'SQLKeyVault_EKM_Prov'. Provider error code: 3106.**
@@ -68,8 +69,9 @@ disclosed to SQL Server.
 
 - **Cannot find server asymmetric key with Thumbprint on Always On AG**
   
- - Check if thumbprint of asymmetric key in the secondary replica is different from the one in the primary replica using **_select * from sys.asymmetric_keys_**. 
- - If yes, drop the key on secondary replica and recreate the asymmetric key using the same provider key as the primary server. Take a fresh backup and restore the database on secondary.
+  1. Check if thumbprint of asymmetric key in the secondary replica is different from the one in the primary replica using **_select * from sys.asymmetric_keys_**. 
+  2. If it's different, drop the key on the secondary replica and recreate it using the same provider key as the primary server. 
+  3. Take a fresh backup and restore the database on the secondary server.
 
 
 ### Enable TDE on databases which are a part of Availability Groups or Add Encrypted databases to existing Availability groups
@@ -82,33 +84,35 @@ You can check [what features are supported under what version/edition of SQL Ser
 
 
 
-- Failed to enable AKV integration from SQL Virtual Machine Resource on Azure portal
-   -  Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your VM
-   -  Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
-   - Restart SQL Service and Enable the [AKV integration from SQL Resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/azure-key-vault-integration-configure#existing-vms)
+### Failed to enable AKV integration from SQL Virtual Machine Resource on Azure portal
+
+1. Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your VM
+2. Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
+3. Restart SQL Service and Enable the [AKV integration from SQL Resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/azure-key-vault-integration-configure#existing-vms)
 
 
 
 ### I am using TDE EKM with AKV, how can I extend my client secret/AAD Principle which expires/has expired 
+We need to update the SQL credential with new secrets.   
 
-- We need to update the SQL credential with new secrets.   
+1. Create a new secret within the registered application in AAD.  
 
-- Create a new secret within the registered application in AAD.  
-
-- On Secondary replica of AG, execute above query to update the credential. 
+2. On Secondary replica of AG, execute the following query to update the credential. 
 
      ```
      ALTER CREDENTIAL cred_name WITH IDENTITY = 'vault name',SECRET ='Fill Application (Client) ID,Azure App Client ID Secret'
      ```
      
-- Restart this instance to trigger DB recovery and check if DB is online/synchronized.  Once secondary databases are synchronized, failover secondary AG to this replica
-- Repeat step to alter credential and restart the instance for this failed over node.
+3. Restart this instance to trigger DB recovery and check if DB is online/synchronized. 
+4. After the secondary databases are synchronized, failover the secondary AG to this replica.
+5. Repeat step to alter credential and restart the instance for this failed over node.
 
 
 
 ### Restore TDE Enabled Database
-To restore a backup encrypted with a TDE protector from Key Vault, make sure that the key is available to the target server. Therefore, we recommend that you keep all the old versions of the TDE protector in key vault, so database backups can be restored. Please [review the process here](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=sql-server-2017#database-backup-and-restore-with-customer-managed-tde
-). You might get "401 error" in the application log if your client secret is expired. Renew it and alter the credential with new secret to finish the restore successfully.
+To restore a backup encrypted with a TDE protector from Key Vault, make sure that the key is available to the target server. Therefore, we recommend that you keep all the old versions of the TDE protector in key vault, so database backups can be restored.  
+
+[Review the process here](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=sql-server-2017#database-backup-and-restore-with-customer-managed-tde). You might get "401 error" in the application log if your client secret is expired. Renew it and alter the credential with new secret to finish the restore successfully.
 
 
 ## **Recommended Documents**
