@@ -27,12 +27,12 @@ To learn more about ADF features, see the following section.
 
 ### **Recommended documents**
 
-* For details about the visual authoring experience, review  [Visual authoring](https://docs.microsoft.com/azure/data-factory/author-visually).
-* To learn about iterative development and debugging in ADF, review [Iterative Development and Debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging)
-* To learn how to manage pipeline artifacts in ADF, review  [ADF Management](https://docs.microsoft.com/azure/data-factory/author-management-hub)
-* For details about source control in ADF, review [Source Control](https://docs.microsoft.com/azure/data-factory/source-control)
-* For information on publishing pipelines, review [ADF Publishing](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
-* For instructions on creating ADF pipelines using ARM (Azure Resource Manager) templates, review [ADF using ARM](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
+* For details about the **visual authoring** experience, review  [Visual authoring](https://docs.microsoft.com/azure/data-factory/author-visually).
+* To learn about **iterative development** and debugging in ADF, review [Iterative Development and Debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging)
+* To learn how to manage **pipeline artifacts** in ADF, review  [ADF Management](https://docs.microsoft.com/azure/data-factory/author-management-hub)
+* For details about **source control** in ADF, review [Source Control](https://docs.microsoft.com/azure/data-factory/source-control)
+* For information on **publishing** pipelines, review [ADF Publishing](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
+* For instructions on creating ADF pipelines **using ARM** (Azure Resource Manager) templates, review [ADF using ARM](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
 
 - Concept: [Pipelines and activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
 - Concept: [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
@@ -40,10 +40,10 @@ To learn more about ADF features, see the following section.
 - How to: [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
 
 
-- [Quickstart: Create a data factory and pipeline using .NET SDK](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
-- [Quickstart: Create a data factory and pipeline using Python](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-python)
-- [Quickstart: Create an Azure data factory and pipeline by using the REST API](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-rest-api)
-- [Quickstart: Create an Azure data factory using PowerShell](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-powershell)
+- Quickstart: [Create a data factory and pipeline using .NET SDK](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
+- Quickstart: [Create a data factory and pipeline using Python](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-python)
+- Quickstart: [Create an Azure data factory and pipeline by using the REST API](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-rest-api)
+- Quickstart: [Create an Azure data factory using PowerShell](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-powershell)
 - [Copy data from Azure Blob to Azure SQL Database using Azure Data Factory](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-dot-net)
 - [Monitor with SDKs](https://docs.microsoft.com/azure/data-factory/monitor-programmatically)
 
@@ -58,7 +58,7 @@ If you are new to ADF, review the following documents.
 
 <br>
 
-### More resources
+### **More resources**
 Here are some articles from the web that may help you based on the summary provided:
 
 <azureKB>
