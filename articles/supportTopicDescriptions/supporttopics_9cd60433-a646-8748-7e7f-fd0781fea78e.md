@@ -425,7 +425,7 @@
     {
       "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
       "longDescription": "",
-      "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
+      "shortDescription": "Topics covering creating Sentinel workspaces, access, permissions and roles issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
