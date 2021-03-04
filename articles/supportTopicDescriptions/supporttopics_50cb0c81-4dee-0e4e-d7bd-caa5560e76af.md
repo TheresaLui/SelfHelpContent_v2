@@ -44,6 +44,14 @@
       "searchTags": "third party;private link service;pls",
       "category": "Advisory",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d44c1c68-c5dd-93d3-f3ed-80de7de84dda",
+      "longDescription": "",
+      "shortDescription": "Questions about Network security groups or Application security groups",
+      "searchTags": "NSG;ASG;Network Security Group;Application Security Group",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
