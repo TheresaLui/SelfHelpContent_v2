@@ -45,6 +45,14 @@
       "searchTags": "Device updates",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e17e1251-208a-b1d9-57d5-7418b81b4b45",
+      "longDescription": "",
+      "shortDescription": "Help with azure stack edge device ordering, tracking an return",
+      "searchTags": "Device ordering;Track Return",
+      "category": "Ordering",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
