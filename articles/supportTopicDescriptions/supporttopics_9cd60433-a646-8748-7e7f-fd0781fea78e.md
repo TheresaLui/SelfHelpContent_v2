@@ -495,6 +495,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc514713-629d-c849-de7b-140619c3037d",
+      "longDescription": "",
+      "shortDescription": "Entity Behavior Analytics configuration ",
+      "searchTags": "UEBA;Entity ;Behavior ",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
