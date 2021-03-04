@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4e923c00-cbfb-a2cb-49ad-cf2ab3d248eb",
+      "longDescription": "",
+      "shortDescription": "Issues with PLS Application Insights",
+      "searchTags": "monitoring pls",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6503bf00-bff1-7033-d821-4de5105daa20",
       "longDescription": "",
       "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
