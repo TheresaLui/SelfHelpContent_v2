@@ -19,7 +19,7 @@ Answer many common questions about Azure Active Directory B2C by reviewing the f
 
 ### **How do I enable multi-factor authentication in Azure Active Directory B2C?** 
 
-Azure Active Directory B2C (Azure AD B2C)  integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. You can enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
+Azure Active Directory B2C (Azure AD B2C)  integrates directly with Azure AD Multi-Factor Authentication so that you can add a second layer of security to sign-up and sign-in experiences in your applications. Enable multi-factor authentication without writing a single line of code. See [Steps to enable multi-factor authentication](https://docs.microsoft.com/azure/active-directory-b2c/multi-factor-authentication?pivots=b2c-custom-policy). 
 
 ### **Can I send customized email to users that sign up to use my applications?**
 
@@ -35,13 +35,13 @@ Azure Active Directory B2C (Azure AD B2C) provides support for verifying a phone
 When using custom policies, you must refer to the [GitHub sample](https://github.com/azure-ad-b2c/samples/tree/master/policies/conditional-access).
 
 ### **How can I test my Conditional Access policy?**  
-For testing, reduce the scope of the conditional access policy to one AAD B2C user and one AAD B2C application.  Create a next generation user flow (recommended), making sure that the conditional access box is selected (default).  Use Run Now to test your policy under various situations.
+For testing, reduce the scope of the conditional access policy to one AAD B2C user and one AAD B2C application.  Create a next generation user flow (recommended), making sure that the conditional access box is selected (default).  Use **Run Now** to test your policy under various situations.
 
 ### **Is report-only mode supported?**
 Yes.
 
 ### **How can I tell if the CA policy was active for a given authentication?**
-Conditional Access policy activity is reported here: In your B2C tenant, Audit logs., Service: B2C, Category: Identity Protection. Look for **Evaluate** and **Remediate** response. 
+Conditional Access policy activity is reported here: In your B2C tenant, Audit logs, Service: B2C, and Category: Identity Protection. Look for **Evaluate** and **Remediate** response. 
 
 ### **How can I choose between an MFA with TXT or MFA with email?**
 
