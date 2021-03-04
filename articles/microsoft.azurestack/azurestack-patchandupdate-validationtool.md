@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Azure Stack Hub validation tool&#xD;"
+  pagetitle="Azure Stack Hub validation tool"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="alexsmit,v-myoung"
+  ms.author="alexsmit,v-myoung,patricka"
   selfhelptype="Generic"
   supporttopicids="32629240"
   resourcetags=""
@@ -31,8 +31,11 @@ The following categories are part of the UpdateReadiness group:
 3. Review active alerts in the Azure Stack Hub Administrator Portal, and resolve any that require action
 4. Run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) with  [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#groups) to validate the status of your Azure Stack Hub and resolve any operational issues before applying an update: `Test-AzureStack -Group UpdateReadiness`
 
+If you encounter the error, *"Test-AzureStack failed: FAIL Azure Stack Infrastructure Clocks"*, set your current culture setting to **en-US** when using the privileged endpoint.
+
 ## **Recommended Documents**
 
 * [Test-AzureStack validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test)
 * [Validation Tests Available](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#tests-available)
 * [Microsoft Azure Stack Hub troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting)
+* [Using the privileged endpoint in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint?view=azs-2008#access-the-privileged-endpoint)
