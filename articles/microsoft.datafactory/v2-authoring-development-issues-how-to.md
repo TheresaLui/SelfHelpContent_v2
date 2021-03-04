@@ -23,7 +23,6 @@ We highly recommend using the ADF user interface experience, which lets you visu
 
 To learn more about ADF features, see the following section.
 
-<br>
 
 ### **Recommended documents**
 
