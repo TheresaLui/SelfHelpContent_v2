@@ -19,7 +19,7 @@
 
 The default deployment of Azure Databricks is a fully managed service on Azure. All data plane resources are deployed to a locked resource group, which includes a VNet that all clusters are associated with. 
 
-If you require network customization, [Deploy Azure Databricks data plane resources in your own virtual network - VNet injection](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject). <br>
+If you require network customization, deploy [Azure Databricks data plane resources in your own virtual network - VNet injection](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject). <br>
    This enables you to:
    - Connect Azure Databricks to other Azure services (such as Azure Storage and EventHubs) in a more secure manner
    - Connect to on-premises data sources taking advantage of user-defined routes
