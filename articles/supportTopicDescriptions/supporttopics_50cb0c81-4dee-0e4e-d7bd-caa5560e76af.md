@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66056684-9d8b-4dbc-e230-4406b1318e94",
+      "longDescription": "",
+      "shortDescription": "Issues with PLS log analytics",
+      "searchTags": "monitoring pls",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "98c7ad8d-6b9e-3236-05f1-339f75ea8ba9",
       "longDescription": "",
       "shortDescription": "Performance or increased latency issues with Private link service",
