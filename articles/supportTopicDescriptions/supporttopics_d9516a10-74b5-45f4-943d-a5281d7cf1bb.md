@@ -1172,8 +1172,8 @@
     {
       "id": "d8a26a80-1550-75ef-5c30-db694e4ac579",
       "longDescription": "",
-      "shortDescription": "Issues and questions related to SQL API SDK",
-      "searchTags": "sql;sdk;api",
+      "shortDescription": "Issues and questions related to SQL API Java SDK",
+      "searchTags": "sql;sdk;api;java",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
