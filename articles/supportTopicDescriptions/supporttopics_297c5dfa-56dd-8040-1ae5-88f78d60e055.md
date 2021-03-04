@@ -55,6 +55,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5aed5ce3-1edd-5130-353f-7f5b6c61994b",
+      "longDescription": "",
+      "shortDescription": "Help configure and manage device certificates",
+      "searchTags": "Certificates;Device certificates",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d40a3c20-ba42-b1cf-780e-b7e31dc58c1c",
       "longDescription": "",
       "shortDescription": "Help with download and installing the device level updates",
