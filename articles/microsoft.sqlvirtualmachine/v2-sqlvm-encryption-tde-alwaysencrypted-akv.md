@@ -37,7 +37,7 @@ disclosed to SQL Server.
     - If the previous two conditions are satisfied, you can export the registry value from following path
    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]` and import ore create this entry manually on other Always On AG nodes.
 
-- **Cannot open session for cryptographic provider 'AzureKeyVault_EKM'. Provider error code: 2050.**
+- **Cannot open session for cryptographic provider `AzureKeyVault_EKM`. Provider error code: 2050.**
  
      It seems there is some mistake we did while following the initial steps due to which you can get this error. Please [follow this steps](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal
  ) from start correctly to prevent this error.
@@ -46,7 +46,7 @@ disclosed to SQL Server.
   
     Create a new [registry Key](https://docs.microsoft.com/sql/relational-databases/security/encryption/sql-server-connector-registry-modification?view=sql-server-ver15) _**[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]**_ and add SQL Service Full Control permissions on this key to resolve this. Finally add SQL server service account to local Admin Group.
 
-- **Cannot open session for cryptographic provider 'AzureKeyVault_EKM_Prov'. Provider error code: 3303**
+- **Cannot open session for cryptographic provider `AzureKeyVault_EKM_Prov`. Provider error code: 3303**
 
   Your client key might have expired.
   1. Alter the credential using the following script. Client ID will remain the same and only the client key needs to be changed in the secret part of the TSQL query. 
@@ -58,28 +58,29 @@ disclosed to SQL Server.
   2. Restart SQL Services.
 
 
-- **Cannot open session for cryptographic provider 'SQLKeyVault_EKM_Prov'. Provider error code: 3106.**
+- **Cannot open session for cryptographic provider `SQLKeyVault_EKM_Prov`. Provider error code: 3106.**
    
   Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your AG nodes in VM. Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344). Make sure SQL Service has full permissions on registry and connector path: C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\ 
 
-- **When using RSA-HSM key ,Key with name 'akv' does not exist in the provider or access is denied. Provider error code  : 3. 
-(Not Supported - Consult EKM Provider for details)** 
+- **When using an RSA-HSM key, key with name `akv` does not exist or access is denied. Provider error code: 3.**
    
-  The SQL Connector for Azure Key Vault with the fix for RSA-HSM was released (1.0.5.0 (version 15.0.2000.440)) and can be [downloaded from Here](https://www.microsoft.com/download/details.aspx?id=45344)
+  The SQL Connector for Azure Key Vault with the fix for RSA-HSM was released (1.0.5.0 (version 15.0.2000.440)) and can be [downloaded from Here](https://www.microsoft.com/download/details.aspx?id=45344).
 
-- **Cannot find server asymmetric key with Thumbprint on Always On AG**
+- **Cannot find server asymmetric key with thumbprint on Always On AG**
   
   1. Check if thumbprint of asymmetric key in the secondary replica is different from the one in the primary replica using **_select * from sys.asymmetric_keys_**. 
   2. If it's different, drop the key on the secondary replica and recreate it using the same provider key as the primary server. 
   3. Take a fresh backup and restore the database on the secondary server.
 
 
-### Enable TDE on databases which are a part of Availability Groups or Add Encrypted databases to existing Availability groups
+### Adding encryption to databases on Availability groups
+This addresses how to enable TDE on databases that belong to Availability groups, and how to add encrypted databases to existing Availability groups. 
+
 - Review [How to enable TDE Encryption on a database in an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-enable-tde-encryption-on-a-database-in-an-availability/ba-p/318086)
 - Review [How to add a TDE encrypted database to an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-add-a-tde-encrypted-database-to-an-availability-group/ba-p/318490)
 
 
-### What version or edition of SQL Server Supports TDE/Always Encrypted
+### What version or edition of SQL Server supports TDE/Always Encrypted
 You can check [what features are supported under what version/edition of SQL Server here](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-ver15)
 
 
@@ -92,8 +93,8 @@ You can check [what features are supported under what version/edition of SQL Ser
 
 
 
-### I am using TDE EKM with AKV, how can I extend my client secret/AAD Principle which expires/has expired 
-We need to update the SQL credential with new secrets.   
+### Extend an expired/expiring client secret and AAD Principle when using TDE EKM with AKV 
+Use the following steps if you need to update the SQL credential with new secrets.   
 
 1. Create a new secret within the registered application in AAD.  
 
