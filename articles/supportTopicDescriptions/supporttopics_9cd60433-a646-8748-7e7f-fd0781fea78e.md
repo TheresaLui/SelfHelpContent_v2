@@ -311,6 +311,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bdd233b-6649-748a-88c1-f810fe632029",
+      "longDescription": "",
+      "shortDescription": "Scheduling Alert rules , mapping entities to rules, creating Incident rules",
+      "searchTags": "Alert ;Rule",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
