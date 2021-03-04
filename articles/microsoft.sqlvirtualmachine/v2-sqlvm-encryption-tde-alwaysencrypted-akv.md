@@ -28,7 +28,7 @@ disclosed to SQL Server.
 
 
 
-### Common Errors and Failure with Creating Asymmetric Key 
+### Common errors and failure with creating asymmetric key 
 
 - **SQL Server FCI, Databases are stuck in a recovery pending state after a SQL failover**  
 
@@ -85,7 +85,7 @@ You can check [what features are supported under what version/edition of SQL Ser
 
 
 
-### Failed to enable AKV integration from SQL Virtual Machine Resource on Azure portal
+### Resolve a failed AKV integration from SQL Virtual Machine Resource on Azure portal
 
 1. Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your VM
 2. Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
