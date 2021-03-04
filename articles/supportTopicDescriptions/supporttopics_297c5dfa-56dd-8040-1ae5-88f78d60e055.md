@@ -79,6 +79,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b6c6200f-9ac4-ccb4-cffb-606690cd0eff",
+      "longDescription": "",
+      "shortDescription": "Diagnose if you are not receiving device related alerts",
+      "searchTags": "Alerts;Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d40a3c20-ba42-b1cf-780e-b7e31dc58c1c",
       "longDescription": "",
       "shortDescription": "Help with download and installing the device level updates",
