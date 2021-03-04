@@ -50,6 +50,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0cdd03c7-5ab0-a7de-ccc6-f67261a9384d",
+      "longDescription": "",
+      "shortDescription": "Issues related to Data Migration",
+      "searchTags": "data migration;migrate;import",
+      "category": "Data Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0d703174-0622-2c6c-625f-c58e14597a2b",
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
