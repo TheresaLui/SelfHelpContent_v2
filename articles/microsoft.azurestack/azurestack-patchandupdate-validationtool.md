@@ -31,7 +31,7 @@ The following categories are part of the UpdateReadiness group:
 3. Review active alerts in the Azure Stack Hub Administrator Portal, and resolve any that require action
 4. Run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) with  [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#groups) to validate the status of your Azure Stack Hub and resolve any operational issues before applying an update: `Test-AzureStack -Group UpdateReadiness`
 
-If you encounter the error, *Test-AzureStack failed: FAIL Azure Stack Infrastructure Clocks*, set your current culture setting to **en-US** when using the privileged endpoint.
+If you encounter the error, *"Test-AzureStack failed: FAIL Azure Stack Infrastructure Clocks"*, set your current culture setting to **en-US** when using the privileged endpoint.
 
 ## **Recommended Documents**
 
