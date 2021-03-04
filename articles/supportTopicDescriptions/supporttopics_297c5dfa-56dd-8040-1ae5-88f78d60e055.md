@@ -71,6 +71,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4d2352d5-3619-8c36-b14f-ce57c9d3d19a",
+      "longDescription": "",
+      "shortDescription": "Help troubleshoot device connection to local User interface",
+      "searchTags": "Local UI;Connectivity",
+      "category": "Connectivity and Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5aed5ce3-1edd-5130-353f-7f5b6c61994b",
       "longDescription": "",
       "shortDescription": "Help configure and manage device certificates",
