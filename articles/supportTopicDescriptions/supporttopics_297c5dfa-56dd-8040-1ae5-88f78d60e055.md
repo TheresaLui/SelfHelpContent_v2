@@ -63,6 +63,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b80c225-33ef-03d7-27d9-8eb7669c9b2a",
+      "longDescription": "",
+      "shortDescription": "Help connect, setup, activate the device with the activation key",
+      "searchTags": "Activate;Activation Key",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d40a3c20-ba42-b1cf-780e-b7e31dc58c1c",
       "longDescription": "",
       "shortDescription": "Help with download and installing the device level updates",
