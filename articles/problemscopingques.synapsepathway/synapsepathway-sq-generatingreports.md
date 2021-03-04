@@ -22,9 +22,17 @@
     "title": "Generating reports",
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "problem_start_time",
             "order": 1,
-            "required": false,
+            "required": true,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",

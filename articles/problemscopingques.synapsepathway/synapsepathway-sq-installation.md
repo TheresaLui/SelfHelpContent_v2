@@ -22,8 +22,16 @@
     "title": "Installation",
     "formElements": [
         {
-            "id": "error_message",
+            "id": "problem_start_time",
             "order": 1,
+            "required": true,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "error_message",
+            "order": 2,
             "required": false,
             "controlType": "multilinetextbox",
             "displayLabel": "If an error was displayed, what was the error message",
@@ -32,7 +40,7 @@
         },
         {
             "id": "is_reproducible",
-            "order": 2,
+            "order": 3,
             "required": false,
             "controlType": "radioButtonGroup",
             "displayLabel": "Is the problem reproducible?",
@@ -46,12 +54,12 @@
                     "value": "N/A",
                     "text": "N/A"
                 }
-            ],
+            ]
         },
         {
             "id": "problem_description",
-            "order": 3,
-            "required": false,
+            "order": 4,
+            "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue (include steps to reproduce, if applicable)",

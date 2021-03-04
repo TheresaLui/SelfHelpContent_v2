@@ -22,8 +22,16 @@
     "title": "Translation errors or unexpected results",
     "formElements": [
         {
-            "id": "source_db_system",
+            "id": "problem_start_time",
             "order": 1,
+            "required": true,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "source_db_system",
+            "order": 2,
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the source database system?",
@@ -32,7 +40,7 @@
         },
         {
             "id": "source_db_version",
-            "order": 2,
+            "order": 3,
             "required": false,
             "controlType": "textbox",
             "displayLabel": "What is the version of the source database system?",
@@ -41,7 +49,7 @@
         },
         {
             "id": "error_message",
-            "order": 3,
+            "order": 4,
             "required": false,
             "controlType": "multilinetextbox",
             "displayLabel": "If an error was displayed, what was the error message",
@@ -50,7 +58,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "required": false,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
