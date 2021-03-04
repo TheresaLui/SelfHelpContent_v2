@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d509618-63cd-8593-8b0b-e2b7eca8cb00",
+      "longDescription": "",
+      "shortDescription": "Help to troubleshoot issues with initial device configuration and setup",
+      "searchTags": "Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e269913-55f4-1d9e-c493-0d82a1afa5cb",
       "longDescription": "",
       "shortDescription": "Help check if device specifications does not match the order",
