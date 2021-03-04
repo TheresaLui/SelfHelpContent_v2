@@ -50,7 +50,7 @@
       "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
       "longDescription": "",
       "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
-      "searchTags": "Discovery;SQL",
+      "searchTags": "Discovery;SQL;SQL instance;SQL databases",
       "category": "Discovery",
       "useInDiagnoseAndSolve": "true"
     },
