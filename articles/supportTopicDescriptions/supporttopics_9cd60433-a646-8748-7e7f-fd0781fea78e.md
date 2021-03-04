@@ -489,7 +489,7 @@
     {
       "id": "cf61c9c5-eaad-045a-759e-614dadd1237b",
       "longDescription": "",
-      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents, and adding comments",
+      "shortDescription": "A detection rule has created a false or true positive incident, assistance is required",
       "searchTags": "incident;comments;modify",
       "category": "Incidents ",
       "useInDiagnoseAndSolve": "true"
