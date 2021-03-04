@@ -21,6 +21,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "d40a3c20-ba42-b1cf-780e-b7e31dc58c1c",
+      "longDescription": "",
+      "shortDescription": "Help with download and installing the device level updates",
+      "searchTags": "Device updates",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---

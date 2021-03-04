@@ -18,7 +18,9 @@
 # Check the Backend Total Duration
 
 <!--issueDescription-->
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 
+**Next steps:** 
 1. First you will need a narrow Time window in UTC to isolate the customer issue.
 
 2. Check if the Backend is observing high latencies (comparable to what customer is complaining about). Use this query to see if there are latencies that are high in Backend. Replace the account name, TimeStamps in the query. If the latency is Known for a specific kind of request, additional where clause by OperationType , ResourceType 
@@ -38,8 +40,8 @@ BackendEndRequest5M
 
 If the latency in the Backend is not high, continue with client side investigation. Otherwise create an IcM for High Backend Latency
 
-**Customer message:**
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
+## Customer message:
+Based on the troubleshooting step before, please write your conclusions to customer. Don't include any Kusto Query.
 
 <!--/issueDescription-->
 

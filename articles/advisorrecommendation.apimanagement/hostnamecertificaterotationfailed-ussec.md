@@ -1,0 +1,74 @@
+<properties
+    pageTitle="Hostname certificate rotation failed."
+    description="Hostname certificate rotation failed."
+    authors="apicore"
+    ms.author="aoapicoreaft"
+    articleId="d56921ac-4544-4ee0-91cb-865bf9d36d24_USSec"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="USSec"
+	  ownershipId="Compute_APIManagement"
+/>
+# Following hostname certificates failed to rotate in AKV
+---
+{
+  "recommendationOfferingId": "7e1fb574-eb4a-45d7-8db2-c85445aac53f",
+  "recommendationOfferingName": "Azure API Management",
+  "$schema": "AdvisorRecommendation",
+  "recommendationTypeId": "8962964c-a6d6-4c3d-918a-2777f7fbdca7",
+  "recommendationCategory": "HighAvailability",
+  "recommendationImpact": "High",
+  "recommendationResourceType": "Microsoft.ApiManagement/service",
+  "recommendationFriendlyName": "HostnameCertRotationFail",
+  "recommendationMetadataState": "Active",
+  "owner": {
+    "email": "apicore@microsoft.com",
+    "icm": {
+      "routingId": "mdm://adspartner/apimanage/serviceloop",
+      "service": "API Management",
+      "team": "ServicingLoop"
+    },
+    "serviceTreeId": "6ba70dfa-ead9-4cc1-b894-049f8a17c22b"
+  },
+  "version": 1.0,
+  "learnMoreLink": "https://aka.ms/apimdocs/customdomain",
+  "description": "Hostname certificate rotation failed",
+  "longDescription": "API Management service failed to refresh hostname certificate from Key Vault. Ensure that certificate exists in Key Vault and API Management service identity is granted secret read access. Otherwise, API Management service will not be able to retrieve certificate updates from Key Vault, which may lead to the service using stale certificate and runtime API traffic being blocked as a result.",
+  "potentialBenefits": "Ensure service availability",
+  "displayLabel": "Hostname certificate rotation failed",
+  "additionalColumns": [
+    {
+      "name": "message",
+      "title": "Message"
+    }
+  ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "72430dca-3844-4a48-8e6c-8711df8e0e6f",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
+  "actions": [
+    {
+      "actionId": "597a9ec5-5178-44c2-ba8d-e298a3fa4e5a",
+      "description": "Manage hostnames",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}",
+        "menuid": "apim-hostname"
+      }
+    }
+  ],
+  "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://apimussec.usseceast.kusto.core.microsoft.scloud').database('APIMUSSEC').AzureAdvisor_HostnameCertificateRotationFailed",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
+  }
+}
+---

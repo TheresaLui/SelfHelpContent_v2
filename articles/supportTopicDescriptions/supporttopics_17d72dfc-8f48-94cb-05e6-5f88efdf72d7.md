@@ -218,6 +218,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "31db470b-e325-9816-97b5-0eba9c8e4c32",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Azure Disk Backup",
+      "searchTags": "Disk Backup",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "330a2ac9-29db-cf36-287c-9aa4712df954",
       "longDescription": "",
       "shortDescription": "Issues specific to Backup Center - Portal Issues",

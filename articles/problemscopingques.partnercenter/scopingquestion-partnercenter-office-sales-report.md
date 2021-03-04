@@ -29,16 +29,8 @@
        "content": "Please provide the Office Asset or Product ID from Partner Center using <a href='https://docs.microsoft.com/office/dev/store/find-office-guid'>these instructions</a> and attach above in the upload file section"
        },
        {
-	   "id": "seller_id",
-	   "order": 2,
-	   "controlType": "textbox",
-	   "displayLabel": "Seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": true
-       },
-       {
 	   "id": "problem_description",
-	   "order": 3,
+	   "order": 2,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -47,7 +39,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 4,
+	   "order": 3,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",
