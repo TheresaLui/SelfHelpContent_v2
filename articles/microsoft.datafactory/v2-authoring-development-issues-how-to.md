@@ -14,7 +14,7 @@
   
 # Author and Develop using ADF - How To
 
-## How to author and develop using ADF
+## **How to author and develop using ADF**
 
 Azure Data Factory (ADF) contains a series of interconnected systems that provide a complete end-to-end platform for data engineers.
 ADF offers several ways to author and develop pipelines and activities, including via ADF Portal, PowerShell and SDKs. 
@@ -25,10 +25,10 @@ To learn more about ADF features, see the following section.
 
 <br>
 
-### Recommended documents
+### **Recommended documents**
 
 * For details about the visual authoring experience, review  [Visual authoring](https://docs.microsoft.com/azure/data-factory/author-visually).
-* To learn about iterative development debugging in ADF, review [Iterative Development and Debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging)
+* To learn about iterative development and debugging in ADF, review [Iterative Development and Debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging)
 * To learn how to manage pipeline artifacts in ADF, review  [ADF Management](https://docs.microsoft.com/azure/data-factory/author-management-hub)
 * For details about source control in ADF, review [Source Control](https://docs.microsoft.com/azure/data-factory/source-control)
 * For information on publishing pipelines, review [ADF Publishing](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
@@ -38,6 +38,8 @@ To learn more about ADF features, see the following section.
 - Concept: [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
 - How to: [Create pipeline and trigger](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
 - How to: [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
+
+
 - [Quickstart: Create a data factory and pipeline using .NET SDK](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
 - [Quickstart: Create a data factory and pipeline using Python](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-python)
 - [Quickstart: Create an Azure data factory and pipeline by using the REST API](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-rest-api)
@@ -47,7 +49,7 @@ To learn more about ADF features, see the following section.
 
 <br>
 
-### Notes
+### **Notes**
 
 If you are new to ADF, review the following documents.
 
@@ -57,7 +59,7 @@ If you are new to ADF, review the following documents.
 <br>
 
 ### More resources
-Here are some articles from the web that may help you based on the description provided:
+Here are some articles from the web that may help you based on the summary provided:
 
 <azureKB>
 <client>Portal</client>
