@@ -1,22 +1,16 @@
 <properties
-	pageTitle="Issues and questions with DNS and connectivity."
-	description="Resolve difficulties with private IP or configuring private DNS."
-	infoBubbleText="Resolve difficulties with private IP or configuring private DNS"
-	service=""
-	resource=""
-	authors="v-miegge"
-	ms.author="mariliu"
-	displayOrder=""
-	articleId="13a17fa9-c016-4468-b787-0f2c94d8e450"
-	selfHelpType="generic"
-	supportTopicIds="32788104"
-	resourceTags=""
-	productPesIds="16843"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="CloudNet_PrivateLink"
-	diagnosticScenario=""
-/>
-
+  pagetitle="Issues and questions with DNS and connectivity."
+  description="Resolve difficulties with private IP or configuring private DNS."
+  service=""
+  resource=""
+  ms.author="mariliu"
+  selfhelptype="Generic"
+  supporttopicids="32788104"
+  resourcetags=""
+  productpesids="16843"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="13a17fa9-c016-4468-b787-0f2c94d8e450"
+  ownershipid="CloudNet_PrivateLink" />
 # Issues and questions with DNS and connectivity.
 
 ## **Recommended Steps**
@@ -42,21 +36,12 @@ Troubleshooting connectivity issues
 
 - [Troubleshoot Azure Private Endpoint connectivity problems](http://docs.microsoft.com/azure/private-link/troubleshoot-private-endpoint-connectivity)
 - [Troubleshoot Private Link Service connectivity problems (microsoft.com)](http://docs.microsoft.com/azure/private-link/troubleshoot-private-link-connectivity)
+- [Use Azure Firewall to inspect traffic destined to a private endpoint](https://docs.microsoft.com/azure/private-link/inspect-traffic-with-azure-firewall)
 
-Private Endpoint DNS configuration 
-
+Frequently-used links 
 - [Azure Private Endpoint DNS configuration](http://docs.microsoft.com/azure/private-link/private-endpoint-dns)
-Integrate with Private DNS
-- [DNS-Integration-Scenarios at master](https://github.com/dmauser/PrivateLink/tree/master/DNS-Integration-Scenarios)
-
-Build DNS Forwarder
-
-- [PL-DNS-Proxy: NGINX DNS Proxy](https://github.com/Microsoft/PL-DNS-Proxy)
-DNS Configuration Using Active Directory
-- [DNS-Scenario-Using-AD at master](https://github.com/dmauser/PrivateLink/tree/master/DNS-Scenario-Using-AD)
-Azure DNS Limits
+- [Integrate with Private DNS](https://github.com/dmauser/PrivateLink/tree/master/DNS-Integration-Scenarios)
+- [Build DNS Forwarder](https://github.com/Microsoft/PL-DNS-Proxy)
+- [DNS Configuration Using Active Directory](https://github.com/dmauser/PrivateLink/tree/master/DNS-Scenario-Using-AD)
 - [Azure DNS Limits](http://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-dns-limits)
-
-Private Link limits
-
 - [Private Link limits](http://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#private-link-limits)
