@@ -31,6 +31,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "48f73aba-103f-69ce-2a77-0b340ab2d057",
+      "longDescription": "",
+      "shortDescription": "Issues with monitoring metrics such as not accurate or missing from portal ",
+      "searchTags": "metrics;throughput",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "72178db3-bd75-eede-443b-6e3f2fdcfe76",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with developing with REST API, SDKs, CLI tools and ARM templates",
