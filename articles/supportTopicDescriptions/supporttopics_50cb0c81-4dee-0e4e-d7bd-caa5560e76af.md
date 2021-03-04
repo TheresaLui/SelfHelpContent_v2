@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "6503bf00-bff1-7033-d821-4de5105daa20",
+      "longDescription": "",
+      "shortDescription": "Difficulties with resolving private IP or configuring private DNS",
+      "searchTags": "Private ip;DNS Resolution;public ip",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4db8509-8e84-3c1c-777e-5a61e02cc18c",
       "longDescription": "",
       "shortDescription": "The reference to your own service that is powered by Azure Private Link",
