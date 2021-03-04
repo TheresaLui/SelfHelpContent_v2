@@ -15,7 +15,7 @@
 
 ## **Recommended Steps** 
 
-* **.NET:** You can use MSAL.NET to sign in users with social identities by using Azure Active Directory B2C (Azure AD B2C). Learn [how to acquire a token to apply a policy](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#acquire-a-token-to-apply-a-policy).
+* **.NET:** Use MSAL.NET to sign in users with social identities by using Azure Active Directory B2C (Azure AD B2C). Learn [how to acquire a token to apply a policy](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#acquire-a-token-to-apply-a-policy).
 
   Also learn about [Token caching in MSAL.NET](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#token-caching-in-msalnet)
 
