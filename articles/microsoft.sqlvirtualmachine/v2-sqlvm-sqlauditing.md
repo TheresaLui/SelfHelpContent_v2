@@ -13,30 +13,30 @@
   ownershipid="AzureData_AzureSQLVM" />
 # SQL Auditing
 
-4 out of 5 customers were able to resolve issues with SQL Server Auditing by using the following steps. 
+Most customers are able to resolve issues with SQL Server Auditing by using the following steps. 
 
 ## **Recommended Steps** 
 
 - **Error 33204: SQL Server Audit failed to access the security log** 
    
-  Please follow the [Solution documented here](https://support.microsoft.com/topic/kb4052136-fix-sql-server-audit-events-fail-to-write-to-the-security-log-d9708450-6981-2fab-4e58-5f09d561110e) to resolve
-
+   To resolve, see [this page](https://support.microsoft.com/topic/kb4052136-fix-sql-server-audit-events-fail-to-write-to-the-security-log-d9708450-6981-2fab-4e58-5f09d561110e)
+which documents the fix.
 
 - **Error 33208: SQL Server Audit failed to access the security log. Make sure that the SQL service account has the required permissions to access the security log.**    
    
-   Please make sure to specify the Target to write the Audit events and it has [required permissions to write](https://docs.microsoft.com/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15#target)
+   Make sure to specify the Target to write the Audit events, and that it has the [required permissions to write](https://docs.microsoft.com/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15#target)
 
-- **Setup SQL Server Auditing**
+- **Set up SQL Server Auditing**
 
-  In order to enable auditing in SQL Server, you must create **[Server Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15)** and **[Database Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification?view=sql-server-ver15)**. In "Server Audit", you can set the destination of the audit and the action when it is not available to write to the audit. The Server Audit Specification specifies the server-level actions that you want to audit. Database Audit Specification specifies the database-level action of the action to audit.
+  To enable auditing in SQL Server, you must create the **[Server Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15)** and **[Database Audit Specifications](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification?view=sql-server-ver15)**. In "Server Audit", you can set the destination of the audit and the action when it is not available to write to the audit. The Server Audit Specification specifies the server-level actions that you want to audit. Database Audit Specification specifies the database-level action of the action to audit.
 
 - **SQL Threat Detection/Vulnerability Assessments/Azure Defender for SQL Audits Generating errors** 
 
-    To find out the cause you can work with Azure Defender Team or you can disable [Azure Defender Auditing for SQL](https://docs.microsoft.com/azure/azure-sql/database/azure-defender-for-sql#manage-azure-defender-settings) from Security Center
+    To find out the cause, work with Azure Defender Team or disable [Azure Defender Auditing for SQL](https://docs.microsoft.com/azure/azure-sql/database/azure-defender-for-sql#manage-azure-defender-settings) from Security Center.
 
 - **Audit SQL Server Users/Permissions/Password Change** 
 
-   You can use [Audit Actions and Groups](https://docs.microsoft.com/sql/relational-databases/security/auditing/sql-server-audit-action-groups-and-actions?view=sql-server-ver15) to track such changes
+   To track these changes, use [Audit Actions and Groups](https://docs.microsoft.com/sql/relational-databases/security/auditing/sql-server-audit-action-groups-and-actions?view=sql-server-ver15)
 
 
 ## **Recommended Documents** 
