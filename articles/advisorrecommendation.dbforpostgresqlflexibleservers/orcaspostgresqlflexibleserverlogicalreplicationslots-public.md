@@ -5,7 +5,7 @@
     ms.author="ramch"
     articleId="33f26810-57d0-4612-85ff-a83ee9be884a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Remove inactive logical replication slots to improve PostgreSQL server performance
