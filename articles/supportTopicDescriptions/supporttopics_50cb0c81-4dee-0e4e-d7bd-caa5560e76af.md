@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98c7ad8d-6b9e-3236-05f1-339f75ea8ba9",
+      "longDescription": "",
+      "shortDescription": "Performance or increased latency issues with Private link service",
+      "searchTags": "Latency;performance issues;private link service",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c4db8509-8e84-3c1c-777e-5a61e02cc18c",
       "longDescription": "",
       "shortDescription": "The reference to your own service that is powered by Azure Private Link",
