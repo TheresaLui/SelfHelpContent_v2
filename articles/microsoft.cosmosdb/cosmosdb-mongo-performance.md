@@ -47,7 +47,7 @@ If you're wanting to delete large amounts of data without impacting RU:
 [Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 <br>This article describes how you can improve your database performance.
 
-## **FAQs on Server Side Retries(SSR):**  
+### **FAQs on Server Side Retries(SSR):**  
 
 #### Are there any best practices to consider when enabling SSR? 
 If your application is working without many 16500 errors without SSR, it should work great with SSR. If you do see timeout errors, the body of the exception will tell you if it was because of SSR, and it will be an indication that RUs were exceeded for over a minute. SSR works best when combined with autoscale.
