@@ -23,7 +23,7 @@
                 "id": "Indicatiors",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Are there any new indicators in your collections since the your last import? ( check the Solutions tab for more information )",
+                "displayLabel": "Are there any new indicators in your collections since the your last import? (Check the Solutions tab for more information.)",
                 "required": true
 				 },{
 				"id": "problem_description",
