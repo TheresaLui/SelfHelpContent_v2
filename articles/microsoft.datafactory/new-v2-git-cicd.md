@@ -26,8 +26,8 @@ If you happened to choose **Complete** deployment mode and the resources has bee
     * Check deployment history and redeployment everything. 
     * Contact ARM team to see if there is backup to recover from. 
 
-### **Best Practice**
-[Best practices](https://docs.microsoft.com/azure/data-factory/)
+### **Best Practices**
+See the Azure Data Factory documentation for [Best practices](https://docs.microsoft.com/azure/data-factory/).
 
 ### **Custom parameters**
 
