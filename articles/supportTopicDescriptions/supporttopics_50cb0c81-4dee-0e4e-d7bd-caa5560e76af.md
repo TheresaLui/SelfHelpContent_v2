@@ -60,6 +60,14 @@
       "searchTags": "NSG;ASG;Network Security Group;Application Security Group",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f7140a35-8c06-ebc5-d283-18786aa2bd53",
+      "longDescription": "",
+      "shortDescription": "Questions about Private Endpoint limitations",
+      "searchTags": "limitations;limits",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
