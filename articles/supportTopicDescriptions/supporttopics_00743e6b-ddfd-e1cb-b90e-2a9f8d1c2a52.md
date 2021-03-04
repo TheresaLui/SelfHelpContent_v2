@@ -39,6 +39,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "68d9df13-2a57-7e5a-2d51-b0a1ab682f97",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot volume performance issues such as higher than expected latency or lower than expected throughput or IOPS",
+      "searchTags": "performance;throughput;latency;bandwidth",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "72178db3-bd75-eede-443b-6e3f2fdcfe76",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with developing with REST API, SDKs, CLI tools and ARM templates",
