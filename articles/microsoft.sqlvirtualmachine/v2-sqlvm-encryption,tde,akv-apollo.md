@@ -13,21 +13,25 @@
 
 # Encryption, TDE, Azure Key Vault (AKV)
 
-Resolve issues with Encryption, TDE, Azure Key Vault (AKV) by using the following steps. 
+## Resolve issues with Encryption, TDE, Azure Key Vault (AKV) by using the following steps. 
 
 
-:::Section How to set up and use TDE, Always Encrypted or Column Level Encryption:::
+:::Section What is TDE, Always Encrypted, Column Level Encryption and Azure Key Vault and How to Implement:::
 
-### How do I set up and use TDE, Always Encrypted, Column Level Encryption and Azure Key Vault?
+### Difference between TDE, Always Encrypted or Column Level Encryption and its Implementation
 
-- **Transparent Data Encryption:** TDE is a mechanism for encrypting database files at rest. Because the scope of encryption is per database, you cannot see the data in the database even if the database file is stolen. If there is sensitive data in the database that should not be accessed by the administrator we recommend to **[Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal)**
+- **Transparent Data Encryption:** TDE is a mechanism for encrypting database files at rest. Because the scope of encryption is per database, you cannot see the data in the database even if the database file is stolen. If there is sensitive data in the database that should not be accessed by the administrator we recommend to **[Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal)** 
+
 - **Column Encryption:** Encrypt a column of data by using symmetric encryption in SQL Server. This is sometimes known as [*column-level*  or *cell-level* encryption](https://docs.microsoft.com/sql/relational-databases/security/encryption/encrypt-a-column-of-data?view=sql-server-ver15).
+
 - **Always Encrypted:** Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to SQL Server. As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. **[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15)** is a mechanism for applications to encrypt column data. A major difference compared to the aforementioned TDE is that the encryption key can be held on the client side and does not need to be disclosed to the SQL Server.
 
 
-:::Section Resolve common issues when creating asymmetric key :::
+:::Section Troubleshoot failures with Creating asymmetric key :::
 
-- For SQL Server FCI, **Databases are stuck in a recovery pending state after a SQL failover**  
+### Common Issues you may encounter when Creating asymmetric key
+
+- **For SQL Server FCI, Databases are stuck in a recovery pending state after a SQL failover**  
 
     - EKM dll version and build should be same on all Always on Nodes. 
     - Location of EKM dll should be same such as "C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\Microsoft.AzureKeyVaultService.EKM.dll"
@@ -58,7 +62,7 @@ Resolve issues with Encryption, TDE, Azure Key Vault (AKV) by using the followin
    
    Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your AG nodes in VM. Uninstall the **SQL Server Connector for Microsoft Azure Key Vault** from the Control panel and [reinstall following these directions](https://www.microsoft.com/download/details.aspx?id=45344). Make sure that SQL Service has full permissions on the registry and connector path: `C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\`
 
-- When using the RSA-HSM key, the following error occurs: "Key with name 'akv' does not exist in the provider or access is denied. Provider error code  : 3. (Not Supported - Consult EKM Provider for details)"
+- **When using the RSA-HSM key, the following error occurs: "Key with name 'akv' does not exist in the provider or access is denied. Provider error code  : 3. (Not Supported - Consult EKM Provider for details)"**
    
   The SQL Connector for Azure Key Vault with the fix for RSA-HSM was released (1.0.5.0 (version 15.0.2000.440)) and can be [downloaded  here](https://www.microsoft.com/download/details.aspx?id=45344)
 
@@ -68,21 +72,24 @@ Resolve issues with Encryption, TDE, Azure Key Vault (AKV) by using the followin
   - If they're different, drop the key on the secondary replica and recreate the asymmetric key using the same provider key as the primary server. Take a fresh backup and restore the database on secondary.
 
 
-:::Section Enablement solutions with TDE:::
+:::Section Setup TDE with Always On:::
 
 ### Enable TDE on databases which are a part of Availability Groups or Add Encrypted databases to existing Availability groups
 - Review [How to enable TDE Encryption on a database in an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-enable-tde-encryption-on-a-database-in-an-availability/ba-p/318086)
 - Review [How to add a TDE encrypted database to an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-add-a-tde-encrypted-database-to-an-availability-group/ba-p/318490)
 
+:::Section TDE Support for various SQL Versions/Edition::: 
 
 ###  What version or edition of SQL Server Supports TDE/Always Encrypted
 - You can check [what features are supported under what version/edition of SQL Server here](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-ver15)
 
-
+:::Section Failed to enable AKV from SQL VM Resource:::
 ###  Failed to enable AKV integration from SQL Virtual Machine Resource on Azure portal
 -  Make sure you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your VM
 -  Uninstall the "SQL Server Connector for Microsoft Azure Key Vault" from control panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
 - Restart SQL Service and Enable the [AKV integration from SQL Resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/azure-key-vault-integration-configure#existing-vms)
+
+:::Section Extend your client secret when expired:::
 
 ###  I am using TDE EKM with AKV, how can I extend my client secret/AAD Principle which expires/has expired 
 - We need to update the SQL credential with new secrets.   
