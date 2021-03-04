@@ -50,9 +50,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0d703174-0622-2c6c-625f-c58e14597a2b",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected result issues with SQL API SDK for Nodejs or Javascript",
+      "searchTags": "SDK;Nodejs;Javascript;api",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
       "longDescription": "",
-      "shortDescription": "How to with Azure Cosmos DB Cassandra API, including Data Migration",
+      "shortDescription": "How-to with Azure Cosmos DB Cassandra API, including Data Migration",
       "searchTags": "cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
@@ -100,7 +108,7 @@
     {
       "id": "1d77dbfb-e2ae-5fbd-27d8-f746218b96c7",
       "longDescription": "",
-      "shortDescription": "Azure Cosmos DB Resource Limits such as storage, container item size, and any exception showing exceeded limits",
+      "shortDescription": "Azure Cosmos DB Resource limits such as storage, container item size, and any exception showing exceeded limits",
       "searchTags": "limit, quota",
       "category": "Limits and Quotas",
       "useInDiagnoseAndSolve": "true"
@@ -108,9 +116,9 @@
     {
       "id": "1e10f397-d99b-cf37-b8ff-0aa0f478ff9e",
       "longDescription": "",
-      "shortDescription": "How to guidance for SQL API SDK for Python",
+      "shortDescription": "How-to guidance for SQL API SDK for Python",
       "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -156,7 +164,7 @@
     {
       "id": "26727ae1-3877-49f1-ac67-4731a2e22667",
       "longDescription": "",
-      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "shortDescription": "Select the most accurate topic to expedite your support ticket. This topic is for a non listed issue.",
       "searchTags": "Gremlin;Graph",
       "category": "Gremlin",
       "useInDiagnoseAndSolve": "true"
@@ -165,8 +173,8 @@
       "id": "276d8dcf-f990-d5d6-ff1b-d4bca2662b2c",
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK for Python",
-      "searchTags": "Python;SDK;API",
-      "category": "Core (SQL)",
+      "searchTags": "Python;SDK",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -426,6 +434,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a793120-29c3-05f3-402f-0d2930ba33e7",
+      "longDescription": "",
+      "shortDescription": "Core (SQL) Data Migration Issues",
+      "searchTags": "SQL;migrate;migration;import",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5b582dc7-46bd-3590-e50a-c8eb57d5e789",
       "longDescription": "",
       "shortDescription": "Azure Power BI connection to Azure Cosmos DB is failing, throwing an exception, or observing high latency",
@@ -506,6 +522,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7079b122-3e9e-90e9-f7ab-fff77e3994d7",
+      "longDescription": "",
+      "shortDescription": "Issues with Indexing on Cosmos DB MongoDB API accounts",
+      "searchTags": "MongoDB;Mongo",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
       "longDescription": "",
       "shortDescription": "Issues with using Azure Private Link via a private endpoint",
@@ -542,7 +566,7 @@
       "longDescription": "",
       "shortDescription": "Error or unexpected result issues with SQL API SDK for Python",
       "searchTags": "SDK;API;Python",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -574,7 +598,7 @@
       "longDescription": "",
       "shortDescription": "Performance related issues with SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -606,6 +630,14 @@
       "longDescription": "",
       "shortDescription": "Questions on Azure Cosmos DB API for MongoDB",
       "searchTags": "mongo, mongodb",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "886e2125-f2ed-5047-b5d6-f539f63866fe",
+      "longDescription": "",
+      "shortDescription": "MongoDB data migration issues",
+      "searchTags": "Mongo;MongoDB;migrate;migration;import",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
     },
@@ -666,6 +698,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90e00ac4-6301-8178-2b36-d69e85dbf280",
+      "longDescription": "",
+      "shortDescription": "How to guidance for SQL API SDK .NET",
+      "searchTags": "SDK;.NET;API",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
@@ -694,6 +734,14 @@
       "longDescription": "",
       "shortDescription": "High latency related issues for CRUD requests when using SDKs",
       "searchTags": "sdk, latency",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95a8f77a-c998-5749-c74e-66b3196fc6de",
+      "longDescription": "",
+      "shortDescription": "Issues or questions for Python using SQL API",
+      "searchTags": "Python;SQL;SDK",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -834,6 +882,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acf92de9-ca26-d6eb-cc8d-9f23ace52100",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Core (SQL)",
+      "searchTags": "Core (SQL)",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aefad6a8-330d-7c7a-7e84-a1e0fab0f2dc",
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Spark connector with Cosmos DB",
@@ -878,7 +934,7 @@
       "longDescription": "",
       "shortDescription": "How to guidance for SQL API SDK for Nodejs or Javascript",
       "searchTags": "SDK;Javascript;Nodejs;API",
-      "category": "Core (SQL)",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -903,6 +959,14 @@
       "shortDescription": "Information about Reserved Instance offer",
       "searchTags": "reserved instance, RI, pricing",
       "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb13168d-3d79-1572-df16-8fb06a807f48",
+      "longDescription": "",
+      "shortDescription": "How to enable point in time restore for your account",
+      "searchTags": "restore;backup;retention",
+      "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1010,6 +1074,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ca6dbd15-e36d-6eb5-a154-50d8e238432d",
+      "longDescription": "",
+      "shortDescription": "Issues or question on Nodejs or Javascript with SQL API",
+      "searchTags": "nodejs;javascript;sql;sdk",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cd88d787-ef6f-4901-653b-acb3c2b1052f",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB service is failing with authentication error",
@@ -1047,6 +1119,14 @@
       "shortDescription": "Observation exception, long running data load, data is not loaded correctly",
       "searchTags": "data migration",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d2a68517-0048-def9-fafb-e6593cf41734",
+      "longDescription": "",
+      "shortDescription": "How to guidance for Cosmos DB Monitoring related issues",
+      "searchTags": "Monitoring;Monitor",
+      "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1090,6 +1170,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8a26a80-1550-75ef-5c30-db694e4ac579",
+      "longDescription": "",
+      "shortDescription": "Issues and questions related to SQL API SDK",
+      "searchTags": "sql;sdk;api",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
       "shortDescription": "Select the most accurate topic for your issue to expedite your support ticket. This topic is for a non listed issue.",
@@ -1127,6 +1215,14 @@
       "shortDescription": "Provision or manage Azure Cosmos DB account through ARM Template or access the resources through Rest API",
       "searchTags": "arm, arm template, rest, rest api",
       "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e98c90d1-eeab-1a6b-5ec7-019192ce0868",
+      "longDescription": "",
+      "shortDescription": "Issues and question on .NET for SQL API",
+      "searchTags": ".net;sql",
+      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -1199,6 +1295,14 @@
       "shortDescription": "Architecting Azure Cosmos DB data model",
       "searchTags": "advisory, architecture",
       "category": "General Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f3eae135-295b-7bb2-6de7-e3dfdaa8433c",
+      "longDescription": "",
+      "shortDescription": "Cassandra Data Migration Issues",
+      "searchTags": "Cassandra;migrate;migration;import",
+      "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
     {

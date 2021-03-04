@@ -20,19 +20,25 @@
     {
       "id": "1af7f3a0-1757-3543-4b6a-c945c3ad187b",
       "longDescription": "",
-      "shortDescription": "Questions about adding, removing, or managing your partner locations in Partner Center",
+      "shortDescription": "Questions about adding, removing/deleting, or managing your partner locations in Partner Center",
       "searchTags": "Subsidiary;Accounts;Onboarding;Locations",
+    },
+    {
+      "id": "fc24b8cc-6eed-8e5c-5167-747c579c88f2",
+      "longDescription": "",
+      "shortDescription": "Questions about a cleanup account, delete MPN/CSP footprint from Partner Center",
+      "searchTags": "",
     },
     {
       "id": "87f4a558-e866-6ab7-75f8-eabba4e91250",
       "longDescription": "",
-      "shortDescription": "Questions about consolidating your accounts from Partner Membership Center (PMC) or consolidating existing accounts in Partner Center",
+      "shortDescription": "Questions about merging accounts that already exist in Partner Center, roles and impacts for benefits and competencies before and after this action is taken",
       "searchTags": "Accounts;Merge;PMC",
     },
     {
       "id": "8e86c780-2e60-9850-5217-59b31e079f9d",
       "longDescription": "",
-      "shortDescription": "Questions about Azure MSP, including the process and criteria required to enroll",
+      "shortDescription": "Questions about Advanced Specialization programs, enrollment process, renewal, status",
       "searchTags": "Accounts;Onboarding;Specialization;Enrollment",
     },
     {
@@ -44,7 +50,7 @@
     {
       "id": "95b1a700-7fa0-a34a-4d94-79aae67c1a2d",
       "longDescription": "",
-      "shortDescription": "Questions about Azure Expert MSP details and enrollment",
+      "shortDescription": "Questions about Azure Expert MSP, enrollment process , renewal, status",
       "searchTags": "Accounts;Onboarding;MSP;Enrollment",
     },
     {
@@ -56,31 +62,31 @@
     {
       "id": "947c4002-296a-cde8-f0b1-931edc6718f5",
       "longDescription": "",
-      "shortDescription": "Questions about renewing your MAPS or competency enrollment",
+      "shortDescription": "Questions about Network Membership/Action Pack/Competency, before enrolling-attaining them",
       "searchTags": "Accounts;Renewing;MAPS;Competency",
     },
     {
       "id": "a69afb34-6945-520a-361e-ae5dd3a4ac8c",
       "longDescription": "",
-      "shortDescription": "Questions about renewing MPN through Partner Center, or purchasing or renewing MAPS",
+      "shortDescription": "Questions about Network Membership/Action Pack/Competency, before enrolling-attaining them",
       "searchTags": "Accounts;Renewing;MAPS",
     },
     {
       "id": "1d2698c9-fe2d-aa43-b36a-adad8e63efc1",
       "longDescription": "",
-      "shortDescription": "Questions about moving your organization's accounts and users from Partner Membership Center (PMC) to Partner Center",
+      "shortDescription": "Questions about moving your organization's accounts and users from Partner Membership Center (PMC) to Partner Center; issues during migration process",
       "searchTags": "Accounts;Onboarding;PMC;Migration",
     },
     {
       "id": "ae686004-3b43-ca32-257d-579e76315a7a",
       "longDescription": "",
-      "shortDescription": "Questions about enrolling in MPN Action Pack or competency programs",
+      "shortDescription": "Questions about enrolling to MPN Program using a Net New account or an existing one, walkthrough assistance",
       "searchTags": "Accounts;Onboarding;Enrollment;Action;Pack",
     },
     {
       "id": "35c14645-3129-ee18-1cc1-18daf6275ab4",
       "longDescription": "",
-      "shortDescription": "Questions about managing your MPN ID or associating it with your organization account",
+      "shortDescription": "Questions about managing your MPN ID or associating it with your organization account; unable to associate MPN ID with the CSP account or with an app (Developer account)",
       "searchTags": "MPN;ID;Associate;Accounts;Onboarding;MPNid;Organization",
     },
     {
@@ -92,7 +98,7 @@
     {
       "id": "70a7a2ec-ed97-c718-6e07-856d36593c9b",
       "longDescription": "",
-      "shortDescription": "Questions about the MPN Learning option requirements, or enrollment in Software Assurance",
+      "shortDescription": "Questions about Software Assurance, enrollment process",
       "searchTags": "Accounts;Onboarding;Learning;Enrollment",
     },
     {

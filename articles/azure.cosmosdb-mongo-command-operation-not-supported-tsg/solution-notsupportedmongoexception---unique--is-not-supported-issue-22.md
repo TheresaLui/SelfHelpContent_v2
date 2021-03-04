@@ -18,8 +18,11 @@
 # NotSupportedMongoException: 'unique' is not supported issue
 
 <!--issueDescription-->
-
+### ** THIS IS NOT A CUSTOMER READY CONTENT MESSAGE **
 If the following steps don't help the customer, please create a CRI for Product team to enable if needed.
+
+## Customer message:
+Dear customer,
 
 **Error message returned**
 `
@@ -47,10 +50,6 @@ To validate, you need to run 'get database account'  ACIS command against the ac
  
 
 If enableBsonSchema is false and/or  is set to true, follow the guidelines for enabling bson schema on the account before enabling index management
-
-
-#Customer message:
-Based on the troubleshooting step before, please write your conclusions to customer.Don't include any Kusto Query.
 
 <!--/issueDescription-->
 

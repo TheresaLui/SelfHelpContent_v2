@@ -17,31 +17,33 @@
 
 # Issues with setting up monitors and alerts
 
-In Azure Database for PostgreSQL, you can alert on metrics for your Azure services. If you use [Azure Monitor Logs for your Postgres logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs), you can [configure log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log). 
+In Azure Database for PostgreSQL - Single server, you can setup  alerts on service metrics. If you use [Azure Monitor Logs for your Postgres logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs#configure-diagnostic-settings), you can [configure log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log). 
 
 Most users are able to resolve their issue using the steps below.
 
-## **Recommended Steps**
+## **Recommended steps**
 
-* If you are having trouble creating and managing metric alerts using Azure portal, review the [Set up alerts on metrics](https://docs.microsoft.com/azure/postgresql/howto-alert-on-metric) how-to
-* If you are having trouble using Azure CLI:
+* Having trouble creating and managing metric alerts using Azure portal? 
+  * Review the [Set up alerts on metrics](https://docs.microsoft.com/azure/postgresql/howto-alert-on-metric) how-to page.
+* Are you having trouble using Azure CLI?
   * Make sure you are signed in to the correct account using **az login**
-  * Ensure you are using the correct subscription, in case you have more than one
+  * Ensure you are using the correct subscription, in case you have more than one.
   * Specify all required parameters in **az monitor metrics alert** with valid values. Review the [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) documentation for valid parameters.
 
-* If you are having trouble using Azure Rest API:
+* Are you having trouble using Azure Rest API?
   * Familiarize yourself with [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse)
   * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See the [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
 
-* If you are having trouble configuring planned maintenance notification, review [how to enable planned maintenance notification](https://docs.microsoft.com/azure/postgresql/concepts-monitoring#to-receive-planned-maintenance-notification)
+* Are you having trouble configuring planned maintenance notification? 
+  * Review [how to enable planned maintenance notification](https://docs.microsoft.com/azure/postgresql/concepts-monitoring#planned-maintenance-notification)
 
-* **Query Performance Insight**, Performance Recommendations, Query Store not working
+* Are you trying to enable **Query Performance Insight**, Performance Recommendations, or Query Store on a replica server or on a server that was a replica before?
 
    * Replicas do not support Query Performance Insight and Performance Recommendation features. The Query Store database on replicas is a copy of the primary server's Query Store data.
    
    * After a replica becomes a standalone server, [set Query Store parameters](https://docs.microsoft.com/azure/postgresql/concepts-query-store#enabling-query-store) and restart the former replica to activate the feature
 
-## **Recommended Documents**
+## **Recommended documents**
 
 * [List of Azure Database for PostgreSQL metrics](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)<br>
 * [Create an alert rule on a metric from Azure portal](https://docs.microsoft.com/azure/postgresql/howto-alert-on-metric/)<br>
