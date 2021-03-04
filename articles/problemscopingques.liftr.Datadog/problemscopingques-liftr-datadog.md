@@ -12,7 +12,7 @@
 	ownershipId="PartnerSolutions_Confluent"
 />
 # Datadog on Azure
-
+---
 {
    "$schema":"SelfHelpContent",
    "subscriptionRequired":true,
