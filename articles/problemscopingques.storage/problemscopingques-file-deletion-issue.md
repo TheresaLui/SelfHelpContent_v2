@@ -48,7 +48,7 @@
                         "text": "NA"
                     }
                 ]
-            }
+            },
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
