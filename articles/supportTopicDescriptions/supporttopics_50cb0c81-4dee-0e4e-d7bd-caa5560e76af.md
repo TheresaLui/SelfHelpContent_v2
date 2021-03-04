@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3dacdc16-8656-35c2-8314-5cd85f4a5db7",
+      "longDescription": "",
+      "shortDescription": "Questions about Private Endpoint limitations",
+      "searchTags": "limits;limitations",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "478d9450-82b7-c71a-5ca1-623ba28a5550",
       "longDescription": "",
       "shortDescription": "Issues with creating, updating, or managing private endpoint",
