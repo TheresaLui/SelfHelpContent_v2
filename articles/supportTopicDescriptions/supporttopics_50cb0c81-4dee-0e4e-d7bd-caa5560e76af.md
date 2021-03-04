@@ -7,19 +7,20 @@
   productpesids="50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
   cloudenvironments=""
   disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
-  articleid="supporttopics_50cb0c81-4dee-0e4e-d7bd-caa5560e76af" />
+  articleid="supporttopics_50cb0c81-4dee-0e4e-d7bd-caa5560e76af"
+  ownershipid="CloudNet_PrivateLink" />
 # Support Topic Descriptions for 50cb0c81-4dee-0e4e-d7bd-caa5560e76af
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "This is the support topic tree for Azure Private Link.",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/azure/private-link/private-link-overview",
+  "productLinkName1": "Product Overview",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "1dd04765-c993-2fde-8740-62c990b4249e",
