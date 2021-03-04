@@ -7,7 +7,7 @@
   productpesids="b13ac5ef-6423-c7d6-7151-1fa89016d8d3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
   articleid="supporttopics_b13ac5ef-6423-c7d6-7151-1fa89016d8d3"
-  clientIds="partnercenter"
+  clientIds='partnercenter'
   ownershipid="PartnerCenter_MPN_Benefits_and_Competencies" />
 
 # Support Topic Descriptions for b13ac5ef-6423-c7d6-7151-1fa89016d8d3 
