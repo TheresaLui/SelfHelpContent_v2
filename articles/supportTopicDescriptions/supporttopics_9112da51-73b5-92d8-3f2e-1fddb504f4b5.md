@@ -36,6 +36,14 @@
       "searchTags": "synapse;pathway;error;crash;failure",
       "category": "Azure Synapse Pathway",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ddd1b6f6-de4d-3996-cfbc-786ac47b2abb",
+      "longDescription": "",
+      "shortDescription": "Script translation taking longer than expected or remains in hung state. Application performance is slower than expected.",
+      "searchTags": "synapse;pathway;performance;slow;hang",
+      "category": "Azure Synapse Pathway",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
