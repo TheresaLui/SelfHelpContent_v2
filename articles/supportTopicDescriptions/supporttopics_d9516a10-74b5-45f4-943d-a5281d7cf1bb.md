@@ -978,6 +978,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc2e28ed-4d88-462e-78fd-f1207e56e837",
+      "longDescription": "",
+      "shortDescription": "Gremlin (Graph) Data Migration Issues",
+      "searchTags": "Gremlin;Graph;migrate;migration;import",
+      "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bdcd3fa3-04a3-032b-ee4a-4db844e124f7",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account, or change an existing Azure Cosmos DB account configuration",
