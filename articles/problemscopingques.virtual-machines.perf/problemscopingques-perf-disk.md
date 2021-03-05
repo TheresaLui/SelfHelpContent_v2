@@ -5,7 +5,7 @@
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628264,32740099,32748893,32740104, 32740098,32740064"
-                productPesIds="14749"
+                productPesIds="14749,14745,16342"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0052"
