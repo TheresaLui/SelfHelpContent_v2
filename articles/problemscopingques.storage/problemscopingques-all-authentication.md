@@ -5,8 +5,8 @@
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_authentication"
-	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32731237"
-	productPesIds="15629,16459,16598"
+	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500"
+	productPesIds="15629,16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -37,6 +37,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Error code",
+            "defaultDropdownOptions": "HTTP 403"
             "watermarkText": "HTTP error of failed operation",
 	    "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
