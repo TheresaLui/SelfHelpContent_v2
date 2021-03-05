@@ -38,7 +38,7 @@
    This step should yield an error message describing why the job execution failed.
 
 
-## **Common issues**
+## **Resolve common issues**
 
 * [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
 * If you are experiencing a restriction with creating Job agents and you see an error similar to `The Job agent could not be created because it would exceed the maximum Job agent quota of 5 for your subscription in the selected region`, continue creating this ticket as a request to bump up your Job agent quota.
