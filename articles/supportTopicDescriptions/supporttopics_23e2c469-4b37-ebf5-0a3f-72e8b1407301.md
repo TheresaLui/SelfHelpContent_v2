@@ -5,8 +5,8 @@
   ms.author="aschhab"
   selfhelptype="SupportTopicDescription"
   productpesids="23e2c469-4b37-ebf5-0a3f-72e8b1407301"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  disableclouds=""
   articleid="supporttopics_23e2c469-4b37-ebf5-0a3f-72e8b1407301"
   ownershipid="AzureMessaging_Common" />
 # Support Topic Descriptions for 23e2c469-4b37-ebf5-0a3f-72e8b1407301
