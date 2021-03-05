@@ -1,9 +1,9 @@
 <properties
-    pageTitle="Right-size cost Azure Data Explorer clusters."
-    description="Right-size cost Azure Data Explorer clusters."
+    pageTitle="Right-size Azure Data Explorer clusters."
+    description="Right-size Azure Data Explorer clusters."
     authors="raldaba"
     ms.author="aoaft"
-    articleId="567187Ba-1bdd-4dd8-ab70-6d494190df58_Public"
+    articleId="53c3a9f6-baa8-4997-b5a5-a3b5d3347afe_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureDataExplorer_Kusto"
@@ -11,20 +11,19 @@
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
 {
-  "recommendationOfferingId": "30e759db-a347-421d-a0b4-93a2ac30c1f8",
+  "recommendationOfferingId": "d09be8a5-3108-430b-9182-25441e2025e7",
   "recommendationOfferingName": "Azure Data Explorer",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
+  "recommendationTypeId": "da4d47d5-b48b-4308-93bc-29d954424e76",
   "dataSourceMetadata": {
-    "schemaVersion": 2.1,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_CostChangedReco",
+    "streamNamespace": "cluster('https://kustodataestate.westeurope.kusto.windows.net').database('AdvisorRecommendations').PublishPerformanceSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
-  "recommendationCategory": "Cost",
+  "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
-  "recommendationFriendlyName": "Right-size ADX clusters for cost",
+  "recommendationFriendlyName": "Right-size ADX cluster",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -43,11 +42,11 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
-  "learnMoreLink": "https://aka.ms/adxskusize",
-  "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
-  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",
-  "potentialBenefits": "Optimize cost",
+  "version": 4.0,
+  "learnMoreLink": "https://aka.ms/adxskuperformance",
+  "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
+  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
+  "potentialBenefits": "Optimize performance",
   "actions": [
     {
       "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
@@ -69,7 +68,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "216d3260-6c8c-4d41-93b4-702605a3a7e8",
+      "actionId": "2fad54ad-2907-4a6a-b5c2-180c726fa3e4",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -96,7 +95,6 @@
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
-  ],
-  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
-}
+  ]
+ }
 ---
