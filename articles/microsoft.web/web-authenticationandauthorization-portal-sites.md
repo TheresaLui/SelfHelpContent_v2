@@ -18,7 +18,7 @@
 
 * [Overview of Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)
 * [Authentication and authorization HTTP status codes, ex: 401.71, 401.83](https://github.com/cgillum/easyauth/wiki/HTTP-Status-Codes)
-* [Authentication and authorization error codes, ex: "AADSTS####"](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
+* [Authentication and authorization error codes (for example, "AADSTS####")](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
 * [Refresh access tokens](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#refresh-access-tokens)
 * [Extend session expiration grace period](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
 * [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
