@@ -17,7 +17,7 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 # Cannot delete ExpressRoute circuit
 <!--issueDescription-->
-We have identified a recent failed attempt to delete your ExpressRoute circuit **<!--$CircuitName-->CircuitName<!--/$CircuitName-->**. ExpressRoute facilitates connectivity to private resources deployed within an Azure virtual network via private peering or to online Microsoft resources deployed with a public IP address via Microsoft peering. To delete an ExpressRoute circuit, any reference resources (such as Route Filters or virtual network connections) must be deleted and any peering must be deprovisioned.
+We have determined that the ExpressRoute circuit **<!--$CircuitName-->CircuitName<!--/$CircuitName-->** cannot be deleted because it has associated virtual network connections. ExpressRoute facilitates connectivity to private resources deployed within an Azure virtual network via private peering or to online Microsoft resources deployed with a public IP address via Microsoft peering. To delete an ExpressRoute circuit, any reference resources (such as Route Filters or virtual network connections) must be deleted and any peering must be deprovisioned.
 
 Here is the list of virtual network connections to the circuit **<!--$CircuitName-->CircuitName<!--/$CircuitName-->**:
 
