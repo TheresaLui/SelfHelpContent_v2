@@ -16,14 +16,16 @@
 
 # create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)
 
-### Types of purchasing models
+
+## Types of purchasing models
 
 * DTU-based
 
-	This model is best for  Customers who want simple, preconfigured resource options. It is based on a bundled measure of compute, storage, and I/O resources. Compute sizes are expressed in DTUs for single databases and in elastic database transaction units (eDTUs) for elastic pools. For more information about DTUs and eDTUs, see [What are DTUs and eDTUs?](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models#dtu-based-purchasing-model).	
+   This model is best for customers who want simple, preconfigured resource options. It is based on a bundled measure of compute, storage, and I/O resources. Compute sizes are expressed in DTUs for single databases and in elastic database transaction units (eDTUs) for elastic pools. For more information about DTUs and eDTUs, see [What are DTUs and eDTUs?](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models#dtu-based-purchasing-model).	
 
 * vCore-based
-		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
+
+   This model is best for customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
 
 ### Upgrade to latest version of SQL
 
@@ -36,38 +38,38 @@ Every job logs the status of execution and also automatically retries the operat
 
 ### Quota Requests
 
-To request a quota increase or whitelist a subscription for a particular region follow [Quota requests](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request)
+To request a quota increase or to add a subscription for a particular region to the allow list, follow [Quota requests](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request).
 
-### Problems selecting a particular service tier
+## Problems selecting a particular service tier
 
 If you are facing issues while choosing a particular service tier, it could be due to: 
 
 ### 1. Capacity issues 
 
-	As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
+As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
 
-	As mentioned in our commitment to customers and Microsoft cloud services continuity [here](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/), top priority is going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality. We will also constrain non-paid subscriptions as necessary, to ensure support of existing paid customers, so free trial & benefit subscriptions may see limited resource options and limited regions available.
+As mentioned in our commitment to customers and Microsoft cloud services continuity [here](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/), top priority is going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality. We will also constrain non-paid subscriptions as necessary, to ensure support of existing paid customers. As a result, free trial and benefit subscriptions may see limited resource options and limited regions available.
 
-	If you would like assistance with this, request you to please create a support request with our Quota team. You can do that by clicking on New Support request, then under the Basics tab select:
-	* Issue Type: Service and subscription limits (quotas)
-	* Quota type: SQL database
+If you would like assistance with this, request you to please create a support request with our Quota team. You can do that by clicking on New Support request, then under the Basics tab select:
+* Issue Type: Service and subscription limits (quotas)
+* Quota type: SQL database
 
-	Please provide the following information when you submit the request: 
-	* Region: 
-	* Region need to be enabled? (Yes/No): 
-	* SKU (Example - B1M100/P1):
-	* No of Databases that will be deployed: (for SKU and number of databases, please let us know how many databases per SKU you need in case you need multiple SKUs)
+Provide the following information when you submit the request: 
+* Region: 
+* Region need to be enabled? (Yes/No): 
+* SKU (Example - B1M100/P1):
+* No of Databases that will be deployed: (for SKU and number of databases, please let us know how many databases per SKU you need in case you need multiple SKUs)
 
 ### 2. Portal issues 
 
-	If you are unable to view the database in your Azure portal but are still able to view\manage it using other client tools, it could be a issue with browser cache, we recommend:
-	* Trying incognito or private mode in the browser. 
-	* Clear your browser cache. 
-	* Re-login into your portal.
+If you are unable to view the database in your Azure portal but are still able to view or manage it using other client tools, it could be a issue with browser cache. <br>We recommend the following:
+* Try incognito or private mode in the browser
+* Clear your browser cache
+* Re-login into your portal
 
 ### Questions regarding the deprecation of Premium RS?
 
-[This article](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-prs?WT.mc_id=pid:13491:sid:32630449/) explains how to migrate a database or elastic pool from Premium RS to a different service tier, and provides guidance on how to choose a service tier comparable to the Premium RS tier you're currently using.
+[This article](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-prs?WT.mc_id=pid:13491:sid:32630449/) explains how to migrate a database or elastic pool from Premium RS to a different service tier. It also provides guidance on how to choose a service tier comparable to the Premium RS tier you're currently using.
 
 ## **Recommended Documents**
 
