@@ -51,6 +51,17 @@
       "documentLink": "https://aka.ms/azure_postgresql_flexible_server_logical_decoding"
     }
   ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "7df52e3b-7ca7-4e49-98f8-f503ba32f5af",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
   "displayLabel": "Remove inactive logical replication slots",
   "additionalColumns": [],
   "tip": "You can improve your PostgreSQL server performance by removing inactive logical replication slots."

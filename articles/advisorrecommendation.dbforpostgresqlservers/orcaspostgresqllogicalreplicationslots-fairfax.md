@@ -53,6 +53,17 @@
       "documentLink": "https://aka.ms/azure_postgresql_drop_replication_slot"
     }
   ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "a78f5b46-f994-4f0a-91fb-077bc1296606",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
   "displayLabel": "Remove inactive logical replication slots",
   "additionalColumns": [],
   "tip": "You can improve your PostgreSQL server performance by removing inactive logical replication slots."
