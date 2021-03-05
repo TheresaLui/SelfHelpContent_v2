@@ -53,7 +53,7 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "file_share_or_path",
+            "id": "file_path",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "File path",
