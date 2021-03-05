@@ -50,7 +50,7 @@
             		"order": 3,
             		"controlType": "dropdown",
 			"visibility": "failed_operation != null && failed_operation == Delete",
-            		"displayLabel": "NetApp Account",
+            		"displayLabel": "NetApp account",
             		"watermarkText": "Select NetApp Account used?",
             		"dynamicDropdownOptions": {
                 		"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.NetApp/netAppAccounts?api-version=2019-11-01",
@@ -74,7 +74,7 @@
       			"order": 4,
       			"controlType": "textbox",
 			"visibility": "failed_operation != null && failed_operation == Create",
-      			"displayLabel": "What was the NetApp Account name used?",
+      			"displayLabel": "What was the NetApp account name used?",
       			"watermarkText": "Name of NetApp Account used",
       			"required": false
     		}, {
