@@ -21,7 +21,7 @@ We have identified that your ExpressRoute gateway resource '**<!--$GatewayName--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- Review the number of routes that you are advertising from on-premises, and the frequency at which you change these routes. Advertising many routes or frequently changing the advertised routes might increase your gateway CPU use. Therefore, consider reducing the number of routes or the frequency at which you change the advertised routes.
+- Review the number of routes that you are advertising from on-premises, and the frequency with which you change these routes. Advertising many routes or frequently changing the advertised routes can increase your gateway CPU use. For this reason, consider reducing the number of routes or the frequency with which you change the advertised routes.
 - If you are experiencing performance issues, consider [upgrading your gateway SKU](https://docs.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#gwsku) to support higher network throughput.
-- If your gateway continues to report high CPU use, and you still experience performance issues, please submit a support request in the Azure portal for more help.
+- If your gateway continues to report high CPU use, and you still experience performance issues, submit a support request in the Azure portal for assistance.
 
