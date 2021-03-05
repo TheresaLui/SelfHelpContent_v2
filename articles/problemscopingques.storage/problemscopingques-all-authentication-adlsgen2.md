@@ -4,7 +4,7 @@
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_all_authentication"
+	articleId="StorageScoping_all_authentication_adlsgen2"
 	supportTopicIds="32679291,32679292,32679290,32680499,32731237"
 	productPesIds="16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
