@@ -20,7 +20,7 @@
 # You have Key Vault Managed HSM recommendations
 
 <!--issueDescription-->
-An application(s) does not have sufficient permissions to perform operations on '<!--$PoolName-->[PoolName]<!--/$PoolName-->' Managed HSM.
+An application does not have sufficient permissions to perform operations on '<!--$PoolName-->[PoolName]<!--/$PoolName-->' Managed HSM.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -34,9 +34,9 @@ To solve this problem,
   az ad sp show --id "<!--CallerId-->[CallerId]<!--/CallerId-->" 
   ```
 
-2. If this is a trusted application, ask an administrator ( a user in Managed HSM builtin roles "Managed HSM Administor" ) of Managed HSM '**<!--PoolName-->[PoolName]<!--/PoolName-->**' to assign a appropriate role to the application with service principal id '**<!--CallerId-->[CallerId]<!--/CallerId-->**'.
+2. If this is the right application, ask an administrator ( a user in Managed HSM builtin roles "Managed HSM Administor" ) of Managed HSM '**<!--PoolName-->[PoolName]<!--/PoolName-->**' to assign a appropriate role to service principal id '**<!--CallerId-->[CallerId]<!--/CallerId-->**' as the following:<br>
  
-  For example when using Azure CLI, run this command as the administrator of the Managed HSM '<!--PoolName-->[PoolName]<!--/PoolName-->':<br>
+  For example in Azure CLI, run the following command as the administrator of the Managed HSM '<!--PoolName-->[PoolName]<!--/PoolName-->':<br>
   - To give key encrypt/decrypt operations to the application:
     ```
     az keyvault role assignment create --assignee "<!--CallerId-->[CallerId]<!--/CallerId-->" --role "Managed HSM Crypto User" --scope "/" --hsm-name <!--PoolName-->[PoolName]<!--/PoolName-->
@@ -50,12 +50,12 @@ To solve this problem,
 
   Role "Managed HSM Administrator" has all the permissions.
 
-  To list all the administorators of this Managed HSM, run Azure CLI command:
+  To list all the administrators of this Managed HSM, run Azure CLI command:
   ```
   az keyvault role assignment list --hsm-name <!--PoolName-->[PoolName]<!--/PoolName--> --role "Managed HSM Administrator"
   ```
 
-  See links below for details of different builtin roles' permissions in Managed HSM.
+  See links below for details of different builtin roles' permissions in Azure Managed HSM service.
 
 ## **Recommended Documents**
 
