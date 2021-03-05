@@ -16,18 +16,18 @@
 ## **Recommended Steps**
 
 1. Verify that you are signed in with the correct user account, with permissions to open the protected content.
-2. If you are trying to open files other than Office documents (such as files that have a file name extension of **.ppdf,** **.pjpg,** **.ppng,** **.ptxt,** or **.pfile**) use the Azure Information Protection viewer.
-3. If you are using Office 2010 to open protected content, verify that you have the Azure Information Protection client installed.
+2. If you are trying to open files other than Office documents (such as files that have a file name extension of `.ppdf`, `.pjpg`, `.ppng`, `.ptxt`, or `.pfile`) use the Azure Information Protection viewer.
+3. If you use Office 2010 to open protected content, verify that you have the Azure Information Protection client installed.
 4. Review the following documentation to verify that you are using a supported file type with a supported application: [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)
-5. If you need to open content where you don't have permissions, such as if the user has left the company, you can use the Super User feature: [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users)
-6. Make sure you have followed all network requirements as described at [Firewalls and network infrastructure](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
-7. If you need to open a PDF file that was protected using AIP client - you can also open it with Adobe Acrobat Reader with [MIP plugin](https://helpx.adobe.com/il_en/acrobat/kb/mip-plugin-download.html) 
+5. If you need to open content where you don't have permissions, such as if the user has left the company, you can use the Super User feature. See [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+6. Make sure you've followed all network requirements as described at [Firewalls and network infrastructure](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
+7. To open a PDF file that was protected using AIP client, you can use Adobe Acrobat Reader with the [MIP plugin](https://helpx.adobe.com/il_en/acrobat/kb/mip-plugin-download.html) 
 8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook.
-2. Select the **Sensitivity**/**Protect** button -> **Help and feedback**.
+2. Select the **Sensitivity**/**Protect** button > **Help and feedback**.
 3. Select **Export Logs**.
 4. Save the logs to a location of your choice and then attach them to this service request.
 
