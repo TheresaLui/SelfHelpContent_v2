@@ -33,7 +33,7 @@
     {
       "id": "034610b7-e093-dbd9-0f6f-21cc7829bd45",
       "longDescription": "",
-      "shortDescription": "Having issues while using the Investigation feature",
+      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents and adding comments",
       "searchTags": "issues;investigation",
       "category": "Incidents",
       "useInDiagnoseAndSolve": "true"
@@ -223,6 +223,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43baed3d-3abf-a921-93f8-b6e98c537028",
+      "longDescription": "",
+      "shortDescription": "Hunting, Watchlist, Bookmarks and Notebooks",
+      "searchTags": "Hunting;Watchlist;Bookmarks ;Notebooks",
+      "category": "Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4c5c911b-a3f0-e3a2-8816-e6a7b7a039e7",
       "longDescription": "",
       "shortDescription": "Select this scenario if your issue is not listed and open a case with Microsoft",
@@ -303,6 +311,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bdd233b-6649-748a-88c1-f810fe632029",
+      "longDescription": "",
+      "shortDescription": "Scheduling Alert rules , mapping entities to rules, creating Incident rules",
+      "searchTags": "Alert ;Rule",
+      "category": "Analytics",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6ce76384-b2e8-050b-48dc-f5cb8e2a17e5",
       "longDescription": "",
       "shortDescription": "How to connect and configure data sources",
@@ -345,7 +361,7 @@
     {
       "id": "8c0d9b39-1fe6-53ac-1029-73f5dfabc71c",
       "longDescription": "",
-      "shortDescription": "Overview, errors questions, and advisory on settings",
+      "shortDescription": "Errors and failure in loading overview page ",
       "searchTags": "overview",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
@@ -425,7 +441,7 @@
     {
       "id": "bb58b8f0-f14a-5caa-66f7-c11edbd083b6",
       "longDescription": "",
-      "shortDescription": "Topics covering creating workspaces, access, and connectivity issues",
+      "shortDescription": "Topics covering creating Sentinel workspaces, access, permissions and roles issues",
       "searchTags": "workspace;connectivity;create",
       "category": "Management",
       "useInDiagnoseAndSolve": "true"
@@ -479,6 +495,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc514713-629d-c849-de7b-140619c3037d",
+      "longDescription": "",
+      "shortDescription": "Entity Behavior Analytics configuration ",
+      "searchTags": "UEBA;Entity ;Behavior ",
+      "category": "UEBA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf160ee7-7924-6d43-e3bb-fd7eb4675807",
       "longDescription": "",
       "shortDescription": "Troubleshoot and create Analytics alert rules",
@@ -489,7 +513,7 @@
     {
       "id": "cf61c9c5-eaad-045a-759e-614dadd1237b",
       "longDescription": "",
-      "shortDescription": "Problem with the incidents screen and viewing individual incidents, modifying incidents, and adding comments",
+      "shortDescription": "A detection rule has created a false or true positive incident, assistance is required",
       "searchTags": "incident;comments;modify",
       "category": "Incidents ",
       "useInDiagnoseAndSolve": "true"

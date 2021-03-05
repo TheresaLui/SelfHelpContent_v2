@@ -20,8 +20,8 @@
 Before continuing to troubleshoot the connection it is important to ensure that the VPN  as a whole is in a connected state. 
 
 
-#Recommended Steps
+# Recommended Steps
 
-	1. Navigate to the VPN Gateway in ASC
-	2. Scroll down to find the connectivity state. Ensure it is in the connected state.
+1. Navigate to the VPN Gateway in ASC
+2. Scroll down to find the connectivity state. Ensure it is in the connected state.
 

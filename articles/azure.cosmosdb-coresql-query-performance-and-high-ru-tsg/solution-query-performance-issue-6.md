@@ -23,11 +23,11 @@ Dear customer,
 
 This Guide should provide you information how to assist a in case you are experiencing slow performance from SQL Query.
 
-###Tuning Query Performance with Azure Cosmos DB
+### Tuning Query Performance with Azure Cosmos DB
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-query-metrics
 
 
-##Slow performance receiving documents
+## Slow performance receiving documents
 **SQL API/.Net**
 Identify what page size you are using and size of the documents.
  
