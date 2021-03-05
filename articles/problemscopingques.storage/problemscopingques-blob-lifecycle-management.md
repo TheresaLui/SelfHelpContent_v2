@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Blob Lifecycle Management scoping questions"
 	description="Blob Lifecycle Management scoping questions"
-	authors="annayak"
-    ms.author="annayak"
+	authors="broder"
+    ms.author="broder"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32683730,32691063"
 	productPesIds="16459,16598"
@@ -14,6 +14,7 @@
 # Blob Lifecycle Management
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Blob Lifecycle Management Scoping Questions",
@@ -21,28 +22,48 @@
     "diagnosticCard": {
         "title": "Blob Lifecycle Management Troubleshooter",
         "description": "Help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a case.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please provide a sample blob path with this issue and ensure that it is in the approved format as suggested in the watermark."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please review the recommended solutions below."
     },
     "formElements": [
         {
-            "id": "blob_path",
+            "id": "lcm_scenarios",
             "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Sample blob path with tiering issues",
-            "watermarkText": "'mycontainer/myblob.txt'",
+            "controlType": "dropdown",
+            "displayLabel": "Select the scenario that matches your issue",
+            "dropdownOptions": [{
+                    "value": "lcm_did_not_work",
+                    "text": "Lifecycle Management did not work at all for this account"
+                }, {
+                    "value": "lcm_did_not_work_container_blob",
+                    "text": "Lifecycle Management did not work for a specific container or blob"
+                }, {
+                    "text": "Other, my scenario is not listed",
+                    "value": "dont_know_answer"
+                }
+            ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "problem_start_time",
+            "id": "blob_path",
             "order": 3,
+            "visibility": "lcm_scenarios == lcm_did_not_work_container_blob",
+            "controlType": "textbox",
+            "displayLabel": "Provide the container or blob path",
+            "watermarkText": "'mycontainer' or 'mycontainer/myblob.txt'",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
