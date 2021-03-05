@@ -1,6 +1,6 @@
 <properties
-  pagetitle="Continuous Integration and Delivery with Git Repository Integration"
-  ms.author="nimoolen,fangl"
+  pagetitle="Continuous Integration and Delivery with Git Repository Integration&#xD;"
+  ms.author="nimoolen,fangl,rakatuko"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -12,7 +12,6 @@
 
 ## **Recommended Steps**
 
-
  ### **Known limitations**
 
 See all [unsupported features](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features):
@@ -21,8 +20,14 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 - We do not recommend assigning Azure RBAC controls to individual entities (pipelines, datasets, and so on) in a data factory. For example, if a developer has access to a pipeline or a dataset, they should be able to access all pipelines or datasets in the data factory. If you feel that you need to implement many Azure roles within a data factory, consider deploying a second data factory.
 - You cannot publish from private branches
 
-### **Best Practice**
-[Best practices](https://docs.microsoft.com/azure/data-factory/)
+### **Deployment mode**
+- In Complete deployment mode, resources that exist in the resource group but aren't specified in the new Resource Manager template will be deleted. For more information, please refer to [Azure Resource Manager Deployment Modes](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-modes).
+If you happened to choose **Complete** deployment mode and the resources has been deleted. We recommend you to 
+    * Check deployment history and redeployment everything. 
+    * Contact ARM team to see if there is backup to recover from. 
+
+### **Best Practices**
+See the Azure Data Factory documentation for [Best practices](https://docs.microsoft.com/azure/data-factory/).
 
 ### **Custom parameters**
 
