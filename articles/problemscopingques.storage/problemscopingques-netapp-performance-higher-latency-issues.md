@@ -29,7 +29,7 @@
 		        "id": "ping_volume",
             		"order": 2,
             		"ControlType": "dropdown",
-            		"displayLabel": "Are you able to ping the mount ip address for the volume that is experiencing performance issues?",
+            		"displayLabel": "Are you able to ping the mount IP address for the volume that is experiencing performance issues?",
 			"dropdownOptions": [
 					{
                     				"value": "Yes",
