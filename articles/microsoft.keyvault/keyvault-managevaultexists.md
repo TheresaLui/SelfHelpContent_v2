@@ -17,12 +17,12 @@
 * [Create and manage Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 * [Secure your Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
 
-### Troubleshooting
+### Troubleshoot Key Vault issues
 
 * How can I back up Key Vault or Key Vault objects?<br>
-	You can back up individual Key Vault objects, for example, Backup Key, Backup Secret, Backup Certificate, by [using Azure CLI](https://docs.microsoft.com/rest/api/keyvault/backupkey), [Using Powershell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/backup-azurekeyvaultkey?view=azurermps-6.13.0). The backup command backs up old versions of each secret. If you have a secret with a large number of previous versions (more than 10), the request size might exceed the allowed maximum and the operation might fail.
+  You can back up individual Key Vault objects, for example, Backup Key, Backup Secret, Backup Certificate, by [using Azure CLI](https://docs.microsoft.com/rest/api/keyvault/backupkey), [Using Powershell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/backup-azurekeyvaultkey?view=azurermps-6.13.0). The backup command backs up old versions of each secret. If you have a secret with a large number of previous versions (more than 10), the request size might exceed the allowed maximum and the operation might fail.
 
-* Moving Key Vault
+* To move a key vault, see these resources:
     - [Moving an Azure Key Vault across resource groups](https://docs.microsoft.com/azure/key-vault/general/move-resourcegroup)
     - [Moving an Azure Key Vault to another subscription](https://docs.microsoft.com/azure/key-vault/general/move-subscription)
     - [Moving an Azure key vault across regions](https://docs.microsoft.com/azure/key-vault/general/move-region)
