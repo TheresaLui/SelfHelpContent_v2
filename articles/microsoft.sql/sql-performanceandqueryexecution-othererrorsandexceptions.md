@@ -27,8 +27,7 @@ Information about troubleshooting specific common errors is given in the followi
 
 ### Error 701: There is insufficient system memory to run this query
 
-SQL Server has failed to allocate sufficient memory to run the query. This can be caused by a variety of reasons including operating system settings, physical memory availability, or memory limits on the current workload. In most cases, the transaction that failed is not the cause of this error.
-See [this reference](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-701-database-engine-error?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) for assistance in troubleshooting this error. 
+SQL Server has failed to allocate sufficient memory to run the query. This can be caused by a variety of reasons including operating system settings, physical memory availability, or memory limits on the current workload. In most cases, the transaction that failed is not the cause of this error.See [this reference](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-701-database-engine-error?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) for assistance in troubleshooting this error. 
 
 ### Error 10930: The service is currently too busy
 
