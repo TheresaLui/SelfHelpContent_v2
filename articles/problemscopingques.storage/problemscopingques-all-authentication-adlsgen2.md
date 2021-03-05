@@ -127,11 +127,11 @@
 	    ]
         },
         {
-            "id": "blob_container",
+            "id": "file_system",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Blob container",
-            "watermarkText": "Choose a specific container",
+            "displayLabel": "Filesystem",
+            "watermarkText": "Choose a specific filesystem",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
                 "jTokenPath": "value",
@@ -144,19 +144,19 @@
             },
             "dropdownOptions": [
                 {
-                    "value": "NoBlobContainer",
-                    "text": "Not specific to a blob container"
+                    "value": "NoFilesystem",
+                    "text": "Not specific to a filesystem"
                 }
             ],
             "required": false,
              "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "blob_path",
+            "id": "file_path",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Blob path",
-            "watermarkText": "Blob name or path if specific to a blob",
+            "displayLabel": "file path",
+            "watermarkText": "File name or path if specific to a file",
             "required": false,
              "diagnosticInputRequiredClients": "Portal,ASC"
         },
@@ -164,7 +164,7 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "displayLabel": "Provide any additional details like exception message and error stack",
             "required": true,
             "useAsAdditionalDetails": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
