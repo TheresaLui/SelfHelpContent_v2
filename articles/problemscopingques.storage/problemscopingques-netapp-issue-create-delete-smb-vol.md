@@ -80,7 +80,7 @@
       			"order": 6,
      			  "controlType": "textbox",
       			"displayLabel": "Error message",
-      			"watermarkText": "What was the error message",
+      			"watermarkText": "What was the error message?",
       			"required": false
     		}
   	]
