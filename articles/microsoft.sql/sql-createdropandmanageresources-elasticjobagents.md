@@ -16,28 +16,29 @@
 
 # create drop and manage resources/elastic job agents
 
-## Determining the cause of failure
+## Determine the cause of failure
 
-You can confirm the failure by issuing the following query in Sql Server Management Studio when connected to the job database.
+1. Confirm the failure by issuing the following query in SQL Server Management Studio when connected to the job database.
 
-```
-SELECT *  
-FROM jobs.job_executions  
-WHERE job_name = '<>'
-ORDER BY start_time DESC 
-```
+   ```
+   SELECT *  
+   FROM jobs.job_executions  
+   WHERE job_name = '<>'
+   ORDER BY start_time DESC 
+   ```
 
-You can drill down into the failure message by executing the following query:
+1. To drill down into the failure message, run the following query:
 
-```
-SELECT last_message  
-FROM jobs.job_executions 
-WHERE job_name = '<>' AND step_name <> 'NULL'
-```
+   ```
+   SELECT last_message  
+   FROM jobs.job_executions 
+   WHERE job_name = '<>' AND step_name <> 'NULL'
+   ```
 
-This step should yield an error message describing why the job execution failed.
+   This step should yield an error message describing why the job execution failed.
 
-## **Recommended Steps**
+
+## **Common issues**
 
 * [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
 * If you are experiencing a restriction with creating Job agents and you see an error similar to `The Job agent could not be created because it would exceed the maximum Job agent quota of 5 for your subscription in the selected region`, continue creating this ticket as a request to bump up your Job agent quota.
