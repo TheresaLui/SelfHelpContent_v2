@@ -24,7 +24,7 @@ We have detected that Storage Firewalls and Virtual Networks is currently config
 
 ## **Recommended Steps**
 
-* For successful execution of Lifecycle management policies on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** , add **Trusted Services** as an exception
+* For successful execution of Lifecycle management policies on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** , add **[Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)** as an exception
 
 ## **Recommended Documents**
 
