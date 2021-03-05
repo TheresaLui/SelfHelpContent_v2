@@ -16,34 +16,39 @@
 
 # create drop and manage resources/elastic job agents
 
-## Determining the cause of failure
+<<<<<<< HEAD
+### Determining the cause of failure
+=======
+## Determine the cause of failure
+>>>>>>> d6f02c65556a4a0b822a59e430ff07e956ea7306
 
-You can confirm the failure by issuing the following query in Sql Server Management Studio when connected to the job database.
+1. Confirm the failure by issuing the following query in SQL Server Management Studio when connected to the job database.
 
-```
-SELECT *  
-FROM jobs.job_executions  
-WHERE job_name = '<>'
-ORDER BY start_time DESC 
-```
+   ```
+   SELECT *  
+   FROM jobs.job_executions  
+   WHERE job_name = '<>'
+   ORDER BY start_time DESC 
+   ```
 
-You can drill down into the failure message by executing the following query:
+1. To drill down into the failure message, run the following query:
 
-```
-SELECT last_message  
-FROM jobs.job_executions 
-WHERE job_name = '<>' AND step_name <> 'NULL'
-```
+   ```
+   SELECT last_message  
+   FROM jobs.job_executions 
+   WHERE job_name = '<>' AND step_name <> 'NULL'
+   ```
 
-This step should yield an error message describing why the job execution failed.
+   This step should yield an error message describing why the job execution failed.
 
-## **Recommended Steps**
 
-* [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
+## **Resolve common issues with Elastic Job agents**
+
 * If you are experiencing a restriction with creating Job agents and you see an error similar to `The Job agent could not be created because it would exceed the maximum Job agent quota of 5 for your subscription in the selected region`, continue creating this ticket as a request to bump up your Job agent quota.
 * If you are experiencing Job step timeouts with your ongoing Job executions, try bumping up your Job step's timeout values such as `step_timeout_seconds`, `retry_attempts`, and `retry_interval_backoff_multiplier`.
 	* See [sp_update_jobstep](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#sp_update_jobstep) T-SQL documentation or [Set-AzSqlSqlElasticJobStep](https://docs.microsoft.com/powershell/module/az.sql/Set-AzSqlElasticJobStep) for PowerShell documentation for more details on how to update step retry or timeout settings for your Job step.
-* If you are seeing an increase in your Job database storage size due to Job execution history taking up space, you can use the [sp_purge_job_history](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#delete-old-job-history) to clean up more job history prior to a certain date. By default, the Jobs service retains job execution history of 45 days.
+* If you are seeing an increase in your Job database storage size due to Job execution history taking up space, you can use the [sp_purge_job_history](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#delete-old-job-history) to clean up more job history prior to a certain date. By default, the Jobs service retains job execution history of 45 days.* For more information, see [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
+* For more information, see [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
 
 ## **Recommended Documents**
 

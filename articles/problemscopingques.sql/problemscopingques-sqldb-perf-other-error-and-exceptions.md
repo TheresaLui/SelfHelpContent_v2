@@ -42,24 +42,24 @@
             "infoBalloonText": "Other common peformance issue categories",
             "dropdownOptions": [
             {
-            "value":"Query Store and Related Issues",
-            "text": "Query_Store"
+                "text":"Query Store and Related Issues",
+                "value": "Query_Store"
             },
             {
-            "value": "Issues with Bulk Insert",
-            "text": "Bulk_Insert"
-            },
-             {
-            "value": "Temp DB Full other Issues with TempDB",
-            "text": "Temp_DB"
-            },
-             {
-            "value": "Error 9002: The transaction log for database X is full",
-            "text": "Transaction_Log_Full"
+                "text": "Issues with Bulk Insert",
+                "value": "Bulk_Insert"
             },
             {
-            "value": "dont_know_answer",
-            "text": "None of the above"
+                "text": "Temp DB Full or other Issues with TempDB",
+                "value": "Temp_DB"
+            },
+            {
+                "text": "Error 9002: The transaction log for database X is full",
+                "value": "Transaction_Log_Full"
+            },
+            {
+                "text": "None of the above",
+                "value": "dont_know_answer"
             }
         ],
             "required": true,
