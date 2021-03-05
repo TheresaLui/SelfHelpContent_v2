@@ -5,8 +5,8 @@
   ms.author="taballa"
   selfhelptype="SupportTopicDescription"
   productpesids="ffc9bb42-93e4-eb40-5421-ba3537f3a012"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_ffc9bb42-93e4-eb40-5421-ba3537f3a012"
   ownershipid="CloudNet_AzureBastion" />
 # Support Topic Descriptions for ffc9bb42-93e4-eb40-5421-ba3537f3a012

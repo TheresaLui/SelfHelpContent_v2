@@ -5,8 +5,8 @@
   ms.author="hadhand"
   selfhelptype="SupportTopicDescription"
   productpesids="297c5dfa-56dd-8040-1ae5-88f78d60e055"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_297c5dfa-56dd-8040-1ae5-88f78d60e055"
   ownershipid="StorageMediaEdge_AzureStack_Edge" />
 # Support Topic Descriptions for 297c5dfa-56dd-8040-1ae5-88f78d60e055
