@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Business to Consumer (B2C)&#xD;"
+  pagetitle="Business to Consumer (B2C)"
   service=""
   resource=""
-  ms.author="nishring,runuguse"
+  ms.author="runuguse"
   selfhelptype="Generic"
   supporttopicids="32633321"
   resourcetags=""
@@ -15,14 +15,23 @@
 
 ## **Recommended Steps** 
 
-1. Search for your question on [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html) using the tag `azure-ad-b2c`
-1. Check out our [samples](https://azure.microsoft.com/resources/samples/?term=b2c) that integrate Azure AD B2C with various platforms
-1. If you are having trouble with access tokens, check out our article on how to [use access tokens](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-access-tokens)
-1. Learn how to customize your UI by checking out our [guide on customizing UI](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-ui-customization)
+* **.NET:** Use MSAL.NET to sign in users with social identities by using Azure Active Directory B2C (Azure AD B2C). Learn [how to acquire a token to apply a policy](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#acquire-a-token-to-apply-a-policy).
 
-## **Recommended Documents**
+  Also learn about [Token caching in MSAL.NET](https://docs.microsoft.com/azure/active-directory/develop/msal-net-aad-b2c-considerations#token-caching-in-msalnet)
 
-* [Issues signing in to Microsoft applications using Chrome browser](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
-* [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)
-* [Samples on Github](https://github.com/Azure-Samples?q=b2c)
-* [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
+
+* **Android:** The Microsoft Authentication Library (MSAL) enables application developers to authenticate users with social and local identities by using Azure Active Directory B2C (Azure AD B2C). Learn how to: 
+   * [Interactively acquire a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#interactively-acquire-a-token)
+   * [Silently renew a token](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#silently-renew-a-token)
+   * [Get the access token and related properties](https://docs.microsoft.com/azure/active-directory/develop/msal-android-b2c#get-the-access-token-and-related-properties)
+
+
+### **Recommended Documents**
+
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices) for integrating Azure AD B2C into existing or new application environments  
+
+* Check out our [Azure AD B2C community samples at GitHub](https://github.com/azure-ad-b2c/samples) today
+
+* Review [Frequently-asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs) about the Azure Active Directory B2C 
+
+* Ask your question to our developer community at [ Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html)

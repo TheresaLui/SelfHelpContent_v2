@@ -23,10 +23,11 @@ Support might ask you to engage other channels for open-source technologies wher
 
 ## **Recommended Steps**
 
-**Problem:** After installing PyPMML in a Azure Databricks cluster, it fails with a error `Py4JError: Could not find py4j jar`  
+**Issue:** After installing PyPMML in a Azure Databricks cluster, it fails with a error "Py4JError: Could not find py4j jar".
 **Solution:** Follow the [steps here](https://docs.microsoft.com/azure/databricks/kb/libraries/pypmml-fail-find-py4j-jar#solution) to resolve this issue.
 
 ## **Recommended Documents**
 
 * [Libraries overview and Guidance](https://docs.microsoft.com/azure/databricks/libraries)
 * [Problem: Can’t Uninstall Library From UI](https://docs.microsoft.com/azure/databricks/kb/libraries/cant-uninstall-libraries)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)

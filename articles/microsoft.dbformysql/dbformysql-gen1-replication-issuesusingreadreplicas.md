@@ -17,7 +17,7 @@
 
 # Issues using read replicas in Azure Database for MySQL - Single Server
 
-The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate up to five replicas from the master server. Replicas are updated asynchronously using the MySQL engine native binary log (binlog) file position-based replication technology.
+The read replica feature lets you replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate up to five replicas from the master server. Replicas are updated asynchronously using the MySQL engine native binary log (`binlog`) file position-based replication technology.
 
 Most users are able to resolve issues by using the steps below.
 
@@ -27,9 +27,10 @@ Most users are able to resolve issues by using the steps below.
 
 Review [Common scenarios for high replication latency](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-replication-latency#common-scenarios-for-high-replication-latency). Pay special attention to `binlog_group_commit_sync_delay` parameter, which controls how many microseconds the binary log commit waits before synchronizing the binary log file.
 
+
 **Make sure all your tables have primary keys**
 
-Lack of primary keys makes SQL thread scans all rows in the target table to apply the changes. This scan can cause replication latency.
+Lack of primary keys makes SQL thread scan all rows in the target table to apply the changes. This scan can cause replication latency.
 
 **Note:** High resource usage (specifically IOPS, which are Intensive Write), causes multiplication of `binlog` files. Replaying these files on Read Replica slows down the overall replication performance and therefore might break replication.
 
@@ -67,6 +68,10 @@ To update one of the locked parameters on the master server: Delete replica serv
 **Move replicas to other subscriptions**
 
 Replica servers are always created in the same resource group and same subscription as the master server. If you want to create a replica server in a different resource group or different subscription, you can [move the replica server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
+
+### **Private link for replicas**
+
+If you are using private link, make sure that you have a separate private link for replicas and ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
 
 ## **Recommended Documents**
 

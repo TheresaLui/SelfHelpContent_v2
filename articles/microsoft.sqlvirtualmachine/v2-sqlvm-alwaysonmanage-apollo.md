@@ -10,52 +10,54 @@
 	ownershipId="AzureData_AzureSQLVM" 
 />
 
-# Always On Availability Groups - Failure,Failover, Sync issues
+# Always On Availability Groups - Failure, Failover, Sync issues
 
-## Resolve issues with Availability Groups - Failure,Failover, Sync issues
+## Resolve issues with Availability Groups - Failure, Failover, Sync issues
 
 :::Section Metrics and Diagnostics:::  
 
 ### AG Failure diagnostics
 
-<Insight>
+<insight>
     <symptomId>SqlVmHADRPortalInsight</symptomId>
     <executionText>We are running a few performance checks on your VM</executionText>
     <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
     <noResultText>No issues found</noResultText>
     <additionalInputsReq>true</additionalInputsReq>
-</Insight>
+    <maxInsightCount>1</maxInsightCount>
+    <failedText>We ran into an issue and could not complete this check</failedText>
+</insight>
 
 ### Recommended Steps 
 
-Most of users are able to resolve their issues using the following steps.
+Most users are able to resolve their issues using the following steps.
 
-:::Section Availability Group **failed, restarted, failed over or the lease timed out:::
+:::Section Availability Group failed, restarted, failed over or the lease timed out:::
 
 ### Availability Group failed, restarted, failed over or the lease timed out 
 To know the root cause of the issue, review the logs using [this tool](https://techcommunity.microsoft.com/t5/sql-server/failover-detection-utility-availability-group-failover-analysis/ba-p/386021). 
 
 To avoid this issue:<br>
 - Make sure that the Windows cluster service is running and that [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster).
-- [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). 
-  - Use separate premium or ultra data disks for SQL data (.mdf, .ndf) and SQL log (.ldf) files
-  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (mdf/ndf) files
-  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (ldf) file
+- Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). 
+  - Use separate premium or ultra data disks for SQL data (`.mdf`, `.ndf`) and SQL log (`.ldf`) files
+  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (`mdf/ndf`) files
+  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (`ld`f) file
   - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the [latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) to avoid any known issues
-- If you are seeing VM level throttling, move to a [larger sized VM](https://docs.microsoft.com/azure/virtual-machines/sizes)
-- You can temporarily mask the underlying issue by relaxing the [AG lease timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#lease-timeout)  and [HealthCheckTimeout](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/configure-healthchecktimeout-property-settings?view=sql-server-ver15#TsqlExample) to a higher value than the default value, such as 60000 (60 seconds),  making [FailureConditionLevel](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#health-check-values) less restrictive (such as 1 or 2, instead of the default 3).
+- If you are seeing VM level throttling, move to a [larger-sized VM](https://docs.microsoft.com/azure/virtual-machines/sizes)
+- You can temporarily mask the underlying issue by relaxing the [AG lease timeout](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#lease-timeout) and [HealthCheckTimeout](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/configure-healthchecktimeout-property-settings?view=sql-server-ver15#TsqlExample) to a higher value than the default value, such as 60000 (60 seconds), making the [`FailureConditionLevel`](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-lease-healthcheck-timeout?view=sql-server-2017#health-check-values) less restrictive (such as 1 or 2, instead of the default 3).
 
 :::Section Event ID 1135:::
 
-### Event ID 1135 -node was removed from cluster membership, "quorum lost", or "Windows Cluster Stops"
+### Event ID 1135 - Node was removed from cluster membership, "Quorum lost", or "Windows Cluster stops"
 - Ensure [cluster network thresholds are relaxed](https://docs.microsoft.com/windows-server/troubleshoot/iaas-sql-failover-cluster)
-- [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)
-  - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
-  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (mdf/ndf) files
-  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (ldf) file
-  - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
+- Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics)
+  - Use separate premium or ultra data disks for SQL data (`mdf/ndf`) and SQL log (`ldf`) files
+  - Set [disk caching to **ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting data (`mdf/ndf`) files
+  - Set [disk caching to **None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for disks hosting the log (`ldf`) file
+  - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [`TempDB`, on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the [latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) to avoid any known issues
 - If you are seeing VM level throttling, moving to a [larger sized VM](https://docs.microsoft.com/azure/virtual-machines/sizes) may resolve the issue
@@ -103,9 +105,9 @@ To avoid this issue:<br>
 
 ### **AG is Slow to Synchronize or Redo is Lagging**  
 - [Follow Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) **to avoid [VM and disk IO throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics).**  
-  - Use separate premium or ultra data disks for SQL data (mdf/ndf) and SQL log (ldf) files
-  - Set [**disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for **disks hosting data (mdf/ndf) files**
-  - Set [**disk caching to None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) **for disks hosting the log (ldf) file**
+  - Use separate premium or ultra data disks for SQL data (`mdf/ndf`) and SQL log (`ldf`) files
+  - Set [**disk caching to ReadOnly**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) for **disks hosting data (`mdf/ndf`) files**
+  - Set [**disk caching to None**](https://docs.microsoft.com/learn/modules/caching-and-performance-azure-storage-and-disks/4-exercise-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal?WT.mc_id=Portal-Microsoft_Azure_Support) **for disks hosting the log (`ldf`) file**
   - Place the [system page file](https://docs.microsoft.com/windows/client-management/introduction-page-file), [TempDB on the local SSD D:\ drive](https://cloudblogs.microsoft.com/sqlserver/2014/09/25/using-ssds-in-azure-vms-to-store-sql-server-tempdb-and-buffer-pool-extensions/) for mission-critical SQL Server workloads (after choosing the correct VM size)
   - Move user and system databases, and SQL logs and trace files, from the OS (C:) drive to data drives
 - Update to the **[latest SQL Server patch](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds)** to avoid any known issues
@@ -118,13 +120,13 @@ To avoid this issue:<br>
 ### **Event ID 157- Disk was Surprised-Removed** 
 This can happen if the following conditions are present: 
 - There is significant disk IO [throttling](https://docs.microsoft.com/azure/virtual-machines/windows/disk-performance-windows#storage-io-utilization-metrics). Follow [Performance Guidelines](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for SQL Server on Azure VM to avoid IO throttling. 
-- The Storage Spaces property `AutomaticClusteringEnabled` is set to `True` **for an AG Environment**. Change it to `False.` 
+- The Storage Spaces property `AutomaticClusteringEnabled` is set to `True` **for an AG Environment**. Change it to `False`. 
 - Running [Cluster validation Report](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj134244%28v=ws.11%29#to-run-the-validate-a-configuration-wizard) **with Storage option**
 
 :::Section AG DB log file unable to shrink or is growing:::
 
 ### **AG DB log file unable to shrink or is growing** 
-- Review  [this article](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability) to understand and manage the AG database log file.
+- Review [error 9002](https://support.microsoft.com/help/2922898/error-9002-the-transaction-log-for-database-full-due-to-availability) to understand and manage the AG database log file.
 - Review [factors that can delay log truncation](https://docs.microsoft.com/sql/relational-databases/logs/the-transaction-log-sql-server?view=sql-server-ver15#FactorsThatDelayTruncation)
 
 :::Section Error There have been X misaligned log IOs:::
@@ -133,22 +135,23 @@ This can happen if the following conditions are present:
 - This can happen in a hybrid environment, such as on-premises and Azure with [different disk sector sizes](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si). 
    - [Apply the latest SQL Server patch**](https://support.microsoft.com/help/957826/where-to-find-information-about-the-latest-sql-server-builds) and use [`trace flag 1800` as a startup parameter](https://support.microsoft.com/help/3009974/kb3009974-fix-slow-synchronization-when-disks-have-different-sector-si).
 
-:::Section Unable to login after failover:::
+:::Section Unable to log in after failover:::
 
-### **Unable to login after failover** 
-- Ensure that you use the AG Listener name or the [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) to connect 
+### **Unable to log in after failover** 
+- Ensure that you use the AG Listener name or the [DNN](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-distributed-network-name-dnn-listener-configure) to connect. 
 - [Listener is set up with a load balancer correctly](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial#create-an-azure-load-balancer). 
-- Appropriate logins are available in the new primary. [Use Method 2 in this article, under More Information](https://support.microsoft.com//help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server) to transfer logins from the previous primary to the new primary
+- Appropriate logins are available in the new primary. [Use Method 2 in this article, under More Information](https://support.microsoft.com//help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server) to transfer logins from the previous primary to the new primary.
 
-:::Section How do I setup AG:::
+:::Section How do I set up AG:::
 
-### **How do I setup AG** 
+### **How do I set up AG** 
 [Compare different ways](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-overview#deployment) to setup AG and use one of the following methods that best fits your environment:
   * [Configure Availability Group Pre-requisites](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-prerequisites-tutorial) and then set [Always On Configuration manually](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-manually-configure-tutorial)
   * [Use PowerShell or Azure CLI to configure an Availability Group](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-az-commandline-configure?tabs=azure-cli)
   * [Use Azure Quick Start templates to configure an Availability Group](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-quickstart-template-configure)
   * [Configure an Availability Group using Azure portal preview](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?tabs=azure-cli)
 
+:::Section Recommended Documents :::
 
 ### Recommended Documents 
 - [Monitor and troubleshoot Always On Availability Groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-troubleshooting-and-monitoring-guide?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support) Availability Groups

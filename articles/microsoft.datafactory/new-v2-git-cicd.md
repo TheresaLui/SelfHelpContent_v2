@@ -1,6 +1,6 @@
 <properties
-  pagetitle="Continuous Integration and Delivery with Git Repository Integration"
-  ms.author="nimoolen"
+  pagetitle="Continuous Integration and Delivery with Git Repository Integration&#xD;"
+  ms.author="nimoolen,fangl,rakatuko"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -12,7 +12,6 @@
 
 ## **Recommended Steps**
 
-
  ### **Known limitations**
 
 See all [unsupported features](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features):
@@ -20,6 +19,15 @@ See all [unsupported features](https://docs.microsoft.com//azure/data-factory/co
 - Bitbucket and GitLab are not currently supported in Azure Data Factory (ADF)
 - We do not recommend assigning Azure RBAC controls to individual entities (pipelines, datasets, and so on) in a data factory. For example, if a developer has access to a pipeline or a dataset, they should be able to access all pipelines or datasets in the data factory. If you feel that you need to implement many Azure roles within a data factory, consider deploying a second data factory.
 - You cannot publish from private branches
+
+### **Deployment mode**
+- In Complete deployment mode, resources that exist in the resource group but aren't specified in the new Resource Manager template will be deleted. For more information, please refer to [Azure Resource Manager Deployment Modes](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-modes).
+If you happened to choose **Complete** deployment mode and the resources has been deleted. We recommend you to 
+    * Check deployment history and redeployment everything. 
+    * Contact ARM team to see if there is backup to recover from. 
+
+### **Best Practices**
+See the Azure Data Factory documentation for [Best practices](https://docs.microsoft.com/azure/data-factory/).
 
 ### **Custom parameters**
 
@@ -31,7 +39,7 @@ Git publishing does not allow publishing for a subset of changes. To publish ind
 
 ### **Azure Resource Manager template size limit**
 
-If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits
+If you reach the Azure Resource Manager template size limits, use [Linked Resource Manager Templates](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#linked-resource-manager-templates) to work around the limits.
 
 ### **Running only in test env.**
 When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
