@@ -218,6 +218,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "31db470b-e325-9816-97b5-0eba9c8e4c32",
+      "longDescription": "",
+      "shortDescription": "Issues specific to Azure Disk Backup",
+      "searchTags": "Disk Backup",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "330a2ac9-29db-cf36-287c-9aa4712df954",
       "longDescription": "",
       "shortDescription": "Issues specific to Backup Center - Portal Issues",
@@ -535,6 +543,14 @@
       "shortDescription": "Issue while taking backup using SQL Server",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8be6bd4d-b058-2f92-60f6-cf01cd5ad6c8",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing restore",
+      "searchTags": "restore;disk backup",
+      "category": "connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {

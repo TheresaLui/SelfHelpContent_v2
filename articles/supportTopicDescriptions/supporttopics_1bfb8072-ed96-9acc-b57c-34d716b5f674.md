@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   authors="elixirsys2"
-  ms.author="shemers, olegan, luki"
+  ms.author="shemers, olegan, luki, yossiy"
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -729,7 +729,7 @@
     {
       "id": "ebf41f04-0371-eabe-8e01-e3425b851837",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related to Log Analytics workspaces",
+      "shortDescription": "Workspace and dedicated-cluster operations including create, delete, move, etc., permissions and data security compliance and control",
       "searchTags": "Log Analytics;Workspace",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
