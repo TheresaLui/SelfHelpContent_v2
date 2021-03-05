@@ -1,5 +1,5 @@
 <properties
-  pagetitle="This is the title of the article. It is not displayed in the portal but is a required part of every article."
+  pagetitle="I have issues accessing my Key Vault from my Monitoring profile"
   description=""
   service=""
   resource=""
@@ -11,9 +11,13 @@
   disableclouds=""
   articleid="edaef5e9-ee11-4dc3-bac6-c4da20760f48"
   ownershipid="AzureData_AzureSQLDB" />
-# This is the title of the article. It is not displayed in the portal but is a required part of every article.
+# I have issues accessing my Key Vault from my Monitoring profile
 
-This is a brief paragraph about the problem.  It can be as simple as "Most users are able to resolve their [topic] issue using the steps below", or a more detailed outline of the issue being experienced.
+When using a Key Vault to store the username and/or password for your connection strings to your SQL systems, there are 3 common issues we see: 
+
+1. You don't have sufficient permissions on the Key Vault to access the Secret stored in it
+2. The secret you are referencing in the VM Configuration does not exist in the Key Vault
+3. If the Secret and Key Vault were working, but no have an error then the Secret may have been disabled
 
 ## **Recommended Steps**
 
