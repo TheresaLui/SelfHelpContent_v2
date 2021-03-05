@@ -35,7 +35,7 @@
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/shares?api-version=2019-06-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
-                "valueProperty": "id",
+                "valueProperty": "name",
                 "textPropertyRegex": "[^/]+$",
                 "defaultDropdownOptions":
                 {
