@@ -18,7 +18,7 @@
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
 IO Usage is split into two types: Data IO and Log IO.
-Select the button below to identify the top IO consuming queries
+Select the button below to identify the top IO consuming queries.
 
 [Top IO consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
 
