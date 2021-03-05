@@ -18,7 +18,7 @@
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
 IO Usage is split into two types: Data IO and Log IO.
-Click the button below to identify the top IO consuming queries
+Select the button below to identify the top IO consuming queries
 
 [Top IO consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
 
@@ -49,10 +49,11 @@ If the IO usage is above 80%, you have two options:
 
 When identifying IO performance issues, the top wait types associated with IO issues are:
 
-* **PAGEIOLATCH_**: For data file IO issues (including PAGEIOLATCH_SH, PAGEIOLATCH_EX, PAGEIOLATCH_UP). If the wait type name has IO in it, it points to an IO issue. If there is no IO in the page latch wait name, it points to a different type of problem (for example, tempdb contention).
-* **WRITE_LOG**: For transaction log IO issues
+* `PAGEIOLATCH_`: For data file IO issues (including `PAGEIOLATCH_SH`, `PAGEIOLATCH_EX`, `PAGEIOLATCH_UP`). If the wait type name has IO in it, it points to an IO issue. If there is no IO in the page latch wait name, it points to a different type of problem (for example, tempdb contention).
 
-Use the [sys.dm_exec_requests](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) or [sys.dm_os_waiting_tasks](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-os-waiting-tasks-transact-sql?view=sql-server-ver15) to see the wait_type and wait_time.
+* `WRITE_LOG`: For transaction log IO issues
+
+Use the [`sys.dm_exec_requests`](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) or [`sys.dm_os_waiting_tasks`](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-os-waiting-tasks-transact-sql?view=sql-server-ver15) to see the `wait_type` and `wait_time`.
 
 To identify the queries follow [IO Issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-io-performance-issues). 
 
