@@ -16,12 +16,8 @@
 
 # create drop and manage resources/elastic job agents
 
-<<<<<<< HEAD
 ### Determining the cause of failure
 =======
-## Determine the cause of failure
->>>>>>> d6f02c65556a4a0b822a59e430ff07e956ea7306
-
 1. Confirm the failure by issuing the following query in SQL Server Management Studio when connected to the job database.
 
    ```
