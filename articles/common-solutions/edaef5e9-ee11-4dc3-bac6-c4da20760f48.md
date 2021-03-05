@@ -5,7 +5,7 @@
   resource=""
   ms.author="sckingho"
   selfhelptype="Generic"
-  supporttopicids="32784706"
+  supporttopicids="32784706,32784707,32784708"
   productpesids="17412"
   cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
   disableclouds=""
