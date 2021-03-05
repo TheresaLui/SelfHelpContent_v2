@@ -5,8 +5,8 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="9112da51-73b5-92d8-3f2e-1fddb504f4b5"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudenvironments="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  disableclouds=""
   articleid="supporttopics_9112da51-73b5-92d8-3f2e-1fddb504f4b5"
   ownershipid="AzureData_SynapseAnalytics" />
 # Support Topic Descriptions for 9112da51-73b5-92d8-3f2e-1fddb504f4b5
