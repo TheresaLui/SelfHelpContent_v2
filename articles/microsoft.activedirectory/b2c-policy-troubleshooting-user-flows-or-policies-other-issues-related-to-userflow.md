@@ -24,6 +24,6 @@ Find the version of the viewer that reads events from Application Insights on Gi
 
 ### **Useful Links**
 * Custom policies are fully edited configuration files that define the behavior of your Azure AD B2C tenant. Get started today by [creating a Custom Policy](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview).
-* Check our sample on [how to run web tests and monitor results of B2C sign in's, using Azure Application Insights](https://github.com/azure-ad-b2c/samples/tree/master/policies/signin-webtest).
-* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for integrating Azure AD B2C into existing or new application environments.
-* Post your question on [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html) using the tag 'azure-ad-b2c'
+* Check our sample on [how to run web tests and monitor results of B2C sign in's, using Azure Application Insights](https://github.com/azure-ad-b2c/samples/tree/master/policies/signin-webtest)
+* Learn [best practices and recommendations](https://docs.microsoft.com/azure/active-directory-b2c/best-practices?WT.mc_id=Portal-Microsoft_Azure_Support) for integrating Azure AD B2C into existing or new application environments
+* Post your question on [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-ad-b2c.html) using the tag `azure-ad-b2c`
