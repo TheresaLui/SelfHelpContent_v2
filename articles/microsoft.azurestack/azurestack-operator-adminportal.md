@@ -12,22 +12,25 @@
   ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Administrator Portal
 
-To access the administrator portal, go to the portal URL and sign in as an Azure Stack operator. 
+To access the Azure Administrator portal, go to the Azure portal,  and sign in as an Azure Stack operator. 
 
 ## **Recommended Steps**
 
-* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. The portal address will match the pattern: `https://adminportal.<REGION>.<FQDN>`
+* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. The portal address will match this pattern: `https://adminportal.<REGION>.<FQDN>`
+
 * Verify that the [DNS name resolution](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-dns) is working
-* Access to the administrator portal requires allowing traffic through TCP port 443. See [Azure Stack firewall integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall) and [Publish Azure Stack Services](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) 
-* If you can't sign in to the portal, verify the client date and time setting is correct and not set in the past or future.
+
+* Access to the Administrator portal requires allowing traffic through TCP port 443. See [Azure Stack firewall integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall) and [Publish Azure Stack Services](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) 
+
+* If you can't sign in to the portal, verify that the client date and time setting is correct and not set in the past or future.
+
 * If the portal is unavailable, and no type of patch, update, or field replacement is in progress, you can run the following command to fix the problem:
 
   ```
   Test-AzureStack -Repair -Include AzsPortalAPISummary
   ```
 
-**CAUTION**
-You can't use this command during a component replacement or update.
+   **Caution:** You can't use this command during a component replacement or update.
 
 ## **Recommended Documents**
 
