@@ -37,7 +37,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Error code",
-            "defaultDropdownOptions": "HTTP 403"
+            "defaultDropdownOptions": "HTTP 403",
             "watermarkText": "HTTP error of failed operation",
 	    "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
