@@ -4,7 +4,7 @@
   resource=""
   ms.author="jerrycif,sefriend,evas"
   selfhelptype="Generic"
-  supporttopicids="32625542,32625544"
+  supporttopicids="32625544"
   resourcetags=""
   productpesids="16582"
   cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
