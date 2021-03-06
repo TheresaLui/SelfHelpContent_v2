@@ -39,7 +39,7 @@ Data volumes are backed up using daily storage snapshots. WAL files are archived
 Yes. The backup data by default is stored in zone-redundant mode. So, you will be able to restore the server in a different AZ within that region.
 
 * **Can I restore to the same server?** <br>
-No. To avoid accidental over-writing, restored servers are always restored to a new name.
+No. To avoid accidental overwriting, restored servers are always restored to a new name.
 
 * **How do I restore a specific database or table?** <br>
 You can perform the PITR to a new server. Then from your PostgreSQL client or using AZ CLI from the portal, you can do dump of the database or the table and import into your server.
@@ -68,7 +68,7 @@ The service does not offer a managed way to retain backups for long term. Howeve
 * Configure the retention period to suit your application and business needs.
 * Monitor for backup storage usage to avoid 
 
-## **Reference documents**
+## **Recommended Documents**
 
 * [Flexible server - Backup & Restore](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore)
 * [Flexible server - Business Continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)

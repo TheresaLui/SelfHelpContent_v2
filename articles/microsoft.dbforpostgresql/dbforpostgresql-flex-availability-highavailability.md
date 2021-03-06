@@ -25,7 +25,7 @@ Azure Database for PostgreSQL - Flexible Server offers high availability configu
 When you enable your server with zone-redundant HA, a physical standby replica with the same compute and storage configuration as the primary is deployed automatically in a different availability zone than the primary. PostgreSQL streaming replication is established between the primary and standby servers. 
 
 * **Is zone redundant HA available in all regions?** <br>
-Zone-redundant HA is available in regions that support multiple AZs in the region. For the latest region support, please see [this documentation](https://docs.microsoft.com/azure/postgresql/flexible-server/overview#azure-regions). We are continously adding more regions and enabling multiple AZs. 
+Zone-redundant HA is available in regions that support multiple AZs in the region. For the latest region support, please see [this documentation](https://docs.microsoft.com/azure/postgresql/flexible-server/overview#azure-regions). We are continuously adding more regions and enabling multiple AZs. 
 
 * **What mode of replication is between primary and standby servers?** <br>
 Synchronous mode of replication is established between the primary and the standby server. Application writes and commits are acknowledged only after the Write Ahead Log (WAL) data is persisted on the standby site. This enables zero data loss in the event of a failover.
@@ -37,10 +37,10 @@ Configuring in HA induces some latency to writes and commits. No impact to read 
 Yes. The main purpose of HA is to offer higher uptime to mitigate from any outages. In the event of an unplanned outage - including a fault in database, VM, physical node, data center, or at the AZ-level, the monitoring system automatically fails over the server to the standby. Similarly, during planned outages including minor version updates or infrastructure patching that happen during scheduled maintenance window, the updates are applied at the standby first and the service is failed over while the old primary goes through the update process. This reduces the overall downtime. 
 
 * **What is the typical failover process during an outage?** <br>
-When the fault is detected by the monitoring system, it initiates a failover worklfow that involves making sure the standby has applied all residual WAL files and fully caught up before opening that for read/write. Then DNS is updated with the IP address of the standby before the clients can reconnect to the server with the same end point (host name). A new standby is instantiated to keep the configuration in an highly available mode.
+When the fault is detected by the monitoring system, it initiates a failover workflow that involves making sure the standby has applied all residual WAL files and fully caught up before opening that for read/write. Then DNS is updated with the IP address of the standby before the clients can reconnect to the server with the same endpoint (host name). A new standby is instantiated to keep the configuration in an highly available mode.
 
 * **What is the typical failover time and expected data loss during an outage?** <br>
-On a typical case, failover time or the dowmtime experienced by the application perspective is between 60s-120s. This can be longer in cases where the outage incurred during long running transactions, index creation, or during heavy write activities - as the standby may take longer to complete the recovery process.
+On a typical case, failover time or the downtime experienced by the application perspective is between 60s-120s. This can be longer in cases where the outage incurred during long running transactions, index creation, or during heavy write activities - as the standby may take longer to complete the recovery process.
 
 Since the replication happens in synchronous mode, no data loss is expected.
 
@@ -48,10 +48,10 @@ Since the replication happens in synchronous mode, no data loss is expected.
 For the failover time, we provide guidelines on how long it typically takes for the operation. The official SLA will be provided for the overall uptime when we GA the service. No SLAs are offered during public preview.
 
 * **Does the application automatically connect to the server after the failover?** <br>
-No. Applications should have retry mechanism to reconnect to the same end point (host name).
+No. Applications should have retry mechanism to reconnect to the same endpoint (hostname).
 
 * **How do I test the failover?** <br>
-We are working on adding force failover capability to the service. We will update the documentation and also will update this self-help once we enable the capability. For more details, please reach us @ AskAzureDBforPostgreSQL@service.microsoft.com.
+We are working on adding force failover capability to the service. We will update the documentation and also will update this self-help once we enable the capability. For more details, please reach us @ `AskAzureDBforPostgreSQL@service.microsoft.com`.
 
 * **How do I check the replication status?** <br>
 On portal, from the overview page of the server shows the Zone redundant high availability status and the server status. You can also check the status and the AZs for primary and standby from the High Availability blade of the server portal. 
@@ -80,7 +80,6 @@ No. HA is configured within a region, but across availability zones. In future, 
 * **Can I use logical replication with HA configured servers?** <br>
 You can configure logical replication with HA. However, after a failover, the logical slot details are not copied over to the standby. Hence, there is currently limited support for this configuration.
 
-
 ## **Recommended steps**
 * You can choose the region and the availability zone to deploy your primary database server. A standby replica server is provisioned in a different availability zone with the same configuration as the primary server, including compute tier, compute size, storage size, and network configuration.
 * High availability is not supported with burstable compute tier. Please choose General Purpose or Memory Optimized tiers.
@@ -90,7 +89,7 @@ You can configure logical replication with HA. However, after a failover, the lo
 * Restarting the primary database server to pick up static parameter changes also restarts the standby replica
 
 
-## **Reference documents**
+## **Recommended Documents**
 
 * [Flexible server - High availability](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-high-availability)
 * [Flexible server - Business continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)

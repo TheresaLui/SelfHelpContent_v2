@@ -27,7 +27,7 @@ Yes. You can choose to either restore to the latest data (default) or to any poi
 Yes. The backup data by default is stored in zone-redundant mode. So, you will be able to restore the server in a different AZ within that region.
 
 * **Can I restore to the same server?** <br>
-No. To avoid accidental over-writing, restored servers are always restored to a new name.
+No. To avoid accidental overwriting, restored servers are always restored to a new name.
 
 * **How do I restore a specific database or table?** <br>
 You can perform the PITR to a new server. Then from your PostgreSQL client or using AZ CLI from the portal, you can do dump of the database or the table and import into your server.
@@ -47,8 +47,8 @@ The service does not offer a managed way to retain backups for long term. Howeve
 * Ensure that the point in time that you're trying to restore is within your configured retention period. Note that we do not backfill the backups if you increase the retention period.
 * If you are trying to restore to a point \-in-time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again.
 
-## **Reference documents**
-
+## **Recommended Documents**
+* [Flexible server - Automated backups](dbforpostgresql-flex-backup-automatedbackups.md)
 * [Flexible server - Backup & Restore](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore)
 * [Flexible server - Business Continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
 
