@@ -48,7 +48,7 @@ The service does not offer a managed way to retain backups for long term. Howeve
 * If you are trying to restore to a point \-in-time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again.
 
 ## **Recommended Documents**
-* [Flexible server - Automated backups](./dbforpostgresql-flex-backup-automatedbackups.md)
+
 * [Flexible server - Backup & Restore](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-backup-restore)
 * [Flexible server - Business Continuity](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-business-continuity)
 
