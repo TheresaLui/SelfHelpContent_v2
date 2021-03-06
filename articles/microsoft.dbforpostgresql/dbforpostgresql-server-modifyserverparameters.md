@@ -23,7 +23,7 @@ Not all PostgreSQL parameters are available for you to reconfigure in Azure Data
 
 To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal. A few Postgres parameters require you to restart the server for them to take effect. These are indicated by the property 'Static'.
 
-## **Frequently Asked Questions**
+## **Recommended Steps**
 
 **How can I change other parameters that are not available in the Azure Portal?**
 
