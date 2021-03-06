@@ -27,9 +27,10 @@
     "formElements": [
         {
             "id": "lcm_scenarios",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Select the scenario that matches your issue",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "lcm_did_not_work",
                     "text": "Lifecycle Management did not work at all for this account"
@@ -46,7 +47,7 @@
         },
         {
             "id": "blob_path",
-            "order": 3,
+            "order": 2,
             "visibility": "lcm_scenarios == lcm_did_not_work_container_blob",
             "controlType": "textbox",
             "displayLabel": "Provide the container or blob path",
@@ -56,14 +57,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
