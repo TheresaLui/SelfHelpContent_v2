@@ -16,7 +16,7 @@
 
 # Downstream device can't connect to an IoT Edge gateway
 
-For a downstream device to connect to an IoT Edge gateway, the devices need to trust each other, the downstream device needs to know how to reach the gateway, and the gateway needs to know how to authenticate the downstream device. Use the recommended steps to check that those three conditions are met. 
+For a downstream device to connect to an IoT Edge gateway, the devices need to trust each other. The downstream device needs to know how to reach the gateway, and the gateway needs to know how to authenticate the downstream device. Use the recommended steps to check that those three conditions are met. 
 
 ## **Recommended Steps**
 
