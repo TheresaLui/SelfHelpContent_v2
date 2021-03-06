@@ -2,7 +2,7 @@
   pagetitle="Windows Virtual Desktop - Performance"
   service=""
   resource=""
-  ms.author="jerrycif,sefriend,evas"
+  ms.author="evas"
   selfhelptype="Generic"
   supporttopicids="32625544"
   resourcetags=""
