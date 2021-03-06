@@ -51,7 +51,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the container or blob path",
             "watermarkText": "'mycontainer' or 'mycontainer/myblob.txt'",
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
