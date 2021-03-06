@@ -2,12 +2,13 @@
   pagetitle="Windows Virtual Desktop - Performance/session connectivity"
   service=""
   resource=""
-  ms.author="jerrycif,evas,sefriend"
+  ms.author="jerrycif,sefriend,evas"
   selfhelptype="Generic"
   supporttopicids="32625542,32625544"
   resourcetags=""
   productpesids="16582"
-  cloudenvironments="public,fairfax,usnat,ussec"
+  cloudenvironments="fairfax,mooncake,public,usnat,ussec,blackforest"
+  disableclouds=""
   articleid="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Performance/session connectivity
