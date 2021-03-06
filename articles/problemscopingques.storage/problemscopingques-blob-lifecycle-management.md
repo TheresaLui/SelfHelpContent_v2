@@ -21,7 +21,7 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Blob Lifecycle Management Troubleshooter",
-        "description": "Help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need to open a case.",
+        "description": "With just a few inputs and a couple of minutes we can help diagnose your problem without the need to open a case.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please review the recommended solutions below."
     },
     "formElements": [
