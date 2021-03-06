@@ -38,3 +38,4 @@ Direct method calls to IoT Edge modules require an open connection. When trouble
 
 * [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
 * [Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge?view=iotedge-2020-11)
+
