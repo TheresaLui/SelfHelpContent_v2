@@ -16,7 +16,7 @@
 />
 # Cancelled subscription and still see a charge
 
-## Recommended Steps
+## **Recommended Steps**
 
 ### **Canceled subscription and still see a charge**
 
@@ -65,7 +65,7 @@ After you cancel, your services are disabled. That means your virtual machines a
 
 After your subscription is canceled, Microsoft waits 30 - 90 days before permanently deleting your data in case you need to access it or you change your mind. We don't charge you for keeping the data. To learn more, see [Microsoft Trust Center - How we manage your data](https://go.microsoft.com/fwLink/p/?LinkID=822930&clcid=0x409).
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Review your individual Azure subscription bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill)
 * [Compare billed charges with your usage file](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill#compare-billed-charges-with-your-usage-file)
