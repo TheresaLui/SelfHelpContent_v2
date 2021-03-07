@@ -1,6 +1,6 @@
 <properties
-  pagetitle="Continuous Integration and Delivery with Git Repository Integration&#xD;"
-  ms.author="nimoolen,fangl,rakatuko"
+  pagetitle="Continuous Integration and Delivery with Git Repository Integration"
+  ms.author="nimoolen,fangl,rakatuko,haoc"
   selfhelptype="Generic"
   supporttopicids="32629448"
   resourcetags=""
@@ -43,6 +43,9 @@ If you reach the Azure Resource Manager template size limits, use [Linked Resour
 
 ### **Running only in test env.**
 When working on a team, there can be instances where you merge changes, but don't want them to be run in elevated environments such as PROD and QA. See [Exposure control and feature flags](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#exposure-control-and-feature-flags) for how to handle this scenario. 
+
+### **Unexpected error running Azure DevOps release pipeline PowerShell script**
+Make sure you are running with the [latest Az PowerShell module](https://docs.microsoft.com//powershell/azure/new-azureps-module-az?view=azps-5.6.0&viewFallbackFrom=azps-4.2.0). All versions of the AzureRM PowerShell module are outdated. The Az PowerShell module is now the recommended PowerShell module for interacting with Azure.
 
 ### **Other common errors**
 Review [common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and GitHub issues in ADF. 
