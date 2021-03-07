@@ -11,7 +11,7 @@
 	productPesIds="17325"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="26e27d2d-ea57-43d0-a7fe-93c16c2531bc"
-	ownershipId="ASMS_Billing" 
+	ownershipId="ASMS_Billing"
 />
 # Question about a specific charge
 
@@ -21,6 +21,5 @@ Azure provides Cost Management tool to understand the resource that is causing t
 
 ## **Recommended Documents**
 
-ACM:[Quickstart: Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal)
-
-PS Link: [Pricing calculator](https://azure.microsoft.com/pricing/calculator/)
+* ACM:[Quickstart: Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal)
+* PS Link: [Pricing calculator](https://azure.microsoft.com/pricing/calculator/)
