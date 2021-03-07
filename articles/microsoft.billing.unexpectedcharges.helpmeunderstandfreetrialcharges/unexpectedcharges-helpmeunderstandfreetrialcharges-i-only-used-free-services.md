@@ -11,9 +11,9 @@
 	productPesIds="17325"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a23f2a5d-82ee-45cd-80cc-94437039afcb"
-	ownershipId="ASMS_Billing" 
+	ownershipId="ASMS_Billing"
 />
-# I only used free services 
+# I only used free services
 
 ## **Recommended Steps**
 
@@ -21,37 +21,33 @@
 
 **Avoid charges with your Azure free account**
 
-Eligible new users get $200 of Azure credit for the first 30 days and a limited quantity of free services for 12 months with your Azure free account. To learn about limits of free services, see the Azure free account FAQ. As long as you have unexpired credit or you use only free services within the limits, you're not charged.
+Eligible new users get $200 of Azure credit for the first 30 days and a limited quantity of free services for 12 months with your Azure free account. To learn about limits of free services, see the Azure free account FAQ. As long as you have unexpired credit or you use only free services within the limits, you're not charged.
 
 For more information on how to avoid charges see, [Avoid charges with your Azure free account](https://docs.microsoft.com/azure/cost-management-billing/manage/avoid-charges-free-account).
 
 ### **Reasons you can incur charges on your Azure free account**
 
 **Your credit runs out or is expired**
-
 Your subscription and services are disabled when your credit runs out or expires at the end of 30 days. To continue using Azure services, you must upgrade your account. For more information, see [Upgrade your Azure free account](https://docs.microsoft.com/azure/cost-management-billing/manage/upgrade-azure-subscription).
 
 **Usage exceeds the limits of free service**
-
 You get a limited quantity of free services each month with your Azure free account. The free quantity expires at the end of the month and doesn't roll over to the next month. For more information, see [Usage exceeds the limits of free services](https://docs.microsoft.com/azure/cost-management-billing/manage/avoid-charges-free-account#usage-exceeds-the-limits-of-free-services).
 
 **You used some services that aren’t free**
-
 Once you've upgraded your account, you get charged pay-as-you-go rates for using services that aren't included for free with your Azure free account. Only certain tiers within a service are included for free. To learn about services included with your free account, see the [Azure free account FAQ](https://azure.microsoft.com/free/free-account-faq/). You can check your service usage in the Azure portal. To learn more, see [Plan and control expenses](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview#plan-and-control-expenses).
 
 **You reached the end of your free 12 months**
+Your free services and quantities expire at the end of 12 months. You can find out when your free services expire in the Azure portal.
 
-Your free services and quantities expire at the end of 12 months. You can find out when your free services expire in the Azure portal. 
-
-1. Sign in to the Azure portal.
-2. In the left navigation area, select **All services**.
-3. Select **Subscriptions**.
+1. Sign in to the Azure portal.
+2. In the left navigation area, select **All services**.
+3. Select **Subscriptions**.
 4. Select the subscription that was created when you signed up for free account.
 5. Scroll down to find free services grid. Select the tooltip located on the top left of the grid.
 
 Microsoft will send you an email notifying you when it's time to upgrade.
 
-Once your free services and quantities expire, you're charged pay-as-you-go rates for any services you're using. You can use the Azure portal to delete the resources for the services that you don't use. If you don’t intend to use any Azure service, you can cancel your subscription.
+Once your free services and quantities expire, you're charged pay-as-you-go rates for any services you're using. You can use the Azure portal to delete the resources for the services that you don't use. If you don’t intend to use any Azure service, you can cancel your subscription.
 
 ### **Understand your bill**
 
