@@ -20,7 +20,7 @@
 
 ### **Disagreement with a charge**
 
-- **Compute charge issues**
+**Compute charge issues**
   - See [Virtual machines lifecycle and states](https://docs.microsoft.com/azure/virtual-machines/states-lifecycle) to understand the states that virtual machines are billed for.
   - See [Troubleshoot allocation failures when you create, restart, or resize VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure) to understand how failure might affect costs.
   - See [Maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) to understand how maintenance might affect costs.

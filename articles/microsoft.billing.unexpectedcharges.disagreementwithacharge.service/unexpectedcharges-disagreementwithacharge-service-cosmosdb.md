@@ -18,7 +18,7 @@
 
 ## **Recommened Steps**
 
-- **Azure Cosmos DB charge issues**
+**Azure Cosmos DB charge issues**
   - See [Pricing model in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-pricing-works) to understand the costs for operations performed against the database and for the storage consumed by your data.
   - See [Understand your Azure Cosmos DB bill](https://docs.microsoft.com/azure/cosmos-db/understand-your-bill) to learn how you're billed for Cosmo DB use.
   - See [Plan and manage costs for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/plan-manage-costs) to learn about how to plan for and manage costs.

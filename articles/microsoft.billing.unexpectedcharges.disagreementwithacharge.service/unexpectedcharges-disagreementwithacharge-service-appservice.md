@@ -21,7 +21,7 @@
 
 ### **Disagreement with a charge**
 
-- **App Service charge issues**
+**App Service charge issues**
   - See [How much does my App Service plan cost?](https://docs.microsoft.com/azure/app-service/overview-hosting-plans#how-much-does-my-app-service-plan-cost) to understand App Service plan costs.
   - See [App Service pricing](https://azure.microsoft.com/pricing/details/app-service/windows/) to understand pricing for App Service.
   - See [Plan and manage costs for Azure App Service](https://docs.microsoft.com/azure/app-service/overview-manage-costs)​ to learn about how to plan for and manage costs.
