@@ -71,7 +71,7 @@ For more detailed instruction on how to check the type of account see [Check the
 3. Select the invoice that you want to download and then click **Download invoices**.
 4. You can also download a daily breakdown of consumed quantities and charges by clicking the download icon and then clicking **Prepare Azure usage file** button under the usage details section. It may take a few minutes to prepare the CSV file.
 
-For more information about your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/en-us/azure/cost-management-billing/understand/review-individual-bill). For help identify unusual costs, see [Analyze unexpected charges](https://docs.microsoft.com/en-us/azure/cost-management-billing/understand/analyze-unexpected-charges).
+For more information about your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill). For help identify unusual costs, see [Analyze unexpected charges](https://docs.microsoft.com/azure/cost-management-billing/understand/analyze-unexpected-charges).
 
 ### **Microsoft Customer Agreement (MCA)**
 
