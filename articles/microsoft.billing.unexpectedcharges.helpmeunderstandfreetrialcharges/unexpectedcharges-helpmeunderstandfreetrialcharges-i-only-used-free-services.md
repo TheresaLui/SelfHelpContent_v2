@@ -62,8 +62,7 @@ If you believe you have unexpected charges under your Free Trial account, follow
 3. Select the **Invoice** link to show details of the invoice in the portal.<br> 
 The data under **Billing summary** should exactly match the charges details in your invoice.
 
-4. Select **View in Cost Analysis**. 
-This opens the detailed cost analysis view of the invoice showing the different resources with their associated fields, such as service type, and so on.
+4. Select **View in Cost Analysis** to show the different resources with their associated fields, such as service type, and so on.
 
 5. Select the **resource** link to view details of the SKU information. <br>
    - If a free SKU is not used and if $200 Azure credit is finished, a charge will get incurred.   
