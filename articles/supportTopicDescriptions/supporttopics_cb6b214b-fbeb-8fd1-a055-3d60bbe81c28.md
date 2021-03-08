@@ -5,8 +5,8 @@
   ms.author="snthumat"
   selfhelptype="SupportTopicDescription"
   productpesids="cb6b214b-fbeb-8fd1-a055-3d60bbe81c28"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_cb6b214b-fbeb-8fd1-a055-3d60bbe81c28"
   ownershipid="Compute_AzureResourceGraph" />
 # Support Topic Descriptions for cb6b214b-fbeb-8fd1-a055-3d60bbe81c28
