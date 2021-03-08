@@ -6,7 +6,7 @@
 	authors="andikshi"
   	ms.author="andikshi"
 	displayOrder="2"
-	selfHelpType="generic"
+	selfHelpType="diagnostics"
 	supportTopicIds="32749519"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
