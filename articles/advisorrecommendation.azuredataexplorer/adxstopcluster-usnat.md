@@ -65,7 +65,7 @@
       }
     }
   },
-  "displayLabel": "Consider deleting empty or unused clusters",
+  "displayLabel": "Consider stopping unused clusters",
   "additionalColumns": [
     {
       "name": "currentConfig",
