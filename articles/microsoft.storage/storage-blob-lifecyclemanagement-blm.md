@@ -15,6 +15,8 @@
 
 Most customers resolved their Blob Lifecycle Management issue on their own, using the following information.
 
+## Recommended Documents
+
 ### **Reasons why Lifecycle Management may not have executed as expected**
 
 - [**New or updated policy** - It could take from **24 to 48 hours** to execute a new or updated policy. We recommend waiting up to 48 hours to see the first batch of data transitions.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#faq)
