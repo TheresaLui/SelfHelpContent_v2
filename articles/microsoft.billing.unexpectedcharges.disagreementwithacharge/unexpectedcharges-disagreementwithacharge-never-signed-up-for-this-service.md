@@ -19,7 +19,7 @@
 
 ### **I never signed up for this service**
 
-Azure provides a Cost Management tool to understand the resource that is causing the service-related prices. [Here](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal) is the documentation on performing costs analysis using the above tool that you can use to identify the resource that was deployed for the service related price.
+Azure provides a Cost Management tool to understand the resource that is causing the service-related prices. [Review this documentation](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal) on performing costs analysis using the Cost Management tool. This can help you identify the resource that was deployed for the service-related price.
 
 ## **Recommended Documents**
 
