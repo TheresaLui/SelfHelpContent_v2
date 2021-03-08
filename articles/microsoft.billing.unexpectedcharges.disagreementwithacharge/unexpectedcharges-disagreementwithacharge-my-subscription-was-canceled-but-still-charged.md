@@ -34,7 +34,7 @@ To find your invoices, follow these instructions:
 1. In the Azure portal, enter `subscriptions` in the **search** box and then select **Subscriptions**
 2. From the list of subscriptions, select your subscription
 3. Under **Billing**, select **Invoices**
-4. In the list of invoices, you can see each Billing period and when those charges were accrued. Look for the one that you want to download and select its download symbol. You might need to change the timespan to view older invoices. It might take a few minutes to generate the usage details file and invoice.
+4. In the list of invoices, you can see each Billing period and when those charges were accrued. Look for the one that you want and select its download symbol. You might need to change the timespan to view older invoices. It might take a few minutes to generate the usage details file and invoice.
 5. In the **Download Usage + Charges** window, select **Download invoice**.
 6. To download a detailed breakdown of your Azure usage, select **Prepare usage file for download**.
 7. Next, review the charges. Your invoice shows values for taxes and your usage charges.
