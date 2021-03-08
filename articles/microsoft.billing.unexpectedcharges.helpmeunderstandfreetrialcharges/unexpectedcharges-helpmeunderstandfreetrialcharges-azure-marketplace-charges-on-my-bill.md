@@ -35,7 +35,7 @@ If you have a Microsoft Customer Agreement (MCA) or Microsoft Partner Agreement 
 3. In the left menu, select **Invoices**</br>
 4. In the subscription drop-down, select the subscription associated with your Marketplace services</br>
 5. Review the **Type** column in the list of invoices. If an invoice is for a Marketplace service, the type will be **Azure Marketplace and Reservations**</br>
-6. To filter by type so that you are only looking at invoices for Azure Marketplace and Reservations, select the **Type** filter. Then select **Azure Marketplace and Reservations** in the drop-down</br>
+6. To filter by type so that you are only looking at invoices for Azure Marketplace and Reservations, select the **Type** filter. Then select **Azure Marketplace and Reservations** in the drop-down.</br>
 7. Select the download icon on the right for the invoice you want to download</br>
 8. Under **Invoice**, select the blue **Download** button</br>
 
@@ -46,7 +46,7 @@ Compare your Azure Marketplace total on Reports > Usage Summary in the Enterpris
 1. Sign in to the [Enterprise portal](https://ea.azure.com/). Select **Reports**
 2. On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
 3. The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice
-4. Go to **Download Usage** to get more information about your usage-based charges. Under **Marketplace Charges**, select **Download Note**: This report doesn't include taxes or show one-time purchases
+4. Go to **Download Usage** to get more information about your usage-based charges. Under **Marketplace Charges**, select **Download Note**: This report doesn't include taxes or show one-time purchases.
 
 For more information on third-party billing, see [Azure Marketplace Billing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges?WT.mc_id=Portal-Microsoft_Azure_Support).
 
