@@ -24,38 +24,38 @@ The instructions to review your bill vary by the type of your billing account. T
 
 1. Navigate to **Cost Management + Billing**
 2. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
-    - Microsoft Online Service Program
-    - Microsoft Customer Agreement
-    - Microsoft Partner Agreement
-    - Enterprise Agreement
+  - Microsoft Online Service Program
+  - Microsoft Customer Agreement
+  - Microsoft Partner Agreement
+  - Enterprise Agreement
 
-For more detailed instruction on how to check the type of account see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
+For detailed instruction on how to check the type of account, see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
 ### **Review your bill**
 
 [Review your indivudal account bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill). This article helps you understand and review the bill for your pay-as-you-go or Visual Studio Azure subscription, including pay-as-you-go and Visual Studio. In this tutorial, you will learn how to:
 
-* Compare invoice charges with usage file.
-* Compare charges and usage in cost analysis.
+* Compare invoice charges with usage file
+* Compare charges and usage in cost analysis
 
 
 [Review your Enterprise Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-enterprise-agreement-bill). In this tutorial, you will learn how to:
 
-* Review invoiced charges.
-* Review service overage charges.
-* Review Marketplace invoice.
+* Review invoiced charges
+* Review service overage charges
+* Review Marketplace invoice
 
 [Review your Microsoft Customer Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill). In this tutorial, you will learn how to:
 
-* Review invoiced transactions in the Azure portal.
-* Review pending charges to estimate your next invoice.
-* Analyze your Azure usage charges.
+* Review invoiced transactions in the Azure portal
+* Review pending charges to estimate your next invoice
+* Analyze your Azure usage charges
 
 [Review your Microsoft Partner Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-partner-agreement-bill). In this tutorial, you will learn how to:
 
-* Review invoiced transactions in the Azure portal.
-* Review pending charges to estimate your next invoice.
-* Analyze your Azure usage charges.
+* Review invoiced transactions in the Azure portal
+* Review pending charges to estimate your next invoice
+* Analyze your Azure usage charges
 
 ## **Recommended Documents**
 
