@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues&#xD;"
+  pagetitle="Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues"
   description="Azure Data Lake Gen 2 Lifecycle Management"
   service="microsoft.storage"
   resource="storageaccounts"
@@ -13,20 +13,20 @@
   ownershipid="StorageMediaEdge_DataLakeStorageGen2" />
 # Troubleshoot and resolve ADLS Gen2 Lifecycle Management issues
 
-Most customers resolved their Azure Data Lake Storage Gen 2 (ADLS Gen 2) Lifecycle Management issue on their own, using the steps below.
+Most customers resolved their Azure Data Lake Storage Gen 2 (ADLS Gen 2) Lifecycle Management issue on their own, using the following information.
 
 ### **Some Lifecycle Management features may not be supported for ADLS Gen 2 storage accounts**
 - [Blob storage features available in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-supported-blob-storage-features)
 
-### **Lifecycle Management may not have executed as per your expectation**
+### **Reasons why Lifecycle Management may not have executed as expected**
 
-- [**Page blob types are not supported** and will be ignored during policy execution](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
-- [**Append blob** type supports tiering only. **Block blob** type supports deletion and tiering.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
 - [**New or updated policy** - It could take from **24 to 48 hours** to execute a new or updated policy. We recommend waiting up to 48 hours to see the first batch of data transitions.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#faq)
-- [**System containers** such as **$logs** (diagnostic logs) and **$web** (static website) are **not supported** and will be ignored during policy execution.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
-- [**Immutable blob policies**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) [and **Blob Leases** will prevent blobs from being deleted](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
-- [**Last Access Time Tracking (Preview)** is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
-- [Make sure you are using a supported **Storage account type**](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#availability-and-pricing)
+- [**Unsupported blob types or actions** will be ignored during policy execution](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
+    - [Page blobs are not supported](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
+    - [Append blobs support tiering only.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule) 
+- [**System containers** such as **$logs** (diagnostic logs), **$web** (static website), and **$blobchangefeed** are not supported and will be ignored during policy execution.](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#sample-rule)
+- [**Immutable blob policies, legal holds**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) [and **Blob Leases** will prevent blobs from being deleted](https://docs.microsoft.com/rest/api/storageservices/lease-blob)
+- [You are not using a supported **Storage account type**](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#availability-and-pricing)
 
 ### **Common prefix match misunderstandings**
 
