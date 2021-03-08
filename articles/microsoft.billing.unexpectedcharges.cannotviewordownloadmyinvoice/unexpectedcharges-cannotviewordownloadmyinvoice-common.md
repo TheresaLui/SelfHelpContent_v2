@@ -20,7 +20,7 @@
 
 ### **Troubleshoot: Unable to see an invoice for the last billing period?**
 
-**Some possible reasons you might not see an invoice**
+**Reasons you might not see an invoice**
 
 - You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money
 - It's less than 30 days from the day you subscribed to Azure
@@ -92,12 +92,12 @@ To view and download usage data for a billing profile, you must be a billing pro
 
   - Search for **Cost Management + Billing**. Select a billing profile. Select **Invoices**.
   - In the invoice grid, find the row of the invoice corresponding to the usage you want to download.
-  - Click on the ellipsis (...) at the end of the row. In the download context menu, select **Azure usage and charges**.
+  - Select the ellipsis (...) at the end of the row. In the download context menu, select **Azure usage and charges**.
 
 **Download usage for open charges**
 
   - Search for **Cost Management + Billing**. Select a billing profile.
-  - In the Overview blade, click **Download Azure usage and charges** For Microsoft Customer Agreement, refer to: [Get invoice in email for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date?WT.mc_id=Portal-Microsoft_Azure_Support#get-your-invoice-in-email-pdf).
+  - In the Overview blade, select **Download Azure usage and charges** For Microsoft Customer Agreement, refer to: [Get invoice in email for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date?WT.mc_id=Portal-Microsoft_Azure_Support#get-your-invoice-in-email-pdf).
 
 ### **Enterprise Agreement (EA)**
 
