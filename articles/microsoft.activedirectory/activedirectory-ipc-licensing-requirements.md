@@ -4,7 +4,8 @@
 	articleId="ISP_IdentityProtection_License_Requirements"
 	authors="idamsupport"
 	ms.author="joaos"
-	selfHelpType="insight"
+	selfHelpType="diagnostics"
+	diagnosticScenario="self_diagnostic"
 	cloudEnvironments="public"
 	ownershipId="AzureIdentity_IdentityProtection"
 />
