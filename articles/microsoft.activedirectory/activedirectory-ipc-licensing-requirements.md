@@ -1,6 +1,7 @@
 <properties
 	pageTitle="Identity Protection"
 	description="Identity Protection"
+	infoBubbleText="See details below"
 	articleId="ISP_IdentityProtection_License_Requirements"
 	authors="idamsupport"
 	ms.author="joaos"
