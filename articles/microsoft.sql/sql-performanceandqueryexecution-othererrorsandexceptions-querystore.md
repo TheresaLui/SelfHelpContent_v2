@@ -17,7 +17,7 @@
 
 # Resolve query store related errors and exceptions
 
-## Enable Query Store
+### Enable Query Store
 
 Use the ALTER DATABASE statement to enable the query store for a given database. For example:
 ```
@@ -25,19 +25,19 @@ ALTER DATABASE SET QUERY_STORE = ON (OPERATION_MODE = READ_WRITE);
 ```
 Query Store cannot be enabled for the master or tempdb databases.
 
-## Check Query Store Space Usage
+### Check Query Store Space Usage
 To check current the Query Store size and limit execute the following statement in the user database.
 ```
 SELECT current_storage_size_mb, max_storage_size_mb
 FROM sys.database_query_store_options;
 ```
-## Extend the storage for Query store (if it is full)
+### Extend the storage for Query store (if it is full)
 If the Query Store storage is full use the following statement to extend the storage.
 ```
 ALTER DATABASE <database_name>
 SET QUERY_STORE (MAX_STORAGE_SIZE_MB = <new_size>);
 ```
-## Cleanup the Query Store
+### Cleanup the Query Store
 
 Query Store internal tables are created in the PRIMARY filegroup during database creation and that configuration cannot be changed later. If you are running out of space you might want to clear older Query Store data by using the following statement.
 ```

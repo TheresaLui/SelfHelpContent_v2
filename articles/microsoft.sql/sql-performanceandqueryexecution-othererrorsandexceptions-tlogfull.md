@@ -31,7 +31,7 @@ A very long-running transaction can cause the transaction log to fill.
 
 ### Kill a transaction
 
-Sometimes you just have to end the process; you may have to use the KILL statement. Please use this statement very carefully, especially when critical processes are running that you don't want to kill. For more information, see [KILL (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/language-elements/kill-transact-sql?view=sql-server-ver15)
+Sometimes you just have to end the process; you may have to use the KILL statement. Please use this statement very carefully, especially when critical processes are running that you don't want to kill. For more information,see [KILL (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/language-elements/kill-transact-sql?view=sql-server-ver15)
 
 Other appropriate responses to a full transaction log depends partly on what condition or conditions caused the log to fill.
 To discover what is preventing log truncation in a given case, use the log_reuse_wait and log_reuse_wait_desc columns of the [sys.database](https://docs.microsoft.com/sql/relational-databases/system-catalog-views/sys-databases-transact-sql?view=sql-server-ver15) catalog view. For more information, see sys.databases (Transact-SQL). For descriptions of factors that can delay log truncation, see [The Transaction Log (SQL Server)](https://docs.microsoft.com/sql/relational-databases/logs/the-transaction-log-sql-server?view=sql-server-ver15).

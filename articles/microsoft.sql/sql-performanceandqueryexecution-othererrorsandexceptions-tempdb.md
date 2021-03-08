@@ -19,7 +19,7 @@
 
 ### TempDB Space Monitoring
 
-The max space for each DB or Pool will depend on SLO for the database. You can find the various limits here:
+The maximum space for each DB or Pool will depend on SLO for the database. You can find the various limits here:
 
 * [DTU Model](https://docs.microsoft.com/sql/relational-databases/databases/tempdb-database?view=sql-server-ver15#tempdb-database-in-sql-database)
 * [VCore Model](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-vcore-single-databases)
