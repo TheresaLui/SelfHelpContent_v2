@@ -21,8 +21,8 @@
 ### **Disagreement with a charge**
 
 **Backup charge issues**
-  - See [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis) to learn how to use Cost Management to analyze your Azure costs.
-  - See [Review invoiced charges in Cost Analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-analysis-common-uses#review-invoiced-charges-in-cost-analysis) for an example walkthrough. ​
+  - See [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis) to learn how to use Cost Management to analyze your Azure costs
+  - See [Review invoiced charges in Cost Analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-analysis-common-uses#review-invoiced-charges-in-cost-analysis) for an example walkthrough.
 
 ### **Azure Cost Management helps you identify the services and resources that you're charged for**
 
