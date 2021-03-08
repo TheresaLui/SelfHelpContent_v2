@@ -12,9 +12,12 @@
 
 # Auditing
 
-## Demo: How to Configure Auditing for Azure SQL Database
+## Azure SQL Database Auditing Overview, setup and Configuration common issues
+This article guides on setup and configuration demo video including known issues and limitations of Azure SQL DB Auditing.
 
 :::Section Solutions:::
+
+## Demo: How to Configure Auditing for Azure SQL Database
 
 Please see the recommended video demo of configuring Auditing Azure SQL Database and documentation to address common questions during setup and configuration.
 
