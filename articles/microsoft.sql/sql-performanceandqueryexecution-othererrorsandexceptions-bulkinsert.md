@@ -18,6 +18,11 @@
 
 # Resolve bulk insert related errors and exceptions
 
+<!--issueDescription-->
+These are the most commonly used steps to resolve bulk insert issues.
+<!--/issueDescription-->
+
+
 ### Performance considerations
 
 If the number of pages to be flushed in a single batch exceeds an internal threshold, a full scan of the buffer pool might occur to identify which pages to flush when the batch commits. This full scan can hurt bulk-import performance. A likely case of exceeding the internal threshold occurs when a large buffer pool is combined with a slow I/O subsystem. To avoid buffer overflows on large machines, either do not use the TABLOCK hint (which will remove the bulk optimizations) or use a smaller batch size (which preserves the bulk optimizations).

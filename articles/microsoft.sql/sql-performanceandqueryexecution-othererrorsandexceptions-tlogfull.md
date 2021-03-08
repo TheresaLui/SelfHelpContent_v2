@@ -16,6 +16,11 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
+<!--issueDescription-->
+These are the most commonly used steps to resolve Transaction Log Full and related issues.
+<!--/issueDescription-->
+
+
 # Resolve Full Transaction Log (SQL Server Error 9002)
 
 A very long-running transaction can cause the transaction log to fill. 

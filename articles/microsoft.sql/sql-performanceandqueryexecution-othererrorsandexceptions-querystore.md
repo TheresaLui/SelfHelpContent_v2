@@ -18,6 +18,11 @@
 
 # Resolve query store related errors and exceptions
 
+<!--issueDescription-->
+These are the most commonly used steps to resolve query store related issues.
+<!--/issueDescription-->
+
+
 ### Enable Query Store
 
 Use the ALTER DATABASE statement to enable the query store for a given database. For example:
