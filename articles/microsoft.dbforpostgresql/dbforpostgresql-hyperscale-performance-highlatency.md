@@ -20,11 +20,10 @@ Most customers optimize latency by working through the recommended steps.
 
 ## **Recommended Steps**
 
-* Ensure your client and Hyperscale (Citus) server group are in the same Azure region
-* If your client is hosted in an Azure VM or Azure Kubernetes Service, use accelerated networking for lowest connection latency
-* Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. Connection pooling is recommended to avoid the overhead of establishing new connections.
-* Reduce the number of round trips between your application and the database
-* Monitor the resource consumption of your server group. If you are maxing out IO, memory or compute resources, scale up the resource that you are limited on or increase the number of worker nodes.
+* Try scaling up your compute size to next higher vCores and Memory and see if it helps improve login issues. If you max out either CPU or Memory resources, it can slow down logins.
+* If your client is hosted in an Azure VM or VMSS, use accelerated networking for lowest connection latency
+* Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. We recommend using [connection pooling](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/not-all-postgres-connection-pooling-is-equal/ba-p/825717) on the client whenever possible to avoid overhead of frequently establishing new connections. We recommend [pgBouncer](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/steps-to-install-and-setup-pgbouncer-connection-pooling-proxy/ba-p/730555).
+* Reduce the number of round trips between your application and the database if possible
 
 
 ## **Recommended Documents**

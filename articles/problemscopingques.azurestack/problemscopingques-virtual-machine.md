@@ -67,8 +67,17 @@
             "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },
         {
-            "id": "patch_level",
+            "id": "cloud_id",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Enter the Stamp Cloud ID",
+            "watermarkText": "########-####-####-####-###########",
+            "infoBalloonText": "Find your <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>Stamp Cloud ID.</a> If you're not sharing diagnostic data or you're running a build earlier than 1910, type N/A.",
+            "required": false
+        },
+        {
+            "id": "patch_level",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2008 if your build number is 1.2008.0.35.",
@@ -99,7 +108,7 @@
      },
         {
             "id": "build_number",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.2008.0.35",
@@ -107,38 +116,8 @@
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2008 || patch_level == 2005 || patch_level == 2002",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Unsure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Stamp Cloud ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
-            "required": true
-        },
-        {
             "id": "region_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -147,7 +126,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -166,7 +145,7 @@
         },
         {
             "id": "os_version",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the affected virtual machine?",
             "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
@@ -174,7 +153,7 @@
         },
         {
             "id": "tenant_vm_admin",
-            "order": 9,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Is this a tenant or an admin virtual machine?",
             "dropdownOptions": [
@@ -191,7 +170,7 @@
         },
         {
             "id": "how_deploy",
-            "order": 10,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "What image was used to deploy the virtual machine?",
             "watermarkText": "Select a option",
@@ -209,7 +188,7 @@
         },
         {
             "id": "vm_status",
-            "order": 11,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "What is the status of the affected virtual machine in the portal?",
             "watermarkText": "",
@@ -217,7 +196,7 @@
         },
     {
           "id": "has_worked",
-            "order": 12,
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
@@ -235,7 +214,7 @@
         },
         {
             "id": "change_before",
-            "order": 13,
+            "order": 12,
             "visibility": "has_worked == Yes",
             "controlType": "textbox",
             "displayLabel": "Has anything changed since this issue started?",
@@ -244,7 +223,7 @@
         },
     {
           "id": "perform_steps",
-            "order": 14,
+            "order": 13,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [

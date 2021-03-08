@@ -24,4 +24,4 @@
 
 ## **Recommended Documents**
 
-* [SLB DIP and VIP Health and Availability](https://www.csssupportwiki.com/index.php/curated:SLB_DIP_and_VIP_Health_and_Availability)
+* [SLB DIP and VIP Health and Availability](https://aka.ms/AnpSlbVipDipHealth)

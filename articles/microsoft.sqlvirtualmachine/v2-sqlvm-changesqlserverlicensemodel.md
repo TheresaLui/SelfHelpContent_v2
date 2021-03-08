@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Change Licensing Model&#xD;"
+  pagetitle="Change Licensing Model"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -16,7 +16,7 @@ Most users who want to change the licensing model of SQL Server on Azure VM can 
 
 ## **Recommended Steps**
 
-- To change licensing model of SQL Server on Azure VM, follow the instructions at [Change license model](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal&WT.mc_id=Portal-Microsoft_Azure_Support). You'll be able to change the licensing to or from pay-as-you-go, Azure Hybrid Benefit (Bring your own license: BYOL), or disaster recovery (DR).
+- To change licensing model of SQL Server on Azure VM, follow the instructions at [Change license model](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal&WT.mc_id=Portal-Microsoft_Azure_Support). You'll be able to change the licensing to or from pay-as-you-go, Azure Hybrid Benefit (Bring your own license: BYOL), or disaster recovery (DR). **For Azure China Government Cloud(MoonCake), PAYG/AHB conversion is currently not allowed.**
 
 - To change SQL Server **version or edition** on Azure VM:
 
@@ -30,7 +30,7 @@ Most users who want to change the licensing model of SQL Server on Azure VM can 
 - To **remove SQL Server instance and the associated SQL billing** from a pay-as-you-go SQL VM, or if you are **getting charged for SQL instance after uninstalling it**: 
   - If necessary, after backing up your data, uninstall SQL Server completely, including the SQL IaaS extension   
   - Install the free [SQL Express](https://www.microsoft.com/sql-server/sql-server-downloads) edition 
-  - Install SQL IAAS Agent Extension in [lightweight mode](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash)
+  - Install SQL IaaS Agent Extension in [lightweight mode](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash)
  
 ## **Recommended Documents**
 
@@ -39,5 +39,5 @@ Most users who want to change the licensing model of SQL Server on Azure VM can 
 * [In-place change of SQL Server version on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version)
 * [In-place change of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition)
 * [Licensing FAQ for SQL Server on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/frequently-asked-questions-faq#licensing)
-* [Register SQL Server VM in Azure with SQL IAAS Agent Extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+* [Register SQL Server VM in Azure with SQL IaaS Agent Extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
 * [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default?activetab=software-assurance-default-pivot%3aprimaryr3) overview
