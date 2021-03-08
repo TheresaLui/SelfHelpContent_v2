@@ -20,12 +20,13 @@
 
 ### **I am still getting charged by a cancelled service**
 
-If you cancelled the service in the middle of billing cycle you would see the service-related charges for the period the service was running. Example, if your billing cycle was from the 26th of every month to the 25th of the next month. You suspended the subscription on the 23rd, which is 28 days into the billing cycle. You might see a charge for the 28 days of use.
+If you cancelled the service in the middle of billing cycle, you'll see the service-related charges for the period the service was running. 
+For example, if your billing cycle is from the 26th of this month through the 25th of next month, and you suspend your subscription on the 23rd, you are 28 days into the billing cycle and will likely see a charge for 28 days of use.
 You can get the billing cycle period from your invoice.
 
-Also, any late arriving usage that wasn’t charged in the previous billing cycle, will be charged in the next billing cycle.
+Also, any late arriving usage that wasn’t charged in the previous billing cycle will be charged in the next billing cycle.
 
-You can use [Azure Cost Management Tool](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal) as well to identify the resource that emitted usage for the service-related charge.
+You can use [Azure Cost Management Tool](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal) to identify the resource that emitted usage for the service-related charge.
 
 ## **Recommended Documents**
 
