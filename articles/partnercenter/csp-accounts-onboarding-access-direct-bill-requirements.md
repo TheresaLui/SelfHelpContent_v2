@@ -28,7 +28,7 @@ We are introducing a performance standard as part of the direct bill partner req
 
 This performance standard will go into effect in January 2021 for current direct bill partners, and you will need to meet the requirements by your partner support plan renewal date. 
 
-If you have not met the requirements for Direct bill by your support plan renewal date, the process to transition your account from Direct bill to Indirect reseller will be initiated on or after the third Wednesday of the month your support plan renews.
+If you have not met the requirements for Direct bill by your support plan renewal date, the process to transition your account from Direct bill to Indirect reseller will be initiated on or after the third Wednesday of the month your support plan renews.
 
 If you want to see how you can increase your CSP sales, please contact your Account Manager, Partner Development Manager or [review the guides](https://partner.microsoft.com/solutions/build-a-practice) that can help you understand how to build and develop your business with Microsoft.
 
