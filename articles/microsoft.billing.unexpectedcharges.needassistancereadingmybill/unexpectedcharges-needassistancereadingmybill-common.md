@@ -24,10 +24,10 @@ The instructions to review your bill vary by the type of your billing account. T
 
 1. Navigate to **Cost Management + Billing**
 2. Select **Properties** from the left-hand side. The **Type** field on the properties page determines the type of your account. It can be:
-  - Microsoft Online Service Program
-  - Microsoft Customer Agreement
-  - Microsoft Partner Agreement
-  - Enterprise Agreement
+    - Microsoft Online Service Program
+    - Microsoft Customer Agreement
+    - Microsoft Partner Agreement
+    - Enterprise Agreement
 
 For detailed instruction on how to check the type of account, see [Check the type of your account](https://docs.microsoft.com/azure/cost-management-billing/manage/view-all-accounts#check-the-type-of-your-account).
 
