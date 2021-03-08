@@ -17,7 +17,7 @@
 
 ### **Reactivate a disabled Azure subscription**
 
-**Reasons your Azure subscription could have been disabled**
+**Reasons your Azure subscription may have been disabled**
 
 * [Your credit is expired](https://docs.microsoft.com/azure/cost-management-billing/manage/subscription-disabled#your-credit-is-expired)
 * [You reached your spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/subscription-disabled#you-reached-your-spending-limit)
@@ -31,10 +31,10 @@
 
 If you're the Account Administrator and have a pay-as-you-go subscription, you can reactivate it in the Azure portal.
 
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Go to **Subscriptions** and then select the canceled subscription.
-3. Select **Reactivate**.
-4. Confirm reactivation by selecting **OK**.
+1. Sign in to the [Azure portal](https://portal.azure.com/)
+2. Go to **Subscriptions** and then select the canceled subscription
+3. Select **Reactivate**
+4. Confirm reactivation by selecting **OK**
 
 If your subscription isn't a subscription with Pay-As-You-Go rates, contact support within 90 days of cancellation to reactivate your subscription. For more information see, [Reactivate a subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription#reactivate-a-subscription).
 
