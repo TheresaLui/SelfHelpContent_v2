@@ -19,7 +19,7 @@
 
 ### **Cancel a support plan**
 
-If upon receiving your invoice you see a charge for support plan purchase that you feel you haven’t purchased explicitly, you can proceed to cancel the support plan. The support plans are typically purchased when you are upgrading your free trial account to pay-as-you-go account.</br>
+If upon receiving your invoice you see a charge for support plan purchase that you feel you haven’t purchased explicitly, you can proceed to cancel the support plan. The support plans are typically purchased when you upgrade your free trial account to a pay-as-you-go account.</br>
 
 **Follow these steps to cancel a support plan**
 
@@ -29,7 +29,7 @@ If upon receiving your invoice you see a charge for support plan purchase that y
 
 For more information on how to cancel your support plan, see [Cancel a support plan](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription#cancel-a-support-plan).</br>
 
->Note: that a support plan provides technical support through any Azure related questions you run into. Should you cancel the support plan now, you can always choose to purchase it again through Azure Portal.
+>Note: Support plans provide technical support for any Azure related question you encounter. If you cancel the support plan now, you can always choose to purchase it again through the Azure portal.
 
 ## **Recommended Documents**
 
