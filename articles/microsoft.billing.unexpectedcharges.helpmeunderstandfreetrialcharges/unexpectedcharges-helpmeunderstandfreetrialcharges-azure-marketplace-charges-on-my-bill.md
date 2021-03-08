@@ -28,7 +28,7 @@ To learn more about pricing, billing, invoicing and payout considerations for th
 
 If you have a Microsoft Customer Agreement (MCA) or Microsoft Partner Agreement (MPA), your third-party services are billed with the rest of your Azure services on a single invoice.
 
-**You can view and download your Azure Marketplace invoices from the Azure portal by following these steps**
+**To view and download your Azure Marketplace invoices from the Azure portal, follow these steps:**
 
 1. Sign in to the [Azure portal](https://portal.azure.com/)</br>
 2. Search for **Cost Management + Billing**</br>
@@ -43,7 +43,7 @@ If you have a Microsoft Customer Agreement (MCA) or Microsoft Partner Agreement 
 
 Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.
 
-1. Sign in to the [Enterprise portal](https://ea.azure.com/). Select **Reports**
+1. Sign in to the [Enterprise portal](https://ea.azure.com/). Select **Reports**.
 2. On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
 3. The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice
 4. Go to **Download Usage** to get more information about your usage-based charges. Under **Marketplace Charges**, select **Download Note**: This report doesn't include taxes or show one-time purchases.
