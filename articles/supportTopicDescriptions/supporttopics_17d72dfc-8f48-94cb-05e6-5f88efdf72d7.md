@@ -546,6 +546,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8be6bd4d-b058-2f92-60f6-cf01cd5ad6c8",
+      "longDescription": "",
+      "shortDescription": "Performance issue while doing restore",
+      "searchTags": "restore;disk backup",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8cc4f4b0-cefd-2647-2861-e70e2e5f8ba4",
       "longDescription": null,
       "shortDescription": "Issues only specific to Backup reports using Power BI ",

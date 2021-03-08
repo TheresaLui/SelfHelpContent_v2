@@ -25,8 +25,8 @@
     {
       "id": "04aa41d1-0236-f0af-acc2-1897230e23a2",
       "longDescription": "",
-      "shortDescription": "Encountered issues while creating, updating, and exporting assessment",
-      "searchTags": "Groups;Outdated assessment;Validate hosts",
+      "shortDescription": "Issues encountered while creating, updating, and exporting an assessment.",
+      "searchTags": "Groups;Outdated assessment;recalculate assessment;export;refresh",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
@@ -50,7 +50,7 @@
       "id": "11701a4c-7b74-c7fe-2819-2dcc880bfc11",
       "longDescription": "",
       "shortDescription": "Issues encountered after starting discovery successfully from the appliance and enabling software inventory",
-      "searchTags": "Discovery;SQL",
+      "searchTags": "Discovery;SQL;SQL instance;SQL databases",
       "category": "Discovery",
       "useInDiagnoseAndSolve": "true"
     },
@@ -105,8 +105,8 @@
     {
       "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
       "longDescription": "",
-      "shortDescription": "Questions on assessment recommendations ",
-      "searchTags": "Compute cost;Cost analysis;Performance data",
+      "shortDescription": "Issues faced after successfully creating an Azure VM or an Azure VMware Solution(AVS) assessment. ",
+      "searchTags": "Cost analysis;Performance data;Assessment;Confidence rating;VM size",
       "category": "Assessment",
       "useInDiagnoseAndSolve": "true"
     },
