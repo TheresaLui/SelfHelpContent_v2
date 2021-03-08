@@ -133,5 +133,5 @@ Below are the current product limitations
 ### Recommended Documents
 
 - Playlist: [Azure SQL for Beginners](https://www.youtube.com/watch?v=Dtr6eRVZQ8I&list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) This video series covers the challenges, solutions, and key benefits to Azure SQL. For the full [Azure SQL Fundamentals](https://docs.microsoft.com/learn/paths/azure-sql-fundamentals/?WT.mc_id=azuresql4beg_azuresql-ch9-ninert) learning path on Microsoft Learn and  [View Code on GitHub](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code​)
-- [Auditing Public Documentation](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview)
+- [Auditing Public Documentation](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview)
 - [What's new in Azure SQL Auditing](https://www.youtube.com/watch?v=QXDpVzAJ4qA)
