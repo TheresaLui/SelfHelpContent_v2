@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-### **There could be several reasons why there is charges on your free account and free services usage**
+### **There are several reasons why you might find charges on your free account and free services usage**
 
 **Avoid charges with your Azure free account**
 
@@ -37,7 +37,7 @@ You get a limited quantity of free services each month with your Azure free acco
 
 **You used some services that aren’t free**
 
-Once you've upgraded your account, you get charged pay-as-you-go rates for using services that aren't included for free with your Azure free account. Only certain tiers within a service are included for free. To learn about services included with your free account, see the [Azure free account FAQ](https://azure.microsoft.com/free/free-account-faq/). You can check your service usage in the Azure portal. To learn more, see [Plan and control expenses](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview#plan-and-control-expenses).
+After you've upgraded your account, you get charged pay-as-you-go rates for using services that aren't included for free with your Azure free account. Only certain tiers within a service are included for free. To learn about services included with your free account, see the [Azure free account FAQ](https://azure.microsoft.com/free/free-account-faq/). You can check your service usage in the Azure portal. To learn more, see [Plan and control expenses](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview#plan-and-control-expenses).
 
 **You reached the end of your free 12 months**
 
@@ -55,23 +55,23 @@ After your free services and quantities expire, you're charged pay-as-you-go rat
 
 ### **Understand your bill**
 
-If you believe you have unexpected charges under your Free Trial account, below are the steps that can help you look up the bill and understand it.
+If you believe you have unexpected charges under your Free Trial account, follow these steps to get more understanding about your bill.
 
-1. Get the Invoice ID from the invoice pdf. This should also be available in the invoice email that account admin would have received.
-2. Search for this invoice number in the Azure portal to find the Invoice link. If you don't have the permission to view invoices, you might receive a message saying **‘Either the invoice doesn't exists or you don't have access to view the invoice.'** See [manage billing access](https://docs.microsoft.com/azure/cost-management-billing/manage/manage-billing-access#opt-in) to determine which roles can access invoice.
-4. Select the Invoice link to show details of the invoice in the portal. 
+1. Get the `Invoice ID` from the invoice pdf. This should also be available in the invoice email that account admin would have received.
+2. Search for this invoice number in the Azure portal to find the **Invoice** link. If you don't have the permission to view invoices, you might receive a message saying **‘Either the invoice doesn't exists or you don't have access to view the invoice.'** See [manage billing access](https://docs.microsoft.com/azure/cost-management-billing/manage/manage-billing-access#opt-in) to determine which roles can access invoice.
+3. Select the **Invoice** link to show details of the invoice in the portal. 
 The data under **Billing summary** should exactly match the charges details in your invoice.
 
-5. Select **View in Cost Analysis**. 
+4. Select **View in Cost Analysis**. 
 This opens the detailed cost analysis view of the invoice showing the different resources with their associated fields, such as service type and so on.
 
-6. Select the **resource** link to view details of the SKU information. If a free SKU is not used and if $200 Azure credit is finished, a charge will get incurred.   
+5. Select the **resource** link to view details of the SKU information. If a free SKU is not used and if $200 Azure credit is finished, a charge will get incurred.   
    For complete list of eligible services in the free trial account, see [Free services](https://azure.microsoft.com/free/free-account-faq/).<br>
 If you opted for a support plan when you upgraded, the cost of support plan will show in the previous view. If you wish to cancel your support plan, see [Cancel a support plan](https://azure.microsoft.com/resources/knowledge-center/how-do-i-change-or-cancel-my-azure-support-plan/).
 
    In the same view, if you group by Publisher Type you can see cost where the publisher is not Azure. All resources where publisher is not Azure is charged. We have a lot of offerings in Azure Market Place from external publishers. For list of marketplace offering with the publisher info please see [Azure marketplace](https://azuremarketplace.microsoft.com/marketplace/).
 
-7. If you want to get rid of the future cost, select the **resource** and delete the resource using [instructions to manage resources](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resources-portal#open-resources). Note that you need to have permissions to the subscription/resource. If you wish to cancel a subscription, see **Cancel subscription**.
+6. If you want to get rid of the future cost, select the **resource** and delete the resource using [instructions to manage resources](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resources-portal#open-resources). Note that you need to have permissions to the subscription/resource. If you wish to cancel a subscription, see **Cancel subscription**.
 In case of deletion, you might still see a charge for the resource in the next invoice. This charge would map to the usage incurred during the billing period for the period between 5th of the month and date when you deleted the source.
 
 ## **Recommended Documents**
