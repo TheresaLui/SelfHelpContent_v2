@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-To understand and review the bill for your pay-as-you-go or Visual Studio Azure subscription, including pay-as-you-go and Visual Studio see [Tutorial: Review your individual Azure subscription bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill). This tutorial applies only to Azure customers with an individual subscription. Common individual subscriptions are those with pay-as-you-go rates purchased directly from the Azure website.
+To understand and review the bill for your pay-as-you-go or Visual Studio Azure subscription--including pay-as-you-go and Visual Studio--see [Tutorial: Review your individual Azure subscription bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill). This tutorial applies only to Azure customers with an individual subscription. Common individual subscriptions are those with pay-as-you-go rates purchased directly from the Azure website.
 
 If you need help understanding unexpected charges, see [Analyze unexpected charges](https://docs.microsoft.com/azure/cost-management-billing/understand/analyze-unexpected-charges).
 
@@ -28,7 +28,10 @@ In this tutorial, you learn how to:
 
 ### **Review invoice for resource responsible for charge**
 
-How you purchase your Azure services helps you determine the methodology and tools that are available to you as you identify the resource associated with a charge. To determine which methodology applies to you, first [determine your Azure offer type](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#determine-your-offer-type). Then, identify your customer category in the list of [supported Azure offers](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#supported-microsoft-azure-offers).
+How you purchase your Azure services helps you determine the methodology and tools that are available to you as you identify the resource associated with a charge.
+
+1. To determine which methodology applies to you, first [determine your Azure offer type](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#determine-your-offer-type). 
+2. Next, identify your customer category in the list of [supported Azure offers](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#supported-microsoft-azure-offers).
 
 The following articles provide detailed steps that explain how to review your bill based on your customer type. In each article there are instructions about how to download a CSV file containing usage and cost details for a given billing period.
 
