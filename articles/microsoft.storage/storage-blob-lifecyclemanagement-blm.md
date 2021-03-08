@@ -15,7 +15,7 @@
 
 Most customers resolved their Blob Lifecycle Management issue on their own, using the following information.
 
-## Recommended Documents
+## **Recommended Documents**
 
 ### **Reasons why Lifecycle Management may not have executed as expected**
 
