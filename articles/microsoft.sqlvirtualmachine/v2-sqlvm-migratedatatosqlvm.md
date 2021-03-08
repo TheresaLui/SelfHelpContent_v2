@@ -38,7 +38,7 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
 
   *  **Migration to another VNET/Resource Group** requires fresh [installation of IaaS Agent Extension](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-agent-extension-manually-register-single-vm?tabs=bash%2Cazure-cli) on the destination VM. If you installed SQL Server manually, make sure you update the [licensing information](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/licensing-model-azure-hybrid-benefit-ahb-change?tabs=azure-portal) after installation.
 
-   * Make sure you [transfer your logins from on-premises to SQL Server on Azure VM](https://support.microsoft.com/topic/how-to-transfer-logins-and-passwords-between-instances-of-sql-server-3ad5d34b-3ed7-7889-9388-437445ffa693) after migration. Also [update the statistics](https://docs.microsoft.com/sql/t-sql/statements/update-statistics-transact-sql?view=sql-server-ver15) and [rebuild indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#rebuild-an-index).
+   * Make sure you [transfer your logins from on-premises to SQL Server on Azure VM](https://docs.microsoft.com/troubleshoot/sql/security/transfer-logins-passwords-between-instances) after migration. Also [update the statistics](https://docs.microsoft.com/sql/t-sql/statements/update-statistics-transact-sql?view=sql-server-ver15) and [rebuild indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#rebuild-an-index).
 
  * **Data Migration Assistant(DMA)** 
 
