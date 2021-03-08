@@ -2,7 +2,7 @@
   pagetitle="Always On Availability Groups - Failure,Failover, Sync issues"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun,babarmav"
+  ms.author="amamun,babarmav,ujpat"
   selfhelptype="Generic"
   supporttopicids="32740064"
   resourcetags="windowssql"
@@ -15,7 +15,7 @@
 
 ## **Recommended Steps**
 
-Most of users are able to resolve their issues using the following steps.
+Most of users are able to resolve their issues using the following steps. 
 
 ### Availability Group **failed, restarted, failed over or the lease timed out** 
 To know the root cause of the issue, review the logs using [this tool](https://techcommunity.microsoft.com/t5/sql-server/failover-detection-utility-availability-group-failover-analysis/ba-p/386021). To avoid the issue
