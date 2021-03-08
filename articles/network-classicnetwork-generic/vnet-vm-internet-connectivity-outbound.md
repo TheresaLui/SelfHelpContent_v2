@@ -27,7 +27,7 @@ The most common issues in this scenario are blocking network security groups (NS
 
 2. Scroll to the bottom of the **Overview** blade, and select **Connection Troubleshoot** under the **Support + Troubleshooting** header.
 
-3. Select **Outbound Connectinos**, and then specify the following options:
+3. Select **Outbound Connections**, and then specify the following options:
 
    - Connection Destination: **Other IP address/CIDR**
    - IP address/CIDR: the internet protocol (IP) address that you are trying to connect to (or enter **8.8.8.8** for a general internet connectivity check)

@@ -17,10 +17,11 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_AzureExpressRoute"
 />
 
-# ExpressRoute gateway subnet has NSG applied
+# ExpressRoute Gateway Subnet has NSG Applied
 <!--issueDescription-->
-We have identified a network security group (NSG) in the gateway subnet of your ExpressRoute virtual network gateway **[Azure resource name]**. Gateways require access to the management controllers to function properly. BGP Route Propagation must be set to "enabled" on the GatewaySubnet to ensure the availability of the gateway. The gateway won't function if set to "disabled".
+We have identified a network security group (NSG) in the gateway subnet of your ExpressRoute virtual network gateway **<!--$GatewayName-->GatewayName<!--/$GatewayName-->**. Gateways require access to the management controllers to function properly. BGP Route Propagation must be set to **enabled** on the GatewaySubnet to ensure the availability of the gateway. If this is set to **disabled**, the gateway will not function.
 <!--/issueDescription-->
-## **Steps to resolve the issue**
+
+## **Steps to Resolve the Issue:**
 
 Remove the NSG that is blocking access to the management controllers.

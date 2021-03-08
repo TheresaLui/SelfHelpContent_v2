@@ -1,24 +1,22 @@
 <properties
-	pageTitle="configuration and management/hybrid"
-	description="configuration and management/hybrid"
-	service="microsoft.web"
-	resource="sites"
-	authors="shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32581613"
-	resourceTags=""
-	productPesIds="14748, 16170"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="c8301fb1-9668-444d-b000-456f03242194"
-	ownershipId="Compute_AppService"
-/>
-
+  pagetitle="configuration and management/Hybrid&#xD;"
+  description="configuration and management/hybrid"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32581613"
+  resourcetags=""
+  productpesids="14748,16170"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="c8301fb1-9668-444d-b000-456f03242194"
+  ownershipid="Compute_AppService" />
 # configuration and management/Hybrid
 
 ## **Recommended documents**
 
-[Things You Should Know: Web Apps and Hybrid Connections](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/)<br>
+* [Things You Should Know: Web Apps and Hybrid Connections](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/)<br>
 * [Update your Hybrid Connection Manager](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#UpdateHCM)<br>
 * [Don't Use an IP Address for Your Endpoint, and Be Careful with Fully-Qualified Names](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#NoIP)<br>
 * [Azure Relay Hybrid Connections Don't Work in Windows Server 2008 R2](https://blogs.msdn.microsoft.com/waws/2017/06/30/things-you-should-know-web-apps-and-hybrid-connections/#NoR2)<br>
