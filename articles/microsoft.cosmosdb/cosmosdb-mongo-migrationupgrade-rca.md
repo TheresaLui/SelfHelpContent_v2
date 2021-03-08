@@ -50,7 +50,7 @@ Version 3.6 includes the following new features:
 
 ### Changes from version 3.2
 
-- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead requests will resume until they complete or hit the 60 second timeout.
+- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead, requests will resume until they complete or hit the 60-second timeout.
 - Per request timeout is set to 60 seconds
 - MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default
 
