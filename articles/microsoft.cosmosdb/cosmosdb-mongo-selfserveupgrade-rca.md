@@ -50,8 +50,8 @@ Version 3.6 includes the following new features:
 
 ### Changes from version 3.2
 
-- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead requests will resume until they complete or hit the 60 second timeout.
-- Per request timeout is set to 60 seconds
+- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead, requests will resume until they complete or hit the 60 second timeout.
+- Per request, timeout is set to 60 seconds
 - MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default
 
 ### Action required when upgrading from 3.2
@@ -78,9 +78,9 @@ If you are upgrading from version 3.2, you'll need to replace the existing endpo
 
 ## How to downgrade
 
-You may also downgrade your account from 4.0 to 3.6 via the same steps in the preceding section, "How to Upgrade."
+You may also downgrade your account from 4.0 to 3.6 by using the same steps in the preceding section, "How to Upgrade."
 
-If you upgraded from 3.2 to (4.0 or 3.6) and wish to downgrade back to 3.2, simply switch back to using your previous (3.2) connection string: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.documents.azure.com`, which remains active post-upgrade running version 3.2.
+If you upgraded from 3.2 to (4.0 or 3.6) and want to downgrade back to 3.2, simply switch back to using your previous (3.2) connection string: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.documents.azure.com`, which remains active post-upgrade running version 3.2.
 
 ## **Recommended Documents**
 
