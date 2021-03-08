@@ -11,9 +11,10 @@
   ownershipid="AzureData_AzureSQLDB_Security" />
 
 # Auditing
+Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
 ## Azure SQL Database Auditing Overview, setup and Configuration common issues
-This article guides on setup and configuration demo video including known issues and limitations of Azure SQL DB Auditing.
+This article guides users for Azure SQL DB Auditing setup and configuration demo video including known issues and limitations.
 
 :::Section Solutions:::
 
@@ -34,17 +35,17 @@ Most users are able to resolve their issues using the following steps.
 
 :::Section Azure SQL Database Auditing Overview:::
 
-## Azure SQL Database Auditing Overview:
+## SQL DB Auditing Overview:
+Enables and facilitates adherence to compliance standards, although it doesn't guarantee compliance. For more information about Azure programs that support standards compliance, see the [Azure Trust Center](https://www.microsoft.com/en-us/trust-center/?rtc=1) where you can find the most current list of Azure SQL compliance certifications.
 
-Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
-
+Below is the overview of Auditing feature:
  - Retain an audit trail of selected events. You can define categories of database actions to be audited.
  - Report on database activity. You can use pre-configured reports and a dashboard to get started quickly with activity and event reporting.
  - Analyze reports. You can find suspicious events, unusual activity, and trends.
 
 :::Section Configuration and setup:::
 
-## **Configuration and Setup**
+## **Auditing Configuration and Setup process**
 
  1. Go to [Azure Portal](https://portal.azure.com/) and navigate to Auditing under the Security heading in your SQL database or SQL server pane. (Demo video is above section.)
 2. Create or Update Auditing for Azure SQL Server and Database, using one of the following methods: [Azure PowerShell](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-azure-powershell) , [REST API](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-rest-api).
@@ -55,7 +56,7 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 
 :::Section Known Issues:::
 
-## Known Issues:
+## Known Issues with Auditing settings and workflow:
 
  1. Write audit to a storage account behind [VNet and Firewall](https://docs.microsoft.com/azure/azure-sql/database/audit-write-storage-account-behind-vnet-firewall)
  2. With Azure Storage, the audit logs can be made immutable. Follow these [instructions](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutability-policies-manage?tabs=azure-portal), making sure you have selected Allow additional appends.
@@ -68,7 +69,7 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 
 :::Section Permissions and Access:::
 
-### Permissions and Access:
+### Required Permissions and Access for Azure SQL DB Auditing setup and view logs:
 
 [Permissions and Access for Auditing](https://docs.microsoft.com/sql/relational-databases/security/auditing/create-a-server-audit-and-server-audit-specification?view=sql-server-ver15#Permissions)
  - Permission required: [Azure built-in roles - Azure RBAC | Microsoft Docs](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
@@ -92,7 +93,7 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 
 :::Section Log Integration and Storage:::
 
-### Auditing Logs Integration:
+### Azure SQL DB Auditing Logs Integration and storage:
 
 - Location of Audit Logs for integration
 	-  [Azure Storage](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#audit-storage-destination)
@@ -111,7 +112,7 @@ Auditing writes database events to an audit log. Auditing helps you maintain reg
 
 :::Section Limitations:::
 
-## Limitations:
+## Audting Feature Current Limitations:
 
 Below are the current product limitations
 
@@ -122,18 +123,18 @@ Below are the current product limitations
 	 - To enable auditing, resume Azure Synapse. 
  - Email notifications are sent to the subscription admins/co-admins and
    subscription owner. 
-   * These are currently not configurable.
+   * These are currently not configurable. 
 
   :::Section Upcoming Features:::
 
-## Upcoming Preview Features:
+## Upcoming Preview Features for Azure SQL DB Auditing:
 
  - Auditing of Microsoft Support Operations (Preview, GA estimated for first half of 2021)
  - For more information about this Preview feature in Azure SQL Database and Azure Synapse Analytics, go to these [instructions](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#auditing-of-microsoft-support-operations).
 
 :::Section Recommended Documents :::
 
-### Recommended Documents
+### Recommended Documents and Demo vidoes on workflow and usage
 
 - Playlist: [Azure SQL for Beginners](https://www.youtube.com/watch?v=Dtr6eRVZQ8I&list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) This video series covers the challenges, solutions, and key benefits to Azure SQL. For the full [Azure SQL Fundamentals](https://docs.microsoft.com/learn/paths/azure-sql-fundamentals/?WT.mc_id=azuresql4beg_azuresql-ch9-ninert) learning path on Microsoft Learn and  [View Code on GitHub](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code​)
 - [Auditing Public Documentation](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview)
