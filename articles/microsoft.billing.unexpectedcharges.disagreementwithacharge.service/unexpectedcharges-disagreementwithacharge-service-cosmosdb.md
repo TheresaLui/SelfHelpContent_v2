@@ -16,18 +16,18 @@
 />
 # Issue with Cosmos DB charge
 
-## **Recommened Steps**
+## **Recommended Steps**
 
 **Azure Cosmos DB charge issues**
   - See [Pricing model in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-pricing-works) to understand the costs for operations performed against the database and for the storage consumed by your data.
-  - See [Understand your Azure Cosmos DB bill](https://docs.microsoft.com/azure/cosmos-db/understand-your-bill) to learn how you're billed for Cosmo DB use.
-  - See [Plan and manage costs for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/plan-manage-costs) to learn about how to plan for and manage costs.
-  - See [Optimize provisioned throughput cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-throughput) to optimize costs for provisioned throughput.
-  - See [Optimize request cost](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-reads-writes) in Azure Cosmos DB to optimize costs for requests.
-  - See [Optimize storage cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-storage) to optimize storage cost.
-  - See [Optimize multi-region cost](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-regions) in Azure Cosmos DB to optimize multi-region cost.
-  - See [Optimize development and testing cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-dev-test) to optimize development and test costs.
-  - See [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity) to optimize costs for reserved capacity.
+  - See [Understand your Azure Cosmos DB bill](https://docs.microsoft.com/azure/cosmos-db/understand-your-bill) to learn how you're billed for Cosmo DB use
+  - See [Plan and manage costs for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/plan-manage-costs) to learn about how to plan for and manage costs
+  - See [Optimize provisioned throughput cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-throughput) to optimize costs for provisioned throughput
+  - See [Optimize request cost](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-reads-writes) in Azure Cosmos DB to optimize costs for requests
+  - See [Optimize storage cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-storage) to optimize storage cost
+  - See [Optimize multi-region cost](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-regions) in Azure Cosmos DB to optimize multi-region cost
+  - See [Optimize development and testing cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-dev-test) to optimize development and test costs
+  - See [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity) to optimize costs for reserved capacity
 
 ### **Azure Cost Management helps you identify the services and resources that you're charged for**
 
