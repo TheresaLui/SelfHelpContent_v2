@@ -1,19 +1,16 @@
 <properties
-    pageTitle="Adjusting Azure Data Lake Analytics Quotas"
-    description="Manage Quotas on Azure Data Lake Analytics"
-    service="Microsoft.DataLakeAnalytics"
-	resource="accounts"
-	authors="guyhay"
-    ms.author="guyhay"
-	displayOrder="8"
-	selfHelpType="resource"
-	productPesIds="15940"
-   	supportTopicIds="32680642"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-   	articleId="datalakeanalytics-adjust-quota-limits"
-		ownershipId="AzureData_AzureDataLakeAnalytics"
-/>
-
+  pagetitle="Manage Quotas on Azure Data Lake Analytics&#xD;"
+  description="Manage Quotas on Azure Data Lake Analytics"
+  service="microsoft.datalakeanalytics"
+  resource="accounts"
+  ms.author="guyhay,xujiang1"
+  selfhelptype="Resource"
+  supporttopicids="32680642"
+  resourcetags=""
+  productpesids="15940"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="datalakeanalytics-adjust-quota-limits"
+  ownershipid="AzureData_AzureDataLakeAnalytics" />
 # Manage Quotas on Azure Data Lake Analytics
 
 Quotas define the limits of Azure Data Lake Analytics compute resources that a subscription or Azure Data Lake Analytics account can provision or consume. For example, a quota could allow up to five Azure Data Lake Analytics accounts in a region. Each resource can have its own quota.
@@ -35,5 +32,5 @@ Quota increases have the potential to increase your AU consumption and therefore
 ## **Recommended Documents**
 
 * [Learn about Azure Data Lake Analytics quotas and limits](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-quota-limits)<br>
-* [Learn about Azure Data Lake Analytics policies](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-policies)<br>
+* [Learn about Azure Data Lake Analytics policies](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-account-policies)<br>
 * [Learn about account-level policies and job-level policies](https://blogs.msdn.microsoft.com/azuredatalake/2017/06/08/managing-your-azure-data-lake-analytics-compute-resources-overview/)<br>
