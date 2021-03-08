@@ -47,6 +47,6 @@ For successful execution of Lifecycle Management policies on the storage account
 - [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
 - [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
 
-### **Last Access Time based LCM (Preview)**
+### **Last Access Time based policies (Preview)**
 - [Last Access Time Tracking is only available in these limited Regions](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#move-data-based-on-last-accessed-date-preview)
 - [Setup a Lifecycle Management policy based on Last Access Time](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#how-last-access-time-tracking-works)
