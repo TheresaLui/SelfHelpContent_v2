@@ -23,12 +23,14 @@
 
 ## Recommended Steps
 
-- Use [Azure Portal.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database) or [SQL Server Management Studio SSMS.](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
+To set up **Data Discover & Classification**, use these links:
+- [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database)
+- [SQL Server Management Studio SSMS](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
 
 ### Manage classifications
-- Use [T-SQL.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
-- Use [PowerShell Cmdlets.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-powershell-cmdlets)
-- Use [REST-APIs.](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
+- Use [T-SQL](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-t-sql)
+- Use [PowerShell Cmdlets](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-powershell-cmdlets)
+- Use [REST-APIs](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#use-the-rest-api)
 
 ### Permissions needed for Data Classification
 
@@ -47,11 +49,11 @@
 ### FAQ
 
  - Q. Will [Azure Purview](https://docs.microsoft.com/azure/purview/overview) replace SQL Data Discovery & Classification or will SQL Data Discovery & Classification be retired soon?
-A. We continue to support SQL Data Discovery & Classification and encourage you to adopt [Azure Purview](https://docs.microsoft.com/azure/purview/overview) which has richer capabilities to drive advanced classification capabilities and data governance. If we decide to retire any service, feature, API or SKU, you will receive advance notice including a migration or transition path. Learn more about Microsoft Lifecycle policies here.
+   A. We continue to support SQL Data Discovery & Classification and encourage you to adopt [Azure Purview](https://docs.microsoft.com/azure/purview/overview) which has richer capabilities to drive advanced classification capabilities and data governance. If we decide to retire any service, feature, API or SKU, you will receive advance notice including a migration or transition path. Learn more about Microsoft Lifecycle policies here.
  - Q. How to classify my Azure SQL data using Azure Purview labels?
- A. Please follow these [steps](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-import-purview-labels).
+    A. Please follow these [steps](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-import-purview-labels).
  - Q. How to dismiss all recommendations for a given Azure SQL Database?
-A. Please run this [PowerShell Command](https://docs.microsoft.com/powershell/module/az.sql/disable-azsqldatabasesensitivityrecommendation?view=azps-5.5.0#example-2--disable-sensitivity-recommendations-on-columns-which-have-sensitivity-recommendations-in-an-azure-sql-database-using-piping-)
+   A. Please run this [PowerShell Command](https://docs.microsoft.com/powershell/module/az.sql/disable-azsqldatabasesensitivityrecommendation?view=azps-5.5.0#example-2--disable-sensitivity-recommendations-on-columns-which-have-sensitivity-recommendations-in-an-azure-sql-database-using-piping-)
 
 ## **Recommended Documents**
 
