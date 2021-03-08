@@ -33,7 +33,7 @@ To migrate data from MongoDB to an Azure Cosmos DB account for use with the API 
 
 Although 3.6+ is generally compatible with 3.2, we recommend that you provision a new account through the portal for the purpose of trying out the MongoDB server version 3.6+  with your application on a dev or qa instance, *before* you update the account backing any production workload.
 
-1. For existing accounts, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. The option, Upgrade to Mongo server (version number), should be visible. (If this option does not appear for your account, file a support ticket request.)
+1. For existing accounts, navigate to the **Settings** > **Features** area of your Cosmos DB Mongo account. The option, Upgrade to Mongo server (version number), should be visible. (If this option doesn't appear for your account, file a support ticket request.)
 
 2. Select **Enable** to start the update.
    The update status will show as **Pending** in the features list for up to 15min. When the update has completed, the account will show new connection strings in the portal with `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com`.
@@ -46,7 +46,7 @@ Note that when using Azure Cosmos DB's API for MongoDB accounts, the 3.6+ versio
 
 ### **Using 3.2 and 3.6+**
 
-Upgrading to 3.6+ does not mean that you have to stop using 3.2 style change feed. All features of 3.2 continue to be supported in 3.6+. Even the 3.2 endpoint will remain operational for certain client applications that you want to keep on 3.2 for longer than others. The 3.6+ update does not move or alter the data, because it occurs at the API and not the storage layer.
+Upgrading to 3.6+ doesn't mean that you have to stop using 3.2 style change feed. All features of 3.2 continue to be supported in 3.6+. Even the 3.2 endpoint will remain operational for certain client applications that you want to keep on 3.2 for longer than others. The 3.6+ update does not move or alter the data, because it occurs at the API and not the storage layer.
 
 ## **Recommended Documents**
 
