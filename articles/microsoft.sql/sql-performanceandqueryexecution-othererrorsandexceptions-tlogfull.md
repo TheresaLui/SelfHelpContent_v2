@@ -1,11 +1,12 @@
 <properties
 	pageTitle="Resolve Full Transaction Log (SQL Server Error 9002)"
 	description="Resolve Full Transaction Log (SQL Server Error 9002)"
+	infoBubbleText="Resolve Full Transaction Log (SQL Server Error 9002)"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
   	ms.author="andikshi"
-	displayOrder="2"
+	displayOrder="1"
 	selfHelpType="diagnostics"
 	supportTopicIds="32749519"
 	productPesIds="13491"

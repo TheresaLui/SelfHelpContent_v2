@@ -1,11 +1,12 @@
 <properties
 	pageTitle="Resolve tempDB related errors and exceptions"
 	description="Resolve tempDB related errors and exceptions"
+	infoBubbleText="Resolve tempDB related errors and exceptions"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
   	ms.author="andikshi"
-	displayOrder="2"
+	displayOrder="1"
 	selfHelpType="diagnostics"
 	supportTopicIds="32749519"
 	productPesIds="13491"
