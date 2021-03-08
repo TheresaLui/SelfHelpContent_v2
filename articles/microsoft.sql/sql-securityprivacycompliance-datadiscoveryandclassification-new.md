@@ -23,7 +23,7 @@
 
 ## Recommended Steps
 
-To set up **Data Discover & Classification**, use these links:
+To set up **Data Discovery & Classification**, use these links:
 - [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/data-discovery-and-classification-overview#classify-your-database)
 - [SQL Server Management Studio SSMS](https://docs.microsoft.com/sql/relational-databases/security/sql-data-discovery-and-classification?view=sql-server-ver15&tabs=t-sql&WT.mc_id=Portal-Microsoft_Azure_Support#Discovering-classifying-labeling-sensitive-columns)
 
