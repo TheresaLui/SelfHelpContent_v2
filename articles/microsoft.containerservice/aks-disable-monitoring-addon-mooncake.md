@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
   "recommendationFriendlyName": "MonitoringAddonWorkspaceIsDeleted",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "potentialBenefits": "Correct issues to setup monitoring addon",
   "owner": {
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Monitoring addon workspace is deleted",
   "longDescription": "Monitoring addon workspace is deleted. Correct issues to setup monitoring addon.",
   "actions": [
