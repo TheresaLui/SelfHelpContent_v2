@@ -36,7 +36,7 @@ ownershipId="CloudNet_NVA"
     },
     "version": 1.20,
     "learnMoreLink": "https://supportcenter.checkpoint.com/supportcenter/portal",
-    "description": "An Azure environment update has been rolled out that may affect you Checkpoint FW.",
+    "description": "An Azure environment update has been rolled out that may affect you Checkpoint Firewall.",
     "longDescription": "The image version of the Checkpoint firewall installed may have been affected by the recent Azure environment update. A kernel panic resulting in a reboot to factory defaults can occur in certain circumstances.",
     "potentialBenefits": "Ensure business continuity through better network connectivity.",
     "actions": [
