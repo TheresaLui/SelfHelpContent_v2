@@ -335,6 +335,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "985b1271-cbea-0944-7b49-d1e59bb00f6b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating ASP.NET apps to AKS with App Containerization tool",
+      "searchTags": "App Containerization;ASP.NET;AKS",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a540ce87-433a-50e3-36bc-3aa12816c46c",
       "longDescription": "",
       "shortDescription": "Issues encountered while moving resources from one subscription to another",
