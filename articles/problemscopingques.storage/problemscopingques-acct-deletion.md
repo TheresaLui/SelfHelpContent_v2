@@ -60,14 +60,46 @@
             "watermarkText":"ResourceGroupName",
 			"required": true
 		}, {
-			"id": "problem_start_time",
+			"id": "account_name",
 			"order": 4,
+            "visibility":"service_type == account",
+			"controlType": "textbox",
+			"displayLabel": "Name of the storage account you are unable to delete",
+            "watermarkText":"StorageAccountName1;StorageAccountName2; StorageAccountName3 ",
+			"required": true
+		}, {
+			"id": "blobcontainer_name",
+			"order": 5,
+            "visibility":"service_type == blob_container",
+			"controlType": "textbox",
+			"displayLabel": "Name of blob container you are unable to delete",
+            "watermarkText":"container1;container2; container3 ",
+			"required": true
+		}, {
+			"id": "fileshare_name",
+			"order": 6,
+            "visibility":"service_type == file_share",
+			"controlType": "textbox",
+			"displayLabel": "Name of file share you are unable to delete",
+            "watermarkText":"fileshare1;fileshare2; fileshare3 ",
+			"required": true
+		}, {
+			"id": "blob_name",
+			"order": 7,
+            "visibility":"service_type == blob",
+			"controlType": "textbox",
+			"displayLabel": "Blob path",
+            "watermarkText":"https://myaccount.blob.core.windows.net/myblob",
+			"required": true
+		},{
+			"id": "problem_start_time",
+			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
