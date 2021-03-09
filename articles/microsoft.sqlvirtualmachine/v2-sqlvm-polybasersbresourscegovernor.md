@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Polybase, R Services , Resource Governor &#xD;"
+  pagetitle="Polybase&#xD;"
   description="Polybase, R Services, Service Broker, Resource governor"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
@@ -11,9 +11,9 @@
   cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
   articleid="c47f08aa-e28b-4b91-b0a4-35c11bddabd1"
   ownershipid="AzureData_AzureSQLVM" />
-# Polybase, R Services , Resource Governor 
+# Polybase
 
-Most users can resolve issues concerning SQL PolyBase and R service by using the following steps. 
+Most users can resolve issues concerning SQL PolyBase by using the following steps. 
 
 ## **Recommended Steps** 
 
@@ -27,22 +27,6 @@ Most users can resolve issues concerning SQL PolyBase and R service by using the
 
    * Setting up PolyBase with Azure data lake Gen2 as external source is [not supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) as PolyBase doesn't support **ABFS API**. See additional [PolyBase limitations](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-versioned-feature-summary?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support).
 
-
-* **Unable to start SQL Launchpad Service**  
-
-  * Make sure you have [Installed R service correctly](https://docs.microsoft.com/sql/machine-learning/install/sql-r-services-windows-install?view=sql-server-2016). If not, uninstall and reinstall R service. 
-
-   * Make sure SQL Launchpad Service has the [Required permissions](https://docs.microsoft.com/sql/machine-learning/security/sql-server-launchpad-service-account?view=sql-server-ver15#account-permissions) 
-
-   * If you patched your SQL Server post that R Services stopped, follow the steps below: 
-
-       * Copy C:\Program Files\Microsoft SQL Server\MSSQLXX.MSSQLSERVER\MSSQL\ExtensibilityData to C:\SQL_R_RUNTIME_TEMP 
-
-       * Grant Modify rights on the folder to NT Service\MSSQLLaunchpad.  
-
-      * Modify the working_directory variable in C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\Binn\rlauncher.config WORKING_DIRECTORY=C:\SQL_R_RUNTIME_TEMP 
-
-  * See [most common issues with Launchpad service](https://docs.microsoft.com/sql/machine-learning/troubleshooting/common-issues-external-script-execution?view=sql-server-ver15&WT.mc_id=Portal-Microsoft_Azure_Support).
 
 * **Configuring Resource Governor** 
 
