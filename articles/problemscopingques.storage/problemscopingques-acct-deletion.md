@@ -55,7 +55,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-               "required": true,
+               "required": true
         },
         {
              "id": "resource_group_name",
@@ -64,7 +64,7 @@
             "controlType": "textbox",
             "displayLabel": "Name of the resource group you are unable to delete",
             "watermarkText": "ResourceGroupName",
-            "required": true,
+            "required": true
         },
 
         {
@@ -74,7 +74,7 @@
             "controlType":"textbox",
             "displayLabel":"Name of the storage account you are unable to delete",
             "watermarkText":"accountname1;accountname2;accountname3",
-            "required":true,
+            "required":true
         },
         {
             "id": "blob_container",
@@ -83,7 +83,7 @@
             "controlType": "textbox",
             "displayLabel": "Name of container you are unable to delete",
             "watermarkText": "container1;container2;container3",
-            "required": true,
+            "required": true
         },
          {
             "id": "object_name",
@@ -92,7 +92,7 @@
             "controlType": "textbox",
             "displayLabel": "Name of file share or table you are unable to delete",
             "watermarkText": "objectname1;objectname2;objectname3",
-            "required": true,
+            "required": true
         },
         {
             "id": "object_path",
@@ -101,7 +101,7 @@
             "controlType": "textbox",
             "displayLabel": "Path of file you are unable to delete",
             "watermarkText": "https://myaccount.file.core.windows.net/myfile",
-            "required": true,
+            "required": true
         },
         {
          "id": "object_path",
@@ -110,7 +110,7 @@
             "controlType": "textbox",
             "displayLabel": "Path of object you are unable to delete",
             "watermarkText": "https://myaccount.file.core.windows.net/myfile",
-            "required": true,
+            "required": true
         },
         {
             "id":"blob_path",
@@ -119,7 +119,7 @@
             "controlType":"textbox",
             "displayLabel":"Blob or disk path",
             "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
-            "required":true,
+            "required":true
         },
         {
             "id": "error_message",
