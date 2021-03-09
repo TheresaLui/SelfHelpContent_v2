@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e0ae211-e25c-9020-2a7f-016a87e1781c",
+      "longDescription": "",
+      "shortDescription": "Issues while using App Containerization tool to containerize and migrate web apps to AKS",
+      "searchTags": "AKS;Web App;App Containerization ;containerize ",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
       "shortDescription": "How to delete appliance used for discovery",
@@ -108,6 +116,14 @@
       "shortDescription": "Issues faced after successfully creating an Azure VM or an Azure VMware Solution(AVS) assessment. ",
       "searchTags": "Cost analysis;Performance data;Assessment;Confidence rating;VM size",
       "category": "Assessment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "30ffc40c-fae2-8937-b679-a88d02d6f6f5",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating Java web apps with App Containerization tool",
+      "searchTags": "App Containerization;Java;Web App",
+      "category": "App Containerization",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -324,6 +340,14 @@
       "shortDescription": "Issues related to project not found.",
       "searchTags": "Existing project;Missing project",
       "category": "Project",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "985b1271-cbea-0944-7b49-d1e59bb00f6b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating ASP.NET apps to AKS with App Containerization tool",
+      "searchTags": "App Containerization;ASP.NET;AKS",
+      "category": "App Containerization",
       "useInDiagnoseAndSolve": "true"
     },
     {

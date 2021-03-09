@@ -20,13 +20,16 @@
 
 ## Migrate to Azure Cosmos DB API for MongoDB v4.0
 
-Migrate <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> to a new database account to take advantage of the latest version of the Azure Cosmos DB API for MongoDB v4.0. This version provides the most up-to-date functionality, recent fixes, and enhancements in performance and stability.
+Migrate your database account, `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->` to a new database account to take advantage of the latest version of Azure Cosmos DB's API for MongoDB v4.0. This version provides the most up-to-date functionality, as well as enhancements in performance and stability.
 
 When upgrading the service, you must also migrate the data in your existing account to a new account created using version 4.0 of the MongoDB API engine. Azure Data Factory or Studio 3T can assist you in migrating your data.
+
+## Upgrading to 4.0 or 3.6
 
 ### Benefits of upgrading to version 4.0
 
 Version 4.0 includes the following new features:
+
 - Support for multi-document transactions within unsharded collections
 - New aggregation operators
 - Enhanced scan performance
@@ -35,6 +38,7 @@ Version 4.0 includes the following new features:
 ### Benefits of upgrading to version 3.6
 
 Version 3.6 includes the following new features:
+
 - Enhanced performance and stability
 - Support for new database commands
 - Support for aggregation pipeline by default and new aggregation stages
@@ -44,15 +48,15 @@ Version 3.6 includes the following new features:
 - Improved performance for the following aggregate operations: $count, $skip, $limit and $group
 - Wildcard indexing is now supported
 
-### Changes from previous engine versions
+### Changes from version 3.2
 
-- **RequestRateIsLarge errors have been disabled by default**. Requests from the client application will no longer return 16500 errors. Instead, requests will resume until they complete or fulfill the timeout. Disabling server-side retries will restore the old behavior.
+- By default, the [Server Side Retry (SSR)](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors) feature is enabled, so that requests from the client application will not return 16500 errors. Instead, requests will resume until they complete or hit the 60-second timeout.
 - Per request timeout is set to 60 seconds
-- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed, by default
+- MongoDB collections created on the new wire protocol version will only have the `_id` property indexed by default
 
 ## **Recommended Documents**
 
-- [Azure Cosmos DB's API for MongoDB v4.0](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40)
-- [Azure Cosmos DB's API for MongoDB v3.6](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
-- [Learn more about server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors)
+- Learn more about the [supported and unsupported features of MongoDB version 4.0](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-40).
+- Learn more about the [supported and unsupported features of MongoDB version 3.6](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36).
+- Learn more about [server-side retries](https://docs.microsoft.com/azure/cosmos-db/prevent-rate-limiting-errors).
 - [Migrate your data with Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-azure-cosmos-db-mongodb-api)
