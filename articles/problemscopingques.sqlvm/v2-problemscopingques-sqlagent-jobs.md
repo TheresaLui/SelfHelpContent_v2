@@ -1,6 +1,6 @@
 <properties 
-  pageTitle="SQL agent, Jobs, Database mail"
-  description="SQL agent, Jobs, Database mail"
+  pageTitle="SQL Agent or jobs"
+  description="SQL Agent or jobs"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@
   articleId="89a8d1b0-c5fe-4775-b6b8-52d692ad4995"
   ownershipId="AzureData_AzureSQLVM"
 />
-# SQL agent, Jobs, Database mail
+# SQL Agent or jobs
 ---
 {
     "resourceRequired": false,
@@ -41,8 +41,8 @@
                     "value": "AgentJob"
                 },
                 {
-                    "text": "Issues with Database Mail",
-                    "value": "DBMail"
+                    "text": "SQL Agent Service",
+                    "value": "sqlagent"
                 },
                 {
                     "text": "I'm not sure/don't know",
