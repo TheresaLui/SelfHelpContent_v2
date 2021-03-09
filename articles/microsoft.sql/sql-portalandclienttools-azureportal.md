@@ -17,8 +17,8 @@
 Most users can resolve issues concerning by using the following steps:
 
 **How Do I move SQL Resource?**
-* Move resource to another resource group/subscription,refer to [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription#next-steps) 
-* Move to another region, refer to [Move resources to new region - Azure SQL Database & Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/move-resources-across-regions?toc=/azure/azure-resource-manager/management/toc.json)
+* [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription#next-steps) 
+* [Move resources to new region - Azure SQL Database & Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/move-resources-across-regions?toc=/azure/azure-resource-manager/management/toc.json)
 * Currently, you cannot move SQL Managed Instance resources.  Refer to [Move operation support for resources for supported resources that can be moved](https://docs.microsoft.com/azure/azure-sql/database/move-resources-across-regions?toc=/azure/azure-resource-manager/management/toc.json)
 
 
@@ -32,6 +32,7 @@ All Azure SQL Database logical servers, regardless of region, are configured to 
 
 
 **Issues related to connecting to Query Editor (Preview)**
+
 Issues related connecting to the Query Editor, check the following:
 - Outbound HTTPS traffic for ports 443 and 1443 are enabled. The query editor uses ports 443 and 1443 to communicate.
 - The client IP address (the IP address that you are connecting from) has been added to the [server firewall rule](https://docs.microsoft.com/azure/azure-sql/database/firewall-create-server-level-portal-quickstart).
