@@ -91,15 +91,39 @@
 			"displayLabel": "Blob path",
             "watermarkText":"https://myaccount.blob.core.windows.net/myblob",
 			"required": true
+		}, {
+			"id": "file_name",
+			"order": 8,
+            "visibility":"service_type == file",
+			"controlType": "textbox",
+			"displayLabel": "File path",
+            "watermarkText":"https://myaccount.blob.core.windows.net/myfile",
+			"required": true
+		}, {
+			"id": "disk_name",
+			"order": 9,
+            "visibility":"service_type == disk",
+			"controlType": "textbox",
+			"displayLabel": "Disk path",
+            "watermarkText":"https://myaccount.blob.core.windows.net/mydisk",
+			"required": true
+		}, {
+			"id": "dont_know",
+			"order": 10,
+            "visibility":"service_type == dont_know_answer",
+			"controlType": "textbox",
+			"displayLabel": "Path of object you are unable to delete",
+            "watermarkText":"https://myaccount.blob.core.windows.net/myobject",
+			"required": true
 		},{
 			"id": "problem_start_time",
-			"order": 8,
+			"order": 11,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 9,
+			"order": 12,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
