@@ -1,24 +1,24 @@
 <properties
-    pageTitle="Other"
-    description="Other"
+    pageTitle="How-to"
+    description="Apollo migrated file - How-to"
     service="microsoft.documentdb"
     resource="databaseAccounts"
     authors="jimsch"
     ms.author="jimsch"
-    selfHelpType="generic"
-    supportTopicIds="32741533"
+    selfHelpType="Apollo"
+    supportTopicIds="32783700"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-    articleId="cosmosdb-other"
-    displayOrder="244"
+    articleId="Apollo-cosmosdb-throuhgput-howto"
+    displayOrder="245"
     category="Throughput and Scaling"
     ownershipId="AzureData_AzureCosmosDB"
+	supportTopicIds="179deae0-b1ed-6f90-7b2b-4d4b39a574d3"
 />
 
-# Throughput and Scaling Other Topics
-
-Most users are able to resolve their Throughput issue using the steps below. 
+# Throughput and Scaling How-to Topics
+Most users are able to resolve their Throughput How-to issue using the steps below. 
 
 ## **Recommended Steps**  
 
@@ -69,3 +69,8 @@ With autoscale, Azure Cosmos DB automatically and instantly scales the throughpu
 
 [How to distribute data globally with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
 <br>This article covers how you can configure your databases to be globally distributed and available in any of the Azure regions to lower the latency.
+
+Here are additional relevant articles based on the __summary__ you provided
+<azureKB>
+    <client>Portal</client>
+</azureKB>
