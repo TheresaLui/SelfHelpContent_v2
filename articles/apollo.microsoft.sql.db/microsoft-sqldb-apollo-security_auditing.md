@@ -30,7 +30,7 @@ View the following demo of configuring Auditing Azure SQL Database and documenta
 
 :::Section Overview of SQL DB Auditing:::
 
-## What does SQL DB Auditing do?:
+## What does SQL DB Auditing do?
 
 Azure SQL Database Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
@@ -42,15 +42,15 @@ Here are some benefits of the Auditing feature:
  - Analyze reports. You can find suspicious events, unusual activity, and trends.
 
 
-:::Section Configuration and setup:::
+:::Section Setup and configuration:::
 
-## **Configure and set up Auditing**
+## **Steps to set up amd configure Auditing**
 
  1. Go to [Azure Portal](https://portal.azure.com/). Under the Security heading in your SQL database or SQL server pane, go to **Auditing**. (See also the Demo video is the previous section.)
 2. Create or update Auditing for Azure SQL Server and Database, using one of the following methods: [Azure PowerShell](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-azure-powershell), [REST API](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#using-rest-api).
 3. If you're using a Storage account, one of the key requirement is to generate [Storage key generation](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#storage-key-regeneration)
 4. To audit Geo-replication databases, see these [recommendations](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#auditing-geo-replicated-databases)
-5. After auditing is enabled, use the following links to Get status on [Auditing policy](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#manage-auditing)
+5. After auditing is enabled, use the following links to get status on [Auditing policy](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#manage-auditing)
 6. Remove or [Disable Auditing](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#manage-auditing)
 
 
@@ -116,13 +116,13 @@ Here are some benefits of the Auditing feature:
 
 ## Review these current Auditing limitations
 
- - Premium storage is currently not supported. 
- - Hierarchical namespace for Azure Data Lake Storage Gen2 storage account is currently not supported. 
+ - Premium storage is currently not supported
+ - Hierarchical namespace for Azure Data Lake Storage Gen2 storage account is currently not supported
  - Enabling auditing on a paused Azure Synapse is currently
-   not supported. 
-	 - To enable auditing, resume Azure Synapse. 
+   not supported
+	 - To enable auditing, resume Azure Synapse 
  - Email notifications are sent to the subscription admins/co-admins and
-   subscription owner. 
+   subscription owner.
    * These are currently not configurable. 
 
 
