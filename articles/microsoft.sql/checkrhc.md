@@ -27,5 +27,5 @@ Please visit **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealt
 
 ## **Recommended Documents**
 
-* [Resource Health Overview](https://docs.microsoft.com/en-us/azure/service-health/resource-health-overview)
-* [Accessing Resource Health](https://docs.microsoft.com/en-us/azure/service-health/resource-health-overview#get-started)
+* [Resource Health Overview](https://docs.microsoft.com/azure/service-health/resource-health-overview)
+* [Accessing Resource Health](https://docs.microsoft.com/azure/service-health/resource-health-overview#get-started)
