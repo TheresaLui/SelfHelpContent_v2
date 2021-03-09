@@ -1,22 +1,16 @@
 <properties
-	pageTitle="Cosmos DB metrics"
-	description="Cosmos DB metrics"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32636799,32741538,32684530,32692542"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-portal-metrics"
-	displayOrder="262"
-	category="Monitoring"
-	ownershipId="AzureData_AzureCosmosDB"
-/>
-
-
+  pagetitle="Monitor Cosmos DB metrics&#xD;"
+  description="Cosmos DB metrics"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636799"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-portal-metrics"
+  ownershipid="AzureData_AzureCosmosDB" />
 # Monitor Cosmos DB metrics
 <br>Cosmos DB provides several metrics in the Azure Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
 
