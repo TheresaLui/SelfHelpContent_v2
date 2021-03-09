@@ -14,12 +14,12 @@
 # Issue deleting storage account
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue deleting storage account",
+    "title": "Issue deleting storage object",
     "fileAttachmentHint": "",
-    "formElements": [
-        {
+    "formElements": [{
             "id": "service_type",
             "order": 0,
             "controlType": "dropdown",
@@ -56,7 +56,6 @@
                 }
             ],
                "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
              "id": "resource_group_name",
@@ -66,7 +65,6 @@
             "displayLabel": "Name of the resource group you are unable to delete",
             "watermarkText": "ResourceGroupName",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 
         {
@@ -77,7 +75,6 @@
             "displayLabel":"Name of the storage account you are unable to delete",
             "watermarkText":"accountname1;accountname2;accountname3",
             "required":true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "blob_container",
@@ -87,7 +84,6 @@
             "displayLabel": "Name of container you are unable to delete",
             "watermarkText": "container1;container2;container3",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
          {
             "id": "object_name",
@@ -97,7 +93,6 @@
             "displayLabel": "Name of file share or table you are unable to delete",
             "watermarkText": "objectname1;objectname2;objectname3",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "object_path",
@@ -107,39 +102,35 @@
             "displayLabel": "Path of file you are unable to delete",
             "watermarkText": "https://myaccount.file.core.windows.net/myfile",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
          "id": "object_path",
-            "order": 10,
+            "order": 11,
             "visibility": "service_type == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Path of object you are unable to delete",
             "watermarkText": "https://myaccount.file.core.windows.net/myfile",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id":"blob_path",
-            "order":11,
+            "order":12,
             "visibility":"service_type == blob || service_type == disk",
             "controlType":"textbox",
             "displayLabel":"Blob or disk path",
             "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
             "required":true,
-	    "diagnosticInputRequiredClients": "Portal,ASC"
-
         },
         {
             "id": "error_message",
-            "order": 1,
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -147,12 +138,11 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 15,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
