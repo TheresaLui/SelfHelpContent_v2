@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Unable to recover storage account(s) because we only support recovery of accounts which are deleted within 14 days
