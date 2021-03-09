@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Unable to delete storage account"
 	description="Issue deleting storage account"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Lea Akkari"
+    ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602694"
 	productPesIds="15629"
@@ -19,6 +19,117 @@
     "title": "Issue deleting storage account",
     "fileAttachmentHint": "",
     "formElements": [
+        {
+            "id": "service_type",
+            "order": 0,
+            "controlType": "dropdown",
+            "displayLabel": "Type of storage object to recover",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "rg",
+                    "text": "Resource group"
+                },
+                {
+                    "value": "account",
+                    "text": "Storage account"
+                },
+                {
+                    "value": "blob_container",
+                    "text": "Blob container"
+                },
+                {
+                    "value": "disk",
+                    "text": "Disk"
+                },
+                {
+                    "value": "blob",
+                    "text": "Blob"
+                },
+                {
+                    "value": "file",
+                    "text": "File"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+               "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+             "id": "resource_group_name",
+            "order": 2,
+            "visibility":"service_type == rg",
+            "controlType": "textbox",
+            "displayLabel": "Name of the resource group you are unable to delete",
+            "watermarkText": "ResourceGroupName",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+
+        {
+            "id":"storage_account_name",
+            "order":4,
+            "visibility":"service_type == account",
+            "controlType":"textbox",
+            "displayLabel":"Name of the storage account you are unable to delete",
+            "watermarkText":"accountname1;accountname2;accountname3",
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "blob_container",
+            "order": 6,
+            "visibility": "service_type == blob_container,
+            "controlType": "textbox",
+            "displayLabel": "Name of container you are unable to delete",
+            "watermarkText": "container1;container2;container3",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+         {
+            "id": "object_name",
+            "order": 7,
+            "visibility": "service_type == file_share || service_type == table",
+            "controlType": "textbox",
+            "displayLabel": "Name of file share or table you are unable to delete",
+            "watermarkText": "objectname1;objectname2;objectname3",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "object_path",
+            "order": 10,
+            "visibility": "service_type == file",
+            "controlType": "textbox",
+            "displayLabel": "Path of file you are unable to delete",
+            "watermarkText": "https://myaccount.file.core.windows.net/myfile",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+         "id": "object_path",
+            "order": 10,
+            "visibility": "service_type == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Path of object you are unable to delete",
+            "watermarkText": "https://myaccount.file.core.windows.net/myfile",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id":"blob_path",
+            "order":11,
+            "visibility":"service_type == blob || service_type == disk",
+            "controlType":"textbox",
+            "displayLabel":"Blob or disk path",
+            "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
+            "required":true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+
+        },
         {
             "id": "error_message",
             "order": 1,
