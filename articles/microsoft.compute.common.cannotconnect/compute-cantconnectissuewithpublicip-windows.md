@@ -17,7 +17,7 @@
 
 # I have an issue with my public IP
 
-4 out of 5 customers resolved their VM public IP issue using the steps below.
+Resolve your VM public IP issue using the following steps.
 
 ## **Recommended Documents**
 
