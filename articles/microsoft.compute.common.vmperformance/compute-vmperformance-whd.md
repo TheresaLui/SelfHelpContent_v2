@@ -17,20 +17,22 @@
 
 # Windows Virtual Desktop performance issue
 
-Try the following steps to diagnose and mitigate Windows Virtual Desktop performance issues.<br>
+Try the following steps to diagnose and mitigate Windows Virtual Desktop (VM) performance issues.<br>
 
 ## **Recommended Steps**
 
-1. **Did you know Performance diagnostics can help you analyze performance on your VM?** **For Windows virtual machines, you can [run Performance diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)**, select the Performance analysis scenario, and review results directly from the Azure portal.
-[How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights) 
-You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) and run it on your virtual machine.  
-*If you proceed to open a support case please attach the PerfInsights report for the Support Engineer to analyze.*
-2. Ensure you have the latest [GPU drivers](https://docs.microsoft.com/azure/virtual-machines/windows/n-series-driver-setup) installed in your VM.
+1. **Did you know Performance diagnostics can help you analyze performance on your VM?** <br>
+    For Windows virtual machines, you can [run Performance diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics). 
+    - Select the Performance analysis scenario, and review results directly from the Azure portal. See [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights) 
+    - You can also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm) and run it on your virtual machine. 
+    *If you proceed to open a support case, attach the PerfInsights report for the Support Engineer to analyze.*
+   
+2. Ensure that you have the latest [GPU drivers](https://docs.microsoft.com/azure/virtual-machines/windows/n-series-driver-setup) installed in your VM.
 3. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
-4. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. On **Windows**, use the [Perfmon](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon) tool.
-5. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
+4. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. On Windows, use the [**Perfmon**](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon) tool.
+5. [Enable diagnostics, monitor, identify, and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
 6. Address any Azure host issues by [redeploying](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows) the VM, which migrates it to a new Azure host
-7. Scale up the Virtual Machine to a different VM type or series for increased performance by clicking 'Size' in the Settings blade of the VM resource.  [GPU optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-gpu)
+7. Scale up the Virtual Machine to a different VM type or series for increased performance by selecting **Size** in the **Settings** blade of the VM resource. See [GPU optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-gpu).
 8. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance) if it's an I/O intensive use-case <br>
 
 ## **Recommended Documents**
