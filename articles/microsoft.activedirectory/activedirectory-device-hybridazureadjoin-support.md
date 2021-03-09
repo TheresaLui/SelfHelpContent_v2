@@ -34,7 +34,7 @@ Resolve issues with on-premises AD device registrations to Azure AD using the fo
 * [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan)
 * [Manage devices using the Azure portal](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal)
 
-### Troubleshooting common issues for registration and managing Hybrid Azure AD joined devices ###
+### Troubleshoot common issues when registering and managing Hybrid Azure AD joined devices ###
 * [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://docs.microsoft.com/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current)
 * [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://docs.microsoft.com/azure/active-directory/devices/troubleshoot-hybrid-join-windows-legacy)
 * [FAQ for device registration](https://docs.microsoft.com/azure/active-directory/devices/faq)
