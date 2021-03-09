@@ -17,7 +17,7 @@
 
 # I have an issue with my public IP
 
-Resolve your VM public IP issue using the following steps.
+Resolve virtual machine (VM) public IP issue using the following steps.
 
 ## **Recommended Documents**
 
