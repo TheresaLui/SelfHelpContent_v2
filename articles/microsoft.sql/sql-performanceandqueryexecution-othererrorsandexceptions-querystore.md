@@ -43,15 +43,14 @@ FROM sys.database_query_store_options;
 If the Query Store storage is full use the following statement to extend the storage. 
 
 ```
-ALTER DATABASE <database_name>
-SET QUERY_STORE (MAX_STORAGE_SIZE_MB = <new_size>);
+ALTER DATABASE your_database_name SET QUERY_STORE (MAX_STORAGE_SIZE_MB = <new_size>);
 ```
 ### Cleanup the Query Store
 
-Query Store internal tables are created in the PRIMARY filegroup during database creation and that configuration cannot be changed later. If you are running out of space you might want to clear older Query Store data by using the following statement. 
+Query Store internal tables are created in the PRIMARY filegroup during database creation and that configuration cannot be changed later. If you are running out of space you might want to clear older Query Store data by using the following statement: 
 
 ```
-ALTER DATABASE <db_name> SET QUERY_STORE CLEAR;
+ALTER DATABASE your_database_name SET QUERY_STORE CLEAR;
 ```
 ## **Recommended Documents**
 
