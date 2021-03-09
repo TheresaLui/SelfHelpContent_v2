@@ -14,7 +14,8 @@
 Auditing writes database events to an audit log. Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.
 
 ## Overview, setup, and configuration of Azure SQL Database Auditing 
-This article guides users for Azure SQL DB Auditing setup and configuration demo video including known issues and limitations.
+
+This article guides users through setup and configuration of Azure SQL DB Auditing. Included is a configuration demo video, and a list of known issues and limitations.
 
 :::Section Configuration demo:::
 
@@ -28,11 +29,11 @@ View the following demo of configuring Auditing Azure SQL Database and documenta
 </video>
 
 
-:::Section Azure SQL Database auditing overview:::
+:::Section About Azure SQL Database Auditing:::
 
 ## What does SQL DB Auditing do?:
 
-Enables and facilitates adherence to compliance standards, although it doesn't guarantee compliance. For more information about Azure programs that support standards compliance, see the [Azure Trust Center](https://www.microsoft.com/en-us/trust-center/?rtc=1) where you can find the most current list of Azure SQL compliance certifications.
+This feature enables and facilitates adherence to compliance standards, although it doesn't guarantee compliance. For more information about Azure programs that support standards compliance, see the [Azure Trust Center](https://www.microsoft.com/en-us/trust-center/?rtc=1) where you can find the most current list of Azure SQL compliance certifications.
 
 Here are some benefits of the Auditing feature:
  - Retain an audit trail of selected events. You can define categories of database actions to be audited.
@@ -124,16 +125,16 @@ Here are some benefits of the Auditing feature:
    * These are currently not configurable. 
 
 
-  :::Section Upcoming Features:::
+  :::Section Upcoming features:::
 
 ## Azure SQL DB Auditing features in preview:
 
  - Auditing of Microsoft Support Operations (Preview, GA estimated for first half of 2021)
  - For more information about this Preview feature in Azure SQL Database and Azure Synapse Analytics, go to these [instructions](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#auditing-of-microsoft-support-operations).
 
-:::Section Recommended Documents :::
+:::Section More resources:::
 
-### Recommended Documents and Demo vidoes on workflow and usage
+### See the following recommended Documents and demo videos
 
 - Playlist: [Azure SQL for Beginners](https://www.youtube.com/watch?v=Dtr6eRVZQ8I&list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN) This video series covers the challenges, solutions, and key benefits to Azure SQL. For the full [Azure SQL Fundamentals](https://docs.microsoft.com/learn/paths/azure-sql-fundamentals/?WT.mc_id=azuresql4beg_azuresql-ch9-ninert) learning path on Microsoft Learn and  [View Code on GitHub](https://microsoft.github.io/sqlworkshops/?WT.mc_id=azuresql4beg_azuresql-ch9-code)
 - [Auditing Public Documentation](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview)
