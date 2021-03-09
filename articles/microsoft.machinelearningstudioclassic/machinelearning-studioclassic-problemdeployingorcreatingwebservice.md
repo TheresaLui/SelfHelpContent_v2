@@ -16,14 +16,21 @@
 
 # Problem deploying or creating web service
 
+Resolve issues deploying or creating a web service using these steps.
+
 ## **Recommended Steps**
 
-For errors like "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace.", the root cause is authentication. **Deploy Web Service [Classic]** is recommended. When users in multiple tenants and one or more tenants required MFA (multi-factor authentication), this error might occur. There are two ways to fix this:
+* To deploy experiment as a new web service, the user must have the **Contributor** role for the subscription that contains the workspace. Refer to [this article](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) to learn more about **Contributor** role. 
 
-    - Create a new account in your target tenant (where your workspace belongs to)
-    - Or one existing account which only exists in the target tenant, invite this account to your studio workspace and assign proper role to it in your subscription
+* If you're experiencing errors such as the following, authentication is likely the root cause:<br>
+   "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace."
 
-Then try to login to your studio workspace use this account and deploy webservice to see if it works.
+   Authentication errors occur when users in multiple tenants and one or more tenants in multiple tenants require MFA (multi-factor authentication)
+   There are two ways to fix this:
+
+   - Use **Deploy Web Service [Classic]** instead of Web Service [New].  
+
+   - Use an existing account, or create a new account, that **disables MFA** in your target tenant (the tenant to which your workspace belongs). Next, log in to your studio workspace using this account, and deploy web service.
 
 ## **Recommended Documents**
 

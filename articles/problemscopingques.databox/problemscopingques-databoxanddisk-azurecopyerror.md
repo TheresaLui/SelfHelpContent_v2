@@ -5,7 +5,7 @@
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639201"
+	supportTopicIds="32639201,32639202"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"

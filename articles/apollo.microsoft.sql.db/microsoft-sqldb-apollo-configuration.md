@@ -1,32 +1,31 @@
 <properties
-pageTitle="Azure Active Directory Authentication"
-description="Azure Active Directory Authentication"
-ms.author="bernardm"
-displayOrder=""
-articleId="88553c47-ab11-4e6c-a0b9-61ceb4053bd0"
-selfHelpType="Apollo"
-supportTopicIds="a9a24df2-159b-f313-6f4d-31a1bbdbb3bc"
-productPesIds="13491"
-cloudEnvironments="public"
-ownershipId="AzureData_AzureSQLDB_Security"
-/>
-
+  pagetitle="Azure Active Directory Authentication"
+  description="Azure Active Directory Authentication"
+  ms.author="bernardm,sischleg"
+  selfhelptype="apollo"
+  supporttopicids="a9a24df2-159b-f313-6f4d-31a1bbdbb3bc"
+  resourcetags=""
+  productpesids="13491"
+  cloudenvironments="public"
+  articleid="88553c47-ab11-4e6c-a0b9-61ceb4053bd0"
+  ownershipid="AzureData_AzureSQLDB_Security" />
 # Configuring Azure Active Directory
 
-## Troubleshooting Azure SQL Active Directory authentication issues
+## Understanding Azure SQL Active Directory authentication
 
 :::Section Solutions:::
 
-Please see the recommended video and documentation to address common Azure SQL Active Directory Authentication questions.
+Please see the recommended video for a demo of configuring Azure SQL Active Directory Authentication and documentation to address common questions.
 
-### **Recommended Video**
-
+### Recommended video
 In the following video, you will learn how to configure Azure AD authentication and create users/logins in Azure SQL.
 
 <video>
 <src>https://www.youtube.com/watch?v=IwpmLUpvTBA</src>
 <title>Azure Active Directory Authentication for Azure SQL</title>
 </video>
+
+
 
 Summary of configuration steps in the video:
 
@@ -35,7 +34,7 @@ Summary of configuration steps in the video:
 3. Examples of login types
 4. Adding access to existing Active Directory users
 
-### **Recommended Documents**
+### More resources
 
 * [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
 * [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>

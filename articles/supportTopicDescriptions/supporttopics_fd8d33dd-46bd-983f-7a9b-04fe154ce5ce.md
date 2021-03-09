@@ -41,6 +41,12 @@
       "shortDescription": "Issues using API’s or SDK, such as errors or unexpected results",
       "searchTags": "API;Integration;SDK",
     },
+     {
+      "id": "e1b8d2f4-8db5-0819-e2dd-b5a646a5c55b",
+      "longDescription": "",
+      "shortDescription": "Information on how to activate Sandbox for testing of API integration with partner center",
+      "searchTags": "TiP;Test;Development",
+    },
   ]
 }
 ---

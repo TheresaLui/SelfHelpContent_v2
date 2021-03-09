@@ -33,7 +33,7 @@
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
   "recommendationTimeToLive": 86400,
-  "version": 8.0,
+  "version": 8.1,
   "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore",
   "description": "Right-size or shutdown underutilized virtual machines",
   "longDescription": "We've analyzed the usage patterns of your virtual machine over the past 7 days and identified virtual machines with low usage. While certain scenarios can result in low utilization by design, you can often save money by managing the size and number of virtual machines.",
@@ -105,9 +105,23 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [],
+    "additionalColumns": [
+    {
+      "name": "MaxCpuP95",
+      "title": "CPU (%)"
+    },
+    {
+      "name": "MaxTotalNetworkP95",
+      "title": "Network (%)"
+    },
+    {
+      "name": "MaxMemoryP95",
+      "title": "Memory (%)"
+    }
+  ],
   "ingestionClientIdentities": [
-    "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "CN=cloudfit.azurewebsites.net"
   ],
   "remediation": [
     {
@@ -155,6 +169,6 @@
     }
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
-  "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."
+  "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary. | **P95 of max utilization of CPU, memory and network"
 }
 ---

@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Brazil"
+	pageTitle="Brazil Payment Instructions"
 	description=""
     service="Microsoft.Billing"
     resource="Microsoft.Billing/Subscriptions"

@@ -6,6 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  disableclouds=""
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_MultiFactorAuthentication" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -56,8 +57,8 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless Single-Sign-on",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in error;sign-in",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -120,8 +121,8 @@
     {
       "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
       "longDescription": "",
-      "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
-      "searchTags": "Usage of Seamless SSO ",
+      "shortDescription": "Issues with migration, integrating Seamless SSO with my apps, configuring my apps, token claims and lifetimes, and managing guest users",
+      "searchTags": "migration;my apps;integration;token;guest user",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -248,8 +249,8 @@
     {
       "id": "7417b6ac-d636-453c-ce64-73c8afe7fa56",
       "longDescription": "",
-      "shortDescription": "Problems with registering and managing FIDO2 security keys or Microsoft Authenticator on the user registration portal",
-      "searchTags": "FIDO;FIDO2;security keys;Authenticator;portal",
+      "shortDescription": "Problems with registering or managing FIDO2 security keys or Microsoft Authenticator portal or using Temporary Access Pass.",
+      "searchTags": "FIDO2;security keys;Authenticator;portal;Temporary Access Pass",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -272,8 +273,8 @@
     {
       "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
       "longDescription": "",
-      "shortDescription": "Problems with authentication methods like hardware OATH tokens and 3rd party MFA ",
-      "searchTags": "issues with OATH tokens;issues with 3rd party MFA ",
+      "shortDescription": "Problems with authentication methods like hardware OATH tokens, App Passwords, Temporary Access Pass or 3rd party MFA",
+      "searchTags": "issues with OATH tokens;issues with 3rd party MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -296,8 +297,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
-      "searchTags": "issues with pass-through authentication",
+      "shortDescription": "I am unable to sign in, got a sign-in error message, or am being prompted to enter credentials after signing in",
+      "searchTags": "sign-in;sign-in error",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -344,8 +345,8 @@
     {
       "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issue with Seamless Single Sign-on",
+      "shortDescription": "Issues with configuring, signing in with, and managing Seamless Single Sign-on",
+      "searchTags": "Configuration;sign-in;SSO;manage;single sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -384,8 +385,8 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
-      "searchTags": "issues with Seamless SSO login",
+      "shortDescription": "I was unable to find a solution to my problem under the other problem sub-types for Seamless SSO",
+      "searchTags": "SSO",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -403,6 +404,14 @@
       "shortDescription": "Troubleshooting apps that have previously been fully functional but now are marginal or offline",
       "searchTags": "problems with marginal or offline apps",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a72428f9-6d23-947b-754e-4e3e68249e05",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring Conditional Access policies that apply to certain geographic or IP ranges.",
+      "searchTags": "IP;IP ranges;geo ranges;geographic ranges;CA",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -427,6 +436,14 @@
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb5f0cd3-6664-fdb2-4902-30f1e34dfa69",
+      "longDescription": "",
+      "shortDescription": "Questions regarding default security settings for new tenants",
+      "searchTags": "security;defaults;security default",
+      "category": "security",
       "useInDiagnoseAndSolve": "true"
     },
     {

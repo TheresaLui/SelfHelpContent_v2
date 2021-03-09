@@ -1,19 +1,15 @@
 <properties
-    pageTitle="Azure Logic Apps - X12 encoding"
-    description="Azure Logic Apps - X12 encoding"
-    service="microsoft.logicapps"
-    resource="logicapps"
-    authors="v-miegge"
-    ms.author="kawilson"
-    selfHelpType="generic"
-    supportTopicIds="32780475"
-    resourceTags=""
-    productPesIds="17378"
-    ownershipId="Compute_LogicApps"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="1b2cf608-fe93-427f-b8c3-1615a2abdc12"
-/>
-
+  pagetitle="Azure Logic Apps - X12 encoding&#xD;"
+  service="microsoft.logicapps"
+  resource="logicapps"
+  ms.author="kawilson,xuehongg"
+  selfhelptype="Generic"
+  supporttopicids="32780529"
+  resourcetags=""
+  productpesids="17378"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="1b2cf608-fe93-427f-b8c3-1615a2abdc12"
+  ownershipid="Compute_LogicApps" />
 # Azure Logic Apps - X12 encoding
 
 ## **Recommended Steps**
@@ -26,5 +22,5 @@ With the Encode X12 message connector, you can validate EDI and partner-specific
 ## **Recommended Documents**
 
 - [Getting Started with Logic Apps - XML to EDI X12](https://www.tech-findings.com/2019/11/getting-started-with-logic-apps-xml-to-EDI-x12.html)
-- For Azure Logic Apps questions, visit the [Azure Logic Apps forum](https://social.msdn.microsoft.com/forums/home?forum=azurelogicapps)
-- To submit or vote on feature ideas, visit the [Logic Apps feedback page](https://feedback.azure.com/forums/287593-logic-apps)
+- For Azure Logic Apps questions, see the [Azure Logic Apps forum](https://social.msdn.microsoft.com/forums/home?forum=azurelogicapps)
+- To submit or vote on feature ideas, see the [Logic Apps feedback page](https://feedback.azure.com/forums/287593-logic-apps)

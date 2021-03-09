@@ -24,11 +24,20 @@ There are several ways to check whether a module is running on your IoT Edge dev
 
 * Use a direct method to ping the IoT Edge agent and get its status. For example, use the following Azure CLI command: `az iot hub invoke-module-method --method-name "ping" -n <hub name> -d <device name> -m '$edgeAgent'`
 
-* On the IoT Edge device, use the command **iotedge list** to check the status of all modules on the device. If your module is not running, use the command **iotedge logs <module name>** to get more information.
+* On the IoT Edge device, use the command `iotedge list` to check the status of all modules on the device. If your module is not running, use the command `iotedge logs <module name>` to get more information.
 
 * For ongoing reporting, consider using Event Grid to monitor connect and disconnect events. 
 
 ## **Recommended Documents**
 
-* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+**1.1 (and earlier)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2018-06)
+
+**1.2 (and later)**
+
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot?view=iotedge-2020-11)
+
+**More Resources**
+
 * [React to IoT Hub events by using Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)

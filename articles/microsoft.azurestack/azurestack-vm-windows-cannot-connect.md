@@ -24,6 +24,10 @@ Connectivity to an Azure Stack VM can be affected by networking issues in the Az
   * [Basic troubleshooting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)
   * [Advanced troubleshooting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
 
+**VM connection issues**
+
+[Manage network resources in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption)
+
 ## **Recommended Documents**
 
 - [Troubleshoot specific RDP errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection#troubleshoot-specific-rdp-errors)

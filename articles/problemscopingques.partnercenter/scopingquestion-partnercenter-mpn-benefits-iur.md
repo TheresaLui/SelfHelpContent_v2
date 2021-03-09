@@ -4,7 +4,7 @@
 	authors="dimanjar" 
         ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32725801,32725871,32725861,32725862"
+	supportTopicIds="32725801,32725861"
 	productPesIds="17000,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -27,34 +27,38 @@
             "displayLabel": "What offer or program are you having issue with?",
             "watermarkText": "Select offer/program type",
             "dropdownOptions": [
-                {
-                    "value": "MAPS",
-                    "text": "MAPS"
+		{
+                    "value": "advanced_spec",
+                    "text": "Advanced Specialization"
                 },
                 {
-                    "value": "Silver",
-                    "text": "Silver"
+                    "value": "azure_exp_msp",
+                    "text": "Azure Expert MSP"
                 },
                 {
                     "value": "Gold",
                     "text": "Gold"
                 },
                 {
-                    "value": "Azure expert MSP",
-                    "text": "Azure expert MSP"
+                    "value": "Silver",
+                    "text": "Silver"
                 },
-                {
-                    "value": "Other",
-                    "text": "Other"
-                }
+		{
+                    "value": "MAPS",
+                    "text": "MAPS"
+                },
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure / Other"
+	       }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "mpn_benefit_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What type of benefit are you having problem with?",
+            "displayLabel": "What type of benefit are you having problems with?",
             "watermarkText": "Select benefit type",
             "dropdownOptions": [
                 {
@@ -66,19 +70,15 @@
                     "text": "Software products"
                 },
                 {
-                    "value": "Visual studio subscriptions",
-                    "text": "Visual studio subscriptions"
+                    "value": "Visual Studio subscriptions",
+                    "text": "Visual Studio subscriptions"
                 },
-                {
-                    "value": "Technical benefits",
-                    "text": "Technical benefits"
-                },
-                {
-                    "value": "Go to Market",
-                    "text": "Go to Market"
-                }
+		{
+		   "value": "dont_know_answer",
+		   "text": "Not sure / Other"
+	       }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -86,6 +86,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
+	    "infoBalloonText": "To help us better understand your issue and for a faster resolution please upload the PSR (<a href='https://docs.microsoft.com/office/troubleshoot/settings/how-to-use-problem-steps-recorder'>How to take a PSR</a>)",
             "required": true,
             "useAsAdditionalDetails": true
         },

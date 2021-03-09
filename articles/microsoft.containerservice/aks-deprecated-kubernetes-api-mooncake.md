@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
   "recommendationFriendlyName": "DeprecatedKubernetesAPIIn116IsFound",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "potentialBenefits": "Avoid using deprecated API",
   "owner": {
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 1.1,
   "description": "Deprecated Kubernetes API in 1.16 is found",
   "longDescription": "Deprecated Kubernetes API in 1.16 is found. Avoid using deprecated API.",
   "actions": [

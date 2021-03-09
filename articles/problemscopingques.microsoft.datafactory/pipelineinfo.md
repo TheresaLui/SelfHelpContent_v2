@@ -4,7 +4,7 @@
 	authors="lisaliu,hecepeda"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629483,32637158,32637159,32629480,32629495,32637161,32740731"
+	supportTopicIds="32629483,32637158,32637159,32680905,32629480,32629495,32637161,32740731, 32781334, 32680906, 32680904, 32637160, 32788106"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -29,7 +29,6 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
-			"diagnosticInputRequiredClients": "Portal",
             "required": true
         },
         {
@@ -41,8 +40,39 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "ir_type",
             "order": 3,
+			"visibility": "null",
+            "controlType": "dropdown",
+            "displayLabel": "Which type of integration runtime are you using?",
+            "watermarkText": "Choose an IR type",
+            "dropdownOptions": [
+                {
+                    "value": "Azure IR",
+                    "text": "Azure IR"
+                },
+                {
+                    "value": "Self-hosted IR",
+                    "text": "Self-hosted IR"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_report_id",
+            "order": 4,
+			"visibility": "ir_type == Self-hosted IR",
+            "controlType": "textbox",
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue",
             "required": true,

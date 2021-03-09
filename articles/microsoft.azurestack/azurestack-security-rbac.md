@@ -1,8 +1,8 @@
 <properties
-  pagetitle="Azure Stack Account management (add, remove, rotate passwords)"
+  pagetitle="Azure Stack Account management (add, remove, rotate passwords)&#xD;"
   service="microsoft.azurestack"
   resource="registrations"
-  ms.author="alexsmit,justinha"
+  ms.author="alexsmit,justinha,v-myoung"
   selfhelptype="Generic"
   supporttopicids="32663929,32737110,32737252,32741888,32745835"
   resourcetags=""
@@ -12,7 +12,7 @@
   ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Azure Stack Account management (add, remove, rotate passwords)
 
-Role-Based Access Control (RBAC) in Azure Stack is consistent with the implementation in Microsoft Azure. You can manage access to resources by assigning the appropriate RBAC role to users, groups, and applications.
+Role-Based Access Control (RBAC) in Azure Stack is consistent with the implementation in Microsoft Azure. You can manage access to resources by assigning the appropriate RBAC role to users, groups, and applications. If you need to change a user from either Azure Stack registration owner or CSP owner to a generic role, see [Add or remove Azure role assignments](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal). 
 
 ## **Recommended Steps**
 
