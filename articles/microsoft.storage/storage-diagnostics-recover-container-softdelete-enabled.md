@@ -16,7 +16,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-# Blob Recovery with Soft Delete disabled
+# Blob Container Recovery with Soft Delete enabled
 
 <!--issueDescription-->
 
