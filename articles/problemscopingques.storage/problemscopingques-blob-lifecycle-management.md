@@ -21,14 +21,15 @@
     "diagnosticCard": {
         "title": "Blob Lifecycle Management Troubleshooter",
         "description": "Select Submit to diagnose Life Cycle Management Issues.",
-        "insightNotAvailableText": "Our troubleshooter didn't detect an issue with your resource. Provide a sample blob path with this issue and ensure that it's in the approved format, as suggested in the watermark."
+        "insightNotAvailableText": "Our troubleshooter did not detect an issue with your resource. Provide a sample blob path with this issue and ensure that it's in the approved format as suggested in the watermark."
+
     },
     "formElements": [
         {
             "id": "blob_path",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Optional: For LCM with specific blob, add the blob path",
+            "displayLabel": "Optional : For LCM with specific blob, add the blob path",
             "watermarkText": "'mycontainer/myblob.txt'",
             "required": false,
             "diagnosticInputRequiredClients": "ASC"

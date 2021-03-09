@@ -15,7 +15,7 @@
   "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "4a675efc-039f-4953-917c-7580ea7aa955",
+  "recommendationTypeId": "eedc2853-3369-4ede-8a75-68caf73e24df",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('aksff.kusto.usgovcloudapi.net').database('AKSprod').OmsWorkspaceDeleted",
     "dataSource": "Kusto",
@@ -38,7 +38,7 @@
     "serviceTreeId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "description": "Monitoring addon workspace is deleted",
   "longDescription": "Monitoring addon workspace is deleted. Correct issues to setup monitoring addon.",
   "actions": [
