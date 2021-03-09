@@ -1,21 +1,16 @@
 <properties
-    pageTitle="SQL query"
-    description="SQL query"
-    service="microsoft.documentdb"
-    resource="databaseAccounts"
-    authors="timsander1"
-    ms.author="tisande"
-    selfHelpType="generic"
-    supportTopicIds="32636818,32688845,32741534"
-    resourceTags=""
-    productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-    articleId="cosmosdb-sql-query"
-    displayOrder="65"
-    category="Core (SQL)"
-    ownershipId="AzureData_AzureCosmosDB"
-/>
-
+  pagetitle="SQL queries for Azure Cosmos DB&#xD;"
+  description="SQL query"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="tisande,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636818,32688845"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-sql-query"
+  ownershipid="AzureData_AzureCosmosDB" />
 # SQL queries for Azure Cosmos DB
 Most users are able to resolve their Cosmos DB related SQL query questions or issues using the steps below.   
 
@@ -63,4 +58,4 @@ You can also use [diagnostics logs](https://docs.microsoft.com/azure/cosmos-db/c
 <br>Performance tips for Azure Cosmos DB Java SDK v4  
 
 [Working with JSON in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
-<br>In Azure Cosmos DB's SQL (Core) API, items are stored as JSON. The type system and expressions are restricted to deal only with JSON types.    
+<br>In Azure Cosmos DB's SQL (Core) API, items are stored as JSON. The type system and expressions are restricted to deal only with JSON types.
