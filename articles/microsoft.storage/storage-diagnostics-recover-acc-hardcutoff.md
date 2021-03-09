@@ -21,7 +21,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 <!--issueDescription-->
 Microsoft Azure sincerely apologizes that we are unable to recover the following deleted storage account(s):
 
-<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
+<!--$ResourceName-->[ResourceName]<!--/$ResourceName--><br>
 
 We are unable to recover accounts that have been deleted for more than 14 days, as they are garbage-collected.
 <!--/issueDescription-->
