@@ -39,6 +39,6 @@ Stop the Azure Function prior to deployment.
 Once Slots for Azure Functions are out of (preview) then recommend deployment to a slot and then swap.
 
 ## **Recommended Documents**
-
+* [Storage Considerations for Functions](https://docs.microsoft.com/azure/azure-functions/storage-considerations)
 * [Use Visual Studio to create a C# class library-based function that responds to HTTP requests](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio)
 * [Develop Azure Functions using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs)
