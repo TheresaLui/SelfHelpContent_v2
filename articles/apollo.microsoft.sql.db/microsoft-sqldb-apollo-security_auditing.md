@@ -23,10 +23,10 @@ This article guides users for Azure SQL DB Auditing setup and configuration demo
 View the following demo of configuring Auditing Azure SQL Database and documentation to address common questions during setup and configuration.
 
 <video>
-<src>https://www.youtube.com/watch?v=7uDloadggmA</src>
-<title>Demo: Configure Auditing for Azure SQL Database</title>
+    <src>https://www.youtube.com/watch?v=7uDloadggmA</src>
+    <title>Demo: Configure Auditing for Azure SQL Database</title>
 </video>
-  
+
 
 :::Section Azure SQL Database auditing overview:::
 
@@ -39,6 +39,7 @@ Here are some benefits of the Auditing feature:
  - Report on database activity. You can use pre-configured reports and a dashboard to get started quickly with activity and event reporting.
  - Analyze reports. You can find suspicious events, unusual activity, and trends.
 
+
 :::Section Configuration and setup:::
 
 ## **Configure and set up Auditing**
@@ -49,6 +50,7 @@ Here are some benefits of the Auditing feature:
 4. To audit Geo-replication databases, see these [recommendations](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#auditing-geo-replicated-databases)
 5. After auditing is enabled, use the following links to Get status on [Auditing policy](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#manage-auditing)
 6. Remove or [Disable Auditing](https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#manage-auditing)
+
 
 :::Section Considerations and known issues:::
 
@@ -62,6 +64,7 @@ Here are some benefits of the Auditing feature:
 	 * In the case of AAD logins, the credentials are verified before attempting to use that user to login into the requested database. In the case of failure, the requested database is never accessed, so no auditing occurs. To view failed logins, you need to visit the [Azure Active Directory portal](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-sign-ins-error-codes), which logs details of these events.
 	* In the case of SQL logins, the credentials are verified on the requested data, so failed logins can be audited.
 	* Successful logins, which obviously reach the database, are audited in both cases.
+
 
 :::Section Permissions and access:::
 
@@ -105,6 +108,7 @@ Here are some benefits of the Auditing feature:
 	- If you are planning to use TSQL please follow the document [Consuming audit logs though TSQL](https://docs.microsoft.com/sql/relational-databases/system-functions/sys-fn-get-audit-file-transact-sql?view=sql-server-ver15)
 	- For Managed Instance, create an audit using the following T-SQL:
 	- CREATE SERVER AUDIT [MyAudit] TO EXTERNAL_MONITOR WITH (OPERATOR_AUDIT = ON)
+
 
 :::Section Limitations:::
 
