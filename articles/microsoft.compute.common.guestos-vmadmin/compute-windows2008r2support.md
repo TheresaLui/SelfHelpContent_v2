@@ -17,7 +17,7 @@
 
 # Windows Server 2008 and 2008 R2 extended security updates (ESU)
 
-4 out of 5 customers resolved their indows Server 2008 extended security updates issue using the steps below.<br>
+Most customers resolve their issues with Windows Server 2008 extended security updates using the following resources.<br>
 
 ## **Recommended Documents**
 
