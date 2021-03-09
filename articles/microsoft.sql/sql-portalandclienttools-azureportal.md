@@ -1,5 +1,5 @@
 <properties
-  pagetitle="portal and client tools/azure portal"
+  pagetitle="Portal and client tools/azure portal"
   description="portal and client tools/azure portal"
   service="microsoft.sql"
   resource="servers"
@@ -11,12 +11,10 @@
   cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
   articleid="a4981f93-f5da-4990-8877-a0ec3abc3489"
   ownershipid="AzureData_AzureSQLDB_Portal" />
-# portal and client tools/azure portal
+# Portal and client tools/azure portal
 
 ## **Recommended Steps**
 Most users can resolve issues concerning by using the following steps:
-
-## **Recommended Steps** 
 
 **How Do I move SQL Resource?**
 * Move resource to another resource group/subscription,refer to [Move resources to a new resource group or subscription](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription#next-steps) 
@@ -25,6 +23,7 @@ Most users can resolve issues concerning by using the following steps:
 
 
 ***How Do I Change SQL DB Timezone***
+
 All Azure SQL Database logical servers, regardless of region, are configured to use Coordinated Universal Time (UTC) as the local time zone. This setting cannot be configured by the user. If your applicable requires datetime values in a specific local time zone, your options are to:
 
 - Use the [AT TIME ZONE](https://docs.microsoft.com/sql/t-sql/queries/at-time-zone-transact-sql?view=sql-server-ver15) T-SQL clause to convert UTC to the desired time zone. In some simple queries, you might be able to include this conversion inside a scalar function, but this might cause performance problems on more complex queries. A better performing option is to do this directly in the query, as shown in [this blog](https://blog.greglow.com/2020/03/12/sql-getting-local-date-and-time-in-azure-sql-database/).
