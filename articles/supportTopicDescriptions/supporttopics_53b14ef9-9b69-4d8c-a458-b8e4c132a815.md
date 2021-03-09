@@ -348,8 +348,8 @@
     {
       "id": "7b90261e-1392-3473-dfb0-566419a1e416",
       "longDescription": "",
-      "shortDescription": "Questions or issues on Database Mail, a feature to send e-mail messages to database users, SQL agent Job failures",
-      "searchTags": "mail;database mail;;dbmail;profile;sql server mail agent;sql agent job;job;job failure",
+      "shortDescription": "Questions or issues configuring SQL agent Jobs, and troubleshooting job failures or SQL Agent service issues",
+      "searchTags": "mail;database mail;dbmail;profile;sql server mail agent;sql agent job;job;job failure",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
