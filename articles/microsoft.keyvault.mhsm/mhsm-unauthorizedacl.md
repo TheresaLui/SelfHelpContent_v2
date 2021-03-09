@@ -20,7 +20,7 @@
 # You have Key Vault Managed HSM recommendations
 
 <!--issueDescription-->
-An application does not have sufficient permissions to perform operations on '<!--$PoolName-->[PoolName]<!--/$PoolName-->' Managed HSM.
+An application does not have sufficient permissions to perform operations on <!--$PoolName-->[PoolName]<!--/$PoolName--> Managed HSM.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -35,9 +35,9 @@ To resolve this issue:
   az ad sp show --id "<!--$CallerId-->[CallerId]<!--/$CallerId-->" 
   ```
 
-2. If this is the right application, ask an administrator (a user in the Managed HSM built-in role, Managed HSM Administor) of Managed HSM '**<!--$PoolName-->[PoolName]<!--/$PoolName-->**' to assign a appropriate role to service principal id '**<!--$CallerId-->[CallerId]<!--/$CallerId-->**' as the following:<br>
+2. If this is the right application, ask an administrator (a user in the Managed HSM built-in role, Managed HSM Administor) of Managed HSM **<!--$PoolName-->[PoolName]<!--/$PoolName-->** to assign a appropriate role to service principal id **<!--$CallerId-->[CallerId]<!--/$CallerId-->**, as the following example:<br>
  
- For example, in Azure CLI, run the following command as the administrator of the Managed HSM '<!--$PoolName-->[PoolName]<!--/$PoolName-->':<br>
+ For example, in Azure CLI, run the following command as the administrator of the Managed HSM `<!--$PoolName-->[PoolName]<!--/$PoolName-->`:<br>
  - To give key encrypt/decrypt operations to the application:
   
    ```
