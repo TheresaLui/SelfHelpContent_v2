@@ -1,6 +1,6 @@
 <properties 
-  pageTitle="Polybase, R Services, Service Broker, Resource governor etc."
-  description="Polybase, R Services, Service Broker, Resource governor etc."
+  pageTitle="Polybase"
+  description="Polybase"
   authors="ujpat,amamun"
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
   articleId="82911d8f-1cb5-40b1-b1e9-47912441f5fa"
   ownershipId="AzureData_AzureSQLVM"
 />
-# Polybase, R Services, Service Broker, Resource governor etc.
+# Polybase
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Polybase, R Services, Service Broker, Resource governor etc.",
+    "title": "Polybase",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -39,14 +39,6 @@
                 {
                     "text": "Polybase setup or errors",
                     "value": "PolyBase"
-                },
-                {
-                    "text": "R Service setup or errors",
-                    "value": "RService"
-                },
-                {
-                   "text": "Service Broker configuration or errors",
-                   "value": "ServiceBroker"
                 },
                 {
                    "text": "Resource Governor setup or errors",
