@@ -25,7 +25,7 @@
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Network/expressRouteCircuits",
     "recommendationFriendlyName": "ExpressRouteCircuit",
-    "recommendationMetadataState": "Active",
+    "recommendationMetadataState": "Disabled",
     "portalFeatures": [],
     "owner": {
         "email": "ExRPM@microsoft.com",
@@ -38,7 +38,7 @@
     },
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
-    "version": 1.1,
+    "version": 1.2,
     "learnMoreLink": "https://aka.ms/expressroute",
     "description": "Delete ExpressRoute circuits in the provider status of Not Provisioned",
     "longDescription": "We noticed that your ExpressRoute circuit is in the provider status of Not Provisioned for more than one month. This circuit is currently billed hourly to your subscription. We recommend that you delete the circuit if you aren't planning to provision the circuit with your connectivity provider.",

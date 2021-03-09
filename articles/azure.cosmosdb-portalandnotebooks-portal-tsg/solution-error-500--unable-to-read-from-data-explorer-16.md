@@ -25,7 +25,7 @@ One possible cause if you are using the SDK used by the application is .Net SDK 
  
 Collect Information for investigation
 
-##How to Collect Fiddler Traces:
+#### How to Collect Fiddler Traces:
 
 Please install the fiddler from the web
 https://www.telerik.com/download/fiddler

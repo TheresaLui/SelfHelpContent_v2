@@ -29,17 +29,8 @@
             "required": false
         },
         {
-            "id": "seller_ID",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Seller ID.",
-            "watermarkText": "Please provide the Seller ID",
-	    "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-            "required": false
-        },
-        {
             "id": "solution_name",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Solution Name",
             "watermarkText": "Please provide the solution name.",
@@ -47,15 +38,15 @@
         },
         {
             "id": "solution_ID",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Solution ID",
             "watermarkText": "Please provide the solution ID.",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -64,7 +55,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

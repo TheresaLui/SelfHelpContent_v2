@@ -5,8 +5,8 @@
   ms.author="akucer, russellcooks"
   selfhelptype="SupportTopicDescription"
   productpesids="efa0fcb8-3325-6eb7-b451-8e3a853aaead"
-  cloudenvironments=""
-  disableclouds="Public, Blackforest, Fairfax, Mooncake, Ussec, Usnat"
+  cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+  disableClouds=""
   articleid="supporttopics_efa0fcb8-3325-6eb7-b451-8e3a853aaead"
   ownershipid="StorageMediaEdge_Media" />
 # Support Topic Descriptions for efa0fcb8-3325-6eb7-b451-8e3a853aaead

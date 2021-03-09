@@ -29,37 +29,8 @@
        "content": "For a better analysis and a faster resolution please attach a screenshot of the review to be removed in the Upload section above"
        },
        {
-       "id": "pc_isv_seller_id",
-       "order": 2,
-       "visibility": null,
-       "controlType": "textbox",
-       "displayLabel": "Seller ID",
-       "watermarkText": "Please provide the Seller ID",
-       "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-       "required": false
-       },
-       {
-       "id": "pc_isv_publisher_id",
-       "order": 3,
-       "visibility": null,
-       "controlType": "textbox",
-       "displayLabel": "Publisher ID",
-       "watermarkText": "Please provide the Publisher ID",
-       "infoBalloonText": "Open another Partner Center tab and follow these instructions: Select the cog wheel icon on the top right, then Account Settings. Under Organization Profile select Identifiers, the Seller ID & Publisher ID are listed under the Commercial Marketplace section.",
-       "required": false
-       },
-       {
-       "id": "pc_isv_publisher_name",
-       "order": 4,
-       "visibility": null,
-       "controlType": "textbox",
-       "displayLabel": "Publisher name",
-       "watermarkText": "Please provide the Publisher name",
-       "required": false
-       },
-       {
        "id": "pc_isv_offer_name",
-       "order": 5,
+       "order": 2,
        "visibility": null,
        "controlType": "textbox",
        "displayLabel": "Offer Name",
@@ -68,7 +39,7 @@
        },
        {
        "id": "pc_isv_offer_id",
-       "order": 6,
+       "order": 3,
        "visibility": null,
        "controlType": "textbox",
        "displayLabel": "Offer ID",
@@ -77,7 +48,7 @@
        },
        {
        "id": "pc_isv_offer_type",
-       "order": 7,
+       "order": 4,
        "visibility": null,
        "controlType": "dropdown",
        "displayLabel": "Offer Type",
@@ -151,7 +122,7 @@
        },
        {
        "id": "business_just",
-       "order": 8,
+       "order": 5,
        "visibility": null,
        "controlType": "dropdown",
        "displayLabel": "Business justification for removal",
@@ -177,7 +148,7 @@
        },
        {
        "id": "additional_bussjust",
-       "order": 9,
+       "order": 6,
        "visibility": "business_just==dont_know_answer",
        "controlType": "multilinetextbox",
        "displayLabel": "Business justification",
@@ -186,7 +157,7 @@
        },
        {
        "id": "offer_url",
-       "order": 10,
+       "order": 7,
        "visibility": null,
        "controlType": "textbox",
        "displayLabel": "Storefront offer URL",
@@ -195,7 +166,7 @@
        },
        {
        "id": "user_review_date",
-       "order": 11,
+       "order": 8,
        "visibility": null,
        "controlType": "datetimepicker",
        "displayLabel": "When was the review posted?",
@@ -204,7 +175,7 @@
        },
        {
        "id": "review_title",
-       "order": 12,
+       "order": 9,
        "visibility": null,
        "controlType": "textbox",
        "displayLabel": "Review title",
@@ -213,7 +184,7 @@
        },
        {
        "id": "file_attached",
-       "order": 13,
+       "order": 10,
        "visibility": null,
        "controlType": "dropdown",
        "displayLabel": "Have you attached a screenshot (in the Upload section above) of the exact review to be removed?",
@@ -233,13 +204,13 @@
        {
        "id": "learn_more_text2",
        "visibility": "attached_file==No",
-       "order": 14,
+       "order": 11,
        "controlType": "infoblock",
        "content": "For a better analysis and a faster resolution please attach a screenshot of the review to be removed in the Upload section above"
        },
        {
        "id": "problem_description",
-       "order": 15,
+       "order": 12,
        "controlType": "multilinetextbox",
        "displayLabel": "Details",
        "watermarkText": "Please provide any other additional information about your issue",
@@ -248,7 +219,7 @@
        },
        {
        "id": "problem_start_time",
-       "order": 16,
+       "order": 13,
        "controlType": "datetimepicker",
        "displayLabel": "Start Date",
        "watermarkText": "When did your issue begin?",
