@@ -24,32 +24,16 @@
    "fileAttachmentHint": "Please upload any supporting files that can help us better understand your issue (screen recording or a document with steps to recreate the issue)",
    "formElements": [
        {
-	   "id": "pc_isv_publisher_name",
-	   "order": 1,
-	   "controlType": "textbox",
-	   "displayLabel": "Publisher name",
-	   "watermarkText": "Please provide the publisher name",
-	   "required": false
-       },
-       {
-	   "id": "pc_isv_seller_id",
-	   "order": 2,
-	   "controlType": "textbox",
-	   "displayLabel": "Please provide the seller ID",
-	   "watermarkText": "In Partner Center select Settings then Developer settings",
-	   "required": true
-       },
-       {
 	   "id": "pc_isv_offer_name",
-	   "order": 3,
+	   "order": 1,
 	   "controlType": "textbox",
 	   "displayLabel": "Offer Name",
 	   "watermarkText": "Please provide the Offer Name",
-	   "required": false
+	   "required": true
        },
        {
 	   "id": "pc_isv_offer_type",
-       	   "order": 4,
+       	   "order": 2,
 	   "controlType": "dropdown",
 	   "displayLabel": "Offer Type:",
        	   "watermarkText":"Please select the Offer Type from the below list",
@@ -123,7 +107,7 @@
        },
        {
 	   "id": "problem_description",
-	   "order": 5,
+	   "order": 3,
 	   "controlType": "multilinetextbox",
 	   "displayLabel": "Details",
 	   "watermarkText": "Please provide any other additional information about your issue",
@@ -132,7 +116,7 @@
        },
        {
 	   "id": "problem_start_time",
-	   "order": 6,
+	   "order": 4,
 	   "controlType": "datetimepicker",
 	   "displayLabel": "Start Date",
 	   "watermarkText": "When did your issue begin?",

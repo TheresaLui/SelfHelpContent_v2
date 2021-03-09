@@ -17,7 +17,7 @@
 
 # Check if GCS cluster delete error
 
-## **Recommended Steps**
+
 
 Review and validate customer case:
 

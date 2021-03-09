@@ -21,11 +21,18 @@
 
 This TSG covers scenarios for the following support topics:
 
-* Virtual WAN/Configuration and setup/Create or delete WAN
-* Virtual WAN/Configuration and setup/Create, edit or delete Virtual Hub
-* Virtual WAN/Configuration and setup/Create, edit or delete VPNSite
-* Virtual WAN/Virtual WAN Hub/Create, edit or delete hub
-* Virtual WAN/Virtual WAN Hub/Hub failed
+* Azure/Virtual WAN/Configuration and setup/Create or delete WAN
+* Azure/Virtual WAN/Configuration and setup/Create or associate connections from site to hub
+* Azure/Virtual WAN/Configuration and setup/Create, edit or delete Virtual Hub
+* Azure/Virtual WAN/Configuration and setup/Create, edit or delete VPNSite
+* Azure/Virtual WAN/Virtual WAN Hub/Create, edit or delete hub
+* Azure/Virtual WAN/Virtual WAN Hub/Hub failed
+* Azure/Virtual WAN/Virtual WAN Virtual Network Connection/Create, edit or delete Virtual Network Connection
+* Azure/Virtual WAN/Virtual WAN Routing/Create, edit or delete Virtual Hub Route table
+* Azure/Virtual WAN/Virtual WAN VPN/Create or associate connections from site to hub
+* Azure/Virtual WAN/Virtual WAN VPN/VPN Site Create, edit or delete
+
+
 
 **If your case is incorrectly marked for these support topics (mis-routed), please:**
 * Click on 'Edit and Run Again' in the upper right corner of ASC

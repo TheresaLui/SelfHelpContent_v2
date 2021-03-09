@@ -32,4 +32,4 @@ The dashboard should report the reason of the failures in the "Errors" Section. 
 
 The error might point to something that the customer has control of, or might point to a backend issue that requires Azure team to fix.
 
-**Important note**: if some resource is in **Failed** provisioning state, it will not be possible to delete it. The resource must be in Succeeded provisioning state to allow deletion.
+**Important note**: if some resource is in **Failed** provisioning state, it may not be possible to delete it. The resource must be in Succeeded provisioning state to allow deletion.

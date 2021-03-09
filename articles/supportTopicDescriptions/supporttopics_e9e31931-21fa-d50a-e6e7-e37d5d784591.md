@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0bb29dd2-faa1-4988-7551-52d4cf082843",
+      "longDescription": "",
+      "shortDescription": "Common problems resizing the scale set",
+      "searchTags": "resize",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0c41ebbd-4f70-a0cb-c305-b037c5e8c4e2",
       "longDescription": "",
       "shortDescription": "Guidance with Virtual Disk Management",
@@ -158,6 +166,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4196a8bf-8505-d865-a50e-1810d5d50f2b",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "create",
+      "category": "create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "433958cc-89e1-422a-cd83-b8b1f24d6f6b",
       "longDescription": "",
       "shortDescription": "Common problems related to an unresponsive instance",
@@ -182,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "437532d7-8287-1513-40dc-483b9f57fc50",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new scale set",
+      "searchTags": "Create",
+      "category": "Create",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "44eb8616-48ab-587b-dfd5-38dca7ca2a56",
       "longDescription": "",
       "shortDescription": "Issues with connecting to your VMSS instance",
@@ -195,6 +219,14 @@
       "shortDescription": "Covers issues related to scaling in your scale set",
       "searchTags": "Scale",
       "category": "Scale",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "49b038a0-7dd3-a90f-d60b-104bf28913b7",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer - health probes",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -238,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "79f09d33-c87d-962d-f724-ceee1953ec75",
+      "longDescription": "",
+      "shortDescription": "Need assistance with VMSS integration with a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
       "longDescription": "",
       "shortDescription": "Common problems related to using Orchestration",
@@ -259,6 +299,14 @@
       "shortDescription": "Issues with connecting to your VMSS instance",
       "searchTags": "Connect",
       "category": "Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "871816c7-0fd7-972c-6fed-fcdcded0d950",
+      "longDescription": "",
+      "shortDescription": "Need Root Cause Statement for an impacted resources",
+      "searchTags": "Restart",
+      "category": "Restart",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -334,6 +382,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9ed4b878-b6fe-32a8-10d7-4b9c1b371e3c",
+      "longDescription": "",
+      "shortDescription": "Help me with my public IP for my Load Balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9fd3152d-6587-c81f-b0a6-636bcd644ef2",
       "longDescription": "",
       "shortDescription": "Guidance with creating or deleting a virtual disk",
@@ -371,6 +427,14 @@
       "shortDescription": "Covers issues related to scaling your scale set not listed above",
       "searchTags": "Scale",
       "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c07d8380-25b4-37d0-6f9c-57e893dfc6b2",
+      "longDescription": "",
+      "shortDescription": "Help me understand why my guest OS is causing restarts",
+      "searchTags": "Restart",
+      "category": "restart",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -430,11 +494,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d18f8b23-c713-5285-d8f1-91fd8287f66e",
+      "longDescription": "",
+      "shortDescription": "Need assistance with increasing the NAT pool for my load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d267816d-11ee-0723-a6ea-24ad07d1e6e8",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
       "searchTags": "Scale Set",
       "category": "Trigger",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d87bdb67-b9ed-7a9a-9fde-9192026f00fc",
+      "longDescription": "",
+      "shortDescription": "Need assistance with adding or removing a load balancer",
+      "searchTags": "Load Balancer",
+      "category": "Load Balancer",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -454,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e1099306-faeb-b279-8724-7bc71657ca16",
+      "longDescription": "",
+      "shortDescription": "My issue is with Windows Update causing restarts",
+      "searchTags": "Restart",
+      "category": "Restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
       "longDescription": "",
       "shortDescription": "Questions specific to configuring monitoring alerts",
@@ -467,6 +555,14 @@
       "shortDescription": "Questions or issues specific to performance issues (DISK) with the scale set or instance.",
       "searchTags": "Scale",
       "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "eb888ccd-c709-1106-5c2e-a0078b55eaa0",
+      "longDescription": "",
+      "shortDescription": "Help me diagnose my instance restart issue",
+      "searchTags": "Restart",
+      "category": "Restart",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -494,6 +590,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f8202a88-d33b-8470-e95c-466900032c50",
+      "longDescription": "",
+      "shortDescription": "Questions or issues specific to performance issues (CPU) with the scale set or instance.",
+      "searchTags": "Scale",
+      "category": "Scale Set",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f84467a3-d986-9466-876d-a3ed58b12705",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
@@ -518,12 +622,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fee8ecf8-15a8-b846-4c88-dfaf24112908",
+      "longDescription": "",
+      "shortDescription": "Common problems related to instance not booting",
+      "searchTags": "Boot",
+      "category": "Cannot Start Stop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ff11ec6d-e402-03d1-69a2-2ca229a268b5",
       "longDescription": "",
       "shortDescription": "Common problems related to instance stuck in update",
       "searchTags": "update",
       "category": "Cannot Start Stop",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }

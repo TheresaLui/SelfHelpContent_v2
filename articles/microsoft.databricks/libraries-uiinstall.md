@@ -17,6 +17,17 @@
 
 # Diagnose and resolve install issue through UI
 
+Microsoft Support helps to isolate and resolve issues related to libraries installed and maintained by Azure Databricks. For third-party components, including libraries, Microsoft provides commercially reasonable support to help you further troubleshoot issues. Microsoft Support assists on a best-effort basis and might be able to resolve the issue. For open source connectors and projects hosted on Github, we recommend that you file issues on Github and follow up on them. Development efforts such as shading jars or building Python libraries are not supported through the standard support case submission process: they require a consulting engagement for faster resolution. 
+
+Support might ask you to engage other channels for open-source technologies where you can find deep expertise for that technology. There are several community sites; two examples are the [Microsoft Q&A page for Azure Databricks](https://docs.microsoft.com/answers/topics/azure-databricks.html) and [Stack Overflow](https://stackoverflow.com/).
+
+## **Recommended Steps**
+
+**Issue:** After installing PyPMML in a Azure Databricks cluster, it fails with a error "Py4JError: Could not find py4j jar".
+**Solution:** Follow the [steps here](https://docs.microsoft.com/azure/databricks/kb/libraries/pypmml-fail-find-py4j-jar#solution) to resolve this issue.
+
 ## **Recommended Documents**
 
-* [Problem: Can’t Uninstall Library From UI](https://kb.azuredatabricks.net/libraries/cant-uninstall-libraries.html)
+* [Libraries overview and Guidance](https://docs.microsoft.com/azure/databricks/libraries)
+* [Problem: Can’t Uninstall Library From UI](https://docs.microsoft.com/azure/databricks/kb/libraries/cant-uninstall-libraries)
+* [What address ranges can I use in my VNets?](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#what-address-ranges-can-i-use-in-my-vnets)

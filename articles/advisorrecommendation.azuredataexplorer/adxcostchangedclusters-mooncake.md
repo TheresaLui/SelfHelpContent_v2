@@ -16,7 +16,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.chinaeast2.kusto.chinacloudapi.cn').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
@@ -38,32 +37,27 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 4.0,
   "learnMoreLink": "https://www.azure.cn/pricing/details/data-explorer/",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in  to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize cost",
   "actions": [
     {
-      "actionId": "9bdcbfa6-0dbf-4c48-9291-587251102c63",
-      "description": "Change your SKU to scale down",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "actionId": "40466365-EBF0-42A3-84A3-4F9A22BF019C",
+      "description": "Resize the Cluster",
+      "actionType": "ContextBlade",
+      "extensionName": "Microsoft_Azure_Kusto",
+      "bladeName": "SkuRecommendationBlade",
       "metadata": {
-        "id": "{resourceId}",
-        "menuid": "scale_up"
-      }
-    },
-    {
-      "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
-      "description": "Change your instance count to scale in",
-      "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}",
-        "menuid": "scale_out"
+        "resource": "{resourceId}",
+        "skuRecommendation": {
+            "skuName": "{recommendedSku}",
+            "isDevSku": "{isDevSku}",
+            "instancesCount": "{recommendedInstanceCount}"
+        },
+        "description": "{description}",
+        "recommendedConfig": "{recommendedConfig}"
       }
     }
   ],

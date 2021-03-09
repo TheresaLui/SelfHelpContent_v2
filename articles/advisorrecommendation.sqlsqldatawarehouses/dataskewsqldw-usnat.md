@@ -6,13 +6,13 @@
     articleId="9d7196d1-2d7c-4316-820f-7374a4ddf250_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
+    ownershipId = "AzureData_SynapseAnalytics"
 />
 # Remove data skew to increase query performance
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
-  "recommendationOfferingName": "SQL Data Warehouse",
+  "recommendationOfferingName": "Azure Synapse Analytics",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "9d7196d1-2d7c-4316-820f-7374a4ddf250",
   "dataSourceMetadata": {

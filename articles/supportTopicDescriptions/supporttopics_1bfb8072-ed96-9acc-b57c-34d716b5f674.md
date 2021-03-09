@@ -2,10 +2,11 @@
   pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   authors="elixirsys2"
-  ms.author="shemers, olegan"
+  ms.author="shemers, olegan, luki, yossiy"
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  disableclouds=""
   articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674"
   ownershipid="AzureMonitoring_LogAnalytics" />
 # Support Topic Descriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674
@@ -21,6 +22,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "02a36e6a-8f38-3b77-184d-55b977bb0bd8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related to create Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "searchTags": "Log Analytics;Create;Workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
     {
       "id": "0b242861-e676-c1cd-9679-b4929328163d",
       "longDescription": "",
@@ -158,6 +167,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2f9403e1-8960-b0dc-dc2e-68e174562120",
+      "longDescription": "",
+      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
+      "searchTags": "OMS;Monitor;Agent",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "30ddae08-4760-ee4b-4187-d11a1eaae8b3",
       "longDescription": "",
       "shortDescription": "Assistance with setting ingestion daily cap, and how to control data volume in your workspace ",
@@ -168,10 +185,10 @@
     {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
-      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
-      "searchTags": "Log Analytics;Agent;OMS;Collect",
+      "shortDescription": "Issues related with the Windows Log Analytics agent (previously known as MMA)",
+      "searchTags": "Log Analytics;Agent;OMS;Collect;MMA",
       "category": "Data Collection",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "34ee4c48-dc0a-4b7f-0714-895cabd00e47",
@@ -232,7 +249,7 @@
     {
       "id": "4fb18d17-9056-ed22-a90d-15e71a6ea99f",
       "longDescription": "",
-      "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
+      "shortDescription": "Troubleshoot agent installation failures",
       "searchTags": "Agnets;Windows;CPU;OMI",
       "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
@@ -278,9 +295,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6042dbf8-8787-1233-3ac2-2b6e27ffe29e",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics data export feature. ",
+      "searchTags": "Data export;Log Analytics",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618641f5-670c-a008-fa47-18e1438552c3",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "shortDescription": "Investigate high processor (CPU) or memory usage caused by one of the Windows Agent processes.",
       "searchTags": "Agents;Log Analytics;Virtual Machine",
       "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
@@ -352,8 +377,8 @@
     {
       "id": "7df0385d-a098-72c2-f419-8293761a4b0b",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring Custom Logs within Log Analytics workspace.",
-      "searchTags": "Custom Logs;workspace",
+      "shortDescription": "Extracting data into Custom Fields during ingestion, management of custom fields ",
+      "searchTags": "Custom Logs;Field",
       "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "false"
     },
@@ -440,10 +465,10 @@
     {
       "id": "a1b4f582-317a-0e47-50b0-c99432f7e79d",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related with configuring IIS logs collection within Log Analytics workspace.",
-      "searchTags": "IIS;IIS logs;Workspace",
+      "shortDescription": "Troubleshoot issues related with IIS logs collection into Log Analytics workspace. For agent-related issues, please use Agent support topics.",
+      "searchTags": "IIS;IIS logs;Workspace;W3C",
       "category": "Data collection configuration",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
@@ -496,8 +521,8 @@
     {
       "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
       "longDescription": "",
-      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
-      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "shortDescription": "Issues related to network isolation, Private Links, Private Endpoints.",
+      "searchTags": "Private links;Private Endpoints;Network Isolation;VNet",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     },
@@ -616,7 +641,7 @@
     {
       "id": "cf89600e-3c72-4dcb-16eb-7a1ed0e798d6",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related to create or delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "shortDescription": "Troubleshoot issues related to delete Log Analytics workspaces via Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
       "searchTags": "Log Analytics;workspace;create;delete",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "true"
@@ -704,7 +729,7 @@
     {
       "id": "ebf41f04-0371-eabe-8e01-e3425b851837",
       "longDescription": "",
-      "shortDescription": "Troubleshoot issues related to Log Analytics workspaces",
+      "shortDescription": "Workspace and dedicated-cluster operations including create, delete, move, etc., permissions and data security compliance and control",
       "searchTags": "Log Analytics;Workspace",
       "category": "Workspace",
       "useInDiagnoseAndSolve": "false"

@@ -1,22 +1,21 @@
 <properties
-  pageTitle="Issues that are related to Azure Active Directory Application Development"
+  pagetitle="Issues that are related to Azure Active Directory Application Development&#xD;"
   description="Resolve the most common issues related to Azure Active Directory Application Development"
   service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="ajamess"
-  selfHelpType="generic"
-  supportTopicIds="32570266"
-  productPesIds="14785,16575"
-  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
- 	articleId="84273fcb-f060-41d3-b13a-8d33398d73c6"
-	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
-/>
-
+  resource="microsoft_aad_iam"
+  ms.author="runuguse"
+  selfhelptype="Generic"
+  supporttopicids="32570266"
+  resourcetags=""
+  productpesids="14785,16575"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="84273fcb-f060-41d3-b13a-8d33398d73c6"
+  ownershipid="AzureIdentity_AppDevelopmentAndRegistration" />
 # Issues that are related to Azure Active Directory Application Development
 
 ## **Recommended Steps**
 
-Want an answer now? [Check Stackoverflow for issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory) or post a [question on StackOverflow with tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Want an answer now? [Check Microsoft Q&A for issues building Azure Active Directory apps](https://docs.microsoft.com/answers/topics/azure-active-directory.html) or post a [question on Microsoft Q&A with tag `azure-active-directory`](https://docs.microsoft.com/answers/questions/ask.html).
 
 The following links will bring you to a content map which will help you to resolve some of the most common issues faced during application development and managing **App Registrations** in Azure Active Directory.
 

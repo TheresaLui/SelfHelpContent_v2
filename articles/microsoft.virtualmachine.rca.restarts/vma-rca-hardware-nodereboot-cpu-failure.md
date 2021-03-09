@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Hardware NodeReboot - CPU Failure"
+	description="Root Cause Analysis (RCA) - Hardware - CPU Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -12,31 +12,30 @@
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
-## *VM Availability Event*
+## **VM Availability**
 <!--issueDescription-->
-The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
+The Azure monitoring and diagnostics systems identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this time RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
 <!--rcaDescription-->
-### *Root Cause*
-> This unexpected occurrence was caused by an **Azure initiated host node reboot action** as the result of a detected **hardware issue** due to **CPU errors** on the physical node where the VM was hosted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.
+### **Root Cause**
+> This unexpected occurrence was caused by an Azure initiated host node reboot action as the result of a detected hardware issue due to CPU errors on the physical node where the VM was hosted.
 > 
 
 <!--resolutionDetails-->
-### *Resolution*
-> The node was taken out of service for additional diagnostics and repair.
+### **Resolution**
+> VM was restored following reboot of the host node.
 > 
 <!--/resolutionDetails-->
 
 <!--additionalInfo-->
-### *Additional Information*
-
+### **Additional Information**
 > The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 > 
 > - Azure is continually working to make improvements to pre-production hardware screening
@@ -52,7 +51,7 @@ The Azure monitoring and diagnostics systems identified that your VM **<!--$vmna
 <!--recommendedActions-->
 ## **Recommended Documents**
 
-> *Learn More About:*
+> *Learn more about:*
 > * [Maintenance and updates for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
 > * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 > * [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)

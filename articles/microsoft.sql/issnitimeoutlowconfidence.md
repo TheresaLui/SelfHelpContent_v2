@@ -8,7 +8,7 @@
 	ms.author="subbuk, swbharti"
 	displayOrder=""
 	articleId="IsSniReadTimeoutLowConfidence_2F61B012-A494-48DB-89DB-2648DB148BD3"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
 	resourceTags=""

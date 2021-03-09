@@ -10,15 +10,24 @@
 	supportTopicIds="32749514"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-    	resourceTags="servers, databases"
+    resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-highcpuutilization"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve poor performance and timeout issues in Azure SQL Database
 
-Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
+Poor performance in Azure SQL DB is most often related to excessive CPU utilization or to a query waiting on a resource. 
+Select the button below to identify the top CPU consuming queries 
+
+[Top CPU consuming queries](button-data-blade:SqlAzureExtension.QueryPerformanceInsightBlade.databaseResourceId.$resourceId)
+
+There are various other [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
 For analyzing High CPU usage we recommend the following:
+
+### **Query performance insights**
+
+[Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630459/) provides intelligent query analysis for single and pooled databases. It helps identify the top resource consuming and long-running queries in your workload. This helps you find the queries to optimize to improve overall workload performance and efficiently use the resource that you are paying for.
 
 ### **TSQL**
 
@@ -73,10 +82,6 @@ ORDER BY total_cpu_millisec DESC;
 The SQL Server [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?redirectedfrom=MSDN&view=sql-server-ver15) feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.
 
 You can fetch the query IDs for TOP CPU Consuming (CPU TIME ms) queries by selecting the particular metric under the regressed queries section of the Query store.
-
-### **Query performance insights**
-
-[Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630459/) provides intelligent query analysis for single and pooled databases. It helps identify the top resource consuming and long-running queries in your workload. This helps you find the queries to optimize to improve overall workload performance and efficiently use the resource that you are paying for.
 
 ## **Recommended Documents**
 

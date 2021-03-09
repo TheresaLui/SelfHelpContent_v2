@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 1.1,
   "learnMoreLink": "https://aka.ms/aa_manageddisksnapshot_learnmore",
   "description": "Use Standard Storage to store Managed Disks snapshots",
   "longDescription": "To save 60% of cost, we recommend storing your snapshots in Standard Storage, regardless of the storage type of the parent disk. This is the default option for Managed Disks snapshots. Migrate your snapshot from Premium to Standard Storage. Refer to Managed Disks pricing details.",
