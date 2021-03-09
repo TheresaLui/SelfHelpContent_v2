@@ -17,6 +17,8 @@
 
 # Azure Monitor for SAP Solutions
 
+For information about Azure Monitor for SAP solutions, see the following resources.
+
 ## **Recommended Documents**
 
 * [How to monitor SAP HANA on Azure Large Instances](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/troubleshooting-monitoring)<br>
