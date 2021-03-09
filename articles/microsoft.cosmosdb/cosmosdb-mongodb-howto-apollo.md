@@ -18,13 +18,13 @@
 
 # MongoDB - How-to
 
-<Insight>
+<insight>
     <symptomId>CosmosDBMongoSelfServeUpgradeInsight,CosmosDBMongoMigrationUpgradeInsight</symptomId>
     <executionText>We are running checks on your resource</executionText>
     <timeoutText>This check was taking too long, so we stopped the operation</timeoutText>
     <noResultText>No issues found</noResultText>
     <maxInsightCount>2</maxInsightCount>
-</Insight>
+</insight>
 
  
 Most users are able to resolve their Cosmos DB related MongoDB How-to questions or issues using the steps below.
