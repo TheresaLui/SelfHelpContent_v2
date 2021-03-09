@@ -34,7 +34,7 @@ ownershipId="CloudNet_NVA"
         },
         "serviceTreeId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985"
     },
-    "version": 1.20,
+    "version": 1.30,
     "learnMoreLink": "https://supportcenter.checkpoint.com/supportcenter/portal",
     "description": "An Azure environment update has been rolled out that may affect you Checkpoint Firewall.",
     "longDescription": "The image version of the Checkpoint firewall installed may have been affected by the recent Azure environment update. A kernel panic resulting in a reboot to factory defaults can occur in certain circumstances.",
@@ -50,15 +50,15 @@ ownershipId="CloudNet_NVA"
     "displayLabel": "Known issue for Checkpoint Network Virtual Appliance image version with NIC servicing",
     "tip": "Upgrade Network Virtual Appliance image to ensure business continuity.",
     "additionalColumns": [
-        {
-          "name": "startTime",
-          "title": "Event Start Time"
-        },
-        {
+                {
           "name": "duration",
           "title": "Event Duration"
+        },
+        {
+          "name": "evnetTime",
+          "title": "Event Start Time"
         }
     ],
-    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer, \"{\"\"startTime\"\":\"\"2021-02-28 19:34:54.7517879\"\", \"\"duration\"\" :\"\"00:00:00.9260000\"\"}\""
+    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/TREXAUTH/providers/Microsoft.Compute/virtualMachines/TrexDeployer, \"{\"\"duration\"\":\"\"00:00:00.9260000\"\", \"\"eventTime\"\":\"\"2021-02-28 19:34:54.7517879\"\"}\""
 }
 ---
