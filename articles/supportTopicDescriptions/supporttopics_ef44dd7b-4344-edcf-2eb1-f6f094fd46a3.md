@@ -95,6 +95,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e0ae211-e25c-9020-2a7f-016a87e1781c",
+      "longDescription": "",
+      "shortDescription": "Issues while using App Containerization tool to containerize and migrate web apps to AKS",
+      "searchTags": "AKS;Web App;App Containerization ;containerize ",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
       "shortDescription": "How to delete appliance used for discovery",
