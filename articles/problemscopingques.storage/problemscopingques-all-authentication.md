@@ -20,8 +20,8 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Authentication Issues Troubleshooter",
-        "description": "If you are reporting about an issue please help us with a few inputs and give us a few minutes to run automated diagnostics. We can help you to diagnose your issue without opening a support ticket.",
-        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
+        "description": "If you're reporting an issue, help us by providing a few inputs and giving us a few minutes to run automated diagnostics. We can help you diagnose your issue without opening a support ticket.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the correct inputs and ensuring that the format is as suggested in the watermark."
     },
     "formElements": [
         {
@@ -115,14 +115,14 @@
             "controlType": "textbox",
             "displayLabel": "Storage server request ID",
             "watermarkText": "Server Request ID of failed operation ending with 000000",
-	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). This is part of every response that is sent back by storage.",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000 (6 zeros). This is part of every response that is sent back by storage.",
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC",
 	    "validations": [
 		{
 		    "type": "RegExMatch",
 		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-		    "text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+		    "text": "Server Request ID always ends 000000 (6 zeros). Example: 05b2d321-403q-0037-4f62-2ag1aa000000"
 		}
 	    ]
         },
@@ -156,7 +156,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Blob path",
-            "watermarkText": "Blob name or path if specific to a blob",
+            "watermarkText": "Blob name or path, if specific to a blob",
             "required": false,
              "diagnosticInputRequiredClients": "Portal,ASC"
         },
