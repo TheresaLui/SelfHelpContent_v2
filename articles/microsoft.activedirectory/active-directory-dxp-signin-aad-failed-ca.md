@@ -20,18 +20,17 @@
 # Sign In Blocked
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> and access was interrupted by one or more of Conditional Access policies. The policy or policies below gave the interruption:
+Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> and access was interrupted by one or more of Conditional Access policies. The policy or policies below caused the interruption:
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
 
-If the interruption was unexpected be sure to expand the 'Show more' selection below.
+If the interruption was unexpected, review the following details to see why it happened and what may be done to resolve any issues.
 
-Included in the information are the application conditions from the Conditional Access policy or policies which applied and the Sign-in event details which the client submitted for the sign in attempt which matched the policy conditions.
+Included in the information are the application conditions from the Conditional Access policy or policies that applied and the Sign-in event details that the client submitted for the sign-in attempt that matched the policy conditions.
 
 <!--$policyConditions-->[policyConditions]<!--/$policyConditions-->
 [Edit Conditional Access Policies](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)
-
 
 ## **Recommended Documents**
 

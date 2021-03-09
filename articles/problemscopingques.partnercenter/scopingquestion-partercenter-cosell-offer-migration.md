@@ -67,7 +67,7 @@ pageTitle="Partner Center Cosell offer migration"
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "OCP Solution ID",
-			"watermarkText": "Please provide the OCP Solution ID.",
+			"watermarkText": "Enter the OCP Solution ID of the existing solution whose status and material you want to retain",
 			"required": true
 		},
 		{
@@ -75,14 +75,14 @@ pageTitle="Partner Center Cosell offer migration"
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "URL for Marketplace listing",
-			"watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
+			"watermarkText": "Enter the URL for Microsoft AppSource or Azure Marketplace offer that you want the OCP GTM solution to merge to",
 			"required": false
 		},
 		{
 			"id": "problem_start_time",
 			"order": 5,
 			"controlType": "datetimepicker",
-			"displayLabel": "Start Time",
+			"displayLabel": "Start Date",
 			"watermarkText": "When did your issue begin?",
 			"required": true
 		},

@@ -22,4 +22,6 @@
 ## **Recommended Documents**
 
 * [Migration options from 8000 series](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migration-from-8000-options#migration-options)<br>
+* [Storsimple 8100 and 8600 migration to Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-migration-storsimple-8000)<br>
+* [StorSimple 1200 migration to Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-files-migration-storsimple-1200)<br>
 * [Migration FAQ](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migration-from-8000-options#migration-options)

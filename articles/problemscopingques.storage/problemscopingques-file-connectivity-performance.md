@@ -19,8 +19,8 @@
     "title": "Storage File connectivity or performance scoping question",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "What caused my Azure Files connectivity issue?",
-        "description": "Our Azure Files connectivity troubleshooter can help you troubleshoot and solve your problem.",
+        "title": "What caused my Azure Files performance issue?",
+        "description": "Our Azure Files performance troubleshooter can help you troubleshoot and resolve your issue.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
@@ -64,8 +64,29 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "file_share_smbmultichannelenabled",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Is SMB Multichannel Enabled",
+            "dropdownOptions": [
+                {
+                    "value": "Enabled",
+                    "text": "Enabled"
+                },
+                {
+                    "value": "Not Enabled",
+                    "text": "Not Enabled"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

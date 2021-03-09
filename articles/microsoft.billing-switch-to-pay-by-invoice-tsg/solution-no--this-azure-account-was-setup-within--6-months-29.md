@@ -19,6 +19,6 @@
 
 <!--issueDescription-->
 
-We notice that your Azure Account is less than 6 months old, hence our Credit Check Team woud require you to provide us two years of audited, translated financial statements. Please do share the same as soon as you can
+We notice that your Azure Account is less than 6 months old, hence our Credit Check Team would require you to provide us two years of audited, translated financial statements. Please do share the same as soon as you can
 
 <!--/issueDescription-->

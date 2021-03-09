@@ -19,11 +19,12 @@
 
 ## **Recommended Steps**
 
-Take a screenshot of the problem and attach the screenshot to this ticket. Explain what is the data missing and how you expect to see it
+Take a screenshot of the problem and attach the screenshot to this ticket. 
 
+Explain what data is missing, and how you expect to see it.
 ## **Recommended Documents**
 
-* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br
+* [Tutorial: Discovering your sensitive content with the Azure Information Protection (AIP) scanner](https://docs.microsoft.com/azure/information-protection/tutorial-scan-networks-and-content)<br>

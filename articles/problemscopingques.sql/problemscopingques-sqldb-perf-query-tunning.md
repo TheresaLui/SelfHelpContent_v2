@@ -30,7 +30,7 @@
         },
         {
             "id": "is_query_for_tuning_identified",
-            "order": 20,
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Is the query that requires tuning specifically identified?",
             "watermarkText": "Choose an option",
@@ -52,7 +52,7 @@
         },
         {
             "id": "query_characteristics",
-            "order": 30,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Which type resembles the characteristics of the queries.",
             "watermarkText": "Choose an option",
@@ -82,7 +82,7 @@
         },
         {
             "id" : "query_characteristics_other",
-            "order" : 31,
+            "order" : 30,
             "visibility" : "query_characteristics == qry_other",
             "controlType" : "textbox",
             "displayLabel" : "Please describe the query characteristics.",
@@ -109,7 +109,7 @@
         },
         {
             "id": "application_type",
-            "order": 45,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is your application developed using any type of object-relational mapper such as Entity Framework?",
             "watermarkText": "Choose an option",
@@ -132,6 +132,103 @@
                 }
             ],
             "required": false
+        },
+	{
+            "id": "observed_recent_event",
+            "order": 60,
+            "controlType": "dropdown",
+            "displayLabel": "If applicable, please select recent events prior to observing the query performance decrease.",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "event_migration",
+                    "text": "Migrated database from On-Premises database"
+                },
+                {
+                    "value": "event_slo",
+                    "text": "Reconfiguration of the database Service Level Objective (SLO)"
+                },
+                {
+                    "value": "event_change_db_option",
+                    "text": "Changed database option"
+                },
+                {
+                    "value": "event_change_app_code",
+                    "text": "Changed application code"
+                },
+                {
+                    "value": "event_index_maintenance",
+                    "text": "Index maintenance (Index rebuild/reorganize)"
+                },
+                {
+                    "value": "event_other",
+                    "text": "Others (Please describe in the following text box)"
+                },
+                {
+                    "value": "event_unkown",
+                    "text": "Not aware"
+                }
+            ],
+            "required": false
+        },
+         {
+            "id" : "observed_recent_event_other",
+            "order" : 70,
+            "visibility" : "observed_recent_event == event_other",
+            "controlType" : "textbox",
+            "displayLabel" : "Please describe event observed",
+            "watermarkText" : "Events observed",
+            "required": true
+        },
+        {
+            "id" : "application_migration_type",
+            "order" : 80,
+            "visibility" : "observed_recent_event == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What is the application type?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "modern_platform",
+					"text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
+				},
+				{
+					"value": "legacy",
+					"text": "Legacy (Ex: COBOL, PL-I, Assembler etc.)"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
+        },
+          {
+            "id" : "migration_backend",
+            "order" : 90,
+            "visibility" : "observed_recent_event == event_migration",
+            "controlType" : "dropdown",
+            "displayLabel" : "What was the Pre-Migration backend?",
+            "watermarkText": "Choose an option",
+            "required": true,
+            "dropdownOptions": [
+				{
+					"value": "sql_server",
+					"text": "SQL Server"
+				},
+				{
+					"value": "oracle",
+					"text": "Oracle"
+				},
+				{
+					"value": "db2",
+					"text": "DB2"
+				},
+				{
+					"text": "Other, don't know or not applicable",
+					"value": "dont_know_answer"
+				}
+			]
         },
         {
             "id": "problem_description",

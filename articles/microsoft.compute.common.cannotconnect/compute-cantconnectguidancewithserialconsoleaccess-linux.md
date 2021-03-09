@@ -17,11 +17,12 @@
 
 # I need guidance with Serial console access
 
-4 out of 5 customers resolved their VM Serial console access issue using the links below.<br>
+Resolve access issues with virtual machine (VM) Serial console using the following links.<br>
 
 ## **Recommended Documents**
 
-* [Access the Serial console of your VM directly](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId)<br>
+[Access the Serial console of your VM directly](button-data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId)<br>
+
 * [Understand how to use Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)<br>
 * [Prerequisites for Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#prerequisites)<br>
 * [Get started with Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#get-started-with-the-serial-console)<br>

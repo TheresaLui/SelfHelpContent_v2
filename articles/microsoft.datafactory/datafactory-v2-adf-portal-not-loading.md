@@ -1,8 +1,8 @@
 <properties
-  pagetitle="V2 - Author and Develop - ADF Portal not Loading"
+  pagetitle="V2 - Author and Develop - ADF Portal not Loading&#xD;"
   service=""
   resource=""
-  ms.author="chez,haoc"
+  ms.author="chez,fangl,haoc"
   selfhelptype="Generic"
   supporttopicids="32629437"
   resourcetags=""
@@ -12,22 +12,27 @@
   ownershipid="AzureData_DataFactory" />
 # V2 - Author and Develop - ADF Portal not Loading
 
+Most customer can resolve issues with Azure Data Factory V2 (ADF) portal failing to load using the following steps.
+
 ## **Recommended Steps**
 
-* Officially supported web browsers:
-  * Officially supported web browsers for ADF are _Microsoft Edge_ and _Google Chrome_
-  * For Data Factory V2, please use either one to access [_Azure Data Factory UI Portal_](https://adf.azure.com)
+* Ensure that your web browser is officially supported:
+  * The [Azure Data Factory portal](https://ms-adf.azure.com/datafactories) supports Microsoft Edge and Google Chrome 
 
-* If the ADF UI portal does not load or you are redirected to a blank page, _https://adf.azure.com/accesstoken.html_, please __enable__ third-party cookies options on your browser using the following steps found on [Troubleshoot ADF UX Issues](https://docs.microsoft.com/azure/data-factory/data-factory-ux-troubleshoot-guide):
-  * ADF portal uses browser Cookies to persist user session and enable interactive development and monitoring experiences
-  * For _Microsoft Edge_,  please go to __Settings and More ...__ > __Settings__ > __Site permissions__ > __Cookies and site data__ to make the change, make sure **Block third party cookies** is **disabled**, you can also add the site __adf.azure.com__ on the **Allow** section by clicking the button **Add**
-  * For _Google Chrome_, please visit __chrome://settings/content/cookies__ to make the change, make sure **Block third party cookies** is **disabled**, you can also add the site __adf.azure.com__ on the **Allow** section by clicking the button **Add**
+* If the ADF portal doesn't load or redirects you to a [blank page](https://adf.azure.com/accesstoken.html), enable third-party cookies on your browser using the steps in [Troubleshoot ADF UX Issues](https://docs.microsoft.com/azure/data-factory/data-factory-ux-troubleshoot-guide). ADF portal uses browser cookies to persist the user session and to enable interactive development and monitoring experiences.
 
-* If the ADF UI portal is slow or not as responsive, check if your browser version is too old. Upgrading to newer version could boost the UI performance. 
+    * For Microsoft Edge, go to **Settings and More** > **Settings** > **Site permissions** > **Cookies and site data**. Deselect **Block third party cookies** and in the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
+  
+    * For Google Chrome, go to **chrome://settings/cookies**, deselect **Block third party cookies**. In the **Allow** section, select the **Add** button to add the site **adf.azure.com**.
+  
+    * If you disabled browser pop-ups, check the browser's address bar to see if a pop-up is actively blocked, and allow it. 
+
+* If the ADF portal is slow to respond, check your browser version. Upgrading your browser to a newer version often improves performance. 
+* If some images of the ADF portal are not loading, it could be related to changes in your network policies. Try accessing the portal from a different machine or network environment to narrow down the issue. 
 
 ## **Recommended Documents**
 
 * [Troubleshooting Guide - Azure Data Factory UX Issues](https://docs.microsoft.com/azure/data-factory/data-factory-ux-troubleshoot-guide)
-* Quick-start: [Create a data factory using the Azure Data Factory UI](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
-* Quick-start: [Create a data factory using Azure Resource Manager template](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-resource-manager-template)
-* Quick-start: [Use Copy Data Tool to Copy Data](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-copy-data-tool)
+* Quickstart: [Create a data factory using the Azure Data Factory UI](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
+* Quickstart: [Create a data factory using the Azure Resource Manager template](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-resource-manager-template)
+* Quickstart: [Use the Copy Data Tool to copy data](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-copy-data-tool)

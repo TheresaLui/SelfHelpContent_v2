@@ -30,11 +30,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "103e9f90-7dc0-8649-626d-f4c63ac59353",
+      "longDescription": "",
+      "shortDescription": "Issues that prevent an Azure Quantum workspace from being deleted.",
+      "searchTags": "cannot delete;delete;workspace",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a447be9-9a9c-5f67-1aab-131647f016d5",
       "longDescription": "",
       "shortDescription": "Issues relating to client tools used with Azure Quantum.",
       "searchTags": "client;tool",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3ff8109f-6bce-4734-a419-49a6e81179b8",
+      "longDescription": "",
+      "shortDescription": "Problems that prevent the removal of a provider in an Azure Quantum workspace.",
+      "searchTags": "provider;removal;remove;delete",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -50,6 +66,14 @@
       "longDescription": "",
       "shortDescription": "Issues related to an Azure Quantum job failing or not returning a valid solution. ",
       "searchTags": "job;failed",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "63b1205d-839c-0c05-89a6-6ac1074a1df5",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while trying to add a provider to an Azure Quantum workspace, either through the portal or with CLI tools.",
+      "searchTags": "provider;add;aq;Azure Quantum",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
@@ -91,6 +115,14 @@
       "shortDescription": "Issues other than authentication errors when using Azure Quantum client tools. ",
       "searchTags": "client;azure quantum;qdk",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a3c9df33-27bd-2fd5-023f-29afeb923c9b",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while trying to deploy an Azure Quantum workspace, either through the portal, ARM, or with client tools.",
+      "searchTags": "deploy;workspace;Azure Quantum;aq;create",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -139,6 +171,14 @@
       "shortDescription": "Issues relating to authentication error when using Azure Quantum client tools and SDKs.",
       "searchTags": "authentication;401",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f725c1bc-e3b5-d4eb-23ac-bd22533f791f",
+      "longDescription": "",
+      "shortDescription": "Issues and questions around Azure Quantum provider availability for a particular Azure region or account.",
+      "searchTags": "availability;provider;target;Azure Quantum;aq",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     }
   ]

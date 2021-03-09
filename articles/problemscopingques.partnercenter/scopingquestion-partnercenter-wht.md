@@ -80,9 +80,17 @@
             ],
             "required": false
         },
+	{
+            "id": "#_of_customers_impacted",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "# of customers impacted",
+            "watermarkText": "Provide the number of customers impacted.",
+            "required": false
+        },
         {
             "id": "pc_taxwithholding_id",
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Please provide the tax withholding ID this is about.",
             "watermarkText": "Provide the tax withholding ID, it will look something like: 1048177",

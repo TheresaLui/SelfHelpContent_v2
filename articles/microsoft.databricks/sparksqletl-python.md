@@ -15,13 +15,37 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Python
+# Diagnose and resolve Spark issues with Python API (PySpark)
 
 ## **Recommended Steps**
 
-* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled - this exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials. To resolve issue:
-    - You can either disable Credential Passthrough for this HC cluster
+* [Configure Python and SQL Table Access Control](https://docs.microsoft.com/azure/databricks/security/access-control/table-acls/table-acl#--python-and-sql-table-access-control)
+
+* Getting exception **py4j.security.Py4JSecurityException: … is not whitelisted** on High Concurrency cluster with Credential Passthrough enabled. This exception is thrown when you have accessed a method that Azure Databricks has not explicitly marked as safe for Azure Data Lake Storage credential passthrough clusters. In most cases, this means that the method could allow a user on a Azure Data Lake Storage credential passthrough cluster to access another user’s credentials.
+
+You can either:
+    - Disable Credential Passthrough for this HC cluster
     - Or use Standard cluster with Credential Passthrough enabled where single user access is allowed
+    
+* **Eventhub receiver is failing for a case of data being expired after getting error**
+
+ Eventhub receiver is failing for a case of data being expired after getting an error similar to the following:
+  
+  ```
+  request seqNo xxxxx is less than the received seqNo
+  requestSeqNo does not match the received seqNo
+  ```
+
+Ensure that you use the [latest Eventhub-Spark connector version](https://mvnrepository.com/artifact/com.microsoft.azure/azure-eventhubs-spark) available.
+  
+* **Eventhub-Spark connector exception**
+
+Eventhub-Spark connector exception `java.lang.IllegalArgumentException: Input byte array has wrong 4-byte ending unit` is thrown because starting with connector version 2.3.15, `pyspark` requires the connection string to be encrypted when it's passed to the configuration dictionary. 
+    
+Encrypt the connection string by using the following method:
+  
+  ```
+  ehConf['eventhubs.connectionString'] = sc._jvm.org.apache.spark.eventhubs.EventHubsUtils.encrypt(connectionString)
 
 ## **Recommended Documents**
 

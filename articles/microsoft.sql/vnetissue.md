@@ -8,7 +8,7 @@
 	ms.author="subbuk"
 	displayOrder=""
 	articleId="vNetIssue_96EAE137-BB69-4B9E-863A-72D23CBFE32F"
-	diagnosticScenario="crc_sqldb_connectivity"
+	diagnosticScenario="SqlConnectivity"
 	selfHelpType="rca"
 	supportTopicIds="32589555"
 	resourceTags=""
