@@ -14,6 +14,7 @@
 # Issues deleting storage object
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues deleting storage object",
@@ -125,7 +126,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
