@@ -55,7 +55,7 @@ ownershipId="CloudNet_NVA"
           "title": "Event Duration"
         },
         {
-          "name": "evnetTime",
+          "name": "eventTime",
           "title": "Event Start Time"
         }
     ],
