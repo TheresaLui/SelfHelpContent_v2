@@ -514,6 +514,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "cdc05992-20ff-87a4-b096-364b3aa14ee1",
+      "longDescription": "",
+      "shortDescription": "Issues with Configuring database mail, configuring DB mail profile or account, Sending emails using DB Mail",
+      "searchTags": "DB Mail;database mail;email;Send email failure;DB Mail failed",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cf75b994-d53d-02c7-20a2-8d77e16dda25",
       "longDescription": "",
       "shortDescription": "Questions or issues with starting up and configuring Sql service service, SQL server agent or browser service",
