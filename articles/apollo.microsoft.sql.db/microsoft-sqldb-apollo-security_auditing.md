@@ -26,7 +26,7 @@ View the following demo of configuring Auditing Azure SQL Database and documenta
     <src>https://www.youtube.com/watch?v=7uDloadggmA</src>
     <title>Demo: Configure Auditing for Azure SQL Database</title>
 </video>
-
+<br><br>
 
 :::Section Overview of SQL DB Auditing:::
 
