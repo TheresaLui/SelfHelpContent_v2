@@ -4,7 +4,7 @@
   resource=""
   ms.author="rakatuko"
   selfhelptype="Generic"
-  supporttopicids="32633532,32633533,32633535,32633536"
+  supporttopicids="32633532,32633536"
   resourcetags=""
   productpesids="15613"
   cloudenvironments="public,fairfax,usnat,ussec"

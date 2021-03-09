@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Change Licensing Model&#xD;"
+  pagetitle="Change Licensing Model"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
   ms.author="vadeveka,amamun,ujpat"
@@ -16,7 +16,7 @@ Most users who want to change the licensing model of SQL Server on Azure VM can 
 
 ## **Recommended Steps**
 
-- To change licensing model of SQL Server on Azure VM, follow the instructions at [Change license model](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal&WT.mc_id=Portal-Microsoft_Azure_Support). You'll be able to change the licensing to or from pay-as-you-go, Azure Hybrid Benefit (Bring your own license: BYOL), or disaster recovery (DR).
+- To change licensing model of SQL Server on Azure VM, follow the instructions at [Change license model](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal&WT.mc_id=Portal-Microsoft_Azure_Support). You'll be able to change the licensing to or from pay-as-you-go, Azure Hybrid Benefit (Bring your own license: BYOL), or disaster recovery (DR). **For Azure China Government Cloud(MoonCake), PAYG/AHB conversion is currently not allowed.**
 
 - To change SQL Server **version or edition** on Azure VM:
 
