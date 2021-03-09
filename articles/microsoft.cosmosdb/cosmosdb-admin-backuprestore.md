@@ -1,21 +1,16 @@
 <properties
-	pageTitle="CosmosDB Backup and Restore" 
-	description="Troubleshoot CosmosDB Backup and Restore related issues"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32741531,32636825,32748845"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-admin-backuprestore"
-	displayOrder="1"
-	category="CosmosDB Backup and Restore"
-	ownershipId="AzureData_AzureCosmosDB"
-/>
-
+  pagetitle="Backup and restore&#xD;"
+  description="Troubleshoot CosmosDB Backup and Restore related issues"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636825,32748845"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-admin-backuprestore"
+  ownershipid="AzureData_AzureCosmosDB" />
 # Backup and restore
 Most users are able to resolve their Backup and Restore case using the steps below.
 
