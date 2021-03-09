@@ -58,8 +58,8 @@ On portal, from the overview page of the server shows the Zone redundant high av
 
 From psql, you can run `select * from pg_stat_replication;` which shows the streaming status amongst other details.
 
-* **Can I use the standby replica for read queries?** <br>
-Currently, we do not expose standby replica server details and hence you won't be able to perform read queries. However, if you have configured HA in private access (VNET), the standby IP address is exposed and you may be able to perform read queries. 
+* **Do you support read queries on the standby replica?** <br>
+No. We do not support read queries on the standby replica.
 
 * **Can I enable or disable HA any any point of time?** <br>
 
