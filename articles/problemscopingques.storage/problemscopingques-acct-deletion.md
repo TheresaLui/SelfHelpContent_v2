@@ -53,7 +53,7 @@
 			"required": true
 		}, {
 			"id": "rg_name",
-			"order": 2,
+			"order": 3,
             "visibility":"service_type == rg",
 			"controlType": "textbox",
 			"displayLabel": "Name of the resource group you are unable to delete",
@@ -61,13 +61,13 @@
 			"required": true
 		}, {
 			"id": "problem_start_time",
-			"order": 3,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
