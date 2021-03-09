@@ -1,20 +1,17 @@
 <properties
-	pageTitle="Developing Functions/Visual Studio"
-	description="Developing Functions/Visual Studio"
-	service="microsoft.web"
-	resource="functions"
-	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman, shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32742786"
-	resourceTags=""
-	productPesIds="16072"
-	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	ownershipId = "Compute_AppService"
-	articleId="60a8fd9a-1bf6-47bf-907d-76b2819f477b"
-/>
-
+  pagetitle="Developing Functions/Visual Studio&#xD;"
+  description="Developing Functions/Visual Studio"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32742786"
+  resourcetags=""
+  productpesids="16072"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec,blackforest"
+  disableclouds=""
+  articleid="60a8fd9a-1bf6-47bf-907d-76b2819f477b"
+  ownershipid="Compute_AppService" />
 # Developing Functions/Visual Studio
 
 ## **Recommended Steps**
