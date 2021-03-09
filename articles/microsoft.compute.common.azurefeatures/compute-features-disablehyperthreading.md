@@ -17,7 +17,7 @@
 
 # Disabling Hyper-threading
 
-Most customers resolve their Disabling Hyper-threading request using the following resources.<br>
+If you run into issues following a request to disable hyper-threading, review the following resources.<br>
 
 ## **Recommended Documents**
 
