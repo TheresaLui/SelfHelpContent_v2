@@ -39,22 +39,15 @@
             "required": false
         },
         {
-            "id": "acr",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Are your workspace container registries behind a virtual network? If so, how many container registries do you have?",
-            "required": false
-        },
-        {
             "id": "aks",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Will you be using Azure Kubenernetes clusters that have private endpoints? If so, how many clusters will you have?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -62,7 +55,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
