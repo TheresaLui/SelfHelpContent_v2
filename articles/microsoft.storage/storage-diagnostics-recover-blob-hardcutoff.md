@@ -25,7 +25,7 @@ Recovery of storage blob **{BlobPath}** in storage account **{ResourceName}** is
 <!--/issueDescription-->
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These storage account(s) and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 
-# Recommended Steps
+## Recommended Steps
 Enable [Soft Delete for blobs ](https://docs.microsoft.com/azure/storage/blobs/soft-delete-blob-overview)on your storage account to ensure that accidentally deleted blobs can be recovered in the future.<br>
 
 Soft delete for blobs protects your data from being accidentally or erroneously modified or deleted. When soft delete for blobs is enabled for a storage account, blobs, blob versions, and snapshots in that storage account may be recovered after they are deleted, within a retention period that you specify.
