@@ -22,7 +22,7 @@
     "formElements": [
         {
             "id": "service_type",
-            "order": 0,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Type of storage object",
             "watermarkText": "Choose an option",
