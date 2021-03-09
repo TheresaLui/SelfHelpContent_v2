@@ -17,8 +17,8 @@ ownershipId="CloudNet_AzureExpressRoute"
 
 # ExpressRoute Gateway Has undergone software upgrade
 <!--issueDescription-->
-We have identified that your ExpressRoute gateway resource **[Gateway Name]** has undergone software upgrade within the last 30 days. The ExpressRoute gateway includes multiple instances, and one or more instances of your gateway resource is taken offline during update. Although this may cause your gateway to temporarily support lower network throughput to the virtual network, the gateway itself will not experience any downtime.
-**[Gateway Update Data Table]**
+We have identified that your ExpressRoute gateway resource '**<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->**' has undergone software upgrade within the last 30 days. The ExpressRoute gateway includes multiple instances, and one or more instances of your gateway resource is taken offline during update. Although this may cause your gateway to temporarily support lower network throughput to the virtual network, the gateway itself will not experience any downtime.
+'**<!--$GatewayUpdateDataTable-->[GatewayUpdateDataTable]<!--/$GatewayUpdateDataTable-->**'
 <!--/issueDescription-->
 
 ## **Recommended Steps**
