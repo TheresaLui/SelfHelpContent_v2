@@ -111,6 +111,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "30ffc40c-fae2-8937-b679-a88d02d6f6f5",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with containerizing and migrating Java web apps with App Containerization tool",
+      "searchTags": "App Containerization;Java;Web App",
+      "category": "App Containerization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "313fe1a0-1802-5f25-a6c8-453b712d3b90",
       "longDescription": "",
       "shortDescription": "Issues encountered when using DMA and DMS",
