@@ -1,20 +1,16 @@
 <properties
-	pageTitle="database corruption, recovery, configuration"
-	description="database corruption, recovery, configuration"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740077"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="04817b04-68fd-46d8-9de9-e9b84373b5c5"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="Database corruption, recovery, configuration&#xD;"
+  description="database corruption, recovery, configuration"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="vadeveka,amamun,ujpat"
+  selfhelptype="Resource"
+  supporttopicids="32740077"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="04817b04-68fd-46d8-9de9-e9b84373b5c5"
+  ownershipid="AzureData_AzureSQLVM" />
 # Database corruption, recovery, configuration
 
 Most users are able to resolve their database corruption, recovery, configuration issues using the recommended documents below.
