@@ -19,9 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 # Blob Recovery with Soft Delete enabled
 <!--issueDescription-->
 
-The deleted blob could be recoverable because blob soft delete is enabled on storage account **{ResourceName}**. The blob can be recovered if:
-1. Soft delete was enabled when deletion happened.
-2. The recovery operation is completed within **{SoftDeleteRetentionDays}** days after deletion.
+The deleted blob could be recoverable because blob soft delete is enabled on storage account **{ResourceName}**. The blob can be recovered if soft delete was enabled when deletion happened and the recovery operation is completed within **{SoftDeleteRetentionDays}** days after deletion.
 
 <!--/issueDescription-->
 
