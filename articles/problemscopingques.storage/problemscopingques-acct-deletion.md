@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Unable to delete storage account"
-	description="Issue deleting storage account"
-	authors="Lea Akkari"
+	pageTitle="Issue deleting storage object"
+	description="Issue deleting storage object"
+	authors="Leakkari"
     ms.author="leakkari"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602694"
