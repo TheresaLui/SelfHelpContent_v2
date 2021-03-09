@@ -444,8 +444,8 @@
     {
       "id": "b8d45158-0fc7-1b8e-6f53-1b5c19f7812a",
       "longDescription": "",
-      "shortDescription": "Questions or issues with Polybase, R Services, Service broker and Resource governor",
-      "searchTags": "polybase;r service;launchpad;service broker;queue;resource governor",
+      "shortDescription": "Questions or issues with configuring Polybase, Create external data source and external tables, Import and export data",
+      "searchTags": "polybase;queue;external table;external data source;polybase with azure blob",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
