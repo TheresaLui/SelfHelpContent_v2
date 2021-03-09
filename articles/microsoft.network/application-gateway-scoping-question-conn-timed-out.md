@@ -29,7 +29,7 @@
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
+            "displayLabel": "Provide the URL you're using to access the Application Gateway in this format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you're using standard ports 80 and 443.",
             "watermarkText": "Example: http://contoso.com or http://contoso.com:8080",
             "required": true,
 	    "diagnosticInputRequiredClients": "Portal"
@@ -68,7 +68,7 @@
             "id": "conn_check",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Have you verified if the traffic to Application Gateway is not blocked by NSG/UDR and if you have configured the listener/rule for the frontend port?",
+            "displayLabel": "Have you verified if traffic to Application Gateway isn't blocked by NSG/UDR and if you've configured the listener/rule for the frontend port?",
             "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet'>NSG considerations</a> for more information on troubleshooting",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
