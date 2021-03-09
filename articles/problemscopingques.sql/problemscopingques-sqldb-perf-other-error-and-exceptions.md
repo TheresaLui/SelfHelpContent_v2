@@ -43,19 +43,19 @@
             "dropdownOptions": [
             {
                 "text":"Query Store and Related Issues",
-                "value": "Query_Store"
+                "value": "Query_Store_and_Related_Issues"
             },
             {
                 "text": "Issues with Bulk Insert",
-                "value": "Bulk_Insert"
+                "value": "Issues_with_Bulk_Insert"
             },
             {
                 "text": "Temp DB Full or other Issues with TempDB",
-                "value": "Temp_DB"
+                "value": "Temp_DB_Full_or_other_Issues_with_TempDB"
             },
             {
                 "text": "Error 9002: The transaction log for database X is full",
-                "value": "Transaction_Log_Full"
+                "value": "Error_9002_The_transaction_log_for_database_X_is_full"
             },
             {
                 "text": "None of the above",
