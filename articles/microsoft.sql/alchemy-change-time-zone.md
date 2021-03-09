@@ -6,9 +6,10 @@ ms.author="keithelm"
 displayOrder=""
 articleId="89BBAD15-E75C-4661-B316-7A0BA77D1636"
 selfHelpType="Apollo"
-supportTopicIds="3d780dd5-7558-b609-a634-c8221b70709d"
+supportTopicIds=""
 productPesIds="13491"
 cloudEnvironments="public"
+mappedToBucket="true"
 ownershipId="AzureData_AzureSQLDB"
 />
 
