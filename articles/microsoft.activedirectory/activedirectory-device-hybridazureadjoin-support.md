@@ -17,13 +17,15 @@
 
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)
 
+Resolve issues with on-premises AD device registrations to Azure AD using the following steps.
+
 **Highly Recommended** Ensure that a device can access Device Registration endpoints under the system account by using the [Test Device Registration Connectivity script](https://docs.microsoft.com/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/)
 
 ## **Recommended Steps**
 
-1. If you are setting up device registrations for the first time, be sure to review [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) to learn how to get devices under the control of Azure AD.
-2. If you are registering devices into Azure AD directly and enrolling them into Intune, be sure that you've [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first.
-3. Ensure that you are authorized to perform operations in Azure AD and on-premises AD. Only a global administrator in Azure AD can manage settings for device registrations. In addition, if you are setting up automatic registrations in your on-premises Active Directory, you will need to be an administrator of Active Directory and AD FS (if applicable).
+1. If you're setting up device registrations for the first time, be sure to review [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/overview) to learn how to get devices under the control of Azure AD.
+2. If you're registering devices into Azure AD directly and enrolling them into Intune, be sure that you've [configured Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment) and have the [licensing](https://docs.microsoft.com/mem/intune/fundamentals/licenses-assign) in place first.
+3. Ensure that you're authorized to perform operations in Azure AD and on-premises AD. Only a global administrator in Azure AD can manage settings for device registrations. In addition, if you're setting up automatic registrations in your on-premises Active Directory, you'll need to be an administrator of Active Directory and AD FS, if applicable.
 
 
 ## **Recommended Documents**
