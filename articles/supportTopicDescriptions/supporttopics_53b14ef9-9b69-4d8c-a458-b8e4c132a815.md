@@ -186,6 +186,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "38b20365-9e87-1d82-bf03-a2fa4584a272",
+      "longDescription": "",
+      "shortDescription": "Issues with installing R Service, Troubleshooting  and running script failures",
+      "searchTags": "R Service;R Script;R server;Machine learning;R",
+      "category": "Machine Learning",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3c096d5b-27c3-7da8-1883-7adb5bb6b9fe",
       "longDescription": "",
       "shortDescription": "Questions or issues with SSAS instances exception, memory dump generation, unexpected termination, being not responding and unable to start.",
