@@ -40,7 +40,7 @@
 1. Confirm that the service principal has a role assignment to your key vault in Azure Active Directory
 2. Navigate to Azure Active Directory in the portal
 3. Select the **Users** tab
-4 Search for the service principal you're looking for, and select the **Role Assignments** tab
+4. Search for the service principal you're looking for, and select the **Role Assignments** tab
 5. Confirm that the user has a role assignment for your key vault
 
 ## **Recommended Documents**
