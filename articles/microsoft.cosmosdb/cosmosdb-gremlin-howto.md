@@ -1,20 +1,16 @@
 <properties
-	pageTitle="Gremlin Limits"
-	description="Limits on account properties and traversal parameters"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32783707,32783708"
-	resourceTags=""
-	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-gremlin-howto"
-	displayOrder="191"
-	category="Gremlin (Graph)"
-	ownershipId="AzureData_AzureCosmosDB"
-/>
+  pagetitle="Azure Cosmos DB Gremlin How-to&#xD;"
+  description="Limits on account properties and traversal parameters"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32783707"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-gremlin-howto"
+  ownershipid="AzureData_AzureCosmosDB" />
 # Azure Cosmos DB Gremlin How-to
 Most users are able to resolve their Gremlin How-to issue using the steps below.
 
@@ -50,4 +46,3 @@ A great partitioning key exhibits the following properties:
 <br>This article covers headers that Cosmos DB Gremlin server returns to the caller upon request execution. These headers are useful for troubleshooting request performance, building application that integrates natively with Cosmos DB service and simplifying customer support.  
 
 [Apache TinkerPop Git Repository](https://github.com/apache/tinkerpop)
-
