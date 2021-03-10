@@ -26,7 +26,7 @@
             "order": 1,
             "required": true,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "infoBalloonText": ""
         },
         {
