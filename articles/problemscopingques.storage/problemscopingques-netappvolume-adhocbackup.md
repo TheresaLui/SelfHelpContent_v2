@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="AzureNetAppFiles"
 />
-# Unable to create adhoc backup for a volume
+# Unable to create manual backup for a volume
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Unable to create adhoc backup for a volume",
+    "title": "Unable to create manual backup for a volume",
     "fileAttachmentHint": "",
     "formElements": [
 		{
