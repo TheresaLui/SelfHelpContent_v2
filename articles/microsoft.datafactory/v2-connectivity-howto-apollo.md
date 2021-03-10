@@ -23,9 +23,9 @@
 
    - If you get any unexpected connectivity errors from Activity, see [Activity troubleshooting guidance](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide) 
 
-   - If you get any unexpected connectivity errors from connectors, see [connector troubleshooting guide]( https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
+   - If you get any unexpected connectivity errors from connectors, see [connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
 
-   - If you get any unexpected connectivity errors from Managed VNet and private links, see [security and access control troubleshoot guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
+   - If you get any unexpected connectivity errors from Managed VNet and private links, see [security and access control troubleshooting guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
 
    - If you get any unexpected connectivity errors from Self-Hosted IR, see [self-hosted Integration runtime troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) 
 
@@ -43,7 +43,7 @@ If your IR uses proxy server, see [Proxy Server](https://docs.microsoft.com/azur
 
 - [Activity troubleshooting guidance](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide) 
 
-- [Connector troubleshooting guide]( https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). 
+- [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). 
 
 - [Security and access control troubleshoot guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
 

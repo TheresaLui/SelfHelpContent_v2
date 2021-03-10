@@ -24,9 +24,9 @@ There are two suggested methods to promote a data factory to another environment
 
 ## **Recommended Steps**
 
-1. If you're trying to connect from Azure Data Factory, verify the following: credentials match for both Azure DevOps and Azure Data Factory, Azure DevOps and Azure Data Factory are in the same tenant, and the user has sufficient permissions on the Git account.  
+1. If you are trying to connect from Azure Data Factory, verify the following: credentials match for both Azure DevOps and Azure Data Factory, Azure DevOps and Azure Data Factory are in the same tenant, and the user has sufficient permissions on the Git account.  
 
-2. You can create an Azure Repos Git repository in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you're using. 
+2. You can create an Azure Repos Git repository in a different Azure Active Directory (AD) tenant. To specify a different Azure AD tenant, you need Administrator permissions for the Azure subscription that you are using. 
 
 3. Bitbucket and GitLab are not currently supported in Azure Data Factory.
 
@@ -42,7 +42,8 @@ There are two suggested methods to promote a data factory to another environment
 
 9. Review [Common errors and messages](https://docs.microsoft.com//azure/data-factory/ci-cd-github-troubleshoot-guide) for troubleshooting CICD, Azure DevOps, and GitHub issues in ADF. 
 
-10. Improvements have been made in publishing ADF templates automatically without clicking a button in ADF portal. NPM module instllation automates ADF publishing and enables the **true** CI/CD process. Please follow [ADF CI/CD Improvements ](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
+10. Improvements have been made in publishing ADF templates automatically without clicking a button in ADF portal. The NPM module installation automates ADF publishing and enables the **true** CI/CD process. Please follow [ADF CI/CD Improvements](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment-improvements)
+
 
 ## **Recommended Documents**
 
