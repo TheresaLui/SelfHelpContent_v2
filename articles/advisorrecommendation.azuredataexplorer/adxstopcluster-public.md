@@ -81,6 +81,6 @@
     }
   ],
   "costSavingInfo": "Cost savings are estimated for a year in USD",
-  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"\"currentConfig\"\" :\"\"Standard_E2a_v4, 1 Instances\"\", \"\"observationEndTime\"\" :\"\"2021-03-09T16:21:36.8102634Z\"\", \"\"region\"\" :\"\"West Europe\"\"}\""
+  "testData": "1f0d19a6-ad7b-45e9-b1c1-67aecd73046c,/subscriptions/1f0d19a6-ad7b-45e9-b1c1-67aecd73046c/resourceGroups/test/providers/Microsoft.Kusto/Clusters/autoradeprod,\"{\"currentConfig\" :\"Standard_E2a_v4, 1 Instances\", \"observationEndTime\" :\"2021-03-09T16:21:36.8102634Z\", \"region\" :\"West Europe\"}\""
 }
 ---
