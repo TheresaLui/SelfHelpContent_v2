@@ -14,7 +14,7 @@
     "recommendationOfferingId": "3e80411f-1930-4048-abf3-235c22b3850a",
     "recommendationOfferingName": "ExpressRoute",
     "$schema": "AdvisorRecommendation",
-    "recommendationTypeId": "3c18c7f0-39d9-4acf-baa1-6387251cf9b4",
+    "recommendationTypeId": "da6630fb-4286-4996-92a3-a43f5f26dd34",
     "dataSourceMetadata": {
         "schemaVersion": 1.0,
         "streamNamespace": "Microsoft.Cloud.AzureAdvisorNotProvisoned-FF",
@@ -25,7 +25,7 @@
     "recommendationImpact": "Medium",
     "recommendationResourceType": "Microsoft.Network/expressRouteCircuits",
     "recommendationFriendlyName": "ExpressRouteCircuit",
-    "recommendationMetadataState": "Disabled",
+    "recommendationMetadataState": "Active",
     "portalFeatures": [],
     "owner": {
         "email": "ExRPM@microsoft.com",
@@ -38,7 +38,7 @@
     },
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
-    "version": 1.2,
+    "version": 2.0,
     "learnMoreLink": "https://aka.ms/expressroute",
     "description": "Delete ExpressRoute circuits in the provider status of Not Provisioned",
     "longDescription": "We noticed that your ExpressRoute circuit is in the provider status of Not Provisioned for more than one month. This circuit is currently billed hourly to your subscription. We recommend that you delete the circuit if you aren't planning to provision the circuit with your connectivity provider.",
