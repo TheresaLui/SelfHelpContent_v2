@@ -13,15 +13,15 @@
 
 ## **Recommended Steps**
 
-Make sure the version of the SDK, Powershell or CLI modules are the latest available, use the following sources to find the latest version available:
+Make sure that the version of the SDK, Powershell, or CLI modules is the latest available. Use the following sources to get the latest available version:
 
   * [Powershell cmdlets](https://www.powershellgallery.com/packages/Az.DataFactory)
   * [Data Factory SDK](https://www.nuget.org/packages/Microsoft.Azure.Management.DataFactory/)
   * [Python Data Factory SDK](https://pypi.org/project/azure-mgmt-datafactory/)
   
-All versions of the AzureRM PowerShell module are outdated. The Az PowerShell module is now the recommended PowerShell module for interacting with Azure.
+All versions of the AzureRM PowerShell module are outdated. The Az PowerShell module is the recommended PowerShell module for interacting with Azure.
 
-For help migrating from AzureRM powershell modules to AZ, follow this [guide](https://docs.microsoft.com//powershell/azure/migrate-from-azurerm-to-az?view=azps-5.5.0).
+For help migrating from AzureRM PowerShell modules to Az, follow this [guide](https://docs.microsoft.com//powershell/azure/migrate-from-azurerm-to-az?view=azps-5.5.0).
 
 ## **Recommended Documents**
 
