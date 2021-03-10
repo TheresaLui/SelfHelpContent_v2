@@ -18,7 +18,7 @@
  ## **Recommended Steps**
 
 If you are unsure if the extensions or agents have installed properly, please refer to the support topics:
-<br>*I cannot get the VM extensions to install on my Azure VM*, and 
+<br>*I cannot get the VM extensions to install on my Azure VM*
 <br>*I am having trouble installing the agents to my on-prem VM*
 
 ### **There is no data on the performance charts for my VM**
