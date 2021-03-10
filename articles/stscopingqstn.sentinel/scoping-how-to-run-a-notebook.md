@@ -37,7 +37,7 @@
                 "controlType": "textbox",
                 "displayLabel": "Is websockets enabled by the firewall",
                 "required": false
-                },{	
+                },{
 				"id": "RBACrole",
                 "order": 7,
                 "controlType": "textbox",
