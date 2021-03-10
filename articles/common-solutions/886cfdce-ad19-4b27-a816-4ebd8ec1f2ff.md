@@ -5,8 +5,9 @@
   ms.author="panshar"
   selfhelptype="Generic"
   supporttopicids="32755185"
+  resourcetags=""
   productpesids="16348"
-  cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+  cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   articleid="886cfdce-ad19-4b27-a816-4ebd8ec1f2ff"
   ownershipid="Compute_AzureMigrate" />
 # Issues related to ISV tools (non Microsoft tools)
@@ -27,6 +28,7 @@ For any issues related to registering the non-Microsoft/ISV tool, features of th
 - [Carbonite](https://go.microsoft.com/fwlink/?linkid=2118707)
 - Rackware mail to:support@rackwareinc.com
 - [Lakeside](https://go.microsoft.com/fwlink/?linkid=2118054)
+- [Zerto](https://go.microsoft.com/fwlink/?linkid=2157322)
 
 
 ### **Do I need to pay for Azure Migrate and the non-Microsoft/ISV tools that I plan to use?**
