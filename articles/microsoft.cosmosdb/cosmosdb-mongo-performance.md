@@ -20,8 +20,8 @@
 
 ## **Recommended Steps**
 
-To achieve optimal performance for Azure Cosmos DB MongoDB API, there are a few aspects you can configure:
-* Collocate clients in same Azure region
+To achieve optimal performance for Azure Cosmos DB MongoDB API, you can configure the following aspects: 
+* Collocate clients in the same Azure region
 * Increase parallelism on the client, whenever possible
 * Use singleton Azure Cosmos DB client for the lifetime of your application
 * Exclude unused paths from indexing for faster writes
