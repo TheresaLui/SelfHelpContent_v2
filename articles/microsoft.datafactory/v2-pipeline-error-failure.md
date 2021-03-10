@@ -24,7 +24,7 @@ Resolve most V2 pipeline activity errors using the following recommendations.
 
 * If you receive an error message about Mapping Data Flow, which can generate a long queue, see the [Data Flows Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
 
-* If you receive an error message about other activities, such as Databricks, custom activities, or HDI, which can generate a long queue, see the [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
+* If you receive an error message about other activities that can generate a long queue, such as Databricks, custom activities, or HDI, see the [Activity Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide)
 
 * If you receive an error message about running SSIS packages, which can generate a long queue, see the Azure-SSIS [Package Execution Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-ssis-activity-faq) and [Integration Runtime Management Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) for more information
 
