@@ -20,7 +20,7 @@ The Azure Blob Storage on IoT Edge module enables local storage that can also sy
 
 ## **Recommended Steps**
 
-* Make sure that your IoT Edge device, the local storage location, and any apps that may create or query the blob data can connect to each other. If they're on different devices, make sure the appropriate ports are open for sending and receiving messages, or for going through any firewalls or proxies in between. 
+* Make sure that your IoT Edge device, the local storage location, and any apps that may create or query the blob data can connect to each other. If they're on different devices, make sure the appropriate ports are open for sending and receiving messages, or are open for going through firewalls or proxies in-between. 
 * If the issue is with uploading data to blob storage in the cloud, use the built-in troubleshooting tool to make sure that the IoT Edge device is connected to IoT Hub:
 
 	* On Linux devices: `sudo iotedge check --verbose`
@@ -28,5 +28,12 @@ The Azure Blob Storage on IoT Edge module enables local storage that can also sy
 
 ## **Recommended Documents**
 
-* [Store data at the edge with Azure Blob Storage on IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-store-data-blob)
-* [Deploy the Azure Blob Storage on IoT Edge module to your device](https://docs.microsoft.com/azure/iot-edge/how-to-deploy-blob)
+**1.1 (and earlier)**
+
+* [Store data at the edge with Azure Blob Storage on IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-store-data-blob?view=iotedge-2018-06)
+* [Deploy the Azure Blob Storage on IoT Edge module to your device](https://docs.microsoft.com/azure/iot-edge/how-to-deploy-blob?view=iotedge-2018-06)
+
+**1.2 (and later)**
+
+* [Store data at the edge with Azure Blob Storage on IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-store-data-blob?view=iotedge-2020-11)
+* [Deploy the Azure Blob Storage on IoT Edge module to your device](https://docs.microsoft.com/azure/iot-edge/how-to-deploy-blob?view=iotedge-2020-11)
