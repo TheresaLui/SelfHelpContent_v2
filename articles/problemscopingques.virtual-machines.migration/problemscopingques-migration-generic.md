@@ -30,7 +30,7 @@
             "id": "migration_resource",
             "order": 2,
             "controlType": "multiselectdropdown",
-            "displayLabel": "What resource(s) are you trying to migrate?",
+            "displayLabel": "What resources are you trying to migrate?",
             "watermarkText": "Choose all that applies",
             "dropdownOptions": [
                 {
@@ -84,7 +84,7 @@
             "id": "migration_ifvnet",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Are you migrating the resource in a vNet?",
+            "displayLabel": "Are you migrating the resource in a VNet?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
