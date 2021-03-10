@@ -21,14 +21,14 @@
    * Ensure that the fully qualified domain name (FQDN) is assigned properly, with **A record** (a basic type of domain name service (DNS) record) and **CName**.
    * The client virtual machine (VM) virtual network must be associated with the private zone.
 
-2. Validate the DNS connection health by using Azure [Network Watcher](http://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview#monitor-communication-between-a-virtual-machine-and-an-endpoint).
+2. Validate the DNS connection health by using Azure [Network Watcher](http://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview#monitor-communication-between-a-virtual-machine-and-an-endpoint)
 
-3. Verify that you are using a private Domain Name Service(DNS) Zone.
+3. Verify that you are using a private Domain Name Service (DNS) Zone
 
 4. If you are using a custom DNS, verify that:
 
-   * The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**.
-   * The source VM has IP connectivity to VNet.
+   * The custom DNS Server is forwarding all requests to the Azure provided DNS internet protocol (IP), **168.63.129.16**
+   * The source VM has IP connectivity to VNet
 
 ## **Recommended Documents**
 
