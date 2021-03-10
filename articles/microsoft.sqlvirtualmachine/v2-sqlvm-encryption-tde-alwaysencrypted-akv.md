@@ -19,13 +19,11 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 ### How do I use and set up TDE, Always Encrypted, Column Level Encryption, and Azure Key Vault?
 
-**Transparent Data Encryption:** TDE is a mechanism for encrypting database files at rest. Because the scope of encryption is per database, you cannot see the data in the database even if the database file is stolen. If there is sensitive data in the database that should not be accessed by the administrator we recommend to **[Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal)**
+* **Transparent Data Encryption:** TDE is a mechanism for encrypting database files at rest. Because the scope of encryption is per database, you cannot see the data in the database even if the database file is stolen. If there is sensitive data in the database that should not be accessed by the administrator we recommend that you [Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal).
 
-**Column Encryption:** Encrypt a column of data by using symmetric encryption in SQL Server. This is sometimes known as **[column-level encryption, or cell-level encryption](https://docs.microsoft.com/sql/relational-databases/security/encryption/encrypt-a-column-of-data?view=sql-server-ver15)**<br>
+* **Column Encryption:** Encrypt a column of data by using symmetric encryption in SQL Server. This is sometimes known as [column-level encryption, or cell-level encryption](https://docs.microsoft.com/sql/relational-databases/security/encryption/encrypt-a-column-of-data?view=sql-server-ver15)<br>
 
-**Always Encrypted:** Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to SQL Server. As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. <br>
-
-**[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15)** is a mechanism for applications to encrypt column data. A major difference compared to the aforementioned TDE is that the encryption key can be held on the client side and does not need to be disclosed to SQL Server.
+* **Always Encrypted:** Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to SQL Server. As a result, Always Encrypted provides a separation between those who own the data and can view it, and those who manage the data but should have no access. [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15)** is a mechanism for applications to encrypt column data. A major difference compared to the aforementioned TDE is that the encryption key can be held on the client side and does not need to be disclosed to SQL Server.
 
 
 
@@ -87,7 +85,6 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 
 - **Extend an expired/expiring client secret and AAD Principle when using TDE EKM with AKV** 
-<br>
    Use the following steps if you need to update the SQL credential with new secrets.   
 
    1. Create a new secret within the registered application in AAD.  
