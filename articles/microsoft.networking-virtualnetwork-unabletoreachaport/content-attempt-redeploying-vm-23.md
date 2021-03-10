@@ -19,12 +19,12 @@
 
 Occasionally the inability to reach destinations  may be the caused by host level or NIC issues on a VM. Redeploying the VM will provision it with new ones. 
 
-#Reccommended Steps
+# Recommended Steps
 
-	1. Navigate to the VM in the Azure Portal.
-	2. Select option to redeploy the VM. 
+1. Navigate to the VM in the Azure Portal.
+2. Select option to redeploy the VM. 
 
-#Recommended Documents
+# Recommended Documents
 
 1.(Redeploying Azure VMs)[https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows]
 

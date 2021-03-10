@@ -1,26 +1,20 @@
 <properties
-	pageTitle="App Service Authentication built-in through portal"
-	description="App Service Authentication built-in through portal"
-	service="microsoft.web"
-	resource="sites"
-	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman, shrahman"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32606471"
-	resourceTags=""
-	productPesIds="16170,16333"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId = "Compute_AppService"
-    articleId="43162bc3-a806-4602-a931-4fb6158d2a6d"
-/>
-
+  pagetitle="authentication and authorization/App Service Authentication (built-in) through portal&#xD;"
+  description="App Service Authentication built-in through portal"
+  service="microsoft.web"
+  resource="sites"
+  ms.author="shrahman"
+  selfhelptype="Generic"
+  supporttopicids="32606474"
+  resourcetags=""
+  productpesids="16170,16333"
+  cloudenvironments="blackforest,fairfax,public,usnat,ussec,mooncake"
+  disableclouds=""
+  articleid="43162bc3-a806-4602-a931-4fb6158d2a6d"
+  ownershipid="Compute_AppService" />
 # authentication and authorization/App Service Authentication (built-in) through portal
 
 ## **Recommended Documents**
-
-**Note:**
-If you have questions related to Azure Active Directory, please consider going back to the previous screen and selecting one of the Active Directory services to get better solution recommendations and faster access to an appropriate support resource.  <br>
 
 * [App Service Authentication/Authorization Coming to Linux Apps](https://blogs.msdn.microsoft.com/appserviceteam/2018/05/07/linux-auth/)
 * [Overview of Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)

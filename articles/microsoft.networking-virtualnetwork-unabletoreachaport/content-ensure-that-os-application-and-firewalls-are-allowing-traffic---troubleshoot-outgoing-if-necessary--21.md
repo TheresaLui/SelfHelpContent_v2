@@ -25,9 +25,9 @@ Troubleshoot outgoing if necessary.
 
 If a port is marked as unavailable there is an VM level configuration that is not yet configured to allow the necessary traffic. 
 
-#Reccommended Steps
+# Reccommended Steps
 
-	1. Customer to ensure that OS level firewalls are accepting traffic.
-	2. Customer to ensure that application is running correctly.
-	3. Troubleshoot outgoing if necessary.
+1. Customer to ensure that OS level firewalls are accepting traffic.
+2. Customer to ensure that application is running correctly.
+3. Troubleshoot outgoing if necessary.
 

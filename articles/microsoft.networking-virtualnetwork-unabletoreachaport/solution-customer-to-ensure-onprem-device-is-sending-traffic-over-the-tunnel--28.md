@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Our troubleshooting efforts and the packet capture review has shown that traffic is successfully leaving the azure VPN gateway in route to your local routing device. Please confirm that your device is not mistakenly discarding this traffic.  This is commonly the result of misconfigured ACLs. We recommend running a full packet capture on your device to see what is being dropped by rules. 
+Our troubleshooting efforts and the packet capture review has shown that traffic is successfully leaving the azure VPN gateway in route to your local routing device. Please confirm that your device is not mistakenly discarding this traffic. This is commonly the result of misconfigured ACLs. We recommend running a full packet capture on your device to confirm the possibility of any traffic being dropped by rules.
 
 <!--/issueDescription-->
 
