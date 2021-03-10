@@ -14,7 +14,7 @@
   
 # Author and Develop using ADF - How To
 
-## **How to author and develop using ADF**
+## How to author and develop using ADF
 
 Azure Data Factory (ADF) contains a series of interconnected systems that provide a complete end-to-end platform for data engineers.
 ADF offers several ways to author and develop pipelines and activities, including via ADF Portal, PowerShell and SDKs. 
@@ -24,7 +24,7 @@ We highly recommend using the ADF user interface experience, which lets you visu
 To learn more about ADF features, see the following section.
 
 
-### **Recommended documents**
+### Recommended documents
 
 * For details about the **visual authoring** experience, review  [Visual authoring](https://docs.microsoft.com/azure/data-factory/author-visually).
 * To learn about **iterative development** and debugging in ADF, review [Iterative Development and Debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging)
@@ -48,7 +48,7 @@ To learn more about ADF features, see the following section.
 
 <br>
 
-### **Notes**
+### Notes
 
 If you are new to ADF, review the following documents.
 
@@ -57,7 +57,7 @@ If you are new to ADF, review the following documents.
 
 <br>
 
-### **More resources**
+### More resources
 Here are some articles from the web that may help you based on the summary provided:
 
 <azureKB>
