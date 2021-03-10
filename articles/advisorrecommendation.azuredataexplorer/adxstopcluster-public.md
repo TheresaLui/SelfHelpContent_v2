@@ -37,7 +37,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.1,
+  "version": 2.0,
   "learnMoreLink": "http://aka.ms/adxunusedcluster",
   "description": "(PREVIEW) Unused Azure Data Explorer clusters with data",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found with no activity but containing data. The recommended action is to validate and consider stopping the unused Azure Data Explorer clusters.",
