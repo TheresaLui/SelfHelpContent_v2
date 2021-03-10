@@ -1,13 +1,13 @@
 <properties
-  pagetitle="Issue or errors in package execution"
-  description=""
+  pagetitle="Issue or errors in package execution&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="hecepeda"
+  ms.author="hecepeda,ujpat"
   selfhelptype="Generic"
   supporttopicids="32749439"
-  productpesids="14745"
-  cloudenvironments="public, fairfax, mooncake, blackforest, ussec, usnat"
+  resourcetags=""
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   disableclouds=""
   articleid="sqlvm-ssis-issue-errors-package-execution"
   ownershipid="AzureData_AzureSQLVM" />
@@ -149,4 +149,3 @@ OData does not support MFA and Modern Authentication in Odata Connection Manager
 
 - [Required privileges and rights for SQL Server Services](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15#Serv_Perm)
 - [The following article discusses a similar issue](https://techcommunity.microsoft.com/t5/sql-server-support/system-componentmodel-win32exception-a-required-privilege-is-not/ba-p/317804)
-
