@@ -1,23 +1,19 @@
 <properties
-	pageTitle="Azure Information Client - Creating and configuring Labels and Policies - Creating Policies"
-	description="Azure Information Client - Creating and configuring Labels and Policies - Creating Policies"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727942"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	articleId="configpolicy_createpolicies"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Protection client - Creating and configuring Labels and Policies - Creating Policies&quot;&#xD;"
+  description="Azure Information Client - Creating and configuring Labels and Policies - Creating Policies"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727942"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configpolicy_createpolicies"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection client - Creating and configuring Labels and Policies - Creating Policies"
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 ## **Recommended Steps**
 
