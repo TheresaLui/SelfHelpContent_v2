@@ -1,17 +1,16 @@
 <properties
-  pagetitle="Issue in performance of package execution"
+  pagetitle="**Issue in performance of package execution**&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="hecepeda"
+  ms.author="hecepeda,ujpat"
   selfhelptype="Generic"
   supporttopicids="32749437"
   resourcetags=""
-  productpesids="14745"
+  productpesids="14745,16342"
   cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   disableclouds=""
   articleid="sqlvm-ssis-performance-package-execution"
   ownershipid="AzureData_AzureSQLVM" />
-
 # **Issue in performance of package execution**
 
 Please note that typically for SSIS performance issues, you will not receive any specific error messages. The user might report an issue that their package execution is taking longer time to complete, or it is slow or it has hung for long time and at the same time the CPU and memory is taking higher value than normal.
