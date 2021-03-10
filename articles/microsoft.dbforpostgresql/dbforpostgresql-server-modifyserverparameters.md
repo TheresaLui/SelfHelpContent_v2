@@ -21,13 +21,13 @@ Azure Database for PostgreSQL servers are created with default parameter values 
 
 Not all PostgreSQL parameters are available for you to reconfigure in Azure Database for PostgreSQL. If a PostgreSQL parameter is not listed in your server's Azure portal **Server parameters** window, then it cannot be reconfigured from the default.
 
-To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal. A few Postgres parameters require you to restart the server for them to take effect. These are indicated by the property 'Static'.
+To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal. A few Postgres parameters require you to restart the server for them to take effect. These are indicated by the property `Static`.
 
 ## **Recommended Steps**
 
-**How can I change other parameters that are not available in the Azure Portal?**
+**How can I change other parameters that are not available in the Azure portal?**
 
-If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql). We evaluate these requests periodically and make parameters configurable if we can safely do so.
+If a parameter you'd like to configure is not listed, let us know by creating a new request or by voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql). We evaluate these requests periodically and make parameters configurable if we can safely do so.
 
 **How can I enable Query Performance Insights / Performance Recommendations on a read replica?**
 
@@ -43,7 +43,7 @@ If there is a change in the server's parameter value from the portal, sometime t
 
 **How can I change the shared_buffers parameter?**
 
-The 'shared_buffers' setting changes depending on the selected SKU (SKU determines the memory available). General Purpose servers have 2GB shared_buffers for 2 vCores; Memory Optimized servers have 4GB shared_buffers for 2 vCores. The shared_buffers setting scales linearly (approximately) as vCores increase in a tier.
+The **shared_buffers** setting changes depending on the selected SKU (SKU determines the memory available). General Purpose servers have 2 GB shared_buffers for 2 vCores; Memory Optimized servers have 4 GB shared_buffers for 2 vCores. The shared_buffers setting scales linearly (approximately) as vCores increase in a tier.
 
 ## **Recommended Documents**
 
