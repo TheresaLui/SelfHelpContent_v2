@@ -1,5 +1,5 @@
 <properties
-  pagetitle="Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC"
+  pagetitle="Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC&#xD;"
   service="microsoft.aip"
   resource="aip"
   ms.author="orbarak,saseftel"
@@ -12,7 +12,7 @@
   ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC
 
-On March 31, 2021, the classic client and label management in the Azure Portal are being deprecated to provide a unified and streamlined customer experience. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+On March 31, 2021, the classic client and label management in the Azure Portal are being deprecated to provide a unified and streamlined customer experience. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 Follow these instructions to activate protection from the Azure portal and manage your policies in the Microsoft 365 Security and Compliance Center (SCC).
 
