@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-- Notebook feature has been shut down since April, 2020. For free workspaces, there is no way to recover the deleted notebooks; for paid workspaces, the notebook files are still stored in workspace blob storage, under Notebooks container, but it is difficult to recover them because the names are unreadable.
-- Please be careful to delete any resources in your workspace, since there is no way to restore user deleted resources.
-- When customer creates a workspace using the ARM template, the pending invitation will be sent to the workspace owner (customer’s account).However, the maximum limit of pending invitations is 100. Customer has 122 pending invitations from the backend log. Therefore, customers cannot list all workspaces. You could delete a couple of out-of-date workspaces, and this will cancel some of pending invitation. When the pending invitation is below 100, try to create new workspace again.
-- A known issue of workspace deletion is: if you deleted a workspace before August 2020, and created a new workspace with the same name within 21 days, the new workspace can be normally used but cannot be found or deleted in azure portal. We have fixed this issue for workspaces created after August 2020. For workspaces created before August 2020, if you intend to delete it, please open a ticket and support team will help delete.
+- The Notebook feature has been shut down since April, 2020. For free workspaces, there is no way to recover the deleted notebooks. For paid workspaces, the notebook files are still stored in workspace blob storage, under Notebooks container, but it is difficult to recover them because the names are unreadable.
+- Be careful when deleting any resources in your workspace, since there is no way to restore user-deleted resources.
+- When a customer creates a workspace using the ARM template, the pending invitation will be sent to the workspace owner (that is, the customer’s account). However, if the pending invitations exceed the maximum limit of 100, the full list of workspaces won't be shown. By deleting a couple of out-of-date workspaces, the customer can cancel some of pending invitations. When the pending invitations are below 100, they can try to create a new workspace.
+- Known issue: If you deleted a workspace before August 2020, and created a new workspace with the same name within 21 days, the new workspace can be used normally, but you won't be able to find or delete it in the Azure portal. We have fixed this issue for workspaces created after August 2020. For workspaces created before August 2020, if you intend to delete it, open a ticket and the support team will help you delete it.
 
 ## **Recommended Documents**
 
