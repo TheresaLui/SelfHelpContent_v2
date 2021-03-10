@@ -19,7 +19,7 @@
 2. Assign access policies: [Grant access to Key Vault with Access Policies](https://docs.microsoft.com/azure/key-vault/general/assign-access-policy-portal)
 3. Provide access to Key Vault keys, certificates, and secrets with an Azure RBAC [Grant access to Key Vault with Azure Roles](https://docs.microsoft.com/azure/key-vault/general/rbac-guide)
 
-**Troubleshooting Steps**
+### Troubleshooting Steps
 
 **You have an Administrator role, but can’t perform an operation on a key vault** 
 1. Navigate to your key vault in the Azure Portal and select the **Access Control** tab
@@ -41,7 +41,7 @@
 2. Navigate to Azure Active Directory in the portal
 3. Select the **Users** tab
 4 Search for the service principal you're looking for, and select the **Role Assignments** tab
-5. Confirm that the user has a role assignment for your key vault.
+5. Confirm that the user has a role assignment for your key vault
 
 ## **Recommended Documents**
 
