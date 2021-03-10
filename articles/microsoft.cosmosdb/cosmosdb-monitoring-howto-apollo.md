@@ -8,7 +8,7 @@
  selfHelpType="Apollo"
  productPesIds="15585"
  cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
- articleId="Apollo-cosmosdb-monitoring-howto"
+ articleId="cosmosdb-monitoring-howto-apollo"
  category="Monitoring"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="d2a68517-0048-def9-fafb-e6593cf41734"

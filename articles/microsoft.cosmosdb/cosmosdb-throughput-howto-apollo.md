@@ -9,7 +9,7 @@
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-    articleId="Apollo-cosmosdb-throuhgput-howto"
+    articleId="cosmosdb-throuhgput-howto-apollo"
     displayOrder="245"
     category="Throughput and Scaling"
     ownershipId="AzureData_AzureCosmosDB"

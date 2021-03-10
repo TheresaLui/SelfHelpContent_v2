@@ -9,7 +9,7 @@
  resourceTags=""
  productPesIds="15585"
  cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
- articleId="Apollo-cosmosdb-mongodb-howto"
+ articleId="cosmosdb-mongodb-howto-apollo"
  displayOrder="231"
  category="MongoDB"
  ownershipId="AzureData_AzureCosmosDB"

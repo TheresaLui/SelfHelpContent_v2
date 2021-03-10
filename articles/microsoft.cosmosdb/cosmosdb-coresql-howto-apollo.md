@@ -9,7 +9,7 @@
  resourceTags=""
  productPesIds="15585"
  cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
- articleId="Apollo-cosmosdb-coresql-howto"
+ articleId="cosmosdb-coresql-howto-apollo"
  displayOrder="75"
  category="Core (SQL)"
  ownershipId="AzureData_AzureCosmosDB"

@@ -8,7 +8,7 @@
  selfHelpType="Apollo"
  productPesIds="15585"
  cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
- articleId="Apollo-cosmosdb-backuprestore-howto"
+ articleId="cosmosdb-backuprestore-howto-apollo"
  category="CosmosDB Backup and Restore"
  ownershipId="AzureData_AzureCosmosDB"
  supportTopicIds="3f9a3a87-1981-0034-d7d3-809f83118345"
