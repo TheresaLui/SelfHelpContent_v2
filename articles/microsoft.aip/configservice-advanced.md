@@ -1,23 +1,19 @@
 <properties
-	pageTitle="Azure Information Service - Configuring the Service - AIP Client advanced configuration"
-	description="Azure Information Service - Configuring the Service - AIP Client advanced configuration"
-	service="microsoft.aip"
-	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
-	articleId="ConfigService_Advanced"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727931"
-	resourceTags=""
-	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
-/>
-
+  pagetitle="Azure Information Protection service - Configuring the Service - AIP Client advanced configuration&#xD;"
+  description="Azure Information Service - Configuring the Service - AIP Client advanced configuration"
+  service="microsoft.aip"
+  resource="aip"
+  ms.author="orbarak,saseftel"
+  selfhelptype="Generic"
+  supporttopicids="32727931"
+  resourcetags=""
+  productpesids="14997"
+  cloudenvironments="public,blackforest,mooncake,fairfax,usnat,ussec"
+  articleid="configservice_advanced"
+  ownershipid="AzureIdentity_InformationProtection" />
 # Azure Information Protection service - Configuring the Service - AIP Client advanced configuration
 
-To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in the [official deprecation notice](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+To provide a unified and streamlined customer experience, the classic client and label management in the Azure Portal are being deprecated as of March 31, 2021. Learn more in our [new article](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-aip-portal-label-amp-policy-management-admin-experience/ba-p/2182678).
 
 
 ## **Recommended Steps**
