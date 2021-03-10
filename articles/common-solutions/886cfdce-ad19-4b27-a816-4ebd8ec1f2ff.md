@@ -30,7 +30,6 @@ For any issues related to registering the non-Microsoft/ISV tool, features of th
 - [Lakeside](https://go.microsoft.com/fwlink/?linkid=2118054)
 - [Zerto](https://go.microsoft.com/fwlink/?linkid=2157322)
 
-
 ### **Do I need to pay for Azure Migrate and the non-Microsoft/ISV tools that I plan to use?**
 
 Azure Migrate - Server Assessment and Server Migration tools are available at no additional charge. However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118712).
