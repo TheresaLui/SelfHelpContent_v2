@@ -34,7 +34,7 @@ If vSAN usage is often high, consider increasing raw free disk space. To do this
 1. Increase the size of vSAN datastore by adding a host, or hosts, if the private cloud is below the current limit of nodes per cluster. For quick guidance, see ["Tutorial: Scale an Azure VMware Solution private cloud"](https://docs.microsoft.com/azure/azure-vmware/tutorial-scale-private-cloud).
 2. Purge data from the vSAN datastore.
 
-If you think that the unhealthy vSAN is unrelated to normal use, please open a support request.
+If you think that the unhealthy vSAN is unrelated to normal use, open a support request.
 
 ## **Recommended Documents**
 
