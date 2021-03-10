@@ -52,7 +52,7 @@
 			],
 			"required": true
 		}, {
-			"id": "rg_name",
+			"id": "resource_group_name",
 			"order": 3,
             "visibility":"service_type == rg",
 			"controlType": "textbox",
@@ -60,7 +60,7 @@
             "watermarkText":"ResourceGroupName",
 			"required": true
 		}, {
-			"id": "account_name",
+			"id": "storage_account_name",
 			"order": 4,
             "visibility":"service_type == account",
 			"controlType": "textbox",
@@ -68,31 +68,61 @@
             "watermarkText":"StorageAccountName1;StorageAccountName2; StorageAccountName3 ",
 			"required": true
 		}, {
-			"id": "blobcontainer_name",
+			"id": "blob_container",
 			"order": 5,
-            "visibility":"service_type == blob_container",
-			"controlType": "textbox",
-			"displayLabel": "Name of blob container you are unable to delete",
-            "watermarkText":"container1;container2; container3 ",
+            "visibility":"service_type == blob_container || service_type == blob",
+			"controlType": "dropdown",
+			"displayLabel": "Blob Container",
+            "watermarkText":"Choose an option",
+			"dynamicDropdownOptions":{
+				"uri":"/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
+				"jTokenPath": "value",
+				"textProperty": "id",
+				"valueProperty": "id",
+				"textPropertyRegex": "[^/]+$",
+				"defaultDropdownOptions": {
+					"value": "dont_know_answer",
+					"text": "None of the above"
+				},
+				"dropdownOptions": [{
+					"value": "NoBlobContainer",
+					"text": "Not specific to a blob container"
+				}],
+			}
 			"required": true
 		}, {
-			"id": "fileshare_name",
+			"id": "blob_path",
 			"order": 6,
-            "visibility":"service_type == file_share",
-			"controlType": "textbox",
-			"displayLabel": "Name of file share you are unable to delete",
-            "watermarkText":"fileshare1;fileshare2; fileshare3 ",
-			"required": true
-		}, {
-			"id": "blob_name",
-			"order": 7,
             "visibility":"service_type == blob",
 			"controlType": "textbox",
 			"displayLabel": "Blob path",
             "watermarkText":"https://myaccount.blob.core.windows.net/myblob",
 			"required": true
 		}, {
-			"id": "file_name",
+			"id": "file_share",
+			"order": 7,
+            "visibility":"service_type == file_share || service_type == file",
+			"controlType": "dropdown",
+			"displayLabel": "File Share",
+            "watermarkText":"Select File Share",
+			"dynamicDropdownOptions": {
+				"uri" : "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/shares?api-version=2019-06-01",
+				"jTokenPath" : "value",
+				"textProperty": "name",
+				"valueProperty": "name",
+				"textPropertyRegex": "[^/]+$",
+				"defaultDropdownOptions": {
+					"value" : "dont_know_answer",
+					"text" : "None of the above"
+				}
+			},
+			"dropdownOptions":[{
+				"value" : "NoFileShare",
+				"text" : "NA"
+			}],
+			"required": true
+		},  {
+			"id": "file_path",
 			"order": 8,
             "visibility":"service_type == file",
 			"controlType": "textbox",
@@ -100,30 +130,22 @@
             "watermarkText":"https://myaccount.blob.core.windows.net/myfile",
 			"required": true
 		}, {
-			"id": "disk_name",
+			"id": "object_path",
 			"order": 9,
-            "visibility":"service_type == disk",
-			"controlType": "textbox",
-			"displayLabel": "Disk path",
-            "watermarkText":"https://myaccount.blob.core.windows.net/mydisk",
-			"required": true
-		}, {
-			"id": "dont_know",
-			"order": 10,
-            "visibility":"service_type == dont_know_answer",
+            "visibility":"service_type == dont_know_answer || service_type == disk",
 			"controlType": "textbox",
 			"displayLabel": "Path of object you are unable to delete",
             "watermarkText":"https://myaccount.blob.core.windows.net/myobject",
 			"required": true
-		},{
+		}, {
 			"id": "problem_start_time",
-			"order": 11,
+			"order": 10,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 12,
+			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
