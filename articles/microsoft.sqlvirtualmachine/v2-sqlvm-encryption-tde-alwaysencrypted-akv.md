@@ -39,16 +39,12 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]` and import ore create this entry manually on other Always On AG nodes.
 
 - **Cannot open session for cryptographic provider `AzureKeyVault_EKM`. Provider error code: 2050.**
- 
-   It seems there is some mistake we did while following the initial steps due to which you can get this error. Please [follow this steps](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal
- ) from start correctly to prevent this error.
+   It seems there is some mistake we did while following the initial steps due to which you can get this error. Please [follow this steps](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal) from start correctly to prevent this error.
 
 - **Key with name 'xxx' does not exist in the provider or access is denied. Provider error code: 2058.**
-  
    Create a new [registry Key](https://docs.microsoft.com/sql/relational-databases/security/encryption/sql-server-connector-registry-modification?view=sql-server-ver15) _**[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]**_ and add SQL Service Full Control permissions on this key to resolve this. Finally add SQL server service account to local Admin Group.
 
 - **Cannot open session for cryptographic provider `AzureKeyVault_EKM_Prov`. Provider error code: 3303.**
-
    Your client key might have expired.
     1. Alter the credential using the following script. Client ID will remain the same, and only the client key needs to be changed in the secret part of the TSQL query. 
 
@@ -60,12 +56,10 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 
 - **Cannot open session for cryptographic provider `SQLKeyVault_EKM_Prov`. Provider error code: 3106.**
- <br>  
-     Make sure that you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your AG nodes in VM. Uninstall `SQL Server Connector for Microsoft Azure Key Vault` from the Control Panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344). Make sure that SQL Service has full permissions on the registry and connector path: `C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\` 
+    <br> Make sure that you have the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784) on your AG nodes in VM. Uninstall `SQL Server Connector for Microsoft Azure Key Vault` from the Control Panel and [Reinstall](https://www.microsoft.com/download/details.aspx?id=45344). Make sure that SQL Service has full permissions on the registry and connector path: `C:\Program Files\SQL Server Connector for Microsoft Azure Key Vault\` 
 
 - **When using an RSA-HSM key, key with name `akv` does not exist or access is denied. Provider error code: 3.**
-<br> 
-     The SQL Connector for Azure Key Vault with the fix for RSA-HSM was released (1.0.5.0, version 15.0.2000.440).[Download it here](https://www.microsoft.com/download/details.aspx?id=45344).
+    <br> The SQL Connector for Azure Key Vault with the fix for RSA-HSM was released (1.0.5.0, version 15.0.2000.440).[Download it here](https://www.microsoft.com/download/details.aspx?id=45344).
 
 - **Cannot find server asymmetric key with thumbprint on Always On AG**
 <br>
@@ -75,21 +69,17 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 
 - **Adding encryption to databases on Availability groups**
-<br>
    This addresses how to enable TDE on databases that belong to Availability groups, and how to add encrypted databases to existing Availability groups. 
-
-    - Review [How to enable TDE Encryption on a database in an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-enable-tde-encryption-on-a-database-in-an-availability/ba-p/318086)
-    - Review [How to add a TDE encrypted database to an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-add-a-tde-encrypted-database-to-an-availability-group/ba-p/318490)
+   - Review [How to enable TDE Encryption on a database in an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-enable-tde-encryption-on-a-database-in-an-availability/ba-p/318086)
+   - Review [How to add a TDE encrypted database to an Availability Group](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-add-a-tde-encrypted-database-to-an-availability-group/ba-p/318490)
 
 
 - **What version or edition of SQL Server supports TDE/Always Encrypted**
-<br>
    You can check [what features are supported under what version/edition of SQL Server here](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-ver15)
 
 
 
 - **Resolve a failed AKV integration from SQL Virtual Machine Resource on Azure portal**
-
   1. Make sure that your VM has the [Visual C++ Redistributable Packages for Visual Studio 2013 x64](https://www.microsoft.com/download/details.aspx?id=40784)
   2. Uninstall `SQL Server Connector for Microsoft Azure Key Vault` from the Control Panel and [reinstall](https://www.microsoft.com/download/details.aspx?id=45344)
   3. Restart the SQL Service and enable the [AKV integration from SQL Resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/azure-key-vault-integration-configure#existing-vms)
@@ -115,7 +105,6 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 
 - **Restore TDE Enabled Database**
-<br>
    To restore a backup encrypted with a TDE protector from Key Vault, make sure that the key is available to the target server. Therefore, we recommend that you keep all the old versions of the TDE protector in key vault, so database backups can be restored.  
 
    [Review the process here](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview?view=sql-server-2017#database-backup-and-restore-with-customer-managed-tde). You might get "401 error" in the application log if your client secret is expired. Renew it and alter the credential with new secret to finish the restore successfully.
