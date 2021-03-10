@@ -45,7 +45,7 @@ If your IR uses proxy server, see [Proxy Server](https://docs.microsoft.com/azur
 
 - [Connector troubleshooting guide](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide). 
 
-- [Security and access control troubleshoot guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
+- [Security and access control troubleshooting guide](https://docs.microsoft.com/azure/data-factory/security-and-access-control-troubleshoot-guide) 
 
 - [The Integration Runtime Registration Error](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) 
 
