@@ -1,21 +1,16 @@
 <properties
-    pageTitle="Billing and Pricing"
-    description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
-    service="microsoft.documentdb"
-    resource="databaseAccounts"
-    authors="jimsch"
-    ms.author="jimsch"
-    selfHelpType="generic"
-    supportTopicIds="32636791,32741540,32636826"
-    resourceTags=""
-    productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-    articleId="cosmosdb-billing-pricing"
-    displayOrder="100"
-    category="Billing and Pricing"
-    ownershipId="AzureData_AzureCosmosDB"
-/>
-
+  pagetitle="Pricing in Azure Cosmos DB  &#xD;"
+  description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
+  service="microsoft.documentdb"
+  resource="databaseaccounts"
+  ms.author="jimsch,hecepeda"
+  selfhelptype="Generic"
+  supporttopicids="32636791,32636826"
+  resourcetags=""
+  productpesids="15585"
+  cloudenvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+  articleid="cosmosdb-billing-pricing"
+  ownershipid="AzureData_AzureCosmosDB" />
 # Pricing in Azure Cosmos DB  
 Most users are able to resolve their Billing and Pricing case using the steps below.  
 
