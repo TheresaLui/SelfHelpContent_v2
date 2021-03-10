@@ -17,7 +17,7 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
 
 ## **Recommended Steps** 
 
-### How do I use and set up TDE, Always Encrypted, Column Level Encryption, and Azure Key Vault?
+### How do I use and set up TDE, Column Level Encryption, Always Encrypted, and Azure Key Vault?
 
 * **Transparent Data Encryption:** TDE is a mechanism for encrypting database files at rest. Because the scope of encryption is per database, you cannot see the data in the database even if the database file is stolen. If there is sensitive data in the database that should not be accessed by the administrator we recommend that you [Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal).
 
@@ -40,7 +40,7 @@ Most customers can resolve issues with Encryption, TDE, Azure Key Vault (AKV) by
    It seems there is some mistake we did while following the initial steps due to which you can get this error. Please [follow this steps](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal) from start correctly to prevent this error.
 
 - **Key with name 'xxx' does not exist in the provider or access is denied. Provider error code: 2058.**
-   Create a new [registry Key](https://docs.microsoft.com/sql/relational-databases/security/encryption/sql-server-connector-registry-modification?view=sql-server-ver15) _**[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]**_ and add SQL Service Full Control permissions on this key to resolve this. Finally add SQL server service account to local Admin Group.
+   Create a new [registry Key](https://docs.microsoft.com/sql/relational-databases/security/encryption/sql-server-connector-registry-modification?view=sql-server-ver15) `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQL Server Cryptographic Provider]` and add SQL Service Full Control permissions on this key to resolve this. Finally add SQL server service account to local Admin Group.
 
 - **Cannot open session for cryptographic provider `AzureKeyVault_EKM_Prov`. Provider error code: 3303.**
    Your client key might have expired.
