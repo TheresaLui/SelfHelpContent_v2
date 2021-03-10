@@ -1,17 +1,16 @@
 <properties
-  pagetitle="SSIS Crash or Unexpected Termination"
+  pagetitle="Crash or Unexpected Termination&#xD;"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="hecepeda"
+  ms.author="hecepeda,ujpat"
   selfhelptype="Generic"
   supporttopicids="32749435"
   resourcetags=""
-  productpesids="14745"
+  productpesids="14745,16342"
   cloudenvironments="public,fairfax,mooncake,blackforest,ussec,usnat"
   disableclouds=""
   articleid="sqlvm-ssis-crash-or-unexpected-termination"
   ownershipid="AzureData_AzureSQLVM" />
-
 # Crash or Unexpected Termination
 
 Resolve the following issues using the steps provided.
