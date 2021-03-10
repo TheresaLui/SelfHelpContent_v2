@@ -21,28 +21,27 @@
 
 **Troubleshooting Steps**
 
-**You have an Administrator role, but can’t perform an operation on a key vault.** 
-* Navigate to your key vault in the Azure Portal and click in the Access Control tab.
-* Confirm that you have sufficient permissions by clicking View my Access.
-* Click the Access Policies tab.
-* Confirm that your service principal has permissions for the operation you are trying to perform.
+**You have an Administrator role, but can’t perform an operation on a key vault** 
+1. Navigate to your key vault in the Azure Portal and select the **Access Control** tab
+2. Confirm that you have sufficient permissions by selecting **View my Access**
+3. Select the **Access Policies** tab
+4. Confirm that your service principal has permissions for the operation you are trying to perform
 
-**You granted access to a security group, but members still cannot perform an operation.**
+**You granted access to a security group, but members still cannot perform an operation**
 * Permissions for security groups can take up to 24 hours at most to propagate to all users, though it usually completes sooner. If you need to grant immediate access, try adding the service principal manually by adding a new access policy for that service principal. The assignment will take effect immediately.
 
-**You had access to perform an operation before, but it no longer works.**
-* Make sure that the permissions for your service principal and/or security principal have not been changed.
-* Go to your key vault on the Azure Portal.
-* Click on the Access Policies Tab.
-* Find the service principal / security group and confirm the permissions assigned.
+**You had access to perform an operation before, but it no longer works**
+1. Make sure that the permissions for your service principal and/or security principal have not been changed
+2. Go to your key vault on the Azure portal
+3. Select the **Access Policies** tab
+4. Find the service principal/security group and confirm the permissions assigned
 
-**You can’t find the service principal in the key vault IAM tab.**
-* Confirm that the service principal has a role assignment to your key vault in Azure Active Directory.
-* Navigate to Azure Active Directory in the portal.
-* Click the Users tab.
-* Search for the service principal you are looking for.
-* Click the Role Assignments tab.
-* Confirm that the user has a role assignment for your key vault.
+**You can’t find the service principal in the key vault IAM tab**
+1. Confirm that the service principal has a role assignment to your key vault in Azure Active Directory
+2. Navigate to Azure Active Directory in the portal
+3. Select the **Users** tab
+4 Search for the service principal you're looking for, and select the **Role Assignments** tab
+5. Confirm that the user has a role assignment for your key vault.
 
 ## **Recommended Documents**
 
