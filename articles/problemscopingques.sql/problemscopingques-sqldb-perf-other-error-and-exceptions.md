@@ -20,6 +20,11 @@
     "resourceRequired": true,
     "title": "SQL Database",
     "fileAttachmentHint": "",
+	"diagnosticCard": {
+    "title": "Other errors Troubleshooter",
+    "description": "Our other errors Troubleshooter can help you troubleshoot and solve your problem.",
+    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+  },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,6 +32,38 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
+        },
+ 	{
+            "id": "othererrorsandexception_issue_type",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Choose an option that best describes your issue.",
+            "watermarkText": "Other Common Peformance Issues",
+            "infoBalloonText": "Other common peformance issue categories",
+            "dropdownOptions": [
+            {
+                "text":"Query Store and Related Issues",
+                "value": "Query_Store"
+            },
+            {
+                "text": "Issues with Bulk Insert",
+                "value": "Bulk_Insert"
+            },
+            {
+                "text": "Temp DB Full or other Issues with TempDB",
+                "value": "Temp_DB"
+            },
+            {
+                "text": "Error 9002: The transaction log for database X is full",
+                "value": "Transaction_Log_Full"
+            },
+            {
+                "text": "None of the above",
+                "value": "dont_know_answer"
+            }
+        ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "is_reproducible",
