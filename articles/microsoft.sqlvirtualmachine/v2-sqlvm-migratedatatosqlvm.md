@@ -25,9 +25,9 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
   * [Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?redirectedfrom=MSDN&view=sql-server-ver15#complete) and [Restore](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=sql-server-ver15#Azure_Blob) 
   * [AzCopy tool](https://azure.microsoft.com/documentation/articles/storage-use-azcopy/)
   * [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) 
-  * [Backup to Microsoft Azure Tool](https://blogs.technet.microsoft.com/dataplatforminsider/2014/07/24/get-started-backing-up-to-the-cloud-with-sql-server-backup-to-microsoft-azure-tool/) for SQL 2008/R2 version. 
+  * [Backup to Microsoft Azure Tool](https://blogs.technet.microsoft.com/dataplatforminsider/2014/07/24/get-started-backing-up-to-the-cloud-with-sql-server-backup-to-microsoft-azure-tool/) for SQL 2008/R2 version
   * [Azure Backup and Site Recovery](https://docs.microsoft.com/azure/backup/) 
-  * [Convert on-premises machine to Hyper-V VHD](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image), upload to Azure Blob storage, and deploy a new VM using the VHD. 
+  * [Convert on-premises machine to Hyper-V VHD](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image), upload to Azure Blob storage, and deploy a new VM using the VHD
   * [Migrate your hard drive using the Windows Import/Export service.](https://docs.microsoft.com/azure/import-export/storage-import-export-service) 
 
   If you **don't have a scheduled downtime** and want to migrate your databases, the only option is to [set up a hybrid Always-on group](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) between your on-premises and Azure, and fail that over to Azure.   
@@ -40,7 +40,7 @@ Most users are able to resolve issues concerning migrating to SQL VM by using th
 
    * Make sure you [transfer your logins from on-premises to SQL Server on Azure VM](https://docs.microsoft.com/troubleshoot/sql/security/transfer-logins-passwords-between-instances) after migration. Also [update the statistics](https://docs.microsoft.com/sql/t-sql/statements/update-statistics-transact-sql?view=sql-server-ver15) and [rebuild indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#rebuild-an-index).
 
- * **Data Migration Assistant(DMA)** 
+ * **Data Migration Assistant (DMA)** 
 
    * [DMA](https://www.microsoft.com/download/details.aspx?id=53595) enables you to upgrade to a modern data platform by detecting **compatibility issues** that can impact database functionality on your new version of SQL Server. DMA also **recommends performance and reliability improvements** for your target environment. It allows you to not only **move your schema and data, but also to move uncontained objects** from your source server to your target server. 
 
